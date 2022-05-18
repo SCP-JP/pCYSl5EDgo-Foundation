@@ -1,0 +1,532 @@
+[[div style="display: none;"]]
+[[include :scp-wiki:theme:placestyle]]
+[[/div]]
+
+[[div style="display: none;"]]
+[[include component:image-block name=https://scp-wiki.wdfiles.com/local--files/placeholder-mcd-s-authorpage/s17_purp.png|caption=.]]
+[[/div]]
+
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --accentColor: #97e;
+    --lgurl: url(https://scp-wiki.wdfiles.com/local--files/placeholder-mcd-s-authorpage/s17_purp.png);
+    --header-title: "サイト-17深淵目録";
+    --header-subtitle: "確保 - 収容 - 保護";
+}
+#side-bar {
+     background-color: #fff;
+     left: -23em;
+    }
+
+body {
+    background: #080016 !important;
+    font-family: 'Inter', sans-serif;
+}
+
+#header h1 a::before, #header h2::before {
+letter-spacing: 2px;
+font-family: 'Work Sans', sans-serif !important;
+font-weight: 700 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Work Sans', sans-serif !important;
+font-weight: 700 !important;
+text-transform: uppercase !important;
+}
+
+#header h2::before {
+font-size: 1em;
+}
+
+#header h1 a::before {
+font-size: 1em;
+letter-spacing: 5px;
+}
+
+.allmont, .allmont *, .allmont *::before, .allmont *:before, .allmont *::after, .allmont *:after {
+font-family: 'Work Sans', sans-serif !important;
+font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    #main-content {
+       max-width: 98%;
+    }
+}
+
+.notation {
+    border-left: solid 3px rgb(40, 40, 40);
+    border-right: solid 3px rgb(40, 40, 40);
+    padding: 5px 15px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.7);
+    width: 75%;
+    margin: auto;
+    background: rgb(20, 20, 20) !important;
+    overflow: auto;
+    height: auto;
+}
+
+.modal {
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.7);
+    width: 96%;
+    margin: auto;
+    background: rgb(20, 20, 20);
+    border: solid 2px rgb(40, 40, 40);
+    overflow: auto;
+    height: auto;
+}
+
+.bigtext {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: var(--accentColor);
+    font-size: 110%;
+}
+
+.scp-image-block .scp-image-caption p {
+    font-size: 110%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.scp-image-block {
+    border: none;
+    box-shadow: none;
+}
+
+.scp-image-block .scp-image-caption {
+    border-top: none !important;
+    margin-top: 8px;
+    background: rgb(10, 10, 10);
+    color: #ffffff;
+}
+
+.scp-image-block img,
+.scp-image-block .scp-image-caption {
+    outline: solid 1px var(--accentColor);
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.7);
+}
+
+div#extra-div-1 {
+    filter: opacity(0.4);
+}
+
+/* excerpt div stuff */
+.excerpt {
+  border: solid 2px var(--accentColor);
+  border-left-width: 10px;
+  padding: 1px 15px;
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  background: #303040;
+}
+@media (max-width: 479px) {
+  .excerpt {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* replacing wikidot syntax for centering/size */
+.excerpt > p:first-child {
+  text-align: center;
+  font-size: 80%;
+}
+.excerpt p:first-child > strong:first-of-type,
+.excerpt p:first-child > em {
+  font-size: 125%;
+}
+.excerpt:not(.hub) > hr ~ p {
+  font-style: italic;
+}
+/* excerpt border colors */
+.series.lifeless {
+  --accentColor: #06f;
+}
+.series.white-space {
+  --accentColor: #0f6;
+}
+.admonition {
+  --accentColor: #f24;
+}
+.other {
+  --accentColor: #ccc;
+}
+.other a {
+  --accentColor: #97e;
+}
+.jp {
+  --accentColor: #ff2281;
+}
+
+/* section header stuff */
+.section-header {
+  border-bottom: 2px solid var(--accentColor);
+  margin: 50px 0 15px;
+}
+.section-header h1 {
+  margin-bottom: 2px;
+}
+[[/module]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+----
+@@ @@
+@@ @@
+[[==]]
+[[div class="notation"]]
+財団は国際的な秘密組織であり、あらゆるメディア、文芸、大衆知識を掌握している。彼等は研究員からサイト管理官、そして監督者の序列からなる厳格な階級制度のなかで働き、人類が永劫至福の無知に留まるようにしている。彼等は神を収容するだろうし、既にしていた。そして誰も気にする様子は無い。
+
+= [[span class="bigtext"]]何一つ問題はない。[[/span]]
+[[/div]]
+@@ @@
+@@ @@
+[[div class="notation"]]
+サイト-17は財団で二番目に大きな収容施設であり、数百の研究員を抱え、その倍はあるアノマリーを収容している。汚職が次第に上層部に広まってきており、具現化した異常が現実の扉を叩いている。誰かが足を止め、人型実体のすすり泣く声を聞いた。
+
+= [[span class="bigtext"]]何一つ問題ないのだろうか？[[/span]]
+[[/div]]
+@@ @@
+@@ @@
+[[div class="notation"]]
+サイト-17は限界だ。いつだって予感に満ちた鼓動がゆったりとしたペースで鳴り響いている。いつだってより大きなものを知っている。いつだって手の及ばない終わりがある。だから顔を伏せ、脇目も振らずに働き続けろ。我々がしていることを好きになる必要はない、ただやりさえすればいいんだ。夢に出てきたなら精神科医にかかれ。気分が悪くなってきたなら血から目を背けろ。記憶が消えてきても気にするな。ここはそういう場所なのだから。
+
+= [[span class="bigtext"]]何もかも間違っている。[[/span]]
+[[/div]]
+[[/==]]
+@@ @@
+
+[[div class="section-header"]]
++* 作品
+[[/div]]
+
+深淵目録はおおまかに、シリーズ作品と単独作品に分かれている。推奨される読み順は以下に並ぶとおりだが、カノンのテーマやアイデアについて手短に知りたければ、[#standalones シリーズ非参加の作品]からでも構わない。
+@@ @@
+[[div class="series lifeless"]]
+[[collapsible show="'これら命無きモノたち'" hide="'これら命無きモノたち'" folded="no"]]
+
+[[div class="excerpt"]]
+**[[[SCP-4051]]]:** //Your Friendly Neighborhood Keter//
+by **Nagiros**
+----
+SCP-4051 is a male humanoid which can create temporary Class-E wormholes to extradimensional spaces populated by a theoretically infinite number of a unique item. Efforts to utilize it to the Foundation's benefit are ongoing.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4260]]]:** The Subdirective
+by **Nagiros**
+----
+SCP-4260 refers to the consciousness of an essophysical entity which has permeated itself through the known universe. The effect of SCP-4260's existence has been well documented by almost every sapient culture.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[APAS|Automated Passive Amnestization System Ver. 17.09]]]**
+by **Nagiros**
+----
+[[module CSS]]
+div.terminal {
+  margin-bottom: 1em;
+  border: solid 3px #BBBBBB;
+  border-radius: 16px;
+  background-color: #131;
+  background-image: radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121); /* black shadow at the top of the terminal */
+  background-position: center;
+  box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5); /* shadow around the terminal */
+  overflow: hidden; /* prevents scanline from forming a scrollwheel */
+  color: rgba(128,255,128,0.8);
+  font-family: monospace;
+  font-size: 1.45em;
+  padding: 0 1em;
+}
+[[/module]]
+
+[[div class="terminal"]]
+Your current version of the Automated Passive Amnestization System (APAS), installed at Site-17, is up to date and all systems are online. What now?
+[[/div]]
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[He Who Screws With Reality]]]**
+by **Nagiros**
+----
+"His first name is Samuel. Last name is Veras. He's a Class V reality bender, and we have no idea how to keep him contained. The Foundation's never seen anything like him before."
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4175]]]:** //Friends Made, and the **Void**//
+by **Nagiros**
+----
+SCP-4175 is a Level-I Humanoid Apparition which can be viewed in the reflection of a bathroom vanity mirror.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4415]]]:** //ヒト科収容チャンバー#λ045//
+by **Nagiros**
+----
+SCP-4415はサイト-17の旧ヒト科収容ユニット＃λ045のドアからアクセス可能な一連の異次元空間であり、非異常な人間のアクセスはできません。
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4755]]]:** //我々が全能であるとき//
+by **Nagiros**
+----
+SCP-4755は、封じ込めという概念化の最終的な目的を指します。
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[Systems Patch]]]**
+by **Nagiros**
+----
+[[div style="background: #eee; border: solid 1px #6f4c7a; padding: 5px 15px; margin: 5px 5px 12.8px 5px"]]
+= [[span class="bigtext" style="color: #6f4c7a;"]]{{Hello, Nathaniel. Will you be implementing my interface update tonight?}}[[/span]]
+[[/div]]
+[[/div]]
+
+[[/collapsible]]
+[[/div]]
+@@ @@
+[[div class="series white-space"]]
+[[collapsible show="'ホワイトスペース'" hide="'ホワイトスペース'" folded="no"]]
+
+[[div class="excerpt hub"]]
+**[[[white space (HUB)]]]**
+----
+未来は君が思い描くだろうものよりも昏い。意識されない地獄の光景、現在の継続先、港の上の砂嵐の空が生まれる所。財団は──変貌の中のこの段階を財団と呼べるのならば──最終段階へと突入していた。
+
+幸いにも、この地獄はそう続かないだろう。
+[[/div]]
+
+[[/collapsible]]
+[[/div]]
+@@ @@
+[[div class="series a-part"]]
+[[collapsible show="'一員'" hide="'一員'" folded="no"]]
+
+[[div class="excerpt"]]
+**[[[SCP-5097]]]:** //9時から5時まで仕事中//
+by **VoidLady**
+----
+カラ上級研究員は2020年4月8日に自発的に物理的空間から消失しました。
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[Hurt]]]**
+by **CelesteKara**
+----
+They put their head in their hands as they continued to look over the notebook. They had always been troubled with something since they were a kid.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[Without You]]]**
+by **CelesteKara**
+----
+They weren't just missing, they were gone. Their presence had left the universe and wouldn’t return.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[Somnambulant Directives Take The Helm]]]**
+by **Nagiros**
+----
+Their coworkers dreamed of the hyperreal, but Kassidy was left with paper cuts.
+[[/div]]
+
+[[/collapsible]]
+[[/div]]
+@@ @@
+[[div class="admonition"]]
+[[collapsible show="'訓戒'" hide="'訓戒'" folded="no"]]
+@@ @@
+[[div class="excerpt notation"]]
+**[*/admonition-hub 訓戒 (ハブ)]**
+by **Azamo、Placeholder McD、他**
+----
+= //全てを統制するということは、何も統制しないということだ。支配権は強くなるとともに、また薄く広がってもいく。//
+----
+達成できないことを達成しようとする、敗北に直面したとき挑戦しようとする本能は、我らが財団のイデオロギーの中核であり、それがゆえに疑われることはない。我々は決意したいかなる目標でも達成することができ、それゆえ疑わずにそうすることだろう。しかし、それでも、我々の目指すものは、気高き大志を持ちながらも、傲慢であることはない — 我々は途方もないほど高く登るも、その山の頂上は望ましくないものだと心に思う。我々は満足していない。
+
+= [[span class="bt"]]何一つ問題はなくなる。[[/span]]
+[[/div]]
+[[/collapsible]]
+[[/div]]
+@@ @@
+----
+@@ @@
+[[# standalones]]
+[[div class="series other"]]
+[[collapsible show="深淵の情景" hide="深淵の情景" folded="no"]]
+
+[[div class="excerpt"]]
+**[[[A Hymn For Pandora|パンドラへの讃歌]]]**
+by **Nagiros**
+----
+君たちの中には、このメモに含まれている暴露を不愉快と感じる人もいるかもしれないが、私は彼らが円滑な財団運営をより良く促進することを約束しよう。
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[test-subjects|'Test Subjects' (B82SW/9KL74/Y4P1K)]]]**
+by **Ralliston**
+----
+And what will we do about this, Mr. Graham? It'd be a true shame if saving 1 pound per subject would have to cost us this much.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4855]]]:** //Mind Like a Steel Trap//
+by **loddite**
+----
+SCP-4855 is a 74 year-old African-American female, legally named Ms. Edwina Drake, of ██████████, North Dakota. SCP-4855 is immune to informational, psychological, memetic, and antimemetic anomalies.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4518]]]:** //MBMBMBMBMBMBMBaM//
+by **cybersqyd**
+----
+SCP-4518は外見的に同一な、約30歳の白人男性の異常な集団です。SCP-4518の個体数を数えようと試みると、既に存在する個体の数が増加します。
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-5947]]]:** //SILVERFISH//
+by **UraniumEmpire**, **MaliceAforethought**
+----
+Once monthly, a member of D-Class personnel is to enter Chamber 02 and select one of the bowls at random — they will then be instructed to consume its contents, and staff are permitted to use physical force to ensure they comply.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4936]]]:** //Summer Vacation// 🦀
+by **Nagiros**
+----
+Although SCP-4936 usually presents as Beta Cancri, it is capable of altering its physical form, usually to take the appearance of a mundane crab.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-5715]]]:** //Ghosts of Time's Past//
+by **Nitro147**
+----
+The progression of events described below can be confirmed to have happened in one or more previous historical progressions with 98.6% certainty.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-6113]]]:** //Temporary Reflections//
+by **Dr Asteria**
+----
+If there was a button that let you change sex, would you press it?
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-6086]]]:** //Errata//
+by **Arcydziegiel**
+----
+At this point, we can only hope that he is no longer conscious.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-5576]]]:** //Damned to Limbo//
+by **Cremo**, **Jack Waltz**
+----
+"And in all honesty, it simply wouldn't be fair for me to live a happy, normal life with everything I've done."
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-6124]]]:** //牛さん見っけ//
+by **Nagiros**
+----
+観察者がベクターの原点であるウシから視線を逸らすと、SCP-6124の効果は停止します。
+[[/div]]
+
+[[/div]]
+[[/collapsible]]
+
+@@ @@
+
+[[div class="series jp"]]
+[[collapsible show="支部作品" hide="支部作品" folded="no"]]
+[[div class="excerpt"]]
+**[[[SCP-2599-JP]]]** - //特等席で幕は下りる// by **stengan774**
+----
+SCP-2599-JPは不特定多数のある個人が、末期の健康状態や致命的な怪我を負った状態など何らかの理由により死の直前にある際に発生する一連の異常現象です。
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-2844-JP]]]** - //認知的不協和// by **Enderman_desu**
+----
+SCP-2844-JPは不特定の領域で流通、伝搬を繰り返している未確認のミーム災害です。
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-2566-JP]]]** - //RETURN PARADOX// by **Enderman_desu**
+----
+SCP-2566-JPは、サイト-17地下施設-アルファに存在する財団の固有兵器です。
+[[/div]]
+[[/collapsible]]
+[[/div]]
+
+[[div class="section-header"]]
++* カノンの詳細
+[[/div]]
+
+[[tabview]]
+[[tab 言えること]]
+++* はじめに
+
+サイト-17の創作における第一の信条は、財団が本質的には悪であるということだ。彼等は階級制・官僚制を重んじる機関であり、強権的に無知を押し付け、明らかに世界全土に敵対している。彼等は大いなる倫理的善を信奉してこそいるが、それがどんな善かは誰にもわからない。
+
+おそらく財団の研究員たちはこのことに気がついていない。おそらくは、監督者たちでさえもそうして欺かれているのだろう。しかし、財団の罪過の下に踏みにじられてきた者たちは、それほど盲目というわけではない。
+
+++* その次に
+
+サイト-17の創作における第二の信条は、心に揺さぶりかけることだ。多大な空気感と情動への訴えを通して、深淵目録は悪事を基軸とする世界を描き出す。そう、人類保全を目的とする機関はとある悪を孕むものだ。『管理』。財団が根本的理念として掲げてきたそれは、職員が自分達を、そして世界をも差し出し続けてきた未知なる力を隠蔽するための虚飾へと日増しに近づきつつあるようである。
+
+++* つながり
+
+なるべく、サイト-17のために書かれた記事は以下の要素を1つ以上含んでいることが望ましい。
+
+* カノン内で確立されたキャラクターや出来事の登場、あるいは言及
+* 倫理委員会の対応
+* 「秘密」「真実」「ヴェールを維持するためになされた犠牲」へのテーマに沿った関心
+
+いずれにせよ、君の記事にこのページを親設定し、投稿時にここに掲載するのは好きにやってくれていい。タグは**深淵目録**が使用できる。
+
+[[/tab]]
+[[tab 知れること]]
+++ 概念物理学
+概念物理学 (Essophysics) は具現体を扱う学問だ。我々の日常を支配するイデアは、本当は我々のものではない──現実は本源的なアノマリーの意思に従い捻じ曲がる。彼等は各自の概念に沿って現実に現れたり消えたりする存在で、完全な力を持つ者は無く、誰もが概念化の不調和に影響を受け、そして皆、定命の鎖に縛られている。痛々しくも明らかなまでに、その鎖からは逃れられない。
+
+++ タイムラインと重要な出来事
+
+これは主に、1990年に生誕したキャラクターが1970年にサイト管理官になったりしないようにするための無駄あがきとして存在する。君が思っているよりも難しいぞ！
+
+------
+**警告:** 重大なスポイラー。
+
+[[collapsible show="+ 完全なタイムラインを表示" hide="- 完全なタイムラインを隠す" hideLocation="both"]]
+
+||~ 日付 ||~ 出来事 ||
+||1906/06/08 || 最初の人型アノマリー、[[[SCP-6086]]]が収容される。 ||
+||1910|| 倫理委員会の創設。 ||
+||1912/10/02 || [[[SCP-6086]]]がNeutralizedに指定される。 ||
+||1987|| 財団は[[[SCP-4755]]]の存在に気づくが、その発生源や性質を特定することは叶わない。 ||
+||1999/01/13|| 自主的な顕現と医療支援の要求の後、死 (Death) は[[[SCP-4260]]]として収容される。||
+||2003|| [[[APAS|アポリオン]]] (Apollyon) が初めて顕現しサイト-17を破壊するが、スカイラー博士によって押し戻される。ウェザーズ博士が暫定サイト管理官に急遽昇進する。 ||
+||2005/5/13|| イラントゥ //マーク-LXXII// が財団に西暦2103年からSCP-4755についての連絡を送る。 ||
+||2010/01/04||アポリオンが顕現イベントを完遂したのち、このタイムラインを去る。 ||
+||2011/4/17||多大な努力を経て[[[SCP-4518]]]が収容される。||
+||2012/8||ライナー・ミラーが[[[SCP-4051]]]として収容される。||
+||2015/08/09||[[[SCP-4175|アレックス・コンラッド]]]が無力化される。||
+||2016/02/13||財団管理者イーサン・ホロウィッツがSCP-4260の後を継ぎ、ΩK-クラス (“死の終焉”) シナリオを防ぐ。||
+||2103||財団が第Ⅴ層の概念異常へ上昇し、SCP-4755となる。||
+
+[[/collapsible]]
+[[/tab]]
+[[tab 成せること]]
+= <今後のために仮設置>
+[[/tab]]
+[[/tabview]]

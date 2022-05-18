@@ -1,0 +1,420 @@
+アノマリー分類システム (ACS) ガイド
+ACSって何?
+ACSは既存のオブジェクトクラスシステムにさらなる深みを与える新しい分類システムです。 これは既存のオブジェクトクラスシステムを置き換えることを意図したものではなく、それを強化することのみを意図したものです。
+
+クレジット
+アノマリー分類システムは
+Woedenaz
+Woedenaz
+により、以下のメンバーの多大な協力を得て作成されました: 
+The Great Hippo
+The Great Hippo
+ | 
+Rounderhouse
+Rounderhouse
+ | 
+djkaktus
+djkaktus
+ | 
+Yossipossi
+Yossipossi
+ | 
+Captain Kirby
+Captain Kirby
+ | 
+CadaverCommander
+CadaverCommander
+ | 
+Uncle Nicolini
+Uncle Nicolini
+ | 
+aismallard
+aismallard
+ | 
+Jade Skylar
+Jade Skylar
+ | 
+Lt Flops
+Lt Flops
+ | 
+Sterbai 
+Sterbai
+
+ACSを用いた記事の全データベース
+*これは ACSコンポーネントバーを使っているかどうかに関わらず、全てのSCPを読み、現在ACSを使った全てのページを見つけようとするツールにより（ほぼ）自動作成されました。
+
+もしACSが使われているページで以下に載っていないものを見つけたら、
+Woedenaz
+Woedenaz
+に知らせてください!
+
+最新の更新: 2021/3/21
+
+<<ACSデータベースを表示する>>
+例
+ACSバーの例
+アイテム番号: 2105
+レベル2
+収容クラス:
+EUCLID
+撹乱クラス:
+VLAM
+リスククラス:
+NOTICE
+link to memo
+使用するには、こちらのコンポーネントガイドを参照してください
+ハイブリッドおよびテクスチュアルACSコンポーネントの詳細については、こちらをご覧ください
+ハイブリッドの例
+ガイドへのリンク
+アイテム番号:2105
+クリアランスレベル2:
+Clearance
+収容クラス:
+Euclid
+euclid-icon.svg
+副次クラス:
+Apollyon
+apollyon-icon.svg
+撹乱クラス: #/Vlam
+vlam-icon.svg
+リスククラス: #/Notice
+notice-icon.svg
+テクスチュアルの例
+ガイドへのリンク
+アイテム番号:2105
+クリアランスレベル2:
+Clearance
+収容クラス:
+Euclid
+副次クラス:
+Apollyon
+撹乱クラス: #/Vlam
+リスククラス: #/Notice
+ベアボーンの例
+アイテム番号: SCP-4205
+クリアランスLv2: Restricted
+
+オブジェクトクラス: Euclid
+撹乱クラス: 2/Vlam
+リスククラス: 1/Notice
+ 
+
++ ベアボーンの例のコードを開く
+ACSを使った分類は以下のように行います。:
+クリアランスレベル(Clearance Level)
+これは既存のクリアランスレベルの改良です。多数の変更が以下に記されています。クリアランスレベルは、文書に含まれた情報を読む許可を与えられた職員のレベルを表します。
+収容クラス(Containment Class)
+これは旧"オブジェクトクラス"と同様です。これは分類が何を示すかをわかりやすくするため、改名されました。つまり収容です。これは「確保、収容、保護」の「収容」です。
+
+撹乱クラス(Disruption Class)
+これはこの分類システムのために新設されたクラスのひとつです。撹乱クラスはアノマリーが世界の現状を乱す、さらに／もしくはベールを破壊する能力を表します。これは「確保、収容、保護」の「確保」です。
+
+オブジェクトの撹乱クラスを考えるとき、あなたはこれらを自問してください:
+
+アノマリーの影響はどの程度早く広まりますか？
+気づかれずにどの程度まで広まることができますか？
+その影響を財団はどのくらい簡単に無効化できますか？
+リスククラス(Risk Class)
+これはこの分類システムのために新設されたクラスのひとつです。リスククラスは人物に対するアノマリーの影響の激しさと、どの程度簡単にそこから回復できるかを表します。これは「確保、収容、保護」の「保護」です。
+
+オブジェクトのリスククラスを考えるとき、あなたはこれらを自問してください:
+
+回復できるとして、人間はどの程度簡単に回復できますか？
+影響はどの程度激しいですか？
+これらの影響が気づかれ始めるのは、どの程度近づいたときですか？
+副次クラス(Secondary Class)
+これはオプションとして用意された新クラスですが、この分類システムのための新規追加というわけではありません。副次クラスは「Esoteric Class」としても知られています1。
+
+これは特殊オブジェクトクラスとしてすでに知られているものを使用され、リストはここにあります。
+
+副次クラスを使用するときには、収容クラスは「Esoteric」とするのが通常ですが、必須ではありません2。
+
+詳しい解説
+クリアランスレベル
+クリアランスレベルはこの分類システムの重要な部分であり、著者や読者のヘッドカノンに大きく依存します。以下の説明はある特定の財団観に基づいたものであり、あなたの財団観とは一致しないかもしれません。ですが問題ありません!これらを一般的なガイドラインとして使用し、あなたの見かたに合わせて適合させてください。
+
+レベル 1: Unrestricted (UR)
+この文書はすべての財団職員に閲覧可能です。財団から定期的な給与支払いを受けているならば、この文書を見ることができます。
+レベル 2: Restricted (RS)
+この文書は申請があれば大部分の職員が閲覧可能です。もし職員が部下を持っているならば、その職員はすでにレベル2アクセスを持っています。もし部下がいないならば、文書にアクセスするには上司の許可が必要です。
+
+レベル 3: Confidential (CF)
+この文書は少数の職員にのみ閲覧可能です。サイトの筆頭の管理的なスタッフはレベル3アクセスを持っています。もし部下を抱える職員で、レベル3アクセスが無いならば、文書にアクセスするにはサイトの管理的な職員の許可が必要です。もし部下を持たない職員ならば、まず上司に申請が必要であり、さらにその上司がサイトの管理的な職員の許可を申請します。
+
+レベル 4: Secret (SC)
+この文書はサイト及び財団の管理レベルのスタッフのみが閲覧可能です。レベル4アクセスを持たない状態でのアクセスは、一般的には却下され、非常に特殊な目的のためにのみ許可されます。
+
+レベル 5: Top Secret (TS)
+この文書は、倫理委員会やO5評議会といった、財団の最高の管理レベルのスタッフのみが閲覧可能です。レベル5アクセスを持たないものによるアクセスは常に却下されるでしょう。
+
+レベル 6: Cosmic Top Secret (CTS)
+3
+この文書はO5評議会のメンバーのみが閲覧可能です。この文書へのアクセスはO5評議会メンバーの裁量のみで認可されます。
+
+収容クラス
+オブジェクトクラスのページを参照してください。
+
+NOTE: ACSでは、Thaumielは収容クラスではなく副次クラスと考えられます。
+
+収容クラスの種類
+safe-icon.svg
+SAFE
+euclid-icon.svg
+EUCLID
+keter-icon.svg
+KETER
+neutralized-icon.svg
+NEUTRALIZED
+pending-icon.svg
+PENDING
+explained-icon.svg
+EXPLAINED
+esoteric-icon.svg
+ESOTERIC
+副次クラス
+特殊オブジェクトクラスのページを参照してください。
+
+NOTE: ACSでは、Thaumielは収容クラスではなく副次クラスと考えられます。
+
+副次クラスの種類
+全ての副次クラスがここにリストされているわけではありません。ここではアイコンが描かれたもののみが示されています。全ての種類については特殊オブジェクトクラスのページを参照してください。
+
+apollyon-icon.svg
+APOLLYON
+archon-icon.svg
+ARCHON
+cernunnos-icon.svg
+CERNUNNOS
+decommissioned-icon.svg
+DECOMMISSIONED
+hiemal-icon.svg
+HIEMAL
+tiamat-icon.svg
+TIAMAT
+ticonderoga-icon.svg
+TICONDEROGA
+thaumiel-icon.svg
+THAUMIEL
+uncontained-icon.svg
+UNCONTAINED
+撹乱クラスのレベル4
+dark-icon.svg
+DARK
+vlam-icon.svg
+VLAM
+keneq-icon.svg
+KENEQ
+ekhi-icon.svg
+EKHI
+amida-icon.svg
+AMIDA
+Dark
+5
+既知または潜在的な撹乱能力が、懸念するほどではないほど低いことを意味します。
+オブジェクトは基本的に接触されない限り不活性であり、潜在的に1人の人物にしか影響しないと思われます。
+
+財団は、事後のクリーンアップが必要ないほど取るに足らないことを見出すでしょう。
+Vlam
+6
+既知または潜在的な撹乱能力が、ごく一握りの人々に限局されるであろうことを意味します。
+
+異常性は確実に複数の人々に影響しますが、広範囲に拡大することはないでしょう。
+
+財団は、その影響を無力化するのは比較的シンプルなことを見出すでしょう。
+
+Keneq
+7
+既知または潜在的な撹乱能力が、概ね都市人口ほどの人々に拡大する程度に強いことを意味します。
+
+異常性は、懸念するのに十分なかなりの速度で拡大しえます。
+
+財団はその影響を無力化するのはまあまあ難しいことを見出すでしょう。
+
+Ekhi
+8
+既知の撹乱能力が、概ね大都市圏から国全体のサイズに拡大する可能性があるほど強いことを意味します。潜在的な撹乱能力は、既知の全世界まで拡大する可能性があります。
+
+拡散は早く、対応が難しいでしょう。
+
+財団は、その影響を無力化するのは非常に難しいことを見出すでしょう。
+
+Amida
+9
+この撹乱クラスは、財団が本質的にアノマリーに「宣戦布告」するような特殊な状況のために使用されるべきです。アノマリーが世界の現状と財団のベールに対し、無力化のためにはあらゆる可能な選択肢を使わなくてはならない程の深刻な脅威を提示する状況です。
+
+Amidaアノマリーの影響は既知の世界全体を超え、宇宙全体まで広がる可能性があります。
+
+リスククラスのレベル
+notice-icon.svg
+NOTICE
+caution-icon.svg
+CAUTION
+warning-icon.svg
+WARNING
+danger-icon.svg
+DANGER
+critical-icon.svg
+CRITICAL
+Notice
+オブジェクトの異常な影響は殆ど存在しないか微弱です。
+オブジェクトに近接した人物はオブジェクトから何も感じません。
+
+近くの人物には何の危険も及ぼしません。
+Caution
+オブジェクトの異常な影響は微弱から中程度です。
+
+オブジェクトに近接した人物は微弱な影響を感じるかもしれません。
+
+近くの人物には微弱な危険を及ぼします。
+
+Warning
+オブジェクトの異常な影響は中程度から重大です。
+
+オブジェクトに近接した人物は微弱な影響を感じるでしょうし、強い影響を感じるかもしれません。
+
+近くの人物には中程度の危険を及ぼします。
+
+Danger
+オブジェクトの異常な影響は重大から極度です。
+
+オブジェクトに近接した人物は強い影響を感じるでしょうし、極度の影響を感じるかもしれません。
+
+近くの人物には重大な危険を及ぼします。
+
+Critical
+このリスククラスはオブジェクトの影響がほぼ即時かつ／もしくは極度に激しい場合にのみ選ばれるべきです。
+
+必ずしも実際の死を引き起こす必要はありませんが、死の可能性が極めて高く予想されます。オブジェクトに近接した人物は即座に影響を感じ、回復の可能性はありえません。
+
+ACSのアドオン&エキストラ
+アイコンいっぱい!
+もっとクールなACSの副次クラスのアイコンが欲しいなら
+by 
+ShineShadowD
+ShineShadowD
+翻訳者 
+Dr Fishbone
+Dr Fishbone
+ShineShadowIcons.png
+JosephJoestarのアイコン倉庫
+by 
+JosephJoestar
+JosephJoestar
+翻訳者 
+Dr Fishbone
+Dr Fishbone
+JosephJoestarIcons.png
+Calibriの超クールなアートページ（ほとんどアイコンだけだけれど、それでもやっぱり超クール）
+by 
+Calibold
+Calibold
+CalibriIcons.png
+Dr.Monedのアイコンとアートワーク
+by 
+Dr Moned
+Dr Moned
+DrMonedIcons.png
+ItsDenali's Bison Box
+by 
+ItsDenali
+ItsDenali
+ItsDenaliIcons.png
+Greyve Art Page
+by 
+Greyve
+Greyve
+GreyveIcons.png
+ACSの改造と代替
+Flops Headerテンプレート
+by 
+Lt Flops
+Lt Flops
+アイテム番号: SCP-4205	レベル2/4205
+収容クラス: EUCLID	SECRET
+撹乱クラス: VLAM
+
+Advanced Information Methodology (AIM) Component
+by 
+Dr Moned
+Dr Moned
+ITEM #: SCP-4205
+
+LEVEL- 
+
+CONTAINMENT CLASS: EUCLID
+
+DISRUPTION CLASS: Vlam
+
+Assigned Site
+
+Site-0
+
+Site Director
+
+Dr Woed
+
+Research Head
+
+Dr Naz
+
+Assigned MTF
+
+Alpha-80085
+
+ACS Lite by peppo
+by 
+PeppersGhost
+PeppersGhost
+peppo-lite-example.png
+ACS Splitter
+by 
+PeppersGhost
+PeppersGhost
+peppo-splitter-example.png
+ACSアニメーション
+by 
+EstrellaYoshte
+EstrellaYoshte
+ACSAnimVid.webp
+カーソルを合わせると見えます!
+Mega Cool Customizable ACS Add-On Ver. 1.7.0
+by 
+Calibold
+Calibold
+SCP-5956
+レベル5
+収容クラス:
+ANTITHESIS
+撹乱クラス:
+AMIDA
+リスククラス:
+CAUTION
+link to memo
+Footnotes
+1. 訳注: 日本支部では「特殊オブジェクトクラス」などと訳されています。
+2. 日本支部でこのシステムに則った記事を書くならば、「特殊」などとするのが適当であろうか？
+3. バカバカしい名前でしょうか？ええ、そうかもしれませんが、NATOでも最高のクリアランスレベルとして使われています。
+4. 撹乱クラスのレベルは光の強さに基づいています。撹乱クラスが高まるほど、遠くまで届く光となります。
+5. 「Safe」と同じような感覚で、基準として理解しやすいものとして設定されました。
+6. オランダ語で炎の意、一般的にはロウソクの炎をさします。
+7. ユピク語で炎の意、一般的にはキャンプファイヤーですが、もっと大きなものをさすこともあります。
+8. バスク語で太陽の意。
+9. 多くの意味がありますが、この場合は、ブッダの永遠の光を意味します。
+enエッセイ
+page revision: 16, last edited: 24 Mar 2022, 13:29 (21 days ago)
+Stop watching site scp-jp.wikidot.com [?]
+Edit
+Rate (
++51
+)
+Tags
+Discuss (5)
+History
+Files
+Print
+Site tools
++ Options
+Help  | Terms of Service  | Privacy  | Report a bug  | Flag as objectionable
+Powered by
+Wikidot.com
+特に指定がない限り、このサイトのすべてのコンテンツはクリエイティブ・コモンズ 表示 - 継承3.0ライセンス の元で利用可能です。
