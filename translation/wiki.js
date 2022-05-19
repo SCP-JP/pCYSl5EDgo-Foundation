@@ -1,9 +1,17 @@
 var WIKIDOT = {};
-var WIKIDOT = { page: function () { }, modules: function () { }, utils: function () { }, vars: function () { } };
+var WIKIDOT = {
+    page: function () {
+    }, modules: function () {
+    }, utils: function () {
+    }, vars: function () {
+    }
+};
 WIKIDOT.utils = {
     changeTextareaRowNo: function (b, d) {
         var c = $(b);
-        if ((d < 0 && c.rows + d >= 5) || (d > 0 && c.rows + d <= 50)) { c.rows = c.rows + d }
+        if ((d < 0 && c.rows + d >= 5) || (d > 0 && c.rows + d <= 50)) {
+            c.rows = c.rows + d
+        }
     }
 };
 WIKIDOT.captcha = {
@@ -65,27 +73,37 @@ WIKIDOT.visuals = {
 WIKIDOT.utils.handleError = function (c) {
     if (c.status != "ok") {
         var b = new OZONE.dialogs.ErrorDialog();
-        if (c.status == "no_permission") { b.title = ogettext("Permission error") } b.content = "<h1>" + ogettext("Please note:") + "</h1><p>" + c.message + "</p>";
+        if (c.status == "no_permission") {
+            b.title = ogettext("Permission error")
+        } b.content = "<h1>" + ogettext("Please note:") + "</h1><p>" + c.message + "</p>";
         b.show();
         return false
-    } else { return true }
+    } else {
+        return true
+    }
 };
 WIKIDOT.utils.handleErrorBootstrap = function (d, c, b) {
-    if (!b) { var b = $j(".error-block") } b.hide();
+    if (!b) {
+        var b = $j(".error-block")
+    } b.hide();
     if (d.status != "ok") {
         b.find(".error-block-message").html("<p>" + d.message + "</p>");
         b.show();
         OZONE.visuals.scrollTo("header");
         c.modal("hide");
         return false
-    } else { return true }
+    } else {
+        return true
+    }
 };
 WIKIDOT.render = {};
 WIKIDOT.render.printuser = function (c, g, f) {
     var e = 'href="javascript:;" onclick="WIKIDOT.page.listeners.userInfo(' + c + ')"';
     var b = '<span class="printuser avatarhover">';
     var d = window.location.protocol;
-    if (f == true) { b += "<a " + e + ' ><img class="small" src="' + d + "//" + URL_HOST + "/avatar.php?userid=" + c + "&amp;size=small&amp;&timestamp=" + new Date().getTime() + '" alt="" style="background-image:url(' + d + "//" + URL_HOST + "/userkarma.php?u=" + c + ')"/>' } b += "<a " + e + ">" + g + "</a></span>";
+    if (f == true) {
+        b += "<a " + e + ' ><img class="small" src="' + d + "//" + URL_HOST + "/avatar.php?userid=" + c + "&amp;size=small&amp;&timestamp=" + new Date().getTime() + '" alt="" style="background-image:url(' + d + "//" + URL_HOST + "/userkarma.php?u=" + c + ')"/>'
+    } b += "<a " + e + ">" + g + "</a></span>";
     return b
 };
 WIKIDOT.render.fixAvatarHover = function (b) {
@@ -119,7 +137,8 @@ WIKIDOT.render.fixAvatarHover.showHover = function (k) {
         r.append(n);
         YAHOO.util.Event.addListener(n, "mouseout", WIKIDOT.render.fixAvatarHover.hideHover);
         YAHOO.util.Event.addListener(n, "mousemove", WIKIDOT.render.fixAvatarHover.mousemove)
-    } var l = this.hoverAvatar;
+    }
+    var l = this.hoverAvatar;
     var g, f;
     g = YAHOO.util.Dom.getX(this) + 8 + 8;
     f = YAHOO.util.Dom.getY(this) + 8;
@@ -145,16 +164,26 @@ WIKIDOT.render.fixAvatarHover.showHover = function (k) {
 };
 WIKIDOT.render.fixAvatarHover.hideHover = function (c) {
     var b = YAHOO.util.Event.getRelatedTarget(c);
-    if (!YAHOO.util.Dom.isAncestor(this, b) && b != this) { $j(this).hide() }
+    if (!YAHOO.util.Dom.isAncestor(this, b) && b != this) {
+        $j(this).hide()
+    }
 };
-WIKIDOT.render.fixAvatarHover.mousemove = function (b) { this.lastAccess = (new Date()).getTime() };
+WIKIDOT.render.fixAvatarHover.mousemove = function (b) {
+    this.lastAccess = (new Date()).getTime()
+};
 WIKIDOT.render.fixAvatarHover.mousemove.autoHide = function (d) {
     var b = $(d);
     var c = (new Date()).getTime();
-    if (b.lastAccess + 3000 < c) { $j(b).hide() } else { setTimeout('WIKIDOT.render.fixAvatarHover.mousemove.autoHide("' + b.id + '")', 1000) }
+    if (b.lastAccess + 3000 < c) {
+        $j(b).hide()
+    } else {
+        setTimeout('WIKIDOT.render.fixAvatarHover.mousemove.autoHide("' + b.id + '")', 1000)
+    }
 };
 WIKIDOT.page.vars = {};
-WIKIDOT.page.vars = { forceLockFlag: false, draft: false, draftText: false, draftTitle: false, draftDateLastSaved: false };
+WIKIDOT.page.vars = {
+    forceLockFlag: false, draft: false, draftText: false, draftTitle: false, draftDateLastSaved: false
+};
 WIKIDOT.page.listeners = {
     editClick: function (g) {
         var c = WIKIREQUEST.info.pageId;
@@ -167,7 +196,9 @@ WIKIDOT.page.listeners = {
             } else {
                 var d = $("new-post-form-container");
                 d.parentNode.removeChild(d);
-                if ($("new-post-button")) { $("new-post-button").style.display = "" } WIKIDOT.Editor.shutDown()
+                if ($("new-post-button")) {
+                    $("new-post-button").style.display = ""
+                } WIKIDOT.Editor.shutDown()
             }
         } if (c != null) {
             var f = new Object();
@@ -182,7 +213,8 @@ WIKIDOT.page.listeners = {
         } if (WIKIDOT.page.vars.forceLockFlag == true) {
             WIKIDOT.page.vars.forceLockFlag = false;
             f.force_lock = "yes"
-        } OZONE.ajax.requestModule("edit/PageEditModule", f, WIKIDOT.page.callbacks.editClick)
+        }
+        OZONE.ajax.requestModule("edit/PageEditModule", f, WIKIDOT.page.callbacks.editClick)
     }, append: function (c) {
         var b = new Object();
         b.page_id = WIKIREQUEST.info.pageId;
@@ -208,14 +240,20 @@ WIKIDOT.page.listeners = {
         b.page_id = WIKIREQUEST.info.pageId;
         OZONE.ajax.requestModule("pageblock/PageBlockModule", b, WIKIDOT.page.callbacks.blockClick)
     }, moreOptionsClick: function (c) {
-        if ($j("#page-options-bottom").length == 0) { return } var b = $j("#page-options-bottom-2");
+        if ($j("#page-options-bottom").length == 0) {
+            return
+        }
+        var b = $j("#page-options-bottom-2");
         b.fadeIn();
         $j("#more-options-button").html($("more-options-button").innerHTML.replace(/\+/, "-"));
         YAHOO.util.Event.removeListener("more-options-button", "click", WIKIDOT.page.listeners.moreOptionsClick);
         YAHOO.util.Event.addListener("more-options-button", "click", WIKIDOT.page.listeners.lessOptionsClick);
         OZONE.visuals.scrollTo("page-options-bottom")
     }, lessOptionsClick: function (c) {
-        if ($j("#page-options-bottom-2").length == 0) { return } var b = $j("#page-options-bottom-2");
+        if ($j("#page-options-bottom-2").length == 0) {
+            return
+        }
+        var b = $j("#page-options-bottom-2");
         b.hide();
         $j("#more-options-button").html($("more-options-button").innerHTML.replace(/\-/, "+"));
         YAHOO.util.Event.removeListener("more-options-button", "click", WIKIDOT.page.listeners.lessOptionsClick);
@@ -232,13 +270,19 @@ WIKIDOT.page.listeners = {
         var f = g + "://" + URL_HOST + "/default--flow/login__LoginPopupScreen?originSiteId=" + h;
         var d = window.location;
         f += "&openerUri=" + d.protocol + "//" + d.host;
-        if (k) { f += "&invitationHash=" + k } var c = window.open(f, "login", "width=700,height=640,resizable=yes,directories=no,status=yes,menubar=yes,location=yes,scrollbars=yes");
+        if (k) {
+            f += "&invitationHash=" + k
+        }
+        var c = window.open(f, "login", "width=700,height=640,resizable=yes,directories=no,status=yes,menubar=yes,location=yes,scrollbars=yes");
         c.focus()
     }, createAccount: function (h, c, j) {
         var g = c || WIKIREQUEST.info.siteId;
         var f = USE_SSL ? "https" : "http";
         var d = f + "://" + URL_HOST + "/default--flow/login__CreateAccountScreen?originSiteId=" + g;
-        if (j) { d += "&invitationHash=" + j } var b = window.open(d, "login", "width=700,height=680,resizable=yes,directories=no,status=yes,menubar=yes,location=yes,scrollbars=yes");
+        if (j) {
+            d += "&invitationHash=" + j
+        }
+        var b = window.open(d, "login", "width=700,height=680,resizable=yes,directories=no,status=yes,menubar=yes,location=yes,scrollbars=yes");
         b.focus()
     }, toggleEditSections: function (m) {
         if (WIKIDOT.page.vars.editSectionsActive == false) {
@@ -248,30 +292,38 @@ WIKIDOT.page.listeners = {
             for (var h = 0;
                 h < b.length;
                 h++) {
-                    var c = b[h].tagName;
-                if (c && c.toLowerCase().match(/^h[1-6]$/) && b[h].id.match(/^toc/)) { s.push(b[h]) }
+                var c = b[h].tagName;
+                if (c && c.toLowerCase().match(/^h[1-6]$/) && b[h].id.match(/^toc/)) {
+                    s.push(b[h])
+                }
             } if (s.length == 0) {
                 var r = new OZONE.dialogs.ErrorDialog();
                 r.content = "There are no isolated sections to edit.";
                 r.show();
                 return
-            } var q = 0;
+            }
+            var q = 0;
             var d = ["h1", "h2", "h3", "h4", "h5", "h6"];
             for (var h = 0;
                 h < d.length;
                 h++) {
-                    var k = n.getElementsByTagName(d[h]);
+                var k = n.getElementsByTagName(d[h]);
                 for (var g = 0;
                     g < k.length;
-                    g++) { if (k[g].id.match(/^toc/)) { q++ } }
+                    g++) {
+                    if (k[g].id.match(/^toc/)) {
+                        q++
+                    }
+                }
             } if (q != s.length) {
                 alert("It seems that headings do not have a valid structure...");
                 return
-            } var f = new Array();
+            }
+            var f = new Array();
             for (var h = 0;
                 h < s.length;
                 h++) {
-                    var o = document.createElement("a");
+                var o = document.createElement("a");
                 o.innerHTML = "edit";
                 o.href = "javascript:;";
                 o.className = "edit-section-button";
@@ -288,7 +340,9 @@ WIKIDOT.page.listeners = {
             var l = WIKIDOT.page.vars.sectionEditButtons;
             for (var h = 0;
                 h < l.length;
-                h++) { l[h].parentNode.removeChild(l[h]) } WIKIDOT.page.vars.editSectionsActive = false;
+                h++) {
+                l[h].parentNode.removeChild(l[h])
+            } WIKIDOT.page.vars.editSectionsActive = false;
             return
         }
     }, editMetaClick: function (c) {
@@ -304,13 +358,20 @@ WIKIDOT.page.listeners = {
         var b = new OZONE.dialogs.WaitBox();
         b.content = d.data("progress-text") || "Updating tags...";
         b.show();
-        OZONE.ajax.requestModule(null, { action: "WikiPageAction", event: "updateTagsByButton", pageId: WIKIREQUEST.info.pageId, tags: c }, function (g) {
-            if (!WIKIDOT.utils.handleError(g)) { return } var e = new OZONE.dialogs.SuccessBox();
+        OZONE.ajax.requestModule(null, {
+            action: "WikiPageAction", event: "updateTagsByButton", pageId: WIKIREQUEST.info.pageId, tags: c
+        }, function (g) {
+            if (!WIKIDOT.utils.handleError(g)) {
+                return
+            }
+            var e = new OZONE.dialogs.SuccessBox();
             e.content = d.data("success-text") || "Tags updated.";
             e.show();
             window.location.reload()
         })
-    }, siteTools: function (b) { OZONE.ajax.requestModule("sitetools/SiteToolsModule", null, WIKIDOT.page.callbacks.siteTools) }, backlinksClick: function (d) {
+    }, siteTools: function (b) {
+        OZONE.ajax.requestModule("sitetools/SiteToolsModule", null, WIKIDOT.page.callbacks.siteTools)
+    }, backlinksClick: function (d) {
         var b = WIKIREQUEST.info.pageId;
         var c = new Object();
         c.page_id = b;
@@ -326,7 +387,9 @@ WIKIDOT.page.listeners = {
         var c = new Object();
         c.page_id = b;
         OZONE.ajax.requestModule("viewsource/ViewSourceModule", c, WIKIDOT.page.callbacks.viewSourceClick)
-    }, closeActionArea: function (b) { $j("#action-area").hide() }, userInfo: function (b) {
+    }, closeActionArea: function (b) {
+        $j("#action-area").hide()
+    }, userInfo: function (b) {
         var c = new Object();
         c.user_id = b;
         OZONE.ajax.requestModule("users/UserInfoWinModule", c, WIKIDOT.page.callbacks.userInfo)
@@ -353,11 +416,19 @@ WIKIDOT.page.listeners = {
         var b = new Object();
         b.path = window.location.pathname;
         OZONE.ajax.requestModule("report/FlagPageModule", b, WIKIDOT.page.callbacks.flagPageObjectionable)
-    }, pageBugReport: function (b) { OZONE.ajax.requestModule("report/BugReportModule", null, WIKIDOT.page.callbacks.pageBugReport) }, pageRate: function (b) { OZONE.ajax.requestModule("pagerate/PageRateModule", { pageId: WIKIREQUEST.info.pageId }, WIKIDOT.page.callbacks.pageRate) }, parentClick: function (c) {
+    }, pageBugReport: function (b) {
+        OZONE.ajax.requestModule("report/BugReportModule", null, WIKIDOT.page.callbacks.pageBugReport)
+    }, pageRate: function (b) {
+        OZONE.ajax.requestModule("pagerate/PageRateModule", {
+            pageId: WIKIREQUEST.info.pageId
+        }, WIKIDOT.page.callbacks.pageRate)
+    }, parentClick: function (c) {
         var b = new Object();
         b.page_id = WIKIREQUEST.info.pageId;
         OZONE.ajax.requestModule("parent/ParentPageModule", b, WIKIDOT.page.callbacks.parentClick)
-    }, passwordRecoveryClick: function (b) { OZONE.ajax.requestModule("passwordrecovery/PasswordRecoveryModule", null, WIKIDOT.page.callbacks.passwordRecovery) }, foldToc: function (b) {
+    }, passwordRecoveryClick: function (b) {
+        OZONE.ajax.requestModule("passwordrecovery/PasswordRecoveryModule", null, WIKIDOT.page.callbacks.passwordRecovery)
+    }, foldToc: function (b) {
         $j("#toc-list").fadeOut(200, function () {
             var c = $j("#toc-action-bar").find("a");
             c[0].style.display = "none";
@@ -392,7 +463,10 @@ WIKIDOT.page.listeners = {
             k = "watch/PageWatchStatusModule"
         } c.type = g;
         c.nolayout = true;
-        if (j) { c.unsubscribe = true } var l = b;
+        if (j) {
+            c.unsubscribe = true
+        }
+        var l = b;
         OZONE.ajax.requestModule(k, c, function (e) {
             if (e.status == "no_permission") {
                 OZONE.ajax.requestModule("watch/NotLoggedInModule", {}, function (o) {
@@ -402,29 +476,44 @@ WIKIDOT.page.listeners = {
                     return
                 });
                 return
-            } if (!WIKIDOT.utils.handleError(e)) { return } if (l) {
+            } if (!WIKIDOT.utils.handleError(e)) {
+                return
+            } if (l) {
                 window.location.reload();
                 return
             } if (!d) {
                 var m = YAHOO.util.Dom.getElementsByClassName("page-watch-options");
                 for (i = 0;
                     i < m.length;
-                    i++) { $j(m[i]).hide().html(e.body).fadeIn() }
-            } else { WIKIDOT.modules.DAListModule.getSettings(h, true) }
+                    i++) {
+                    $j(m[i]).hide().html(e.body).fadeIn()
+                }
+            } else {
+                WIKIDOT.modules.DAListModule.getSettings(h, true)
+            }
         })
     }, join: function (k, g) {
-        var j = { action: "MembershipApplyAction", event: "join" };
+        var j = {
+            action: "MembershipApplyAction", event: "join"
+        };
         if (g == "now") {
             var c = new OZONE.dialogs.WaitBox();
             c.content = "Joining..";
             c.show();
             OZONE.ajax.requestModule(null, j, function (l) {
-                if (!WIKIDOT.utils.handleError(l)) { return } var e = new OZONE.dialogs.SuccessBox();
+                if (!WIKIDOT.utils.handleError(l)) {
+                    return
+                }
+                var e = new OZONE.dialogs.SuccessBox();
                 e.content = "Joined!";
                 e.show();
-                setTimeout(function () { window.location.reload() }, 1000)
+                setTimeout(function () {
+                    window.location.reload()
+                }, 1000)
             })
-        } if (g == "create_account") { WIKIDOT.page.listeners.createAccount() } if (g == "unified") {
+        } if (g == "create_account") {
+            WIKIDOT.page.listeners.createAccount()
+        } if (g == "unified") {
             var b = window.location;
             var h = WIKIREQUEST.info.siteId;
             var f = USE_SSL ? "https://" : "http://";
@@ -435,12 +524,21 @@ WIKIDOT.page.listeners = {
 };
 WIKIDOT.page.callbacks = {
     filesClick: function (b) {
-        if (!WIKIDOT.utils.handleError(b)) { return } OZONE.utils.setInnerHTMLContent("action-area", b.body);
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        }
+        OZONE.utils.setInnerHTMLContent("action-area", b.body);
         $("action-area").style.display = "block";
         WIKIDOT.page.utils.addCloseToActionArea();
         setTimeout("OZONE.visuals.scrollTo('action-area')", 200)
     }, editClick: function (c) {
-        if (!WIKIDOT.utils.handleError(c)) { return } if (WIKIDOT.page.vars.newPage == true) { $("page-content").innerHTML = "" } if (WIKIDOT.page.vars.editSectionsActive) { WIKIDOT.page.listeners.toggleEditSections() } editMode = c.mode;
+        if (!WIKIDOT.utils.handleError(c)) {
+            return
+        } if (WIKIDOT.page.vars.newPage == true) {
+            $("page-content").innerHTML = ""
+        } if (WIKIDOT.page.vars.editSectionsActive) {
+            WIKIDOT.page.listeners.toggleEditSections()
+        } editMode = c.mode;
         if (c.locked == true) {
             WIKIDOT.page.vars.locked = true;
             OZONE.dialog.factory.shader().show();
@@ -455,7 +553,9 @@ WIKIDOT.page.callbacks = {
                 if ($("page-options-bottom")) {
                     $("page-options-bottom").style.display = "none";
                     $("page-options-bottom-2").style.display = "none"
-                } if ($("page-options-area-bottom")) { $("page-options-area-bottom").style.display = "none" }
+                } if ($("page-options-area-bottom")) {
+                    $("page-options-area-bottom").style.display = "none"
+                }
             } WIKIDOT.page.vars.editlock = new Object();
             WIKIDOT.page.vars.editlock.id = c.lock_id;
             WIKIDOT.page.vars.editlock.secret = c.lock_secret;
@@ -477,102 +577,169 @@ WIKIDOT.page.callbacks = {
             var d = j.nextSibling;
             f.appendChild(j);
             while (d != null) {
-                if (d.tagName && d.tagName.match(h) && d.id.match(/^toc/)) { break } ns0 = d;
+                if (d.tagName && d.tagName.match(h) && d.id.match(/^toc/)) {
+                    break
+                } ns0 = d;
                 d = d.nextSibling;
                 f.appendChild(ns0)
-            } if (d) { e.insertBefore($("action-area"), d) } else { e.appendChild($("action-area")) }
+            } if (d) {
+                e.insertBefore($("action-area"), d)
+            } else {
+                e.appendChild($("action-area"))
+            }
         } if (c.draft) {
             WIKIDOT.page.vars.draft = c.draft;
             WIKIDOT.page.vars.draftText = c.draftText;
             WIKIDOT.page.vars.draftTitle = c.draftTitle;
             WIKIDOT.page.vars.draftDateLastSaved = c.draftDateLastSaved
-        } OZONE.utils.setInnerHTMLContent("action-area", c.body);
+        }
+        OZONE.utils.setInnerHTMLContent("action-area", c.body);
         $("action-area").style.display = "block";
-        if (!WIKIDOT.page.vars.draft) { setTimeout("OZONE.visuals.scrollTo('action-area')", 200) }
+        if (!WIKIDOT.page.vars.draft) {
+            setTimeout("OZONE.visuals.scrollTo('action-area')", 200)
+        }
     }, historyClick: function (b) {
-        if (!WIKIDOT.utils.handleError(b)) { return } OZONE.utils.setInnerHTMLContent("action-area", b.body);
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        }
+        OZONE.utils.setInnerHTMLContent("action-area", b.body);
         $("action-area").style.display = "block";
         WIKIDOT.page.utils.addCloseToActionArea()
-    }, logoutClick: function (b) { if (!WIKIDOT.utils.handleError(b)) { return } window.location.reload() }, passwordRecovery: function (c) {
-        if (!WIKIDOT.utils.handleError(c)) { return } var b = new OZONE.dialogs.Dialog();
+    }, logoutClick: function (b) {
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        } window.location.reload()
+    }, passwordRecovery: function (c) {
+        if (!WIKIDOT.utils.handleError(c)) {
+            return
+        }
+        var b = new OZONE.dialogs.Dialog();
         b.content = c.body;
         b.show()
     }, createAccount: function (c) {
-        if (!WIKIDOT.utils.handleError(c)) { return } var b = new OZONE.dialogs.Dialog();
+        if (!WIKIDOT.utils.handleError(c)) {
+            return
+        }
+        var b = new OZONE.dialogs.Dialog();
         b.content = c.body;
         b.show()
     }, backlinksClick: function (b) {
-        if (!WIKIDOT.utils.handleError(b)) { return } OZONE.utils.setInnerHTMLContent("action-area", b.body);
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        }
+        OZONE.utils.setInnerHTMLContent("action-area", b.body);
         $("action-area").style.display = "block";
         WIKIDOT.page.utils.addCloseToActionArea();
         setTimeout("OZONE.visuals.scrollTo('action-area')", 300)
     }, viewSourceClick: function (b) {
-        if (!WIKIDOT.utils.handleError(b)) { return } OZONE.utils.setInnerHTMLContent("action-area", b.body);
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        }
+        OZONE.utils.setInnerHTMLContent("action-area", b.body);
         $("action-area").style.display = "block";
         WIKIDOT.page.utils.addCloseToActionArea();
         setTimeout("OZONE.visuals.scrollTo('action-area')", 300)
     }, userInfo: function (c) {
-        if (!WIKIDOT.utils.handleError(c)) { return } var b = new OZONE.dialogs.Dialog();
+        if (!WIKIDOT.utils.handleError(c)) {
+            return
+        }
+        var b = new OZONE.dialogs.Dialog();
         b.content = c.body;
         b.clickOutsideToClose = true;
         b.show()
     }, renamePage: function (b) {
-        if (!WIKIDOT.utils.handleError(b)) { return } $j("#action-area").html(b.body).show();
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        } $j("#action-area").html(b.body).show();
         WIKIDOT.page.utils.addCloseToActionArea();
         setTimeout("OZONE.visuals.scrollTo('action-area')", 300)
     }, editTags: function (b) {
-        if (!WIKIDOT.utils.handleError(b)) { return } $j("#action-area").html(b.body).show();
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        } $j("#action-area").html(b.body).show();
         WIKIDOT.page.utils.addCloseToActionArea();
         setTimeout("OZONE.visuals.scrollTo('action-area')", 300)
     }, editMeta: function (b) {
-        if (!WIKIDOT.utils.handleError(b)) { return } $j("#action-area").html(b.body).show();
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        } $j("#action-area").html(b.body).show();
         WIKIDOT.page.utils.addCloseToActionArea();
         setTimeout("OZONE.visuals.scrollTo('action-area')", 300)
     }, blockClick: function (b) {
-        if (!WIKIDOT.utils.handleError(b)) { return } $j("#action-area").html(b.body).show();
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        } $j("#action-area").html(b.body).show();
         WIKIDOT.page.utils.addCloseToActionArea();
         setTimeout("OZONE.visuals.scrollTo('action-area')", 300)
     }, pageRate: function (b) {
-        if (!WIKIDOT.utils.handleError(b)) { return } $j("#action-area").html(b.body.replace(/prw54353/, "prw54354")).show();
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        } $j("#action-area").html(b.body.replace(/prw54353/, "prw54354")).show();
         WIKIDOT.page.utils.addCloseToActionArea();
         setTimeout("OZONE.visuals.scrollTo('action-area')", 300)
     }, siteTools: function (b) {
-        if (!WIKIDOT.utils.handleError(b)) { return } $j("#action-area").html(b.body).show();
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        } $j("#action-area").html(b.body).show();
         WIKIDOT.page.utils.addCloseToActionArea();
-        OZONE.dialog.hovertip.dominit("site-tools-box", { delay: 700, valign: "center" });
+        OZONE.dialog.hovertip.dominit("site-tools-box", {
+            delay: 700, valign: "center"
+        });
         setTimeout("OZONE.visuals.scrollTo('action-area')", 300);
         WIKIDOT.page.utils.checkUrl("recheck")
     }, parentClick: function (b) {
-        if (!WIKIDOT.utils.handleError(b)) { return } $j("#action-area").html(b.body).show();
+        if (!WIKIDOT.utils.handleError(b)) {
+            return
+        } $j("#action-area").html(b.body).show();
         WIKIDOT.page.utils.addCloseToActionArea();
         setTimeout("OZONE.visuals.scrollTo('action-area')", 300)
     }, createPageDiscussion: function (c) {
-        if (!WIKIDOT.utils.handleError(c)) { return } var b = "/forum/t-" + c.thread_id + "/" + c.thread_unix_title;
+        if (!WIKIDOT.utils.handleError(c)) {
+            return
+        }
+        var b = "/forum/t-" + c.thread_id + "/" + c.thread_unix_title;
         window.location.href = b
     }, flagPageObjectionable: function (c) {
-        if (!WIKIDOT.utils.handleError(c)) { return } var b = new OZONE.dialogs.Dialog();
+        if (!WIKIDOT.utils.handleError(c)) {
+            return
+        }
+        var b = new OZONE.dialogs.Dialog();
         b.content = c.body;
         b.show()
     }, pageBugReport: function (c) {
-        if (!WIKIDOT.utils.handleError(c)) { return } var b = new OZONE.dialogs.Dialog();
+        if (!WIKIDOT.utils.handleError(c)) {
+            return
+        }
+        var b = new OZONE.dialogs.Dialog();
         b.content = c.body;
         b.show()
     }
 };
 WIKIDOT.page.utils = {
-    scrollToReference: function (b) { OZONE.visuals.scrollTo(b, { blink: true }) }, addCloseToActionArea: function () {
+    scrollToReference: function (b) {
+        OZONE.visuals.scrollTo(b, {
+            blink: true
+        })
+    }, addCloseToActionArea: function () {
         var b = document.createElement("a");
         b.innerHTML = "<i class='icon-remove'></i> Close";
         b.href = "javascript:;";
         b.className = "action-area-close btn btn-danger";
         var c = $("action-area");
-        if (c.firstChild) { c.insertBefore(b, c.firstChild) } else { c.appendChild(b) } YAHOO.util.Event.addListener(b, "click", WIKIDOT.page.listeners.closeActionArea)
+        if (c.firstChild) {
+            c.insertBefore(b, c.firstChild)
+        } else {
+            c.appendChild(b)
+        } YAHOO.util.Event.addListener(b, "click", WIKIDOT.page.listeners.closeActionArea)
     }, openHelpPop: function (b) {
         var c = window.open("http://test.wikidot.com/default--screen/HelpPop/topic/" + b, "_blank", "location=no,menubar=no,titlebar=no,resizable=yes,scrollbars=yes,width=" + (screen.width * 0.8) + ",height=" + (screen.height * 0.8) + ",top=" + (screen.height * 0.1) + ",left=" + (screen.width * 0.1));
         return c
     }, checkUrl: function (b) {
         if (!b || b == "recheck") {
-            if (b == "recheck") { var d = true } var f = $j(location).attr("href");
+            if (b == "recheck") {
+                var d = true
+            }
+            var f = $j(location).attr("href");
             var e = /\#_\w*/;
             var c = e.exec(f);
             if (c) {
@@ -583,7 +750,8 @@ WIKIDOT.page.utils = {
                     WIKIDOT.page.listeners.siteTools();
                     return
                 }
-            } var g = window.location.pathname;
+            }
+            var g = window.location.pathname;
             if (g.match(/^\/[a-z0-9\-:_]+\/edit\/true/) || WIKIREQUEST.autoEdit) {
                 WIKIDOT.page.listeners.editClick();
                 return
@@ -614,7 +782,11 @@ WIKIDOT.page.fixers = {
         $j("a.eref").bind("mouseenter", function (c) {
             var b = $j("#equation-" + $j(this).text() + " .MathJax_Display");
             if (b.length == 1) {
-                OZONE.dialog.hovertip.makeTip(this, { text: b.html(), valign: "center", style: { width: "auto", backgroundColor: "white" } });
+                OZONE.dialog.hovertip.makeTip(this, {
+                    text: b.html(), valign: "center", style: {
+                        width: "auto", backgroundColor: "white"
+                    }
+                });
                 $j(this).unbind("mouseenter");
                 OZONE.dialog.hovertip._mouseover(c)
             }
@@ -624,34 +796,49 @@ WIKIDOT.page.fixers = {
         for (var c = 0;
             c < g.length;
             c++) {
-                var e = g[c];
+            var e = g[c];
             var j = e.id.replace(/^footnoteref\-/, "");
             var h = $("footnote-" + j);
             var d = h.innerHTML.replace(/<a.*?<\/a>\. /, "");
             var f = '<div class="footnote"><div class="f-heading">Footnote ' + j + '.</div><div class="f-content">' + d + '</div><div class="f-footer">(click to scroll to footnotes)</div></div>';
-            OZONE.dialog.hovertip.makeTip(e, { text: f, valign: "center", smartWidthLimit: 0.7, style: { width: "auto", backgroundColor: "white" } })
+            OZONE.dialog.hovertip.makeTip(e, {
+                text: f, valign: "center", smartWidthLimit: 0.7, style: {
+                    width: "auto", backgroundColor: "white"
+                }
+            })
         }
     }, fixBibRef: function (b) {
         var e = YAHOO.util.Dom.getElementsByClassName("bibcite", "a", b);
         for (var c = 0;
             c < e.length;
             c++) {
-                var h = e[c];
+            var h = e[c];
             var j = h.id.replace(/bibcite\-/, "");
             j = j.replace(/\-[0-9]+a$/, "");
             var f = $("bibitem-" + j);
             var d = f.innerHTML.replace(/^\s*[0-9]+\.\s*/, "");
             var g = '<div class="reference"><div class="r-heading">Reference ' + j.replace(/^([0-9]+\-)/, "") + '.</div><div class="r-content">' + d + '</div><div class="r-footer">(click to scroll to bibliography)</div></div>';
-            OZONE.dialog.hovertip.makeTip(h, { text: g, valign: "center", smartWidthLimit: 0.7, style: { width: "auto", backgroundColor: "white" } })
+            OZONE.dialog.hovertip.makeTip(h, {
+                text: g, valign: "center", smartWidthLimit: 0.7, style: {
+                    width: "auto", backgroundColor: "white"
+                }
+            })
         }
     }, fixMenu: function (b) {
         var e = $(b);
-        if (e == null) { return } var d = e.getElementsByTagName("li");
+        if (e == null) {
+            return
+        }
+        var d = e.getElementsByTagName("li");
         for (var c = 0;
             c < d.length;
             c++) {
-                YAHOO.util.Event.addListener(d[c], "mouseover", function (f) { YAHOO.util.Dom.addClass(this, "sfhover") });
-            YAHOO.util.Event.addListener(d[c], "mouseout", function (f) { YAHOO.util.Dom.removeClass(this, "sfhover") })
+            YAHOO.util.Event.addListener(d[c], "mouseover", function (f) {
+                YAHOO.util.Dom.addClass(this, "sfhover")
+            });
+            YAHOO.util.Event.addListener(d[c], "mouseout", function (f) {
+                YAHOO.util.Dom.removeClass(this, "sfhover")
+            })
         }
     }, fixEmail: function (f) {
         var g = jQuery;
@@ -661,18 +848,20 @@ WIKIDOT.page.fixers = {
             var d = e[0].split("").reverse().join("").replace("|", "@");
             var h = e[1].split("").reverse().join("").replace("|", "@");
             var c = g("<a/>").attr("href", "mailto:" + d).html(h);
-            g(f).html(c).css({ visibility: "visible" })
+            g(f).html(c).css({
+                visibility: "visible"
+            })
         }
     }, fixFoldableMenus: function () {
         var m = YAHOO.util.Dom.getElementsByClassName("foldable-list-container", "div");
         for (var h = 0;
             h < m.length;
             h++) {
-                var o = m[h].getElementsByTagName("ul");
+            var o = m[h].getElementsByTagName("ul");
             for (var f = 0;
                 f < o.length;
                 f++) {
-                    var l = o[f];
+                var l = o[f];
                 var g = l.parentNode;
                 var e = true;
                 while (g && !YAHOO.util.Dom.hasClass(g, "foldable-list-container")) {
@@ -692,12 +881,13 @@ WIKIDOT.page.fixers = {
                         n.href = "javascript:;"
                     }
                 }
-            } var d = m[h].getElementsByTagName("a");
+            }
+            var d = m[h].getElementsByTagName("a");
             var k = window.location.pathname;
             for (var f = 0;
                 f < d.length;
                 f++) {
-                    var b = d[f].href.replace(/^[a-z]*:\/\/[^\/]+\/([^\/]+).*/, "/$1");
+                var b = d[f].href.replace(/^[a-z]*:\/\/[^\/]+\/([^\/]+).*/, "/$1");
                 if (b == k) {
                     var g = d[f].parentNode;
                     while (g && !YAHOO.util.Dom.hasClass(g, "foldable-list-container")) {
@@ -713,7 +903,13 @@ WIKIDOT.page.fixers = {
     }, _foldableMenuToggle: function (d) {
         var b;
         b = YAHOO.util.Event.getTarget(d, true);
-        if (b.tagName == "A" && b.href != "#" && b.href != "javascript:;") { return } while (!b.tagName || b.tagName.toLowerCase() != "li") { b = b.parentNode } if (!(YAHOO.util.Dom.hasClass(b, "folded") || YAHOO.util.Dom.hasClass(b, "unfolded"))) { return } if (YAHOO.util.Dom.hasClass(b, "folded")) {
+        if (b.tagName == "A" && b.href != "#" && b.href != "javascript:;") {
+            return
+        } while (!b.tagName || b.tagName.toLowerCase() != "li") {
+            b = b.parentNode
+        } if (!(YAHOO.util.Dom.hasClass(b, "folded") || YAHOO.util.Dom.hasClass(b, "unfolded"))) {
+            return
+        } if (YAHOO.util.Dom.hasClass(b, "folded")) {
             YAHOO.util.Dom.replaceClass(b, "folded", "unfolded");
             var c = b.getElementsByTagName("ul")[0];
             c.style.display = c.originalDisplay;
@@ -725,11 +921,14 @@ WIKIDOT.page.fixers = {
         }
     }, fixMenuList: function (b) {
         b = $(b);
-        if (!b) { return } var d = b.getElementsByTagName("li");
+        if (!b) {
+            return
+        }
+        var d = b.getElementsByTagName("li");
         for (var e = 0;
             e < d.length;
             e++) {
-                var f = d[e].childNodes[0];
+            var f = d[e].childNodes[0];
             if (f.tagName != "A" && f.nodeType == 3 && f.innerHTML != "") {
                 var c = document.createElement("a");
                 d[e].insertBefore(c, f);
@@ -739,7 +938,9 @@ WIKIDOT.page.fixers = {
         }
     }
 };
-WIKIDOT.page.vars = { editSectionsActive: false };
+WIKIDOT.page.vars = {
+    editSectionsActive: false
+};
 WIKIDOT.page.account = {};
 WIKIDOT.page.account.shower = function (c) {
     var b = $j("#account-options");
@@ -749,7 +950,17 @@ WIKIDOT.page.account.closer = function (f) {
     var c = $j("#account-options")[0];
     var b = YAHOO.util.Event.getRelatedTarget(f);
     var d = false;
-    if (b == c) { d = true } if (b.parentNode == c) { d = true } if (b.parentNode.parentNode == c) { d = true } if (b.parentNode.parentNode.parentNode == c) { d = true } if (d == true) { return } $j(c).hide()
+    if (b == c) {
+        d = true
+    } if (b.parentNode == c) {
+        d = true
+    } if (b.parentNode.parentNode == c) {
+        d = true
+    } if (b.parentNode.parentNode.parentNode == c) {
+        d = true
+    } if (d == true) {
+        return
+    } $j(c).hide()
 };
 WIKIDOT.page.init = function () {
     YAHOO.util.Event.addListener("edit-button", "click", WIKIDOT.page.listeners.editClick);
@@ -772,7 +983,9 @@ WIKIDOT.page.init = function () {
     YAHOO.util.Event.addListener("delete-button", "click", WIKIDOT.page.listeners.deletePage);
     YAHOO.util.Event.addListener("search-top-box-form", "submit", WIKIDOT.page.listeners.search);
     jQuery(function () {
-        OZONE.dialog.hovertip.dominit("html-body", { delay: 700, valign: "center" });
+        OZONE.dialog.hovertip.dominit("html-body", {
+            delay: 700, valign: "center"
+        });
         WIKIDOT.page.fixers.fixMenuList("top-bar");
         WIKIDOT.page.fixers.fixFoldableMenus();
         WIKIDOT.page.fixers.fixMathRef();
@@ -801,7 +1014,9 @@ WIKIDOT.page.init = function () {
     OZONE.loc.addMessage("Error", "Blad", "pl");
     OZONE.loc.addMessage("Oooops!", "Ups!", "pl");
     OZONE.loc.addMessage("Permission error", "B????d uprawnie??", "pl");
-    var b = { ago: "temu", day: "dzie??", days: "dni", hours: "godziny", hour: "godzina", minutes: "minuty", minute: "minuta", seconds: "sekundy", second: "sekunda" };
+    var b = {
+        ago: "temu", day: "dzie??", days: "dni", hours: "godziny", hour: "godzina", minutes: "minuty", minute: "minuta", seconds: "sekundy", second: "sekunda"
+    };
     OZONE.loc.addMessages(b, "pl")
 };
 WIKIDOT.page.init();
@@ -810,11 +1025,21 @@ WIKIDOT.page.init();
         var d = c(this);
         d.removeClass("wikidot-hybrid-module").addClass("wikidot-hybrid-module-loading");
         var e = JSON.parse(c("div", d).text());
-        OZONE.ajax.requestModule(e.module, e.params, function (f) { d.replaceWith(f.body) }, null, { noCursorWait: true, ignoreCodeZero: true })
+        OZONE.ajax.requestModule(e.module, e.params, function (f) {
+            d.replaceWith(f.body)
+        }, null, {
+            noCursorWait: true, ignoreCodeZero: true
+        })
     });
-    c("span.odate").livequery(function () { OZONE.utils.formatOdate(this) });
-    c("span.wiki-email").livequery(function () { WIKIDOT.page.fixers.fixEmail(this) });
-    c("span.printuser.avatarhover").livequery(function () { WIKIDOT.render.fixAvatarHover(this) });
+    c("span.odate").livequery(function () {
+        OZONE.utils.formatOdate(this)
+    });
+    c("span.wiki-email").livequery(function () {
+        WIKIDOT.page.fixers.fixEmail(this)
+    });
+    c("span.printuser.avatarhover").livequery(function () {
+        WIKIDOT.render.fixAvatarHover(this)
+    });
     c("a[href='#action:login']").livequery("click", function () {
         if (!WIKIREQUEST.userId) {
             WIKIDOT.page.listeners.loginClick();
@@ -844,13 +1069,23 @@ WIKIDOT.page.init();
                     var j = document.location.hash.replace(/^#?/, "");
                     if (j.match(/^[a-zA-Z0-9_-]+$/)) {
                         var h = c("#" + j + ', a[name="' + j + '"]');
-                        if (h.length == 1) { if (Math.abs(h.offset().top - c(document).scrollTop()) <= 2) { window.scrollBy(0, -d) } }
+                        if (h.length == 1) {
+                            if (Math.abs(h.offset().top - c(document).scrollTop()) <= 2) {
+                                window.scrollBy(0, -d)
+                            }
+                        }
                     }
                 }, g)
             };
-            var e = function () { f(200) };
-            if ("onhashchange" in window) { window.onhashchange = f } c('a[href^="#"]').livequery("click", e);
-            if (window.location.hash) { window.onload = f }
+            var e = function () {
+                f(200)
+            };
+            if ("onhashchange" in window) {
+                window.onhashchange = f
+            } c('a[href^="#"]').livequery("click", e);
+            if (window.location.hash) {
+                window.onload = f
+            }
         }
     });
     var b = false;
@@ -859,36 +1094,75 @@ WIKIDOT.page.init();
             var e = document.createElement("script");
             e.type = "text/javascript";
             e.src = "https://cdn.mathjax.org/mathjax/2.1-latest/MathJax.js?config=default";
-            var f = 'MathJax.Hub.Config({showProcessingMessages: false,jax: ["input/TeX","output/HTML-CSS"],extensions: ["tex2jax.js","MathMenu.js","MathZoom.js"],TeX: {  extensions: ["AMSmath.js","AMSsymbols.js","noUndefined.js", "boldsymbol.js", "mathchoice.js", "unicode.js"]},tex2jax: {  inlineMath: [ ["$","$"], ["\\(","\\)"] ],  skipTags: ["body"],  processEnvironments: true},"HTML-CSS": {  styles: {    ".MathJax_Display": { "margin": "0.5em 0"    }   }}});MathJax.Hub.Startup.onload();';
-            if (window.opera) { e.innerHTML = f } else { e.text = f } document.getElementsByTagName("head")[0].appendChild(e);
-            b = true
-        } var d = function (j) {
-            var h = c(j);
-            if (h.find(".merror").length == 1 || h.find('span.mtext[style~="color: red;"]:contains("\\")').length > 0 || h.find(".MathJax_Error").length == 1) {
-                var l = "The equation has not been processed correctly. Click to learn more.";
-                var k = c('<a href="http://www.wikidot.com/doc:math" target="_blank">?</a>');
-                if (h.hasClass("math-equation")) {
-                    k.attr("class", "math-equation-error");
-                    k.appendTo(h.find(".MathJax_Display, .MathJax_Error"))
-                } else {
-                    k.attr("class", "inline-math-error");
-                    k.insertAfter(h).get(0)
-                } OZONE.dialog.hovertip.makeTip(k.get(0), { text: l, style: { width: "auto", backgroundColor: "white" } })
+            var f = 'MathJax.Hub.Config({showProcessingMessages: false,jax: ["input/TeX","output/HTML-CSS"],extensions: ["tex2jax.js","MathMenu.js","MathZoom.js"],TeX: {
+            extensions: ["AMSmath.js", "AMSsymbols.js", "noUndefined.js", "boldsymbol.js", "mathchoice.js", "unicode.js"]
+        }, tex2jax: {
+            inlineMath: [["$", "$"], ["\\(", "\\)"]], skipTags: ["body"], processEnvironments: true
+        }, "HTML-CSS": {
+            styles: {
+                ".MathJax_Display": {
+                    "margin": "0.5em 0"
+                }
             }
-        };
-        var g = function (h) {
-            if (!window.MathJax) {
-                setTimeout(function () { g(h) }, 200);
-                return
-            } MathJax.Hub.Queue(["Typeset", MathJax.Hub, h], [function (j) { c(j).show() }, h], [d, h])
-        };
-        g(this)
+        }
+    }); MathJax.Hub.Startup.onload(); ';
+    if (window.opera) {
+        e.innerHTML = f
+    } else {
+        e.text = f
+    } document.getElementsByTagName("head")[0].appendChild(e);
+    b = true
+}
+        var d = function (j) {
+    var h = c(j);
+    if (h.find(".merror").length == 1 || h.find('span.mtext[style~="color: red;"]:contains("\\")').length > 0 || h.find(".MathJax_Error").length == 1) {
+        var l = "The equation has not been processed correctly. Click to learn more.";
+        var k = c('<a href="http://www.wikidot.com/doc:math" target="_blank">?</a>');
+        if (h.hasClass("math-equation")) {
+            k.attr("class", "math-equation-error");
+            k.appendTo(h.find(".MathJax_Display, .MathJax_Error"))
+        } else {
+            k.attr("class", "inline-math-error");
+            k.insertAfter(h).get(0)
+        }
+        OZONE.dialog.hovertip.makeTip(k.get(0), {
+            text: l, style: {
+                width: "auto", backgroundColor: "white"
+            }
+        })
+    }
+};
+var g = function (h) {
+    if (!window.MathJax) {
+        setTimeout(function () {
+            g(h)
+        }, 200);
+        return
+    } MathJax.Hub.Queue(["Typeset", MathJax.Hub, h], [function (j) {
+        c(j).show()
+    }, h], [d, h])
+};
+g(this)
     })
-})($j);
-$j(function () { if ($j("#login-status .printuser").length == 0 && !$j.cookie("COOKIE_POLICY_OK")) { OZONE.ajax.requestModule("misc/CookiePolicyPlModule", {}, function (b) { if (b.body) { $j("body").append($j(b.body)) } }) } jQuery("a").each(function () { if (jQuery(this).attr("href") === window.location.pathname) { jQuery(this).addClass("active") } }) });
+}) ($j);
+$j(function () {
+    if ($j("#login-status .printuser").length == 0 && !$j.cookie("COOKIE_POLICY_OK")) {
+        OZONE.ajax.requestModule("misc/CookiePolicyPlModule", {}, function (b) {
+            if (b.body) {
+                $j("body").append($j(b.body))
+            }
+        })
+    } jQuery("a").each(function () {
+        if (jQuery(this).attr("href") === window.location.pathname) {
+            jQuery(this).addClass("active")
+        }
+    })
+});
 var INSERT_NEWLINE = "\n";
 var MATCH_NEWLINE = "\r?\n";
-WIKIDOT.Editor = { editElementId: null, toolbarPanelId: null, ranger: null };
+WIKIDOT.Editor = {
+    editElementId: null, toolbarPanelId: null, ranger: null
+};
 WIKIDOT.Editor.currentPos = null;
 WIKIDOT.Editor.currentRange = [0, 0];
 WIKIDOT.Editor.init = function (d, c, b) {
@@ -896,7 +1170,9 @@ WIKIDOT.Editor.init = function (d, c, b) {
     WIKIDOT.Editor.toolbarPanelId = c;
     WIKIDOT.Editor.ranger = new TextElementProxyUtil(d, b);
     YAHOO.util.Event.addListener(this.editElementId, "keypress", WIKIDOT.Editor.keyboardListener);
-    YAHOO.util.Event.addListener(this.editElementId, "keydown", function () { WIKIDOT.Editor.lastKeyCode = null });
+    YAHOO.util.Event.addListener(this.editElementId, "keydown", function () {
+        WIKIDOT.Editor.lastKeyCode = null
+    });
     YAHOO.util.Event.addListener(this.editElementId, "keyup", WIKIDOT.Editor.codeAssist.listener);
     OZONE.ajax.requestModule("edit/EditToolbarModule", {}, WIKIDOT.Editor.initCallback);
     OZONE.loc.addMessage("cancel", "anuluj", "pl");
@@ -926,27 +1202,96 @@ WIKIDOT.Editor.shutDown = function () {
     WIKIDOT.Editor.editElementId = null
 };
 WIKIDOT.Editor.initCallback = function (d) {
-    if (!WIKIDOT.utils.handleError(d)) { return } if ($j("#wd-ed-dialogs").length == 0) {
+    if (!WIKIDOT.utils.handleError(d)) {
+        return
+    } if ($j("#wd-ed-dialogs").length == 0) {
         var e = $j("<div/>").attr("id", "wd-ed-dialogs").hide().html(d.body || "");
         $j("body").append(e)
-    } var c = $(WIKIDOT.Editor.toolbarPanelId);
+    }
+    var c = $(WIKIDOT.Editor.toolbarPanelId);
     if (c) {
         $j(c).html($j("#wd-ed-toolbar").html());
         var b = $j("a", c);
-        OZONE.dialog.hovertip.makeTip(b, { style: { width: "auto" }, delay: 200 });
+        OZONE.dialog.hovertip.makeTip(b, {
+            style: {
+                width: "auto"
+            }, delay: 200
+        });
         WIKIDOT.page.fixers.fixMenu(c)
-    } if (WIKIDOT.page.vars.draft) { jQuery("body").scrollTo(".owindow", 0, { offset: -window.innerHeight / 2 }) }
+    } if (WIKIDOT.page.vars.draft) {
+        jQuery("body").scrollTo(".owindow", 0, {
+            offset: -window.innerHeight / 2
+        })
+    }
 };
 WIKIDOT.Editor.buttons = {
-    bold: function (b) { WIKIDOT.Editor.utils.insertTags("**", "**", "bold text", WIKIDOT.Editor.utils.trimSelection) }, italic: function (b) { WIKIDOT.Editor.utils.insertTags("//", "//", "italic text", WIKIDOT.Editor.utils.trimSelection) }, underline: function (b) { WIKIDOT.Editor.utils.insertTags("__", "__", "underline text", WIKIDOT.Editor.utils.trimSelection) }, strikethrough: function (b) { WIKIDOT.Editor.utils.insertTags("--", "--", "strikethrough text", WIKIDOT.Editor.utils.trimSelection) }, teletype: function (b) { WIKIDOT.Editor.utils.insertTags("{{", "}}", "teletype text", WIKIDOT.Editor.utils.trimSelection) }, superscript: function (b) { WIKIDOT.Editor.utils.insertTags("^^", "^^", "superscript", WIKIDOT.Editor.utils.trimSelection) }, subscript: function (b) { WIKIDOT.Editor.utils.insertTags(",,", ",,", "subscript", WIKIDOT.Editor.utils.trimSelection) }, raw: function (b) { WIKIDOT.Editor.utils.insertTags("@@", "@@", "raw text", WIKIDOT.Editor.utils.trimSelection) }, heading: function (d, f) {
+    bold: function (b) {
+        WIKIDOT.Editor.utils.insertTags("**", "**", "bold text", WIKIDOT.Editor.utils.trimSelection)
+    }, italic: function (b) {
+        WIKIDOT.Editor.utils.insertTags("//", "//", "italic text", WIKIDOT.Editor.utils.trimSelection)
+    }, underline: function (b) {
+        WIKIDOT.Editor.utils.insertTags("__", "__", "underline text", WIKIDOT.Editor.utils.trimSelection)
+    }, strikethrough: function (b) {
+        WIKIDOT.Editor.utils.insertTags("--", "--", "strikethrough text", WIKIDOT.Editor.utils.trimSelection)
+    }, teletype: function (b) {
+        WIKIDOT.Editor.utils.insertTags("{{", "}}", "teletype text", WIKIDOT.Editor.utils.trimSelection)
+    }, superscript: function (b) {
+        WIKIDOT.Editor.utils.insertTags("^^", "^^", "superscript", WIKIDOT.Editor.utils.trimSelection)
+    }, subscript: function (b) {
+        WIKIDOT.Editor.utils.insertTags(",,", ",,", "subscript", WIKIDOT.Editor.utils.trimSelection)
+    }, raw: function (b) {
+        WIKIDOT.Editor.utils.insertTags("@@", "@@", "raw text", WIKIDOT.Editor.utils.trimSelection)
+    }, heading: function (d, f) {
         var b = "";
         for (var c = 0;
             c < f;
-            c++) { b += "+" } WIKIDOT.Editor.utils.insertTags(b + " ", "", "heading level " + f, WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWith2NewLine, WIKIDOT.Editor.utils.startWith2NewLine)
-    }, quote: function (b) { WIKIDOT.Editor.utils.insertTags("> ", "", "quoted text", WIKIDOT.Editor.utils.processQuoteText, WIKIDOT.Editor.utils.endWithAtLeast1NewLine, WIKIDOT.Editor.utils.startWithAtLeast1NewLine) }, hr: function (b) { WIKIDOT.Editor.utils.insertText("------", WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine) }, clearFloat: function (c, b) {
+            c++) {
+            b += "+"
+        } WIKIDOT.Editor.utils.insertTags(b + " ", "", "heading level " + f, WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWith2NewLine, WIKIDOT.Editor.utils.startWith2NewLine)
+    }, quote: function (b) {
+        WIKIDOT.Editor.utils.insertTags("> ", "", "quoted text", WIKIDOT.Editor.utils.processQuoteText, WIKIDOT.Editor.utils.endWithAtLeast1NewLine, WIKIDOT.Editor.utils.startWithAtLeast1NewLine)
+    }, hr: function (b) {
+        WIKIDOT.Editor.utils.insertText("------", WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine)
+    }, clearFloat: function (c, b) {
         var d = "~~~~";
-        if (b) { d += b } WIKIDOT.Editor.utils.insertText(d, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine)
-    }, toc: function (b) { WIKIDOT.Editor.utils.insertText("[[toc]]", WIKIDOT.Editor.utils.endWithAtLeast1NewLine, WIKIDOT.Editor.utils.startWithAtLeast1NewLine) }, uri: function (b) { WIKIDOT.Editor.utils.insertTags("[http://www.example.com ", "]", "describe link", WIKIDOT.Editor.utils.trimSelection) }, pageLink: function (b) { WIKIDOT.Editor.utils.insertTags("[[[", "]]]", "page name", WIKIDOT.Editor.utils.trimSelection) }, math: function (b) { WIKIDOT.Editor.utils.insertTags("[[math]]" + INSERT_NEWLINE, INSERT_NEWLINE + "[[/math]]", "insert LaTeX equation here", WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine) }, numberedList: function (b) { WIKIDOT.Editor.utils.insertTags("# ", "", "list item", WIKIDOT.Editor.utils.processNumberedList, WIKIDOT.Editor.utils.endWithAtLeast1NewLine, WIKIDOT.Editor.utils.startWithAtLeast1NewLine) }, bulletedList: function (b) { WIKIDOT.Editor.utils.insertTags("* ", "", "list item", WIKIDOT.Editor.utils.processBulletedList, WIKIDOT.Editor.utils.endWithAtLeast1NewLine, WIKIDOT.Editor.utils.startWithAtLeast1NewLine) }, definitionList: function (b) { WIKIDOT.Editor.utils.insertTags(": ", " : definition", "item", WIKIDOT.Editor.utils.processBulletedList, WIKIDOT.Editor.utils.endWithAtLeast1NewLine, WIKIDOT.Editor.utils.startWithAtLeast1NewLine) }, increaseListIndent: function (b) { WIKIDOT.Editor.utils.insertText("", WIKIDOT.Editor.utils.increaseListIndent) }, decreaseListIndent: function (b) { WIKIDOT.Editor.utils.insertText("", WIKIDOT.Editor.utils.decreaseListIndent) }, footnote: function (b) { WIKIDOT.Editor.utils.insertTags("[[footnote]] ", " [[/footnote]]", "footnote text", WIKIDOT.Editor.utils.trimSelection) }, inlineMath: function (b) { WIKIDOT.Editor.utils.insertTags("[[$ ", " $]]", "insert LaTeX equation here", WIKIDOT.Editor.utils.trimSelection) }, code: function (b) { WIKIDOT.Editor.utils.insertTags("[[code]]" + INSERT_NEWLINE, INSERT_NEWLINE + "[[/code]]", "insert the code here", WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine) }, html: function (b) { WIKIDOT.Editor.utils.insertTags("[[html]]" + INSERT_NEWLINE, INSERT_NEWLINE + "[[/html]]", "Insert any HTML code, including widgets and video or audio players", WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine) }, image: function (b) { WIKIDOT.Editor.utils.insertTags("[[image ", "]]", "source", WIKIDOT.Editor.utils.trimSelection) }, div: function (b) { WIKIDOT.Editor.utils.insertTags("[[div]]" + INSERT_NEWLINE, INSERT_NEWLINE + "[[/div]]", "block contents", WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine) }, bibliography: function (b) { WIKIDOT.Editor.utils.insertTags("[[bibliography]]" + INSERT_NEWLINE + ": ", " : full source reference" + INSERT_NEWLINE + "[[/bibliography]]", "label", WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine) }, bibliographycitation: function (b) { WIKIDOT.Editor.utils.insertTags("[((bibcite ", "))]", "label", WIKIDOT.Editor.utils.trimSelection) }, imageWizard: function (b) {
+        if (b) {
+            d += b
+        } WIKIDOT.Editor.utils.insertText(d, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine)
+    }, toc: function (b) {
+        WIKIDOT.Editor.utils.insertText("[[toc]]", WIKIDOT.Editor.utils.endWithAtLeast1NewLine, WIKIDOT.Editor.utils.startWithAtLeast1NewLine)
+    }, uri: function (b) {
+        WIKIDOT.Editor.utils.insertTags("[http://www.example.com ", "]", "describe link", WIKIDOT.Editor.utils.trimSelection)
+    }, pageLink: function (b) {
+        WIKIDOT.Editor.utils.insertTags("[[[", "]]]", "page name", WIKIDOT.Editor.utils.trimSelection)
+    }, math: function (b) {
+        WIKIDOT.Editor.utils.insertTags("[[math]]" + INSERT_NEWLINE, INSERT_NEWLINE + "[[/math]]", "insert LaTeX equation here", WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine)
+    }, numberedList: function (b) {
+        WIKIDOT.Editor.utils.insertTags("# ", "", "list item", WIKIDOT.Editor.utils.processNumberedList, WIKIDOT.Editor.utils.endWithAtLeast1NewLine, WIKIDOT.Editor.utils.startWithAtLeast1NewLine)
+    }, bulletedList: function (b) {
+        WIKIDOT.Editor.utils.insertTags("* ", "", "list item", WIKIDOT.Editor.utils.processBulletedList, WIKIDOT.Editor.utils.endWithAtLeast1NewLine, WIKIDOT.Editor.utils.startWithAtLeast1NewLine)
+    }, definitionList: function (b) {
+        WIKIDOT.Editor.utils.insertTags(": ", " : definition", "item", WIKIDOT.Editor.utils.processBulletedList, WIKIDOT.Editor.utils.endWithAtLeast1NewLine, WIKIDOT.Editor.utils.startWithAtLeast1NewLine)
+    }, increaseListIndent: function (b) {
+        WIKIDOT.Editor.utils.insertText("", WIKIDOT.Editor.utils.increaseListIndent)
+    }, decreaseListIndent: function (b) {
+        WIKIDOT.Editor.utils.insertText("", WIKIDOT.Editor.utils.decreaseListIndent)
+    }, footnote: function (b) {
+        WIKIDOT.Editor.utils.insertTags("[[footnote]] ", " [[/footnote]]", "footnote text", WIKIDOT.Editor.utils.trimSelection)
+    }, inlineMath: function (b) {
+        WIKIDOT.Editor.utils.insertTags("[[$ ", " $]]", "insert LaTeX equation here", WIKIDOT.Editor.utils.trimSelection)
+    }, code: function (b) {
+        WIKIDOT.Editor.utils.insertTags("[[code]]" + INSERT_NEWLINE, INSERT_NEWLINE + "[[/code]]", "insert the code here", WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine)
+    }, html: function (b) {
+        WIKIDOT.Editor.utils.insertTags("[[html]]" + INSERT_NEWLINE, INSERT_NEWLINE + "[[/html]]", "Insert any HTML code, including widgets and video or audio players", WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine)
+    }, image: function (b) {
+        WIKIDOT.Editor.utils.insertTags("[[image ", "]]", "source", WIKIDOT.Editor.utils.trimSelection)
+    }, div: function (b) {
+        WIKIDOT.Editor.utils.insertTags("[[div]]" + INSERT_NEWLINE, INSERT_NEWLINE + "[[/div]]", "block contents", WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine)
+    }, bibliography: function (b) {
+        WIKIDOT.Editor.utils.insertTags("[[bibliography]]" + INSERT_NEWLINE + ": ", " : full source reference" + INSERT_NEWLINE + "[[/bibliography]]", "label", WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine)
+    }, bibliographycitation: function (b) {
+        WIKIDOT.Editor.utils.insertTags("[((bibcite ", "))]", "label", WIKIDOT.Editor.utils.trimSelection)
+    }, imageWizard: function (b) {
         WIKIDOT.Editor.currentPos = WIKIDOT.Editor.ranger.getSelectionRange()[0];
         var c = new OZONE.dialogs.Dialog();
         c.style.width = "70%";
@@ -995,13 +1340,21 @@ WIKIDOT.Editor.buttons = {
         g.show();
         var b = new YAHOO.util.XHRDataSource("/quickmodule.php");
         b.responseType = YAHOO.util.XHRDataSource.TYPE_JSON;
-        b.responseSchema = { resultsList: "pages", fields: ["unix_name", "title"] };
+        b.responseSchema = {
+            resultsList: "pages", fields: ["unix_name", "title"]
+        };
         var c = new YAHOO.widget.AutoComplete("wd-ed-pagelinkwizard-page", "autocomplete3432", b);
-        c.generateRequest = function (d) { return "?s=" + WIKIREQUEST.info.siteId + "&module=PageLookupQModule&q=" + d };
+        c.generateRequest = function (d) {
+            return "?s=" + WIKIREQUEST.info.siteId + "&module=PageLookupQModule&q=" + d
+        };
         c.formatResult = function (d, j) {
             var h = d[1];
             var e = d[0];
-            if (e != null) { return "<div >" + e + '</div><div style="font-size: 85%;">(' + h + ")</div>" } else { return "" }
+            if (e != null) {
+                return "<div >" + e + '</div><div style="font-size: 85%;">(' + h + ")</div>"
+            } else {
+                return ""
+            }
         };
         c.minQueryLength = 2;
         c.queryDelay = 0.5;
@@ -1034,13 +1387,16 @@ WIKIDOT.Editor.buttons = {
             l.content = "Sorry, no labelled equations found.";
             l.show();
             return
-        } var j = "";
-        if (h.length == 0) { j = "no equations with labels available" } else {
+        }
+        var j = "";
+        if (h.length == 0) {
+            j = "no equations with labels available"
+        } else {
             j = '<select id="wd-ed-erefwizard-ref">';
             for (var b = 0;
                 b < h.length;
                 b++) {
-                    var k = h[b].replace(/\[\[math\s(.+?)\]\](\r*\n.*)*/, "$1");
+                var k = h[b].replace(/\[\[math\s(.+?)\]\](\r*\n.*)*/, "$1");
                 var c = h[b].replace(/\[\[math[^\]]*\]\]((?:\r?\n.*)*?)\n\[\[\/math\]\]/, "$1");
                 $("wd-ed-erefwizard-preview").innerHTML += '<div id="wd-ed-erefwizard-preview-' + k + '">' + c + "</div>";
                 j += '<option value="' + k + '">' + k + "</option>"
@@ -1058,12 +1414,16 @@ WIKIDOT.Editor.erefWizard.changeRef = function (f) {
     var b = d.childNodes;
     for (var c = 0;
         c < b.length;
-        c++) { b[c].style.display = "none" } $("wd-ed-erefwizard-preview-" + $("wd-ed-erefwizard-ref").value).style.display = "block"
+        c++) {
+        b[c].style.display = "none"
+    } $("wd-ed-erefwizard-preview-" + $("wd-ed-erefwizard-ref").value).style.display = "block"
 };
 WIKIDOT.Editor.erefWizard.insertCode = function (d) {
     var c = $("wd-ed-erefwizard-ref").value;
     var b = "[[eref " + c + "]]";
-    if ($("wd-ed-erefwizart-weq").checked == true) { b = "Eq.(" + b + ")" } WIKIDOT.Editor.ranger.setSelectionRange(WIKIDOT.Editor.currentPos, WIKIDOT.Editor.currentPos);
+    if ($("wd-ed-erefwizart-weq").checked == true) {
+        b = "Eq.(" + b + ")"
+    } WIKIDOT.Editor.ranger.setSelectionRange(WIKIDOT.Editor.currentPos, WIKIDOT.Editor.currentPos);
     WIKIDOT.Editor.utils.insertText(b);
     OZONE.dialog.cleanAll()
 };
@@ -1090,7 +1450,11 @@ WIKIDOT.Editor.imageWizard.updateSourceBlock = function (c) {
         }
     } WIKIDOT.Editor.imageWizard.source = b
 };
-WIKIDOT.Editor.imageWizard.updateAttachements = function () { OZONE.ajax.requestModule("editor/ImageAttachedFileModule", { pageId: WIKIREQUEST.info.pageId }, WIKIDOT.Editor.imageWizard.updateAttachementsCallback) };
+WIKIDOT.Editor.imageWizard.updateAttachements = function () {
+    OZONE.ajax.requestModule("editor/ImageAttachedFileModule", {
+        pageId: WIKIREQUEST.info.pageId
+    }, WIKIDOT.Editor.imageWizard.updateAttachementsCallback)
+};
 WIKIDOT.Editor.imageWizard.updateAttachementsCallback = function (b) {
     $j("#wd-ed-imagewizard-byfile-list").html(b.body);
     WIKIDOT.Editor.imageWizard.attachementSelect()
@@ -1142,8 +1506,12 @@ WIKIDOT.Editor.imageWizard.checkUriImageResize = function (g, f) {
 WIKIDOT.Editor.imageWizard.insertCode = function (h) {
     var k = WIKIDOT.Editor.imageWizard.source;
     var b;
-    if (k == "uri") { b = $("wd-ed-imagewizard-uri").value } else {
-        if (k == "file") { b = $("wd-ed-imagewizard-byfile-filename").value } else {
+    if (k == "uri") {
+        b = $("wd-ed-imagewizard-uri").value
+    } else {
+        if (k == "file") {
+            b = $("wd-ed-imagewizard-byfile-filename").value
+        } else {
             if (k == "flickr") {
                 var l = $("wd-ed-imagewizard-flickr").value;
                 var m = l.replace(/^http:\/\/(?:www\.)?flickr\.com\/.*?\/([0-9]+)(?:\/.*)?$/, "$1");
@@ -1156,12 +1524,20 @@ WIKIDOT.Editor.imageWizard.insertCode = function (h) {
                     j.innerHTML = '<p style="color: red">Not a valid input for the flickr.com image.</p>';
                     return
                 } b = "flickr:" + m;
-                if (f) { b += "_" + f }
+                if (f) {
+                    b += "_" + f
+                }
             }
         }
-    } var n = "";
+    }
+    var n = "";
     var d = $("wd-ed-imagewizard-size");
-    if (d) { n = d.value } if (n != "") { n = ' size="' + n + '"' } var g = $("wd-ed-imagewizard-position").value.replace(/l/, "<").replace(/r/, ">").replace(/c/, "=");
+    if (d) {
+        n = d.value
+    } if (n != "") {
+        n = ' size="' + n + '"'
+    }
+    var g = $("wd-ed-imagewizard-position").value.replace(/l/, "<").replace(/r/, ">").replace(/c/, "=");
     var c = "[[" + g + "image " + b + n + "]]";
     WIKIDOT.Editor.ranger.setSelectionRange(WIKIDOT.Editor.currentPos, WIKIDOT.Editor.currentPos);
     WIKIDOT.Editor.utils.insertText(c);
@@ -1176,10 +1552,16 @@ WIKIDOT.Editor.listeners = {
         for (var d = 0;
             d < g;
             d++) {
-                c += INSERT_NEWLINE + "||";
+            c += INSERT_NEWLINE + "||";
             for (var b = 0;
                 b < f;
-                b++) { if (d == 0 && k) { c += "~ header ||" } else { c += " cell-content ||" } }
+                b++) {
+                if (d == 0 && k) {
+                    c += "~ header ||"
+                } else {
+                    c += " cell-content ||"
+                }
+            }
         } WIKIDOT.Editor.ranger.setSelectionRange(WIKIDOT.Editor.currentPos, WIKIDOT.Editor.currentPos);
         WIKIDOT.Editor.utils.insertText(c, WIKIDOT.Editor.utils.endWithAtLeast1NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine);
         OZONE.dialog.cleanAll()
@@ -1188,9 +1570,15 @@ WIKIDOT.Editor.listeners = {
         var c = $("wd-ed-uriwizard-anchor").value;
         var g = $("wd-ed-uriwizard-newwindow").checked;
         var b = "";
-        if (c == null || c == "") { if (g) { b += "*" } b += d } else {
+        if (c == null || c == "") {
+            if (g) {
+                b += "*"
+            } b += d
+        } else {
             b = "[";
-            if (g) { b += "*" } b += d + " " + c + "]"
+            if (g) {
+                b += "*"
+            } b += d + " " + c + "]"
         } WIKIDOT.Editor.ranger.setSelectionRange(WIKIDOT.Editor.currentPos, WIKIDOT.Editor.currentPos);
         WIKIDOT.Editor.utils.insertText(b);
         OZONE.dialog.cleanAll()
@@ -1198,14 +1586,18 @@ WIKIDOT.Editor.listeners = {
         var b = $("wd-ed-pagelinkwizard-page").value;
         var d = $("wd-ed-pagelinkwizard-anchor").value;
         var c = "[[[" + b;
-        if (d != null && d != "") { c += " |" + d } c += "]]]";
+        if (d != null && d != "") {
+            c += " |" + d
+        } c += "]]]";
         WIKIDOT.Editor.ranger.setSelectionRange(WIKIDOT.Editor.currentPos, WIKIDOT.Editor.currentPos);
         WIKIDOT.Editor.utils.insertText(c);
         OZONE.dialog.cleanAll()
     }, codeWizardInsert: function (f) {
         var d = $("wd-ed-codewizard-type").value;
         var c = "[[code";
-        if (d != "") { c += ' type="' + d + '"' } c += "]]" + INSERT_NEWLINE;
+        if (d != "") {
+            c += ' type="' + d + '"'
+        } c += "]]" + INSERT_NEWLINE;
         var b = INSERT_NEWLINE + "[[/code]]";
         WIKIDOT.Editor.ranger.setSelectionRange(WIKIDOT.Editor.currentRange[0], WIKIDOT.Editor.currentRange[1]);
         WIKIDOT.Editor.utils.insertTags(c, b, "insert the code here", WIKIDOT.Editor.utils.trimSelection, WIKIDOT.Editor.utils.endWithAtLeast2NewLine, WIKIDOT.Editor.utils.startWithAtLeast2NewLine);
@@ -1217,9 +1609,18 @@ WIKIDOT.Editor.keyboardListener = function (f) {
     var d = YAHOO.util.Event.getCharCode(f);
     WIKIDOT.Editor.lastKeyCode = d;
     var b = "";
-    if (f.ctrlKey == true) { b += "ctrl+" } if (f.altKey == true) { b += "alt+" } b += String.fromCharCode(d);
-    if ($("editdebug")) { $j("#editdebug").html(d) } var c = WIKIDOT.Editor.keys[b];
-    if (!c) { c = WIKIDOT.Editor.keyCodes[d] } if (c) {
+    if (f.ctrlKey == true) {
+        b += "ctrl+"
+    } if (f.altKey == true) {
+        b += "alt+"
+    } b += String.fromCharCode(d);
+    if ($("editdebug")) {
+        $j("#editdebug").html(d)
+    }
+    var c = WIKIDOT.Editor.keys[b];
+    if (!c) {
+        c = WIKIDOT.Editor.keyCodes[d]
+    } if (c) {
         YAHOO.util.Event.preventDefault(f);
         c.call(null, f)
     }
@@ -1227,7 +1628,9 @@ WIKIDOT.Editor.keyboardListener = function (f) {
 WIKIDOT.Editor.codeAssist = {};
 WIKIDOT.Editor.codeAssist.listener = function (c) {
     var b = WIKIDOT.Editor.lastKeyCode;
-    if (b != 13) { return } WIKIDOT.Editor.utils.insertText("", WIKIDOT.Editor.codeAssist.rules.listEnd);
+    if (b != 13) {
+        return
+    } WIKIDOT.Editor.utils.insertText("", WIKIDOT.Editor.codeAssist.rules.listEnd);
     WIKIDOT.Editor.utils.insertText("", WIKIDOT.Editor.codeAssist.rules.list);
     WIKIDOT.Editor.utils.insertText("", WIKIDOT.Editor.codeAssist.rules.listNested);
     WIKIDOT.Editor.codeAssist.rules.completeBlock();
@@ -1274,7 +1677,8 @@ WIKIDOT.Editor.codeAssist.rules.completeBlock = function () {
     c.setSelectionRange(j, j);
     g.scrollTop = f
 };
-WIKIDOT.Editor.codeAssist.rules.completeBlockPost = function (b) { };
+WIKIDOT.Editor.codeAssist.rules.completeBlockPost = function (b) {
+};
 WIKIDOT.Editor.keys = new Object();
 WIKIDOT.Editor.keys["ctrl+b"] = WIKIDOT.Editor.buttons.bold;
 WIKIDOT.Editor.keys["ctrl+i"] = WIKIDOT.Editor.buttons.italic;
@@ -1293,10 +1697,17 @@ WIKIDOT.Editor.utils.insertTags = function (g, n, e, r, m, b, s) {
     var l = d.getSelectionRange();
     var f = q.scrollTop;
     var k = q.value.substring(0, l[0]);
-    if (m) { k = m.call(null, k) } var t = q.value.substring(l[1], q.value.length);
-    if (b) { t = b.call(null, t) } if (l[0] != l[1]) {
+    if (m) {
+        k = m.call(null, k)
+    }
+    var t = q.value.substring(l[1], q.value.length);
+    if (b) {
+        t = b.call(null, t)
+    } if (l[0] != l[1]) {
         var h = q.value.substring(l[0], l[1]);
-        if (r) { h = r.call(null, h) } q.value = k + g + h + n + t;
+        if (r) {
+            h = r.call(null, h)
+        } q.value = k + g + h + n + t;
         var j = q.value.length - t.length;
         d.setSelectionRange(j, j)
     } else {
@@ -1316,15 +1727,41 @@ WIKIDOT.Editor.utils.insertText = function (c, d, b) {
     WIKIDOT.Editor.utils.insertTags("", "", c, null, d, b, true);
     return
 };
-WIKIDOT.Editor.utils.trimSelection = function (b) { return b.replace(/^\s+/, "").replace(/\s+$/, "") };
-WIKIDOT.Editor.utils.endWithNewLine = function (b) { return b.replace(/[\s\r\n]+$/, "") + INSERT_NEWLINE };
-WIKIDOT.Editor.utils.endWithAtLeast1NewLine = function (b) { return b.replace(/\r?\n$/, "") + INSERT_NEWLINE };
-WIKIDOT.Editor.utils.startWithNewLine = function (b) { return INSERT_NEWLINE + b.replace(/^[\s\r\n]+/, "") };
-WIKIDOT.Editor.utils.startWithAtLeast1NewLine = function (b) { if (b.length == 0) { return b } return INSERT_NEWLINE + b.replace(/^\r?\n/, "") };
-WIKIDOT.Editor.utils.startWithAtLeast2NewLine = function (b) { if (b.length == 0) { return b } return INSERT_NEWLINE + INSERT_NEWLINE + b.replace(/^\r?\n(\s*\r?\n)?/, "") };
-WIKIDOT.Editor.utils.endWithAtLeast2NewLine = function (b) { if (b.length == 0) { return b } return b.replace(/(\r?\n\s*)?\r?\n$/, "") + INSERT_NEWLINE + INSERT_NEWLINE };
-WIKIDOT.Editor.utils.endWith2NewLine = function (b) { if (b.length == 0) { return b } return b.replace(/[\s\r\n]+$/, "") + INSERT_NEWLINE + INSERT_NEWLINE };
-WIKIDOT.Editor.utils.startWith2NewLine = function (b) { return INSERT_NEWLINE + INSERT_NEWLINE + b.replace(/^[\s\r\n]+/, "") };
+WIKIDOT.Editor.utils.trimSelection = function (b) {
+    return b.replace(/^\s+/, "").replace(/\s+$/, "")
+};
+WIKIDOT.Editor.utils.endWithNewLine = function (b) {
+    return b.replace(/[\s\r\n]+$/, "") + INSERT_NEWLINE
+};
+WIKIDOT.Editor.utils.endWithAtLeast1NewLine = function (b) {
+    return b.replace(/\r?\n$/, "") + INSERT_NEWLINE
+};
+WIKIDOT.Editor.utils.startWithNewLine = function (b) {
+    return INSERT_NEWLINE + b.replace(/^[\s\r\n]+/, "")
+};
+WIKIDOT.Editor.utils.startWithAtLeast1NewLine = function (b) {
+    if (b.length == 0) {
+        return b
+    } return INSERT_NEWLINE + b.replace(/^\r?\n/, "")
+};
+WIKIDOT.Editor.utils.startWithAtLeast2NewLine = function (b) {
+    if (b.length == 0) {
+        return b
+    } return INSERT_NEWLINE + INSERT_NEWLINE + b.replace(/^\r?\n(\s*\r?\n)?/, "")
+};
+WIKIDOT.Editor.utils.endWithAtLeast2NewLine = function (b) {
+    if (b.length == 0) {
+        return b
+    } return b.replace(/(\r?\n\s*)?\r?\n$/, "") + INSERT_NEWLINE + INSERT_NEWLINE
+};
+WIKIDOT.Editor.utils.endWith2NewLine = function (b) {
+    if (b.length == 0) {
+        return b
+    } return b.replace(/[\s\r\n]+$/, "") + INSERT_NEWLINE + INSERT_NEWLINE
+};
+WIKIDOT.Editor.utils.startWith2NewLine = function (b) {
+    return INSERT_NEWLINE + INSERT_NEWLINE + b.replace(/^[\s\r\n]+/, "")
+};
 WIKIDOT.Editor.utils.processQuoteText = function (b) {
     var b = b.replace(/^\s+/, "").replace(/\s+$/, "");
     b = b.replace(/\r?\n/g, INSERT_NEWLINE + "> ");
@@ -1340,14 +1777,22 @@ WIKIDOT.Editor.utils.processBulletedList = function (b) {
     b = b.replace(/\r?\n/g, INSERT_NEWLINE + "* ");
     return b
 };
-WIKIDOT.Editor.utils.increaseListIndent = function (b) { if (b.match(/\r?\n(\s*)[\*#].*\r?\n(\1)\s+[\*#].*$/)) { return b } return b.replace(/(\r?\n\s*[\*#].*)(\r?\n\s*)([\*#].*)$/, "$1$2 $3") };
-WIKIDOT.Editor.utils.decreaseListIndent = function (b) { return b.replace(/(\r?\n\s*) ([\*#].*)$/, "$1$2") };
+WIKIDOT.Editor.utils.increaseListIndent = function (b) {
+    if (b.match(/\r?\n(\s*)[\*#].*\r?\n(\1)\s+[\*#].*$/)) {
+        return b
+    } return b.replace(/(\r?\n\s*[\*#].*)(\r?\n\s*)([\*#].*)$/, "$1$2 $3")
+};
+WIKIDOT.Editor.utils.decreaseListIndent = function (b) {
+    return b.replace(/(\r?\n\s*) ([\*#].*)$/, "$1$2")
+};
 TextElementProxyUtil = function (b, c) {
     this.field = $(b);
     this.detectBrowser(c)
 };
 TextElementProxyUtil.prototype.detectBrowser = function (d) {
-    if (YAHOO.env.ua.gecko || ((this.field.selectionStart || this.field.selectionStart == 0) && (!YAHOO.env.ua.ie || YAHOO.env.ua.ie >= 10))) { this.browserType = "gecko" } else {
+    if (YAHOO.env.ua.gecko || ((this.field.selectionStart || this.field.selectionStart == 0) && (!YAHOO.env.ua.ie || YAHOO.env.ua.ie >= 10))) {
+        this.browserType = "gecko"
+    } else {
         var c, b;
         if (d) {
             c = document.createElement("textarea");
@@ -1356,11 +1801,15 @@ TextElementProxyUtil.prototype.detectBrowser = function (d) {
             c.style.left = "-1000px";
             b = document.getElementsByTagName("body").item(0);
             b.appendChild(c)
-        } else { c = this.field } c.focus();
+        } else {
+            c = this.field
+        } c.focus();
         if (document.selection.createRange) {
             this.browserType = "ie";
             INSERT_NEWLINE = "\r\n"
-        } if (d) { b.removeChild(c) }
+        } if (d) {
+            b.removeChild(c)
+        }
     }
 };
 TextElementProxyUtil.prototype.getCursorPosition = function () {
@@ -1388,7 +1837,9 @@ TextElementProxyUtil.prototype.getSelectionRange = function () {
 };
 TextElementProxyUtil.prototype.setSelectionRange = function (d, c) {
     this.field.focus();
-    if (this.browserType == "gecko") { this.field.setSelectionRange(d, c) } if (this.browserType == "ie") {
+    if (this.browserType == "gecko") {
+        this.field.setSelectionRange(d, c)
+    } if (this.browserType == "ie") {
         var e = this.field.value.substring(0, d);
         var f = this.field.value.substring(d, c);
         d = e.replace(/\r\n/g, "\n").length;
@@ -1414,32 +1865,41 @@ jQuery(document).ready(function () {
     })
 });
 function keyBindSavePage() {
-    jQuery(document).unbind("keydown").bind("keydown", "backspace", function (b) { if (/textarea|input/i.test(b.target.nodeName) == false) { return false } });
+    jQuery(document).unbind("keydown").bind("keydown", "backspace", function (b) {
+        if (/textarea|input/i.test(b.target.nodeName) == false) {
+            return false
+        }
+    });
     jQuery(document).unbind("keydown").bind("keydown", "ctrl+s", function (b) {
         WIKIDOT.modules.PageEditModule.listeners.save(b);
         return false
     })
-} function keyBindNewPost() {
+}
+function keyBindNewPost() {
     jQuery("form#new-post-form").unbind("keydown").bind("keydown", "ctrl+s", function (b) {
         WIKIDOT.modules.ForumNewPostFormModule.listeners.save(b);
         return false
     })
-} function keyBindEditPost() {
+}
+function keyBindEditPost() {
     jQuery("form#edit-post-form").unbind("keydown").bind("keydown", "ctrl+s", function (b) {
         WIKIDOT.modules.ForumEditPostFormModule.listeners.save(b);
         return false
     })
-} function keyBindNewThread() {
+}
+function keyBindNewThread() {
     jQuery("form#new-thread-form").unbind("keydown").bind("keydown", "ctrl+s", function (b) {
         WIKIDOT.modules.ForumNewThreadModule.listeners.post(b);
         return false
     })
-} function keyBindEditThread() {
+}
+function keyBindEditThread() {
     jQuery("form#thread-meta-form").unbind("keydown").bind("keydown", "ctrl+s", function (b) {
         WIKIDOT.modules.ForumEditThreadMetaModule.listeners.save(b);
         return false
     })
-} function keyBindSendPM() {
+}
+function keyBindSendPM() {
     jQuery("form#new-pm-form").unbind("keydown").bind("keydown", "ctrl+s", function (b) {
         WIKIDOT.modules.DMNewMessageModule.listeners.send(b);
         return false
