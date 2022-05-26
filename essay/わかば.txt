@@ -1,6 +1,81 @@
 [[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A7307226-3-9kg9/wakababanner_1 width="100%"]]
 
 [[f>toc]]
+~~~~
+@@ @@
++ エントリー作品一覧
+++ グリーン免許ブロック
+[[=]]
+[[span class="article-heading" style="font-size: 150%; margin: 0 auto;"]]投稿順[[/span]]
+[[div_ class="warning-box green"]]
+[[div_ class="heading"]]
+SCP部門
+[[/div]]
+[[div_ class="inner"]]
+[[module ListPages category="*" tags="+わかばコンテスト +_イベント1 +scp" perPage="250" separate="yes" wrapper="no" order="created_at desc"]]
+[[size 110%]]**%%title_linked%%**[[/size]]
+[[/module]]
+[[/div]]
+[[/div]]
+[[div_ class="warning-box green"]]
+[[div_ class="heading"]]
+GoIフォーマット部門
+[[/div]]
+[[div_ class="inner"]]
+[[module ListPages category="*" tags="+わかばコンテスト +_イベント1 +goi-format" perPage="250" separate="yes" wrapper="no" order="created_at desc"]]
+[[size 110%]]**%%title_linked%%**[[/size]]
+[[/module]]
+[[/div]]
+[[/div]]
+[[div_ class="warning-box green"]]
+[[div_ class="heading"]]
+Tale部門
+[[/div]]
+[[div_ class="inner"]]
+[[module ListPages category="*" tags="+わかばコンテスト +_イベント1 +tale" perPage="250" separate="yes" wrapper="no" order="created_at desc"]]
+[[size 110%]]**%%title_linked%%**[[/size]]
+[[/module]]
+[[/div]]
+[[/div]]
+[[/=]]
+@@ @@
+
+++ ブルー免許ブロック
+[[=]]
+[[span class="article-heading" style="font-size: 150%; margin: 0 auto;"]]投稿順[[/span]]
+[[div_ class="warning-box blue"]]
+[[div_ class="heading"]]
+SCP部門
+[[/div]]
+[[div_ class="inner"]]
+[[module ListPages category="*" tags="+わかばコンテスト +_イベント2 +scp" perPage="250" separate="yes" wrapper="no" order="created_at desc"]]
+[[size 110%]]**%%title_linked%%**[[/size]]
+[[/module]]
+[[/div]]
+[[/div]]
+[[div_ class="warning-box blue"]]
+[[div_ class="heading"]]
+GoIフォーマット部門
+[[/div]]
+[[div_ class="inner"]]
+[[module ListPages category="*" tags="+わかばコンテスト +_イベント2 +goi-format" perPage="250" separate="yes" wrapper="no" order="created_at desc"]]
+[[size 110%]]**%%title_linked%%**[[/size]]
+[[/module]]
+[[/div]]
+[[/div]]
+[[div_ class="warning-box blue"]]
+[[div_ class="heading"]]
+Tale部門
+[[/div]]
+[[div_ class="inner"]]
+[[module ListPages category="*" tags="+わかばコンテスト +_イベント2 +tale" perPage="250" separate="yes" wrapper="no" order="created_at desc"]]
+[[size 110%]]**%%title_linked%%**[[/size]]
+[[/module]]
+[[/div]]
+[[/div]]
+[[/=]]
+@@ @@
+
 
 + 概要
 第3回新人コンテストとなる[[[rookie-s-contest-2020|ルーキーコンテスト]]]から2年が経過しました。[[[scp2000jp-contest-hub|SCP-2000-JPコンテスト]]]が行われた直後の開催から時間は流れ、SCP-3000-JPコンテストが行われる日も近づいてきています。数多くの記事が投稿されるようになった今もなお、サイトは新たなチャレンジャーと新しい記事を求め続けています。
@@ -12,12 +87,14 @@
 + 開催期間
 04/30（土） 00:00 - 下書きエントリー解禁
 05/07（土） 00:00 - 本エントリー（投稿）解禁
-05/27（金） 23:59 - 下書きエントリー締切
-06/03（金） 23:59 - 本エントリー（投稿）締切
-06/10（金） 23:59 - 集計終了
-06/11（土） - 結果発表
+06/03（金） 23:59 - 下書きエントリー締切
+06/10（金） 23:59 - 本エントリー（投稿）締切
+06/17（金） 23:59 - 集計終了
+06/18（土） - 結果発表
 
-[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A2616236-2-0u6a/wakaba_schedule.png width="100%"]]
+注：コンテスト期間中のwikidotサイトダウンに伴いコンテスト期間を1週間延長しています。
+
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A2616236-3-t2r7/wakaba_Schedule_kai width="100%"]]
 
 + 参加資格
 
@@ -287,6 +364,8 @@ __ポータルページで下書きを執筆しないでください。[[[sandbo
 
 また、批評コメントで分からないこと、納得できないことがあれば遠慮せず質問しましょう。より詳しく説明してくれるはずです。ただ、批評者も24時間サンドボックスに張り付いている訳ではないので、返信を見られない場合もあるでしょう。そのため、WikidotのDM機能を使った方が確実に反応をもらえるかもしれません。
 
+なお、今回のコンテストの必要事項である批評を受けたことと批評への返信についてはサンドボックスIII上で判定されます。DMで批評を申し込む場合はサンドボックスIIIでの批評をお願いした上で、DMだけでなくサンドボックスIIIでの返信を忘れないようにしてください。
+
  **DMのテンプレート例**
 
 [[div class="blockquote"]]
@@ -321,6 +400,7 @@ __ポータルページで下書きを執筆しないでください。[[[sandbo
 # 下書きのステータスを「**批評終了**」に変更して下さい。
 # 記事をSCP-JPメインサイト[[footnote]]つまり、このサイトです。[[/footnote]]に投稿して下さい。記事の投稿の仕方については[[[/how-to-write:how-to-write|記事作成ガイド]]]の"記事を投稿するには?"から、あなたの記事に適切なカテゴリ[[footnote]]例えばTaleを投稿しようとしているなら「Tale投稿ガイド」のページを読む必要があります。[[/footnote]]の手順に従って下さい。
 # 投稿した記事に専用タグ「**わかばコンテスト**」を追加して下さい。
+# 参加するブロックに応じて、グリーン免許ブロック参加記事には「**_イベント1**」、ブルー免許ブロック参加記事には「**_イベント2**」のタグを追加して下さい。
 # また、__記事のディスカッションにて、当コンテスト参加作品である旨を明記してください__。
 # 上が全て達成できたことを改めて確認して下さい。
 
@@ -560,6 +640,9 @@ __ポータルページで下書きを執筆しないでください。[[[sandbo
     text-align: left;
 }
 
+.warning-box.blue a {
+    color: midnightblue;
+}
 
 .warning-box .inner {
     padding: 5px 10px;
