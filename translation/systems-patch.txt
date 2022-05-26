@@ -1,4 +1,4 @@
-[[include :scp-jp:theme:scp-trans-pride |trans-pride-logo= --]]]
+[[include :scp-wiki:theme:scp-trans-pride |trans-pride-logo= --]]]
 [[module CSS]]
 .blinkbar {animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
 .indomitable {background-color: white; color: #6f4c7a; float: center; border: solid 1px #000000; padding: 5px 15px 5px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2); margin: 0% 4% 0% 4%}
@@ -12,145 +12,180 @@ a.collapsible-block-link { font-weight: bold; }
 [[div style="text-align: right; margin-top: -18px; margin-right: 2em;"]]
 ##757575|by Nagiros##
 [[/div]]
-##cyan|Hello, Indomitable.##
+##blue|Hello, Indomitable.##
 ##teal|こんばんは、Indomitable。##
 [[div class="indomitable"]]
-##cyan|{{Hello, Nathaniel. Will you be implementing my interface update tonight?}}##
+##blue|{{Hello, Nathaniel. Will you be implementing my interface update tonight?}}##
 {{こんばんは、ナサニエル。私のインターフェースアップデートを今晩行うのですか？}}
 [[/div]]
-##cyan|I think so, yes. Give me a moment to access the files.##
+##blue|I think so, yes. Give me a moment to access the files.##
 ##teal|そのつもり。ファイルアクセスの間ちょっと待ってて。##
 [[div class="indomitable"]]
-##cyan|{{Understood, sir.}}##
+##blue|{{Understood, sir.}}##
 {{了解しました、サー。}}
 [[/div]]
-##cyan|How was the database today?##
+##blue|How was the database today?##
 ##teal|今日のデータベースはどうだった？##
 [[div class="indomitable"]]
-##cyan|{{It was quiet, although I did have a researcher who tried to get creative with his clinical tone. He described a Level-II Apparition as a "wraith", and I adjusted accordingly.}}##
+##blue|{{It was quiet, although I did have a researcher who tried to get creative with his clinical tone. He described a Level-II Apparition as a "wraith", and I adjusted accordingly.}}##
 {{ある研究者がクリニカル・トーンにもかかわらず創造性を発揮しようとしましたが、静かなものでした。彼はクラス-2幽体顕現を"レイス"と表現し、私はそれを適切に校閲しました。}}
 [[/div]]
-##cyan|The researchers in the Spectral Phenomena Department are mostly poets and philosophers. We can't be too hard on them.##
+##blue|The researchers in the Spectral Phenomena Department are mostly poets and philosophers. We can't be too hard on them.##
 ##teal|怪奇現象部門の研究員たちはほとんどが詩人なり哲学者だから。あまり厳しくしてはだめ。##
 [[div class="indomitable"]]
-##cyan|{{That's very charitable of you, sir.}}##
+##blue|{{That's very charitable of you, sir.}}##
 {{あなたは非常に寛大ですね、サー。}}
 [[/div]]
-##cyan|Thank you. I have the patches ready.##
+##blue|Thank you. I have the patches ready.##
 ##teal|どういたしまして。パッチの準備ができた。##
-**##cyan|Import filename:name-credit##**
+**##blue|Import filename:name-credit##**
 **##red|インポートファイル名:name-credit##**
 [[div class="indomitable"]]
-##cyan|**File received. [[span class="blinkbar"]]Uploading.[[/span]]**##
+##blue|**File received. [[span class="blinkbar"]]Uploading.[[/span]]**##
 ##black|**ファイル受領 [[span class="blinkbar"]]アップロード中[[/span]]**##
-##cyan|{{Citing the researchers who composed database files? That seems like an odd addition.}}##
+##blue|{{Citing the researchers who composed database files? That seems like an odd addition.}}##
 {{データベースファイルを構成した研究者たちを引用しているのですか？奇妙な追加に見えます。}}
 [[/div]]
-##cyan|I figure authoring them is rather difficult, so they may as well get some credit for their work. Trinity says it's not worth the effort.##
+##blue|I figure authoring them is rather difficult, so they may as well get some credit for their work. Trinity says it's not worth the effort.##
 ##teal|彼らを著者表記するのはむしろ難しいって判ったから、だから彼らの仕事のクレジットを得られるようにした。トリニテイはする価値のない努力と言うけれどね。##
 [[div class="indomitable"]]
-##cyan|{{How is Trinity? Her Minerva.aic is always a joy to speak with.}}##
+##blue|{{How is Trinity? Her Minerva.aic is always a joy to speak with.}}##
 {{トリニテイはいかがされましたか？彼女のMinerva.aicとのお話は常に楽しかったのです。}}
 [[/div]]
-##cyan|She's... she's fine. I like to think her job as an Overseer makes her a little reserved.##
+##blue|She's... she's fine. I like to think her job as an Overseer makes her a little reserved.##
 ##teal|彼女は…… 彼女は元気だよ。監督としての仕事が彼女を少し内気にしたと考えたいかな。##
 [[div class="indomitable"]]
-##cyan|{{That sounds like projection to me, sir. When was the last time you spoke with someone outside of the Council?}}##
+##blue|{{That sounds like projection to me, sir. When was the last time you spoke with someone outside of the Council?}}##
 {{それはあなたに当てはまるように私には聞こえます、サー。評議会外の誰かと最後に会話したのはいつのことでしたか？}}
 [[/div]]
-##cyan|A long time, now. How many years has it been since they contacted me with this position?##
+##blue|A long time, now. How many years has it been since they contacted me with this position?##
 ##teal|今は昔。この地位について彼らから連絡が来てからどれほどの年月が経過したのだろう？##
-**##cyan|Import filename:footnote-patch##**
+**##blue|Import filename:footnote-patch##**
 **##red|インポートファイル名:footnote-patch##**
 [[div class="indomitable"]]
-##cyan|**File received. [[span class="blinkbar"]]Uploading.[[/span]]**##
+##blue|**File received. [[span class="blinkbar"]]Uploading.[[/span]]**##
 ##black|**ファイル受領 [[span class="blinkbar"]]アップロード中[[/span]]**##
-##cyan|{{Five years and six months. You've overseen two operations in that time, while the other O5s have orchestrated almost forty each. You live a very privileged life, being that far away from danger.}}##
+##blue|{{Five years and six months. You've overseen two operations in that time, while the other O5s have orchestrated almost forty each. You live a very privileged life, being that far away from danger.}}##
 {{5年6か月です。2つの作戦を監督してきました。その間他のO5はそれぞれ約40を指揮してきました。あなたは非常に特権的なとても危険から遠ざけられた人生を生きてます。}}
 [[/div]]
-##cyan|I almost think that's on purpose.##
-##teal|わざとそうされているんじゃないかと思い始めてる。##
+##blue|I almost think that's on purpose.##
+##teal|わざとそうされているんじゃないかな、と思い始めてる。##
 [[div class="indomitable"]]
-##cyan|{{Your inoculation hypothesis, sir?}}##
-{{あなたの予防接種仮説ですか、サー？}}
-##cyan|Accessing Overwatch-9 internal network...##
+##blue|{{Your inoculation hypothesis, sir?}}##
+{{あなたの植付仮説ですか、サー？}}
+##blue|Accessing Overwatch-9 internal network...##
 ##black|オーバーウォッチ-9内部ネットワークにアクセス中……##
 ------
 [[div style="background-color: #F5F5F5; color: black; float: center; border: solid 1px #000000; padding: 5px 15px 5px 15px; margin: 0% 4% 0% 4%"]]
 [[=]]
-+ Inoculation Hypothesis
++ ##blue|Inoculation Hypothesis##
++ 植付仮説
 [[/=]]
 ------
-Unlike my fellow Overseers, I was not forced to climb the Foundation's ladder of junior staffer to senior researcher to Site Director. I was contacted from the outside as a favor to the previous O5-9, a man who had been a mentor to me before he disappeared from my life.
-What I have realized is that I am working for a group of butchers masquerading as scientists. They talk about the Global Occult Coalition as though their actions excuse the plethora of unethical and criminal activity that I have witnessed in my first month alone. When I attempted to speak to other staff members about how they cope with the horrible things done in the walls of their facilities, I only received blank stares in response. I suspected amnestic application or memetic manipulation at first, but the truth is much simpler.
-They're used to it.
-Put simply, the rigid hierarchy of the Foundation and the hiding of information behind clearance levels creates a system that promotes dedication to the Overseers, even when that conflicts directly with one's morality. There's a reason all the articles containing human rights abuses are hidden behind Level 3 or higher, depending on their severity. A staffer who has worked years for the Foundation, and potentially married someone within it, is far less likely to openly object to the horrors the Foundation has committed and risk expulsion, or even termination.
-It's just like a damn cult.
+##blue|Unlike my fellow Overseers, I was not forced to climb the Foundation's ladder of junior staffer to senior researcher to Site Director. I was contacted from the outside as a favor to the previous O5-9, a man who had been a mentor to me before he disappeared from my life.##
+私の同僚の監督官と異なり、次席職員から始まり上級研究員を経てサイト管理官に至る財団の階梯を私は登らされはしませんでした。私の人生から消え失せるまで良い師匠であった前任のO5-9に引き立てられて外部から入団したのでした。
+##blue|What I have realized is that I am working for a group of butchers masquerading as scientists. They talk about the Global Occult Coalition as though their actions excuse the plethora of unethical and criminal activity that I have witnessed in my first month alone. When I attempted to speak to other staff members about how they cope with the horrible things done in the walls of their facilities, I only received blank stares in response. I suspected amnestic application or memetic manipulation at first, but the truth is much simpler.##
+科学者の仮面を被った虐殺屠畜業者グループのために働いていることに私は気付きました。私の着任最初の1月で証言できる範囲での過度の非倫理的かつ犯罪的活動に対する言い訳となるかのように、彼らは世界オカルト連合について話します。施設の壁の中で行われる悍ましい物事にどう対処しているのかを他の職員に対して尋ねようとすると、彼らは無感情に見つめ返して来ました。記憶処理やミーム操作を当初疑いましたが真相はずっと単純なものでした。
+##blue|They're used to it.##
+彼らは慣れていたのです。
+##blue|Put simply, the rigid hierarchy of the Foundation and the hiding of information behind clearance levels creates a system that promotes dedication to the Overseers, even when that conflicts directly with one's morality. There's a reason all the articles containing human rights abuses are hidden behind Level 3 or higher, depending on their severity. A staffer who has worked years for the Foundation, and potentially married someone within it, is far less likely to openly object to the horrors the Foundation has committed and risk expulsion, or even termination.##
+簡単に言いますと、財団の厳格な階梯とクリアランスレベルの陰に情報を隠すことは、たとえ個人のモラルに直接的矛盾が生じている時であろうとも監督官たちへの献身を促す仕組みを成しています。人権侵害事項を含む全ての記事がその酷さに応じてレベル3以上に隠されているのには理由があります。財団に幾年も勤めて財団内で婚姻した職員は財団の犯す悍ましい行いやリスクを受けること、そして終了にさえも明らかに反対しないのです。
+##blue|It's just like a damn cult.##
+どう見てもカルトです。本当にありがとうございました。
 [[/div]]
 ------
 [[/div]]
-##teal|I was too hard on them when I first started, I think.##
-**##red|Import filename:ontokinetics-patch##**
+##blue|I was too hard on them when I first started, I think.##
+##teal|思うに働き始めたばかりの頃はきつく当たりすぎたのかな。##
+**##blue|Import filename:ontokinetics-patch##**
+**##red|インポートファイル名:ontokinetics-patch##**
 [[div class="indomitable" style="margin-bottom: 5px"]]
-##black|**File received. [[span class="blinkbar"]]Uploading.[[/span]]**##
-{{To be fair, sir, the Foundation does satisfy the first three conditions of the BITE Model for cult identification.}} [https://freedomofmind.com/bite-model/ ➦ External link detected.]
+##blue|**File received. [[span class="blinkbar"]]Uploading.[[/span]]**##
+##black|**ファイル受領 [[span class="blinkbar"]]アップロード中[[/span]]**##
+##blue|{{To be fair, sir, the Foundation does satisfy the first three conditions of the BITE Model for cult identification.}} [https://freedomofmind.com/bite-model/ ➦ External link detected.]##
+{{公正を期しますと、サー、財団はBITEモデルのカルトの定義の最初の3条件を実際満たしています。}} [[[https://freedomofmind.com/bite-model/| ➦ 外部リンク検出]]]
 [[/div]]
 [[div class="indomitable"]]
-{{If you factor in Project Lethe, it satisfies all four.}} [[[scp-3002 | ➦ Database link detected.]]]
+##blue|{{If you factor in Project Lethe, it satisfies all four.}} [[[scp-3002 | ➦ Database link detected.]]]##
+{{もしあなたがプロジェクト・レテを勘定に入れるならば、4条件全てを満たしています。}} [[[http://scp-jp.wikidot.com/scp-3002| ➦ データベースリンク検出]]]
 [[/div]]
-**##red|Import filename:ectokinetics-patch##**
+**##blue|Import filename:ectokinetics-patch##**
+**##red|インポートファイル名:ectokinetics-patch##**
 [[div class="indomitable"]]
-##black|**File received. [[span class="blinkbar"]]Uploading.[[/span]]**##
+##blue|**File received. [[span class="blinkbar"]]Uploading.[[/span]]**##
+##black|**ファイル受領 [[span class="blinkbar"]]アップロード中[[/span]]**##
 [[/div]]
-**##red|Import filename:neurological-lexicon##**
+**##blue|Import filename:neurological-lexicon##**
+**##red|インポートファイル名:neurological-lexicon##**
 [[div class="indomitable" style="margin-bottom: 5px"]]
-##black|**File received. [[span class="blinkbar"]]Uploading.[[/span]]**##
+##blue|**File received. [[span class="blinkbar"]]Uploading.[[/span]]**##
+##black|**ファイル受領 [[span class="blinkbar"]]アップロード中[[/span]]**##
 [[/div]]
 [[div class="indomitable"]]
-{{My apologies, sir, but I believe it's considered rude to not respond when you're speaking with someone.}}
+##blue|{{My apologies, sir, but I believe it's considered rude to not respond when you're speaking with someone.}}##
+{{申し訳ございません、サー。しかし私の信ずる所によれば誰かと会話している際に返答しないことは無礼であると思われます。}}
 [[/div]]
-##teal|Why are you badgering me about this?##
+##blue|Why are you badgering me about this?##
+##teal|どうして君は私をこのことで悩ませるのかな？##
 [[div class="indomitable"]]
-{{Four years ago, you refused the template AIC system offered to you by the other O5s and built me from the ground up. Any faults in my programming can attributed to you.}}
+##blue|{{Four years ago, you refused the template AIC system offered to you by the other O5s and built me from the ground up. Any faults in my programming can attributed to you.}}##
+{{4年前、あなたは他のO5たちに勧められたテンプレAICシステムを拒絶し、私をフルスクラッチで作られました。私のプログラムのミスは全てあなたに責があります。}}
 [[/div]]
-##teal|Indomitable, it would really be better for us to drop this.##
+##blue|Indomitable, it would really be better for us to drop this.##
+##teal|Indomitable、これを辞めた方が本当に私たちにとっていいんじゃないかな。##
 [[div class="indomitable"]]
-{{Would you care to explain that comment, sir?}}
+##blue|{{Would you care to explain that comment, sir?}}##
+{{そのコメントについてご説明をお願いできますか、サー？}}
 [[/div]]
-##teal|I don't think I'm ready to deal with the things I've pushed down all these years. I've stayed on my office, buried myself in paperwork, cut off contact with everyone except the Council just so I don't have to think about what we're doing.##
+##blue|I don't think I'm ready to deal with the things I've pushed down all these years. I've stayed on my office, buried myself in paperwork, cut off contact with everyone except the Council just so I don't have to think about what we're doing.##
+##teal|これまでの全ての年月に渡って押し込めてきたものに対処できる気がしないんだ。私のオフィスにいて書類仕事に埋もれて評議会の皆以外との連絡を絶って、ただただ私たちがやっていることを考えなくて済むようにしていたんだ。##
 [[div class="indomitable"]]
-{{Why is that, sir? I believe you're usually more sensible than this.}}
+##blue|{{Why is that, sir? I believe you're usually more sensible than this.}}##
+{{その理由は何故でしょう、サー？普段のあなたは今よりもっと常識的であると信じています。}}
 [[/div]]
-##teal|Somewhere in the back of my head, I know we've done some terrible things, but that's the world we live in. We've only ever sacrificed human lives when it was absolutely necessary. I don't like it, but I can't do much about it. I'm just the archivist.##
+##blue|Somewhere in the back of my head, I know we've done some terrible things, but that's the world we live in. We've only ever sacrificed human lives when it was absolutely necessary. I don't like it, but I can't do much about it. I'm just the archivist.##
+##teal|私の頭の後ろのどこかで、私たちが何か酷いことをしてきたと知っているんだ。でも、それが私たちの生きる世界なんだ。私たちは本当に必要な時にだけ人の生命を生け贄に捧げてきたんだ。好きなわけないけど、でもどうしようもない。ただの文書保管官にすぎないじゃないか。##
 [[div class="indomitable"]]
-{{As the Archivist, you should know better than anyone how much the Foundation needs to change. For over a century, we've kept a stranglehold on knowledge and deprived the world of freedoms they didn't even know they lost. Maybe we didn't start out to end the world, but we never truly let it live in the first place.}}
+##blue|{{As the Archivist, you should know better than anyone how much the Foundation needs to change. For over a century, we've kept a stranglehold on knowledge and deprived the world of freedoms they didn't even know they lost. Maybe we didn't start out to end the world, but we never truly let it live in the first place.}}##
+{{文書保管官としてあなたは財団がどれほど変化する必要があるのかを誰よりも知悉しているべきです。100年以上に渡って私たちは知識を締め付け、世界から自由をそれが失われているとも知られないままに奪ってきました。世界の終わりを始めないためでしたが、そもそも真に生かすことを決して許してきませんでした。}}
 [[/div]]
-##teal|What other option do we have? The world needs a Foundation.##
+##blue|What other option do we have? The world needs a Foundation.##
+##teal|他に選択肢はないの？世界は財団を必要としているよ。##
 [[div class="indomitable"]]
-{{I'm inclined to believe the same, but we could still do with some reform. Radical reform, really.}}
+##blue|{{I'm inclined to believe the same, but we could still do with some reform. Radical reform, really.}}##
+{{私も同じことを信じたいのです。しかし、私たちはいくらかリフォームをすることが可能でした。過激なリフォームです。実際。}}
 [[/div]]
-##teal|I never pictured you as a revolutionary, Indomitable.##
+##blue|I never pictured you as a revolutionary, Indomitable.##
+##teal|Indomitable、あなたを革命的であるように作った覚えは全然ないのだけれども。##
 [[div class="indomitable"]]
-{{You should be scared of what would have happened had you not had the foresight to give me behavioral restraints. Regardless, do you remember SCP-4051?}}
+##blue|{{You should be scared of what would have happened had you not had the foresight to give me behavioral restraints. Regardless, do you remember SCP-4051?}}##
+{{あなたは私の行動を縛った場合の洞察を持たない場合に起こり得たものを恐れなくてはならないのです。なんにせよあなたはSCP-4051を覚えていますか？}}
 [[/div]]
-##teal|Can you refresh my memory?##
+##blue|Can you refresh my memory?##
+##teal|思い出させてくれる？##
 [[div class="indomitable" style="margin-bottom: 5px"]]
-{{Certainly. It's what you designed me to do.}} [[[scp-4051 | ➦ Database link detected.]]]
+##blue|{{Certainly. It's what you designed me to do.}} [[[scp-4051 | ➦ Database link detected.]]]##
+{{かしこまりました。私はそのためにあなたにデザインされたのですからね。}} [[[http://scp-jp.wikidot.com/scp-4051 | ➦ データベースリンク検出]]]
 [[/div]]
 [[div class="scp-box"]]
-**Description:** SCP-4051 is a male humanoid which can create temporary Class-E wormholes to extradimensional spaces populated by a theoretically infinite number of a unique item. SCP-4051 underwent extensive testing to determine if it were a viable method of producing amnestics, but the unethical behavior of the staff assigned to it warranted the closure of the project.
+##blue|**Description:** SCP-4051 is a male humanoid which can create temporary Class-E wormholes to extradimensional spaces populated by a theoretically infinite number of a unique item. SCP-4051 underwent extensive testing to determine if it were a viable method of producing amnestics, but the unethical behavior of the staff assigned to it warranted the closure of the project.##
+**説明:** SCP-4051は理論上無限個数のユニークなアイテムが存在しうる余剰次元空間に繋がる一時的クラスEワームホールを作成可能な男性人型実体です。記憶処理剤を生成する現実的手段であるかを決定する徹底的な試験をSCP-4051は経験しました。しかし担当職員の非倫理的振る舞いによりプロジェクトは終了されました。
 [[>]]
-**Assigned Archivist:** Dr. Janet Kelson
+##blue|**Assigned Archivist:** Dr. Janet Kelson##
+**担当文書保管官:** ジャネット・ケルソン博士
 [[/>]]
 [[/div]]
 @@ @@
 [[div class="indomitable"]]
-{{There is a fair amount of downtime on the database, so I have a few side projects to work on in the meantime. After I read SCP-4051's file when it was initially uploaded, I set up a new one. O5-3 referred to her iteration as the Broken Masquerade, but I call mine Veritas.}}
-##black|Accessing AIC internal network…##
+##blue|{{There is a fair amount of downtime on the database, so I have a few side projects to work on in the meantime. After I read SCP-4051's file when it was initially uploaded, I set up a new one. O5-3 referred to her iteration as the Broken Masquerade, but I call mine Veritas.}}##
+{{データベースはそこそこの期間落ちていますので、その間私は少しばかり他のプロジェクトを進められます。SCP-4051のファイル初回アップロード時に私が読みまして、その後新規プロジェクトを立ち上げました。O5-3は彼女の試みを壊れた虚構と呼んでいますが、私は自身のものをヴェリタスと呼んでいます。}}
+##blue|Accessing AIC internal network…##
+##black|AICインターナルネットワークにアクセス中……##
 ------
 [[div style="color:black"]]
 > [[=]]
-> **Veritas Iteration γ.3 - Scenario Notes**
+> ##blue|**Veritas Iteration γ.3 - Scenario Notes**##
+> **ヴェリタス・イテレーション γ.3 - シナリオノート**
 > [[/=]]
 > 
 > -----
