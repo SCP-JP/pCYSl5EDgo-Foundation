@@ -3,40 +3,36 @@
 #header {
   background-image: url('https://scp-wiki.wdfiles.com/local--files/theme%3Anight-rush-theme/night-rush-icon.png');
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
-
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-style: sans-serif;
-    font-size: 1.2em;
-    line-height: 30px;
+  display: block;
+  overflow: hidden;
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-style: sans-serif;
+  font-size: 1.2em;
+  line-height: 30px;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+  background-origin: padding-box;
+  background-position: 0px 8px;
+  background-repeat: repeat;
+  background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
 }
-
 .page p,
 .page ul {
-    line-height: 20px;
-    margin: 0;
+  line-height: 20px;
+  margin: 0;
 }
-
 .page li {
   line-height: 200%;
 }
@@ -56,7 +52,84 @@
 [[include :scp-jp:credit:end]]
 
 [[div class="page"]]
+現状把握のため、常にメモを取るべき
+
+**Who - 私の名前:** ███ ██(何か永久に失われた気がする)
+**Where - 現在地:** 収容コンテナの前、プラカード情報: エリア-67215第5層
+**When - 日付:** 2101年12月25日
+**What - 持ち物:**
+* 財団職員に相応しい上品な黒スーツ
+* 床に短杖が2本転がっている ← 私物？
+* どこかの部門の徽章(どの部門なのかわからないけれども収容コンテナにも同じロゴが描かれている) → 私は財団職員だった？
+* IDカード(レベル5クリアランス) ← 所属部門名と氏名が読めない
+* 紛失に備えてロゴを写しておく
+**Why:**
+* 名前を含む自分自身に関わる記憶が何故ない？
+* 見えないなにかがジリジリ近づいてきている気がする ← 建物の中に今居るから気配だけ感じる？
+**How - 何をどうするのか:** 外に出るか窓から気配の方角を見る
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:6166848-13-5s4g/%E5%80%AB%E7%90%86%E5%A7%94%E5%93%A1%E4%BC%9A_ethic.png title="ロゴ"]]
 [[/div]]
+
+[[div class="page"]]
+廊下の反対側(気配側)からズリズリっとした音が聞こえる
+少し先にドアがあったので下部の給餌口から覗いてみたら死んだような顔をした人が壁を押して歩いていた ← オレンジのツナギを着ていたから多分Dクラス ← 壁を押す特別収容プロトコル？
+↑判明: SCP-3125-AQ
+
+--窓がどこにもない-- 地下2700mにある施設だった@南極点から300km地点
+
+@@ @@
+
+**Where - 地上:** 見渡す限り氷しか無い
+**What - 気配:** 方角は丁度南極向き。見えざるピンクの--ユニコーン--壁。こちらにゆっくりと近付いてきている。
+**Why - 動機:**
+* 見えざるピンクの光に惹かれる
+* 壁に触れるとまずい予感がある
+**How - 予定:** ↑どちらが正しい？ SCPデータベースにアクセスして類例を検索すること
+エリア-67215の地下施設に戻る？エレベーターが使えないから非常階段使ったんだわ
+(1): 壁について判明 かつ 触れても良い なら そのまま施設に留まればヨシ
+(2): その他の場合 なら 施設から壁に触れずに脱出できないのでアボン！
+確率は不明なので安牌を取るべき → エリア-67215以外の財団施設へGO
+[[/div]]
+
+[[div class="page"]]
+
+[[/div]]
+
+[[collapsible show="+ 添付予定タグ" hide="- 閉じる"]]
+* goi-format
+* jp
+* 深淵目録
+* 何者でもない
+* 倫理委員会
+* 第五教会
+* _第五教会
+* わかばコンテスト
+* _イベント1
+[[/collapsible]]
+
+[[collapsible show="+ ライセンス" hide="- 閉じる"]]
+[[div class="blockquote"]]
+**ファイルページ:** https://fonts.google.com/specimen/Zen+Kurenaido?subset=japanese#license
+
+**ライセンス:** [[[https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL|Open Font License]]]
+
+**タイトル:** Zen Kurenaido
+**著作権者:** [[[https://fonts.google.com/?query=Yoshimichi+Ohira|Yoshimichi Ohira]]]
+**公開年:** 不明(おそらく2021)
+[[/div]]
+
+[[div class="blockquote"]]
+**ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:6166848-13-5s4g 倫理委員会ロゴ]
+
+**ソース:** https://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne
+**ライセンス:** CC BY-SA 3.0
+
+**タイトル:** Ethics Comittee
+**著作権者:** [[*user EstrellaYoshte]]
+**公開年:** 不明
+**補足:**
+[[/div]]
+[[/collapsible]]
 
 [[collapsible show="+ スポイラー" hide="- 閉じる"]]
 本記事投稿後に[[[http://scp-jp-sandbox3.wikidot.com/draft:7974444-4-8a15|空白(ハブ)]]]をJPに投稿しようと考えています。
