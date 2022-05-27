@@ -1,3 +1,57 @@
+[[module css]]
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+#header {
+  background-image: url('https://scp-wiki.wdfiles.com/local--files/theme%3Anight-rush-theme/night-rush-icon.png');
+}
+
+.page {
+  display: block;
+  overflow: hidden;
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-style: sans-serif;
+  font-size: 1.2em;
+  line-height: 30px;
+
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+  background-origin: padding-box;
+  background-position: 0px 8px;
+  background-repeat: repeat;
+  background-size: 100% 20px;
+
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+}
+.page p,
+.page ul {
+  line-height: 20px;
+  margin: 0;
+}
+.page li {
+  line-height: 200%;
+}
+.page ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#html-body #header h2 span {
+  font-size: 0px;
+}
+
+#html-body #header h2 span::before {
+  content: '確保、収容、保護、統制';
+  color: #f0f0c0;
+  font-size: 15px;
+}
+[[/module]]
 [[div style="margin: auto; margin-bottom: .3em; text-align: center; padding-bottom: 4px;"]]
 **[[[http://scp-jp-sandbox3.wikidot.com/draft:7974444-4-8a15|空白(ハブ)]]]** » メモ ::: らんなうぇい
 [[/div]]
@@ -179,55 +233,3 @@ AQとは国コードにおける南極を指します。
 * 順序を入れ替えた方が良さそうな場所、拙い表現、ブレなどはあるか
 * サイト-17深淵目録及び空白(ハブ)のカノンに反していないか
 [[/collapsible]]
-[[module css]]
-#header {
-  background-image: url('https://scp-wiki.wdfiles.com/local--files/theme%3Anight-rush-theme/night-rush-icon.png');
-}
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
-.page {
-  display: block;
-  overflow: hidden;
-  font-family: 'Zen Kurenaido', sans-serif;
-  font-style: sans-serif;
-  font-size: 1.2em;
-  line-height: 30px;
-
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-color: transparent;
-  background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-  background-origin: padding-box;
-  background-position: 0px 8px;
-  background-repeat: repeat;
-  background-size: 100% 20px;
-
-  border: 1px solid #CCC;
-  border-radius: 10px;
-  padding: 10px 10px;
-  margin-bottom: 10px;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-}
-.page p,
-.page ul {
-  line-height: 20px;
-  margin: 0;
-}
-.page li {
-  line-height: 200%;
-}
-.page ul {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#html-body #header h2 span {
-  font-size: 0px;
-}
-
-#html-body #header h2 span::before {
-  content: '確保、収容、保護、統制';
-  color: #f0f0c0;
-  font-size: 15px;
-}
-[[/module]]
