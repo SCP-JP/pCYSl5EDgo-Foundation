@@ -300,7 +300,6 @@ a.collapsible-block-link { font-weight: bold; }
 [[div style="height: 25px"]]
 [[/div]]
 
-付与予定タグ
-* en
-* tale
-* 深淵目録
+[[include component:custom-info |tag=en tale 深淵目録]]
+[[collapsible show="+ 査読者名簿" hide="- 隠す"]]
+[[/collapsible]]
