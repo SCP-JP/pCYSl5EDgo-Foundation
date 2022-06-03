@@ -1,9 +1,4 @@
-[[include :scp-jp:theme:scp-trans-pride |trans-pride-logo= --]]]
-[[module CSS]]
-a.collapsible-block-link {
-  font-weight: bold;
-}
-[[/module]]
+[[include :scp-wiki:theme:scp-trans-pride |trans-pride-logo= --]]]
 [[include :scp-jp:credit:start]]
 **タイトル:** Friends Made, and the **Void**
 **著者:** [[*user Nagiros]]
@@ -28,19 +23,20 @@ a.collapsible-block-link {
 [[/<]]
 @@ @@
 [[=]]
-[[collapsible show="[Access Archived.Containment.Procedures.4175.β]" hide="[Retract Archived.Containment.Procedures.4175.β]"]]
-> [[size 110%]]**__Archived.Containment.Procedures.4175.β__**[[/size]]
-> [[size 90%]]//Note: The following procedures have been archived and are no longer considered applicable or effective to the referenced anomaly.//[[/size]]
-> 
-> ------
-> 
-> [[<]]
-> 
-> **Special Containment Procedures:** The room affected by SCP-4175 has been removed from the attached building and is currently contained in a large, low-value storage vault at Site-17.
-> 
-> A member of [[[/task-forces#psi-8 | MTF Psi-8 ("The Silencers")]]], identified as ψ-8 Maria Hayes, has been provided specialized Clearance Level 2/4175 for the purpose of continued experimentation on SCP-4175.
-> 
-> [[/<]]
+[[collapsible show="[Access Archived.Containment.Procedures.4175.β アーカイブ済み収容プロトコル4175.βにアクセス]" hide="[Retract Archived.Containment.Procedures.4175.β アーカイブ済み収容プロトコル4175.βを閉じる]"]]
+[[div class="blockquote"]]
+[[size 110%]]**__Archived.Containment.Procedures.4175.β__**[[/size]]
+[[size 90%]]//Note: The following procedures have been archived and are no longer considered applicable or effective to the referenced anomaly.//[[/size]]
+@@ @@
+------
+@@ @@
+@@ @@
+[[<]]
+**Special Containment Procedures:** The room affected by SCP-4175 has been removed from the attached building and is currently contained in a large, low-value storage vault at Site-17.
+@@ @@ 
+A member of [[[http://scp-jp.wikidot.com/task-forces#psi-8 | MTF Psi-8 ("The Silencers")]]], identified as ψ-8 Maria Hayes, has been provided specialized Clearance Level 2/4175 for the purpose of continued experimentation on SCP-4175.
+[[/<]]
+[[/div]]
 [[/collapsible]]
 [[/=]]
 @@ @@
@@ -141,12 +137,11 @@ As of September 8, 2015, SCP-4175 has been declared Decommissioned. The anomaly 
 [[/=]]
 [[/div]]
 
-付与予定タグ
-* en
-* scp
-* esoteric-class
-* 深淵目録
-* シメリアン博士
-* 倫理委員会
-* 人間型
-* 知性
+[[include component:custom-info |tag=en scp esoteric-class 深淵目録 シメリアン博士 倫理委員会 人間型 知性]]
+[[collapsible show="+ 査読者名簿" hide="- 隠す"]]
+[[/collapsible]]
+[[module CSS]]
+a.collapsible-block-link {
+  font-weight: bold;
+}
+[[/module]]

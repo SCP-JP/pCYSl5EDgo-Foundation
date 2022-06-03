@@ -6,177 +6,6 @@
 [[include component:image-block name=https://scp-wiki.wdfiles.com/local--files/placeholder-mcd-s-authorpage/s17_purp.png|caption=.]]
 [[/div]]
 
-[[module CSS]]
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-:root {
-    --accentColor: #97e;
-    --lgurl: url(https://scp-wiki.wdfiles.com/local--files/placeholder-mcd-s-authorpage/s17_purp.png);
-    --header-title: "サイト-17深淵目録";
-    --header-subtitle: "確保 - 収容 - 保護";
-}
-#side-bar {
-     background-color: #fff;
-     left: -23em;
-    }
-
-body {
-    background: #080016 !important;
-    font-family: 'Inter', sans-serif;
-}
-
-#header h1 a::before, #header h2::before {
-letter-spacing: 2px;
-font-family: 'Work Sans', sans-serif !important;
-font-weight: 700 !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-font-family: 'Work Sans', sans-serif !important;
-font-weight: 700 !important;
-text-transform: uppercase !important;
-}
-
-#header h2::before {
-font-size: 1em;
-}
-
-#header h1 a::before {
-font-size: 1em;
-letter-spacing: 5px;
-}
-
-.allmont, .allmont *, .allmont *::before, .allmont *:before, .allmont *::after, .allmont *:after {
-font-family: 'Work Sans', sans-serif !important;
-font-weight: 600;
-}
-
-@media (min-width: 768px) {
-    #main-content {
-       max-width: 98%;
-    }
-}
-
-.notation {
-    border-left: solid 3px rgb(40, 40, 40);
-    border-right: solid 3px rgb(40, 40, 40);
-    padding: 5px 15px;
-    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.7);
-    width: 75%;
-    margin: auto;
-    background: rgb(20, 20, 20) !important;
-    overflow: auto;
-    height: auto;
-}
-
-.modal {
-    padding: 15px 15px 15px 15px;
-    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.7);
-    width: 96%;
-    margin: auto;
-    background: rgb(20, 20, 20);
-    border: solid 2px rgb(40, 40, 40);
-    overflow: auto;
-    height: auto;
-}
-
-.bigtext {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 700;
-    color: var(--accentColor);
-    font-size: 110%;
-}
-
-.scp-image-block .scp-image-caption p {
-    font-size: 110%;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.scp-image-block {
-    border: none;
-    box-shadow: none;
-}
-
-.scp-image-block .scp-image-caption {
-    border-top: none !important;
-    margin-top: 8px;
-    background: rgb(10, 10, 10);
-    color: #ffffff;
-}
-
-.scp-image-block img,
-.scp-image-block .scp-image-caption {
-    outline: solid 1px var(--accentColor);
-    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.7);
-}
-
-div#extra-div-1 {
-    filter: opacity(0.4);
-}
-
-/* excerpt div stuff */
-.excerpt {
-  border: solid 2px var(--accentColor);
-  border-left-width: 10px;
-  padding: 1px 15px;
-  width: 75%;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 2px;
-  background: #303040;
-}
-@media (max-width: 479px) {
-  .excerpt {
-    width: auto;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-/* replacing wikidot syntax for centering/size */
-.excerpt > p:first-child {
-  text-align: center;
-  font-size: 80%;
-}
-.excerpt p:first-child > strong:first-of-type,
-.excerpt p:first-child > em {
-  font-size: 125%;
-}
-.excerpt:not(.hub) > hr ~ p {
-  font-style: italic;
-}
-/* excerpt border colors */
-.series.lifeless {
-  --accentColor: #06f;
-}
-.series.white-space {
-  --accentColor: #0f6;
-}
-.admonition {
-  --accentColor: #f24;
-}
-.other {
-  --accentColor: #ccc;
-}
-.other a {
-  --accentColor: #97e;
-}
-.jp {
-  --accentColor: #ff2281;
-}
-
-/* section header stuff */
-.section-header {
-  border-bottom: 2px solid var(--accentColor);
-  margin: 50px 0 15px;
-}
-.section-header h1 {
-  margin-bottom: 2px;
-}
-[[/module]]
-
 [[=]]
 [[module Rate]]
 [[/=]]
@@ -233,23 +62,6 @@ SCP-4260 refers to the consciousness of an essophysical entity which has permeat
 **[[[APAS|Automated Passive Amnestization System Ver. 17.09]]]**
 by **Nagiros**
 ----
-[[module CSS]]
-div.terminal {
-  margin-bottom: 1em;
-  border: solid 3px #BBBBBB;
-  border-radius: 16px;
-  background-color: #131;
-  background-image: radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121); /* black shadow at the top of the terminal */
-  background-position: center;
-  box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5); /* shadow around the terminal */
-  overflow: hidden; /* prevents scanline from forming a scrollwheel */
-  color: rgba(128,255,128,0.8);
-  font-family: monospace;
-  font-size: 1.45em;
-  padding: 0 1em;
-}
-[[/module]]
-
 [[div class="terminal"]]
 Your current version of the Automated Passive Amnestization System (APAS), installed at Site-17, is up to date and all systems are online. What now?
 [[/div]]
@@ -530,3 +342,187 @@ SCP-2566-JPは、サイト-17地下施設-アルファに存在する財団の�
 = <今後のために仮設置>
 [[/tab]]
 [[/tabview]]
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --accentColor: #97e;
+    --lgurl: url(https://scp-wiki.wdfiles.com/local--files/placeholder-mcd-s-authorpage/s17_purp.png);
+    --header-title: "サイト-17深淵目録";
+    --header-subtitle: "確保 - 収容 - 保護";
+}
+#side-bar {
+     background-color: #fff;
+     left: -23em;
+    }
+
+body {
+    background: #080016 !important;
+    font-family: 'Inter', sans-serif;
+}
+
+#header h1 a::before, #header h2::before {
+letter-spacing: 2px;
+font-family: 'Work Sans', sans-serif !important;
+font-weight: 700 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Work Sans', sans-serif !important;
+font-weight: 700 !important;
+text-transform: uppercase !important;
+}
+
+#header h2::before {
+font-size: 1em;
+}
+
+#header h1 a::before {
+font-size: 1em;
+letter-spacing: 5px;
+}
+
+.allmont, .allmont *, .allmont *::before, .allmont *:before, .allmont *::after, .allmont *:after {
+font-family: 'Work Sans', sans-serif !important;
+font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    #main-content {
+       max-width: 98%;
+    }
+}
+
+.notation {
+    border-left: solid 3px rgb(40, 40, 40);
+    border-right: solid 3px rgb(40, 40, 40);
+    padding: 5px 15px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.7);
+    width: 75%;
+    margin: auto;
+    background: rgb(20, 20, 20) !important;
+    overflow: auto;
+    height: auto;
+}
+
+.modal {
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.7);
+    width: 96%;
+    margin: auto;
+    background: rgb(20, 20, 20);
+    border: solid 2px rgb(40, 40, 40);
+    overflow: auto;
+    height: auto;
+}
+
+.bigtext {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: var(--accentColor);
+    font-size: 110%;
+}
+
+.scp-image-block .scp-image-caption p {
+    font-size: 110%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.scp-image-block {
+    border: none;
+    box-shadow: none;
+}
+
+.scp-image-block .scp-image-caption {
+    border-top: none !important;
+    margin-top: 8px;
+    background: rgb(10, 10, 10);
+    color: #ffffff;
+}
+
+.scp-image-block img,
+.scp-image-block .scp-image-caption {
+    outline: solid 1px var(--accentColor);
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.7);
+}
+
+div#extra-div-1 {
+    filter: opacity(0.4);
+}
+
+/* excerpt div stuff */
+.excerpt {
+  border: solid 2px var(--accentColor);
+  border-left-width: 10px;
+  padding: 1px 15px;
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  background: #303040;
+}
+@media (max-width: 479px) {
+  .excerpt {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* replacing wikidot syntax for centering/size */
+.excerpt > p:first-child {
+  text-align: center;
+  font-size: 80%;
+}
+.excerpt p:first-child > strong:first-of-type,
+.excerpt p:first-child > em {
+  font-size: 125%;
+}
+.excerpt:not(.hub) > hr ~ p {
+  font-style: italic;
+}
+/* excerpt border colors */
+.series.lifeless {
+  --accentColor: #06f;
+}
+.series.white-space {
+  --accentColor: #0f6;
+}
+.admonition {
+  --accentColor: #f24;
+}
+.other {
+  --accentColor: #ccc;
+}
+.other a {
+  --accentColor: #97e;
+}
+.jp {
+  --accentColor: #ff2281;
+}
+
+/* section header stuff */
+.section-header {
+  border-bottom: 2px solid var(--accentColor);
+  margin: 50px 0 15px;
+}
+.section-header h1 {
+  margin-bottom: 2px;
+}
+div.terminal {
+  margin-bottom: 1em;
+  border: solid 3px #BBBBBB;
+  border-radius: 16px;
+  background-color: #131;
+  background-image: radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121); /* black shadow at the top of the terminal */
+  background-position: center;
+  box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5); /* shadow around the terminal */
+  overflow: hidden; /* prevents scanline from forming a scrollwheel */
+  color: rgba(128,255,128,0.8);
+  font-family: monospace;
+  font-size: 1.45em;
+  padding: 0 1em;
+}
+[[/module]]
