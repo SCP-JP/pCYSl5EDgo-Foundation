@@ -4,7 +4,7 @@
 /* epic trans moment - CSS by Orison*/
 
 div#container-wrap{
-    background: url("https://scp-wiki.wdfiles.com/local--files/theme%3Ascp-trans-pride/Trans-CSS-File.png") top left repeat-x;
+    background: url("http://scp-jp-storage.wikidot.com/local--files/file:7974444-10-ltc0/Trans-CSS-File.png") top left repeat-x;
 }
 
 #container-wrap-wrap{
@@ -61,7 +61,7 @@ div#container-wrap{
 /* epic trans moment - CSS by Uncle Nicolini from here*/
 
 #header {
-    background-image: url(https://scp-wiki.wdfiles.com/local--files/theme%3Ascp-trans-pride/TransSCPlogo.png) !important;
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7974444-9-5omr/TransSCPlogo.png) !important;
 }
 
 #license-area {
@@ -87,38 +87,45 @@ div#container-wrap{
 }
 [[/module]]
 
-**Animated header by Orison
-Trans Pride Logo and footer by [[*user uncle nicolini]]
-[[*user Ellie3]] is just the shmuck who tossed it all together!**
+**##blue|Animated header by Orison##
+アニメヘッダ by Orison
+##blue|Trans Pride Logo and footer by [[*user uncle nicolini]]##
+Trans Pride Logo とフッター by [[*user uncle nicolini]]
+##blue|[[*user Ellie3]] is just the shmuck who tossed it all together!##
+[[*user Ellie3]]はぽいっと全部を一緒くたにしたただのシュマックでしかない！**
+------
+
+##blue|If you would like to use the theme as a whole, insert the following code at the top of your article:##
+もしあなたがこのテーマの全てを使用したいのであるならば、以下のコードをあなたの記事のトップに挿入してください。
+
+> {{[[@@include :scp-jp:theme:scp-trans-pride |trans-pride-animated-header= --] |trans-pride-logo= --] |trans-pride-footer= --@@]]]}}
 
 ------
 
-If you would like to use the theme as a whole, insert the following code at the top of your article:
+##blue|If you would like to use only the SCP Trans Pride Logo (and the footer) insert the following code at the top of your article:##
+もしあなたがこのテーマのロゴ(とフッター)を使用したいのであるならば、以下のコードをあなたの記事のトップに挿入してください。
 
-> {{[[@@include :scp-wiki:theme:scp-trans-pride |trans-pride-animated-header= --] |trans-pride-logo= --] |trans-pride-footer= --@@]]]}}
-
-------
-
-If you would like to use only the SCP Trans Pride Logo (and the footer) insert the following code at the top of your article:
-
-> {{[[@@include :scp-wiki:theme:scp-trans-pride |trans-pride-logo= --] |trans-pride-footer= --@@]]]}}
+> {{[[@@include :scp-jp:theme:scp-trans-pride |trans-pride-logo= --] |trans-pride-footer= --@@]]]}}
 
 ------
 
-If you would like to use only the SCP Trans Pride Animated Header (and the footer) insert the following code at the top of your article:
+##blue|If you would like to use only the SCP Trans Pride Animated Header (and the footer) insert the following code at the top of your article:##
+もしあなたがこのテーマのアニメヘッダー(とフッター)を使用したいのであるならば、以下のコードをあなたの記事のトップに挿入してください。
 
-> {{[[@@include :scp-wiki:theme:scp-trans-pride |@@trans-pride-animated-header= --@@] |trans-pride-footer= --@@]]]}}
+> {{[[@@include :scp-jp:theme:scp-trans-pride |@@trans-pride-animated-header= --@@] |trans-pride-footer= --@@]]]}}
 
 ------
 
-If (for some reason) you would not like to use the footer, simply delete the following code from any of the above code:
+##blue|If (for some reason) you would not like to use the footer, simply delete the following code from any of the above code:##
+もし(何らかの理由で)あなたがフッターを使用したくないのであるならば、単に以下のコードを上述のコードから削除してください。
 
 > {{@@ |trans-pride-footer= --@@]}}
 
 ------
 
 [[=]]
-+++ → [http://www.scp-wiki.net/component:pride-highlighter Check out Woedenaz's Pride Highlighter Theme as well!] ←
++++ ##blue|→ [http://www.scp-wiki.net/component:pride-highlighter Check out Woedenaz's Pride Highlighter Theme as well!] ←##
++++ → [[[http://www.scp-wiki.net/component:pride-highlighter| WoedenazのPride Highlighter Themeもチェックしてみてね！]]] ←
 [[/=]]
 
 ------
@@ -130,7 +137,7 @@ If (for some reason) you would not like to use the footer, simply delete the fol
 /* epic trans moment - CSS by Orison*/
 
 div#container-wrap{
-    background: url("https://scp-wiki.wdfiles.com/local--files/theme%3Ascp-trans-pride/Trans-CSS-File.png") top left repeat-x;
+    background: url("http://scp-jp-storage.wikidot.com/local--files/file:7974444-10-ltc0/Trans-CSS-File.png") top left repeat-x;
 }
 
 #container-wrap-wrap{
@@ -189,7 +196,7 @@ div#container-wrap{
 [!-- {$trans-pride-logo}
 [[module css]]
 #header {
-    background-image: url(https://scp-wiki.wdfiles.com/local--files/theme%3Ascp-trans-pride/TransSCPlogo.png) !important;
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7974444-9-5omr/TransSCPlogo.png) !important;
 }
 [[/module]]
 [!----]
