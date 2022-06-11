@@ -1,32 +1,8 @@
 [[include :scp-wiki:theme:scp-trans-pride |trans-pride-logo= --]]]
-[[module CSS]]
-/* INCREASING WHITE SPACE */
-.main-text > p {
-  font-size: 105%;
-  margin: 40px auto;
-}
-
-/* LINKS */
-.main-text a {
-  background: #dedede;
-  border: 4px solid #aaa;
-  margin: 60px 0;
-  transition: 0.75s;
-  display: block;
-  padding: 15px 10px;
-  text-align: center;
-}
-.main-text a:hover {
-  background: rgb(0,0,0,0);
-  border: 4px solid rgb(0,0,0,0);
-}
-[[/module]]
 [[include credit:start]]
-**タイトル:** white space (HUB)
+**タイトル:** [[[https://scp-wiki.wikidot.com/white-space-hub|white space (HUB)]]] rev.17
 **著者:** [[*user Nagiros]]
 **作成年:** 2020
-**訳者:** [[*user pcysl]]
-**訳年:** 2022
 [[include credit:end]]
 [[div class="blockquote" style="padding-top: 10px; margin-bottom: 100px;"]]
 [[=]]
@@ -83,15 +59,25 @@
 [[/div]]
 
 [[footnoteblock]]
-[[include component:custom-info |tag=en ハブ 深淵目録]]
+[[module CSS]]
+/* INCREASING WHITE SPACE */
+.main-text > p {
+  font-size: 105%;
+  margin: 40px auto;
+}
 
-> チャットで見てくださった皆さん、そしてこのシリーズに何かしら貢献してくださった人々に感謝します。沢山の人が助けてくださりました。
-> **で、これは…… 何？**
-> 経験的に、それは何かしら感情的なものへの旅です（できればそうなっていてほしい）。現実世界というよりメタファーで動作するものです。現実改変と概念操作に支配された世界のちょっとわかりやすい物語は存在しますが、プロットは常々過大評価されすぎますので……。
-> それは４部からなる物語で、最終章はまだできていません。我慢していただけると幸いです。
-
-[[collapsible show="+ 査読者名簿" hide="- 隠す"]]
-[[*user chocomintya]]
-[[*user G and B Channel]]
-[[*user hayateng]]
-[[/collapsible]]
+/* LINKS */
+.main-text a {
+  background: #dedede;
+  border: 4px solid #aaa;
+  margin: 60px 0;
+  transition: 0.75s;
+  display: block;
+  padding: 15px 10px;
+  text-align: center;
+}
+.main-text a:hover {
+  background: rgb(0,0,0,0);
+  border: 4px solid rgb(0,0,0,0);
+}
+[[/module]]
