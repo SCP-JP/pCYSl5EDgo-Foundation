@@ -1,11 +1,10 @@
-[[div style="margin: auto; margin-bottom: .3em; text-align: center; padding-bottom: 4px;"]]
-**[[[site-17-hub|サイト-17深淵目録]]] » [[[white-space-hub|空白(ハブ)]]]** » メモ ::: 何一つ問題はなくなる
-[[/div]]
 [[include credit:start]]
 **タイトル:** メモ ::: 何一つ問題はなくなる
 **著者:** ©︎[[*user pcysl]]
 **作成年:** 2022
 [[size 0%]] http://scp-jp-sandbox3.wikidot.com/draft:7974444-8-4ef1 [[/size]]
+----
+[[[author:pcysl|著者ページ]]]
 [[include credit:end]]
 
 [[div class="page"]]
@@ -480,6 +479,65 @@ __//達成できないことを達成しようとする、敗北に直面した�
 @@ @@
 
 Next Episode → [[[slipping-away|来世蛇 /// ザ・ファウンデーション・オーバーヘブン]]]
+[[module css]]
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+.page {
+  display: block;
+  overflow: hidden;
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-style: sans-serif;
+  font-size: 1.2em;
+  line-height: 30px;
+
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+  background-origin: padding-box;
+  background-position: 0px 8px;
+  background-repeat: repeat;
+  background-size: 100% 20px;
+
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+}
+.page p,
+.page ul {
+  line-height: 20px;
+  margin: 0;
+}
+.page li {
+  line-height: 200%;
+}
+.page ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#html-body #header h2 span {
+  font-size: 0px;
+}
+
+#html-body #header h2 span::before {
+  content: '確保、収容、保護、統制';
+  color: #f0f0c0;
+  font-size: 15px;
+}
+
+#html-body #header h1 a span {
+  font-size: 0px;
+  letter-spacing: 0px;
+}
+
+#html-body #header h1 a::after {
+  content: "Site-17 深淵目録";
+}
+[[/module]]
 
 [[include component:custom-info |tag=goi-format jp 深淵目録 何者でもない 倫理委員会 第五教会 _第五教会 わかばコンテスト _イベント1]]
 [[collapsible show="+ スポイラー" hide="- 閉じる"]]
@@ -637,62 +695,3 @@ AQとは国コードにおける南極を指します。
 * [[[nobody-hub|何者でもないハブ]]]
 [[include :scp-jp:component:colend]]
 [[include :scp-jp:component:colend]]
-[[module css]]
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
-
-.page {
-  display: block;
-  overflow: hidden;
-  font-family: 'Zen Kurenaido', sans-serif;
-  font-style: sans-serif;
-  font-size: 1.2em;
-  line-height: 30px;
-
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-color: transparent;
-  background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-  background-origin: padding-box;
-  background-position: 0px 8px;
-  background-repeat: repeat;
-  background-size: 100% 20px;
-
-  border: 1px solid #CCC;
-  border-radius: 10px;
-  padding: 10px 10px;
-  margin-bottom: 10px;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-}
-.page p,
-.page ul {
-  line-height: 20px;
-  margin: 0;
-}
-.page li {
-  line-height: 200%;
-}
-.page ul {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#html-body #header h2 span {
-  font-size: 0px;
-}
-
-#html-body #header h2 span::before {
-  content: '確保、収容、保護、統制';
-  color: #f0f0c0;
-  font-size: 15px;
-}
-
-#html-body #header h1 a span {
-  font-size: 0px;
-  letter-spacing: 0px;
-}
-
-#html-body #header h1 a::after {
-  content: "Site-17 深淵目録";
-}
-[[/module]]
