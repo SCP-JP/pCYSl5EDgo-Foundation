@@ -3,53 +3,11 @@
 * **黒:** 和訳
 * ##red|**赤:** 英文を読める形に変換##
 * ##green|**緑:** それに対する和訳##
-[[module css]]
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
-
-.page {
-    display: block;
-    overflow: hidden;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-style: sans-serif;
-    font-size: 1.2em;
-    line-height: 30px;
-
-
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
-
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
-
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
-.page p,
-.page ul {
-    line-height: 20px;
-    margin: 0;
-}
-.page li {
-  line-height: 200%;
-}
-.page ul {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-[[/module]]
 [[include credit:start]]
-**タイトル:** Note: Your Name is "Nobody" //アンチミーム・オン・アンチミーム・バイオレンス//
+**タイトル:** [[[https://scp-wiki.wikidot.com/note-your-name-is-nobody|Note: Your Name is "Nobody"]]] //アンチミーム・オン・アンチミーム・バイオレンス// rev.28
 **著者:** [[*user Iapetus The Acausal]]
 **作成年:** 2020
 [[include credit:end]]
-[[[Antimemetics Division Hub]]]
 @@ @@
 
 [[div class="page"]]
@@ -177,7 +135,47 @@ __**あなたの名前は「何者でもない」です。**__
 ##green|時間だ。角を回って--近づいて-- 来るヤツらの足音が聞こえる。これが上手くいくにせよそうでないにせよ、私はこれが終わったら覚えていないだろう。他の誰もがそうであるように。__私自身について繋ぎ直せる程度には覚えられていることを願うばかりだ。__##
 じかんだ: かどをまわつて--ちかず-- くるヤツらのあしおとがきこる。これかがうまいいくにせよそうでなーにせよ、仏わこれがおわつたらおぽえていなりだろう。はかのだれもがそうなよに。__わたしじしんにつりてつなげなあせるてえどにわおぼえれてることをぬかうばかいだ。__
 [[/div]]
+[[module css]]
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
+.page {
+    display: block;
+    overflow: hidden;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-style: sans-serif;
+    font-size: 1.2em;
+    line-height: 30px;
+
+
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
+.page p,
+.page ul {
+    line-height: 20px;
+    margin: 0;
+}
+.page li {
+  line-height: 200%;
+}
+.page ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+[[/module]]
 [[include component:custom-info |tag=en goi-format 何者でもない _何者でもない 放浪者の図書館]]
 [[collapsible show="+ 査読者名簿" hide="- 隠す"]]
 [[*user Sansyo-do-Zansyo]]
