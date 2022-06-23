@@ -1,52 +1,9 @@
 [[include :scp-wiki:theme:decom-dept]]
-
-[[module CSS]]
-
-#page-title,
-.meta-title {
-    text-align: center;
-}
-
-.file-thumbnail {
-    background-color: black;
-    width: 80px;
-    height: 80px;
-    display: inline-block; /* makes it fit in like an <img> */
-    background-size: cover; /* or contain */
-    background-position: center center;
-    background-repeat: no-repeat;
-    border: 1px solid rgb(0,0,0);
-    float: right;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-.file-container::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.footnotes-footer {
-display:none;
-}
-
-[[/module]]
-
 [[include credit:start]]
-**タイトル:** Decommissioning Department Hub
+**タイトル:** [[[https:scp-wiki.wikidot.com/decom-dept-hub|Decommissioning Department Hub]]]
 **著者:** [[*user Calibold]]
 **作成年:** 2021
 [[include credit:end]]
-[[=]]
-[[module ListPages range="."]]
-**%%title%%**
-[[/module]]
-
-**[[[Calibri Bold's Mega Cool Author Page|Calibold's Mega Cool Author Page]]]**
-[[/=]]
-[[include :scp-wiki:component:author-label-source end=--]]
-
 [[=image https://scp-wiki.wdfiles.com/local--files/theme%3Adecom-dept/Decom.%20Dept.%20Logo.svg style="width:25%;"]]
 
 One of the Foundation's defining features is its mission of containment above all else. It believes that, more than anything, the anomalous must be kept secret from the world. Of course, this doesn't mean that the strange and unexplained should be executed or oppressed. Destroying the anomalous would not only be a waste of research opportunities, but it would be wildly unethical. There is an entire world of communities, oddities, and individuals ingrained into this hidden reality. Some of these keep themselves hidden, although most of them require intervention. But thus far, the Foundation has remained devoted to preserving this world in some capacity, and this mission has proven constantly successful.
@@ -454,7 +411,36 @@ The role of DeD in the Foundation in particular is very much up for interpretati
 @@ @@
 
 [[include :scp-wiki:more-by:calibold]]
+[[module CSS]]
+#page-title,
+.meta-title {
+    text-align: center;
+}
 
+.file-thumbnail {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(0,0,0);
+    float: right;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.file-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footnotes-footer {
+display:none;
+}
+[[/module]]
 [[include :scp-wiki:component:license-box]]
 =====
 > **Filename:** https://scp-wiki.wdfiles.com/local--files/theme%3Adecom-dept/Decom.%20Dept.%20Logo.svg
@@ -497,7 +483,6 @@ The role of DeD in the Foundation in particular is very much up for interpretati
 > **Source Link:** https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/Dr.%20C.%20Bold
 =====
 [[include :scp-wiki:component:license-box-end]]
-
 [[include component:custom-info |tag=en ハブ 解体部門 ボールド管理官]]
 [[collapsible show="+ 査読者名簿" hide="- 隠す"]]
 [[/collapsible]]
