@@ -2,12 +2,37 @@
 @import url('https://pseudo-scp-jp.wdfiles.com/local--code/theme%3Anight-rush-theme/1');
 [[/module]]
 
-[[include :scp-jp:component:interwiki-style
+[[collapsible show="+ Discussion掲載予定ライセンス情報"]]
+[[div class="blockquote"]]
+**ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7974444-50-9wqt NightRushTheme_Header]
+
+**ソース:** https://scp-wiki.wikidot.com/theme:night-rush-theme
+**ライセンス:** CC BY-SA 3.0
+
+**タイトル:** night-rush-header.png
+**著作権者:** Nagiros
+**公開年:** 2020
+**補足:**
+[[/div]]
+[[div class="blockquote"]]
+**ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7974444-51-jv2x NightRushTheme_Icon]
+
+**ソース:** https://scp-wiki.wikidot.com/theme:night-rush-theme
+**ライセンス:** CC BY-SA 3.0
+
+**タイトル:** night-rush-icon.png
+**著作権者:** [[*user Nagiros]]
+**公開年:** 2020
+**補足:**
+[[/div]]
+[[/collapsible]]
+
+[[include :scp-wiki:component:interwiki-style
 | priority=1
 | theme=https://pseudo-scp-jp.wdfiles.com/local--code/theme%3Anight-rush-theme/1
 ]]
 
-[[iftags +theme]]
+[[iftags +テーマ]]
 [[>]]
 **Rating:**
 [[module Rate]]
@@ -17,13 +42,13 @@
 **Rating w/ Info Pane:**
 [[/>]]
 
-[[include :scp-jp:info:start]]
+[[include :scp-wiki:info:start]]
 ##yellow|Info about your page.##
 あなたのページの情報
-[[include :scp-jp:info:more]]
+[[include :scp-wiki:info:more]]
 ##yellow|More information about your page.##
 あなたのページの追加情報
-[[include :scp-jp:info:end]]
+[[include :scp-wiki:info:end]]
 
 ##yellow|This is an aesthetic theme tied to no canon, series, or group of interest.##
 これはカノン、シリーズ、GoIに紐付けられていない美的テーマです。
@@ -46,9 +71,9 @@
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consequat semper viverra nam. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Justo laoreet sit amet cursus sit. Nunc consequat interdum varius sit. Donec pretium vulputate sapien nec sagittis. Cras semper auctor neque vitae tempus quam. Convallis a cras semper auctor neque.[[footnote]] Hey look, a footnote!  [[/footnote]][[footnote]]ごらん、脚注だよ！[[/footnote]]
 
-Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aliquam purus sit amet luctus venenatis lectus. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Dignissim sodales ut eu sem. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Massa id neque aliquam vestibulum morbi blandit cursus risus. Semper auctor neque vitae tempus. Ornare aenean euismod elementum nisi quis. Viverra mauris in aliquam sem fringilla. Condimentum mattis pellentesque id nibh. Id aliquet lectus proin nibh nisl.[[footnote]] You know, some new authors forget that the footnote text should adhere to the same rules of length and flow as any other sentence in an article. They can be small, medium, or large, depending on what's needed. Don't just pad them, though! [[/footnote]][[footnote]][[/footnote]]
+Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aliquam purus sit amet luctus venenatis lectus. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Dignissim sodales ut eu sem. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Massa id neque aliquam vestibulum morbi blandit cursus risus. Semper auctor neque vitae tempus. Ornare aenean euismod elementum nisi quis. Viverra mauris in aliquam sem fringilla. Condimentum mattis pellentesque id nibh. Id aliquet lectus proin nibh nisl.[[footnote]] You know, some new authors forget that the footnote text should adhere to the same rules of length and flow as any other sentence in an article. They can be small, medium, or large, depending on what's needed. Don't just pad them, though! [[/footnote]][[footnote]]あなたも知っての通り、そこそこの数の新規著者が脚注の文章が長さとflowに関して記事中の他の文と同じルールに従っていることを忘れています。必要に応じてsmall, medium, largeになれるのです。でも、パッドを噛ませてはなりませんよ！[[/footnote]]
 
-Eleifend quam adipiscing vitae proin sagittis. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. Ut lectus arcu bibendum at varius vel pharetra vel. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Tortor condimentum lacinia quis vel. Dolor purus non enim praesent elementum facilisis leo vel. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Et malesuada fames ac turpis. Ipsum suspendisse ultrices gravida dictum. In fermentum et sollicitudin ac. Parturient montes nascetur ridiculus mus mauris vitae.[[footnote]] This was, of course, a long walk to testing out different footnote sizes. [[/footnote]][[footnote]][[/footnote]]
+Eleifend quam adipiscing vitae proin sagittis. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. Ut lectus arcu bibendum at varius vel pharetra vel. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Tortor condimentum lacinia quis vel. Dolor purus non enim praesent elementum facilisis leo vel. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Et malesuada fames ac turpis. Ipsum suspendisse ultrices gravida dictum. In fermentum et sollicitudin ac. Parturient montes nascetur ridiculus mus mauris vitae.[[footnote]] This was, of course, a long walk to testing out different footnote sizes. [[/footnote]][[footnote]]これは、もちろん、異なる脚注サイズの検証の長い道のりです。[[/footnote]]
 
 ------
 
@@ -77,7 +102,7 @@ Eleifend quam adipiscing vitae proin sagittis. Mauris vitae ultricies leo intege
 [[/row]]
 [[/table]]
 
-[[collapsible show="+ A collapsible" hide="- A collapsible"]]
+[[collapsible show="+ A collapsible/collapsible1つ" hide="- A collapsible/collapsible1つ"]]
 ##yellow|Something inside the collapsible##
 collapsible内のなんらか
 [[/collapsible]]
@@ -87,77 +112,79 @@ collapsible内のなんらか
 [[tabview]]
 [[tab Tab 1]]
 ##yellow|These are more useful for the sandbox, honestly.##
-これらはサンドボックスに対してもっと有意義だ、実のところ。
+
+正直言いまして、これらはサンドボックスに対してならもっと有意義でしょう。
 [[/tab]]
 [[tab Tab 2]]
 ##yellow|Really, I've only seen a couple articles that use tabview.##
-事実、私はタブビューを使用している記事を少ししか見たことがない。
+
+事実、私はタブビューを使用している記事を少ししか見たことがないですからね。
 [[/tab]]
 [[tab Tab 3]]
-To make a point, this is a long tab.
+##yellow|To make a point, this is a long tab.##
 
-To make a point, this is a long tab.
+##yellow|To make a point, this is a long tab.##
 
-To make a point, this is a long tab.
+##yellow|To make a point, this is a long tab.##
 
-To make a point, this is a long tab.
+##yellow|To make a point, this is a long tab.##
 
-To make a point, this is a long tab.
+##yellow|To make a point, this is a long tab.##
 
-To make a point, this is a long tab.
+##yellow|To make a point, this is a long tab.##
 
-To make a point, this is a long tab.
+##yellow|To make a point, this is a long tab.##
 
-To make a point, this is a long tab.
+##yellow|To make a point, this is a long tab.##
 
-To make a point, this is a long tab.
+##yellow|To make a point, this is a long tab.##
 
-To make a point, this is a long tab.
+##yellow|To make a point, this is a long tab.##
 
-わざわざ長いタブを作っている。
+わざわざ長いタブを作っています。
 
-わざわざ長いタブを作っている。
+わざわざ長いタブを作っています。
 
-わざわざ長いタブを作っている。
+わざわざ長いタブを作っています。
 
-わざわざ長いタブを作っている。
+わざわざ長いタブを作っています。
 
-わざわざ長いタブを作っている。
+わざわざ長いタブを作っています。
 
-わざわざ長いタブを作っている。
+わざわざ長いタブを作っています。
 
-わざわざ長いタブを作っている。
+わざわざ長いタブを作っています。
 
-わざわざ長いタブを作っている。
+わざわざ長いタブを作っています。
 
-わざわざ長いタブを作っている。
+わざわざ長いタブを作っています。
 
-わざわざ長いタブを作っている。
+わざわざ長いタブを作っています。
 [[/tab]]
 [[tab Tab 4]]
-This is also a tab.
+##yellow|To make a point, this is a long tab.##
 
-これもタブ。
+これもタブです。
 [[/tab]]
 [[tab Tab 5]]
-This is also a tab.
+##yellow|To make a point, this is a long tab.##
 
-これもタブ。
+これもタブです。
 [[/tab]]
 [[tab Tab 6]]
-This is also a tab.
+##yellow|To make a point, this is a long tab.##
 
-これもタブ。
+これもタブです。
 [[/tab]]
 [[tab Tab 7]]
-This is also a tab.
+##yellow|To make a point, this is a long tab.##
 
-これもタブ。
+これもタブです。
 [[/tab]]
 [[tab Tab 8]]
-This is also a tab.
+##yellow|To make a point, this is a long tab.##
 
-これもタブ。
+これもタブです。
 [[/tab]]
 [[/tabview]]
 
@@ -246,11 +273,11 @@ file:hover {
 }
 
 div#container-wrap {   /*  purple header  */
-  background-image: url('https://scp-wiki.wdfiles.com/local--files/theme%3Anight-rush-theme/night-rush-header.png');
+  background-image: url('http://scp-jp-storage.wikidot.com/local--files/file:7974444-50-9wqt/night-rush-header.png');
 }
 
 #header {   /*  white icon  */
-  background-image: url('https://scp-wiki.wdfiles.com/local--files/theme%3Anight-rush-theme/night-rush-icon.png');
+  background-image: url('http://scp-jp-storage.wikidot.com/local--files/file:7974444-51-jv2x/night-rush-icon.png');
 }
 
 /*  LOGIN MENU  */
@@ -394,6 +421,7 @@ div#toc {
   box-shadow: 1px 1px 3px rgba(136, 112, 223, 0.4);
   color: #ededed;
   padding: .1em;
+  margin-right: 2em;
 }
 .page-rate-widget-box .rate-points,
 .page-rate-widget-box .rateup,

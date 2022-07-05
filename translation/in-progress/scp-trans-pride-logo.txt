@@ -1,0 +1,42 @@
+[[module CSS]]
+@import url('https://pseudo-scp-jp.wdfiles.com/local--code/theme%3Ascp-trans-pride-logo/1');
+[[/module]]
+
+[[collapsible show="+ Discussion掲載予定ライセンス情報"]]
+[[div class="blockquote"]]
+**ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7974444-9-5omr TransSCPlogo]
+
+**ソース:** http://scp-wiki.wikidot.com/local--files/theme:scp-trans-pride/TransSCPlogo.png
+**ライセンス:** CC BY-SA 3.0
+
+**タイトル:** TransSCPlog.png
+**著作権者:** [[*user Uncle Nicolini]]
+**公開年:** 2019
+**補足:**
+[[/div]]
+[[/collapsible]]
+
+[[include :scp-wiki:component:interwiki-style
+| priority=1
+| theme=https://pseudo-scp-jp.wdfiles.com/local--code/theme%3Ascp-trans-pride-logo/1
+]]
+
+[[iftags +テーマ]]
+**Trans Pride Logo とフッター by [[*user uncle nicolini]]
+[[*user Ellie3]]はぽいっと全部を一緒くたにしたただのシュマックでしかない！
+[[*user pcysl]]はそっから単一ページ化に適した形に剪定しただけでしかない！**
+------
+
+[[[scp-trans-pride|元々のテーマであるSCP Trans Pride]]]は単一ページ化したものの内部からは使用不可能でしたので、その機能の一部で一番使われるものを抜き出して使用可能にしています。
+もしあなたがこのロゴを使用したいのであるならば、以下のコードをあなたの記事のトップに挿入してください。
+
+> {{@@[[include :scp-jp:theme:scp-trans-pride-logo]]@@}}
+
+------
+
+[[code type="css"]]
+#header {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7974444-9-5omr/TransSCPlogo.png) !important;
+}
+[[/code]]
+[[/iftags]]
