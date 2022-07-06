@@ -2,6 +2,7 @@
 @import url('https://pseudo-scp-jp.wdfiles.com/local--code/theme%3Anight-rush-theme/1');
 [[/module]]
 
+[[iftags +テーマ]]
 [[collapsible show="+ Discussion掲載予定ライセンス情報"]]
 [[div class="blockquote"]]
 **ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7974444-50-9wqt NightRushTheme_Header]
@@ -27,28 +28,22 @@
 [[/div]]
 [[/collapsible]]
 
-[[include :scp-wiki:component:interwiki-style
-| priority=1
-| theme=https://pseudo-scp-jp.wdfiles.com/local--code/theme%3Anight-rush-theme/1
-]]
-
-[[iftags +テーマ]]
 [[>]]
-**Rating:**
+**評価モジュール:**
 [[module Rate]]
 [[/>]]
 
 [[>]]
-**Rating w/ Info Pane:**
+**クレジット付き評価モジュール:**
 [[/>]]
 
-[[include :scp-wiki:info:start]]
-##yellow|Info about your page.##
+[[include :scp-jp:credit:start-preview]]
 あなたのページの情報
-[[include :scp-wiki:info:more]]
-##yellow|More information about your page.##
-あなたのページの追加情報
-[[include :scp-wiki:info:end]]
+**訳注:** scp-wikiのinfoモジュールは翻訳記事のみに使用してください。
+
+**訳注:** @@[[include :scp-jp:credit:otherwise]]@@ はiftags内部で正常に動作しないようです。
+あなたのページのその他の情報
+[[include :scp-jp:credit:end-preview]]
 
 ##yellow|This is an aesthetic theme tied to no canon, series, or group of interest.##
 これはカノン、シリーズ、GoIに紐付けられていない美的テーマです。
@@ -351,6 +346,7 @@ div#container-wrap {   /*  purple header  */
 
 #side-bar .side-block,
 #interwiki .side-block {
+  color: #000;
   background-color: #121212;
   border-color: #ebebeb;
   border-width: 2px;
@@ -421,7 +417,6 @@ div#toc {
   box-shadow: 1px 1px 3px rgba(136, 112, 223, 0.4);
   color: #ededed;
   padding: .1em;
-  margin-right: 2em;
 }
 .page-rate-widget-box .rate-points,
 .page-rate-widget-box .rateup,
@@ -460,8 +455,11 @@ div#toc {
   color: #cc9cff;
 }
 
-/* INFO MODULE */
+/* CREDIT MODULE */
 
+#page-content .creditRate {
+  margin-right: 0;
+}
 #page-content .rate-box-with-credit-button {
   background-color: #121212;
   border: 2px solid #8870df;
@@ -490,6 +488,10 @@ div#toc {
 .close-credits,
 .credit-back {   /*  "X" coloring in credit box  */
   filter: hue-rotate(260deg) brightness(300%);
+}
+#u-credit-view .modalbox-title span,
+#u-credit-otherwise .modalbox-title span {
+  color: #000000;
 }
 
 /*  ACS COLORS  */
