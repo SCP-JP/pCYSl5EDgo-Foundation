@@ -1,5 +1,5 @@
 [[module CSS]]
-@import url('https://pseudo-scp-jp.wdfiles.com/local--code/theme%3Anight-rush-theme/1');
+@import url('https://scp-jp.wdfiles.com/local--code/theme%3Anight-rush-theme/1');
 [[/module]]
 
 [[iftags +テーマ]]
@@ -12,47 +12,18 @@
 **Rating w/ Info Pane:**
 [[/>]]
 
-[[collapsible show="+ Discussion掲載予定ライセンス情報"]]
-[[div class="blockquote"]]
-**ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7974444-50-9wqt NightRushTheme_Header]
-
-**ソース:** https://scp-wiki.wikidot.com/theme:night-rush-theme
-**ライセンス:** CC BY-SA 3.0
-
-**タイトル:** night-rush-header.png
-**著作権者:** Nagiros
-**公開年:** 2020
-**補足:**
-[[/div]]
-[[div class="blockquote"]]
-**ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7974444-51-jv2x NightRushTheme_Icon]
-
-**ソース:** https://scp-wiki.wikidot.com/theme:night-rush-theme
-**ライセンス:** CC BY-SA 3.0
-
-**タイトル:** night-rush-icon.png
-**著作権者:** [[*user Nagiros]]
-**公開年:** 2020
-**補足:**
-[[/div]]
-[[/collapsible]]
-
 [[include :scp-wiki:info:start]]
-##yellow|Info about your page.##
 あなたのページの情報
 [[include :scp-wiki:info:more]]
-##yellow|More information about your page.##
 あなたのページの追加情報
 [[include :scp-wiki:info:end]]
 
-##yellow|This is an aesthetic theme tied to no canon, series, or group of interest.##
 これはカノン、シリーズ、GoIに紐付けられていない美的テーマです。
 
-##yellow|To use it, put the following at the top of your article.##
 使用するには以下をあなたの記事のトップに配置してください。
 
 [[div class="blockquote" style="text-align: center;"]]
-@@[[include :scp-jp:theme:night-rush-theme]]@@
+@@[[include theme:night-rush-theme]]@@
 [[/div]]
 
 + H1
@@ -62,13 +33,13 @@
 +++++ H5
 ++++++ H6
 
-[[include component:image-block name=http://scp-jp.wikidot.com/local--files/scp-4755/containment|caption=This is a test image.これはテストイメージです。|width=200px|alt=A glowing SCP logo on a black background.黒背景に輝く財団ロゴ]]
+[[include component:image-block name=http://scp-jp.wikidot.com/local--files/scp-4755/containment|caption=これはテストイメージです。|width=200px|alt=黒背景に輝く財団ロゴ]]
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consequat semper viverra nam. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Justo laoreet sit amet cursus sit. Nunc consequat interdum varius sit. Donec pretium vulputate sapien nec sagittis. Cras semper auctor neque vitae tempus quam. Convallis a cras semper auctor neque.[[footnote]] Hey look, a footnote!  [[/footnote]][[footnote]]ごらん、脚注だよ！[[/footnote]]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consequat semper viverra nam. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Justo laoreet sit amet cursus sit. Nunc consequat interdum varius sit. Donec pretium vulputate sapien nec sagittis. Cras semper auctor neque vitae tempus quam. Convallis a cras semper auctor neque.[[footnote]]ごらん、脚注だよ！[[/footnote]]
 
-Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aliquam purus sit amet luctus venenatis lectus. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Dignissim sodales ut eu sem. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Massa id neque aliquam vestibulum morbi blandit cursus risus. Semper auctor neque vitae tempus. Ornare aenean euismod elementum nisi quis. Viverra mauris in aliquam sem fringilla. Condimentum mattis pellentesque id nibh. Id aliquet lectus proin nibh nisl.[[footnote]] You know, some new authors forget that the footnote text should adhere to the same rules of length and flow as any other sentence in an article. They can be small, medium, or large, depending on what's needed. Don't just pad them, though! [[/footnote]][[footnote]]あなたも知っての通り、そこそこの数の新規著者が脚注の文章が長さとflowに関して記事中の他の文と同じルールに従っていることを忘れています。必要に応じてsmall, medium, largeになれるのです。でも、パッドを噛ませてはなりませんよ！[[/footnote]]
+Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aliquam purus sit amet luctus venenatis lectus. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Dignissim sodales ut eu sem. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Massa id neque aliquam vestibulum morbi blandit cursus risus. Semper auctor neque vitae tempus. Ornare aenean euismod elementum nisi quis. Viverra mauris in aliquam sem fringilla. Condimentum mattis pellentesque id nibh. Id aliquet lectus proin nibh nisl.[[footnote]]あなたも知っての通り、そこそこの数の新規著者が脚注の文章が長さとflowに関して記事中の他の文と同じルールに従っていることを忘れています。必要に応じてsmall, medium, largeになれるのです。でも、パッドを噛ませてはなりませんよ！[[/footnote]]
 
-Eleifend quam adipiscing vitae proin sagittis. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. Ut lectus arcu bibendum at varius vel pharetra vel. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Tortor condimentum lacinia quis vel. Dolor purus non enim praesent elementum facilisis leo vel. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Et malesuada fames ac turpis. Ipsum suspendisse ultrices gravida dictum. In fermentum et sollicitudin ac. Parturient montes nascetur ridiculus mus mauris vitae.[[footnote]] This was, of course, a long walk to testing out different footnote sizes. [[/footnote]][[footnote]]これは、もちろん、異なる脚注サイズの検証の長い道のりです。[[/footnote]]
+Eleifend quam adipiscing vitae proin sagittis. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. Ut lectus arcu bibendum at varius vel pharetra vel. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Tortor condimentum lacinia quis vel. Dolor purus non enim praesent elementum facilisis leo vel. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Et malesuada fames ac turpis. Ipsum suspendisse ultrices gravida dictum. In fermentum et sollicitudin ac. Parturient montes nascetur ridiculus mus mauris vitae.[[footnote]]これは、もちろん、異なる脚注サイズの検証の長い道のりです。[[/footnote]]
 
 ------
 
@@ -80,25 +51,24 @@ Eleifend quam adipiscing vitae proin sagittis. Mauris vitae ultricies leo intege
 [[table style="width: 100%"]]
 [[row]]
 [[cell style="width: 33%; text-align: center;"]]
-[[a style="color: #9179E7" href="/night-rush-theme"]]A link.リンク。[[/a]]
+[[a style="color: #9179E7" href="/night-rush-theme"]]リンク。[[/a]]
 [[/cell]]
 [[cell style="width: 1%; text-align: center; font-weight: bold;"]]
 |
 [[/cell]]
 [[cell style="width: 33%; text-align: center;"]]
-[[a style="color: #A666DB" href="/night-rush-theme"]]A visited link.既に訪れたリンク。[[/a]]
+[[a style="color: #A666DB" href="/night-rush-theme"]]既に訪れたリンク。[[/a]]
 [[/cell]]
 [[cell style="width: 1%; text-align: center; font-weight: bold;"]]
 |
 [[/cell]]
 [[cell style="width: 33%; text-align: center;"]]
-[[a style="color: #cc9cff;" href="/night-rush-theme"]]A new link.新しいリンク。[[/a]]
+[[a style="color: #cc9cff;" href="/night-rush-theme"]]新しいリンク。[[/a]]
 [[/cell]]
 [[/row]]
 [[/table]]
 
-[[collapsible show="+ A collapsible/collapsible1つ" hide="- A collapsible/collapsible1つ"]]
-##yellow|Something inside the collapsible##
+[[collapsible show="+ collapsible1つ" hide="- collapsible1つ"]]
 collapsible内のなんらか
 [[/collapsible]]
 
@@ -106,36 +76,12 @@ collapsible内のなんらか
 
 [[tabview]]
 [[tab Tab 1]]
-##yellow|These are more useful for the sandbox, honestly.##
-
 正直言いまして、これらはサンドボックスに対してならもっと有意義でしょう。
 [[/tab]]
 [[tab Tab 2]]
-##yellow|Really, I've only seen a couple articles that use tabview.##
-
 事実、私はタブビューを使用している記事を少ししか見たことがないですからね。
 [[/tab]]
 [[tab Tab 3]]
-##yellow|To make a point, this is a long tab.##
-
-##yellow|To make a point, this is a long tab.##
-
-##yellow|To make a point, this is a long tab.##
-
-##yellow|To make a point, this is a long tab.##
-
-##yellow|To make a point, this is a long tab.##
-
-##yellow|To make a point, this is a long tab.##
-
-##yellow|To make a point, this is a long tab.##
-
-##yellow|To make a point, this is a long tab.##
-
-##yellow|To make a point, this is a long tab.##
-
-##yellow|To make a point, this is a long tab.##
-
 わざわざ長いタブを作っています。
 
 わざわざ長いタブを作っています。
@@ -157,28 +103,18 @@ collapsible内のなんらか
 わざわざ長いタブを作っています。
 [[/tab]]
 [[tab Tab 4]]
-##yellow|To make a point, this is a long tab.##
-
 これもタブです。
 [[/tab]]
 [[tab Tab 5]]
-##yellow|To make a point, this is a long tab.##
-
 これもタブです。
 [[/tab]]
 [[tab Tab 6]]
-##yellow|To make a point, this is a long tab.##
-
 これもタブです。
 [[/tab]]
 [[tab Tab 7]]
-##yellow|To make a point, this is a long tab.##
-
 これもタブです。
 [[/tab]]
 [[tab Tab 8]]
-##yellow|To make a point, this is a long tab.##
-
 これもタブです。
 [[/tab]]
 [[/tabview]]
@@ -186,7 +122,6 @@ collapsible内のなんらか
 ------
 
 [[code type="css"]]
-
 /*
     Night Rush Theme
     [2020 Wikidot Theme]
@@ -419,13 +354,13 @@ div#toc {
   padding: .1em;
   margin-right: 2em;
 }
-.page-rate-widget-box .rate-points,
+div.page-rate-widget-box .rate-points,
 .page-rate-widget-box .rateup,
 .page-rate-widget-box .ratedown,
 .page-rate-widget-box .rateup a,
 .page-rate-widget-box .ratedown a,
 .page-rate-widget-box .cancel a {
-  background-color: transparent !important;   /*  clears sigma-9 colors  */
+  background-color: transparent;   /*  clears sigma-9 colors  */
   border: 0;   /*  clears sigma-9 borders  */
   color: #ededed;
   text-transform: capitalize;
@@ -456,7 +391,7 @@ div#toc {
   color: #cc9cff;
 }
 
-/* CREDIT MODULE */
+/* INFO MODULE */
 
 #page-content .rate-box-with-credit-button {
   background-color: #121212;
