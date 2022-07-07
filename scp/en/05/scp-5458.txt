@@ -1,0 +1,64 @@
+[[include theme:night-rush-theme]]
+[[include credit:start]]
+**タイトル:** SCP-5458 - 死が二人を分かつまで
+**著者:** ©︎[[*user weiserthanyou]]
+**原題:** SCP-5458 - 'Til Death Do Us Part
+**作成年:** 2022
+[[include credit:end]]
+**アイテム番号:** SCP-5458
+
+**オブジェクトクラス:** Safe
+
+[[include component:image-block
+| name= https://scp-jp-storage.wdfiles.com/local--files/file%3A7657035-12-p18b/zeevveezz-ring.jpg
+| caption= SCP-5458
+| width= 300px]]
+**特別収容プロトコル:** SCP-5458はサイト-43のSafe棟の保管ロッカーに収容されています。
+
+SCP-5458を取り扱う場合、常に厚い手袋を着用する必要があります。SCP-5458が実験以外で皮膚に直接接触した場合、影響を受けた職員をその付近から移動させ、直ちにクラスA記憶処理を行う必要があります。
+
+**説明:** SCP-5458は、財団研究員のヘンリー・フレミング博士が以前所有していた金の結婚指輪です。SCP-5458が人間の皮膚に直接接触すると、影響を受けた人物(以下、対象)は、軍事的圧力でそうしないよう指示された場合でも、2~5分以内にそれを装着したいという不合理な欲求を発現させます。この欲求は、対象がSCP-5458の付近から移動した場合でも継続し、それを取り戻すために暴力行為に駆り立てる場合もあります。しかし、対象のSCP-5458に触れた記憶がクラスA記憶処理によって除去された場合、欲求は継続しません。
+
+対象がSCP-5458をいずれかの指に装着すると、直ぐに強力な反ミーム性を発現させ、対象をクラスY記憶補強薬を使用せずに直接知覚することは不可能になります。しかし、SCP-5458は目に見えたままです。対象は完全に姿を消す前に、約10分間この状態に留まり、その過程でSCP-5458を落とします。
+
+**補遺5458-1 - 発見**
+スーザン・フレミング研究員とグラン下位研究員の不倫と、その後に続くスーザン・フレミングとその夫であるヘンリー・フレミング博士の失踪の調査中に発見されました。SCP-5458はスーザン研究員のオフィスの床で発見され、ヘンリー博士の結婚指輪の描写と一致していました。以下の手紙が、書かれているものの明らかに配達されていない状態で、ヘンリー博士の机から発見されました。
+
+[[div class="page"]]
+[[div style="color:black;"]]
+スーザン、
+
+結婚したあの日から、良い時も悪い時も、富める時も貧しき時も、病める時も健やかなる時も、君を愛し慈しむことを誓った。君もそう誓ったが、それは君にとってただの無意味な言葉だろう。この指輪を以て汝を呪い、我が肉体を以て汝を裁き、現世の財全てを以て汝を追放する。
+@@ @@
+直ぐに地獄で会おう。
+[[/div]]
+[[/div]]
+[[module css]]
+.page {
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
+
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
+.page p,
+.page ul {
+    line-height: 25px;
+    margin: 0;
+}
+[[/module]]
