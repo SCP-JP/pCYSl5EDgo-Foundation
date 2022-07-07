@@ -40,6 +40,8 @@
 [[/div]]
 
 深淵目録はおおまかに、シリーズ作品と単独作品に分かれている。推奨される読み順は以下に並ぶとおりだが、カノンのテーマやアイデアについて手短に知りたければ、[#standalones シリーズ非参加の作品]からでも構わない。
+
+**＊訳注:** 未翻訳ページのリンクは###c0c0c0|灰色##で表示しています。
 @@ @@
 [[div class="series lifeless"]]
 [[collapsible show="'これら命無きモノたち'" hide="'これら命無きモノたち'" folded="no"]]
@@ -280,6 +282,12 @@ SCP-2844-JPは不特定の領域で流通、伝搬を繰り返している未確
 **[[[SCP-2566-JP]]]** - //RETURN PARADOX// by **Enderman_desu**
 ----
 SCP-2566-JPは、サイト-17地下施設-アルファに存在する財団の固有兵器です。
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-2855-JP]]]** - //SKYWELLS: THE FIRST// by **Enderman_desu**
+----
+SCP-2855-JPは、財団によって開発・流布された異常なミーム複合情報です。
 [[/div]]
 [[/collapsible]]
 [[/div]]
@@ -527,5 +535,10 @@ div.terminal {
   font-family: monospace;
   font-size: 1.45em;
   padding: 0 1em;
+}
+
+/*未翻訳ページのリンク色変更*/
+a.newpage {
+    color: #C0C0C0;
 }
 [[/module]]
