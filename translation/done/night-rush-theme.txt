@@ -3,6 +3,15 @@
 [[/module]]
 
 [[iftags +テーマ]]
+[[>]]
+**Rating:**
+[[module Rate]]
+[[/>]]
+
+[[>]]
+**Rating w/ Info Pane:**
+[[/>]]
+
 [[collapsible show="+ Discussion掲載予定ライセンス情報"]]
 [[div class="blockquote"]]
 **ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7974444-50-9wqt NightRushTheme_Header]
@@ -28,22 +37,13 @@
 [[/div]]
 [[/collapsible]]
 
-[[>]]
-**評価モジュール:**
-[[module Rate]]
-[[/>]]
-
-[[>]]
-**クレジット付き評価モジュール:**
-[[/>]]
-
-[[include :scp-jp:credit:start-preview]]
+[[include :scp-wiki:info:start]]
+##yellow|Info about your page.##
 あなたのページの情報
-**訳注:** scp-wikiのinfoモジュールは翻訳記事のみに使用してください。
-
-**訳注:** @@[[include :scp-jp:credit:otherwise]]@@ はiftags内部で正常に動作しないようです。
-あなたのページのその他の情報
-[[include :scp-jp:credit:end-preview]]
+[[include :scp-wiki:info:more]]
+##yellow|More information about your page.##
+あなたのページの追加情報
+[[include :scp-wiki:info:end]]
 
 ##yellow|This is an aesthetic theme tied to no canon, series, or group of interest.##
 これはカノン、シリーズ、GoIに紐付けられていない美的テーマです。
@@ -192,6 +192,7 @@ collapsible内のなんらか
     [2020 Wikidot Theme]
     Created for the SCP Wiki by Nagiros
     Obviously based on the Sigma-9 Theme for the SCP Foundation by Aelanna
+    Localized by pcysl5edgo for SCP-JP
 */
 
 /*--------------------------------------*\
@@ -346,7 +347,6 @@ div#container-wrap {   /*  purple header  */
 
 #side-bar .side-block,
 #interwiki .side-block {
-  color: #000;
   background-color: #121212;
   border-color: #ebebeb;
   border-width: 2px;
@@ -417,6 +417,7 @@ div#toc {
   box-shadow: 1px 1px 3px rgba(136, 112, 223, 0.4);
   color: #ededed;
   padding: .1em;
+  margin-right: 2em;
 }
 .page-rate-widget-box .rate-points,
 .page-rate-widget-box .rateup,
@@ -457,9 +458,6 @@ div#toc {
 
 /* CREDIT MODULE */
 
-#page-content .creditRate {
-  margin-right: 0;
-}
 #page-content .rate-box-with-credit-button {
   background-color: #121212;
   border: 2px solid #8870df;
@@ -488,10 +486,6 @@ div#toc {
 .close-credits,
 .credit-back {   /*  "X" coloring in credit box  */
   filter: hue-rotate(260deg) brightness(300%);
-}
-#u-credit-view .modalbox-title span,
-#u-credit-otherwise .modalbox-title span {
-  color: #000000;
 }
 
 /*  ACS COLORS  */
@@ -810,6 +804,43 @@ table.page-files .highlight {
 #file-rename-name {
   border-color: #333;
   color: #333;
+}
+
+/*  Localized by RTa-technology .*/
+/*  for SCP-JP */
+ 
+#page-content .creditModule  .rate-box-with-credit-button {
+    border: unset;
+    box-shadow: unset;
+    padding: unset;
+}
+#page-content .creditModule .rate-box-with-credit-button .page-rate-widget-box {
+    border: 2px solid #8870df;
+    box-shadow: 1px 1px 3px rgb(136 112 223 / 40%);
+    padding: 0.1em;
+}
+#page-content .creditModule .rate-box-with-credit-button .creditButton {
+    background-color: #121212;
+    border: 2px solid #8870df;
+    box-shadow: 1px 1px 3px rgb(136 112 223 / 40%);
+    padding: 0.1em;
+    height: 18px;
+}
+.creditModule  .page-rate-widget-box .cancel a:hover {
+    color: #cc9cff;
+}
+.creditModule  .creditButton a:hover {
+    color: #cc9cff;
+}
+.creditModule+div+#u-credit-view .modalcontainer .modalbox {
+    background-image: linear-gradient(#141414 50px, #262626 50px, #262626) !important;
+}
+.modalbox .modalbox-title {
+    background: #141414;
+}
+ 
+#side-bar .side-block {
+    background-color: #121212 !important;
 }
 [[/code]]
 [[/iftags]]
