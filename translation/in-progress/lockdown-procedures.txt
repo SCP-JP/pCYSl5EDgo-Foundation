@@ -63,85 +63,92 @@
 +++ ##blue|OVERVIEW##
 +++ 概説
 
-A lockdown is defined as a varying emergency procedure in response to a containment breach or loss of security. Lockdowns are requested using an LRC (Lockdown Response Code), and ordered by the O4 communications group. Once evaluated, lockdowns are classified using Lockdown Degrees, which provide pre-created guidance on the appropriate response, such as AMTF (Armed Mobile Task Force) units and Automated Response Initiatives (ARIs), commissioned when appropriate to suppress the apparent threat.
+##blue|A lockdown is defined as a varying emergency procedure in response to a containment breach or loss of security. Lockdowns are requested using an LRC (Lockdown Response Code), and ordered by the O4 communications group. Once evaluated, lockdowns are classified using Lockdown Degrees, which provide pre-created guidance on the appropriate response, such as AMTF (Armed Mobile Task Force) units and Automated Response Initiatives (ARIs), commissioned when appropriate to suppress the apparent threat.##
+収容違反及びセキュリティ喪失に対応する様々な緊急時の手段としてロックダウンは定義される。[[span class="ruby"]]ロックダウンレスポンスコード[[span class="rt"]]LRC[[/span]][[/span]]を使用してロックダウンが要求され、O4コミュニケーショングループにより発令される。一度の評価を経て、ロックダウン等級を使用してロックダウンは分類される。ロックダウン等級は適切なレスポンスに関する事前に作成された案内を提供する。たとえば、[[span class="ruby"]]武装機動部隊[[span class="rt"]]AMTF[[/span]][[/span]]と[[span class="ruby"]]自動化レスポンスイニシアチブ[[span class="rt"]]ARIs[[/span]][[/span]]について明白な脅威を鎮圧するよう依頼することが適切な時についての案内である。
 
-+++ BACKGROUND
++++ ##blue|BACKGROUND##
++++ 背景
 
-Lockdowns first became official standard regulations following the 1931/03/12 containment breach, and multiple on-site accidents resulting in the severe loss of Foundation personnel, material, and vital assets. Since then, the Foundation has made substantial efforts to re-integrate more secure, reliable and dependable methods of repressing internal instability among sites. Some of the first MTFs (Mobile Task Forces), such as Epsilon-11, were commissioned to advance against the increasing number of contained anomalous objects across the Foundation.
+##blue|Lockdowns first became official standard regulations following the 1931/03/12 containment breach, and multiple on-site accidents resulting in the severe loss of Foundation personnel, material, and vital assets. Since then, the Foundation has made substantial efforts to re-integrate more secure, reliable and dependable methods of repressing internal instability among sites. Some of the first MTFs (Mobile Task Forces), such as Epsilon-11, were commissioned to advance against the increasing number of contained anomalous objects across the Foundation.##
+ロックダウンが初めて公式標準規則となったのは1931/03/12収容違反に遡る。当該収容違反においてはサイト内での複数の事故が財団職員・機材・不可欠資産の深刻な喪失を齎した。その時より、サイト間の内部不安定性を抑制するより堅牢で信じて頼める方法を再導入するべく財団は相当な努力を重ねてきた。初期の機動部隊のいくつか--@@　　@@--例としてはイプシロン-11--@@　　@@--は、財団全体でのアノマラスオブジェクト収容数の増加に対抗するよう依願されていた。
 
-For a number of years, over the period known as the "deep waters", the Foundation was prone to regular breaches and loss of vital assets, due to [*http://scp-wiki.wikidot.com/goi-formats influencing opposing factions], falling containment standards and disobedience of Foundation personnel, including the creation of the [*http://www.scp-wiki.net/groups-of-interest#toc4 Chaos Insurgency] in 1928, where the lowering ethics of the Foundation provoked a unit to go A.W.O.L and re-form as an extremely hostile splinter-group. The response to containment breaches was eventually re-considered and altered by the O5 council in 1935.
+##blue|For a number of years, over the period known as the "deep waters", the Foundation was prone to regular breaches and loss of vital assets, due to [*http://scp-wiki.wikidot.com/goi-formats influencing opposing factions], falling containment standards and disobedience of Foundation personnel, including the creation of the [*http://www.scp-wiki.net/groups-of-interest#toc4 Chaos Insurgency] in 1928, where the lowering ethics of the Foundation provoked a unit to go A.W.O.L and re-form as an extremely hostile splinter-group. The response to containment breaches was eventually re-considered and altered by the O5 council in 1935.##
+何年にもわたり、"ディープ・ウォーター"として知られる期間中、日常的に収容違反し、不可欠資産を喪失する傾向に財団はあった。これは、[[[goi-formats|敵対的派閥闘争の影響]]]、堕落する収容基準と、財団職員の不服従によるものであった。[*http://www.scp-wiki.net/groups-of-interest#toc4 カオス・インサージェンシー]の創設は1928年であったが、この年に財団の倫理観の堕落によってとある部隊がA.W.O.Lに赴き、極度に敵対的な分派として再構成されたのであった。収容違反へのレスポンスは最終的に再考されO5評議会により1935年に変更された。
 
-Following the containment of multiple Keter-class anomalies in the 1980s, containment breach severity and frequency increased dramatically throughout certain Foundation facilities. New Armed Mobile Task Forces (AMTFs), such as Nu-7 and Eta-5, were founded with the goal of assisting in re-containment and repression of these new threats. Contemporary material science had not developed to a point that would allow for the effective economical containment of these entities. However, as technology advanced, the threats posed by these anomalies and the period known as the "reptile scares" were eventually mitigated by the mid-1990s.
+##blue|Following the containment of multiple Keter-class anomalies in the 1980s, containment breach severity and frequency increased dramatically throughout certain Foundation facilities. New Armed Mobile Task Forces (AMTFs), such as Nu-7 and Eta-5, were founded with the goal of assisting in re-containment and repression of these new threats. Contemporary material science had not developed to a point that would allow for the effective economical containment of these entities. However, as technology advanced, the threats posed by these anomalies and the period known as the "reptile scares" were eventually mitigated by the mid-1990s.##
+1980年代に複数のKeterクラスアノマリーが収容された後、収容違反の深刻さ及び頻度はいくらかの財団施設において劇的に増大した。新たな武装機動部隊--@@　　@@--例としてはヌー-7及びエータ-5--@@　　@@--が再収容及び新規脅威の鎮圧を目的として結成されたのである。この時代、これらの実体の経済的に効率的な収容をしうる段階には材料工学は至っていなかった。しかしながら、技術は進歩し、これらアノマリーの呈する脅威及び"レプタイル・スケア"として知られる期間は最終的に1990年代半ばまでには緩和されていったのである。
 
-One of the most recent periods involving a Foundation-wide lowering in containment safety involved the infamous [*http://scp-wiki.wikidot.com/sc-14-126-20-921 "two-naught-seven strikes"] throughout 2015, in which eighteen sites were attacked by the autonomously fast, possessive and senselessly lethal entity known as subject two-naught-seven, presumed to have been created by the Chaos Insurgency (CI) in 2011 as an uncontained and un-coordinated biological weapon against the Foundation. The strikes were most effective because they were governed by a complete lack of knowledge regarding a spontaneous attack, the loss of vital security MTF teams, and multiple encounters with civilian populations - attempting to expose Foundation secrecy. Subject two-naught-seven was last observed on the 8th September 2017 in a disused metro station, after assaulting 5 separate MTF divisions and subsequently disappearing under an approaching train.
+##blue|One of the most recent periods involving a Foundation-wide lowering in containment safety involved the infamous [*http://scp-wiki.wikidot.com/sc-14-126-20-921 "two-naught-seven strikes"] throughout 2015, in which eighteen sites were attacked by the autonomously fast, possessive and senselessly lethal entity known as subject two-naught-seven, presumed to have been created by the Chaos Insurgency (CI) in 2011 as an uncontained and un-coordinated biological weapon against the Foundation. The strikes were most effective because they were governed by a complete lack of knowledge regarding a spontaneous attack, the loss of vital security MTF teams, and multiple encounters with civilian populations - attempting to expose Foundation secrecy. Subject two-naught-seven was last observed on the 8th September 2017 in a disused metro station, after assaulting 5 separate MTF divisions and subsequently disappearing under an approaching train.##
 
 [[=]]
 ++ {{@@-----------------------------------------@@}}
 [[/=]]
 
 [[=]]
-+ EVALUATION
++ ##blue|EVALUATION##
++ 評価
 [[/=]]
 
-+++ O4 COMMAND
++++ ##blue|O4 COMMAND##
++++ O4コマンド
 
-Originally, lockdowns were ordered manually by the O5 council, as a response to a distress call triggered from a select facility. Following the rapid scale of the Foundation expansion, registration and commission of any lockdown is now controlled by another group, known as the O4.
+##blue|Originally, lockdowns were ordered manually by the O5 council, as a response to a distress call triggered from a select facility. Following the rapid scale of the Foundation expansion, registration and commission of any lockdown is now controlled by another group, known as the O4.##
 
-The O4 are responsible specifically for the handling of inbound LRCs and alerts from compromised sites, and the appropriate responses issued to these requests. Because of this, the O4 command is a communicative group, and serve as the organisation team for all lockdowns across the whole Foundation.
+##blue|The O4 are responsible specifically for the handling of inbound LRCs and alerts from compromised sites, and the appropriate responses issued to these requests. Because of this, the O4 command is a communicative group, and serve as the organisation team for all lockdowns across the whole Foundation.##
 
-+++ LOCKDOWN RESPONSE CODE
++++ ##blue|LOCKDOWN RESPONSE CODE##
 
-A Lockdown Response Code (LRC) is communication technique applied when calling for distress or assistance following a lockdown. A LRC will typically contain a super-compacted description of the situation, represented by 3 values: Site Number, Priority, Class. Understanding of an LRC is short and simple. An example would be "15/A/RED-AMBER, which would request an adequate response at site 15 with immediate action to combat at least one Large-Scale Aggressor (LSA) and possible memetic agents.
+##blue|A Lockdown Response Code (LRC) is communication technique applied when calling for distress or assistance following a lockdown. A LRC will typically contain a super-compacted description of the situation, represented by 3 values: Site Number, Priority, Class. Understanding of an LRC is short and simple. An example would be "15/A/RED-AMBER, which would request an adequate response at site 15 with immediate action to combat at least one Large-Scale Aggressor (LSA) and possible memetic agents.##
 
-Not all members of staff are authorised to order a LRC request. Specifically: site directors, containment organisers responsible for the escaped threat, security teams, and all members of administration, are all authorised to issue an LRC code using specific landline communication routes, should an SCP object escape or hostile incursion occur.
+##blue|Not all members of staff are authorised to order a LRC request. Specifically: site directors, containment organisers responsible for the escaped threat, security teams, and all members of administration, are all authorised to issue an LRC code using specific landline communication routes, should an SCP object escape or hostile incursion occur.##
 
-For understanding of an LRC (Site Number, Priority, Class), see below.
+##blue|For understanding of an LRC (Site Number, Priority, Class), see below.##
 
-++++ SITE NUMBER:
+++++ ##blue|SITE NUMBER:##
 
-The specific site number in which the situation is unfolding. May be multiple sites.
+##blue|The specific site number in which the situation is unfolding. May be multiple sites.##
 
-++++ PRIORITY:
+++++ ##blue|PRIORITY:##
 
-Options range from [A, B, C, D, E] with A requesting the highest priority. Priority levels act as a gauge on how fast and effective the response needs to be. For example, a E-priority lockdown for a memetic hazard may take several days for a response to be compiled, whereas an A-priority with the same threat will be enacted almost instantly with maximum efficiency to combat a maximum threat.
+##blue|Options range from [A, B, C, D, E] with A requesting the highest priority. Priority levels act as a gauge on how fast and effective the response needs to be. For example, a E-priority lockdown for a memetic hazard may take several days for a response to be compiled, whereas an A-priority with the same threat will be enacted almost instantly with maximum efficiency to combat a maximum threat.##
 
-For measure, below are the approximated response times to each priority level.
+##blue|For measure, below are the approximated response times to each priority level.##
 
-**A** - <1 hrs
-**B** - <2 hrs
-**C** - <5 hrs
-**D** - <24 hrs
-**E** - <72 hrs
+##blue|**A** - <1 hrs##
+##blue|**B** - <2 hrs##
+##blue|**C** - <5 hrs##
+##blue|**D** - <24 hrs##
+##blue|**E** - <72 hrs##
 
-**NOTE:** Priority may be a key factor in determining whether response from an AMTF/MTF is necessary, or if the site should be destroyed, and may be used as evidence when arguing for destruction used by the [*http://www.scp-wiki.net/ethics-committee-orientation Ethics Committee].
+##blue|**NOTE:** Priority may be a key factor in determining whether response from an AMTF/MTF is necessary, or if the site should be destroyed, and may be used as evidence when arguing for destruction used by the [*http://www.scp-wiki.net/ethics-committee-orientation Ethics Committee].##
 
-++ CLASSIFICATIONS:
+++ ##blue|CLASSIFICATIONS:##
 
-//Lockdowns happen in a multitude of ways, and there are an even larger multitude of things you need to consider as a response. Categorising stops people panicking, and conveys a clear description much faster and more effective than a conversation.//
+//##blue|Lockdowns happen in a multitude of ways, and there are an even larger multitude of things you need to consider as a response. Categorising stops people panicking, and conveys a clear description much faster and more effective than a conversation.##//
 
-//- Dr. Hayward, Retired Head of Site Safety Board.//
+//##blue|- Dr. Hayward, Retired Head of Site Safety Board.##//
 
-The classification represents the origin of the threat (**NOTE:** not the severity -- that is determined in the priority value) which will require possible tracking, liquidation or re-containment by foreign MTF teams from other sites. Due to the often unfamiliarity of different sites, AMTF/MTF teams require a way of understanding the threat and generating expectations before they reach the site.
+##blue|The classification represents the origin of the threat (**NOTE:** not the severity -- that is determined in the priority value) which will require possible tracking, liquidation or re-containment by foreign MTF teams from other sites. Due to the often unfamiliarity of different sites, AMTF/MTF teams require a way of understanding the threat and generating expectations before they reach the site.##
 
-Multiple classifications can be used to describe a more complex-origin threat.
+##blue|Multiple classifications can be used to describe a more complex-origin threat.##
 
-Currently, there are 12 classifications, listed below.
+##blue|Currently, there are 12 classifications, listed below.##
 
-+++ CODE: AMBER
++++ ##blue|CODE: AMBER##
 
-**Synopsis**: highlights the escape of at least one memetic [[footnote]] Concept of self-replicating information. [[/footnote]], infohazardous[[footnote]] Information that may harm those with the very knowing of it. [[/footnote]] or cognitohazardous[[footnote]] Visual threat that may harm those upon seeing. [[/footnote]] threat on-site staff are unable to currently suppress without foreign intervention.
+##blue|**Synopsis**: highlights the escape of at least one memetic [[footnote]] Concept of self-replicating information. [[/footnote]], infohazardous[[footnote]] Information that may harm those with the very knowing of it. [[/footnote]] or cognitohazardous[[footnote]] Visual threat that may harm those upon seeing. [[/footnote]] threat on-site staff are unable to currently suppress without foreign intervention.##
 
-**Special Guidance**: staff are advised to wait calmly for security to escort them and or otherwise remain still, avoid talking (or otherwise acting as a vector for the agent) and to close eyes/ears as best as possible. Do not evacuate by yourself, wait for security to direct you. Do not intervene with compromised staff affected by the agent. Do not attempt to leave the site.
+##blue|**Special Guidance**: staff are advised to wait calmly for security to escort them and or otherwise remain still, avoid talking (or otherwise acting as a vector for the agent) and to close eyes/ears as best as possible. Do not evacuate by yourself, wait for security to direct you. Do not intervene with compromised staff affected by the agent. Do not attempt to leave the site.##
 
-**Listed MTFs**: [*http://www.scp-wiki.net/task-forces#eta-10 MTF-Eta-10] ("See No Evil"), [*http://www.scp-wiki.net/task-forces#eta-11 MTF-Eta-11] ("Savage Beasts"), both specialised in the control of memetic threats.
+##blue|**Listed MTFs**: [*http://www.scp-wiki.net/task-forces#eta-10 MTF-Eta-10] ("See No Evil"), [*http://www.scp-wiki.net/task-forces#eta-11 MTF-Eta-11] ("Savage Beasts"), both specialised in the control of memetic threats.##
 
-+++ CODE: BLUE
++++ ##blue|CODE: BLUE##
 
-**Synopsis**: suggests the escape of a sentient object below human intelligence capable of movement.
+##blue|**Synopsis**: suggests the escape of a sentient object below human intelligence capable of movement.##
 
-**Special Guidance**: N/A, follow orders from security.
+##blue|**Special Guidance**: N/A, follow orders from security.##
 
-**Listed MTFs**: [*http://www.scp-wiki.net/task-forces#epsilon-11 MTF-Epsilon-11] ("Nine-Tailed-Fox")
+##blue|**Listed MTFs**: [*http://www.scp-wiki.net/task-forces#epsilon-11 MTF-Epsilon-11] ("Nine-Tailed-Fox")##
 
 +++ CODE: SUPERBLUE
 
