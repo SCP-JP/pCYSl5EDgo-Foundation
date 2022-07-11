@@ -1,28 +1,4 @@
 [[iftags +テーマ]]
-[[collapsible show="+ Discussion掲載予定ライセンス情報"]]
-[[div class="blockquote"]]
-**ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7974444-10-ltc0 Trans-CSS-File]
-
-**ソース:** http://scp-wiki.wikidot.com/theme:scp-trans-pride
-**ライセンス:** CC BY-SA 3.0
-
-**タイトル:** Trans-CSS-File.png
-**著作権者:** Orison
-**公開年:** 2019
-**補足:**
-[[/div]]
-[[div class="blockquote"]]
-**ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7974444-9-5omr TransSCPlogo]
-
-**ソース:** http://scp-wiki.wikidot.com/theme:scp-trans-pride
-**ライセンス:** CC BY-SA 3.0
-
-**タイトル:** TransSCPlog.png
-**著作権者:** [[*user Uncle Nicolini]]
-**公開年:** 2019
-**補足:**
-[[/div]]
-[[/collapsible]]
 [[module CSS]]
 /* epic trans moment - CSS by Orison*/
 
@@ -109,36 +85,35 @@ div#container-wrap{
     color: #e51f47;
 }
 [[/module]]
-**##blue|Animated header by Orison##
-アニメヘッダ by Orison
-##blue|Trans Pride Logo and footer by [[*user uncle nicolini]]##
-Trans Pride Logo とフッター by [[*user uncle nicolini]]
-##blue|[[*user Ellie3]] is just the shmuck who tossed it all together!##
-[[*user Ellie3]]はぽいっと全部を一緒くたにしたただのシュマック[[footnote]]**訳注:** "shmuck"は卑語であるため和訳を控えた。[[/footnote]]でしかない！**
+[[include credit:start-preview]]
+**タイトル:** [[[https://scp-wiki.wikidot.com/theme:scp-trans-pride|SCP Trans Pride Theme]]]
+**リビジョン:** 40
+**著者:** [[*user Ellie3]]
+**作成年:** 2019
+[[include credit:end-preview]]
+**アニメヘッダ by Orison**
+**Trans Pride Logo とフッター by [[*user uncle nicolini]]**
+**[[*user Ellie3]]はぽいっと全部を一緒くたにしたただのシュマック**[[footnote]]**訳注:** "shmuck"は卑語であるため和訳を控えた。[[/footnote]]**でしかない！**
 ------
 
-##blue|If you would like to use the theme as a whole, insert the following code at the top of your article:##
 もしあなたがこのテーマの全てを使用したいのであるならば、以下のコードをあなたの記事のトップに挿入してください。
 
 > {{[[@@include :scp-jp:theme:scp-trans-pride |trans-pride-animated-header= --] |trans-pride-logo= --] |trans-pride-footer= --@@]]]}}
 
 ------
 
-##blue|If you would like to use only the SCP Trans Pride Logo (and the footer) insert the following code at the top of your article:##
 もしあなたがこのテーマのロゴ(とフッター)を使用したいのであるならば、以下のコードをあなたの記事のトップに挿入してください。
 
 > {{[[@@include :scp-jp:theme:scp-trans-pride |trans-pride-logo= --] |trans-pride-footer= --@@]]]}}
 
 ------
 
-##blue|If you would like to use only the SCP Trans Pride Animated Header (and the footer) insert the following code at the top of your article:##
 もしあなたがこのテーマのアニメヘッダー(とフッター)を使用したいのであるならば、以下のコードをあなたの記事のトップに挿入してください。
 
 > {{[[@@include :scp-jp:theme:scp-trans-pride |@@trans-pride-animated-header= --@@] |trans-pride-footer= --@@]]]}}
 
 ------
 
-##blue|If (for some reason) you would not like to use the footer, simply delete the following code from any of the above code:##
 もし(何らかの理由で)あなたがフッターを使用したくないのであるならば、単に以下のコードを上述のコードから削除してください。
 
 > {{@@ |trans-pride-footer= --@@]}}
@@ -146,7 +121,6 @@ Trans Pride Logo とフッター by [[*user uncle nicolini]]
 ------
 
 [[=]]
-+++ ##blue|→ [http://www.scp-wiki.net/component:pride-highlighter Check out Woedenaz's Pride Highlighter Theme as well!] ←##
 +++ → [[[http://www.scp-wiki.net/component:pride-highlighter| WoedenazのPride Highlighter Themeもチェックしてみてね！]]] ←
 [[/=]]
 
