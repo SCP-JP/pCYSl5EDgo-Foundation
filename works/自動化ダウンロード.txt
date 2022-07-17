@@ -1,0 +1,5 @@
+* curl -c //一時的cookieファイル// @@http://scp-jp.wikidot.com/hoge@@ -o //一時的htmlファイル//
+* 何らかの正規表現により//一時的cookieファイル//からwikidot_token7\t([0-9a-f]+)を抽出 → //wikidot_token7変数//
+* 何らかの正規表現により//一時的htmlファイル//からWIKIREQUEST.info.pageId = ([0-9]+);を抽出 → //page_id変数//
+* curl -b //一時的cookieファイル// -X "POST" -d "moduleName=viewsource/ViewSourceModule&page_id=//page_id変数//&callbackIndex=0&wikidot_token7=//wikidot_token7変数//" @@http://scp-jp.wikidot.com/ajax-module-connector.php@@ -o //一時的jsonファイル//
+* //一時的jsonファイル//のbody要素に唯一含まれるdiv要素のinnerHTMLをHTMLデコードすればPage Sourceが手に入る
