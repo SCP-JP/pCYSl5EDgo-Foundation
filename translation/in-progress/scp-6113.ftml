@@ -10,8 +10,15 @@
 [[module rate]]
 [[/=]]
 
-[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
-%%content%%
+[[module ListPages offset="@URL|0" range="."]]
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="page2"]]
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="page3"]]
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="page4"]]
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="page5"]]
 [[/module]]
 
 [!-- https://scp-wiki.wikidot.com/fragment:scp-6113-0 --]
@@ -19,12 +26,6 @@
 [!-- https://scp-wiki.wikidot.com/fragment:scp-6113-2 --]
 [!-- https://scp-wiki.wikidot.com/fragment:scp-6113-3 --]
 [!-- https://scp-wiki.wikidot.com/fragment:scp-6113-4 --]
-
-[[div class="footer-wikiwalk-nav"]]
-[[=]]
-<< [[[SCP-6112]]] | SCP-6113 | [[[SCP-6114]]] >>
-[[/=]]
-[[/div]]
 
 [[div]]
 [[=]]
