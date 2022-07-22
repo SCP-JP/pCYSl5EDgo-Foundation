@@ -1,3 +1,44 @@
+[[module CSS]]
+.block-6113-1 {
+    display: block;
+    border: solid 1px #444444;
+    background: #F5F5F5;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 10px;
+}
+.block-6113-2 {
+    border: 0.125rem solid #d4d4d4;
+    background:#F5F5F5;
+    padding:5px;
+    margin-bottom: 10px;
+}
+.block-6113-3 {
+    background: url(https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6113-1/HR-edit.png) top right no-repeat;
+    background-size: 75px 75px;
+    color: black;
+    float: center;
+    border: solid 1px #000000;
+    padding: 5px 15px 15px 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    width: 84%;
+    margin: 2% 4% 4% 4%
+}
+.block-6113-4 {
+    background: url("https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png") center no-repeat;
+    float: center;
+    border: solid 2px #000;
+    padding: 1px 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.o {
+    color: blue;
+}
+table.wiki-content-table th span.o {
+    color: yellow;
+}
+[[/module]]
 [[include :scp-wiki:component:info-ayers
 |lang=jp
 |page=scp-6113
@@ -54,7 +95,7 @@
 [[=]]
 [[collapsible show="[Access File 6113-1]" hide="[Close File]"]]
 [[<]]
-[[div class="block-6113"]]
+[[div class="block-6113-1"]]
 [[%%content{0}%%include :scp-wiki:component:customizable-acs
 |containment-class= keter
 |containment-image= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/keter-icon.svg
@@ -98,7 +139,7 @@
 [[=]]
 [[collapsible show="[Access File 6113-2]" hide="[Close File]"]]
 [[<]]
-[[div class="block-6113"]]
+[[div class="block-6113-1"]]
 [[%%content{0}%%include :scp-wiki:component:anomaly-class-bar-source
 |item-number= 6113-2
 |clearance= 2
@@ -154,7 +195,7 @@
 || [[span class="o"]]Athena Quan[[/span]] ||= 13 || [[span class="o"]]Subject was in extreme emotional distress after continued transphobic harassment. Subject attempted suicide in the bathroom by slitting both wrists. The razor blade could not break her skin. Frustrated, subject threw the razor blade across the room and collapsed crying. SCP-6113-1, disguised as her older sister, appeared in the bathroom to comfort her. Notably, the bathroom has no windows and only one door.[[/span]] ||
 -----
 [[=]]
-[[div style="background: url("https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png") center no-repeat; float: center; border: solid 2px #000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+[[div class="block-6113-4"]]
 + [[span class="o"]]##FF5C48|WARNING: THE FOLLOWING FILE IS LEVEL 3/6113-3 CLASSIFIED##[[/span]]
 ----
 +++ [[span class="o"]]ANY ATTEMPT TO ACCESS THIS FILE WITHOUT LEVEL 3/6113-3 AUTHORIZATION WILL BE LOGGED AND WILL LEAD TO IMMEDIATE DISCIPLINARY ACTION.[[/span]]
@@ -217,7 +258,7 @@
 
 [[span class="o"]]Three days into SCP-6113-3's week-long holding period, during which she was uncooperative, the following memo was sent to Site Director Thomas Graham.[[/span]]
 
-[[div style="background: url(https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6113-1/HR-edit.png) top right no-repeat; background-size: 75px 75px; color: black; float: center; border: solid 1px #000000; padding: 5px 15px 15px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2); width: 84%; margin: 2% 4% 4% 4%"]]
+[[div class="block-6113-3"]]
 [[span class="o"]]**Ethics Committee Memo**[[/span]]
 
 [[span class="o"]]**Date:** 23/04/2019[[/span]]
@@ -900,7 +941,7 @@
 
 [[span class="o"]]On 01/09/2019, the following Ethics Committee Memo was sent to Dr. James Park.[[/span]]
 
-[[div style="background: url(https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6113-1/HR-edit.png) top right no-repeat; background-size: 75px 75px; color: black; float: center; border: solid 1px #000000; padding: 5px 15px 15px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2); width: 84%; margin: 2% 4% 4% 4%"]]
+[[div class="block-6113-3"]]
 [[span class="o"]]**Ethics Committee Memo**[[/span]]
 
 [[span class="o"]]**Date:** 01/09/2019[[/span]]
@@ -1215,7 +1256,7 @@
 [[span class="o"]]**Addendum 6113-3.13:** Ethics Committee Memo 2[[/span]]
 **補遺6113-3.13:** 
 
-[[div style="background: url(https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6113-1/HR-edit.png) top right no-repeat; background-size: 75px 75px; color: black; float: center; border: solid 1px #000000; padding: 5px 15px 15px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2); width: 84%; margin: 2% 4% 4% 4%"]]
+[[div class="block-6113-3"]]
 [[span class="o"]]**Ethics Committee Memo**[[/span]]
 
 [[span class="o"]]**Date:** 18/09/2019[[/span]]
@@ -1603,7 +1644,7 @@
 
 [[/div]]
 -----
-**Special Containment Procedures:** [[span class="o"]]SCP-6113-3 is kept in a standard humanoid containment cell at Site-17. The Senior Researcher for SCP-6113[[footnote]]Currently Dr. Brandon Fisher.[[/footnote]] is to act as SCP-6113-3's "social worker," responsible for SCP-6113-3's wellbeing as well as their normal duties. SCP-6113-3 is to receive a standard education by Foundation educators up until the twelfth grade. While SCP-6113-3 is non-anomalous, standard humanoid containment protocol is in effect. [[/span]][[span style="color:blue;"]]She is only to be referred to as "SCP-6113-3."[[/span]]
+**Special Containment Procedures:** [[span class="o"]]SCP-6113-3 is kept in a standard humanoid containment cell at Site-17. The Senior Researcher for SCP-6113[[footnote]]Currently Dr. Brandon Fisher.[[/footnote]] is to act as SCP-6113-3's "social worker," responsible for SCP-6113-3's wellbeing as well as their normal duties. SCP-6113-3 is to receive a standard education by Foundation educators up until the twelfth grade. While SCP-6113-3 is non-anomalous, standard humanoid containment protocol is in effect. ##blue|She is only to be referred to as "SCP-6113-3."##[[/span]]
 **特別収容プロトコル:** 
 
 [[span class="o"]]In exchange for continued cooperation and good behavior, SCP-6113-3 is allowed limited socialization privileges with approved site personnel of Level 3 or higher as well as access to approved on-site entertainment activities and weekly visits to the Site-17 courtyard, supervised by one project member of Level 3/6113 or higher. Requests for personal items and containment modifications within reason may also be granted upon approval by the SCP-6113 Senior Researcher. To date, SCP-6113-3 has requested:[[/span]]
@@ -1613,7 +1654,7 @@
 * [[span class="o"]]Personalized meals from the Site-17 Cafeteria [DENIED][[/span]]
 * [[span class="o"]]Various snacks and beverages on request --[DENIED]-- --[GRANTED]-- [OVERRULED BY SITE DIRECTOR, DENIED][[/span]]
 * [[span class="o"]]Release from containment [DENIED][[/span]]
-* [[span style="color:blue;"]]A pad of paper and various writing utensils --[DENIED]-- [GRANTED][[/span]]
+* [[span class="o"]]##blue|A pad of paper and various writing utensils --[DENIED]-- [GRANTED]##[[/span]]
 
 [[span class="o"]]Once SCP-6113-3 reaches the age of 18 in 2025, preparations are to be made for her amnesticization and release in accordance with the [https://scp-wiki.wikidot.com/scp-4395 Reintegration Committee].[[/span]]
 
@@ -1630,7 +1671,7 @@
 
 [[span class="o"]]On 06/11/2019, the following was sent to Dr. James Park in response to the events of Interview 24.[[/span]]
 
-[[div style="background: url(https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6113-1/HR-edit.png) top right no-repeat; background-size: 75px 75px; color: black; float: center; border: solid 1px #000000; padding: 5px 15px 15px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2); width: 84%; margin: 2% 4% 4% 4%"]]
+[[div class="block-6113-3"]]
 [[span class="o"]]**Official Ethics Committee Injunction**[[/span]]
 
 [[span class="o"]]**Date:** 06/11/2019[[/span]]
@@ -1809,7 +1850,7 @@ Click [http://scp-jp-sandbox3.wikidot.com/draft:7974444-19-634a/offset/1/page4_l
 [[=]]
 [[collapsible show="[Access File 6113-1]" hide="[Close File]"]]
 [[<]]
-[[div class="block-6113"]]
+[[div class="block-6113-1"]]
 [[%%content{0}%%include :scp-wiki:component:customizable-acs
 |containment-class= keter
 |containment-image= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/keter-icon.svg
@@ -1853,7 +1894,7 @@ Click [http://scp-jp-sandbox3.wikidot.com/draft:7974444-19-634a/offset/1/page4_l
 [[=]]
 [[collapsible show="[Access File 6113-2]" hide="[Close File]"]]
 [[<]]
-[[div class="block-6113"]]
+[[div class="block-6113-1"]]
 [[%%content{0}%%include :scp-wiki:component:customizable-acs
 |containment-class= safe
 |containment-image= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/safe-icon.svg
@@ -1908,7 +1949,7 @@ Click [http://scp-jp-sandbox3.wikidot.com/draft:7974444-19-634a/offset/1/page4_l
 
 -----
 [[=]]
-[[div style="background: url("https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png") center no-repeat; float: center; border: solid 2px #000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+[[div class="block-6113-4"]]
 + [[span class="o"]]##FF5C48|WARNING: THE FOLLOWING FILE IS LEVEL 4/6113-3 CLASSIFIED##[[/span]]
 ----
 +++ [[span class="o"]]ANY ATTEMPT TO ACCESS THIS FILE WITHOUT LEVEL 4/6113-3 AUTHORIZATION WILL BE LOGGED AND WILL LEAD TO IMMEDIATE DISCIPLINARY ACTION.[[/span]]
@@ -2094,7 +2135,7 @@ Click [http://scp-jp-sandbox3.wikidot.com/draft:7974444-19-634a/offset/1/page4_l
 [[div class="blockquote"]]
 [[=]]
 [[collapsible show="[Access File Attachments]" hide="[Close File]"]]
-[[div class="block-6113"]]
+[[div class="block-6113-1"]]
 
 [[%%content{0}%%include component:image-block
 | name=https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6113-4/6113-2-a
@@ -2181,26 +2222,6 @@ Click [http://scp-jp-sandbox3.wikidot.com/draft:7974444-19-634a/offset/1/page4_l
 [[include :scp-wiki:component:license-box-end]]
 [[/=]]
 [[/div]]
-[[module CSS]]
-.block-6113 {
-    display: block;
-    border: solid 1px #444444;
-    background: #F5F5F5;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    padding: 10px;
-}
-.block-6113-2 {
-    border: 0.125rem solid #d4d4d4;
-    background:#F5F5F5;
-    padding:5px;
-    margin-bottom: 10px;
-}
-.o {
-    color: blue;
-}
-[[/module]]
 
 [[div class="blockquote"]]
 **ソース:** [[[https://scp-wiki.wikidot.com/scp-6113|SCP-6113 - Temporary Reflections]]]
