@@ -1,7 +1,0 @@
-[[include :scp-jp:theme:black-highlighter-theme]]
-[[>]]
-[[module Rate]]
-[[/>]]
-[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
-%%content%%
-[[/module]]
