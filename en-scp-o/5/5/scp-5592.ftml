@@ -1,0 +1,149 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:fade-in speed=4]]
+[[module CSS]]
+
+#page-content hr {
+border-top: none;
+height: .05em;
+background: #454545;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;
+}
+
+#page-content > .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: .8em;
+    background-color: #e3e3e3;
+    border-top: 0.125rem dashed #b5b5b5;
+    border-bottom: 0.125rem dashed #b5b5b5;
+}
+
+#page-content > .collapsible-block .collapsible-block-content {
+    text-align: left;
+}
+
+blockquote,
+div.blockquote {
+    border: 0.125rem solid #d4d4d4;
+    background-color: #F5F5F5;
+}
+
+.interview{
+    border:solid 2px #d4d4d4;
+    background:#F5F5F5;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+#page-title{display:none}
+
+[[/module]]
+
+
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[div style="text-align: right; margin-top: -20px;"]]
+[[size 80%]]##757575|by PlaguePJP##[[/size]]
+[[/div]]
+
+[[include component:info-ayers
+|lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=scp-5592 [!-- url of your page on the scp wiki --]
+|authorPage=http://www.scp-wiki.net/plaguepjp[!-- link to your author page --]
+|comments= //You're Really a Part of Me// - PlaguePJP
+]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 5592
+|clearance= 2
+|container-class= euclid
+|secondary-class= none
+|disruption-class= dark
+|risk-class= notice
+]]
+-----
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image http://scptestwiki.wikidot.com/local--files/jawn-seven/bedroom.png style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-5592's location of discovery.
+[[/div]]
+[[/div]]
+------
+**Special Containment Procedures:** SCP-5592 is contained in Site-322's medical anomaly storage wing.
+
+-----
+**Description:** SCP-5592 is the body of John Higgins, a 26-year-old male from Newark, New Jersey, USA. On 13/03/2016, a wellness check was sent to Higgins' apartment following a three-day absence from his place of employment. Police discovered the corpse in Higgins' bed, with a large tumor-like growth protruding from the lower half of his neck down to his pelvic area, with the highest point, centered on Higgins' lower stomach, peaking at approximately 46 centimeters. Prior to an autopsy by police officials, Foundation operatives embedded in New Jersey law enforcement seized SCP-5592 and delivered it to Site-322.
+
+The mass was dissected by medical staff, subsequently leading to the discovery of the deceased body of Lauren Neilson encased between Higgins' dermis and epidermis. There were no signs of a struggle, despite Neilson dying of asphyxiation. Scarring that would indicate how Neilson entered Higgins' body was not present, nor were stretch marks or bruising. 
+
+
+**Addendum 5592.1:** Video Transcript
+
+The following transcript is believed to be the events prior to the manifestation of the SCP-5592 incident, recorded on Higgins' phone.
+
+[[div class="interview"]]
+**<<BEGIN LOG>>**
+
+//(Higgins is seen fiddling with the camera, balancing it before quickly running out of frame. The shot shows Higgins' bed, covered in rose petals. Candles are placed on bedside tables. The sounds of a door opening are heard to the left. Nielson enters, blindfolded and being guided by Higgins.)//
+
+**Nielson:** //(Laughs.)// What the hell is going on?
+
+**Higgins:** Alright, just... you told me you didn't want me to do it in public. I felt like it still should be kinda special.
+
+//(He gets down to one knee.)//
+
+**Higgins:** You can take off the blindfold.
+
+//(Nielson complies, peeling the cover off her eyes and panning her head around the room, mouth agape.)//
+
+**Nielson:** //(Laughing, but beginning to tear up.)// When did you do this?
+
+**Higgins:** I'm the one asking the question right now... Will you marry me?
+
+//(Nielson nods. Now crying, she leans down to Higgins. They kiss and Higgins places a ring on her left ring finger.)//
+
+**Higgins:** I'd also like to marry you too, if it was unclear.
+
+//(They giggle.)//
+
+**Higgins:** Alright, let's not waste these decorations. 
+
+//(Higgins shuts out the lights and flops down on the bed; Nielson follows. Visuals are obscured due to the lack of lighting.)//
+
+**Higgins:** Alexa, shuffle the 'She Said Yes' playlist. 
+
+//(Nielson laughs.)//
+
+**Amazon Echo:** Shuffling playlist: 'She Said Yes.'
+
+//(Frankie Valli's cover of "I've Got You Under My Skin" begins playing.)//
+
+//(There is a sudden sound of ripping, followed by light coughing and choking. The sound of something wet and thick being pushed becomes audible for the next three minutes.)//
+
+//(The recording continues in silence for five hours, presumably until the cellphone dies.)//
+
+**<<END LOG>>**
+
+[[/div]]
+
+[[footnoteblock]]
+----
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5591]]] | SCP-5592 | [[[SCP-5593]]] >>
+[[/=]]
+[[/div]]
+----
+[[include component:wikimodule |ratings= --]]]

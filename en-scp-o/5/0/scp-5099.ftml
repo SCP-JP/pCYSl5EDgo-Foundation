@@ -1,0 +1,23 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+[[include theme:magnus-web-format]]
+[[include theme:black-highlighter-theme]]
+
+[!--
+Fragments:
+http://scp-wiki.wikidot.com/fragment:scp-5099-1
+http://scp-wiki.wikidot.com/fragment:scp-5099-2
+--]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5098]]] | SCP-5099 | [[[SCP-5100]]] >>
+[[/=]]
+[[/div]]
