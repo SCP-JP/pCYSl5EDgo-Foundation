@@ -1,0 +1,24 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+Fragments:
+http://scp-wiki.wikidot.com/fragment:scp-2343-1
+http://scp-wiki.wikidot.com/fragment:scp-2343-2
+http://scp-wiki.wikidot.com/fragment:scp-2343-3
+--]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[include component:license-box]]
+=====
+> **Filename:** test.png
+> **Name:** Russellshepherd.jpg
+> **Author:** Russell Lee
+> **License:** Public Domain
+> **Source Link:** [[[https://commons.wikimedia.org/wiki/File:Russellshepherd.jpg|Wikimedia]]]
+=====
+[[include component:license-box-end]]
