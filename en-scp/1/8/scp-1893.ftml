@@ -1,0 +1,15 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." order="random" limit="1" ]]
+
+[[div style="border:solid 1px #999999;width:95%;background:#DAFAD9;padding:5px;float:center;margin-bottom:4px"]]
+[[=]]
+貴方はこの実体の文章である**%%title%%**を現在見ています。他の反復を見るには、60秒後にページを再読み込みしてください。
+[[/=]]
+[[/div]]
+
+%%content%%
+
+[[/module]]
