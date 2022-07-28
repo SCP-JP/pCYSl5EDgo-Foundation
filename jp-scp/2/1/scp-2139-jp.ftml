@@ -1,0 +1,68 @@
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+http://scp-jp.wikidot.com/fragment:scp-2139-jp-0
+http://scp-jp.wikidot.com/fragment:scp-2139-jp-1
+--]
+
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap');
+.exploration {
+    border: 1px dashed #999;
+    background-color: #f4f4f4;
+    padding: 0 1em;
+    margin: 1em 3em;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+@media (max-width: 479px) {
+    .exploration {
+        margin: 1em 0;
+    }
+}
+@media (min-width: 480px) and (max-width: 580px) {
+    .exploration {
+        margin: 0.5em;
+    }
+}
+.exploration .notes {
+    border-bottom: solid #888 1px;
+}
+.exploration .postscript {
+    border-top: solid #888 1px;
+}
+.exploration .notes p em,
+.exploration .postscript p em {
+    font-style: normal;
+}
+.exploration .notes p::before,
+.exploration .postscript p::before {
+    content: "";
+    font-weight: bold;
+    white-space: pre;
+}
+.exploration .notes p::before {
+    content: "付記: ";
+}
+.exploration .postscript p::before {
+    content: "後記: ";
+}
+.exploration .content::before,
+.exploration .content::after {
+    content: "";
+    display: block;
+    margin: 1em 0;
+    text-align: center;
+    font-weight: bold;
+}
+.exploration .content::before {
+    content: "\00abログ開始\00bb";
+}
+.exploration .content::after {
+    content: "\00abログ終了\00bb";
+}
+.exploration .content .dialogue p {
+    margin: 1em 0;
+}
+[[/module]]

@@ -1,0 +1,9 @@
+[[include credit:start]]
+**タイトル:** sanks269=solvexの提言 - 物語緩衝層
+**著者:** ©︎[[*user sanks269]]＆[[*user solvex]]
+**作成年:** 2020
+[[include credit:end]]
+
+[[module ListPages parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]

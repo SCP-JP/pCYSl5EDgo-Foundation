@@ -1,0 +1,148 @@
+[[module CSS]]
+.notice{
+    border: 1px solid #f9e24d;
+    outline: 4px solid #b54d3b;
+    color: #f9e24d;
+    background: #b54d3b;
+    padding: 10px;
+    text-align: center;
+}
+
+/* HEADER */
+#header{ background-image: url(http://scp-jp.wikidot.com/local--files/scp-2434-jp/DoMC_Logo100.png); }
+#header h1 a{
+    display: block;
+    margin: 0;
+    padding: 80px 0 25px;
+    line-height: 0;
+    max-height: 0;
+    color: transparent;
+    background: transparent;
+    font-family: 'Verdana', Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: none;
+    letter-spacing: 0.9px;
+}
+#header h1 a::before{
+    content: "DoMC";
+    color: white;
+    letter-spacing: -0.02em;
+    text-shadow: 3px 3px 5px black;
+}
+#header h2 span{
+    display: block;
+    margin: 0;
+    padding: 19px 0;
+    line-height: 0;
+    max-height: 0;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: none;
+}
+#header h2 span::before{
+    content: 'Solving Communications Problems';
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:**  SCP-2434-JP - やかん
+**著者:** ©︎[[*user Karathh]]
+**作成年:** 2020
+[[include credit:end]]
+
+[[module CSS]]
+.notice{
+    border: 1px solid #f9e24d;
+    outline: 4px solid #b54d3b;
+    color: #f9e24d;
+    background: #b54d3b;
+    padding: 10px;
+    text-align: center;
+}
+.notice a {
+    color: aqua;
+}
+[[/module]]
+
+[[div class="notice"]]
+++++ [[[domc-hub|誤伝達部門]]]より通達
+
+付随の説明書には不要な情報、及び一部存在していない情報があります。これは意図されたものではありません。説明書を読んでご不明のことがある際は、誤伝達部門にご連絡ください。
+
+-- 瀬戸博士 誤伝達部門日本支部
+[[/div]]
+
+----
+
+**型番:** SCP-2434-JP
+
+**分類:** Kettle
+
+[[include component:image-block
+|name=Kettle
+|caption=型番SCP-2434-JP
+|align=center
+|clear=true
+|width=300px]]
+
+**説明:** 型番SCP-2434-JPは製造元と組成が不明であるやかんです。
+やかんは湯沸かしとしてのみならず、単なる液体の運搬にも使用されます。また、中に水を入れて部屋に放置することで加湿器としても利用されています。しかし、やかんは鈍器、インテリア、容器内の充填物として扱われるものではありません。
+
+__**⚠️取り扱いの際の注意⚠️**__
+* 現在サイト-8154の調理室にて使用されています。
+
+* 使用中の表面への接触は火傷を引き起こすため、注意してください。
+
+* 使用後は中性洗剤を染み込ませたスポンジで洗い、水分をよく拭き取ってから乾燥するようにしてください。
+
+* 本製品は十分に取扱説明書をお読みいただいたうえでご利用ください。また、本製品の取扱説明書は毀損せず製品と一緒に大事に保管してください。
+
+* 説明書に変更が必要であると思われる場合は誤伝達部門に連絡してください。
+
+* **##red|__本来の使用用途に合わない目的への使用は使用者に予測できない被害を及ぼします。__##**
+
+**過去に起きた事故の例:**
+
+__**例1**__
+> **使用者:** 20代主婦
+> 
+> **事故の詳細:** 顔面の火傷
+> 
+> **事故の発生原因:** 鈍器としての使用
+
+__**例2**__
+> **使用者:** 30代研究員
+> 
+> **事故の詳細:** 使用者を含む同僚5人のオブジェクトクラスに関する知識の喪失
+> 
+> **事故の発生原因:** オブジェクトクラスの付与
+
+__**例3**__
+> **使用者:** 30代研究員
+> 
+> **事故の詳細:** 指の骨折(2回)
+> 
+> **事故の発生原因:** やすりを用いた成分分析(2回)
+
+__**例4**__
+> **使用者:** 30代研究員
+> 
+> **事故の詳細:** 財団記録・情報保安管理局(RAISA)データベースの80件の報告書の消失
+> 
+> **事故の発生原因:** 不適切な説明
+
+__**例5**__
+> **使用者:** 20代Dクラス職員
+> 
+> **事故の詳細:** 複数の使用機器の爆発によるサイト-8154の損壊、ならびに12人の負傷(内使用者のみ死亡)
+> 
+> **事故の発生原因:** カント計数機や重量計等を用いた測量
+
+__**例6**__
+> **使用者:** (無人)
+> 
+> **事故の詳細:** 要注意団体の襲撃による収容ロッカーの破損(1日おきに3回)
+> 
+> **事故の発生原因:** 収容ロッカーに入れて長時間放置(3回)

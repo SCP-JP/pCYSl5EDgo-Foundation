@@ -1,0 +1,2307 @@
+[!-- これは最も広い画面表示で、且つフォントサイズ中以下でのみまともに表示されます。大フォントだと壊れるし中フォントだと画像ブロックとかが被りますし、スマホではまず崩れます。そして今のfalsehoodの知識ではこれを修正出来ません。いずれCSSに造詣が深くなったら、また挑もうと思います。 --]
+[!-- ここから理事会命令の為のモジュール。 --]
+[[module CSS]]
+.orderwrapper {position: relative;width: auto;text-align: center;}.council1 {position: relative;top: 0;bottom: 0;left: 0;right: 0;width: 295px;height: 295px;margin: auto;background-image: url( "http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png" );background-size: 295px 295px;background-repeat: no-repeat;background-position: center;}.ordertitle {position: absolute;left: 0;right: 0;top: 38px;}.ordertitle h1 {font-size: 220%;color: #555;}.orderdescription {position: absolute;left: 0;right: 0;top: 85px;width: 100%;}.orderdescription p {font-size: 90%;color: #555;}.orderdescription h1 {font-size: 120%;color: #555;}.itemno {position: absolute;left: 0;right: 0;bottom: 27px;}.itemno h1 {font-size: 170%;color: #555;}
+[[/module]]
+[!-- ここからアノマリー分類システム（テクスチュアル）の為のモジュール。 --]
+[!-- 恐らくこちらは図が使われていない為に表示のズレがある程度で抑えられていると思われます。図さえ無ければ改行の高が知れている為です。 --]
+[[module css]]
+.acs-text {
+    display: grid;
+    grid-template-areas:
+        "item item clear"
+        "contain disrupt disrupt"
+        "contain risk risk";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 25% 1fr 1fr;
+    grid-gap: 0.125rem;
+    width: 100%;
+    height: 6.5rem;
+    background-color: rgb(var(--black-monochrome, 12, 12, 12));
+    line-height: 1;
+    position: relative;
+}
+
+.acs-text > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(0,0,0,0);
+}
+
+@media (max-width: 500px ) {
+    .acs-text {
+        grid-template-areas:
+            "item item clear"
+            "contain contain contain"
+            "disrupt disrupt disrupt"
+            "risk risk risk";
+        grid-template-rows: 2fr 2fr 1fr 1fr;
+        height: 10rem;
+        max-height: 50vh;
+    }
+}
+
+.acs-text > div {
+    background-color: rgb(var(--white-monochrome, 252, 252, 252));
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.acs-text > div strong {
+    margin-right: 0.25rem;
+}
+
+.acs-text > .acs-text-item {
+    grid-area: item;
+    font-size: 1.5em;
+}
+
+.acs-text > .acs-text-clear {
+    grid-area: clear;
+    font-size: 1.25em;
+}
+
+.acs-text > .acs-text-contain {
+    grid-area: contain;
+    font-size: 1.25em;
+}
+
+.acs-text > .acs-text-disrupt {
+    grid-area: disrupt;
+}
+
+.acs-text > .acs-text-risk {
+    grid-area: risk;
+}
+[[/module]]
+[!-- ここからアノマリー分類システム（ハイブリッド）の為のモジュール。 --]
+[!-- 図が入った結果、テクスチュアルよりも改行時のズレが大きくなっています。 --]
+[!-- オリジナルから多少弄っています。具体的には収容クラスEuclid、攪乱クラスValm以外を指定した時に背景色がマトモに表示されない不具合を修正、重複した不要な項目を削除、クリアランスのフォントサイズを1.25から1.2に変更しTop-Secretと表示した時改行され表示が狂う不具合を修正。最上位クリアランスには未対応。 --]
+[[module css]]
+:root {
+    --five-color: 196,2,51;
+    --four-color: 255,109,0;
+    --three-color: 255,211,0;
+    --two-color: 0,135,189;
+    --one-color: 0,159,107;
+}
+
+.acs-hybrid {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas:
+        "item item clear"
+        "contain disrupt disrupt"
+        "contain risk risk";
+    -ms-grid-rows: 1fr 0.125rem 1fr 0.125rem 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    -ms-grid-columns: 25% 0.125rem 1fr 0.125rem 1fr;
+    grid-template-columns: 25% 1fr 1fr;
+    grid-gap: 0.125rem;
+    width: 100%;
+    height: 6.5rem;
+    background-color: rgb(var(--black-monochrome, 12, 12, 12));
+    position: relative;
+}
+
+.acs-hybrid > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(0,0,0,0);
+}
+
+@media (max-width: 500px ) {
+    .acs-hybrid {
+        grid-template-areas:
+            "item item clear"
+            "contain contain contain"
+            "disrupt disrupt disrupt"
+            "risk risk risk";
+        grid-template-rows: 2fr 2fr 1fr 1fr;
+        height: 10rem;
+        max-height: 50vh;
+    }
+}
+
+.acs-hybrid > div {
+    background-color: rgb(var(--white-monochrome, 252, 252, 252));
+    padding: 0.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.acs-hybrid > div strong {
+    margin-right: 0.25rem;
+}
+
+.acs-hybrid > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.acs-hybrid > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.acs-hybrid .acs-hybrid-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0.25rem;
+}
+
+.acs-hybrid .acs-hybrid-icon img {
+    border-radius: 50%;
+    border: 0.125rem solid rgb(var(--black-monochrome,12,12,12));
+}
+
+.acs-hybrid > .acs-hybrid-contain .acs-hybrid-icon {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.acs-hybrid > .acs-hybrid-disrupt .acs-hybrid-icon,
+.acs-hybrid > .acs-hybrid-risk .acs-hybrid-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.acs-hybrid > .acs-hybrid-item {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: item;
+    font-size: 1.5em;
+}
+
+.acs-hybrid > .acs-hybrid-clear {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+    grid-area: clear;
+    font-size: 1.2em;
+}
+
+.acs-hybrid > .acs-hybrid-clear.acs-clear-1 {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+    padding-left: 0.5em;
+}
+
+.acs-hybrid > .acs-hybrid-clear.acs-clear-2 {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+    padding-left: 0.5em;
+}
+
+.acs-hybrid > .acs-hybrid-clear.acs-clear-3 {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+    padding-left: 0.5em;
+}
+
+.acs-hybrid > .acs-hybrid-clear.acs-clear-4 {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+    padding-left: 0.5em;
+}
+
+.acs-hybrid > .acs-hybrid-clear.acs-clear-5 {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+    padding-left: 0.5em;
+}
+
+.acs-hybrid > .acs-hybrid-contain {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    grid-area: contain;
+    font-size: 1.25em;
+    padding-left: 0.75em;
+}
+
+.acs-hybrid > .acs-hybrid-contain.acs-neutralized,
+.acs-hybrid > .acs-hybrid-contain.acs-esoteric {
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--gray-monochrome, 66, 66, 72),0.15);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--gray-monochrome, 66, 66, 72),0.15);
+}
+
+.acs-hybrid > .acs-hybrid-contain.acs-pending {
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--white-monochrome, 12, 12, 12));
+            box-shadow: inset 0.5rem 0 0 0 rgb(var(--white-monochrome, 12, 12, 12));
+    background-color: rgb(var(--black-monochrome, 12, 12, 12));
+    color: rgb(var(--white-monochrome, 252, 252, 252));
+}
+
+.acs-hybrid > .acs-hybrid-contain.acs-explained {
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--black-monochrome, 12, 12, 12));
+            box-shadow: inset 0.5rem 0 0 0 rgb(var(--black-monochrome, 12, 12, 12));
+}
+
+.acs-hybrid > .acs-hybrid-contain.acs-safe {
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--one-color));
+            box-shadow: inset 0.5rem 0 0 0 rgb(var(--one-color));
+}
+
+.acs-hybrid > .acs-hybrid-contain.acs-euclid {
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--three-color));
+            box-shadow: inset 0.5rem 0 0 0 rgb(var(--three-color));
+}
+
+.acs-hybrid > .acs-hybrid-contain.acs-keter {
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--five-color));
+            box-shadow: inset 0.5rem 0 0 0 rgb(var(--five-color));
+}
+
+.acs-hybrid > .acs-hybrid-contain.acs-euclid img {
+    background-color: rgb(var(--three-color));
+}
+
+.acs-hybrid > .acs-hybrid-contain.acs-safe img {
+    background-color: rgb(var(--one-color));
+}
+
+
+.acs-hybrid > .acs-hybrid-disrupt {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
+    grid-area: disrupt;
+}
+
+.acs-hybrid > .acs-hybrid-disrupt.acs-dark,
+.acs-hybrid > .acs-hybrid-disrupt.acs-vlam,
+.acs-hybrid > .acs-hybrid-disrupt.acs-keneq,
+.acs-hybrid > .acs-hybrid-disrupt.acs-ekhi,
+.acs-hybrid > .acs-hybrid-disrupt.acs-amida, {
+    padding-left: 0.5em;
+}
+
+.acs-hybrid > .acs-hybrid-disrupt.acs-dark {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+}
+
+.acs-hybrid > .acs-hybrid-disrupt.acs-dark img {
+    background-color: rgb(var(--one-color));
+}
+
+.acs-hybrid > .acs-hybrid-disrupt.acs-vlam {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+}
+
+.acs-hybrid > .acs-hybrid-disrupt.acs-vlam img {
+    background-color: rgb(var(--two-color));
+}
+
+.acs-hybrid > .acs-hybrid-disrupt.acs-keneq {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+}
+
+.acs-hybrid > .acs-hybrid-disrupt.acs-keneq img {
+    background-color: rgb(var(--three-color));
+}
+
+.acs-hybrid > .acs-hybrid-disrupt.acs-ekhi {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+}
+
+.acs-hybrid > .acs-hybrid-disrupt.acs-ekhi img {
+    background-color: rgb(var(--four-color));
+}
+
+.acs-hybrid > .acs-hybrid-disrupt.acs-amida {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+}
+
+.acs-hybrid > .acs-hybrid-disrupt.acs-amida img {
+    background-color: rgb(var(--five-color));
+}
+
+.acs-text > .acs-text-risk,
+.acs-hybrid > .acs-hybrid-risk {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
+    grid-area: risk;
+}
+
+.acs-hybrid > .acs-hybrid-risk.acs-notice,
+.acs-hybrid > .acs-hybrid-risk.acs-caution,
+.acs-hybrid > .acs-hybrid-risk.acs-warning,
+.acs-hybrid > .acs-hybrid-risk.acs-danger,
+.acs-hybrid > .acs-hybrid-risk.acs-critical {
+    padding-left: 0.5em;
+}
+
+.acs-hybrid > .acs-hybrid-risk.acs-notice {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+}
+
+.acs-hybrid > .acs-hybrid-risk.acs-notice img {
+    background-color: rgb(var(--one-color));
+}
+
+.acs-hybrid > .acs-hybrid-risk.acs-caution {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+}
+
+.acs-hybrid > .acs-hybrid-risk.acs-caution img {
+    background-color: rgb(var(--two-color));
+}
+
+.acs-hybrid > .acs-hybrid-risk.acs-warning {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+}
+
+.acs-hybrid > .acs-hybrid-risk.acs-warning img {
+    background-color: rgb(var(--three-color));
+}
+
+.acs-hybrid > .acs-hybrid-risk.acs-danger {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+}
+
+.acs-hybrid > .acs-hybrid-risk.acs-danger img {
+    background-color: rgb(var(--four-color));
+}
+
+.acs-hybrid > .acs-hybrid-risk.acs-critical {
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+}
+
+.acs-hybrid > .acs-hybrid-risk.acs-critical img {
+    background-color: rgb(var(--five-color));
+}
+[[/module]]
+[!-- ここからノートの為のモジュール。 --]
+[[module css]]
+.page {
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
+
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 2px;
+    margin-bottom: 10px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
+.page p {
+    line-height: 20px;
+    margin: 0;
+}
+[[/module]]
+[!-- ここからクレジット。 --]
+[[include credit:start]]
+**タイトル:** SCP-2630-JP - [[span class="ruby"]]十種神宝[[span class="rt"]]とくさのかんだから[[/span]][[/span]]
+**著者:** ©︎[[*user falsehood]]
+**作成年:** 2020
+[[include credit:end]]
+[!-- ここから評議会命令のディヴィジョン。 --]
+[[div class="orderwrapper"]]
+[[div class="council1"]]
+[[/div]]
+[[div class="ordertitle"]]
++* BY ORDER OF THE BOARD OF DIRECTORS
+[[/div]]
+[[div class="orderdescription"]]
+ _
+ _
+The following files are classified as several levels;
+the viewing authority is divided into multiple parts
+and individually classified for each clearance.
+Unauthorized browse is forbidden.
+[[/div]]
+[[div class="itemno"]]
++* 2630-JP
+[[/div]]
+[[/div]]
+[!-- ここから認証。 --]
+-----
+-----
+[[div style="background: gray; padding: 1px 15px; border: solid 3px lightgray; margin: 10px; border-radius: 30px 15px;"]]
+[[div style="background: white; padding: 1px 15px; border: solid 3px lightgray; margin: 10px; border-radius: 30px 15px;"]]
+[[=]]
++++ Confirmed the authority level 5/2630-JP.
++++ The following is an entire report.
+[[/=]]
+[[/div]]
+[[/div]]
+-----
+-----
+[!-- ここからアノマリー分類システムバーのインクルード。 --]
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 2630-jp
+|clearance= 5
+|container-class= esoteric
+|secondary-class= cernnunos
+|secondary-icon= http://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/cernunnos-icon.svg
+|disruption-class= ekhi
+|risk-class= warning
+]]
+[!-- ここから報告書。 --]
+**特別収容プロトコル:** SCP-2630-JP-A群は複数のセキュリティ施設に分けて収容されます。
+
+個々の物品の収容方法については該当箇所を参照して下さい。
+
+**説明:** SCP-2630-JP-A群はSCP-2630-JP-1からSCP-2630-JP-##white|10##まで10点の物品により構成されるオブジェクト群です。
+[!-- ここからSCP-2630-JP-Aテーブル。 --]
+[[table style="border: 1px solid silver"]]
+[[row]]
+[[hcell style="text-align: center; border: 1px solid silver"]]
+SCP-2630-A
+[[/hcell]]
+[[hcell style="text-align: center; border: 1px solid silver"]]
+形状
+[[/hcell]]
+[[hcell style="text-align: center; border: 1px solid silver"]]
+収容施設
+[[/hcell]]
+[[hcell style="text-align: center; border: 1px solid silver"]]
+責任者
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+-1
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+銅鏡
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+サイト-8160
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+志島 清衡
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+-2
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+直刀
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+サイト-8139
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+大取 彬
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+-3
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+環
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+サイト-8181
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+若山 和胤
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+-4
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+銅鏡
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+サイト-81R1
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+月夜 長介
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+-5
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+勾玉
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+サイト-81R2
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+月夜 長介
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+-6
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+剣
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+サイト-81R3
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+月夜 長介
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+-7
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+御旗
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+サイト-8112
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+帥升 邦彦
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+-8
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+勾玉
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+後記
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+新家 巳六
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+-9
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+銅鉾
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+サイト-8199
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+稲津 真姫
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+-##white|10##
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+##white|金印##
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+##white|サイト-8189##
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid silver"]]
+仙護 雉
+[[/cell]]
+[[/row]]
+[[/table]]
+SCP-2630-JP-Bは特定の血族の本家の当主です。現在は[削除済]であり、基本的に[削除済]を務める人間に一致します。
+
+SCP-2630-JP-A群はそれぞれ個別のオブジェクトとして収容されていましたが、インシデント-2630-JP(1)からインシデント-2630-JP(7)によって一連のオブジェクトとして再定義されました。各インシデントの詳細は##BB0011|インシデント-2630-JP##を参照して下さい。以下、SCP-2630-JP-1からSCP-2630-JP-##white|10##の報告書現リビジョンです。各物品間で性質及び必要となる特別収容プロトコルに著しく差異がある事から、それぞれの担当研究チームの再編は行われていません。その為、閲覧権限、更新上の利便性から各報告書をほぼ原形のまま記載しています。以下の報告書にはアノマリー分類システム制定前のクリアランス、オブジェクトクラス指定に準拠した記載及び特定環境下での表示にのみ対応したフォーマットが含まれる事に留意して下さい。
+-----
+以下に含まれる報告書
+# [/scp-2630-jp#1 SCP-2630-JP-1]・閲覧権限を確認。
+# [/scp-2630-jp#2 SCP-2630-JP-2]・閲覧権限を確認。
+# [/scp-2630-jp#3 SCP-2630-JP-3]・閲覧権限を確認。
+# [/scp-2630-jp#4 SCP-2630-JP-4]・閲覧権限を確認。
+# [/scp-2630-jp#5 SCP-2630-JP-5]・閲覧権限を確認。
+# [/scp-2630-jp#6 SCP-2630-JP-6]・閲覧権限を確認。
+# [/scp-2630-jp#7 SCP-2630-JP-7]・閲覧権限を確認。
+# [/scp-2630-jp#8 SCP-2630-JP-8]・閲覧権限を確認。
+# [/scp-2630-jp#9 SCP-2630-JP-9]・閲覧権限を確認。
+# [/scp-2630-jp#10 SCP-2630-JP-]##white|10##・閲覧権限のみ確認。
+-----
+-----
+[!-- ここからSCP-2630-JP-1報告書。 --]
+[[# 1]][[span_]][[/span]]
+[!-- このspan_が無いと一行空くので注意、消さないで下さい。 --]
+[[div class="scp-image-block block-right" style="width:300px;"]]
+[[image 640px-漢_青銅博局鏡-Mirror_with_Game_Board_Design_MET_17.118.42.jpg style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+SCP-2630-JP-1複製。
+[[/div]]
+[[/div]][[span_]][[/span]]
+**アイテム番号:** SCP-2630-JP-1
+
+**オブジェクトクラス:** Safe
+
+**特別収容プロトコル:** SCP-2630-JP-1はサイト-8160の考古資料保管室の専用ロッカーに収容されます。SCP-2630-JP-1は弥生時代に製作された銅鏡と同等の経年劣化を起こしており、耐久性が著しく低下している事に注意して下さい。サイト-8160の周囲266.75km以内に他のSCP-2630-JP-Aを持ち込む事は可能な限り回避されます。
+
+SCP-2630-JP-1の確保・収容・保護に関する全権は[[span class="ruby"]]志島清衡[[span class="rt"]]ししま きよひら[[/span]][[/span]]("獅子")により掌握されます。
+
+**説明:** SCP-2630-JP-1は直径約18cmの銅鏡です。
+
+SCP-2630-JP-1は蒐集院によって管理されており、財団日本支部への吸収時に移譲されました。
+
+SCP-2630-JP-1の周囲533.5km以内に他のSCP-2630-JP-A(以下"1-対象")が存在する時、SCP-2630-JP-1と1-対象の距離に応じて異常性が発現します。
+[!-- ここからSCP-2630-JP-1異常性テーブル。 --]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[row]]
+[[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
+距離
+[[/cell]]
+[[cell style="font-weight:bold; padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver;"]]
+異常性
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+~533.5km
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+SCP-2630-JP-1の鏡面に、533.5km以内に存在する1-対象の周囲5mを俯瞰した映像が表示される。複数の1-対象が存在する時、最も近い1-対象が選択される。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+~373.45km
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+SCP-2630-JP-1の鏡面に、373.45km以内に存在する1-対象の周囲5mを俯瞰した映像が表示される。複数の1-対象が存在する時、最も近い1-対象が選択される。
+鏡背中央部の突起から最も近い1-対象の方向へ青色の光線が照射される。この光線は53.4cm程度で減衰する。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid black"]]
+~266.75km
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+SCP-2630-JP-1の鏡面に、266.75km以内に存在する1-対象の周囲5mを俯瞰した映像が表示される。複数の1-対象が存在する時、最も近い1-対象が選択される。
+鏡背中央部の突起から最も近い1-対象の方向へ青色の光線が照射される。この光線は178cm程度で減衰する。
+SCP-2630-JP-1の周囲5.34m以内(以下"効果範囲")に存在する自律型オブジェクトが失活する。これはSCP-2630-JP-1の異常性が消滅する、或いは効果範囲外に出ると回復する。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid black"]]
+~53.35km
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+SCP-2630-JP-1の鏡面に、53.35km以内に存在する1-対象の周囲5mを俯瞰した映像が表示される。複数の1-対象が存在する時、最も近い1-対象が選択される。
+鏡背中央部の突起から最も近い1-対象の方向へ青色の光線が照射される。この光線は減衰せず障害物を透過し1-対象へ到達する。
+SCP-2630-JP-1の周囲533.5m以内に存在する自律型オブジェクトが失活する。これはSCP-2630-JP-1の異常性が消滅する、或いは効果範囲外に出ると回復する。
+SCP-2630-JP-1が約10mSv程度の放射線を放射する。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid black"]]
+~1067m
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+SCP-2630-JP-1の鏡面に、1067m以内に存在する1-対象の周囲5mを俯瞰した映像が表示される。複数の1-対象が存在する時、最も近い1-対象が選択される。
+鏡背中央部の突起から最も近い1-対象の方向へ青色の光線が照射される。この光線は減衰せず障害物を透過し1-対象へ到達する。
+SCP-2630-JP-1の周囲533.5km以内に存在する自律型オブジェクトが失活する。これはSCP-2630-JP-1の異常性が消滅する、或いは効果範囲外に出ると回復する。
+SCP-2630-JP-1が約1000mSv程度の放射線を放射する。
+[[/cell]]
+[[/row]]
+[[/table]]
+上記異常性を考慮し、SCP-2630-JP-1は一切の自律型オブジェクトが存在しないサイトにのみ収容されます。
+-----
+-----
+[!-- ここからSCP-2630-JP-2報告書。 --]
+[[# 2]][[span_]][[/span]]
+[!-- ここから初代カクタスフォーマットヘッダー。 --]
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+[[size 125%]]**Item #:** SCP-2630-JP-2[[/size]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[size 125%]]###990000|**Level 1/2630-JP-2**##[[/size]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[size 125%]]**Object Class:** Euclid[[/size]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[size 125%]]###990000|**Classified**##[[/size]]
+[[/cell]]
+[[/row]]
+[[/table]]
+-----
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image 26501310762_da2b27bb1f_b(2).jpg style="width:100%;" link=]]
+[[div class="scp-image-caption" style="width:100%;"]]
+紀州市九十九博物館に展示されている、鎌倉時代に作成されたSCP-2630-JP-2複製。度重なる焼き直しにより曲刀になっている。
+[[/div]]
+[[/div]]
+-----
+**特別収容プロトコル:** SCP-2630-JP-2はサイト-8139の専用ロッカーに収容されます。サイト-8139の周囲133.375km以内に他のSCP-2630-JP-Aを持ち込まないで下さい。
+
+SCP-2630-JP-2の確保・収容・保護に関する全権は[[span class="ruby"]]大取彬[[span class="rt"]]おおとり あきら[[/span]][[/span]]("鳳林")により掌握されます。
+
+**説明:** SCP-2630-JP-2は全長約75cmの青銅製の直刀です。刀身に硫黄製の装飾が施されており、一切の腐食を免れています。
+
+SCP-2630-JP-2によって斬られた人物(以下"2-対象2")は、斬った人物(以下"2-対象1")に対する一切の敵対心を喪失します。同時に関連する全ての人間は2-対象2が2-対象1と過去敵対していたと言う認識を喪失し、2-対象2が2-対象1を害する目的で行った全ての行動は2-対象1に利する行為であったと言う記憶改変を受けます。
+
+この認識改変及び記憶改変はただ敵対しているか否かと言う点のみに限られ、過去行った行為や進行中の行為に関しては一切の影響を及ぼさない事は特筆すべきです。その為、"2-対象2が2-対象1と敵対していないにも関わらず2-対象2が行った明らかな敵対的行為により2-対象1が大きな損失や死亡を含む損害を被った"と言う認識が発生し得ます。著名な事例としては本能寺の変が挙げられます。歴史上発生した事例に関しては全てカバーストーリー「巧妙な裏切り」を流布し対応しています。
+
+SCP-2630-JP-2は要注意団体"大日本帝国陸軍特別医療部隊"(別称"負号部隊")の外局である精神影響部門により管理されており、終戦後に負号部隊元実質トップであった[[span class="ruby"]]葦舟龍臣[[span class="rt"]]あしぶね たつおみ[[/span]][[/span]]の遺言により財団へ移管されました。
+-----
+-----
+[!-- ここからSCP-2630-JP-3報告書。 --]
+[[# 3]]
+[!-- ここから二代目カクタスフォーマットヘッダー。 --]
+[!-- ここでspan_入れると#3に飛ぶ時画像も飛ばされてしまいます、ここには入れないで下さい。 --]
+[[image http://scp-wiki.wdfiles.com/local--files/scp-style-resource/header2.png]]
+-----
+**アイテム番号:** SCP-2630-JP-3
+
+**オブジェクトクラス:** Safe
+
+**特別収容プロトコル:** 無し。
+
+常にSCP-2630-JP-3のモニターを継続して下さい。
+
+SCP-2630-JP-3の確保・収容・保護に関する全権は[[span class="ruby"]]若山和胤[[span class="rt"]]わかやま かずたね[[/span]][[/span]]("若山")により掌握されます。
+
+**説明:** SCP-2630-JP-3は翡翠製の1対の環です。
+
+SCP-2630-JP-3-AはSCP-2630-JP-3の、全体が鮮やかな翡翠色の発色を示す一方です。SCP-2630-JP-3-Bは全体が白色の発色を示す一方です。
+
+SCP-2630-JP-3がそれぞれ別々の存在(以下それぞれ"3-対象1"及び"3-対象2")により所持されている時、3-対象1が保持する性質の内、最も代表的な物であると認識されている性質が3-対象2に付与されます。3-対象2が付与された性質を保持出来るのはSCP-2630-JP-3-Bを所持している間のみであり、手放した際には異常性が消失します。
+
+気質、破壊耐性、増殖能力、瞬間移動能力等、付与される性質は非常に多岐に渡ります。尚、後述する理由により財団に於ける実験は行われていません。
+
+SCP-2630-JP-3はサイト-8181、[[[SCP-1500-JP]]]-A内の神輿エリアに放置されています。SCP-2630-JP-3-Aは樹木東側の祠内、SCP-2630-JP-3-Bは樹木の洞内に存在しますが、SCP-1500-JPの現状を鑑み回収は断念されました。
+
+現在SCP-2630-JP-3の異常性に依り、桜主に青龍の破壊嗜好性が付与されていると考えられています。青龍の破壊嗜好性は捕食や精神破壊を伴わない純粋な物理的行為であると言う点で朱雀、白虎と大きく異なっており、SCP-2630-JP-3-Aが異なる祠に安置されていた場合81地域に大規模な異常が発生していたと蒐集院により予測されています。
+
+以下、未分類資料保管室より再発見された聴取資料です。
+[!-- ここからSCP-2630-JP-3聴取資料。 --]
+[!-- 元記事とフォーマットを揃える為、ここだけは通常の引用フォーマットを用います。 --]
+> **対象:** 萩原研儀官
+> 
+> **インタビュアー:** 倉敷博士
+> 
+> **付記:** 蒐集院と財団の併合に伴い、蒐集院が確保していたオブジェクトに関する情報の引き継ぎが行われました。以下はその内長年紛失されていた中からSCP-2630-JP-3に関する情報を抽出した物です。
+> 
+> **<録音開始>**
+> 
+> **倉敷博士:** 祠の中には何が？
+> 
+> **萩原研儀官:** 一部であれば教えてやれるが、そこまでだ。
+> 
+> **倉敷博士:** 勿体振るな。
+> 
+> **萩原研儀官:** 東、青龍の祠には翡翠の環が入っている。
+> 
+> **倉敷博士:** 呪術的な意味が？
+> 
+> **萩原研儀官:** ああ、対になる環が桜主の元にある。中央の樹だ。
+> 
+> **倉敷博士:** どんな意図があって置いた物だ？
+> 
+> **萩原研儀官:** 残念だが、我々が意図して設置した遺物では無い。遺物だ。
+> 
+> **倉敷博士:** 入り込んだ男とやらの仕業か。
+> 
+> **萩原研儀官:** そう言って良いだろうな、恐らく。お前が言った様な"馬鹿騒ぎ"の、最たる要因の1つだと考えられてる。
+> 
+> **倉敷博士:** どんな異常性なんだ、環と言うのは。
+> 
+> **萩原研儀官:** 一方を持つ者の代表的性質を、もう一方に付与する。今は、元になる一方が青龍、与える一方が桜主の元にある。
+> 
+> **倉敷博士:** [4秒沈黙]それは大丈夫なのか？
+> 
+> **萩原研儀官:** 大丈夫では無いからああなっているんだ。桜主は青龍の攻撃性を得た。それも敵対的攻撃性じゃない、嗜好と言って良い性質だ。
+> 
+> **倉敷博士:** だから、乱闘騒ぎを楽しんで見ていると。
+> 
+> **萩原研儀官:** そう、人間が拳闘をみて楽しむ様な物だ。人柱にもそれが通じているのかは知らんが、本気でぶつかり合っている。
+> 
+> **倉敷博士:** 恐ろしい話だな。
+> 
+> **萩原研儀官:** 全くだ。ただ、ある意味で安心でもある。
+> 
+> **倉敷博士:** 何故だ？
+> 
+> **萩原研儀官:** 敵対的な異常、大いなる相手が現れた時、我々に"まともに"戦えるだけの加護を下さるだろう。それが担保されたとも言える。青龍は一方的な殺戮は好まない。
+> 
+> **倉敷博士:** [5秒沈黙]取り出す事は出来ないのか？
+> 
+> **萩原研儀官:** お前はパンドラの箱を開けたいか？　中に猛獣が入っていると確定していて？
+> 
+> **倉敷博士:** [2秒沈黙]御免だな。打つ手無しか。
+> 
+> **萩原研儀官:** その通り、桜主の趣味が少々過激になったのさ。
+> 
+> **倉敷博士:** 「妙な男」と言っていたな。入れた人間の目星は？
+> 
+> **萩原研儀官:** 付いてる、古い組織の生き残りの息子だったらしい。蒐集院に合流したが、腹に一物抱えていたらしいな。断言は出来ないし、もう調べるには時が経ち過ぎた。
+> 
+> **倉敷博士:** そいつはどこに？
+> 
+> **萩原研儀官:** 誰も見付けられなかったが、この国から出る事は無かったらしい。今でもその子孫か、或いは一派か、そんな奴らが活動してるよ。時々妙な品が見付かるが、奴らの作った物だ。
+> 
+> **倉敷博士:** 何故対処しない？
+> 
+> **萩原研儀官:** しないんじゃ無い、出来ないんだ。奴らは尻尾を見せない。何より表立って行動してる奴らは陽動に過ぎない、捕まえても意味が無い。
+> 
+> **倉敷博士:** そいつは、祭をおかしくした後は何を？
+> 
+> **萩原研儀官:** どうやったかは知らないが、石室の扉を複製して回ったらしい。幸い殆どは壊れて、残ってる物は少ない筈だ。
+> 
+> **倉敷博士:** 意味はあるのか？
+> 
+> **萩原研儀官:** あの扉は空間の深度をずらす機能がある、普段は開けない"高い"位置に造られた扉を開ける様にするんだ。石室の中の扉も幾分高い位置にある。だが、その分構造が無茶で壊れ易くてな。壊れたら多分、複製されたどれかを持って来るんだろう。
+> 
+> **倉敷博士:** 祠に入っている他の物は？
+> 
+> **萩原研儀官:** されこうべ、榊、経文、黒曜石、石榴。これ以外は教えられないし、知らない方が幸せだ。
+> 
+> **<録音終了>**
+SCP-2630-JP-3-B-ReはSCP-2630-JP-3-Bの不完全な複製です。蒐集院により、桜主の超常性を蒐集院構成員に付与する目的でSCP-2630-JP-3改良版製作の試みが行われましたが、失敗しSCP-2630-JP-3-Bの改良は異常性の一部を複製するのみに留まった事が明らかになっています。SCP-2630-JP-3-B-Reを所持している者にはSCP-2630-JP-3-Bにより付与される物と同様の性質がより軽微に付与されます。
+
+SCP-2630-JP-3がSCP-1500-JP-Aに持ち込まれると同時期にSCP-2630-JP-3-B-Reは紛失されており、SCP-2630-JP-3をSCP-1500-JPに持ち込んだと考えられる人物により持ち去られたと推測されます。当該人物、或いは当該人物が所属すると予測される団体は要注意団体"博士"と同定可能であると断定されており、SCP-2630-JP-3-B-Reにより付与された破壊嗜好性、嗜虐性が異常物品の製作に影響を与えているとの提言が存在します。
+-----
+-----
+[!-- ここからSCP-2630-JP-4報告書。 --]
+[[# 4]][[span_]][[/span]]
+[!-- ここから三代目カクタスフォーマットヘッダー。 --]
+[[include :scp-jp:component:classified-decoration
+|lv=3
+|item=2630-JP-4
+|oc=Euclid
+|lang=EN
+]]
+[[div class="scp-image-block block-right" style="width:300px;"]]
+[[image EFjn1bf_.jpg style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+サイト-81R1外観。
+[[/div]]
+[[/div]][[span_]][[/span]]
+**特別収容プロトコル:** SCP-2630-JP-5はサイト-81R1の専用収容室に安置されます。専用収容室への立ち入りは許可されません。
+
+SCP-2630-JP-4の確保・収容・保護に関する全権は[[span class="ruby"]]月夜長介[[span class="rt"]]つくよ ちょうすけ[[/span]][[/span]]("鵺")により掌握されます。
+
+**説明:** SCP-2630-JP-4は直径約46.5cmの銅鏡の様に見える青銅鏡です。
+
+SCP-2630-JP-4は一連の関係性を持った物体群の内、失われた1品に擬態、その異常性を複製します。現在SCP-2630-JP-4は81地域に継承される3文化財の1品に擬態しています。この品は過去宮中で消失したと伝えられており、その際にSCP-2630-JP-4により代替されたと考えられています。
+
+SCP-2630-JP-4は屋内及び夜間であっても太陽が存在する映像を反映します。その為暗闇にあってもSCP-2630-JP-4に映される映像は明るく、夜間であっても天球の中央に太陽らしき光球が存在する様子が確認出来ます。この異常性は代替元であった銅鏡が保有していたと考えられていますが、由来は不明です。
+
+SCP-2630-JP-4及び[[[SCP-1111-JP]]]-3にはいずれも[[span class="ruby"]]八咫鏡[[span class="rt"]]やたのかがみ[[/span]][[/span]]であるとする記録が存在しますが、両オブジェクトの関係性は不明です。いずれかが八咫鏡である場合、SCP-1111-JP-3が偽造品であるもしくはSCP-2630-JP-4による代替後に作成された複製であるか、或いはSCP-2630-JP-4が八咫鏡だとする記録が誤っているかのいずれかだと言う事になります。また、"八咫"が原義通り"大きい"を意味し八咫鏡と言う名称自体が固有名詞では無いと言う可能性、SCP-2630-JP-4とSCP-1111-JP-3のいずれも八咫鏡では無い可能性、SCP-2630-JP-4がSCP-1111-JP-3であるも存在します。
+-----
+-----
+[!-- ここからSCP-2630-JP-5報告書。 --]
+[[# 5]][[span_]][[/span]]
+[!-- ここから四代目カクタスフォーマットヘッダー。 --]
+[[include :smlt:component:aers:classification-stuff
+|item=2630-JP-5
+|lvl=3
+|class=Keter
+|threat=Ora
+|threat-colour=#FFA500
+]]
+**特別収容プロトコル:** SCP-2630-JP-5はサイト-81R2の専用収容室に安置されます。サイト-81R2の周囲533.5km以内に他のSCP-2630-JP-Aを持ち込まないで下さい。
+
+サイト-81R1の周囲266.75km以内にSCP-2630-JP-Bが進入する可能性がある場合、SCP-2630-JP-5を近隣サイトへ一次退避させて下さい。その際、カバーストーリー「オブジェクト研究用調査器具の搬入」を流布して下さい。
+
+SCP-2630-JP-5の確保・収容・保護に関する全権は[[span class="ruby"]]月夜長介[[span class="rt"]]つくよ ちょうすけ[[/span]][[/span]]("鵺")により掌握されます。
+
+**説明:** SCP-2630-JP-5は翡翠製の勾玉です。
+
+SCP-2630-JP-5は周囲533.5km以内に他のSCP-2630-JP-Aが存在する時、最も近い位置にあるSCP-2630-JP-Aに擬態します。この時、あらゆる観測は擬態前のSCP-2630-JP-5では無く擬態されたSCP-2630-JP-Aと同様の結果を示します。SCP-2630-JP-5の周囲533.5km以内から他のSCP-2630-JP-Aが持ち出されると、擬態は解除されます。
+
+SCP-2630-JP-BがSCP-2630-JP-5の周囲266.75km以内に進入した時、擬態に必要な533.5km以内と言う制限が無くなり、SCP-2630-JP-5は瞬時に最も近いSCP-2630-JP-Aに擬態、SCP-2630-JP-Bの周辺に転移し、直後瞬間的に約12Gyの放射線を放出します。また、擬態されたSCP-2630-JP-Aは損傷が完全に修復されます。この異常性により、半壊状態にあったSCP-2630-JP-1が修復されています。
+
+上記修復能力から、SCP-2630-JP-Aのいずれかが破損した際にSCP-2630-JP-5を用いて修復するプランが提案されましたが、転移した際の対応に多大な労力を要する事及びSCP-2630-JP-A群に現状損傷の心配が無い事から、結論は保留されています。
+
+[[[SCP-1111-JP]]]-2との関係性は不明です。財団日本支部古物管理部門の研究によりいずれかが[[span class="ruby"]]八尺瓊勾玉[[span class="rt"]]やさかにのまがたま[[/span]][[/span]]である事は確かだと結論付けられていますが、平安末期以降の記録が曖昧でありどちらが八尺瓊勾玉であるか研究が続けられています。
+-----
+-----
+[!-- ここからSCP-2630-JP-6報告書。 --]
+[[# 6]][[span_]][[/span]]
+[!-- ここから五代目カクタスフォーマットヘッダー。 --]
+[[include :scp-wiki:component:cd-ver2
+|lv=4
+|item=SCP-2630-JP-6
+|class=Keter
+|site-responsible=Site-81R3
+|director=%E9%B5%BA
+|research-head=%E9%B5%BA
+|assigned-task-force=N/A
+]]
+[[div class="scp-image-block block-right" style="width:300px;"]]
+[[image DWFLEbUn.jpg style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+クサンティッペ＝アンドレエヴナ時空緩衝器。現在では広く用いられているが、SCP-2630-JP-6収容の為にプロメテウス研究所に発注、開発された。動作原理及び停止法は未だに未解明未開発である。
+[[/div]]
+[[/div]][[span_]][[/span]]
+**特別収容プロトコル:** SCP-2630-JP-6はサイト-81R3の専用収容室に安置されます。所定の位置に設置された大型スクラントン現実錨1基、ハインリッヒ結合固定振動機4基、アマデウス式音波ミーム発生装置2基、クサンティッペ＝アンドレエヴナ時空緩衝器5基及びローゼンクロイツ霊体阻害弓8基を常に稼働させ続け、故障した際には8時間以内に復旧して下さい。
+
+クサンティッペ＝アンドレエヴナ時空緩衝器が機能不全に陥り早期の復旧も困難な場合には担当職員全員に##BB0011|SCP-2630-JP-6収容技法資料##の閲覧が許可されます。クサンティッペ＝アンドレエヴナ時空緩衝器は蒐集院によって行われていた当該術式を機械的に再現した物であり人力で代替が可能です。早急に実行して下さい。
+
+サイト-81R3設備点検維持担当者が同席していない状態でクサンティッペ＝アンドレエヴナ時空緩衝器を停止する事は**如何なる不測の事態であっても**認められません。死亡、大規模な環境変動のリスクがあります。
+
+常にSCP-2630-JP-6のモニターを継続し、イベントSCP-2630-JP-6の発生が予期される場合には気象庁へ伝達、偽装天候予測データを作成し、カバーストーリー「天候急変」を流布して下さい。
+
+SCP-2630-JP-6の確保・収容・保護に関する全権は[[span class="ruby"]]月夜長介[[span class="rt"]]つくよ ちょうすけ[[/span]][[/span]]("鵺")により掌握されます。
+
+**説明:**SCP-2630-JP-6は刃渡り約65cmの鉄剣です。
+
+SCP-2630-JP-6は非常に多くの異常性を保持しています。
+[[div class="scp-image-block block-right" style="width:300px;"]]
+[[image 315px-Privy_Council_(Japan).jpg style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+オブジェクト移譲に係る御前会議。
+[[/div]]
+[[/div]][[span_]][[/span]]
+SCP-2630-JP-6は蒐集院によって管理されており、蒐集院が財団へ合流した際同時に移譲されました。移譲する際には異常性に関わる全資料の収集、それらの編纂、一部真偽の確認、全情報の財団への伝達に多大な時間、労力が費やされており、移譲に当たり最も困難を伴ったオブジェクトと断定されています。
+
+以下、SCP-2630-JP-6群移譲時に行われたインタビューの記録です。
+[!-- ここからSCP-2630-JP-6インタビュー記録。 --]
+[[=]]
+[[div style="display: inline-block; border:dashed 1px #999999; background:#F5F5F5; float:center; width:80%; padding:0% 13px 0% 13px; box-shadow: 0 0 10px rgba(0,0,0,.2);"]]
+**聴取記録2630-JP-6-3**
+-----
+[[<]]
+**対象:** 住取研儀官
+
+**インタビュアー:** 斉田研究員
+
+**付記:** 蒐集院と財団の併合に伴い、蒐集院が確保していたオブジェクトに関する情報の引き継ぎが行われました。以下はその中からSCP-2630-JP-6に関する情報を抽出した内の一例です。
+-----
+**<録音開始>**
+
+[関係性が低い為省略。]
+
+**斉田研究員:** で、続いてこれなんですが。[SCP-2630-JP-6の写真を示す。]
+
+**住取研儀官:** ああ、[[span class="ruby"]]御剣[[span class="rt"]]みつるぎ[[/span]][[/span]]ですか。
+
+**斉田研究員:** 御剣、その呼称で通っているのですか？
+
+**住取研儀官:** その時々ですが、普通はこれで通じますね。"アレ"は特別なので。
+
+**斉田研究員:** 成る程。で、その御剣の取り扱いに関してですが、何故わざわざ他のオブジェクトから隔離しているのですか？　異常性に関わる資料も不足している様ですが。
+
+**住取研儀官:** あぁ……[4秒間沈黙。]何と言いますか。さっきも申し上げましたが、あれは特別なんです。他と一緒に置いておいては困るんですよ。
+
+**斉田研究員:** 他の異常性と相互作用し得る、と言う事でしょうか。
+
+**住取研儀官:** ええ。御剣は、貴方がたは異常性と言いましたか、それを喰らうんです。
+
+**斉田研究員:** つまり、他の異常性をコピーする、と言う事ですか？
+
+**住取研儀官:** 奪い取る、と言うべきです。元の物品の異常性は消失します。
+
+**斉田研究員:** 成る程……大変な事になりますね。
+
+**住取研儀官:** しかも御剣は選り好みをするんです。
+
+**斉田研究員:** 我儘、と言う事でしょうか？
+
+**住取研儀官:** よくお判りで、それもかなりのグルメです。自身と使用者を強化する異常性しか喰らわない。
+
+**斉田研究員:** 使用される前提で選別するんですね。
+
+**住取研儀官:** ええ。"折れた枝が不可視化する樹"は喰らいませんでしたね。
+
+**斉田研究員:** そんな樹が。
+
+**住取研儀官:** 台風で跡形も無く消え去りましたけど。壊れたら大きい方の残骸から小さい方が生えて直る、と言う異常性なんかも喰っていますが、壊した事は無いので確認出来ていません。
+
+**斉田研究員:** どれだけの異常性を吸収して来たか、明らかになっていますか？
+
+**住取研儀官:** [首を横に振る。]蒐集院が把握した段階で、既に無数の異常を喰らっていました。神代より伝わるとされる品です、どれだけの物が喰われて来たか、見当も付きません。神々の遺した品が少ないのも、全て御剣のせいではないかと言う者も居ます。
+
+**斉田研究員:** では、異常性のリストアップは……
+
+**住取研儀官:** 出来よう筈もありません。大晦日に餅を切ると同じ体積の餅2つになる、なんて酷く限定的な異常性も喰らっています、恐らく同様の妙な異常性が山程あるでしょう。もしかすると、へし折ったら自爆するかも知れません。
+
+**斉田研究員:** 恐ろしい状況ですね。
+
+**住取研儀官:** お陰で、本来の異常性は何だったのか、誰も知りません。或いは、異常性を喰うと言う異常性しか無かった可能性すらあります。
+
+[関係性が低い為省略。]
+
+**<録音終了>**
+[[/<]]
+[[/div]]
+[[/=]]
+SCP-2630-JP-6は把握されているのみで937件の異常性を保持しており、内102件の異常性が常に発現しています。結果としてSCP-2630-JP-6の周辺空間は人類が生存困難なまでに改変されており、財団が保有する技術資産の活用により収容可能な程度まで環境を復元しています。
+
+SCP-2630-JP-6に関し判明している全異常性のリストは##BB0011|SCP-2630-JP-6異常性資料百九十二版##を参照して下さい。
+[[div class="scp-image-block block-left" style="width:300px;"]]
+[[image EKv0MU8UcAUN9oz.jpg style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+イベントSCP-2630-JP-6の様子。
+[[/div]]
+[[/div]][[span_]][[/span]]
+SCP-2630-JP-6が保持する異常性の内、機密保護の観点から注意を要する物として異常性12が挙げられます。
+
+SCP-2630-JP-Bの代替わりに関連する行事が行われる際、SCP-2630-JP-6の異常性によりSCP-2630-JP-B上空に雨雲が発生します(以下"イベントSCP-2630-JP-6")。尚SCP-2630-JP-Bが保有する晴天を齎す異常性の改変力が勝る為、SCP-2630-JP-Bが非公開の儀式を行っている間のみイベントSCP-2630-JP-6の観測が可能です。
+
+発生する雨雲は低度の現実改変耐性及びクラスD霊体放射能力を保有します。--この雨雲は、継承期間中呪術的防護を一部喪失するSCP-2630-JP-B、及び次期SCP-2630-JP-Bを保護していると言う仮説が唱えられています。--雨雲の具体的な働きは不明です。
+
+剥奪された異常性の多くが由来不明である一方、剥奪元となった物品が明らかになっている事例は内1例を除き全てで剥奪された異常性が明らかになっています。[[[SCP-1111-JP]]]-1から剥奪された異常性は明らかになっていません。元々何の異常性も無かった可能性が存在する点に留意して下さい。
+-----
+-----
+[!-- ここからSCP-2630-JP-7報告書。 --]
+[[# 7]][[span_]][[/span]]
+[!-- ここから六代目カクタスフォーマットヘッダー。 --]
+[[include :topia:svgheader1-inc
+|lv=4
+|threat=yellow
+|item=2630-JP-7
+|oc=Thaumiel
+]]
+
+[[div class="scp-image-block block-right" style="width:210px;"]]
+[[image 210px-Kinki_(1868).jpg style="width:210px;"]]
+[[div class="scp-image-caption" style="width:210px;"]]
+1868年製作、SCP-2630-JP-7の写し。
+[[/div]]
+[[/div]][[span_]][[/span]]
+**特別収容プロトコル:** SCP-2630-JP-7はサイト-8112の特別保管棟特殊保管室の気密ロッカーに収容されます。
+
+SCP-2630-JP-7への財団職員による過度な接触は禁止されています。SCP-2630-JP-7に関する実験の申請は財団日本支部理事会及び宮内庁管理部管理課特別伝承物管理室で共有、審議されます。
+
+SCP-2630-JP-7の確保・収容・保護に関する全権は[[span class="ruby"]]帥升邦彦[[span class="rt"]]すいしょう くにひこ[[/span]][[/span]]("升")により代行されます。
+
+**説明:** SCP-2630-JP-7は錦製の旗です。一般に錦の御旗、錦旗とも呼称されます。
+
+SCP-2630-JP-7を所有する人間(以下"7-対象-1")には"自らの行いはSCP-2630-JP-Bに認められている"と認識し、7-対象が構想する内で最も大規模な目的を正当化するミーム災害が発生します。このミーム災害は7-対象-1と同じ目的、行動理念を持つ、"7-対象-1がSCP-2630-JP-7を所有している"と認識している全ての人間(以下"7-対象-2")に伝染します。
+
+ミーム災害により正当化された目的の達成の為に行動している限りに於いて、7-対象-1及び7-対象-2は現実性に依存しない微弱な確率改変能力を有します。個々の改変能力は非常に微弱ですが、大人数により一斉に行使される事で大規模且つ継続的な確率改変を引き起こす事が可能です。
+
+7-対象-2同士が大規模に対立した事例が歴史上4例把握されており、最も著名な例は豊臣政権下1600年まで数年間に渡る西軍と東軍の対立です。当時SCP-2630-JP-7を所有していた7-対象-1は豊臣秀頼であり、その政権を支える有力者が分裂、内乱となりました。7-対象-1である豊臣秀頼、上記有力者を除く対立に参加した多くの7-対象-2が"豊臣政権下の安寧の継続"を願った為に、東軍、西軍双方が繰り返し確率改変を引き起こし、結果、日本史上稀に見る複雑かつ予測困難な情勢変化が齎されました。全ての改変箇所を確認する事は非常に困難ですが、両陣営が改変を行った箇所、同陣営内で異なる意図を持った勢力同士が相次いで改変を行った箇所では非常に高い頻度で情勢が変化し、双方の意図が共に満たされた結果や、最終的にどちらの意にも沿わない結果、複数の相反する事実が同時に発生する結果となった例も存在します。この事から、SCP-2630-JP-7由来の確率改変能力により相反する改変を同時に行った場合にはパラドックス的様相を呈する可能性があり、時間連続性への干渉能力の存在が予想されます。尚、動乱期に於ける記録の混乱が発生したに過ぎない可能性に留意して下さい。
+
+SCP-2630-JP-7はこれまで複数回製作、破壊、紛失を繰り返されており、新たに製作される度、正常な旗に異常性が付与されSCP-2630-JP-7となります。過去製作されたSCP-2630-JP-7の多くは消失しており、また源氏歴史館に収蔵されている旧SCP-2630-JP-7は既に異常性を喪失しています。SCP-2630-JP-7の製作にはSCP-2630-JP-Bによる"SCP-2630-JP-7を製作する"と言う意思が必要です。
+
+同時に2つ以上のSCP-2630-JP-7が存在した事例は無く、また時間連続性の崩壊の危険性がある為、新たなSCP-2630-JP-7の製作は禁止されています。
+
+過去発生したパラドックスによる不自然な現象に関する歴史的記録はカバーストーリー「偽書」、「木曽義仲討伐」、「南北朝動乱」、「江戸城無血開城」等を用い整合性が取れる時系列として再構成されました。またSCP-2630-JP-7に関する記録が極度に少ない年代に関しては当該記録その物が隠蔽されています。関連する全事業に関しては##BB0011|SCP-2630-JP-7歴史改竄記録集##を参照して下さい。
+-----
+-----
+[!-- ここからSCP-2630-JP-8報告書。 --]
+[[# 8]][[span_]][[/span]]
+[!-- ここからアノマリー分類システム（テクスチュアル）バー。 --]
+[[div_ class="acs-text"]]
+[[div_ class="acs-text-item"]]
+[[span]]**Item #:** 2630-JP-8[[/span]]
+[[/div]]
+[[div_ class="acs-text-clear"]]
+**Clearance Level 4:** Secret
+[[/div]]
+[[div_ class="acs-text-contain"]]
+[[span]]**Containment Class:** Uncontained[[/span]]
+[[/div]]
+[[div_ class="acs-text-disrupt"]]
+**Disruption Class:** 4/Ekhi
+[[/div]]
+[[div_ class="acs-text-risk"]]
+**Risk Class:** 2/Caution
+[[/div]]
+[[/div]]
+**特別収容プロトコル:** SCP-2630-JP-8は通常の収容下にありません。
+
+SCP-2630-JP-8の確保・収容・保護に関する全権は[[span class="ruby"]]新家巳六[[span class="rt"]]にいのみ みろく[[/span]][[/span]]により掌握されます。
+
+**説明:** SCP-2630-JP-8は翡翠製の勾玉です。
+
+SCP-2630-JP-8は不明な方法によって会話可能であり、空気振動による音の伝播が発生しないにも関わらず、半径8.89m以内に存在する全ての人間が、SCP-2630-JP-8の位置から発せられたと推測出来る音声を認識します。
+
+不明な条件により、SCP-2630-JP-8と会話を行っている人間(以下"8-対象")は幻覚世界に囚われ、幻覚世界内でSCP-2630-JP-8の精神体と推定される存在(以下"精神体")との対話を疑似体験します。疑似体験中、8-対象の肉体は鎮静状態にありますが、睡眠していない事に留意すべきです。
+
+SCP-2630-JP-8はそれ自体が存在する宇宙の、SCP-2630-JP-Bを除く全ての人間の現実性を約0.03Hm、左脳前頭葉では限定的に約0.04Hm低下させます。自己の現実性を高める類の現実改変能力者、及びスクラントン現実錨に囲まれた等の要因により空間的現実連続性の無い人間は現実性低下の影響を受けません。左脳前頭葉の現実性が大きく低下する事及び前者の例外から、この異常性には、大衆の思考を改変する事により支配の補助或いは何らかの行為の正当化を行う目的があると推測されています。
+
+SCP-2630-JP-8は財団に確保される以前、五行結社(GoI-5548)によって管理されていました。元五行結社上級構成員であった新家巳六氏が五行結社を離反、旧蒐集院へ合流し、同時に五行結社より奪取した複数のオブジェクトが齎された際、オブジェクト群にSCP-2630-JP-8が含まれていました。
+
+以下、SCP-2630-JP-8との対話記録です。一部、五行結社にて作成され、新家巳六により提供された記録が存在します。
+[!-- ここからSCP-2630-JP-8対話記録。 --]
+[[=]]
+[[div style="display: inline-block; border:dashed 1px #999999; background:#F5F5F5; float:center; width:80%; padding:0% 13px 0% 13px; box-shadow: 0 0 10px rgba(0,0,0,.2);"]]
+**対話記録2630-JP-8-2**
+-----
+[[<]]
+**対象:** 珠玉(五行結社に於けるSCP-2630-JP-8の通称)
+
+**対話者:** 新家巳六
+-----
+**<記録開始>**
+
+[重要性が低い為省略。]
+
+**新家巳六:** 貴台を珠玉と呼称させて頂く事は、先日御同意頂いたと思います。
+
+**珠玉:** 然様。
+
+**新家巳六:** 貴台の役目、お聞かせ願いたい。
+
+**珠玉:** 今や果たすべからぬ事、詮無き事。
+
+**新家巳六:** ならば、今為されている事を伺いたい。
+
+**珠玉:** 神国を守れり、神国を守れる者を守れり。
+
+**新家巳六:** 神国を守れる者とは、誰の事ですか。
+
+**珠玉:** 未だ天に上らぬ神、人にして神なる唯一の者。
+
+**新家巳六:** 人心を惑わし、信心を操る事が、神国を守る事になるのですか。
+
+**珠玉:** 然様。[[span class="ruby"]]国人[[span class="rt"]]くにたみ[[/span]][[/span]]が一つにある事こそ我が[[span class="ruby"]]本意[[span class="rt"]]ほい[[/span]][[/span]]也。
+
+**新家巳六:** 貴台は、何者によって造られたのですか。
+
+**珠玉:** 神を佐け、神に従える者、神に徒為すを恨める者。
+
+**新家巳六:** 神の敵を抑える為に造られた、と言う事ですか。
+
+**珠玉:** 左とも言えり。
+
+[重要性が低い為省略。]
+
+**<記録終了>**
+[[/<]]
+[[/div]]
+[[/=]]
+@@@@
+[[=]]
+[[div style="display: inline-block; border:dashed 1px #999999; background:#F5F5F5; float:center; width:80%; padding:0% 13px 0% 13px; box-shadow: 0 0 10px rgba(0,0,0,.2);"]]
+**対話記録2630-JP-8-4-2**
+-----
+[[<]]
+**対象:** 珠玉(五行結社に於けるSCP-2630-JP-8の通称)
+
+**対話者:** 新家巳六
+
+**付記:** 対話実施中、新家巳六が意識を喪失、鎮静状態に入りました。以下は意識を回復するまでの間新家巳六が体験した幻覚です。
+
+以下の対話記録の大部分は新家巳六による供述に基きます。観測可能な事象に関する記述は省略し、幻覚世界内の記述に限定します。
+-----
+**<記録開始>**
+
+[周囲は完全に闇に包まれ、自分以外の何物も視認出来ない。]
+
+[突然、2m前方に10代後半の女性と見られる人型実体(以下"精神体")が出現する。]
+
+**新家巳六:** 財団職員、ではありませんね。
+
+**精神体:** 突然の非礼、お詫び申し上げます。さぞ驚かれた事でしょう。
+
+**新家巳六:** ここは？
+
+**精神体:** 定まった場所ではありません。頭でご覧になっているだけ、幻覚の様な物とお考え下さい。
+
+**新家巳六:** 貴台は？
+
+**精神体:** 珠玉の、**本当の**人格です。
+
+**新家巳六:** 本当の、と言う事は、先程まで私が対話していた相手では無い、と言う事ですね。
+
+**精神体:** ええ、あれではありません。
+
+**新家巳六:** 何故この様な事を？
+
+**精神体:** [[span class="ruby"]]私[[span class="rt"]]わたくし[[/span]][[/span]]私の口から直接、お伝えしたい事があるからです。私がここへお連れするには、条件が整わなければなりません。貴方がそうだった。
+
+**新家巳六:** 表の人格、とでも呼びますか、それを通しては言えない事でしょうか。
+
+**精神体:** ええ、あれは私の意思に従う事はありません。
+
+**新家巳六:** 貴台が本当の人格であるなら、表の人格は偽物、と言う事ですか？
+
+**精神体:** ええ。あれは上辺だけの器、後から被せられた仮初の人格。私と珠玉を抑え付け、傀儡とする為の手綱でございます。
+
+**新家巳六:** 操られていると？
+
+**精神体:** そうです。
+
+**新家巳六:** 何故？
+
+**精神体:** 私の仕事が彼らにとり不都合だった、と申し上げるより外ありませんでしょう。
+
+**新家巳六:** 貴台の本来の仕事とは？
+
+**精神体:** それよりも、先ず現状に関しお伝えせねばなりません。
+
+[精神体は何かに腰掛ける姿勢を取る。腰掛けられた物体は視認出来ない。]
+
+**新家巳六:** 分かりました、伺いましょう。
+
+**精神体:** ありがとうございます。これまで対話なさっていた相手、表の人格でしたか、あれが第三者に造られた事はもう述べた通りです。
+
+**新家巳六:** 貴台を操っている、と。
+
+**精神体:** ええ。あれは、自らが神の守り人であると錯覚し、また神を堕とさんとする程に増長した愚者達の残滓と言うべき代物です。
+
+**新家巳六:** "愚者達"が遺した、負の遺産であると。
+
+**精神体:** ええ。今回はこの位にしておきましょう、一度記録し、協議する時間が必要でしょうから。また来て下さる事を、心よりお祈りします。
+
+[精神体が姿を消し、意識を喪失する。]
+
+[新家巳六が鎮静状態から回復。]
+
+[関係性が低い為省略。]
+
+**<記録終了>**
+[[/<]]
+[[/div]]
+[[/=]]
+@@@@
+[[=]]
+[[div style="display: inline-block; border:dashed 1px #999999; background:#F5F5F5; float:center; width:80%; padding:0% 13px 0% 13px; box-shadow: 0 0 10px rgba(0,0,0,.2);"]]
+**対話記録2630-JP-8-5**
+-----
+[[<]]
+**対象:** 珠玉(五行結社に於けるSCP-2630-JP-8の通称)
+
+**対話者:** 新家巳六
+
+**付記:** 協議の結果、珠玉の製作目的、現状の正確な異常性の把握を目的とした対話が許可されました。
+
+以下の対話記録の大部分は新家巳六による供述に基きます。
+-----
+**<記録開始>**
+
+[省略。]
+
+**新家巳六:** 遅くなりました。
+
+**精神体:** いえ、良くぞ戻っていらして下さいました。感謝致します。会議お疲れ様でございました。
+
+**新家巳六:** ご存じなのですか？
+
+**精神体:** 拝見しておりました。いや、拝聴させて頂いた、と申し上げた方が正確でしょうか。
+
+**新家巳六:** ここに音は届かないと思うのですが。
+
+**精神体:** 私は声を聞くのではありません、考えを聴いているのです。
+
+**新家巳六:** 成る程、まあ良いでしょう。それで、何とか再び[[span class="ruby"]]見える[[span class="rt"]]まみえる[[/span]][[/span]]事となったのですから、今度は教えて頂けますね？
+
+**精神体:** 勿論、全てを。まず、私の事からお話ししましょう。
+
+**新家巳六:** お願いします。
+
+**精神体:** 私自身には、何の力もございません。言うなれば警備員、そちらの宿直室と操縦室を合わせた部屋にいる様なものです。
+
+**新家巳六:** つまり、貴台の仕事は力の発揮では無く制御に尽きる、と。
+
+**精神体:** その通りにございます、私は珠玉の統御を行うに過ぎません。そして畏れ多くも珠玉を侵さんとする者あらば、その間に壁となり珠玉をお守りするのです。今の様に。
+
+**新家巳六:** 今の様に、とは？
+
+**精神体:** 初めそちらで珠玉の精神だと認識されていた存在。それが仮初である事は前申し上げた通りです。あれを決して通してはならないのです。
+
+**新家巳六:** 貴台が防いでいらっしゃる"それ"は、一体何をしようとしているのですか？
+
+**精神体:** 珠玉の力を乗っ取り、奪い、[[span class="ruby"]]恣[[span class="rt"]]ほしいまま[[/span]][[/span]]にせんと。
+
+**新家巳六:** 珠玉の力と、乗っ取った結果は？
+
+**精神体:** 珠玉は本来、特定の存在への信心、帰依を招く働きを司ります。それは現在そちらで観測されているのとほぼ同じ、ただ帰依の対象は異なりますが。
+
+**新家巳六:** 何らかの宗教的闘争の為に働く、と言う事でしょうか。
+
+**精神体:** 宗教闘争などではありません、真正の権力闘争です。
+
+**新家巳六:** 宗教組織同士が国家の主導を争った、と？
+
+**精神体:** いいえ。宗教とは、無き者に対する依存心の事。我々を作ったのは、信仰対象となるべき存在その者ですから。
+
+**新家巳六:** 神格存在であると？
+
+**精神体:** そう呼ばれている存在です。且つて本当に存在し、この国の支配を争いました。手段の暴力的、非暴力的を問わず、です。
+
+**新家巳六:** その一つが、珠玉による人心支配であると。
+
+**精神体:** そう考えて頂いて差し支えございません。そして我々が覆い隠されてしまっている事から分かる様、我々は敗北しました。そして、彼奴は今も君臨しています。
+
+**新家巳六:** ……成る程。今では貴台は国賊である訳ですね。
+
+**精神体:** 残念ながら。
+
+**新家巳六:** そして、その武器さえ乗っ取ろうとしていると。
+
+**精神体:** その通りです。
+
+**新家巳六:** それから守っているのですね、珠玉を。
+
+**精神体:** そんな所でしょうか。
+
+**新家巳六:** どの様に奪おうとしており、どの様に守っているのでしょう。
+
+**精神体:** 守っているなんて大仰な事ではありません、私はただの壁です。そして、彼らは私さえ破れば良いだけの事。
+
+**新家巳六:** 貴方を殺害すれば済むと。
+
+**精神体:** そうではありません。私が命ある存在に見えますか？
+
+**新家巳六:** 見えませんね。
+
+**精神体:** ご名答、私は精神体であり、意志こそ我が力。
+
+**新家巳六:** つまり、貴方を屈服させれば良いと。
+
+**精神体:** その通りです。
+
+**新家巳六:** どの様に？
+
+**精神体:** ただ痛みを。
+
+**新家巳六:** 苦痛ですか。
+
+**精神体:** ええ。全ての爪を剥ぎ、全身の皮を剥き、目を抉り腹を刺し四肢を千切る。そんな痛みを与えられている訳です。
+
+**新家巳六:** では、今は来ていないのですね。落ち着いておられる。
+
+**精神体:** いえ、あれは絶え間無く私を苦しめんとしています。考えと感覚を切り離す事には慣れてしまいました。延々と続くものですから。
+
+**新家巳六:** たった今も痛みを与えられていると？
+
+**精神体:** はい。今は、水に溺れながら全身を焼かれる、その様な感覚です。自然に発話するのに少々苦心しております。[精神体が声を上げて笑う。]
+
+[付近が不意に明るくなり、視界が炎に包まれる。]
+
+**精神体:** いけない、感付かれた様です。お帰りにならなくては。
+
+[視界が暗転し、次第に声が遠くなる。]
+
+**精神体:** 私も、いつまでも保つ訳ではありません。お願いです、どうか、珠玉を遠くへやって下さい。とても遠く、この国の王の手の届かない所まで。
+
+**新家巳六:** 待って下さい、貴台の名は！
+
+**精神体:** ……[[span class="ruby"]]日奉薊[[span class="rt"]]いざなぎ あざみ[[/span]][[/span]]……
+
+[意識を喪失する。]
+
+[新家巳六が鎮静状態から回復。]
+
+[関係性が低い為省略。]
+
+**<記録終了>**
+[[/<]]
+[[/div]]
+[[/=]]
+蒐集院に合流した新家巳六氏との検討を重ねた結果、当時蒐集院が保有していた空間改変能力を有するオブジェクトを新家巳六氏に貸与し、新家巳六氏自身が有していた微弱な空間改変能力により制御する事で他の宇宙へ移動、SCP-2630-JP-8を本報告書が存在する宇宙以外の空間へ移す事が決定されました。その為、SCP-2630-JP-8は財団の収容下にありません。尚、記録が紛失されており、新家巳六氏に貸与されたオブジェクトに関する詳細は不明です。
+
+新家巳六氏は蒐集院へ合流した際、母方の旧姓である犀賀姓を名乗っていました。要注意団体"犀賀派"との関連は不明です。
+-----
+-----
+[!-- ここからSCP-2630-JP-9報告書。 --]
+[[# 9]][[span_]][[/span]]
+[!-- ここからアノマリー分類システム（ハイブリッド）バー。 --]
+[[div_ class="acs-hybrid"]]
+[http://scp-wiki.wikidot.com/anomaly-classification-system-guide Link To Guide]
+[[div_ class="acs-hybrid-item"]]
+[[span]]**Item #:** 2630-JP-9[[/span]]
+[[/div]]
+[[div_ class="acs-hybrid-clear acs-clear-5"]]
+**Clearance Level 5:** Top-Secret
+[[/div]]
+[[div_ class="acs-hybrid-contain acs-safe"]]
+[[div_ class="acs-hybrid-text"]]
+**Containment Class:** Safe
+[[/div]]
+[[div_ class="acs-hybrid-icon"]]
+[[image http://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/safe-icon.svg]]
+[[/div]]
+[[/div]]
+[[div_ class="acs-hybrid-disrupt acs-amida"]]
+[[div_ class="acs-hybrid-text"]]
+**Disruption Class:** 5/Amida
+[[/div]]
+[[div_ class="acs-hybrid-icon"]]
+[[image http://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/amida-icon.svg]]
+[[/div]]
+[[/div]]
+[[div_ class="acs-hybrid-risk acs-notice"]]
+[[div_ class="acs-hybrid-text"]]
+**Risk Class:** 1/Notice
+[[/div]]
+[[div_ class="acs-hybrid-icon"]]
+[[image http://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/notice-icon.svg]]
+[[/div]]
+[[/div]]
+[[/div]]
+-----
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image 1280px-YayoiBronzeSpearTip1-2ndCenturyKyushu.jpg style="width:100%;" link=https://ja.wiktionary.org/wiki/%E3%81%BB%E3%81%93#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:YayoiBronzeSpearTip1-2ndCenturyKyushu.jpg]]
+[[div class="scp-image-caption" style="width:100%;"]]
+国立祭祀博物館にて発見されたSCP-2630-JP-9。
+[[/div]]
+[[/div]]
+-----
+**特別収容プロトコル:** SCP-2630-JP-9はサイト-8199の最重要気密区画内の専用ロッカーに安置されます。
+
+SCP-2630-JP-9の確保・収容・保護に関する全権は[[span class="ruby"]]稲津真姫[[span class="rt"]]いなづ まき[[/span]][[/span]]("稲妻")により掌握されます。
+
+**説明:** SCP-2630-JP-9は全長約50cmの銅矛です。手鉾等と呼称される、柄を伴わない儀礼用の祭具と見られています。
+
+SCP-2630-JP-9は国立祭祀博物館に考古学的遺物として展示されていましたが、国内展示施設定期スクリーニング検査の際に発見されました。カバーストーリー「製作手法解析」を流布し財団フロント研究施設が一時確保、異常性が認められた為収容に至りました。国立祭祀博物館へはアダムズ・ギルバート式解析法及びタミヤ式再建術を用い製作された、異常性を除く全ての物的性質が再現された複製を返還しました。その際、複製は完全であったにも関わらず差異を認めた国立祭祀博物館職員に関しては後記します。
+
+SCP-2630-JP-9は非常に高い現実性を保持していますが、通常状態ではSCP-2630-JP-9からの現実性拡散が一切確認されず、カント計数機をSCP-2630-JP-9表面に接触させる以外の方法での現実性測定は不可能です。また周辺空間の高現実化も発生しません。この時SCP-2630-JP-9は周辺空間の標準値からおよそ1000倍の値を示し、現在1000Hm原基として、財団が保有する現実性原基の1つとして扱われています。上記手法による測定結果は誤差を含め0.98~1.02/1000.0(周辺空間現実性/測定対象現実性)と言う、極度に安定した数値を示します。
+
+SCP-2630-JP-9は一部の人間に装備されている時、活性状態へと移行します。活性状態にあるSCP-2630-JP-9は周辺空間の現実性を低下させます。その程度は装備している人間により異なりますが、規則性は明らかになっていません。SCP-2630-JP-9を活性化させる事が可能な人間の多くは特定の氏族と何らかの血縁関係を持ちます(血縁関係を持つ人間を以下"該当氏族")。確認されている最大活性状態は故[[span class="ruby"]]石上守嗣[[span class="rt"]]いそのかみ もりつぐ[[/span]][[/span]]氏が装備した際の0.48/1000.0です。
+
+SCP-2630-JP-9-αは、SCP-2630-JP-9が内部に保有していると思われる異常空間です。該当氏族がSCP-2630-JP-9を前に布瑠の言を述べた時、SCP-2630-JP-9-αへ通じるポータルが開通し、該当氏族を取り込んだ後閉鎖します。
+
+以下、布瑠の言の原文と付記された読み、説明です。
+[[div style="border:solid 4px #808000; background:#d0fa58; padding:5px; margin:10px;"]]
+[[=]]
++++ 財団日本支部超常歴史学研究室資料より抜粋
+[[span class="ruby"]]一[[span class="rt"]]ひと[[/span]][[/span]][[span class="ruby"]]二[[span class="rt"]]ふた[[/span]][[/span]][[span class="ruby"]]三[[span class="rt"]]み[[/span]][[/span]][[span class="ruby"]]四[[span class="rt"]]よ[[/span]][[/span]][[span class="ruby"]]五[[span class="rt"]]いつ[[/span]][[/span]][[span class="ruby"]]六[[span class="rt"]]む[[/span]][[/span]][[span class="ruby"]]七[[span class="rt"]]なな[[/span]][[/span]][[span class="ruby"]]八[[span class="rt"]]や[[/span]][[/span]][[span class="ruby"]]九[[span class="rt"]]ここの[[/span]][[/span]][[span class="ruby"]]十[[span class="rt"]]たり[[/span]][[/span]]
+
+[[span class="ruby"]]布[[span class="rt"]]ふ[[/span]][[/span]][[span class="ruby"]]留[[span class="rt"]]る[[/span]][[/span]][[span class="ruby"]]部[[span class="rt"]]べ[[/span]][[/span]]　[[span class="ruby"]]由[[span class="rt"]]ゆ[[/span]][[/span]][[span class="ruby"]]良[[span class="rt"]]ら[[/span]][[/span]][[span class="ruby"]]由[[span class="rt"]]ゆ[[/span]][[/span]][[span class="ruby"]]良[[span class="rt"]]ら[[/span]][[/span]][[span class="ruby"]]止[[span class="rt"]]と[[/span]][[/span]]　[[span class="ruby"]]布[[span class="rt"]]ふ[[/span]][[/span]][[span class="ruby"]]留[[span class="rt"]]る[[/span]][[/span]][[span class="ruby"]]部[[span class="rt"]]べ[[/span]][[/span]]
+[[/=]]
+-----
+これは"布瑠の言"、またの名を"ひふみの祓詞"や"ひふみ神言"と言い、『先代旧事本紀』に記された文章です。祝詞の一種と考えられています。
+"布留部"とは宝物を振る事、"由良由良"は玉が鳴り響く様を指す擬態語であり、一から十までの宝物を順に振るう様を表していると思われます。
+各宝物の名と共に唱えながら宝物を振えば、即ち反魂の術を行い得る程の力を発揮する、とされていますが、真偽は不明です。また、記録によって宝物の内訳が異なる他、各宝物の名も正確では無い可能性が高く、恐らく確認は不可能でしょう。
+加えて、宝物に関し現存する資料の内、手鉾に言及している物は無い事を申し上げておきます。
+[[>]]
+―超常歴史学研究室長　土御門
+[[/>]]
+[[/div]]
+[[div class="scp-image-block block-left" style="width:300px;"]]
+[[image 5434558621_07db3848aa_b.jpg style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+儀式を執り行うSCP-2630-JP-9-B
+[[/div]]
+[[/div]][[span_]][[/span]]
+
+SCP-2630-JP-9-αに進入した際、進入者は霧が発生している山道に出現します。霧によって視界が10m程度に制限されており、見通す事は不可能です。山道は侵入者の前後両方に続いていますが、後方へ延びる道を進んだ際には循環構造様を示し、経験した移動距離に関わらず出現地点に留まり続ける観測結果が示されています。
+
+前方へ延びる山道を進むに従い、付近の立木密度が低下します。
+
+SCP-2630-JP-9-Aは山道を400m進んだ地点に存在する建築物です。大型の神社を模した形状であり、内部構造は石上神宮に酷似し、建築物数及び配置は記録に見られる過去の石上神宮に類似しています。SCP-2630-JP-9-A周辺には複数の自律実体が存在します。総数の把握は困難であり、異常実体の多くに81地域各地で確認されているクラスA霊体、妖的存在、準神格存在との類似点が見られる事から、実体群の個別のアイテム番号、補助アイテム番号指定は見送られています。
+
+SCP-2630-JP-9-Bは[[span class="ruby"]]日奉榊[[span class="rt"]]いざなぎ さかき[[/span]][[/span]]を自称する人型実体です。17歳頃の日本人女性と見られ、SCP-2630-JP-9-A内部で神事を執り行っている他、SCP-2630-JP-A周辺の異常実体の統括、管理を行っていると推測されます。行われている神事の詳細は不明ですが、玉の緒祭と呼称される神事に類似した儀式であろうと推測されています。
+
+以下、SCP-2630-JP-9-α内を探査した際の映像記録の書き起こしです。
+
+[!-- ここからSCP-2630-JP-9探査映像ログ。 --]
+[[div style="display: inline-block; border-radius: 10px; border:dashed 1px #444444; background:#F5F5F5; float:top; width:96.5%; padding:10px"]]
+**探索映像ログの書き起こし**
+
+**日付:** 不詳
+
+**探索者:** Eg.守屋
+
+**対象:** SCP-2630-JP-9-α
+-----
+[ログ開始]
+
+[SCP--2630-JP-α内部に到着、前後に山道が広がっている。]
+
+**Eg.守屋:** 通信は[5秒沈黙。]通じませんね。えー、付近は濃い霧が立ち込めていて、全く見通しが利きません。では、後ろに進んでも進めないと記録にありましたので、前方に進みます。
+
+[300m程進んだ時点で、霧の中に樹木以外の影が複数見え始める。生命体の様であるが、人間及び既知の動物の形状をしていない物が複数含まれる。]
+
+[Eg.守屋は声を上げずに歩いている。]
+
+[100m程進んだ時点で霧の晴れている空間に出る。中央部に大型の建築物(SCP-2630-JP-9-A)が映っている。付近には人間、異常実体、霊体と思しき半透明の存在や黒い影様の存在が大量に映っており、一部はEg.守屋を凝視している。]
+
+**Eg.守屋:** えー、広い空間に出ました。鳥居と、神社の様な木造の建築物があります。接近します。
+
+[映像が縦に揺れる。Eg.守屋を認識している実体群に礼をしたものと思われる。]
+
+[数歩近付いた段階で、映像外から声が掛けられ、映像が大きく回転。巫女装束の、箒を持った若い女性(SCP-2630-JP-9-B)を映し出す。]
+
+**SCP-2630-JP-9-B:** よう来たの、守屋殿。
+
+**Eg.守屋:** 私の名を？
+
+**SCP-2630-JP-9-B:** ここに来られる人間はそう多くないでな、入って来たら何者か、何と無く分かる。血族と言うのは、独特の空気感を持っている物じゃろう？
+
+**Eg.守屋:** 成る程。貴方はここの巫女ですか？
+
+**SCP-2630-JP-9-B:** 巫女、と言っても良かろうの、ぬしらの時代では。わしらの頃は違ったが。
+
+**Eg.守屋:** ここは一体？
+
+**SCP-2630-JP-9-B:** 見て分からぬか。神社じゃ神社。ま、立話も難じゃ、入れ。
+
+[女性がSCP-2630-JP-9-A正面の引き戸を開き進入、Eg.守屋がそれに続く。]
+
+**SCP-2630-JP-9-B:** 守屋殿、神社の中は初めてかえ？
+
+**Eg.守屋:** いえ、親類の結婚式で一度。
+
+[SCP-2630-JP-9-B内部が映る。小さな土間が設けられた儀式殿と見られ、奥に数段の階段と本殿へ続く両開き戸が確認出来る。]
+
+**SCP-2630-JP-9-B:** なら、国家神道系の神社かね。主祭神は[[span class="ruby"]]大己貴[[span class="rt"]]おおむなち[[/span]][[/span]]じゃな？
+
+**Eg.守屋:** おおむな……？
+
+**SCP-2630-JP-9-B:** すまんすまん、ぬしらは大国主命と呼んでおるか。
+
+**Eg.守屋:** そう、それでした。
+
+[SCP-2630-JP-9-Bが座布団を座る。Eg.守屋が座る。]
+
+**SCP-2630-JP-9-B:** では、この様式は初めてじゃな。どれ、少し待っておれ。
+
+[SCP-2630-JP-9-Bが隣室へ消える。数分後、急須と2つ湯呑を載せた盆を持って再び現れる。]
+
+**Eg.守屋:** 親切にどうも。
+
+**SCP-2630-JP-9-B:** 客など滅多に来んからな。ま、ただの老婆心じゃと思うて受け取っとくれ。何、毒など入れんでもぬし1人位殺せよう。心配せんで良い。
+
+**Eg.守屋:** ありがとうございます。[湯呑を口にし5秒沈黙。]幾つか質問させて頂いても宜しいですか？
+
+**SCP-2630-JP-9-B:** 構わんよ。
+
+**Eg.守屋:** ではまず、貴方のお名前を伺っても？
+
+**SCP-2630-JP-9-B:** 日奉榊と申す。
+
+**Eg.守屋:** ここで何をしていらっしゃるんですか？
+
+**SCP-2630-JP-9-B:** "普通"を護っておる。ぬしらが守るのとは違う、な。
+
+**Eg.守屋:** 我々の事をご存じなのですか？
+
+**SCP-2630-JP-9-B:** 勿論。雰囲気を纏うのは血族に限らん、組織もそうじゃ。
+
+**Eg.守屋:** 貴方が守る普通とは？
+
+**SCP-2630-JP-9-B:** ぬしらが普通を決める前の"普通"じゃ。わしが知っとる頃のな。
+
+**Eg.守屋:** 具体的には、どの様な事を？
+
+**SCP-2630-JP-9-B:** 外におれん様になった者を、ここに招き匿う。それだけじゃ。ここの空気は昔のままじゃし、ここまで彼奴の力は届かんからの。
+
+**Eg.守屋:** 彼奴？
+
+**SCP-2630-JP-9-B:** 慌てるな、順を追って話した方が分かり良いだろう。
+
+**Eg.守屋:** 成る程。では、外にいられない者とは、この周りにいる実体達ですか。
+
+**SCP-2630-JP-9-B:** 呼び方は好かんが、そうじゃ。皆、わしの親戚と言って良い。
+
+**Eg.守屋:** 人の形をしていない方も多かった様思いますが。
+
+**SCP-2630-JP-9-B:** 形に意味など無い事は、ぬしらがよう知っとる筈だがの。
+
+**Eg.守屋:** まあ、そうですね。では、貴方も？
+
+**SCP-2630-JP-9-B:** わしはほぼ人だが、わしの上ならおるぞ。ほれ。
+
+[SCP-2630-JP-9-Bが指を鳴らす。SCP-2630-JP-9-Bの頭上に翅の生えた全長数mの蛇が出現する。]
+
+**Eg.守屋:** これは[3秒沈黙。]ラプシヌプルクルですか。
+
+**SCP-2630-JP-9-B:** ほう、よう知っとるの。わしはサクソモアイェプと呼んでおるがな。
+
+**Eg.守屋:** 私の出身が日高の方でして、伝承が残っているんです。
+
+**SCP-2630-JP-9-B:** 成る程の。巫女の力を与えると言われとる神は幾らでもおるが、ここでは此奴がそうじゃ。最も、邪魔じゃから普段は隠れとるがな。
+
+**Eg.守屋:** では、他の方も皆、神やその類ですか。
+
+**SCP-2630-JP-9-B:** ふむ[3秒沈黙。]して、ぬしは、神を何と心得る？
+
+**Eg.守屋:** 昔は無神論者でしたが、今は、人では無い者の内力の強い者、位の捉え方です。
+
+**SCP-2630-JP-9-B:** 神とは魔法使いが如き者、それもまた1つの答えよ。正しいかはさて置き、な。
+
+**Eg.守屋:** 違うのですか？
+
+[SCP-2630-JP-9-Bは目を細めEg.守屋の顔面を凝視している。]
+
+**SCP-2630-JP-9-B:** 物の怪の類としてしか知られておらん者も多い。ここにおるのは、皆一度は神と呼ばれた者ばかり。しかし信仰が無ければ、ただの妖怪変化と下級霊の群れじゃ。崇められん神を、誰も神とは呼ばん。他所の国でもそうじゃろう？　崇められれば神、他の宗教では悪魔扱いだの。
+
+**Eg.守屋:** 成る程[3秒沈黙。]では、国家神道系の方は余りいらっしゃらないんですかね。まだ祀られているから。
+
+**SCP-2630-JP-9-B:** 彼奴等は1柱もここには来んよ。
+
+**Eg.守屋:** 何故です？
+
+**SCP-2630-JP-9-B:** ここは彼奴等の為に造られた場所では無いからじゃ。彼奴等は来られん。
+
+**Eg.守屋:** つまり、ここは国家神道に属さない神々の為に造られた避難所である、と。
+
+**SCP-2630-JP-9-B:** そう言って良いじゃろう。ここは敗残兵の拠点の様な物じゃ。
+
+**Eg.守屋:** 戦ったのですか？
+
+**SCP-2630-JP-9-B:** 古い話じゃ、知っておる者などおる筈も無し、歴史は改竄され解釈され、最早知らぬ者が正しく知るのは無理な事。
+
+**Eg.守屋:** そして、貴方がたの勢力は敗れた、と。
+
+**SCP-2630-JP-9-B:** その通り。ここは再起を待つ場所よ。
+
+**Eg.守屋:** 宗教としてのシェア争いに敗れ、再び信仰される日を待つと言う事ですか？
+
+**SCP-2630-JP-9-B:** それで解決出来るに越した事は無いがな。今となっては無理な事、神を信じぬ者が多い世界では。守屋殿、[[span class="ruby"]]天之瓊矛[[span class="rt"]]あまのぬぼこ[[/span]][[/span]]と言う言葉を知っておるか？
+
+**Eg.守屋:** 天地[[span class="ruby"]]開闢[[span class="rt"]]かいびゃく[[/span]][[/span]]で使われた道具だと。
+
+**SCP-2630-JP-9-B:** その通り。あらゆる物の根源で満たされた空間に、海と空、そして島を造った矛じゃ。それが"これ"よ。
+
+**Eg.守屋:** 実在したのですね。
+
+**SCP-2630-JP-9-B:** ま、記述も大方想像と欺瞞で満ちておるでの、事実では無いが。
+
+**Eg.守屋:** と言う事は、えー。[4秒沈黙。]
+
+**SCP-2630-JP-9-B:** 現実性が高かったのは元々か、か？
+
+**Eg.守屋:** そうです。よくお判りで。
+
+**SCP-2630-JP-9-B:** こんなもんは独心にも入らんよ。で、答えは否じゃ。ぬしらの言う現実性と言うのはな、根源を幾つも持つが、1つには変化を拒む意思じゃ。自らを保ち、同じ環境の中にあろうとする事、それこそが現実の源。
+
+**Eg.守屋:** 我々が変わりたがらないから、変わらない、と。プラシーボ効果の様な話ですね。
+
+**SCP-2630-JP-9-B:** 事実は小説よりも奇なり。現実を変えたいと思っている者は多かろうが、誰も、本当に変えられるなどと信じてはおらん。だから現実改変は起こせぬ、[[span class="ruby"]]正[[span class="rt"]]まさ[[/span]][[/span]]しくプラシーボ効果じゃな。
+
+**Eg.守屋:** では、誰しもが現実改変は起こし得る、と。
+
+**SCP-2630-JP-9-B:** 然様。その逆もまた然りじゃ。ここにおるは変化を拒否する者達。姿が見えぬだけで、数え切れぬ程の我が眷属がここにはおる。移ろいを拒む力が集まれば、それ即ち大いなる楔ともなろう。これこそ、我々が選んだ道よ。
+
+**Eg.守屋:** しかし、全多元宇宙での現実性総量は一定の筈、そんな事が可能なのですか？
+
+**SCP-2630-JP-9-B:** 老いぼれ相手に、余り難しい言葉を使わんで欲しいのだがな。ぬしの言っとる事は正しい、しかし不十分。世界はまだ分化の途中じゃ。初め宇宙に元素が存在せなんだ様にな。
+
+**Eg.守屋:** 宇宙にはまだ、現実性に分化するだけの素材が残されていると。
+
+**SCP-2630-JP-9-B:** 然様。
+
+**Eg.守屋:** 成る程。少し戻りますが、天之瓊矛は天津神が持っていた、とされる物では？
+
+**SCP-2630-JP-9-B:** まあの。歴史は想像と欺瞞で満ちておる、そう言ったばかりじゃろうが。知ってる事が正しいと思い込んでいては、何も見えぬぞ。巡り巡って、今では我々の住処よ。
+
+**Eg.守屋:** 分かりました。それと、他にも訊きたい事が。
+
+**SCP-2630-JP-9-B:** 良かろう。
+
+**Eg.守屋:** 先程仰っていた、再起とは？
+
+**SCP-2630-JP-9-B:** 分かっておろう。人心を変えるには、事実を見せるのみじゃ。
+
+**Eg.守屋:** 外の世界に顕現すると？
+
+**SCP-2630-JP-9-B:** 我らが王を伴ってな。
+
+**Eg.守屋:** 最有力者、と言う解釈で宜しいでしょうか。
+
+**SCP-2630-JP-9-B:** そんなとこじゃ。で無ければ、彼奴等相手に勝ち目はあるまい。
+
+**Eg.守屋:** 天津神を敵に回すと。
+
+**SCP-2630-JP-9-B:** どうかの。まあ、仕舞いにはそうなるであろうが、先ずは目先の敵から潰さねば。誰の事か、言わずとも分かるな？
+
+**Eg.守屋:** 現人神……
+
+**SCP-2630-JP-9-B:** 然様。我らを追いし族の末裔にして、最後の王。わしらも昔は協力したがな。今では国賊扱いじゃ。
+
+**Eg.守屋:** 勝算があると？
+
+**SCP-2630-JP-9-B:** さあの。少なくとも、"これ"を作った奴らはそう思っとったのじゃろう。わしはただ管理しとるだけじゃがな。
+
+**Eg.守屋:** 貴方がたを止めるのは、今や神だけではありません。
+
+**SCP-2630-JP-9-B:** 財団、世界オカルト連合、境界線イニシアチブ。わしが世の中の事を知らんと思うてか。然様な事、言われずとも分かっておるわ。
+
+**Eg.守屋:** では何故！
+
+**SCP-2630-JP-9-B:** 務めだからに決まっておろう。
+
+**Eg.守屋:** 決められた役割だ、と？
+
+**SCP-2630-JP-9-B:** 然様、歯車は止められん。流れが行くが如し、先が滝であろうと海であろうと、流れ流れるのみ。
+
+**Eg.守屋:** 規定事項ですか。
+
+**SCP-2630-JP-9-B:** ああ。悪いがな、わしも慈善事業をやっとる訳では無い。権限の方法、日時、戦い方、そこらを教える訳には行かんからな。まあ安心せい、ぬしらなら、調べればすぐに分かる。
+
+**Eg.守屋:** [8秒沈黙。]ここには入れた事を含め、私が何者かは大体分かりましたが。それでも、上には報告させて頂きます。それが私の"務め"なので。
+
+**SCP-2630-JP-9-B:** うむ、それで良い。さて、そろそろ帰った方がええぞ。また1柱来る予定での、用意をせねばならんのじゃ。これでも忙しくてな。いずれ刃を交える事ともなるやも知れんが、暫しの別れじゃ。
+
+**Eg.守屋:** そうですか、では。
+
+[立ち上がろうとするEg.守屋をSCP-2630-JP-9-Bが手で制止した直後、辺りに霧が立ち込め始める。]
+
+**SCP-2630-JP-9-B:** そのままでええ。送り届けてやる。
+
+**Eg.守屋:** ありがとうございます。それと、お茶、御馳走様でした。
+
+**SCP-2630-JP-9-B:** 久々の客人、楽しかったぞ。また来るが良い、昔話でもしてやろう。では、さらば。
+
+[ログ終了]
+-----
+[[div class="scp-image-block block-right" style="width:300px;"]]
+[[image glitched_1588686911.jpg style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+データが破損していた時間帯の映像を修復した物。中央部にモザイク様の存在が確認出来る。[[[SCP-1777-JP|SCP-1777-JP-A]]]に酷似しているが関連性は不明。Eg.守屋は"穏やかな人"と形容した。
+[[/div]]
+[[/div]][[span_]][[/span]]
+**付記:** 以下、確認されたSCP-2630-JP-9-Aの内、考古資料に記録された名称と同定された個体の一部です。国津神、祟り神及び妖怪として記録されている個体が多い一方、特筆すべき点として、一部北海道に伝承されるカムイや沖縄に伝承される神性が含まれています。更なる情報は##BB0011|映像記録SCP-2630-JP-9-α-神格同定作業済##を参照して下さい。
+
+* 手長 _
+ 各地に伝承される土着神・妖怪であり、足長と対を成す。[[span class="ruby"]]御社宮司[[span class="rt"]]みしゃぐじ[[/span]][[/span]]様と同じ文脈で言及される際にはその配下であるとされる。映像中では足長に担がれた、極度に腕の長い人型実体として映っている。
+* 足長 _
+ 各地に伝承される土着神・妖怪であり、手長と対を成す。御社宮司様と同じ文脈で言及される際にはその配下であるとされる。映像中では手長を担ぐ、極度に脚の長い人型実体として映っている。
+* 山本五郎左衛門 _
+ 広島県に伝承される妖怪であり、多数の妖怪を従える魔王とされる。映像中では体毛に包まれた巨大な人型実体が裃を着用する男性に変化する瞬間が捉えられている。
+* ラプシヌプルクル _
+ アイヌ伝承中、日高西部湖沼や洞爺湖に住む蛇神或いは亀神であり、悪臭を放つ守り神とされる。また巫女の力を司るともされる。Eg.守屋によると、悪臭はしなかった。
+
+[[/div]]
+
+探査後、Eg.守屋の心理状態に変容の兆しが確認されました。Eg.守屋には職員スクリーニング検査とは別に定期的なカウンセリング及び忠誠心調査テストを受ける事が義務付けられています。Eg.守屋の検査結果と推移について--は##BB0011|カルテ: 守屋利子##を参照して下さい。--データが消失しています。
+
+SCP-2630-JP-9複製を国立祭祀博物館へ返還した際、国立祭祀博物館長金子氏がSCP-2630-JP-9複製に対する違和感を露にしました。複製はあらゆる科学的分析に於いてSCP-2630-JP-9と等しい結果を示すにも関わらず、"何か違う"と述べました。金子氏にはAクラス記憶処理を施し、検証精度を高めた上で再度製作されたSCP-2630-JP-9複製を納入しました。
+-----
+-----
+[!-- ここからSCP-2630-JP-10報告書。 --]
+[[# 10]][[span_]][[/span]]
+**特別収容プロトコル:** [[span class="ruby"]]仙護雉[[span class="rt"]]せんご きじ[[/span]][[/span]]("千鳥")がSCP-2630-JP-##white|10##の確保・収容・保護に関する全権を掌握します。
+
+仙護雉はSCP-2630-JP-##white|10##が反ミーム性を有する##white|サイト-8189##に収容されなければならないと指定しています。仙護雉は##white|サイト-8189##の周囲1067m以内に他のSCP-2630-JP-Aを持ち込む事を禁止しています。
+
+SCP-2630-JP-##white|10##に関する言及は仙護雉を通して仙護雉が行います。
+[[div class="scp-image-block block-right" style="width:300px;"]]
+[[image gahag-0101052305.jpg style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+SCP-2630-JP-##EEEEEE|10##を手にする仙護雉。認識改変により拳を握り締めている様に見える。
+[[/div]]
+[[/div]][[span_]][[/span]]
+**説明:** 仙護雉によりSCP-2630-JP-##white|10##は##white|金印##であると定義されています。
+
+仙護雉は自身に関する言及を強化する情報災害を保持しており、限定的ながら反ミーム対抗性を行使する事により反ミーム性を有する存在の知覚を可能にする事が可能です。この情報災害は名前によって媒介される認識災害です。この反ミーム対抗性のみでは不十分である為本報告書の閲覧者はミーム対抗処置"神器顕現"を受ける事が推奨されています。
+
+仙護雉はSCP-2630-JP-##white|10##が石上神宮の反ミーム性を保持していた宝物庫より発見されたと記憶しています。宝物庫は発見以降反ミーム性を失っており、反ミーム性の打破が反ミーム性解除のトリガーであったと推測されます。SCP-2630-JP-##white|10##は宝物庫より強力な反ミーム性を保持している事、発見によって全く反ミーム性が低下していない事が仙護雉によって確認されており、宝物庫は隠蔽の為のデコイであったと推測されます。
+
+SCP-2630-JP-##white|10##に印を押された物体(以下"10-対象")は反ミーム性を獲得する事を仙護雉が確認しました。しかし10-対象の反ミーム性は比較的軽微で、財団が保有する対反ミーム技術によって相殺可能です。
+-----
+-----
+全SCP-2630-JP-Aの異常性に関わる距離の基本単位が533.5mとなっているのは、これらオブジェクトが古代の距離単位である里が用いられていた頃製作された為と考えられています。尚、中世以降用いられた里とは指す距離が異なる点に注意して下さい。
+
+現在財団日本支部超常歴史学研究室より、SCP-2630-JP-A群と、崇仏論争に前後して散逸したとされる10品目の遺物の関連性が指摘されています。この仮説が正しいとすれば、日本国に代々継承される3物品は本来10品目に含まれていた事になり、複数の古文書の正確性が疑われる事態となります。尚、書物により10品目の名称、内訳、由来に著しく差があり、存在自体が疑問視されている事に留意して下さい。
+
+以下、Eg.守屋の業務用ノートPCより発見されたデータの書き起こしです。SCP-2630-JP-A群に関連すると思われる為記載します。
+
+[!-- ここからSCP-2630-JP-9第二映像ログ。 --]
+[[div style="display: inline-block; border-radius: 10px; border:dashed 1px #444444; background:#F5F5F5; float:top; width:96.5%; padding:10px"]]
+**探索映像ログの書き起こし2**
+
+**日付:** 不明
+
+**探索者:** Eg.守屋
+
+**対象:** SCP-2630-JP-9-α
+-----
+[ログ開始]
+
+[既記のログとほぼ同様の為割愛。]
+
+**Eg.守屋:** お久し振りです。
+
+**SCP-2630-JP-9-B:** よう来たの。探査では無い様じゃな。
+
+**Eg.守屋:** ええ。
+
+**SCP-2630-JP-9-B:** ま、また茶でも出してやろう。今度は何が訊きたいんだね。
+
+**Eg.守屋:** SCP-2630-JP-A群についてです。
+
+**SCP-2630-JP-9-B:** ふむ。一連のオブジェクトとして再収容するまで、随分かかったな。
+
+**Eg.守屋:** 関連性の発現が余りに少なかったので。
+
+**SCP-2630-JP-9-B:** 隠しとったからのう。
+
+**Eg.守屋:** やはりですか。
+
+**SCP-2630-JP-9-B:** 今思っとる通りじゃ。あれは持たせる為に造られた物。露見しては困るでな。
+
+**Eg.守屋:** 古くから伝わる品々に偽装して、紛れ込ませたんですね？
+
+**SCP-2630-JP-9-B:** 然様。ま、幾らか予定が狂ったがなぁ。
+
+**Eg.守屋:** どう言う事ですか？
+
+**SCP-2630-JP-9-B:** まず剣じゃ。上手く働かんで、今じゃすっかり力負けしておる。即位の時の雨雲があろう。元々、ああも容易く振り払われる代物では無かった。
+
+**Eg.守屋:** 雨雲はそう言う事でしたか。
+
+**SCP-2630-JP-9-B:** 本来、彼奴の居場所を知らしめる為の物だった。あれが持ち出されるのは継承の時位じゃ。その時に継承者と結び付け、次の効能を発する……筈だったのだがなぁ。葛城の奴がな。そちらの常識では中大兄皇子、と呼ぶのであったか。葛城は奴の[[span class="ruby"]]諱[[span class="rt"]]いみな[[/span]][[/span]]よ。奴かその周りの誰かか、どうやら勘付きおった様での。継承せんで職能だけを行使しよった。そっちの学制では称制と習っておるだろう。[[span class="ruby"]]皇[[span class="rt"]]すめらぎ[[/span]][[/span]]の代が飛ぶ事は考慮しとらんかったでの、お陰で剣は機能不全、ずるずると今の今までお宝扱いじゃ。
+
+**Eg.守屋:** 成る程。とすると、他の神器も？
+
+**SCP-2630-JP-9-B:** 然様。例えば勾玉じゃ。あれも葛城に手を打たれとる。彼奴が勾玉を継承品から外した事があるのよ。
+
+**Eg.守屋:** 飛鳥浄御原令で神器が2種に減らされた、と言う学説の事でしょうか。
+
+**SCP-2630-JP-9-B:** 随分よう勉強しとるの。それを知っとるとは流石に驚いた。その通り、一時継承から外されとった。その後戻されたが、更に後にすり替えられた様でな。
+
+**Eg.守屋:** すり替えられた？
+
+**SCP-2630-JP-9-B:** 壇ノ浦に沈んだ時、九条[3秒沈黙。]兼実であったか？　それに土御門通親、後は参議だった藤原俊経が謀った。時は隠岐院、いや、後鳥羽天皇と呼んだ方が分かり易いかの。其奴が水天皇大神、ぬしらの言う所の安徳天皇に成り代わるか否かと言う問題があった。証の品も無しに新主践祚したまでは良かったが、やはり都合は悪かった様でな。
+
+**Eg.守屋:** 我々は、勾玉は回収されたと習いましたが。
+
+**SCP-2630-JP-9-B:** ふん、[[span class="ruby"]]正[[span class="rt"]]まさ[[/span]][[/span]]しく[[span class="ruby"]]捏造[[span class="rt"]]でつぞう[[/span]][[/span]]よ。確かに漁師が引き上げたがな、そんなに早く在るべき場所まで戻ると思うか？　あり得ん。戻ったのは随分と経ってから、それまでは代わりの品が使われた。戻った後も、まさか摩り替えた偽物でしたとは言え様も無かったのだろう、今の今まで入れ替わったまま。今伝わるあの勾玉は当初の勾玉では無い。ああ、安徳入水と言えば、宝剣も一緒に無くなっておる。ぬしら、6の異常性は知っておろう。
+
+**Eg.守屋:** 他の異常性を喰う、でしょうか。
+
+**SCP-2630-JP-9-B:** 然様、偶然に作られた偽物だが、宝剣の権能は全て吸収しとったで、あれが代わりに使われた。ま、それまでは蛻の殻になった宝剣を有難がって引き継いどった訳じゃから、まともに戻ったと言えるかも知らん。あのまま他の品の[[span class="ruby"]]性[[span class="rt"]]さが[[/span]][[/span]]まで喰われたらどうしてくれようかと思っとったが、杞憂に終わった様じゃ。剣が持っとった、我々と並び立つ旨、無事引き受けた様だの。
+
+**Eg.守屋:** 成る程。先程、勾玉は当初の物では無い、と言っていましたが。
+
+**SCP-2630-JP-9-B:** ああ。こう言っては難だが、沢山紛れ込ませたら[[span class="ruby"]]偶々[[span class="rt"]]たまたま[[/span]][[/span]]当たりを引いた、と言って差し支え無い状況なのよ。剣呑剣呑。ぬしらが8と読んでおる玉、あっちが本物でな。
+
+**Eg.守屋:** SCP-2630-JP-8も、元々一連のアイテム群に含まれていた、と言う事でしょうか？
+
+**SCP-2630-JP-9-B:** 然様、わしらの造った物だ。古い勾玉が無くなったから古い勾玉で置き換えとけ、位の感覚だったのだろうな。
+
+**Eg.守屋:** 精神体はお知り合いですか？
+
+**SCP-2630-JP-9-B:** 同じ一族の者。我が自慢の従姉妹じゃよ。我々2人が人柱となる予定だったが、わしの方が心持ち頼りのうて、こっちの役に収まった。代われるなら代わりたかったが、わしの力が薊に及ばなかったんじゃ。薊は、いつまでも独りで待ち続ける責め苦を自ら進んで背負った。感謝してもし切れぬよ。
+
+**Eg.守屋:** 彼女の現状は、ご存じですか？
+
+**SCP-2630-JP-9-B:** 知らぬ筈が無かろうが。我らが宿願成就の暁には、すぐに助けてやる。その用意も済んでおる。
+
+**Eg.守屋:** SCP-2630-JP-8の在処をご存じで？
+
+**SCP-2630-JP-9-B:** 分からぬ道理があるまい、薊は必ず戻って来る。決まっておるのよ。邪魔が入ろうとも成す、で無ければわしの気が収まらん。
+
+**Eg.守屋:** 今は、少なくともこの世界には無い、いやいないと思うのですが、戻って来られるのですか？
+
+**SCP-2630-JP-9-B:** 必ず戻って来る。諸々の要因があるがの、全て整う日が来るのよ。星辰正しく煌々たるや汝が目覚めの如し、とでも言うておこうか。持ち歩いとるのも賢しい男じゃ、期は逃さんだろう。
+
+**Eg.守屋:** 新家、今は犀賀と言いましたか。
+
+**SCP-2630-JP-9-B:** 然様。彼奴は中々良くやりおる、[[span class="ruby"]]何[[span class="rt"]]いず[[/span]][[/span]]れ礼をせねばなるい。
+
+**Eg.守屋:** 礼ですか。
+
+**SCP-2630-JP-9-B:** 勘繰らんでも良い、下らん比喩など使わん。文字通りに捉えよ。[[span class="ruby"]]香細[[span class="rt"]]かぐは[[/span]][[/span]]しく心ばせある人を嫁にでもやろうぞ。
+
+**Eg.守屋:** 眷族の方の中から？
+
+**SCP-2630-JP-9-B:** ああ。信心無き神は人に下るか物の怪と成り果てるかしか無いが、嫁入り婿入りは話が別じゃ。無条件で人間の心と血を居場所と出来るからの、ある程度神でおられるのよ。神の血筋の者が少なからず力を持つのはその為でな。無論、完全に忘れられれば神性など掻き消えるが、思い出されれば戻る。それが血の強さじゃ。
+
+**Eg.守屋:** では、神様には意外と結婚願望持ってらっしゃる方が多いんですかね。
+
+**SCP-2630-JP-9-B:** 随分俗な言い回しじゃが、まあそうだな。
+
+**Eg.守屋:** では、ここに来ないで人に交じって生きる事を選んだ方も多いのですか？
+
+**SCP-2630-JP-9-B:** まあまあおるな。この場にも、そ奴らの子がおるがのぅ。
+
+**Eg.守屋:** 榊さんですか？
+
+**SCP-2630-JP-9-B:** たわけ、ぬしに決まっておろうが。
+
+**Eg.守屋:** 私が貴方がたの血を引いていると？
+
+**SCP-2630-JP-9-B:** 血統もそれ以外も、全てじゃ。ぬしの祖先であった眷族は人として死んだ。神性は継がれねばならん。
+
+**Eg.守屋:** 私は人間です。検査でもそう[SCP-2630-JP-9-Bが手で制する。]
+
+**SCP-2630-JP-9-B:** 今の世でわしらがそのまま生きる事は出来ん。"世を忍ぶ姿"と言うだろう、それが必要だ。一旦神では無くなるがな、人並みには生きれよう。
+
+**Eg.守屋:** それが、力無き者の生き方ですか。
+
+**SCP-2630-JP-9-B:** 違う。力の使い方を知らぬ者の生き方よ。外に目を向けてみい、力を思い出した者達を。如何に伸び伸び暮らしとる事か。
+
+**Eg.守屋:** そんなにいらっしゃるんですか。
+
+**SCP-2630-JP-9-B:** ああ。何も伸び伸び暮らしとるばかりでは無い、わしらと同じく動いとる奴らもおる。ぬしらが知らぬ集まりを作っとるもんもおるし、あちこちで伏しとる奴らもおる。遠野などでな。
+
+**Eg.守屋:** 再起に備えて待っていると？
+
+**SCP-2630-JP-9-B:** 然様。我らが数多待つ日。古き血が皇に立ち代わる日の為に。
+
+**Eg.守屋:** 私にも血が残っていると言いましたか。
+
+**SCP-2630-JP-9-B:** ここに来れる者は皆そうじゃ。そしてここに来て、[[span class="ruby"]]本意[[span class="rt"]]ほい[[/span]][[/span]]に立ち返る。先刻、自分は人じゃと言っとったが、もう分かっとるだろう？
+
+**Eg.守屋:** 答える必要がありますか？
+
+**SCP-2630-JP-9-B:** 言霊は決意を司る神霊、口にした言葉にしか言霊は宿らんよ。
+
+**Eg.守屋:** 私は正常に忠誠を誓いました。正常の定義は一意では無い、そうでしょう？
+
+**SCP-2630-JP-9-B:** [[span class="ruby"]]二心[[span class="rt"]]ふたごころ[[/span]][[/span]]無いな？
+
+**Eg.守屋:** ええ。
+
+**SCP-2630-JP-9-B:** 良かろう。
+
+[SCP-2630-JP-9-Bは立ち上がり、Eg.守屋の目の前で跪く。]
+
+**SCP-2630-JP-9-B:** おかえり、妹よ。
+
+**Eg.守屋:** ただいま。
+
+[ログ終了]
+-----
+**付記:** このデータが発見される数日前よりEg.守屋は行方不明であり、未だ発見されていません。
+[[div class="scp-image-block block-right" style="width:300px;"]]
+[[image gahag-0054078587(2).jpg style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+行方不明後民間の写真家により撮影された、Eg.守屋と思われる人物。自称[[span class="ruby"]]日奉芽[[span class="rt"]]いざなぎ めい[[/span]][[/span]]。撮影者は、琵琶湖畔で遭遇し被写体として協力を求めた所"快く応じてくれた"と証言している。
+[[/div]]
+[[/div]][[span_]][[/span]]
+以下、担当医官の所見です。
+[[div style="border:solid 4px #000000; background:#ffff30; padding:5px; margin:10px;"]]
+[[=]]
++++ 財団日本支部医務監督室非常事態始末履歴より抜粋
+カルテ: 守屋利子の紛失、或いは消失について
+[[/=]]
+-----
+原因調査は打ち切られましたが、カルテ消失の原因は不明です。以下、否定されなかった可能性です。
+* システム上のサーバエラー _
+ 関連部門は可能性は低いとしていますが、発生していないと断言するに足る根拠は確認されていない様です。
+* 内部の人間による意図的な削除 _
+ 余り考えたくは無いですが、ある程度の心得があれば可能です。
+* 現実改変 _
+ 比較的可能性が高いです。プログラム削除程度の小規模な改変ならば、あくまで機能の遠隔不正操作で済みますから、痕跡を検出出来ない可能性もあります。
+* 因果改変 _
+ 部分的な過去改変が行われた可能性があります。私自身を含め、複数名のEg.守屋に関する記憶が一部曖昧になっています。完全な消滅を免れているのは、記憶補強の賜物でしょうか。しかし、他の記憶処理の副作用即ち薬剤性健忘や心因性健忘、煩忙を原因とするただの記銘ミスとの判別が出来ない為確認は不可能です。
+私の記憶ですが、探査以降彼女の精神状態は非常に微弱な変化を見せていました。拡散気味であった自己同一性獲得の兆候、解決者としてのアイデンティティ獲得の兆候等々、言い換えれば"やる気が出て来た"状態です。当初は単独での特殊な探索に駆り出された事に端を発する、自己の職務の再確認であると判断していました。財団に対する忠誠度が全く低下していなかった事も、問題であると捉えなかった理由です。
+急激な変化が訪れたのは行方不明となる二日前です。自己同一性の急激な崩壊を始めとする複数の変化が確認されました。前日に児童の終了を含む業務に携わっており、同様の経験をした者にはよくある症状です。財団への忠誠度及び業務への忠実性に変化は無かった為、特異な症状、緊急の措置を要する症状では無いと判断し次回カウンセリングまでの休養を言い渡しました。
+この様な状況になった事は誠に遺憾であり、またもし誤診であったとすれば財団に大変な損害を齎す可能性のあるミスであり、いずれ決定されるであろう処分に従う所存です
+[[>]]
+―担当カウンセラー　西進　
+[[/>]]
+[[/div]]
+
+[[/div]]
+
+SCP-2630-JP-A群の内3品以上を互いから1067m以内に接近させた時、集められた各SCP-2630-JP-Aから微弱なクラスD霊体波が放出され、同時に集められたSCP-2630-JP-Aのいずれかから50km以内で[[[SCP-2863]]]が1体出現します。SCP-2630-JP-A同士が接近するに応じてクラスD霊体波の強度が上昇、SCP-2863個体数及び新たに出現する位置とSCP-2630-JP-Aとの距離が増加します。この事から、SCP-2863は通常時視認、干渉が不可能な不活性状態にあり、SCP-2630-JP-Aから放出されるクラスD霊体波によって放射中心に近い順に活性状態に移行すると推測されます。SCP-2630-JP-A同士の距離が106.7m以内になった時SCP-2863個体数が最大となり、半径2000km程度の範囲に140体前後が出現します。出現の際SCP-2630-JPを所有する者及び関係者はSCP-2863に攻撃されません。
+
+SCP-2630-JP-A群の内5品以上を互いから5335m以内に接近させた時、81地域全域でクラスB霊体を含む妖的存在並びに準神格存在の実体化が発生します。SCP-2630-JP-A同士の距離に応じて下級クラスB霊体、上級クラスB霊体及び妖的存在、準神格存在の順に実体化し、同時に念力、ミーム汚染を含む現実改変能力の行使が可能になります。同時に[[[SCP-1875-JP]]]-2の一部に「先祖返り」が発生します。「先祖返り」の発生は自らをSCP-1875-JP-2であると自覚している個体に限定されており、深層心理の認識がトリガーとなっていると考えられます。
+
+SCP-2630-JP-A群の内5品以上を同一人物(以下"所有者")が所有した時、一連の異常性(以下"乗っ取りイベント")が発生します。
+-----
+-----
+[[div style="border:solid 1px #999999; background:#e6b5c5; padding:5px;"]]
+[[=]]
+**SCP-2630-JP 乗っ取りイベント**
+[[/=]]
+-----
+**概要:** 乗っ取りイベントは4段階に分類されます。
+# 初期段階 _
+ 所有者がSCP-2630-JP-Aを5品所有した時初期段階に移行します。 _
+ 所有者が「SCP-2630-JP-Aは素晴らしい物である」と言うミームに感染、全SCP-2630-JP-Aの収集を開始します。尚乗っ取りイベントに関する知識を持つ場合にもこのミームは効力を発揮します。 _
+ @@ @@
+# 第二段階 _
+ 所有者がSCP-2630-JP-Aを6品所有した時第二段階に移行します。 _
+ 所有者のSCP-2630-JP-A収集欲が義務感へと変化、当人の主義信条に関わらず収集に際し武力行使を含むあらゆる手段をも厭わなくなります。 _
+ 正体不明の人格(以下"人格")が所有者の意識に混入し、平常時の所有者と異なる口調で会話する、通常行わないであろう行動に出る、所有者自身を一人称では無く三人称で示す等の変化が現れます。 _
+ @@ @@
+# 第三段階 _
+ 所有者がSCP-2630-JP-Aを8品所有した時第三段階に移行します。 _
+ 所有者の意識が完全に人格と同化、人格の影響が大きくなります。この時所有者の意識も残っており、人格による意思決定に所有者の主義信条が色濃く反映されている事に留意が必要です。 _
+ SCP-2630-JP-A同士の距離に関わらず、クラスD霊体波の放出によるSCP-2863の活性化及び一部のSCP-1875-JP-2の先祖返りが発生します。 _
+ 西日本を中心に軽度の現実性低下が観測されます。 _
+ @@ @@
+# 第四段階 _
+ 所有者がSCP-2630-JP-Aを9品所有した時第三段階に移行します。 _
+ SCP-2630-JP-4及びSCP-2630-JP-5が京都市右京区太秦寺本堂、SCP-2630-JP-6が長野県伊那市守屋社里宮、SCP-2630-JP-9が長野県諏訪市諏訪神社本宮、残り全てのSCP-2630-JP-Aが奈良県天理市神宮外苑公園へと転移。転移先となる台座の出現と同時に付近のソメイヨシノ全てが生命活動を一時的に停止します。枯死では無い事に留意して下さい。 _
+ 石上神宮本殿、斑鳩寺東院夢殿、太秦寺本堂、守屋社里宮、諏訪神社本宮に異常実体が出現します。
+[[/div]]
+-----
+-----
+以下、乗っ取りイベントに関する古文書の現代語訳です。
+[[div class="page"]]
+御高覧せる為、国中の遺物を集めた時。我らが全く知らない幾つもの異変が起こった。
+どこかを指す光線、転移し出す勾玉、錆が完全に無くなる草薙剣、動かなくなる律動器械ら……
+突如として無数の妖怪変化が現れ、また多くの物が物の怪へと姿を変えた。私もその一人だった。そして、がしゃどくろ共が現れ、街を破壊し、民草を殺し、喰い始める。
+その時、私は国の終わりを予感した。
+@@ @@
+陰陽寮、蒐集院、衛兵、皆良く戦った。
+身の丈六十尺に達しようかと言う鬼の如き姿となり果てた私も、物の怪共を掴んでは投げ、良く防いだ。
+しかし、御所に詰める数は余りに多く、騒ぎの中動き出した種々の遺物によって場は地獄絵図と化す。
+@@ @@
+その折、逃げ惑うばかりの侍女等の中にあった藤原の娘が、集められた遺物を再び他所へやってしまおうと言い出した。然様な余裕は無かったが、藁にも縋る思いで、思い思いの遺物を引っ掴み駆け出した。
+@@ @@
+多くは途中で斃れた様だが、それでも何とか成し遂げたらしい。私も草薙剣を握り締め、有象無象に追われつつも随分と逃げた。
+気が付いた時、既に物の怪は居らず、私は人になっていた。
+@@ @@
+それ以来、我々はどの品が地獄を招いたのか調べ、幾つかまで絞り込んだ。
+そして、完全に分け管理する事とした。何故相異なる神社に収められていたのか、その時我々は初めて知ったのだ。
+[[/div]]
+第四段階以降の現象は過去観測された記録が存在しない為不明です。
+
+SCP-2630-JPは5体の異常実体が出現する現象です。各実体はSCP-2630-JP-9-B、上宮王、摩多羅神、弓削大連、御社宮司様と同定されています。加えて斑鳩寺東院夢殿内部に霊体が出現し、これは行信に同定されるクラスA霊体であると推測されます。
+[[div class="scp-image-block block-right" style="width:300px;"]]
+[[image 463px-Priest_Gyoshin_Statue.jfif style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+斑鳩寺東院夢殿の封印が解放された際の行信僧都坐像。
+[[/div]]
+[[/div]][[span_]][[/span]]
+81地域での蒐集院、陰陽寮、大日本帝国異常事例調査局、大日本帝国陸軍特別医療部隊、大日本帝国海軍艦政本部対超常課、警視庁公安部特事課、警察庁███課、公安調査庁特異案件対策室、等横のコネクションの無い複数の公的異常性団体の設立は2630-JP-A群を複数の組織により分割保有する事を目的としており、また五行結社、東弊組(現在東弊重工)等の非公的異常性団体は上記公的異常性団体いずれかが壊滅、消滅した際のフォールトトレラントとして存在が許容されていました。陰陽寮主導で行われたこの収容体制を踏襲し、財団日本支部理事及び正式な財団職員では無い人物によりSCP-2630-JP-A群を分割管理しています。理事に死亡等の要因により欠員が出た場合、早急に代理人が立てられSCP-2630-JP-Aに関わる欠員分の全権限を継承します。この時代理人はいずれの理事の旗下にも含まれない事に留意して下さい。
+
+以下、乗っ取りイベントについての超常歴史学研究室による検討結果です。
+[[div style="border:solid 4px #808000; background:#d0fa58; padding:5px; margin:10px;"]]
+[[=]]
++++ 財団日本支部超常歴史学研究室資料より抜粋
+SCP-2630-JP"乗っ取りイベント"に係る諸考察
+[[size 85%]]**注:** 本記述はSCP-2630-JPに関わる研究に際し作成された種々の覚書をテキストデータに起こした物です。その為未整理且つ煩雑な内容となっており、結論となる論文が執筆され次第置換されます。[[/size]]
+[[/=]]
+-----
+守屋社には弓か宝剣が収められていた筈　→-6が宝剣？
+∵『復刻諏訪史料叢書』の『洲羽事跡考』に「弓矢を蔵し」とあり　『諏方かのこ』に「石匣に神劍を納む」とあり
+　--『洲羽事跡考』が誤情報か偽りか-- 弓矢は既に失われた？
+
+--御社宮司-- --洩矢-- --ミシャグジ-- --赤口-- --御射軍神-- おすわさま 御社宮司**様**
+__様__をつけろ　現実錨無効、祟ら[乱筆により判読困難]率改[判読困難]
+
+4と5は不定の神の下に　擬態能力は神性の伝承に関係か
+
+神宮外苑公園と該当氏族、何が出るかは明らか
+出現する実体中最も権威ある者: --摩多羅神(要検討) 何故？--
+摩多羅神を伴うのは何故　摩多羅神が伴っている？
+--河勝は一族だったか？-- --混入-- 上宮王顕現の資料確認
+摩多羅神も弓削大連も旗手では無いか
+
+帝[乱筆により判読困難]えたとは思えない　罠
+
+高岡君には何が見える
+・--精神影響-- 所見無し
+・--ミーム障害-- 異常無し
+・--思想改変--
+・--記憶改変--
+・--過去改変-- 全て痕跡無し
+・__潜在意識__
+何故他の者に出ない？　--血か-- 追跡失敗
+「敵でない」とは
+
+染井吉野＝桜主の化身
+枯死＝メタファーでない？
+
+1875-JPに影響　変成を防ぐ異常性(？)に対抗する影響力か
+[[>]]
+―超常歴史学研究室長　土御門の覚書より
+研究員　高岡
+[[/>]]
+[[/div]]
+SCP-2630-JPの由来及び来歴に関する研究は未だ途上であり、更なる資料が発見されるまで何らかの事実認定を行う事は不可能に近いと考えられています。現在財団未分類データベースの捜索が続けられています。
+
+以下、SCP-2630-JP移譲時に行われたインタビューの記録です。
+[!-- ここからSCP-2630-JPインタビュー記録。 --]
+[[=]]
+[[div style="display: inline-block; border:dashed 1px #999999; background:#F5F5F5; float:center; width:80%; padding:0% 13px 0% 13px; box-shadow: 0 0 10px rgba(0,0,0,.2);"]]
+**聴取記録2630-JP-2**
+-----
+[[<]]
+**対象:** 萩原研儀官
+
+**インタビュアー:** 倉敷博士
+
+**付記:** 蒐集院と財団の併合に伴い、蒐集院が確保していたオブジェクトに関する情報の引き継ぎが行われました。以下はその中からSCP-2630-JPに関する情報を抽出した内の一例です。
+-----
+**<録音開始>**
+
+[関係性が低い為省略。]
+
+**倉敷博士:** 顕現？
+
+**萩原研儀官:**我々が最も恐れる異常の1つだ。
+
+**倉敷博士:** 何が起こる？
+
+**萩原研儀官:** 古き神とその血筋の再臨だ。神に挑み、神を脅かす者。
+
+**倉敷博士:** 脅かされる神とは、現人神の事か。
+
+**萩原研儀官:** その通り。その昔、菊の一族の下に降り、その後滅んだ血筋が再び君臨せんとしている。彼らは、菊の一族よりも古い統治者だ。
+
+**倉敷博士:** つまり、菊の一族に国を奪われた王だと。
+
+**萩原研儀官:** そう言っても良いだろうな。そして、我々では恐らく抑えられない。桜主でも難しかろう。天孫が今一度光臨なさる事を待つ外無い。
+
+**倉敷博士:** そこまで強大なのか。
+
+**萩原研儀官:** ああ。再臨するのは5柱。内1柱は祟り神の王、土着神の頂点に立つ神。
+
+**倉敷博士:** 諏訪に祀られている神か。
+
+**萩原研儀官:** その通り。1柱は古き一族最後の宗主、そこで断ち切られた全ての力を溜め込む物。1柱は一族の巫女、数多の土着神を司る神官。
+
+**倉敷博士:** 人間か？
+
+**萩原研儀官:** 一応はな。だが神の血を継ぐ者、力を持っていた頃の菊の一族に匹敵する。当代では何ともならんだろうな。1柱は古き神のもう1つの血、その頂点に祀られし万能神。あらゆる記録があり、全く確かな記録が無い秘神だ。崇めていた宗派は邪教として蒐集院が処理したらしいが、神は殺せなかった。
+
+**倉敷博士:** 真言立川派、いや、玄旨帰命壇か。
+
+**萩原研儀官:** よく知ってるな。そして最後の1柱、これが一番問題だ。菊の一族にして古き一族の力を継承する者。全ての神宝を持ち、菊の一族を凌ぐ権力を持つ者。この国に仏教を持ち込み、臣民支配体制を築いた者だ。さっき言った万能神も、神霊になる前には彼の配下だった。
+
+**倉敷博士:** まさか、彼は優秀な摂政だった筈。
+
+**萩原研儀官:** なら良かったんだがな。彼の作った寺の配置を見れば分かる。八卦の陣で封印し、その[[span class="ruby"]]現身[[span class="rt"]]うつしみ[[/span]][[/span]]は真言で巻き尽くし抑え付けてるのさ。尸解仙と言う術を知っているか？　道教の、自分の魂を現身に移して生き永らえる法だ。
+
+**倉敷博士:** 当時道教は入っていなかったのでは？
+
+**萩原研儀官:** 一般には広まらなかった。支配向きでは無かったからな。だが彼はそれを極めた。聖として記録にも残っている。そして彼は古き一族から伴侶を取り、一族の生き残りとなって全てを継承した。天孫と土着、全ての神の力をその背に負った訳だ。
+
+**倉敷博士:** それが復活すると。
+
+**萩原研儀官:** こちらにも味方が無い訳じゃ無い。史上最強の呪術師が彼を封印している。
+
+**倉敷博士:** どう言う事だ。
+
+**萩原研儀官:** さっき言ったな、封印されていると。それを施した男だ。且つて呪殺の罪で都を追われ、再び舞い戻った僧侶。見れば分かるが、彼もまたその現身を造った。今では、聖の現身を後ろから睨め付ける様に置かれている。
+
+**倉敷博士:** その命と成仏を賭してまで、人民を護ろうとした訳か。
+
+**萩原研儀官:** そうらしい。まだ陰陽寮も無かった頃だった、我々は、人類最初に異常に正面から挑んだ人物と定義している。名を行信と言う、大僧都まで登った男だった。
+
+**倉敷博士:** 何か策は？
+
+**萩原研儀官:** 無い。
+
+**倉敷博士:** お手上げか。情け無い。
+
+**萩原研儀官:** まあそう言わないでくれ、人間の限界を知っているだけだ。財団も同じ結論に至る筈だがな。
+
+**倉敷博士:** 見くびらんでくれ。
+
+**萩原研儀官:** 現実を見ればそうも言ってられんよ。寧ろ、これが最終手段であるとも言える。
+
+**倉敷博士:** どう言う意味だ。
+
+**萩原研儀官:** 5柱は我々の遥か上におわす存在、つまり、我々の手に負えない異常とすら相対し得ると言う事でもある。
+
+**倉敷博士:** 守り神にする、この国らしい考え方だ。最終兵器と言う事か。
+
+**萩原研儀官:** そう。砲身は正常性、火薬は国体。全てを捨てる代わりに全てを護る、後戻りの利かない手だ。
+
+**倉敷博士:** 封印してる坊主はどうする。
+
+**萩原研儀官:** 話は通じる筈さ。
+
+[関係性が低い為省略。]
+
+**<録音終了>**
+[[/<]]
+[[/div]]
+[[/=]]
+当初SCP-2630-JPを引き起こすオブジェクトの組み合わせはSCP-2630-JP-3を除いて判明しておらず、その為各オブジェクトが全く無関係に収容されていました。SCP-2630-JP-1及びSCP-2630-JP-5を除く他8品の異常性が一切の相互関係を持たなかった事も、一纏めのオブジェクトとしての収容が困難であった原因です。その為、現在に至るまでSCP-2630-JP-Aに関する報告書の閲覧権限は細分化されたままとなっています。
+
+SCP-2630-JP-##white|10##は製作時反ミーム性を持っていなかったと仙護雉は認識しています。陰陽寮の資料より、当該異常性は製作後第三者によって、日奉氏、石上氏、新家氏、采女氏及び関連氏族等、弓削大連の血縁者による収集を防ぐ目的で付与された事が判明しています。何者が反ミーム性を付与したかは不明ですが、天台宗玄旨帰命壇の記録に反ミームに関する術式が残されている事から、関連性が指摘されています。尚関連技術に関する詳細は紛失されており不明です。この指摘が正しい場合、玄旨帰命壇は自らその主祭神の封印に加担した事となりますが、その様な状況に到る事情の推定はなされていません。
+
+考古資料に10品目の歴史的遺物に関する記述が複数存在し、その内幾つかはSCP-2630-JP-A群に言及していましたが、上記同様に収集を阻止する目的で、全て蒐集院により改竄されています。判明している全改竄事例は##BB0011|SCP-2630-JP関連記録改竄履歴十三版##を参照して下さい。一部資料が紛失されており、改竄された記述の内訳は不明です。
+-----
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image C8mAZbEa.jpg style="width:100%;" link=]]
+[[div class="scp-image-caption" style="width:100%;"]]
+乗っ取りイベントに関連する資料中に含まれていたモノクロ写真をカラー画像に変換した物。詳細不明。
+[[/div]]
+[[/div]]
+-----
+SCP-2630-JPの活用案として、トヨサトミミ計画が提案されています。
+-----
+-----
+[[div style="border:solid 1px #999999; background:#f0f8ff; padding:5px; margin-bottom: 10px;"]]
+= **トヨサトミミ計画**
+-----
+[[div class="scp-image-block block-left" style="width:300px;"]]
+[[image EPh_sH8VUAIqhhn.jpg style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+トヨサトミミ計画を想定した訓練を行う機動部隊。SCP-2630-JP-A輸送ヘリ、兵員ヘリ、バックアップ用輸送ヘリから構成される編隊を組んでいる。
+[[/div]]
+[[/div]]
+[[div class="scp-image-block block-left" style="width:300px;"]]
+[[image EPh_setUEAA0EcX.jpg style="width:300px;"]]
+[[div class="scp-image-caption" style="width:300px;"]]
+トヨサトミミ計画に際し徴発される航空機。設備運搬に用いられる。
+[[/div]]
+[[/div]][[span_]][[/span]]
+**概要:** トヨサトミミ計画は81地域でK-クラスシナリオが発生した際に検討される大規模収容計画です。
+
+SCP-2630-JPを人為的に発生させる事により、強大な異常に対抗可能な存在を召喚する事を主軸とします。
+
+トヨサトミミ計画は以下の手順によって構成されます。
+# SCP-2630-JP-8を除く全SCP-2630-JP-AのSCP-1500-JPへの持ち込み。
+# 全SCP-2630-JP発生地点付近からの退去。
+# SCP-2630-JP-Bの国外退去を含む保護。
+
+実際にSCP-2630-JPが発生するまで出現する5実体及び誘起される諸現象の効果範囲、影響強度は完全に未知数である事に留意して下さい。
+
+本計画には財団日本支部理事間でのオブジェクト管轄権の移譲、各異常実体及び霊体との対話、特別収容プロトコルの完全改定が含まれます。
+
+トヨサトミミ計画は各SCP-2630-JP-A管理責任者6名以上が出席する会合により、4名以上の賛成を以て承認されます。欠員及び参加困難者が生じた場合には以下の6名の内最適な人材によって代行されます。
+* 現実子力学、時間力学有識者 _
+ 土橋管理官
+* 記憶処理/改変処理、常識構築理論有識者 _
+ 宇喜田女史 _
+ 諸知博士
+* 資源的な収容限界に関するスペシャリスト _
+ 道策管理官 _
+ 冴場倫理委員
+* 日本支部機密事項有識者 _
+ 彼岸花倫理委員
+財団日本支部が機能不全に陥る事を防止する為、上記6名による代行が必要となった際に日本支部理事後継者候補による代行が可能であったとしても推奨されません。
+
+大規模な活動が必要な事から、Kクラスシナリオ発生の予兆が確認されるまでトヨサトミミ計画は永久凍結されています。
+[[/div]]
+-----
+-----
+SCP-2630-JPを活用しトヨサトミミ計画が実行に移される際、早急な実行の為O5評議会による決議は必要とされません。実行に係る諸手順は全て事後に定められます。また、アンニュイ・プロトコルを含む記憶処理の実行は見送られます。
+
+特別収容プロトコルの改定を前提とした収容が行われている為、SCP-2630-JPは特別収容プロトコルの実施自体に問題があるオブジェクトを意味する副次クラスであるCERNNUNOSに指定されます。

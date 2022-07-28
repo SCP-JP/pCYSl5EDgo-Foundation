@@ -1,0 +1,100 @@
+[[include :scp-jp:credit:start]]
+**タイトル:** SCP-2152-JP - 平穏、不安、飲み下して暗黒
+**著者:** ©︎[[*user iti119]]
+**作成年:** 2021
+[[include :scp-jp:credit:end]]
+ _
+[[div class="header-font-size"]]
+[[include :1119s:classification-header
+|item-number= 2152-JP
+|object-class= Euclid
+|clearance= 2
+|lang= ja
+|hralt= true
+]]
+----
+[[/div]]
+
+**特別収容プロトコル:** SCP-2152-JPは標準人型実体収容房に収容されます。SCP-2152-JPは自身の異常性を自覚しておらず、カバーストーリー「社会実験」の偽記憶のもとで収容されています。2か月に一度、SCP-2152-JPに対して後進型健忘性の記憶処理を施し、収容期間中の記憶を抹消します。
+
+収容房にはコーヒー器具が常備され、収容担当者の許可によってSCP-2152-JPの要請に応じた用品が支給されます。
+
+**説明:** SCP-2152-JPは非常に限定的なクラスⅣ相当のオントキネティック能力を備えたコーカソイド男性です。SCP-2152-JPの異常性は、SCP-2152-JPが自身の淹れたコーヒー (SCP-2152-JP-A) を消費する際に発生します。異常性は以下の通りに進行します。
+
+# SCP-2152-JPがカップを手に取ると同時に昏蒙状態に陥る。この状態のSCP-2152-JPをSCP-2152-JP-プライムと指定する。
+# カップ内のA実体がカップ外に漏れ出す。
+# A実体が体積を増大させつつ人型に変形し、同時にプライム実体が黒色に変色しながら液状に変性する。
+# 人型に制御されたA実体がプライム実体と同一の外見に変化してプライム実体と置換される。
+# プライム実体が体積を縮小させつつカップ内に入り込む。
+# 形成された人型のA実体が覚醒しカップ内の液体を消費する。
+
+プライム実体・A実体双方の置換は3秒程度の短時間で完了し、異常性を含むSCP-2152-JPの特徴は形成された人型実体に継承されます。特筆すべき点として、上記のプロセスを経ることで、SCP-2152-JPの精神的健康に対してストレスの低減等の良好な影響がもたらされることが判明しています。
+
+[[include :scp-wiki:theme:basalt]]
+[[module CSS]]
+@import url('http://1119s.wdfiles.com/local--code_/side-icons/1');
+
+#top-bar,
+#side-bar,
+h1, h2, h3, h4, h5, h6 {
+    text-transform: initial;
+}
+#side-bar {
+    margin: 0;
+}
+.side-block .menu-item img + a::before,
+.side-block ul.menu-item li::before,
+.side-block .collapsible-block-folded a.collapsible-block-link::before {
+    filter: brightness(0) !important;
+}
+#side-bar img {
+    filter: none;
+}
+#side-bar a.collapsible-block-link {
+    background: none;
+}
+#page-content {
+    font-size: 100%;
+}
+.page-rate-widget-box {
+    box-shadow: none;
+    margin: 0;
+}
+.page-rate-widget-box .cancel a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 16px;
+    padding: 2px 5px;
+}
+.rate-box-with-credit-button .creditButton {
+    border: none 0;
+    background: none;
+    box-shadow: none;
+}
+.rate-box-with-credit-button .creditButton a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+}
+.modalbox .modalbox-title {
+    border-radius: 0;
+}
+.modalbox .page-rate-widget-box {
+    box-shadow: 0px 0px 7px #999999;
+}
+.classification-header .right-box {
+    --level0: 11,0,128;
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    #main-content {
+        max-width: 80%;
+    }
+    .header-font-size {
+        font-size:1.25em;
+    }
+}
+[[/module]]
