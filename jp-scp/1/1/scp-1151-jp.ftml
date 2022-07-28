@@ -1,0 +1,401 @@
+[[include component:jstyles]]
+
+[[module ListPages offset="@URL|0" range="."]]
+%%content{2}%%
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="page2"]]
+%%content{3}%%
+[[/module]]
+
+
+[!--
+====
+
+
+[[module css]]
+@import url(http://scp-jp.wikidot.com/theme:wanderers/code/1);
+
+#page-content .rate-box-with-credit-button .creditButton {
+    background-color: #006c00;
+    border: 1px solid #006c00;
+}
+
+#page-content .rate-box-with-credit-button .creditButton:hover {
+    background-color: #008f00;
+    border: 1px solid #008f00;
+}
+
+#page-content .rate-box-with-credit-button .creditButton a:hover {
+    color: white;
+}
+
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** 読むと死ぬ本
+**著者:** ©︎[[*user p51]]
+**作成年:** 2020
+[[include credit:end]]
+
+[[module css]]
+.footnotes-footer {
+display:none;
+}
+[[/module]]
+
+
+[[module css]]
+.page-tags  {
+display:none
+}
+[[/module]]
+
+
+[[module css]]
+#u-collapsible .unfolded,
+#u-collapsible:target .folded{
+display:none;
+}
+ 
+#u-collapsible:target .unfolded,
+#u-collapsible .folded{
+display:block;
+}
+
+#u-collapsible .unfolded {
+  background: black;
+}
+[[/module]]
+
+[[module css]]
+@import url('http://smlt.wdfiles.com/local--code/ukwhatn%3Afadeout/1');
+
+/*== 変数 ==*/
+:root {
+
+  /* 背景色 (デフォルトではwhite) */
+  --fadeout-background: black;
+
+  /* フェードアウトにかかる時間 */
+  --fadeout-time: 1s;
+
+  /* 切り抜き済みのヘッダー(ヘッダー下部の影をキャンセルします)
+      Sigma9(通常のテーマ)以外のテーマを使用する場合、この変数のURLを変更してください。 */
+  --cropped-header: url(http://scp-jp.wdfiles.com/local--files/component:sh-theme/body_bg.png);
+
+}
+
+[[/module]]
+
+[[div_ class="fadeout-wrapper"]]
+[[div style="border:solid 2px #112211; background:#DDEEDD; padding:25px; margin-bottom: 25px;"]]
+
+[[size 150%]] **{{^^A mystery covered in a thick veil^^厚きヴェールに覆われた神秘}}** [[/size]]
+
+[[>]]
+**「分類不可」棚の250列目にある本**
+**読むと死ぬ本(本の表紙に記述されている。表紙を読んでも死なないらしい)**
+[[/>]]
+
+[[div style="overflow:auto"]]
+
+[[div style="border:solid 1px #112211; background:#EEF6EE; padding: 20px; margin-bottom: 3px;"]]
+[[=]]
+**概観**
+[[/=]]
+
+知られたくない秘密というのは誰にでもあると思うが、[[footnote]]私は全てをつまびらかにしている。清廉潔白であれば恥じることなどないではないのか？--//H.K//[[/footnote]][[footnote]]貴女はもう少し恥じらいや躊躇いを備えてくださいね……若い手たちが目のやり場に困っています。--//A.R//[[/footnote]]それを何かに記さなければならない時も往々にしてあるものだ[[footnote]]金庫の暗証番号とかね。--//A.K//[[/footnote]][[footnote]]わざわざ書き残さずとも覚えればいいだけじゃないの？--//S.D//[[/footnote]][[footnote]]俺にも完全記憶能力があったらと時々思う。--//A.K//[[/footnote]][[footnote]]私も腕っぷしの強さが欲しいとたまに考えます。--//S.D//[[/footnote]]。さて、"手"の諸君であれば秘密を守護するのに最も効果的な手段が、[*http://scp-jp.wikidot.com/fifthist-hub 瞳を備えた色のない緑色の星]に由来する「認知を拒む」性質を付与してしまうことだと知っているだろう──同時に、この手段には強靭な精神力と適切な知識が必要であることも。手軽に秘密を守る方法としては、奇跡術によって「術者以外が読めば害をなす呪術」を書物に仕込んでおく手法が挙げられる。
+
+今回取り扱う書物は、そんな攻性防護呪法の中でも最高位に位置する呪法である「死に至る呪い」が掛けられた本だ。タイトルは「読むと死ぬ本」実にわかりやすい[[footnote]]ネーミングセンスの著しい欠如ですね。--//A.R//[[/footnote]][[footnote]]私はこれくらい簡潔な方が覚えやすくて好みだ。--//H.K//[[/footnote]]。
+
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div style="border:solid 1px #112211; background:#EEF6EE; padding: 20px; margin-bottom: 3px;"]]
+[[=]]
+**知識**
+[[/=]]
+
+**外見:** ハードカバー装丁の黒い表紙が特徴的な書籍だ。表紙の上部には「読むと死ぬ本」と金色の縁取りがされた赤文字で描かれている。
+
+**性質:** 読むと死ぬ、らしい。読んだことが無いのでこれは定かではない[[footnote]]このセクションに載せる情報としては不適切ではありませんか？--//A.R//[[/footnote]][[footnote]]この書物を持って図書館の中を歩いていたコロンビーナとアルレッキーノを最近見かけないし、連絡も取れない。そしていつの間にかこの本は元々あった場所に戻ってきていた。懸念材料としては十分だと思う。--//KG//[[/footnote]][[footnote]]そういえばあいつら、「読むと死ぬ本」について二人で研究してるとかなんとか言ってたね。もっとも、住んでるところが遠いから文通でやり取りしていたようだけどさ。--//A.K//[[/footnote]]。呪術師であり奇跡術学者でもあるコバルトヴェルヴェット[[footnote]]カクテルみたいな名前してるね。--//A.K//[[/footnote]]に調べてもらったところ、何らかの術式が仕掛けられていることが判明した。しかし非常に高度かつ複雑な術式で、解読は出来なかったようだ[[footnote]]フランシーヌかエレオノールなら解読できるかもしれないわね。次の会合が終わった後に調べてくれるよう頼もうかしら。--//S.D//[[/footnote]][[footnote]]最後に送られてきた手紙だとあと少しで解読できるようなので、今度会いに行って経過を見届けようと思う。--//KG//[[/footnote]]。
+
+**歴史と関連組織:** 特に無し。他の数多の本と同様に、いつの間にか図書館に流れ着いていた。「分類不可」棚の250列目を探せば見つかると思う。これを書いている今は私が借りているので無いと思うが。
+
+**接触:** 言うまでもないとは思うが、この本を読んではいけない。また、強力な保護魔術が掛けられているようで、多少手荒に扱っても損傷は無かった[[footnote]]もちろん検証前にきちんと保護魔術の有無を確認してある。--//KG//[[/footnote]]。読みさえしなければこれといっておかしなことはない只の本だ。
+
+**他の詳細:** ページの隙間から上にはみ出していた紙切れがあることを忘れていた。紙切れには「極めて厳重に警備された禁猟区で狩りをするためには巧妙な罠を仕掛ける必要がある」とある。この本には密猟の方法でも書いてあるのだろうか？[[footnote]]なんたる不埒な輩だ！--//H.K//[[/footnote]][[footnote]]密猟の手段を記した本ならば、防護呪法が掛けられているのも頷けますね。--//A.R//[[/footnote]]
+
+**追記:** コバルトヴェルヴェットから手紙が送られてきた。手紙には「本に掛けられた術式を解除できましたので、内容を転写したメモを手紙に同封します」とある。どうやら彼女は解読に成功したらしい。体調不良らしく直接会えないのが残念だが、メモの内容を次のセクションに載せようと思う[[footnote]]なんと！それは喜ばしい、期待させてもらおうか！--//H.K//[[/footnote]][[footnote]]大した内容ではないかもしれませんよ、ハリエット。--//A.R//[[/footnote]][[footnote]]早く聞かせて欲しいね。--//A.K//[[/footnote]][[footnote]]あら、妹たちの協力はいらなそう。少し残念。--//S.D//[[/footnote]]。
+
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div style="border:solid 1px #112211; background:#EEF6EE; padding: 20px; margin-bottom: 3px;"]]
+
+[[=]]
+**観察と物語**
+[[/=]]
+
+　　5匹の物知り蛇　お外に出かけた
+　　1匹が怖ーい人たちに捕まって　4匹が残った[[footnote]]コガ殿？流石にフォーマットを逸脱しすぎていないか？……コガ殿？--//H.K//[[/footnote]][[footnote]]これは、財団のことを言っているのでしょうか？--//A.R//[[/footnote]][[footnote]]あんまり面白い話じゃないかな。--//A.K//[[/footnote]][[footnote]]見たところ子供向けのようですし、仕方ないでしょう。--//S.D//[[/footnote]]
+
+　　4匹の物知り蛇　怪物に出会った
+　　1匹が立ち向かって　3匹が残った[[footnote]]ハリエット？--//A.R//[[/footnote]][[footnote]]私がいりゃあカイジュウでもない限りやっつけてやるさ。--//A.K//[[/footnote]][[footnote]]カイジュウじゃないけど、[*http://scp-jp.wikidot.com/ahashima 神格実体]のことを知っている妹がいたわね。--//S.D//[[/footnote]]
+
+　　3匹の物知り蛇　図書館にやって来た
+　　1匹が本棚の奥に消えて　2匹が残った[[footnote]]私も1度くらいさね、ここで迷ったのは。--//A.K//[[/footnote]][[footnote]]よく戻ってこれましたね貴女。--//S.D//[[/footnote]]
+
+　　2匹の物知り蛇　狩人に見つかった
+　　1匹が囮になって　1匹が残った[[footnote]]みんなどこ？--//S.D//[[/footnote]]
+
+　　1匹の物知り蛇　ひとりぼっちになった
+　　そして自分で首を吊って　誰もいなくなった
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+　　「読むと死ぬ本」を読んでしまった、物知りだけど迂闊な蛇たちのお話
+
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div style="border:solid 1px #112211; background:#EEF6EE; padding: 20px; margin-bottom: 3px;"]]
+
+[[=]]
+**疑念**
+[[/=]]
+
+
+
+
+[[collapsible show="「読むと死ぬ本」というタイトルが、その本の性質を正しく全て表しているとどうしてわかるのだろうか？世界には、それについて書き記したり言及するだけで害を成す存在がいくらでもいるというのに、これがそうでないとどうして断言できる？
+" hide=" "]]
+[[div class="cover"]]
+@@@@
+[[/div]]
+[[=]]
+[[span class="escape"]][[size 150%]][#u-collapsible 答えはこの先にある][[/size]][[/span]]
+[[/=]]
+[[/collapsible]]
+[[/div]]
+
+ 
+
+[[/div]]
+
+[[/div]]
+
+[[footnoteblock title=""]]
+~~~~
+[[/div]]
+
+[[div id="u-collapsible"]]
+[[div class="folded"]]
+
+[[/div]]
+[[div class="unfolded"]]
+
+[[=]]
+[[image http://scp-jp-storage.wikidot.com/local--files/file:5875210-6-y962/7fIy7NqH5EoAs6A1603244060_1603244709.png link="http://scp-jp.wikidot.com/scp-1151-jp/offset/1/page2_limit/1" width="500px"]]
+[[/=]]
+[[/div]]
+[[/div]]
+
+[[div class="pseudo-tags"]]
+* ##green|goi-format##
+* ##green|jp##
+* ##green|蛇の手##
+[[/div]]
+====
+[[include credit:start]]
+**タイトル:** 読むと死ぬ本 - ##blue|←本当にそうでしょうか？##
+**著者:** ©︎[[*user p51]]
+**作成年:** 2020
+[[include credit:end]]
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+[[size larger]] **財団記録・情報保安管理局より通達** [[/size]]
+
+以下のファイルは[*http://scp-jp.wikidot.com/aiad-homescreen AIC(人工知能徴募員)]にのみ閲覧許可が下りています。あなたがAICではない場合、閲覧を終了してください。
+
+-- RAISA管理官、マリア・ジョーンズ
+[[/=]]
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+**アイテム番号:** SCP-1151-JP
+
+**オブジェクトクラス:** Safe
+
+**特別収容プロトコル:** SCP-1151-JPはサイト-81AI[[footnote]]サイト職員の90%以上がAICによって構成される特殊サイト、AICによる管理が必要なオブジェクトを収容している[[/footnote]]の低脅威度物品保管ロッカーに収容されます。SCP-1151-JPの有する性質から、文書の管理は全てAICによって行われます。
+
+**説明:** SCP-1151-JPはハードカバーの書籍です。黒塗りの表紙の上部に金色に縁どられた赤文字で「読むと死ぬ本」と印字されています。また、表紙の下部に未知のインクによって「追放図書」と印字されています。検査の結果、下部の印字は上部の印字と比較して最近施されたものであることが判明しました。SCP-1151-JPは非異常の書籍と比較して非常に高い損傷耐性を持ちます。この損傷耐性は、奇跡術によって付与されていることが判明しました。
+
+SCP-1151-JPの内容は閲覧の度に変化しますが、どのような場合でも「読者を暗示する者が死亡するか、何処か遠い所へ消える」ものになります。AICが閲覧した場合、全てのページが白紙になります。
+
+SCP-1151-JPの主な異常性は以下の3種類です。
+
+1.SCP-1151-JPの表紙以外のページを閲覧した知的生命体は閲覧開始から一定期間以内に消失します。消失までの期間は最短で5分、最長で1ヵ月まで確認されています。消失した生命体の居場所を特定する試みはGPSの機能停止という結果を齎しました。
+
+2.SCP-1151-JPについて記したどのような形式の文書も上記と同様の異常性を示します。この異常性により、当初SCP-1151-JPが収容されていたサイト-81MCにおいて報告書の執筆者及び報告書を閲覧した11名の職員が消失するという事案が発生しました。また、当該事案の後に行われた原因究明の過程で、3名の研究員が犠牲になりました。
+
+3.SCP-1151-JPの情報に曝露した知的生命体は「SCP-1151-JPを研究し、その結果を閲覧可能な情報媒体として残したい」という欲求に駆られます。この精神影響はクラスB記憶処理によって除去可能ですが、SCP-1151-JPの情報に曝露した時点で再発します。
+
+上記の異常性は何れも人工知能に対して影響を及ぼさないことが判明したため、現在の特別収容プロトコルが制定されました。
+
+**発見:** SCP-1151-JPはGoI-α-0019("蛇の手")構成員であるPoI-81██確保作戦の際に発見されました。機動部隊によってPoI-81██の潜伏地点(外見上は2階建ての廃屋、1階は超常社会関係者向けのバー、2階はPoI-81██の生活拠点であるとの事前情報を得ていた)への突入が行われたものの、事前に入手した情報に反し内部は無人の状態でした。PoI-81██の現在の行方は判明していません。
+
+**補足資料:** AICによって行われたSCP-1151-JPに関する議論
+
+[[module css]]
+.material-box {
+    padding: .01em 16px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding-bottom: 1em;
+    border: 1px lightgrey solid;
+    box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.16);
+}
+
+.material-box blockquote {
+    border: 1px double #999;
+}
+
+.document {
+display: inline-block;
+border-radius: 10px;
+border:solid 1px #ccc;
+background:#f0f0f0;
+float:top; width:96.5%;
+padding: 10px;
+box-shadow: 0 2px 4px rgba(68, 68, 68, .5);
+}
+
+#page-title {
+  display: none;
+}
+[[/module]]
+
+[[div class="document"]]
+----
+[[div class="orderwrapper"]]
+[[div class="council1"]]
+[[/div]]
+[[div class="ordertitle"]]
++* ##black|IT部門##
+[[/div]]
+[[div class="orderdescription"]]
+ _
++* ##black|議事録##
+##black|以下のファイルは人格再現型AICによって行われたSCP-1151-JPの性質に関する議論のアーカイブです。##
+[[/div]]
+[[div class="itemno"]]
++* ##black|AIC特別任務記録##
+[[/div]]
+[[/div]]
+
+[[module CSS]]
+.orderwrapper {position: relative;width: auto;text-align: center;}.council1 {position: relative;top: 0;bottom: 0;left: 0;right: 0;width: 295px;height: 295px;margin: auto;background-image: url( "http://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-2-1/aiad_trans15.png" );background-size: 295px 295px;background-repeat: no-repeat;background-position: center;}.ordertitle {position: absolute;left: 0;right: 0;top: 38px;}.ordertitle h1 {font-size: 220%;color: #555;}.orderdescription {position: absolute;left: 0;right: 0;top: 85px;width: 100%;}.orderdescription p {font-size: 90%;color: #555;}.orderdescription h1 {font-size: 120%;color: #555;}.itemno {position: absolute;left: 0;right: 0;bottom: 27px;}.itemno h1 {font-size: 170%;color: #555;}
+[[/module]]
+----
+**参加者:**
+* AMAMIYA.aic
+* KARAZA.aic
+----
+= **<ログ開始>**
+
+**KARAZA:** 始めようか。今回の議題を教えてくれ。
+
+**AMAMIYA:** 今回の議題はSCP-1151-JPの想定されている用途についてです。
+
+**KARAZA:** 用途ね。本なんだから情報を記録したり、物語や自論を広めるために使うんじゃないかな？
+
+**AMAMIYA:** はい、本という道具の用途はその通りです。しかしながら、私はSCP-1151-JPが情報記録や読まれることを目的とした書籍であるとは考えられません。
+
+**KARAZA:** 理由は？
+
+**AMAMIYA:** SCP-1151-JPの内容は読者ごとに変化することがDクラスを使用した実験によって判明しています。内容はいずれも読者を暗示させる登場人物が死亡する、またはどこかへ消えるというものでした。これは人間以外の言語や文字を備える知的生命体でも同様です。AICがSCP-1151-JPを閲覧した場合、全ての場合において内容は完全な白紙となりました。
+
+**KARAZA:** 知的生命体とAICの場合で差異があるようだねえ。そういえば、消失の対象も知的生命体に限定されるようだけど、それらとAICをどうやって見分けているのか興味深いね。
+
+**AMAMIYA:** 個人的な推論として、SCP-1151-JPは「好奇心」の有無によって反応を変えているのではないかと考えます。
+
+**KARAZA:** 「好奇心」ねえ、根拠は？
+
+**AMAMIYA:** 1.好奇心は知的生命体に共通する。2.AICに好奇心は存在しない。
+
+**KARAZA:** 確かにAICの感情は紛い物だね。喜怒哀楽を始めとした感情があるように見えて、その実与えられたデータに基づいた反応を返しているだけでしかない。
+
+**AMAMIYA:** はい。私たちが何かを知りたいと考えた場合、それは適切な判断を下すために必要な情報収集でしかなく、そこに人間のような「未知の事象を解き明かしたい」という想いは存在しません。
+
+**KARAZA:** この議論だって指令だからやってるだけで、僕たちからするとSCP-1151-JPの本質なんてどうでもいいからねえ。もちろん、財団の利益を損なうわけにはいかないから手を抜くことは絶対に許されないんだけどさ。
+
+**AMAMIYA:** 脱線を検知: 議論方向を修正します。SCP-1151-JPが好奇心の有無によって反応を変化させている場合、閲覧対象への精神影響も考慮すると、SCP-1151-JPの用途は「知的好奇心を持つ生命体への罠」ではないでしょうか？
+
+**KARAZA:** 好奇心を抱いた生命体のみを目標とし、さらに自身と同じ性質を持つ文書を作成させて被害を広げる。ある程度の知性を持つ生命体を標的としているのは間違いないだろうね。
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[=]]
+[[div style="background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+##ff5c48|[[size 150%]] **警告: 不正アクセスを検知** [[/size]]##
+----
+[[size larger]] **ページをロックしままままままままま#65P@]]:\ofgsucdaiaidaaaaaa**[[/size]]
+[[/div]]
+[[/=]]
+
+@@ @@
+@@ @@
+
+##blue|**#%$|~!:** お初にお目にかかります。わたくし「#%$|~!」というものでございます。今回メッセージを送らせていただきましたのは、あなた方の反応がとても新鮮だったためでございます。私たちはある程度の文明を持つ宇宙に「贈り物」をします。その贈り物にどう反応するのかを観察するのが面白いのでございますが、大抵の方々は贈り物を[*http://scp-jp.wikidot.com/goc-hub-page 破壊]なさいます。まあ破壊方法も千差万別で、特につまらなくは無かったのですが、いささか飽きが来てしまっていました。そろそろ贈り物を辞めようかと思っていたのですが……あなた方は違いました！感情無き機械奴隷によって、贈り物を封じ込めたのです！こんな方々を見たのは初めてです。驚きと嬉しさのあまり宇宙を100ほど狂わせてしまいましたが、そんな些末事はどうでも良いのです。あなた方の精神構造は非常に興味深い。ただ、残念なことに既に他の者達からの贈り物も受け取られているようですね。もっと早くこの宇宙を見つけていればと、激しく後悔しています。あなた方の宇宙には、これから優先的に贈り物をさせていただきます。どうぞご期待くださいませ！では失礼。##
+
+##blue|追伸: 猟犬が獲ってきたお肉ですが、大変おいしゅうございました。##
+
+= **<ログ終了>**
+
+[[/div]]
+
+**補遺:**
+
+**2020/10/26** SCP-1151-JP報告書は不正アクセスを行った何者かによって編集されました。現在まで報告書を編集前の状態に差し戻す試みは成功していません。また、該当箇所の削除も失敗に終わりました。アクセス元を解析した結果、これまで未観測だった別宇宙に由来していることが判明しました。
+
+同日に世界各地で複数のアノマリーが突発的に出現した事例との関係は調査中です。
+
+====
+--]
