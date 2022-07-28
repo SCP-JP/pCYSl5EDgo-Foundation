@@ -1,0 +1,294 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:fade-in speed=4]]
+[[module CSS]]
+div#container-wrap {
+    background-image: url(http://scp-wiki.wikidot.com/local--files/grigori-karpin-s-author-page/backgroundVK-1);
+}
+:root {
+    --logo-image: url("http://scp-wiki.wikidot.com/local--files/grigori-karpin-s-author-page/vklogotransparent-1.png");
+    --header-title: "  Vikander-Kneed";
+    --header-subtitle: "   Technical Media";
+
+--color: 48, 151, 207;
+--yellow: 238, 244, 64;
+--dark-accent: var(--color);
+--medium-accent: var(--color);
+--bright-accent: var(--color);
+--link-color: var(--color);
+--visited-link-color: var(--yellow);
+--hover-link-color: var(--yellow);
+
+}
+
+/* Adjust Mobile Image Size */
+@media (max-width: 479px) {
+#header {
+    background-size: 100px 100px;
+    background-position: 1em;
+}
+}
+
+.info-container{
+--barColour: #3097CF;
+--linkColour: #EEF440;
+}
+
+#page-content hr {
+border-top: none;
+height: .05em;
+background: #454545;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;
+}
+
+#page-content > .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: .8em;
+    background-color: #e3e3e3;
+    border-top: 0.125rem dashed #b5b5b5;
+    border-bottom: 0.125rem dashed #b5b5b5;
+}
+
+#page-content > .collapsible-block .collapsible-block-content {
+    text-align: left;
+}
+
+blockquote,
+div.blockquote {
+    border: 0.125rem solid #d4d4d4;
+    background-color: #F5F5F5;
+}
+
+.interview{
+    border:solid 2px #d4d4d4;
+    background:#F5F5F5;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+.addendum{
+    border:solid 1px #5e5e5e;
+    background:#ffffff;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+#page-title{display:none}
+
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div style="text-align: right; margin-top: -20px;"]]
+[[size 80%]]##757575|by PlaguePJP##[[/size]]
+[[/div]]
+ 
+[[include component:info-ayers
+|lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=scp-6591[!-- url of your page on the scp wiki --]
+|authorPage=http://www.scp-wiki.net/plaguepjp[!-- link to your author page --]
+|comments= 'Cize Up! - PlaguePJP
+]]
+
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 6591
+|clearance= 3
+|container-class= safe
+|secondary-class= none
+|disruption-class= vlam
+|risk-class= caution
+]]
+-----
+
+**Special Containment Procedures:** SCP-6591 are contained in Site-43's High-Yield Data Storage Facility 3. An investigation into the studio in which SCP-6591 was filmed is currently underway. Dr. Harold Blank is currently overseeing the operation; all information is to be forwarded to him and into the GOI-5889 file.
+
+-----
+[[div class="scp-image-block block-right" style="width:55%;"]]
+[[image http://scptestwiki.wikidot.com/local--files/jawn-eight/cizeupmain.png style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+Still from SCP-6591-1.
+[[/div]]
+[[/div]]
+
+**Description:** SCP-6591 designates a set of VHS tapes containing Jazzercize-style instruction videos entitled "'Cize Up," produced by Vikander-Kneed Technical Media (GoI-5889).
+
+Of the four known to exist, the Foundation is currently in possession of one VHS, designated SCP-6591-1. Those who actively view SCP-6591, regardless of their participation, will experience increased appetite, lowered metabolism, and extreme exhaustion. Testing revealed that long-term exposure could cause a weight gain of up to twenty-three kilograms within the span of thirty days.
+
+SCP-6591 tapes, while advertised as exercise instructional videos, are nonsensical in their programming, with only one segment between tapes that could be considered an exercise instructional video. Footage also shows unfinished elements, leading to the conclusion that SCP-6591 tapes were not meant to be released, at least in their current form. (See Addendum One).
+
+SCP-6591-A is the host of SCP-6591. It resembles a human female clothed in a blue leotard. Its face is yet to be viewed, as it is always hidden under a black burlap sack. This mask lacks eye or breathing holes, and it is tied around its neck with a shoelace. 
+
+Repeat viewings will sometimes contain references to the events of previous playthroughs, including equipment or tools, background dancers, and/or spilled bodily matter.
+
+
+**Addendum 6591.1:** Abridged Episode Transcripts
+
+//The following is a transcript of the 26th rewatch of SCP-6591-1.//
+
+[[collapsible show="+ Open Addendum+" hide="- Close Addendum -"]]
+> -----
+> **Section Title:** "Introduction"
+> -----
+> [[div class="scp-image-block block-right" style="width:55%;"]]
+> [[image http://scptestwiki.wikidot.com/local--files/jawn-eight/introduction.png style="width:100%;" link=#]]
+> [[div class="scp-image-caption" style="width:100%;"]]
+> Title Card.
+> [[/div]]
+> [[/div]]
+> 
+> //(SCP-6591-A is seated on a stool in front of a distant purple curtain. The floor is composed of glossy hardwood, typical of raised stages. A disco rendition of Beethoven's Moonlight Sonata is overlayed as background music.)//
+> 
+> **SCP-6591-A:** Hi, I'm //(Gurgling)//, and welcome to 'Cize Up. This is my custom workout dance routine dedicated to getting those many limbs a-wigglin' and that heart a-poundin' for dear life! 
+> 
+> //(A cut; SCP-6591-A is now standing, the stool is gone.)//
+> 
+> **SCP-6591-A:** Now, we may be goin' fast, but don't worry! If you get lost just follow what I do. Just follow me!
+> 
+> //(Shuffling is seen behind SCP-6591-A. From beneath the curtain, a duplicate of SCP-6591-A crawls towards the camera.)//
+> 
+> **Duplicate SCP-6591-A:** Just follow us!
+> 
+> **SCP-6591-A:** To get the most out of this workout, make sure you're pushing yourself to the limit. I hear people say "no pain no gain" all the time. Remember, if you feel like crying, please do! And keep going while you're at it!
+> 
+> //(Two more duplicate instances appear from behind the curtain, this time dropping from above the curtain.)//
+> 
+> **Duplicates in Unison:** Just follow us!
+> 
+> **SCP-6591-A:** I'll be honest, if you're watching this, you're probably at rock bottom. Sad, sad, sad — sad that you've let yourself get to the point where dancing is a chore. I pity you.
+> 
+> //(A final three SCP-6591-A duplicates walk into the frame.)//
+> 
+> **Duplicates in Unison:** Just follow us!
+> 
+> **SCP-6591-A:** What are we waiting for? Let's 'Cize Up!
+
+> -----
+> **Section Title:** "Prayer"
+> -----
+> 
+> [[div class="scp-image-block block-right" style="width:55%;"]]
+> [[image http://scptestwiki.wikidot.com/local--files/jawn-eight/prayer.png style="width:100%;" link=#]]
+> [[div class="scp-image-caption" style="width:100%;"]]
+> Title Card.
+> [[/div]]
+> [[/div]]
+> 
+> //(Dancers enter the studio in silence, all holding lit candles. The dancers, mostly women and a few men, are wearing similarly colored leotards or leggings to SCP-6591-A. Their faces are visible, albeit expressionless. None have been identified. )//
+> 
+> //(They organize themselves into rows, all facing the main stage, which is raised about 1.5 meters off the ground. SCP-6591-A is kneeling with its arms outstretched, each hand grasping a torch.)//
+> 
+> **SCP-6591-A:** //(Whispered.)// This is an exercise in your will. Much like a rubber band, you can pull and pull, and eventually, it will snap. Let's try to get you there. Extend your arms outward and kneel on the ground. It's going to hurt. Your muscles may atrophy and your knees may ache, but that's a testament to how much better you will be when it's all over.
+> 
+> //(The recording continues in silence for twenty-three minutes as the camera walks between the motionless dancers. Splotches of dried wax are seen scattered on the ground from previous watches. Burns are also seen on some fingers of the dancers. The section abruptly concludes on a wide shot of SCP-6591-A.)// 
+
+> -----
+> **Section Title:** "Tournament" This section has the word "CUT" overlaid on the title card.
+> -----
+>
+> [[div class="scp-image-block block-right" style="width:55%;"]]
+> [[image http://scptestwiki.wikidot.com/local--files/jawn-eight/tournament.png style="width:100%;" link=#]]
+> [[div class="scp-image-caption" style="width:100%;"]]
+> Title Card.
+> [[/div]]
+> [[/div]]
+>  
+> //(This section is comprised of static for three minutes. Various distorted images are interspersed within, with the clearest being the aforementioned dancers linked by hand around SCP-6591-A.)//
+> 
+>  //(The static abruptly cuts to a handheld camera peering through a window outside of the studio. Two dancers are seen sprinting away from SCP-6591-A while the remaining dancers are sat on the floor, breathing heavily and/or nursing injuries.)//
+> 
+> //(There is the sudden sound of a metallic bang, believed to be an inner door.)//
+> 
+> //(A door leading onto the pavement opens to the right to the cameraman, who quickly pans. The dancers stand motionless on the sidewalk, staring with expressions of concern and fear into the camera. The feed cuts to static.)//
+
+> -----
+> **Section Title:** "Homicize"
+> -----
+> [[div class="scp-image-block block-right" style="width:55%;"]]
+> [[image http://scptestwiki.wikidot.com/local--files/jawn-eight/homicize.png style="width:100%;" link=#]]
+> [[div class="scp-image-caption" style="width:100%;"]]
+> Title Card.
+> [[/div]]
+> [[/div]]
+> 
+> //(The "'Cize Up" Theme Song begins once again, now slightly pitched down.)//
+> 
+> **SCP-6591-A:** I think it's time for some old-school 'Cizing; we can get carried away sometimes!
+> 
+> //(The dancers have once again organized themselves into rows, with about a wingspan's distance between each other. They are all stepping side to side to the beat of the song, following SCP-6591-A's movement. One dancer, a younger woman, is stepping in a large puddle of what appears to be brain tissue and blood.)//
+> 
+> **SCP-6591-A:** Let's shake it up! Now this exercise, in all honesty, doesn't work. I just think it's funny to watch you people think you're actually doing something right now!
+> 
+> //(The group rocks their shoulders back and forth.)//
+> 
+> **SCP-6591-A:** Keep it going! You notice how easy it is to follow the leader when you let your guards down. Let's run in place!
+> 
+> //(The dancers jog in place.)//
+> 
+> **SCP-6591-A:** You people feel bad about yourselves. And you think I have the power to fix it. I'm your god. You listen to me because I have the answers. Nothing's stopping you from turning this off, but you won't, you're in too deep. You have to make this a routine — you gotta trick your brain into liking this so you keep doing it.  
+> 
+> //(SCP-6591-A switches to a back and forth hop. The dancers immediately follow.)//
+>  
+> **SCP-6591-A:** And let's do this! I own these people. They're mine. They believe in me, as do you. You'll keep watching, grasping towards that unattainable goal you'll give up on in a month. But that's alright, all we're gonna do is 'Cize Up! Let's run in place again!
+> 
+> //(SCP-6591-A climbs off stage; the dancers proceed with a side-to-side lunge. SCP-6591-A jogs over to a weight rack, retrieving a 10-pound weight and carrying it over to the woman dancing in the puddle.)//
+> 
+> **SCP-6591-A:** Keep it goin'! Some feedback I got from the last tape was that you guys wanted a few more alternate exercises for muscle growth along with cardio. Some of the best workouts for your shoulders come from swinging your arms around, especially with something heavy! 
+> 
+> //(SCP-6591-A draws the weight back, swinging it at the nearby dancer's face. The video cuts to static as it collides. The music continues blaring over wet banging sounds.)//
+> 
+> //(The video resumes for three seconds; SCP-6591-A is now kneeling, holding the weight behind its head.)//
+> 
+> **SCP-6591-A:** This one's great for your triceps! 
+> 
+> //(The video cuts to static again for two seconds before resuming, held on a shot of a dancer moving side to side, with the right side of his body splattered with blood.)//
+> 
+> //(Another cut, the camera is now following SCP-6591-A as it runs back on stage. The camera then lifts, now held at an angled bird's eye view. All dancers are waving towards it as SCP-6591-A speaks. Another pool of viscera is seen in the lower-left corner.)//
+> 
+> **SCP-6591-A:** Great job today, everyone! I'll sure be feeling //that// tomorrow! Remember, if you're not homocizin', you're not tryin'! Thanks for 'Cizin Up to us today and thanks for joinin'!
+
+[[/collapsible]]
+
+**Addendum 6591.2:** Investigation
+
+[[div class="scp-image-block block-right" style="width:55%;"]]
+[[image http://scptestwiki.wikidot.com/local--files/jawn-eight/city.png style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+Pulled frame.
+[[/div]]
+[[/div]]
+
+
+
+The image of the skyline shown in the third section was examined. Foundation operatives were able to deduce that the "'Cize Up" studio was located in Erie, Pennsylvania. An investigation ensued, and the building SCP-6591 was filmed at was found.
+
+The studio was empty, save for a trail of blood leading to a storage closet and 52 smoking torches in the backstage area. Within the closet were twenty-six bodies, female, all wearing the same clothes with similar injuries to the head. The oldest body had only been dead for twelve hours.
+
+[[footnoteblock]]
+----
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6590]]] | SCP-6591 | [[[SCP-6592]]] >>
+[[/=]]
+[[/div]]
+----
+[[include component:wikimodule |ratings= --]]]

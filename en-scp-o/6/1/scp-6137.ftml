@@ -1,0 +1,404 @@
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[module CSS]]
+.fakeprot .mailform-box .buttons{display:none;}
+.fakeprot + .collapsible-block .collapsible-block-link {padding: 0.1em 0.5em;text-decoration: none;background-color: #F4F4F4;border: 1px solid #AAA;color: #000;}
+.fakeprot + .collapsible-block .collapsible-block-link:hover {background-color: #DDD;color: #000;}
+.fakeprot + .collapsible-block .collapsible-block-link:active {background-color: #DDD;color: #000;}
+.fakeprot + .collapsible-block .collapsible-block-unfolded-link{margin:0.5em 0;text-align: center;}
+.fakeprot + .collapsible-block .collapsible-block-folded{margin:0.5em 0;text-align: center;}
+.fakeprot .passw input[type=text] {text-security:disc;-webkit-text-security:disc;-mox-text-security:disc;}
+.mailform-box td:first-child {width: 80px;}
+[[/module]]
+
+
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+++++ NOTICE FROM THE FOUNDATION RECORDS AND INFORMATION SECURITY ADMINISTRATION 
+
+This is a placeholder entry. The designation SCP-6137 has been held indefinitely at the request of Infohazard Specialist Ida Nguyen with my approval. Under no circumstance is the designation to be used for any SCP object.
+
+-- Maria Jones, Director, RAISA
+[[/=]]
+[[/div]]
+
+[[size larger]]
+@@> @@Checking Geofence data...
+...
+...
+...
+...
+@@> @@Location confirmed.
+@@ @@
+@@ @@
+@@ @@
+@@> @@Please enter your Site-137 credentials.
+[[/size]]
+
+[[div class="fakeprot"]]
+[[module MailForm to="aaaa (DUMMY)" button=""]]
+# name
+ * title: ID
+ * default: fboyette
+ * type: text
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
+[[/module]]
+[[div class="passw"]]
+[[module MailForm to="aaaa (DUMMY)" button=""]]
+# affiliation
+ * title: PASSWORD
+ * default: ・・・・・・・・・
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
+[[/module]]
+[[/div]]
+[[/div]]
+[[collapsible show="Login" hide="Logout"]]
+
+[[size larger]]
+
+[[=]]
+[[div style="background: url("https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png") center no-repeat; float: center; border: solid 2px #000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
++ WARNING: THE FOLLOWING FILE CONTAINS A CLASS 5 INFOHAZARD.
+----
++++ PERSONNEL ACCESSING THIS FILE WITHOUT LEVEL 2/6137 CLEARANCE HAVE 24 HOURS TO REPORT TO SITE-137. THIS IS FOR YOUR OWN SAFETY AND THE SAFETY OF THOSE AROUND YOU.
+[[/div]]
+[[/=]]
+@@> @@Welcome, Dr. Boyette.
+@@> @@
+@@> @@ **Alert: Site-137 has been locked down on the orders of** Acting Site Director Ida Nguyen 
+@@> @@ **All personnel are to remain on site until further notice.**
+@@> @@ **Computer access is restricted to the Site-137 intranet.**
+@@> @@ **Lockdown is expected to be lifted in**  -9999 Days
+
+[[/size]]
+> I know this was pointed out already, but it *cannot* be stressed enough. If you're reading this and you're not in Site-137, do everything in your power to get here within a day. It's imperative that you don't tell anyone. Drop what you're doing and leave immediately. If you can't get to Site-137, find a nice place to sit, maybe get a good book and your favorite music, and just... enjoy your day. Consider this your final warning.
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+
+|item-number= 6137
+
+|clearance= 2
+
+|container-class= euclid
+
+|secondary-class= none
+
+|secondary-icon= https://urlhere.com
+
+|disruption-class= ekhi
+
+|risk-class= danger
+
+]]
+
+
+
+**Containment Procedures:** It's just us now, so there's no real need for formality.
+
+Site-137 is in full lockdown. We had just enough time to request a weekly shipment of things we're going to need to survive - food, clean water, paper goods, entertainment, that sort of thing - and modify SCP-6137's database entry, but we are currently on a full communications blackout, and will be for... well, let's not kid ourselves, pretty much forever. 
+
+SCP-6137 exists. It's currently housed in a standard Type 1 Humanoid Containment Cell, but it's allowed to visit the recreation center and mess hall as a reward for its continued cooperation, as well as to help reinforce its existence. Basically, you'll be seeing it around the site a lot. We'll be making references to its existence every thirty minutes over the PA, along with twice daily roll calls for all Site-137 personnel, along with any additional names that have been added.
+
+When in the recreation center and mess hall, do NOT mention anyone not currently assigned to Site-137. We're not going to implement any draconian measures yet, but there are lives on the line. We will not hesitate to enforce this any way we can. Help us keep our tongues, is what I'm saying.
+
+If SCP-6137 mentions the name of someone that isn't Site-137 personnel, immediately inform Drs. Nguyen or Boyette.
+
+Site-137's only purpose now is the housing and comfort of SCP-6137. 
+
+**Description:** SCP-6137 is a humanoid of indeterminate gender or racial background[[footnote]]It has no visible primary or secondary sexual characteristics, and genetic testing reveals no known genetic markers for gender or race[[/footnote]], 2.1 meters tall and about 75 kilos. It is currently very cooperative with Foundation staff and has a gentle disposition, though thus far it has been unable or unwilling to recall the origin of its abilities. 
+
+There are numerous tattoos on its body in wildly different styles, mostly names of various origin[[footnote]]So far, we've identified what we believe to be Mediterranean, East Asian, North African, Mesopotamian, and at least one [[[*https://scp-wiki.wikidot.com/scp-5563 | Bombauni]]].[[/footnote]]. SCP-6137 has been unable to give details about any of them, just that it feels they were important to it at one point. I know we're all under a good bit of stress, but please don't bring attention to its tattoos. Nobody needs the sadness.
+
+Anyone learning of its existence will actively attempt to ignore, deny or forget its existence. From what we can tell, about an hour after learning of its existence or being reminded of such, an outside observer will in some way lose any memory of SCP-6137's existence. It's been different in every observed instance, from contemptuous dismissal to a simple mental block. Any reminder of SCP-6137's existence will cause the affected individual to regain all memory of it. 
+
+Once SCP-6137 has learned of a sentient being's existence, roughly twenty-four hours after first contact SCP-6137 will permanently forget that being and will be unable to create new memories about them. When SCP-6137 has forgotten them, they will cease to exist. We still remember them, there's still evidence of their existence, but for all intents and purposes they just suddenly... aren't. Admittedly, there's the slim possibility that they've just been transferred to a different location, but we're not taking the risk. (See Addendum 6137.3)
+
+SCP-6137 will become aware of any sentient being that learns of SCP-6137's existence[[footnote]]Hence the hoops you had to jump through to access this page.[[/footnote]]. Given our current circumstances, we're not exactly sure when SCP-6137 becomes aware of them, but any names it mentions will be added to the roll call in any event.
+
+A full list of the people we've lost can be found in the mess hall. Please don't make me add to it.
+
+[[include :scp-wiki:component:coltop
+| show=+ Addendum 6137.1 - Interview Log:
+| hide=- Addendum 6137.1 - Interview Log:
+]]
+
+> **Date:** 28/03/2014
+> 
+> **Conducting Interview:** Head of Security Neill Fontaine
+> 
+> **Background:** SCP-6137 had been taken into Foundation custody on 28/02/2014 after approaching a guard at Site-137 and requesting to be contained. Though no anomalous abilities were noted by Foundation researchers or SCP-6137 itself, Site Director Patrice elected to detain it regardless.
+> 
+> //**Begin Interview - 16:22 Local Time**//
+> 
+> **Fontaine:** So... SCP-6137.
+> 
+> **SCP-6137:** Yes.
+> 
+> **Fontaine:** We don't get a lot of people wanting to be contained. Very, very few, matter of fact.
+> 
+> **SCP-6137:** I assumed as much.
+> 
+> **Fontaine:** So you know how this looks. 
+> 
+> **SCP-6137:** I do. Please though, I deserve to be here.
+> 
+> **Fontaine:** I don't think you do. I don't know why Patrice let you in, but as soon as we figure out you're not radioactive or something, you're getting dumped on an oil rig somewhere.
+> 
+> //At this point, SCP-6137 becomes notably anxious//
+> 
+> **SCP-6137:** Please, no! Please, I need to be here!
+> 
+> **Fontaine:** You don't. I'm tired of this. This interview is over.
+> 
+> **SCP-6137:** I'm begging you, don't leave!
+> 
+> //SCP-6137 starts sobbing//
+> 
+> **SCP-6137:** I don't want to be alone anymore...
+> 
+> //**End of interview**//
+[[include :scp-wiki:component:colend]]
+
+
+
+[[include :scp-wiki:component:coltop
+| show=+ Addendum 6137.2 - Incident Log - 29/03/2014:
+| hide=- Addendum 6137.2 - Incident Log - 29/03/2014:
+]]
+
+> **12:55 -** Security officers Richard DiStephano and Genevieve Frady[[footnote]]The guards on front gate duty the day SCP-6137 turned himself in.[[/footnote]] fail to report to the front gates for shift change. Security is unable to locate them.
+> 
+> **16:32 -** Head of Security Neill Fontaine vanishes from the cafeteria, in full view of ten other personnel. Site-137 is locked down until he can be found.
+> 
+> **17:02 -** Senior Researcher Dr. Maurice Bredotaux disappears from his office. Surveillance footage confirms his disappearance in the same manner as Fontaine.
+> 
+> **17:15 -** Junior Researcher Harmon Williams goes missing.
+> 
+> **17:33 -** Dr. Boyette, while uploading Dr. Bredotaux's notes to Skipnet, remembers SCP-6137. As the personnel that had disappeared had come into contact with the entity, Dr. Boyette feels there may be a connection. Dr. Nguyen has been informed.
+> 
+> **18:07 -** Security Officer Daniel Chaise, the guard assigned to SCP-6137, abandons his post. Dr. Nguyen finds SCP-6137 unguarded.
+> 
+> **18:17 -** Director Armand Patrice vanishes from his office. It is determined that Security Officer Chaise also disappeared in the same manner.
+> 
+[[include :scp-wiki:component:colend]]
+
+
+[[include :scp-wiki:component:coltop
+| show=+ Addendum 6137.3 - Interview Log:
+| hide=- Addendum 6137.3 - Interview Log:
+]]
+
+> **Date:** 29/03/2014
+> 
+> **Conducting Interview:** Infohazard Specialist Dr. Ida Nguyen
+> 
+> **Forward:** Following the sudden disappearances of several senior personnel, Dr. Nguyen recognized a possible connection with SCP-6137. Upon finding its containment cell unguarded, she interviewed them in the hopes that she could learn more about the disappearances and, hopefully, figure out how to stop them.
+> 
+> //**Begin Interview - 18:07 Local Time**//
+> 
+> **SCP-6137:** Hello, Doctor... Nguyen, if memory serves?
+> 
+> **Dr. Nguyen:** That's right, but I think you know why I'm here.
+> 
+> **SCP-6137:** Excuse me?
+> 
+> **Dr. Nguyen:** People have been disappearing, and I feel you may know why.
+> 
+> **SCP-6137:** I'm afraid I don't know what you're talking about. 
+> 
+> **Dr. Nguyen:** I read the interview Mr. Fontaine had with you, and he said some things you probably didn't like. Where is he?
+> 
+> **SCP-6137:** That name doesn't mean anything to me. Who, may I ask, was he?
+> 
+> **Dr. Nguyen:** He was our security chief, you talked to him yesterday.
+> 
+> **SCP-6137:** Talked to whom?
+> 
+> **Dr. Nguyen:** What?
+> 
+> **SCP-6137:** Who did I talk to yesterday? I don't remember talking to too many people.
+> 
+> **Dr. Nguyen:** Ummm... Do you remember the name of the first agent to interview you?
+> 
+> **SCP-6137:** The first person I talked to was you.
+> 
+> **Dr. Nguyen:** No... His name was Fontaine.
+> 
+> **SCP-6137:** All right, I had no recollection of him. He must not have left that big an impression.
+> 
+> **Dr. Nguyen:** What was his name?
+> 
+> **SCP-6137:** I'm... I... don't remember.
+> 
+> **Dr. Nguyen:** What's my name?
+> 
+> **SCP-6137:** Ida Nguyen.
+> 
+> **Dr. Nguyen:** And our security chief?
+> 
+> **SCP-6137:** Ummm...
+> 
+> **Dr. Nguyen:** Fontaine. Say it back to me.
+> 
+> **SCP-6137:** Say what back to you? 
+> 
+> //Dr. Nguyen pulls out her phone and stands up//
+> 
+> **Dr. Nguyen:** I need someone from Communications and Containment to meet me outside Interview Room 3 immediately.
+> 
+> **//End Interview//**
+> 
+> 
+> 
+> **Note:** After the interview, Dr. Nguyen instated the current containment procedures.
+
+[[include :scp-wiki:component:colend]]
+
+[[include :scp-wiki:component:coltop
+| show=+ Addendum 6137.4 - Audio Log:
+| hide=- Addendum 6137.4 - Audio Log:
+]]
+
+> **Date:** 02/04/2014
+> 
+> **Personnel Involved:** Head of Research Dr. Francis Boyette, SCP-6137
+> 
+> **Forward:** This is the transcription of a conversation between SCP-6137 and Dr. Boyette, recorded in the hall between SCP-6137's chambers and the mess hall.
+> 
+> //**Begin Transcription - 15:45 Local Time**//
+> 
+> **SCP-6137:** Good afternoon, Doctor. Do you have a moment?
+> 
+> **Dr. Boyette:** Yes. I have nothing but moments. Everything alright with your accommodations?
+> 
+> **SCP-6137:** Yes, they have been adequate. Doctor... I've been having intrusive thoughts 
+> 
+> **Dr. Boyette:** Is this normal for you?
+> 
+> **SCP-6137:** I... I'm not certain. 
+> 
+> **Dr. Boyette:** You're not...? 
+> 
+> **SCP-6137:** Is the name Frederick Glassman known to you?
+> 
+> **Dr. Boyette:** I... Nobody by that name works here, no. What are you getting at?
+> 
+> **SCP-6137:** They are known to me.
+> 
+> **Dr. Boyette:** I thought you didn't know anyone outside this site?
+> 
+> **SCP-6137:** I am aware of him, just as I am aware of all of you.
+> 
+> **Dr. Boyette:** Shit! That shouldn't be possible... 
+> 
+> **SCP-6137:** Is something the matter, Doctor?
+> 
+> **Dr. Boyette:** Yes, something is the fucking matter! How do you know that name?
+> 
+> **SCP-6137:** Doctor, I apologize, but I'm not certain. I feel like I can see him in my mind... he seems distressed.
+> 
+> **Dr. Boyette:** Seems distressed! Really? 6137, where is he? Why do you know him?
+> 
+> **SCP-6137:** Please don't yell, Doctor. I'm as concerned as you are.
+> 
+> **Dr. Boyette:** //<yelling>// No the fuck you’re not! WHY DO YOU KNOW FREDERICK’S NAME?
+> 
+> **SCP-6137:** //<crying>// I don't know! Please Doctor, it wasn't my doing! I think I saw him reading my file!
+> 
+> **Dr. Boyette:** Reading your... God dammit, Frederick...
+> 
+> **SCP-6137:** Doctor...?
+> 
+> **Dr. Boyette:** I knew him, yes. He used to work here. He must have spoofed his Geofence location... And seen your file.
+> 
+> **SCP-6137:** Doctor, I'm very sorry, I should probably...
+> 
+> **Dr. Boyette:** No, 6137, I'm sorry. You go on to the cafeteria. I need to talk to Dr. Nguyen.
+> 
+> **SCP-6137:** Alright. I know you're under stress, but I appreciate what you're doing.
+> 
+> **Dr. Boyette:** You... Never mind. Just remember, 6137.
+> 
+> **SCP-6137:** I'm trying the best I can, Doctor.
+> 
+> **Dr. Boyette:** Good, 'cause now you have Frederick Glassman to remember too.
+> 
+> **//End of transcription//**
+
+
+[[include :scp-wiki:component:colend]]
+[[include :scp-wiki:component:coltop
+| show=+ Addendum 6137.5 - Interview Log:
+| hide=- Addendum 6137.5 - Interview Log:
+]]
+
+> **Date:** 04/07/2014
+> 
+> **Conducting Interview:** Head of Research Dr. Francis Boyette
+> 
+> **Forward:** In the past few months, SCP-6137 has been very cooperative with personnel, but has consistently evaded any questions about its past. Hopefully I can stress the importance of what we're doing. 
+> 
+> //**Begin Interview - 15:45 Local Time**//
+> 
+> **Dr. Boyette:** Hey 6137, glad you could take a minute to talk to me.
+> 
+> **SCP-6137:** You're welcome, Doctor. 
+> 
+> **Dr. Boyette:** You're fine with us calling you 6137?
+> 
+> **SCP-6137:** I don't recall my real name, so, while not ideal, it's the closest to a name I have.
+> 
+> **Dr. Boyette:** Excellent. And you're getting along well here?
+> 
+> **SCP-6137:** Yes, everything has been going well. I appreciate the people here and what sacrifices you've made.
+> 
+> **Dr. Boyette:** //<grumbles>// Sacrifices, you say… Well... a lot of those sacrifices weren't exactly by choice. 
+> 
+> **SCP-6137:** I... am aware of what you've done for me. And know that I will do all I can to help out here.
+> 
+> **Dr. Boyette:** Good. You know... one thing that would help is if you could give us a little more of your history. 
+> 
+> **SCP-6137:** I have already told you everything I know, Doctor. 
+> 
+> **Dr. Boyette:** I know that's what you've said, but anything you could tell us could potentially help us figure out more about your anomalous ability and how we can best keep it contained here.
+> 
+> **SCP-6137:** I'm afraid anything I recall won't be of any consequence.
+> 
+> **Dr. Boyette:** Inconsequential sounds great at this point. I'm not going anywhere.
+> 
+> **SCP-6137:** Well, I remember waking near a settlement without a human in sight. I remember it being empty, but I don't necessarily think it started that way.
+> 
+> **Dr. Boyette:** You don't remember?
+> 
+> **SCP-6137:** I was there for days, walking through the streets, talking to myself. 
+> 
+> **Dr. Boyette:** Oh...
+> 
+> **SCP-6137:** I'm so tired, Doctor. I just wanted to see somebody else. 
+> 
+> **Dr. Boyette:** I know, 6137. I'm so sorry.
+> 
+> **SCP-6137:** //<crying>// I don't want to be alone anymore.
+> 
+> **//End of interview//**
+
+[[include :scp-wiki:component:colend]]
+[[footnoteblock]]
+[[/collapsible]]
+
+[[>]]
+[[module rate]]
+[[/>]]

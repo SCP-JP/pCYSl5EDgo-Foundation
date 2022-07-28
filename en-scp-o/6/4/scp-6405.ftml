@@ -1,0 +1,1116 @@
+[[include :scp-wiki:info:start]]
+[[[king-pogan |Check out my other work!]]]
+⚠️ **Content warning:** This article contains numerous references to the treatment of marginalized demographics, including African-Americans, people with disabilities, people with mental illnesses, and members of the LGBTQ+ community. Further, the article contains several uses of slurs and detailed descriptions of emotional/physical abuse. If any of this content is likely to offend you, proceed no further. 
+[[include :scp-wiki:info:end]]
+
+[[include :scp-wiki:component:info-cw]]
+
+[[include :scp-wiki:component:djk]]
+
+[[module css]]
+:root{
+   --linkcolour: rgb(5, 5, 5);
+  --header-title: "SITE-921";
+  --header-subtitle: "CONTAINMENT DIES WITH US";
+   --alt-text: 5, 5, 5;
+   --alt-top: 255, 255, 255;
+   --alt-black: 255, 255, 255;
+
+   --accentColor: 189, 0, 0;
+
+   --swatch-background: var(--alt-black);
+   --background-gradient-color: var(--alt-top);
+
+   --swatch-text-general: var(--alt-text);
+
+   --five-color: 189, 0, 0;
+   --four-color: 189, 0, 0;
+   --three-color: 189, 0, 0;
+   --two-color: 189, 0, 0;
+   --one-color: 189, 0, 0;
+}
+
+ #header::before {
+   opacity: 0.2;
+   background-size: auto 9.5rem;
+ }
+
+#license-area{
+   background-color: rgb(var(--alt-black));
+}
+[[/module]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number=SCP-6405
+|clearance=5
+|container-class=euclid 
+|secondary-class=none
+|secondary-icon=http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/thaumiel-icon.svg
+|disruption-class=ekhi
+|risk-class=danger
+]]
+
+-----
+
+[[include component:image-block name=park.jpg|align=center|width=100%|caption=The "Loop Hoop" roller coaster, one of several rides within SCP-6405.]]
+
+-----
+
+[[table style="width: 100%;"]]
+[[row]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Assigned Site**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Site Director**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Research Head**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Assigned Task Force**[[/size]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]Site-921[[/size]]
+[[/cell]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]Jeremy Pogan[[/size]]
+[[/cell]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]Roger Hawthorne[[/size]]
+[[/cell]]
+[[cell style="text-align: center; width: 25%;"]]
+[[size 80%]]MTF Echo-3 ("Restitution")[[/size]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+-----
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+++++ NOTICE FROM THE FOUNDATION RECORDS AND INFORMATION SECURITY ADMINISTRATION
+
+##black|{{**While this file has been preserved on the Site-921 intranet due to the scope of information it contains regarding SCP-6405, Site Command has directed RAISA to include a content warning due to representations of potentially offensive or distressing events concerning the anomaly.**}}##
+
+##black|{{**Accordingly, please note that the file for SCP-6405 contains references to situations involving abuse, both of an emotional and physical nature. Some logs collected from interviews and field operations contain slurs, which have been preserved for accuracy. This file also contains visual representations of injuries experienced by victims of SCP-6405.**}}##
+
+##black|{{**Thank you for your cooperation.**}}##
+[[/=]]
+[[/div]]
+
+-----
+
+[[include component:image-block
+| name=town.jpg
+| caption=Aerial view of SCP-6405.
+]]
+
+**Special Containment Procedures:** The containment and study of SCP-6405 has been delegated to Mobile Task Force Echo-3 ("Restitution") by direct order of O5 Command. All other personnel involved with the containment of SCP-6405 are to be assigned to the project on a temporary basis, with the maximum service period being thirty (30) days. 
+
+The area surrounding SCP-6405 has been seized by the Foundation and appears as an operating site controlled by the United States Armed Forces on all civilian maps, GPS systems, and satellite imagery. Accordingly, all personnel operating in the vicinity of SCP-6405 are to wear attire consistent with the US Army or US Marine Corps except if otherwise ordered by Site Command. 
+
+SCP-6405 proper (referring to the area within the perimeter described above) is a "RED ZONE" deemed too hazardous for human traversal. As such, no personnel are permitted to enter SCP-6405 at any time. All reconnaissance conducted within SCP-6405 must be undertaken using unmanned ground vehicles or aerial drones connected to a remote command post either along the perimeter or at a separate facility. 
+
+Human speech emanating from SCP-6405, including but not limited to laughing and screaming, is considered normal and not cause for alarm. However, the presence of corporeal entities or previously unreported phenomena is cause for an immediate site lockdown and evacuation of all personnel in close proximity to the anomaly. 
+
+Further protocols regarding responses to aberrant behavior from SCP-6405 are detailed in documents viewable only by elements of MTF-Echo 3. Their inclusion in this file has been deemed unnecessary. 
+
+> **MEMO REGARDING MTF ECHO-3 OPERATIONS SURROUNDING SCP-6405:**
+> 
+> Personnel are reminded not to interfere or otherwise hinder MTF Echo-3 operatives for any reason while stationed near SCP-6405. Any perceived violation of Foundation policy, regardless of how severe, has received //de facto// prior approval from O5 Command. Attempts to hinder MTF Echo-3 operatives will be considered tantamount to attempts at allowing SCP-6405 to breach containment and responded to with as much force as the situation requires.
+
+-----
+
+**Description:** SCP-6405 designates both the area immediately surrounding an amusement park located in ████, West Virginia and the amusement park itself, previously known as "Happy's Fun Land."  For disambiguation, the area surrounding the park will henceforth be designated SCP-6405-A and the park itself will be designated SCP-6405-B. 
+
+SCP-6405-A is the abandoned town of ████, comprised of various residential structures, small businesses, and two large grocery stores owned by the ███-████ Corporation. At peak occupancy, SCP-6405-A was inhabited by approximately 3,800 civilians, the majority of whom had either visited or were employed at SCP-6405-B. 
+
+Most areas within SCP-6405-A are non-anomalous and appear to be consistent with other towns in southern West Virginia, albeit with significantly more apparent signs of decay and poor maintenance; multiple buildings collapsed entirely prior to Foundation intervention, and visible corrosion along edifices or walls is extremely common. Most of SCP-6405-A's public roads are not traversable by vehicle due to the presence of abandoned cars, trucks, and buses, the number of such obstacles far in excess of what would be appropriate given the town's population.
+
+In the center of SCP-6405-A is a bus station owned by the "Red Line Company," with several of their buses appearing throughout other towns in West Virginia. No record of the Red Line Company in legal documentation or the town's official history exists. 
+
+With the exception of the period between early June and late September, the Red Line Company station remains in a dormant state and exhibits no immediately apparent anomalous properties. However, in the aforementioned period, it becomes "active" and will service numerous civilians outside SCP-6405-A, transporting them either to the station itself or directly to SCP-6405-B. 
+
+Red Line Company buses appear to be autonomous and possess no human drivers. Passengers consistently express concern or hesitation upon learning of this fact, but make no significant attempts to disembark the buses until they reach their destination. Several subjects interviewed by the Foundation exhibit symptoms of both amnesia and retrograde amnesia, failing to recall the circumstances that led to them boarding the bus and the journey itself once they arrive at the bus station or SCP-6405-B. 
+
+After disembarking, subjects appear to remain in a state of general confusion, though they will invariably move in the direction of SCP-6405-B if that was not their destination. All subjects interviewed to date have expressed foreknowledge of SCP-6405-B, with this knowledge presumably exempt from the aforementioned amnesia.
+
+SCP-6405-B is "Happy's Fun Land," an abandoned amusement park roughly one kilometer away from the Red Line Company bus station. With the exception of Totenglocke Events, all rides within the park are inoperable and there are no staff present. Much of the park is in severe disrepair, with several roller coasters and merry-go-rounds rusted to the point of extreme brittleness. 
+
+When entered by a minimum of thirty-five (35) human subjects, SCP-6405-B will transition to a Totenglocke Event. These events are marked by all rides within SCP-6405-B becoming operable, as well as the presence of vaguely humanoid entities serving as the park's "staff." Park guests will explore SCP-6405-B and board rides in a manner consistent with a non-anomalous amusement park. SCP-6405-B's "staff" members are typically non-violent unless provoked.
+
+[[div class="limit"]]
+[[div class="anchor"]]
+[[div class="sidebox"]]
+**SUPPLEMENTARY DOCUMENT: SCP-6405-B ORIGINAL PRINT ADVERTISEMENT, 1958**
+-----
+The following is a transcription of a print advertisement for SCP-6405-B distributed to newspapers within SCP-6405. 
+[[<]]
+[[include component:image-block
+| name=ape.PNG
+| caption=[CONTEXT UNKNOWN]
+]]
+[[/<]]
+> {{Happy's Fun Land -- Now Open!}}
+> 
+> {{Are you looking for lots of family fun this summer? Upset that all the other theme parks are such a bore? Look no further! Visit Happy's Fun Land, the #1 amusement park in West Virginia! Come one, come all to the home of southern roller-coasters. We offer discounts for families with kids under three, and the following awesome perks:}}
+> * {{A wholesome, safe, and family-friendly environment!}} 
+> * {{We take special care to help those affected by disabilities or prejudices.}} 
+> * {{Many eyes!}} 
+> {{Come by during the week of October 12 for Happy Monkey's Pizza Party!}} 
+> {{QUESTIONS? CALL ##red|[PHONE NUMBER REMOVED]##}}
+[[/div]]
+[[/div]]
+[[/div]]
+At the conclusion of a Totenglocke Event, guests within SCP-6405-B will attempt to depart. At this point, all entrances to SCP-6405-B will become sealed, and a roughly 2m thick steel barrier will emerge from the ground, encapsulating the entirety of the park. The circumstances that emerge subsequent to this are poorly understood but invariably result in the termination of all guests present. 
+
+Causes of death in SCP-6405-B guests range from the immediately apparent to the potentially anomalous. Some cadavers show signs of blunt force trauma or severe lacerations consistent with a physical altercation. Others show missing organs or signs of exsanguination, sometimes including [REDACTED] and the loss of genitalia. Notably, the faces of all terminated guests are unscathed, with their expressions invariably portraying extreme joy or laughter.
+
+SCP-6405-C is a Foundation developed eigenweapon[[footnote]]Refers to a superweapon that utilizes or targets the anomalous.[[/footnote]] (previous designation: **Project ±N**) designed by the Site-921 Helm's Deep team[[footnote]]Responsible for the development and deployment of various eigenweapons; full project history classified.[[/footnote]] originally intended to aid in the containment of SCP-6405, specifically as a potential mechanism by which the anomalous behavior of SCP-6405-B could be more precisely comprehended. SCP-6405-C was deployed on August 19, 2011, after which time all anomalous activity exhibited by SCP-6405-B ceased entirely. The neutralization of SCP-6405-B was not an intended outcome of the weapon's operation. 
+
+Approximately three months after SCP-6405-C's activation, SCP-6405-B returned to its original state, albeit with an additional area of the park labelled "The Catacombs" (henceforth designated SCP-6405-D) made available to guests. SCP-6405-D did not exist prior to the activation of SCP-6405-C. Attempts by the Foundation to explore SCP-6405-D are documented in the addenda of this file. 
+-----
+
+**Discovery:**
+
+ Initial reports of SCP-6405 came from various internet forums and online discussion boards dedicated to the paranormal. SCP-6405-B had long been known as a "haunted" amusement park and was the subject of considerable scrutiny among civilian groups attempting to substantiate the existence of supernatural phenomena. 
+
+While none of these groups are believed to have physically entered SCP-6405-B, a documentary was produced by two film students in 2009 -- Thomas Wilson and Adrian Smith -- regarding the anomaly, entitled "The Happy Fun Land Mystery." The Foundation subsequently collected all copies of this film and administered Class-B amnestics to the students. Subsequent analysis of the film revealed that it contained video confirmation of the park's anomalous properties. 
+
+An excerpt from an unreleased, unedited cut of the film is provided below: 
+
+> //[Wilson and Smith are standing outside the Red Line Company bus station within SCP-6405. There are various civilian personnel walking near them, indicating that the town has yet to be abandoned. Wilson is holding a microphone and is seen standing opposite the camera, which Smith is presumably holding.]//
+> 
+> **Wilson:** We're here in ████, West Virginia, home of the Happy Fun Land amusement park. This place has long been known to scholars of the paranormal as haunted, and the park itself is considered one of the hottest spots for non-corporeal entities in the United States. But what's the truth behind the park's dark secrets? And where did the Red Line Company come from? 
+> 
+> //[He gestures to a nearby civilian. The subject is an elderly male walking with a limp.]//
+> 
+> **Wilson:** A moment of your time, sir --
+> 
+> **Man:** Fuck off, kid. Go be a tourist somewhere else.
+> 
+> **Wilson:** I just -- 
+> 
+> //[The man walks off-camera.]//
+> 
+> **Wilson:** //[To Smith]// The fuck is with these people? 
+> 
+> **Smith:** We're rolling. We're rolling. Just -- keep going. We'll cut this out later.
+> 
+> **Wilson:** Right. Okay. 
+> 
+> //[Wilson walks to his right. The camera follows, showing SCP-6405-B roughly one kilometer away.]//
+> 
+> **Wilson:** Behind me is the Happy Fun Land amusement park. Today, we're going to take you inside and find out what's really going on in this town. Join me as we jump into another Exploration of the Paranormal.
+> 
+> **Smith:** Jesus. That's not the title.
+> 
+> ##red|[{{IRRELEVANT FOOTAGE REMOVED}}]##
+> 
+> //[Wilson is seen immediately in front of the entrance to SCP-6405-B. Guests pass him to the right as they enter the park.]//
+> 
+> **Wilson:** You can see behind me that the park is open right now and people are just streaming in. We tried to get our eyes on the staff, but we, uh -- we can't seem to get close to them. When we try to get them on camera, they run from us. If that's not evidence of them hiding something, I don't know what is. //[A roller coaster is heard in the background.]// As you just saw, the rides are fully in operation, but I'm not sure there's anyone actually riding them. Can you see anyone, Adrian?
+> 
+> **Smith:** I thought I saw a kid on the one that just went by. 
+> 
+> **Wilson:** One kid? 
+> 
+> **Smith:** Yeah.
+> 
+> **Wilson:** //[Away from microphone]// There's something fuckin' weird about this place, man. 
+> 
+> //[There is a brief conversation away from the microphone. Most of the dialogue is unintelligible; what can be heard indicates the two are arguing over whether or not to continue filming. Eventually, Wilson returns to the view of the camera.]//
+> 
+> **Wilson:** Let's see what the guests have to say about things. Ma'am? 
+> 
+> //[Wilson gets the attention of a middle-aged woman. She turns to face him, stepping out of line.]//
+> 
+> **Wilson:** Hey, thanks for chatting with us. Could I get your name? 
+> 
+> **Woman:** Michelle.
+> 
+> **Wilson:** Thanks. So, uh -- why did you come to Happy's Fun Land today?
+> 
+> **Michelle:** Sorry, who did you say you are?
+> 
+> **Wilson:** Oh. Uh -- I'm Thomas. He's Adrian. We're filming a documentary.
+> 
+> **Michelle:** What for? 
+> 
+> **Wilson:** ...the park. It's about the park. Happy's Fun Land? 
+> 
+> **Michelle:** You're really confusing me. What are you talking about? 
+> 
+> //[A staff member can be heard from beyond a nearby wall.]//
+> 
+> **Staff Member:** Last call! Gate's closing!
+> 
+> **Michelle:** I'm...sorry, I feel a little off. Something doesn't -- 
+> 
+> **Wilson:** Jesus, lady. Are you alright? 
+> 
+> **Michelle:** Oh God. Oh my God.
+> 
+> **Smith:** Help her, Thomas! 
+> 
+> **Michelle:** Please God, please God, please God -- 
+> 
+> //["Michelle" begins to show signs of fainting. A loud, metallic grinding noise is heard from the park. She turns to face it.]//
+> 
+> **Wilson:** Oh. Oh shit. Adrian, we should go. We should go, man. Right now. 
+> 
+> **Michelle:** They're staring at me! Stop looking at me! Stop! Oh my God -- //[Babbling incoherently]// -- Eyes! They're already there! They're there! Help me! My -- 
+> 
+> **Smith:** Fuck. Fuck. 
+> 
+> //[Wilson and Smith begin running away from the park, leaving "Michelle" to collapse. She continues to scream and ramble as they exit the area.]//
+> 
+> **Smith:** Adrian, wait! Hold on! 
+> 
+> //[Smith continues to run, apparently losing sight of Wilson. After a moment, he falls to the ground, breathing heavily. The lens of the camera cracks from the impact.]//
+> 
+> **Smith:** Goddamnit! Shit! 
+> 
+> //[The grinding noise grows louder. The camera records SCP-6405-B being enclosed by a tall, metallic wall. It lurches from the ground, taking several seconds to reach its highest point, then stops.]//
+> 
+> **Smith:** //[Labored breathing]// 
+> 
+> //[Dozens of separate individuals begin to scream. Smith is heard crawling for several feet before rising to his feet and sprinting away. The camera continues to record intermittent screaming and laughing until it runs out of power. The film cuts to black.]// 
+-----
+
+**Addendum I: Interview Log 6405.A**
+
+The following interview was conducted during initial containment of SCP-6405. Subject is Rachael Martinson, a former resident of SCP-6405-A who departed the town roughly two months prior to the arrival of Foundation personnel. 
+
+> //[Dr. Jeremy Pogan enters a small interrogation room with a single opaque window for external viewing. Seated at a metal table is Rachael Martinson. She is sipping a cup of tea and appears reasonably comfortable.]//
+> 
+> **Pogan:** Good morning. How are you feeling? 
+> 
+> **Martinson:** Fine, I guess. You said you're with the Army, right? 
+> 
+> **Pogan:** That's right.[[footnote]]A falsehood maintained as part of the Special Containment Procedures for SCP-6405[[/footnote]]
+> 
+> **Martinson:** Okay. Can I ask why you guys have moved into ████?
+> 
+> **Pogan:** I'm afraid that's classified.
+> 
+> **Martinson:** Of course it is. //[She scoffs.]// What do you need from me?
+> 
+> **Pogan:** We just wanted to ask you a few questions regarding your experiences in ████ before you moved away. You were there until -- //[He checks a few papers.]// -- age 19, correct?
+> 
+> **Martinson:** Yeah.
+> 
+> **Pogan:** What can you tell me about the town?
+> 
+> **Martinson:** Nothing you probably don't already know. It was small. Maybe a couple thousand people. Everyone sorta knew everyone else. It's southern West Virginia, so -- you know, that area's pretty poor, but we seemed to get by okay. It had this odd "small town" charm. I guess a lot of places do, but it was fun growing up there. Does that make sense? 
+> 
+> **Pogan:** Sure. You mentioned the town had a population of roughly two thousand?
+> 
+> **Martinson:** Maybe a little more, but yeah, that sounds about right.
+> 
+> **Pogan:** Did they begin to move away before you left, or did that happen afterwards? 
+> 
+> **Martinson:** Nah, people were already starting to leave. Happened as soon as Red Line came in.
+> 
+> **Pogan:** The bus company, right? 
+> 
+> **Martinson:** Yep. //[She shakes her head.]// Sorry. 
+> 
+> **Pogan:** Is something wrong?
+> 
+> **Martinson:** No, no, it's just -- they always gave me the creeps. Ever since they built that station and started bring people in, we all knew there was something off. The whole thing was just...bizarre. The buses -- 
+> 
+> **Pogan:** Drove themselves? 
+> 
+> **Martinson:** Well, yeah, but that wasn't the weirdest part, if you can believe it. 
+> 
+> **Pogan:** What was?
+> 
+> //[She takes a sip of tea, visibly anxious.]//
+> 
+> **Martinson:** Fuck. //[She exhales sharply.]// Okay, so you'll believe me, right? You won't call me crazy? 
+> 
+> **Pogan:** I guarantee that whatever you're about to say isn't the craziest thing I've heard. 
+> 
+> **Martinson:** The buses //sang.// I don't know how else to describe it. They'd come into ████ with twenty people onboard, all of them looking like they're about to piss themselves, but they were singing. Playing these old-timey jingles and songs, like ones from the 50s. But the lyrics were wrong. Messed up. 
+> 
+> **Pogan:** How?
+> 
+> **Martinson:** Just...I don't know. They were singing about the most disgusting, vile stuff. Stabbing people to death with pipes taken from roller coasters, covering yourself in your own shit in a tunnel of love -- stuff like that. It was revolting. But the songs were very upbeat. Think Bing Crosby, but he's singing about murdering his neighbor and eating his eyes. I'd laugh at how absurd it was if I hadn't heard it myself.
+> 
+> **Pogan:** Where were the songs coming from? We haven't found any speakers or audio equipment attached to the buses. 
+> 
+> **Martinson:** I don't know. I believe you about that though. It didn't sound like it was coming from a speaker.
+> 
+> **Pogan:** You're saying it didn't sound recorded?
+> 
+> //[She chuckles, then takes a sip of tea. She doesn't look at Pogan.]//
+> 
+> **Martinson:** It sounded real. Like somebody was actually singing. Like I was listening to a real person. 
+-----
+
+**Addendum II: Reconnaissance Log 6405.01**
+
+Following initial containment of SCP-6405, O5 Command instructed MTF Echo-3 to perform an initial reconnaissance mission within SCP-6405-B in an attempt to establish a baseline description of the park. A remotely operated ground vehicle was outfitted with a camera and microphone, then deployed to the exterior of the park during the period immediately preceding a Totenglocke Event.
+
+> //[Camera flickers to life. Vehicle’s engine starts. Initial position is immediately outside the main entrance of SCP-6405-B, roughly 200m from the gate. MTF Echo-3 performs initial communication check with Command.]//
+> 
+> **MTF-E-1:** Command, this is Echo 1. I’ve got two more guys with me on this one, callsigns Echo 2 and Echo 3. Sound off.
+> 
+> **MTF-E-2:** Copy. Receiving.
+> 
+> **MTF-E-3:** Yep. Loud and clear.
+> 
+> **Control:** Copy all. Feed’s coming in clean. You’re clear to proceed.
+> 
+> **MTF-E-1:** Roger that. Moving her inside the park.
+> 
+> //[Drone accelerates, reaching the front gate. A staff member is standing adjacent to a ticket booth, welcoming guests. It does not notice the drone. The staff member possesses a mostly human physiology, save for the presence of three additional arms along the torso and eight human-like eyes across the face. No other facial features are visible.]//
+> 
+> **Staff Member:** Welcome! Welcome! Please step inside! Admission is free today! Come one, come all, to Happy’s Fun Land!
+> 
+> //[Laughing is heard from MTF-E-2.]//
+> 
+> **MTF-E-2:** You’re joking.
+> 
+> **MTF-E-3:** What?
+> 
+> **MTF-E-2:** He’s like a goddamn cartoon character. It’s hilarious.
+> 
+> //[The drone moves to the side in order to avoid being spotted.]//
+> 
+> **MTF-E-1:** Keep the channel clear. Both of you. No clue what any of these guys could do if we piss them off. Keep it professional. 
+> 
+> //[The drone advances deeper into the park. Most of the guests are standing together in the center, listening to another staff member.]//
+> 
+> **Control:** Any idea what’s going on over there, Echo-1?
+> 
+> **MTF-E-1:** None. I’ll move in closer.
+> 
+> //[Moving forward, the drone approaches the crowd, picking up the staff member’s speech after a moment.]//
+> 
+> **Staff Member:** — great savings! But that’s for another time. Anyway, today is the Third Annual Happy Fun Land Merry-Go-Round Celebration! Or maybe it’s the fourth? Whatever. //[It laughs.]// Either way, it’s going to be a heck of a party!
+> 
+> //[The crowd cheers.]//
+> 
+> **Staff Member:** You there, sir! In the blue! How are you going to celebrate?
+> 
+> **Man:** I am flesh.
+> 
+> //[Several people in the crowd laugh. The camera picks up the man beginning to sob. He appears to be in mild pain.]//
+> 
+> **Man:** Please get it out of me. I’ll do anything —
+> 
+> **Staff Member:** What bus did you use to get here, sir? I bet I know the answer!
+> 
+> **Man:** I am in so much pain. This isn’t a joke. I need help. Why isn’t anyone doing anything —
+> 
+> **Staff Member:** The Red Line? I knew it! //[It laughs.]// He took the Red Line, folks!
+> 
+> //[The crowd cheers again. A young girl, no older than nine, steps forward.]//
+> 
+> **Girl:** Mister, I have a question.
+> 
+> **Man:** End this. I know you’re out there. Just kill us. Please —
+> 
+> **Girl:** Why do you have so many eyes?
+> 
+> //[The man in blue flees the crowd, sprinting towards the exit. There is a wet squelching sound followed by a scream, then silence. The drone fails to capture the source of the noises.]//
+> 
+> //[After roughly nine seconds of silence, the crowd begins to laugh. The staff member continues after the noise dies down.]// 
+> 
+> **Staff Member:** What a joker that one! We’ll see him soon. You all will. //[It turns to the girl.]// What did you ask me, sweetheart?
+> 
+> **Girl:** I asked why you have so many eyes.
+> 
+> **Staff Member:** Well, that's an easy one to answer!
+> 
+> //[The staff member grabs the child, holding her up to the crowd. Several civilians begin crying; others start to laugh hysterically.]//
+> 
+> **Staff Member:** When I was a kid -- just like you! -- I couldn't see things right. Everything was off. Looked weird, y'know? So I went to my dad for help. I asked him if he could help me see better!
+> 
+> //[The crowd laughs.]//
+> 
+> **Staff Member:** And you know what he told me, sweetheart?
+> 
+> **Girl:** What? 
+> 
+> **Staff Member:** Nothing. He didn't help me at all. He was angry, in fact. Called me a failure. And then he brought up other things -- stuff that I didn't want him to see. 
+> 
+> //[The staff member appears to produce a noise akin to exaggerated crying.]//
+> 
+> **Staff Member:** I'm not like most people, sweetie. I like other boys. You know how most boys like girls? How your mommy and daddy love each other? That's how I like boys. My dad didn't like that. He called me a faggot. Do you know what means?
+> 
+> **Girl:** No.
+> 
+> **Staff Member:** It's a bad, bad word people use when they don't like people like me. //[The staff member holds her closer.]// And then I found my way here. They took me in here. Accepted me. And now I have so many eyes that I can see what things are really like! I can see all of you. All of you. 
+> 
+> //[Several members of the crowd abruptly exit the group, sprinting towards the exit. The staff member gestures to other nearby entities. They intercept the escapees and tackle them to the ground.]//
+> 
+> **Staff Member:** Folks, let me tell you something. //[He places the girl on the ground.]// I know a lot of us feel the same way. Everyone who works here has a story just like mine. Tom over there -- he's different too. What happened, Tom?
+> 
+> **"Tom":** I'm from Alabama. //[He grunts, holding an escapee down.]// They don't like black people down there. I saw men in white sheets -- they took my family. Hanged them and burned them like they were animals.
+> 
+> **Staff Member:** Yes, I remember. And you, Frank? 
+> 
+> **"Frank":** //[Unintelligible]// 
+> 
+> **Staff Member:** Frank was injured in an accident while working. He hasn't been the same since. 
+> 
+> //[The staff member turns in the direction of the drone.]//
+> 
+> **Staff Member:** And you -- those watchful eyes from the distance. I'm sure you have your own stories to tell, don't you? 
+> 
+> **MTF-E-1:** Control, we've been compromised. They know we're in there.
+> 
+> **Control:** Copy. Standby.
+> 
+> **Staff Member:** "Copy. Standby." //[It laughs.]// I know what you're here to do. He knows too. And pretty soon, everything will come full circle. Everything will be clean. Won't it, folks? Let's hear it for Mobile Task Force Echo-3!
+> 
+> **Crowd:** Echo-3! //[Cheering]//
+> 
+> **MTF-E-2:** What the fuck? 
+> 
+> **Staff Member:** Joey, if you'd be so kind -- let her rip! 
+> 
+> //[A Totenglocke Event begins. SCP-6405-B is encapsulated by steel walls. The staff member approaches the drone's camera. Attempts to move the drone fail due to unknown reasons.]//
+> 
+> **Staff Member:** Okay, eggheads. Check this one out.
+> 
+> //[The staff member grabs the drone, turning it so that the camera faces the crowd of civilians. There is a loud, metallic grinding, followed by the chiming of distant bells, akin to those used by churches.]//
+> 
+> //[Several staff members are heard singing 1950's-era jingles as civilians begin to levitate off the ground, struggling against an unseen force pulling them upwards. Their ascent is gradual, taking roughly 45-50 seconds before they reach the highest point, approximately the height of the encapsulating steel walls.]//
+> 
+> **Control:** Echo-3, get out of there! 
+> 
+> **MTF-E-1:** Negative. No exits. 
+> 
+> //[The civilians begin to rotate counter-clockwise at a slow velocity. They flip onto their stomachs, with their backs facing up. After several minutes of rotating, the intestines of each civilian emerge from an incision point along the abdomen inflicted through unknown means. The intestines extend to the nearest adjacent civilian and coil around that civilian's intestines, forming a continuous circle of entrails. At this point, the spinning accelerates, blood and viscera plummeting to the ground.]//
+> 
+> //[In the final moments before the feed is cut, an instrumental jingle consistent with merry-go-round rides can be heard emanating from an unknown source. Control orders the feed cut. Drone is remotely disabled. MTF-E-2 is treated for post-traumatic stress disorder in the subsequent months.]// 
+
+-----
+
+**Addendum III: Project ±N Overview**
+
+[[include component:image-block
+| name=machine.jpg
+| caption=One of several pieces of SCP-6405-C (previously Project ±N). 
+]]
+
+++++ FROM THE DESK OF DR. POGAN, SITE-921 DIRECTOR
+
+SCP-6405 has proven to be one of the most enigmatic and poorly understood anomalies assigned to our facility since its inception. We have known about it since the early 2000s and on more than one occasion have performed remote reconnaissance from within SCP-6405-B, yet nothing we have uncovered thus far has shed any light on the nature of the town, the park, or the Red Line Company. The staff within SCP-6405-B are particularly difficult to comprehend, seeming to tread the line between being directed as if part of a hivemind and being autonomously sapient and switching between the two whenever it's convenient. Our previous experience with eigenweapons, however, offers us a rare opportunity to gain additional insight into the nature of the anomaly.
+
+Project ±N is an attempt to understand why SCP-6405 exhibits its now infamous behavioral patterns and discern whether or not we can prevent it from affecting more civilian personnel. The operation of the weapon, assuming all goes according to plan, will result in a temporary neutralization of SCP-6405's anomalous properties, thus allowing MTF Echo-3 to gain access to the park and operate without fear of triggering a Totenglocke Event. Our window will be small, but sufficient. Schematics for the weapon itself have already been approved by the Overseer Council, and construction is scheduled to commence within the week. 
+
+The weapon, for those unfamiliar, will consist of two components: 
+
+> +++++ FIRING MECHANISM
+
+The firing mechanism is a Class-II Reality Destabilization Device (RDD) outfitted with a fission power cell, much like many other eigenweapons developed by Site-921. This power cell, upon the weapon's activation, produces an effect comparable in both energy output and potential inflicted damage to a hydrogen bomb. However, because the effect is localized to a target radius no greater than 100m through use of the Focusing Adapter, collateral damage is kept to minimal levels. It should be noted that the power required to start the firing mechanism is extremely high, rendering operation of ±N advisable only in the most extreme of circumstances. The goal of the firing mechanism, assuming it successfully strikes the target, is the temporary destabilization of reality within the target radius. 
+
+An abridged log of ±N Firing Mechanism tests is provided below: 
+
+|| {{TEST 01: Firing Mechanism fails to activate. Cause determined to be insufficient fissile material.}}||
+ 
+|| {{TEST 02: Firing Mechanism fails to activate. Cause determined to be miscalculation of target radius. Casualties: 3. Further testing to be performed via simulated activation prior to live testing.}}||
+
+|| {{TEST 03: Firing Mechanism fails to activate. Cause determined to be insufficient power. Site-921 power system rerouted to support future testing.}}||
+ 
+|| {{TEST 04: ##green|**Firing Mechanism activates.**## Resulting reality destabilization determined to be +/- 30.96 Humes. A brief test involving SCP-███ confirms that reality bending anomalies are temporarily neutralized by the weapon's activation. }}||
+[[include component:image-block
+| name=515.jpg
+| caption=SCP-515 (photograph taken prior to containment)
+]]
+
+Following Test 04 and confirmation that ±N was capable of neutralizing inanimate anomalous items, O5 Command approved additional experimentation involving sentient/sapient anomalies. [[[scp-682 |SCP-682]]] was briefly considered for use in testing, but this was ultimately decided against due to potential consequences arising from SCP-682's adaptation to reality manipulation. Ultimately, project staff elected to use [[[scp-515 |SCP-515]]] for the purpose of evaluating ±N's effects on animate objects/entities.
+
+For a period of approximately 33 minutes[[footnote]]A precise time cannot be determined due to complications that arose during use of the weapon[[/footnote]], SCP-515 ceased to exhibit any anomalous activity and became conscious, exhibiting behavior consistent with that which would be expected from a panicked or otherwise apprehensive teenager. Foundation orbital telescopes confirmed that SCP-515-1 exhibited no movement during this period despite SCP-515 continuously moving for the duration of its neutralization. After this 33 minute period elapsed, SCP-515 returned to unconsciousness and reverted to its anomalous state. SCP-515 was subsequently returned to its containment chamber and restrained per its Special Containment Procedures. 
+
+No further testing on animate anomalies was deemed necessary. 
+
+> +++++ FOCUSING ADAPTER
+
+##red|[{{DATA EXPUNGED}}][[footnote]]See final addendum.[[/footnote]]##
+
+-----
+
+**Addendum V: Document 6405.J** 
+
+The following document was recovered from an unmarked journal found in the Red Line Company bus station. The final five pages are covered in a red substance later identified as human blood containing trace amounts of bleach.
+
+> I fucking hate it.
+> 
+> //[The phrase "I hate it" appears thirty-two times.]//
+> 
+> You know what it's like to be different? It's not like how it's portrayed in the movies. It's not like some book where everyone learns to accept each other in the end -- where they just move on with their lives as if there's nothing weird going on. Being different is like being set on fire but you can't act like you're burning. You just have to sit there. And take it. Put on a smile. Act like your skin isn't falling off. Act like the flames aren't a big deal.
+> 
+> I can't ignore the fire anymore. 
+> 
+> I was told very early on that things would be different for me. ADHD, they said. First thing I heard was my parents telling me that it wasn't a big deal and that I was just lazy. Counselors at school tried to convince them otherwise, but they wouldn't listen. Why would they? It's difficult to change how you are for things that you can't control, that you don't want. Much easier is just pretending like it's somebody's fault. After all, if somebody is choosing to be a certain way, you can scream at them to your heart's fucking content.
+> 
+> When I got to high school, shit really went south. I had no medication, no therapy. Parents wouldn't let me seek help. So I just sat there in class, day after day, listening to gibberish as words went in and out of my head. It didn't take long for me to realize I didn't have the capacity to study. I could pay attention for twenty minutes, tops, before I was daydreaming or thinking about doing something else. That was on a good day. The bad days, well -- I spent a lot of time suspended. What I got from my parents was condemnation. There wasn't a shred of empathy. 
+> 
+> I kept burning.
+> 
+> Hitting rock bottom has a silver lining; you learn to make friends with people who are just as shit out of luck as you are. First kid I met was Derrick. He had the misfortune to be born with some sort of defect. Made him look...well, I don't want to piggyback off the people who insulted him. But rest assured, things were not easy for him. Derrick may have looked different, but he was //normal//. There wasn't a thing wrong with him mentally. He loved video games, drawing, and consistently got A's or B+'s in class. We talked about comic books, of all things. Derrick loved Superman. Said he aspired to be him. I always found that worth smiling about.
+> 
+> Then I met Sarah. She was black in the deep south. That alone is a recipe for getting the shit kicked out of you, but Sarah was an activist. I caught her more than once reading stuff by Malcolm X, Frederick Douglass -- Sarah was proud to be who she was. And when she walked past white boys calling her a monkey or a coon every day of her life, watching as it made her cry every time without fail, I saw resilience I haven't seen in almost anyone else. When I talked to Sarah, she talked about being an artist. She wanted to paint her experiences at school. Make a difference to someone like her out there.
+> 
+> Derrick, Sarah, and I became something of a trio. We started eating lunches together, and that progressed to hanging out with each other after school. We talked about anything we could besides how we were treated. If I’m honest, when they talked about how people acted towards them, it made me feel like my problems were minuscule. But they were always happy. Always willing to keep going. What they wanted is to be understood and accepted; to not face prejudice or scrutiny because of what they couldn’t control.
+> 
+> I heard about the Red Line from some newspaper article. It talked about how it was a “Bus for the broken.” What the fuck does that even mean? We’re not broken. I was irritated, enraged, but — I needed to know what it was. The article talked about how it went to a place where we’d be accepted. An amusement park where everyone could be themselves.
+> 
+> I was pretty sure it was a scam, but when I talked about it with Derrick and Sarah, I guess we ended up just saying “fuck it.”
+> 
+> When Saturday rolled around, we walked to the bus stop the article referenced and waited. I’m not sure what I expected, really. We were there for twenty, maybe thirty minutes — it’s miraculous we stuck around that long. Sarah was the first to say something, as she always was, fiery spirit intact even after all she had gone through. 
+> 
+> "This is fucking lame." She chewed her gum for a few more seconds before violently spitting it out on the concrete.
+> 
+> Derrick turned to her, stunned by the profanity. She was a bookworm, and hearing something like that was rare, to say the least. His face was bright red with second-hand embarrassment. 
+> 
+> "What?" He asked. She turned to face him, jaw clenched. You could see anger frothing at her lips. 
+> 
+> "It's just another joke, right?" She gave a sarcastic chuckle, shaking her head. "Just another prank. A bus that helps people who get picked on. The fucking rejects." 
+> 
+> I put my hand on her shoulder. "We have no idea what's going on. Give it a chance." 
+> 
+> "I guarantee you there are people on their way right now to mess with us." 
+> 
+> Derrick gestured at everything around him. "Do you see anyone else around?" 
+> 
+> "No," I replied.
+> 
+> He pinched the bridge of his noise with his fingers and gave a frustrated sigh. Pacing for a moment, he eventually looked at me, visibly annoyed.
+> 
+> "I think she's right, man. I think we've been set up." 
+> 
+> "You guys are paranoid." I laughed. "It's a bus line. You think somebody would pay money to get an ad in the paper to, what -- specifically mess with us? Come on." Sarah was looking at me; I met her eyes. "I get they're creative, but that's just ridiculous." 
+> 
+> A sadness washed over her. She looked at the ground as she spoke, then pierced me with brown eyes that I lost myself in more than once.
+> 
+> "This is nothing. You haven't seen anything." Sarah was smiling as droplets of water trickled from her eyes. After making sure I was paying attention, she thrust her arm towards me, then pulled the sleeve back, her skin exposed to the sun.
+> 
+> "What are you doing?" 
+> 
+> "Look." 
+> 
+> On her arm were burn marks. The skin was discolored, an odd pinkish-white, as if Sarah's essence had been stripped away from her by the flames. She ran her fingers over it, exposing still scabbing and peeling flesh along the perimeter of the burns. 
+> 
+> I heard her voice quiver.
+> 
+> "Do you know what this is? //Do you know what this is//?" She asked me, fighting more tears as her facial muscles tensed. 
+> 
+> I shook my head, unable to speak from the catch in my throat.
+> 
+> "My friend for three years was a kid named Ned. He was a white boy from Georgia. We both liked art, and that was pretty much all it took." She sniffled. "I would go over to his house every day while his parents were at work and paint. Ned was more into Baroque. I liked abstract stuff -- Picasso, mainly. But we just painted. It didn't really matter if it was good or if it meant anything; what mattered was doing it with someone." 
+> 
+> She sniffled again.
+> 
+> "I always made sure to leave the house before Ned's parents came home. He insisted on it. Ned would never tell me why, but I could guess. I didn't see any other black people ever go over to Ned's house, and his parents were never seen around town talking to them. In fact, they went out of their way to avoid black people." 
+> 
+> "Jesus." I interjected.
+> 
+> "Yeah. So, one day, I took too long. Ned got distracted. When his parents came home and saw me, he tried to defend me. He told them I was just a friend and that we were painting. They didn't care. I got called a lot of things that day -- coon, nigger, monkey -- but what stuck out the most to me was that they said I was a whore. Ned was my friend. One of the only ones I had. He knew I didn't like him any more than that, and he was okay with things being that way. And because I spent time with him, I was a whore. It didn't take long for that to spread around."
+> 
+> Sarah kept her sleeve rolled up, intermittently glancing at her burns. 
+> 
+> "I was walking home after school -- it was a Tuesday, I think. When I turned onto Fifth Street, I was grabbed. Five, maybe six white boys, all wearing masks. They beat me until I couldn't walk, but they weren't done. That wasn't enough for them. One of them had a lighter, and they grabbed a small can of gas from their truck, and --"
+> 
+> She stopped, finally submitting to the tears. They fell down her face and onto the ground. All I could feel was a deep, writhing, unfiltered pain. Without even thinking, I put my hands around her as she cried into my chest. 
+> 
+> "They hated me. They hate us. All they want is for us to be hurt. They'd do this and more if they wanted to." 
+> 
+> Derrick joined us, hugging Sarah with an empathetic, anguished look on his face. We stood there for what seemed like hours, comforting each other and feeling her try to come to terms with what happened. I didn't know what to say, so I said nothing. I just kept standing there, trying my best to understand.
+> 
+> "I'm sorry."
+> 
+> She nodded, continuing to sob.
+> 
+> There were brakes behind us, then a jingle -- one that sounded like it was from an old cartoon. I turned around. I don't remember a lot about the bus. But I remember there was no driver. 
+-----
+
+**Addendum VI: Document 6405.Q**
+
+[[include component:image-block
+| name=hazmat.jpg
+| caption=Elements of Mobile Task Force Echo-3 (HAZMAT DETACHMENT) disposing of waste generated by the operation of SCP-6405-C. 
+]]
+
+Following experimentation described in Addendum IV, SCP-6405-C was transported to the perimeter of SCP-6405 and provided with several portable fission cells as its power source. MTF Echo-3 was instructed by O5 Command to remain on standby until non-essential Foundation personnel could be evacuated from the area. Confirmation of SCP-6405 being free of such personnel was received by O5 Command on [DATE REDACTED].
+
+At approximately 3:32 AM local time on [DATE REDACTED], MTF Echo-3 began arming SCP-6405-C, setting the intended target as SCP-6405-B. Minor reality distortion was observed within a radius of 25m surrounding the weapon, though this was considered insignificant and not cause to abort its operation. The weapon was fired five minutes later at 3:37 AM. Upon impact with an exterior wall of SCP-6405-B, the energy produced by SCP-6405-C's operation inflicted moderate structural damage to the park's entrance and generated minor visual distortions that caused the parking lot and main gate to appear "blurry." 
+
+An aerial reconnaissance drone dispatched by MTF Echo-3 at 3:49 AM flew over the majority of SCP-6405-B and captured a series of photographs. These photographs were transmitted to Echo 3's commander, who confirmed after a brief visual analysis that there were no staff present and many rides within the park had vanished entirely. This was considered sufficient evidence to regard SCP-6405-B as temporarily neutralized. MTF Echo-3 Subdetachment November was equipped with standard infantry gear and transported to the park's entrance in order to explore the anomaly.
+
+The following is a log of MTF Echo-3 SD-N's exploration of SCP-6405-B subsequent to use of SCP-6405-C. 
+
+> //[Radio feeds become audible. MTF Echo-3 SD-N consists of five operatives, henceforth designated MTF-SD-N-1 through MTF-SD-N-5. The team is led by MTF-SD-N-1, who is the first to speak and establish contact with Control.]//
+> 
+> **MTF-SD-N-1:** Control, we're green to go here. You receiving? 
+> 
+> **Control:** Copy, One. Comms check -- have the rest of your team sound off.
+> 
+> **MTF-SD-N-2:** Here.
+> 
+> **MTF-SD-N-3:** Roger.
+> 
+> **MTF-SD-N-4:** Receiving.
+> 
+> **MTF-SD-N-5:** Yep. 
+> 
+> **N-1:** All souls reporting and accounted for.
+> 
+> **Control:** Affirmative. Bring your cameras online, link them to the central feed.
+> 
+> **N-1:** 10-4. 
+> 
+> //[The cameras flicker to life. SD-N is approximately 200 meters from the entrance of SCP-6405-B, viewing the exterior of the park through the window of an armored personnel carrier. Due to the activation of SCP-6405-C, there are no staff members or obvious anomalous effects present.]//
+> 
+> **N-1:** Control, November. We're advancing to the park. Standby for mission update.
+> 
+> **Control:** Copy that.
+> 
+> //[SD-N drives the APC to the front entrance of the park. Several metallic walls have begun to rapidly corrode at a rate far exceeding that expected from normal rusting. A roller coaster, the "Loop Hoop," is swaying back and forth slowly, apparently structurally weakened from the energy generated by SCP-6405-C.]//
+> 
+> **N-3:** This roller coaster's gonna come down in a minute, chief.
+> 
+> **N-1:** Yeah, I see it.
+> 
+> //[The team rises from their sets, crouching at the exit of the APC.]//
+> 
+> **N-1:** Control, we're disembarking.
+> 
+> **Control:** Copy. You're clear to proceed. Be advised, we have a small window here, so double-time on this op.
+> 
+> **N-1:** Roger. Alright peeps, let's do it. //[He smacks the side of the APC's interior.]// Driver, ramp down!
+> 
+> //[The ramp slowly lowers. When it touches the ground, the team exists, rifles drawn and pointed forward. They quickly check the perimeter of the vehicle before proceeding towards the main entrance of the park. The ticket booth is slightly burnt.]//
+> 
+> **N-2:** Jesus. That thing really did a number on this place.
+> 
+> **N-5:** How long you figure we have, One?
+> 
+> **N-1:** Control says thirty minutes. Maybe slightly longer.
+> 
+> **N-5:** Christ.
+> 
+> //[N-4 advances, entering one of the ticket booths at the main gate. The interior walls are visibly weak, with wooden boards beginning to splinter and fracture. He looks down, finding a ticket stuck between a table and a small landline phone. Retrieving it, he holds it up to the camera.]//
+> 
+> **N-4:** Get a load of this shit. Control, you seeing this? 
+> 
+> **Control:** Yeah, we see it. Keep it there for a minute.
+> 
+> //[The ticket is white and unmarked save for what appears to be a red, clown-like "smiley face" on the reverse side. Beneath this is a small inscription, also in red, that reads "STAY HAPPY." As N-4 continues to hold the ticket, it slowly begins to dissolve into ash.]//
+> 
+> **N-4:** Shit -- 
+> 
+> **N-2:** What's going on? 
+> 
+> **N-4:** The ticket just dissolved. Like something burned it. //[He kneels down, looking at the pile of ash at his feet.]// This place is falling apart around us. That weapon really fucked it up badly.
+> 
+> **N-5:** Better hop to it, then.
+> 
+> **N-1:** Team, forward. Let's keep rolling.
+> 
+> **N-3:** //[Under his breath]// -- gives me the creeps.
+> 
+> **Control:** Team, standby for aerial recon. We're dispatching a drone to the park. 
+> 
+> //[Aerial drone feed comes online. ND team members are highlighted as white squares. Control performs a quick visual survey of the park, finding an abnormal structure in the northeast corner.]//
+> 
+> **Control:** One, Control.
+> 
+> **N-1:** Go ahead.
+> 
+> **Control:** We have eyes on an abnormality in the northeast corner of the park. Looks like some sort of new structure, possibly created by the weapon. We don't believe it was there before. Can you have one of your guys get eyes on it? 
+> 
+> **N-1:** Affirmative. Standby. //[To N-4]// Four, head northeast from your current position. Let me know if you see anything interesting. 
+> 
+> **N-4:** You got it, cap. 
+> 
+> //[N-4 advances northeast. He moves for roughly 30 seconds before stopping, approximately 100 meters from the abnormality.]//
+> 
+> **N-4:** Alright, I'm here. Looks like some sort of tunnel system, maybe a mineshaft. Opening I'm looking at extends for, uh...about fifty meters before visibility's lost. Looks like something is dripping off the walls. Control, you see my feed? 
+> 
+> **Control:** Sure do. Alright, One. Get your team in there. Scope it out. 
+> 
+> //[The team regroups immediately outside the entrance of the abnormal tunnel system. The approach the opening, and N-1 touches one of the walls, an opaque black liquid clinging to his glove.]//
+> 
+> **N-1:** Any of you know what this is?
+> 
+> **N-4:** I know I wouldn't be randomly smearing it all over my fingers.
+> 
+> **N-1:** Three, come get a sample of this. 
+> 
+> //[N-3 moves to N-1, carefully placing a small amount of the liquid in a HAZMAT sample bag. The team then moves deeper into the tunnel system. Affixed to the walls of the tunnel are floodlamps, lacking power with several of their cables cut through unknown means. They activate their helmet-bound flashlights, illuminating the area immediately to their front.]//
+> 
+> //[N-5's audio feed picks up an unusual noise, akin to a low-frequency human vocalization.]// 
+> 
+> **Control:** Five, come in. 
+> 
+> **N-5:** Go ahead, Control. 
+> 
+> **Control:** You hearing anything unusual near your position? 
+> 
+> //[He stops, quickly scanning his surroundings. Nothing out of the ordinary is seen through the camera feed.]// 
+> 
+> **N-5:** Negative. Should I be? 
+> 
+> **Control:** Thought we picked something up. Might be nothing. We'll let you know if we hear it again. 
+> 
+> //[The team continues their descent into the tunnels, keeping their rifles in a ready position. A timer on N-1's watch beeps, indicating that five minutes have elapsed since mission launch.]// 
+> 
+> //[After several more minutes of exploring the tunnel, ND stumbles upon what appears to be a large room, with small metallic objects jutting out of the ground. The floor and ceiling are coated in the aforementioned black substance, but several of the objects are vibrant in color, rhythmically pulsating as they change from red to orange to yellow. A transparent grey mist is seen rising from the objects before dissipating into the air. It churns and swirls in a way that is atypical of gases, seeming to slow down then quicken the rate at which it expands randomly. Streams of liquid, varying in color and consistency, descend from the ceiling down the adjacent surfaces of the room before pooling on the ground. The walls appear to be slowly rising and falling in a manner not dissimilar to breathing, each contraction producing a slight "buzzing" noise.]//
+> 
+> **N-3:** Wow.
+> 
+> **Control:** One, any idea what the objects on the ground are doing? 
+> 
+> **N-1:** Your guess is as good as mine. //[He rotates his head slightly.]// Smells like shit in here. 
+> 
+> **N-3:** Fuck! 
+> 
+> //[N-3 looks down at his rifle. A small amount of the tar-like substance has collided with the magazine, dissolving its way past the metal exterior. Several bullets are visibly exposed.]//
+> 
+> **N-1:** What's going on? 
+> 
+> **N-3:** This shit on the walls is acid. Don't let it touch you. My mag's fucked, man. 
+> 
+> //[He quickly pulls the magazine out of the rifle and flips it upside-down, emptying the rounds into his other hand. N-3 then tosses the magazine onto the ground, loading a replacement magazine into the weapon.]// 
+> 
+> **N-4:** Great. Just terrific. 
+> 
+> **Control:** Stay away from the walls. Don't need you guys getting acid burns on a 30 minute op. 
+> 
+> **N-3:** God, it smells in here. Can we hurry this up? 
+> 
+> **N-1:** Quiet. 
+> 
+> //[N-1 places his fingers at his left ear, listening to something not captured by the transmission.]//
+> 
+> **N-1:** I got something.
+> 
+> **N-2:** What? 
+> 
+> //[He doesn't respond, continuing to listen.]//
+> 
+> **N-1:** Voices. Thirty, maybe forty meters out. 
+> 
+> **N-2:** I don't hear anything.
+> 
+> //[The voices grow louder, now audible over the transmission.]//
+> 
+> **N-2:** Wait, there it is. Sounds like a girl.
+> 
+> **N-1:** Yeah.
+> 
+> **N-5:** How can there be someone down here? Civies weren't in the park when they fired that thing, and the staff are gone.
+> 
+> **N-1:** I'm not sure. //[He sighs.]// Control, we have possible civilian personnel down here. Sounds are coming from about forty meters north of my position. We're going to push forward, and uh -- see if we can grab some survivors. How copy? 
+> 
+> **Control:** Copy that. Be advised, elapsed mission time is 10 minutes. You're gonna have to make this quick.
+> 
+> **N-1:** Understood. 
+> 
+> //[The team moves forward, walking past the metallic objects. They don't react to their presence. After moving onto an incline, the crying grows louder. With a hand gesture, N-1 signals to the rest of the team to remain silent. N-3 and N-5 check their ammunition.]//
+> 
+> //[Before the team is a door made of the same material comprising the walls and floors. It is coated in the black substance, globs of it slowly dripping from the hinges and edges, immediately replaced by more quantities of the liquid produced through unknown means. There is a slight hissing noise as the substance collides with the floor and causes slight corrosive burns to the solid surface beneath.]// 
+> 
+> **N-2:** How do we open this? 
+> 
+> **N-1:** Give me one of your sample bags. 
+> 
+> //[N-2 complies, retrieving an unused HAZMAT sample bag from his kit. N-1 opens it and places his gloved hand inside, zipping the opening as much as possible. He then places his hand, still inside of the bag, on the knob of the door, turning and opening it quickly as the substance begins to burn against the plastic of the sample bag. With the door open, he tosses the bag onto the ground, where it quickly dissolves into several pieces.]//
+> 
+> **N-1:** Let's go.
+> 
+> //[The team moves inside.]// 
+> 
+> **N-2:** Holy shit. 
+
+[[include component:image-block name=evil.jpg|align=center|width=100%|caption=Photograph taken by MTF Echo-3 November Detachment during their exploration of SCP-6405. Context unclear.]]
+
+> //[Audio and video feeds begin to experience intermittent static and visual distortion, rendering the situation difficult to discern on Control's end. What can be seen, however, is an open field, similar in overall appearance to a grassland or plain. It expands endlessly in each direction, with no hills, mountains, or deviations from the flat terrain apparent along the horizon. There is a sparse presence of trees, swaying gently from a wind that can be heard breezing past the team's microphones. The grasses are a light yellow, with some patches appearing to be brown or black.]//
+> 
+> //[Taking several steps forward, the team's camera feeds show a light rain, the droplets black in coloration with behavior similar to the substance observed in the preceding room. Upon contact with the team's clothing, however, they do not burn through, instead fizzing and hissing before evaporating into small clouds of smoke. No thunder is audible, but "cracks" in the sky similar to lightning, albeit black in coloration, appear intermittently.]// 
+> 
+> //[Above the team are quickly approaching storm clouds, grey in color and snuffing out the otherwise pale white of a mostly featureless sky.]// 
+> 
+> **N-2:** -- //[Inaudible]// -- receiving me, can -- //[Inaudible]//
+> 
+> **Control:** Two, say again? Are you there? 
+> 
+> //[There is no response. The static heard from the team's transmission becomes louder.]//
+> 
+> **Control:** Is anyone receiving? Come in. Over.
+> 
+> //[N-1's feed returns to a mostly visible state. Before him is the field. The wind has grown more harsh.]//
+> 
+> **N-1:** Control, I'm here. I don't know where I am. My team's gone -- I don't know what happened. //[His breathing becomes labored.]// Fuck. I don't know where I am. I don't know -- 
+> 
+> **Control:** It's okay. Relax. Calm down. Do you have all your equipment? Do you have your weapon?
+> 
+> //[He says nothing.]//
+> 
+> **Control:** One? 
+> 
+> **N-1:** Yeah. Yeah. I have everything. 
+> 
+> **Control:** Okay. Where are you? 
+> 
+> **N-1:** Nowhere. 
+> 
+> **Control:** What? 
+> 
+> **N-1:** Nowhere. Everything feels wrong. It feels wrong. I can't -- 
+> 
+> //[The feed returns to heavy static, then becomes visible again a few seconds later. N-1's feed captures one of the staff members before him. It is seated in the grass, slowly sobbing.]//
+> 
+> **N-1:** What the fuck? 
+> 
+> **Control:** One, what is that? 
+> 
+> **N-1:** One of the staff. I thought this places was neutralized? How -- 
+> 
+> **Control:** Back away. Move away from it. 
+> 
+> //[The staff member looks towards N-1. After a brief pause, it speaks in a voice consistent with a teenage girl.]//
+> 
+> **Staff Member:** Oh. 
+> 
+> //[N-1 raises his weapon towards her.]//
+> 
+> **N-1:** Hands up! Do not move! 
+> 
+> //[She does not move or reply. The winds become faster.]//
+> 
+> **N-1:** I said put your hands up, goddamnit! 
+> 
+> **Staff Member:** Shoot.
+> 
+> **Control:** Hold your fire, One.
+> 
+> **N-1:** Why? 
+> 
+> **Staff Member:** Please. Please.
+> 
+> //[She begins sobbing again.]//
+> 
+> **Staff Member:** I don't want anymore. It won't stop. Every day is -- please. Please. I'm so alone. I'm so alone. 
+> 
+> //[N-1 keeps his weapon raised.]//
+> 
+> **N-1:** What are you talking about? 
+> 
+> **Staff Member:** I was beautiful once. I was beautiful. It hates me. It hates me. It hates me. They hate me. Please.
+> 
+> **N-1:** //What the fuck are you talking about?// 
+> 
+> //[She stands up. N-1 holds his fire.]//
+> 
+> //[After several seconds, the staff member looks up to the sky. The rain stops.]//
+> 
+> **Staff Member:** You know I painted this? 
+> 
+> **N-1:** You're staff at the park. What do you mean -- 
+> 
+> **Staff Member:** No. //[She shakes her head.]// No, I'm not. We're prisoners here. That's all we are. I'm Sarah. I'm Sarah. It can't take that away from me. I painted this when it wouldn't let me go. I didn't know what else to do. 
+> 
+> **N-1:** Are you a human being?
+> 
+> **Sarah:** I always will be. It calls me so many things...it says they'll never want me again. I just want to die. If I can't get out, then I'll die. Just shoot me. 
+> 
+> **N-1:** I'm not going to shoot you. 
+> 
+> **Staff Member:** Please. 
+> 
+> **N-1:** No. I'm not going to do that. Let's just relax, okay? Let's just calm down. 
+> 
+> **Sarah:** I painted this. I used everything I had in me. I gave myself to paint this. It hates it. But it needs us. It needs people to help it. //[Her voice trembles.]// All I can hear -- all I can ever hear are the words. It hates me so much. Everyone does. I'm worthless. I'm lower than dirt. It won't leave me alone. It told me I deserved everything. I deserved what happened.
+> 
+> **N-1:** What tells you this? The park? 
+> 
+> **Sarah:** The park is just a mouth. It's not from here. What it really is -- it's out there. //[She gestures towards the sky.]// This is just a piece of it. It wants pain. It wants people to suffer.
+> 
+> **N-1:** Why? 
+> 
+> **Sarah:** It feeds. It brings people here and feeds. But if we don't listen, it hurts us. Uses things against us. All of us were different. //[She points to herself.]// I was black before. They hated me because of my skin. They hate the others because they're ill, or look different, or they can't think the same way. It's right. It always has been. We're hated. We're hated.
+> 
+> //[N-1 lowers his weapon.]//
+> 
+> **N-1:** It, uh -- I don't think that's true. It's trying to hurt you. Where are the others? 
+> 
+> **Sarah:** They're near. 
+> 
+> **N-1:** Okay. I can get you out of here. 
+> 
+> //[She begins to cry again.]//
+> 
+> **Sarah:** Do you hate me? 
+> 
+> **N-1:** What? 
+> 
+> **Sarah:** Do you hate me? Please don't hate me. Please.
+> 
+> **N-1:** No. No, I don't hate you. I can get you out of here. Come here. 
+> 
+> **Sarah:** I just don't want it to yell at me again. I don't want it to call me those things.
+> 
+> **N-1:** It won't. Let's get out of here. Can you leave this place? 
+> 
+> **Sarah:** //[Nodding]// It won't let us go, though. 
+> 
+> **N-1:** We put it under, I think. At least for a while. Come here. 
+> 
+> //[She moves to N-1. After reaching him, she begins to cry, falling forward. N-1 hugs her, wrapping his arms around her back.]//
+> 
+> **Sarah:** I just want to feel okay. 
+> 
+> **N-1:** Hey, easy. Easy. It's okay. It's going to be okay.
+> 
+> //[The camera views Sarah's face. There are six eyes present, orange in hue.]//
+> 
+> **N-1:** What happened?
+> 
+> **Sarah:** It said we were ugly. It said we were beautiful. But it only changed us so we'd be worse. Nobody will ever look at us. We're hideous. We can never go back.
+> 
+> //[N-1 does not respond.]//
+> 
+> **Sarah:** All I've known is what it says. I can't get it out of my head.
+> 
+> **N-1:** You gotta get us out of here, then. We don't have much time. Can you do that, Sarah? 
+> 
+> **Sarah:** Yeah. I think so. It's asleep. We can get out. But we can't go back to how we used to be. 
+> 
+> //[N-1 looks around.]//
+> 
+> **N-1:** You painted this?
+> 
+> //[She nods.]//
+> 
+> **N-1:** It's beautiful. 
+> 
+> //[Sarah looks up at N-1. All of her eyes close simultaneously. Her grip around him seems to tighten.]//
+> 
+> **Sarah:** Do you mean that? 
+> 
+> **N-1:** Yes. //[He comforts her.]// It's important, I think. I'm glad I saw it. I think you really have talent, Sarah.
+> 
+> **Sarah:** Thank you.
+> 
+> //[Sarah sobs.]// 
+> 
+> //[N-1's camera catches a brilliant flash of white before the transmission is lost for nineteen minutes. When the transmission resumes, N-1, Sarah, N-2 through N-5, and roughly 50 other staff members from SCP-6405-B are outside the park, lying on the ground in slight pain.]// 
+> 
+> **Control:** Team, respond. Are you there? 
+> 
+> //[There is no reply.]//
+> 
+> **Control:** Team, respond. Over.
+> 
+> **N-1:** I'm here. I'm here, Control.
+> 
+> **Control:** Are you okay? What the fuck happened in there. 
+> 
+> //[N-1 looks at the others. He slowly rises to his feet.]//
+> 
+> **N-1:** Yeah. We're okay. We're gonna need personnel transport back to 921. Got about 50 survivors here. 
+> 
+> **Control:** Survivors? They're anomalous. 
+> 
+> **N-1:** They're survivors.
+> 
+> //[Sarah rises to her feet and looks around. She begins to laugh.]//
+> 
+> **N-1:** What? 
+> 
+> //[She continues to laugh.]//
+> 
+> **N-1:** What's funny? 
+> 
+> //[Sarah looks at N-1. Something resembling a "smile" is visible on her face.]//
+> 
+> **Sarah:** It's just strange. 
+> 
+> **N-1:** What is? 
+> 
+> **Sarah:** Smiling without being told to. 
+> 
+> //[She pauses.]//
+> 
+> **Sarah:** I think I learned a lot today. 
+> 
+> //[The feeds are cut as transport vehicles approach from the distance. Treatment is offered to the staff members and to ND. All staff members were fully compliant with the Foundation recovery team.]// 
+
+-----
+
+**Addendum VII: Document 6405.Q**
+
+From the journal of PoI-6504-01 ("Samir Daniels")[[footnote]]Presumably the individual responsible for the journal entry transcribed in Addendum V[[/footnote]]:
+
+> This thing is a predator. 
+> 
+> I don't mean that in the literal sense. It won't eat you. It doesn't hunt you down or try to make you run from it like it's some guy with a rifle shooting deer. 
+> 
+> It's an emotional predator. 
+> 
+> Every single person in this park -- every member of staff -- was once somebody with something that wasn't acceptable by those around them. A disability, a different skin color, doesn't matter. We all have something wrong with us, at least by most people's standards. Most of us were so desperate for acceptance and empathy that we were willing to do just about anything, up to and including getting on a bus driving towards nowhere that smelled vaguely of piss and shit.
+> 
+> Since you're reading this, I'm guessing you know it feeds on people already. So I suppose I wasn't telling the truth when I said it wasn't a literal predator. But it doesn't eat //us.// No, that wouldn't make sense. It needs people to do its bidding. To keep up the masquerade of this place being a theme park and not the drooling mouth of something we can't comprehend. In its own sick, perverted way, it made us all equal. None of us look any different from each other, so what is there to be made fun of about anymore? As long as we stay in the park, we're no different than anyone -- we are normal.
+> 
+> It took me a while to realize that my thoughts weren't my own. Sarah realized it first, still keeping her wit even in times like these. Whatever was resting beneath this park was very much alive and very much thinking, and she knew from the first week that it was whispering to us. It told us that, as long as we helped it, we would never face what we experienced on the outside ever again. 
+> 
+> All I ever wanted to hear was that I was okay. That I was loved. And it loved me. It told me that it didn't judge me, and that it never would. It told all of us the same thing. Sarah was told that she would never be treated as beneath another color again. Derrick kept hearing about how his face was beautiful -- before it was changed, of course. One of the girls said that it kept repeating that her  chromosomes were what made her unique, and that she shouldn't be ashamed of them. She wasn't even sure what that meant, but she kept listening because it made the pain go away, if only for a while. 
+> 
+> We didn't know what we were doing. You have to believe that. We didn't know. 
+> 
+> I saw Sarah alone one time. She was crying, or I guess what was as close to crying as she could get after it changed her. I asked her what was wrong. Sarah looked up at me and started shaking.
+> 
+> A couple days before, Sarah had tried to escape. I guess she had a moment of clarity, or maybe there was a limit to how far it could talk to us and she had gone too far out. Either way, Sarah had decided to leave -- to go back to the real world, and try her best to have a life of her own. The others ran out and grabbed her, pulling her back in, but that wasn't what bothered her. She expected that. 
+> 
+> Nobody went around her for two days. It was screaming at her. Yelling constantly, not once giving her a chance to breathe. She was told the most vile, crushing shit you can think of. It was like her days at school, but worse. Far worse. Sarah told me that it preyed on her insecurities and her memories; that it would call her words I don't dare to repeat here and have her family killed by Klansmen. She was told she would always be nothing to be people but "that uppity black girl," and that even here, everyone knew she was dirty, filthy -- unwanted. Unloved.
+> 
+> I think that's what did it for me. That's what broke the hooks in my mind. 
+> 
+> It never cared. It wanted us because we were cast out and we were afraid. And it used that to make us hurt other people. There was never acceptance. There was only manipulation and, if we disobeyed, the same torture we had come here to avoid.
+> 
+> There's a cold, sad reality about realizing that nobody cares. I expected I would be depressed. I wasn't. But I accepted myself, and so did she. Even through all it tried to do to her, all the insults and the bigotry, she knew she would be okay. So it made it worse. It made a few of the others turn on her. She would cry and panic, but she never gave in.  
+> 
+> Yesterday, there was a loud noise, and men with guns and gas masks walked inside of here. It did nothing to them, and I could feel that it was asleep. We didn't change. Whatever happened to us was permanent. But the men with the guns reached us. Said they were with some organization. Any way out of here was something I was happy with. I went with them, and even though they tell me I can't go back to the world, I am truly alive where before there was only a dying husk. 
+> 
+> Maybe there are still good people left. 
+> 
+> We're in cells now. The building is a cool grey, with concrete walls that never seem to crack or split and metal beams running the length of the hallway outside. It's not as bad as it sounds. We get to go pretty much wherever we want, provided we don't cause problems, and I get to spend time with Sarah and Derrick in what I assume is supposed to be a lounge. We talk about basically everything other than the park. But, inevitably, it comes up, and when it does, we defend each other from the tears and the loss. We always have.
+> 
+> They were nice enough to give Sarah some painting supplies and a canvas. In the first few weeks, all of her work had to do with the park. Horrible, swirling reds and blacks, screaming faces that seemed to have an impossible number of eyes. But with time, she moved to fields of flowers, then the clouds. Lately, she's been painting herself. Self-portraits, at least of how she used to look. She tells me it soothes her -- makes her feel more complete. 
+> 
+> The guys in white lab coats tell us they're working on a "cure," a way for us to go back to normal, whatever normal is supposed to even mean anymore. Maybe one day we'll see the world again, but until then, I'm happy I have my friends. I've spent so long worried about what other people think about me that having them -- it helps. It truly does.
+> 
+> We're not like other people. Not now, and not before.
+> 
+> But that's what makes us who we are. 
+> 
+> When I look at Sarah and Derrick and I remember everything -- I smile, knowing that no matter what happens next, I will always be understood. And that's something that can never be taken from me. 
+> 
+> We cry a lot. I'm not ashamed to admit that. But we're always there for each other when we get back up. 
+> 
+> It's like she used to say --
+> 
+> The world's one big blank canvas, and it's up to us to paint it.
+
+-----
+[[=]]
+[[[king-pogan |Other Works By KingPogan]]]
+[[/=]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6404]]] | SCP-6405 | [[[SCP-6406]]] >>
+[[/=]]
+[[/div]]
