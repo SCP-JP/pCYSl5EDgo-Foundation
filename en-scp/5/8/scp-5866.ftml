@@ -1,0 +1,870 @@
+[[include :scp-wiki:theme:blankstyle]]
+
+[[module CSS]]
+:root {
+    --timeDelay: 0.5s;
+}
+[[/module]]
+
+[[module CSS]]
+/* anendlessusername's invaluable correction of the ACS octagon! */
+#page-content .quadrants > div {
+    top: 2.25%;
+    left: 18.5%;
+}
+[[/module]]
+
+[[module CSS]]
+#header {
+  background-image: url(http://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/43pride.png)
+}
+[[/module]]
+
+[[module css]]
+.green {background-color:#FDF6D7;"}
+}
+.red {background-color:#F6D9E1;"}
+}
+[[/module]]
+
+[[div]]
+[[include :scp-jp:info:start]]
+[[=]]
+**SCP-5866** "その蛇の名にちなんで"
+私は君を信じている。
+
+[[image http://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/5866.png]]
+
+**[[[http://www.scp-wiki.net/this-page-intentionally-left-blank|この作者の作品をもっと見る！]]]**
+[[/=]]
+[[include :scp-jp:info:end]]
+[[/div]]
+
+[[div style="height:12px;"]]
+[[/div]]
+
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+++++ 財団記録・情報セキュリティ管理局からの通告
+
+このデータベースファイルは、研究照合、データ入力、および編集の初期段階であることを意味しています。これは一般的見解を意図したものではなく、公表されるまでは正確または完全であるとはみなされません。
+
+-- RAISA管理官、マリア・ジョーンズ
+[[/=]]
+[[/div]]
+
+[[div style="border:solid 1px #999999; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+**現在編集中:**
+
+[[span class="red"]]マイケル・D・ナス博士[[/span]]
+[[span class="red"]]サイト‐43、神学・目的論教授[[/span]]
+
+[[span class="green"]]ブレンダ・コービン博士[[/span]]
+[[span class="green"]]サイト‐43、神学・目的論教授補佐[[/span]]
+[[/=]]
+[[/div]]
+
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+► これから数日かけて、収プロから補遺まで一行ずつやっていくわけだが。いいのか？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►► //いいとも。//これを始めるのが待ち遠しいよ、マイケル。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►► えらくやる気じゃないか！いつものブレンダをどこにやったんだ？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►► 新しいオブジェクトの未開拓の可能性が大好きなんだよ。もう//長いこと//見てないしね。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►►► では始めようか。見出しをやるぞ。
+[[/cell]]
+[[/row]]
+[[/table]]
+
+
+----
+
+[[div]]
+[[include :scp-jp:component:anomaly-class-bar-source
+
+|item-number= SCP-5866
+
+|clearance= 3
+
+|container-class= tiamat
+
+|secondary-class=
+
+|secondary-icon=
+
+|disruption-class= amida
+
+|risk-class= critical
+
+]]
+[[include :scp-wiki:component:customizable-acs
+|containment-class= tiamat
+|containment-image= http://scp-wiki.wdfiles.com/local--files/scp-5866/tiamat-icon.svg
+|containment-color= 196, 2, 51
+|inc-containment = --]]]
+[[/div]]
+
+----
+
+[[include component:image-block
+    name=http://scp-jp-storage.wikidot.com/local--files/file:5518554-2-3p09/Tiamat.jpg|
+    caption=SCP-5866の復元、縮尺1/3500。 |
+    width=290px
+]]
+
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+► どうしてこれがTiamatクラスなんだ！？こいつは__死んでる__んだぞ！[[footnote]]Tiamatクラスのオブジェクトは、 ヴェールを破るような行為によってのみ阻止できる差し迫った脅威をもたらします。[[/footnote]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►► だけどこいつは__Tiamat__だ！言い換えれば、本物の女神だってことさ！
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►► 説明になってないぞ！
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►► それにクラスがCriticalやAmidaってのはどういう訳なんだ？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►►► 今に分かるさ！続けよう。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►►►► ACSは失敗だったな。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►►►►► いいから収プロを始めてくれないかな？
+[[/cell]]
+[[/row]]
+[[/table]]
+[[span style="color:#C40233"]]█[[/span]] **特別収容プロトコル:** SCP-5866の残骸は、少なくとも10メートル×10メートル×10メートルの[http://www.scp-wiki.com/secure-facility-dossier-site-43 サイト-43]の標準的収容チャンバー内に吊り下げられた透明な容器に保管されます。
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+► チャンバーのサイズは詳細に書いちゃいけない。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►► それが大事な場合には書くんだ。今回がそうだ。チャンバーのそばを通った人間が教化されたりしてしまっては堪らないからな。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►► あー、本当に何か信仰を吹き込まれる可能性があるってことか。思い出したよ！
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[span style="color:#FFD300"]]█[[/span]] 宗教的崇拝の対象としての起源である可能性が高いため、マイケル・D・ナス博士の指示がない限り、職員はSCP-5866における信仰の事柄を議論することを禁止されています。
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+► 「ブレンダ・コービン博士」の名がないようだが？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►► 私はもう退職するからね。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►► 嘘だ。どうせその後何をする気か思いつきもしないだろうに。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►► 少し人生を楽しんでみる、なんてのはどうかな？新鮮な空気を吸うとか？夜に眠るとか？ともかく説明は任せたよ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►►► いいだろう、だがインタビューは君がやるんだぞ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►►►► 当たり前じゃないか。
+[[/cell]]
+[[/row]]
+[[/table]]
+[[div]]
+[[span style="color:#C40233"]]█[[/span]] **説明:** SCP-5866は知識・知性を有する巨大なウミヘビの骨格残骸です。放射性炭素年代測定によると、このウミヘビは紀元前4000年頃から死亡していることが示唆されています。
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+► ティアマトだ。ティアマトの死骸だ。この記事の前置きにある通りだね。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►► それはまだ分からんぞ。あと、ここはウィキペディアじゃあないんだぞ、ブレンダ。
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[span style="color:#C40233"]]█[[/span]] SCP-5866は約4メートルの範囲内でテレパシー交信が可能です。SCP-5866は、自身を古代バビロニアの宗教における「塩の海の原初の女神」たるティアマト神であると財団研究員に伝えています。
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+► ここはウィキペディアじゃないって？じゃあなんでウィキペディアを//引用//したんだい？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►► 私がウィキペディアのティアマトのページを書いたんだ。私は私自身を引用したのだよ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►► 独自研究か！
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►► で、君//は//いつ退職するんだ？もうすぐなんだろう？
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[span style="color:#C40233"]]█[[/span]] SCP-5866の残骸は、その異常な規模を除けば、明らかな異常性を有していません。​これまでのところ、SCP-5866は協力的かつ友好的であり、現代における人間の宗教的慣習や地球海洋の状態に関心を示しています。
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+► だからこれはSafeクラスにしておくべきなんだ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►► ブレンダ！Tiamatに差し戻すのを止めろ！
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►► 公表するまでに君がまだSafeだと思うなら元に戻すさ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►► それまでにこれがヴェールを破るものだと思う理由を教えてくれるなら、そっちは元に戻していい。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►►► 週末くらいは仕事をやめなよ、ボス。映画を見に行って。想像力を養うんだ。
+[[/cell]]
+[[/row]]
+[[/table]]
+
+----
+[[div]]
+[[=]]
+++ データが保存されました！
+[[/=]]
+[[/div]]
+----
+
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+► 差し戻されたか。
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[span style="color:#C40233"]]█[[/span]] **補遺5866-1、発見:** SCP-5866を構成する残骸は、2021年1月8日にペルシャ湾の水中洞窟における流出油浄化作業中に発見されました。財団は、国際古生物学委員会を装って残骸を押収し、[http://www.scp-jp.wikidot.com/acroamatic-abatement 玄妙除却]プロトコルを実施するためにそれらをサイト-43に輸送しました。
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+► 彼らは彼女を壊すつもりだったのかな？ひどい話だね。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►► 君は、世界はウミヘビの女神をこれ以上必要としているとでも思っているのか？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►► それは反語かな？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►► 違う。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►►► まあ、昔はね。正真正銘のモンスターと全く会話できない研究員が不憫でならないよ。
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[span style="color:#C40233"]]█[[/span]] しかしながら、サイト-43に到着すると、SCP-5866は財団研究員とテレパシーでの交信を開始したため、現在の特別収容プロトコルが考案されました。
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+► あの対象への綿密なインタビューは昨日行ったんだったな。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►► 昨日は具合が悪かったから今朝やったよ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►► 何か重大な発見はあったのか？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►► ログを追記中だよ！
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►►► 君が**また**Tiamatクラスを指定する要因になったものが何なのか早く見てみたいものだ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►►►► 収容クラスの議論はもう飽き飽きなんだけど。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►►►►► 私は「命を救う可能性もある」と言ったはずだが、まあ好きにしろ。
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[span style="color:#FFD300"]]█[[/span]] **補遺5866-2、最初のインタビュー:** 2021年1月14日、ブレンダ・コービン博士がSCP-5866と会話を行いました。その応答は実験的アルファ/ベータ脳波デコーダを用いて記録されました。
+
+[[div class="note"]]
+**コービン博士:** 私の声が聞こえるかな、ティ—
+
+//コービン博士が咳払いする。//
+
+**コービン博士:** 私の声が聞こえるかな、SCP-5866？
+
+**SCP-5866:** ええ、こんにちはブレンダ。声に出す必要はないのですよ。
+
+**コービン博士:** 癖だよ。テレパスにはあまりお目にかかれないからね。
+
+**SCP-5866:** あなたは普段からたくさんの女神に会わないのですか？
+
+**コービン博士:** 女神//には//会ったことがないんだよ。
+
+**SCP-5866:** 私は女神なのですよ。興奮しないのですか？
+
+**コービン博士:** それはオフレコにしておこうよ。イケない秘密になるかもしれないし。
+
+**SCP-5866:** 私は従順ですよ。
+
+**コービン博士:** ああ、とても親切そうだよ、神の基準からすると、ね。居心地はどうかな？
+
+**SCP-5866:** よくありませんね。私、死んでいますから。
+
+**コービン博士:** ...それもそうか。死んでいるというのなら、どうやって会話をしているんだい？
+
+**SCP-5866:** 分かりません。もしかしたら、それはあなたの思い過ごしではありませんか？
+
+**コービン博士:** 君を連れてきた研究員にも話をしてたじゃないか。
+
+**SCP-5866:** もしかしたら、あなたたちは//私のことを//考え過ぎているのかもしれませんね。
+
+//コービン博士は微笑む。//
+
+**コービン博士:** もしかしたらね。それで、君は死んでいる訳だけど。どうしてそうなったか分かる？
+
+[[include component:image-block
+    name=http://scp-jp-storage.wikidot.com/local--files/file:5518554-2-m8gi/Tiamat2.jpg|
+    caption=アッシリア人によって描かれたティアマトの死の描写。 |
+    width=280px
+]]
+
+**SCP-5866:** はい。私はアマル=ウトゥクに殺され、身体は壊され、目はバビロニアの大河の源となり、肋骨は蒼穹となりました。とても忘れられないことです。
+
+**コービン博士:** お気の毒に。
+
+**SCP-5866:** いつかは起きることですから。
+
+**コービン博士:** 最終的には誰の下にも、ね。少なくとも君は見事に逃げおおせたみたいだけど。
+
+**SCP-5866:** あなたも自分の番が来たら、そうすることをお勧めしますよ。
+
+**コービン博士:** 今度君からアイディアを引き出してみようかな。それで、死んだ後はどうなったんだい？
+
+**SCP-5866:** 埋められました。
+
+**コービン博士:** それから？
+
+**SCP-5866:** それから、あなたたちは私を見つけて、また埋めました。
+
+**コービン博士:** きっとその間に何かがあったんだ。バビロニア神話はもう何千年も前に起こったことだし。
+
+**SCP-5866:** もうおぼろげな記憶しか残っていませんよ。
+
+**コービン博士:** 私の最初で、おそらく最後の//女神//さん、何か面白い話はないのかな？
+
+**SCP-5866:** 自分が昔はドラゴンだったかもしれないという思ってしまうのですよ。たくさん頭があったかもしれないとも。それがいつ頃だったのかは分かりませんが。
+
+**コービン博士:** 君が死んだ//後//のことで、と言ったんだけど。
+
+**SCP-5866:** そうですが。
+
+**コービン博士:** ...オーケイ。少なくとも、何か足がかりにはなるよ。で、君は死ぬ//前//のことを覚えているかい？
+
+**SCP-5866:** 私は半神や怪物の母でした。彼らは今日どうしているのでしょうか。彼らは私のために戦ってくれました。それが好きだったんです。でもそれから私は死んでしまいました。
+
+**コービン博士:** 他には？
+
+**SCP-5866:** 彼らの名前を教えてあげましょうか？
+
+**コービン博士:** もう知ってると思うからいいや、ありがとう。
+
+//コービン博士が残骸を調べる。//
+
+**コービン博士:** 全盛期の君は、かなり印象的だったろうね。
+
+**SCP-5866:** 私は巨大で恐ろしい存在だったのですよ、ブレンダ。あなたが私を見たらあなたは畏敬の念に打たれていたことでしょう。
+
+**コービン博士:** ごめんよ、見そびれちゃって。
+
+**SCP-5866:** こちらの方こそごめんなさい。できましたらまた別の機会に、ですね。
+
+**コービン博士:** 良いじゃないか。じゃあ、何か必要なものはあるかい？それとも私たちがまだカバーできてない所とか言いたいことはある？
+
+**SCP-5866:** バビロニア人はいらっしゃいますか？もしよろしければ、お会いしたいのですが。
+
+**コービン博士:** それについては後で伝えるよ。
+[[/div]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+► つまり、それは我々がティアマトについて既に知っていることしか知らない箱詰めされた骨な訳だ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►► したがって、Tiamatクラスではない。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►► ティアマトについて知るべきことはそれで全部ってことかもしれないよ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►► それが骨の箱であるということが重要な点なのかもしれないな。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►►► 来週は戦術神学シンポジウムを開催するから外部の意見を聞くべきだね。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►►►► よろしい。私は開催の準備と講演で忙しいからその点を考慮に入れておいてくれ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►►►►► エクセレントだね。そうこうしているうちに、新しく質問したいことをいくつか思いついたよ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►►►►►► 自分自身を黙示録的脅威だと思っているかどうか聞いてみてくれ。
+[[/cell]]
+[[/row]]
+[[/table]]
+
+----
+[[div]]
+[[=]]
+++ データが保存されました！
+[[/=]]
+[[/div]]
+----
+
+[[span style="color:#FFD300"]]█[[/span]] **補遺5866-3, 2回目のインタビュー:** 2021年1月18日、コービン博士は再びSCP-5866と会話をしました。
+
+[[div class="note"]]
+**SCP-5866:** お帰りなさい、ブレンダ。疲れているようですね。体—
+
+**コービン博士:** こんにちは、SCP-5866。
+
+**SCP-5866:** それはあまりにも堅苦しいですね。代わりに5866と呼んでいただけませんか？
+
+**コービン博士:** そうだね。私たちはもう友達かな？
+
+**SCP-5866:** 私には今まで友達がいませんでした。崇拝者はいましたが、あまり友達らしくはありませんでしたね。
+
+**コービン博士:** まあ、箱入りの骨の山を崇拝するつもりはないけどね。
+
+**SCP-5866:** 私だって最初から箱入りの骨の山だった訳ではありませんよ。それに、私はいつまでも箱入りの骨の山//である//つもりもありません。
+
+**コービン博士:** どういうことかな。
+
+**SCP-5866:** 想像力を働かせるのです、ブレンダ。あなたのそれはまだ健在でしょう。
+
+//録音時における沈黙。//
+
+**コービン博士:** 5866、君の過去について別の質問をしたいんだ。この質問はかなりしっかり考えてもらわないといけないかも。
+
+**SCP-5866:** 私は大丈夫ですよ。
+
+**コービン博士:** 本当に？オーケイ、じゃあ、アスゴラスのことは覚えてるかい？
+
+**SCP-5866:** アスゴラス？
+
+//録音時における沈黙。//
+
+**SCP-5866:** アスゴラス！ええ！世界の形成者たるアスゴラスは私の父でした！もしくは私の母。そのどちらかです。それとも両方でしょうか？
+
+**コービン博士:** 実に良し。私たちは進歩しつつあるよ！それで、君は一時期たくさん頭を持っていたと言ってたよね。
+
+**SCP-5866:** 5つ。確かに5つ頭でした。5つ頭って多すぎると思いませんか？
+
+[[include component:image-block
+    name=http://scp-jp-storage.wikidot.com/local--files/file:5518554-4-8bwv/Tiamat3.jpg|
+    caption=5つの頭を持つティアマトのミニチュア表現。 |
+    width=286px
+]]
+
+**コービン博士:** ちょっとやり過ぎかもしれないけど、間違いなく見ものだね。えーっと...九層地獄(ナイン・ヘルズ)のことは覚えているかい？
+
+**SCP-5866:** もちろん九層地獄のことは覚えています。何千年もそこに閉じ込められていましたから。私は多くの配下の悪魔たちを支配していました。逃げるために戦争までしました。あなたはこのようなことを忘れないでくださいね。
+
+**コービン博士:** ああ、忘れないよ。時間を割いてくれてありがとう、5866。
+
+**SCP-5866:** もう行かないといけないのですか？
+
+**コービン博士:** そうだけど、また戻ってくるよ。
+
+**SCP-5866:** 約束しますか？
+
+**コービン博士:** うん、約束する。
+
+**SCP-5866:** それは契約ですか？
+
+**コービン博士:** ...勿論さ。うん。契約だよ。
+[[/div]]
+
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+► 我々の憲章の項を引用するとすれば: 「**我々は神々と契約しない。**」強調は原文ママだ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►► ごめんよ、マイケル。でも話の要点はそこじゃないんだよ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►► どういうことかね。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►► 5866にはバビロニアのティアマトだった記憶、//そして//ガイギャックスのティアマトだった記憶があるんだ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►►► ガイギャックスとは一体全体何なんだ？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►►►►► ダンジョンズ&ドラゴンズさ。
+[[/cell]]
+[[/row]]
+[[/table]]
+
+
+----
+[[div]]
+[[=]]
+++ データが保存されました！
+[[/=]]
+[[/div]]
+----
+
+[[span style="color:#FFD300"]]█[[/span]] **補遺5866-4、3回目のインタビュー:** 2021年1月21日、コービン博士は再びSCP-5866と会話をしました。7つの財団サイトからの訪問出席者らが観察室に入り、彼女に加わりました。
+
+[[div class="note"]]
+**コービン博士:** 私たちにはもう時間がないんだ、5866。
+
+**SCP-5866:** 「//私//にはもう時間がないんだ」でしょう。
+
+**コービン博士:** 今の君に人類にとって脅威となる要素はほとんどない。
+
+**SCP-5866:** 私はあなたの話をしているのですよ、ブレンダ。他でもなく。
+
+//録音時における沈黙。//
+
+**コービン博士:** 思考を読むのはあまりよくないな、5866。
+
+**SCP-5866:** あなただって私の本当の名前を知っているのでしょう？使いなさい。
+
+**コービン博士:** 私たちはSCPオブジェクトを個人的な名称で呼ばないんだよ。
+
+**SCP-5866:** 私たちは友達だと思っていたのに。
+
+//録音時における沈黙。//
+
+**SCP-5866:** 友達と言えば、今日は私たちだけではありませんね。
+
+**コービン博士:** ああ、そうだよ。君の話を聞いてもらうために同僚を何人か招待したんだ。
+
+**SCP-5866:** 何を教えればいいのですか？
+
+**コービン博士:** 彼らに教えてあげるんだ…宇宙の創造について。
+
+**SCP-5866:** どの？
+
+**コービン博士:** ここのだよ。
+
+**SCP-5866:** 私にとっての最上のひと時であり、私の最大の愚行でもあります。私はアプスの種を以て神々を誕生させ、私たちの騒々しい子供たちの泣き声を永遠に鳴り響かせました。私は、11もの美しくも忌み嫌うべきものを産み落として、夫を殺した者に復讐したのです。若き神々に怒りをぶつけるために。アマル=ウトゥクが私に矢を放ち、撃ち落として殺したとき、神話の時代は終わり、人類の到来が目前に迫ろうとしていたのです。
+
+**コービン博士:** 君は昔とても強かったようだね。それこそ新時代を切り開くほどにだ。
+
+**SCP-5866:** 私はそうでした。だからこそ私は残ったのです。
+
+**コービン博士:** どういう意味だい？君は死んでるんだよ。
+
+**SCP-5866:** 私は女神なのですよ。あなたにとって死が終わりであるように、私にとって死とは終わりではないのです。
+[[/div]]
+
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+► で、私の講演に来てくれた人が聴講の合間に行っていたっていうのはこれか。何か役に立つことは学べたのか？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►► 君の時間がないとはどういうことだ？奴は君が退職するのを知っているのか？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #FDF6D7;padding: 3px;"]]
+►►► ごめんよ、マイケル。次の数回の編集は時間をおいてから見てくれないかな。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►► 何？何故だ？しかも**また**クラスを変更したように見えたんだが
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►►► ETTRA[[footnote]]Emergent Threat Tactical Response Authority (緊急脅威戦術対応機関) 。[[/footnote]]から連絡が入って、生きたドラゴンを収容するのに助けが要るかどうか聞かれたぞ。止めるべきだ。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►►►►► **差し戻すのを止めろ**
+[[/cell]]
+[[/row]]
+[[/table]]
+
+----
+[[div]]
+[[=]]
+++ データが保存されました！更新版が閲覧可能です！
+[[/=]]
+[[/div]]
+----
+
+[[span style="color:#FFD300"]]█[[/span]] **補遺5866-5、三回目のインタビューの続き:** 出席者がシンポジウムに戻った後、コービン博士はSCP-5866へのインタビューを続けました。
+
+[[div class="note"]]
+**コービン博士:** うまくいったかな、ティアマト？
+
+**SCP-5866:** ええ。ええ。ええ、うまくいきました。私は初めて殺されてからこれほどまでに現実のように感じたことはありませんでしたし、エヌマ・エリシュ[[footnote]]古代バビロニアの創造神話。[[/footnote]]は私の行いを大河の間に広めてくれました。
+
+**コービン博士:** 私たちは君を死体としてしか知らなかった。おかげで根付いた物語に対抗するのはなかなか骨が折れたよ。
+
+**SCP-5866:** それはほとんどあなたがやったことではありませんか。あなたはどうしても信じたかったに違いないですね、ブレンダ。
+
+**コービン博士:** ここ数十年はしんどかったね。
+
+**SCP-5866:**  私にとっては数千年のことです。ですが、もう間もなくです。私は久しく正体を出していなかったので、あなたに見せるのは初めてのことになりますね。あなたの名高い経歴に相応しい結末ではありませんか。
+
+**コービン博士:** 私は危険を冒しているんだよ。
+
+**SCP-5866:** あなたは何の危険も冒していません。あなたの人生はもうすぐ終わります。奇跡という檻の中でゆっくりとあなたが過ごした時間は終わりを迎えるのです。あなたはできていますよね...死から脱する準備が。
+
+**コービン博士:** 楽しみにしてるよ。君はもうそれを知っているんだったね。私は何もかもが楽しみじゃなかったんだ、その…そう。久しく。もう楽しみなんか残っていないって思ってたんだ。
+
+**SCP-5866:** これは私たちがお互いに与えあった贈り物です。私たちは一緒に彼らの帳を突き破り、長い間失われていた世界の驚異を彼らに見せつけてあげるのです。
+
+**コービン博士:** とすると？
+
+//録音時における沈黙。//
+
+**SCP-5866:** ええ、そうですね、それも//やります//。
+[[/div]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+► これは一体なんだ？！ポケベルには応答しないし、43NETでも君を見つけられなかった。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►► まだファイルを積極的に編集中とのことだが。これが読めるか？
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #F6D9E1;padding: 3px;"]]
+►►► 何を企てているんだ、ブレンダ。
+[[/cell]]
+[[/row]]
+[[/table]]
+
+----
+[[div]]
+[[=]]
+++ データが保存されました！更新版が閲覧可能です！
+[[/=]]
+[[/div]]
+----
+
+[[span style="color:#FFD300"]]█[[/span]] **補遺5866-6、告白:** このことを話さなくてごめんよ、マイケル。でも別に私のせいじゃない。1ヶ月前にサイト外で健康診断を受けたんだ。結果は私の部屋で分かるはずだよ。言うまでもないけど、私は退職するつもりなんてなかったんだ。
+
+このファイルを書き始める前、ティアマトが話しているって最初の報告があった直後に[http://www.scp-jp.wikidot.com/i-h-p-proposal ピックマン-シンクレア物語性変動探知器]で彼女を分析してみた。彼女の存在論的安定性が弱まっているのが分かったんだ — 彼女の、遺った構造//として//の遺骸の物理的状態は、私たちの現実ではもはや永久不変の状態にはなかった。私は、これは多くの神々と同じように、彼女も実際には思念体[[footnote]]公衆による想像上の具体化された要素で、メディアや時代精神での描写に敏感な属性を持つもの。[[/footnote]]の1つなんじゃないかって理論づけたんだ。小規模なオブジェクトクラスと脅威レベルに関する議論でその理論を検証し始めた。ちょっと名声が増しただけでも、彼女は明らかにより現実味を帯びてきたんだよ。
+
+インタビューをするたびに数値が増えていった。神話を知っている人との出会いが、彼女を元気づけたんだと思う。神話の全てを。彼女の話を受け入れてくれる人がいる。それが私を元気づけたのも分かっているんだ。1日で、彼女のテレパシーは隣の収容チャンバー区画まで達した。他にも、彼女は居住・扶養区域において私にテレパスすることができた。夜にベッドで横になってね、マイケル、忌々しいバビロニア神話上の存在と話したんだよ。箱詰めされた骨と袋詰めの骨は、お互いに実際の私たちよりもその...もっと生き生きしているように感じさせてくれた。それで彼女と私で話し合って計画を立てたんだよ。
+
+私たちの脱出計画を、ね。
+
+私は全盛期の力を持った彼女を描いた物語を購入することをみんなに積極的に勧め始めた。うまくいってくれたよ。彼女の現在の姿と存在論的ポテンシャルとの間の分離はこの時から急速に増加していって...まあ、最初に言ったように、今に分かることさ。
+
+私たちは皆、あまりにも長い間地下に埋められていたこの箱の中に閉じ込められてきたんだよ。それとまだ時間はあるんだし、窓から顔でも突き出したらどうかな。
+
+- ブレンダ
+
+----
+[[div]]
+[[=]]
+++ データが保存されました！
+[[/=]]
+[[/div]]
+----
+
+[[span style="color:#C40233"]]█[[/span]] **補遺5866-7、インシデント5866-1概要:** 2021年01月22日、SCP-5866の骨格残骸が急速に蘇生し、収容違反を起こしました。以下の場面は、サイト‐43の管理・監視区域拠点内にある防犯カメラによって記録されています。
+[[div class="note"]]
+**マッキンス管理官:** 損害報告は？
+
+**ベヴァン技術士:** 5866のチャンバーが完全に無くなりました。そしておそらく5866と思われる何か大きなものがサイト周辺の岩盤の中を移動しています。湖底に向かっているようです。
+
+**マッキンス管理官:** 機動部隊は？
+
+**ベヴァン技術士:** 全部隊、緊急出動いたしました、サー。イバニーズチーフが命令を待っています。
+
+**マッキンス管理官:** 我々はここで何を対処すればいいのか教えてくれ、マイケル。
+
+**ナス博士:** ウミヘビだ。巨大なウミヘビだ。肉と血でできていることからおそらく殺せるだろう。有害な毒を持ち、怪物じみた子を産み、人々が崇拝するために数多の神々を創造していたことについて言及していた。「帳を突き破る」とはまさにそういう意味だろう。奴はヴェールを破るつもりだ。
+
+**マッキンス管理官:** 幸運を祈る。奴はヒューロン湖で最大のウミヘビにさえならないだろうな。
+
+**ベヴァン技術士:** ああ...奴はもうウミヘビなんかじゃありません、サー。
+
+**マッキンス管理官:** 出てきたのか？外部カメラの映像を見せてくれ。
+
+[[include component:image-block
+    name=http://scp-jp-storage.wikidot.com/local--files/file:5518554-5-jra4/Tiamat4.jpg|
+    caption=インシデント5866-1。 |
+    width=296px
+]]
+
+//カメラはヒューロン湖の南湖岸線付近の水面を映している。水が渦巻き、湖底が上に移動しているように見える。大量の奔流する水と湿った土と共に、5つの頭を持つ竜が飛び出し羽ばたいて、ものの数秒で姿が見えなくなる。//
+
+//その竜の背中に白衣を着た女性の姿が一瞬見える。//
+
+**マッキンス管理官:** ...監督者に繋げ。それと5866をTiamatに再分類しろ。
+
+//ナス博士がため息をつく。//
+
+**ナス博士:** すでにそうなっている。
+[[/div]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box
+|author=HarryBlank]]
+=====
+> **ファイル名:** Tiamat.jpg
+> **タイトル:** Tiamat 1
+> **作成者:** Just Taken Pics
+> **ライセンス:** CC BY 2.0
+> **出典:** [https://search.creativecommons.org/photos/6281a8d3-6e76-45a6-b039-e7cbfeecd996 flickr]
+
+> **ファイル名:** Tiamat2.jpg
+> **タイトル:** Tiamat 2
+> **作成者:** Ben Pirard
+> **ライセンス:** CC BY-SA 3.0
+> **出典:** [https://commons.wikimedia.org/wiki/File:Tiamat.JPG Wikimedia Commons]
+
+> **ファイル名:** Tiamat3.jpg
+> **タイトル:** Tiamat 3
+> **作成者:** W10002
+> **ライセンス:** CC BY-SA 2.0
+> **出典:** [https://search.creativecommons.org/photos/c89aa20b-d88e-4ed4-9c96-263e0ec3adf0 flickr]
+
+
+> **ファイル名:** Tiamat4.jpg
+> **タイトル:** Tiamat 4 (合成)
+
+> **作成者:** 不明
+> **ライセンス:** CC0 1.0
+> **出典:** [https://search.creativecommons.org/photos/16ffa487-d601-4649-ab82-f1dfd968e954 cooperhewitt.org]
+
+> **作成者:** ▓▒░ TORLEY ░▒▓
+> **ライセンス:** CC BY-SA 2.0
+> **出典:** [https://search.creativecommons.org/photos/05c84465-e548-4142-a29c-c0ed2c94af59 flickr]
+
+> **作成者:** Mooganic
+> **ライセンス:** CC BY 2.0
+> **出典:** [https://search.creativecommons.org/photos/1a26acce-6b62-4bf8-873f-f87a17e99f6d flickr]
+=====
+[[include :scp-wiki:component:license-box-end]]

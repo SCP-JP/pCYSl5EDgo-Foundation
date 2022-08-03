@@ -1,0 +1,137 @@
+[[include :scp-jp:theme:black-highlighter-theme]]
+[[include :scp-jp:component:bhl-dark-sidebar]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-jp:component:acs-animation]]
+[[include :scp-jp:component:fade-in speed=4]]
+[[module CSS]]
+
+#page-content hr {
+border-top: none;
+height: .05em;
+background: #454545;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;
+}
+
+#page-content > .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: .8em;
+    background-color: #e3e3e3;
+    border-top: 0.125rem dashed #b5b5b5;
+    border-bottom: 0.125rem dashed #b5b5b5;
+}
+
+#page-content > .collapsible-block .collapsible-block-content {
+    text-align: left;
+}
+
+blockquote,
+div.blockquote {
+    border: 0.125rem solid #d4d4d4;
+    background-color: #F5F5F5;
+}
+
+.interview{
+    border:solid 2px #d4d4d4;
+    background:#F5F5F5;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+#page-title{display:none}
+
+[[/module]]
+
+
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[div style="text-align: right; margin-top: -20px;"]]
+[[size 80%]]##757575|by PlaguePJP##[[/size]]
+[[/div]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=jp[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=scp-5592 [!-- url of your page on the scp wiki --]
+|authorPage=http://www.scp-wiki.net/plaguepjp[!-- link to your author page --]
+|comments= //You're Really a Part of Me// / //君は真に僕の一部// - PlaguePJP
+]]
+
+[[include :scp-jp:component:anomaly-class-bar-source
+|item-number= 5592
+|clearance= 2
+|container-class= euclid
+|secondary-class= none
+|disruption-class= dark
+|risk-class= notice
+]]
+-----
+[[div class="scp-image-block block-center" style="width:55%;"]]
+[[image http://scp-jp-storage.wikidot.com/local--files/file:3324351-26-9w64/bedroom.jpg style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-5592の発見場所。
+[[/div]]
+[[/div]]
+------
+**特別収容プロトコル:** SCP-5592はサイト-322の医療アノマリー保管棟に収容します。
+-----
+**説明:** SCP-5592はアメリカ合衆国ニュージャージー州、ニューアーク出身の26歳男性であるジョン・ヒギンズの死体です。2016/03/13、ヒギンズが職場に3日間顔を出していない旨の通報を受け、警察が自宅のアパートに様子を伺いました。警察はヒギンズのベッドにて死体を発見しました。ヒギンズの死体からは腫瘍に似た大きな塊が首の下半分から骨盤辺りにかけて隆起しており、最も盛り上がった箇所は下腹部辺りで、その高さは約46 cmにもなっていました。警察局による検死に先立って、ニュージャージー州の法執行機関に配属されていた財団工作員がSCP-5592を押収し、サイト-322に引き渡しました。
+
+医療スタッフが腫瘤を切開した結果、ヒギンズの真皮と表皮の間に挟まれたローラン・ニールソンの死体が発見されました。ニールソンは窒息死していたものの、争った形跡はありませんでした。ニールソンがヒギンズの体内に入った方法を示唆する傷痕はなく、皮膚線条や打撲痕も存在しませんでした。
+-----
+= **補遺1**
+-----
+以下の書き起こしはSCP-5592の一件が発生する前の出来事と考えられているものであり、ヒギンズの携帯で録画されていました。
+
+[[div class="interview"]]
+**<<ログ開始>>**
+
+//(ヒギンズがカメラを弄っているのが見え、バランスを保たせた後に素早くフレーム外へと去る。画面には薔薇の花弁に覆われたヒギンズのベッドが映っている。蝋燭がベッド脇のテーブルに置かれている。左側でドアを開ける音がする。目隠しをしたニールソンがヒギンズに案内されながら入室する。)//
+
+**ニールソン:** //(笑う。)// これから何が起きるの？
+
+**ヒギンズ:** 大丈夫、ほら…… 人前ではやめてほしいって前に言ってただろう。それでも、やっぱり特別な感じにするべきだと思ってね。
+
+//(ヒギンズが片膝をつく。)//
+
+**ヒギンズ:** 目隠し、取っていいよ。
+
+//(ニールソンが従い、目隠しを外すと、口を大きく開けて部屋を見渡す。)//
+
+**ニールソン:** //(笑いながらも涙を流し始める。)// いつの間に用意したの？
+
+**ヒギンズ:** 質問するのは僕のほうさ…… 僕と結婚してくれるかい？
+
+//(ニールソンが頷き、今度は泣きながらヒギンズに抱き着く。2人はキスを交わし、ヒギンズがニールソンの左薬指に指輪をはめる。)//
+
+**ヒギンズ:** 一応言っておくとね、僕だって君と結婚したいとも思っていたんだ。
+
+//(2人がクスクス笑う。)//
+
+**ヒギンズ:** さあ、この飾り付けを無駄にしないようにしよう。
+
+//(ヒギンズが照明を消してベッドに寝転がり、ニールソンがそれに続く。明かりがないため、映像が不明瞭となっている。)//
+
+**ヒギンズ:** アレクサ、プレイリストの 'She Said Yes' をシャッフル再生して。
+
+//(ニールソンが笑う。)//
+
+**Amazon Echo:** プレイリスト 'She Said Yes' をシャッフル再生します。
+
+//(フランキー・ヴァリのカバー曲「I've Got You Under My Skin」が流れ始める。)//
+
+//(突如として裂けるような音が鳴り、軽い咳や咽び声がそれに続く。その後の3分間にわたり、何か湿った厚いものが押し付けられる音が聞こえる。)//
+
+//(録画は無音のまま5時間続き、恐らくは携帯の充電が切れたことで途切れる。)//
+
+**<<ログ終了>>**
+
+[[/div]]

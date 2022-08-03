@@ -1,0 +1,86 @@
+[[include :scp-wiki:theme:blankstyle]]
+[[module css]]
+body{
+    --barColour: #b8a499;
+}
+
+:root{
+  --header-title: "戦術神学部門";
+  --header-subtitle: "アブラハム三宗教担当下位部門";
+}
+@media (max-width: 768px) {
+    :root {
+         --header-title: "戦術神学部門";
+    }
+}
+
+div#extra-div-1 {
+    background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-128-ww6p/tactical-theology.png);
+    filter: opacity(20%);
+}
+[[/module]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=in-heaven-a-spirit-doth-dwell
+|authorPage=http://scp-wiki.wikidot.com/elijah-martin-chevrolet-by-the-book
+|comments=
+
+= **SCP-5709** - 天に御霊の棲み給ふ
+
+----
+
+= Elogee FishTruck 著
+]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:classified-bar-woed
+|lv=5
+|item=5709
+|oc=Israfil
+|lang=JP
+]]
+
+----
+
+[[include component:image-block
+| name=door.jpg
+| caption=SCP-5709の入口。
+]]
+
+**特別収容プロトコル:** 1名の警備員がSCP-5709を巡察します。無許可のアクセスや知識取得は禁じられています。
+
+----
+
+**説明:** SCP-5709はネゲヴ砂漠にある泥レンガ造りの小屋です。壁には窓などの開口部が設けられておらず、1枚の扉が内部への唯一の入口となっています。
+
+建造物の内部は反ミーム効果を有し、退出した人物がその外観、特性、内容物などを思い出すことを妨げています。収容後のインタビューを通して、財団はSCP-5709の内部について以下の事項を突き止めています。
+
+* 照らされていない。
+* 空虚ではない。
+* 生きていない、または動かない。
+* 温かくない。
+* 泥レンガでは構築されていない。
+* 粗悪ではない。
+* 燃えていない。[[footnote]]アキヴァ値の測定結果は決定的なものではありません。[[/footnote]]
+* その種の最初の、または最後の存在ではない。
+* 機能していない、または完全ではない。
+* 開かれていない。
+* 閉じられていない。
+
+入口の横の壁にボルト留めされた真鍮の銘板には、以下のように記されています。
+
+> [[span class="ruby"]]怪奇性ステータス[[span class="rt"]]Abnormality Status[[/span]][[/span]]: ISRAFIL
+
+----
+
+**補遺 5709.1:** 回収ログ
+
+最初の探査試行に際し、死亡したヒト型生物が内部から射出されて数メートル先に落下し、職員を負傷させました。当該生物は衣服を着用しておらず、性器・肛門・鼻孔が欠如していました。腕は手首部分で、口から延びた長い円錐形の付属物と融合していました。第三度熱傷が生物の皮膚を覆っていました。搬送用の遺体袋に収納されたにも拘らず、財団の病理医は袋を開けた時にヒト型生物を発見できませんでした。
+
+この生物の遺体は、視認者に金管楽器の不協和音のような幻聴をもたらしました。影響者の報告によると[データ削除済]。戦術神学部門によって終末論的な意義の確認が行われています。
+
+[[footnoteblock]]
