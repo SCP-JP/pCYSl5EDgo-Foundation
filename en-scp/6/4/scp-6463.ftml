@@ -1,0 +1,73 @@
+[[include :scp-jp:theme:paperstack]]
+[[include :scp-jp:component:toggle-sidebar]]
+[[module CSS]]
+
+div#header-extra-div-1 {
+    height: 180px;
+    width: 100%;
+    top: 6px;
+    left: -10px;
+    position: absolute;
+    background: url("http://scp-wiki.wdfiles.com/local--files/theme%3Apaperstack/lgtrans.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    z-index: -1;
+    pointer-events: none;
+}
+@media (max-width: 880px) {
+    div#header-extra-div-1 {
+         height: 184px;
+         top: -3px;
+         left: 0;
+         background-position: 50% 50%;
+    }
+}
+
+#side-bar {
+    background-color: #fff;
+    box-shadow: 0px 0px 7px #949494;
+}
+
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div class="header-container"]]
+[[div class="text-item"]]
+[[size 90%]]##grey|**アイテム番号:**##[[/size]]
+ 
+[[size 220%]]**SCP-6463**[[/size]]
+[[/div]]
+ 
+[[div class="text-item"]]
+[[size 90%]]##grey|**収容クラス:**##[[/size]]
+ 
+[[size 220%]]**PENDING**[[/size]]
+[[/div]]
+[[/div]]
+@@ @@
+[[include :scp-wiki:component:image-block name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-9-428a/treelake.png|align=center|width=700px|caption=SCP-6463-A]]
+[[div style="height: 0.8rem"]]
+[[/div]]
+++++ __特別収容プロトコル__
+
+--チャールズ・ギアーズ博士は、SCP-6463の位相的または次元間の変則性を監視および調査します。財団との連絡の再確立は最優先事項であるとみなされています。--
+
+##blue|N/A。##
+
+[[div style="height: 0.8rem"]]
+[[/div]]
+
+++++ __説明__
+
+SCP-6463は規模不明の外次元の平面である次元-882R53の--暫定的な--指定番号です。SCP-6463は塩原に類似しており、表面は固体でほぼ完全な反射率を示します。表面はまた塩味があることも特筆すべきです。
+
+SCP-6463内部の実体は、いかなる種類のエネルギー消費や減衰の影響を受けないと推測されています。SCP-6463に持ち込まれたいくつかの電子機器は故障せずに最低でも296,516年間絶えず機能しており、内部の人間は老化や栄養を必要とする様子を見せず、そのため生物学的に不死になります。
+
+SCP-6463は、1本の木（以降SCP-6463-A）を除き大方特筆すべき点はありません。SCP-6463-Aは認識災害効果を示し、距離や可視性に関わらず観測者はその位置を認識できます。
+
+##blue|チャールズ・ギアーズ博士の死体がSCP-6463-Aの根本にもたれた状態で発見されました。本ファイルの最終更新のタイムスタンプや、続いて行われた解剖のレポートや、彼のドライブから回復された1,779,095本のビデオログは、彼がおよそ450,000歳の時に自然死したことを示しています。##
+@@ @@
