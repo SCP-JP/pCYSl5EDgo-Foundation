@@ -1,0 +1,318 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :topia:cqb:flow speed=1]]
+
+[[span class="terminal-span"]]▷: ACCESSING FILE: intSCPFN:/files/scp-4790/lvl=4[[/span]]
+
+
+@@ @@
+@@ @@
+@@ @@
+
+[[span class="page-title" style="display: block;" id="#page-title"]]SCP-4790[[/span]]
+[[include :scp-jp:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:black-highlightyear]]
+[[module css]]
+
+#page-content .rate-box-with-credit-button {
+    background: #5C1D24;
+}
+#page-content .rate-box-with-credit-button>.creditButton>p>a:before {
+    background-color: #FFB961;
+}
+#header h2 span::before {
+    content: "艱 難 を 経 て 星 へ";
+    color: #ffc780;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    text-shadow: 3px 3px 3px rgba(0,0,0,.9);
+}
+.danger-diamond a:hover {
+    background-color: transparent;
+}
+.hovertip {
+    width: auto !important;
+    max-width: 550px;
+}
+.f-footer{
+    display: none;
+}
+.hover{
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+.hover:hover{
+    text-decoration: none;
+    border-bottom: none;
+}
+.hover .tip{    
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 500ms;
+}
+.hover:hover .tip{
+    visibility: visible;
+    position: absolute;
+    display: inline;
+    opacity: 1;
+    color: inherit;
+    /* font-size: 80%; */
+    margin: 25px -12px;
+    height: auto;
+    background: #1B304D;
+    border: 1px solid #CCC;
+    width: auto;
+    padding: 1em;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(100,100,100,0.3);
+    z-index: 20;
+}
+.hover:hover .tip span{
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
+}
+.footnotes-footer{
+    overflow-x: auto;
+    /* white-space: nowrap; */
+}
+#page-content a:hover::before {
+    content: "";
+}
+[[/module]]
+[[module CSS]]
+/* INFO BOX */
+sup{
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
+}
+body{
+  --cutColour: #ffb961;
+  --barColour: #5C1D24;
+}
+.translation_block, .u-faq{ display: none; }
+
+/* PAGE TITLE CODE */
+ #page-title{ display: none; }
+ .page-title{
+     color: #ffb961;
+     font-weight: normal;
+     margin: 0 0 0;
+     padding: 0 0 0;
+     font-size: 200%;
+     text-align: center;
+}
+ .page-title p{ margin: 0; }
+
+/* DIV BLOCKS */
+ .terminal-span{
+     font-family: Courier, monospace;
+     font-size: 115%;
+     font-weight: bold;
+     color: #ffb961;
+}
+ .o5{
+     border: 1px solid #ffb961;
+     background: #192845 url(http://scp-jp-storage.wikidot.com/local--files/file:6085604-2-1s27/o5-command-trans.png) center no-repeat;
+     padding: .915em;
+     margin: 4%;
+     width: 85%;
+     font-family: Courier, monospace;
+     font-size: 115%;
+     font-weight: bold;
+     color: #ccc;
+}
+ .forget{
+     display: inline-block;
+     border: 3px solid #ccc;
+     border-radius: .61em;
+     background-color: #21212D;
+     margin: 1em 0;
+     width: 40%;
+}
+
+/* FORMATTING */
+ .footnoteref{ font-variant: unset; }
+ .collapsible-block-link{
+   font-weight: bold;
+   font-family: Courier, monospace;
+   font-size: 115%;
+}
+ #page-content .collapsible-block-folded a.collapsible-block-link{
+     animation: blink 0.8s ease-in-out infinite alternate;
+}
+ @keyframes blink{
+     0% { color: transparent; }
+     50%, 100% { color: #ffb961; }
+}
+[[/module]]
+
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+[[span style="font-size: 125%;"]][[span style="font-weight: 900; color: #ffb961"]]アイテム番号:[[/span]] SCP-4790[[/span]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[span style="font-weight: 900; font-size: 125%; color: #ffb961"]]LEVEL 4/4790[[/span]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[span style="font-size: 125%;"]][[span style="font-weight: 900; color: #ffb961"]]収容クラス:[[/span]] [[span style="font-family: Courier, monospace;"]]PENDING[[/span]][[/span]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[span style="font-weight: 900; font-size: 125%; color: #ffb961;"]]EXTRASOLAR[[/span]]
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+[[div class="scp-image-block block-center" style="width: 100%;"]]
+[[image 	http://scp-jp-storage.wikidot.com/local--files/file:6085604-2-xkgk/Alpha-Centauri.jpg style="width: 100%;" link=#]]
+[[div class="scp-image-caption" style="width: 100%;"]]
+[[span style="font-size: 120%;"]]ESA(ハッブル宇宙望遠鏡を使用)とNASAによって撮影されたケンタウルス座アルファ星AとB。[[/span]]
+[[/div]]
+[[/div]]
+----
+[[span class="h-span"]]特別収容プロトコル:[[/span]] ケンタウルス座アルファ星Bの異常性については、関連する科学的コンセンサスの誤誘導および主要な出版物の改竄を通し、非異常な磁場の乱れによるものであるとする説明を流布します。ケンタウルス座アルファ星で地球外生命体が出現した可能性についての学説が極端に懐疑的な態度に出会うようにし、可能な限り覆されます。
+----
+[[span class="h-span"]]説明:[[/span]] SCP-4790は地球から4.37光年に位置するケンタウルス座アルファ星B("トリマン"としても知られる)に関連する一連の異常現象を指します。
+
+ハッブル宇宙望遠鏡による最初の観測でトリマンを取り囲む半径5.1~16天文単位[[footnote]]1天文単位(AU)=14億9600万キロメートル。[[/footnote]]の不規則な活動の重力場が検出されました。この範囲内にある天体は因果律に従わず、大きさ、構成、速度、存在論的なランダムな変動を定期的に示しています。すべての場合においてトリマンの近傍恒星にある天体は予想外に強力な重力井戸の端に閉じ込められ、半径0.9AUの恒星の周りに厚さ約0.05AUのデブリ帯を形成します。
+
+主流の天文学者らはデブリの45%が仮説上の地球と同サイズの太陽系外惑星**α Cen B//b//**の原因不明の破壊に相当すると主張しています。トリマンの観測に参加した民間および財団の研究者2700人の研究団体を対象とした検査で、83%が認識災害感染の陽性反応を示し、その結果に対し相当な苦悩の様子を示しました。
+
+自律型人工衛星//チェーホフ-.009//はトリマンの研究のため[[[aiad-homescreen|人工知能徴募員]]]Fledgling.aicを含む先進的なパラテクノロジーを搭載した処女航海に出発しました。[[footnote]]超光速航法のため実験的なラング歪曲ドライブ(Lang Distortion Drive)を使用。[[/footnote]]
+
+//チェーホフ-.009//は2020/06/11にトリマン付近に到着し、デブリ帯の確認を行いました。Fledgling.aicは予期せぬ1420MHzのバースト信号を直ちに検出しました。信号はその内容が翻訳される前に対認識災害アルゴリズムにより自動的に検疫処理が施されました。Fledgling.aicは信号源の方向に監視探査機を発射しました。
+
+信号源には以前記録された//Priorihominus//[[footnote]][[span class="terminal-span"]]エラー6c24: 定義不明--不明なグループ。RAISA連絡官に連絡してください。[[/span]][[/footnote]]の設計に基づいて造られた船が位置しており、囲まれた[[[*https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E5%A3%BA|クラインの壺]]]の外観を示しています。探査機が船に進入すると、広大な水耕栽培、低温室、居住空間を含む内部空間に遭遇しました。これは世代宇宙船としての目的を示唆しています。
+
+さらに詳しい調査では、探査機は微生物を含むいかなる生命の兆候も発見することは出来ませんでした。この情報と空のデータコアの発見から、船のどの場所にも居住者がいなかったことが示唆されています
+
+その直後、探査機の映像音声フィードは紫色の光が拡散する映像、強力な視覚的ノイズ、何層にも重なった判読不能な音声の放送と中断が続きました。放送を回復しないために探査機の電源を落とそうとした全ての試みにもかかわらずこの放送は継続されました。
+
+最初の通信を受信してから、Fledgling.aicは肉体的な身体が存在していないにもかかわらず、腹部内における動悸の感覚（人間の不安症状と同等）を報告しています。Fledgling.aicはケンタウルス座アルファ星系の状態に対する後悔と一般的な恐怖の感情も指摘しています。Fledgling.aicは撤退を要求しました。[[footnote]]要求は却下されました。[[/footnote]]
+
+Fledgling.aicはデブリ帯に閉じ込められた他の160隻の宇宙船を発見しました。すべての船は同様の構造をしており、各船が同じ太陽系外惑星からの世代宇宙船であることが示唆されています。
+
+これらの船を呼び寄せる全ての試みは失敗に終わりました。
+
+@@ @@
+@@ @@
+@@ @@
+
+[[span class="terminal-span"]]▷: UPDATE DETECTED IN: intSCPFN:/files/scp-4790/containment_procedures[[/span]]
+
+[[span class="terminal-span"]]▷: ACCESSING UPDATE[[/span]]
+
+||~ [[span style="font-size: 165%; font-weight: bold; font-family: Courier, monospace;"]]更新済み収容プロトコル[[/span]] ||
+
+[[div style="text-align: justify; word-break: unset;"]]
+> ケンタウルス座アルファ星系は隔離下に置かれています。ケンタウルス座アルファ星ABの600AU以内の旅行は無期限に停止されています。
+>
+> Fledgling.aicがその調査結果を月に置かれた太陽系外活動監視ステーションエレボス-07に送信し、その全データが現地で押収されることになっています。関係した全ての職員は記憶処理を受け、異動させられます。
+>
+> 人工知能徴募員の標準原則に従い、Fledgling.aicは全ての//チェーホフ-.009//システムを抹消し、即座かつ無期限の活動停止を開始しなければなりません。
+[[/div]]
+[[footnoteblock]]
+
+----
+= [[span class="h-span"]][END OF FILE][[/span]]
+----
+
+@@ @@
+@@ @@
+@@ @@
+
+[[=]]
+[[collapsible show="▷ミーム的ギアス要求 ◁" hide=" " hideLocation="bottom"]]
+[[span class="terminal-span"]]▽レベル5クリアランス承認。ようこそ、O5-7▽[[/span]]
+[[/=]]
+
+[[div class="o5" style="text-align: left;"]]
+[[=]]
+||~ [[span style="font-size: 140%; font-weight: bold; font-family: Courier, monospace;"]]O5内部連絡票[[/span]] ||
+[[/=]]
+
+[[span style="color: #ffb961;"]]TO:[[/span]] O5-1, O5-2, O5-3, O5-4, O5-5, O5-6, O5-8, O5-9, O5-10, O5-11, O5-12, O5-13, 太陽系外活動担当責任者, "ヘイムダル"計画担当責任者, "ギャラクシア"計画担当責任者
+
+[[span style="color: #ffb961;"]]SUBJECT:[[/span]] //チェーホフ-.009// 調査結果
+
+[[div style="border-bottom: 1px solid #ffb961;"]]
+[[/div]]
+
+ケンタウルス座アルファ星Bの明らかな破壊 -- 我々が懸念していたものよりも酷い -- と同時に、Fledgling.aicが宇宙船(コードネーム:IANTHINE HERALD)から発信される信号を検知した。信号には以下の情報が含まれていた。
+
+[[div style="text-align: center; color: #ff4d5b;"]]
+[情報は削除されました -- 添付ファイル参照]
+[[/div]]
+
+O5の命令により//チェーホフ-.009//内の全ての通信データは現実から削除された。//Priorihominus//の勢力圏の歴史的規模に関する予測は再評価されるべきだ。
+
+@@ @@
+
+[[=]]
+ミノタウロスは迷宮を脱出した。
+
+彼らは正面から立ち向かったのか、ただ逃げ隠れていただけなのか。
+
+関係ない。
+
+[[span style="color: #ffb961;"]]我々は絶えず警戒を続ける。[[/span]]
+[[/=]]
+
+@@ @@
+
+[[table style="border: none; width: 100%;"]]
+  [[row]]
+      [[cell style="padding: 0; width: 70%; vertical-align: top;"]]
+    [[/cell]]
+      [[cell style="padding: 0; width: 30%; vertical-align: top;"]]
+--O5-7
+監督評議会
+    [[/cell]]
+  [[/row]]
+[[/table]]
+
+[[/div]]
+
+[[/collapsible]]
+
+@@ @@
+@@ @@
+@@ @@
+
+[[=]]
+[[collapsible show="警告:(1) 件の新着添付ファイルがあります" hide=" " hideLocation="bottom"]]
+[[/=]]
+
+||~ [[span style="font-size: 165%; font-weight: bold; font-family: Courier, monospace;"]]削除情報の概要[[/span]] ||
+
+@@ @@
+
+[[div class="forget"]]
+[[span class="ruby"]]**忘れろ。**[[span class="rt"]]FORGET.[[/span]][[/span]]
+[[/div]]
+
+[[/collapsible]]
+
+@@ @@
+@@ @@
+@@ @@
+
+[[div style="border-bottom: 2px solid #777; margin-bottom: 1px;"]]
+[[/div]]
+[[div style="border-bottom: 1px solid #777;"]]
+[[/div]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
