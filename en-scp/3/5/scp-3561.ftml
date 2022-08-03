@@ -1,0 +1,194 @@
+[[module css]]
+sup { 
+vertical-align: top; position: relative; top: -0.5em; 
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[html]][[/html]]
+[[div style="float:right; margin:0 2em 1em 2em; border:0;"]]
+[[html]]
+<style type="text/css">
+body
+{
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 0.82em;
+}
+table.wiki-content-table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0.5em auto;
+}
+table.wiki-content-table td{
+    border: 1px solid #888;
+    padding: 0.0em 0.0em;
+}
+table.wiki-content-table th{
+    border: 1px solid #888;
+    padding: 0.2em 0.7em;
+    background-color: #EEE;
+}
+</style>
+<table class="wiki-content-table">
+<tbody><tr>
+<td colspan="2">
+<script language="JavaScript">
+var imgs = [
+  "http://scp-jp.wdfiles.com/local--files/scp-3561/art1.png",
+  "http://scp-jp.wdfiles.com/local--files/scp-3561/arta.png"
+];
+var index = 0;
+var rand = Math.round(Math.random() * 10);
+if (rand === 2 || rand === 3) index = 1;
+function show() {
+  document.write('<img src="' + imgs[index] + '" alt="image" class="image" width="300px">');
+}
+show();
+</script></td>
+</tr>
+<tr>
+<th colspan="2"><sup>SCP-3561-1 (<i>“上階廊下”</i>、テオドア・ホールドストック作; 1905年、キャンバス油彩画)。</sup></th>
+</tr>
+</tbody>
+</table>
+[[/html]]
+[[/div]]
+
+**アイテム番号:** SCP-3561
+
+**オブジェクトクラス:** Safe
+
+**特別収容プロトコル:** SCP-3561-1から-6は、財団芸術保存管理者1名の監督の下、現地の温度・湿度が制御された収容庫に保管されます。埃や湿気への曝露は最小限にするよう注意が求められます。
+
+毎週1回、各実例を収容庫から取り出して変化を検査した後、認定を受けているキャンバス油彩画の保存管理者の手で清掃します。
+
+**説明:** SCP-3561は、1905年から1907年にかけてテオドア・ホールドストックが描いた6枚の油彩画(SCP-3561-1から-6)の総称です。それぞれの絵はホールドストックの自宅(ドイツ、ザクセン州、バウツェン郊外に位置)の内装を描いています。
+
+各絵画の視点は鑑賞ごとに一貫しているものの、詳細は周期的に変化します。これには家具の配置、ドアの開閉、照明、そしてシルエットの存在が含まれます(がこれらだけに限定されません)。繰り返しの鑑賞を経て、研究者たちは、如何なる時でも合計5体以上のシルエットは出現しないと判断しています。
+[[html]][[/html]]
+
+**補遺3561.1:** 描写
+
+||~ 題名 ||~ 描写 ||~ 注目すべき姿 ||
+|| SCP-3561-1: //上階廊下// || 椅子、絵画2枚、開いたドア3枚(1枚は鑑賞者の右側、2枚は奥)を備えた廊下。窓がドアのうち1枚の向こうに見える。|| 1体のシルエットが時折、隣の部屋の陰になった部分に立ち、隅を向いている。 ||
+|| SCP-3561-2: //古いストーブ// || 左側には鋳鉄製の薪ストーブ、正面には廊下に通じる出入口。 || 1体のシルエットが廊下、もしくはストーブの隣に立っている。 || 
+|| SCP-3561-3: //少女の寝室の窓// || 正面に開いた窓、そのすぐ下に椅子。右側にベッド、左側に洋服箪笥。 || 1体のシルエットが椅子に座り、窓の方を向き、頭を下げて祈りの姿勢を取っている。シルエットが不在の時は椅子が無くなっており、窓は閉じている。 ||
+|| SCP-3561-4: //居間// || 左側に出入口があり、絵画・ソファー・テーブル・壺を備えた居間に通じている。右側にキャビネット、その上に鏡。 || 1体のシルエットが時折ソファーに座り、頭を下げて祈りの姿勢を取っている。別なシルエットの反射像が鏡に映っていることもある。 ||
+|| SCP-3561-5: //ダイニングルーム// || テーブルを備えた暗い部屋。1本の点った蝋燭がテーブルに乗っている。 || 最大5体のシルエットがテーブルに着席し、頭を下げて祈りの姿勢を取っている。 ||
+|| SCP-3561-6: //玄関// || 左側にテーブルがあり、2本の点った蝋燭が乗っている。正面に窓、その隣にドア。夜間である。 || 1体のシルエットがテーブルの横に座り、頭を下げて祈りの姿勢を取っている。その他、5体のシルエット全てがSCP-3561-5に存在する時は、手が窓ガラスに押し付けられているのが見える。 ||
+
+**補遺3561.2:** 歴史と回収
+
+[[html]][[/html]]
+[[div style="float:right; margin:0 2em 1em 2em; border:0;"]]
+[[html]]
+<style type="text/css">
+body
+{
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 0.82em;
+}
+table.wiki-content-table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0.5em auto;
+}
+table.wiki-content-table td{
+    border: 1px solid #888;
+    padding: 0.0em 0.0em;
+}
+table.wiki-content-table th{
+    border: 1px solid #888;
+    padding: 0.2em 0.7em;
+    background-color: #EEE;
+}
+</style>
+<table class="wiki-content-table">
+<tbody><tr>
+<td colspan="2">
+<script language="JavaScript">
+var imgs = [
+  "http://scp-jp.wdfiles.com/local--files/scp-3561/art2.png",
+  "http://scp-jp.wdfiles.com/local--files/scp-3561/artb.png"
+];
+var index = 0;
+var rand = Math.round(Math.random() * 10);
+if (rand === 2 || rand === 3) index = 1;
+function show() {
+  document.write('<img src="' + imgs[index] + '" alt="image" class="image" width="300px">');
+}
+show();
+</script></td>
+</tr>
+<tr> 
+<th colspan="2"><sup>SCP-3561-4 (<i>“居間”</i>、テオドア・ホールドストック作; 1906年、キャンバス油彩画)。</sup></th>
+</tr>
+</tbody>
+</table>
+[[/html]]
+[[/div]]
+
+
+テオドア・ホールドストックは1902年、家族(娘3人・息子2人・妻)と共にバウツェンへ転居しましたが、この理由は明かされていません(おそらく妻の精神状態の悪化に関連する)。当初は評判が良かったものの、妻の病気が伝染するという噂によって、テオドアの一家は近所から孤立を深めていきました。
+
+1904年、アデレード・ヴェーバー(前年に町に転居した雑貨店オーナーの妻)は、家から夫以外の者が決して姿を見せない -- そして夫も必需品を買うためにしか外出しない -- “変な一家”について日記に書き残しています。一家の状況に関する懸念は1905年に頂点に達し、現地警察の介入が求められました。この当初の対立に関する文書は現存していません。しかし、テオドア・ホールドストックは1909年に自殺するまで家に住み続けました。
+
+家族が窓際に立っているのを見たという隣人の証言が複数あったにも拘らず、テオドア・ホールドストックの妻と子供たちの形跡は発見されませんでした。ホールドストック氏の全ての所持品(SCP-3561を含む)は後に競売に掛けられ、絵画は最終的にベイジル・オッティンガー(スイス人の銀行家/異常芸術収集家)の所蔵となりました。SCP-3561は1985年、スイスのロマンディで行われた財団の襲撃に際して、他数点の異常芸術と共に回収されました。
+[[html]][[/html]]
+
+[[div style="float:right; margin:0 2em 1em 2em; border:0;"]]
+[[html]]
+<style type="text/css">
+body
+{
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 0.82em;
+}
+table.wiki-content-table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0.5em auto;
+}
+table.wiki-content-table td{
+    border: 1px solid #888;
+    padding: 0.0em 0.0em;
+}
+table.wiki-content-table th{
+    border: 1px solid #888;
+    padding: 0.2em 0.7em;
+    background-color: #EEE;
+}
+</style>
+<table class="wiki-content-table">
+<tbody><tr>
+<td colspan="2">
+<script language="JavaScript">
+var imgs = [
+  "http://scp-jp.wdfiles.com/local--files/scp-3561/art3.png",
+  "http://scp-jp.wdfiles.com/local--files/scp-3561/artc.png"
+];
+var index = 0;
+var rand = Math.round(Math.random() * 10);
+if (rand === 2 || rand === 3) index = 1;
+function show() {
+  document.write('<img src="' + imgs[index] + '" alt="image" class="image" width="300px">');
+}
+show();
+</script></td>
+</tr>
+<tr> 
+<th colspan="2"><sup>SCP-3561-6 (<i>“玄関”</i>、テオドア・ホールドストック作; 1907年、キャンバス油彩画)。</sup></th>
+</tr>
+</tbody>
+</table>
+[[/html]]
+[[/div]]
+
+1987年に行われたホールドストック邸の改修は、過去には発見されなかった地下室の存在を明らかにしました。地下室で警察は、ホールドストックの妻・息子2人・娘2人の年齢および描写と一致する、5体の保存状態の良い死体を発見しました。
+
+それぞれの死体は黒いフードとショールできつく包み込まれ、外見的な特徴が不明確になっていました。両手はワイヤーで祈りの姿勢に縛られていました。死体には腐敗を防止し、臭気を抑制するための化学的処置が施されていました。どの死体にも可動性のある関節を備えた粗雑な真鍮の骨組みが外科的に挿入され、様々な体勢を取らせることが可能になっていました。
+
+今日まで、マリー・ホールドストック(テオドア・ホールドストックの長女)は発見されていません。
