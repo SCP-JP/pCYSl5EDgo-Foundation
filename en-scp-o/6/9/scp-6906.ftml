@@ -1,38 +1,38 @@
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {
-    background: #303034;
-    border: solid 3px rgb(228, 228, 228);
-    width: 88%;
-    padding: 1px 15px;
-    margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)
+    background: #303034;
+    border: solid 3px rgb(228, 228, 228);
+    width: 88%;
+    padding: 1px 15px;
+    margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)
 }
 
 .email-example a.collapsible-block {
-    font-weight: monospaced;
+    font-weight: monospaced;
 }
 
 .tofrom {
-    margin-left: 10px;
-    margin-top: 5px;
-    padding: 1px 15px;
-    border-left: solid 3px rgb(228, 228, 228)
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 1px 15px;
+    border-left: solid 3px rgb(228, 228, 228)
 }
 
 .quoteblock {
-    border-left: solid 3px rgb(228, 228, 228);
-    border-right: solid 3px rgb(228, 228, 228);
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
-    width: 90%;
-    margin: auto;
-    background: #303034;
+    border-left: solid 3px rgb(228, 228, 228);
+    border-right: solid 3px rgb(228, 228, 228);
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    margin: auto;
+    background: #303034;
 }
 [[/module]]
 
@@ -89,7 +89,7 @@ My school, my parents. All this is just delaying the inevitable, and I'm tired o
 [[div class="quoteblock"]]
 27/9/2020
 
-This house is finally dead quiet. No-one is angry or sad or scared. Why am I not relieved? The girl that lives here,  I forgot. What's her name again? 
+This house is finally dead quiet. No-one is angry or sad or scared. Why am I not relieved? The girl that lives here,  I forgot. What's her name again? 
 Dear diary, I'm tired of giving a fuck. This is fine, I think this is what I wanted. 
 [[/div]]
 ------

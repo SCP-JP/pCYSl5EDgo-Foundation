@@ -6,65 +6,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 .coupon {
-     border: 5px solid red;
-     background: linear-gradient(100deg, rgba(255,97,97,1) 0%, rgba(255,236,52,1) 100%);
-     padding: 1rem;
-     margin: 0 4rem;
-     text-align: center;
+     border: 5px solid red;
+     background: linear-gradient(100deg, rgba(255,97,97,1) 0%, rgba(255,236,52,1) 100%);
+     padding: 1rem;
+     margin: 0 4rem;
+     text-align: center;
 }
 .coupon h1, .coupon h3 {
-     font-family: 'Abel', sans-serif;
+     font-family: 'Abel', sans-serif;
 }
 
 .quote-text {
-    display: inline-block;
-    border:dashed 1px #999999;
-    background:#F5F5F5;
-    float:center;
-    width:84%;
-    padding:1px 15px;
-    margin: 10px 10px 10px 30px
+    display: inline-block;
+    border:dashed 1px #999999;
+    background:#F5F5F5;
+    float:center;
+    width:84%;
+    padding:1px 15px;
+    margin: 10px 10px 10px 30px
 }
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Collaboration";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
-    line-height: 2.75ex;
+    --wght: 800;
+    content: "Collaboration";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 2.75ex;
 }
 [[/module]]
 [[include component:info-ayers

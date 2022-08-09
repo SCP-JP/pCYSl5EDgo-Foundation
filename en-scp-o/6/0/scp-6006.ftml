@@ -6,60 +6,60 @@ https://scp-wiki.wikidot.com/fragment:scp-6006-1
 --]
 [[module css]]
 div.chatbox-container {
-    background: linear-gradient(rgba(220, 220, 250, 1), rgba(200, 200, 255, 1));
-    border-radius: 10px;
-    box-shadow: 4px 6px 8px #a98;
-    padding: 1em .5em;
-    display: block;
-    width: 75%;
-    align:center;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+    background: linear-gradient(rgba(220, 220, 250, 1), rgba(200, 200, 255, 1));
+    border-radius: 10px;
+    box-shadow: 4px 6px 8px #a98;
+    padding: 1em .5em;
+    display: block;
+    width: 75%;
+    align:center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 z-index:30
 }
 
 table, th, td {
-  border-bottom: 1px solid silver;
+  border-bottom: 1px solid silver;
 }
 
 div.chatboxcontent {
-    color:white!important;
-    border-radius: 20px;
-    background: #8c5450;
-    padding: .5em 1em;
-    width: 20%;
-    margin:auto;
+    color:white!important;
+    border-radius: 20px;
+    background: #8c5450;
+    padding: .5em 1em;
+    width: 20%;
+    margin:auto;
 }
 
 div.chatboxcontent a:link {
-    color:white!important;
+    color:white!important;
 }
 div.chatboxcontent a:visited {
-    color:white!important;
+    color:white!important;
 }
- 
+ 
 @media (max-width: 600px) {
-    div.chatbox-container {
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin-block-start: 0em;
-    margin-block-end: 1em;
+    div.chatbox-container {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
 width:75%;
 padding: 1em;
-    Margin: .5em 0em;
-    position:fixed;
-    right:4em;
-    bottom:4em;
-    }
+    Margin: .5em 0em;
+    position:fixed;
+    right:4em;
+    bottom:4em;
+    }
 }
 
 .footnotes-footer { 
-    visibility: hidden; 
-    height: 0;
-    padding: 0;
-    margin: 0;
+    visibility: hidden; 
+    height: 0;
+    padding: 0;
+    margin: 0;
 }
 [[/module]]
 [[>]]

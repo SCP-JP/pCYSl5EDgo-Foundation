@@ -13,17 +13,17 @@ I am trying my best!
 
 [[module CSS]]
 .collapsible-block-unfolded-link {
-    color: rgb(6,131,131);
+    color: rgb(6,131,131);
 }
 .collapsible-block-link {
-    color: rgb(6,131,131);
+    color: rgb(6,131,131);
 }
 .collapsible-block-link:hover {
-    color: rgb(6,131,131);
+    color: rgb(6,131,131);
 }
 #main-content {
-    --tables-header-txt: rgb(6,131,131);
-    --tables-body-txt: rgb(6,131,131);
+    --tables-header-txt: rgb(6,131,131);
+    --tables-body-txt: rgb(6,131,131);
 }
 [[/module]]
 
@@ -86,7 +86,7 @@ font-size: 0.95em;
 line-height: 23px;
 }
 ::selection {
-  background: rgb(222,189,190);
+  background: rgb(222,189,190);
 }
 </style>
 </head>
@@ -114,28 +114,28 @@ var parr3 = par3.split("");
 var parr4 = par4.split("");
 var parr5 = par5.split("");
 
-    document.getElementById("array1").innerHTML = parr1.join("");
-    document.getElementById("array2").innerHTML = parr2.join("");
-    document.getElementById("array3").innerHTML = parr3.join("");
-    document.getElementById("array4").innerHTML = parr4.join("");
-    document.getElementById("array5").innerHTML = parr5.join("");
+    document.getElementById("array1").innerHTML = parr1.join("");
+    document.getElementById("array2").innerHTML = parr2.join("");
+    document.getElementById("array3").innerHTML = parr3.join("");
+    document.getElementById("array4").innerHTML = parr4.join("");
+    document.getElementById("array5").innerHTML = parr5.join("");
 
 setInterval(function() {
-   
-    parr1[randInt(parr1.length)] = " ";
-    parr2[randInt(parr2.length)] = " ";
-    parr3[randInt(parr3.length)] = " ";
-    parr4[randInt(parr4.length)] = " ";
-    parr5[randInt(parr5.length)] = " ";
+   
+    parr1[randInt(parr1.length)] = " ";
+    parr2[randInt(parr2.length)] = " ";
+    parr3[randInt(parr3.length)] = " ";
+    parr4[randInt(parr4.length)] = " ";
+    parr5[randInt(parr5.length)] = " ";
 
-    document.getElementById("array1").innerHTML = parr1.join("");
-    document.getElementById("array2").innerHTML = parr2.join("");
-    document.getElementById("array3").innerHTML = parr3.join("");
-    document.getElementById("array4").innerHTML = parr4.join("");
-    document.getElementById("array5").innerHTML = parr5.join("");
+    document.getElementById("array1").innerHTML = parr1.join("");
+    document.getElementById("array2").innerHTML = parr2.join("");
+    document.getElementById("array3").innerHTML = parr3.join("");
+    document.getElementById("array4").innerHTML = parr4.join("");
+    document.getElementById("array5").innerHTML = parr5.join("");
 }, 3500);
 function randInt(limit) {
-    return Math.floor(Math.random() * limit);
+    return Math.floor(Math.random() * limit);
 }
 </script>
 </body>

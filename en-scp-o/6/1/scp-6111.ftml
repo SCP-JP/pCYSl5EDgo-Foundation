@@ -3,11 +3,11 @@
 [[module CSS]]
 }
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -16,42 +16,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 blockquote {
-    border-style: solid;
+    border-style: solid;
 }
 blockquote tt {
-    border: 1px #aaa solid;
-    background-color: white;
-    padding: 0 2px;
+    border: 1px #aaa solid;
+    background-color: white;
+    padding: 0 2px;
 }
 
- div.quote-block{
-     border: 3px double #999;
+ div.quote-block{
+     border: 3px double #999;
 }
- div.quote-block{
-     background-color: #f4f4f4;
-     padding: 0 1em;
-     margin: 1em 3em;
+ div.quote-block{
+     background-color: #f4f4f4;
+     padding: 0 1em;
+     margin: 1em 3em;
 }
- @media (max-width: 479px){
-     div.quote-block{ margin: 1em 0; }
+ @media (max-width: 479px){
+     div.quote-block{ margin: 1em 0; }
 }
- @media (min-width: 480px) and (max-width: 580px){
-     div.quote-block{ margin: .5em; }
+ @media (min-width: 480px) and (max-width: 580px){
+     div.quote-block{ margin: .5em; }
 }
 
 #page-title {
-  display: none;
+  display: none;
 }
 .meta-title {
-  border-bottom: solid 1px #bbbbbb;
-  color: #990011;
-  font-weight: normal;
-  margin: 0 0 0.6em;
-  padding: 0 0 0.25em;
-  font-size: 200%;
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
 }
 .meta-title p {
-  margin: 0;
+  margin: 0;
 }
 
 .textchange div.sitemember:nth-child(2) {
@@ -60,16 +60,16 @@ display:none;
 
 
 @keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .no {
-    font-size: 125%;
+    font-size: 125%;
 }
 
 .danke{
@@ -108,7 +108,7 @@ Written by [[*user Felixou]] and [[*user ZG1906]]
 ------
 +++++ [[[Felixoupage |If you enjoyed this, check out the Felixoupage]]]
 ------
-+++++ ZG1906 does not have an author page  :(
++++++ ZG1906 does not have an author page  :(
 +++++ (but they also made this possible)
 [[/=]]
 [[include :scp-wiki:info:end]]
@@ -218,7 +218,7 @@ Written by [[*user Felixou]] and [[*user ZG1906]]
 
 **Special Containment Procedures:** --SCP-6111 is kept in a standard secure locker in site-19.-- SCP-6111 is now kept in a reinforced secure containment locker with additional biometric security measures restricted to personnel involved in Project PROMPTU in site-19. No writing tools are permitted within 20 meters of the locker outside of Project PROMPTU, to ensure the continued effectiveness of containment.
 
-At the end of every month, a group of hand-selected and specially trained personnel are to carry out Project PROMPTU. Personnel will be hand-selected by the project lead Dr. Benedict with approval from the site director and the  O-5 command. Information on the nature of project PROMPTU will be provided by Ethics-committee members prior to assignment.
+At the end of every month, a group of hand-selected and specially trained personnel are to carry out Project PROMPTU. Personnel will be hand-selected by the project lead Dr. Benedict with approval from the site director and the  O-5 command. Information on the nature of project PROMPTU will be provided by Ethics-committee members prior to assignment.
 
 **Description:** SCP-6111 is an average-sized --200-page-- 137-page blue hardcover book. Dating estimates the book to have been produced circa 1960.
 
@@ -287,7 +287,7 @@ Agent Michael volunteered to infiltrate SCP-6111-1 and recover SCP-6111. On 12/1
 
 **Interviewer:** Dr. Benedict
 
-**Foreword:** Questions about the current situation of the colony of D-Class which has formed inside  the internal region of SCP-6111.
+**Foreword:** Questions about the current situation of the colony of D-Class which has formed inside  the internal region of SCP-6111.
 
 ------
 

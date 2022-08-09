@@ -2,91 +2,91 @@
 
 [[module css]]
 :root {
-  --header-title: "SCP FOUNDATION";
-  --header-subtitle: "Site-184: Department of Anomalous Art and Artefacts";
+  --header-title: "SCP FOUNDATION";
+  --header-subtitle: "Site-184: Department of Anomalous Art and Artefacts";
 }
 [[/module]]
 
 [[module CSS]]
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 #page-title {
-    font-family: 'Architects Daughter', cursive;}
+    font-family: 'Architects Daughter', cursive;}
 [[/module]]
 
 [[module CSS]]
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 #page-title {
-    font-family: 'Gloria Hallelujah', cursive;}
+    font-family: 'Gloria Hallelujah', cursive;}
 [[/module]]
 
 [[module CSS]]
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 #page-title {
-    font-family: 'East Sea Dokdo', cursive;}
+    font-family: 'East Sea Dokdo', cursive;}
 [[/module]]
 
 [[module CSS]]
 .box {
-    position: relative;
-    padding: 0.5em;
-    margin: 0.5em;
-    box-shadow: 2px 1.5px 1px rgba(176,16,0,0.7), 0 0 0px 1px lightgrey;
-    overflow-wrap: break-word;
-    color: black;
+    position: relative;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 2px 1.5px 1px rgba(176,16,0,0.7), 0 0 0px 1px lightgrey;
+    overflow-wrap: break-word;
+    color: black;
 }
 
 /* Utilizes the "paper" div made by CityToast and found in the Unusual Cargo theme.*/
- 
+ 
 div.paper {
-    background: linear-gradient(rgba(220, 240, 240, 0.3), rgba(240, 240, 220, 0.5)), url("https://scp-wiki.wdfiles.com/local--files/theme:unusual-Cargo/TOAST-PAPER.jpg");
-    box-shadow: 4px 6px 8px #a98;
-    padding: 1em .5em 1em .5em;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+    background: linear-gradient(rgba(220, 240, 240, 0.3), rgba(240, 240, 220, 0.5)), url("https://scp-wiki.wdfiles.com/local--files/theme:unusual-Cargo/TOAST-PAPER.jpg");
+    box-shadow: 4px 6px 8px #a98;
+    padding: 1em .5em 1em .5em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
- 
+ 
 @media (max-width: 478px) {
-    div.paper {
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    Margin: .5em 0em .5em 0em;
-    }
+    div.paper {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    Margin: .5em 0em .5em 0em;
+    }
 }
 [[/module]]
 
- 
+ 
 [[div class="logo"]]
 [[image https://scp-wiki.wdfiles.com/local--files/theme%3Apaperstack/lgtrans.png]]
 [[/div]]
- 
+ 
 [[>]]
 [[module Rate]]
 [[/>]]
- 
+ 
 [[div class="header-container"]]
 [[div class="text-item"]]
 [[size 90%]]##grey|**ITEM #:**##[[/size]]
- 
+ 
 [[size 220%]]**6529**[[/size]]
 [[/div]]
- 
+ 
 [[div class="text-item"]]
 [[size 90%]]##grey|**CONTAINMENT CLASS:**##[[/size]]
- 
+ 
 [[size 220%]]**SAFE**[[/size]]
 [[/div]]
 
- 
+ 
 [[div class="grid-item"]]
 [[include component:image-block name=Box1.jpg|caption=SCP-6529 in containment.|width=300px|align=center]]
 [[/div]]
 [[/div]]
- 
+ 
 [[div class="textbox"]]
 **Special Containment Procedures:** SCP-6529 is to remain within [*https://scp-wiki.wikidot.com/secure-facility-dossier-site-184 Site-184]'s Anomalous Art and Artifacts Secure Storage Wing. Under no circumstance is the central compartment of SCP-6529 to be opened. A Foundation-Certified, Class C1-Zosimos Thaumaturge is to examine the binding seals and protective runes inscribed upon SCP-6529 bi-annually: occurring on both the Summer and Winter Solstices. Should any degradation of the aforementioned thaumaturgic wardings be detected, the existing inscriptions are to be repaired or bolstered as necessary.
 [[/div]]
@@ -213,7 +213,7 @@ I do not know for how long I hanged. I watched the glacial expanse below me spre
 
 In that eternal night, I felt a presence - constricting itself around me, to me, through me, winding across time and space. It was a comforting warmth, there at the empty culmination of all things. The cat, Joséphine, was with me. From behind her shoulders stretched infinity, expanding continuously into the abyss beyond thought. But there, before me, was she: purring, alive, and warm. 
 
-Look to the center, I had been taught. 'See from whence it radiates.' Foolish man. I had always been self-centered.  
+Look to the center, I had been taught. 'See from whence it radiates.' Foolish man. I had always been self-centered.  
 
 With that revelation it collapses, this vision. I found myself sprawled upon the ice. The scarf was torn asunder, one half rippling in the breeze upon the stick. Joséphine nudged my face and licked the blood from my cheek. 
 

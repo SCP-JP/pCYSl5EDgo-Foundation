@@ -8,39 +8,39 @@
 :root {
 
 
-    --logo-image: url("http://kaktuskontainer.wdfiles.com/local--files/iss-part1/logo");
-    --header-title: "The Foundation";
-    --header-subtitle: "  ";
-    --body-font: interstate, 'Lato', sans-serif;
-    --header-font: maecenas, 'Poppins', sans-serif;
-    --title-font: maecenas-heavies, 'Poppins', sans-serif;
-    --mono-font: "PT Mono", "Andale Mono", "Courier New", Courier, monospace;
-    --bright-accent: 88, 24, 69;
-    /* bright red */
-    --medium-accent: 199, 0, 57 ;
-    /* medium red */
-    --dark-accent: 216, 1, 63;
-    /* dark red */
-    --newpage-color: 210, 74, 32;
-    /* pale orange */
+    --logo-image: url("http://kaktuskontainer.wdfiles.com/local--files/iss-part1/logo");
+    --header-title: "The Foundation";
+    --header-subtitle: "  ";
+    --body-font: interstate, 'Lato', sans-serif;
+    --header-font: maecenas, 'Poppins', sans-serif;
+    --title-font: maecenas-heavies, 'Poppins', sans-serif;
+    --mono-font: "PT Mono", "Andale Mono", "Courier New", Courier, monospace;
+    --bright-accent: 88, 24, 69;
+    /* bright red */
+    --medium-accent: 199, 0, 57 ;
+    /* medium red */
+    --dark-accent: 216, 1, 63;
+    /* dark red */
+    --newpage-color: 210, 74, 32;
+    /* pale orange */
 }
 
 #page-title,
 .meta-title,
 .meta-title span {
-    font-family: var(--header-font);
-    color: rgb(120, 40, 31);
+    font-family: var(--header-font);
+    color: rgb(120, 40, 31);
 }
 
 #header h2 {
-    background: url(http://kaktuskontainer.wdfiles.com/local--files/iss-part1/hindi);
-    background-repeat: no-repeat;
-    background-clip: border-box;
-    background-size: contain;
-    top: 4.5rem;
-    left: 8rem;
-    height: 2rem;
-}   
+    background: url(http://kaktuskontainer.wdfiles.com/local--files/iss-part1/hindi);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: contain;
+    top: 4.5rem;
+    left: 8rem;
+    height: 2rem;
+}   
 
 }
 [[/module]]
@@ -49,48 +49,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
 div.info-container > div.collapsible-block {
-    padding: 0 !important;
-    margin: 0 !important;
-    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
 }
 
 
 .type3 {
-    display: block;
-    overflow: hidden;
-    font-family: 'Nothing You Could Do', cursive;
-    font-style: normal;
-    font-size: 150%;
+    display: block;
+    overflow: hidden;
+    font-family: 'Nothing You Could Do', cursive;
+    font-style: normal;
+    font-size: 150%;
 
-    background-attachment: scroll;
-    background: linear-gradient(rgba(230, 225, 250, 0.3), rgba(230, 225, 250, 0.3)), url(http://scp-wiki.wdfiles.com/local--files/scp-5862/paperbackground.jpg);
-    background-clip: border-box;
-    background-color: rgb(219, 199, 171); 
-    background-origin: padding-box;
-    background-repeat: repeat;
-    background-size: 100%;
+    background-attachment: scroll;
+    background: linear-gradient(rgba(230, 225, 250, 0.3), rgba(230, 225, 250, 0.3)), url(http://scp-wiki.wdfiles.com/local--files/scp-5862/paperbackground.jpg);
+    background-clip: border-box;
+    background-color: rgb(219, 199, 171); 
+    background-origin: padding-box;
+    background-repeat: repeat;
+    background-size: 100%;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .type3 p,
 .type3 ul {
-    line-height: 25px;
-    margin: 0;
+    line-height: 25px;
+    margin: 0;
 }
 [[/module]]
 [[module CSS]]
 .blinkbar {color: red;font-size:125%; animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
 .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba[0,0,0,.5]}
 a.collapsible-block-link { font-weight: bold; }
@@ -133,7 +133,7 @@ Upon consumption of two or more SCP-5903 instances, subjects will undergo a vari
 * Flesh from the host will graft itself onto this new skeleton, and flesh from an unknown source will replace that which is lost, eventually forming a vaguely humanoid form attached to the host, back-to-back.
 * The new entity will develop vital internal and external organs, along with external keratinous bodies in an exact copy of the host. However, these entities will always have only one kidney.
 * The host will be drawn via the remnants of the initial tumor-like growth into the new body, leaving just one entity, as its remaining organs, bone, and flesh is removed via unknown means. The new body will have no wounds, and consist of otherwise nonanomalous material bearing a genetic resemblance to the original contents of the consumed SCP-5903 instances.
-* The remaining entity will have the exact same mannerisms and personality of the original host, save for a large crescent-shaped birthmark at the location of the original tumor. Development of  psychokinetic abilities have been seen in a majority of cases. Due to this possibility, and likely lack of control of these abilities, new entities are to be treated as major threats. The consumed SCP-5903 instances are present in place of the missing kidney.
+* The remaining entity will have the exact same mannerisms and personality of the original host, save for a large crescent-shaped birthmark at the location of the original tumor. Development of  psychokinetic abilities have been seen in a majority of cases. Due to this possibility, and likely lack of control of these abilities, new entities are to be treated as major threats. The consumed SCP-5903 instances are present in place of the missing kidney.
 * These entities, known as SCP-5903-OUT instances (or members of the "OUT" group), will then return to the daily life of the original host with initial difficulty given a lack of memory. 
 
 -OUT instances display a resilience to harm via natural means -- in the event of injury, flesh will spontaneously regenerate at anomalously fast speeds, and the effects of aging are drastically decreased in severity. The only confirmed method of rapidly neutralizing an -OUT instance is the removal of the SCP-5903 instances.
@@ -177,19 +177,19 @@ Attached is the event from which the following note was found, which was the fir
 //[The SCP-5903-OUT instance, a 12 year old boy, is walking around in an open air market in Ludhiana, Punjab. Due to the crowded nature of these markets, he is bumped into by 32-year-old Venkat Randhawa on a bicycle. The boy falls, but rights himself by manipulating his body psychokinetically. No one notices.]//
 
 **SCP-5903-OUT:** Are you crazy?
- 
+ 
 **Randhawa:** Watch where you're going!
- 
+ 
 **SCP-5903-OUT:** No, you look.
- 
+ 
 **Randhawa:** Shut up, if you know what's good for you.
- 
+ 
 **SCP-5903-OUT:** Bitch.
- 
+ 
 **Randhawa:** What'd you say?
 
 **SCP-5903-OUT:** I said "bitch."
- 
+ 
 //[Randhawa's hand slaps himself repeatedly. A variety of items are tossed at Randhawa, before he is thrown into a wall, resulting in a concussion, among other major injuries to both Randhawa[[footnote]] Randhawa was taken to a local hospital and died due to internal bleeding sustained from these wounds. [[/footnote]] and bystanders. The SCP-5903-OUT instance was later neutralized.]//
 [[/div]]
 

@@ -36,10 +36,10 @@
 --linkColour: #FFF;
 }
 .info-container .collapsible-block-content > div:nth-child(1) > p {
-    margin: 0.5em;
+    margin: 0.5em;
 }
 .info-container #u-author_block, .info-container .translation_block{
- display: none; 
+ display: none; 
 }
 [[/module]]
 [[include :scp-wiki:theme:black-highlighter-theme]]
@@ -52,11 +52,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
 :root {
-    --pale-accent: 22, 85, 201;
-    --bright-accent: 106, 173, 144;
-    --medium-accent: 47, 135, 97;
-    --dark-accent: 48, 71, 60;
-    --alt-accent: 193, 115, 209;
+    --pale-accent: 22, 85, 201;
+    --bright-accent: 106, 173, 144;
+    --medium-accent: 47, 135, 97;
+    --dark-accent: 48, 71, 60;
+    --alt-accent: 193, 115, 209;
 --fnColor: #1655c9;
 --visited-link-color: var(--bright-accent);
 --hover-link-color: var(--pale-accent);
@@ -78,7 +78,7 @@
 [[size 90%]]##757575|by Rhys Tanner##[[/size]]
 [[/div]]
 
-[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
 %%content%%
 [[/module]]
 
@@ -171,11 +171,11 @@
 [[include :scp-wiki:component:license-box-end]]
 [[module css]]
 .responsive_table .table_header_data {
-        background: #6aad90;
+        background: #6aad90;
 }
 @media screen and (max-width: 800px) {
-  .responsive_table .table_data::before {
-    background: #6aad90;
-  }
+  .responsive_table .table_data::before {
+    background: #6aad90;
+  }
 }
 [[/module]]

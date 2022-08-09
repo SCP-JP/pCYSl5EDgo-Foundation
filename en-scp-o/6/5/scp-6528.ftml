@@ -29,58 +29,58 @@ Thanks to UraniumEpire, Sonderance and DrLerche for crits.
 [[/module]]
 
 [[module CSS]]
-    :root {
-     --x-grey: #f5f5f5;
-     --x-dark-grey: #c8c8c8;
-     --x-very-dark-grey: #909090;
-     --x-yellow: #FFF9E5;
-     --x-blue: #D5D2E1;
-     --x-red: #F4E3E8;
-     --x-color-notice: #f2f2c2;
-     }
-     /* fix image boxes have different margins than paragraphs */
-     .scp-image-block {
-          margin-top: 15px !important;
-     }
+    :root {
+     --x-grey: #f5f5f5;
+     --x-dark-grey: #c8c8c8;
+     --x-very-dark-grey: #909090;
+     --x-yellow: #FFF9E5;
+     --x-blue: #D5D2E1;
+     --x-red: #F4E3E8;
+     --x-color-notice: #f2f2c2;
+     }
+     /* fix image boxes have different margins than paragraphs */
+     .scp-image-block {
+          margin-top: 15px !important;
+     }
 
-     /* report style boxes (colors, shadows, margins) */
-     .x-log, .x-notice, .x-comment { border: solid 1px; padding: 5px; }
-     .x-log, .x-notice { box-shadow: 2px 3px var(--x-very-dark-grey); }
-     .x-log { background-color: var(--x-grey); }
-     .x-logo { background-image: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png); background-repeat: no-repeat; background-position: calc(100% - 15px) 15px; background-size: 150px 150px; background-origin: padding-box; }
-     .x-notice { background-color: var(--x-color-notice); text-align: center; }
-     .x-comment { background-color: var(--x-grey); border-top: #777 1px solid; border-left: #777 1px solid; border-bottom: #ccc 1px solid; border-right: #ccc 1px solid; box-shadow: -1px -2px var(--x-very-dark-grey) inset; padding-top: 5px; padding-bottom: 5px; margin-top: 1px; margin-bottom: 1px; }
-     .x-emboss, .x-email { margin-top: 15px; border-top: #ccc 1px solid; border-left: #ccc 1px solid; border-bottom: #777 1px solid; border-right: #777 1px solid; box-shadow: 2px 2px var(--x-very-dark-grey) inset; }
-    
-     /* standard report formatting */
-     .x-log-head, .x-log-body { margin: 15px 2px; padding: 0px 10px; }
-     .x-log hr { margin-left: 25px; margin-right: 25px; }
-     .x-log-head { border-left: solid 3px black; border-radius: 2px; margin-bottom: 15px; }
-     .x-log-head th { text-align: left; color: black; font-weight: bold; vertical-align: top; }
-     .x-log-head td { padding-left: 15px; vertical-align: top; }
-     .x-log-body { border-left: solid 3px var(--x-grey); }
-    
-     /* standard collapsible formatting */
-     .x-log .collapsible-block-link { color: #303030; font-variant: small-caps; font-size: 110%; }
-     .x-log .collapsible-block-unfolded-link:before { content: "■ "; color: grey; font-variant: small-caps; font-size: 110%; }
-     .x-log .collapsible-block-folded:before { content: "■ "; color: grey; font-variant: small-caps; font-size: 110%; }
-    
-     /* email addenda formatting */
-     .x-email { padding: 1px 10px; background-color: white; }
-     .x-email hr { width: 94%; }
-     .x-email-head, .x-email-body { margin: 15px 2px; padding: 5px 15px; font-family: courier, monospace; }
-     .x-email-head { border-left: solid 3px maroon; border-radius: 2px; margin-bottom: 15px; }
-     .x-email-head th { text-align: left; color: maroon; }
-     .x-email-head td { padding-left: 15px; }
-     .x-email-body { border-left: solid 3px white; }
+     /* report style boxes (colors, shadows, margins) */
+     .x-log, .x-notice, .x-comment { border: solid 1px; padding: 5px; }
+     .x-log, .x-notice { box-shadow: 2px 3px var(--x-very-dark-grey); }
+     .x-log { background-color: var(--x-grey); }
+     .x-logo { background-image: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png); background-repeat: no-repeat; background-position: calc(100% - 15px) 15px; background-size: 150px 150px; background-origin: padding-box; }
+     .x-notice { background-color: var(--x-color-notice); text-align: center; }
+     .x-comment { background-color: var(--x-grey); border-top: #777 1px solid; border-left: #777 1px solid; border-bottom: #ccc 1px solid; border-right: #ccc 1px solid; box-shadow: -1px -2px var(--x-very-dark-grey) inset; padding-top: 5px; padding-bottom: 5px; margin-top: 1px; margin-bottom: 1px; }
+     .x-emboss, .x-email { margin-top: 15px; border-top: #ccc 1px solid; border-left: #ccc 1px solid; border-bottom: #777 1px solid; border-right: #777 1px solid; box-shadow: 2px 2px var(--x-very-dark-grey) inset; }
+    
+     /* standard report formatting */
+     .x-log-head, .x-log-body { margin: 15px 2px; padding: 0px 10px; }
+     .x-log hr { margin-left: 25px; margin-right: 25px; }
+     .x-log-head { border-left: solid 3px black; border-radius: 2px; margin-bottom: 15px; }
+     .x-log-head th { text-align: left; color: black; font-weight: bold; vertical-align: top; }
+     .x-log-head td { padding-left: 15px; vertical-align: top; }
+     .x-log-body { border-left: solid 3px var(--x-grey); }
+    
+     /* standard collapsible formatting */
+     .x-log .collapsible-block-link { color: #303030; font-variant: small-caps; font-size: 110%; }
+     .x-log .collapsible-block-unfolded-link:before { content: "■ "; color: grey; font-variant: small-caps; font-size: 110%; }
+     .x-log .collapsible-block-folded:before { content: "■ "; color: grey; font-variant: small-caps; font-size: 110%; }
+    
+     /* email addenda formatting */
+     .x-email { padding: 1px 10px; background-color: white; }
+     .x-email hr { width: 94%; }
+     .x-email-head, .x-email-body { margin: 15px 2px; padding: 5px 15px; font-family: courier, monospace; }
+     .x-email-head { border-left: solid 3px maroon; border-radius: 2px; margin-bottom: 15px; }
+     .x-email-head th { text-align: left; color: maroon; }
+     .x-email-head td { padding-left: 15px; }
+     .x-email-body { border-left: solid 3px white; }
 [[/module]]
 
 ----
 +++ Special Containment Procedures
 [[include component:image-block
-    | name=trypillia.png
-    | caption=Reconstruction of dig site Nebelivka, destroyed multiple times by SCP-6528 events.
-    | width=50%]]
+    | name=trypillia.png
+    | caption=Reconstruction of dig site Nebelivka, destroyed multiple times by SCP-6528 events.
+    | width=50%]]
 Foundation programs within the mundane scientific community should watch for emerging explanations about SCP-6528 events. Evidence and information regarding it are to be suppressed under Level 01 suppression guidelines. Since incomplete information regarding SCP-6528 is already widespread among the general public[[footnote]] commonly referred to as the 'Burning House Horizon' [[/footnote]], only the suppression of information that could lead to new mundane theories about SCP-6528 events, as well as information regarding the scientific advances of Nebelivka culture and SCP-6528-1 is necessitated. While it is considered unlikely that SCP-6528 events will reemerge, mundane research into genetic engineering is to be monitored and evaluated, so discoveries leading towards the engineering of species conforming to SCP-6528-1 characteristics can be impeded.
 
 **Update 17/04/2021**
@@ -101,10 +101,10 @@ SCP-6528-1 is an anomalous vegetable species described by records of the Nebeliv
 +++ Addenda
 +++++ Discovery
 [[include component:image-block
-    | name=vicna1.png
-    | caption=Transcription of exemplary Nebelivka tablet by Foundation archaeologist
-    | width=35%
-    | align=left]]
+    | name=vicna1.png
+    | caption=Transcription of exemplary Nebelivka tablet by Foundation archaeologist
+    | width=35%
+    | align=left]]
 
 Well ahead of the first writing systems (like the Sumerian cuneiform), the aforementioned Nebelivka culture produced large quantities of a previously unknown writing system. Like the Sumerian system, it used mnemonics instead of symbols to convey ideas. The subculture is exclusively characterized through their use of the writing system and otherwise seamlessly integrated into surrounding populations.
 

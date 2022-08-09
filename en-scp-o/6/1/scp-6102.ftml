@@ -1,62 +1,62 @@
 [[include :scp-wiki:theme:blankstyle]]
 [[module css]]
 body{
-    --barColour: #8c8c8c;
+    --barColour: #8c8c8c;
 }
 
 :root{
-  --header-title: "SCP Foundation";
-  --header-subtitle: "Secure, Contain, Protect";
+  --header-title: "SCP Foundation";
+  --header-subtitle: "Secure, Contain, Protect";
 }
 
 #header h1 a:before {
-    font-size: 2.0rem;
+    font-size: 2.0rem;
 }
 
 div#extra-div-1 {
-    background-image: url(http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-6/BlankstyleSCP-2.png);
-    filter: opacity(50%);
+    background-image: url(http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-6/BlankstyleSCP-2.png);
+    filter: opacity(50%);
 }
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "J Dune";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
-    line-height: 2.75ex;
+    --wght: 800;
+    content: "J Dune";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 2.75ex;
 }
 [[/module]]
 
@@ -102,7 +102,7 @@ Auto-Archivist-DA019 attempted to discern the object's purpose through adherence
 [[div class="blockquote"]]
 **Pillar Tested:** "Permanence"
 
-**Method:**  Lacerate fleshy layer.
+**Method:**  Lacerate fleshy layer.
 
 **Result:** Failure. Blaring sound. Object lacks refinement.
 [[/div]]
@@ -141,14 +141,14 @@ It does not display intelligence, purpose, or function.
 [[include :scp-wiki:component:license-box]]
 =====
 > **Filename:** Dacitu.png
-> **Name:**  Inside the abandoned city of Pripyat / Creative commons panorama 
+> **Name:**  Inside the abandoned city of Pripyat / Creative commons panorama 
 > **Author:** [https://www.flickr.com/photos/91619724@N04 Wendelin Jacober]
 > **License:** Public Domain
 > **Source Link:** [https://www.flickr.com/photos/91619724@N04/30327593886 flickr]
 
 =====
 > **Filename:** dababu.png
-> **Name:**   Ear Spring ejecta - pacifier with label and scale 
+> **Name:**   Ear Spring ejecta - pacifier with label and scale 
 > **Author:** [https://www.flickr.com/photos/80223459@N05 YellowstoneNPS]
 > **License:** Public Domain
 > **Source Link:** [https://www.flickr.com/photos/80223459@N05/43837583400 flickr]

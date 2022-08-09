@@ -4,31 +4,31 @@
 [[/div]]
 
 [[module css]]
- :root{
-     --accentColor: hsl(266, 85%, 67%);
-     --accentColorLite: hsla(266, 85%, 77%, .5);
-     --hue: 266deg;
-     --lgurl: url(https://scp-wiki.wdfiles.com/local--files/welcome-to-delta-t/Delta-t-transparent.png);
-     --header-title: "TEMPORAL SITE-01";
-     --header-subtitle: "SUSTAINING CHRONOLOGICAL PREDICTABILITY";
+ :root{
+     --accentColor: hsl(266, 85%, 67%);
+     --accentColorLite: hsla(266, 85%, 77%, .5);
+     --hue: 266deg;
+     --lgurl: url(https://scp-wiki.wdfiles.com/local--files/welcome-to-delta-t/Delta-t-transparent.png);
+     --header-title: "TEMPORAL SITE-01";
+     --header-subtitle: "SUSTAINING CHRONOLOGICAL PREDICTABILITY";
 }
- #extra-div-1{
-     filter: opacity(.15);
+ #extra-div-1{
+     filter: opacity(.15);
 }
- .tableb.log .wiki-content-table tr th:nth-child(1),
- .tableb.log .wiki-content-table tr th:nth-child(3){
-     font: 1.35rem var(--header-font);
-     letter-spacing: 1px;
+ .tableb.log .wiki-content-table tr th:nth-child(1),
+ .tableb.log .wiki-content-table tr th:nth-child(3){
+     font: 1.35rem var(--header-font);
+     letter-spacing: 1px;
 }
- .faketable{
-     position: relative;
-     bottom: .53rem;
-     margin: .4rem;
-     padding: .4rem;
+ .faketable{
+     position: relative;
+     bottom: .53rem;
+     margin: .4rem;
+     padding: .4rem;
 
-     color: var(--textColorAlt);
-     background: var(--fgColor);
-     border: 1px solid var(--accentColor);
+     color: var(--textColorAlt);
+     background: var(--fgColor);
+     border: 1px solid var(--accentColor);
 }
 [[/module]]
 

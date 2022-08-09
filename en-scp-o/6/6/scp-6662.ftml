@@ -114,7 +114,7 @@ All technology produced by SCP-6662 is operated via simplistic and brightly colo
 
 SCP-6662's head, hands, feet, tail, and fur resemble that of a Eurasian wolf (//Canis lupus lupus//), albeit with more humanlike traits, such as longer fingers, larger eyes, and complex facial muscles capable of a wide range of expressions. Its build is grossly top-heavy to the extent of appearing unbalanced; this visual impression is amplified by an abnormal composition of musculature which appears at once lean and pronounced, yet rounded and undefined. 
 
-Despite the exaggeratedly masculine proportions of its physique, SCP-6662 bears no other features indicating a biological sex. Extensive medical analysis has found no indication that SCP-6662 is capable of reproduction (sexual or otherwise), nor has its body been found to produce any recognizable hormones other than extreme amounts of insulin.  
+Despite the exaggeratedly masculine proportions of its physique, SCP-6662 bears no other features indicating a biological sex. Extensive medical analysis has found no indication that SCP-6662 is capable of reproduction (sexual or otherwise), nor has its body been found to produce any recognizable hormones other than extreme amounts of insulin.  
 
 SCP-6662's choice of dress has consisted of the same articles of clothing since its first sighting: wide-brimmed fedora, zipper jacket, and a backpack with a simple buttoned flap; all heavily weathered and made of brown leather. SCP-6662 has expressed neither an interest in leg wear nor an understanding of the purpose thereof, presumably owing to its lack of genitalia. 
 
@@ -222,21 +222,21 @@ Whatever boundaries of space and time were broken for me to learn these lessons,
 [[include :scp-wiki:theme:blankstyle]]
 [[module css]]
 :root {
-    --header-title: "SCP FOUNDATION";
-    --header-subtitle: "Summa Cordo Peccatorum";
+    --header-title: "SCP FOUNDATION";
+    --header-subtitle: "Summa Cordo Peccatorum";
 }
 
 #header h1 a::before {
-  color: #444;
+  color: #444;
 }
 
 #header h2::before {
-  color: #777;
+  color: #777;
 }
 
 div#extra-div-1 {
-    background-image: url(http://topia.wikidot.com/local--files/peppo-popep/Ar6AfDt.png);
-    filter: opacity(0.08);
+    background-image: url(http://topia.wikidot.com/local--files/peppo-popep/Ar6AfDt.png);
+    filter: opacity(0.08);
 }
 
 .footnotes-footer {
@@ -253,39 +253,39 @@ div.diamond-part { clip-path: none; animation: none; box-shadow: none!important;
 
 div.top-right-box { clip-path: polygon(0% -30%, 100% -30%, 100% 130%, 0% 130%); }
 
-    div.top-left-box {
-        max-width:50% !important;
-    }
+    div.top-left-box {
+        max-width:50% !important;
+    }
 
-    .top-box .top-center-box {
-        width: 75%;
-        height: 1.5rem;
-    }
+    .top-box .top-center-box {
+        width: 75%;
+        height: 1.5rem;
+    }
 
-    .anom-bar > .top-box {
-        grid-template-columns: 1fr 2fr;
-    }
+    .anom-bar > .top-box {
+        grid-template-columns: 1fr 2fr;
+    }
 
 }
 
 /* Article-specific stuff */
 
 .cereal-table {
-  text-align: center;
-  font-size: 0.9rem;
-  border-collapse:collapse;
+  text-align: center;
+  font-size: 0.9rem;
+  border-collapse:collapse;
 }
 
 .cereal-table tr td {
-  text-align:center;
-  border: lightgrey 1px solid !important;
-  padding: 4px 12px;
+  text-align:center;
+  border: lightgrey 1px solid !important;
+  padding: 4px 12px;
 }
 
 .cereal-flex-grid {
-  display: block;
-  justify-content: space-between;
-  margin: auto;
+  display: block;
+  justify-content: space-between;
+  margin: auto;
 }
 
 
@@ -294,12 +294,12 @@ margin:0;
 }
 
 .peppo-infobox {
-    float:right;
-    margin: 1.1rem 0 0.5rem 1.2rem;
-    border: lightgrey 1px solid;
-    padding: 0.5rem;
-    width:min-content;
-    background:#f8f9fa;
+    float:right;
+    margin: 1.1rem 0 0.5rem 1.2rem;
+    border: lightgrey 1px solid;
+    padding: 0.5rem;
+    width:min-content;
+    background:#f8f9fa;
 }
 
 .peppo-infobox p {
@@ -308,37 +308,37 @@ margin-block-end:0;
 }
 
 .anom-bar-container {
-  margin: 1rem 0 0.4rem 0;
+  margin: 1rem 0 0.4rem 0;
 }
 
 .page-rate-widget-box {
-  text-align: right;
-  position: absolute;
-  right: 0;
-  border: dashed 1px #c7c7c7;
-  padding:4px;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  border: dashed 1px #c7c7c7;
+  padding:4px;
 }
 
 .page-rate-widget-box .rate-points {
-    color: #8a5e5e !important;
-    font-weight: 100;
+    color: #8a5e5e !important;
+    font-weight: 100;
 }
 
 #page-content tr td {
-    padding: 4px 12px;
+    padding: 4px 12px;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-    #page-content div, #page-content div table {
-        clear: none;
-    }
+    #page-content div, #page-content div table {
+        clear: none;
+    }
 }
 
 #search-top-box-input, #search-top-box-input:hover, #search-top-box-input:focus, #search-top-box-form input[type=submit], #search-top-box-form input[type=submit]:hover, #search-top-box-form input[type=submit]:focus {
-    border: 1px solid #ffffff;
-    background: transparent;
-    border-radius: 0px;
-    color: #ab7171;
+    border: 1px solid #ffffff;
+    background: transparent;
+    border-radius: 0px;
+    color: #ab7171;
 }
 
 .peppo-head {
@@ -347,9 +347,9 @@ font-size:1.6rem;
 }
 
 .peppo-head p {
-  margin-block-start:1rem;
-  margin-block-end:0;
-  color: #525252;
+  margin-block-start:1rem;
+  margin-block-end:0;
+  color: #525252;
 }
 
 .peppo-head2 {
@@ -358,9 +358,9 @@ font-size:1.2rem;
 }
 
 .peppo-head2 p {
-  margin-block-start:1rem;
-  margin-block-end:0;
-  color: #525252;
+  margin-block-start:1rem;
+  margin-block-end:0;
+  color: #525252;
 }
 
 body {
@@ -368,46 +368,46 @@ body {
 }
 
 .addendum {
-    margin: 25px 8% 25px 6%;
-    padding: 2% 4% 2% 4%;
-    background-color: #f2f2f2;
+    margin: 25px 8% 25px 6%;
+    padding: 2% 4% 2% 4%;
+    background-color: #f2f2f2;
 }
 
 @media (max-width: 590px) {
 
-    .page-rate-widget-box {
-         top: -0.5rem;
-    }
+    .page-rate-widget-box {
+         top: -0.5rem;
+    }
 
-    #header h1 a {
-        font-size: 60%;
-    }
+    #header h1 a {
+        font-size: 60%;
+    }
 
-  .addendum {
-    margin: 25px 4% 25px 3%;
-  }
+  .addendum {
+    margin: 25px 4% 25px 3%;
+  }
 
-  .peppo-head {
-    font-size:1rem;
-  }
+  .peppo-head {
+    font-size:1rem;
+  }
 
-  #header h2::before {
-      font-size: 0.8em;
-  }
+  #header h2::before {
+      font-size: 0.8em;
+  }
 
-  .cereal-table {
-    width:100%;
-  }
+  .cereal-table {
+    width:100%;
+  }
 
-  .peppo-infobox {
-    float:none;
-    width: 95%;
-    Margin:0.3rem 0em 0.3rem 0;
-  }
+  .peppo-infobox {
+    float:none;
+    width: 95%;
+    Margin:0.3rem 0em 0.3rem 0;
+  }
 
-  .cereal-flex-grid .cereal-col {
-    width:100%;
-    margin:auto;
-  }
+  .cereal-flex-grid .cereal-col {
+    width:100%;
+    margin:auto;
+  }
 }
 [[/module]]

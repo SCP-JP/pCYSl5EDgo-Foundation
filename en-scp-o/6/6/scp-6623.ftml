@@ -3,21 +3,21 @@
 
 [[module CSS]]
 .box {
-    position: relative;
-    padding: 0.5em;
-    margin: 0.5em;
-    box-shadow: 2px 1.5px 1px rgba(176,16,0,0.7), 0 0 0px 1px lightgrey;
-    overflow-wrap: break-word;
-    color: black;
+    position: relative;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 2px 1.5px 1px rgba(176,16,0,0.7), 0 0 0px 1px lightgrey;
+    overflow-wrap: break-word;
+    color: black;
 }
 .aim-adjustment-box {
-    padding: .01em 16px;
-    margin-bottom: 8px;
-    margin-top: 8px;
-    padding-bottom: 0.2em;
-    padding-top: 0em;
-    border: 1px lightgrey solid;
-    box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.16);
+    padding: .01em 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-bottom: 0.2em;
+    padding-top: 0em;
+    border: 1px lightgrey solid;
+    box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.16);
 }
 
 [[/module]]
@@ -165,7 +165,7 @@ Following the initial discovery of a Way located near the city of Castro, Chile,
 //At this point all of the member's cameras turn on, revealing the inside of a large domed room. Several desks line the floor, blocking access to the southern side of the room, save for a small gap on the left, shut with a chain.//
 
 **R-7 Stone:** Cadwell, check the entrance, I'll finish recalibrating our GADs to work in here. Florez, take Noyes behind the desk to see if there's anything of note. Shout if you find anything.
- 
+ 
 //After a few minutes, Noyes and Florez return, Noyes holding a pot of small silver tokens with the image of a book inscribed on it, which he pockets.//
 
 **R-7 Stone:** Well, if the giant sign above the door hadn't given away what this place was, this would've helped.
@@ -465,14 +465,14 @@ Initial studies by the Mythology and Folkloristics Department proposed that loca
 
 [[module CSS]]
 .w-container {
-   border: 0px #bbbbbb solid;
-   box-shadow: 0px 0px 0px 0 rgba(0,0,0,0);
-   padding: 0px;
-   margin-bottom: 6px;
-   margin-top: 6px;
+   border: 0px #bbbbbb solid;
+   box-shadow: 0px 0px 0px 0 rgba(0,0,0,0);
+   padding: 0px;
+   margin-bottom: 6px;
+   margin-top: 6px;
 }
 .w-cell {
-   font-size: 0.75rem;
+   font-size: 0.75rem;
 }
 [[/module]]
 
@@ -495,5 +495,5 @@ Unfortunately, due to a lack of records, the actual reason for specifically SCP-
 [[/div]]
 @@ @@
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

@@ -9,31 +9,31 @@ span, a { word-break: normal !important }
 --problem: 241, 167, 92
 }
 a.collapsible-block-link:not(.licensebox a.collapsible-block-link) {
-    font-weight: 600;
-    color: #F2F2C2;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 7px;
-    padding-right: 9px;
-    background: rgb(0, 0, 0);
-    border-color: black;
-    border-width: 2px;
-    margin-top: 10px;
-    margin-bottom: 12px;
-    line-height: 18px;
+    font-weight: 600;
+    color: #F2F2C2;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 9px;
+    background: rgb(0, 0, 0);
+    border-color: black;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    line-height: 18px;
 }
 [[/module]]
 
 [[module CSS]]
 /* anendlessusername's invaluable correction of the ACS octagon! */
 #page-content .quadrants > div {
-    top: 2.25%;
-    left: 18.5%;
+    top: 2.25%;
+    left: 18.5%;
 [[/module]]
 
 [[module CSS]]
 :root {
-    --timeDelay: 0.5s;
+    --timeDelay: 0.5s;
 }
 [[/module]]
 
@@ -75,18 +75,18 @@ Be the change you want to hear on the radio.
 ]]
 [[module css]]
 .anom-bar-container.danger .danger-diamond > .quadrants > .right-quad {
-    background-color:rgba(255,109,0,0.25);
-    background-color: rgb(255,109,0,0.25);
+    background-color:rgba(255,109,0,0.25);
+    background-color: rgb(255,109,0,0.25);
 [[/module]]
 [[/div]]
 
 ----
 
 [[include component:image-block
-    name=Radio.jpg|
-    caption=Suspected SCP-6519 vectors. |
-    width=700px|
-    align=center|
+    name=Radio.jpg|
+    caption=Suspected SCP-6519 vectors. |
+    width=700px|
+    align=center|
 ]]
 
 **Special Containment Procedures:** Witness testimony will be collected by the Spectrometry and Spectremetry Section of [[[https://scp-wiki.wikidot.com/secure-facility-dossier-site-43|Site-43]]] to attempt confirmation of SCP-6519's existence. No further effort will be expended on its containment at this time, as it poses no significant threat to the Veil.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Ether-class anomalies are only attested in as-yet-unconfirmed eyewitness reports.[[/span]]
@@ -108,7 +108,7 @@ Be the change you want to hear on the radio.
 [[/table]]
 [[table style="border-collapse:collapse; margin-bottom:3px; width: 100%"]]
 [[row]]
-[[cell style="border: 1px solid black; background-color: #F2F2C2; padding: 12px; text-align: left"  colspan="4"]]
+[[cell style="border: 1px solid black; background-color: #F2F2C2; padding: 12px; text-align: left"  colspan="4"]]
 __RAISA Notice__: Five (5) items in this 43NET request cross-link existing SCP database articles with their own unique security clearance levels and background context; credentials confirmation will be required to access them. It is the judgement of this office that sufficient comprehension of SCP-6519 can be acquired without accessing said items.
 [[/hcell]]
 [[/row]]
@@ -573,10 +573,10 @@ __RAISA Notice__: Five (5) items in this 43NET request cross-link existing SCP d
 //**<Log begins.>**//
 
 [[include component:image-block
-    name=CarRadio.jpg|
-    caption=Dr. Mataxas' car radio. |
-    width=300px|
-    align=right|
+    name=CarRadio.jpg|
+    caption=Dr. Mataxas' car radio. |
+    width=300px|
+    align=right|
 ]]
 
 //[Non-anomalous music is playing.]//[[span class="fnnum"]].[[/span]][[span class="fncon"]]Based on waveform analysis presently 82.5% complete. Non-anomalous music is defined as possessing spectremetry readings ("Randi levels") no higher or lower than the background anormalcy of baseline reality.[[/span]]

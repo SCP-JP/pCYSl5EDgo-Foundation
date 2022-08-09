@@ -15,11 +15,11 @@
 
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -210,23 +210,23 @@ Nevermind, I'm sorry.
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default: ███hall█@███scp.█
- * type: text
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: ID
+ * default: ███hall█@███scp.█
+ * type: text
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # affiliation
- * title: PASSWORD
- * default: ・・・・・・・・・
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: PASSWORD
+ * default: ・・・・・・・・・
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]
@@ -367,7 +367,7 @@ So either some asshole is messing with me, or I swear to god, these toys are ali
 
 Hall here.
 
-I didn't take the giraffe home with me last night.  I left it in my office, with a piece of paper on the floor and a jar of ink. The paper said "CAN YOU READ THIS?" and I had a check box for YES and a check box for NO.
+I didn't take the giraffe home with me last night.  I left it in my office, with a piece of paper on the floor and a jar of ink. The paper said "CAN YOU READ THIS?" and I had a check box for YES and a check box for NO.
 
 In retrospect, yeah, that wasn't a great idea. I don't really know why I thought it might work. But...okay, listen to this.
 
@@ -375,7 +375,7 @@ I sat there and watched that giraffe for a while, just waiting for it to move. B
 
 Today I came in and saw....nothing. Well, kinda. The paper was exactly the same. But the giraffe? It had some stained black ink on its head. At least, I think.
 
-Maybe it's actually someone messing with me. Very funny prank guys. Wait, who...no, forget it  Later today I'm going to try and get something out of this giraffe. I don't know how yet. I'll figure it out.
+Maybe it's actually someone messing with me. Very funny prank guys. Wait, who...no, forget it  Later today I'm going to try and get something out of this giraffe. I don't know how yet. I'll figure it out.
 
 Signing off.
 [[/div]]

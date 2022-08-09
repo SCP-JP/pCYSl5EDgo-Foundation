@@ -4,14 +4,14 @@
 [[include :scp-wiki:component:betterfootnotes]]
 
 [[module CSS]]
- :root{
-   --header-subtitle: "Site-400";
+ :root{
+   --header-subtitle: "Site-400";
 }
 .footnotes-footer {
-    visibility: hidden;
-    height: 0;
-    padding: 0;
-    margin: 0;
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+    margin: 0;
 }
 [[/module]]
 
@@ -106,7 +106,7 @@ I am ##green|Dr. Exempli Gratia von Etcetera##, of the [[[unreality-hub|Unrealit
 
 [[table style="border-collapse:collapse; margin-bottom:3px; width: 100%"]]
 [[row]]
-[[cell style="border: 1px solid black; background-color: #D7EFE7; padding: 12px; text-align: center"  colspan="4"]]
+[[cell style="border: 1px solid black; background-color: #D7EFE7; padding: 12px; text-align: center"  colspan="4"]]
 SCP-████-ARC
 [REDACTED COPY]
 [[/hcell]]

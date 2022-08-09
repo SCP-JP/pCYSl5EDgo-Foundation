@@ -7,7 +7,7 @@
 [[include :scp-wiki:info:start]]
 **SCP-6503:** Summus Pontifex Legitimus A.K.A The Catholic Mecha
 **Author:** [[*user Kilerpoyo]]
-⚠️ **Content warning:**  Satiric portrayal of the Catholic Church.
+⚠️ **Content warning:**  Satiric portrayal of the Catholic Church.
 [[include :scp-wiki:info:end]]
 
 [[include :scp-wiki:component:info-cw]]
@@ -17,124 +17,124 @@
 
 :root {
 /* Typefaces */
-        --body-font: 'Verdana', sans-serif;
-        --header-font: ivymode, sans-serif;
-        --title-font: 'Exo', sans-serif;
-        --UI-font: 'Verdana', serif;
-        --mono-font: pennsylvania, monospace;
+        --body-font: 'Verdana', sans-serif;
+        --header-font: ivymode, sans-serif;
+        --title-font: 'Exo', sans-serif;
+        --UI-font: 'Verdana', serif;
+        --mono-font: pennsylvania, monospace;
 
 /* Standard Colors */
-        --white-monochrome: 220, 220, 220;
-        /* white */
+        --white-monochrome: 220, 220, 220;
+        /* white */
 
 /* Rating Module Colors */
-        --rating-module-button-color: var(--gray-monochrome);
-        --rating-module-button-plus-color: 45, 65, 25;
-        --rating-module-button-negative-color: 70, 35, 30;
-        --rating-module-button-cancel-color: 50, 45, 50;
-        --rating-module-button-credit-color: 50, 45, 50;
-        --rating-module-text-color: var(--gray-monochrome);
-        --rating-module-text-hover-color: var(--swatch-menutxt-light-color);
+        --rating-module-button-color: var(--gray-monochrome);
+        --rating-module-button-plus-color: 45, 65, 25;
+        --rating-module-button-negative-color: 70, 35, 30;
+        --rating-module-button-cancel-color: 50, 45, 50;
+        --rating-module-button-credit-color: 50, 45, 50;
+        --rating-module-text-color: var(--gray-monochrome);
+        --rating-module-text-hover-color: var(--swatch-menutxt-light-color);
 
 }
 
 body {
-  font-size: 102%;
+  font-size: 102%;
 }
 
 a:visited {
-  color: #b99650;
-  background-color: transparent;
-  text-decoration: none;
+  color: #b99650;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .collapsible-block-unfolded-link {
-    color: #b99650;
+    color: #b99650;
 }
 
 .collapsible-block-link {
-    color: #b99650;
-     font-weight: bold;
-     font-size: 125%;;
+    color: #b99650;
+     font-weight: bold;
+     font-size: 125%;;
 }
 
 .collapsible-block-link {
-    color: #b99650;
-     font-weight: bold;
-     font-size: 125%;;
+    color: #b99650;
+     font-weight: bold;
+     font-size: 125%;;
 }
 
 #header h2 span {
-        margin-left: calc(var(--header-height-on-desktop) + 0.75rem);
-    }
+        margin-left: calc(var(--header-height-on-desktop) + 0.75rem);
+    }
 
 #header h2 span::before {
-    content: 'SECURE, CONTINEANT, PROTEGANT';
-    color: #F1F1F1;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
-    padding-inline-start: 30px;
+    content: 'SECURE, CONTINEANT, PROTEGANT';
+    color: #F1F1F1;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+    padding-inline-start: 30px;
 }
 .raisa_memo {
-    background: url( http://scp-wiki.wikidot.com/local--files/scp-6503/hori )  #fff3ad;
-   color: black;
-    background-size: contain;
-    background-position: top center;
-    background-repeat: no-repeat;
-    font-family: 'Work Sans', sans-serif;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    width: 90%;
-    min-height: 4rem;
-    max-height: 100rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 10px 20px 20px 20px;
-    word-break: break-word;
+    background: url( http://scp-wiki.wikidot.com/local--files/scp-6503/hori )  #fff3ad;
+   color: black;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    min-height: 4rem;
+    max-height: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    word-break: break-word;
 }
 .raisa_memo>p:nth-child(1)::before {
-    content: "NOTICE FROM THE RECORDS AND INFORMATION SECURITY ADMINISTRATION\00000a";
-    color: black;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 900;
-    font-size: 130%;
-    text-align: center;
-    margin-bottom: 1rem;
-    padding-bottom: 0.3rem;
-    border-bottom: dotted 0.13rem darkslategrey;
-    max-width: 49rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
-    align-items: center;
+    content: "NOTICE FROM THE RECORDS AND INFORMATION SECURITY ADMINISTRATION\00000a";
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    font-size: 130%;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
+    border-bottom: dotted 0.13rem darkslategrey;
+    max-width: 49rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
 }
 
 .papernote {
-    background-color: #eaeeef;
-    color: #21252E !important;
-    padding: 0.1rem 0.5rem 0.5rem 0.5rem;
-    box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 30%);
-    margin: auto;
-    width: 100%;
+    background-color: #eaeeef;
+    color: #21252E !important;
+    padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+    box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 30%);
+    margin: auto;
+    width: 100%;
 }
 
 [[/module]]
 
 [[module CSS]]
 .fnnum::after, .fncon::before {
-    content: counter(megacount, upper-roman);
+    content: counter(megacount, upper-roman);
 }
 .fnnum::after {
-    color: rgb(var(--bright-accent));
+    color: rgb(var(--bright-accent));
 }
 .fncon::before, .fnnum:hover {
-    background-color: rgb(var(--medium-accent));
+    background-color: rgb(var(--medium-accent));
 }
 .fncon {
-    padding-top: 1rem;
-    background: rgb(var(--dark-gray-monochrome));
-    border: none;
+    padding-top: 1rem;
+    background: rgb(var(--dark-gray-monochrome));
+    border: none;
 }
 [[/module]]
 
@@ -143,7 +143,7 @@ a:visited {
 [[div class="raisa_memo"]]
 [[size large]]
 
-**The following documentation refers to an anomaly currently contained jointly between the Foundation and the Horizon Initiative.  Modifications have been made to the usual terminology for compatibility with Horizon Initiative AGS documentation. For more information, read the attached brief.**
+**The following documentation refers to an anomaly currently contained jointly between the Foundation and the Horizon Initiative.  Modifications have been made to the usual terminology for compatibility with Horizon Initiative AGS documentation. For more information, read the attached brief.**
 
 [[/size]]
 [[/div]]
@@ -166,7 +166,7 @@ a:visited {
 
 ----
 
-By disposition of Ordinis Occulti Luminis, the Catholic branch of the Horizon Initiative has implemented the Anomaliae Genus Systemaa (AGS), based on the Anomaly Classification System used by the Foundation.  AGS aims to bring traditional terminology employed by Ordinis Occulti Luminis into a modern framework suitable for analysis and taxonomy. The system is meant to be compatible with Foundation records while still befitting Horizon Initiative's purposes. The Anomaliae Genus Talea (AGT) constitutes the AGS version of the Anomaly Classification Bar.
+By disposition of Ordinis Occulti Luminis, the Catholic branch of the Horizon Initiative has implemented the Anomaliae Genus Systemaa (AGS), based on the Anomaly Classification System used by the Foundation.  AGS aims to bring traditional terminology employed by Ordinis Occulti Luminis into a modern framework suitable for analysis and taxonomy. The system is meant to be compatible with Foundation records while still befitting Horizon Initiative's purposes. The Anomaliae Genus Talea (AGT) constitutes the AGS version of the Anomaly Classification Bar.
 
 -----
 
@@ -194,7 +194,7 @@ Roman numerals are used in the AGT for the anomaly item designation as well as t
 
 **Interrogatio Recordum:** Interview Log.
 
-**Video Recordum:**  Video Log.
+**Video Recordum:**  Video Log.
 
 **Inscriptio Communicationis:** Written communication.
 
@@ -216,7 +216,7 @@ Roman numerals are used in the AGT for the anomaly item designation as well as t
 
 **LVL IV: Secreta Arcanum:** Equivalent to Secret. Only available to site and Foundation Administrative staff, high ranking members of Horizon Initiative Catholic branch, and the Ecclesiastical Government.
 
-**LVL V: Secreta Secretorum:** Equivalent to Top Secret. Only available to the highest Foundation Administrative Staff, members of  Ordinis Occulti Luminis, the Sacred College of Cardinals, and the Pope.
+**LVL V: Secreta Secretorum:** Equivalent to Top Secret. Only available to the highest Foundation Administrative Staff, members of  Ordinis Occulti Luminis, the Sacred College of Cardinals, and the Pope.
 
 **LVL VI: Secreta Cosmica:** Equivalent to Cosmic Top Secret. Only available to Ordinis Occulti and the Pope.
 
@@ -353,16 +353,16 @@ Roman numerals are used in the AGT for the anomaly item designation as well as t
 
 [[module CSS]]
 .risk-class::before, .disrupt-class::before {
-    color: var(--white-monochrome) !important;
-    font-family: var(--body-font) !important;
-    font-size: 0.6em !important;
+    color: var(--white-monochrome) !important;
+    font-family: var(--body-font) !important;
+    font-size: 0.6em !important;
 }
 
 .anom-bar-container.cautela .text-part .risk-class::before {
-    content: "IV" !important;
+    content: "IV" !important;
 }
 .anom-bar-container.praetorian .text-part .disrupt-class::before {
-    content: "IV" !important;
+    content: "IV" !important;
 }
 [[/module]]
 
@@ -372,33 +372,33 @@ Roman numerals are used in the AGT for the anomaly item designation as well as t
 
 +++ **Auto de fé:**
 
-SCP-6503 is to be contained in Site-77, where no working personnel belongs to the Catholic Faith. SCP-6503 is to be kept inside a standard reinforced storage container at the center of a  10 x 10 meters squared cell. Under no circumstances should a member of the Catholic Faith be allowed within a 5-meter radius of  SCP-6503. At least two armed non-Catholic security personnel should always be guarding  SCP-6503. 
+SCP-6503 is to be contained in Site-77, where no working personnel belongs to the Catholic Faith. SCP-6503 is to be kept inside a standard reinforced storage container at the center of a  10 x 10 meters squared cell. Under no circumstances should a member of the Catholic Faith be allowed within a 5-meter radius of  SCP-6503. At least two armed non-Catholic security personnel should always be guarding  SCP-6503. 
 
-Any Catholic individual that has been in proximity closer than 10 meters of  SCP-6503 should be given immediate amnestic treatment and kept in observation for a period of two weeks.  If despite treatment they still present signs of being affected by SCP-6503, they should be kept under Foundation's detention with maximum security for human-level threats within a Foundation Site other than Site-77.
+Any Catholic individual that has been in proximity closer than 10 meters of  SCP-6503 should be given immediate amnestic treatment and kept in observation for a period of two weeks.  If despite treatment they still present signs of being affected by SCP-6503, they should be kept under Foundation's detention with maximum security for human-level threats within a Foundation Site other than Site-77.
 
-SCP-6503-II is currently being contained by the Catholic branch of the [https://scp-wiki.wikidot.com/horizon-initiative-hub Horizon Initiative].[[span class="fnnum"]].[[/span]][[span class="fncon"]] GOI dedicated to the protection of the Abrahamic Faiths against the anomalous. The Catholic branch is led by the Ordinis Occulti Luminis. [[/span]]  Due to possible information compromise in case of an SCP-6503 containment breach, it was deemed necessary for the Foundation to not be aware of any information regarding the location and containment procedures of SCP-6503-II.
+SCP-6503-II is currently being contained by the Catholic branch of the [https://scp-wiki.wikidot.com/horizon-initiative-hub Horizon Initiative].[[span class="fnnum"]].[[/span]][[span class="fncon"]] GOI dedicated to the protection of the Abrahamic Faiths against the anomalous. The Catholic branch is led by the Ordinis Occulti Luminis. [[/span]]  Due to possible information compromise in case of an SCP-6503 containment breach, it was deemed necessary for the Foundation to not be aware of any information regarding the location and containment procedures of SCP-6503-II.
 
 @@ @@
 
 +++ __**Corpus:**__
 
-SCP-6503 refers to the skeletal remains of an unidentified male dressed in renaissance period ecclesiastic garments and adorned with intricate jewelry made of gold and various precious stones. Archeological assessment of  SCP-6503 indicates the clothing and ornaments to date back to the 16th century, while the skeletal remains are older, estimated dating back to the 3rd century. The Archeology Department has hypothesized SCP-6503  to be one of the  "Catacomb Saints"[[span class="fnnum"]].[[/span]][[span class="fncon"]]Skeletal remains of ancient Christians exhumed from catacombs, exuberantly decorated, and worshiped as relics of saints during a period from the 16th to the 18th century.[[/span]]
+SCP-6503 refers to the skeletal remains of an unidentified male dressed in renaissance period ecclesiastic garments and adorned with intricate jewelry made of gold and various precious stones. Archeological assessment of  SCP-6503 indicates the clothing and ornaments to date back to the 16th century, while the skeletal remains are older, estimated dating back to the 3rd century. The Archeology Department has hypothesized SCP-6503  to be one of the  "Catacomb Saints"[[span class="fnnum"]].[[/span]][[span class="fncon"]]Skeletal remains of ancient Christians exhumed from catacombs, exuberantly decorated, and worshiped as relics of saints during a period from the 16th to the 18th century.[[/span]]
 
 [[include component:image-block | name=wald | caption=SCP-6503 upon discovery | width=400px ]]
 
-SCP-6503's anomalous effect triggers when a member of the Catholic Faith is within a radius of 5 meters from it. Around 1 in 10 Catholics will become convinced that  SCP-6503 is the legitimate Pope and that the current sitting Pope is a usurper. Regardless of previous religiosity, they will become increasingly devout to the Catholic Faith and to SCP-6503. 
+SCP-6503's anomalous effect triggers when a member of the Catholic Faith is within a radius of 5 meters from it. Around 1 in 10 Catholics will become convinced that  SCP-6503 is the legitimate Pope and that the current sitting Pope is a usurper. Regardless of previous religiosity, they will become increasingly devout to the Catholic Faith and to SCP-6503. 
 
 A tendency to employ unnecessary, grammatically incorrect, and often non-sequitur Latin phrases[[span class="fnnum"]].[[/span]][[span class="fncon"]] Foundation linguists have identified this speaking pattern as a macaronic Latin-vernacular deviation from traditional Latin, commonly known as Dog Latin. [[/span]] in their speech has also been observed. They will also display a desire to help SCP-6503 in reclaiming the Holy See in Rome, even expressing intent to harm the current Pope. To this date, there have been no records of aggressions against the Pope related to SCP-6503.
 
-In addition, SCP-6503 affected individuals will become obsessed with reuniting SCP-6503 with  SCP-6503-II.  The only known method to prevent SCP-6503's influence over a susceptible individual is immediate amnestic treatment after exposure. Failing this treatment, SCP-6503's effect is presumed to be permanent. Due to fanatic behavior displayed by influenced individuals and the high risk posed by an SCP-6503's containment breach, the Ethics Committee is considering whether termination should be an option if first-line amnestic treatment fails.
+In addition, SCP-6503 affected individuals will become obsessed with reuniting SCP-6503 with  SCP-6503-II.  The only known method to prevent SCP-6503's influence over a susceptible individual is immediate amnestic treatment after exposure. Failing this treatment, SCP-6503's effect is presumed to be permanent. Due to fanatic behavior displayed by influenced individuals and the high risk posed by an SCP-6503's containment breach, the Ethics Committee is considering whether termination should be an option if first-line amnestic treatment fails.
 
-SCP-6503-II is a 4-meter tall mechanical construct, resembling a suit of 16th-century Italian armor, albeit with distorted proportions and a constitution more robust than that of a regular humanoid.  Its exterior is composed of an unidentified golden metal of remarkable durability. This durability is likely anomalous in nature; since SCP-6503-II is capable of withstanding modern heavy fire and artillery without suffering apparent damage. 
+SCP-6503-II is a 4-meter tall mechanical construct, resembling a suit of 16th-century Italian armor, albeit with distorted proportions and a constitution more robust than that of a regular humanoid.  Its exterior is composed of an unidentified golden metal of remarkable durability. This durability is likely anomalous in nature; since SCP-6503-II is capable of withstanding modern heavy fire and artillery without suffering apparent damage. 
 
-Internally, it possesses a complex clockwork mechanism allowing it to move. This mechanism does not require an external power source in order to function. SCP-6503-II is armed with several weapons; including both medieval bladed and blunt weaponry as well as anachronistic ones such as Gatling-type guns, flame throwers, and rocket launchers.  The Horizon Initiative is currently investigating SCP-6503-II's advanced weaponry, evidence pointing it to be anomalous in nature.
+Internally, it possesses a complex clockwork mechanism allowing it to move. This mechanism does not require an external power source in order to function. SCP-6503-II is armed with several weapons; including both medieval bladed and blunt weaponry as well as anachronistic ones such as Gatling-type guns, flame throwers, and rocket launchers.  The Horizon Initiative is currently investigating SCP-6503-II's advanced weaponry, evidence pointing it to be anomalous in nature.
 
 [[include component:image-block | name=mecha2 | caption= Footage of SCP-6503-II @@ @@ | width=400px ]]
 
-SCP-6503-II is not capable of autonomous behavior, instead, it possesses a hatch to a compartment. It will remain completely dormant until SCP-6503 is placed inside of it. The Horizon Initiative has reported it will not activate with any other material, pending further testing. Individuals under SCP-6503's influence will try to place SCP-6503 in SCP-6503-II. This will, in turn, give SCP-6503 control over  SCP-6503-II. When inside SCP-6503-II, SCP-6503 is capable of vocal communication through unknown means.
+SCP-6503-II is not capable of autonomous behavior, instead, it possesses a hatch to a compartment. It will remain completely dormant until SCP-6503 is placed inside of it. The Horizon Initiative has reported it will not activate with any other material, pending further testing. Individuals under SCP-6503's influence will try to place SCP-6503 in SCP-6503-II. This will, in turn, give SCP-6503 control over  SCP-6503-II. When inside SCP-6503-II, SCP-6503 is capable of vocal communication through unknown means.
 
 @@ @@
 @@ @@
@@ -413,10 +413,10 @@ SCP-6503-II is not capable of autonomous behavior, instead, it possesses a hatch
 
 -----
 
- **Interviewed:** D-7176
+ **Interviewed:** D-7176
 
-**Interviewer:**  Dr. Chakrabarti
- 
+**Interviewer:**  Dr. Chakrabarti
+ 
 **Foreword:** D-MCIII is a Roman Catholic recently exposed to the effects of SCP-6503. Foundation linguists are currently studying the deviant speech patterns exhibited by individuals under SCP-6503's influence. These particular speech patterns are believed to be a type of Latin-vernacular macaronic dialect. Several grammatical inconsistencies and other deviations from traditional Latin have been identified. 
 
 -----
@@ -424,7 +424,7 @@ SCP-6503-II is not capable of autonomous behavior, instead, it possesses a hatch
 ++++++ [BEGIN LOG]
 
 **Dr. Chakrabarti:** Greetings, D-7176, what can you tell me about SCP-6503?
- 
+ 
 **D-7176:** Greetings Brother, with God's Blessing, what would you like to know about the //Santo Padre//?
 
 **Dr. Chakrabarti:** Are you referring to SCP-6503?
@@ -445,7 +445,7 @@ SCP-6503-II is not capable of autonomous behavior, instead, it possesses a hatch
 
 **Dr. Chakrabarti:** What is this "Nova Genesi Evangelii"?
 
-**D-7176:**: It is a cult classic. To him, it was a cry for help. It was clear our //Ecclesia//[[span class="fnnum"]].[[/span]][[span class="fncon"]] Church [[/span]] had failed us.  But it was until he learned about our devotion to God //Imperator// from the //Bellum Malleo//,[[span class="fnnum"]].[[/span]][[span class="fncon"]] "Hammer of War". The exact meaning of this phrase is still not yet understood. It has been theorized it could be referring to a yet unknown anomalous weapon, though alternative interpretations such as an epic poem or a warrior's creed have been proposed. [[/span]] that he understood God had chosen him to free us from the usurper and his //haeresis//[[span class="fnnum"]].[[/span]][[span class="fncon"]] Heresy [[/span]].  //Deus Vult//[[span class="fnnum"]].[[/span]][[span class="fncon"]] God wills it. [[/span]] //Opus Dei//.[[span class="fnnum"]].[[/span]][[span class="fncon"]] Work of God. [[/span]]
+**D-7176:**: It is a cult classic. To him, it was a cry for help. It was clear our //Ecclesia//[[span class="fnnum"]].[[/span]][[span class="fncon"]] Church [[/span]] had failed us.  But it was until he learned about our devotion to God //Imperator// from the //Bellum Malleo//,[[span class="fnnum"]].[[/span]][[span class="fncon"]] "Hammer of War". The exact meaning of this phrase is still not yet understood. It has been theorized it could be referring to a yet unknown anomalous weapon, though alternative interpretations such as an epic poem or a warrior's creed have been proposed. [[/span]] that he understood God had chosen him to free us from the usurper and his //haeresis//[[span class="fnnum"]].[[/span]][[span class="fncon"]] Heresy [[/span]].  //Deus Vult//[[span class="fnnum"]].[[/span]][[span class="fncon"]] God wills it. [[/span]] //Opus Dei//.[[span class="fnnum"]].[[/span]][[span class="fncon"]] Work of God. [[/span]]
 
 **Dr. Chakrabarti:** "Bellum Malleo"?
 
@@ -467,7 +467,7 @@ SCP-6503-II is not capable of autonomous behavior, instead, it possesses a hatch
 
 **D-7176:** I have spoken everything I know. Now I have to //Carpe Diem//.[[span class="fnnum"]].[[/span]][[span class="fncon"]] Seize the day. Note the incompatibility between grammatical forms. [[/span]]
 
-**Dr. Chakrabarti:**  And what about the "usurper"?
+**Dr. Chakrabarti:**  And what about the "usurper"?
 
 **D-7176:** He is blaspheming against God every minute he claims to be the Pope. He has to be removed.
 
@@ -483,7 +483,7 @@ SCP-6503-II is not capable of autonomous behavior, instead, it possesses a hatch
 
 **D-7176:** The true Pope must drive the //Aureum Evangelium//... or //Sancta Maria//[[span class="fnnum"]].[[/span]][[span class="fncon"]] Holy Mary. [[/span]] will have to do it again...
 
-//At this point D-7176 falls to his knees and starts praying.  No further questions were answered.//
+//At this point D-7176 falls to his knees and starts praying.  No further questions were answered.//
 
 -----
 
@@ -501,7 +501,7 @@ Dr. Basirski from the Linguistics Department noted that D-7176's speech patterns
 
 ++++ Inventionis Iniuriarum:
 
-SCP-6503 and SCP-6503-II  were discovered during an archeological excavation in a catacomb near  Benevento, Italy.  They were located within meters of each other, in a previously uncharted chamber. Upon discovery, members of the archeological team came under the influence of SCP-6503. They placed SCP-6503 into SCP-6503-II, activating it. 
+SCP-6503 and SCP-6503-II  were discovered during an archeological excavation in a catacomb near  Benevento, Italy.  They were located within meters of each other, in a previously uncharted chamber. Upon discovery, members of the archeological team came under the influence of SCP-6503. They placed SCP-6503 into SCP-6503-II, activating it. 
 
 SCP-6503 emerged from the excavation site, causing considerable damage to historical architecture, and began marching towards Rome. It was reported by survivors and confirmed by video evidence that SCP-6503 was shouting several phrases in a form of Latin,[[span class="fnnum"]].[[/span]][[span class="fncon"]] Its speech pattern shares a similar deviation from traditional Latin to that observed in affected individuals. [[/span]] whose entire significance has still yet to be determined by Foundation researchers.
 
@@ -516,20 +516,20 @@ SCP-6503 emerged from the excavation site, causing considerable damage to histor
 [[/=]]
 
 ----
-**NOTE:** Around the time of the SCP-6503 activation,  a film production crew was recording a documentary about the recently discovered Benevento Catacombs. They managed to capture the beginning of the SCP-6503 rampage. The video record was later confiscated by Foundation personnel in the aftermath of the event.
+**NOTE:** Around the time of the SCP-6503 activation,  a film production crew was recording a documentary about the recently discovered Benevento Catacombs. They managed to capture the beginning of the SCP-6503 rampage. The video record was later confiscated by Foundation personnel in the aftermath of the event.
 ----
 
 ++++++ [BEGIN LOG]
 
 **00:03:04** The crew is conducting an interview with the lead archeologist at the site. A small Romanesque church can be seen in the background.
 
-**00:03:12** Suddenly an explosive sound can be heard and the church begins crumbling down.  
+**00:03:12** Suddenly an explosive sound can be heard and the church begins crumbling down.  
 
 **00:03:18** SCP-6503 emerges from the ruins. The film crew and the archeologist react in confusion.
 
-**00:03:34**  SCP-6503 is heard shouting //"Ego Summus Pontifex legitimus, canis femina!"//[[span class="fnnum"]].[[/span]][[span class="fncon"]] I'm the legitimate Pope, female dogs! [[/span]] and begins shooting two Gattling guns in the air.  
+**00:03:34**  SCP-6503 is heard shouting //"Ego Summus Pontifex legitimus, canis femina!"//[[span class="fnnum"]].[[/span]][[span class="fncon"]] I'm the legitimate Pope, female dogs! [[/span]] and begins shooting two Gattling guns in the air.  
 
-**00:03:56**  SCP-6503 begins walking slowly. The camera follows as it shouts //"Sic semper tyrannis, mater irrumator!"//,[[span class="fnnum"]].[[/span]][[span class="fncon"]] Thus always to tyrants, mother disrespecter!  [[/span]] followed by //"Alea iacta est, critical damnum!"//[[span class="fnnum"]].[[/span]][[span class="fncon"]] The dice are cast, critical damage! [[/span]]
+**00:03:56**  SCP-6503 begins walking slowly. The camera follows as it shouts //"Sic semper tyrannis, mater irrumator!"//,[[span class="fnnum"]].[[/span]][[span class="fncon"]] Thus always to tyrants, mother disrespecter!  [[/span]] followed by //"Alea iacta est, critical damnum!"//[[span class="fnnum"]].[[/span]][[span class="fncon"]] The dice are cast, critical damage! [[/span]]
 
 **00:04:22** SCP-6503 adopts a fetal position and starts sobbing: //"In robot non questus, pater!"//[[span class="fnnum"]].[[/span]][[span class="fncon"]] I'm not getting in the robot, father! [[/span]]
 
@@ -539,7 +539,7 @@ SCP-6503 emerged from the excavation site, causing considerable damage to histor
 
 **00:15:49** SCP-6503 activates a flamethrower and points it randomly, yelling //"Haereticum combure! Interfice abominationem! Expurgate immundos!"//[[span class="fnnum"]].[[/span]][[span class="fncon"]] Burn the Heretic! Kill the Freak! Purge the Unclean! [[/span]]
 
-**00:17:11** SCP-6503 encounters another Romanesque structure and screams //"Reaedificationes non sunt canon"//.[[span class="fnnum"]].[[/span]][[span class="fncon"]]  The Rebuilds are not canon. [[/span]] Subsequently, it shoots a rocket to the structure, destroying it. At this point, the recording ends.
+**00:17:11** SCP-6503 encounters another Romanesque structure and screams //"Reaedificationes non sunt canon"//.[[span class="fnnum"]].[[/span]][[span class="fncon"]]  The Rebuilds are not canon. [[/span]] Subsequently, it shoots a rocket to the structure, destroying it. At this point, the recording ends.
 
 -----
 
@@ -551,7 +551,7 @@ SCP-6503 emerged from the excavation site, causing considerable damage to histor
 
 ++++ Recuperatio Iniuriarum:
 
-Upon being informed of the SCP-6503 rampage, the Horizon Initiative activated  Protocol Gladius Petri, designed to protect the Pope from anomalous threats. His Holiness ████████ ███ was secured in a bunker, while the Horizon Initiative deployed the full strength of Project Malleus[[span class="fnnum"]].[[/span]][[span class="fncon"]]  Horizon Initiative’s combat forces. [[/span]] against SCP-6503, as well as the combined forces of the Swiss Guard, the Sovereign Military Order of Malta, the Italian Army and Airforce, as well as the Carabinieri. Italian Airforce planes bombarded SCP-6503, while ground forces mounted a fortified perimeter around Benevento to stop  SCP-6503 from reaching Rome. However,  both aerial bombardment and ground military fire proved ineffective against SCP-6503 due to its high resistance to damage.
+Upon being informed of the SCP-6503 rampage, the Horizon Initiative activated  Protocol Gladius Petri, designed to protect the Pope from anomalous threats. His Holiness ████████ ███ was secured in a bunker, while the Horizon Initiative deployed the full strength of Project Malleus[[span class="fnnum"]].[[/span]][[span class="fncon"]]  Horizon Initiative’s combat forces. [[/span]] against SCP-6503, as well as the combined forces of the Swiss Guard, the Sovereign Military Order of Malta, the Italian Army and Airforce, as well as the Carabinieri. Italian Airforce planes bombarded SCP-6503, while ground forces mounted a fortified perimeter around Benevento to stop  SCP-6503 from reaching Rome. However,  both aerial bombardment and ground military fire proved ineffective against SCP-6503 due to its high resistance to damage.
 
 @@ @@
 
@@ -565,7 +565,7 @@ Upon being informed of the SCP-6503 rampage, the Horizon Initiative activated �
 
 ----
 
-**NOTE:** The Horizon Initiative requested Foundation assistance. During an emergency meeting, the O5 Council approved the use of an experimental Compact Kinetic Energy Missile[[span class="fnnum"]].[[/span]][[span class="fncon"]]  Hypersonic anti-armor guided long dart penetrator. Instead of an explosive round, it relies on the kinetic energy of a hypersonically accelerated flechette-like, high-sectional density projectile. [[/span]] against SCP-6503.  The following video is a transmission from the Horizon Initiative frontlines to their headquarters.  It was shared with the Foundation for research purposes.
+**NOTE:** The Horizon Initiative requested Foundation assistance. During an emergency meeting, the O5 Council approved the use of an experimental Compact Kinetic Energy Missile[[span class="fnnum"]].[[/span]][[span class="fncon"]]  Hypersonic anti-armor guided long dart penetrator. Instead of an explosive round, it relies on the kinetic energy of a hypersonically accelerated flechette-like, high-sectional density projectile. [[/span]] against SCP-6503.  The following video is a transmission from the Horizon Initiative frontlines to their headquarters.  It was shared with the Foundation for research purposes.
 
 ----
 
@@ -575,7 +575,7 @@ Upon being informed of the SCP-6503 rampage, the Horizon Initiative activated �
 
 **00:00:14** The leader of the squad, who ports an insignia from Project Malleus, shouts: "We are warriors of the Faith. We are the last line of defense. There is a Wolf at the Gate and we will defend the Church till our last breath".
 
-**00:00:20** The soldiers begin cheering:  "For the Pope! For Mother Mary! For the Holy Church!"
+**00:00:20** The soldiers begin cheering:  "For the Pope! For Mother Mary! For the Holy Church!"
 
 **00:00:33** SCP-6503 enters the scene. It is still far away but walks slowly towards the trenches.
 
@@ -587,7 +587,7 @@ Upon being informed of the SCP-6503 rampage, the Horizon Initiative activated �
 
 **00:01:02** "It did nothing..." says a Swiss Guard and starts praying the Ave Maria.
 
-**00:01:13** As SCP-6503 keeps approaching, its voice begins to be heard: it is humming the melody from Fortuna Imperatrix Mundi.[[span class="fnnum"]].[[/span]][[span class="fncon"]]  The opening and closing movement of Carl Orff's cantata Carmina Burana. [[/span]]
+**00:01:13** As SCP-6503 keeps approaching, its voice begins to be heard: it is humming the melody from Fortuna Imperatrix Mundi.[[span class="fnnum"]].[[/span]][[span class="fncon"]]  The opening and closing movement of Carl Orff's cantata Carmina Burana. [[/span]]
 
 **00:01:21** SCP-6503 stops walking and a rocket launcher emerges from its back, pointing to the trenches' direction. The soldiers take cover.
 
@@ -596,7 +596,7 @@ Upon being informed of the SCP-6503 rampage, the Horizon Initiative activated �
 **00:01:23** SCP-6503 exclaims //"In nominee..."//[[span class="fnnum"]].[[/span]][[span class="fncon"]] In the name of... [[/span]] More darts keep falling and pin SCP-6503's other arm and legs.
 
 **00:01:27** SCP-6503 is unsuccessfully trying to break free while shouting: //"Dampnata simias! Paganus asini!"//[[span class="fnnum"]].[[/span]][[span class="fncon"]] Dammed monkeys! Pagan donkeys!
- [[/span]]
+ [[/span]]
 
 **00:01:41** A Foundation helicopter has arrived and is hovering over SCP-6503.
 
@@ -606,7 +606,7 @@ Upon being informed of the SCP-6503 rampage, the Horizon Initiative activated �
 
 **00:01:52** SCP-6503 is heard shouting //"Scis quis ego sum? Legitimus Papa sum, canis femina! Hoc mihi non potes facere! Deus elegit me! Ego sum Gladius Petri!"//[[span class="fnnum"]].[[/span]][[span class="fncon"]] Do you know who I am? I'm the legitimate Pope, female dog! You can't do this to me! God chose me! I am the Sword of Peter![[/span]]
 
-**00:01:54**  Nu-7 agents manage to open SCP-6503-II's hatch and remove SCP-6503. SCP-6503-II deactivates.
+**00:01:54**  Nu-7 agents manage to open SCP-6503-II's hatch and remove SCP-6503. SCP-6503-II deactivates.
 
 -----
 
@@ -633,9 +633,9 @@ Orbital bombardment managed to temporarily incapacitate SCP-6503-II allowing mem
 
 -----
 
- **From:** Cardinal Abel Everett - Project Malleus Mechanicus
+ **From:** Cardinal Abel Everett - Project Malleus Mechanicus
 
- **To:** Dr. T.D. Mirage - Director of Site-77
+ **To:** Dr. T.D. Mirage - Director of Site-77
 
 -----
 
@@ -643,7 +643,7 @@ Orbital bombardment managed to temporarily incapacitate SCP-6503-II allowing mem
 
 In the name of the Horizon Initiative and the Holy Church, I extend my gratitude to the Foundation for your invaluable assistance in containing SCP-6503, also known as the Benevento Heresy. This incident has evidenced Project Malleus' weakness and how vulnerable really is Christendom against the powers of the Unknown and their heretic machinations. But with God's Blessing, we are taking measures to sharpen Gladius Petri. The Foundation can rest assured that when another Blasphemy like the Benevento Heresy appears, we will be ready to unleash the wrath of God. And I say "when" instead of "if", since I am convinced more horrors will come from the same place to threaten the Mother Church.
 
-Regarding the Benevento Heresy, while it is certainly a Blasphemy, it is undeniable that it presents a unique opportunity to learn techniques more sophisticated than we have ever dreamed of. Reverse engineering is always a complicated and steady process; however, we are making progress and we believe, with God's Blessing, we will soon be able to produce a purified version of SCP-6503 for Gladius Petri. We  intend calling it Argentum Evangelium.[[span class="fnnum"]].[[/span]][[span class="fncon"]] Silver Gospel. [[/span]]
+Regarding the Benevento Heresy, while it is certainly a Blasphemy, it is undeniable that it presents a unique opportunity to learn techniques more sophisticated than we have ever dreamed of. Reverse engineering is always a complicated and steady process; however, we are making progress and we believe, with God's Blessing, we will soon be able to produce a purified version of SCP-6503 for Gladius Petri. We  intend calling it Argentum Evangelium.[[span class="fnnum"]].[[/span]][[span class="fncon"]] Silver Gospel. [[/span]]
 
 His Holiness is deeply grateful for your help, but he also regrets having to hide while his flock fought God's hardest battle. When the next step of the Gladius Petri is complete, he will no longer have to hide again. He will drive the Argentum Evangelium and command the forces of Christendom against the Unknown, just as God intended. For the next time the Fires of Hell threaten our gates, His Holiness will fight Fire with Fire.
 
@@ -681,7 +681,7 @@ His Holiness is deeply grateful for your help, but he also regrets having to hid
 
 > **Filename:** mecha.jpg
 > **Name:** Imperial Knight Iron Will
-> **Author:**  Victor Ques Ramos
+> **Author:**  Victor Ques Ramos
 > **License:** CC BY-SA 2.0
 > **Source Link:** https://www.flickr.com/photos/84366637@N04/42915545415
 

@@ -4,11 +4,11 @@
 
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -33,7 +33,7 @@ The sole exceptions to the above are the original documentation of SCP-6411, whi
 
 SCP-6411-A events invariably result in the involved lexemes ceasing to be part of SCP-6411, instead returning to their previous locations. Often, these previous locations will be brought to the place where the event occured. Further side effects depend on the individual lexemes, and hence cannot be known in advance.
 
-[[collapsible show="[ To access further information, please input level 5 credentials. ]" hide="[ [  Access granted.  ] ]"]]
+[[collapsible show="[ To access further information, please input level 5 credentials. ]" hide="[ [  Access granted.  ] ]"]]
 
 **Creation:** Joseph Harrison, an amateur American linguist, was commissioned by the Foundation with creating SCP-6411's base grammatical structure in 1931. This was due to multiple nomenclative breaches that occured in the previous 20 years as a result of SCP-6411 lexemes not being properly contained.
 

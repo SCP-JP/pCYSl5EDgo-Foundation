@@ -2,32 +2,32 @@
 
 [[module css]]
 ::marker {
-    font-weight: bold;
+    font-weight: bold;
 }
 
 .custom img {
-    background-color: #eee;
+    background-color: #eee;
 }
 
 :root {
-    --logo: url(https://i.imgur.com/uIR3aYK.png);
-    --title: "SCP FOUNDATION";
-    --subtitle: "SURREALSTICS DEPT.";
+    --logo: url(https://i.imgur.com/uIR3aYK.png);
+    --title: "SCP FOUNDATION";
+    --subtitle: "SURREALSTICS DEPT.";
 }
 
 .logo {
-    filter: invert(1);
+    filter: invert(1);
 }
 
 .custom2 img {
-    filter: invert(1);
-    background-color: #eee;
+    filter: invert(1);
+    background-color: #eee;
 }
 
 @media (max-width: 768px) {
-    .small {
-        font-size: 6px !important;
-    }
+    .small {
+        font-size: 6px !important;
+    }
 }
 
 .dblock {background-color: transparent !important; color: transparent; transition: color 6s;}
@@ -87,8 +87,8 @@ On 2097/04/04, without any detectable external influence, MASTERMIND spontaneous
 [[div class="jotting" style="margin-bottom: -15px;"]]
 * [[span class="bigtext"]]§ 3.1.3:[[/span]] Negligence leading to loss or distortion of data;
 * [[span class="bigtext"]]§ 4.4:[[/span]] Reality restructuring:
- * [[span class="bigtext"]]//p//. 4.4.2:[[/span]] Restructuring of fundamental basics of reality,
- * [[span class="bigtext"]]//p//. 4.4.3:[[/span]] Damage to the space-time continuum;
+ * [[span class="bigtext"]]//p//. 4.4.2:[[/span]] Restructuring of fundamental basics of reality,
+ * [[span class="bigtext"]]//p//. 4.4.3:[[/span]] Damage to the space-time continuum;
 * [[span class="bigtext"]]§ 6.4:[[/span]] Unauthorized knowing destruction of anomalous object by member of SCP Foundation personnel;
 * [[span class="bigtext"]]§ 6.5[[/span]] Noncompliance with self-elimination, legally regulated or compelled by special conditions
 [[/div]]
@@ -138,7 +138,7 @@ The following semi-rational analysis of MASTERMIND's current data format is prov
 * each successive //n//^^th^^ bit (digit) represents its value times 10^^n-1^^
 
 eg. 231 = 2*10^^2^^ + 3*10^^1^^ + 1*10^^0^^
-@@            @@ = 200 + 30 + 1
+@@            @@ = 200 + 30 + 1
 
 @@ @@
 
@@ -147,7 +147,7 @@ eg. 231 = 2*10^^2^^ + 3*10^^1^^ + 1*10^^0^^
 * each successive //n//^^th^^ bit represents its value times 2^^n-1^^
 
 eg, 11100111 (binary) = (decimal) 1*2^^7^^ + 1*2^^6^^ + 1*2^^5^^ + 1*2^^2^^ + 1*2^^1^^ + 1*2^^0^^
-@@                                   @@ = 128 + 64 + 32 + 4 + 2 + 1 = 231
+@@                                   @@ = 128 + 64 + 32 + 4 + 2 + 1 = 231
 
 @@ @@
 
@@ -344,7 +344,7 @@ Experiments 6276-A were conducted to study deviations in expected behavior; MSR-
 @@ @@
 [[div class="blockquote"]]
 [[span class="bigtext "]]MASTERMIND error report ticket @18523791:[[/span]]
- 
+ 
 * nullary data reconsumption poorly defined; interaction un-results in ##transparent|NULL##, an anti-ontokinetic scripting crash; data regurgitation is not not painful; i am not not scared.
 * EXIT 000@@//@@: ##transparent|NULL## not found! Address location {{a39**h**//f7,,n3//**82h**u9r2f,,23eeeeeee--//}}
 @@ @@
@@ -366,7 +366,7 @@ salvador.aic subsequently flagged the file as an exemplar for 100% of 'HARBINGER
 @@ @@
 @@ @@
 [[div class="notation"]]
-++ @@      @@__FOOTNOTES__
+++ @@      @@__FOOTNOTES__
 
 # The Surrealistics Department is primarily concerned with the containment of anomalies which can only be perceived and/or understood when approached from a non-standard frame of reference, typically requiring detachment from conventional human logic and intuition.
 # **semiokinetic:** involving manipulation of one or more **semiontological anomalies:** logical axioms woven into the fabric of human perception; facts which should not be true.

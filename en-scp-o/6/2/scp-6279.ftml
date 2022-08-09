@@ -8,50 +8,50 @@
 @import url('https://scp-sandbox-3.wdfiles.com/local--files/collab%3Arewrite-team/stylesheet.css');
 
 #page-title {
-   display: none;
+   display: none;
 }
 
 h1 {
-    margin-bottom: -0.4em;
+    margin-bottom: -0.4em;
 }
 
 :root {
-  --body-font: 'Lexend', sans-serif;
-  --mono-font: 'Ra Mono', monospace;
+  --body-font: 'Lexend', sans-serif;
+  --mono-font: 'Ra Mono', monospace;
 
-  --accentColor: 48, 199, 6;
-  --darkColor: 7, 26, 7;
+  --accentColor: 48, 199, 6;
+  --darkColor: 7, 26, 7;
 }
 
 .console {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #071a07;
-    color: #30c706;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #071a07;
+    color: #30c706;
 }
 
 .regular {
-    font-family: 'IBM Plex Mono', monospace;
-    border: 3px solid #30c706;
-    border-top: none;
+    font-family: 'IBM Plex Mono', monospace;
+    border: 3px solid #30c706;
+    border-top: none;
 }
 
 .script {
-    font-family: 'Courier Prime', monospace;
-    padding: 5px;
-    border: 1px solid #30c706;
-    border-top: none;
+    font-family: 'Courier Prime', monospace;
+    padding: 5px;
+    border: 1px solid #30c706;
+    border-top: none;
 }
 
 .dialogue {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .draft {
-    font-family: 'IBM Plex Mono', monospace;
-    padding-right: 20%;
-    margin-bottom: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    padding-right: 20%;
+    margin-bottom: 10px;
 }
 [[/module]]
 [[>]]
@@ -64,7 +64,7 @@ h1 {
 @@____________________________________________@@
 [[/=]]
 [[>]]
-##63ff54|{{@@ >  @@boot##}}
+##63ff54|{{@@ >  @@boot##}}
 [[/>]]
 {{SCP-EPD BOOT SEQUENCE INITIATED...}}
 {{TERMINAL BOOTED.}}
@@ -78,24 +78,24 @@ h1 {
 @@ @@
 [[size 120%]]{{INPUT COMMANDS BELOW:}}[[/size]]
 [[>]]
-##63ff54|{{@@ >  @@login a.ranieri##}}
+##63ff54|{{@@ >  @@login a.ranieri##}}
 [[/>]]
 {{LOGGING IN...}}
 {{PLEASE ENTER PASSWORD.}}
 [[>]]
-##63ff54|{{@@ >  @@pass coda_dello_scorpione##}}
+##63ff54|{{@@ >  @@pass coda_dello_scorpione##}}
 [[/>]]
 {{LOGGING IN... LOGGED IN.}}
 {{WELCOME, **Dr. Antony Ranieri**.}}
 @@ @@
 {{YOU HAVE **0** NOTIFICATION(S).}}
 [[>]]
-##63ff54|{{@@ >  @@access casefile_6279##}}
+##63ff54|{{@@ >  @@access casefile_6279##}}
 [[/>]]
 {{ACCESSING CASEFILE 6279...}}
 {{OPEN IN __EDIT__ OR __VIEW__ MODE?}}
 [[>]]
-##63ff54|{{@@ >  @@view mode##}}
+##63ff54|{{@@ >  @@view mode##}}
 [[/>]]
 {{OPENING IN **VIEW** MODE.}}
 {{NOW DISPLAYING FILE...}}
@@ -106,7 +106,7 @@ h1 {
 {{THERE ARE **15** DOCUMENTS AVAILABLE.}}
 {{OPEN ALL?}}
 [[>]]
-##63ff54|{{@@ >  @@open all##}}
+##63ff54|{{@@ >  @@open all##}}
 [[/>]]
 {{OPENING DOCUMENTS...}}
 @@ @@
@@ -141,7 +141,7 @@ CARLO GIORDANI [[size 90%]]a[[/size]] (ISPETTORE) ENZO VASTA
 @@ @@
 **G:** (//laughter//) Promise it's important.
 @@ @@
-**V:**  //Sure//. By the way, I saw your handiwork this morning; it's nothing less than frontpage.
+**V:**  //Sure//. By the way, I saw your handiwork this morning; it's nothing less than frontpage.
 @@ @@
 **G:** Of course. It's what he deserved.
 @@ @@
@@ -201,7 +201,7 @@ CARLO GIORDANI [[size 90%]]a[[/size]] (ISPETTORE) ENZO VASTA
 [[/div]]
 [[/collapsible]]
 {{ }}
-[[collapsible show="► Recording No.1  (C. Giordani)" hide="▼ Recording No.1  (C. Giordani)"]]
+[[collapsible show="► Recording No.1  (C. Giordani)" hide="▼ Recording No.1  (C. Giordani)"]]
 [[div class="scp-image-block block-center" style="width:100%; box-shadow:none;"]]
 [[image https://scp-sandbox-3.wdfiles.com/local--files/collab%3Arewrite-team/h1.png style="width:100%;" link=#]]
 [[/div]]
@@ -225,7 +225,7 @@ Carlo here. Recording so that boss of mine doesn't think I'm taking a useless to
 
 The living room is devoid of life. A sickly yellow permeates the room from the chandelier, which we pan to: Di Sanza is hung up on it, bloodied, dead. ████████ drags Mrs. Crenshaw in from the foyer area, an ice pick in IT's other hand.
 
-She struggles to hit ████████, but she receives a stab to the stomach for her troubles. ᵢₜ  strings her up on the chandelier, adjacent to Di Sanza.
+She struggles to hit ████████, but she receives a stab to the stomach for her troubles. ᵢₜ  strings her up on the chandelier, adjacent to Di Sanza.
 
 Crenshaw is crying. ᵢₜ laughs.
 @@ @@
@@ -295,12 +295,12 @@ Mrs. Crenshaw's pupils dilate. The camera pans out as ████████ l
 [[/collapsible]]
 @@ @@
 [[>]]
-##63ff54|{{@@ >  @@create file SCP-6279##}}
+##63ff54|{{@@ >  @@create file SCP-6279##}}
 [[/>]]
 {{WARNING! FILE HAS ALREADY BEEN CREATED...}}
 {{OVERWRITE FILE?}}
 [[>]]
-##63ff54|{{@@ >  @@overwrite##}}
+##63ff54|{{@@ >  @@overwrite##}}
 [[/>]]
 {{ }}
 -----
@@ -319,12 +319,12 @@ Mrs. Crenshaw's pupils dilate. The camera pans out as ████████ l
 [[/div]]
 @@----------------------------@@
 [[>]]
-##63ff54|{{@@ >  @@save draft##}}
+##63ff54|{{@@ >  @@save draft##}}
 [[/>]]
 {{SAVING... SAVING...}}
 {{DRAFT SAVED.}}
 [[>]]
-##63ff54|{{@@ >  @@resume##}}
+##63ff54|{{@@ >  @@resume##}}
 [[/>]]
 {{ }}
 -----
@@ -333,7 +333,7 @@ Mrs. Crenshaw's pupils dilate. The camera pans out as ████████ l
 [[/<]]
 {{OPENING DOCUMENTS...}}
 @@ @@
-[[collapsible show="► Recording No.2  (C. Giordani)" hide="▼ Recording No.2  (C. Giordani)"]]
+[[collapsible show="► Recording No.2  (C. Giordani)" hide="▼ Recording No.2  (C. Giordani)"]]
 [[div class="scp-image-block block-center" style="width:100%; box-shadow:none;"]]
 [[image https://scp-sandbox-3.wdfiles.com/local--files/collab%3Arewrite-team/h1.png style="width:100%;" link=#]]
 [[/div]]
@@ -402,7 +402,7 @@ __████████ [[size 90%]]a[[/size]] CARLO GIORDANI__
 @@ @@
 **G:** ...you're serious, aren't you?
 @@ @@
-**█:** ʸᴼᵁ ᴰᴱᴹᴬᴺᴰ@@   @@ʸᴼᵁ ᵀᴴᴿᴱᴬᵀᴱᴺ@@   @@ʸᴱᵀ ʸᴼᵁ ᵂᴵᴸᴸ ᴺᴼᵀ ᴱᴺᴰ ᵀᴴᴵˢ ᴼᶠ ʸᴼᵁᴿ ᴼᵂᴺ ᴬᶜᶜᴼᴿᴰ
+**█:** ʸᴼᵁ ᴰᴱᴹᴬᴺᴰ@@   @@ʸᴼᵁ ᵀᴴᴿᴱᴬᵀᴱᴺ@@   @@ʸᴱᵀ ʸᴼᵁ ᵂᴵᴸᴸ ᴺᴼᵀ ᴱᴺᴰ ᵀᴴᴵˢ ᴼᶠ ʸᴼᵁᴿ ᴼᵂᴺ ᴬᶜᶜᴼᴿᴰ
 @@ @@
 **G:** You know nothing about me.
 @@ @@
@@ -410,7 +410,7 @@ __████████ [[size 90%]]a[[/size]] CARLO GIORDANI__
 @@ @@
 **G:** Prove it, then. You won't. You can't.
 @@ @@
-**█:** ᵀᴴᴱᴺ ᵀᵁᴿᴺ, ᴳᴵᴼᴿᴰᴬᴺᴵ@@   @@ᵀᵁᴿᴺ ᴿᴵᴳᴴᵀ
+**█:** ᵀᴴᴱᴺ ᵀᵁᴿᴺ, ᴳᴵᴼᴿᴰᴬᴺᴵ@@   @@ᵀᵁᴿᴺ ᴿᴵᴳᴴᵀ
 @@ @@
 **G:** Unbelievable.
 
@@ -426,7 +426,7 @@ __████████ [[size 90%]]a[[/size]] CARLO GIORDANI__
 [[/div]]
 [[/collapsible]]
 {{ }}
-[[collapsible show="► Recording No.3  (E. Vasta)" hide="▼ Recording No.3  (E. Vasta)"]]
+[[collapsible show="► Recording No.3  (E. Vasta)" hide="▼ Recording No.3  (E. Vasta)"]]
 [[div class="scp-image-block block-center" style="width:100%; box-shadow:none;"]]
 [[image https://scp-sandbox-3.wdfiles.com/local--files/collab%3Arewrite-team/h4.png style="width:100%;" link=#]]
 [[/div]]
@@ -460,7 +460,7 @@ Your obsession with documenting the ᵗʳᵘᵗʰ will end you sooner than you t
 [[/div]]
 [[/collapsible]]
 [[>]]
-##63ff54|{{@@ >  @@edit SCP-6279##}}
+##63ff54|{{@@ >  @@edit SCP-6279##}}
 [[/>]]
 {{ }}
 -----
@@ -483,12 +483,12 @@ Your obsession with documenting the ᵗʳᵘᵗʰ will end you sooner than you t
 [[/div]]
 @@----------------------------@@
 [[>]]
-##63ff54|{{@@ >  @@save draft##}}
+##63ff54|{{@@ >  @@save draft##}}
 [[/>]]
 {{SAVING... SAVING...}}
 {{DRAFT SAVED.}}
 [[>]]
-##63ff54|{{@@ >  @@resume##}}
+##63ff54|{{@@ >  @@resume##}}
 [[/>]]
 {{ }}
 -----
@@ -509,14 +509,14 @@ Your obsession with documenting the ᵗʳᵘᵗʰ will end you sooner than you t
 [[/div]]
 [[/collapsible]]
 {{ }}
-[[collapsible show="► Recording No.4  (C. Giordani)" hide="▼ Recording No.4  (C. Giordani)"]]
+[[collapsible show="► Recording No.4  (C. Giordani)" hide="▼ Recording No.4  (C. Giordani)"]]
 [[div class="scp-image-block block-center" style="width:100%; box-shadow:none;"]]
 [[image https://scp-sandbox-3.wdfiles.com/local--files/collab%3Arewrite-team/h1.png style="width:100%;" link=#]]
 [[/div]]
 [[div class="console regular"]]
 ᴵ am here. I am afraid there is not yet enough knowledge in my brain to fully understand. I am tired and I am tired and I am so close to figuring out it all. I dictate this because I have come to the realization that this small red box is my mind. There are two people here. Me and ████████ and I fear that I will lose to ████████. Carlo was a fool and so are they. Yet again. I do not know how much longer I will be able to push ████████ back but the bigger threat is ᵢₜ. The me occupying me is not ᵢₜ but ᴵᵀ is a part oF ᵢₜ. ᴵᵀ ᶜᵃᴸᴸˢ ᶠᴼᴿ ᴹᴱ
 
-@@    @@i am sorry for god's sake let me go peacefully please let me go why let please please please please please i am carlo giordani i am giordani i am giordani who a re giordani giordani giᴼᴿᴰᴬᴺᴵ ᴳᴵᴼᴿᴰᴬᴺᴵ ᴳᴵᴼᴿᴰᴬᴺᴵ ᴳᴵᴼᴿᴰᴬᴺᴵ
+@@    @@i am sorry for god's sake let me go peacefully please let me go why let please please please please please i am carlo giordani i am giordani i am giordani who a re giordani giordani giᴼᴿᴰᴬᴺᴵ ᴳᴵᴼᴿᴰᴬᴺᴵ ᴳᴵᴼᴿᴰᴬᴺᴵ ᴳᴵᴼᴿᴰᴬᴺᴵ
 
 ᶦᵗ ᵃˡˡ ᶠᵉᵉˡˢ ˡᶦᵏᵉ ᵃ ᵈʳᵉᵃᵐ
 
@@ -584,7 +584,7 @@ Nastasha Di Sanza <---> Enzo Vasta
 [[/div]]
 [[div class="console script"]]
 **INT. - GIORDANI'S FLAT - NIGHT**
- 
+ 
 The kitchen is eclipsed in blues and blacks. A beam of light streaks across the eyes of the journalist, who is looking for a crumpled newspaper. He finds it on the wood table.
 
 Shaking, he brings it up to the light in an attempt to read the headline, not noticing ████████ approaching behind him with an electric drill. We see the headline:
@@ -656,7 +656,7 @@ A fountain of blood. The drill penetrates the forehead of the journalist. He con
 @@ @@
 █I█RD█N█ takes the drill, still activated, and points it at ʰᶦˢ own forehead. A moment.
 
-Blood. The hole in ʰᶦˢ forehead widens, and  laughs. ᵢₜ laughs. Brain matter and bone fragments coat the drill and the floor.
+Blood. The hole in ʰᶦˢ forehead widens, and  laughs. ᵢₜ laughs. Brain matter and bone fragments coat the drill and the floor.
 {{ }}
 [[div class="dialogue"]]
 [[=]]
@@ -675,7 +675,7 @@ Blood. The hole in ʰᶦˢ forehead widens, and  laughs. ᵢₜ laughs. Brain 
 [[/div]]
 [[/collapsible]]
 [[>]]
-##63ff54|{{@@ >  @@edit SCP-6279##}}
+##63ff54|{{@@ >  @@edit SCP-6279##}}
 [[/>]]
 {{ }}
 -----
@@ -700,16 +700,16 @@ SCP-6279-1 is an entity appearing in both 6279 and as a construct in physical re
 [[/div]]
 @@----------------------------@@
 [[>]]
-##63ff54|{{@@ >  @@save draft##}}
+##63ff54|{{@@ >  @@save draft##}}
 [[/>]]
 {{SAVING... SAVING...}}
 {{DRAFT SAVED.}}
 [[>]]
-##63ff54|{{@@ >  @@submit draft##}}
+##63ff54|{{@@ >  @@submit draft##}}
 [[/>]]
 {{SUBMIT FILE TO MAIN DATABASE?}}
 [[>]]
-##63ff54|{{@@ >  @@confirm##}}
+##63ff54|{{@@ >  @@confirm##}}
 [[/>]]
 {{SUBMITTING... SUBMITTING...}}
 {{ERROR SUBMITTING FILE.}}
@@ -719,7 +719,7 @@ SCP-6279-1 is an entity appearing in both 6279 and as a construct in physical re
 {{Please read all documents before}}
 {{closing casefile and ˢᵘᵇᵐᶦᵗᵗᶦⁿᵍ.}}
 [[>]]
-##63ff54|{{@@ >  @@resume -[cmd]:safe-mode##}}
+##63ff54|{{@@ >  @@resume -[cmd]:safe-mode##}}
 [[/>]]
 -----
 [[<]]
@@ -739,13 +739,13 @@ SCP-6279-1 is an entity appearing in both 6279 and as a construct in physical re
 [[/div]]
 [[/collapsible]]
 [[>]]
-##63ff54|{{@@ >  @@-[cmd]:deploy countermeasures##}}
+##63ff54|{{@@ >  @@-[cmd]:deploy countermeasures##}}
 [[/>]]
 {{DEPLOYING COUNTERMEASURES...}}
 @@ @@
 {{COUNTERMEASURES ᶠᴬᴵᴸᴱᴰ.}}
 [[>]]
-##63ff54|{{@@ >  @@-[cmd]:deploy v-mem-ahaz##}}
+##63ff54|{{@@ >  @@-[cmd]:deploy v-mem-ahaz##}}
 [[/>]]
 {{DEPLOYING VIRAL MEMETIC ANTI-HAZARD...}}
 @@ @@
@@ -757,13 +757,13 @@ SCP-6279-1 is an entity appearing in both 6279 and as a construct in physical re
 @@ @@
 @@ @@
 [[>]]
-##63ff54|{{@@ >  @@-[cmd]:delete file SCP-6279##}}
-##63ff54|{{@@ >  @@-[cmd]:revert-to original##}}
+##63ff54|{{@@ >  @@-[cmd]:delete file SCP-6279##}}
+##63ff54|{{@@ >  @@-[cmd]:revert-to original##}}
 [[/>]]
 {{REVERT TO ORIGINAL FILE?}}
 {{THIS CANNOT BE UNDONE.}}
 [[>]]
-##63ff54|{{@@ >  @@-[cmd]:revert -[perm]:admin##}}
+##63ff54|{{@@ >  @@-[cmd]:revert -[perm]:admin##}}
 [[/>]]
 {{REVERTING... REVERTING...}}
 {{REVERSION COMPLETE.}}
@@ -791,7 +791,7 @@ AND ᴵ HAVE MANY CURIOUS THINGS TO SHOW WHEN ##63ff54|ʸᴼᵁ## ARE ₜₕₑ�
 @@----------------------------@@
 @@ @@
 [[>]]
-##63ff54|{{@@ >  @@logout ᵃ. ʳᵃⁿᶦᵉʳᶦ##}}
+##63ff54|{{@@ >  @@logout ᵃ. ʳᵃⁿᶦᵉʳᶦ##}}
 [[/>]]
 {{LOGGING OUT... LOGGING OUT...}}
 {{ERROR!}}

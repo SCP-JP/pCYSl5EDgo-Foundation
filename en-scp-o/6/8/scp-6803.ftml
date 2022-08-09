@@ -17,16 +17,16 @@ And my VKTM article [https://scp-wiki.wikidot.com/scp-5428 SCP-5428 101 Life Hac
 [[include :scp-wiki:component:acs-animation]]
 [[module CSS]]
 :root {
-  --scp-number: '6803';  /*Change the XXXX to whatever number you want, but don't get rid of the apostrophes*/
+  --scp-number: '6803';  /*Change the XXXX to whatever number you want, but don't get rid of the apostrophes*/
 }
 #page-content .collapsible-block-folded .collapsible-block-link::before {
-    content: "▷ ADDENDUM " var(--scp-number) "." counter(collapse);
+    content: "▷ ADDENDUM " var(--scp-number) "." counter(collapse);
 }
 #page-content .collapsible-block-unfolded .collapsible-block-link::before {
-    content: "▽ ADDENDUM " var(--scp-number) "." counter(collapse);
+    content: "▽ ADDENDUM " var(--scp-number) "." counter(collapse);
 }
 #page-content .unfolded-collapse::before {
-    content: "▽ ADDENDUM" var(--scp-number) "." counter(collapse);
+    content: "▽ ADDENDUM" var(--scp-number) "." counter(collapse);
 }
 [[/module]]
 
@@ -133,10 +133,10 @@ As no clear pattern for the manifestation of Columbus events has been discovered
 ------
 
 [[div_ class="center-collapse"]]
-[[collapsible show="Inoculant OH-16" hide="Inoculant OH-16  -  Close"]]
+[[collapsible show="Inoculant OH-16" hide="Inoculant OH-16  -  Close"]]
 Inoculant OH-16 is administered via injection and its effects become noticeable 12 to 18 hours after administration. It has a lifespan within the body of four months after which it must be readministered. OH-16 has the effect of rendering the subject incapable of perceiving any images which depict planet Earth, instead causing said subjects to perceive white featureless squares over the offending vector. As such, use of OH-16 renders the subjects immune to the effects of SCP-6803-A instances. 
 
-The inoculant does have the unfortunate side effect of also  triggering while observing most iconographic depictions of Earth. These include artificial depictions which cannot host SCP-6803. 
+The inoculant does have the unfortunate side effect of also  triggering while observing most iconographic depictions of Earth. These include artificial depictions which cannot host SCP-6803. 
 
 Due to its highly obstructive nature, research into methods to manage the triggers of inoculant OH-16 was deemed an alpha level priority. As a result, SIT (Semantic & Iconographic Training) has allowed individuals to observe most images and objects which fall under the semantic category 'maps' without triggering OH-16. This effect has not been able to be replicated for other semantic categories. 'Maps' which depict Earth in its entirety remain an exception as they are also complete iconographic depictions of Earth.
 
@@ -144,27 +144,27 @@ The following are images to further exemplify which ones may trigger activation 
 
 [[div class="widebox"]]
 [[include component:image-block
-    name=Globe.png|
-    caption= Picture of a globe. Object always triggers inoculant OH-16.|
-    align=left|
+    name=Globe.png|
+    caption= Picture of a globe. Object always triggers inoculant OH-16.|
+    align=left|
 ]]
 
 [[include component:image-block
-    name=Map.png|
-    caption= Map depicting the state of Ohio. Object is only a partial depiction of Earth. Trained individuals do not experience triggering of inoculant OH-16.|
-    align=right|
+    name=Map.png|
+    caption= Map depicting the state of Ohio. Object is only a partial depiction of Earth. Trained individuals do not experience triggering of inoculant OH-16.|
+    align=right|
 ]]
 
 [[include component:image-block
- name=Blue_Dot.png|
-    caption= 'Pale Blue Dot' Resolution too small for triggering of inoculant OH-16 or hosting of SCP-6803.|
-    align=right|
+ name=Blue_Dot.png|
+    caption= 'Pale Blue Dot' Resolution too small for triggering of inoculant OH-16 or hosting of SCP-6803.|
+    align=right|
 ]]
 
 [[include component:image-block
-  name=Vector.png|
-    caption= Vector graphic which depicts Earth. Image always triggers inoculant OH-16.|
-    align=left|
+  name=Vector.png|
+    caption= Vector graphic which depicts Earth. Image always triggers inoculant OH-16.|
+    align=left|
 ]]
 [[/div]]
 ~~~~
@@ -174,7 +174,7 @@ The following are images to further exemplify which ones may trigger activation 
 ------
 
 [[div_ class="center-collapse"]]
-[[collapsible show="SCP-6803-B 065" hide="SCP-6803-B 065  -  Close"]]
+[[collapsible show="SCP-6803-B 065" hide="SCP-6803-B 065  -  Close"]]
 
 On 05/06/2019 an embedded Agent in NASA posing as an astronaut vanished while aboard the ISS (International Space Station). No crew witnessed the event, however they became distressed upon realizing the absence of Agent Alden. Alden had been displaying symptoms of paranoia and therefore the crew of the ISS feared he may have ejected himself from the station, a fear worsened by the fact that no space suits were missing. 
 
@@ -194,12 +194,12 @@ The CRD of Agent Alden was located close to his body, the data within was able t
 ------
 
 [[div class="danke log1"]]
-**__Log 01,__** Agent Alde-    Fuck, its hard to get used to this. Agent Alden here, expedition 60, reporting from the ISS. We -that is Kuznetsov, Thompson and me- left the //Baikonur Cosmodrome// approximately nine hours ago. Our //Soyuz// docked with the station seven hours later. 
+**__Log 01,__** Agent Alde-    Fuck, its hard to get used to this. Agent Alden here, expedition 60, reporting from the ISS. We -that is Kuznetsov, Thompson and me- left the //Baikonur Cosmodrome// approximately nine hours ago. Our //Soyuz// docked with the station seven hours later. 
 
 We met with the three on board -King, Vinograd and Nishimura- and all has gone as expected so far. I suppose half of the crew must always be American right? I mean usually… Anyways.
 
 I’m following the steps of Agent Campbell and many others before me. My instructions are to log any anomalous events and properly amnesticize the rest of the crew if necessary.
- 
+ 
 How am I supposed to do that covertly? I have no idea. It was hard enough to find a secluded spot to record this without looking like an idiot staring blankly at the wa-
 
 Anyways… again…
@@ -233,7 +233,7 @@ Shit, I did it agai-
 [[/div]]
 
 [[div class="danke log1"]]
-**__Log 5,__** Agent Alden. One month down, five to go.  I’d say I miss home, but… yeah. And, I mean, I can still look at it from up here. It looks just as beautiful, probably even more. It also looks more natural, I suppose. 
+**__Log 5,__** Agent Alden. One month down, five to go.  I’d say I miss home, but… yeah. And, I mean, I can still look at it from up here. It looks just as beautiful, probably even more. It also looks more natural, I suppose. 
 
 Odd how one of the best ways to take in the splendor of our planet is to leave it behind. 
 @@ @@
@@ -333,7 +333,7 @@ Frame from video captured by the CRD’s perception field recorder during this l
 
 [[div class="danke log1"]]
 **__Log 17,__** Agent Alden. I have been feeling… a bit different since the last log. I’m not sure why,
- 
+ 
 However, I have confirmed memetic activity within my brain waves, it keeps firing at random. I mean, not random, I'm in the process of researching the pattern.
 [[/div]]
 
@@ -445,7 +445,7 @@ Woah, have I been a fool all along?
 //**[Alden activates the perception field recorder of his CRD]**//
 
 **Alden:** It's so different from what I expected. But somehow… somehow it's still so beautiful.
- 
+ 
 **Unknown:** Always has been.
 
 //**[Error XFV-43215, neurological activity no longer detected.]**//
@@ -489,7 +489,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Header_memecon.png
 > **Author:** [[user AWeirdBird]]
-> **License:**  CC BY-SA 3.0
+> **License:**  CC BY-SA 3.0
 > **Additional Notes:** Created with minor edits to the image below.
 [[/<]]
 =====
@@ -497,7 +497,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Solar system scale.jpg
 > **Author:** Nasa
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** https://commons.wikimedia.org/wiki/File:Solar_system_scale.jpg
 [[/<]]
 =====
@@ -506,7 +506,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Apollo_11_png.png
 > **Author:** [[user AWeirdBird]]
-> **License:**  CC BY-SA 3.0
+> **License:**  CC BY-SA 3.0
 > **Additional Notes:** Created with minor edits to the image below.
 [[/<]]
 =====
@@ -514,7 +514,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** EARTH RISING BEHIND MOON - PHOTOGRAPHED DURING THE APOLLO 11 AND APOLLO 17 MISSIONS - EARTHRISE - NARA - 17470322.jpg
 > **Author:** Nasa
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** https://commons.wikimedia.org/wiki/File:EARTH_RISING_BEHIND_MOON_-_PHOTOGRAPHED_DURING_THE_APOLLO_11_AND_APOLLO_17_MISSIONS_-_EARTHRISE_-_NARA_-_17470322.jpg
 [[/<]]
 =====
@@ -523,7 +523,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Globe.png
 > **Author:** [[user AWeirdBird]]
-> **License:**  CC BY-SA 3.0
+> **License:**  CC BY-SA 3.0
 > **Additional Notes:** Created with minor edits to the image below.
 [[/<]]
 =====
@@ -531,7 +531,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Globe by Joan Blaeu.jpg
 > **Author:** Amsterdam Museum
-> **License:**  CC BY-SA 3.0
+> **License:**  CC BY-SA 3.0
 > **Source Link:** https://commons.wikimedia.org/wiki/File:Globe_by_Joan_Blaeu.jpg
 [[/<]]
 =====
@@ -540,7 +540,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Map.png
 > **Author:** Dodd, Mead, and Company
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** https://commons.wikimedia.org/wiki/File:Map_of_Ohio.jpg
 [[/<]]
 =====
@@ -549,7 +549,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Vector.png
 > **Author:** [[user AWeirdBird]]
-> **License:**  CC BY-SA 3.0
+> **License:**  CC BY-SA 3.0
 > **Additional Notes:** Created with minor edits to the image below.
 [[/<]]
 =====
@@ -557,7 +557,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Globe1.svg
 > **Author:** RRZEicons
-> **License:**  CC BY-SA 3.0
+> **License:**  CC BY-SA 3.0
 > **Source Link:** https://commons.wikimedia.org/wiki/File:Globe1.svg
 [[/<]]
 =====
@@ -566,7 +566,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Blue_Dot.png
 > **Author:** Nasa
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** https://commons.wikimedia.org/wiki/File:PaleBlueDot.jpg
 [[/<]]
 =====
@@ -575,7 +575,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Iss.png
 > **Author:** Nasa
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** https://commons.wikimedia.org/wiki/File:STS-131_Discovery_flies_around_1.jpg
 [[/<]]
 =====
@@ -584,7 +584,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Cupola.png
 > **Author:** [[user AWeirdBird]]
-> **License:**  CC BY-SA 3.0
+> **License:**  CC BY-SA 3.0
 > **Additional Notes:** Created with edits to the images below.
 [[/<]]
 =====
@@ -592,7 +592,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Cupola ISS open shutters.jpg
 > **Author:** Nasa
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** https://commons.wikimedia.org/wiki/File:Cupola_ISS_open_shutters.jpg
 [[/<]]
 =====
@@ -600,7 +600,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Aurora australis ISS 20120715.jpg
 > **Author:** Joe Acaba, Nasa
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** https://commons.wikimedia.org/wiki/File:Aurora_australis_ISS_20120715.jpg
 [[/<]]
 =====
@@ -609,7 +609,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Spacewalk.png
 > **Author:** [[user AWeirdBird]]
-> **License:**  CC BY-SA 3.0
+> **License:**  CC BY-SA 3.0
 > **Additional Notes:** Created with edits to the images below.
 [[/<]]
 =====
@@ -617,7 +617,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** International Space Station during first AMS spacewalk ESA21792595.jpeg
 > **Author:** European Space Agency
-> **License:**  CC BY-SA 3.0 IGO
+> **License:**  CC BY-SA 3.0 IGO
 > **Source Link:** https://commons.wikimedia.org/wiki/File:International_Space_Station_during_first_AMS_spacewalk_ESA21792595.jpeg
 [[/<]]
 =====
@@ -625,7 +625,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** FP2A3460 (23497690228).jpg
 > **Author:** Музей Космонавтики
-> **License:**  CC0 1.0
+> **License:**  CC0 1.0
 > **Source Link:** https://commons.wikimedia.org/wiki/File:FP2A3460_(23497690228).jpg
 [[/<]]
 =====
@@ -634,7 +634,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** True_Earth.gif
 > **Author:** [[user AWeirdBird]]
-> **License:**  CC BY-SA 3.0
+> **License:**  CC BY-SA 3.0
 > **Additional Notes:** Created in Blender, with edits to the images below.
 [[/<]]
 =====
@@ -642,7 +642,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** Blue Marble: Clouds
 > **Author:** Nasa
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** https://visibleearth.nasa.gov/images/57747/blue-marble-clouds
 > **Additional Notes:** Image Use Policy https://visibleearth.nasa.gov/image-use-policy
 [[/<]]
@@ -651,7 +651,7 @@ The last frame captured by the CRD.
 [[<]]
 > **Filename:** The Great Lakes region and Mid-Atlantic United States
 > **Author:** Nasa
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** https://visibleearth.nasa.gov/images/59378/the-great-lakes-region-and-mid-atlantic-united-states
 > **Additional Notes:** Image Use Policy https://visibleearth.nasa.gov/image-use-policy
 [[/<]]

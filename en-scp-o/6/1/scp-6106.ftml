@@ -6,73 +6,73 @@
 [[module CSS]]
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
-    /* black shadow at the top of the terminal */
-    background-image: 
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
-    /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
-    /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
+    /* black shadow at the top of the terminal */
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
+    /* shadow around the terminal */
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    /* prevents scanline from forming a scrollwheel */
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
-    content: "> ";
+    content: "> ";
 }
 [[/module]]
 
@@ -107,9 +107,9 @@ Welcome, %%name%%.
 @@ @@
 [[/div]]
 [[/div]]
- _
- _
- _
+ _
+ _
+ _
 [[include :scp-wiki:theme:black-highlighter-theme]]
 [[include component:ratio-bar base=-- |ex=--]]
 [[include :scp-wiki:component:betterfootnotes]]
@@ -151,7 +151,7 @@ If observers express suspicion about SCP-6106's hiding spot, or if it determines
 A current list of media that have hosted SCP-6106 is as follows:
 
 ||~ Host medium ||~ Location ||~ Approx. time spent ||~ Suspected death toll ||
-||< The Bible ||< St ██████'s Church, ██████████████████, England ||< //unknown//  – 2002 ||< Unknown ||
+||< The Bible ||< St ██████'s Church, ██████████████████, England ||< //unknown//  – 2002 ||< Unknown ||
 ||< //Gray's Anatomy// (hardback) ||< ██████████████████, England ||< 2002 – 2004 ||< 1 ||
 ||< Dan Brown, //The Da Vinci Code// (paperback) ||< ██████████, Scotland ||< 2004 – September 2007 ||< 2 ||
 ||< J. K. Rowling, //Harry Potter and the Prisoner of Azkaban// (paperback) ||< █████████, England ||< September 2007 – November 2007 ||< 1 ||
@@ -171,12 +171,12 @@ Notably, the camouflage is so informative about SCP-6106 that it routinely inclu
 
 However, by the time the reader realizes this, it is usually far too late.
 
- _
- _
- _
- _
- _
- _
+ _
+ _
+ _
+ _
+ _
+ _
 [[div class="terminal"]]
 [[div class="scanline"]]
 [[/div]]

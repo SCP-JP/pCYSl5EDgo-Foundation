@@ -2,41 +2,41 @@
 
 [[module CSS]]
 div#container-wrap {
-    background: url() top left repeat-x;
-    background-size: 100%;
+    background: url() top left repeat-x;
+    background-size: 100%;
 }
 
 .byline{
-     display: flex;
-     margin-top: -.33rem;
- 
-     font-size: 85%;
-     text-align: center;
+     display: flex;
+     margin-top: -.33rem;
+ 
+     font-size: 85%;
+     text-align: center;
 }
- .byline p{
-     display: flex;
-     flex-direction: column;
-     max-width: 50%;
-     margin: auto;
- 
-     line-height: 0;
+ .byline p{
+     display: flex;
+     flex-direction: column;
+     max-width: 50%;
+     margin: auto;
+ 
+     line-height: 0;
 }
- .byline span:nth-of-type(1):before,
- .byline span:nth-of-type(2):before{
-     padding-right: .27rem;
- 
-     color: var(--accentColor);
- 
-     font: 135%/1 "Lucida Sans Unicode", "Lucida Grande", "Arial Unicode MS", sans-serif;
+ .byline span:nth-of-type(1):before,
+ .byline span:nth-of-type(2):before{
+     padding-right: .27rem;
+ 
+     color: var(--accentColor);
+ 
+     font: 135%/1 "Lucida Sans Unicode", "Lucida Grande", "Arial Unicode MS", sans-serif;
 }
- .byline span:nth-of-type(1):before{
-     content: "✒"
+ .byline span:nth-of-type(1):before{
+     content: "✒"
 }
- .byline span:nth-of-type(2):before{
-     content: "⧗"
+ .byline span:nth-of-type(2):before{
+     content: "⧗"
 }
- .byline span:nth-of-type(2):after{
-     content: "-min read"
+ .byline span:nth-of-type(2):after{
+     content: "-min read"
 }
 
 [[/module]]

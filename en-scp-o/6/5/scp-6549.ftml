@@ -22,9 +22,9 @@
 ]]
 [[module CSS]]
 :root {
-  --accentColor: 25, 145, 255;
-  --darkColor: 20, 20, 20;
-  --fnColor: var(--accentColor);
+  --accentColor: 25, 145, 255;
+  --darkColor: 20, 20, 20;
+  --fnColor: var(--accentColor);
 }
 
 div#extrac-div-1, div#extrac-div-2 {
@@ -32,17 +32,17 @@ display: none;
 }
 
 .modalbox {
-    box-shadow: 0 1px 10px hsl(353deg 100% 38%) !important;
+    box-shadow: 0 1px 10px hsl(353deg 100% 38%) !important;
 }
 
 .blbf-main > div::before {
-    top: -0.5rem;
-    left: -0.35em;
+    top: -0.5rem;
+    left: -0.35em;
 }
 
 .blbf-main > div {
-    border: 0.50rem rgb(var(--swatch-primary-darkest,144,25,1)) solid;
-    margin-left: auto;
+    border: 0.50rem rgb(var(--swatch-primary-darkest,144,25,1)) solid;
+    margin-left: auto;
 }
 [[/module]]
 [[module CSS]]
@@ -155,7 +155,7 @@ display: none;
 > 
 > //[There is silence for a moment. A sheaf of papers can be heard being rifled through.]//
 > 
->  **Control:** Negative, Team One. You're clear to proceed. 
+>  **Control:** Negative, Team One. You're clear to proceed. 
 > 
 > **Malcolm:** Copy. 
 > 

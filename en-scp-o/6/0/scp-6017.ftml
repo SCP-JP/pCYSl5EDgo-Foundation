@@ -18,7 +18,7 @@
 #A1, #A2, #A2i, #A2ii, #A2int1, #A2int2, #A1a, #A1a1, #A1aT1, #A1aT2, #A1b, #A1b1, #A1bT1, #A1bT2, #A1c, #A1c1, #A1cT1, #A1d, #A1d1, #A1dT1, #A1dT2, #A1dL, #A2dL {line-height: 150%; text-align: justify; text-justify: inter-word; font-family: Arial, Helvetica, sans-serif; font-size: medium;}
 
 .CENI {display: block; margin-left: auto; margin-right: auto; width: 75%; border: 2px solid rgb(38,170,38);}
-.CEN {font-family: Arial, Helvetica, sans-serif; font-size: large; text-align: center;  text-justify: inter-word;}
+.CEN {font-family: Arial, Helvetica, sans-serif; font-size: large; text-align: center;  text-justify: inter-word;}
 .CENT {margin-left: 43.5%; margin-right:auto; font-family: Arial, Helvetica, sans-serif; font-size: medium;}
 .CENB {display: flex; justify-content: center; align-items: center;}
 .CENM {display: flex; justify-content: center; align-items: center; background-color:rgb(230,191,191); line-height: 250%;font-family: Arial, Helvetica, sans-serif; font-size: large; width: 100%;}
@@ -43,7 +43,7 @@
 .TSH {-webkit-user-select: none; -ms-user-select: none; -webkit-animation: fadein 120s linear 1 normal forwards; line-height: 150%; text-align: center; text-justify: inter-word; font-family: Arial, Helvetica, sans-serif; font-size: medium; user-select: none;}
 @-webkit-keyframes fadein{from{opacity: 0;}to{opacity: 1;}}
 
-.tgT1  {border-collapse:collapse;border-spacing:0;}
+.tgT1  {border-collapse:collapse;border-spacing:0;}
 .tgT1 td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:medium;overflow:hidden;padding:5px 5px;word-break:normal;}
 .tgT1 th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:medium;font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
 .tgT1 .tgT1-2sho{background-color:rgb(191,191,191);border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;;font-size:medium;text-align:center;vertical-align:top}
@@ -56,14 +56,14 @@
 
 <div id="S1">
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/1.jpg" alt="Photo 1" class="CENI" title="Photo 1">
-<p  class="CEN">What do you see in the picture?</p>
+<p  class="CEN">What do you see in the picture?</p>
 <table id="T1" class="CENT">
-    <tr> <td><label class="CON"> Neglect <input id="chk11" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Logs <input id="chk12" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Clearing <input id="chk13" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Soil <input id="chk14" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Leaves <input id="chk15" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Sticks <input id="chk16" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Neglect <input id="chk11" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Logs <input id="chk12" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Clearing <input id="chk13" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Soil <input id="chk14" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Leaves <input id="chk15" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Sticks <input id="chk16" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
 </table>
 <br>
 <span class="CENB">
@@ -75,12 +75,12 @@
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/2.jpg" alt="Photo 2" class="CENI" title="Photo 2">
 <p class="CEN">Which of these things is in the photo?</p>
 <table id="T2I" class="CENT">
-    <tr> <td><label class="CON"> Sand <input id="chk2i1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Ant <input id="chk2i2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Needles <input id="chk2i3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Ground <input id="chk2i4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Sprouts <input id="chk2i5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Seeds <input id="chk2i6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Sand <input id="chk2i1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Ant <input id="chk2i2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Needles <input id="chk2i3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Ground <input id="chk2i4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Sprouts <input id="chk2i5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Seeds <input id="chk2i6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
 </table>
 <br>
 <span class="CENB">
@@ -92,12 +92,12 @@
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/2.jpg" alt="Photo 2" class="CENI" title="Photo 2">
 <p class="CEN">Which of these things is in the photo?</p>
 <table id="T2II" class="CENT">
-    <tr> <td><label class="CON"> Sand <input id="chk2ii1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Ant <input id="chk2ii2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Needles <input id="chk2ii3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Ground <input id="chk2ii4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Sprouts <input id="chk2ii5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Seeds <input id="chk2ii6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Sand <input id="chk2ii1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Ant <input id="chk2ii2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Needles <input id="chk2ii3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Ground <input id="chk2ii4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Sprouts <input id="chk2ii5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Seeds <input id="chk2ii6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
 </table>
 <br>
 <span class="CENB">
@@ -109,12 +109,12 @@
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/3.jpg" alt="Photo 3" class="CENI" title="Photo 3">
 <p class="CEN">What can you find in this image?</p>
 <table id="T3I" class="CENT">
-    <tr> <td><label class="CON"> Forest <input id="chk3i1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Bushes <input id="chk3i2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Trees <input id="chk3i3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Clouds <input id="chk3i4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Track <input id="chk3i5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Sky <input id="chk3i6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Forest <input id="chk3i1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Bushes <input id="chk3i2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Trees <input id="chk3i3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Clouds <input id="chk3i4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Track <input id="chk3i5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Sky <input id="chk3i6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
 </table>
 <br>
 <span class="CENB">
@@ -126,12 +126,12 @@
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/3.jpg" alt="Photo 3" class="CENI" title="Photo 3">
 <p class="CEN">What can you find in this image?</p>
 <table id="T3II" class="CENT">
-    <tr> <td><label class="CON"> Forest <input id="chk3ii1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Bushes <input id="chk3ii2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Trees <input id="chk3ii3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Clouds <input id="chk3ii4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Track <input id="chk3ii5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Sky <input id="chk3ii6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Forest <input id="chk3ii1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Bushes <input id="chk3ii2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Trees <input id="chk3ii3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Clouds <input id="chk3ii4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Track <input id="chk3ii5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Sky <input id="chk3ii6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
 </table>
 <br>
 <span class="CENB">
@@ -143,12 +143,12 @@
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/4.jpg" alt="Photo 4" class="CENI" title="Photo 4">
 <p class="CEN">What can you spot in this picture?</p>
 <table id="T4I" class="CENT">
-    <tr> <td><label class="CON"> Path <input id="chk4i1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Twigs <input id="chk4i2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Greenery <input id="chk4i3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Undergrowth <input id="chk4i4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Branches <input id="chk4i5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Fork <input id="chk4i6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Path <input id="chk4i1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Twigs <input id="chk4i2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Greenery <input id="chk4i3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Undergrowth <input id="chk4i4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Branches <input id="chk4i5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Fork <input id="chk4i6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
 </table>
 <br>
 <span class="CENB">
@@ -160,12 +160,12 @@
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/4.jpg" alt="Photo 4" class="CENI" title="Photo 4">
 <p class="CEN">What can you spot in this picture?</p>
 <table id="T4II" class="CENT">
-    <tr> <td><label class="CON"> Path <input id="chk4ii1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Twigs <input id="chk4ii2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Greenery <input id="chk4ii3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Undergrowth <input id="chk4ii4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Branches <input id="chk4ii5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Fork <input id="chk4ii6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Path <input id="chk4ii1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Twigs <input id="chk4ii2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Greenery <input id="chk4ii3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Undergrowth <input id="chk4ii4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Branches <input id="chk4ii5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Fork <input id="chk4ii6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
 </table>
 <br>
 <span class="CENB">
@@ -177,12 +177,12 @@
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/5.jpg" alt="Photo 5" class="CENI" title="Photo 5">
 <p class="CEN">What do you notice in this photo?</p>
 <table id="T5I" class="CENT">
-    <tr> <td><label class="CON"> Shed <input id="chk5i1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Fence <input id="chk5i2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Vines <input id="chk5i3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Wheelbarrow <input id="chk5i4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Rake <input id="chk5i5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Horseshoes <input id="chk5i6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Shed <input id="chk5i1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Fence <input id="chk5i2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Vines <input id="chk5i3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Wheelbarrow <input id="chk5i4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Rake <input id="chk5i5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Horseshoes <input id="chk5i6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
 </table>
 <br>
 <span class="CENB">
@@ -194,12 +194,12 @@
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/5.jpg" alt="Photo 5" class="CENI" title="Photo 5">
 <p class="CEN">What do you notice in this photo?</p>
 <table id="T5II" class="CENT">
-    <tr> <td><label class="CON"> Shed <input id="chk5ii1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Fence <input id="chk5ii2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Vines <input id="chk5ii3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Wheelbarrow <input id="chk5ii4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Rake <input id="chk5ii5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Horseshoes <input id="chk5ii6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Shed <input id="chk5ii1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Fence <input id="chk5ii2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Vines <input id="chk5ii3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Wheelbarrow <input id="chk5ii4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Rake <input id="chk5ii5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Horseshoes <input id="chk5ii6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
 </table>
 <br>
 <span class="CENB">
@@ -211,12 +211,12 @@
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/6.jpg" alt="Photo 6" class="CENI" title="Photo 6">
 <p class="CEN">What can you perceive in this image?</p>
 <table id="T6I" class="CENT">
-    <tr> <td><label class="CON"> Pavement <input id="chk6i1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Grass <input id="chk6i2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Pole <input id="chk6i3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Shadow <input id="chk6i4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Plants <input id="chk6i5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Earth <input id="chk6i6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Pavement <input id="chk6i1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Grass <input id="chk6i2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Pole <input id="chk6i3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Shadow <input id="chk6i4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Plants <input id="chk6i5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Earth <input id="chk6i6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
 </table>
 <br>
 <span class="CENB">
@@ -228,12 +228,12 @@
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/6.jpg" alt="Photo 6" class="CENI" title="Photo 6">
 <p class="CEN">What can you perceive in this image?</p>
 <table id="T6II" class="CENT">
-    <tr> <td><label class="CON"> Pavement <input id="chk6ii1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Grass <input id="chk6ii2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Pole <input id="chk6ii3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Shadow <input id="chk6ii4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Plants <input id="chk6ii5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
-    <tr> <td><label class="CON"> Earth <input id="chk6ii6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Pavement <input id="chk6ii1" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Grass <input id="chk6ii2" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Pole <input id="chk6ii3" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Shadow <input id="chk6ii4" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Plants <input id="chk6ii5" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
+    <tr> <td><label class="CON"> Earth <input id="chk6ii6" type="checkbox"> <span class="CHM"></span> </label></td> </tr>
 </table>
 <br>
 <span class="CENB">
@@ -254,7 +254,7 @@
 <p><b>Object Class:</b> Thaumiel</p>
 <figure style="border: solid 1px;float: right; width:40%;">
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/8.svg" alt="Annual increase in the occurrence of anomalies." title="Annual increase in the occurrence of anomalies." style="width:100%; height:auto;">
-<figcaption  style="font-family: Arial, Helvetica, sans-serif; font-size: small; padding: 5px;text-align:center;">Annual increase in the occurrence of anomalies.</figcaption>
+<figcaption  style="font-family: Arial, Helvetica, sans-serif; font-size: small; padding: 5px;text-align:center;">Annual increase in the occurrence of anomalies.</figcaption>
 </figure>
 <p><b>Special Containment Procedures:</b> Information about the true character of SCP<span>&#8209;</span>6017 is accessible only by members of Project Mower and O5 council. Falsified SCP<span>&#8209;</span>6017 (designation SCP<span>&#8209;</span>6017F) entry to database based on the incident PM/I/30.09.2017 has been provided to conceal vital to Project Mower anomaly. Such precautionary measures allowed partial disclosure of Project Mower, while also providing substantiation for its existence and allocated resources.
 <br>
@@ -269,7 +269,7 @@ SCP<span>&#8209;</span>6017 affects all self-conscious intelligent beings, howev
 <br>
 <figure style="border: solid 1px;float: right; width:40%;">
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/9.svg" alt="Simplified theory of super-reality." title="Simplified theory of super-reality." style="width:100%; height:auto;">
-<figcaption  style="font-family: Arial, Helvetica, sans-serif; font-size: small; padding: 5px; text-align:center;">Simplified theory of super-reality.</figcaption>
+<figcaption  style="font-family: Arial, Helvetica, sans-serif; font-size: small; padding: 5px; text-align:center;">Simplified theory of super-reality.</figcaption>
 </figure>
 Currently, utilized by Project Mower method of classification in controlled populations is based on a checkbox quiz appropriately modified with memetic agents combined with amnestics prepared by personnel under strongest SCP<span>&#8209;</span>6017 influence. All beings affected by SCP<span>&#8209;</span>6017 are categorised and assigned to one of three groups characterised based on strength of anomaly influence: S1 “standard”, S2 “salient” and S3 “supreme”. Any given population is expected to be composed of about 95% S1 group, whereas the remaining 5% is divided between S2 standing for roughly 99 percentage points and S3. With rapid growth of anomalous activity in this universe it has been concluded that an increased population of “salient” and “supreme” individuals would greatly improve humanity's chances of survival. For that reason Foundation places immense value on cooperation with S3 class individuals, who are paramount to fully comprehend SCP<span>&#8209;</span>6017 effect. As for 25.05.2021, our organisation has in its ranks <span class="TSC">009</span> of such beings in prominent positions in Project Mower and O5 council.
 <br>
@@ -299,92 +299,92 @@ For research on creating beings under SCP<span>&#8209;</span>6017 influence Proj
 <col style="width: 18.75%">
 </colgroup>
 <thead>
-  <tr>
-    <th class="tgT1-2sho">Council Member</th>
-    <th class="tgT1-2sho">For Proposal</th>
-    <th class="tgT1-2sho">Against Proposal</th>
-    <th class="tgT1-2sho">Absent</th>
-  </tr>
+  <tr>
+    <th class="tgT1-2sho">Council Member</th>
+    <th class="tgT1-2sho">For Proposal</th>
+    <th class="tgT1-2sho">Against Proposal</th>
+    <th class="tgT1-2sho">Absent</th>
+  </tr>
 </thead>
 <tbody>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-1</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-2</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-3</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-4</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-5</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-6</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-7</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-8</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-9</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-10</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-11</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-12</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-13</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-1</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-2</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-3</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-4</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-5</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-6</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-7</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-8</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-9</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-10</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-11</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-12</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-13</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+  </tr>
 </tbody>
 </table>
 </div>
@@ -414,92 +414,92 @@ For research on creating beings under SCP<span>&#8209;</span>6017 influence Proj
 <col style="width: 18.75%">
 </colgroup>
 <thead>
-  <tr>
-    <th class="tgT1-2sho">Council Member</th>
-    <th class="tgT1-2sho">For Proposal</th>
-    <th class="tgT1-2sho">Against Proposal</th>
-    <th class="tgT1-2sho">Absent</th>
-  </tr>
+  <tr>
+    <th class="tgT1-2sho">Council Member</th>
+    <th class="tgT1-2sho">For Proposal</th>
+    <th class="tgT1-2sho">Against Proposal</th>
+    <th class="tgT1-2sho">Absent</th>
+  </tr>
 </thead>
 <tbody>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-1</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-2</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-3</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-4</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-5</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-6</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-7</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-8</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-9</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-10</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-11</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-12</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-13</span></td>
-    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
-    <td class="tgT1-c3ow"></td>
-    <td class="tgT1-c3ow"></td>
-  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-1</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-2</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-3</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-4</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-5</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-6</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-7</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-8</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-9</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-10</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-11</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-12</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">O5-13</span></td>
+    <td class="tgT1-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">x</span></td>
+    <td class="tgT1-c3ow"></td>
+    <td class="tgT1-c3ow"></td>
+  </tr>
 </tbody>
 </table>
 </div>
@@ -563,7 +563,7 @@ Welcome on board. We are glad to have You with us in this troubling times, with 
 </div>
 
 <div id="A1dL" hidden>
-<p  class="TSL" onclick="SCPF()" title="Open falsyfied file.">Display content of SCP-6017F.</p>
+<p  class="TSL" onclick="SCPF()" title="Open falsyfied file.">Display content of SCP-6017F.</p>
 </div>
 
 </div>
@@ -571,7 +571,7 @@ Welcome on board. We are glad to have You with us in this troubling times, with 
 <div>
 
 <div id="A2dL" hidden>
-<p  class="TSL" onclick="SCPT()" title="Open true file.">ATTENTION - You are watching a falsified SCP<span>&#8209;</span>6017 entry, to see the true file click here!</p>
+<p  class="TSL" onclick="SCPT()" title="Open true file.">ATTENTION - You are watching a falsified SCP<span>&#8209;</span>6017 entry, to see the true file click here!</p>
 </div>
 
 <div id="A2" hidden>
@@ -579,7 +579,7 @@ Welcome on board. We are glad to have You with us in this troubling times, with 
 <p><b>Object Class:</b> Euclid</p>
 <figure style="border: solid 1px;float: right; width:40%;">
 <img src="http://scp-wiki.wikidot.com/local--files/scp-6017/7.jpg" alt="Picture from the last catalogued slide." title="Picture from the last catalogued slide." style="width:100%; height:auto;">
-<figcaption  style="font-family: Arial, Helvetica, sans-serif; font-size: small; padding: 5px;text-align:center;">Picture from the last catalogued slide.</figcaption>
+<figcaption  style="font-family: Arial, Helvetica, sans-serif; font-size: small; padding: 5px;text-align:center;">Picture from the last catalogued slide.</figcaption>
 </figure>
 <p><b>Special Containment Procedures:</b> It is currently impossible to determine the source of SCP<span>&#8209;</span>6017 and as such fully contain this anomaly. For that reason any Foundation employee with access to the central SCP database should be familiarized with this file.
 <br>
@@ -592,7 +592,7 @@ SCP<span>&#8209;</span>6017 manifestations can be detected and redirected from b
 SCP<span>&#8209;</span>6017 only appears on devices connected to the central SCP database and takes the form of a multiple-choice quiz. It consists of various panels composed of photos, corresponding questions regarding widely understood ecological knowledge and six checkbox answers. Selecting at least one checkbox is necessary to proceed onto the next slide. Total of <span class="TSC">0010000</span> individual panels had been catalogued by Project Mower, further research has been deemed ineffectual. Questions appear in a fixed order and are universally shared between all SCP<span>&#8209;</span>6017 manifestations, however it is impossible to determine which of the given answers are correct. All of the strongly affected by prolonged interaction with anomaly express believe that answers will be verified after completion of the quiz.
 <br>
 <br>
-SCP<span>&#8209;</span>6017 possesses mild memetic influence on humans that gradually increases in intensity on further slides.  Affected subjects gradually find themselves under compulsion to interact with anomalous quiz. For 99,7% of the tested population, symptoms of this effect are starting to be noticeable at panel 15 and slide 500 marks the point where the urge to complete SCP<span>&#8209;</span>6017 manifestation becomes irresistible. By that time, affected subject stops responding to any stimulus other than a quiz and may react aggressively at attempts of separation from the anomaly. Without help humans under memetic effect of SCP<span>&#8209;</span>6017 manifestations would surely perish, however full recovery is possible with appropriate care.
+SCP<span>&#8209;</span>6017 possesses mild memetic influence on humans that gradually increases in intensity on further slides.  Affected subjects gradually find themselves under compulsion to interact with anomalous quiz. For 99,7% of the tested population, symptoms of this effect are starting to be noticeable at panel 15 and slide 500 marks the point where the urge to complete SCP<span>&#8209;</span>6017 manifestation becomes irresistible. By that time, affected subject stops responding to any stimulus other than a quiz and may react aggressively at attempts of separation from the anomaly. Without help humans under memetic effect of SCP<span>&#8209;</span>6017 manifestations would surely perish, however full recovery is possible with appropriate care.
 </p>
 </div>
 
@@ -643,275 +643,275 @@ SCP<span>&#8209;</span>6017 possesses mild memetic influence on humans that grad
 </div>
 
 <script type="text/javascript">
-    function F1() {
-        var checked = 0;
-        var T1 = document.getElementById("T1");
-        var chks = T1.getElementsByTagName("INPUT");
-    	var S1 = document.getElementById("S1");
-    	var S2I = document.getElementById("S2I");
-    	var S2II = document.getElementById("S2II");
-    	var INF = document.getElementById("INF");
-        for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {checked++;}
-        }
-        if (checked < 1){INF.hidden=false;} 
-    	else if (checked > 5){S1.hidden = true; S2I.hidden = false; INF.hidden=true;}
-    	else {S1.hidden = true; S2II.hidden = false; INF.hidden=true;}
-    };
-        function F2I() {
-        var checked = 0;
-        var T2I = document.getElementById("T2I");
-        var chks = T2I.getElementsByTagName("INPUT");
-    	var S2I = document.getElementById("S2I");
-    	var S3I = document.getElementById("S3I");
-    	var S3II = document.getElementById("S3II");
-    	var INF = document.getElementById("INF");
-        for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {checked++;}
-        }
-        if (checked < 1){INF.hidden=false;} 
-    	else if (checked > 5){S2I.hidden = true; S3I.hidden = false; INF.hidden=true;}
-    	else {S2I.hidden = true; S3II.hidden = false; INF.hidden=true;}
-    };
-        function F2II() {
-        var checked = 0;
-        var T2II = document.getElementById("T2II");
-        var chks = T2II.getElementsByTagName("INPUT");
-    	var S2II = document.getElementById("S2II");
-    	var S3II = document.getElementById("S3II");
-    	var INF = document.getElementById("INF");
-        for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {checked++;}
-        }
-        if (checked < 1){INF.hidden=false;}
-    	else {S2II.hidden = true; S3II.hidden = false; INF.hidden=true;}
-    };
-    function F3I() {
-        var checked = 0;
-        var T3I = document.getElementById("T3I");
-        var chks = T3I.getElementsByTagName("INPUT");
-    	var S3I = document.getElementById("S3I");
-    	var S4I = document.getElementById("S4I");
-    	var S4II = document.getElementById("S4II");
-    	var INF = document.getElementById("INF");
-        for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {checked++;}
-        }
-        if (checked < 1){INF.hidden=false;} 
-    	else if (checked > 5){S3I.hidden = true; S4I.hidden = false; INF.hidden=true;}
-    	else {S3I.hidden = true; S4II.hidden = false; INF.hidden=true;}
-    };
-        function F3II() {
-        var checked = 0;
-        var T3II = document.getElementById("T3II");
-        var chks = T3II.getElementsByTagName("INPUT");
-    	var S3II = document.getElementById("S3II");
-    	var S4II = document.getElementById("S4II");
-    	var INF = document.getElementById("INF");
-        for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {checked++;}
-        }
-        if (checked < 1){INF.hidden=false;}
-    	else {S3II.hidden = true; S4II.hidden = false; INF.hidden=true;}
-    };
-        function F4I() {
-        var checked = 0;
-        var T4I = document.getElementById("T4I");
-        var chks = T4I.getElementsByTagName("INPUT");
-    	var S4I = document.getElementById("S4I");
-    	var S5I = document.getElementById("S5I");
-    	var S5II = document.getElementById("S5II");
-    	var INF = document.getElementById("INF");
-        for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {checked++;}
-        }
-        if (checked < 1){INF.hidden=false;} 
-    	else if (checked > 5){S4I.hidden = true; S5I.hidden = false; INF.hidden=true;}
-    	else {S4I.hidden = true; S5II.hidden = false; INF.hidden=true;}
-    };
-        function F4II() {
-        var checked = 0;
-        var T4II = document.getElementById("T4II");
-        var chks = T4II.getElementsByTagName("INPUT");
-    	var S4II = document.getElementById("S4II");
-    	var S5II = document.getElementById("S5II");
-    	var INF = document.getElementById("INF");
-        for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {checked++;}
-        }
-        if (checked < 1){INF.hidden=false;}
-    	else {S4II.hidden = true; S5II.hidden = false; INF.hidden=true;}
-    };
-        function F5I() {
-        var checked = 0;
-        var T5I = document.getElementById("T5I");
-        var chks = T5I.getElementsByTagName("INPUT");
-    	var S5I = document.getElementById("S5I");
-    	var S6I = document.getElementById("S6I");
-    	var S6II = document.getElementById("S6II");
-    	var INF = document.getElementById("INF");
-        for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {checked++;}
-        }
-        if (checked < 1) {INF.hidden=false;} 
-    	else if (checked > 5){S5I.hidden = true; S6I.hidden = false; INF.hidden=true;}
-    	else {S5I.hidden = true; S6II.hidden = false; INF.hidden=true;}
-    };
-        function F5II() {
-        var checked = 0;
-        var T5II = document.getElementById("T5II");
-        var chks = T5II.getElementsByTagName("INPUT");
-    	var S5II = document.getElementById("S5II");
-    	var S6II = document.getElementById("S6II");
-    	var INF = document.getElementById("INF");
-        for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {checked++;}
-        }
-        if (checked < 1) {INF.hidden=false;}
-    	else {S5II.hidden = true; S6II.hidden = false; INF.hidden=true;}
-    };
-        function F6I() {
-        var checked = 0;
-        var T6I = document.getElementById("T6I");
-        var chks = T6I.getElementsByTagName("INPUT");
-    	var S6I = document.getElementById("S6I");
-    	var A1 = document.getElementById("A1");
-    	var A2 = document.getElementById("A2");
-    	var A2i = document.getElementById("A2i");
-    	var INF = document.getElementById("INF");
-    	var A1a = document.getElementById("A1a");
-    	var A1b = document.getElementById("A1b");
-    	var A1c = document.getElementById("A1c");
-    	var A1d = document.getElementById("A1d");
-        for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {checked++;}
-        }
-        if (checked < 1) {INF.hidden=false;} 
-    	else if (checked > 5){S6I.hidden = true; A1.hidden = false; A1a.hidden = false; A1b.hidden = false; A1c.hidden = false; A1d.hidden = false; INF.hidden=true;}
-    	else {S6I.hidden = true; A2.hidden = false; A2i.hidden = false; INF.hidden=true;}
-    };
-        function F6II() {
-        var checked = 0;
-        var T6II = document.getElementById("T6II");
-        var chks = T6II.getElementsByTagName("INPUT");
-    	var S6II = document.getElementById("S6II");
-    	var A2 = document.getElementById("A2");
-    	var A2i = document.getElementById("A2i");
-    	var INF = document.getElementById("INF");
-    	var A2h = document.getElementById("A2h");
-        for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {checked++;}
-        }
-        if (checked < 1) {INF.hidden=false;}
-    	else {S6II.hidden = true; A2.hidden = false; A2i.hidden = false; A2h.hidden = false; INF.hidden=true;}
-    };
-    function sA2i() {
-    	document.getElementById("A2i").hidden = true;
-    	document.getElementById("A2ii").hidden = false;
-    	document.getElementById("A2int1").hidden = false;
-    	document.getElementById("A2intW").hidden = false;
-    	document.getElementById("A2int2").hidden = false;
-    };
-    function hA2ii() {
-    	document.getElementById("A2i").hidden = false;
-    	document.getElementById("A2ii").hidden = true;
-    	document.getElementById("A2int1").hidden = true;
-    	document.getElementById("A2intW").hidden = true;
-    	document.getElementById("A2int2").hidden = true;
-    };
-        function sA1a() {
-    	document.getElementById("A1a").hidden = true;
-    	document.getElementById("A1a1").hidden = false;
-    	document.getElementById("A1aT1").hidden = false;
-    	document.getElementById("A1aT2").hidden = false;
-    	document.getElementById("A1aTAB").hidden = false;
-    };
-    function hA1a1() {
-    	document.getElementById("A1a").hidden = false;
-    	document.getElementById("A1a1").hidden = true;
-    	document.getElementById("A1aT1").hidden = true;
-    	document.getElementById("A1aT2").hidden = true;
-    	document.getElementById("A1aTAB").hidden = true;
-    };
-    function sA1b() {
-    	document.getElementById("A1b").hidden = true;
-    	document.getElementById("A1b1").hidden = false;
-    	document.getElementById("A1bT1").hidden = false;
-    	document.getElementById("A1bT2").hidden = false;
-    	document.getElementById("A1bTAB").hidden = false;
-    };
-    function hA1b1() {
-    	document.getElementById("A1b").hidden = false;
-    	document.getElementById("A1b1").hidden = true;
-    	document.getElementById("A1bT1").hidden = true;
-    	document.getElementById("A1bT2").hidden = true;
-    	document.getElementById("A1bTAB").hidden = true;
-    };
-    function sA1c() {
-    	document.getElementById("A1c").hidden = true;
-    	document.getElementById("A1c1").hidden = false;
-    	document.getElementById("A1cT1").hidden = false;
-    };
-    function hA1c1() {
-    	document.getElementById("A1c").hidden = false;
-    	document.getElementById("A1c1").hidden = true;
-    	document.getElementById("A1cT1").hidden = true;
-    };
-    function sA1d() {
-    	document.getElementById("A1d").hidden = true;
-    	document.getElementById("A1d1").hidden = false;
-    	document.getElementById("A1dT1").hidden = false;
-    	document.getElementById("A1dT2").hidden = false;
-    	document.getElementById("A1dTAB").hidden = false;
-    	document.getElementById("A1dL").hidden = false;
-    };
-    function hA1d1() {
-    	document.getElementById("A1d").hidden = false;
-    	document.getElementById("A1d1").hidden = true;
-    	document.getElementById("A1dT1").hidden = true;
-    	document.getElementById("A1dT2").hidden = true;
-    	document.getElementById("A1dTAB").hidden = true;
-    	document.getElementById("A1dL").hidden = true;
-    };
-    function SCPF() {
-    	document.getElementById("A2").hidden = false;
-    	document.getElementById("A2i").hidden = false;
-    	document.getElementById("A2dL").hidden = false;
-    	document.getElementById("A1").hidden = true;
-    	document.getElementById("A1a").hidden = true;
-    	document.getElementById("A1a1").hidden = true;
-    	document.getElementById("A1aT1").hidden = true;
-    	document.getElementById("A1aT2").hidden = true;
-    	document.getElementById("A1b").hidden = true;
-    	document.getElementById("A1bT1").hidden = true;
-    	document.getElementById("A1bT2").hidden = true;
-    	document.getElementById("A1c").hidden = true;
-    	document.getElementById("A1c1").hidden = true;
-    	document.getElementById("A1cT1").hidden = true;
-    	document.getElementById("A1d").hidden = true;
-    	document.getElementById("A1d1").hidden = true;
-    	document.getElementById("A1dT1").hidden = true;
-    	document.getElementById("A1dT2").hidden = true;
-    	document.getElementById("A1dL").hidden = true;
-    	document.getElementById("A1aTAB").hidden = true;
-    	document.getElementById("A1bTAB").hidden = true;
-    	document.getElementById("A1dTAB").hidden = true;
-    	document.getElementById("A1b1").hidden = true;
-    };
-    function SCPT() {
-    	document.getElementById("A2").hidden = true;
-    	document.getElementById("A2i").hidden = true;
-    	document.getElementById("A2dL").hidden = true;
-    	document.getElementById("A2ii").hidden = true;
-    	document.getElementById("A2int1").hidden = true;
-    	document.getElementById("A2int2").hidden = true;
-    	document.getElementById("A2intW").hidden = true;
-    	document.getElementById("A1").hidden = false;
-    	document.getElementById("A1a").hidden = false;
-    	document.getElementById("A1b").hidden = false;
-    	document.getElementById("A1c").hidden = false;
-    	document.getElementById("A1d").hidden = false;
-    };
+    function F1() {
+        var checked = 0;
+        var T1 = document.getElementById("T1");
+        var chks = T1.getElementsByTagName("INPUT");
+    	var S1 = document.getElementById("S1");
+    	var S2I = document.getElementById("S2I");
+    	var S2II = document.getElementById("S2II");
+    	var INF = document.getElementById("INF");
+        for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {checked++;}
+        }
+        if (checked < 1){INF.hidden=false;} 
+    	else if (checked > 5){S1.hidden = true; S2I.hidden = false; INF.hidden=true;}
+    	else {S1.hidden = true; S2II.hidden = false; INF.hidden=true;}
+    };
+        function F2I() {
+        var checked = 0;
+        var T2I = document.getElementById("T2I");
+        var chks = T2I.getElementsByTagName("INPUT");
+    	var S2I = document.getElementById("S2I");
+    	var S3I = document.getElementById("S3I");
+    	var S3II = document.getElementById("S3II");
+    	var INF = document.getElementById("INF");
+        for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {checked++;}
+        }
+        if (checked < 1){INF.hidden=false;} 
+    	else if (checked > 5){S2I.hidden = true; S3I.hidden = false; INF.hidden=true;}
+    	else {S2I.hidden = true; S3II.hidden = false; INF.hidden=true;}
+    };
+        function F2II() {
+        var checked = 0;
+        var T2II = document.getElementById("T2II");
+        var chks = T2II.getElementsByTagName("INPUT");
+    	var S2II = document.getElementById("S2II");
+    	var S3II = document.getElementById("S3II");
+    	var INF = document.getElementById("INF");
+        for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {checked++;}
+        }
+        if (checked < 1){INF.hidden=false;}
+    	else {S2II.hidden = true; S3II.hidden = false; INF.hidden=true;}
+    };
+    function F3I() {
+        var checked = 0;
+        var T3I = document.getElementById("T3I");
+        var chks = T3I.getElementsByTagName("INPUT");
+    	var S3I = document.getElementById("S3I");
+    	var S4I = document.getElementById("S4I");
+    	var S4II = document.getElementById("S4II");
+    	var INF = document.getElementById("INF");
+        for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {checked++;}
+        }
+        if (checked < 1){INF.hidden=false;} 
+    	else if (checked > 5){S3I.hidden = true; S4I.hidden = false; INF.hidden=true;}
+    	else {S3I.hidden = true; S4II.hidden = false; INF.hidden=true;}
+    };
+        function F3II() {
+        var checked = 0;
+        var T3II = document.getElementById("T3II");
+        var chks = T3II.getElementsByTagName("INPUT");
+    	var S3II = document.getElementById("S3II");
+    	var S4II = document.getElementById("S4II");
+    	var INF = document.getElementById("INF");
+        for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {checked++;}
+        }
+        if (checked < 1){INF.hidden=false;}
+    	else {S3II.hidden = true; S4II.hidden = false; INF.hidden=true;}
+    };
+        function F4I() {
+        var checked = 0;
+        var T4I = document.getElementById("T4I");
+        var chks = T4I.getElementsByTagName("INPUT");
+    	var S4I = document.getElementById("S4I");
+    	var S5I = document.getElementById("S5I");
+    	var S5II = document.getElementById("S5II");
+    	var INF = document.getElementById("INF");
+        for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {checked++;}
+        }
+        if (checked < 1){INF.hidden=false;} 
+    	else if (checked > 5){S4I.hidden = true; S5I.hidden = false; INF.hidden=true;}
+    	else {S4I.hidden = true; S5II.hidden = false; INF.hidden=true;}
+    };
+        function F4II() {
+        var checked = 0;
+        var T4II = document.getElementById("T4II");
+        var chks = T4II.getElementsByTagName("INPUT");
+    	var S4II = document.getElementById("S4II");
+    	var S5II = document.getElementById("S5II");
+    	var INF = document.getElementById("INF");
+        for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {checked++;}
+        }
+        if (checked < 1){INF.hidden=false;}
+    	else {S4II.hidden = true; S5II.hidden = false; INF.hidden=true;}
+    };
+        function F5I() {
+        var checked = 0;
+        var T5I = document.getElementById("T5I");
+        var chks = T5I.getElementsByTagName("INPUT");
+    	var S5I = document.getElementById("S5I");
+    	var S6I = document.getElementById("S6I");
+    	var S6II = document.getElementById("S6II");
+    	var INF = document.getElementById("INF");
+        for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {checked++;}
+        }
+        if (checked < 1) {INF.hidden=false;} 
+    	else if (checked > 5){S5I.hidden = true; S6I.hidden = false; INF.hidden=true;}
+    	else {S5I.hidden = true; S6II.hidden = false; INF.hidden=true;}
+    };
+        function F5II() {
+        var checked = 0;
+        var T5II = document.getElementById("T5II");
+        var chks = T5II.getElementsByTagName("INPUT");
+    	var S5II = document.getElementById("S5II");
+    	var S6II = document.getElementById("S6II");
+    	var INF = document.getElementById("INF");
+        for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {checked++;}
+        }
+        if (checked < 1) {INF.hidden=false;}
+    	else {S5II.hidden = true; S6II.hidden = false; INF.hidden=true;}
+    };
+        function F6I() {
+        var checked = 0;
+        var T6I = document.getElementById("T6I");
+        var chks = T6I.getElementsByTagName("INPUT");
+    	var S6I = document.getElementById("S6I");
+    	var A1 = document.getElementById("A1");
+    	var A2 = document.getElementById("A2");
+    	var A2i = document.getElementById("A2i");
+    	var INF = document.getElementById("INF");
+    	var A1a = document.getElementById("A1a");
+    	var A1b = document.getElementById("A1b");
+    	var A1c = document.getElementById("A1c");
+    	var A1d = document.getElementById("A1d");
+        for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {checked++;}
+        }
+        if (checked < 1) {INF.hidden=false;} 
+    	else if (checked > 5){S6I.hidden = true; A1.hidden = false; A1a.hidden = false; A1b.hidden = false; A1c.hidden = false; A1d.hidden = false; INF.hidden=true;}
+    	else {S6I.hidden = true; A2.hidden = false; A2i.hidden = false; INF.hidden=true;}
+    };
+        function F6II() {
+        var checked = 0;
+        var T6II = document.getElementById("T6II");
+        var chks = T6II.getElementsByTagName("INPUT");
+    	var S6II = document.getElementById("S6II");
+    	var A2 = document.getElementById("A2");
+    	var A2i = document.getElementById("A2i");
+    	var INF = document.getElementById("INF");
+    	var A2h = document.getElementById("A2h");
+        for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {checked++;}
+        }
+        if (checked < 1) {INF.hidden=false;}
+    	else {S6II.hidden = true; A2.hidden = false; A2i.hidden = false; A2h.hidden = false; INF.hidden=true;}
+    };
+    function sA2i() {
+    	document.getElementById("A2i").hidden = true;
+    	document.getElementById("A2ii").hidden = false;
+    	document.getElementById("A2int1").hidden = false;
+    	document.getElementById("A2intW").hidden = false;
+    	document.getElementById("A2int2").hidden = false;
+    };
+    function hA2ii() {
+    	document.getElementById("A2i").hidden = false;
+    	document.getElementById("A2ii").hidden = true;
+    	document.getElementById("A2int1").hidden = true;
+    	document.getElementById("A2intW").hidden = true;
+    	document.getElementById("A2int2").hidden = true;
+    };
+        function sA1a() {
+    	document.getElementById("A1a").hidden = true;
+    	document.getElementById("A1a1").hidden = false;
+    	document.getElementById("A1aT1").hidden = false;
+    	document.getElementById("A1aT2").hidden = false;
+    	document.getElementById("A1aTAB").hidden = false;
+    };
+    function hA1a1() {
+    	document.getElementById("A1a").hidden = false;
+    	document.getElementById("A1a1").hidden = true;
+    	document.getElementById("A1aT1").hidden = true;
+    	document.getElementById("A1aT2").hidden = true;
+    	document.getElementById("A1aTAB").hidden = true;
+    };
+    function sA1b() {
+    	document.getElementById("A1b").hidden = true;
+    	document.getElementById("A1b1").hidden = false;
+    	document.getElementById("A1bT1").hidden = false;
+    	document.getElementById("A1bT2").hidden = false;
+    	document.getElementById("A1bTAB").hidden = false;
+    };
+    function hA1b1() {
+    	document.getElementById("A1b").hidden = false;
+    	document.getElementById("A1b1").hidden = true;
+    	document.getElementById("A1bT1").hidden = true;
+    	document.getElementById("A1bT2").hidden = true;
+    	document.getElementById("A1bTAB").hidden = true;
+    };
+    function sA1c() {
+    	document.getElementById("A1c").hidden = true;
+    	document.getElementById("A1c1").hidden = false;
+    	document.getElementById("A1cT1").hidden = false;
+    };
+    function hA1c1() {
+    	document.getElementById("A1c").hidden = false;
+    	document.getElementById("A1c1").hidden = true;
+    	document.getElementById("A1cT1").hidden = true;
+    };
+    function sA1d() {
+    	document.getElementById("A1d").hidden = true;
+    	document.getElementById("A1d1").hidden = false;
+    	document.getElementById("A1dT1").hidden = false;
+    	document.getElementById("A1dT2").hidden = false;
+    	document.getElementById("A1dTAB").hidden = false;
+    	document.getElementById("A1dL").hidden = false;
+    };
+    function hA1d1() {
+    	document.getElementById("A1d").hidden = false;
+    	document.getElementById("A1d1").hidden = true;
+    	document.getElementById("A1dT1").hidden = true;
+    	document.getElementById("A1dT2").hidden = true;
+    	document.getElementById("A1dTAB").hidden = true;
+    	document.getElementById("A1dL").hidden = true;
+    };
+    function SCPF() {
+    	document.getElementById("A2").hidden = false;
+    	document.getElementById("A2i").hidden = false;
+    	document.getElementById("A2dL").hidden = false;
+    	document.getElementById("A1").hidden = true;
+    	document.getElementById("A1a").hidden = true;
+    	document.getElementById("A1a1").hidden = true;
+    	document.getElementById("A1aT1").hidden = true;
+    	document.getElementById("A1aT2").hidden = true;
+    	document.getElementById("A1b").hidden = true;
+    	document.getElementById("A1bT1").hidden = true;
+    	document.getElementById("A1bT2").hidden = true;
+    	document.getElementById("A1c").hidden = true;
+    	document.getElementById("A1c1").hidden = true;
+    	document.getElementById("A1cT1").hidden = true;
+    	document.getElementById("A1d").hidden = true;
+    	document.getElementById("A1d1").hidden = true;
+    	document.getElementById("A1dT1").hidden = true;
+    	document.getElementById("A1dT2").hidden = true;
+    	document.getElementById("A1dL").hidden = true;
+    	document.getElementById("A1aTAB").hidden = true;
+    	document.getElementById("A1bTAB").hidden = true;
+    	document.getElementById("A1dTAB").hidden = true;
+    	document.getElementById("A1b1").hidden = true;
+    };
+    function SCPT() {
+    	document.getElementById("A2").hidden = true;
+    	document.getElementById("A2i").hidden = true;
+    	document.getElementById("A2dL").hidden = true;
+    	document.getElementById("A2ii").hidden = true;
+    	document.getElementById("A2int1").hidden = true;
+    	document.getElementById("A2int2").hidden = true;
+    	document.getElementById("A2intW").hidden = true;
+    	document.getElementById("A1").hidden = false;
+    	document.getElementById("A1a").hidden = false;
+    	document.getElementById("A1b").hidden = false;
+    	document.getElementById("A1c").hidden = false;
+    	document.getElementById("A1d").hidden = false;
+    };
 </script>
 
 

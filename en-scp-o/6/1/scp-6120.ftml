@@ -7,13 +7,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 html {
-   -webkit-filter: grayscale(1); /* Older Webkit */
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-  background-color: white;
+   -webkit-filter: grayscale(1); /* Older Webkit */
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-color: white;
 }
 :root{
 --color: 64, 64, 64;
@@ -34,24 +34,24 @@ html {
 
 [[module CSS]]
 :root {
-    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/secure-facility-dossier-site-120/ontologonew.png");
-    --header-title: "Site-120";
-    --header-subtitle: "Fighting Fire With Fire";
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/secure-facility-dossier-site-120/ontologonew.png");
+    --header-title: "Site-120";
+    --header-subtitle: "Fighting Fire With Fire";
 [[/module]]
 
 [[module css]]
 #u-blink-bar p:last-child::after {
-    content: "";
-    border-right: 1px solid black;
-    animation: blink 1s infinite;
-    position: relative;
-    left: 1px;
+    content: "";
+    border-right: 1px solid black;
+    animation: blink 1s infinite;
+    position: relative;
+    left: 1px;
 }
- 
+ 
 @keyframes blink{
-    to {
-        opacity: .0;
-    }
+    to {
+        opacity: .0;
+    }
 }
 [[/module]]
 

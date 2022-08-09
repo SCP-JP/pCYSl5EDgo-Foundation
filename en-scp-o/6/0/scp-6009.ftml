@@ -3,33 +3,33 @@
 
 [[module CSS]]
 .newcontainer {
-    margin-top: 0.2rem; margin-bottom: -1.5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    line-height: 20%;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "one two image image"
-        "text text image image";
+    margin-top: 0.2rem; margin-bottom: -1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    line-height: 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "one two image image"
+        "text text image image";
 }
 .slot1 { grid-area: one; }
 .slot2 { grid-area: two; }
 .slot1, .slot2 {
-    text-align: center;
-    margin-bottom: 0.1rem;
-    padding: 4px;
-    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 0.1rem;
+    padding: 4px;
+    box-sizing: border-box;
 }
 .grid-image { grid-area: image; box-sizing: border-box; padding: 0.5rem; }
 .textslot { grid-area: text; padding: 0.5rem; padding-left: 0; }
 
 @media (max-width: 767px) {
-    .newcontainer {
-        grid-template-areas:
-            "one one two two"
-            "image image image image"
-            "text text text text";
-    }
+    .newcontainer {
+        grid-template-areas:
+            "one one two two"
+            "image image image image"
+            "text text text text";
+    }
 }
 
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
@@ -40,7 +40,7 @@
 
 .evencols tr th,
 .evencols tr td {
-    width: 280px;
+    width: 280px;
 }
 
 .footnotes-footer {
@@ -49,36 +49,36 @@ display: none;
 
 /*-- fancy collapsible, derived from monkatraz bhl collapsible --*/
 div[class*="email"] .collapsible-block-folded, div[class*="email"] .collapsible-block-unfolded-link {
-    background: #7E2520;
-    padding-top: 0.3rem;
-    padding-bottom: 0.24rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: min-content;
-    white-space: nowrap;
-    overflow: hidden;
-    margin:auto; /*-- center --*/
+    background: #7E2520;
+    padding-top: 0.3rem;
+    padding-bottom: 0.24rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: min-content;
+    white-space: nowrap;
+    overflow: hidden;
+    margin:auto; /*-- center --*/
 }
 div[class*="email"] .collapsible-block-link {
-    color: #f4f4f4;
-    font-family: 'Fira Code', monospace;
-    font-weight: bold;
-    font-size: 96%;
+    color: #f4f4f4;
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    font-size: 96%;
 }
 div[class*="email"] .collapsible-block-link:hover {
-    text-decoration: none
+    text-decoration: none
 }
 
 div[class*="email"] .collapsible-block-content {
-    border-top: solid 0.24rem #7E2520;
-    border-bottom: solid 0.24rem #7E2520;
+    border-top: solid 0.24rem #7E2520;
+    border-bottom: solid 0.24rem #7E2520;
 }
 
 div[class*="email"] .collapsible-block-folded .collapsible-block-link::before {
-    content: "▷  ";
+    content: "▷  ";
 }
 div[class*="email"] .collapsible-block-unfolded .collapsible-block-link::before {
-    content: "▽  ";
+    content: "▽  ";
 }
 
 [[/module]]
@@ -401,7 +401,7 @@ SCP-6009 is both integral to cell function, and dependent on cytoplasmic element
 
 There is currently no way to keep the 6009-Catena structure intact in a sample. Freezing has proven to disrupt the cohesion of 6009-Catena. Conventional culture broth such as Luria broth have shown to slow the decay to up to two hours, but do not stop it. Dye-assisted staining can be used for color contrast, but it is not recommended for samples that are intended to undergo further testing.
 
-6009-Catena both has chain-like components and free-moving components. The chain-like components are much harder to visualize as they are the first to decay.  Transmission electron microscopy (TEM) is the only way to visualize the ladder structure of 6009-Catena in a sample.
+6009-Catena both has chain-like components and free-moving components. The chain-like components are much harder to visualize as they are the first to decay.  Transmission electron microscopy (TEM) is the only way to visualize the ladder structure of 6009-Catena in a sample.
 
 @@@@
 
@@ -444,7 +444,7 @@ Regarding mapping the 6009-Catena region: conventional MRI and PET scans do the 
 
 My colleague, Dr. Michael Aguinaldo, indicates that he may have some idea from his involvement in the early stages of the Khevtuul probe project. The [[[SCP-2669]]] file is restricted though, so Dr. Aguinaldo says he needs to check in with Director Yamataka for clearance before involving him in our project.
 
-The World Connectome Project just recently released their latest tractography model, but it’s not accurate enough for our purposes and misses out on the inter-neural space where most of 6009-Catena resides. I'll look more into it though.  
+The World Connectome Project just recently released their latest tractography model, but it’s not accurate enough for our purposes and misses out on the inter-neural space where most of 6009-Catena resides. I'll look more into it though.  
 
 Do you have MRI machines on your site? Ours just broke, again, so I have to take the train to Osaka every day. Knowing Site-84, it's going to just stay broken forever.
 
@@ -620,7 +620,7 @@ Modelling the 6009-Catena hodological network requires two components: an accura
 
 An accurate distribution of SCP-6009's nodes combines an conventional diffusion tensor imaging (DTI) segmentation, with a modified T1-weighted magnentic resonance imaging (MRI) to obtain a physical structure of neuron location; radiofluorescence-tagged SCP-6009 used for comparison of the DTI segmentation gives a relatively accurate distribution for SCP-6009 node structure, after cytoplasmic exclusion to map the extracellular space.
 
-Connectome tractography gives the physical neuron relationships of a subject's brain. Much of conventional tractography are estimations of truth bundles based on diffusion MRI imaging, which has a high incidence of invalid connections. Khevtuul replication requires an accurate copy of the mind, but does not sort out the connections in a clear matter. By taking an unanchored exampled of a Khevtuul replica, we are able to directly transfer with no physical barrier, thus producing an accurate tractogram.  
+Connectome tractography gives the physical neuron relationships of a subject's brain. Much of conventional tractography are estimations of truth bundles based on diffusion MRI imaging, which has a high incidence of invalid connections. Khevtuul replication requires an accurate copy of the mind, but does not sort out the connections in a clear matter. By taking an unanchored exampled of a Khevtuul replica, we are able to directly transfer with no physical barrier, thus producing an accurate tractogram.  
 
 By combining the node distribution of SCP-6009 combined with the connection tratogram, a hodological network can be determined. It takes roughly 4 hours to completely compute the hodological network, due to high incidence of false positives.
 
@@ -1015,7 +1015,7 @@ Oh, wow, that's... a lot to take in at once. And of course, I already said yes t
 
 I got a bunch of offers, but the only one that was interesting was from Director Leep Andrews of Site-234, who reached out to me after he heard about our team looking to become a department. He said our work would be great there! His site handles a lot of biological anomalies. He said his site would be perfect for a new budding department. I read over the site dossier; the equipment and facilities available is just so... tantalizing.
 
-I'll give him a heads up if you are willing to move. Is your team ready to move to the US? I know Jenny is thrilled, as we're going to be part of a new department. It's very funny how it could have been me and her being the founding members for all this groundbreaking work from SCP-6009... her loss, I guess!  
+I'll give him a heads up if you are willing to move. Is your team ready to move to the US? I know Jenny is thrilled, as we're going to be part of a new department. It's very funny how it could have been me and her being the founding members for all this groundbreaking work from SCP-6009... her loss, I guess!  
 
 For our name, how about “Nanobiomics”? Short, simple, punchy, and most importantly, never heard of before - just like our work for Project Vigenère.
 
@@ -1186,7 +1186,7 @@ Waley,
 
 I can’t wait to see Site-234! Unfortunately I have to stay behind for another month. Aguinaldo will be there soon though, I’ll get him to bring some of those red bean mochi treats I know you like so much. 
 
-I have to stay behind because I need to finish the observation of some of the D-Class that I was working on; Dr. Mann was in Japan, and came by Site-84 to chat about our new department. The probe that Matsunaga and Jenny were working on? It was actually on his suggestion that he gave them soon after that last symposium. Jenny finally made a breakthrough with from a new paper on  semiconductors that TSMC released, so when they finally came through, Mann wanted to develop a new insertion mechanism with me. We tried some stuff out a week ago, and he finalized his revised procedure. I’m… not especially thrilled about the new procedure, but it’s such a vast improvement over our current one.
+I have to stay behind because I need to finish the observation of some of the D-Class that I was working on; Dr. Mann was in Japan, and came by Site-84 to chat about our new department. The probe that Matsunaga and Jenny were working on? It was actually on his suggestion that he gave them soon after that last symposium. Jenny finally made a breakthrough with from a new paper on  semiconductors that TSMC released, so when they finally came through, Mann wanted to develop a new insertion mechanism with me. We tried some stuff out a week ago, and he finalized his revised procedure. I’m… not especially thrilled about the new procedure, but it’s such a vast improvement over our current one.
 
 As you know, the exit ports for the MH Nexus is the most clunky and error-prone part of an otherwise ingenious product. One, it’s basically an open wound that goes past your meninges. And surgical wounds healing are usually very itchy, so the D-Class would obviously try to scratch it… and well, even though the wire is anchored under the scalp and can’t be removed, pulling on it obviously still affects something.
 
@@ -1439,7 +1439,7 @@ Which, here's the draft I haven't finished about D-class... I'd probably just th
 Dr. Chiang Wei-Huo • Dr. Okami Ryōsuke • Dr. John Batesman • Dr. David Meng • Dr. Elias Raskin
 [[/=]]
 
-Clustering data obtained from VGWAS revealed a preliminary interesting datapoint: a common interaction has been observed common across D-class  personnel. 80% of D-Class personnel exhibit a isomorphic pathway in the hypothalamic attack region, which VGWAS placed the pathway in association with the UP4/MT-F5 interaction. Both the UP4 gene and MT-F5 gene are found commonly in the general public, but MT-F5 expression is inhibited if MT-L2 is expressed. People with the UP4/MT-F5 interaction lack MT-L2 within the mitochondrial genome, and almost uniformly belong to this cluster.
+Clustering data obtained from VGWAS revealed a preliminary interesting datapoint: a common interaction has been observed common across D-class  personnel. 80% of D-Class personnel exhibit a isomorphic pathway in the hypothalamic attack region, which VGWAS placed the pathway in association with the UP4/MT-F5 interaction. Both the UP4 gene and MT-F5 gene are found commonly in the general public, but MT-F5 expression is inhibited if MT-L2 is expressed. People with the UP4/MT-F5 interaction lack MT-L2 within the mitochondrial genome, and almost uniformly belong to this cluster.
 
 @@@@
 @@@@
@@ -1501,7 +1501,7 @@ Alabama
 [[<]]
 Waley,
 
-No, I didn’t request general public usage, why would I? I do agree that having civilian subjects are going to vastly help expand our scope... at the same time, civilian subjects are usually signing up willingly? So at least it's less fucked up than what we've put these poor D-class through.  
+No, I didn’t request general public usage, why would I? I do agree that having civilian subjects are going to vastly help expand our scope... at the same time, civilian subjects are usually signing up willingly? So at least it's less fucked up than what we've put these poor D-class through.  
 
 I'm free to showcase OMNI, I'll take Graham.
 
@@ -1571,7 +1571,7 @@ And seeing how most of the mitochondria's proteins needed to be coded by nuclear
 Oh yes, people will get very upset, I can't wait. Just listen to how grandeur "neo-endosymbiosis" feels. I'm going to look into the molecular clock comparisons that Dr. Kirkoff has been working on, don't tell him it's for this. Administrative work is tiring, and I do feel kind of detached from the lab work we used to do. Haven't written a paper in a while. 
 
 I want you on this one. Just the two of us, a return to basics.
- 
+ 
 @@@@
 @@@@
 
@@ -1682,7 +1682,7 @@ Alabama
 
 Waley,
 
-Site-17? Wow, that’s really not what I was expecting.  
+Site-17? Wow, that’s really not what I was expecting.  
 
 I don’t know if we can even afford to say no if the O5 has taken an interest in us.
 
@@ -2176,7 +2176,7 @@ Did anything strike you as disturbing in that sentence?
 
 I imagine you didn't really think much when you read it. I didn't think much of what I told Director Moose either. Why, yes, we associate genomic profile with psychological profiles! What's so weird about that? It's the natural next step of what we're doing. I was really impressed of the design! I was thinking what we could even do further... then it hit me. 
 
-I can already envision it: just take a sample, run it through the model, and in a day or two the sleek terminal will pop out your subject's psychological profile and likely decision making. No need to get permission to rack the brains of every poor sap that the Foundation decides to snatch up. And it works best for non-anomalous humans, just everyday folks like us! Well, now we’re going to be at Site-17, we might find out if it actually works on humanoid anomalies. That's definitely going to be fun for the whole family!  
+I can already envision it: just take a sample, run it through the model, and in a day or two the sleek terminal will pop out your subject's psychological profile and likely decision making. No need to get permission to rack the brains of every poor sap that the Foundation decides to snatch up. And it works best for non-anomalous humans, just everyday folks like us! Well, now we’re going to be at Site-17, we might find out if it actually works on humanoid anomalies. That's definitely going to be fun for the whole family!  
 
 And since we have been doing stimulus testing on how 6009-Catena changes neural wiring, Jenny actually sent me plans for the third generation prototype of the MH nexus: if her schema works, it would be able to physically change 6009-Catena connections, directly through a new version of the inserted CMH probe. I don’t think she even realized the implications of what she is creating. 
 
@@ -2194,13 +2194,13 @@ Is personal growth just a joke then? Are people just destined to be a certain wa
 
 I keep telling myself, there's no possible way that the intricacies of the human mind could be broken down into chemicals and numbers in a machine like that. But I know what we're studying, Ryo, and so do you. We found this hidden library underneath the dense genetics code, and it's only a matter of time and effort to see how long we can decipher what's in this library. 
 
-Every day, I feel watched. I’m suddenly acutely aware of anything I do. It’s like my own mitochondria have betrayed me, which I am aware is an utterly ridiculous idea.  
+Every day, I feel watched. I’m suddenly acutely aware of anything I do. It’s like my own mitochondria have betrayed me, which I am aware is an utterly ridiculous idea.  
 
 Perhaps I'm overthinking it. There are so, so many hurdles to overcome. Maybe we already hit the wall of what we can decipher, and the broadest strokes are the extent. Or maybe I’m just paranoid about nothing, inflating the importance of our department, and ultimately nothing important will come of Project Vigenère.
 
 As much as it hurts to think about, I thought about shuttering the department. I have (well, had) the power to make everyone just stop. Ban all research, bury our data, dismantle the department, and we all go back to our old lives. Forget this all happened, another project lost to the Foundation’s annals of time. Maybe even throw this to some MTF with a webcrawler to ensure no civilian ever gets close to the truth either. Tell Director Moose that we're sorry the Foundation spent so much money on their new wing, pack our bags, and just leave America forever. I actually planned on sending a letter to the Overwatch Council recommending this line of action, but then realized they likely would never respond in the way I want. The Foundation has invested so much in our department at this point, and now I know why. 
 
-I am foolish, Ryo. I really should have seen this sooner. Moose, Mann, Andrews, Yamataka... Why have all these higher-ups taken such a keen interest in our project?  It’s not for the betterment of science, out of the pure kindness of their hearts, that I can tell you. 
+I am foolish, Ryo. I really should have seen this sooner. Moose, Mann, Andrews, Yamataka... Why have all these higher-ups taken such a keen interest in our project?  It’s not for the betterment of science, out of the pure kindness of their hearts, that I can tell you. 
 
 I don't think they have malicious intent as individuals... but I can't say the same about them acting collectively as the Foundation. They might not know the science behind everything, but they know a good opportunity when they smell one. 
 

@@ -6,41 +6,41 @@
 [[module CSS]]
 /* add separator between image and caption */
 .block-center img {
-    border-bottom: .0625rem solid rgb(var(--swatch-primary-darkest));
+    border-bottom: .0625rem solid rgb(var(--swatch-primary-darkest));
 }
 
 /* add gap on top of addendum images */
 .addendum .scp-image-block {
-    margin-top: 0.5em;
+    margin-top: 0.5em;
 }
 
 /* this and the below include are for chat logs */
 .memberbot {
-    color: #ccc;
+    color: #ccc;
 }
 
 .member1 {
-    color: #e40;
+    color: #e40;
 }
 
 .member2 {
-    color: #1f1;
+    color: #1f1;
 }
 
 .member3 {
-    color: #a38;
+    color: #a38;
 }
 
 .member4 {
-    color: #99f;
+    color: #99f;
 }
 
 .member5 {
-    color: #0be;
+    color: #0be;
 }
 
 .member6 {
-    color: #906;
+    color: #906;
 }
 
 .memberbot:hover,
@@ -50,8 +50,8 @@
 .member4:hover,
 .member5:hover,
 .member6:hover {
-    cursor: pointer;
-    text-decoration: underline;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .memberbot:active,
@@ -61,8 +61,8 @@
 .member4:active,
 .member5:active,
 .member6:active {
-    background-color: #99f;
-    border-radius: 4px;
+    background-color: #99f;
+    border-radius: 4px;
 }
 [[/module]]
 
@@ -71,13 +71,13 @@
 [[/>]]
 
 [[include component:info-ayers
-    lang=EN |
-    page=scp-5900 |
-    authorPage=http://www.scp-wiki.net/aismallard |
-   comments= 
-**SCP-5900:** PITCHBLACK  
+    lang=EN |
+    page=scp-5900 |
+    authorPage=http://www.scp-wiki.net/aismallard |
+   comments= 
+**SCP-5900:** PITCHBLACK  
 **Author:** [[*user aismallard]] 
- 
+ 
 **Thanks to:** 
 * wctaiwan 
 * fluffywaffles 
@@ -86,15 +86,15 @@
 * [[*user modulum]] 
 * [[*user Captain Kirby]] 
 * [[*user Lambda Fairy]] 
- 
+ 
 Additional appreciation to [[*user rounderhouse]] for help during the drafting process, and allowing me to write for his canon. 
 ]]
 
 [[include component:anomaly-class-bar-source
-    item-number=5900 |
-    clearance=3 |
-    container-class=pending |
-    secondary-class=none
+    item-number=5900 |
+    clearance=3 |
+    container-class=pending |
+    secondary-class=none
 ]]
 
 ----
@@ -134,9 +134,9 @@ PANOPTICON refers to a number of interconnected technological and paratechnologi
 The Atreus Satellite Array is a Foundation-launched fleet of modular satellites, with orbits configured to ensure full coverage of the Earth at all times. Each satellite has a surveillance installation (see 4/PANOPTICON/HDW04 for schematics), including X-ray antennas and Kant receivers. They also have several hardpoints for weapons and reality anchor attachments, set at the direction of the Department of Applied Force.
 
 [[include component:image-block
-    name=relay.jpeg |
-    caption=Relay installed at the base of a streetlamp |
-    width=200px
+    name=relay.jpeg |
+    caption=Relay installed at the base of a streetlamp |
+    width=200px
 ]]
 
 Additionally, the Department of Intelligence's Field Monitoring Division is responsible for the installation and maintenance of over ██ million input devices, including SEP-shielded cameras, microphones, links into existing civilian and government surveillance systems, thaumaturgic particle detectors, and Kant counters.
@@ -144,8 +144,8 @@ Additionally, the Department of Intelligence's Field Monitoring Division is resp
 All gathered surveillance information is processed at Site-07, located in the Norton Bay off the coast of Alaska. Due to its secure location and increasing role in Foundation archival operations, it was established as the headquarters of RAISA in 1961. Two years later, the DEEPWELL backup system entered service there as well.
 
 [[include component:image-block
-    name=site-07.jpeg |
-    caption=Protected Site-07
+    name=site-07.jpeg |
+    caption=Protected Site-07
 ]]
 
 Records are loaded into an anomalous RDBMS (relational database management system) and indexed accordingly. SKYEYE.aic continuously queries this database to look for correlations or abnormalities which may indicate potential extranormal events, objects, or activity by groups of interest.
@@ -194,16 +194,16 @@ The following is a selection of log events submitted to the Site-07 governance m
 || 16:59:35 || **##e69500|WARN##** || SKYEYE.aic || Unable to query surveillance data: Connection refused. ||
 || 16:59:41 || **##red|ALERT##** || Site-07 Communications || Lost contact with Area-25B, Site-104, Site-11, (... 49 total facilities). ||
 || 16:59:58 || **##green|INFO##** || Atreus Satellite Service || Sending 291 new observation updates to Site-07. ||
-|| 16:59:58 || **##red|ERROR##** || Atreus Satellite Service || [1]    94182 segmentation fault (core dumped)  /usr/bin/satlink ||
+|| 16:59:58 || **##red|ERROR##** || Atreus Satellite Service || [1]    94182 segmentation fault (core dumped)  /usr/bin/satlink ||
 || 17:00:03 || **##e69500|WARN##** || Webcrawler Service || All bots are reporting as unhealthy. Terminating and restarting. ||
 || 17:00:07 || **##green|INFO##** || COMMAND.aic || Restarting unhealthy atreus-sync and atreus-spy pods. ||
-|| 17:00:12 || **##red|ERROR##** || Webcrawler Service || Traceback (most recent call last):   File "/usr/lib/python3.6/site-packag[MESSAGE TOO LONG]  ||
+|| 17:00:12 || **##red|ERROR##** || Webcrawler Service || Traceback (most recent call last):   File "/usr/lib/python3.6/site-packag[MESSAGE TOO LONG]  ||
 || 17:02:18 || **##red|ALERT##** || Site-07 System Monitor || Service DOWN: atreus-sat ||
 || 17:02:10 || **##green|INFO##** || COMMAND.aic || All Atreus management daemons are failing to initialize. Attempting rollback to commit 657cf3e... ||
 || 17:02:19 || **##red|ERROR##** || LINGUIST.aic || [DATA LOST] ||
 || 17:02:19 || **##green|INFO##** || COMMAND.aic || Detected memory corruption in LINGUIST container d8410d36. Terminating instance. ||
 || 17:02:22 || **##red|ERROR##** || Site-07 Backups || Failover disk SSD-L3-B09813-48 found to be corrupt. ||
-|| 17:02:45  || **##red|ALERT##** || Site-07 Communications || Lost contact with Area-79, Site-81, Site-19, (... 25 total facilities). ||
+|| 17:02:45  || **##red|ALERT##** || Site-07 Communications || Lost contact with Area-79, Site-81, Site-19, (... 25 total facilities). ||
 || 17:03:05 || **##red|ALERT##** || COMMAND.aic || Declaring extensive outage. Contacting RAISA command. ||
 || 17:03:05 || **##teal|DEBUG##** || COMMAND.aic || todo(jtaylor): this should never happen, refactor later ||
 || 17:03:09 || **##e69500|WARN##** || COMMAND.aic || Filing incident report, recommending as potential anomaly. ||

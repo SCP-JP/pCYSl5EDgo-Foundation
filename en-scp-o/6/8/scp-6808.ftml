@@ -20,16 +20,16 @@ And my VKTM article [https://scp-wiki.wikidot.com/scp-5428 SCP-5428 101 Life Hac
 
 [[module CSS]]
 :root {
-  --scp-number: '6808';  /*Change the 6808 to whatever number you want, but don't get rid of the apostrophes*/
+  --scp-number: '6808';  /*Change the 6808 to whatever number you want, but don't get rid of the apostrophes*/
 }
 #page-content .collapsible-block-folded .collapsible-block-link::before {
-    content: "▷ ADDENDUM " var(--scp-number) "." counter(collapse);
+    content: "▷ ADDENDUM " var(--scp-number) "." counter(collapse);
 }
 #page-content .collapsible-block-unfolded .collapsible-block-link::before {
-    content: "▽ ADDENDUM " var(--scp-number) "." counter(collapse);
+    content: "▽ ADDENDUM " var(--scp-number) "." counter(collapse);
 }
 #page-content .unfolded-collapse::before {
-    content: "▽ ADDENDUM" var(--scp-number) "." counter(collapse);
+    content: "▽ ADDENDUM" var(--scp-number) "." counter(collapse);
 }
 [[/module]]
 
@@ -68,7 +68,7 @@ The staff stationed at Site-Alfa must perform the following tasks on a daily bas
 * Examine the exterior of Section-Beta for signs of structural damage, and repair any if found. Repair techniques must be analogous to those used before the year 1920. Appropriate construction materials must remain in stock within Section-Alfa.
 * Provide maintenance for the monitoring equipment housed within Section-Alfa. The equipment must constantly scan for Phasma leaks originating from Section-Beta. Leaks must be sealed immediately following 6808 protocol. Witnesses to leak events are to be amnesticed. In case a runaway leak is detected, evacuation plan //Exspiravit// is to be initiated.
 
- As of 03/13/1998, explorations into Section-Beta are prohibited.
+ As of 03/13/1998, explorations into Section-Beta are prohibited.
 
 ----
 
@@ -76,7 +76,7 @@ The staff stationed at Site-Alfa must perform the following tasks on a daily bas
 
 SCP-6808 is a level 12 haunting localized within Section-Beta; a townhouse located at 41 Monument St. in Boston, Massachusetts. SCP-6808 is notable as it far exceeds the expected intensity for a haunting, given the known history of the location. Furthermore, SCP-6808 does not suffer from the natural dissipation effect that most hauntings do. Instead, SCP-6808 has continued to increase in intensity over its time in containment. Currently, SCP-6808 has one of the most dense concentrations of Phasma units known to the Foundation.
 
-SCP-6808 has been contained within the townhouse it originates from via the use of a PFS. This PFS renders the physical structure of Section-Beta a high fidelity containment chamber for all phasmic phenomena.  In recent years, however, the increase in intensity of SCP-6808 has damaged the physical structure of Section-Beta. This in turn has led to an increase in minor leak events.
+SCP-6808 has been contained within the townhouse it originates from via the use of a PFS. This PFS renders the physical structure of Section-Beta a high fidelity containment chamber for all phasmic phenomena.  In recent years, however, the increase in intensity of SCP-6808 has damaged the physical structure of Section-Beta. This in turn has led to an increase in minor leak events.
 
 Additionally, SCP-6808 has a temporarily locked imprint effect. SCP-6808 has the tendency of returning Section-Beta to its former state, presumably the state it was in when the anomaly first manifested. Attempts to reinforce Section-Beta with modern methods have been partially successful. When not rejected, the additions will be replaced with construction techniques and materials that are synchronic to those used around the year 1920. Furthermore, SCP-6808 will repair damage inflicted upon Section-Beta. This effect is, however, too slow to counteract the damages caused by SCP-6808 itself. As such, if maintenance were to be stopped the structure would collapse within two weeks.
 
@@ -156,7 +156,7 @@ A list of example leak events is provided below.
 [[/div]]
 ------
 [[div_ class="center-collapse"]]
-[[collapsible show="Exploration of SCP-6808" hide="Exploration of SCP-6808  -  Close"]]
+[[collapsible show="Exploration of SCP-6808" hide="Exploration of SCP-6808  -  Close"]]
 Several explorations into SCP-6808 took place before the environment was deemed too hazardous. Archived exploration procedures follow.
 
 Staff must be fitted with a psychic protection harness, and must not stay within the apartment for more than five minutes. They are not to react to any manifestations, and are to receive psychological counseling after the exploration is concluded. Bodies within SCP-6808 are not to be retrieved. 
@@ -200,7 +200,7 @@ Transcript of the last exploration log follows.
 
 **Peterson:** Third floor right?
 
-**Rogers:** I-  What? Seriously. Yes third floor second door to the-
+**Rogers:** I-  What? Seriously. Yes third floor second door to the-
 
 **Peterson:** I'm just messing with you.
 
@@ -362,7 +362,7 @@ Transcript of the last exploration log follows.
 
 //[There are seven minutes of silence.]//
 
-**Rogers:** Peterson! Peterson! Are you ok?  Our instruments disconnected as soon as you walked in. It's been two minutes. Are you ok? Peterson? Buddy?
+**Rogers:** Peterson! Peterson! Are you ok?  Our instruments disconnected as soon as you walked in. It's been two minutes. Are you ok? Peterson? Buddy?
 
 [[=]]
 [End log]
@@ -377,7 +377,7 @@ A later examination with a drone revealed that the body of Agent Peterson has re
 [[/div]]
 ------
 [[div_ class="center-collapse"]]
-[[collapsible show="Log of recovered items" hide="Log of recovered items  -  Close"]]
+[[collapsible show="Log of recovered items" hide="Log of recovered items  -  Close"]]
 ~~~~
 [[div class="scp-image-block block-right" style="width:40%;"]]
 [[image Them.png style="width:100%;" link=#]]
@@ -423,7 +423,7 @@ Clark
 November 12th, 1919
 
 Our beloved Regina:
- Why won't you answer us? Have we got the wrong direction? We heard you returned with Mr. Harris and we respect that, but is this not his address? Have you moved?
+ Why won't you answer us? Have we got the wrong direction? We heard you returned with Mr. Harris and we respect that, but is this not his address? Have you moved?
 
 Please, tell us how you are. Where you are. Anything. Your sisters have not heard about you in months either. Please, just let us know if you are ok. 
 
@@ -437,7 +437,7 @@ Your loved ones
 ------
 [[div_ class="center-collapse"]]
 [[collapsible show="Interview with Person of Interest." hide="Interview with Person of Interest.
-  -  Close"]]
+  -  Close"]]
 
 
 The following interview was held shortly before discovery and containment of SCP-6808, in February 26th, 1920. Interviewee is Amelia Jacobs, former inhabitant of Section-Alfa. Interviewer is Agent Mannings.
@@ -485,7 +485,7 @@ The following interview was held shortly before discovery and containment of SCP
 **Mannings:** You can continue.
 
 **Mrs. Jacobs:** Right. I just sat there, staring at the cabinet for a couple of minutes. Eventually I started doubting if it had happened or not. I'm still not sure. Maybe I had just left the door open. My memory isn't that sharp anymore. So I stood up, but then… then the teacup flew right off. I heard it smash against the wall behind me. And well, I just ran to the phone. Didn't even look. Called the station and… you know the rest of the story.
- 
+ 
 **Mannings:** I see.
 
 **Mrs. Jacobs:** You don't believe me.
@@ -560,7 +560,7 @@ The following interview was held shortly before discovery and containment of SCP
 [[/div]]
 ------
 [[div_ class="center-collapse"]]
-[[collapsible show="Containment Update" hide="Containment Update  -  Close"]]
+[[collapsible show="Containment Update" hide="Containment Update  -  Close"]]
 
 As of 08/05/2021, a new experimental containment method for SCP-6808 has been installed within Section-Alfa. This new method upgrades the PFS by adding a Dimensional Shifter. This in turn detaches SCP-6808 from baseline reality and localizes it within its own separate plane of existence. Since the upgrade, there have been no leak events detected. Due to this, the Phasma Unit density within SCP-6808 has greatly increased. However, it is expected the anomaly will no longer pose a threat. 
 
@@ -614,7 +614,7 @@ Attempts to continue monitoring activity within Section-Beta have been mostly un
 [[<]]
 > **Filename:** 18-20 Harvard Street
 > **Author:** Boston City Archives
-> **License:**  CC BY 2.0
+> **License:**  CC BY 2.0
 > **Source Link:** https://www.flickr.com/photos/cityofbostonarchives/8513540170/in/album-72157632811861377/
 [[/<]]
 =====
@@ -623,7 +623,7 @@ Attempts to continue monitoring activity within Section-Beta have been mostly un
 [[<]]
 > **Filename:** Watcher.png
 > **Author:** [[user AWeirdBird]]
-> **License:**  CC BY 2.0
+> **License:**  CC BY 2.0
 > **Additional Notes:** Created with minor edits to the image below.
 [[/<]]
 =====
@@ -631,7 +631,7 @@ Attempts to continue monitoring activity within Section-Beta have been mostly un
 [[<]]
 > **Filename:** Havard Street
 > **Author:** Boston City Archives
-> **License:**  CC BY 2.0
+> **License:**  CC BY 2.0
 > **Source Link:** https://www.flickr.com/photos/cityofbostonarchives/8513538430/in/album-72157632811861377/
 [[/<]]
 ------
@@ -639,7 +639,7 @@ Attempts to continue monitoring activity within Section-Beta have been mostly un
 [[<]]
 > **Filename:** Them.png
 > **Author:** [[user AWeirdBird]]
-> **License:**  CC BY 2.0
+> **License:**  CC BY 2.0
 > **Additional Notes:** Created with minor edits to the image below.
 [[/<]]
 =====
@@ -647,7 +647,7 @@ Attempts to continue monitoring activity within Section-Beta have been mostly un
 [[<]]
 > **Filename:** Faded photo of a man and woman on a dock
 > **Author:** simpleinsomnia
-> **License:**  CC BY 2.0
+> **License:**  CC BY 2.0
 > **Source Link:** https://www.flickr.com/photos/simpleinsomnia/25640735100/in/album-72157639622170263/
 [[/<]]
 =====

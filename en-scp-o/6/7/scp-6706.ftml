@@ -6,52 +6,52 @@
 
 [[module css]]
 :root{
-   --lgurl: url(https://scpdsandbox.wdfiles.com/local--files/tester-alt/scpnewlogo-alt2.png);
-   --linkcolour: rgb(255, 232, 232);
+   --lgurl: url(https://scpdsandbox.wdfiles.com/local--files/tester-alt/scpnewlogo-alt2.png);
+   --linkcolour: rgb(255, 232, 232);
 
-   --alt-text: 255, 245, 245;
-   --alt-top: 20, 20, 20;
-   --alt-black: 5, 5, 5;
+   --alt-text: 255, 245, 245;
+   --alt-top: 20, 20, 20;
+   --alt-black: 5, 5, 5;
 
-   --white-monochrome: 220, 220, 220;
-   --pale-gray-monochrome: 161, 161, 161;
-   --light-pale-gray-monochrome: 161, 161, 161;
-   --very-light-gray-monochrome: 114, 114, 114;
-   --light-gray-monochrome: 60, 60, 60;
-   --gray-monochrome: 35, 35, 35;
-   --dark-gray-monochrome: 35, 35, 35;
-   --black-monochrome: 15, 15, 15;
-   --accentColor: 189, 0, 0;
+   --white-monochrome: 220, 220, 220;
+   --pale-gray-monochrome: 161, 161, 161;
+   --light-pale-gray-monochrome: 161, 161, 161;
+   --very-light-gray-monochrome: 114, 114, 114;
+   --light-gray-monochrome: 60, 60, 60;
+   --gray-monochrome: 35, 35, 35;
+   --dark-gray-monochrome: 35, 35, 35;
+   --black-monochrome: 15, 15, 15;
+   --accentColor: 189, 0, 0;
 
-   --swatch-background: var(--alt-black);
-   --background-gradient-color: var(--alt-top);
+   --swatch-background: var(--alt-black);
+   --background-gradient-color: var(--alt-top);
 
-   --swatch-text-general: var(--alt-text);
+   --swatch-text-general: var(--alt-text);
 
-   --five-color: 189, 0, 0;
-   --four-color: 189, 0, 0;
-   --three-color: 189, 0, 0;
-   --two-color: 189, 0, 0;
-   --one-color: 189, 0, 0;
+   --five-color: 189, 0, 0;
+   --four-color: 189, 0, 0;
+   --three-color: 189, 0, 0;
+   --two-color: 189, 0, 0;
+   --one-color: 189, 0, 0;
 }
 
- #header::before {
-   opacity: 0.2;
-   background-size: auto 9.5rem;
- }
+ #header::before {
+   opacity: 0.2;
+   background-size: auto 9.5rem;
+ }
 
 .scp-image-block {
-   border: solid 0.5rem rgb(var(--white-monochrome));
-   border-bottom: solid 0rem rgb(var(--white-monochrome));
+   border: solid 0.5rem rgb(var(--white-monochrome));
+   border-bottom: solid 0rem rgb(var(--white-monochrome));
 }
 
 .scp-image-block .scp-image-caption {
-   background-color: rgb(var(--white-monochrome));
-   border: solid 0.25rem rgb(var(--white-monochrome));
+   background-color: rgb(var(--white-monochrome));
+   border: solid 0.25rem rgb(var(--white-monochrome));
 }
 
 #license-area{
-   background-color: rgb(var(--alt-black));
+   background-color: rgb(var(--alt-black));
 }
 [[/module]]
 
@@ -63,21 +63,21 @@ display: none;
 }
 
 .modalbox {
-    box-shadow: 0 1px 10px hsl(353deg 100% 38%) !important;
+    box-shadow: 0 1px 10px hsl(353deg 100% 38%) !important;
 }
 
 .blbf-main > div::before {
-    top: -0.5rem;
-    left: -0.35em;
+    top: -0.5rem;
+    left: -0.35em;
 }
 
 .blbf-main > div {
-    border: 0.50rem rgb(var(--swatch-primary-darkest,144,25,1)) solid;
-    margin-left: auto;
+    border: 0.50rem rgb(var(--swatch-primary-darkest,144,25,1)) solid;
+    margin-left: auto;
 }
 
 #main-content sup, sup {
-   background-color: rgb(var(--accentColor));
+   background-color: rgb(var(--accentColor));
 }
 [[/module]]
 
@@ -205,7 +205,7 @@ The following interview was conducted following a confirmed manifestation of SCP
 > 
 > **Dr. Pogan:** What? 
 > 
-> **Morrison:** It was almost peaceful. Beautiful. Hair in the water, clothes waving slightly. I remember seeing this one woman. She had the most gorgeous red hair, perfectly waving around in the water. But she wasn't moving. Somebody bumped into her while trying to swim to the ceiling. It made her turn to face me, and I looked at her. She was so cold. There was nothing there. There was nothing left. She was dead, but -- but she was still screaming --  
+> **Morrison:** It was almost peaceful. Beautiful. Hair in the water, clothes waving slightly. I remember seeing this one woman. She had the most gorgeous red hair, perfectly waving around in the water. But she wasn't moving. Somebody bumped into her while trying to swim to the ceiling. It made her turn to face me, and I looked at her. She was so cold. There was nothing there. There was nothing left. She was dead, but -- but she was still screaming --  
 > 
 > //[He grabs his chest, but does not complain of pain.]//
 > 
@@ -305,7 +305,7 @@ The following exploration was conducted on ██/██/2000, three months foll
 > 
 > **MTF-A:** Not alone, no. Wait one.
 > 
->  //[MTF-A turns to MTF-C, gesturing down the elevator shaft.]//
+>  //[MTF-A turns to MTF-C, gesturing down the elevator shaft.]//
 > 
 > **MTF-A:** Go watch his ass. Junior over here and I will swim up and set up a staging point for the main structure. 
 > 
@@ -347,7 +347,7 @@ The following exploration was conducted on ██/██/2000, three months foll
 > 
 > **MTF-C:** //[Unintelligible]// -- sick, man. What the fuck. What the fuck. Holy shit. 
 > 
->  **MTF-D:** What the hell is going on up there? 
+>  **MTF-D:** What the hell is going on up there? 
 > 
 > **MTF-A:** Control, we -- we uh. Shit -- 
 > 

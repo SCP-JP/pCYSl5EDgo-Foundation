@@ -7,63 +7,63 @@
 [[include :scp-wiki:component:centered-header-bhl]]
 [[module css]]
 body{
-    --barColour: #710709;
+    --barColour: #710709;
 }
 
 :root {
-    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/nb_logo_blk.svg");
-    --wght: 500;
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/nb_logo_blk.svg");
+    --wght: 500;
 }
 
 .quote-text {
-    display: inline-block;
-    border:dashed 1px #999999;
-    background:#1b1c1f;
-    float:center;
-    width:84%;
-    padding:1px 15px;
-    margin: 10px 10px 10px 30px
+    display: inline-block;
+    border:dashed 1px #999999;
+    background:#1b1c1f;
+    float:center;
+    width:84%;
+    padding:1px 15px;
+    margin: 10px 10px 10px 30px
 }
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Collaboration";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
-    line-height: 2.75ex;
+    --wght: 800;
+    content: "Collaboration";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 2.75ex;
 }
 [[/module]]
 
@@ -112,7 +112,7 @@ An additional set of anomalous features have been identified but not studied in 
 [[div class="quote-text"]]
 
 **Mission Intent:** Ascertain any differences that emerge from the baseline anomaly after long-term exploration. Agent Gera led the solo exploration, with Agent Villareal acting as command. Two back-up agents acted as emergency recovery at the stair's base.
- 
+ 
 ----
 
 //(Agent Gera opens the door to SCP-6807. Visibility drastically reduces.)//

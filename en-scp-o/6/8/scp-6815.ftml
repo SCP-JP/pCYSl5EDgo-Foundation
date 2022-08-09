@@ -6,9 +6,9 @@
 
 [[module CSS]]
 .center {
-  margin: auto;
-  width: 60%;
-  padding: 10px;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
 }
 [[/module]]
 
@@ -25,21 +25,21 @@
 
 [[module CSS]]
 div.scale {
-    /* Classification Colors */
-    --woedbar-keter-color: #ffffff;
-    --woedbar-euclid-color: rgba/hsl/hex/name;
-    --woedbar-safe-color: rgba/hsl/hex/name;
-    --woedbar-thaumiel-color: rgba/hsl/hex/name;
-    --woedbar-neutral-color: rgba/hsl/hex/name;
-    /* Angled Bar Colors */
-    --woedbar-lvl1-color: #ffffff;
-    --woedbar-lvl2-color: #ffffff;
-    --woedbar-lvl3-color: #ffffff;
-    --woedbar-lvl4-color: #ffffff;
-    --woedbar-lvl5-color: #ffffff;
-    --woedbar-lvl6-color: rgba/hsl/hex/name;
-    /* Class Bar Color */
-    --woedbar-class-bar-color: #3d3d3d;
+    /* Classification Colors */
+    --woedbar-keter-color: #ffffff;
+    --woedbar-euclid-color: rgba/hsl/hex/name;
+    --woedbar-safe-color: rgba/hsl/hex/name;
+    --woedbar-thaumiel-color: rgba/hsl/hex/name;
+    --woedbar-neutral-color: rgba/hsl/hex/name;
+    /* Angled Bar Colors */
+    --woedbar-lvl1-color: #ffffff;
+    --woedbar-lvl2-color: #ffffff;
+    --woedbar-lvl3-color: #ffffff;
+    --woedbar-lvl4-color: #ffffff;
+    --woedbar-lvl5-color: #ffffff;
+    --woedbar-lvl6-color: rgba/hsl/hex/name;
+    /* Class Bar Color */
+    --woedbar-class-bar-color: #3d3d3d;
 }
 [[/module]]
 

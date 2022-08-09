@@ -7,19 +7,19 @@ Images in this article can be enlarged by hovering over.
 [[module CSS]]
 
 div#header {
-    background-image: url('http://scptestwiki.wikidot.com/local--files/sigma:vivarium-test-page/ITTV_PRIDE_LOGO.png') !important;
+    background-image: url('http://scptestwiki.wikidot.com/local--files/sigma:vivarium-test-page/ITTV_PRIDE_LOGO.png') !important;
 }
 
 [[/module]]
 
 [[module CSS]]
 #header h1 a::before {
-    content: "SCP Foundation";
+    content: "SCP Foundation";
 }
- 
+ 
 #header h2::before {
-    content: "SECURE - CONTAIN - PROTECT";
-    text-shadow: 0rem 0rem 0.3125rem #000000;
+    content: "SECURE - CONTAIN - PROTECT";
+    text-shadow: 0rem 0rem 0.3125rem #000000;
 }
 [[/module]]
 

@@ -3,52 +3,52 @@
 [[include :scp-wiki:component:collapsible-sidebar]]
 
 [[module css]]
- div#container-wrap{
-     background-image: url('http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-2/bg3.png');
-     background-repeat: repeat-x;
+ div#container-wrap{
+     background-image: url('http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-2/bg3.png');
+     background-repeat: repeat-x;
 }
 a.collapsible-block-link:not(.licensebox a.collapsible-block-link) {
-    font-weight: 600;
-    color: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 7px;
-    padding-right: 9px;
-    background: rgb(20, 20, 20);
-    border-radius: 6px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-weight: 600;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 9px;
+    background: rgb(20, 20, 20);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 [[/module]]
 
 [[module CSS]]
 div#header h1 a span {
-    font-size: 0px;
+    font-size: 0px;
 }
 div#header h1 a:before {
-    content: "Site-106";
-    color: #eee;
-    font-family: jostregular;    
+    content: "Site-106";
+    color: #eee;
+    font-family: jostregular;    
 }
 div#header h2 span {
-    font-size:0px;
-    padding: 4px;
+    font-size:0px;
+    padding: 4px;
 }
 div#header h2:after {
-    content: "Procurement and Liquidation";
-    font-weight: bold;
-    font-size: 15px;
-    font-family: jostregular;
-    color: #eee;
-    border-color: rgba(0,0,0,0.267);
+    content: "Procurement and Liquidation";
+    font-weight: bold;
+    font-size: 15px;
+    font-family: jostregular;
+    color: #eee;
+    border-color: rgba(0,0,0,0.267);
 }
 #page-title {
-    display: show;
+    display: show;
 [[/module]]
 
 [[module css]]
 div#header {
-    background-image: url('http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-2/106.png');
+    background-image: url('http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-2/106.png');
 [[/module]]
 [[>]]
 [[module rate]]
@@ -66,10 +66,10 @@ div#header {
 ------
 
 [[include component:image-block
-    name=https://i.imgur.com/2Q8og2y.jpg|
-    caption=Site-106's mess, following structural damaged caused by disturbance of SCP-6318.|
-    align=center|    
-    width=100%|
+    name=https://i.imgur.com/2Q8og2y.jpg|
+    caption=Site-106's mess, following structural damaged caused by disturbance of SCP-6318.|
+    align=center|    
+    width=100%|
 ]]
 
 **Special Containment Procedures:** Due to the infestation of SCP-6318, Site-106 has been evacuated, with its personnel stationed at other facilities in southern Florida. Personnel entering Site-106 are to wear anti-fungal biohazard protection and be accompanied by at least one Foundation psychometrist. All solid matter within Site-106 is to be assumed to be a part of SCP-6318 until otherwise proven by psychometric reading or physical sampling.
@@ -325,8 +325,8 @@ how long until they realize it's a white elephant? _
 
 
 [[div class="recv"]]
-[[span class="text"]]Apparently the contract is already causing problems  _
-Director sprained her ankle getting out of her taxi  _
+[[span class="text"]]Apparently the contract is already causing problems  _
+Director sprained her ankle getting out of her taxi  _
 [[/span]]
 [[/div]]
 
@@ -486,16 +486,16 @@ Maybe I could get into the phone business? _
 @@ @@
 @@ @@
 [[include component:image-block
-    name=https://live.staticflickr.com/4073/4765747977_ce376600c1_b.jpg|
-    caption=The building which formerly housed the BSS's corporate headquarters on the topmost floor.|
-    align=right|    
+    name=https://live.staticflickr.com/4073/4765747977_ce376600c1_b.jpg|
+    caption=The building which formerly housed the BSS's corporate headquarters on the topmost floor.|
+    align=right|    
 ]]
 
 From these, a hypothesis was formed that SCP-6318 had actually infested Site-106 following the Foundation's acquisition of the Bank of the Sunshine State; similar to [[[SCP-6117]]], its anomalous properties were transferred to the Foundation upon purchase. However, investigation of other businesses and properties linked to the Bank — including the offices of [https://scp-wiki.wikidot.com/scp-6237 Esoteric Ritual Services, LLC] — failed to reveal any anomalous properties resembling SCP-6318. Eventually, Agent James Skeates and Director Jean Skeates dispatched themselves to the building which once housed the Bank of the Sunshine State's headquarters, in downtown Miami.
 
 [[div class="blockquote"]]
 
-//James Skeates activates his body camera in the lobby of the office building, facing the directory by the elevators. His mother,  Director Jean Skeates, is accompanying him.//
+//James Skeates activates his body camera in the lobby of the office building, facing the directory by the elevators. His mother,  Director Jean Skeates, is accompanying him.//
 
 **Agent Skeates:** I don't need your help, mom.
 
@@ -680,7 +680,7 @@ The first known involvement SCP-6318 had with the anomalous was discovered in 19
 
 //Dr. Krychowiak repeats herself.//
 
-**Agent Skeates:**  One second.
+**Agent Skeates:**  One second.
 
 //Agent Skeates pulls out his phone.//
 
@@ -733,15 +733,15 @@ Agent Skeates submitted a formal proposal for containment of SCP-6318; by April 
 
 The Department of Mycology has opened a branch at Site-106 to study the recession of SCP-6318. Live cultures are in the process of being shipped out to other Foundation Sites for study, before the main mass is rendered inert.
 
-**Description:** SCP-6318 is a fungal lucrevore which is currently infesting Site-106 and all of its facilities. Prior to the implementation of current containment procedures, SCP-6318 had replaced the majority of matter within Site-106 with its own biomass.  However, due to the implemented containment procedures, its growth has stopped, and it is beginning to recede; currently, 82% of Site-106 is made of fungal matter.
+**Description:** SCP-6318 is a fungal lucrevore which is currently infesting Site-106 and all of its facilities. Prior to the implementation of current containment procedures, SCP-6318 had replaced the majority of matter within Site-106 with its own biomass.  However, due to the implemented containment procedures, its growth has stopped, and it is beginning to recede; currently, 82% of Site-106 is made of fungal matter.
 
 SCP-6318-A instances are non-fungible tokens depicting Site-106 and various items therein, including anomalous items in containment, personnel, and Site-106 itself. The blockchain that SCP-6318-A instances operate on is Foundation-operated and powered by renewable energy. Through an as-of-yet unclear mechanism, SCP-6318-A instances have made Site-106 itself non-fungible, and as such, are slowly eradicating SCP-6318.
 
 [[include component:image-block
-    name=http://scp-sandbox-3.wdfiles.com/local--files/collab:ihp6k/106Banner3.jpg|
-    caption=An SCP-6318-A instance, tied to Site-106 as a whole.|
-    align=center|    
-    width=640px|
+    name=http://scp-sandbox-3.wdfiles.com/local--files/collab:ihp6k/106Banner3.jpg|
+    caption=An SCP-6318-A instance, tied to Site-106 as a whole.|
+    align=center|    
+    width=640px|
 ]]
 [[footnoteblock]]
 

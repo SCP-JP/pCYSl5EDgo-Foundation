@@ -5,17 +5,17 @@
 [[include :scp-wiki:component:acs-animation]]
 [[module css]]
 :root {
-  --timeScale: 1.5;
-  --timeDelay: 1.5s;
-  --posX: calc(50% - 358px - 13rem);
-  --cutColour: #fafafa;
-  --barColour: #590505;
-  --fnColor: #cb4450;
-  --header-subtitle: "The Department of Spectral Phenomena";
+  --timeScale: 1.5;
+  --timeDelay: 1.5s;
+  --posX: calc(50% - 358px - 13rem);
+  --cutColour: #fafafa;
+  --barColour: #590505;
+  --fnColor: #cb4450;
+  --header-subtitle: "The Department of Spectral Phenomena";
 }
 
 body {
-    background-image: none;
+    background-image: none;
 }
 
 
@@ -26,98 +26,98 @@ color: #FFF;
 }
 
 #page-title {
-    text-align: center;
+    text-align: center;
 }
 
 .coolcol .collapsible-block {
-    display: block;
-    text-align: center;
-    padding: 0.75em;
-    background-color: lightgrey;
-    border-top: 0.125rem dashed slategrey;
-    border-bottom: 0.125rem dashed slategrey;
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    background-color: lightgrey;
+    border-top: 0.125rem dashed slategrey;
+    border-bottom: 0.125rem dashed slategrey;
 }
 
 .coolcol .collapsible-block .collapsible-block-content {
-    text-align: left;
+    text-align: left;
 }
 
 .addendum {
-    border:solid 2px #999999;
-    background:#F5F5F5;
-    width:84%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:solid 2px #999999;
+    background:#F5F5F5;
+    width:84%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* black shadow at the top of the terminal */
-    background-image:
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
+    background-image:
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 
 div.text a:hover::before{
@@ -125,38 +125,38 @@ content: "> ";
 }
 
 #page-content .rate-box-with-credit-button, .page-rate-widget-box {
-    box-shadow: none;
+    box-shadow: none;
 }
 #page-content .creditRate { border: solid 2px #ccc;}
 
 #page-content h1 {
-    border-bottom: solid 1px #ccc;
-    margin: 0 0 0.6em;
+    border-bottom: solid 1px #ccc;
+    margin: 0 0 0.6em;
 }
 
- 
+ 
 div#extra-div-1 {
-    height: 160px;
-    width: 100%;
-    top: 0;
-    position: absolute;
-    background: url('https://scp-wiki.wikidot.com/local--files/theme:paperstack/lgtrans.png');
-    filter: opacity(70%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    z-index: -1;
+    height: 160px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background: url('https://scp-wiki.wikidot.com/local--files/theme:paperstack/lgtrans.png');
+    filter: opacity(70%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: -1;
 }
 
 #main-content .page-tags a {
-    line-height: 0.94rem;
-    background-color: none;
-    margin: initial;
-    padding: 0.17rem;
-    box-shadow: none;
+    line-height: 0.94rem;
+    background-color: none;
+    margin: initial;
+    padding: 0.17rem;
+    box-shadow: none;
 }
 #main-content .page-tags a:before {
-    content: "";
+    content: "";
 }
 
 [[/module]]

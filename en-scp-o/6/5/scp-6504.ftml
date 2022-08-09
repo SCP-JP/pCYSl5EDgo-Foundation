@@ -3,7 +3,7 @@
 [[/>]]
 
 [[module CSS]]
-  .footnoteref{ font-variant: unset; }
+  .footnoteref{ font-variant: unset; }
 [[/module]]
 [[div style="text-align: right; margin-top: -20px;"]]
 [[size 80%]]##757575|by J Dune##[[/size]]
@@ -12,70 +12,70 @@
 [[module CSS]]
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* black shadow at the top of the terminal */
-    background-image:
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
+    background-image:
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(128,255,128,0.8);
+    padding: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -179,13 +179,13 @@ content: "> ";
 
 > put myself in the basement. boarded up the windows. not going to leave. there’s a rotten, little flame inside me, barely burning, but the pain compounds. i can endure it, but there’s nothing there anymore. nothing nothing nothing. to them, nothing is still too much left.
 
-**Description:**  SCP-6504 is a psychological condition in which an individual perceives Earth’s sun and moon as possessing human facial features when observed. Feelings of severe paranoia, resulting from the victim’s belief that both objects are capable of observing them, are a prominent symptom of SCP-6504.
+**Description:**  SCP-6504 is a psychological condition in which an individual perceives Earth’s sun and moon as possessing human facial features when observed. Feelings of severe paranoia, resulting from the victim’s belief that both objects are capable of observing them, are a prominent symptom of SCP-6504.
 
 Individuals describe the sun as possessing an agonized, pained scowl, and ascribe the star as provoking feelings of intense hatred of themselves and those around them. The moon’s expression has been described as hollow, or devoid of emotion, with the satellite inciting feelings of extreme disassociation and despair.
 
 > two of the same. two types of anger. they hate me. they hate me. all they can do is hate. and they love it. i don’t know what i did.
 
- SCP-6504’s two primary anomalous effects manifest in correspondence to the individual’s proximity to the aforementioned celestial bodies, but occur regardless of whether or not the individual is capable of observing the two objects. During the day, when the sun is visible, an individual’s innards, including their flesh, muscle tissue, organs, and skeleton, will gradually heat themselves over the duration of the day to temperatures up to 1,000 K, resulting in incredible amounts of pain. Despite the lethality such heat imposes on the human body, no physical damage is sustained, and their bodies do not outwardly reflect their actual temperature when touched or interacted with.
+ SCP-6504’s two primary anomalous effects manifest in correspondence to the individual’s proximity to the aforementioned celestial bodies, but occur regardless of whether or not the individual is capable of observing the two objects. During the day, when the sun is visible, an individual’s innards, including their flesh, muscle tissue, organs, and skeleton, will gradually heat themselves over the duration of the day to temperatures up to 1,000 K, resulting in incredible amounts of pain. Despite the lethality such heat imposes on the human body, no physical damage is sustained, and their bodies do not outwardly reflect their actual temperature when touched or interacted with.
 
 > died a million deaths in the past thirty seconds. but i don’t pass out anymore. used to, a week ago. It’s still morning.
 
@@ -212,7 +212,7 @@ The following log transcript is sourced from an interview between Junior Researc
 
 //he’s scared. it’s night, the featureless giant bears witness to those cursed to SEE. he’s not coughing blood, he can’t do that. it’s pooling in his throat and we’re pumping it out. while pumping in amnestics, parapharmaceuticals, and anything we can find to get him talking. after an hour, it works. after another hour, he talks.//
 
-//about the moon. the cold. it sees, it watches, it sees, it watches, it’s forever.  i’ve said it all before. every interview is the same. the same sickened babble i’ve been vomiting out myself now. nothing to gain. and then he’s sleeping again, but with his eyes open.//
+//about the moon. the cold. it sees, it watches, it sees, it watches, it’s forever.  i’ve said it all before. every interview is the same. the same sickened babble i’ve been vomiting out myself now. nothing to gain. and then he’s sleeping again, but with his eyes open.//
 
 //this is when it started, on the roof of the facility checking forms and papers and making sure i was doing the POINTLESS POINTLESS POINTLESS work that i had always done. not diligently. not with care. just a distraction, leading up to the moment when i gazed at the face of the moon, and it broke a million bones just to say that it was not there.//
 
@@ -281,7 +281,7 @@ A number of experiments have been performed related to SCP-6504.
 @@ @@
 > still here
 @@ @@
-> i can endure just to spite them.   
+> i can endure just to spite them.   
 
 @@ @@
 @@ @@
@@ -421,7 +421,7 @@ In the months that followed, after usage of experimental memetic and parapharmac
 > **Source Link:** [https://www.flickr.com/photos/18090920@N07/6332762868flickr]
 
 > **Filename:** sunmoongif.gif
-> **Name:**  The sun
+> **Name:**  The sun
 > **Author:** [https://www.flickr.com/photos/10507022@N07 Lima Andruska]
 > **License:** CC-BY-2.0
 > **Source Link:** [https://www.flickr.com/photos/10507022@N07/2443850489 flickr]

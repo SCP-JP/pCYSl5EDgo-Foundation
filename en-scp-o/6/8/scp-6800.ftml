@@ -6,11 +6,11 @@
 [[include :scp-wiki:theme:extra-black-highlighter-theme]]
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -18,70 +18,70 @@
 [[/module]]
 [[module CSS]]
 }div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* black shadow at the top of the terminal */
-    background-image: 
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -97,89 +97,89 @@ content: "> ";
 }
 
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: 'Pangolin', cursive;
-    font-size: 1.6em;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: 'Pangolin', cursive;
+    font-size: 1.6em;
+    font-style: normal;
 
-   
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
-    
+   
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 .page ul {
-    list-style: symbols;
+    list-style: symbols;
 }
 
 #page-content {
-    position: relative;
+    position: relative;
 }
 
 .desktop-only {
-    height: 24rem;
-    width: 10rem;
-    background: #000000;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 15rem;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    border: solid 1px #444444;
-    padding: 10px;
-    -webkit-box-shadow: none;
-       -moz-box-shadow:  none;
-            box-shadow: none;
-    overflow: visible;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-       -moz-box-orient: vertical;
-       -moz-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-transform: translateX(400%);
-       -moz-transform: translateX(400%);
-        -ms-transform: translateX(400%);
-         -o-transform: translateX(400%);
-            transform: translateX(400%);
+    height: 24rem;
+    width: 10rem;
+    background: #000000;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: solid 1px #444444;
+    padding: 10px;
+    -webkit-box-shadow: none;
+       -moz-box-shadow:  none;
+            box-shadow: none;
+    overflow: visible;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateX(400%);
+       -moz-transform: translateX(400%);
+        -ms-transform: translateX(400%);
+         -o-transform: translateX(400%);
+            transform: translateX(400%);
 }
 
 .article {
-    margin-top: -21rem!important;
+    margin-top: -21rem!important;
 }
-    
+    
 @media (max-width: 1250px) {
-    .desktop-only {
-     display: none !important;
-     visibility:hidden
-    }
+    .desktop-only {
+     display: none !important;
+     visibility:hidden
+    }
 .article {
-    margin-top: 4rem!important;
+    margin-top: 4rem!important;
 }
-    #page-content > div:nth-child(5) {
-     margin-top: 0;
-    }
+    #page-content > div:nth-child(5) {
+     margin-top: 0;
+    }
 
 }
 
@@ -490,7 +490,7 @@ As far as our organization is concerned, the Maxwellists are not a concern at th
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
 It snowed today in [[[http://scp-wiki.wikidot.com/taboo|the only land I can call home]]]. It never snows here, not since the war. Mother says that's a bad sign but nothing's going wrong as far as I can tell. I've asked her what she meant, but she said I just have to keep my head down and my mouth shut. "It's for your own safety." What a farce.
 
-Something is //definitely// up and not a single fae is telling me. Is it because I'm young? Or maybe it's because I've never stolen a name. I don't know. Father says that tough times are coming and that WAN is seeking... something. Some kind of metal made from pigs? I didn't understand, but at least its something to go on.  
+Something is //definitely// up and not a single fae is telling me. Is it because I'm young? Or maybe it's because I've never stolen a name. I don't know. Father says that tough times are coming and that WAN is seeking... something. Some kind of metal made from pigs? I didn't understand, but at least its something to go on.  
 
 I tried to ask Old Man Java about the pig iron thing, but he wouldn't tell me much either. He was boarding up his shed, I guess he was trying to tie it to this place with a bunch of names he made up and magic wood that he cut down. I don't think it works that way, but whatever makes him happy I guess. I helped him as best as I could, but for the most part I sat on a tree stump and just watched him work. He says I shouldn't feel bad, but I still do. I don't like being so useless. 
 
@@ -720,7 +720,7 @@ Following the apprehension of PoI-6800-1, an interview was conducted by O5-7 in 
 
 //[PoI-6800-1 hits the table again. When she removes her fist, it is covered with blood.]//
 
-**PoI-6800-1:**  When the machine men brought their fires to ##green|the land of which we cannot speak## you did nothing. I know that you know about the other side of the well and that you know how to get there. You weren't there for us when we needed you, and now you want to //apologize//? Please. I've been on the run with the only family I have left for seven days. Seven fucking days. What good's an apology now that everyone's dead?
+**PoI-6800-1:**  When the machine men brought their fires to ##green|the land of which we cannot speak## you did nothing. I know that you know about the other side of the well and that you know how to get there. You weren't there for us when we needed you, and now you want to //apologize//? Please. I've been on the run with the only family I have left for seven days. Seven fucking days. What good's an apology now that everyone's dead?
 
 //PoI-6800-1 continues to pace back and forth for several minutes. She runs her hands through her hair and pulls on parts of it. Her eyes appear bloodshot. Her hand is bleeding.]//
 
@@ -855,19 +855,19 @@ Stay warm. God help us.
 = __O5 COUNCIL PROPOSAL SUMMARY__
 
 PROPOSAL:
-@@     @@"Remain a neutral power in the wake of the new civilization" (O5-1)
+@@     @@"Remain a neutral power in the wake of the new civilization" (O5-1)
 
 = COUNCIL VOTE SUMMARY:
-||~ YEA  ||~ NAY  ||~ ABSTAIN ||
+||~ YEA  ||~ NAY  ||~ ABSTAIN ||
 || O5-1 || O5-4 || O5-6 ||
-|| O5-2 || O5-8 ||          ||
-|| O5-3 || O5-12 ||          ||
-|| O5-5 ||       ||          ||
-||  ||       || O5-7         ||
-|| O5-9 ||       ||          ||
-|| O5-10 ||       ||          ||
-|| O5-11 ||       ||          ||
-|| O5-13 ||       ||          ||
+|| O5-2 || O5-8 ||          ||
+|| O5-3 || O5-12 ||          ||
+|| O5-5 ||       ||          ||
+||  ||       || O5-7         ||
+|| O5-9 ||       ||          ||
+|| O5-10 ||       ||          ||
+|| O5-11 ||       ||          ||
+|| O5-13 ||       ||          ||
 @@ @@
 ||~ STATUS ||
 || ##07b800|APPROVED## ||
@@ -878,20 +878,20 @@ PROPOSAL:
 = __O5 COUNCIL PROPOSAL SUMMARY__
 
 PROPOSAL:
-@@     @@"Assist in Maxwellist efforts to harvest the fae folk for the foreseeable future" (O5-10)
+@@     @@"Assist in Maxwellist efforts to harvest the fae folk for the foreseeable future" (O5-10)
 
 = COUNCIL VOTE SUMMARY:
-||~ YEA  ||~ NAY  ||~ ABSTAIN ||
+||~ YEA  ||~ NAY  ||~ ABSTAIN ||
 || O5-1 || O5-4 || O5-6 ||
-|| O5-2 || O5-8 ||          ||
-|| O5-3 || ||          ||
-||O5-12 ||        || || 
-||  ||O5-5       ||          ||
-||  || O5-7      ||         ||
-|| O5-9 ||       ||        ||
-|| O5-10 ||       ||          ||
-||  || O5-11      ||          ||
-|| O5-13 ||       ||          ||
+|| O5-2 || O5-8 ||          ||
+|| O5-3 || ||          ||
+||O5-12 ||        || || 
+||  ||O5-5       ||          ||
+||  || O5-7      ||         ||
+|| O5-9 ||       ||        ||
+|| O5-10 ||       ||          ||
+||  || O5-11      ||          ||
+|| O5-13 ||       ||          ||
 @@ @@
 ||~ STATUS ||
 || ##07b800|APPROVED## ||
