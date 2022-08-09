@@ -3,19 +3,19 @@
 
 [[module CSS]]
 div#extra-div-1 {
-     width: 100%;
-     height: calc(100% - var(--final-header-height-on-desktop));
-     position: absolute;
-     top: calc(var(--final-header-height-on-desktop));
-     left: 0;
-     z-index: -1;
-     mask: var(--gradient-background);
-     -webkit-mask: var(--gradient-background);
-     background-image: url(http://scp-wiki.wdfiles.com/local--files/scp-5651/planetnostarsmirror.jpg);
-     background-size: 100%, 80% var(--background-gradient-distance);
-     background-blend-mode: difference;
-     background-repeat: no-repeat, repeat-x;
-     pointer-events: none;
+     width: 100%;
+     height: calc(100% - var(--final-header-height-on-desktop));
+     position: absolute;
+     top: calc(var(--final-header-height-on-desktop));
+     left: 0;
+     z-index: -1;
+     mask: var(--gradient-background);
+     -webkit-mask: var(--gradient-background);
+     background-image: url(http://scp-wiki.wdfiles.com/local--files/scp-5651/planetnostarsmirror.jpg);
+     background-size: 100%, 80% var(--background-gradient-distance);
+     background-blend-mode: difference;
+     background-repeat: no-repeat, repeat-x;
+     pointer-events: none;
 }
 [[/module]]
 
@@ -82,7 +82,7 @@ On 7 May 2017, Beholder-11 arrived at the border of Omicron-5651, indicated by a
 > 
 > **Dr. Stills:** //Sigh.// At least the noise is gone now.
 > 
->  **Dr. Steynburg:** What was the problem?
+>  **Dr. Steynburg:** What was the problem?
 > 
 > **Dr. Stills:** We- Uh... We are in Omicron-5651.
 > 

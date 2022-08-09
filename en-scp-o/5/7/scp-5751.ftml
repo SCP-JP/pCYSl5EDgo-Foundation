@@ -8,11 +8,11 @@
 
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -21,21 +21,21 @@
 
 [[module CSS]]
 :root {
-    --timeDelay: 0.5s;
+    --timeDelay: 0.5s;
 }
 [[/module]]
 
 [[module CSS]]
 /* anendlessusername's invaluable correction of the ACS octagon! */
 #page-content .quadrants > div {
-    top: 2.25%;
-    left: 18.5%;
+    top: 2.25%;
+    left: 18.5%;
 }
 [[/module]]
 
 [[module CSS]]
 #header {
-  background-image: url(http://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/43pride.png)
+  background-image: url(http://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/43pride.png)
 }
 [[/module]]
 
@@ -79,9 +79,9 @@ Nothing is ever truly lost. Well, innocence. And respect. And court cases...
 ----
 
 [[include component:image-block-peppo
-    name=Disc.jpg|
-    caption=SCP-5751-3381-3.|
-    width=290px
+    name=Disc.jpg|
+    caption=SCP-5751-3381-3.|
+    width=290px
 ]]
 **Special Containment Procedures:** To contain SCP-5751, the Foundation would need to secure all instances of optical storage media worldwide and halt their further production. As such action would represent an enormous expenditure of funds and manpower, and attract considerable media attention, this approach is not presently under consideration.[[span class="fnnum"]].[[/span]][[span class="fncon"]] Cernunnos-class objects can be contained by the Foundation, but the measures required to do so are impractical.[[/span]]
 
@@ -94,10 +94,10 @@ Instances of SCP-5751 are archived in High-Yield Data Storage Facility 4 at [htt
 **Description:** SCP-5751 is the phenomenon of additional items appearing in collections of disc-based storage media after their owner's death. The first SCP-5751 instances were 8-inch 'floppy' disks. The anomaly has since spread to 5¼-inch and 3½-inch disks, fixed disks, Zip disks, compact discs (CD-ROM), digital versatile discs (DVD), MiniDiscs, MiniDVD, LaserDiscs and Blu-Ray discs.
 
 [[include component:image-block
-    name=Disk.jpg|
-    caption=SCP-5751-305.|
-    width=290px|
-   align=left|
+    name=Disk.jpg|
+    caption=SCP-5751-305.|
+    width=290px|
+   align=left|
 ]]
 
 Upon the death of an individual possessing a disc collection numbering twenty items or more, there is a high probability that an SCP-5751 instance will manifest within it. The instance will contain sensitive digital information pertaining to the collection's owner; this can include images, documents, videos, and application-specific files. These files are not created by the anomaly, but rather restored; they were deleted or destroyed by the collection's owner at some point during their lives.[[span class="fnnum"]].[[/span]][[span class="fncon"]]See database entries for SCP-5751-1 and SCP-5751-5958 below for the evidence behind this assertion.[[/span]] The discs themselves are created by the anomaly, though they closely mimic other items in the same collection — to the point of matching their physical condition, such that instances originating outside of the Foundation often feature crude 'repairs' attempted by their discoverers to make them machine-readable.
@@ -111,7 +111,7 @@ Every file on an instance of SCP-5751 carries negative moral or legal implicatio
 
 [[table style="border-collapse:collapse; margin-bottom:3px; width: 100%"]]
 [[row]]
-[[cell style="border: 1px solid black; background-color: #D7EFE7; padding: 12px; text-align: center"  colspan="4"]]
+[[cell style="border: 1px solid black; background-color: #D7EFE7; padding: 12px; text-align: center"  colspan="4"]]
 43NET: Catalogue of SCP-5751 Instances [SELECTED]
 [[/hcell]]
 [[/row]]
@@ -388,7 +388,7 @@ Every file on an instance of SCP-5751 carries negative moral or legal implicatio
 [[cell style="border: 1px solid black; width: 100%; padding-left: 12px; padding-right: 12px" colspan="2"]]
 **Description:** N/A
 
-**Notes:** Five members of the Church of the Broken God, who had been acting as informants for the Foundation, were uncovered as traitors in early October 2020. They were able to escape to a safehouse in St. Petersburg to await extraction. Highest Priest Robert Bumaro confronted the O5 council and demanded proof that the Foundation was uninvolved.  The agents were disavowed by the council and killed via airstrike, to preserve the tenuous truce between the two organizations. Disc collections had been prepared in advance to cover this eventuality; no new discs appeared, however.
+**Notes:** Five members of the Church of the Broken God, who had been acting as informants for the Foundation, were uncovered as traitors in early October 2020. They were able to escape to a safehouse in St. Petersburg to await extraction. Highest Priest Robert Bumaro confronted the O5 council and demanded proof that the Foundation was uninvolved.  The agents were disavowed by the council and killed via airstrike, to preserve the tenuous truce between the two organizations. Disc collections had been prepared in advance to cover this eventuality; no new discs appeared, however.
 [[/cell]]
 [[/row]]
 [[row]]
@@ -434,12 +434,12 @@ Every file on an instance of SCP-5751 carries negative moral or legal implicatio
 [[/row]]
 [[row]]
 [[cell style="border: 1px solid black; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; padding-left: 24px;background-color: #F3F3F3" colspan="2"]]
- //How much awful shit did Royle have to do to get us that info? And how did you convince him to commit suicide when he was done?// [Blank, Dr. H.]
+ //How much awful shit did Royle have to do to get us that info? And how did you convince him to commit suicide when he was done?// [Blank, Dr. H.]
 [[/cell]]
 [[/row]]
 [[row]]
 [[cell style="border: 1px solid black; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; padding-left: 36px;background-color: #F3F3F3" colspan="2"]]
- //1) You don't want to know, and 2) the stuff you don't want to know about convinced him.// [Sokolsky, Dr. D.]
+ //1) You don't want to know, and 2) the stuff you don't want to know about convinced him.// [Sokolsky, Dr. D.]
 [[/cell]]
 [[/row]]
 [[/table]]
@@ -518,17 +518,17 @@ Every file on an instance of SCP-5751 carries negative moral or legal implicatio
 [[/row]]
 [[row]]
 [[cell style="border: 1px solid black; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; padding-left: 36px;background-color: #F3F3F3" colspan="2"]]
-  //You're reading it wrong. I __asked__ them to kill and resuscitate me until all the data showed up in my Blu-Ray collection.// [Sokolsky, Dr. D.]
+  //You're reading it wrong. I __asked__ them to kill and resuscitate me until all the data showed up in my Blu-Ray collection.// [Sokolsky, Dr. D.]
 [[/cell]]
 [[/row]]
 [[row]]
 [[cell style="border: 1px solid black; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; padding-left: 48px;background-color: #F3F3F3" colspan="2"]]
- //How many tries did that take?// [Blank, Dr. H.]
+ //How many tries did that take?// [Blank, Dr. H.]
 [[/cell]]
 [[/row]]
 [[row]]
 [[cell style="border: 1px solid black; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; padding-left: 60px;background-color: #F3F3F3" colspan="2"]]
- //More than five.// [Sokolsky, Dr. D.]
+ //More than five.// [Sokolsky, Dr. D.]
 [[/cell]]
 [[/row]]
 [[row]]
@@ -636,18 +636,18 @@ P.S. What about using a disc collection with a specific weight as a dead man's s
 
 > **Filename:** HDD.jpg
 > **Title:** An HDD
-> **Author:**  Ervins Strauhmanis 
+> **Author:**  Ervins Strauhmanis 
 > **License:** CC BY 2.0
 > **Source:** [https://search.creativecommons.org/photos/5fd38fcf-d07a-43ce-a6e3-8a7b046ebb1b flickr]
 
 > **Filename:** Laser.jpg
 > **Title:** LDDVDComparison-mod
-> **Author:**  Kevin586
+> **Author:**  Kevin586
 > **License:** CC BY-SA 3.0
 > **Source:** [https://commons.wikimedia.org/wiki/File:LDDVDComparison-mod.png Wikimedia Commons]
 
 > **Filename:** All other .jpg/.png files
-> **Author:**  [[*user HarryBlank]]
+> **Author:**  [[*user HarryBlank]]
 > **License:** CC BY-SA 3.0
 [[/<]]
 =====

@@ -4,51 +4,51 @@
 
 [[html]]
 <style type="text/css">
-    body {
-    	font-family:  verdana, arial, helvetica, sans-serif;
-    	font-size: 12.8px; /* 16px * 0.8 */
-    	color: #333;
-    	line-height: 141%;
-    }
-    #classified-info, #meme-agent {
-    	display: none;
-    }
+    body {
+    	font-family:  verdana, arial, helvetica, sans-serif;
+    	font-size: 12.8px; /* 16px * 0.8 */
+    	color: #333;
+    	line-height: 141%;
+    }
+    #classified-info, #meme-agent {
+    	display: none;
+    }
 
-    blockquote {
-    	border: 1px dashed #999;
-    	padding: 0 12.8px;
-    	background-color: #f4f4f4;
-    }
-    a {
-    	color: blue;
-    	cursor: pointer;
-    	text-decoration: none;
-        font-size: 12.8 px;
-    }
-    .collapsed {
-    	display: none;
-    }
-    h3 {
-    	font-size: 150%;
-    	font-weight: bold;
-    	margin-bottom: 0;
-    }
-    h4 {
-    	font-size: 130%;
-    	font-weight: bold;
-    	margin-bottom: 0;
-    }
-    .image-container.floatright {
-        padding-right: 0;
-        float: right;
-    }
-    tt{
-        font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
-        font-size: 98%;
-    }
-    .collapsed {
-    	display: none;
-    }
+    blockquote {
+    	border: 1px dashed #999;
+    	padding: 0 12.8px;
+    	background-color: #f4f4f4;
+    }
+    a {
+    	color: blue;
+    	cursor: pointer;
+    	text-decoration: none;
+        font-size: 12.8 px;
+    }
+    .collapsed {
+    	display: none;
+    }
+    h3 {
+    	font-size: 150%;
+    	font-weight: bold;
+    	margin-bottom: 0;
+    }
+    h4 {
+    	font-size: 130%;
+    	font-weight: bold;
+    	margin-bottom: 0;
+    }
+    .image-container.floatright {
+        padding-right: 0;
+        float: right;
+    }
+    tt{
+        font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
+        font-size: 98%;
+    }
+    .collapsed {
+    	display: none;
+    }
 </style>
 <h3 style="text-align:center">Persons of the Dialogue</h3>
 <hr>
@@ -57,7 +57,7 @@
 * The Narrator
 * The Reader
 [[module ListUsers users="."]] 
-    
+    
 The Role of the Reader is to be assumed by the Scholar %%title%%.
 [[/module]]
 
@@ -65,80 +65,80 @@ The scene is laid in the Containment Protocol Archives; and the whole dialogue i
 
 [[html]]
 <style type="text/css">
-    body {
-    	font-family: verdana, arial, helvetica, sans-serif;
-    	font-size: 12.8px; /* 16px * 0.8 */
-    	color: #333;
-    	line-height: 141%;
-    }
-    #classified-info, #meme-agent {
-    	display: none;
-    }
+    body {
+    	font-family: verdana, arial, helvetica, sans-serif;
+    	font-size: 12.8px; /* 16px * 0.8 */
+    	color: #333;
+    	line-height: 141%;
+    }
+    #classified-info, #meme-agent {
+    	display: none;
+    }
 
-    blockquote {
-    	border: 1px dashed #999;
-    	padding: 0 12.8px;
-    	background-color: #f4f4f4;
-    }
-    a {
-    	color: blue;
-    	cursor: pointer;
-    	text-decoration: none;
-        font-size: 12.8 px;
-    }
-    .collapsed {
-    	display: none;
-    }
-    h3 {
-    	font-size: 150%;
-    	font-weight: bold;
-    	margin-bottom: 0;
-    }
-    h4 {
-    	font-size: 130%;
-    	font-weight: bold;
-    	margin-bottom: 0;
-    }
-    .image-container.floatright {
-        padding-right: 0;
-        float: right;
-    }
-    tt{
-        font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
-        font-size: 98%;
-    }
-    .collapsed {
-    	display: none;
-    }
+    blockquote {
+    	border: 1px dashed #999;
+    	padding: 0 12.8px;
+    	background-color: #f4f4f4;
+    }
+    a {
+    	color: blue;
+    	cursor: pointer;
+    	text-decoration: none;
+        font-size: 12.8 px;
+    }
+    .collapsed {
+    	display: none;
+    }
+    h3 {
+    	font-size: 150%;
+    	font-weight: bold;
+    	margin-bottom: 0;
+    }
+    h4 {
+    	font-size: 130%;
+    	font-weight: bold;
+    	margin-bottom: 0;
+    }
+    .image-container.floatright {
+        padding-right: 0;
+        float: right;
+    }
+    tt{
+        font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
+        font-size: 98%;
+    }
+    .collapsed {
+    	display: none;
+    }
 </style>
 <script type="text/javascript">
 
 var collapsibleLink = function(className) {
-    var collapsed = document.querySelectorAll("." + className + ".collapsed");
-    var expanded = document.querySelectorAll("." + className + ":not(.collapsed)");
-    var i;
-    for(i = 0; i < collapsed.length; i++) {
-        collapsed[i].classList.remove("collapsed");
-    }
-    for(i = 0; i < expanded.length; i++) {
-        expanded[i].classList.add("collapsed");
-    }
+    var collapsed = document.querySelectorAll("." + className + ".collapsed");
+    var expanded = document.querySelectorAll("." + className + ":not(.collapsed)");
+    var i;
+    for(i = 0; i < collapsed.length; i++) {
+        collapsed[i].classList.remove("collapsed");
+    }
+    for(i = 0; i < expanded.length; i++) {
+        expanded[i].classList.add("collapsed");
+    }
 }
 
 var hideBlock = function(blockName) {
-    var expanded = document.querySelectorAll("." + blockName + ":not(.collapsed)");
-    var i;
-    for(i = 0; i < expanded.length; i++) {
-        expanded[i].classList.add("collapsed");
-    }
+    var expanded = document.querySelectorAll("." + blockName + ":not(.collapsed)");
+    var i;
+    for(i = 0; i < expanded.length; i++) {
+        expanded[i].classList.add("collapsed");
+    }
 }
 
 var showBlock = function(blockName) {
-    var collapsed = document.querySelectorAll("." + blockName + ".collapsed");
-    var i;
-    for(i = 0; i < collapsed.length; i++) {
-        collapsed[i].classList.remove("collapsed");
-    }
+    var collapsed = document.querySelectorAll("." + blockName + ".collapsed");
+    var i;
+    for(i = 0; i < collapsed.length; i++) {
+        collapsed[i].classList.remove("collapsed");
+    }
 }
 </script>
 
@@ -200,7 +200,7 @@ var showBlock = function(blockName) {
 
 <div class="block4 collapsed">
 <p><a onclick="collapsibleLink('block4');">Reader: What is the description of the item in question?</a></p>
-<p>Narrator: SCP-4500 is a Platonic ideal. In particular, it is the abstractification of the exact concept  █████████ ███████████ █████ (known as SCP-4500-1). Unlike most ideal concepts, SCP-4500 can be physically interacted with through philosophical thought. Group contemplation of SCP-4500-1, facilitated by Socratic Dialogue, allows travel to SCP-4500.
+<p>Narrator: SCP-4500 is a Platonic ideal. In particular, it is the abstractification of the exact concept  █████████ ███████████ █████ (known as SCP-4500-1). Unlike most ideal concepts, SCP-4500 can be physically interacted with through philosophical thought. Group contemplation of SCP-4500-1, facilitated by Socratic Dialogue, allows travel to SCP-4500.
 <p>
 <p>Mental travel to SCP-4500 is possible through contemplation of the ideal qualities inherent to SCP-4500, and is facilitated by group discussion and debate.
 <p>
@@ -238,7 +238,7 @@ var showBlock = function(blockName) {
 
 <p>Narrator: The item in question was discovered on ██/██/19██ during a spirited debate between ██████ █████ █████████ and ████████ ███████ concerning the philosophical underpinnings of their seminal work █████████ ███████████. During the debate, the two philosophers apparently conceived of SCP-4500-1 organically and discussed its existence, at which point they entered SCP-4500.
 
-The two discussed their findings in a college-wide seminar a week later. A Foundation operative planted in the mathematics department of  ███████ College was able to document this seminar. Class-A amnestics were administered to all civilians involved.
+The two discussed their findings in a college-wide seminar a week later. A Foundation operative planted in the mathematics department of  ███████ College was able to document this seminar. Class-A amnestics were administered to all civilians involved.
 
 <h3 style="text-align:center">Book VI: Examples of SCP-4500-A</h3>
 <hr>
@@ -380,5 +380,5 @@ This room was distinct from the others, including an idealization of 'small stra
 [[/div]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

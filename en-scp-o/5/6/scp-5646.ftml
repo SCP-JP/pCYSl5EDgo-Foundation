@@ -30,15 +30,15 @@
 @import url("https://d3g0gp89917ko0.cloudfront.net/v--95415cd81222/common--theme/base/css/style.css");
 @import url("https://scp-wiki.wdfiles.com/component:theme/code/1");
 title-fade {
-  font-size: 72px;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 </style>
- 
- <div id="main-content" class="main-content" style="">
+ 
+ <div id="main-content" class="main-content" style="">
 <div id="page-content" class="page-content" style="">
 
 <p><iframe src="/thebillith/html/1ffb8351dd0024bc347dff21c05605c11d950093-1089285798226675619" allowtransparency="true" frameborder="0" class="html-block-iframe"></iframe><br />
@@ -53,8 +53,8 @@ title-fade {
 var numpicker= setInterval(randnum, 20000);
 var objpicker = setInterval(randobj, 20000);
 var contpicker = setInterval(randcont,20000);
-var clearpicker =  setInterval(randclear, 20000);
-var floorpicker =  setInterval(randlev, 20000);
+var clearpicker =  setInterval(randclear, 20000);
+var floorpicker =  setInterval(randlev, 20000);
 var sitepicker = setInterval(randsite, 20000);
 
 
@@ -82,10 +82,10 @@ iteratenum4[i].innerHTML = d;
 }
 function randobj() {
 
-  var x = Math.floor(Math.random() * 16);
+  var x = Math.floor(Math.random() * 16);
 
-  var obclas= ["Fluxus","Safe","Neutralized","Pending","Unallocated","Uncontained","Gödel","Kušum","Cernunnos","Ticonderoga","Anomalous", "Argus","Drygioni","Damballah", "Thaumiel","[UNDEFINED]","Euclid"]
-  document.getElementById("truth").innerHTML = obclas[x];
+  var obclas= ["Fluxus","Safe","Neutralized","Pending","Unallocated","Uncontained","Gödel","Kušum","Cernunnos","Ticonderoga","Anomalous", "Argus","Drygioni","Damballah", "Thaumiel","[UNDEFINED]","Euclid"]
+  document.getElementById("truth").innerHTML = obclas[x];
 }
 function randcont() {
 var w = Math.floor(Math.random() * 12);
@@ -116,7 +116,7 @@ document.getElementById("clearancespellcap").innerHTML = clearCaptype[s];
 // var selasttype=["Dougherty","Dougherty","Archaki","Mcneil","Dougherty","Dougherty","Dougherty","Dougherty","Dougherty","Dougherty","Dougherty"]
 // var lovetype=[] 
 }
- 
+ 
 function randlev() {
 var u = Math.floor(Math.random() * 35);
 document.getElementById("level").innerHTML = u;

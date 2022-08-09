@@ -19,20 +19,20 @@ Currently lack an authors page, as this is only my second article, so here is my
 ]]
 [[module css]]
 .anom-bar-container.esoteric .text-part > .main-class::before {
-   background-color: rgb(var(--dress-white));
+   background-color: rgb(var(--dress-white));
 }
 
 .anom-bar-container.esoteric .text-part > .main-class::after {
-   border: 0.25rem solid rgb(var(--dress-white));
+   border: 0.25rem solid rgb(var(--dress-white));
 }
 
 .anom-bar-container.esoteric .danger-diamond > .top-icon::before {
-   background-color: rgb(var(--dress-white));
+   background-color: rgb(var(--dress-white));
 }
 
 .danger-diamond a:hover {
-   text-decoration: none;
-   color: rgba(0, 0, 0, 0);
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0);
 }
 [[/module]]
 [[include :scp-wiki:theme:black-highlighter-theme]]

@@ -6,50 +6,50 @@
 
 [[module CSS]]
 /* HEADER */
- :root{
-    --strong-red: hsl(0, 100%, 42%);
-    --fnColor: var(--strong-red);
+ :root{
+    --strong-red: hsl(0, 100%, 42%);
+    --fnColor: var(--strong-red);
 }
- #page-title{
-     display: none;
+ #page-title{
+     display: none;
 }
- body{
-     --barColour: hsl(0, 0%, 0%);
+ body{
+     --barColour: hsl(0, 0%, 0%);
 }
- .meta-title{
-     color: hsl(0, 0%, 0%);
+ .meta-title{
+     color: hsl(0, 0%, 0%);
 }
- .meta-title,
- .pseudocrumbs{
-     text-align: center;
+ .meta-title,
+ .pseudocrumbs{
+     text-align: center;
 }
 
 /* COLLAPSIBLES */
- #page-content .collapsible-block-link{
-     padding-bottom: 1px;
-     color: var(--strong-red);
-     border-bottom: 1px solid var(--strong-red);
-     text-decoration: none;
+ #page-content .collapsible-block-link{
+     padding-bottom: 1px;
+     color: var(--strong-red);
+     border-bottom: 1px solid var(--strong-red);
+     text-decoration: none;
 }
- #page-content .collapsible-block-link:hover{
-     border-bottom: 1px solid var(--strong-red);
-     border-bottom-width: 2px;
+ #page-content .collapsible-block-link:hover{
+     border-bottom: 1px solid var(--strong-red);
+     border-bottom-width: 2px;
 }
- #page-content .collapsible-block-folded a.collapsible-block-link{
-     animation: blink .8s ease-in-out infinite alternate;
+ #page-content .collapsible-block-folded a.collapsible-block-link{
+     animation: blink .8s ease-in-out infinite alternate;
 }
- @keyframes blink{
-     0%{
-          color: transparent;
-          border-bottom-color: transparent;
-    }
-     50%, 100%{
-          color: var(--strong-red);
-          border-bottom-color: var(--strong-red);
-    }
+ @keyframes blink{
+     0%{
+          color: transparent;
+          border-bottom-color: transparent;
+    }
+     50%, 100%{
+          color: var(--strong-red);
+          border-bottom-color: var(--strong-red);
+    }
 }
- .licensebox .collapsible-block-link{
-     animation: none !important;
+ .licensebox .collapsible-block-link{
+     animation: none !important;
 }
 [[/module]]
 

@@ -7,10 +7,10 @@
 [[module CSS]]
 
 .invisible {
-    visibility: hidden;
-    position: absolute;
-    top: -9999px;
-    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+    opacity: 0;
 }
 
 [[/module]]
@@ -28,7 +28,7 @@
 [[=]]
 ++++ NOTICE FROM GREAZEBURGER INVESTIGATION TEAM
 
-Personnel currently in or around the Supercenter, including any investigation or communication sites established in the 50m radius, can probably get away with submitting a blank form. Just don't mistype your ID, please.  
+Personnel currently in or around the Supercenter, including any investigation or communication sites established in the 50m radius, can probably get away with submitting a blank form. Just don't mistype your ID, please.  
 
 -- Dr. Kensing, Head of the Greazeburger Investigation Team
 [[/=]]
@@ -39,10 +39,10 @@ If necessary, round all answers to the nearest thousandth.
 <html lang="en">
 <head>
 <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 </script>
 <script type="text/javascript"
-  src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <meta charset="utf-8">
@@ -54,11 +54,11 @@ If necessary, round all answers to the nearest thousandth.
 @import url(https://scp-wiki.wikidot.com/component:theme/code/1);
 
 .invisible {
-    /* visibility: hidden; */
-    position: absolute;
-    top: -9999px;
-    opacity: 0;
-    margin-top: 40px; 
+    /* visibility: hidden; */
+    position: absolute;
+    top: -9999px;
+    opacity: 0;
+    margin-top: 40px; 
 }
 
 /*this is where I try to rewrite the footnote ability using internet code (thanks paul wilkins)*/
@@ -66,54 +66,54 @@ If necessary, round all answers to the nearest thousandth.
 
 
 .footnote {
-  font-size: smaller;
-  color: grey;
-  display: inline-block;
+  font-size: smaller;
+  color: grey;
+  display: inline-block;
 }
 
 .bold {
-   font-weight:bold
+   font-weight:bold
 }
 
 sup {
-  position: relative;
-  /* display: inline-block; */
-  /* margin-top: 20px; */
+  position: relative;
+  /* display: inline-block; */
+  /* margin-top: 20px; */
 }
 
 sup[data-title]:hover::after {
-   content: attr(data-title);
-   text-align: left;
-   padding: 5px 20px 5px 10px;
-   background-color: white;  
-   border: 1px solid black;
+   content: attr(data-title);
+   text-align: left;
+   padding: 5px 20px 5px 10px;
+   background-color: white;  
+   border: 1px solid black;
 margin-top: 32px;
-   background-color: #fcfcfc;
-   position: absolute;
-   top: 100%;
-   left: 150%;
-   width: 295px;
-   margin-left: -157px;
-   z-index:98;
+   background-color: #fcfcfc;
+   position: absolute;
+   top: 100%;
+   left: 150%;
+   width: 295px;
+   margin-left: -157px;
+   z-index:98;
 }
 sup[data-title]:hover::before {
-   background-color: #fcfcfc;
-   content: "Footnote: \a";
+   background-color: #fcfcfc;
+   content: "Footnote: \a";
 font-weight: bold;
 font-size: 12px;
-   text-align: left;
-   padding: 5px 20px 0px 5px;  
-   border-left: 1px solid black;
+   text-align: left;
+   padding: 5px 20px 0px 5px;  
+   border-left: 1px solid black;
 border-right: 1px solid black;
 border-top: 1px solid black;
 margin-top: 15px;
 
-   position: absolute;
-   top: 100%;
-   left: 150%;
-   width: 300px;
-   margin-left: -157px;
-   z-index:99;
+   position: absolute;
+   top: 100%;
+   left: 150%;
+   width: 300px;
+   margin-left: -157px;
+   z-index:99;
 }
 
 /* this is a blockquote and other email related css bits, I took the emails from 5555 and made them html */
@@ -136,55 +136,55 @@ line-height: 1.6;
 }
 
 div.blockquote {
-    border: 1px dashed #999;
-    background-color: #f4f4f4;
-    padding: 0 1em;
-    margin: 1em 3em;
+    border: 1px dashed #999;
+    background-color: #f4f4f4;
+    padding: 0 1em;
+    margin: 1em 3em;
 }
 
 .tt {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 98%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 98%;
 }
 
 #t01 th {
-  width:auto; 
-  text-align: right; 
+  width:auto; 
+  text-align: right; 
 padding: 4px;
 }
 
 /*this code is by Croquembouche and anything i dont use i gotta delete */
 
 sup a, summary {
-  cursor: pointer;
+  cursor: pointer;
 }
 
 summary {
-  color: #b01;
+  color: #b01;
 }
 
 summary:hover {
-  text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Add a little spacing around collapsibles */
 details {
-  margin: 1em 0;
+  margin: 1em 0;
 }
 
 /* Remove browser default focus style */
 summary:focus {
-  outline: none;
+  outline: none;
 }
 
 /* Fade in contents of collapsible */
 details :not(summary) {
-  opacity: 0;
-  transition: opacity 0.2s;
+  opacity: 0;
+  transition: opacity 0.2s;
 }
 
 details[open] :not(summary) {
-  opacity: 1;
+  opacity: 1;
 }
 
 </style>
@@ -192,36 +192,36 @@ details[open] :not(summary) {
 <script>
 
 function getRandomInt(max) {
-  return (Math.floor(Math.random() * Math.floor(max)))+1;
+  return (Math.floor(Math.random() * Math.floor(max)))+1;
 }
- var clik = 0;
- var num1 = getRandomInt(4);
- var num2 = getRandomInt(3);
- var disp1 = "$ " + String(num1) + "+" + String(num2) + "= ? $ <br>";
+ var clik = 0;
+ var num1 = getRandomInt(4);
+ var num2 = getRandomInt(3);
+ var disp1 = "$ " + String(num1) + "+" + String(num2) + "= ? $ <br>";
 document.write(disp1);
 </script>
-    <input type="text" placeholder="Input answer..." id="myInput"> <br>
+    <input type="text" placeholder="Input answer..." id="myInput"> <br>
 <script>
 var num3 = getRandomInt(5);
- var num4 = getRandomInt(9);
- var disp1 = "$ " + String(num3) + "\\times" + String(num4) + "= ? $ <br>";
+ var num4 = getRandomInt(9);
+ var disp1 = "$ " + String(num3) + "\\times" + String(num4) + "= ? $ <br>";
 document.write(disp1);
 </script>
-    <input type="text" placeholder="Input answer..." id="myInput2"> <br>
+    <input type="text" placeholder="Input answer..." id="myInput2"> <br>
 <script>
 var num5 = getRandomInt(9);
- var num6 = getRandomInt(9);
+ var num6 = getRandomInt(9);
 var num7 = getRandomInt(40);
- var num8 = getRandomInt(9);
+ var num8 = getRandomInt(9);
 var num9 = getRandomInt(25);
- var disp1 = "$ " + String(num5) + "x +" + String(num6) + "y =" + String(num7) + ", $ <br>" ;
+ var disp1 = "$ " + String(num5) + "x +" + String(num6) + "y =" + String(num7) + ", $ <br>" ;
 var disp3 = "$ " + String(num8) + "x =" + String(num9) + "$ <br>";
 var disp2 = "$ y=? $ <br>";
 document.write(disp1);
 document.write(disp3);
 document.write(disp2);
 </script>
-    <input type="text" placeholder="Input answer..." id="myInput3"> <br>
+    <input type="text" placeholder="Input answer..." id="myInput3"> <br>
 Find the inverse DTFT of the rectangular pulse spectrum described over the fundamental band <br>
 $ (|\Omega| \leq \pi) $ by $ X(\Omega) = rect(\Omega/2\Omega_c) $ for $ \Omega_c \leq \pi. $ <br>
 <script>
@@ -229,11 +229,11 @@ var num0 = getRandomInt(3) + 1;
 var disp1 = "When $ \\Omega_c = \\pi/" + num0 + "$, what is the lowest positive limiting value? <br>";
 document.write(disp1);
 </script>
-    <input type="text" placeholder="Input answer..." id="myInput4"> <br>
-    <button type="button" onclick="getInputValue();">Submit</button>
-    <p id="demo"> </p>
+    <input type="text" placeholder="Input answer..." id="myInput4"> <br>
+    <button type="button" onclick="getInputValue();">Submit</button>
+    <p id="demo"> </p>
 <p id="deno"> </p>
-    <script>
+    <script>
 //this is not footnotes now
 var hey = ((num7-(num5 * (num9 / num8))) / num6)
 var nummer = Math.round((hey + Number.EPSILON) * 1000) / 1000
@@ -249,26 +249,26 @@ document.getElementById("invisible").style.top= "initial";
 $("#invisible").delay(200).animate({marginTop: "0px"}, { queue: false, duration: 2000 });
 $("#invisible").delay(200).animate({"opacity": "1"}, { queue: false, duration: 2000 });
 }
-        function getInputValue(){
-            // Selecting the input element and get its value 
-            var inputVal = document.getElementById("myInput").value;
+        function getInputValue(){
+            // Selecting the input element and get its value 
+            var inputVal = document.getElementById("myInput").value;
 var inputVal2 = document.getElementById("myInput2").value;
 var inputVal3 = document.getElementById("myInput3").value;
 var inputVal4 = document.getElementById("myInput4").value;
-    
-            // Displaying the value, 3=((7-(5(9/8)))/6)
-            if( inputVal == num1 + num2 && inputVal2 == num3 * num4 && inputVal3 == nummer && inputVal4 == num0 && clik == 0) {
- clik = 1;
- document.getElementById("demo").innerHTML = '<hr> <b> LOGIN:</b> <br> Correct answers flagged. While this case is under review, please type your ID, including any classification or security clearance portions. If you have SCP-5921 related clearances, please use your G.I.T. ID. <br> <input type="password" placeholder="Input password..." maxlength="10" value="iamO5-1duh" id="myInput5"> <br> <button type="button" onclick="aaa();">Submit</button> <hr>';
+    
+            // Displaying the value, 3=((7-(5(9/8)))/6)
+            if( inputVal == num1 + num2 && inputVal2 == num3 * num4 && inputVal3 == nummer && inputVal4 == num0 && clik == 0) {
+ clik = 1;
+ document.getElementById("demo").innerHTML = '<hr> <b> LOGIN:</b> <br> Correct answers flagged. While this case is under review, please type your ID, including any classification or security clearance portions. If you have SCP-5921 related clearances, please use your G.I.T. ID. <br> <input type="password" placeholder="Input password..." maxlength="10" value="iamO5-1duh" id="myInput5"> <br> <button type="button" onclick="aaa();">Submit</button> <hr>';
 
 }else if(clik ==0){
 clik = 1;
- document.getElementById("demo").innerHTML = '<hr> <b> LOGIN:</b> <br> Please type your ID, including any classification or security clearance portions. If you have SCP-5921 related clearances, please use your G.I.T. ID. <br> <input type="password" placeholder="Input password..." maxlength="10" value="iamO5-1duh" id="myInput5"> <br> <button type="button" onclick="aaa();">Submit</button> <hr>';
+ document.getElementById("demo").innerHTML = '<hr> <b> LOGIN:</b> <br> Please type your ID, including any classification or security clearance portions. If you have SCP-5921 related clearances, please use your G.I.T. ID. <br> <input type="password" placeholder="Input password..." maxlength="10" value="iamO5-1duh" id="myInput5"> <br> <button type="button" onclick="aaa();">Submit</button> <hr>';
 
 }
-        }
+        }
 
-    </script>
+    </script>
 
 <!-- add a class="invisible" into this div to make it hide -->
 
@@ -286,29 +286,29 @@ All electronics responsible for the operation and upkeep of the Miami Walmart Su
 
 <b> Description:</b> SCP-5921 is a landline telephone, currently located in the storage area of the east-wing of the Miami Walmart Supercenter. The phrase "FOR TRIPE, GRIPE, AND HYPE" appears to have been crudely placed on the front with a label maker. Individuals within a 50m radius of SCP-5921 display an inability to do mathematical calculations, overestimating all results regardless of ability or problem complexity. Confidence in the resulting incorrect answer lessens the further one is from SCP-5921.</br> </br>
 
-<I> 13/2/21 Description Update:</i>  Disconnecting, removing, dismantling, boiling, melting, and vaporizing the telephone all have had no effect on the anomalous properties of SCP-5921. The area around the former landline telephone's location has been determined to be the source of a bend in the fundamental laws of mathematics. A new telephone appeared shortly after complete destruction, with a second label reading "DO NOT VAPORIPE (I COULDN'T FIT THE RHYME, DONT BREAK THIS)"</br> </br>
+<I> 13/2/21 Description Update:</i>  Disconnecting, removing, dismantling, boiling, melting, and vaporizing the telephone all have had no effect on the anomalous properties of SCP-5921. The area around the former landline telephone's location has been determined to be the source of a bend in the fundamental laws of mathematics. A new telephone appeared shortly after complete destruction, with a second label reading "DO NOT VAPORIPE (I COULDN'T FIT THE RHYME, DONT BREAK THIS)"</br> </br>
 <I> 18/2/21 Description Update:</i> This bureaucratohazard also extends to <I>all</i> mechanical and electrical evaluations—though no malfunctions, errors, or bugs are found before or after calculation. The complete mechanisms of SCP-5921's informational manipulation are currently unknown. </br> </br>
 
 <b> Addendum SCP-5921-1: </b> Below is a log of the discovery and initial testing of SCP-5921: </br> </br>
 <!-- THIS IS AN EMAIL -->
 <div class="mail">
 <table id="t01">
-  <tr>
-    <th>From:</th>
-    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>To:</th>
-    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>Subject:</th>
-    <td>Missed Phone Call</td>
-  </tr>
-    <tr>
-    <th>Date:</th>
-    <td>2/2/2021</td>
-  </tr>
+  <tr>
+    <th>From:</th>
+    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>To:</th>
+    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>Subject:</th>
+    <td>Missed Phone Call</td>
+  </tr>
+    <tr>
+    <th>Date:</th>
+    <td>2/2/2021</td>
+  </tr>
 </table>
 <div style="border-bottom:2px solid #777; margin-bottom:1px;"></div>
 <div style="padding: 4px; line-height: 1.6;">
@@ -336,7 +336,7 @@ Dr. Oscar. </br>
 <div class="tt" style="padding: 0px 0px 0px 5px";> <I> Dr. Oscar flips a few papers and mutters inaudibly. </i></div> </br>
 <b> Dr. Oscar: </b> A month about. </br> </br>
 <b> POI-792: </b> Plus a day? </br> </br>
-<b> Dr. Oscar: </b> No, minus one.  </br> </br>
+<b> Dr. Oscar: </b> No, minus one.  </br> </br>
 <b> POI-792: </b> Mushy useless trivial conversationals, that's all. Before I get down to business, do you have any concerns or questions? </br> </br>
 <b> Dr. Oscar: </b> Yeah, I was wondering why— </br> </br>
 <b> POI-792: </b> I'm quite fed up with your attitude, blood bowl. I called <I>you</i>. I've been looking at the papers. I've been looking at the numbers. I've quadruple checked <I>ALL</i> the figures, and I don't think you guys have been faithful to our little agreement. </br> </br>
@@ -353,27 +353,27 @@ But we might have uh missed a calculation or two I'm sure, and. Well, yeah we ar
 <div style="padding-top: 5px; padding-bottom: 10px;"> <b>Closing Statement: </b>Approximently 30 seconds after the phone line's severance, SCP-5921 manifested. </div>
 </div>
 </details>
- </div>
+ </div>
 </br>
 
 <div class="mail">
 <table id="t01">
-  <tr>
-    <th>From:</th>
-    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>To:</th>
-    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>Subject:</th>
-    <td>RE: Missed Phone Call</td>
-  </tr>
-    <tr>
-    <th>Date:</th>
-    <td>2/2/2021</td>
-  </tr>
+  <tr>
+    <th>From:</th>
+    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>To:</th>
+    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>Subject:</th>
+    <td>RE: Missed Phone Call</td>
+  </tr>
+    <tr>
+    <th>Date:</th>
+    <td>2/2/2021</td>
+  </tr>
 </table>
 <div style="border-bottom:2px solid #777; margin-bottom:1px;"></div>
 <div style="padding: 4px; line-height: 1.6;">
@@ -391,22 +391,22 @@ Dr. Oscar. </br>
 
 <div class="mail">
 <table id="t01">
-  <tr>
-    <th>From:</th>
-    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>To:</th>
-    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>Subject:</th>
-    <td>RE: RE: Missed Phone Call</td>
-  </tr>
-    <tr>
-    <th>Date:</th>
-    <td>2/2/2021</td>
-  </tr>
+  <tr>
+    <th>From:</th>
+    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>To:</th>
+    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>Subject:</th>
+    <td>RE: RE: Missed Phone Call</td>
+  </tr>
+    <tr>
+    <th>Date:</th>
+    <td>2/2/2021</td>
+  </tr>
 </table>
 <div style="border-bottom:2px solid #777; margin-bottom:1px;"></div>
 <div style="padding: 4px; line-height: 1.6;">
@@ -555,22 +555,22 @@ Dr. Kensing. </br>
 
 <div class="mail">
 <table id="t01">
-  <tr>
-    <th>From:</th>
-    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>To:</th>
-    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>Subject:</th>
-    <td>Balance Sheet and Payments</td>
-  </tr>
-    <tr>
-    <th>Date:</th>
-    <td>3/2/2021</td>
-  </tr>
+  <tr>
+    <th>From:</th>
+    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>To:</th>
+    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>Subject:</th>
+    <td>Balance Sheet and Payments</td>
+  </tr>
+    <tr>
+    <th>Date:</th>
+    <td>3/2/2021</td>
+  </tr>
 </table>
 <div style="border-bottom:2px solid #777; margin-bottom:1px;"></div>
 <div style="padding: 4px; line-height: 1.6;">
@@ -588,22 +588,22 @@ Dr. Oscar. </br>
 
 <div class="mail">
 <table id="t01">
-  <tr>
-    <th>From:</th>
-    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>To:</th>
-    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>Subject:</th>
-    <td>RE: Balance Sheet and Payments</td>
-  </tr>
-    <tr>
-    <th>Date:</th>
-    <td>3/2/2021</td>
-  </tr>
+  <tr>
+    <th>From:</th>
+    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>To:</th>
+    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>Subject:</th>
+    <td>RE: Balance Sheet and Payments</td>
+  </tr>
+    <tr>
+    <th>Date:</th>
+    <td>3/2/2021</td>
+  </tr>
 </table>
 <div style="border-bottom:2px solid #777; margin-bottom:1px;"></div>
 <div style="padding: 4px; line-height: 1.6;">
@@ -621,22 +621,22 @@ Dr. Oscar. </br>
 
 <div class="mail">
 <table id="t01">
-  <tr>
-    <th>From:</th>
-    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>To:</th>
-    <td><div style="color: #080080;">G.I.T. Investigation Team (Group)</div></td>
-  </tr>
-  <tr>
-    <th>Subject:</th>
-    <td>RE: RE: Balance Sheet and Payments</td>
-  </tr>
-    <tr>
-    <th>Date:</th>
-    <td>3/2/2021</td>
-  </tr>
+  <tr>
+    <th>From:</th>
+    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>To:</th>
+    <td><div style="color: #080080;">G.I.T. Investigation Team (Group)</div></td>
+  </tr>
+  <tr>
+    <th>Subject:</th>
+    <td>RE: RE: Balance Sheet and Payments</td>
+  </tr>
+    <tr>
+    <th>Date:</th>
+    <td>3/2/2021</td>
+  </tr>
 </table>
 <div style="border-bottom:2px solid #777; margin-bottom:1px;"></div>
 <div style="padding: 4px; line-height: 1.6;">
@@ -654,22 +654,22 @@ Dr. Oscar. </br>
 
 <div class="mail">
 <table id="t01">
-  <tr>
-    <th>From:</th>
-    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>To:</th>
-    <td><div style="color: #080080;">G.I.T. Investigation Team (Group)</div></td>
-  </tr>
-  <tr>
-    <th>Subject:</th>
-    <td>FORUM SUBJECT: Balance Sheet and Payments</td>
-  </tr>
-    <tr>
-    <th>Date:</th>
-    <td>3/2/2021</td>
-  </tr>
+  <tr>
+    <th>From:</th>
+    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>To:</th>
+    <td><div style="color: #080080;">G.I.T. Investigation Team (Group)</div></td>
+  </tr>
+  <tr>
+    <th>Subject:</th>
+    <td>FORUM SUBJECT: Balance Sheet and Payments</td>
+  </tr>
+    <tr>
+    <th>Date:</th>
+    <td>3/2/2021</td>
+  </tr>
 </table>
 <div style="border-bottom:2px solid #777; margin-bottom:1px;"></div>
 <div style="padding: 4px; line-height: 1.6;">
@@ -687,22 +687,22 @@ Dr. Kensing. </br>
 
 <div class="mail">
 <table id="t01">
-  <tr>
-    <th>From:</th>
-    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>To:</th>
-    <td><div style="color: #080080;">G.I.T. Investigation Team (Group)</div></td>
-  </tr>
-  <tr>
-    <th>Subject:</th>
-    <td>FORUM SUBJECT: Balance Sheet and Payments</td>
-  </tr>
-    <tr>
-    <th>Date:</th>
-    <td>4/2/2021</td>
-  </tr>
+  <tr>
+    <th>From:</th>
+    <td><div style="color:red;">hrdrks@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>To:</th>
+    <td><div style="color: #080080;">G.I.T. Investigation Team (Group)</div></td>
+  </tr>
+  <tr>
+    <th>Subject:</th>
+    <td>FORUM SUBJECT: Balance Sheet and Payments</td>
+  </tr>
+    <tr>
+    <th>Date:</th>
+    <td>4/2/2021</td>
+  </tr>
 </table>
 <div style="border-bottom:2px solid #777; margin-bottom:1px;"></div>
 <div style="padding: 4px; line-height: 1.6;">
@@ -720,22 +720,22 @@ Dr. Kensing. </br>
 
 <div class="mail">
 <table id="t01">
-  <tr>
-    <th>From:</th>
-    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>To:</th>
-    <td><div style="color: #080080;">G.I.T. Investigation Team (Group)</div></td>
-  </tr>
-  <tr>
-    <th>Subject:</th>
-    <td>FORUM SUBJECT: Balance Sheet and Payments</td>
-  </tr>
-    <tr>
-    <th>Date:</th>
-    <td>4/2/2021</td>
-  </tr>
+  <tr>
+    <th>From:</th>
+    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>To:</th>
+    <td><div style="color: #080080;">G.I.T. Investigation Team (Group)</div></td>
+  </tr>
+  <tr>
+    <th>Subject:</th>
+    <td>FORUM SUBJECT: Balance Sheet and Payments</td>
+  </tr>
+    <tr>
+    <th>Date:</th>
+    <td>4/2/2021</td>
+  </tr>
 </table>
 <div style="border-bottom:2px solid #777; margin-bottom:1px;"></div>
 <div style="padding: 4px; line-height: 1.6;">
@@ -933,27 +933,27 @@ Dr. Oscar. </br>
 
 <div class="mail">
 <table id="t01">
-  <tr>
-    <th>From:</th>
-    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
-  </tr>
-  <tr>
-    <th>To:</th>
-    <td><div style="color: #080080;">G.I.T. Investigation Team (Group)</div></td>
-  </tr>
-  <tr>
-    <th>Subject:</th>
-    <td>FORUM SUBJECT: Balance Sheet and Payments for March</td>
-  </tr>
-    <tr>
-    <th>Date:</th>
-    <td>2/3/2021</td>
-  </tr>
+  <tr>
+    <th>From:</th>
+    <td><div style="color:red;">jrdrohohih@git.scp.int</div></td>
+  </tr>
+  <tr>
+    <th>To:</th>
+    <td><div style="color: #080080;">G.I.T. Investigation Team (Group)</div></td>
+  </tr>
+  <tr>
+    <th>Subject:</th>
+    <td>FORUM SUBJECT: Balance Sheet and Payments for March</td>
+  </tr>
+    <tr>
+    <th>Date:</th>
+    <td>2/3/2021</td>
+  </tr>
 </table>
 <div style="border-bottom:2px solid #777; margin-bottom:1px;"></div>
 <div style="padding: 4px; line-height: 1.6;">
 
-&emsp; I'm finally healthy and catching up on what I need to know but don't remember. Thank you all for the cards and nice words—made my stay 103 times better. It is nice to be back at my desk wearing these tacky Wal-Mart vests though. </br> &emsp; I am just sending this email to tell you all that I found some math errors while looking at the attached image for February's balance sheets. It was a bit under ⅖ and don't wanna cheap out on them and cause something terrible, so I spent all day yesterday correcting them before I updated the image and sent the owed money to Greazeburger's Incorporated.  
+&emsp; I'm finally healthy and catching up on what I need to know but don't remember. Thank you all for the cards and nice words—made my stay 103 times better. It is nice to be back at my desk wearing these tacky Wal-Mart vests though. </br> &emsp; I am just sending this email to tell you all that I found some math errors while looking at the attached image for February's balance sheets. It was a bit under ⅖ and don't wanna cheap out on them and cause something terrible, so I spent all day yesterday correcting them before I updated the image and sent the owed money to Greazeburger's Incorporated.  
 </div>
 <div style="border-bottom:3px solid #777; margin-bottom:1px;"></div>
 
@@ -965,7 +965,7 @@ Dr. Oscar. </br>
 
 <!-- this is the end OF THE FUCKING DOCUMENT PLEASE DONT PUT ANY PAGE CONTENT AFTER -->
 <div id="footers">
-  </div>
+  </div>
 
 </div>
 
@@ -974,68 +974,68 @@ Dr. Oscar. </br>
 const imageBlock = document.getElementById("devo");
 imageBlock.classList.add("scp-image-block", "block-right")
 imageBlock.innerHTML = `
-  <img src="http://scp-sandbox-3.wikidot.com/local--files/ohohihmain/phone.png">
-  <div class="scp-image-caption">
-    <p>SCP-5921 <span class="footnote" style="font-weight: normal; !important"> Dr. Oscar was told to "stand about twice as far away from the phone" before taking the picture. He was less than a meter away originally. </span> (circled in red)</p>
-  </div>
+  <img src="http://scp-sandbox-3.wikidot.com/local--files/ohohihmain/phone.png">
+  <div class="scp-image-caption">
+    <p>SCP-5921 <span class="footnote" style="font-weight: normal; !important"> Dr. Oscar was told to "stand about twice as far away from the phone" before taking the picture. He was less than a meter away originally. </span> (circled in red)</p>
+  </div>
 `
 const imageBlockB = document.getElementById("devso");
 imageBlockB.classList.add("scp-image-block", "block-center")
 imageBlockB.innerHTML = `
-  <img src="http://scp-sandbox-3.wikidot.com/local--files/ohohihmain/badmath2.png">
-  <div class="scp-image-caption">
-    <p>Page 2/8 of work stapled to back</p>
-  </div>
+  <img src="http://scp-sandbox-3.wikidot.com/local--files/ohohihmain/badmath2.png">
+  <div class="scp-image-caption">
+    <p>Page 2/8 of work stapled to back</p>
+  </div>
 `
 const imageBlockA = document.getElementById("devdo");
 imageBlockA.classList.add("scp-image-block", "block-center")
 imageBlockA.innerHTML = `
-  <img src="http://scp-sandbox-3.wikidot.com/local--files/ohohihmain/bal">
-  <div class="scp-image-caption">
-    <p>Montly Monetary Report</p>
-  </div>
+  <img src="http://scp-sandbox-3.wikidot.com/local--files/ohohihmain/bal">
+  <div class="scp-image-caption">
+    <p>Montly Monetary Report</p>
+  </div>
 `
 //more footnotes
 function addSuperscript(footnote, num) {
-    var sup = document.createElement("sup");
-    sup.appendChild(document.createTextNode(num));
-    sup.setAttribute("data-title", footnote.innerText);
-    footnote.parentNode.insertBefore(sup, footnote);
-    return sup;
+    var sup = document.createElement("sup");
+    sup.appendChild(document.createTextNode(num));
+    sup.setAttribute("data-title", footnote.innerText);
+    footnote.parentNode.insertBefore(sup, footnote);
+    return sup;
 }
 function linkSupToFootnote(sup, footnote) {
-  var a = document.createElement("a");
-  footnote.setAttribute("id", "footnote" + sup.innerText);
-  a.href = "#" + footnote.getAttribute("id");
-  sup.childNodes.forEach(function (childNode) {
-    a.appendChild(childNode);
-  });
-  sup.appendChild(a);
+  var a = document.createElement("a");
+  footnote.setAttribute("id", "footnote" + sup.innerText);
+  a.href = "#" + footnote.getAttribute("id");
+  sup.childNodes.forEach(function (childNode) {
+    a.appendChild(childNode);
+  });
+  sup.appendChild(a);
 }
 function linkFootnoteToSup(footnote, sup) {
-  var docFrag = document.createDocumentFragment();
-  a = document.createElement("a");
-  sup.setAttribute("id", "footref" + sup.innerText);
-  a.href = "#" + sup.getAttribute("id");
-  a.appendChild(document.createTextNode(sup.innerText));
-  docFrag.appendChild(a);
-  docFrag.appendChild(document.createTextNode(" "));
-  footnote.insertBefore(docFrag, footnote.firstChild);
+  var docFrag = document.createDocumentFragment();
+  a = document.createElement("a");
+  sup.setAttribute("id", "footref" + sup.innerText);
+  a.href = "#" + sup.getAttribute("id");
+  a.appendChild(document.createTextNode(sup.innerText));
+  docFrag.appendChild(a);
+  docFrag.appendChild(document.createTextNode(" "));
+  footnote.insertBefore(docFrag, footnote.firstChild);
 }
 function moveFootnoteToFooters(footnote, footers) {
-  var li = document.createElement("li");
-  li.appendChild(footnote);
-  footers.appendChild(li);
+  var li = document.createElement("li");
+  li.appendChild(footnote);
+  footers.appendChild(li);
 }
 
 var footnotes = document.querySelectorAll(".footnote");
 var footers = document.querySelector("#footers");
 footnotes.forEach(function (footnote, index) {
-  var num = index + 1;
-  var sup = addSuperscript(footnote, num);
-  linkSupToFootnote(sup, footnote);
-  moveFootnoteToFooters(footnote, footers);
-  linkFootnoteToSup(footnote, sup);
+  var num = index + 1;
+  var sup = addSuperscript(footnote, num);
+  linkSupToFootnote(sup, footnote);
+  moveFootnoteToFooters(footnote, footers);
+  linkFootnoteToSup(footnote, sup);
 });
 </script>
 

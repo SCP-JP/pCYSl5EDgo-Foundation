@@ -42,65 +42,65 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "djkaktus";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "djkaktus";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .pulsate {
-    -webkit-animation: pulsate 1s linear;
-    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation: pulsate 1s linear;
+    -webkit-animation-iteration-count: infinite; 
 }
 @-webkit-keyframes pulsate {
-  0% {
-    opacity:1;
-  }
-  25% {
-    opacity:.20;
-  }
-  50% {
-    opacity:.9;
-  }
-  70% {
-    opacity:.05;
-  }
-  85% {
-    opacity:.05;
-  }
+  0% {
+    opacity:1;
+  }
+  25% {
+    opacity:.20;
+  }
+  50% {
+    opacity:.9;
+  }
+  70% {
+    opacity:.05;
+  }
+  85% {
+    opacity:.05;
+  }
 }
 [[/module]]
 [[include theme:black-highlighter-theme]]
@@ -181,43 +181,43 @@ SCP-5935-1 is an entity contained within Pandaemonium.[[footnote]]Don't touch th
 **Addendum 5935.1:** Collected Information
 
 [[collapsible show="+ Journal Entry #1" hide="- Close"]]
- 
+ 
 [[div style="display: block ; border : dashed 1px #444444 ; background :#D7D7C7 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 
 [!--
 Non-compliant (off-site) javascript used:
 [[html]]
 <h1>
-  <center>
-    <div class="text"></div>
-  </center>
+  <center>
+    <div class="text"></div>
+  </center>
 </h1>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Basic|IBM+Plex+Mono:400,700');
 
 .text {
-  color:rgb(25, 20, 16);;
-  font-weight:500;
-  font-size:18px;
-  font-family: "IBM Plex Mono", monospace;
+  color:rgb(25, 20, 16);;
+  font-weight:500;
+  font-size:18px;
+  font-family: "IBM Plex Mono", monospace;
 }
 </style>
 <script type="text/javascript">
 obfu_data = {
-    "delay":10,
-    "start_time":80,
-    "end_time":80,
-    "disp_time":2000,
-    "loop":false,
-    "obfu_chars":"123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@?#$%^&*()",
-    "phrases":[
-        'The system has encountered an unexpected error',
-        'Character "USER_IDENTIFY" is missing',
-        'Attempting to load from memory...',
-        'RUNTIME_ERROR',
-        'Excerpt from the Journal of [DATA EXPUNGED], Overseer of the SCP Foundation'
+    "delay":10,
+    "start_time":80,
+    "end_time":80,
+    "disp_time":2000,
+    "loop":false,
+    "obfu_chars":"123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@?#$%^&*()",
+    "phrases":[
+        'The system has encountered an unexpected error',
+        'Character "USER_IDENTIFY" is missing',
+        'Attempting to load from memory...',
+        'RUNTIME_ERROR',
+        'Excerpt from the Journal of [DATA EXPUNGED], Overseer of the SCP Foundation'
 ]
-  }
+  }
 </script>
 <script type="text/javascript" src="https://scp-sandbox-3.wdfiles.com/local--files/jaonhax/obfuscator.js"></script>
 [[/html]]
@@ -245,7 +245,7 @@ I miss my son. I miss my boy.
 [[/collapsible]]
 @@@@
 [[collapsible show="+ Journal Entry #2" hide="- Close"]]
- 
+ 
 [[div style="display: block ; border : dashed 1px #444444 ; background :#D7D7C7 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 last night i had a dream. i was at a dinner hosted by a close friend from my childhood who i have not seen in many years and whose face i did not recognize, though i did recognize his voice. he was laughing at the end of a long table and the air was filled with the sound of feasting, but i slowly recognized that the table was empty save he and i and the room had grown silent. he was staring at me from the far end of the table. when i looked back, he was beside me.
 
@@ -262,7 +262,7 @@ i stood at the end of a long street, lined with mirrors as far as i could see. f
 [[/collapsible]]
 @@@@
 [[collapsible show="+ Journal Entry #3" hide="- Close"]]
- 
+ 
 [[div style="display: block ; border : dashed 1px #444444 ; background :#D7D7C7 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 Elisa did not get out of bed again today. She has not done so in many weeks now. Her attendants are patient but I fear they are running out of ideas. I would speak to her, tell her it is going to be ok, hold her hand and bring her out of that place with me - but I know I would only be bringing her to //this// place.
 
@@ -271,7 +271,7 @@ It rained again. The --fifth-- sixth rain since Jacob died.
 [[/collapsible]]
 @@@@
 [[collapsible show="+ Journal Entry #4" hide="- Close"]]
- 
+ 
 [[div style="display: block ; border : dashed 1px #444444 ; background :#D7D7C7 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 Another dream last night. I spoke to Agatha about it, about what it meant. It does not matter now where I go, what chemicals I put in my body to help me sleep. Always I see the fluttering face and the swinging eyes in the dark of my dreams. sometimes in silence, sometimes it will say the //word//.
 
@@ -284,7 +284,7 @@ But what is there to reveal? You can't name something that doesn't exist.
 [[/collapsible]]
 @@@@
 [[collapsible show="+ Journal Entry #5" hide="- Close"]]
- 
+ 
 [[div style="display: block ; border : dashed 1px #444444 ; background :#D7D7C7 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 Elisa has stopped speaking again. I searched for hours last night, fearing the worst. I found her clutching a toy Jacob had left out in the yard, beneath the pouring rain. She would not get up to come inside with me, not until the rain stopped. I wish I could say I stayed with her. 
 
@@ -305,7 +305,7 @@ It would not matter. It cannot matter now. There is only this destination in fro
 [[/collapsible]]
 @@@@
 [[collapsible show="+ Journal Entry #7" hide="- Close"]]
- 
+ 
 [[div style="display: block ; border : dashed 1px #444444 ; background :#D7D7C7 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 Would he forgive me? If he saw the dirt on my hands and saw what time and the earth had done to him
 
@@ -323,7 +323,7 @@ blood
 **Addendum 5935.2:** Collected Audio Recordings
 
 [[collapsible show="+ Access Transcript" hide="- Close"]]
- 
+ 
 [[div style="display: block ; border : dashed 1px #444444 ; background :#D7D7C7 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 **[DATA EXPUNGED]** 
 So. He's alive?
@@ -562,7 +562,7 @@ I am with Elisa, years ago, when we took our trip to the mountains. I knew where
 
 Elisa was pregnant at the time, with Jacob. It was the last trip we took together before he was born, and we spent most of our time in each other's company, in Alfonse's manse. Thinking of it now, I believe it was the first time off I'd had in more than a year. It felt like it could have been a dozen. 
 
-I'm in the den, and there's snow falling outside. The room is lit by the fire in the hearth. Elisa is not with me, and I feel unease. There's something moving on the ceiling but I can't see it through the dark - or maybe I don't look up at all. I have something in my hand, [[[SCP-184|something heavy]]].  
+I'm in the den, and there's snow falling outside. The room is lit by the fire in the hearth. Elisa is not with me, and I feel unease. There's something moving on the ceiling but I can't see it through the dark - or maybe I don't look up at all. I have something in my hand, [[[SCP-184|something heavy]]].  
 
 Someone else in the room says something to me, and it's not until that moment I realize that I'm not alone. They ask me my name, and I tell them. //No,// they say, //what is your name.// I don't answer. I don't know how to answer. I don't remember it, or if I could remember it, the words are gone. After a moment, I give another name. Mann's name. They shake their head. //Your name//.
 
@@ -1139,7 +1139,7 @@ The following interview was conducted by Dr. Rashad Moore, Director of Psychiatr
 **Addendum 5935.8:** Collected Audio Recordings
 
 [[collapsible show="+ Access Transcript" hide="- Close"]]
- 
+ 
 [[div style="display: block ; border : dashed 1px #444444 ; background :#D7D7C7 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 **[DATA EXPUNGED]** 
 Can they hear us?
@@ -1296,7 +1296,7 @@ I wonder if he's realized it yet.
 **Addendum 5935.9:** Additional Collected Information
 
 [[collapsible show="+ Journal Entry #9" hide="- Always"]]
- 
+ 
 [[div style="display: block ; border : dashed 1px #444444 ; background :#D7D7C7 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 
 Jacob
@@ -1328,7 +1328,7 @@ I'm coming tonight, Jacob. I'll take you away, you and your mother, and build a 
 **Addendum 5935.10:** Mobile Task Force Alpha-1 Emergency Dispat//.2?
 
 [[collapsible show="+ Access Dispatch File" hide="- Together"]]
- 
+ 
 [[div style="display: block ; border : dashed 1px #444444 ; background :#D7D7C7 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 
 **[0104HRS LOCAL]** SUBJECT SCP-5935-1 REMOVED FROM EUCLID-CLASS CONTAINMENT VESSEL BY OVERSEER ORDER. REMOVAL VIOLATES CONCURRENT PROTOCOLS RESTRICTING ACCESS TO DANGEROUS ANOMALOUS ENTITIES. FORWARD TEAM DISPATCHED
@@ -1496,7 +1496,7 @@ A CRITICAL EXCEPTION HAS OCCURRED.
 **Addendum 5935.??:** System Error
 
 [[collapsible show="+ *fj@F." hide="- daddy?"]]
- 
+ 
 [[div style="display: block ; border : dashed 1px #444444 ; background :#D7D7C7 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 **Elisa**
 Hello? Who's there?

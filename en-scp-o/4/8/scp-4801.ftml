@@ -1,6 +1,6 @@
 [[include :scp-wiki:theme:black-highlighter-theme]]
 [[include :scp-wiki:theme:ch-scp-theme]]
-[[include :scp-wiki:component:centered-header-bhl  |ch-scp=--]]]
+[[include :scp-wiki:component:centered-header-bhl  |ch-scp=--]]]
 [[include :scp-wiki:component:toggle-sidebar-bhl]]
 
 [[>]]
@@ -9,310 +9,310 @@
 
 [[module css]]
 .anom-bar-container, .anom-bar-container * {
-    font-family: "Poppins",sans-serif !important;
+    font-family: "Poppins",sans-serif !important;
 }
 
 #page-content > br:nth-child(4) {
-    display: none;
+    display: none;
 }
 
 #page-content p {
-     position: relative;
+     position: relative;
 }
 
 #main-content p:first-of-type {
-    margin-top: 0.25rem;
+    margin-top: 0.25rem;
 }
 
 .scp-image-container {
-    display: flex;
-    float: right;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 50%;
-    padding: 0 0 1rem 1rem;
+    display: flex;
+    float: right;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 0 0 1rem 1rem;
 }
 
 .scp-image-container.full-image {
-    width: 100%;
-    padding: 1rem;
+    width: 100%;
+    padding: 1rem;
 }
 
 .scp-image-block {
-    box-shadow: initial;
-    width: 100%;
+    box-shadow: initial;
+    width: 100%;
 }
 
 .scp-image-caption {
-    --wght: 600;
-    font-size: 0.75rem;
-    background-color: rgb(var(--light-gray-monochrome));
-    padding: 0.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-    line-height: 1.25;
-    color: rgb(var(--white-monochrome));
-    font-weight: 600;
-    letter-spacing: 0.0125rem;
-    border-left: .0625rem solid rgb(var(--swatch-primary-darkest));
-    border-right: .0625rem solid rgb(var(--swatch-primary-darkest));
-    border-bottom: .0625rem solid rgb(var(--swatch-primary-darkest));
+    --wght: 600;
+    font-size: 0.75rem;
+    background-color: rgb(var(--light-gray-monochrome));
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    line-height: 1.25;
+    color: rgb(var(--white-monochrome));
+    font-weight: 600;
+    letter-spacing: 0.0125rem;
+    border-left: .0625rem solid rgb(var(--swatch-primary-darkest));
+    border-right: .0625rem solid rgb(var(--swatch-primary-darkest));
+    border-bottom: .0625rem solid rgb(var(--swatch-primary-darkest));
 }
 
 .scp-image-container, .scp-image-container * {
-    box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #page-content .collapsible-block {
-    display: block;
-    padding: 0.75em;
-    background-color: rgb(var(--pale-gray-monochrome));
-    border-top: 0.125rem dashed rgb(var(--light-gray-monochrome));
-    border-bottom: 0.125rem dashed rgb(var(--light-gray-monochrome));
+    display: block;
+    padding: 0.75em;
+    background-color: rgb(var(--pale-gray-monochrome));
+    border-top: 0.125rem dashed rgb(var(--light-gray-monochrome));
+    border-bottom: 0.125rem dashed rgb(var(--light-gray-monochrome));
 }
 
 #page-content .collapsible-block .collapsible-block-folded,
-#page-content .collapsible-block .collapsible-block-unfolded-link  {
-    text-align: center;
-    font-family: "Poppins",sans-serif;
+#page-content .collapsible-block .collapsible-block-unfolded-link  {
+    text-align: center;
+    font-family: "Poppins",sans-serif;
 }
 
 .footnote_block {
-    --wght: 600;
-    display: inline-flex;
-    font-family: var(--body-font);
-    font-weight: 600;
-    font-size: 0.8em;
-    margin-left: -0.5em;
-    margin-right: -0.5em;
-    z-index: 9999;
+    --wght: 600;
+    display: inline-flex;
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    z-index: 9999;
 }
 
 .footnote_content,
 .footnote_content * {
-    --wght: 400;
-    display: block;
-    position: absolute;
-    right: -13rem;
-    width: 10rem;
-    line-height: 1.2;
-    border: 0.125rem solid rgb(var(--swatch-primary));
-    font-family: var(--body-font);
-    padding: 0.5rem 0.25rem 0.5rem 0.5rem;
-    text-shadow: initial;
-    filter: initial;
-    color: rgb(var(--black-monochrome));
-    transition:
-     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
-     transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
-    pointer-events: none;
-    font-weight: 400;
-    font-size: calc(var(--base-font-size) * 0.9);
-    text-indent: 0.75rem;
-    letter-spacing: 0.0125rem;
-    z-index: 9999;
+    --wght: 400;
+    display: block;
+    position: absolute;
+    right: -13rem;
+    width: 10rem;
+    line-height: 1.2;
+    border: 0.125rem solid rgb(var(--swatch-primary));
+    font-family: var(--body-font);
+    padding: 0.5rem 0.25rem 0.5rem 0.5rem;
+    text-shadow: initial;
+    filter: initial;
+    color: rgb(var(--black-monochrome));
+    transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    pointer-events: none;
+    font-weight: 400;
+    font-size: calc(var(--base-font-size) * 0.9);
+    text-indent: 0.75rem;
+    letter-spacing: 0.0125rem;
+    z-index: 9999;
 }
 
 .footnote_num {
-    cursor: pointer;
-    color: rgb(var(--link-color));
-    height: 1em;
-    width: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    margin-left: 0.25em;
-    font-variant: lining-nums;
-    font-size: 0.9em;
-    position: relative;
-    bottom: 0.6rem;
-    border-radius: 50%;
+    cursor: pointer;
+    color: rgb(var(--link-color));
+    height: 1em;
+    width: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-left: 0.25em;
+    font-variant: lining-nums;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0.6rem;
+    border-radius: 50%;
 }
 
 .footnote_block .footnote_content::before {
-    --wght: 900;
-    content: " ";
-    position: absolute;
-    font-size: 1em;
-    top: -0.5em;
-    left: -0.5em;
-    font-weight: 900;
-    color: rgb(var(--white-monochrome));
-    background-color: rgb(var(--link-color));
-    height: 1em;
-    width: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.25em;
-    font-variant: lining-nums;
-    border-radius: 50%;
-    text-indent: 0;
+    --wght: 900;
+    content: " ";
+    position: absolute;
+    font-size: 1em;
+    top: -0.5em;
+    left: -0.5em;
+    font-weight: 900;
+    color: rgb(var(--white-monochrome));
+    background-color: rgb(var(--link-color));
+    height: 1em;
+    width: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25em;
+    font-variant: lining-nums;
+    border-radius: 50%;
+    text-indent: 0;
 }
 
 .footnote_block.one .footnote_content::before {
-    content: "1";
+    content: "1";
 }
 
 .footnote_block.two .footnote_content::before {
-    content: "2";
+    content: "2";
 }
 
 .footnote_block.three .footnote_content::before {
-    content: "3";
+    content: "3";
 }
 
 .footnote_block.four .footnote_content::before {
-    content: "4";
+    content: "4";
 }
 
 .footnote_block.five .footnote_content::before {
-    content: "5";
+    content: "5";
 }
 
 
 .footnote_block.six .footnote_content::before {
-    content: "6";
+    content: "6";
 }
 
 
 .footnote_block.seven .footnote_content::before {
-    content: "7";
+    content: "7";
 }
 
 .footnote_block.eight .footnote_content::before {
-    content: "8";
+    content: "8";
 }
 
 .footnote_block.nine .footnote_content::before {
-    content: "9";
+    content: "9";
 }
 
 .footnote_block.ten .footnote_content::before {
-    content: "10";
+    content: "10";
 }
 
 .footnote_block.eleven .footnote_content::before {
-    content: "11";
+    content: "11";
 }
 
 .footnote_block.twelve .footnote_content::before {
-    content: "12";
+    content: "12";
 }
 
 .footnote_block.thirteen .footnote_content::before {
-    content: "13";
+    content: "13";
 }
 
 .footnote_block.fourteen .footnote_content::before {
-    content: "14";
+    content: "14";
 }
 
 .footnote_num + span {
-    transform: translateX(-25%);
-    opacity: 0;
+    transform: translateX(-25%);
+    opacity: 0;
 }
 
 .footnote_num:hover + span {
-    transform: translateX(0);
-    opacity: 1;
+    transform: translateX(0);
+    opacity: 1;
 }
 
 @media (max-width: 1200px) {
-    .footnote_content {
-    		position: fixed;
-    		bottom: 1em;
-    		left: 12.5%;
-    		background-color: rgba(var(--white-monochrome));
-    		width: 75%;
-    		max-width: 75vw;
-    }
+    .footnote_content {
+    		position: fixed;
+    		bottom: 1em;
+    		left: 12.5%;
+    		background-color: rgba(var(--white-monochrome));
+    		width: 75%;
+    		max-width: 75vw;
+    }
 }
 
 .document-main {
-    position: relative;
+    position: relative;
 }
 
 .document-main > br {
-    display: none;
+    display: none;
 }
 
 .document-main > div {
-    display: block;
-    width: calc(100% - 3rem);
-    background-color: rgb(var(--very-light-gray-monochrome), 1);
-    padding: 0.75rem 0.75rem 0.5rem;
-    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
-    border: 0.25rem rgb(var(--swatch-border-color)) solid;
-    position: relative;
-    line-height: 1.5;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
-    font-size: inherit;
+    display: block;
+    width: calc(100% - 3rem);
+    background-color: rgb(var(--very-light-gray-monochrome), 1);
+    padding: 0.75rem 0.75rem 0.5rem;
+    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+    border: 0.25rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-size: inherit;
 }
 
 .document-main > div > p:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .document-main > div::before {
-    --wght: 600;
-    content: " ";
-    position: absolute;
-    top: -1.25rem;
-    left: -0.5rem;
-    padding: 0.5em 0.5em;
-    color: rgb(var(--white-monochrome));
-    font-size: calc(12px + (14 - 12) * ( (100vw - 300px) / ( 800 - 300) ));
-    font-family: var(--title-font);
-    font-variant: all-petite-caps;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    text-indent: 0;
-    display: flex;
-    line-height: 1;
-    white-space: nowrap;
+    --wght: 600;
+    content: " ";
+    position: absolute;
+    top: -1.25rem;
+    left: -0.5rem;
+    padding: 0.5em 0.5em;
+    color: rgb(var(--white-monochrome));
+    font-size: calc(12px + (14 - 12) * ( (100vw - 300px) / ( 800 - 300) ));
+    font-family: var(--title-font);
+    font-variant: all-petite-caps;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-indent: 0;
+    display: flex;
+    line-height: 1;
+    white-space: nowrap;
 }
 
 .document-main > div.sp-containment,
 .document-main > div.discovery,
 .document-main > div.description {
-    background-color: rgba(var(--light-gray-monochrome),0.15);
-    border-color: rgba(var(--swatch-primary-darkest),1);
+    background-color: rgba(var(--light-gray-monochrome),0.15);
+    border-color: rgba(var(--swatch-primary-darkest),1);
 }
 
 .document-main > div.sp-containment::before,
 .document-main > div.discovery::before,
 .document-main > div.description::before {
-    background-color: rgba(var(--swatch-primary-darkest),1)
+    background-color: rgba(var(--swatch-primary-darkest),1)
 }
 
 .document-main > div.sp-containment::before {
-    content: "Special Containment Procedures";    
+    content: "Special Containment Procedures";    
 }
 
 .document-main > div.discovery::before {
-    content: "Discovery";    
+    content: "Discovery";    
 }
 
 .document-main > div.description::before {
-    content: "Description";
+    content: "Description";
 }
 
 .document-main > .sp-containment > .sp-containment-image {
-    grid-area: image;
-    width: 15vw;
-    float: right;
-    padding-left: 1rem;
+    grid-area: image;
+    width: 15vw;
+    float: right;
+    padding-left: 1rem;
 }
 
 .document-main > .sp-containment > .sp-containment-image img {
-    max-height: 110vh;
+    max-height: 110vh;
 }
 
 [[/module]]
@@ -348,7 +348,7 @@ SCP‑4801 is a freight elevator of unknown make and model within the storage ba
 
 Under all known current standards for cognizance, SCP‑4801 is considered sentient, capable of reasoning and thought. This property is not apparent from the exterior of SCP‑4801 and can only be observed from its interior.
 
-When a human subject enters SCP‑4801, it will often engage in conversation. If more than one individual enters, it will converse with only one subject while the others will not observe the anomalous behavior at all.[[span class="footnote_block one"]][[span class="footnote_num"]]1[[/span]][[span class="footnote_content"]]With the exception of the chosen individual appearing to speak to themselves.[[/span]][[/span]] This is not believed to be due to SCP‑4801 using any degree of mental manipulation as recordings can still detect SCP‑4801's voice if attached to the chosen individual. Though not fully understood, it's believed that this occurs via use of focused, directional audio using manipulation of SCP-4801's four speakers contained within its walls at each corner of its interior.  
+When a human subject enters SCP‑4801, it will often engage in conversation. If more than one individual enters, it will converse with only one subject while the others will not observe the anomalous behavior at all.[[span class="footnote_block one"]][[span class="footnote_num"]]1[[/span]][[span class="footnote_content"]]With the exception of the chosen individual appearing to speak to themselves.[[/span]][[/span]] This is not believed to be due to SCP‑4801 using any degree of mental manipulation as recordings can still detect SCP‑4801's voice if attached to the chosen individual. Though not fully understood, it's believed that this occurs via use of focused, directional audio using manipulation of SCP-4801's four speakers contained within its walls at each corner of its interior.  
 
 In addition to SCP‑4801's perceived sentience, it also displays some degree of reality altering ability, often conveying information that appears to be related to future events. However, multiple measurements of Hume levels surrounding SCP‑4801 have shown a lowering in Hume levels when these precognitive statements occur. As such, it is understood that SCP‑4801 is likely altering reality to its words rather than predicting future events. Further testing is still needed to confirm this.
 
@@ -455,7 +455,7 @@ Soon after detection, Gamma-5 was activated and sent to contain the spread of SC
 
 **Dr. Lark:** What the hell... I can't remember my code.
 
-**Dr. Miles:**  //[Chuckling slightly.]// You always forget, sir. We should just switch this to a keycard entry.
+**Dr. Miles:**  //[Chuckling slightly.]// You always forget, sir. We should just switch this to a keycard entry.
 
 //[Door beeps as Dr. Miles lets Dr. Lark in.]//
 
@@ -515,7 +515,7 @@ Soon after detection, Gamma-5 was activated and sent to contain the spread of SC
 
 **D-3MQ1:** //[Under strain.]// Fuckin'... this ain't easy. Y'all are lucky I'm not some beanpole.
 
- **Dr. Lark:** Just get the door open, 3M. 
+ **Dr. Lark:** Just get the door open, 3M. 
 
 //[Loud metallic bang as doors to SCP-4801 slam open. Dull thud as D-3MQ1 falls in to the interior.]//
 
@@ -709,7 +709,7 @@ We are outfitting the MTF members with body cameras for further testing as well.
 
 **Dr. Miles:** Yes, sir. We do not have any records of SCP-4801 ever being incorrect in its observations.
 
-**S22-1:** SRAs are doing their job, then, eh?  
+**S22-1:** SRAs are doing their job, then, eh?  
 
 **SCP-4801:** I see, how strange. You come not as a devotee. 
 
@@ -886,7 +886,7 @@ Still from camera feed of S22-1.
 
 //[S22-3's camera also only displays extreme corruption.]//
 
-**SCP-4801-β:** The Sutra of the Blooming Yeast. The great one gifts us, as does yeast rise; and so shall you.  
+**SCP-4801-β:** The Sutra of the Blooming Yeast. The great one gifts us, as does yeast rise; and so shall you.  
 
 **S22-1:** Yeah, that's definitely bread. Look.
 
@@ -916,13 +916,13 @@ Still from camera feed of S22-1.
 
 **S22-3:** //[Comes to with a sharp inhale.]// O-op, sir, we need to get out of here.
 
- **SCP-4801-β:** Your paths have converged. Four becomes three. The splitting of the bread rises the three that remain above their station. Ceto-vimutti.[[span class="footnote_block fourteen"]][[span class="footnote_num"]]14[[/span]][[span class="footnote_content"]]Buddhist ideal of deliverance of the mind towards enlightenment.[[/span]][[/span]] Suffering extends and grows, lifts and rises. And so, do not mourn. Sacrifice is only the end. 
+ **SCP-4801-β:** Your paths have converged. Four becomes three. The splitting of the bread rises the three that remain above their station. Ceto-vimutti.[[span class="footnote_block fourteen"]][[span class="footnote_num"]]14[[/span]][[span class="footnote_content"]]Buddhist ideal of deliverance of the mind towards enlightenment.[[/span]][[/span]] Suffering extends and grows, lifts and rises. And so, do not mourn. Sacrifice is only the end. 
 
 **S22-2:** Op, snap out of it! //[S22-2 stands up from the chair and approaches S22-1 and shakes him.]//
 
 **S22-1:** //[Is coming to.]// D-Dos...? What happen to... //[Heaves slightly, leaning over the table.]// Oh Christ, did we eat him?
 
- **SCP-4801-β:** No more. You can return. The germ planted, make the soil ready for me.
+ **SCP-4801-β:** No more. You can return. The germ planted, make the soil ready for me.
 
 //[A bell chimes in all three mics as the cameras display heavy distortion once again. The distortion clears and all three men are within SCP-4801 once again in identical positions to when they entered. They do not look distressed, standing in a prepared defensive position while holding their weapons. The door to the elevator opens, revealing the test chamber. The observation room is empty. The sirens from before are still at full alert.]//
 

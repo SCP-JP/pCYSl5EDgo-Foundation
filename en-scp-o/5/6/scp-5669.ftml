@@ -4,11 +4,11 @@
 
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -17,32 +17,32 @@
 
 [[module CSS]]
 :root {
-    --background: linear-gradient(0.25turn, #89928a, #cfcfcc , #89928a);
-    /* A grey gradient */
-    --pale-accent: 91,107,107;
-    /* light grey, for visited links (an unvisited) */
-    --bright-accent: 171, 186, 186;
-    /* bright grey */
-    --medium-accent: 118, 142, 142;
-    /* medium/light grey - the "default" accent color */
-    --dark-accent: 89, 99, 99;
-    /* dark grey */
-    --alt-accent: 118, 124, 124;
-    /* light grey */
+    --background: linear-gradient(0.25turn, #89928a, #cfcfcc , #89928a);
+    /* A grey gradient */
+    --pale-accent: 91,107,107;
+    /* light grey, for visited links (an unvisited) */
+    --bright-accent: 171, 186, 186;
+    /* bright grey */
+    --medium-accent: 118, 142, 142;
+    /* medium/light grey - the "default" accent color */
+    --dark-accent: 89, 99, 99;
+    /* dark grey */
+    --alt-accent: 118, 124, 124;
+    /* light grey */
 }
 [[/module]]
 
 [[module CSS]]
 :root {
- --five-color: 133,0,5;
-    --four-color: 170,170,170;
-    --three-color: 100,100,100;
-    --two-color: 133,0,5;
-    --one-color: 120,120,120;
-  --safe: 133,0,5;
-  --euclid: 133,0,5;
-  --keter: 133,0,5;
-  --esoteric: 120,120,120;
+ --five-color: 133,0,5;
+    --four-color: 170,170,170;
+    --three-color: 100,100,100;
+    --two-color: 133,0,5;
+    --one-color: 120,120,120;
+  --safe: 133,0,5;
+  --euclid: 133,0,5;
+  --keter: 133,0,5;
+  --esoteric: 120,120,120;
 }
 [[/module]]
 
@@ -81,9 +81,9 @@
 -----
 
 [[include component:image-block
-    name= 240px-Hurricane_Hazel_--_house1.jpg |
-    caption= Sunken section of SCP-5669.|
-    width=300px
+    name= 240px-Hurricane_Hazel_--_house1.jpg |
+    caption= Sunken section of SCP-5669.|
+    width=300px
 ]]
 
 **Special Containment Procedures:** Advanced research into SCP-5669 have suggested that continuous concealment and disallowment of phenomena to propegate actively causes anomalous activity. Following study and review, containment specialists have implemented a gradual process of abandoning active containment to allow self-neutralization. 
@@ -108,7 +108,7 @@ Since documentation of SCP-5669, an approximate of ██ unique messages have b
 
 I hadn't gotten the chance to have caught your name. I saw you on the sidelines at the dancehall last Wednesday night. I was going to ask you for a dance, just because you and I had been the only ones who didn't seem to have had a dancin' partner. Wasn't meant to be a waltz or anythin' of that sort, just a simple little thing to have ended the night.
 
-I was wanting to go and introduce myself properly, but everytime I got close to you, I got too nervous.  I didn't even know if you had a dancing partner, but they had been late or somesuch. So there I went, havingto go and turn myself back around. I know it isn't as neighborly to introduce myself this way, but well- it seems this is how it is for right now. My name is Mary-Jean Lucy-Crawford. My sisters joked thay my mother couldn't pick a favorite name out of Mary, Lucy and Jean, and instead simply went with all three. I go by Jean, perhaps because I'm the middle child, and its the middle name. Or, uh, just sounds better then Mary-Lucy. Jury's still out and countin'. I think they're probably right in some aspects. I haven't been able to have a lot of company over, or even really get out onto the town, and meet everyone. Last Wednesday was the only time I could in the past few months.
+I was wanting to go and introduce myself properly, but everytime I got close to you, I got too nervous.  I didn't even know if you had a dancing partner, but they had been late or somesuch. So there I went, havingto go and turn myself back around. I know it isn't as neighborly to introduce myself this way, but well- it seems this is how it is for right now. My name is Mary-Jean Lucy-Crawford. My sisters joked thay my mother couldn't pick a favorite name out of Mary, Lucy and Jean, and instead simply went with all three. I go by Jean, perhaps because I'm the middle child, and its the middle name. Or, uh, just sounds better then Mary-Lucy. Jury's still out and countin'. I think they're probably right in some aspects. I haven't been able to have a lot of company over, or even really get out onto the town, and meet everyone. Last Wednesday was the only time I could in the past few months.
 
 Can I invite you over, one of these days? Perhaps on the first of March, 'round the afternoon? I'll pop a cake in the oven too. My mother taught me that. Always joked abour bribin' the new neighbours with tea and cake. 
 
@@ -121,7 +121,7 @@ Perhaps I'll see you then. -Jean.
 
 Wednesday fell into the weekend so fast, I hadn't even noticed until I went out to get the paper, and I found myself plum-struck by the date. I felt so... //good// and like myself. Not having to hide behind a facade, of what everyone else in Montauk expected me to be. Not that they know me well, but... Just by having a few days with you- It felt good. A rather nice thing to feel. A real good thing. Real good thing. I never really got the chance to tell you this, and again, like last time, here I am expressing something important through a letter. This is the last time. I promise you that. But the thing I wanted to tell you was, that I am happy that you feel like I can be more to you than anyone else in this town. 
 
-I'm looking forward to the time when I get to see you again. I know we're not at the point were I can spin sonnets, and throw every word of affection your way, but I feel like I can say that I think you're  important to me. Someone real important.
+I'm looking forward to the time when I get to see you again. I know we're not at the point were I can spin sonnets, and throw every word of affection your way, but I feel like I can say that I think you're  important to me. Someone real important.
 [[/div]]
 
 
@@ -177,13 +177,13 @@ Your love, Jean.
 
 **Addendum No. 1:** Dr. Brown's Message
 
-Lead SCP-5669 researcher Josephine Brown reported finding the following message found in a bottle, that washed in the beach near her home in Montauk, NY. Before her work in the  Foundation's historical department, Brown was a noted archivist of lesbian history and literature. Historical review has shown that the following image has not been publicly shared until appearing to Dr. Josephine Brown.
+Lead SCP-5669 researcher Josephine Brown reported finding the following message found in a bottle, that washed in the beach near her home in Montauk, NY. Before her work in the  Foundation's historical department, Brown was a noted archivist of lesbian history and literature. Historical review has shown that the following image has not been publicly shared until appearing to Dr. Josephine Brown.
 
 [[include component:image-block
-    name= Portrait_photograph_of_Miss_M._R._Griffith_and_Miss_M._H._Crutcher_n.d._(3191809813).jpg |
-    caption= Thank you for remembering and seeing us. As time goes on, we won't need to be remembered this way. People will know. With love, Jean and Nelly Crawford. |
-    align=center |
-    width=100%
+    name= Portrait_photograph_of_Miss_M._R._Griffith_and_Miss_M._H._Crutcher_n.d._(3191809813).jpg |
+    caption= Thank you for remembering and seeing us. As time goes on, we won't need to be remembered this way. People will know. With love, Jean and Nelly Crawford. |
+    align=center |
+    width=100%
 ]]
 
 [[footnoteblock]]

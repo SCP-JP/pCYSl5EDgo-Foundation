@@ -50,16 +50,16 @@ SCP-5635-1 was an eleven-year-old female from Thailand named 'Malee Chanthara'. 
 
 [[module CSS]]
 :root {
-  --scp-number: '5635';  /*Change the XXXX to whatever number you want, but don't get rid of the apostrophes*/
+  --scp-number: '5635';  /*Change the XXXX to whatever number you want, but don't get rid of the apostrophes*/
 }
 #page-content .collapsible-block-folded .collapsible-block-link::before {
-    content: "▷ ADDENDUM " var(--scp-number) "." counter(collapse);
+    content: "▷ ADDENDUM " var(--scp-number) "." counter(collapse);
 }
 #page-content .collapsible-block-unfolded .collapsible-block-link::before {
-    content: "▽ ADDENDUM " var(--scp-number) "." counter(collapse);
+    content: "▽ ADDENDUM " var(--scp-number) "." counter(collapse);
 }
 #page-content .unfolded-collapse::before {
-    content: "▽ ADDENDUM" var(--scp-number) "." counter(collapse);
+    content: "▽ ADDENDUM" var(--scp-number) "." counter(collapse);
 }
 [[/module]]
 

@@ -4,14 +4,14 @@
 
 [[module CSS]]
 .test {
-  margin: 6px auto;
-  padding: .2em 1.25em;
-  background-color: #e5e5e5;
-  width: 85%;
+  margin: 6px auto;
+  padding: .2em 1.25em;
+  background-color: #e5e5e5;
+  width: 85%;
 }
 
 @media only screen and (max-width: 600px) {
-  .test { width: 95% }
+  .test { width: 95% }
 }
 [[/module]]
 
@@ -107,8 +107,8 @@
 **Result:** See Incident 5655.1.
 [[/div]]
 
- _
- _
+ _
+ _
 **Incident 5655.1**
 [[div class="test" style="padding:1em inherit;"]]
 = **< BEGIN LOG >**
@@ -172,7 +172,7 @@
 [[include :scp-wiki:component:license-box]]
 =====
 > **Filename:** spam.png
-> **Name:**  Incident 5655.1
+> **Name:**  Incident 5655.1
 > **Author:** [[*user AnActualCrow]]
 > **Derivative of:** [https://search.creativecommons.org/photos/226ebb2b-d12d-4c09-8b14-46bcabafc7a5 Spam Can!] (CC BY-SA 2.0) by [https://www.flickr.com/photos/85567416@N03 Pest15]
 > **License:** CC-BY 3.0

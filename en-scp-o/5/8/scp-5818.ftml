@@ -1,30 +1,30 @@
 [[module CSS]]
-  .footnoteref{ font-variant: unset; }
+  .footnoteref{ font-variant: unset; }
 [[/module]]
 
 [[module CSS]]
 @import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
 
 .parawatch blockquote {
-    background:  #1a1a1a;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #262626;
-    color: #f2f2f2;
-    font-family: 'PT Mono', monospace;
+    background:  #1a1a1a;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #262626;
+    color: #f2f2f2;
+    font-family: 'PT Mono', monospace;
 }
 
 .parawatch a {
-    color: #6F9;
-    font-weight: bold;
+    color: #6F9;
+    font-weight: bold;
 }
 
 
 @media (max-width: 767px) {
-    .scp-image-block.block-right {
-        float: none;
-        margin: auto;
-    }
+    .scp-image-block.block-right {
+        float: none;
+        margin: auto;
+    }
 }
 [[/module]]
 
@@ -34,44 +34,44 @@
 |authorPage=http://www.scp-wiki.net/dr-dune-s-personnel-file
 |comments=
 = **SCP-5818** - //Frankenstein Burger King//
- 
+ 
 -----
- 
+ 
 mmmm
 burger
 
 -----
- 
+ 
 = **Image Credits**
- 
+ 
 ]]
 [[module CSS]]
 sup {
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 
 :root {
-    --cutColour: #fafafa;
-    --barColour: #590505;
+    --cutColour: #fafafa;
+    --barColour: #590505;
 }
 
 .translation_block {
-    display: none;
+    display: none;
 }
 
 .info-container .collapsible-block-folded a {
-    color: #FFF;
+    color: #FFF;
 }
 
 .info-container .collapsible-block-unfolded-link a {
-    color: #FFF;
+    color: #FFF;
 }
 
 .info-container .collapsible-block-link,
 .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 [[/module]]
 [[include theme:black-highlighter-theme]]
@@ -240,7 +240,7 @@ The following account of an SCP-5818 event was transcribed by a Foundation agent
 [[include :scp-wiki:component:license-box]]
 =====
 > **Filename:** frankenstein.jpg
-> **Author:** [https://www.flickr.com/people/31018257@N00  Diego Torres Silvestre]
+> **Author:** [https://www.flickr.com/people/31018257@N00  Diego Torres Silvestre]
 > **License:** CC-BY-SA-2.0
 > **Source Link:** [https://www.flickr.com/photos/3336/3595192144/ flickr]
 

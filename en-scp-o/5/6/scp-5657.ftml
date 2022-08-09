@@ -7,70 +7,70 @@
 [[module CSS]]
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* black shadow at the top of the terminal */
-    background-image: 
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -110,16 +110,16 @@ Please wait... Please wait... Please wait...
 
 **Lockdown enga**[[span style="font-family: Courier New; font-size: 100%;text-shadow: 1px 3px;text-shadow: 3px 1px;"]]**aâæà**[[/span]] 
 
-[[span style="font-family: Courier New; font-size: 100%;text-shadow: 1px 3px;text-shadow: 3px 1px;"]]**Access granted.**[[/span]]  Thank you, **USER_NOT_FOUND.** 
+[[span style="font-family: Courier New; font-size: 100%;text-shadow: 1px 3px;text-shadow: 3px 1px;"]]**Access granted.**[[/span]]  Thank you, **USER_NOT_FOUND.** 
 
 This is your first time within Section-ØN.
 
 The following data must be thoroughly reviewed before accessing SCP-5657.
 [[/=]]
-* __5657-GD__ | Containment Protocols +  Description **[01/01]** 
+* __5657-GD__ | Containment Protocols +  Description **[01/01]** 
 * __5657-IN__ | Interview Logs **[01/91]**
-* __5657-TL__ | Test Logs  **[01/3651]** 
-* __5657-CB__ | Containment Breach Logs  **[01/26]** 
+* __5657-TL__ | Test Logs  **[01/3651]** 
+* __5657-CB__ | Containment Breach Logs  **[01/26]** 
 * __5657-NN__ | All Episodes of //Nicki Knows// **[01/28]** 
 * __5657-RL__ | Recovery Log **[01/01]** 
 * __5657-LD__ | Lab Diagno 
@@ -161,7 +161,7 @@ All essential operations within Section-ØN will be overseen by Site AI //EVAS//
 
 If an individual undergoes the //Knows Test// and SCP-5657 does not give the code-phrase "I can feel their heart beating", automated restraints will keep the individual fully immobilized. Should immobilization fail, or the individual poses any eminent threat to SCP-5657's safety, they will be terminated via automatic gunfire. Secondary to SCP-5657's survival, the live capture of a GOI-115 specimen is considered paramount in averting a total SK-Class "Dominance Shift" scenario.
 
-SCP-5657, together with all knowledge related to its existence, has been permanently restricted to Section-ØN.  Upon exiting this area, you will be amnesticized. 
+SCP-5657, together with all knowledge related to its existence, has been permanently restricted to Section-ØN.  Upon exiting this area, you will be amnesticized. 
 
 ------
 
@@ -286,7 +286,7 @@ __**ACCESSING 5657-IN_06**__
 > 
 > **SCP-5657:** I loved //The Healing Hour//. People didn't. Ratings were low, reviews called it "softball feel-good garbage". There was talk of canceling. I mean—... no one said it out loud, but when I shook the producers' hands—
 > 
->  **Dr. Adelard:** They changed their minds after episode 18, correct?
+>  **Dr. Adelard:** They changed their minds after episode 18, correct?
 > 
 > **SCP-5657:** //(...)// Yeah, after the Doherty interview; after my little... outburst.
 > 
@@ -300,7 +300,7 @@ __**ACCESSING 5657-IN_06**__
 > 
 > **Dr. Adelard:** But instead, they gave you a second season.
 > 
-> **SCP-5657:** They gave me a whole new //show// is what they did! How could they not when the ratings exploded like that?  Everyone was talking about it! I was on the cover of //TV Guide//, //People// magazine, even—
+> **SCP-5657:** They gave me a whole new //show// is what they did! How could they not when the ratings exploded like that?  Everyone was talking about it! I was on the cover of //TV Guide//, //People// magazine, even—
 > 
 > **Dr. Adelard:** I thought it was all about helping people, Nicki.
 > 
@@ -315,11 +315,11 @@ __**ACCESSING 5657-IN_06**__
 > **SCP-5657:** You keep provoking me so I'll argue. I get it. People don't like spilling their guts, but they love correcting people they're angry at. It's an old tactic, but it works. Despite what you people //feel// about me, I'm not just my ability. I know how this works. I made a //living// off this.
 > 
 > **Dr. Adelard:** Ms. Ludo— 
->   
+>   
 > **SCP-5657:** You're supposed to apologize afterwards, by the way. Reconcile. Build a rapport. Then, all those heightened emotions will become associated with intimacy instead of animosity, and your interviewee opens right up... though, I guess this isn't a talk show interview, or a therapy session, is it? You're just collecting data from an asset. 
 > 
 > **Dr. Adelard:** Data we need to protect you, and the rest of the world, Ms. Ludo.
->  
+>  
 > **SCP-5657:** Which I get. Look, I can't say much for the accommodations, but I'd much rather be on this side of the blast-doors than out there with... //them//. I'm on your side. You want to know something? Quit pulling my strings like a baby with a banjo and just //talk to me//.
 > 
 > **Dr. Adelard:** //(...)// So, season 2. 
@@ -532,7 +532,7 @@ You are not [[span style="font-family: Courier New; font-size: 100%;text-shadow:
 > 
 > **Zeta-12-2|Fields:** Your arm.
 > 
-> //The male figure looks sideways. The radial bone of his left arm is fractured open. Pieces of the bone are seen extending out from a large gash. Subject shows no signs of discomfort, even as he rotates his arm up well past baseline human flexibility. The sound of tendon and bones snapping is heard.  Subject inspects the radial bone now inches from his face.//
+> //The male figure looks sideways. The radial bone of his left arm is fractured open. Pieces of the bone are seen extending out from a large gash. Subject shows no signs of discomfort, even as he rotates his arm up well past baseline human flexibility. The sound of tendon and bones snapping is heard.  Subject inspects the radial bone now inches from his face.//
 > 
 > **Unknown Male:** //(monotone)// Ah.
 > 
@@ -611,7 +611,7 @@ You are not [[span style="font-family: Courier New; font-size: 100%;text-shadow:
 > 
 > **SCP-5657:** It worked... for a while. Maybe I was losing focus, maybe I just wasn't scared enough... maybe he was getting used to it. I don't know; but he got back on his feet. I had to do something. I grabbed him one last time and gave him the only thing I had left... anger. That's when he started hitting me. He could have killed me — easily — but he didn't. He just hit me, over and over. You've probably seen the medical reports. I'd never even broken a bone before that day, let alone twenty-freaking-seven. It worked, though. I stayed alive long enough for your SWAT guys to show up. You know the rest.
 > 
->  **Dr. Adelard:** I do, yes. Thank you Nicki. Let's stop here.
+>  **Dr. Adelard:** I do, yes. Thank you Nicki. Let's stop here.
 > 
 > **SCP-5657:** Oh— yeah alright. That's... hey— hey Doc? Do you think... are you guys close? I just mean... you've taken a whole lotta' my blood and bone marrow and— I don't even know. Have you found a way to—?
 > 
@@ -761,7 +761,7 @@ When I pretended I was being [[span style="font-family: Courier New; font-size: 
 > 
 > **Intercom | Dr. Adelard:** Congelation cannons. High-pressure foam spray that hardens to 3000 kilograms per cubic meter in .002 seconds from contact.
 > 
->  **Nicki:** What he said. Instant statue.
+>  **Nicki:** What he said. Instant statue.
 > 
 > //USER_NOT_FOUND slowly lowers their hand.//
 > 

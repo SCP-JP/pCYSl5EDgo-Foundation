@@ -3,19 +3,19 @@
 
 [[module CSS]]
 div#extra-div-1 {
-     width: 100%;
-     height: calc(100% - var(--final-header-height-on-desktop));
-     position: absolute;
-     top: calc(var(--final-header-height-on-desktop));
-     left: 0;
-     z-index: -1;
-     mask: var(--gradient-background);
-     -webkit-mask: var(--gradient-background);
-     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hubble_view_of_M_106_%288450543502%29.jpg/1280px-Hubble_view_of_M_106_%288450543502%29.jpg);
-     background-size: 100%, 80% var(--background-gradient-distance);
-     background-blend-mode: difference;
-     background-repeat: no-repeat, repeat-x;
-     pointer-events: none;
+     width: 100%;
+     height: calc(100% - var(--final-header-height-on-desktop));
+     position: absolute;
+     top: calc(var(--final-header-height-on-desktop));
+     left: 0;
+     z-index: -1;
+     mask: var(--gradient-background);
+     -webkit-mask: var(--gradient-background);
+     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hubble_view_of_M_106_%288450543502%29.jpg/1280px-Hubble_view_of_M_106_%288450543502%29.jpg);
+     background-size: 100%, 80% var(--background-gradient-distance);
+     background-blend-mode: difference;
+     background-repeat: no-repeat, repeat-x;
+     pointer-events: none;
 }
 [[/module]]
 
@@ -188,7 +188,7 @@ On 13 March 2015, Beholder-8 gave out an emergency signal when it suddenly exper
 
 **Site Director Maxwells:** Is the AI ok?
 
-**Dr. Arkand:** Yeah,  but the battery is still heavily damaged from the collision. Seems like there is not much energy left.
+**Dr. Arkand:** Yeah,  but the battery is still heavily damaged from the collision. Seems like there is not much energy left.
 
 **Binary Star:** DEPLOYING SOLAR PANELS. GOING IN ALERT MODE.
 

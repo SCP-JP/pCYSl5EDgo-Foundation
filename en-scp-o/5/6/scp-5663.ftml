@@ -22,39 +22,39 @@ Written for Jamcon. I'll add more here when I'm not very very tired.
 <style>
 
 .btn:focus {
-  outline: 0;
+  outline: 0;
 }
- 
+ 
 .btn {
-  background-color: Maroon;
-  color: white;
-  padding: 5px 10px;
-  border: none;
-  cursor: pointer;
-  width: 70%;
-  opacity: 0.9;
-  transition: 0.09s;
-  border-radius: 3px;
-  transition 0.8s;
+  background-color: Maroon;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+  opacity: 0.9;
+  transition: 0.09s;
+  border-radius: 3px;
+  transition 0.8s;
 }
- 
+ 
 .btn:hover {
-  opacity: 1;
-  transition: 0.8s;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  transition: 0.8s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.7);
 }
- 
+ 
 .btn:active {
-  transition: 0.09s;
-  transform: translateY(1px);
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+  transition: 0.09s;
+  transform: translateY(1px);
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
 }
- 
+ 
 .btn2 {
-    background-color: white;
-    border: none;
-    cursor: pointer;
- 
+    background-color: white;
+    border: none;
+    cursor: pointer;
+ 
 }
 
 
@@ -72,18 +72,18 @@ var tstring = "RADICAL!!!"
 
 function eckhart()
 {
-   if(tnum2<tstring.length){
-      tnum2++;
-   }
-   window.setTimeout(twait,1);
+   if(tnum2<tstring.length){
+      tnum2++;
+   }
+   window.setTimeout(twait,1);
 }
 
 function twait(){
-   document.getElementById("fakename").value= tstring.substring(tnum1, tnum2);
+   document.getElementById("fakename").value= tstring.substring(tnum1, tnum2);
 }
 </script>
 <h4>Please describe, in one word, the image above:</h4>
-<div><textarea rows="1" style="width:70%;" id="fakename"  onkeyup="if(this.value.length > 7) document.getElementById('start_button').disabled = false; else document.getElementById('start_button').disabled = true;" onkeydown="eckhart()" wrap="hard">
+<div><textarea rows="1" style="width:70%;" id="fakename"  onkeyup="if(this.value.length > 7) document.getElementById('start_button').disabled = false; else document.getElementById('start_button').disabled = true;" onkeydown="eckhart()" wrap="hard">
 
 </textarea> </div>
 [[/html]]
@@ -201,7 +201,7 @@ In December 2043, Providence and Pawtucket were hit with a chain of bank thefts,
 > 
 > **Officer Hernandes:** He's run into the boathouse there, so he's cornered. I can just wait it out til- FUCK ME-
 > 
->  //There is the sound of an oncoming vehicle, followed by a heavy collision. Hernandes yells incoherently.//
+>  //There is the sound of an oncoming vehicle, followed by a heavy collision. Hernandes yells incoherently.//
 > 
 > **Officer Draper:** BABE?!
 > 

@@ -787,163 +787,163 @@ a:hover {
 #top-bar ul li:hover a, 
 #top-bar ul li:hover ul li a {
     background: var(--divColor);
-    border: none;
-    color: var(--textColor);
+    border: none;
+    color: var(--textColor);
 }
- 
+ 
 #top-bar ul li:hover a:hover {
-    background: var(--backgroundColor);
-    color: var(--textColor);
+    background: var(--backgroundColor);
+    color: var(--textColor);
 }
- 
+ 
 #top-bar ul li:hover ul li a {
-    padding-bottom: 0.0938rem;
-    padding-top: 0.0938rem;
+    padding-bottom: 0.0938rem;
+    padding-top: 0.0938rem;
 }
- 
+ 
 #top-bar ul li ul {
-    border: 0.0625rem solid var(--divColor);
+    border: 0.0625rem solid var(--divColor);
 }
- 
+ 
 #top-bar .open-menu a {
-    background-color: var(--textColor);
-    border-color: var(--backgroundColor);
-    color: var(--backgroundColor);
+    background-color: var(--textColor);
+    border-color: var(--backgroundColor);
+    color: var(--backgroundColor);
 }
- 
+ 
 @media (max-width: 768px) {
-    .mobile-top-bar {
-         display: flex;
-         justify-content: center;
-         max-width: 100%;
-         width: 100%;
-         left: 0;
-         background: var(--divColor);
-    }
- 
-    .mobile-top-bar ul li a{color: var(--textColor);}
+    .mobile-top-bar {
+         display: flex;
+         justify-content: center;
+         max-width: 100%;
+         width: 100%;
+         left: 0;
+         background: var(--divColor);
+    }
+ 
+    .mobile-top-bar ul li a{color: var(--textColor);}
 }
- 
+ 
 /* MY ACCOUNT */
- 
+ 
 #login-status {
-    color: var(--textColor);
+    color: var(--textColor);
 }
 #login-status a {
-    color: var(--accentColor);
+    color: var(--accentColor);
 }
- 
+ 
 #account-topbutton {
-    border: none;
-    margin-left: 0.35em;
-    padding: 0 0.45em;
-    font-size: 1em;
-    position: relative;
+    border: none;
+    margin-left: 0.35em;
+    padding: 0 0.45em;
+    font-size: 1em;
+    position: relative;
 }
- 
+ 
 #account-topbutton::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: var(--divColor);
-    opacity: 0.125;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--divColor);
+    opacity: 0.125;
 }
- 
+ 
 #account-options {
-    width: 6.25rem;
-    background: var(--backgroundColor);
-    border: none;
-    border-right: solid 3px var(--divColor);
+    width: 6.25rem;
+    background: var(--backgroundColor);
+    border: none;
+    border-right: solid 3px var(--divColor);
 }´
- 
+ 
 #account-options::before,
 #account-options::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    pointer-events: none;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
 }
- 
+ 
 #account-options::before {
-    background: var(--backgroundColor);
+    background: var(--backgroundColor);
 }
- 
+ 
 #account-options::after {
-    background-color: var(--divColor);
-    mix-blend-mode: overlay;
+    background-color: var(--divColor);
+    mix-blend-mode: overlay;
 }
- 
+ 
 #account-options > ul {
-    position: relative;
-    z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 #account-options ul a {
-    color: var(--accentColor);
-    background-color: transparent;
-    font-weight: bold;
-    letter-spacing: 0.01em;
-    padding: 0.25em 0.5em;
-    text-align: right;
+    color: var(--accentColor);
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    padding: 0.25em 0.5em;
+    text-align: right;
 }
 #account-options ul a:hover {
-    color: var(--divColor);
-    background: var(--backgroundColor);
+    color: var(--divColor);
+    background: var(--backgroundColor);
 }
 
 /* SEARCH BOX - FORKED FROM PENUMBRA*/
- 
+ 
 #search-top-box {
-    top: 2.2rem!important;
-    right: 8px;
+    top: 2.2rem!important;
+    right: 8px;
 }
 #search-top-box-form > input[type=submit] {
-    border: solid 1px var(--textColor);
-    background: var(--backgroundColor)!important;
-    box-shadow: none;
-    border-radius: 0;
-    color: var(--textColor);
-    transition: color 0.15s linear;
+    border: solid 1px var(--textColor);
+    background: var(--backgroundColor)!important;
+    box-shadow: none;
+    border-radius: 0;
+    color: var(--textColor);
+    transition: color 0.15s linear;
 }
 #search-top-box-form input[type=submit]:hover {
-    border: solid 1px var(--textColor);
-    box-shadow: none;
-    color: var(--textColor);
-    background: var(--divColor);
+    border: solid 1px var(--textColor);
+    box-shadow: none;
+    color: var(--textColor);
+    background: var(--divColor);
 }
 #search-top-box-form > input[type=text] { display: none; }
 
 /* -----== AGENT ==----- */
 
 /* LINK CHANGES */
- 
+ 
 a,
-a:visited  {
-    background-color: var(--textColor);
-    color: var(--backgroundColor);
+a:visited  {
+    background-color: var(--textColor);
+    color: var(--backgroundColor);
 }
- 
+ 
 a:hover {
-    text-decoration: underline;
-    background-color: var(--textColor);
+    text-decoration: underline;
+    background-color: var(--textColor);
 }
- 
+ 
 #side-bar a,
 #side-bar a:visited {
-    color: var(--backgroundColor);
+    color: var(--backgroundColor);
 }
- 
+ 
 #page-content a:hover::before {
-    background-color: var(--textColor);
+    background-color: var(--textColor);
 }
- 
+ 
 /* DIV CHANGES */
- 
+ 
 #top-bar ul li a,
 .page-rate-widget-box,
 .page-rate-widget-box .rate-points,
@@ -955,7 +955,7 @@ a:hover {
 .page-rate-widget-box .cancel a,
 .scp-image-block .scp-image-caption,
 .yui-navset .yui-nav li,
- .yui-navset .yui-navset-top .yui-nav li,
+ .yui-navset .yui-navset-top .yui-nav li,
 .hovertip,
 #side-bar .side-block.media,
 #side-bar .side-block.resources,
@@ -970,72 +970,72 @@ a:hover {
 blockquote,
 div.blockquote,
 #toc {
-    color: var(--backgroundColor) !important;
+    color: var(--backgroundColor) !important;
 }
- 
+ 
 #page-content .wiki-content-table tr td {
-    background-color: var(--backgroundColor);
-    color: var(--textColor);
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
 }
- 
- .yui-navset .yui-nav a,
- .yui-navset .yui-navset-top .yui-nav a{
-    color: var(--textColor);
-    background-color: var(--backgroundColor);
+ 
+ .yui-navset .yui-nav a,
+ .yui-navset .yui-navset-top .yui-nav a{
+    color: var(--textColor);
+    background-color: var(--backgroundColor);
 }
- 
+ 
 .yui-navset .yui-nav a:hover,
- .yui-navset .yui-nav a:focus{
-    color: var(--backgroundColor);
-    background-color: var(--textColor);
+ .yui-navset .yui-nav a:focus{
+    color: var(--backgroundColor);
+    background-color: var(--textColor);
 }
- 
+ 
 #top-bar ul li:hover a:hover {
-    color: var(--textColor) !important;
+    color: var(--textColor) !important;
 }
- 
+ 
 #top-bar {
-    background: linear-gradient(to right, transparent 30%, var(--divColor) 100%);
-    padding-right: 3.125rem;
+    background: linear-gradient(to right, transparent 30%, var(--divColor) 100%);
+    padding-right: 3.125rem;
 }
- 
+ 
 .page-rate-widget-box .cancel a:hover,
 .page-rate-widget-box .rateup a:hover,
 .page-rate-widget-box .ratedown a:hover {
-    background: var(--backgroundColor);
-    color: var(--textColor) !important;
+    background: var(--backgroundColor);
+    color: var(--textColor) !important;
 }
- 
+ 
 #license-area,
 #footer-bar {
-    color: var(--backgroundColor);
+    color: var(--backgroundColor);
 }
 
 .box {
-    position: relative;
-    padding: 0.5em;
-    margin: 0.5em;
-    box-shadow: 2px 1.5px 1px var(--textColor), 0 0 0px 1px var(--textColor);
-    overflow-wrap: break-word;
-    color: var(--textColor);
+    position: relative;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 2px 1.5px 1px var(--textColor), 0 0 0px 1px var(--textColor);
+    overflow-wrap: break-word;
+    color: var(--textColor);
 }
 
 .report {
-    display: block;
-    width: 60%;
-    margin: 0.625rem auto;
-    padding: 0.3125rem 0.9375rem;
-    border: dashed 0.0625rem var(--textColor);
-    background: url(http://scpdsandbox.wdfiles.com/local--files/fragment%3Adarkartists-fooling-around-box-3/logo.png) center center no-repeat;
+    display: block;
+    width: 60%;
+    margin: 0.625rem auto;
+    padding: 0.3125rem 0.9375rem;
+    border: dashed 0.0625rem var(--textColor);
+    background: url(http://scpdsandbox.wdfiles.com/local--files/fragment%3Adarkartists-fooling-around-box-3/logo.png) center center no-repeat;
 }
 
 .system-box {
-    position: relative;
-    padding: 0.5em;
-    margin: 0.5em;
-    box-shadow: 2px 1.5px 1px var(--textColor), 0 0 0px 1px var(--textColor);
-    overflow-wrap: break-word;
-    color: var(--textColor);
-    background: url(http://scpdsandbox.wdfiles.com/local--files/fragment%3Adarkartists-fooling-around-box-3/logo.png) center center no-repeat;
+    position: relative;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 2px 1.5px 1px var(--textColor), 0 0 0px 1px var(--textColor);
+    overflow-wrap: break-word;
+    color: var(--textColor);
+    background: url(http://scpdsandbox.wdfiles.com/local--files/fragment%3Adarkartists-fooling-around-box-3/logo.png) center center no-repeat;
 }
 [[/module]]

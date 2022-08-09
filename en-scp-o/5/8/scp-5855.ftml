@@ -14,41 +14,41 @@ The only thing I can say (and I say this with complete certainty) is that if the
 .anom-bar > .bottom-box { box-shadow: none!important; }
 div.diamond-part { clip-path: none; animation: none; box-shadow: none!important; }
 @media (max-width: 480px) {
-    div.top-right-box { clip-path: polygon(0% -30%, 100% -30%, 100% 130%, 0% 130%); }
+    div.top-right-box { clip-path: polygon(0% -30%, 100% -30%, 100% 130%, 0% 130%); }
 }
 
 :root {
-    --timeDelay: 1s;
+    --timeDelay: 1s;
 }
 
 a.collapsible-block-link { font-weight: bold; color: #8d0600;}
 .avatar-hover { display: none !important; }
 
 .operation {
-  width: 70%;
-  margin: auto;
-  margin-bottom: 1.2rem;
-  padding: 1.2em 1.2em 1em 1.2em;
-  border: 2px solid black;
-  background: #ffc3c0;
-  font-family: bitter;
-  box-shadow: 8px 8px 15px -4px gray;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1.2rem;
+  padding: 1.2em 1.2em 1em 1.2em;
+  border: 2px solid black;
+  background: #ffc3c0;
+  font-family: bitter;
+  box-shadow: 8px 8px 15px -4px gray;
 }
 
 /* BRINGS IMAGES CLOSER ON 1080P MONITORS */
 .widebox {
- border: 0px solid white;
- padding: none;
- margin: 0px auto;
- width: 93%;
+ border: 0px solid white;
+ padding: none;
+ margin: 0px auto;
+ width: 93%;
 }
 @media only screen and (max-width: 1919px) {
-  .widebox{ width: 100%; }
+  .widebox{ width: 100%; }
 }
 
 @media only screen and (max-width: 600px) {
-  .operation{ width: 90%; }
-  .begone{display: none;}
+  .operation{ width: 90%; }
+  .begone{display: none;}
 }
 [[/module]]
 
@@ -73,8 +73,8 @@ a.collapsible-block-link { font-weight: bold; color: #8d0600;}
 [[/div]]
 
 [[include :scp-wiki:component:image-block-peppo
-    name=AppleFeet.png|
-    caption="The Scarlet Muse" by notable post-impressionist Hugo Demóre, c. 1879
+    name=AppleFeet.png|
+    caption="The Scarlet Muse" by notable post-impressionist Hugo Demóre, c. 1879
 ]]
 
 **Special Containment Procedures:** Not enough is currently known about SCP-5855 manifestations to effectively contain SCP-5855 upon manifestation. For this reason, short-term containment efforts should focus on administering Class G amnestics to individuals who have seen SCP-5855 but were unaffected by SCP-5855's non-anomalous antimemetic property.
@@ -95,27 +95,27 @@ SCP-5855-A instances frequently create art depicting SCP-5855, which de-manifest
 **Addendum 01 - Artistic Depictions of SCP-5855:**
 [[div class="widebox"]]
 [[include component:image-block
-    name=Manana.png|
-    caption=An image taken from tumblr user //st4rvingshartist//. The caption reads: "Inspired by a dream I had were a banana with arms told me to keep making art. Thanks manana :)"|
-    align=left|
+    name=Manana.png|
+    caption=An image taken from tumblr user //st4rvingshartist//. The caption reads: "Inspired by a dream I had were a banana with arms told me to keep making art. Thanks manana :)"|
+    align=left|
 ]]
 
 [[include component:image-block
-    name=Pearson.png|
-    caption="Fever Dream" by @ZaylArt🔞 on Twitter, 2019|
-    align=right|
+    name=Pearson.png|
+    caption="Fever Dream" by @ZaylArt🔞 on Twitter, 2019|
+    align=right|
 ]]
 
 [[include component:image-block
-    name=painapple.png|
-    caption="The Ugly Pineapple" by Ralph Jacobs, runner up in the 2012 Scholastic Art Awards|
-    align=right|
+    name=painapple.png|
+    caption="The Ugly Pineapple" by Ralph Jacobs, runner up in the 2012 Scholastic Art Awards|
+    align=right|
 ]]
 
 [[include component:image-block
-    name=orangeLips.png|
-    caption="Speech Without Substance" by Emanuel Canterfellow Rosenstein, currently in the AAAG (American Abstract Art Gallery), 2016|
-    align=left|
+    name=orangeLips.png|
+    caption="Speech Without Substance" by Emanuel Canterfellow Rosenstein, currently in the AAAG (American Abstract Art Gallery), 2016|
+    align=left|
 ]]
 [[/div]]
 ~~~~

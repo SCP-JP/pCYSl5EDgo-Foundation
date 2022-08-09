@@ -10,32 +10,32 @@ by [[[stormbreath]]]
 
 
 #page-content .border{
-    box-sizing: border-box;
-    padding: .85em 0;
-    background-color: rgb(45, 70, 45);
-    border: 2vw solid rgba(0,0,0,0.5);
-    border-radius: 3vw;
-    border-image: url(http://wanderers-library.wdfiles.com/local--files/component%3Adustjacket-theme/wl_border.png) 600 round;
-    border-image-width: 6;
-    text-align: center;
-    margin: auto;
-    width: 60%;
+    box-sizing: border-box;
+    padding: .85em 0;
+    background-color: rgb(45, 70, 45);
+    border: 2vw solid rgba(0,0,0,0.5);
+    border-radius: 3vw;
+    border-image: url(http://wanderers-library.wdfiles.com/local--files/component%3Adustjacket-theme/wl_border.png) 600 round;
+    border-image-width: 6;
+    text-align: center;
+    margin: auto;
+    width: 60%;
 
-    font-size: 120%;
-    font-family: 'adelle-sans', sans-serif;
-    letter-spacing: 1px;
-    word-break: unset;
-    color: #FFDB5A;
+    font-size: 120%;
+    font-family: 'adelle-sans', sans-serif;
+    letter-spacing: 1px;
+    word-break: unset;
+    color: #FFDB5A;
 }
 
 #page-content h2 {
-    text-align: center;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
-    #page-content .border{
-        width: 100%;
-     }
+    #page-content .border{
+        width: 100%;
+     }
 }
 [[/module]]
 
@@ -63,7 +63,7 @@ On July 15th, 1965, a lone member of the Serpent's Hand opened a Way into SCP-56
 
 [[div class="border"]]
 **I Love You, Mama**
- 
+ 
 Ages and ages and ages ago,
 Just as man began to know fear,
 A devil came to earth.
@@ -125,5 +125,5 @@ Since the beginning of observation, the fight has been markedly one-sided. SCP-5
 [[/div]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]
