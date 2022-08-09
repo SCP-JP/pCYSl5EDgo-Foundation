@@ -489,58 +489,58 @@ Next Episode → [[[slipping-away|来世蛇 /// ザ・ファウンデーショ�
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
 .page {
-  display: block;
-  overflow: hidden;
-  font-family: 'Zen Kurenaido', sans-serif;
-  font-style: sans-serif;
-  font-size: 1.2em;
-  line-height: 30px;
+  display: block;
+  overflow: hidden;
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-style: sans-serif;
+  font-size: 1.2em;
+  line-height: 30px;
 
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-color: transparent;
-  background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-  background-origin: padding-box;
-  background-position: 0px 8px;
-  background-repeat: repeat;
-  background-size: 100% 20px;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+  background-origin: padding-box;
+  background-position: 0px 8px;
+  background-repeat: repeat;
+  background-size: 100% 20px;
 
-  border: 1px solid #CCC;
-  border-radius: 10px;
-  padding: 10px 10px;
-  margin-bottom: 10px;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
 
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
 }
 .page p,
 .page ul {
-  line-height: 20px;
-  margin: 0;
+  line-height: 20px;
+  margin: 0;
 }
 .page li {
-  line-height: 200%;
+  line-height: 200%;
 }
 .page ul {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #html-body #header h2 span {
-  font-size: 0px;
+  font-size: 0px;
 }
 
 #html-body #header h2 span::before {
-  content: '確保、収容、保護、統制';
-  color: #f0f0c0;
-  font-size: 15px;
+  content: '確保、収容、保護、統制';
+  color: #f0f0c0;
+  font-size: 15px;
 }
 
 #html-body #header h1 a span {
-  font-size: 0px;
-  letter-spacing: 0px;
+  font-size: 0px;
+  letter-spacing: 0px;
 }
 
 #html-body #header h1 a::after {
-  content: "Site-17 深淵目録";
+  content: "Site-17 深淵目録";
 }
 [[/module]]
