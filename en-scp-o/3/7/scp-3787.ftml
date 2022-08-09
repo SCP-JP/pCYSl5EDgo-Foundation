@@ -3,16 +3,16 @@
 
 [[module CSS]]
 /* HEADER */
- :root{
-   --lgurl: url(https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/tg_logo.svg);
+ :root{
+   --lgurl: url(https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/tg_logo.svg);
 }
- #page-title{
-     display: none;
+ #page-title{
+     display: none;
 }
 
 /* BODY */
- .council{
-     background-image: url(https://i.imgur.com/z2avkQX.png);
+ .council{
+     background-image: url(https://i.imgur.com/z2avkQX.png);
 }
 [[/module]]
 
@@ -107,7 +107,7 @@ This breeding cycle does not adversely affect pregnant mares or resultant newbor
 |url=wild-horses.jpg
 |add-caption=true
 |caption=Horses displaying SCP-3787-1 behaviour while hunting for prey. Image captured remotely. _
- _
+ _
 (Hover to enlarge.)
 ]]
 
@@ -166,7 +166,7 @@ To achieve this goal, DIRE HORSE has employed the use of Ashleigh's Fields: A ca
 |url=factory-farm.jpg
 |add-caption=true
 |caption=Ashleigh's Fields factory farm. _
- _
+ _
 (Hover to enlarge.)
 ]]
 
@@ -192,7 +192,7 @@ To reduce general awareness of the full spread of the equine illness, DIRE HORSE
 +* [[span class="flicker-effect"]]THE ANTIMEMETICS DIVISION[[/span]]
 [[/div]]
 [[div class="orderdescription"]]
- _
+ _
 +* DECOMMISSIONING REPORT
 This file is classified under Level-4/3787 clearance.
 Unauthorized access is forbidden.
@@ -214,7 +214,7 @@ Unauthorized access is forbidden.
 |url=site-41.jpg
 |add-caption=true
 |caption=Site-41, Facility-//Aleph//. _
- _
+ _
 (Hover to enlarge.)
 ]]
 
@@ -386,54 +386,54 @@ The Foundation is now directing efforts toward reducing [[[scp-4466|the fear of 
 [[/div]]
 
 [[module CSS]]
- #page-content .flicker-effect{
-     animation: flicker 10s infinite;
+ #page-content .flicker-effect{
+     animation: flicker 10s infinite;
 }
- @keyframes flicker{
-     0%{ opacity: .5; }
+ @keyframes flicker{
+     0%{ opacity: .5; }
 
-     10%{ opacity: .5; }
-     10.5%{ opacity: .25; }
-     11%{ opacity: .5; }
+     10%{ opacity: .5; }
+     10.5%{ opacity: .25; }
+     11%{ opacity: .5; }
 
-     20%{ opacity: .5; }
-     20.5%{ opacity: .1; }
-     21%{ opacity: .5; }
-     21.5%{ opacity: .5; }
-     22%{ opacity: 0; }
-     22.5%{ opacity: .25; }
+     20%{ opacity: .5; }
+     20.5%{ opacity: .1; }
+     21%{ opacity: .5; }
+     21.5%{ opacity: .5; }
+     22%{ opacity: 0; }
+     22.5%{ opacity: .25; }
 
-     28.75%{ opacity: .4; }
+     28.75%{ opacity: .4; }
 
-     35%{ opacity: .25; }
-     35.5%{ opacity: .1; }
-     36%{ opacity: .25; }
-     36.5%{ opacity: .5; }
-     37%{ opacity: 0; }
-     37.5%{ opacity: .25; }
-     38%{ opacity: .5; }
+     35%{ opacity: .25; }
+     35.5%{ opacity: .1; }
+     36%{ opacity: .25; }
+     36.5%{ opacity: .5; }
+     37%{ opacity: 0; }
+     37.5%{ opacity: .25; }
+     38%{ opacity: .5; }
 
-     50%{ opacity: .5; }
-     50.5%{ opacity: .1; }
-     51%{ opacity: .5; }
-     51.5%{ opacity: .5; }
-     52%{ opacity: 0; }
-     52.5%{ opacity: .25; }
+     50%{ opacity: .5; }
+     50.5%{ opacity: .1; }
+     51%{ opacity: .5; }
+     51.5%{ opacity: .5; }
+     52%{ opacity: 0; }
+     52.5%{ opacity: .25; }
 
-     58.75%{ opacity: .4; }
+     58.75%{ opacity: .4; }
 
-     65%{ opacity: .25; }
-     65.5%{ opacity: 0; }
-     66%{ opacity: .5; }
-     67%{ opacity: .1; }
-     69%{ opacity: .25; }
-     72%{ opacity: .5; }
+     65%{ opacity: .25; }
+     65.5%{ opacity: 0; }
+     66%{ opacity: .5; }
+     67%{ opacity: .1; }
+     69%{ opacity: .25; }
+     72%{ opacity: .5; }
 
-     85%{ opacity: .5; }
-     85.5%{ opacity: .25; }
-     86%{ opacity: .5; }
+     85%{ opacity: .5; }
+     85.5%{ opacity: .25; }
+     86%{ opacity: .5; }
 
-     100%{ opacity: .5; }
+     100%{ opacity: .5; }
 }
 [[/module]]
 

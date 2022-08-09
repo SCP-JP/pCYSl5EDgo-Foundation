@@ -1,48 +1,48 @@
 [[module CSS]]
 /* SITE HEADER */
- #header h1 a,
- #header h1 a::before{
-     position: relative;
-     left: -1.5px;
- 
-     color: hsl(0, 0%, 90%);
-     text-shadow:
-        .7px    .7px  0 hsla(0, 0%, 0%, .8),
-       1.4px   1.4px  0 hsla(0, 0%, 0%, .8);
-     letter-spacing: -.02em;
+ #header h1 a,
+ #header h1 a::before{
+     position: relative;
+     left: -1.5px;
+ 
+     color: hsl(0, 0%, 90%);
+     text-shadow:
+        .7px    .7px  0 hsla(0, 0%, 0%, .8),
+       1.4px   1.4px  0 hsla(0, 0%, 0%, .8);
+     letter-spacing: -.02em;
 }
- #header h2 span,
- #header h2 span::before{
-     color: hsl(0, 0%, 90%);
-     text-shadow: 1px 1px 0 hsla(0, 0%, 0%, .8);
+ #header h2 span,
+ #header h2 span::before{
+     color: hsl(0, 0%, 90%);
+     text-shadow: 1px 1px 0 hsla(0, 0%, 0%, .8);
 }
- #header h1 a,
- #header h2 span{
-     color: transparent;
-     text-shadow: none;
+ #header h1 a,
+ #header h2 span{
+     color: transparent;
+     text-shadow: none;
 }
- #header h1 a::before{
-     content: "The Avian Division";
-     font-family: "Verdana", sans-serif;
+ #header h1 a::before{
+     content: "The Avian Division";
+     font-family: "Verdana", sans-serif;
 }
- #header h2 span::before{
-     content: "Until we return to The Nest";
+ #header h2 span::before{
+     content: "Until we return to The Nest";
 }
 
 /* SERIES NAV */
- .series-nav{
-     margin: .5em 0;
- 
-     background:
-       linear-gradient(to bottom right,
-                hsla(0, 0%, 100%, 1),
-                 hsla(45, 100%, 55%, .5));
-     border: outset 1.5px hsl(0, 0%, 5%);
-     border-radius: 2em;
- 
-     font-size: 85%;
-     font-weight: bold;
-     text-align: center;
+ .series-nav{
+     margin: .5em 0;
+ 
+     background:
+       linear-gradient(to bottom right,
+                hsla(0, 0%, 100%, 1),
+                 hsla(45, 100%, 55%, .5));
+     border: outset 1.5px hsl(0, 0%, 5%);
+     border-radius: 2em;
+ 
+     font-size: 85%;
+     font-weight: bold;
+     text-align: center;
 }
 [[/module]]
 
@@ -130,7 +130,7 @@ Based on the condition that these documents are describing SCP-3632 and semi-acc
 
 [[collapsible show="Display Sitchin-1 Incident Log" hide="Hide Sitchin-1 Incident Log"]]
 
-[[table  style="border-collapse:collapse; width: 600px;"]]
+[[table  style="border-collapse:collapse; width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
 Incident
@@ -270,7 +270,7 @@ Unknown cause. Values returned to normal after 3 minutes.
 > 
 > By now, you’ve probably figured out that SCP-3632-1 is very real. We mostly call him Thoth at this point – containment procedure’s fallen apart, but can you really blame us?
 > 
-> We should have recognized from the history records that Thoth has a penchant for setting traps, and we walked right into one he set. SCP-3632, the buildings, the entities – it was all  elaborate bait he set for us, a means of transporting some kind of weaponized idea back to Earth. And we fell for it, because it was only a Safe anomaly and there were so many other, catastrophic, world-ending terrors we had to deal with on a daily basis. And here we are. Let that be a lesson to… well, who, really? There’s almost no one left.
+> We should have recognized from the history records that Thoth has a penchant for setting traps, and we walked right into one he set. SCP-3632, the buildings, the entities – it was all  elaborate bait he set for us, a means of transporting some kind of weaponized idea back to Earth. And we fell for it, because it was only a Safe anomaly and there were so many other, catastrophic, world-ending terrors we had to deal with on a daily basis. And here we are. Let that be a lesson to… well, who, really? There’s almost no one left.
 > 
 > Humanity never stood a chance. The meme was across the planet in a matter of hours. We still have some colleagues holed up in Lunar Area-32, but it’s only a matter of time until they run out of supplies. In the end, there were no voracious reality-eaters, no walking pillars of flesh, just... a single, stupid meme that got past our filters, and suddenly the --people we swore to protect-- entire population of Earth is roaming around, cawing and pecking at the ground. And lately, there have been other, more [http://www.scp-wiki.net/scp-3570 disturbing changes].
 > 

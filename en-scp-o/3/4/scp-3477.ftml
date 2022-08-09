@@ -1,34 +1,34 @@
 [[include :scp-wiki:component:bhl-style-collapse-source]]
 [[module css]]
 .au-credit {
-    text-align: right;
-    margin-right: 2em;
-    margin-top: -10px;
+    text-align: right;
+    margin-right: 2em;
+    margin-top: -10px;
 }
 
 #page-content .creditRate {
-    margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* bhl-style-collapse Sigma-9 Compatiblity Patch */
 #page-content .collapsible-block-folded, #page-content .collapsible-block-unfolded, #page-content .unfolded-collapse{
-    line-height: 1.4;
+    line-height: 1.4;
 }
 #page-content .collapsible-block-folded .collapsible-block-link::before, #page-content .collapsible-block-unfolded .collapsible-block-link::before, #page-content .unfolded-collapse::before {
-    font-family: monospace;
-    font-size: 130%;
-    margin-left: -0.4em
+    font-family: monospace;
+    font-size: 130%;
+    margin-left: -0.4em
 }
 
 #page-content .collapsible-block-folded {
-    max-width: 9.5em;
+    max-width: 9.5em;
 }
 
 #page-content .collapsible-block-folded .collapsible-block-link::before {
-    content: "▷ ADDENDUM 3477." counter(collapse);
+    content: "▷ ADDENDUM 3477." counter(collapse);
 }
 #page-content .collapsible-block-unfolded .collapsible-block-link::before {
-    content: "▽ ADDENDUM 3477." counter(collapse);
+    content: "▽ ADDENDUM 3477." counter(collapse);
 }
 [[/module]]
 
@@ -43,7 +43,7 @@ View more of my articles [[[stormbreath|here.]]]
 = [[span style="font-size: 200%; color: firebrick;"]]Related Articles[[/span]]
 
 = **[[[document-3477-2|Document 3477-2]]]**
->  Document-3477 #2 - Complete List of SCP-3477 Instances
+>  Document-3477 #2 - Complete List of SCP-3477 Instances
 
 = **[[[SCP-1680]]]**
 > Due to similarities to SCP-3477, a direct link between the two phenomena is under investigation.
@@ -176,7 +176,7 @@ On 09/08/2017, all thirty-four instances of SCP-3477 were introduced to one anot
 
 > **BEGIN LOG**
 > 
->  **All instances except -3, -13 and -14:** Oh! I had been told there were others, but I didn't quite believe it until now. Stranger things have happened, I suppose.
+>  **All instances except -3, -13 and -14:** Oh! I had been told there were others, but I didn't quite believe it until now. Stranger things have happened, I suppose.
 > 
 > **SCP-3477-13 and SCP-3477-14:** Ah, we meet again! I suppose we are the only two to have met each other before!
 > 

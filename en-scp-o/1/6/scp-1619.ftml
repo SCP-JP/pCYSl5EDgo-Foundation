@@ -35,65 +35,65 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Fantem";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "Fantem";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .pulsate {
-    -webkit-animation: pulsate 1s linear;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation: pulsate 1s linear;
+    -webkit-animation-iteration-count: infinite;
 }
 @-webkit-keyframes pulsate {
-  0% {
-    opacity:1;
-  }
-  25% {
-    opacity:.20;
-  }
-  50% {
-    opacity:.9;
-  }
-  70% {
-    opacity:.05;
-  }
-  85% {
-    opacity:.05;
-  }
+  0% {
+    opacity:1;
+  }
+  25% {
+    opacity:.20;
+  }
+  50% {
+    opacity:.9;
+  }
+  70% {
+    opacity:.05;
+  }
+  85% {
+    opacity:.05;
+  }
 }
 [[/module]]
 [[include :scp-wiki:component:acs-animation]]
@@ -264,7 +264,7 @@ An SCP-1619-2-C can be identified by the three metal struts across its face-plat
 > 
 > Basically, our escape didn't work. We went with Crowely's plan, killing one -1 to attract the rest to one barricade, close it, and escape through the other one while the rest try and get through the first.
 > 
-> It got some of them to get away, but not all. Chris... Agent Beck got out first, but was pinned by an -1...  Must have found us when the first one died. By the time most of us were halfway down the hall, I looked back, and saw Beck struggling to keep some of those... the -1s off of him. There wasn't much point in not shooting; if any others were coming, then they'd already be on their way.
+> It got some of them to get away, but not all. Chris... Agent Beck got out first, but was pinned by an -1...  Must have found us when the first one died. By the time most of us were halfway down the hall, I looked back, and saw Beck struggling to keep some of those... the -1s off of him. There wasn't much point in not shooting; if any others were coming, then they'd already be on their way.
 > 
 > The smell of paint was strong when they were gone; someone might have passed out if we spent any more time in that spot than we did. The -Cs didn't mind it, they actually did most of the work. We just got to the end of the hall, and shot the couple that got too close to us. Eventually we got them all, but then came Beck.
 > 

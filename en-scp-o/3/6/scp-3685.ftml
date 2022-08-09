@@ -6,7 +6,7 @@
 |authorPage=http://scpdsandbox.wikidot.com/monkatraz-hub
 |comments= **Wacky Reactor Fun Times.** 
 @@ @@
-I feel that the most interesting places are those with //legacy//. Hanford, Chernobyl - they have lasting legacies coming from their disastrous effects, significant costs, long history, etc.  And, I love getting deep down and technical, something that the SCP Wiki could do but doesn't very often. So, I wrote this! 
+I feel that the most interesting places are those with //legacy//. Hanford, Chernobyl - they have lasting legacies coming from their disastrous effects, significant costs, long history, etc.  And, I love getting deep down and technical, something that the SCP Wiki could do but doesn't very often. So, I wrote this! 
 @@ @@
 Well, I rewrote it. The original was a tad sparse, the exploration log was boring, and was really screwy with some of sentence structure and the like. I'm surprised that it got ~30 upvotes. I've deleted it (rather than replacing it) because this version is just so significantly different (and better). I hope you enjoy it. 
 ----
@@ -34,22 +34,22 @@ display:none;}
 
 /* Fix footnote superscript flying away: */
 .footnoteref, #page-content > sup {
-    top: -0.25em;
+    top: -0.25em;
 }
 
 /* Visually centers image block */
 .scp-image-block.block-right {
-    margin: 0em 0em 1em 2em;
+    margin: 0em 0em 1em 2em;
 }
 
 @media only screen and (max-width: 600px) {
 
-    .scp-image-block.block-right{
-        float: none;
-        /* Makes the image full width on mobile, hopefully. */
-        min-width: 100%;
-        margin: 10px auto;
-    }
+    .scp-image-block.block-right{
+        float: none;
+        /* Makes the image full width on mobile, hopefully. */
+        min-width: 100%;
+        margin: 10px auto;
+    }
 }
 [[/module]]
 [[include :scp-wiki:component:anomaly-class-bar-source
@@ -81,7 +81,7 @@ Primary and secondary containment of the SCP-3685 spacetime anomaly is currently
 **Description:**
 SCP-3685 refers to a structure within the //Uranmaschinezüchter-1//[[footnote]]Translation: //Uranium-Machine-Breeder/Synthesizer//[[/footnote]] reactor complex, located in the German province of Saxony. SCP-3685 is the largest facility belonging to the UMZ-1 complex. Its interior suffers from a severe entangled spacetime anomaly. The outside facilities belonging to the UMZ-1 complex are non-anomalous, but are nevertheless hazardous due to the unsafe levels of radioactivity present. Foundation clean-up crews have temporarily decontaminated and cleared sections of the complex for human usage.[[footnote]]In order to obscure the level of Foundation personnel that may be present within the complex, the complex's dormitories have been remediated and converted without affecting their outward appearance. They are suitably radiation shielded and have full amenities. A marked path has been made leading to the dorms from the main gate. Additionally, several multiple floor lab-spaces have been constructed into the large white silos previously used to contain cooling water. Underground paths from the dorms leading into these spaces have been constructed, so that the lab-spaces can be used covertly.[[/footnote]]
 
-The interior of SCP-3685 is a radioactive, spatially entangled, discontinuous non-euclidean space.  Consequently, a precise description of the internal architecture of SCP-3685 is not possible, as the internal space is being continuously transformed by spatial reorganization. However, the space can be vaguely described: The outer areas of SCP-3685 usually contain an interlocked series of miscellaneous control rooms, offices, and maintenance areas, and the inner area consistently contains the UMZ-1 reactor and its housing. All attempts to explore areas near the reactor have failed.
+The interior of SCP-3685 is a radioactive, spatially entangled, discontinuous non-euclidean space.  Consequently, a precise description of the internal architecture of SCP-3685 is not possible, as the internal space is being continuously transformed by spatial reorganization. However, the space can be vaguely described: The outer areas of SCP-3685 usually contain an interlocked series of miscellaneous control rooms, offices, and maintenance areas, and the inner area consistently contains the UMZ-1 reactor and its housing. All attempts to explore areas near the reactor have failed.
 
 Various hazards are present within SCP-3685 that complicate exploration. These hazards include:
 * Ionizing radiation. Lowest measured was 15 mSv/hr, highest was 30 Sv/hr[[footnote]]Without protection, this dose reaches the median lethal dose within only a few seconds.[[/footnote]]. Average is approximately 500 mSv/hr[[footnote]]Without protection, this dose reaches the median lethal dose within ~30 seconds.[[/footnote]].
@@ -91,9 +91,9 @@ Various hazards are present within SCP-3685 that complicate exploration. These h
 * Spatial, temporal, or spatial-temporal loops.
 * Sudden dematerializations of non-temporally-linked entities (such as any introduced Foundation personnel or robotic units).
 
-The apparent magnitude of these hazards increases with proximity to the reactor. To demonstrate, during //Exploration 3685-12//, an autonomous drone, which was approximately 2-3 rooms away from the reactor, simultaneously experienced: a 0.54x gravitational field region,  3 discrete temporal loops, 12 interlocked spatial loops, and 1 spatial-temporal loop. Additionally, the drone had entirely disappeared and reappeared - twice. Contact with the unit was lost permanently when the drone gravitationally  imploded. The final transmitted gravimeter measurement showed a value for //G// approximately 10^^20^^ times stronger than would be normally expected.
+The apparent magnitude of these hazards increases with proximity to the reactor. To demonstrate, during //Exploration 3685-12//, an autonomous drone, which was approximately 2-3 rooms away from the reactor, simultaneously experienced: a 0.54x gravitational field region,  3 discrete temporal loops, 12 interlocked spatial loops, and 1 spatial-temporal loop. Additionally, the drone had entirely disappeared and reappeared - twice. Contact with the unit was lost permanently when the drone gravitationally  imploded. The final transmitted gravimeter measurement showed a value for //G// approximately 10^^20^^ times stronger than would be normally expected.
 
-Scranton Reality Anchors have proven incapable of stabilizing the anomaly present within SCP-3685, having no apparent effects. Further,  [[[and-this-one-explains-humes|Kant Counters]]] frequently fail to output Hume level measurements within SCP-3685, seemingly caused by the Kant Counters failing to detect local reality. Some success with stabilization has been seen with the //PL362 Deployable Spatial Rectifier//[[footnote]]//Prometheus Labs Model 362 Deployable Spatial Rectifier (PL362-DSR)//[[/footnote]],  but the enormous magnitude of the spacetime anomaly prevents the small device from being practical enough for containment or exploration.
+Scranton Reality Anchors have proven incapable of stabilizing the anomaly present within SCP-3685, having no apparent effects. Further,  [[[and-this-one-explains-humes|Kant Counters]]] frequently fail to output Hume level measurements within SCP-3685, seemingly caused by the Kant Counters failing to detect local reality. Some success with stabilization has been seen with the //PL362 Deployable Spatial Rectifier//[[footnote]]//Prometheus Labs Model 362 Deployable Spatial Rectifier (PL362-DSR)//[[/footnote]],  but the enormous magnitude of the spacetime anomaly prevents the small device from being practical enough for containment or exploration.
 
 **Origin:**
 The UMZ-1 complex was built by the covert Nazi German nuclear weapons program (//Uranprojekt//) under the administration of the //Reichsforschungsrat//[[footnote]]Translation: //Reich Research Council//[[/footnote]] during the spring of 1944, with direct authorization for its construction given from Hermann Göring. 
@@ -105,7 +105,7 @@ The UMZ-1 complex was the outcome of one of these proposals. Its designed purpos
 In early 1945, the UMZ-1 reactor suffered a catastrophic meltdown. According to recovered //Uranprojekt// documentation, this caused an 'interlocked local space compression fracture', the //Uranprojekt's// explanation for SCP-3685's spacetime anomaly. Following the meltdown, the Nazi German authorities condemned the complex and formed a 2 kilometer exclusion zone around the complex, which is maintained to the present day by Foundation security.
 
 **Discovery and Acquisition:**
-UMZ-1's existence first became known to the Foundation after several //Uranprojekt// scientists defected in late 1944. Through contacts in the United States government, the Foundation was informed of the then recent //Uranprojekt// efforts. Accordingly, the Foundation aggressively pursued acquisition and containment.  Enforced seizure agreements were made with all of the Allied nations, except for the USSR. The USSR repeatedly refused to any agreements, stating that it would handle containment itself[[footnote]]It is commonly accepted among Foundation historians that the Soviets were seeking the complex and its personnel as a way of augmenting its nuclear weapons program.[[/footnote]]. Due to the progression of the war during 1945 and the location of the UMZ-1 complex, the Foundation was initially unsuccessful in acquiring SCP-3685, as it was captured by Soviet forces.
+UMZ-1's existence first became known to the Foundation after several //Uranprojekt// scientists defected in late 1944. Through contacts in the United States government, the Foundation was informed of the then recent //Uranprojekt// efforts. Accordingly, the Foundation aggressively pursued acquisition and containment.  Enforced seizure agreements were made with all of the Allied nations, except for the USSR. The USSR repeatedly refused to any agreements, stating that it would handle containment itself[[footnote]]It is commonly accepted among Foundation historians that the Soviets were seeking the complex and its personnel as a way of augmenting its nuclear weapons program.[[/footnote]]. Due to the progression of the war during 1945 and the location of the UMZ-1 complex, the Foundation was initially unsuccessful in acquiring SCP-3685, as it was captured by Soviet forces.
 
 During 1951 as part of //Operation FAIRBANKS//, Foundation acquisition teams successfully seized, acquired, terminated, or integrated all remaining personnel[[footnote]]Several //Uranprojekt// scientists were never found. Likely captured by the USSR as a consequence of //Operation Osoaviakhim//.[[/footnote]], equipment, documentation related to the //Uranprojekt//, and SCP-3685 itself from Soviet forces. During this time, Foundation tensions with the USSR increased to near complete hostility.
 
@@ -219,7 +219,7 @@ During 1951 as part of //Operation FAIRBANKS//, Foundation acquisition teams suc
 > 
 > **Gamma:** //(Barely audible in the recording)// //You need to -// [unintelligible] //- creation can't handle more of these fractures -// [unintelligible] 
 > 
-> //Researcher's Note: When I had turned back to look at Gamma again, I realized he wasn't just.. staring. He was scanning up and down at the corner,  eyes imperceptibly squinting, examining. There was something in the corner that I couldn't see.//
+> //Researcher's Note: When I had turned back to look at Gamma again, I realized he wasn't just.. staring. He was scanning up and down at the corner,  eyes imperceptibly squinting, examining. There was something in the corner that I couldn't see.//
 > 
 > **Gamma:** I tried looking for Beta. I couldn't find him... how could I? I think I need rest, doctor. I'm not feeling right.
 > 
@@ -239,7 +239,7 @@ During 1951 as part of //Operation FAIRBANKS//, Foundation acquisition teams suc
 [[include component:image-block name=panels.jpg|align=right|width=100px|caption= Supposed recovered photograph of "//spatial stabilization embedded panels//" undergoing testing.]]
 Primary containment of the SCP-3685 anomaly is currently being managed by an //Uranprojekt// device technically described as the "//decompression pin//". It is unknown where it is or how it operates, and whether or not it needs to be maintained. A priority for the Foundation is to find this device and ascertain its condition. If its condition is critical and it cannot be repaired, drastic response will have to be immediately taken in order to secure containment.
 
-The //decompression pin// is not the only //Uranprojekt// containment device present. The walls of the facility are covered with, or have embedded,  panels that help isolate the spacetime anomaly to within the interior of the building. It is not known how these panels function, nor is it feasible to attain one without potentially compromising the original containment.
+The //decompression pin// is not the only //Uranprojekt// containment device present. The walls of the facility are covered with, or have embedded,  panels that help isolate the spacetime anomaly to within the interior of the building. It is not known how these panels function, nor is it feasible to attain one without potentially compromising the original containment.
 
 **Current Clean-up Efforts:**
 Much of the outlying facility of the UMZ-1 complex is hazardous due to radiation. In order to make the complex safer, topsoil removal, installation of showers and of an incinerator, washing of structures and vehicles, and other radiation decontamination methods have been implemented. Additionally, the //SCP-3685 Confinement Structure// covering the primary building is near completion, which should assist with mitigating the radioactivity emanating directly from SCP-3685.
@@ -247,7 +247,7 @@ Much of the outlying facility of the UMZ-1 complex is hazardous due to radiation
 [[/div]]
 ----
 **Future Containment Equipment:**
-[[include component:image-block name=newarray.jpg|align=center|width=700px|caption= Sub-component assembly of the //"FARADAY" Containment Ring//. This specific section is a component of the  //Maxwell-Vance Spatial Stabilization Array//.]]
+[[include component:image-block name=newarray.jpg|align=center|width=700px|caption= Sub-component assembly of the //"FARADAY" Containment Ring//. This specific section is a component of the  //Maxwell-Vance Spatial Stabilization Array//.]]
 The future of SCP-3685 containment is inherently uncertain due to a lack of information on how it is presently being contained. Determining the present or potential future condition of the //Uranprojekt// fail-safe equipment is currently impossible. Containment failure will likely have catastrophic consequences. To mitigate risk, the Foundation has started a containment program that will eventually manufacture and install new containment equipment that will supplant the //decompression pin//, with the intention of preventing a catastrophic containment failure.
 
 The scope of this effort is enormous due to the immense magnitude of the spacetime anomaly, bringing forth numerous specific engineering and design challenges. The most recently approved containment proposal, //SCP-3685 Containment Proposal Revision 13//[[footnote]]This proposal was drafted by a research group formed and headed up by Dr. Lorentz Alger. During its peak, the group was composed of 36 engineers and scientists.[[/footnote]], involves over 3000 tonnes of material and equipment that will have to be moved on-site and installed for full implementation. The containment equipment itself focuses on stabilization and magnitude reduction of the SCP-3685 spacetime anomaly, with the hope that it will eventually be possible to safely decommission SCP-3685.
@@ -261,7 +261,7 @@ The containment equipment includes:
 The operation of this equipment will require various components of supporting infrastructure, the majority of which must be on-site. This introduces more engineering challenges. The estimated continuous power consumption of the containment equipment is in excess of 130 megawatts. Supplying that much power is challenging, as the containment equipment takes up the significant majority of the floor-space present within the confinement structure. Thus, the power modules, and the supporting infrastructure in general, has been designed to be as small as possible.
 
 The supporting infrastructure includes:
-*  //SCP-3685 Confinement Structure//[[footnote]]Under the proposal, this would be publicly described as the "confinement sarcophagus."[[/footnote]] - a large structure that encapsulates SCP-3685 and provides the space necessary for the planned containment equipment. This structure will also serves to obscure SCP-3685 and any planned containment equipment from public view. To assist in this role, the structure will have thick sound-proofing to deaden the sound of the //"FARADAY" Ring//, along with a HVAC system.
+*  //SCP-3685 Confinement Structure//[[footnote]]Under the proposal, this would be publicly described as the "confinement sarcophagus."[[/footnote]] - a large structure that encapsulates SCP-3685 and provides the space necessary for the planned containment equipment. This structure will also serves to obscure SCP-3685 and any planned containment equipment from public view. To assist in this role, the structure will have thick sound-proofing to deaden the sound of the //"FARADAY" Ring//, along with a HVAC system.
 * 4x //"Project Polaris" 40 Megawatt Plutonium Fission Modules (CPM-40)// - In total, these reactor modules will generate 160 megawatts of power, which is required to reach a 20% safety margin. These reactors are of a plutonium based, graphite moderated, liquid sodium cooled design. Plutonium-239 fuel rods are planned to be sourced from the Foundation //"Cottontail" LMFBR// facility located in {{[REDACTED]}}.
 * A cooling water reservoir - located next to the west-end of the UMZ-1 complex. This reservoir was historically used for the UMZ-1 reactor, however it has been refilled and repurposed for this proposal. It will be used as a water-source and heat sink for the containment equipment located on-site.
 * 6x //Westinghouse Model 370F Nuclear-Rated Water Pump (WH370F)// - located in the aforementioned cooling reservoir. These pumps will provide cooling water circulation for large convective heat sinks located within the //SCP-3685 Confinement Structure//.
@@ -329,8 +329,8 @@ If that treasonous bastard and his bunch of cowards didn't leave, this might not
 
 Does he think the Anglo-Saxons are just going to let him go!? They're going to use them. Who knows what sort of deals they've made with Stalin, imagine if they exchanged them! The thought of it makes me sick. They'll be used, and they'll make another pile. They'll make another one and they're going to use it for wicked things.
 
-They've taken my pile too, blasted generals. Relieved me of my duties for "utter failure." Failure? I wasn't the one who was proven incapable!  They couldn't prevent a bunch of obtuse scientists from defecting! They've given the facility to some captain. These military men guard one of the greatest scientific creations in history and yet they understand nothing of its importance, it's infuriating! They refuse to let me near my damn reactor now, because they're making this "exclusion zone."
- 
+They've taken my pile too, blasted generals. Relieved me of my duties for "utter failure." Failure? I wasn't the one who was proven incapable!  They couldn't prevent a bunch of obtuse scientists from defecting! They've given the facility to some captain. These military men guard one of the greatest scientific creations in history and yet they understand nothing of its importance, it's infuriating! They refuse to let me near my damn reactor now, because they're making this "exclusion zone."
+ 
 I still don't know who died, or who has been found. I've asked for them to recover the bodies, but no one will enter the building, the cowards. They're just going to let the bodies rot in there. Those were good men, they gave their lives to Germany, and this is how they repay them!?
 
 I think stress is getting to me. I keep seeing things. I need some rest. I'm not feeling right.

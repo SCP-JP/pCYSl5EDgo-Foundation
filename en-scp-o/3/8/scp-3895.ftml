@@ -17,11 +17,11 @@ This document has been secured under Operation Marduk executive authority. Due t
 [[/=]]
 [[/div]]
 
- 
- 
- 
- 
- 
+ 
+ 
+ 
+ 
+ 
 [[=]]
 [[collapsible show="Our strength endures." hide="We are the Foundation."]]
 [[/=]]
@@ -53,7 +53,7 @@ The advent of SCP-3895 has stripped us of our luxury of choice. It has shattered
 We secure. We contain. We protect. And now, we //fight//.
 
 @@@@
-                           //Overseer 8, Operation Marduk Prime Director//
+                           //Overseer 8, Operation Marduk Prime Director//
 [[/div]]
 @@@@
 @@@@
@@ -71,15 +71,15 @@ We secure. We contain. We protect. And now, we //fight//.
 @@@@
 @@@@
 **Item #**: SCP-3895
- 
+ 
 
 **Anomaly Class**: Tiamat[[footnote]] Tiamat-class anomalies are entities whose influence cannot be covertly contained utilizing the resources and knowledge currently available to the Foundation, and as such are projected to fundamentally alter or wholly annul consensus normality barring direct Foundation tactical engagement. [[/footnote]] 
 
 **Threat Level**: ● Black
- 
+ 
 
 **Strategic Conduct Protocols**: To be determined pending reevaluation of Foundation prime directive.
- 
+ 
 
 **Description**: SCP-3895 is a Category 4 hostile hyperphysical entity which has successfully achieved corporeal manifestation within conventional reality. It is actively attempting to assimilate all life on Earth.
 
@@ -162,24 +162,24 @@ We will not reenter the womb.
 
 <style>
 
-    @import url("https://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/base/css/style.css");
-    @import url("https://scp-wiki.wdfiles.com/local--code/component%3Atheme/1");
+    @import url("https://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/base/css/style.css");
+    @import url("https://scp-wiki.wdfiles.com/local--code/component%3Atheme/1");
 
-    html, body, div, span{
-    	display: inline-block;
-    }
+    html, body, div, span{
+    	display: inline-block;
+    }
 
-    span {
-    	width: 0.8em;
-    }
+    span {
+    	width: 0.8em;
+    }
 </style>
 
 <script>
 function rotate(id, n){
-    str = "g5bN7984pq9gbQgb58bYhjXaw89b2bk1ab3bZutOiphMg87b2pSd829kjbraE"
-    
-    document.getElementById(id).innerHTML= str.charAt(n)
-    setTimeout(function(){rotate(id, (n+1)%str.length)}, 75)
+    str = "g5bN7984pq9gbQgb58bYhjXaw89b2bk1ab3bZutOiphMg87b2pSd829kjbraE"
+    
+    document.getElementById(id).innerHTML= str.charAt(n)
+    setTimeout(function(){rotate(id, (n+1)%str.length)}, 75)
 }
 
 
