@@ -3,9 +3,9 @@
 
 [[module CSS]]
 :root {
-     --header-title: "Department of Unreality";
-     --header-subtitle: "Making the Unreal a ㅤㅤㅤㅤ";
-     --lgurl: url('http://scp-wiki.wikidot.com/local--files/unreality-hub/Unreality%20Header%20Logo.svg');
+     --header-title: "Department of Unreality";
+     --header-subtitle: "Making the Unreal a ㅤㅤㅤㅤ";
+     --lgurl: url('http://scp-wiki.wikidot.com/local--files/unreality-hub/Unreality%20Header%20Logo.svg');
 }
 [[/module]]
 [[include component:ratio-bar base=-- |ex=--]]
@@ -15,27 +15,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 
 .wonder {
-    border: solid 1px #999999;
-    background:#f2f2c2;
-    padding: 5px;
-    margin-bottom: 10px;
+    border: solid 1px #999999;
+    background:#f2f2c2;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 .wonder h4 {
-     color: #780d8e;
-     font-family: 'Berkshire Swash', cursive;
+     color: #780d8e;
+     font-family: 'Berkshire Swash', cursive;
 }
 
 .funtastic {
-    border: solid 1px #999999;
-    background: #bdbd6d;
-    padding: 5px;
-    margin-bottom: 10px;
+    border: solid 1px #999999;
+    background: #bdbd6d;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 .funtastic h3 {
-    color: #6c0e0e;
-    font-family: 'Aladin', cursive;
+    color: #6c0e0e;
+    font-family: 'Aladin', cursive;
 }
 [[/module]]
 
@@ -64,20 +64,20 @@ name=1437.jpg
 
 [[module css]]
 div.notice-box {
-    background: url(https://scp-wiki.wikidot.com/local--files/theme:basalt/RAISA_LIGHTLOGO.png) #faf2c3;
-    background-size: contain;
-    background-position: top center;
-    background-repeat: no-repeat;
-    border: 1px solid #ccc;
-    padding: 0 10px 12px;
-    margin: 7px 4px 12px;
-    overflow: hidden;
+    background: url(https://scp-wiki.wikidot.com/local--files/theme:basalt/RAISA_LIGHTLOGO.png) #faf2c3;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    padding: 0 10px 12px;
+    margin: 7px 4px 12px;
+    overflow: hidden;
 }
- 
+ 
 div.notice-box div.image-container img {
-    margin: 5px;
-    padding: 2px;
-    border: 1px solid #999;
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid #999;
 }
 [[/module]]
 
@@ -88,7 +88,7 @@ div.notice-box div.image-container img {
 
 [[size 95%]]Before going further please note the device you are reading this on has been compromised by SCP-6558. Please disconnect this device from all internet sources or any manually connected items.
 
-The previous document found in this slot has been archived at the beginning of this file. It had not been written by any known Foundation staff member.  The creation of and all edits to the file had been made by Site-0 Director, John Doe.
+The previous document found in this slot has been archived at the beginning of this file. It had not been written by any known Foundation staff member.  The creation of and all edits to the file had been made by Site-0 Director, John Doe.
 
 -- Maria Jones, Director, RAISA[[/size]]
 [[/size]]
@@ -109,7 +109,7 @@ The previous document found in this slot has been archived at the beginning of t
 
 **Description:** SCP- is an object, concept, or entity.
 
-**Addendum @@            @@.1:**
+**Addendum @@            @@.1:**
 Awaiting superior approval.
 [[/div]]
 [[/<]]

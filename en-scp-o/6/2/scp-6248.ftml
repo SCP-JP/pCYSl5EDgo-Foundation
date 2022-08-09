@@ -4,29 +4,29 @@
 [[module CSS]]
 /* TALE BLURBS */
 .content-panel.standalone {
-  padding: 20px 30px;
+  padding: 20px 30px;
 }
 
 .content-panel a{text-shadow: none;}
 
 /* VARIABLE ESPECIFICATIONS */
 :root{
-     --accentColor: hsl(0, 89%, 41%);
-     --accentColorLite: hsla(0, 89%, 51%, .5);
-     --hue: 0deg;
+     --accentColor: hsl(0, 89%, 41%);
+     --accentColorLite: hsla(0, 89%, 51%, .5);
+     --hue: 0deg;
 
-     --lgurl: url(https://scp-wiki.wdfiles.com/local--files/nightfall-hub/moon1.png);
+     --lgurl: url(https://scp-wiki.wdfiles.com/local--files/nightfall-hub/moon1.png);
 
-     --header-title: "NIGHTFALL";
-     --header-subtitle: "Everyone dies in the dark";
+     --header-title: "NIGHTFALL";
+     --header-subtitle: "Everyone dies in the dark";
 
-     --textColor: hsl(212, 3%, 75%);
-     --bgColor: hsl(220, 20%, 10%);
+     --textColor: hsl(212, 3%, 75%);
+     --bgColor: hsl(220, 20%, 10%);
 }
 
 /* HEADER */
 #extra-div-1{
-     filter: opacity(.2) saturate(1.25) brightness(1.25);
+     filter: opacity(.2) saturate(1.25) brightness(1.25);
 }
 [[/module]]
 
@@ -40,7 +40,7 @@
 
 [[include component:image-block name=tor|caption=Holy Site-6248|align=right]]
 
-**Sacrae Causā Prōcēdendae:**  Holy Site-6248 has been established about SCP-6248. All Xerophyllan pilgrims to this site are to be welcomed and bade to consume SCP-6248-α.
+**Sacrae Causā Prōcēdendae:**  Holy Site-6248 has been established about SCP-6248. All Xerophyllan pilgrims to this site are to be welcomed and bade to consume SCP-6248-α.
 
 Those who endure the consumption of SCP-6248-α shall be taught to follow pilgrimage once every moon and to pass this tradition unto their children. Those who suffer adverse symptoms from the consumption of SCP-6248-α are to be put to the sword to contain the spread of contagion.
 

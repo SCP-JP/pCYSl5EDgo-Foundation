@@ -1,7 +1,7 @@
 [[include :scp-wiki:component:black-highlighter-theme-dev]]
 [[module CSS]]
 :root {
-    --zero: 0;
+    --zero: 0;
 }
 [[/module]]
 
@@ -111,7 +111,7 @@ Due to SCP-6330 incidents being generally random and irregular, a total of one c
 > 
 > **01:45:** For five minutes, the SCP-6330-2 patrols the room, moving silently and methodically, unaware of the surveillance cameras.
 > 
-> **01:50:** SCP-6330-2 turns towards the subject, poising itself at the foot of the bed, stretching its arms out towards the subject. It gapes its jaws wide, exposing rows of large, pointed teeth and a dark pink tongue. Its motions at this time are likened to that of a snake. As it seems to prepare to lunge at the subject, the stuffed bear stands up on the subject’s chest, and draws a small sword and shield from an unknown source. It positions its sword’s tip pointed downward and has its shield at its side. SCP-6330-1 hunches over slightly and twirls its sword, [[footnote]] Despite having no visible ‘fingers’, SCP-6330-1 instances are able to grasp and wield their weapons masterfully. [[/footnote]] maintaining eye contact with SCP-6330-2. After 10 seconds, the SCP-6330-2 throws its jaws at the subject and SCP-6330-1 responds with a leap towards the subject’s attacker, slicing SCP-6330-2’s eye. The SCP-6330-2 responds with a quiet grunt, and touches its wound, which leaks a viscous black liquid. [[footnote]] This substance is believed to be a bodily fluid produced by SCP-6330-2. Potentially a substitute for blood or viscera. [[/footnote]] The SCP-6330-1  jumps towards SCP-6330-2 and utilises fabric from the bedsheets to quickly cover the wound, apparently attempting to minimise mess and evidence of its presence.
+> **01:50:** SCP-6330-2 turns towards the subject, poising itself at the foot of the bed, stretching its arms out towards the subject. It gapes its jaws wide, exposing rows of large, pointed teeth and a dark pink tongue. Its motions at this time are likened to that of a snake. As it seems to prepare to lunge at the subject, the stuffed bear stands up on the subject’s chest, and draws a small sword and shield from an unknown source. It positions its sword’s tip pointed downward and has its shield at its side. SCP-6330-1 hunches over slightly and twirls its sword, [[footnote]] Despite having no visible ‘fingers’, SCP-6330-1 instances are able to grasp and wield their weapons masterfully. [[/footnote]] maintaining eye contact with SCP-6330-2. After 10 seconds, the SCP-6330-2 throws its jaws at the subject and SCP-6330-1 responds with a leap towards the subject’s attacker, slicing SCP-6330-2’s eye. The SCP-6330-2 responds with a quiet grunt, and touches its wound, which leaks a viscous black liquid. [[footnote]] This substance is believed to be a bodily fluid produced by SCP-6330-2. Potentially a substitute for blood or viscera. [[/footnote]] The SCP-6330-1  jumps towards SCP-6330-2 and utilises fabric from the bedsheets to quickly cover the wound, apparently attempting to minimise mess and evidence of its presence.
 > 
 > **01:59:** Both instances are in battle for 9 minutes before the first signs of damage to SCP-6330-1. Following the severing of one of SCP-6330-2’s dorsal spikes, it strikes the SCP-6330-1 with a heavy slap, which sends SCP-6330-1 across the room. SCP-6330-1 stands back up, placing a hand on its stomach, and looks at its hand which is now covered in wool and stuffing. They charge at each other once again, though the subject seems to move slightly in their sleep. Both instances stop and quickly stare at the subject before the subject settles. The instances resume fighting.
 > 
@@ -199,31 +199,31 @@ The following is a report of the investigation, written by MTF Iota-12 following
 
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p,
 .page ul {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 

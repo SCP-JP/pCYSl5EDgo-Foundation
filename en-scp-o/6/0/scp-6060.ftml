@@ -4,89 +4,89 @@
 [[module CSS]]
 
 div#extra-div-1 {
-  z-index: 2;
-  transform: none;
+  z-index: 2;
+  transform: none;
 }
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* black shadow at the top of the terminal */
-    background-image:
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
+    background-image:
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 2px #80FF80
+    background-color: black;
+    border: double 2px #80FF80
 }
 div.terminal hr {
-   border-top: 2px dashed rgba(128, 255, 128, 0.8);
-    height: 0px;
-    border-bottom: 0px solid rgba(0, 0, 0, 0);
-    background: rgba(0, 0, 0, 0);
+   border-top: 2px dashed rgba(128, 255, 128, 0.8);
+    height: 0px;
+    border-bottom: 0px solid rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
 }
 div.terminal .collapsible-block-link {
-    position: in-line;
-    padding: 0em;
-    margin: 0em;
-    line-height: 0;
-    white-space: nowrap;
+    position: in-line;
+    padding: 0em;
+    margin: 0em;
+    line-height: 0;
+    white-space: nowrap;
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 35%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 35%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -521,12 +521,12 @@ SCP-6060
 Prometheus Project
 SCP-5825
 [[collapsible show="EE-6210-C" hide="Candela Audio Logs"]]
-@@    > Tissue Test@@
-@@    > Blood Test@@
-@@    > Vitals Test@@
-@@    > Exposure to items and life deemed anomalous to humans@@
-@@    > MANUALLY INPUT LOG 1@@
-@@    > MANUALLY INPUT LOG 2@@
+@@    > Tissue Test@@
+@@    > Blood Test@@
+@@    > Vitals Test@@
+@@    > Exposure to items and life deemed anomalous to humans@@
+@@    > MANUALLY INPUT LOG 1@@
+@@    > MANUALLY INPUT LOG 2@@
 
 [[/collapsible]]
 @@@@
@@ -696,7 +696,7 @@ Audio:
 >
 > **SCP-6060:** Not necessarily. I know by the way you talk with me, you actually listen to my feelings. No one else here does that.
 >
->  **Researcher Prescott:** I guess that's true... I just, treat you how I'd want to be treated in this situation.
+>  **Researcher Prescott:** I guess that's true... I just, treat you how I'd want to be treated in this situation.
 >
 > **SCP-6060:** That's what I mean. No one else does that.
 >

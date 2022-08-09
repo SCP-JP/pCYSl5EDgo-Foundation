@@ -43,65 +43,65 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Fantem";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "Fantem";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .pulsate {
-    -webkit-animation: pulsate 1s linear;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation: pulsate 1s linear;
+    -webkit-animation-iteration-count: infinite;
 }
 @-webkit-keyframes pulsate {
-  0% {
-    opacity:1;
-  }
-  25% {
-    opacity:.20;
-  }
-  50% {
-    opacity:.9;
-  }
-  70% {
-    opacity:.05;
-  }
-  85% {
-    opacity:.05;
-  }
+  0% {
+    opacity:1;
+  }
+  25% {
+    opacity:.20;
+  }
+  50% {
+    opacity:.9;
+  }
+  70% {
+    opacity:.05;
+  }
+  85% {
+    opacity:.05;
+  }
 }
 [[/module]]
 [[include :scp-wiki:component:acs-animation]]
@@ -438,7 +438,7 @@ Each entry is proceeded with a relevant excerpt from an Interview from Dr. Crot,
 However, Dr. Crot reported that such an event never occurred, due to SCP-6167-1 and SCP-6167-2 breaking free first to prevent such. Later, SCP-6167 inhabitants allegedly used the area for announcements and meetings akin to a town hall.
 
 [[div class="blockquote"]]
-"When we first got inked, we ended up in the top floor.  Hell's entrance used to lead to Prometheus Labs HQ. Some of us thought we were dead at first, but we were greeted by a few dozen of them.  Most looked like were-things, but others looked like plain old animals.
+"When we first got inked, we ended up in the top floor.  Hell's entrance used to lead to Prometheus Labs HQ. Some of us thought we were dead at first, but we were greeted by a few dozen of them.  Most looked like were-things, but others looked like plain old animals.
 
 Not gonna lie, //Hell// kind of felt like what I thought Heaven'd be like. We were treated like //heroes,// believe it or not. It... was surprisingly welcoming. Honestly, I wanted to pet them, but I felt that'd be kind of patronizing.
 
@@ -450,7 +450,7 @@ Freddie and Aggie made announcements from here. Once things got settled, he made
 **Floor 2 - "The Carved Canyon"**
 
 **Biome Type:** Canyon
-**General History:** According to O5-██, SCP-6167's floors did not possess different forms of torment, as led to believe, but  had no other purpose in its construction other than to give SCP-6167's flying inhabitants a home advantage. It was expected that each floor would be host to multiple 'gangs', and many floors were meant to give certain species a home advantage, this one in particular sporting sheer cliffs, harsh winds, and bramble along the floors.
+**General History:** According to O5-██, SCP-6167's floors did not possess different forms of torment, as led to believe, but  had no other purpose in its construction other than to give SCP-6167's flying inhabitants a home advantage. It was expected that each floor would be host to multiple 'gangs', and many floors were meant to give certain species a home advantage, this one in particular sporting sheer cliffs, harsh winds, and bramble along the floors.
 
 However, Dr. Crot reports that the second floor was made more accessible, and used as a place for showcasing art, such as stone statues, painted and carved out cliffs, and other projects.
 [[div class="blockquote"]]
@@ -476,7 +476,7 @@ Eventually, after countless cycles, the Martyr system became redundant since the
 [[/div]]
 
 [[div class="blockquote"]]
-**Floor 4 - "The Gulches"**  
+**Floor 4 - "The Gulches"**  
 
 **Biome Type:** Hot desert
 **General History:** Sand dunes cover the entirety of this floor, with very little vegetation. SCP-6167 residents used this area as a marketplaces where goods and services were to be exchanged. They never developed a proper form of currency, and continued to rely on a barter system, occasionally trading "Legal Favors," which were ranked by Minor, Moderate, and Great. Allegedly, the "Martyr System" allowed residents to return to the same standards of living prior to Event Nachash.
@@ -518,7 +518,7 @@ SCP-6167-1 founded this militia with the initial intention of overtaking human c
 
 According to Dr. Crot, since being released from SCP-6167, SCP-6167-1 and SCP-6167-2 no longer plan on instigating a hot war on humanity, but are instead focusing on the Foundation, Global Occult Coalition, and other major organizations with the intention of maintaining normalcy.
 [[div class="blockquote"]]
-"They were going to wage war on us, you know. For a long time, they had a bit of a grudge against humanity, since... you know. The 'Garden of Eden-thing.' They didn't blame us as much as they did the Serpent, at least. They kinda saw us as more of an obstacle to getting to the Loyalists.  I've seen what they can do to people. Even if they can't literally kill anyone, I'm pretty sure the shit they could do'd be considered a war crime. But they didn't expect the kinds of problems we've had throughout history.
+"They were going to wage war on us, you know. For a long time, they had a bit of a grudge against humanity, since... you know. The 'Garden of Eden-thing.' They didn't blame us as much as they did the Serpent, at least. They kinda saw us as more of an obstacle to getting to the Loyalists.  I've seen what they can do to people. Even if they can't literally kill anyone, I'm pretty sure the shit they could do'd be considered a war crime. But they didn't expect the kinds of problems we've had throughout history.
 
 They didn't expect to actually root for us."
 [[/div]]

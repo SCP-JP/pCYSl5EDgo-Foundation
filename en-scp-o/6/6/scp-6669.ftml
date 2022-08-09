@@ -2,11 +2,11 @@
 [[include :scp-wiki:component:centered-header-sigma-9]]
 [[include :topia:pride-animated-source]]
 [[module CSS]]
- :root{
-   --lgurl: var(--anim-pride);
+ :root{
+   --lgurl: var(--anim-pride);
 }
 #header::before{
-   opacity:0.80;
+   opacity:0.80;
 }
 [[/module]]
 [[include component:ratio-bar base=--]]

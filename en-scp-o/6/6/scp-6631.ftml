@@ -8,74 +8,74 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
 
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-style: normal;
-    color: black;
+    display: block;
+    overflow: hidden;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-style: normal;
+    color: black;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
 }
 
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
- 
+ 
 /* Parawatch Forum Pseudo-Blockquotes */
 div.parapost {
-    background:  black;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #1a1a1a;
-    padding: 0 1em;
-    margin: 1em 3em;
+    background:  black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1a1a1a;
+    padding: 0 1em;
+    margin: 1em 3em;
 }
- 
+ 
 div.parapost.reply1 {margin: 1em 3em 1em 4em;}
 div.parapost.reply2 {margin: 1em 3em 1em 5em;}
 div.parapost.reply3 {margin: 1em 3em 1em 6em;}
- 
+ 
 @media (max-width: 479px) {
-   div.parapost {margin: 1em 0;}
-   div.parapost.reply1 {margin: 1em 0 1em 1em;}
-   div.parapost.reply2 {margin: 1em 0 1em 2em;}
-   div.parapost.reply3 {margin: 1em 0 1em 3em;}
+   div.parapost {margin: 1em 0;}
+   div.parapost.reply1 {margin: 1em 0 1em 1em;}
+   div.parapost.reply2 {margin: 1em 0 1em 2em;}
+   div.parapost.reply3 {margin: 1em 0 1em 3em;}
 }
- 
+ 
 @media (min-width: 480px) and (max-width: 580px) {
-   div.parapost {margin: 0.5em;}
-   div.parapost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
-   div.parapost.reply2 {margin: 0.5em 0.5em 0.5em 1.5em;}
-   div.parapost.reply3 {margin: 0.5em 0.5em 0.5em 2em;}
+   div.parapost {margin: 0.5em;}
+   div.parapost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
+   div.parapost.reply2 {margin: 0.5em 0.5em 0.5em 1.5em;}
+   div.parapost.reply3 {margin: 0.5em 0.5em 0.5em 2em;}
 }
- 
+ 
 /* IMAGES */ 
 #page-content .scp-image-block {
-    border-color: #1a1a1a;
-    box-shadow: none;
+    border-color: #1a1a1a;
+    box-shadow: none;
 }
 #page-content .scp-image-block .scp-image-caption {
-    border-color: #1a1a1a;
-    background-color: black;
+    border-color: #1a1a1a;
+    background-color: black;
 }
-  
+  
 hr {
-    background-color: var(--fg);
+    background-color: var(--fg);
 }
 [[/module]]
 
@@ -90,11 +90,11 @@ hr {
 
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -104,12 +104,12 @@ hr {
 
 [[module CSS]]
 #page-title {
-    display: none !important;
+    display: none !important;
 }
 @media (min-width: 768px){
-    #page-title {
-     display: none;
-    }
+    #page-title {
+     display: none;
+    }
 }
 [[/module]]
 [[>]]
@@ -185,7 +185,7 @@ Okay, so you know all those disappearances of people on the news? I think they'r
 
 
 
- [[div class="blockquote"]]
+ [[div class="blockquote"]]
 
 **DATE:** 4/13/2010
 
@@ -241,7 +241,7 @@ Okay, so you know all those disappearances of people on the news? I think they'r
 [END LOG]
 
 
- [[/div]]
+ [[/div]]
 
 
 [[/collapsible]]
@@ -254,11 +254,11 @@ Okay, so you know all those disappearances of people on the news? I think they'r
 
 SCPRD "Hermes" was deployed on 06/11/2010 at 10:27 to venture deep into the SCP-6XXX exclusion zone and search for possible clues to the origins of the anomaly.
 
- [[div class="blockquote"]]
+ [[div class="blockquote"]]
 
 //Hermes flies above the trees, scoping out any anomalous activity. Hermes camera tilts down and spots an SCP-6631-1 instance and approaches it. The SCP-6631-1 instance looks up at Hermes with its glowing eyes and mouth and makes attempts to grab the drone by repeatedly jumping up with its arms stretched out. Hermes continues on its flight but the SCP-6631-1 follows it, still with its arms out. A couple more SCP-6631-1 instances join in to grab Hermes As Hermes continues to fly, more and more SCP-6631-1 instances appear below, all attempting to grab it Hermes flies faster to lose them but they still give chase while more SCP-6631-1 instances keep coming.//
 
-//Hermes ascends to a higher altitude of 800 feet in the air.  After a couple of minutes of continuous flight, Hermes descends, and the SCP-6631-1 instances are no longer seen. As Hermes continues, light flashes to the southeast. Hermes turns and sees SCP-6631 and zooms in. Footage from Hermes gets distorted.//
+//Hermes ascends to a higher altitude of 800 feet in the air.  After a couple of minutes of continuous flight, Hermes descends, and the SCP-6631-1 instances are no longer seen. As Hermes continues, light flashes to the southeast. Hermes turns and sees SCP-6631 and zooms in. Footage from Hermes gets distorted.//
 
 [[=image http://scp-sandbox-3.wikidot.com/local--files/scp-lost-in-the-evening-stroll/Drone%20Footage%20Symbol]]
 
@@ -268,7 +268,7 @@ SCPRD "Hermes" was deployed on 06/11/2010 at 10:27 to venture deep into the SCP-
 
 [END LOG]
 
- [[/div]]
+ [[/div]]
 
 [[/collapsible]]
 
@@ -279,11 +279,11 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 ----------
 **Addendum-4-Iota-12 Exploration**
 
-[[collapsible hideLocation="both" show="+ View Exploration Log" hide="- Close  Exploration Log"]]
+[[collapsible hideLocation="both" show="+ View Exploration Log" hide="- Close  Exploration Log"]]
 
 
 
- [[div class="blockquote"]]
+ [[div class="blockquote"]]
 
 **Group 4:** Iota-12
 
@@ -343,7 +343,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **1-3:** Yeah, kinda giving me the heebee jeebies. 
 
-**1-1:**  Command, how is it up there?
+**1-1:**  Command, how is it up there?
 
 **Command:** No sign of any SCP-6631-1 instances nearby. 
 
@@ -355,7 +355,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **1-3:** Kidding Command. 
 
-**1-1:**  Hold up. Got one up ahead. 
+**1-1:**  Hold up. Got one up ahead. 
 
 //Iota-12 raises their weapons and crouches behind bushes and trees. An SCP-6631-1 instance is visible across from them. It wanders with its head down, paying no mind to the team. Iota-12 watches it walk into the deep woods until it is no longer visible. They stand up from their spots.// 
 
@@ -363,7 +363,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **1-4:** Better than what we've been doing.
 
-**1-1:**  Command? Any other instances nearby?
+**1-1:**  Command? Any other instances nearby?
 
 **Command:** None so far.
 
@@ -373,7 +373,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 //Iota-12 follows the SCP-6631-1 for a few minutes and halts when they see it enter a two-story brown house.//
 
-**1-1:**  Command, SCP-6631-1 enterd a house. Should we proceed to follow it? 
+**1-1:**  Command, SCP-6631-1 enterd a house. Should we proceed to follow it? 
 
 **Command:** Affirmative. You may follow it in the house, should it give us anything about the rest of the instance's behavior. 
 
@@ -383,7 +383,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **1-5:** What happened in there?
 
-**1-4:**  They're just standing there doing nothing. 
+**1-4:**  They're just standing there doing nothing. 
 
 **1-3:** How many?
 
@@ -395,7 +395,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **I-3:** Looked kinda depressed for a lookout. 
 
-**1-1:**  Either way, this makes our jobs a little easier. We can get to SCP-6631 with no trouble. Command, how far are we?
+**1-1:**  Either way, this makes our jobs a little easier. We can get to SCP-6631 with no trouble. Command, how far are we?
 
 **Command:** Halfway there Iota. 
 
@@ -403,17 +403,17 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **Command:** Hold it.
 
-**1-1:**  What is it?
+**1-1:**  What is it?
 
 **Command:** SCP-6631 instances are all around the house. Probably more inside. 
 
 **1-5:** So what's the plan?
 
-**1-1:**  We're gonna need to get all those -1's away from the house. Damn.
+**1-1:**  We're gonna need to get all those -1's away from the house. Damn.
 
 //Iota-12 remains silent.//
 
-**1-5:**  Could we throw something loud to get them away? 
+**1-5:**  Could we throw something loud to get them away? 
 
 **Command:** You only got two hours left before SCP-6631 activates. 
 
@@ -425,29 +425,29 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **1-3:** Maybe I can be the bait. I can circle the house and get their attention. Hopefully, I'll only get the ones by the house. But that should leave you guys a window to get inside.
 
-**1-1:**  You think you'll make it?
+**1-1:**  You think you'll make it?
 
-**1-3:** I won two gold medals in track back in Uni. Used that to get away from an ex so yeah, I think I'll make it.   
+**1-3:** I won two gold medals in track back in Uni. Used that to get away from an ex so yeah, I think I'll make it.   
 
-**1-1:**  Let’s pray on it. 
+**1-1:**  Let’s pray on it. 
 
 //1-3 leaves the group. His feed shows him staying low from the SCP-6631-1 instances view. 4 minutes later, 1-3 fires his rifle in the air, and the SCP-6631-1 group runs in the direction of the gunfire. He runs to the woods and continues to fire his weapon. The rest of Iota head to the house and prepare to breach. They look through the windows with nobody inside, they toss in a flash bang and storm in. After they went inside, they scout the first floor with no human or anomalous activity. They were about to move up to the second floor but an old farmer points a doubled-barrel shotgun at 1-1.//
 
 **Farmer:** Who the hell are you?
 
-**1-1:**  We got an armed civilian!
+**1-1:**  We got an armed civilian!
 
 **Farmer:** I said who are you!?
 
 //1-1 backs up from the stairs with his weapon still aiming at the farmer.//
 
-**1-1:**  Sir, put your weapon down.
+**1-1:**  Sir, put your weapon down.
 
-**Farmer:**  I wanna know why you broke into my house, first.
+**Farmer:**  I wanna know why you broke into my house, first.
 
 //The rest of Iota aim their rifles at the farmer as he’s slowly walking down the stairs. The farmer eyes each member.//
 
-**Farmer:**  Am I under arrest? I didn’t do anything.
+**Farmer:**  Am I under arrest? I didn’t do anything.
 
 **1-1:** Sir, we just want to talk, but I need you to put your weapon away. 
 
@@ -455,31 +455,31 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 //1-1 lowers his weapons and places them on against the wall. He also removes his pistol and lays it on the floor, gesturing for the others to do the same. The rest of the team remove their weapons and so does the farmer with his shotgun. He places it with the others.//
 
-**Farmer:**  Now we can talk. 
+**Farmer:**  Now we can talk. 
 
 //The farmer leads Iota to his living room. They all have a seat on the couches.//
 
-**Farmer:**  Now, you mind telling me why you men broke into my home?
+**Farmer:**  Now, you mind telling me why you men broke into my home?
 
-**1-1:**  We didn't think anyone was inside. 
+**1-1:**  We didn't think anyone was inside. 
 
-**Farmer:**  Still doesn't answer my question. 
+**Farmer:**  Still doesn't answer my question. 
 
-**1-1:**  Well. Were you aware of those people surrounding your home?
+**1-1:**  Well. Were you aware of those people surrounding your home?
 
 **Farmer:** Them? I mean, yeah. What do they got to do with this? 
 
-**1-1:**  So do you know what's been happening?
+**1-1:**  So do you know what's been happening?
 
-**Farmer:**  Son, I don't know what the Hell is happening so you got some explaining to do. 
+**Farmer:**  Son, I don't know what the Hell is happening so you got some explaining to do. 
 
 **1-2:** Did you notice something off about them? The people around your home, I mean.
 
 **Farmer:** Glowing eyes and shit, yeah, it's weird alright. I tried scaring them off but they wouldn't leave. But they never barged in either. 
 
-**1-1:**  Not even when you leave?
+**1-1:**  Not even when you leave?
 
-**Farmer:**  Nope. They just stand there like a bunch of crackheads. 
+**Farmer:**  Nope. They just stand there like a bunch of crackheads. 
 
 **1-4:** Have you seen the news?
 
@@ -491,7 +491,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **1-1:** You are. Just answering some of our questions will be more than enough. 
 
-**Farmer:**  Alright then. 
+**Farmer:**  Alright then. 
 
 **1-5:** What's your name?
 
@@ -511,7 +511,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **Harold:** All over. Far. close. Even here. I've tried going to it on several occasions but by the time I got there, it would either disappear or lead me to the middle of nowhere. Along with all the rest of these people. 
 
-**1-1:**  And you were still not affected by it, even when you were close to it?
+**1-1:**  And you were still not affected by it, even when you were close to it?
 
 **Harold:**That's right.
 
@@ -523,7 +523,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **Harold:** Well... My wife has gotten sick and I was still trying to work on the harvest. And as you know, I don't watch much TV. I was preoccupied for the majority of the beginning. But when I first saw it. The thing in the sky. Not gonna lie, I thought it was some new light show tech stuff or whatever that was happening. But then, after a few minutes, I saw people walking through my field, eyes, and mouths glowing. I was creeped out. But they paid no attention to me. So I hunkered in my house and waited it out. At some point, a group would stay here and not leave until the thing showed up. 
 
-**1-1:**  Why haven't you left yet?
+**1-1:**  Why haven't you left yet?
 
 **Harold:** I can't leave my wife here. Especially when the doctors are probably walking around with the rest of them. I have to be the one to take care of her 24/7. 
 
@@ -539,23 +539,23 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **Harold:** No. She's asleep most of the time. 
 
-**1-1:**  Do you mind if we speak to her?
+**1-1:**  Do you mind if we speak to her?
 
 **Harold:** I absolutely do mind. She's going through too much as it is, and I don't want her to be in any panic. 
 
-**1-1:**  We can help you, and your wife. 
+**1-1:**  We can help you, and your wife. 
 
 **Harold:** How?
 
-**1-1:**  We can escort you and your wife out of here and get her to a hospital. But you might need to come with us.
+**1-1:**  We can escort you and your wife out of here and get her to a hospital. But you might need to come with us.
 
 **Harold:** Why me?
 
-**1-1:**  If what you're saying is true. Then maybe you can help us with this.
+**1-1:**  If what you're saying is true. Then maybe you can help us with this.
 
 **Harold:** I don't know. 
 
-**1-1:**  My men can't stay here. One of mine is risking his life out there just for us to have this conversation. I'm sorry Harold, but I'm not asking you. 
+**1-1:**  My men can't stay here. One of mine is risking his life out there just for us to have this conversation. I'm sorry Harold, but I'm not asking you. 
 
 **Harold:** Can I at least let my wife know what's going on? 
 
@@ -563,19 +563,19 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 //Harold stands from his chair and walks over the stairs. He climbs up and his footsteps are heard from above, as well as a door closing.//
 
-**1-1:**  1-3, are you still with us? 
+**1-1:**  1-3, are you still with us? 
 
 //Static noises.//
 
-**1-1:**  Mink, are you there?
+**1-1:**  Mink, are you there?
 
 //Static noises.//
 
-**1-1:**  Command.
+**1-1:**  Command.
 
 **Command:** Copy 1-1.
 
-**1-1:**  Any visual on 1-3?
+**1-1:**  Any visual on 1-3?
 
 **Command:** 1-3 retreated to a building with the SCP-6631-1 instances on his tail. Neither had come out yet. 
 
@@ -587,15 +587,15 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **Command:** Acknowledged. You still have plenty of time before SCP-6631 activates, but I'd still recommend you get out of there ASAP.
 
-**1-1:**  Copy that. Though the wife might be difficult. 
+**1-1:**  Copy that. Though the wife might be difficult. 
 
 **Command:** I will leave you to it. Stay safe.
 
-**1-1:**  Understood. 
+**1-1:**  Understood. 
 
 //1-1 stands up and walks to get his rifle and pistol than to the stairs.//
 
-**1-1:**  Harold! It's time to go!
+**1-1:**  Harold! It's time to go!
 
 **Harold:** Just give me a second!
 
@@ -609,7 +609,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 //1-1 opens the door to see a small white bathroom.//
 
-**1-1:**  We don't have time for games, man. Come out. 
+**1-1:**  We don't have time for games, man. Come out. 
 
 //1-1 opens another door which is a closet filled with jackets and shirts.//
 
@@ -657,7 +657,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **Harold:** Get them!
 
-//The SCP-6631-1 instances run passes him and to Iota-12.  The team aims their weapons and starts shooting them down. But another group of SCP-6631-1 instances emerges from their sides. The squad retaliate, shooting the incoming SCP-6631-1 instances. Harold slows down and turns around with the team eventually catching up to him. Harold pants and looks at Iota-12 with yellow glowing eyes.//
+//The SCP-6631-1 instances run passes him and to Iota-12.  The team aims their weapons and starts shooting them down. But another group of SCP-6631-1 instances emerges from their sides. The squad retaliate, shooting the incoming SCP-6631-1 instances. Harold slows down and turns around with the team eventually catching up to him. Harold pants and looks at Iota-12 with yellow glowing eyes.//
 
 **1-1:** Command, he’s one of them.
 
@@ -739,7 +739,7 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **1-1:** Command. Got anything?
 
-**Command:** Negative but keep an eye out.  
+**Command:** Negative but keep an eye out.  
 
 **1-2:** Oh my god- (pants) he controls them! 
 
@@ -753,13 +753,13 @@ On their return to Site-77, only two agents of Iota-12 were recovered, while the
 
 **1-1:** Why did it activate so soon?!
 
-**Command:**  We don't know but just keep going. All the SCP-6631-1s are heading to it right now.
+**Command:**  We don't know but just keep going. All the SCP-6631-1s are heading to it right now.
 
 **1-2:** Thank god. Fuck this place!
 
 
 
- [[/div]]
+ [[/div]]
 
 
 [[/collapsible]]
@@ -1002,11 +1002,11 @@ Last contact with Lt. Dixon Mink was a video recording received by Director Yin.
 
 //1-3 places the frame back on the dresser and goes downstairs. He walks around the first floor and inspects every door to eventually find one that leads down a basement. He climbs down the stairs and switches on the basement lights, he looks around and finds a tunnel to his left. He enters the tunnel and walks for about three minutes until he finds an opening with a flickering light. He makes his way to the opening and in front of him is a decaying corpse of a woman being fused to a smooth, black surface that's the shape of an upside-down triangle with the same glowing glyph engraved on her torso. Resting below her corpse is a collection of decaying bodies and remnants of several human skeletons. The woman lifts her head at I-3 and moves her mouth as if she's trying to speak. She only moans but 1-3 responds to her as if she was speaking.//
 
-**1-3:** I know who you are...but why are you doing this? (woman groans). Have you told him to stop? (Woman groans) Of course, but this... this is torture. For you, and these people, I've seen it! (woman groans)  What? I... I don't know if I can... I don't know what it'll do... (Woman moans louder in pain) I'm so sorry. I... Your husband.  I know his thoughts. I can't bring myself to do it. (woman screams) Okay! I will. I will do it. 
+**1-3:** I know who you are...but why are you doing this? (woman groans). Have you told him to stop? (Woman groans) Of course, but this... this is torture. For you, and these people, I've seen it! (woman groans)  What? I... I don't know if I can... I don't know what it'll do... (Woman moans louder in pain) I'm so sorry. I... Your husband.  I know his thoughts. I can't bring myself to do it. (woman screams) Okay! I will. I will do it. 
 
 //1-3 goes back to the basement and opens the carbon monoxide gas tank while turning off the light switch. He makes his way back through the tunnel and back to the woman.// 
 
-**1-3:** When he comes back and turns the lights on, this should explode. That's the best I can come up with... we're just gonna have to see. And if this doesn't work. I know people, who can maybe figure something out.  I have to go. I gotta show them this. 
+**1-3:** When he comes back and turns the lights on, this should explode. That's the best I can come up with... we're just gonna have to see. And if this doesn't work. I know people, who can maybe figure something out.  I have to go. I gotta show them this. 
 
 //1-3 leaves the cave and back to the basement. He exits the house and runs to the forest to not be spotted by any nearby SCP-6631-1 instance. He pulls out his phone and types on the keyboard then suddenly drops to his knees, whipping his head back.//
 
@@ -1019,7 +1019,7 @@ Last contact with Lt. Dixon Mink was a video recording received by Director Yin.
 [[/div]] 
 
 
- 
+ 
 -----------
 
 The Forward Operation Outpost dispatches SCPRD "Athena to survey the last known position of I-3.
@@ -1064,18 +1064,18 @@ Containment of SCP-6631 is currently being updated with a fifteen-foot concrete 
 [[include :scp-wiki:component:license-box]]
 =====
 > **Filename:** Dash Camera Footage
-> **Author:**  Strange Matter
-> **License:**  CC BY-SA-compatible
+> **Author:**  Strange Matter
+> **License:**  CC BY-SA-compatible
 > **Source Link:** http://scp-sandbox-3.wikidot.com/local--files/scp-lost-in-the-evening-stroll/Symbol%20Footage%20Dashcam
 >**Aditional Notes:** Used IbisPaintX to draw the glyph and added FX.
 
 > **Filename:** Drone Footage
-> **Author:**  Strange Matter
+> **Author:**  Strange Matter
 > **License:** CC BY-SA-compatible
 > **Source Link:** http://scp-sandbox-3.wikidot.com/local--files/scp-lost-in-the-evening-stroll/Drone%20Footage%20Symbol
 
 > **Filename:** Grand Mesa National Forest, Colorado 
-> **Author:**  Matthew Metcalf
+> **Author:**  Matthew Metcalf
 > **License:** All Rights Reserved
 > **Source Link:** https://www.flickr.com/photos/catnahat/5167973325/in/photostream
 =====

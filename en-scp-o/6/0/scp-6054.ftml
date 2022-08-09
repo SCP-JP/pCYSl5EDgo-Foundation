@@ -3,67 +3,67 @@
 [[module CSS]]
 
 /*
- * Snagged from HarryBlanks Inadvertent Neolinguistics, which was gotten from notgulls Siege of Site 19
- */
+ * Snagged from HarryBlanks Inadvertent Neolinguistics, which was gotten from notgulls Siege of Site 19
+ */
 
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 
 div.irc-log{
-    margin:10px;
-    margin-top:20px;
-    padding:10px;
-    border:3px solid #000000;
-    background-color:#333333;
-    border-radius:15px;
-    font-family:"IBM Plex Mono",monospace;
-    color:#FFFFFF;
-    font-size: 125%;
+    margin:10px;
+    margin-top:20px;
+    padding:10px;
+    border:3px solid #000000;
+    background-color:#333333;
+    border-radius:15px;
+    font-family:"IBM Plex Mono",monospace;
+    color:#FFFFFF;
+    font-size: 125%;
 }
 
 div.irc-log td{
-    border:1px solid #000000;
-    font-weight:bold;
+    border:1px solid #000000;
+    font-weight:bold;
 }
 
 div.irc-log p{
-    line-height:200%;
+    line-height:200%;
 }
 
 div.irc-log::before{
-    content:"SCiPNET Teams Direct Message";
-    position:relative;
-    top:-1.5em;
-    left:-1.5em;
-    border:2px solid #050505;
-    color:#050505;
-    background-color:#5effa6;
-    font-family:"PT Serif",serif;
-    padding:1px 3px;
-    border-radius:3px;
-    font-weight:bold;
-    letter-spacing:2px;
+    content:"SCiPNET Teams Direct Message";
+    position:relative;
+    top:-1.5em;
+    left:-1.5em;
+    border:2px solid #050505;
+    color:#050505;
+    background-color:#5effa6;
+    font-family:"PT Serif",serif;
+    padding:1px 3px;
+    border-radius:3px;
+    font-weight:bold;
+    letter-spacing:2px;
 }
 
 div.inventory-report{
-    margin:10px;
-    margin-top:20px;
-    padding:10px;
-    border:2px solid #050505;
-    background-color:#eee;
-    border-radius:3px;
+    margin:10px;
+    margin-top:20px;
+    padding:10px;
+    border:2px solid #050505;
+    background-color:#eee;
+    border-radius:3px;
 }
 
 .no-margin {
-    border: 1px dashed #999;
-    background-color: #f4f4f4;
-    padding: 0 1em;
-    margin: none;
-    color: black;
+    border: 1px dashed #999;
+    background-color: #f4f4f4;
+    padding: 0 1em;
+    margin: none;
+    color: black;
 }
 
 .irc-log a {
-    background-color:#5effa6;
+    background-color:#5effa6;
 }
 
 [[/module]]

@@ -15,19 +15,19 @@ Made by unsettling.mages.jpg (https://www.instagram.com/unsettling.images.jpg/)
 
 [[module CSS]]
 :root {
-    --header-title: "Site-16";
-    --header-subtitle: "Silvology Division";
-        --logo-image: url("http://scp-wiki.wdfiles.com/local--files/scp-6685/Silvology%20Division%20Logo");
-    --pale-accent: 67, 97, 86;
-    /* light red, for visited links */
-    --bright-accent: 54, 197, 94;
-    /* bright green */
-    --medium-accent: 69, 117, 96;
-    /* medium green - the "default" accent color */
-    --dark-accent: 82, 168, 135;
-    /* dark green */
-    --alt-accent: 121, 146, 137;
-    /* pale green, for newpage links */
+    --header-title: "Site-16";
+    --header-subtitle: "Silvology Division";
+        --logo-image: url("http://scp-wiki.wdfiles.com/local--files/scp-6685/Silvology%20Division%20Logo");
+    --pale-accent: 67, 97, 86;
+    /* light red, for visited links */
+    --bright-accent: 54, 197, 94;
+    /* bright green */
+    --medium-accent: 69, 117, 96;
+    /* medium green - the "default" accent color */
+    --dark-accent: 82, 168, 135;
+    /* dark green */
+    --alt-accent: 121, 146, 137;
+    /* pale green, for newpage links */
 }
 [[/module]]
 
@@ -51,39 +51,39 @@ Made by unsettling.mages.jpg (https://www.instagram.com/unsettling.images.jpg/)
 ]]
 [[module css]]
 .contain-class .class-text {
-  color: transparent !important;
+  color: transparent !important;
 }
 
 .contain-class .class-text::before {
-  content: "euclid";
-  position: absolute;
-  top: 0;
-  color: rgba(var(--black-monochrome),1) !important;
+  content: "euclid";
+  position: absolute;
+  top: 0;
+  color: rgba(var(--black-monochrome),1) !important;
 }
 
 .anom-bar-container.esoteric .text-part > .main-class::before {
-  background-color: rgba(var(--three-color),1);
-  background-image: url("http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg");
-  -webkit-filter: invert(0);
-  filter: invert(0);
-  border-color: rgb(var(--black-monochrome));
+  background-color: rgba(var(--three-color),1);
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg");
+  -webkit-filter: invert(0);
+  filter: invert(0);
+  border-color: rgb(var(--black-monochrome));
 }
 
 .anom-bar-container.esoteric .text-part > .main-class {
-  background-color: rgb(var(--white-monochrome));
-  background: linear-gradient(30deg,
-    rgb(var(--gray-monochrome),0.25) 0%,
-    rgb(var(--gray-monochrome),0.25) 50%,
-    rgb(var(--three-color),0.25) 50%,
-    rgb(var(--three-color),0.25) 50%
-  )
+  background-color: rgb(var(--white-monochrome));
+  background: linear-gradient(30deg,
+    rgb(var(--gray-monochrome),0.25) 0%,
+    rgb(var(--gray-monochrome),0.25) 50%,
+    rgb(var(--three-color),0.25) 50%,
+    rgb(var(--three-color),0.25) 50%
+  )
 }
 
 .anom-bar-container.esoteric .danger-diamond > .top-icon::before {
-  background-color: rgb(var(--three-color));
-  background-image: url("http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg");
-  -webkit-filter: invert(0);
-  filter: invert(0);
+  background-color: rgb(var(--three-color));
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg");
+  -webkit-filter: invert(0);
+  filter: invert(0);
 }
 [[/module]]
 @@ @@
@@ -129,7 +129,7 @@ From statues to clothing to cave paintings. They all depict the same thing: that
 ----
 @@ @@
 
-**Special Containment Procedures:** The area surrounding SCP-6685-1 is to be constantly supervised from a safe distance of 5 meters from its security perimeter following procedures from Foundation's Silvology Division[[footnote]]Silvology is the science of studying forests and woodlands and understanding the ecosystems that they incorporate.[[/footnote]] and continuous surveillance of the perimeter is to be carried out with remote operating robots or surveillance drones. Foundation personnel are to remain in the control room unless needed.  Persons having come across the containment site are to be administered Class-B amnestics and released back to the public. All operations are to be maintained under the guise of local fauna research. Negotiations with Odawa[[footnote]]Indigenous people from North America.[[/footnote]] chiefs and spiritual leaders are ongoing to better contain SCP-6685 and avoid security breaches.
+**Special Containment Procedures:** The area surrounding SCP-6685-1 is to be constantly supervised from a safe distance of 5 meters from its security perimeter following procedures from Foundation's Silvology Division[[footnote]]Silvology is the science of studying forests and woodlands and understanding the ecosystems that they incorporate.[[/footnote]] and continuous surveillance of the perimeter is to be carried out with remote operating robots or surveillance drones. Foundation personnel are to remain in the control room unless needed.  Persons having come across the containment site are to be administered Class-B amnestics and released back to the public. All operations are to be maintained under the guise of local fauna research. Negotiations with Odawa[[footnote]]Indigenous people from North America.[[/footnote]] chiefs and spiritual leaders are ongoing to better contain SCP-6685 and avoid security breaches.
 
 [[include component:image-block name=https://scp-wiki.wdfiles.com/local--files/scp-6685/forest|align=right|width=55%|caption=SCP-6685-1's interior prior to containment.]]
 **Description:** SCP-6685 is currently composed of 2 different entities, SCP-6685-1 and SCP-6685-2:
@@ -148,7 +148,7 @@ Stories from indigenous people describe a creature reminiscent of SCP-6685-2. An
 >> //A legend from the Odawa.//
 
 
-                                                 
+                                                 
 **Discovery:** 
 * **2014:** Disappearance of 15 workers sent to exploit the territory near the ██████ Island.
 * **2016:** Mobile Task Force deployed to investigate the perimeter. Anomaly confirmed.
@@ -164,7 +164,7 @@ Stories from indigenous people describe a creature reminiscent of SCP-6685-2. An
 
 **Note:** Due to their experience with natural environments, Mobile Task Force Zeta-6 was chosen for this log.
 
-**Exploration Team:** Zeta-6  ''Wood-rangers''
+**Exploration Team:** Zeta-6  ''Wood-rangers''
 
 **Overview:** Zeta-6 was instructed to enter SCP-6685-1 and collect samples of flora, fauna for biological studies and possibly observe SCP-6685-2 in its natural environment. 
 

@@ -2,27 +2,27 @@
 
 [[module css]]
 body {
-    background-color: var(--accentColor);
-    background-image: url("https://scp-wiki.wdfiles.com/local--files/scp-6269/Sky1.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-blend-mode: luminosity;
+    background-color: var(--accentColor);
+    background-image: url("https://scp-wiki.wdfiles.com/local--files/scp-6269/Sky1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: luminosity;
 }
 
 body:before {
-  content: ' ';
-  position: fixed;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(165deg, transparent, #000000 60%, #000000 60%, #000000 120%);
-  z-index: -1;
+  content: ' ';
+  position: fixed;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(165deg, transparent, #000000 60%, #000000 60%, #000000 120%);
+  z-index: -1;
 }
 
 .table2 {
-    --accentColor: rgb(105,155,196);
+    --accentColor: rgb(105,155,196);
 }
 
 .bigtext {
@@ -30,9 +30,9 @@ color: #699bc4;
 }
 
 @media (max-width: 1290px) {
-    body {
-        background-size: 100% 66%;
-    }
+    body {
+        background-size: 100% 66%;
+    }
 }
 
 #extra-div-1 {
@@ -41,12 +41,12 @@ box-shadow: 0px 0px 8px 4px rgb(0 0 0);
 }
 
 :root {
-    --logo: url(https://scp-wiki.wdfiles.com/local--files/scp-6269/Hlogo4.png);
-    --title: "ACQUISITIONS:";
-    --subtitle: "DEPARTMENT OF THE MCM.";
-    --accentColor: hsl(207,43.5%,59%);
-    --fnColor: #699bc4;
-    --four-color: 194, 85, 0 !important;
+    --logo: url(https://scp-wiki.wdfiles.com/local--files/scp-6269/Hlogo4.png);
+    --title: "ACQUISITIONS:";
+    --subtitle: "DEPARTMENT OF THE MCM.";
+    --accentColor: hsl(207,43.5%,59%);
+    --fnColor: #699bc4;
+    --four-color: 194, 85, 0 !important;
 }
 
 .list-pages-item > hr,
@@ -57,44 +57,44 @@ filter: brightness(170%);
 }
 
 .custom2 .wiki-content-table {
-    width: 100%;
+    width: 100%;
 }
 
 #page-content tr th {
-    text-align: center;
+    text-align: center;
 }
 
 .custom2 tr td {
-    padding: 10px !important;
+    padding: 10px !important;
 }
 
 .fnnum::after {
-    color: #699bc4 !important;
+    color: #699bc4 !important;
 }
- 
+ 
 .fnnum:hover::after {
-    color: white !important;
+    color: white !important;
 }
- 
+ 
 .fncon {
-    background: rgb(25, 25, 25) !important;
-    color: #EDEDED;
-    border: 0.15rem solid rgb(20, 20, 20);
-    border-radius: 2px;
-    font-size: 90%;
+    background: rgb(25, 25, 25) !important;
+    color: #EDEDED;
+    border: 0.15rem solid rgb(20, 20, 20);
+    border-radius: 2px;
+    font-size: 90%;
 }
 
 ::selection {
-    background-color: rgba(227, 106, 0, 0.7);
-    color: white;
+    background-color: rgba(227, 106, 0, 0.7);
+    color: white;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--accentColor);
+    background: var(--accentColor);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(var(--four-color));
+    background: rgb(var(--four-color));
 }
 [[/module]]
 
@@ -122,7 +122,7 @@ We have done this because there was no other choice.
 This is no longer the case; from this day forward, our Foundation will no longer drag innocent souls into the dark with us -- they will remain free in the light.
 
 We have a new approach.
- 
+ 
 It's very ethical.
 @@ @@
 [[>]]
@@ -161,7 +161,7 @@ name=https://scp-wiki.wdfiles.com/local--files/scp-6269/Control1.jpg
 [[div class="table2 tableb custom2"]]
 ||~ ASSIGNED SITE(S) ||~ ASSIGNED DEPARTMENT(S) ||
 ||= Site-77-Prime,-SubPrime. ||= //Aquisitions, Engineering, Human Resources.// ||
-||~ ASSIGNED UNIVERE(S) ||~  ASSIGNED PERSONNEL ||
+||~ ASSIGNED UNIVERE(S) ||~  ASSIGNED PERSONNEL ||
 ||= -Prime,-SubPrime; Others (for Aquisitions). ||= Dir. G Greeboni, Evan Pereira, Janice Reilly, 7,300+ other assigned personnel. ||
 [[/div]]
 -----
@@ -190,7 +190,7 @@ For ease of reference, a selection of key criteria outlined in the DotMCM:EATM a
 -----
 
 ++ [[span class="bigtext"]]__CONTAINMENT PROCEDURES -- FUNDING:__ [[/span]]
- --$250,000 USD in minted quarters are to be supplied to Site-77 bi-monthly for the operation of SCP-6269.-- External funding is no longer necessary, SCP-6269 is capable of ethically funding its own operations indefinitely.
+ --$250,000 USD in minted quarters are to be supplied to Site-77 bi-monthly for the operation of SCP-6269.-- External funding is no longer necessary, SCP-6269 is capable of ethically funding its own operations indefinitely.
 
 [[/div]]
 -----
@@ -205,10 +205,10 @@ name=https://scp-wiki.wdfiles.com/local--files/scp-6269/CLAW1.jpg
 ++ [[span class="bigtext"]]__DESCRIPTION:__ [[/span]]
 SCP-6269, colloquially the "Multiversal Claw Machine," is a Foundation-developed, coin-operated, eigenmachine[[span class="fnnum"]].[[/span]][[span class="fncon"]]A non-militarized equivalent of an 'eigenweapon:' whereas an eigenweapon denotes an anomalous weapon of mass destruction, an eigenmachine is an anomalous machine of mass //production.//[[/span]] utilized for the ethical acquisition of D-Class Personnel.
 
-Due to the mechanical, technical, and ontokinetical complexities of SCP-6269's machinery, the vast majority of the device is contained within an allocated universe:  -SubPrime. Due to thaumaturgical time-dilation and entropy-reducing counter-measures,[[span class="fnnum"]].[[/span]][[span class="fncon"]]Including, but not limited to: alchemical processes, non-Newtonian physics field generators, atemporal calculating systems, and the copious application of WD-40.[[/span]] mechanical devices within this universe experience minimal wear and decay. The components comprising SCP-6269 located in -SubPrime are monitored by [[span class="bigtext"]]Logan.aic[[/span]], which ensures the continued operation of SCP-6269 through the construction of additional system redundancies. This is achieved through the conversion of matter within -SupPrime into additional mechanical components integrated into SCP-6269.
+Due to the mechanical, technical, and ontokinetical complexities of SCP-6269's machinery, the vast majority of the device is contained within an allocated universe:  -SubPrime. Due to thaumaturgical time-dilation and entropy-reducing counter-measures,[[span class="fnnum"]].[[/span]][[span class="fncon"]]Including, but not limited to: alchemical processes, non-Newtonian physics field generators, atemporal calculating systems, and the copious application of WD-40.[[/span]] mechanical devices within this universe experience minimal wear and decay. The components comprising SCP-6269 located in -SubPrime are monitored by [[span class="bigtext"]]Logan.aic[[/span]], which ensures the continued operation of SCP-6269 through the construction of additional system redundancies. This is achieved through the conversion of matter within -SupPrime into additional mechanical components integrated into SCP-6269.
 
 A subset of SCP-6269's mechanical components are located in -Prime: the home-universe of the SCP Foundation-Prime. These include:
- 
+ 
 * **SCP-6269-CLAW:** The primary physical acquisition component, SCP-6269-CLAW is utilized to seize targeted persons or objects, and is capable of precise maneuvering in diverse environments.
 * **SCP-6269-HOLE:** A self-stable multiversal aperture, SCP-6269-HOLE is an adjustable multi-badgerhole.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Whereas a wormhole links two locations within the same universe, a badgerhole links two locations between distinct universes.[[/span]] In regular operations, SCP-6269-CLAW is inserted into SCP-6269-HOLE to retrieve a targeted acquisition.
 * **SCP-6269-SCREEN:** Denoting a complex series of monitors and controls, SCP-6269-SCREEN includes the physical control systems for SCP-6269-CLAW and -HOLE, as well as providing visual feedback for the -CLAW operator. The integrated Hunter-Catcher system allows for the monitoring of up to 15,000 distinct individuals prior to their acquisition.
@@ -581,7 +581,7 @@ AQUISITION NUMBER: D02421
 [[/row]]
 [[row]]
 [[cell]]
-[[span class="bigtext"]]__AQUISITION(S):__[[/span]]  [*https://scp-wiki.wikidot.com/scp-5242 Dir. Place H. MD., PhD.]-OG_CaN43.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Dir. Place H. MD., PhD.-Prime had been instrumental in the construction of SCP-6269-HOLE, but inadvertently fell into the aperture while demostrating the insufficiency of the safety railings. His current whereabouts remain unknown.[[/span]]
+[[span class="bigtext"]]__AQUISITION(S):__[[/span]]  [*https://scp-wiki.wikidot.com/scp-5242 Dir. Place H. MD., PhD.]-OG_CaN43.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Dir. Place H. MD., PhD.-Prime had been instrumental in the construction of SCP-6269-HOLE, but inadvertently fell into the aperture while demostrating the insufficiency of the safety railings. His current whereabouts remain unknown.[[/span]]
 [[/cell]]
 [[/row]]
 [[row]]
@@ -788,7 +788,7 @@ Thus, should it truly come as a surprise that sometimes we get it right?
 @@ @@
 [[div class="notation" style="padding: 0.5rem 0.5rem 0.5rem 0.5rem; font-size: 90%; font-family: 'Work Sans', sans-serif;"]]
 [[<]]
-+++++ @@      @@ FOOTNOTES & REFERENCES
++++++ @@      @@ FOOTNOTES & REFERENCES
 # A non-militarized equivalent of an 'eigenweapon:' whereas an eigenweapon denotes an anomalous weapon of mass destruction, an eigenmachine is an anomalous machine of mass //production.//
 # Including, but not limited to: alchemical processes, non-Newtonian physics field generators, atemporal calculating systems, and the copious application of WD-40.
 # Whereas a wormhole links two locations within the same universe, a badgerhole links two locations between distinct universes.
@@ -840,19 +840,19 @@ Thus, should it truly come as a surprise that sometimes we get it right?
 > **License:** CC BY-SA 2.0
 > **Source Link:** https://commons.wikimedia.org/wiki/File:Canadian_Science_-_TRIUMF_cyclotron_-_Flickr_-_Cargo_Cult_(4).jpg
 -----
-> **Filename:**  Work1.jpg
+> **Filename:**  Work1.jpg
 > **Name:** GODDARD 40TH ANNIVERSARY - DPLA
 > **Author:** National Aeronautics and Space Administration
 > **License:** Public Domain
 > **Source Link:** https://commons.wikimedia.org/wiki/File:GODDARD_40TH_ANNIVERSARY_-_DPLA_-_59704d18fcd39df4818fe965e429d088.jpg
 -----
-> **Filename:**  Evan.jpg
+> **Filename:**  Evan.jpg
 > **Name:** Sonar Technician stands watch in the sonar control room aboard USS Carney.
 > **Author:** Official U.S. Navy Page
 > **License:** CC BY 2.0
 > **Source Link:** https://www.flickr.com/photos/56594044@N06/44442135022
 -----
-> **Filename:**  Sky1.jpg
+> **Filename:**  Sky1.jpg
 > **Name:** Seascape from the Zeeland Waters, near the Island of Schouwen
 > **Author:** Petrus Johannes Schotel
 > **License:** Public Domain

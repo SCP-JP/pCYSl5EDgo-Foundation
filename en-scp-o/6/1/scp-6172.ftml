@@ -2,13 +2,13 @@
 [[include :scp-wiki:component:fade-in speed=1]]
 [[module css]]
 :root{
-  --header-title: "R\0026 C SITE-120";
-  --header-subtitle: "FIGHTING FIRE WITH FIRE";
+  --header-title: "R\0026 C SITE-120";
+  --header-subtitle: "FIGHTING FIRE WITH FIRE";
 }
 
 div#extra-div-1 {
-    background-image: url(https://scp-wiki.wdfiles.com/local--files/secure-facility-dossier-site-120/120.png);
-    filter: opacity(20%);
+    background-image: url(https://scp-wiki.wdfiles.com/local--files/secure-facility-dossier-site-120/120.png);
+    filter: opacity(20%);
 }
 [[/module]]
 
@@ -77,42 +77,42 @@ border-top: double 4px black;
 [[/module]]
 
 [[module css]]
- 
+ 
 .document {
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin: 26px auto 0;
-    max-width: 550px;
-    min-height: 300px;
-    padding: 24px;
-    padding-top: 50px;
-    position: relative;
-    width: 80%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 26px auto 0;
+    max-width: 550px;
+    min-height: 300px;
+    padding: 24px;
+    padding-top: 50px;
+    position: relative;
+    width: 80%;
 }
- 
+ 
 .document:before,
 .document:after {
-    content: "";
-    height: 98%;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
+    content: "";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
 }
- 
+ 
 .document:before {
-    background: #fafafa;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-    left: -5px;
-    top: 4px;
-    transform: rotate(-2.5deg);
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
 }
- 
+ 
 .document:after {
-    background: #f6f6f6;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-    right: -3px;
-    top: 1px;
-    transform: rotate(1.4deg);
+    background: #f6f6f6;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
 }
 [[/module]]
 
@@ -171,23 +171,23 @@ May the Irreal forgive us for our mistakes.
 
 [[div]]
 [[include :scp-wiki:component:customizable-acs
-    |item-number=SCP-6172
-    |clearance=4
-    |container-class=thaumiel
-    |secondary-class=
-    |secondary-icon=
-    |disruption-class=vlam
-    |risk-class=notice
-    |item-text=item#:
-    |level-text= level
-    |clearance-level-text=4
-    |clearance-number-text=4
-    |clearance-text= secret
-    |containment-text= containment class
-    |secondary-text=
-    |disruption-text= disruption class
-    |risk-text= risk class
-    |inc-custom-text= --]]]
+    |item-number=SCP-6172
+    |clearance=4
+    |container-class=thaumiel
+    |secondary-class=
+    |secondary-icon=
+    |disruption-class=vlam
+    |risk-class=notice
+    |item-text=item#:
+    |level-text= level
+    |clearance-level-text=4
+    |clearance-number-text=4
+    |clearance-text= secret
+    |containment-text= containment class
+    |secondary-text=
+    |disruption-text= disruption class
+    |risk-text= risk class
+    |inc-custom-text= --]]]
 
 [[include :scp-wiki:component:customizable-acs
 |containment-class= thaumiel
@@ -198,8 +198,8 @@ May the Irreal forgive us for our mistakes.
 [[module CSS]]
 .anom-bar-container.ekhi .danger-diamond > .quadrants > .left-quad,
 .anom-bar-container.danger .danger-diamond > .quadrants > .right-quad {
-    background-color:rgba(255,109,0,0.25);
-    background-color: rgb(255,109,0,0.25);
+    background-color:rgba(255,109,0,0.25);
+    background-color: rgb(255,109,0,0.25);
 }
 [[/module]]
 
@@ -303,7 +303,7 @@ By 01/02/2030, Project Hermes became entirely finished, with all of SCP-6172-1's
 [[div class="table2"]]
 ||~ SCP-6172-1 Component ||~ Personnel Responsible ||~ Additional Notes||
 || Physical Mainframe || Engineering Department, Drarv Dhaz'zud, Odhran Tier-nan[[span class="fnnum"]].[[/span]][[span class="fncon"]]Respectively Child of the Night and Fae.[[/span]] (Directors)|| Created with the utilization of numerous techniques native to the [[[SCP-1000|Children of the Night]]] cultures -- such as specialized thaumaturgical metallurgy -- and the utilization of irrilite[[span class="fnnum"]].[[/span]][[span class="fncon"]]A thaumaturgy-conducting metal, entirely excavated from Earth by the Fae Empire during its peak.[[/span]]-bending methods only known to Fae cultures. Acts as the main host for the remainder of the systems, allowing for their smooth and stabilized utilization. ||
-|| Ontokinetic Reality Stabilizers and Destabilizers || Department of Ontokinetics, Reality-benders Division, James Micheals (Director)|| Created via cooperation between the theory and calculations obtained by DoO and practice and experience possessed by the RbD. Allows for the breaking of a fraction of local reality and stabilizing the wormhole obtained in the process.  ||
+|| Ontokinetic Reality Stabilizers and Destabilizers || Department of Ontokinetics, Reality-benders Division, James Micheals (Director)|| Created via cooperation between the theory and calculations obtained by DoO and practice and experience possessed by the RbD. Allows for the breaking of a fraction of local reality and stabilizing the wormhole obtained in the process.  ||
 || Thaumaturgic and Alchemical Gateway Catalysts || Alchemy Department, Thaumaturgy Divison, Daniel Asheworth, Ruslav Diaghilev (Directors) || Despite the mutual dislike between these Departments, the interplay of their respective theories and frameworks allows for the usage of an ontokinetic wormhole as a portal to a different plane of reality. ||
 || .aic Gestalt Supercomputer || Artificial Intelligence Applications Division, Alexandra.aic (Director) || Formed by a gestalt of approximately 100 joined minds of digital Division personnel, acting as one brain and supercomputer. Allows for the programing of the mainframe and associated components without overloading logical circuits of a normal machine. ||
 || Control Room || Department of Ontokinetics, Magdaleine Cornwell, Jessie Rivera || Comprised of ~100 DoO personnel from different sub-Divisions working together. Acts as the primary "human element" of SCP-6172-1, ensuring all processes required in its activation are executed properly. ||

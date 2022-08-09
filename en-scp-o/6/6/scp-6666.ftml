@@ -41,7 +41,7 @@ sup {
 vertical-align: top; position: relative; top: -0.5em;
 }
 #header::before {
-    opacity: 0.5 !important;
+    opacity: 0.5 !important;
 }
 :root{
 --header-subtitle: 'Secure - Contain - Protect' !important;
@@ -49,7 +49,7 @@ vertical-align: top; position: relative; top: -0.5em;
 --barColour: #590505 !important;
 --timeScale: 1 !important;
 --timeDelay: 1s !important;
-  --accentColor: 160, 44, 44 !important;
+  --accentColor: 160, 44, 44 !important;
 --dark-gray-monochrome: 46, 58, 51 !important;
 --black-monochrome: 26, 33, 29 !important;
 --lgurl: url(http://scp-wiki.wikidot.com/local--files/scp-6666/scpnewlogo.png) !important;
@@ -58,43 +58,43 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "djkaktus";
-    color: var(--link-color);
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "djkaktus";
+    color: var(--link-color);
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 [[/module]]
@@ -122,15 +122,15 @@ display:none;}
 
 [[module css]]
 .anom-bar-container.esoteric .text-part>.main-class::before {
-    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
 }
 
 .anom-bar-container.esoteric .text-part>.main-class::before,
 .anom-bar-container.esoteric .danger-diamond>.top-icon::before {
-    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
-    background-image: url("http://scp-wiki.wikidot.com/local--files/scp-6666/esoteric-icon-ededed.svg");
-    -webkit-filter: initial;
-    filter: initial;
+    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    background-image: url("http://scp-wiki.wikidot.com/local--files/scp-6666/esoteric-icon-ededed.svg");
+    -webkit-filter: initial;
+    filter: initial;
 }
 [[/module]]
 
@@ -1182,7 +1182,7 @@ Exploratory team members were fitted with Class C poly-shell positively pressure
 **Team Lead:** 1-𐤇 Cmdr. Aestrei
 **Fire Team:** 1-𐤇 Carrier / 1-𐤇 Horizon / 1-𐤇 Triple / 1-𐤇 Pressure / 1-𐤇 Glass
 **Research Team:** Dr. Bishop, Dr. Moore, Dr. Gutierrez, Dr. Xi
- 
+ 
 -----
 
 [[include component:image-block name=darkforest.png|align=right|caption=N/A]]

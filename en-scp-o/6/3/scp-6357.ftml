@@ -32,32 +32,32 @@ Have a great day.
 
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
-    color: black;
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
+    color: black;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p,
 .page ul {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 
@@ -121,24 +121,24 @@ div.top-right-box { clip-path: polygon(0% -30%, 100% -30%, 100% 130%, 0% 130%); 
 
 .danger-diamond > .arrows,
 .anom-bar > .bottom-box::before {
-    background-color: transparent!important;
+    background-color: transparent!important;
 }
 .anom-bar > .bottom-box {
-    box-shadow: 0 -0.5rem 0 0 transparent!important;
+    box-shadow: 0 -0.5rem 0 0 transparent!important;
 }
 
 .bottom-box > .diamond-part {
-    box-shadow: -0.5rem 0 0 0 transparent!important;
+    box-shadow: -0.5rem 0 0 0 transparent!important;
 }
 [[/module]]
 
 ------
 [[module CSS]]
 .contain-class .class-text::before {
-    color: rgb(228 228 228) !important;
+    color: rgb(228 228 228) !important;
 }
 .anom-bar-container.esoteric .text-part > .main-class > .second-class > .class-text::before {
-    color: #e4e4e4!important;
+    color: #e4e4e4!important;
 }
 [[/module]]
 @@ @@
@@ -195,7 +195,7 @@ On 6/2/2007, the two soldiers were located in a small village and taken into cus
 > **Foreword:** [The soldiers were escorted to an MTF safehouse. The interview was conducted in Korean, translated for convenience]
 > 
 > **<Begin Log>**
->   
+>   
 > **Detainee A:** I would like to say, thank you. May I ask whom do you work for?
 > 
 > **Agent Jeon:** Doesn't matter. All you have to know is that we will provide you safe passage to South Korea, in exchange for information.
@@ -221,7 +221,7 @@ On 6/2/2007, the two soldiers were located in a small village and taken into cus
 > **Agent Jeon:** What makes sense?
 > 
 > **Detainee A:** //(Silence, then turns to interviewer)// We were dog handlers, along with our colleague. Dal was the name of his dog. One day, Dal started acting weirdly, like he was mad. Lt. Kang, our colleague...he tried to control Dal. Thing is, the dog bit him and ran off. We tried to chase him but he disappeared into the forest.
->   
+>   
 >**Detainee B:** He must have become the monster after that.
 > 
 > **Agent Jeon:** When was this?
@@ -247,7 +247,7 @@ On 6/2/2007, the two soldiers were located in a small village and taken into cus
 > **Detainee A:** He...he was...
 > 
 > **Detainee B:** He was very...wrong.
->  
+>  
 > **Agent Jeon:** What do you mean by "very wrong"?
 > 
 > **Detainee B:** I have seen sick people sir, but not that sick! He was contorted on the floor and had these bumps growing on his chest. And his face was....was...
@@ -261,7 +261,7 @@ On 6/2/2007, the two soldiers were located in a small village and taken into cus
 > **Detainee A:** He saw us and jumped out the window. We looked out to see him scramble into the forest. After some time, we reported to our superiors.
 > 
 > **Detainee B:** Now we are being hunted. That damn dog gave him something! And they know it!
->  
+>  
 > **<End Log>**
 > 
 > **Closing Statement:** [The two soldiers were administered Class C amnestics and arrangements were made to send them to Hanawon[[footnote]]The Settlement Support Center for North Korean Refugees, a South Korean facility for the re-education of North Korean defectors.[[/footnote]].]
@@ -290,7 +290,7 @@ During one of the procedures, we attempted to extract cells from the subject. Su
 
 In a panic, one of the soldiers fired upon the subject, who attacked him. This made the others open fire causing it to swarm out.
 
-I watched that thing kill everyone in his testing chamber and simply move out the door. We tried to stop it.... believe me we did... but he was uncontrollable, he...he kept re-growing no matter what we did.  We were tricked! The toxins only made it angrier.
+I watched that thing kill everyone in his testing chamber and simply move out the door. We tried to stop it.... believe me we did... but he was uncontrollable, he...he kept re-growing no matter what we did.  We were tricked! The toxins only made it angrier.
 
 Wherever the swarm went, it reduced every living thing to bones.
 
@@ -328,7 +328,7 @@ SCP-6357 was transferred to Area-12, taking the appearance of the deceased man: 
 Interactions between personnel and the entity have generally been affable. However, it tends to become distressed when ignored.
 
 Level 4 researcher, Dr. Harish Narendran was placed in charge of SCP-6357.
-[[collapsible hideLocation="both" show="+  INTERVIEW LOGS" hide="- INTERVIEW LOGS"]]
+[[collapsible hideLocation="both" show="+  INTERVIEW LOGS" hide="- INTERVIEW LOGS"]]
 
 > **Interviewed:** SCP-6357
 > 
@@ -395,15 +395,15 @@ Level 4 researcher, Dr. Harish Narendran was placed in charge of SCP-6357.
 > **SCP-6357:** Go ahead.
 > 
 > **Dr. Narendran:** Most of your sightings have been occurring in South Asia. How did you end up in North Korea?
->  
+>  
 > **SCP-6357:** Well doctor, as a human I work in jobs that allow me to travel across the subcontinent. I prefer not to stay in one place. One of those jobs was at a shipping firm in India at the time.
 > 
 > **Dr. Narendran:** Continue.
->  
+>  
 > **SCP-6357:** One of our trips was to South Korea. It was supposed to be only a three-week trip and I had prepared adequately. Besides, I had travelled across water before, so why not? //(Sigh)//
 > 
 > **Dr. Narendran:** Let me guess…
->  
+>  
 > **SCP-6357:** //(Chuckles)// Yeah…on the way back, a storm hit and we lost our bearings. The ship turned straight in North Korean waters. We only knew when suddenly we were being bombarded with shells. All I remember from then is being blown off the ship, then waking up…. more accurately woken up by soldiers on the beach.
 > 
 > **Dr. Narendran:** What happened after that?
@@ -563,7 +563,7 @@ Level 4 researcher, Dr. Harish Narendran was placed in charge of SCP-6357.
 [[/collapsible]]
 
 [[collapsible hideLocation="both" show="+ TEST LOGS" hide="- TEST LOGS"]]
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: gray; width: 20%;"]]
 TEST 1
@@ -591,7 +591,7 @@ The cells began moving through the pathways of the maze until the food source wa
 
 
 
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: gray; width: 20%;"]]
 TEST 2
@@ -618,7 +618,7 @@ Not only did the cells locate the food source exponentially quicker, but they co
 [[/table]]
 
 
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: gray; width: 20%;"]]
 TEST 3
@@ -653,7 +653,7 @@ Notes
 [[/table]]
 
 @@ @@
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: gray; width: 20%;"]]
 TEST 4
@@ -688,7 +688,7 @@ The entity absorbed the blood and in 30 seconds transformed into an exact copy o
 [[/table]]
 
 
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: gray; width: 20%;"]]
 TEST 5
@@ -967,8 +967,8 @@ SCP-6357-1B fall into three categories:
 
 ||~ Stage ||~ Symptoms ||
 ||**"DORMANT"** || SCP-6357-1A resides in the host’s body, mimicking the host's cells to avoid an immune response. Some SCP-6357-1A become neurons to access their host’s memories and receive input from the host’s sensory organs. This information is relayed telepathically to SCP-6357, effectively making SCP-6357-1B a biological surveillance device.||
-||  **"ACTIVE"**   || SCP-6357-1A’s replication rate increases and they fully infect the brain, taking full control of the host. The host’s behaviour changes and it is now under the direct command of SCP-6357. It is semi-sentient and retains the skills of the host as well as the ability to communicate with beings other than SCP-6357. **"ACTIVE"** SCP-6357-1B can mutate rapidly if sustaining severe injury, however can be killed with conventional weaponry.||
-|| **"REVIVAL"**  ||Upon the destruction of SCP-6357, SCP-6357-1A begin rapidly replicating in a particular host, creating tumours that cause temporary disfigurement. In hosts of smaller sizes, the tumours are more noticeable. SCP-6357-1A will also inject their genetic material into the host's cells to further proliferate. The **"REVIVAL"** process is complete when all of the host's cells have been replaced by SCP-6357-1A, thus creating a 100% copy SCP-6357. This copy retains all the skills and memories of the main body whilst also retaining all those[[footnote]] The entity previously in containment was a copy created from an SCP-6357-1B who was a Military Working Dog (MWD) handler, resulting in SCP-6357 gaining skills in dog training as well as firearms proficiency.[[/footnote]] of the former host.||
+||  **"ACTIVE"**   || SCP-6357-1A’s replication rate increases and they fully infect the brain, taking full control of the host. The host’s behaviour changes and it is now under the direct command of SCP-6357. It is semi-sentient and retains the skills of the host as well as the ability to communicate with beings other than SCP-6357. **"ACTIVE"** SCP-6357-1B can mutate rapidly if sustaining severe injury, however can be killed with conventional weaponry.||
+|| **"REVIVAL"**  ||Upon the destruction of SCP-6357, SCP-6357-1A begin rapidly replicating in a particular host, creating tumours that cause temporary disfigurement. In hosts of smaller sizes, the tumours are more noticeable. SCP-6357-1A will also inject their genetic material into the host's cells to further proliferate. The **"REVIVAL"** process is complete when all of the host's cells have been replaced by SCP-6357-1A, thus creating a 100% copy SCP-6357. This copy retains all the skills and memories of the main body whilst also retaining all those[[footnote]] The entity previously in containment was a copy created from an SCP-6357-1B who was a Military Working Dog (MWD) handler, resulting in SCP-6357 gaining skills in dog training as well as firearms proficiency.[[/footnote]] of the former host.||
 
 Any and all personnel who display symptoms of the **"ACTIVE"** stage of infection are to be terminated immediately and incinerated.
 
@@ -995,7 +995,7 @@ Subsequent testing revealed that a current of 2mA causes SCP-6357-1A to act erra
 The test has been named the Narendran Test in honour of its inventor, and sweeping tests will be carried across all Foundation facilities.
 
 **Addendum 7.1: 16/6/2018**
-The first successful batch of tactical androids, named Tactical Operative Androids (TOA),  for Tau-15 has been produced. The batch will undergo the necessary programming and training.
+The first successful batch of tactical androids, named Tactical Operative Androids (TOA),  for Tau-15 has been produced. The batch will undergo the necessary programming and training.
 
 **Addendum 8: 10/2/2019**
 A weapon has been developed. Code named CHAAC[[footnote]]After the Mayan God of Rain.[[/footnote]], the device launches an electrified net over a wide area which could theoretically capture and incapacitate the entity to allow for safe containment. The weapon is to be operated by personnel in pairs to maximise coverage.
@@ -1118,12 +1118,12 @@ It has been confirmed that SCP-6357 can initiate an advanced form of apoptosis i
 
 The following is a quote from Researcher Narendran after learning of the incident during a meeting with the O-5:
 
- [//"We underestimated him. The more we try to contain him, the more and more people we will inadvertently kill! Leave it, Sir. He won, and he made sure we can't play the game again."//]
+ [//"We underestimated him. The more we try to contain him, the more and more people we will inadvertently kill! Leave it, Sir. He won, and he made sure we can't play the game again."//]
 [[/collapsible]]
 
 
 **Addendum 10:**
- A raid was carried out and the compound was secured, where the stolen samples were discovered and retrieved.
+ A raid was carried out and the compound was secured, where the stolen samples were discovered and retrieved.
 
 Researcher Dr. Harish Narendran has been reinstated back to Class B.
 

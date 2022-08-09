@@ -32,23 +32,23 @@ name=https://scp-wiki.wdfiles.com/local--files/scp-6159/Primrose-The-Contractor.
 [[module css]]
 
 .parapost{
-    background-color: #202020;
-    border: 2px solid #111;
-    color: #f2f2f2;
-    font-family: "Courier", "Courier New", "Roboto Mono", monospace;
-    padding: 0 1em;
-    font-size: 1.1em;
-    width: 85%;
-    margin:0 auto;
+    background-color: #202020;
+    border: 2px solid #111;
+    color: #f2f2f2;
+    font-family: "Courier", "Courier New", "Roboto Mono", monospace;
+    padding: 0 1em;
+    font-size: 1.1em;
+    width: 85%;
+    margin:0 auto;
 }
 
 .parapost hr{margin: 1em 2em; padding: 0; height: 1px; border: none; background-color: #f2f2f2;}
 
 .parapost blockquote{
-    background: #000;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #262626;
+    background: #000;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #262626;
 }
 sup {
 vertical-align: top; position: relative; top: -0.5em;
@@ -61,65 +61,65 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Fantem";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "Fantem";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .pulsate {
-    -webkit-animation: pulsate 1s linear;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation: pulsate 1s linear;
+    -webkit-animation-iteration-count: infinite;
 }
 @-webkit-keyframes pulsate {
-  0% {
-    opacity:1;
-  }
-  25% {
-    opacity:.20;
-  }
-  50% {
-    opacity:.9;
-  }
-  70% {
-    opacity:.05;
-  }
-  85% {
-    opacity:.05;
-  }
+  0% {
+    opacity:1;
+  }
+  25% {
+    opacity:.20;
+  }
+  50% {
+    opacity:.9;
+  }
+  70% {
+    opacity:.05;
+  }
+  85% {
+    opacity:.05;
+  }
 }
 [[/module]]
 [[>]]
@@ -443,7 +443,7 @@ Documentation not presented here consists of detailed explanations of SCP-6159-1
 
 **SCP-6159-1:** Because… I do not know. Can you not just tell me? You are in my head so deep already, you should know everything.
 
-**SCP-6159-2:** I have. It should be very, very obvious.  But telling you what's wrong hasn't worked, so I'm getting your train of thought there by your own engine. So keep speaking.
+**SCP-6159-2:** I have. It should be very, very obvious.  But telling you what's wrong hasn't worked, so I'm getting your train of thought there by your own engine. So keep speaking.
 
 **SCP-6159-1:** I sound ridiculous. But fine... I suppose it has something to do with my friends. They were some of the best people I have ever known. I would have a job that I could not do myself, but they would know what to do. We fought together, we loved, we lost. It felt like a whole //life.// But even then, we could not get the Guide. It was just so time-consuming. Eventually, everyone's enthusiasm died down. We puttered. Everyone had to spend more time on more higher-priority tasks, and a lot of us kept moving to different companies. I considered doing so too.
 
@@ -477,7 +477,7 @@ Documentation not presented here consists of detailed explanations of SCP-6159-1
 
 **<End Log>**
 
-**Closing Statement:** While this specific waypoint of telepathic communication was closed,  SCP-6159-2 was still able to find and eventually create new waypoints to establish communication with SCP-6159-1. SCP-6159-2's attempts to contact SCP-6158-1 have been allowed to persist as a means to gather additional information on both entities.
+**Closing Statement:** While this specific waypoint of telepathic communication was closed,  SCP-6159-2 was still able to find and eventually create new waypoints to establish communication with SCP-6159-1. SCP-6159-2's attempts to contact SCP-6158-1 have been allowed to persist as a means to gather additional information on both entities.
 [[/div]]
 [[/div]]
 [[/tab]]
@@ -769,7 +769,7 @@ Administrator Signature:
 @@ @@
 @@ @@
 @@ @@
-__@@                                                                                       @@__
+__@@                                                                                       @@__
 [[/div]]
 
 **Closing Statement:** The injuries of all personnel on Site-68 were completely healed shortly after SCP-6159-1’s containment breach, including several near-death cases. SCP-6159-1’s resume had also been attached to this letter, which has been trimmed for brevity. Given the difficulty of containing both entities and the fact that SCP-6159-1's experience qualifies it for work in multiple departments, an O5 Council vote is pending in order to decide whether or not to put SCP-6159-1 on Foundation payroll.
@@ -779,35 +779,35 @@ __@@                                      
 [[div class="addendum" style="font-weight: bold; background:#fff url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat;"]]
 
 = COUNCIL VOTE SUMMARY:
-||~ YEA  ||~ ABSTAIN  ||~ NAY ||
-|| [[span style="color: green;"]]O5-1[[/span]] ||  ||   ||
-|| [[span style="color: green;"]]O5-2[[/span]] ||  ||   ||
-|| [[span style="color: green;"]]O5-3[[/span]] ||  ||   ||
-|| [[span style="color: green;"]]O5-4[[/span]] ||  ||   ||
-|| [[span style="color: green;"]]O5-5[[/span]] ||  ||   ||
-|| [[span style="color: green;"]]O5-6[[/span]] ||  ||   ||
-||  ||  || [[span style="color: red;"]]O5-7[[/span]] ||
-||  ||  || [[span style="color: red;"]]O5-8[[/span]] ||
-|| [[span style="color: green;"]]O5-9[[/span]] ||  ||   ||
-|| [[span style="color: green;"]]O5-10[[/span]] ||  ||   ||
-|| [[span style="color: green;"]]O5-11[[/span]] ||  ||   ||
-|| [[span style="color: green;"]]O5-12[[/span]] ||  ||   ||
-|| [[span style="color: green;"]]O5-13[[/span]] ||  ||   ||
+||~ YEA  ||~ ABSTAIN  ||~ NAY ||
+|| [[span style="color: green;"]]O5-1[[/span]] ||  ||   ||
+|| [[span style="color: green;"]]O5-2[[/span]] ||  ||   ||
+|| [[span style="color: green;"]]O5-3[[/span]] ||  ||   ||
+|| [[span style="color: green;"]]O5-4[[/span]] ||  ||   ||
+|| [[span style="color: green;"]]O5-5[[/span]] ||  ||   ||
+|| [[span style="color: green;"]]O5-6[[/span]] ||  ||   ||
+||  ||  || [[span style="color: red;"]]O5-7[[/span]] ||
+||  ||  || [[span style="color: red;"]]O5-8[[/span]] ||
+|| [[span style="color: green;"]]O5-9[[/span]] ||  ||   ||
+|| [[span style="color: green;"]]O5-10[[/span]] ||  ||   ||
+|| [[span style="color: green;"]]O5-11[[/span]] ||  ||   ||
+|| [[span style="color: green;"]]O5-12[[/span]] ||  ||   ||
+|| [[span style="color: green;"]]O5-13[[/span]] ||  ||   ||
 
 @@ @@
 
 [[collapsible show="[ + ] LEVEL 5 CLEARANCE" hide="[ - ] LEVEL 5 CLEARANCE - O5 Council"]]
 
 ||~ O5-X ||~ Account Name ||
-|| [[span style="color: green;"]]O5-1[[/span]] ||  [[*user Siddartha Alonne]] ||
-|| [[span style="color: green;"]]O5-2[[/span]] ||  [[*user The Pighead]] ||
-|| [[span style="color: green;"]]O5-3[[/span]] ||  [[*user TheDarkArtist]] ||
-|| [[span style="color: green;"]]O5-4[[/span]] ||  [[*user Detective Marw]] ||
-|| [[span style="color: green;"]]O5-5[[/span]] ||  [[*user winkwonkboi]] ||
-|| [[span style="color: green;"]]O5-6[[/span]] ||  [[*user Starch Tuber]] ||
-|| [[span style="color: red;"]]O5-7[[/span]] ||  [[*user Dr Asteria]] || 
-|| [[span style="color: red;"]]O5-8[[/span]] ||  [[*user Cassandra_Prime]] ||
-|| [[span style="color: green;"]]O5-9[[/span]] ||  [[*user Crow-Cat]] ||
+|| [[span style="color: green;"]]O5-1[[/span]] ||  [[*user Siddartha Alonne]] ||
+|| [[span style="color: green;"]]O5-2[[/span]] ||  [[*user The Pighead]] ||
+|| [[span style="color: green;"]]O5-3[[/span]] ||  [[*user TheDarkArtist]] ||
+|| [[span style="color: green;"]]O5-4[[/span]] ||  [[*user Detective Marw]] ||
+|| [[span style="color: green;"]]O5-5[[/span]] ||  [[*user winkwonkboi]] ||
+|| [[span style="color: green;"]]O5-6[[/span]] ||  [[*user Starch Tuber]] ||
+|| [[span style="color: red;"]]O5-7[[/span]] ||  [[*user Dr Asteria]] || 
+|| [[span style="color: red;"]]O5-8[[/span]] ||  [[*user Cassandra_Prime]] ||
+|| [[span style="color: green;"]]O5-9[[/span]] ||  [[*user Crow-Cat]] ||
 || [[span style="color: green;"]]O5-10[[/span]] || [[*user Ethagon]] ||
 || [[span style="color: green;"]]O5-11[[/span]] || [[*user coolguy00]] ||
 || [[span style="color: green;"]]O5-12[[/span]] || [[*user Esoterica]] ||

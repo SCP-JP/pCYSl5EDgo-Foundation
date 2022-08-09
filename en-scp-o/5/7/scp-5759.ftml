@@ -40,13 +40,13 @@ Uhm, yeah
 {{.}}
 {{.}}
 {{/run: access file 5759 {}}
-{{@@     @@.file-location:scpf.scp.net/5759}}
+{{@@     @@.file-location:scpf.scp.net/5759}}
 {{@@}@@}}##
 [[>]]
 {{##red |!! terminal error: no file encountered **@[DATA MISSING]** !!}}##
 [[/>]]
 ##green |{{/run: access file 5759 {}}
-{{@@     @@.file-location:scpf.scp.net/5759-arc}}
+{{@@     @@.file-location:scpf.scp.net/5759-arc}}
 {{@@}@@}}##
 [[>]]
 ##3d3aff |{{file encountered **![DATA FOUND]**}}##
@@ -148,11 +148,11 @@ __**PROPOSAL:**__ Integrate SCP-5759 into Foundation operations
 
 = ##gray |//...Shit... Ah, fucking hell... Maybe not, then...//##
 ##green |{{import_file {}}
-@@     @@{{o5-clearance.cif}}
+@@     @@{{o5-clearance.cif}}
 {{@@}@@}}##
 [[>]]
 ##3d3aff|{{clearance change requested}}##
-##3d3aff|@@     @@{{<<input o5 credentials to proceed}}##
+##3d3aff|@@     @@{{<<input o5 credentials to proceed}}##
 [[/>]]
 = ##gray |//Fuck... what was it...//##
 ##green |{{the hound of hell has three heads}}##
@@ -284,7 +284,7 @@ __**Proposal Statement:__**
 ----
 = **REQUESTED RESOURCES:**
 ||~ **Name/Designation**||~ **Synopsis**||~ **Access Type/s**||~ **Justification**||
-||= SCP-5759||A series of entries on the **SCiPNet** database that anomalously appeared on  █/██/████.||Access to all documentation; use of anomaly; use of database slot "SCP-5759".||Anomaly could be modified for the purpose of **##a02c2c |PROJECT VISHAAK##**.||
+||= SCP-5759||A series of entries on the **SCiPNet** database that anomalously appeared on  █/██/████.||Access to all documentation; use of anomaly; use of database slot "SCP-5759".||Anomaly could be modified for the purpose of **##a02c2c |PROJECT VISHAAK##**.||
 ||= ~15% of the Dept. Of Surrealistics||= N/A||Use of personnel.||Proposal requires large amounts of manpower, and due to the Proposal at hand, Dept. Of Surrealistics is the most appropriately suited for it.||
 ||= ~1% of the Dept. Of Infotech||= N/A||Use of resources and personnel.||Due to the existence of the project within the database, several members of Infotech are required.||
 ||= [http://scp-wiki.wikidot.com/scp-6579 SCP-6579]||A phenomenon that kills anyone who views Dr. Cambridge, or spends a significant amount of time observing his office.||= Use of anomaly.||= {{[REDACTED]}}||
@@ -305,7 +305,7 @@ The objective of the project consists of setting up "dummy files" through the **
 //...I doubt I can get Cosmic Top Secret access, though...//##
 [[/=]]
 ##green |{{import_file {}}
-@@     @@{{o6-clearance.cif}}
+@@     @@{{o6-clearance.cif}}
 {{@@}@@}}##
 [[>]]
 ##red |{{**[!]** o6 clearance requires identity verification **[!]**}}##
@@ -348,7 +348,7 @@ The objective of the project consists of setting up "dummy files" through the **
 ----
 The goal of **##a02c2c |PROJECT VISHAAK##** was, as you may know, //"To create a medium by which to cloak the Foundation"//.
 
-This was achieved by the use of SCP-5759  — and several other anomalies — and the modification of several unusable files on the **SCiPNet** database that modified any and all text inputted into them, distorting the reader's experience and making it an endless spiral towards a conclusion that is never reached.
+This was achieved by the use of SCP-5759  — and several other anomalies — and the modification of several unusable files on the **SCiPNet** database that modified any and all text inputted into them, distorting the reader's experience and making it an endless spiral towards a conclusion that is never reached.
 
 I doubt you need me to elaborate more, further information will be given to those members of the **##a4160b |OVERSEER COUNCIL##** that request it.
 [[>]]
@@ -430,364 +430,364 @@ Access to this file is limited to personnel with level 5-5759 clearance. Upon ac
 [[module CSS]]
 :root {
 /* VARIABLES */
- 
-    --backgroundColor: #0c0c0c;
-    --divColor: var(--textColor);
-    --textColor: #ffffff;
- 
-    --headerTitle: "SCP FOUNDATION";
-    --headerSubtitle: "SECURED INTERNAL DATABASE";
- 
-    --darkAccent: var(--textColor);
-    --accentColor: var(--textColor);
- 
+ 
+    --backgroundColor: #0c0c0c;
+    --divColor: var(--textColor);
+    --textColor: #ffffff;
+ 
+    --headerTitle: "SCP FOUNDATION";
+    --headerSubtitle: "SECURED INTERNAL DATABASE";
+ 
+    --darkAccent: var(--textColor);
+    --accentColor: var(--textColor);
+ 
 /* Author Label "by" Change */
-    --swatch-tertiary-color: var(--textColor);
+    --swatch-tertiary-color: var(--textColor);
 }
- 
+ 
 /* HEADER */
- 
+ 
 #header {
-    background-image: none;
+    background-image: none;
 }
- 
+ 
 div#extra-div-1 {
-    height: 140px;
-    width: 100%;
-    top: 0;
-    position: absolute;
-    background-color: var(--backgroundColor);
-    background-image: var(--backgroundColor);
+    height: 140px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-color: var(--backgroundColor);
+    background-image: var(--backgroundColor);
 }
- 
+ 
 div#extra-div-2 {
-    height: 23px;
-    width: 100%;
-    top: 140px;
-    position: absolute;
-    background: var(--backgroundColor);
+    height: 23px;
+    width: 100%;
+    top: 140px;
+    position: absolute;
+    background: var(--backgroundColor);
 }
- 
+ 
 div#container-wrap {
-    background: var(--backgroundColor);
+    background: var(--backgroundColor);
 }
- 
+ 
 #header h1 a {
-    color: transparent;
-    text-shadow: none;
-    font-family: 'Fira Code', monospace;
-    margin-left: -95px;
+    color: transparent;
+    text-shadow: none;
+    font-family: 'Fira Code', monospace;
+    margin-left: -95px;
 }
- 
+ 
 #header h1 a::before {
-    content: var(--headerTitle);
-    color: var(--textColor);
-    font-variant: small-caps;
+    content: var(--headerTitle);
+    color: var(--textColor);
+    font-variant: small-caps;
 }
- 
+ 
 #header h2 span {
-    color: transparent;
-    text-shadow: none;
-    font-family: 'Fira Code', monospace;
-    margin-left: -95px;
+    color: transparent;
+    text-shadow: none;
+    font-family: 'Fira Code', monospace;
+    margin-left: -95px;
 }
- 
+ 
 #header h2 span::before {
-    content: var(--headerSubtitle);
-    color: var(--textColor);
-    text-transform: uppercase;
+    content: var(--headerSubtitle);
+    color: var(--textColor);
+    text-transform: uppercase;
 }
- 
+ 
 /* MAIN PAGE ELEMENTS */
- 
+ 
 ::selection {
-    background: white;
-    color: black;
+    background: white;
+    color: black;
 }
- 
+ 
 body {
-    background-color: var(--backgroundColor);
-    color: var(--textColor);
-    font-family: 'Fira Code', monospace;
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+    font-family: 'Fira Code', monospace;
 }
- 
+ 
 hr {
-    border-bottom: 1px solid var(--textColor);
-    border-top: 1px solid var(--textColor);
-    background: transparent;
+    border-bottom: 1px solid var(--textColor);
+    border-top: 1px solid var(--textColor);
+    background: transparent;
 }
- 
+ 
 .page-source, tt{ 
-    font-family: "Fira Code", monospace;
-    font-size: 0.87rem;
+    font-family: "Fira Code", monospace;
+    font-size: 0.87rem;
 }
- 
+ 
 .code {
-    background-color: var(--textColor);
-    color: var(--backgroundColor);
-    border: none;
-    box-shadow: none;
-    font-family: 'Fira Code', monospace;
+    background-color: var(--textColor);
+    color: var(--backgroundColor);
+    border: none;
+    box-shadow: none;
+    font-family: 'Fira Code', monospace;
 }
- 
- .code pre, .code p, .code {
-    font-family: "Fira Code", monospace;
-    font-size: 0.87rem;
-    color: var(--backgroundColor);
+ 
+ .code pre, .code p, .code {
+    font-family: "Fira Code", monospace;
+    font-size: 0.87rem;
+    color: var(--backgroundColor);
 }
- 
+ 
 h1 {font-size: 225%;}
 h2 {font-size: 200%;}
 h3 {font-size: 175%;}
 h4 {font-size: 150%;}
 h5 {font-size: 125%;}
 h6 {font-size: 100%;}
- 
+ 
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Fira Code', monospace;
-    font-weight: bold;
-    color: var(--textColor);
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    color: var(--textColor);
 }
- 
+ 
 #page-title {
-    display: none;
+    display: none;
 }
- 
+ 
 blockquote,
 div.blockquote,
 #toc {
-    background-color: var(--divColor);
-    border: 1px solid var(--divColor);
-    box-shadow: 0px 0px 7px var(--backgroundColor);
+    background-color: var(--divColor);
+    border: 1px solid var(--divColor);
+    box-shadow: 0px 0px 7px var(--backgroundColor);
 }
- 
+ 
 .scp-image-block .scp-image-caption {
-    background-color: var(--divColor);
-    border: none;
-    color: var(--textColor);
-    font-size: 0.84rem;
+    background-color: var(--divColor);
+    border: none;
+    color: var(--textColor);
+    font-size: 0.84rem;
 }
- 
+ 
 #page-content .wiki-content-table tr th {
-    border: solid 1px var(--textColor);
-    color: var(--backgroundColor);
-    background-color: var(--textColor);
+    border: solid 1px var(--textColor);
+    color: var(--backgroundColor);
+    background-color: var(--textColor);
 }
- 
+ 
 #page-content .wiki-content-table tr td {
-    background-color: var(--divColor);
-    border: solid 1px var(--textColor);
+    background-color: var(--divColor);
+    border: solid 1px var(--textColor);
 }
- 
+ 
 a {
-    color: var(--accentColor);
+    color: var(--accentColor);
 }
- 
+ 
 a:visited {
-    color: var(--darkAccent);
+    color: var(--darkAccent);
 }
- 
+ 
 a:hover {
-    background-color: var(--accentColor);
-    color: var(--backgroundColor);
-    text-decoration: underline;
+    background-color: var(--accentColor);
+    color: var(--backgroundColor);
+    text-decoration: underline;
 }
- 
+ 
 #page-content a:hover::before {
-    background-color: var(--accentColor);
-    color: var(--backgroundColor);
-    content:">";
-    text-decoration: underline;
+    background-color: var(--accentColor);
+    color: var(--backgroundColor);
+    content:">";
+    text-decoration: underline;
 }
- 
+ 
 .page-tags span {
-    border-top: 1px solid var(--textColor);
-    margin-top: 0.18rem;
+    border-top: 1px solid var(--textColor);
+    margin-top: 0.18rem;
 }
 
 /* RATING MODULE */
- 
+ 
 .page-rate-widget-box {
-     border: solid 2px var(--divColor);
-     background-color: var(--divColor);
-     margin-top: 4px;
-     margin-bottom:0.70em;
-     margin-right: 1em;
+     border: solid 2px var(--divColor);
+     background-color: var(--divColor);
+     margin-top: 4px;
+     margin-bottom:0.70em;
+     margin-right: 1em;
 }
- 
+ 
 .page-rate-widget-box .rate-points {
-    background-color: var(--divColor) !important;
-    border: none;
-    color: var(--textColor) !important;
-    text-transform: capitalize;
+    background-color: var(--divColor) !important;
+    border: none;
+    color: var(--textColor) !important;
+    text-transform: capitalize;
 }
- 
+ 
 .page-rate-widget-box .rateup,
 .page-rate-widget-box .ratedown {
-    background-color: var(--divColor);
-    border-top: none;
-    border-bottom: none;
+    background-color: var(--divColor);
+    border-top: none;
+    border-bottom: none;
 }
- 
+ 
 .page-rate-widget-box .rateup a,
 .page-rate-widget-box .ratedown a {
-    background: transparent;
-    color: var(--accentColor);
+    background: transparent;
+    color: var(--accentColor);
 }
- 
+ 
 .page-rate-widget-box .rateup a:hover,
 .page-rate-widget-box .ratedown a:hover {
-    background: var(--accentColor);
-    color: var(--backgroundColor);
+    background: var(--accentColor);
+    color: var(--backgroundColor);
 }
- 
+ 
 .page-rate-widget-box .cancel {
-    background: transparent;
-    background-color: var(--divColor);
-    border: none;
+    background: transparent;
+    background-color: var(--divColor);
+    border: none;
 }
- 
+ 
 .page-rate-widget-box .cancel a {
-    color: var(--accentColor);
+    color: var(--accentColor);
 }
- 
+ 
 .page-rate-widget-box .cancel a:hover {
-    background: var(--accentColor);
-    color: var(--backgroundColor);
+    background: var(--accentColor);
+    color: var(--backgroundColor);
 }
- 
+ 
 .page-rate-widget-box .cancel a:hover::before,
 .page-rate-widget-box .rateup a:hover::before,
 .page-rate-widget-box .ratedown a:hover::before {
-    display: none;
+    display: none;
 }
- 
+ 
 /* SIDEBAR */
- 
+ 
 #side-bar a,
 #side-bar a:visited {
-    color: var(--textColor);
-    transition: color 0.15s linear;
+    color: var(--textColor);
+    transition: color 0.15s linear;
 }
- 
+ 
 #side-bar .collapsible-block-unfolded-link .collapsible-block-link,
 #side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
-    color: var(--textColor);
-    text-shadow: none;
+    color: var(--textColor);
+    text-shadow: none;
 }
- 
+ 
 #side-bar a:hover {
-    background-color: var(--accentColor);
-    color: var(--backgroundColor);
-    text-decoration: underline;
+    background-color: var(--accentColor);
+    color: var(--backgroundColor);
+    text-decoration: underline;
 }
- 
+ 
 #side-bar a:hover::before {
-    background-color: var(--accentColor);
-    color: var(--divColor);
-    content:none;
-    text-decoration: underline;
+    background-color: var(--accentColor);
+    color: var(--divColor);
+    content:none;
+    text-decoration: underline;
 }
- 
+ 
 #side-bar .heading {
-    color: var(--textColor);
+    color: var(--textColor);
 }
- 
+ 
 #side-bar .side-block {
-    border: 3px solid var(--divColor);
-    box-shadow: 0 0.125em 0.375em var(--divColor);
+    border: 3px solid var(--divColor);
+    box-shadow: 0 0.125em 0.375em var(--divColor);
 }
- 
+ 
 /* Media Block */
- 
+ 
 #side-bar .side-block.media {
-    background-color: var(--divColor);
-    background-position-y: -3em;
-    background-size: 100%;
+    background-color: var(--divColor);
+    background-position-y: -3em;
+    background-size: 100%;
 }
- 
+ 
 /* Resources Block */
- 
+ 
 #side-bar .side-block.resources {
-    background-color: var(--divColor);
-    background-position-y: -11.6em;
-    background-size: 100%;
+    background-color: var(--divColor);
+    background-position-y: -11.6em;
+    background-size: 100%;
 }
- 
+ 
 /* Main Side Blocks */
- 
+ 
 #side-bar .side-block {
-    background-color: var(--divColor);
-    background-size: 100%;
+    background-color: var(--divColor);
+    background-size: 100%;
 }
- 
+ 
 /* Interwiki Block */
- 
+ 
 #interwiki .side-block {
-    background-color: var(--divColor);
-    background-position: bottom;
-    background-size: 100%;
+    background-color: var(--divColor);
+    background-position: bottom;
+    background-size: 100%;
 }
- 
+ 
 #interwiki .side-block .menu-item a {
-    color: var(--textColor);
+    color: var(--textColor);
 }
- 
+ 
 /* Toggle Sidebar Adaptation */
- 
+ 
 #top-bar .open-menu a {
-    border: 0.2em solid var(--backgroundColor);
-    background-color: var(--divColor);
-    color: var(--backgroundColor);
+    border: 0.2em solid var(--backgroundColor);
+    background-color: var(--divColor);
+    color: var(--backgroundColor);
 }
- 
+ 
 /* BOTTOM BAR */
- 
+ 
 #license-area {
-    color: var(--textColor);
-    background-color: var(--divColor);
-    border-top: solid 0.1rem var(--accentColor);
+    color: var(--textColor);
+    background-color: var(--divColor);
+    border-top: solid 0.1rem var(--accentColor);
 }
- 
+ 
 #footer-bar {
-    border: none;
-    padding: 0 0 1em;
-    margin: 0;
-    max-width: 100%;
-    background-color: var(--divColor);
+    border: none;
+    padding: 0 0 1em;
+    margin: 0;
+    max-width: 100%;
+    background-color: var(--divColor);
 }
- 
+ 
 #footer {
-    background: transparent;
-    color: var(--textColor);
-    align-items: center;
+    background: transparent;
+    color: var(--textColor);
+    align-items: center;
 }
- 
+ 
 #footer > a {
-    color: var(--textColor);
+    color: var(--textColor);
 }
- 
+ 
 /* TOPBAR */
- 
+ 
 #top-bar {
-    background: linear-gradient(to right, transparent 30%, var(--divColor) 55%, transparent 100%);
-    padding-right: 3.125rem;
+    background: linear-gradient(to right, transparent 30%, var(--divColor) 55%, transparent 100%);
+    padding-right: 3.125rem;
 }
- 
+ 
 #top-bar ul li a {
-    border: none;
-    color: var(--textColor);
+    border: none;
+    color: var(--textColor);
 }
- 
+ 
 #top-bar ul li:hover a, 
 #top-bar ul li:hover ul li a {
-    background: var(--divColor);
-    border: none;
+    background: var(--divColor);
+    border: none;
     color: var(--textColor);
 }
  

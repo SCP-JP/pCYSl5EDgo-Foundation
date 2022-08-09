@@ -2,11 +2,11 @@
 
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -14,23 +14,23 @@
 [[/module]]
 
 [[module css]]
-#page-content .collapsible-block {  
-  max-width: 100%;
-    /* text-align: center; */
-    text-align: center;
+#page-content .collapsible-block {  
+  max-width: 100%;
+    /* text-align: center; */
+    text-align: center;
 text-color: black;
-    border-color: #b01;
-    border: solid 1px #b01;
+    border-color: #b01;
+    border: solid 1px #b01;
 }
 .collapsible-block-content p {
-    text-align: left;
-    padding-left: 5px;
-    padding-right: 5px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 blockquote {
-    border: 1px double #999;
-    /* padding: 0 1em; */
-    background-color: #f4f4f4;
+    border: 1px double #999;
+    /* padding: 0 1em; */
+    background-color: #f4f4f4;
 }
 [[/module]]
 
@@ -82,13 +82,13 @@ On 18/7/1992, A.I. Agapov[[footnote]]Read Addendum C for further information.[[/
 = **Addendum A:**
 
 [[div style="border: 0px solid black;
-    border-style: double;
-    /* width: 50%; */
-    /* float: none; */
-    /* height: 50%; */
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;"]]
+    border-style: double;
+    /* width: 50%; */
+    /* float: none; */
+    /* height: 50%; */
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;"]]
 
 **Operation and definition of an egregore**
 
@@ -123,14 +123,14 @@ Addendum B contains an additional resource recovered in investigations helpful i
 = **Addendum B:**
 
 [[div style="border: 0px solid black;
-    border-style: double;
-    /* width: 50%; */
-    /* float: none; */
-    /* height: 50%; */
-    background-color: #E6DD93;
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;"]]
+    border-style: double;
+    /* width: 50%; */
+    /* float: none; */
+    /* height: 50%; */
+    background-color: #E6DD93;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;"]]
 
 **Recovered resource from GRU Division Psychotronics for Addendum A**
 
@@ -202,20 +202,20 @@ comrade** SMIRNOV L.V.
 = **Addendum C:**
 
 [[div style="border: 0px solid black;
-    border-style: double;
-    /* width: 50%; */
-    /* float: none; */
-    /* height: 50%; */
-    background-color: #E6DD93;
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;"]]
+    border-style: double;
+    /* width: 50%; */
+    /* float: none; */
+    /* height: 50%; */
+    background-color: #E6DD93;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;"]]
 
 **The history of SCP-6160 before the collapse of the Soviet Union:**
 
 Below are documents, letters, and logs recovered from GRU Division Psychotronics in the investigation for SCP-6160.
 
-[[div class="blockquote" style="border-radius: 10px; margin: 10px; background-color:  #EEE9BF;"]]
+[[div class="blockquote" style="border-radius: 10px; margin: 10px; background-color:  #EEE9BF;"]]
 
 [[=]]
 
@@ -231,10 +231,10 @@ Below are documents, letters, and logs recovered from GRU Division Psychotronics
 
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
 
-{{**OSI "MANIFEST COMMON"                       DIVISION "P" DEPARTMENT IV
+{{**OSI "MANIFEST COMMON"                       DIVISION "P" DEPARTMENT IV
 APPROVED 09.III.1970 PRINTOUT NR: 1
 SIGNED ................................. S
-DEPARTMENT HEAD IV-P-6-GRU                 D.NR: 09-III-1970
+DEPARTMENT HEAD IV-P-6-GRU                 D.NR: 09-III-1970
 RESPONSIBLE PERSONNEL:** Marlen V. Avilov, Anatoly I. Agapov, Mikhail V. Rosenberg
 **DETAIL:** Project No. 35 "MANIFEST COMMON" is the designation of a memetic agent developed to attack and subvert "DEMON", which is detailed on page 2 of this printout. The agent, in theory, will attack and subvert "DEMON" through the comparator of "DEMON".}}
 
@@ -251,7 +251,7 @@ RESPONSIBLE PERSONNEL:** Marlen V. Avilov, Anatoly I. Agapov, Mikhail V. Rosenbe
 > {{**LETTER**
 > **TO MEMBER OF THE COMMITTEE OF PROJECT NO. 35, DIVISION "P",
 > comrade** AGAPOV A.I..
-> **on the project "MANIFEST COMMON" at Department IV                 D.NR: 12-III-1970**}}
+> **on the project "MANIFEST COMMON" at Department IV                 D.NR: 12-III-1970**}}
 >
 > {{I have no time for such frivolous, extravagant decoration! I do not see how maximizing the spread of the agent for the bottom-up approach should not be the priority. Next, you're gonna tell me that you plan to set a goal for a moonshot for the memetic agent!}}
 >
@@ -262,7 +262,7 @@ RESPONSIBLE PERSONNEL:** Marlen V. Avilov, Anatoly I. Agapov, Mikhail V. Rosenbe
 > {{**LETTER
 > TO MEMBER OF THE COMMITTEE OF PROJECT NO. 35, DIVISION "P",
 > comrade** AVILOV M.V..
-> **on the project "MANIFEST COMMON" at Department IV                 D.NR: 14-III-1970**}}
+> **on the project "MANIFEST COMMON" at Department IV                 D.NR: 14-III-1970**}}
 >
 > {{I am offended that you would call my proposal "extravagant decoration". This is in no way professional behavior, Avilov. I have prepared a presentation for next week's meeting, where you can learn more about the details of my proposal since you seem to have forgotten the earlier one so readily.}}
 >
@@ -270,15 +270,15 @@ RESPONSIBLE PERSONNEL:** Marlen V. Avilov, Anatoly I. Agapov, Mikhail V. Rosenbe
 
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
 
-{{**OSI "MANIFEST COMMON"                       DIVISION "P" DEPARTMENT IV
+{{**OSI "MANIFEST COMMON"                       DIVISION "P" DEPARTMENT IV
 APPROVED 21.III.1970 PRINTOUT NR: 1
 SIGNED ................................. S
-DEPARTMENT HEAD IV-P-6-GRU                 D.NR: 21-III-1970
+DEPARTMENT HEAD IV-P-6-GRU                 D.NR: 21-III-1970
 RESPONSIBLE PERSONNEL:** Marlen V. Avilov, Anatoly I. Agapov, Mikhail V. Rosenberg}}
 
- **{{PROPOSALS:}}**
-{{@@       (i) Proposal I@@ - ##red|REJECTED## - The recent [https://scp-wiki.wikidot.com/scp-2577 improvements] in how we handle our financing have meant that we have sufficient resources to proceed with Proposal II.
-@@       (ii) Proposal II@@ - ##green|APPROVED## - See above. Proposal II will proceed with limited capacity.}}
+ **{{PROPOSALS:}}**
+{{@@       (i) Proposal I@@ - ##red|REJECTED## - The recent [https://scp-wiki.wikidot.com/scp-2577 improvements] in how we handle our financing have meant that we have sufficient resources to proceed with Proposal II.
+@@       (ii) Proposal II@@ - ##green|APPROVED## - See above. Proposal II will proceed with limited capacity.}}
 
 [[/div]]
 
@@ -289,7 +289,7 @@ RESPONSIBLE PERSONNEL:** Marlen V. Avilov, Anatoly I. Agapov, Mikhail V. Rosenbe
 [[/div]]
 
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
-{{**NOTICE OF PROJECT DEFUNDING                       DIVISION "P" DEPARTMENT IV
+{{**NOTICE OF PROJECT DEFUNDING                       DIVISION "P" DEPARTMENT IV
 D.NR:26.V.1975
 SENDER:** Colonel-General Leonid H. Anikin
 **RECIPIENTS:** Marlen V. Avilov, Anatoly I. Agapov, Mikhail V. Rosenberg
@@ -322,12 +322,12 @@ D.NR:12.I.1978**}}
 
 [[div class="blockquote" style="border-radius: 10px; margin: 10px;"]]
 
-{{**OSI "MANIFEST COMMON"                       DIVISION "P" DEPARTMENT IV
+{{**OSI "MANIFEST COMMON"                       DIVISION "P" DEPARTMENT IV
 APPROVED 5.VI.1980 PRINTOUT NR: 1
 SIGNED ................................. S
-DEPARTMENT HEAD IV-P-6-GRU                 D.NR: 5-VI-1980
+DEPARTMENT HEAD IV-P-6-GRU                 D.NR: 5-VI-1980
 RESPONSIBLE PERSONNEL:** Marlen V. Avilov, Anatoly I. Agapov, Mikhail V. Rosenberg
-**DETAILS:** A location for small-scale testing of "MANIFEST COMMON" has been selected -  Khailino, Koryak Autonomous Okrug, RSFSR. The location has been designated a closed city and access restricted. The installation of necessary infrastructure for mass amnesticization has begun.}}
+**DETAILS:** A location for small-scale testing of "MANIFEST COMMON" has been selected -  Khailino, Koryak Autonomous Okrug, RSFSR. The location has been designated a closed city and access restricted. The installation of necessary infrastructure for mass amnesticization has begun.}}
 
 {{The nearby locality, Tilichiki has been selected for use as a control, in keeping with scientific principles.}}
 
@@ -344,7 +344,7 @@ RESPONSIBLE PERSONNEL:** Marlen V. Avilov, Anatoly I. Agapov, Mikhail V. Rosenbe
 > {{**LETTER**
 > **TO MEMBERS OF THE COMMITTEE OF PROJECT NO. 35 AND HEAD OF DEPARTMENT IV, DIVISION "P",
 > comrades** AVILOV M.V., AGAPOV A.I., and ANIKIN L.H..
-> **on the project "MANIFEST COMMON" at Department IV                 D.NR: 27-XII-1980**}}
+> **on the project "MANIFEST COMMON" at Department IV                 D.NR: 27-XII-1980**}}
 >
 > {{I have to take two weeks' leave due to health problems. The doctors have found some sort of mass inside of my left lung, perhaps a malignant tumor, and I am coughing every day. I hope that this will resolve quickly, and I can go back to work shortly after. Marlen, Anatoly. Please get along.}}
 >
@@ -352,7 +352,7 @@ RESPONSIBLE PERSONNEL:** Marlen V. Avilov, Anatoly I. Agapov, Mikhail V. Rosenbe
 
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
 
-{{**M.V. ROSENBERG OBITUARY                       DIVISION "P" DEPARTMENT IV**}}
+{{**M.V. ROSENBERG OBITUARY                       DIVISION "P" DEPARTMENT IV**}}
 [[include component:image-block
 | name=http://scp-sandbox-3.wikidot.com/local--files/tshhmon/kolmorogov.jpg
 | caption= Recent photo of M.V. Rosenberg
@@ -378,7 +378,7 @@ SENDER:** GRU Division "P" Department IV Main Secretary Galina Y. Dudko
 [[/div]]
 
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
-{{**NOTICE OF DEPARTMENT RESTRUCTURING                       DIVISION "P" DEPARTMENT IV**}}
+{{**NOTICE OF DEPARTMENT RESTRUCTURING                       DIVISION "P" DEPARTMENT IV**}}
 {{**D.NR:16.III.1981
 SENDER:** GRU Division "P" Department IV Main Secretary Galina Y. Dudko
 **RECIPIENTS:** Marlen V. Avilov, Anatoly I. Agapov, [data omitted for brevity]
@@ -389,7 +389,7 @@ SENDER:** GRU Division "P" Department IV Main Secretary Galina Y. Dudko
 [[/div]]
 
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
-{{**NOTICE OF PROJECT CANCELLATION                       DIVISION "P" DEPARTMENT IV
+{{**NOTICE OF PROJECT CANCELLATION                       DIVISION "P" DEPARTMENT IV
 D.NR:7-I-1982
 SENDER:** Colonel-General Lev V. Smirnov
 **RECIPIENT:** Marlen V. Avilov and Anatoly I. Agapov
@@ -451,14 +451,14 @@ Below is a collection of the first letters that started the project to deploy "M
 = **Addendum D:**
 
 [[div style="border: 0px solid black;
-    border-style: double;
-    /* width: 50%; */
-    /* float: none; */
-    /* height: 50%; */
-    background-color: #E6DD93;
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;"]]
+    border-style: double;
+    /* width: 50%; */
+    /* float: none; */
+    /* height: 50%; */
+    background-color: #E6DD93;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;"]]
 
 [[div class="blockquote" style="border-radius: 1px; margin: 10px; background-color: #E6DD93;"]]
 
@@ -525,7 +525,7 @@ Due to the time-sensitive nature of this mission, intelligence and containment t
 
 **HAMMER 1-5:** “Leading. T-Junction. Flash out."
 
- //Sound of two flashbangs being armed and thrown in quick succession, bouncing off the walls before detonating. Screaming and crying children can be immediately heard after.//
+ //Sound of two flashbangs being armed and thrown in quick succession, bouncing off the walls before detonating. Screaming and crying children can be immediately heard after.//
 
 **PERSON 1:** "Please don't hurt us! There are children here!"
 
@@ -888,8 +888,8 @@ Below is a video log detailing the apprehension of the remnants at Dneprovskoye.
 **Hammer 2:** Hammer 2-1, - lead, Hammer 2-2 - medic, Hammer 2-3 - assaulter, Hammer 2-4 - assaulter, Hammer 2-5 - assaulter, Hammer 2-6, shieldman
 
 **Anvil Lead:** Anvil 0-1
-**Anvil 1:** Anvil 1-1 - lead, Anvil 1-2 - medic, Anvil  1-3 - breacher, Anvil 1-4 - assaulter, Anvil 1-5 - assaulter, Anvil 1-6 - shieldman
-**Anvil 2:** Anvil 2-1 - lead, Anvil 2-2 - medic, Anvil  2-3 - breacher, Anvil 2-4 - assaulter, Anvil 2-5 - assaulter, Anvil 2-6 - shieldman
+**Anvil 1:** Anvil 1-1 - lead, Anvil 1-2 - medic, Anvil  1-3 - breacher, Anvil 1-4 - assaulter, Anvil 1-5 - assaulter, Anvil 1-6 - shieldman
+**Anvil 2:** Anvil 2-1 - lead, Anvil 2-2 - medic, Anvil  2-3 - breacher, Anvil 2-4 - assaulter, Anvil 2-5 - assaulter, Anvil 2-6 - shieldman
 
 **Stake Lead:** Stake 0-1
 **Stake 1:** Stake 1-1 - lead, Stake 1-2 - sniper, Stake 1-3 - medic, Stake 1-4 - operative, Stake 1-5 - operative, Stake 1-6 - sniper, Stake 1-7 - operative, Stake 1-8, operative

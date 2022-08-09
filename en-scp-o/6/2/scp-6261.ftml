@@ -3,40 +3,40 @@
 [[include :scp-wiki:component:collapsible-sidebar]]
 
 [[module css]]
- div#container-wrap{
-     background-image: url('http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-2/bg3.png');
-     background-repeat: repeat-x;
+ div#container-wrap{
+     background-image: url('http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-2/bg3.png');
+     background-repeat: repeat-x;
 }
 [[/module]]
 
 [[module CSS]]
 div#header h1 a span {
-    font-size: 0px;
+    font-size: 0px;
 }
 div#header h1 a:before {
-    content: "Site-106";
-    color: #eee;
-    font-family: jostregular;    
+    content: "Site-106";
+    color: #eee;
+    font-family: jostregular;    
 }
 div#header h2 span {
-    font-size:0px;
-    padding: 4px;
+    font-size:0px;
+    padding: 4px;
 }
 div#header h2:after {
-    content: "Procurement and Liquidation";
-    font-weight: bold;
-    font-size: 15px;
-    font-family: jostregular;
-    color: #eee;
-    border-color: rgba(0,0,0,0.267);
+    content: "Procurement and Liquidation";
+    font-weight: bold;
+    font-size: 15px;
+    font-family: jostregular;
+    color: #eee;
+    border-color: rgba(0,0,0,0.267);
 }
 #page-title {
-    display: show;
+    display: show;
 [[/module]]
 
 [[module css]]
 div#header {
-    background-image: url('http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-2/106.png');
+    background-image: url('http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-2/106.png');
 [[/module]]
 
 [[>]]
@@ -55,7 +55,7 @@ SCP-6261-2 is in high-value document storage at Site-106. Efforts are being made
 
 **Description:** SCP-6261 refers to two items acquired by the Foundation in 1984, during several strategic purchases of assets from the collapsing corporate Group of Interest ##purple|Arcadia##. All items related to the now-canceled franchise known as //Magequest//.
 
-SCP-6261-1 refers to a piece of software on an Atari 2600 development kit, entitled //Magequest: Prison of Circe//. SCP-6261-1 is an 'adventure' video game, in which a digital representation of the individual playing the game (or 'player character') is guided around the island of Aeaea, with the goal of finding and terminating an entity ('non-player character') representing the mythological Circe. This 'non-player character' entity is believed to possess some form of awareness, as it is actively hostile to the 'player character', attempting to terminate it using various obstacles ('traps') or hostile entities ('monsters') throughout Aeaea.  
+SCP-6261-1 refers to a piece of software on an Atari 2600 development kit, entitled //Magequest: Prison of Circe//. SCP-6261-1 is an 'adventure' video game, in which a digital representation of the individual playing the game (or 'player character') is guided around the island of Aeaea, with the goal of finding and terminating an entity ('non-player character') representing the mythological Circe. This 'non-player character' entity is believed to possess some form of awareness, as it is actively hostile to the 'player character', attempting to terminate it using various obstacles ('traps') or hostile entities ('monsters') throughout Aeaea.  
 
 An instruction manual indicates that, in order to complete SCP-6261-1, the player needs to gather ten 'mythological treasures' from across Aeaea, before proceeding to a lake in the center of the island and encountering Circe herself. However, being struck three times by 'monsters' — including centaurs, harpies, a kraken, and a wild boar — will result in a 'game over' state in which the player character is transformed into a pig. The 'game over' screen for SCP-6261-1 is a mild cognitohazard, and exposure to it will result in individuals displaying behavior such as squealing, attempting quadrupedal locomotion, and attempting to ingest non-edible material. These behaviors cease after 30-90 minutes. To date, no member of Foundation personnel has completed SCP-6261-1.
 
@@ -88,7 +88,7 @@ Upon completion of a seven-word sentence, the paper which Fume taking notes on b
 **Operator:** Agent René Walker
 
 [[include component:image-block name=
-https://cdn.discordapp.com/attachments/934548875996430386/943341401817636954/tararus.png|caption=The screen with the entrance to 'Tartarus', as encountered by  Agent Walker.|width="160px"]]
+https://cdn.discordapp.com/attachments/934548875996430386/943341401817636954/tararus.png|caption=The screen with the entrance to 'Tartarus', as encountered by  Agent Walker.|width="160px"]]
 
 **Description of Playthrough:** Game proceeds as normal until Walker enters the 'Tartarus' area to acquire the fourth treasure. The numbers '7' and '4' are visible at the top of the screen, indicating Page 7, Panel 4 of SCP-6261-2. The word 'communicate' is hidden in this panel.
 

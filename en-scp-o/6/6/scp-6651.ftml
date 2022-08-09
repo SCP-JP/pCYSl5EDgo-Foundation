@@ -1,37 +1,37 @@
 [[include :scp-wiki:theme:basalt darkmode=a|hidetitle=a]]
 [[module css]]
 body {
-    background: url(https://www.flickr.com/photos/12836528@N00/35717935330);
-    background-color: var(--accentColor);
-    background-attachment: fixed;
-    background-size: cover;
-    background-blend-mode: luminosity;
+    background: url(https://www.flickr.com/photos/12836528@N00/35717935330);
+    background-color: var(--accentColor);
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: luminosity;
 }
 
 body:before {
-  content: ' ';
-  position: fixed;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(165deg, transparent, #0c0c0c 55%, #0c0c0c 55%, #0c0c0c 100%);
-  z-index: -1;
+  content: ' ';
+  position: fixed;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(165deg, transparent, #0c0c0c 55%, #0c0c0c 55%, #0c0c0c 100%);
+  z-index: -1;
 }
 
 .table2 {
-    --accentColor: #42425a;
+    --accentColor: #42425a;
 }
 
 .bigtext {
-    color: var(--accentColor);
+    color: var(--accentColor);
 }
 
 @media (max-width: 1290px) {
-    body {
-        background-size: 100% 66%;
-    }
+    body {
+        background-size: 100% 66%;
+    }
 }
 
 #extra-div-1 {
@@ -40,13 +40,13 @@ box-shadow: 0px 0px 8px 4px rgb(0 0 0);
 }
 
 :root {
-    --title: "SITE-120";
-    --subtitle: "FIGHTING FIRE WITH FIRE";
-    --side-subtitle: "FIGHTING FIRE WITH FIRE";
-    --accentColor: #42425a;
-    --four-color: #42425a;
-    --logo: url(http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/120);
-    --side-logo: url(http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/120);
+    --title: "SITE-120";
+    --subtitle: "FIGHTING FIRE WITH FIRE";
+    --side-subtitle: "FIGHTING FIRE WITH FIRE";
+    --accentColor: #42425a;
+    --four-color: #42425a;
+    --logo: url(http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/120);
+    --side-logo: url(http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/120);
 }
 
 .logo {
@@ -54,9 +54,9 @@ filter: invert(1);
 }
 
 #side-bar::before {
-    border-color: #1a1a1a;
-    filter: invert(1);
-    color: #42425a;
+    border-color: #1a1a1a;
+    filter: invert(1);
+    color: #42425a;
 }
 
 .list-pages-item > hr,
@@ -67,15 +67,15 @@ filter: brightness(170%);
 }
 
 .custom2 .wiki-content-table {
-    width: 100%;
+    width: 100%;
 }
 
 #page-content tr th {
-    text-align: center;
+    text-align: center;
 }
 
 .custom2 tr td {
-    padding: 10px !important;
+    padding: 10px !important;
 }
 
 .bigtext {
@@ -83,32 +83,32 @@ color: rgb(196,2,51);
 }
 
 .fnnum::after {
-    color: #a82d4c !important;
+    color: #a82d4c !important;
 }
- 
+ 
 .fnnum:hover::after {
-    color: white !important;
+    color: white !important;
 }
- 
+ 
 .fncon {
-    background: rgb(25, 25, 25) !important;
-    color: #EDEDED;
-    border: 0.15rem solid rgb(20, 20, 20);
-    border-radius: 2px;
-    font-size: 90%;
+    background: rgb(25, 25, 25) !important;
+    color: #EDEDED;
+    border: 0.15rem solid rgb(20, 20, 20);
+    border-radius: 2px;
+    font-size: 90%;
 }
 
 ::selection {
-    background-color: rgba(227, 106, 0, 0.7);
-    color: white;
+    background-color: rgba(227, 106, 0, 0.7);
+    color: white;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #42425a;
+    background: #42425a;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background:  #42425a;
+    background:  #42425a;
 }
 
 .jotting hr, .darkdocument hr, .smallmodal hr, div.blockquote hr, .blockquote hr, blockquote hr {
@@ -121,109 +121,109 @@ border-top: double 4px gray;
 }
 
 ::selection {
-    background-color: rgb(90,54,83);
-    color: white;
+    background-color: rgb(90,54,83);
+    color: white;
 }
 
 .old {
 text-decoration: none;
-    border-bottom: none;
-    color: rgb(80,80,94);
+    border-bottom: none;
+    color: rgb(80,80,94);
 }
 
 .fae {
-    text-decoration:none;
-    border-bottom: none;
-    color: #a82d4c;
-    font-weight: bold;
-    font-family: 'Fira Code', monospace;
+    text-decoration:none;
+    border-bottom: none;
+    color: #a82d4c;
+    font-weight: bold;
+    font-family: 'Fira Code', monospace;
 }
 
 #page-content .table7 tr th {
-    background-color: rgb(66,66,90);
-    border: 1px solid rgb(66,66,90);
+    background-color: rgb(66,66,90);
+    border: 1px solid rgb(66,66,90);
 }
- 
+ 
 #page-content .table7 .st {
-    color: rgb(66,66,90);
+    color: rgb(66,66,90);
 }
 
 #page-content .table8 tr th {
-    background-color: #a82d4c;
-    border: 1px solid #a82d4c;
+    background-color: #a82d4c;
+    border: 1px solid #a82d4c;
 }
- 
+ 
 #page-content .table8 .st {
-    color: #a82d4c;
+    color: #a82d4c;
 }
 
 #page-content .table9 tr th {
-    background-color: #3bb6c0;
-    border: 1px solid #3bb6c0;
+    background-color: #3bb6c0;
+    border: 1px solid #3bb6c0;
 }
- 
+ 
 #page-content .table9 .st {
-    color: #3bb6c0;
+    color: #3bb6c0;
 }
 
 .aiad_memo {
-    background: url(http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/AIAD-DARKLOGO) #141414;
-    background-size: contain;
-    background-position: top center;
-    background-repeat: no-repeat;
-    font-family: 'Work Sans', sans-serif;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    width: 90%;
-    min-height: 4rem;
-    max-height: 100rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 10px 20px 20px 20px;
-    word-break: break-word;
-    border: 5px solid #3bb5bf;
-    color: #3bb5bf;
+    background: url(http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/AIAD-DARKLOGO) #141414;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    min-height: 4rem;
+    max-height: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    word-break: break-word;
+    border: 5px solid #3bb5bf;
+    color: #3bb5bf;
 }
- 
+ 
 .aiad_memo>p:nth-child(1)::before {
-    content: "NOTICE FROM THE ARTIFICIAL INTELIGENCE APPLICATIONS DIVISION\00000a";
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 900;
-    font-size: 130%;
-    text-align: center;
-    margin-bottom: 1rem;
-    padding-bottom: 0.3rem;
-    border-bottom: dotted 0.13rem darkslategrey;
-    max-width: 49rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
-    align-items: center;
-    color: #3bb5bf;
+    content: "NOTICE FROM THE ARTIFICIAL INTELIGENCE APPLICATIONS DIVISION\00000a";
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    font-size: 130%;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
+    border-bottom: dotted 0.13rem darkslategrey;
+    max-width: 49rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    color: #3bb5bf;
 }
 
 .parent {
-    text-transform: uppercase;
-    color: grey;
-    font-weight: 600;
-    font-family: 'Work Sans', sans-serif;
-    margin-top: -1.5rem;
-    font-size: 80%;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: -1.5rem;
+    font-size: 80%;
 }
 
 #u-blink-bar p:last-child::after {
-    content: "|";
-    animation: blink 1.9s infinite;
-    position: relative;
-    left: 1px;
+    content: "|";
+    animation: blink 1.9s infinite;
+    position: relative;
+    left: 1px;
 }
- 
+ 
 @keyframes blink{
-    to {
-        opacity: .0;
-    }
+    to {
+        opacity: .0;
+    }
 }
 [[/module]]
 
@@ -303,8 +303,8 @@ If you wish to continue input "**{{> access document: scp-6651}}**". If you do n
 ----
 [[div class="custom2 tableb"]]
 ||~ ASSIGNED SITE(S) ||~ ASSIGNED DEPARTMENT(S) ||
-||= [https://scp-wiki.wikidot.com/from-120-s-archives-hub Site-120],  [[span class="fae"]]SCP-6651-1/Area2[[/span]] ||= Essophysics, Extranoospherics, Noospherics,  **[https://scp-wiki.wikidot.com/aiad-homescreen AIAD]** ||
-||~ RESEARCH HEAD(S)  ||~  ASSIGNED TASK FORCE(S) ||
+||= [https://scp-wiki.wikidot.com/from-120-s-archives-hub Site-120],  [[span class="fae"]]SCP-6651-1/Area2[[/span]] ||= Essophysics, Extranoospherics, Noospherics,  **[https://scp-wiki.wikidot.com/aiad-homescreen AIAD]** ||
+||~ RESEARCH HEAD(S)  ||~  ASSIGNED TASK FORCE(S) ||
 ||= [https://scp-wiki.wikidot.com/scp-6079 Ra.aic] ||= [[span class="fae"]]err @[DATA UNCOMPREHENSIBLE][[/span]][[span class="fnnum"]].[[/span]][[span class="fncon"]]No physical records of a task force assigned to SCP-6651 have been found, however evidence within this document points otherwise.[[/span]] ||
 [[/div]]
 ----
@@ -314,7 +314,7 @@ If you wish to continue input "**{{> access document: scp-6651}}**". If you do n
 
 Essophysical entities tied with known concepts may not enter the 50m radius area of SCP-6651.[[span class="fnnum"]].[[/span]][[span class="fncon"]][[span class="bigtext"]]//essophysics// (n).:[[/span]] The study of embodiments, the physical manifestation of ideas within the noosphere.[[/span]]
 
-[[span class="old"]][[span class="fae"]]err @[DATA UNCOMPREHENSIBLE][[/span]] is to be stationed around SCP-6651-1. If SCP-6651 attempts to breach SCP-6651-1, it is to be neutralized.[[/span]][[span class="fnnum"]].[[/span]][[span class="fncon"]]Various pieces of archived data have been kept in the document due to their importance in understanding the following anomaly, these have been colored gray to differentiate them from up-to-date information. @@     @@[[span class="bigtext"]]##fff36d|--RAISA##[[/span]][[/span]]
+[[span class="old"]][[span class="fae"]]err @[DATA UNCOMPREHENSIBLE][[/span]] is to be stationed around SCP-6651-1. If SCP-6651 attempts to breach SCP-6651-1, it is to be neutralized.[[/span]][[span class="fnnum"]].[[/span]][[span class="fncon"]]Various pieces of archived data have been kept in the document due to their importance in understanding the following anomaly, these have been colored gray to differentiate them from up-to-date information. @@     @@[[span class="bigtext"]]##fff36d|--RAISA##[[/span]][[/span]]
 [[/div]]
 -----
 [[div class="table7"]]
@@ -1013,10 +1013,10 @@ The following testimony has been given by Ra.aic about [[span class="fae"]]Aleks
 @@ @@
 [[div class="notation" style="padding: 0.5rem 0.5rem 0.5rem 0.5rem; font-size: 90%; font-family: 'Work Sans', sans-serif;"]]
 [[<]]
-+++++ @@      @@ FOOTNOTES & REFERENCES
++++++ @@      @@ FOOTNOTES & REFERENCES
 # No physical records of a task force assigned to SCP-6651 have been found, however evidence within this document points otherwise.
 # [[span class="bigtext"]]//essophysics// (n).:[[/span]] The study of embodiments, the physical manifestation of ideas within the noosphere.
-# Various pieces of archived data have been kept in the document due to their importance in understanding the following anomaly, these have been colored gray to differentiate them from up-to-date information. @@     @@[[span class="bigtext"]]##fff36d|--RAISA##[[/span]]
+# Various pieces of archived data have been kept in the document due to their importance in understanding the following anomaly, these have been colored gray to differentiate them from up-to-date information. @@     @@[[span class="bigtext"]]##fff36d|--RAISA##[[/span]]
 # [[span class="bigtext"]]##rgb(66,66,90)|DRAUGR-CLASS##[[/span]] anomalies are considered neutralized or decommissioned but ongoing anomalous phenomena originate from them.
 # [[span class="bigtext"]]//noosphere// (n).:[[/span]] The area in which the human mind is capable of operating; human thought space.
 # [[span class="bigtext"]]##rgb(90,54,83) |ERLOSCHEN-CLASS##[[/span]] Class anomalies may cause great shifts in reality, however due to altering reality these effects are considered normal.

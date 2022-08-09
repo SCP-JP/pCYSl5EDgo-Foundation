@@ -3,29 +3,29 @@
 [[module css]]
 /* HEADER */
 :root{
-     --header-title: "SCP Foundation";
-     --header-subtitle: "Secure • Contain • Protect";
+     --header-title: "SCP Foundation";
+     --header-subtitle: "Secure • Contain • Protect";
 }
- #header h1 a:before{
-     font-size: 2rem;
+ #header h1 a:before{
+     font-size: 2rem;
 }
- div#extra-div-1{
-     background-image: url(https://scp-wiki.wdfiles.com/local--files/theme%3Apaperstack/lgtrans.png);
+ div#extra-div-1{
+     background-image: url(https://scp-wiki.wdfiles.com/local--files/theme%3Apaperstack/lgtrans.png);
 }
- .top-left-box > .item{
-     display: inline;
+ .top-left-box > .item{
+     display: inline;
 }
 a.collapsible-block-link:not(.licensebox a.collapsible-block-link) {
-    font-weight: 600;
-    color: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 7px;
-    padding-right: 9px;
-    background: rgb(20, 20, 20);
-    border-radius: 6px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-weight: 600;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 9px;
+    background: rgb(20, 20, 20);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 [[/module]]
 
@@ -41,10 +41,10 @@ a.collapsible-block-link:not(.licensebox a.collapsible-block-link) {
 ]]
 
 [[include component:image-block
-    name=WovenWraith.jpg|
-    caption=SCP-6073 on patrol.|
-    align=center|    
-    width=700px|
+    name=WovenWraith.jpg|
+    caption=SCP-6073 on patrol.|
+    align=center|    
+    width=700px|
 ]]
 
 **Special Containment Procedures:** SCP-6073 is presently uncontained.
@@ -283,7 +283,7 @@ SCP-6073 was designated an SCP object after this incident. Targeted searches of 
 While there were casualties, the raid was deemed a success. Nearly half of the entities either expired in battle or were contained by the Foundation, including SCP-6073. The remainder escaped. Documents recovered from the factory mentioned a group known as the "Miracle Liberation Front," their purpose in Detroit to not only smuggle anomalies out of the city but to train and absorb them into their ranks. A cover story of a large-scale gang war was disseminated to explain the damage to the factory.
 
 **Addendum-02, Interview:** SCP-6073 was sent to Site-19 and an interview was authorized in hopes of obtaining knowledge of the Miracle Liberation Front's origins and assets. SCP-6073 refused unless Agent Rodney conducted the interview. As advanced interrogation techniques proved futile against SCP-6073, this request was reluctantly approved.
- 
+ 
 -----
 [[=]]
 [[collapsible show="+ ACCESS SCP:/6073/interview/Agent Rodney " hide="- Close File"]]
@@ -346,7 +346,7 @@ While there were casualties, the raid was deemed a success. Nearly half of the e
 > 
 > **SCP-6073:** Well, now, that is even more complicated. But for your sake I'll try my best to give you the short version. As you know, 'anomalies', as you call them, have been around for a //very// long time. Before humanity came to be. Those days were more... esoteric. There was no distinction made between the anomalous and the normal, everything just //was//. It was no paradise, but it might as well have been compared to the state of affairs these days.
 > 
-> **SCP-6073:** The human race, for reasons we have yet to comprehend, decide to move away from the concept of oneness with nature and supernature, instead believing that their existence was dependent on their individual purposes, their jobs, their loyalty to authority. We didn't recognize this as a problem at first; 'it must be phase', we thought. But then the paradigm became more commonplace. People lost their sense of spirituality and superstition...  but what broke the straw's back was this enforcement of 'normalcy'. As if we were the exception. As if we shouldn't exist. As if we don't //deserve// to exist. I, //we// can't just hang around and watch that happen ag--
+> **SCP-6073:** The human race, for reasons we have yet to comprehend, decide to move away from the concept of oneness with nature and supernature, instead believing that their existence was dependent on their individual purposes, their jobs, their loyalty to authority. We didn't recognize this as a problem at first; 'it must be phase', we thought. But then the paradigm became more commonplace. People lost their sense of spirituality and superstition...  but what broke the straw's back was this enforcement of 'normalcy'. As if we were the exception. As if we shouldn't exist. As if we don't //deserve// to exist. I, //we// can't just hang around and watch that happen ag--
 > 
 > //[SCP-6073 cuts itself off, and does not resume speaking.]//
 > 
@@ -593,10 +593,10 @@ Investigation of the farm revealed abnormally-high Hume levels. No records of it
 The relationship between the farm and SCP-6073 remains under investigation. SCP-6073 itself, and the Miracle Liberation Front, remain at large.
 
 [[include component:image-block
-    name=FarmerBrown2.jpg|
-    caption=SCP-6073 sighting in northern Manitoba, Canada.|
-    align=center|    
-    width=700px|
+    name=FarmerBrown2.jpg|
+    caption=SCP-6073 sighting in northern Manitoba, Canada.|
+    align=center|    
+    width=700px|
 ]]
 
 [[div class="footer-wikiwalk-nav"]]
@@ -614,12 +614,12 @@ The relationship between the farm and SCP-6073 remains under investigation. SCP-
 WovenWraith.jpg is a composite. Its components are:
 
 > **Title:** British Army Sniper
-> **Author:**  Defence Images
+> **Author:**  Defence Images
 > **License:** CC BY-SA 2.0
 > **Source:** [https://www.flickr.com/photos/48399297@N04/8455477797 flickr]
 
 > **Title:** Friday Bridge Scarecrow Festival
-> **Author:**  Trojan_Llama
+> **Author:**  Trojan_Llama
 > **License:** CC BY 2.0
 > **Source:** [https://www.flickr.com/photos/94382185@N00/14296818520 flickr]
 

@@ -16,8 +16,8 @@
 [[module CSS]]
 /* anendlessusername's invaluable correction of the ACS octagon! */
 #page-content .quadrants > div {
-    top: 2.25%;
-    left: 18.5%;
+    top: 2.25%;
+    left: 18.5%;
 }
 div.textadventure {font-family:Courier; font-size:130%; border:none; background:#000000; color:#FFFFFF; padding: 16px; margin-bottom: 16px;}
 
@@ -25,7 +25,7 @@ div.textadventure {font-family:Courier; font-size:130%; border:none; background:
 
 [[module CSS]]
 :root {
-    --timeDelay: 0.5s;
+    --timeDelay: 0.5s;
 }
 [[/module]]
 
@@ -66,17 +66,17 @@ You are looking at a collaborative writing website. There is a story here.
 ]]
 [[module css]]
 .anom-bar-container.danger .danger-diamond > .quadrants > .right-quad {
-    background-color:rgba(255,109,0,0.25);
-    background-color: rgb(255,109,0,0.25);
+    background-color:rgba(255,109,0,0.25);
+    background-color: rgb(255,109,0,0.25);
 [[/module]]
 
 [[/div]]
 ----
 
 [[include component:image-block
-    name=Tyrant.jpg|
-    caption=Box for the SCP-5974 instance employed in Experiment 5974-14. |
-    width=300px
+    name=Tyrant.jpg|
+    caption=Box for the SCP-5974 instance employed in Experiment 5974-14. |
+    width=300px
 ]]
 
 **Special Containment Procedures:** Complete containment of SCP-5974 is likely impossible.[[span class="fnnum"]].[[/span]][[span class="fncon"]]After repeated objections by Dr. Y. Leiner (Tactical Theology), the Conscientia containment class has been created to replace the existing Da'aS Elyon class (object is uncontainable and must be made to appear non-anomalous to the general public) for SCP objects not tied to Judaism.[[/span]] News reports and social media content relating to the effects of each instance will be collated and suppressed by webcrawler I/O-NUNTIUM, to be replaced with the fiction that each new instance was created by its user as a form of self-therapy. MTF Kappa-43 ("The Mediators") will seize instances as they are discovered.

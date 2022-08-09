@@ -240,34 +240,34 @@ Amnestics are a miracle of science, and when you can recreate miracles, there's 
 
 [[module CSS]]
 .fakerate {
-    text-align: center;
-    position: relative;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    margin: auto;
+    text-align: center;
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: auto;
 }
 
 .fakerate .hovertexts {
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.25s linear;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.25s linear;
 }
 
 .fakerate .page-rate-widget-box {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 1;
-    pointer-events: none;
-    transition: opacity 0.15s linear;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    pointer-events: none;
+    transition: opacity 0.15s linear;
 }
 
 .fakerate:hover .page-rate-widget-box {
-    opacity: 0;
+    opacity: 0;
 }
 .fakerate:hover .hovertexts {
-    pointer-events: all;
-    opacity: 1;
+    pointer-events: all;
+    opacity: 1;
 [[/module]]

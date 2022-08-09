@@ -10,26 +10,26 @@
 --barColour: #888;
 }
 .grayFilter {
-  color: black;
-  filter: grayscale(100%) saturate(0%);
-  -webkit-filter: grayscale(100%) saturate(0%);
+  color: black;
+  filter: grayscale(100%) saturate(0%);
+  -webkit-filter: grayscale(100%) saturate(0%);
 }
 .poem {
-  text-align: center;
-  font-style: italic;
-  padding: 1em 2em;
+  text-align: center;
+  font-style: italic;
+  padding: 1em 2em;
 }
 .poemSig {
-  text-align: right;
+  text-align: right;
 }
 .artA {
-  font-family: Gloria Hallelujah; font-size: 110%; word-break: normal !important
+  font-family: Gloria Hallelujah; font-size: 110%; word-break: normal !important
 }
 .artB {
-  font-family: Dekko; font-size: 130%; word-break: normal !important
+  font-family: Dekko; font-size: 130%; word-break: normal !important
 }
 .artC {
-  font-family: Rock Salt; font-size: 120%; word-break: normal !important
+  font-family: Rock Salt; font-size: 120%; word-break: normal !important
 }
 [[/module]]
 
@@ -309,5 +309,5 @@ So far, tests and autopsies conducted on SCP-6085-A and SCP-6085-B instances tha
 [[/div]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

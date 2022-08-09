@@ -16,111 +16,111 @@
 @import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/black-highlighter.min.css");
 
 .help {
-    display: flex;
-    align-content: stretch;
-    padding-top: 1em;
-    border-top: 1px dashed #999;
+    display: flex;
+    align-content: stretch;
+    padding-top: 1em;
+    border-top: 1px dashed #999;
 }
 
 .help blockquote {
-    margin: 0;
+    margin: 0;
 }
 
 .help blockquote > p {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    margin-right: 0;
-    min-height: 2rem;
-    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-right: 0;
+    min-height: 2rem;
+    margin: 0;
 }
 
 .help blockquote > p > * {
-    margin: 0 0.1rem;
-    height: 100%;
-    font-size: 70%;
+    margin: 0 0.1rem;
+    height: 100%;
+    font-size: 70%;
 }
 
 .help blockquote:nth-of-type(1) {
-    width: 50%;
-    background: transparent;
-    border: unset;
-    box-shadow: unset;
-    text-align: right;
-    margin-right: 0;
-    padding: 0;
+    width: 50%;
+    background: transparent;
+    border: unset;
+    box-shadow: unset;
+    text-align: right;
+    margin-right: 0;
+    padding: 0;
 }
 
 .help blockquote:nth-of-type(1) > p {
-    justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .help blockquote:nth-of-type(2) {
-    margin-left: 1em;
-    width: 50%;
+    margin-left: 1em;
+    width: 50%;
 }
 
 #page-content > .collapsible-block {
-    display: block;
-    text-align: center;
-    padding: 0.75em;
-    background-color: lightgrey;
-    border-top: 0.125rem dashed slategrey;
-    border-bottom: 0.125rem dashed slategrey;
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    background-color: lightgrey;
+    border-top: 0.125rem dashed slategrey;
+    border-bottom: 0.125rem dashed slategrey;
 }
 
 #page-content > div.collapsible-block > div.collapsible-block-unfolded > div.collapsible-block-content {
-    text-align:left;
+    text-align:left;
 }
 
 .type1 {
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-size: 140%;
-    color: #000;
-    background-attachment: scroll;
-    background: linear-gradient(rgba(220, 240, 240, 0.3), rgba(240, 240, 220, 0.5)), url(http://www.scp-wiki.net/local--files/scp-5862/paperbackground.jpg);
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-repeat: repeat;
-    background-size: 100%;
-    padding: 25px;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-size: 140%;
+    color: #000;
+    background-attachment: scroll;
+    background: linear-gradient(rgba(220, 240, 240, 0.3), rgba(240, 240, 220, 0.5)), url(http://www.scp-wiki.net/local--files/scp-5862/paperbackground.jpg);
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-repeat: repeat;
+    background-size: 100%;
+    padding: 25px;
 }
 .type1 p,
 .type1 ul {
-    line-height: 25px;
-    margin: none;
+    line-height: 25px;
+    margin: none;
 }
 
 [[/module]]
 
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p,
 .page ul {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 
@@ -130,11 +130,11 @@
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
 
 .greenlink a{
-    color: #0fe800;
+    color: #0fe800;
 }
 
 #page-title {
-  text-align: center;
+  text-align: center;
 }
 
 [[/module]]
@@ -230,8 +230,8 @@
 ----
 
 [[include component:image-block
-    name=https://upload.wikimedia.org/wikipedia/commons/4/49/Codex_Tchacos_p33.jpg|
-    caption=Description of SCP-6019 recovered from an Archeological Site near Paphos, Cyprus.]]
+    name=https://upload.wikimedia.org/wikipedia/commons/4/49/Codex_Tchacos_p33.jpg|
+    caption=Description of SCP-6019 recovered from an Archeological Site near Paphos, Cyprus.]]
 
 **Special Containment Procedures:** Descriptions of SCP-6019 are to be stored in Site-102's Reliquary storage area, on sublevel C13. Insular anomalous religions for which SCP-6019 forms a basis of their belief system are protected under Joint International Occult Court Ruling 456(c). As such, containment of these communities is to be limited to veil maintenance and protection of civilians. The SCP Foundation reserves the right to suppress religious movements involving SCP-6019 in the case that these movements begin to expand out of the anomalous community.
 
@@ -281,19 +281,19 @@ In February 1961, the Overseer Council approved the formation of RAISA and trans
 [[div class="page"]]
 Two
 @@ @@
-Thank you for voting on the SCP-6019 funding protocol, it means a lot. The extra increase in funding was of course more general, but it was also spurred by the discovery of an early gnostic gospel - the Gospel of Cain, in Cyprus. The exact details are unnecessary here, but the authors apparently had knowledge of 5 descriptions of 6019, all highly varied, and all forming the basis of a major religious organisation - as well as being independently discovered (as I thought, most descriptions of 6019 are translations.) Alongside another text, "//PRINCIPIA PNEUMA//" compiled independently by John Dalton, this means that we know of Six descriptions of SCP-6019 which were independently discovered. I'll note them down here for your convenience.  
+Thank you for voting on the SCP-6019 funding protocol, it means a lot. The extra increase in funding was of course more general, but it was also spurred by the discovery of an early gnostic gospel - the Gospel of Cain, in Cyprus. The exact details are unnecessary here, but the authors apparently had knowledge of 5 descriptions of 6019, all highly varied, and all forming the basis of a major religious organisation - as well as being independently discovered (as I thought, most descriptions of 6019 are translations.) Alongside another text, "//PRINCIPIA PNEUMA//" compiled independently by John Dalton, this means that we know of Six descriptions of SCP-6019 which were independently discovered. I'll note them down here for your convenience.  
 @@ @@
 - 1. "The First Glorious Vision/Seeing of Father Fuxi" - Oldest full description of 6019, attributed to the Xia Emperor Yu. By fluke, one of our precursor organisations had this in their possession, which transferred to us in 1908.
 @@ @@
 - 2 "//PRINCIPIA PNEUMA//" - Description compiled by John Dalton, through scientific rigour, might I add. Technically owned by us (as well as the rest of the Miskatonic Occult Library).
 @@ @@
- - 3  The "Giah-Rex", the namesake of the entire ritual. Attributed to Grand Karcist Ion. Apparently, it's actually several hundred descriptions, and probably wasn't even discovered by Ion. Ion was the first to experiment on the ritual, mostly by attempting to move the individual around SCP-6019-1. In the possession of a Neo-Sarkic community "Nebro's Gate" in Vladivostok.  
+ - 3  The "Giah-Rex", the namesake of the entire ritual. Attributed to Grand Karcist Ion. Apparently, it's actually several hundred descriptions, and probably wasn't even discovered by Ion. Ion was the first to experiment on the ritual, mostly by attempting to move the individual around SCP-6019-1. In the possession of a Neo-Sarkic community "Nebro's Gate" in Vladivostok.  
 @@ @@
 - 4 "Menokropololitis" - noted to be a "bizarre Mekhanite text". In the possession of Robert Bumaro, I believe.
 @@ @@
 - 5. The "Final Kingdom of Saklas". A huge blank here. The only thing we can find about it is that it exists.
 @@ @@
- - 6. "The Mind", by Democritus. Describes SCP-6019 within chapter 4. Currently in possession of the GOC.
+ - 6. "The Mind", by Democritus. Describes SCP-6019 within chapter 4. Currently in possession of the GOC.
 @@ @@
 Next time we meet, I'll propose a project to locate and recover these texts. I'll need your vote and your skill in convincing of the bat, so, I'm relying on you here.
 Sincerely;
@@ -317,7 +317,7 @@ Eight
 || || || O5-3 ||
 || || O5-4 || ||
 ||O5-5 || || ||
-|| O5-6  || || ||
+|| O5-6  || || ||
 || O5-7 || || ||
 || O5-8 || || ||
 || || O5-9 || ||
@@ -354,8 +354,8 @@ I don't think a show of pure muscle is the best option here. I'll try and organi
 {{Agree to diplomatic action with Robert Bumaro to collect SCP-6019 description "Menokropololitis" and institute an invasion of the "Nebro's gate" Neo Sarkic community in Siberia, to collect the original "Giah-Rex". (05-8)}}
 
 ||~ APPROVE ||~ DENY ||~ ABSTAIN ||
-|| || O5-1 ||  ||
-|| O5-2 || ||  ||
+|| || O5-1 ||  ||
+|| O5-2 || ||  ||
 || O5-3|| || ||
 || || O5-4 || ||
 || O5-5 || || ||
@@ -466,8 +466,8 @@ Eight.
 
 [[div style="color: black; font-family: Courier; font-weight: bold; background:#F5F5F5 url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat; float: center; border: solid 1px #000000; padding: 15px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2); width: 84%; margin: 4% 4% 4% 4%"]]
 
-[[include component:image-block    name=http://scp-sandbox-3.wikidot.com/local--files/doggols-author-preparations/site-102-1962.jpg|
-    caption= The abandoned entrance structure to Site-102 (image was included alongside the caption "new home") before its demolition and replacement in 1964.]]
+[[include component:image-block    name=http://scp-sandbox-3.wikidot.com/local--files/doggols-author-preparations/site-102-1962.jpg|
+    caption= The abandoned entrance structure to Site-102 (image was included alongside the caption "new home") before its demolition and replacement in 1964.]]
 
 //Apparently, as an official HCML supervisor, assigned to SCP-6019 no less, I can write these now. I do not feel like an HCML supervisor - and I doubt O5-8 or anyone else really considers me one. I was thrown into this place against my will, and I will continue to be here because, by a fluke of history, I had the information the Foundation needed. Perhaps Bumaro is right, and this is God's punishment for my Heresy.//
 
@@ -483,12 +483,12 @@ Eight.
 
 = [[size 120%]] **EXPERIMENT 6019-233 [[footnote]] Several other, largely unsuccessful attempts, occurred prior to Experiment 233. [[/footnote]]** [[/size]]
 
- **Aim:** To determine the effects of SCP-6019
+ **Aim:** To determine the effects of SCP-6019
 
 **Materials:**
 * Personal Items
 * A large, hollow stainless steel sphere, to cover personal items
-* 170 ml of blood, from both a Moray Eel and a Levantine Viper.  
+* 170 ml of blood, from both a Moray Eel and a Levantine Viper.  
 * The name of a friend, written onto a piece of paper.
 * A handful of soil from "the northern shore of a lake of salt" - Soil from the Ural Sea was used.
 * A world map, with a point north of Petropavlovsk-Kamchatsky, Russia [[footnote]] (56.211█████████, 158.692█████████),[[/footnote]] marked onto it in blood.
@@ -638,11 +638,11 @@ The affected stronghold was the meeting place of a sect known as the "Orthodox C
 
 **Dr De Kristan:** I see. I must first ask you if you have heard of a particular religious ritual known as the "Giah-Rex"?
 
-**Poi-6340:** Of course. The Giah-Rex was used by the first scholars of Erikesh to commune with Saklas, may his name be venerated, and it has been in constant use since then by the worshippers of the Scarlet King, Saklas, the Devourer - the general entity goes by many names, and it is called that for many reasons.  I will talk about those names later if you wish to hear them. But I digress, The ritual leads us to the realm of "Cosmos" - known to some as "//Verus Mendacio//", which is said to lie within the Nevermeant, or upon the tree of life - the specific details are unknown and irrelevant. It is accessing Cosmos which allows us to commune with Saklas, or, in rare cases, Nebro or Mekhane. It is the basis of our scripture and teachings, but it is also a matter of immense care.
+**Poi-6340:** Of course. The Giah-Rex was used by the first scholars of Erikesh to commune with Saklas, may his name be venerated, and it has been in constant use since then by the worshippers of the Scarlet King, Saklas, the Devourer - the general entity goes by many names, and it is called that for many reasons.  I will talk about those names later if you wish to hear them. But I digress, The ritual leads us to the realm of "Cosmos" - known to some as "//Verus Mendacio//", which is said to lie within the Nevermeant, or upon the tree of life - the specific details are unknown and irrelevant. It is accessing Cosmos which allows us to commune with Saklas, or, in rare cases, Nebro or Mekhane. It is the basis of our scripture and teachings, but it is also a matter of immense care.
 
-**Dr De Kristan:** I see, you may - wait ... Nebro? I've heard that term applied to Yaldabaoth. I was once a part of  //[he cuts himself off]// - I don't even remember where I heard it. But it's there, in my mind.
+**Dr De Kristan:** I see, you may - wait ... Nebro? I've heard that term applied to Yaldabaoth. I was once a part of  //[he cuts himself off]// - I don't even remember where I heard it. But it's there, in my mind.
 
-**Poi-6340:** Yaldabaoth is a name mostly used by the Sarkic groups. The name originated from the Proto-Sarkic gnostic communities in Greece, referring to the Proto-Sarkic //Yalda// for "creator or ruler", and Baok - "seven" and oath "Archon".  We don't consider Yaldabaoth or Mekhane to be evil //per se//, but they are the least important of the Trinity of Urges. Yaldabaoth represents the urge of Thesis, the natural order instituted by IS, and its dark brother, as well as by Yaldabaoth itself. This urge is the root cause of all-natural suffering - disease, famine, etc ... It's opposed by the Urge of Antithesis, reason, rationality, and control over nature - the root cause of all manmade suffering. This urge was instituted by Mekhane after he granted intelligence to humans. What we aim for is known as the urge of synthesis, the goal of Saklas and ideally a merging between the excessive bodily alteration and value of rationality over all else of Mekhane, with the veneration of disease and irrationality by Nebro.
+**Poi-6340:** Yaldabaoth is a name mostly used by the Sarkic groups. The name originated from the Proto-Sarkic gnostic communities in Greece, referring to the Proto-Sarkic //Yalda// for "creator or ruler", and Baok - "seven" and oath "Archon".  We don't consider Yaldabaoth or Mekhane to be evil //per se//, but they are the least important of the Trinity of Urges. Yaldabaoth represents the urge of Thesis, the natural order instituted by IS, and its dark brother, as well as by Yaldabaoth itself. This urge is the root cause of all-natural suffering - disease, famine, etc ... It's opposed by the Urge of Antithesis, reason, rationality, and control over nature - the root cause of all manmade suffering. This urge was instituted by Mekhane after he granted intelligence to humans. What we aim for is known as the urge of synthesis, the goal of Saklas and ideally a merging between the excessive bodily alteration and value of rationality over all else of Mekhane, with the veneration of disease and irrationality by Nebro.
 
 **Dr De Kristan:** How can you call Saklas benevolent when it's responsible for Portsmouth? For those 993 deaths? We've seen Saklas, in the pit behind that door. It isn't benevolent, it is horrifying.
 
@@ -652,13 +652,13 @@ The affected stronghold was the meeting place of a sect known as the "Orthodox C
 
 **Poi-6340:** There was a controversy over you back in the church. Most groups worshipping Saklas, may his name be forever venerated, are staunchly opposed to the execution of heretics - why we were opposed to the Children of Scarlet King from the start. Knowing that you had used the Giah-Rex, there was a debate over whether we should save you from the Mekhanite execution you were destined for. Some thought it meant our long-lasting secrecy would come to an end, and over one life no less, but others thought that no matter its effects it would be the moral thing to do. You were the first Mekhane lover in 1000 years to use the Rex. I believed that we should have let you die. //[pauses]// The church eventually settled on that, too.
 
-//[Silence on record.]//  
+//[Silence on record.]//  
 
 **Dr De Kristan:** This-this doesn't answer my question.
 
 **Poi-6340:** Saklas. He saved you from execution. Your views on things are, as common for a Mekhane lover, incredibly binary. Did you stop to think that, perhaps, the Scarlet king could be capable of great good and great evil?
 
-**Dr De Kristan:** Why do you worship him, then - if he is capable of evil?  
+**Dr De Kristan:** Why do you worship him, then - if he is capable of evil?  
 
 **Poi-6340:** Would you not venerate and support a great leader regardless of his poor decisions? Everything has two sides, doctor, even you. Saklas has two sides: the Scarlet King, the benevolent, and The Devourer, the malevolent. I'm sure you'd be interested in these essences, but I warn you, it isn't a story often told in our ranks. Telling it forces you to be careful [[[http://www.scpwiki.com/taboo|with names]]]. It used to be told more often, but [[[https://scp-wiki.wikidot.com/scp-001-o5|something]]] changed, decades ago.
 
@@ -672,7 +672,7 @@ The hatred between the two entities grew, The Devourer causing great atrocities,
 
 **Dr De Kristan:** Children of the Night?
 
-**Poi-6340:** They were an old race, humanoid, just as intelligent as us, but larger, covered in grisled fur.  I don't know what created them, but they suddenly gained incredible power some time ago. They built the most powerful weapons, strongest militaries and most powerful lines of infrastructure in the decades after they appeared. Apparently, no one thought of them as much of a threat. No exploration was really made into their territories, and the arrogance of their leaders blinded them to the threat they faced. They started expanding suddenly, and all at once, and nation after nation fell. In each nation, the Devourer sat, taking the form of a king, or a reformer or any number of powerful people. And as the Children's army came tearing through blockade after blockade, defensive after defensive, the Devourer sewed disunity, with countries collapsing into chaos before the Childen even arrived. Who knows if the children would have gained so much power if not for him?
+**Poi-6340:** They were an old race, humanoid, just as intelligent as us, but larger, covered in grisled fur.  I don't know what created them, but they suddenly gained incredible power some time ago. They built the most powerful weapons, strongest militaries and most powerful lines of infrastructure in the decades after they appeared. Apparently, no one thought of them as much of a threat. No exploration was really made into their territories, and the arrogance of their leaders blinded them to the threat they faced. They started expanding suddenly, and all at once, and nation after nation fell. In each nation, the Devourer sat, taking the form of a king, or a reformer or any number of powerful people. And as the Children's army came tearing through blockade after blockade, defensive after defensive, the Devourer sewed disunity, with countries collapsing into chaos before the Childen even arrived. Who knows if the children would have gained so much power if not for him?
 
 And the Scarlet King was enraged. The Humanity which had been carefully built over centuries to work in harmony had been swatted by a larger force and subjugated in an instant. The only bastion of power was the nation of Erikesh. Its king had gained a weapon - called by various names. Some called it the Godless Lance. Some called it the Golden Arrow. But what is agreed is that the weapon held back the Children for decades. As The Devourer looked upon the waves of slaughter from both sides, he felt, for the first time, guilt over his actions. And then he collapsed into madness and greed, horrified that any of the Scarlet Kings essences lay in him. The Scarlet King called upon the people of Erikesh, and, using the Erikeshan weapon, lead The Devourer to Æshtyr. The Scarlet King then called upon his archangels, who volunteered to contain him. The Warriors of Erikesh volunteered the Godless Lance - or whatever you want to call it and killed the archangels. Then, with the bones, he formed great chains and trapped The Devourer for eternity.
 
@@ -700,7 +700,7 @@ Henry Rubrum used this text to commune with Saklas regularly, and eventually, he
 
 **Poi-6340:** Ahh ... I will reveal this, and I am sure you will be interested, but first, let me explain. Not every organisation deals in secrecy - not even all secret organisations, mind you. The worshippers of the Scarlet King were forced into secrecy during the age of the Catholic Church, and it was, until recent events, a matter of unquestioned loyalty to the church and tradition to keep information within the church itself. Of course, some broke these traditions, but we ensured that the reward for breaking secrecy never outweighed the inevitable punishment. Anyone in the church could have found this out. But I am getting ahead of myself.
 
-On the day of the massacre of Kholyat Saykl, the higher-ups in the Maltese Orthodox Church declared, unanimously, alongside the other arms of the Orthodox and Holy churches, declared the Children of the Scarlet King a threat to the secrecy of the Church. That day, I went into the Maltese records, which are extensive, and I learned of the history of the group, and I was concerned. While the use of the Giah-Rex had been extensive within our church,  the authorities have always warned of its unreliability. As above, so below. The world of Cosmos, it - echos our own. As Saklas in the lower dimensions is one entity split in twain, so it is in cosmos. The body we call Saklas, which resides in Cosmos - its final glorious Kingdom, it can be both the Scarlet King and The Devourer, and you can never tell which. I fear that when Saklas spoke to Rubrum it was not The Scarlet King speaking, but The Devourer. The Devourer longs to return to this world - it fashions itself the benevolent god of this place. It lied to Rubrum, saying it was The Scarlet King, and about the law of Howling, and he believed it. The Devourer is pushing on the barriers in this world, and whenever the 7 chains holding him breaks ...  I don't like to think about it. The end of the world would be a mercy compared to what it would bring about. The suffering caused would affect every facet of silly life and endless.
+On the day of the massacre of Kholyat Saykl, the higher-ups in the Maltese Orthodox Church declared, unanimously, alongside the other arms of the Orthodox and Holy churches, declared the Children of the Scarlet King a threat to the secrecy of the Church. That day, I went into the Maltese records, which are extensive, and I learned of the history of the group, and I was concerned. While the use of the Giah-Rex had been extensive within our church,  the authorities have always warned of its unreliability. As above, so below. The world of Cosmos, it - echos our own. As Saklas in the lower dimensions is one entity split in twain, so it is in cosmos. The body we call Saklas, which resides in Cosmos - its final glorious Kingdom, it can be both the Scarlet King and The Devourer, and you can never tell which. I fear that when Saklas spoke to Rubrum it was not The Scarlet King speaking, but The Devourer. The Devourer longs to return to this world - it fashions itself the benevolent god of this place. It lied to Rubrum, saying it was The Scarlet King, and about the law of Howling, and he believed it. The Devourer is pushing on the barriers in this world, and whenever the 7 chains holding him breaks ...  I don't like to think about it. The end of the world would be a mercy compared to what it would bring about. The suffering caused would affect every facet of silly life and endless.
 
 [[include component:image-block name=https://upload.wikimedia.org/wikipedia/commons/5/56/Salt_Flat_Uyuni.png|caption= SCP-2317-Prime, believed to be the location referred to as Æshtyr| ]]
 
@@ -708,7 +708,7 @@ On the day of the massacre of Kholyat Saykl, the higher-ups in the Maltese Ortho
 
 **Poi-6340:** You jest, but you make a good point. After seeing how such an entity can trick so many, I wonder, has everything I've lived and believed a trick, an illusion? Was Saklas ever really split? Or has for aeons past and aeons future will he continue to trick humanity in an elaborate ruse, laughing at the little ants walking forward and back, little cogs in a machine much larger than they can fathom. If The Devourer was such a cause of great suffering, and it was really trapped in Æshtyr, what explains the suffering we see today? Is he really trapped? Will his being free change anything? Forgive me for my blasphemy.
 
-**Dr De Kristan:** I understand the feeling. I was in a relatively high rank in Nebros Gate, a relatively powerful sect of Sarkicism, a relatively powerful religious organisation. We venerated disease, and when a great plague ran through our camp, our leader, Karcist Salak, was convinced our connection to Yaldabaoth would grant us immunity to the disease. Whatever happened ... I don't know.  The plague ran through the camp, and death littered the streets. I barely survived, my skin bruising and blotching, peeling in paces, coughing, screaming. It was the worst pain I had ever experienced. I ran from the camp and ... and the pain was too great. I left the camp behind ... and I walked dying into the city - it was Madrid, I remember it clearly. I was in great pain, and, having heard of the great hospitals in humanities, which I was told violated Yaldabaoth, I asked a man to help me, but I couldn't speak Spanish, and so he pulled me into his car and took me to the hospital. I don't know what he thought I had done with myself, but eventually, we arrived, and the staff tried to fix me up. It was close, I heard, but eventually, I had recovered. I lapsed in and out of consciousness in the hospital, but I remember one thing clearly. I was sitting in the hospital, in a ball, blood and pus covering the damp sheet, clinging to me, enormous fucking tube in my mouth, keeping me breathing. And I looked up, just for a moment, and saw Karcist Salak sitting on the side of my bed, crumpled like wet tissue, clinging weakly to the bed. I ... I don't know how he did it but the rush of nurses and doctors from around the ICU failed to notice him and ... fuck. I thought of him as a god ... I thought he could do anything. All he said to me was "I thought I respected you. Now I know you're a quitter. A fucking quitter." And then he died. When I got out of the hospital, I tried to rectify my faith. I thought maybe the teachings of Modern Sarkicism weren't right, that I had to look back to the traditions of the past. I looked into the Giah-Rex, a decanonized rite that used to form the basis of the religion. It had been removed from the canon after a few religious leaders realised its discovery was by rationality and reason, and not obviously divinely inspired. I looked into it, finding a translation of the original "Giah-Rex", and I tried it. The entity I saw there, maybe it was Yaldabaoth, maybe it wasn't, disgusted me. I thought that maybe the Church of the Broken God had the answers, that nature was disgusting. It was after a while I realised that it was horrible, too. I've never felt this alone, and scared. No meaning I've ever assigned to this world has lasted. It's not meant for us.  I ... I just want a way to find humanity a place somewhere else. A place where we can affect the course of history, where we aren't just cogs in a machine. I know that might sound insane.
+**Dr De Kristan:** I understand the feeling. I was in a relatively high rank in Nebros Gate, a relatively powerful sect of Sarkicism, a relatively powerful religious organisation. We venerated disease, and when a great plague ran through our camp, our leader, Karcist Salak, was convinced our connection to Yaldabaoth would grant us immunity to the disease. Whatever happened ... I don't know.  The plague ran through the camp, and death littered the streets. I barely survived, my skin bruising and blotching, peeling in paces, coughing, screaming. It was the worst pain I had ever experienced. I ran from the camp and ... and the pain was too great. I left the camp behind ... and I walked dying into the city - it was Madrid, I remember it clearly. I was in great pain, and, having heard of the great hospitals in humanities, which I was told violated Yaldabaoth, I asked a man to help me, but I couldn't speak Spanish, and so he pulled me into his car and took me to the hospital. I don't know what he thought I had done with myself, but eventually, we arrived, and the staff tried to fix me up. It was close, I heard, but eventually, I had recovered. I lapsed in and out of consciousness in the hospital, but I remember one thing clearly. I was sitting in the hospital, in a ball, blood and pus covering the damp sheet, clinging to me, enormous fucking tube in my mouth, keeping me breathing. And I looked up, just for a moment, and saw Karcist Salak sitting on the side of my bed, crumpled like wet tissue, clinging weakly to the bed. I ... I don't know how he did it but the rush of nurses and doctors from around the ICU failed to notice him and ... fuck. I thought of him as a god ... I thought he could do anything. All he said to me was "I thought I respected you. Now I know you're a quitter. A fucking quitter." And then he died. When I got out of the hospital, I tried to rectify my faith. I thought maybe the teachings of Modern Sarkicism weren't right, that I had to look back to the traditions of the past. I looked into the Giah-Rex, a decanonized rite that used to form the basis of the religion. It had been removed from the canon after a few religious leaders realised its discovery was by rationality and reason, and not obviously divinely inspired. I looked into it, finding a translation of the original "Giah-Rex", and I tried it. The entity I saw there, maybe it was Yaldabaoth, maybe it wasn't, disgusted me. I thought that maybe the Church of the Broken God had the answers, that nature was disgusting. It was after a while I realised that it was horrible, too. I've never felt this alone, and scared. No meaning I've ever assigned to this world has lasted. It's not meant for us.  I ... I just want a way to find humanity a place somewhere else. A place where we can affect the course of history, where we aren't just cogs in a machine. I know that might sound insane.
 
 **Poi-6340:** It isn't insane, Guillermo. It isn't insane. //[pauses]// I have one last thing to say to you. I don't want to do this, but if I don't, someone will and without my warnings and caution in the matter. After the massacre of Khoylat Saykl, I used the Giah-Rex, talking with Saklas for the first time. He said that he had chosen me for a task. He described, in detail, the upcoming Foundation raid on the complex. He instructed me to turn myself over to the Foundation, and give them three things. He showed me how to perform the Giah-Rex without anyone else. I don't understand the mechanics ... how, but I tested it, and it works. The method also allows for one to record and, essentially, film the events occurring within Cosmos. The second thing he told me was a set of coordinates. He said that I would meet you, a man who has gone from Sarkicism to the Church of the Broken God, and then, finally, to the Foundation itself, and that when I met you I should hand them over. I wrote them down afterwards and had been memorising them. And then, finally, he said for me to tell you this truth. The Giah-Rex is an important artefact in many religions because it, by nature, creates and destroys religions. There are two types of nootic religions - those that stagnate and those that crash. Wherever the Rex is present, these forces will collide. The Children of the Scarlet King crashed. Sarkicism and the other major religions stagnated. Soon they will be replaced by a new set of religions, scriptures, and tenants. "Be ready for it, he said". The final thing I will say did not come from Saklas, but it is as grave and important a warning as always. I cannot know whether the entity that spoke to me was the Scarlet King or The Devourer. What I am preparing you for, which I do not even comprehend, could be a great good or a great evil. Keep steady on your path. And be careful. Good luck.
 
@@ -726,7 +726,7 @@ The following log, recorded between O5-8 and Dr Guillermo De Kristan at Miskaton
 
 //[O5-8 is seated, sipping from a glass of vintage shiraz. Sunlight pours into the room from its iconic windows. A storm is seen brewing on the horizon. His phone rings.]//
 
-**O5-8:** Hello? //[A pause]// Err ... yes, I see. //[he pauses for a moment, listening to the voice on the other end]// Send a team after him ... yes ... thank you.  
+**O5-8:** Hello? //[A pause]// Err ... yes, I see. //[he pauses for a moment, listening to the voice on the other end]// Send a team after him ... yes ... thank you.  
 
 //[He puts the phone back on the desk, pouring another glass of Shiraz, and ringing a [[[http://www.scpwiki.com/scp-662|handbell.]]] A well-dressed butler appears from the left of the frame.]//
 
@@ -826,7 +826,7 @@ On the 7th of January 1963, the planned final meeting of SCP-6019 research teams
 
 **Dr De Kristan:** In there.
 
-//[The group enters the slum. The crowds inside are panicked, running through the slums as faceless entities in firefighters uniform push through the crowd. The camera turns to show a man and a firefighter crowding behind a soot-covered and severely burnt body. The man is crying and yells at the firefighter. The audio produced is illegible. The camera turns forward and shows a massive fire. At a point on the street, the fire suddenly cuts off, reaching a line. An unrecognisable shape sits after charred by fire above the street. The cobblestone on the ground pulses and flows like water. De Kristan motions to the group, who jump into the flowing street. The camera falls in, passing through the street. The feed suddenly shows all seven on a fishing boat, with a large blank point in the ocean behind them.  Two glowing yellow orbs are visible above the point, orbiting around each other. As they orbit, a sound resembling a turbine is heard.]//
+//[The group enters the slum. The crowds inside are panicked, running through the slums as faceless entities in firefighters uniform push through the crowd. The camera turns to show a man and a firefighter crowding behind a soot-covered and severely burnt body. The man is crying and yells at the firefighter. The audio produced is illegible. The camera turns forward and shows a massive fire. At a point on the street, the fire suddenly cuts off, reaching a line. An unrecognisable shape sits after charred by fire above the street. The cobblestone on the ground pulses and flows like water. De Kristan motions to the group, who jump into the flowing street. The camera falls in, passing through the street. The feed suddenly shows all seven on a fishing boat, with a large blank point in the ocean behind them.  Two glowing yellow orbs are visible above the point, orbiting around each other. As they orbit, a sound resembling a turbine is heard.]//
 
 **Dr De Kristan:** Oh ... it's beautiful. You should count yourself lucky. This is the first place, the first piece of mind in which IS resided. That void ... that is where the world emerged from. The perfect land of our mind. And, once we return to it, we will be with IS, living for eternity in paradise. Are you excited?
 
@@ -848,7 +848,7 @@ On the 7th of January 1963, the planned final meeting of SCP-6019 research teams
 
 [[include component:image-block name=https://upload.wikimedia.org/wikipedia/commons/2/20/NDP_HQ_on_fire.jpg|caption= Frame 204,998| width=100% ]]
 
-[[include component:image-block name=https://upload.wikimedia.org/wikipedia/commons/b/b1/Black_Screen.jpg|caption= Frame 205,098|  width=100%]]
+[[include component:image-block name=https://upload.wikimedia.org/wikipedia/commons/b/b1/Black_Screen.jpg|caption= Frame 205,098|  width=100%]]
 
 = < END LOG >
 

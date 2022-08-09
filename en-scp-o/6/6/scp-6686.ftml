@@ -10,14 +10,14 @@
 [[module CSS]]
 #page-content .collapsible-block-folded a.collapsible-block-link,
 #page-content .collapsible-block-unfolded a.collapsible-block-link {
-    font-weight: bold;
+    font-weight: bold;
 }
 }
 [[/module]]
 
 [[module css]]
 #page-content .collapsible-block {
-  max-width: 100%;
+  max-width: 100%;
 background-color: #ffffff;
 text-color: Red;
 padding: 5px;
@@ -40,69 +40,69 @@ text-color: black;
 
 [[module css]]
 .footnotes-footer {
-    visibility: hidden;
-    height: 0;
-    padding: 0;
-    margin: 0;
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+    margin: 0;
 }
 [[/module]]
 
 [[module CSS]]
 
 .warning {
-    position: relative;
-    margin: 2em 0;
-    padding: 25px 10px 7px;
-    border: solid 1px #000000;
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 1px #000000;
 }
 .warning h1{
-    position: absolute;
-    margin-top: 0;
-    display: inline-block;
-    top: -1px;
-    left: -1px;
-    padding: 0 8px;
-    height: 26px;
-    line-height: 25px;
-    vertical-align: middle;
-    font-size: 17px;
-    background: #000000;
-    color: #ffffff;
-    font-weight: bold;
+    position: absolute;
+    margin-top: 0;
+    display: inline-block;
+    top: -1px;
+    left: -1px;
+    padding: 0 8px;
+    height: 26px;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 17px;
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
 }
 .warning p {
-    margin: 0;
-    padding: 0;
+    margin: 0;
+    padding: 0;
 }
 [[/module]]
 
 [[module CSS]]
 /*
-    [no title]
-    Created at 2021
-    Created by dog_punch
-    CC BY-SA 3.0
+    [no title]
+    Created at 2021
+    Created by dog_punch
+    CC BY-SA 3.0
 */
 
 .type {
-    color: #000;
-    font-family: Verdana;
-    font-size: 15px;
+    color: #000;
+    font-family: Verdana;
+    font-size: 15px;
 }
 
 span.testn {
-    background-image: linear-gradient(to left,#ffffff00 50%,#000000 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0;
-    animation: gradient 5s steps(367) 1 both;
+    background-image: linear-gradient(to left,#ffffff00 50%,#000000 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    animation: gradient 5s steps(367) 1 both;
 }
 
 @keyframes gradient {
 from {background-position: 100% 0;}
-to   {background-position: 0 0;}
+to   {background-position: 0 0;}
 }
 [[/module]]
 
@@ -118,7 +118,7 @@ to   {background-position: 0 0;}
 
 [[include component:image-block-base name=SCP-6686.png|caption=[[size 90%]]SCP-6686 in heliostationary orbit of the northern polar region of Sol, pre-fusion event.[[/size]]|width=300px|align=right]]
 
-[[size 92%]]**Special Containment Procedures:**  SCP-6686 is currently contained within a critical-grade, radiation-proof, heat resistant, electromagnetic heavy humanoid containment chamber on Laniakea Station[[footnote]]Assembled in orbit of Luna and later moved into close orbit of Sol to monitor and research anomalous mass-fluctuations detected within its core. Later assigned to managing the SCP-179 Sub-division of the Composite Orbital Early Warning System (COEWS), recently re-tasked on Overseer orders to additionally house containment and research of SCP-6686.[[/footnote]] in close orbit of Sol. The chamber has been constructed within the habitation ring's central support structure. It can be decoupled in case of emergency and ejected from the station, after which it will remain in stable Sol orbit for later retrieval by STF-Majoris-α‏‏‎ ("Orion's Dogs"),[[footnote]]Solar Task Force (Previously Jovian Task Force) formed initially to monitor and patrol the Jovian system for GoI and Anomalous activity, later re-tasked along with Laniakea Station to SCP-6686.[[/footnote]] who are temporarily stationed on Mercury until barracks on Laniakea Station finish construction.
+[[size 92%]]**Special Containment Procedures:**  SCP-6686 is currently contained within a critical-grade, radiation-proof, heat resistant, electromagnetic heavy humanoid containment chamber on Laniakea Station[[footnote]]Assembled in orbit of Luna and later moved into close orbit of Sol to monitor and research anomalous mass-fluctuations detected within its core. Later assigned to managing the SCP-179 Sub-division of the Composite Orbital Early Warning System (COEWS), recently re-tasked on Overseer orders to additionally house containment and research of SCP-6686.[[/footnote]] in close orbit of Sol. The chamber has been constructed within the habitation ring's central support structure. It can be decoupled in case of emergency and ejected from the station, after which it will remain in stable Sol orbit for later retrieval by STF-Majoris-α‏‏‎ ("Orion's Dogs"),[[footnote]]Solar Task Force (Previously Jovian Task Force) formed initially to monitor and patrol the Jovian system for GoI and Anomalous activity, later re-tasked along with Laniakea Station to SCP-6686.[[/footnote]] who are temporarily stationed on Mercury until barracks on Laniakea Station finish construction.
 
 **__Under O5 Command:__** Any physical exposure to, observation of, or communication with SCP-6686 is expressly forbidden to all staff of any clearance level.[[/size]]
 
@@ -205,7 +205,7 @@ Anyway… I doubt anyone will reprimand me now if I just add these //previously/
 > **Dr. Miriam:** How did you learn these languages?
 > @@ @@
 > **SCP-6686:** I already told you, I- (//Pause.//) Ah, my apologies. Time, too much time. (//Pause.//) Or maybe none at all. In any case, I've always known.
->  @@ @@
+>  @@ @@
 > **Dr. Miriam:** I see. Do you have a name, anything you would like me to call you?
 > @@ @@
 > **SCP-6686:** Hm. (//Pause.//) SCP-6686?
@@ -271,7 +271,7 @@ Anyway… I doubt anyone will reprimand me now if I just add these //previously/
 > ----
 > **INTERVIEWER:** Head Researcher Dr. Miriam
 > **SUBJECT:** SCP-6686
->  **NOTE:** The following interview is likewise translated from morse code. SCP-6686 has remained unmoving and unresponsive since the previous interview.
+>  **NOTE:** The following interview is likewise translated from morse code. SCP-6686 has remained unmoving and unresponsive since the previous interview.
 > ----
 > [BEGIN LOG]
 > @@ @@
@@ -321,7 +321,7 @@ Anyway… I doubt anyone will reprimand me now if I just add these //previously/
 > @@ @@
 > **Dr. Miriam:** You don't know what, the outcome?
 > @@ @@
-> **SCP-6686:**  I know I'll (//Pause.//) miss (//Pause.//) something. (//Pause.//) But I can never see what.
+> **SCP-6686:**  I know I'll (//Pause.//) miss (//Pause.//) something. (//Pause.//) But I can never see what.
 > @@ @@
 > **Dr. Miriam:** You need to be more unambiguous.
 > @@ @@
@@ -343,7 +343,7 @@ Anyway… I doubt anyone will reprimand me now if I just add these //previously/
 > @@ @@
 > **SCP-6686:** To keep it simple. You seem like a highly motivated individual, and while under no means am I threatened by you, it would be counterproductive to take needless risks with such (//Pause.//) erratic individuals. Your organization is one of great means and power clearly, and fortunately, your superiors are of more reasonable and predictable mind. Through aberrational means they could see the ripples in my wake, but in the process, they also saw there was nothing that could prevent what will come (//Pause.//) and so they stepped out of my way.
 > @@ @@
-> **Dr. Miriam:**  Forgive me if I am misunderstanding you, but this sounds very much like a threat.
+> **Dr. Miriam:**  Forgive me if I am misunderstanding you, but this sounds very much like a threat.
 > @@ @@
 > **SCP-6686:** I've known the precise location, momentum, the past and future values of each primeval atom since the beginning of time. All that, for a thing like sentience to impede my perception. It's an aberration I can't allow to linger if the universe is to be returned to its intended state.
 > @@ @@
@@ -433,162 +433,162 @@ Secure, Contain, Protect.[[/size]]
 
 [[module CSS]]
 /*
-    [no title]
-    Created at 2021
-    Created by dog_punch
-    CC BY-SA 3.0
+    [no title]
+    Created at 2021
+    Created by dog_punch
+    CC BY-SA 3.0
 */
 
 .logo-line-wrap {
-    position: relative;
-    --lbc: #292929;
-    width: calc(100% - 20px);
-    margin: 1em auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 85px;
-    overflow: hidden;
+    position: relative;
+    --lbc: #292929;
+    width: calc(100% - 20px);
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    overflow: hidden;
 }
 
 
 .logo-main {
-    width: var(--cc);
-    height: var(--cc);
-    background-image: url('http://incbox.wikidot.com/local--files/svg-base/origin-1.svg');
-    background-size: contain;
-    border-radius: 50%;
-    z-index: 1;
-    --cc: 81px;
-    opacity: .83;
+    width: var(--cc);
+    height: var(--cc);
+    background-image: url('http://incbox.wikidot.com/local--files/svg-base/origin-1.svg');
+    background-size: contain;
+    border-radius: 50%;
+    z-index: 1;
+    --cc: 81px;
+    opacity: .83;
 }
 
 .logo-center {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
 }
 
 #html-body .logo-line-wrap div {
-    max-width: none;
+    max-width: none;
 }
 
 .logo-circle {
-    position: absolute;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    animation: rotate 3s 0s infinite both linear;
-    border: 2px solid var(--lbc);
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    animation: rotate 3s 0s infinite both linear;
+    border: 2px solid var(--lbc);
 }
 @keyframes rotate {
-    from {transform:rotate(0deg)}
-     to {transform:rotate(360deg)}
+    from {transform:rotate(0deg)}
+     to {transform:rotate(360deg)}
 }
 
 .logo-circle.c-2 {
-    clip-path: polygon(0 66%, 50% 50%, 50% 0, 85% 0%, 50% 50%, 100% 15%, 100% 48%, 8% 100%, 85% 100%, 0 0, 0 100%, 0% 85%);
-    width: calc(100% - 4px);
-    height: calc(100% - 4px);
+    clip-path: polygon(0 66%, 50% 50%, 50% 0, 85% 0%, 50% 50%, 100% 15%, 100% 48%, 8% 100%, 85% 100%, 0 0, 0 100%, 0% 85%);
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
 }
 
 .logo-circle.c-1 {
-    animation: none;
+    animation: none;
 }
 
 .logo-circle.c-3 {
-    width: calc(100% - 8px);
-    height: calc(100% - 8px);
-    clip-path: polygon(0 59%, 50% 50%, 46% 0, 85% 0%, 50% 50%, 100% 40%, 100% 85%, 50% 50%, 57% 100%, 18% 100%, 50% 50%, 0 100%);
-    animation-direction: reverse;
-    opacity: .3;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    clip-path: polygon(0 59%, 50% 50%, 46% 0, 85% 0%, 50% 50%, 100% 40%, 100% 85%, 50% 50%, 57% 100%, 18% 100%, 50% 50%, 0 100%);
+    animation-direction: reverse;
+    opacity: .3;
 }
 
 .logo-circle.c-4 {
-    clip-path: polygon(0 30%, 50% 50%, 0 0, 85% 0%, 50% 50%, 100% 22%, 100% 85%, 50% 50%, 100% 100%, 81% 100%, 50% 50%, 0 100%);
-    width: calc(100% - 12px);
-    height: calc(100% - 12px);
-    animation-duration: 2.5s;
+    clip-path: polygon(0 30%, 50% 50%, 0 0, 85% 0%, 50% 50%, 100% 22%, 100% 85%, 50% 50%, 100% 100%, 81% 100%, 50% 50%, 0 100%);
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    animation-duration: 2.5s;
 }
 
 .line-c {
-    width: 100%;
-    height: 5px;
-    background: var(--lbc);
-    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: var(--lbc);
+    position: absolute;
 }
 
 
 
 .line-c:before {
-    content: '';
-    position: absolute;
-    background: #fff;
-    top: 2px;
-    bottom: 2px;
-    left: 2px;
-    right: 2px;
-    }
+    content: '';
+    position: absolute;
+    background: #fff;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    }
 
 .line-t:before {
-    content: '';
-    position: absolute;
-    height: 2px;
-    background: var(--lbc);
-    width: 20px;
-    animation: line-l 1.7s 0s infinite both linear;
-    transform: translateY(-50%);
+    content: '';
+    position: absolute;
+    height: 2px;
+    background: var(--lbc);
+    width: 20px;
+    animation: line-l 1.7s 0s infinite both linear;
+    transform: translateY(-50%);
 }
 
 @keyframes line-l {
-    from {left: 50%}
-    to   {left: -20px}
+    from {left: 50%}
+    to   {left: -20px}
 }
 
 @keyframes line-r {
-    from {right: 50%}
-    to   {right: -20px}
+    from {right: 50%}
+    to   {right: -20px}
 }
 
 .line-b:before {
-    content: '';
-    position: absolute;
-    height: 2px;
-    background: var(--lbc);
-    width: 20px;
-    top: 50%;
-    animation: line-l 1.4s 0s infinite both linear;
-    transform: translateY(-50%);
+    content: '';
+    position: absolute;
+    height: 2px;
+    background: var(--lbc);
+    width: 20px;
+    top: 50%;
+    animation: line-l 1.4s 0s infinite both linear;
+    transform: translateY(-50%);
 }
 
 .line-t:after {
-    content: '';
-    position: absolute;
-    height: 2px;
-    background: var(--lbc);
-    width: 20px;
-    animation: line-r 1.9s 0s infinite both linear;
-    transform: translateY(-50%);
+    content: '';
+    position: absolute;
+    height: 2px;
+    background: var(--lbc);
+    width: 20px;
+    animation: line-r 1.9s 0s infinite both linear;
+    transform: translateY(-50%);
 }
 
 .line-b:after {
-    content: '';
-    position: absolute;
-    height: 2px;
-    background: var(--lbc);
-    width: 20px;
-    top: 50%;
-    animation: line-r 1.5s 0s infinite both linear;
-    transform: translateY(-50%);
+    content: '';
+    position: absolute;
+    height: 2px;
+    background: var(--lbc);
+    width: 20px;
+    top: 50%;
+    animation: line-r 1.5s 0s infinite both linear;
+    transform: translateY(-50%);
 }
 
 [[/module]]

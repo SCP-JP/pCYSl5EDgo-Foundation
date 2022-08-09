@@ -12,47 +12,47 @@ color: #FFF;
 }
 
 #page-content .collapsible-block {
-    display: block;
-    text-align: center;
-    padding: .8em;
-    background-color: #e3e3e3;
-    border-top: 0.125rem dashed #b5b5b5;
-    border-bottom: 0.125rem dashed #b5b5b5;
+    display: block;
+    text-align: center;
+    padding: .8em;
+    background-color: #e3e3e3;
+    border-top: 0.125rem dashed #b5b5b5;
+    border-bottom: 0.125rem dashed #b5b5b5;
 }
 
 #page-content .collapsible-block .collapsible-block-content {
-    text-align: left;
+    text-align: left;
 }
 
 #page-content .license-box .collapsible-block {
 
-    display: unset;
-    text-align: unset;
-    padding: unset;
-    background-color: unset;
-    border-top: unset;
-    border-bottom: unset;
+    display: unset;
+    text-align: unset;
+    padding: unset;
+    background-color: unset;
+    border-top: unset;
+    border-bottom: unset;
 }
 
 
 
 #page-content .license-box .collapsible-block .collapsible-block-content {
-    text-align: unset;
+    text-align: unset;
 }
 
 blockquote,
 div.blockquote {
-    border: 0.125rem solid #d4d4d4;
-    background-color: #F5F5F5;
+    border: 0.125rem solid #d4d4d4;
+    background-color: #F5F5F5;
 }
 
 .interview{
-    border:solid 2px #d4d4d4;
-    text-align: left;
-    background:#F5F5F5;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:solid 2px #d4d4d4;
+    text-align: left;
+    background:#F5F5F5;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 #page-title{display:none}
 [[/module]]
@@ -65,7 +65,7 @@ div.blockquote {
 [[/=]]
 [[include :scp-wiki:info:end]]
 
-[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
 %%content%%
 [[/module]]
 

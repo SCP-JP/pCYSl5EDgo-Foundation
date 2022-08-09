@@ -2,28 +2,28 @@
 @import url('http://smlt.wdfiles.com/local--code/ukwhatn%3Afadeout/1');
 
 .hover {
-  color: red;
-  text-decoration: underline;
+  color: red;
+  text-decoration: underline;
 }
 .hover .hover-text {
-   position: absolute;
-   display: none;
-   margin: 20px 0px;
-   height: auto;
-   width: auto;
-   background:white;
-   border: 1px solid black;
-   color: black;
-   padding: 0.5em;
+   position: absolute;
+   display: none;
+   margin: 20px 0px;
+   height: auto;
+   width: auto;
+   background:white;
+   border: 1px solid black;
+   color: black;
+   padding: 0.5em;
 }
 
 .hover:hover {
-  text-decoration: none;
-  border-bottom: none;
-  color: #004c00;
+  text-decoration: none;
+  border-bottom: none;
+  color: #004c00;
 }
 .hover:hover .hover-text {
-  display: inline;
+  display: inline;
 }
 
 .email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px auto; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
@@ -33,21 +33,21 @@ a.collapsible-block-link { font-weight: bold; }
 /*== VARIABLES ==*/
 :root {
 
-  /* Background Color (Default: white) */
-  --fadeout-background: white;
+  /* Background Color (Default: white) */
+  --fadeout-background: white;
 
-  /* FadeOut Duration */
-  --fadeout-time: 1s;
+  /* FadeOut Duration */
+  --fadeout-time: 1s;
 
-  /* Image FadeIn Duration (For Option2) */
-  --img-fadein-time: 1s;
+  /* Image FadeIn Duration (For Option2) */
+  --img-fadein-time: 1s;
 
-  /* Image Fadein Delay (For Option2) */
-  --img-fadein-delay: 2s;
+  /* Image Fadein Delay (For Option2) */
+  --img-fadein-delay: 2s;
 
-  /* Cropped Header (To erase the shadow under the header)
-      If you use themes other than Sigma-9(Default), pls change this variable. */
-  --cropped-header: url(http://smlt.wdfiles.com/local--files/ukwhatn:fadeout/header-crop.png);
+  /* Cropped Header (To erase the shadow under the header)
+      If you use themes other than Sigma-9(Default), pls change this variable. */
+  --cropped-header: url(http://smlt.wdfiles.com/local--files/ukwhatn:fadeout/header-crop.png);
 
 }
 [[/module]]
@@ -89,7 +89,7 @@ a.collapsible-block-link { font-weight: bold; }
 
 > **Filename:** meme.jpg
 > **Name:** Prism abstract
-> **Author:** [https://www.flickr.com/photos/12836528@N00  kevin dooley]
+> **Author:** [https://www.flickr.com/photos/12836528@N00  kevin dooley]
 > **License:** CC BY 2.0
 > **Source Link:** [https://www.flickr.com/photos/12836528@N00/28189085430 flickr]
 

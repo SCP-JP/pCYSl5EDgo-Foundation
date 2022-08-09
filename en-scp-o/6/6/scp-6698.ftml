@@ -1,16 +1,16 @@
 [!-- crom-title: Clean Your Drains, People --]
 [[module CSS]]
 div#header h2 span {
-    font-size:0px;
-    padding: 4px;
+    font-size:0px;
+    padding: 4px;
 }
 div#header h2:after {
-    content: "The Department of Spectral Phenomena";
-    font-weight: bold;
-    color: #f0f0c0;
-    padding: 19px 0;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
-    white-space: pre;
+    content: "The Department of Spectral Phenomena";
+    font-weight: bold;
+    color: #f0f0c0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+    white-space: pre;
 }
 .footnotes-footer {display:none}
 [[/module]]
@@ -30,8 +30,8 @@ Written by [[*user jack waltz]]
 [[include :scp-wiki:info:end]]
 
 [[include component:image-block
-    name=bathroom.jpg|
-    caption=The interior of SCP-6698.
+    name=bathroom.jpg|
+    caption=The interior of SCP-6698.
 ]]
 
 **Item #:** SCP-6698

@@ -2,66 +2,66 @@
 
 [[module CSS]]
 :root {
-    --zero: 0;
+    --zero: 0;
 }
 
 /* boldify collapsibles */
 a.collapsible-block-link {
-    font-weight: 600;
+    font-weight: 600;
 }
 
 div.notice-box {
-    background: url(https://scp-wiki.wikidot.com/local--files/theme:basalt/RAISA_LIGHTLOGO.png) #faf2c3;
-    background-size: contain;
-    background-position: top center;
-    background-repeat: no-repeat;
-    border: 1px solid #ccc;
-    padding: 0 10px 12px;
-    margin: 7px 4px 12px;
-    overflow: hidden;
+    background: url(https://scp-wiki.wikidot.com/local--files/theme:basalt/RAISA_LIGHTLOGO.png) #faf2c3;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    padding: 0 10px 12px;
+    margin: 7px 4px 12px;
+    overflow: hidden;
 }
- 
+ 
 div.notice-box div.image-container img {
-    margin: 5px;
-    padding: 2px;
-    border: 1px solid #999;
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid #999;
 }
 
 .document {
-    background: white url('http://scpdsandbox.wdfiles.com/local--files/darkartist-s-hub-for-drafts-or-whatever/sphere%20smells%20like%20fart%20sometimes') center center no-repeat;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin: 26px auto 0;
-    max-width: 550px;
-    min-height: 300px;
-    padding: 24px;
-    padding-top: 50px;
-    position: relative;
-    width: 80%;
+    background: white url('http://scpdsandbox.wdfiles.com/local--files/darkartist-s-hub-for-drafts-or-whatever/sphere%20smells%20like%20fart%20sometimes') center center no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 26px auto 0;
+    max-width: 550px;
+    min-height: 300px;
+    padding: 24px;
+    padding-top: 50px;
+    position: relative;
+    width: 80%;
 }
- 
+ 
 .document:before,
 .document:after {
-    content: "";
-    height: 98%;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
+    content: "";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
 }
- 
+ 
 .document:before {
-    background: #fafafa;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-    left: -5px;
-    top: 4px;
-    transform: rotate(-2.5deg);
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
 }
- 
+ 
 .document:after {
-    background: #f6f6f6;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-    right: -3px;
-    top: 1px;
-    transform: rotate(1.4deg);
+    background: #f6f6f6;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
 }
 [[/module]]
 
@@ -197,7 +197,7 @@ The following is an interview with Mrs Andersson made several weeks later.
 
 **Agent Pines:** I'm... sorry. I really hope he gets better soon.
 
-**Mrs Andersson:** Oh no, it's, um, I apologise for that tone. It's alright,  thank you for your concern. Um, about that photograph, I, unfortunately, don't have a copy of it with me. The police took it for their "investigation." I've been asking to get it back, but all they say is that "it's not in their hands anymore." Damn liars, it's probably stuffed down in some cupboard.
+**Mrs Andersson:** Oh no, it's, um, I apologise for that tone. It's alright,  thank you for your concern. Um, about that photograph, I, unfortunately, don't have a copy of it with me. The police took it for their "investigation." I've been asking to get it back, but all they say is that "it's not in their hands anymore." Damn liars, it's probably stuffed down in some cupboard.
 
 **Agent Pines:** //[chuckles lightly]// Yes... have you shown the photo to anybody else?
 

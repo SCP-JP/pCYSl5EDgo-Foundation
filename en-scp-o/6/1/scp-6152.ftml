@@ -5,57 +5,57 @@
 [[module CSS]]
 .colmod-block > ul,
 .colmod-block > ul > li {
-    display: block;
-    line-height: normal;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    display: block;
+    line-height: normal;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .colmod-block > ul > li > ul,
 li.folded > .colmod-link-top a + a,
 li.folded > .colmod-content,
 li.folded > .colmod-link-end a,
 li.unfolded > .colmod-link-top a:first-child {
-    display: none;
+    display: none;
 }
 .colmod-content {
-    -webkit-animation: colmod-fade-in 0.2s ease-in-out;
-    -moz-animation: colmod-fade-in 0.2s ease-in-out;
-    animation: colmod-fade-in 0.2s ease-in-out;
-    -webkit-animation-timing-function: cubic-bezier(0.3649610494,0,0.6350389506,1);
-    -moz-animation-timing-function: cubic-bezier(0.3649610494,0,0.6350389506,1);
-    animation-timing-function: cubic-bezier(0.3649610494,0,0.6350389506,1);
+    -webkit-animation: colmod-fade-in 0.2s ease-in-out;
+    -moz-animation: colmod-fade-in 0.2s ease-in-out;
+    animation: colmod-fade-in 0.2s ease-in-out;
+    -webkit-animation-timing-function: cubic-bezier(0.3649610494,0,0.6350389506,1);
+    -moz-animation-timing-function: cubic-bezier(0.3649610494,0,0.6350389506,1);
+    animation-timing-function: cubic-bezier(0.3649610494,0,0.6350389506,1);
 }
 li.folded > .colmod-content {
-    -webkit-animation-name: none;
-    -moz-animation-name: none;
-    animation-name: none;
+    -webkit-animation-name: none;
+    -moz-animation-name: none;
+    animation-name: none;
 }
 @-webkit-keyframes colmod-fade-in { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes colmod-fade-in { from { opacity:0; } to { opacity:1; } }
 @keyframes colmod-fade-in { from { opacity:0; } to { opacity:1; } }
 [class|="colmod-link"] div.foldable-list-container {
-    display: inline;
+    display: inline;
 }
 .colmod-collapsiblealt > [class|="colmod-link"],
 .collapsiblealt > .colmod-block > ul > li > [class|="colmod-link"] {
-    margin: 0.5em 0;
-    text-align: center;
+    margin: 0.5em 0;
+    text-align: center;
 }
 .colmod-collapsiblealt > [class|="colmod-link"] a,
 .collapsiblealt > .colmod-block > ul > li > [class|="colmod-link"] a {
-    padding: 0.1em 0.5em;
-    text-decoration: none;
-    background-color: #F4F4F4;
-    border: 1px solid #AAA;
-    color: #000;
+    padding: 0.1em 0.5em;
+    text-decoration: none;
+    background-color: #F4F4F4;
+    border: 1px solid #AAA;
+    color: #000;
 }
 .colmod-collapsiblealt > [class|="colmod-link"] a:hover,
 .colmod-collapsiblealt > [class|="colmod-link"] a:active,
 .collapsiblealt > .colmod-block > ul > li > [class|="colmod-link"] a:hover,
 .collapsiblealt > .colmod-block > ul > li > [class|="colmod-link"] a:active {
-    background: #DDD;
-    text-decoration: none;
+    background: #DDD;
+    text-decoration: none;
 }
 [[/module]]
 
@@ -403,23 +403,23 @@ My petals will never be white again.
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default: ID
- * type: text
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: ID
+ * default: ID
+ * type: text
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # affiliation
- * title: PASSWORD
- * default: ・・・・・・・・・
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: PASSWORD
+ * default: ・・・・・・・・・
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]
@@ -545,7 +545,7 @@ SCP-6152 then took its fox form. It growled loudly, making verbal communication 
 
 In his report, agent Greggor notes that he determined that the SCP was non-violent. He wrote:
 
-      //It asked me about how officer Heatherfield was doing, although it didn't know the name. This was when I realised we were going to be able to talk it down. I determined that it was interested in his familial situation, and by this concluded it regretted hurting him. During the entire discussion, the creature felt emotionally off-balance. At one point it said 'It is a terrible thing to have somebody die, and a worse thing to have somebody die for you.'.//
+      //It asked me about how officer Heatherfield was doing, although it didn't know the name. This was when I realised we were going to be able to talk it down. I determined that it was interested in his familial situation, and by this concluded it regretted hurting him. During the entire discussion, the creature felt emotionally off-balance. At one point it said 'It is a terrible thing to have somebody die, and a worse thing to have somebody die for you.'.//
 
 Discussion continued for several hours. While the entity would not attack, it also would not cooperate. Relocating the entity was deemed too difficult. Thus, it was decided that the Penny-Valley estate would serve as a temporary containment site.
 

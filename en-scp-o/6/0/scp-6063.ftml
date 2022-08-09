@@ -25,11 +25,11 @@
 
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -38,38 +38,38 @@
 
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
 }
 .page p,
 .page ul {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -78,22 +78,22 @@
 
 [[module css]]
 .danke {
-    padding: 5px;
-    margin-bottom:10px;
-    font-family: monospace;
-    font-size: 1.1em; 
+    padding: 5px;
+    margin-bottom:10px;
+    font-family: monospace;
+    font-size: 1.1em; 
 }
 
 .agent {
-    background-color:#002200;
-    border: 3px solid #55AA55;
-    color: #77CC77;
+    background-color:#002200;
+    border: 3px solid #55AA55;
+    color: #77CC77;
 }
 
 .site {
-    background-color:#222200;
-    border: 3px solid #AAAA55;
-    color: #DDDD77;
+    background-color:#222200;
+    border: 3px solid #AAAA55;
+    color: #DDDD77;
 }
 [[/module]]
 
@@ -142,23 +142,23 @@ Please input your credentials below to access the remainder of the file.
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default: ・・・・・・
- * type: text
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: ID
+ * default: ・・・・・・
+ * type: text
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # affiliation
- * title: Password
- * default: ・・・・・・・・・・・・・・・・
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: Password
+ * default: ・・・・・・・・・・・・・・・・
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]
@@ -175,7 +175,7 @@ Please input your credentials below to access the remainder of the file.
 > 
 > You may perhaps be wondering why we have not taken the decision to decommission SCP-6063, given how dangerous it is and given the exorbitant cost of cleanup after Incident 6063-Alpha. We are wholly cognisant of the risks involved. The Foundation places a very high bar on decommissioning anomalies, but the possibility of a future global outbreak made it a matter for urgent consideration by the Council.
 > 
-> In the end, they decided against decommissioning SCP-6063 for two reasons. First, SCP-6063 could be useful in future. For instance, if we discover a threatening Keter-class anomaly that somehow fits in with human society, a successful deployment of SCP-6063 could make it substantially easier to contain.   Hatred in a can is a useful capability for the Foundation to keep in reserve. 
+> In the end, they decided against decommissioning SCP-6063 for two reasons. First, SCP-6063 could be useful in future. For instance, if we discover a threatening Keter-class anomaly that somehow fits in with human society, a successful deployment of SCP-6063 could make it substantially easier to contain.   Hatred in a can is a useful capability for the Foundation to keep in reserve. 
 > 
 > Secondly, and more importantly, we have yet to determine where SCP-6063 came from. That raises the disturbing possibility that it is natural, and could arise again; it's not implausible that all our decommissioning would do is destroy this instance of SCP-6063, leaving us more vulnerable to it if it appears in the wild again. Keeping it in containment allows for further study towards immunising the global population against SCP-6063, and ensures we keep our institutional memory alive.
 > 
@@ -388,7 +388,7 @@ Philip
 > 
 > **Dr Cavendish:** Deserved it? 
 > 
->  **PC Singh:** Yeah. It took us a few days of discussion, we wanted to get as much intelligence as we could. We wanted to know what had happened, because it seemed so strange. But in this line of work, you learn there's no smoke without fire, a lot of the time. And he really was, if you don’t mind me saying, a [[span style="color:red"]]**EPITHET**[[/span]] of the highest order.
+>  **PC Singh:** Yeah. It took us a few days of discussion, we wanted to get as much intelligence as we could. We wanted to know what had happened, because it seemed so strange. But in this line of work, you learn there's no smoke without fire, a lot of the time. And he really was, if you don’t mind me saying, a [[span style="color:red"]]**EPITHET**[[/span]] of the highest order.
 > 
 > **Dr Cavendish:** A twelve-year-old boy?
 > 
@@ -676,13 +676,13 @@ Honestly, once we told him what we thought had happened, I think a little part o
 Anyway – he seemed like he was desperate to forget. We told him we’d wipe his parents, too, and we thought we could get them back together. That got him crying again. So I gave him another hug before I administered the amnestic and sedative. I told him I'd look after him and we'd make sure it all worked out. 
 
 A little unprofessional. But there we are. I felt very sorry for him. It is what it is.
- 
+ 
 The trouble is that I’m starting to feel [[span style="color:red"]]**//IT//**[[/span]] too. When I think about Peter now, how he held tight to my arm when we found him, how he wept into my shoulder in the temporary unit, I feel disgust, not the sympathy I clearly remember feeling just the other day. Even though I know it’s the anomaly, I can’t hold it back. 
 
 I understand what the policeman said. I understand those diary entries from the headmistress. I understand Roger. Like him, my training held it back, but it’s breaking through now, and we can’t take the risk.
 
 I’ve calibrated the amnestics and will self-administer them shortly. I’ve also added a cover note to the files I have prepared, to explain the hazardous effects of hearing about the effects of the anomaly, and I anticipate that when I come round I will aid in further research. But for now we need prophylaxis. We cannot risk it spreading any further.
- 
+ 
 The experience has not been wholly unpleasant. I am not used to children. I don't have any of my own. But I got on with Peter quite well. I liked him rather a lot, if I'm honest. He is quite funny and inquisitive and curious. A little odd, I suppose, but that's not such a bad thing. He might make a good researcher one day. Perversely, the two weeks I spent with him were some of the most I have enjoyed my work in some years now.
 
 But I can feel it all curdling in my stomach. Soon he won't be inquisitive, but nosy; soon he won't be funny, but annoying; soon he won't be an unhappy, unlucky boy, but a shrill little whiner who brought it all on himself. His grandfather said I would understand, eventually, and I do.

@@ -2,153 +2,153 @@
 [[include :scp-wiki:component:fade-in speed=1]]
 
 [[module css]]
- @import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap);
+ @import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap);
 
 /* HEADER */
- :root{
-   --header-title: "SERAPIS";
-   --header-subtitle: "WARNING - PROCEDURE DRAFTING IN PROGRESS";
-   --mono-font: "Fira Code", "Cousine", monospace;
+ :root{
+   --header-title: "SERAPIS";
+   --header-subtitle: "WARNING - PROCEDURE DRAFTING IN PROGRESS";
+   --mono-font: "Fira Code", "Cousine", monospace;
 }
 
- div#extra-div-1{
-     background-image: url(https://i.imgur.com/Q2TCZnd.png);
-     filter: opacity(.25);
+ div#extra-div-1{
+     background-image: url(https://i.imgur.com/Q2TCZnd.png);
+     filter: opacity(.25);
 }
 
- @media (max-width: 767px){
-     #header h1{
-          position: relative;
-          top: -.5rem;
-    }
-     #header h2{
-          margin-top: -.5rem;
-    }
+ @media (max-width: 767px){
+     #header h1{
+          position: relative;
+          top: -.5rem;
+    }
+     #header h2{
+          margin-top: -.5rem;
+    }
 }
 
- .meta-title{
-     color: hsl(0, 0%, 0%);
-     font-family: "Montserrat", sans-serif;
-     text-align: center;
-     letter-spacing: 1px;
+ .meta-title{
+     color: hsl(0, 0%, 0%);
+     font-family: "Montserrat", sans-serif;
+     text-align: center;
+     letter-spacing: 1px;
 }
 
- .pseudocrumbs{
-     margin: -2em 0 1em;
-     text-align: center;
+ .pseudocrumbs{
+     margin: -2em 0 1em;
+     text-align: center;
 }
 
- /* FORMATTING */
- body{
-     color: hsl(0, 0%, 0%);
-     text-underline-offset: 2px;
+ /* FORMATTING */
+ body{
+     color: hsl(0, 0%, 0%);
+     text-underline-offset: 2px;
 }
 
- h1, h2, h3, h4, h5{
-     text-align: center;
-     word-break: unset;
+ h1, h2, h3, h4, h5{
+     text-align: center;
+     word-break: unset;
 }
 
- hr{
-     height: 0;
-     margin: 1em 0;
+ hr{
+     height: 0;
+     margin: 1em 0;
 
-     background-color: transparent;
-     border-top: 1px solid hsl(0, 0%, 0%);
+     background-color: transparent;
+     border-top: 1px solid hsl(0, 0%, 0%);
 }
 
- .collapsible-block{
-     margin: 1em 0;
+ .collapsible-block{
+     margin: 1em 0;
 }
 
- .terminal-span{
-     font: bold 100%/1.5 var(--mono-font);
-     letter-spacing: 0;
+ .terminal-span{
+     font: bold 100%/1.5 var(--mono-font);
+     letter-spacing: 0;
 }
 
 /* CUSTOM BLOCKS */
- .progress-block{
-     display: inline-block;
-     width: 1em;
-     height: 1em;
-     vertical-align: middle;
-     border-width: medium;
-     border-style: solid;
+ .progress-block{
+     display: inline-block;
+     width: 1em;
+     height: 1em;
+     vertical-align: middle;
+     border-width: medium;
+     border-style: solid;
 }
 
- .progress-block.alfa{
-     width: 1.5em;
-     height: 1.5em;
+ .progress-block.alfa{
+     width: 1.5em;
+     height: 1.5em;
 }
 
- .progress-block.available{
-     background-color: hsla(120, 91%, 86%, .5);
-     border-color: hsl(120, 62%, 66%);
+ .progress-block.available{
+     background-color: hsla(120, 91%, 86%, .5);
+     border-color: hsl(120, 62%, 66%);
 }
 
- .progress-block.pending{
-     background-color: hsla(0, 0%, 67%, .5);
-     border-color: hsl(0, 0%, 67%);
+ .progress-block.pending{
+     background-color: hsla(0, 0%, 67%, .5);
+     border-color: hsl(0, 0%, 67%);
 }
 
- .progress-block.unavailable{
-     background-color: hsla(360, 91%, 86%, .5);
-     border-color: hsla(360, 62%, 66%);
+ .progress-block.unavailable{
+     background-color: hsla(360, 91%, 86%, .5);
+     border-color: hsla(360, 62%, 66%);
 }
 
- .page-source{
-     border-width: medium;
+ .page-source{
+     border-width: medium;
 }
 
- .page-source p{
-     font-size: 120%;
+ .page-source p{
+     font-size: 120%;
 }
 
- .page-source.available{
-     background-color: hsla(120, 91%, 86%, .25);
-     border-color: hsl(120, 62%, 66%);
-     border-style: solid;
+ .page-source.available{
+     background-color: hsla(120, 91%, 86%, .25);
+     border-color: hsl(120, 62%, 66%);
+     border-style: solid;
 }
 
- .page-source.available h2{
-     color: hsl(120, 100%, 30%);
+ .page-source.available h2{
+     color: hsl(120, 100%, 30%);
 }
 
- #page-content .page-source.available hr{
-     border-color: hsl(120, 62%, 66%);
+ #page-content .page-source.available hr{
+     border-color: hsl(120, 62%, 66%);
 }
 
- .page-source.pending{
-     background-color: hsla(0, 0%, 67%, .25);
+ .page-source.pending{
+     background-color: hsla(0, 0%, 67%, .25);
 }
 
- .page-source.unavailable{
-     background-color: hsla(360, 91%, 86%, .25);
-     border-color: hsla(360, 62%, 66%, .5);
+ .page-source.unavailable{
+     background-color: hsla(360, 91%, 86%, .25);
+     border-color: hsla(360, 62%, 66%, .5);
 }
 
- .page-source.unavailable h2{
-     color: hsl(0, 100%, 30%);
+ .page-source.unavailable h2{
+     color: hsl(0, 100%, 30%);
 }
 
- #page-content .page-source.unavailable hr{
-     border-color: hsl(360, 62%, 66%);
+ #page-content .page-source.unavailable hr{
+     border-color: hsl(360, 62%, 66%);
 }
 
- .footing::before{ /* ---- Page Footing ---- */
-     content: " ";
-     position: absolute;
-     bottom: 1px;
-     left: 0;
-     right: 0;
-     border-bottom: 2px solid hsl(0, 0%, 0%);
+ .footing::before{ /* ---- Page Footing ---- */
+     content: " ";
+     position: absolute;
+     bottom: 1px;
+     left: 0;
+     right: 0;
+     border-bottom: 2px solid hsl(0, 0%, 0%);
 }
 
- .footing{
-     position: relative;
-     bottom: -2px;
-     margin-bottom: 2px;
-     border-bottom: 1px solid hsl(0, 0%, 0%);
+ .footing{
+     position: relative;
+     bottom: -2px;
+     margin-bottom: 2px;
+     border-bottom: 1px solid hsl(0, 0%, 0%);
 }
 [[/module]]
 
@@ -302,7 +302,7 @@ Portions of the transcript in bold are narrated by **DR. GALLIO**.
 > 
 > **WEISS:** Jesus Christ.
 > 
->  **LYNCH:** Remind me why we even bring you?
+>  **LYNCH:** Remind me why we even bring you?
 > 
 > **WEISS:** Because I’m the explosives guy and you couldn’t tell plastique from Play-Doh.
 > 

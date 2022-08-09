@@ -14,48 +14,48 @@
 
 
 :root {
-    --logo-image: url("http://scp-wiki.wdfiles.com/local--files/scp-6665/adm.png");
-    --header-subtitle: "MEMORIAL OFFICE OF THE ADMINISTRATORS";
-    --wght: 500;
+    --logo-image: url("http://scp-wiki.wdfiles.com/local--files/scp-6665/adm.png");
+    --header-subtitle: "MEMORIAL OFFICE OF THE ADMINISTRATORS";
+    --wght: 500;
 }
 
 #header h1 a::before,
-#header h2 span::before  {
-        -webkit-text-stroke: 0.325rem rgb(var(--swatch-text-dark));
+#header h2 span::before  {
+        -webkit-text-stroke: 0.325rem rgb(var(--swatch-text-dark));
 }
 
 #page-title {
-  display: none;
+  display: none;
 }
 
 
 .meta-title a{
-    color: #fafafa;
+    color: #fafafa;
 }
 
 .footnotes-footer {
 
-  display: none;
+  display: none;
 }
 .scp-image-block {
-    border: none;
-    box-sizing: border-box;
+    border: none;
+    box-sizing: border-box;
 }
 .scp-image-block .scp-image-caption {
-    background-color: #202020;
-    border: 2px solid #a12d25;
-    color: #fcfcfc;
-    font-size: 0.65rem;
-    padding: 0.3rem;
-    box-sizing: border-box;
-   font-size: 90%;
+    background-color: #202020;
+    border: 2px solid #a12d25;
+    color: #fcfcfc;
+    font-size: 0.65rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+   font-size: 90%;
 }
 .scp-image-block.block-left { margin-left: 0; }
 .scp-image-block.block-right { margin-right: 0; }
 @media (max-width: 540px) {
-  .scp-image-block.block-left, .scp-image-block.block-right {
-    float: none; clear: both; margin-left: auto; margin-right: auto;
-  }
+  .scp-image-block.block-left, .scp-image-block.block-right {
+    float: none; clear: both; margin-left: auto; margin-right: auto;
+  }
 }
 
 .redhr { 
@@ -67,10 +67,10 @@ margin: auto;
 }
 
 hr {
-    margin: 1em 1em;
-    padding: 0;
-    height: 0;
-    border-top: #a12d25 solid 2px;
+    margin: 1em 1em;
+    padding: 0;
+    height: 0;
+    border-top: #a12d25 solid 2px;
 }
 
 .bredhr { 
@@ -82,36 +82,36 @@ margin: auto;
 }
 
 .rbbox {
-  background: linear-gradient(to bottom, #a12d25, #730000);
-  padding: 3px;
-  width: 87%;
-   margin: auto;
+  background: linear-gradient(to bottom, #a12d25, #730000);
+  padding: 3px;
+  width: 87%;
+   margin: auto;
 }
 
 .ebbox {
-  background: linear-gradient(to bottom, #a12d25, #730000);
-  padding: 3px;
-  width: 90%;
-   margin: auto;
+  background: linear-gradient(to bottom, #a12d25, #730000);
+  padding: 3px;
+  width: 90%;
+   margin: auto;
 }
 
 .rbox {
-  background: #202020;
-  border: solid 2px #c75d5d;
-  color: #fcfcfc;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  background: #202020;
+  border: solid 2px #c75d5d;
+  color: #fcfcfc;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .end {
-    -webkit-mask-image: linear-gradient(to bottom, rgb(0,0,0,1) 0%, rgb(0,0,0,1) calc(100% - 15rem), rgb(0,0,0,0) 100%);
-    mask-image: linear-gradient(to bottom, rgb(0,0,0,1) 0%, rgb(0,0,0,1) calc(100% - 15rem), rgb(0,0,0,0) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgb(0,0,0,1) 0%, rgb(0,0,0,1) calc(100% - 15rem), rgb(0,0,0,0) 100%);
+    mask-image: linear-gradient(to bottom, rgb(0,0,0,1) 0%, rgb(0,0,0,1) calc(100% - 15rem), rgb(0,0,0,0) 100%);
 
 }
 .end2 {
-    -webkit-mask-image: linear-gradient(to top, rgb(0,0,0,1) 0%, rgb(0,0,0,1) calc(100% - 15rem), rgb(0,0,0,0) 100%);
-    mask-image: linear-gradient(to top, rgb(0,0,0,1) 0%, rgb(0,0,0,1) calc(100% - 15rem), rgb(0,0,0,0) 100%);
+    -webkit-mask-image: linear-gradient(to top, rgb(0,0,0,1) 0%, rgb(0,0,0,1) calc(100% - 15rem), rgb(0,0,0,0) 100%);
+    mask-image: linear-gradient(to top, rgb(0,0,0,1) 0%, rgb(0,0,0,1) calc(100% - 15rem), rgb(0,0,0,0) 100%);
 
 }
 
@@ -123,18 +123,18 @@ text-shadow: 2px 2px 2px #c75d5d;
 }
 
 #page-content .wiki-content-table tr th {
-    border: 1px solid #a12d25 !important;
-  background: linear-gradient(to bottom, #a12d25, #730000);
-    color: #fcfcfc;
- 
-    // set border for table title
+    border: 1px solid #a12d25 !important;
+  background: linear-gradient(to bottom, #a12d25, #730000);
+    color: #fcfcfc;
+ 
+    // set border for table title
 }
- 
+ 
 #page-content .wiki-content-table tr td {
-    background: #202020;
-    text-align: center;
-    border: 1px solid #a12d25 !important;
-    
+    background: #202020;
+    text-align: center;
+    border: 1px solid #a12d25 !important;
+    
 }
 
 .redact {
@@ -196,14 +196,14 @@ Further details are redacted.
 
 The continued lobotomization of SCP-6665-α will retain the functionality of SCP-6665 and the Foundation as a whole. One subject -- designated 'Caretaker' -- will be selected to perform daily medical examinations on SCP-6665 and its components, in order to ensure its continued complicity. Caretaker must perform the following medical routine for SCP-6665. Precise amounts specified are subject to increase. 
 
-||~ {{**WEEKDAY**}}  ||~ {{**REQUIRED MEDICAL INTERVENTION(S)**}} ||
-|| Monday  || Beginning of starvation period; SCP-6665-█ and its chamber are to be thoroughly examined. Blood transfusion to SCP-6665-α, type A+ or compatible.|| 
-|| Tuesday || General examination. ||          
-|| Wednesday || Plaque entanglement implantation (3-5, dependent on recent behavior) into SCP-6665-α, through the use of SCP-6665. Subsequent assurance of proper implementation.||          
-|| Thursday || General examination.  ||         
-|| Friday || Synaptic retrogenesis injections (10cc), injected nasally into SCP-6665-α. This will be followed by intense monitoring of SCP-6665-█, and any cries that are thought to be heard from inside the black chamber. Subsequent self-assurance that such cries mean nothing. ||          
-|| Saturday || General examination. ||          
-|| Sunday || End of starvation period. Sanitation of any residual nothingness. Repairs from any coinciding occurrences. Wiping the eyes and mouth of SCP-6665-α. ||    
+||~ {{**WEEKDAY**}}  ||~ {{**REQUIRED MEDICAL INTERVENTION(S)**}} ||
+|| Monday  || Beginning of starvation period; SCP-6665-█ and its chamber are to be thoroughly examined. Blood transfusion to SCP-6665-α, type A+ or compatible.|| 
+|| Tuesday || General examination. ||          
+|| Wednesday || Plaque entanglement implantation (3-5, dependent on recent behavior) into SCP-6665-α, through the use of SCP-6665. Subsequent assurance of proper implementation.||          
+|| Thursday || General examination.  ||         
+|| Friday || Synaptic retrogenesis injections (10cc), injected nasally into SCP-6665-α. This will be followed by intense monitoring of SCP-6665-█, and any cries that are thought to be heard from inside the black chamber. Subsequent self-assurance that such cries mean nothing. ||          
+|| Saturday || General examination. ||          
+|| Sunday || End of starvation period. Sanitation of any residual nothingness. Repairs from any coinciding occurrences. Wiping the eyes and mouth of SCP-6665-α. ||    
 
 This routine can be ignored on the dates of July 20th, October 12th, February 14th, and August 22nd. On the former two dates, procedures can be performed with marginal effectivity if a chocolate cake with several candles is present.
 
@@ -220,7 +220,7 @@ NARM0.0.aic -- the Foundation grammatical assistance intelligence construct -- h
 
 SCP-6665 consists of a 15m tall, biomechanical, conical apparatus, affixed in a position of vertical levitation within Site-01. SCP-6665 predominantly resembles the shape of an orbitoclast[[footnote]]The instrument used to perform transorbital lobotomies.[[/footnote]], which gradually tapers down from a diameter of 2m to a small point at its end. 
 
-At the top of SCP-6665 -- in place of a normal orbitoclast handle --  is a 2m tall black chamber of unknown composition. Atop this chamber is a large glass tank, which feeds directly into the chamber's only opening. While internal imaging indicates this chamber is hollow, nothing can be seen inside. This nothing is designated SCP-6665-█.
+At the top of SCP-6665 -- in place of a normal orbitoclast handle --  is a 2m tall black chamber of unknown composition. Atop this chamber is a large glass tank, which feeds directly into the chamber's only opening. While internal imaging indicates this chamber is hollow, nothing can be seen inside. This nothing is designated SCP-6665-█.
 
 [[[SCP-5666|SCP-6665-α is former Foundation Co-Administrator Malorie Auguste]]]. SCP-6665-α is in a constant state of being lobotomized by SCP-6665, puncturing through its thought. SCP-6665-α has been integrated into SCP-6665; further details are strictly indeterminable. 
 
@@ -235,7 +235,7 @@ Information expunged by SCP-6665 is subject to loss of remembrance by Foundation
 SCP-6665 is prone to frequent errors. SCP-6665 will expunge extraneous information, such as names, dates, numerical values, and locations, even when such information is not entirely classified. This affects all levels of security clearance, and retroactively alters all former revisions of affected documents, causing Foundation recovery of most of this data to be impossible. Due to this, small pieces of data are wholly unmemorable by Foundation personnel of any clearance. Personnel heavily affected by this information removal occasionally vomit nothing, which usually remains nothing. 
 
 It is unknown if SCP-6665 can be disconnected from Foundation databases or otherwise deactivated, as the O5 Council has forbade any such action.
- 
+ 
 -----
 
 [[=]]
@@ -265,20 +265,20 @@ With tragedy comes opportunity, like a phoenix fueling a fire. A new age begins,
 This will only be the start of the beginning. Our Foundation, the test ground for true security, true containment. We can live burning in the light of all past knowledge, while the world remains sheltered in the dark warmth of the black boxes. 
 
 = **COUNCIL VOTE SUMMARY**
-||~ {{**YEA**}}  ||~ {{**NAY**}}  ||~ {{**ABSTAIN**}} ||
-||  || **O5-1**      ||          ||
-|| **O5-2** ||       ||          ||
-|| **O5-3** ||       ||          ||
-|| **O5-4** ||       ||          ||
-|| **O5-5** ||       ||          ||
-|| **O5-6** ||       ||          ||
-|| **O5-7** ||       ||          ||
-|| **O5-8** ||       ||          ||
-|| **O5-9** ||       ||          ||
-|| **O5-10** ||       ||          ||
-|| **O5-11** ||       ||          ||
-|| **O5-12** ||       ||          ||
-|| **O5-13** ||       ||          ||     
+||~ {{**YEA**}}  ||~ {{**NAY**}}  ||~ {{**ABSTAIN**}} ||
+||  || **O5-1**      ||          ||
+|| **O5-2** ||       ||          ||
+|| **O5-3** ||       ||          ||
+|| **O5-4** ||       ||          ||
+|| **O5-5** ||       ||          ||
+|| **O5-6** ||       ||          ||
+|| **O5-7** ||       ||          ||
+|| **O5-8** ||       ||          ||
+|| **O5-9** ||       ||          ||
+|| **O5-10** ||       ||          ||
+|| **O5-11** ||       ||          ||
+|| **O5-12** ||       ||          ||
+|| **O5-13** ||       ||          ||     
 @@ @@
 ||~ {{STATUS}} ||
 || ##lime|**APPROVED.**##||
@@ -433,7 +433,7 @@ The crack is promptly patched without further incident. Residue was reinserted i
 -----
 
 
-{{**SUMMARY:**}}  SCP-6665-α tries to remove SCP-6665. Several cognitohazards are suddenly unredacted throughout Foundation databases as a result. [[span class="redact"]]MAL[[/span]] casualties are reported. 
+{{**SUMMARY:**}}  SCP-6665-α tries to remove SCP-6665. Several cognitohazards are suddenly unredacted throughout Foundation databases as a result. [[span class="redact"]]MAL[[/span]] casualties are reported. 
 
 SCP-6665-α vomits. The vomit becomes a black and white rabbit. The red bow on the top of its head bleeds. The rabbit smiles, nothing else smiles. 
 
@@ -543,8 +543,8 @@ A full log of this power outage as viewed from the containment chamber of SCP-66
 
 {{**O5-2:**}} What is going on over there? 
 
-(//Something large falls lightly to the ground.//)  
-  
+(//Something large falls lightly to the ground.//)  
+  
 {{**O5-2:**}} Hello? Can, can anyone hear this? 
 
 (//Guards attempt to enter the containment chamber from outside, but the door has been rendered inoperable by the power outage.//)
@@ -561,7 +561,7 @@ A full log of this power outage as viewed from the containment chamber of SCP-66
 
 (//Retching, followed by a wet thud. O5-2 becomes more frantic.//) 
 
-[[span class="redact"]]MEAGAIN[[/span]]: What are you-- where are we going?  
+[[span class="redact"]]MEAGAIN[[/span]]: What are you-- where are we going?  
 
 [[span class="redact"]]ILOVEYOU[[/span]]: Shhh, just, just one second!
 
@@ -573,7 +573,7 @@ A full log of this power outage as viewed from the containment chamber of SCP-66
 
 (//Cracking. As O5-2 feels across the wall, it no longer feels concrete; he feels wallpaper. The floor creaks like hardwood as he runs frantically, now disoriented.//)
 
-[[span class="redact"]]OUTLOVE[[/span]]: ....what'd you mean?   
+[[span class="redact"]]OUTLOVE[[/span]]: ....what'd you mean?   
 
 [[span class="redact"]]LETSBEUS[[/span]]: Well... you're always so kind! Fascinating too, really. Believe me, I'd never thought I'd be so interested in planes... planes of all things! No offense. But uh, well, when it's you talking, I can feel like... like I can listen to it forever.
 
@@ -591,7 +591,7 @@ A full log of this power outage as viewed from the containment chamber of SCP-66
 
 (//Shattering. Hard fragments clatter to the ground. The footsteps move towards the front of the bed, merging together until only two heavy pairs remain. Two feminine voices are heard; what they say mostly unintelligible, besides a single phrase at the end.//)
 
-[[span class="redact"]]//ILOVEYOU[[/span]]// & [[span class="redact"]]//TOO,MADS//[[/span]]: --and the nightmares will go away.    
+[[span class="redact"]]//ILOVEYOU[[/span]]// & [[span class="redact"]]//TOO,MADS//[[/span]]: --and the nightmares will go away.    
 
 (//Power is restored to the east wing of Site-01 by engineering staff after physical intervention by multiple O5 Council members; the lights flicker on. No part of the containment room is out of the ordinary, besides O5-2 curled in the corner, with his eyes tightly shut.//)
 
@@ -666,7 +666,7 @@ The following is an informal meeting between O5-1, O5-10, and O5-7 within a conf
 
 {{**O5-10:**}} It's Ten.
 
-{{**O5-1:**}} --They're doing something with what little they have left. There's still something fleeting in there.  And he's hurting them. For his gain. 
+{{**O5-1:**}} --They're doing something with what little they have left. There's still something fleeting in there.  And he's hurting them. For his gain. 
 
 {{**O5-10:**}} //His// own? We all gain from this. Every damn person in this organization, and //especially// us, especially you. If we can secure the knowledge of those things we lock up, keep the world ignorant and happy, you know, our job will be much, much easier. Yeah it's only our people for now, but think about it, will yeah? A world where the monsters under the bed, all them bumps in the night, all are just--
 
@@ -674,7 +674,7 @@ The following is an informal meeting between O5-1, O5-10, and O5-7 within a conf
 
 {{**O5-10:**}} I care One, I care about the greater good. 
 
-{{**O5-1:**}} I've had it with that phrase -- "the greater good" -- greater than what? Do we measure goodness on a scale? Some-- some arbitrary good meter we've locked in a cell somewhere? Do Malorie and Maddison weigh less than-- than all //this//? Well? Do they?  
+{{**O5-1:**}} I've had it with that phrase -- "the greater good" -- greater than what? Do we measure goodness on a scale? Some-- some arbitrary good meter we've locked in a cell somewhere? Do Malorie and Maddison weigh less than-- than all //this//? Well? Do they?  
 
 (//Sniffling.//) 
 
@@ -919,7 +919,7 @@ The following was recorded inside of the office of O5-7, pertaining to another a
 
 {{**O5-7:**}} It's--
 
-{{**O5-2:**}}  6 to 6. Hard to do these things when you're down one. 
+{{**O5-2:**}}  6 to 6. Hard to do these things when you're down one. 
 
 (//O5-2 enters.//) 
 
@@ -959,7 +959,7 @@ The following was recorded inside of the office of O5-7, pertaining to another a
 
 {{**O5-2:**}} No, you just-- 
 
-{{**O5-1:**}}  We probably knew it, some time before. So did you. Did-- It began with  █, right? 
+{{**O5-1:**}}  We probably knew it, some time before. So did you. Did-- It began with  █, right? 
 
 {{**O5-2:**}} One, this-- this is unprofessional.
 
@@ -987,7 +987,7 @@ The following was recorded inside of the office of O5-7, pertaining to another a
 
 {{**O5-7:**}} Jennie-- One... this is the happiest I've felt since they...
 
-{{**O5-1:**}} You haven't made peace yet, you can't-- you're just like me. Like how he says I am. Can't bring yourself to admit it. Because it's not true yet. Their love was a powerful thing, and it still //is//. When a love like that decays-- when it rots away, all the memories of  all the things they did together... It doesn't go easily. It fights. It keeps itself from fleeting. Any way it can.
+{{**O5-1:**}} You haven't made peace yet, you can't-- you're just like me. Like how he says I am. Can't bring yourself to admit it. Because it's not true yet. Their love was a powerful thing, and it still //is//. When a love like that decays-- when it rots away, all the memories of  all the things they did together... It doesn't go easily. It fights. It keeps itself from fleeting. Any way it can.
 
 {{**O5-7:**}} You're not making any sense... I need to get going, I need to go. 
 
@@ -1010,7 +1010,7 @@ The following was recorded inside of the office of O5-7, pertaining to another a
 {{**O5-1:**}} I know. I know it's hard. I'm sure they'll love you no matter what you do. They always have.
 
 (//O5-7 pauses briefly, then exits, O5-1 sighs, briefly looking out the open office door, before exiting as well.//) 
- 
+ 
 ------
 = {{**<END LOG>**}}
 ------
@@ -1026,7 +1026,7 @@ Following these events, a hearing on O5-1's censure was held. O5-7 was not in at
 @@ @@
 -----
 [[=]]
-[[collapsible show="[DATA REDACTED - ENTER CREDENTIALS]" hide="                            "]]
+[[collapsible show="[DATA REDACTED - ENTER CREDENTIALS]" hide="                            "]]
 [[/=]]
 @@ @@
 [[<]]
@@ -1091,8 +1091,8 @@ Evaline puts on a vividly colorful dress.
 
 "Is this--" 
 
-"Hmm? Oh-- sorry, I should've let you finish, that looks great on you. Did before-- does now! Yes, Jennie, are you still getting ready?"  
- 
+"Hmm? Oh-- sorry, I should've let you finish, that looks great on you. Did before-- does now! Yes, Jennie, are you still getting ready?"  
+ 
 Jennie walks out of the changing room. 
 
 "Eva!" 
@@ -1131,7 +1131,7 @@ He cannot look away.
 
 He cannot look away. 
 
-"You're the only one stuck in the past."  
+"You're the only one stuck in the past."  
 
 He cannot look away. Caught in retrospective bliss, the past becomes his only present, stuck shuttered in the closure of a flytrap symphony, orchestrating in the orbits of two fluttering eyes. Eyelid-jaws close, eyelash-teeth interweave, before they open again to the sight of Malorie. 
 
@@ -1143,7 +1143,7 @@ As they kiss, their lips twirl like propellors in the embrace of eachother's fol
 
 "I-- I won't lie... I'm kinda afraid of heights."
 
-"I won't lie too Mal, I'm a bit of the same. But we have each other, I'll be here, you'll be here. Anything up there-- nothing won't stand a chance against us."  
+"I won't lie too Mal, I'm a bit of the same. But we have each other, I'll be here, you'll be here. Anything up there-- nothing won't stand a chance against us."  
 
 Their laughter takes them to the stars. As they fly off forevermore into the oscillating blues of the cloudlessly clear sky, the Sun shines like a burning memory. 
 

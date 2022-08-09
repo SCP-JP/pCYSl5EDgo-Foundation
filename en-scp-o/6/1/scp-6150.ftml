@@ -1,62 +1,62 @@
 [[include :scp-wiki:theme:blankstyle]]
 [[module css]]
 body{
-    --barColour: #8c8c8c;
+    --barColour: #8c8c8c;
 }
 
 :root{
-  --header-title: "SCP Foundation";
-  --header-subtitle: "Secure, Contain, Protect";
+  --header-title: "SCP Foundation";
+  --header-subtitle: "Secure, Contain, Protect";
 }
 
 #header h1 a:before {
-    font-size: 2.0rem;
+    font-size: 2.0rem;
 }
 
 div#extra-div-1 {
-    background-image: url(https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/nb_logo_blk.svg);
-    filter: opacity(25%);
+    background-image: url(https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/nb_logo_blk.svg);
+    filter: opacity(25%);
 }
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Elenee FishTruck";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
-    line-height: 2.75ex;
+    --wght: 800;
+    content: "Elenee FishTruck";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 2.75ex;
 }
 [[/module]]
 

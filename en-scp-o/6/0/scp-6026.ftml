@@ -4,55 +4,55 @@
 [[include :scp-wiki:component:toggle-sidebar]]
 [[module CSS]]
 #header {
-    background: url('https://scp-wiki.wdfiles.com/local--files/component:theme/logo.png') 10px 35px no-repeat;
+    background: url('https://scp-wiki.wdfiles.com/local--files/component:theme/logo.png') 10px 35px no-repeat;
 }
 #header h1 a {
-    content: "SCP Foundation";
+    content: "SCP Foundation";
 }
 #header h1 a::before {
-    content: "SCP Foundation";
+    content: "SCP Foundation";
 }
 #header h2 span::before {
-    content: "Secure Contain Protect";
+    content: "Secure Contain Protect";
 }
 .side-block .menu-item > .image {
-    display: none;
+    display: none;
 }
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p,
 .page ul {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 /* anendlessusername's invaluable correction of the ACS octagon! */
 #page-content .quadrants > div {
-    top: 2.25%;
-    left: 18.5%;
+    top: 2.25%;
+    left: 18.5%;
 }
 :root {
-    --timeScale: 2;
-    --timeDelay: 0.5s;
+    --timeScale: 2;
+    --timeDelay: 0.5s;
 }
 [[/module]]
 [[>]]
@@ -63,7 +63,7 @@
 |clearance= 3
 |container-class= euclid
 |secondary-class= none
-|secondary-icon=  none
+|secondary-icon=  none
 |disruption-class= dark
 |risk-class= caution
 ]]
@@ -143,7 +143,7 @@ On 2020/11/11 at 09:30, a call was made to authorities by beach moderators. The 
 ------
 **Addendum.6026.2:** Test Logs
 
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
 TEST LOG 001
@@ -169,7 +169,7 @@ Instance ate all four items when given them.
 [[/row]]
 [[/table]]
 ------
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
 TEST LOG 012
@@ -195,7 +195,7 @@ Instance showed a reaction of fear, scurrying away from the animal while making 
 [[/row]]
 [[/table]]
 ------
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
 TEST LOG 036
@@ -221,7 +221,7 @@ While the instance was able to write down some words, it could not form coherent
 [[/row]]
 [[/table]]
 ------
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
 TEST LOG 079
@@ -247,7 +247,7 @@ Instance showed serenity when around the researcher, almost a sign of happiness.
 [[/row]]
 [[/table]]
 ------
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
 TEST LOG 080
