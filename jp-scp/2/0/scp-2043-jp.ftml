@@ -1,11 +1,11 @@
 [[module CSS]]
 .blinkbar {color: red;font-size:125%; animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
 .blink .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 a.collapsible-block-link { font-weight: bold; }
@@ -14,45 +14,45 @@ a.collapsible-block-link { font-weight: bold; }
 [[module CSS]]
 /* INFO BOX */
 sup{
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 body{
-    --cutColour: #fafafa;
-    --barColour: #590505;
-    color: rgb(12, 12, 12);
+    --cutColour: #fafafa;
+    --barColour: #590505;
+    color: rgb(12, 12, 12);
 }
 .translation_block{ display: none; }
 .u-faq{ display: none; }
 
 /* DIV BLOCKS */
 .testing-log{
-    border: 2px dashed #999;
-    border-radius: .61em;
-    background-color: #f4f4f4;
-    padding: .25em 1em;
-    margin-bottom: 1em;
+    border: 2px dashed #999;
+    border-radius: .61em;
+    background-color: #f4f4f4;
+    padding: .25em 1em;
+    margin-bottom: 1em;
 }
 .quote-block{
-    border: 3px double #999;
-    background-color: #f4f4f4;
-    padding: .25em 1em;
-    margin-bottom: 1em;
+    border: 3px double #999;
+    background-color: #f4f4f4;
+    padding: .25em 1em;
+    margin-bottom: 1em;
 }
 .researcher-note{
-    border: 1px solid rgb(12, 12, 12);
-    background-color: white;
-    padding: .25em 1em;
-    margin-bottom: 1em;
-    text-align: center;
+    border: 1px solid rgb(12, 12, 12);
+    background-color: white;
+    padding: .25em 1em;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 /* FORMATTING */
 hr{
-     margin: 1em 0;
-     padding: 0;
-     border: 0;
+     margin: 1em 0;
+     padding: 0;
+     border: 0;
 }
 [[/module]]
 
@@ -73,11 +73,11 @@ hr{
 ]]
 -----
 
-[[include component:image-block  
+[[include component:image-block  
 name= koutisyo.jpg |
 caption=SCP-2043-JPの外観|
-width=300px |]]  
- [[/div]]
+width=300px |]]  
+ [[/div]]
 
 -----
 
@@ -189,10 +189,10 @@ caption=事件の現場となった霞ヶ関駅|width=220px
 -----
 
 [[=]]
-[[include component:image-block  
+[[include component:image-block  
 name= matiaisitu.jpg |
 caption=居住区内の待合室-2A|
-width=250px |]]   [[/div]]
+width=250px |]]   [[/div]]
 [[/=]]
 
 [探索人員に割り振られた3名のDクラス職員は明かりがついていない暗いサイト-81A3の廊下を進んでいる。3名は居住区内の待合室-2A内に到着するが、D-1923が何かを視認したようにして足を止める]
@@ -324,9 +324,9 @@ width=250px |]]   [[/div]]
 @@@@
 
 [[=]]
-[[include component:image-block  
+[[include component:image-block  
 name= kyoukaisi.jpg |
-caption=僧衣を着用した人型実体|width=250px |]]   [[/div]]
+caption=僧衣を着用した人型実体|width=250px |]]   [[/div]]
 [[/=]]
 
 探索人員らは中央講堂で騒ぎが起こっていることを認識しました。そこにはサイト-81A3の受刑者が100名ほど集まっており、壇上には僧衣を着用した人型実体が出現していました。壇上の人型実体は受刑者らに演説を行っているようでした。以下はその音声記録です。
@@ -370,13 +370,13 @@ caption=僧衣を着用した人型実体|width=250px |]]   [[/div]]
 
 A級収容困難者[[footnote]]これは概ねKeterクラスに相当しますが、A3基準の"明瞭な人格"、"安定した形態"、"現実改変を行わない"の3つを満たした人物しか存在しません。[[/footnote]]　53名
 
-B級収容困難者[[footnote]]これは概ねEuclidクラスに相当し、大抵は自発的な異常性の発現を行うことができます。即座に致死的な状態を引き起こしうる異常性はこのレベルに認められません。[[/footnote]]   103名
+B級収容困難者[[footnote]]これは概ねEuclidクラスに相当し、大抵は自発的な異常性の発現を行うことができます。即座に致死的な状態を引き起こしうる異常性はこのレベルに認められません。[[/footnote]]   103名
 
 C級収容困難者[[footnote]]このクラスに割り当てられた人物は、自身の異常性の自発的な発現ができないか、厳格な管理/収容により満たせなくなる条件が異常性の発現に必要であるかです。もし、その異常性が引き起こされてもごく小規模な被害に留まります。[[/footnote]] 201名
 
-管理職員(看守)   235名
+管理職員(看守)   235名
 
-研究員   224名
+研究員   224名
 
 調査により判明した内容からは、受刑者は居住区での生活を強制されていた。コンクリートで埋められていた101号室を除けば、居住区の部屋の数は131部屋である。各部屋の定員は6名であるため、現在サイト-81A3の居住区に収容を行えば明らかに過剰収容である。受刑者およびサイト-81A3の職員は5:00〜21:00までの厳密に定められたスケージュールの元で生活している。これに違反することによる罰則も存在し、故意にスケージュールから逸脱した事例ではトラウマ的経験を伴う幻覚を認識している。
 
@@ -399,7 +399,7 @@ C級収容困難者[[footnote]]このクラスに割り当てられた人物は�
 
 ||~ 場所 ||~ 特筆すべき点 ||
 || 第一食堂 ||食事は放置されていなかった。第一食堂から直接つながる運動場には巨大な物見櫓らしき木造物体が確認された。しかし、第一食堂から直接行くトビラには鍵がかけられていたため移動による物見櫓の調査は保留された。|| 
-|| 居住区  101号室 ||存在しないことについては変化がないが、壁面に若干のヒビが認められた。これは以前の探索では見受けられなかったものであり、1日の間に新しく生じたものである可能性が高い。D-1927は101号室からの叫び声を認識したと主張した。これらを録音するための試みが行われたが、現在の録音技術ではこれらの"叫び声"が実際に存在したと確認できなかった。|| 
+|| 居住区  101号室 ||存在しないことについては変化がないが、壁面に若干のヒビが認められた。これは以前の探索では見受けられなかったものであり、1日の間に新しく生じたものである可能性が高い。D-1927は101号室からの叫び声を認識したと主張した。これらを録音するための試みが行われたが、現在の録音技術ではこれらの"叫び声"が実際に存在したと確認できなかった。|| 
 || 屋上 運動場||受刑者の脱出防止柵の一部が破壊されていた。|| 
 || 談話室 || イベント-Gallowsで用いられた。詳しくはその記録を参照。|| 
 
@@ -843,7 +843,7 @@ GoI‬-2599は信者に呪術的な改造[[footnote]]この改造は‪[[span cl
 @@@@
 @@@@
 
- [[div style="display: block ; border : dashed 1px #444444 ; background :#F5F5F5 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+ [[div style="display: block ; border : dashed 1px #444444 ; background :#F5F5F5 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 [[=]]
 [[size 150%]]資料.3 説明会と思わしき音声記録[[/size]]
 [[/=]]
@@ -980,8 +980,8 @@ D-1926とD-2031が初めてSCP-2043-JPの中で生存したことにより、SCP
 ||~ 場所 ||~ 特筆すべき点 ||
 || 第一食堂||財団の派遣したDクラス職員にも他の受刑者らと同様に食事が提供された。||
 || 運動場|| 木造物体の探索が行われた。高さ5mほどの櫓であり、頂上部には受刑者であると考えられる女性の死体が安置されていた。頭部は爆発により消失しているが、指紋やその他の身体的な特徴から「ロングウォーク」で死亡した坂田由依であると判明した。||
-|| 居住区  101号室 ||壁面のヒビが以前より明らかに拡大していた。壁面のヒビに聴診器を用いると確かに男女の若干の叫び声が認められた。この音声の記録は、その男女が拷問ないし苦痛を生じさせる状況に置かれていることを示している。哀願の声がしばらく継続した後、観察の開始から3分ほどで沈黙した。|| 
-|| 管理区画  面会室 || 詳しくは下の記録を参照。|| 
+|| 居住区  101号室 ||壁面のヒビが以前より明らかに拡大していた。壁面のヒビに聴診器を用いると確かに男女の若干の叫び声が認められた。この音声の記録は、その男女が拷問ないし苦痛を生じさせる状況に置かれていることを示している。哀願の声がしばらく継続した後、観察の開始から3分ほどで沈黙した。|| 
+|| 管理区画  面会室 || 詳しくは下の記録を参照。|| 
 
 探索人員D-1926、D-2031、D-3269の3名はイベント-Gallowsに遭遇しました。またしても放送の開始とともに受刑者が解放され、居住区から渡り廊下を通して繋がっている面会室に集合しました。
 
@@ -1171,7 +1171,7 @@ B. 白乃瀬飛沫
 A. 他者の救済
 B. 自身の救済
 
-**D-1926の回答:**  N/A
+**D-1926の回答:**  N/A
 
 **正解:** 不明
 
@@ -1335,7 +1335,7 @@ D-1926はこのイベント-Gallowsをクリアすることに成功しました
 || 第一食堂 ||ウェディングドレスを着用した人型実体[[footnote]]中には明らかに男性であるものもいた[[/footnote]]が食事を行っていた。その人型実体の集団は、「花嫁選び」と呼称されるイベント-Gallowsに使用されるものであるとの説明がされた。||
 || 図書室 ||本が散乱していた。どれも破かれた形跡が見られる。|| 
 || 医務室 ||受刑者がベッドに倒れ込んでいた。その受刑者は左足が失われており、大量の出血が認められる様子であった。現場の状況も相まって、完全に救命が不可能であった。|| 
-|| 居住区  101号室 ||これまで確認されていたひび割れが完全な穴に移行した。これは1m大の人が入れる程度には拡大した穴である。中は空洞であり、下に向かう階段が続いていた。十分な光量がないためにその奥を見通すことはできなかったが、以前にも確認されていた男女の叫び声が同様に観測された。|| 
+|| 居住区  101号室 ||これまで確認されていたひび割れが完全な穴に移行した。これは1m大の人が入れる程度には拡大した穴である。中は空洞であり、下に向かう階段が続いていた。十分な光量がないためにその奥を見通すことはできなかったが、以前にも確認されていた男女の叫び声が同様に観測された。|| 
 
 [[collapsible show="► 音声探索記録-4" hide="▼ 記録を閲覧"]]
 [[div style="display: block ; border : dashed 1px #444444 ; background :#F5F5F5 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
@@ -1793,7 +1793,7 @@ D-1926
 同点3位. 青森巡: 4点
 
 他多数
-  
+  
 
 4位. 羽生太陽(死亡): 11点
 

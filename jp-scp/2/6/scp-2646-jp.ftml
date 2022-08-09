@@ -9,137 +9,137 @@ html {scroll-behavior: smooth}
 [[module CSS]]
 
 span.skew {
-  display:inline-block;
-  animation: skew 0.5s infinite;
+  display:inline-block;
+  animation: skew 0.5s infinite;
 }
 
 @keyframes skew {
 
-  0% {
-    transform: none;
-  }
-  33% {
-    transform: none;
-  }
-  33.3% {
-    transform: skewX(45deg);
-  }
-  33.4% {
-    transform: skewX(-45deg);
-  }
-  33.5% {
-    transform: none;
-  }
-  66% {
-    transform: none;
-  }
-  66.3% {
-    transform: skewX(20deg);
-  }
-  66.4% {
-    transform: skewX(-20deg);
-  }
-  66.5% {
-    transform: none;
-  }
-  77% {
-    transform: none;
-  }
-  77.3% {
-    transform: skewX(30deg);
-  }
-  77.4% {
-    transform: skewX(-30deg);
-  }
-  77.5% {
-    transform: none;
-  }
-  
+  0% {
+    transform: none;
+  }
+  33% {
+    transform: none;
+  }
+  33.3% {
+    transform: skewX(45deg);
+  }
+  33.4% {
+    transform: skewX(-45deg);
+  }
+  33.5% {
+    transform: none;
+  }
+  66% {
+    transform: none;
+  }
+  66.3% {
+    transform: skewX(20deg);
+  }
+  66.4% {
+    transform: skewX(-20deg);
+  }
+  66.5% {
+    transform: none;
+  }
+  77% {
+    transform: none;
+  }
+  77.3% {
+    transform: skewX(30deg);
+  }
+  77.4% {
+    transform: skewX(-30deg);
+  }
+  77.5% {
+    transform: none;
+  }
+  
 }
 [[/module]]
 
 [[module CSS]]
 
 span.skew2 {
-  display:inline-block;
-  animation: skew 8s infinite;
+  display:inline-block;
+  animation: skew 8s infinite;
 }
 
 @keyframes skew {
 
-  0% {
-    transform: none;
-  }
-  33% {
-    transform: none;
-  }
-  33.3% {
-    transform: skewX(45deg);
-  }
-  33.4% {
-    transform: skewX(-45deg);
-  }
-  33.5% {
-    transform: none;
-  }
-  66% {
-    transform: none;
-  }
-  66.3% {
-    transform: skewX(20deg);
-  }
-  66.4% {
-    transform: skewX(-20deg);
-  }
-  66.5% {
-    transform: none;
-  }
-  77% {
-    transform: none;
-  }
-  77.3% {
-    transform: skewX(30deg);
-  }
-  77.4% {
-    transform: skewX(-30deg);
-  }
-  77.5% {
-    transform: none;
-  }
-  
+  0% {
+    transform: none;
+  }
+  33% {
+    transform: none;
+  }
+  33.3% {
+    transform: skewX(45deg);
+  }
+  33.4% {
+    transform: skewX(-45deg);
+  }
+  33.5% {
+    transform: none;
+  }
+  66% {
+    transform: none;
+  }
+  66.3% {
+    transform: skewX(20deg);
+  }
+  66.4% {
+    transform: skewX(-20deg);
+  }
+  66.5% {
+    transform: none;
+  }
+  77% {
+    transform: none;
+  }
+  77.3% {
+    transform: skewX(30deg);
+  }
+  77.4% {
+    transform: skewX(-30deg);
+  }
+  77.5% {
+    transform: none;
+  }
+  
 }
 [[/module]]
 
 [[module css]]
 
 @keyframes hide {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes show {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .disappearance .be {
-  animation: hide 180s step-end forwards;
+  animation: hide 180s step-end forwards;
 }
 .disappearance .af {
-  animation: show 180s step-end forwards;
+  animation: show 180s step-end forwards;
 }
 .disappearance {
-    position: relative;
+    position: relative;
 }
 .disappearance span{
-    position: absolute;
+    position: absolute;
 }
 
 [[/module]]
@@ -275,7 +275,7 @@ SCP-2646-JP-αの概要について、各被験職員からは"巨大な深い�
 > 
 > **被験職員:** ああ、勿論だ。あれは//[突然立ち上がり、弾みで椅子が倒れる]//
 > 
->  //[被験職員が入室する]//
+>  //[被験職員が入室する]//
 > 
 > **被験職員:** おい待て、どういうことだ？
 > 

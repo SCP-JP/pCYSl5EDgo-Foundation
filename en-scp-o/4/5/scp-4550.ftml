@@ -137,7 +137,7 @@ The following material has been confirmed clear of any known cognitohazardous ma
 
 **C:** We have 30 minutes until the actual maintenance crew arrives.
 
-**D:**  Copy that. I'm trusting you, chief. [Inhales and exhales audibly] Don't get us brainwashed okay? I don't pull off the tinfoil hat look well.
+**D:**  Copy that. I'm trusting you, chief. [Inhales and exhales audibly] Don't get us brainwashed okay? I don't pull off the tinfoil hat look well.
 
 //Drone enters SCP-4550's air vent system. Movement is minimal to reduce noise and the on-board flashlight is activated. The camera system flickers occasionally. Microphone picks up muffled speech from adjoining rooms, as well as unidentified vocalisation similar to animal snarls.//
 
@@ -337,30 +337,30 @@ You're a fucking comedian. Where's Belle? I'm pretty sure he locked me in here. 
 [[/=]]
 [[/div]]
 
-The feasibility of termination or otherwise neutralising SCP-4550 is currently under investigation.  Multiple proposals are currently heavily debated.
+The feasibility of termination or otherwise neutralising SCP-4550 is currently under investigation.  Multiple proposals are currently heavily debated.
 
 Notice: Clearance level 4550/4 or higher are required to view this addendum. Please submit your username and password below. 
 
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default: 05_Ovs-03
- * type: text
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: ID
+ * default: 05_Ovs-03
+ * type: text
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # affiliation
- * title: PASSWORD
- * default: ・・・・・・・・・
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: PASSWORD
+ * default: ・・・・・・・・・
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]
@@ -371,7 +371,7 @@ Notice: Clearance level 4550/4 or higher are required to view this addendum. Ple
 Have a nice day, %%title%%.
 [[/module]]
 
-[[table  style="border-collapse:collapse; width: 600px;"]]
+[[table  style="border-collapse:collapse; width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
 PROPOSED PROTOCOLS

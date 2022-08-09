@@ -9,11 +9,11 @@
 **Image Sources:**
 * 1) [https://commons.wikimedia.org/wiki/File:G-C-Woolley-page-of-diary-No2.jpg notebook.jpg -- "GC Wooley Diary 2" Photo by CEphoto, Uwe Aranas; CC BY-SA 3.0 (modified)]
 * 2) [https://www.flickr.com/photos/blue_mountains_library_-_local_studies/39699392250 cipher1.jpg -- "The Hordern Tree" by Blue Mountains Library; CC BY-SA 2.0]
-* 3) [https://de.wikipedia.org/wiki/Datei:Oldfieldpointlight.jpg  cipher2.jpg -- "OLD FIELD POINT LIGHT" by US Coast Guard; Public Domain]
+* 3) [https://de.wikipedia.org/wiki/Datei:Oldfieldpointlight.jpg  cipher2.jpg -- "OLD FIELD POINT LIGHT" by US Coast Guard; Public Domain]
 * 4) [https://www.maxpixel.net/Old-Dining-Room-Table-Window-Historically-Chair-222407 cipher3.jpg -- "Old Dining Room Table Window Historically Chair" by Unknown; CC0]
 * 5) [https://commons.wikimedia.org/wiki/File:OYSTER_BEDS_OF_WILLAPA_BAY,_WHERE_LARGE_NUMBERS_OF_%22GHOST_SHRIMP%22_ARE_ENDANGERING_THE_OYSTER_POPULATION_BY_DISTURBING..._-_NARA_-_545092.jpg cipher4.jpg -- "OYSTER BEDS (...)" by US Archives and Records Administration; Public Domain]
 * 6) [https://www.flickr.com/photos/simpleinsomnia/10559033393/in/photostream/ cipher5.jpg -- "Photo booth: Akward smiling woman" by simpleinsomnia; CC BY 2.0 (modified)]
- 
+ 
 **Acknowledgements:**
 * [[user Lt Flops]], for critique.
 * [[user Uncle Nicolini]], for critique.
@@ -64,9 +64,9 @@ vertical-align: top; position: relative; top: -0.5em;font-size: 85%;}
 [[module Rate]]
 [[/>]]
 [[include component:image-block
-    width=250px|
-    name=notebook.jpg|
-    caption=SCP-4211. Image has been rendered memetically sterile.|
+    width=250px|
+    name=notebook.jpg|
+    caption=SCP-4211. Image has been rendered memetically sterile.|
 ]]
 **Item #:** SCP-4211
 @@ @@
@@ -109,7 +109,7 @@ font-family: 'Andale Mono', 'Courier New', Courier, monospace;
 div.dashyboi{background-color: rgba(0,0,0,0.1); border-radius: 10px; border:dashed 1px black; padding: 10px;}
 
 table, td {
-  border-collapse: collapse;
+  border-collapse: collapse;
 }
 th{
 text-align: left;
@@ -142,18 +142,18 @@ text-decoration: none;
 <p class="teletype">What stands out to you the most?</p>
 </center>
 <table style="width:25%;margin: 0 auto;">
-  <tr>
-    <td><span class="teletype">THE TREE</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver1a'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">THE FIELD</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver1b'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">THE SKY</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver1c'>☐</a></td>
-  </tr>
+  <tr>
+    <td><span class="teletype">THE TREE</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver1a'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">THE FIELD</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver1b'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">THE SKY</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver1c'>☐</a></td>
+  </tr>
 </table>
 <br><br><br>
 </div>
@@ -186,7 +186,7 @@ font-family: 'Andale Mono', 'Courier New', Courier, monospace;
 div.dashyboi{background-color: rgba(0,0,0,0.1); border-radius: 10px; border:dashed 1px black; padding: 10px;}
 
 table, td {
-  border-collapse: collapse;
+  border-collapse: collapse;
 }
 th{
 text-align: left;
@@ -219,18 +219,18 @@ text-decoration: none;
 <p class="teletype">Where is this?</p>
 </center>
 <table style="width:25%;margin: 0 auto;">
-  <tr>
-    <td><span class="teletype">HOME</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver2a'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">HELL</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver2b'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">HOPE</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver2c'>☐</a></td>
-  </tr>
+  <tr>
+    <td><span class="teletype">HOME</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver2a'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">HELL</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver2b'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">HOPE</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver2c'>☐</a></td>
+  </tr>
 </table>
 <br><br><br>
 </div>
@@ -263,7 +263,7 @@ font-family: 'Andale Mono', 'Courier New', Courier, monospace;
 div.dashyboi{background-color: rgba(0,0,0,0.1); border-radius: 10px; border:dashed 1px black; padding: 10px;}
 
 table, td {
-  border-collapse: collapse;
+  border-collapse: collapse;
 }
 th{
 text-align: left;
@@ -296,18 +296,18 @@ text-decoration: none;
 <p class="teletype">How do you feel?</p>
 </center>
 <table style="width:25%;margin: 0 auto;">
-  <tr>
-    <td><span class="teletype">ALONE</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver3a'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">SCARED</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver3b'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">CONFUSED</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver3c'>☐</a></td>
-  </tr>
+  <tr>
+    <td><span class="teletype">ALONE</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver3a'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">SCARED</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver3b'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">CONFUSED</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver3c'>☐</a></td>
+  </tr>
 </table>
 <br><br><br>
 </div>
@@ -340,7 +340,7 @@ font-family: 'Andale Mono', 'Courier New', Courier, monospace;
 div.dashyboi{background-color: rgba(0,0,0,0.1); border-radius: 10px; border:dashed 1px black; padding: 10px;}
 
 table, td {
-  border-collapse: collapse;
+  border-collapse: collapse;
 }
 th{
 text-align: left;
@@ -373,18 +373,18 @@ text-decoration: none;
 <p class="teletype">Can you trust your memory?</p>
 </center>
 <table style="width:25%;margin: 0 auto;">
-  <tr>
-    <td><span class="teletype">YES</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver4a'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">NO</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver4b'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">I AM UNSURE</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver4c'>☐</a></td>
-  </tr>
+  <tr>
+    <td><span class="teletype">YES</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver4a'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">NO</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver4b'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">I AM UNSURE</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver4c'>☐</a></td>
+  </tr>
 </table>
 <br><br><br>
 </div>
@@ -420,29 +420,29 @@ cursor: pointer;
 }
 
 .tooltip {
-  position: relative;
-  display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .nobr {white-space: nowrap;}
 
 .tooltip .tooltiptext {
-  visibility: hidden;
-  background-color: #f4f4f4;
-  padding: 0.25em;
-  border: 1px solid #999;
-  text-align: left;
+  visibility: hidden;
+  background-color: #f4f4f4;
+  padding: 0.25em;
+  border: 1px solid #999;
+  text-align: left;
 
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -6em;
-  margin-top: 0.5em;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -6em;
+  margin-top: 0.5em;
 }
 .tooltip:hover .tooltiptext {
-  visibility: visible;
+  visibility: visible;
 }
 </style>
 <br>
@@ -559,7 +559,7 @@ font-family: 'Andale Mono', 'Courier New', Courier, monospace;
 div.dashyboi{background-color: rgba(0,0,0,0.1); border-radius: 10px; border:dashed 1px black; padding: 10px;}
 
 table, td {
-  border-collapse: collapse;
+  border-collapse: collapse;
 }
 th{
 text-align: left;
@@ -579,18 +579,18 @@ text-align: left;
 <p class="teletype">DO YOU REMEMBER WHAT SHE DID?</p>
 </center>
 <table style="width:25%;margin: 0 auto;">
-  <tr>
-    <td><span class="teletype">OF COURSE</span></td>
-    <td><a>☑</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">I OWE HER</span></td>
-    <td><a>☑</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">EVERYTHING</span></td>
-    <td><a>☑</a></td>
-  </tr>
+  <tr>
+    <td><span class="teletype">OF COURSE</span></td>
+    <td><a>☑</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">I OWE HER</span></td>
+    <td><a>☑</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">EVERYTHING</span></td>
+    <td><a>☑</a></td>
+  </tr>
 </table>
 <center>
 <p class="teletype" style="color: green;"><b>[✔] She's calling for you, even now.</b></p>

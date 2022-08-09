@@ -3,14 +3,14 @@
 
 [[module css]]
 .blink-collapsibe a.collapsible-block-link {
-  animation: blinkAnime 1s infinite alternate;
+  animation: blinkAnime 1s infinite alternate;
 }
 @keyframes blinkAnime{
-   0% { opacity: 0 }
- 100% { opacity: 1 }
+   0% { opacity: 0 }
+ 100% { opacity: 1 }
 }
 #top-bar li ul li {
-  float: left;
+  float: left;
 }
 [[/module]]
 
@@ -31,8 +31,8 @@
 [[/div]]
 [[module css]]
 .breadcrumbs {
-    margin: -1em 0 1em;
-    font-size: 90%;
+    margin: -1em 0 1em;
+    font-size: 90%;
 }
 [[/module]]
 [[include :scp-jp-sandbox2:inc:changepagetitle |
@@ -83,13 +83,13 @@ display: none;
 [[/div]]
 
 **アイテム番号:** SCP-XXX-JP
- 
+ 
 **オブジェクトクラス:** Safe/Euclid/Keter (適切なクラスを選んでください)
- 
+ 
 **特別収容プロトコル:** [SCPオブジェクトの管理方法に関する記述]
- 
+ 
 **説明:** [SCPオブジェクトの性質に関する記述]
- 
+ 
 **補遺:** [SCPオブジェクトに関する補足情報]
 
 [[div class="blink-collapsibe"]]
@@ -103,13 +103,13 @@ display: none;
 [[/tab]]
 [[tab 19430]]
 **アイテム番号:** SCP-XXX-JP
- 
+ 
 **オブジェクトクラス:** Safe/Euclid/Keter (適切なクラスを選んでください)
- 
+ 
 **特別収容プロトコル:** [SCPオブジェクトの管理方法に関する記述]
- 
+ 
 **説明:** [SCPオブジェクトの性質に関する記述]
- 
+ 
 **補遺:** [SCPオブジェクトに関する補足情報]
 
 [[div class="blink-collapsibe"]]
@@ -133,7 +133,7 @@ display: none;
 
 **優先度レベル: EPSILON**
 
- **場所: サイト-81SA**
+ **場所: サイト-81SA**
 
 **SCP-XXXX-JPのスロットル及び報告書がIntSCPFNサーバーに文書改変が行われている状態で再出現。サイト-81SAにて現実改変が発生した。サイト-81SA職員はSCP-XXXX-JPの報告書を読み、既存の特別収容プロトコルに従い、職務を遂行せよ。**
 
@@ -247,11 +247,11 @@ SCP-XXXX-JPの発生は以下の条件を1つでも満たすことで発生さ�
 > **[記録開始]**
 > **インタビュアー:** こんにちは。SCP-XXXX-JP。
 >
->  **SCP-XXXX-JP:** こんにちは。
+>  **SCP-XXXX-JP:** こんにちは。
 >
 > **インタビュアー:** 早速ですが、あなたがこの世界にいる時間を教えてくれますか?
 >
->  **SCP-XXXX-JP:** 私が覚えている限りだと3ヶ月ぐらいですかね。詳しくはちょっと…。
+>  **SCP-XXXX-JP:** 私が覚えている限りだと3ヶ月ぐらいですかね。詳しくはちょっと…。
 >
 > **インタビュアー:** いえ。それで結構です。では何故あなたはここに居るのでしょうか?
 > SCP-XXXX-JP: 私がSCP-XXXX-JPとして生まれてから1度も手が加えられていないからですね。[[*user syake_kuro]]という人物が私を作って以来、会っていないのですが…。でも、きっと私がどのようなオブジェクトになるのか考えているのでしょう。
@@ -368,7 +368,7 @@ SCP-XXXX-JPの発生は以下の条件を1つでも満たすことで発生さ�
 [http://scp-jp.wikidot.com/wiki-syntax:startpage wikidotシンタックス]
 日本語表現用
 [[code]]
- [[include component:jstyles]]
+ [[include component:jstyles]]
 [[/code]]
 [# 空リンク]
 @@@@
@@ -399,8 +399,8 @@ SCP-XXXX-JPの発生は以下の条件を1つでも満たすことで発生さ�
 [[/div]]
 [[module css]]
 .breadcrumbs {
-    margin: -1em 0 1em;
-    font-size: 90%;
+    margin: -1em 0 1em;
+    font-size: 90%;
 }
 [[/module]]
 

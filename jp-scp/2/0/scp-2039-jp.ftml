@@ -19,30 +19,30 @@
 
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 
@@ -183,23 +183,23 @@ SCPSクリマクスが指示に従って両者の間を通過する際、██�
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default: <supervisor_Xiphioidei>
- * type: text
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: ID
+ * default: <supervisor_Xiphioidei>
+ * type: text
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # affiliation
- * title: PASSWORD
- * default: ・・・・・・・・・
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: PASSWORD
+ * default: ・・・・・・・・・
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]

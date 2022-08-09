@@ -11,101 +11,101 @@
 [[module CSS]]
 /*参考: http://ja.scp-wiki.net/scp-style-resource#toc4*/
 div.notice {
-    border: solid 1px #999999;
-    background: #f2f2c2;
-    margin-bottom: 10px;
-    padding: 5px;
-    text-align: center;
+    border: solid 1px #999999;
+    background: #f2f2c2;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
 }
 
 /*参考: http://ja.scp-wiki.net/scp-cn-1999*/
 div.connection {
-    border: solid 1px #999999;
-    background: #e6e6e6;
-    margin-bottom: 10px;
-    padding: 0 2%;
-    width: 45%;
+    border: solid 1px #999999;
+    background: #e6e6e6;
+    margin-bottom: 10px;
+    padding: 0 2%;
+    width: 45%;
 }
 
 div.wrap {
-    overflow: auto;
+    overflow: auto;
 }
 
 div.paper {
-    float: center;
-    border: solid 1px #111111;
-    box-shadow: 0 1px 6px rgba(0,0,0,.25);
-    background: #fefefe;
-    padding: 5px 30px;
-    margin: 0 auto;
+    float: center;
+    border: solid 1px #111111;
+    box-shadow: 0 1px 6px rgba(0,0,0,.25);
+    background: #fefefe;
+    padding: 5px 30px;
+    margin: 0 auto;
 }
 
 /*引用: http://yabiyabi-woods.wikidot.com/tensen*/
 .tensen p {
-    line-height: 141%;
+    line-height: 141%;
 }
 .tensen {
-    border: 1px dashed #999;
-    padding: 0 1em;
-    background-color: #f4f4f4;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+    border: 1px dashed #999;
+    padding: 0 1em;
+    background-color: #f4f4f4;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
 @media (max-width: 580px) and (min-width: 480px){
 .tensen {
-    margin:0.5em;
+    margin:0.5em;
 }
 }
 @media (max-width: 479px){
 .tensen {
-    margin:1em 0;
+    margin:1em 0;
 }
 }
 
 /*引用: http://ja.scp-wiki.net/scp-2222-jp*/
 .quote-1 {
-    display: block;
-    border: solid 4px #444444;
-    padding: 0 1em;
-    box-shadow: 2px 1px 3px rgba(0,0,0,.2);
-    float: center;
-    margin: 1em 40px;
+    display: block;
+    border: solid 4px #444444;
+    padding: 0 1em;
+    box-shadow: 2px 1px 3px rgba(0,0,0,.2);
+    float: center;
+    margin: 1em 40px;
 }
 @media (max-width: 479px) {
 .quote-1 {
-    margin: 1em;
+    margin: 1em;
 }
 }
 @media(min-width:480px) and (max-width:580px) {
 .quote-1 {
-    margin: 0.5em
+    margin: 0.5em
 }
 }
 
 /*参考: http://ja.scp-wiki.net/scp-1669-jp*/
 .outside {
-    margin: 2em -6em;
-    padding: 1em 10em;
-    --narration-color: rgba(30,144,255,.5);
-    background: var(--narration-color);
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, var(--narration-color) 30%, var(--narration-color) 70%, rgba(255,255,255,0) 100%);
-    z-index: -2;
+    margin: 2em -6em;
+    padding: 1em 10em;
+    --narration-color: rgba(30,144,255,.5);
+    background: var(--narration-color);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, var(--narration-color) 30%, var(--narration-color) 70%, rgba(255,255,255,0) 100%);
+    z-index: -2;
 }
 
 .outside.inline {
-    margin: 1em -6em;
-    padding: 1px 10em;
+    margin: 1em -6em;
+    padding: 1px 10em;
 }
 
 @media only screen and (max-width: 1040px) {
 .outside {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-    padding-left: 3em !important;
-    padding-right: 3em !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
 }
 }
 [[/module]]
@@ -134,7 +134,7 @@ div.paper {
 [[module CSS]]
 /*htmlブロックが表示されないwikidot障害の暫定対応*/
 #page-content iframe.html-block-iframe {
-        height: 56px;
+        height: 56px;
 }
 [[/module]]
 
@@ -228,12 +228,12 @@ SCP-2100-JPの歌い手が聖霊や天使のような神聖存在であるのか
 /*htmlブロックが表示されないwikidot障害の暫定対応*/
 @media (max-width: 479px) {
 #page-content iframe.html-block-iframe {
-        height: 3em;
+        height: 3em;
 }
 }
 @media(min-width:480px) {
 #page-content iframe.html-block-iframe {
-        height: 1.5em;
+        height: 1.5em;
 }
 }
 [[/module]]
@@ -357,9 +357,9 @@ SCP-2100-JP研究の今後の方針には、一般社会/一般科学界を十�
 @import url(http://scp-jp.wdfiles.com/local--files/japanese-syntax/scp-WikidotCss.css);
 
 body {
-    padding:0px;
-    margin: 0px;
-    height:1em;
+    padding:0px;
+    margin: 0px;
+    height:1em;
 }
 
 </style>
@@ -368,9 +368,9 @@ body {
 window.onload=function(){target = document.getElementById("nowlink");getNowlink();}
 
 function getNowlink() {
-    var date = new Date();
-    var datestr = date.getFullYear() + "/" + (date.getMonth()+1) + "/" + date.getDate();
-    target.innerText = "次の版は" + datestr + "に編集されています。";
+    var date = new Date();
+    var datestr = date.getFullYear() + "/" + (date.getMonth()+1) + "/" + date.getDate();
+    target.innerText = "次の版は" + datestr + "に編集されています。";
 }
 </script>
 
@@ -387,12 +387,12 @@ function getNowlink() {
 /*htmlブロックが表示されないwikidot障害の暫定対応*/
 @media (max-width: 479px) {
 #page-content iframe.html-block-iframe {
-        height: 3em;
+        height: 3em;
 }
 }
 @media(min-width:480px) {
 #page-content iframe.html-block-iframe {
-        height: 1.5em;
+        height: 1.5em;
 }
 }
 [[/module]]
@@ -408,9 +408,9 @@ function getNowlink() {
 @import url(http://scp-jp.wdfiles.com/local--files/japanese-syntax/scp-WikidotCss.css);
 
 body {
-    padding:0px;
-    margin: 0px;
-    height:1em;
+    padding:0px;
+    margin: 0px;
+    height:1em;
 }
 
 </style>
@@ -419,9 +419,9 @@ body {
 window.onload=function(){target = document.getElementById("nowtext");getNowtext();}
 
 function getNowtext() {
-    var date = new Date();
-    var datestr = date.getFullYear() + "/" + (date.getMonth()+1) + "/" + date.getDate();
-    target.innerText = "本報告書は" + datestr + "に編集されました。";
+    var date = new Date();
+    var datestr = date.getFullYear() + "/" + (date.getMonth()+1) + "/" + date.getDate();
+    target.innerText = "本報告書は" + datestr + "に編集されました。";
 }
 </script>
 
@@ -522,9 +522,9 @@ SCP-2100-JPの発生源には、宇宙の外側に位置し、宇宙そのもの
 @import url(http://scp-jp.wdfiles.com/local--files/japanese-syntax/scp-WikidotCss.css);
 
 body {
-    padding:0px;
-    margin: 0px;
-    height:1em;
+    padding:0px;
+    margin: 0px;
+    height:1em;
 }
 
 </style>
@@ -533,9 +533,9 @@ body {
 window.onload=function(){target = document.getElementById("nowtext");getNowtext();}
 
 function getNowtext() {
-    var date = new Date();
-    var datestr = date.getFullYear() + "/" + (date.getMonth()+1) + "/" + date.getDate();
-    target.innerText = "本文書は" + datestr + "に編集されました。";
+    var date = new Date();
+    var datestr = date.getFullYear() + "/" + (date.getMonth()+1) + "/" + date.getDate();
+    target.innerText = "本文書は" + datestr + "に編集されました。";
 }
 </script>
 
@@ -744,12 +744,12 @@ SCP-2100-JPの起源、ならびにSCP-2100-JP-Uの存在を観測するため�
 /*htmlブロックが表示されないwikidot障害の暫定対応*/
 @media (max-width: 479px) {
 #page-content iframe.html-block-iframe {
-        height: 14em;
+        height: 14em;
 }
 }
 @media(min-width:480px) {
 #page-content iframe.html-block-iframe {
-        height: 9em;
+        height: 9em;
 }
 }
 [[/module]]
@@ -895,14 +895,14 @@ SCP-000-U事象は、現生人類、つまり我々の暮らす基底宇宙が�
 <!--参考: "http://ja.scp-wiki.net/scp-280-jp"-->
 
 <script type="text/javascript">
-    function GoToPage() {
-    	parent.location.href = "http://ja.scp-wiki.net/scp-2100-jp/offset/1/page6_limit/1";
-    }
+    function GoToPage() {
+    	parent.location.href = "http://ja.scp-wiki.net/scp-2100-jp/offset/1/page6_limit/1";
+    }
 
-    function SwitchButton(Button){
-    	Button.value = "Please Wait...";
-    	Button.disabled = true;
-    }
+    function SwitchButton(Button){
+    	Button.value = "Please Wait...";
+    	Button.disabled = true;
+    }
 </script>
 
 <table border='1' bgcolor='#EEEEEE' width='100%'>
@@ -923,78 +923,78 @@ SCP-000-U事象は、現生人類、つまり我々の暮らす基底宇宙が�
 #page-title,
 #header,
 #side-bar {
-    display: none;
+    display: none;
 }
 #main-content {
-    margin: 0 4em 0 12em;
+    margin: 0 4em 0 12em;
 }
 div#container-wrap {
-    background: none;
+    background: none;
 }
 @media (max-width: 979px) {
 #page-content div, #page-content div table {
-    float: none;
+    float: none;
 }
 }
 @media (max-width: 767px) {
 #main-content {
-    margin: 0 5%!important;
+    margin: 0 5%!important;
 }
 }
 
 /*htmlブロックが表示されないwikidot障害の暫定対応*/
 #page-content iframe.html-block-iframe {
-        height: 3em;
+        height: 3em;
 }
 [[/module]]
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
 @@ @@
 [[>]]
 ##808080|ここは？##
@@ -1095,210 +1095,210 @@ var isHTMLblockHide = false;
 var scpParentCollasibleClassName = "ParentCollasible";
 
 function scpCreateCollapsible(){
-    var collapsibles = document.getElementsByTagName("collapsible");
-    var parentColl;
-    var toOpenColl;
-    var openButton;
-    var toCloseColl;
-    var closeButton;
-    var text;
-    var loopTimes = collapsibles.length;
-    for (var i = 0;i < loopTimes;i++) {
-    	parentColl = document.createElement("div");
-    	parentColl.setAttribute("class",scpParentCollasibleClassName);
-    	toOpenColl = document.createElement("div");
-    	toOpenColl.setAttribute("id","scpCollasibleLink"+i + '0');
-    	openButton = document.createElement("span");
-    	openButton.setAttribute("class","fake-link");
-    	openButton.setAttribute("onclick","scpRunCollasible('" + ("scpCollasibleLink"+i) + "',0);TimeRugMove.run()");
-    	openButton.innerHTML = collapsibles[0].getAttribute("show");
-    	toOpenColl.appendChild(openButton);
-    	parentColl.appendChild(toOpenColl);
-    	//Hide
-    	toCloseColl = document.createElement("div");
-    	toCloseColl.setAttribute("id","scpCollasibleLink"+i + '1');
-    	text = document.createElement("div");
-    	text.setAttribute("id","scpCollasibleLink"+i + '2');
-    	text.innerHTML = collapsibles[0].innerHTML;
-    	closeButton = document.createElement("span");
-    	closeButton.setAttribute("class","fake-link");
-    	closeButton.setAttribute("onclick","scpRunCollasible('" + ("scpCollasibleLink"+i) + "',1)");
-    	closeButton.innerHTML = collapsibles[0].getAttribute("hide");
-    	if(collapsibles[0].getAttribute("hideLocation") == "bottom") {
-    		toCloseColl.appendChild(text);
-    		toCloseColl.appendChild(closeButton);
-    	} else {
-    		toCloseColl.appendChild(closeButton);
-    		toCloseColl.appendChild(text);
-    	}
-    	toCloseColl.setAttribute("style","display:none;");
-    	parentColl.appendChild(toCloseColl);
-    	collapsibles[0].parentNode.replaceChild(parentColl,collapsibles[0]);
-    }
+    var collapsibles = document.getElementsByTagName("collapsible");
+    var parentColl;
+    var toOpenColl;
+    var openButton;
+    var toCloseColl;
+    var closeButton;
+    var text;
+    var loopTimes = collapsibles.length;
+    for (var i = 0;i < loopTimes;i++) {
+    	parentColl = document.createElement("div");
+    	parentColl.setAttribute("class",scpParentCollasibleClassName);
+    	toOpenColl = document.createElement("div");
+    	toOpenColl.setAttribute("id","scpCollasibleLink"+i + '0');
+    	openButton = document.createElement("span");
+    	openButton.setAttribute("class","fake-link");
+    	openButton.setAttribute("onclick","scpRunCollasible('" + ("scpCollasibleLink"+i) + "',0);TimeRugMove.run()");
+    	openButton.innerHTML = collapsibles[0].getAttribute("show");
+    	toOpenColl.appendChild(openButton);
+    	parentColl.appendChild(toOpenColl);
+    	//Hide
+    	toCloseColl = document.createElement("div");
+    	toCloseColl.setAttribute("id","scpCollasibleLink"+i + '1');
+    	text = document.createElement("div");
+    	text.setAttribute("id","scpCollasibleLink"+i + '2');
+    	text.innerHTML = collapsibles[0].innerHTML;
+    	closeButton = document.createElement("span");
+    	closeButton.setAttribute("class","fake-link");
+    	closeButton.setAttribute("onclick","scpRunCollasible('" + ("scpCollasibleLink"+i) + "',1)");
+    	closeButton.innerHTML = collapsibles[0].getAttribute("hide");
+    	if(collapsibles[0].getAttribute("hideLocation") == "bottom") {
+    		toCloseColl.appendChild(text);
+    		toCloseColl.appendChild(closeButton);
+    	} else {
+    		toCloseColl.appendChild(closeButton);
+    		toCloseColl.appendChild(text);
+    	}
+    	toCloseColl.setAttribute("style","display:none;");
+    	parentColl.appendChild(toCloseColl);
+    	collapsibles[0].parentNode.replaceChild(parentColl,collapsibles[0]);
+    }
 }
 
 function scpResizeHTMLblock(n) {
-    var div = document.getElementById(scpHTMLblockResize_div_id);
+    var div = document.getElementById(scpHTMLblockResize_div_id);
 
-    var old_iframe = document.getElementById(scpHTMLblockResize_iframe_id);
-    if (old_iframe) {
-    	div.removeChild(old_iframe);
-    	delete old_iframe;
-    }
-    var iframe = document.createElement("iframe");
-    iframe.id = scpHTMLblockResize_iframe_id;
-    iframe.src = scpHTMLblockResize_url + "?" + Math.random() + "#" + n+ "/" + scpHTMLblockIframe_hash;
-    div.appendChild(iframe);
+    var old_iframe = document.getElementById(scpHTMLblockResize_iframe_id);
+    if (old_iframe) {
+    	div.removeChild(old_iframe);
+    	delete old_iframe;
+    }
+    var iframe = document.createElement("iframe");
+    iframe.id = scpHTMLblockResize_iframe_id;
+    iframe.src = scpHTMLblockResize_url + "?" + Math.random() + "#" + n+ "/" + scpHTMLblockIframe_hash;
+    div.appendChild(iframe);
 }
 
 
 function ctrlHideHTMLblockSize(n) {
-    var newHeight= scpHTMLblockResizeSwitch.offsetTop;
-    if (HTMLblockOldHeight > newHeight) {
-    	HTMLblockOldHeight = newHeight;
-    	scpResizeHTMLblock(HTMLblockOldHeight) ;
-    } else {
-    	if(n < 1)n++;
-    	if(isHTMLblockHide)setTimeout(function(){ctrlHideHTMLblockSize(n)}, scpMonitoringTimeSpan);
-    }
+    var newHeight= scpHTMLblockResizeSwitch.offsetTop;
+    if (HTMLblockOldHeight > newHeight) {
+    	HTMLblockOldHeight = newHeight;
+    	scpResizeHTMLblock(HTMLblockOldHeight) ;
+    } else {
+    	if(n < 1)n++;
+    	if(isHTMLblockHide)setTimeout(function(){ctrlHideHTMLblockSize(n)}, scpMonitoringTimeSpan);
+    }
 }
 
 
 (function() {
-    var init = function() {
-    	scpCreateCollapsible();
-    	var div = document.createElement("div");
-    	scpHTMLblockResizeSwitch = document.getElementById("scpHTMLblockResizeSwitch");
-    	HTMLblockOldHeight = scpHTMLblockResizeSwitch.offsetTop;
-    	div.id = scpHTMLblockResize_div_id;
-    	div.setAttribute('style', 'display: none');
-    	div.style.display = 'none'; // this way it works even in IE
-    	document.body.appendChild(div);
-    	ctrlHideHTMLblockSize(0);
-    };
-    document.addEventListener( 'DOMContentLoaded',function() {
-    	init();
-    });
+    var init = function() {
+    	scpCreateCollapsible();
+    	var div = document.createElement("div");
+    	scpHTMLblockResizeSwitch = document.getElementById("scpHTMLblockResizeSwitch");
+    	HTMLblockOldHeight = scpHTMLblockResizeSwitch.offsetTop;
+    	div.id = scpHTMLblockResize_div_id;
+    	div.setAttribute('style', 'display: none');
+    	div.style.display = 'none'; // this way it works even in IE
+    	document.body.appendChild(div);
+    	ctrlHideHTMLblockSize(0);
+    };
+    document.addEventListener( 'DOMContentLoaded',function() {
+    	init();
+    });
 })();
 
 function scpRunCollasible(idName,n){
-    var pear = (n > 0)?0:1;
-    document.getElementById(idName+n).style.display = "none";
-    document.getElementById(idName+pear).style.display = "";
-    setTimeout(correctIframeSize,1);
-    function appear(set,idName) {
-    	var target = document.getElementById(idName+2);
-    	var chek = document.getElementById(idName+1);
-    	target.style.filter = 'alpha(opacity='+ set + ')';
-    	target.style.MozOpacity = set/100;
-    	target.style.opacity = set/100;
-    	if(set < 100|| chek.style.display != "none"){
-    	setTimeout(function(){appear(set+5,idName)},10);
-    	}
-    }
-    function hide() {
-    	var target = document.getElementById(idName+2);
-    	target.style.filter = 'alpha(opacity='+ 0 + ')';
-    	target.style.MozOpacity = 0;
-    	target.style.opacity = 0;
-    }
+    var pear = (n > 0)?0:1;
+    document.getElementById(idName+n).style.display = "none";
+    document.getElementById(idName+pear).style.display = "";
+    setTimeout(correctIframeSize,1);
+    function appear(set,idName) {
+    	var target = document.getElementById(idName+2);
+    	var chek = document.getElementById(idName+1);
+    	target.style.filter = 'alpha(opacity='+ set + ')';
+    	target.style.MozOpacity = set/100;
+    	target.style.opacity = set/100;
+    	if(set < 100|| chek.style.display != "none"){
+    	setTimeout(function(){appear(set+5,idName)},10);
+    	}
+    }
+    function hide() {
+    	var target = document.getElementById(idName+2);
+    	target.style.filter = 'alpha(opacity='+ 0 + ')';
+    	target.style.MozOpacity = 0;
+    	target.style.opacity = 0;
+    }
 }
 
 function correctIframeSize() {
-    scpResizeHTMLblock(scpHTMLblockResizeSwitch.offsetTop);
+    scpResizeHTMLblock(scpHTMLblockResizeSwitch.offsetTop);
 }
 </script>
 <script type="text/javascript">
 </script>
 [[/html]]
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
- _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
+ _
 [[size 0%]]おかえりなさい。[[/size]]
 ====
 --]

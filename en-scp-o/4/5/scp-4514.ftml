@@ -1,12 +1,12 @@
 [[module CSS]]
 @media (prefers-reduced-motion: no-preference) {
-  #page-content .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
-  }
-  @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
-  }
+  #page-content .collapsible-block-folded a.collapsible-block-link {
+    animation: blink 0.8s ease-in-out infinite alternate;
+  }
+  @keyframes blink {
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
+  }
 }
 [[/module]]
 
@@ -14,7 +14,7 @@
 [[include info:start]]
 **SCP-4514**: The Thing That Kills You
 
-> Please, just let me rest.  
+> Please, just let me rest.  
 
 **Author:** [[*user Captain Kirby]]
 [[=]]
@@ -109,10 +109,10 @@ Should an individual be injured by SCP-4514 in such a way that activates its ano
 > 
 > **Subject:** Researcher George Haus, 132-year-old caucasian male
 > 
-> **Procedure:** A small portion of SCP-4514 is to be removed, and melted. It is to be fused with a standard 45-caliber bullet. The subject is to be sedated and then shot in the head with the bullet.  
+> **Procedure:** A small portion of SCP-4514 is to be removed, and melted. It is to be fused with a standard 45-caliber bullet. The subject is to be sedated and then shot in the head with the bullet.  
 > 
 > **Result:** Subject expired.
- 
+ 
 > **Experiment #:** 48
 > 
 > **Subject:** Researcher Tanya Luvoi, 89-year-old caucasian female
@@ -154,10 +154,10 @@ Should an individual be injured by SCP-4514 in such a way that activates its ano
 @@ @@
 
 [[include component:earthworm
-  first=true | last=false | hub=yes |
-  previous-url=/ | previous-title=/ |
-  next-url=/do-you-remember-funerals | next-title=Do You Remember Funerals? |
-  hub-url=/end-of-death-hub | hub-title=End of Death |
+  first=true | last=false | hub=yes |
+  previous-url=/ | previous-title=/ |
+  next-url=/do-you-remember-funerals | next-title=Do You Remember Funerals? |
+  hub-url=/end-of-death-hub | hub-title=End of Death |
 ]]
 [[/collapsible]]
 [[footnoteblock]]

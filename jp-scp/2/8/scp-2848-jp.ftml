@@ -1059,7 +1059,7 @@ C4やC5への荷運びはまだ中途でしたが、天候の安定した4月31�
 
 [[table style="border-collapse:collapse; margin: 0 auto;"]]
 [[row]]
-[[cell style="border: 1px solid #888888; background-color: #EEEEEE; padding: 0.3em 0.7em; text-align: center;"  colspan="2"]]
+[[cell style="border: 1px solid #888888; background-color: #EEEEEE; padding: 0.3em 0.7em; text-align: center;"  colspan="2"]]
 **頂上アタック隊編成**
 [[/cell]]
 [[/row]]
@@ -1578,10 +1578,10 @@ Obj-aは、発生した雪崩から身を守るためにPoI-2848-JPが展開し�
 [[/div]]
 
 [[include :scp-jp.wikidot.com:component:earthworm
-  first=true | last=false | hub=yes |
-  previous-url=/ | previous-title=/ |
-  next-url=/ | next-title=カイラス |
-  hub-url=/ | hub-title=エベレスト |
+  first=true | last=false | hub=yes |
+  previous-url=/ | previous-title=/ |
+  next-url=/ | next-title=カイラス |
+  hub-url=/ | hub-title=エベレスト |
 ]]
 [[collapsible show="▶脚注"hide="▼脚注"]]
 [[footnoteblock]]
@@ -1605,95 +1605,95 @@ Obj-aは、発生した雪崩から身を守るためにPoI-2848-JPが展開し�
 [[module CSS]]
 
 .ijou-jisyou-houkoku {
-    display: inline-block;
-    border: solid 2px #999999;
-    background:#F5F5F5;
-    width: calc(92% - 10px);
-    padding:1px 10px 1px 10px;
-    margin: 10px 10px 10px 10px
+    display: inline-block;
+    border: solid 2px #999999;
+    background:#F5F5F5;
+    width: calc(92% - 10px);
+    padding:1px 10px 1px 10px;
+    margin: 10px 10px 10px 10px
 }
 
 .onsei-kiroku {
-    display: inline-block;
-    border:dashed 1px #999999;
-    border-radius: 10px;
-    background: #F5F5F5;
-    width: 92%;
-    padding: 5px 13px 5px 13px;
-    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    display: inline-block;
+    border:dashed 1px #999999;
+    border-radius: 10px;
+    background: #F5F5F5;
+    width: 92%;
+    padding: 5px 13px 5px 13px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 
 .project {
-    border: solid 1px #000000;
-    padding: 5px 13px 5px 13px;
-    margin: 0 auto;
-    background: #E8F5F8;
-    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    border: solid 1px #000000;
+    padding: 5px 13px 5px 13px;
+    margin: 0 auto;
+    background: #E8F5F8;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
 }
 
 .project-background {
-    background: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6442226-21-ff8j/SCP%E8%B2%A1%E5%9B%A3%E3%83%AD%E3%82%B4_%E9%80%8F%E9%81%8E.png) center no-repeat;
-    background-size: contain;
+    background: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6442226-21-ff8j/SCP%E8%B2%A1%E5%9B%A3%E3%83%AD%E3%82%B4_%E9%80%8F%E9%81%8E.png) center no-repeat;
+    background-size: contain;
 }
 
 .tips {
-    border: solid 1px #999999;
-    width: 92%;
-    padding: 5px 13px 5px 13px;
-    margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0,0,0,.2);
-    background: #FFFFFF;
+    border: solid 1px #999999;
+    width: 92%;
+    padding: 5px 13px 5px 13px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    background: #FFFFFF;
 }
 
 .hidden-link a {
-    color: #333333;
+    color: #333333;
 }
 
 .hidden-link a:hover {
-    text-decoration: none;
+    text-decoration: none;
 }
-    
+    
 .hidden-link a:active {
-    text-decoration: none;
+    text-decoration: none;
 }
 
 .diary {
-    border: solid 1px #F6EFDB;
-    background:#F6EFDB;
-    box-shadow: 0 0 10px rgba(0,0,0,.2);
-    width:92%;
-    padding:15px;
-    margin: 0 auto;
+    border: solid 1px #F6EFDB;
+    background:#F6EFDB;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    width:92%;
+    padding:15px;
+    margin: 0 auto;
 }
 
 .kariketuron {
-    display: inline-block;
-    border: solid #A0A0A0;
-    border-top: solid #642E2C;
-    border-width: 9px 1px 1px 1px;
-    background: #F5F5F5;
-    width: 92%;
-    padding:1px 10px 1px 10px;
-    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    border: solid #A0A0A0;
+    border-top: solid #642E2C;
+    border-width: 9px 1px 1px 1px;
+    background: #F5F5F5;
+    width: 92%;
+    padding:1px 10px 1px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .kidou-butai-gazou {
-    height: 300px;
-    width: 300px;
-    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
 }
 
-#u-ratingboxhid {   
-    opacity:0.1;  transition: all 0.5s ease-out;
+#u-ratingboxhid {   
+    opacity:0.1;  transition: all 0.5s ease-out;
 }
 
-#u-ratingboxhid:hover {  
-    opacity:1;
+#u-ratingboxhid:hover {  
+    opacity:1;
 }
 
 p, li, td {
-    line-height: 1.6em;
-    font-size: 1.05em;
+    line-height: 1.6em;
+    font-size: 1.05em;
 }
 
 [[/module]]

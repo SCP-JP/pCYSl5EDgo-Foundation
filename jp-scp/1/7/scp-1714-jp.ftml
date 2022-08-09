@@ -212,41 +212,41 @@ animation: blink 1.3s infinite;
 }
 
 @-webkit-keyframes Disp{
-  0% {opacity: 0;}
-  1% {opacity: 1;}
-  100% {opacity: 1;}
+  0% {opacity: 0;}
+  1% {opacity: 1;}
+  100% {opacity: 1;}
 }
 @-moz-keyframes Disp{
-  0% {opacity: 0;}
-  1% {opacity: 1;}
-  100% {opacity: 1;}
+  0% {opacity: 0;}
+  1% {opacity: 1;}
+  100% {opacity: 1;}
 }
 @keyframes Disp{
-  0% {opacity: 0;}
-  1% {opacity: 1;}
-  100% {opacity: 1;}
+  0% {opacity: 0;}
+  1% {opacity: 1;}
+  100% {opacity: 1;}
 }
 
 @-webkit-keyframes blink{
-  0% {opacity: 0;}
-  1% {opacity: 1;}
+  0% {opacity: 0;}
+  1% {opacity: 1;}
 70% {opacity: 1;}
 71% {opacity: 0;}
-  100% {opacity: 0;}
+  100% {opacity: 0;}
 }
 @-moz-keyframes blink{
-  0% {opacity: 0;}
-  1% {opacity: 1;}
+  0% {opacity: 0;}
+  1% {opacity: 1;}
 70% {opacity: 1;}
 71% {opacity: 0;}
-  100% {opacity: 0;}
+  100% {opacity: 0;}
 }
 @keyframes blink{
-  0% {opacity: 0;}
-  1% {opacity: 1;}
+  0% {opacity: 0;}
+  1% {opacity: 1;}
 70% {opacity: 1;}
 71% {opacity: 0;}
-  100% {opacity: 0;}
+  100% {opacity: 0;}
 }
 [[/module]]
 
@@ -290,7 +290,7 @@ SCiP.NET.Local: サイト-81██/SCP-1714-JP研究室
 [[span class="sent1"]]-- SCiP.NET authentication agent SB-3 --[[/span]]
 [[span class="sent2"]]@<*>@ Fetching SCP-1714-JP security information ...... [OK][[/span]]
 [[span class="sent3"]]@<*>@ Checking level 4/1714 security clearance...... [OK][[/span]]
-[[span class="sent4"]]@<*>@ Automatic authentication......  ##red|[Fail]##[[/span]]
+[[span class="sent4"]]@<*>@ Automatic authentication......  ##red|[Fail]##[[/span]]
 @@@@
 [[span class="sent5"]][auth-agent] Please enter the passphrase.[[/span]]
 [[span class="sent6"]]███████████[[/span]]
@@ -365,24 +365,24 @@ SCiP.NET.Local: サイト-81██/SCP-1714-JP研究室
 filter: drop-shadow(16px 16px 20px red) invert(75%) saturate(1000%)
 }
 #side-bar .side-block {
-    background: url(　) top left;
+    background: url(　) top left;
 }
 div#container-wrap {
-    background: url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG_bg.png) top left;
+    background: url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG_bg.png) top left;
 }
 
 #main-content {
-    background: url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG_middle.png) top left;
+    background: url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG_middle.png) top left;
 }
 
 #header {
-    font-size:0;
-    background:url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG_head_1.png) 30px 70px no-repeat;
+    font-size:0;
+    background:url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG_head_1.png) 30px 70px no-repeat;
 }
 
 /*htmlブロックが表示されないwikidot障害の暫定対応*/
 #page-content iframe.html-block-iframe {
-        height: 3em;
+        height: 3em;
 }
 [[/module]]
 
@@ -402,17 +402,17 @@ div#container-wrap {
 <script type="text/javascript" src="http://shitake-crude-production.wikidot.com/time-move/code/1"></script>
 <script type="text/javascript">
 function previewTime(argObj){
-    var target = document.getElementById("times");
-    target.innerHTML = addDigit(TimeRugMove.convert(argObj.rem,"sec",true),2) + ":" + addDigit(TimeRugMove.convert(argObj.rem,"msec",true),3);
-    function addDigit(n,dn){
-        n = String(n);
-        while(n.length < dn){
-            n = "0" + n;
-        }
-        return n;
-    }
+    var target = document.getElementById("times");
+    target.innerHTML = addDigit(TimeRugMove.convert(argObj.rem,"sec",true),2) + ":" + addDigit(TimeRugMove.convert(argObj.rem,"msec",true),3);
+    function addDigit(n,dn){
+        n = String(n);
+        while(n.length < dn){
+            n = "0" + n;
+        }
+        return n;
+    }
 }
- 
+ 
 TimeRugMove.callback = previewTime;
 TimeRugMove.time = 5;	//5秒後に画面移動します。
 TimeRugMove.url = "http://scp-jp.wikidot.com/scp-1714-jp/offset/1/page4_limit/1"; //移動します。
@@ -425,7 +425,7 @@ TimeRugMove.run();
 <br><br>
 <center>
 <br><br><br><br><br>
-<font size="7" color="#ff0000">SeCueRe  ,  COnTain  ,  PRotecT</font>
+<font size="7" color="#ff0000">SeCueRe  ,  COnTain  ,  PRotecT</font>
 <div id="times"></div>
 </center>
 [[/html]]
@@ -437,30 +437,30 @@ TimeRugMove.run();
 filter: drop-shadow(16px 16px 20px) invert(75%) saturate(10%)
 }
 #side-bar .side-block {
-    background: url(　) top left;
+    background: url(　) top left;
 }
 div#container-wrap {
-    background: url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG-middle_2.png) top left;
+    background: url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG-middle_2.png) top left;
 }
 
 #main-content {
-    background: url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG-middle_2.png) top left;
+    background: url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG-middle_2.png) top left;
 }
 
 #header {
 font-size:0;
-    background:url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG_head_2.png) 30px 60px no-repeat;
+    background:url(http://ja.scp-wiki.net/local--files/scp-1714-jp/BG_head_2.png) 30px 60px no-repeat;
 }
 
 /*htmlブロックが表示されないwikidot障害の暫定対応*/
 @media (max-width: 479px) {
 #page-content iframe.html-block-iframe {
-        height: 1200px;
+        height: 1200px;
 }
 }
 @media(min-width:480px) {
 #page-content iframe.html-block-iframe {
-        height: 62em;
+        height: 62em;
 }
 }
 [[/module]]
@@ -475,7 +475,7 @@ font-size:0;
 　　　　@@ @@
 　　　　@@ @@
 報告???ŒP???ɊȒP?ﾈ[?폜?ﾏ]た。
-　　　   @@ @@
+　　　   @@ @@
 　　　　@@ @@
 　　　　@@ @@
 　　　　@@ @@
@@ -490,14 +490,14 @@ font-size:0;
 <blockquote>
 <center>
 <br> <br><b>報告書作成エリア</b><br>
-<textarea resize="none" name="draft" rows="62"  style="width:97%;" wrap="hard">
- **アイテム番号:** SCP-001-JP
+<textarea resize="none" name="draft" rows="62"  style="width:97%;" wrap="hard">
+ **アイテム番号:** SCP-001-JP
 
- **オブジェクトクラス:** Gevurah
+ **オブジェクトクラス:** Gevurah
 
- **特別収容プロトコル:** 不要。
+ **特別収容プロトコル:** 不要。
 
- **説明:** SCP-001-JPは、財団です。
+ **説明:** SCP-001-JPは、財団です。
 
 SCP-001-JPが指すものは多岐に渡ります。施設、職員、SCiP、報告書、組織そのものに至るまで、全てがSCP-001-JPの一部です。これらは全て、事実上の自己収容状態にあります。
 
@@ -551,7 +551,7 @@ SCiPは、もはや存在しません。それが誰の手で為されたのか�
 　　 　　　　　　※※※O5より通達※※※
 　　 　　@@ @@
 　　 　　君は監視されていた。
-　　    　@@ @@
+　　    　@@ @@
 　　　 　残念ながら、この報告書は認められない。
 　　　 　君は拘束され、終了されるだろう。
 　　 　　@@ @@

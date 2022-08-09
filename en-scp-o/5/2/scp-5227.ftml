@@ -20,71 +20,71 @@
 }
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* black shadow at the top of the terminal */
-    background-image:
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
+    background-image:
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-   padding-left: 1rem;
-    }
+    color: rgba(128,255,128,0.8);
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+   padding-left: 1rem;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
-   padding-left: 1rem;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+   padding-left: 1rem;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -112,7 +112,7 @@ Antuco, Chile, during SCP-5227.
 **SPECIAL CONTAINMENT PROCEDURES:** SCP-5227 is considered neutralized. Access to the Foundation observation post in Antuco is restricted to Foundation personnel with 5/5227 clearance.
 
 [[include component:image-block name=fog.png|
-    caption=Foliage in Antuco.
+    caption=Foliage in Antuco.
 ]]
 
 
@@ -133,7 +133,7 @@ A 3-man expedition from MTF PI-3 "Garcas Oligarcas" was planned to ascertain the
 [[div class="addendum"]]
 [[=]]
 + EXPEDITION LOG EXCERPTS
-+  CHILEAN INTERIOR
++  CHILEAN INTERIOR
 -----
 [[/=]]
 **MTF PI-3 "GARCAS OLIGARCAS"**
@@ -146,7 +146,7 @@ A 3-man expedition from MTF PI-3 "Garcas Oligarcas" was planned to ascertain the
 ----
 //[Team is hiking through the jungle. SCIPIONI and GARLÉS take the lead, while PETROCCHI and CASEROS bring up the rear.]//
 
- **SCIPIONI:** He wasn't pleased with that, no sir. But it was really his fault, if you think about it.
+ **SCIPIONI:** He wasn't pleased with that, no sir. But it was really his fault, if you think about it.
 
 **GARLÉS:** How's that?
 
@@ -194,7 +194,7 @@ A 3-man expedition from MTF PI-3 "Garcas Oligarcas" was planned to ascertain the
 
 //[Grunting.]//
 
- **PETROCCHI:** Great, now I get to hike covered in mud. Perfect.
+ **PETROCCHI:** Great, now I get to hike covered in mud. Perfect.
 
 **SCIPIONI:** Your fault for slipping. The sun's not even down yet.
 
@@ -202,13 +202,13 @@ A 3-man expedition from MTF PI-3 "Garcas Oligarcas" was planned to ascertain the
 
 **SCIPIONI:** Wonderful image, thank you.
 
-**GARLÉS:**  I suppose we're nearing Antuco, then?
+**GARLÉS:**  I suppose we're nearing Antuco, then?
 
 **SCIPIONI:** Who has the map? Pedro?
 
 **CASEROS:** Ah, we're certainly closer, but there's still a ways to go. It's hard to get an exact estimate, the fog makes keeping distance hard.
 
-**GARLÉS:**  I see. But if the fog is getting thicker... we must be going the right way.
+**GARLÉS:**  I see. But if the fog is getting thicker... we must be going the right way.
 
 -----
 = **<<END EXCERPT>>**
@@ -241,7 +241,7 @@ Recovered photograph.
 
 **CASEROS:** It's an observation post, right?
 
-**GARLÉS:**  Security post, actually.
+**GARLÉS:**  Security post, actually.
 
 **CASEROS:** For Fifty-seven? It's in the middle of the mountain, there's no way to get to it without getting on every camera they have hidden on the path.
 
@@ -419,7 +419,7 @@ Recovered photograph.
 
 //[SCIPIONI continues tearing off leaves and reading them.]//
 
-**SCIPIONI:**  Fear not, little flock; for it is your Father's good pleasure to give you the kingdom. Watch ye, stand fast in the faith, quit you like men, be strong. Come unto me, all ye that labour and are heavy laden, and I will give you rest.
+**SCIPIONI:**  Fear not, little flock; for it is your Father's good pleasure to give you the kingdom. Watch ye, stand fast in the faith, quit you like men, be strong. Come unto me, all ye that labour and are heavy laden, and I will give you rest.
 
 **CASEROS:** Luke 12:32, Corinthians 16:13, Matthew 11:28. They - they're all Bible verses. What the hell?
 
@@ -486,7 +486,7 @@ Recovered photograph.
 
 **PETROCCHI:** No? You guys heard that, right?
 
-**GARLÉS:**  Yeah, you said it twice.
+**GARLÉS:**  Yeah, you said it twice.
 
 **SCIPIONI:** I didn't hear anything.
 
@@ -560,7 +560,7 @@ Recovered photograph.
 
 **CASEROS:** Yeah, I know what you mean.
 
-**PETROCCHI:**  You're not turning into a Bible thumper, are you? //[Laughter.]//
+**PETROCCHI:**  You're not turning into a Bible thumper, are you? //[Laughter.]//
 
 **CASEROS:** Heh, yeah. I don't know. Just curious.
 
@@ -665,7 +665,7 @@ Recovered photograph.
 
 **SCIPIONI:** Son of a bitch.
 
-**PETROCCHI:**  I've known Pedro for years. That wasn't him.
+**PETROCCHI:**  I've known Pedro for years. That wasn't him.
 
 **GARLÉS:** He was compromised.
 
@@ -833,7 +833,7 @@ Facility
 
 **PETROCCHI:** You're right, I've seen this before. Somewhere.
 
-//[The two feel their way around the facility for a few minutes, inspecting the industrial equipment.  The fog impairs visibility to only a few meters. They stop in front of a wall of computer equipment.]//
+//[The two feel their way around the facility for a few minutes, inspecting the industrial equipment.  The fog impairs visibility to only a few meters. They stop in front of a wall of computer equipment.]//
 
 **PETROCCHI:** Valentino. Look here.
 
@@ -873,7 +873,7 @@ Welcome, **VALENTINO SCIPIONI**
 >
 > **FROM:** Dr. Gerardo Ares
 > **SUBJECT:** Ethics?
->  @@----@@
+>  @@----@@
 > I'm not sure how I feel about this whole project, friend. I just don't know how to be comfortable with what we're doing. I'm a religious man, you know that. It's hard to be a man of God in this Foundation, but I try. I pray for my soul, and everyone else's. This is... blasphemous.
 > 
 > What they're asking us to do -- it's not a question of technology. We have the technology, we've had it since we took it from the Axis after the armistice. But we've never needed it. I understand that the Foundation is faced with containing more and more, for lack of a better word, theological threats. But we have to ask ourselves if fighting fire with fire is a good idea. Just because we have to contain gods doesn't mean we need our own.
@@ -883,7 +883,7 @@ Welcome, **VALENTINO SCIPIONI**
 >
 > **TO:** Project Lead Adrián Carpas
 > **SUBJECT:** Project Divinidad
->  @@----@@
+>  @@----@@
 > Sir, with all due respect, you can't do this. I understood that our prototype hasn't been exactly up to shot but this is bleeding edge paratechnology. No one quite understands what we're working with, stumbles are inevitable. And, frankly, the fact that we've created a prototype at all is a testament to the skill of the team.
 > 
 > There is simply far too much invested into this to cancel now. The facility would have to be completely razed, and we just don't know what that would do to the prototype. It's -- we believe it's at an infantile stage of development, and a disturbance in its environment could be disastrous. It's not like disposal is an option. With all due respect, sir, you've let the genie out of the bottle. Burying it is not a solution.
@@ -1006,7 +1006,7 @@ Vat.
 [[div class="addendum"]]
 Following the termination of the camera feed, all bombs suspended in the air above Antuco simultaneously detonated at low altitude, out of range of aircraft. The exterior facade of Satellite Facility 57-Beta collapsed, and ground troops conducted an excavation operation to breach into the building.
 
-The body of Supervisory Agent Damián Garlés was discovered; the cause of death was determined to have been respiration of the vat amniotic fluid. The vat itself was completely drained. Captain Valentino Scipioni was found at the bottom  in a state of shock, sitting next to an unidentified desiccated corpse crushed by the large metal cross. Captain Scipioni has been amnesticized following a full medical recovery.
+The body of Supervisory Agent Damián Garlés was discovered; the cause of death was determined to have been respiration of the vat amniotic fluid. The vat itself was completely drained. Captain Valentino Scipioni was found at the bottom  in a state of shock, sitting next to an unidentified desiccated corpse crushed by the large metal cross. Captain Scipioni has been amnesticized following a full medical recovery.
 
 Project Divinidad is considered **##red|closed.##**
 [[/div]]

@@ -1,52 +1,52 @@
 [[module CSS]]
 
-@import url('https://fonts.googleapis.com/css?family=Exo+2|Just+Another+Hand|Lexend+Peta|Nunito|Playfair+Display|Roboto+Mono|Saira+Stencil+One|Electrolize|Schoolbell&display=swap');  /* General-purpose font imports */
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Just+Another+Hand|Lexend+Peta|Nunito|Playfair+Display|Roboto+Mono|Saira+Stencil+One|Electrolize|Schoolbell&display=swap');  /* General-purpose font imports */
 
 .text {
-    font-family: 'Exo 2', sans-serif;
-    font-size: 1.2em;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.2em;
 } 
 .logEntry {
-    background-color: #b8bbbf;
-    text-align: left;
-    font-size: 1em;
-    padding: 10px;
-    display: block;
-    width: 80%;
-    display: block;
-    margin: 15px auto 15px auto;
+    background-color: #b8bbbf;
+    text-align: left;
+    font-size: 1em;
+    padding: 10px;
+    display: block;
+    width: 80%;
+    display: block;
+    margin: 15px auto 15px auto;
 } 
 .pageBreak {
-    text-align: center;
-    display: block;
-    font-family: 'Saira Stencil One', serif;
-    font-size: 1.3em;
+    text-align: center;
+    display: block;
+    font-family: 'Saira Stencil One', serif;
+    font-size: 1.3em;
 }
 
 #page-content .collapsible-block-folded a.collapsible-block-link {
-   font-weight: bold;
-   margin: auto;
+   font-weight: bold;
+   margin: auto;
 } 
 
 .collapsible {
-    border:solid 2px #999999;
-    background:#F5F5F5;
-    width:84%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:solid 2px #999999;
+    background:#F5F5F5;
+    width:84%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 
 .writtenNote {
- font-family: 'Schoolbell', cursive;
- text-align: left;
- font-size: 1em;
- background-color: ##f0f0f0;
- padding: 20px;
- margin: auto;
- border: solid 5px;
- width: 80%;
- border-radius: 20px;
- border-color: #000000;
+ font-family: 'Schoolbell', cursive;
+ text-align: left;
+ font-size: 1em;
+ background-color: ##f0f0f0;
+ padding: 20px;
+ margin: auto;
+ border: solid 5px;
+ width: 80%;
+ border-radius: 20px;
+ border-color: #000000;
 } 
 
 .incident {
@@ -270,5 +270,5 @@ Following psychological assessment and treatment, Zhou was administered Class-C 
 [[/div]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

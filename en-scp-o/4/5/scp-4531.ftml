@@ -2,7 +2,7 @@
 
 [[module CSS]]
 :root {
-  --zero: 0;
+  --zero: 0;
 }
 [[/module]]
 
@@ -41,39 +41,39 @@
 ]]
 [[module css]]
 .contain-class .class-text {
-  color: transparent !important;
+  color: transparent !important;
 }
 
 .contain-class .class-text::before {
-  content: "euclid";
-  position: absolute;
-  top: 0;
-  color: rgba(var(--black-monochrome),1) !important;
+  content: "euclid";
+  position: absolute;
+  top: 0;
+  color: rgba(var(--black-monochrome),1) !important;
 }
 
 .anom-bar-container.esoteric .text-part > .main-class::before {
-  background-color: rgba(var(--three-color),1);
-  background-image: url("http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg");
-  -webkit-filter: invert(0);
-  filter: invert(0);
-  border-color: rgb(var(--black-monochrome));
+  background-color: rgba(var(--three-color),1);
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg");
+  -webkit-filter: invert(0);
+  filter: invert(0);
+  border-color: rgb(var(--black-monochrome));
 }
 
 .anom-bar-container.esoteric .text-part > .main-class {
-  background-color: rgb(var(--white-monochrome));
-  background: linear-gradient(30deg,
-    rgb(var(--gray-monochrome),0.25) 0%,
-    rgb(var(--gray-monochrome),0.25) 50%,
-    rgb(var(--three-color),0.25) 50%,
-    rgb(var(--three-color),0.25) 50%
-  )
+  background-color: rgb(var(--white-monochrome));
+  background: linear-gradient(30deg,
+    rgb(var(--gray-monochrome),0.25) 0%,
+    rgb(var(--gray-monochrome),0.25) 50%,
+    rgb(var(--three-color),0.25) 50%,
+    rgb(var(--three-color),0.25) 50%
+  )
 }
 
 .anom-bar-container.esoteric .danger-diamond > .top-icon::before {
-  background-color: rgb(var(--three-color));
-  background-image: url("http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg");
-  -webkit-filter: invert(0);
-  filter: invert(0);
+  background-color: rgb(var(--three-color));
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg");
+  -webkit-filter: invert(0);
+  filter: invert(0);
 }
 [[/module]]
 ----
@@ -133,7 +133,7 @@ SCP-4531-2 was utilized by the residents of SCP-4531 until Foundation intercepti
 > 
 > **SCP-4531-2 Produced:** Two liters.
 
-> **Subject:**  Maria Tzipporah Bērziņš
+> **Subject:**  Maria Tzipporah Bērziņš
 > 
 > **Date of Manifestation:** September 17th, 2001
 > 
@@ -143,7 +143,7 @@ SCP-4531-2 was utilized by the residents of SCP-4531 until Foundation intercepti
 > 
 > **SCP-4531-2 Produced:** Three liters.
 
-> **Subject:**  Genādijs Māris Ozolinsh
+> **Subject:**  Genādijs Māris Ozolinsh
 > 
 > **Date of Manifestation:** October 3rd, 2005
 > 
@@ -173,7 +173,7 @@ SCP-4531-2 was utilized by the residents of SCP-4531 until Foundation intercepti
 > 
 > **SCP-4531-2 Produced:** Thirty-seven liters.
 
-> **Subject:**  Ilai Zarah Bērziņš
+> **Subject:**  Ilai Zarah Bērziņš
 > 
 > **Date of Manifestation:** September 24th, 2014
 > 

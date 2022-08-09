@@ -1,12 +1,12 @@
 [[include :scp-wiki:component:centered-header-sigma-9]]
 [[include :scp-wiki:component:toggle-sidebar]]
 [[module CSS]]
- :root{
-   --header-title: "SCP FOUNDATION";
-   --header-subtitle: "SITE-01 DEEPWELL";
-   --titleColor: hsl(0, 0%, 95%);
-   --subtitleColor: hsl(60, 62%, 85%);
-   --lgurl: url(https://cdn.discordapp.com/attachments/689304077280215107/987929434742997002/unknown.png);
+ :root{
+   --header-title: "SCP FOUNDATION";
+   --header-subtitle: "SITE-01 DEEPWELL";
+   --titleColor: hsl(0, 0%, 95%);
+   --subtitleColor: hsl(60, 62%, 85%);
+   --lgurl: url(https://cdn.discordapp.com/attachments/689304077280215107/987929434742997002/unknown.png);
 }
 [[/module]]
 
@@ -19,12 +19,12 @@ color: #FFF;
 }
 
 #page-content > .collapsible-block {
-    display: block;
-    text-align: center;
+    display: block;
+    text-align: center;
 }
 
 #page-content > .collapsible-block .collapsible-block-content {
-    text-align: left;
+    text-align: left;
 }
 
 [[/module]]

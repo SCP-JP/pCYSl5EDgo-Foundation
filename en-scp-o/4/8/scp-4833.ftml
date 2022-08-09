@@ -3,19 +3,19 @@
 
 [[module css]]
 .meta-title {
-  color: #000000;
-  font-weight: normal;
-  margin: 0 0 0.6em;
-  padding: 0 0 0.25em;
-  font-size: 200%;
+  color: #000000;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
 }
 
 .meta-title p {
-  margin: 0;
+  margin: 0;
 }
- 
+ 
 #page-title {
-  display: none;
+  display: none;
 }
 [[/module]]
 [[include info:start]]

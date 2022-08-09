@@ -8,13 +8,13 @@
 .fakeprot .passw input[type=text] {text-security:disc;-webkit-text-security:disc;-mox-text-security:disc;}
 .mailform-box td:first-child {width: 80px;}
 @Media (max-width: 768px) {
-  .scp-image-block.block-right,
-  .scp-image-block.block-left {
-    float: none;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  .scp-image-block.block-right,
+  .scp-image-block.block-left {
+    float: none;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 [[/module]]
 [[include credit:start]]
@@ -92,7 +92,7 @@ __**SCP-2005-JP-Case22**__
 
 **出現場所:** フランス、サンラザール刑務所
 
-**受刑者:** [*https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%BF%E3%83%BB%E3%83%8F%E3%83%AA  マルガレータ・ヘールトロイダ・ツェレ](Margaretha Geertruida Zelle)
+**受刑者:** [*https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%BF%E3%83%BB%E3%83%8F%E3%83%AA  マルガレータ・ヘールトロイダ・ツェレ](Margaretha Geertruida Zelle)
 
 **罪状:** スパイ行為
 
@@ -156,7 +156,7 @@ __**SCP-2005-JP-Case58**__
 
 **出現場所:** サウジアラビア、███刑務所
 
-**受刑者:**  [*https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%B6%E3%83%8A%E3%83%BB%E3%83%8A%E3%82%B7%E3%82%AB リザナ・ナシカ](றிஷானா நபீக்)
+**受刑者:**  [*https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%B6%E3%83%8A%E3%83%BB%E3%83%8A%E3%82%B7%E3%82%AB リザナ・ナシカ](றிஷானா நபீக்)
 
 **罪状:** 殺人
 
@@ -214,23 +214,23 @@ Jacques de Molay、1244生？~1314没。第23代目にして最後のテンプ�
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default: Agt.Tachibana
- * type: text
- * rules:
-  * required: true
-  * maxLength:10
-  * minLength: 100
+ * title: ID
+ * default: Agt.Tachibana
+ * type: text
+ * rules:
+  * required: true
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # affiliation
- * title: PASSWORD
- * default: ・・・・・・・・・
- * rules:
-  * required: true
-  * maxLength:10
-  * minLength: 100
+ * title: PASSWORD
+ * default: ・・・・・・・・・
+ * rules:
+  * required: true
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]

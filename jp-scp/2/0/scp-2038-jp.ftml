@@ -5,54 +5,54 @@
 [[module CSS]]
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 #top-bar .open-menu a {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 #top-bar div.open-menu a {
-    color: var(--accentColor) !important;
-    background-color: #21252E !important;
-    border: solid 1px #21252E !important;
+    color: var(--accentColor) !important;
+    background-color: #21252E !important;
+    border: solid 1px #21252E !important;
 }
 :root {
-  --header-title: "SITE-Echo-01";
-  --accentColor: rgb(200,0,0);
+  --header-title: "SITE-Echo-01";
+  --accentColor: rgb(200,0,0);
 }
 @media (min-width: 768px) {
 #side-bar {
-    left: -20em;
-  }
+    left: -20em;
+  }
 }
 @media (max-width: 767px) {
 #side-bar {
-    left: -20em;
-  }
+    left: -20em;
+  }
 }
 .creditRate .rateBox p {
-    margin: 0 5px !important;
+    margin: 0 5px !important;
 }
 #page-content > .collapsible-block {
-    background-color: transparent;
-    border-top: 0;
-    border-bottom: 0;
+    background-color: transparent;
+    border-top: 0;
+    border-bottom: 0;
 }
 .sidebox {
-    border-top: solid 2px #1EB5E8;
+    border-top: solid 2px #1EB5E8;
 }
 .sidebox::before {
-    border-right: 0.75rem solid #1EB5E8 !important;
+    border-right: 0.75rem solid #1EB5E8 !important;
 }
 .sidebox::after {
-    box-shadow: 0.15rem 0 0 0 #1EB5E8 !important;
+    box-shadow: 0.15rem 0 0 0 #1EB5E8 !important;
 }
 .sidebox:hover::after {
-    box-shadow: 0 -0.125rem 0 0 #1EB5E8 !important;
+    box-shadow: 0 -0.125rem 0 0 #1EB5E8 !important;
 }
 @media (max-width: 1290px) {
 .sidebox {
-    border-top: solid 2px #21252E;
-  }
+    border-top: solid 2px #21252E;
+  }
 .sidebox:hover {
-    border-top: solid 2px #1EB5E8;
-  }
+    border-top: solid 2px #1EB5E8;
+  }
 }
 [[/module]]
 
@@ -169,8 +169,8 @@ JailBreakCode:239019100046.2038-JP.4-Function
 [[include :scp-wiki:component:acs-animation]]
 [[module CSS]]
 :root {
-    --timeScale: 0;
-    --timeDelay: 0s;
+    --timeScale: 0;
+    --timeDelay: 0s;
 }
 [[/module]]
 
@@ -333,115 +333,115 @@ JailBreakCode:239019100046.2038-JP.5-Function
 color: #fff;
 }
 .anom-bar-container, .anom-bar-container * {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
 }
 .footnote .f-heading, .equation .e-heading, .reference .r-heading {
-    color: #000;
+    color: #000;
 }
 .footnote .f-content, .reference .r-content {
-    color: #000;
+    color: #000;
 }
 .footnote .f-footer, .equation .e-footer, .reference .r-footer {
-    color: #000;
+    color: #000;
 }
 
 #page-content .rate-box-with-credit-button {
-    background: -webkit-gradient(linear,
-        left top, left bottom,
-        from(rgba(var(--header-gradient-color-bottom),0.5)),
-        color-stop(90%, rgba(var(--header-gradient-color-middle),0.15)),
-        to(rgba(var(--header-gradient-color-top),0.15)));
-    background: -webkit-linear-gradient(top,
-        rgba(var(--header-gradient-color-bottom),0.5) 0%,
-        rgba(var(--header-gradient-color-middle),0.15) 90%,
-        rgba(var(--header-gradient-color-top),0.15) 100%);
-    background: -moz-linear-gradient(top,
-        rgba(var(--header-gradient-color-bottom),0.5) 0%,
-        rgba(var(--header-gradient-color-middle),0.15) 90%,
-        rgba(var(--header-gradient-color-top),0.15) 100%);
-    background: -o-linear-gradient(top,
-        rgba(var(--header-gradient-color-bottom),0.5) 0%,
-        rgba(var(--header-gradient-color-middle),0.15) 90%,
-        rgba(var(--header-gradient-color-top),0.15) 100%);
-    background: linear-gradient(to bottom,
-        rgba(var(--header-gradient-color-bottom),0.5) 0%,
-        rgba(var(--header-gradient-color-middle),0.15) 90%,
-        rgba(var(--header-gradient-color-top),0.15) 100%);
-    border: 0.0625rem solid rgba(var(--swatch-menubg-medium-color), 0.25);
+    background: -webkit-gradient(linear,
+        left top, left bottom,
+        from(rgba(var(--header-gradient-color-bottom),0.5)),
+        color-stop(90%, rgba(var(--header-gradient-color-middle),0.15)),
+        to(rgba(var(--header-gradient-color-top),0.15)));
+    background: -webkit-linear-gradient(top,
+        rgba(var(--header-gradient-color-bottom),0.5) 0%,
+        rgba(var(--header-gradient-color-middle),0.15) 90%,
+        rgba(var(--header-gradient-color-top),0.15) 100%);
+    background: -moz-linear-gradient(top,
+        rgba(var(--header-gradient-color-bottom),0.5) 0%,
+        rgba(var(--header-gradient-color-middle),0.15) 90%,
+        rgba(var(--header-gradient-color-top),0.15) 100%);
+    background: -o-linear-gradient(top,
+        rgba(var(--header-gradient-color-bottom),0.5) 0%,
+        rgba(var(--header-gradient-color-middle),0.15) 90%,
+        rgba(var(--header-gradient-color-top),0.15) 100%);
+    background: linear-gradient(to bottom,
+        rgba(var(--header-gradient-color-bottom),0.5) 0%,
+        rgba(var(--header-gradient-color-middle),0.15) 90%,
+        rgba(var(--header-gradient-color-top),0.15) 100%);
+    border: 0.0625rem solid rgba(var(--swatch-menubg-medium-color), 0.25);
 }
 
 #page-content .creditRate .creditButton a {
-  color: #fff;
+  color: #fff;
 }
 .anom-bar-container.esoteric .text-part > .main-class::before {
-    background-color: rgb(190,190,190);
-    border-color: rgb(var(--swatch-background, 252, 252, 252));
-    border-color: rgb(65,65,65);
+    background-color: rgb(190,190,190);
+    border-color: rgb(var(--swatch-background, 252, 252, 252));
+    border-color: rgb(65,65,65);
 }
 .text-part .disrupt-class::before, .text-part .risk-class::before {
-    color: #fff;
+    color: #fff;
 }
 .danger-diamond > .arrows {
-    background-color: rgb(190,190,190);
+    background-color: rgb(190,190,190);
 }
 .anom-bar-container.esoteric .danger-diamond > .top-icon::before {
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(252, 252, 252);
 }
 
 .danger-diamond > .quadrants > div {
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(65, 65, 65);
 }
 .danger-diamond > .top-icon, .danger-diamond > .right-icon, .danger-diamond > .left-icon, .danger-diamond > .bottom-icon {
-    border: 0.1875rem solid rgb(120, 120, 120);
+    border: 0.1875rem solid rgb(120, 120, 120);
 }
 .anom-bar-container.esoteric .text-part .main-class {
-    background-color: rgba(65,65,65,0.3);
+    background-color: rgba(65,65,65,0.3);
 }
 .anom-bar > .bottom-box::before {
-    background-color: rgb(120,120,120)
+    background-color: rgb(120,120,120)
 }
 .bottom-box > .diamond-part {
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 @keyframes
- diamondBorder {
-    from { box-shadow: -0.5rem -20rem 0 0 rgb(120,120,120); }
-    to { box-shadow: -0.5rem 0 0 0 rgb(120,120,120); }
+ diamondBorder {
+    from { box-shadow: -0.5rem -20rem 0 0 rgb(120,120,120); }
+    to { box-shadow: -0.5rem 0 0 0 rgb(120,120,120); }
 }
 
 .anom-bar-container.esoteric .text-part > .main-class::after {
-    filter: invert(1);
+    filter: invert(1);
 }
 .anom-bar-container.esoteric .text-part > .main-class::after {
-  border: 0.25rem solid rgb(190,190,190);
-  background-color: rgb(160,160,160);
+  border: 0.25rem solid rgb(190,190,190);
+  background-color: rgb(160,160,160);
 }
 .anom-bar-container.esoteric .text-part > .main-class::before {
-    background-color: rgba(var(--keter),1);
+    background-color: rgba(var(--keter),1);
 }
 .contain-class .class-text::before {
-    color: #fff !important;
+    color: #fff !important;
 }
 .anom-bar-container.esoteric .text-part > .main-class > .second-class > .class-text::before {
-    color: #fff;
+    color: #fff;
 }
 .anom-bar-container.esoteric .danger-diamond > .top-icon::before {
-    background-color: rgb(var(--keter));
+    background-color: rgb(var(--keter));
 }
 .anom-bar-container.esoteric .danger-diamond > .bottom-icon::before {
-    filter: invert(1);
+    filter: invert(1);
 }
 .fnnum:hover + .fncon {
-    color: #000;
+    color: #000;
 }
 @media (max-width: 480px ) {
-    .anom-bar > .bottom-box {
-        box-shadow: 0 -0.5rem 0 0 gray !important;
-    }
+    .anom-bar > .bottom-box {
+        box-shadow: 0 -0.5rem 0 0 gray !important;
+    }
 }
 .danger-diamond > .arrows {
-    filter: contrast(0%);
+    filter: contrast(0%);
 }
 [[/module]]
 

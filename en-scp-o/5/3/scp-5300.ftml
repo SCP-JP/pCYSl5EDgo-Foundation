@@ -3,27 +3,27 @@
 [!-- Remove the page title, add email formatting. --]
 [[module CSS]]
 #page-title {
-    display: none;
+    display: none;
 }
 
 .logbox {
-    display: inline-block;
-    float: top;
-    padding: 1px 15px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    width:100%;
-    margin: auto;
-    border: solid 2px #000000;
-    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    display: inline-block;
+    float: top;
+    padding: 1px 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width:100%;
+    margin: auto;
+    border: solid 2px #000000;
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 .tofrom {
-    margin-left: 10px;
-    margin-top: 5px;
-    padding: 1px 15px;
-    border-left: solid 3px maroon;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 1px 15px;
+    border-left: solid 3px maroon;
 }
 [[/module]]
 
@@ -58,10 +58,10 @@ The "Vietnam book" Zajic refers to is //The Things They Carried//, by Tim O'Brie
 [[/div]] 
 [[module CSS]]
 .info-container .collapsible-block-content br {
-    margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 .info-container .collapsible-block-content > div:nth-child(1) > p {
-    margin: 1em 2em 1em 2em;
+    margin: 1em 2em 1em 2em;
 }
 [[/module]]
 

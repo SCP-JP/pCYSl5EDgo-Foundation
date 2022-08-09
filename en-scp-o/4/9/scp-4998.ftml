@@ -3,85 +3,85 @@
 img {
 
 
-    -webkit-animation: fadein 1140s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1140s; /* Firefox < 16 */
-        -ms-animation: fadein 1140s; /* Internet Explorer */
-         -o-animation: fadein 1140s; /* Opera < 12.1 */
-            animation: fadein 1140s;
+    -webkit-animation: fadein 1140s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1140s; /* Firefox < 16 */
+        -ms-animation: fadein 1140s; /* Internet Explorer */
+         -o-animation: fadein 1140s; /* Opera < 12.1 */
+            animation: fadein 1140s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 </style>
 <style type="text/css">
-     body {
-      font-family: verdana, arial, helvetica, sans-serif;
-      font-size: 12.8px; /* 16px * 0.8 */
-      color: #333;
-      line-height: 141%;
-     }
-     #classified-info, #meme-agent {
-      display: none;
-     }
+     body {
+      font-family: verdana, arial, helvetica, sans-serif;
+      font-size: 12.8px; /* 16px * 0.8 */
+      color: #333;
+      line-height: 141%;
+     }
+     #classified-info, #meme-agent {
+      display: none;
+     }
 
-     blockquote {
-      border: 1px dashed #999;
-      padding: 0 12.8px;
-      background-color: #f4f4f4;
-     }
-     a {
-      color: #b01;
-      cursor: pointer;
-      text-decoration: none;
-     }
-     a:hover {
-      text-decoration: underline;
-     }
-     .collapsed {
-      display: none;
-     }
-     h4 {
-      font-size: 130%;
-      font-weight: bold;
-      margin-bottom: 0;
-     }
-     .image-container.floatright {
-         padding-right: 0;
-         float: right;
-     }
-     tt{
-         font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
-         font-size: 98%;
-     }
-     .collapsed {
-      display: none;
-     }
+     blockquote {
+      border: 1px dashed #999;
+      padding: 0 12.8px;
+      background-color: #f4f4f4;
+     }
+     a {
+      color: #b01;
+      cursor: pointer;
+      text-decoration: none;
+     }
+     a:hover {
+      text-decoration: underline;
+     }
+     .collapsed {
+      display: none;
+     }
+     h4 {
+      font-size: 130%;
+      font-weight: bold;
+      margin-bottom: 0;
+     }
+     .image-container.floatright {
+         padding-right: 0;
+         float: right;
+     }
+     tt{
+         font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
+         font-size: 98%;
+     }
+     .collapsed {
+      display: none;
+     }
 </style>
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/GE_Oil_%26_Gas_Logo.svg" alt="Moving. Forward. Always." width=550px height=150px align="left">
 
@@ -91,7 +91,7 @@ img {
 [[=]]
 **SCP-4998:** Space Available, Inquire Within
 ------
- **Author:** [[$ sc(rn)p $]]
+ **Author:** [[$ sc(rn)p $]]
 ([http://www.scp-wiki.net/scpcrnp-s-author-page More from this author.])
 [[/=]]
 [[include info:end]]
@@ -122,12 +122,12 @@ Manifestation occurs via ill-understood means over the course of approximately 3
 Attempts to efface the advertisements have been met with unexpected difficulties; physical instantiations are either indelible or anomalously affixed to the affected structure while digital ones do not respond to editing the code. SCP-4998 instances upon physical surfaces can be managed either by applying concealment such as paint or by demolishing the involved structure entirely. Both are considered temporary, as recurrence rates are high and there are currently no known means to prevent SCP-4998's ongoing annexation of negative spaces.
 
 Companies linked to SCP-4998 instances consistently deny placing or contracting the advertisements. Despite a recognizable motive for such companies, no tangible evidence has yet to be established in a court of law.[[footnote]]Property owners regularly file cases against the implicated companies, manufactures, corporations, and/or third-party marketing agencies.[[/footnote]] The Foundation has inserted auditory and visual memetic components within the presentations of involved judicial practitioners to discourage the consideration that the etiology of the advertisements may be preternatural. The majority of cases resolve without official litigation, the most likely explanation considered to be the work of highly-skilled stencil-graffiti artists. 
- _
+ _
 
 [[tabview]]
 [[tab List of Notable Instances]]
 
-> **Instance:**  6
+> **Instance:**  6
 > **Location:** Taj Mahal - Agra, India
 > **Size:** 40m x 40m 
 > **Notes:** An advert for a Japanese car manufacturer, etched into the structure by unknown means. The mausoleum has been coated with memetic nanotechnology to make the advert virtually undetectable and will need to be demolished for definite removal.[[footnote]][[[*https://globalnews.ca/news/4324881/taj-mahal-teardown-india-supreme-court/ |A cover story implicating damage from pollution]]] is underway as of 7/11/18.[[/footnote]]
@@ -157,40 +157,40 @@ Companies linked to SCP-4998 instances consistently deny placing or contracting 
 img {
 
 
-    -webkit-animation: fadein 1240s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1240s; /* Firefox < 16 */
-        -ms-animation: fadein 1240s; /* Internet Explorer */
-         -o-animation: fadein 1240s; /* Opera < 12.1 */
-            animation: fadein 1240s;
+    -webkit-animation: fadein 1240s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1240s; /* Firefox < 16 */
+        -ms-animation: fadein 1240s; /* Internet Explorer */
+         -o-animation: fadein 1240s; /* Opera < 12.1 */
+            animation: fadein 1240s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 </style>
 <center>
@@ -232,13 +232,13 @@ img {
 > **Location:** Thoracic cavity of Agent Belopolsky (right upper lobe, right lower lobe, left upper lobe, left lower lobe of lungs).
 > **Size:** 3cm-10cm in diameter (4 total). 
 > **Notes:** Advert for home health nursing services. Resulted in the respiratory arrest and sudden death of Agent Belopolsky. As of instance 51, SCP-4998 is assumed to be capable of complex forethought.
-  
+  
 
 > **Instance:** 54
 > **Location:** Office wall of O5-5.
 > **Size:** 1m x 1m
 > **Notes:** Advert for Liberty Life Insurance. Was taken as a deliberate threat, O5-5 evacuated and taken to ████. Security threat level for O5s escalated and protocols initiated. 
- 
+ 
 
 [[/tab]]
 
@@ -253,87 +253,87 @@ The passengers of the balloon were reconnoitered and questioned. All denied know
 [[collapsible show="+ Pending Containment Procedures" hide="- Minimize"]]
 [[html]]
 <style type="text/css">
-     body {
-      font-family: verdana, arial, helvetica, sans-serif;
-      font-size: 12.8px; /* 16px * 0.8 */
-      color: #333;
-      line-height: 141%;
-     }
-     #classified-info, #meme-agent {
-      display: none;
-     }
+     body {
+      font-family: verdana, arial, helvetica, sans-serif;
+      font-size: 12.8px; /* 16px * 0.8 */
+      color: #333;
+      line-height: 141%;
+     }
+     #classified-info, #meme-agent {
+      display: none;
+     }
 
-     blockquote {
-      border: 1px dashed #999;
-      padding: 0 12.8px;
-      background-color: #f4f4f4;
-     }
-     a {
-      color: #b01;
-      cursor: pointer;
-      text-decoration: none;
-     }
-     a:hover {
-      text-decoration: underline;
-     }
-     .collapsed {
-      display: none;
-     }
-     h4 {
-      font-size: 130%;
-      font-weight: bold;
-      margin-bottom: 0;
-     }
-     .image-container.floatright {
-         padding-right: 0;
-         float: right;
-     }
-     tt{
-         font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
-         font-size: 98%;
-     }
-     .collapsed {
-      display: none;
-     }
+     blockquote {
+      border: 1px dashed #999;
+      padding: 0 12.8px;
+      background-color: #f4f4f4;
+     }
+     a {
+      color: #b01;
+      cursor: pointer;
+      text-decoration: none;
+     }
+     a:hover {
+      text-decoration: underline;
+     }
+     .collapsed {
+      display: none;
+     }
+     h4 {
+      font-size: 130%;
+      font-weight: bold;
+      margin-bottom: 0;
+     }
+     .image-container.floatright {
+         padding-right: 0;
+         float: right;
+     }
+     tt{
+         font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
+         font-size: 98%;
+     }
+     .collapsed {
+      display: none;
+     }
 </style>
 <style>
 img {
 
 
-    -webkit-animation: fadein 900s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 900s; /* Firefox < 16 */
-        -ms-animation: fadein 900s; /* Internet Explorer */
-         -o-animation: fadein 900s; /* Opera < 12.1 */
-            animation: fadein 900s;
+    -webkit-animation: fadein 900s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 900s; /* Firefox < 16 */
+        -ms-animation: fadein 900s; /* Internet Explorer */
+         -o-animation: fadein 900s; /* Opera < 12.1 */
+            animation: fadein 900s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 </style>
 <strong><center>Pending Containment Procedures</strong> ...</center> <br>
@@ -391,37 +391,37 @@ Instantiations of SCP-4998 that appear on transportable surfaces that are not su
 > **Miguel:** I may have violated some minor intertemporal laws to be here. Easy for an individual of my persuasion and influence to do. Oops there I go. Ah well. Not that you have the jurisdiction to do anything about it. Or the capability. Only Nestlé does...Johnson&Johnson too, maybe. Maybe Nabisco. Definitely not anybody else, not you guys, not anymore. Me, soon, very soon. We’ll see...what you don't believe me? Trust me when I say this: believe me. Ok? 
 > 
 > **Agent Belopolsky:** I see. So you are a...trans-chronal felon? 
->  
+>  
 > **Miguel:** Well it's not felonious really, just //sort// of illegal. There are some investigations goin on, or ongoing, I dunno. They can't really end if I keep committing crimes, can they? //(chuckles)// I'm kidding. I'm a kidder. People think I’m very funny, strangers do too.
 > 
 > **Agent Belopolsky:** ...
 > 
 > **Miguel:** Did I lose you there? Tell me if you can hear me. Hello? 
->  
+>  
 > **Agent Belopolsky:** I'm here.
 > 
 > **Miguel:** Oh. I thought "Damn AT&T". Is that who you use? They are really losing territory. Poor management, you gotta have good managerial leadership to survive out there. You're receiving orders through the feed from your peers probably. Am I right? I have a knack for being right. That's what led me to start this business. Real successful, lemme tell you.
 > 
 > **Agent Belopolsky:** Let's cut the shit here. We're interested in the "history" of the Foundation.
->  
+>  
 > **Miguel:** Of course. Well I won't say much, so you know. Let’s be clear. The more I stir up here in the film(?), the faster I get the Trustees knocking on my door. Ads, even big ones, are one thing...but...information of that nature is so sensitive not even your O5's could touch it. Believe me. I'm here to simply offer you monetary and military leverage in the decades to come, enough to compete with the corporations. See, one day you won't be containing anomalies, but CEOs, unnaturally powerful CEOs. Now. You’ve witnessed the influence I can create; so lets make a deal.
->  
+>  
 > **Agent Belopolsky:** You really did fail your history lessons. There are very few if any agencies or entities in better martial posturing than we are right now. We don't see that changing or being challenged by any corporation, much less most governments. I've got to point out, you aren't very prepared for this business meeting, you haven't thought of how we would be able to trust you; you could be a saboteur. Maybe we're imposingly successful in the future and that's why you're here. With a Trojan horse.
 > 
 > **Miguel:** A Trogan wha? Sir, I am in the business of retrospective economic warfare...a black market operation of course, but the whole of the war effort is really...comparatively, I am benign, really. So many others are and need to be put into the void(?), but not me, not me. Listen, I am coming to you...show some thanks...with an offer that is mutualistic. That's all I'm here for. I am a man of my word, you'll see. Plus I already put an ad basically on your front door; I’ve got no tricks, could’ve and would’ve by now. That I'm offering you some help should be a hint to you. Ok ok, I’ll say this about your organization; turns out it is much easier to gain territory and employees when you don’t have to remain a secret from the masses. Get it?
->  
+>  
 > **Agent Belopolsky:** Why contact us via telephone of all things?
->  
+>  
 > **Miguel:** It's a forgotten technology. Less likely that the Trustees will catch on.
->  
+>  
 > **Agent Belopolsky:** You've mentioned war several times now. I assume it is between these Trustees?
->  
+>  
 > **Miguel:** Oh yes. I started this operation just before the seventh Great Corporate War actually. Started it with just a little help from my father.
 > 
 > **Agent Belopolsky:** Who makes up the armies?
 > 
 > **Miguel:** Who do you think?
->  
+>  
 > **Agent Belopolsky:** I find the idea of corporations warring with each other and their armies being made of either employees or those loyal to the brands kind of ridiculous and unbelievable.
 > 
 > **Miguel:** Really? Is your clairvoyance really that underdeveloped? Sorry, I'm sorry really. That's no way to treat a potential client. I'm a nice guy, a good guy. Really. Look, I am genuinely shocked this is an alarming concept to you. All I can say really is that communism will not win. You guys still got commies? 
@@ -435,92 +435,92 @@ Instantiations of SCP-4998 that appear on transportable surfaces that are not su
 > **Miguel:** Shame. Why do you think I made such a splash with these ads? I mean we //really// could tap the fledgling interdimensional markets together. It'd be the best, no one has better access than me, no one. So if you ever want to put those anomalous temporal spaces to good use, you know what number to call, Agent Ambassador. Ok? Buh-bye now, buh-bye.
 > 
 > //(The call is ended.)//
- _
+ _
 
 [[html]]
 <style>
 img {
 
 
-    -webkit-animation: fadein 1080s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1080s; /* Firefox < 16 */
-        -ms-animation: fadein 1080s; /* Internet Explorer */
-         -o-animation: fadein 1080s; /* Opera < 12.1 */
-            animation: fadein 1080s;
+    -webkit-animation: fadein 1080s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1080s; /* Firefox < 16 */
+        -ms-animation: fadein 1080s; /* Internet Explorer */
+         -o-animation: fadein 1080s; /* Opera < 12.1 */
+            animation: fadein 1080s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 </style>
 <style type="text/css">
-     body {
-      font-family: verdana, arial, helvetica, sans-serif;
-      font-size: 12.8px; /* 16px * 0.8 */
-      color: #333;
-      line-height: 141%;
-     }
-     #classified-info, #meme-agent {
-      display: none;
-     }
+     body {
+      font-family: verdana, arial, helvetica, sans-serif;
+      font-size: 12.8px; /* 16px * 0.8 */
+      color: #333;
+      line-height: 141%;
+     }
+     #classified-info, #meme-agent {
+      display: none;
+     }
 
-     blockquote {
-      border: 1px dashed #999;
-      padding: 0 12.8px;
-      background-color: #f4f4f4;
-     }
-     a {
-      color: #b01;
-      cursor: pointer;
-      text-decoration: none;
-     }
-     a:hover {
-      text-decoration: underline;
-     }
-     .collapsed {
-      display: none;
-     }
-     h4 {
-      font-size: 130%;
-      font-weight: bold;
-      margin-bottom: 0;
-     }
-     .image-container.floatright {
-         padding-right: 0;
-         float: right;
-     }
-     tt{
-         font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
-         font-size: 98%;
-     }
-     .collapsed {
-      display: none;
-     }
+     blockquote {
+      border: 1px dashed #999;
+      padding: 0 12.8px;
+      background-color: #f4f4f4;
+     }
+     a {
+      color: #b01;
+      cursor: pointer;
+      text-decoration: none;
+     }
+     a:hover {
+      text-decoration: underline;
+     }
+     .collapsed {
+      display: none;
+     }
+     h4 {
+      font-size: 130%;
+      font-weight: bold;
+      margin-bottom: 0;
+     }
+     .image-container.floatright {
+         padding-right: 0;
+         float: right;
+     }
+     tt{
+         font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
+         font-size: 98%;
+     }
+     .collapsed {
+      display: none;
+     }
 </style>
 <center>
 <p>
@@ -592,7 +592,7 @@ img {
 > 
 > **Agent Belopolsky:** I think we've heard what we need to. You better find a way to rein in its behavior because this has the potential to get out of hand quick and be to both of our detriment. 
 > 
-> **Miguel:** Hmm. I never thought about it that way. Whoops. Ironic, huh? One of those self-fulfilling prominences or something, right?  
+> **Miguel:** Hmm. I never thought about it that way. Whoops. Ironic, huh? One of those self-fulfilling prominences or something, right?  
 > 
 > **Agent Belopolsky:** For all your self-praise, you're a very unpleasant individual to do business with, and I want you to know that is not just from me, but from the O5 too. 
 > 
@@ -642,9 +642,9 @@ img {
 > 
 > **O-7:** //(interrupting)// Its mimicry is becoming frighteningly precise. I just clicked on what I thought was a L-5 security clearance lock and now I’m getting spam emails about identity protection. We're having to modify our database's formatting in response but its adaptability is something we can't seem to get far enough ahead of. Now, if you can help us, we are willing to compensate you. 
 > 
-> **Miguel:**  Hmm. Business. Ok I see. Deal. Well she's never done this on our end. It seems the film(?) of your time is less reinforced. Weak. It probably can sniff that and sees its opening. Shame. Real good for business though, I must say. 
+> **Miguel:**  Hmm. Business. Ok I see. Deal. Well she's never done this on our end. It seems the film(?) of your time is less reinforced. Weak. It probably can sniff that and sees its opening. Shame. Real good for business though, I must say. 
 > 
-> **O-7:** You’ve got to know //something// about how this thing you’re running works.  Or did you literally just buy your way into it?
+> **O-7:** You’ve got to know //something// about how this thing you’re running works.  Or did you literally just buy your way into it?
 > 
 > **Miguel:** Trust me, I’ve got the best brain.
 > 
@@ -686,9 +686,9 @@ img {
 
 [[tab Media Gallery]]
 [[div style="border: 1px dashed #999;
-    	padding: 0 12.8px;
-    	background-color: #f4f4f4;
-        box-shadow: -5px 5px 15px #000;"]]
+    	padding: 0 12.8px;
+    	background-color: #f4f4f4;
+        box-shadow: -5px 5px 15px #000;"]]
 [[=]]
 [[gallery size="image-size"]]
 : image-source1 attribute1="value1" attribute2="value2" ...
@@ -701,85 +701,85 @@ img {
 img {
 
 
-    -webkit-animation: fadein 141s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 141s; /* Firefox < 16 */
-        -ms-animation: fadein 141s; /* Internet Explorer */
-         -o-animation: fadein 141s; /* Opera < 12.1 */
-            animation: fadein 141s;
+    -webkit-animation: fadein 141s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 141s; /* Firefox < 16 */
+        -ms-animation: fadein 141s; /* Internet Explorer */
+         -o-animation: fadein 141s; /* Opera < 12.1 */
+            animation: fadein 141s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 </style>
 <style type="text/css">
-     body {
-      font-family: verdana, arial, helvetica, sans-serif;
-      font-size: 12.8px; /* 16px * 0.8 */
-      color: #333;
-      line-height: 141%;
-     }
-     #classified-info, #meme-agent {
-      display: none;
-     }
+     body {
+      font-family: verdana, arial, helvetica, sans-serif;
+      font-size: 12.8px; /* 16px * 0.8 */
+      color: #333;
+      line-height: 141%;
+     }
+     #classified-info, #meme-agent {
+      display: none;
+     }
 
-     blockquote {
-      border: 1px dashed #999;
-      padding: 0 12.8px;
-      background-color: #f4f4f4;
-     }
-     a {
-      color: #b01;
-      cursor: pointer;
-      text-decoration: none;
-     }
-     a:hover {
-      text-decoration: underline;
-     }
-     .collapsed {
-      display: none;
-     }
-     h4 {
-      font-size: 130%;
-      font-weight: bold;
-      margin-bottom: 0;
-     }
-     .image-container.floatright {
-         padding-right: 0;
-         float: right;
-     }
-     tt{
-         font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
-         font-size: 98%;
-     }
-     .collapsed {
-      display: none;
-     }
+     blockquote {
+      border: 1px dashed #999;
+      padding: 0 12.8px;
+      background-color: #f4f4f4;
+     }
+     a {
+      color: #b01;
+      cursor: pointer;
+      text-decoration: none;
+     }
+     a:hover {
+      text-decoration: underline;
+     }
+     .collapsed {
+      display: none;
+     }
+     h4 {
+      font-size: 130%;
+      font-weight: bold;
+      margin-bottom: 0;
+     }
+     .image-container.floatright {
+         padding-right: 0;
+         float: right;
+     }
+     tt{
+         font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
+         font-size: 98%;
+     }
+     .collapsed {
+      display: none;
+     }
 </style>
 <font color="silver"><center><i>Thumbnails. Click to enlarge.</i></center></font>
 <p>

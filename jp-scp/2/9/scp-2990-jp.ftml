@@ -1,11 +1,11 @@
 [[module CSS]]
 .blinkbar {color: red;font-size:125%; animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
 .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 a.collapsible-block-link { font-weight: bold; }
@@ -13,7 +13,7 @@ a.collapsible-block-link { font-weight: bold; }
 [[/module]]
 
 [[include credit:start]]
-**タイトル:**  SCP-2990-JP - ────,  that is the question.
+**タイトル:**  SCP-2990-JP - ────,  that is the question.
 **著者:** ©︎[[*user VideoGameMonkeyMONO]]
 **作成年:** 2020
 [[include credit:end]]
@@ -96,41 +96,41 @@ SCP-2990-JPにおけるループ現象はいくつかのステップに分割さ
 
 __**映像記録001**__
 > **<記録開始>**
->  
+>  
 > **SCP-2990-JP-2:** ほら、ちゃんと深く切るのよ。
->  
+>  
 > **メイ氏:** [思案声]
->  
+>  
 > **SCP-2990-JP-2:** 何ビビってんの。お父さんのために死にたいんでしょ？
->  
+>  
 > **メイ氏:** それはそうだけど……。
->  
+>  
 > **SCP-2990-JP-2:** 痛いから嫌なんてワガママ言わないでよ。
->  
+>  
 > **メイ氏:** ん……。うん。[小さく叫ぶ]
->  
+>  
 > **SCP-2990-JP-2:** よしよし、切れたね。あとはお風呂につかって1時間も待てばいいからいってらっしゃい。
->  
+>  
 > **メイ氏:** ……うん。
->  
+>  
 > [メイ氏は風呂場へと向かい、15分ほど経過する]
->  
+>  
 > **メイ氏:** 痛い！痛いよぉ！もうやだぁ！
->  
+>  
 > **SCP-2990-JP-2:** ちょ、何戻ってきてんの！
->  
+>  
 > **メイ氏:** やだぁ！やだよぉ！
->  
+>  
 > **SCP-2990-JP-2:** 一人でできるって約束したでしょ！
->  
+>  
 > **メイ氏:** [泣き声]ごめんなさい！ごめんなさい！
->  
+>  
 > **SCP-2990-JP-2:** このクソガキ死ねもしないくせにこんな汚しやがって！誰が掃除すると思ってんだ！
->  
+>  
 > [SCP-2990-JP-2はメイ氏を浴槽に沈めようとするが抵抗されたため断念する]
->  
+>  
 > **メイ氏:** ごめんなさい、ごめんなさい……。
->  
+>  
 > **<記録終了>**
 
 SCP-2990-JP-1を異常性の中心人物と考え、サイト-81██における標準人型収容室への収容に至りました。SCP-2990-JP-1の拘束後、SCP-2990-JP-2は消失していることが確認されています。また高田 メイ氏に関しては記憶処理が施され、財団の施設にて保護されることが決定しています。
@@ -175,106 +175,106 @@ SCP-2990-JP-1を殺害すべきか？
 
 [[module css]]
 #page-content .pseudo-vote {
-  display: block;
-  margin: 1em auto;
-  width: 90%;
-  max-width: 400px;
-  padding: 1em;
-  border: solid 1px rgba(0, 0, 0, 0.25);
-  border-radius: 1em;
+  display: block;
+  margin: 1em auto;
+  width: 90%;
+  max-width: 400px;
+  padding: 1em;
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  border-radius: 1em;
 }
 
 #page-content .pseudo-vote .pseudo-vote-question {
-  font-size: 115%;
-  line-height: 1.5;
-  margin: 0.2em 0;
+  font-size: 115%;
+  line-height: 1.5;
+  margin: 0.2em 0;
 }
 
 /* TABのデフォルトスタイルをキャンセル */
 
 #page-content .pseudo-vote .yui-content {
-  display: none;
+  display: none;
 }
 
 #page-content .pseudo-vote .yui-navset .yui-nav,
 #page-content .pseudo-vote .yui-navset .yui-nav a,
 #page-content .pseudo-vote .yui-navset .yui-nav a em {
-  border: none;
+  border: none;
 }
 
 #page-content .pseudo-vote .yui-navset .yui-nav .selected a em {
-  color: black;
-  padding: 0.25em 0.75em;
+  color: black;
+  padding: 0.25em 0.75em;
 }
 
 #page-content .pseudo-vote .yui-navset .yui-nav a,
 #page-content .pseudo-vote .yui-navset .yui-nav a:focus,
 #page-content .pseudo-vote .yui-navset .yui-nav a:hover {
-  background: none;
+  background: none;
 }
 
 #page-content .pseudo-vote .yui-navset .yui-nav li:nth-of-type(1) {
-  display: none;
+  display: none;
 }
 
 /* 調整 */
 #page-content .pseudo-vote .yui-navset .yui-nav li {
-  display: block;
-  position: relative;
-  font-size: 14px;
-  line-height: 2;
-  margin: 5px 1em;
-  pointer-events: none;
+  display: block;
+  position: relative;
+  font-size: 14px;
+  line-height: 2;
+  margin: 5px 1em;
+  pointer-events: none;
 }
 
 #page-content .pseudo-vote .yui-navset .yui-nav li:nth-of-type(1).selected ~ li {
-  pointer-events: auto;
+  pointer-events: auto;
 }
 
 /* デフォルト背景 */
 #page-content .pseudo-vote .yui-navset .yui-nav li::before,
 #page-content .pseudo-vote .yui-navset .yui-nav li:nth-of-type(1).selected ~ li::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background: rgba(51, 49, 49, 0.25);
-  width: 10px;
-  height: 100%;
-  border-radius: 5px;
-  transition: ease-in-out 0.25s;
-  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(51, 49, 49, 0.25);
+  width: 10px;
+  height: 100%;
+  border-radius: 5px;
+  transition: ease-in-out 0.25s;
+  pointer-events: none;
 }
 
 #page-content .pseudo-vote .yui-navset .yui-nav li:hover::before,
 #page-content .pseudo-vote .yui-navset .yui-nav li:nth-of-type(1).selected ~ li:hover::before {
-  width: 50px;
+  width: 50px;
 }
 
 /* 選択 */
 /* 選んだほう */
 #page-content .pseudo-vote .yui-navset .yui-nav li.selected::before {
-  width: 75%;
-  background: rgba(0, 161, 233, 0.45);
+  width: 75%;
+  background: rgba(0, 161, 233, 0.45);
 }
 
 #page-content .pseudo-vote .yui-navset .yui-nav li.selected::after {
-  content: "\f058";
-  font-family: "FontAwesome";
-  position: absolute;
-  top: 0;
-  right: 1em;
-  display: inline-block;
-  height: 100%;
-  line-height: 36px;
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.5);
+  content: "\f058";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 0;
+  right: 1em;
+  display: inline-block;
+  height: 100%;
+  line-height: 36px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* 選んでない方 */
 #page-content .pseudo-vote .yui-navset .yui-nav li:not(.selected)::before {
-  width: 25%;
-  background: rgba(0, 161, 233, 0.3);
+  width: 25%;
+  background: rgba(0, 161, 233, 0.3);
 }
 [[/module]]
 [[/div]]

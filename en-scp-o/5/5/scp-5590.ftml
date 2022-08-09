@@ -6,8 +6,8 @@
 
 [[module CSS]]
 :root {
-    --timeScale: 1.5;
-    --timeDelay: 0.5s;
+    --timeScale: 1.5;
+    --timeDelay: 0.5s;
 }
 
 .hovertip { max-width: 400px; }
@@ -19,26 +19,26 @@ sup { font-weight: bold; }
 .tofrom {margin-left: 10px; margin-top: 8px; padding: 1px 15px; border-left: solid 3px maroon}
 
 .testseries {
-   border: 1px solid black;
-   border-radius: 8px;
-   width: 90%;
-   margin: auto;
-   margin-top: 1em;
-   margin-bottom: 1em;
-   background: #eeeeee
+   border: 1px solid black;
+   border-radius: 8px;
+   width: 90%;
+   margin: auto;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   background: #eeeeee
 }
 .noword{padding: 0px 10px 10px 10px;}
 .afterword{padding: 0px 10px;}
 
 .testlogs {
-   border-collapse:collapse;
-   margin:auto;
-   table-layout: fixed;
-   width: 100%;
+   border-collapse:collapse;
+   margin:auto;
+   table-layout: fixed;
+   width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-  .begone{display: none;}
+  .begone{display: none;}
 }
 [[/module]]
 
@@ -144,7 +144,7 @@ The backrest of the chair is expected to break if someone Head Researcher Arelli
 **Incident Log 5590-2:** On 3/7/1986, SCP-5590 began making a series of gestures indicating distress towards the camera in its cell. Head Researcher Arelli was repeatedly unable to calm SCP-5590. After 23 minutes, Researcher Coleman successfully calmed SCP-5590. Neither researcher was able to identify a cause for SCP-5590's distress.
 
 **Incident Log 5590-3:** On 3/18/1986, SCP-5590 began using its circular saw appendage to make small cuts into the floor and walls of its cell. This creates a constant high-pitched cutting noise that persists throughout the day.
->  **Note From Head Researcher Arelli:** We can't stop the noise. I talked to a couple of the technicians, and the system the cameras run on don't allow volume control for the individual camera feeds. Our only option is to have sound coming in from all of the feeds or none. The Site Directors won't allow me to turn it off for all of them because some of the SCPs on other camera feeds need to be listened to.
+>  **Note From Head Researcher Arelli:** We can't stop the noise. I talked to a couple of the technicians, and the system the cameras run on don't allow volume control for the individual camera feeds. Our only option is to have sound coming in from all of the feeds or none. The Site Directors won't allow me to turn it off for all of them because some of the SCPs on other camera feeds need to be listened to.
 >
 > 
 > I've decided to change the risk class from "Notice" to "Caution" before the thing gives me tinnitus.

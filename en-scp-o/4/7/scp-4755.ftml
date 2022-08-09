@@ -2,31 +2,31 @@
 [[include :scp-wiki:component:bhl-dark-sidebar]]
 [[module CSS]]
 #page-content blockquote {
-  border: 2px double #999;
-  background-color: #f4f4f4;
+  border: 2px double #999;
+  background-color: #f4f4f4;
 }
 a.collapsible-block-link { font-weight: bold; }
-.collapsible-block {  
-  text-align: center;
+.collapsible-block {  
+  text-align: center;
 }
 .collapsible-block-content {
-  text-align: justify;
+  text-align: justify;
 }
 .roundhr {
-  border-bottom: 7px solid #AAAAAA;
-  clip-path: polygon(
-    0% .25em,
-    .25em 0%,
-    calc(100% - .25em) 0%,
-    100% .25em,
-    100% calc(100% - .25em),
-    calc(100% - .25em) 100%,
-    .25em 100%,
-    0% calc(100% - .25em)
-    );
+  border-bottom: 7px solid #AAAAAA;
+  clip-path: polygon(
+    0% .25em,
+    .25em 0%,
+    calc(100% - .25em) 0%,
+    100% .25em,
+    100% calc(100% - .25em),
+    calc(100% - .25em) 100%,
+    .25em 100%,
+    0% calc(100% - .25em)
+    );
 }
 ::-webkit-scrollbar-thumb {
-  background: #6a6c6e;
+  background: #6a6c6e;
 }
 [[/module]]
 
@@ -44,7 +44,7 @@ a.collapsible-block-link { font-weight: bold; }
 [[table style="border: none; width: 100%; margin: 10px"]]
 [[row]]
 [[cell style="width: 15%;"]]
-[[f<image  https://scp-wiki.wdfiles.com/local--files/about-the-scp-foundation/scp-logo-signature.png size="thumbnail" alt="SCP logo"]]
+[[f<image  https://scp-wiki.wdfiles.com/local--files/about-the-scp-foundation/scp-logo-signature.png size="thumbnail" alt="SCP logo"]]
 [[/cell]]
 [[cell style="text-align: center;border:solid 2px #ee9999; padding:20px;"]]
 +++++ The following anomaly is Level 6/4755 classified.
@@ -58,7 +58,7 @@ If you are not a registered member of the Overseer Council, attempting to access
 > **Current Access:** __{{L6-GENERAL}}__
 [[/cell]]
 [[cell style="width: 15%;"]]
-[[f>image  https://scp-wiki.wdfiles.com/local--files/about-the-scp-foundation/scp-logo-signature.png size="thumbnail" alt="SCP logo"]]
+[[f>image  https://scp-wiki.wdfiles.com/local--files/about-the-scp-foundation/scp-logo-signature.png size="thumbnail" alt="SCP logo"]]
 [[/cell]]
 [[/row]]
 [[/table]]
@@ -82,14 +82,14 @@ If you are not a registered member of the Overseer Council, attempting to access
 ------
 [[module CSS]]
 #page-title {
-    display: block;
+    display: block;
 }
 [[/module]]
 @@ @@
 [[include component:image-block
-    name=containment|
-    caption=SCP-4755, visualized.|
-    alt="Glowing SCP logo on black background"
+    name=containment|
+    caption=SCP-4755, visualized.|
+    alt="Glowing SCP logo on black background"
 ]]
 **Special Containment Procedures:** Foundation-influenced contacts within spheres of education, literature, and philosophy are to monitor general public awareness of SCP-4755 as a phenomenon. Additionally, obfuscation and/or interruption of study into SCP-4755 within these fields is not to occur. These two requirements do not constitute true containment procedures and are considered self-perpetuating.
 
@@ -312,7 +312,7 @@ The audio ended following a loud, explosive crash and sounds reminiscent of spli
 
 Operation Almeresh has been initiated and will conclude in 2103. The project is expected to entail the increased containment of conceptual anomalies for general study. In time, a method will be discovered by which the Foundation may instantaneously ascend to a Tier V conceptual state.
 
-Upon the conclusion of Operation Almeresh, T-5 Irantu //Mark-LXXII//  will contact a past iteration of the SCP Foundation and relay the necessity of Operation Almeresh. The aftermath of T-5 Irantu's involvement is presumably an unavoidable consequence of the operation.
+Upon the conclusion of Operation Almeresh, T-5 Irantu //Mark-LXXII//  will contact a past iteration of the SCP Foundation and relay the necessity of Operation Almeresh. The aftermath of T-5 Irantu's involvement is presumably an unavoidable consequence of the operation.
 
 Per general Overwatch consensus **(See: Minutes.4755.2005-37)**, failure to complete Operation Almeresh has been deemed optimal, so as to instigate a containment failure of the SCP Foundation. However, this is presently infeasible.
 

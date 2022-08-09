@@ -7,76 +7,76 @@
 @@
 [[module css]]
 .acs-text {
-    display: grid;
-    grid-template-areas:
-     "item item clear"
-     "contain disrupt disrupt"
-     "contain risk risk";
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 25% 1fr 1fr;
-    grid-gap: 0.125rem;
-    width: 100%;
-    height: 6.5rem;
-    background-color: rgb(var(--black-monochrome, 12, 12, 12));
-    line-height: 1;
-    position: relative;
+    display: grid;
+    grid-template-areas:
+     "item item clear"
+     "contain disrupt disrupt"
+     "contain risk risk";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 25% 1fr 1fr;
+    grid-gap: 0.125rem;
+    width: 100%;
+    height: 6.5rem;
+    background-color: rgb(var(--black-monochrome, 12, 12, 12));
+    line-height: 1;
+    position: relative;
 }
 
 .acs-text > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: rgb(0,0,0,0);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(0,0,0,0);
 }
 
 @media (max-width: 500px ) {
-    .acs-text {
-     grid-template-areas:
-     "item item clear"
-     "contain contain contain"
-     "disrupt disrupt disrupt"
-     "risk risk risk";
-     grid-template-rows: 2fr 2fr 1fr 1fr;
-     height: 10rem;
-     max-height: 50vh;
-    }
+    .acs-text {
+     grid-template-areas:
+     "item item clear"
+     "contain contain contain"
+     "disrupt disrupt disrupt"
+     "risk risk risk";
+     grid-template-rows: 2fr 2fr 1fr 1fr;
+     height: 10rem;
+     max-height: 50vh;
+    }
 }
 
 .acs-text > div {
-    background-color: rgb(var(--white-monochrome, 252, 252, 252));
-    padding: 0.25rem;
-    display: flex;
-    align-items: center;
+    background-color: rgb(var(--white-monochrome, 252, 252, 252));
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
 }
 
 .acs-text > div strong {
-    margin-right: 0.25rem;
+    margin-right: 0.25rem;
 }
 
 .acs-text > .acs-text-item {
-    grid-area: item;
-    font-size: 1.5em;
+    grid-area: item;
+    font-size: 1.5em;
 }
 
 .acs-text > .acs-text-clear {
-    grid-area: clear;
-    font-size: 1.25em;
+    grid-area: clear;
+    font-size: 1.25em;
 }
 
 .acs-text > .acs-text-contain {
-    grid-area: contain;
-    font-size: 1.25em;
+    grid-area: contain;
+    font-size: 1.25em;
 }
 
 .acs-text > .acs-text-disrupt {
-    grid-area: disrupt;
+    grid-area: disrupt;
 }
 
 .acs-text > .acs-text-risk {
-    grid-area: risk;
+    grid-area: risk;
 }
 [[/module]]
 [[div_ class="acs-text"]]
@@ -181,7 +181,7 @@ SCP-2965-JPは2019年に大阪府内で開催された美術展覧会で実施�
 > **SCP-2965-JP-A:** えーっと、なんかそんなこと話してる間に金光さん飛び出してっちゃって、それっきりですね。それから数日して皆さんに会ったってわけです。
 > 
 > **小見研究員:** いや、その、金光さんはその後どちらへ？
->  
+>  
 > **SCP-2965-JP-A:** えっ？わかんないですね。ふらっとどっかに旅でも出たんじゃないですか？作家同士ですから分かりますよ、なんだかそういう気分になることもありますから。
 > 
 > **小見研究員:** どこに行ってくるかとか、聞いたりはされなかったんですか？
@@ -247,51 +247,51 @@ SCP-2965-JPは2019年に大阪府内で開催された美術展覧会で実施�
 
 [[module css]]
 #header {
-  background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A3396310-7-0cwd/logo-outer.svg);
-  background-size: 5.75rem;
+  background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A3396310-7-0cwd/logo-outer.svg);
+  background-size: 5.75rem;
 }
 
 @media (max-width: 979px) {
-  #header {
-   background-size: 80px;
-  }
+  #header {
+   background-size: 80px;
+  }
 }
 
 @media (max-width: 767px) {
-  #header {
-    background-size: 74px;
-  }
+  #header {
+    background-size: 74px;
+  }
 }
 
 @media (max-width: 580px) {
-  #header {
-    background-size: 65px;
-    background-position: 0.5em 4.8em;
-  }
+  #header {
+    background-size: 65px;
+    background-position: 0.5em 4.8em;
+  }
 }
 
 @media (max-width: 479px) {
-  #header {
-    background-size: 60px;
-    background-position: 0 5em;
-  }
+  #header {
+    background-size: 60px;
+    background-position: 0 5em;
+  }
 }
 
 #page-content .rate-box-with-credit-button {
-  border: unset;
-  box-shadow: unset;
+  border: unset;
+  box-shadow: unset;
 }
 
 #page-content .rate-box-with-credit-button .creditButton {
-  background-color: black;
-  border: 1px solid black;
-  color: white;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
 }
 
 #page-content .rate-box-with-credit-button .creditButton:hover {
-  background-color: white;
-  border: 1px solid white;
-  color: black;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
 }
 [[/module]]
 [[footnoteblock]]

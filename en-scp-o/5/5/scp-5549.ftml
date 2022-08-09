@@ -17,214 +17,214 @@
 
 [[module CSS]]
 #page-content > .collapsible-block {
-  background-color: transparent;
-  border-top: none;
-  border-bottom: none;
+  background-color: transparent;
+  border-top: none;
+  border-bottom: none;
 }
 .hover {
-    color: rgb(var(--bright-accent));
+    color: rgb(var(--bright-accent));
 }
 .hover:hover {
-     text-decoration: none;
-    border-bottom: none;
+     text-decoration: none;
+    border-bottom: none;
 }
 
-.hover span {    display: none;}
+.hover span {    display: none;}
 .hover:hover span {
-    position: absolute;
-    display: inline;
-    margin: 0px 0px;
-    height: auto;
-    width: auto;
-    background: #000;
-    border: 2px double rgb(var(--dark-accent));
-    color: #fff;
-    padding: 1em;
+    position: absolute;
+    display: inline;
+    margin: 0px 0px;
+    height: auto;
+    width: auto;
+    background: #000;
+    border: 2px double rgb(var(--dark-accent));
+    color: #fff;
+    padding: 1em;
 }
 .hover:hover span span {
-    position: relative;
-    margin: auto;
-    height: auto;
-    width: auto;
-    border: none;
-    padding: 0;
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
 }
 .orderwrapper {
-    position: relative;
-    width: auto;
-    text-align: center;
+    position: relative;
+    width: auto;
+    text-align: center;
 }
 
 .council1 {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 295px;
-    height: 295px;
-    margin: auto;
-    background-image: url("http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png");
-    background-size: 295px 295px;
-    background-repeat: no-repeat;
-    background-position: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 295px;
+    height: 295px;
+    margin: auto;
+    background-image: url("http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png");
+    background-size: 295px 295px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .ordertitle {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 38px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 38px;
 }
 
 .ordertitle h1 {
-    font-size: 220%;
-    color: #555;
+    font-size: 220%;
+    color: #555;
 }
 
 .orderdescription {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 85px;
-    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 85px;
+    width: 100%;
 }
 
 .orderdescription p {
-    font-size: 90%;
-    color: #555;
+    font-size: 90%;
+    color: #555;
 }
 
 .orderdescription h1 {
-    font-size: 120%;
-    color: #555;
+    font-size: 120%;
+    color: #555;
 }
 
 .itemno {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 27px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 27px;
 }
 
 .itemno h1 {
-    font-size: 170%;
-    color: #555;
+    font-size: 170%;
+    color: #555;
 }
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 5px;
-    background-color: #311;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 5px;
+    background-color: #311;
 /* black shadow at the top of the terminal */
-    background-image: 
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #211);
-    background-position: center;
-    display: block;
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #211);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px rgb(var(--bright-accent));
+    background-color: black;
+    border: double 3px rgb(var(--bright-accent));
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(240, 82, 82, 0.8);
-    padding: 1.5em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(240, 82, 82, 0.8);
+    padding: 1.5em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: rgb(var(--bright-accent));
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: rgb(var(--bright-accent));
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
 }
 div[style^="background: url(http://kaktuskontainer.wdfiles.com"] {
-    filter: invert(1);
+    filter: invert(1);
 }
 
 div.quote {
-    --box-shadow: rgba(var(--swatch-menubg-black-color),0.1);
-    border: double 3px rgb(var(--bright-accent));
-    background-color: #000;
-    -webkit-box-shadow: 0 0.063em 0.125em rgba(0,0,0,0.1);
-    box-shadow: 0 0.063em 0.125em rgba(0,0,0,0.1);
-    -webkit-box-shadow: 0 .063em .125em var(--box-shadow);
-    box-shadow: 0 .063em .125em var(--box-shadow);
-    padding: 0 1em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 1em 2.500rem;
+    --box-shadow: rgba(var(--swatch-menubg-black-color),0.1);
+    border: double 3px rgb(var(--bright-accent));
+    background-color: #000;
+    -webkit-box-shadow: 0 0.063em 0.125em rgba(0,0,0,0.1);
+    box-shadow: 0 0.063em 0.125em rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 .063em .125em var(--box-shadow);
+    box-shadow: 0 .063em .125em var(--box-shadow);
+    padding: 0 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 2.500rem;
 }
 
 div.quote > div {
-    flex-basis: 50%;
-    padding: 0;
-    margin: 1em !important;
+    flex-basis: 50%;
+    padding: 0;
+    margin: 1em !important;
 }
 
 div.quote .scp-image-block {
-    border: solid 1px rgb(var(--bright-accent));
-    position: relative;
+    border: solid 1px rgb(var(--bright-accent));
+    position: relative;
 }
 
 div.quote div.scp-image-block::before {
-    background-color: rgba(var(--bright-accent), 0.9);
-    content: " ";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    mix-blend-mode: soft-light;
+    background-color: rgba(var(--bright-accent), 0.9);
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    mix-blend-mode: soft-light;
 }
 
 #page-title {
-    align: center;
+    align: center;
 }
 [[/module]]
 [[div class="crom-thumbnail"]]
@@ -815,7 +815,7 @@ Of note, I noticed bruises on her sternum during the check-up. I won't ask where
 
 **BOUCHER:** Scared of what?
 
-**D-293:** I don't know. My next test. Sharp.  
+**D-293:** I don't know. My next test. Sharp.  
 
 **BOUCHER:** It's okay to be scared. But just- we're on your side. //I'm// on your side. You know that, right?
 
@@ -862,7 +862,7 @@ Of note, I noticed bruises on her sternum during the check-up. I won't ask where
 ----
 ||~ Item ||~ Test Summary ||~ Recovery Notes ||
 || [[[http://www.scp-wiki.net/scp-222|SCP-222]]][[span class="hover"]][[span]]SCP-222 is a cave in Italy containing several stone coffins. If an organism sleeps in one of the coffins, within 24 hours, a clone of the organism will manifest in the cave. [[/span]]•••[[/span]] || Subject was placed into coffin, test proceeded without incident. Clone, temporarily designated D-293-b, was recovered from caves. || Notably, D-293-b was identical to D-293 prior to testing, suggesting that their DNA has not been altered. ||
-|| [[[http://www.scp-wiki.net/scp-610|SCP-610]]][[span class="hover"]][[span]]SCP-610 is a contagious skin disease that results in the death of the infected, followed by a return of life functions. Scar tissue formed during infection will begin to mutate and move toward other vectors of infection.[[/span]]•••[[/span]] || Subject and D-293 were placed in a testing chamber, and D-293-b was exposed to a sample of SCP-610.  The temperature of the chamber was increased and within seven minutes, D-293-b had been completely covered. Subject panicked and attempted to exit testing chamber, slamming against the door several times. When deterrent electrical shocks were applied, it attempted to break through the observation glass. Despite this, they were quickly absorbed into the rapidly-increasing mass of SCP-610. Testing was stopped and SCP-427 was applied. || The mass quickly shrank in size, disappearing entirely within four minutes. Subject was recovered from the center of the mass, unconscious. D-293-b was not recovered. Subject was noted to have significantly altered body proportions, growing by several centimeters and having more clearly visible blood vessels. ||
+|| [[[http://www.scp-wiki.net/scp-610|SCP-610]]][[span class="hover"]][[span]]SCP-610 is a contagious skin disease that results in the death of the infected, followed by a return of life functions. Scar tissue formed during infection will begin to mutate and move toward other vectors of infection.[[/span]]•••[[/span]] || Subject and D-293 were placed in a testing chamber, and D-293-b was exposed to a sample of SCP-610.  The temperature of the chamber was increased and within seven minutes, D-293-b had been completely covered. Subject panicked and attempted to exit testing chamber, slamming against the door several times. When deterrent electrical shocks were applied, it attempted to break through the observation glass. Despite this, they were quickly absorbed into the rapidly-increasing mass of SCP-610. Testing was stopped and SCP-427 was applied. || The mass quickly shrank in size, disappearing entirely within four minutes. Subject was recovered from the center of the mass, unconscious. D-293-b was not recovered. Subject was noted to have significantly altered body proportions, growing by several centimeters and having more clearly visible blood vessels. ||
 || [[[http://www.scp-wiki.net/scp-682|SCP-682]]][[span class="hover"]][[span]]SCP-682 is a reptilian creature with massive regeneration and adaptive capabilities. It has been observed moving and speaking with its body 87% destroyed or rotted.[[/span]]•••[[/span]] || 10g of flesh were cut from SCP-682 using SCP-2207. This flesh was dried and placed into cold storage, effectively freezing it. Subject was forcibly sedated and prepared for surgery. Incision was made in lower left forearm and sample was placed within after being slightly heated. Incision was sealed and subject placed into recovery. || Sample began immediate growth and spread through subject's body, causing significant distress to subject. Sample had spread to upper calf when Dr. Boucher, the operating surgeon, amputated D-293's left leg at the knee. After decontamination, the leg was observed slowly regrowing. Growth did not halt after the limb had reformed.||
 
 ----
@@ -1271,7 +1271,7 @@ In addition, a committee is to be formed of individuals selected by the Office o
 **TEJANI:** Excuse me?
 
 **O5-11:** We just used militarized troops and weapons to contain an anomaly. We're not burying our heads in the sand and shying away from it anymore. And that's all I ever wanted. The infrastructure is there now; it's only a matter of time before you decide to use it.
- 
+ 
 **TEJANI:** I advise you watch your words. You don't have Overseer protections anymore. If neither of you have any further qualms, this concludes this session.
 ----
 
@@ -1297,20 +1297,20 @@ In addition, a committee is to be formed of individuals selected by the Office o
 > OPENING...
 [[div style="display: block; border: double 3px rgb(var(--bright-accent)); background-color: #000; margin: .5em 40px; padding: 0 1em;"]]
 = COUNCIL VOTE SUMMARY:
-||~ YEA  ||~ NAY  ||~ ABSTAIN ||
-|| O5-01 ||   ||       ||
-|| O5-02 ||   ||       ||
-|| O5-03 ||   ||       ||
-||  ||   || O5-04  ||
-||  ||   || O5-05  ||
-|| O5-06 ||   ||          ||
-||  || O5-07 ||          ||
-||  ||   || O5-08  ||
-|| O5-09 ||       ||          ||
-|| O5-10 ||       ||          ||
-|| x || x ||   x   ||
-|| O5-12 ||   ||       ||
-|| O5-13 ||   ||       ||
+||~ YEA  ||~ NAY  ||~ ABSTAIN ||
+|| O5-01 ||   ||       ||
+|| O5-02 ||   ||       ||
+|| O5-03 ||   ||       ||
+||  ||   || O5-04  ||
+||  ||   || O5-05  ||
+|| O5-06 ||   ||          ||
+||  || O5-07 ||          ||
+||  ||   || O5-08  ||
+|| O5-09 ||       ||          ||
+|| O5-10 ||       ||          ||
+|| x || x ||   x   ||
+|| O5-12 ||   ||       ||
+|| O5-13 ||   ||       ||
 
 = Proposal accepted. O5-11 is to be removed from his Overseer position, amnesticized, and retired. His successor will be chosen by a Council referendum, and required to surrender all their special interest positions prior to instatement.
 [[/div]]

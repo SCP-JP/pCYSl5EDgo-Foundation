@@ -3,17 +3,17 @@
 
 [[module CSS]]
 .lie{
-     font-weight: bold;
-     font-family: monospace;
-     font-size: 140%;
+     font-weight: bold;
+     font-family: monospace;
+     font-size: 140%;
 }
 .notice{
-    border: 1px solid #f9e24d;
-    outline: 4px solid #b54d3b;
-    color: #f9e24d;
-    background: #b54d3b;
-    padding: 10px;
-    text-align: center;
+    border: 1px solid #f9e24d;
+    outline: 4px solid #b54d3b;
+    color: #f9e24d;
+    background: #b54d3b;
+    padding: 10px;
+    text-align: center;
 }
 [[/module]]
 
@@ -23,14 +23,14 @@
 
 [[module CSS]]
 #page-content .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.5s ease-in-out infinite alternate;
+    animation: blink 0.5s ease-in-out infinite alternate;
 }
 #page-title {
-    display: none;
+    display: none;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 [[/module]]
 
@@ -61,8 +61,8 @@ Due to events, it is suspected that the anomaly possesses some secondary mind-af
 * Removal of food.
 * Triggering of //unspecified// subconscious instincts amongst personnel.
 * Improper disposal of food --waste--//, which was fully edible at the time//(?) by personnel
- * Fate unknown.
- * Currently three (3) sandwiches, four (4) packets of salted potato chips, and various assorted confectionery.
+ * Fate unknown.
+ * Currently three (3) sandwiches, four (4) packets of salted potato chips, and various assorted confectionery.
 * Movement (__unverified__)
 * --Mind-affecting--[[footnote]] Invoking emotions
 - sadness

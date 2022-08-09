@@ -11,11 +11,11 @@
 
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -47,9 +47,9 @@ SCP-5232-1 is inhabited by other individuals or beings as necessary to maintain 
 >
 > **From:** Dr. Gary Mander-Bassen
 > 
-> With HR clearance, we are now approved to send two researchers out to explore SCP-5232 and report back on their findings. It was determined that a researcher from the Ectoentropics department and the Digital Media department would be an ideal combination. A list of volunteers were pruned through to find two people qualified who would be comfortable navigating through what may be a romantic scenario with an unknown potential for a memetic or otherwise inexplicable effect, if the concerns about SCP-5232-1 are found to be legitimate.  
+> With HR clearance, we are now approved to send two researchers out to explore SCP-5232 and report back on their findings. It was determined that a researcher from the Ectoentropics department and the Digital Media department would be an ideal combination. A list of volunteers were pruned through to find two people qualified who would be comfortable navigating through what may be a romantic scenario with an unknown potential for a memetic or otherwise inexplicable effect, if the concerns about SCP-5232-1 are found to be legitimate.  
 > 
-> Interviews were conducted by myself, with the assistance of Dr. Ted Xavier and Researcher Krona Midaeus. We determined that the best researchers for the job are Researcher Raz Chearypark and Researcher Sage Hargyana. They were selected for their excellent research, well-documented friendly demeanor, and for having no prior relationship with one another before testing. They were introduced briefly before I wrote this memo. I can personally vouch for Raz; she is a true professional who has helped me with some important work in the past. Sage was also highly recommended by Krona and gave me a similar impression during her interview.  
+> Interviews were conducted by myself, with the assistance of Dr. Ted Xavier and Researcher Krona Midaeus. We determined that the best researchers for the job are Researcher Raz Chearypark and Researcher Sage Hargyana. They were selected for their excellent research, well-documented friendly demeanor, and for having no prior relationship with one another before testing. They were introduced briefly before I wrote this memo. I can personally vouch for Raz; she is a true professional who has helped me with some important work in the past. Sage was also highly recommended by Krona and gave me a similar impression during her interview.  
 > 
 > The two have been instructed to fill out the form on SCP-5232's web page and to enter SCP-5232-1 with video equipment. I'm asking that some leeway be given to the two of them for any romantic gestures toward each other, they're basically guinea pigs in studying this anomaly. I should stress, we're pretty sure it isn't memetic but we can't rule it out without a direct test. The two of them were picked because I trust them to be honest with the information they present. I'll keep you posted on any developments. 
 > 
@@ -59,44 +59,44 @@ SCP-5232-1 is inhabited by other individuals or beings as necessary to maintain 
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: Your Name
- * default: Raz Chearypark 
+ * title: Your Name
+ * default: Raz Chearypark 
 # affiliation
- * title: Your Date
- * default: Sage Hargyana
+ * title: Your Date
+ * default: Sage Hargyana
 # address 
- * title: When will the date take place?
- * default: May 2nd, 2017 at 2:30 PM
+ * title: When will the date take place?
+ * default: May 2nd, 2017 at 2:30 PM
 # address2
- * title: How many dates have you been on previously?
- * default: 0 dates
+ * title: How many dates have you been on previously?
+ * default: 0 dates
 # comments
- * type: textarea
- * title: Describe your last date with this person, if any:
- * default: N/A
- * rules:
-  * maxLength: 500
+ * type: textarea
+ * title: Describe your last date with this person, if any:
+ * default: N/A
+ * rules:
+  * maxLength: 500
 # comments
- * type: textarea
- * title: How excited are you about this date?
- * default: Interested in exploring the anomaly if nothing else. Sage seems like a solid research partner in this endeavor as well. 
- * rules:
- * maxLength: 500
+ * type: textarea
+ * title: How excited are you about this date?
+ * default: Interested in exploring the anomaly if nothing else. Sage seems like a solid research partner in this endeavor as well. 
+ * rules:
+ * maxLength: 500
 # comments
- * type: textarea
- * title: Is there anything else you think we should know?
- * default: N/A
- * rules:
-  * maxLength: 500
+ * type: textarea
+ * title: Is there anything else you think we should know?
+ * default: N/A
+ * rules:
+  * maxLength: 500
 # payment
- * title: Calculate fee in
- * type: select
- * options:
-  * USD: Dollars
-  * GBP: Pound Sterling
-  * EUR: Euros
-  * JPY: Yen
-  * BTC: Bitcoin
+ * title: Calculate fee in
+ * type: select
+ * options:
+  * USD: Dollars
+  * GBP: Pound Sterling
+  * EUR: Euros
+  * JPY: Yen
+  * BTC: Bitcoin
 
 [[/module]]
 [[/div]]
@@ -104,7 +104,7 @@ SCP-5232-1 is inhabited by other individuals or beings as necessary to maintain 
 > 
 > **Fee:** $40 USD.
 > 
-> **__Output:__** A prepaid reservation for //Funky's Funhouse//, a bar and restaurant.  
+> **__Output:__** A prepaid reservation for //Funky's Funhouse//, a bar and restaurant.  
 
 
 > __**SCP-5232-1 Exploration Video Log**__
@@ -123,11 +123,11 @@ SCP-5232-1 is inhabited by other individuals or beings as necessary to maintain 
 > 
 > **Hargyana:** Looks largely like a normal pub. Plenty of instances of SCP-5232-2, people at the bar and everything. If I wasn't on the clock I could mistake this for the kind of bar me and my friends might try out. 
 > 
->  **Chearypark:** Inside is definitely larger than the exterior, ceiling is higher too. I think we can confirm reports that this is a spatial anomaly pretty easily. 
+>  **Chearypark:** Inside is definitely larger than the exterior, ceiling is higher too. I think we can confirm reports that this is a spatial anomaly pretty easily. 
 > 
 > **Hargyana:** I guess the reviews were accurate then. Either that or we're under the effects of some sort of memetic hazard and we'll know when we look at the footage. 
 > 
->  **Chearypark:** Should we be looking around and exploring the anomaly?
+>  **Chearypark:** Should we be looking around and exploring the anomaly?
 > 
 > **Hargyana:** I mean, we ought to verify the, uh... information from all the people who mentioned the anomaly online. They only gave rave reviews to the venues they went into, might as well try out the food and drink and make sure they live up to expectations. 
 > 
@@ -137,11 +137,11 @@ SCP-5232-1 is inhabited by other individuals or beings as necessary to maintain 
 > 
 > **Chearypark:** Well, I guess if we're getting in trouble we might as well both get in trouble. I might as well figure out what an anomalous cosmopolitan tastes like... for research purposes. Might as well inspect the menu too. 
 > 
->  **Hargyana:** Hey, that's the spirit.
+>  **Hargyana:** Hey, that's the spirit.
 > 
 > //Both spend around a minute reading the menu.//
 > 
->  **Hargyana:** Oh my god! You can make your own melt! I'm going to do that.
+>  **Hargyana:** Oh my god! You can make your own melt! I'm going to do that.
 > 
 > **Chearypark:** Wait, what's a melt?
 > 
@@ -151,21 +151,21 @@ SCP-5232-1 is inhabited by other individuals or beings as necessary to maintain 
 > 
 > **Hargyana:** Yes. Exactly like that. 
 > 
->  //A waitress walks over to the researchers. She pulls out a notepad as she approaches the table.//
+>  //A waitress walks over to the researchers. She pulls out a notepad as she approaches the table.//
 > 
 > **Waitress:** Hello there ladies, my name is Marci, how is your day going?
 > 
 > **Chearypark:** Pretty good.
 > 
->  **Hargyana:** Yeah, we're doing pretty good. 
+>  **Hargyana:** Yeah, we're doing pretty good. 
 > 
 > **Waitress:** That's good! Can I get you two anything to drink?
 > 
->  **Hargyana:** Oh, I'm definitely trying your mojito. 
+>  **Hargyana:** Oh, I'm definitely trying your mojito. 
 > 
 > **Chearypark:** And uh... I guess I'll have the cosmopolitan. 
 > 
->  **Waitress:**  Excellent, excellent. I'll get those for you. Do you know what you want to eat or do you need another minute?
+>  **Waitress:**  Excellent, excellent. I'll get those for you. Do you know what you want to eat or do you need another minute?
 > 
 > **Chearypark:** Oh, I was wondering, can I just like, make a melt that is just all cheese, just like five different kinds of cheese?
 > 
@@ -177,29 +177,29 @@ SCP-5232-1 is inhabited by other individuals or beings as necessary to maintain 
 > 
 > **Hargyana:** Can I get a melt with pulled pork, grilled onions, jalapenos, provolone cheese. Oh, and can I have that on garlic bread also?
 > 
->  **Waitress:** Yes, you can. I'll get that right in for you. 
+>  **Waitress:** Yes, you can. I'll get that right in for you. 
 > 
 > //The waitress walks away with the order and heads behind the bar, handing the order to a chef through a window to a kitchen.//
 > 
 > //The two pause for several seconds as they both look around the area.//
 > 
->  **Hargyana:** So, uh, how has work been for you?
+>  **Hargyana:** So, uh, how has work been for you?
 > 
->  **Chearypark:** Good, mostly... I usually have my head buried in research so it's very quiet. The loudest my office normally gets is when Dr. Mander-Bassen walks in singing old disco songs. It was kind of funny to me that we're at a funk themed bar. There's something a little familiar about it. 
+>  **Chearypark:** Good, mostly... I usually have my head buried in research so it's very quiet. The loudest my office normally gets is when Dr. Mander-Bassen walks in singing old disco songs. It was kind of funny to me that we're at a funk themed bar. There's something a little familiar about it. 
 > 
-> **Hargyana:** Sounds like my dad, he was a funk music kind of guy. Kind of reminds me of home a little bit.  
+> **Hargyana:** Sounds like my dad, he was a funk music kind of guy. Kind of reminds me of home a little bit.  
 > 
->  **Chearypark:** Are you from around here? 
+>  **Chearypark:** Are you from around here? 
 > 
->  **Hargyana:** Nah, I'm a Cali transplant.
+>  **Hargyana:** Nah, I'm a Cali transplant.
 > 
 > **Chearypark:** I'm also not from the area, not as far though. I'm from Baltimore. I moved out here for work and traded in crab cakes for chicken wings. 
 > 
 > **Hargyana:** I'm a San Francisco girl who got too deep into coding, got a job that shipped her off to the tail end of the rustbelt, and now I hang out at my apartment and try to get good at video games. I sort of have the opposite problem at my office. It's all people with computer science degrees. Nobody wants to socialize. I've been here for three years and this is the first time I'm out somewhere with a coworker. 
 > 
 > **Chearypark:** I mean, this is my fifth year and same. It's not like I haven't been invited, Gary invites everyone out to karaoke once every blue moon but, I don't know. I can't go up on stage alone. I'd need someone with me. I did duets with my friends back in college, but I've never performed solo. Makes me a little nervous.
->  
->  **Hargyana:** Don't worry, performing solo sucks anyway. I still do it, because I can hold a room full of people hostage while I sing dated indie hits, but it is way better doing duets. Hey, maybe you just need someone like me to crash karaoke with you. 
+>  
+>  **Hargyana:** Don't worry, performing solo sucks anyway. I still do it, because I can hold a room full of people hostage while I sing dated indie hits, but it is way better doing duets. Hey, maybe you just need someone like me to crash karaoke with you. 
 > 
 > **Chearypark:** I'll take that into consideration. I used to be a hell of a singer.
 > 
@@ -227,7 +227,7 @@ SCP-5232-1 is inhabited by other individuals or beings as necessary to maintain 
 > 
 > **Chearypark:** Oh, wow.
 > 
-> **Hargyana:** You said it. This is all... damn good.  
+> **Hargyana:** You said it. This is all... damn good.  
 > 
 > **Chearypark:** Agreed. I did not expect the perfect thing to actually be, like, true. I understand why this place caught on. I originally thought maybe the posts were like, lightly memetic, but it seems like it works exactly as advertised. Gary did want to rule out memetics; maybe we can. 
 > 
@@ -251,11 +251,11 @@ SCP-5232-1 is inhabited by other individuals or beings as necessary to maintain 
 > 
 > **Hargyana:** That's me on a good day where I actually remember to take a lunch. I can get tunnel vision pretty bad. Nice when a day of work has me both eating food and socializing, two problems solved at once.
 > 
-> **Chearypark:**  And drinks!
+> **Chearypark:**  And drinks!
 > 
 > //Both hold up their glasses and quickly finish their drinks. The waitress approaches as they are finishing.//
 > 
->  **Waitress:** Well, it looks like you two liked everything.
+>  **Waitress:** Well, it looks like you two liked everything.
 > 
 > **Hargyana:** Yes ma'am, we did! 
 > 
@@ -271,7 +271,7 @@ SCP-5232-1 is inhabited by other individuals or beings as necessary to maintain 
 > 
 > **Hargyana:** Yeah, all the data I have says it'll be a different place if we're able to come back, and that's gonna depend on whether we're greenlit for a second date.
 > 
-> **Chearypark:**  Oh my goodness, I almost forgot this is technically a date. I was worried I was going to make everything super awkward while we were walking in and instead we just talked about food for the last almost an hour. 
+> **Chearypark:**  Oh my goodness, I almost forgot this is technically a date. I was worried I was going to make everything super awkward while we were walking in and instead we just talked about food for the last almost an hour. 
 > 
 > **Hargyana:** Hey, don't worry, I'm having a good time and so are you. That's a good date in my book. 
 > 
@@ -308,7 +308,7 @@ SCP-5232-1 is inhabited by other individuals or beings as necessary to maintain 
 > **Hargyana:** Same here. 
 > 
 > //Video ends.//
- 
+ 
 [[<]]
 [[div class="email"]]
 [[div class="tofrom"]]
@@ -324,7 +324,7 @@ I'm following up after the exploration of SCP-5232-1. I will be requesting furth
 I'm requesting further testing on this anomaly, seeing what we can find out as far as the particulars go. I'm still curious about several things, like if an object taken from within SCP-5232-1 can be brought back outside. I'd also like to potentially confirm the reports of outdoor venues contained within SCP-5232-1. 
 
 I'd also like to request that the video recordings be only of notable findings from within the anomaly. I will write a detailed post-exploration report for any further visits.
- 
+ 
 I'd also like to request that Sage Hargyana continue to be my research partner for more explorations. I've already run the idea past her, and she's enthusiastic about the prospect as well. 
 
 Thanks,
@@ -355,44 +355,44 @@ Gary Mander-Bassen
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: Your Name
- * default: Raz Chearypark 
+ * title: Your Name
+ * default: Raz Chearypark 
 # affiliation
- * title: Your Date
- * default: Sage Hargyana
+ * title: Your Date
+ * default: Sage Hargyana
 # address 
- * title: When will the date take place?
- * default: May 8th, 2017 at 3:00 PM
+ * title: When will the date take place?
+ * default: May 8th, 2017 at 3:00 PM
 # address2
- * title: How many dates have you been on previously?
- * default: 1 date
+ * title: How many dates have you been on previously?
+ * default: 1 date
 # comments
- * type: textarea
- * title: Describe your last date with this person, if any:
- * default: We went to Funky's Funhouse. It was amazing, the food was great and the atmosphere was fantastic. The staff were awesome and Sage and I had a great time. She's real easy to get along with, she's funny, and I feel a lot more comfortable being myself around her than I am around most coworkers.
- * rules:
-  * maxLength: 500
+ * type: textarea
+ * title: Describe your last date with this person, if any:
+ * default: We went to Funky's Funhouse. It was amazing, the food was great and the atmosphere was fantastic. The staff were awesome and Sage and I had a great time. She's real easy to get along with, she's funny, and I feel a lot more comfortable being myself around her than I am around most coworkers.
+ * rules:
+  * maxLength: 500
 # comments
- * type: textarea
- * title: How excited are you about this date?
- * default: I'm really excited to see where we go this time, the last date was a solid adventure and I've been waiting for another chance to go and do something fun with Sage. 
- * rules:
- * maxLength: 500
+ * type: textarea
+ * title: How excited are you about this date?
+ * default: I'm really excited to see where we go this time, the last date was a solid adventure and I've been waiting for another chance to go and do something fun with Sage. 
+ * rules:
+ * maxLength: 500
 # comments
- * type: textarea
- * title: Is there anything else you think we should know?
- * default: One of Sage's coworkers said she talks about going to concerts all the time so maybe something with music would be fun for her. 
- * rules:
-  * maxLength: 500
+ * type: textarea
+ * title: Is there anything else you think we should know?
+ * default: One of Sage's coworkers said she talks about going to concerts all the time so maybe something with music would be fun for her. 
+ * rules:
+  * maxLength: 500
 # payment
- * title: Calculate fee in
- * type: select
- * options:
-  * USD: Dollars
-  * GBP: Pound Sterling
-  * EUR: Euros
-  * JPY: Yen
-  * BTC: Bitcoin
+ * title: Calculate fee in
+ * type: select
+ * options:
+  * USD: Dollars
+  * GBP: Pound Sterling
+  * EUR: Euros
+  * JPY: Yen
+  * BTC: Bitcoin
 
 [[/module]]
 [[/div]]
@@ -428,44 +428,44 @@ Gary Mander-Bassen
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: Your Name
- * default: Sage Hargyana
+ * title: Your Name
+ * default: Sage Hargyana
 # affiliation
- * title: Your Date
- * default:  Raz Chearypark 
+ * title: Your Date
+ * default:  Raz Chearypark 
 # address 
- * title: When will the date take place?
- * default: May 19th, 2017 at 1:00 PM
+ * title: When will the date take place?
+ * default: May 19th, 2017 at 1:00 PM
 # address2
- * title: How many dates have you been on previously?
- * default: 3 dates
+ * title: How many dates have you been on previously?
+ * default: 3 dates
 # comments
- * type: textarea
- * title: Describe your last date with this person, if any:
- * default: I went over to Raz's apartment. She cooked a really good chicken curry dish and we watched a couple horror movies. I showed her Suspiria because she had never seen it before. She got really scared at the end. We stayed up until 2 AM. We woke up the next morning and cooked breakfast together, then I went home. 
- * rules:
-  * maxLength: 500
+ * type: textarea
+ * title: Describe your last date with this person, if any:
+ * default: I went over to Raz's apartment. She cooked a really good chicken curry dish and we watched a couple horror movies. I showed her Suspiria because she had never seen it before. She got really scared at the end. We stayed up until 2 AM. We woke up the next morning and cooked breakfast together, then I went home. 
+ * rules:
+  * maxLength: 500
 # comments
- * type: textarea
- * title: How excited are you about this date?
- * default: Oh my god I'm so nervous. I know I act all flirty around her and she says I'm the confident one but she's so awesome and I really like her. I just kind of want her to be my adventuring buddy, me and Raz against the universe. I feel like this date is going to be a big one, for both of us. 
- * rules:
- * maxLength: 500
+ * type: textarea
+ * title: How excited are you about this date?
+ * default: Oh my god I'm so nervous. I know I act all flirty around her and she says I'm the confident one but she's so awesome and I really like her. I just kind of want her to be my adventuring buddy, me and Raz against the universe. I feel like this date is going to be a big one, for both of us. 
+ * rules:
+ * maxLength: 500
 # comments
- * type: textarea
- * title: Is there anything else you think we should know?
- * default: I don't know where else to put this but Raz looks adorable when she's asleep. 
- * rules:
-  * maxLength: 500
+ * type: textarea
+ * title: Is there anything else you think we should know?
+ * default: I don't know where else to put this but Raz looks adorable when she's asleep. 
+ * rules:
+  * maxLength: 500
 # payment
- * title: Calculate fee in
- * type: select
- * options:
-  * USD: Dollars
-  * GBP: Pound Sterling
-  * EUR: Euros
-  * JPY: Yen
-  * BTC: Bitcoin
+ * title: Calculate fee in
+ * type: select
+ * options:
+  * USD: Dollars
+  * GBP: Pound Sterling
+  * EUR: Euros
+  * JPY: Yen
+  * BTC: Bitcoin
 
 [[/module]]
 [[/div]]
@@ -493,50 +493,50 @@ Gary Mander-Bassen
 > 
 > As we were going to check out of the hotel, they informed us we still had an extra night, as the reservation included Sunday night as well. We elected to stay for the extra night, to further test the temporal anomalies encountered in previous explorations. We left the anomaly the following morning, and returned to our vehicle. The timer in our vehicle said we had only been inside the anomaly for less than five hours, while the timer we brought in with us stated that we had been in SCP-5232-1 for over sixty-six hours.
 
- 
+ 
 > __**SCP-5232 Form Input, 06/01/2017 (Test #4)**__
 > 
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: Your Name
- * default: Raz Chearypark 
+ * title: Your Name
+ * default: Raz Chearypark 
 # affiliation
- * title: Your Date
- * default: Sage Hargyana
+ * title: Your Date
+ * default: Sage Hargyana
 # address 
- * title: When will the date take place?
- * default: June 2nd, 2017 at 1:15 PM
+ * title: When will the date take place?
+ * default: June 2nd, 2017 at 1:15 PM
 # address2
- * title: How many dates have you been on previously?
- * default: 10 dates
+ * title: How many dates have you been on previously?
+ * default: 10 dates
 # comments
- * type: textarea
- * title: Describe your last date with this person, if any:
- * default: It was a date in three parts, I guess. Sage and I ate lunch together at Site-94 like we have been for the past several days, then after we got out of work we met up and went to her favorite barcade. She taught me how to play Street Fighter II and I showed off my Tetris skills. We went back to her apartment and put on a stream of The Joy of Painting while we laid down on her couch. We went to bed after a few episodes. We woke up early in the morning and made breakfast together again. After we showered and got dressed, I drove the both of us to work.  
- * rules:
-  * maxLength: 800
+ * type: textarea
+ * title: Describe your last date with this person, if any:
+ * default: It was a date in three parts, I guess. Sage and I ate lunch together at Site-94 like we have been for the past several days, then after we got out of work we met up and went to her favorite barcade. She taught me how to play Street Fighter II and I showed off my Tetris skills. We went back to her apartment and put on a stream of The Joy of Painting while we laid down on her couch. We went to bed after a few episodes. We woke up early in the morning and made breakfast together again. After we showered and got dressed, I drove the both of us to work.  
+ * rules:
+  * maxLength: 800
 # comments
- * type: textarea
- * title: How excited are you about this date?
- * default: Unbelievably excited! The last date we made through this website was the best weekend of my life, and it somehow only took six hours so it was immediately followed by the second best weekend of my life, which I also spent with Sage.
- * rules:
- * maxLength: 500
+ * type: textarea
+ * title: How excited are you about this date?
+ * default: Unbelievably excited! The last date we made through this website was the best weekend of my life, and it somehow only took six hours so it was immediately followed by the second best weekend of my life, which I also spent with Sage.
+ * rules:
+ * maxLength: 500
 # comments
- * type: textarea
- * title: Is there anything else you think we should know?
- * default: I asked Sage if she was my girlfriend last night and she kissed me and said that was her answer. Pretty sure that's a yes. 
- * rules:
-  * maxLength: 500
+ * type: textarea
+ * title: Is there anything else you think we should know?
+ * default: I asked Sage if she was my girlfriend last night and she kissed me and said that was her answer. Pretty sure that's a yes. 
+ * rules:
+  * maxLength: 500
 # payment
- * title: Calculate fee in
- * type: select
- * options:
-  * USD: Dollars
-  * GBP: Pound Sterling
-  * EUR: Euros
-  * JPY: Yen
-  * BTC: Bitcoin
+ * title: Calculate fee in
+ * type: select
+ * options:
+  * USD: Dollars
+  * GBP: Pound Sterling
+  * EUR: Euros
+  * JPY: Yen
+  * BTC: Bitcoin
 
 [[/module]]
 [[/div]]
@@ -588,47 +588,47 @@ Gary Mander-Bassen
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: Your Name
- * default: Raz Chearypark 
+ * title: Your Name
+ * default: Raz Chearypark 
 # affiliation
- * title: Your Date
- * default: Sage Hargyana
+ * title: Your Date
+ * default: Sage Hargyana
 # address 
- * title: When will the date take place?
- * default: May 2nd, 2019 at 2:30 PM
+ * title: When will the date take place?
+ * default: May 2nd, 2019 at 2:30 PM
 # address2
- * title: How many dates have you been on previously?
- * default: Somewhere between 200 or 300
+ * title: How many dates have you been on previously?
+ * default: Somewhere between 200 or 300
 # comments
- * type: textarea
- * title: Describe your last date with this person, if any:
- * default: Sage and I took a day trip out to Cleveland to see a Jeff Mangum concert, which was especially nostalgic for us. While we were there we found a bar that served melts which we thought was hilarious. We also went to the Rock 'n Roll Hall of Fame while we were there. We spent the whole drive there and back making duets out of every single song on our road trip playlist.
- * rules:
-  * maxLength: 800
+ * type: textarea
+ * title: Describe your last date with this person, if any:
+ * default: Sage and I took a day trip out to Cleveland to see a Jeff Mangum concert, which was especially nostalgic for us. While we were there we found a bar that served melts which we thought was hilarious. We also went to the Rock 'n Roll Hall of Fame while we were there. We spent the whole drive there and back making duets out of every single song on our road trip playlist.
+ * rules:
+  * maxLength: 800
 # comments
- * type: textarea
- * title: How excited are you about this date?
- * default: I'm always excited to go on an adventure with Sage. Meeting her is without a doubt the best thing that has ever happened to me. She's sassy, funny, and inspires me to live my dreams and achieve all my goals. She's the best.
- * rules:
- * maxLength: 500
+ * type: textarea
+ * title: How excited are you about this date?
+ * default: I'm always excited to go on an adventure with Sage. Meeting her is without a doubt the best thing that has ever happened to me. She's sassy, funny, and inspires me to live my dreams and achieve all my goals. She's the best.
+ * rules:
+ * maxLength: 500
 # comments
- * type: textarea
- * title: Is there anything else you think we should know?
- * default: I bought a ring. 
- * rules:
-  * maxLength: 500
+ * type: textarea
+ * title: Is there anything else you think we should know?
+ * default: I bought a ring. 
+ * rules:
+  * maxLength: 500
 # payment
- * title: Calculate fee in
- * type: select
- * options:
-  * USD: Dollars
-  * GBP: Pound Sterling
-  * EUR: Euros
-  * JPY: Yen
-  * BTC: Bitcoin
+ * title: Calculate fee in
+ * type: select
+ * options:
+  * USD: Dollars
+  * GBP: Pound Sterling
+  * EUR: Euros
+  * JPY: Yen
+  * BTC: Bitcoin
 [[/module]]
 [[/div]]
- 
+ 
 > __**SCP-5232 Form Results, 04/30/2019**__
 > 
 > **Fee:** Free of charge.

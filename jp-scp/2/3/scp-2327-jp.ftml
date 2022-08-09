@@ -21,11 +21,11 @@
 [[module CSS]]
 .blinkbar {color: red;font-size:125%; animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
 .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 a.collapsible-block-link { font-weight: bold; }
@@ -58,21 +58,21 @@ a.collapsible-block-link { font-weight: bold; }
 [[module css]]
 
 #page-title {
-  display: none;
+  display: none;
 }
 
 .fake_title {
-  font-size: 200%;
-  color: #990011;
-  padding: 0 0 0.25em;
-  margin: 0 0 0.6em;
-  border-bottom: 1px solid #bbb;
-  font-weight: normal;
+  font-size: 200%;
+  color: #990011;
+  padding: 0 0 0.25em;
+  margin: 0 0 0.6em;
+  border-bottom: 1px solid #bbb;
+  font-weight: normal;
 }
 
 .fake_title p {
-  padding: 0;
-  margin: 0;
+  padding: 0;
+  margin: 0;
 }
 [[/module]]
 [[div class="fake_title"]]
@@ -276,15 +276,15 @@ SCP-001-1には現在まで多重人格の症状は確認されておらず、�
 
 **結果:** SCP-001-1の脳波は以下のヴィジョンの投影に対して、異常なストレスレベルの増大を示した。
 
- ◾︎ 廃棄場
+ ◾︎ 廃棄場
 
- ◾︎ 無機質な廊下
+ ◾︎ 無機質な廊下
 
- ◾︎ 独房
+ ◾︎ 独房
 
- ◾︎ 複数人の悲鳴
+ ◾︎ 複数人の悲鳴
 
- ◾︎ 財団のロゴマーク
+ ◾︎ 財団のロゴマーク
 ----
 [[=]]
 [[size 130%]]**実験8(進行中)**[[/size]]
@@ -426,8 +426,8 @@ SCP-001-1には現在まで多重人格の症状は確認されておらず、�
 [[/div]]
 [[module css]]
 .breadcrumbs {
-    margin: -1em 0 1em;
-    font-size: 100%;
+    margin: -1em 0 1em;
+    font-size: 100%;
 }
 [[/module]]
 [[include component:image-block

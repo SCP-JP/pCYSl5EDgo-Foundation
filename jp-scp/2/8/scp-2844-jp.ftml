@@ -10,86 +10,86 @@
 [[include :testsite-000:basalt-sidebox-code]]
 [[module CSS]]
 :root {
-    --title: "FOUNDATION";
-    --subtitle: "SITE-17 DEEPWELL";
-    --sidesubtitle: "SITE-17 DEEPWELL";
-    --logo: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6759963-162-djiy/s17_negate.png);
-    --invert-bg: 240,240,240;
-    --side-accent-bg: #F4F4F4;
-    --side-accent-txt: #333333;
+    --title: "FOUNDATION";
+    --subtitle: "SITE-17 DEEPWELL";
+    --sidesubtitle: "SITE-17 DEEPWELL";
+    --logo: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6759963-162-djiy/s17_negate.png);
+    --invert-bg: 240,240,240;
+    --side-accent-bg: #F4F4F4;
+    --side-accent-txt: #333333;
 }
 .invert {
-    filter: invert(1);
-    -webkit-filter: invert(1);
-    -moz-filter: invert(1);
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    -moz-filter: invert(1);
 }
 .fear {
-    color: #a100ff;
+    color: #a100ff;
 }
 .middle {
-    vertical-align: -1.5px;
+    vertical-align: -1.5px;
 }
 
 #side-bar {
-    margin: 0;
-    text-transform: unset;
+    margin: 0;
+    text-transform: unset;
 }
 #page-content {
-    font-size: 90%;
+    font-size: 90%;
 }
 .page-rate-widget-box {
-    box-shadow: none;
-    margin: 0;
+    box-shadow: none;
+    margin: 0;
 }
 .page-rate-widget-box .cancel a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    height: 16px;
-    padding: 2px 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 16px;
+    padding: 2px 5px;
 }
 .rate-box-with-credit-button .creditButton {
-    border: none 0 !important;
-    background: none !important;
-    box-shadow: none !important;
+    border: none 0 !important;
+    background: none !important;
+    box-shadow: none !important;
 }
 .rate-box-with-credit-button .creditButton a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
 }
 .modalbox {
-    color: black;
+    color: black;
 }
 .modalbox .modalbox-title {
-    border-radius: 0;
+    border-radius: 0;
 }
 .modalbox .page-rate-widget-box {
-    box-shadow: 0px 0px 7px #999999;
+    box-shadow: 0px 0px 7px #999999;
 }
 @media (min-width: 768px) {
-    #main-content {
-        max-width: 75%;
-    }
+    #main-content {
+        max-width: 75%;
+    }
 }
 @media (max-width: 767px) {
 a.btn.btn-primary {
-    float: inherit !important;
-    position: absolute !important;
-    left: 3em !important;
-    top: 1.5em !important;
-  }
+    float: inherit !important;
+    position: absolute !important;
+    left: 3em !important;
+    top: 1.5em !important;
+  }
 #page-content {
-    font-size: 80%;
-  }
+    font-size: 80%;
+  }
 #page-content > hr {
-    margin: 1em 5%;
-  }
+    margin: 1em 5%;
+  }
 }
 .top-left-box>.item {
-    display: initial !important;
+    display: initial !important;
 }
 .blinkbar {animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }15% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
 

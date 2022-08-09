@@ -971,7 +971,7 @@ SCP-2911-JP内部との連絡が初めて行われたのは9月13日の午前8�
 @@ @@
 
 [[=]]
- [[div style="display: inline-block; float: center; border: solid 4px #444444; width: 85%; padding: 1px 15px 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 2px 1px 3px rgba(0,0,0,.2);"]]
+ [[div style="display: inline-block; float: center; border: solid 4px #444444; width: 85%; padding: 1px 15px 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 2px 1px 3px rgba(0,0,0,.2);"]]
 
 +++ 異常空間調査記録 #211
 ++++ [[size 80%]]臨時編成機動部隊F-15("ニューヨーカー") 作成[[/size]]
@@ -1013,7 +1013,7 @@ SCP-2911-JP-B分布図。
 @@ @@
 
 [[=]]
- [[div style="display: inline-block; float: center; border: solid 4px #444444; width: 85%; padding: 1px 15px 10px 15px; margin: 10px 10px 10px 10px; box-shadow: 2px 1px 3px rgba(0,0,0,.2);"]]
+ [[div style="display: inline-block; float: center; border: solid 4px #444444; width: 85%; padding: 1px 15px 10px 15px; margin: 10px 10px 10px 10px; box-shadow: 2px 1px 3px rgba(0,0,0,.2);"]]
 
 +++ 異常空間調査記録 #392
 ++++ [[size 80%]]臨時編成機動部隊F-15("ニューヨーカー") 作成[[/size]]
@@ -1094,10 +1094,10 @@ SCP-2911-JP内部との通信確立に伴い、SCP-2911-JPの中核であると�
 
 = __O5評議会提言概要__
 
-提言:@@   @@108評議会決議925号-ピチカート(TC/RES/S-17/925/Pi)に関する第1回投票 -- O5-12
+提言:@@   @@108評議会決議925号-ピチカート(TC/RES/S-17/925/Pi)に関する第1回投票 -- O5-12
 
 = 評議会投票概要:
-||~ 是  ||~ 非  ||~ 棄権 ||
+||~ 是  ||~ 非  ||~ 棄権 ||
 ||O5-01|| || ||
 || || ||O5-02||
 || ||O5-03|| ||
@@ -2324,7 +2324,7 @@ SCP-2911-JP-B群は速やかに不活性化し、SCP-2911-JP領域が縮小し�
 
 [[=]]
 
- [[div style="display: inline-block; float: center; border: solid 4px #444444; width: 85%; padding: 1px 15px 10px 15px; margin: 10px 10px 10px 10px; box-shadow: 2px 1px 3px rgba(0,0,0,.2);"]]
+ [[div style="display: inline-block; float: center; border: solid 4px #444444; width: 85%; padding: 1px 15px 10px 15px; margin: 10px 10px 10px 10px; box-shadow: 2px 1px 3px rgba(0,0,0,.2);"]]
 
 +++ 異常空間調査記録 #774
 ++++ [[size 80%]]臨時編成機動部隊F-15("ニューヨーカー") 作成[[/size]]
@@ -2559,14 +2559,14 @@ __**メンバー:**__
 [[size 120%]]世界オカルト連合(以下、連合)と財団の両者は、世界の平和及び安全の維持に寄与することを目的とし、以下のとおり行動することに合意する。[[/size]]
 [[/=]]
 # 連合、財団の両者は以下の領域に関する全ての占有的主張を放棄する。
- * マンハッタン島全域
+ * マンハッタン島全域
 # 財団は以下のアーティファクトの管理を全て請負し、これを管理する。
- * SCP-2911-JP
- * SCP-2911-JP-A
- * SCP-2911-JP-B  --  但し、SCP-2911-JP領域内に限る。
+ * SCP-2911-JP
+ * SCP-2911-JP-A
+ * SCP-2911-JP-B  --  但し、SCP-2911-JP領域内に限る。
 # 連合、財団の両者は以下の領域について相互の独立性を尊重し、非戦地帯とする。
- * サイト-311
- * ステーション-NA-019
+ * サイト-311
+ * ステーション-NA-019
 [[=]]
 .
 .
@@ -2574,7 +2574,7 @@ __**メンバー:**__
 [[/=]]
 [[div class="custom-list"]]
 # 連合、財団の両者は以下の存在についてその生来の権利を確認し、正常性ならびに現実性を毀損しない場合に於いて、可能な限りその生存と自由意志の存立を擁護する。
- * 人間型異常/脅威存在
+ * 人間型異常/脅威存在
 [[=]]
 
 本協定は2001年9月21日より効力を持つ。
@@ -2694,32 +2694,32 @@ __**メンバー:**__
 
 [[module CSS]]
 .custom-list > ol {
-    counter-reset: item 124;
-    padding: 0;
+    counter-reset: item 124;
+    padding: 0;
 }
 .custom-list > ol > li {
-    list-style-type: none;
+    list-style-type: none;
 }
 .custom-list > ol > li:before {
-    content: counter(item) ". ";
-    counter-increment: item;
-    display: inline-block;
-    text-align: center;
-    width: 40px;
-    height: 2em;
-    float: left;
+    content: counter(item) ". ";
+    counter-increment: item;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 2em;
+    float: left;
 }
 .custom-list > ol > li > ul {
-    padding-inline-start: 80px;
+    padding-inline-start: 80px;
 }
 
 [[/module]]
 
 [[include :scp-jp.wikidot.com:component:earthworm
-  first=false | last=false | hub=yes |
-  previous-url=http://scp-jp.wikidot.com/scp-2910-jp | previous-title=SCP-2910-JP |
-  next-url=http://scp-jp.wikidot.com/scp-2912-jp | next-title=SCP-2912-JP |
-  hub-url=/ | hub-title=SCP-2911-JP |
+  first=false | last=false | hub=yes |
+  previous-url=http://scp-jp.wikidot.com/scp-2910-jp | previous-title=SCP-2910-JP |
+  next-url=http://scp-jp.wikidot.com/scp-2912-jp | next-title=SCP-2912-JP |
+  hub-url=/ | hub-title=SCP-2911-JP |
 ]]
 
 [[footnoteblock]]
@@ -2731,10 +2731,10 @@ __**メンバー:**__
 [[/>]]
 
 [[module css]]
-#u-ratingboxhid {   
- opacity:0.1;  transition: all 0.5s ease-out;
+#u-ratingboxhid {   
+ opacity:0.1;  transition: all 0.5s ease-out;
 }
-#u-ratingboxhid:hover {  
- opacity:1;
+#u-ratingboxhid:hover {  
+ opacity:1;
 }
 [[/module]]

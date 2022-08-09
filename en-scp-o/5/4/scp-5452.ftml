@@ -7,70 +7,70 @@
 .tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* black shadow at the top of the terminal */
-    background-image:
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
+    background-image:
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -79,29 +79,29 @@ content: "> ";
 .hover {
 }
 .hover:hover {
-  text-decoration: none;
-    border-bottom: none;
+  text-decoration: none;
+    border-bottom: none;
 }
 
 .hover span { display: none;}
 .hover:hover span {
-    position: absolute;
-    display: inline;
-    margin: 0px 0px;
-    height: auto;
-    width: auto;
-    background: #FFF;
-    border: 2px solid HotPink;
-    color: #000;
-    padding: 1em;
+    position: absolute;
+    display: inline;
+    margin: 0px 0px;
+    height: auto;
+    width: auto;
+    background: #FFF;
+    border: 2px solid HotPink;
+    color: #000;
+    padding: 1em;
 }
 .hover:hover span span {
-    position: relative;
-    margin: auto;
-    height: auto;
-    width: auto;
-    border: none;
-    padding: 0;
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
 }
 
 [[/module]]
@@ -210,14 +210,14 @@ The game is contained on a series of files in a USB flash drive designated SCP-5
 > * You can walk to different locations or stay in your room.
 > * There are five locations on the game map: the School, the Park, the Museum, the Church, and the Alley.
 > * Every location has three options: Work, Buy, or Interact.
->  * Work: makes the player earn money to buy gifts.
->  * Buy: spend money buying a gift. Every place has different gifts and every character likes or dislikes specific items, so beware!
->  * Interact: makes the player interact with a character nearby.
+>  * Work: makes the player earn money to buy gifts.
+>  * Buy: spend money buying a gift. Every place has different gifts and every character likes or dislikes specific items, so beware!
+>  * Interact: makes the player interact with a character nearby.
 > * Interaction options include Talk, Gift, Date, and Greet.
->  * Talk: a short conversation, sometimes letting you choose between lines.
->  * Gift: uses one of the items earned at a vending machine to offer to the character.
->  * Date: only available if the person has an amity level above 50%. Gives the option to take the character on a date. Dates are match-three puzzles, similar to Candy Crush. Some gifts can give bonuses here.
->  * Greet: gives a hug or a kiss.
+>  * Talk: a short conversation, sometimes letting you choose between lines.
+>  * Gift: uses one of the items earned at a vending machine to offer to the character.
+>  * Date: only available if the person has an amity level above 50%. Gives the option to take the character on a date. Dates are match-three puzzles, similar to Candy Crush. Some gifts can give bonuses here.
+>  * Greet: gives a hug or a kiss.
 > * Depending on the character, each interaction can increase or decrease the amity level.
 > * The game will conclude when the amity level with a character gets to 100%. The Greet interaction will be changed to Marry and will end the game.
 >
@@ -316,7 +316,7 @@ After initial testing, the flash drive was considered a secondary object, as the
 > //Dr. Ivanna Novakova, Senior Researcher of the Division of Anomalous Programming, Head of Research for SCP-5452, Site-15//
 [[/=]]
 @@ @@
- **NOTES:** Diderot.aic, a new operative of the MTF Kappa-10 ("Skynet") and only Artificially Intelligent Conscript capable of metafictional immersion, was appointed to be an assistant and guard of SCP-5452. He will be introduced to the team tomorrow.
+ **NOTES:** Diderot.aic, a new operative of the MTF Kappa-10 ("Skynet") and only Artificially Intelligent Conscript capable of metafictional immersion, was appointed to be an assistant and guard of SCP-5452. He will be introduced to the team tomorrow.
 @@ @@
 @@ @@
 @@ @@
@@ -1263,7 +1263,7 @@ I’ll be waiting! 😻
 > //Dr. Ivanna Novakova, Senior Researcher of the Division of Anomalous Programming, Head of Research for SCP-5452, Site-15//
 [[/=]]
 @@ @@
- **NOTES:** An update. The team decided to end the game and make another attempt at the next iteration to talk with SCP-5452-R and get some answers.
+ **NOTES:** An update. The team decided to end the game and make another attempt at the next iteration to talk with SCP-5452-R and get some answers.
 @@ @@
 @@ @@
 @@ @@
@@ -1927,7 +1927,7 @@ Addendum 5452.5: Iteration 5452/6
 > //Dr. Ivanna Novakova, Senior Researcher of the Division of Anomalous Programming, Head of Research for SCP-5452, Site-15//
 [[/=]]
 @@ @@
- **NOTES:** I hope we can recover Diderot.aic. The Metafiction Division is trying to create an alternative for us to control the SCP and save the AIC agent.
+ **NOTES:** I hope we can recover Diderot.aic. The Metafiction Division is trying to create an alternative for us to control the SCP and save the AIC agent.
 @@ @@
 @@ @@
 @@ @@
@@ -2305,17 +2305,17 @@ Doctor Orlando Acosta, Site Director, Site-15.
 As the Reboot Event changed the object as a whole, some updates are to be made on the article that talk about it. A list of updates was created by Dr. Novakova and is disponible below.
 * SCP-5452 is to be reclassified as Euclid and its Risk Class to be changed to Caution.
 * Special Containment Procedures are to be changed as follows:
- * SCP-5452 is to be contained in a designed computer in Room 5452 at Site-15. This computer is not to be connected to any communication device in any circumstance. SCP-5452 is to be revised weekly by authorized personnel for inspection of the psychological and social behavior of the SCP-5452-1 instances.
- * The research team was advised to watch for any behavior mirroring the acts of SCP-5452-R. Any presentation of emotion between SCP-5452-1 and any of the researchers is to be dealt with. The Metafiction Division is working with Site-15's psychologist to create a schedule to handle the entities’ emotional side, but the procedures are yet to be approved by the Ethics Committee.
- * In the case of any notable alteration, the Research Team shall contact Site-15’s Psychologist. Other authorities are to be contacted only after the psychotechnic evaluation of the SCP-5452-1 entities. If this is necessary, the DIDEROT Protocol will be immediately initiated.
+ * SCP-5452 is to be contained in a designed computer in Room 5452 at Site-15. This computer is not to be connected to any communication device in any circumstance. SCP-5452 is to be revised weekly by authorized personnel for inspection of the psychological and social behavior of the SCP-5452-1 instances.
+ * The research team was advised to watch for any behavior mirroring the acts of SCP-5452-R. Any presentation of emotion between SCP-5452-1 and any of the researchers is to be dealt with. The Metafiction Division is working with Site-15's psychologist to create a schedule to handle the entities’ emotional side, but the procedures are yet to be approved by the Ethics Committee.
+ * In the case of any notable alteration, the Research Team shall contact Site-15’s Psychologist. Other authorities are to be contacted only after the psychotechnic evaluation of the SCP-5452-1 entities. If this is necessary, the DIDEROT Protocol will be immediately initiated.
 * Description will suffer major modification:
- * The USB flash drive previously designated SCP-5452-1 was neutralized now that, without SCP-5452-R, it’s no longer the only device that can contain SCP-5452 files. SCP-5452-2 specimens were redesignated SCP-5452-1 for consistency.
-   * The new SCP-5452-1 object is to be added to the SCP-5452-1 descriptions. Its sheet can be seen in the attachments below.
-  * With the neutralization of both the flash drive and SCP-5452-R, descriptions and explanations about the entities are to be added as an addendum and deleted from the main description.
- * The game name was changed to “LOVED”, so both the object designation and mentions to the previous name, “LOVER”, are to be updated.
+ * The USB flash drive previously designated SCP-5452-1 was neutralized now that, without SCP-5452-R, it’s no longer the only device that can contain SCP-5452 files. SCP-5452-2 specimens were redesignated SCP-5452-1 for consistency.
+   * The new SCP-5452-1 object is to be added to the SCP-5452-1 descriptions. Its sheet can be seen in the attachments below.
+  * With the neutralization of both the flash drive and SCP-5452-R, descriptions and explanations about the entities are to be added as an addendum and deleted from the main description.
+ * The game name was changed to “LOVED”, so both the object designation and mentions to the previous name, “LOVER”, are to be updated.
 * New description about the SCP-5452-1 entities may include:
- * Their lack of memory from their existence before the Reboot or about SCP-5452-R.
- * That their power over the game was shared equally between the specimens during the Reboot, so there is no leader figure anymore.
+ * Their lack of memory from their existence before the Reboot or about SCP-5452-R.
+ * That their power over the game was shared equally between the specimens during the Reboot, so there is no leader figure anymore.
 * Attached File #2 is to be added to a new addendum.
 @@ @@
 **Attachments:**
@@ -2361,7 +2361,7 @@ Diderot.aic
 [[/collapsible]]
 @@ @@
 [[=]]
-[[collapsible show="► You have one (1) new comment to the update proposal!  ◄" hide="▼ No new comments to the update proposal ▼"]]
+[[collapsible show="► You have one (1) new comment to the update proposal!  ◄" hide="▼ No new comments to the update proposal ▼"]]
 [[<]]
 > = [[size x-large]]Notice from O5 Council[[/size]]
 > ------

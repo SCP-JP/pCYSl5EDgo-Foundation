@@ -6,74 +6,74 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
 
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-style: normal;
-    color: black;
+    display: block;
+    overflow: hidden;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-style: normal;
+    color: black;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
 }
 
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
- 
+ 
 /* Parawatch Forum Pseudo-Blockquotes */
 div.parapost {
-    background:  black;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #1a1a1a;
-    padding: 0 1em;
-    margin: 1em 3em;
+    background:  black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1a1a1a;
+    padding: 0 1em;
+    margin: 1em 3em;
 }
- 
+ 
 div.parapost.reply1 {margin: 1em 3em 1em 4em;}
 div.parapost.reply2 {margin: 1em 3em 1em 5em;}
 div.parapost.reply3 {margin: 1em 3em 1em 6em;}
- 
+ 
 @media (max-width: 479px) {
-   div.parapost {margin: 1em 0;}
-   div.parapost.reply1 {margin: 1em 0 1em 1em;}
-   div.parapost.reply2 {margin: 1em 0 1em 2em;}
-   div.parapost.reply3 {margin: 1em 0 1em 3em;}
+   div.parapost {margin: 1em 0;}
+   div.parapost.reply1 {margin: 1em 0 1em 1em;}
+   div.parapost.reply2 {margin: 1em 0 1em 2em;}
+   div.parapost.reply3 {margin: 1em 0 1em 3em;}
 }
- 
+ 
 @media (min-width: 480px) and (max-width: 580px) {
-   div.parapost {margin: 0.5em;}
-   div.parapost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
-   div.parapost.reply2 {margin: 0.5em 0.5em 0.5em 1.5em;}
-   div.parapost.reply3 {margin: 0.5em 0.5em 0.5em 2em;}
+   div.parapost {margin: 0.5em;}
+   div.parapost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
+   div.parapost.reply2 {margin: 0.5em 0.5em 0.5em 1.5em;}
+   div.parapost.reply3 {margin: 0.5em 0.5em 0.5em 2em;}
 }
- 
+ 
 /* IMAGES */ 
 #page-content .scp-image-block {
-    border-color: #1a1a1a;
-    box-shadow: none;
+    border-color: #1a1a1a;
+    box-shadow: none;
 }
 #page-content .scp-image-block .scp-image-caption {
-    border-color: #1a1a1a;
-    background-color: black;
+    border-color: #1a1a1a;
+    background-color: black;
 }
-  
+  
 hr {
-    background-color: var(--fg);
+    background-color: var(--fg);
 }
 [[/module]]
 

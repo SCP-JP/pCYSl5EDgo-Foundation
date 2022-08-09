@@ -5,52 +5,52 @@
 
 [[module CSS]]
 /* HEADER */
- :root{
-   --header-title: "DEPT. OF MISCOMM.";
-   --header-subtitle: "SOLVING COMMUNICATIONS PROBLEMS";
-   --lgurl: url(https://scp-wiki.wdfiles.com/local--files/scp-4428/DoMC_Logo100.png);
+ :root{
+   --header-title: "DEPT. OF MISCOMM.";
+   --header-subtitle: "SOLVING COMMUNICATIONS PROBLEMS";
+   --lgurl: url(https://scp-wiki.wdfiles.com/local--files/scp-4428/DoMC_Logo100.png);
 }
- #page-title{
-     display: none;
+ #page-title{
+     display: none;
 }
 
 /* INFO BAR */
- #u-author_block{
-     display: none;
+ #u-author_block{
+     display: none;
 }
 
 /* FORMATTING */
- table.wiki-content-table td{
-     line-height: 141%;
+ table.wiki-content-table td{
+     line-height: 141%;
 }
- .inoculation table.wiki-content-table{
-     width: 100%;
+ .inoculation table.wiki-content-table{
+     width: 100%;
 }
- .inoculation table.wiki-content-table td{
-     border: none;
+ .inoculation table.wiki-content-table td{
+     border: none;
 }
- .inoculation table.wiki-content-table tr td:nth-child(2){
-     text-align: right;
+ .inoculation table.wiki-content-table tr td:nth-child(2){
+     text-align: right;
 }
- .lie{
-     margin: 1px;
+ .lie{
+     margin: 1px;
 
-     background-color: hsla(207, 75%, 50%, .3);
+     background-color: hsla(207, 75%, 50%, .3);
 
-     word-break: unset;
-     font-family: var(--mono-font);
+     word-break: unset;
+     font-family: var(--mono-font);
 }
 
 /* DIV BLOCKS */
- .notice{
-     padding: 0 .5em;
+ .notice{
+     padding: 0 .5em;
 
-     color: hsl(57, 98%, 68%);
-     background: hsl(9, 51%, 47%);
-     border: 1px solid hsl(57, 98%, 68%);
-     outline: 4px solid hsl(9, 51%, 47%);
+     color: hsl(57, 98%, 68%);
+     background: hsl(9, 51%, 47%);
+     border: 1px solid hsl(57, 98%, 68%);
+     outline: 4px solid hsl(9, 51%, 47%);
 
-     text-align: center;
+     text-align: center;
 }
 [[/module]]
 
@@ -71,7 +71,7 @@
 |comments=--SCP-4428-- [[span class="lie"]]Dr. Michaels is not in danger.[[/span]] 
 **Authors:** [[*user Lt Flops]] and [[*user Henzoid]] 
 **Published on 7 Oct 2019** 
- 
+ 
 [[div style="text-align: center;"]] 
 **More by these authors:** 
 [[size 130%]]**[*/henzoids-author-page Henzoid]** 
@@ -128,14 +128,14 @@ The Department of Miscommunications (DoMc) is to handle all documentation and co
 
 [[div]]
 [[table style="width: 100%; font-size: 125%;"]]
-  [[row]]
-    [[cell]]
+  [[row]]
+    [[cell]]
 [[span style="font-weight: 900;"]]Item Number:[[/span]] Dr. Michaels
-    [[/cell]]
-    [[cell style="text-align: right;"]]
+    [[/cell]]
+    [[cell style="text-align: right;"]]
 [[span style="font-weight: 900;"]]Containment Class:[[/span]] [[span class="lie"]]Safe[[/span]]
-    [[/cell]]
-  [[/row]]
+    [[/cell]]
+  [[/row]]
 [[/table]]
 [[/div]]
 ----
@@ -269,15 +269,15 @@ I have tried making myself perfectly clear in this document. [[span class="lie"]
 Ultimately? [[span class="lie"]]I am okay[[/span]], you understand? Please, please understand, and find some way to figure this all out.
 ----
 [[table style="width: 100%;"]]
-  [[row]]
-    [[cell style="width: 70%;"]]
-    [[/cell]]
-    [[cell style="width: 30%;"]]
+  [[row]]
+    [[cell style="width: 70%;"]]
+    [[/cell]]
+    [[cell style="width: 30%;"]]
 //Dr. Jeremy Michaels//
 //Site-96 Researcher//
 2019/10/20
-    [[/cell]]
-  [[/row]]
+    [[/cell]]
+  [[/row]]
 [[/table]]
 [[/div]]
 ----

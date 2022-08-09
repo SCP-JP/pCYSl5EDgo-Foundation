@@ -1,176 +1,176 @@
 [[module CSS]]
 /* Classic SCP Foundation Theme
- * [2020 Wikidot Theme]
- * Created by Lt Flops
+ * [2020 Wikidot Theme]
+ * Created by Lt Flops
 **/
 
 /* ---- PAGE WRAP ---- */
- div#container-wrap{
-     background-image: url(http://scp-wiki.wdfiles.com/local--files/theme%3Aclassic/classic_body_bg.png);
-     background-repeat: repeat-x;
+ div#container-wrap{
+     background-image: url(http://scp-wiki.wdfiles.com/local--files/theme%3Aclassic/classic_body_bg.png);
+     background-repeat: repeat-x;
 }
 
 /* ---- HEADERS ---- */
- span, a{
-     word-break: unset;
+ span, a{
+     word-break: unset;
 }
- h1{
-     font-size: 190%;
+ h1{
+     font-size: 190%;
 }
- h1, h2, h3, h4, h5, h6{
-     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
+ h1, h2, h3, h4, h5, h6{
+     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
 }
- #header h1,
- #header h2{
-     margin-left: -.16em;
+ #header h1,
+ #header h2{
+     margin-left: -.16em;
 }
- #header h1{
-     max-height: 105px;
-     margin: 0;
+ #header h1{
+     max-height: 105px;
+     margin: 0;
 }
- #header h2{
-     margin: 0;
+ #header h2{
+     margin: 0;
 }
 
 /* ---- SITE HEADER ---- */
- #header h1 a,
- #header h2 span{
-     color: transparent;
-     text-shadow: none;
+ #header h1 a,
+ #header h2 span{
+     color: transparent;
+     text-shadow: none;
 }
- #header h1 a{
-     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
-     letter-spacing: 0;
+ #header h1 a{
+     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
+     letter-spacing: 0;
 }
- #header h1 a::before,
- #header h2 span::before{
-     text-shadow: none;
+ #header h1 a::before,
+ #header h2 span::before{
+     text-shadow: none;
 }
- #header h1 a::before{
-     content: "The SCP Foundation";
-     color: hsl(0, 0%, 93%);
+ #header h1 a::before{
+     content: "The SCP Foundation";
+     color: hsl(0, 0%, 93%);
 }
- #header h2 span::before{
-     content: "To Secure, Contain, and Protect";
-     color: hsl(353, 100%, 30%);
+ #header h2 span::before{
+     content: "To Secure, Contain, and Protect";
+     color: hsl(353, 100%, 30%);
 }
 
 /* ---- TOP MENU ---- */
- #header{
-     background: none;
+ #header{
+     background: none;
 }
- #top-bar ul li,
- #top-bar ul li ul{
-     box-shadow: none;
+ #top-bar ul li,
+ #top-bar ul li ul{
+     box-shadow: none;
 }
- #top-bar ul li ul{
-     border-color: hsl(0, 0%, 27%);
-     border-style: solid;
-     border-width: 0 1px 1px;
+ #top-bar ul li ul{
+     border-color: hsl(0, 0%, 27%);
+     border-style: solid;
+     border-width: 0 1px 1px;
 }
- #top-bar ul li a{
-     border-color: hsl(0, 0%, 27%);
-     border-style: solid;
-     border-width: 0 0 0 1px;
+ #top-bar ul li a{
+     border-color: hsl(0, 0%, 27%);
+     border-style: solid;
+     border-width: 0 0 0 1px;
 }
- #top-bar ul li a::before{
-     content: "[";
+ #top-bar ul li a::before{
+     content: "[";
 }
- #top-bar ul li a::after{
-     content: "]";
-     position: relative;
+ #top-bar ul li a::after{
+     content: "]";
+     position: relative;
 
 /* NOTE: The Top Bar Menu has spaces after each bullet, which is why this is done: */
-     left: -.3em;
+     left: -.3em;
 }
- #top-bar ul li ul li a::before{
-     content: unset;
+ #top-bar ul li ul li a::before{
+     content: unset;
 }
- #top-bar ul li ul li a::after{
-     content: unset;
+ #top-bar ul li ul li a::after{
+     content: unset;
 }
- .mobile-top-bar{
-     bottom: -.5px;
+ .mobile-top-bar{
+     bottom: -.5px;
 }
 
 /* ---- SEARCH BOX ---- */
- #search-top-box input.empty{
-     color: hsl(0, 0%, 45%);
+ #search-top-box input.empty{
+     color: hsl(0, 0%, 45%);
 }
- #search-top-box-input{
-     color: hsl(0, 0%, 5%);
-     background-color: hsl(0, 0%, 100%);
-     border: 1px solid hsl(0, 0%, 47%);
-     border-radius: 0;
-     box-shadow: none;
+ #search-top-box-input{
+     color: hsl(0, 0%, 5%);
+     background-color: hsl(0, 0%, 100%);
+     border: 1px solid hsl(0, 0%, 47%);
+     border-radius: 0;
+     box-shadow: none;
 }
- #search-top-box-input:hover,
- #search-top-box-input:focus{
-     color: hsl(0, 0%, 5%);
-     background-color: hsl(0, 0%, 100%);
-     border: 1px solid hsl(0, 0%, 47%);
-     box-shadow: none;
+ #search-top-box-input:hover,
+ #search-top-box-input:focus{
+     color: hsl(0, 0%, 5%);
+     background-color: hsl(0, 0%, 100%);
+     border: 1px solid hsl(0, 0%, 47%);
+     box-shadow: none;
 }
- #search-top-box-form input[type="submit"]{
-     color: hsl(0, 0%, 5%);
-     background: hsl(0, 0%, 96%);
-     border: 1px solid hsl(0, 0%, 67%);
-     border-radius: 0;
-     box-shadow: none;
-     font-size: 100%;
-     font-weight: normal;
+ #search-top-box-form input[type="submit"]{
+     color: hsl(0, 0%, 5%);
+     background: hsl(0, 0%, 96%);
+     border: 1px solid hsl(0, 0%, 67%);
+     border-radius: 0;
+     box-shadow: none;
+     font-size: 100%;
+     font-weight: normal;
 }
- #search-top-box-form input[type="submit"]:hover,
- #search-top-box-form input[type="submit"]:focus{
-     color: hsl(0, 0%, 5%);
-     background: hsl(0, 0%, 87%);
-     border: 1px solid hsl(0, 0%, 67%);
-     box-shadow: none;
+ #search-top-box-form input[type="submit"]:hover,
+ #search-top-box-form input[type="submit"]:focus{
+     color: hsl(0, 0%, 5%);
+     background: hsl(0, 0%, 87%);
+     border: 1px solid hsl(0, 0%, 67%);
+     box-shadow: none;
 }
 
 /* ---- SIDE MENU ---- */
- #side-bar{
-     clear: both;
-     padding: .78em;
-     padding-bottom: 0;
-     border: 1px solid hsl(0, 0%, 87%);
-     border-radius: 0;
-     box-shadow: none;
-     margin: auto;
+ #side-bar{
+     clear: both;
+     padding: .78em;
+     padding-bottom: 0;
+     border: 1px solid hsl(0, 0%, 87%);
+     border-radius: 0;
+     box-shadow: none;
+     margin: auto;
 }
- #side-bar .side-block{
-     margin: auto;
-     background: transparent;
-     border: none;
-     border-radius: 0;
-     box-shadow: none;
+ #side-bar .side-block{
+     margin: auto;
+     background: transparent;
+     border: none;
+     border-radius: 0;
+     box-shadow: none;
 }
- #side-bar .heading{
-     padding-left: 0;
-     color: hsl(0, 0%, 5%);
-     border-bottom: 1px solid hsl(0, 0%, 67%);
-     margin: auto;
+ #side-bar .heading{
+     padding-left: 0;
+     color: hsl(0, 0%, 5%);
+     border-bottom: 1px solid hsl(0, 0%, 67%);
+     margin: auto;
 }
 
 /* ---- INFO BAR ---- */
- body{
-     --barColour: hsl(0, 0%, 28%);
+ body{
+     --barColour: hsl(0, 0%, 28%);
 }
 
 /* ---- INFO PANE ---- */
 .creditRate{
-     margin-right: 0 !important;
-     border: none !important;
+     margin-right: 0 !important;
+     border: none !important;
 }
- .rate-box-with-credit-button .fa-info{
-     background-color: hsl(0, 0%, 40%) !important;
-     border: none !important;
-     border-radius: 0 !important;
-     box-shadow: none !important;
+ .rate-box-with-credit-button .fa-info{
+     background-color: hsl(0, 0%, 40%) !important;
+     border: none !important;
+     border-radius: 0 !important;
+     box-shadow: none !important;
 }
- .rate-box-with-credit-button .fa-info:hover{
-     color: hsl(0, 0%, 95%);
-     border-left: none !important;
+ .rate-box-with-credit-button .fa-info:hover{
+     color: hsl(0, 0%, 95%);
+     border-left: none !important;
 }
  .rate-box-with-credit-button .cancel{
      color: hsl(112, 100%, 77%);

@@ -1,37 +1,37 @@
 [[module css]]
 
 @media screen and (max-width:500px){
-  .scp-image-block.block-right{
+  .scp-image-block.block-right{
 float:none;
 margin:auto;
 margin-bottom: 1.2em;
-  }
+  }
 }
 @media screen and (min-width:501px){
-  .scp-image-block.block-right{
+  .scp-image-block.block-right{
 float:right;
-  }
+  }
 }
 
 .tensen{
-   border: 1px dashed #999;
-   padding: 0 1em;
-   background-color: #f4f4f4;
-   display: block;
-   margin-block-start: 1em;
-   margin-block-end: 1em;
-   margin-inline-start: 40px;
-   margin-inline-end: 40px;
+   border: 1px dashed #999;
+   padding: 0 1em;
+   background-color: #f4f4f4;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 40px;
+   margin-inline-end: 40px;
 }
 @media (max-width: 580px) and (min-width: 480px){
-   .tensen{
-      margin:0.5em;
-   }
+   .tensen{
+      margin:0.5em;
+   }
 }
 @media (max-width: 479px){
-   .tensen{
-      margin:1em 0;
-   }
+   .tensen{
+      margin:1em 0;
+   }
 }
 
 [[/module]]
@@ -49,7 +49,7 @@ float:right;
 |clear=true
 ]]
 **アイテム番号:** SCP-2320-JP
- 
+ 
 **オブジェクトクラス:** Safe
 
 **特殊収容プロトコル:** SCP-2320-JPは半径7mの球を完全に覆うことの出来る規格に調整された防水収容室に保管されています。収容室は外部からの観測が不可能な状態になっており、SCP-2320-JPを観察する場合には認識災害除去済みのカメラ映像を通す必要があります。室内にはスクラントン現実錨が備え付けられ、ヒューム値の変動による外部への影響を遮断します。
@@ -67,16 +67,16 @@ float:right;
 @@ @@
 [[module css]]
 .blink-collapsibe a.collapsible-block-link {
-  animation: blinkAnime 1s infinite alternate;
+  animation: blinkAnime 1s infinite alternate;
 }
 @keyframes blinkAnime{
-   0% { opacity: 0 }
- 100% { opacity: 1 }
+   0% { opacity: 0 }
+ 100% { opacity: 1 }
 }
 [[/module]]
- 
+ 
 [[div class="blink-collapsibe"]]
- 
+ 
 [[collapsible show="+ 以下の閲覧には、FC専用オネイロイ・ネットワーク内からの接続が必要です。貴方は夢の中にいますか？" hide=" "]]
 
 ------
@@ -119,12 +119,12 @@ SCP-2320-JPの潜在意識に関連して発生する夢事象への対応は[ht
 
 ||~ 原告の獲得票数 ||~ 被告の獲得票数 ||~ 発生する現象 ||
 || 6 || 0 || 未発生のため不明。 ||
-|| 5 || 1 || SCP-2320-JPが認識災害性を獲得する。視認した場合、「ワニに噛まれた」という虚偽記憶(痛みは伴わない)と、ワニに対する復讐心が発生する。 ||  
+|| 5 || 1 || SCP-2320-JPが認識災害性を獲得する。視認した場合、「ワニに噛まれた」という虚偽記憶(痛みは伴わない)と、ワニに対する復讐心が発生する。 ||  
 || 4 || 2 || SCP-2320-JPが認識災害性を獲得する。視認した場合、「ワニに噛まれる」という不合理な恐怖心が生じる。 ||
 || 3 || 3 || 異常な現象は発生しない。 ||
 || 2 || 4 || SCP-2320-JPを中心とした半径7mの範囲内で、ヒューム値の乱れが発生する。この乱れは不完全な神格降臨事象に付随して発生するものと類似したパターンを示す。 ||
 || 1 || 5 || SCP-2320-JPを中心とした半径7mの範囲内で、ヒューム値の乱れと、断続的な現実改変が発生する。現実改変によって生成された水がSCP-2320-JPを包み込む。 ||
-|| 0 || 6 || 未発生のため不明。 ||  
+|| 0 || 6 || 未発生のため不明。 ||  
 
 陪審員席の実体の中には、必ず被告/原告に投票する個体がそれぞれ1体以上存在するため、6対0の状態が発生したことはありません。裁判官席の実体による「全会一致で無ければ判決は出せない」との発言が確認されており、6対0の状態が発生するまで「裁判」は繰り返されるものと考えられています。
 

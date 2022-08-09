@@ -5,204 +5,204 @@ IMAGE = http://scp-jp-storage.wikidot.com/local--files/file:7664517-7-k8xp/F4196
 TITLE=エレベーター部門|
 COLOR=#ff8e5e]]
 [[include :scp-jp-sandbox2:inc:topsubtitle |
-TITLE= Department of Elevator  |
+TITLE= Department of Elevator  |
 COLOR=#ff8e5e]]
 
 [[include :scp-jp-sandbox2:inc:headsubtitle | title=エレベーターの研究、利用、発展|
 color=#ff8e5e]]
 [[module css]]
 div#search-top-box {
-    top: 18.5px;
-    width: 100%;
-    right: 70px;
+    top: 18.5px;
+    width: 100%;
+    right: 70px;
 }
- 
+ 
 div#search-top-box form {
-    display: flex;
-    justify-content: flex-end
+    display: flex;
+    justify-content: flex-end
 }
- 
+ 
 div#search-top-box form input[type="text"],
 div#search-top-box form input[type="text"]:hover {
-    background-color: #5B5B5B !important;
-    display: inline-block;
-    height: 1.1rem;
-    width: 8rem;
-    transition: width .25s;
-    outline: none;
-    filter: brightness(120%);
+    background-color: #5B5B5B !important;
+    display: inline-block;
+    height: 1.1rem;
+    width: 8rem;
+    transition: width .25s;
+    outline: none;
+    filter: brightness(120%);
 }
- 
+ 
 _::-webkit-full-page-media,
 _:future,
 :root div#search-top-box form input[type="text"] {
-    font-size: 16px
+    font-size: 16px
 }
- 
+ 
 div#search-top-box form input[type="text"]:not(:focus),
 div#search-top-box form input[type="text"]:not(:focus):not(:hover) {
-    background-color: var(--base-color);
-    color: transparent;
-    cursor: pointer;
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    box-sizing: border-box;
-    border-radius: 50px;
-    box-shadow: none;
-    background-position: center;
-    background-size: 55%;
-    background-repeat: no-repeat;
-    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20fill%3D%22%23ddd%22%20d%3D%22M505%20442.7L405.3%20343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3%2044-79.7%2044-128C416%2093.1%20322.9%200%20208%200S0%2093.1%200%20208s93.1%20208%20208%20208c48.3%200%2092.7-16.4%20128-44v16.3c0%206.4%202.5%2012.5%207%2017l99.7%2099.7c9.4%209.4%2024.6%209.4%2033.9%200l28.3-28.3c9.4-9.4%209.4-24.6.1-34zM208%20336c-70.7%200-128-57.2-128-128%200-70.7%2057.2-128%20128-128%2070.7%200%20128%2057.2%20128%20128%200%2070.7-57.2%20128-128%20128z%22%2F%3E%3C%2Fsvg%3E");
+    background-color: var(--base-color);
+    color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: none;
+    background-position: center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20fill%3D%22%23ddd%22%20d%3D%22M505%20442.7L405.3%20343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3%2044-79.7%2044-128C416%2093.1%20322.9%200%20208%200S0%2093.1%200%20208s93.1%20208%20208%20208c48.3%200%2092.7-16.4%20128-44v16.3c0%206.4%202.5%2012.5%207%2017l99.7%2099.7c9.4%209.4%2024.6%209.4%2033.9%200l28.3-28.3c9.4-9.4%209.4-24.6.1-34zM208%20336c-70.7%200-128-57.2-128-128%200-70.7%2057.2-128%20128-128%2070.7%200%20128%2057.2%20128%20128%200%2070.7-57.2%20128-128%20128z%22%2F%3E%3C%2Fsvg%3E");
 }
- 
+ 
 div#search-top-box form input[type="submit"] {
-    display: none
+    display: none
 }
- 
+ 
 #search-top-box-input {
-    border: solid 1px var(--background);
-    border-radius: 5px
+    border: solid 1px var(--background);
+    border-radius: 5px
 }
- 
+ 
 #login-status {
-    top: 2px
+    top: 2px
 }
- 
+ 
 #login-status {
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    font-size: 0
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    font-size: 0
 }
- 
+ 
 #login-status .printuser {
-    margin: 0;
-    background-color: none;
-    position: absolute;
-    top: 13px;
-    right: 0px;
-    width: 28px;
-    padding: 0;
+    margin: 0;
+    background-color: none;
+    position: absolute;
+    top: 13px;
+    right: 0px;
+    width: 28px;
+    padding: 0;
 }
- 
+ 
 #login-status .printuser img.small {
-    background: none !important;
-    margin: 0;
-    width: 28px;
-    height: 28px;
-    padding: 0;
-    border-radius: 100px;
-    box-shadow: 0 0 3px #3f3f3f;
+    background: none !important;
+    margin: 0;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border-radius: 100px;
+    box-shadow: 0 0 3px #3f3f3f;
 }
- 
+ 
 #login-status [id] {
-    font-size: .72rem
+    font-size: .72rem
 }
- 
+ 
 #login-status>a[href="javascript:;"] {
-    font-size: 0;
-    font-weight: bold;
-    margin: 0;
-    text-align: center;
-    text-decoration: none;
-    background: none;
-    width: 21.8px;
-    position: absolute;
-    top: 13px;
-    height: 21px;
-    right: 30px;
-    border: none;
+    font-size: 0;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    width: 21.8px;
+    position: absolute;
+    top: 13px;
+    height: 21px;
+    right: 30px;
+    border: none;
 }
- 
+ 
 #login-status>a[href="javascript:;"]:before {
-    display: inline-block;
-    font-family: FontAwesome;
-    font-size: 1.3rem;
-    margin: 4px 3px;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    transform: translate(0, 0);
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.3rem;
+    margin: 4px 3px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform: translate(0, 0);
 }
- 
+ 
 #login-status #account-topbutton:before {
-    content: "\f013";
-    color: var(--base-color)
+    content: "\f013";
+    color: var(--base-color)
 }
- 
+ 
 #login-status .login-status-sign-in {
-    right: 35px !important;
+    right: 35px !important;
 }
- 
+ 
 #login-status .login-status-sign-in:before {
-    content: "\f13e";
-    color: var(--base-color)
+    content: "\f13e";
+    color: var(--base-color)
 }
- 
+ 
 #login-status .login-status-create-account {
-    right: 11px !important;
-    margin: 0 0 .25rem;
+    right: 11px !important;
+    margin: 0 0 .25rem;
 }
- 
+ 
 div#login-status a.login-status-create-account {
-    right: 11px;
+    right: 11px;
 }
- 
+ 
 #login-status .login-status-create-account:before {
-    content: "\f067";
-    color: var(--base-color)
+    content: "\f067";
+    color: var(--base-color)
 }
- 
+ 
 #login-status #my-account {
-    display: none
+    display: none
 }
- 
+ 
 #login-status a strong {
-    position: absolute;
-    top: 0;
-    right: 2.25rem;
-    font-family: var(--bauhaus);
-    font-size: 1rem;
-    white-space: nowrap
+    position: absolute;
+    top: 0;
+    right: 2.25rem;
+    font-family: var(--bauhaus);
+    font-size: 1rem;
+    white-space: nowrap
 }
- 
+ 
 #login-status #account-topbutton:not(:focus):not(:focus-within):not(:hover):not(:active)+#account-options {
-    display: none !important
+    display: none !important
 }
- 
+ 
 #header #login-status #account-topbutton+#account-options:focus,
 #header #login-status #account-topbutton+#account-options:focus-within,
 #header #login-status #account-topbutton+#account-options:hover,
 #header #login-status #account-topbutton+#account-options:active {
-    display: block !important
+    display: block !important
 }
- 
+ 
 #account-options ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
 }
- 
+ 
 #account-options ul>li {
-    flex-grow: 1;
-    text-align: center;
-    width: 40%
+    flex-grow: 1;
+    text-align: center;
+    width: 40%
 }
- 
+ 
 #account-options ul>li a {
-    transition: all .25s ease-in-out
+    transition: all .25s ease-in-out
 }
- 
+ 
 #account-options ul>li a:hover {
-    background-color: var(--base-color);
-    color: var(--background);
-    text-decoration: none
+    background-color: var(--base-color);
+    color: var(--background);
+    text-decoration: none
 }
- 
+ 
 #login-status ul a {
-    color: #000
+    color: #000
 }
- 
+ 
 
 [[/module]]
 
@@ -240,7 +240,7 @@ div#login-status a.login-status-create-account {
 
 +++ **財団記録・情報保安管理局より通達**
 
- [[size 120%]]**以下の文書は記録のため保存されたものです。**[[/size]]
+ [[size 120%]]**以下の文書は記録のため保存されたものです。**[[/size]]
 
 [[size 120%]]**この文書は現在使用されておらず、情報は更新されていません。 そのため不正確な情報が含まれている可能性があります。**[[/size]]
 
@@ -253,9 +253,9 @@ div#login-status a.login-status-create-account {
 
 
 **アイテム番号:** SCP-2360-JP　
- 
+ 
 **オブジェクトクラス:** Euclid
- 
+ 
 **特別収容プロトコル:** インターネット上の手順/SCP-2360-JPに関する正確な情報は不自然でない形で虚偽の情報と差し替えてください。
 
 手順/SCP-2360-JPが実行されようとした際にSCP-2360-JPを緊急停止させるプログラムが全世界のSCP-2360-JPに仕組まれます。当プログラム発動時にはカバーストーリー「エレベーターの故障」を流布し、再発防止のため実行者には記憶処理を行って手順/SCP-2360-JPに関する記憶を削除してください。プログラム発動に失敗した場合は同様にカバーストーリー「エレベーターの故障」を流布したうえで、そのSCP-2360-JPのカゴ部分は取り外して--放射能汚染物品用コンテナに収容し、その後は標準異世界実体侵入防止プロトコルに従ってください。--低危険度物品収容コンテナに収容してください。実行者は行方不明として取り扱ってください。
@@ -269,7 +269,7 @@ caption=SCP-2360-JP-M-31を撮影
 
 
 
-**説明:**  SCP-2360-JPは乗用エレベーターとして定義可能な全てへの指定です。
+**説明:**  SCP-2360-JPは乗用エレベーターとして定義可能な全てへの指定です。
 
 人間が乗ったSCP-2360-JPがエレベーターホールに到着した際に異常性が発現します。この際SCP-2360-JPのカゴ内部の扉、及びエレベーターホール側の扉にそのサイズに合わせて双方向空間連結ポータルが出現します。（以降、SCP-2360-JPのカゴ内部の扉に出現した方をSCP-2360-JP-P1、エレベーターホール側の扉に出現した方をSCP-2360-JP-P2とする。）通常時はカゴ内部とエレベーターホールを繋いでいるSCP-2360-JP-P1とSCP-2360-JP-P2の2つのポータルは1.000×10^^-7^^mほどの超至近距離に位置します。入口と出口がほぼ同じ位置にあるため通常はそこを通っても自分がポータルを出入りしたとは気づくことはありません。精細な調査が行われましたがそれらのポータルは特に観測可能な影響を及ぼさないことが確認されています。そのため通常時は問題なくそのポータルを通ってエレベーターを出入りすることが可能です。この2つのポータルの存在意義については現在議論中です。
 
@@ -309,7 +309,7 @@ SCP-2360-JP-P2を別宇宙に出現させる動作（以下手順/SCP-2360-JP）
 [[/div]]
 
 
- 
+ 
 SCP-2360-JPは財団による空間構造地図化技術開発により発見されましたが、手順/SCP-2360-JPが発見されるまで重要性は低いと考えられていました。手順/SCP-2360-JPは電子掲示板に怪談の形式で投稿された文章が財団に認知されたことで発見されました。 この投稿はクラスC占術技能保持者[[footnote]]夢や無意識下において何らかの情報を受信する事ができる存在です。ほとんどの場合対象は自分がその技能を有していると気づかず、正夢やデジャヴ程度に認識します。[[/footnote]]によるものであり、発見時には既にエレベーターで異世界に行く方法として一般に知れ渡っていたため完全な隠蔽は困難と判断されました。代わりにカバーストーリー「都市伝説」の流布、手順/SCP-2360-JPについての誤った情報[[footnote]]「女の人が乗ってくる」、「途中で他の人が乗ってきたら失敗である」など。[[/footnote]]の拡散、無意味な情報への差し替えなどの対応が取られました。それらの工作により現在、手順/SCP-2360-JPについての正確な情報を述べている文書は一般には存在しなくなったと思われます。当該クラスC占術技能保持者は、投稿した情報以外には重要な情報を有していないことが確認されたため記憶処理の後解放されました。
 
 多元宇宙11次元位置座標データの分析から、SCP-2360-JP-Mは存在する多元宇宙のどれかが完全にランダムに選出され、接続されていると考えられています。現在67個のSCP-2360-JP-Mの調査に成功しており、その全てにおいて基底世界と異なる物理法則が確認されました。以下はその一例です。
@@ -318,7 +318,7 @@ SCP-2360-JPは財団による空間構造地図化技術開発により発見さ
 ||電磁場||存在しない ||
 ||未知の量子場||電子の10^^−10^^〜10^^−45^^倍程の質量の粒子を生成すると考えられているが重力定数の強さにより観測には成功していない||
 ||宇宙の膨張率||極めて重力が大きいにも関わらず、基底世界の約3倍ほどの値が確認されている||
- 
+ 
 前述の通り手順/SCP-2360-JP実行時のSCP-2360-JP-P2は一般的な空間遷移オブジェクトに見られるL型-多元宇宙判定機構や宇宙高度検索機能、慣性系適応能力を有していません。そのため特殊な対策なしに手順/SCP-2360-JPを実行した場合の生還はほぼ不可能であり、民間人により実行された手順/SCP-2360-JPは実行者の死亡により終了できなくなっていると考えられています。そのため放射能汚染や異世界実体の侵入による危険はないと判断され、収容中のカゴは低危険度異常物品収容コンテナに再移送されました。　
 
 [[=]]
@@ -340,7 +340,7 @@ SCP-2360-JPは財団による空間構造地図化技術開発により発見さ
 
 [[size 120%]]**あなたが現在閲覧している文書は最新版/2040-07-24です。**[[/size]]
 
- [[size 120%]]**旧版との変更点は##blue|青##で強調されています。**[[/size]]
+ [[size 120%]]**旧版との変更点は##blue|青##で強調されています。**[[/size]]
 
 — RAISA管理官、マリア・ジョーンズ
 
@@ -407,7 +407,7 @@ SCP-2360-JPは財団による空間構造地図化技術開発により発見さ
 ||電磁場||存在しない ||
 ||未知の量子場||電子の10^^−10^^〜10^^−45^^倍程の質量の粒子を生成すると考えられているが重力定数の強さにより観測には成功していない||
 ||宇宙の膨張率||極めて重力が大きいにも関わらず、基底世界の約3倍ほどの値が確認されている||
- 
+ 
 前述の通り手順/SCP-2360-JP##blue|-α##実行時のSCP-2360-JP-P2は一般的な空間遷移オブジェクトに見られるL型-多元宇宙判定機構や宇宙高度検索機能、慣性系適応能力を有していません。そのため特殊な対策なしに手順/SCP-2360-JP##blue|-α##を実行した場合の生還はほぼ不可能であり、民間人により実行された手順/SCP-2360-JP##blue|-α##は実行者の死亡により終了できなくなっていると考えられています。そのため放射能汚染や異世界実体の侵入による危険はないと判断され、収容中のカゴは低危険度異常物品収容コンテナに再移送されました。　　
 
 ##blue|**補遺1:** SCP-2360-JPを利用した多元宇宙探索の提言について##
@@ -441,35 +441,35 @@ SCP-2360-JPは財団による空間構造地図化技術開発により発見さ
 name=http://scp-jp-storage.wikidot.com/local--files/file:7664517-8-9x4k/E898DBCA-53C2-441D-8BDB-F286ED02F79D.jpeg
 |caption= エレベーター部門徽章
 |align=center]]
- 
+ 
 ##blue|エレベーター関連技術による多大な利益、そしてさらなる成長への見込みから、エレベーター関連技術専門の部門が2030年に設立されました。エレベーター部門の活動は主にエレベーターの研究、利用、発展を軸として展開されることが決定されました。以降エレベーター応用研究はエレベーター部門の管轄下に置かれ、多元宇宙探索は多元宇宙部門と、物理学研究は素粒子物理学部門及び宇宙物理学部門との共同で行われています。##
 
 ##blue|以下はエレベーター部門の現在の主な業務の一例です。##
 * ##blue|SCP-2360-JPの異常性発現の対象となるエレベーターの条件の定義の研究。現在判明していることとして、##
- * ##blue|人間を輸送することを目的に作られている##
- * ##blue|動く##
- * ##blue|ボタンがある##
- * ##blue|人間の意志で移動方向を変えられる機構を有する ##
- * ##blue|生きていない##
- * ##blue|死んでいない##
- * ##blue|エレベーターである（これがどのようなことを意味するのかは研究中）##
- * ##blue|エスカレーターではない##
- * ##blue|動く歩道ではない##
- * ##blue|電車ではない##
- * ##blue|車ではない##
- * ##blue|人ではない##
- * ##blue|物理的に存在している##
+ * ##blue|人間を輸送することを目的に作られている##
+ * ##blue|動く##
+ * ##blue|ボタンがある##
+ * ##blue|人間の意志で移動方向を変えられる機構を有する ##
+ * ##blue|生きていない##
+ * ##blue|死んでいない##
+ * ##blue|エレベーターである（これがどのようなことを意味するのかは研究中）##
+ * ##blue|エスカレーターではない##
+ * ##blue|動く歩道ではない##
+ * ##blue|電車ではない##
+ * ##blue|車ではない##
+ * ##blue|人ではない##
+ * ##blue|物理的に存在している##
 　　##blue|　　　などの条件が判明している。##
 
 * ##blue|手順/SCP-2360-JP-αにおける「〜階」の定義の研究。現在判明していることとして、##
- * ##blue|地面に最も近い地上にある階層が1階となる。##
- * ##blue|海上にある建物のエレベーターの場合、海抜0メートル地点に最も近い階層が1階となる。##
- * ##blue|エレベーター移動中に地面の高さを変えた場合、エレベーターが到着した瞬間にその階が何階になっていたかが基準となる。##
- * ##blue|無重力下など、建物が地面に接していない場合も最も地面に近い階層が1階となる。この時すべての階層が地面と同距離にあった場合は全ての階が1階となる。##
- * ##blue|別宇宙など他の物体が一切存在しない条件下では、全ての階が「0階」となる。この現象については現在も研究中。##
+ * ##blue|地面に最も近い地上にある階層が1階となる。##
+ * ##blue|海上にある建物のエレベーターの場合、海抜0メートル地点に最も近い階層が1階となる。##
+ * ##blue|エレベーター移動中に地面の高さを変えた場合、エレベーターが到着した瞬間にその階が何階になっていたかが基準となる。##
+ * ##blue|無重力下など、建物が地面に接していない場合も最も地面に近い階層が1階となる。この時すべての階層が地面と同距離にあった場合は全ての階が1階となる。##
+ * ##blue|別宇宙など他の物体が一切存在しない条件下では、全ての階が「0階」となる。この現象については現在も研究中。##
 　　##blue|　　　などが判明している。現在、虚数空間では階がどう定義されるかの実験が予定されている。##
 
-* ##blue|さらなるエレベーターの小型化の研究。1ナノメートルにまで小型化に成功しており、現在1ピコメートルのエレベーターの作成と研究が進められている。  ##
+* ##blue|さらなるエレベーターの小型化の研究。1ナノメートルにまで小型化に成功しており、現在1ピコメートルのエレベーターの作成と研究が進められている。  ##
 
 * ##blue|手順/SCP-2360-JP-α実行中は破壊耐性がエレベーターに付与されることを利用した、エレベーターの防御壁・防護素材としての利用。##
 
@@ -478,7 +478,7 @@ name=http://scp-jp-storage.wikidot.com/local--files/file:7664517-8-9x4k/E898DBCA
 * ##blue|SCP-2360-JPの異常性の土台となるエレベーターをさらに発展させ、異常性をさらに活用していくため、一般企業と合同で宇宙エレベーターの開発を行っている。##
 
 
- 　
+ 　
 ##blue|**補遺3:** SCP-2360-JPを活用するための技術、及びSCP-2360-JPによる利益について##
 
 [[include component:image-block
@@ -575,10 +575,10 @@ Keterクラスオブジェクトの収容
 +++ {{超常現象記録2031/11/4概要}}
 [[/=]]
 
-> 2031/11/4 13:14 にアメリカ合衆国████州のビル内部において、財団保有重力波観測式監視カメラが局所的なクラスⅧ空間収斂および最大1.3m^^2^^の事象の地平面を観測した。発生から2.1秒後に異常現象は終了した。しかしながら、現象発生時ビル内に居た████  ██氏が行方不明になったこと以外に、その空間的異常から想定されるような被害は発生していなかった。
+> 2031/11/4 13:14 にアメリカ合衆国████州のビル内部において、財団保有重力波観測式監視カメラが局所的なクラスⅧ空間収斂および最大1.3m^^2^^の事象の地平面を観測した。発生から2.1秒後に異常現象は終了した。しかしながら、現象発生時ビル内に居た████  ██氏が行方不明になったこと以外に、その空間的異常から想定されるような被害は発生していなかった。
 [[/div]]
 
-##blue|当時は注目されていませんでしたが、現象の中心点にはエレベーターが存在していたことが後の調査で明らかにされており、超常現象記録2031/11/4はSCP-2360-JP-M内部の重力定数・光速度・宇宙のサイズ・膨張速度などの物理定数の差異により、SCP-2360-JP-M内部に流入した物質(████  ██氏の肉体や大気など)がブラックホール化したことによるものであると考えられています。また物理定数の偶然により、それがビッグクランチを発生させたことで、ポータルが短時間で強制的に遮断され大きな被害も発生しなかったのだと思われます。##
+##blue|当時は注目されていませんでしたが、現象の中心点にはエレベーターが存在していたことが後の調査で明らかにされており、超常現象記録2031/11/4はSCP-2360-JP-M内部の重力定数・光速度・宇宙のサイズ・膨張速度などの物理定数の差異により、SCP-2360-JP-M内部に流入した物質(████  ██氏の肉体や大気など)がブラックホール化したことによるものであると考えられています。また物理定数の偶然により、それがビッグクランチを発生させたことで、ポータルが短時間で強制的に遮断され大きな被害も発生しなかったのだと思われます。##
 
 ##blue|それにより、手順/SCP-2360-JPは手順/SCP-2360-JP-αとして再指定され、存在が予言されているもう一つの手段はSCP-2360-JP-βとして指定されました。 以下は手順/SCP-2360-JP-βについての説明です。##
 [[include component:image-block

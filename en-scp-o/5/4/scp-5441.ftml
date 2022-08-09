@@ -82,7 +82,7 @@ Off-camera, somebody forcefully opens the door.
 
 [[div style="background: #EEE; padding: 1px 15px; border: solid 3px white; margin: 10px; border-radius: 30px 15px;"]]
 = **MILTON**
-= Aaand that would be my... desk-mate.  
+= Aaand that would be my... desk-mate.  
 (beat)
 = Never a dull moment at Site-67.
 [[/div]]
@@ -829,23 +829,23 @@ SILVERHAMMER. what does it mean, dave?
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default: <YOUR ID>
- * type: text
- * rules:
-  * required: true
-  * maxLength:10
-  * minLength: 100
+ * title: ID
+ * default: <YOUR ID>
+ * type: text
+ * rules:
+  * required: true
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="#AAA (DUMMY)" button=""]]
 # affiliation
- * title: PASSWORD
- * default: ・・・・・・・・・
- * rules:
-  * required: true
-  * maxLength:10
-  * minLength: 100
+ * title: PASSWORD
+ * default: ・・・・・・・・・
+ * rules:
+  * required: true
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]
@@ -905,5 +905,5 @@ __FADE TO BLACK.__
 [[/div]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

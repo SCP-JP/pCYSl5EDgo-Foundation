@@ -3,19 +3,19 @@
 
 [[module CSS]]
 div#extra-div-1 {
-     width: 100%;
-     height: calc(100% - var(--final-header-height-on-desktop));
-     position: absolute;
-     top: calc(var(--final-header-height-on-desktop));
-     left: 0;
-     z-index: -1;
-     mask: var(--gradient-background);
-     -webkit-mask: var(--gradient-background);
-     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/1024px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg);
-     background-size: 100%, 80% var(--background-gradient-distance);
-     background-blend-mode: difference;
-     background-repeat: no-repeat, repeat-x;
-     pointer-events: none;
+     width: 100%;
+     height: calc(100% - var(--final-header-height-on-desktop));
+     position: absolute;
+     top: calc(var(--final-header-height-on-desktop));
+     left: 0;
+     z-index: -1;
+     mask: var(--gradient-background);
+     -webkit-mask: var(--gradient-background);
+     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/1024px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg);
+     background-size: 100%, 80% var(--background-gradient-distance);
+     background-blend-mode: difference;
+     background-repeat: no-repeat, repeat-x;
+     pointer-events: none;
 }
 [[/module]]
 

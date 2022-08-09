@@ -1,12 +1,12 @@
 [[module CSS]]
 @Media (max-width: 768px) {
-  .scp-image-block.block-right,
-  .scp-image-block.block-left {
-    float: none;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  .scp-image-block.block-right,
+  .scp-image-block.block-left {
+    float: none;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 [[/module]]
 [[include credit:start]]
@@ -137,26 +137,26 @@ __**SCP-1643-JP観察ログ例:**__ 全ログは研究本部サーバーに保�
 [[/div]]
 [!-- module css --]
 [[module css]]
- 
+ 
 .flieNav .yui-navset .yui-nav > li > a em:before{
- content:"";
-    /*font-awesome fa*/
-    font:normal normal normal 14px/1 FontAwesome;
-    transform:translate(0, 0);
-    display:inline-block;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
- 
+ content:"";
+    /*font-awesome fa*/
+    font:normal normal normal 14px/1 FontAwesome;
+    transform:translate(0, 0);
+    display:inline-block;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+ 
 }
 .flieNav .yui-navset .yui-nav > li > a em:before{
-    /*folder*/
-    content:"\f07b";
+    /*folder*/
+    content:"\f07b";
 }
 .flieNav .yui-navset .yui-nav > .selected > a em:before{
-    /*folder-open*/
-    content:"\f07c";
+    /*folder-open*/
+    content:"\f07c";
 }
- 
+ 
 [[/module]]
 
 **追記・新資料について:** 2018/█/██、パリ市のマザラン図書館より、ヴェルサイユ宮殿の庭園の設計者であるル・ノートル[[footnote]]

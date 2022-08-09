@@ -2,30 +2,30 @@
 [[include :scp-wiki:component:pride-highlighter |inc-animp= --]]]
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 [[include :scp-wiki:component:info-ayers
@@ -72,8 +72,8 @@ Unauthorized access is forbidden.
 ]]
 ------
 [[include component:image-block
-    name=SCP-4541_image|
-    caption=SCP-4541-2 instances within SCP-4541-1.
+    name=SCP-4541_image|
+    caption=SCP-4541-2 instances within SCP-4541-1.
 ]]
 
 **Special Containment Procedures:** SCP-4541-1 is to be contained within a standard containment chamber. Retrieved SCP-4541-2 instances are to be contained in individual standard containment lockers that are to be monitored for any signs of resurgent anomalous activity. There is to be no further retrieval of SCP-4541-2 instances.
@@ -158,7 +158,7 @@ All personnel with knowledge of the investigation fail to remember the results a
 
 [[div style="background: white; padding: 1px 15px; border: solid 3px pink; margin: 10px; border-radius: 30px 15px;"]]
 [[=]]
-    ##red|File is missing or corrupted.##
+    ##red|File is missing or corrupted.##
 [[/=]]
 [[/div]]
 [[/div]]

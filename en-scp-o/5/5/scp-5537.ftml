@@ -5,16 +5,16 @@
 [[include :scp-wiki:component:rso]]
 [[module CSS]]
 sup {
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 :root {
-    --cutColour: #fafafa;
-    --barColour: #590505;
+    --cutColour: #fafafa;
+    --barColour: #590505;
 }
 a.collapsible-block-link {
-  font-weight: bold;
+  font-weight: bold;
 }
 .translation_block, .u-faq { display: none; }
 }
@@ -24,72 +24,72 @@ color: #fff;}
 color: #fff;
 }
 #page-title {
-    display: inline !important;
-    text-align: center;
+    display: inline !important;
+    text-align: center;
 }
- .scp-image-block > p {
-     margin: 0;
+ .scp-image-block > p {
+     margin: 0;
 }
- .scp-image-block .scp-image-caption > p {
-     margin: 0;
-     padding: 0 10px;
+ .scp-image-block .scp-image-caption > p {
+     margin: 0;
+     padding: 0 10px;
 }
 #page-content > .collapsible-block {
-    display: block;
-    text-align: center;
-    padding: 0.65em;
+    display: block;
+    text-align: center;
+    padding: 0.65em;
 }
 #page-content > .collapsible-block .collapsible-block-content {
-    text-align: left;
+    text-align: left;
 }
 .lie{
-     font-weight: bold;
-     font-family: monospace;
-     font-size: 140%;
+     font-weight: bold;
+     font-family: monospace;
+     font-size: 140%;
 }
 .list{
-    background: #f4f4f4;
-    padding: 0 1em;
+    background: #f4f4f4;
+    padding: 0 1em;
 }
 .info-container .collapsible-block-link,
 .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 @media (max-width: 2000px) {
-    .desktop-only {
-     display: none;
-     visibility: hidden;
+    .desktop-only {
+     display: none;
+     visibility: hidden;
 }
 div.info-container > div.collapsible-block {
-    padding: 0 !important;
-    margin: 0 !important;
-    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
 }
 .hover {
-    background-color: #88c2ff;
-    padding: 0 1px;
+    background-color: #88c2ff;
+    padding: 0 1px;
 }
 .hover:hover {
 }
-.hover span {    display: none;}
+.hover span {    display: none;}
 .hover:hover span {
-    position: absolute;
-    display: inline;
-    margin: 0px 0px;
-    height: auto;
-    width: auto;
-    background: #fff;
-    border: 2px solid rgb(var(--bright-accent));
-    color: rgb(var(--bright-accent));;
-    padding: 1em;
+    position: absolute;
+    display: inline;
+    margin: 0px 0px;
+    height: auto;
+    width: auto;
+    background: #fff;
+    border: 2px solid rgb(var(--bright-accent));
+    color: rgb(var(--bright-accent));;
+    padding: 1em;
 }
 .hover:hover span span {
-    position: relative;
-    margin: auto;
-    height: auto;
-    width: auto;
-    border: none;
-    padding: 0;
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
 }
 [[/module]]
 

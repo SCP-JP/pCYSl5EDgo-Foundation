@@ -1,13 +1,13 @@
 [[module CSS]]
- .report-box{ /* ---- Report Block ---- */
-     margin: 1em 0;
-     padding: 0 1em;
- 
-     background-color: hsl(0, 0%, 100%);
-     border: 2px solid hsl(0, 0%, 5%);
+ .report-box{ /* ---- Report Block ---- */
+     margin: 1em 0;
+     padding: 0 1em;
+ 
+     background-color: hsl(0, 0%, 100%);
+     border: 2px solid hsl(0, 0%, 5%);
 }
- .report-box hr{
-     background: hsl(0, 0%, 5%);
+ .report-box hr{
+     background: hsl(0, 0%, 5%);
 }
 [[/module]]
 

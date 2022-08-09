@@ -5,8 +5,8 @@
 .blinkbar {color: red;font-size:125%; animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
 
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 a.collapsible-block-link { font-weight: bold; }
@@ -106,11 +106,11 @@ High
 [[/table]]
 [[table style="width: 100%; border-top: 1px solid #666;"]]
 [[row]]
-[[cell style="border-right: 1px solid #666;  color: #573d57; text-align: right; vertical-align: top; width: 20%;"]]
+[[cell style="border-right: 1px solid #666;  color: #573d57; text-align: right; vertical-align: top; width: 20%;"]]
 **Description**
 [[/cell]]
 [[cell style="text-align: left; width: 80%;"]]
-Sold in 1-, 3-, or 7- litre crystalline decanters, the fluid is a dark scarlet reminiscent of old blood.  Grown with organic EVE, //Citrus Vitae// is all natural and contains 98% human DNA. Declared by even the harshest food critics as "the most delicious fruit on the planet"; people are literally dying to try it.
+Sold in 1-, 3-, or 7- litre crystalline decanters, the fluid is a dark scarlet reminiscent of old blood.  Grown with organic EVE, //Citrus Vitae// is all natural and contains 98% human DNA. Declared by even the harshest food critics as "the most delicious fruit on the planet"; people are literally dying to try it.
 [[/cell]]
 [[/row]]
 [[/table]]
@@ -171,7 +171,7 @@ When Peterson first suggested that I travel with him to some old backwater orang
 
 I could not possibly have been more wrong. It seems as though the family that owned the place had fallen onto some hard times, what with the global recession and all. They were desperately attempting to revitalize their product, and revitalize they sure did. In a very literal way.
 
-Imagine my surprise when I showed up there and my Kant meter started going off like a Geiger at Chernobyl.  Apparently they'd gotten some old mystic to come down out of the mountains and set up some sort of ritual that siphoned EVE out of a couple of poor schmucks and were pouring it straight into the trees. The process was horribly inefficient, and they were running through the local homeless population fairly quickly. 
+Imagine my surprise when I showed up there and my Kant meter started going off like a Geiger at Chernobyl.  Apparently they'd gotten some old mystic to come down out of the mountains and set up some sort of ritual that siphoned EVE out of a couple of poor schmucks and were pouring it straight into the trees. The process was horribly inefficient, and they were running through the local homeless population fairly quickly. 
 
 Even so, the product they were producing was fucking delicious. When Peterson had me try that diluted sample back in Caracas, I was interested enough to come all the way the fuck out here. Now that I've gotten a good look at the operation and tasted the real thing? I think we can streamline the whole thing a great deal and get something that will really work.
 
@@ -516,7 +516,7 @@ Bank of Paraguay
 [[cell style="width: 10%; border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 10/24/2013
 [[/cell]]
-[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
+[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 Utilized assets within the Bank of Paraguay to seize the property in La Colmena, Paraguay.
 [[/cell]]
 [[/row]]
@@ -540,7 +540,7 @@ MCD Property Holding Group
 [[cell style="width: 10%; border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 10/30/2013
 [[/cell]]
-[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
+[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 Property surveyed. Thaumaturgic Engineer B. Alguera assigned to retrofit & transplantation project.
 [[/cell]]
 [[/row]]
@@ -565,7 +565,7 @@ B. Alguera
 [[cell style="width: 10%; border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 12/06/2013
 [[/cell]]
-[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
+[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 Initial progress promising. EVE engine redesign functioning within expected parameters. Direct transplant process successful. Graft specimens incompatible with Florida local species.
 [[/cell]]
 [[/row]]
@@ -590,7 +590,7 @@ Eleazar Farms, Limited
 [[cell style="width: 10%; border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 06/23/2014
 [[/cell]]
-[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
+[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 Assets shifted to MCD subsidiary. Initial operational phase complete. 
 [[/cell]]
 [[/row]]
@@ -614,7 +614,7 @@ Eleazar Farms, Limited
 [[cell style="width: 10%; border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 02/14/2015
 [[/cell]]
-[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
+[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 First seasonal output at 117% projected output. 2193.75 litres extracted. 
 [[/cell]]
 [[/row]]
@@ -638,7 +638,7 @@ Eleazar Farms, Limited
 [[cell style="width: 10%; border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 04/2/2015
 [[/cell]]
-[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
+[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 Exploration into utilizing graft experiments to expand production initiated. Thaum. Eng. Alguera to resign, effective immediately. Cites irregularities in experimentation process & instability of the local species post-grafting. Thaum. Eng. Matherson assigned to graft project.
 [[/cell]]
 [[/row]]
@@ -662,7 +662,7 @@ Marshall, Carter, & Dark, LLP
 [[cell style="width: 10%; border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 04/15/2016
 [[/cell]]
-[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
+[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 Second seasonal sales met expectations. 1,785 units sold at average price of 7,255 USD (5,918 GBP) per unit with 611 buyers.
 [[/cell]]
 [[/row]]
@@ -686,7 +686,7 @@ Eleazar Farms, Limited
 [[cell style="width: 10%; border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 12/01/2016 
 [[/cell]]
-[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
+[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 Graft procedure failure imminent. Spliced trees do not produce fruit despite forced growth procedures. T.E. Matherson unable to provide adequate explanation. Projected output for third season reduced to 1,875 litres
 [[/cell]]
 [[/row]]
@@ -710,7 +710,7 @@ Eleazar Farms, Limited
 [[cell style="width: 10%; border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 01/02/2017
 [[/cell]]
-[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
+[[cell style="width: 75%;  border-right: 1px solid #666; text-align: left; vertical-align: top;"]]
 Isolation procedures inadequate to prevent further spread of containment. Cascade failure discovered in remaining EVE transfer engines. T.E. Matherson's methods have been declared to be at fault and Matherson has been permanently dismissed. S. Eleazar has been recalled, F. Gibbons has been assigned to liquidate subsidiary assets. Projected output for third season reduced to 0 litres.
 [[/cell]]
 [[/row]]
@@ -823,7 +823,7 @@ The Foundation's initial investigation revealed over 50 unexplained disappearanc
 ++++ **__Recovery__**
 After visually confirming the SCP-4639 contamination in the city of Arcadia, Mobile Task Force Epsilon-30 ("Damned Druids") were dispatched to contain and neutralize SCP-4639. Cover Story FF51 (Infectious Disease Outbreak) was enacted and all civilians were placed on quarantine during the operation. 
 
-On 2017/03/20, MTF ∑-30 confirmed a complete neutralization of all non-contained SCP-4639 instances. This came at a direct detriment to Arcadia's local ecosystem as over 13.20 km^^2^^ of land was rendered nearly barren. A disinformation campaign is currently underway. Foundation front company Synergy Community Project is currently lending aid to the municipality of Arcadia, in order to  restore the community's normalcy. A detachment of the Foundation's Florakinetic Department will remain in Arcadia to facilitate a two-year regrowth operation to restore the area's pre-SCP-4639 ecosystem.
+On 2017/03/20, MTF ∑-30 confirmed a complete neutralization of all non-contained SCP-4639 instances. This came at a direct detriment to Arcadia's local ecosystem as over 13.20 km^^2^^ of land was rendered nearly barren. A disinformation campaign is currently underway. Foundation front company Synergy Community Project is currently lending aid to the municipality of Arcadia, in order to  restore the community's normalcy. A detachment of the Foundation's Florakinetic Department will remain in Arcadia to facilitate a two-year regrowth operation to restore the area's pre-SCP-4639 ecosystem.
 
 A total of 46 samples, 10 SCP-4639-A instances and 1 juvenile SCP-4639 were recovered for containment.
 [[/div]]
@@ -880,7 +880,7 @@ On 2017/05/03, human subject D-52110, was fed one fully ripened SCP-4639 fruit b
 > 
 > **20:00:** D-52110 squats down as if to defecate, a mass is seen moving under its skin as it begins to strain. Shifting to the left side of the subject's abdomen, the mass of tendrils rip through the skin; blood, pulp, and viscera spray the one-way mirror. The subject's fatty tissue has been fully converted into endocarp and oil sacs. D-52110 remains in the squatting position for 1 hour, occasionally vocalizing croaking sounds.
 > 
-> **21:00:**  D-52110 screams, blood and a viscous orange fluid spray from his mouth. Subject vocalizes "Kill me" before screaming again. A second mass of tendrils bursts from his right eye. As the subject continues to strain a large orange rips through its anus, before falling to the ground. A large tendril slides from D-52110's now prolapsed anus. 
+> **21:00:**  D-52110 screams, blood and a viscous orange fluid spray from his mouth. Subject vocalizes "Kill me" before screaming again. A second mass of tendrils bursts from his right eye. As the subject continues to strain a large orange rips through its anus, before falling to the ground. A large tendril slides from D-52110's now prolapsed anus. 
 > 
 > **22:00:** D-52110's has become an SCP-4639-A instance and is designated SCP-4639-A/0.
 [[/collapsible]]

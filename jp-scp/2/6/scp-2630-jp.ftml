@@ -7,76 +7,76 @@
 [!-- 恐らくこちらは図が使われていない為に表示のズレがある程度で抑えられていると思われます。図さえ無ければ改行の高が知れている為です。 --]
 [[module css]]
 .acs-text {
-    display: grid;
-    grid-template-areas:
-        "item item clear"
-        "contain disrupt disrupt"
-        "contain risk risk";
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 25% 1fr 1fr;
-    grid-gap: 0.125rem;
-    width: 100%;
-    height: 6.5rem;
-    background-color: rgb(var(--black-monochrome, 12, 12, 12));
-    line-height: 1;
-    position: relative;
+    display: grid;
+    grid-template-areas:
+        "item item clear"
+        "contain disrupt disrupt"
+        "contain risk risk";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 25% 1fr 1fr;
+    grid-gap: 0.125rem;
+    width: 100%;
+    height: 6.5rem;
+    background-color: rgb(var(--black-monochrome, 12, 12, 12));
+    line-height: 1;
+    position: relative;
 }
 
 .acs-text > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: rgb(0,0,0,0);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(0,0,0,0);
 }
 
 @media (max-width: 500px ) {
-    .acs-text {
-        grid-template-areas:
-            "item item clear"
-            "contain contain contain"
-            "disrupt disrupt disrupt"
-            "risk risk risk";
-        grid-template-rows: 2fr 2fr 1fr 1fr;
-        height: 10rem;
-        max-height: 50vh;
-    }
+    .acs-text {
+        grid-template-areas:
+            "item item clear"
+            "contain contain contain"
+            "disrupt disrupt disrupt"
+            "risk risk risk";
+        grid-template-rows: 2fr 2fr 1fr 1fr;
+        height: 10rem;
+        max-height: 50vh;
+    }
 }
 
 .acs-text > div {
-    background-color: rgb(var(--white-monochrome, 252, 252, 252));
-    padding: 0.25rem;
-    display: flex;
-    align-items: center;
+    background-color: rgb(var(--white-monochrome, 252, 252, 252));
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
 }
 
 .acs-text > div strong {
-    margin-right: 0.25rem;
+    margin-right: 0.25rem;
 }
 
 .acs-text > .acs-text-item {
-    grid-area: item;
-    font-size: 1.5em;
+    grid-area: item;
+    font-size: 1.5em;
 }
 
 .acs-text > .acs-text-clear {
-    grid-area: clear;
-    font-size: 1.25em;
+    grid-area: clear;
+    font-size: 1.25em;
 }
 
 .acs-text > .acs-text-contain {
-    grid-area: contain;
-    font-size: 1.25em;
+    grid-area: contain;
+    font-size: 1.25em;
 }
 
 .acs-text > .acs-text-disrupt {
-    grid-area: disrupt;
+    grid-area: disrupt;
 }
 
 .acs-text > .acs-text-risk {
-    grid-area: risk;
+    grid-area: risk;
 }
 [[/module]]
 [!-- ここからアノマリー分類システム（ハイブリッド）の為のモジュール。 --]
@@ -84,221 +84,221 @@
 [!-- オリジナルから多少弄っています。具体的には収容クラスEuclid、攪乱クラスValm以外を指定した時に背景色がマトモに表示されない不具合を修正、重複した不要な項目を削除、クリアランスのフォントサイズを1.25から1.2に変更しTop-Secretと表示した時改行され表示が狂う不具合を修正。最上位クリアランスには未対応。 --]
 [[module css]]
 :root {
-    --five-color: 196,2,51;
-    --four-color: 255,109,0;
-    --three-color: 255,211,0;
-    --two-color: 0,135,189;
-    --one-color: 0,159,107;
+    --five-color: 196,2,51;
+    --four-color: 255,109,0;
+    --three-color: 255,211,0;
+    --two-color: 0,135,189;
+    --one-color: 0,159,107;
 }
 
 .acs-hybrid {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas:
-        "item item clear"
-        "contain disrupt disrupt"
-        "contain risk risk";
-    -ms-grid-rows: 1fr 0.125rem 1fr 0.125rem 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    -ms-grid-columns: 25% 0.125rem 1fr 0.125rem 1fr;
-    grid-template-columns: 25% 1fr 1fr;
-    grid-gap: 0.125rem;
-    width: 100%;
-    height: 6.5rem;
-    background-color: rgb(var(--black-monochrome, 12, 12, 12));
-    position: relative;
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas:
+        "item item clear"
+        "contain disrupt disrupt"
+        "contain risk risk";
+    -ms-grid-rows: 1fr 0.125rem 1fr 0.125rem 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    -ms-grid-columns: 25% 0.125rem 1fr 0.125rem 1fr;
+    grid-template-columns: 25% 1fr 1fr;
+    grid-gap: 0.125rem;
+    width: 100%;
+    height: 6.5rem;
+    background-color: rgb(var(--black-monochrome, 12, 12, 12));
+    position: relative;
 }
 
 .acs-hybrid > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: rgb(0,0,0,0);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(0,0,0,0);
 }
 
 @media (max-width: 500px ) {
-    .acs-hybrid {
-        grid-template-areas:
-            "item item clear"
-            "contain contain contain"
-            "disrupt disrupt disrupt"
-            "risk risk risk";
-        grid-template-rows: 2fr 2fr 1fr 1fr;
-        height: 10rem;
-        max-height: 50vh;
-    }
+    .acs-hybrid {
+        grid-template-areas:
+            "item item clear"
+            "contain contain contain"
+            "disrupt disrupt disrupt"
+            "risk risk risk";
+        grid-template-rows: 2fr 2fr 1fr 1fr;
+        height: 10rem;
+        max-height: 50vh;
+    }
 }
 
 .acs-hybrid > div {
-    background-color: rgb(var(--white-monochrome, 252, 252, 252));
-    padding: 0.25rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    background-color: rgb(var(--white-monochrome, 252, 252, 252));
+    padding: 0.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .acs-hybrid > div strong {
-    margin-right: 0.25rem;
+    margin-right: 0.25rem;
 }
 
 .acs-hybrid > div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
 }
 
 .acs-hybrid > div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
 }
 
 .acs-hybrid .acs-hybrid-icon {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-left: 0.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0.25rem;
 }
 
 .acs-hybrid .acs-hybrid-icon img {
-    border-radius: 50%;
-    border: 0.125rem solid rgb(var(--black-monochrome,12,12,12));
+    border-radius: 50%;
+    border: 0.125rem solid rgb(var(--black-monochrome,12,12,12));
 }
 
 .acs-hybrid > .acs-hybrid-contain .acs-hybrid-icon {
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 
 .acs-hybrid > .acs-hybrid-disrupt .acs-hybrid-icon,
 .acs-hybrid > .acs-hybrid-risk .acs-hybrid-icon {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .acs-hybrid > .acs-hybrid-item {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
-    grid-area: item;
-    font-size: 1.5em;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: item;
+    font-size: 1.5em;
 }
 
 .acs-hybrid > .acs-hybrid-clear {
-    -ms-grid-row: 1;
-    -ms-grid-column: 5;
-    grid-area: clear;
-    font-size: 1.2em;
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+    grid-area: clear;
+    font-size: 1.2em;
 }
 
 .acs-hybrid > .acs-hybrid-clear.acs-clear-1 {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
-    padding-left: 0.5em;
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+    padding-left: 0.5em;
 }
 
 .acs-hybrid > .acs-hybrid-clear.acs-clear-2 {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
-    padding-left: 0.5em;
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+    padding-left: 0.5em;
 }
 
 .acs-hybrid > .acs-hybrid-clear.acs-clear-3 {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
-    padding-left: 0.5em;
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+    padding-left: 0.5em;
 }
 
 .acs-hybrid > .acs-hybrid-clear.acs-clear-4 {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
-    padding-left: 0.5em;
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+    padding-left: 0.5em;
 }
 
 .acs-hybrid > .acs-hybrid-clear.acs-clear-5 {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
-    padding-left: 0.5em;
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+    padding-left: 0.5em;
 }
 
 .acs-hybrid > .acs-hybrid-contain {
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 3;
-    -ms-grid-column: 1;
-    grid-area: contain;
-    font-size: 1.25em;
-    padding-left: 0.75em;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    grid-area: contain;
+    font-size: 1.25em;
+    padding-left: 0.75em;
 }
 
 .acs-hybrid > .acs-hybrid-contain.acs-neutralized,
 .acs-hybrid > .acs-hybrid-contain.acs-esoteric {
-    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--gray-monochrome, 66, 66, 72),0.15);
-            box-shadow: inset 0.5rem 0 0 0 rgba(var(--gray-monochrome, 66, 66, 72),0.15);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--gray-monochrome, 66, 66, 72),0.15);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--gray-monochrome, 66, 66, 72),0.15);
 }
 
 .acs-hybrid > .acs-hybrid-contain.acs-pending {
-    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--white-monochrome, 12, 12, 12));
-            box-shadow: inset 0.5rem 0 0 0 rgb(var(--white-monochrome, 12, 12, 12));
-    background-color: rgb(var(--black-monochrome, 12, 12, 12));
-    color: rgb(var(--white-monochrome, 252, 252, 252));
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--white-monochrome, 12, 12, 12));
+            box-shadow: inset 0.5rem 0 0 0 rgb(var(--white-monochrome, 12, 12, 12));
+    background-color: rgb(var(--black-monochrome, 12, 12, 12));
+    color: rgb(var(--white-monochrome, 252, 252, 252));
 }
 
 .acs-hybrid > .acs-hybrid-contain.acs-explained {
-    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--black-monochrome, 12, 12, 12));
-            box-shadow: inset 0.5rem 0 0 0 rgb(var(--black-monochrome, 12, 12, 12));
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--black-monochrome, 12, 12, 12));
+            box-shadow: inset 0.5rem 0 0 0 rgb(var(--black-monochrome, 12, 12, 12));
 }
 
 .acs-hybrid > .acs-hybrid-contain.acs-safe {
-    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--one-color));
-            box-shadow: inset 0.5rem 0 0 0 rgb(var(--one-color));
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--one-color));
+            box-shadow: inset 0.5rem 0 0 0 rgb(var(--one-color));
 }
 
 .acs-hybrid > .acs-hybrid-contain.acs-euclid {
-    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--three-color));
-            box-shadow: inset 0.5rem 0 0 0 rgb(var(--three-color));
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--three-color));
+            box-shadow: inset 0.5rem 0 0 0 rgb(var(--three-color));
 }
 
 .acs-hybrid > .acs-hybrid-contain.acs-keter {
-    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--five-color));
-            box-shadow: inset 0.5rem 0 0 0 rgb(var(--five-color));
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgb(var(--five-color));
+            box-shadow: inset 0.5rem 0 0 0 rgb(var(--five-color));
 }
 
 .acs-hybrid > .acs-hybrid-contain.acs-euclid img {
-    background-color: rgb(var(--three-color));
+    background-color: rgb(var(--three-color));
 }
 
 .acs-hybrid > .acs-hybrid-contain.acs-safe img {
-    background-color: rgb(var(--one-color));
+    background-color: rgb(var(--one-color));
 }
 
 
 .acs-hybrid > .acs-hybrid-disrupt {
-    -ms-grid-row: 3;
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 3;
-    grid-area: disrupt;
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
+    grid-area: disrupt;
 }
 
 .acs-hybrid > .acs-hybrid-disrupt.acs-dark,
@@ -306,60 +306,60 @@
 .acs-hybrid > .acs-hybrid-disrupt.acs-keneq,
 .acs-hybrid > .acs-hybrid-disrupt.acs-ekhi,
 .acs-hybrid > .acs-hybrid-disrupt.acs-amida, {
-    padding-left: 0.5em;
+    padding-left: 0.5em;
 }
 
 .acs-hybrid > .acs-hybrid-disrupt.acs-dark {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
 }
 
 .acs-hybrid > .acs-hybrid-disrupt.acs-dark img {
-    background-color: rgb(var(--one-color));
+    background-color: rgb(var(--one-color));
 }
 
 .acs-hybrid > .acs-hybrid-disrupt.acs-vlam {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
 }
 
 .acs-hybrid > .acs-hybrid-disrupt.acs-vlam img {
-    background-color: rgb(var(--two-color));
+    background-color: rgb(var(--two-color));
 }
 
 .acs-hybrid > .acs-hybrid-disrupt.acs-keneq {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
 }
 
 .acs-hybrid > .acs-hybrid-disrupt.acs-keneq img {
-    background-color: rgb(var(--three-color));
+    background-color: rgb(var(--three-color));
 }
 
 .acs-hybrid > .acs-hybrid-disrupt.acs-ekhi {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
 }
 
 .acs-hybrid > .acs-hybrid-disrupt.acs-ekhi img {
-    background-color: rgb(var(--four-color));
+    background-color: rgb(var(--four-color));
 }
 
 .acs-hybrid > .acs-hybrid-disrupt.acs-amida {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
 }
 
 .acs-hybrid > .acs-hybrid-disrupt.acs-amida img {
-    background-color: rgb(var(--five-color));
+    background-color: rgb(var(--five-color));
 }
 
 .acs-text > .acs-text-risk,
 .acs-hybrid > .acs-hybrid-risk {
-    -ms-grid-row: 5;
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 3;
-    grid-area: risk;
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
+    grid-area: risk;
 }
 
 .acs-hybrid > .acs-hybrid-risk.acs-notice,
@@ -367,81 +367,81 @@
 .acs-hybrid > .acs-hybrid-risk.acs-warning,
 .acs-hybrid > .acs-hybrid-risk.acs-danger,
 .acs-hybrid > .acs-hybrid-risk.acs-critical {
-    padding-left: 0.5em;
+    padding-left: 0.5em;
 }
 
 .acs-hybrid > .acs-hybrid-risk.acs-notice {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--one-color));
 }
 
 .acs-hybrid > .acs-hybrid-risk.acs-notice img {
-    background-color: rgb(var(--one-color));
+    background-color: rgb(var(--one-color));
 }
 
 .acs-hybrid > .acs-hybrid-risk.acs-caution {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--two-color));
 }
 
 .acs-hybrid > .acs-hybrid-risk.acs-caution img {
-    background-color: rgb(var(--two-color));
+    background-color: rgb(var(--two-color));
 }
 
 .acs-hybrid > .acs-hybrid-risk.acs-warning {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--three-color));
 }
 
 .acs-hybrid > .acs-hybrid-risk.acs-warning img {
-    background-color: rgb(var(--three-color));
+    background-color: rgb(var(--three-color));
 }
 
 .acs-hybrid > .acs-hybrid-risk.acs-danger {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--four-color));
 }
 
 .acs-hybrid > .acs-hybrid-risk.acs-danger img {
-    background-color: rgb(var(--four-color));
+    background-color: rgb(var(--four-color));
 }
 
 .acs-hybrid > .acs-hybrid-risk.acs-critical {
-    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
-            box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+    -webkit-box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
+            box-shadow: inset 0.25rem 0 0 0 rgb(var(--five-color));
 }
 
 .acs-hybrid > .acs-hybrid-risk.acs-critical img {
-    background-color: rgb(var(--five-color));
+    background-color: rgb(var(--five-color));
 }
 [[/module]]
 [!-- ここからノートの為のモジュール。 --]
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 2px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 2px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 [!-- ここからクレジット。 --]
@@ -458,8 +458,8 @@
 +* BY ORDER OF THE BOARD OF DIRECTORS
 [[/div]]
 [[div class="orderdescription"]]
- _
- _
+ _
+ _
 The following files are classified as several levels;
 the viewing authority is divided into multiple parts
 and individually classified for each clearance.
@@ -695,7 +695,7 @@ SCP-2630-JP-1は蒐集院によって管理されており、財団日本支部�
 
 SCP-2630-JP-1の周囲533.5km以内に他のSCP-2630-JP-A(以下"1-対象")が存在する時、SCP-2630-JP-1と1-対象の距離に応じて異常性が発現します。
 [!-- ここからSCP-2630-JP-1異常性テーブル。 --]
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
 距離
@@ -1797,13 +1797,13 @@ SCP-2630-JP-9-Bは[[span class="ruby"]]日奉榊[[span class="rt"]]いざなぎ 
 **付記:** 以下、確認されたSCP-2630-JP-9-Aの内、考古資料に記録された名称と同定された個体の一部です。国津神、祟り神及び妖怪として記録されている個体が多い一方、特筆すべき点として、一部北海道に伝承されるカムイや沖縄に伝承される神性が含まれています。更なる情報は##BB0011|映像記録SCP-2630-JP-9-α-神格同定作業済##を参照して下さい。
 
 * 手長 _
- 各地に伝承される土着神・妖怪であり、足長と対を成す。[[span class="ruby"]]御社宮司[[span class="rt"]]みしゃぐじ[[/span]][[/span]]様と同じ文脈で言及される際にはその配下であるとされる。映像中では足長に担がれた、極度に腕の長い人型実体として映っている。
+ 各地に伝承される土着神・妖怪であり、足長と対を成す。[[span class="ruby"]]御社宮司[[span class="rt"]]みしゃぐじ[[/span]][[/span]]様と同じ文脈で言及される際にはその配下であるとされる。映像中では足長に担がれた、極度に腕の長い人型実体として映っている。
 * 足長 _
- 各地に伝承される土着神・妖怪であり、手長と対を成す。御社宮司様と同じ文脈で言及される際にはその配下であるとされる。映像中では手長を担ぐ、極度に脚の長い人型実体として映っている。
+ 各地に伝承される土着神・妖怪であり、手長と対を成す。御社宮司様と同じ文脈で言及される際にはその配下であるとされる。映像中では手長を担ぐ、極度に脚の長い人型実体として映っている。
 * 山本五郎左衛門 _
- 広島県に伝承される妖怪であり、多数の妖怪を従える魔王とされる。映像中では体毛に包まれた巨大な人型実体が裃を着用する男性に変化する瞬間が捉えられている。
+ 広島県に伝承される妖怪であり、多数の妖怪を従える魔王とされる。映像中では体毛に包まれた巨大な人型実体が裃を着用する男性に変化する瞬間が捉えられている。
 * ラプシヌプルクル _
- アイヌ伝承中、日高西部湖沼や洞爺湖に住む蛇神或いは亀神であり、悪臭を放つ守り神とされる。また巫女の力を司るともされる。Eg.守屋によると、悪臭はしなかった。
+ アイヌ伝承中、日高西部湖沼や洞爺湖に住む蛇神或いは亀神であり、悪臭を放つ守り神とされる。また巫女の力を司るともされる。Eg.守屋によると、悪臭はしなかった。
 
 [[/div]]
 
@@ -2014,13 +2014,13 @@ SCP-2630-JP-##white|10##に印を押された物体(以下"10-対象")は反ミ�
 -----
 原因調査は打ち切られましたが、カルテ消失の原因は不明です。以下、否定されなかった可能性です。
 * システム上のサーバエラー _
- 関連部門は可能性は低いとしていますが、発生していないと断言するに足る根拠は確認されていない様です。
+ 関連部門は可能性は低いとしていますが、発生していないと断言するに足る根拠は確認されていない様です。
 * 内部の人間による意図的な削除 _
- 余り考えたくは無いですが、ある程度の心得があれば可能です。
+ 余り考えたくは無いですが、ある程度の心得があれば可能です。
 * 現実改変 _
- 比較的可能性が高いです。プログラム削除程度の小規模な改変ならば、あくまで機能の遠隔不正操作で済みますから、痕跡を検出出来ない可能性もあります。
+ 比較的可能性が高いです。プログラム削除程度の小規模な改変ならば、あくまで機能の遠隔不正操作で済みますから、痕跡を検出出来ない可能性もあります。
 * 因果改変 _
- 部分的な過去改変が行われた可能性があります。私自身を含め、複数名のEg.守屋に関する記憶が一部曖昧になっています。完全な消滅を免れているのは、記憶補強の賜物でしょうか。しかし、他の記憶処理の副作用即ち薬剤性健忘や心因性健忘、煩忙を原因とするただの記銘ミスとの判別が出来ない為確認は不可能です。
+ 部分的な過去改変が行われた可能性があります。私自身を含め、複数名のEg.守屋に関する記憶が一部曖昧になっています。完全な消滅を免れているのは、記憶補強の賜物でしょうか。しかし、他の記憶処理の副作用即ち薬剤性健忘や心因性健忘、煩忙を原因とするただの記銘ミスとの判別が出来ない為確認は不可能です。
 私の記憶ですが、探査以降彼女の精神状態は非常に微弱な変化を見せていました。拡散気味であった自己同一性獲得の兆候、解決者としてのアイデンティティ獲得の兆候等々、言い換えれば"やる気が出て来た"状態です。当初は単独での特殊な探索に駆り出された事に端を発する、自己の職務の再確認であると判断していました。財団に対する忠誠度が全く低下していなかった事も、問題であると捉えなかった理由です。
 急激な変化が訪れたのは行方不明となる二日前です。自己同一性の急激な崩壊を始めとする複数の変化が確認されました。前日に児童の終了を含む業務に携わっており、同様の経験をした者にはよくある症状です。財団への忠誠度及び業務への忠実性に変化は無かった為、特異な症状、緊急の措置を要する症状では無いと判断し次回カウンセリングまでの休養を言い渡しました。
 この様な状況になった事は誠に遺憾であり、またもし誤診であったとすれば財団に大変な損害を齎す可能性のあるミスであり、いずれ決定されるであろう処分に従う所存です
@@ -2045,24 +2045,24 @@ SCP-2630-JP-A群の内5品以上を同一人物(以下"所有者")が所有し�
 -----
 **概要:** 乗っ取りイベントは4段階に分類されます。
 # 初期段階 _
- 所有者がSCP-2630-JP-Aを5品所有した時初期段階に移行します。 _
- 所有者が「SCP-2630-JP-Aは素晴らしい物である」と言うミームに感染、全SCP-2630-JP-Aの収集を開始します。尚乗っ取りイベントに関する知識を持つ場合にもこのミームは効力を発揮します。 _
- @@ @@
+ 所有者がSCP-2630-JP-Aを5品所有した時初期段階に移行します。 _
+ 所有者が「SCP-2630-JP-Aは素晴らしい物である」と言うミームに感染、全SCP-2630-JP-Aの収集を開始します。尚乗っ取りイベントに関する知識を持つ場合にもこのミームは効力を発揮します。 _
+ @@ @@
 # 第二段階 _
- 所有者がSCP-2630-JP-Aを6品所有した時第二段階に移行します。 _
- 所有者のSCP-2630-JP-A収集欲が義務感へと変化、当人の主義信条に関わらず収集に際し武力行使を含むあらゆる手段をも厭わなくなります。 _
- 正体不明の人格(以下"人格")が所有者の意識に混入し、平常時の所有者と異なる口調で会話する、通常行わないであろう行動に出る、所有者自身を一人称では無く三人称で示す等の変化が現れます。 _
- @@ @@
+ 所有者がSCP-2630-JP-Aを6品所有した時第二段階に移行します。 _
+ 所有者のSCP-2630-JP-A収集欲が義務感へと変化、当人の主義信条に関わらず収集に際し武力行使を含むあらゆる手段をも厭わなくなります。 _
+ 正体不明の人格(以下"人格")が所有者の意識に混入し、平常時の所有者と異なる口調で会話する、通常行わないであろう行動に出る、所有者自身を一人称では無く三人称で示す等の変化が現れます。 _
+ @@ @@
 # 第三段階 _
- 所有者がSCP-2630-JP-Aを8品所有した時第三段階に移行します。 _
- 所有者の意識が完全に人格と同化、人格の影響が大きくなります。この時所有者の意識も残っており、人格による意思決定に所有者の主義信条が色濃く反映されている事に留意が必要です。 _
- SCP-2630-JP-A同士の距離に関わらず、クラスD霊体波の放出によるSCP-2863の活性化及び一部のSCP-1875-JP-2の先祖返りが発生します。 _
- 西日本を中心に軽度の現実性低下が観測されます。 _
- @@ @@
+ 所有者がSCP-2630-JP-Aを8品所有した時第三段階に移行します。 _
+ 所有者の意識が完全に人格と同化、人格の影響が大きくなります。この時所有者の意識も残っており、人格による意思決定に所有者の主義信条が色濃く反映されている事に留意が必要です。 _
+ SCP-2630-JP-A同士の距離に関わらず、クラスD霊体波の放出によるSCP-2863の活性化及び一部のSCP-1875-JP-2の先祖返りが発生します。 _
+ 西日本を中心に軽度の現実性低下が観測されます。 _
+ @@ @@
 # 第四段階 _
- 所有者がSCP-2630-JP-Aを9品所有した時第三段階に移行します。 _
- SCP-2630-JP-4及びSCP-2630-JP-5が京都市右京区太秦寺本堂、SCP-2630-JP-6が長野県伊那市守屋社里宮、SCP-2630-JP-9が長野県諏訪市諏訪神社本宮、残り全てのSCP-2630-JP-Aが奈良県天理市神宮外苑公園へと転移。転移先となる台座の出現と同時に付近のソメイヨシノ全てが生命活動を一時的に停止します。枯死では無い事に留意して下さい。 _
- 石上神宮本殿、斑鳩寺東院夢殿、太秦寺本堂、守屋社里宮、諏訪神社本宮に異常実体が出現します。
+ 所有者がSCP-2630-JP-Aを9品所有した時第三段階に移行します。 _
+ SCP-2630-JP-4及びSCP-2630-JP-5が京都市右京区太秦寺本堂、SCP-2630-JP-6が長野県伊那市守屋社里宮、SCP-2630-JP-9が長野県諏訪市諏訪神社本宮、残り全てのSCP-2630-JP-Aが奈良県天理市神宮外苑公園へと転移。転移先となる台座の出現と同時に付近のソメイヨシノ全てが生命活動を一時的に停止します。枯死では無い事に留意して下さい。 _
+ 石上神宮本殿、斑鳩寺東院夢殿、太秦寺本堂、守屋社里宮、諏訪神社本宮に異常実体が出現します。
 [[/div]]
 -----
 -----
@@ -2287,15 +2287,15 @@ SCP-2630-JPを人為的に発生させる事により、強大な異常に対抗
 
 トヨサトミミ計画は各SCP-2630-JP-A管理責任者6名以上が出席する会合により、4名以上の賛成を以て承認されます。欠員及び参加困難者が生じた場合には以下の6名の内最適な人材によって代行されます。
 * 現実子力学、時間力学有識者 _
- 土橋管理官
+ 土橋管理官
 * 記憶処理/改変処理、常識構築理論有識者 _
- 宇喜田女史 _
- 諸知博士
+ 宇喜田女史 _
+ 諸知博士
 * 資源的な収容限界に関するスペシャリスト _
- 道策管理官 _
- 冴場倫理委員
+ 道策管理官 _
+ 冴場倫理委員
 * 日本支部機密事項有識者 _
- 彼岸花倫理委員
+ 彼岸花倫理委員
 財団日本支部が機能不全に陥る事を防止する為、上記6名による代行が必要となった際に日本支部理事後継者候補による代行が可能であったとしても推奨されません。
 
 大規模な活動が必要な事から、Kクラスシナリオ発生の予兆が確認されるまでトヨサトミミ計画は永久凍結されています。

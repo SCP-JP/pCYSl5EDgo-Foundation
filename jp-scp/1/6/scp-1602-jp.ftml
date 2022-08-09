@@ -12,22 +12,22 @@
 
 [[module css]]
 .block-2 {
-    display: block;
-    border: solid 1px #999999;
-    background: #E6E6FA;
-    padding: 0 1em;
-    float: center;
-    margin: 1em 40px;
+    display: block;
+    border: solid 1px #999999;
+    background: #E6E6FA;
+    padding: 0 1em;
+    float: center;
+    margin: 1em 40px;
 }
 
 @media (max-width: 479px) {
 .block-2 {
-    margin: 1em;
+    margin: 1em;
 }
 }
 @media (min-width:480px) and (max-width:580px) {
 .block-2 {
-    margin: 0.5em
+    margin: 0.5em
 }
 }
 [[/module]]

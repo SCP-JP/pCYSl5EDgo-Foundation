@@ -2,27 +2,27 @@
 [[include :scp-wiki:theme:jakstyle]]
 [[module CSS]]
 .header-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-wrap: wrap;
-  position: relative;
-  justify-content: space-around;
-  align-content: space-between;
-  width: 100%;
-  left: 0;
-  align-items: flex-start;
-  row-gap: 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-around;
+  align-content: space-between;
+  width: 100%;
+  left: 0;
+  align-items: flex-start;
+  row-gap: 2px;
 }
- 
+ 
 .text-item {
-  flex-grow: 1;
-  max-width: 25%;
-  text-align: center;
+  flex-grow: 1;
+  max-width: 25%;
+  text-align: center;
 }
 
 #page-title {
-  display: none;
+  display: none;
 }
 [[/module]]
 [[>]]
@@ -42,17 +42,17 @@
 [[/<]]
 [[include info:end]]
 [[/>]]
- 
+ 
 [[div class="header-container"]]
 [[div class="text-item"]]
 [[size 90%]]##grey|**ITEM #:**##[[/size]]
- 
+ 
 [[size 220%]]**SCP-5343**[[/size]]
 [[/div]]
- 
+ 
 [[div class="text-item"]]
 [[size 90%]]##grey|**OBJECT CLASS:**##[[/size]]
- 
+ 
 [[size 220%]]**EUCLID**[[/size]]
 [[/div]]
 [[/div]]
@@ -76,9 +76,9 @@ After SCP-5343's initial containment, a series of experiments were performed in 
 
 ||~ Subject(s) ||~ Procedure ||~ Results ||
 || D-159823 || The subject was ordered to operate SCP-5343 extensively for 6 months. || Refer to //Addendum 5343-1//. ||
-|| D-210987 || The subject operated the application for 2 days before SCP-5343 was returned to its containment. || The subject reported minor memory loss. No evidence of cerebral wounding was detected. It's been concluded that SCP-5343's anomalous abilities take approximately one week to begin manifesting.   ||
-|| D-658972 || SCP-5343 was transferred onto a computer terminal. The subject was ordered to operate the application. || The subject was unable to access SCP-5343, even while operating a virtual machine. It has been concluded that SCP-5343 can only be accessed on mobile devices.  ||
-|| D-986714, D-185234 || D-986714 was ordered to operate SCP-5343 for 3 days until transferring ownership to D-185234. D-185234 will use the application for an additional 3 days.  || D-986714 reported signs of memory loss while D-185234 was unaffected by SCP-5343.  D-185234 admitted that they did not sign out of the application, and instead continued using D-986714's session. Subject D-185234 was terminated from the experiment. ||
+|| D-210987 || The subject operated the application for 2 days before SCP-5343 was returned to its containment. || The subject reported minor memory loss. No evidence of cerebral wounding was detected. It's been concluded that SCP-5343's anomalous abilities take approximately one week to begin manifesting.   ||
+|| D-658972 || SCP-5343 was transferred onto a computer terminal. The subject was ordered to operate the application. || The subject was unable to access SCP-5343, even while operating a virtual machine. It has been concluded that SCP-5343 can only be accessed on mobile devices.  ||
+|| D-986714, D-185234 || D-986714 was ordered to operate SCP-5343 for 3 days until transferring ownership to D-185234. D-185234 will use the application for an additional 3 days.  || D-986714 reported signs of memory loss while D-185234 was unaffected by SCP-5343.  D-185234 admitted that they did not sign out of the application, and instead continued using D-986714's session. Subject D-185234 was terminated from the experiment. ||
 
 **Addendum 5343-1:** D-159823 was ordered to maintain a written journal at all times throughout the previously listed experiment. The recovered journal entries concerning SCP-5343 have been added below.
 
@@ -93,7 +93,7 @@ After SCP-5343's initial containment, a series of experiments were performed in 
 > ~~~~~
 > What's also weird is that the first article on the app actually talked about someone I once knew, a friend of mine named Ralph. I won't get into everything, but the gist was that he got some promotion at his job and was a prominent leader in the company. I mean, it's fantastic and all that he got promoted, but how did this app know about it? Ralph wasn't a super "popular" guy, so the article really took me for a surprise. But, now that I think about it, he does work at ███████ so I guess it does make sense.
 > ~~~~~
->  I'm probably overthinking it. I did see some other articles, about sports or whatnot, that piqued my interest. It's always nice to remember the outside world, and I know many of the other people that are locked up in here don't really have the same luxury. It was just... that article really freaked me out at first, but only because it was kinda personal. I should probably just relax, you know? I'll take some time to compose myself and probably go back to sleep. 
+>  I'm probably overthinking it. I did see some other articles, about sports or whatnot, that piqued my interest. It's always nice to remember the outside world, and I know many of the other people that are locked up in here don't really have the same luxury. It was just... that article really freaked me out at first, but only because it was kinda personal. I should probably just relax, you know? I'll take some time to compose myself and probably go back to sleep. 
 ~~~~~~
 > I'm starting to see a lot of articles about myself. Which, by the way, is absolutely fucking terrifying. How do they know all of this stuff? One of the posts even talked about my life in Indy when I was in high school, but how in the fuck did they find that? I've been looking through the app more and more, just to see what kind of information it has on me.
 > ~~~~~~
@@ -133,7 +133,7 @@ After SCP-5343's initial containment, a series of experiments were performed in 
 > ~~~~~
 > I'm just going to leave this here. I don't know how much else I could add.
 ~~~~~~
->  I just want to go home now. It seems like the entire world is just... fucked. Every day I sit in here and cry about Jaden's safety. With all this talk in the news about outbreaks and school shootings, sometimes I wish I was around to teach her how to use a gun. Hell, I'd just be comfortable with seeing her go into second grade.
+>  I just want to go home now. It seems like the entire world is just... fucked. Every day I sit in here and cry about Jaden's safety. With all this talk in the news about outbreaks and school shootings, sometimes I wish I was around to teach her how to use a gun. Hell, I'd just be comfortable with seeing her go into second grade.
 > ~~~~~
 > But I can't, not anymore. Not after everything I've done. Over time, I've learned to just accept it, even if it hurts. Even if I can make it out of prison, my past will always come to haunt me. I just wish I did more for her before I left.
 > ~~~~~
@@ -199,5 +199,5 @@ The subject was later found deceased in their cell. A final autopsy recovered fr
 [[/div]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

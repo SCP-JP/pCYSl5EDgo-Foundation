@@ -7,34 +7,34 @@ background:#424248 !important;
 }
 /* bhl-style-collapse Sigma-9 Compatiblity Patch */
 #page-content .collapsible-block-folded, #page-content .collapsible-block-unfolded, #page-content .unfolded-collapse{
-    line-height: 1.4;
+    line-height: 1.4;
 
 }
 #page-content .collapsible-block-folded .collapsible-block-link::before, #page-content .collapsible-block-unfolded .collapsible-block-link::before, #page-content .unfolded-collapse::before {
-    font-family: monospace;
-    font-size: 130%;
-    margin-left: -0.4em
+    font-family: monospace;
+    font-size: 130%;
+    margin-left: -0.4em
 background-color:rgb(66, 66, 72) !important;
 }
 #page-content .collapsible-block-folded, #page-content .collapsible-block-unfolded, #page-content .unfolded-collapse::hover{
 background-color:rgb(66, 66, 72) !important;
 }
 :root {
-  --scp-number: ''; 
-  --click-color:rgb(66, 66, 72) !important;
-  --hover-color:rgb(66, 66, 72) !important;
+  --scp-number: ''; 
+  --click-color:rgb(66, 66, 72) !important;
+  --hover-color:rgb(66, 66, 72) !important;
 }
 #page-content .collapsible-block-folded .collapsible-block-link::before {
-    content: "⟳ ACCESS FILE " var(--scp-number);
+    content: "⟳ ACCESS FILE " var(--scp-number);
 }
 #page-content .collapsible-block-unfolded .collapsible-block-link::before {
-    content: "⟲ CLOSE FILE " var(--scp-number); 
+    content: "⟲ CLOSE FILE " var(--scp-number); 
 }
 #page-content .collapsible-block-content::after {
-    content:"END OF FILE";
+    content:"END OF FILE";
 }
 :root {
- --logo: url("https://scp-wiki.wdfiles.com/local--files/scp-5541/delta-t");
+ --logo: url("https://scp-wiki.wdfiles.com/local--files/scp-5541/delta-t");
 --title: "RCT-Δt";
 
 --subtitle: "FOR TIME ITSELF.";
@@ -58,7 +58,7 @@ background-color:rgb(66, 66, 72) !important;
 ++++++ {{**WARNING:** document is unverifiable by our server backup, it may be out-of-date.}}
 ++++++ {{content at this address is at risk of deletion, please update to current version.}}
 ++++++ {{this is an automated, weekly check. limit 3 failed checks without administrative override.}}
- {{##gray|//overrides given: 1,590//##}}
+ {{##gray|//overrides given: 1,590//##}}
 [[/div]]
 [[/=]]
 @@
@@ -105,9 +105,9 @@ background-color:rgb(66, 66, 72) !important;
 @@
 
 [[include component:image-block
-    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/aoi_logo.png|
-    caption=One variation of SCP-5541-1/GOI-Ω's emblem, recovered from document "Case File #90G-1IPN-Y190" (See below).|
-    align=right|
+    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/aoi_logo.png|
+    caption=One variation of SCP-5541-1/GOI-Ω's emblem, recovered from document "Case File #90G-1IPN-Y190" (See below).|
+    align=right|
 ]]
 
 @@
@@ -140,28 +140,28 @@ Atypical findings since initial manifestation: {{00000}} //(as of 04.22.2726)//
 [[/tab]]
 [[tab Figure 1. Temporal Field Basics]]
 [[include component:image-block
-    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/tempfield|
-    caption=Figure 1: //Basic temporal field. Note that the Copenhagen interpretation of quantum mechanics is indeterministic and thus choice is not the deciding factor for branch result in a typical system. Atypical systems do exist, although they appear to be the [https://scp-wiki.wikidot.com/scp-2921 exception] and not the rule.//|
-    align=center|
-     width=100%
+    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/tempfield|
+    caption=Figure 1: //Basic temporal field. Note that the Copenhagen interpretation of quantum mechanics is indeterministic and thus choice is not the deciding factor for branch result in a typical system. Atypical systems do exist, although they appear to be the [https://scp-wiki.wikidot.com/scp-2921 exception] and not the rule.//|
+    align=center|
+     width=100%
 ]]
 [[/tab]]
 [[tab Figure 2. Emergence Point]]
 [[include component:image-block
-    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/emergence|
-    caption=Figure 2: //There is often no specific action or event that can be identified as the "beginning" of SCP-5541. Members of the Temporal Intelligence Community usually refer to a catastrophic failure within the Foundation that results in a Broken Masquerade Event as the primary indicator, although there are likely a collection of small failures of administrative/infrastructural function prior to the event in majority of cases (See// On the Nature of Foundation Collapse//, below). Theories emerging from TIC suggest visualizing the onset of SCP-5541 as a gradient of decline. For ease of visualization, a point is used.//|
-    align=center|
-     width=100%
+    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/emergence|
+    caption=Figure 2: //There is often no specific action or event that can be identified as the "beginning" of SCP-5541. Members of the Temporal Intelligence Community usually refer to a catastrophic failure within the Foundation that results in a Broken Masquerade Event as the primary indicator, although there are likely a collection of small failures of administrative/infrastructural function prior to the event in majority of cases (See// On the Nature of Foundation Collapse//, below). Theories emerging from TIC suggest visualizing the onset of SCP-5541 as a gradient of decline. For ease of visualization, a point is used.//|
+    align=center|
+     width=100%
 ]]
 
 [[/tab]]
 [[tab Figure 3. Timeline]]
 
 [[include component:image-block
-    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/timeline.png|
-    caption=Figure 3: //A simplified timeline of events during and following the temporal loop formed as a consequence of/resulting in SCP-5541. Image is considered to be a guide and not a realistic depiction of fourth-dimensional space. Starting at the right side, follow the blue line upwards to the green line, down through the green line and back up via the black line to see the events of the paradox itself.//|
-    align=center|
-     width=100%
+    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/timeline.png|
+    caption=Figure 3: //A simplified timeline of events during and following the temporal loop formed as a consequence of/resulting in SCP-5541. Image is considered to be a guide and not a realistic depiction of fourth-dimensional space. Starting at the right side, follow the blue line upwards to the green line, down through the green line and back up via the black line to see the events of the paradox itself.//|
+    align=center|
+     width=100%
 ]]
 
 [[/tab]]
@@ -215,10 +215,10 @@ SCP-5541 is described as a global paradigm shift that cannot be altered nor prev
 @@
 @@
 [[include component:image-block
-    name=https://scp-wiki.wdfiles.com/local--files/scp-5541/collapse|
-    caption=Aftermath of critical failure at Site-19.| 
-    align=right|
-    width=400px|
+    name=https://scp-wiki.wdfiles.com/local--files/scp-5541/collapse|
+    caption=Aftermath of critical failure at Site-19.| 
+    align=right|
+    width=400px|
 ]]
 
 As briefly touched upon above, SCP-5541's exact emergence point is unclear in most cases. It is typically marked by the loss of Foundation sites, important members of the Administration, and/or many personnel, ultimately leading to larger-scale failures.
@@ -227,7 +227,7 @@ In majority of instances, the destruction of one or more vital Foundation sites 
 
 Attempts to divert or otherwise prevent Foundation collapse in timelines impacted by SCP-5541 have been unsuccessful in all cases. Individual events can be mitigated, but without proper foresight associated with backwards travel, it is impossible to predict when the next may occur. It appears that in most of these timelines, the Foundation had been at risk of a catastrophic failure for some time leading up to the event itself. Individual agents of Tactical Operations Command have attempted to "prime" a specific timeline by traveling in the time leading up to the window during which SCP-5541 will emerge, but in every instance events occur that are beyond the scope of reach or agents find themselves otherwise hampered by one or more individuals acting against the interests of the agents and the Foundation as a whole.[[footnote]]Oddly, there has been zero cooperation and no recorded interactions with future members of the Temporal Anomalies Department throughout exploratory efforts. Personnel in such timelines generally express confusion at the presence of TAC agents from the past, possibly suggesting future agents are still traveling forward to deal with threats, isolating themselves from past members to safeguard against annihilation via self-interaction, and/or are aware of some information regarding SCP-5541 that, for an unknown reason, prohibits them from informing current RCT-Δt members of their status/whereabouts. Investigations into future members of the Temporal Anomalies Department are being considered, however, logistical complexity and inherent trust-related risks are major obstacles to such operations.[[/footnote]]
 
-It is also to note that in most timelines, by the end of the third millennium, containment efforts have increased in cost, size, and logistical complexity such that it becomes nearly impossible to keep track of all facets related to sustaining uniform operations. In addition, average employee morale is at an all-time low in nearly every instance.  
+It is also to note that in most timelines, by the end of the third millennium, containment efforts have increased in cost, size, and logistical complexity such that it becomes nearly impossible to keep track of all facets related to sustaining uniform operations. In addition, average employee morale is at an all-time low in nearly every instance.  
 
 @@
 @@
@@ -263,7 +263,7 @@ It is also to note that in most timelines, by the end of the third millennium, c
 > 14:20 - AREA-179 CONTAINMENT KLAXON BLARES.
 > 
 > 14:22 - SCP-2317 is seen standing from its structure within Universe-Kappa-Erikesh.
->  
+>  
 > 14:30 - Deployed Foundation forces arrive at Area-179, official religious figures brought on-site to perform various rites and blessings. O5 Council taken off-world. Bystanders are seen crying and calling loved ones.
 > 
 > 14:35 - SCP-2317 breaks through the door to Universe-Kappa-Erikesh, widening the portal to immeasurable size. Foundation forces prove ineffective.
@@ -278,11 +278,11 @@ It is also to note that in most timelines, by the end of the third millennium, c
 > 
 > 20:04 - SCP-2317 falls asleep on the beach, a smile seen on its face. Small animals such as squirrels and stray dogs are seen gathering around the entity, sleeping and/or nesting beside SCP-2317's form. Birds land on the creature's nose as it breathes softly, remaining mostly in this position for at least several days. Foundation containment efficiency plummets from the subsequent Broken Masquerade Event, leading to systemic collapse of all operations within 48 hours, due in part to an extremely successful doxing campaign launched by members of the popular online variety content board "4chan".
 > 
->  [END LOG]
+>  [END LOG]
 > 
 > ------
 > 
->  //Note: SCP-2317 has yet to cause harm to a single entity in any timeline observed, even those observed prior to SCP-5541's influence.//
+>  //Note: SCP-2317 has yet to cause harm to a single entity in any timeline observed, even those observed prior to SCP-5541's influence.//
 
 @@
 @@
@@ -304,10 +304,10 @@ It is also to note that in most timelines, by the end of the third millennium, c
 @@
 
 [[include component:image-block
-    name=https://scp-wiki.wdfiles.com/local--files/scp-5541/omega.png|
-    caption=//The only recovered photo of an in-progress SCP-5541-Ω QK-Class Scenario. Note the artifacting and screen slicing—both possible outcomes of extreme ontological/informational degradation. Taken from a live stream of bystanders observing event, recorded by TOC Agent Semel Dacia before they demanifested and returned to SCP-2003. Dacia reportedly experienced intrusive thoughts and foreign memories upon return. Symptoms lessened over the next week, and Agent Dacia was examined and found to be otherwise healthy.//| 
-    align=center|
-     width=100%
+    name=https://scp-wiki.wdfiles.com/local--files/scp-5541/omega.png|
+    caption=//The only recovered photo of an in-progress SCP-5541-Ω QK-Class Scenario. Note the artifacting and screen slicing—both possible outcomes of extreme ontological/informational degradation. Taken from a live stream of bystanders observing event, recorded by TOC Agent Semel Dacia before they demanifested and returned to SCP-2003. Dacia reportedly experienced intrusive thoughts and foreign memories upon return. Symptoms lessened over the next week, and Agent Dacia was examined and found to be otherwise healthy.//| 
+    align=center|
+     width=100%
 ]]
 
 SCP-5541-Ω does not manifest in the same way every time, often it manifests as a secondary event or unintended result of something seemingly unrelated. Unfortunately, it is difficult to garner much detail about the exact nature of the event due to the inherent danger involved in doing so. 
@@ -349,34 +349,34 @@ Only two agents have been able to witness part of an in-progress SCP-5541-Ω eve
 [[tabview]]
 [[tab Recovered Propaganda Materials]]
 [[include component:image-block
-   name=http://scp-sandbox-3.wdfiles.com/local--files/billith/posterbanner|
-    caption=//GOI-Ω's remarkable efficiency with public persuasion is due in part to a complex understanding of human psychology, social engineering, and the anomalous, using the collective knowledge of all GOIs assimilated into the organization. This, combined with robust marketing campaigns, capitalize on the Foundation's collapse as a springboard to gain access to the front and center of various social, ideological and political movements. View other tabs for additional notes and closer views of each.//|
-    align=center|
-     width=100%
+   name=http://scp-sandbox-3.wdfiles.com/local--files/billith/posterbanner|
+    caption=//GOI-Ω's remarkable efficiency with public persuasion is due in part to a complex understanding of human psychology, social engineering, and the anomalous, using the collective knowledge of all GOIs assimilated into the organization. This, combined with robust marketing campaigns, capitalize on the Foundation's collapse as a springboard to gain access to the front and center of various social, ideological and political movements. View other tabs for additional notes and closer views of each.//|
+    align=center|
+     width=100%
 ]]
 [[/tab]]
 [[tab 1]]
 [[include component:image-block
-    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/poster1.png|
-    caption=//GOI-Ω heavily relies on the perception of the organization as a force of rationality, understanding, and coexistence with all beings that wish to do so—anomalous and otherwise, which they use to paint the Foundation as restrictive, narrow-minded and incompetent.//|
-    align=center|
-     width=100%
+    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/poster1.png|
+    caption=//GOI-Ω heavily relies on the perception of the organization as a force of rationality, understanding, and coexistence with all beings that wish to do so—anomalous and otherwise, which they use to paint the Foundation as restrictive, narrow-minded and incompetent.//|
+    align=center|
+     width=100%
 ]]
 [[/tab]]
 [[tab 2]]
 [[include component:image-block
-    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/poster22|
-    caption=//In addition to previously described slander, GOI-Ω's marketing also heavily focuses on the "thought-police" aspects of Foundation operations, including memory alteration/amnestics use, subterfuge techniques and disinformation campaigns—going to great lengths to ensure claims made by the group are not sensationalized and are as close to the truth as possible, while withholding information about positive Foundation operations and results.//|
-    align=center|
-     width=100%
+    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/poster22|
+    caption=//In addition to previously described slander, GOI-Ω's marketing also heavily focuses on the "thought-police" aspects of Foundation operations, including memory alteration/amnestics use, subterfuge techniques and disinformation campaigns—going to great lengths to ensure claims made by the group are not sensationalized and are as close to the truth as possible, while withholding information about positive Foundation operations and results.//|
+    align=center|
+     width=100%
 ]]
 [[/tab]]
 [[tab 3]]
 [[include component:image-block
-    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/poster3.png|
-    caption=//A major facet of successful campaigns by GOI-Ω include the natural conclusion of the portrayal of the Foundation's "limited" view of the anomalous and consensus reality being that the organization exists as the polar opposite of ours—with a goal to achieve a complete enlightenment of all beings on Earth and a unification of humanity with the anomalous to become a hyperintelligent collective consciousness of unfathomable power. This process is theorized to be the primary mechanism for the final stages of SCP-5541's timeline of events, including SCP-5541-Ω.//|
-    align=center|
-     width=100%
+    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/poster3.png|
+    caption=//A major facet of successful campaigns by GOI-Ω include the natural conclusion of the portrayal of the Foundation's "limited" view of the anomalous and consensus reality being that the organization exists as the polar opposite of ours—with a goal to achieve a complete enlightenment of all beings on Earth and a unification of humanity with the anomalous to become a hyperintelligent collective consciousness of unfathomable power. This process is theorized to be the primary mechanism for the final stages of SCP-5541's timeline of events, including SCP-5541-Ω.//|
+    align=center|
+     width=100%
 ]]
 [[/tab]]
 
@@ -400,10 +400,10 @@ Only two agents have been able to witness part of an in-progress SCP-5541-Ω eve
 @@
 
 [[include component:image-block
-    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/emblemstot.png |
-    caption=Figure 4: //Allied Occult Initiative emblems vary from timeline to timeline, based on the GOIs that join the group. Note the "sunbeam" motif is constant, and defacement of the Foundation logo is prevalent. Many timelines adopt the "hollyhock"// Mon (紋) //(Seen attached at top of page) for public usage and ease of identifiability—Likely a play on the acronym A.O.I. and the erroneously identified Aoi plant of the hollyhock crest itself, as no connections between the organization and the Tokugawa clan that once used the same crest have been found.//|
-    align=center|
-    width=100%
+    name=http://scp-sandbox-3.wdfiles.com/local--files/billith/emblemstot.png |
+    caption=Figure 4: //Allied Occult Initiative emblems vary from timeline to timeline, based on the GOIs that join the group. Note the "sunbeam" motif is constant, and defacement of the Foundation logo is prevalent. Many timelines adopt the "hollyhock"// Mon (紋) //(Seen attached at top of page) for public usage and ease of identifiability—Likely a play on the acronym A.O.I. and the erroneously identified Aoi plant of the hollyhock crest itself, as no connections between the organization and the Tokugawa clan that once used the same crest have been found.//|
+    align=center|
+    width=100%
 ]]
 @@
 @@
@@ -472,7 +472,7 @@ Only two agents have been able to witness part of an in-progress SCP-5541-Ω eve
 @@
 
 **Addendum 5541-Aion:** Additional Materials
- 
+ 
 [[include :scp-wiki:component:coltop
 | show= ◆ RCT-Δt's Proposal
 | hide=-confirmed
@@ -492,10 +492,10 @@ Only two agents have been able to witness part of an in-progress SCP-5541-Ω eve
 > 
 > **Description:** SCP-001 is the designation for an anachronistic metaphysical quality that permeates all systems of complex structures that possess sentience, can be defined as "human", and can otherwise receive, store, and transmit high-order information. SCP-001 is believed to manifest as the outcome of a probabilistic scenario initiated when the Heisenberg cut of a particular 3rd-dimensional frame within a 4th-dimensional octahedral reality is subject to wave function collapse. 
 > 
-> When probable outcomes collapse via observation, there is an unknown likelihood[[footnote]]Due to the scope of the effect and being unable to preclude the location of all physical spaces being unobserved simultaneously without observing said spaces.[[/footnote]] that SCP-001 will occur. When this happens, SCP-001 will randomly manifest anomalous phenomena at any synchronous point on the 3D frame that is also experiencing wave function collapse. This effect does not appear to have a limited range outside of the field of view and the ability to observe at a distance, so long as the space is being observed in some way in said frame and was not being observed the previous. In addition, the process  or sensory function in which the observation occurs does not appear to matter, although vision remains the most effective means of doing so that humans possess.
+> When probable outcomes collapse via observation, there is an unknown likelihood[[footnote]]Due to the scope of the effect and being unable to preclude the location of all physical spaces being unobserved simultaneously without observing said spaces.[[/footnote]] that SCP-001 will occur. When this happens, SCP-001 will randomly manifest anomalous phenomena at any synchronous point on the 3D frame that is also experiencing wave function collapse. This effect does not appear to have a limited range outside of the field of view and the ability to observe at a distance, so long as the space is being observed in some way in said frame and was not being observed the previous. In addition, the process  or sensory function in which the observation occurs does not appear to matter, although vision remains the most effective means of doing so that humans possess.
 > 
 > The intensity, frequency, and density of SCP-001's effect increases over each quantum of time elapsed, by a quantity determined via the previous density of the effect and other factors such as the broad awareness of this aspect of reality. When human entities gain knowledge of the anomalous, increase their population density and/or unify their thought processes, the rate at which anomalous phenomena is generated increases, as well as the radius of the same effect impacting a spherical area surrounding the organism's brain.[[footnote]]This serves as a possible explanation for novel anomalous activity manifesting within Foundation Secure Facilities such as but not limited to [http://scp-sandbox-3.wikidot.com/collab:scp-site-19 Site-19] and [https://scp-wiki.wikidot.com/scp-1730 Site-13].[[/footnote]] Therefore, it is possible for this system to reach a "cascade" point, wherein a positive feedback loop of anomalous activity leads to the collapse of quantum systems due to insufficient universal resources. This appears to imply that what one might call "anomalous" is as real as reality itself, and is perhaps associated with some unknown form of higher-order mathematics and/or sciences that may explain all of anomalous activity as a whole. The inverse of this appears to also be true; when there are less observers in a space, the area being observed becomes less real by a faint, imperceptible, but entirely measurable change in Humes. As such, SCP-001 appears to suggest that the entirety of "baseline" reality is just as anomalous as everything that the Foundation secures, contains and protects. 
->  
+>  
 > It is speculated that Hume loss of unobserved space is correlated with a limited amount of "processing power" within the universe, and that SCP-001, and/or humanity itself, carries a built-in limiting/boosting mechanism to help regulate the Hume field of the surrounding reality. This is further corroborated by reports within spaces in which the Hume field logarithmically approaches zero, where human minds have been seen to [https://scp-wiki.wikidot.com/scp-3545 individually generate their own localized reality]. Likewise, there seems to be some inherent property of reality itself that is necessary to exist that cannot exist while unobserved completely, once a specific density of "anomalous" phenomena is reached.
 > 
 > **Conclusion:** The observer effect within the Copenhagen interpretation of quantum mechanics, SCP-001, appears to be at least partially responsible for the generation of large portions of our current universe, utilizing or being generated by humanoid life-forms. Thus the phenomenon is both responsible for the generation of anomalous activity/baseline reality and cannot be contained fully nor should it remain uncontained. Due to its relationship with the very objects the Foundation has spent eons studying and the Foundation's [https://scp-wiki.wikidot.com/scp-4002 strained relationship] with various groups considered "different" than humanity, such as [https://scp-wiki.wikidot.com/scp-1000 The Children of the Night], RCT-Δt urges the Council to immediately reclassify all phenomena as explained through the nature of consensus reality and begin rehabilitation and reintroduction programs for all sentient creatures in containment that are capable of doing so. This may be the only recourse we have to avoid the fate of our future selves. We will lose the war—but we believe things can still change so that it never happens in the first place. 

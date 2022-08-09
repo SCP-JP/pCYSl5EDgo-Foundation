@@ -10,40 +10,40 @@
 
 
 .goc {
-    background: #fff url('https://scp-wiki.wdfiles.com/local--files/theme%3Agoc/goc-fade.png') -5rem -5rem no-repeat;
-    border-color: #275495;
-    background-size: 30rem;
+    background: #fff url('https://scp-wiki.wdfiles.com/local--files/theme%3Agoc/goc-fade.png') -5rem -5rem no-repeat;
+    border-color: #275495;
+    background-size: 30rem;
 }
 .goc hr {
-    background: #275495!important;
-    border-color: #fff!important;
+    background: #275495!important;
+    border-color: #fff!important;
 }
 .goc .scp-image-block{
-    border-color: #275495;
+    border-color: #275495;
 }
 div.parapost {
-    background:  black;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #1a1a1a;
-    padding: 0 1em;
-    margin: 1em 3em;
-    font-family: var(--mono-font);
+    background:  black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1a1a1a;
+    padding: 0 1em;
+    margin: 1em 3em;
+    font-family: var(--mono-font);
 }
 
 div.parapost hr {
-   background: white;
+   background: white;
 border-left: none;
 border-right: none;
 border-top: 4px dashed white;
 }
 
 @media (max-width: 479px) {
-   div.parapost {margin: 1em 0;}
+   div.parapost {margin: 1em 0;}
 }
 
 @media (min-width: 480px) and (max-width: 580px) {
-   div.parapost {margin: 0.5em;}
+   div.parapost {margin: 0.5em;}
 }
 
 [[/module]]

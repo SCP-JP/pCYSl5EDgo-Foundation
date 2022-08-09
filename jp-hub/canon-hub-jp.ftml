@@ -69,89 +69,89 @@
 [[/div]]
 [[module CSS]]
 .content-panel.standalone {
-  padding: 20px 30px;
+  padding: 20px 30px;
 }
 
 .canon-title {
-  font-size: 200%;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 200%;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .canon-description {
-  font-size: 110%;
-  font-weight: bold;
-  text-align: justify;
+  font-size: 110%;
+  font-weight: bold;
+  text-align: justify;
 }
 
 .canon-snippet {
-  font-style: italic;
+  font-style: italic;
 }
 .canon-snippet-subtext {
-  font-size: 70%;
-  margin-top: 10px;
+  font-size: 70%;
+  margin-top: 10px;
 }
 
 .TocTab {
-    border: 1px dashed #999;
-    background-color: #f4f4f4;
-    padding: 0 1em;
-    margin: 1em 3em;
+    border: 1px dashed #999;
+    background-color: #f4f4f4;
+    padding: 0 1em;
+    margin: 1em 3em;
 }
 @media (max-width: 479px) {
-    div.TocTab {
-        margin: 1em 0;
-    }
+    div.TocTab {
+        margin: 1em 0;
+    }
 }
 @media (min-width: 480px) and (max-width: 580px) {
-    div.TocTab {
-        margin: 0.5em;
-    }
+    div.TocTab {
+        margin: 0.5em;
+    }
 }
 
 .TocTab .yui-navset .yui-content{
-    background: none;
-    border: none;
+    background: none;
+    border: none;
 }
 .TocTab .yui-navset ul {
-    background: none;
-    border: none;
-    text-align: center;
+    background: none;
+    border: none;
+    text-align: center;
 }
 .TocTab .yui-navset .yui-nav a,
 .TocTab .yui-navset .yui-navset-top .yui-nav a {
-    background: none;
-    border: none;
-    color: #b01;
+    background: none;
+    border: none;
+    color: #b01;
 }
 .TocTab .yui-navset .yui-nav .selected a,
 .TocTab .yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
 .TocTab .yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
-    background: none;
-    border: none;
-    color: black;
+    background: none;
+    border: none;
+    color: black;
 }
 .TocTab .yui-navset .yui-nav a:hover,
 .TocTab .yui-navset .yui-nav a:focus {
-    background: none;
-    border: none;
-    text-decoration: none;
+    background: none;
+    border: none;
+    text-decoration: none;
 }
 .TocTab .yui-navset .yui-nav,
 .TocTab .yui-navset .yui-navset-top .yui-nav {
-    border: none;
+    border: none;
 }
 .TocTab .yui-navset .yui-nav,
 .TocTab .yui-navset .yui-navset-top .yui-nav {
-    border: none;
+    border: none;
 }
 .TocTab .yui-navset .yui-nav a em,
 .TocTab .yui-navset .yui-navset-top .yui-nav a em {
-     border: none;
+     border: none;
 }
 
 .TocTab .yui-nav>li:nth-child(1).selected {
-    display: none;
+    display: none;
 }
 [[/module]]
 

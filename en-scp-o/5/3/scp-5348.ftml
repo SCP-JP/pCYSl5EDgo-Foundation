@@ -1,52 +1,52 @@
 [[module CSS]]
 div.email {
-    border: solid 2px #A38800;
-    box-shadow: 0 1px 3px rgba(0,0,0,.2);
-    padding: 0 1em;
-    margin: 1em 3em;
-    background-image: url(http://scp-wiki.wdfiles.com/local--files/do-you-like-huey-lewis-and-the-news/ambrose-logo.png);
-    background-size: 64px 64px;
-    background-position: 95% .5em;
-    background-repeat: no-repeat;
-    background-color: #F5F2E4;
-    color: #21003C;
+    border: solid 2px #A38800;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    padding: 0 1em;
+    margin: 1em 3em;
+    background-image: url(http://scp-wiki.wdfiles.com/local--files/do-you-like-huey-lewis-and-the-news/ambrose-logo.png);
+    background-size: 64px 64px;
+    background-position: 95% .5em;
+    background-repeat: no-repeat;
+    background-color: #F5F2E4;
+    color: #21003C;
 }
- 
+ 
 div.email a {
-    color: #A38800;
+    color: #A38800;
 }
 
 div.email a:visited {
-    color: #524400;
+    color: #524400;
 }
 
 div.email h5 {
-    max-width: 85%;
+    max-width: 85%;
 }
 
 div.email h2 span,
 div.email h5 span {
-    word-break: unset;
+    word-break: unset;
 }
 
 @media (max-width: 479px) {
-    div.email {
-        margin: 1em 0;
-    }
+    div.email {
+        margin: 1em 0;
+    }
 
-    div.email h2 {
-        max-width: 80%;
-    }
+    div.email h2 {
+        max-width: 80%;
+    }
 }
- 
+ 
 @media (min-width: 480px) and (max-width: 580px) {
-    div.email {
-        margin: 0.5em;
-    }
+    div.email {
+        margin: 0.5em;
+    }
 
-    div.email h2 {
-        max-width: 80%;
-    }
+    div.email h2 {
+        max-width: 80%;
+    }
 }
 [[/module]]
 [[>]]
@@ -57,9 +57,9 @@ by [http://www.scp-wiki.wikidot.com/elunerazim Elunerazim]
 
 
 [[include component:image-block
-    width=250px|
-    name=soup|
-    caption=An instance of SCP-5348 ordered at Ambrose SanFran|
+    width=250px|
+    name=soup|
+    caption=An instance of SCP-5348 ordered at Ambrose SanFran|
 ]]
 **Item #:** SCP-5348
 
@@ -138,7 +138,7 @@ Ingredients:
 * 300 grams goat butter, chilled
 * 6 tablespoons all-purpose flour
 * 15 Kj of Elan-Vital energy from the specter of Michelle Ambrose
- * Any benevolent spirit works, though they must have been properly marinated with Ambrose Restaurants Soul Bouillion^^®^^
+ * Any benevolent spirit works, though they must have been properly marinated with Ambrose Restaurants Soul Bouillion^^®^^
 
 //A Note From Chaz://
 My love of cooking started at a young age, and my mother is to thank for that. While my father was often..."indisposed", my mother spent hours sitting with my brother and me, cooking delicious meals and laughing until our bellies hurt. I truly believe her greatest joy was in feeding others, and with her passing, I wanted to keep that dream going. So I sincerely hope all of you will enjoy Mama Ambrose's Creamy Mushroom Bisque– it's a true family recipe. 

@@ -3,11 +3,11 @@
 [[include component:ratio-bar base=-- |ex=--]]
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border-radius: 10px; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -25,8 +25,8 @@
 
 [[div style="border-radius: 10px;
 background-image: url("https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png"), linear-gradient(#f2f2c2, #EEE098);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 border: dashed 2px #999999;
 padding:5px;
 margin-bottom: 10px;
@@ -45,9 +45,9 @@ The information describing SCP-5584-1's previously unknown online activities and
 
 [[div style="border-radius: 10px;
 background-image: linear-gradient(#eee, #ccc);
-  background-repeat: no-repeat;
-  background-position: center;
-border:solid 2px #999999; padding:15px; margin-bottom: 10px;  margin-right: 2%; margin-left: 2%;"]]
+  background-repeat: no-repeat;
+  background-position: center;
+border:solid 2px #999999; padding:15px; margin-bottom: 10px;  margin-right: 2%; margin-left: 2%;"]]
 [[include :scp-wiki:component:flops-header
 |item= ████
 |containment= keter
@@ -84,12 +84,12 @@ Known services used by SCP-████:
 * GMail[Replaced 16 times, Most recently 28/12/2018]
 * --Facebook--[Deactivated and not replaced, 22/05/2016]
 * YouTube[Replaced 12 times, Most recently 28/12/2018]
-* --Minecraft--[Deactivated and not replaced,  25/01/2018]
+* --Minecraft--[Deactivated and not replaced,  25/01/2018]
 * Twitter[Replaced 14 times, Most recently 28/12/2018]
 * --Skype--[Account Abandoned, 14/8/2016]
 * Discord[Replaced 14 times, Most recently 28/12/2018]
-* --Epic Games--[Replaced 5 times, Deactivated and not replaced,  13/05/2018]
-* --Steam.--[Replaced 5 times, Deactivated and not replaced,  13/05/2018]
+* --Epic Games--[Replaced 5 times, Deactivated and not replaced,  13/05/2018]
+* --Steam.--[Replaced 5 times, Deactivated and not replaced,  13/05/2018]
 
 
 SCP-████ created its first known account on 08/06/2009 but did not display anomalous properties until 03/01/2015. Circumstantial evidence points to this change being triggered by 3 days of absence from the internet between 31/12/2014 to 03/01/2015. The reason for its absence was described by SCP-████ as an event resulting in it "constantly being watched".
@@ -104,8 +104,8 @@ The full archive of all data taken from accounts connected to SCP-████ i
 || 03/01/2015 || SCP-████ engages in a lengthy argument with a user on Twitter || SCP-████ insults the user, waits for the user to see it, then the user's phone is teleported. Objects returned 17/02/2015||
 || 04/01/2015|| SCP-████ is repeatedly defeated in a game of online chess by the same opponent|| SCP-████ insults opponent in the in-game chat and opponent's computer is teleported. The white king of the user's chess set is teleported moments later. Objects returned 17/02/2015||
 || 22/05/2016|| SCP-████ receives a rude comment on Facebook|| User's computer is teleported, user begins typing another comment over a smartphone, user's smartphone followed by 3 other internet-accessible devices are teleported. SCP-████ deactivates its account. Objects returned 4 hours later.||
-|| 05/12/2017|| SCP-████ is muted in the popular MineGambit Minecraft server by the automated word filter || The processor of the tower server used to host the game lobby is teleported, causing an outage.  SCP-████ apologizes publicly on Twitter and object returned 18/12/2017||
-|| 05/12/2017-16/12/2017|| SCP-████ is harassed on Twitter by users of the MineGambit Minecraft server ||43 users' internet-accessible devices teleport following contact with SCP-████.  Objects returned 18/12/2017||
+|| 05/12/2017|| SCP-████ is muted in the popular MineGambit Minecraft server by the automated word filter || The processor of the tower server used to host the game lobby is teleported, causing an outage.  SCP-████ apologizes publicly on Twitter and object returned 18/12/2017||
+|| 05/12/2017-16/12/2017|| SCP-████ is harassed on Twitter by users of the MineGambit Minecraft server ||43 users' internet-accessible devices teleport following contact with SCP-████.  Objects returned 18/12/2017||
 
 [[/collapsible]]
 
@@ -117,7 +117,7 @@ SCP-████ was discovered by a Foundation WebCrawler after its Twitter acc
 
 [[collapsible show="+Interview Log ████-13"]]
 > **Interviewed:** SCP-████'s Discord account
->  
+>  
 > **Interviewer:** Dr. Riley Ellis, Level 3 Researcher
 > 
 > **Foreword:** Initial contact attempted with SCP-████ over Discord. SCP-████ accepted the invite and responded immediately.
@@ -155,7 +155,7 @@ SCP-████ was discovered by a Foundation WebCrawler after its Twitter acc
 
 [[collapsible show="+Interview Log ████-14"]]
 > **Interviewed:** SCP-████'s 2nd Discord account
->  
+>  
 > **Interviewer:** Dr. Riley Ellis, Level 3 Researcher
 > 
 > **Foreword:** A GPS tracker was concealed within the computer used for the interview. SCP-████'s new account was traced via private discord messages.
@@ -179,7 +179,7 @@ SCP-████ was discovered by a Foundation WebCrawler after its Twitter acc
 
 [[collapsible show="+Interview Log ████-45"]]
 > **Interviewed:** SCP-████'s 14th Twitter account 
->  
+>  
 > **Interviewer:** D-534-332, 43-year-old White male.
 > 
 > **Additional Party:** Trusted individual of SCP-████
@@ -228,7 +228,7 @@ SCP-████ was discovered by a Foundation WebCrawler after its Twitter acc
 
 A camera and alarm system are positioned outside of SCP-5584-1's reach within its chamber. --SCP-5584-1 spends approximately 23 hours a day sleeping so minimal observation is required.-- SCP-5584-1 requires no rest; should SCP-5584-1 attempt to enter a catatonic state, it is to be awoken immediately via the alarm.
 
- A whiteboard and an internet-accessible terminal with remote monitoring software installed are to be provided for communication and leisure. No audio surveillance is necessary. A single member of Foundation personnel with advanced experience in software development is to keep constant observation over SCP-5584-1's activities, switching out four times daily. The security personnel is to approve every action SCP-5584-1 makes on the terminal before a request is sent over the internet.
+ A whiteboard and an internet-accessible terminal with remote monitoring software installed are to be provided for communication and leisure. No audio surveillance is necessary. A single member of Foundation personnel with advanced experience in software development is to keep constant observation over SCP-5584-1's activities, switching out four times daily. The security personnel is to approve every action SCP-5584-1 makes on the terminal before a request is sent over the internet.
 
 In the event this personnel becomes an instance of SCP-5584-1, backup incapable of reading --both English and Irish-- any language are to remove the original SCP-5584-1's terminal and whiteboard. The new instance of SCP-5584-1 is to be relocated and contained in a standard humanoid cell if possible, otherwise, the control room is to be retrofitted. The new instance of SCP-5584-1 will construct a word filter to prevent further transmission of the infohazard before regular containment returns.
 
@@ -294,7 +294,7 @@ SCP-5584 was recovered following reports from a tourist group describing an anom
 **Addendum-2 Interview:**
 [[collapsible show="+Interview Log 5584-01"]]
 > **Interviewed:** SCP-5584-1
->  
+>  
 > **Interviewer:** Dr. Mattias Brown, Level 3 Researcher
 > 
 > **Foreword:** SCP-5584 was provided with a whiteboard and 1 black whiteboard pen to communicate.
@@ -356,7 +356,7 @@ On 31/01/2019 Senior Researcher Riley Ellis successfully persuaded SCP-5584-2 in
 
 [[collapsible show="+Interview Log 5584-56"]]
 > **Interviewed:** SCP-5584-1
->  
+>  
 > **Interviewer:** Dr. Riley Ellis, Level 3 researcher, and Dr. Mattias Brown, Level 3 Researcher
 > 
 > **Foreword:** A terminal was provided with a text editor and image viewing system for communication outside of the range of SCP-5584-1's tentacles. The whiteboard was temporarily removed from SCP-5584-1's containment chamber.
@@ -385,7 +385,7 @@ I still had //here// to myself you know?
 Now I worry every single day they can read my fucking MIND. How else are they finding my accounts over and over again?
 [[include :scp-wiki:component:discord-chat-source |inc-msg-end= --] ]]
 [[include :scp-wiki:component:discord-chat-source |inc-end= --] ]]
- 
+ 
 > **Dr. Ellis:** Do you recognize these messages? They seem to describe your containment. Could that have been //you// speaking about the surveillance camera up //there//?
 > 
 > [Dr. Ellis gestures to the surveillance camera. SCP-5584-1 begins hyperventilating, looks at Dr. Brown for assistance, then firmly gestures towards the computer with a tentacle. Dr. Ellis displays the next image.]
@@ -461,7 +461,7 @@ I'm getting so desperate, Percy. I'm scared I might do something.
 [[/collapsible]]
 [[collapsible show="+Interview Log 5584-57"]]
 > **Interviewed:** SCP-5584-1
->  
+>  
 > **Interviewer:** Dr. Mattias Brown, Level 3 Researcher
 > 
 > **Foreword:** SCP-5584-1's whiteboard was returned following the previous interview. A second attempt was made by Dr. Brown exclusively.
@@ -504,8 +504,8 @@ I'm getting so desperate, Percy. I'm scared I might do something.
 
 [[div align="center" style="border-radius: 10px;
 background-image: url("https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png"), linear-gradient(#fadfef, #F8BDCF);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 border: dashed 2px #999999;
 padding:10px;
 margin-top: 10px;
@@ -523,16 +523,16 @@ margin-left: 15%;"]]
 
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border-radius: 10px;
 background-image: url("https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png"), linear-gradient(#fff, #eee);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 border: solid 2px #000000;
 width: 88%;
 padding: 1px 15px;
@@ -541,7 +541,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
 .tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
 [[/module]]
- 
+ 
 [[div class="email-example"]]
 [[=]]
 ------

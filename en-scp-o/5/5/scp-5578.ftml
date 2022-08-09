@@ -4,10 +4,10 @@
 --linkColour: #fff;
 }
 .info-container .collapsible-block-content > div:nth-child(1) > p {
-    margin: 0.5em;
+    margin: 0.5em;
 }
 .info-container #u-author_block, .info-container .translation_block{
- display: none;
+ display: none;
 }
 [[/module]]
 [[include :scp-wiki:theme:black-highlighter-theme]]
@@ -18,8 +18,8 @@
 [[include :scp-wiki:theme:magnus-web-format]]
 [[module CSS]]
 :root {
-    --timeScale: 1.5;
-    --timeDelay: 0.5s;
+    --timeScale: 1.5;
+    --timeDelay: 0.5s;
 }
 [[/module]]
 [[module CSS]]
@@ -28,16 +28,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 .Salamin {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.00em;
-  font-style: italic;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.00em;
+  font-style: italic;
 }
 :root {
-    --pale-accent: 158, 105, 0;
-    --bright-accent: 232, 202, 37;
-    --medium-accent: 55, 158, 179;
-    --dark-accent: 38, 53, 113;
-    --alt-accent: 255, 126, 5;
+    --pale-accent: 158, 105, 0;
+    --bright-accent: 232, 202, 37;
+    --medium-accent: 55, 158, 179;
+    --dark-accent: 38, 53, 113;
+    --alt-accent: 255, 126, 5;
 --header-h2-font-size: calc(var(--base-font-size) * 1.05);
 --header-gradient-color-bottom: var(--medium-accent);
 --header-gradient-color-middle: var(--dark-accent);
@@ -56,40 +56,40 @@
 [[/module]]
 [[module CSS]]
 #page-content .collapsible-block {
-    position: relative;
-    padding: 0.5em;
-    margin: 0.5em;
-    box-shadow: 2px 1.5px 1px rgba(176,16,0,0.7), 0 0 0px 1px #263571;
-    overflow-wrap: break-word;
+    position: relative;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 2px 1.5px 1px rgba(176,16,0,0.7), 0 0 0px 1px #263571;
+    overflow-wrap: break-word;
 }
 .addendumtitle {
-   opacity: 0.8;
-   margin-bottom: 10px;
-   color: #263571;
+   opacity: 0.8;
+   margin-bottom: 10px;
+   color: #263571;
 }
 .appeal{
-    border:dotted 1px #000000;
-    background:#F8F8FF;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
-    max-width: 500px;
+    border:dotted 1px #000000;
+    background:#F8F8FF;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+    max-width: 500px;
 }
 .transcript{
-    border:dotted 1px #000000;
-    background:#f2f3f4;
-    width:60%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:dotted 1px #000000;
+    background:#f2f3f4;
+    width:60%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 [[/module]]
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #379eb3; }
+    0% { color: transparent; }
+    50%, 100% { color: #379eb3; }
 }
 .email {border: solid 2px #6e6c67; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,1)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -97,45 +97,45 @@
 [[/module]]
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Courier New", "Courier", monospace;
-    font-style: normal;
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    display: block;
+    overflow: hidden;
+    font-family: "Courier New", "Courier", monospace;
+    font-style: normal;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
 }
 .page p,
 .page ul {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 [[module CSS]]
 .appeal{
-    border:dotted 1px #000000;
-    background:#F8F8FF;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
-    max-width: 500px;
+    border:dotted 1px #000000;
+    background:#F8F8FF;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+    max-width: 500px;
 }
 .log{
-    border:dotted 1px #000000;
-    background:#fdf5e6;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:dotted 1px #000000;
+    background:#fdf5e6;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 [[/module]]
 [[=]]
@@ -211,7 +211,7 @@ When researchers recreated these conditions, SCP-5578 produced 175 characters pe
 
 
 [[collapsible show="+ Addendum #2" hide="- Addendum #2"]]
-__**Transcription Provided by Dr. █████ Kelgood:  05/12/1992**__
+__**Transcription Provided by Dr. █████ Kelgood:  05/12/1992**__
 
 [[div class="blockquote"]]
 **Kelgood:** How are we doing today, 5578?
@@ -244,7 +244,7 @@ __**Transcription Provided by Dr. █████ Kelgood:  05/12/1992**__
 
 //<Dr. █████ Kelgood writes notes before proceeding>//
 
-**Kelgood:**  What was your last memory as Vincent Fox?
+**Kelgood:**  What was your last memory as Vincent Fox?
 
 [[=image VinceDialog2-3-5-5.jpg]]
 
@@ -387,7 +387,7 @@ Dr. Lent, Director of Site-67; On the behalf of Dr. █████ Kelgood
 +++ __**Recommendation:**__
 
 * A memorandum will address facility staff about pending reclassification of SCP-5578.
- 
+ 
 @@ @@
 The following facility requisition is **##grey|REQUESTED##** for initial trial phases of SCP-5578 Reintegration procedure:
 * Site-67 Wing R (Under the direction of Dr. George Lent)
@@ -445,7 +445,7 @@ The requested coffee table was deemed optional. Each of these amenities will hel
 +++ __**Recommendation:**__
 
 * The Committee determines that SCP-5578 may be eligible for **##green|Partial Exemption##** under the Reintegration Protocol, pending decisions regarding "autonomous" legal definition. Provide SCP-5578 with adequate social engagement and maintenance to preserve function until deliberations are complete.
- 
+ 
 @@ @@
 The following facility requisition is **##green|APPROVED##** for initial trial phases of SCP-5578 final Reintegration procedure:
 * Site-48, Variant Wing B
@@ -461,7 +461,7 @@ The following facility requisition is **##green|APPROVED##** for initial trial p
 Testing of 5578's social abilities is deemed to be a **HIGH** priority. When a suitable cross-test subject has been located please inform me or one of my staff. - Dr. Roger Billings
 @@ @@
 **01:03:16 p.m.**
-There happens to be a SCP under my care that needs every cross-test they can receive. I'll tag the file of [https://scp-wiki.wikidot.com/to-the-office-of-thandiwe-tau  SCP-3288-18762]. These two have shared interests of being reintegrated, I think they could each help each other out with ten minutes in 'Chamber 2'. - Dr. Thandiwe Tau
+There happens to be a SCP under my care that needs every cross-test they can receive. I'll tag the file of [https://scp-wiki.wikidot.com/to-the-office-of-thandiwe-tau  SCP-3288-18762]. These two have shared interests of being reintegrated, I think they could each help each other out with ten minutes in 'Chamber 2'. - Dr. Thandiwe Tau
 @@ @@
 **01:44:24 p.m.**
 This one is antisocial, never talked to anyone but his head researcher at the last site. Though that was all down to the fact I would assume the Doc felt Vince had something in common with his old man. I have met Kelgood a few times, though I know he had a really crappy childhood. Vince needs a little extra motivation since his extended absence. - Dr. Roger Billings
@@ -470,7 +470,7 @@ This one is antisocial, never talked to anyone but his head researcher at the la
 Then it's settled, give Krzysztof the file on Vince. It only needs to be an interview, that way they don't waste time or one of them goes off the rails. They will have mutual sympathy for each other, you know that right, Roger? - Dr. Thandiwe Tau
 
 
-__**Transcription Provided by Dr. Thandiwe Tau:  07/20/2022**__
+__**Transcription Provided by Dr. Thandiwe Tau:  07/20/2022**__
 
 [[=]]
 __**##grey|Dr. Tau requested to Dr. Billings a cross examination between SCP-5578, 'Vince', and SCP-3288-18762, 'Krzysztof'.##**__
@@ -540,7 +540,7 @@ __**##grey|Dr. Tau requested to Dr. Billings a cross examination between SCP-557
 > Reintegration Committee logo //et al// edited by [[*user Dr Phil McClaw]]
 > **Filename:** IMG_9970.jpg
 > **Author:** Jason Scott
-> **License:**  Creative Commons Attribution 2.0 Generic
+> **License:**  Creative Commons Attribution 2.0 Generic
 > **Source Link:** [[[*https://commons.wikimedia.org/wiki/File:Living_Computer_Museum_IMG_9970_(9636187383).jpg | Wikimedia]]]
 [[include :scp-wiki:component:license-box-end]]
 

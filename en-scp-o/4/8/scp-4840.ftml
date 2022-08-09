@@ -15,7 +15,7 @@ sup {
 vertical-align: top; position: relative; top: -0.5em;
 }
 #header::before {
-    opacity: 0.9 !important;
+    opacity: 0.9 !important;
 }
 :root{
 --header-subtitle: "Project PARAGON";
@@ -32,55 +32,55 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "djkaktus";
-    color: var(--link-color);
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "djkaktus";
+    color: var(--link-color);
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .anom-bar-container.esoteric .text-part>.main-class::before {
-    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
 }
 
 .anom-bar-container.esoteric .text-part>.main-class::before,
 .anom-bar-container.esoteric .danger-diamond>.top-icon::before {
-    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
-    background-image: url("http://scptestwiki.wikidot.com/local--files/secret:scp-0000/esoteric-icon-ededed.svg");
-    -webkit-filter: initial;
-    filter: initial;
+    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    background-image: url("http://scptestwiki.wikidot.com/local--files/secret:scp-0000/esoteric-icon-ededed.svg");
+    -webkit-filter: initial;
+    filter: initial;
 }
 
 [[/module]]
@@ -168,10 +168,10 @@ While much of SCP-4840 bears markings and the standard symbology of "the City of
 [[include component:image-block name=temple1.png|align=right|caption=The Temple of Sunrise.]]
 * In the entryway to the main hall, two naked children stand at a treeline, seemingly nervously watching the horizon. A wolf and bear stand behind them, protectively. On the wall opposite this mural, [[[dr-clef-s-proposal|a figure with a flaming sword]]] is seen standing on a hill overlooking the trees. 
 * The main hall is decorated with three murals:
- * On the far wall is a brilliant sunrise. SCP-4840 is visible in the foreground. Standing in front of the sunrise is a golden man and two others by his side, with a third set off from the rest. The man holds a long rod with a silver point and wears a shining crown. In the sky above them is a bronze dragon with green eyes. Words are written on the dragon's side reading "THEY WILL KNOW WHAT IS". 
- * On the eastern wall is a scene of a meeting in the Great Hall of Audapaupadopolis. The golden man from the largest mural stands at the foot of a throne, with the two other figures standing to each side of him. The third figure is absent in this image. Before the golden man is a [[[tuftos-proposal|king in crimson robes with a flaming crown]]], extending a hand of friendship. Beside him is a [[[SCP-336|naked woman covered by a snake]]], a [[[the-builder|man made of metal]]], and a [[[to-never-again-see-the-light-of-day|sorcerer in deep purple robes]]]. Other figures stand nearby.
- * On the western wall is the golden man sitting on the throne in the Great Hall. Above his head hovers an [[[SCP-3790|iron crown]]] - it is inlaid with words of an unknown language and set with a shining white jewel. Behind the golden man are several large, monolithic figures: one made of [[[church-of-the-broken-god-hub|gears and steel]]], one made of [[[sarkicism-hub|flesh and blood]]], one made of ice and stone, one made of stars and another made of [[[SCP-3125|eyes]]]. A [[[SCP-179|young woman with long, brilliant white hair]]] hangs in the air before them, pointing south.
- * The southern wall does not contain a mural, just the words: "FOR NOT THE SEA TO SWALLOW THEM AND THE LONG DARK APPROACH" printed in mosaic tile.
+ * On the far wall is a brilliant sunrise. SCP-4840 is visible in the foreground. Standing in front of the sunrise is a golden man and two others by his side, with a third set off from the rest. The man holds a long rod with a silver point and wears a shining crown. In the sky above them is a bronze dragon with green eyes. Words are written on the dragon's side reading "THEY WILL KNOW WHAT IS". 
+ * On the eastern wall is a scene of a meeting in the Great Hall of Audapaupadopolis. The golden man from the largest mural stands at the foot of a throne, with the two other figures standing to each side of him. The third figure is absent in this image. Before the golden man is a [[[tuftos-proposal|king in crimson robes with a flaming crown]]], extending a hand of friendship. Beside him is a [[[SCP-336|naked woman covered by a snake]]], a [[[the-builder|man made of metal]]], and a [[[to-never-again-see-the-light-of-day|sorcerer in deep purple robes]]]. Other figures stand nearby.
+ * On the western wall is the golden man sitting on the throne in the Great Hall. Above his head hovers an [[[SCP-3790|iron crown]]] - it is inlaid with words of an unknown language and set with a shining white jewel. Behind the golden man are several large, monolithic figures: one made of [[[church-of-the-broken-god-hub|gears and steel]]], one made of [[[sarkicism-hub|flesh and blood]]], one made of ice and stone, one made of stars and another made of [[[SCP-3125|eyes]]]. A [[[SCP-179|young woman with long, brilliant white hair]]] hangs in the air before them, pointing south.
+ * The southern wall does not contain a mural, just the words: "FOR NOT THE SEA TO SWALLOW THEM AND THE LONG DARK APPROACH" printed in mosaic tile.
 [[/div]]
 @@@@
 @@@@
@@ -181,8 +181,8 @@ While much of SCP-4840 bears markings and the standard symbology of "the City of
 [[include component:image-block name=temple2.png|align=right|caption=The Temple of Sunset.]]
 * Like the Temple of Sunrise, the Temple of Sunset has a large entryway leading into the main hall of the temple. The entryway contains detailed drawings of cities and towns in and around SCP-4840, as well as a map of the city itself. SCP-4840 is depicted as having large walls and smaller towns and villages surrounding the exterior of the city. To the east is a river with another town on it, and farms stretching far to the north and south along the river. The words "THE LANDS OF MEN" are emblazoned over the top of the mural on the side of the same bronze dragon as depicted in the Temple of Sunrise. A stylized arrow points to the southeast with the words "[[[SCP-140|LANDS OF THE BLOOD KINGS AND NECROMANCERS]]]" written across it. Another arrow points west, with words reading "THE FAR STRANGE WEST".
 * The interior of the main hall is similar in structure to the Temple of Sunset; however, due to the fallen body of SCP-4840-B much of the main hall has been destroyed. A single remaining mural is visible, as is the western edge of another.
- * The remaining mural shows the golden man with the iron crown sitting atop a white horse. Legions of men and women with swords, bows, and axes stand behind him. To either side of him are two figures - likely the same figures from the murals in the Temple of Sunset. One of the figures holds a black sword, and the other a green rod. The golden man holds a long, silver lance in his right hand. Across from the golden man is a scene of gathering storm clouds and lightning, which grows more dramatic the closer it gets to the collapsed wall. At the corner of the wall are depictions of [[[taboo|small humanoid figures, light green in coloration, with brilliantly colored clothing]]]. The figures each have six eyes in two vertical columns.
- * The remaining wall contains more of the small green figures, as well as something large and mottled grey behind them, though most of the wall containing the subject of that mural is collapsed.
+ * The remaining mural shows the golden man with the iron crown sitting atop a white horse. Legions of men and women with swords, bows, and axes stand behind him. To either side of him are two figures - likely the same figures from the murals in the Temple of Sunset. One of the figures holds a black sword, and the other a green rod. The golden man holds a long, silver lance in his right hand. Across from the golden man is a scene of gathering storm clouds and lightning, which grows more dramatic the closer it gets to the collapsed wall. At the corner of the wall are depictions of [[[taboo|small humanoid figures, light green in coloration, with brilliantly colored clothing]]]. The figures each have six eyes in two vertical columns.
+ * The remaining wall contains more of the small green figures, as well as something large and mottled grey behind them, though most of the wall containing the subject of that mural is collapsed.
 * The ceiling of the structure appears to have been painted to match the night sky, though much of it is collapsed and the remaining stars do not match any known constellations in the modern sky.
 [[/div]]
 @@@@

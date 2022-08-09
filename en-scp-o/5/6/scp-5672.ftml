@@ -2,27 +2,27 @@
 
 [[module CSS]]
 div#header h1 a span {
-    font-size: 0px;
+    font-size: 0px;
 }
 div#header h1 a:before {
-    content: "Site-120";
-    color: #eee;
-    
+    content: "Site-120";
+    color: #eee;
+    
 }
 div#header h2 span {
-    font-size:0px;
-    padding: 4px;
+    font-size:0px;
+    padding: 4px;
 }
 div#header h2:after {
-    content: "Fighting Fire With Fire";
-    font-weight: bold;
-    color: #f0f0c0;
-    padding: 19px 0;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
-    white-space: pre;
+    content: "Fighting Fire With Fire";
+    font-weight: bold;
+    color: #f0f0c0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+    white-space: pre;
 }
 #header {
-  background-image: url(https://scp-wiki.wdfiles.com/local--files/inadvertent-neolinguistics/Ontotop.png)
+  background-image: url(https://scp-wiki.wdfiles.com/local--files/inadvertent-neolinguistics/Ontotop.png)
 }
 [[/module]]
 
@@ -89,10 +89,10 @@ I'm truly sorry I couldn't have done more.
 ]]
 
 [[include component:image-block
-    name=https://scp-wiki.wdfiles.com/local--files/scp-5672/cave.jpg |
-    caption=One of the entry tunnels leading into SCP-5672 during an activation event, manifesting a simple self-initiated thaumaturgic ritual.|
-    align=center |
-    width=100%
+    name=https://scp-wiki.wdfiles.com/local--files/scp-5672/cave.jpg |
+    caption=One of the entry tunnels leading into SCP-5672 during an activation event, manifesting a simple self-initiated thaumaturgic ritual.|
+    align=center |
+    width=100%
 ]]
 -----
 

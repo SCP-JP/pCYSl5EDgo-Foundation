@@ -2,24 +2,24 @@
 #header {background-image: url(http://filedmns2.wikidot.com/local--files/dokumentoz/miniSigmaNuclear.png);
 }
 #header h1 a {
-    color: transparent;
-    background: transparent;
-    text-shadow: none;
+    color: transparent;
+    background: transparent;
+    text-shadow: none;
 }
 #header h1 a::before {
-    content: "Nuclear Dream";
-    color: #eee;
-    text-shadow: 3px 3px 5px #242424;
+    content: "Nuclear Dream";
+    color: #eee;
+    text-shadow: 3px 3px 5px #242424;
 }
 #header h2 span {
-    color: transparent;
-    text-shadow: none;
+    color: transparent;
+    text-shadow: none;
 }
 #header h2 span::before {
-    content: 'We Awaken A New Era...';
-     color: #f0f0c0;
-     text-shadow: 1px 1px 1px #000;
-     text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+    content: 'We Awaken A New Era...';
+     color: #f0f0c0;
+     text-shadow: 1px 1px 1px #000;
+     text-shadow: 1px 1px 1px rgba(0,0,0,.8);
 [[/module]]
 [[module CSS]]
 @import url('https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap');
@@ -27,64 +27,64 @@
 .ambrose a{color: #AA9538}
 .menu a::visited{color: #AA9538}
 #main-content .page-tags {
-    border-top: 2px solid rgba(var(--swatch-menubg-medium-color),.5);
+    border-top: 2px solid rgba(var(--swatch-menubg-medium-color),.5);
 }
 #main-content .page-tags a {
-    display: inline-block;
-    height: 0.8125rem;
-    line-height: 13px;
-    line-height: 0.8125rem;
-    font-size: 11px;
-    font-size: 0.6875rem;
-    background: rgb(48, 48, 52);
-    background: rgb(var(--swatch-menubg-dark-color, 48, 48, 52));
-    color: rgb(252, 252, 22);
-    color: rgb(var(--swatch-menutxt-light-color, 252, 252, 252));
-    border-bottom-right-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    margin: 0 0 .5rem .75rem;
-    padding: 0.1875rem 0.3125rem 0.1875rem 0;
+    display: inline-block;
+    height: 0.8125rem;
+    line-height: 13px;
+    line-height: 0.8125rem;
+    font-size: 11px;
+    font-size: 0.6875rem;
+    background: rgb(48, 48, 52);
+    background: rgb(var(--swatch-menubg-dark-color, 48, 48, 52));
+    color: rgb(252, 252, 22);
+    color: rgb(var(--swatch-menutxt-light-color, 252, 252, 252));
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    margin: 0 0 .5rem .75rem;
+    padding: 0.1875rem 0.3125rem 0.1875rem 0;
 }
 #main-content .page-tags a:before {
-    top: -0.1875rem;
-    left: -0.625rem;
-    width: 0;
-    height: 0;
-    border-color:
-     transparent
-     rgb(48, 48, 52)
-     transparent
-     transparent;
-    border-color:
-     transparent
-     rgb(var(--swatch-menubg-dark-color,  48, 48, 52))
-     transparent
-     transparent;
-    border-style: solid;
-    border-width: 0.5rem 0.5rem 0.5rem 0;
-    padding: 0 0.0625rem 0.1875rem;
+    top: -0.1875rem;
+    left: -0.625rem;
+    width: 0;
+    height: 0;
+    border-color:
+     transparent
+     rgb(48, 48, 52)
+     transparent
+     transparent;
+    border-color:
+     transparent
+     rgb(var(--swatch-menubg-dark-color,  48, 48, 52))
+     transparent
+     transparent;
+    border-style: solid;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0 0.0625rem 0.1875rem;
 }
 #main-content .page-tags a:before,
 #main-content .page-tags a:after {
-    content: "";
-    float: left;
-    position: relative;
+    content: "";
+    float: left;
+    position: relative;
 }
 #main-content .page-tags a:after {
-    --box-shadow: rgb(var(--swatch-menubg-dark-color,  48, 48, 52));
-    top: 0.28125rem;
-    left: -0.5rem;
-    width: 0.25rem;
-    height: 0.25rem;
-    border-radius: 0.125rem;
-    background-color: rgb(252, 252, 252);
-    background-color: rgb(var(--swatch-background, 252, 252, 252));
-    box-shadow: -0.0625rem -0.0625rem 0.125rem rgb(48, 48, 52);
-    box-shadow: -0.0625rem -0.0625rem 0.125rem var(--box-shadow);
+    --box-shadow: rgb(var(--swatch-menubg-dark-color,  48, 48, 52));
+    top: 0.28125rem;
+    left: -0.5rem;
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 0.125rem;
+    background-color: rgb(252, 252, 252);
+    background-color: rgb(var(--swatch-background, 252, 252, 252));
+    box-shadow: -0.0625rem -0.0625rem 0.125rem rgb(48, 48, 52);
+    box-shadow: -0.0625rem -0.0625rem 0.125rem var(--box-shadow);
 }
 
 .page-tags span {
-    border-top: .5rem solid transparent;
+    border-top: .5rem solid transparent;
 }
 
 a.collapsible-block-link { font-weight: bold; }
@@ -150,8 +150,8 @@ a.collapsible-block-link { font-weight: bold; }
 ]]
 
 [[include component:image-block
-    name= http://destinox.wikidot.com/local--files/jamcon1/lionfish1.jpg|
-    caption= An SCP-5632 instance in containment |
+    name= http://destinox.wikidot.com/local--files/jamcon1/lionfish1.jpg|
+    caption= An SCP-5632 instance in containment |
 ]]
 
 **Special Containment Procedures:** All instances of SCP-5632 are currently contained in a Type-C Containment Aquarium Tank equipped with bulletproof glass, located in Wing B of Site-22. Only one instance should be withdrawn at a time, and only for study or healthcare purposes.
@@ -172,8 +172,8 @@ Unlike common //Pterois// fish, SCP-5632 instances' dorsal stingers are not comp
 -----
 
 [[include component:image-block
-    name= http://destinox.wikidot.com/local--files/jamcon1/lionfish2.jpg|
-    caption= An SCP-5632 instance during its recovery | align=left
+    name= http://destinox.wikidot.com/local--files/jamcon1/lionfish2.jpg|
+    caption= An SCP-5632 instance during its recovery | align=left
 ]]
 
 SCP-5632 was initially discovered in November 12th 2010 during the sinking of a commercial cargo, later identified as property of GoI-115 ("Radiosol"), near Isla de Sacrificios, Veracruz, México. The investigations undertaken in the area were not able to elucidate a specific reason for the sinking of the ship, although it was theorized that it could be the product of internal sabotage, non-anomalous failures of the vessel or [[http://scp-int.wikidot.com/scp-es-096 DATA EXPUNGED]].
@@ -196,8 +196,8 @@ Below are the documents that could be recovered from the sunken cargo.
 [[collapsible show="+ Enter Level 4/5632 Credentials" hide="- Access Granted"]]
 
 [[include component:image-block
-    name= http://destinox.wikidot.com/local--files/jamcon1/lionfish3.jpg|
-    caption= Photography in unknown context; the individual present in the picture is presumably someone affiliated with, associated with, or otherwise related to Radiosol or SCP-5632 | align=center
+    name= http://destinox.wikidot.com/local--files/jamcon1/lionfish3.jpg|
+    caption= Photography in unknown context; the individual present in the picture is presumably someone affiliated with, associated with, or otherwise related to Radiosol or SCP-5632 | align=center
 ]]
 
 [[div class="ambrose menu" style="border: double 6px #A38800; background-image: radial-gradient(#260047 40%, #18002B); width:603px; padding: 1em; margin: 1em 3em; color: #FFF7D8;"]]
@@ -232,7 +232,7 @@ We look forward to your response, Mr. Villarreal.
 
 Atte:
 
-[[size 160%]] ## #A38800| __@@  @@𝕮𝖍𝖆𝖟 𝕬𝖒𝖇𝖗𝖔𝖘𝖊@@  @@__ ## [[/size]]
+[[size 160%]] ## #A38800| __@@  @@𝕮𝖍𝖆𝖟 𝕬𝖒𝖇𝖗𝖔𝖘𝖊@@  @@__ ## [[/size]]
 
 [[/div]]
 
@@ -262,7 +262,7 @@ We will impatiently await your response, Mr. Ambrose, and we hope you will not i
 
 Sincerely:
 
-[[size 130%]] [[span style="font-family: 'Mr De Haviland', cursive; font-size: 2em; font-weight: bold;"]] __@@   Teresa Bárbara    @@__ [[/span]] [[/size]]
+[[size 130%]] [[span style="font-family: 'Mr De Haviland', cursive; font-size: 2em; font-weight: bold;"]] __@@   Teresa Bárbara    @@__ [[/span]] [[/size]]
 
 [[/div]]
 
@@ -292,7 +292,7 @@ Again, we are very sorry to have accidentally offended your people, and we offer
 
 Atte:
 
-[[size 160%]] ## #A38800| __@@  @@𝕮𝖍𝖆𝖟 𝕬𝖒𝖇𝖗𝖔𝖘𝖊@@  @@__ ## [[/size]]
+[[size 160%]] ## #A38800| __@@  @@𝕮𝖍𝖆𝖟 𝕬𝖒𝖇𝖗𝖔𝖘𝖊@@  @@__ ## [[/size]]
 
 [[/div]]
 
@@ -316,7 +316,7 @@ Thanks for trusting us, Mr. Ambrose. We look forward to keep working together fo
 
 Truly yours:
 
-[[size 130%]] [[span style="font-family: 'Mr De Haviland', cursive; font-size: 2em; font-weight: bold;"]] __@@   Teresa Bárbara    @@__ [[/span]] [[/size]]
+[[size 130%]] [[span style="font-family: 'Mr De Haviland', cursive; font-size: 2em; font-weight: bold;"]] __@@   Teresa Bárbara    @@__ [[/span]] [[/size]]
 
 @@ @@
 

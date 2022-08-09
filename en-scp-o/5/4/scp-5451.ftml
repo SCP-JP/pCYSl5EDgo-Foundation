@@ -3,26 +3,26 @@
 [[module css]]
 
 .post{
-  display: flex;
-  padding: 5%;
+  display: flex;
+  padding: 5%;
 }
 
 .one {
-  width: 15%;
-  float: left;
+  width: 15%;
+  float: left;
 }
 
 .two {
-  margin-left: 5%;
+  margin-left: 5%;
 }
 
 .eno {
-  width: 15%;
-  float: right;
+  width: 15%;
+  float: right;
 }
 
 .owt {
-  margin-right: 5%;
+  margin-right: 5%;
 }
 [[/module]]
 
@@ -30,7 +30,7 @@
 [[module Rate]]
 [[/>]]
 
-[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
 %%content%%
 [[/module]]
 
@@ -38,11 +38,11 @@
 [!-- http://www.scp-wiki.net/fragment:scp-5451-1 --]
 [!-- http://www.scp-wiki.net/fragment:scp-5451-2 --]
 [!-- http://www.scp-wiki.net/fragment:scp-5451-3 --]
- _
+ _
 
-  
+  
 [[footnoteblock]]
- _
+ _
 
 
 [[div class="footer-wikiwalk-nav"]]

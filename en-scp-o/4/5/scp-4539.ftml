@@ -7,15 +7,15 @@
 var myVar = setInterval(myTimer, 200);
 
 function myTimer() {
-  var d = Math.floor((Math.random() * (9999 - 1000)) + 1000);
-  var SCP = "SCP-"
-  document.getElementById("demo").innerHTML = SCP.concat(d.toString());
+  var d = Math.floor((Math.random() * (9999 - 1000)) + 1000);
+  var SCP = "SCP-"
+  document.getElementById("demo").innerHTML = SCP.concat(d.toString());
 }
 </script>
 [[/html]]
 [[include component:image-block
-    name=http://scp-sandbox-3.wikidot.com/local--files/dr-mistopheles/SCPDECIMALINDA.jpg|
-    caption=SCP-DECI, shortly after recovery
+    name=http://scp-sandbox-3.wikidot.com/local--files/dr-mistopheles/SCPDECIMALINDA.jpg|
+    caption=SCP-DECI, shortly after recovery
 ]]
 **Object Class:** Pending
 
@@ -87,7 +87,7 @@ The subject was given a simple maths test, with some questions requiring them to
 > **A:** V **Correct**
 > 
 > **Q:** Which of the following is the correct way to write the numbers 14 and 9 in roman numerals?
-> **Options:** A: XIIII  and VIIII, B: XIV and VIIII, C: XIV and IX, D: XIIII and IX
+> **Options:** A: XIIII  and VIIII, B: XIV and VIIII, C: XIV and IX, D: XIIII and IX
 > **A:** C **Correct**
 > 
 > **Q:** What is 10 + 4? Please write the answer in Roman Numerals.
@@ -100,7 +100,7 @@ The subject was given a simple maths test, with some questions requiring them to
 > **A:** A **Correct**
 > 
 > **Q:** What is 7+7? Please write the answer in hexadecimal format
-> **A:**  N **Incorrect** //Wrong format again!//
+> **A:**  N **Incorrect** //Wrong format again!//
 
 Notes from Dr. Andrews: //These results seem to suggest that the SCP is unable to create errors in a system it hasn't been exposed to. Notably, after the initial Roman numeral questions, it produced answers that were both incorrect and in the wrong format. It only produced more convincing answers after questions illuminated the actual format.// 
 [[/collapsible]]

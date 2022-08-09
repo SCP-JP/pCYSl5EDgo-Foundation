@@ -5,75 +5,75 @@
 
 /* Hide the original page title */
 #page-title {
-  display: none;
+  display: none;
 }
 
 :root {
-  --turbo-block-shadow: none;
+  --turbo-block-shadow: none;
 }
 .turbo-block {
-  margin: 1em 0;
-  text-align: initial;
-  font: 16px pxplus_ibm_vga8regular,monospace;
+  margin: 1em 0;
+  text-align: initial;
+  font: 16px pxplus_ibm_vga8regular,monospace;
 }
 .turbo-block li,
 .turbo-block p {
-  line-height: 16px;
+  line-height: 16px;
 }
 .turbo-block h1,
 .turbo-block h3,
 .turbo-block.text-black .heading p,
 .turbo-block.text-black::after {
-  color: #fff;
-  font-family: pxplus_ibm_vga8regular,monospace;
+  color: #fff;
+  font-family: pxplus_ibm_vga8regular,monospace;
 }
 .turbo-block h1 {
-  margin: initial;
+  margin: initial;
 }
 .turbo-block a {
-  padding: initial;
+  padding: initial;
 }
 .turbo-block.bg-grey a,
 .turbo-block.text-black a {
-  background-color: initial;
-  color: #a00;
+  background-color: initial;
+  color: #a00;
 }
 .turbo-block a:hover {
-  background-color: #fff;
+  background-color: #fff;
 }
 .turbo-block .mathletter {
-  font-style: italic;
-  color: #FFD;
+  font-style: italic;
+  color: #FFD;
 }
 .turbo-block.bg-blue,
 .turbo-block.bg-blue::after,
 .turbo-block.bg-blue > .heading p {
-  background: #22a;
+  background: #22a;
 }
 .turbo-block.bg-blue::after {
-  font-size: 1.5em;
+  font-size: 1.5em;
 }
 .turbo-block.bg-grey,
 .turbo-block.bg-grey::after,
 .turbo-block.bg-grey > .heading p {
-  background: #bbb;
+  background: #bbb;
 }
 .turbo-block.bg-lblue,
 .turbo-block.bg-lblue::after,
 .turbo-block.bg-lblue > .heading p {
-  background: #99f;
+  background: #99f;
 }
 .turbo-block.bg-pink,
 .turbo-block.bg-pink::after,
 .turbo-block.bg-pink > .heading p {
-  background: #c9d;
+  background: #c9d;
 }
 [[/module]]
 [[>]]
 [[Module rate]]
 [[/>]]
 [[=]]
-+  ⚠ SCP-𝕐 is registered as a Class F Infohazard. Proceed with Caution.
++  ⚠ SCP-𝕐 is registered as a Class F Infohazard. Proceed with Caution.
 ++ Attempts to access this file from any system not compatible with Numsafe RGU-𝕐 protocol will be automatically rejected and logged.
 -----
 @@ @@

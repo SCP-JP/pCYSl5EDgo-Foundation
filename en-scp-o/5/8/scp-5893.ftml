@@ -6,8 +6,8 @@
 [[include :scp-wiki:component:acs-animation]]
 [[module CSS]]
 :root {
-    --timeScale: 2;
-    --timeDelay: 0.5s;
+    --timeScale: 2;
+    --timeDelay: 0.5s;
 }
 [[/module]]
 
@@ -24,31 +24,31 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
 
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-style: normal;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
 }
 
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 
@@ -114,7 +114,7 @@ In the case of a containment breach, a Collaborative Task Force consisting of 25
 
 **Description:** SCP-5893 is a herd of specimens that closely resemble the species //Stygimoloch spinifer//[[footnote]]Meaning "Demon of Styx river".[[/footnote]]. Although being similar from a skeletal level, SCP-5893 instances possess several biological differences and properties which divide them from the latter.
 
-The herd consists of 5 male and 17 female specimens, SCP-5893 instances are designated from SCP-5893-1 to SCP-5893-22 respectively.  SCP-5893 specimens are bipedal ornithischian[[footnote]]"Bird-hipped".[[/footnote]] dinosaurs of the clade //Pachycephalosauria//[[footnote]]Meaning "Thick-headed lizards.[[/footnote]]. SCP-5893 specimens are herbivores. 
+The herd consists of 5 male and 17 female specimens, SCP-5893 instances are designated from SCP-5893-1 to SCP-5893-22 respectively.  SCP-5893 specimens are bipedal ornithischian[[footnote]]"Bird-hipped".[[/footnote]] dinosaurs of the clade //Pachycephalosauria//[[footnote]]Meaning "Thick-headed lizards.[[/footnote]]. SCP-5893 specimens are herbivores. 
 
 SCP-5893 instances have an average lifespan of 25 years and have an average height of 1m, an approximate length of 2.5 to 3.3m, and a mass of 90 to 110kg. The hatching period for SCP-5893 specimens is between 6 to 8 months.
 

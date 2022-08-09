@@ -1,33 +1,33 @@
 [[module CSS]]
 
-@import url('https://fonts.googleapis.com/css?family=Exo+2|Just+Another+Hand|Lexend+Peta|Nunito|Playfair+Display|Roboto+Mono|Saira+Stencil+One|Electrolize|Schoolbell&display=swap');  /* General-purpose font imports */
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Just+Another+Hand|Lexend+Peta|Nunito|Playfair+Display|Roboto+Mono|Saira+Stencil+One|Electrolize|Schoolbell&display=swap');  /* General-purpose font imports */
 
 
 .collapsible {
-    border: solid 2px #999999;
-    background: #fdfcff;
-    width: 95%;
-    padding: 1px 15px;
-    margin: 10px auto;
+    border: solid 2px #999999;
+    background: #fdfcff;
+    width: 95%;
+    padding: 1px 15px;
+    margin: 10px auto;
 }
 
 .redCollapsible {
-    border: solid 2px #999999;
-    background: #D7BABA;
-    width: 95%;
-    padding:15px 20px;
-    margin: 10px auto;
+    border: solid 2px #999999;
+    background: #D7BABA;
+    width: 95%;
+    padding:15px 20px;
+    margin: 10px auto;
 }
 
 .logEntry {
-    background-color: #EAEEEE;
-    text-align: left;
-    font-size: 1em;
-    padding: 10px;
-    display: block;
-    width: 92%;
-    display: block;
-    margin: 15px auto 15px auto;
+    background-color: #EAEEEE;
+    text-align: left;
+    font-size: 1em;
+    padding: 10px;
+    display: block;
+    width: 92%;
+    display: block;
+    margin: 15px auto 15px auto;
 }
 
 [[/module]]

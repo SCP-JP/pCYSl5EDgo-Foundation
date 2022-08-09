@@ -3,18 +3,18 @@
 [[include :scp-wiki:component:collapsible-sidebar]]
 [[module CSS]]
 :root {
-    --logo-image: url("http://scp-wiki.wdfiles.com/local--files/limey-s-citrus-corner/enby-bi-pride.png");
+    --logo-image: url("http://scp-wiki.wdfiles.com/local--files/limey-s-citrus-corner/enby-bi-pride.png");
 }
 [[/module]]
 [[module CSS]]
 :root {
-    --fnColor: #f0cc00;
+    --fnColor: #f0cc00;
 }
 [[/module]]
 [[module CSS]]
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 :root {
-    --body-font: Lato, sans-serif;
+    --body-font: Lato, sans-serif;
 }
 [[/module]]
 [[>]]

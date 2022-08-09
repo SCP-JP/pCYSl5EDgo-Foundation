@@ -8,153 +8,153 @@
 [[module css]]
 
 div#container-wrap-wrap:before {
-  z-index: 4010;
-  background: linear-gradient(#444 50%, #000 50%);
-  background-size: 100% 4px;
-  background-repeat: repeat-y;
-  opacity: .14;
-  box-shadow : inset 0px 0px 1px 1px rgba(0, 0, 0, .8);
-  animation: pulse 5s linear infinite;
+  z-index: 4010;
+  background: linear-gradient(#444 50%, #000 50%);
+  background-size: 100% 4px;
+  background-repeat: repeat-y;
+  opacity: .14;
+  box-shadow : inset 0px 0px 1px 1px rgba(0, 0, 0, .8);
+  animation: pulse 5s linear infinite;
 }
- 
+ 
 @keyframes pulse {
-  0%   {transform: scale(1.001);  opacity: .14; }
-  8%   {transform: scale(1.000);  opacity: .13; }
-  15%  {transform: scale(1.004);  opacity: .14; }
-  30%  {transform: scale(1.002);  opacity: .11; }
-  100% {transform: scale(1.000);  opacity: .14; }
+  0%   {transform: scale(1.001);  opacity: .14; }
+  8%   {transform: scale(1.000);  opacity: .13; }
+  15%  {transform: scale(1.004);  opacity: .14; }
+  30%  {transform: scale(1.002);  opacity: .11; }
+  100% {transform: scale(1.000);  opacity: .14; }
 }
- 
+ 
 div#container-wrap {
-  z-index: 4100;
+  z-index: 4100;
 }
- 
+ 
 div#container-wrap:before {
-  content : '';
-  position : absolute;
-  top : 0px;
-  width : 100%;
-  height : 5px;
-  background : #fff;
-  background: linear-gradient(to bottom, rgba(255,0,0,0) 0%,rgba(255,250,250,1) 50%,rgba(255,255,255,0.98) 51%,rgba(255,0,0,0) 100%);
-  opacity : .1;
-  animation: vline 15s linear infinite;
-  z-index: 20;
+  content : '';
+  position : absolute;
+  top : 0px;
+  width : 100%;
+  height : 5px;
+  background : #fff;
+  background: linear-gradient(to bottom, rgba(255,0,0,0) 0%,rgba(255,250,250,1) 50%,rgba(255,255,255,0.98) 51%,rgba(255,0,0,0) 100%);
+  opacity : .1;
+  animation: vline 15s linear infinite;
+  z-index: 20;
 }
- 
+ 
 div#container-wrap:after {
-  box-shadow: 0 2px 6px rgba(25,25,25,0.2),
-              inset 0 1px rgba(50,50,50,0.1),
-              inset 0 3px rgba(50,50,50,0.05),
-              inset 0 3px 8px rgba(64,64,64,0.05),
-              inset 0 -5px 10px rgba(25,25,25,0.1);
+  box-shadow: 0 2px 6px rgba(25,25,25,0.2),
+              inset 0 1px rgba(50,50,50,0.1),
+              inset 0 3px rgba(50,50,50,0.05),
+              inset 0 3px 8px rgba(64,64,64,0.05),
+              inset 0 -5px 10px rgba(25,25,25,0.1);
 }
- 
+ 
 @keyframes vline {
-  0%   { top: 0px;}
-  100% { top: 100%;}
+  0%   { top: 0px;}
+  100% { top: 100%;}
 }
- 
+ 
 div#container::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
-      linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
-  z-index: 20;
-  background-size: 100% 2px, 3px 100%;
-  pointer-events: none;
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+      linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 20;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
 }
- 
+ 
 div#container::after {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(18, 16, 16, 0.1);
-  opacity: 0;
-  z-index: 2;
-  pointer-events: none;
-  animation: flicker 0.15s infinite;
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(18, 16, 16, 0.1);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  animation: flicker 0.15s infinite;
 }
- 
+ 
 @keyframes flicker {
-  0% {
-    opacity: 0.27861;
-  }
-  5% {
-    opacity: 0.34769;
-  }
-  10% {
-    opacity: 0.23604;
-  }
-  15% {
-    opacity: 0.90626;
-  }
-  20% {
-    opacity: 0.18128;
-  }
-  25% {
-    opacity: 0.83891;
-  }
-  30% {
-    opacity: 0.65583;
-  }
-  35% {
-    opacity: 0.67807;
-  }
-  40% {
-    opacity: 0.26559;
-  }
-  45% {
-    opacity: 0.84693;
-  }
-  50% {
-    opacity: 0.96019;
-  }
-  55% {
-    opacity: 0.08594;
-  }
-  60% {
-    opacity: 0.20313;
-  }
-  65% {
-    opacity: 0.71988;
-  }
-  70% {
-    opacity: 0.53455;
-  }
-  75% {
-    opacity: 0.37288;
-  }
-  80% {
-    opacity: 0.71428;
-  }
-  85% {
-    opacity: 0.70419;
-  }
-  90% {
-    opacity: 0.7003;
-  }
-  95% {
-    opacity: 0.36108;
-  }
-  100% {
-    opacity: 0.24387;
-  }
+  0% {
+    opacity: 0.27861;
+  }
+  5% {
+    opacity: 0.34769;
+  }
+  10% {
+    opacity: 0.23604;
+  }
+  15% {
+    opacity: 0.90626;
+  }
+  20% {
+    opacity: 0.18128;
+  }
+  25% {
+    opacity: 0.83891;
+  }
+  30% {
+    opacity: 0.65583;
+  }
+  35% {
+    opacity: 0.67807;
+  }
+  40% {
+    opacity: 0.26559;
+  }
+  45% {
+    opacity: 0.84693;
+  }
+  50% {
+    opacity: 0.96019;
+  }
+  55% {
+    opacity: 0.08594;
+  }
+  60% {
+    opacity: 0.20313;
+  }
+  65% {
+    opacity: 0.71988;
+  }
+  70% {
+    opacity: 0.53455;
+  }
+  75% {
+    opacity: 0.37288;
+  }
+  80% {
+    opacity: 0.71428;
+  }
+  85% {
+    opacity: 0.70419;
+  }
+  90% {
+    opacity: 0.7003;
+  }
+  95% {
+    opacity: 0.36108;
+  }
+  100% {
+    opacity: 0.24387;
+  }
 }
- 
+ 
 sup {
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 
 [[/module]]
@@ -179,115 +179,115 @@ sup {
 
 [[module CSS]]
 .alwrap {
-    position: fixed;
-    top: 15%;
-    left: 10%;
-    max-height: 80%;
-    width: 80%;
-    z-index: 999999;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    max-height: 80%;
+    width: 80%;
+    z-index: 999999;
 }
 @keyframes alwrap {
-    from {opacity: 0;pointer-events: none;}
-    to {opacity: 1;pointer-events: auto;}
+    from {opacity: 0;pointer-events: none;}
+    to {opacity: 1;pointer-events: auto;}
 }
 @keyframes alcon {
-    from {transform: scale(0);}
-    to {transform: none;}
+    from {transform: scale(0);}
+    to {transform: none;}
 }
 .alwrap .unfolded {
-    animation: alwrap 0.25s 0.5s both;
-  background: rgba(230, 230, 230, 0.85);
-    box-shadow: 1px 1px 5px #aaa;
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 1em;
-    text-align: center;
-    z-index: 10;
+    animation: alwrap 0.25s 0.5s both;
+  background: rgba(230, 230, 230, 0.85);
+    box-shadow: 1px 1px 5px #aaa;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1em;
+    text-align: center;
+    z-index: 10;
 }
 .alwrap .unfolded .colmod-content {
-    text-align: center;
+    text-align: center;
 }
 
 .alwrap .colmod-content {
-    padding: 2em;
+    padding: 2em;
 }
 .alwrap .colmod-content .h {
-    animation: alcon 0.25s 0.55s both;
+    animation: alcon 0.25s 0.55s both;
 }
 .alwrap .colmod-content .c {
-    animation: alcon 0.25s 0.65s both;
-    margin-bottom: 1em;
-    max-height: 50vh;
-    overflow-y: scroll;
-    scrollbar-width: none;  
-    -ms-overflow-style: none;
-    -webkit-font-smoothing: antialiased;
+    animation: alcon 0.25s 0.65s both;
+    margin-bottom: 1em;
+    max-height: 50vh;
+    overflow-y: scroll;
+    scrollbar-width: none;  
+    -ms-overflow-style: none;
+    -webkit-font-smoothing: antialiased;
 }
 .alwrap .colmod-content .c::-webkit-scrollbar {
-    display:none;
+    display:none;
 }
 
 .alwrap .foldable-list-container a {
-    display: inline-block;
+    display: inline-block;
 }
 .alwrap .foldable-list-container a:last-child {
-    background: #eee;
-    border: 1px solid #bbb;
-    border-radius: 2px;
-    color: #555;
-    font-weight: bold;
-    padding: 0.3em 0.75em;
-    transition: all 0.25s ease-in;
+    background: #eee;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    color: #555;
+    font-weight: bold;
+    padding: 0.3em 0.75em;
+    transition: all 0.25s ease-in;
 }
 .alwrap .foldable-list-container a:last-child:hover {
-    background: #ddd;
-    border: 1px solid #69d;
-    outline: none;
-    text-decoration: none;
+    background: #ddd;
+    border: 1px solid #69d;
+    outline: none;
+    text-decoration: none;
 }
 .alwrap .foldable-list-container a:last-child:before {
-    content: "";
-    /*background-color: rgba(0,0,0,.2);*/
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
+    content: "";
+    /*background-color: rgba(0,0,0,.2);*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
 }
 
 .alwrap .foldable-list-container a:first-child {
-    background: linear-gradient(#444 50%, #000 50%);
-    border-radius: 50%;
-    bottom: .5rem;
-    color: rgba(200,200,200,.8);
-    display: flex;
-    font-size: 0;
-    height: 3rem;
-    position: fixed;
-    text-shadow: 0 0 .15rem;
-    transition: all .25s ease;
-    right: .5rem;
-    width: 3rem;
+    background: linear-gradient(#444 50%, #000 50%);
+    border-radius: 50%;
+    bottom: .5rem;
+    color: rgba(200,200,200,.8);
+    display: flex;
+    font-size: 0;
+    height: 3rem;
+    position: fixed;
+    text-shadow: 0 0 .15rem;
+    transition: all .25s ease;
+    right: .5rem;
+    width: 3rem;
 }
 .alwrap .foldable-list-container a:first-child:hover {
-    box-shadow: 0 0 0.5rem #999;
-    text-decoration: none;
-    text-shadow: 0 0 .25rem;
+    box-shadow: 0 0 0.5rem #999;
+    text-decoration: none;
+    text-shadow: 0 0 .25rem;
 }
 .alwrap .foldable-list-container a:first-child:before {
-    align-items: center;
-    content: "\f129";
-    display: flex;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 1.6rem;
-    justify-content: center;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    position: relative;
-    transform: translate(0, 0);
-    width: 100%;
+    align-items: center;
+    content: "\f129";
+    display: flex;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 1.6rem;
+    justify-content: center;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    transform: translate(0, 0);
+    width: 100%;
 }
 
 [[/module]]

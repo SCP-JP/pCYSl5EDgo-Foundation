@@ -5,32 +5,32 @@ a.collapsible-block-link { font-weight: bold; }
 .avatar-hover { display: none !important; }
 
 .paper {
-  display:block;
-  background: white;
-  border: 1px solid #EDEDED;
-  margin: 15px auto;
-  padding: .5em 2em;
-  text-align: justify;
-  font-family:georgia;
+  display:block;
+  background: white;
+  border: 1px solid #EDEDED;
+  margin: 15px auto;
+  padding: .5em 2em;
+  text-align: justify;
+  font-family:georgia;
 }
 
 .shadow {
-  width: 85%;
-  box-shadow: 0px 0px 40px -4px lightgray;
-  background:#EDEDED;
-  margin: auto;
+  width: 85%;
+  box-shadow: 0px 0px 40px -4px lightgray;
+  background:#EDEDED;
+  margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
-  .shadow{ width:100%; }
-  .paper{padding: 0 1em;}
+  .shadow{ width:100%; }
+  .paper{padding: 0 1em;}
 }
 
 /* FIXING TEXT OVERLAP ON DIFFERENT SCREEN SIZES */
 
 .appear {display:none;}
 @media only screen and (max-width: 1017px) and (min-width: 961px) {
-  .appear{ display:block; }
+  .appear{ display:block; }
 }
 [[/module]]
 
@@ -70,7 +70,7 @@ a.collapsible-block-link { font-weight: bold; }
 [[/div]]
 
 [[div class="appear"]]
- _
+ _
 [[/div]]
 
 At varied intervals, SCP-5336 will print one or more pages of text. SCP-5336 is unable to receive external print orders of any kind.
@@ -91,7 +91,7 @@ I fear for my own life the way one fears the hunger of a caterpillar: a dull, pe
 What if I was wrong about there being a creature? What if this is but another cruel facet of nature, and that we are all destined to join the decaying mountain?
 [[/div]]
 Are you in that mountain, Floraine?
- _
+ _
 [[/div]]
 
 [[div class="paper"]]
@@ -133,7 +133,7 @@ And praise to being awakened to such a wonderful world!
 [[/div]]
 [[/div]]
 
- _
+ _
 
 **Addendum:** Inspection has revealed that SCP-5336's lens was misaligned when it was discovered, leading to its sensors focusing on a nearby dandelion. 14 hours after properly aligning SCP-5336's lens with the moldy bread, the following page was printed:
 [[collapsible show="▶ ACCESS DOCUMENT" hide="▷ ACCESS GRANTED"]]
@@ -148,8 +148,8 @@ today is good day :)
 [[/collapsible]]
 
 [[footnoteblock]]
- _
- _
+ _
+ _
 [[collapsible show="You Might Also Like..." hide="Feel free to add this collapsible to your own articles!"]]
 [[div class="blockquote"]]
 [[[SCP-6662]]] by [[*user PeppersGhost]]

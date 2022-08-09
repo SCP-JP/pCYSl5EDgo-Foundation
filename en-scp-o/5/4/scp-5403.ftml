@@ -1,32 +1,32 @@
 [[module css]]
 @import url('https://fontlibrary.org/face/comic-relief');
 @font-face {
-  font-family: ComicReliefRegular;
-  src: url("https://fontlibrary.org/face/comic-relief");
+  font-family: ComicReliefRegular;
+  src: url("https://fontlibrary.org/face/comic-relief");
 }
 .comicsans {
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
 }
 .scp-image-block > .no-hover {
-    display: block;
-    transition: .25s;
+    display: block;
+    transition: .25s;
 }
 
 .scp-image-block > .on-hover {
-    display: none;
-    transition: .25s;
+    display: none;
+    transition: .25s;
 }
 
 .scp-image-block:hover > .no-hover {
-    display: none;
+    display: none;
 }
 
 .scp-image-block:hover > .on-hover {
-    display: block;
-    transition: .25s;
-    transform: scale(1.6);
-    transition-delay: .4s;
-    z-index: 1000;
+    display: block;
+    transition: .25s;
+    transform: scale(1.6);
+    transition-delay: .4s;
+    z-index: 1000;
 }
 [[/module]]
 [[include :scp-wiki:theme:classic]]

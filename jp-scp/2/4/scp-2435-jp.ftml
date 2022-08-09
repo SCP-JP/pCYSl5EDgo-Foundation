@@ -2,8 +2,8 @@
 @import url('http://scp-jp.wikidot.com/buried-hub/code/1');
 
 #html-body {
-  -webkit-filter: unset;
-  filter: unset;
+  -webkit-filter: unset;
+  filter: unset;
 }
 
 #header,
@@ -20,31 +20,31 @@
 #page-content .modalbox>div,
 #breadcrumbs,
 .page-tags {
-  filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 div#container-wrap {
-    --c-header: linear-gradient(180deg, black 45%, #616161 100%);
-    --c-topbar: linear-gradient(180deg, #535353 0%, #3c3c3c 53%);
-    background: var(--c-header) top left repeat-x;
-    background-size: 100px 141px;
+    --c-header: linear-gradient(180deg, black 45%, #616161 100%);
+    --c-topbar: linear-gradient(180deg, #535353 0%, #3c3c3c 53%);
+    background: var(--c-header) top left repeat-x;
+    background-size: 100px 141px;
 }
 
 div#container-wrap::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 140px;
-    left: 0;
-    width: 100%;
-    height: 23px;
-    box-shadow: 3px 2px 25px -2px rgba(0,0,0,0.75);
-    background: var(--c-topbar) top left repeat-x;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100%;
+    height: 23px;
+    box-shadow: 3px 2px 25px -2px rgba(0,0,0,0.75);
+    background: var(--c-topbar) top left repeat-x;
 }
 [[/module]]
 
 [[include credit:start]]
-**タイトル:**  SCP-2435-JP - Another One Rides The Hearse !
+**タイトル:**  SCP-2435-JP - Another One Rides The Hearse !
 **著者:** ©︎[[*user VideoGameMonkeyMONO]]
 **作成年:** 2020
 [[include credit:end]]

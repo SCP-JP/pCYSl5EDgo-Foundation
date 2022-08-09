@@ -6,18 +6,18 @@
 |page=scp-4512
 |authorPage=http://www.scp-wiki.net/woedenaz
 |comments=**SCP-4512:** A Goddamn Filthy Teleporting Party Pool 
- 
+ 
 **Authors:** [[*user Woedenaz]] [[*user Uncle Nicolini]] [[*user Rounderhouse]] [[*user DrAnnoyingDog]] 
- 
+ 
 ⇢ [http://www.scp-wiki.net/uncle-nicolini-author-page Uncle Nicolini's Author Page] ⇠
- 
+ 
 ⇢ [http://www.scp-wiki.net/rounderhouse-s-author-page Rounderhouse's Author Page (God help us all)] ⇠
- 
+ 
 ⇢ [http://www.scp-wiki.net/drannoyingdog DrAnnoyingDog's Author Page] ⇠
- 
+ 
 **MANY THANKS TO:** [[*user Croquembouche]], [[*user Tufto]], [[*user Elenee FishTruck]] 
- 
-[https://commons.m.wikimedia.org/wiki/File:Pool_12_2013-07-02.jpg Image credit] --  //Creative Commons Attribution-Share Alike 3.0 Unported, 2.5 Generic, 2.0 Generic and 1.0 Generic license//]]
+ 
+[https://commons.m.wikimedia.org/wiki/File:Pool_12_2013-07-02.jpg Image credit] --  //Creative Commons Attribution-Share Alike 3.0 Unported, 2.5 Generic, 2.0 Generic and 1.0 Generic license//]]
 
 [[include theme:black-highlighter-theme]]
 [[include component:pride-highlighter |inc-lgbt-alt= --]]]
@@ -25,104 +25,104 @@
 [[include :scp-wiki:component:centered-header-bhl]]
 [[module css]]
 #header::before {
-    opacity: 0.9;
+    opacity: 0.9;
 }
 [[/module]]
 
 [[module css]]
 table.wiki-content-table {
-    width: 100%;
+    width: 100%;
 }
 
 .center-header {
-    --wght: 900;
-    font-size: 150%;
-    display: block;
-    width: 100%;
-    height: auto;
-    font-weight: 900;
-    text-align: center;
-    border-bottom: 1px dotted currentColor;
-    padding-bottom: 0.25em;
+    --wght: 900;
+    font-size: 150%;
+    display: block;
+    width: 100%;
+    height: auto;
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 1px dotted currentColor;
+    padding-bottom: 0.25em;
 }
 
 .item-table {
-    font-size: 1em;
-    width: 90%;
-    text-align: center;
-    border-collapse: collapse;
-    margin: 1.250em auto;
+    font-size: 1em;
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 1.250em auto;
 }
 
 .table-header td {
-    --wght: 900;
-    font-size: 1.1em;
-    font-weight: 900;
-    background: #b9c9fe;
-    border-top: 0.250rem solid #aabcfe;
-    border-bottom: 0.0625rem solid #fff;
-    color: #039;
-    text-align: center;
+    --wght: 900;
+    font-size: 1.1em;
+    font-weight: 900;
+    background: #b9c9fe;
+    border-top: 0.250rem solid #aabcfe;
+    border-bottom: 0.0625rem solid #fff;
+    color: #039;
+    text-align: center;
 }
 
 .item-table td {
-    background: #e8edff;
-    border-bottom: 0.125rem solid #fff;
-    border-right: 0.0625rem solid #fff;
-    border-top: 0.125rem solid transparent;
-    border-left: 0.0625rem solid transparent;
-    color: #669;
-    padding: 0.5em;
+    background: #e8edff;
+    border-bottom: 0.125rem solid #fff;
+    border-right: 0.0625rem solid #fff;
+    border-top: 0.125rem solid transparent;
+    border-left: 0.0625rem solid transparent;
+    color: #669;
+    padding: 0.5em;
 }
 
-.item-table  ul {
-    padding-inline-start: 1.5em;
+.item-table  ul {
+    padding-inline-start: 1.5em;
 }
 
 .item-table td:nth-of-type(1), 
 .item-table td:nth-of-type(2) {
-    text-align: center;
+    text-align: center;
 }
 
 div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(2) > tbody > tr > td:nth-child(1) {
-    width: 60%;
+    width: 60%;
 }
 
 div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(2) > tbody > tr > td:nth-child(2) {
-    text-align: left;
+    text-align: left;
 }
 
 #page-content > .collapsible-block {
-    display: block;
-    text-align: center;
-    padding: 0.75em;
-    background-color: lightgrey;
-    border-top: 0.125rem dashed slategrey;
-    border-bottom: 0.125rem dashed slategrey;
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    background-color: lightgrey;
+    border-top: 0.125rem dashed slategrey;
+    border-bottom: 0.125rem dashed slategrey;
 }
 
 #page-content > .collapsible-block .collapsible-block-content {
-    text-align: left;
+    text-align: left;
 }
 
 div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content th {
-    text-align: center;
+    text-align: center;
 }
 
 #page-content > div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(3) > tbody > tr:nth-child(3) > td:nth-child(2) {
-    color: darkred;
-    background-color: rgba(193,31,32,0.25);
-    text-align: center;
-    width: 25%;
+    color: darkred;
+    background-color: rgba(193,31,32,0.25);
+    text-align: center;
+    width: 25%;
 }
 
 #page-content > div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(1) > tbody > tr:nth-child(3) > td:nth-child(2),
 #page-content > div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(2) > tbody > tr:nth-child(3) > td:nth-child(2),
 #page-content > div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(4) > tbody > tr:nth-child(3) > td:nth-child(2) {
-    color: darkgreen;
-    background-color: rgba(90,137,32,0.25);
-    text-align: center;
-    width: 25%;
+    color: darkgreen;
+    background-color: rgba(90,137,32,0.25);
+    text-align: center;
+    width: 25%;
 }
 [[/module]]
 
@@ -153,7 +153,7 @@ Photo of SCP-4512 as it appeared in St. Cloud, MN. Prior to SCP-4512's appearanc
 
 **Description:** SCP-4512 is a 40 square meter sapient swimming pool capable of instantaneous translocation. SCP-4512 exclusively manifests in the rear exterior spaces of homes[[footnote]]SCP-4512 has not appeared behind any other structure other than single-family homes to date.[[/footnote]] in landlocked areas and appears to specifically target the U.S state of Minnesota. During an SCP-4512 manifestation event, the rear exterior space of the home will anomalously expand if necessary to accommodate SCP-4512, at which point SCP-4512 will appear fully depressed into the ground. In 100% of all SCP-4512 manifestations, it has appeared filled with garbage, refuse, plant life, and various objects of unknown origin, regardless of its state of cleanliness prior to its previous demanifestation. 
 
-Objects consistent across all SCP-4512 manifestations include imitation Hawaiian leis, plastic coconut shells, cocktail glasses, bathing suits, and sun lotion bottles.  
+Objects consistent across all SCP-4512 manifestations include imitation Hawaiian leis, plastic coconut shells, cocktail glasses, bathing suits, and sun lotion bottles.  
 
 Other objects of note found within SCP-4512 include:
 

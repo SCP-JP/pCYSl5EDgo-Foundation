@@ -1,51 +1,51 @@
 [[include :topia:component:ectodimensional-theme]]
 [[module css]]
 #header h1 span::before {
-    content: 'SCPF-1998A';
-    color: white;
+    content: 'SCPF-1998A';
+    color: white;
 }
- .rate-box-with-credit-button .fa-info{
-     border-color: #482c68 !important;
-     border-color: var(--fg-med-dark) !important;
-     color: #f3f3f3 !important;
-     color: var(--bg) !important;
+ .rate-box-with-credit-button .fa-info{
+     border-color: #482c68 !important;
+     border-color: var(--fg-med-dark) !important;
+     color: #f3f3f3 !important;
+     color: var(--bg) !important;
 }
- .rate-box-with-credit-button .fa-info:hover{
-     color: #5b2f8e !important;
-     color: var(--fg-light) !important;
+ .rate-box-with-credit-button .fa-info:hover{
+     color: #5b2f8e !important;
+     color: var(--fg-light) !important;
 }
- .rate-box-with-credit-button .cancel{
-     border: none !important;
+ .rate-box-with-credit-button .cancel{
+     border: none !important;
 }
- .close-credits,
- .credit-back{
-     filter: hue-rotate(280deg);
+ .close-credits,
+ .credit-back{
+     filter: hue-rotate(280deg);
 }
 
 .modalbox {
-    border: 3px solid #3e2659;
-    border: 3px solid var(--fg-muted-dark);
-    border-radius: 0;
-    box-shadow: 0 1px 10px rgba(166,37,221,0.3) !important;
+    border: 3px solid #3e2659;
+    border: 3px solid var(--fg-muted-dark);
+    border-radius: 0;
+    box-shadow: 0 1px 10px rgba(166,37,221,0.3) !important;
 }
 
 .modalbox .modalbox-title {
-    background-color: #3e2659;
-    background-color: var(--fg-medium);
-    color: #eee;
-    color: var(--page-title);
-    font-weight: bold;
-    border-radius: 0;
-    border-bottom: 3px solid #3e2659;
-    border-bottom: 3px solid var(--fg-muted-dark);
+    background-color: #3e2659;
+    background-color: var(--fg-medium);
+    color: #eee;
+    color: var(--page-title);
+    font-weight: bold;
+    border-radius: 0;
+    border-bottom: 3px solid #3e2659;
+    border-bottom: 3px solid var(--fg-muted-dark);
 }
 
 .rateBox .rate-box-with-credit-button .creditButton {
-    background-color: #1e122b !important;
-    background-color: var(--fg-dark) !important;
-    border: solid 1px #482c68;
-    border: solid 1px var(--fg-med-dark);
-    border-radius: 0;
+    background-color: #1e122b !important;
+    background-color: var(--fg-dark) !important;
+    border: solid 1px #482c68;
+    border: solid 1px var(--fg-med-dark);
+    border-radius: 0;
 }
 [[/module]]
 
@@ -266,8 +266,8 @@ SCP-2355-JPは体勢を取り直すと、SCP-1890-JP-Bへ向かって突進し�
 > [[=]]
 > [[span class="kou-gyo" style="font-size: 270%;"]]**殉教者・聖ニールセンの記念碑**[[/span]]
 > [[/=]]
->  災厄によって崩壊した亜空間において、ヨアヒム・ニールセン師は多数の遭難者を自らの異能で護り、幾多もの小型宇宙を放浪した末に、アトラルへの集団無装備跳躍を成功させました。力の大半を民衆の保護に注ぎ込んだため、師自身は到達寸前で斃れ、アトラルを望むことは叶いませんでした。教団はその信仰心と果たした功績を讃え、アトラル歴17FB年、師を強勇の守護聖人として列聖しました。今日、師の教えは全汎宇宙に伝播しており、数多の同胞が裸一貫で次元の荒波に挑んでいます。
->  
+>  災厄によって崩壊した亜空間において、ヨアヒム・ニールセン師は多数の遭難者を自らの異能で護り、幾多もの小型宇宙を放浪した末に、アトラルへの集団無装備跳躍を成功させました。力の大半を民衆の保護に注ぎ込んだため、師自身は到達寸前で斃れ、アトラルを望むことは叶いませんでした。教団はその信仰心と果たした功績を讃え、アトラル歴17FB年、師を強勇の守護聖人として列聖しました。今日、師の教えは全汎宇宙に伝播しており、数多の同胞が裸一貫で次元の荒波に挑んでいます。
+>  
 > [[>]]
 > 記　バスク・田井中[[footnote]] 次元路事故の失踪者・田井中 橙次氏の姓と一致しているものの、詳細は不明。 [[/footnote]]・イーライ, アトラル本部上級司祭
 > [[/>]]

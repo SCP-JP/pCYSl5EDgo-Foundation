@@ -1,269 +1,269 @@
 [[module CSS]]
 
 span.skew {
-  display:inline-block;
-  animation: skew 0.5s infinite;
-  height: 1.41em;
+  display:inline-block;
+  animation: skew 0.5s infinite;
+  height: 1.41em;
 }
 @keyframes skew {
-  0% {
-    transform: none;
-  }
-  33% {
-    transform: none;
-  }
-  33.3% {
-    transform: skewX(45deg);
-  }
-  33.4% {
-    transform: skewX(-45deg);
-  }
-  33.5% {
-    transform: none;
-  }
-  66% {
-    transform: none;
-  }
-  66.3% {
-    transform: skewX(20deg);
-  }
-  66.4% {
-    transform: skewX(-20deg);
-  }
-  66.5% {
-    transform: none;
-  }
-  77% {
-    transform: none;
-  }
-  77.3% {
-    transform: skewX(30deg);
-  }
-  77.4% {
-    transform: skewX(-30deg);
-  }
-  77.5% {
-    transform: none;
-  }
+  0% {
+    transform: none;
+  }
+  33% {
+    transform: none;
+  }
+  33.3% {
+    transform: skewX(45deg);
+  }
+  33.4% {
+    transform: skewX(-45deg);
+  }
+  33.5% {
+    transform: none;
+  }
+  66% {
+    transform: none;
+  }
+  66.3% {
+    transform: skewX(20deg);
+  }
+  66.4% {
+    transform: skewX(-20deg);
+  }
+  66.5% {
+    transform: none;
+  }
+  77% {
+    transform: none;
+  }
+  77.3% {
+    transform: skewX(30deg);
+  }
+  77.4% {
+    transform: skewX(-30deg);
+  }
+  77.5% {
+    transform: none;
+  }
 }
 
 span.change-text205 > span {
-    animation: change205 10s steps(1,end) infinite;
+    animation: change205 10s steps(1,end) infinite;
 }
 .change-text205 > span:nth-of-type(2) {
-    animation-delay: -5s;
+    animation-delay: -5s;
 }
 @keyframes change205 {
-    50.00% { font-size:0; }
+    50.00% { font-size:0; }
 }
 
 span.change-text305 > span {
-    animation: change305 15s steps(1,end) infinite;
+    animation: change305 15s steps(1,end) infinite;
 }
 .change-text305 > span:nth-of-type(2) {
-    animation-delay: -10s;
+    animation-delay: -10s;
 }
 .change-text305 > span:nth-of-type(3) {
-    animation-delay: -5s;
+    animation-delay: -5s;
 }
 @keyframes change305 {
-    33.33% { font-size:0; }
+    33.33% { font-size:0; }
 }
 
 span.change-text405 > span {
-    animation: change405 20s steps(1,end) infinite;
+    animation: change405 20s steps(1,end) infinite;
 }
 .change-text405 > span:nth-of-type(2) {
-    animation-delay: -15s;
+    animation-delay: -15s;
 }
 .change-text405 > span:nth-of-type(3) {
-    animation-delay: -10s;
+    animation-delay: -10s;
 }
 .change-text405 > span:nth-of-type(4) {
-    animation-delay: -5s;
+    animation-delay: -5s;
 }
 @keyframes change405 {
-    25.00% { font-size:0; }
+    25.00% { font-size:0; }
 }
 
 span.change-text210 > span {
-    animation: change210 20s steps(1,end) infinite;
+    animation: change210 20s steps(1,end) infinite;
 }
 .change-text210 > span:nth-of-type(2) {
-    animation-delay: -10s;
+    animation-delay: -10s;
 }
 @keyframes change210 {
-    50.00% { font-size:0; }
+    50.00% { font-size:0; }
 }
 
 span.change-text310 > span {
-    animation: change310 30s steps(1,end) infinite;
+    animation: change310 30s steps(1,end) infinite;
 }
 .change-text310 > span:nth-of-type(2) {
-    animation-delay: -20s;
+    animation-delay: -20s;
 }
 .change-text310 > span:nth-of-type(3) {
-    animation-delay: -10s;
+    animation-delay: -10s;
 }
 @keyframes change310 {
-    33.33% { font-size:0; }
+    33.33% { font-size:0; }
 }
 
 span.change-text410 > span {
-    animation: change410 40s steps(1,end) infinite;
+    animation: change410 40s steps(1,end) infinite;
 }
 .change-text410 > span:nth-of-type(2) {
-    animation-delay: -30s;
+    animation-delay: -30s;
 }
 .change-text410 > span:nth-of-type(3) {
-    animation-delay: -20s;
+    animation-delay: -20s;
 }
 .change-text410 > span:nth-of-type(4) {
-    animation-delay: -10s;
+    animation-delay: -10s;
 }
 @keyframes change410 {
-    25.00% { font-size:0; }
+    25.00% { font-size:0; }
 }
 
 span.change-text2XX > span {
-    animation: change2XX 360s steps(1,end) infinite;
+    animation: change2XX 360s steps(1,end) infinite;
 }
 .change-text2XX > span:nth-of-type(2) {
-    animation-delay: -180s;
+    animation-delay: -180s;
 }
 @keyframes change2XX {
-    50.00% { font-size:0; }
+    50.00% { font-size:0; }
 }
 
 span.change-text3XX > span {
-    animation: change3XX 540s steps(1,end) infinite;
+    animation: change3XX 540s steps(1,end) infinite;
 }
 .change-text3XX > span:nth-of-type(2) {
-    animation-delay: -360s;
+    animation-delay: -360s;
 }
 .change-text3XX > span:nth-of-type(3) {
-    animation-delay: -180s;
+    animation-delay: -180s;
 }
 @keyframes change3XX {
-    33.33% { font-size:0; }
+    33.33% { font-size:0; }
 }
 
 span.change-text4XX > span {
-    animation: change4XX 720s steps(1,end) infinite;
+    animation: change4XX 720s steps(1,end) infinite;
 }
 .change-text4XX > span:nth-of-type(2) {
-    animation-delay: -540s;
+    animation-delay: -540s;
 }
 .change-text4XX > span:nth-of-type(3) {
-    animation-delay: -360s;
+    animation-delay: -360s;
 }
 .change-text4XX > span:nth-of-type(4) {
-    animation-delay: -180s;
+    animation-delay: -180s;
 }
 @keyframes change4XX {
-    25.00% { font-size:0; }
+    25.00% { font-size:0; }
 }
 
 .disappearance1 {
-   animation: hide1 15s infinite alternate forwards;
+   animation: hide1 15s infinite alternate forwards;
 }
 @keyframes hide1 {
-  0% {
-    opacity: 1;
-    filter: blur(0);
-  }
-  100% {
-    opacity: 0.7;
-    filter: blur(0.5px);
-  }
+  0% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0.7;
+    filter: blur(0.5px);
+  }
 }
 
 .disappearance2 {
-   animation: hide2 5s infinite alternate forwards;
+   animation: hide2 5s infinite alternate forwards;
 }
 @keyframes hide2 {
-  0% {
-    opacity: 1;
-    filter: blur(0.1px);
-  }
-  100% {
-    opacity: 0.7;
-    filter: blur(1.5px);
-  }
+  0% {
+    opacity: 1;
+    filter: blur(0.1px);
+  }
+  100% {
+    opacity: 0.7;
+    filter: blur(1.5px);
+  }
 }
 
 .disappearance3 {
-   animation: hide3 5s infinite alternate forwards;
+   animation: hide3 5s infinite alternate forwards;
 }
 @keyframes hide3 {
-  0% {
-    opacity: 1;
-    filter: blur(3px);
-  }
-  100% {
-    opacity: 0.7;
-    filter: blur(4px);
-  }
+  0% {
+    opacity: 1;
+    filter: blur(3px);
+  }
+  100% {
+    opacity: 0.7;
+    filter: blur(4px);
+  }
 }
 
 .disappearance4 {
-   animation: hide4 2s infinite alternate forwards;
+   animation: hide4 2s infinite alternate forwards;
 }
 @keyframes hide4 {
-  0% {
-    opacity: 1;
-    filter: blur(0.5px);
-  }
-  100% {
-    opacity: 0.9;
-    filter: blur(1px);
-  }
+  0% {
+    opacity: 1;
+    filter: blur(0.5px);
+  }
+  100% {
+    opacity: 0.9;
+    filter: blur(1px);
+  }
 }
 
 .disappearance5 {
-   animation: hide5 5s infinite alternate forwards;
+   animation: hide5 5s infinite alternate forwards;
 }
 @keyframes hide5 {
-  0% {
-    opacity: 0.9;
-    filter: blur(0);
-  }
-  100% {
-    opacity: 0.7;
-    filter: blur(0);
-  }
+  0% {
+    opacity: 0.9;
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0.7;
+    filter: blur(0);
+  }
 }
 
 .disappearance6 {
-   animation: hide6 5s infinite alternate forwards;
+   animation: hide6 5s infinite alternate forwards;
 }
 @keyframes hide6 {
-  0% {
-    opacity: 0.6;
-    filter: blur(0.8px);
-  }
-  25% {
-    opacity: 0.7;
-    filter: blur(1.5px);
-  }
-  100% {
-    opacity: 0.8;
-    filter: blur(3px);
-  }
+  0% {
+    opacity: 0.6;
+    filter: blur(0.8px);
+  }
+  25% {
+    opacity: 0.7;
+    filter: blur(1.5px);
+  }
+  100% {
+    opacity: 0.8;
+    filter: blur(3px);
+  }
 }
 
 .disappearance7 {
-   animation: hide7 15s infinite alternate forwards;
+   animation: hide7 15s infinite alternate forwards;
 }
 @keyframes hide7 {
-  0% {
-    opacity: 1;
-    filter: blur(0);
-  }
-  100% {
-    opacity: 0.8;
-    filter: blur(0.3px);
-  }
+  0% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0.8;
+    filter: blur(0.3px);
+  }
 }
 
 .textchange div.sitemember:nth-child(2) {
@@ -285,7 +285,7 @@ display:none;
 |clear=true
 |caption=SCP-2636-JPのメインスポットに位置する大水槽。他の水槽と同様に底面が欠落しており、その内容物は画像のように全て喪失している。
 ]]
- _
+ _
 **アイテム番号:** SCP-2636-JP
 
 **オブジェクトクラス:** Euclid
@@ -391,7 +391,7 @@ display:none;
 それ以降、[[span class="disappearance1"]][[span class="skew"]]█名[[/span]][[/span]]のSCP-2636-JPと関連した職員から、上記内容と酷似する夢見の報告が為されましたが、同様に詳細は説明されていません。加えて、いずれの財団職員も、[[span class="disappearance1"]]各自の報告後から数日以内に失踪している[[/span]]点には留意すべきです。これら現象に対する後発的な如何なる調査も、[[span class="disappearance1"]]失踪の要因を特定するには至りません[[/span]]でした。
 
 [[=]]
- _
+ _
 [[span class="disappearance4"]]・[[/span]]
 [[size 0%]] [[/size]]
 [[span class="disappearance4"]]・[[/span]]
@@ -401,7 +401,7 @@ display:none;
 [[span class="disappearance4"]]・[[/span]]
 [[size 0%]] [[/size]]
 [[span class="disappearance4"]]・[[/span]]
- _
+ _
 [[/=]]
 
 [[span class="disappearance2"]]**[[span class="skew change-text305"]][[span]]別紙[[/span]][[span]]何か[[/span]][[span]][？][[/span]][[/span]]:** 以下の音声資料は、縦穴内部の探査試行時に記録されたものです。[[/span]][[span class="disappearance4"]]当該試行に際しては前回と同様、調査員にワイヤー接続された専用ハーネスを装着した上で、上方の大水槽より徐々に降下させていく形で調査が行われていました。[[/span]]
@@ -414,7 +414,7 @@ display:none;
 ]]
 
 [[span class="disappearance4"]]・・・[[/span]]
- _
+ _
 
 [[span class="disappearance3"]]**リース[[/span]][[span class="disappearance4"]]研究員:** [[/span]][[span class="disappearance3"]]調査員、応答しなさい。穴の中に[[/span]][[span class="disappearance4"]]何かが見えますか？[[/span]]
 
@@ -463,14 +463,14 @@ display:none;
 [[span class="disappearance3"]]**リース[[/span]][[span class="disappearance4"]]研究員:** [[/span]][[span class="disappearance3"]]調査員[[/span]][[span class="disappearance4"]]？[[/span]]
 
 [[span class="disappearance5"]]**エバンス博士:** 彼はもう戻れない。[[/span]]
- _
- _
+ _
+ _
 [[span class="disappearance4"]]・・・[[/span]]
- _
+ _
 [[/div]]
 
 [[=]]
- _
+ _
 [[span class="disappearance4"]]・[[/span]]
 [[size 0%]] [[/size]]
 [[span class="disappearance4"]]・[[/span]]
@@ -480,7 +480,7 @@ display:none;
 [[span class="disappearance4"]]・[[/span]]
 [[size 0%]] [[/size]]
 [[span class="disappearance4"]]・[[/span]]
- _
+ _
 [[/=]]
 
 [[span class="disappearance2"]]**[[span class="skew change-text405"]][[span]]会話[[/span]][[span]]想起[[/span]][[span]]対話[[/span]][[span]]回顧[[/span]][[/span]]:** 以下の書き起こしは、失踪直前のエバンス博士と行ったらしき[[span class="skew change-text305"]][[span]]会話[[/span]][[span]]対話[[/span]][[span]]通話[[/span]][[/span]]内容からの抽出です。[[/span]]
@@ -495,9 +495,9 @@ display:none;
 |caption=[いつにこれを見たのか、思い出せない]
 ]]
 
- _
+ _
 [[span class="disappearance4"]]・・・[[/span]]
- _
+ _
 
 [[div class="textchange"]]
 [[module ListUsers users="."]]
@@ -631,8 +631,8 @@ display:none;
 [[span class="disappearance5"]]**博士:** 次に夢で、そこに写り込むはずのない存在を、そこに居なかった者の声を見聞きしたならば。[[/span]] 
 
 [[span class="disappearance5"]]**博士:** 全てに気が付いていない振りをしろ。それは無意味な、ただの夢の出来事だ。[[/span]] 
- _
- _
+ _
+ _
 [[span class="disappearance4"]]・・・[[/span]][[/span]]
 [[/div]]
 @@ @@

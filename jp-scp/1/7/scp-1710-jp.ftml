@@ -1,13 +1,13 @@
 [[module CSS]]
- .report-box{ /* ---- Report Block ---- */
-     margin: 1em 0;
-     padding: 0 1em;
- 
-     background-color: hsl(0, 0%, 100%);
-     border: 2px solid hsl(0, 0%, 5%);
+ .report-box{ /* ---- Report Block ---- */
+     margin: 1em 0;
+     padding: 0 1em;
+ 
+     background-color: hsl(0, 0%, 100%);
+     border: 2px solid hsl(0, 0%, 5%);
 }
- .report-box hr{
-     background: hsl(0, 0%, 5%);
+ .report-box hr{
+     background: hsl(0, 0%, 5%);
 }
 [[/module]]
 
@@ -314,7 +314,7 @@ GoI-484Eの最終目的は聖ショパン、故フレデリック・フランソ
 [[div style="display: inline-block; border-radius: 10px; border:dashed 1px #444444; background:#F5F5F5; float:top; width:96.5%; padding:10px"]]
 イベント・ペルセポネによる国際社会の注目は避けきれず、もはや隠蔽不可能なレベルであるとされたため、GOCとの同意の下に、両者は[[[broken-masquerade-hub|LK-クラス: ”捲くられたヴェール”シナリオ]]]の発生を宣言した。これにより財団・GOCを初めとする正常性維持機関が明るみに出ることとなり、国際社会は一時的に混乱を来すこととなった。現在この混乱は収束しつつあるが、今後の動向は未だ不明瞭であり、財団もまたその将来を危ぶまれている。このことは財団始まって以来の失敗であるとして、強く記憶されねばならない。記憶すべき者がいればの話だが。
 [[>]]
- -- //O5-8//
+ -- //O5-8//
 [[/>]]
 [[/div]]
 
@@ -339,10 +339,10 @@ GoI-484Eの最終目的は聖ショパン、故フレデリック・フランソ
 ------
 
 [[include :scp-wiki:component:earthworm
-  first=true | last=false | hub=yes |
-  previous-url=/ | previous-title=/ |
-  next-url=/early-summer-1998 | next-title=1998年、初夏 |
-  hub-url=/ | hub-title=SCP-1710-JP |
+  first=true | last=false | hub=yes |
+  previous-url=/ | previous-title=/ |
+  next-url=/early-summer-1998 | next-title=1998年、初夏 |
+  hub-url=/ | hub-title=SCP-1710-JP |
 ]]
 
 [[footnoteblock]]
@@ -354,10 +354,10 @@ GoI-484Eの最終目的は聖ショパン、故フレデリック・フランソ
 [[/>]]
 
 [[module css]]
-#u-ratingboxhid {   
- opacity:0.1;  transition: all 0.5s ease-out;
+#u-ratingboxhid {   
+ opacity:0.1;  transition: all 0.5s ease-out;
 }
-#u-ratingboxhid:hover {  
- opacity:1;
+#u-ratingboxhid:hover {  
+ opacity:1;
 }
 [[/module]]

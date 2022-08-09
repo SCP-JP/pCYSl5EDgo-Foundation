@@ -49,8 +49,8 @@ SCiP.netから切断されました
 #u-shut-popup:target ~div .window{
 display: none;
 }
-#u-end:target  ~div .dog,
-#u-shut-popup:target  ~div .dog{
+#u-end:target  ~div .dog,
+#u-shut-popup:target  ~div .dog{
 display: inline;
 }
 
@@ -91,7 +91,7 @@ SCP-2000-JPはコンピュータ/ネットワークセキュリティによる�
 #u-shut-popup:target ~div .window{
 display:none;
 }
-#u-end:target  ~* .hole{
+#u-end:target  ~* .hole{
 pointer-events: none;
 }
 [[/module]]
@@ -166,9 +166,9 @@ pointer-events: none;
 .inuarea{
 display:none;
 }
-#u-back:target  ~.inuarea,
-#u-letter-popup:target  ~.inuarea,
-#u-close:target  ~.inuarea{
+#u-back:target  ~.inuarea,
+#u-letter-popup:target  ~.inuarea,
+#u-close:target  ~.inuarea{
 display:block;
 }
 .inuarea > p{
@@ -540,7 +540,7 @@ display: none;
 [[/div]]
 
 
-[[div class="hole hole0" style="height:200px; width:200px;right: calc(-100%  + 300px)"]]
+[[div class="hole hole0" style="height:200px; width:200px;right: calc(-100%  + 300px)"]]
 [[image http://scp-jp.wikidot.com/local--files/scp-2000-jp/ana_clear.png link="http://scp-jp.wikidot.com/scp-2000-jp/offset/1/page2_limit/1#u-open0"]]
 [[div class="mail" style="right: -100px;"]]
 >> 五條研究員

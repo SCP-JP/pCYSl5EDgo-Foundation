@@ -5,7 +5,7 @@
 [[size 80%]]##757575|by J Dune##[[/size]]
 [[/div]]
 [[module CSS]]
-  .footnoteref{ font-variant: unset; }
+  .footnoteref{ font-variant: unset; }
 [[/module]]
 
 [[include :scp-wiki:component:info-ayers
@@ -14,43 +14,43 @@
 |authorPage=http://www.scp-wiki.net/dr-dune-s-personnel-file
 |comments=
 = **SCP-5697** -
- 
+ 
 -----
 
 X
 
 -----
- 
+ 
 = **Image Credits**
- 
+ 
 ]]
 [[module CSS]]
 sup {
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 
 :root {
-    --cutColour: #fafafa;
-    --barColour: #590505;
+    --cutColour: #fafafa;
+    --barColour: #590505;
 }
 
 .translation_block {
-    display: none;
+    display: none;
 }
 
 .info-container .collapsible-block-folded a {
-    color: #FFF;
+    color: #FFF;
 }
 
 .info-container .collapsible-block-unfolded-link a {
-    color: #FFF;
+    color: #FFF;
 }
 
 .info-container .collapsible-block-link,
 .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 [[/module]]
 [[include theme:black-highlighter-theme]]

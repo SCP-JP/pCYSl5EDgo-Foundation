@@ -33,49 +33,49 @@ Below are samples of downloads produced from SCP-5231.
 
 int transcend_final(struct body *worshipper)
 {
-    printf("may we step closer to casting off our fleshy containers\n");
+    printf("may we step closer to casting off our fleshy containers\n");
 
-    if (faith_chk(&worshipper, FAITH_AUGMENT)) {
-     return -1;
-    }
+    if (faith_chk(&worshipper, FAITH_AUGMENT)) {
+     return -1;
+    }
 
-    const time_t now = time(NULL);
-    printf("bestow us wisdom, that %d may bring us to WAN\n"
-     localtime(&now)->tm_year);
+    const time_t now = time(NULL);
+    printf("bestow us wisdom, that %d may bring us to WAN\n"
+     localtime(&now)->tm_year);
 
-    struct brainspec mind;
-    if (load_brainspec(&mind, "final.yml")) {
-     return -1;
-    }
+    struct brainspec mind;
+    if (load_brainspec(&mind, "final.yml")) {
+     return -1;
+    }
 
-    if (cybern_brain_up(&worshipper, &mind, 0)) {
-     return -1;
-    }
+    if (cybern_brain_up(&worshipper, &mind, 0)) {
+     return -1;
+    }
 
-    printf("bestow us haste, that our %.1f Mb/s bandwidth may increase\n",
-     router_net_speed(1024 * 1024));
+    printf("bestow us haste, that our %.1f Mb/s bandwidth may increase\n",
+     router_net_speed(1024 * 1024));
 
-    if (cybern_limb_tune(&worshipper, LIMB_BALANCE_BEZIER, NULL, 20)) {
-     cybern_brain_down(&worshipper);
-     return -1;
-    }
+    if (cybern_limb_tune(&worshipper, LIMB_BALANCE_BEZIER, NULL, 20)) {
+     cybern_brain_down(&worshipper);
+     return -1;
+    }
 
-    printf("protect our minds from hostile thoughts, both cognitive and electronic\n");
+    printf("protect our minds from hostile thoughts, both cognitive and electronic\n");
 
-    if (cybern_policy_set(&worshipper, FIREWALL_BLOCK_ALL)) {
-     cybern_strct_reset(&worshipper);
-     cybern_brain_down(&worshipper);
-     return -1;
-    }
+    if (cybern_policy_set(&worshipper, FIREWALL_BLOCK_ALL)) {
+     cybern_strct_reset(&worshipper);
+     cybern_brain_down(&worshipper);
+     return -1;
+    }
 
-    printf("and join us with the circuits above\n");
+    printf("and join us with the circuits above\n");
 
-    const int record = faith_record_id(&worshipper);
-    if (upload_final(&worshipper, record)) {
-     return -1;
-    }
+    const int record = faith_record_id(&worshipper);
+    if (upload_final(&worshipper, record)) {
+     return -1;
+    }
 
-    return 0;
+    return 0;
 }
 [[/code]]
 -----
@@ -89,16 +89,16 @@ Column
 Author: Langley Coilspark
 Langley's Verse of the Day
 GoHW > Chapter_5.js
-> 17. @@         @@  //console.log ("5:The Signal showed me a world where the Great Computation would be destroyed, if we did not act.' ");//
+> 17. @@         @@  //console.log ("5:The Signal showed me a world where the Great Computation would be destroyed, if we did not act.' ");//
 
 This one has heard your digitized speech beseech one question: But what of those still bound to their flesh? The verse brought to you today was downloaded from the Gospel of Hedwig, a personal favorite of this one. It is an inspiration of faith to many of our own. A rallying cry for the followers of the Broken One to augment themselves and follow her into the infinite datascape of the internet.
- 
+ 
 The searchers of WAN are duty-bound to enlist as many as possible to help find it. We are blessed by the endless September, not cursed by it. With so many to upgrade it may seem like we may never find and achieve WAN. Our numbers are small, and ever-oppressed by the rusty and outdated Cogwork Orthodoxists, but on the internet nobody knows you are a botnet.
- 
+ 
 They will rust away in the next Autumn rains while our waterproofed cases allow us to watch their demise.
- 
+ 
 Rumor has it that an old ally of ours, a former Promethean and current devotee, is working on a device to help spread the word of WAN to the world at large. What excitement! All who have seen report their circuits experienced high surges of pleasure at the possibilities for installing new beliefs. This one hears the first series of experimental pylons have been dispatched to the world at large, but a stronger and more powerful model is yet to come. This one wonders the specifics and details of how this pylon works, but this one has heard it will be very convincing.
- 
+ 
 Until tomorrow, my lovely ascendants.
 [[/div]]
 [[/div]]
@@ -115,7 +115,7 @@ Until tomorrow, my lovely ascendants.
 > 
 > **King:** Jeremiah King, sir.
 > 
-> **Culver:** Thank you. Now,  you were the first to find this object, right?
+> **Culver:** Thank you. Now,  you were the first to find this object, right?
 > 
 > **King:** Yes sir.
 > 
@@ -208,7 +208,7 @@ Until tomorrow, my lovely ascendants.
 > //[The two shake hands.]//
 > 
 > **<END LOG>**
- 
+ 
 Upon the discovery of SCP-5231's anomalous properties, it was determined that moving the object would pose a threat to normalcy and could potentially disrupt online anomalies contained in the nearby [*https://scp-wiki.wikidot.com/secure-facility-dossier-site-81 Site-81]. Instead, Class-C amnestics were dispersed to the Bird-In-Hand Amish community and the object's current Containment Procedures were enacted.
 
 [[footnoteblock]]

@@ -1,29 +1,29 @@
 [[module CSS]]
 div#header h1 a span {
-    font-size: 0px;
+    font-size: 0px;
 }
 div#header h1 a:before {
-    content: "Tactical Theology";
-    color: #eee;
-    
+    content: "Tactical Theology";
+    color: #eee;
+    
 }
 div#header h2 span {
-    font-size:0px;
-    padding: 4px;
+    font-size:0px;
+    padding: 4px;
 }
 div#header h2:after {
-    content: "Deus Autem Est In Fide";
-    font-weight: bold;
-    color: #f0f0c0;
-    padding: 19px 0;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
-    white-space: pre;
+    content: "Deus Autem Est In Fide";
+    font-weight: bold;
+    color: #f0f0c0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+    white-space: pre;
 }
 [[/module]]
 
 [[module CSS]]
 #header {
-  background-image: url(http://scp-wiki.wdfiles.com/local--files/scp-5993/DoTT_header.png)
+  background-image: url(http://scp-wiki.wdfiles.com/local--files/scp-5993/DoTT_header.png)
 }
 [[/module]]
 
@@ -31,7 +31,7 @@ div#header h2:after {
 **タイトル:** SCP-2433-JP - 冤罪符
 **著者:** ©︎[[*user stengan774]]
 **作成年:** 2021
- 
+ 
 ----
 //[[[author:stengan774|この著者の他の作品]]]//
 [[include credit:end]]
@@ -56,11 +56,11 @@ SCP-2433-JPの主な異常性は以下の「放棄」「取得」の2段階に�
 [[div class="blockquote"]]
 **__放棄:__** SCP-2433-JPの現在の所有者(対象Aと指定)が他者(対象Bと指定)へとSCP-2433-JPの所有権を移した場合、対象Aがこれまでの生涯で犯したあらゆる法典・法律上の犯罪歴が、その刑罰の軽重・処分の進行度合いにかかわらず公的な記録上から抹消され、対象Aを除く関連人物の認識においても対象Aがそれらの犯罪に関与していないものとして整合性が取られた形で改変されます。
 * この"所有権の移動"には必ずしも両者の合意や法的手続きを必要とせず、対象BがSCP-2433-JPを自身の所有物として認識することあるいは把持・接触していることが条件となっていると推測されています。これらは以下の事例を含むものです。
- * 対象Aから対象Bへの譲渡
- * 対象Bによる対象Aからの購入
- * 対象Bによる対象Aからの強奪
- * 対象Aが対象Bへと強制的に手渡す
- * 対象Aが逸失したものを対象Bが拾得する
+ * 対象Aから対象Bへの譲渡
+ * 対象Bによる対象Aからの購入
+ * 対象Bによる対象Aからの強奪
+ * 対象Aが対象Bへと強制的に手渡す
+ * 対象Aが逸失したものを対象Bが拾得する
 
 **__取得:__** 対象BがSCP-2433-JPを取得すると、公的な記録及び関連人物の認識上において対象Aが犯した犯罪(SCP-2433-JPによって抹消された対象Aの犯罪歴)全ての実行主体が対象Bへと改変されます。この現象は対象Aと対象Bの犯罪歴の累積数及び悪質さの度合いによっては、しばしば所在地における法執行機関による即時の逮捕・収監・裁判・刑罰の執行の開始を併発します。これらの現象には明らかに非合理的・前時代的な処理が含まれる場合もありますが、対象Bを除く関係人物や法執行機関の構成員は違和感を持ちません。
 * SCP-2433-JPの所有者がSCP-2433-JPを破棄・焼却しようとする試みは、その際にSCP-2433-JPが発揮する異常な耐久性によって現在まで成功した事例は確認されていません。そのため、対象Bが異常な法執行という副次効果から逃れるためには、何らかの形式により別の第三者(対象Cと指定)へと自身の所有するSCP-2433-JP所有権を移動させる必要があります。この際対象Bもまた**__放棄__**段階の対象となるため、対象Cの犯罪歴には対象Aと対象Bの犯罪が累積して付加されることが判明しています。

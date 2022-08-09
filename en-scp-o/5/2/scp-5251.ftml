@@ -9,66 +9,66 @@
 #header h2 span::before,
 #login-status,
 .no {
-  color: transparent;
-  text-shadow: none;
+  color: transparent;
+  text-shadow: none;
 }
 /* The redaction character is a little too wide compared to the average Verdana 
- * character (for Latin text), so thin it a little */
+ * character (for Latin text), so thin it a little */
 .no {
-  letter-spacing: -1px;
+  letter-spacing: -1px;
 }
 
 /* Hide the original page title */
 #page-title {
-  display: none;
+  display: none;
 }
 
 /* Make my fake page title look like the original (thanks SCP-2998) */
 .page-title {
-  border-bottom: solid 1px #bbbbbb;
-  color: #990011;
-  font-weight: normal;
-  margin: 0 0 0.6em;
-  padding: 0 0 0.25em;
-  font-size: 200%;
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
 }
 .page-title p {
-  margin: 0;
+  margin: 0;
 }
 
 /* Notices at the top of the page */
 .notice {
-  border: solid 1px #999999;
-  background: #f2f2c2;
-  padding: 5px;
-  text-align: center;
-  margin: 1rem;
+  border: solid 1px #999999;
+  background: #f2f2c2;
+  padding: 5px;
+  text-align: center;
+  margin: 1rem;
 }
 .raisa.notice {
-  background: #f2f2c2;
+  background: #f2f2c2;
 }
 
 /* Parawatch forum pseudo-blockquotes
- * The CSS for component:parawatch-forum-post is normally provided by
- * theme:creepypasta, which isn't used here */
+ * The CSS for component:parawatch-forum-post is normally provided by
+ * theme:creepypasta, which isn't used here */
 .parapost {
-  background-color: var(--post-bg-color);
-  border: 2px solid var(--post-border-color);
-  border-left-width: 4px;
-  padding: 0 1em;
-  margin-top: -0.5em;
-  margin-right: var(--post-base-margin);
-  margin-bottom: 1em;
-  margin-left: calc(
-    var(--nest-level) * var(--post-nest-margin) + var(--post-base-margin)
-  );
+  background-color: var(--post-bg-color);
+  border: 2px solid var(--post-border-color);
+  border-left-width: 4px;
+  padding: 0 1em;
+  margin-top: -0.5em;
+  margin-right: var(--post-base-margin);
+  margin-bottom: 1em;
+  margin-left: calc(
+    var(--nest-level) * var(--post-nest-margin) + var(--post-base-margin)
+  );
 }
 
 :root {
-  --post-bg-color: #f9f9f9;
-  --post-border-color: #999;
-  --post-nest-margin: 1em;
-  --post-base-margin: 3em;
+  --post-bg-color: #f9f9f9;
+  --post-border-color: #999;
+  --post-nest-margin: 1em;
+  --post-base-margin: 3em;
 }
 
 .reply0 { margin-top: 1em; border-left-width: 6px; --nest-level: 0; }
@@ -77,36 +77,36 @@
 .reply3 { --nest-level: 3; }
 .reply4 { --nest-level: 4; }
 .reply5 { --nest-level: 5; }
- 
+ 
 @media (min-width: 480px) and (max-width: 580px) {
-  :root {
-    --post-nest-margin: 0.5em;
-    --post-base-margin: 0.5em;
-  }
+  :root {
+    --post-nest-margin: 0.5em;
+    --post-base-margin: 0.5em;
+  }
 }
- 
+ 
 @media (max-width: 479px) {
-  :root {
-    --post-nest-margin: 1em;
-    --post-base-margin: 0em;
-  }
+  :root {
+    --post-nest-margin: 1em;
+    --post-base-margin: 0em;
+  }
 }
 
 /* Colours for each character */
 .parapost {
-  --post-bg-color: hsl(var(--char-hue), 33.3%, 97%);
-  --post-border-color: hsl(var(--char-hue), 33.3%, 50%);
+  --post-bg-color: hsl(var(--char-hue), 33.3%, 97%);
+  --post-border-color: hsl(var(--char-hue), 33.3%, 50%);
 }
 .parapost p:first-child > span:first-child {
-  color: var(--post-border-color) !important;
+  color: var(--post-border-color) !important;
 }
 .parapost hr {
-  background-color: var(--post-border-color);
+  background-color: var(--post-border-color);
 }
-.by-limonova  { --char-hue: 0; }
+.by-limonova  { --char-hue: 0; }
 .by-vershinin { --char-hue: 240; }
-.by-petrov    { --char-hue: 300; }
-.by-mcfenton  { --char-hue: 120; }
+.by-petrov    { --char-hue: 300; }
+.by-mcfenton  { --char-hue: 120; }
 [[/module]]
 
 [[div class="page-title" style="display: block;" id="#page-title"]]
@@ -143,7 +143,7 @@ This notice takes priority over the Special Containment Procedures below, which 
 27.09.1993
 [[/div]]
 
- _
+ _
 
 **Item #:** SCP-[[span class="no"]]████[[/span]]
 
@@ -153,7 +153,7 @@ This notice takes priority over the Special Containment Procedures below, which 
 
 **Description:** SCP-[[span class="no"]]████ ██ █ █████[[/span]]-[[span class="no"]]█████ ███████ ███████[[/span]]. In all respects including [[span class="no"]]█████████████[[/span]] it is [[span class="no"]]█████████ ██ █ ███████ ███████ ███████[[/span]], however once [[span class="no"]]███████[[/span]], [[span class="no"]]██ ██████ ██ ██████ ███████████ ████ ███ ███████████ ████[[/span]]. Nearby objects [[span class="no"]]██████ █████[[/span]] and [[span class="no"]]██████████████[[/span]], and objects with known properties -- for example, a fountain pen of known monetary value -- [[span class="no"]]██████ ███████[[/span]]. [[span class="no"]]███ ██████ ███████ ██ ████████ ██ █████████ ████ ███████ ███████ █████████ ██ ███ ███████[[/span]].
 
-SCP-[[span class="no"]]████ ███ ██████████ ██ ███ █████████ ██ █ ████ ██████ ██ ████[[/span]], [[span class="no"]]███████[[/span]], [[span class="no"]]█[[/span]].[[span class="no"]]█[[/span]].[[span class="no"]]█[[/span]].[[span class="no"]]█[[/span]]. in [[span class="no"]]████[[/span]]. [[span class="no"]]█████ ██ ██ ███ █████[[/span]] how SCP-[[span class="no"]]████[[/span]]  came into the possession of [[span class="no"]]██[[/span]]. [[span class="no"]]██████[[/span]], [[span class="no"]]██ ███[[/span]] seemingly been aware [[span class="no"]]██ ███ █████████ ██████████[[/span]], [[span class="no"]]██ █████████████ ████ █████ ██ ███ ███████ ██ ███ ████████ ████ ████ ██████████ ██ ██████████ ██ ████████ ███ █████ ████ ██ ███ ██████[[/span]].
+SCP-[[span class="no"]]████ ███ ██████████ ██ ███ █████████ ██ █ ████ ██████ ██ ████[[/span]], [[span class="no"]]███████[[/span]], [[span class="no"]]█[[/span]].[[span class="no"]]█[[/span]].[[span class="no"]]█[[/span]].[[span class="no"]]█[[/span]]. in [[span class="no"]]████[[/span]]. [[span class="no"]]█████ ██ ██ ███ █████[[/span]] how SCP-[[span class="no"]]████[[/span]]  came into the possession of [[span class="no"]]██[[/span]]. [[span class="no"]]██████[[/span]], [[span class="no"]]██ ███[[/span]] seemingly been aware [[span class="no"]]██ ███ █████████ ██████████[[/span]], [[span class="no"]]██ █████████████ ████ █████ ██ ███ ███████ ██ ███ ████████ ████ ████ ██████████ ██ ██████████ ██ ████████ ███ █████ ████ ██ ███ ██████[[/span]].
 
 [[span class="no"]]██ ████ ████ ██ ██ ███ █████ █████ ████ ██████ ██[[/span]], [[span class="no"]]███ ██ ███ ████ ██████ ██[[/span]] PoI-[[span class="no"]]████[[/span]].
 
@@ -180,7 +180,7 @@ SCP-[[span class="no"]]████ ███ ██████████ █
 | username=Dr. R Vershinin | color=blue
 | date=15.09.1993 (TUE) | postno=5251E01M02
 | depth=1 by-vershinin | content=Honestly, I'm just in shock that we're not re-treading ground covered by [[span class="no"]]███ ████████ ██████[[/span]]. It's a little odd that he never worked this out himself. It seems so obvious. _
- _
+ _
 [[span class="no"]]█████████[[/span]] received. I'll give this a look over when I have time.
 ]]
 
@@ -230,7 +230,7 @@ SCP-[[span class="no"]]████ ███ ██████████ █
 | username=Dr. R Vershinin | color=blue
 | date=16.09.1993 (WED) | postno=5251E01M08
 | depth=1 by-vershinin | content=You might be right, but it still worries me. It's a small concern, yes, but something just doesn't add up. Why would he be hiding it if he thought it was just a [[span class="no"]]███████ ███████[[/span]]? And that doesn't explain why he also had a completely normal one. I don't know anybody who has two. _
- _
+ _
 Also, please reply to comments by clicking the link below them. You're confusing the thread.
 ]]
 
@@ -250,13 +250,13 @@ Also, please reply to comments by clicking the link below them. You're confusing
 | username=Dr. K Limonova | color=blue
 | date=16.09.1993 (WED) | postno=5251E01M11
 | depth=1 by-limonova | content=It's {{clf reply HASH}}, where HASH is the ID of the message you're replying to. You can add a message with {{-m}} if you want otherwise it just drops you into your editor, where you can see what you're replying to as a comment beneath the typing area. _
- _
+ _
 For what it's worth, I don't actually care about you [[span class="no"]]███████ ████ ███████[[/span]] in it, but at least bother to take notes while you do it because then it would constitute a test. _
- _
+ _
 Until then, I am just going to ignore you until you have something valid to contribute.
 ]]
 
- _
+ _
 
 [[div class="blockquote"]]
 **Experiment Log 02**
@@ -293,7 +293,7 @@ Until then, I am just going to ignore you until you have something valid to cont
 | username=Dr. S Petrov | color=blue
 | date=18.09.1993 (FRI) | postno=5251E02M06
 | depth=3 by-petrov | content=I don't see it. _
- _
+ _
 EDIT: I've found the file but it's empty.
 ]]
 
@@ -345,7 +345,7 @@ EDIT: I've found the file but it's empty.
 | depth=5 by-vershinin | content=Thanks.
 ]]
 
- _
+ _
 
 [[div class="blockquote"]]
 **Experiment Log 03**
@@ -460,7 +460,7 @@ EDIT: I've found the file but it's empty.
 | depth=1 by-petrov | content=Hello?
 ]]
 
- _
+ _
 
 [[div class="blockquote"]]
 **Experiment Log 04**
@@ -579,7 +579,7 @@ EDIT: I've found the file but it's empty.
 | username=Dr. K Limonova | color=blue
 | date=25.09.1993 (FRI) | postno=5251E04M20
 | depth=5 by-limonova | content=No! Don't write anything down. We can't trust any recorded information. _
- _
+ _
 EDIT: Actually, no, do write things down. Even if we're not sure whether the notes or the memories are correct, it will be useful to have a reference for comparison.
 ]]
 
@@ -599,7 +599,7 @@ EDIT: Actually, no, do write things down. Even if we're not sure whether the not
 | username=Dr. K Limonova | color=blue
 | date=25.09.1993 (FRI) | postno=5251E04M16
 | depth=3 by-limonova | content=[[span class="no"]]██████[[/span]], if you are reading this, then you need to find some way to communicate with us. The project thread is not working. Leave notes. Carve shit into the walls of my office. Find me and scream in my face. Injure me. Anything to prove that you exist. Keep going until you are acknowledged. _
- _
+ _
 We will reconvene in the morning with our results. I'm going to treat this internally as an experiment.
 ]]
 
@@ -609,7 +609,7 @@ We will reconvene in the morning with our results. I'm going to treat this inter
 | depth=4 by-petrov | content=[[span class="no"]]███ ███ ███████[[/span]]? [[span class="no"]]██████ ███[[/span]]? [[span class="no"]]█[[/span]]'[[span class="no"]]██ ██ █████████[[/span]] -- [[span class="no"]]█[[/span]]'[[span class="no"]]██ █████ ██ █████████[[/span]] -- [[span class="no"]]███ ███ ████[[/span]].
 ]]
 
- _
+ _
 
 [[div class="blockquote"]]
 **Experiment Log 05**
@@ -626,7 +626,7 @@ We will reconvene in the morning with our results. I'm going to treat this inter
 | username=Dr. K Limonova | color=blue
 | date=26.09.1993 (SAT) | postno=5251E05M01
 | depth=0 by-limonova | content=I recall that yesterday I was working with Ranek Vershinin and Sam McFenton. I am completely confident in this recollection. I have not reread prior messages and I have no intent to: I am certain that my memory is correct. _
- _
+ _
 What did we find out last night?
 ]]
 
@@ -646,7 +646,7 @@ What did we find out last night?
 | username=Dr. R Vershinin | color=blue
 | date=26.09.1993 (SAT) | postno=5251E05M04
 | depth=0 by-vershinin | content=Kseniya, I am so sorry, it is Saturday and I did not turn on my alarm clock. _
- _
+ _
 I've gone over our messages from yesterday. I can't find any 'holes', as you put it. Your missing person just doesn't exist -- the SCP must have planted that memory inside us. It's just been me, you, and Sam.
 ]]
 
@@ -702,7 +702,7 @@ I've gone over our messages from yesterday. I can't find any 'holes', as you put
 | username=S McFenton | color=blue
 | date=26.09.1993 (SAT) | postno=5251E05M14
 | depth=2 by-mcfenton | content=I am so sorry. How about this: there were no significant events that night before 19:02 and after 19:10. _
- _
+ _
 **Attachment: recording_snippet_19930926T190200Z.mp1**
 ]]
 
@@ -728,7 +728,7 @@ I've gone over our messages from yesterday. I can't find any 'holes', as you put
 | username=Dr. R Vershinin | color=blue
 | date=26.09.1993 (SAT) | postno=5251E05M17
 | depth=1 by-vershinin | content=...no. I can't. _
- _
+ _
 I can honestly say I have no idea who you are talking about.
 ]]
 
@@ -766,7 +766,7 @@ I can honestly say I have no idea who you are talking about.
 | username=HMCL Supervisor K Limonova | color=blue
 | date=04.11.2013 (MON) | postno=5251E05M88
 | depth=4 by-limonova | content=No, it's not. And the same to you. It's only been twenty years for me, but I don't think either of us know how long it's been for you. I can't imagine what that feels like. _
- _
+ _
 I need you to do something, and you need to do it as soon as you can. The drug that Sam ingested is growing more potent by the second. It will reach its critical point far before she metabolises it. She will be able to perceive you by 16:53, though I don't know exactly when. She'll be dead less than ten minutes later. It is imperative that she passes on a message to me. Do you understand?
 ]]
 
@@ -774,7 +774,7 @@ I need you to do something, and you need to do it as soon as you can. The drug t
 | username=Dr. S Petrov | color=blue
 | date=26.09.1993 (SAT) | postno=5251E05M26
 | depth=4 by-petrov | content=[[span class="no"]]███[[/span]], [[span class="no"]]██ ██████[[/span]] -- [[span class="no"]]█ ████ ███[[/span]]'[[span class="no"]]█ ██████████ ███ ██ ███ ████████ ██ █████████████ ██ ███[[/span]]. [[span class="no"]]█[[/span]]'[[span class="no"]]█[[/span]]... [[span class="no"]]████[[/span]]? [[span class="no"]]█ █████[[/span]]? [[span class="no"]]███ ███[[/span]]'[[span class="no"]]██ ██ ███ ██████[[/span]]? _
- _
+ _
 [[span class="no"]]██ ████ █████████ ██ ██ ████ ███[[/span]]-[[span class="no"]]████[[/span]]? [[span class="no"]]██ ██ ███████ █ ██████ ██ ███████ ██ ██[[/span]] -- [[span class="no"]]███ ███████ ████ █[[/span]]'[[span class="no"]]█ ███████ █████ ███[[/span]]? [[span class="no"]]█ ███ ██ ████████ ██ ████ █████████[[/span]]. [[span class="no"]]██ █████ ██[[/span]]'[[span class="no"]]█ ███ ████ █ ███ ████ ███ █████████ █████[[/span]]. [[span class="no"]]██[[/span]]'[[span class="no"]]█ ██ ███████████ █████ ██ ████████████ ████ ████████ ████[[/span]]. [[span class="no"]]███ ███ ██ ██████ ██ ███[[/span]]?
 ]]
 
@@ -782,9 +782,9 @@ I need you to do something, and you need to do it as soon as you can. The drug t
 | username=HMCL Supervisor K Limonova | color=blue
 | date=04.11.2013 (MON) | postno=5251E05M89
 | depth=4 by-limonova | content=Do NOT discuss it, don't talk about it, don't even theorise; you'll [[span class="no"]]████ ████ ██ █████[[/span]]. I won't confirm anything to you until I know it's safe. Your situation is precarious. _
- _
+ _
 No, you're not dead. I think it's better if you don't know the details, for now. _
- _
+ _
 I know you have questions. They have to wait. You need to tell me, via Sam, to shut down the project and stop research; to stop discussing it; to lock the file. Otherwise [[span class="no"]]██[[/span]]'[[span class="no"]]██ ███ ███ ██ ████ ███[[/span]]. I can see the messages between you and her already so I know you do an excellent job. I believe in you.
 ]]
 
@@ -798,7 +798,7 @@ I know you have questions. They have to wait. You need to tell me, via Sam, to s
 | username=HMCL Supervisor K Limonova | color=blue
 | date=04.11.2013 (MON) | postno=5251E05M90
 | depth=4 by-limonova | content=You get to save us. Isn't that enough? _
- _
+ _
 We'll find a way to save you. I promise.
 ]]
 
@@ -806,9 +806,9 @@ We'll find a way to save you. I promise.
 | username=Dr. K Limonova | color=blue
 | date=26.09.1993 (SAT) | postno=5251E05M19
 | depth=2 by-limonova | content=Okay, thank you. _
- _
+ _
 His name is [[span class="no"]]██████ ██████[[/span]]. _
- _
+ _
 Ranek, Sam, please repeat the name back to me.
 ]]
 
@@ -828,7 +828,7 @@ Ranek, Sam, please repeat the name back to me.
 | username=Dr. K Limonova | color=blue
 | date=26.09.1993 (SAT) | postno=5251E05M22
 | depth=4 by-limonova | content=Six and six are the lengths of his given name and surname. _
- _
+ _
 It's a little scary that I remember his name, but I don't have a clue what he looked like.
 ]]
 
@@ -902,7 +902,7 @@ It's a little scary that I remember his name, but I don't have a clue what he lo
 | username=Dr. S Petrov | color=blue
 | date=26.09.1993 (SAT) | postno=5251E05M52
 | depth=5 by-petrov | content=[[span class="no"]]█[[/span]]... [[span class="no"]]███[[/span]]'[[span class="no"]]█ █████ ████[[/span]]'[[span class="no"]]█ █████ ██ ██ ████████[[/span]]. [[span class="no"]]███ ███ █ ████ ████[[/span]], [[span class="no"]]██████[[/span]]. _
- _
+ _
 [[span class="no"]]█ █████ ██ █ ██████ ███████ ██ ███████[[/span]], [[span class="no"]]████ ████[[/span]]. [[span class="no"]]███ ████ ██ ██ ████ ████ ████ ███[[/span]], [[span class="no"]]███████ ███ ████ ████ ███[[/span]]'[[span class="no"]]█ ██ ███ ████ ██████ ███[[/span]]'[[span class="no"]]█ ██ ████ ██ ███ ██ ██ ████████████ ███████ ██[[/span]].
 ]]
 
@@ -1060,7 +1060,7 @@ It's a little scary that I remember his name, but I don't have a clue what he lo
 | username=Dr. R Vershinin | color=blue
 | date=27.09.1993 (SUN) | postno=5251E05M64
 | depth=5 by-vershinin | content=I can't answer that, Kseniya, because I don't fucking know him, do I? He's gone! He never existed! The fucking anomaly made him up. Surely you can see that. _
- _
+ _
 You killed her. You killed her for nothing. I'm out.
 ]]
 
@@ -1074,9 +1074,9 @@ You killed her. You killed her for nothing. I'm out.
 | username=Dr. K Limonova | color=blue
 | date=27.09.1993 (SUN) | postno=5251E05M66
 | depth=0 by-limonova | content=Whatever you are, you win. One person is dead, one person hates me, and one might not have existed at all. It's just me now, and I'm done. _
- _
+ _
 I don't know if you can read this -- it certainly feels like it -- but I want you to know that I hate you. _
- _
+ _
 I'm going to lock the file. That's what you wanted, right? Have it.
 ]]
 
@@ -1102,7 +1102,7 @@ I'm going to lock the file. That's what you wanted, right? Have it.
 | username=HMCL Supervisor K Limonova | color=blue
 | date=04.11.2013 (MON) | postno=5251E05M91
 | depth=1 by-limonova | content=Of course I am. I'm in the future; I'm always 'still there'. You did good. Saved our lives. Me and Ranek, that is. It was too late for Sam. And for you. _
- _
+ _
 Maybe, back then, I would've locked the file anyway. But I had to be sure. I'm sorry that I had to use you for that. Besides -- Sam, and her faith in you, was the only thing between me and believing that you didn't exist. Without your help we probably wouldn't be having this conversation.
 ]]
 
@@ -1110,7 +1110,7 @@ Maybe, back then, I would've locked the file anyway. But I had to be sure. I'm s
 | username=Dr. S Petrov | color=blue
 | date=27.09.1993 (SUN) | postno=5251E05M70
 | depth=2 by-petrov | content=[[span class="no"]]███ █████ █████████ ███ ███ ███ ████ ██ ██[[/span]]. _
- _
+ _
 [[span class="no"]]███ ████[[/span]]'[[span class="no"]]█ ████ ██ ████ ███ █████ ███ ███ ███ ███ ███[[/span]]. [[span class="no"]]████ ███ █████[[/span]]. [[span class="no"]]█ ███ ██████ ████ ███[[/span]]'[[span class="no"]]█ ███ ███████[[/span]], [[span class="no"]]███ █ ██████[[/span]]'[[span class="no"]]█ ████ ████ ████ ██ ██ █████ █████[[/span]]. [[span class="no"]]███ ███ ████[[/span]], [[span class="no"]]████[[/span]]'[[span class="no"]]█ ███[[/span]]?
 ]]
 
@@ -1118,9 +1118,9 @@ Maybe, back then, I would've locked the file anyway. But I had to be sure. I'm s
 | username=HMCL Supervisor K Limonova | color=blue
 | date=04.11.2013 (MON) | postno=5251E05M92
 | depth=3 by-limonova | content=And I'll never be able to. Not if you want me to still be able to talk to you. I think just one person knowing how it works is safe. _
- _
+ _
 Of course I knew. But if I'd told you, would you have done it? _
- _
+ _
 You have to remember that it's not your fault. I set that wheel in motion, not you. You only took advantage of it, and even that was under my instruction. I feel far worse about it than you do, believe me.
 ]]
 
@@ -1128,7 +1128,7 @@ You have to remember that it's not your fault. I set that wheel in motion, not y
 | username=Dr. S Petrov | color=blue
 | date=27.09.1993 (SUN) | postno=5251E05M71
 | depth=4 by-petrov | content=[[span class="no"]]███ ████ ██ ████████ ██ ████ █ ███[[/span]]... _
- _
+ _
 [[span class="no"]]███████[[/span]]. [[span class="no"]]████[[/span]]'[[span class="no"]]█ ████[[/span]]. [[span class="no"]]███ █ ██ █████[[/span]]?
 ]]
 
@@ -1160,7 +1160,7 @@ You have to remember that it's not your fault. I set that wheel in motion, not y
 | username=HMCL Supervisor K Limonova | color=blue
 | date=04.11.2013 (MON) | postno=5251E05M95
 | depth=5 by-limonova | content=Ha! Sure. My old office. _
- _
+ _
 Alright, I'll see you there tomorrow. Mnestics in 2013 are absolutely safe, for sure. I'll make sure I maintain my dose until then -- it's not like I'll be able to forget to top up!
 ]]
 
@@ -1198,9 +1198,9 @@ Alright, I'll see you there tomorrow. Mnestics in 2013 are absolutely safe, for 
 | username=HMCL Supervisor K Limonova | color=blue
 | date=04.11.2013 (MON) | postno=5251E05M98
 | depth=5 by-limonova | content=I don't know. He never would have admitted it, even to himself. _
- _
+ _
 Try and hold that thought for 2013. It'll keep you going. _
- _
+ _
 I'd keep you company, but I don't see you replying to me at all between your time and mine, so I don't think I can. But stay strong. I believe in you.
 ]]
 
@@ -1208,7 +1208,7 @@ I'd keep you company, but I don't see you replying to me at all between your tim
 | username=Dr. S Petrov | color=blue
 | date=27.09.1993 (SUN) | postno=5251E05M77
 | depth=5 by-petrov | content=[[span class="no"]]█[[/span]]'[[span class="no"]]██ ███[[/span]]. _
- _
+ _
 [[span class="no"]]██████[[/span]], [[span class="no"]]███████[[/span]]. [[span class="no"]]█ ██████████ ██[[/span]]. [[span class="no"]]█[[/span]]'[[span class="no"]]██ ███ ███ ████[[/span]].
 ]]
 
@@ -1243,7 +1243,7 @@ I'd keep you company, but I don't see you replying to me at all between your tim
 [[span class="no"]]██ ██████ ███████ ███ ██[[/span]]; _
 [[span class="no"]]███ ████████ ████ ███ ████ █████████[[/span]] _
 [[span class="no"]]███ ███████████[[/span]]. _
- _
+ _
 [[span class="no"]]██ ██████ █████[[/span]], [[span class="no"]]██ ████ ██ █████[[/span]], _
 [[span class="no"]]███ █ ███ ███ ████[[/span]] _
 [[span class="no"]]██ ██████[[/span]], [[span class="no"]]███ ██ ███████ ███[[/span]], _
@@ -1254,7 +1254,7 @@ I'd keep you company, but I don't see you replying to me at all between your tim
 | username=Dr. S Petrov | color=blue
 | date=01.09.2005 (THU) | postno=5251E05M83
 | depth=0 by-petrov | content=[[span class="no"]]█ ████ ████[[/span]]. [[span class="no"]]███ █████[[/span]]. [[span class="no"]]███ ██████[[/span]]. _
- _
+ _
 [[span class="no"]]███ ████[[/span]], [[span class="no"]]███████[[/span]], [[span class="no"]]███ ███████ ███[[/span]]'[[span class="no"]]█ ██ ███ ██████[[/span]], [[span class="no"]]███[[/span]]'[[span class="no"]]██ ████ █ ██████ ████ ███ ██ ██████████[[/span]].
 ]]
 
@@ -1336,7 +1336,7 @@ The very last note is in a ListPages module. This is so that it'll update every 
 [[/div]]
 [[/module]]
 
- _
+ _
 
 [[div class="footer-wikiwalk-nav"]]
 [[=]]

@@ -193,20 +193,20 @@
 
 [[module CSS]]
 .creditRate {
-    margin: 0 0 1em 0;
+    margin: 0 0 1em 0;
 }
 .classification-header .right-box {
-    --level0: 102,51,51;
-    font-weight: bold;
+    --level0: 102,51,51;
+    font-weight: bold;
 }
 @media (min-width: 580px) and (max-width: 766px) {
-    .classification-header {
-        font-size: 1.25em;
-    }
+    .classification-header {
+        font-size: 1.25em;
+    }
 }
 @media (min-width: 840px) {
-    .classification-header {
-        font-size: 1.25em;
-    }
+    .classification-header {
+        font-size: 1.25em;
+    }
 }
 [[/module]]

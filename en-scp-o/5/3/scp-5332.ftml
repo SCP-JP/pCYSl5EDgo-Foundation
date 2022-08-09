@@ -3,35 +3,35 @@
 
 [[module CSS]]
 .box {
-    position: relative;
-    padding: 0.5em;
-    margin: 0.5em;
-    box-shadow: 2px 1.5px 1px rgba(176,16,0,0.7), 0 0 0px 1px lightgrey;
-    overflow-wrap: break-word;
-    color: black;
+    position: relative;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 2px 1.5px 1px rgba(176,16,0,0.7), 0 0 0px 1px lightgrey;
+    overflow-wrap: break-word;
+    color: black;
 }
 
 /* Utilizes the "paper" div made by CityToast and found in the Unusual Cargo theme.*/
- 
+ 
 div.paper {
-    background: linear-gradient(rgba(220, 240, 240, 0.3), rgba(240, 240, 220, 0.5)), url("https://scp-wiki.wdfiles.com/local--files/theme:unusual-Cargo/TOAST-PAPER.jpg");
-    box-shadow: 4px 6px 8px #a98;
-    padding: 1em .5em 1em .5em;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+    background: linear-gradient(rgba(220, 240, 240, 0.3), rgba(240, 240, 220, 0.5)), url("https://scp-wiki.wdfiles.com/local--files/theme:unusual-Cargo/TOAST-PAPER.jpg");
+    box-shadow: 4px 6px 8px #a98;
+    padding: 1em .5em 1em .5em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
- 
+ 
 @media (max-width: 478px) {
-    div.paper {
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    Margin: .5em 0em .5em 0em;
-    }
+    div.paper {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    Margin: .5em 0em .5em 0em;
+    }
 }
 
 [[/module]]
@@ -106,5 +106,5 @@ Upon investigation by STF[[span class="fnnum"]].[[/span]][[span class="fncon"]]S
 [[/div]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

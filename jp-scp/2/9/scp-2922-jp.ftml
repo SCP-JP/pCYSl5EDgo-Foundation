@@ -1,23 +1,23 @@
 [[module CSS arguments...]]
 #page-title {
-  display: none;
+  display: none;
 }
 .fake_title {
-  font-size: 200%;
-  color: #990011;
-  padding: 0 0 0.25em;
-  margin: 0 0 0.6em;
-  border-bottom: 1px solid #bbb;
-  font-weight: normal;
+  font-size: 200%;
+  color: #990011;
+  padding: 0 0 0.25em;
+  margin: 0 0 0.6em;
+  border-bottom: 1px solid #bbb;
+  font-weight: normal;
 }
 .fake_title p {
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 @media (max-width: 600px) {
-    div#header {
-        background-size: ;
-    }
+    div#header {
+        background-size: ;
+    }
 }
 [[/module]]
 
@@ -29,7 +29,7 @@
 **タイトル:** SCF-2922 - 今にも降り出しそうな星月の夜に
 **著者:** ©︎[[*user stengan774]]
 **作成年:** 2021
- 
+ 
 ----
 //[[[author:stengan774|この著者の他の作品]]]//
 [[include credit:end]]

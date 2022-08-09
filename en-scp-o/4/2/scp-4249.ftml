@@ -12,32 +12,32 @@
 [[/=]]
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
 
-   
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
-    
+   
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 
@@ -49,8 +49,8 @@
 ]]
 ----
 [[include component:image-block
-    name=bay.jpg |
-    caption=SCP-4249-1.
+    name=bay.jpg |
+    caption=SCP-4249-1.
 ]]
 
 **Special Containment Procedures:** SCP-4249-α is to be stored in a standard object storage locker. Provisional Research Site-4249 is to be maintained by no less than 10 reseachers and serve as a staging point for MTF-Delta-8 "Couch Surfers". In the event any SCP-4249-A instance breaches into Provisional Research Site-4249, the facility is to be locked down and MTF-Delta-6 authorized to use lethal force to subdue the SCP-4249-A instance.
@@ -63,7 +63,7 @@ SCP-4249-1 is populated by several subspecies of SCP-4249-A. SCP-4249-A collecti
 
 **Addendum:** List of all currently known SCP-4249-A subtypes. Blue designations signify a docile entity, and red designations signify a hostile and dangerous entity.
 
-[[table  style="border-collapse:collapse; width: 600px;"]]
+[[table  style="border-collapse:collapse; width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
 SCP-4249-A SUBTYPE
@@ -211,9 +211,9 @@ This shall be my second trip into one of the spirit realms. My good friend Senho
 [[size 125%]]
 
 [[include component:image-block
-    name=buddies.jpg|
-    caption=Photo attached to Document 4249.1, presumably Jose de Santos & Senhor Oliveira.|
-    width=180px
+    name=buddies.jpg|
+    caption=Photo attached to Document 4249.1, presumably Jose de Santos & Senhor Oliveira.|
+    width=180px
 ]]
 
 November First, The Year of Our Lord 1857

@@ -4,87 +4,87 @@
 
 [[include :scp-wiki:theme:black-highlighter-theme]]
 [[include :scp-wiki:theme:ch-scp-theme]]
-[[include :scp-wiki:component:centered-header-bhl  |ch-scp=--]]]
+[[include :scp-wiki:component:centered-header-bhl  |ch-scp=--]]]
 [[include :scp-wiki:component:toggle-sidebar-bhl]]
 
 [[module css]]
 [id*="toc"] {
-    text-align: center;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    --wght: 400;
-    font-family: var(--body-font);
-    font-weight: 400;
+    --wght: 400;
+    font-family: var(--body-font);
+    font-weight: 400;
 }
 
 #page-content > br:first-of-type {
-    display: none;
+    display: none;
 }
 
 .center-header {
-    --wght: 900;
-    font-size: 125%;
-    font-family: var(--title-font);
-    font-weight: 900;
-    display: flex;
-    height: auto;
-    text-align: center;
-    background-color: rgb(var(--bright-accent));
-    background-image: url(https://scp-wiki.wdfiles.com/local--files/theme:ch-scp-theme/subtle_white_mini_waves.png);
-    background-blend-mode: screen;
-    color: rgb(var(--white-monochrome));
-    padding: 0.25em;
-    justify-content: center;
-    align-items: center;
+    --wght: 900;
+    font-size: 125%;
+    font-family: var(--title-font);
+    font-weight: 900;
+    display: flex;
+    height: auto;
+    text-align: center;
+    background-color: rgb(var(--bright-accent));
+    background-image: url(https://scp-wiki.wdfiles.com/local--files/theme:ch-scp-theme/subtle_white_mini_waves.png);
+    background-blend-mode: screen;
+    color: rgb(var(--white-monochrome));
+    padding: 0.25em;
+    justify-content: center;
+    align-items: center;
 }
 
 .scp-image-block.block-right {
-    margin: 0em 0 1em 2em;
+    margin: 0em 0 1em 2em;
 }
 
 .scp-image-block.block-left {
-    margin: 2em 2em 1em 1em;
+    margin: 2em 2em 1em 1em;
 }
 
 .scp-image-block img {
-    min-width: 100%;
-    border: 0.5rem solid rgba(var(--pale-gray-monochrome));
-    box-sizing: border-box;
+    min-width: 100%;
+    border: 0.5rem solid rgba(var(--pale-gray-monochrome));
+    box-sizing: border-box;
 }
 
 div.notebox {
-    width: 90%;
-    margin: 0 auto;
-    background: rgba(var(--white-monochrome),0.15);
-    text-align: center;
-    border: 0.0625rem dashed rgb(var(--dark-accent));
-    padding: 1em;
-    font-size: 90%;
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(var(--white-monochrome),0.15);
+    text-align: center;
+    border: 0.0625rem dashed rgb(var(--dark-accent));
+    padding: 1em;
+    font-size: 90%;
 }
 
 div.discbox [id*="toc"] {
-    text-align: center;
-    background: rgb(var(--bright-accent));
-    color: rgb(var(--white-monochrome));
-    margin-top: 0;
-    background-image: url(https://scp-wiki.wdfiles.com/local--files/theme:ch-scp-theme/subtle_white_mini_waves.png);
-    background-blend-mode: screen;
+    text-align: center;
+    background: rgb(var(--bright-accent));
+    color: rgb(var(--white-monochrome));
+    margin-top: 0;
+    background-image: url(https://scp-wiki.wdfiles.com/local--files/theme:ch-scp-theme/subtle_white_mini_waves.png);
+    background-blend-mode: screen;
 }
 
 div.discbox [id*="toc"] a[id*="footnoteref"] {
-    color: rgb(var(--white-monochrome));
+    color: rgb(var(--white-monochrome));
 }
 
 div.discbox {
-    border: 0.25rem solid rgb(var(--bright-accent));
-    padding: 0.5em;
-    margin: 0.5em;
+    border: 0.25rem solid rgb(var(--bright-accent));
+    padding: 0.5em;
+    margin: 0.5em;
 }
 
 div.notebox *,
 div.discbox * {
-    box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Report Code */
@@ -92,36 +92,36 @@ div.discbox * {
 div.fnd_report,
 div.fnd_testing,
 div.fnd_chreport {
-    border: 0.125rem dotted rgba(var(--gray-monochrome),0.5);
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgba(var(--gray-monochrome),0.06);
-    border-radius: 1rem;
-    overflow: hidden;
-    position: relative;
+    border: 0.125rem dotted rgba(var(--gray-monochrome),0.5);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(var(--gray-monochrome),0.06);
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
 }
 
 div.fnd_chreport {
-    background: url("https://scp-wiki.wdfiles.com/local--files/scp-4522/scpchlogo_invsm.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: left 0.5rem top 0.5rem;
-    border-radius: 0;
+    background: url("https://scp-wiki.wdfiles.com/local--files/scp-4522/scpchlogo_invsm.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left 0.5rem top 0.5rem;
+    border-radius: 0;
 }
 
 div.fnd_report::before,
 div.fnd_testing::before,
-div.fnd_chreport::before  {
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("https://scp-wiki.wdfiles.com/local--files/theme:ch-scp-theme/subtle_white_mini_waves.png");
-    z-index: 1;
-    pointer-events: none;
-    mix-blend-mode: screen;
+div.fnd_chreport::before  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:ch-scp-theme/subtle_white_mini_waves.png");
+    z-index: 1;
+    pointer-events: none;
+    mix-blend-mode: screen;
 }
 
 div.fnd_report,
@@ -130,7 +130,7 @@ div.fnd_testing,
 div.fnd_testing *,
 div.fnd_chreport,
 div.fnd_chreport * {
-    box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -138,62 +138,62 @@ div.fnd_report div.header,
 div.fnd_report div.footer,
 div.fnd_testing div.header,
 div.fnd_chreport div.header {
-    --wght: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    font-family: var(--header-font);
-    font-size: 150%;
-    font-weight: 500;
-    border-bottom: 0.125rem dotted rgba(var(--gray-monochrome),0.5);
-    width: 100%;
-    background: rgba(var(--bright-accent),0.25);
-    background-image: url(https://scp-wiki.wdfiles.com/local--files/scp-4522/IJAMEA_10.png);
-    background-size: cover;
-    text-align: center;
-    line-height: 100%;
+    --wght: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-family: var(--header-font);
+    font-size: 150%;
+    font-weight: 500;
+    border-bottom: 0.125rem dotted rgba(var(--gray-monochrome),0.5);
+    width: 100%;
+    background: rgba(var(--bright-accent),0.25);
+    background-image: url(https://scp-wiki.wdfiles.com/local--files/scp-4522/IJAMEA_10.png);
+    background-size: cover;
+    text-align: center;
+    line-height: 100%;
 }
 
 div.fnd_chreport div.header {
-    background-image: initial;
-    background: rgba(var(--dark-accent),0.25);
+    background-image: initial;
+    background: rgba(var(--dark-accent),0.25);
 }
 
 div.fnd_testing div.header {
-    flex-direction: column;
-    height: auto;
-    border: 0px;
+    flex-direction: column;
+    height: auto;
+    border: 0px;
 }
 
 div.fnd_testing div.header p {
-    margin: 0.25em 0;
+    margin: 0.25em 0;
 }
 
 div.fnd_report div.footer {
-    padding: 0;
-    height: auto;
+    padding: 0;
+    height: auto;
 }
 
 div.fnd_report div.header > div.left,
 div.fnd_report div.footer > div.left {
-    white-space: nowrap;
-    padding: 0.5em;
+    white-space: nowrap;
+    padding: 0.5em;
 }
 
 div.fnd_report div.header > div.right,
 div.fnd_report div.footer > div.right {
-    font-size: 70%;
-    line-height: 100%;
-    padding: 0.25em 0;
+    font-size: 70%;
+    line-height: 100%;
+    padding: 0.25em 0;
 }
 
 div.fnd_report div.report_text,
 div.fnd_testing div.report_text,
 div.fnd_chreport div.report_text {
-    padding: 1em;
-    width: 100%;
-    border-top: 0.125rem dotted rgba(var(--gray-monochrome),0.5);
+    padding: 1em;
+    width: 100%;
+    border-top: 0.125rem dotted rgba(var(--gray-monochrome),0.5);
 }
 
 div.fnd_report div.compile, 
@@ -204,19 +204,19 @@ div.fnd_report div.urgent,
 div.fnd_report div.useful,
 div.fnd_report div.collected,
 div.fnd_report div.approval {
-    flex-grow: 2;
-    flex-basis: 30%;
-    max-width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-grow: 2;
+    flex-basis: 30%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 div.fnd_report div.collected,
 div.fnd_report div.approval {
-    align-self: flex-start;
+    align-self: flex-start;
 }
 
 div.fnd_report div.compile > div, 
@@ -227,112 +227,112 @@ div.fnd_report div.urgent > div,
 div.fnd_report div.useful > div,
 div.fnd_report div.collected > div,
 div.fnd_report div.approval > div {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div.fnd_report div.collected > div,
 div.fnd_report div.approval > div {
-    padding: 0.5em;
+    padding: 0.5em;
 }
 
 div.fnd_report div.top {
-    --wght: 500;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 500;
-    font-size: 70%;
-    background: rgba(var(--gray-monochrome),0.15);
-    padding: 0.25em;
+    --wght: 500;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 70%;
+    background: rgba(var(--gray-monochrome),0.15);
+    padding: 0.25em;
 }
 
 div.fnd_report div.bottom {
-    flex-grow: 2;
+    flex-grow: 2;
 }
 
 #page-content ul {
-    padding: 0 1em;
-    width: calc(100% - 2em);
-    list-style-position: inside;
-    list-style: none;
+    padding: 0 1em;
+    width: calc(100% - 2em);
+    list-style-position: inside;
+    list-style: none;
 }
 
 #page-content ul li {
-    padding: 0 0 1em 2em;
+    padding: 0 0 1em 2em;
 }
 
 #page-content ul li::before {
-    content: "";
-    color: rgb(var(--swatch-menubg-dark-color));
-    font-family: var(--header-font);
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+    content: "";
+    color: rgb(var(--swatch-menubg-dark-color));
+    font-family: var(--header-font);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 div.report_text div.rec_record {
-    width: 100%;
-    display: flex;
-    border-bottom: 0.125rem dotted rgba(var(--dark-accent));
+    width: 100%;
+    display: flex;
+    border-bottom: 0.125rem dotted rgba(var(--dark-accent));
 }
 
 div.report_text div.rec_record > div {
-    padding: 1rem;
+    padding: 1rem;
 }
 
 div.report_text div.rec_record div.timestamp {
-    max-width: 4rem !important;
-    text-decoration-skip-ink: auto;
-    border-right: 0.125rem dotted rgba(var(--dark-accent));
-    font-family: var(--mono-font);
-    font-size: 80%;
+    max-width: 4rem !important;
+    text-decoration-skip-ink: auto;
+    border-right: 0.125rem dotted rgba(var(--dark-accent));
+    font-family: var(--mono-font);
+    font-size: 80%;
 }
 
 div.report_text div.rec_record div.time_description.head {
-    --wght: 500;
-    display: flex;
-    align-items: flex-end;
-    font-size: 125%;
-    font-family: var(--mono-font);
-    font-weight: 500;
+    --wght: 500;
+    display: flex;
+    align-items: flex-end;
+    font-size: 125%;
+    font-family: var(--mono-font);
+    font-weight: 500;
 }
 
 span.audio, span.video {
-    display: inline-block;
-    width: 100%;
-    padding: 0;
-    font-family: var(--mono-font);
-    font-size: 90%;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    font-family: var(--mono-font);
+    font-size: 90%;
 }
 
 span.video {
-    padding-top: 1em;
+    padding-top: 1em;
 }
 
 /* collapsible block */
 
 #page-content > .collapsible-block {
-    display: block;
-    text-align: center;
-    padding: 0.75em;
-    background-color: rgba(var(--gray-monochrome),0.1);
-    border-top: 0.125rem dashed rgba(var(--dark-accent),1);
-    border-bottom: 0.125rem dashed rgba(var(--dark-accent),1);
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    background-color: rgba(var(--gray-monochrome),0.1);
+    border-top: 0.125rem dashed rgba(var(--dark-accent),1);
+    border-bottom: 0.125rem dashed rgba(var(--dark-accent),1);
 }
 
 #page-content > .collapsible-block .collapsible-block-content {
-    text-align: left;
+    text-align: left;
 }
 
 @media only screen and (max-width: 768px) {
 
-    .scp-image-block.block-right,
-    .scp-image-block.block-left {
-    	margin: 1em 0 2em 1em;
-    	padding: 0;
-    }
+    .scp-image-block.block-right,
+    .scp-image-block.block-left {
+    	margin: 1em 0 2em 1em;
+    	padding: 0;
+    }
 }
 [[/module]]
 
@@ -350,9 +350,9 @@ span.video {
 ]]
 [[module css]]
 .anom-bar-container, .anom-bar-container * {
-    --wght: 400;
-    font-family: var(--body-font);
-    font-weight: 400;
+    --wght: 400;
+    font-family: var(--body-font);
+    font-weight: 400;
 }
 [[/module]]
 
@@ -389,7 +389,7 @@ The village is of moderate size, estimated to be populated by 315 individuals as
 
 Referring to the individuals inhabiting SCP‑4522‑BT, the villagers appear identical to the //stump‑tailed macaque,// often found in the subtropical forests of South Asia. Satellite imagery has shown the village to consist entirely of these individuals and directional audio recordings have gleaned minimal data. However, it can be confirmed that the majority of SCP-4522-MQ instances speak using Guānhuà[[footnote]]A Chinese dialect most commonly used in the early 20th century and a precursor to current Mandarin Chinese.[[/footnote]] and display intelligence similar to that of an adult human.
 
-Only a single individual has been interacted with, one known as the 村長, or "Village Head." The Village Head is consistently the first member of the village encountered by any sentient being that approaches SCP‑4522‑BT. Access to the village may only be granted by the Village Head, and is otherwise inaccessible. [[footnote]]A list of all attempted methods used to enter the village without permission is available upon request.[[/footnote]]  A record of this interaction can be found in Addendum 4522-A.
+Only a single individual has been interacted with, one known as the 村長, or "Village Head." The Village Head is consistently the first member of the village encountered by any sentient being that approaches SCP‑4522‑BT. Access to the village may only be granted by the Village Head, and is otherwise inaccessible. [[footnote]]A list of all attempted methods used to enter the village without permission is available upon request.[[/footnote]]  A record of this interaction can be found in Addendum 4522-A.
 
 If deemed "玉" [[footnote]]Meaning: "Jade", can also be defined as "pure" or "beautiful."[[/footnote]] by the Village Head, the individual will be capable of entering. If deemed "玉不琢" [[footnote]]These two states appear to be a reference from an ancient Chinese Trimetric Classic: "玉不琢，不成器" or "A jade without chiseling will not become useful."[[/footnote]] the individual will be immediately compelled to leave the valley by any means. Following this, the individual will display selective amnesia related to all topics and events pertaining to SCP‑4522.
 [[/div]]
@@ -409,7 +409,7 @@ At the time of writing, no tests have been performed directly by the Foundation 
 All attempts to plant the pits of the fruit taken from SCP‑4522‑PH have resulted in non‑anomalous //Prunus persica// trees.
 [[/div]]
 
-**Discovery:** The existence of SCP-4522 has been known to the Foundation since the seizing of IJAMEA records by the Foundation branch following the conclusion of the  Second Sino-Japanese War in 1945. Artistic depictions and written descriptions of  SCP-4522-MQ and SCP-4522-PH are numerous and are known to the general population of the region as mythical figures. However, the quantity and the consistency of these depictions and descriptions led Foundation Researchers to theorize the existence of SCP-4522 prior to 1945.
+**Discovery:** The existence of SCP-4522 has been known to the Foundation since the seizing of IJAMEA records by the Foundation branch following the conclusion of the  Second Sino-Japanese War in 1945. Artistic depictions and written descriptions of  SCP-4522-MQ and SCP-4522-PH are numerous and are known to the general population of the region as mythical figures. However, the quantity and the consistency of these depictions and descriptions led Foundation Researchers to theorize the existence of SCP-4522 prior to 1945.
 
 The first recorded physical discovery of SCP-4522 occurred on 20 June 1941 by an IJAMEA lead operative, Officer Numata Ichiyo. Numata had been tasked with exploring the Kunlun mountains in order to locate SCP-4522. Officer Numata was accompanied by four other subordinates, all of which were present for its discovery.
 
@@ -586,13 +586,13 @@ As of the previous month, testing on enemies within our care was approved and be
 
 * It is the strong opinion of this humble servant that Item of Interest 033 has further qualities than informed by our good Shireikan Numata Ichiyo. This will be elaborated on below but I declare strongly that this man **bore falsehood against his countrymen.** 
 * Upon consumption of Item of Interest 033, subjects consistently display a number of distinguishing events. _
- _
+ _
 **The first of which is an unnatural silence.** This is noted particularly in one enemy subject who is punished daily for persistent outbursts. This individual did not speak a word for the following five days. This is the most apparent instance, however, this appeared to be consistent against all tested subjects. _
- _
+ _
 **The second of which is the appearance of some degree of unnatural abilities.** This humble servant is ashamed to say that it is not known to what degree these abilities manifest and if any similarity is to be discovered. All subjects tested, six in total, began to show mystical abilities not yet seen by our own eyes. The only consistent nature of these abilities appears to be their usefulness in allowing these subjects to escape their confinement. It is this one's understanding that, due to this, all enemy testing is to cease. _
- _
+ _
 **The third of which is the disappearance or lowering of unnatural abilities.** A final test commenced upon three enemies within our care already displaying some measure of unnatural abilities. Two of these enemies displayed what one would describe as personally "useful" skills. These two displayed enhanced abilities following testing. _
- _
+ _
 However, one of these enemies displayed a most interesting condition that causes continued life no matter the degree of suffering imposed physically or mentally. This apparent immortality has been a most useful, allowing for all manner of kensa. Following the consumption of Item of Interest 033, this most useful enemy appeared to lose this ability, taking its wretched life six days following testing. I mourn the loss of this most useful subject.
 
 I declare as a servant to this glorious homeland that these items, these "Peaches of Immortality," are of significant desirability. As of currently, only two of these items still persist and this will not be for long. The sheer possibilities presented by the apparent abilities of these items could result in a force unseen in the history of man.
@@ -728,7 +728,7 @@ Researcher Chen brushes herself off before putting her hands together and bowing
 [[/div]]
 [[div_ class="time_description"]]
 [[span class="audio"]]Audio:[[/span]] 
-**SCP-4522-MQ** //(speaking in Guānhuà)//:  "We are no friends. I know my friends and you most certainly do not bear any resemblance to a single one. For one, you are at least four times their size. Either four of my friends stand atop each other as some sort of jape or you are an intruder."
+**SCP-4522-MQ** //(speaking in Guānhuà)//:  "We are no friends. I know my friends and you most certainly do not bear any resemblance to a single one. For one, you are at least four times their size. Either four of my friends stand atop each other as some sort of jape or you are an intruder."
 **Researcher Michaels** //(speaking in English)//: "What is he saying, Sui? I can understand some of it and it doesn't sound at all friendly."
 
 [[span class="video"]]Video:[[/span]] 
@@ -741,7 +741,7 @@ The Macaque stands sharply in front of the two researchers, both arms behind its
 [[/div]]
 [[div_ class="time_description"]]
 [[span class="audio"]]Audio:[[/span]] 
-**Researcher Chen** //(speaking in Guānhuà)//:  "I beg your forgiveness. It was intended as only a friendly greeting. You would not happen to be named Chu YeBai? I am Chen Sui and this is Kory Michaels. We ha--"
+**Researcher Chen** //(speaking in Guānhuà)//:  "I beg your forgiveness. It was intended as only a friendly greeting. You would not happen to be named Chu YeBai? I am Chen Sui and this is Kory Michaels. We ha--"
 
 [[span class="video"]]Video:[[/span]] 
 When the name "Chu YeBai" is spoken, the Macaque shows immediate visible distress. It backs up, away from the border slightly and appears to grow much tenser. It then interrupts Researcher Chen. //This SCP-4522-MQ instance will be referred to as Chu YeBai from here on.//
@@ -753,7 +753,7 @@ When the name "Chu YeBai" is spoken, the Macaque shows immediate visible distres
 [[/div]]
 [[div_ class="time_description"]]
 [[span class="audio"]]Audio:[[/span]] 
-**Chu YeBai** //(speaking in Guānhuà)//:  //Voice raised, wavering slightly// "Forgiveness is not something you beg or ask for, intruder. I do not know how you came to know my most humble of names but there are scant few ways in which you have come to know it. As such, you must //leave.// You will //never// be granted permission to enter. //Never.//"
+**Chu YeBai** //(speaking in Guānhuà)//:  //Voice raised, wavering slightly// "Forgiveness is not something you beg or ask for, intruder. I do not know how you came to know my most humble of names but there are scant few ways in which you have come to know it. As such, you must //leave.// You will //never// be granted permission to enter. //Never.//"
 
 [[span class="video"]]Video:[[/span]] 
 Researcher Chen looks towards the camera with a raised eyebrow, giving a slight shrug. Chu YeBai shakes its hand holding what appears to be the Jade Vajra towards the two researchers as it spoke.
@@ -765,7 +765,7 @@ Researcher Chen looks towards the camera with a raised eyebrow, giving a slight 
 [[/div]]
 [[div_ class="time_description"]]
 [[span class="audio"]]Audio:[[/span]] 
-**Researcher Michaels** //(Speaking in English)//:  "That doesn't sound good. What did he say?"
+**Researcher Michaels** //(Speaking in English)//:  "That doesn't sound good. What did he say?"
 **Researcher Chen** //(Speaking in English)//: "To put it briefly, that we will never be allowed to enter. I think we should maybe just set up camp nearby and try again another time, eh?"
 **Chu YeBai** //(speaking in Guānhuà)//: "Another time? //Another time?// Hah! You can try all you may like, but I will never declare you Jade. Here! Take hold of this so I can watch you climb atop the peaks, away from our peaceful home!"
 

@@ -4,12 +4,12 @@
 
 [[module CSS]]
 .box {
-    position: relative;
-    padding: 0.5em;
-    margin: 0.5em;
-    box-shadow: 2px 1.5px 1px rgba(176,16,0,0.7), 0 0 0px 1px lightgrey;
-    overflow-wrap: break-word;
-    color: black;
+    position: relative;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 2px 1.5px 1px rgba(176,16,0,0.7), 0 0 0px 1px lightgrey;
+    overflow-wrap: break-word;
+    color: black;
 }
 [[/module]]
 
@@ -80,5 +80,5 @@ Due to large increases in the degradation of the town's surrounding area, furthe
 [[/div]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

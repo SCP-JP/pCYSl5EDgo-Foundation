@@ -52,166 +52,166 @@ alert("パスワードが空欄です。");
 [[module css]]
 @import url(http://shitake-crude-production.wikidot.com/extension:noise-css-prot/code/1);
 @keyframes noise-anim {
-  0% {
-    clip: rect(27px, 9999px, 93px, 0);
-  }
-  5% {
-    clip: rect(88px, 9999px, 3px, 0);
-  }
-  10% {
-    clip: rect(21px, 9999px, 64px, 0);
-  }
-  15% {
-    clip: rect(63px, 9999px, 64px, 0);
-  }
-  20% {
-    clip: rect(21px, 9999px, 27px, 0);
-  }
-  25% {
-    clip: rect(27px, 9999px, 98px, 0);
-  }
-  30% {
-    clip: rect(23px, 9999px, 57px, 0);
-  }
-  35% {
-    clip: rect(6px, 9999px, 27px, 0);
-  }
-  40% {
-    clip: rect(38px, 9999px, 65px, 0);
-  }
-  45% {
-    clip: rect(43px, 9999px, 53px, 0);
-  }
-  50% {
-    clip: rect(56px, 9999px, 7px, 0);
-  }
-  55% {
-    clip: rect(63px, 9999px, 87px, 0);
-  }
-  60% {
-    clip: rect(65px, 9999px, 2px, 0);
-  }
-  65% {
-    clip: rect(69px, 9999px, 6px, 0);
-  }
-  70% {
-    clip: rect(78px, 9999px, 10px, 0);
-  }
-  75% {
-    clip: rect(84px, 9999px, 21px, 0);
-  }
-  80% {
-    clip: rect(52px, 9999px, 36px, 0);
-  }
-  85% {
-    clip: rect(69px, 9999px, 35px, 0);
-  }
-  90% {
-    clip: rect(39px, 9999px, 31px, 0);
-  }
-  95% {
-    clip: rect(27px, 9999px, 79px, 0);
-  }
-  100% {
-    clip: rect(3px, 9999px, 71px, 0);
-  }
+  0% {
+    clip: rect(27px, 9999px, 93px, 0);
+  }
+  5% {
+    clip: rect(88px, 9999px, 3px, 0);
+  }
+  10% {
+    clip: rect(21px, 9999px, 64px, 0);
+  }
+  15% {
+    clip: rect(63px, 9999px, 64px, 0);
+  }
+  20% {
+    clip: rect(21px, 9999px, 27px, 0);
+  }
+  25% {
+    clip: rect(27px, 9999px, 98px, 0);
+  }
+  30% {
+    clip: rect(23px, 9999px, 57px, 0);
+  }
+  35% {
+    clip: rect(6px, 9999px, 27px, 0);
+  }
+  40% {
+    clip: rect(38px, 9999px, 65px, 0);
+  }
+  45% {
+    clip: rect(43px, 9999px, 53px, 0);
+  }
+  50% {
+    clip: rect(56px, 9999px, 7px, 0);
+  }
+  55% {
+    clip: rect(63px, 9999px, 87px, 0);
+  }
+  60% {
+    clip: rect(65px, 9999px, 2px, 0);
+  }
+  65% {
+    clip: rect(69px, 9999px, 6px, 0);
+  }
+  70% {
+    clip: rect(78px, 9999px, 10px, 0);
+  }
+  75% {
+    clip: rect(84px, 9999px, 21px, 0);
+  }
+  80% {
+    clip: rect(52px, 9999px, 36px, 0);
+  }
+  85% {
+    clip: rect(69px, 9999px, 35px, 0);
+  }
+  90% {
+    clip: rect(39px, 9999px, 31px, 0);
+  }
+  95% {
+    clip: rect(27px, 9999px, 79px, 0);
+  }
+  100% {
+    clip: rect(3px, 9999px, 71px, 0);
+  }
 }
- 
+ 
 @keyframes noise-anim-2 {
-  0% {
-    clip: rect(89px, 9999px, 41px, 0);
-  }
-  5% {
-    clip: rect(59px, 9999px, 17px, 0);
-  }
-  10% {
-    clip: rect(74px, 9999px, 94px, 0);
-  }
-  15% {
-    clip: rect(100px, 9999px, 95px, 0);
-  }
-  20% {
-    clip: rect(59px, 9999px, 44px, 0);
-  }
-  25% {
-    clip: rect(36px, 9999px, 29px, 0);
-  }
-  30% {
-    clip: rect(45px, 9999px, 52px, 0);
-  }
-  35% {
-    clip: rect(90px, 9999px, 11px, 0);
-  }
-  40% {
-    clip: rect(90px, 9999px, 62px, 0);
-  }
-  45% {
-    clip: rect(29px, 9999px, 64px, 0);
-  }
-  50% {
-    clip: rect(44px, 9999px, 78px, 0);
-  }
-  55% {
-    clip: rect(27px, 9999px, 34px, 0);
-  }
-  60% {
-    clip: rect(67px, 9999px, 69px, 0);
-  }
-  65% {
-    clip: rect(73px, 9999px, 59px, 0);
-  }
-  70% {
-    clip: rect(37px, 9999px, 42px, 0);
-  }
-  75% {
-    clip: rect(34px, 9999px, 61px, 0);
-  }
-  80% {
-    clip: rect(45px, 9999px, 7px, 0);
-  }
-  85% {
-    clip: rect(33px, 9999px, 4px, 0);
-  }
-  90% {
-    clip: rect(55px, 9999px, 95px, 0);
-  }
-  95% {
-    clip: rect(52px, 9999px, 85px, 0);
-  }
-  100% {
-    clip: rect(81px, 9999px, 7px, 0);
-  }
+  0% {
+    clip: rect(89px, 9999px, 41px, 0);
+  }
+  5% {
+    clip: rect(59px, 9999px, 17px, 0);
+  }
+  10% {
+    clip: rect(74px, 9999px, 94px, 0);
+  }
+  15% {
+    clip: rect(100px, 9999px, 95px, 0);
+  }
+  20% {
+    clip: rect(59px, 9999px, 44px, 0);
+  }
+  25% {
+    clip: rect(36px, 9999px, 29px, 0);
+  }
+  30% {
+    clip: rect(45px, 9999px, 52px, 0);
+  }
+  35% {
+    clip: rect(90px, 9999px, 11px, 0);
+  }
+  40% {
+    clip: rect(90px, 9999px, 62px, 0);
+  }
+  45% {
+    clip: rect(29px, 9999px, 64px, 0);
+  }
+  50% {
+    clip: rect(44px, 9999px, 78px, 0);
+  }
+  55% {
+    clip: rect(27px, 9999px, 34px, 0);
+  }
+  60% {
+    clip: rect(67px, 9999px, 69px, 0);
+  }
+  65% {
+    clip: rect(73px, 9999px, 59px, 0);
+  }
+  70% {
+    clip: rect(37px, 9999px, 42px, 0);
+  }
+  75% {
+    clip: rect(34px, 9999px, 61px, 0);
+  }
+  80% {
+    clip: rect(45px, 9999px, 7px, 0);
+  }
+  85% {
+    clip: rect(33px, 9999px, 4px, 0);
+  }
+  90% {
+    clip: rect(55px, 9999px, 95px, 0);
+  }
+  95% {
+    clip: rect(52px, 9999px, 85px, 0);
+  }
+  100% {
+    clip: rect(81px, 9999px, 7px, 0);
+  }
 }
 
 .glitch-b{
-  font-size: 12px;
-  position: relative;
-  width: 200px;
-  margin: 0 auto;
+  font-size: 12px;
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
 }
- 
+ 
 .glitch-b:after {
-  content: attr(data-text);
-  position: absolute;
-  left: 2px;
-  text-shadow: -1px 0 red;
-  top: 0;
-  overflow: hidden;
-  clip: rect(0, 90px, 0, 0);
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  overflow: hidden;
+  clip: rect(0, 90px, 0, 0);
 background-color:white;
-  animation: noise-anim 2s infinite linear alternate-reverse;
+  animation: noise-anim 2s infinite linear alternate-reverse;
 }
- 
+ 
 .glitch-b:before {
-  content: attr(data-text);
-  position: absolute;
-  left: -2px;
-  text-shadow: 1px 0 blue;
-  top: 0;
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
 background-color:white;
-  overflow: hidden;
-  clip: rect(0, 90px, 0, 0);
-  animation: noise-anim-2 3s infinite linear alternate-reverse;
+  overflow: hidden;
+  clip: rect(0, 90px, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
 [[/module]]
 [[div class="glitch-b" data-text="……アクセスに成功しました……"]]
@@ -279,7 +279,7 @@ __**実験記録004 - 日付20██/██/█**__
 > 
 > **インタビュアー:** ██博士
 > 
-> **付記:**  ███氏には猿轡を用いてSCP-1621-JPの読み上げを防いだ状態で筆談にてインタビューを行った。
+> **付記:**  ███氏には猿轡を用いてSCP-1621-JPの読み上げを防いだ状態で筆談にてインタビューを行った。
 > 
 > **<記録開始>**
 > 
@@ -337,7 +337,7 @@ __**実験記録004 - 日付20██/██/█**__
 > **██博士:** 確かに、あなたが公開したものは数多くの犯罪に用いられ、社会に混沌と混乱をもたらしました。しかし我々は警察ではないですし、例えそれがどのような道具であれ、道具はあくまで道具でしかありません。道具自体にもあなたにも罪は無いと私は思っています。
 > 
 > **██氏:** すみません。ありがとうございます。
->  
+>  
 > **██博士:** インタビューはこれで終了しようと思いますが、あなたから何か言っておきたいことなどはないでしょうか？
 > 
 > **██氏:** 私が言えることではないですが。おまじないを悪用する人たちをこれ以上増やさないで欲しいです。優しかったひいおばあちゃんが私にくれたものを踏みにじられるのはすごく辛いです。お願いします！

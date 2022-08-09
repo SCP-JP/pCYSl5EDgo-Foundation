@@ -13,98 +13,98 @@ by __[[[stormbreath]]]__
 [[include :scp-wiki:component:acs-animation]]
 [[module CSS]]
 body {
-    filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 #page-content,
 .wiki-content-table td {
-     text-align: justify;
+     text-align: justify;
 }
 
 .wiki-content-table th {
-    text-align: center;
+    text-align: center;
 }
 
 #page-content h3 {
-    text-align: center;
-    border-width: .085em 0;
-    border-style: solid;
-    border-color: #3c3c3c;
-    padding: .3em 0;
-    font-variant: small-caps;
+    text-align: center;
+    border-width: .085em 0;
+    border-style: solid;
+    border-color: #3c3c3c;
+    padding: .3em 0;
+    font-variant: small-caps;
 }
 
 div.interview {
-     border: dashed 1px #444444; 
-     background: #F5F5F5;
-     padding: 0 1em;
-     margin-bottom: 1em;
+     border: dashed 1px #444444; 
+     background: #F5F5F5;
+     padding: 0 1em;
+     margin-bottom: 1em;
 }
 
 div.interview h4 {
-     text-align: center;
-     padding: .45em 0;
-     margin: 0 1em;
-     border-bottom: .085em solid #646464;
+     text-align: center;
+     padding: .45em 0;
+     margin: 0 1em;
+     border-bottom: .085em solid #646464;
 }
 
 div.uiu {
-    border: solid 1px #090909;
-    background-color: #090909; 
-    padding: 0 1em; 
+    border: solid 1px #090909;
+    background-color: #090909; 
+    padding: 0 1em; 
 }
 
 div.uiu + div {
-    border: solid 1px #090909; 
-    padding: 0 1em; 
-    margin-bottom: 1em;
+    border: solid 1px #090909; 
+    padding: 0 1em; 
+    margin-bottom: 1em;
 }
 
 div.uiu + div blockquote {
-    border-style: solid;
-    background: transparent;
+    border-style: solid;
+    background: transparent;
 }
 
 div.uiu h1,
 div.uiu h2 {
-    color: #fff;
+    color: #fff;
 }
 
 h1 span,
 h2 span,
 h3 span {
-    word-break: unset;
+    word-break: unset;
 }
 
 #page-title {
-    display: block;
+    display: block;
 }
 
 .class-text::after {
-     content: ' (Provisional)'
+     content: ' (Provisional)'
 }
 
 :root {
-    --three-color: 211, 211, 211;
+    --three-color: 211, 211, 211;
 }
 
 .scp-image-block.block-right {
-     margin: 0 0 1em 2em;
+     margin: 0 0 1em 2em;
 }
 
 @media (max-width: 767px) {
-    .scp-image-block.block-right {
-        float: none;
-        margin: auto;
-    }
+    .scp-image-block.block-right {
+        float: none;
+        margin: auto;
+    }
 
-    .top-right-box > .clearance::before {
-        margin-top: 1em;
-    }
+    .top-right-box > .clearance::before {
+        margin-top: 1em;
+    }
 
-    .wiki-content-table td {
-        text-align: initial;
-    }
+    .wiki-content-table td {
+        text-align: initial;
+    }
 }
 [[/module]]
 [[div style="height: 1em;"]]

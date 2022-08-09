@@ -8,89 +8,89 @@
 @import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
 
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: 'Pangolin', cursive;
-    font-size: 1.6em;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: 'Pangolin', cursive;
+    font-size: 1.6em;
+    font-style: normal;
 
-   
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
-    
+   
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 .page ul {
-    list-style: symbols;
+    list-style: symbols;
 }
 
 #page-content {
-    position: relative;
+    position: relative;
 }
 
 .desktop-only {
-    height: 21rem;
-    width: 10rem;
-    background: #ffffff;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 15rem;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    border: solid 1px #444444;
-    padding: 10px;
-    -webkit-box-shadow: none;
-       -moz-box-shadow:  none;
-            box-shadow: none;
-    overflow: visible;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-       -moz-box-orient: vertical;
-       -moz-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-transform: translateX(400%);
-       -moz-transform: translateX(400%);
-        -ms-transform: translateX(400%);
-         -o-transform: translateX(400%);
-            transform: translateX(400%);
+    height: 21rem;
+    width: 10rem;
+    background: #ffffff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: solid 1px #444444;
+    padding: 10px;
+    -webkit-box-shadow: none;
+       -moz-box-shadow:  none;
+            box-shadow: none;
+    overflow: visible;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateX(400%);
+       -moz-transform: translateX(400%);
+        -ms-transform: translateX(400%);
+         -o-transform: translateX(400%);
+            transform: translateX(400%);
 }
 
 .article {
-    margin-top: -21rem!important;
+    margin-top: -21rem!important;
 }
-    
+    
 @media (max-width: 1250px) {
-    .desktop-only {
-     display: none !important;
-     visibility:hidden
-    }
+    .desktop-only {
+     display: none !important;
+     visibility:hidden
+    }
 .article {
-    margin-top: 4rem!important;
+    margin-top: 4rem!important;
 }
-    #page-content > div:nth-child(5) {
-     margin-top: 0;
-    }
+    #page-content > div:nth-child(5) {
+     margin-top: 0;
+    }
 
 }
 
@@ -352,7 +352,7 @@ This task must seem daunting. Your enemy has the entire Foundation behind him, a
 @@ @@
 - --Hack Fritz's emails.--
 - Read Fritz's email for clues.
-- Figure out what Fritz has been plotting.  
+- Figure out what Fritz has been plotting.  
 - Kill Fritz.
 [[/div]]
 --]
@@ -501,11 +501,11 @@ The third rule of silencing is to be patient. I should have waited and establish
 @@ @@
 [[module CSS]]
 .addendum {
-    border:solid 2px #999999;
-    background:#F5F5F5;
-    width:84%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:solid 2px #999999;
+    background:#F5F5F5;
+    width:84%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 [[/module]]
 
@@ -635,7 +635,7 @@ SCP-5555 is not to be discussed outside of preparation periods.
 
 SCP-5555 is accessible only by a single cargo elevator. Neither Sublevel 27 nor SCP-5555 are marked on any blueprints of Overwatch Command. The age, depth, and origin of SCP-5555 are indeterminable and irrelevant.
 
-##blue|At this time, the previous round has ended, and a preparation period has begun.  All personnel are asked to comply with SCP-5555 directions as assigned.##
+##blue|At this time, the previous round has ended, and a preparation period has begun.  All personnel are asked to comply with SCP-5555 directions as assigned.##
 
 [[/div]]
 [!-- END DIV FOR SCP 001 --]
@@ -645,10 +645,10 @@ SCP-5555 is accessible only by a single cargo elevator. Neither Sublevel 27 nor 
 **Sort By: Classification: Anomalies**
 ||~ Entity||~ Transfer Confirmed||~ Notes on Replacement||
 ||The Doctor|| Convinced him the vial I had was a vital component to his cure and threw it into the pit. He went tumbling after. || Scouts have confirmed the presence of a black-robed entity in Montauban, France, apparently able to kill via touch. The new plague-doctor mask looks a hell of a lot better than the gas mask.||
-||Able|| I opened the box with it facing the pit. He stepped out and straight down. I think that counts as willingly. ||  Reports have come in from indigenous tribes about an enraged tattooed warrior spirit in upper Mongolia. Seems he ditched the guns for swords this time around -- hopefully he'll be easier to capture. ||
-||The Statue|| Baited it into the pit with a dangling D-Class. || The replacement appeared in a Kyoto art exhibit and caused 23 civilian deaths before being contained. It's in a shipping container under Site-19. It's made out of concrete now, which made moving it a pain in the ass.  ||
+||Able|| I opened the box with it facing the pit. He stepped out and straight down. I think that counts as willingly. ||  Reports have come in from indigenous tribes about an enraged tattooed warrior spirit in upper Mongolia. Seems he ditched the guns for swords this time around -- hopefully he'll be easier to capture. ||
+||The Statue|| Baited it into the pit with a dangling D-Class. || The replacement appeared in a Kyoto art exhibit and caused 23 civilian deaths before being contained. It's in a shipping container under Site-19. It's made out of concrete now, which made moving it a pain in the ass.  ||
 ||Duke Blackwood|| Moles can't see very well. I just tossed a steak into the pit and he blindly followed.|| We're keeping an eye on his mansion and are ready to catch whatever comes out. ||
-|| Remains of Chair || Wondertainment was dead when we dropped by, so we asked Thomas to repair the chair while he regenerated. || Factory foreman said it'll be a month, and the best they can do is a chair that looks like a woman.  Fuller says someone else should destroy the chair next time. ||
+|| Remains of Chair || Wondertainment was dead when we dropped by, so we asked Thomas to repair the chair while he regenerated. || Factory foreman said it'll be a month, and the best they can do is a chair that looks like a woman.  Fuller says someone else should destroy the chair next time. ||
 ||Immortality Jewel|| Jason jumped in the moment we told him he'd die for good. He seemed glad to go. || The jewel has reappeared in the form of an amulet. It has been locked it up in some box and left in Site-19's basement. I pity whoever comes across it.||
 || The Seed || Dropped it into a vat of molten metal and kicked it in. It screamed like a man. || Fell to Earth in Dellinton, England. Bumaro went to retrieve it -- says he has ideas for tying it more closely to MEKHANE. ||
 @@ @@
@@ -696,7 +696,7 @@ What can I say but 'bravo'?
 The sheer rush of adrenaline from knowing that someone is out there trying to end my life... by God, it makes me feel alive. Holly and Bumaro are clutching their pearls at this development, but I speak for more than just myself when I say that this is the perfect addition to our game. I can definitely see why you've taken an interest in this Mann character.
 
 Bravo, Fritz, bravo.
- 
+ 
 [[div style="display: inline-block; border:solid 2px #275495; background:#275495; float:center; width:84%; padding:1px 15px; margin: 10px 10px 10px 10px"]]
 [[/div]]
 See you soon,
@@ -763,10 +763,10 @@ Robert Bumaro, High Priest, The Forger of God, The Messiah
 ||~ To: || @@administrator@site01.scp.int@@ ||
 ||~ Re: || This shit ||
 |||| Yo, _
-  _
-  That shit was fucked, dude.  _
-  _
- - JK (BF) ||
+  _
+  That shit was fucked, dude.  _
+  _
+ - JK (BF) ||
 @@ @@
 [[div style="float: center; border: solid 3px #444444; width: 85%; padding: 1px 15px; margin: auto; margin-top: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
 [[div style="text-align: center"]]
@@ -811,7 +811,7 @@ Fifth rule of silencing: prioritize. Sixth rule: cut the head off the snake. The
 @@ @@
 You need to pass the file to every Overseer and member of Senior Staff you can contact; I'm sure they have enough initiative to raise hell of their own. If the file's accurate, Bumaro is in England. I might be able to wring Fritz's location out of him. Then I'm going to burn Fritz alive. It's a long shot, but it's all we have.
 @@ @@
-The skills needed to succeed in this line of work are like riding a bike. Age may have dulled them, but I still possess them -- and my run-in with Wondertainment has sharpened them. Still, I mustn't let overconfidence replace age. My whole body hurts like hell and her lesson cost me my cap. The conspirators will certainly be on their guards from now on.  If I want to stay in the game, I'll need to dredge up every last trick from my youth.
+The skills needed to succeed in this line of work are like riding a bike. Age may have dulled them, but I still possess them -- and my run-in with Wondertainment has sharpened them. Still, I mustn't let overconfidence replace age. My whole body hurts like hell and her lesson cost me my cap. The conspirators will certainly be on their guards from now on.  If I want to stay in the game, I'll need to dredge up every last trick from my youth.
 @@ @@
 You too. Stay frosty. And good luck.
 @@ @@
@@ -833,7 +833,7 @@ I stole a bicycle near the edge of town and pedaled north towards Dellinton. My 
 @@ @@
 [!-- BEGIN DIV FOR O5_1 NOTES --]
 [[div class="page"]]
-It took me two days to reach Dellinton. I've been camped on a hill outside the town for five days now, staking it out to catch a glimpse of Bumaro and subsisting on boxed wine and whatever I can forage.  If Dover was crawling with Cogworks, Dellinton is infested with them. They've completely supplanted the local authorities. I have to assume that the GOC suppressed this news somehow, since the Queen has never been fond of the Foundation or Broken God. The scale of this conspiracy continues to frighten me.
+It took me two days to reach Dellinton. I've been camped on a hill outside the town for five days now, staking it out to catch a glimpse of Bumaro and subsisting on boxed wine and whatever I can forage.  If Dover was crawling with Cogworks, Dellinton is infested with them. They've completely supplanted the local authorities. I have to assume that the GOC suppressed this news somehow, since the Queen has never been fond of the Foundation or Broken God. The scale of this conspiracy continues to frighten me.
 @@ @@
 And for what? A pockmark of craters on the far side of town. A stubby brass spire was erected near them when I arrived -- I assume it's Bumaro's temporary accommodations. There's too many Cogworks there to get close. They've been tearing down buildings and displacing civilians all week for raw material that they've been moving to the crater. Thought they might be recreating 3179's original containment unit, but I haven't seen any sign of construction.
 @@ @@
@@ -854,10 +854,10 @@ I caught a rabbit in a snare tonight; first one I'd made in forty years. But eve
 [[table style="border: none; width: 100%;"]]
 [[row]]
 [[cell]]
-@@           @@
+@@           @@
 [[/cell]]
 [[cell style="text-align: center;"]]
-@@            @@
+@@            @@
 [[/cell]]
 [[cell style="text-align: right; style= "font-family: 'Lobster'"]]
 ###004d67|**guardian.co.uk**##
@@ -928,7 +928,7 @@ To do: Stay frosty.
 **BUMARO:** Why would you keep him alive?!
 
 **FULLER:** This cat has worked alongside Fritz for //decades//, Robby! Do you realize what kind of advantage this could give us next round? Insider know-how on how he operates, plays, everything! You really don't want that?
- 
+ 
 **BUMARO:** Is it worth risking dying again? You saw Holly afterward, even //she// looked like a ghost! This isn't worth it, man-
 
 **FULLER:** God, you're no fun.
@@ -1032,7 +1032,7 @@ Step On Through
 BACKDOOR SOHO
 [[/cell]]
 [[cell style="text-align: center;"]]
-@@  @@
+@@  @@
 [[/cell]]
 [[cell style="text-align: right;"]]
 5¢ - NO REFUNDS
@@ -1112,7 +1112,7 @@ SCP-5555 is not to be discussed outside of preparation periods.
 
 SCP-5555 is accessible only by a single cargo elevator. Neither Sublevel 27 nor SCP-5555 are marked on any blueprints of Overwatch Command. The age, depth, and origin of SCP-5555 are indeterminable and irrelevant.
 
-##blue|At this time, the previous round has ended, and a preparation period has begun.  All personnel are asked to comply with SCP-5555 directions as assigned.##
+##blue|At this time, the previous round has ended, and a preparation period has begun.  All personnel are asked to comply with SCP-5555 directions as assigned.##
 
 **Sort By: Most Recent**
 **Sort By: Classification: Personnel: Senior Staff**
@@ -1120,7 +1120,7 @@ SCP-5555 is accessible only by a single cargo elevator. Neither Sublevel 27 nor 
 || Site-67 Director || Simon Glass || The current holder of the position is married and fathered a child. The intended replacement is a highly driven PhD, who shows little evidence of repeating this pattern. ||
 || Research and Development Head || Kain Pathos Crow|| Research prodigy. Has projects in robotics, biochemistry, paratechnology, history, and anything else he could possibly learn. He's the only man right for the job.||
 || Classification Committee Head ||Jean Karlyle Aktus|| Expert in security and has limited, non-veil experience with the paranormal. His health conditions are unfortunate but may prove to be excellent leverage. ||
-||Department of Applied Influence Head|| Alto Clef || Former gock -- I've had my eyes on him this whole round, and I don't think anyone will notice if I squirrel him away for whoever plays Administrator next. He could be their best man, or go ballistic and wreck a few sites.  Maybe I should start a betting pool.||
+||Department of Applied Influence Head|| Alto Clef || Former gock -- I've had my eyes on him this whole round, and I don't think anyone will notice if I squirrel him away for whoever plays Administrator next. He could be their best man, or go ballistic and wreck a few sites.  Maybe I should start a betting pool.||
 ||Site-19 Director || Tilda Moose|| Operative of the Hand, type-blue, quite experienced with thaumaturgy and other magic bullshit. I think having them contain other anomalies will be a delicious stroke of irony. ||
 
 @@ @@
@@ -1255,7 +1255,7 @@ What the hell?
 Imagine my surprise as I open the door of my studio and get assaulted in broad daylight by none other than your very own Mann boy.
 
 He turned the goddamn sidewalk into a Pollock using my own blood and nearly ripped off my arms. My head was still reeling from the curbstomps after I woke up in my new body. All for some intel on where you were. I was ambivalent about your experiment at first, but now I have some critique to offer: In short, that wasn't very cool.
- 
+ 
 [[div style="display: inline-block; border:solid 2px #95275e; background:#95275e; float:center; width:84%; padding:1px 15px; margin: 10px 10px 10px 10px"]]
 [[/div]]
 Yours,
@@ -1268,10 +1268,10 @@ The Critic
 ||~ To: || @@administrator@site01.scp.int@@ ||
 ||~ Re: || This shit ||
 |||| Yo, _
-  _
- Pretty wild how your boy is out there just blowing up your spaceships. I thought you had this guy under control, lol. You should probably do something about it. Or don't. I'm not your dad.  _
-  _
- - JK (BF) ||
+  _
+ Pretty wild how your boy is out there just blowing up your spaceships. I thought you had this guy under control, lol. You should probably do something about it. Or don't. I'm not your dad.  _
+  _
+ - JK (BF) ||
 @@ @@
 
 [[div style="background: url(http://kaktuskontainer.wdfiles.com/local--files/graves2/gock.png) top right no-repeat; float: center; border: solid 3px #275495; width: 85%; padding: 1px 15px; margin: auto; margin-top: 10px; margin-bottom: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
@@ -1314,7 +1314,7 @@ Just Checking
 @@ @@
 Fritz,
 
-Just so we're clear, I didn't blow up your sites. That kind of skullduggery is so beneath me. I had my remaining intel guys look into it, and it's your boy, Mann. He was spotted at 0300 hours last night exiting Site-81 by helicopter minutes before the on-site nukes went off.  Makes me wish he'd gone after me. Would've loved to see that. Speaking of which, see you soon.
+Just so we're clear, I didn't blow up your sites. That kind of skullduggery is so beneath me. I had my remaining intel guys look into it, and it's your boy, Mann. He was spotted at 0300 hours last night exiting Site-81 by helicopter minutes before the on-site nukes went off.  Makes me wish he'd gone after me. Would've loved to see that. Speaking of which, see you soon.
 
 Either way, I just figured you'd like confirmation. I'm not a sore loser.
 [[div style="display: inline-block; border:solid 2px #275495; background:#275495; float:center; width:84%; padding:1px 15px; margin: 10px 10px 10px 10px;"]]
@@ -1328,8 +1328,8 @@ D.C. Al Fine.
 ||||||||~ Memo ||
 ||||||||~ IMPORTANT MESSAGE ||
 ||~ Sender || Amos Marshall ||~ Recipient || administrator@site01.scp.int ||
-|||||||| It would be to your interest to know that your preferred toy has assaulted Carter and Dark in an attempt to locate you. They survived, but Carter was nearly liquified and Dark wants to know if Mann can do it again. Unfortunately, I was too busy using our lounge's faculties during the attack, and as such, am unscathed. I have taken it upon myself to reunite with the two of them at the point of origin.  _
- _
+|||||||| It would be to your interest to know that your preferred toy has assaulted Carter and Dark in an attempt to locate you. They survived, but Carter was nearly liquified and Dark wants to know if Mann can do it again. Unfortunately, I was too busy using our lounge's faculties during the attack, and as such, am unscathed. I have taken it upon myself to reunite with the two of them at the point of origin.  _
+ _
 I will see you soon.||
 ||||||||~ Marshall, Carter and Dark, LLP||
 @@ @@
@@ -1456,7 +1456,7 @@ Secure, Contain, Protect[[/div]]
 
 //Gunshot, followed by screaming and sounds of flesh striking flesh.//
 
-**INDIVIDUAL:**  Shut up for a moment. How do you turn this fucking thing on?
+**INDIVIDUAL:**  Shut up for a moment. How do you turn this fucking thing on?
 
 **GLASS:** Right button, fucking Christ! Hold the right button down for two seconds. Owwwowoohhaaaa... fucking hell!
 
@@ -1518,11 +1518,11 @@ Secure, Contain, Protect[[/div]]
 [[# Part8]]
 
 > The lights were on, but nobody was home at Overwatch Command. The base's layout was elegant in its simplicity: a fourteen-spoked wheel, with the access elevator in its center. All but two of the spokes contained an Overseer's private office; the odd ones out contained the Administrator's office and what used to be Mann's.
->  
+>  
 > Mann didn't bother checking his former colleagues' offices. There was nothing there for him. Nor did he bother looking in his room. He made a beeline for the Administrator's office and waited expectantly for the door.
 > 
 > The door opened a moment later to reveal a suburban American home. In front of Mann lay a combination kitchen and dining room, with a small living room off to the right. Fritz was mashing potatoes in a bowl while the smell of pork chops wafted from the stove to his right.
->  
+>  
 > "Grab a couple beers from th' fridge," he said without turning around.
 > 
 > Mann stepped into the room and looked around briefly, then set his gun on the countertop. He opened the fridge on Fritz's left and inspected the bottles on the bottom shelf. 
@@ -1544,7 +1544,7 @@ Secure, Contain, Protect[[/div]]
 > Mann waved the knife in his face and swallowed. "I will eat... however... I damn well please. You ain't my daddy."
 > 
 > "I sure as hell became it." Fritz sliced a chunk out of his own pork chops, slowly chewed it, then swallowed. "Binna while since we ate together, eh?"
->  
+>  
 > "What'd you do with this place?" Mann said.
 > 
 > "Executive desks just ain't my style and the cold weren't doin' me no good. Figured I'd turn th' place into a little home away from home. Can't open th' windows, but th' weather's sure beautiful. I kept invitin' ya down here but y'were too scared t'leave that shack of yours."
@@ -1564,7 +1564,7 @@ Secure, Contain, Protect[[/div]]
 > Mann drained his bottle and stared at it.
 > 
 > "I'll even sweeten th' pot," Fritz said. From a cupboard above the fridge, he retrieved two Glencairn glasses and a sealed bottle full of caramel liquid. Mann's eyebrows nearly shot off his forehead.
->  
+>  
 > "Is that Pappy Van Winkle's?"
 > 
 > "Was savin' it fer you." Fritz put the tumblers down and poured. "Ice?"
@@ -1621,7 +1621,7 @@ Secure, Contain, Protect[[/div]]
 > 
 > "You said it yerself." Fritz emerged with a dustpan and began sweeping up the glass around the table. "Shut down th' Insurgency, put your yoke to th' UN's neck, even strongarmed al Fine into helpin' you erase North Korea from memory. Thought fer sure I was hosed that time, but you fixed it. You were winnin' the damn game for me all by yer self. Then y' went off and developed a damn conscience. Hid in th' Arctic and let yerself go. Squanderin' yer gifts like that? Cut me to th' quick."
 > 
-> He went and tossed the debris into the trash. "I've been there before, a couple times. I figured you'd get outta yer slump soon, but before I knew it thirty years had gone by. Game was endin' soon and I couldn't let you go t' waste. But you got that inertia.  Once you get goin' you don't stop, but you needed that push t' get ya rolling."
+> He went and tossed the debris into the trash. "I've been there before, a couple times. I figured you'd get outta yer slump soon, but before I knew it thirty years had gone by. Game was endin' soon and I couldn't let you go t' waste. But you got that inertia.  Once you get goin' you don't stop, but you needed that push t' get ya rolling."
 > 
 > "A push?" Mann stood up and poked Fritz in the chest. "You bastard. You absolute goddamn bastard. I wish you were my real father so I could disown you."
 > 
@@ -1698,16 +1698,16 @@ Thanks for playing! I think we can all agree, this has been one of the best game
 ||Master Foreman|| D.C. al Fine||
 ||Carter || Administrator (SCP)||
 ||Marshall|| Grand Karcist Ion||
-||Dark  || Herman Fuller ||
-||Vincent Anderson  ||Carter||
-||The Critic   || Marshall  ||
+||Dark  || Herman Fuller ||
+||Vincent Anderson  ||Carter||
+||The Critic   || Marshall  ||
 ||Big Cheese Horace || The Critic||
-||Dr. Wondertainment  || Prophet of Mekhane ||
-||Jude Kriyot  || Dark||
+||Dr. Wondertainment  || Prophet of Mekhane ||
+||Jude Kriyot  || Dark||
 ||Herman Fuller || Master Foreman||
 ||Grand Karcist Ion || Big Cheese Horace||
 ||Prophet of Mekhane ||Vincent Anderson ||
-|| D.C. al Fine  || Jude Kriyot||
+|| D.C. al Fine  || Jude Kriyot||
 
 
 I took the liberty of inducting Everett into the game last night and have been prepping him for his new role. I don't want to spoil anything, but I can promise it will be like nothing you've ever seen before.

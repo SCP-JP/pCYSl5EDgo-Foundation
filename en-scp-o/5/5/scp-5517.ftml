@@ -38,8 +38,8 @@ Annually, a Class D personnel is to be exposed to an instance of SCP-5517-1. The
 ----
 
 [[include component:image-block
-    name=deadtree|
-    caption=SCP-5517. Photo taken in 1974 by an unknown photographer. See 5517-B/INV ITEM #9.
+    name=deadtree|
+    caption=SCP-5517. Photo taken in 1974 by an unknown photographer. See 5517-B/INV ITEM #9.
 ]]
 
 **Description:** SCP-5517 is a pale tree of unknown species. Its outer structure is mostly made of collagen fibers and calcium phosphate. The interior consists mostly of stem cells, but also presents an amalgam of other ordinary human cells, tissues, and organs, including: neurons, hormone-producing glands, and bronchioles.
@@ -137,9 +137,9 @@ Located 426 m from SCP-5517 is an abandoned wooden cabin, referred to as SCP-551
 > 
 > **Conditions:** Open environment, 20 m from SCP-5517.
 > 
->  **Preface:** Test subject (D-854) was exposed to a specimen of SCP-5517-1. Subject was observed from a safe distance by a team of armed personnel, equipped with hazmat suits and incendiary ammunition.
+>  **Preface:** Test subject (D-854) was exposed to a specimen of SCP-5517-1. Subject was observed from a safe distance by a team of armed personnel, equipped with hazmat suits and incendiary ammunition.
 > 
->  **Observation Notes:** Typical behavioral alteration confirmed. SCP-5517-2 proceeds to enter SCP-5517-B while escorted by the security team.
+>  **Observation Notes:** Typical behavioral alteration confirmed. SCP-5517-2 proceeds to enter SCP-5517-B while escorted by the security team.
 > 
 > While inside, SCP-5517-2 uses Inventory ITEM #1 to mutilate its own body, and to harvest a number of its organs. It should be noted that SCP-5517-2 displayed no signs of pain during the process, nor did it have its motor functions impaired, even though it was visually confirmed to have removed vital organs from the thoracic cavity. After observation of SCP-5517-2 engaging in a number of culinary practices using the collected material, the entity returned the organs inside its body, suturing and cauterizing the superficial lacerations.
 > 
@@ -150,7 +150,7 @@ Located 426 m from SCP-5517 is an abandoned wooden cabin, referred to as SCP-551
 [[/collapsible]]
 
 @@ @@
- 
+ 
 **Interview (5517/INT.11):**
 
 [[collapsible show="► ACCESS INTERVIEW" hide="▼ ACCESS GRANTED"]]
@@ -241,25 +241,25 @@ Located 426 m from SCP-5517 is an abandoned wooden cabin, referred to as SCP-551
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default:
+ * title: ID
+ * default:
 @@@@
- * type: text
- * rules:
-  * required: true
-  * maxLength:30
-  * minLength: 100
+ * type: text
+ * rules:
+  * required: true
+  * maxLength:30
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # affiliation
- * title: PASSWORD
- * default:
+ * title: PASSWORD
+ * default:
 @@@@
- * rules:
-  * required: true
-  * maxLength:30
-  * minLength: 100
+ * rules:
+  * required: true
+  * maxLength:30
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]

@@ -51,14 +51,14 @@ SCP-2426-JPの影響下にある対象はSCP-2426-JP-Aと継続的な交流を�
 @@@@
 [[module css]]
 .blink-collapsibe a.collapsible-block-link {
-  animation: blinkAnime 1s infinite alternate;
+  animation: blinkAnime 1s infinite alternate;
 }
 @keyframes blinkAnime{
-   0% { opacity: 0 }
- 100% { opacity: 1 }
+   0% { opacity: 0 }
+ 100% { opacity: 1 }
 }
 [[/module]]
- 
+ 
 [[div class="blink-collapsibe"]]
 [[collapsible show="セクションが追加されています。更新してください。" hide="更新を反映しました。"]]
 **補遺:** SCP-2426-JP-Aと共に消滅した資産の行方を調査するため、SCP-2426-JPの影響下にある対象を誘導し、土地、不動産、有価証券による資産形成を試みました。通常のプロセス通りにプロポーズ・イベントが終了した後、事前に形成した各固定資産保有者の名義を確認したところ、名義人は全て『[[span class="ruby"]]垣根 花子[[span class="rt"]]かきね はなこ[[/span]][[/span]]』として登録されていることが判明しました。

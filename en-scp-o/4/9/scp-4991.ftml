@@ -1,104 +1,104 @@
 [[module CSS]]
 /* 4CHAN */
 .chan.thread-container {
-  background-color: #FFFFEE;
-  padding: 5px;
-  font-family: arial,helvetica,sans-serif;
-  color: #872737;
-  overflow: hidden;
-  font-size: 1.1em;
+  background-color: #FFFFEE;
+  padding: 5px;
+  font-family: arial,helvetica,sans-serif;
+  color: #872737;
+  overflow: hidden;
+  font-size: 1.1em;
 }
 .chan.blue-container {
-  background-color: #d6daf0;
-  padding: 5px;
-  font-family: arial,helvetica,sans-serif;
-  color: #000;
-  display: table;
-  margin: 0 auto;
-  overflow: hidden;
+  background-color: #d6daf0;
+  padding: 5px;
+  font-family: arial,helvetica,sans-serif;
+  color: #000;
+  display: table;
+  margin: 0 auto;
+  overflow: hidden;
 }
 .chan.blue-container .post-content {
-  margin-bottom: 0;
+  margin-bottom: 0;
 }
- 
+ 
 .chan .deleted-icon {
-  color: #FF0000;
-  background-color: #E3E3E3;
-  border: 1px solid #383838;
-  padding: 0 2px;
-  font-weight: bold;
+  color: #FF0000;
+  background-color: #E3E3E3;
+  border: 1px solid #383838;
+  padding: 0 2px;
+  font-weight: bold;
 }
- 
+ 
 .chan .post-content {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
 }
 .chan .summary {
-  color: #707070;
-  margin-top: 10px;
+  color: #707070;
+  margin-top: 10px;
 }
 .chan .reply-container {
-  display: table;
+  display: table;
 }
 .chan .reply-arrows {
-  color: #E0BFB7;
-  float: left;
-  margin-right: 2px;
-  margin-top: 9px;
-  margin-left: 2px;
+  color: #E0BFB7;
+  float: left;
+  margin-right: 2px;
+  margin-top: 9px;
+  margin-left: 2px;
 }
 .chan .reply {
-  background-color: #F0E0D6;
-  border: 1px solid #D9BFB7;
-  border-left: none;
-  border-top: none;
-  display: table;
-  padding: 5px;
-  margin: 4px 0;
+  background-color: #F0E0D6;
+  border: 1px solid #D9BFB7;
+  border-left: none;
+  border-top: none;
+  display: table;
+  padding: 5px;
+  margin: 4px 0;
 }
- 
+ 
 .chan img {
-  float: left;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 3px;
-  margin-bottom: 5px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 3px;
+  margin-bottom: 5px;
 }
 .chan .chan-file > p,
 .chan .post-info > p,
 .chan .reply-arrows > p,
 .chan .summary > p,
 .chan.blue-container .post-content > p {
-  margin: 0;
+  margin: 0;
 }
 .chan .image-container {
-  padding: 0;
+  padding: 0;
 }
 
 @media (max-width: 479px) {
-  .chan .reply-arrows {
-    display: none;
-  }
-  .chan .post-content {
-    margin: 0;
-  }
-  .chan .image-container {
-    text-align: center;
-  }
+  .chan .reply-arrows {
+    display: none;
+  }
+  .chan .post-content {
+    margin: 0;
+  }
+  .chan .image-container {
+    text-align: center;
+  }
 }
 
 /* REDDIT */
 .reddit-post{
-    margin: .43em;
-    padding: 0 .85em;
+    margin: .43em;
+    padding: 0 .85em;
 
-    background-color: #fcfcfb;
-    border: 1px solid #b5b3ac;
+    background-color: #fcfcfb;
+    border: 1px solid #b5b3ac;
 
-    font-family: verdana,arial,sans-serif;
-    overflow: hidden;
+    font-family: verdana,arial,sans-serif;
+    overflow: hidden;
 }
 [[/module]]
 
@@ -150,25 +150,25 @@ You will become their nests.
 |risk-class=filler
 ]]
 ----
- 
- 
+ 
+ 
 **Special Containment Procedures:** All social networking websites affected by SCP-4991 have had their records of the incident completely erased. A cover story of an ARG (Alternate Reality Game) has been implemented in case any proof of the incident remains.
- 
+ 
 **Description:** SCP-4991 was a period between April 7th, 2016 and April 9th, 2016, when major social networking websites such as 4chan, Reddit, Tumblr, and Twitter began creating posts that referenced non-existent events. During this time, users were met with errors that hindered their ability to post. All posts that were created during this period were made by existing accounts.
- 
-Two days after SCP-4991's manifestation, all anomalous activity ceased, and users could interact with the websites normally. By a vote of 11 to 1, the O5 Council reclassified SCP-4991 as Neutralized, and the current containment procedures were established.  No anomalous activity similar to SCP-4991 has been detected since the incident.
- 
+ 
+Two days after SCP-4991's manifestation, all anomalous activity ceased, and users could interact with the websites normally. By a vote of 11 to 1, the O5 Council reclassified SCP-4991 as Neutralized, and the current containment procedures were established.  No anomalous activity similar to SCP-4991 has been detected since the incident.
+ 
 [[=]]
 **Addendum 4991.1**
 [[/=]]
 ----
 SCP-4991 was discovered early in the morning on April 7th after Foundation operatives were alerted to most social networking websites being inaccessible, and users reported posts appearing that they were not making. Upon order of the Council of the United, all of these websites were shut down, and a viral Class-K Amnestic was released following SCP-4991's demanifestation.
- 
+ 
 The following are examples of posts made during SCP-4991.
- 
+ 
 ----
- 
- 
+ 
+ 
 [[collapsible show="▼ Twitter Records" hide="▲ THEY WILL EVOLVE"]]
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
@@ -182,9 +182,9 @@ The following are examples of posts made during SCP-4991.
 * [[size .8em]] ##grey|LIKES## [[/size]][[size 1.1em]] ##purple| 105K## [[/size]]
 @@ @@
 [[size .8em]] ##grey|7 April 2016 - New York, United States## [[/size]]
- 
+ 
 [[/div]]
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
@@ -198,9 +198,9 @@ The following are examples of posts made during SCP-4991.
 * [[size .8em]] ##grey|LIKES## [[/size]][[size 1.1em]] ##purple| 93## [[/size]]
 @@ @@
 [[size .8em]] ##grey|7 April 2016 - Three Portlands## [[/size]]
- 
+ 
 [[/div]]
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
@@ -213,12 +213,12 @@ The following are examples of posts made during SCP-4991.
 * [[size .8em]] ##grey|LIKES## [[/size]][[size 1.1em]] ##purple| 1,273## [[/size]]
 @@ @@
 [[size .8em]] ##grey|7 April 2016 - Sweden## [[/size]]
- 
- 
+ 
+ 
 [[/div]]
- 
+ 
 @@ @@
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
@@ -232,17 +232,17 @@ The following are examples of posts made during SCP-4991.
 * [[size .8em]] ##grey|LIKES## [[/size]][[size 1.1em]] ##purple| 10K## [[/size]]
 @@ @@
 [[size .8em]] ##grey|8 April 2016 - Oregon, United States## [[/size]]
- 
- 
+ 
+ 
 [[/div]]
- 
- 
+ 
+ 
 @@ @@
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
-[[size 1.5em]] ##grey|  방탄소년단  ## [[/size]]
+[[size 1.5em]] ##grey|  방탄소년단  ## [[/size]]
 [[size 1.5em]] ##grey| @BTS_twt ## [[/size]]
 @@ @@
 @@ @@
@@ -252,12 +252,12 @@ The following are examples of posts made during SCP-4991.
 * [[size .8em]] ##grey|LIKES## [[/size]][[size 1.1em]] ##purple| 2.1M## [[/size]]
 @@ @@
 [[size .8em]] ##grey|8 April 2016 - Korea## [[/size]]
- 
- 
+ 
+ 
 [[/div]]
- 
+ 
 @@ @@
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
@@ -271,11 +271,11 @@ The following are examples of posts made during SCP-4991.
 * [[size .8em]] ##grey|LIKES## [[/size]][[size 1.1em]] ##purple| 39## [[/size]]
 @@ @@
 [[size .8em]] ##grey|8 April 2016 - New York, United States## [[/size]]
- 
+ 
 [[/div]]
- 
+ 
 @@ @@
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
@@ -289,20 +289,20 @@ The following are examples of posts made during SCP-4991.
 * [[size .8em]] ##grey|LIKES## [[/size]][[size 1.1em]] ##purple| 1.5M## [[/size]]
 @@ @@
 [[size .8em]] ##grey|9 April 2016 - California, United States## [[/size]]
- 
+ 
 [[/div]]
- 
+ 
 @@ @@
- 
- 
+ 
+ 
 [[/collapsible]]
- 
- 
+ 
+ 
 ----
- 
- 
+ 
+ 
 [[collapsible show="▼ Reddit Records" hide="▲ THEY WILL ADAPT"]]
- 
+ 
 
 [[div class="reddit-post"]]
 
@@ -310,7 +310,7 @@ The following are examples of posts made during SCP-4991.
 
 [[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] Kolt Moor, SCP Foundation's "O5-1", steps out of Secure-Ment plan. [[/span]]
 [[span style="font-size: x-small;"]] ##888|submitted 9 hours ago by## ##369|Memesalot##[[/span]]
-[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 191 comments@@   @@share@@   @@save@@   @@hide@@   @@##a79128|give gold##@@   @@report@@   @@crosspost [[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 191 comments@@   @@share@@   @@save@@   @@hide@@   @@##a79128|give gold##@@   @@report@@   @@crosspost [[/span]]
 
 [[/div]]
 
@@ -414,7 +414,7 @@ The following are examples of posts made during SCP-4991.
 
 [[span style="display: inline-block; font-size: x-small; height: .67em;"]] [[span style="padding: 1px; color: #369;"]] [–] [[/span]] [[span style="font-weight: bold; margin-right: .4em; color: #369;"]] FloppyPhoenix [[/span]] [[span style="color: #888;"]] 2705 points 1 day ago [[/span]] [[/span]]
 
-[[span style="font-size: small; font-weight: 400; color: #222;"]] The Foundation has always been about Money and Money alone, so I'm not surprised. The Secure-Ment Plan would cost them a shit ton of fucking money,  so much that it might put them out of business forever. It seems they have a "I'd rather die than pay this" mentality right now, unless we're missing something.[[/span]]
+[[span style="font-size: small; font-weight: 400; color: #222;"]] The Foundation has always been about Money and Money alone, so I'm not surprised. The Secure-Ment Plan would cost them a shit ton of fucking money,  so much that it might put them out of business forever. It seems they have a "I'd rather die than pay this" mentality right now, unless we're missing something.[[/span]]
 
 [[/div]]
 
@@ -452,7 +452,7 @@ The following are examples of posts made during SCP-4991.
 
 [[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] What's up with the "Secure-ment Plan" and the SCP Foundation? [[/span]]
 [[span style="font-size: x-small;"]] ##888|submitted 49 minutes ago by## ##369|Plaguebub##[[/span]]
-[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 47 comments@@   @@share@@   @@save@@   @@hide@@   @@##a79128|give gold##@@   @@report@@   @@crosspost [[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 47 comments@@   @@share@@   @@save@@   @@hide@@   @@##a79128|give gold##@@   @@report@@   @@crosspost [[/span]]
 
 [[/div]]
 
@@ -492,7 +492,7 @@ The following are examples of posts made during SCP-4991.
 
 [[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] Saw a beautiful flock of birds fly over my town![[/span]]
 [[span style="font-size: x-small;"]] ##888|submitted 12 minutes ago by## ##369|Edwardscissortoes##[[/span]]
-[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 47 comments@@   @@share@@   @@save@@   @@hide@@   @@##a79128|give gold##@@   @@report@@   @@crosspost [[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 47 comments@@   @@share@@   @@save@@   @@hide@@   @@##a79128|give gold##@@   @@report@@   @@crosspost [[/span]]
 
 [[image http://scp-sandbox-3.wdfiles.com/local--files/temppage/them.jpg]]
 
@@ -526,7 +526,7 @@ The following are examples of posts made during SCP-4991.
 
 
 
- 
+ 
 [[/collapsible]]
 
 ------
@@ -580,12 +580,12 @@ im really scared. I dont want to die.
 [[/div]]
 
 
- 
+ 
 
 [[/collapsible]]
- 
+ 
 ----
- 
+ 
 [[collapsible show="▼ 4chan Records" hide="▲ OUR MISTAKES WILL BECOME THE BIRTH AND THE DEATH OF THE DAY"]]
 
 [[div class="chan blue-container"]]
@@ -731,7 +731,7 @@ yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 [[/div]]
 
 -------
- 
+ 
 [[/collapsible]]
 
 @@ @@

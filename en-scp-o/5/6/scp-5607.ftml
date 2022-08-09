@@ -2,11 +2,11 @@
 [[include :scp-wiki:theme:black-highlighter-theme]]
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -112,7 +112,7 @@ SCP-5607-1 is the designation for urine created by SCP-5607 and is currently con
 ]]
 The Research and Development Division has developed an inhalation device utilizing Compound-5607/P, an SCP-5607-1 derivative capable of a temporary and substantial increase in the effectiveness of Mobile Task Force agents. The device was designated the Personal Inhalant Service Stimulant, or PISS device. Testing concluded a ~175% increase in performance-related scoring in all participants.[[footnote]]Testing and performance results are available upon request.[[/footnote]] The R&D division requests the use of a high-engagement Mobile Task Force in order to test the long-term use of the PISS Device. 
 
-**MTF Administration:  ##green|Approved##**
+**MTF Administration:  ##green|Approved##**
 
 **Site Director: ##green|Approved##**
 

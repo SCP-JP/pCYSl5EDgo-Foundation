@@ -2,18 +2,18 @@
 [[include :scp-wiki:component:toggle-sidebar-bhl]]
 [[module css]]
 :root {
-    --header-subtitle: "Telecommunications Monitoring Office";
-    --logo-image: url("http://filedmns2.wikidot.com/local--files/dokumentoz/TMOwhite.png");
+    --header-subtitle: "Telecommunications Monitoring Office";
+    --logo-image: url("http://filedmns2.wikidot.com/local--files/dokumentoz/TMOwhite.png");
 }
 #page-title {
-  display: none;
+  display: none;
 }
 sup {
 
 vertical-align: top; position: relative; top: -0.5em;
 }
 @media (max-width: 1600px) {
-   .desktop-only{ display: none; visibility:hidden }
+   .desktop-only{ display: none; visibility:hidden }
 }
 [[/module]]
 
@@ -167,8 +167,8 @@ These efforts failed, as SCP-5783-1 was able to quickly identify in every instan
 |progress-color=rgb(80, 0, 2)
 ]]
 [[div class="blockquote"]]
- **Excerpt**
- 
+ **Excerpt**
+ 
 **Operative:** Please help, my mother is open.
 
 **SCP-5783-1:** Sir, are you lying to me?
