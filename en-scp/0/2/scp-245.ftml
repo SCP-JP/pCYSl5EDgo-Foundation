@@ -51,10 +51,10 @@ alert("無効なパスワード");
 <script type="text/javascript">
 function setVar()
 {
-    if (sessionStorage.read != 1)
-    {
-        sessionStorage.setItem('read', 1);
-    }
+    if (sessionStorage.read != 1)
+    {
+        sessionStorage.setItem('read', 1);
+    }
 }
 </script>
 </head>

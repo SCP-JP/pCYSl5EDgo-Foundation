@@ -93,10 +93,10 @@ SCP-922はまず2009年8月、数名の学生が履修登録していないは�
 [[div class="council1"]]
 [[/div]]
 [[div class="ordertitle"]]
-+*  許可無き職員はここがファイルの終了部となります
++*  許可無き職員はここがファイルの終了部となります
 [[/div]]
 [[div class="orderdescription"]]
- _
+ _
 SCP-922に関する更なる情報は現在、レベル5職員、および以下に詳述する情報に既に内々で関与している事前承認を受けた人物に制限されています。
 [[/div]]
 [[div class="itemno"]]
@@ -150,23 +150,23 @@ SCP-922に関する更なる情報は現在、レベル5職員、および以下
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default: <あなたのID>
- * type: text
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: ID
+ * default: <あなたのID>
+ * type: text
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # affiliation
- * title: PASSWORD
- * default: ・・・・・・・・・
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: PASSWORD
+ * default: ・・・・・・・・・
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]

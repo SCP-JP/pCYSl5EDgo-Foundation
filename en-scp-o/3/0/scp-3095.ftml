@@ -7,146 +7,146 @@
 <style type="text/css">
 body
 {
-   font-family: verdana,arial,helvetica,sans-serif;
-   font-size: 12.8px;
-   color: #333;
-   line-height:141%
+   font-family: verdana,arial,helvetica,sans-serif;
+   font-size: 12.8px;
+   color: #333;
+   line-height:141%
 }
 blockquote
 {
-  border: 1px dashed #999;
-  padding: 0 12.8px;
-  background-color:#f4f4f4
+  border: 1px dashed #999;
+  padding: 0 12.8px;
+  background-color:#f4f4f4
 }
 a {
-    color: #b01;
-    text-decoration: none;
-    background: transparent;
+    color: #b01;
+    text-decoration: none;
+    background: transparent;
 }
 a.newpage {
-    color: #d61;
-    text-decoration: none;
-    background: transparent;
+    color: #d61;
+    text-decoration: none;
+    background: transparent;
 }
 a:hover {
-    text-decoration: underline;
-    background-color: transparent;
+    text-decoration: underline;
+    background-color: transparent;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: 0.5em auto;
-    display: table;
-    border-color: grey;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0.5em auto;
+    display: table;
+    border-color: grey;
 }
 tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
 }
 tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
 }
 th {
-    font-weight: bold;
-    text-align: -internal-center;
-    border: 1px solid #888;
-    padding: 0.3em 0.7em;
-    background-color: #EEE;
+    font-weight: bold;
+    text-align: -internal-center;
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
+    background-color: #EEE;
 }
 td {
-    text-align: left;
-    border: 1px solid #888;
-    padding: 0.3em 0.7em;
+    text-align: left;
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
 }
 td, th {
-    display: table-cell;
-    vertical-align: inherit;
+    display: table-cell;
+    vertical-align: inherit;
 }
 .collapsed {
-  display: none;
+  display: none;
 }
 .vanished {
-  display: none;
+  display: none;
 }
 .warning-cont {
-  color: red;
-  text-align: center;
+  color: red;
+  text-align: center;
 }
 #warning-header {
-  size: 25.6px;
+  size: 25.6px;
 }
 #warning {
-  size: 20px;
+  size: 20px;
 }
 .cblwarning {
-  color: red;
+  color: red;
 }
 .green {
-  color: green;
+  color: green;
 }
 .blue {
-  color: blue;
+  color: blue;
 }
 </style>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
 <script type="text/javascript">
 function addEvent(element, eventName, callback) {
-    if (element.addEventListener) {
-        element.addEventListener(eventName, callback, false);
-    } else if (element.attachEvent) {
-        element.attachEvent("on" + eventName, callback);
-    } else {
-        element["on" + eventName] = callback;
-    }
+    if (element.addEventListener) {
+        element.addEventListener(eventName, callback, false);
+    } else if (element.attachEvent) {
+        element.attachEvent("on" + eventName, callback);
+    } else {
+        element["on" + eventName] = callback;
+    }
 }
 
 window.toggle = function(cls) {
-  var collapsed = document.querySelectorAll("." + cls + ".collapsed");
-  var expanded = document.querySelectorAll("." + cls + ":not(.collapsed)");
-  var i;
-  for(i = 0; i < collapsed.length; i++) {
-    collapsed[i].classList.remove("collapsed");
-  }
-  for(i = 0; i < expanded.length; i++) {
-    expanded[i].classList.add("collapsed");
-  }
+  var collapsed = document.querySelectorAll("." + cls + ".collapsed");
+  var expanded = document.querySelectorAll("." + cls + ":not(.collapsed)");
+  var i;
+  for(i = 0; i < collapsed.length; i++) {
+    collapsed[i].classList.remove("collapsed");
+  }
+  for(i = 0; i < expanded.length; i++) {
+    expanded[i].classList.add("collapsed");
+  }
 };
 
 var junkChars = ['ó','ò','ñ','ç','¿','ß','à','è','ì','ù','Œ','þ','█','%','+','=','.','«','»','£','$','€','½','¾','À','È','Ì','Ò','Ù','Â','Ê','â','ê','Ä','Ë','ä','ë','ÿ','ü','•'];
 
 var randomIntFromInterval = function(min,max)
 {
-  return Math.floor(Math.random()*(max-min+1)+min);
+  return Math.floor(Math.random()*(max-min+1)+min);
 };
 
 var getJunkChars = function(length) {
-  var res = '';
-  var i;
-  for (i = 0; i < length; i++) {
-    res += junkChars[randomIntFromInterval(0,junkChars.length - 1)];
-  }
-  return res;
+  var res = '';
+  var i;
+  for (i = 0; i < length; i++) {
+    res += junkChars[randomIntFromInterval(0,junkChars.length - 1)];
+  }
+  return res;
 };
 
 
 window.onload = function() { 
-  var addADot = function(){$('#loadingpage').text($('#loadingpage').text() + '.');};
-  setTimeout(addADot,750);
-  setTimeout(addADot,750*2);
-  setTimeout(addADot,750*3);
-  setTimeout(function(){document.getElementById('doc').classList.remove('vanished');},750*4);
+  var addADot = function(){$('#loadingpage').text($('#loadingpage').text() + '.');};
+  setTimeout(addADot,750);
+  setTimeout(addADot,750*2);
+  setTimeout(addADot,750*3);
+  setTimeout(function(){document.getElementById('doc').classList.remove('vanished');},750*4);
 
-  window.switchIt = function() {
-    document.getElementById('doc').classList.add('vanished');
-    $('#loadingpage').text('Loading newest revision');
-      setTimeout(addADot,750);
-  setTimeout(addADot,750*2);
-  setTimeout(addADot,750*3);
-    setTimeout(function(){document.getElementById('rev').classList.remove('vanished');},750*4);
-  }
+  window.switchIt = function() {
+    document.getElementById('doc').classList.add('vanished');
+    $('#loadingpage').text('Loading newest revision');
+      setTimeout(addADot,750);
+  setTimeout(addADot,750*2);
+  setTimeout(addADot,750*3);
+    setTimeout(function(){document.getElementById('rev').classList.remove('vanished');},750*4);
+  }
 };
 </script>
 <blockquote><p id="loadingpage">Loading document SCP-3095</p></blockquote>
@@ -259,7 +259,7 @@ window.onload = function() {
 <tr>
 <td>The Perritree</td>
 <td>Made up entirely out of <i>Phoenicopteridae</i>, or flamingos. Located in a Colombian forest near Site-40.
- <strike>This civilization has been passive towards the Foundation, but has requested that it is to be left alone. Surveilance via Eta-1 is to continue.</strike> The Perritree follows an extremely religious oligarchy with "Medila" at the highest.</td>
+ <strike>This civilization has been passive towards the Foundation, but has requested that it is to be left alone. Surveilance via Eta-1 is to continue.</strike> The Perritree follows an extremely religious oligarchy with "Medila" at the highest.</td>
 <td><strike>Type II</strike> See Incident 3095-8</td>
 </tr>
 </tbody>

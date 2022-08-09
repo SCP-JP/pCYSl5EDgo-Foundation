@@ -8,79 +8,79 @@
 a.collapsible-block-link { font-weight: bold; }
 
 div.terminal{
-    width: @display-width;
-    height: @display-height;
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #20142e;
-    margin: 0;
+    width: @display-width;
+    height: @display-height;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #20142e;
+    margin: 0;
 /* black shadow at the top of the terminal */
-    background-image:
-    radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #191122);
-    background-position: center;
-    display: block;
+    background-image:
+    radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #191122);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow: hidden;
-    padding-bottom: 15px !important;
+    overflow: hidden;
+    padding-bottom: 15px !important;
 }
 
 div.scanline{
-    margin-top: -40%;
-    width: @display-width;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
-    -webkit-animation: scan 5s linear 0s infinite;; /* Safari 4.0 - 8.0 */
-    animation: scan 5s linear 0s infinite;
-    background: linear-gradient(to bottom, rgba(56, 56, 82,0), rgba(56, 56, 112,0.1)) !important;
+    margin-top: -40%;
+    width: @display-width;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+    -webkit-animation: scan 5s linear 0s infinite;; /* Safari 4.0 - 8.0 */
+    animation: scan 5s linear 0s infinite;
+    background: linear-gradient(to bottom, rgba(56, 56, 82,0), rgba(56, 56, 112,0.1)) !important;
 }
 
 div.text{
-    color: rgba(255,255,255,0.8);
-    padding-top: 34%;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    font-family: Lucida Console, Monaco, monospace;
-    }
-    
+    color: rgba(255,255,255,0.8);
+    padding-top: 34%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-family: Lucida Console, Monaco, monospace;
+    }
+    
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(2000%);}
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(2000%);}
 }
 /* flags */
 
 div.log {
-  float: center; 
-  border: gray 1px; 
-  padding: 7px; 
-  margin: 3px;
-  background-color: #fafafa; 
-  box-shadow: 0 2px 4px rgba(75, 75, 75, .5);
+  float: center; 
+  border: gray 1px; 
+  padding: 7px; 
+  margin: 3px;
+  background-color: #fafafa; 
+  box-shadow: 0 2px 4px rgba(75, 75, 75, .5);
 }
 
 /* Containers for Bauxes Of Information */
 .container {
- font-family: 'Nanum Gothic', Arial, sans-serif;
-    background-color: #1e0f2d !important;
-    border-color: #451c76 !important;
- padding: 5px 15px 15px 15px; 
+ font-family: 'Nanum Gothic', Arial, sans-serif;
+    background-color: #1e0f2d !important;
+    border-color: #451c76 !important;
+ padding: 5px 15px 15px 15px; 
 }
 
 .quoteblock { 
-  display: inline-block; 
-  width: 96%;
-  float: center; 
-  border: gray 1px; 
-  padding: 5px; 
-  margin: 0.625em;
-  color: gray;
-  font-weight: bold;
-  background-color: #fafafa; 
-  box-shadow: 0 2px 4px rgba(75, 75, 75, .5);
+  display: inline-block; 
+  width: 96%;
+  float: center; 
+  border: gray 1px; 
+  padding: 5px; 
+  margin: 0.625em;
+  color: gray;
+  font-weight: bold;
+  background-color: #fafafa; 
+  box-shadow: 0 2px 4px rgba(75, 75, 75, .5);
 }
 
 .blockM {
@@ -88,19 +88,19 @@ div.log {
 -webkit-margin-before: 1em;
 -webkit-margin-after: 1em;
 -webkit-margin-end: 0px;
-  border: 1px solid #d60000;
-  padding: 12px;
-  background-clip: padding-box: /* support: IE9+ */
-  background-color: #e8e8e8;
-  border-radius: 10px;
-  box-shadow:
-    0 0 0 4px hsl(0, 0%, 80%),
-    0 0 0 7px hsl(0, 0%, 90%);
+  border: 1px solid #d60000;
+  padding: 12px;
+  background-clip: padding-box: /* support: IE9+ */
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  box-shadow:
+    0 0 0 4px hsl(0, 0%, 80%),
+    0 0 0 7px hsl(0, 0%, 90%);
 }
 
 .spangles {
-  color: #ffffff;
-  background: #000000;
+  color: #ffffff;
+  background: #000000;
 }
 
 /*
@@ -287,7 +287,7 @@ display:none;
 ----
 = **映像記録**
 ----
-//(注: フォーマット形式  --  時間 | 音源)//
+//(注: フォーマット形式  --  時間 | 音源)//
 = **<記録開始>**
 
 **0m 00s |** //[フィールドエージェント スミスとウォレンスキーがパトカーに乗って、トウモロコシ畑と遠くの納屋を横切る道を走っている。彼らは牧場の外周部にある柵の支柱を通り過ぎる -- 牧場労働者が放牧された牛を駆り集めている。黒い倉庫、茶色の住宅、赤い壁の家畜施設が見えてくる。ウォレンスキーが施設の近くでキーを回して車を止め、2人は降りる。]//
@@ -520,7 +520,7 @@ display:none;
 
 **ハンドラー博士:** こうなる前、君はLyftに務めるフルタイムの運送ドライバーだった。その時期の長い夜にも君が沢山眠っていたとは想像できないんだがね。どうして転職した？
 
-**ドラウス:** 徴集されたんだ。これはな、ゆっくり始まる。まず疲れるだろ。だから食べるチーズの量を増やしたり、あるいはカフェイン抜きのコーヒーに脱脂粉乳を多めに入れたりする。エスプレッソは効かない。睡眠薬も効かない。そしてある日、疲労のあまり倒れる。そして昏睡状態に入ると --  //[ドラウスは手を膝に降ろす。]// それがつまり雇用されたって意味だ。あんたの潜在意識はもうあんたの私有財産じゃない、理解できたか？
+**ドラウス:** 徴集されたんだ。これはな、ゆっくり始まる。まず疲れるだろ。だから食べるチーズの量を増やしたり、あるいはカフェイン抜きのコーヒーに脱脂粉乳を多めに入れたりする。エスプレッソは効かない。睡眠薬も効かない。そしてある日、疲労のあまり倒れる。そして昏睡状態に入ると --  //[ドラウスは手を膝に降ろす。]// それがつまり雇用されたって意味だ。あんたの潜在意識はもうあんたの私有財産じゃない、理解できたか？
 
 **ハンドラー博士:** では、君はどうやって広告を宣伝した？ 私が知る限りでは、君は肉体的にタイピングが不可能だったはずだ。
 

@@ -52,7 +52,7 @@ The following is a list of known SCP-3017-1 instances and their relation to SCP-
 || SCP-3017-1-06 || Tabatha Fortuin || 78 || Maternal Grandmother ||
 || SCP-3017-1-07 || Nadia Alvin || 24 || Fiance ||
 || SCP-3017-1-08 || Eugene Stein || 26 || Former Classmate ||
-|| SCP-3017-1-09 || Anna Meier  || 25 || Former Classmate ||
+|| SCP-3017-1-09 || Anna Meier  || 25 || Former Classmate ||
 || SCP-3017-1-10 || Victor Abbott || 27 || Former Romantic Partner ||
 || SCP-3017-1-11 || Max Friedrich || 35 || Neighbor ||
 || SCP-3017-1-12 || Kaitlyn Adelardi || 22 || Former Romantic Partner ||
@@ -120,7 +120,7 @@ A proposal was approved to investigate how SCP-3017's perception of SCP-3017-1's
 > 
 > **SCP-3017:** What do you mean?
 > 
-> **Rylan:**  What I mean is... look, it wasn't my decision, but if you keep trying to pull all the stuff with the guards, we won't let her get treatment.
+> **Rylan:**  What I mean is... look, it wasn't my decision, but if you keep trying to pull all the stuff with the guards, we won't let her get treatment.
 > 
 > **SCP-3017:** But, but that that's crazy! You can't do that!
 > 
@@ -312,7 +312,7 @@ Security personnel were unable to apprehend SCP-3017 or SCP-3017-1-13, and both 
 [[include component:image-block name=house_fire.jpg|caption=Still frame from footage of Incident I-3017-1 N]]
 **Incident I-3017-1 N**
 
-On 05/23/20█6, at approximately 0300 local time, a fire began at SCP-3017's previous residence. The fire quickly spread, destroying the residence and 2 adjacent houses. SCP-3017-1-01 through  -07 and -11 perished in the fire, along with 2 civilians. The cause of the fire --is under investigation-- was found to be arson.
+On 05/23/20█6, at approximately 0300 local time, a fire began at SCP-3017's previous residence. The fire quickly spread, destroying the residence and 2 adjacent houses. SCP-3017-1-01 through  -07 and -11 perished in the fire, along with 2 civilians. The cause of the fire --is under investigation-- was found to be arson.
 
 **Incident I-3017-EX**
 
@@ -409,20 +409,20 @@ Reports of Melbrook's criminal history, as well as his supposed ties to anomalou
 [[html]]
 <head>
 <style>
-    blockquote {
-        border: 1px dashed #999;
-        padding: 0 1em;
-        background-color: #f4f4f4;
-        display: block;
-        margin: 1.0em 0.5em;
-    }
-    body {
-        background-color: #fff;
-        font-size: 0.80em;
-        color: #900;
-        font-family: verdana,arial,helvetica,sans-serif;
-        font-size: 1em;
-    }
+    blockquote {
+        border: 1px dashed #999;
+        padding: 0 1em;
+        background-color: #f4f4f4;
+        display: block;
+        margin: 1.0em 0.5em;
+    }
+    body {
+        background-color: #fff;
+        font-size: 0.80em;
+        color: #900;
+        font-family: verdana,arial,helvetica,sans-serif;
+        font-size: 1em;
+    }
 }
 
 </style>
@@ -430,9 +430,9 @@ Reports of Melbrook's criminal history, as well as his supposed ties to anomalou
 var counter = 0
 var timer;
 function countUP () {
- counter = counter + 1;//increment the counter by 1
- document.getElementById("timer_container").innerHTML = counter;
- }
+ counter = counter + 1;//increment the counter by 1
+ document.getElementById("timer_container").innerHTML = counter;
+ }
 </script>
 </head>
 <body onload='timer=setInterval("countUP()", 1000 );'>

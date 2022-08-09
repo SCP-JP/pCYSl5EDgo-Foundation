@@ -5,68 +5,68 @@
 
 [[module CSS]]
 /* HEADER */
- :root{
-   --header-title: "The Avian Division";
-   --header-subtitle: "Until we return to The Nest";
-   --lgurl: url(https://scp-wiki.wdfiles.com/local--files/bird/avdiv_white.png);
+ :root{
+   --header-title: "The Avian Division";
+   --header-subtitle: "Until we return to The Nest";
+   --lgurl: url(https://scp-wiki.wdfiles.com/local--files/bird/avdiv_white.png);
 }
 
- div#container-wrap{
-     background-image: url(https://scp-wiki.wikidot.com/local--files/bird/avdiv_body_bg.png);
+ div#container-wrap{
+     background-image: url(https://scp-wiki.wikidot.com/local--files/bird/avdiv_body_bg.png);
 }
 
- #header h1 a::before,
- #header h2::before{
-     font-family: "Verdana", sans-serif;
+ #header h1 a::before,
+ #header h2::before{
+     font-family: "Verdana", sans-serif;
 }
 
- #page-title{
-     color: hsl(45, 98%, 28%);
+ #page-title{
+     color: hsl(45, 98%, 28%);
 }
 
 /* PAGE RATING */
- .page-rate-widget-box .rate-points{
-     background: hsl(45, 89%, 40%) !important;
-     border: 1px solid hsl(45, 89%, 40%);
+ .page-rate-widget-box .rate-points{
+     background: hsl(45, 89%, 40%) !important;
+     border: 1px solid hsl(45, 89%, 40%);
 }
 
- .page-rate-widget-box .rateup,
- .page-rate-widget-box .ratedown{
-     background: hsl(45, 100%, 97%);
-     border-color: hsl(45, 89%, 40%);
+ .page-rate-widget-box .rateup,
+ .page-rate-widget-box .ratedown{
+     background: hsl(45, 100%, 97%);
+     border-color: hsl(45, 89%, 40%);
 }
 
- .page-rate-widget-box .cancel{
-     background: hsl(45, 89%, 40%);
-     border: 1px solid hsl(45, 89%, 40%);
+ .page-rate-widget-box .cancel{
+     background: hsl(45, 89%, 40%);
+     border: 1px solid hsl(45, 89%, 40%);
 }
 
- .page-rate-widget-box .rateup a,
- .page-rate-widget-box .ratedown a{
-     color: hsl(45, 89%, 40%);
+ .page-rate-widget-box .rateup a,
+ .page-rate-widget-box .ratedown a{
+     color: hsl(45, 89%, 40%);
 }
 
- .page-rate-widget-box .cancel a{
-     color: hsl(45, 76%, 67%);
+ .page-rate-widget-box .cancel a{
+     color: hsl(45, 76%, 67%);
 }
 
- .page-rate-widget-box .rateup a:hover,
- .page-rate-widget-box .ratedown a:hover{
-     background: hsl(45, 89%, 40%);
+ .page-rate-widget-box .rateup a:hover,
+ .page-rate-widget-box .ratedown a:hover{
+     background: hsl(45, 89%, 40%);
 }
 
- .page-rate-widget-box .cancel a:hover{
-     color: hsl(45, 100%, 97%);
-     background: hsl(45, 89%, 40%);
+ .page-rate-widget-box .cancel a:hover{
+     color: hsl(45, 100%, 97%);
+     background: hsl(45, 89%, 40%);
 }
 
 /* DIV BLOCKS */
- .series-nav{
-     background:
-        linear-gradient(
-          to bottom right,
-          hsla(0, 0%, 100%, 1),
-          hsla(45, 100%, 55%, .5));
+ .series-nav{
+     background:
+        linear-gradient(
+          to bottom right,
+          hsla(0, 0%, 100%, 1),
+          hsla(45, 100%, 55%, .5));
 }
 [[/module]]
 
@@ -151,6 +151,6 @@ Recovered data files show that O5-10 was a devout Catholic.
 
 [[div class="footer-wikiwalk-nav"]]
 [[=]]
-<< [[[SCP-3361]]] |  SCP-3362 | [[[SCP-3363]]] >>
+<< [[[SCP-3361]]] |  SCP-3362 | [[[SCP-3363]]] >>
 [[/=]]
 [[/div]]

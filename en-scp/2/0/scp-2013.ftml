@@ -65,23 +65,23 @@ SCP-2013-A個体は少なくとも約5リットルの血液を2週間に一度�
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default: <YOUR ID>
- * type: text
- * rules:
-  * required: true
-  * maxLength:10
-  * minLength: 100
+ * title: ID
+ * default: <YOUR ID>
+ * type: text
+ * rules:
+  * required: true
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # affiliation
- * title: PASSWARD
- * default: •••••••••
- * rules:
-  * required: true
-  * maxLength:10
-  * minLength: 100
+ * title: PASSWARD
+ * default: •••••••••
+ * rules:
+  * required: true
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]

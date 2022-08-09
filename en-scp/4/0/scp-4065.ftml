@@ -1,10 +1,10 @@
 [[module CSS]]
 #header {
-    height: 140px;
-    position: relative;
-    z-index: 10;
-    padding-bottom: 22px; /* FOR MENU */
-    background: url() 10px 40px no-repeat;
+    height: 140px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 22px; /* FOR MENU */
+    background: url() 10px 40px no-repeat;
 }
 [[/module]]
 
@@ -26,7 +26,7 @@
 @@@@ @@@@
 
 [[=]]
-[[collapsible show="対抗ミーム接種が検証されました" hide="  "]]
+[[collapsible show="対抗ミーム接種が検証されました" hide="  "]]
 
 [[<]]
 [[include :scp-jp:component:classified-decoration

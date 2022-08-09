@@ -3,9 +3,9 @@
 [[/>]]
 
 [[include component:image-block
-    name=http://scp-wiki.wdfiles.com/local--files/scp-2341/Home.jpg|
-    caption=SCP-2341|
-    width=300px
+    name=http://scp-wiki.wdfiles.com/local--files/scp-2341/Home.jpg|
+    caption=SCP-2341|
+    width=300px
 ]]
 
 **アイテム番号:** SCP-2341
@@ -40,9 +40,9 @@ SCP-2341の異常性質は、年齢18歳以上の対象者が正面玄関を開�
 [[/div]]
 
 [[include component:image-block
-    name=http://www.scp-wiki.net/local--files/scp-2341/kitchen.jpg|
-    caption=実験2341-19でD-1169が撮影した写真。|
-    width=300px
+    name=http://www.scp-wiki.net/local--files/scp-2341/kitchen.jpg|
+    caption=実験2341-19でD-1169が撮影した写真。|
+    width=300px
 ]]
 
 **補遺2341.2:** {{ドローン探査}} 
@@ -78,13 +78,13 @@ function setVar()
 
 {
 
-    if (sessionStorage.read != 1)
+    if (sessionStorage.read != 1)
 
-    {
+    {
 
-        sessionStorage.setItem('read', 1);
+        sessionStorage.setItem('read', 1);
 
-    }
+    }
 
 }
 
@@ -102,7 +102,7 @@ function setVar()
 
 <audio autoplay>
 
-  <source src="http://scpsandbox2.wikidot.com/local--files/amuness-creeps-ii/ITISCOMING.mp3" type="audio/mpeg">
+  <source src="http://scpsandbox2.wikidot.com/local--files/amuness-creeps-ii/ITISCOMING.mp3" type="audio/mpeg">
 
 </audio>
 

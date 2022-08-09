@@ -21,7 +21,7 @@ width: 20%
 }
 </style>
 
-<!-- STEP ONE: Copy this code into the HEAD of your HTML document  -->
+<!-- STEP ONE: Copy this code into the HEAD of your HTML document  -->
 
 <SCRIPT LANGUAGE = "JavaScript">
 
@@ -78,9 +78,9 @@ dnum2=0;
 document.getElementById("dbox").value= dstring.substring(dnum1, dnum2);
 }
 
-function create(form) {        
+function create(form) {        
 
-if (confirm("Warning: Creation of fraudulent articles will result in disciplinary action. I wish this warning didn't need to be here. Seriously guys, the whole 'J' classification thing is getting old.")) {        
+if (confirm("Warning: Creation of fraudulent articles will result in disciplinary action. I wish this warning didn't need to be here. Seriously guys, the whole 'J' classification thing is getting old.")) {        
 
 window.alert("Error Code: 35720. Please contact Tech Support, because anything you do by yourself will probably make it worse.");
 
@@ -99,7 +99,7 @@ window.alert("Error Code: 35720. Please contact Tech Support, because anything y
 
 
 
-<!-- STEP TWO: Put this code into the BODY of your HTML document  -->
+<!-- STEP TWO: Put this code into the BODY of your HTML document  -->
 
 
 <FONT FACE="Verdana" size=2>
@@ -112,11 +112,11 @@ window.alert("Error Code: 35720. Please contact Tech Support, because anything y
 </p><p>
 <b>Object Class:</b>
 <select>
-  <option value="safe">Safe</option>
-  <option value="euclid">Euclid</option>
-  <option value="keter">Keter</option>
-  <option value="neutralised">Neutralised</option>
-  <option value="other">Other</option>
+  <option value="safe">Safe</option>
+  <option value="euclid">Euclid</option>
+  <option value="keter">Keter</option>
+  <option value="neutralised">Neutralised</option>
+  <option value="other">Other</option>
 </select> 
 </p><p>
 <b>Special Containment Procedures:</b>
@@ -147,7 +147,7 @@ window.alert("Error Code: 35720. Please contact Tech Support, because anything y
 
 
 
-<!-- Script Size:  3.09 KB  -->
+<!-- Script Size:  3.09 KB  -->
 
 
 

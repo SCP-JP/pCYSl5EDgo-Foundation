@@ -1,9 +1,9 @@
 [[module css]]
 .html-block-iframe {
-    width: auto !important;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    width: auto !important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 [[/module]]
 
@@ -34,15 +34,15 @@ display:none;}
 [[/module]]
 [[module css]]
 #side-bar {
-    background: rgb(var(--white-monochrome));
+    background: rgb(var(--white-monochrome));
 }
 
 #side-bar div.menu-item a, #side-bar div.menu-item .text {
-    color: rgb(var(--black-monochrome));
+    color: rgb(var(--black-monochrome));
 }
 
 #side-bar>div:nth-child(5) {
-    background-color: rgba(var(--dark-accent),0.25)!important;
+    background-color: rgba(var(--dark-accent),0.25)!important;
 }
 [[/module]]
 

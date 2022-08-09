@@ -1,66 +1,66 @@
 [[module CSS]]
 /* Hide the collapsible link once it's been expanded */
 .collapsible-block-unfolded-link .collapsible-block-link, #breadcrumbs {
-  display: none;
+  display: none;
 }
 
 /* Make superscripts not fuck with the line spacing */
 sup {
-  vertical-align: top;
-  position: relative;
-  top: -0.5em;
+  vertical-align: top;
+  position: relative;
+  top: -0.5em;
 }
 
 /* Haha blue boi */
 .outside {
-  margin: 2em -6em;
-  padding: 1em 10em;
-  --narration-color: rgba(214, 234, 248,1);
-  background: var(--narration-color);
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, var(--narration-color) 20%, var(--narration-color) 80%, rgba(255,255,255,0) 100%);
-  z-index: -2;
+  margin: 2em -6em;
+  padding: 1em 10em;
+  --narration-color: rgba(214, 234, 248,1);
+  background: var(--narration-color);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, var(--narration-color) 20%, var(--narration-color) 80%, rgba(255,255,255,0) 100%);
+  z-index: -2;
 }
 
 /* Make the blue bois that are within the document have smaller margins so they break flow less*/
 .outside.inline {
-  margin: 1em -6em;
-  padding: 1px 10em;
+  margin: 1em -6em;
+  padding: 1px 10em;
 }
 
 /* Force the side bar to render on top of the blue bois */
 #side-bar {
-  z-index: 2;
+  z-index: 2;
 }
 
 /* Hide the original page title */
 #page-title {
-  display: none;
+  display: none;
 }
 
 /* Make my fake page title look like the original (thanks SCP-2998) */
 .page-title {
-  border-bottom: solid 1px #bbbbbb;
-  color: #990011;
-  font-weight: normal;
-  margin: 0 0 0.6em;
-  padding: 0 0 0.25em;
-  font-size: 200%;
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
 }
 .page-title p {
-  margin: 0;
+  margin: 0;
 }
 
 @media only screen and (max-width: 1040px) {
-  .outside {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-    padding-left: 3em !important;
-    padding-right: 3em !important;
-  }
+  .outside {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+  }
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden;
 }
 [[/module]]
 
@@ -351,8 +351,8 @@ SCP-3984を構成する'通常の'不死性の範囲[[footnote]]例として、�
 @@ @@
 
 [[include component:earthworm
-  first=false | last=false | hub=yes |
-  previous-url=/in-the-clutches-of-life | previous-title=生に捕われて |
-  next-url=/omega-k | next-title=ΩK |
-  hub-url=/end-of-death-hub | hub-title=死の終焉ハブ |
+  first=false | last=false | hub=yes |
+  previous-url=/in-the-clutches-of-life | previous-title=生に捕われて |
+  next-url=/omega-k | next-title=ΩK |
+  hub-url=/end-of-death-hub | hub-title=死の終焉ハブ |
 ]]

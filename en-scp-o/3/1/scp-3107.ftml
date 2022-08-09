@@ -16,7 +16,7 @@ Electronic documentation regarding SCP-3107 and SCP-3107-A is considered non-ano
 **Description:** 
 
 {{ **AN EXCEPTION HAS OCCURED!** 
- ERR.MSG: Query on column S19.SCP.3107.DESC Exceeds maximum allowable data. Please alter search parameters.}}
+ ERR.MSG: Query on column S19.SCP.3107.DESC Exceeds maximum allowable data. Please alter search parameters.}}
 
 [[collapsible show=">> ../RemoveDataLimitationAndResubmit.ksh" hide="- Access Granted"]]
 __Overview__
@@ -29,22 +29,22 @@ For full documentation on instances of SCP-3107-A, see Notes N-3107-A-1 for an o
 **Notes:**
 __Note-3107-1__
 {{<div class="ac_granted description" style="display:block>
-@@  <?php@@
-@@      if(!verified){@@
-@@        echo '<a href="' . htmlspecialchars("/termination.php?SCP=3107&@@
-@@        stage=23&data=" .urlencode($critical_data)) . '">'."\n"; @@
-**@@   ERROR: WEBSOCKET PARSER FORCED USER KICK- MAX BUFFER SIZE REACHED!@@**}}
+@@  <?php@@
+@@      if(!verified){@@
+@@        echo '<a href="' . htmlspecialchars("/termination.php?SCP=3107&@@
+@@        stage=23&data=" .urlencode($critical_data)) . '">'."\n"; @@
+**@@   ERROR: WEBSOCKET PARSER FORCED USER KICK- MAX BUFFER SIZE REACHED!@@**}}
 
 [[/collapsible]]
 @@ @@
 ------
 **Recovery:**
-SCP-3107 was uncovered by the Foundation packaged in a yellow box labeled "Dr. Wondertainment's Wonderball!" Notably, the packaging lacked the franchise's usual disclaimers and advertising.  Due to the lack of [DATA EXPUNGED], it was later discovered that the box was a fake; SCP-3107 holds no relation to Dr. Wondertainment Incorporated. Research is ongoing to determine if the intent of the fabrication was to deliberately have SCP-3107 placed in Foundation custody.
+SCP-3107 was uncovered by the Foundation packaged in a yellow box labeled "Dr. Wondertainment's Wonderball!" Notably, the packaging lacked the franchise's usual disclaimers and advertising.  Due to the lack of [DATA EXPUNGED], it was later discovered that the box was a fake; SCP-3107 holds no relation to Dr. Wondertainment Incorporated. Research is ongoing to determine if the intent of the fabrication was to deliberately have SCP-3107 placed in Foundation custody.
 ------
 **Testing Log**
 > __A Foreword:__
 > Most of the recordings on file have been redacted for brevity. We don't need a thousand records of useless errata clogging our terminals. Department staff are already complaining that they're unable to view the object's description properly. The full documentation can be found in the ESU.
-> @@     @@--@@   @@--Doctor Kiebler, Head of Anomalous Objects at  Site-19
+> @@     @@--@@   @@--Doctor Kiebler, Head of Anomalous Objects at  Site-19
 
 > __**Test 1 --12/5/1999**__
 > **Subject:** D-3107-1
@@ -145,7 +145,7 @@ SCP-3107 was uncovered by the Foundation packaged in a yellow box labeled "Dr. W
 >> 
 >> __D-3107-1__: ...Doctor?
 >> 
->> __Dr. Winslow__: Hm? Oh! Nothing, nothing. That will be all for today. You may return to your quarters,  D-3107-1.
+>> __Dr. Winslow__: Hm? Oh! Nothing, nothing. That will be all for today. You may return to your quarters,  D-3107-1.
 > **Notes:** This is the first time that SCP-3107 has produced a double-chime in over 2 weeks.
 
 > __**Test 108 --1/14/2000**__
@@ -207,7 +207,7 @@ SCP-3107 was uncovered by the Foundation packaged in a yellow box labeled "Dr. W
 > 
 > //So let this be a warning to you: Not everything in the Foundation has to be documented. We're not here to write books on the unknown or poke apocalypse monsters with a stick. We're here to Secure, Contain and Protect. Don't forget that.//
 > 
-> @@     @@--@@   @@--//Doctor Roscranz, Research Director #2 assigned to SCP-3107//
+> @@     @@--@@   @@--//Doctor Roscranz, Research Director #2 assigned to SCP-3107//
 
 [[footnoteblock]]
 

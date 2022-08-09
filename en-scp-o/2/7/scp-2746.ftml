@@ -49,65 +49,65 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Fantem";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "Fantem";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .pulsate {
-    -webkit-animation: pulsate 1s linear;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation: pulsate 1s linear;
+    -webkit-animation-iteration-count: infinite;
 }
 @-webkit-keyframes pulsate {
-  0% {
-    opacity:1;
-  }
-  25% {
-    opacity:.20;
-  }
-  50% {
-    opacity:.9;
-  }
-  70% {
-    opacity:.05;
-  }
-  85% {
-    opacity:.05;
-  }
+  0% {
+    opacity:1;
+  }
+  25% {
+    opacity:.20;
+  }
+  50% {
+    opacity:.9;
+  }
+  70% {
+    opacity:.05;
+  }
+  85% {
+    opacity:.05;
+  }
 }
 [[/module]]
 [[include :scp-wiki:component:acs-animation]]
@@ -173,7 +173,7 @@ Equipment needed for exploration into SCP-2746-1 must be carried entirely throug
 
 On the left side of SCP-2746's main entrances are two storage rooms: Storage Room 111-1 (SR 111-1), located within Las Vegas, and Storage Room 111-2 (SR 111-2), located within SCP-2746-1. Both of these rooms have a door leading to the exterior, and a door leading to the interior of SCP-2746. 
 
-As a human travels through SCP-2746, they will take on the physical appearance of a non-human animal; no pattern or explanation has been determined to explain why the transformation results in any particular species. This process has been observed to begin with the subject's skeletal structure, and end with the skin, size, and internal/external organs matching those of the non-human species. Human subjects retain their vocal cords and sapience when they arrive at SCP-2746-1.  
+As a human travels through SCP-2746, they will take on the physical appearance of a non-human animal; no pattern or explanation has been determined to explain why the transformation results in any particular species. This process has been observed to begin with the subject's skeletal structure, and end with the skin, size, and internal/external organs matching those of the non-human species. Human subjects retain their vocal cords and sapience when they arrive at SCP-2746-1.  
 
 Nonhuman subjects do not undergo the same changes as human subjects when crossing SCP-2746. When any organism, excluding humans, approaches SCP-2746-1, they will only develop functional vocal cords. They retain their level of intelligence while within SCP-2746-1, but may be capable of repeating rudimentary or familiar phrases depending on their intelligence.
 
@@ -416,7 +416,7 @@ Aæl ili'g li'f wyy foy vælal ili'g æuay aægwlalj glfi' i'foyuaw Ki' ili'g li
 
 Ili'g, ælk iooæf ili'g æuay ki'lalj æuay iouai'lj.
 
-Ioy iolairir li'f yphyl iryf ili'g yiæzy foy æffyyivf fi' oæuayi i'gua Yiæzyua, ælk æuay vuayvæuayk fi' wfælk ælk slajof ili'g ælk yphyuail si'uaay lal  ili'g oæphy wykgayk i'ua jyæwyk fi' folaw vi'lalfiryww uaywlawfælay. Ili'g oæphy li' ualajof, pgf ioy aæl li'f jlaphy gv i'l ili'g. Ioy ki'l'f iolawo folaw gvi'l ili'g, pgf las lyyk py, ioy iolairir wfuaælk ili'g oyuay.
+Ioy iolairir li'f yphyl iryf ili'g yiæzy foy æffyyivf fi' oæuayi i'gua Yiæzyua, ælk æuay vuayvæuayk fi' wfælk ælk slajof ili'g ælk yphyuail si'uaay lal  ili'g oæphy wykgayk i'ua jyæwyk fi' folaw vi'lalfiryww uaywlawfælay. Ili'g oæphy li' ualajof, pgf ioy aæl li'f jlaphy gv i'l ili'g. Ioy ki'l'f iolawo folaw gvi'l ili'g, pgf las lyyk py, ioy iolairir wfuaælk ili'g oyuay.
 
 Ki'l'f yiæzy laf ai'yiy fi' foæf; ioy ai'girk oæphy wi' yigao yii'uay foæl folaw.
 [[div style="float:right"]]
@@ -731,7 +731,7 @@ Congratulations. You found ████. Go back. Go back, and forget about it. 
 
 You probably knew of ████; thought of it as a paradise, a holy ground where nothing could have gone wrong, death couldn't touch anyone, and everyone was content. No sin... I suppose it was. Not any more. We've abandoned that notion a long, long time ago.
 
-Get this in your head right now;  ████ is dead.
+Get this in your head right now;  ████ is dead.
 
 After what happened, we fought each other. I had to watch as our brother, our sister, our sons, and daughters were starved into madness and pinned to a cross, and half the time, I was the one who had to do it; the other times, it was Sari. There were those I had no mercy for; the ones that tortured, the ones that... indulged. Then there were the ones I regret; those I knew personally... I almost didn't do it, but I thought I had to. So I did.
 

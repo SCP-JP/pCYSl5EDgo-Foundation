@@ -26,15 +26,15 @@ display:none;}
 [[/module]]
 [[module css]]
 #side-bar {
-    background: rgb(var(--white-monochrome));
+    background: rgb(var(--white-monochrome));
 }
 
 #side-bar div.menu-item a, #side-bar div.menu-item .text {
-    color: rgb(var(--black-monochrome));
+    color: rgb(var(--black-monochrome));
 }
 
 #side-bar>div:nth-child(5) {
-    background-color: rgba(var(--dark-accent),0.25)!important;
+    background-color: rgba(var(--dark-accent),0.25)!important;
 }
 [[/module]]
 
@@ -74,7 +74,7 @@ SCP-2813 possesses no life support system. Due to several open observation ports
 > 
 > //Several minutes pass before communications resume.//
 > 
-> **Captain Thompson:**  Command. We're ready to head in. You know... this reminds me of the Metis mission.
+> **Captain Thompson:**  Command. We're ready to head in. You know... this reminds me of the Metis mission.
 > 
 > **Lieutenant Trinni:** You expecting more bugs?
 > 

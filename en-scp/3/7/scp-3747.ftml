@@ -6,152 +6,152 @@
 <style type="text/css">
 body
 {
-   font-family:verdana,arial,helvetica,sans-serif;
-   font-size:12.8px;
-   color:#333;
-   line-height:141%
+   font-family:verdana,arial,helvetica,sans-serif;
+   font-size:12.8px;
+   color:#333;
+   line-height:141%
 }
 blockquote
 {
-  border:1px dashed #999;
-  padding: 0 12.8px;
-  background-color:#f4f4f4
+  border:1px dashed #999;
+  padding: 0 12.8px;
+  background-color:#f4f4f4
 }
 a {
-    color: #b01;
-    text-decoration: none;
-    background: transparent;
+    color: #b01;
+    text-decoration: none;
+    background: transparent;
 }
 a.newpage {
-    color: #d61;
-    text-decoration: none;
-    background: transparent;
+    color: #d61;
+    text-decoration: none;
+    background: transparent;
 }
 a:hover {
-    text-decoration: underline;
-    background-color: transparent;
+    text-decoration: underline;
+    background-color: transparent;
 }
 .collapsed {
-  display: none;
+  display: none;
 }
 .vanished {
-  display: none;
+  display: none;
 }
 .warning-cont {
-  color: red;
-  text-align: center;
+  color: red;
+  text-align: center;
 }
 #warning-header {
-  size: 25.6px;
+  size: 25.6px;
 }
 #warning {
-  size: 20px;
+  size: 20px;
 }
 .retrofont {
 font-family: 'Geo', cursive;
 font-weight: bold;
 }
 .cblwarning {
-  color: red;
+  color: red;
 }
 .green {
-  color: green;
+  color: green;
 }
 </style>
 <script type="text/javascript">
 function addEvent(element, eventName, callback) {
-    if (element.addEventListener) {
-        element.addEventListener(eventName, callback, false);
-    } else if (element.attachEvent) {
-        element.attachEvent("on" + eventName, callback);
-    } else {
-        element["on" + eventName] = callback;
-    }
+    if (element.addEventListener) {
+        element.addEventListener(eventName, callback, false);
+    } else if (element.attachEvent) {
+        element.attachEvent("on" + eventName, callback);
+    } else {
+        element["on" + eventName] = callback;
+    }
 }
 
 window.toggle = function(cls) {
-  var collapsed = document.querySelectorAll("." + cls + ".collapsed");
-  var expanded = document.querySelectorAll("." + cls + ":not(.collapsed)");
-  var i;
-  for(i = 0; i < collapsed.length; i++) {
-    collapsed[i].classList.remove("collapsed");
-  }
-  for(i = 0; i < expanded.length; i++) {
-    expanded[i].classList.add("collapsed");
-  }
+  var collapsed = document.querySelectorAll("." + cls + ".collapsed");
+  var expanded = document.querySelectorAll("." + cls + ":not(.collapsed)");
+  var i;
+  for(i = 0; i < collapsed.length; i++) {
+    collapsed[i].classList.remove("collapsed");
+  }
+  for(i = 0; i < expanded.length; i++) {
+    expanded[i].classList.add("collapsed");
+  }
 };
 
 // typewriter code
 function Typewriter(el, str, delay) {
-  if (!(this instanceof Typewriter)) return new Typewriter(el, str, delay);
+  if (!(this instanceof Typewriter)) return new Typewriter(el, str, delay);
 
-  this.el = el;
-  this.str = str || el.innerHTML || el.value;
-  this.delay = delay || 100;
-  this.i = 0;
+  this.el = el;
+  this.str = str || el.innerHTML || el.value;
+  this.delay = delay || 100;
+  this.i = 0;
 }
 
 Typewriter.prototype.type = function() {
-  var i = this.i,
-    char = this.str.charAt(i);
+  var i = this.i,
+    char = this.str.charAt(i);
 
-  if (!char) {
-    clearInterval(this.intervalID);
-    return this;
-  }
+  if (!char) {
+    clearInterval(this.intervalID);
+    return this;
+  }
 
-  if (char === '<') this.isTag = true;
-  if (char === '>') this.isTag = false;
+  if (char === '<') this.isTag = true;
+  if (char === '>') this.isTag = false;
 
-  this.el.innerHTML += char;
-  return this.i++;
+  this.el.innerHTML += char;
+  return this.i++;
 };
 
 Typewriter.prototype.start = function() {
-  var self = this;
-  if (this.i < 0) this.i = 0;
-  if (this.el.innerHTML === this.str) this.clear();
+  var self = this;
+  if (this.i < 0) this.i = 0;
+  if (this.el.innerHTML === this.str) this.clear();
 
-  // this.emit('start');
-  (function loop() {
-    self.type();
-    if (self.isTag) return loop();
-    self.intervalID = setTimeout(loop, self.delay);
-  }());
+  // this.emit('start');
+  (function loop() {
+    self.type();
+    if (self.isTag) return loop();
+    self.intervalID = setTimeout(loop, self.delay);
+  }());
 
-  return this;
+  return this;
 };
 
 Typewriter.prototype.stop = function() {
-  this.i = -1;
-  return this;
+  this.i = -1;
+  return this;
 };
 
 Typewriter.prototype.restart = function() {
-  this.clear();
-  this.i = 0;
-  return this.start();
+  this.clear();
+  this.i = 0;
+  return this.start();
 };
 
 Typewriter.prototype.clear = function() {
-  this.el.innerHTML = '';
-  return this;
+  this.el.innerHTML = '';
+  return this;
 };
 
 var junkChars = ['ó','ò','ñ','ç','¿','ß','à','è','ì','ù','Œ','þ','█','%','+','=','.','«','»','£','$','€','½','¾','À','È','Ì','Ò','Ù','Â','Ê','â','ê','Ä','Ë','ä','ë','ÿ','ü','•'];
 
 var randomIntFromInterval = function(min,max)
 {
-  return Math.floor(Math.random()*(max-min+1)+min);
+  return Math.floor(Math.random()*(max-min+1)+min);
 };
 
 var getJunkChars = function(length) {
-  var res = '';
-  var i;
-  for (i = 0; i < length; i++) {
-    res += junkChars[randomIntFromInterval(0,junkChars.length - 1)];
-  }
-  return res;
+  var res = '';
+  var i;
+  for (i = 0; i < length; i++) {
+    res += junkChars[randomIntFromInterval(0,junkChars.length - 1)];
+  }
+  return res;
 };
 
 var selTabs = [];
@@ -159,11 +159,11 @@ var selTabs = [];
 window.onload = function() { 
 
 selTabs = [
-  document.getElementsByClassName('selTab1')[0],
-  document.getElementsByClassName('selTab2')[0],
-  document.getElementsByClassName('selTab3')[0],
-  document.getElementsByClassName('selTab4')[0],
-  document.getElementsByClassName('selTab5')[0]
+  document.getElementsByClassName('selTab1')[0],
+  document.getElementsByClassName('selTab2')[0],
+  document.getElementsByClassName('selTab3')[0],
+  document.getElementsByClassName('selTab4')[0],
+  document.getElementsByClassName('selTab5')[0]
 ];
 
 var msg1 = '= セキュリティクリアランス要求 =';
@@ -176,7 +176,7 @@ var toD1 = delay1 * (msg1.length);
 var toD2 = delay2 * (msg2.length);
 
 var stopEarly = function(){
-  document.querySelectorAll("." + "article" + ":not(.collapsed)")[0].classList.remove("vanished");
+  document.querySelectorAll("." + "article" + ":not(.collapsed)")[0].classList.remove("vanished");
 };
 
 var typ1 =Typewriter(document.querySelectorAll('#warning-header')[0],msg1,delay1)
@@ -190,27 +190,27 @@ setTimeout(function() { typ2.start(); }, toD1 + 500);
 setTimeout(function () { document.querySelectorAll("." + "article" + ":not(.collapsed)")[0].classList.remove("vanished"); }, toD2 + toD1 + 500 + 750);
 
 addEvent(document.querySelectorAll('.verpercle')[0],"click",function(){
-  document.getElementsByClassName('selector')[0].classList.remove('vanished');
+  document.getElementsByClassName('selector')[0].classList.remove('vanished');
 });
 };
 
 var toggled = 0;
 window.afterfirstclick = function() {
-  toggle('article');
-  if (toggled === 0) {
-  setTimeout(function() { 
-    var para = document.querySelectorAll('.verpercle')[0];
-    para.innerHTML += '.';},1000);
-  setTimeout(function() { 
-    var para = document.querySelectorAll('.verpercle')[0];
-    para.innerHTML += '.';},2000);
-  setTimeout(function() { 
-    var para = document.querySelectorAll('.verpercle')[0];
-    para.innerHTML += '.';},3000);
-    toggled = 1;
-  setTimeout(function() {
-    document.querySelectorAll("." + "selector")[0].classList.remove("vanished");},4000);
-  }
+  toggle('article');
+  if (toggled === 0) {
+  setTimeout(function() { 
+    var para = document.querySelectorAll('.verpercle')[0];
+    para.innerHTML += '.';},1000);
+  setTimeout(function() { 
+    var para = document.querySelectorAll('.verpercle')[0];
+    para.innerHTML += '.';},2000);
+  setTimeout(function() { 
+    var para = document.querySelectorAll('.verpercle')[0];
+    para.innerHTML += '.';},3000);
+    toggled = 1;
+  setTimeout(function() {
+    document.querySelectorAll("." + "selector")[0].classList.remove("vanished");},4000);
+  }
 };
 
 var encrypting = 0;
@@ -219,42 +219,42 @@ var freakingOut = 0;
 
 var unencrypt = function(element,num) {
 /*
-  encrypting = 1;
-  var encryptableElems = getTextNodes(element);
-  var cbl = element.getElementsByClassName('cblwarning')[0];
-  if (encryptableElems.length !== 0) {
-  var buckets = [];
-  var i = 0;
-  for (i = 0; i < encryptableElems.length; i++) {
-    buckets[i] = encryptionBucket(encryptableElems[i],cbl);
-  }
-  for (i = 0; i < encryptableElems.length; i++) {
-    buckets[i].enc(num);
-  }
-  }
-  setTimeout(function(){encrypting = 0;},3000);
+  encrypting = 1;
+  var encryptableElems = getTextNodes(element);
+  var cbl = element.getElementsByClassName('cblwarning')[0];
+  if (encryptableElems.length !== 0) {
+  var buckets = [];
+  var i = 0;
+  for (i = 0; i < encryptableElems.length; i++) {
+    buckets[i] = encryptionBucket(encryptableElems[i],cbl);
+  }
+  for (i = 0; i < encryptableElems.length; i++) {
+    buckets[i].enc(num);
+  }
+  }
+  setTimeout(function(){encrypting = 0;},3000);
 */
 };
 
 window.showSelTab = function(num) {
-  if (encrypting === 0 && lastSelTabOpened === 0) {
-  var selTab = selTabs[num];
-  for (i = 0; i < selTabs.length; i++) {
-    var st = selTabs[i];
-    if (!(st.classList.contains('vanished')))
-      st.classList.add('vanished');
-  }
-  unencrypt(selTab,num);
-  selTab.classList.remove('vanished');
+  if (encrypting === 0 && lastSelTabOpened === 0) {
+  var selTab = selTabs[num];
+  for (i = 0; i < selTabs.length; i++) {
+    var st = selTabs[i];
+    if (!(st.classList.contains('vanished')))
+      st.classList.add('vanished');
+  }
+  unencrypt(selTab,num);
+  selTab.classList.remove('vanished');
 }};
 </script>
 <div class="part1">
 <div class="warning-cont">
 <h2 id="warning-header"> 
-  
+  
 </p>
-<h3 id="warning">  
- 
+<h3 id="warning">  
+ 
 </p>
 </div>
 
@@ -262,7 +262,7 @@ window.showSelTab = function(num) {
 <p><center><a onclick="afterfirstclick();">[ 暗証番号を入力してください ]</a></center></p>
 </div>
 <div class="article collapsed">
- <p><center><a onclick="toggle('article');">[ 暗証番号認証 ]</a></center></p>
+ <p><center><a onclick="toggle('article');">[ 暗証番号認証 ]</a></center></p>
 <hr />
 <p><sub><tt><sub class="verpercle">VERIFYING PERSONNEL CLEARANCE</tt></sub></p>
 <div class="selector vanished">

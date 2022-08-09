@@ -29,8 +29,8 @@ PR(p_N)\end{array} \right] = \vec{P} = \left[ \begin{array}{cc}
 \vdots \\
 \frac{1-d}{N}\end{array} \right] + d \left[ \begin{array}{ccc}
 \ell(p_1,p_1) & \cdots & \ell(p_1,p_N)\\
-\vdots & \ddots  & \vdots \\
-\ell(p_N,p_1) & \cdots  & \ell(p_N,p_N)\end{array} \right]\vec{P} = \left( \frac{1-d}{N} \mathbf{J_N} + d\mathbf{M} \right ) \vec{P} = \mathbf{A}\vec{P}
+\vdots & \ddots  & \vdots \\
+\ell(p_N,p_1) & \cdots  & \ell(p_N,p_N)\end{array} \right]\vec{P} = \left( \frac{1-d}{N} \mathbf{J_N} + d\mathbf{M} \right ) \vec{P} = \mathbf{A}\vec{P}
 [[/math]]
 [[$ p_j $]]が[[$ p_i $]]にリンクしていなければ[[$ \ell(p_i,p_j) $]]には0、リンクしていれば行列[[$ \mathbf{M} $]]の列を正規化することで求められる非0値が代入されます。[[$ \mathbf{J_N} $]]は全成分が1の行列で、ベクトル[[$ \vec{P} $]]の各成分にベクトル[[$ \vec{1} $]]の定数倍が加算されることを保証します。ベクトル[[$ \vec{P} $]]の一意な解は行列[[$ \mathbf{A} $]]の固有値1に対応する固有ベクトルを表現しており、これが検索結果ランキングに用いられるPageRank値となります。固有値1はこの行列で最大の固有値であるため、これに対応する優固有ベクトルの算出には、べき乗法のような効率的な手法を用いることができます(詳細は//セクションIII：計算方法//を参照)。
 

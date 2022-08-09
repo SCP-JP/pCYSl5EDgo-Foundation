@@ -12,46 +12,46 @@ $('.clearance').append("NON-ESSENTIAL");
 [[module CSS]]
 
 .hovertip {
-    border: 0px solid #fff !important;
-    -webkit-box-shadow: 2px 3px 4px rgba(0,0,0,1);
-    -moz-box-shadow: 2px 3px 4px rgba(0,0,0,1);
-    box-shadow: 2px 3px 4px rgba(0,0,0,1);
-    max-width:400px;
-    width: 400px;
+    border: 0px solid #fff !important;
+    -webkit-box-shadow: 2px 3px 4px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 3px 4px rgba(0,0,0,1);
+    box-shadow: 2px 3px 4px rgba(0,0,0,1);
+    max-width:400px;
+    width: 400px;
 
 }
 .hovertip .content {
-  
-    background-color: #000000;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#cccccc));
-    background-image: -moz-linear-gradient(top, #ffffff, #cccccc);
-    color: #000000;
-    padding:2px; 
-    max-width:400px;
-    width: 400px;
+  
+    background-color: #000000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#cccccc));
+    background-image: -moz-linear-gradient(top, #ffffff, #cccccc);
+    color: #000000;
+    padding:2px; 
+    max-width:400px;
+    width: 400px;
 
 }
 
-#page-content .blockquote {border-color: #000000;    
-                 overflow-wrap: normal;
-                background-color#f2ffe6;
-    	}
-    	
+#page-content .blockquote {border-color: #000000;    
+                 overflow-wrap: normal;
+                background-color#f2ffe6;
+    	}
+    	
 #content-wrap div{
 
- background-color#f2ffe6;
+ background-color#f2ffe6;
 }
-.container  {position: absolute;
-                 text-align: center;
-    	 width:100%;
-            overflow-wrap: normal;
+.container  {position: absolute;
+                 text-align: center;
+    	 width:100%;
+            overflow-wrap: normal;
 
-    	}
-    	
-.centered  {position: absolute;
-   		 top: 50%;
-    	 left: 50%;
-   		 transform: translate(-50%, -50%);
+    	}
+    	
+.centered  {position: absolute;
+   		 top: 50%;
+    	 left: 50%;
+   		 transform: translate(-50%, -50%);
 
 }
 
@@ -60,13 +60,13 @@ $('.clearance').append("NON-ESSENTIAL");
 --cutColour: #701F12;
 --barColour: #632538;
 }
-#page-content .collapsible-block {  
-  max-width: 100%;
+#page-content .collapsible-block {  
+  max-width: 100%;
 overflow-wrap: normal;
 text-color: #ff1482;
-   border-color: #b01;
+   border-color: #b01;
 background-color:#f2ffe6;
-    border: solid 1px #b01;
+    border: solid 1px #b01;
 padding: 8px;
 }
 .collapsible-block-content p{
@@ -78,7 +78,7 @@ padding-top: 3px;
 }
 .collapsible-block-content{
 text-align: left;
- }
+ }
 .collapsible-block-folded, .collapsible-block-unfolded{
 text-align: center;
 text-color: black;
@@ -90,48 +90,48 @@ line-height: 1.6em;
 }
 
 .inset {
-    float: right;
-    width: 20%;
-    margin: 0px;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 2px;
-    border-color: #911501;
-    padding: 8px;	
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background: #701F12;
-    font-size: 90%;
-  overflow-wrap: normal;
+    float: right;
+    width: 20%;
+    margin: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #911501;
+    padding: 8px;	
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #701F12;
+    font-size: 90%;
+  overflow-wrap: normal;
 }
 .inset > p {
-    margin: 0;
-    overflow-wrap:normal;
+    margin: 0;
+    overflow-wrap:normal;
 }
 .space {
 float:center; width:100%; border:solid 3px #7979bd; padding:10px; margin-bottom: 10px;margin:0 auto;
 [[/module]]
 
 [[div style="width: 100%;
-    border: solid 2px #000000;
+    border: solid 2px #000000;
 
-    
-    color:black;
-    overflow-wrap: normal;
-    margin-bottom: 6px;
-    margin: 0 auto;"]]
+    
+    color:black;
+    overflow-wrap: normal;
+    margin-bottom: 6px;
+    margin: 0 auto;"]]
 
 [[div style="border: solid 0px #770077;
 background:url(https://upload.wikimedia.org/wikipedia/commons/e/ec/SCP_Foundation_%28emblem%29.svg) right bottom no-repeat, url(https://upload.wikimedia.org/wikipedia/commons/e/ec/SCP_Foundation_%28emblem%29.svg) left bottom no-repeat, #f2c2c2;
 background-size:50px 50px ;
-    padding: 20px;
-    overflow-wrap: normal;
-    margin-bottom: 1px;
-    margin: 0 auto;
-    text-align:center;"
-    box-sizing: border-box;
-    ]]
+    padding: 20px;
+    overflow-wrap: normal;
+    margin-bottom: 1px;
+    margin: 0 auto;
+    text-align:center;"
+    box-sizing: border-box;
+    ]]
 
 [[=]]
 +++ NOTICE FROM THE RECORDS AND INFORMATION SECURITY ADMINISTRATION (RAISA)
@@ -139,7 +139,7 @@ background-size:50px 50px ;
 Access to the following documentation has been restricted by order of the O5 Council. 
 As such, terminal access to this file is monitored and logged.
 
- **//Your IP address has been successfully recorded//** 
+ **//Your IP address has been successfully recorded//** 
 
 [[/=]]
 
@@ -150,7 +150,7 @@ As such, terminal access to this file is monitored and logged.
 
 
 [[include component:image-block-quoted name=zigzag2|caption=UE-54701]]
- 
+ 
 > 
 > ++++ **{{ARTICLE#:** [[[log-of-unexplained-locations|UE]]]-54701}}
 > 
@@ -168,7 +168,7 @@ As such, terminal access to this file is monitored and logged.
 > 
 > {{UE-54701 exerts no outward anomalous properties, and has not been deemed worthy of classification. Mass Anchor Site-██ reported large-volume Hume fluctuations leading up to the event which dissipated quickly thereafter and did not seem to otherwise affect the surrounding environment.}}
 > 
-> {{Due to its location and sheer size, a wide area has been cordoned off while better forms of containment are devised. Any activity is to be reported to site head; at no time are any civilians to come within 1km of UE-54701. Media suppression tactics successful in limiting knowledge of manifestation. Amnestic application has proven useful in most other cases.}}  
+> {{Due to its location and sheer size, a wide area has been cordoned off while better forms of containment are devised. Any activity is to be reported to site head; at no time are any civilians to come within 1km of UE-54701. Media suppression tactics successful in limiting knowledge of manifestation. Amnestic application has proven useful in most other cases.}}  
 > 
 > {{--No further plans for the structure have been made.--}}
 > 
@@ -185,10 +185,10 @@ As such, terminal access to this file is monitored and logged.
 > {{██/██/1991: Unverified activity.}}
 > 
 > {{██/██/1993: [REMOVED]. Item has been contained and is under analysis. Request for re-classification pending.}}
->   
+>   
 > = {{[END FILE]}}
 [[=]]
- [[collapsible show="[ PLEASE LOOK INTO THE RETINAL SCANNER NOW ]" hide=" "]]
+ [[collapsible show="[ PLEASE LOOK INTO THE RETINAL SCANNER NOW ]" hide=" "]]
 
 = **{{//confirmed//}}**
 
@@ -220,7 +220,7 @@ As such, terminal access to this file is monitored and logged.
 
 **Object Class:** --Euclid-- Thaumiel
 
-**Special Containment Procedures:** Due to its size and location, SCP-2759 is to be surrounded by 4.5m high barbed wire fencing and patrolled by security personnel until a better form of containment is established. Additionally, remote audiovisual surveillance should be strategically  installed around the perimeter and throughout its containment area.
+**Special Containment Procedures:** Due to its size and location, SCP-2759 is to be surrounded by 4.5m high barbed wire fencing and patrolled by security personnel until a better form of containment is established. Additionally, remote audiovisual surveillance should be strategically  installed around the perimeter and throughout its containment area.
 
 The surrounding desert within visual range of SCP-2759 is extremely large and arid, making foot traffic in the general vicinity a relatively uncommon occurrence. Therefore, any individuals coming within 5km are to be detained, questioned and amnesticised. 
 
@@ -318,7 +318,7 @@ It is believed that the dimension containing SCP-2759-E1 and SCP-2759-E2 has a m
 
 **Exploration Log 2759-Enlil:**
 [[include component:image-block-quoted-base name=bloodmoon.jpg |caption=Moon of SCP-2759-E2, enlarged.|width=300px|align=right]]
->  
+>  
 > **Abstract:** Exploration 2759-Enlil was approved and took place on ██/██/████, two days after contact with D-8821 was lost. D-3733 was sent through SCP-2759-1 with shoulder-mountable audiovisual recording gear, one hooded sweatshirt, and a small kit containing a flashlight, three flares, extra batteries and two granola bars, establishing contact eighteen minutes after death.
 > 
 > ------
@@ -355,7 +355,7 @@ It is believed that the dimension containing SCP-2759-E1 and SCP-2759-E2 has a m
 > **D-3733:** Someone just went inside. Should I follow?
 > 
 > **Control:** Affirmative, but make sure to keep an eye out for any signs of D-8821. You'll find a flashlight and some flares in your kit. 
->  
+>  
 > //Brief silence, some wind and rustling is heard.//
 > 
 > **D-3733:** Found the flares. No flashlight.
@@ -406,7 +406,7 @@ It is believed that the dimension containing SCP-2759-E1 and SCP-2759-E2 has a m
 > 
 > //Mild static interference overtakes the audio feed for two seconds.//
 > 
-> **D-3733:**  -[stu]pid question. I feel like I'm walking into my grave. 
+> **D-3733:**  -[stu]pid question. I feel like I'm walking into my grave. 
 > 
 > **Control:** I understand that this is not an optimal situation. The sooner you find D-8821, the sooner we can find a way to get you back.
 > 
@@ -485,7 +485,7 @@ It is believed that the dimension containing SCP-2759-E1 and SCP-2759-E2 has a m
 > //D-3733 picks up the camera and angles it downward. Small specks are seen in the distance. The dark liquid is abnormally clear, view disrupted minimally by smooth, rolling waves which appear almost velvet in nature. Due to worsening static distortion, it is impossible to discern what the objects are.//
 > 
 > **D-3733:** The //Tiamatu.//[[footnote]]"abyss/ocean"[[/footnote]] [pause] That's what it is called, I think. The Valley of the Lost. What? Stop it.
->  
+>  
 > **Control:** Are you alright?
 > 
 > **D-3733:** I'm sorry, yes, it's this- thing. It's trying to talk to me, to talk through me. Filling my head with knowledge and... oh.
@@ -493,14 +493,14 @@ It is believed that the dimension containing SCP-2759-E1 and SCP-2759-E2 has a m
 > //D-3733 pauses and appears to be listening.//
 > 
 > **D-3733:** I-I see. I'm on my way. 
->  
+>  
 > //Subject hesitates before facing the ocean, bending over to look down.//
 > 
-> **Control:**  What? Who is talking to you?
+> **Control:**  What? Who is talking to you?
 > 
 > **D-3733:** //Reflected in the mirror, as within, so without. For each sin, the soul incurs greater debt upon the route.// Forgive me.
 > 
->  **Control:** Please exit through the archway, D-3733.
+>  **Control:** Please exit through the archway, D-3733.
 > 
 > //D-3733 says nothing, takes a breath, and jumps from the edge into the dark waters below. Camera seems unaffected by this, although all light is quickly extinguished.//
 > 
@@ -623,7 +623,7 @@ On ██/██/████, personnel on site at SCP-2759 reported the activa
 > 
 > //He turns the object like a dial, and as he does so, the light switches to "GARDEN", then to a new symbol where "UNDERNEATH" was present on SCP-2759-1, with the frequency of the hum audibly changing with each.//
 > 
-> **MacLaughlin:** There we are.     
+> **MacLaughlin:** There we are.     
 > 
 > **D-1212:** That'll take me back?
 > 

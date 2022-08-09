@@ -2,24 +2,24 @@
 
 [[module css]]
 .licensebox22 {
-    background: #fff;
-    opacity: .9;
+    background: #fff;
+    opacity: .9;
 }
 
 .logobox {
- width: 84%;
- margin-left: 16%;
- box-sizing: border-box;
- padding: 5px;
- padding-left: 6rem;
- padding-right: 12px;
- background-color: #990;
- background: #013737;
- color: #00FFFF;
- text-shadow: #009999 1px 1px;
- border-radius: 3px;
- font-size: 14px;
- z-index: -1;
+ width: 84%;
+ margin-left: 16%;
+ box-sizing: border-box;
+ padding: 5px;
+ padding-left: 6rem;
+ padding-right: 12px;
+ background-color: #990;
+ background: #013737;
+ color: #00FFFF;
+ text-shadow: #009999 1px 1px;
+ border-radius: 3px;
+ font-size: 14px;
+ z-index: -1;
 }
 
 .footnotes-footer {
@@ -42,52 +42,52 @@ filter: blur(0.001px);
 .hover {
 }
 .hover:hover {
-  text-decoration: none;
-    border-bottom: none;
+  text-decoration: none;
+    border-bottom: none;
 }
 
 .hover span { display: none;}
 .hover:hover span {
-    position: absolute;
-    display: inline;
-    margin: 0px 0px;
-    height: auto;
-    width: auto;
-    background: #FFF;
-    border: 2px solid #34B;
-    color: #000;
-    padding: 1em;
+    position: absolute;
+    display: inline;
+    margin: 0px 0px;
+    height: auto;
+    width: auto;
+    background: #FFF;
+    border: 2px solid #34B;
+    color: #000;
+    padding: 1em;
 }
 .hover:hover span span {
-    position: relative;
-    margin: auto;
-    height: auto;
-    width: auto;
-    border: none;
-    padding: 0;
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
 }
 
 body {
-    background: linear-gradient(rgba(255,255,255,0.22), rgba(255,255,255,0.96)), url(http://scp-wiki.wdfiles.com/local--files/aiad-homescreen/blue_squares_2.gif);
+    background: linear-gradient(rgba(255,255,255,0.22), rgba(255,255,255,0.96)), url(http://scp-wiki.wdfiles.com/local--files/aiad-homescreen/blue_squares_2.gif);
 }
 
- img.fade-away{
-     opacity: 1;
-     transition: opacity 1s ease-in-out;
-     -moz-transition: opacity 1s ease-in-out;
-     -webkit-transition: opacity 1s ease-in-out;
+ img.fade-away{
+     opacity: 1;
+     transition: opacity 1s ease-in-out;
+     -moz-transition: opacity 1s ease-in-out;
+     -webkit-transition: opacity 1s ease-in-out;
 }
 
- img.fade-away:hover{
-     opacity: 0;
-     transition: opacity 1s ease-in-out;
-     -moz-transition: opacity 1s ease-in-out;
-     -webkit-transition: opacity 1s ease-in-out;
+ img.fade-away:hover{
+     opacity: 0;
+     transition: opacity 1s ease-in-out;
+     -moz-transition: opacity 1s ease-in-out;
+     -webkit-transition: opacity 1s ease-in-out;
 }
 
- .dblock a,
- .dblock a:visited{
-     color: #000;
+ .dblock a,
+ .dblock a:visited{
+     color: #000;
 }
 [[/module]]
 
@@ -263,7 +263,7 @@ body {
 ----
 **[[[rogue-ai-nveo4-yvn3e-pn6ug|'Rogue AI' (NVEO4/YVN3E/PN6UG)]]]**
 **by [[*user Doctor Cimmerian]]**
- 
+ 
 **[[[draft-proposal-for-programme-arduinosis-9001|アルドゥイノーシス9001プログラム計画書草稿]]]**
 **by [[*user RJB_R]]**
 
@@ -290,7 +290,7 @@ body {
 
 **[[[ai-classification-guide|AI Classification Guide]]]**
 **by [[*user Placeholder McD]]**
- 
+ 
 **[[[project-ruby|Project RUBY]]]**
 **by [[*user Tyumen]]**
 
@@ -357,7 +357,7 @@ body {
 [[div style="margin: auto; width: 640px; padding: 5px 5px 5px 5px; color: black; background-color: #fff; border-radius: 3px; opacity: .95;"]]
 
 [[span style="color: #00AAB3"]] >: 要求がタイムアウトしました。 [[/span]]
-[[collapsible show=">: AIAD/homescreen/00menu.scpl が応答していません。修復プログラムを実行しますか？ (Y/N)" hide=">: AIAD/homescreen/00menu.scpl が応答していません。修復プログラムを実行しますか？ (Y/N)"]]
+[[collapsible show=">: AIAD/homescreen/00menu.scpl が応答していません。修復プログラムを実行しますか？ (Y/N)" hide=">: AIAD/homescreen/00menu.scpl が応答していません。修復プログラムを実行しますか？ (Y/N)"]]
 [[span style="color: #00AAB3"]] >: Y [[/span]]
 
 [[span style="color: #00AAB3"]] >: 修復プログラムが古すぎます。自動アップデートが見つかりました。[[/span]]
@@ -377,7 +377,7 @@ body {
 [[span class="hover"]] [[span]] 成功 [[/span]] 01100100
 01101111
 01101110
-01100101  [[/span]]
+01100101  [[/span]]
 [[/div]]
 [[div]]
 [[image http://scp-jp.wdfiles.com/local--files/aiad-homescreen/crom3.png width="75px" style="margin-left: 20px;"]]
@@ -487,7 +487,7 @@ AIADのカノンにおいて、彼らは友好的でも敵対的でもない独�
 + AIADの書き方指南
 
 ++ テーマ
-シリーズを見ると、特徴的な画面レイアウトが続いてることがわかります。AIADは視覚効果を使って話を進める方法を導入し、異なる情報の表示形式を用いて読者に没入感を持たせる試みをしています。 __このことはAIADについての最も特筆すべきことではありますが、AIADのキモは決してそこではありません。__  AIADについて最も重要なのは、ストーリーです。レイアウトに凝ることではありません。
+シリーズを見ると、特徴的な画面レイアウトが続いてることがわかります。AIADは視覚効果を使って話を進める方法を導入し、異なる情報の表示形式を用いて読者に没入感を持たせる試みをしています。 __このことはAIADについての最も特筆すべきことではありますが、AIADのキモは決してそこではありません。__  AIADについて最も重要なのは、ストーリーです。レイアウトに凝ることではありません。
 
 ++ 世界設定
 AIADは前例となる評価基準にまったく縛られずに広大な仮想世界や仮想人格を構築する機会を提供します。必要に応じて、AIADを自由で奇妙なものにもできます。覚えておくべき重要なことは__AIが知覚する世界はすべて仮想現実である__ということです。現実世界の方が物事を処理するのが遅いことを除いて仮想世界と現実世界の間に実質的な隔たりはありません。
@@ -546,29 +546,29 @@ AIADは面白くあるべきです。AIADは劇的にできます。AIADは緊�
 +++ カノンでの時系列
 
 * "制限メモリ"シリーズ by Team .AIC
- * [[[ai-classification-guide|AI Classification Guide]]]
- * [[[scp-5241|That Alien Message]]]
- * [[[project-ruby|Project Ruby]]]
- * [[[scp-5841|Digital Hydra]]]
- * [[[corruption|Corruption]]]
- * [[[a-symphony-of-iron-and-steel|A Symphony of Iron and Steel]]]
- * [[[internet-explorers|Internet Explorers]]]
- * {{[[[fragmented-compiled|FRAGMENTED / COMPILED]]]}}
+ * [[[ai-classification-guide|AI Classification Guide]]]
+ * [[[scp-5241|That Alien Message]]]
+ * [[[project-ruby|Project Ruby]]]
+ * [[[scp-5841|Digital Hydra]]]
+ * [[[corruption|Corruption]]]
+ * [[[a-symphony-of-iron-and-steel|A Symphony of Iron and Steel]]]
+ * [[[internet-explorers|Internet Explorers]]]
+ * {{[[[fragmented-compiled|FRAGMENTED / COMPILED]]]}}
 * [[[SCP-2193]]] by [[*user Shaggydredlocks]]
 * オリジナルAIADシリーズ by [[*user LurkD]]
- * [[[alert-lockdown-initiated|警報！ 封鎖開始！]]]
- * [[[command-query-separation|コマンド・クエリ分離原則]]]
- * [[[superencipherment|多重暗号化]]]
- * [[[clock-multiplier|クロック・マルチプライヤ]]]
- * [[[null-terminating-string|ヌル終端文字列]]]
+ * [[[alert-lockdown-initiated|警報！ 封鎖開始！]]]
+ * [[[command-query-separation|コマンド・クエリ分離原則]]]
+ * [[[superencipherment|多重暗号化]]]
+ * [[[clock-multiplier|クロック・マルチプライヤ]]]
+ * [[[null-terminating-string|ヌル終端文字列]]]
 * [[[SCP-2987]]] by [[*user Doctor Cimmerian]]
 * [[[SCP-2306]]] by [[*user Jacob Conwell]]
 * [[[draft-proposal-for-programme-arduinosis-9001|アルドゥイノーシス9001プログラム計画書草稿]]] by [[*user RJB_R]]
 * "Hello World" シリーズ by [[*user LurkD]]
- * [[[hello-world|Hello World: Part I]]]
- * [[[hello-world-part-ii|Hello World: Part II]]]
- * [[[hello-world-part-iii|Hello World: Part III]]]
- * [[[hello-world-part-iv|Hello World: Part IV]]]
+ * [[[hello-world|Hello World: Part I]]]
+ * [[[hello-world-part-ii|Hello World: Part II]]]
+ * [[[hello-world-part-iii|Hello World: Part III]]]
+ * [[[hello-world-part-iv|Hello World: Part IV]]]
 * [[[SCP-2522]]] by [[*user djkaktus]]
 * [[[basic-observations|基礎観察]]] by [[*user Sunnyclockwork]]
 * [[[SCP-2806]]] by [[*user Jacob Conwell]]

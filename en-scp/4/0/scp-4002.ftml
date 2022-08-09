@@ -4,53 +4,53 @@
 
 [[module CSS]]
 .inset {
-    float: right;
-    width: 25%;
-    margin: 0px;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 2px;
-    border-color: #ee9999;
-    padding: 10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background: #black;
-    font-size: 90%;
+    float: right;
+    width: 25%;
+    margin: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #ee9999;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #black;
+    font-size: 90%;
 }
 .inset > p {
-    margin: 0;
+    margin: 0;
 }
 audio {
-   display:none;
+   display:none;
 }
 .space {
-    background-image: url(http://i.imgur.com/LtqzOqx.png);
+    background-image: url(http://i.imgur.com/LtqzOqx.png);
 float:left; width:100%; border:solid 3px #5050CA; padding:10px; margin-bottom: 10px;margin:0 auto;
 [[/module]]
 
 [[module css]]
-#page-content .collapsible-block {  
-  max-width: 100%;
-    /* text-align: center; */
-    text-align: center;
+#page-content .collapsible-block {  
+  max-width: 100%;
+    /* text-align: center; */
+    text-align: center;
 text-color: black;
-    border-color: #b01;
-    border: solid 1px #b01;
-    background-color: lightblue;
-    padding: 0.3em;
-    margin: 0.3em;
-    border: 1px lightgrey solid;
+    border-color: #b01;
+    border: solid 1px #b01;
+    background-color: lightblue;
+    padding: 0.3em;
+    margin: 0.3em;
+    border: 1px lightgrey solid;
 }
 .collapsible-block-content p {
-    text-align: left;
-    padding-left: 5px;
-    padding-right: 5px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 blockquote {
-    border: 1px double #999;
-    /* padding: 0 1em; */
-    background-color: #f4f4f4;
+    border: 1px double #999;
+    /* padding: 0 1em; */
+    background-color: #f4f4f4;
 }
 [[/module]]
 
@@ -98,14 +98,14 @@ Kholoud-ミーマチックトリガーが全現生人類に埋め込まれてい
 ----
 [[collapsible show="キシュについてのレポート" hide="補遺を閉じる"]]
 [[div style="border: 1px solid black;
-    border-style: double;
-    /* width: 50%; */
-    /* float: none; */
-    /* height: 50%; */
-    background-color: white;
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;"]]
+    border-style: double;
+    /* width: 50%; */
+    /* float: none; */
+    /* height: 50%; */
+    background-color: white;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;"]]
 [[/div]]
 
 [[include component:image-block-quoted name=sumer.jpg| caption=回収されたシュメール王名表の断片、着色済み。]]
@@ -144,14 +144,14 @@ Kholoud-ミーマチックトリガーが全現生人類に埋め込まれてい
 ----
 [[collapsible show="エリドゥについてのレポート" hide="補遺を閉じる"]]
 [[div style="border: 1px solid black;
-    border-style: double;
-    /* width: 50%; */
-    /* float: none; */
-    /* height: 50%; */
-    background-color: white;
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;"]]
+    border-style: double;
+    /* width: 50%; */
+    /* float: none; */
+    /* height: 50%; */
+    background-color: white;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;"]]
 [[/div]]
 > 彼の者らは町を設計した。
 > 神々は礎を築いた。
@@ -233,14 +233,14 @@ Kholoud-ミーマチックトリガーが全現生人類に埋め込まれてい
 ----
 [[collapsible show="アッカドについてのレポート" hide="補遺を閉じる"]]
 [[div style="border: 1px solid black;
-    border-style: double;
-    /* width: 50%; */
-    /* float: none; */
-    /* height: 50%; */
-    background-color: white;
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;"]]
+    border-style: double;
+    /* width: 50%; */
+    /* float: none; */
+    /* height: 50%; */
+    background-color: white;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;"]]
 [[/div]]
 > サルゴン、力強き王、アッカドの支配者、それが私である。
 > 私の母は取り換え子であり、父については何も知らぬ。
@@ -278,14 +278,14 @@ Kholoud-ミーマチックトリガーが全現生人類に埋め込まれてい
 ----
 [[collapsible show="ニップルについてのレポート- O5-1 Access Only" hide="補遺を閉じる"]]
 [[div style="border: 1px solid black;
-    border-style: double;
-    /* width: 50%; */
-    /* float: none; */
-    /* height: 50%; */
-    background-color: white;
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;"]]
+    border-style: double;
+    /* width: 50%; */
+    /* float: none; */
+    /* height: 50%; */
+    background-color: white;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;"]]
 [[/div]]
 
 [[<]]

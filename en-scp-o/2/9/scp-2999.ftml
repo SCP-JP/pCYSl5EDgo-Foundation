@@ -46,65 +46,65 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Fantem";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "Fantem";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .pulsate {
-    -webkit-animation: pulsate 1s linear;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation: pulsate 1s linear;
+    -webkit-animation-iteration-count: infinite;
 }
 @-webkit-keyframes pulsate {
-  0% {
-    opacity:1;
-  }
-  25% {
-    opacity:.20;
-  }
-  50% {
-    opacity:.9;
-  }
-  70% {
-    opacity:.05;
-  }
-  85% {
-    opacity:.05;
-  }
+  0% {
+    opacity:1;
+  }
+  25% {
+    opacity:.20;
+  }
+  50% {
+    opacity:.9;
+  }
+  70% {
+    opacity:.05;
+  }
+  85% {
+    opacity:.05;
+  }
 }
 [[/module]]
 [[include :scp-wiki:component:acs-animation]]
@@ -221,57 +221,57 @@ These Documents are provided under jurisdiction of Hayward Protocol, and may onl
 [[div class="tabstyle"]]
 ^^TXT-2999-0: Sarah_Crowely.txt^^
 [[code]]
- 53oooa,                                           ,aooo61
- iooooooooooo                                  ooooooooooi
- qoo        ooooo ,                      ,  ooooo    oooop
- .oo   72.           o                 o              ooo.
-  oo   ^::::,           o           o         ,:61     oo
-   o     '::::,            o     o         ,::::,      o
-    o       ;::::,           o o        ,:::::'       o
-     o        ':::::,       o `      ,:::::'         o
-       o        ';::::   o         ,:::::'         o
-         o             o         ,:::::'         o
-            o        o        ,:::::'          o
-               o   o        ,:::::'          o
-                 o       ,:::::'           o
-                o      ,:::::'          o   o
-               o      :::::;         o       o
-              o                  o            o
-             o                o                o
-             o             o  o  o             o
-             o          o           o          o
-              o       o                o      o
-               o   o                     o   o
-                 oo    _              _   oo
-               o      (0)            (0)     o
-              o        -     ,o,      -       o
-              o           `^OoooO^'           o
-              o              'o'              o
-               o              |              o
-                 o       ,o   |   o,       o
-                   o ,     ^oo^oo^     , o
-                 o     o    V   V    o      o
-               o         o         o          o
-              o           o       o            o
-             o             o    o              o
-             o               o o               o
-             o                o                o
-              o             █ █ █             o
-               o          █       █          o
-                o             █             o
-                 o       █         █       o
-                o  o          █          o  o
-              o      o   █         █   o       o
-           o           o      █      o           o
-        o                o         o               o
-      o                    o     o                   o
-    o                        o o                      o
-   o                       o     o                     o
-  oo                    o           o                  oo
- o68o                o                 o              o20o
- o43oo      ooooo                           ooooo    oo72o
- oo6fo77oooo                                  ooo65o6co79o
- ooooooo                                           ooooooo
+ 53oooa,                                           ,aooo61
+ iooooooooooo                                  ooooooooooi
+ qoo        ooooo ,                      ,  ooooo    oooop
+ .oo   72.           o                 o              ooo.
+  oo   ^::::,           o           o         ,:61     oo
+   o     '::::,            o     o         ,::::,      o
+    o       ;::::,           o o        ,:::::'       o
+     o        ':::::,       o `      ,:::::'         o
+       o        ';::::   o         ,:::::'         o
+         o             o         ,:::::'         o
+            o        o        ,:::::'          o
+               o   o        ,:::::'          o
+                 o       ,:::::'           o
+                o      ,:::::'          o   o
+               o      :::::;         o       o
+              o                  o            o
+             o                o                o
+             o             o  o  o             o
+             o          o           o          o
+              o       o                o      o
+               o   o                     o   o
+                 oo    _              _   oo
+               o      (0)            (0)     o
+              o        -     ,o,      -       o
+              o           `^OoooO^'           o
+              o              'o'              o
+               o              |              o
+                 o       ,o   |   o,       o
+                   o ,     ^oo^oo^     , o
+                 o     o    V   V    o      o
+               o         o         o          o
+              o           o       o            o
+             o             o    o              o
+             o               o o               o
+             o                o                o
+              o             █ █ █             o
+               o          █       █          o
+                o             █             o
+                 o       █         █       o
+                o  o          █          o  o
+              o      o   █         █   o       o
+           o           o      █      o           o
+        o                o         o               o
+      o                    o     o                   o
+    o                        o o                      o
+   o                       o     o                     o
+  oo                    o           o                  oo
+ o68o                o                 o              o20o
+ o43oo      ooooo                           ooooo    oo72o
+ oo6fo77oooo                                  ooo65o6co79o
+ ooooooo                                           ooooooo
 [[/code]]
 [[/div]]
 [[/tab]]
@@ -281,7 +281,7 @@ These Documents are provided under jurisdiction of Hayward Protocol, and may onl
 [[div class="tabstyle"]]
 ^^Surveillance Log-2999-2-1^^
 
-**Foreword:**  Events take place after SCP-2999-A created SCP-2999-B. Prior to the first displayed log, SCP-2999-B discovered it was being recorded, took notice of itself, began making seemingly random letters and numbers appear before displaying "The quick brown fox jumps over the lazy dog. Oh, that's it.", and then investigating various things around the room. This appears to be the point where SCP-2999-B discovered and began utilizing its anomalous properties.
+**Foreword:**  Events take place after SCP-2999-A created SCP-2999-B. Prior to the first displayed log, SCP-2999-B discovered it was being recorded, took notice of itself, began making seemingly random letters and numbers appear before displaying "The quick brown fox jumps over the lazy dog. Oh, that's it.", and then investigating various things around the room. This appears to be the point where SCP-2999-B discovered and began utilizing its anomalous properties.
 
 It is noted that in the back of the room, the photo of the 'Employee of the Month' changes from a security guard outfit to that of a tuxedo when SCP-2999-B is in view. Other distortions are not yet visible.
 
@@ -340,7 +340,7 @@ It is noted that in the back of the room, the photo of the 'Employee of the Mont
 > 
 > **SCP-2999-A:** No, just those things. Why are we in Prometheus Labs?
 > 
-> **SCP-2999-B:**  I dunno. I don't think they're behind this though. I don't think it'd be smart to talk about this too much. They could have you bugged.
+> **SCP-2999-B:**  I dunno. I don't think they're behind this though. I don't think it'd be smart to talk about this too much. They could have you bugged.
 > 
 > **SCP-2999-A:** What?
 > 
@@ -486,7 +486,7 @@ It is noted that in the back of the room, the photo of the 'Employee of the Mont
 > 
 > **SCP-2999-A:** [pause] Yes, basically. What are you getting at?
 > 
-> **SCP-2999-B:**  I'm wondering what would be stopping me from just killing you right now.
+> **SCP-2999-B:**  I'm wondering what would be stopping me from just killing you right now.
 > 
 > **SCP-2999-A:** And how exactly would you do that?
 > 

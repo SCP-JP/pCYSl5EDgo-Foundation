@@ -1,22 +1,22 @@
 [[module css]]
-#page-content .collapsible-block {  
-  max-width: 100%;
-    /* text-align: center; */
-    text-align: center;
+#page-content .collapsible-block {  
+  max-width: 100%;
+    /* text-align: center; */
+    text-align: center;
 text-color: black;
-    border-color: #b01;
-    border: solid 1px #b01;
-    background-color: #E6DD93;
+    border-color: #b01;
+    border: solid 1px #b01;
+    background-color: #E6DD93;
 }
 .collapsible-block-content p {
-    text-align: left;
-    padding-left: 5px;
-    padding-right: 5px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 blockquote {
-    border: 1px double #999;
-    /* padding: 0 1em; */
-    background-color: #f4f4f4;
+    border: 1px double #999;
+    /* padding: 0 1em; */
+    background-color: #f4f4f4;
 }
 [[/module]]
 
@@ -46,14 +46,14 @@ SCP-3934は極めて社会的な生物であり、同種の他個体と人間の
 
 [[collapsible show="補遺: 発見" hide="補遺を閉じる"]]
 [[div style="border: 1px solid black;
-    border-style: double;
-    /* width: 50%; */
-    /* float: none; */
-    /* height: 50%; */
-    background-color: white;
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;"]]
+    border-style: double;
+    /* width: 50%; */
+    /* float: none; */
+    /* height: 50%; */
+    background-color: white;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;"]]
 [[=image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/ecd.png width="50px" height="50px"]]
 ++ Prepared by the Department of External Affairs
 ++ 渉外部門により作成

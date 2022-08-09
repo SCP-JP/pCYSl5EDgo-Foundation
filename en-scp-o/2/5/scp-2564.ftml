@@ -10,53 +10,53 @@
 [[module css]]
 table.wiki-content-table
 {
-    border: none;
-    margin: 0;
-    width: 100%;
-    border-radius: 10px;
+    border: none;
+    margin: 0;
+    width: 100%;
+    border-radius: 10px;
 }
 table.wiki-content-table th
 {
-    border: none;
+    border: none;
 }
 table.wiki-content-table th:first-child
 {
-    text-align: left;
+    text-align: left;
 }
 table.wiki-content-table th
 {
-    text-align: left;
+    text-align: left;
 }
 table.wiki-content-table td
 {
-    border: none;
-    vertical-align: top;
-    width: 200px;
+    border: none;
+    vertical-align: top;
+    width: 200px;
 }
 table.wiki-content-table td:first-child
 {
-    width: 300px;
+    width: 300px;
 }
 table.wiki-content-table td:last-child
 {
-    width: 120px;
-    text-align: left;
+    width: 120px;
+    text-align: left;
 }
 table.wiki-content-table tr
 {
-    background-color: #fff;
+    background-color: #fff;
 }
 table.wiki-content-table tr {
-    border-bottom: 1px dashed #888;
+    border-bottom: 1px dashed #888;
 }
 table.wiki-content-table {
-    border: none;
+    border: none;
 }
 tr {
-    border: none;
+    border: none;
 }
 td {
-    padding: 0px;
+    padding: 0px;
 }
 [[/module]]
 
@@ -81,7 +81,7 @@ After containment of SCP-2564-1, additional incidents (2564-b through f) at the 
 
 [[module css]]
 blockquote{
-    -webkit-margin-start: 0px;
+    -webkit-margin-start: 0px;
 }
 [[/module]]
 

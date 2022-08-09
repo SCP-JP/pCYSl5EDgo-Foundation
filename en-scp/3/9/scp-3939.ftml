@@ -16,39 +16,39 @@
 [[module CSS]]
 :root { --swatch-primary: 187, 0, 17; }
 .story {
-  clear: both; border: 3px black solid; padding: calc(20px - 1em) 0 20px 0;
+  clear: both; border: 3px black solid; padding: calc(20px - 1em) 0 20px 0;
 }
 .story p {
-  margin-left: 20px; margin-right: 20px;
+  margin-left: 20px; margin-right: 20px;
 }
 .choices {
-  clear: both;
+  clear: both;
 }
 .choices a {
-  height: 30px; border: 1px solid #b01; border: 1px solid rgb(var(--swatch-primary)); border-right: 1px solid transparent; line-height: 30px; position: relative; background: white; z-index: 8; margin-bottom: 0.5em; float: left; clear: both; padding-left: 7px; margin-left: 20px; margin-right: 20px
+  height: 30px; border: 1px solid #b01; border: 1px solid rgb(var(--swatch-primary)); border-right: 1px solid transparent; line-height: 30px; position: relative; background: white; z-index: 8; margin-bottom: 0.5em; float: left; clear: both; padding-left: 7px; margin-left: 20px; margin-right: 20px
 }
 .choices a::before {
-  content: ""; position: absolute; border: 16px solid transparent; border-left: 16px solid #b01; border-left: 16px solid rgb(var(--swatch-primary)); right: -33px; top: -1px; z-index: 6;
+  content: ""; position: absolute; border: 16px solid transparent; border-left: 16px solid #b01; border-left: 16px solid rgb(var(--swatch-primary)); right: -33px; top: -1px; z-index: 6;
 }
 .choices a::after {
-  content: ""; position: absolute; border: 15px solid transparent; border-left: 15px solid white; right: -31px; top: 0; z-index: 7;
+  content: ""; position: absolute; border: 15px solid transparent; border-left: 15px solid white; right: -31px; top: 0; z-index: 7;
 }
 .choices p {
-  clear: both; height: 30px; margin: 0 0 0 0;
+  clear: both; height: 30px; margin: 0 0 0 0;
 }
 .footer-wikiwalk-nav {
-  margin-top: 50px;
+  margin-top: 50px;
 }
 .footer-wikiwalk-nav a:nth-of-type(2) {
-  color: black !important;
+  color: black !important;
 }
 span, a {
-  word-break: normal !important;
+  word-break: normal !important;
 }
 @media (max-width: 580px) {
-  .choices a {
-    line-height: initial !important; margin-left: 10px !important; margin-right: 30px !important;
-  }
+  .choices a {
+    line-height: initial !important; margin-left: 10px !important; margin-right: 30px !important;
+  }
 }
 [[/module]]
 

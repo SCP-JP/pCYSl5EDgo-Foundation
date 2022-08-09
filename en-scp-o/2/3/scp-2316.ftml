@@ -21,43 +21,43 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "djkaktus";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "djkaktus";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 [[/module]]
 @@@@
@@ -141,7 +141,7 @@ Attempting to come into contact with SCP-2316 instances, by way of entering Lake
 
 **Addendum 2316.1:** Interview
 
-[DATA EXPUNGED][[footnote]]//They don't want to show you, but I will. Below.//[[/footnote]][[collapsible show="     " hide="You need to see this. They were your friends."]]
+[DATA EXPUNGED][[footnote]]//They don't want to show you, but I will. Below.//[[/footnote]][[collapsible show="     " hide="You need to see this. They were your friends."]]
 [[div style="display: block ; border : dashed 1px #444444 ; background :#f5f5f5; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 
 **ERROR: UNRECOGNIZED USER. PLEASE LOGIN TO VIEW FIi[\\[ae0[[<**
@@ -194,7 +194,7 @@ Attempting to come into contact with SCP-2316 instances, by way of entering Lake
 [[/div]]
 
 **Addendum 2316.2:** INVALID ENTRY [[span style="color:white"]]BELOWBELOWBELOWBELOWBELOWBELOWBELOWBELOWBELOWBELOW[[/span]]
-[[collapsible show="     " hide="[TERMINAL LO[//fa/32][[\"]]
+[[collapsible show="     " hide="[TERMINAL LO[//fa/32][[\"]]
 {{You don't have a lot of time, you'll need to get away quickly. Go back to the lake, go into the water, look into their eyes. It's your friends, your classmates. You took the trip to the lake in the fall of '75, together, when you were young. Don't you remember? Look into their eyes. I know you can hear them talking to you, just like they talked to me. Don't let them tell you it's just a cognitohazard. This was their fault, they caused this. We were all innocent kids, don't you remember? And you just got away, you and I? The rest of them are at the bottom of that lake, waiting for us to go back to them and be whole together again. They want us to know. //They want us to remember.// Wake up, goddammit. Remember the fall of '75. The year we were supposed to graduate. Don't let them make you forget. They're calling to you, can't you hear them?}}
 @@@@
 {{Can't you hear them?}}

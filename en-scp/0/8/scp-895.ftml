@@ -12,45 +12,45 @@
 var overlay = 0;
 
 function randomizeImage(){
-   var element;
-   if(overlay > 0){
-      element = document.getElementById("overlay" + overlay);
-      element.style.display = "none";
-      overlay = 0;
-   } else {
-      overlay = Math.ceil(Math.random() * 6);
-      console.log("Randomize rolled: " + overlay);
-      element = document.getElementById("overlay" + overlay);
-      element.style.display = "block";
-   }
+   var element;
+   if(overlay > 0){
+      element = document.getElementById("overlay" + overlay);
+      element.style.display = "none";
+      overlay = 0;
+   } else {
+      overlay = Math.ceil(Math.random() * 6);
+      console.log("Randomize rolled: " + overlay);
+      element = document.getElementById("overlay" + overlay);
+      element.style.display = "block";
+   }
 }
 
 function interrupt(){
-   console.log("Triggered Interrupt!");
-   document.getElementById("dark").style.opacity = "1";
-   setTimeout("randomizeImage()", 1000);
-   setTimeout(function(){document.getElementById("dark").style.opacity = "0"; }, 2000);
+   console.log("Triggered Interrupt!");
+   document.getElementById("dark").style.opacity = "1";
+   setTimeout("randomizeImage()", 1000);
+   setTimeout(function(){document.getElementById("dark").style.opacity = "0"; }, 2000);
 }
 
 function animateStatic(){
-   document.getElementById("static").style.backgroundPosition = '' + (Math.random() * 5000) + 'px 0';
+   document.getElementById("static").style.backgroundPosition = '' + (Math.random() * 5000) + 'px 0';
 }
 
 function updateTimeDate(){
-   var timer = document.getElementById("timer");
-   var date = new Date();
-   var year = date.getFullYear();
-   var month = date.getMonth() + 1;
-   var day = date.getDate();
-   var hour = date.getHours();
-   var minute = date.getMinutes();
-   var second = date.getSeconds();
-   timer.innerHTML = year + "-"
-                + (month < 10 ? "0" + month : month) + "-"
-                + (day < 10 ? "0" + day : day) + " "
-                + (hour < 10 ? "0" + hour : hour) + ":"
-                + (minute < 10 ? "0" + minute : minute) + ":"
-                + (second < 10 ? "0" + second : second) ;
+   var timer = document.getElementById("timer");
+   var date = new Date();
+   var year = date.getFullYear();
+   var month = date.getMonth() + 1;
+   var day = date.getDate();
+   var hour = date.getHours();
+   var minute = date.getMinutes();
+   var second = date.getSeconds();
+   timer.innerHTML = year + "-"
+                + (month < 10 ? "0" + month : month) + "-"
+                + (day < 10 ? "0" + day : day) + " "
+                + (hour < 10 ? "0" + hour : hour) + ":"
+                + (minute < 10 ? "0" + minute : minute) + ":"
+                + (second < 10 ? "0" + second : second) ;
 }
 
 var staticInterval = setInterval('animateStatic()',50);
@@ -63,61 +63,61 @@ var interruptInterval = setInterval('interrupt()', 8000 + (Math.random() * 5000)
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600');
 
 .feed {
-   height: inherit;
-   width: inherit;
-   position: absolute;
-   background: url("http://scp-jp.wdfiles.com/local--files/scp-895/silo-new.jpg");
+   height: inherit;
+   width: inherit;
+   position: absolute;
+   background: url("http://scp-jp.wdfiles.com/local--files/scp-895/silo-new.jpg");
 }
 .feedcontainer {
-   width: 300px;
-   height: 225px;
+   width: 300px;
+   height: 225px;
 }
 
 #dark {
-   opacity: 0;
-   transition: opacity 1s ease-in-out;
-   mix-blend-mode: multiply;
+   opacity: 0;
+   transition: opacity 1s ease-in-out;
+   mix-blend-mode: multiply;
 }
 
 #static {
-   mix-blend-mode: color-burn;
-   background: url("http://scp-jp.wdfiles.com/local--files/scp-895/silo-fuzz-new.png") repeat;
-   height: inherit;
-   width: inherit;
-   position: absolute;
-   top: 0;
-   left: 0;
+   mix-blend-mode: color-burn;
+   background: url("http://scp-jp.wdfiles.com/local--files/scp-895/silo-fuzz-new.png") repeat;
+   height: inherit;
+   width: inherit;
+   position: absolute;
+   top: 0;
+   left: 0;
 }
 
 .overlay {
-   display: none;
-   position: absolute;
-   top: 0;
-   left: 0;
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0;
 }
 
 .multiply {
-   mix-blend-mode: multiply;
+   mix-blend-mode: multiply;
 }
 
 .camname {
-   position: absolute;
-   bottom: 15px;
-   left: 20px;
+   position: absolute;
+   bottom: 15px;
+   left: 20px;
 }
 
 .timestamp {
-   position: absolute;
-   bottom: 15px;
-   right: 20px;
+   position: absolute;
+   bottom: 15px;
+   right: 20px;
 }
 
 .camname span, .timestamp span {
-   color: #defff8;
-   background-color: #000;
-   font-family: "IBM Plex Mono", Courier, monospace;
-   font-weight: bold;
-   font-size: 10pt;
+   color: #defff8;
+   background-color: #000;
+   font-family: "IBM Plex Mono", Courier, monospace;
+   font-weight: bold;
+   font-size: 10pt;
 }
 
 </style>

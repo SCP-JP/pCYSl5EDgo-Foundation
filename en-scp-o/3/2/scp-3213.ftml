@@ -36,15 +36,15 @@ display:none;}
 [[/module]]
 [[module css]]
 #side-bar {
-    background: rgb(var(--white-monochrome));
+    background: rgb(var(--white-monochrome));
 }
 
 #side-bar div.menu-item a, #side-bar div.menu-item .text {
-    color: rgb(var(--black-monochrome));
+    color: rgb(var(--black-monochrome));
 }
 
 #side-bar>div:nth-child(5) {
-    background-color: rgba(var(--dark-accent),0.25)!important;
+    background-color: rgba(var(--dark-accent),0.25)!important;
 }
 [[/module]]
 
@@ -76,12 +76,12 @@ SCP-3213-affected animals do not appear to retain their sapience or ability to v
 > 
 > **Method:** SCP-3213 was given a video camera and told to enter a room with a tank housing two adult earless seals.
 > 
-> **Results:** A video file demonstrating the anomaly was created.  
+> **Results:** A video file demonstrating the anomaly was created.  
 > 
 > The relatively docile nature of the interaction is believed to have been an attempt to make SCP-3213 feel safe. Two separate attempts were made to physically drag SCP-3213 into the water six seconds after the end of the video excerpt below.
 [[html]]
 <video width="640" height="360" align="middle" controls>
- <source src="http://scp-wiki.wikidot.com/local--files/scp-3213/SCP-3213_Test_3_Video_Exerpt.mp4" type="video/mp4">
+ <source src="http://scp-wiki.wikidot.com/local--files/scp-3213/SCP-3213_Test_3_Video_Exerpt.mp4" type="video/mp4">
 </video>
 [[/html]]
 > +++ Test 5:
@@ -149,6 +149,6 @@ Investigation into SCP-3213's past has turned up nothing matching the described 
 
 [[div class="footer-wikiwalk-nav"]]
 [[=]]
-<< [[[SCP-3212]]] |  SCP-3213 | [[[SCP-3214]]] >>
+<< [[[SCP-3212]]] |  SCP-3213 | [[[SCP-3214]]] >>
 [[/=]]
 [[/div]]

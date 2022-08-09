@@ -1,49 +1,49 @@
 [[module CSS]]
 .inset {
-    float: right;
-    width: 25%;
-    margin: 0px;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 2px;
-    border-color: #ee9999;
-    padding: 10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background: #FFEEEE;
-    font-size: 90%;
+    float: right;
+    width: 25%;
+    margin: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #ee9999;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #FFEEEE;
+    font-size: 90%;
 }
 .inset > p {
-    margin: 0;
+    margin: 0;
 }
 audio {
-   display:none;
+   display:none;
 }
 .space {
-    background-image: url(http://i.imgur.com/LtqzOqx.png);
+    background-image: url(http://i.imgur.com/LtqzOqx.png);
 float:center; width:100%; border:solid 3px #5050CA; padding:10px; margin-bottom: 10px;margin:0 auto;
 [[/module]]
 
 [[module css]]
-#page-content .collapsible-block {  
-  max-width: 100%;
-    /* text-align: center; */
-    text-align: center;
+#page-content .collapsible-block {  
+  max-width: 100%;
+    /* text-align: center; */
+    text-align: center;
 text-color: black;
-    border-color: #b01;
-    border: solid 1px #b01;
-    background-color: #E6DD93;
+    border-color: #b01;
+    border: solid 1px #b01;
+    background-color: #E6DD93;
 }
 .collapsible-block-content p {
-    text-align: left;
-    padding-left: 5px;
-    padding-right: 5px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 blockquote {
-    border: 1px double #999;
-    /* padding: 0 1em; */
-    background-color: #f4f4f4;
+    border: 1px double #999;
+    /* padding: 0 1em; */
+    background-color: #f4f4f4;
 }
 [[/module]]
 
@@ -52,8 +52,8 @@ blockquote {
 [[/>]]
 
 [[include component:image-block
-    name= orangezonemap.png |
-    caption= 2020/4/26のオレンジゾーン ]]
+    name= orangezonemap.png |
+    caption= 2020/4/26のオレンジゾーン ]]
 
 **アイテム番号:** SCP-3731
 
@@ -67,15 +67,15 @@ blockquote {
 * 移動不可能なK-クラスの脅威を収容しているサイトは奇蹟論的に防御され封印されました。外見上明白な自動防御システムがこれらサイトの周囲を保持するために設置されました。
 * これまでは機密保持の方針のために制限されていた装備、技術 -- パラテック兵器、車両、歩兵強化装備、ジャイアント級無人戦闘ドローンのような自動防御システム -- の公然の使用が許可されました。
 [[include component:image-block
-    name= giantclass.jpg |
-    caption= ジャイアント級無人戦闘ドローン ]]
+    name= giantclass.jpg |
+    caption= ジャイアント級無人戦闘ドローン ]]
 * 倫理委員会のSCP-3731に関係する裁定は不適切であると考えられます。
 
 全機動部隊ユニット／財団軍事資産は、あらゆる必要な手段でのSCP-3731の確保のために再配置されます。SCP-3731実例はオレンジゾーンへ加工のために移動されます。残りのSCP-3731実例を居住させるための暫定収容エリアがオレンジゾーン内部に建設されました。道路、線路、そしてその他の移動のためのインフラストラクチャーは収容された実例の移動のための必要に応じて徴用されなくてはなりません。
 
 [[include component:image-block
-    name= tentcolony.jpg |
-    caption= 暫定収容エリア2 ]]
+    name= tentcolony.jpg |
+    caption= 暫定収容エリア2 ]]
 
 O5評議会執行令3731-Ov236に基づき、収容されたSCP-3731実例は、無力化処置08-Lilacより基準正常性まで回復されなくてはなりません。回復した実例は世界的な正常性が復帰できるときまでオレンジゾーン内でE-クラス職員として雇用されなくてはなりません。
 
@@ -223,8 +223,8 @@ O5評議会執行令3731-Ov236に基づき、収容されたSCP-3731実例は、
 [[/div]]
 
 [[include component:earthworm
-  first=false | last=false | hub=yes |
-  previous-url=/a-new-age-of-magic | previous-title=魔法の新時代 |
-  next-url=/thrive | next-title=栄えよ |
-  hub-url=/apotheosis-hub | hub-title=アポセオシス・ハブ |
+  first=false | last=false | hub=yes |
+  previous-url=/a-new-age-of-magic | previous-title=魔法の新時代 |
+  next-url=/thrive | next-title=栄えよ |
+  hub-url=/apotheosis-hub | hub-title=アポセオシス・ハブ |
 ]]

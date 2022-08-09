@@ -5,43 +5,43 @@ vertical-align: top; position: relative; top: -0.5em;
 }
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Collaboration";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "Collaboration";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 [[/module]]
 [[include theme:black-highlighter-theme]]
@@ -217,7 +217,7 @@ The area was quickly secured, and current containment procedures were put in pla
 > 
 > **Foxtrot:** Where exactly are we?
 > 
-> **Bravo:** God, do you-- do you guys feel that? I’ve just got an awful headache, it’s like needling in my brain, something…  
+> **Bravo:** God, do you-- do you guys feel that? I’ve just got an awful headache, it’s like needling in my brain, something…  
 > 
 > **Command:** Dive team, be advised that we believe you may be experiencing some detrimental cognitive effects. Keep moving forward, and we’ll give you more information as we receive it.
 > 
@@ -531,7 +531,7 @@ I want to say that it's because of the eel, but if I'm being honest with myself 
 
 Site Director Nox gathered the staff this morning for a short mourning. After a few brief and laconic eulogies, he took me aside and told me that Venkat's replacement will come in a few weeks - and as he kept no contact with his family, it's likely his belongings will just be disposed of, and are now technically Foundation property. The director indicated that if I want to keep a thing or two from him, I should do so now.
 
-His office was relatively unremarkable -  his cushy squashed chair cushion, few office toys, and lots of marine biology books that I should probably check out someday. The only thing I took was a statue of Ganesh that stood next to the window. Not fully sure why myself, but he's now sitting on the bookshelf, next to a picture of myself, my wife, and our daughter at a lakeside terrace. It was a pretty unremarkable trip to some tourist trap in Lucknow, but this really is one of our best-looking pictures.
+His office was relatively unremarkable -  his cushy squashed chair cushion, few office toys, and lots of marine biology books that I should probably check out someday. The only thing I took was a statue of Ganesh that stood next to the window. Not fully sure why myself, but he's now sitting on the bookshelf, next to a picture of myself, my wife, and our daughter at a lakeside terrace. It was a pretty unremarkable trip to some tourist trap in Lucknow, but this really is one of our best-looking pictures.
 
 We're going under again tomorrow.
 
@@ -545,7 +545,7 @@ We're going under again tomorrow.
 [[size 80%]]**11/11/2009**[[/size]]
 [[/=]]
 
-All of the D-class managed to stay put this week, which is good. Other than the routine depression and memory loss from exposure to SCP-3000, everything was in order.  Sometimes I'm a bit envious of them - all they know is that they're scooping gunk off some big eel. They don't know of its importance, or why it's critical that they collect it, and how much it helps us.
+All of the D-class managed to stay put this week, which is good. Other than the routine depression and memory loss from exposure to SCP-3000, everything was in order.  Sometimes I'm a bit envious of them - all they know is that they're scooping gunk off some big eel. They don't know of its importance, or why it's critical that they collect it, and how much it helps us.
 
 Of course, one saving grace of being on the psychological division for the Atzak Project is the awareness of its potential effects - I'm aware of what's happening to my psyche. I know that I have memories that are being drained, pieces that are being lost right now. I recall images of a young man on a bicycle, in front of a schoolyard gate, looking like it was the 80s, when I was in Singapore - he was laughing - yet I don't know if this man was a friend, a lover, a son, a family friend - who this young man is. Perhaps Italian? Or maybe Australian? Maybe this isn't even a cherished memory at all.
 
@@ -668,5 +668,5 @@ Our end will be a forgotten one.
 [[module CSS]]
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    content: "Collaboration";
+    content: "Collaboration";
 [[/module]]

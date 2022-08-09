@@ -4,44 +4,44 @@
 
 [[module css]]
 .warning-box {
-    display: block;
-    width: 90%;
-    height: auto;
-    text-align:center;
-    overflow: visible;
-    margin: 0px 5% 10px 5%;
+    display: block;
+    width: 90%;
+    height: auto;
+    text-align:center;
+    overflow: visible;
+    margin: 0px 5% 10px 5%;
 }
 
 .warning-img {
-    width: 14%;
-    height: auto;
-    padding: 5px;
-    display: table-cell;
-    vertical-align: middle;
+    width: 14%;
+    height: auto;
+    padding: 5px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .warning-text {
-    max-width: 80%;
-    width: 80%;
-    display: table-cell;
-    padding: 5px;
+    max-width: 80%;
+    width: 80%;
+    display: table-cell;
+    padding: 5px;
 }
 
 .warning-text p {
-    display: inline-block;
-    padding: 5px;
+    display: inline-block;
+    padding: 5px;
 }
 [[/module]]
 
 [[div class="warning-box"]]
-    [[div class="warning-img"]]
+    [[div class="warning-img"]]
 [[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-22-jv61/warningJP.png]]
-    [[/div]]
-    [[div class="warning-text"]]
+    [[/div]]
+    [[div class="warning-text"]]
 [[size 105%]]##firebrick|**この文書には超時間的データ破損のフラグが付いています。**##[[/size]]
 技術的な問題が発生した場合は、60秒後にページをリロードしてください。
 問題が解決しない場合は、サイトのデータベース技術者に連絡してください。
-    [[/div]]
+    [[/div]]
 
 [[/div]]
 
@@ -160,7 +160,7 @@ name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-21-026k/fairg
 > **リックス博士:** まるで機械仕掛けじゃないかね。
 > 
 > **シモンズ:** ねぇ。これ以上何が欲しいの？
->  
+>  
 > **リックス博士:** もう十分だと思う。お時間をありがとう。
 > 
 > **[記録終了]**

@@ -28,15 +28,15 @@ display:none;}
 [[/module]]
 [[module css]]
 #side-bar {
-    background: rgb(var(--white-monochrome));
+    background: rgb(var(--white-monochrome));
 }
 
 #side-bar div.menu-item a, #side-bar div.menu-item .text {
-    color: rgb(var(--black-monochrome));
+    color: rgb(var(--black-monochrome));
 }
 
 #side-bar>div:nth-child(5) {
-    background-color: rgba(var(--dark-accent),0.25)!important;
+    background-color: rgba(var(--dark-accent),0.25)!important;
 }
 [[/module]]
 
@@ -283,6 +283,6 @@ No further communications involving SCP-3244 were discovered. It is believed tha
 
 [[div class="footer-wikiwalk-nav"]]
 [[=]]
-<< [[[SCP-3243]]] |  SCP-3244 | [[[SCP-3245]]] >>
+<< [[[SCP-3243]]] |  SCP-3244 | [[[SCP-3245]]] >>
 [[/=]]
 [[/div]]

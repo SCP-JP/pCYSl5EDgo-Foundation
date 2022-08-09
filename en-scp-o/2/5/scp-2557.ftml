@@ -65,62 +65,62 @@ The concept of SCP-2557 is just one of the many holdings we help our clients buy
 
 [[module MailForm title="New message from SCP-2557" to="Kate McTiriss"]]
 # name
- * title: Name
- * type: text
- * hint: Universal allnomers, antinomers, and vispaches accepted
- * rules:
-  * required: true 
+ * title: Name
+ * type: text
+ * hint: Universal allnomers, antinomers, and vispaches accepted
+ * rules:
+  * required: true 
 # affiliation
- * title: Institute/Organization/Company
- * hint: Leave blank if none or Unknowable
+ * title: Institute/Organization/Company
+ * hint: Leave blank if none or Unknowable
 # address 
- * title: Address
- * rules:
-  * required: true 
-  * minLength: 2
+ * title: Address
+ * rules:
+  * required: true 
+  * minLength: 2
 # address2
- * title: Address (cont.)
+ * title: Address (cont.)
 # country
- * title: Country
- * rules:
-  * minLength: 2
+ * title: Country
+ * rules:
+  * minLength: 2
 # universalindex
- * title: Universal index
- * type: select
- * hint: Your current IP address originates from Բ - UI•Rhadamanthus
- * options:
-  * abhimanyu: Ա - UI•Abhimanyu
-  * rhadamanthus: Բ - UI•Rhadamanthus
-  * daughters: Թ - UI•The Fifty Daughters of Selene and Endymion
-  * eue: Permanent resident of Everything-Under-Everything
-  * na: Extrauniversal/Auniversal
+ * title: Universal index
+ * type: select
+ * hint: Your current IP address originates from Բ - UI•Rhadamanthus
+ * options:
+  * abhimanyu: Ա - UI•Abhimanyu
+  * rhadamanthus: Բ - UI•Rhadamanthus
+  * daughters: Թ - UI•The Fifty Daughters of Selene and Endymion
+  * eue: Permanent resident of Everything-Under-Everything
+  * na: Extrauniversal/Auniversal
 # phone
- * title: Phone
+ * title: Phone
 # email
- * title: Email
- * type: text
- * rules:
-  * match: /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)+$/
+ * title: Email
+ * type: text
+ * rules:
+  * match: /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)+$/
 # logging
- * title: Recommend a Targeted Portfolio™
- * type: checkbox
- * hint: Checking grants us permission to observe your Althing records
+ * title: Recommend a Targeted Portfolio™
+ * type: checkbox
+ * hint: Checking grants us permission to observe your Althing records
 # payment
- * title: Investment method
- * type: select
- * options:
-  * cash: Cash (fiat or intrinsic)
-  * credit: Credit card
-  * banktransfer: Bank wire transfer
-  * blood: Blood rites
-  * lifespan: Lifespan partitioning
-  * gift: Gift card
+ * title: Investment method
+ * type: select
+ * options:
+  * cash: Cash (fiat or intrinsic)
+  * credit: Credit card
+  * banktransfer: Bank wire transfer
+  * blood: Blood rites
+  * lifespan: Lifespan partitioning
+  * gift: Gift card
 # comments
- * type: textarea
- * title: Extra comments
- * hint: All comments thoroughly screened for infohazards
- * rules:
-  * maxLength: 500
+ * type: textarea
+ * title: Extra comments
+ * hint: All comments thoroughly screened for infohazards
+ * rules:
+  * maxLength: 500
 [[/module]]
 
 [[footnoteblock]]

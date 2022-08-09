@@ -19,22 +19,22 @@
 <style type="text/css">
 body
 {
-    font-family: verdana,arial,helvetica,sans-serif;
-    font-size: 0.82em;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 0.82em;
 }
 table.wiki-content-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: 0.5em auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0.5em auto;
 }
 table.wiki-content-table td{
-    border: 1px solid #888;
-    padding: 0.0em 0.0em;
+    border: 1px solid #888;
+    padding: 0.0em 0.0em;
 }
 table.wiki-content-table th{
-    border: 1px solid #888;
-    padding: 0.2em 0.7em;
-    background-color: #EEE;
+    border: 1px solid #888;
+    padding: 0.2em 0.7em;
+    background-color: #EEE;
 }
 </style>
 <table class="wiki-content-table">
@@ -42,14 +42,14 @@ table.wiki-content-table th{
 <td colspan="2">
 <script language="JavaScript">
 var imgs = [
-  "http://scp-wiki.wdfiles.com/local--files/scp-3561/art1.png",
-  "http://scp-wiki.wdfiles.com/local--files/scp-3561/arta.png"
+  "http://scp-wiki.wdfiles.com/local--files/scp-3561/art1.png",
+  "http://scp-wiki.wdfiles.com/local--files/scp-3561/arta.png"
 ];
 var index = 0;
 var rand = Math.round(Math.random() * 10);
 if (rand > 5) index = 1;
 function show() {
-  document.write('<img src="' + imgs[index] + '" alt="image" class="image" width="300px">');
+  document.write('<img src="' + imgs[index] + '" alt="image" class="image" width="300px">');
 }
 show();
 </script></td>
@@ -91,22 +91,22 @@ Although the perspective of each painting remains constant across viewings, deta
 <style type="text/css">
 body
 {
-    font-family: verdana,arial,helvetica,sans-serif;
-    font-size: 0.82em;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 0.82em;
 }
 table.wiki-content-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: 0.5em auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0.5em auto;
 }
 table.wiki-content-table td{
-    border: 1px solid #888;
-    padding: 0.0em 0.0em;
+    border: 1px solid #888;
+    padding: 0.0em 0.0em;
 }
 table.wiki-content-table th{
-    border: 1px solid #888;
-    padding: 0.2em 0.7em;
-    background-color: #EEE;
+    border: 1px solid #888;
+    padding: 0.2em 0.7em;
+    background-color: #EEE;
 }
 </style>
 <table class="wiki-content-table">
@@ -114,14 +114,14 @@ table.wiki-content-table th{
 <td colspan="2">
 <script language="JavaScript">
 var imgs = [
-  "http://scp-wiki.wdfiles.com/local--files/scp-3561/art2.png",
-  "http://scp-wiki.wdfiles.com/local--files/scp-3561/artb.png"
+  "http://scp-wiki.wdfiles.com/local--files/scp-3561/art2.png",
+  "http://scp-wiki.wdfiles.com/local--files/scp-3561/artb.png"
 ];
 var index = 0;
 var rand = Math.round(Math.random() * 10);
 if (rand > 5) index = 1;
 function show() {
-  document.write('<img src="' + imgs[index] + '" alt="image" class="image" width="300px">');
+  document.write('<img src="' + imgs[index] + '" alt="image" class="image" width="300px">');
 }
 show();
 </script></td>
@@ -145,22 +145,22 @@ Despite multiple reports from neighbors who claimed to have witnessed members of
 <style type="text/css">
 body
 {
-    font-family: verdana,arial,helvetica,sans-serif;
-    font-size: 0.82em;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 0.82em;
 }
 table.wiki-content-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: 0.5em auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0.5em auto;
 }
 table.wiki-content-table td{
-    border: 1px solid #888;
-    padding: 0.0em 0.0em;
+    border: 1px solid #888;
+    padding: 0.0em 0.0em;
 }
 table.wiki-content-table th{
-    border: 1px solid #888;
-    padding: 0.2em 0.7em;
-    background-color: #EEE;
+    border: 1px solid #888;
+    padding: 0.2em 0.7em;
+    background-color: #EEE;
 }
 </style>
 <table class="wiki-content-table">
@@ -168,14 +168,14 @@ table.wiki-content-table th{
 <td colspan="2">
 <script language="JavaScript">
 var imgs = [
-  "http://scp-wiki.wdfiles.com/local--files/scp-3561/art3.png",
-  "http://scp-wiki.wdfiles.com/local--files/scp-3561/artc.png"
+  "http://scp-wiki.wdfiles.com/local--files/scp-3561/art3.png",
+  "http://scp-wiki.wdfiles.com/local--files/scp-3561/artc.png"
 ];
 var index = 0;
 var rand = Math.round(Math.random() * 10);
 if (rand > 5) index = 1;
 function show() {
-  document.write('<img src="' + imgs[index] + '" alt="image" class="image" width="300px">');
+  document.write('<img src="' + imgs[index] + '" alt="image" class="image" width="300px">');
 }
 show();
 </script></td>

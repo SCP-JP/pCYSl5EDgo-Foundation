@@ -14,7 +14,7 @@ sup {
 vertical-align: top; position: relative; top: -0.5em;
 }
 #header::before {
-    opacity: 0.9 !important;
+    opacity: 0.9 !important;
 }
 :root{
 --header-subtitle: "Project PARAGON";
@@ -31,55 +31,55 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "djkaktus";
-    color: var(--link-color);
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "djkaktus";
+    color: var(--link-color);
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .anom-bar-container.esoteric .text-part>.main-class::before {
-    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
 }
 
 .anom-bar-container.esoteric .text-part>.main-class::before,
 .anom-bar-container.esoteric .danger-diamond>.top-icon::before {
-    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
-    background-image: url("http://scptestwiki.wikidot.com/local--files/secret:scp-0000/esoteric-icon-ededed.svg");
-    -webkit-filter: initial;
-    filter: initial;
+    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    background-image: url("http://scptestwiki.wikidot.com/local--files/secret:scp-0000/esoteric-icon-ededed.svg");
+    -webkit-filter: initial;
+    filter: initial;
 }
 
 [[/module]]

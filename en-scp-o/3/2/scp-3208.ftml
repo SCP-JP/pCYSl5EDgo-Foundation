@@ -1,49 +1,49 @@
 [[module css]]
 .html-block-iframe {
-    width: auto !important;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    width: auto !important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Collaboration";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "Collaboration";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 [[/module]]
 
@@ -85,15 +85,15 @@ display:none;}
 [[/module]]
 [[module css]]
 #side-bar {
-    background: rgb(var(--white-monochrome));
+    background: rgb(var(--white-monochrome));
 }
 
 #side-bar div.menu-item a, #side-bar div.menu-item .text {
-    color: rgb(var(--black-monochrome));
+    color: rgb(var(--black-monochrome));
 }
 
 #side-bar>div:nth-child(5) {
-    background-color: rgba(var(--dark-accent),0.25)!important;
+    background-color: rgba(var(--dark-accent),0.25)!important;
 }
 [[/module]]
 @@@@
@@ -177,7 +177,7 @@ While neurological symptoms vary, all SCP-3208 sufferers will experience vivid d
 > 
 > I don’t know how long I climb. Eventually I see him, a man in a hat standing next to a telephone. The same phone I answered earlier in the parlor. I'm back in the parlor. He comes up to me and I can see him, plain as day. He looks afraid. He says “Did you see it?” When I tell him I don’t know what he’s talking about, he recoils. “Blighted seed breeds blighted crop,” he says, and his eyes grow wide.
 > 
-> //Dr. Hostetler asks Dr. Harald Lang, one of the researchers assigned to the SCP-3208  project, for water. It is provided and Dr. Hostetler resumes after complaining of an increasing headache.//
+> //Dr. Hostetler asks Dr. Harald Lang, one of the researchers assigned to the SCP-3208  project, for water. It is provided and Dr. Hostetler resumes after complaining of an increasing headache.//
 > 
 > The man leans in very close, staring at my eyes. “Listen to me,” he says, “a nightmare festers in the field. Their all-seeing eye passed over the empty cell. Even the Reaper fears what is being sown.” He produces a scalpel. “The dreamwalkers are fleeing. They would be like smoke before a cyclone. Take this,” he hands me the knife, “you cannot stop its advance. If it sees you, cut out your eyes. The road through the field will be lined with corpses, but it may give you enough time to escape; by foot or by blade.”
 > 
@@ -215,7 +215,7 @@ While neurological symptoms vary, all SCP-3208 sufferers will experience vivid d
 > 
 > I keep walking, and after a while the road ends. The dirt has covered the road completely and now it's dust forever. This is when I start to see things laying on the ground - a hat, a ringing cell phone, a diamond ring, some baseball cards, and a pair of pants. 
 > 
-> I follow this trail of discarded things until I reach a field, one that stretches out before me in a long, unending line. There are crops there, tall stalks of dry things that rustle when the wind blows. There are more things on the ground now and somewhere in front of me I start to sense a presence  that makes my hair stand on end. It's far away.
+> I follow this trail of discarded things until I reach a field, one that stretches out before me in a long, unending line. There are crops there, tall stalks of dry things that rustle when the wind blows. There are more things on the ground now and somewhere in front of me I start to sense a presence  that makes my hair stand on end. It's far away.
 > 
 > I walk through the fields for what feels like years. The trail becomes thicker, and I start to see other things. At first, I thought they were strips of rawhide, like you see sold at feed stores or cowboy shops. When I pick one up, I see the faintest coloration of a tattoo etched into it. Dark stretches of blackened blood accompany each one, where the piece sloughed off before coming to rest. I start to see hair. Fingernails. Teeth.
 > 
@@ -240,6 +240,6 @@ While neurological symptoms vary, all SCP-3208 sufferers will experience vivid d
 
 [[div class="footer-wikiwalk-nav"]]
 [[=]]
-<< [[[SCP-3207]]] |  SCP-3208 | [[[SCP-3209]]] >>
+<< [[[SCP-3207]]] |  SCP-3208 | [[[SCP-3209]]] >>
 [[/=]]
 [[/div]]

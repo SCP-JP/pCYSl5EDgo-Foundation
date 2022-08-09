@@ -52,7 +52,7 @@ SCP-3017-1個体群を収監する・傷付ける・殺すと言った脅しは�
 || SCP-3017-1-06 || タバサ・フォーチュイン|| 78 || 母方の祖母 ||
 || SCP-3017-1-07 || ナディア・アルヴィン || 24 || 婚約者 ||
 || SCP-3017-1-08 || ユージーン・スタイン|| 26 || 元・クラスメイト ||
-|| SCP-3017-1-09 || アンナ・マイヤー  || 25 || 元・クラスメイト ||
+|| SCP-3017-1-09 || アンナ・マイヤー  || 25 || 元・クラスメイト ||
 || SCP-3017-1-10 || ヴィクター・アボット || 27 || 元・交際相手 ||
 || SCP-3017-1-11 || マックス・フリードリヒ || 35 || 隣人 ||
 || SCP-3017-1-12 || ケイトリン・アデラルディ || 22 || 元・交際相手 ||
@@ -409,20 +409,20 @@ SCP-3017-1は、SCP-3017-Aの効果に対して免疫を有していた、メル
 [[html]]
 <head>
 <style>
-    blockquote {
-        border: 1px dashed #999;
-        padding: 0 1em;
-        background-color: #f4f4f4;
-        display: block;
-        margin: 1.0em 0.5em;
-    }
-    body {
-        background-color: #fff;
-        font-size: 0.80em;
-        color: #900;
-        font-family: verdana,arial,helvetica,sans-serif;
-        font-size: 1em;
-    }
+    blockquote {
+        border: 1px dashed #999;
+        padding: 0 1em;
+        background-color: #f4f4f4;
+        display: block;
+        margin: 1.0em 0.5em;
+    }
+    body {
+        background-color: #fff;
+        font-size: 0.80em;
+        color: #900;
+        font-family: verdana,arial,helvetica,sans-serif;
+        font-size: 1em;
+    }
 }
 
 </style>
@@ -430,9 +430,9 @@ SCP-3017-1は、SCP-3017-Aの効果に対して免疫を有していた、メル
 var counter = 0
 var timer;
 function countUP () {
- counter = counter + 1;//increment the counter by 1
- document.getElementById("timer_container").innerHTML = counter;
- }
+ counter = counter + 1;//increment the counter by 1
+ document.getElementById("timer_container").innerHTML = counter;
+ }
 </script>
 </head>
 <body onload='timer=setInterval("countUP()", 1000 );'>

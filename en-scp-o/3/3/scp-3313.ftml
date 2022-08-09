@@ -31,15 +31,15 @@ display:none;}
 [[/module]]
 [[module css]]
 #side-bar {
-    background: rgb(var(--white-monochrome));
+    background: rgb(var(--white-monochrome));
 }
 
 #side-bar div.menu-item a, #side-bar div.menu-item .text {
-    color: rgb(var(--black-monochrome));
+    color: rgb(var(--black-monochrome));
 }
 
 #side-bar>div:nth-child(5) {
-    background-color: rgba(var(--dark-accent),0.25)!important;
+    background-color: rgba(var(--dark-accent),0.25)!important;
 }
 [[/module]]
 
@@ -83,6 +83,6 @@ SCP-3313 was recovered as part of a previously unknown collection of SCP-3313-1'
 
 [[div class="footer-wikiwalk-nav"]]
 [[=]]
-<< [[[SCP-3312]]] |  SCP-3313 | [[[SCP-3314]]] >>
+<< [[[SCP-3312]]] |  SCP-3313 | [[[SCP-3314]]] >>
 [[/=]]
 [[/div]]

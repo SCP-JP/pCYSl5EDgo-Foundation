@@ -1,23 +1,23 @@
 [[module CSS]]
 div#container-wrap {
-    background: url(http://scp-wiki.wikidot.com/local--files/theme:skiesmadestrange/body_bg.png) top left repeat-x;
+    background: url(http://scp-wiki.wikidot.com/local--files/theme:skiesmadestrange/body_bg.png) top left repeat-x;
 }
- 
+ 
 #header h2 span {
-    display: block;
-    margin: 0;
-    padding: 19px 0;
-    line-height: 0px;
-    max-height: 0px;
-    font-weight: bold;
-    color: transparent;
-    text-shadow: none;
+    display: block;
+    margin: 0;
+    padding: 19px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: none;
 }
 #header h2 span::before {
-    content: '塗り替えられた空';
-    color: #efefef;
-    text-shadow: 1px 1px 1px #000000;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.8);}
+    content: '塗り替えられた空';
+    color: #efefef;
+    text-shadow: 1px 1px 1px #000000;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);}
 [[/module]]
 [[include credit:start]]
 **タイトル:** SCP-3475 - Our Shifting Foundations (変わりゆく我らの礎)

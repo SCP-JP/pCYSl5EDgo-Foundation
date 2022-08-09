@@ -160,24 +160,24 @@
 @import url(http://scp-jp.wikidot.com/theme:wanderers/code/1);
 
 .section {
-  border:solid 1px #112211;
-  background:#EEF6EE;
-  padding: 20px;
-  margin-bottom: 5px;
+  border:solid 1px #112211;
+  background:#EEF6EE;
+  padding: 20px;
+  margin-bottom: 5px;
 }
 .librarian h3 {
-  text-align: center;
+  text-align: center;
 }
 
 /* Removed breadcrumbs */
 #breadcrumbs{
-  display: none;
+  display: none;
 }
 
 .linkbox {
-  margin-bottom: 25px;
-  font-size: 115%;
-  display: inline-block;
-  font-weight: bold;
+  margin-bottom: 25px;
+  font-size: 115%;
+  display: inline-block;
+  font-weight: bold;
 }
 [[/module]]

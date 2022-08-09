@@ -5,73 +5,73 @@
 
 [[module CSS]]
 /* HEADER */
- :root{
-   --header-title: "The Avian Division";
-   --header-subtitle: "Until we return to The Nest";
-   --lgurl: url(https://scp-wiki.wdfiles.com/local--files/bird/avdiv_white.png);
+ :root{
+   --header-title: "The Avian Division";
+   --header-subtitle: "Until we return to The Nest";
+   --lgurl: url(https://scp-wiki.wdfiles.com/local--files/bird/avdiv_white.png);
 }
 
- div#container-wrap{
-     background-image: url(https://scp-wiki.wikidot.com/local--files/bird/avdiv_body_bg.png);
+ div#container-wrap{
+     background-image: url(https://scp-wiki.wikidot.com/local--files/bird/avdiv_body_bg.png);
 }
 
- #header h1 a::before,
- #header h2::before{
-     font-family: "Verdana", sans-serif;
+ #header h1 a::before,
+ #header h2::before{
+     font-family: "Verdana", sans-serif;
 }
 
- #page-title{
-     color: hsl(45, 98%, 28%);
+ #page-title{
+     color: hsl(45, 98%, 28%);
 }
 
 /* PAGE RATING */
- .page-rate-widget-box .rate-points{
-     background: hsl(45, 89%, 40%) !important;
-     border: 1px solid hsl(45, 89%, 40%);
+ .page-rate-widget-box .rate-points{
+     background: hsl(45, 89%, 40%) !important;
+     border: 1px solid hsl(45, 89%, 40%);
 }
 
- .page-rate-widget-box .rateup,
- .page-rate-widget-box .ratedown{
-     background: hsl(45, 100%, 97%);
-     border-color: hsl(45, 89%, 40%);
+ .page-rate-widget-box .rateup,
+ .page-rate-widget-box .ratedown{
+     background: hsl(45, 100%, 97%);
+     border-color: hsl(45, 89%, 40%);
 }
 
- .page-rate-widget-box .cancel{
-     background: hsl(45, 89%, 40%);
-     border: 1px solid hsl(45, 89%, 40%);
+ .page-rate-widget-box .cancel{
+     background: hsl(45, 89%, 40%);
+     border: 1px solid hsl(45, 89%, 40%);
 }
 
- .page-rate-widget-box .rateup a,
- .page-rate-widget-box .ratedown a{
-     color: hsl(45, 89%, 40%);
+ .page-rate-widget-box .rateup a,
+ .page-rate-widget-box .ratedown a{
+     color: hsl(45, 89%, 40%);
 }
 
- .page-rate-widget-box .cancel a{
-     color: hsl(45, 76%, 67%);
+ .page-rate-widget-box .cancel a{
+     color: hsl(45, 76%, 67%);
 }
 
- .page-rate-widget-box .rateup a:hover,
- .page-rate-widget-box .ratedown a:hover{
-     background: hsl(45, 89%, 40%);
+ .page-rate-widget-box .rateup a:hover,
+ .page-rate-widget-box .ratedown a:hover{
+     background: hsl(45, 89%, 40%);
 }
 
- .page-rate-widget-box .cancel a:hover{
-     color: hsl(45, 100%, 97%);
-     background: hsl(45, 89%, 40%);
+ .page-rate-widget-box .cancel a:hover{
+     color: hsl(45, 100%, 97%);
+     background: hsl(45, 89%, 40%);
 }
 
 /* DIV BLOCKS */
- .warning-notice{
-     background-image: url(https://scp-wiki.wdfiles.com/local--files/bird/avian-division-logo-transparent.png);
-     background-size: 75%;
+ .warning-notice{
+     background-image: url(https://scp-wiki.wdfiles.com/local--files/bird/avian-division-logo-transparent.png);
+     background-size: 75%;
 }
 
- .series-nav{
-     background:
-        linear-gradient(
-          to bottom right,
-          hsla(0, 0%, 100%, 1),
-          hsla(45, 100%, 55%, .5));
+ .series-nav{
+     background:
+        linear-gradient(
+          to bottom right,
+          hsla(0, 0%, 100%, 1),
+          hsla(45, 100%, 55%, .5));
 }
 [[/module]]
 
@@ -109,7 +109,7 @@ SCP-3296 is presently in mid-Earth orbit. After the events of Incident 3296-23, 
 > = **PROJECT MILLIARD**
 > = //Documentation prepared by Dr. Albert Milliard, present Department Head of Project Heimdall.//
 > -----
-> **Abstract:**  It has been known for a long time that humans have the ability to influence the Hume field. This is exemplified by reality benders, who are able to manipulate the Hume field to such a level as to bend reality itself. However, recently it was discovered that this also works the opposite way. Humans are able to detect changes in the Hume field, even if they didn't make them themselves.
+> **Abstract:**  It has been known for a long time that humans have the ability to influence the Hume field. This is exemplified by reality benders, who are able to manipulate the Hume field to such a level as to bend reality itself. However, recently it was discovered that this also works the opposite way. Humans are able to detect changes in the Hume field, even if they didn't make them themselves.
 > 
 > Of course, this is often a very subtle effect that we don't notice in the course of our lifetimes. But, given the correct brain surgery and conditions, we can make a human as receptive to these phenomena as a sixth sense.
 > 
@@ -243,34 +243,34 @@ SCP-3296 is presently in mid-Earth orbit. After the events of Incident 3296-23, 
 <style>
 body
 {
-   font-family:verdana,arial,helvetica,sans-serif;
-   font-size:12.8px;
-   color:#333;
-   line-height:141%
+   font-family:verdana,arial,helvetica,sans-serif;
+   font-size:12.8px;
+   color:#333;
+   line-height:141%
 }
 .middle {
-    height: 100%;
-    margin: 0 2px;
-    background-color: red;
-}  
+    height: 100%;
+    margin: 0 2px;
+    background-color: red;
+}  
 
 .left {
-    width: 44%;
-    float: left;
-    background-color: green;
+    width: 44%;
+    float: left;
+    background-color: green;
 }
 
 .right {
-    width: 20%;
-    float: right;
-    background-color: yellow;
+    width: 20%;
+    float: right;
+    background-color: yellow;
 }
 </style>
 <center>
 <div class="container">
-    <div class="left"><b>YES (44 %)</b></div>  
-    <div class="right"><b>ABSTAIN (20 %)</b></div>
-    <div class="middle"><b>NO (36 %)</b></div>
+    <div class="left"><b>YES (44 %)</b></div>  
+    <div class="right"><b>ABSTAIN (20 %)</b></div>
+    <div class="middle"><b>NO (36 %)</b></div>
 </div>
 </center>
 </body>
@@ -318,10 +318,10 @@ body
 <style>
 body
 {
-   font-family:verdana,arial,helvetica,sans-serif;
-   font-size:12.8px;
-   color:#333;
-   line-height:141%
+   font-family:verdana,arial,helvetica,sans-serif;
+   font-size:12.8px;
+   color:#333;
+   line-height:141%
 }
 </style>
 <center>
@@ -400,10 +400,10 @@ Limited analysis of the SCP-3296 capsule orbiting Earth has revealed a lack of l
 
 [[div class="footer-wikiwalk-nav"]]
 [[=]]
-<< [[[SCP-3295]]] |  SCP-3296 | [[[SCP-3297]]] >>
+<< [[[SCP-3295]]] |  SCP-3296 | [[[SCP-3297]]] >>
 [[/=]]
 [[/div]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

@@ -20,75 +20,75 @@ Inspired by the [https://en.wikipedia.org/wiki/SS_El_Faro SS El Faro] and [https
 .blinkbar {animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }15% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* black shadow at the top of the terminal */
-    background-image: 
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 /* hr block for terminal -- thanks to stormbreath! */
 div.terminal hr {
-    background-color: #80FF80;
+    background-color: #80FF80;
 }
 
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(7000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(7000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(7000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(7000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 [[/module]]
 
@@ -132,7 +132,7 @@ Once the //SS Sommerfeld// was declared lost, the Foundation immediately mounted
 
 During the initial 1999 inquiry, Daniel DeVorn responded to questions regarding the possibility that the disappearance of the //SS Sommerfeld// was caused by a fault in its emergency SRA system.
 
-> Look, that's -- look, I don't want to be rude, but that's nonsense. That's absolute nonsense. Our SRAs have a near-flawless track record. They've seen extensive use throughout the Foundation. They're directly responsible for averting disasters every day. They save lives, every single day.  And we're developing better, more cost-effective SRAs, every single day. 
+> Look, that's -- look, I don't want to be rude, but that's nonsense. That's absolute nonsense. Our SRAs have a near-flawless track record. They've seen extensive use throughout the Foundation. They're directly responsible for averting disasters every day. They save lives, every single day.  And we're developing better, more cost-effective SRAs, every single day. 
 > 
 > What happened to the //SS Sommerfeld// was tragic, but had nothing to do with our emergency safety system. What happened was -- I don't want to blame your people. I'm sure their performance was exemplary. I've worked with you long enough to know you only hire the best of the best. But I do want to point out that you consistently refuse to staff DLS technicians on-site to provide immediate technical support. You wouldn't let us put any of our employees on that boat. You also have a history of -- your procedures have a history of deviating from the SRA manual. The manual exists for a reason. We wrote it for a reason. If you follow it, they work fine. 
 > 
@@ -169,7 +169,7 @@ Miguel Quiñones (the acting CO of MTF Beta-7 at the time) described his experie
 
 > So, when the JMSDF called us, we figured it was just Old Man Jenkins[[footnote]]Slang for someone who inaccurately presents an object, person, or phenomenon as anomalous, typically to induce Foundation involvement in non-anomalous emergencies.[[/footnote]] up to no good. Happens a lot. Some freshly promoted bureaucrat panics, or tries to pass their disaster off on us. We've even had a few cases where someone tries to make a perfectly ordinary problem //look// anomalous. This one time, I heard a guy [[[scp-2700-ex|even]]] -- 
 > 
-> -- right, sorry. Anyway, we were pretty sure we'd be finding a dead whale tangled up in a buoy or something. We still followed procedure, though. Complacency is what gets people killed. You learn that lesson on day one. Came at it upwind to minimize exposure. It's a good thing, too. The stink alone could have dropped us all.  
+> -- right, sorry. Anyway, we were pretty sure we'd be finding a dead whale tangled up in a buoy or something. We still followed procedure, though. Complacency is what gets people killed. You learn that lesson on day one. Came at it upwind to minimize exposure. It's a good thing, too. The stink alone could have dropped us all.  
 > 
 > It definitely wasn't a whale. But it didn't look like a boat, either. It looked like... like a giant blob of rotting meat. A spongy, floating meat-slab. 
 > 
@@ -193,10 +193,10 @@ While retracing the //IRV Silent Spring//'s initial route, a Foundation-operated
 
 On October 26, SARC was assembled to assess the extent of the //SS Sommerfeld//'s threat and develop an effective containment strategy for it. Bryan Browning, a veteran Foundation field agent and Site-97's former Site-Director, was assigned as the Containment Director. 
 
-Close observation of the //SS Sommerfeld// was all but impossible on account of its unpredictable properties; surveillance drones sent into its area of effect experienced numerous mechanical failures.  In order to acquire more data, Director Browning requisitioned several SRAs from DLS and ordered them mounted inside the //SCPF Stravinsky//. The submarine was to approach SCP-3241 under the cover of a morphogenic field and attempt to retrieve its VDR.
+Close observation of the //SS Sommerfeld// was all but impossible on account of its unpredictable properties; surveillance drones sent into its area of effect experienced numerous mechanical failures.  In order to acquire more data, Director Browning requisitioned several SRAs from DLS and ordered them mounted inside the //SCPF Stravinsky//. The submarine was to approach SCP-3241 under the cover of a morphogenic field and attempt to retrieve its VDR.
 
 Several members of the //SCPF Stravinsky//'s crew refused Director Browning's orders. This group included the vessel's Executive Officer, Leslie Horton. She explained her decision in 2018:
-> Browning painted us as a bunch of traitors attempting a coup, but anyone with one fucking iota of military experience will tell you there's a world of difference between "Open fire" and "Walk up to the enemy and tweak his nose while this magic box protects you". Besides, this wasn't a military operation. There was no immediate threat. We had every right to stop work over safety concerns. And that's precisely what we did.  
+> Browning painted us as a bunch of traitors attempting a coup, but anyone with one fucking iota of military experience will tell you there's a world of difference between "Open fire" and "Walk up to the enemy and tweak his nose while this magic box protects you". Besides, this wasn't a military operation. There was no immediate threat. We had every right to stop work over safety concerns. And that's precisely what we did.  
 > 
 > Professor Bakshi is the reason why, though. Bakshi had experience with SRAs -- real experience -- and he didn't trust them. He told Browning that his plan would put us at risk. When Browning told him to piss off, Bakshi came to us directly. He explained these things -- the SRAs -- he told us they were unreliable. Described it like trying to put out a fire with a flamethrower. Sometimes it works, and sometimes you just burn the whole goddamn neighborhood down. Convinced me, at least. 
 > 
@@ -226,7 +226,7 @@ In 2018, Professor Gambheer Bakshi gave the following testimony regarding Direct
 > 
 > Shit. 
 > 
-> Shit. Sorry. I'm sorry. I don't usually -- I need a moment. Just, um, just give me a moment. It's been a long time since I've talked about -- shit. I'm sorry.  
+> Shit. Sorry. I'm sorry. I don't usually -- I need a moment. Just, um, just give me a moment. It's been a long time since I've talked about -- shit. I'm sorry.  
 > 
 > Okay. 
 > 
@@ -234,7 +234,7 @@ In 2018, Professor Gambheer Bakshi gave the following testimony regarding Direct
 > 
 > He looked so scared right then. Mr. Asakawa, I mean. I think he was starting to realize that there was a very real danger, here. But then, Browning said something -- I don't even remember what. Something about how back in his day, they didn't have SRAs? How they could have saved so many lives back then. How important Asakawa's work was. Something like that. Then Asakawa smiled, and -- 
 > 
-> -- he was looking at me, before. When he was scared. He was looking straight at me. //Me//. Like he was expecting me to save him. And -- I could have. I could have saved him. I could have said no. I could have said absolutely not. I could have pulled that boy off the boat and told that fat racist fuck to go fuck himself.  
+> -- he was looking at me, before. When he was scared. He was looking straight at me. //Me//. Like he was expecting me to save him. And -- I could have. I could have saved him. I could have said no. I could have said absolutely not. I could have pulled that boy off the boat and told that fat racist fuck to go fuck himself.  
 > 
 > But I didn't. 
 > 
@@ -264,7 +264,7 @@ Director Browning boarded the //SCPF Beagle 3// with his team and approached SCP
 > 
 > But Daniel DeVorn? I swear to God. If I ever lay eyes on that man, I will crawl out of this wheel-chair and rip his fucking throat out with my bare teeth. 
 > 
-> It didn't do a goddamn thing. You hear me? Not a goddamn thing. If anything, it made things worse:  None of the drones flipped inside out. None of them evaporated into smoke. None of them turned into //fucking glass//. No, they all just broke. It wasn't until we tried using his shitty products to contain his shitty boat that I ended up in this shitty chair. 
+> It didn't do a goddamn thing. You hear me? Not a goddamn thing. If anything, it made things worse:  None of the drones flipped inside out. None of them evaporated into smoke. None of them turned into //fucking glass//. No, they all just broke. It wasn't until we tried using his shitty products to contain his shitty boat that I ended up in this shitty chair. 
 > 
 > Wherever you are, Mr. DeVorn, you ought to get down on your knees and thank God Almighty that the Foundation //has// changed. Because back in my day? This story wouldn't end with some sort of -- some sort of fucking "inquiry". 
 > 
@@ -276,7 +276,7 @@ On January 3rd, 2018, an anonymous source provided the Foundation with several t
 
 > **DATE:** 16/04/1995
 > **SUBJECT:** Re: Emergency SRA system
-> **FROM:** <{{simon.tchlekoz@███████}}>  
+> **FROM:** <{{simon.tchlekoz@███████}}>  
 > **TO:** <{{daniel.devorn@███████}}>
 > ----
 > You can argue that correlation does not equal causation until you're blue in the face, Dan. But the correlation is 1:1 across the board -- for over //ten years//. And even if it didn't correlate, it doesn't change the fact every anchor out there -- including the ones that have been in service for decades -- are experiencing failure events with increasing regularity. 
@@ -396,7 +396,7 @@ What would you like to do?
 > 
 > There are so many gentle, kind faces around these days -- so much optimism, so much desire to do right. It makes an ancient crone like me feel out of place. After all, I've done so many terrible things. Horrid things, Daniel. Positively horrid! 
 > 
-> This isn't the same Foundation I helped create. We have "inquiries", now. We have "accountability".  We even have an Ethics Committee. An Ethics Committee! I remember when someone first suggested that to me. God, how I laughed! But now we have one. They're even talking about giving you a trial, Daniel. Can you imagine? 
+> This isn't the same Foundation I helped create. We have "inquiries", now. We have "accountability".  We even have an Ethics Committee. An Ethics Committee! I remember when someone first suggested that to me. God, how I laughed! But now we have one. They're even talking about giving you a trial, Daniel. Can you imagine? 
 > 
 > Somewhere along the way, this nasty, violent little global conspiracy of ours grew a conscience. Isn't that amazing? Oh, I certainly had nothing to do with it. No, no -- my little angels did this all on their own. And I couldn't be prouder. 
 > 
@@ -426,7 +426,7 @@ What would you like to do?
 
 Goodbye, O5-5.
 
-@@>@@  ###0d260d|in pace requiescat##[[span class="blinkbar"]]###b3ffb3|_##[[/span]]
+@@>@@  ###0d260d|in pace requiescat##[[span class="blinkbar"]]###b3ffb3|_##[[/span]]
 
 [[/div]]
 [[/div]]
@@ -443,6 +443,6 @@ Goodbye, O5-5.
 
 [[div class="footer-wikiwalk-nav"]]
 [[=]]
-<< [[[SCP-3240]]] |  SCP-3241 | [[[SCP-3242]]] >>
+<< [[[SCP-3240]]] |  SCP-3241 | [[[SCP-3242]]] >>
 [[/=]]
 [[/div]]

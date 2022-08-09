@@ -29,8 +29,8 @@ PR(p_N)\end{array} \right] = \vec{P} = \left[ \begin{array}{cc}
 \vdots \\
 \frac{1-d}{N}\end{array} \right] + d \left[ \begin{array}{ccc}
 \ell(p_1,p_1) & \cdots & \ell(p_1,p_N)\\
-\vdots & \ddots  & \vdots \\
-\ell(p_N,p_1) & \cdots  & \ell(p_N,p_N)\end{array} \right]\vec{P} = \left( \frac{1-d}{N} \mathbf{J_N} + d\mathbf{M} \right ) \vec{P} = \mathbf{A}\vec{P}
+\vdots & \ddots  & \vdots \\
+\ell(p_N,p_1) & \cdots  & \ell(p_N,p_N)\end{array} \right]\vec{P} = \left( \frac{1-d}{N} \mathbf{J_N} + d\mathbf{M} \right ) \vec{P} = \mathbf{A}\vec{P}
 [[/math]]
 Where [[$ \ell(p_i,p_j) $]] is 0 if [[$ p_j $]] does not link to [[$ p_i $]] and otherwise some non-zero value normalized such that the columns of the matrix [[$ \mathbf{M} $]] are stochastic. [[$ \mathbf{J_N} $]] is a matrix filled with 1's and is guaranteed to return [[$ \vec{1} $]] due to the stochastic nature of vector [[$ \vec{P} $]]. The unique solution vector [[$ \vec{P} $]] represents the eigenvector associated with the eigenvalue 1 for matrix [[$ \mathbf{A} $]] and yields the PageRank values used in search result ranking. The eigenvalue 1 is the largest such eigenvalue and thus efficient methods for retrieving dominant eigenvectors, like power iteration, may be used (see //Section III: Computational Methods// for further details). 
 

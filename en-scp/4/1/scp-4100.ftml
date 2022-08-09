@@ -97,7 +97,7 @@ SCP-4100の有機生命体のピクトグラフの一部は、一見すると生
 三頭政治の歴史あるいは使命のピクトグラフ表現は、人類史のいつ頃に組織が形成されたかについていかなる示唆もしていません。他のピクトグラフは、原始的火器の発明前後に初出するシンボルを表していますが、これはもっと早期に存在していた可能性があります。
 
 
-[[include component:image-block  name=destroyerpictogram.png|caption=ピクトグラフ-4100-1050。|width=300px|align=center]]
+[[include component:image-block  name=destroyerpictogram.png|caption=ピクトグラフ-4100-1050。|width=300px|align=center]]
 
 ピクトグラフ-4100-1050は、"[[span class="ruby"]]破壊者[[span class="rt"]]Destroyer[[/span]][[/span]]" と現生人類に命名され、三頭政治が "SCP-4100" と命名したと思われる実体の最も古い既知の描写であると考えられています。現生人類は、自身の母星の破壊要因となる反神格存在として "破壊者" を扱っています。"破壊者" 実体は全人類の95%を含む、SCP-4100の生命の90%を殺害したと推定されています。
 
@@ -114,215 +114,215 @@ SCP-4100の有機生命体のピクトグラフの一部は、一見すると生
 <head>
 <style>
 .css-typing p {
-  border-right: .15em solid lightgreen;
-  font-family: "Courier";
-  font-size: 12px;
-  white-space: nowrap;
-  overflow: hidden;
+  border-right: .15em solid lightgreen;
+  font-family: "Courier";
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .css-typing p:nth-child(1) {
-  width: 50.3em;
-  -webkit-animation: type 1s steps(400, end);
-  animation: type 1s steps(400, end);
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+  width: 50.3em;
+  -webkit-animation: type 1s steps(400, end);
+  animation: type 1s steps(400, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .css-typing p:nth-child(2) {
-  width: 61.5em;
-  opacity: 0;
-  -webkit-animation: type3 4s steps(400, end);
-  animation: type3 4s steps(400, end);
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+  width: 61.5em;
+  opacity: 0;
+  -webkit-animation: type3 4s steps(400, end);
+  animation: type3 4s steps(400, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .css-typing p:nth-child(3) {
-  width: 61.5em;
-  opacity: 0;
-  -webkit-animation: type3 4s steps(400, end);
-  animation: type3 4s steps(400, end);
-  -webkit-animation-delay: 7s;
-  animation-delay: 7s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+  width: 61.5em;
+  opacity: 0;
+  -webkit-animation: type3 4s steps(400, end);
+  animation: type3 4s steps(400, end);
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .css-typing p:nth-child(4) {
-  width: 61.5em;
-  opacity: 0;
-  -webkit-animation: type4 4s steps(400, end);
-  animation: type4 4s steps(400, end);
-  -webkit-animation-delay: 10.8s;
-  animation-delay: 10.8s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+  width: 61.5em;
+  opacity: 0;
+  -webkit-animation: type4 4s steps(400, end);
+  animation: type4 4s steps(400, end);
+  -webkit-animation-delay: 10.8s;
+  animation-delay: 10.8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .css-typing p:nth-child(5) {
-  width: 60.5em;
-  opacity: 0;
-  -webkit-animation: type4 4s steps(400, end);
-  animation: type4 4s steps(400, end);
-  -webkit-animation-delay: 18.6s;
-  animation-delay: 18.6s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+  width: 60.5em;
+  opacity: 0;
+  -webkit-animation: type4 4s steps(400, end);
+  animation: type4 4s steps(400, end);
+  -webkit-animation-delay: 18.6s;
+  animation-delay: 18.6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .css-typing p:nth-child(6) {
-  width: 54em;
-  opacity: 0;
-  -webkit-animation: type3 5s steps(200, end), blink .5s step-end infinite alternate;
-  animation: type3 5s steps(200, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 23s;
-  animation-delay: 23s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+  width: 54em;
+  opacity: 0;
+  -webkit-animation: type3 5s steps(200, end), blink .5s step-end infinite alternate;
+  animation: type3 5s steps(200, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 23s;
+  animation-delay: 23s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 
 @keyframes type {
-  0% {
-    width: 0;
-  }
-  99.9% {
-    border-right: .15em solid lightgreen;
-  }
-  100% {
-    border: none;
-  }
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid lightgreen;
+  }
+  100% {
+    border: none;
+  }
 }
 
 @-webkit-keyframes type {
-  0% {
-    width: 0;
-  }
-  99.9% {
-    border-right: .15em solid lightgreen;
-  }
-  100% {
-    border: none;
-  }
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid lightgreen;
+  }
+  100% {
+    border: none;
+  }
 }
 
 @keyframes type2 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid lightgreen;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid lightgreen;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
 }
 
 @-webkit-keyframes type2 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid lightgreen;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid lightgreen;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
 }
 
 @keyframes type3 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 
 @-webkit-keyframes type3 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes type4 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes type4 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes blink {
-  50% {
-    border-color: transparent;
-  }
+  50% {
+    border-color: transparent;
+  }
 }
 @-webkit-keyframes blink {
-  50% {
-    border-color: tranparent;
-  }
+  50% {
+    border-color: tranparent;
+  }
 }
 
 </style>
 </head>
 <body>
 <div class="css-typing" style="background-color: black">
-  <p>
-   <font color="red">****確保。収容。保護。*****</font>
-  </p>
-  <p>
-   <font color="lightgreen"><br>我々は君を待っていたよ、SCP-4100。</font>
-  </p>
-  <p>
-    <font color="lightgreen"><br>我々はもう此処にはいない。我々が去ってから随分経つ。我々はもう暗闇の中で死ぬことはない。我々は勝利した。</font>
-  </p>
-  <p>
-   <font color="lightgreen">我々は星の光の中で生きている。人類は君から逃れた。保護国は繁栄するだろう。</font>
-  </p>
-  <p>
-  <font color="lightgreen">我々は君を収容できない。だが我々は君を破壊できる。我々はこれを言うのを何千年も待っていた:</font>
-  </p>
-  <p>
-  <font color="lightgreen"><br>我々の星は光速を超える。我々の船、の間違いではないぞ。<font>
-  </p>
+  <p>
+   <font color="red">****確保。収容。保護。*****</font>
+  </p>
+  <p>
+   <font color="lightgreen"><br>我々は君を待っていたよ、SCP-4100。</font>
+  </p>
+  <p>
+    <font color="lightgreen"><br>我々はもう此処にはいない。我々が去ってから随分経つ。我々はもう暗闇の中で死ぬことはない。我々は勝利した。</font>
+  </p>
+  <p>
+   <font color="lightgreen">我々は星の光の中で生きている。人類は君から逃れた。保護国は繁栄するだろう。</font>
+  </p>
+  <p>
+  <font color="lightgreen">我々は君を収容できない。だが我々は君を破壊できる。我々はこれを言うのを何千年も待っていた:</font>
+  </p>
+  <p>
+  <font color="lightgreen"><br>我々の星は光速を超える。我々の船、の間違いではないぞ。<font>
+  </p>
 </div>
 </body>
 [[/html]]

@@ -10,11 +10,11 @@
 [[/=]]
 [[/div]]
 
- 
- 
- 
- 
- 
+ 
+ 
+ 
+ 
+ 
 [[=]]
 [[collapsible show="我ら力をもちて忍ぶ。" hide="我ら礎なり。"]]
 [[/=]]
@@ -46,7 +46,7 @@ SCP-3895の出現は、我々から選択肢を持つという贅沢を奪った
 我々は確保する。我々は収容する。我々は保護する。そして今、我々は//戦う//のだ。
 
 @@@@
-                           //O5-8、マルドゥク計画主席管理者//
+                           //O5-8、マルドゥク計画主席管理者//
 [[/div]]
 @@@@
 @@@@
@@ -64,7 +64,7 @@ SCP-3895の出現は、我々から選択肢を持つという贅沢を奪った
 @@@@
 @@@@
 **アイテム番号**: SCP-3895
- 
+ 
 
 **アノマリークラス**: Tiamat[[footnote]]Tiamatクラスアノマリーは、財団にとって現在可能な資源と知識を用いてその影響を秘密裏に収容することができず、そのため基本的には財団の直接の戦術的関与の障害となる正常性に関するコンセンサスを改変もしくは完全に無効化するよう計画されている実体を指します。[[/footnote]] 
 
@@ -72,7 +72,7 @@ SCP-3895の出現は、我々から選択肢を持つという贅沢を奪った
 
 
 **戦略的行動プロトコル**: 近日中に予定されている財団の最高司令部の再評価により決定されます。
- 
+ 
 
 **説明**: SCP-3895はカテゴリー4敵対的形而上実体であり、基底現実に成功裏に物理的顕現するに至っており、地球の全生命を吸収、同化しようと活発に試みています。
 
@@ -155,24 +155,24 @@ SCP-3895はこの文書の作成時点で、収容のあらゆる試みに抵抗
 
 <style>
 
-    @import url(http://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/base/css/style.css);
-    @import url(http://scpsandbox2.wikidot.com/component:theme/code/1);
+    @import url(http://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/base/css/style.css);
+    @import url(http://scpsandbox2.wikidot.com/component:theme/code/1);
 
-    html, body, div, span{
-    	display: inline-block;
-    }
+    html, body, div, span{
+    	display: inline-block;
+    }
 
-    span {
-    	width: 0.8em;
-    }
+    span {
+    	width: 0.8em;
+    }
 </style>
 
 <script>
 function rotate(id, n){
-    str = "g5bN7984pq9gbQgb58bYhjXaw89b2bk1ab3bZutOiphMg87b2pSd829kjbraE"
-    
-    document.getElementById(id).innerHTML= str.charAt(n)
-    setTimeout(function(){rotate(id, (n+1)%str.length)}, 75)
+    str = "g5bN7984pq9gbQgb58bYhjXaw89b2bk1ab3bZutOiphMg87b2pSd829kjbraE"
+    
+    document.getElementById(id).innerHTML= str.charAt(n)
+    setTimeout(function(){rotate(id, (n+1)%str.length)}, 75)
 }
 
 
