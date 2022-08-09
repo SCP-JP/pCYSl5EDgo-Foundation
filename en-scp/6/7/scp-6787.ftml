@@ -1,32 +1,32 @@
 [[include :scp-wiki:theme:penumbra]]
 [[module css]]
 :root{
-  --header-title: "サイト-87";
-  --header-subtitle: "記録保管課";
+  --header-title: "サイト-87";
+  --header-subtitle: "記録保管課";
 
 }
 
 div#extra-div-1 {
-    background-image: url(https://cdn.discordapp.com/attachments/770866626089582633/816896081870323712/Big87.png);
-    filter: opacity(20%);
+    background-image: url(https://cdn.discordapp.com/attachments/770866626089582633/816896081870323712/Big87.png);
+    filter: opacity(20%);
 
 }
 
 /*-- Japanese localizing --*/
 
 .page-rate-widget-box{
-    display: inline-block;
-    margin-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
-.anom-bar-container.Dark .danger-diamond > .quadrants > .bottom-quad  {
-    background-color:rgba(47, 51, 60,0.25);
+.anom-bar-container.Dark .danger-diamond > .quadrants > .bottom-quad  {
+    background-color:rgba(47, 51, 60,0.25);
 }
 
 @media (max-width: 767px){
-    #side-bar {
-        left: -25em;
-    }
+    #side-bar {
+        left: -25em;
+    }
 }
 [[/module]]
 
@@ -66,10 +66,10 @@ div#extra-div-1 {
 ]]
 
 [[include component:image-block
-    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-99-iqq9/skylight.jpg|
-    caption=SCP-6787内の天窓。|
-    align=center|    
-    width=100%|
+    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-99-iqq9/skylight.jpg|
+    caption=SCP-6787内の天窓。|
+    align=center|    
+    width=100%|
 ]]
 
 
@@ -78,9 +78,9 @@ div#extra-div-1 {
 **説明:** SCP-6787はサイト-87の地下13階を指定します。2022年早期の定期メンテナンスの際にSCP-6787が発見される以前は、サイト-87には13階に指定された地下階はなく、その代わりに地下12階から14階に直接階数が増加していました。SCP-6787はサイト-87の主階段によってのみ進入可能であり、エレベーターアクセスを欠いています。SCP-6787に通じる扉は財団徽章が記されており、その下に「怪奇部門 記録保管課」と刻銘されています。
 
 [[include component:image-block
-    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-100-ytl7/musty.jpg|
-    caption=SCP-6787の書架からの眺望。|
-    align=right|
+    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-100-ytl7/musty.jpg|
+    caption=SCP-6787の書架からの眺望。|
+    align=right|
 ]]
 
 地下13階は公共図書館に類似しています。30,000巻を超える文学作品がSCP-6787内に存在していると考えられており、また公共図書館に一般的なアメニティーが複数備えられています。他に、SCP-6787内に存在しているのは以下のものです。

@@ -1,52 +1,52 @@
 [[module CSS]]
 div.email {
-    border: solid 2px #A38800;
-    box-shadow: 0 1px 3px rgba(0,0,0,.2);
-    padding: 0 1em;
-    margin: 1em 3em;
-    background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-19-9ana/ambrose-logo.png);
-    background-size: 64px 64px;
-    background-position: 95% .5em;
-    background-repeat: no-repeat;
-    background-color: #F5F2E4;
-    color: #21003C;
+    border: solid 2px #A38800;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    padding: 0 1em;
+    margin: 1em 3em;
+    background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-19-9ana/ambrose-logo.png);
+    background-size: 64px 64px;
+    background-position: 95% .5em;
+    background-repeat: no-repeat;
+    background-color: #F5F2E4;
+    color: #21003C;
 }
- 
+ 
 div.email a {
-    color: #A38800;
+    color: #A38800;
 }
 
 div.email a:visited {
-    color: #524400;
+    color: #524400;
 }
 
 div.email h5 {
-    max-width: 85%;
+    max-width: 85%;
 }
 
 div.email h2 span,
 div.email h5 span {
-    word-break: unset;
+    word-break: unset;
 }
 
 @media (max-width: 479px) {
-    div.email {
-        margin: 1em 0;
-    }
+    div.email {
+        margin: 1em 0;
+    }
 
-    div.email h2 {
-        max-width: 80%;
-    }
+    div.email h2 {
+        max-width: 80%;
+    }
 }
- 
+ 
 @media (min-width: 480px) and (max-width: 580px) {
-    div.email {
-        margin: 0.5em;
-    }
+    div.email {
+        margin: 0.5em;
+    }
 
-    div.email h2 {
-        max-width: 80%;
-    }
+    div.email h2 {
+        max-width: 80%;
+    }
 }
 [[/module]]
 
@@ -55,9 +55,9 @@ div.email h5 span {
 [[/>]]
 
 [[include component:image-block
-    width=250px|
-    name=soup-JP.jpg|
-    caption=アンブローズ・サンフランで注文されたSCP-5348実例|
+    width=250px|
+    name=soup-JP.jpg|
+    caption=アンブローズ・サンフランで注文されたSCP-5348実例|
 ]]
 
 **アイテム番号:** SCP-5348
@@ -136,7 +136,7 @@ div.email h5 span {
 * 冷やしたヤギ乳バター 300グラム
 * 中力粉 大さじ6杯
 * ミシェル・アンブローズの霊体から抽出した第六生命エネルギー 15Kj
- * 慈愛に満ちていればどんな霊体でも代用可能だが、アンブローズ・レストラン・ソウルブイヨン^^®^^で適切にマリネにする必要あり。
+ * 慈愛に満ちていればどんな霊体でも代用可能だが、アンブローズ・レストラン・ソウルブイヨン^^®^^で適切にマリネにする必要あり。
 
 //チャズのメモ://
 私の料理への愛は幼い頃から始まったもので、それについては母に感謝している。父が… “体調を崩す”ことが度々あった中で、母は何時間も兄や私と共に座り、美味しい料理を作り、お腹が痛くなるまで笑って過ごしたものだった。母は他人に料理を振る舞うことに何より強い喜びを感じていたと、私はそう心から信じている。そして母が亡くなってからも、私はその夢を続けたかった。そのような訳で、是非とも皆さんにはママ・アンブローズのクリーミーマッシュルームビスクを楽しく味わってほしい -- これこそは真の家庭のレシピだ。

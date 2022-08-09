@@ -1,338 +1,338 @@
 [[module CSS]]
 /* Classic SCP Foundation Theme
- * [2020 Wikidot Theme]
- * Created by Lt Flops
+ * [2020 Wikidot Theme]
+ * Created by Lt Flops
 **/
 
 /* ---- PAGE WRAP ---- */
- div#container-wrap{
-     background-image: url(http://scp-wiki.wdfiles.com/local--files/theme%3Aclassic/classic_body_bg.png);
-     background-repeat: repeat-x;
+ div#container-wrap{
+     background-image: url(http://scp-wiki.wdfiles.com/local--files/theme%3Aclassic/classic_body_bg.png);
+     background-repeat: repeat-x;
 }
 
 /* ---- HEADERS ---- */
- span, a{
-     word-break: unset;
+ span, a{
+     word-break: unset;
 }
- h1{
-     font-size: 190%;
+ h1{
+     font-size: 190%;
 }
- h1, h2, h3, h4, h5, h6{
-     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
+ h1, h2, h3, h4, h5, h6{
+     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
 }
- #header h1,
- #header h2{
-     margin-left: -.16em;
+ #header h1,
+ #header h2{
+     margin-left: -.16em;
 }
- #header h1{
-     max-height: 105px;
-     margin: 0;
+ #header h1{
+     max-height: 105px;
+     margin: 0;
 }
- #header h2{
-     margin: 0;
+ #header h2{
+     margin: 0;
 }
 
 /* ---- SITE HEADER ---- */
- #header h1 a,
- #header h2 span{
-     color: transparent;
-     text-shadow: none;
+ #header h1 a,
+ #header h2 span{
+     color: transparent;
+     text-shadow: none;
 }
- #header h1 a{
-     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
-     letter-spacing: 0;
+ #header h1 a{
+     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
+     letter-spacing: 0;
 }
- #header h1 a::before,
- #header h2 span::before{
-     text-shadow: none;
+ #header h1 a::before,
+ #header h2 span::before{
+     text-shadow: none;
 }
- #header h1 a::before{
-     content: "The SCP Foundation";
-     color: hsl(0, 0%, 93%);
+ #header h1 a::before{
+     content: "The SCP Foundation";
+     color: hsl(0, 0%, 93%);
 }
- #header h2 span::before{
-     content: "To Secure, Contain, and Protect";
-     color: hsl(353, 100%, 30%);
+ #header h2 span::before{
+     content: "To Secure, Contain, and Protect";
+     color: hsl(353, 100%, 30%);
 }
 
 /* ---- TOP MENU ---- */
- #header{
-     background: none;
+ #header{
+     background: none;
 }
- #top-bar ul li,
- #top-bar ul li ul{
-     box-shadow: none;
+ #top-bar ul li,
+ #top-bar ul li ul{
+     box-shadow: none;
 }
- #top-bar ul li ul{
-     border-color: hsl(0, 0%, 27%);
-     border-style: solid;
-     border-width: 0 1px 1px;
+ #top-bar ul li ul{
+     border-color: hsl(0, 0%, 27%);
+     border-style: solid;
+     border-width: 0 1px 1px;
 }
- #top-bar ul li a{
-     border-color: hsl(0, 0%, 27%);
-     border-style: solid;
-     border-width: 0 0 0 1px;
+ #top-bar ul li a{
+     border-color: hsl(0, 0%, 27%);
+     border-style: solid;
+     border-width: 0 0 0 1px;
 }
- #top-bar ul li a::before{
-     content: "[";
+ #top-bar ul li a::before{
+     content: "[";
 }
- #top-bar ul li a::after{
-     content: "]";
-     position: relative;
+ #top-bar ul li a::after{
+     content: "]";
+     position: relative;
 
 /* NOTE: The Top Bar Menu has spaces after each bullet, which is why this is done: */
-     left: -.3em;
+     left: -.3em;
 }
- #top-bar ul li ul li a::before{
-     content: unset;
+ #top-bar ul li ul li a::before{
+     content: unset;
 }
- #top-bar ul li ul li a::after{
-     content: unset;
+ #top-bar ul li ul li a::after{
+     content: unset;
 }
- .mobile-top-bar{
-     bottom: -.5px;
+ .mobile-top-bar{
+     bottom: -.5px;
 }
 
 /* ---- SEARCH BOX ---- */
- #search-top-box input.empty{
-     color: hsl(0, 0%, 45%);
+ #search-top-box input.empty{
+     color: hsl(0, 0%, 45%);
 }
- #search-top-box-input{
-     color: hsl(0, 0%, 5%);
-     background-color: hsl(0, 0%, 100%);
-     border: 1px solid hsl(0, 0%, 47%);
-     border-radius: 0;
-     box-shadow: none;
+ #search-top-box-input{
+     color: hsl(0, 0%, 5%);
+     background-color: hsl(0, 0%, 100%);
+     border: 1px solid hsl(0, 0%, 47%);
+     border-radius: 0;
+     box-shadow: none;
 }
- #search-top-box-input:hover,
- #search-top-box-input:focus{
-     color: hsl(0, 0%, 5%);
-     background-color: hsl(0, 0%, 100%);
-     border: 1px solid hsl(0, 0%, 47%);
-     box-shadow: none;
+ #search-top-box-input:hover,
+ #search-top-box-input:focus{
+     color: hsl(0, 0%, 5%);
+     background-color: hsl(0, 0%, 100%);
+     border: 1px solid hsl(0, 0%, 47%);
+     box-shadow: none;
 }
- #search-top-box-form input[type="submit"]{
-     color: hsl(0, 0%, 5%);
-     background: hsl(0, 0%, 96%);
-     border: 1px solid hsl(0, 0%, 67%);
-     border-radius: 0;
-     box-shadow: none;
-     font-size: 100%;
-     font-weight: normal;
+ #search-top-box-form input[type="submit"]{
+     color: hsl(0, 0%, 5%);
+     background: hsl(0, 0%, 96%);
+     border: 1px solid hsl(0, 0%, 67%);
+     border-radius: 0;
+     box-shadow: none;
+     font-size: 100%;
+     font-weight: normal;
 }
- #search-top-box-form input[type="submit"]:hover,
- #search-top-box-form input[type="submit"]:focus{
-     color: hsl(0, 0%, 5%);
-     background: hsl(0, 0%, 87%);
-     border: 1px solid hsl(0, 0%, 67%);
-     box-shadow: none;
+ #search-top-box-form input[type="submit"]:hover,
+ #search-top-box-form input[type="submit"]:focus{
+     color: hsl(0, 0%, 5%);
+     background: hsl(0, 0%, 87%);
+     border: 1px solid hsl(0, 0%, 67%);
+     box-shadow: none;
 }
 
 /* ---- SIDE MENU ---- */
- #side-bar{
-     clear: both;
-     padding: .78em;
-     padding-bottom: 0;
-     border: 1px solid hsl(0, 0%, 87%);
-     border-radius: 0;
-     box-shadow: none;
-     margin: auto;
+ #side-bar{
+     clear: both;
+     padding: .78em;
+     padding-bottom: 0;
+     border: 1px solid hsl(0, 0%, 87%);
+     border-radius: 0;
+     box-shadow: none;
+     margin: auto;
 }
- #side-bar .side-block{
-     margin: auto;
-     background: transparent;
-     border: none;
-     border-radius: 0;
-     box-shadow: none;
+ #side-bar .side-block{
+     margin: auto;
+     background: transparent;
+     border: none;
+     border-radius: 0;
+     box-shadow: none;
 }
- #side-bar .heading{
-     padding-left: 0;
-     color: hsl(0, 0%, 5%);
-     border-bottom: 1px solid hsl(0, 0%, 67%);
-     margin: auto;
+ #side-bar .heading{
+     padding-left: 0;
+     color: hsl(0, 0%, 5%);
+     border-bottom: 1px solid hsl(0, 0%, 67%);
+     margin: auto;
 }
 
 /* ---- INFO BAR ---- */
- body{
-     --barColour: hsl(0, 0%, 28%);
+ body{
+     --barColour: hsl(0, 0%, 28%);
 }
 
 /* ---- INFO PANE ---- */
 .creditRate{
-     margin-right: 0 !important;
-     border: none !important;
+     margin-right: 0 !important;
+     border: none !important;
 }
- .rate-box-with-credit-button .fa-info{
-     background-color: hsl(0, 0%, 40%) !important;
-     border: none !important;
-     border-radius: 0 !important;
-     box-shadow: none !important;
+ .rate-box-with-credit-button .fa-info{
+     background-color: hsl(0, 0%, 40%) !important;
+     border: none !important;
+     border-radius: 0 !important;
+     box-shadow: none !important;
 }
- .rate-box-with-credit-button .fa-info:hover{
-     color: hsl(0, 0%, 95%);
-     border-left: none !important;
+ .rate-box-with-credit-button .fa-info:hover{
+     color: hsl(0, 0%, 95%);
+     border-left: none !important;
 }
- .rate-box-with-credit-button .cancel{
-     color: hsl(112, 100%, 77%);
+ .rate-box-with-credit-button .cancel{
+     color: hsl(112, 100%, 77%);
 }
- .close-credits,
- .credit-back{
-     filter: hue-rotate(280deg);
+ .close-credits,
+ .credit-back{
+     filter: hue-rotate(280deg);
 }
- .modalbox{
-     max-height: unset !important;
-     border-radius: 0 !important;
-     box-shadow: none !important;
+ .modalbox{
+     max-height: unset !important;
+     border-radius: 0 !important;
+     box-shadow: none !important;
 }
- .modalbox .modalbox-title {
-     background-color: #3e2659;
-     background-color: var(--fg-medium);
-     color: #eee;
-     color: var(--page-title);
-     font-weight: bold;
-     border-radius: 0;
-     border-bottom: 3px solid #3e2659;
-     border-bottom: 3px solid var(--fg-muted-dark);
+ .modalbox .modalbox-title {
+     background-color: #3e2659;
+     background-color: var(--fg-medium);
+     color: #eee;
+     color: var(--page-title);
+     font-weight: bold;
+     border-radius: 0;
+     border-bottom: 3px solid #3e2659;
+     border-bottom: 3px solid var(--fg-muted-dark);
 }
 
- .rateBox .rate-box-with-credit-button .creditButton {
-     background-color: #1e122b !important;
-     background-color: var(--fg-dark) !important;
-     border: solid 1px #482c68;
-     border: solid 1px var(--fg-med-dark);
-     border-radius: 0;
+ .rateBox .rate-box-with-credit-button .creditButton {
+     background-color: #1e122b !important;
+     background-color: var(--fg-dark) !important;
+     border: solid 1px #482c68;
+     border: solid 1px var(--fg-med-dark);
+     border-radius: 0;
 }
 
 /* ---- PAGE RATING ---- */
 .page-rate-widget-box{
-     margin-right: 0;
-     border-radius: 0;
-     box-shadow: none;
+     margin-right: 0;
+     border-radius: 0;
+     box-shadow: none;
 }
- .page-rate-widget-box .rate-points{
-     background-color: hsl(0, 0%, 40%) !important;
-     border: none;
-     border-radius: 0;
+ .page-rate-widget-box .rate-points{
+     background-color: hsl(0, 0%, 40%) !important;
+     border: none;
+     border-radius: 0;
 }
- .page-rate-widget-box .rateup,
- .page-rate-widget-box .ratedown{
-     background-color: hsl(0, 0%, 87%);
-     border: none;
-     font-weight: normal;
+ .page-rate-widget-box .rateup,
+ .page-rate-widget-box .ratedown{
+     background-color: hsl(0, 0%, 87%);
+     border: none;
+     font-weight: normal;
 }
- .page-rate-widget-box .rateup a,
- .page-rate-widget-box .ratedown a{
-     color: hsl(0, 0%, 5%);
+ .page-rate-widget-box .rateup a,
+ .page-rate-widget-box .ratedown a{
+     color: hsl(0, 0%, 5%);
 }
- .page-rate-widget-box .rateup a:hover,
- .page-rate-widget-box .ratedown a:hover{
-     color: hsl(0, 0%, 5%);
-     background: hsl(0, 0%, 93%);
-     text-decoration: underline;
+ .page-rate-widget-box .rateup a:hover,
+ .page-rate-widget-box .ratedown a:hover{
+     color: hsl(0, 0%, 5%);
+     background: hsl(0, 0%, 93%);
+     text-decoration: underline;
 }
- .page-rate-widget-box .cancel{
-     background-color: hsl(0, 0%, 87%);
-     border: none;
-     border-radius: 0;
+ .page-rate-widget-box .cancel{
+     background-color: hsl(0, 0%, 87%);
+     border: none;
+     border-radius: 0;
 }
- .page-rate-widget-box .cancel a{
-     color: hsl(0, 0%, 5%);
-     text-transform: lowercase;
+ .page-rate-widget-box .cancel a{
+     color: hsl(0, 0%, 5%);
+     text-transform: lowercase;
 }
- .page-rate-widget-box .cancel a:hover{
-     color: hsl(0, 0%, 5%);
-     background: hsl(0, 0%, 93%);
-     text-decoration: underline;
+ .page-rate-widget-box .cancel a:hover{
+     color: hsl(0, 0%, 5%);
+     background: hsl(0, 0%, 93%);
+     text-decoration: underline;
 }
 
 /* ----- GENERAL ----- */
- body{
-     color: hsl(0, 0%, 5%);
-     word-break: unset;
+ body{
+     color: hsl(0, 0%, 5%);
+     word-break: unset;
 }
- hr{
-     height: 0;
-     margin: 1em 0;
-     background-color: transparent;
-     border-top: 1px solid hsl(0, 0%, 67%);
+ hr{
+     height: 0;
+     margin: 1em 0;
+     background-color: transparent;
+     border-top: 1px solid hsl(0, 0%, 67%);
 }
 
 /* ---- IMAGE BLOCK ---- */
- .scp-image-block.block-right{
-     margin: 0 0 1em 2em;
-     box-shadow: none;
+ .scp-image-block.block-right{
+     margin: 0 0 1em 2em;
+     box-shadow: none;
 }
 
 /* ---- CLASSIC IMAGE BLOCK DIV ---- */
- .classic-image-block{
-     float: right;
-     width: 300px;
-     margin: 0 0 1em 2em;
-     text-align: center;
+ .classic-image-block{
+     float: right;
+     width: 300px;
+     margin: 0 0 1em 2em;
+     text-align: center;
 }
 
 /* ---- YUI TABS ---- */
- .yui-navset .yui-nav a,
- .yui-navset .yui-navset-top .yui-nav a{
-    /* ---- Tab Background Colour | [UNSELECTED] ---- */
-     background-color: hsl(0, 0%, 100%);
-    /* -------- */
-     background-image: none;
+ .yui-navset .yui-nav a,
+ .yui-navset .yui-navset-top .yui-nav a{
+    /* ---- Tab Background Colour | [UNSELECTED] ---- */
+     background-color: hsl(0, 0%, 100%);
+    /* -------- */
+     background-image: none;
 }
- .yui-navset .yui-nav a:hover,
- .yui-navset .yui-nav a:focus{
-    /* ---- Tab Background Colour | [HOVER] ---- */
-     background-color: hsl(0, 49%, 91%);
-    /* -------- */
-     background-image: none;
+ .yui-navset .yui-nav a:hover,
+ .yui-navset .yui-nav a:focus{
+    /* ---- Tab Background Colour | [HOVER] ---- */
+     background-color: hsl(0, 49%, 91%);
+    /* -------- */
+     background-image: none;
 }
- .yui-navset .yui-nav .selected a,
- .yui-navset .yui-nav .selected a:focus,
- .yui-navset .yui-nav .selected a:hover{
-    /* ---- Tab Background Colour | [SELECTED] ---- */
-     background-color: hsl(0, 70%, 35%);
-    /* -------- */
-     background-image: none;
+ .yui-navset .yui-nav .selected a,
+ .yui-navset .yui-nav .selected a:focus,
+ .yui-navset .yui-nav .selected a:hover{
+    /* ---- Tab Background Colour | [SELECTED] ---- */
+     background-color: hsl(0, 70%, 35%);
+    /* -------- */
+     background-image: none;
 }
 
 
 /* --- INTERWIKI --- */
- iframe.scpnet-interwiki-frame{
-     position: relative;
-     width: 17em;
-     height: 12em;
-     margin-left: .313em;
-     background-color: transparent;
+ iframe.scpnet-interwiki-frame{
+     position: relative;
+     width: 17em;
+     height: 12em;
+     margin-left: .313em;
+     background-color: transparent;
 }
 
 /* ---- MOBILE MEDIA QUERIES ---- */
- @media (max-width: 767px){
-       #side-bar .side-block{
-          background-color: hsl(0, 0%, 100%);
-          margin: auto;
-     }
-      #side-bar:after{
-          background-color: hsla(0, 0%, 30%, .2);
-          margin: auto;
-     }
+ @media (max-width: 767px){
+       #side-bar .side-block{
+          background-color: hsl(0, 0%, 100%);
+          margin: auto;
+     }
+      #side-bar:after{
+          background-color: hsla(0, 0%, 30%, .2);
+          margin: auto;
+     }
 }
- @media (max-width: 479px),
- @media (min-width: 480px) and (max-width: 580px),
- @media (min-width: 581px) and (max-width: 767px){
-      #side-bar .side-block{
-          background-color: hsl(0, 0%, 100%);
-　　　  margin: auto;
-     }
-      #side-bar:after{
-          background-color: hsla(0, 0%, 30%, .2);
-          margin: auto;
-     }
-      #header, .mobile-top-bar{
-          max-width: 95%;
-     }
-      .mobile-top-bar{
-          left: 0;
-     }
+ @media (max-width: 479px),
+ @media (min-width: 480px) and (max-width: 580px),
+ @media (min-width: 581px) and (max-width: 767px){
+      #side-bar .side-block{
+          background-color: hsl(0, 0%, 100%);
+　　　  margin: auto;
+     }
+      #side-bar:after{
+          background-color: hsla(0, 0%, 30%, .2);
+          margin: auto;
+     }
+      #header, .mobile-top-bar{
+          max-width: 95%;
+     }
+      .mobile-top-bar{
+          left: 0;
+     }
 }
 [[/module]]
 
@@ -340,7 +340,7 @@
 **タイトル:** SCP-711-JP - 無重力下で象は鳴く
 **著者:** ©︎[[*user stengan774]]
 **作成年:** 2022
- 
+ 
 ----
 //[[[author:stengan774|この著者の他の作品]]]//
 [[include credit:end]]
@@ -421,7 +421,7 @@ SCP-711-JPの異常性影響下にある通信機器は、不明な経路から�
 
 **DH:** さっきも話したけれど、くせ者揃いのウチのメンバーの中で一等気難しい奴がジョンだった。いっつも俯いて、ひがみったらしくひねくれてて……そのくせ誰よりも"ロック"をやる奴だった。いつだって世界や自分自身に不満でブチ切れてて、怒りを爆発させるように叫んでた。
 
-//[吐息を漏らす]//  実際、テク自体は大したことなかったんだ。それでも何というか、アイツの歌とプレイには惹き付けられる……いや違うな、「今目を離したら、こいつは死んじまうんじゃ無いか」と、そう思わせるくらいに鬼気迫るものがあった。
+//[吐息を漏らす]//  実際、テク自体は大したことなかったんだ。それでも何というか、アイツの歌とプレイには惹き付けられる……いや違うな、「今目を離したら、こいつは死んじまうんじゃ無いか」と、そう思わせるくらいに鬼気迫るものがあった。
 
 **AA:** その理由などは分かりますか。
 

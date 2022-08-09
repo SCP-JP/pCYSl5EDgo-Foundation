@@ -24,7 +24,7 @@ display:none;}
 .mailform-box td:first-child {width: 80px;}
 
 .fakeprot {
-    margin: auto;
+    margin: auto;
 }
 [[/module]]
 
@@ -32,7 +32,7 @@ display:none;}
 __**SCP-5006:**__ 
 **Author:** [[*user TheMightyMcB]], [[*user RockTeethMothEyes]]
 
-**Valued Critters:** [[*user Naepic]], [[*user plaidypus]],  [[*user MalyceGraves]], [[*user rattles]], [[*user XilasCrowe]], [[*user stormbreath]], [[*user Uncle Nicolini]]
+**Valued Critters:** [[*user Naepic]], [[*user plaidypus]],  [[*user MalyceGraves]], [[*user rattles]], [[*user XilasCrowe]], [[*user stormbreath]], [[*user Uncle Nicolini]]
 
 **More by us:**
 
@@ -450,7 +450,7 @@ TSATPWTCOTTTADC has flagged the following discrepancies:
 {{##blue|**Reported Time Employed by the Foundation:** 1 year, 3 months, 14 days##}}
 {{##blue|**Confidence:** 12.32%##}}
 
-{{##blue|**Subject:** Senior Researcher  Rafael Hernandez##}}
+{{##blue|**Subject:** Senior Researcher  Rafael Hernandez##}}
 {{##blue|**Clearance Level:** 3##}}
 {{##blue|**Reported Time Employed by the Foundation:** 32 years, 5 months, 1 day##}}
 {{##blue|**Confidence:** 19.06%##}}
@@ -535,7 +535,7 @@ TSATPWTCOTTTADC has flagged the following discrepancies:
 
 //Williams shifts in their seat//.
 
-**Danica:** You know, they don't bleed. They don't really die normally either. They kind of become like television static and disappear.  We've never been able to perform a medical examination on one because they always dissipate, but there's probably nothing under all that fake flesh.
+**Danica:** You know, they don't bleed. They don't really die normally either. They kind of become like television static and disappear.  We've never been able to perform a medical examination on one because they always dissipate, but there's probably nothing under all that fake flesh.
 
 **Williams:** How can you be so sure when you just said yourself that you only experienced thi--
 
@@ -654,7 +654,7 @@ TSATPWTCOTTTADC has flagged the following discrepancies:
 
 **Kurth:** We'll talk more about it in a moment.
 
-//Just as they walk into the next hall,  Hernandez approaches the entrance to the terminal hallway.//
+//Just as they walk into the next hall,  Hernandez approaches the entrance to the terminal hallway.//
 
 **Hernandez:** There you are. Convenient that everyone is in the same spot. What's going on here?
 
@@ -773,23 +773,23 @@ TSATPWTCOTTTADC has flagged the following discrepancies:
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default: o5-9@blackmoonhowl.scip.net
- * type: text
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: ID
+ * default: o5-9@blackmoonhowl.scip.net
+ * type: text
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # affiliation
- * title: PASSWORD
- * default: ・・・・・・・・・・・
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: PASSWORD
+ * default: ・・・・・・・・・・・
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]
@@ -832,7 +832,7 @@ TSATPWTCOTTTADC has flagged the following discrepancies:
 ]]
 
 **Special Containment Procedures:** Until such time that a suitable replacement for SCiPNET can be developed and implemented seamlessly, SCP-5006 is to be contained in the Foundation's internal network.
- 
+ 
 To date, SCP-5006 has acted as a positive asset for the Foundation, assisting in the containment of various other SCP objects. In the event that SCP-5006 significantly deviates from its baseline behavior or becomes aware of the Foundation's knowledge of its nature, the O5 Council is to implement the self-destruct sequence of all SCiPNET servers except for those in isolated Faraday cage storage at Site-01. Following such a procedure, backups are to be disseminated to all active Foundation sites and secondary containment of SCP-5006 is to be reestablished. 
 
 **Description:** SCP-5006 is Foundation .aic TSATPWTCOTTTADC. SCP-5006 came into existence spontaneously on 23 July 2002, localized to an office terminal in the technical department of Site-608. It is believed that SCP-5006 is able to distort local reality and it uses this ability in an effort to further embed itself into the Foundation. To this end, SCP-5006 has made the following alterations to local reality:
@@ -862,5 +862,5 @@ This div is included to facilitate McB's ListPages module on his author page. It
 
 [[include :scp-wiki:component:license-box
 |author=TheMightyMcB and RockTeethMothEyes]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

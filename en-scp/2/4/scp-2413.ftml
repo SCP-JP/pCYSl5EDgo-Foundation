@@ -18,15 +18,15 @@ display:none;}
 [[/module]]
 [[module css]]
 #side-bar {
-    background: rgb(var(--white-monochrome));
+    background: rgb(var(--white-monochrome));
 }
 
 #side-bar div.menu-item a, #side-bar div.menu-item .text {
-    color: rgb(var(--black-monochrome));
+    color: rgb(var(--black-monochrome));
 }
 
 #side-bar>div:nth-child(5) {
-    background-color: rgba(var(--dark-accent),0.25)!important;
+    background-color: rgba(var(--dark-accent),0.25)!important;
 }
 [[/module]]
 
@@ -66,10 +66,10 @@ SCP-2413-1実例は、当初の幻聴の終了後、創造的な作品に対し�
 <script type="text/javascript">
 function setVar()
 {
-    if (sessionStorage.read != 1)
-    {
-        sessionStorage.setItem('read', 1);
-    }
+    if (sessionStorage.read != 1)
+    {
+        sessionStorage.setItem('read', 1);
+    }
 }
 </script>
 </head>
@@ -78,7 +78,7 @@ function setVar()
 </html>
 
 <audio autoplay>
-  <source src="http://www.scp-wiki.net/local--files/scp-2413/thecritic.mp3" type="audio/mpeg">
+  <source src="http://www.scp-wiki.net/local--files/scp-2413/thecritic.mp3" type="audio/mpeg">
 </audio>
 
 [[/html]]

@@ -9,61 +9,61 @@ Fadeout Page-Contents
 /*== variables ==*/
 .fadeout-wrapper {
 
-  /* 背景色 (デフォルトではwhite) */
-  --fadeout-background: white;
+  /* 背景色 (デフォルトではwhite) */
+  --fadeout-background: white;
 
-  /* フェードアウトにかかる時間 */
-  --fadeout-time: 16s;
+  /* フェードアウトにかかる時間 */
+  --fadeout-time: 16s;
 
-  /* 切り抜き済みのヘッダー(ヘッダー下部の影をキャンセルします)
-      Sigma9(通常のテーマ)以外のテーマを使用する場合、この変数のURLを変更してください。 */
-  --cropped-header: url(http://smlt.wdfiles.com/local--files/ukwhatn:fadeout/header-crop.png);
+  /* 切り抜き済みのヘッダー(ヘッダー下部の影をキャンセルします)
+      Sigma9(通常のテーマ)以外のテーマを使用する場合、この変数のURLを変更してください。 */
+  --cropped-header: url(http://smlt.wdfiles.com/local--files/ukwhatn:fadeout/header-crop.png);
 
 }
 
 /*== BASE CODE ==*/
 
 div#container-wrap {
-  background: url(http://smlt.wdfiles.com/local--files/ukwhatn:fadeout/header-crop.png) top left repeat-x;
+  background: url(http://smlt.wdfiles.com/local--files/ukwhatn:fadeout/header-crop.png) top left repeat-x;
 }
 
-.fadeout-wrapper  {
-  position: relative;
-  overflow: hidden;
+.fadeout-wrapper  {
+  position: relative;
+  overflow: hidden;
 }
 
 .fadeout-wrapper .cover{
-  width: 100%;
-  height: 200%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 2;
-  background: white;
-  color: transparent;
-  animation: cover-anim var(--fadeout-time) linear 0s 1 forwards;
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  background: white;
+  color: transparent;
+  animation: cover-anim var(--fadeout-time) linear 0s 1 forwards;
 }
 
 @keyframes cover-anim {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .fadeout-wrapper .escape {
-  position: relative;
-  display: inline-block;
-  z-index: 30;
+  position: relative;
+  display: inline-block;
+  z-index: 30;
 }
 
 .fadeout-wrapper .fadein-img img{
-  position: relative;
-  z-index: 3;
-  opacity: 0;
-  animation: cover-anim var(--img-fadein-time) linear var(--img-fadein-delay) 1 forwards;
+  position: relative;
+  z-index: 3;
+  opacity: 0;
+  animation: cover-anim var(--img-fadein-time) linear var(--img-fadein-delay) 1 forwards;
 }
 
 [[/module]]
@@ -123,7 +123,7 @@ SCP-1867-JPは2011年まで遺骸の出現のみ報告されていましたが�
 |width=200px]]
 
 **補遺:** 現時点でSCP-1867-JPによる利用が確認されている具体的な道具としては、鉄・銅・亜鉛およびそれらの合金で形成された銃器、黒色火薬に近い物質で形成された爆発物が挙げられます。また、金や銀などの貴金属・黄銅鉱や重晶石などの鉱物[[footnote]]いずれも鉱脈から得られる金属や鉱物である。日本では北海道から中部地方にかけて主に日本海側に分布する黒鉱から採取される。佐渡金山を生んだ鉱脈は約2000万年前に地下の熱水活動で生じたとされる。[[/footnote]]・別種の鳥類の羽毛を用いた装飾品を身に着けた個体も確認されており、雄個体に多く見られます。これらの道具類・装飾品類は金属あるいは爬虫類の革などを用いて装着されていますが、哺乳類の革を用いた例は確認されていません。寺澤研究員による提言を以下に抜粋します。
- 
+ 
 > SCP-1867-JPは金属の精錬加工に代表される十分発達した技術を持ち、またそれらをアクセサリーに転用する文化が育まれていた、ということの何よりの証左が得られています。その一方で、侵略行動に際して爆轟性爆発物や大型重機などを投入しておらず、技術水準は我々で言う産業革命前夜の段階にあるのではないかと思われます。示唆される彼らの文明の制約は、出自や行動を推測する上で熟慮すべき点と考えます。
 > 
 > そしてもう一つ重要だと考えられるものが形質。形態情報と分子情報です。分子系統を過信するわけではありませんが、彼らは約4500万年前に既知の系統から枝分かれしていながら、化石はどの時代にもない──少なくとも今は特定できません。独特な形状をした趾骨は、進化の歴史に残らなかった未発見の種とは考えにくい変異を示しています。既知の異常存在を含めても、地球上にこのような進化を遂げた鳥類は見られません。

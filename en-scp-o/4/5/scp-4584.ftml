@@ -187,7 +187,7 @@ Following the start of ("PROJECT HYPNOS"), a meeting held with all research memb
 = **[[size 150%]]{{Cryowave Testing}}[[/size]]**
 
 ||~ Subject & Test N° ||~ Procedures Taken/Changed ||~ Result ||
-||= Test 1: D-2251 ||  D-2251 was not given an adequate amount of sleep prior to testing. Personnel were to inject DREM-01[[footnote]]A fluid containing mainly Propofol. While normally used during surgery, Propofol is being used in this aspect to allow for SCP-4584 testing, as it induces conscious sedation.[[/footnote]] into the subject. || D-2251 appeared in a quasi projected state, having trouble maintaining a stable frequency even after initial stabilization. D-2251 proceeded to have cortical spreading depolarizations[[footnote]]A spreading loss of ion homeostasis, altered vascular response, change in synaptic architecture, and subsequent depression in electrical activity following an inciting neurological injury.[[/footnote]] and expired midtest due to severe neurological injury. ||
+||= Test 1: D-2251 ||  D-2251 was not given an adequate amount of sleep prior to testing. Personnel were to inject DREM-01[[footnote]]A fluid containing mainly Propofol. While normally used during surgery, Propofol is being used in this aspect to allow for SCP-4584 testing, as it induces conscious sedation.[[/footnote]] into the subject. || D-2251 appeared in a quasi projected state, having trouble maintaining a stable frequency even after initial stabilization. D-2251 proceeded to have cortical spreading depolarizations[[footnote]]A spreading loss of ion homeostasis, altered vascular response, change in synaptic architecture, and subsequent depression in electrical activity following an inciting neurological injury.[[/footnote]] and expired midtest due to severe neurological injury. ||
 ||= Test 2: D-5251 || D-5251 was given an adequate amount of sleep prior to testing. || D-5251 maintained a stable projected state, interacting with objects inside SCP-4584-1. D-5251 preserved this state for ~5 hours. D-5251 suffered no injuries but was later found to not be within a REM sleep state at the time of testing (due to a slight overdosing of DREM-01). ||
 ||= Test 15: D-6982 || Previous procedures were applied. || 30 minutes into testing, SCP-4584-1 was forcibly shut down. This was later found to be caused by the module for the built-in neural gear short-circuiting due to technical errors, destroying the energy cell and frequency emitter for SCP-4584-1. ||
 ||= Test 23: D-7132 || Previous procedures were applied. || D-7132 maintained a projected stated for ~7 hours before being ejected. D-7132 suffered heavy neurological injury, developing aphantasia.[[footnote]]Aphantasia is the inability to mentally recreate sensory experiences.[[/footnote]] ||
@@ -451,7 +451,7 @@ On 7/23/2025, Reid Chase was found on his desk unconscious in the ("PROJECT HYPN
 ----
 **Addendum 4584-6:** Final Meeting
 
-Due to unsatisfactory results over a period of several months,  ("PROJECT HYPNOS") was officially discontinued on 9/31/2025. The following is a final meeting transcript held on the same date.
+Due to unsatisfactory results over a period of several months,  ("PROJECT HYPNOS") was officially discontinued on 9/31/2025. The following is a final meeting transcript held on the same date.
 
 > [[=]]
 > **("PROJECT HYPNOS")**
@@ -647,20 +647,20 @@ Following the recent observation of Chase within SCP-4584, the Foundation instig
 
 [[module CSS]]
 .note {
- background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/SCP_icon%281%29.png) top
- right no-repeat;
- color: black;
- letter-spacing: 0.02em;
- float: center;
- border: solid 1px #000000;
- padding: 25px 35px 35px 35px !important;
- box-shadow: 0 1px 3px rgba(0,0,0,.2);
- width: 74%;
- margin: 2% 4% 4% 4%;
+ background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/SCP_icon%281%29.png) top
+ right no-repeat;
+ color: black;
+ letter-spacing: 0.02em;
+ float: center;
+ border: solid 1px #000000;
+ padding: 25px 35px 35px 35px !important;
+ box-shadow: 0 1px 3px rgba(0,0,0,.2);
+ width: 74%;
+ margin: 2% 4% 4% 4%;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 
 blockquote {
@@ -674,5 +674,5 @@ padding: 12px;
 [[/module]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

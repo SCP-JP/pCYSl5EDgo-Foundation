@@ -21,7 +21,7 @@ width: 20%
 }
 </style>
 
-<!-- STEP ONE: Copy this code into the HEAD of your HTML document  -->
+<!-- STEP ONE: Copy this code into the HEAD of your HTML document  -->
 
 <SCRIPT LANGUAGE = "JavaScript">
 
@@ -78,9 +78,9 @@ dnum2=0;
 document.getElementById("dbox").value= dstring.substring(dnum1, dnum2);
 }
 
-function create(form) {        
+function create(form) {        
 
-if (confirm("警告: 不正な記事の作成は懲戒処分となります。私はここにこの警告が必要無い事を望みます。本当にもう、“J”分類の記事には辟易しています。 ")) {        
+if (confirm("警告: 不正な記事の作成は懲戒処分となります。私はここにこの警告が必要無い事を望みます。本当にもう、“J”分類の記事には辟易しています。 ")) {        
 
 window.alert("エラーコード: 35720. あなたが自分で何かをすると、十中八九事態を悪化させます。テクニカルサポートまでお問い合わせください。");
 
@@ -99,7 +99,7 @@ window.alert("エラーコード: 35720. あなたが自分で何かをすると
 
 
 
-<!-- STEP TWO: Put this code into the BODY of your HTML document  -->
+<!-- STEP TWO: Put this code into the BODY of your HTML document  -->
 
 
 <FONT FACE="Verdana" size=2>
@@ -112,11 +112,11 @@ window.alert("エラーコード: 35720. あなたが自分で何かをすると
 </p><p>
 <b>オブジェクトクラス:</b>
 <select>
-  <option value="safe">Safe</option>
-  <option value="euclid">Euclid</option>
-  <option value="keter">Keter</option>
-  <option value="neutralised">Neutralised</option>
-  <option value="Other">Other（その他）</option>
+  <option value="safe">Safe</option>
+  <option value="euclid">Euclid</option>
+  <option value="keter">Keter</option>
+  <option value="neutralised">Neutralised</option>
+  <option value="Other">Other（その他）</option>
 </select> 
 </p><p>
 <b>特別収容プロトコル:</b>
@@ -147,7 +147,7 @@ window.alert("エラーコード: 35720. あなたが自分で何かをすると
 
 
 
-<!-- Script Size:  3.09 KB  -->
+<!-- Script Size:  3.09 KB  -->
 
 
 

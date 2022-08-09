@@ -1,104 +1,104 @@
 [[include :scp-wiki:theme:blankstyle]]
 [[module css]]
 body{
-    --barColour: #3648a3;
+    --barColour: #3648a3;
 }
 
 :root{
-  --header-title: "SCP財団";
-  --header-subtitle: "確保、収容、保護";
+  --header-title: "SCP財団";
+  --header-subtitle: "確保、収容、保護";
 }
 
 #header h1 a:before {
-    font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 div#extra-div-1 {
-    background-image: url(https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/nb_logo_blk.svg);
-    filter: opacity(30%);
+    background-image: url(https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/nb_logo_blk.svg);
+    filter: opacity(30%);
 }
 
 .meta-title {
-  border-bottom: solid 1px #bbbbbb;
-  color: #990011;
-  font-weight: normal;
-  margin: 0 0 0.6em;
-  padding: 0 0 0.25em;
-  font-size: 200%;
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
 }
 
 .meta-title p {
-  margin: 0;
+  margin: 0;
 }
 
 .body-text {
-    margin: 2% 5% 2% 5%;
-    padding: 5px 20px 5px 20px;
-    background-color: #f2f2f2;
-    color: #111;
+    margin: 2% 5% 2% 5%;
+    padding: 5px 20px 5px 20px;
+    background-color: #f2f2f2;
+    color: #111;
 }
 
 .quote-text {
-    display: inline-block;
-    border:dashed 1px #999999;
-    background:#F5F5F5;
-    float:center;
-    width:84%;
-    padding:1px 15px;
-    margin: 10px 10px 10px 30px
+    display: inline-block;
+    border:dashed 1px #999999;
+    background:#F5F5F5;
+    float:center;
+    width:84%;
+    padding:1px 15px;
+    margin: 10px 10px 10px 30px
 }
 
 @media only screen and (max-width: 600px) {
 
-    .body-text {
-        margin: 0% 4% 0% 4%;
-    }
+    .body-text {
+        margin: 0% 4% 0% 4%;
+    }
 
-    .quote-text {
-        margin: 10px 20px 10px 20px;
-    }
+    .quote-text {
+        margin: 10px 20px 10px 20px;
+    }
 
 }
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Elenee FishTruck";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
-    line-height: 2.75ex;
+    --wght: 800;
+    content: "Elenee FishTruck";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 2.75ex;
 }
 [[/module]]
 

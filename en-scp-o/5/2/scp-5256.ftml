@@ -1,15 +1,15 @@
 [[module CSS]]
 sup {
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 :root {
-    --cutColour: #fafafa;
-    --barColour: #590505;
+    --cutColour: #fafafa;
+    --barColour: #590505;
 }
 a.collapsible-block-link {
-  font-weight: bold;
+  font-weight: bold;
 }
 .translation_block, .u-faq { display: none; }
 }
@@ -19,65 +19,65 @@ color: #fff;}
 color: #fff;
 }
 #page-title {
-    text-align: center;
+    text-align: center;
 }
 .scp-image-block {
-  border: solid 1px #000000;
+  border: solid 1px #000000;
 }
 .scp-image-block .scp-image-caption {
-  background-color: #00000;
-  border-top: solid 1px #000000;
-  color: #fff;
+  background-color: #00000;
+  border-top: solid 1px #000000;
+  color: #fff;
 }
 .scp-image-block .scp-image-caption {
-     background-color: #000000;
-     border-top: solid 1px #666;
-     padding: 2px 0;
-     font-size: 80%;
-     font-weight: bold;
-     text-align: center;
-     width: 300px;
-     text-color: #fff;
+     background-color: #000000;
+     border-top: solid 1px #666;
+     padding: 2px 0;
+     font-size: 80%;
+     font-weight: bold;
+     text-align: center;
+     width: 300px;
+     text-color: #fff;
 }
- .scp-image-block > p {
-     margin: 0;
+ .scp-image-block > p {
+     margin: 0;
 }
- .scp-image-block .scp-image-caption > p {
-     margin: 0;
-     padding: 0 10px;
+ .scp-image-block .scp-image-caption > p {
+     margin: 0;
+     padding: 0 10px;
 }
 #page-content > .collapsible-block {
-    display: block;
-    text-align: center;
-    padding: 0.65em;
+    display: block;
+    text-align: center;
+    padding: 0.65em;
 }
 #page-content > .collapsible-block .collapsible-block-content {
-    text-align: left;
+    text-align: left;
 }
 .lie{
-     font-weight: bold;
-     font-family: monospace;
-     font-size: 140%;
+     font-weight: bold;
+     font-family: monospace;
+     font-size: 140%;
 }
 .list{
-    background: #f4f4f4;
-    padding: 0 1em;
+    background: #f4f4f4;
+    padding: 0 1em;
 }
 .info-container .collapsible-block-link,
 .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 @media (max-width: 2000px) {
-    .desktop-only {
-     display: none;
-     visibility: hidden;
+    .desktop-only {
+     display: none;
+     visibility: hidden;
 }
 .footnotes-footer {
-    border: solid 1.5px #000000;
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 0 2px 6px rgba(102,0,0,.5);
-    background: #fff;
+    border: solid 1.5px #000000;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    background: #fff;
 }
 [[/module]]
 [[include :scp-wiki:component:pride-highlighter |inc-s9-pan-alt= --]]]

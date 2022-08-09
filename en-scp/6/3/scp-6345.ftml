@@ -6,7 +6,7 @@
 [[/div]]
 
 [[module CSS]]
-  .footnoteref{ font-variant: unset; }
+  .footnoteref{ font-variant: unset; }
 [[/module]]
 
 [[include :scp-wiki:component:info-ayers
@@ -15,41 +15,41 @@
 |authorPage=http://www.scp-wiki.net/dr-dune-s-personnel-file
 |comments=
 = **SCP-6345** - ウェソス・マロス
- 
+ 
 -----
 x
 -----
- 
+ 
 = **Image Credits**
- 
+ 
 ]]
 [[module CSS]]
 sup {
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 
 :root {
-    --cutColour: #fafafa;
-    --barColour: #590505;
+    --cutColour: #fafafa;
+    --barColour: #590505;
 }
 
 .translation_block {
-    display: none;
+    display: none;
 }
 
 .info-container .collapsible-block-folded a {
-    color: #FFF;
+    color: #FFF;
 }
 
 .info-container .collapsible-block-unfolded-link a {
-    color: #FFF;
+    color: #FFF;
 }
 
 .info-container .collapsible-block-link,
 .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 [[/module]]
 [[include :scp-wiki:theme:black-highlighter-theme]]
@@ -283,7 +283,7 @@ SCP-6345がレスラーの1人 “ラプター” をロープ越しに放り出
 **説明:** 報告書によると、イダルゴ州のバー “ザ・スポット” において、1人の成人男性が繰り返し女性にハラスメントを行い、好ましくない注意を払っていました。SCP-6345はこれを目撃し、男性を暴行しました。複数の目撃者が2人を引き離そうとしたものの、SCP-6345はこれを撃退しました。バーの外に出たSCP-6345は、ハラスメント男性に着火する目的でライターを振り回し、誤って電柱を破損しました。数名の常連客がSCP-6345に負わされた怪我で入院しました。
 ----
 **証拠の種類:** 証言
-**回答者:** 独立系プロレスプロモーター  セバスティアン・ランパルト
+**回答者:** 独立系プロレスプロモーター  セバスティアン・ランパルト
 **事件発生日:** 2016/03/28
 **説明:** SCP-6345がチャリティー・プロレス興行で売店の利益を盗んだという証言。
 > “ 奴は人間のクズだ。試合の1週間ぐらい前に、大型ゴミ容器の中で、高尚な文学作品か何かみたいにポルノ雑誌を読んでるのを見つけた。金に不自由してるのは知ってたが、あそこまで酷いとは思ってなかったよ。俺たちはあいつに助けの手を差し伸べたんだぜ。ウチに所属してるフェイスたち[[footnote]]観客から“善玉”と認識されるべきキャラクターを指すプロレス用語。これに対して“悪役”は“ヒール”と呼称されます。[[/footnote]]が寄ってたかってウェソスを叩きのめす試合なら、きっと大勢観客が詰め掛けると思ったからな。ウェソスはごく少額で同意したから、俺たちは対戦カードを組み直して奴が入る余地を作った。チャリティー試合だから、プロレス好きの子供たちも観戦に来た - つまりウェソスが//大嫌いな//子供たちだ。ウェソスは実際、試合に参加して、ボコボコにされて負けた。その時、病気の子供たちの1人がリングに飛び上がって、剣道の竹刀で奴をひっぱたいたんだ。まぁな、試合中に変な事をしでかさなかった時点で、何かおかしいと思うべきだったかもしれない。俺たちが後片付けを終えるや否や、ウェソスは屋台の売り上げを全部入れてた箱と一緒に雲隠れしやがったんだ。あれはチャリティー試合だったってのに。 ”

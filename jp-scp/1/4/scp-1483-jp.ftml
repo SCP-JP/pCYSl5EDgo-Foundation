@@ -4,31 +4,31 @@
 
 [[module css]]
 #u-change{
-    display:none;
+    display:none;
 }
 
 #u-change ~ .changearea .a,#u-change:target ~ .changearea .b{
-    display:inline;
+    display:inline;
 }
 
 #u-change:target ~ .changearea blockquote{
-    display:block;
+    display:block;
 }
 
 #u-change:target ~ .changearea .table{
-    display:table-row-group;
+    display:table-row-group;
 }
 
 #u-change ~ .changearea #u-2,#u-change:target ~ .changearea #u-1{
-    display:none;
+    display:none;
 }
 
 #u-change ~ .changearea #u-1,#u-change:target ~ .changearea #u-2{
-    display:inline;
+    display:inline;
 }
 
-#u-change:target ~ .changearea .a,#u-change ~  .changearea .b,#u-change ~  .changearea blockquote,#u-change ~  .changearea .table{
-    display:none;
+#u-change:target ~ .changearea .a,#u-change ~  .changearea .b,#u-change ~  .changearea blockquote,#u-change ~  .changearea .table{
+    display:none;
 }
 
 [[/module]]
@@ -93,7 +93,7 @@ __**カウンセリング記録1483**__
 > **内容:** 対象Bにインタビューを実施、SCP-1483-JPの内容を調査。
 > 
 > [[collapsible show="インタビュー記録1483-JP-B" hide="インタビュー記録を閉じる"]]
->  **対象:** 対象B
+>  **対象:** 対象B
 > 
 > **インタビュアー:** カウンセラー
 > 
@@ -213,7 +213,7 @@ __**インタビュー記録1483-1**__
 > 
 > (対象Cが身体を起こす。)
 > 
-> **SCP-1483-JP-A:** ああお嬢さん  目覚めたらまず 我の話を 聞きなさい (中略) 今宵貴女に 闇夜の力 欲するのなら 授けよう 。
+> **SCP-1483-JP-A:** ああお嬢さん  目覚めたらまず 我の話を 聞きなさい (中略) 今宵貴女に 闇夜の力 欲するのなら 授けよう 。
 > 
 > **██博士:** こんばんは。
 > 
@@ -251,7 +251,7 @@ __**インタビュー記録1483-21**__
 > 
 > **内容:** ██氏のSCP-1483-JPの影響を調べるためにインタビューを実施。
 > 
->  **対象:** █氏
+>  **対象:** █氏
 > 
 > **インタビュアー:** ██研究員
 > 
@@ -334,7 +334,7 @@ SCP-1483-JPの影響を受けていないと思われていた██氏ですが
 > 
 > **██研究員:** やはり、あなたはこちらの存在を把握しているのですね。
 > 
-> **SCP-1483-JP-A:** 我は此の世の  統率者なり 全てを掴む 我がこの手 。
+> **SCP-1483-JP-A:** 我は此の世の  統率者なり 全てを掴む 我がこの手 。
 > 
 > **██研究員:** 率直に聞きます。あなたは██氏が生み出した「魔王」のキャラクターですね。
 > 

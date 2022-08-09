@@ -4,70 +4,70 @@
 
 [[module CSS]]
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* black shadow at the top of the terminal */
-    background-image: 
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -83,15 +83,15 @@ content: "> ";
 ]]
 
 [[include component:image-block
-    name=nebula.jpg|
-    caption=An image of the nebula from which SCP-4592 originates, taken by Foundation satellite Pioneer-9
+    name=nebula.jpg|
+    caption=An image of the nebula from which SCP-4592 originates, taken by Foundation satellite Pioneer-9
 ]]
 
 **Special Containment Procedures:** All recent media is to be scanned for references to SCP-4592. Any media containing a reference to SCP-4592 is to be removed from circulation and archived. 
 
 Any individual claiming to have experienced SCP-4592 or something similar is to be taken in for questioning and amnesticized.
 
-Foundation Satellite Pioneer-9 is to be permanently stationed around the SCP-4592 nebula. It is to be constantly emitting signal-jamming radio waves to deter the detection of the nebula, as well as tracking the movement of the nebula.  
+Foundation Satellite Pioneer-9 is to be permanently stationed around the SCP-4592 nebula. It is to be constantly emitting signal-jamming radio waves to deter the detection of the nebula, as well as tracking the movement of the nebula.  
 
 **Description:** SCP-4592 is a phenomenon --of unknown origin or source-- that manifests in the vacuum of space. This phenomenon takes the form of music. This music can only be heard when an individual is physically exposed to the vacuum of space, hence, it cannot be heard from within a functional space suit or spacecraft. 
 

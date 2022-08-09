@@ -5,128 +5,128 @@
 
 [[module CSS]]
 /* HEADER */
- :root{
-     --header-title: "AD ASTRA PER ASPERA";
-     --header-subtitle: "To the Stars Through Hardship";
-     --titleColor: hsl(0, 0%, 93%);
-     --subtitleColor: hsl(34, 100%, 75%);
-     --lgurl: url(https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/tg_logo_blk.svg);
+ :root{
+     --header-title: "AD ASTRA PER ASPERA";
+     --header-subtitle: "To the Stars Through Hardship";
+     --titleColor: hsl(0, 0%, 93%);
+     --subtitleColor: hsl(34, 100%, 75%);
+     --lgurl: url(https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/tg_logo_blk.svg);
 
-   /* ---- BETTERFOOTNOTES ---- */
-     --posX: calc(50% - 358px - 13rem);
-     --fnLinger: 1.5s;
-     --fnColor: hsl(40, 100%, 62%);
+   /* ---- BETTERFOOTNOTES ---- */
+     --posX: calc(50% - 358px - 13rem);
+     --fnLinger: 1.5s;
+     --fnColor: hsl(40, 100%, 62%);
 }
- #header h1 a::before{
-     text-shadow: 4px 4px 4px hsla(0, 0%, 0%, .8);
+ #header h1 a::before{
+     text-shadow: 4px 4px 4px hsla(0, 0%, 0%, .8);
 }
- #header h2::before{
-     text-shadow: 3px 3px 3px hsla(0, 0%, 0%, .9);
+ #header h2::before{
+     text-shadow: 3px 3px 3px hsla(0, 0%, 0%, .9);
 }
- #header h1 a::before,
- #header h2::before{
-     font-family: "Exo", sans-serif;
+ #header h1 a::before,
+ #header h2::before{
+     font-family: "Exo", sans-serif;
 }
- #page-title{
-     display: none;
+ #page-title{
+     display: none;
 }
- .meta-title{
-     color: hsl(33, 100%, 69%);
-     border-color: hsl(34, 100%, 75%);
+ .meta-title{
+     color: hsl(33, 100%, 69%);
+     border-color: hsl(34, 100%, 75%);
 }
 
 /* SIDE-BAR */
- #top-bar .open-menu a{
-     color: hsl(33, 100%, 69%);
-     background: hsl(214, 48%, 12%);
-     border-color: hsl(33, 100%, 69%);
+ #top-bar .open-menu a{
+     color: hsl(33, 100%, 69%);
+     background: hsl(214, 48%, 12%);
+     border-color: hsl(33, 100%, 69%);
 }
 
 /* INFO BAR */
- .info-container{
-     --barColour: hsl(353, 52%, 24%);
-     --linkColour: hsl(33, 100%, 69%);
+ .info-container{
+     --barColour: hsl(353, 52%, 24%);
+     --linkColour: hsl(33, 100%, 69%);
 }
 
 /* FLOPS HEADER */
- .itemInfoHeading{
-     color: hsl(33, 100%, 69%);
+ .itemInfoHeading{
+     color: hsl(33, 100%, 69%);
 }
 
 /* ---- BETTERFOOTNOTES ---- */
- .fnnum{
-     font-size: .95em;
+ .fnnum{
+     font-size: .95em;
 }
- .fncon{
-     background: hsl(215, 48%, 20%);
-     border-color: hsl(33, 100%, 69%);
+ .fncon{
+     background: hsl(215, 48%, 20%);
+     border-color: hsl(33, 100%, 69%);
 }
- .fncon::before{
-     color: black;
+ .fncon::before{
+     color: black;
 }
- .fnnum:hover + .fncon{
-     right: calc(-8vw - 4rem);
+ .fnnum:hover + .fncon{
+     right: calc(-8vw - 4rem);
 }
 
 /* TABLES */
- .attachment table.wiki-content-table tr th{
-     font-family: var(--mono-font);
-     font-size: 150%;
+ .attachment table.wiki-content-table tr th{
+     font-family: var(--mono-font);
+     font-size: 150%;
 }
 
 /* COLLAPSIBLE BLINK */
- .collapsible-block-link{
-     font-family: var(--mono-font);
-     font-size: 1.365em;
+ .collapsible-block-link{
+     font-family: var(--mono-font);
+     font-size: 1.365em;
 }
- #page-content .collapsible-block-folded a.collapsible-block-link{
-     animation: blink .8s ease-in-out infinite alternate;
+ #page-content .collapsible-block-folded a.collapsible-block-link{
+     animation: blink .8s ease-in-out infinite alternate;
 }
- @keyframes blink{
-     0%{
-        color: transparent;
-    }
-     50%, 100%{
-        color: hsl(33, 100%, 69%);
-    }
+ @keyframes blink{
+     0%{
+        color: transparent;
+    }
+     50%, 100%{
+        color: hsl(33, 100%, 69%);
+    }
 }
- .h-span.fakeCollapsible{
-     font-family: var(--mono-font);
-     font-size: 1.365em;
-     letter-spacing: .3px;
+ .h-span.fakeCollapsible{
+     font-family: var(--mono-font);
+     font-size: 1.365em;
+     letter-spacing: .3px;
 }
 
 /* DIV BLOCKS */
- .o5{
-     width: 85%;
-     margin: 1em 5% 5%;
-     padding: 1em;
+ .o5{
+     width: 85%;
+     margin: 1em 5% 5%;
+     padding: 1em;
 
-     background: hsl(220, 47%, 18%) url(https://scp-wiki.wdfiles.com/local--files/scp-4790/o5-command-trans.png) center no-repeat;
-     border: 1px solid hsl(33, 100%, 69%);
+     background: hsl(220, 47%, 18%) url(https://scp-wiki.wdfiles.com/local--files/scp-4790/o5-command-trans.png) center no-repeat;
+     border: 1px solid hsl(33, 100%, 69%);
 
-     font-family: var(--mono-font);
-     font-size: 120%;
+     font-family: var(--mono-font);
+     font-size: 120%;
 }
- .o5 hr{
-     border-top-color: hsl(33, 100%, 69%);
+ .o5 hr{
+     border-top-color: hsl(33, 100%, 69%);
 }
- .blockquote.forget{
-     display: inline-block;
-     width: 50%;
-     margin: 5em 0;
+ .blockquote.forget{
+     display: inline-block;
+     width: 50%;
+     margin: 5em 0;
 }
 
 /* FOOTING */
- .footing,
- .footing::before{
-     border-color: hsl(34, 100%, 75%);
+ .footing,
+ .footing::before{
+     border-color: hsl(34, 100%, 75%);
 }
 
 /* LICENSEBOX */
- .licensebox .collapsible-block-link{
-     animation: none !important;
-     color: hsl(40, 100%, 62%);
+ .licensebox .collapsible-block-link{
+     animation: none !important;
+     color: hsl(40, 100%, 62%);
 }
 [[/module]]
 
@@ -137,7 +137,7 @@
 |comments=[[span class="h-span"]]SCP-4790:[[/span]] Do not go gentle into that good night. 
 [[span class="h-span"]]Author:[[/span]] [[*user Lt Flops]] 
 [[span class="h-span"]]Published on 1 Aug 2019[[/span]] 
- 
+ 
 This article is set in the [[span class="h-span"]][*/ad-astra-per-aspera-hub Ad Astra Per Aspera][[/span]] Canon. 
 ----
 [[include :scp-wiki:more-by:lt-flops]]
@@ -275,14 +275,14 @@ By order of the O5, all communications data on-board //Chekhov-.009// has been e
 @@ @@
 
 [[table style="width: 100%;"]]
-  [[row]]
-    [[cell style="width: 70%;"]]
-    [[/cell]]
-    [[cell style="width: 30%;"]]
+  [[row]]
+    [[cell style="width: 70%;"]]
+    [[/cell]]
+    [[cell style="width: 30%;"]]
 --O5-7
 //OVERWATCH COUNCIL//
-    [[/cell]]
-  [[/row]]
+    [[/cell]]
+  [[/row]]
 [[/table]]
 [[/div]]
 

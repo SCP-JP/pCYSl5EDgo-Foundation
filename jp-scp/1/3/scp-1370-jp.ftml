@@ -1,12 +1,12 @@
 [[module CSS]]
 @Media (max-width: 768px) {
-  .scp-image-block.block-right,
-  .scp-image-block.block-left {
-    float: none;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  .scp-image-block.block-right,
+  .scp-image-block.block-left {
+    float: none;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 [[/module]]
 [[include credit:start]]
@@ -250,58 +250,58 @@ min-height: 116px;
 }
 
 table.heritage {
-  border: 0;
-  padding: 0;
-  margin: 0 auto;
-  width: 700px;
-  border-spacing: 0;
-  border-collapse: separate;
+  border: 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 700px;
+  border-spacing: 0;
+  border-collapse: separate;
 }
 
 table.heritage td {
-  vertical-align: top;
+  vertical-align: top;
 }
 
 table.heritage td.title,
 table.heritage td.label {
-  border-right: solid 1px #999;
-  font-size: 10pt;
-  width: 120px;
-  text-align: right;
-  padding-right: 10px;
+  border-right: solid 1px #999;
+  font-size: 10pt;
+  width: 120px;
+  text-align: right;
+  padding-right: 10px;
 }
 
 table.heritage td.label {
-  font-size: 20pt;
+  font-size: 20pt;
 }
 
 table.heritage td.title {
-  padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 table.heritage td.label {
-  font-weight: bold;
+  font-weight: bold;
 }
 
 table.heritage td.entry {
-  padding: 1px 0 10px 10px;
+  padding: 1px 0 10px 10px;
 }
 
 table.heritage div.description {
-  font-size: 14pt;
+  font-size: 14pt;
 }
 table.heritage div.snippet {
-  font-size: 10pt;
+  font-size: 10pt;
 }
 table.heritage div.date {
-  font-weight: normal;
-  font-size: 10pt;
+  font-weight: normal;
+  font-size: 10pt;
 }
 table.heritage div.snippet p {
-  margin: 0px 0;
+  margin: 0px 0;
 }
 table.heritage div.description p,
 table.heritage div.date p {
-  margin: 0;
+  margin: 0;
 }
 
 @media (max-width: 599px) {

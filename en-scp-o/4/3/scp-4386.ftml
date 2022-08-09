@@ -73,68 +73,68 @@ opacity: 1;
 }
 
 .errorrep {
-    border: 1px solid black;
+    border: 1px solid black;
 }
 
 .errorrep>.errorname {
-    margin-left: 1em;
+    margin-left: 1em;
 }
 
 .errorname h2 {
-    font-weight: normal;
+    font-weight: normal;
 }
 
 .errorname .errornum {
-    color: #8c8c8c;
+    color: #8c8c8c;
 }
 
 .errorrep>.errordets {
-    margin-left: 1em;
+    margin-left: 1em;
 }
 
 .bugbox {
-    background-color: #fff;
-    border: 1px solid #d1d5da;
-    border-radius: 3px;
-    margin: 15px;
+    background-color: #fff;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    margin: 15px;
 }
 
 .bugbox>blockquote {
-    margin: 0;
-    background: none;
-    border: 0;
-    box-shadow: none;
+    margin: 0;
+    background: none;
+    border: 0;
+    box-shadow: none;
 }
 
 .bugheader {
-    background-color: #f6f8fa;
-    border-bottom: 1px solid #d1d5da;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    color: #586069;
-    padding-left: 15px;
-    padding-right: 15px;
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #d1d5da;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #586069;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .bugheader>p {
-    margin:0;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin:0;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .closedsign {
-    background: #cb2431;
-    color: #fff;
-    font-weight: bold;
-    padding: 4px 15px;
-    margin-right: 8px;
-    border-radius: 4px;
+    background: #cb2431;
+    color: #fff;
+    font-weight: bold;
+    padding: 4px 15px;
+    margin-right: 8px;
+    border-radius: 4px;
 }
 
 .warrenlog blockquote {
-    border: none;
-    font-family: monospace;
-    background: #f6f8fa;
+    border: none;
+    font-family: monospace;
+    background: #f6f8fa;
 }
 [[/module]]
 
@@ -163,9 +163,9 @@ The simulation hosted on SCP-4386-01 is to be policed by the assigned CyTF, and 
 
 The six components are as follows:
 * **SCP-4386-01:** A network of 55 interlinked computer and medical systems consisting of:
- * 1 single cylindrical relay station that dominates the center of the cavern, measuring 15.3m in height, and 7.1m in diameter.
- *  46 interconnected parallel data processing units of custom design, connecting into the relay station. Each provides a terminal to allow interaction with the entire SCP-4386-01 array.
- * 8 sub-stations that resemble standard operating tables, surrounding the relay station. Each is connected to the relay station by numerous cables, tubes and intravenous devices set in place to supply necessary nutrition and nourishment to any humans residing on the sub-station tables. As of 20██-09-01, SCP-4386-02 through 05 currently occupy 4 of the sub-stations. The remaining 4 are unoccupied.
+ * 1 single cylindrical relay station that dominates the center of the cavern, measuring 15.3m in height, and 7.1m in diameter.
+ *  46 interconnected parallel data processing units of custom design, connecting into the relay station. Each provides a terminal to allow interaction with the entire SCP-4386-01 array.
+ * 8 sub-stations that resemble standard operating tables, surrounding the relay station. Each is connected to the relay station by numerous cables, tubes and intravenous devices set in place to supply necessary nutrition and nourishment to any humans residing on the sub-station tables. As of 20██-09-01, SCP-4386-02 through 05 currently occupy 4 of the sub-stations. The remaining 4 are unoccupied.
 
 * **SCP-4386-02:** A biologically male human, estimated to be ██ years old. Currently resides on the 1st sub-station of SCP-4386-01.
 
@@ -183,8 +183,8 @@ Currently, only two known significant differences exist between reality and the 
 # The complete lack of anomalous entities, including the presence of the SCP Foundation and other known GoIs. 
 # The presence of virtual species VSCP-01, known in-simulation as the "bee"[[footnote]]VSCP-01 is not considered an anomalous entity in-simulation.[[/footnote]].
 
-Analysis of non-simulation data located within SCP-4386-01's databanks has revealed that the intended mechanism of SCP-4386-06 poses a substantial threat to humanity and standard reality laws. Gathered data indicates that should SCP-4386-02 through 05 be awoken simultaneously, SCP-4386-06 will begin its activation cycle, leading to a complete CK-Class Reality Restructuring scenario and at worst, a ZK-Class Reality Failure event. However, as long as at least one of SCP-4386-02 through 05 is connected and present within the simulation, SCP-4386-06 will remain inactive.  
-  
+Analysis of non-simulation data located within SCP-4386-01's databanks has revealed that the intended mechanism of SCP-4386-06 poses a substantial threat to humanity and standard reality laws. Gathered data indicates that should SCP-4386-02 through 05 be awoken simultaneously, SCP-4386-06 will begin its activation cycle, leading to a complete CK-Class Reality Restructuring scenario and at worst, a ZK-Class Reality Failure event. However, as long as at least one of SCP-4386-02 through 05 is connected and present within the simulation, SCP-4386-06 will remain inactive.  
+  
 So far, no means to deactivate SCP-4386-06 safely have been discovered.
 
 **SCP-4386-01 Terminal Access:** On 2003-11-13, the Foundation Security Penetration team managed to successfully obtain root access to SCP-4386-01's operating system and establish administrator privileges. Accounts have since been distributed to various Foundation researchers holding adequate clearance levels. Terminal access may be permitted to Level 3 and above personnel only. To apply for an account on the system, please contact the project director, Dr. Harsky.
@@ -195,7 +195,7 @@ So far, no means to deactivate SCP-4386-06 safely have been discovered.
 [[span]]@<> ##################################>@[[/span]]
 [[span]]@<> ##### The BIG-B.A.D. Project #####>@[[/span]]
 [[span]]@<> ##################################>@[[/span]]
-[[span]]@<>     an introduction by BEI Administrator Ronald Hobbs>@[[/span]]
+[[span]]@<>     an introduction by BEI Administrator Ronald Hobbs>@[[/span]]
 [[span]]@<> >@[[/span]]
 [[span]]@<> Hello [$firstname], and congratulations on joining the BIG-B.A.D. project!>@[[/span]]
 [[span]]@<> You have been chosen for this opportunity, not only because of your profound expertise in the field of Theoretical Physics, but also due to your undying loyalty to the Better Earth Initiative and its goals.>@[[/span]]

@@ -1,104 +1,104 @@
 [[module CSS]]
 /* 4CHAN */
 .chan.thread-container {
-  background-color: #FFFFEE;
-  padding: 5px;
-  font-family: arial,helvetica,sans-serif;
-  color: #872737;
-  overflow: hidden;
-  font-size: 1.1em;
+  background-color: #FFFFEE;
+  padding: 5px;
+  font-family: arial,helvetica,sans-serif;
+  color: #872737;
+  overflow: hidden;
+  font-size: 1.1em;
 }
 .chan.blue-container {
-  background-color: #d6daf0;
-  padding: 5px;
-  font-family: arial,helvetica,sans-serif;
-  color: #000;
-  display: table;
-  margin: 0 auto;
-  overflow: hidden;
+  background-color: #d6daf0;
+  padding: 5px;
+  font-family: arial,helvetica,sans-serif;
+  color: #000;
+  display: table;
+  margin: 0 auto;
+  overflow: hidden;
 }
 .chan.blue-container .post-content {
-  margin-bottom: 0;
+  margin-bottom: 0;
 }
- 
+ 
 .chan .deleted-icon {
-  color: #FF0000;
-  background-color: #E3E3E3;
-  border: 1px solid #383838;
-  padding: 0 2px;
-  font-weight: bold;
+  color: #FF0000;
+  background-color: #E3E3E3;
+  border: 1px solid #383838;
+  padding: 0 2px;
+  font-weight: bold;
 }
- 
+ 
 .chan .post-content {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
 }
 .chan .summary {
-  color: #707070;
-  margin-top: 10px;
+  color: #707070;
+  margin-top: 10px;
 }
 .chan .reply-container {
-  display: table;
+  display: table;
 }
 .chan .reply-arrows {
-  color: #E0BFB7;
-  float: left;
-  margin-right: 2px;
-  margin-top: 9px;
-  margin-left: 2px;
+  color: #E0BFB7;
+  float: left;
+  margin-right: 2px;
+  margin-top: 9px;
+  margin-left: 2px;
 }
 .chan .reply {
-  background-color: #F0E0D6;
-  border: 1px solid #D9BFB7;
-  border-left: none;
-  border-top: none;
-  display: table;
-  padding: 5px;
-  margin: 4px 0;
+  background-color: #F0E0D6;
+  border: 1px solid #D9BFB7;
+  border-left: none;
+  border-top: none;
+  display: table;
+  padding: 5px;
+  margin: 4px 0;
 }
- 
+ 
 .chan img {
-  float: left;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 3px;
-  margin-bottom: 5px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 3px;
+  margin-bottom: 5px;
 }
 .chan .chan-file > p,
 .chan .post-info > p,
 .chan .reply-arrows > p,
 .chan .summary > p,
 .chan.blue-container .post-content > p {
-  margin: 0;
+  margin: 0;
 }
 .chan .image-container {
-  padding: 0;
+  padding: 0;
 }
 
 @media (max-width: 479px) {
-  .chan .reply-arrows {
-    display: none;
-  }
-  .chan .post-content {
-    margin: 0;
-  }
-  .chan .image-container {
-    text-align: center;
-  }
+  .chan .reply-arrows {
+    display: none;
+  }
+  .chan .post-content {
+    margin: 0;
+  }
+  .chan .image-container {
+    text-align: center;
+  }
 }
 
 /* REDDIT */
 .reddit-post{
-    margin: .43em;
-    padding: 0 .85em;
+    margin: .43em;
+    padding: 0 .85em;
 
-    background-color: #fcfcfb;
-    border: 1px solid #b5b3ac;
+    background-color: #fcfcfb;
+    border: 1px solid #b5b3ac;
 
-    font-family: verdana,arial,sans-serif;
-    overflow: hidden;
+    font-family: verdana,arial,sans-serif;
+    overflow: hidden;
 }
 [[/module]]
 
@@ -150,25 +150,25 @@
 |risk-class=filler
 ]]
 ----
- 
- 
+ 
+ 
 **特別収容プロトコル:** すべてのSCP-4991の影響を受けたソーシャルネットワーキングサービスにおけるインシデント記録は削除されました。インシデントの証拠が残っている場合、カバーストーリー『ARG(代替現実ゲーム)』を流布してください。
 
 **説明:** SCP-4991は2016年4月7日から4月9日の期間に4chanやReddit、Tumblr、Twitterなどの主要なSNSウェブサイトの実在しないイベントについて言及された投稿です。この間に、ユーザーは投稿機能を妨害されるエラーを経験しました。この間にされた投稿はすべて実在するアカウントによって投稿されたものです。
- 
+ 
 SCP-4991の症状から2日後に全ての異常な活動が停止し、ユーザーたちは通常通りウェブサイト上で交流ができるようになりました。11対1の投票結果により、O5評議会はSCP-4991をNeutralizedに再分類し現在の特別収容プロトコルが確立されました。インシデント以降SCP-4991に似た異常な活動は検出されていません。
- 
+ 
 [[=]]
 **補遺4991.1**
 [[/=]]
 ----
 SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャルネットワークサービスがアクセス不能になったと通知されたことで発見されました。ユーザーは投稿した覚えのない投稿を報告しています。評議会の命令で、それら全てのウェブサイトが一時的に閉鎖され、SCP-4991の消滅後ウィルス性Kクラス記憶処理剤が散布されました。
- 
+ 
 下記はSCP-4991によって生成された投稿の例です。
- 
+ 
 ----
- 
- 
+ 
+ 
 [[collapsible show="▼ Twitter記録" hide="▲ 奴らは進化する"]]
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
@@ -182,9 +182,9 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 * [[size .8em]] ##grey|いいね## [[/size]][[size 1.1em]] ##purple| 105K## [[/size]]
 @@ @@
 [[size .8em]] ##grey|2016年4月7日-アメリカ合衆国、ニューヨーク## [[/size]]
- 
+ 
 [[/div]]
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
@@ -198,9 +198,9 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 * [[size .8em]] ##grey|いいね## [[/size]][[size 1.1em]] ##purple| 93## [[/size]]
 @@ @@
 [[size .8em]] ##grey|2016年4月7日-スリーポートランド## [[/size]]
- 
+ 
 [[/div]]
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
@@ -213,12 +213,12 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 * [[size .8em]] ##grey|いいね## [[/size]][[size 1.1em]] ##purple| 1,273## [[/size]]
 @@ @@
 [[size .8em]] ##grey|2016年4月7日-スウェーデン## [[/size]]
- 
- 
+ 
+ 
 [[/div]]
- 
+ 
 @@ @@
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
@@ -232,17 +232,17 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 * [[size .8em]] ##grey|いいね## [[/size]][[size 1.1em]] ##purple| 10K## [[/size]]
 @@ @@
 [[size .8em]] ##grey|2016年4月8日-アメリカ合衆国、オレゴン州## [[/size]]
- 
- 
+ 
+ 
 [[/div]]
- 
- 
+ 
+ 
 @@ @@
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
-[[size 1.5em]] ##grey|  방탄소년단  ## [[/size]]
+[[size 1.5em]] ##grey|  방탄소년단  ## [[/size]]
 [[size 1.5em]] ##grey| @BTS_twt ## [[/size]]
 @@ @@
 @@ @@
@@ -252,12 +252,12 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 * [[size .8em]] ##grey|いいね## [[/size]][[size 1.1em]] ##purple| 2.1M## [[/size]]
 @@ @@
 [[size .8em]] ##grey|2016年4月8日-韓国## [[/size]]
- 
- 
+ 
+ 
 [[/div]]
- 
+ 
 @@ @@
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
@@ -271,11 +271,11 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 * [[size .8em]] ##grey|いいね## [[/size]][[size 1.1em]] ##purple| 39## [[/size]]
 @@ @@
 [[size .8em]] ##grey|2016年4月8日-アメリカ合衆国、ニューヨーク## [[/size]]
- 
+ 
 [[/div]]
- 
+ 
 @@ @@
- 
+ 
 [[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
 [[span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
 [[/span]]
@@ -289,19 +289,19 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 * [[size .8em]] ##grey|いいね## [[/size]][[size 1.1em]] ##purple| 1.5M## [[/size]]
 @@ @@
 [[size .8em]] ##grey|2016年4月9日-アメリカ合衆国、カリフォルニア州## [[/size]]
- 
+ 
 [[/div]]
- 
+ 
 @@ @@
- 
- 
+ 
+ 
 [[/collapsible]]
- 
+ 
 ----
- 
- 
+ 
+ 
 [[collapsible show="▼ Reddit記録" hide="▲奴らは適応する"]]
- 
+ 
 
 [[div class="reddit-post"]]
 
@@ -309,7 +309,7 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 
 [[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] SCP財団の "O5-1"であるKolt Moorは確保作戦から撤退する。 [[/span]]
 [[span style="font-size: x-small;"]] ##888|1日前に## ##369|Memesalot## ##888|により投稿されました##[[/span]]
-[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 191 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 191 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
 
 [[/div]]
 
@@ -451,7 +451,7 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 
 [[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] “確保作戦”とSCP財団には何が起きてるの？ [[/span]]
 [[span style="font-size: x-small;"]] ##888|49分前に## ##369|Plaguebub## ##888|により投稿されました## [[/span]]
-[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 47 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 47 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
 
 [[/div]]
 
@@ -491,7 +491,7 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 
 [[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] 美しい鳥の群れが私の町を飛んでいるのを見たよ！[[/span]]
 [[span style="font-size: x-small;"]] ##888|12分前に## ##369|Edwardscissortoes## ##888|により投稿されました##[[/span]]
-[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 47 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 47 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
 
 [[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-66-1dlg/them.jpg]]
 
@@ -525,7 +525,7 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 
 
 
- 
+ 
 [[/collapsible]]
 
 ------
@@ -579,12 +579,12 @@ SCP-4991は4月7日の早朝、財団工作員にほとんどのソーシャル�
 [[/div]]
 
 
- 
+ 
 
 [[/collapsible]]
- 
+ 
 ----
- 
+ 
 [[collapsible show="▼ 4chan記録" hide="▲ 我らの失敗は誕生と死滅の日になる"]]
 
 [[div class="chan blue-container"]]
@@ -730,7 +730,7 @@ File: ##0000EE|__8A0A11B7-6B90-4842-8A18-4(…).jpg__## (113 KB, 1446x708)
 [[/div]]
 
 -------
- 
+ 
 [[/collapsible]]
 
 @@ @@

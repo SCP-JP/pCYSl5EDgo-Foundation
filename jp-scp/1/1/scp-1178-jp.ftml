@@ -230,7 +230,7 @@
 ###999|〈13:56:25〉## **岩田氏:** いい加減にしてもらいたい。夏穂は「もう //[ノイズ]// さんと関わりたくない」と言っているんです！私も、あなたをもてなして下らない話を聞くことに疲れました。お菓子を用意したり、肩を揉んであげたり。お金も、時間も、私たちにはそんなに余裕がないっていうのに、毎年毎年あなたのお世話をしなければならない。これ以上、あなたの為にすることなんてありません。
 
 ###999|〈13:56:52〉## //[SCP-1178-JPが口を動かす]//
- 
+ 
 ###999|〈13:57:01〉## **岩田氏:** それは問題ありません。ここにお骨はないってこと、忘れてしまったんですか？お義母さんにならお墓参りに行けば会えるでしょう。少なくとも、この家に来る必要はもうない筈です。 //[ため息]// 本当に、二度とここへは来ないでください。あなたがいるだけで空気が悪くなる。
 
 ###999|〈13:57:22〉## //[4秒間口を動かした後、SCP-1178-JPは道路の方へ移動する。途中、衝撃音と共に車が少し揺れる]//
@@ -316,22 +316,22 @@ float:right;
 /* Quoted from http://ja.scp-wiki.net/scp-1643-jp */
 /* CC BY-SA 3.0 */
 .flieNav .yui-navset .yui-nav > li > a em:before{
- content:"";
-    /*font-awesome fa*/
-    font:normal normal normal 14px/1 FontAwesome;
-    transform:translate(0, 0);
-    display:inline-block;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
- 
+ content:"";
+    /*font-awesome fa*/
+    font:normal normal normal 14px/1 FontAwesome;
+    transform:translate(0, 0);
+    display:inline-block;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+ 
 }
 .flieNav .yui-navset .yui-nav > li > a em:before{
-    /*folder*/
-    content:"\f07b";
+    /*folder*/
+    content:"\f07b";
 }
 .flieNav .yui-navset .yui-nav > .selected > a em:before{
-    /*folder-open*/
-    content:"\f07c";
+    /*folder-open*/
+    content:"\f07c";
 }
- 
+ 
 [[/module]]

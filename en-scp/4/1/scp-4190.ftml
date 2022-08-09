@@ -13,45 +13,45 @@
 [[module CSS]]
 /* INFO BOX */
 sup{
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 body{
-    --cutColour: #fafafa;
-    --barColour: #590505;
-    color: rgb(12, 12, 12);
+    --cutColour: #fafafa;
+    --barColour: #590505;
+    color: rgb(12, 12, 12);
 }
 .translation_block{ display: none; }
 .u-faq{ display: none; }
 
 /* DIV BLOCKS */
 .testing-log{
-    border: 2px dashed #999;
-    border-radius: .61em;
-    background-color: #f4f4f4;
-    padding: .25em 1em;
-    margin-bottom: 1em;
+    border: 2px dashed #999;
+    border-radius: .61em;
+    background-color: #f4f4f4;
+    padding: .25em 1em;
+    margin-bottom: 1em;
 }
 .quote-block{
-    border: 3px double #999;
-    background-color: #f4f4f4;
-    padding: .25em 1em;
-    margin-bottom: 1em;
+    border: 3px double #999;
+    background-color: #f4f4f4;
+    padding: .25em 1em;
+    margin-bottom: 1em;
 }
 .researcher-note{
-    border: 1px solid rgb(12, 12, 12);
-    background-color: white;
-    padding: .25em 1em;
-    margin-bottom: 1em;
-    text-align: center;
+    border: 1px solid rgb(12, 12, 12);
+    background-color: white;
+    padding: .25em 1em;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 /* FORMATTING */
 hr{
-     margin: 1em 0;
-     padding: 0;
-     border: 0;
+     margin: 1em 0;
+     padding: 0;
+     border: 0;
 }
 [[/module]]
 

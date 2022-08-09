@@ -1,100 +1,100 @@
 [[module CSS]]
 /* RECOLORING THE TABS */
 :root {
-    --tab-flicker-color-1: var(--swatch-primary-darker);
-    --tab-flicker-color-2: var(--swatch-primary);
+    --tab-flicker-color-1: var(--swatch-primary-darker);
+    --tab-flicker-color-2: var(--swatch-primary);
 }
 
 .yui-navset .yui-nav li, 
 .yui-navset .yui-navset-top .yui-nav li {
-    margin: 0 0.25em 0.5em;
-    box-shadow: 0px 0px 0px rgba(var(--dark-accent));
-    transition: all 300ms cubic-bezier(0.4,0.0,0.2,1);
-    background-color: rgb(var(--swatch-menubg-light-color));
+    margin: 0 0.25em 0.5em;
+    box-shadow: 0px 0px 0px rgba(var(--dark-accent));
+    transition: all 300ms cubic-bezier(0.4,0.0,0.2,1);
+    background-color: rgb(var(--swatch-menubg-light-color));
 }
 
 .yui-navset .yui-nav .selected, 
 .yui-navset .yui-navset-top .yui-nav .selected {
-    margin: -0.25em 0 0.25em 0;
+    margin: -0.25em 0 0.25em 0;
 }
 
 .yui-navset .yui-nav li:not([class*="selected"]) a:hover, 
 .yui-navset .yui-navset-top .yui-nav li:not([class*="selected"]) a:hover {
-    animation: flicker-on-1 1s linear forwards;
-    -webkit-animation: flicker-on-1 1s linear forwards;
+    animation: flicker-on-1 1s linear forwards;
+    -webkit-animation: flicker-on-1 1s linear forwards;
 }
 
 .yui-navset .yui-nav .selected a, 
 .yui-navset .yui-navset-top .yui-nav .selected a {
-    animation: flicker-on-2 1s linear forwards;
-    -webkit-animation: flicker-on-2 1s linear forwards;
-    background-color: rgba(var(--tab-flicker-color-2),1);
-    box-shadow: 0px 1px 2px rgba(var(--dark-accent));
+    animation: flicker-on-2 1s linear forwards;
+    -webkit-animation: flicker-on-2 1s linear forwards;
+    background-color: rgba(var(--tab-flicker-color-2),1);
+    box-shadow: 0px 1px 2px rgba(var(--dark-accent));
 }
 
 .yui-navset .yui-nav .selected a:hover, 
 .yui-navset .yui-navset-top .yui-nav .selected a:hover {
-    background-color: rgba(var(--tab-flicker-color-2),1) !important;
+    background-color: rgba(var(--tab-flicker-color-2),1) !important;
 }
 
 @keyframes flicker-on-1 {
-  0% {
-    background-color: rgba(var(--tab-flicker-color-1),0);
-  }
-  10% {
-    background-color: rgba(var(--tab-flicker-color-1),1);
-  }
-  15% {
-    background-color: rgba(var(--tab-flicker-color-1),0);
-  }
-  20% {
-    background-color: rgba(var(--tab-flicker-color-1),0.5);
-  }
-  25% {
-    background-color: rgba(var(--tab-flicker-color-1),0.2);
-  }
-  30%,75% {
-    background-color: rgba(var(--tab-flicker-color-1),0.75);
-  }
-  79% {
-    background-color: rgba(var(--tab-flicker-color-1),0.8);
-  }
-  80% {
-    background-color: rgba(var(--tab-flicker-color-1),0.85);
-  }
-  100% {
-    background-color: rgba(var(--tab-flicker-color-1),1);
-  }
+  0% {
+    background-color: rgba(var(--tab-flicker-color-1),0);
+  }
+  10% {
+    background-color: rgba(var(--tab-flicker-color-1),1);
+  }
+  15% {
+    background-color: rgba(var(--tab-flicker-color-1),0);
+  }
+  20% {
+    background-color: rgba(var(--tab-flicker-color-1),0.5);
+  }
+  25% {
+    background-color: rgba(var(--tab-flicker-color-1),0.2);
+  }
+  30%,75% {
+    background-color: rgba(var(--tab-flicker-color-1),0.75);
+  }
+  79% {
+    background-color: rgba(var(--tab-flicker-color-1),0.8);
+  }
+  80% {
+    background-color: rgba(var(--tab-flicker-color-1),0.85);
+  }
+  100% {
+    background-color: rgba(var(--tab-flicker-color-1),1);
+  }
 }
 
 @keyframes flicker-on-2 {
-  0% {
-    background-color: rgba(var(--tab-flicker-color-2),0);
-  }
-  10% {
-    background-color: rgba(var(--tab-flicker-color-2),1);
-  }
-  15% {
-    background-color: rgba(var(--tab-flicker-color-2),0);
-  }
-  20% {
-    background-color: rgba(var(--tab-flicker-color-2),0.5);
-  }
-  25% {
-    background-color: rgba(var(--tab-flicker-color-2),0.2);
-  }
-  30%,75% {
-    background-color: rgba(var(--tab-flicker-color-2),0.75);
-  }
-  79% {
-    background-color: rgba(var(--tab-flicker-color-2),0.8);
-  }
-  80% {
-    background-color: rgba(var(--tab-flicker-color-2),0.85);
-  }
-  100% {
-    background-color: rgba(var(--tab-flicker-color-2),1);
-  }
+  0% {
+    background-color: rgba(var(--tab-flicker-color-2),0);
+  }
+  10% {
+    background-color: rgba(var(--tab-flicker-color-2),1);
+  }
+  15% {
+    background-color: rgba(var(--tab-flicker-color-2),0);
+  }
+  20% {
+    background-color: rgba(var(--tab-flicker-color-2),0.5);
+  }
+  25% {
+    background-color: rgba(var(--tab-flicker-color-2),0.2);
+  }
+  30%,75% {
+    background-color: rgba(var(--tab-flicker-color-2),0.75);
+  }
+  79% {
+    background-color: rgba(var(--tab-flicker-color-2),0.8);
+  }
+  80% {
+    background-color: rgba(var(--tab-flicker-color-2),0.85);
+  }
+  100% {
+    background-color: rgba(var(--tab-flicker-color-2),1);
+  }
 }
 [[/module]]
 
@@ -118,7 +118,7 @@ A pamphlet found alongside SCP-4367 describes numerous potential effects which m
 [[tabview]]
 [[tab Opening Page]]
 [[=]]
-+ ODD ENERGY DISSEMBLER  
++ ODD ENERGY DISSEMBLER  
 [[/=]]
 @@
 @@
@@ -191,7 +191,7 @@ Every atom of your being is //vibrating to every corner of the universe// unless
 
 DIVINITY is not perfection. Six crooked lines surrounding an empty center. Every point a step so steep that even taxing every ounce of ENERGY in the universe may not bring a DIVINITY status closer to actual being. //Not without luck and chance.//
 
-Others who still vibrate pick up on DIVINITY inherently and will submit  to those with such radiant PURITY that their gleaming energy //may blind even those who cannot see aura ENERGY exploding from every pore//.  
+Others who still vibrate pick up on DIVINITY inherently and will submit  to those with such radiant PURITY that their gleaming energy //may blind even those who cannot see aura ENERGY exploding from every pore//.  
 
 All of these results are to be Respected. Do not take the powers of Natural Force as a parlor trick. These changes are FOREVER.
 
@@ -201,7 +201,7 @@ All of these results are to be Respected. Do not take the powers of Natural Forc
 [[/tabview]]
 
 
-The originator of SCP-4367 and the associated pamphlet is not known. Agent Albert Montoya reported experiencing temporary cessation of his gravitational connection to the earth while cleaning out a deceased family member's home[[footnote]]Analysis of debriefing interview indicates Agent Montoya may have gained forward momentum in this incident by losing his footing on debris.[[/footnote]]. This led to SCP-4367 being discovered and contained. No other item associated with the estate has shown any anomalous properties and it is unknown how Agent Montoya's relative came to possess it.  
+The originator of SCP-4367 and the associated pamphlet is not known. Agent Albert Montoya reported experiencing temporary cessation of his gravitational connection to the earth while cleaning out a deceased family member's home[[footnote]]Analysis of debriefing interview indicates Agent Montoya may have gained forward momentum in this incident by losing his footing on debris.[[/footnote]]. This led to SCP-4367 being discovered and contained. No other item associated with the estate has shown any anomalous properties and it is unknown how Agent Montoya's relative came to possess it.  
 
 Notably, no user of SCP-4367 has ever reported feeling as though SCP-4367 was rolled unfairly or improperly.
 

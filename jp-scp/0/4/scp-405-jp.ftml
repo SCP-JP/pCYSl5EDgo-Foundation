@@ -7,10 +7,10 @@
 [[div style="margin: 15px 0px 30px;"]]
 
 [[include :scp-wiki:component:classified-bar-woed
-    lv=4 |
-    item=405-JP |
-    oc=Apollyon |
-    lang=EN
+    lv=4 |
+    item=405-JP |
+    oc=Apollyon |
+    lang=EN
 ]]
 
 [[/div]]
@@ -136,7 +136,7 @@ SCP-405-JP出現の直前へと転移したサイト-8129は財団に全情報�
 **萩原氏:** あら、つれないのね。『hellhound on my trail,hellhound on my trail』[[footnote]]ロバート・ジョンソン「地獄の猟犬がつきまとう(Hellhound On My Trail)」の歌詞。悪魔と契約し名声を得たという逸話が存在している。[[/footnote]][笑い声]
 
 **<録音終了>**
- 
+ 
 **終了報告書:** 萩原 アリサ氏は記憶処理を施した後、引き続き収容及び常時監視がなされナンバリングについては後日決定される予定です。
 
 [[/div]]
@@ -325,7 +325,7 @@ UE-405からの要望により、杉本研究員との面会が行われまし�
 
 [[div style="text-align:center"]]
 
-━━━━━━     取引記録1     ━━━━━━
+━━━━━━     取引記録1     ━━━━━━
 
 [[/div]]
 
@@ -357,7 +357,7 @@ SCP-405-JP衝突を阻止する方法について現在議論が重ねられて�
 
 [[div style="text-align:center"]]
 
-━━━━━━     取引記録2     ━━━━━━
+━━━━━━     取引記録2     ━━━━━━
 
 [[/div]]
 
@@ -373,7 +373,7 @@ UE-405に対する第3の取引に関して、現在上層部会議による承�
 
 [[div style="text-align:center"]]
 
-━━━━━━     取引記録3     ━━━━━━
+━━━━━━     取引記録3     ━━━━━━
 
 [[/div]]
 
@@ -477,43 +477,43 @@ SCP-405-JPは破壊耐性を喪失したと想定されており、事実の確�
 
 [[module CSS]]
 /*
-    [title is none]
-    Created at 2020
-    Created by dog_punch
-    CC BY-SA 3.0
+    [title is none]
+    Created at 2020
+    Created by dog_punch
+    CC BY-SA 3.0
 */
 
 .i-hide:hover {
-    opacity: 1;
+    opacity: 1;
 }
 
 .i-black {
-    background: #333;
-    transition: 1s;
+    background: #333;
+    transition: 1s;
 }
 
 .i-black:hover {
-    background: none;
+    background: none;
 }
 
 .i-blink {
-    animation: i-blink 1s linear infinite;
+    animation: i-blink 1s linear infinite;
 }
 
 .i-blink:hover {
-    animation: none;
+    animation: none;
 }
 
 @keyframes i-blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 [[/module]]
 

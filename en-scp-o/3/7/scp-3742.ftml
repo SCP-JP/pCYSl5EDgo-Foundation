@@ -2,70 +2,70 @@
 [[module CSS]]
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #037aba;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #037aba;
 /* black shadow at the top of the terminal */
-    background-image: 
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #111c22);
-    background-position: center;
-    display: block;
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #111c22);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #88efe8
+    background-color: black;
+    border: double 3px #88efe8
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(136,239,232,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(136,239,232,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #88efe8;
-    text-decoration: none;
-    background: transparent;
+    color: #88efe8;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #88efe8;
-    text-decoration: none;
-    background: transparent;
+    color: #88efe8;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #111c22;
-    text-decoration: underline;
-    background-color: #88efe8;
-    padding: 1px;
+    color: #111c22;
+    text-decoration: underline;
+    background-color: #88efe8;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -164,7 +164,7 @@ I’ve tried it so many times and it still isn't right! Mar...[ILLEGIBLE]...push
 
 [[collapsible hideLocation="both" show="+ Section B: Interview Log, 11/07/1974" hide="- Close"]]
 
-> **Interviewed:** Mr. Roy  ████, Owner, 3P LP’s Record Shop, Three Portlands
+> **Interviewed:** Mr. Roy  ████, Owner, 3P LP’s Record Shop, Three Portlands
 > 
 > **Interviewer:** Field Agent Holly Gardner, Foundation/UIU Liaison
 > 
@@ -339,7 +339,7 @@ On ██/██/2007, Experiment 3742/T was authorized by the O5 Council. The o
 ||= 3742/T/1 || D-66984 instructed to exit SCP-3742-2 after arriving. || Subject was unable to complete task; reported severe disorientation and vertigo when approaching apparent exits. || Matches data from previous experiments. TRIC programs indicate no notable effect on current reality. ||
 ||= 3742/T/2 || D-55845 instructed to rush the stage of SCP-3742-2. || SCP-3742’s effect ceased prematurely (approx. 7 minutes), resulting in immediate return of D-55845 to containment chamber. Subject reported returning when she was an estimated 3m from the stage. || Likely another “copyright protection” measure. Subjects appear to be unable to affect performers directly. TRIC programs indicate no notable effect on current reality. ||
 ||= 3742/T/3 || D-96152 provided with a 9mm pistol (unloaded), instructed to approach security with gun held to head.[[footnote]] Subject voluntarily accepted participation. [[/footnote]] || SCP-3742’s effect ceased prematurely (10 minutes), returning D-96152 just as [DATA EXPUNGED]. Subject confirmed deceased, having acquired ammunition within SCP-3742-2 by unknown means. || D-96152’s death, while regrettable, indicates that severe injury triggers a premature ceasure of SCP-3742’s effect. TRIC programs indicate no notable effect on current reality. ||
-||= 3742/T/4 || D-44589 instructed to proceed to balcony seating inside SCP-3742-2 and push a spectator from the railing. || Tonearm of SCP-3742-1 spontaneously deflected off SCP-3742 after 15 minutes. Subject not returned. ||  Replacing the tonearm of SCP-3742-1 caused SCP-3742 to play from beginning. TRIC programs indicate trans-reality information modification in multiple online sources pertaining to the concert. ||
+||= 3742/T/4 || D-44589 instructed to proceed to balcony seating inside SCP-3742-2 and push a spectator from the railing. || Tonearm of SCP-3742-1 spontaneously deflected off SCP-3742 after 15 minutes. Subject not returned. ||  Replacing the tonearm of SCP-3742-1 caused SCP-3742 to play from beginning. TRIC programs indicate trans-reality information modification in multiple online sources pertaining to the concert. ||
 
 Following Experiment 3742/T/4, Foundation TRIC webcrawlers flagged information regarding a Pink Floyd concert in ███████, NY, USA on ██/██/1973. The new information described an incident in which a spectator fell from the upper level seating of the venue and killed the person on which they landed, resulting in a premature end to the concert. Not only did this experiment successfully identify the historical location of SCP-3742-2, but it also confirmed that UMMAGUMMA Events could be neutralized by actions taken within an affected performance by individuals present under temporally normal circumstances. Simply put, the only way to stop an UMMAGUMMA Event is to disrupt any affected concerts in real time. Thus, Procedure 3742-Encore was developed and approved by the Ethics Committee after two weeks of debate.
 
@@ -399,5 +399,5 @@ Welcome, Commander Bell.
 [[/div]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]

@@ -5,34 +5,34 @@
 
 [[module css]]
 .report-box{ /* ---- Report Block ---- */
-     margin: 1em 0;
-     padding: 20px;
- 
-     background-color: hsl(0, 0%, 100%);
-     border: medium solid hsl(0, 0%, 5%);
+     margin: 1em 0;
+     padding: 20px;
+ 
+     background-color: hsl(0, 0%, 100%);
+     border: medium solid hsl(0, 0%, 5%);
 }
- .report-box hr{
-     border-color: hsl(0, 0%, 5%);
+ .report-box hr{
+     border-color: hsl(0, 0%, 5%);
 }
 
 #page-content a.collapsible-block-link:not(.licensebox a.collapsible-block-link, .info-container a.collapsible-block-link) {
-   font-weight: 800;
-   color: white;
-   padding-top: 4px;
-   padding-bottom: 4px;
-   padding-left: 7px;
-   padding-right: 9px;
-   background: rgb(100, 3, 15);
-   border-radius: 6px;
-   margin-top: 10px;
-   margin-bottom: 12px;
+   font-weight: 800;
+   color: white;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 7px;
+   padding-right: 9px;
+   background: rgb(100, 3, 15);
+   border-radius: 6px;
+   margin-top: 10px;
+   margin-bottom: 12px;
 }
 [[/module]]
 
 [[module CSS]]
 :root {
- --header-title: "異常兵器開発部門";
- --header-subtitle: "簡素な工具さえ武器へと変わる";
+ --header-title: "異常兵器開発部門";
+ --header-subtitle: "簡素な工具さえ武器へと変わる";
 }
 
 #header h2 {
@@ -42,22 +42,22 @@ margin-top: 1em;
 
 [[module CSS]]
 #header::before {
-    display: none;
+    display: none;
 }
 div#extra-div-1,
 div#extra-div-2 {
-    position: absolute;
-    top: 1rem;
-    width: 100%;
-    height: 8rem;
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    height: 8rem;
 }
- 
+ 
 div#extra-div-1 {
-    background: url("http://scp-jp-storage.wdfiles.com/local--files/file%3A2081491-58-uxj3/AWD%20Logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 180px 180px;
-    opacity: 75%;
+    background: url("http://scp-jp-storage.wdfiles.com/local--files/file%3A2081491-58-uxj3/AWD%20Logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px 180px;
+    opacity: 75%;
 }
 [[/module]]
 
@@ -258,12 +258,12 @@ SCP-127-REC(識別名: 生きている銃)は、SCP-6410の内的な働きを理
 エリア-34 - 部門長 フェリペ・エヴェレスト
 [[/=]]
 ----
-**提案:**  SCP-6410に関する調査の結果と拒否権発動を受けて、AWDはSCP-127-REC及び、兵器が元になったSCP-6410-1の5実例について調査を行うことを決定し、兵器評価に特化した基本異常性承認試験を実現した。これらの試験の結果、次のような結論が得られた。
+**提案:**  SCP-6410に関する調査の結果と拒否権発動を受けて、AWDはSCP-127-REC及び、兵器が元になったSCP-6410-1の5実例について調査を行うことを決定し、兵器評価に特化した基本異常性承認試験を実現した。これらの試験の結果、次のような結論が得られた。
 
 * SCP-6410-1実例はイヌと同水準の行動知能を持ち、その形態で可能な範囲で簡単な命令に従うように訓練される。また、個体を識別することができ、特定の人物に懐いたり、嫌ったりすることがある。
 * 愛情を持った扱いは、SCP-6410-1実例のパフォーマンス向上に繋がる。例として、SCP-127-RECは2年間大切に扱われた結果、弾切れを起こした場合に18時間で弾丸を再生する能力を得た。[[footnote]]SCP-127-RECは歯のような弾丸を発射することができる。弾切れを起こした場合、以前は弾丸の再生に72時間から120時間かかっていた。[[/footnote]]
 * 訓練、特に愛情を持って行われるものは、SCP-6410-1実例の通常の武器としての機能のパフォーマンスも向上させることが判明した。愛情を込めるやり方で訓練された実例は、平均して照準精度が25%向上し、反動も大幅に軽減された。
-*  訓練、特に愛情を持って行われるものにより、これまで明らかにされなかった特質が発現することがある。例えば、九九式短小銃を元とする実例であるSCP-6410-1126は、試験開始後、それ以前にはなかった、発射した弾丸を任意の目標に向けて曲げる能力を身につけた。
+*  訓練、特に愛情を持って行われるものにより、これまで明らかにされなかった特質が発現することがある。例えば、九九式短小銃を元とする実例であるSCP-6410-1126は、試験開始後、それ以前にはなかった、発射した弾丸を任意の目標に向けて曲げる能力を身につけた。
 
 これらの発見から、我々は、SCP-6410-1実例に適切な訓練を施すことで、財団にとって利用可能な資産になると考えた。そこで、八幡神が持つ"カミ"エネルギーを適切な武器に移して、SCP-6410-1を生成し、それを財団の使用に適うよう訓練し、軍事力を強化することを提案する。
 
@@ -339,7 +339,7 @@ SCP-127-REC(識別名: 生きている銃)は、SCP-6410の内的な働きを理
 * 触覚的操作により物体を"読み取る"能力(サイコメトリー)、一定範囲内の物体の意識にアクセスする(サイオニクス)及び魂や「あの世」と神経的に接続する能力(霊媒)を有する人員が属する[[/footnote]]。
 
 ピグマリオン型兵器の使用は、効率と忠誠心の向上に繋がると考えられています。2050年までに、同型兵器は使用可能な全ての部隊の装備の一部として配備される予定です。この目標を達成するため、対価の支払い及び取り扱い講習の開講を3倍の頻度で行うことが決定されました。
- 
+ 
 @@ @@
 @@ @@
 [[=]]

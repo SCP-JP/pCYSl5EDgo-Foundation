@@ -1,25 +1,25 @@
 [[module CSS]]
 
 #page-title {
-    display: none;
+    display: none;
 }
 .fake_title {
-    font-size: 200%;
-    color: #990011;
-    padding: 0 0 0.25em;
-    margin: 0 0 0.6em;
-    border-bottom: 1px solid #bbb;
-    font-weight: normal;
+    font-size: 200%;
+    color: #990011;
+    padding: 0 0 0.25em;
+    margin: 0 0 0.6em;
+    border-bottom: 1px solid #bbb;
+    font-weight: normal;
 }
 .fake_title p {
-    padding: 0;
-    margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 @media (max-width: 767px) {
 .top-right-box > .clearance::before {
 margin-top: 1em;
-    }
+    }
 }
 
 sup {
@@ -116,7 +116,7 @@ SCP-1404-JPには基底世界に存在する各要注意団体や財団が収容
 
 当初の計画通りに、基底世界のサイト-8197周辺と同範囲の異常存在の有無や痕跡の差異を調査しました。今回確認した異常存在は昇順にSCP-1085-JP、SCP-1473-JP、SCP-1763-JP、SCP-1777-JPです。以下に表を掲載します。
 
-[[table  style="border-collapse:collapse;"]]
+[[table  style="border-collapse:collapse;"]]
 
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]

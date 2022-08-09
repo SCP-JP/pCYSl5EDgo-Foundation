@@ -66,7 +66,7 @@ __**事件記録 720-2　 - 日付20██/██/██**__
 <head>
 <meta charset="utf-8">
 <style type="text/css">
-@import url(http://d3g0gp89917ko0.cloudfront.net/v--945f9d3cea66/common--modules/css/pagerate/PageRateWidgetModule.css);        
+@import url(http://d3g0gp89917ko0.cloudfront.net/v--945f9d3cea66/common--modules/css/pagerate/PageRateWidgetModule.css);        
 @import url(http://d3g0gp89917ko0.cloudfront.net/v--945f9d3cea66/common--theme/base/css/style.css);
 @import url(http://d3g0gp89917ko0.cloudfront.net/v--945f9d3cea66/common--theme/shiny/css/style.css);
 @import url(http://scpjp-fansite.wdfiles.com/local--theme/scp-rpjp-tau-9-shiny/style.css);
@@ -89,7 +89,7 @@ var month = now.getMonth() + 1; // 月
 if(year < 2000) { year += 1900; }
 if(month < 10) { month = "0" + month; }
 document.getElementById('date').innerHTML= year+'/'+month;
- -->
+ -->
 </script>
 </html>
 [[/html]]

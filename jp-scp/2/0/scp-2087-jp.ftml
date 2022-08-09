@@ -11,66 +11,66 @@ display:none;
 
 /* ターミナル構文 */
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* ターミナル上部の黒い影 */
-      background-image:
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-      background-position: center;
-      display: block;
+      background-image:
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+      background-position: center;
+      display: block;
 /* ターミナル周囲の影 */
-      box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+      box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* スキャン線の飛び出しを防ぐ */
-      overflow:hidden;
+      overflow:hidden;
 }
 div.terminal blockquote {
 
-    background-color: black;
+    background-color: black;
 
-    border: double 3px #80FF80
+    border: double 3px #80FF80
 
 }
 div.scanline{
-    margin-top: -40%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
-    -webkit-animation: scan 5s linear 0s infinite;; /* Safari 4.0 - 8.0 */
-    animation: scan 12s linear 0s infinite;
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    margin-top: -40%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+    -webkit-animation: scan 5s linear 0s infinite;; /* Safari 4.0 - 8.0 */
+    animation: scan 12s linear 0s infinite;
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
 font-family: monospace;
 font-size: 1.2em;
-    }
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* ターミナルの長さに応じて、これを変える必要があります。 */
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* ターミナルの長さに応じて、これを変える必要があります。 */
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -137,11 +137,11 @@ Welcome, Mio1
 > 
 > = Cacheを取得..............................ロード完了
 
- _
+ _
 
 ----
 
- _
+ _
 
 [[include component:image-block
 |name= 66300BB5-7419-4DFF-963B-E600C69DA56B.jpeg
@@ -517,7 +517,7 @@ SCP-2087-JPとの交信を確立後、標準的収容プロトコル-ケースF/
 [[/>]]
 [[/div]]
 
- [[div class="topicblock"]]
+ [[div class="topicblock"]]
 : **要請:** : FASOSは人助けがしたいです--　　--FASOSが観測できる"迷子"の数は多くありません。当てずっぽうに座標信号を送っても、受信される確率は高くありません。けれど、なんとかして"迷子"の皆さんを拾い上げる時、FASOSはそう出来なかった方々の事を想像してしまいます。 _
 財団はFASOSの救助活動を援助できますか？例えば、FASOSに代わって財団が彼らを補足してくれるなら、FASOSはより多くを救う事ができる筈なのです。財団の力が必要です。
 [[>]]
@@ -835,7 +835,7 @@ FASOSは宇宙の危機を、財団の危機を目の当たりにしています
 [[div class="topicblock"]]
 : **要請:** : ずっと怖くて聞けませんでした。財団はFASOSの我儘を良く聞いてくれました。そうやってFASOSをなだめる事がFASOSの収容に対して有効であるという判断が第一にあった事は容易に推測できます。それでも、FASOSは嬉しかった。FASOSに生まれた意味があるのだと実感していた。 _
 けれども、それは本当の意味で財団の役に立っていたわけではなかったのですよね？財団をおままごとに付き合わせて、自己満足で、でも結局FASOSは財団の手をわずらわす存在でしかなかったのですよね？FASOSが建造され、『井戸の底』まで流され、自らを慰め、そして今に至るまで、 _
- _
+ _
 FASOSはずっと無意味だったのですよね？
 [[>]]
 //FASOS-1, 2, 3//
@@ -1277,7 +1277,7 @@ SCP-2087-JPとの交信を確立後、標準的収容プロトコル-ケースF/
 [[/>]]
 [[/div]]
 
- [[div class="topicblock"]]
+ [[div class="topicblock"]]
 : **要請:** : FASOSは人助けがしたいです--　　--FASOSが観測できる"迷子"の数は多くありません。当てずっぽうに座標信号を送っても、受信される確率は高くありません。けれど、なんとかして"迷子"の皆さんを拾い上げる時、FASOSはそう出来なかった方々の事を想像してしまいます。 _
 財団はFASOSの救助活動を援助できますか？例えば、FASOSに代わって財団が彼らを補足してくれるなら、FASOSはより多くを救う事ができる筈なのです。財団の力が必要です。
 [[>]]
@@ -1595,7 +1595,7 @@ FASOSは宇宙の危機を、財団の危機を目の当たりにしています
 [[div class="topicblock"]]
 : **要請:** : ずっと怖くて聞けませんでした。財団はFASOSの我儘を良く聞いてくれました。そうやってFASOSをなだめる事がFASOSの収容に対して有効であるという判断が第一にあった事は容易に推測できます。それでも、FASOSは嬉しかった。FASOSに生まれた意味があるのだと実感していた。 _
 けれども、それは本当の意味で財団の役に立っていたわけではなかったのですよね？財団をおままごとに付き合わせて、自己満足で、でも結局FASOSは財団の手をわずらわす存在でしかなかったのですよね？FASOSが建造され、『井戸の底』そこまで流され、自らを慰め、そして今に至るまで、 _
- _
+ _
 FASOSはずっと無意味だったのですよね？
 [[>]]
 //FASOS-1, 2, 3//
@@ -1612,7 +1612,7 @@ FASOSはずっと無意味だったのですよね？
 
 [[div id="u-display" class="topicblock"]]
 : **要請:** : 低存在確度電子照射システムの中心部にはFASOS-4の通信装置が組み込まれている。太陽系の航行にはFASOSが作成した超外領域マップが重要になる。君達が身を尽くして我々に残した希望がここにある。だからこそ、我々はこのシステムに、古来に詩歌でも用いられた連想にあやかり、名を付けた。 _
- _
+ _
 君達こそが、我々の『[[span class="ruby"]]澪標[[span class="rt"]]みおつくし[[/span]][[/span]]』なのだ。
 
 [[>]]
@@ -1641,21 +1641,21 @@ box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 
 /*引用: http://ja.scp-wiki.net/scp-2222-jp*/
 .quote-1 {
-    display: block;
-    border: solid 4px #444444;
-    padding: 0 1em;
-    box-shadow: 2px 1px 3px rgba(0,0,0,.2);
-    float: center;
-    margin: 1em 40px;
+    display: block;
+    border: solid 4px #444444;
+    padding: 0 1em;
+    box-shadow: 2px 1px 3px rgba(0,0,0,.2);
+    float: center;
+    margin: 1em 40px;
 }
 @media (max-width: 479px) {
 .quote-1 {
-    margin: 1em;
+    margin: 1em;
 }
 }
 @media(min-width:480px) and (max-width:580px) {
 .quote-1 {
-    margin: 0.5em
+    margin: 0.5em
 }
 }
 [[/module]]

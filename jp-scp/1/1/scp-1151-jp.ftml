@@ -16,17 +16,17 @@
 @import url(http://scp-jp.wikidot.com/theme:wanderers/code/1);
 
 #page-content .rate-box-with-credit-button .creditButton {
-    background-color: #006c00;
-    border: 1px solid #006c00;
+    background-color: #006c00;
+    border: 1px solid #006c00;
 }
 
 #page-content .rate-box-with-credit-button .creditButton:hover {
-    background-color: #008f00;
-    border: 1px solid #008f00;
+    background-color: #008f00;
+    border: 1px solid #008f00;
 }
 
 #page-content .rate-box-with-credit-button .creditButton a:hover {
-    color: white;
+    color: white;
 }
 
 [[/module]]
@@ -45,7 +45,7 @@ display:none;
 
 
 [[module css]]
-.page-tags  {
+.page-tags  {
 display:none
 }
 [[/module]]
@@ -56,14 +56,14 @@ display:none
 #u-collapsible:target .folded{
 display:none;
 }
- 
+ 
 #u-collapsible:target .unfolded,
 #u-collapsible .folded{
 display:block;
 }
 
 #u-collapsible .unfolded {
-  background: black;
+  background: black;
 }
 [[/module]]
 
@@ -73,15 +73,15 @@ display:block;
 /*== 変数 ==*/
 :root {
 
-  /* 背景色 (デフォルトではwhite) */
-  --fadeout-background: black;
+  /* 背景色 (デフォルトではwhite) */
+  --fadeout-background: black;
 
-  /* フェードアウトにかかる時間 */
-  --fadeout-time: 1s;
+  /* フェードアウトにかかる時間 */
+  --fadeout-time: 1s;
 
-  /* 切り抜き済みのヘッダー(ヘッダー下部の影をキャンセルします)
-      Sigma9(通常のテーマ)以外のテーマを使用する場合、この変数のURLを変更してください。 */
-  --cropped-header: url(http://scp-jp.wdfiles.com/local--files/component:sh-theme/body_bg.png);
+  /* 切り抜き済みのヘッダー(ヘッダー下部の影をキャンセルします)
+      Sigma9(通常のテーマ)以外のテーマを使用する場合、この変数のURLを変更してください。 */
+  --cropped-header: url(http://scp-jp.wdfiles.com/local--files/component:sh-theme/body_bg.png);
 
 }
 
@@ -190,7 +190,7 @@ display:block;
 [[/collapsible]]
 [[/div]]
 
- 
+ 
 
 [[/div]]
 
@@ -282,16 +282,16 @@ SCP-1151-JPの主な異常性は以下の3種類です。
 
 [[module css]]
 .material-box {
-    padding: .01em 16px;
-    margin-bottom: 16px;
-    margin-top: 16px;
-    padding-bottom: 1em;
-    border: 1px lightgrey solid;
-    box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.16);
+    padding: .01em 16px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding-bottom: 1em;
+    border: 1px lightgrey solid;
+    box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.16);
 }
 
 .material-box blockquote {
-    border: 1px double #999;
+    border: 1px double #999;
 }
 
 .document {
@@ -305,7 +305,7 @@ box-shadow: 0 2px 4px rgba(68, 68, 68, .5);
 }
 
 #page-title {
-  display: none;
+  display: none;
 }
 [[/module]]
 
@@ -318,7 +318,7 @@ box-shadow: 0 2px 4px rgba(68, 68, 68, .5);
 +* ##black|IT部門##
 [[/div]]
 [[div class="orderdescription"]]
- _
+ _
 +* ##black|議事録##
 ##black|以下のファイルは人格再現型AICによって行われたSCP-1151-JPの性質に関する議論のアーカイブです。##
 [[/div]]

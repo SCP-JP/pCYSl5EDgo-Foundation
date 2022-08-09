@@ -13,7 +13,7 @@
 
 **特別収容プロトコル:** 
 
- **この報告書はSCP-1991-JPの曝露者を発見する目的の為、指示コードが再生されています、コードによる指示が確認できた場合、コードに従って認証を行ってください**
+ **この報告書はSCP-1991-JPの曝露者を発見する目的の為、指示コードが再生されています、コードによる指示が確認できた場合、コードに従って認証を行ってください**
 
 遺物サイト-215がSCP-1991-JPの周囲に構築され、アクセスを防止し、景観から遮断しています。遺物サイト-215はロシア連邦軍の軍需品保管庫を装っており、ロシア政府内のエージェントは、サイトが公に国有地として隔離される事を確実にしてください。全ての入り口はロシア軍の標準的な武装を身に着けた機動部隊ру-22（”タタールの軛”）によって警備され、各管理室には常に1名のオペレータが駐在し、ロシア政府から派遣された連絡員を含むサイト内の全ての人員を把握できるようにしてください。また、乱数放送によるコード表は常に遺物サイト内の兵器庫にて対爆製の金庫に入れて保管し、一週間に一度サイトの駐在員以外のレベル3以上の研究員によって所在を確認してください。
 
@@ -63,7 +63,7 @@ SCP-1991-JP-1は館内放送に従い、項目別に会議室での概要講義[
 
 
 **インシデント-SY1-20██/██/██**
- 
+ 
 20██/██/██日、現地時間22：00分、遺物サイト215は不明勢力により襲撃を受けました。襲撃者はロシア連邦軍の標準的な火器で武装した一個小隊で、空中からの降下により管理室の一つを占拠、館内に指示コードを放送しました。これにより機動部隊ру-22（”タタールの軛”）の一部と研究員数名が離反、襲撃者の一団に加わりました。機動部隊ру-22の残存勢力と遺物サイトを訪れていたロシア政府の連絡員数名[[footnote]]のちの調査により連絡員はGRU"P"部局の局員であったと判明、ロシア政府より悪用を避けるためとの証言を得られた[[/footnote]]が協力して行った反抗作戦によりこの襲撃は鎮圧されました。調査によりこの襲撃勢力はロゴス・コーポレーションの構成員によるものと断定されました。またこの時、襲撃者の所持品より財団が所有していない指示コードを記した暗号表が回収されました。この暗号表を解読する事により曝露者に対する新たな指示コードがいくつか発見され、これにより現在、曝露者を発見するために遺物サイト-215及びSCP-1991-JPの閲覧者に乱数放送による確認作業が行われています。また、この指示コードの発見により財団内へのロゴス・コーポレーションの浸透工作が懸念され、曝露者を発見するためのプロトコル-クレムリンの呼び声の発動が急がれています。20██年現在、プロトコル発動の為の準備は77％完了しています。
 
 
@@ -137,7 +137,7 @@ var int = setInterval(numberStation, 3000)
 var timelimitMin = 7;//ノイズが流れる時間（分）
 var valume = 0.5;//音量調整
 var gradientStop = 20;//ノイズの音量が徐々に小さくなり始める残り時間（秒）
- 
+ 
 /*ここから触るな*/
 var MuteGradient;
 if(timelimitMin > 0){
@@ -148,39 +148,39 @@ gradientStop *= 100;
 }
 timelimitMin *= (1000 * 60);
 }
- 
+ 
 var oldTime = new Date();
 oldTime = oldTime.getTime();
- 
+ 
 var AudioContext = window.AudioContext || window.webkitAudioContext;
 var audioContext = new AudioContext;
 var bufferSize = 4096;
 var brownNoise = (function() {
-    var lastOut = 0.0;
-    var node = audioContext.createScriptProcessor(bufferSize, 1, 1);
-    node.onaudioprocess = function(e) {
-        var output = e.outputBuffer.getChannelData(0);
-        for (var i = 0; i < bufferSize; i++) {
-            var white = Math.random() * 2 - 1;
-            output[i] = (lastOut + (0.02 * white)) / 1.02;
-            lastOut = output[i];
-            output[i] *= valume; // 音量調整
-        }
-    }
-    return node;
+    var lastOut = 0.0;
+    var node = audioContext.createScriptProcessor(bufferSize, 1, 1);
+    node.onaudioprocess = function(e) {
+        var output = e.outputBuffer.getChannelData(0);
+        for (var i = 0; i < bufferSize; i++) {
+            var white = Math.random() * 2 - 1;
+            output[i] = (lastOut + (0.02 * white)) / 1.02;
+            lastOut = output[i];
+            output[i] *= valume; // 音量調整
+        }
+    }
+    return node;
 })();
- 
+ 
 brownNoise.connect(audioContext.destination);
 if(timelimitMin > 0)stopNoise();
 function stopNoise(){
 var newTime = new Date();
 newTime = newTime.getTime();
- 
+ 
 if((newTime - oldTime > (timelimitMin-gradientStop )) && (gradientStop!=0)){
 valume -= MuteGradient;
 brownNoise.connect(audioContext.destination);
 }
- 
+ 
 if(newTime - oldTime < (timelimitMin)){
 setTimeout(stopNoise,100);
 }else{

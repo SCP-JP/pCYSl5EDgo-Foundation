@@ -1,338 +1,338 @@
 [[module CSS]]
 /* Classic SCP Foundation Theme
- * [2020 Wikidot Theme]
- * Created by Lt Flops
+ * [2020 Wikidot Theme]
+ * Created by Lt Flops
 **/
 
 /* ---- PAGE WRAP ---- */
- div#container-wrap{
-     background-image: url(http://scp-wiki.wdfiles.com/local--files/theme%3Aclassic/classic_body_bg.png);
-     background-repeat: repeat-x;
+ div#container-wrap{
+     background-image: url(http://scp-wiki.wdfiles.com/local--files/theme%3Aclassic/classic_body_bg.png);
+     background-repeat: repeat-x;
 }
 
 /* ---- HEADERS ---- */
- span, a{
-     word-break: unset;
+ span, a{
+     word-break: unset;
 }
- h1{
-     font-size: 190%;
+ h1{
+     font-size: 190%;
 }
- h1, h2, h3, h4, h5, h6{
-     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
+ h1, h2, h3, h4, h5, h6{
+     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
 }
- #header h1,
- #header h2{
-     margin-left: -.16em;
+ #header h1,
+ #header h2{
+     margin-left: -.16em;
 }
- #header h1{
-     max-height: 105px;
-     margin: 0;
+ #header h1{
+     max-height: 105px;
+     margin: 0;
 }
- #header h2{
-     margin: 0;
+ #header h2{
+     margin: 0;
 }
 
 /* ---- SITE HEADER ---- */
- #header h1 a,
- #header h2 span{
-     color: transparent;
-     text-shadow: none;
+ #header h1 a,
+ #header h2 span{
+     color: transparent;
+     text-shadow: none;
 }
- #header h1 a{
-     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
-     letter-spacing: 0;
+ #header h1 a{
+     font-family: "Trebuchet MS", "Trebuchet", "Verdana", "Arial", "Helvetica", sans-serif;
+     letter-spacing: 0;
 }
- #header h1 a::before,
- #header h2 span::before{
-     text-shadow: none;
+ #header h1 a::before,
+ #header h2 span::before{
+     text-shadow: none;
 }
- #header h1 a::before{
-     content: "The SCP Foundation";
-     color: hsl(0, 0%, 93%);
+ #header h1 a::before{
+     content: "The SCP Foundation";
+     color: hsl(0, 0%, 93%);
 }
- #header h2 span::before{
-     content: "To Secure, Contain, and Protect";
-     color: hsl(353, 100%, 30%);
+ #header h2 span::before{
+     content: "To Secure, Contain, and Protect";
+     color: hsl(353, 100%, 30%);
 }
 
 /* ---- TOP MENU ---- */
- #header{
-     background: none;
+ #header{
+     background: none;
 }
- #top-bar ul li,
- #top-bar ul li ul{
-     box-shadow: none;
+ #top-bar ul li,
+ #top-bar ul li ul{
+     box-shadow: none;
 }
- #top-bar ul li ul{
-     border-color: hsl(0, 0%, 27%);
-     border-style: solid;
-     border-width: 0 1px 1px;
+ #top-bar ul li ul{
+     border-color: hsl(0, 0%, 27%);
+     border-style: solid;
+     border-width: 0 1px 1px;
 }
- #top-bar ul li a{
-     border-color: hsl(0, 0%, 27%);
-     border-style: solid;
-     border-width: 0 0 0 1px;
+ #top-bar ul li a{
+     border-color: hsl(0, 0%, 27%);
+     border-style: solid;
+     border-width: 0 0 0 1px;
 }
- #top-bar ul li a::before{
-     content: "[";
+ #top-bar ul li a::before{
+     content: "[";
 }
- #top-bar ul li a::after{
-     content: "]";
-     position: relative;
+ #top-bar ul li a::after{
+     content: "]";
+     position: relative;
 
 /* NOTE: The Top Bar Menu has spaces after each bullet, which is why this is done: */
-     left: -.3em;
+     left: -.3em;
 }
- #top-bar ul li ul li a::before{
-     content: unset;
+ #top-bar ul li ul li a::before{
+     content: unset;
 }
- #top-bar ul li ul li a::after{
-     content: unset;
+ #top-bar ul li ul li a::after{
+     content: unset;
 }
- .mobile-top-bar{
-     bottom: -.5px;
+ .mobile-top-bar{
+     bottom: -.5px;
 }
 
 /* ---- SEARCH BOX ---- */
- #search-top-box input.empty{
-     color: hsl(0, 0%, 45%);
+ #search-top-box input.empty{
+     color: hsl(0, 0%, 45%);
 }
- #search-top-box-input{
-     color: hsl(0, 0%, 5%);
-     background-color: hsl(0, 0%, 100%);
-     border: 1px solid hsl(0, 0%, 47%);
-     border-radius: 0;
-     box-shadow: none;
+ #search-top-box-input{
+     color: hsl(0, 0%, 5%);
+     background-color: hsl(0, 0%, 100%);
+     border: 1px solid hsl(0, 0%, 47%);
+     border-radius: 0;
+     box-shadow: none;
 }
- #search-top-box-input:hover,
- #search-top-box-input:focus{
-     color: hsl(0, 0%, 5%);
-     background-color: hsl(0, 0%, 100%);
-     border: 1px solid hsl(0, 0%, 47%);
-     box-shadow: none;
+ #search-top-box-input:hover,
+ #search-top-box-input:focus{
+     color: hsl(0, 0%, 5%);
+     background-color: hsl(0, 0%, 100%);
+     border: 1px solid hsl(0, 0%, 47%);
+     box-shadow: none;
 }
- #search-top-box-form input[type="submit"]{
-     color: hsl(0, 0%, 5%);
-     background: hsl(0, 0%, 96%);
-     border: 1px solid hsl(0, 0%, 67%);
-     border-radius: 0;
-     box-shadow: none;
-     font-size: 100%;
-     font-weight: normal;
+ #search-top-box-form input[type="submit"]{
+     color: hsl(0, 0%, 5%);
+     background: hsl(0, 0%, 96%);
+     border: 1px solid hsl(0, 0%, 67%);
+     border-radius: 0;
+     box-shadow: none;
+     font-size: 100%;
+     font-weight: normal;
 }
- #search-top-box-form input[type="submit"]:hover,
- #search-top-box-form input[type="submit"]:focus{
-     color: hsl(0, 0%, 5%);
-     background: hsl(0, 0%, 87%);
-     border: 1px solid hsl(0, 0%, 67%);
-     box-shadow: none;
+ #search-top-box-form input[type="submit"]:hover,
+ #search-top-box-form input[type="submit"]:focus{
+     color: hsl(0, 0%, 5%);
+     background: hsl(0, 0%, 87%);
+     border: 1px solid hsl(0, 0%, 67%);
+     box-shadow: none;
 }
 
 /* ---- SIDE MENU ---- */
- #side-bar{
-     clear: both;
-     padding: .78em;
-     padding-bottom: 0;
-     border: 1px solid hsl(0, 0%, 87%);
-     border-radius: 0;
-     box-shadow: none;
-     margin: auto;
+ #side-bar{
+     clear: both;
+     padding: .78em;
+     padding-bottom: 0;
+     border: 1px solid hsl(0, 0%, 87%);
+     border-radius: 0;
+     box-shadow: none;
+     margin: auto;
 }
- #side-bar .side-block{
-     margin: auto;
-     background: transparent;
-     border: none;
-     border-radius: 0;
-     box-shadow: none;
+ #side-bar .side-block{
+     margin: auto;
+     background: transparent;
+     border: none;
+     border-radius: 0;
+     box-shadow: none;
 }
- #side-bar .heading{
-     padding-left: 0;
-     color: hsl(0, 0%, 5%);
-     border-bottom: 1px solid hsl(0, 0%, 67%);
-     margin: auto;
+ #side-bar .heading{
+     padding-left: 0;
+     color: hsl(0, 0%, 5%);
+     border-bottom: 1px solid hsl(0, 0%, 67%);
+     margin: auto;
 }
 
 /* ---- INFO BAR ---- */
- body{
-     --barColour: hsl(0, 0%, 28%);
+ body{
+     --barColour: hsl(0, 0%, 28%);
 }
 
 /* ---- INFO PANE ---- */
 .creditRate{
-     margin-right: 0 !important;
-     border: none !important;
+     margin-right: 0 !important;
+     border: none !important;
 }
- .rate-box-with-credit-button .fa-info{
-     background-color: hsl(0, 0%, 40%) !important;
-     border: none !important;
-     border-radius: 0 !important;
-     box-shadow: none !important;
+ .rate-box-with-credit-button .fa-info{
+     background-color: hsl(0, 0%, 40%) !important;
+     border: none !important;
+     border-radius: 0 !important;
+     box-shadow: none !important;
 }
- .rate-box-with-credit-button .fa-info:hover{
-     color: hsl(0, 0%, 95%);
-     border-left: none !important;
+ .rate-box-with-credit-button .fa-info:hover{
+     color: hsl(0, 0%, 95%);
+     border-left: none !important;
 }
- .rate-box-with-credit-button .cancel{
-     color: hsl(112, 100%, 77%);
+ .rate-box-with-credit-button .cancel{
+     color: hsl(112, 100%, 77%);
 }
- .close-credits,
- .credit-back{
-     filter: hue-rotate(280deg);
+ .close-credits,
+ .credit-back{
+     filter: hue-rotate(280deg);
 }
- .modalbox{
-     max-height: unset !important;
-     border-radius: 0 !important;
-     box-shadow: none !important;
+ .modalbox{
+     max-height: unset !important;
+     border-radius: 0 !important;
+     box-shadow: none !important;
 }
- .modalbox .modalbox-title {
-     background-color: #3e2659;
-     background-color: var(--fg-medium);
-     color: #eee;
-     color: var(--page-title);
-     font-weight: bold;
-     border-radius: 0;
-     border-bottom: 3px solid #3e2659;
-     border-bottom: 3px solid var(--fg-muted-dark);
+ .modalbox .modalbox-title {
+     background-color: #3e2659;
+     background-color: var(--fg-medium);
+     color: #eee;
+     color: var(--page-title);
+     font-weight: bold;
+     border-radius: 0;
+     border-bottom: 3px solid #3e2659;
+     border-bottom: 3px solid var(--fg-muted-dark);
 }
 
- .rateBox .rate-box-with-credit-button .creditButton {
-     background-color: #1e122b !important;
-     background-color: var(--fg-dark) !important;
-     border: solid 1px #482c68;
-     border: solid 1px var(--fg-med-dark);
-     border-radius: 0;
+ .rateBox .rate-box-with-credit-button .creditButton {
+     background-color: #1e122b !important;
+     background-color: var(--fg-dark) !important;
+     border: solid 1px #482c68;
+     border: solid 1px var(--fg-med-dark);
+     border-radius: 0;
 }
 
 /* ---- PAGE RATING ---- */
 .page-rate-widget-box{
-     margin-right: 0;
-     border-radius: 0;
-     box-shadow: none;
+     margin-right: 0;
+     border-radius: 0;
+     box-shadow: none;
 }
- .page-rate-widget-box .rate-points{
-     background-color: hsl(0, 0%, 40%) !important;
-     border: none;
-     border-radius: 0;
+ .page-rate-widget-box .rate-points{
+     background-color: hsl(0, 0%, 40%) !important;
+     border: none;
+     border-radius: 0;
 }
- .page-rate-widget-box .rateup,
- .page-rate-widget-box .ratedown{
-     background-color: hsl(0, 0%, 87%);
-     border: none;
-     font-weight: normal;
+ .page-rate-widget-box .rateup,
+ .page-rate-widget-box .ratedown{
+     background-color: hsl(0, 0%, 87%);
+     border: none;
+     font-weight: normal;
 }
- .page-rate-widget-box .rateup a,
- .page-rate-widget-box .ratedown a{
-     color: hsl(0, 0%, 5%);
+ .page-rate-widget-box .rateup a,
+ .page-rate-widget-box .ratedown a{
+     color: hsl(0, 0%, 5%);
 }
- .page-rate-widget-box .rateup a:hover,
- .page-rate-widget-box .ratedown a:hover{
-     color: hsl(0, 0%, 5%);
-     background: hsl(0, 0%, 93%);
-     text-decoration: underline;
+ .page-rate-widget-box .rateup a:hover,
+ .page-rate-widget-box .ratedown a:hover{
+     color: hsl(0, 0%, 5%);
+     background: hsl(0, 0%, 93%);
+     text-decoration: underline;
 }
- .page-rate-widget-box .cancel{
-     background-color: hsl(0, 0%, 87%);
-     border: none;
-     border-radius: 0;
+ .page-rate-widget-box .cancel{
+     background-color: hsl(0, 0%, 87%);
+     border: none;
+     border-radius: 0;
 }
- .page-rate-widget-box .cancel a{
-     color: hsl(0, 0%, 5%);
-     text-transform: lowercase;
+ .page-rate-widget-box .cancel a{
+     color: hsl(0, 0%, 5%);
+     text-transform: lowercase;
 }
- .page-rate-widget-box .cancel a:hover{
-     color: hsl(0, 0%, 5%);
-     background: hsl(0, 0%, 93%);
-     text-decoration: underline;
+ .page-rate-widget-box .cancel a:hover{
+     color: hsl(0, 0%, 5%);
+     background: hsl(0, 0%, 93%);
+     text-decoration: underline;
 }
 
 /* ----- GENERAL ----- */
- body{
-     color: hsl(0, 0%, 5%);
-     word-break: unset;
+ body{
+     color: hsl(0, 0%, 5%);
+     word-break: unset;
 }
- hr{
-     height: 0;
-     margin: 1em 0;
-     background-color: transparent;
-     border-top: 1px solid hsl(0, 0%, 67%);
+ hr{
+     height: 0;
+     margin: 1em 0;
+     background-color: transparent;
+     border-top: 1px solid hsl(0, 0%, 67%);
 }
 
 /* ---- IMAGE BLOCK ---- */
- .scp-image-block.block-right{
-     margin: 0 0 1em 2em;
-     box-shadow: none;
+ .scp-image-block.block-right{
+     margin: 0 0 1em 2em;
+     box-shadow: none;
 }
 
 /* ---- CLASSIC IMAGE BLOCK DIV ---- */
- .classic-image-block{
-     float: right;
-     width: 300px;
-     margin: 0 0 1em 2em;
-     text-align: center;
+ .classic-image-block{
+     float: right;
+     width: 300px;
+     margin: 0 0 1em 2em;
+     text-align: center;
 }
 
 /* ---- YUI TABS ---- */
- .yui-navset .yui-nav a,
- .yui-navset .yui-navset-top .yui-nav a{
-    /* ---- Tab Background Colour | [UNSELECTED] ---- */
-     background-color: hsl(0, 0%, 100%);
-    /* -------- */
-     background-image: none;
+ .yui-navset .yui-nav a,
+ .yui-navset .yui-navset-top .yui-nav a{
+    /* ---- Tab Background Colour | [UNSELECTED] ---- */
+     background-color: hsl(0, 0%, 100%);
+    /* -------- */
+     background-image: none;
 }
- .yui-navset .yui-nav a:hover,
- .yui-navset .yui-nav a:focus{
-    /* ---- Tab Background Colour | [HOVER] ---- */
-     background-color: hsl(0, 49%, 91%);
-    /* -------- */
-     background-image: none;
+ .yui-navset .yui-nav a:hover,
+ .yui-navset .yui-nav a:focus{
+    /* ---- Tab Background Colour | [HOVER] ---- */
+     background-color: hsl(0, 49%, 91%);
+    /* -------- */
+     background-image: none;
 }
- .yui-navset .yui-nav .selected a,
- .yui-navset .yui-nav .selected a:focus,
- .yui-navset .yui-nav .selected a:hover{
-    /* ---- Tab Background Colour | [SELECTED] ---- */
-     background-color: hsl(0, 70%, 35%);
-    /* -------- */
-     background-image: none;
+ .yui-navset .yui-nav .selected a,
+ .yui-navset .yui-nav .selected a:focus,
+ .yui-navset .yui-nav .selected a:hover{
+    /* ---- Tab Background Colour | [SELECTED] ---- */
+     background-color: hsl(0, 70%, 35%);
+    /* -------- */
+     background-image: none;
 }
 
 
 /* --- INTERWIKI --- */
- iframe.scpnet-interwiki-frame{
-     position: relative;
-     width: 17em;
-     height: 12em;
-     margin-left: .313em;
-     background-color: transparent;
+ iframe.scpnet-interwiki-frame{
+     position: relative;
+     width: 17em;
+     height: 12em;
+     margin-left: .313em;
+     background-color: transparent;
 }
 
 /* ---- MOBILE MEDIA QUERIES ---- */
- @media (max-width: 767px){
-       #side-bar .side-block{
-          background-color: hsl(0, 0%, 100%);
-          margin: auto;
-     }
-      #side-bar:after{
-          background-color: hsla(0, 0%, 30%, .2);
-          margin: auto;
-     }
+ @media (max-width: 767px){
+       #side-bar .side-block{
+          background-color: hsl(0, 0%, 100%);
+          margin: auto;
+     }
+      #side-bar:after{
+          background-color: hsla(0, 0%, 30%, .2);
+          margin: auto;
+     }
 }
- @media (max-width: 479px),
- @media (min-width: 480px) and (max-width: 580px),
- @media (min-width: 581px) and (max-width: 767px){
-      #side-bar .side-block{
-          background-color: hsl(0, 0%, 100%);
-　　　  margin: auto;
-     }
-      #side-bar:after{
-          background-color: hsla(0, 0%, 30%, .2);
-          margin: auto;
-     }
-      #header, .mobile-top-bar{
-          max-width: 95%;
-     }
-      .mobile-top-bar{
-          left: 0;
-     }
+ @media (max-width: 479px),
+ @media (min-width: 480px) and (max-width: 580px),
+ @media (min-width: 581px) and (max-width: 767px){
+      #side-bar .side-block{
+          background-color: hsl(0, 0%, 100%);
+　　　  margin: auto;
+     }
+      #side-bar:after{
+          background-color: hsla(0, 0%, 30%, .2);
+          margin: auto;
+     }
+      #header, .mobile-top-bar{
+          max-width: 95%;
+     }
+      .mobile-top-bar{
+          left: 0;
+     }
 }
 [[/module]]
 
@@ -340,7 +340,7 @@
 **タイトル:** SCP-822-JP - 外閣感冒
 **著者:** ©︎[[*user stengan774]]
 **作成年:** 2020
- 
+ 
 ----
 //[[[author:stengan774|この著者の他の作品]]]//
 [[include credit:end]]
@@ -383,7 +383,7 @@ SCP-822-JPは19██/██/██、日本国東京都██区の地下鉄█
 SCP-822-JP-02収容後の研究によって、その発声内容がOPREmpr-000031[[footnote]]**{{疑念3:}}** 詳細不明なコード。"OPR"はオペレーション/作戦に割り振られる接頭コードだが、Emprの指す事項は不明。[[/footnote]]に関連した重要な情報源であると判断されたため、同様の特徴を持つ人型実体の本格的な確保作戦が展開されました。以下はその成果として作成された、既知のSCP-822-JP実例リストです。
 
 ||~ 番号||~ 置換された頭部||~ 発声内容||~ 注記||
-|| 01 || 特筆すべき点は無し[[footnote]]**{{疑念4:}}** SCP-822-JP-01に関する著しい情報の不足。[[/footnote]] || 無し ||  ||
+|| 01 || 特筆すべき点は無し[[footnote]]**{{疑念4:}}** SCP-822-JP-01に関する著しい情報の不足。[[/footnote]] || 無し ||  ||
 || 02 || 未知の言語で埋められた外国電報送達紙 || "ここに我らが帝国は汝ら宵の国に対して宣戦布告を行う。昭に忠誠勇武なる臣民尖兵により、帝国の光栄は酒気の堕落にまみれた汝らの闇を焼き尽くすであろう。" || 説明セクションを参照。 ||
 || 03 || 旧式の警察制帽 || "反乱を扇動し帝国政府をゆるがせにしたhairburden[[footnote]]侮蔑の意味を含む形容詞と推測される。[[/footnote]]臣民。その枝葉の血統に至るまでもが潜在的な下劣頽廃者であり、依然脅威なれば転向・族滅もやむなし。名誉警官よ走れ。正統世界のリンチを叩き下せ。" || 警察庁特事調査部[[footnote]]当該団体に関しては要注意団体観測所(OGI)編纂の"警視庁公安部特事第一課の壊滅と再編について"(████)を参照せよ。[[/footnote]]^^,^^[[footnote]]**{{疑念5:}}** 当該文書は存在せず、警視庁公安部特事課は現在も存続している。[[/footnote]]との[[[scp-014-jp-ex|協定]]]に基づき財団へ引き渡された。 ||
 || 04 || 白紙の金銭出納帳簿 || "えー、帝国の長き歴心期間において、臣民達は脳無しらしく、愚直に殖産富国に務めてきた訳で、あります。今回の国庫蚕食につきましては、えー、何よりも五億を下らぬ忘失が宵の者らの手によることは明らかでして、えー、けして新天蓋の16光条奏上への出費が必ずしも主たる原因ではないので、あります。" || ||
@@ -391,16 +391,16 @@ SCP-822-JP-02収容後の研究によって、その発声内容がOPREmpr-00003
 || 06 || ミニチュアの軍艦 || "堕ち行く光宮を前に後悔の念が去来する。下陸軍は戦場の華々しい面のみを臣民に触れ回ったが、我ら昇海は知っていた。夜は穢れたるおぞましき禁忌。侵略と開拓は主客を逆転させ、宣戦した時点で我らはすでに敗北していたのだ。忘れていた。奴らは人ですら無かった。" || 警察庁特事調査部との協定に基づき財団へ引き渡された。 ||
 || 07 || [[[SCP-2944-JP|傾いた天秤]]] || (旧大日本帝国の下で施行されていた刑法全文。犯罪の実行者と被害者の身分によって刑罰の重さを変更する長大な例外規則が付随する) || [[[elma-hub|GoI-101("エルマ外教")]]]への襲撃によって確保。 ||
 || 08 || 巨大な万年筆の筆先 || (小学生に向けて起草されたと思われる植物の生態についての簡潔な解説。但しすべての植物の発芽と成長に"光芒"と呼称される存在が関与している) || 北海道札幌市のホテル█████より回収 ||
-|| 09 || 斧または鍬の刃 || "豊年だ。豊年だ。このおおきな支配機構こそが我らに限りない恵みと実りを約束してくださる。絶対的な統率こそ我らが切実に求めていたものであり、世界とともに我らは支配される。屈服こそが自由。安心こそが束縛。脳無しは光芒の永世君臨にこうべを垂れる。" ||  ||
+|| 09 || 斧または鍬の刃 || "豊年だ。豊年だ。このおおきな支配機構こそが我らに限りない恵みと実りを約束してくださる。絶対的な統率こそ我らが切実に求めていたものであり、世界とともに我らは支配される。屈服こそが自由。安心こそが束縛。脳無しは光芒の永世君臨にこうべを垂れる。" ||  ||
 || 10 || 巨大な金槌 || "帝国の臣民奉仕是の第一義は労働なりて、労働者は恒久の輝きを放つ。白昼に影立つあらゆる労苦を背負いし者ら、なんと美しく。鉄、血、油こそが真に其の陽射を焚きつける。" || [[[gru-p-hub|ソ連軍参謀本部情報総局"P"部局(GRU“P”部局)]]]の日本人協力者として調査が進められていた████ ██の自宅から回収 ||
-|| 11 || 旧式の郵便ポスト(丸型ポスト)の上部 || "敗戦を検閲せよ。世界を正統に塗り替えよ。さんざめく光芒、未だ暁に眠らず。" ||  ||
+|| 11 || 旧式の郵便ポスト(丸型ポスト)の上部 || "敗戦を検閲せよ。世界を正統に塗り替えよ。さんざめく光芒、未だ暁に眠らず。" ||  ||
 || 12 || 巨大な検札鋏 || "所詮眠らぬ片道切符。北極星は天蓋に二度と輝かず、英雄は白昼夢に落ちる。沿線敷設はどこまで続く？██████なんぞはくだらない。どうせ倫理は閉塞されぬれば、浮かれ浮世の憂さ晴らし。" || GoI-101("エルマ外教")への襲撃によって確保。 ||
 || 13 || 図案化された眼のポスター || (ジョージ・オーウェル著『1984年』と推測されるストーリーの改変された要約。本編に登場する超国家"オセアニア"に属する植民地の監督日誌の形式を取る) || 南アフリカ、ヨハネスブルクの施設██████ █████より回収 ||
 || 14 || 巨大な注射器 || "君の反駁は恣意的だよ。暴力による統治を正当化するわけでは無いが、絶対的な権力には絶対的な暴力機構がkwigod[[footnote]]神聖さを示す形容詞と推測される。[[/footnote]]的に不可欠だ。力こそ我らを守る盾であり、その庇護を余すことなく受け止めるのが新たな光芒歴心時代の効率的で合理的で賢い振る舞い方なのだよ。" || 異常物品の取引に関連する団体、"埜木商会"への襲撃によって確保 ||
-|| 15 || 未知の言語で埋められたリスト || "帝国に血を巡らせなければならぬ。宵の国は未だ脅威であり、歴心期間の腑抜け脳無しは指令を与えねば動かぬ。光芒の息吹は絶えてはならない。私が終わり無き循環業務の渦に呑まれようとも、希望は前進を続けるだろう。" ||  ||
+|| 15 || 未知の言語で埋められたリスト || "帝国に血を巡らせなければならぬ。宵の国は未だ脅威であり、歴心期間の腑抜け脳無しは指令を与えねば動かぬ。光芒の息吹は絶えてはならない。私が終わり無き循環業務の渦に呑まれようとも、希望は前進を続けるだろう。" ||  ||
 || 16 || 木製警棒 || "警戒せよ、腐敗と旧悪を警戒せよ。当局としては徹底して捜査する。固陋とした倫理で疑わしきを罰せぬのは法の不備なり。末端の腐敗は疾く切り落とさねばならぬ。いわんや戦時中である。夜と通づる厭戦者討つべし。" || カナダのライブハウス████████より回収 ||
 || 17 || 紙製烏帽子 || "名誉職務だけでごじゃりましゅる。燦然と輝く事象の継続。我ら栄誉として保存され、脳無しに刻みこまれることで帝国の残される筐体となるのでしゅ。至高の名誉職務である我ら、当然であろ。" || ███県██市に存在する国立公園より回収 ||
-|| 18 || 鉄製平鍋 || "未だ遠い。しかれど手は届く。無限の光背が見える。ああ、帝国よ、素晴らしい。" ||  ||
+|| 18 || 鉄製平鍋 || "未だ遠い。しかれど手は届く。無限の光背が見える。ああ、帝国よ、素晴らしい。" ||  ||
 
 SCP-822-JP-02から018が全てサイト-8141に収容された直後、SCP-822-JP-01が回収されました。通常SCP-822-JP-01は自発的な発声を行いません。しかし他のSCP-822-JP実例とSCP-822-JP-01を接触させた場合、SCP-822-JP実例はお互いの手を握りながら輪になり、SCP-822-JP-01を内側に取り囲んだ円陣隊形を構築します。
 
@@ -492,19 +492,19 @@ SCP-822-JP-02から018が全てサイト-8141に収容された直後、SCP-822-
 
 [[module css]]
 .notice06-wrapper {
-  position: relative;
-  display: inline-block;
-  border: double 5px #999999;
-  background: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A5644609-106-2lvf/scp-trans.png') no-repeat center/75%;
-  margin: 0 auto;
-  width: 85%;
-  box-shadow: 0 0 10px rgba(0,0,0,.2);
-  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  border: double 5px #999999;
+  background: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A5644609-106-2lvf/scp-trans.png') no-repeat center/75%;
+  margin: 0 auto;
+  width: 85%;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  overflow: hidden;
 }
 
 .notice06-mask {
-  padding: 5px 13px;
-  background: rgba(255,255,255,0.75);
+  padding: 5px 13px;
+  background: rgba(255,255,255,0.75);
 }
 [[/module]]
 [[=]]
@@ -570,7 +570,7 @@ SCP-822-JP-02から018が全てサイト-8141に収容された直後、SCP-822-
 [[<]]
 [[=]]
 +++ **Record 19██/██/██ 12:14**
-+++  サイト-8141 カフェテリア 監視カメラによる記録
++++  サイト-8141 カフェテリア 監視カメラによる記録
 [[/=]]
 
 ----
@@ -602,7 +602,7 @@ SCP-822-JP-02から018が全てサイト-8141に収容された直後、SCP-822-
 
 [[=]]
 + **事案822-JP-A評価**
-+++  調査結果: サイト-8141中庭
++++  調査結果: サイト-8141中庭
 [[/=]]
 
 [[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A5644609-21-d9y1/architecture-1138967_640.jpg style="-webkit-filter:grayscale(100%);-moz-filter: grayscale(100%);filter:grayscale(100%);max-width:80%;"]]
@@ -631,7 +631,7 @@ SCP-822-JP-02から018が全てサイト-8141に収容された直後、SCP-822-
 [[<]]
 [[=]]
 +++ **Record 19██/██/██ 12:19**
-+++  場所不明 音声記録
++++  場所不明 音声記録
 [[/=]]
 
 ----

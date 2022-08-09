@@ -5,70 +5,70 @@
 [[module CSS]]
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* black shadow at the top of the terminal */
-    background-image: 
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -115,7 +115,7 @@ An instance of SCP-4285, found on a PowerPoint in Site-27. The image is doctored
 [[/div]]
 [[/div]]
 
-**Special Containment Procedures:** Foundation software will be installed into each Windows PC, labelled as "Windows System Defender," in order to reduce SCP-4285 incidence. All forms of Microsoft Office are to have Foundation software running in the background in order to reduce SCP-4285 outbreaks. All forms of online office assistants are to be discontinued. Foundation webcrawlers are to ensure  office assistants and WordArt™ receive a negative response online through use of written media and memes.
+**Special Containment Procedures:** Foundation software will be installed into each Windows PC, labelled as "Windows System Defender," in order to reduce SCP-4285 incidence. All forms of Microsoft Office are to have Foundation software running in the background in order to reduce SCP-4285 outbreaks. All forms of online office assistants are to be discontinued. Foundation webcrawlers are to ensure  office assistants and WordArt™ receive a negative response online through use of written media and memes.
 
 **Description:** SCP-4285 refers to an aggregate of image macros particular to Microsoft Office 97™, colloquially known as types of WordArt™. SCP-4285 is capable of self-insertion into any type of written media, provided that the media is either being produced by a Windows brand software, or produced on a Windows computer. SCP-4285 instances always manifest with the former Microsoft mascot, Clippy, in the bottom right corner, in a variety of poses. SCP-4285 instances are capable of memetic direction and reality restructuring, forcing those who view any instance to immediately perform the suggested direction.
 

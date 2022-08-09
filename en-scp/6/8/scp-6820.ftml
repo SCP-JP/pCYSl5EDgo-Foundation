@@ -8,27 +8,27 @@
 @@ @@
 [[module css]]
 #page-content .main-class::before {
-    margin-right: 13px;
-    margin-top: 6px;
+    margin-right: 13px;
+    margin-top: 6px;
 }
 
 #page-content .main-class::after {
-    margin-right: 10px;
-    margin-top: 6px;
+    margin-right: 10px;
+    margin-top: 6px;
 }
 
 #page-content .custom1 .bottom-icon::before {
-    filter: none !important;
-    -webkit-filter: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
 }
 
 .custom3 {
-    --esoteric: var(--five-color);
-    --lg-bar: var(--five-color);
+    --esoteric: var(--five-color);
+    --lg-bar: var(--five-color);
 }
 
 .custom4 hr {
-    border-top: 1px #aaa solid;
+    border-top: 1px #aaa solid;
 }
 [[/module]]
 ----

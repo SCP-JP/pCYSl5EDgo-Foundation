@@ -125,16 +125,16 @@ SCP-2093-JP実例が最初に確認されたのは2021.2.1であり、当報告�
 > ----
 [[module css]]
 .blink-collapsibe a.collapsible-block-link {
-  animation: blinkAnime 1s infinite alternate;
+  animation: blinkAnime 1s infinite alternate;
 }
 @keyframes blinkAnime{
-   0% { opacity: 0 }
- 100% { opacity: 1 }
+   0% { opacity: 0 }
+ 100% { opacity: 1 }
 }
 [[/module]]
- 
+ 
 [[div class="blink-collapsibe"]]
- 
+ 
 [[collapsible show="+ 以下の閲覧には、FC専用オネイロイ・ネットワーク内からの接続が必要です。貴方は夢の中にいますか？" hide=" "]]
 
 ------

@@ -7,61 +7,61 @@
 [[module CSS]]
 
 div.terminal{
-    border: 1px solid pink;
-    border: solid 3px #ff94b4;
-    border-radius: 16px;
-    background-color: #ffb0d0;
+    border: 1px solid pink;
+    border: solid 3px #ff94b4;
+    border-radius: 16px;
+    background-color: #ffb0d0;
 /* black shadow at the top of the terminal */
-    background-image: 
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #ffedf5);
-    background-position: center;
-    display: block;
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #ffedf5);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(252,217,231,0.96);
+    box-shadow: inset 0 0 10em 1em rgba(252,217,231,0.96);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: #fff2f7;
-    border: double 3px #ff94b4
+    background-color: #fff2f7;
+    border: double 3px #ff94b4
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(148,0,108,1);
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(148,0,108,1);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #ff6392;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #ff6392;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -69,22 +69,22 @@ content: "> ";
 
 
 #header h1 a::before {
-    content: "女の子のためのアレコレ！";
-    font-family: 'Lobster', cursive;
-    color: hsl(335, 90%, 95%);
+    content: "女の子のためのアレコレ！";
+    font-family: 'Lobster', cursive;
+    color: hsl(335, 90%, 95%);
 }
- 
+ 
 #header h2 span {
-    color: transparent;
-    text-shadow: none;
+    color: transparent;
+    text-shadow: none;
 }
- 
+ 
 #header h2 span::before {
-    content: "女の子の、女の子による";
-    color: hsl(335, 90%, 70%);
-    font-family: 'Lobster', cursive;
-    letter-spacing: 2px;
-    padding-left: 4em;
+    content: "女の子の、女の子による";
+    color: hsl(335, 90%, 70%);
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    padding-left: 4em;
 [[/module]]
 
 [[div class="terminal"]]
@@ -93,7 +93,7 @@ content: "> ";
 [[div class="text"]]
 [[=]]
 
-[[size 150%]][[collapsible show="私たちについて♡(Ξ◕◡◕Ξ)♡"  hide="アイテム番号: SCP-4319"]][[/size]]
+[[size 150%]][[collapsible show="私たちについて♡(Ξ◕◡◕Ξ)♡"  hide="アイテム番号: SCP-4319"]][[/size]]
 [[/collapsible]]
 [[collapsible show="ジェス・ランドン作" hide="オブジェクトクラス: Keter
 "]]
@@ -129,7 +129,7 @@ JGTは2010年にブログサイトとなって、毎日世界中の女の子た�
 
 > [[collapsible show="♡♡♡♡♡♡♡♡♡♡" hide="♡♡♡♡♡♡♡♡♡♡"]]
 > ##black|SCP-4319は█████研究員が財団の端末を利用してこのサイトにアクセスした事により発見されました。█████研究員は自発的に現実改変を行い、身近にある全ての物品を、ハート型の枕に、ピンクっぽい色合い、壁の花の装飾、宝石類、化粧ブラシ、フリルのカーテンなどの伝統的な「女性らしい」物品を取り入れました。█████研究員はリーナ博士へ「偽物の女だ」と攻撃的な主張を行いました。その直後、セキュリティ違反によりサイト-██より退避が行われ、█████研究員はサイト-██に隔離されています。##
->  [[/collapsible]]
+>  [[/collapsible]]
 
 @@ @@
 @@ @@ 
@@ -365,7 +365,7 @@ D) 警告する者となること
 
 > 
 > [[collapsible show="楽しんでいただけましたか！他にも"沢山の"クイズを用意しています
->  是非チェックしてみてください！:3" hide="私は大丈夫だと思う。自分ではね。"]]
+>  是非チェックしてみてください！:3" hide="私は大丈夫だと思う。自分ではね。"]]
 > [[/collapsible]]
 [[/=]]
 

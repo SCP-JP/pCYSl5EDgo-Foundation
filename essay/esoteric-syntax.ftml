@@ -132,7 +132,7 @@ isHTMLblockHide = [[span style="color:#FB5"]]true[[/span]];
 [[collapsible show="+ 折り畳み第1層目" hide="- 閲覧終了"]]
 [[html]]
 <style type="text/css" id="internal-style">
- /* modules */
+ /* modules */
 @import url(http://scp-jp.wdfiles.com/local--files/japanese-syntax/scp-WikidotCss.css);
 </style>
 <script type="text/javascript" src="http://scp-jp.wdfiles.com/local--files/japanese-syntax/scpHTMLblockCtrl_ver1_ex.js"></script>
@@ -505,27 +505,27 @@ document.getElementById("foo").innerHTML = str + str2 + str3;
 というコードを見かけますが、下記の様にHTMLを組み立てれば簡単に、しかも複雑なHTMLコードに書き換える事ができます。
 [[code type="html"]]
 <style>
-    .hide{
-    	display:none;
-    }
+    .hide{
+    	display:none;
+    }
 </style>
 <div id="show">
-    ここに文章を表示
+    ここに文章を表示
 </div>
 <div id="page2" class="hide">
-    ここに書き換え後の文章を格納
+    ここに書き換え後の文章を格納
 </div>
 <button onclick="changePage()">
-    ここを押すとページ変わる
+    ここを押すとページ変わる
 </button>
 
 <script type="text/javascript">
-    function changePage(){
-    	var show = document.getElementById("show");
-    	var hide = document.getElementById("page2");
-    	show.innerHTML = hide.innerHTML;
-    	correctIframeSize();//このトピックの方法を併用するなら
-    }
+    function changePage(){
+    	var show = document.getElementById("show");
+    	var hide = document.getElementById("page2");
+    	show.innerHTML = hide.innerHTML;
+    	correctIframeSize();//このトピックの方法を併用するなら
+    }
 </script>
 [[/code]]
 つまり、書き換え後の文章を非表示(display:none;)の要素に格納するのです。そしてページを書き換える際はこの非表示の要素の中身をコピーすれば良いのです。こうすれば書き換え後の文章が増える度にstr等の変数を増やす必要はありませんし、書き換え後の文章も普通のhtmlの様に書けます。また最後の変数を次々と足していくコードで変数を足し忘れた為に文章の一部が表示されないという事態も起こりにくくなります。何より書き換え後の文章の編集が楽です。このトピックのサンプルも上記の方法を応用して作りました。
@@ -540,7 +540,7 @@ isHTMLblockHide = true;
 <style>
 .nest {
 margin-left:01em;
-  padding:0;
+  padding:0;
 }
 .string{
 color:#1c1e75;
@@ -765,8 +765,8 @@ SCP-845や、今回私が用意した例は、動画ではなく、JavaScriptで
 画像フレームによくわからない余白があると不恰好なので、あなたの作るhtmlの時点で余白を全て無くしましょう。具体的には、cssファイルにこれを入れておくのが吉です。
 [[code type="CSS"]]
 body {
-  padding:0px;
-  margin: 0px;
+  padding:0px;
+  margin: 0px;
 
 }
 [[/code]]
@@ -816,57 +816,57 @@ http://scp-jp-sandbox2.wdfiles.com/local--files/nanimono-demonai/RedMars.js
 
 [[module css]]
 @keyframes hue-rotate {
-  0% {
-    -webkit-filter: invert(100%) grayscale(0%);
-    -moz-filter: invert(100%) grayscale(0%);
-    -ms-filter: invert(100%) grayscale(0%);
-    filter: invert(100%) grayscale(0%);
-  }
- 75%{
-    -webkit-filter: invert(100%) grayscale(0%);
-    -moz-filter: invert(100%) grayscale(0%);
-    -ms-filter: invert(100%) grayscale(0%);
-    filter: invert(100%) grayscale(0%);
+  0% {
+    -webkit-filter: invert(100%) grayscale(0%);
+    -moz-filter: invert(100%) grayscale(0%);
+    -ms-filter: invert(100%) grayscale(0%);
+    filter: invert(100%) grayscale(0%);
+  }
+ 75%{
+    -webkit-filter: invert(100%) grayscale(0%);
+    -moz-filter: invert(100%) grayscale(0%);
+    -ms-filter: invert(100%) grayscale(0%);
+    filter: invert(100%) grayscale(0%);
 }
-  76% {
-    -webkit-filter: invert(0%) grayscale(100%);
-    -moz-filter: invert(0%) grayscale(100%);
-    -ms-filter: invert(0%) grayscale(100%);
-    filter: invert(0%) grayscale(100%);
-  }
+  76% {
+    -webkit-filter: invert(0%) grayscale(100%);
+    -moz-filter: invert(0%) grayscale(100%);
+    -ms-filter: invert(0%) grayscale(100%);
+    filter: invert(0%) grayscale(100%);
+  }
 100%{
-    -webkit-filter: invert(0%) grayscale(100%);
-    -moz-filter: invert(0%) grayscale(100%);
-    -ms-filter: invert(0%) grayscale(100%);
-    filter: invert(0%) grayscale(100%);
-  }
+    -webkit-filter: invert(0%) grayscale(100%);
+    -moz-filter: invert(0%) grayscale(100%);
+    -ms-filter: invert(0%) grayscale(100%);
+    filter: invert(0%) grayscale(100%);
+  }
 }
 
 @-webkit-keyframes hue-rotate {
-  0% {
-    -webkit-filter: invert(100%) grayscale(0%);
-    -moz-filter: invert(100%) grayscale(0%);
-    -ms-filter: invert(100%) grayscale(0%);
-    filter: invert(100%) grayscale(0%);
-  }
- 75%{
-    -webkit-filter: invert(100%) grayscale(0%);
-    -moz-filter: invert(100%) grayscale(0%);
-    -ms-filter: invert(100%) grayscale(0%);
-    filter: invert(100%) grayscale(0%);
+  0% {
+    -webkit-filter: invert(100%) grayscale(0%);
+    -moz-filter: invert(100%) grayscale(0%);
+    -ms-filter: invert(100%) grayscale(0%);
+    filter: invert(100%) grayscale(0%);
+  }
+ 75%{
+    -webkit-filter: invert(100%) grayscale(0%);
+    -moz-filter: invert(100%) grayscale(0%);
+    -ms-filter: invert(100%) grayscale(0%);
+    filter: invert(100%) grayscale(0%);
 }
-  76% {
-    -webkit-filter: invert(0%) grayscale(100%);
-    -moz-filter: invert(0%) grayscale(100%);
-    -ms-filter: invert(0%) grayscale(100%);
-    filter: invert(0%) grayscale(100%);
-  }
+  76% {
+    -webkit-filter: invert(0%) grayscale(100%);
+    -moz-filter: invert(0%) grayscale(100%);
+    -ms-filter: invert(0%) grayscale(100%);
+    filter: invert(0%) grayscale(100%);
+  }
 100%{
-    -webkit-filter: invert(0%) grayscale(100%);
-    -moz-filter: invert(0%) grayscale(100%);
-    -ms-filter: invert(0%) grayscale(100%);
-    filter: invert(0%) grayscale(100%);
-  }
+    -webkit-filter: invert(0%) grayscale(100%);
+    -moz-filter: invert(0%) grayscale(100%);
+    -ms-filter: invert(0%) grayscale(100%);
+    filter: invert(0%) grayscale(100%);
+  }
 }
 
 
@@ -1051,9 +1051,9 @@ font-size: %%limit%%% !important;
 [[%%content{0}%%html]]
 <script type="text/javascript">
 function start1(){
-    var form = document.forms.mainForm;
-    var s = "http://ja.scp-wiki.net/esoteric-syntax/offset/1/page5_limit/" + form.fontsize.value;
-    parent.location.href = s;
+    var form = document.forms.mainForm;
+    var s = "http://ja.scp-wiki.net/esoteric-syntax/offset/1/page5_limit/" + form.fontsize.value;
+    parent.location.href = s;
 }
 </script>
 <form name='mainForm'>
@@ -1083,21 +1083,21 @@ document.getElementById("view_clock").innerHTML = getNow();
 function getNow() {
 var now = new Date();
 if(now.getTime() - updated_at.getTime()>0){
-now =  new Date(now.getTime() - updated_at.getTime() );
+now =  new Date(now.getTime() - updated_at.getTime() );
 }else{
-now =  new Date(0);
+now =  new Date(0);
 }
 var zero = new Date(0);
 var s = "最後の更新から ";
-var year = now.getUTCFullYear()  - zero.getUTCFullYear();
+var year = now.getUTCFullYear()  - zero.getUTCFullYear();
 if(year>0){
 s += year + "年 ";
 }
-var mon = now.getUTCMonth()  - zero.getUTCMonth();
+var mon = now.getUTCMonth()  - zero.getUTCMonth();
 if(mon>0){
 s += mon + "ヶ月 ";
 }
-var day = now.getUTCDate()  - zero.getUTCDate();
+var day = now.getUTCDate()  - zero.getUTCDate();
 if(day>0){
 s += day + "日 ";
 }
@@ -1105,11 +1105,11 @@ var hour = now.getUTCHours() - zero.getUTCHours();
 if(hour>0){
 s += hour + "時間 ";
 }
-var min = now.getUTCMinutes()  - zero.getUTCMinutes();
+var min = now.getUTCMinutes()  - zero.getUTCMinutes();
 if(min>0){
 s += min + "分 ";
 }
-var sec = now.getUTCSeconds()  - zero.getUTCSeconds();
+var sec = now.getUTCSeconds()  - zero.getUTCSeconds();
 if(sec>0){
 s += sec + "秒 ";
 }
@@ -1224,24 +1224,24 @@ htmlブロックをそのまま置くことも出来るので、リンクにパ�
 <script type="text/javascript">
 timerID = setInterval('clock()',500);
 function clock() {
-    document.getElementById("view_clock").innerHTML = getNow();
+    document.getElementById("view_clock").innerHTML = getNow();
 }
 function set2fig(num) {
-    var ret;
-    if( num < 10 ) { ret = "0" + num; }
-    else { ret = num; }
-    return ret;
+    var ret;
+    if( num < 10 ) { ret = "0" + num; }
+    else { ret = num; }
+    return ret;
 }
 function getNow() {
-    var now = new Date();
-    var year = now.getFullYear();
-    var mon = now.getMonth()+1;
-    var day = now.getDate();
-    var hour = set2fig( now.getHours() );
-    var min = set2fig( now.getMinutes() );
-    var sec = set2fig( now.getSeconds() );
-    var s = year + "/" + mon + "/" + day + " " + hour + ":" + min + ":" + sec;
-    return s;
+    var now = new Date();
+    var year = now.getFullYear();
+    var mon = now.getMonth()+1;
+    var day = now.getDate();
+    var hour = set2fig( now.getHours() );
+    var min = set2fig( now.getMinutes() );
+    var sec = set2fig( now.getSeconds() );
+    var s = year + "/" + mon + "/" + day + " " + hour + ":" + min + ":" + sec;
+    return s;
 }
 </script>
 <span id="view_clock">████/██/██ ██:██:██</span>
@@ -1253,21 +1253,21 @@ function getNow() {
 window.onload = function(){
 var rand = Math.floor( Math.random() * 5 ) ;
 switch (rand){
-  case 0:
-    parent.location.href = "http://ja.scp-wiki.net/esoteric-syntax#toc21";
-    break;
-  case 1:
-    parent.location.href = "http://ja.scp-wiki.net/esoteric-syntax/offset/1/page2_limit/1#toc21";
-    break;
-  case 2:
-    parent.location.href = "http://ja.scp-wiki.net/esoteric-syntax/offset/1/page3_limit/1#toc21";
-    break;
-  case 3:
-    parent.location.href = "http://ja.scp-wiki.net/esoteric-syntax/offset/1/page4_limit/1#toc21";
-    break;
-  case 4:
-    parent.location.href = "http://ja.scp-wiki.net/esoteric-syntax/offset/1/page5_limit/1#toc21";
-    break;
+  case 0:
+    parent.location.href = "http://ja.scp-wiki.net/esoteric-syntax#toc21";
+    break;
+  case 1:
+    parent.location.href = "http://ja.scp-wiki.net/esoteric-syntax/offset/1/page2_limit/1#toc21";
+    break;
+  case 2:
+    parent.location.href = "http://ja.scp-wiki.net/esoteric-syntax/offset/1/page3_limit/1#toc21";
+    break;
+  case 3:
+    parent.location.href = "http://ja.scp-wiki.net/esoteric-syntax/offset/1/page4_limit/1#toc21";
+    break;
+  case 4:
+    parent.location.href = "http://ja.scp-wiki.net/esoteric-syntax/offset/1/page5_limit/1#toc21";
+    break;
 }
 }
 </script>
@@ -1372,31 +1372,31 @@ COLOR=#EEE]]
 色はRGBによって指定します。RGBがよくわからない場合は下のスクリプトで色を作ってください（モダンなスタイルじゃありませんが……）。
 [[html]]
 <style>
-                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/base/css/style.css);
-                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/shiny/css/style.css);
-                    @import url(http://scp-jp.wdfiles.com/local--theme/scp-sigma-9-off-canvas/style.css);
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/base/css/style.css);
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/shiny/css/style.css);
+                    @import url(http://scp-jp.wdfiles.com/local--theme/scp-sigma-9-off-canvas/style.css);
 #redG{
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(255, 0, 0, 1));
-  background-size: cover;
-  position:relative;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(255, 0, 0, 1));
+  background-size: cover;
+  position:relative;
 height:20px;
 }
 #greenG{
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 255, 0, 1));
-  background-size: cover;
-  position:relative;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 255, 0, 1));
+  background-size: cover;
+  position:relative;
 height:20px;
 }
 #blueG{
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 255, 1));
-  background-size: cover;
-  position:relative;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 255, 1));
+  background-size: cover;
+  position:relative;
 height:20px;
 }
 
 #colorValueDisplay{
 padding:5px;
- 
+ 
 }
 
 
@@ -1519,7 +1519,7 @@ target.setAttribute("onmousedown",'(function(event){changeMode(true);setColor("'
 }
 
 function isUseSmartPhone(){
-    return (((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0));
+    return (((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0));
 }
 });
 
@@ -1543,7 +1543,7 @@ applicateColor(color,mouseX);
 
 function applicateColor(color,xPos){
 var target = document.getElementById(color + "G");
-var elmW =  target.clientWidth;
+var elmW =  target.clientWidth;
 var mouseX = xPos -target.getBoundingClientRect().left;
 var percent = Math.floor((mouseX / elmW) *100);
 if(percent > 100)percent = 100;
@@ -2228,7 +2228,7 @@ Code:10
 [[/div]]
 [[/div]]
 > **参考:**
-> [https://codepen.io/saransh/pen/BKJun Parallax Star background in CSS] By  Saransh Sinha
+> [https://codepen.io/saransh/pen/BKJun Parallax Star background in CSS] By  Saransh Sinha
 > [https://codepen.io/dropside/pen/dIymk UFO speeder] By Louis Coyle
 > [[span style="display:block;width:100%;text-align:right;"]]**//Introduced by//** [[*user Nanimono Daemon]][[/span]]
 
@@ -2407,7 +2407,7 @@ position:relative;z-index:3;
 [[table class="wiki-content-table" style="width:100%"]]
 [[row]]
 [[hcell style="width:4em;"]]要素名[[/hcell]]
-[[cell]]a.avatar-hover,  a.avatar-hover:hover[[/cell]]
+[[cell]]a.avatar-hover,  a.avatar-hover:hover[[/cell]]
 [[/row]]
 [[row]]
 [[hcell]]機能[[/hcell]]

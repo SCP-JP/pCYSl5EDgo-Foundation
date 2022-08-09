@@ -10,32 +10,32 @@
 
 [[module CSS]]
 a.collapsible-block-link { font-weight: bold; color: #8d0600;}
- .avatar-hover { display: none !important; }
+ .avatar-hover { display: none !important; }
 
 .operation {
-  width: 70%;
-  margin: auto;
-  padding: 1.2em 1.2em 1em 1.2em;
-  border: 2px solid black;
-  background: #ffc3c0;
-  font-family: bitter;
-  box-shadow: 8px 8px 15px -4px gray;
+  width: 70%;
+  margin: auto;
+  padding: 1.2em 1.2em 1em 1.2em;
+  border: 2px solid black;
+  background: #ffc3c0;
+  font-family: bitter;
+  box-shadow: 8px 8px 15px -4px gray;
 }
 
 /* BRINGS IMAGES CLOSER ON 1080P MONITORS */
 .widebox {
- border: 0px solid white;
- padding: none;
- margin: 0px auto;
- width: 93%;
+ border: 0px solid white;
+ padding: none;
+ margin: 0px auto;
+ width: 93%;
 }
 @media only screen and (max-width: 1919px) {
-  .widebox{ width: 100%; }
+  .widebox{ width: 100%; }
 }
 
 @media only screen and (max-width: 600px) {
-  .operation{ width: 90%; }
-  .begone{display: none;}
+  .operation{ width: 90%; }
+  .begone{display: none;}
 }
 [[/module]]
 
@@ -56,8 +56,8 @@ a.collapsible-block-link { font-weight: bold; color: #8d0600;}
 [[/div]]
 
 [[include :scp-wiki:component:image-block-peppo
-    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-80-0t8s/AppleFeet.png|
-    caption=著名なポスト印象派画家、ユーゴ・デモーレの作品 “スカーレット・ミューズ”、1879年頃
+    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-80-0t8s/AppleFeet.png|
+    caption=著名なポスト印象派画家、ユーゴ・デモーレの作品 “スカーレット・ミューズ”、1879年頃
 ]]
 
 **特別収容プロトコル:** 現在、SCP-5855出現事象については、出現したSCP-5855を効果的に収容するのに十分な詳細が知られていません。このため、短期的な収容努力としては、SCP-5855を目撃したものの、その非異常な反ミーム性から影響を受けなかった人物にクラスＧ記憶処理を施すのを重視します。
@@ -78,27 +78,27 @@ SCP-5855-A個体は頻繁にSCP-5855を描写した芸術作品を制作しま�
 **補遺 01 - SCP-5855の芸術的描写:**
 [[div class="widebox"]]
 [[include component:image-block
-    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-81-uzqr/Manana.png|
-    caption=Tumblrユーザー //st4rvingshartist// のアカウントから取得された画像。キャプション: “ 腕の生えたバナナにアートを作り続けてくれって言われる夢から得たアイデア。ありがとうマナナ :) ”|
-    align=left|
+    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-81-uzqr/Manana.png|
+    caption=Tumblrユーザー //st4rvingshartist// のアカウントから取得された画像。キャプション: “ 腕の生えたバナナにアートを作り続けてくれって言われる夢から得たアイデア。ありがとうマナナ :) ”|
+    align=left|
 ]]
 
 [[include component:image-block
-    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-82-vx9c/Pearson.png|
-    caption=Twitterユーザー @ZaylArt🔞 の作品 “熱にうなされて”、2019年|
-    align=right|
+    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-82-vx9c/Pearson.png|
+    caption=Twitterユーザー @ZaylArt🔞 の作品 “熱にうなされて”、2019年|
+    align=right|
 ]]
 
 [[include component:image-block
-    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-83-qcyt/painapple.png|
-    caption=ラルフ・ジェイコブスの作品 “醜いパイナップル”、2012年度スコラスティック・アート・アワード準優勝|
-    align=right|
+    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-83-qcyt/painapple.png|
+    caption=ラルフ・ジェイコブスの作品 “醜いパイナップル”、2012年度スコラスティック・アート・アワード準優勝|
+    align=right|
 ]]
 
 [[include component:image-block
-    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-85-9z1o/orangeLips.png|
-    caption=エマニュエル・キャンターフェロー・ローゼンスタインの作品 “実の無い演説”、現在AAAG (アメリカ抽象芸術美術館) が所有、2016年|
-    align=left|
+    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-85-9z1o/orangeLips.png|
+    caption=エマニュエル・キャンターフェロー・ローゼンスタインの作品 “実の無い演説”、現在AAAG (アメリカ抽象芸術美術館) が所有、2016年|
+    align=left|
 ]]
 [[/div]]
 ~~~~

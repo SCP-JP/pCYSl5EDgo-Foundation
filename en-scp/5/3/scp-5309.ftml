@@ -3,45 +3,45 @@
 
 [[module css]]
 .box{
-    border: 1px solid #bababa;
-    background-color: #F4F4F4;
-    padding: 10px;
-    margin: 20px 0;
+    border: 1px solid #bababa;
+    background-color: #F4F4F4;
+    padding: 10px;
+    margin: 20px 0;
 }
 
 .pata-notice{
-    border: none;
-    background-color: #1e122b;
-    padding: 10px;
-    margin: 20px 0;
+    border: none;
+    background-color: #1e122b;
+    padding: 10px;
+    margin: 20px 0;
 
-    text-align: center;
-    color: #e9e9e9;
+    text-align: center;
+    color: #e9e9e9;
 }
 
 .hover {
 text-decoration: none;
-    border-bottom: none;
-    color:#5b2f8e;
+    border-bottom: none;
+    color:#5b2f8e;
 }
 .hover:hover {
-     text-decoration: none;
-    border-bottom: none;
-    color:#a0a0a0;
+     text-decoration: none;
+    border-bottom: none;
+    color:#a0a0a0;
 }
 
-.hover span {    display: none;}
+.hover span {    display: none;}
 .hover:hover span {
-   position: absolute;
-   display: inline;
-   margin: 20px 0;
-   height: auto;
-   width: auto;
-   background: #FFFFFF;
-   border: none;
-   color: #5b2f8e;
-   padding: 10px;
-   box-shadow : 0 0 7px rgba(0 , 0 , 0 , 0.3);
+   position: absolute;
+   display: inline;
+   margin: 20px 0;
+   height: auto;
+   width: auto;
+   background: #FFFFFF;
+   border: none;
+   color: #5b2f8e;
+   padding: 10px;
+   box-shadow : 0 0 7px rgba(0 , 0 , 0 , 0.3);
 }
 [[/module]]
 
@@ -500,7 +500,7 @@ text-decoration: none;
 
 **ジャン:** スカーレット・バークレー博士、ですね？
 
-**バークレー:**  そうです。
+**バークレー:**  そうです。
 
 (//ジャンが頷く。//)
 

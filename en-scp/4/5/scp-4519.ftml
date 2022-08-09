@@ -4,109 +4,109 @@
 
 /* SAPPHIRE FORMATTING */
 .dark-header hr{
-    width: 45%;
-    margin: auto;
-    background-color: #0d0e26;
-    border: none;
-    height: 2px;
+    width: 45%;
+    margin: auto;
+    background-color: #0d0e26;
+    border: none;
+    height: 2px;
 }
 
 .sec-2{
-    color: #151A61;
-    font-size: 1.7em;
-    font-weight: bold;
+    color: #151A61;
+    font-size: 1.7em;
+    font-weight: bold;
 }
 
 .sec-3{
-    color: #151A61;
-    font-size: 1.5em;
-    font-weight: bold;
+    color: #151A61;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .sec-4{
-    color: #151A61;
-    font-size: 1.3em;
-    font-weight: bold;
+    color: #151A61;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 /* DIV BLOCKS */
 .saphir-format{
-    display: inline-block; 
-    border: solid 2px #0d0e26; 
-    background: #abafed; 
-    width: 85%; 
-    padding: 0 12px; 
-    margin: auto; 
-    color: #222; 
-    font-family: 'Tinos', serif; 
-    font-size: 13pt;
+    display: inline-block; 
+    border: solid 2px #0d0e26; 
+    background: #abafed; 
+    width: 85%; 
+    padding: 0 12px; 
+    margin: auto; 
+    color: #222; 
+    font-family: 'Tinos', serif; 
+    font-size: 13pt;
 }
 
 .quote-block {
-    display: inline-block;
-    border: 1px double #999;
-    background: #F5F5F5;
-    width: 85%;
-    padding: 0 12px;
-    margin: auto;
+    display: inline-block;
+    border: 1px double #999;
+    background: #F5F5F5;
+    width: 85%;
+    padding: 0 12px;
+    margin: auto;
 }
 
 .quote-block blockquote {
-    border: 1px double #999;
+    border: 1px double #999;
 }
 
 .comm-log{
-    display: inline-block; 
-    border: solid 1px #444; 
-    background: white;
-    float: top; 
-    width: 95%; 
-    padding: 0 12px; 
-    margin: auto;
+    display: inline-block; 
+    border: solid 1px #444; 
+    background: white;
+    float: top; 
+    width: 95%; 
+    padding: 0 12px; 
+    margin: auto;
 }
 
 .journal{
-    display: inline-block; 
-    border: solid 1px #222; 
-    background: #F5F5DC; 
-    width: 85%; 
-    padding: 0 12px; 
-    margin: auto;
+    display: inline-block; 
+    border: solid 1px #222; 
+    background: #F5F5DC; 
+    width: 85%; 
+    padding: 0 12px; 
+    margin: auto;
 }
 
 .journal-text{
-    font-family: 'Playfair Display', serif; 
-    font-size: 1.3em; 
-    font-weight: 500;
+    font-family: 'Playfair Display', serif; 
+    font-size: 1.3em; 
+    font-weight: 500;
 }
 
 /* FORMATTING */
 .lite-header hr{
-    width: 45%;
-    margin: auto;
-    background-color: #e6e6e6;
-    border: none;
-    height: 2px;
+    width: 45%;
+    margin: auto;
+    background-color: #e6e6e6;
+    border: none;
+    height: 2px;
 }
 
 .collapsible-block-link { font-weight: bold; }
 
 /* WIKIWALK NAV */
 .saphir-nav{
-    color: #0d0f26;
-    text-shadow: 1px 1px 2px rgba(0,0,0,.35);
-    border: solid 1px #0d2613;
-    border-radius: 10px;
-    background-color: #969be9;
-    box-shadow: 1.5px 1.5px 3px #636ce9;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 5px rgba(255,255,255,0.2), inset 0 5px 20px rgba(255,255,255,0.25), inset 0 -7.5px 15px rgba(0,0,0,0.1);
-    padding: 0 30px; 
-    margin: 10px 0 15px;
-    margin-bottom: 20px;
+    color: #0d0f26;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.35);
+    border: solid 1px #0d2613;
+    border-radius: 10px;
+    background-color: #969be9;
+    box-shadow: 1.5px 1.5px 3px #636ce9;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 5px rgba(255,255,255,0.2), inset 0 5px 20px rgba(255,255,255,0.25), inset 0 -7.5px 15px rgba(0,0,0,0.1);
+    padding: 0 30px; 
+    margin: 10px 0 15px;
+    margin-bottom: 20px;
 }
 
 .saphir-nav a{
-    color: #202892;
+    color: #202892;
 }
 [[/module]]
 
@@ -189,22 +189,22 @@ SAPHIRがどのような手段でSCP-4519を開発したかは未だ明らかに
 = [[span class="sec-2"]]ZIRCON マテュー・ガルディニエールへのメモ[[/span]]
 = [[span class="sec-3"]]2000年2月10日[[/span]]
 
-@@     @@昨日の時点で、私のチームは輸送された死体を受け取った。要求通りの状態で、私の目の中の結晶形成を基に判断した限り、君のSPIRAL[[footnote]]異常な能力を有するSAPHIR工作員。[[/footnote]]たちが設定した精神増強浴槽は上手く機能していた。それどころか、私が見に行った時には、あの例の“エーテル崩壊”の悪臭が浴槽に充満しているのをまだ嗅ぎ取れたほどだ。我々のSPIRALの一人に、彼の半物理的な頭を液体の中に突き入れさせてみた -- 彼は“泣いている塩のような味”だったと主張した。それはどういう意味かと私が問うと、彼は良かったと答えた。染み一つ無い純粋な論理が準備万端我々を待ち構えていた。
+@@     @@昨日の時点で、私のチームは輸送された死体を受け取った。要求通りの状態で、私の目の中の結晶形成を基に判断した限り、君のSPIRAL[[footnote]]異常な能力を有するSAPHIR工作員。[[/footnote]]たちが設定した精神増強浴槽は上手く機能していた。それどころか、私が見に行った時には、あの例の“エーテル崩壊”の悪臭が浴槽に充満しているのをまだ嗅ぎ取れたほどだ。我々のSPIRALの一人に、彼の半物理的な頭を液体の中に突き入れさせてみた -- 彼は“泣いている塩のような味”だったと主張した。それはどういう意味かと私が問うと、彼は良かったと答えた。染み一つ無い純粋な論理が準備万端我々を待ち構えていた。
 
-@@     @@さて、以上を踏まえたうえで、一つ簡単な質問をさせてほしい。
+@@     @@さて、以上を踏まえたうえで、一つ簡単な質問をさせてほしい。
 
-@@     @@何故この男の死体は未だに生命を有している？
+@@     @@何故この男の死体は未だに生命を有している？
 
-@@     @@いいや、単純に精神や論理の話をしているのではない。//生命//だ。彼を起こした時、我々を迎えたのは普遍的な真実の声明ではなかった。代わりに彼が発したのは、視界が万華鏡のようになっているのは何故か、身体に感覚が無いのは何故か、口に銅のような味がするのは何故かという絶叫だった。私が組織の目的について話すと彼のパニックは悪化した。知性核を死体から切除した時、私は耳を覆わなければならなかった。肺の接続が途絶した時には尚きつく手を耳に押し付けなければならなかった。
+@@     @@いいや、単純に精神や論理の話をしているのではない。//生命//だ。彼を起こした時、我々を迎えたのは普遍的な真実の声明ではなかった。代わりに彼が発したのは、視界が万華鏡のようになっているのは何故か、身体に感覚が無いのは何故か、口に銅のような味がするのは何故かという絶叫だった。私が組織の目的について話すと彼のパニックは悪化した。知性核を死体から切除した時、私は耳を覆わなければならなかった。肺の接続が途絶した時には尚きつく手を耳に押し付けなければならなかった。
 
-@@     @@我々のセーガンは純粋ではあるかもしれないが、合理性には注入の必要があるし、不合理性の粗い縁を刈り込まなければならない。君の浴槽はこれらの目標をどちらも達成できなかった。もし浴槽が評判通りのシングルパフォーマンス処置なのだとすれば、これは我々を何年も遅れた位置に置いている。
+@@     @@我々のセーガンは純粋ではあるかもしれないが、合理性には注入の必要があるし、不合理性の粗い縁を刈り込まなければならない。君の浴槽はこれらの目標をどちらも達成できなかった。もし浴槽が評判通りのシングルパフォーマンス処置なのだとすれば、これは我々を何年も遅れた位置に置いている。
 
-@@     @@年でなければ、もっと昔に。
+@@     @@年でなければ、もっと昔に。
 
-@@     @@私が明日オフィスを訪問する時は更なる質疑があるものと思いたまえ、ガルディニエール。それ相応の答えが返ってくるのを願う。
+@@     @@私が明日オフィスを訪問する時は更なる質疑があるものと思いたまえ、ガルディニエール。それ相応の答えが返ってくるのを願う。
 
 [[=]]
-[[span class="sec-4"]]敬具、[[/span]]@@                                    @@
+[[span class="sec-4"]]敬具、[[/span]]@@                                    @@
 [[span class="sec-4"]]ZIRCON ウィノク・マール[[/span]]
 [[/=]]
 

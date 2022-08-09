@@ -1,44 +1,44 @@
 [[module css]]
 
 /*
-    平成23年11月13日    みのべ博行@しらぎくさいと
-    www.marguerite.jp/Nihonog/WWW/CSSTips/EmphasizeDots-CSS3.html
-    Edited for the SCP Foundation by Nanimono_Demonai
+    平成23年11月13日    みのべ博行@しらぎくさいと
+    www.marguerite.jp/Nihonog/WWW/CSSTips/EmphasizeDots-CSS3.html
+    Edited for the SCP Foundation by Nanimono_Demonai
 */
 .emph {
-    text-emphasis-style: filled sesame ;
-    -webkit-text-emphasis-style: filled sesame ;
+    text-emphasis-style: filled sesame ;
+    -webkit-text-emphasis-style: filled sesame ;
 }
 
 /* For FireFox */
 @-moz-document url-prefix() {
 .emph {
-    /* CSS第三水準まで準拠している環境向け。 */
-    font-family: monospace;
-    font-style: normal;
-    font-weight: normal;
-    background-image: url(/local--files/nanimono-demonai-s-personnel-file/goma.gif), none;
-    background-repeat: repeat-x;
-    padding: 0.5em 0 0;
-    background-color:transparent;
-    background-clip: padding-box, content-box;
-    background-size: 1em 1.3em, auto;
+    /* CSS第三水準まで準拠している環境向け。 */
+    font-family: monospace;
+    font-style: normal;
+    font-weight: normal;
+    background-image: url(/local--files/nanimono-demonai-s-personnel-file/goma.gif), none;
+    background-repeat: repeat-x;
+    padding: 0.5em 0 0;
+    background-color:transparent;
+    background-clip: padding-box, content-box;
+    background-size: 1em 1.3em, auto;
 }
 }
 
 /* For IE10 */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 .emph {
-    /* CSS第三水準まで準拠している環境向け。 */
-    font-family: monospace;
-    font-style: normal;
-    font-weight: normal;
-    background-image: url(/local--files/nanimono-demonai-s-personnel-file/goma.gif), none;
-    background-repeat: repeat-x;
-    padding: 0.5em 0 0;
-    background-color:transparent;
-    background-clip: padding-box, content-box;
-    background-size: 1em 1.3em, auto;
+    /* CSS第三水準まで準拠している環境向け。 */
+    font-family: monospace;
+    font-style: normal;
+    font-weight: normal;
+    background-image: url(/local--files/nanimono-demonai-s-personnel-file/goma.gif), none;
+    background-repeat: repeat-x;
+    padding: 0.5em 0 0;
+    background-color:transparent;
+    background-clip: padding-box, content-box;
+    background-size: 1em 1.3em, auto;
 }
 }
 

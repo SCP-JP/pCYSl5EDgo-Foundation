@@ -17,141 +17,141 @@
 [[module css]]
 
 #page-content .rate-box-with-credit-button {
-    background: #5C1D24;
+    background: #5C1D24;
 }
 #page-content .rate-box-with-credit-button>.creditButton>p>a:before {
-    background-color: #FFB961;
+    background-color: #FFB961;
 }
 #header h2 span::before {
-    content: "艱 難 を 経 て 星 へ";
-    color: #ffc780;
-    font-family: sans-serif;
-    font-weight: 400;
-    font-size: 100%;
-    text-shadow: 3px 3px 3px rgba(0,0,0,.9);
+    content: "艱 難 を 経 て 星 へ";
+    color: #ffc780;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    text-shadow: 3px 3px 3px rgba(0,0,0,.9);
 }
 .danger-diamond a:hover {
-    background-color: transparent;
+    background-color: transparent;
 }
 .hovertip {
-    width: auto !important;
-    max-width: 550px;
+    width: auto !important;
+    max-width: 550px;
 }
 .f-footer{
-    display: none;
+    display: none;
 }
 .hover{
-    text-decoration: none;
-    border-bottom: 1px solid;
+    text-decoration: none;
+    border-bottom: 1px solid;
 }
 .hover:hover{
-    text-decoration: none;
-    border-bottom: none;
+    text-decoration: none;
+    border-bottom: none;
 }
-.hover .tip{    
-    visibility: hidden;
-    position: absolute;
-    opacity: 0;
-    transition: opacity 500ms;
+.hover .tip{    
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 500ms;
 }
 .hover:hover .tip{
-    visibility: visible;
-    position: absolute;
-    display: inline;
-    opacity: 1;
-    color: inherit;
-    /* font-size: 80%; */
-    margin: 25px -12px;
-    height: auto;
-    background: #1B304D;
-    border: 1px solid #CCC;
-    width: auto;
-    padding: 1em;
-    border-radius: 7px;
-    box-shadow: 0 2px 4px rgba(100,100,100,0.3);
-    z-index: 20;
+    visibility: visible;
+    position: absolute;
+    display: inline;
+    opacity: 1;
+    color: inherit;
+    /* font-size: 80%; */
+    margin: 25px -12px;
+    height: auto;
+    background: #1B304D;
+    border: 1px solid #CCC;
+    width: auto;
+    padding: 1em;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(100,100,100,0.3);
+    z-index: 20;
 }
 .hover:hover .tip span{
-    position: relative;
-    margin: auto;
-    height: auto;
-    width: auto;
-    border: none;
-    padding: 0;
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
 }
 .footnotes-footer{
-    overflow-x: auto;
-    /* white-space: nowrap; */
+    overflow-x: auto;
+    /* white-space: nowrap; */
 }
 #page-content a:hover::before {
-    content: "";
+    content: "";
 }
 [[/module]]
 [[module CSS]]
 /* INFO BOX */
 sup{
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 body{
-  --cutColour: #ffb961;
-  --barColour: #5C1D24;
+  --cutColour: #ffb961;
+  --barColour: #5C1D24;
 }
 .translation_block, .u-faq{ display: none; }
 
 /* PAGE TITLE CODE */
- #page-title{ display: none; }
- .page-title{
-     color: #ffb961;
-     font-weight: normal;
-     margin: 0 0 0;
-     padding: 0 0 0;
-     font-size: 200%;
-     text-align: center;
+ #page-title{ display: none; }
+ .page-title{
+     color: #ffb961;
+     font-weight: normal;
+     margin: 0 0 0;
+     padding: 0 0 0;
+     font-size: 200%;
+     text-align: center;
 }
- .page-title p{ margin: 0; }
+ .page-title p{ margin: 0; }
 
 /* DIV BLOCKS */
- .terminal-span{
-     font-family: Courier, monospace;
-     font-size: 115%;
-     font-weight: bold;
-     color: #ffb961;
+ .terminal-span{
+     font-family: Courier, monospace;
+     font-size: 115%;
+     font-weight: bold;
+     color: #ffb961;
 }
- .o5{
-     border: 1px solid #ffb961;
-     background: #192845 url(http://scp-jp-storage.wikidot.com/local--files/file:6085604-2-1s27/o5-command-trans.png) center no-repeat;
-     padding: .915em;
-     margin: 4%;
-     width: 85%;
-     font-family: Courier, monospace;
-     font-size: 115%;
-     font-weight: bold;
-     color: #ccc;
+ .o5{
+     border: 1px solid #ffb961;
+     background: #192845 url(http://scp-jp-storage.wikidot.com/local--files/file:6085604-2-1s27/o5-command-trans.png) center no-repeat;
+     padding: .915em;
+     margin: 4%;
+     width: 85%;
+     font-family: Courier, monospace;
+     font-size: 115%;
+     font-weight: bold;
+     color: #ccc;
 }
- .forget{
-     display: inline-block;
-     border: 3px solid #ccc;
-     border-radius: .61em;
-     background-color: #21212D;
-     margin: 1em 0;
-     width: 40%;
+ .forget{
+     display: inline-block;
+     border: 3px solid #ccc;
+     border-radius: .61em;
+     background-color: #21212D;
+     margin: 1em 0;
+     width: 40%;
 }
 
 /* FORMATTING */
- .footnoteref{ font-variant: unset; }
- .collapsible-block-link{
-   font-weight: bold;
-   font-family: Courier, monospace;
-   font-size: 115%;
+ .footnoteref{ font-variant: unset; }
+ .collapsible-block-link{
+   font-weight: bold;
+   font-family: Courier, monospace;
+   font-size: 115%;
 }
- #page-content .collapsible-block-folded a.collapsible-block-link{
-     animation: blink 0.8s ease-in-out infinite alternate;
+ #page-content .collapsible-block-folded a.collapsible-block-link{
+     animation: blink 0.8s ease-in-out infinite alternate;
 }
- @keyframes blink{
-     0% { color: transparent; }
-     50%, 100% { color: #ffb961; }
+ @keyframes blink{
+     0% { color: transparent; }
+     50%, 100% { color: #ffb961; }
 }
 [[/module]]
 
@@ -272,14 +272,14 @@ O5の命令により//チェーホフ-.009//内の全ての通信データは現
 @@ @@
 
 [[table style="border: none; width: 100%;"]]
-  [[row]]
-      [[cell style="padding: 0; width: 70%; vertical-align: top;"]]
-    [[/cell]]
-      [[cell style="padding: 0; width: 30%; vertical-align: top;"]]
+  [[row]]
+      [[cell style="padding: 0; width: 70%; vertical-align: top;"]]
+    [[/cell]]
+      [[cell style="padding: 0; width: 30%; vertical-align: top;"]]
 --O5-7
 監督評議会
-    [[/cell]]
-  [[/row]]
+    [[/cell]]
+  [[/row]]
 [[/table]]
 
 [[/div]]

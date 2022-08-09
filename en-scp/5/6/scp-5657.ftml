@@ -9,85 +9,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
 /* black shadow at the top of the terminal */
-    background-image:
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
+    background-image:
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
-    font-family: 'Noto Sans JP', serif;
-    font-size: 1.2em;
-    }
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: 'Noto Sans JP', serif;
+    font-size: 1.2em;
+    }
 
 .entext{
-    font-family: monospace, serif;
-    }
+    font-family: monospace, serif;
+    }
 
 /* Safariだと日本語フォント適用時に非適用時とフォントサイズが変わる問題(webkit系のブラウザはmonospaceとそれ以外で既定サイズが違うことに起因)を解決*/
 @media only screen and (max-device-width: 480px) {
-    _::-webkit-full-page-media, _:future, :root div.text{
-        padding-left: 20.8px;
-        font-size: 12.48px;
-    }
+    _::-webkit-full-page-media, _:future, :root div.text{
+        padding-left: 20.8px;
+        font-size: 12.48px;
+    }
 }
 
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -127,7 +127,7 @@ content: "> ";
 
 **ロックダウンを実こ**[[span style="font-size: 105%;text-shadow: 1px 3px;text-shadow: 3px 1px;"]][[span style="font-family: 'ＭＳ Ｐゴシック';"]]**こ**[[/span]][[span style="font-family: 'ＭＳ 明朝';"]]**こ**[[/span]][[span style="font-family: '游明朝';"]]**こ**[[/span]][[span style="font-family: '游ゴシック';"]]**こ**[[/span]][[/span]]
 
-[[span style="font-family: '游明朝'; font-size: 100%;text-shadow: 1px 3px;text-shadow: 3px 1px;"]]**進入を承認しました。**[[/span]]  ありがとうございます、[[span class="entext"]]**USER_NOT_FOUND**[[/span]]。
+[[span style="font-family: '游明朝'; font-size: 100%;text-shadow: 1px 3px;text-shadow: 3px 1px;"]]**進入を承認しました。**[[/span]]  ありがとうございます、[[span class="entext"]]**USER_NOT_FOUND**[[/span]]。
 
 セクション[[span class="entext"]]-ØN[[/span]]に入るのはこれが初めてですね。
 
@@ -135,8 +135,8 @@ content: "> ";
 [[/=]]
 * [[span class="entext"]]__5657-GD__ |[[/span]] 収容プロトコル + 説明 [[span class="entext"]]**[01/01]**[[/span]]
 * [[span class="entext"]]__5657-IN__ |[[/span]] インタビュー記録 [[span class="entext"]]**[01/91]**[[/span]]
-* [[span class="entext"]]__5657-TL__ |[[/span]] 実験記録  [[span class="entext"]]**[01/3651]**[[/span]]
-* [[span class="entext"]]__5657-CB__ |[[/span]] 収容違反記録  [[span class="entext"]]**[01/26]**[[/span]]
+* [[span class="entext"]]__5657-TL__ |[[/span]] 実験記録  [[span class="entext"]]**[01/3651]**[[/span]]
+* [[span class="entext"]]__5657-CB__ |[[/span]] 収容違反記録  [[span class="entext"]]**[01/26]**[[/span]]
 * [[span class="entext"]]__5657-NN__ |[[/span]] 「ニッキーはお見通し」の全放送回 [[span class="entext"]]**[01/28]**[[/span]]
 * [[span class="entext"]]__5657-RL__ |[[/span]] 回収記録 [[span class="entext"]]**[01/01]**[[/span]]
 * [[span class="entext"]]__5657-LD__ |[[/span]] 検査室診断
@@ -303,7 +303,7 @@ __**[[span class="entext"]]5657-IN_06[[/span]]にアクセスしています**__
 > 
 > **SCP-5657:** 私は『癒しの時間』が好きでした。他の人は違った。評価は低かったし、レビューでは「つまらない癒し系ゴミ番組」なんて言われました。打ち切りの話も来ました。 要は—… 誰も声に出しては言わなかったけど、私がPさんたちと握手したとき—
 > 
->  **アデラード博士:** 彼らはエピソード18の撮影後に方針を変えたんでしたね？
+>  **アデラード博士:** 彼らはエピソード18の撮影後に方針を変えたんでしたね？
 > 
 > **SCP-5657:** //(…)// はい、ドハ―ティーさん[[footnote]]訳註: アメリカの女優[https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A3%E3%83%8A%E3%83%B3%E3%83%BB%E3%83%89%E3%83%8F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC シャナン・ドハーティー]、実在。[[/footnote]]へのインタビューの後です。何というか少し… 弾けたときの。
 > 
@@ -626,7 +626,7 @@ __**[[span class="entext"]]5657-IN_06[[/span]]にアクセスしています**__
 > 
 > **SCP-5657:** 効いていました… 少しの間は。私が気を抜いたのかもしれないし、ただ単に私がそこまで怖がっていなかったのかもしれないし… もしかしたらあいつが慣れてきたのかもしれない。分かりませんけど。でもあいつは立ち直りました。私も何かしなきゃいけなかった。最後にもう一度だけあいつを掴んで、私に残った唯一のもの… 怒りをくれてやりました。その時からあいつがこっちを殴るようになりました。あいつは私を殺せた— 簡単に— でもそうはしなかった。ただ私を、何度も何度も殴り続けた。診察レポートはたぶんもう見てますよね。私はあの日まで骨折したことがありませんでした。ましてや27本なんてもっての外です。それでもあれには効果があった。あなたたちのSWATの人が来るまで生きていられたんですから。あとのことはご存知かと思います。
 > 
->  **アデラード博士:** ええ、はい。ありがとうございました、ニッキー。このあたりで終わりにしましょう。
+>  **アデラード博士:** ええ、はい。ありがとうございました、ニッキー。このあたりで終わりにしましょう。
 > 
 > **SCP-5657:** あっ— はい、分かりました。それで… あの— あの、博士？あなたは… あいつらがもう近くにいると思いますか？つまり… 私の血と骨髄をたくさん採っていきましたよね— 私には全然分かりませんけど。何かいい方法が—？
 > 
@@ -776,7 +776,7 @@ __**[[span class="entext"]]5657-IN_06[[/span]]にアクセスしています**__
 > 
 > **インターホン | アデラード博士:** 凝結銃だよ。高圧の泡スプレーが接触のコンマ002秒後に1立方メートルあたり3000kgになるまで硬化させる。
 > 
->  **ニッキー:** 彼が言ってるのはね、一瞬で像になるってこと。
+>  **ニッキー:** 彼が言ってるのはね、一瞬で像になるってこと。
 > 
 > //USER_NOT_FOUNDはゆっくりと手を下ろす。//
 > 

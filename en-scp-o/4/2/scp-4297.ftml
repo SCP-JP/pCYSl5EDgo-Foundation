@@ -17,96 +17,96 @@ Thanks for reading!
 
 [[module css]]
 table.wiki-content-table {
-    width: 100%;
+    width: 100%;
 }
 
 .center-header {
-    font-size: 150%;
-    display: block;
-    width: 100%;
-    height: 1em;
-    font-weight: 900;
-    text-align: center;
-    border-bottom: 1px dotted currentColor;
-    padding-bottom: 0.25em;
+    font-size: 150%;
+    display: block;
+    width: 100%;
+    height: 1em;
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 1px dotted currentColor;
+    padding-bottom: 0.25em;
 }
 
 .item-table {
-    font-size: 1em;
-    width: 90%;
-    text-align: center;
-    border-collapse: collapse;
-    margin: 1.250em auto;
+    font-size: 1em;
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 1.250em auto;
 }
 
 .table-header td {
-    font-size: 1.1em;
-    font-weight: 900;
-    background: #b9c9fe;
-    border-top: 0.250rem solid #aabcfe;
-    border-bottom: 0.0625rem solid #fff;
-    color: #039;
-    text-align: center;
+    font-size: 1.1em;
+    font-weight: 900;
+    background: #b9c9fe;
+    border-top: 0.250rem solid #aabcfe;
+    border-bottom: 0.0625rem solid #fff;
+    color: #039;
+    text-align: center;
 }
 
 .item-table td {
-    background: #e8edff;
-    border-bottom: 0.125rem solid #fff;
-    border-right: 0.0625rem solid #fff;
-    border-top: 0.125rem solid transparent;
-    border-left: 0.0625rem solid transparent;
-    color: #669;
-    padding: 0.5em;
+    background: #e8edff;
+    border-bottom: 0.125rem solid #fff;
+    border-right: 0.0625rem solid #fff;
+    border-top: 0.125rem solid transparent;
+    border-left: 0.0625rem solid transparent;
+    color: #669;
+    padding: 0.5em;
 }
 
-.item-table  ul {
-    padding-inline-start: 1.5em;
+.item-table  ul {
+    padding-inline-start: 1.5em;
 }
 
 .item-table td:nth-of-type(1), 
 .item-table td:nth-of-type(2) {
-    text-align: center;
+    text-align: center;
 }
 
 div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(2) > tbody > tr > td:nth-child(1) {
-    width: 60%;
+    width: 60%;
 }
 
 div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(2) > tbody > tr > td:nth-child(2) {
-    text-align: left;
+    text-align: left;
 }
 
 #page-content > .collapsible-block {
-    display: block;
-    text-align: center;
-    padding: 0.75em;
-    background-color: lightgrey;
-    border-top: 0.125rem dashed slategrey;
-    border-bottom: 0.125rem dashed slategrey;
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    background-color: lightgrey;
+    border-top: 0.125rem dashed slategrey;
+    border-bottom: 0.125rem dashed slategrey;
 }
 
 #page-content > .collapsible-block .collapsible-block-content {
-    text-align: left;
+    text-align: left;
 }
 
 div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content th {
-    text-align: center;
+    text-align: center;
 }
 
 #page-content > div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(3) > tbody > tr:nth-child(3) > td:nth-child(2) {
-    color: darkred;
-    background-color: rgba(193,31,32,0.25);
-    text-align: center;
-    width: 25%;
+    color: darkred;
+    background-color: rgba(193,31,32,0.25);
+    text-align: center;
+    width: 25%;
 }
 
 #page-content > div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(1) > tbody > tr:nth-child(3) > td:nth-child(2),
 #page-content > div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(2) > tbody > tr:nth-child(3) > td:nth-child(2),
 #page-content > div:nth-child(19) > div.collapsible-block-unfolded > div.collapsible-block-content > table:nth-child(4) > tbody > tr:nth-child(3) > td:nth-child(2) {
-    color: darkgreen;
-    background-color: rgba(90,137,32,0.25);
-    text-align: center;
-    width: 25%;
+    color: darkgreen;
+    background-color: rgba(90,137,32,0.25);
+    text-align: center;
+    width: 25%;
 }
 [[/module]]
 
@@ -153,7 +153,7 @@ SCP-4297 instances are capable of coordinating egg production to accelerate the 
 
 For a complete list of items produced or manufactured by SCP-4297 instances, contact Research Lead Moore. Ammunition figures are estimates, not exact figures. 
 
-[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
 DATE
@@ -191,7 +191,7 @@ Ammunition, .303 British (300)
 [[cell style="border: 1px solid black; padding: .3em .7em;"]]
 Beretta Model 1934 semi-automatic pistol (21)
 Compatible .380 ACP 7+1-round magazine (42)
-Cyanide capsule (7)[[footnote]] Produced and consumed by SCP-4297 instances shortly after capture.  [[/footnote]]
+Cyanide capsule (7)[[footnote]] Produced and consumed by SCP-4297 instances shortly after capture.  [[/footnote]]
 [[/cell]]
 [[/row]]
 
@@ -265,7 +265,7 @@ The following sequence of events is unclear. At approximately 0700 local time on
 
 
 ||||||~ **Containment Proposal 2** ||
-|| **Date:** 12 Feb 1948 || **Estimated Population: 250**  ||
+|| **Date:** 12 Feb 1948 || **Estimated Population: 250**  ||
 || **Name:** Researcher Walker || //**APPROVED**// ||
 ||||= **Proposed Containment** ||
 ||||< Eliminating SCP-4297 nesting grounds with mortar fire. ||
@@ -273,7 +273,7 @@ The following sequence of events is unclear. At approximately 0700 local time on
 |||| Roughly 50 instances of SCP-4297 confirmed KIA, including roughly ██% of adult female SCP-4297 population. Following three hours of prolonged fire, SCP-4297 responded from an auxiliary nesting grounds with small-arms fire. Ensuing firefight resulted in 2 Foundation casualties and 31 additional SCP-4297 deaths. SCP-4297 retreated at speed; Foundation assets unable to effectively recontain SCP-4297. ||
 
 ||||||~ **Containment Proposal 4** ||
-|| **Date:** 25 Mar 1949 || **Estimated Population: 360**  ||
+|| **Date:** 25 Mar 1949 || **Estimated Population: 360**  ||
 || **Name:** Researcher Cavanaugh || //**DENIED**// ||
 ||||= **Proposed Containment** ||
 ||||< Routinely culling SCP-4297 population with sniper fire. ||
@@ -281,7 +281,7 @@ The following sequence of events is unclear. At approximately 0700 local time on
 |||| //SCP-4297 creates weapons to maintain parity with its attackers. We can't afford to lose a team of sharpshooters. Request denied. - SCP-4297 Research Lead Moore// ||
 
 ||||||~ **Containment Proposal 11** ||
-|| **Date:** 14 May 1950 || **Estimated Population: 510**  ||
+|| **Date:** 14 May 1950 || **Estimated Population: 510**  ||
 || **Name:** Research Lead Moore || //**APPROVED**// ||
 ||||= **Proposed Containment** ||
 ||||< Eliminate SCP-4297 colony using a combination of flamethrower tanks and aerial firebombing.||
@@ -289,20 +289,20 @@ The following sequence of events is unclear. At approximately 0700 local time on
 |||| SCP-4297 deployed two anti-aircraft (AA) flak guns, forcing Foundation aircraft to return to base. Tanks were successful in eliminating SCP-4297-1 instances at a distance of 15 meters. Continuing forward through the burned SCP-4297 nesting grounds, one tank was destroyed in an explosion of unknown cause. Further investigation revealed several TM-44 anti-tank mines in the area. Casualties: ~340 SCP-4297, 4 Foundation. ||
 
 ||||||~ **Containment Proposal 63** ||
-|| **Date:** 08 Dec 1997 || **Estimated Population: 1,810**  ||
-|| **Name:** Deputy Site Director Kenny-Smith, Biological Site-91  || //**DENIED**// ||
+|| **Date:** 08 Dec 1997 || **Estimated Population: 1,810**  ||
+|| **Name:** Deputy Site Director Kenny-Smith, Biological Site-91  || //**DENIED**// ||
 ||||= **Proposed Containment** ||
 ||||< Eliminating SCP-4297 using avian memetic kill agent WILLOUGHBY'S BEAK[[footnote]] Developed as part of containment procedures for [DATA REDACTED]. [[/footnote]]. ||
 ||||= **Containment Results/Notes** ||
 |||| //Denied. This could be successful, but if even one female is left alive, they could counterattack with an equally lethal meme. - Site Director Murloc// ||
 
 ||||||~ **Containment Proposal 78** ||
-|| **Date:** 12 May 2013 || **Estimated Population: 5,460**  ||
-|| **Name:** Site Director Kenny-Smith, Biological Site-91  || //**APPROVED**//[[footnote]] O5 vote: 7 for, 3 against, 3 abstain. [[/footnote]] ||
+|| **Date:** 12 May 2013 || **Estimated Population: 5,460**  ||
+|| **Name:** Site Director Kenny-Smith, Biological Site-91  || //**APPROVED**//[[footnote]] O5 vote: 7 for, 3 against, 3 abstain. [[/footnote]] ||
 ||||= **Proposed Containment** ||
 ||||< Develop a cognitohazardous agent causing SCP-4297 instances to be unable to perceive humans, preventing retaliation and allowing for easier SCP-4297 extermination. Utilize the aforementioned agent outside of hatching season to prevent retaliation. ||
 ||||= **Containment Results/Notes** ||
-|||| Cognitohazardous agent DIGITAL BLACK successfully developed on 23 May 2013 and tested on captive SCP-4297 instances. Deployment of MTF Kappa-5 ("Pecking Order") and MTF Apollo-3 ("Game Wardens") has been approved for OPERATION INVISIBLE FACE, the deployment of DIGITAL BLACK and neutralization of SCP-4297.  ||
+|||| Cognitohazardous agent DIGITAL BLACK successfully developed on 23 May 2013 and tested on captive SCP-4297 instances. Deployment of MTF Kappa-5 ("Pecking Order") and MTF Apollo-3 ("Game Wardens") has been approved for OPERATION INVISIBLE FACE, the deployment of DIGITAL BLACK and neutralization of SCP-4297.  ||
 [[/collapsible]]
 
 [[span class="center-header"]]Addendum 4297-2: OPERATION INVISIBLE FACE After-Action Report[[/span]]

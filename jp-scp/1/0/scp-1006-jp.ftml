@@ -83,24 +83,24 @@ SCP-1WJK-JPは自身の所持する「塗装中ご迷惑おかけします」と
 <script type="text/javascript" src="http://shitake-crude-production.wikidot.com/time-move/code/1"></script>
 <script type="text/javascript">
 function previewTime(argObj){
-    var target = document.getElementById("times");
-    target.innerHTML = addDigit(TimeRugMove.convert(argObj.rem,"sec",true),2) + ":" + addDigit(TimeRugMove.convert(argObj.rem,"msec",true),3);
-    function addDigit(n,dn){
-        n = String(n);
-        while(n.length < dn){
-            n = "0" + n;
-        }
-        return n;
-    }
+    var target = document.getElementById("times");
+    target.innerHTML = addDigit(TimeRugMove.convert(argObj.rem,"sec",true),2) + ":" + addDigit(TimeRugMove.convert(argObj.rem,"msec",true),3);
+    function addDigit(n,dn){
+        n = String(n);
+        while(n.length < dn){
+            n = "0" + n;
+        }
+        return n;
+    }
 }
- 
+ 
 TimeRugMove.callback = previewTime;
 TimeRugMove.time = 3;//20秒後に画面移動
 TimeRugMove.url = "http://ja.scp-wiki.net/scp-1006-jp/offset/1/page3_limit/1";//SCP財団に移動する
- 
+ 
 </script>
 <font color="red">error!!</font><br />
- 予期せぬエラーが発生しました。再試行するか管理者へ問い合わせを行ってください。<br />
+ 予期せぬエラーが発生しました。再試行するか管理者へ問い合わせを行ってください。<br />
 <br>
 <br>
 <button onclick="TimeRugMove.run();">再試行</button><br />
@@ -356,16 +356,16 @@ var day = hiduke.getDate();
 </div>
 </body>
 <!— ↓charsizeReで指定された範囲の文字の大きさを指定する部分/90を動かせば大きさ変更できます —>
- <script type="text/javascript">
+ <script type="text/javascript">
 document.addEventListener( 'DOMContentLoaded',function() {
 var check = isUseSmartPhone();
 if(check)document.getElementById("charsizeRe").style.fontSize = 90 + "%";
 function isUseSmartPhone(){
-            return (((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0));
-        }
-    });
- 
- </script>
+            return (((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0));
+        }
+    });
+ 
+ </script>
 [[/html]]
 
 不正アクセスは理事会端末、機動部隊作戦室端末、収容スペシャリスト専用端末、諜報部秘匿チャンネルに対し同時に行われ、「財団施設が襲撃されている。」という架空のインシデント発生を報告します。この際、架空の財団施設の存在について、インシデントの真偽に関する指摘が一切発生しない事から精神影響的異常性も内包していると考えられていますが結論に至っていません。また、不正アクセスの発生に際して、SCiPNETの保護を司る複数のセキュリティが正常に作動していない事が確認されており、不正アクセスそのものもアノマラス的現象であると指摘されています。
@@ -375,93 +375,93 @@ function isUseSmartPhone(){
 [[collapsible show="▶インシデント-1006-JP-2 通信記録" hide="▼閲覧を承認。"]]
 **__通信記録-1006-JP-2 - 日付20██/██/██__**
 [[div style="border:solid 1px #999999; background:#f0f8ff; padding:5px; margin-bottom: 10px;"]]
- 
- **付記:** エリア-81JA1と呼称された架空財団施設の奪還作戦の際に記録された機動部隊イプシロン-7800（"給料日"）榎本隊長と倉持戦術士官の通信記録。
+ 
+ **付記:** エリア-81JA1と呼称された架空財団施設の奪還作戦の際に記録された機動部隊イプシロン-7800（"給料日"）榎本隊長と倉持戦術士官の通信記録。
 ----
 ----
 
- **≪再生≫**
- 
+ **≪再生≫**
+ 
 [[include component:image-block
 |name=立ち入り禁止.jpg
 |caption=添付1
 |width=300px
 ]]
- **榎本:** こちら"給料日"、エリア-81JA1の敷地の入り口に到着した。画像を送信する。
- 
- **倉持:** [数秒沈黙]、画像を確認した。そのまま突入し、先行突入している"JRリフレ"と合流せよ。
+ **榎本:** こちら"給料日"、エリア-81JA1の敷地の入り口に到着した。画像を送信する。
+ 
+ **倉持:** [数秒沈黙]、画像を確認した。そのまま突入し、先行突入している"JRリフレ"と合流せよ。
 
- **榎本:** 了解。
- 
- **[数分通信無し]**
- 
- **榎本:** おかしいな。作戦室応答してくれ。既に目標座標に到着しているはずだがエリア-81JA1が見当たらない。
+ **榎本:** 了解。
+ 
+ **[数分通信無し]**
+ 
+ **榎本:** おかしいな。作戦室応答してくれ。既に目標座標に到着しているはずだがエリア-81JA1が見当たらない。
 
- **倉持:** 確認する。[数秒沈黙]確かに目標座標地点だな。
- 
- **榎本:** GPS情報がズレてるのかもしれない。少し探索する。
- 
- **倉持:** 了解。十分に警戒せよ。
- 
- **[数分通信無し]**
- 
- **榎本:** 随分暗いな。鬱蒼としてはいるが....。
- 
- **倉持:** エリア-81JA1は森林地帯の最深部に存在している。多少は我慢してくれ。
- 
- **榎本:** いや、それは解っているが....。いくらなんでも暗すぎるぞ。
- 
- **[数分通信無し]**
- 
- **榎本:** おっ、開けた場所が見えた。エリア-81JA1に着いたかもしれない。"JRリフレ"と合流する。
- 
- **倉持:** "JRリフレ"は先行突入している。すみやかに合流せよ。
+ **倉持:** 確認する。[数秒沈黙]確かに目標座標地点だな。
+ 
+ **榎本:** GPS情報がズレてるのかもしれない。少し探索する。
+ 
+ **倉持:** 了解。十分に警戒せよ。
+ 
+ **[数分通信無し]**
+ 
+ **榎本:** 随分暗いな。鬱蒼としてはいるが....。
+ 
+ **倉持:** エリア-81JA1は森林地帯の最深部に存在している。多少は我慢してくれ。
+ 
+ **榎本:** いや、それは解っているが....。いくらなんでも暗すぎるぞ。
+ 
+ **[数分通信無し]**
+ 
+ **榎本:** おっ、開けた場所が見えた。エリア-81JA1に着いたかもしれない。"JRリフレ"と合流する。
+ 
+ **倉持:** "JRリフレ"は先行突入している。すみやかに合流せよ。
 
- **榎本:** 了解。
- 
- **[数十秒通信無し]**
- 
- **榎本:** これは....、驚いた、どうなってやがる....。
- 
- **倉持:** どうかしたか？報告せよ。
- 
+ **榎本:** 了解。
+ 
+ **[数十秒通信無し]**
+ 
+ **榎本:** これは....、驚いた、どうなってやがる....。
+ 
+ **倉持:** どうかしたか？報告せよ。
+ 
 [[include component:image-block
 |name=夕暮れ.jpg
 |caption=添付2
 |width=300px
 ]]
- **榎本:** 海だ。海がある。しかも日が暮れて.....。作戦を開始した時は10時だったはずだぞ？....とりあえず画像を送信する。解析してくれ。
- 
- **倉持:** 海？GPS信号は██、██、██、██で岐阜県███周辺を示している。なにかの間違いでは...。
+ **榎本:** 海だ。海がある。しかも日が暮れて.....。作戦を開始した時は10時だったはずだぞ？....とりあえず画像を送信する。解析してくれ。
+ 
+ **倉持:** 海？GPS信号は██、██、██、██で岐阜県███周辺を示している。なにかの間違いでは...。
 
- **倉持:** [数秒沈黙]、画像を確認した。ううむ....。"給料日"、これはアノマリー起因の現象の可能性がある。1度撤退せよ。
- 
- **榎本:** 了解....いや....、ちょっとまってくれ。
- 
- **[数十秒沈黙]**
- 
- **榎本:** 人工物を発見。祠の残骸のように見える。
- 
- **倉持:** "給料日"、画像を送信して撤退せよ。人工物には接触するな。
+ **倉持:** [数秒沈黙]、画像を確認した。ううむ....。"給料日"、これはアノマリー起因の現象の可能性がある。1度撤退せよ。
+ 
+ **榎本:** 了解....いや....、ちょっとまってくれ。
+ 
+ **[数十秒沈黙]**
+ 
+ **榎本:** 人工物を発見。祠の残骸のように見える。
+ 
+ **倉持:** "給料日"、画像を送信して撤退せよ。人工物には接触するな。
 
 **[数秒沈黙]**
- 
+ 
 [[include component:image-block
 |name=矢代.jpg
 |caption=添付3
 |width=300px
 ]]
- **榎本:** 画像を送信した。撤退を開始する。
+ **榎本:** 画像を送信した。撤退を開始する。
 
- **倉持:** [数秒沈黙]、画像を確認した。作戦開始点まで速やかに退却せよ。
+ **倉持:** [数秒沈黙]、画像を確認した。作戦開始点まで速やかに退却せよ。
 
- **榎本:** 了解。撤退が完了したらまた連絡する。
+ **榎本:** 了解。撤退が完了したらまた連絡する。
 
- **≪終了≫**
+ **≪終了≫**
 　
 ----
 　
- **報告:** この通信の後、機動部隊イプシロン-7800（"給料日"）は帰投せず安否不明です。再度通信を行う試みが行われましたが成功しませんでした。岐阜県███周辺を対象に失踪者の捜索が行われましたが、機動部隊イプシロン-7800（"給料日"）の隊員達や、通信の際に添付された画像の様な場所や祠は発見されませんでした。
+ **報告:** この通信の後、機動部隊イプシロン-7800（"給料日"）は帰投せず安否不明です。再度通信を行う試みが行われましたが成功しませんでした。岐阜県███周辺を対象に失踪者の捜索が行われましたが、機動部隊イプシロン-7800（"給料日"）の隊員達や、通信の際に添付された画像の様な場所や祠は発見されませんでした。
 　
 [[/div]]
 [[/collapsible]]
@@ -492,19 +492,19 @@ opacity:0;
 zoom:1; /*IE*/
 -webkit-animation:fadeIn 10s ease 5s 1 normal;
 animation: fadeIn 10s ease 5s 1 normal;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 #u-bapp:target ~ .bubble .delete{
 -webkit-animation:fadeout 5s ease 0s 1 normal;
 animation: fadeout 5s ease 0s 1 normal;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn {
-    0% {
+    0% {
 filter:alpha(opacity=0); /* IE 6,7*/
 -ms-filter: "alpha(opacity=0)"; /* IE 8,9 */
 -moz-opacity:0; /* FF , Netscape */
@@ -512,7 +512,7 @@ filter:alpha(opacity=0); /* IE 6,7*/
 opacity:0;
 zoom:1; /*IE*/
 }
-    100% {
+    100% {
 filter:alpha(opacity=100); /* IE 6,7*/
 -ms-filter: "alpha(opacity=100)"; /* IE 8,9 */
 -moz-opacity:100; /* FF , Netscape */
@@ -523,7 +523,7 @@ zoom:1; /*IE*/
 }
 
 @-webkit-keyframes fadeIn {
-    0% {
+    0% {
 filter:alpha(opacity=0); /* IE 6,7*/
 -ms-filter: "alpha(opacity=0)"; /* IE 8,9 */
 -moz-opacity:0; /* FF , Netscape */
@@ -532,7 +532,7 @@ opacity:0;
 zoom:1; /*IE*/
 
 }
-    100% {
+    100% {
 filter:alpha(opacity=100); /* IE 6,7*/
 -ms-filter: "alpha(opacity=100)"; /* IE 8,9 */
 -moz-opacity:1; /* FF , Netscape */
@@ -543,7 +543,7 @@ zoom:1; /*IE*/
 }
 
 @keyframes fadeout {
-    0% {
+    0% {
 filter:alpha(opacity=100); /* IE 6,7*/
 -ms-filter: "alpha(opacity=100)"; /* IE 8,9 */
 -moz-opacity:1; /* FF , Netscape */
@@ -551,7 +551,7 @@ filter:alpha(opacity=100); /* IE 6,7*/
 opacity:1;
 zoom:1; /*IE*/
 }
-    100% {
+    100% {
 filter:alpha(opacity=0); /* IE 6,7*/
 -ms-filter: "alpha(opacity=0)"; /* IE 8,9 */
 -moz-opacity:0; /* FF , Netscape */
@@ -562,7 +562,7 @@ zoom:1; /*IE*/
 }
 
 @-webkit-keyframes fadeout {
-    0% {
+    0% {
 filter:alpha(opacity=100); /* IE 6,7*/
 -ms-filter: "alpha(opacity=100)"; /* IE 8,9 */
 -moz-opacity:0; /* FF , Netscape */
@@ -570,7 +570,7 @@ filter:alpha(opacity=100); /* IE 6,7*/
 opacity:0;
 zoom:1; /*IE*/
 }
-    100% {
+    100% {
 filter:alpha(opacity=100); /* IE 6,7*/
 -ms-filter: "alpha(opacity=100)"; /* IE 8,9 */
 -moz-opacity:1; /* FF , Netscape */

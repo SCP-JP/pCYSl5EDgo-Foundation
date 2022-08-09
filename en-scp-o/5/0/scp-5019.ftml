@@ -7,170 +7,170 @@
 
 .lostmedia-comment,
 .lostmedia-comment * {
-    box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .lostmedia-comment * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .lostmedia-comment {
-    margin-top:5px;
-    margin-bottom:5px;
-    overflow:hidden;
-    background-color: #fff;
+    margin-top:5px;
+    margin-bottom:5px;
+    overflow:hidden;
+    background-color: #fff;
 }
 .lostmedia-comment .comment {
-    position:relative;
+    position:relative;
 }
 .lostmedia-comment .reply-comment {
-    margin-top:10px;
-    margin-left:30px;
+    margin-top:10px;
+    margin-left:30px;
 }
 .lostmedia-comment .head-comment > .comment-header {
-    border-top:1px solid #00a7d8;
+    border-top:1px solid #00a7d8;
 }
 .lostmedia-comment .target-comment .comment-header {
-    border:2px solid green;
+    border:2px solid green;
 }
 .lostmedia-comment .comment-header {
-    background-color:#e4f1ff;
+    background-color:#e4f1ff;
 }
 .lostmedia-comment .reply-comment > .comment-header {
-    background-color:#f5faff;
+    background-color:#f5faff;
 }
 .lostmedia-comment .comment-header {
-    padding-top:2px;
-    padding-bottom:2px;
-    background-color:#f9f9f9 !important;
-    width:100%
+    padding-top:2px;
+    padding-bottom:2px;
+    background-color:#f9f9f9 !important;
+    width:100%
 }
 .lostmedia-comment .head-comment > .comment-header {
-    border-top: 4px solid #36782c;
+    border-top: 4px solid #36782c;
 }
 .lostmedia-comment .comment-header-left {
-    display:inline-block;
-    vertical-align:middle;
+    display:inline-block;
+    vertical-align:middle;
 }
 .lostmedia-comment .comment-header-center {
-    display:inline-block;
-    vertical-align:middle;
-    padding-left:5px;
+    display:inline-block;
+    vertical-align:middle;
+    padding-left:5px;
 }
 .lostmedia-comment .comment-header-right {
-    display:inline-block;
-    float:right;
+    display:inline-block;
+    float:right;
 }
 .lostmedia-comment .avatar {
-    height:48px;
-    padding:5px;
+    height:48px;
+    padding:5px;
 }
 .lostmedia-comment .comment-title {
-    font-size:20px;
-    font-weight:bold;
+    font-size:20px;
+    font-weight:bold;
 }
 .lostmedia-comment .comment-author {
-    padding-right:5px;
-    font-size:12px;
+    padding-right:5px;
+    font-size:12px;
 }
 .lostmedia-comment .comment-author a {
-    color:#00a7d8;
-    font-weight:bold;
+    color:#00a7d8;
+    font-weight:bold;
 }
 .lostmedia-comment .collapsible-block {
-    position: relative;
+    position: relative;
 }
 .lostmedia-comment .collapsible-block .collapsible-block-link {
-    position: absolute;
-    top: -50px;
-    right: 0;
-    width: 32px;
-    height: 32px;
-    box-sizing: content-box;
-    padding: 0 5px;
-    color: rgba(0,0,0,0);
+    position: absolute;
+    top: -50px;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    box-sizing: content-box;
+    padding: 0 5px;
+    color: rgba(0,0,0,0);
 }
 .lostmedia-comment .collapsible-block .collapsible-block-link:hover {
-    background-color:#8eddf5;
-    mix-blend-mode: darken;
+    background-color:#8eddf5;
+    mix-blend-mode: darken;
 }
 .lostmedia-comment .comment-body {
-    margin-bottom:5px;
-    font-size:14px;
-    padding-left: 5px;
+    margin-bottom:5px;
+    font-size:14px;
+    padding-left: 5px;
 }
 .lostmedia-comment .comment-details {
-    color:#555555;
-    opacity:0.8;
-    font-size:12px;
-    padding-right:5px;
-    padding-left:5px;
+    color:#555555;
+    opacity:0.8;
+    font-size:12px;
+    padding-right:5px;
+    padding-left:5px;
 }
 .lostmedia-comment .button {
-    background-color:transparent;
-    border:none;
-    font-family:sans-serif;
-    font-weight:bold;
-    text-decoration:none;
-    padding-left:5px;
-    padding-right:5px;
-    box-shadow:none;
-    -webkit-appearance: button;
-    cursor: pointer;
-    text-transform: none;
-    overflow: visible;
-    margin: 0;
+    background-color:transparent;
+    border:none;
+    font-family:sans-serif;
+    font-weight:bold;
+    text-decoration:none;
+    padding-left:5px;
+    padding-right:5px;
+    box-shadow:none;
+    -webkit-appearance: button;
+    cursor: pointer;
+    text-transform: none;
+    overflow: visible;
+    margin: 0;
 }
 .lostmedia-comment .button:hover {
-    background-color:#8eddf5;
+    background-color:#8eddf5;
 }
 .lostmedia-comment .button:enabled:active {
-    opacity:0.5;
+    opacity:0.5;
 }
 .lostmedia-comment .button:enabled:hover {
-    color:#3ccefa;
+    color:#3ccefa;
 }
 .lostmedia-comment .button:disabled {
-    color:#95a5a6;
-    opacity:0.2;
+    color:#95a5a6;
+    opacity:0.2;
 }
 .lostmedia-comment .moderator-button {
-    color:#ff0000;
+    color:#ff0000;
 }
 .lostmedia-comment .moderator-button:enabled:hover {
-    color:#ff5555;
+    color:#ff5555;
 }
 .lostmedia-comment .toggle-button {
-    border:none;
-    border-style:none;
+    border:none;
+    border-style:none;
 }
 .lostmedia-comment .vote-upcount,
 .lostmedia-comment .vote-downcount {
-    color:#555555;
-    padding-left:3px;
+    color:#555555;
+    padding-left:3px;
 }
 .lostmedia-comment .link-button {
-    border:none;
-    border-style:none;
-    font-size:12px;
-    font-weight:normal;
-    text-align:left;
-    position: relative;
+    border:none;
+    border-style:none;
+    font-size:12px;
+    font-weight:normal;
+    text-align:left;
+    position: relative;
 }
 
 .lostmedia-comment .link-button a,
 .lostmedia-comment .link-button a:hover,
 .lostmedia-comment .link-button a:active,
 .lostmedia-comment .link-button a:visited {
-    text-decoration: none;
-    color: #333;
+    text-decoration: none;
+    color: #333;
 }
 .lostmedia-comment .reply-button {
-    font-size:12px;
-    font-weight:normal;
-    text-align:left;
+    font-size:12px;
+    font-weight:normal;
+    text-align:left;
 }
 .lostmedia-comment div.span {
-    display: inline-block;
+    display: inline-block;
 }
 
 [[/module]]
@@ -182,12 +182,12 @@
 
 /* REDDIT */
 .reddit-post{
-    background-color: #fcfcfb; 
-    border: 1px solid #b5b3ac; 
-    padding: 0 .85em;
-    margin: .43em; 
-    overflow: hidden;
-    font-family: verdana,arial,sans-serif;
+    background-color: #fcfcfb; 
+    border: 1px solid #b5b3ac; 
+    padding: 0 .85em;
+    margin: .43em; 
+    overflow: hidden;
+    font-family: verdana,arial,sans-serif;
 }
 [[/module]]
 @@ @@
@@ -230,7 +230,7 @@ According to a Foundation web scan of all internet platforms, the release status
 
 * The episode had an official television release, but no saved copy exists. Rather, only official statements and plot summaries confirming its release. The consensus among those displaying this effect is that it is considered "lost media".
 * The episode can be found in the same manner as the rest of the series. 
-* The episode was planned for release, but was canceled with only a title and number released. This is the status remembered by non-affected individuals, and is the factually true status.  
+* The episode was planned for release, but was canceled with only a title and number released. This is the status remembered by non-affected individuals, and is the factually true status.  
 * The episode is a horror story written by a user of an online forum that is popularly mistaken for a lost episode.
 * The episode is a horror story written by a user of an online forum that is remembered as such, and is not mistaken for being official content. 
 * The episode is only rumored to exist, with the origin of this rumor unknown.
@@ -262,42 +262,42 @@ The following is an abridged list of online posts containing descriptions of the
 [[div_ class="lostmedia-comment expanded" id="lostmedia-comment-1"]]
 [!-- BEGIN PRIMARY COMMENT --]
 [[div_ class="comment head-comment" id="comment"]]
-    [[div_ class="comment-header"]]
-     [[div_ class="comment-header-left"]]
+    [[div_ class="comment-header"]]
+     [[div_ class="comment-header-left"]]
 
-     [[/div]]
-     [[div_ class="comment-header-center"]]
-     [[div_ class="comment-title"]]
-     Makes sense
-     [[/div]]
-     [[div_ class="comment-author span"]]
-     [[a href="#"]]FoundFormest[[/a]]
-     [[/div]]
-     [[div_ class="comment-details span"]]
-     |
-     [[/div]]
-     [[div_ class="comment-details span"]]
-     Posted on August 22 at 3:20 pm
-     [[/div]]
-     [[div_ class="comment-details span"]]
-     |
-     [[/div]]
-     [[div_ class="button link-button span"]]
-     [[a href="#u-lostmedia-comment-1"]][link][[/a]]
-     [[/div]]
-     [[/div]]
-     [[div_ class="comment-header-right"]]
-     [[div_ class="button toggle-button"]]
-     [[image http://scptestwiki.wdfiles.com/local--files/sigma%3Alostmediawiki-comment/collapse.png]]
-     [[/div]]
-     [[/div]]
-    [[/div]]
+     [[/div]]
+     [[div_ class="comment-header-center"]]
+     [[div_ class="comment-title"]]
+     Makes sense
+     [[/div]]
+     [[div_ class="comment-author span"]]
+     [[a href="#"]]FoundFormest[[/a]]
+     [[/div]]
+     [[div_ class="comment-details span"]]
+     |
+     [[/div]]
+     [[div_ class="comment-details span"]]
+     Posted on August 22 at 3:20 pm
+     [[/div]]
+     [[div_ class="comment-details span"]]
+     |
+     [[/div]]
+     [[div_ class="button link-button span"]]
+     [[a href="#u-lostmedia-comment-1"]][link][[/a]]
+     [[/div]]
+     [[/div]]
+     [[div_ class="comment-header-right"]]
+     [[div_ class="button toggle-button"]]
+     [[image http://scptestwiki.wdfiles.com/local--files/sigma%3Alostmediawiki-comment/collapse.png]]
+     [[/div]]
+     [[/div]]
+    [[/div]]
 [[collapsible show="+" hide="-" folded="no"]]
 [[div_ class="comment-body"]]
-    Non-existence confirmed makes so much sense. I thought it was real for the longest time, and dude, it scared the shit out of me. I mean I heard stuff about Lilly kicking her lamb into the street, and there were pictures of the scene. So fuckin glad those are fake and fanmade. Ick Day, the episode where Lilly went of being mean and grumpy to her friends around time because she was sick and refused medicine. I'd have nightmares about that when I was little. It's a show for like 5 to 9 year olds! God I hate the internet lmao
+    Non-existence confirmed makes so much sense. I thought it was real for the longest time, and dude, it scared the shit out of me. I mean I heard stuff about Lilly kicking her lamb into the street, and there were pictures of the scene. So fuckin glad those are fake and fanmade. Ick Day, the episode where Lilly went of being mean and grumpy to her friends around time because she was sick and refused medicine. I'd have nightmares about that when I was little. It's a show for like 5 to 9 year olds! God I hate the internet lmao
 [[/div]]
 [[/div]]
-    [!-- END PRIMARY COMMENT --]
+    [!-- END PRIMARY COMMENT --]
 [[/collapsible]]
 [[/div]]
 @@ @@
@@ -324,7 +324,7 @@ The following is an abridged list of online posts containing descriptions of the
 > 
 > [[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] Thought I'd drop what I remember of the Loopy Lilly episode peeps have been discussing. Basically Lilly is out in the town with her friends and someone near them gets sick and then they're scared that they'll get sick. The spend the whole episode being super careful afraid that they'll get germs and stuff. At the end they all get sick. The episode was controversial because parents were afraid it sent a kinda mean message. It's weird that it's lost. Now I don't remember much either, that's about it. [[/span]]
 > [[span style="font-size: x-small;"]] ##888|submitted 21 hours ago by## ##369|KuestionableXontent##[[/span]]
-> [[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 5 comments@@   @@share@@   @@save@@   @@hide@@   @@##a79128|give gold##@@   @@report@@   @@crosspost [[/span]]
+> [[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 5 comments@@   @@share@@   @@save@@   @@hide@@   @@##a79128|give gold##@@   @@report@@   @@crosspost [[/span]]
 > 
 > [[/div]]
 > 

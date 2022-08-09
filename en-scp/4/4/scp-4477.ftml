@@ -4,32 +4,32 @@
 
 [[module CSS]]
 div.jesus {
-    margin: auto;
-    width: 85%;
-    border: .3em double rgb(240, 204, 0);
-    background: rgb(255, 255, 240) url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat;
-    padding: 0 1em;
-    box-shadow: 0.066em 0.066em .329em .132em rgba(89, 75, 2,.6);
-    border-radius: .2em;
+    margin: auto;
+    width: 85%;
+    border: .3em double rgb(240, 204, 0);
+    background: rgb(255, 255, 240) url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat;
+    padding: 0 1em;
+    box-shadow: 0.066em 0.066em .329em .132em rgba(89, 75, 2,.6);
+    border-radius: .2em;
 }
 
 div.jesus span {
-    display: block;
-    text-align: center;
-    word-break: unset;
-    font-variant: small-caps;
-    color: rgb(240, 204, 0);
-    font-weight: bold;
+    display: block;
+    text-align: center;
+    word-break: unset;
+    font-variant: small-caps;
+    color: rgb(240, 204, 0);
+    font-weight: bold;
 }
 
 span.leave {
-    font-size: 1.95em;
-    text-shadow: 2.5px 2px 0 black;
+    font-size: 1.95em;
+    text-shadow: 2.5px 2px 0 black;
 }
 
 span.room {
-    font-size: 1.5em;
-    text-shadow: 1.5px 2px 0 black;
+    font-size: 1.5em;
+    text-shadow: 1.5px 2px 0 black;
 }
 [[/module]]
 

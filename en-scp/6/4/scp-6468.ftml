@@ -7,19 +7,19 @@ BHL based theme by tetsusquared
 feel free to use for all Minecraft Division articles */
 
 :root {
-  /* ===HEADER ELEMENTS=== */
-  --logo-image: url("http://scp-sandbox-3.wdfiles.com/local--files/ruritech/logo.png");
-  --header-title: "Minecraft部門" !important;
-  --header-subtitle: "Systematic Containment with Playability" !important;
+  /* ===HEADER ELEMENTS=== */
+  --logo-image: url("http://scp-sandbox-3.wdfiles.com/local--files/ruritech/logo.png");
+  --header-title: "Minecraft部門" !important;
+  --header-subtitle: "Systematic Containment with Playability" !important;
 
-  /* ===STANDARD THEME COLORS=== */
-  --pale-accent: 97, 145, 197;
-  --bright-accent: 53, 175, 30;
-  --medium-accent: 151, 104, 21;
-  --dark-accent:  77, 77, 77;
-  
-  /* ===HEADER GRADIENT=== */
-  --gradient-header: linear-gradient(to bottom, rgb(53, 173, 30), rgb(40, 160, 20) 10%, rgb(151, 104, 21) 10%, rgb(130, 80, 10));
+  /* ===STANDARD THEME COLORS=== */
+  --pale-accent: 97, 145, 197;
+  --bright-accent: 53, 175, 30;
+  --medium-accent: 151, 104, 21;
+  --dark-accent:  77, 77, 77;
+  
+  /* ===HEADER GRADIENT=== */
+  --gradient-header: linear-gradient(to bottom, rgb(53, 173, 30), rgb(40, 160, 20) 10%, rgb(151, 104, 21) 10%, rgb(130, 80, 10));
 }
 
 [[/module]]

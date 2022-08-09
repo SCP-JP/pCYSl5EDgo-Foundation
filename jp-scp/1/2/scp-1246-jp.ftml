@@ -1,29 +1,29 @@
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 
 @media screen and (max-width:500px){
@@ -53,7 +53,7 @@ float:right;
 **アイテム番号:** SCP-1246-JP
 
 **オブジェクトクラス:** Safe
-  
+  
 **特別収容プロトコル:** SCP-1246-JPへ通じるシャフトの蓋には南京錠を掛け、外部からの侵入を防ぎます。現在のところ、更なるSCP-1246-JP内部の探査は許可されていません。
 
 **説明:** SCP-1246-JPは、神奈川県南足柄市に存在する地下構造物です。この構造物は財団保有の地下鉄道の軌道[[footnote]]財団の所有する地下鉄道、アンダーシャトル-マクロライン-東アジア線の軌道です。当該区域にはターミナル-8100〜箱根芦ノ湖を結ぶ支線が敷設されています。[[/footnote]]直下に位置します。現在確認されている構造物への唯一の出入り口は、線路脇の待避所内に設けられた、蓋付きの深度40mのシャフトです。蓋の裏には[[[http://ja.scp-wiki.net/scp-3790 |”怪奇部門”]]]という文字が日本語で刻まれた小さな金属製プラカードが取り付けられています。財団がこのような部門を有していた記録は存在していません。

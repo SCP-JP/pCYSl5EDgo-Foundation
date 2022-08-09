@@ -59,22 +59,22 @@ Below is a table with a selection of examples for SCP-4354 instances currently i
 
 [[module CSS]]
 .table-hcell {
-    border: 1px solid #888;
-    padding: 0.3em 0.7em;
-    background-color: #EEE;
-    font-weight: bold;
-    text-align: center;
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
+    background-color: #EEE;
+    font-weight: bold;
+    text-align: center;
 }
 
 .table-cell {
-    border: 1px solid #888;
-    padding: 0.3em 0.7em;
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
 }
 
 .image-cell {
-    border: 1px solid #888;
-    padding: 0.3em 0.7em;
-    width: 115px;
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
+    width: 115px;
 }
 [[/module]]
 
@@ -272,7 +272,7 @@ Image and Description
 [[image daughters.jpg]]
 [[/cell]]
 [[cell class="table-cell"]]
- A simplified drawing of the subject's daughters, both of whom had died in a fire six years prior. They spend several hours a day walking around or playing with each other and otherwise lie down. When their names are called they look around with a confused expression. 
+ A simplified drawing of the subject's daughters, both of whom had died in a fire six years prior. They spend several hours a day walking around or playing with each other and otherwise lie down. When their names are called they look around with a confused expression. 
 [[/cell]]
 [[/row]]
 [[row]]

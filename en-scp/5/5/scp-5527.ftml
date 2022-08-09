@@ -4,27 +4,27 @@
 
 [[module CSS]]
 .table-main {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: 0.5em auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0.5em auto;
 }
 
 .table-hcell {
-    border: 1px solid #888;
-    padding: 0.3em 0.7em;
-    background-color: #EEE;
-    font-weight: bold;
-    text-align: center;
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
+    background-color: #EEE;
+    font-weight: bold;
+    text-align: center;
 }
 
 .table-cell {
-    border: 1px solid #888;
-    padding: 0.3em 0.7em;
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
 }
 [[/module]]
 
 [[module CSS]]
-  .footnoteref{ font-variant: unset; }
+  .footnoteref{ font-variant: unset; }
 [[/module]]
 
 [[include :scp-wiki:component:info-ayers
@@ -33,43 +33,43 @@
 |authorPage=http://www.scp-wiki.net/dr-dune-s-personnel-file
 |comments=
 = **SCP-5527** -
- 
+ 
 -----
 
 X
 
 -----
- 
+ 
 = **Image Credits**
- 
+ 
 ]]
 [[module CSS]]
 sup {
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 
 :root {
-    --cutColour: #fafafa;
-    --barColour: #590505;
+    --cutColour: #fafafa;
+    --barColour: #590505;
 }
 
 .translation_block {
-    display: none;
+    display: none;
 }
 
 .info-container .collapsible-block-folded a {
-    color: #FFF;
+    color: #FFF;
 }
 
 .info-container .collapsible-block-unfolded-link a {
-    color: #FFF;
+    color: #FFF;
 }
 
 .info-container .collapsible-block-link,
 .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 [[/module]]
 
@@ -216,7 +216,7 @@ SCP-5527の更なる試験はO5評議会の要請に従って禁止された。
 
 O5-12の住居を捜査したところ、SCP-5527の消費に続いてナプキンに走り書きされた以下の文書が発見されました。
 
->  **ワーオ！** //私たちは自分を恥じるべきだ。私たちはこの報いに値する。//
+>  **ワーオ！** //私たちは自分を恥じるべきだ。私たちはこの報いに値する。//
 > 
 > 好評につき、ワンダーテインメント博士限定版コレクションのリトル・ミスターズが全く新しい顔ぶれで帰ってきたよ！ 楽しくないかい？
 > 

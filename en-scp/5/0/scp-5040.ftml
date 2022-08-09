@@ -12,45 +12,45 @@
 
 /* Fix footnote superscript flying away: */
 .footnoteref, #page-content > sup {
-    top: -0.25em;
+    top: -0.25em;
 }
 
 /* Remove clear on image block when >600px wide */
 @media (max-width: 979px) and (min-width: 768px) {
-    #page-content div, #page-content div table {
-    clear: none;
-    }
+    #page-content div, #page-content div table {
+    clear: none;
+    }
 }
 
 .synopsis {
-    margin: 25px 8% 25px 6%;
-    padding: 2% 4% 2% 4%;
-    background-color: #f2f2f2;
+    margin: 25px 8% 25px 6%;
+    padding: 2% 4% 2% 4%;
+    background-color: #f2f2f2;
 }
 
 .memory {
-    margin: 0px 5% 0 3%;
+    margin: 0px 5% 0 3%;
 }
 
 .pictures4mobile {
-    height: 0px;
-    overflow: hidden;
+    height: 0px;
+    overflow: hidden;
 }
 
 .pictures4desk {
-    height: auto;
+    height: auto;
 }
 
 @media only screen and (max-width: 600px) {
 
-    .pictures4mobile {
-        height: auto;
-    }
+    .pictures4mobile {
+        height: auto;
+    }
 
-    .pictures4desk {
-        height: 0px;
-        overflow: hidden;
-    }
+    .pictures4desk {
+        height: 0px;
+        overflow: hidden;
+    }
 
 }
 [[/module]]
@@ -69,18 +69,18 @@
 [!--
 [[div class="pictures4desk"]]
 [[include component:image-block
-    name=Poster3SmallCrop.jpg|
-    caption=SCP-5040を宣伝する視覚メディア。作者不詳。チャタヌーガ映画協会を介して取得。|
-    width=250px|
-    align=right
+    name=Poster3SmallCrop.jpg|
+    caption=SCP-5040を宣伝する視覚メディア。作者不詳。チャタヌーガ映画協会を介して取得。|
+    width=250px|
+    align=right
 ]]
 [[/div]]
 [[div class="pictures4mobile"]]
 [[include component:image-block
-    name=Poster3SmallCrop.jpg|
-    caption=SCP-5040を宣伝する視覚メディア。作者不詳。チャタヌーガ映画協会を介して取得。|
-    width=250px|
-    align=center
+    name=Poster3SmallCrop.jpg|
+    caption=SCP-5040を宣伝する視覚メディア。作者不詳。チャタヌーガ映画協会を介して取得。|
+    width=250px|
+    align=center
 ]]
 [[/div]]
 --]

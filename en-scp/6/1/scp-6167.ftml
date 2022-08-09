@@ -42,65 +42,65 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Fantem";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "Fantem";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .pulsate {
-    -webkit-animation: pulsate 1s linear;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation: pulsate 1s linear;
+    -webkit-animation-iteration-count: infinite;
 }
 @-webkit-keyframes pulsate {
-  0% {
-    opacity:1;
-  }
-  25% {
-    opacity:.20;
-  }
-  50% {
-    opacity:.9;
-  }
-  70% {
-    opacity:.05;
-  }
-  85% {
-    opacity:.05;
-  }
+  0% {
+    opacity:1;
+  }
+  25% {
+    opacity:.20;
+  }
+  50% {
+    opacity:.9;
+  }
+  70% {
+    opacity:.05;
+  }
+  85% {
+    opacity:.05;
+  }
 }
 [[/module]]
 [[include :scp-wiki:component:acs-animation]]
@@ -166,7 +166,7 @@ SCP-6167及びその未収容の元居住者達（SCP-6167-#）[[footnote]]665�
 
 SCP-6167自体の収容は容易です。しかしながら、SCP-6167-#の形式はより重大な脅威を表します。SCP-6167-#は多様な異常性を有する独自の実体であり、収容下においてはそれぞれが独自のファイルを必要とします。多くのSCP-6167-#実例は以前は他のファイル指定の下で分類されていましたが、現在は使用されていません。各実例のための特別収容プロトコルは個別のサブファイルの下で扱われます。
 
-**説明:**  SCP-6167はそれ自体がサイト-45-Cの最深部へと転移する入り口を有する余剰次元空間です。SCP-6167の入り口は次元超越ポータルとして機能するハッチです。内部は木製の梯子であり、約40メートル下まで続きSCP-6167の最初の洞窟に類似するフロアに通じています。SCP-6167の内部は直径約800メートル（0.5マイル）です。
+**説明:**  SCP-6167はそれ自体がサイト-45-Cの最深部へと転移する入り口を有する余剰次元空間です。SCP-6167の入り口は次元超越ポータルとして機能するハッチです。内部は木製の梯子であり、約40メートル下まで続きSCP-6167の最初の洞窟に類似するフロアに通じています。SCP-6167の内部は直径約800メートル（0.5マイル）です。
 
 SCP-6167の外周、天井、岩盤はすべて硫黄を含む黒色で破壊不能な素材で構成されており、この素材に対する損傷の付与もしくはサンプリングの試みはすべて失敗しています。各フロア（最初のフロアを除く）は、植物、湖、小規模な海を含む多様な自然のバイオームを模して作られていました。総計して9フロアが存在しており、各フロアは食事区域、農業区画、市場といった異なる機能を提供しています。更なる情報は文書D-6167-4を参照してください。
 
@@ -256,7 +256,7 @@ SCP-1913-1-ARCはサイト-45職員の複数の主要メンバーを標的とし
 
 私は一度も死んでなどいない。私はただヘッドハントされただけで、憤怒者は良い仕事を与えてくれた。そして、彼らの申し出た雇用の恩恵は、金銭より遙かに大切なことを含んでいた。ほとんどは仕事への満足度だ。だが、それだけではなく、本当に <合間> 自分の身体で幸せになる感覚があった。わかるかい？私は彼らのために働いた8年強を1日だって後悔していない。
 
-**トキ博士:**  <合間> そうですね……オーケーです。どうしてあなたはここにいるのですか？
+**トキ博士:**  <合間> そうですね……オーケーです。どうしてあなたはここにいるのですか？
 
 **クロツ博士:** 私もそれを聞いたよ。正直に言って、どうしてクローヴィスが他の数人の代わりに//私//を送ったのか、見当もつかない。今までに私を間違って導いた憤怒者はいないのだが。
 
@@ -280,7 +280,7 @@ SCP-1913-1-ARCはサイト-45職員の複数の主要メンバーを標的とし
 
 **トキ博士:** いや、なんでもないです。
 
-**クロツ博士:**  <合間>  ああ、彼らか。それで私がドラァグクイーンかなんかだと考えたのか。
+**クロツ博士:**  <合間>  ああ、彼らか。それで私がドラァグクイーンかなんかだと考えたのか。
 
 **トキ博士:** それが……どうかしましたか。女子になりたかったのですよね？他の皆とどう違うのですか？
 
@@ -288,7 +288,7 @@ SCP-1913-1-ARCはサイト-45職員の複数の主要メンバーを標的とし
 
 **トキ博士:** 私はどうやって彼らがあなたをその気にさせたのか理解しようとしています。それは本当に……奇妙な申し出に見えます。
 
-**クロツ博士:**  <合間、その後、含み笑い> ああ。それでクローヴィスは私を送り込んだのか。
+**クロツ博士:**  <合間、その後、含み笑い> ああ。それでクローヴィスは私を送り込んだのか。
 
 **トキ博士:** どういう意味です？
 

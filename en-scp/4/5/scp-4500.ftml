@@ -7,51 +7,51 @@
 
 [[html]]
 <style type="text/css">
-    body {
-     font-family:  verdana, arial, helvetica, sans-serif;
-     font-size: 12.8px; /* 16px * 0.8 */
-     color: #333;
-     line-height: 141%;
-    }
-    #classified-info, #meme-agent {
-     display: none;
-    }
+    body {
+     font-family:  verdana, arial, helvetica, sans-serif;
+     font-size: 12.8px; /* 16px * 0.8 */
+     color: #333;
+     line-height: 141%;
+    }
+    #classified-info, #meme-agent {
+     display: none;
+    }
 
-    blockquote {
-     border: 1px dashed #999;
-     padding: 0 12.8px;
-     background-color: #f4f4f4;
-    }
-    a {
-     color: blue;
-     cursor: pointer;
-     text-decoration: none;
-        font-size: 12.8 px;
-    }
-    .collapsed {
-     display: none;
-    }
-    h3 {
-     font-size: 150%;
-     font-weight: bold;
-     margin-bottom: 0;
-    }
-    h4 {
-     font-size: 130%;
-     font-weight: bold;
-     margin-bottom: 0;
-    }
-    .image-container.floatright {
-        padding-right: 0;
-        float: right;
-    }
-    tt{
-        font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
-        font-size: 98%;
-    }
-    .collapsed {
-     display: none;
-    }
+    blockquote {
+     border: 1px dashed #999;
+     padding: 0 12.8px;
+     background-color: #f4f4f4;
+    }
+    a {
+     color: blue;
+     cursor: pointer;
+     text-decoration: none;
+        font-size: 12.8 px;
+    }
+    .collapsed {
+     display: none;
+    }
+    h3 {
+     font-size: 150%;
+     font-weight: bold;
+     margin-bottom: 0;
+    }
+    h4 {
+     font-size: 130%;
+     font-weight: bold;
+     margin-bottom: 0;
+    }
+    .image-container.floatright {
+        padding-right: 0;
+        float: right;
+    }
+    tt{
+        font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
+        font-size: 98%;
+    }
+    .collapsed {
+     display: none;
+    }
 </style>
 <h3 style="text-align:center">対話の人物</h3>
 <hr>
@@ -60,7 +60,7 @@
 * 語り手
 * 読み手
 [[module ListUsers users="."]] 
-     
+     
 読み手の役は%%title%%学徒が引き受けます。
 [[/module]]
 
@@ -68,80 +68,80 @@
 
 [[html]]
 <style type="text/css">
-    body {
-     font-family: verdana, arial, helvetica, sans-serif;
-     font-size: 12.8px; /* 16px * 0.8 */
-     color: #333;
-     line-height: 141%;
-    }
-    #classified-info, #meme-agent {
-     display: none;
-    }
+    body {
+     font-family: verdana, arial, helvetica, sans-serif;
+     font-size: 12.8px; /* 16px * 0.8 */
+     color: #333;
+     line-height: 141%;
+    }
+    #classified-info, #meme-agent {
+     display: none;
+    }
 
-    blockquote {
-     border: 1px dashed #999;
-     padding: 0 12.8px;
-     background-color: #f4f4f4;
-    }
-    a {
-     color: blue;
-     cursor: pointer;
-     text-decoration: none;
-        font-size: 12.8 px;
-    }
-    .collapsed {
-     display: none;
-    }
-    h3 {
-     font-size: 150%;
-     font-weight: bold;
-     margin-bottom: 0;
-    }
-    h4 {
-     font-size: 130%;
-     font-weight: bold;
-     margin-bottom: 0;
-    }
-    .image-container.floatright {
-        padding-right: 0;
-        float: right;
-    }
-    tt{
-        font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
-        font-size: 98%;
-    }
-    .collapsed {
-     display: none;
-    }
+    blockquote {
+     border: 1px dashed #999;
+     padding: 0 12.8px;
+     background-color: #f4f4f4;
+    }
+    a {
+     color: blue;
+     cursor: pointer;
+     text-decoration: none;
+        font-size: 12.8 px;
+    }
+    .collapsed {
+     display: none;
+    }
+    h3 {
+     font-size: 150%;
+     font-weight: bold;
+     margin-bottom: 0;
+    }
+    h4 {
+     font-size: 130%;
+     font-weight: bold;
+     margin-bottom: 0;
+    }
+    .image-container.floatright {
+        padding-right: 0;
+        float: right;
+    }
+    tt{
+        font-family: 'Andale Mono', 'Courier New', Courier, monospace; 
+        font-size: 98%;
+    }
+    .collapsed {
+     display: none;
+    }
 </style>
 <script type="text/javascript">
 
 var collapsibleLink = function(className) {
-    var collapsed = document.querySelectorAll("." + className + ".collapsed");
-    var expanded = document.querySelectorAll("." + className + ":not(.collapsed)");
-    var i;
-    for(i = 0; i < collapsed.length; i++) {
-        collapsed[i].classList.remove("collapsed");
-    }
-    for(i = 0; i < expanded.length; i++) {
-        expanded[i].classList.add("collapsed");
-    }
+    var collapsed = document.querySelectorAll("." + className + ".collapsed");
+    var expanded = document.querySelectorAll("." + className + ":not(.collapsed)");
+    var i;
+    for(i = 0; i < collapsed.length; i++) {
+        collapsed[i].classList.remove("collapsed");
+    }
+    for(i = 0; i < expanded.length; i++) {
+        expanded[i].classList.add("collapsed");
+    }
 }
 
 var hideBlock = function(blockName) {
-     var expanded = document.querySelectorAll("." + blockName + ":not(.collapsed)");
-     var i;
-     for(i = 0; i < expanded.length; i++) {
-         expanded[i].classList.add("collapsed");
-    }
+     var expanded = document.querySelectorAll("." + blockName + ":not(.collapsed)");
+     var i;
+     for(i = 0; i < expanded.length; i++) {
+         expanded[i].classList.add("collapsed");
+    }
 }
 
 var showBlock = function(blockName) {
-    var collapsed = document.querySelectorAll("." + blockName + ".collapsed");
-    var i;
-    for(i = 0; i < collapsed.length; i++) {
-        collapsed[i].classList.remove("collapsed");
-    }
+    var collapsed = document.querySelectorAll("." + blockName + ".collapsed");
+    var i;
+    for(i = 0; i < collapsed.length; i++) {
+        collapsed[i].classList.remove("collapsed");
+    }
 }
 </script>
 

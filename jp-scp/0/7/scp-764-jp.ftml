@@ -21,19 +21,19 @@ float:right;
 
 /* 時間軸表記 */
 table.heritage {
-  border: 0;
-  padding: 0;
-  margin: 0 auto;
-  border-spacing: 0;
-  border-collapse: separate;
+  border: 0;
+  padding: 0;
+  margin: 0 auto;
+  border-spacing: 0;
+  border-collapse: separate;
 }
 table.heritage td.title,
 table.heritage td.label {
-  border-right: 1px solid #999;
-  font-size: 8.5pt;
-  width: 64px;
-  text-align: right;
-  padding-right: 10px;
+  border-right: 1px solid #999;
+  font-size: 8.5pt;
+  width: 64px;
+  text-align: right;
+  padding-right: 10px;
 }
 .heritage{
 width: auto;
@@ -41,48 +41,48 @@ width: auto;
 
 /*点線*/
 .tensen p{
-   line-height:141%;
+   line-height:141%;
 }
 
 .tensen{
-   border: 1px dashed #999;
-   padding: 0 1em;
-   background-color: #f4f4f4;
-   display: block;
-   margin-block-start: 1em;
-   margin-block-end: 1em;
-   margin-inline-start: 40px;
-   margin-inline-end: 40px;
+   border: 1px dashed #999;
+   padding: 0 1em;
+   background-color: #f4f4f4;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 40px;
+   margin-inline-end: 40px;
 }
 @media (max-width: 580px) and (min-width: 480px){
-   .tensen{
-      margin:0.5em;
-   }
+   .tensen{
+      margin:0.5em;
+   }
 }
 @media (max-width: 479px){
-   .tensen{
-      margin:1em 0;
-   }
+   .tensen{
+      margin:1em 0;
+   }
 }
 
 /*大きさ*/
 .large{
-    font-size:135%;
+    font-size:135%;
 }
 @media (max-width: 900px) and (min-width: 750px){
-   .large{
-      font-size:100%;
-   }
+   .large{
+      font-size:100%;
+   }
 }
 @media (max-width: 749px) and (min-width: 570px){
-   .large{
-      font-size:120%;
-   }
+   .large{
+      font-size:120%;
+   }
 }
 @media (max-width: 569px){
-   .large{
-      font-size:95%;
-   }
+   .large{
+      font-size:95%;
+   }
 }
 [[/module]]
 
@@ -138,10 +138,10 @@ width: auto;
 **説明:** 現在までに収集された情報は、SCP-764-JPが物理的実体を有する反ミーム存在であることを示しています。信用度が高いと判断されている、SCP-764-JPの特異性の仮説は以下の3つです。
 
 # クラスⅣ-タイプA認識阻害特性[[footnote]]タイプA認識阻害は、対象の五感による認識を遮断します。[[/footnote]]によって、SCP-764-JP及びその存在を直接的/間接的に認識することは不可能です。このため、SCP-764-JPの存在を確認する唯一の手段はクラスZ記憶補強薬の服用です。この影響はSCP-764-JPについて描写した文章情報には及びませんが、転送イベント(後述)によって反ミーム特性を付与される場合があります。 _
- _
+ _
 
 # SCP-764-JPについての描写が一定の情報閾値を超えた情報は、その情報が記録されている媒体の不自然な物理的破壊という形で破損/消失します。例として、SCP-764-JPの収容に関わっていたと思われる全職員は、SCP-764-JPに関する記憶の消失や脳機能の部分的/全体的な停止等の影響を受けています。この物理的破壊事象を"検閲イベント"と呼称します。検閲イベントは有機的/無機的問わず全ての媒体で発生し、現在財団が所有している全ての記憶補強薬はその発生を予防することに成功していません。検閲イベントが発生する情報閾値は可変であるという仮説が立てられており、当該報告書がSCP-764-JPの特異性について描写できている事実がその根拠として上げられています。 _
- _
+ _
 
 # 発生条件やプロセスは判明していないものの、SCP-764-JPは別の存在へ反ミーム特性を転送することができると推測されています。この反ミーム特性の転送は"転送イベント"に指定されています。転送イベントの事例として、残存データからSCP-764-JPの収容サイトであったと推測される施設(便宜上"フォリアドゥ収容施設"と呼称)に関するあらゆる記録は破損/消失しており、またフォリアドゥ収容施設自体がクラスⅡ-タイプC認識阻害特性[[footnote]]タイプC認識阻害は、対象への情感的反応を鈍化させます。[[/footnote]]を帯びていることが挙げられます。このことから、反ミームオブジェクトの一部はSCP-764-JPの存在の痕跡であると思われますが、その判別の方法は確立されていません。また、検閲イベントを発生させる反ミーム存在はSCP-764-JP以外に確認されていません。
 
@@ -427,7 +427,7 @@ width: auto;
 [[row]]
 [[cell class="label"]]
 [[div class="date"]]
-= 〈00:10:38〉 
+= 〈00:10:38〉 
 [[/div]]
 [[/cell]]
 [[cell class="entry"]]
@@ -849,7 +849,7 @@ width: auto;
 [[row]]
 [[cell class="label"]]
 [[div class="date"]]
-= 〈00:25:56〉 
+= 〈00:25:56〉 
 [[/div]]
 [[/cell]]
 [[cell class="entry"]]
@@ -906,7 +906,7 @@ width: auto;
 [[/cell]]
 [[cell class="entry"]]
 [[div class="snippet"]]
-//[ノイズ音]// 
+//[ノイズ音]// 
 [[/div]]
 [[/cell]]
 [[/row]]
@@ -982,7 +982,7 @@ width: auto;
 [[row]]
 [[cell class="label"]]
 [[div class="date"]]
-= 
+= 
 [[/div]]
 [[/cell]]
 [[cell class="entry"]]

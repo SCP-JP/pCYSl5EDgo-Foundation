@@ -4,26 +4,26 @@
 
 [[module CSS]]
 div.scp-image-block.block-center {
-    position: relative;
-    height: 215px;
+    position: relative;
+    height: 215px;
 }
 
 .scp-image-block img {
-    height: 100%;
-    object-fit: cover;
+    height: 100%;
+    object-fit: cover;
 }
 
 #page-content > div.scp-image-block.block-center > div.scp-image-caption {
-    position: absolute;
-    bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 [[/module]]
 
 [[include :scp-wiki:component:classified-bar-woed
-    lv=4 |
-    item=4322 |
-    oc=Thaumiel |
-    lang=JP
+    lv=4 |
+    item=4322 |
+    oc=Thaumiel |
+    lang=JP
 ]]
 
 ----

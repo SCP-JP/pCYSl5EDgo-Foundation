@@ -124,7 +124,7 @@ __**インタビューログ1545-JP/002**__
 **<録音終了>**
 
 **終了報告書:** ハディド氏の自宅のパソコンから、証言通りの痕跡が発見されました。同氏は、関係者へのクラスA記憶処理の後、更なる証言の為に財団施設に拘留されています。
- 
+ 
 [[/div]]
 
 [[module css]]
@@ -144,27 +144,27 @@ float:right;
 
 /*点線*/
 .tensen p{
-   line-height:141%;
+   line-height:141%;
 }
 
 .tensen{
-   border: 1px dashed #999;
-   padding: 0 1em;
-   background-color: #f4f4f4;
-   display: block;
-   margin-block-start: 1em;
-   margin-block-end: 1em;
-   margin-inline-start: 40px;
-   margin-inline-end: 40px;
+   border: 1px dashed #999;
+   padding: 0 1em;
+   background-color: #f4f4f4;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 40px;
+   margin-inline-end: 40px;
 }
 @media (max-width: 580px) and (min-width: 480px){
-   .tensen{
-      margin:0.5em;
-   }
+   .tensen{
+      margin:0.5em;
+   }
 }
 @media (max-width: 479px){
-   .tensen{
-      margin:1em 0;
-   }
+   .tensen{
+      margin:1em 0;
+   }
 }
 [[/module]]

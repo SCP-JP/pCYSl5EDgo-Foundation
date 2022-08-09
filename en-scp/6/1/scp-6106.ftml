@@ -6,73 +6,73 @@
 [[module CSS]]
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #131;
-    /* black shadow at the top of the terminal */
-    background-image: 
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-    background-position: center;
-    display: block;
-    /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
-    /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
+    /* black shadow at the top of the terminal */
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
+    /* shadow around the terminal */
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    /* prevents scanline from forming a scrollwheel */
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #80FF80
+    background-color: black;
+    border: double 3px #80FF80
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(128,255,128,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #90EE90;
-    text-decoration: none;
-    background: transparent;
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #131;
-    text-decoration: underline;
-    background-color: #80FF80;
-    padding: 1px;
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
 }
 div.text a:hover::before{
-    content: "> ";
+    content: "> ";
 }
 [[/module]]
 
@@ -104,9 +104,9 @@ div.text a:hover::before{
 @@ @@
 [[/div]]
 [[/div]]
- _
- _
- _
+ _
+ _
+ _
 [[include theme:black-highlighter-theme]]
 [[include :scp-wiki:component:ratio-bar base=-- |ex=--]]
 [[include :scp-wiki:component:betterfootnotes]]
@@ -148,8 +148,8 @@ SCP-6106の隠れ場所に閲覧者が疑念を抱いた場合、もしくは他
 
 ||~ ホスト媒体 ||~ 場所 ||~ おおよその滞在期間 ||~ 推定死亡者数 ||
 ||< 聖書 ||< イングランド、██████████████████の聖██████教会 ||< //不明// – 2002年 ||< 不明 ||
-||< 『グレイの解剖学』(ハードカバー) ||< イングランド、██████████████████ ||< 2002年 – 2004年  ||< 1 ||
-||< ダン・ブラウン著『ダ・ヴィンチ・コード』(ペーパーカバー) ||< スコットランド、 ██████████ ||< 2004年 – 2007年9月  ||< 2 ||
+||< 『グレイの解剖学』(ハードカバー) ||< イングランド、██████████████████ ||< 2002年 – 2004年  ||< 1 ||
+||< ダン・ブラウン著『ダ・ヴィンチ・コード』(ペーパーカバー) ||< スコットランド、 ██████████ ||< 2004年 – 2007年9月  ||< 2 ||
 ||< J. K. ローリング著『ハリー・ポッターとアズカバンの囚人』(ペーパーカバー) ||< イングランド、█████████ ||< 2007年9月 – 2007年11月 ||< 1 ||
 ||< J. G. バラード著『残虐行為展覧会』 ||< イングランド、█████████ ||< 2007年11月の2週間 ||< 1 ||
 ||< 『ブリタニカ百科事典』第11版 ||< イングランド、█████████大学図書館 ||< 2007 – 2020 ||< 3 ||
@@ -167,12 +167,12 @@ SCP-6106が擬態に用いる文章は一様に、SCP-6106に関する高い情�
 
 しかし、閲覧者がそのことに気付く頃には、大抵の場合既に手遅れです。
 
- _
- _
- _
- _
- _
- _
+ _
+ _
+ _
+ _
+ _
+ _
 [[div class="terminal"]]
 [[div class="scanline"]]
 [[/div]]

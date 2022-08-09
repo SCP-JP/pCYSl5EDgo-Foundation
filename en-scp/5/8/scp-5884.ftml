@@ -2,17 +2,17 @@
 
 [[module css]]
 #u-blink-bar p:last-child::after {
-    content: "";
-    border-right: 1px solid black;
-    animation: blink 1.5s infinite;
-    position: relative;
-    left: 1px;
+    content: "";
+    border-right: 1px solid black;
+    animation: blink 1.5s infinite;
+    position: relative;
+    left: 1px;
 }
 
 @keyframes blink{
-    to {
-        opacity: .0;
-    }
+    to {
+        opacity: .0;
+    }
 }
 [[/module]]
 

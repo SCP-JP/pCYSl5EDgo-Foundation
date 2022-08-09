@@ -36,18 +36,18 @@
 ------
 [[div class="pictures4desk"]]
 [[include component:image-block
-    name=https://scp-wiki.wdfiles.com/local--files/scp-3906/balutparade2.jpg|
-    caption=Agent Malano leading the 1993 containment parade.|
-    width=250px|
-    align=right
+    name=https://scp-wiki.wdfiles.com/local--files/scp-3906/balutparade2.jpg|
+    caption=Agent Malano leading the 1993 containment parade.|
+    width=250px|
+    align=right
 ]]
 [[/div]]
 [[div class="pictures4mobile"]]
 [[include component:image-block
-    name=https://scp-wiki.wdfiles.com/local--files/scp-3906/balutparade2.jpg|
-    caption=Agent Malano leading the 1993 containment parade.|
-    width=250px|
-    align=center
+    name=https://scp-wiki.wdfiles.com/local--files/scp-3906/balutparade2.jpg|
+    caption=Agent Malano leading the 1993 containment parade.|
+    width=250px|
+    align=center
 ]]
 [[/div]]
 
@@ -147,29 +147,29 @@ The threat posed by SCP-3906 peaked in 1983, by which point balut had become a u
 [[module CSS]]
 
 .scp-image-block.block-right {
-    margin: 0em 0em 1em 2em;
+    margin: 0em 0em 1em 2em;
 }
 
 .pictures4mobile {
-    height: 0px;
-    overflow: hidden;
+    height: 0px;
+    overflow: hidden;
 }
 
 .pictures4desk {
-    height: auto;
+    height: auto;
 }
 
 @media only screen and (max-width: 600px) {
 
 
-    .pictures4mobile {
-        height: auto;
-    }
+    .pictures4mobile {
+        height: auto;
+    }
 
-    .pictures4desk {
-        height: 0px;
-        overflow: hidden;
-    }
+    .pictures4desk {
+        height: 0px;
+        overflow: hidden;
+    }
 
 }
 [[/module]]

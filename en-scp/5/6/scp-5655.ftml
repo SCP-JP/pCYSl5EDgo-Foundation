@@ -4,14 +4,14 @@
 
 [[module CSS]]
 .test {
-  margin: 6px auto;
-  padding: .2em 1.25em;
-  background-color: #e5e5e5;
-  width: 85%;
+  margin: 6px auto;
+  padding: .2em 1.25em;
+  background-color: #e5e5e5;
+  width: 85%;
 }
 
 @media only screen and (max-width: 600px) {
-  .test { width: 95% }
+  .test { width: 95% }
 }
 [[/module]]
 
@@ -106,8 +106,8 @@
 **結果:** インシデント5655.1参照。
 [[/div]]
 
- _
- _
+ _
+ _
 **インシデント5655.1**
 [[div class="test" style="padding:1em inherit;"]]
 = **< ログ開始 >**

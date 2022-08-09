@@ -9,13 +9,13 @@
 @import url(http://dog-punch.wikidot.com/local--files/tes:10068/tegaki.css);
 
 html {
-   -webkit-filter: grayscale(1); /* Older Webkit */
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-  background-color: white;
+   -webkit-filter: grayscale(1); /* Older Webkit */
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-color: white;
 }
 
 .info-container .collapsible-block-folded a{
@@ -28,24 +28,24 @@ color: #FFF;
 }
 
 #page-content > .collapsible-block {
-    display: block;
-    text-align: center;
-    padding: .8em;
-    background-color: #e3e3e3;
-    border: 0.125rem dashed #b5b5b5;
-    border-left: none;
-    border-right:none;
+    display: block;
+    text-align: center;
+    padding: .8em;
+    background-color: #e3e3e3;
+    border: 0.125rem dashed #b5b5b5;
+    border-left: none;
+    border-right:none;
 }
 .recommend > .collapsible-block {
-    display: block;
-    text-align: left;
-    padding: auto;
-    background-color: transparent;
-    border: none;
+    display: block;
+    text-align: left;
+    padding: auto;
+    background-color: transparent;
+    border: none;
 }
 
 #page-content > .collapsible-block .collapsible-block-content {
-    text-align: left;
+    text-align: left;
 }
 
 /* BOLD FOOTNOTES & COLLAPSIBLES (feel free to add more properties) */
@@ -54,64 +54,64 @@ a.collapsible-block-link { font-weight: bold; }
 
 /* VERY FANCY LOOKING BOXES */
 .interview{
-    border:solid 2px #d4d4d4;
-    background:#F5F5F5;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:solid 2px #d4d4d4;
+    background:#F5F5F5;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 
 .addendum{
-    border:solid 1px #5e5e5e;
-    background:#ffffff;
-    width:90%;
-    padding:15px 15px;
-    margin: 10px auto;
+    border:solid 1px #5e5e5e;
+    background:#ffffff;
+    width:90%;
+    padding:15px 15px;
+    margin: 10px auto;
 }
-.request{   /* USED IN TRANSFER REQUESTS */
-  background: #ffffff;
-  padding-top: 5px;
-  border: solid 4px #a9a9a9;
-  border-radius: 16px;
-  width: 80%;
+.request{   /* USED IN TRANSFER REQUESTS */
+  background: #ffffff;
+  padding-top: 5px;
+  border: solid 4px #a9a9a9;
+  border-radius: 16px;
+  width: 80%;
 }
 .rant{
-  background: #e2e2e2;
-  width: 95%
-  border: solid 2px #5e5e5e;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  color: black;
+  background: #e2e2e2;
+  width: 95%
+  border: solid 2px #5e5e5e;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: black;
 }
 .dark{
-  border-color: #323232;
-  border-style: groove;
-  background: #424242;
-  color:white;
+  border-color: #323232;
+  border-style: groove;
+  background: #424242;
+  color:white;
 }
 
-.journal{  /*USED IN SWAINE PERSONAL LOGS */
-  border: 1px solid #EDEDED;
-  width: auto;
-  margin: 15px auto;
-  font-family: 'Kalam', 'Tegaki', cursive;
-  font-size: 110%;
+.journal{  /*USED IN SWAINE PERSONAL LOGS */
+  border: 1px solid #EDEDED;
+  width: auto;
+  margin: 15px auto;
+  font-family: 'Kalam', 'Tegaki', cursive;
+  font-size: 110%;
 }
 .shadow{
-  box-shadow: 0px 0px 40px -4px lightgray;
-  width: 90%;
-  margin: 15px auto;
-  background:#E3E3E3;
+  box-shadow: 0px 0px 40px -4px lightgray;
+  width: 90%;
+  margin: 15px auto;
+  background:#E3E3E3;
 }
 
 .terminal{
-    border:solid 3px #1f1f1f;
-    background:#292929;
-    padding:1px 15px;
-    margin: 10px auto;
-    text-align: center;
-    color:white;
-    font-size: 110%;
+    border:solid 3px #1f1f1f;
+    background:#292929;
+    padding:1px 15px;
+    margin: 10px auto;
+    text-align: center;
+    color:white;
+    font-size: 110%;
 }
 
 :root{

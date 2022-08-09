@@ -8,84 +8,84 @@ transform: none;
 }
 
 div.terminal{
-   border: 1px solid black;
-   border: solid 3px #BBBBBB;
-   border-radius: 16px;
-   background-color: #131;
+   border: 1px solid black;
+   border: solid 3px #BBBBBB;
+   border-radius: 16px;
+   background-color: #131;
 /* black shadow at the top of the terminal */
-   background-image:
-       radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
-   background-position: center;
-   display: block;
+   background-image:
+       radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+   background-position: center;
+   display: block;
 /* shadow around the terminal */
-   box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+   box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-   overflow:hidden;
+   overflow:hidden;
 }
 div.terminal blockquote {
-   background-color: black;
-   border: double 2px #80FF80
+   background-color: black;
+   border: double 2px #80FF80
 }
 div.terminal hr {
-  border-top: 2px dashed rgba(128, 255, 128, 0.8);
-   height: 0px;
-   border-bottom: 0px solid rgba(0, 0, 0, 0);
-   background: rgba(0, 0, 0, 0);
+  border-top: 2px dashed rgba(128, 255, 128, 0.8);
+   height: 0px;
+   border-bottom: 0px solid rgba(0, 0, 0, 0);
+   background: rgba(0, 0, 0, 0);
 }
 div.terminal .collapsible-block-link {
-   position: in-line;
-   padding: 0em;
-   margin: 0em;
-   line-height: 0;
-   white-space: nowrap;
+   position: in-line;
+   padding: 0em;
+   margin: 0em;
+   line-height: 0;
+   white-space: nowrap;
 }
 div.scanline{
-   margin-top: -40%;
-   width: 100%;
-   height: 60px;
-   position: relative;
-   pointer-events: none;
+   margin-top: -40%;
+   width: 100%;
+   height: 60px;
+   position: relative;
+   pointer-events: none;
 /* Safari 4.0 - 8.0 */
-   -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-   animation: scan 12s linear 0s infinite; /* Same as above */
-   background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+   -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+   animation: scan 12s linear 0s infinite; /* Same as above */
+   background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-   color: rgba(128,255,128,0.8);
-   padding-left: 2em;
-   padding-right: 2em;
-   padding-top: 35%;
-   font-family: monospace;
-   font-size: 1.2em;
-   }
+   color: rgba(128,255,128,0.8);
+   padding-left: 2em;
+   padding-right: 2em;
+   padding-top: 35%;
+   font-family: monospace;
+   font-size: 1.2em;
+   }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-   from{ transform: translateY(-10%);}
-   to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+   from{ transform: translateY(-10%);}
+   to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-   from{ transform: translateY(-10%);}
-   to{  transform: translateY(5000%);} /* Same as above.*/
+   from{ transform: translateY(-10%);}
+   to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-   color: #90EE90;
-   text-decoration: none;
-   background: transparent;
+   color: #90EE90;
+   text-decoration: none;
+   background: transparent;
 }
 div.text a.newpage {
-   color: #90EE90;
-   text-decoration: none;
-   background: transparent;
+   color: #90EE90;
+   text-decoration: none;
+   background: transparent;
 }
 div.text a:hover {
-   color: #131;
-   text-decoration: underline;
-   background-color: #80FF80;
-   padding: 1px;
+   color: #131;
+   text-decoration: underline;
+   background-color: #80FF80;
+   padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -336,7 +336,7 @@ EE-6210-C
 >
 > **オズワルド博士:** ああ、君が全く変化していないことに誰かしらは気づいていただろう。
 >
->  **SCP-6060:** お前には関係ないでしょ。
+>  **SCP-6060:** お前には関係ないでしょ。
 >
 > **オズワルド博士:** お前は俺たちの支配下にあるんだぞ、SCP- //[SCP-6060は拳でガラスの仕切りを叩き、彼を遮る。]//
 >
@@ -520,12 +520,12 @@ SCP-6060
 プロメテウス・プロジェクト
 SCP-5825
 [[collapsible show="EE-6210-C" hide="カンデラ音声ログ"]]
-@@    > 組織検査@@
-@@    > 血液検査@@
-@@    > バイタル検査@@
-@@    > 人間には異常に感じられると思われる物や生物への接触@@
-@@    > 手動入力ログ 1@@
-@@    > 手動入力ログ 2@@
+@@    > 組織検査@@
+@@    > 血液検査@@
+@@    > バイタル検査@@
+@@    > 人間には異常に感じられると思われる物や生物への接触@@
+@@    > 手動入力ログ 1@@
+@@    > 手動入力ログ 2@@
 [[/collapsible]]
 @@@@
 **現在の任務:** SCP-6060
@@ -663,13 +663,13 @@ SCP-5825
 >
 > **SCP-6060:** ……「SPD 6060」だか何とかって呼んどけばいいじゃん。
 >
->  **プレスコット研究員:** あなたが嫌がると思ったんだけど。
+>  **プレスコット研究員:** あなたが嫌がると思ったんだけど。
 >
 > **SCP-6060:** じゃあなんで名前で呼んでくれないの？
 >
 > **プレスコット研究員:** 財団はそれを気に入らないと思うんだ。
 >
->  **SCP-6060:** じゃあ誰が怒るのが怖いの？
+>  **SCP-6060:** じゃあ誰が怒るのが怖いの？
 >
 > **プレスコット研究員:** 誰を怒らせるかってわけじゃないんだ。
 >
@@ -750,7 +750,7 @@ SCP-5825
 >
 > **プレスコット研究員:** うん。正直言えばやりすぎだって思うんだけど。EKG[[footnote]]訳注：心電図(Elektrokardiogramm)のこと[[/footnote]]から始めた方がいいかな、準備がいちばんめんどくさいし。よし、これをあなたの体に貼らなきゃ。どっちがどっちだか全然覚えられないんだけどね……
 >
->  **SCP-6060:** うーん、やだ……違う、やりたくない……
+>  **SCP-6060:** うーん、やだ……違う、やりたくない……
 >
 > **プレスコット研究員:** どうしたの？//[間]// 違うの、ほら、痛くないよ。見た目は怖そうなのは分かるけど、これはただ……体にステッカーを貼るだけだから。ただちょっと力がかかるだけ、終わったあとになんか残ったりもしないよ。分かった？
 >
@@ -788,7 +788,7 @@ SCP-5825
 >
 > **SCP-6060:** ……ありがと。
 >
-> **プレスコット研究員:**  たくさんそう言ってくれるよね。私がそれに値するのか分かんないけど。
+> **プレスコット研究員:**  たくさんそう言ってくれるよね。私がそれに値するのか分かんないけど。
 >
 > **SCP-6060:** そんなの関係なく言ってるの。ありがとう、スージー。
 >
@@ -859,7 +859,7 @@ SCP-5825
 >
 > **SCP-6060:** ご、ごめん、そんなつもりじゃ……
 >
->  **プレスコット研究員:** その通りだよ。でもそんなに簡単でもないんだ。私みたいな人を生き返らせるのに使われる手順は、記憶を消してしまうって分かったの。プロメテアンになる前の私がどんな人だったのか何も思い出せない。この場所は、本当は怖いところだけど、私が知ってる唯一の場所。あの人たちは私が知ってる全てのことを教えてくれた人。ただ離れることは……出来ないの。
+>  **プレスコット研究員:** その通りだよ。でもそんなに簡単でもないんだ。私みたいな人を生き返らせるのに使われる手順は、記憶を消してしまうって分かったの。プロメテアンになる前の私がどんな人だったのか何も思い出せない。この場所は、本当は怖いところだけど、私が知ってる唯一の場所。あの人たちは私が知ってる全てのことを教えてくれた人。ただ離れることは……出来ないの。
 >
 > **SCP-6060:** ううん、出来る。
 >

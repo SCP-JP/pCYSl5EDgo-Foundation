@@ -19,7 +19,7 @@ sup {
 vertical-align: top; position: relative; top: -0.5em;
 }
 #header::before {
-    opacity: 0.9 !important;
+    opacity: 0.9 !important;
 }
 :root{
 --header-subtitle: "Project PARAGON";
@@ -36,55 +36,55 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "djkaktus";
-    color: var(--link-color);
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "djkaktus";
+    color: var(--link-color);
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .anom-bar-container.esoteric .text-part>.main-class::before {
-    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
 }
 
 .anom-bar-container.esoteric .text-part>.main-class::before,
 .anom-bar-container.esoteric .danger-diamond>.top-icon::before {
-    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
-    background-image: url("http://scptestwiki.wikidot.com/local--files/secret:scp-0000/esoteric-icon-ededed.svg");
-    -webkit-filter: initial;
-    filter: initial;
+    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    background-image: url("http://scptestwiki.wikidot.com/local--files/secret:scp-0000/esoteric-icon-ededed.svg");
+    -webkit-filter: initial;
+    filter: initial;
 }
 [[/module]]
 
@@ -176,10 +176,10 @@ SCP-4840の大部分にはマーキングと“アウダパウパドポリスの
 [[include component:image-block name=temple1.jpg|align=right|width=300px|caption=日の出の寺院。]]
 * 本殿への入口には、裸の子供2人が森林の端に立ち、どこか不安げに地平線を見つめる壁画が描かれています。狼と熊が1匹ずつ子供たちの後ろに、彼らを保護するように立っています。この壁画の反対側の壁には、[[[dr-clef-s-proposal|炎の剣を持った姿]]]が丘の上に立ち、森を見下ろす様子が描かれています。
 * 本殿は3枚の壁画で装飾されています。
- * 最奥の壁には、鮮やかな日の出が描かれています。SCP-4840が前景に見えます。日の出の正面には黄金色の男が立ち、その隣に他2人が控えています。第3の人物が彼らから離れた場所にいます。黄金の男は先端が銀色になった長い棒を持ち、光り輝く王冠を被っています。彼らの上の空には、緑色の目をした青銅色の竜が描かれています。竜の横には“彼らは何が然るべきものかを知るだろう”という文言が記されています。
- * 東の壁には、アウダパウパドポリスの大広間での集会の一場面が描かれています。最大の壁画に描かれていた黄金の男は王座の足元に立ち、他2人の姿が両隣に立っています。第3の人物はこの壁画に描かれていません。黄金の男の前では、[[[tuftos-proposal|緋色のローブと炎の王冠を身に着けた王]]]が手を伸ばして親愛の情を示しています。この王の横には、[[[SCP-336|身体に1匹の蛇を巻き付けた裸の女]]]、[[[the-builder|金属製の男]]]、[[[to-never-again-see-the-light-of-day|濃い紫色のローブを着た魔術師]]]がいます。他の人物たちが近くに立っています。
- * 西の壁には、大広間の王座に座る黄金の男が描かれています。彼の頭上には[[[SCP-3790|鉄の王冠]]]が浮かんでいます -- 王冠には未知の言語が彫り込まれ、煌めく白い宝石が散りばめられています。黄金の男の背後には、巨大な一枚岩のような物体が幾つかあります: [[[church-of-the-broken-god-hub|歯車と鋼鉄]]]で出来た物、[[[sarkicism-hub|血と肉]]]で出来た物、氷と石で出来た物、星で出来た物、[[[SCP-3125|眼]]]で出来た物。[[[SCP-179|光り輝く白い長髪の若い女]]]が、彼らの前で空中に浮かび、南を指差しています。
- * 南の壁には、壁画ではなく言葉だけが記されています。“海が彼らを呑み込み、長き闇が訪れることの無いように”。これはモザイクタイルで埋め込まれています。
+ * 最奥の壁には、鮮やかな日の出が描かれています。SCP-4840が前景に見えます。日の出の正面には黄金色の男が立ち、その隣に他2人が控えています。第3の人物が彼らから離れた場所にいます。黄金の男は先端が銀色になった長い棒を持ち、光り輝く王冠を被っています。彼らの上の空には、緑色の目をした青銅色の竜が描かれています。竜の横には“彼らは何が然るべきものかを知るだろう”という文言が記されています。
+ * 東の壁には、アウダパウパドポリスの大広間での集会の一場面が描かれています。最大の壁画に描かれていた黄金の男は王座の足元に立ち、他2人の姿が両隣に立っています。第3の人物はこの壁画に描かれていません。黄金の男の前では、[[[tuftos-proposal|緋色のローブと炎の王冠を身に着けた王]]]が手を伸ばして親愛の情を示しています。この王の横には、[[[SCP-336|身体に1匹の蛇を巻き付けた裸の女]]]、[[[the-builder|金属製の男]]]、[[[to-never-again-see-the-light-of-day|濃い紫色のローブを着た魔術師]]]がいます。他の人物たちが近くに立っています。
+ * 西の壁には、大広間の王座に座る黄金の男が描かれています。彼の頭上には[[[SCP-3790|鉄の王冠]]]が浮かんでいます -- 王冠には未知の言語が彫り込まれ、煌めく白い宝石が散りばめられています。黄金の男の背後には、巨大な一枚岩のような物体が幾つかあります: [[[church-of-the-broken-god-hub|歯車と鋼鉄]]]で出来た物、[[[sarkicism-hub|血と肉]]]で出来た物、氷と石で出来た物、星で出来た物、[[[SCP-3125|眼]]]で出来た物。[[[SCP-179|光り輝く白い長髪の若い女]]]が、彼らの前で空中に浮かび、南を指差しています。
+ * 南の壁には、壁画ではなく言葉だけが記されています。“海が彼らを呑み込み、長き闇が訪れることの無いように”。これはモザイクタイルで埋め込まれています。
 [[/div]]
 @@@@
 @@@@
@@ -189,8 +189,8 @@ SCP-4840の大部分にはマーキングと“アウダパウパドポリスの
 [[include component:image-block name=temple2.jpg|align=right|width=300px|caption=日没の寺院。]]
 * 日の出の寺院と同じく、日没の寺院にも本殿に通じる広い入口があります。入口にはSCP-4840内とその周辺の都市や町の詳細な図と、SCP-4840自体の地図があります。SCP-4840は巨大な壁があるものとして描写されており、小さな町や村が都市の外周を取り巻いています。東から流れる川の上に別な町1つが描かれ、農場が川に沿って南北に広がっています。“人の地”という文言が壁画の最上部、日の出の寺院に描写されていたのと同じ青銅の竜の横に鮮やかに記されています。様式的な矢印が南東を指し示し、その上に“[[[SCP-140|血の王と死霊術師の地]]]”と記されています。もう1つの矢印が西を指し示し、“遠く奇妙な西”としています。
 * 本殿の内装は日の出の寺院と構造的に類似しますが、SCP-4840-Bの倒れた身体によって本殿の大部分は破壊されています。唯一残っている壁画が西側の端に見えます。
- * 残っている壁画には、鉄の王冠を被った黄金の男が白馬に跨っている様子を描いています。剣、弓、斧で武装した男女の軍団が黄金の男の背後に立っています。彼の両隣に2人の人物 -- 恐らく日の出の寺院の壁画と同一の2人がいます。片方の人物は黒い剣、もう片方は緑の杖を持っています。黄金の男は右手に長い銀色の槍を持っています。黄金の男の向こう側は嵐雲と雷が集まる風景であり、その描写は崩落した壁に近付くにつれてより劇的になっています。壁の隅には、[[[taboo|明るい緑の身体で、鮮やかな色の服を着た小さなヒト型実体群]]]が描かれています。これらの姿にはいずれも、縦一列で3個ずつ両側に並ぶ合計6個の目があります。
- * 残りの壁にはより多くの小さな緑の姿があり、その背後に灰色の斑模様が付いた巨大な何かが存在します。しかし、この壁画の主題が描いている壁の大部分は崩落しています。
+ * 残っている壁画には、鉄の王冠を被った黄金の男が白馬に跨っている様子を描いています。剣、弓、斧で武装した男女の軍団が黄金の男の背後に立っています。彼の両隣に2人の人物 -- 恐らく日の出の寺院の壁画と同一の2人がいます。片方の人物は黒い剣、もう片方は緑の杖を持っています。黄金の男は右手に長い銀色の槍を持っています。黄金の男の向こう側は嵐雲と雷が集まる風景であり、その描写は崩落した壁に近付くにつれてより劇的になっています。壁の隅には、[[[taboo|明るい緑の身体で、鮮やかな色の服を着た小さなヒト型実体群]]]が描かれています。これらの姿にはいずれも、縦一列で3個ずつ両側に並ぶ合計6個の目があります。
+ * 残りの壁にはより多くの小さな緑の姿があり、その背後に灰色の斑模様が付いた巨大な何かが存在します。しかし、この壁画の主題が描いている壁の大部分は崩落しています。
 * 構造物の天井は夜空に合わせて塗装されているようですが、天井の大部分は崩落しており、残っている星も現代の空に見られる既知の星座とは対応していません。
 [[/div]]
 @@@@

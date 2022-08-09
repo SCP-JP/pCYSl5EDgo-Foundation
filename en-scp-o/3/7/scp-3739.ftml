@@ -7,172 +7,172 @@
 
 [[module CSS]]
 /* HEADER */
- :root{
-   --header-title: "‘PATADIGITAL ARCHIVES";
-   --header-subtitle: "ARCHIVING APOTHEOSIS";
-   --titleColor: hsl(0, 0%, 91%);
-   --subtitleColor: hsl(0, 0%, 91%);
-   --lgurl: url(https://scp-wiki.wikidot.com/local--files/theme:pataphysics/pataphysicslogo-ani.svg);
-   --fnColor: hsl(268, 100%, 37%);
+ :root{
+   --header-title: "‘PATADIGITAL ARCHIVES";
+   --header-subtitle: "ARCHIVING APOTHEOSIS";
+   --titleColor: hsl(0, 0%, 91%);
+   --subtitleColor: hsl(0, 0%, 91%);
+   --lgurl: url(https://scp-wiki.wikidot.com/local--files/theme:pataphysics/pataphysicslogo-ani.svg);
+   --fnColor: hsl(268, 100%, 37%);
 }
 
- #page-title{
-     display: none;
+ #page-title{
+     display: none;
 }
 
- #header::before{
-     opacity: .7;
+ #header::before{
+     opacity: .7;
 }
 
- #header h1 a::before{
-     text-shadow:
-          -1.75px -1.75px hsl(0, 0%, 5%),
-          0       -1.75px hsl(0, 0%, 5%),
-          1.75px  -1.75px hsl(0, 0%, 5%),
-          1.75px   0   hsl(0, 0%, 5%),
-          1.75px   1.75px hsl(0, 0%, 5%),
-          0        1.75px hsl(0, 0%, 5%),
-          -1.75px  1.75px hsl(0, 0%, 5%),
-          -1.75px  0   hsl(0, 0%, 5%);
+ #header h1 a::before{
+     text-shadow:
+          -1.75px -1.75px hsl(0, 0%, 5%),
+          0       -1.75px hsl(0, 0%, 5%),
+          1.75px  -1.75px hsl(0, 0%, 5%),
+          1.75px   0   hsl(0, 0%, 5%),
+          1.75px   1.75px hsl(0, 0%, 5%),
+          0        1.75px hsl(0, 0%, 5%),
+          -1.75px  1.75px hsl(0, 0%, 5%),
+          -1.75px  0   hsl(0, 0%, 5%);
 }
 
- #header h2::before{
-     text-shadow:
-          -1px -1px hsl(0, 0%, 5%),
-          0    -1px hsl(0, 0%, 5%),
-          1px  -1px hsl(0, 0%, 5%),
-          1px   0   hsl(0, 0%, 5%),
-          1px   1px hsl(0, 0%, 5%),
-          0     1px hsl(0, 0%, 5%),
-          -1px  1px hsl(0, 0%, 5%),
-          -1px  0   hsl(0, 0%, 5%);
+ #header h2::before{
+     text-shadow:
+          -1px -1px hsl(0, 0%, 5%),
+          0    -1px hsl(0, 0%, 5%),
+          1px  -1px hsl(0, 0%, 5%),
+          1px   0   hsl(0, 0%, 5%),
+          1px   1px hsl(0, 0%, 5%),
+          0     1px hsl(0, 0%, 5%),
+          -1px  1px hsl(0, 0%, 5%),
+          -1px  0   hsl(0, 0%, 5%);
 }
 
- #header-extra-div-1::before{
-     display: none;
+ #header-extra-div-1::before{
+     display: none;
 }
 
 /* INFO BAR */
- #u-author_block{
-     display: none;
+ #u-author_block{
+     display: none;
 }
 
 /* FORMATTING */
- .moo{
-     color: hsl(214, 70%, 45%);
+ .moo{
+     color: hsl(214, 70%, 45%);
 
-     font-weight: bold;
+     font-weight: bold;
 }
 
- .fnnum{
-     font-size: 85%;
+ .fnnum{
+     font-size: 85%;
 }
 
- .lite-heading h3{
-     color: var(--dark-violet);
+ .lite-heading h3{
+     color: var(--dark-violet);
 }
 
- .spangles{
-     padding: 0 .25rem;
+ .spangles{
+     padding: 0 .25rem;
 
-     color: hsl(0, 0%, 85%);
-     background: hsl(0, 0%, 10%);
+     color: hsl(0, 0%, 85%);
+     background: hsl(0, 0%, 10%);
 }
 
 /* DIV BLOCKS */
- .terminal{
-     background-color: hsl(268, 39%, 20%);
-     background-image:   /* black shadow at the top of the terminal */
-        radial-gradient(
-          ellipse 1000% 100% at 50% 90%,
-          transparent,
-          hsl(268, 33%, 10%));
-     border: 3px solid hsl(0, 0%, 73%);
-     border-radius: 1rem;
-     box-shadow: inset 0 0 10em 1em hsla(0, 0%, 0%, .5);   /* shadow around the terminal */
+ .terminal{
+     background-color: hsl(268, 39%, 20%);
+     background-image:   /* black shadow at the top of the terminal */
+        radial-gradient(
+          ellipse 1000% 100% at 50% 90%,
+          transparent,
+          hsl(268, 33%, 10%));
+     border: 3px solid hsl(0, 0%, 73%);
+     border-radius: 1rem;
+     box-shadow: inset 0 0 10em 1em hsla(0, 0%, 0%, .5);   /* shadow around the terminal */
 
-     overflow: hidden;   /* prevents scanline from forming a scrollwheel */
+     overflow: hidden;   /* prevents scanline from forming a scrollwheel */
 }
 
- .terminal hr{
-     height: 2px;
+ .terminal hr{
+     height: 2px;
 
-     background: 1px solid hsl(0, 0%, 81%);
+     background: 1px solid hsl(0, 0%, 81%);
 }
 
- .scanline{
-     position: relative;
-     height: 3.659em;
-     margin-top: -40%;
+ .scanline{
+     position: relative;
+     height: 3.659em;
+     margin-top: -40%;
 
-     background:
-        linear-gradient(
-          hsla(240, 19%, 27%, 0),
-          hsla(240, 33%, 33%, .1));
+     background:
+        linear-gradient(
+          hsla(240, 19%, 27%, 0),
+          hsla(240, 33%, 33%, .1));
 
-     animation: scan 5s linear 0s infinite;
-     -moz-animation: scan 5s linear 0s infinite;
-     -webkit-animation: scan 5s linear 0s infinite;
-     pointer-events: none;
+     animation: scan 5s linear 0s infinite;
+     -moz-animation: scan 5s linear 0s infinite;
+     -webkit-animation: scan 5s linear 0s infinite;
+     pointer-events: none;
 }
 
- @-webkit-keyframes scan{   /* SAFARI 4.0 - 8.0 */
-     from{
-          transform: translateY(-10%);
-    }
-     to{
-          transform: translateY(2000%);
-    }
+ @-webkit-keyframes scan{   /* SAFARI 4.0 - 8.0 */
+     from{
+          transform: translateY(-10%);
+    }
+     to{
+          transform: translateY(2000%);
+    }
 }
 
- .terminal-text,
- .terminal-text h3{
-     color: hsl(0, 0%, 81%);
+ .terminal-text,
+ .terminal-text h3{
+     color: hsl(0, 0%, 81%);
 
-     font-family: "Lucida Console", "Monaco", monospace;
+     font-family: "Lucida Console", "Monaco", monospace;
 }
 
- .terminal-text{
-     padding: 34% 3rem 0;
+ .terminal-text{
+     padding: 34% 3rem 0;
 
-     font-size: 115%;
+     font-size: 115%;
 }
 
- .rouge{
-     color: hsl(9, 91%, 71%);
+ .rouge{
+     color: hsl(9, 91%, 71%);
 }
 
- .log-bg{
-     background: hsl(268, 76%, 13%);
-     box-shadow: 0 2px 4px hsla(0, 0%, 29%, .5);
+ .log-bg{
+     background: hsl(268, 76%, 13%);
+     box-shadow: 0 2px 4px hsla(0, 0%, 29%, .5);
 
-     text-align: center;
+     text-align: center;
 }
 
- .log{
-     margin: .25rem;
-     padding: .5rem;
+ .log{
+     margin: .25rem;
+     padding: .5rem;
 
-     background: hsl(0, 0%, 100%);
-     box-shadow: 0 2px 4px hsla(0, 0%, 29%, .5);
+     background: hsl(0, 0%, 100%);
+     box-shadow: 0 2px 4px hsla(0, 0%, 29%, .5);
 }
 
- .raisa-block{
-     -moz-margin-start: 0;
-     -moz-margin-end: 0;
-     -webkit-margin-start: 0;
-     -webkit-margin-before: 1rem;
-     -webkit-margin-after: 1rem;
-     -webkit-margin-end: 0;
-     padding: 1rem;
+ .raisa-block{
+     -moz-margin-start: 0;
+     -moz-margin-end: 0;
+     -webkit-margin-start: 0;
+     -webkit-margin-before: 1rem;
+     -webkit-margin-after: 1rem;
+     -webkit-margin-end: 0;
+     padding: 1rem;
 
-     background-clip: padding-box;     /* IE9+ support */
-     background-color: hsl(0, 0%, 91%);
-     border: 1px solid hsl(0, 100%, 42%);
-     border-radius: .75rem;
-     box-shadow:
-          0 0 0 4px hsl(0, 0%, 80%),
-          0 0 0 7px hsl(0, 0%, 90%);
+     background-clip: padding-box;     /* IE9+ support */
+     background-color: hsl(0, 0%, 91%);
+     border: 1px solid hsl(0, 100%, 42%);
+     border-radius: .75rem;
+     box-shadow:
+          0 0 0 4px hsl(0, 0%, 80%),
+          0 0 0 7px hsl(0, 0%, 90%);
 }
 [[/module]]
 
@@ -182,9 +182,9 @@
 |comments=**SCP-3739:** [[span class="moo"]]Mind-Milk™ by Moosphere, Inc.[[/span]] 
 **Authors:** [[*user Lt Flops]] & KindlyTurtleClem 
 **Published on 22 Jan 2019** 
- 
+ 
 This article is set in the **[*/broken-masquerade-hub Broken Masquerade]** canon. 
- 
+ 
 [[div class="log"]] 
 = [[size 110%]] **Special Thanks** [[/size]] 
 ----
@@ -195,35 +195,35 @@ This article is set in the **[*/broken-masquerade-hub Broken Masquerade]** canon
 * [[*user Gekkoguy]], [[*user Gabriel Jade]], Cyantreuse, and [[*user televisionist]] for conceptual work and finalizing crit. 
 * [[*user Westrin]] and [[*user RockTeethMothEyes]] for beta reading. 
 [[/div]] 
- 
+ 
 [[div class="log"]] 
 = [[size 110%]] **Sources** [[/size]] 
 ----
 * [http://kontainer.djkakt.us/moosphere Our moosphere comments] 
- 
+ 
 **Definitions:** 
 * The definition of "noosphere" used here is sourced directly from [*/sirpudding-s-author-page#toc7 Sirpudding's Author Page], which grants permission for its use (among other items) with attribution. 
- 
+ 
 **Research Links:** 
 * [wikipedia:Digital_pathology Digital pathology] 
 * [wikipedia:Jungian_archetypes Jungian archetypes that turn into Bovine archetypes] 
 * [wikipedia:Bat_(goddess) Bat (goddess)] 
 * [wikipedia:Glossolalia#20th_century 20th Century Speaking in tongues] 
 * [wikipedia:Laying_on_of_hands Laying on of hands] 
- 
+ 
 **General Images** 
 * [https://commons.wikimedia.org/wiki/File:Snejanka-cave-udder.jpg Image 1] – Public Domain 
 * [https://commons.wikimedia.org/wiki/File:10_small_subunit.gif Image 2] – Public Domain 
 * [https://commons.wikimedia.org/wiki/File:PSM_V62_D565_Aswan_dam_during_eclipse_of_november_11_1901.png Image 3] – Public Domain 
 * [https://commons.wikimedia.org/wiki/File:Creepy_way_in_imambara.jpg Image 4] – CC-BY 3.0 
- 
+ 
 **Advert One** 
 * [https://upload.wikimedia.org/wikipedia/commons/7/79/Water_Drop_Icon_Vector.png Milk Droplets] – CC-BY-SA 4.0 
 * [https://upload.wikimedia.org/wikipedia/commons/3/3a/Mare_Imbrium-AS17-M-2444.jpg Mare Imbrium] – Public Domain 
- 
+ 
 **Advert Two** 
 * [https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F009360-0001,_Essen,_Bergm%C3%A4nner_mit_Milchflaschen.jpg Two Coalminers] – CC-BY-SA 3.0 
- 
+ 
 **Final Screen** 
 * [https://commons.wikimedia.org/wiki/Category:Freak_show#/media/File:Joseph_Carey_Merrick_.jpg Carey Merrick] – CC-BY-SA 3.0 
 * [wikipedia:Mastitis#/media/File:Ultrasound_Scan_ND_115254_1204420_cr.png Ultrasound] – CC-BY-SA 3.0 
@@ -320,7 +320,7 @@ Moosphere uses microscopy technologies -- ordinarily used to transmit images vis
 |url=10_small_subunit.gif
 |add-caption=true
 |caption=Digital reconstruction of milk curdle build-up (blue). _
- _
+ _
 (Hover to enlarge.)
 ]]
 
@@ -384,7 +384,7 @@ Within two to five business days, each of the researchers encountered the follow
 |url=aswan-low-dam.png
 |add-caption=true
 |caption=Aswan Low Dam c. 1906. _
- _
+ _
 (Hover to enlarge.)
 ]]
 
@@ -531,7 +531,7 @@ In June 2023, Analytics Management deployed field operatives (impersonating FDA 
 |url=Creepy_way_in_imambara.jpg
 |add-caption=true
 |caption=Image captured by Wollensky's camera, time-stamped 3h 35m 15s. _
- _
+ _
 (Hover to enlarge.)
 ]]
 

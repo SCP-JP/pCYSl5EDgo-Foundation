@@ -6,15 +6,15 @@
 |authorPage= 
 |comments=[[span class="h-span"]]SCP-4475:[[/span]] So Long, and Thanks for All the Milk 
 [[span class="h-span"]]Authors:[[/span]] [[*user Lt Flops]] and KindlyTurtleClem 
- 
+ 
 This article is **FIRE TURTLE (Clem & Floppy)**'s 2nd article for the **[*https://scp-wiki.wikidot.com/collaboration-contest 2019 Collaboration Contest]**! **[*https:/scp-wiki.wikidot.com/land-of-honey Go here for the first entry!]** The two primary Groups of Interest featured are **Fifthism** and **Church of the Second Hytoth**. 
- 
+ 
 This article shares continuity with **[*https://scp-wiki.wikidot.com/scp-3739 SCP-3739]**. However, you do not need to read 3739 to understand 4475! 
 ----
 [[div style="text-align: center;"]] 
 [[size 110%]] [[span class="h-span"]]Special Thanks - Critters & Beta Readers[[/span]] [[/size]] 
 [[/div]] 
- 
+ 
 * [[*user Ayers]], for providing a magnificent quote of his. 
 * [[*user Uncle Nicolini]], [[*user Westrin]], [[*user fishingenthusiast]], and [[*user Nagiros]], for general critique. 
 * [[*user DrChandra]], [[*user TechSorcerer2747]], and [[*user Weryllium]] for giving the A-okay in their reading of this piece.
@@ -22,7 +22,7 @@ This article shares continuity with **[*https://scp-wiki.wikidot.com/scp-3739 SC
 * [[*user NatVoltaic]], for greenlighting this article's inclusion in the Ad Astra canon. 
 * [[*user The Great Hippo]], for finalizing crit and helping condense logs and sentences. 
 * [[span class="h-span"]]Smash[[/span]] from the Dr. Cimmerian Discord server, who shared the following insight: 
- 
+ 
 > [[span class="h-span"]]Smash:[[/span]] Ok Floppy. My only concern is that your space cow god cant fart its way out of orbit if it were to ever hit earth 
 > [[span class="h-span"]]Smash:[[/span]] I just wrote that sentence 
 > [[span class="h-span"]]Smash:[[/span]] Look, I just want the ol' girl to be able to get back out to the green pastures of space if she ever finds herself in our neck of the woods 
@@ -30,7 +30,7 @@ This article shares continuity with **[*https://scp-wiki.wikidot.com/scp-3739 SC
 [[div style="text-align: center;"]] 
 [[size 110%]] [[span class="h-span"]]Sources[[/span]] [[/size]] 
 [[/div]] 
- 
+ 
 * **1: [https://www.flickr.com/photos/133259498@N05/32546074037 Trapezium Cluster] – CC0 1.0** 
 * **2a: [https://commons.wikimedia.org/wiki/File:Vadathika_and_Vapiyaka_caves_BL.jpg Bone structure] – Public domain** 
 * **2b: [https://commons.wikimedia.org/wiki/File:Bilan_de_sens_-_Bilans_de_sens.jpg Milky overlay] – CC BY-SA 4.0** 
@@ -43,93 +43,93 @@ This article shares continuity with **[*https://scp-wiki.wikidot.com/scp-3739 SC
 
 [[module CSS]]
 body{
-  --cutColour: #ffb961;
-  --barColour: #5C1D24;
+  --cutColour: #ffb961;
+  --barColour: #5C1D24;
 }
 .translation_block{ display: none; }
 .u-faq{ display: none; }
 #u-author_block{ display:none; }
 
 /* FONT */
- @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 /* THREAT LEVEL */
- .threat-level{
-     display: inline-block;
-     text-align: center;
-     width: 100%;
-     margin: 0;
-     padding: .3em 0;
-     font-size: 140%;
-     text-transform: uppercase;
-     color: rgb(230, 230, 230);
-     background-color: rgb(80, 80, 109);
-     text-shadow: 1px 3px 1px rgba(0, 0, 0, .3);
+ .threat-level{
+     display: inline-block;
+     text-align: center;
+     width: 100%;
+     margin: 0;
+     padding: .3em 0;
+     font-size: 140%;
+     text-transform: uppercase;
+     color: rgb(230, 230, 230);
+     background-color: rgb(80, 80, 109);
+     text-shadow: 1px 3px 1px rgba(0, 0, 0, .3);
 }
- .threat-level a:hover{
-     text-decoration: none;
+ .threat-level a:hover{
+     text-decoration: none;
 }
 
 /* DIV BLOCKS */
- .log{
-     background-color: #192845;
-     padding: .427em;
-     margin: .183em;
+ .log{
+     background-color: #192845;
+     padding: .427em;
+     margin: .183em;
 }
- .log-bg{
-     background-color: #ffb961;
+ .log-bg{
+     background-color: #ffb961;
 }
- .quote-block{
-     border: 3px solid #ccc;
-     border-radius: .61em;
-     background-color: #21212d;
-     padding: .25em 1em;
-     margin-bottom: 1em;
-     font-weight: bold;
+ .quote-block{
+     border: 3px solid #ccc;
+     border-radius: .61em;
+     background-color: #21212d;
+     padding: .25em 1em;
+     margin-bottom: 1em;
+     font-weight: bold;
 }
 
 /* SPECIAL CODE */
- .enlarge{
-     transition: .25s;
+ .enlarge{
+     transition: .25s;
 }
- .enlarge:hover{
-     transform: scale(1.6);
-     transition: .25s;
-     transition-delay: .4s;
-     z-index: 1000;
+ .enlarge:hover{
+     transform: scale(1.6);
+     transition: .25s;
+     transition-delay: .4s;
+     z-index: 1000;
 }
- .earthworm .hub.no a, .earthworm a[href="/"], .earthworm a[href="https://scp-wiki.wikidot.com"]{
-     color: #ccc !important;
+ .earthworm .hub.no a, .earthworm a[href="/"], .earthworm a[href="https://scp-wiki.wikidot.com"]{
+     color: #ccc !important;
 }
 
 /* FORMATTING */
 .collapsible-block-link{ font-weight: bold; }
 hr{
-     background-color: #ccc;
-     margin: 1em 0;
-     padding: 0;
-     border: 0;
+     background-color: #ccc;
+     margin: 1em 0;
+     padding: 0;
+     border: 0;
 }
 .lite-header hr{
-    width: 45%;
-    margin: auto;
-    background-color: #ccc;
-    border: none;
-    height: 2px;
+    width: 45%;
+    margin: auto;
+    background-color: #ccc;
+    border: none;
+    height: 2px;
 }
 .h2, .h3{
-    margin: 0.5em 0 0.4em;
-    padding: 0;
-    letter-spacing: 1px;
-    font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
 }
 .h2{
-    font-size: 150%;
-    color: #ffb961;
+    font-size: 150%;
+    color: #ffb961;
 }
 .h3{
-    font-size: 130%;
-    font-weight: bold;
+    font-size: 130%;
+    font-weight: bold;
 }
 [[/module]]
 
@@ -182,7 +182,7 @@ Information involving human apotheosis via the manipulation of milk-based archet
 
 SCP-4475 possesses 25 pairs of ungulate forelimbs -- ranging from 15 to 40 km in length -- and a single large udder of variable diameter[[footnote]]SCP-4475's interior and exterior anatomy have displayed apparent inconsistent space-time and topology, which is most present in its udder.[[/footnote]] with 49 lengthy teats. Mapping initiatives have detected a large internal bladder and five powerful sphincters, located at the rear of its body. Within the bladder, a complex metabolic process produces biochemical propellant. This propellant is expelled through one of its five sphincters. Based on this anatomical configuration, Foundation-employed aerospace engineers estimate that velocities upwards of 8,000 m/s (28,000 km/h) can be achieved in the vacuum of space.
 
-Collected Thaumic Gateway[[footnote]][[span class="h-span"]]Thaumic Gateway:[[/span]] A para-technological machine that uses a set of complex thaumaturgic rituals to temporarily generate a stable miniature portal (known in the paranormal community as a "Way"). The Thaumic Gateway enables an array of instant communication methods through each created Way, including short-wave radio band and 5G Wi-Fi fields. For an introduction to applied thaumatology, see: Moose, T. D. (2016). [[[another-goddamn-magic-system|Magic Orientation (or, Another Goddamn Magic System)]]]. //SCP Foundation Journal of Thaumaturgical Engineering, 1//(9), 10–33.[[/footnote]]  and telemetry data have determined that SCP-4475 is presently located at a distance of 1,344 light-years (± 20 ly) from Earth. SCP-4475 is in orbit around the Trapezium Cluster: A system of five stars orbiting an unregistered supermassive gravitational anomaly.[[footnote]]Hypothesized to be a [[[https://en.wikipedia.org/wiki/White_hole|white hole]]] >100 solar masses in size.[[/footnote]]
+Collected Thaumic Gateway[[footnote]][[span class="h-span"]]Thaumic Gateway:[[/span]] A para-technological machine that uses a set of complex thaumaturgic rituals to temporarily generate a stable miniature portal (known in the paranormal community as a "Way"). The Thaumic Gateway enables an array of instant communication methods through each created Way, including short-wave radio band and 5G Wi-Fi fields. For an introduction to applied thaumatology, see: Moose, T. D. (2016). [[[another-goddamn-magic-system|Magic Orientation (or, Another Goddamn Magic System)]]]. //SCP Foundation Journal of Thaumaturgical Engineering, 1//(9), 10–33.[[/footnote]]  and telemetry data have determined that SCP-4475 is presently located at a distance of 1,344 light-years (± 20 ly) from Earth. SCP-4475 is in orbit around the Trapezium Cluster: A system of five stars orbiting an unregistered supermassive gravitational anomaly.[[footnote]]Hypothesized to be a [[[https://en.wikipedia.org/wiki/White_hole|white hole]]] >100 solar masses in size.[[/footnote]]
 
 Despite the high level of para-technology required to directly observe SCP-4475, the Foundation and Global Occult Coalition each became aware of its existence independently. Starting in 2009, at least 5,900 different persons on Earth have undergone physical teleportation into the interior of SCP-4475's mammary glands.
 
@@ -431,32 +431,32 @@ A log of notable SCP-4475-1 occurrences is as follows.
 [[html class="mobile"]]
 <head>
 <style>
- #fancy{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     font-family: 'Ubuntu', sans-serif;
-     border-collapse: collapse;
-     width: 100%;
-     font-size: 90%;
+ #fancy{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Ubuntu', sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+     font-size: 90%;
 }
- #fancy td, #customers th{
-     border-left: 1px solid #ccc;
-     border-bottom: 1px solid #ccc;
-     padding: .488em;
-     color: #ccc;
+ #fancy td, #customers th{
+     border-left: 1px solid #ccc;
+     border-bottom: 1px solid #ccc;
+     padding: .488em;
+     color: #ccc;
 }
- #fancy tr:nth-child(even){
-     background-color: #122732;
+ #fancy tr:nth-child(even){
+     background-color: #122732;
 }
- #fancy tr:hover{
-     background-color: #1B304D;
+ #fancy tr:hover{
+     background-color: #1B304D;
 }
- #fancy th{
-     padding: .732em;
-     text-align: left;
-     background-color: #1B304D;
-     color: #ffb961;
+ #fancy th{
+     padding: .732em;
+     text-align: left;
+     background-color: #1B304D;
+     color: #ffb961;
 }
 
 </style>
@@ -464,36 +464,36 @@ A log of notable SCP-4475-1 occurrences is as follows.
 <body>
 
 <table id="fancy">
-  <tr>
-    <th>NAME</th>
-    <th>LOCATION</th>
-    <th>DESCRIPTION OF RETURN</th>
-  </tr>
-  <tr>
-    <td>Dennis Miller</td>
-    <td>Wisconsin, USA</td>
-    <td>Several weeks after his disappearance, the subject reappeared in his pickup truck. In a trance, the subject siphoned gasoline from the vehicle, consuming ~4 liters before discovery. Medical personnel found a 44 kg malignant tumor growth on the back of his cranium filled with curdled milk, skin, and grey matter. Subject expired from a fatal brain aneurysm.</td>
-  </tr>
-  <tr>
-    <td>Mary McGill</td>
-    <td>Ontario, Canada</td>
-    <td>Filed as an unsolved missing person's case, the subject reappeared several years after her disappearance and 8 km away from her farm, near Highway 400. A Ryder truck driver discovered and reported the subject's mutilated cadaver, speculating that it was necrotic deer remains. An autopsy found a thick layer of blue cheeses in the stomach and esophagus. Cause of death was terminal dehydration.</td>
-  </tr>
-  <tr>
-    <td>Dado Kovačić</td>
-    <td>Lapland, Finland</td>
-    <td><p>The subject was selected as a participant for preliminary experimentation trials. Two days after undergoing the ritual, they reappeared in the Tornio river. After traveling downstream ~600 meters, field agents re-acquired them at a private fishery. They had undergone extensive physical mutation, possessing three sets of ungulate limbs and the external anatomy and size of a mature bull (<i>Bos taurus</i>).</p>
+  <tr>
+    <th>NAME</th>
+    <th>LOCATION</th>
+    <th>DESCRIPTION OF RETURN</th>
+  </tr>
+  <tr>
+    <td>Dennis Miller</td>
+    <td>Wisconsin, USA</td>
+    <td>Several weeks after his disappearance, the subject reappeared in his pickup truck. In a trance, the subject siphoned gasoline from the vehicle, consuming ~4 liters before discovery. Medical personnel found a 44 kg malignant tumor growth on the back of his cranium filled with curdled milk, skin, and grey matter. Subject expired from a fatal brain aneurysm.</td>
+  </tr>
+  <tr>
+    <td>Mary McGill</td>
+    <td>Ontario, Canada</td>
+    <td>Filed as an unsolved missing person's case, the subject reappeared several years after her disappearance and 8 km away from her farm, near Highway 400. A Ryder truck driver discovered and reported the subject's mutilated cadaver, speculating that it was necrotic deer remains. An autopsy found a thick layer of blue cheeses in the stomach and esophagus. Cause of death was terminal dehydration.</td>
+  </tr>
+  <tr>
+    <td>Dado Kovačić</td>
+    <td>Lapland, Finland</td>
+    <td><p>The subject was selected as a participant for preliminary experimentation trials. Two days after undergoing the ritual, they reappeared in the Tornio river. After traveling downstream ~600 meters, field agents re-acquired them at a private fishery. They had undergone extensive physical mutation, possessing three sets of ungulate limbs and the external anatomy and size of a mature bull (<i>Bos taurus</i>).</p>
 
-    <p>Upon recovery, they repeatedly expressed the desire to return and became enraged when detained, at which point they attacked. They pinned an agent to a wall, causing extensive spinal and rib-cage damage before being terminated.</p></td>
-  </tr>
-  <tr>
-    <td>Ramaeshwara Punja</td>
-    <td>Meghalaya, India</td>
-    <td><p>Several months after undergoing the ritual in Foundation custody, the subject reappeared inside a barn at a Foundation-owned farm property. Field agents acquired the subject and noted they were severely dehydrated and delirious, having drunk raw milk from several cows and goats. Subject described their time inside SCP-4475 as "a blend of so many different cheese scents."</p>
+    <p>Upon recovery, they repeatedly expressed the desire to return and became enraged when detained, at which point they attacked. They pinned an agent to a wall, causing extensive spinal and rib-cage damage before being terminated.</p></td>
+  </tr>
+  <tr>
+    <td>Ramaeshwara Punja</td>
+    <td>Meghalaya, India</td>
+    <td><p>Several months after undergoing the ritual in Foundation custody, the subject reappeared inside a barn at a Foundation-owned farm property. Field agents acquired the subject and noted they were severely dehydrated and delirious, having drunk raw milk from several cows and goats. Subject described their time inside SCP-4475 as "a blend of so many different cheese scents."</p>
 
-    <p>After recovering, the subject later manifested a "lactokinetic" ability: The psychic capability to manipulate dairy products. Due to their compliance, Project GALAXIAS has granted them Class-E personnel status.</p></td>
-  </tr>
-  
+    <p>After recovering, the subject later manifested a "lactokinetic" ability: The psychic capability to manipulate dairy products. Due to their compliance, Project GALAXIAS has granted them Class-E personnel status.</p></td>
+  </tr>
+  
 </table>
 
 </body>

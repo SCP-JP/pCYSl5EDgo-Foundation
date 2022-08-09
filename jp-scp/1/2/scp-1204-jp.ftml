@@ -1,29 +1,29 @@
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 
@@ -40,11 +40,11 @@
 [[include :scp-jp-sandbox2:inc:jstyles]]
 
 **アイテム番号:** SCP-1204-JP
- 
+ 
 **オブジェクトクラス:** Safe
 
 **特別収容プロトコル:** SCP-1204-JPはビルの出入りを厳重に施錠し、動体センサつき監視カメラで24時間の監視を行います。侵入者をセンサが検知した場合は、財団フロントの警備会社を派遣、侵入者を拘束してクラスA記憶処理を行います。
- 
+ 
 **説明:** SCP-1204-JPは、東京都港区六本木の███ビルの5階に存在する、異空間への移動用ポータルです。直径24cmの球状空間の歪みとして視認する事が可能です。SCP-1204-JPに触れる事によって、異空間へのアクセスを行う事が可能です(以降、対象と記述)。内部は暗い色調の廊下となっており、その突き当たりには2名の黒人男性と白人男性のドアマンが配置されています。
 
 ドアマンは空間に侵入した対象の衣服を確認し、「クラブにふさわしい人間かどうか」をチェックします。ドアマンから「ふさわしくない」と判断された対象は、即座にSCP-1204-JPについての全情報を忘却し、港区内のどこかへ転送されます。ドアマンは対象の衣服から、その対象の年収や職業を確認しているものと思われます。
@@ -118,23 +118,23 @@ POI-53218は「アンドリュー・クナーナン」の名で知られる殺�
 [[div class="fakeprot"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # name
- * title: ID
- * default: Dir.dousaku
- * type: text
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: ID
+ * default: Dir.dousaku
+ * type: text
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[div class="passw"]]
 [[module MailForm to="aaaa (DUMMY)" button=""]]
 # affiliation
- * title: PASSWORD
- * default: ・・・・・・・・・
- * rules:
-  * required: true 
-  * maxLength:10
-  * minLength: 100
+ * title: PASSWORD
+ * default: ・・・・・・・・・
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
 [[/module]]
 [[/div]]
 [[/div]]
@@ -178,7 +178,7 @@ SCP-1204-JPが同時発生した際、その発見された時刻がヴェルサ
 「44口径と聖ウィルクスの兄弟教会」は、4人のメンバーで構成された小会派です。以下構成員を記述します。
 
 ||~ 姓名||~ 性別 ||職業||
-||ジェフリー・トレイル || 男性 ||  28歳 元アメリカ海軍士官、プロパン販売会社セールスマン|| 
+||ジェフリー・トレイル || 男性 ||  28歳 元アメリカ海軍士官、プロパン販売会社セールスマン|| 
 ||デイヴィッド・マドソン|| 男性 || 33歳 建築設計士|| 
 || リー・ミグリン || 男性|| 72歳 不動産開発業者||
 || ウィリアム・リース || 男性 ||45歳 墓地管理人||
@@ -354,7 +354,7 @@ A.C
 > 
 > GOC司令部に問い合わせたところ、彼らはクナーナンの関連情報も全て譲渡するよう私たちに迫っている程だ。 幸い、日本支部では確保に成功したと見える。それゆえに我々は、このオブジェクトの全情報を日本支部に譲渡する。だが、情報の取り扱いにはくれぐれも注意して欲しい。仮にこの情報が漏洩したとしても、日本人の国民性はあくまでも国内に向くという特性がある。これならば大した被害にはならないだろう。
 > 
->  
+>  
 > しかし念には念を入れ、厳重に取り扱って欲しい。
 
 **補遺:** おそらく、POI-53218によるPOI-46312殺害がオブジェクト出現のトリガーとなっていた事は確かだと思われます。

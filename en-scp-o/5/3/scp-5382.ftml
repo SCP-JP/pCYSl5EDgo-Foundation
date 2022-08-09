@@ -2,21 +2,21 @@
 
 [[module CSS]]
 :root {
-    --timeDelay: 0.5s;
+    --timeDelay: 0.5s;
 }
 [[/module]]
 
 [[module CSS]]
 /* anendlessusername's invaluable correction of the ACS octagon! */
 #page-content .quadrants > div {
-    top: 2.25%;
-    left: 18.5%;
+    top: 2.25%;
+    left: 18.5%;
 }
 [[/module]]
 
 [[module CSS]]
 #header {
-  background-image: url(http://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/43pride.png)
+  background-image: url(http://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/43pride.png)
 }
 [[/module]]
 
@@ -38,23 +38,23 @@ Literature is the best medicine.
 
 [[div]]
 [[include :scp-wiki:component:customizable-acs
-    |item-number= SCP-5382
-    |clearance= 4
-    |container-class= thaumiel
-    |secondary-class=
-    |secondary-icon= 
-    |disruption-class= vlam
-    |risk-class= danger
-    |item-text= item:
-    |level-text= level
-    |clearance-level-text= 4
-    |clearance-number-text= 4/T
-    |clearance-text= secret/thaumiel
-    |containment-text= containment class
-    |secondary-text= 
-    |disruption-text= disruption class
-    |risk-text= risk class
-    |inc-custom-text= --]]]
+    |item-number= SCP-5382
+    |clearance= 4
+    |container-class= thaumiel
+    |secondary-class=
+    |secondary-icon= 
+    |disruption-class= vlam
+    |risk-class= danger
+    |item-text= item:
+    |level-text= level
+    |clearance-level-text= 4
+    |clearance-number-text= 4/T
+    |clearance-text= secret/thaumiel
+    |containment-text= containment class
+    |secondary-text= 
+    |disruption-text= disruption class
+    |risk-text= risk class
+    |inc-custom-text= --]]]
 
 [[include :scp-wiki:component:customizable-acs
 |containment-class= thaumiel
@@ -65,8 +65,8 @@ Literature is the best medicine.
 [[module CSS]]
 .anom-bar-container.ekhi .danger-diamond > .quadrants > .left-quad,
 .anom-bar-container.danger .danger-diamond > .quadrants > .right-quad {
-    background-color:rgba(255,109,0,0.25);
-    background-color: rgb(255,109,0,0.25);
+    background-color:rgba(255,109,0,0.25);
+    background-color: rgb(255,109,0,0.25);
 }
 [[/module]]
 
@@ -74,9 +74,9 @@ Literature is the best medicine.
 ----
 
 [[include component:image-block-peppo
-    name=Bromide.jpg|
-    caption= SCP-5382-C host instance, c. 1895. |
-    width=240px|
+    name=Bromide.jpg|
+    caption= SCP-5382-C host instance, c. 1895. |
+    width=240px|
 ]]
 
 **Special Containment Procedures:** SCP-5382-A and SCP-5382-B are contained via SCP-5382-C, which is itself contained via an agreement between the Foundation and PoI-382 ("Thilo Zwist").
@@ -101,15 +101,15 @@ The following measures must be taken to reinforce the containment of SCP-5382-B 
 
 SCP-5382-A is the cognitive trigger for a progressive medical condition, SCP-5382-B, and SCP-5382-C is the cognitive trigger for its remission. A low percentage of individuals consuming text infested with SCP-5382-A will be infected with SCP-5382-B. Should they then encounter SCP-5382-C, the disorder will be cured immediately.
 
-The grammatical structures enabling SCP-5382-A and C are undetermined — it is impossible to "see" where they reside in the infested text, and the lack of a consistent profile suggests that their linguistic architectures are in constant flux  — but their efficacy has been unaffected by the evolution of their host languages over the course of nearly four hundred years.
+The grammatical structures enabling SCP-5382-A and C are undetermined — it is impossible to "see" where they reside in the infested text, and the lack of a consistent profile suggests that their linguistic architectures are in constant flux  — but their efficacy has been unaffected by the evolution of their host languages over the course of nearly four hundred years.
 
 ----
 
 [[include component:image-block
-    name=Eye.jpg|
-    caption=SCP-5382-B, Stage 1. |
-    align=left|    
-    width=150px|
+    name=Eye.jpg|
+    caption=SCP-5382-B, Stage 1. |
+    align=left|    
+    width=150px|
 ]]
 
 **Addendum 5382-1, Pathological Profile:** Approximately one third of the human race is potentially susceptible to SCP-5382-A, and therefore capable of contracting SCP-5382-B. (No such individual has ever proven immune to SCP-5382-C.) The disorder carries a variety of apparently random symptoms, but six remain constant between all cases:
@@ -124,13 +124,13 @@ Medical professionals unaffiliated with the Foundation have been unable to recog
 
 ----
 
-**Addendum 5382-2, Semantic Profile:**  PoI-382, Thilo Zwist, has disseminated the textual cure for SCP-5382-B through a wide variety of disreputable literature since the late seventeenth century. Under thirty-four known pseudonyms he has created newspaper and magazine advertisements, billboards, pamphlets, flyers, signage, paperback novels, television commercials and websites all infested with the SCP-5382-C semantic trigger. Consuming a sufficient portion of this text immediately sends SCP-5382-B into remission.
+**Addendum 5382-2, Semantic Profile:**  PoI-382, Thilo Zwist, has disseminated the textual cure for SCP-5382-B through a wide variety of disreputable literature since the late seventeenth century. Under thirty-four known pseudonyms he has created newspaper and magazine advertisements, billboards, pamphlets, flyers, signage, paperback novels, television commercials and websites all infested with the SCP-5382-C semantic trigger. Consuming a sufficient portion of this text immediately sends SCP-5382-B into remission.
 
 [[include component:image-block
-    name=Trick.jpg|
-    caption=SCP-5382-C host instance, 2020. |
-    align=right|    
-    width=275px|
+    name=Trick.jpg|
+    caption=SCP-5382-C host instance, 2020. |
+    align=right|    
+    width=275px|
 ]]
 
 SCP-5382-C is primarily embedded in print advertisements mimicking contemporaneous examples of pseudoscience, health fraud, or "quackery." PoI-382 has advertised the sale of dozens of dubious products supposedly capable of curing dozens of spurious conditions; the products are real, and can be purchased, but they do not possess the advertised utility. Only reading the promotional literature containing SCP-5382-C cures SCP-5382-B. 
@@ -197,10 +197,10 @@ Nevertheless, due to the SCP-5382-C effect, individuals afflicted with SCP-5382-
 //This document incorporates excerpts from the private correspondence and papers of Dr. V. Lesley Scout and his contemporaries, made possible by the diligent research of my colleagues at A&R and the cooperation of the Records and Information Security Administration.//
 
 [[include component:image-block
-    name=Scout1.jpg|
-    caption=Dr. V. Lesley Scout, c. 1914. |
-    align=left|    
-    width=250px|
+    name=Scout1.jpg|
+    caption=Dr. V. Lesley Scout, c. 1914. |
+    align=left|    
+    width=250px|
 ]]
 
 The SCP Foundation hired Dr. Vivian Lesley Scout on the day of his second thesis defense, 1 April 1915. He had already achieved a PhD in toxicology at the University of Cardiff, Wales, but it was this second doctorate in history at the University of New Brunswick which brought him to Foundation attention.
@@ -233,13 +233,13 @@ This setback resulted in the complete redirection of CLIO-4's investigations awa
 Lacking effective antimemetic countermeasures, and under the assumption that Dr. Reynders had contracted her illness from the eighteenth-century documents she'd been studying, CLIO-4 refocused its efforts on contemporary material. In 1920 Dr. Scout discovered a series of newspaper advertisements for a patent medicine called "SAL-U-TEM" which had experienced a meteoric rise from obscurity to celebrity over the course of the war.
 
 [[include component:image-block
-    name=Braun.jpg|
-    caption=SAL-U-TEM advertisement, //Sloth's Pit Fabulist//, 13 July 1919.[[span class="fnnum"]].[[/span]][[span class="fncon"]] The Greek city of Candia, now Heraklion, did not boast a school of medicine until the establishment of the University of Crete in the 1970s. The Principality of Andorra, being a principality, has neither kings nor queens. No European monarchy has ever officially titled its heads of state "Regis" or "Regina." The image used to represent "Doctor Braun" is a sketch of Sir Mackenzie Bowell, Prime Minister of Canada from 1894 to 1896.[[/span]] |
-    align=center|    
-    width=600px|
+    name=Braun.jpg|
+    caption=SAL-U-TEM advertisement, //Sloth's Pit Fabulist//, 13 July 1919.[[span class="fnnum"]].[[/span]][[span class="fncon"]] The Greek city of Candia, now Heraklion, did not boast a school of medicine until the establishment of the University of Crete in the 1970s. The Principality of Andorra, being a principality, has neither kings nor queens. No European monarchy has ever officially titled its heads of state "Regis" or "Regina." The image used to represent "Doctor Braun" is a sketch of Sir Mackenzie Bowell, Prime Minister of Canada from 1894 to 1896.[[/span]] |
+    align=center|    
+    width=600px|
 ]]
 
-Dr. Scout doubted that true sufferers of "catarrh," an inflammation of the mucous membranes, were the intended targets of these peculiar testimonials.  Similarly suspicious were frontier newspaper records describing a traveling salesman by the name of "Doctor Bromide" who dispensed bottles of snake oil on both sides of the border until 1907. His "Asclepian Alcohol" was supposedly capable of curing "scrumpox" (//herpes glatiatorum//), and he sold it from a caravan profusely decorated with verbose textual testimonials.
+Dr. Scout doubted that true sufferers of "catarrh," an inflammation of the mucous membranes, were the intended targets of these peculiar testimonials.  Similarly suspicious were frontier newspaper records describing a traveling salesman by the name of "Doctor Bromide" who dispensed bottles of snake oil on both sides of the border until 1907. His "Asclepian Alcohol" was supposedly capable of curing "scrumpox" (//herpes glatiatorum//), and he sold it from a caravan profusely decorated with verbose textual testimonials.
 
 Ads for SAL-U-TEM were still running in newspapers across the Anglosphere, so on 17 March 1920 Dr. Scout mailed the following letter to the provided address:
 
@@ -288,10 +288,10 @@ Please indicate immediately when and where we might meet.
 No reply was received, and subsequent letters were returned unopened. 
 
 [[include component:image-block
-    name=Codex.jpg|
-    caption=//The Chirurgeon's Codex//, frontispiece. |
-    align=right|    
-    width=250px|
+    name=Codex.jpg|
+    caption=//The Chirurgeon's Codex//, frontispiece. |
+    align=right|    
+    width=250px|
 ]]
 
 Research into the //Chirurgeon's Codex// and its anomalous properties would reveal the depth of the //Giftschreiber// phenomenon to CLIO-4 in 1927. The //Codex,// to which Dr. Scout had obliquely referred in his correspondence with Zwist, was a volume of eighteenth-century medicinal remedies. It had been supplied to practicing physicians across the western world for a very high fee — five English pounds — between 1717 and 1741. Most of this fee was waived if the physician signed an affidavit agreeing to display the book's frontispiece to any patients displaying "verdant whites of the eye, cerulean fingernails, jaundiced lips, or an orange epidermis." This was flagged for its conformity with the symptoms experienced by Dr. Reynders and three further civilian patients, as was Zwist's mention of "progressive hypercholeritic paroxysm."
@@ -301,10 +301,10 @@ Imprudent cross-referencing resulted in a second CLIO-4-A researcher contracting
 Dr. Scout, by now the Director of Project CLIO, ordered the entire Historical Review Group to investigate the //Codex// and its putative author, a "Dr. Alexander Scoffield." Drawing on his doctoral research, he theorized that the products on offer in each case — the patent medicines and the medicinal knowledge in the //Codex// — were merely lures. The cure, like the disease, was textually-transmitted.
 
 [[include component:image-block
-    name=Brumley.jpg|
-    caption= //Tolliver Brumley's Almanack//, 1838. |
-    align=left|    
-    width=230px|]]
+    name=Brumley.jpg|
+    caption= //Tolliver Brumley's Almanack//, 1838. |
+    align=left|    
+    width=230px|]]
 
 Tentatively — as no containment procedures yet existed — the anomaly was classified SCP-382 in 1928; Thilo Zwist was simultaneously classified Person of Interest 382. (This paper will henceforth employ the anomaly's present-day classification, SCP-5382.) A lack of assets trained in espionage, tracking or combat in Canada hamstrung early efforts to locate and secure Zwist. While he often personally delivered his advertisements to the publications which printed them, he also consistently erased his presence using what were presumed to be memetic techniques. Mail sent to the addresses he provided invariably reached him if left unobserved, and languished unnoticed in the postal system if observed. Said addresses never corresponded to actual physical locations, raising the question of how the mail was delivered at all.
 
@@ -313,10 +313,10 @@ By the global stock market crash of 1929 which marked the beginning of the Great
 In the interwar years SCP-5382-C (the cure) was typically transmitted through billboard advertising:
 
 [[include component:image-block
-    name=AngelaMercy.jpg|
-    caption=Angela Mercy's Guaranteed Genuine Restorative Linament advertisement, c. 1931. |
-    align=center|    
-    width=500px|
+    name=AngelaMercy.jpg|
+    caption=Angela Mercy's Guaranteed Genuine Restorative Linament advertisement, c. 1931. |
+    align=center|    
+    width=500px|
 ]]
 
 With the decline of printed media during the Depression, this was again the most effective means of reaching sufferers of SCP-5382-B (the disease). The character of "Angela Mercy" played on maternal stereotypes best exemplified by the person of Florence Nightingale, which were already oversaturated to the point of cliché in western discourse.
@@ -329,10 +329,10 @@ Might that surname, its wordplay value notwithstanding, have been a form of post
 [[/div]]
 
 [[include component:image-block
-    name=Scout2.jpg|
-    caption=Dr. Scout, c. 1943. |
-    align=right|    
-    width=250px|
+    name=Scout2.jpg|
+    caption=Dr. Scout, c. 1943. |
+    align=right|    
+    width=250px|
 ]]
 
 In 1940 the CLIO project expanded beyond North America, and it was discovered that Zwist's work could be found in German, Dutch, and Norwegian print. English examples far outnumbered those in other Germanic language media, however, for unknown reasons.
@@ -359,10 +359,10 @@ We have a singular purpose, and must not be swayed from it... we have little in 
 [[/div]]
 
 [[include component:image-block
-    name=Washburn.jpg|
-    caption= Hammond Washburn, selected works. |
-    align=left| 
-    width=270px|]]
+    name=Washburn.jpg|
+    caption= Hammond Washburn, selected works. |
+    align=left| 
+    width=270px|]]
 "Mr. Gloss" gave way to Hammond Washburn, the acerbic author of "moral panic" paperback novels and magazine stories, in the 1940s and early 1950s. Washburn delivered scathing assessments of perceived moral and spiritual degeneracy in the post-war western world, and sold subscriptions to a newsletter containing his advice for living a clean, patriotic, upright life. The first of these broadsides, the article "Winning the War and Losing Our Children," was published in //Verve!// on 8 May — VE Day — 1945.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Victory in Europe Day, the date of Germany's surrender to the Allies at the close of the Second World War.[[/span]]
 
 As Washburn's canon grew his works became more and more nonsensical, attacking everything from single motherhood to planned economies to carpal tunnel syndrome. Interpreting this as the imminent breakdown of a creative mind, Dr. Scout wrote the following letter to Thilo Zwist on the first anniversary of V-P Day, 14 August 1946.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Victory in the Pacific Day, the date of Japan's surrender to the Allies after the atomic bombings of Hiroshima and Nagasaki. The date is 15 August outside of North America, due to time zone differences.[[/span]]
@@ -417,10 +417,10 @@ Dr. Scout resumed his MTF operations in earnest, and Site-43 began using PoI-382
 In a tongue-in-cheek attempt to shore up the popularity of newspapers, which had suffered serious circulation losses after the invention of television, Zwist created a comic strip in 1962. Unlike his contemporaries (or Mr. Gloss) with their detailed line work and impeccable draftsmanship, the imaginary cartoonist "Wil Deaver" was an opportunistic hack:
 
 [[include component:image-block
-    name=Polk.jpg|
-    caption="Polk the Lazy Cat," //The Grand Bend Scribe,// 21 October 1984.|
-    align=center|    
-    width=500px|
+    name=Polk.jpg|
+    caption="Polk the Lazy Cat," //The Grand Bend Scribe,// 21 October 1984.|
+    align=center|    
+    width=500px|
 ]]
 
 While the comic was overwhelmingly popular, and Zwist was able to fund all of his other projects with the proceeds from his merchandising efforts, he found it creatively unrewarding and would terminate it unceremoniously in 1987.[[span class="fnnum"]].[[/span]][[span class="fncon"]]By this time several equally commercial, less overtly-caustic copycats had begun publication.[[/span]] He continued to complain to Dr. Scout about the drudgery of modern media production, waxing nostalgic about his days as Doctor Bromide. He nevertheless remained coy about his origins, and the nature of his longevity.
@@ -452,10 +452,10 @@ The bottle was not found among Dr. Scout's personal effects upon his death in 19
 By the 1970s Zwist was making no effort at all to disguise the farcical, fraudulent nature of the products he was hawking. Consider, for example, this 1977 advertisement:
 
 [[include component:image-block
-    name=Reiki.jpg|
-    caption= Reiki Rick's advertisement, //The Yorkshire Slug,// 14 June 1977.|
-    align=center|
-    width=600px|]]
+    name=Reiki.jpg|
+    caption= Reiki Rick's advertisement, //The Yorkshire Slug,// 14 June 1977.|
+    align=center|
+    width=600px|]]
 
 None of Reiki Rick's "healing crystals" were actually crystals. Most were instead semi-precious stones, which Zwist had purchased from the souvenir shop at a French wildlife refuge.[[span class="fnnum"]].[[/span]][[span class="fncon"]] Examples include aventurine, hematite, white onyx and, on one occasion, talc.[[/span]] The product was nevertheless soon in high demand, comparable to the pet rock craze of the same period — even among non-sufferers of SCP-5382-B. It soon became obvious to both correspondents that the public appetite for pseudoscientific cures and devices was ravenous:
 
@@ -464,9 +464,9 @@ None of Reiki Rick's "healing crystals" were actually crystals. Most were instea
 I'm perpetually impressed at how well Thilo adapts himself to the times. I was watching a James Randi rerun on television last night, debunking a man who claimed he could bend spoons with his mind, and when the commercial break rolled along there was an ad for a psychic named Joseph Heino. He had this whole spiel about how people carry the psychic guilt of their ancestors with them from generation to generation, and he was capable of interceding on their behalf by severing the connection. Relief for the spirit, for one easy payment of five dollars.
 
 [[include component:image-block
-    name=Heino.jpg|
-    caption= Heino's Interspatial Interdiction Service, 1984. |
-    width=250px|]]
+    name=Heino.jpg|
+    caption= Heino's Interspatial Interdiction Service, 1984. |
+    width=250px|]]
 
 Still five dollars.
 
@@ -495,10 +495,10 @@ When Dr. Scout died on 1 April 1997, at the age of one hundred and twelve, Thilo
 [[/div]]
 
 [[include component:image-block
-    name=Zwist.jpg|
-    caption=PoI-382, 3 April 1997. |
-    align=left|    
-    width=250px|
+    name=Zwist.jpg|
+    caption=PoI-382, 3 April 1997. |
+    align=left|    
+    width=250px|
 ]]
 
 **Zwist:** This is what peace means to me, Vivian.
@@ -514,15 +514,15 @@ When Dr. Scout died on 1 April 1997, at the age of one hundred and twelve, Thilo
 **Dr. Blank:** In what year?
 
 **Zwist:** 1622.
- 
+ 
 **Dr. Blank:** You're a long way from home, doctor. In more ways than one.
 
 **Zwist:** I go where my work takes me.
 
 **Dr. Blank:** And what //is// your work, precisely?
- 
+ 
 **Zwist:** I am shadowboxing the dead hand of my past.
- 
+ 
 **Dr. Blank:** Precisely, please, not poetically.
 
 //Zwist smiles.//
@@ -574,10 +574,10 @@ When the army came to us in 1644, we made banners for them.
 **Dr. Blank:** Could you?
 
 [[include component:image-block
-    name=Mercy.jpg|
-    caption=Franz von Mercy. |
-    align=left|    
-    width=200px|
+    name=Mercy.jpg|
+    caption=Franz von Mercy. |
+    align=left|    
+    width=200px|
 ]]
 
 **Zwist:** For a time, but it didn't matter. The generals, in particular Franz Freiherr von Mercy, were convinced that we could eradicate the French completely if we unleashed our full potential. We had crafted him banners which raised the morale of all who marched beneath them, ornate barding for his horses which gave the men courage, field manuals endowing his officers with tactical genius. None of this was enough. He wanted Keil, and the others, to make for him a banner which would strike the French stone dead when they beheld it.
@@ -613,13 +613,13 @@ I failed.
 //Zwist pauses.//
 
 **Zwist:** I had no sooner crested the ridge behind the camp when they set fire to the tent.
- 
+ 
 //He pauses again.//
- 
+ 
 **Zwist:** The soldiers encircled the inferno, sabres at the ready. Those unlucky few who burst forth into the camp, they were run through. Every last one of them. Every last one of //us.// All except for me.
 
 //He removes his glasses and pinches the bridge of his nose.//
- 
+ 
 **Zwist:** I was young. I had not been fully trained. There hadn't been... there was never enough time, do you understand? I knew only a little. Only enough to be dangerous. My family... I had just watched them die. I had just watched my //dream// die. I felt in that moment that the war would never end, that we would all die screaming, fire in our veins, our hatred consuming us from within.
 
 I fell to my knees. I looked down upon the army, at the blaze, at the blades, and I poured my own hatred upon them.
@@ -629,15 +629,15 @@ I cursed them.
 **Dr. Blank:** The army.
 
 **Zwist:** No.
- 
+ 
 **Dr. Blank:** …the Germans.
- 
+ 
 **Zwist:** The German //language.// The banners and flags we had crafted for von Mercy, blowing in the same breeze that fanned the flames of Keil's funeral pyre. Every regimental insignia, every sign, every marked crate and barrel in the camp which I had seen over the past few months. I poured everything I had, everything I //was// in that terrible moment into my curse. I made myself a part of it. I... infected the grammar. I don't know if you can understand that.
 
 **Dr. Blank:** I think I can. Your curse didn't stop there.
 
 **Zwist:** No. As I said, I was young, inexperienced. A dangerous fool, more powerful than I could have imagined. More powerful in that moment, perhaps, than I ever have been since.
- 
+ 
 I cursed the German language, and all its children, unto the nth generation.
 
 **Dr. Blank:** It spread like wildfire.
@@ -723,10 +723,10 @@ The advent of the modern internet in the 1990s triggered the most recent transfo
 I think Viv would've been perversely pleased with the latest iteration.
 
 [[include component:image-block
-    name=ScoutLake.jpg|
-    caption=Mendacium advertisement, Scout Lake Naturopathy website, 2015. |
-    align=center|    
-    width=600px|
+    name=ScoutLake.jpg|
+    caption=Mendacium advertisement, Scout Lake Naturopathy website, 2015. |
+    align=center|    
+    width=600px|
 ]]
 
 [[div style="height:12px;"]]

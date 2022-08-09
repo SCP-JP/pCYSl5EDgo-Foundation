@@ -2,27 +2,27 @@
 
 [[module css]]
 body {
-    background-color: var(--accentColor);
-    background-image: url("http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-90-ow9v/Sky1.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-blend-mode: luminosity;
+    background-color: var(--accentColor);
+    background-image: url("http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-90-ow9v/Sky1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: luminosity;
 }
 
 body:before {
-  content: ' ';
-  position: fixed;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(165deg, transparent, #000000 60%, #000000 60%, #000000 120%);
-  z-index: -1;
+  content: ' ';
+  position: fixed;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(165deg, transparent, #000000 60%, #000000 60%, #000000 120%);
+  z-index: -1;
 }
 
 .table2 {
-    --accentColor: rgb(105,155,196);
+    --accentColor: rgb(105,155,196);
 }
 
 .bigtext {
@@ -30,9 +30,9 @@ color: #699bc4;
 }
 
 @media (max-width: 1290px) {
-    body {
-        background-size: 100% 66%;
-    }
+    body {
+        background-size: 100% 66%;
+    }
 }
 
 #extra-div-1 {
@@ -41,12 +41,12 @@ box-shadow: 0px 0px 8px 4px rgb(0 0 0);
 }
 
 :root {
-    --logo: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-85-g1c0/Hlogo4.png);
-    --title: "収得:";
-    --subtitle: "MCM部門";
-    --accentColor: hsl(207,43.5%,59%);
-    --fnColor: #699bc4;
-    --four-color: 194, 85, 0 !important;
+    --logo: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-85-g1c0/Hlogo4.png);
+    --title: "収得:";
+    --subtitle: "MCM部門";
+    --accentColor: hsl(207,43.5%,59%);
+    --fnColor: #699bc4;
+    --four-color: 194, 85, 0 !important;
 }
 
 .list-pages-item > hr,
@@ -57,44 +57,44 @@ filter: brightness(170%);
 }
 
 .custom2 .wiki-content-table {
-    width: 100%;
+    width: 100%;
 }
 
 #page-content tr th {
-    text-align: center;
+    text-align: center;
 }
 
 .custom2 tr td {
-    padding: 10px !important;
+    padding: 10px !important;
 }
 
 .fnnum::after {
-    color: #699bc4 !important;
+    color: #699bc4 !important;
 }
- 
+ 
 .fnnum:hover::after {
-    color: white !important;
+    color: white !important;
 }
- 
+ 
 .fncon {
-    background: rgb(25, 25, 25) !important;
-    color: #EDEDED;
-    border: 0.15rem solid rgb(20, 20, 20);
-    border-radius: 2px;
-    font-size: 90%;
+    background: rgb(25, 25, 25) !important;
+    color: #EDEDED;
+    border: 0.15rem solid rgb(20, 20, 20);
+    border-radius: 2px;
+    font-size: 90%;
 }
 
 ::selection {
-    background-color: rgba(227, 106, 0, 0.7);
-    color: white;
+    background-color: rgba(227, 106, 0, 0.7);
+    color: white;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--accentColor);
+    background: var(--accentColor);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(var(--four-color));
+    background: rgb(var(--four-color));
 }
 [[/module]]
 
@@ -122,7 +122,7 @@ Dクラス職員を十分な数収得することは、その発想以来我ら�
 これはもはや問題ではありません。今日から、我らが財団はもう純真無垢な魂を我々のいる暗闇の中に引きずり込みはしません -- この者たちは光の中で自由にあり続けることでしょう。
 
 我々には新たな手段があります。
- 
+ 
 それはとても倫理的なものです。
 @@ @@
 [[>]]
@@ -161,7 +161,7 @@ name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-86-s8o1/Contr
 [[div class="table2 tableb custom2"]]
 ||~ 配属サイト ||~ 配属部門 ||
 ||= サイト-77-プライム、-サブプライム。 ||= //収得部門、工学部門、人的資源部門。// ||
-||~ 配属宇宙 ||~  配属職員 ||
+||~ 配属宇宙 ||~  配属職員 ||
 ||= -プライム、-サブプライム、他（収得用）。 ||= [[span class="ruby"]]G・グリーボニ[[span class="rt"]]G Greeboni[[/span]][[/span]]管理官、[[span class="ruby"]]エヴァン[[span class="rt"]]Evan[[/span]][[/span]]・[[span class="ruby"]]ペレイラ[[span class="rt"]]Pereira[[/span]][[/span]]、[[span class="ruby"]]ジャニス[[span class="rt"]]Janice[[/span]][[/span]]・[[span class="ruby"]]ライリー[[span class="rt"]]Reilly[[/span]][[/span]]、他7,300名以上の配属職員。 ||
 [[/div]]
 -----
@@ -208,7 +208,7 @@ SCP-6269、口語的に「[[span class="ruby"]]多元宇宙クレーン機[[span
 SCP-6269の機械の機械的・技術的・オントキネシス的複雑性のため、装置の圧倒的大部分は割り当てられた宇宙である-サブプライム内に収容されています。奇跡術的な時間の遅れ・エントロピー削減対抗手段[[span class="fnnum"]].[[/span]][[span class="fncon"]]以下を含むがそれに限らない。錬金術的処理、非ニュートン物理学場生成装置、非時間的演算システム、WD-40の多量の適用。[[/span]]のため、この宇宙内の機械装置は損耗や減衰を最小限しか受けません。-サブプライム内に配置されたSCP-6269を構成する要素は[[span class="bigtext"]]Logan.aic[[/span]]が監視します。[[span class="bigtext"]]Logan.aic[[/span]]は、追加システムの冗長性を構築することによってSCP-6269の継続的な運用を確実にしています。これは、-サブプライム内の物質をSCP-6269に統合される追加の機械的構成要素に転換することで実現されています。
 
 SCP-6269の機械的構成要素の一部はSCP財団-プライムの拠点宇宙である-プライム内に位置しています。これには以下を含みます。
- 
+ 
 * **SCP-6269-CLAW:** 主要な物理的収得構成要素であるSCP-6269-CLAWは、標的とする人物や物体を捕獲するために利用され、また多様な環境で正確な動作を行うことが可能です。
 * **SCP-6269-HOLE:** 自己安定的多元宇宙間空隙であるSCP-6269-HOLEは調整可能な多元バジャーホールです。[[span class="fnnum"]].[[/span]][[span class="fncon"]]ワームホールは同じ宇宙内の2地点を接続する一方、[[span class="ruby"]]バジャーホール[[span class="rt"]]badgerhole[[/span]][[/span]]は別の宇宙間の2地点を接続します。[[/span]] [[span class="fnnum"]].[[/span]][[span class="fncon"]]**訳注:** "Badger"は日本語でアナグマ。"Badger hole"でアナグマの巣穴のこと。[[/span]]通常の運用では、標的とする収得物を回収するためSCP-6269-CLAWをSCP-6269-HOLEに挿入します。
 * **SCP-6269-SCREEN:** 複雑な一連の監視装置や制御装置を意味するSCP-6269-SCREENはSCP-6269-CLAWおよび-HOLEの物理的制御システムを含み、また-CLAWオペレーターに視覚的フィードバックを提供します。統合されたハンター・キャッチャー・システムにより、最大で15,000人の個別の人物を収得の前に監視することが可能になっています。
@@ -789,7 +789,7 @@ name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-89-f2c4/Evan.
 @@ @@
 [[div class="notation" style="padding: 0.5rem 0.5rem 0.5rem 0.5rem; font-size: 90%; font-family: 'Work Sans', sans-serif;"]]
 [[<]]
-+++++ @@      @@ 脚注 & リファレンス
++++++ @@      @@ 脚注 & リファレンス
 # 兵器化されていない「固有兵器」と同等のもの。固有兵器は大量破壊する異常兵器を意味する一方、固有機械は大量[[span class="kt"]]生産[[/span]]する機械。
 # 以下を含むがそれに限らない。錬金術的処理、非ニュートン物理学場生成装置、非時間的演算システム、WD-40の多量の適用。
 # ワームホールは同じ宇宙内の2地点を接続する一方、[[span class="ruby"]]バジャーホール[[span class="rt"]]badgerhole[[/span]][[/span]]は別の宇宙間の2地点を接続します。

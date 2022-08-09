@@ -2,41 +2,41 @@
 [[include :scp-wiki:theme:jakstyle]]
 [[module CSS]]
 .document {
-    background: white url('http://scpdsandbox.wdfiles.com/local--files/darkartist-s-hub-for-drafts-or-whatever/sphere%20smells%20like%20fart%20sometimes') center center no-repeat;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin: 26px auto 0;
-    max-width: 550px;
-    min-height: 300px;
-    padding: 24px;
-    padding-top: 50px;
-    position: relative;
-    width: 80%;
-    color: black;
+    background: white url('http://scpdsandbox.wdfiles.com/local--files/darkartist-s-hub-for-drafts-or-whatever/sphere%20smells%20like%20fart%20sometimes') center center no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 26px auto 0;
+    max-width: 550px;
+    min-height: 300px;
+    padding: 24px;
+    padding-top: 50px;
+    position: relative;
+    width: 80%;
+    color: black;
 }
- 
+ 
 .document:before,
 .document:after {
-    content: " ";
-    height: 98%;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
+    content: " ";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
 }
- 
+ 
 .document:before {
-    background: #fafafa;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-    left: -5px;
-    top: 4px;
-    transform: rotate(-2.5deg);
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
 }
- 
+ 
 .document:after {
-    background: #f6f6f6;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-    right: -3px;
-    top: 1px;
-    transform: rotate(1.4deg);
+    background: #f6f6f6;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
 }
 [[/module]]
 
@@ -106,7 +106,7 @@ SCP-6185-BはSCP-6185-Aに対して保護しようとする行動を執ります
 [[/row]]
 [[/table]]
 
-                           
+                           
 
 [[/div]]
 

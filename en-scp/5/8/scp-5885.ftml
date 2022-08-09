@@ -1,13 +1,13 @@
 [[module css]]
 div.box {
-        display: flow-root;
-        border: .063em dashed rgba(var(--swatch-border-color),.25);
-        background-color: rgb(var(--swatch-menubg-light-color));
-        padding: 0 1em;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 40px;
-        margin-inline-end: 40px;
+        display: flow-root;
+        border: .063em dashed rgba(var(--swatch-border-color),.25);
+        background-color: rgb(var(--swatch-menubg-light-color));
+        padding: 0 1em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 40px;
+        margin-inline-end: 40px;
 }
 [[/module]]
 

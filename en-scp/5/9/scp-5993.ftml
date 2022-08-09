@@ -4,30 +4,30 @@
 
 [[module CSS]]
 div#header h1 a span {
-    font-size: 0px;
+    font-size: 0px;
 }
 div#header h1 a:before {
-    content: "戦術神学部門";
-    color: #eee;
-    
+    content: "戦術神学部門";
+    color: #eee;
+    
 }
 div#header h2 span {
-    font-size:0px;
-    padding: 4px;
+    font-size:0px;
+    padding: 4px;
 }
 div#header h2:after {
-    content: "Deus Autem Est In Fide";
-    font-weight: bold;
-    color: #f0f0c0;
-    padding: 19px 0;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
-    white-space: pre;
+    content: "Deus Autem Est In Fide";
+    font-weight: bold;
+    color: #f0f0c0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+    white-space: pre;
 }
 [[/module]]
 
 [[module CSS]]
 #header {
-  background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-308-skuy/DoTT_header.png)
+  background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-308-skuy/DoTT_header.png)
 }
 [[/module]]
 

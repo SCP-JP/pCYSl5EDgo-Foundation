@@ -7,15 +7,15 @@
 var myVar = setInterval(myTimer, 200);
 
 function myTimer() {
-  var d = Math.floor((Math.random() * (9999 - 1000)) + 1000);
-  var SCP = "SCP-"
-  document.getElementById("demo").innerHTML = SCP.concat(d.toString());
+  var d = Math.floor((Math.random() * (9999 - 1000)) + 1000);
+  var SCP = "SCP-"
+  document.getElementById("demo").innerHTML = SCP.concat(d.toString());
 }
 </script>
 [[/html]]
 [[include component:image-block
-    name=http://scp-jp-storage.wikidot.com/local--files/file:3324351-65-halz/SCPDECIMALINDA.jpeg|
-    caption=回収直後のSCP-DECI
+    name=http://scp-jp-storage.wikidot.com/local--files/file:3324351-65-halz/SCPDECIMALINDA.jpeg|
+    caption=回収直後のSCP-DECI
 ]]
 **オブジェクトクラス:** Pending
 

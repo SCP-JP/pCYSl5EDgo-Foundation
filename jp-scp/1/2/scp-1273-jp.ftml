@@ -26,24 +26,24 @@
 display:none;
 }
 .licensebox22 {
-    background: #fff;
-    opacity: .9;
+    background: #fff;
+    opacity: .9;
 }
 
 .logobox {
- width: 84%;
- margin-left: 16%;
- box-sizing: border-box;
- padding: 5px;
- padding-left: 6rem;
- padding-right: 12px;
- background-color: #990;
- background: #013737;
- color: #00FFFF;
- text-shadow: #009999 1px 1px;
- border-radius: 3px;
- font-size: 14px;
- z-index: -1;
+ width: 84%;
+ margin-left: 16%;
+ box-sizing: border-box;
+ padding: 5px;
+ padding-left: 6rem;
+ padding-right: 12px;
+ background-color: #990;
+ background: #013737;
+ color: #00FFFF;
+ text-shadow: #009999 1px 1px;
+ border-radius: 3px;
+ font-size: 14px;
+ z-index: -1;
 }
 
 .unblur{
@@ -62,52 +62,52 @@ filter: blur(0.001px);
 .hover {
 }
 .hover:hover {
-  text-decoration: none;
-    border-bottom: none;
+  text-decoration: none;
+    border-bottom: none;
 }
 
 .hover span { display: none;}
 .hover:hover span {
-    position: absolute;
-    display: inline;
-    margin: 0px 0px;
-    height: auto;
-    width: auto;
-    background: #FFF;
-    border: 2px solid #34B;
-    color: #000;
-    padding: 1em;
+    position: absolute;
+    display: inline;
+    margin: 0px 0px;
+    height: auto;
+    width: auto;
+    background: #FFF;
+    border: 2px solid #34B;
+    color: #000;
+    padding: 1em;
 }
 .hover:hover span span {
-    position: relative;
-    margin: auto;
-    height: auto;
-    width: auto;
-    border: none;
-    padding: 0;
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
 }
 
 body {
-    background: linear-gradient(rgba(255,255,255,0.22), rgba(255,255,255,0.96)), url(http://scp-wiki.wdfiles.com/local--files/aiad-homescreen/blue_squares_2.gif);
+    background: linear-gradient(rgba(255,255,255,0.22), rgba(255,255,255,0.96)), url(http://scp-wiki.wdfiles.com/local--files/aiad-homescreen/blue_squares_2.gif);
 }
 
- img.fade-away{
-     opacity: 1;
-     transition: opacity 1s ease-in-out;
-     -moz-transition: opacity 1s ease-in-out;
-     -webkit-transition: opacity 1s ease-in-out;
+ img.fade-away{
+     opacity: 1;
+     transition: opacity 1s ease-in-out;
+     -moz-transition: opacity 1s ease-in-out;
+     -webkit-transition: opacity 1s ease-in-out;
 }
 
- img.fade-away:hover{
-     opacity: 0;
-     transition: opacity 1s ease-in-out;
-     -moz-transition: opacity 1s ease-in-out;
-     -webkit-transition: opacity 1s ease-in-out;
+ img.fade-away:hover{
+     opacity: 0;
+     transition: opacity 1s ease-in-out;
+     -moz-transition: opacity 1s ease-in-out;
+     -webkit-transition: opacity 1s ease-in-out;
 }
 
- .dblock a,
- .dblock a:visited{
-     color: #000;
+ .dblock a,
+ .dblock a:visited{
+     color: #000;
 }
 div.notice0 {
 border: solid 1px #999999;
@@ -117,29 +117,29 @@ margin-bottom: 24px;
 padding: 0 10px 5px;
 }
 .hello {
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    background: #FFF;
-    border: solid 1px #000;
-    border-radius: 10px;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #FFF;
+    border: solid 1px #000;
+    border-radius: 10px;
 }
 .block-1 {
-    display: block;
-    border: solid 4px #444444;
-    padding: 0 1em;
-    background: #FFF;
-    box-shadow: 2px 1px 3px rgba(0,0,0,.2);
-    float: center;
-    margin: 1em 40px;
+    display: block;
+    border: solid 4px #444444;
+    padding: 0 1em;
+    background: #FFF;
+    box-shadow: 2px 1px 3px rgba(0,0,0,.2);
+    float: center;
+    margin: 1em 40px;
 }
 @media (max-width: 479px) {
 .block-1 {
-    margin: 1em;
+    margin: 1em;
 }
 }
 @media(min-width:480px) and (max-width:580px) {
 .block-1 {
-    margin: 0.5em
+    margin: 0.5em
 }
 }
 [[/module]]
@@ -918,7 +918,7 @@ text-align: center;
 display:none;
 }
 
-#u-before:target  ~.animation-area{
+#u-before:target  ~.animation-area{
 display:block;
 }
 
@@ -932,21 +932,21 @@ height: 100vh !important;
 pointer-events: auto;
 }
 .block-1 {
-    display: block;
-    border: solid 4px #444444;
-    padding: 0 1em;
-    box-shadow: 2px 1px 3px rgba(0,0,0,.2);
-    float: center;
-    margin: 1em 40px;
+    display: block;
+    border: solid 4px #444444;
+    padding: 0 1em;
+    box-shadow: 2px 1px 3px rgba(0,0,0,.2);
+    float: center;
+    margin: 1em 40px;
 }
 @media (max-width: 479px) {
 .block-1 {
-    margin: 1em;
+    margin: 1em;
 }
 }
 @media(min-width:480px) and (max-width:580px) {
 .block-1 {
-    margin: 0.5em
+    margin: 0.5em
 }
 }
 .textchange div.sitemember:nth-child(2) {
@@ -954,30 +954,30 @@ display:none;
 }
 
 .block-2 {
-    display: block;
-    border: solid 1px #999999;
-    background: #DAFAD9;
-    padding: 0 1em;
-    float: center;
-    margin: 1em 40px;
+    display: block;
+    border: solid 1px #999999;
+    background: #DAFAD9;
+    padding: 0 1em;
+    float: center;
+    margin: 1em 40px;
 }
 
 @media (max-width: 479px) {
 .block-2 {
-    margin: 1em;
+    margin: 1em;
 }
 }
 @media (min-width:480px) and (max-width:580px) {
 .block-2 {
-    margin: 0.5em
+    margin: 0.5em
 }
 }
 .hello {
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    background: #FFF;
-    border: solid 1px #000;
-    border-radius: 10px;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #FFF;
+    border: solid 1px #000;
+    border-radius: 10px;
 }
 
 [[/module]]
@@ -1013,7 +1013,7 @@ display: none;
 <div id="area" style="position:relative; height: 100vh; bottom: 0; right: 0;">
 
 <a href="javascript:animationTest()">
-<img src="http://scp-jp-storage.wdfiles.com/local--files/file%3A7550279-88-geno/popup_protocol.png"  id="start" class="">
+<img src="http://scp-jp-storage.wdfiles.com/local--files/file%3A7550279-88-geno/popup_protocol.png"  id="start" class="">
 </a>
 
 <img src="http://scp-jp-storage.wdfiles.com/local--files/file%3A7550279-9-qg6o/1a.png" id="1" class="remove">
@@ -1435,24 +1435,24 @@ SCP-1273-JPの再収容プロトコルに関する提言を提出します。
 display:none;
 }
 .licensebox22 {
-    background: #fff;
-    opacity: .9;
+    background: #fff;
+    opacity: .9;
 }
 
 .logobox {
- width: 84%;
- margin-left: 16%;
- box-sizing: border-box;
- padding: 5px;
- padding-left: 6rem;
- padding-right: 12px;
- background-color: #990;
- background: #013737;
- color: #00FFFF;
- text-shadow: #009999 1px 1px;
- border-radius: 3px;
- font-size: 14px;
- z-index: -1;
+ width: 84%;
+ margin-left: 16%;
+ box-sizing: border-box;
+ padding: 5px;
+ padding-left: 6rem;
+ padding-right: 12px;
+ background-color: #990;
+ background: #013737;
+ color: #00FFFF;
+ text-shadow: #009999 1px 1px;
+ border-radius: 3px;
+ font-size: 14px;
+ z-index: -1;
 }
 
 .unblur{
@@ -1471,52 +1471,52 @@ filter: blur(0.001px);
 .hover {
 }
 .hover:hover {
-  text-decoration: none;
-    border-bottom: none;
+  text-decoration: none;
+    border-bottom: none;
 }
 
 .hover span { display: none;}
 .hover:hover span {
-    position: absolute;
-    display: inline;
-    margin: 0px 0px;
-    height: auto;
-    width: auto;
-    background: #FFF;
-    border: 2px solid #34B;
-    color: #000;
-    padding: 1em;
+    position: absolute;
+    display: inline;
+    margin: 0px 0px;
+    height: auto;
+    width: auto;
+    background: #FFF;
+    border: 2px solid #34B;
+    color: #000;
+    padding: 1em;
 }
 .hover:hover span span {
-    position: relative;
-    margin: auto;
-    height: auto;
-    width: auto;
-    border: none;
-    padding: 0;
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
 }
 
 body {
-    background: linear-gradient(rgba(255,255,255,0.22), rgba(255,255,255,0.96)), url(http://scp-wiki.wdfiles.com/local--files/aiad-homescreen/blue_squares_2.gif);
+    background: linear-gradient(rgba(255,255,255,0.22), rgba(255,255,255,0.96)), url(http://scp-wiki.wdfiles.com/local--files/aiad-homescreen/blue_squares_2.gif);
 }
 
- img.fade-away{
-     opacity: 1;
-     transition: opacity 1s ease-in-out;
-     -moz-transition: opacity 1s ease-in-out;
-     -webkit-transition: opacity 1s ease-in-out;
+ img.fade-away{
+     opacity: 1;
+     transition: opacity 1s ease-in-out;
+     -moz-transition: opacity 1s ease-in-out;
+     -webkit-transition: opacity 1s ease-in-out;
 }
 
- img.fade-away:hover{
-     opacity: 0;
-     transition: opacity 1s ease-in-out;
-     -moz-transition: opacity 1s ease-in-out;
-     -webkit-transition: opacity 1s ease-in-out;
+ img.fade-away:hover{
+     opacity: 0;
+     transition: opacity 1s ease-in-out;
+     -moz-transition: opacity 1s ease-in-out;
+     -webkit-transition: opacity 1s ease-in-out;
 }
 
- .dblock a,
- .dblock a:visited{
-     color: #000;
+ .dblock a,
+ .dblock a:visited{
+     color: #000;
 }
 [[/module]]
 

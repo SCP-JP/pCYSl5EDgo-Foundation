@@ -5,42 +5,42 @@
 [[module CSS]]
 /* DIV BLOCKS */
 .document{
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 0.769em;
-    box-shadow: 0 2px 4px rgba(68, 68, 68, .5);
-    padding: .25em 1em;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 0.769em;
+    box-shadow: 0 2px 4px rgba(68, 68, 68, .5);
+    padding: .25em 1em;
 }
 .researcher-note{
-    border: 2px solid rgb(12, 12, 12);
-    background-color: white;
-    padding: .25em 1em;
-    margin-bottom: 1em;
+    border: 2px solid rgb(12, 12, 12);
+    background-color: white;
+    padding: .25em 1em;
+    margin-bottom: 1em;
 }
 
 /* FORMATTING */
 .collapsible-block-link { font-weight: bold; }
 hr{
-     margin: 1em 0;
-     padding: 0;
-     border: 0;
+     margin: 1em 0;
+     padding: 0;
+     border: 0;
 }
 .footnotes-footer{
-    display: none;
+    display: none;
 }
 .lite-header hr{
-    width: 45%;
-    margin: auto;
-    background-color: #e6e6e6;
-    border: none;
-    height: 2px;
+    width: 45%;
+    margin: auto;
+    background-color: #e6e6e6;
+    border: none;
+    height: 2px;
 }
 .h2{
-    margin: 0.5em 0 0.4em;
-    padding: 0;
-    letter-spacing: 1px;
-    font-size: 150%;
-    font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+    font-size: 150%;
+    font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
 }
 [[/module]]
 

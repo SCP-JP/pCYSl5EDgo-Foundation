@@ -14,7 +14,7 @@
 [[include theme:goc]]
 [[module CSS]]
 :root {
-    --barColour: rgb(var(--medium-accent));
+    --barColour: rgb(var(--medium-accent));
 }
 .danke{
 padding: 5px 5px 5px 15px;
@@ -39,33 +39,33 @@ color: #0076fd;
 }
 
 .hover {
-    background-color: rgb(var(--medium-accent));
-    padding: 0 1px;
+    background-color: rgb(var(--medium-accent));
+    padding: 0 1px;
 }
 .hover:hover {
-   
+   
 }
 
-.hover span {    display: none;}
+.hover span {    display: none;}
 .hover:hover span {
-    position: absolute;
-    display: inline;
-    margin: 0px 0px;
-    height: auto;
-    width: auto;
-    background: #fff;
-    border: 2px solid rgb(var(--medium-accent));
-    color: rgb(var(--medium-accent));;
-    padding: 1em;
-    z-index: 2;
+    position: absolute;
+    display: inline;
+    margin: 0px 0px;
+    height: auto;
+    width: auto;
+    background: #fff;
+    border: 2px solid rgb(var(--medium-accent));
+    color: rgb(var(--medium-accent));;
+    padding: 1em;
+    z-index: 2;
 }
 .hover:hover span span {
-    position: relative;
-    margin: auto;
-    height: auto;
-    width: auto;
-    border: none;
-    padding: 0;
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
 }
 
 [[/module]]
@@ -92,7 +92,7 @@ color: #0076fd;
 [[include component:image-block name=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Teletherapy_Capsule2.svg/800px-Teletherapy_Capsule2.svg.png|caption=Structural diagram of SCP-5495.|width=350px|align=right]]
 
 ++ SPECIAL CONTAINMENT PROCEDURES
- SCP-5495 has been airlifted to Site-34 [[footnote]] Foundation multipurpose site in Balochistan, Pakistan[[/footnote]] and is undergoing reverse-engineering and investigation into its anomalous effects. Access is restricted to L4/5495[[footnote]] Foundation compartmentalized security nomenclature; equivalent to Top Secret. [[/footnote]].
+ SCP-5495 has been airlifted to Site-34 [[footnote]] Foundation multipurpose site in Balochistan, Pakistan[[/footnote]] and is undergoing reverse-engineering and investigation into its anomalous effects. Access is restricted to L4/5495[[footnote]] Foundation compartmentalized security nomenclature; equivalent to Top Secret. [[/footnote]].
 ----
 ++ Description
 SCP-5495 is a component of a nonfunctional paraweapon, constructed by the Organization for the Reclamation of Islamic Artifacts (ORIA). The particular nature and mechanics of SCP-5495 are under study, but is understood to have ontokinetic effects on nearby individuals, items, and locations. Alone, SCP-5495's effects are variable, violent, and uncontrollable; it is theorized that the rest of the weapon provides a focusing aspect, allowing the weapon to be directed and effectively utilized.

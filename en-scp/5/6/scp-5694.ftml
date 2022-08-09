@@ -5,16 +5,16 @@
 [[include :scp-wiki:component:fade-in speed=4]]
 [[module CSS]]
 :root {
-    --timeScale: 6;
-    --timeDelay: 6s;
+    --timeScale: 6;
+    --timeDelay: 6s;
 }
 
 .interview{
-    border:solid 2px #d4d4d4;
-    background:#F5F5F5;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:solid 2px #d4d4d4;
+    background:#F5F5F5;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 
 #page-title{display:none}

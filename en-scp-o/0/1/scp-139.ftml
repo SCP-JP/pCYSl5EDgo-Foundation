@@ -3,7 +3,7 @@
 
 [[module CSS]]
 .collapsible-block-content {
-  margin-top: 1em;
+  margin-top: 1em;
 }
 [[/module]]
 
@@ -12,31 +12,31 @@
 [[/>]]
 
 [[div class="blockquote" style="margin-top: 4em; margin-bottom: 2em;"]]
-**|@@   @@Credentials {{[ LSAXE ]}} accepted. Time since last login: 5540 days.**
+**|@@   @@Credentials {{[ LSAXE ]}} accepted. Time since last login: 5540 days.**
 [[/div]]
 
 [[div class="blockquote" style="margin-bottom: 2em;"]]
-**|@@   @@Finding SCiPNET results for "//lucian-saxe//"...**
+**|@@   @@Finding SCiPNET results for "//lucian-saxe//"...**
 
-**|**@@   @@$
+**|**@@   @@$
 
-**|**@@   @@//0 results.//
+**|**@@   @@//0 results.//
 [[/div]]
 
 [[div class="blockquote" style="margin-bottom: 2em;"]]
-**|@@   @@Finding SCiPNET results for "//site-97//"...**
+**|@@   @@Finding SCiPNET results for "//site-97//"...**
 
-**|**@@   @@$
+**|**@@   @@$
 
-**|**@@   @@//0 results.//
+**|**@@   @@//0 results.//
 [[/div]]
 
 [[div class="blockquote" style="margin-bottom: 4em"]]
-**|@@   @@Finding SCiPNET results for "//scp-139//"...**
+**|@@   @@Finding SCiPNET results for "//scp-139//"...**
 
-**|**@@   @@$
+**|**@@   @@$
 
-**|**@@   @@//3 results.//
+**|**@@   @@//3 results.//
 [[/div]]
 
 @@ @@
@@ -92,7 +92,7 @@ __March 6__
 
 A paper trail of bus and train tickets suggests Saxe traveled approximately two-thousand kilometers to Topeka, Kansas, arriving at 12:15 PM. Of note, interviewed civilians occasionally describe hir as "that traitor" when recounting this eighteen-hour period. [((bibcite traitor))]
 
-__March 7 – April 4__
+__March 7 – April 4__
 
 After Topeka, the paper trail terminates, and reports of Saxe's location during the following month become increasingly irregular. A car ze is believed to have rented is sighted in Salt Lake City, Utah and Lubbock, Texas on March 10 and March 15 respectively — although the windshield and rightmost tail-light shattered between the two cities. Ze is last documented in Tucson, Arizona after residential police implicate hir in a resist-and-flee incident on suspicions of vagrancy. [((bibcite police))]
 
@@ -103,7 +103,7 @@ To the ones I'm running from,
 
 I hate you.
 
-I hate what you've done, and what you're doing to me, and what I think you did to the others who ran. I hate how I'd find lenses in the eyes of paintings and strange fingerprints on my belongings. I'm curious by trade, but you've really got me beat.
+I hate what you've done, and what you're doing to me, and what I think you did to the others who ran. I hate how I'd find lenses in the eyes of paintings and strange fingerprints on my belongings. I'm curious by trade, but you've really got me beat.
 
 I'm not the first to run. But I might be the first to break free.
 
@@ -165,53 +165,53 @@ Perforations within the concrete would have allowed these eyes to observe their 
 [[html]]
 <style type="text/css">
 a {
-  color: #9179e7;
-  text-decoration: none;
+  color: #9179e7;
+  text-decoration: none;
 }
 a:hover {
-  background-color: transparent;
-  text-decoration: underline;
+  background-color: transparent;
+  text-decoration: underline;
 }
 body {
-  color: #ededed;
-  font: .8em verdana,arial,helvetica,sans-serif;
+  color: #ededed;
+  font: .8em verdana,arial,helvetica,sans-serif;
 }
 p {
-  line-height: 141%;
+  line-height: 141%;
 }
 #firstCollapsible, #secondCollapsible, #thirdCollapsible, #fourthCollapsible, #fifthCollapsible, blockquote {
-  line-height: normal;
+  line-height: normal;
 }
 blockquote {
-  background-color: #2b2b2b;
-  border: 1px dashed #f2f2f2;
-  padding: 1em 12.8px !important;
+  background-color: #2b2b2b;
+  border: 1px dashed #f2f2f2;
+  padding: 1em 12.8px !important;
 }
 tt {
-  font: 98% 'Andale Mono', 'Courier New', Courier, monospace;
+  font: 98% 'Andale Mono', 'Courier New', Courier, monospace;
 }
 
 @media (min-width: 480px) and (max-width: 580px) {
-  blockquote {
-    margin: 0.5em;
-  }
+  blockquote {
+    margin: 0.5em;
+  }
 }
 @media (max-width: 479px) {
-  blockquote {
-    margin: 1em 0;
-  }
+  blockquote {
+    margin: 1em 0;
+  }
 }
 </style>
 
 <script type="text/javascript">
 function showHide(e)
 {
-    var el = document.getElementById(e);
-    if (el.style.display == "block") {
-     el.style.display = "none";
-    } else {
-     el.style.display = "block";
-    }
+    var el = document.getElementById(e);
+    if (el.style.display == "block") {
+     el.style.display = "none";
+    } else {
+     el.style.display = "block";
+    }
 }
 </script>
 
@@ -234,8 +234,8 @@ function showHide(e)
 
 <p>Fortunately, it has a habit of sticking its nose in places it does not belong.</p>
 
-    <div id="secondCollapsible"><a href="#" onClick="showHide('secondText');">>LOG OUT</a></div>
-    <div id="secondText" style="display: none;">
+    <div id="secondCollapsible"><a href="#" onClick="showHide('secondText');">>LOG OUT</a></div>
+    <div id="secondText" style="display: none;">
 <br>
 <blockquote><b>| &nbsp; Logout failed.</b></blockquote>
 <br>
@@ -245,21 +245,21 @@ function showHide(e)
 
 <p>This is why on the other side of that Way, it found nothing but concrete damnation and the All-Seeing Eye.</p>
 
-    <div id="thirdCollapsible"><a href="#" onClick="showHide('thirdText');">>LOG OUT</a></div>
-    <div id="thirdText" style="display: none;">
+    <div id="thirdCollapsible"><a href="#" onClick="showHide('thirdText');">>LOG OUT</a></div>
+    <div id="thirdText" style="display: none;">
 <br>
 <blockquote><b>| &nbsp; Logout failed. Credentials <tt>[ LSAXE ]</tt> have been invalid for: 5540 days.</b></blockquote>
 <br>
 <p><b>LOGOUT FAILURE:</b> Death will not bring you a peaceful end, as you may have hoped. Not when your hunters have torn at the Veil for fifteen years without your meddling and come away with weapons to kill <i>only you</i>. We're a bleeding-edge R&D facility, first and foremost, and we've never taken kindly to traitors.</p>
 
-    <div id="fourthCollapsible"><a href="#" onClick="showHide('fourthText');">>Get out of your chair.</a></div>
-    <div id="fourthText" style="display: none;">
+    <div id="fourthCollapsible"><a href="#" onClick="showHide('fourthText');">>Get out of your chair.</a></div>
+    <div id="fourthText" style="display: none;">
 <br>
 <blockquote><b>| &nbsp; Revoking credentials <tt>[ LSAXE ]</tt> permanently. Employees forfeit their right to knowledge when they betray Site-97.</b></blockquote>
 <br>
-    <div id="fifthCollapsible"><a href="#" onClick="showHide('fifthText');">Run.</a></div>
-    <div id="fifthText" style="display: none;">
-    <br>
+    <div id="fifthCollapsible"><a href="#" onClick="showHide('fifthText');">Run.</a></div>
+    <div id="fifthText" style="display: none;">
+    <br>
 <blockquote style="padding: 0 1em; margin: 1em 3em;"><b>| &nbsp; We see you, Lucian. 👁</b></blockquote>
 <br>
 <br>

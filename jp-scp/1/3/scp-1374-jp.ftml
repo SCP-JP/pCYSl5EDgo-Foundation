@@ -8,8 +8,8 @@
 /* Mobile Media Query */
 @media (max-width: 479px) { 
 .scp-image-block.block-right {
-    float: none;
-    margin: auto;
+    float: none;
+    margin: auto;
 }
 }
 [[/module]]
@@ -44,7 +44,7 @@
 
 ##1fa131|生体データをデータベースに照会しています………成功##
 
-##1fa131|機器を脳波に同期しています………成功## 
+##1fa131|機器を脳波に同期しています………成功## 
 
 ##1fa131|処置パターン-714を開始します。##
 
@@ -98,19 +98,19 @@ SCP-1374-JPとSCP-1374-JP-Vの増殖によるAK-クラス:世界終焉シナリ�
 [[div style="display: inline-block; border-radius: 10px; border:dashed 1px #444444; background:#F5F5F5; float:top; width:calc(100% - 22px); padding:10px"]]
 [[module CSS]]
 table.heritage {
-  border: 0;
-  padding: 0;
-  margin: 0 auto;
-  border-spacing: 0;
-  border-collapse: separate;
+  border: 0;
+  padding: 0;
+  margin: 0 auto;
+  border-spacing: 0;
+  border-collapse: separate;
 }
 table.heritage td.title,
 table.heritage td.label {
-  border-right: solid 1px #999;
-  font-size: 10pt;
-  width: 120px;
-  text-align: right;
-  padding-right: 10px;
+  border-right: solid 1px #999;
+  font-size: 10pt;
+  width: 120px;
+  text-align: right;
+  padding-right: 10px;
 }
 .heritage{
 width: auto;
@@ -321,7 +321,7 @@ SCP-1374-JP-Aが自身を複製しているという仮説が瀬戸博士によ�
 [[/cell]]
 [[/row]]
 
-[[include component:image-block
+[[include component:image-block
 |name=Happy.jpg
 |caption=SCP-1374-JP-V。この個体とは意思疎通が可能であったが、変化から数日後座標1374-JPへ移動を開始した。
 |width=300px
@@ -335,11 +335,11 @@ SCP-1374-JP-Aが自身を複製しているという仮説が瀬戸博士によ�
 [[div style="display: inline-block; border-radius: 10px; border:dashed 1px #444444; background:#F5F5F5; float:top; width:calc(100% - 22px); padding:10px"]]
 **対象:** SCP-1374-JP-V-1(元██研究員)
 
-**インタビュアー:** 瀬戸博士 
+**インタビュアー:** 瀬戸博士 
 
 **付記:** 瀬戸博士は事前に1374-JP-V接触用処置パターン-714を受けている。
 
-**<録音開始>** 
+**<録音開始>** 
 
 **瀬戸博士:** インタビューを開始します。
 
@@ -379,7 +379,7 @@ SCP-1374-JP-Aが自身を複製しているという仮説が瀬戸博士によ�
 
 **瀬戸博士:** 質問にお答えください。どうして彼らと我々を##1fa131|**[**##[[span class="fa fa-exclamation-triangle fa-lg" style="color:#1fa131"]]@<&nbsp;>@[[/span]]##1fa131|**PQLが閲覧上限値を超過しています]**##するのですか？
 
-**<録音終了>** 
+**<録音終了>** 
 
 **終了報告書:** 瀬戸博士にはクラスB記憶処理を施し、SCP-1374-JP-V-1は座標1374-JPへ移送した。返答は未だにない。
 [[/div]]

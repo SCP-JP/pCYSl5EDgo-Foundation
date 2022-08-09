@@ -18,17 +18,17 @@
 --logo-image:url("https://smlt.wdfiles.com/local--files/plaguebearer%3Anobody/%3F");
 --header-title: 'NOBODY';
 --header-subtitle: '...';
-    --rating-module-text-color: 252,252,252;
-    --rating-module-button-color:252,252,252;
-    --background-gradient-distance: 0rem;
-    --swatch-background: 39, 39, 39;
-    --swatch-primary: var(--medium-accent);
-    --swatch-primary-darker: var(--bright-accent);
-    --swatch-primary-darkest: var(--medium-accent);
-    /* Primary Text Colors */
-    --swatch-text-dark: var(--white-monochrome);
-    --swatch-text-light: var(--black-monochrome);
-    --swatch-important-text: var(--bright-accent);
+    --rating-module-text-color: 252,252,252;
+    --rating-module-button-color:252,252,252;
+    --background-gradient-distance: 0rem;
+    --swatch-background: 39, 39, 39;
+    --swatch-primary: var(--medium-accent);
+    --swatch-primary-darker: var(--bright-accent);
+    --swatch-primary-darkest: var(--medium-accent);
+    /* Primary Text Colors */
+    --swatch-text-dark: var(--white-monochrome);
+    --swatch-text-light: var(--black-monochrome);
+    --swatch-important-text: var(--bright-accent);
 }
 
 .nameone {-webkit-filter: blur(1px);
@@ -44,70 +44,70 @@ filter: blur(3px);
 }
 
 h1 {
-    color: white;
+    color: white;
 } 
 
 #header h1 a::before {
-    color: white;
+    color: white;
 }
 #page-content > .collapsible-block {
-    background-color:#1d1d1d;
-    border-top: 0.125rem dashed slategrey;
-    border-bottom: 0.125rem dashed slategrey;
+    background-color:#1d1d1d;
+    border-top: 0.125rem dashed slategrey;
+    border-bottom: 0.125rem dashed slategrey;
 }
 
 blockquote, .blockquote {
-    color: black;
+    color: black;
 }
 
 .addendum {
-    border:solid 2px #fff;
-    background:#292929;
+    border:solid 2px #fff;
+    background:#292929;
 }
 
 .scale, .level-text, .obj-text, .class-text, .itemnum {
-   color: white!important;
+   color: white!important;
 }
 
 .scp-image-block .scp-image-caption {
-    background-color: rgba(0,0,0,.15);
+    background-color: rgba(0,0,0,.15);
 }
 #skrollr-body {
-    width: 100%;
-    height: 7.625rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image:
-    linear-gradient(to bottom, rgba(255,255,255,0) 65%, rgba(0,0,0,1) 100%),
-    url('https://media.discordapp.net/attachments/524295654638354443/758773059577708604/Untitled_gradient.png');
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
+    height: 7.625rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image:
+    linear-gradient(to bottom, rgba(255,255,255,0) 65%, rgba(0,0,0,1) 100%),
+    url('https://media.discordapp.net/attachments/524295654638354443/758773059577708604/Untitled_gradient.png');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div.nobody {
-    width: 70%;
-    margin: 1rem auto;
-    text-align: center;
-    padding: 0.6rem;
-    font-family: 'Pangolin', cursive;
-    border: 1px solid #CCC;
-    border-radius: 5px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
-    color: black;
+    width: 70%;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 0.6rem;
+    font-family: 'Pangolin', cursive;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    color: black;
 }
 
 div.nobody a { 
-    color: rgb(230,40,60);
+    color: rgb(230,40,60);
 }
 [[/module]]
 
@@ -132,17 +132,17 @@ div.nobody a {
 ]]
 [[module css]]
 div.scale {
-    /* Angled Bar Colors */
-    --woedbar-lvl1-color: rgba(var(--swatch-menubg-light-color,12, 12, 12),0.1);
-    --woedbar-lvl2-color: rgba(var(--swatch-menubg-light-color,12, 12, 12),0.3);
-    --woedbar-lvl3-color: rgba(var(--swatch-menubg-light-color,12, 12, 12),0.55);
-    --woedbar-lvl4-color: rgba(var(--swatch-menubg-light-color,12, 12, 12),0.75);
+    /* Angled Bar Colors */
+    --woedbar-lvl1-color: rgba(var(--swatch-menubg-light-color,12, 12, 12),0.1);
+    --woedbar-lvl2-color: rgba(var(--swatch-menubg-light-color,12, 12, 12),0.3);
+    --woedbar-lvl3-color: rgba(var(--swatch-menubg-light-color,12, 12, 12),0.55);
+    --woedbar-lvl4-color: rgba(var(--swatch-menubg-light-color,12, 12, 12),0.75);
 }
 [[/module]]
 ----
 [!-- https://cdn.discordapp.com/attachments/534170796411715585/754538886197411951/pikrepo_2.jpg --]
 [[div class="scp-image-block block-center" style="width:100%;"]]
-[[image reactor.png  style="width:100%;" link=#]]
+[[image reactor.png  style="width:100%;" link=#]]
 [[div class="scp-image-caption" style="width:100%;"]]
 SCP-5375. The empty cell is the slot for the DeVry Core.
 [[/div]]
@@ -229,7 +229,7 @@ An injured member of FRFT7 was medevaced to Our Lady Saint Hedwig Memorial Hospi
 
 **MALIZ:** You're Nobody's foil. You exist only in opposition to him.
 
-**SCP-5353:** Not entirely wrong, but not what I was looking for. I'm a walking reminder of Nobody's body count.  
+**SCP-5353:** Not entirely wrong, but not what I was looking for. I'm a walking reminder of Nobody's body count.  
 
 **MALIZ:** I don't understand.
 
@@ -245,7 +245,7 @@ An injured member of FRFT7 was medevaced to Our Lady Saint Hedwig Memorial Hospi
 
 **MALIZ:** The Machine.
 
-**SCP-5353:** Aren't you a sharp one? Just like your grandmother.  
+**SCP-5353:** Aren't you a sharp one? Just like your grandmother.  
 
 **MALIZ:** What do you plan to use it for?
 
@@ -346,7 +346,7 @@ An injured member of FRFT7 was medevaced to Our Lady Saint Hedwig Memorial Hospi
 
 **MALIZ:** Pardon?
 
-**SCP-5353:** You asked last time why, right?  
+**SCP-5353:** You asked last time why, right?  
 
 **MALIZ:** Why you were putting your trust in your sworn enemy, yes.
 
@@ -431,7 +431,7 @@ An injured member of FRFT7 was medevaced to Our Lady Saint Hedwig Memorial Hospi
 
 **MALIZ:** You're Nobody.
 
-**NOBODY:** I've been called worse,  but yes.
+**NOBODY:** I've been called worse,  but yes.
 
 **MALIZ:** You bit my grandmother a century or so ago.
 
@@ -577,7 +577,7 @@ A large explosion was reported at Bumaro Plaza by a number of civilians, confirm
 [[div class="addendum"]]
 @@ @@
 [[div class="scp-image-block block-center" style="width:100%;"]]
-[[image explode.png  style="width:100%;" link=#]]
+[[image explode.png  style="width:100%;" link=#]]
 [[div class="scp-image-caption" style="width:100%;"]]
 Bumaro Plaza, incident 5375.1.
 [[/div]]

@@ -13,109 +13,109 @@ border-top: solid 2px grey;
 }
 
 a {
-    font-weight: 600;
+    font-weight: 600;
 }
 
 a.newpage {
-    font-weight: 600;
+    font-weight: 600;
 }
 
 a:visited {
-    font-weight: 600;
+    font-weight: 600;
 }
 
 .fncon a {
-    color: #0748c4 !important;
+    color: #0748c4 !important;
 }
 
 .chat {
-    background: #eee;
-    margin: 1.5rem auto 1.5rem auto;
-    padding: 1.2rem;
-    width: 80%;
-    word-break: break-word;
-    border: solid 0.14rem rgba(30, 247, 233, 0.5);
-    color: rgba(var(--four-color), 1.75);
-    font-size: 1rem;
-    font-family: 'Fira Code', monospace;
+    background: #eee;
+    margin: 1.5rem auto 1.5rem auto;
+    padding: 1.2rem;
+    width: 80%;
+    word-break: break-word;
+    border: solid 0.14rem rgba(30, 247, 233, 0.5);
+    color: rgba(var(--four-color), 1.75);
+    font-size: 1rem;
+    font-family: 'Fira Code', monospace;
 }
 
 .chat > .chat {
-    font-weight: normal;
-    font-family: 'Inter', sans-serif;
-    color: #111;
-    background: #ddd;
+    font-weight: normal;
+    font-family: 'Inter', sans-serif;
+    color: #111;
+    background: #ddd;
 }
 
 @keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .custom1 tr td {
-    padding: 10px !important;
+    padding: 10px !important;
 }
 
 .custom1 .wiki-content-table {
-    width: 100%;
+    width: 100%;
 }
 
 .vjds {
-    border: 2px solid var(--aiadColor);
-    font-family: 'Fira Code', monospace;
-    width: 350px;
-    margin-left: auto;
-    padding: 0.33rem 1rem;
-    background: #0f201e;
-    color: rgba(var(--four-color), 1.5);
-    font-weight: 600;
+    border: 2px solid var(--aiadColor);
+    font-family: 'Fira Code', monospace;
+    width: 350px;
+    margin-left: auto;
+    padding: 0.33rem 1rem;
+    background: #0f201e;
+    color: rgba(var(--four-color), 1.5);
+    font-weight: 600;
 }
 
 .jldo {
-    border: 2px solid var(--aiadColor);
-    font-family: serif;
-    font-size: 109%;
-    width: 350px;
-    margin-right: auto;
-    padding: 0.33rem 1rem;
-    background: #061424;
-    color: #8cb2ec;
-    font-weight: 600;
-    letter-spacing: 0.02rem;
+    border: 2px solid var(--aiadColor);
+    font-family: serif;
+    font-size: 109%;
+    width: 350px;
+    margin-right: auto;
+    padding: 0.33rem 1rem;
+    background: #061424;
+    color: #8cb2ec;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
 }
 
 .elng {
-    border: 2px solid var(--aiadColor);
-    font-family: 'verdana', sans-serif;
-    width: 350px;
-    margin-right: auto;
-    padding: 0.33rem 1rem;
-    background: #460000;
-    color: #f0a7a7;
-    font-weight: bold;
+    border: 2px solid var(--aiadColor);
+    font-family: 'verdana', sans-serif;
+    width: 350px;
+    margin-right: auto;
+    padding: 0.33rem 1rem;
+    background: #460000;
+    color: #f0a7a7;
+    font-weight: bold;
 }
 
 .veiss {
-   border: 2px solid rgb(145, 145, 145);
-   font-family: 'Fira Code', monospace;
-   width: 302px;
-   padding: 0.33rem 1rem;
-   background: #222;
-   color: #EDEDED;
+   border: 2px solid rgb(145, 145, 145);
+   font-family: 'Fira Code', monospace;
+   width: 302px;
+   padding: 0.33rem 1rem;
+   background: #222;
+   color: #EDEDED;
 }
 
 .widetable table.wiki-content-table {
-  width: 100%;
+  width: 100%;
 }
 
 /* Japanese localizing */
 
 .raidframe-image-jp-lcl img{
-    background: #000;
+    background: #000;
 }
 
 [[/module]]
@@ -129,20 +129,20 @@ a:visited {
 [[module CSS]]
 
 .flatworm a {
-    color: #bfbfbf;
-    text-decoration: none !important;
-   
+    color: #bfbfbf;
+    text-decoration: none !important;
+   
 }
 
 .flatworm a:hover {
-    background: rgb(10, 10, 10);
-    transition-duration: 0.6s;
+    background: rgb(10, 10, 10);
+    transition-duration: 0.6s;
 }
 
 @media (max-width: 900px) {
-    .flatworm, .watermark {
-        display: none;
-    }
+    .flatworm, .watermark {
+        display: none;
+    }
 }
 
 [[/module]]
@@ -179,9 +179,9 @@ a:visited {
 [[div class="overwatch_memo"]]
 
 [[==]]
-@@        @@VictorJohnDunneSmith宛。現存する最古のOCIエージェントとして、君は比類なき忠誠心、抜群の功績、広範な経験を財団に示している。評議会からの要求により、君はSCP-6488に関係する全ての文書の最優先ドレギョーニクラス調査の実行に割り当てられた。監督評議会はこのアノマリーを以前知っていたという示唆は複数ある。しかし、評議会は現在[*/scp-6659 関連する主題を理解することに困難]があり、これは反ミームか[*/scp-3294 情報アレルギー]の影響の結果である可能性がある。
+@@        @@VictorJohnDunneSmith宛。現存する最古のOCIエージェントとして、君は比類なき忠誠心、抜群の功績、広範な経験を財団に示している。評議会からの要求により、君はSCP-6488に関係する全ての文書の最優先ドレギョーニクラス調査の実行に割り当てられた。監督評議会はこのアノマリーを以前知っていたという示唆は複数ある。しかし、評議会は現在[*/scp-6659 関連する主題を理解することに困難]があり、これは反ミームか[*/scp-3294 情報アレルギー]の影響の結果である可能性がある。
 
-@@        @@君はOCIであるため、このような困難の影響を受けにくいと予想されている。君は調査を可能な限り極秘に行い、発見をこのアドレスに直接報告しなければならない。24時間有効な一時的監督者クリアランス資格を添付したため確認せよ。
+@@        @@君はOCIであるため、このような困難の影響を受けにくいと予想されている。君は調査を可能な限り極秘に行い、発見をこのアドレスに直接報告しなければならない。24時間有効な一時的監督者クリアランス資格を添付したため確認せよ。
 [[/==]]
 -----
 = [[span class="bigtext"]]確保・収容・保護[[/span]]
@@ -775,7 +775,7 @@ SCP-6488のファイルをチェックしないといけないんだが、おそ
 ||~ インシデント6488-D/I ||
 || [[span class="bigtext st"]]場所:[[/span]] 施設-6488 ||
 || [[span class="bigtext st"]]概要:[[/span]] ロータスのシャットダウン手続きは想定通りに開始する。入出力データ量およびCPU使用率の低下はサイバースフィアから離脱したことを示している。しかし、データ出力の再開が検出される。セクションCが過剰に稼働しているものの、ロータスのシャットダウンが不完全であるため動作停止は不可能である。原子炉8番のシステム応答時間において予期しないラグフレームが報告される。さらなる検査では、冷却材循環が劇的に減少したにもかかわらず、全てのデジタルシステムはそれを無視したことが判明する。PH-OSシステムが多数の実行済のプログラムを転送したことによりオーバーヒートし始めたため、配属職員は協力して反応炉を安定化する。 _
- _
+ _
 反応炉の存在する地下階においてアナログ式避難警報が作動する。ロータスの停止を監督していた職員は避難し始める。飛車角博士は指示に反して、PH-OSユニットを先に動作停止することを拒否し、代わりにサイト内の全ての反応炉の停止を命令する。ロータスはLOPグリッドのみが電力を供給して動作し続けたのち、出力データがゼロになる。RAIDFRAME 8はシャットダウンが完了し、全ての電源から物理的に切断される。||
 [[/div]]
 ----
@@ -785,9 +785,9 @@ SCP-6488のファイルをチェックしないといけないんだが、おそ
 ||~ インシデント6488-D/II ||
 || [[span class="bigtext st"]]場所:[[/span]] [*/on-guard-43-hub サイト-43] ||
 || [[span class="bigtext st"]]概要:[[/span]] 保守職員が複数の技術的システム・監視システムにおける突然の無反応を報告する。数分後、全てのシステムは標準動作を再開する。システムは玄妙除却施設X（AAF-X）において妖妙流出が逓減したことを報告するが、アナログ圧力測定器は正常を示している。職員はセンサーの故障の可能性を報告する。 _
- _
+ _
 アナログ計器はAAF-X全体で除却溶剤の劇的な減少を検知し、妖妙毒性横溢が発生するが、デジタルシステムは水位や循環に変化がないことを示している。結果として深妙物質の不均衡は臨界幽遠性に達した。サイト全体からの避難が開始され、保守職員は過剰流出を[*/scp-5520 AAF-W]に転換することを試みる。 _
- _
+ _
 サイト-43の全職員はイルゼ・レインデルス博士のアカウントから、終了すると脅迫しつつAAF-Xへの電力供給の回復を要求するeメールを受信し、保守職員は混乱しながら従う。RDR玄妙的解離エンジン内の流出は臨界幽遠性に達し、結果として[[span class="bigtext"]][イベント編集済][[/span]]。ネクサス-94は解離に無自覚のままである。 ||
 [[/div]]
 
@@ -795,7 +795,7 @@ SCP-6488のファイルをチェックしないといけないんだが、おそ
 ||~ インシデント6488-D/III ||
 || [[span class="bigtext st"]]場所:[[/span]] [*/secure-facility-dossier-site-184 機動サイト-184/A] ||
 || [http://scp-jp.wikidot.com/scp-6659 SCP-6659]が自発的に動作し、トーテムが挿入されていないにもかかわらず複数のミーム的構成概念をマッピングし始める。乗船している職員は即座に緊急警報を発動し、起爆のため自沈システムを準備する。SCP-6659は電力供給を切断され強制的に停止させられる。船内コンピューターは予告なしに緊急潜水手順を開始し、船舶は潜水して急速に降下する。自沈システムは船内コンピューターにより無効化される。職員はシステムを再有効化することが不可能である。 _
- _
+ _
 船舶は海底に衝突する。船体は損傷し、内部区画は浸水し始める。船内コンピューターは即座に緊急浮上手順を開始し、船舶は急速に上昇する。複数の副次システムが不規則なふるまいをし始める。船内コンピューターは全ての内部電力を動作停止させる。船舶は浮力により上昇し続ける。船舶は高速で水面から上昇し、急減速により多数の職員が負傷する。船舶は浸水のため沈没し始め、職員は船舶から避難する。 ||
 [[/div]]
 
@@ -2087,9 +2087,9 @@ GoI-6488の名前を言えるか？
 @@ @@
 ||~ 是 ||~ 非 ||~ 棄 ||
 ||= I || || ||
-||= II  || || ||
+||= II  || || ||
 || ||= III || ||
-||= IV  || || ||
+||= IV  || || ||
 ||= V || || ||
 ||= VI || || ||
 ||= VII || || ||

@@ -8,7 +8,7 @@
 |authorPage= 
 |comments=--SCP-4428-- [[span class="lie"]]マイケルズ博士は危険に晒されていません。[[/span]] 
 **著者:** [[*user Henzoid]] and [[*user Lt Flops]] 
- 
+ 
 [[div style="text-align: center;"]] 
 **著者たちの他の作品:** 
 [[size 130%]]**[*http://www.scp-wiki.net/henzoids-author-page Henzoid]** 
@@ -18,7 +18,7 @@
 [[div style="text-align: center;"]] 
 [[size 110%]] **スペシャルサンクス - 批評 & ベータ版の読者** [[/size]] 
 [[/div]] 
- 
+ 
 * [[*user CaimanChameleon]] 
 * [[*user plaidypus]] 
 * [[*user DarkStuff]] 
@@ -39,14 +39,14 @@
 [[module CSS]]
 /* INFO BOX */
 sup{
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 body{
-    --cutColour: #fafafa;
-    --barColour: #590505;
-    color: rgb(12, 12, 12);
+    --cutColour: #fafafa;
+    --barColour: #590505;
+    color: rgb(12, 12, 12);
 }
 .u-faq{ display: none; }
 #u-author_block{ display:none; }
@@ -57,136 +57,136 @@ body{
 
 #header h1 a{
 
-    display: block;
+    display: block;
 
-    margin: 0;
+    margin: 0;
 
-    padding: 80px 0 25px;
+    padding: 80px 0 25px;
 
-    line-height: 0;
+    line-height: 0;
 
-    max-height: 0;
+    max-height: 0;
 
-    color: transparent;
+    color: transparent;
 
-    background: transparent;
+    background: transparent;
 
-    font-family: 'Verdana', Arial, sans-serif;
+    font-family: 'Verdana', Arial, sans-serif;
 
-    text-decoration: none;
+    text-decoration: none;
 
-    text-shadow: none;
+    text-shadow: none;
 
-    letter-spacing: 0.9px;
+    letter-spacing: 0.9px;
 
 }
 
 #header h1 a::before{
 
-    content: "DoMC";
+    content: "DoMC";
 
-    color: white;
+    color: white;
 
-    letter-spacing: -0.02em;
+    letter-spacing: -0.02em;
 
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 3px 3px 5px black;
 
 }
 
 #header h2 span{
 
-    display: block;
+    display: block;
 
-    margin: 0;
+    margin: 0;
 
-    padding: 19px 0;
+    padding: 19px 0;
 
-    line-height: 0;
+    line-height: 0;
 
-    max-height: 0;
+    max-height: 0;
 
-    font-weight: bold;
+    font-weight: bold;
 
-    color: transparent;
+    color: transparent;
 
-    text-shadow: none;
+    text-shadow: none;
 
 }
 
 #header h2 span::before{
 
-    content: 'Solving Communications Problems';
+    content: 'Solving Communications Problems';
 
-    color: white;
+    color: white;
 
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px black;
 
 }
 
 
 /* DIV BLOCKS */
 .notice{
-    background: #b54d3b; 
-    outline: 4px solid #b54d3b; 
-    border: 1px solid #f7db26; 
-    padding: .61em;
-    color: #f7db26; 
-    text-align: center;
-    font-weight: bold;
-    word-break: unset;
+    background: #b54d3b; 
+    outline: 4px solid #b54d3b; 
+    border: 1px solid #f7db26; 
+    padding: .61em;
+    color: #f7db26; 
+    text-align: center;
+    font-weight: bold;
+    word-break: unset;
 }
 .index{
-    border: 1px solid rgb(136, 136, 136);
-    background-color: white;
-    padding: .25em 1em;
-    margin-bottom: 1em;
+    border: 1px solid rgb(136, 136, 136);
+    background-color: white;
+    padding: .25em 1em;
+    margin-bottom: 1em;
 }
 .quote-block{
-    border: 3px double #999;
-    background-color: #f4f4f4;
-    padding: .25em 1em;
-    margin-bottom: 1em;
+    border: 3px double #999;
+    background-color: #f4f4f4;
+    padding: .25em 1em;
+    margin-bottom: 1em;
 }
 .researcher-note{
-    border: 2px solid rgb(12, 12, 12);
-    background-color: white;
-    padding: .25em 1em;
-    margin-bottom: 1em;
+    border: 2px solid rgb(12, 12, 12);
+    background-color: white;
+    padding: .25em 1em;
+    margin-bottom: 1em;
 }
 
 /* FORMATTING */
 .inoculation table.wiki-content-table{ width: 100%; }
 .inoculation table.wiki-content-table td{ border: none; }
 .inoculation table.wiki-content-table th{
-    border: none;
-    width: 2em;
+    border: none;
+    width: 2em;
 }
 .wiki-content-table tr td:nth-child(1){ text-align: left; }
 .wiki-content-table tr td:nth-child(2){ text-align: right; }
 .lie{
-    font-family: 'Courier', monospace;
-    font-weight: bold;
-    margin: 2px 1px 1px 1px; 
-    background-color: #a3cef1;
-    word-break: unset;
+    font-family: 'Courier', monospace;
+    font-weight: bold;
+    margin: 2px 1px 1px 1px; 
+    background-color: #a3cef1;
+    word-break: unset;
 }
 hr{
-    margin: 1em 0;
-    padding: 0;
-    border: 0;
+    margin: 1em 0;
+    padding: 0;
+    border: 0;
 }
 .lite-header hr{
-    width: 45%;
-    margin: auto;
-    background-color: #e6e6e6;
-    border: none;
-    height: 2px;
+    width: 45%;
+    margin: auto;
+    background-color: #e6e6e6;
+    border: none;
+    height: 2px;
 }
 .h2{
-    margin: .5em 0 .4em;
-    letter-spacing: 1px;
-    font-size: 150%;
-    font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
+    margin: .5em 0 .4em;
+    letter-spacing: 1px;
+    font-size: 150%;
+    font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
 }
 [[/module]]
 

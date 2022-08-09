@@ -13,32 +13,32 @@
 [[include :scptestwiki:component:rounderformat]]
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
 
-   
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
-    
+   
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 
@@ -51,8 +51,8 @@
 ----
 
 [[include component:image-block
-    name=bay.jpg |
-    caption=SCP-4249-1。
+    name=bay.jpg |
+    caption=SCP-4249-1。
 ]]
 
 **特別収容プロトコル:** SCP-4249-αは標準的なオブジェクト保管ロッカーに収容されます。暫定研究サイト-4249は最低10名の研究者によって維持され、機動部隊デルタ-8 “カウチ・サーファーズ”の待機地点の役割を果たします。SCP-4249-A個体が暫定研究サイト-4249に侵入した場合、施設は封鎖され、機動部隊デルタ-6にはSCP-4249-A個体を鎮圧するために致死的武力を行使する権限が付与されます。
@@ -65,7 +65,7 @@ SCP-4249-1には数種類のSCP-4249-A亜種が生息しています。SCP-4249-
 
 **補遺:** 現時点で既知の全SCP-4249-A亜種のリスト。青字の指定は従順な実体を、赤字の指定は敵対的で危険な実体を指します。
 
-[[table  style="border-collapse:collapse; width: 600px;"]]
+[[table  style="border-collapse:collapse; width: 600px;"]]
 [[row]]
 [[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
 SCP-4249-A亜種
@@ -213,9 +213,9 @@ SCP-4249-A亜種
 [[size 125%]]
 
 [[include component:image-block
-    name=buddies.jpg|
-    caption=文書4249.1に添付されていた写真。恐らくホセ・デ・サントスとセニョール・オリベイラ。|
-    width=180px
+    name=buddies.jpg|
+    caption=文書4249.1に添付されていた写真。恐らくホセ・デ・サントスとセニョール・オリベイラ。|
+    width=180px
 ]]
 
 11月1日、主の年1857年

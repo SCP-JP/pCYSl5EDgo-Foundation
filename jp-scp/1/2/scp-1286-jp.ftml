@@ -7,23 +7,23 @@
 /*== RECORD - COMMON SETTINGS ==*/
 
 :root {
-  /* Recordブロックの高さ */
-  --record-block-height: 7em;
+  /* Recordブロックの高さ */
+  --record-block-height: 7em;
 
-  /* 文字色 - 中央揃え */
-  --center-font-color: inherit;
-  /* 文字色 - 左揃え */
-  --left-font-color: inherit;
-  /* 文字色 - 右揃え */
-  --right-font-color: inherit;
+  /* 文字色 - 中央揃え */
+  --center-font-color: inherit;
+  /* 文字色 - 左揃え */
+  --left-font-color: inherit;
+  /* 文字色 - 右揃え */
+  --right-font-color: inherit;
 
-  /* 文字の左右の余白 */
-  --tape-side-margin: 4em;
-  /* スマホ表示時の余白 */
-  --tape-side-margin-mobile: 1em;
+  /* 文字の左右の余白 */
+  --tape-side-margin: 4em;
+  /* スマホ表示時の余白 */
+  --tape-side-margin-mobile: 1em;
 
-  /* 右揃えの文字の上の余白 */
-  --right-top-margin: 0px;
+  /* 右揃えの文字の上の余白 */
+  --right-top-margin: 0px;
 
 }
 
@@ -376,268 +376,268 @@ Fadeout Page-Contents
 - Copyright (c) 2020 ukwhatn
 - Released under the MIT License
 - http://expunged.xyz/MIT.txt
-   ========================*/
+   ========================*/
 
 :root {
-  --fadeout-time: 1.0s
+  --fadeout-time: 1.0s
 }
 
 div#container-wrap {
-  background: url(http://expunged.xyz/css/sigma9/origin/header-crop.png) top left repeat-x;
+  background: url(http://expunged.xyz/css/sigma9/origin/header-crop.png) top left repeat-x;
 }
 
-.fadeout-wrapper  {
-  position: relative;
-  overflow: hidden;
+.fadeout-wrapper  {
+  position: relative;
+  overflow: hidden;
 }
 
 .fadeout-wrapper .cover{
-  width: 100%;
-  height: 200%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 2;
-  background: white;
-  color: transparent;
-  animation: cover-anim var(--fadeout-time) linear 0s 1 forwards;
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  background: white;
+  color: transparent;
+  animation: cover-anim var(--fadeout-time) linear 0s 1 forwards;
 }
 
 @keyframes cover-anim {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .fadeout-wrapper .escape {
-  position: relative;
-  display: inline-block;
-  z-index: 3;
+  position: relative;
+  display: inline-block;
+  z-index: 3;
 }
 
 /*========================
-    Record Block - Rebuild
+    Record Block - Rebuild
 
-      author: ukwhatn
+      author: ukwhatn
 
-      based on: http://ja.scp-wiki.net/scp-style-resource#toc3 (option 6) 
-                     licensed under CC BY-SA 3.0
+      based on: http://ja.scp-wiki.net/scp-style-resource#toc3 (option 6) 
+                     licensed under CC BY-SA 3.0
 
-      licensed under CC BY-SA 3.0
-   ========================*/
+      licensed under CC BY-SA 3.0
+   ========================*/
 
 .tape-wrap .collapsible-block-unfolded-link .collapsible-block-link {
-  animation-delay: var(--show-reload-delay);
+  animation-delay: var(--show-reload-delay);
 }
 
 .tape-record {
-  position: relative;
-  height: var(--record-block-height);
-  pointer-events: none;
-  margin: 0;
+  position: relative;
+  height: var(--record-block-height);
+  pointer-events: none;
+  margin: 0;
 }
 
 .record {
-  display: block;
-  box-sizing: border-box;
-  position: absolute;
-  width: 100%;
-  animation-name: record;
-  opacity: 0;
-  top: 0;
-  color: var(--center-font-color);
-  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  animation-name: record;
+  opacity: 0;
+  top: 0;
+  color: var(--center-font-color);
+  text-align: center;
 }
 
 .record.center {
-  text-align: center;
+  text-align: center;
 }
 
 .record.right {
-  text-align: right;
-  color: var(--right-font-color);
-  padding: 0 var(--tape-side-margin) 0 calc( var(--tape-side-margin) * 1.5);
+  text-align: right;
+  color: var(--right-font-color);
+  padding: 0 var(--tape-side-margin) 0 calc( var(--tape-side-margin) * 1.5);
 }
 
 @media (max-width: 768px) {
-  .record.right {
-    padding: 0 var(--tape-side-margin-mobile) 0 calc( var(--tape-side-margin-mobile) * 1.5);
-  }
+  .record.right {
+    padding: 0 var(--tape-side-margin-mobile) 0 calc( var(--tape-side-margin-mobile) * 1.5);
+  }
 }
 
 .record.right::before {
-  display: block;
-  content:" ";
-  height: var(--right-top-margin);
+  display: block;
+  content:" ";
+  height: var(--right-top-margin);
 }
 
 .record.left {
-  text-align: left;
-  color: var(--left-font-color);
-  padding: 0 calc( var(--tape-side-margin) * 1.5) 0 var(--tape-side-margin);
+  text-align: left;
+  color: var(--left-font-color);
+  padding: 0 calc( var(--tape-side-margin) * 1.5) 0 var(--tape-side-margin);
 }
 
 @media (max-width: 768px) {
-  .record.left {
-    padding: 0 calc( var(--tape-side-margin-mobile) * 1.5) 0 var(--tape-side-margin-mobile);
-  }
+  .record.left {
+    padding: 0 calc( var(--tape-side-margin-mobile) * 1.5) 0 var(--tape-side-margin-mobile);
+  }
 }
 
 @keyframes record {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 /*== TAPE ANIMATION ==*/
 
 .tape-wrap {
-  position: relative;
-  background-color: rgba(244, 244, 244, 1);
-  border: 1px dashed #999;
-  padding: 0 1em;
+  position: relative;
+  background-color: rgba(244, 244, 244, 1);
+  border: 1px dashed #999;
+  padding: 0 1em;
 }
 
 .tape-anim {
-  position: relative;
-  background-image: url("http://unofficial-scp-sandbox-jp.wikidot.com/local--files/iroiro-workshop-8/DoxYSJAV4AET63r.png");
-  background-size: 200px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 300px;
+  position: relative;
+  background-image: url("http://unofficial-scp-sandbox-jp.wikidot.com/local--files/iroiro-workshop-8/DoxYSJAV4AET63r.png");
+  background-size: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 300px;
 }
 
 .tape-left,
 .tape-right {
-  display: block;
-  position: absolute;
-  margin: auto;
-  height: 0;
-  width: 70px;
-  padding-bottom: 100%;
-  background-image: url("http://unofficial-scp-sandbox-jp.wikidot.com/local--files/iroiro-workshop-8/scp_trans.png");
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  pointer-events: none;
-  animation-name: tape-spin;
-  animation-duration: var(--tape-duration);
-  animation-iteration-count: var(--tape-count);
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
+  display: block;
+  position: absolute;
+  margin: auto;
+  height: 0;
+  width: 70px;
+  padding-bottom: 100%;
+  background-image: url("http://unofficial-scp-sandbox-jp.wikidot.com/local--files/iroiro-workshop-8/scp_trans.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  animation-name: tape-spin;
+  animation-duration: var(--tape-duration);
+  animation-iteration-count: var(--tape-count);
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 .tape-left {
-  top: -20px;
-  bottom: 0;
-  left: -70px;
-  right: 0;
+  top: -20px;
+  bottom: 0;
+  left: -70px;
+  right: 0;
 }
 
 .tape-right {
-  top: 0;
-  bottom: -32px;
-  left: 0;
-  right: -72px;
+  top: 0;
+  bottom: -32px;
+  left: 0;
+  right: -72px;
 }
 
 .tape-wrap .collapsible-block-unfolded-link {
-  padding-top: 1em;
+  padding-top: 1em;
 }
 
 .tape-wrap .collapsible-block-folded,
 .tape-wrap .collapsible-block-unfolded-link {
-  position: relative;
-  text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .tape-wrap .collapsible-block-link:before {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0);
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
 }
 
 .tape-wrap .collapsible-block-folded .collapsible-block-link:before {
-  content: "\f04b";
-  padding-right: 0.25em;
+  content: "\f04b";
+  padding-right: 0.25em;
 }
 
 .tape-wrap .collapsible-block-unfolded-link .collapsible-block-link:before {
-  content: "\f1da";
-  padding-right: 0.25em;
+  content: "\f1da";
+  padding-right: 0.25em;
 }
 
 .tape-wrap .collapsible-block-unfolded-link .collapsible-block-link {
-  animation-name: g-ex;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  visibility: hidden;
-  opacity: 0;
+  animation-name: g-ex;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .tape-wrap .collapsible-block-folded {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 @keyframes g-ex {
-  50% {
-    visibility: visible;
-    opacity: 0;
-  }
-  100% {
-    visibility: visible;
-    opacity: 1;
-  }
+  50% {
+    visibility: visible;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 @keyframes tape-spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @-moz-document url-prefix() {
-  .tape-anim {
-    height: 300px;
-  }
-  .tape-left,
-  .tape-right {
-    display: block;
-    width: 70px;
-    height: 70px;
-    position: relative;
-    margin: 0 auto;
-    padding: 0 auto;
-  }
-  .tape-left {
-    top: 105px;
-    bottom: initial;
-    left: -36px;
-  }
-  .tape-right {
-    top: 60px;
-    bottom: initial;
-    left: 35px;
-  }
+  .tape-anim {
+    height: 300px;
+  }
+  .tape-left,
+  .tape-right {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .tape-left {
+    top: 105px;
+    bottom: initial;
+    left: -36px;
+  }
+  .tape-right {
+    top: 60px;
+    bottom: initial;
+    left: 35px;
+  }
 }
 [[/module]]

@@ -7,7 +7,7 @@ HOW TO ADD YOUR 001 PROPOSAL:
 2) Scroll back up to the HTML portion and add your proposal to the bottom of the list in the same format as the others, replacing the relevant portions:
 
 <li>
-    <p><a href="/url-of-ur-proposal" target="_top">CODE NAME: Your Name Here</a> - Your Title Here</p></li>
+    <p><a href="/url-of-ur-proposal" target="_top">CODE NAME: Your Name Here</a> - Your Title Here</p></li>
 
 Swap the url with the url of your proposal, the name with your code name of choice, and the title with your title. Save the page, and look over it to make sure its all displaying correctly.
 
@@ -16,61 +16,61 @@ If there are any problems or you can't figure this out, contact a member of staf
 --]
 [[module CSS]]
 .content-panel .yui-navset .yui-content {
-    display: contents;
-    background-color: transparent;
-    padding: 0;
-    border: none;
+    display: contents;
+    background-color: transparent;
+    padding: 0;
+    border: none;
 }
 .content-panel .yui-navset .yui-nav {
-    border: none;
-    text-align: right;
-    margin: 0.25rem 0 -0.5rem;
+    border: none;
+    text-align: right;
+    margin: 0.25rem 0 -0.5rem;
 }
 #page-content .content-panel .yui-navset .yui-nav li {
-    margin: 0;
-    padding: 0;
+    margin: 0;
+    padding: 0;
 }
 #page-content .content-panel .yui-navset .yui-nav li a {
-    color: #b01;
-    font-size: 0.8em;
+    color: #b01;
+    font-size: 0.8em;
 }
 #page-content .content-panel .yui-navset .yui-nav li a:hover,
 #page-content .content-panel .yui-navset .yui-nav li a:focus,
 #page-content .content-panel .yui-navset .yui-nav li a:active {
-    text-decoration: underline;
+    text-decoration: underline;
 }
 #page-content .content-panel .yui-navset .yui-nav li a em {
-     margin: 0 0 0 auto;
-     padding: 0.175em 0;
-     width: max-content;
+     margin: 0 0 0 auto;
+     padding: 0.175em 0;
+     width: max-content;
 }
 .content-panel .yui-navset .yui-nav a,
 .content-panel .yui-navset .yui-nav a:hover,
 .content-panel .yui-navset .yui-nav a em {
-    border: none;
-    background: transparent!important;
+    border: none;
+    background: transparent!important;
 }
 
 .content-panel .yui-navset .yui-nav li { pointer-events: none; }
 .content-panel .yui-navset .yui-nav li a em { pointer-events: auto; }
 .content-panel .yui-navset .yui-nav li:nth-of-type(1) a::before {
-    content: "Displaying in release order";
-    color: black;
-    display: inline-block;
+    content: "Displaying in release order";
+    color: black;
+    display: inline-block;
 }
 .content-panel .yui-navset .yui-nav li:nth-of-type(2) a::before {
-    content: "Displaying in random order";
-    color: black;
-    display: inline-block;
+    content: "Displaying in random order";
+    color: black;
+    display: inline-block;
 }
 .content-panel .yui-navset .yui-nav .selected {
-    display: none;
+    display: none;
 }
 
 .content-panel .yui-navset .yui-content > div {
-    padding: 0.25rem 0 1.5rem;
-    text-align: center;
-    transition: opacity 0.35s ease-out;
+    padding: 0.25rem 0 1.5rem;
+    text-align: center;
+    transition: opacity 0.35s ease-out;
 }
 .content-panel .yui-navset .yui-content > div:first-child > p { display: contents; }
 
@@ -81,12 +81,12 @@ Some browsers assume that when "display:none" is applied to replaced elements, t
 https://stackoverflow.com/questions/2730046/javascript-problem-with-iframe-thats-hidden-before-loaded/2786429#2786429
 */
 .content-panel .yui-navset .yui-content > div[style*="none"] {
-    display: block!important;
-    max-height: 0rem;
-    overflow: hidden;
-    padding: 0;
-    visibility: hidden;
-    opacity: 0;
+    display: block!important;
+    max-height: 0rem;
+    overflow: hidden;
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
 }
 [[/module]]
 
@@ -377,126 +377,126 @@ ANY NON-AUTHORIZED PERSONNEL ACCESSING THIS FILE WILL BE IMMEDIATELY TERMINATED 
 [[html class="iframe"]]
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://scp-wiki.wikidot.com/local--files/scp-001/001.css">
-    <style>
-    #new-ones {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    #new-ones li p {
-        margin: 0.625em auto;
-    }
-    #new-ones > li:not(:nth-last-of-type(-n+3)) {
-        display: none;
-    }
-    </style>
-  </head>
-  <body>
-    <div class="proposals">
-        <div class="most-recent">
-            <h2> Newly Declassified </h2>
-            <ul id="new-ones">
-            </ul>
-        </div>
-      <ul id="zero-zero-ones">
-        <li>
-            <p><a href="/jonathan-ball-s-proposal" target="_top">CODE NAME: Jonathan Ball</a> - Sheaf of Papers</p></li>
-        <li>
-            <p><a href="/dr-gears-s-proposal" target="_top">CODE NAME: Dr. Gears</a> - The Prototype</p></li>
-        <li>
-            <p><a href="/dr-clef-s-proposal" target="_top">CODE NAME: Dr. Clef</a> - The Gate Guardian</p></li>
-        <li>
-            <p><a href="/qntm-s-proposal" target="_top">CODE NAME: qntm</a> - The Lock</p></li>
-        <li>
-            <p><a href="/scp-001-o5" target="_top">CODE NAME: Bright</a> - The Factory</p></li>
-        <li>
-            <p><a href="/dr-manns-proposal" target="_top">CODE NAME: Dr. Mann</a> - The Spiral Path</p></li>
-        <li>
-            <p><a href="/mackenzie-s-proposal" target="_top">CODE NAME: Dr. Mackenzie</a> - The Legacy</p></li>
-        <li>
-            <p><a href="/sandrewswann-s-proposal" target="_top">CODE NAME: S. Andrew Swann</a> - The Database</p></li>
-        <li>
-            <p><a href="/scantron-s-proposal" target="_top">CODE NAME: Scantron</a> - The Foundation</p></li>
-        <li>
-            <p><a href="/djoric-dmatix-proposal" target="_top">CODE NAME: Djoric/Dmatix</a> - Thirty-Six</p></li>
-        <li>
-            <p><a href="/ouroboros" target="_top">CODE NAME: djkaktus/TwistedGears</a> - Ouroboros</p></li>
-        <li>
-            <p><a href="/kate-mctiriss-s-proposal"  target="_top">CODE NAME: Kate McTiriss</a> - A Record</p></li>
-        <li>
-            <p><a href="/kalinins-proposal" target="_top">CODE NAME: Kalinin</a> - Past and Future</p></li>
-        <li>
-            <p><a href="/wrong-proposal" target="_top">CODE NAME: Wrong</a> - The Consensus</p></li>
-        <li>
-            <p><a href="/shaggydredlocks-proposal" target="_top">CODE NAME: S. D. Locke</a> - When Day Breaks</p></li>
-        <li>
-            <p><a href="/spikebrennan-s-proposal" target="_top">CODE NAME: Spike Brennan</a> - God's Blind Spot</p></li>
-        <li>
-            <p><a href="/wjs-proposal" target="_top">CODE NAME: WJS</a> - Normalcy</p></li>
-        <li>
-            <p><a href="/billiths-proposal" target="_top">CODE NAME: BILLITH</a> - The World at Large</p></li>
-        <li>
-            <p><a href="/tanhony-s-proposal" target="_top">CODE NAME: Tanhony</a> - Dead Men</p></li>
-        <li>
-            <p><a href="/lily-s-proposal" target="_top">CODE NAME: Lily</a> - The World's Gone Beautiful</p></li>
-        <li>
-            <p><a href="/tuftos-proposal" target="_top">CODE NAME: Tufto</a> - The Scarlet King</p></li>
-        <li>
-            <p><a href="/jim-north-s-proposal" target="_top">CODE NAME: Jim North</a> - A Simple Toymaker</p></li>
-        <li>
-            <p><a href="/i-h-p-proposal" target="_top">CODE NAME: I.H. Pickman</a> - Story of Your Life</p></li>
-        <li>
-            <p><a href="/scp-001-ex" target="_top">CODE NAME: The Great Hippo (feat. PeppersGhost)</a> - A Good Boy</p></li>
-        <li>
-            <p><a href="/wmdd-s-proposal" target="_top">CODE NAME: weizhong|thedeadlymoose|Drewbear|Dexanote</a> - Project Palisade</p></li>
-        <li>
-            <p><a href="/captain-kirby-s-proposal" target="_top">CODE NAME: Captain Kirby</a> - O5-13</p></li>
-        <li>
-            <p><a href="/pedantique-s-proposal" target="_top">CODE NAME: Pedantique</a> - Fishhook</p></li>
-        <li>
-            <p><a href="/not-a-seagull-proposal" target="_top">CODE NAME: not_a_seagull</a> - The Sky above the Port</p></li>
-        <li>
-            <p><a href="/jack-ike-s-proposal-i" target="_top">CODE NAME: Meta Ike</a> - The Solution</p></li>
-        <li>
-            <p><a href="/jack-ike-s-proposal-ii" target="_top">CODE NAME: Noir Box</a> - Tindalos Trinity</p></li>
-        <li>
-            <p><a href="/tanhony-s-proposal-ii" target="_top">CODE NAME: Tanhony II</a> - The Black Moon</p></li>
-        <li>
-            <p><a href="/roget-s-conspiracy-theory-for-scp-001" target="_top">CODE NAME:</a> The Conspiracy</p></li>
-        <li>
-            <p><a href="/swelling-of-the-worlds" target="_top">CODE NAME: Arbelict</a> - You Are The Anomaly, Tumor Of The Worlds</p></li>
-        <li>
-            <p><a href="/mcdoctorate-s-proposal" target="_top">CODE NAME: McDoctorate</a> - The Placeholder</p></li>
-        <li>
-            <p><a href="/rounderhouse-proposal" target="_top">CODE NAME: ROUNDERHOUSE</a> - MEMENTO MORI</p></li>
-        <li>
-            <p><a href="/manymeats-proposal" target="_top">CODE NAME: Dr. Eates</a> - A Test of Character</p></li>
-        <li>
-            <a href="https://scp-wiki.wikidot.com/keter-duty" target="_top"><img src="https://scp-wiki.wdfiles.com/local--files/scp-001/sdl-ihp-001.gif" alt="sdl-ihp-001.gif" class="image" height="10px"></a> - Keter Duty</li>
-        <li>
-            <p><a href="/pickman-blank-proposal" target="_top">CODE NAME: Pickman/Blank</a> - The Frontispiece</p></li>
-        <li>
-            <p><a href="/rounderhouse-gold-proposal" target="_top">CODE NAME: ROUNDERHOUSE's Gold Proposal</a> - AMONI-RAM</p></li>
-        <li>
-            <p><a href="/ralliston-s-proposal" target="_top">CODE NAME: Ralliston</a> - The Queen's Gambit</p></li>
-        <li>
-            <p><a href="/king-pogan-s-proposal" target="_top">CODE NAME: KingPogan</a> - The Insurgency</p></li>
-      </ul>
-    </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://scp-wiki.wikidot.com/local--files/scp-001/001.css">
+    <style>
+    #new-ones {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #new-ones li p {
+        margin: 0.625em auto;
+    }
+    #new-ones > li:not(:nth-last-of-type(-n+3)) {
+        display: none;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="proposals">
+        <div class="most-recent">
+            <h2> Newly Declassified </h2>
+            <ul id="new-ones">
+            </ul>
+        </div>
+      <ul id="zero-zero-ones">
+        <li>
+            <p><a href="/jonathan-ball-s-proposal" target="_top">CODE NAME: Jonathan Ball</a> - Sheaf of Papers</p></li>
+        <li>
+            <p><a href="/dr-gears-s-proposal" target="_top">CODE NAME: Dr. Gears</a> - The Prototype</p></li>
+        <li>
+            <p><a href="/dr-clef-s-proposal" target="_top">CODE NAME: Dr. Clef</a> - The Gate Guardian</p></li>
+        <li>
+            <p><a href="/qntm-s-proposal" target="_top">CODE NAME: qntm</a> - The Lock</p></li>
+        <li>
+            <p><a href="/scp-001-o5" target="_top">CODE NAME: Bright</a> - The Factory</p></li>
+        <li>
+            <p><a href="/dr-manns-proposal" target="_top">CODE NAME: Dr. Mann</a> - The Spiral Path</p></li>
+        <li>
+            <p><a href="/mackenzie-s-proposal" target="_top">CODE NAME: Dr. Mackenzie</a> - The Legacy</p></li>
+        <li>
+            <p><a href="/sandrewswann-s-proposal" target="_top">CODE NAME: S. Andrew Swann</a> - The Database</p></li>
+        <li>
+            <p><a href="/scantron-s-proposal" target="_top">CODE NAME: Scantron</a> - The Foundation</p></li>
+        <li>
+            <p><a href="/djoric-dmatix-proposal" target="_top">CODE NAME: Djoric/Dmatix</a> - Thirty-Six</p></li>
+        <li>
+            <p><a href="/ouroboros" target="_top">CODE NAME: djkaktus/TwistedGears</a> - Ouroboros</p></li>
+        <li>
+            <p><a href="/kate-mctiriss-s-proposal"  target="_top">CODE NAME: Kate McTiriss</a> - A Record</p></li>
+        <li>
+            <p><a href="/kalinins-proposal" target="_top">CODE NAME: Kalinin</a> - Past and Future</p></li>
+        <li>
+            <p><a href="/wrong-proposal" target="_top">CODE NAME: Wrong</a> - The Consensus</p></li>
+        <li>
+            <p><a href="/shaggydredlocks-proposal" target="_top">CODE NAME: S. D. Locke</a> - When Day Breaks</p></li>
+        <li>
+            <p><a href="/spikebrennan-s-proposal" target="_top">CODE NAME: Spike Brennan</a> - God's Blind Spot</p></li>
+        <li>
+            <p><a href="/wjs-proposal" target="_top">CODE NAME: WJS</a> - Normalcy</p></li>
+        <li>
+            <p><a href="/billiths-proposal" target="_top">CODE NAME: BILLITH</a> - The World at Large</p></li>
+        <li>
+            <p><a href="/tanhony-s-proposal" target="_top">CODE NAME: Tanhony</a> - Dead Men</p></li>
+        <li>
+            <p><a href="/lily-s-proposal" target="_top">CODE NAME: Lily</a> - The World's Gone Beautiful</p></li>
+        <li>
+            <p><a href="/tuftos-proposal" target="_top">CODE NAME: Tufto</a> - The Scarlet King</p></li>
+        <li>
+            <p><a href="/jim-north-s-proposal" target="_top">CODE NAME: Jim North</a> - A Simple Toymaker</p></li>
+        <li>
+            <p><a href="/i-h-p-proposal" target="_top">CODE NAME: I.H. Pickman</a> - Story of Your Life</p></li>
+        <li>
+            <p><a href="/scp-001-ex" target="_top">CODE NAME: The Great Hippo (feat. PeppersGhost)</a> - A Good Boy</p></li>
+        <li>
+            <p><a href="/wmdd-s-proposal" target="_top">CODE NAME: weizhong|thedeadlymoose|Drewbear|Dexanote</a> - Project Palisade</p></li>
+        <li>
+            <p><a href="/captain-kirby-s-proposal" target="_top">CODE NAME: Captain Kirby</a> - O5-13</p></li>
+        <li>
+            <p><a href="/pedantique-s-proposal" target="_top">CODE NAME: Pedantique</a> - Fishhook</p></li>
+        <li>
+            <p><a href="/not-a-seagull-proposal" target="_top">CODE NAME: not_a_seagull</a> - The Sky above the Port</p></li>
+        <li>
+            <p><a href="/jack-ike-s-proposal-i" target="_top">CODE NAME: Meta Ike</a> - The Solution</p></li>
+        <li>
+            <p><a href="/jack-ike-s-proposal-ii" target="_top">CODE NAME: Noir Box</a> - Tindalos Trinity</p></li>
+        <li>
+            <p><a href="/tanhony-s-proposal-ii" target="_top">CODE NAME: Tanhony II</a> - The Black Moon</p></li>
+        <li>
+            <p><a href="/roget-s-conspiracy-theory-for-scp-001" target="_top">CODE NAME:</a> The Conspiracy</p></li>
+        <li>
+            <p><a href="/swelling-of-the-worlds" target="_top">CODE NAME: Arbelict</a> - You Are The Anomaly, Tumor Of The Worlds</p></li>
+        <li>
+            <p><a href="/mcdoctorate-s-proposal" target="_top">CODE NAME: McDoctorate</a> - The Placeholder</p></li>
+        <li>
+            <p><a href="/rounderhouse-proposal" target="_top">CODE NAME: ROUNDERHOUSE</a> - MEMENTO MORI</p></li>
+        <li>
+            <p><a href="/manymeats-proposal" target="_top">CODE NAME: Dr. Eates</a> - A Test of Character</p></li>
+        <li>
+            <a href="https://scp-wiki.wikidot.com/keter-duty" target="_top"><img src="https://scp-wiki.wdfiles.com/local--files/scp-001/sdl-ihp-001.gif" alt="sdl-ihp-001.gif" class="image" height="10px"></a> - Keter Duty</li>
+        <li>
+            <p><a href="/pickman-blank-proposal" target="_top">CODE NAME: Pickman/Blank</a> - The Frontispiece</p></li>
+        <li>
+            <p><a href="/rounderhouse-gold-proposal" target="_top">CODE NAME: ROUNDERHOUSE's Gold Proposal</a> - AMONI-RAM</p></li>
+        <li>
+            <p><a href="/ralliston-s-proposal" target="_top">CODE NAME: Ralliston</a> - The Queen's Gambit</p></li>
+        <li>
+            <p><a href="/king-pogan-s-proposal" target="_top">CODE NAME: KingPogan</a> - The Insurgency</p></li>
+      </ul>
+    </div>
 
-    <script>
-      function copyDiv(){
-        var firstContent = document.getElementById('zero-zero-ones');
-        var secondContent = document.getElementById('new-ones');
-        secondContent.innerHTML = firstContent.innerHTML;
-      }
-       copyDiv();
-    </script>
-     <script src="https://scp-wiki.wikidot.com/local--files/scp-001/001.js"></script>
-  </body>
+    <script>
+      function copyDiv(){
+        var firstContent = document.getElementById('zero-zero-ones');
+        var secondContent = document.getElementById('new-ones');
+        secondContent.innerHTML = firstContent.innerHTML;
+      }
+       copyDiv();
+    </script>
+     <script src="https://scp-wiki.wikidot.com/local--files/scp-001/001.js"></script>
+  </body>
 </html>
 [[/html]]
 [[/tab]]
@@ -576,7 +576,7 @@ ANY NON-AUTHORIZED PERSONNEL ACCESSING THIS FILE WILL BE IMMEDIATELY TERMINATED 
 
 [[[manymeats-proposal | CODE NAME: Dr. Eates]]] - A Test of Character
 
-[[image sdl-ihp-001.gif link="https://scp-wiki.wikidot.com/keter-duty" height="10px"]]  - Keter Duty
+[[image sdl-ihp-001.gif link="https://scp-wiki.wikidot.com/keter-duty" height="10px"]]  - Keter Duty
 
 [[[Pickman-Blank Proposal | CODE NAME: Pickman/Blank]]] - The Frontispiece
 

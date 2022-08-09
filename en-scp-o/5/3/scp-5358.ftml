@@ -16,61 +16,61 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "winkwonkboi";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "winkwonkboi";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 [[/module]]
 
 [[module CSS]]
 div#container-wrap {
-    background-image: url(http://scp-wiki.wikidot.com/local--files/grigori-karpin-s-author-page/backgroundVK-1);
+    background-image: url(http://scp-wiki.wikidot.com/local--files/grigori-karpin-s-author-page/backgroundVK-1);
 }
 :root {
-    --logo-image: url("http://scp-wiki.wikidot.com/local--files/grigori-karpin-s-author-page/vklogotransparent-1.png");
-    --header-title: "  Vikander-Kneed";
-    --header-subtitle: "   Technical Media";
+    --logo-image: url("http://scp-wiki.wikidot.com/local--files/grigori-karpin-s-author-page/vklogotransparent-1.png");
+    --header-title: "  Vikander-Kneed";
+    --header-subtitle: "   Technical Media";
 }
 
 /* Adjust Mobile Image Size */
 @media (max-width: 479px) {
 #header {
-    background-size: 100px 100px;
-    background-position: 1em;
+    background-size: 100px 100px;
+    background-position: 1em;
 }
 }
 
@@ -312,7 +312,7 @@ At the opening of SCP-5358-1, the title //"Vlorschidia: an Infomercial"// is dis
 
 **SCP-5358-A:** Yeah, if you think I'm lying, I'm not. As you can see, I'm in a fancy suit, so...I should be the professional here, not you. Besides, you never been here at all, have you? So how can you judge? Spoiler alert //(scoffs)//, you can't.
 
-//[SCP-5358-A notices and turns to 2 individuals, male and female, having a picnic on the hill as they stare at the cloudy sky.  It turns back to the camera, grinning.]//
+//[SCP-5358-A notices and turns to 2 individuals, male and female, having a picnic on the hill as they stare at the cloudy sky.  It turns back to the camera, grinning.]//
 
 **SCP-5358-A:** How 'bout this? I'm gonna go up to that couple over there and ask them for their opinion on this beautiful place, then maybe it'll convince you to move and become one of us forever and ever and ever and ever and ever and ever and ever and ever and ever and ever and ever-
 
@@ -384,7 +384,7 @@ The deceased person could not be identified. Further research into the whereabou
 =====
 > **Filename:** VKlogotransparent
 > **Author:** [[*user Grigori Karpin]]
-> **License:**  CC BY-3.0
+> **License:**  CC BY-3.0
 > **Source Link:**
 > **Additional Notes:**
 -----

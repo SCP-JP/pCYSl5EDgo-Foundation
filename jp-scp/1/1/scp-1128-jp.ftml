@@ -574,9 +574,9 @@ SCP-1128-JPは大河原氏が自身の著作である4コマ漫画「4姉妹だ�
 
 [[module CSS]]
 .kobetsu2 .collapsible-block-unfolded-link::after{
-  content: '　[プレビュー]　[編集]';
-  color: #333;
-  display: inline-block;
+  content: '　[プレビュー]　[編集]';
+  color: #333;
+  display: inline-block;
 }
 [[/module]]
 
@@ -658,14 +658,14 @@ line-height: 120%
 
 window.onload = function(){
 var textarea = document.getElementById("editing");
- if( textarea.scrollHeight > textarea.offsetHeight ){
+ if( textarea.scrollHeight > textarea.offsetHeight ){
 textarea.style.height = textarea.scrollHeight+'px';
 }
 }
 
 function textResize(){
 var textarea = document.getElementById("editing");
- if( textarea.scrollHeight > textarea.offsetHeight ){
+ if( textarea.scrollHeight > textarea.offsetHeight ){
 textarea.style.height = textarea.scrollHeight+'px';
 }
 }

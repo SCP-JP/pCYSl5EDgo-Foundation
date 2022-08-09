@@ -13,15 +13,15 @@
 
 
 div.parapost {
-    background:  black;
-    color:white;
-    font-family: 'PT Mono', monospace;
-    font-size: 90%;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #1a1a1a;
-    padding: 0 1em;
-    margin: 1em 3em;
+    background:  black;
+    color:white;
+    font-family: 'PT Mono', monospace;
+    font-size: 90%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1a1a1a;
+    padding: 0 1em;
+    margin: 1em 3em;
 }
 
 div.parapost.reply1 {margin: 1em 3em 1em 4em;}
@@ -31,144 +31,144 @@ div.parapost.reply4 {margin: 1em 3em 1em 7em;}
 div.parapost.reply5 {margin: 1em 3em 1em 8em;}
 
 @media (max-width: 479px) {
-   div.parapost {margin: 1em 0;}
-   div.parapost.reply1 {margin: 1em 0 1em 1em;}
-   div.parapost.reply2 {margin: 1em 0 1em 2em;}
-   div.parapost.reply3 {margin: 1em 0 1em 3em;}
-   div.parapost.reply4 {margin: 1em 0 1em 4em;}
-   div.parapost.reply5 {margin: 1em 0 1em 5em;}
+   div.parapost {margin: 1em 0;}
+   div.parapost.reply1 {margin: 1em 0 1em 1em;}
+   div.parapost.reply2 {margin: 1em 0 1em 2em;}
+   div.parapost.reply3 {margin: 1em 0 1em 3em;}
+   div.parapost.reply4 {margin: 1em 0 1em 4em;}
+   div.parapost.reply5 {margin: 1em 0 1em 5em;}
 }
- 
+ 
 @media (min-width: 480px) and (max-width: 580px) {
-   div.parapost {margin: 0.5em;}
-   div.parapost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
-   div.parapost.reply2 {margin: 0.5em 0.5em 0.5em 1.5em;}
-   div.parapost.reply3 {margin: 0.5em 0.5em 0.5em 2em;}
-   div.parapost.reply4 {margin: 0.5em 0.5em 0.5em 2.5em;}
-   div.parapost.reply5 {margin: 0.5em 0.5em 0.5em 3em;}
+   div.parapost {margin: 0.5em;}
+   div.parapost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
+   div.parapost.reply2 {margin: 0.5em 0.5em 0.5em 1.5em;}
+   div.parapost.reply3 {margin: 0.5em 0.5em 0.5em 2em;}
+   div.parapost.reply4 {margin: 0.5em 0.5em 0.5em 2.5em;}
+   div.parapost.reply5 {margin: 0.5em 0.5em 0.5em 3em;}
 }
- 
+ 
 div.siteheader {
-  background: #ffffff;
-  color:white;
-  padding: 0.5em;
-  margin: 0;
-  line-height: 0;
+  background: #ffffff;
+  color:white;
+  padding: 0.5em;
+  margin: 0;
+  line-height: 0;
 }
 
 /* MUPPET SITE*/
 
 div.muppetsite {
-    background: #ededed;
-    color:black;
-    font-family: 'Raleway', sans-serif;
-    font-size: 90%;
-    border: none;
-    border-top: 5px solid #8ec8d4;
-    border-bottom: 5px solid #8ec8d4;
-    padding: 0 1em;
-    margin: 1em 1em;
+    background: #ededed;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90%;
+    border: none;
+    border-top: 5px solid #8ec8d4;
+    border-bottom: 5px solid #8ec8d4;
+    padding: 0 1em;
+    margin: 1em 1em;
 }
 
 .muppetpost{
-  background: #8ec8d433;
-  border-radius: 16px;
-  margin: 0.5em;
+  background: #8ec8d433;
+  border-radius: 16px;
+  margin: 0.5em;
 }
 
 .muppetuser{
-  background: #267b8c;
-  color:white;
-  padding: 0.5em;
-  margin: 0;
-  line-height: 0;
+  background: #267b8c;
+  color:white;
+  padding: 0.5em;
+  margin: 0;
+  line-height: 0;
 }
 
 .muppettext{
-  padding-top: 0.5px;
-  padding-right: 1em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
+  padding-top: 0.5px;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
 }
 
 span.righteous {
-   font-family: 'Righteous', cursive;
-   font-size: 200%;
-   color: #267b8c;
+   font-family: 'Righteous', cursive;
+   font-size: 200%;
+   color: #267b8c;
 }
 
 div.muppetpost.reply1 {margin: 1em 0.5em 1em 4em;}
 
 @media (max-width: 479px) {
-   div.muppetpost {margin: 1em 0;}
-   div.muppetpost.reply1 {margin: 1em 0 1em 1em;}
+   div.muppetpost {margin: 1em 0;}
+   div.muppetpost.reply1 {margin: 1em 0 1em 1em;}
 }
 
 @media (min-width: 480px) and (max-width: 580px) {
-   div.muppetpost {margin: 0.5em;}
-   div.muppetpost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
+   div.muppetpost {margin: 0.5em;}
+   div.muppetpost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
 }
 
 /* BUG FORUM*/
 
 div.bugsite {
-    background: #e6f5d7;
-    color:black;
-    font-family: 'Raleway', sans-serif;
-    font-size: 90%;
-    border: none;
-    margin: 0.5em;
+    background: #e6f5d7;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90%;
+    border: none;
+    margin: 0.5em;
 }
 
 div.bugpost {
-    background: none;
-    border: none;
-    border-left: 2px solid #bdd4ab;
-    padding: 0 1em;
-    margin: 1em 3em;
+    background: none;
+    border: none;
+    border-left: 2px solid #bdd4ab;
+    padding: 0 1em;
+    margin: 1em 3em;
 }
- 
+ 
 div.bugpost.reply1 {margin: 1em 3em 1em 4em;}
 div.bugpost.reply2 {margin: 1em 3em 1em 5em;}
 div.bugpost.reply3 {margin: 1em 3em 1em 6em;}
 div.bugpost.reply4 {margin: 1em 3em 1em 7em;}
 div.bugpost.reply5 {margin: 1em 3em 1em 8em;}
- 
+ 
 @media (max-width: 479px) {
-   div.bugpost {margin: 1em 0;}
-   div.bugpost.reply1 {margin: 1em 0 1em 1em;}
-   div.bugpost.reply2 {margin: 1em 0 1em 2em;}
-   div.bugpost.reply3 {margin: 1em 0 1em 3em;}
-   div.bugpost.reply4 {margin: 1em 0 1em 4em;}
-   div.bugpost.reply5 {margin: 1em 0 1em 5em;}
+   div.bugpost {margin: 1em 0;}
+   div.bugpost.reply1 {margin: 1em 0 1em 1em;}
+   div.bugpost.reply2 {margin: 1em 0 1em 2em;}
+   div.bugpost.reply3 {margin: 1em 0 1em 3em;}
+   div.bugpost.reply4 {margin: 1em 0 1em 4em;}
+   div.bugpost.reply5 {margin: 1em 0 1em 5em;}
 }
- 
+ 
 @media (min-width: 480px) and (max-width: 580px) {
-   div.bugpost {margin: 0.5em;}
-   div.bugpost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
-   div.bugpost.reply2 {margin: 0.5em 0.5em 0.5em 1.5em;}
-   div.bugpost.reply3 {margin: 0.5em 0.5em 0.5em 2em;}
-   div.bugpost.reply4 {margin: 0.5em 0.5em 0.5em 2.5em;}
-   div.bugpost.reply5 {margin: 0.5em 0.5em 0.5em 3em;}
+   div.bugpost {margin: 0.5em;}
+   div.bugpost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
+   div.bugpost.reply2 {margin: 0.5em 0.5em 0.5em 1.5em;}
+   div.bugpost.reply3 {margin: 0.5em 0.5em 0.5em 2em;}
+   div.bugpost.reply4 {margin: 0.5em 0.5em 0.5em 2.5em;}
+   div.bugpost.reply5 {margin: 0.5em 0.5em 0.5em 3em;}
 }
 
 /* OTHER SITES */
 span.flowerfont {
-   font-family: 'Bona Nova', serif;
-   font-size: 100%;
-   color: #525252;
+   font-family: 'Bona Nova', serif;
+   font-size: 100%;
+   color: #525252;
 }
 
 /* REDDIT */
 .reddit-post{
-    margin: .43em;
-    padding: 0 .85em;
+    margin: .43em;
+    padding: 0 .85em;
 
-    background-color: #fcfcfb;
-    border: 1px solid #b5b3ac;
+    background-color: #fcfcfb;
+    border: 1px solid #b5b3ac;
 
-    font-family: verdana,arial,sans-serif;
-    overflow: hidden;
+    font-family: verdana,arial,sans-serif;
+    overflow: hidden;
 }
 
 [[/module]]
@@ -179,7 +179,7 @@ span.flowerfont {
 |authorPage=http://www.scp-wiki.net/dr-dune-s-personnel-file
 |comments=
 = **SCP-6599** - HOGSLICE
- 
+ 
 -----
 
 ナンデ情報ボックスナンカ開イテヤガルンダ、コノチビ野郎？ サッサト記事ヲ読ミニ行ケ、サモネェト神サンニ誓ッテテメェノケツヲコレデモカッテグライ叩キノメシテ何週間モマトモニクソガデキネェ体ニシテヤルゼ。
@@ -192,37 +192,37 @@ span.flowerfont {
 = [http://scp-wiki.wikidot.com/plaguepjp 2人目ノバカ野郎ノ著者ページハココダ (PLAGUE)] 
 
 -----
- 
+ 
 = **Image Credits**
- 
+ 
 ]]
 [[module CSS]]
 sup {
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 
 :root {
-    --cutColour: #fafafa;
-    --barColour: #590505;
+    --cutColour: #fafafa;
+    --barColour: #590505;
 }
 
 .translation_block {
-    display: none;
+    display: none;
 }
 
 .info-container .collapsible-block-folded a {
-    color: #FFF;
+    color: #FFF;
 }
 
 .info-container .collapsible-block-unfolded-link a {
-    color: #FFF;
+    color: #FFF;
 }
 
 .info-container .collapsible-block-link,
 .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 [[/module]]
 [[include :scp-jp:theme:black-highlighter-theme]]
@@ -696,7 +696,7 @@ SCP-5175-1及びエージェント ウッドコックとの対戦後、過去に
 
 [[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] 俺ノ好キナ事 [[/span]]
 [[span style="font-size: x-small;"]] ##888|7ヶ月前に## ##369|HOGSLICE## ##888|により投稿されました##[[/span]]
-[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 191 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 191 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
 
 キレタ時ノ俺ハ時々外ニ出テウッドチャックノ物真似ヲスル。素手デ草ヲ千切ッテ、ナンデ怒ッテタカ忘レテ中デ遊ベルグライデケェ穴ガデキルマデ地面ヲ掘ル。
 
@@ -711,7 +711,7 @@ SCP-5175-1及びエージェント ウッドコックとの対戦後、過去に
 
 [[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] ドウスレバMUCINEXノコマーシャルニ出テクルアノ痰ノ塊ニツイテ考エタ時ニ物ヲブッ壊サズニイラレルンダ。 [[/span]]
 [[span style="font-size: x-small;"]] ##888|6ヶ月前に## ##369|HOGSLICE## ##888|により投稿されました##[[/span]]
-[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 206 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 206 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
 
 俺ハアノ野郎ガ嫌イダ、奴ハ俺ヨリモ強イト思ッテヤガル。俺ハ奴ヲ勝タセタクネェ。
 
@@ -726,7 +726,7 @@ SCP-5175-1及びエージェント ウッドコックとの対戦後、過去に
 
 [[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] 友達ガ欲シイ [[/span]]
 [[span style="font-size: x-small;"]] ##888|5ヶ月前に## ##369|HOGSLICE## ##888|により投稿されました##[[/span]]
-[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 80 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 80 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
 
 --HOGSLICE
 
@@ -738,7 +738,7 @@ SCP-5175-1及びエージェント ウッドコックとの対戦後、過去に
 [[div style="float: right; width: 93.5%;"]]
 [[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] セラピストニ会オウト思ウンダ [[/span]]
 [[span style="font-size: x-small;"]] ##888|4ヶ月前に## ##369|HOGSLICE## ##888|により投稿されました##[[/span]]
-[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 302 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 302 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
 
 ソプラノズヲ見テタンダガ (コンナニイタリア人ニ共感デキルトハ思ワナカッタゼ) コノトニーッテ男ト俺ニハ共通点ガドッサリアル。コイツニハセラピストガイテ、ソノ女ハコイツガ怒リヲ抑エラレネェンダト言ウ。
 

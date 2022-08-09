@@ -588,48 +588,48 @@ SCP-4736は自身の解除不能な自己物語化の結果、莫大なエネル
 [[/collapsible]]
 [[module CSS]]
 #breadcrumbs {
-  display: none;
+  display: none;
 }
 
 #page-content a {
-  font-weight: bold;
+  font-weight: bold;
 }
 .excerpt hr {
-  margin: 50px auto
+  margin: 50px auto
 }
 #page-content blockquote {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .collapsible-block-link, .collapsible-block-unfolded-link, .collapsible-block-folded {
-  text-align: center;
+  text-align: center;
 }
 .collapsible-block {
-  margin-top: 50px;
+  margin-top: 50px;
 }
 .collapsible-block-unfolded-link {
-  margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .collapsible-block-folded, .collapsible-block-unfolded-link {
-  font-size: 125%;
+  font-size: 125%;
 }
 .dialogue {
-  margin: 25px 0;
-  padding-left: 2%;
-  border-left: 3px solid white;
+  margin: 25px 0;
+  padding-left: 2%;
+  border-left: 3px solid white;
 }
 span:not([class]):not([style]) > sup.footnoteref:first-child > a.footnoteref:before,
 sup.footnoteref > a.footnoteref:before {
-  content: "[";
+  content: "[";
 }
 span:not([class]):not([style]) > sup.footnoteref:first-child > a.footnoteref:after,
 sup.footnoteref > a.footnoteref:after {
-  content: "]";
+  content: "]";
 }
 .linkbox {
-  margin: 125px 0 0 0;
-  font-size: 115%;
-  display: inline-block;
-  font-weight: bold;
+  margin: 125px 0 0 0;
+  font-size: 115%;
+  display: inline-block;
+  font-weight: bold;
 }
 [[/module]]

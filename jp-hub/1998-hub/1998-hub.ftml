@@ -12,78 +12,78 @@
 
 /* タイトル隠し */
 #page-title {
-  display:;
+  display:;
 }
 
 /* ページ全体 */
 
 body {
-    color:black;
-    background-image: url( BLANC );
-    font-family: Poppins;
+    color:black;
+    background-image: url( BLANC );
+    font-family: Poppins;
 }
 
 /* ページタイトル */
 
 #page-title {
-  display: none;
-  font-family: Bowlby One SC;
-  font-size: 25pt;
-  text-align: center;
-  position: relative;
-  color:black;
+  display: none;
+  font-family: Bowlby One SC;
+  font-size: 25pt;
+  text-align: center;
+  position: relative;
+  color:black;
 }
 
 /* ヘッド要素 */
 h1 {
-  position: relative;
-  text-align: center;
-  font-family: Bowlby One SC;
-  font-size: 20pt;
-  color: #C40000;
+  position: relative;
+  text-align: center;
+  font-family: Bowlby One SC;
+  font-size: 20pt;
+  color: #C40000;
 }
 h2 {
-  font-family: Bowlby One SC;
-  font-size: 16pt;
-  color:black;
+  font-family: Bowlby One SC;
+  font-size: 16pt;
+  color:black;
 }
 
 h3 {
-  font-family: Bowlby One SC;
-  font-size: 14pt;
-  color:black;
+  font-family: Bowlby One SC;
+  font-size: 14pt;
+  color:black;
 }
 
 /* タブ */
 .yui-navset .yui-content{
-    background-color: #FEFEFE;
-    padding-left: 2em;
-    padding-right: 2em;
-    border-width: 1px 1px 1px 1px
+    background-color: #FEFEFE;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-width: 1px 1px 1px 1px
 }
 /* Tabs non ouvertes */
 .yui-navset .yui-nav a,
 .yui-navset .yui-navset-top .yui-nav a {
-    background: #ffffff;
+    background: #ffffff;
 }
 /* Pré-clic SwitchOnglet (mousehover) */
 .yui-navset .yui-nav a:hover,
 .yui-navset .yui-nav a:focus {
-    background: #cccccc;
-    text-decoration: none;
+    background: #cccccc;
+    text-decoration: none;
 }
 /* Barre en-dessous des onglets (haut) */
 .yui-navset .yui-nav,
 .yui-navset .yui-navset-top .yui-nav {
-    border-color: #000000;
-    border-width: 0px 0px 0px 0px;
+    border-color: #000000;
+    border-width: 0px 0px 0px 0px;
 }
 /* Tab sélectionnée ; 1er = arrière-plan, 2e = texte */
 .yui-navset .yui-nav .selected a,
 .yui-navset .yui-nav .selected a:focus,
 .yui-navset .yui-nav .selected a:hover {
-    background: #ffffff;
-    color: #000000;
+    background: #ffffff;
+    color: #000000;
 border-color: #000000;
 }
 
@@ -107,7 +107,7 @@ padding: 5px 0px;
 }
 
 .narrow-list ul li {
-  padding: 1px 0;
+  padding: 1px 0;
 }
 
 [[/module]]
@@ -149,11 +149,11 @@ padding: 5px 0px;
 （ただし、クロスリンクを踏むことは記事の理解度や没入感を高めることに繋がりますが、必ずしも必要という訳ではありません）
 
 その上、このガイド執筆時点で既にこのカノンの構成記事は70を超えており、新たな読者にはハードルが高いのは否めません。ガイドの結びとして、ここを開いてくれたあなたのために、このカノンの世界観をより掴める作品を抜粋して紹介したいと思います。特に重要な記事については〈[[span style="color:blue"]]●[[/span]]〉を付けてあります。重量級ですが、面白さは保証しますよ！
-> : **[*http://scp-jp.wikidot.com/scp-1710-jp  SCP-1710-JP - ショパン・ゴジラ]** [[span style="color:blue"]]●[[/span]] : 全ての始まり。 ショパンの顔をした神格実体がカルトにより招かれ、ショパンの故郷たるポルスカの大地とともにヴェールを引き裂かんとする。現実（ゴジラ）対虚構（ヴェール）。
-> : **[*http://scp-jp.wikidot.com/early-summer-1998  1998年、初夏] [[span style="color:blue"]]●[[/span]]** : プロメテウス・ニューロンズの奇妙な倒産、見え隠れする軍人や議員の影。それを追う最中、一人のジャーナリストは郷土の偉人、ショパンを崇める特異な集団と接触を持つ。そして彼は何も知らぬままヴェールの内側に、戦場に、足を踏み込む。
+> : **[*http://scp-jp.wikidot.com/scp-1710-jp  SCP-1710-JP - ショパン・ゴジラ]** [[span style="color:blue"]]●[[/span]] : 全ての始まり。 ショパンの顔をした神格実体がカルトにより招かれ、ショパンの故郷たるポルスカの大地とともにヴェールを引き裂かんとする。現実（ゴジラ）対虚構（ヴェール）。
+> : **[*http://scp-jp.wikidot.com/early-summer-1998  1998年、初夏] [[span style="color:blue"]]●[[/span]]** : プロメテウス・ニューロンズの奇妙な倒産、見え隠れする軍人や議員の影。それを追う最中、一人のジャーナリストは郷土の偉人、ショパンを崇める特異な集団と接触を持つ。そして彼は何も知らぬままヴェールの内側に、戦場に、足を踏み込む。
 > ----
-> : **[*http://scp-jp.wikidot.com/koigarezaki-news-911-1998-ver  マンハッタン次元崩落 GOC介入目前か]** : ヴェール体制の崩壊は、財団・連合・プロメテウス・米国の四大権力による世界秩序への移行を意味した。しかしその堅固に見える土台にひびを入れようと、財団の忌み子が動き出した。今、ヴェールなき世界の歪みを暴き出す。
-> : **[*http://scp-jp.wikidot.com/scp-2911-jp  SCP-2911-JP - 合衆国の一番長い日] [[span style="color:blue"]]●[[/span]]** : 三つの銀翼がマンハッタンを異界に沈めた。悪魔が跋扈する市中へ財団・連合・境界線イニシアチブの戦闘部隊が突入する。目指すはWTC。9.11は第二の転換点となるか。
+> : **[*http://scp-jp.wikidot.com/koigarezaki-news-911-1998-ver  マンハッタン次元崩落 GOC介入目前か]** : ヴェール体制の崩壊は、財団・連合・プロメテウス・米国の四大権力による世界秩序への移行を意味した。しかしその堅固に見える土台にひびを入れようと、財団の忌み子が動き出した。今、ヴェールなき世界の歪みを暴き出す。
+> : **[*http://scp-jp.wikidot.com/scp-2911-jp  SCP-2911-JP - 合衆国の一番長い日] [[span style="color:blue"]]●[[/span]]** : 三つの銀翼がマンハッタンを異界に沈めた。悪魔が跋扈する市中へ財団・連合・境界線イニシアチブの戦闘部隊が突入する。目指すはWTC。9.11は第二の転換点となるか。
 > ----
 > : **[*http://scp-jp.wikidot.com/scp-2041-jp SCP-2041-JP - 財団感染病棟Q5！白き末期患者と絶望的ホスピタル][[span style="color:blue"]] ●[[/span]]** : 人々が「異常」の存在を認知した時、人々もまた異常へと変化していく。サイト-81Q5はそんな異常疾患の罹患者を「収容」する財団異常疾患研究・治療センターだった。
 > ----
@@ -161,7 +161,7 @@ padding: 5px 0px;
 > ----
 > : **[*http://scp-jp.wikidot.com/tokyo-incidents 東京事変] [[span style="color:blue"]] ●[[/span]]** : 戦前の科学者・随筆家、寺田寅彦はこのように警告したといわれている、「文明が進むほど天災による損害の程度も累進する。そして、天災は忘れたころにやってくる」 。この現実崩壊性災害という新たな災害は長い悪夢の始まりであり、日本の再生の起点となる。
 > ----
-> : **[*http://scp-jp.wikidot.com/koigarezaki-news-0517  理外研電算機 身売りを含む選択肢を検討中か]** : 変貌する社会の波は無論日本にも到達していた。躍進、あるいは停滞する企業系要注意団体。旧態依然におもねる日本政府。不死鳥のように蘇ったプロメテウス・コンツェルンの手がその間隙を縫って迫っている。
+> : **[*http://scp-jp.wikidot.com/koigarezaki-news-0517  理外研電算機 身売りを含む選択肢を検討中か]** : 変貌する社会の波は無論日本にも到達していた。躍進、あるいは停滞する企業系要注意団体。旧態依然におもねる日本政府。不死鳥のように蘇ったプロメテウス・コンツェルンの手がその間隙を縫って迫っている。
 > ----
 > : **[*http://scp-jp.wikidot.com/r-sinano-chuo-co-jp-2038-05-18-1730hk1 長野市AFC殺傷事件 日奉蓮被告に死刑判決 長野地裁]** : ヴェール消失は、有形無形を問わない異常性の保持者の社会進出と新たな誕生を引き起こした。そんな彼らは人間の根源的な嫌悪だけではなく、宗教観、思想などを理由に、時に迫害されている。
 
@@ -273,7 +273,7 @@ padding: 5px 0px;
 * [[[wikipedia-september-11-attacks-1998-ver|マンハッタン次元崩落テロ事件 - Wikipedia]]] -- by [[*user Tark_IOL]]
 * [[[meltrose003|ゲロまみれの悪魔]]] -- by [[*user MeltRose]]
 * [[[koigarezaki-news-20150412-1998ver|マンハッタンズ・メカニクスの左腕部　破壊される]]] -- by [[*user santou]]
-* [[[koigarezaki-news-20020228-1998ver|財団 SCP-606-JP“拷問教会”の機密指定を解除]]] -- by [[*user  ykamikura]]
+* [[[koigarezaki-news-20020228-1998ver|財団 SCP-606-JP“拷問教会”の機密指定を解除]]] -- by [[*user  ykamikura]]
 
 [[/div]]
 
@@ -445,7 +445,7 @@ padding: 5px 0px;
 * [[[outer-cradle|揺籃外去]]] -- by [[*user islandsmaster]]
 * [[[nisso-medical-equipment-co-jp-rd-portal-contents-story-002|ニッソ医機 開発ストーリー ｢人を人として未来へ繋ぐ｡再転移型異形化抑制システム」]]] -- by [[*user Ryu JP]]
 * [[[r-sinano-chuo-co-jp-2045-08-14-42a7279|Yakushiに談合及びカルテルの疑い 公取委が立ち入り検査]]] -- by [[*user Ryu JP]]
-* [[[scp-2056-jp|SCP-2056-JP  - 合掌]]] -- by  [[*user carbon13]]
+* [[[scp-2056-jp|SCP-2056-JP  - 合掌]]] -- by  [[*user carbon13]]
 * [[[r-sinano-chuo-co-jp-2025-02-10-mt119ng|WPhO新基準 最初の医師国家試験、相次ぐ不正行為]]] -- by [[*user O-92_Mallet]]
 * [[[r-sinano-chuo-co-jp-2030-5-12-f9r324| 第8回世界超保健会議予定通り開催 "終年症候群"再拡散問題について議論]]]^^[ZH]^^ -- by [[*user ting129]]
 * [[[http://scp-zh-tr.wikidot.com/zh-daedalus|代達洛斯計畫]]] ^^[未訳]^^ -- by [[*user Sigtina]]
@@ -493,7 +493,7 @@ padding: 5px 0px;
 * [[[takao|タカオ]]] -- by [[*user Zatto13]]
 * [[[scp-664-jp|SCP-664-JP - コメモドキ]]] -- by [[*user Mishary]]
 * [[[s-g-1664|せ-G-1664"共生自足米「やどりがみ」"販売カタログ]]] -- by [[*user Mishary]]
-* [[[scp-2043-jp|SCP-2043-JP - 死刑執行に関する法案/そして何もない/哀願完全平等A3！灰色犯罪者VS最終的プリズン]]] -- by  [[*user carbon13]]
+* [[[scp-2043-jp|SCP-2043-JP - 死刑執行に関する法案/そして何もない/哀願完全平等A3！灰色犯罪者VS最終的プリズン]]] -- by  [[*user carbon13]]
 * [[[case-n-operation-sugar-sun-1|Op. シュガーサン　前篇]]] -- by [[*user 2MeterScale]]
 * [[[r-sinano-chuo-co-jp-2014-3-26-5hda4t7y|理外研電算機、起死回生の神格存在計算機開発計画を発表]]] -- by [[*user winston1984]]
 * [[[maxwellism-com-jp-lightning|新電脳｢lightning｣登場｡]]] -- by [[*user Ryu JP]]
@@ -531,8 +531,8 @@ padding: 5px 0px;
 * [[[parallel-be-in-rock-fes-0|オーバードライブは未明に歪む]]] -- by [[*user O-92_Mallet]] & [[*user souyamisaki014]]
 * [*http://scp-zh-tr.wikidot.com/wadatsumi-no-naku-koroni 海神悲鳴時]^^[未訳]^^ -- by [[*user vomiter]]
 * [[[sb-mimonden|フードファイト スシブレード：未聞伝]]] -- by [[*user souyamisaki014]]
-* [[[scp-2042-jp|SCP-2042-JP  - Agt.野町の花籠をひっくり返す/黒の蛇使いと熱狂的スクール]]] -- by  [[*user carbon13]]
-* [[[scp-2882-jp|SCP-2882-JP  - 暗号戦争 ～それは、人智を越えた神と悪魔の戦い～]]] -- by  [[*user HAGU RUMA]]
+* [[[scp-2042-jp|SCP-2042-JP  - Agt.野町の花籠をひっくり返す/黒の蛇使いと熱狂的スクール]]] -- by  [[*user carbon13]]
+* [[[scp-2882-jp|SCP-2882-JP  - 暗号戦争 ～それは、人智を越えた神と悪魔の戦い～]]] -- by  [[*user HAGU RUMA]]
 * [[[stengan774-3|恋昏崎新聞社社歌]]] -- by [[*user stengan774]]
 * [[[meteorite-crime|Shooting Startillery]]] -- by [[*user p51]]
 * [[[rigaiken-repo-research-proposal-2028-03-13-in-98|異災分霊を活用した神格存在の改霊・矯正の実証実験]]] -- by [[*user Tark_IOL]]
@@ -579,7 +579,7 @@ padding: 5px 0px;
 [[<]]
 
 * [[[touhei-co-jp-newsrelease-20600314-canon1998|東弊重工、国際軌道エレベーター「アース・ワン」建造プロジェクト参入を発表　国内企業で中核事業者としての参入は初]]] -- by [[*user SOYA-001]]
-* [[[yakushi-factory-tour|多要素共生社会の工場見学]]]  -- by [[*user carbon13]]
+* [[[yakushi-factory-tour|多要素共生社会の工場見学]]]  -- by [[*user carbon13]]
 
 [[/<]]
 [[/collapsible]]
@@ -642,7 +642,7 @@ padding: 5px 0px;
 * [[[soya-001-artwork-02|キャラクターイラスト集: 1998年]]] -- by [[*user SOYA-001]]
 * [[[81q5-sadness-pink|白き末期患者]]]^^[ZH]^^ -- by [[*user Dr V Valentine]]
 * [[[touhei-co-jp-newsrelease-20600314-canon1998|東弊重工、国際軌道エレベーター「アース・ワン」建造プロジェクト参入を発表　国内企業で中核事業者としての参入は初]]] -- by [[*user SOYA-001]]
-*  [[[artwork-manhattan|アートワーク:マンハッタンクライシス]]] -- by [[*user imoy]]
+*  [[[artwork-manhattan|アートワーク:マンハッタンクライシス]]] -- by [[*user imoy]]
 * [[[soya-001-logo-art-02|SOYA-001によるSCPで使われている/使える（かも知れない）SVGロゴ集]]] -- by [[*user SOYA-001]]
 * [[[lost-hometown|もう一度妻の声を聞きたい]]] -- by [[*user Dr V Valentine]]
 * [[[artwork-tokyo-incidents|アートワーク:東京事変]]] -- by [[*user imoy]]
@@ -708,7 +708,7 @@ padding: 5px 0px;
 
 > 共生と対立の渦巻く人類社会は、事件を繰り返すたびに流転する。それは太陽と共に生死の宙を舞うベンヌの如く。
 
-=  [[size 130%]] **前章：サハラ戦争編** [[/size]]
+=  [[size 130%]] **前章：サハラ戦争編** [[/size]]
 
 * [[[r-sinano-chuo-co-jp-2025-02-10-alt85yo|伝承部族連合軍がカイロ制圧を宣言 夏鳥テロ主導者は行方不明]]] -- by [[*user O-92_Mallet]]
 * [[[LTE-9202-Blue-Blackbuster]]] -- by [[*user O-92_Mallet]]
@@ -1224,49 +1224,49 @@ SCP財団・世界オカルト連合・プロメテウス研究所・アメリ�
 ------
 
 * **1998年**
- * **7月12日** ― **ポーランド神格存在出現事件 (イベント・ペルセポネ) 発生**。ショパン・カルト異端派がポーランド南部で巨大神格存在を召喚する。[[*http://scp-jp.wikidot.com/scp-1710-jp 言及]]
- * **7月13日** ― 早朝、UE-1076の撃破に伴ってイベント・ペルセポネが終了。撃破時の奇跡論的バックラッシュによってポーランド南部が壊滅。同日、SCP財団および世界オカルト連合はヴェール体制の終焉を発表。ポーランド内閣が再編され、復興活動が開始する。[[*http://scp-jp.wikidot.com/scp-1710-jp 言及]] [[*http://scp-jp.wikidot.com/early-summer-1998 言及]]
+ * **7月12日** ― **ポーランド神格存在出現事件 (イベント・ペルセポネ) 発生**。ショパン・カルト異端派がポーランド南部で巨大神格存在を召喚する。[[*http://scp-jp.wikidot.com/scp-1710-jp 言及]]
+ * **7月13日** ― 早朝、UE-1076の撃破に伴ってイベント・ペルセポネが終了。撃破時の奇跡論的バックラッシュによってポーランド南部が壊滅。同日、SCP財団および世界オカルト連合はヴェール体制の終焉を発表。ポーランド内閣が再編され、復興活動が開始する。[[*http://scp-jp.wikidot.com/scp-1710-jp 言及]] [[*http://scp-jp.wikidot.com/early-summer-1998 言及]]
 
 * **2001年**
- * **8月13日** ― 東芝が悪魔学を”再発見”。安全な代価の支払い方法の発見により、悪魔学拡散防止協定が破棄される。このことは民間へのパラテック普及の一因にもなる。[[*http://scp-jp.wikidot.com/scp-2041-jp 言及]]
- * **9月11日** ― **マンハッタン次元崩落テロ事件発生**。カオス・インサージェンシーのテロによりマンハッタン島が異次元に崩落。[[*http://scp-jp.wikidot.com/scp-2911-jp 言及]]
- * **9月15日** ― マンハッタンが基底次元に再浮上し、マンハッタン次元崩落テロ事件の終結が宣言される。[[*http://scp-jp.wikidot.com/scp-2911-jp 言及]]
- * **9月20日** ― 財団-GOC間でハドソン川協定が締結。同協定第125条はパラヒューマン人権問題解決への契機となった。[[*http://scp-jp.wikidot.com/scp-2911-jp 言及]]
+ * **8月13日** ― 東芝が悪魔学を”再発見”。安全な代価の支払い方法の発見により、悪魔学拡散防止協定が破棄される。このことは民間へのパラテック普及の一因にもなる。[[*http://scp-jp.wikidot.com/scp-2041-jp 言及]]
+ * **9月11日** ― **マンハッタン次元崩落テロ事件発生**。カオス・インサージェンシーのテロによりマンハッタン島が異次元に崩落。[[*http://scp-jp.wikidot.com/scp-2911-jp 言及]]
+ * **9月15日** ― マンハッタンが基底次元に再浮上し、マンハッタン次元崩落テロ事件の終結が宣言される。[[*http://scp-jp.wikidot.com/scp-2911-jp 言及]]
+ * **9月20日** ― 財団-GOC間でハドソン川協定が締結。同協定第125条はパラヒューマン人権問題解決への契機となった。[[*http://scp-jp.wikidot.com/scp-2911-jp 言及]]
 
 * **2006年**
- * **オルタナティブ・コロンビア事件発生**。コロンビアが全国家・正常性維持機関からの独立を宣言し、全国民を精神体へと移行。上空に投影された幻影国家は”オルタナティブ・コロンビア”の名で呼ばれるようになる。[[*http://scp-jp.wikidot.com/uiu-file-2011-119 言及]]
- * 日本にて跳躍路を採用したリニア中央新幹線が開業。[[*http://scp-jp.wikidot.com/the-f-2 言及]]
+ * **オルタナティブ・コロンビア事件発生**。コロンビアが全国家・正常性維持機関からの独立を宣言し、全国民を精神体へと移行。上空に投影された幻影国家は”オルタナティブ・コロンビア”の名で呼ばれるようになる。[[*http://scp-jp.wikidot.com/uiu-file-2011-119 言及]]
+ * 日本にて跳躍路を採用したリニア中央新幹線が開業。[[*http://scp-jp.wikidot.com/the-f-2 言及]]
 
 * **2009年**
- * **1月28日** ― **奇蹄病事件発生**。日本生類創研によりTX-85957獣変調ウィルスの偶発的アウトブレイクが引き起こされ、事態の収束までに日本国内で1500名が死亡。日本国内における動物特徴保持者の数が大幅に増加する。[[*http://scp-jp.wikidot.com/scp-2041-jp 言及]]
+ * **1月28日** ― **奇蹄病事件発生**。日本生類創研によりTX-85957獣変調ウィルスの偶発的アウトブレイクが引き起こされ、事態の収束までに日本国内で1500名が死亡。日本国内における動物特徴保持者の数が大幅に増加する。[[*http://scp-jp.wikidot.com/scp-2041-jp 言及]]
 
 * **2015年**
- * **スペイン国民カワウソ化事件発生**。スペイン王国にて要注意人物「トンガラシ翁」が神性を獲得。スペイン国民の9割がカワウソに変異し、翁の捕食対象となる。[[*http://scp-jp.wikidot.com/otter-al-ajillo 言及]]
+ * **スペイン国民カワウソ化事件発生**。スペイン王国にて要注意人物「トンガラシ翁」が神性を獲得。スペイン国民の9割がカワウソに変異し、翁の捕食対象となる。[[*http://scp-jp.wikidot.com/otter-al-ajillo 言及]]
 
 * **2017年**
- * **12月17日** ― **東京現実崩壊性広域災害 (東京事変) 発生**。東京全域で異常現象が急発生し、以後26年間東京を中心とする南関東を破壊し続ける。[[*http://scp-jp.wikidot.com/tokyo-incidents 言及]]
+ * **12月17日** ― **東京現実崩壊性広域災害 (東京事変) 発生**。東京全域で異常現象が急発生し、以後26年間東京を中心とする南関東を破壊し続ける。[[*http://scp-jp.wikidot.com/tokyo-incidents 言及]]
 
 * **2019年**
- * **9月13日** ― **二大陸正常化事件発生**。大規模なCKクラス: 再構築シナリオが発生し、アフリカおよび南米がイベント・ペルセポネの影響を受けていない形にリセットされる。これに伴い夏鳥思想連盟の活動が活発化。[[*http://scp-jp.wikidot.com/the-f 言及]]
+ * **9月13日** ― **二大陸正常化事件発生**。大規模なCKクラス: 再構築シナリオが発生し、アフリカおよび南米がイベント・ペルセポネの影響を受けていない形にリセットされる。これに伴い夏鳥思想連盟の活動が活発化。[[*http://scp-jp.wikidot.com/the-f 言及]]
 
 * **2020年**
- * **3月17日** ― 政府が首都機能の移転を発表。群馬県前橋市を中心に、計5道府県の県庁所在地に機能が分配される。前橋市の名称は”中央新都心”に変更され、パラテック産業の規制緩和が予定される。[[*http://scp-jp.wikidot.com/r-sinano-chuo-co-jp-2020-03-17-7wybf8 言及]]
- * 財団指定難病(DIDF)が制度化される。[[*http://scp-jp.wikidot.com/scp-2041-jp 言及]]
+ * **3月17日** ― 政府が首都機能の移転を発表。群馬県前橋市を中心に、計5道府県の県庁所在地に機能が分配される。前橋市の名称は”中央新都心”に変更され、パラテック産業の規制緩和が予定される。[[*http://scp-jp.wikidot.com/r-sinano-chuo-co-jp-2020-03-17-7wybf8 言及]]
+ * 財団指定難病(DIDF)が制度化される。[[*http://scp-jp.wikidot.com/scp-2041-jp 言及]]
 
 * **2025年**
- * 日本で異常性保持者保護法が改正され、新たに動物特徴保持者が保護の対象となる。[[*http://scp-jp.wikidot.com/r-sinano-chuo-co-jp-2038-05-18-1730hk1 言及]]
+ * 日本で異常性保持者保護法が改正され、新たに動物特徴保持者が保護の対象となる。[[*http://scp-jp.wikidot.com/r-sinano-chuo-co-jp-2038-05-18-1730hk1 言及]]
 
 * **2026年**
- * **3月13日** ― 日本が道州制を採用する。新たな首都となった群馬は大きな発展を遂げている。[[*http://scp-jp.wikidot.com/scp-2041-jp 言及]]
+ * **3月13日** ― 日本が道州制を採用する。新たな首都となった群馬は大きな発展を遂げている。[[*http://scp-jp.wikidot.com/scp-2041-jp 言及]]
 
 * **2041年**
- * **12月24日** ― **サイト-81Q5現実崩壊事件発生**。巨大医療施設サイト-81Q5にて局所的な現実崩壊が発生し、大量の患者・職員を巻き込んで異常空間化する。[[*http://scp-jp.wikidot.com/scp-2041-jp 言及]]
+ * **12月24日** ― **サイト-81Q5現実崩壊事件発生**。巨大医療施設サイト-81Q5にて局所的な現実崩壊が発生し、大量の患者・職員を巻き込んで異常空間化する。[[*http://scp-jp.wikidot.com/scp-2041-jp 言及]]
 
 * **2043年**
- * 東京現実崩壊性広域災害が終結。調査隊が派遣されだす。[[*http://scp-jp.wikidot.com/tokyo-incidents 言及]]
+ * 東京現実崩壊性広域災害が終結。調査隊が派遣されだす。[[*http://scp-jp.wikidot.com/tokyo-incidents 言及]]
 
 * **2048年**
- * 淡路島にて巨大神格存在が出現するも、現地に駐屯していた自衛隊により爆破処理される。[[*http://scp-jp.wikidot.com/ahashima 言及]]
+ * 淡路島にて巨大神格存在が出現するも、現地に駐屯していた自衛隊により爆破処理される。[[*http://scp-jp.wikidot.com/ahashima 言及]]
 
 = **[[size 150%]]To Be Continued…[[/size]]**
 
@@ -1284,13 +1284,13 @@ SCP財団・世界オカルト連合・プロメテウス研究所・アメリ�
 **[[size 120%]]拡張版設定資料集[[/size]]**
 [*http://pseudo-scp-jp.wikidot.com SCP-JP環境再現サイト] (外部サイト) に置かれている詳細な設定集。完全なものではなく、有識者を中心に日々追記が行なわれています。
 * [*http://pseudo-scp-jp.wikidot.com/1998-dictionary 『1998年』設定資料集ハブ]
- * [*http://pseudo-scp-jp.wikidot.com/words-1998 用語集]
- * [*http://pseudo-scp-jp.wikidot.com/1998-incidents-hub 超常事件集]
- * [*http://pseudo-scp-jp.wikidot.com/list-of-1998th-characters 登場人物事典]
- * [*http://pseudo-scp-jp.wikidot.com/1998-locations 登場ロケーション]
- * [*http://pseudo-scp-jp.wikidot.com/1998-timeline 詳細版タイムライン]
- * [*http://pseudo-scp-jp.wikidot.com/headlines1998 新聞見出しまとめ]
- * [*http://pseudo-scp-jp.wikidot.com/1998-divergence タイムライン分岐]
+ * [*http://pseudo-scp-jp.wikidot.com/words-1998 用語集]
+ * [*http://pseudo-scp-jp.wikidot.com/1998-incidents-hub 超常事件集]
+ * [*http://pseudo-scp-jp.wikidot.com/list-of-1998th-characters 登場人物事典]
+ * [*http://pseudo-scp-jp.wikidot.com/1998-locations 登場ロケーション]
+ * [*http://pseudo-scp-jp.wikidot.com/1998-timeline 詳細版タイムライン]
+ * [*http://pseudo-scp-jp.wikidot.com/headlines1998 新聞見出しまとめ]
+ * [*http://pseudo-scp-jp.wikidot.com/1998-divergence タイムライン分岐]
 
 ----
 
@@ -1306,14 +1306,14 @@ SCP財団・世界オカルト連合・プロメテウス研究所・アメリ�
 **[[size 120%]]テーマ / コンポーネント[[/size]]**
 1998カノンに強く関連するテーマやコンポーネント。
 * **SCP-JPへの正式投稿済**
- * [*http://scp-jp.wikidot.com/theme:newtouhei 新世代東弊重工テーマ]
- * [*http://scp-jp.wikidot.com/theme:manhattan-crisis マンハッタン・クライシス テーマ]
- * [*http://scp-jp.wikidot.com/theme:plvs-vltra プルス・ウルトラ テーマ]
- * [*http://scp-jp.wikidot.com/theme:teito-keizai 帝都経済新聞テーマ]
+ * [*http://scp-jp.wikidot.com/theme:newtouhei 新世代東弊重工テーマ]
+ * [*http://scp-jp.wikidot.com/theme:manhattan-crisis マンハッタン・クライシス テーマ]
+ * [*http://scp-jp.wikidot.com/theme:plvs-vltra プルス・ウルトラ テーマ]
+ * [*http://scp-jp.wikidot.com/theme:teito-keizai 帝都経済新聞テーマ]
 
 * **外部サイト**
- * [*http://pseudo-scp-jp.wikidot.com/old-tokyo-theme 東京事変テーマ]
- * [*http://msr-arc.wikidot.com/qingtan-exp Qingtanテンプレート]
+ * [*http://pseudo-scp-jp.wikidot.com/old-tokyo-theme 東京事変テーマ]
+ * [*http://msr-arc.wikidot.com/qingtan-exp Qingtanテンプレート]
 
 ----
 

@@ -1,49 +1,49 @@
 [[include :scp-jp:theme:basalt darkmode=a|redmode=a]]
 [[module CSS]]
 body {
-    background-image: none;
-    background-color: #0c0c0c;
+    background-image: none;
+    background-color: #0c0c0c;
 }
 
 div.page-rate-widget-box {
-     margin-top: -3em;
+     margin-top: -3em;
 }
 
 div.warning1 {
-     border: 3px solid #3a0000;
-     padding: 2em;
-     background: #422323;
-     margin: 0 auto 3rem;
-     width: 32.185em;
-     font-size: .7em;
-     text-align: justify;
+     border: 3px solid #3a0000;
+     padding: 2em;
+     background: #422323;
+     margin: 0 auto 3rem;
+     width: 32.185em;
+     font-size: .7em;
+     text-align: justify;
 }
 
 div.warning2 {
-      background: #3a0000;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-      font-size: 1.5rem;
-      font-weight: bold;
+      background: #3a0000;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
 }
 
 div.warning2 p {
-     margin: .3em;
+     margin: .3em;
 }
 
 div.collapsible-block-folded {
-     text-align: center;
+     text-align: center;
 }
 
 div.collapsible-block-unfolded-link {
-      display: none;
+      display: none;
 }
 
 @media (max-width: 767px) {
-     div.warning1 {
-         width: 80%;
-     }
+     div.warning1 {
+         width: 80%;
+     }
 }
 
 [[/module]]

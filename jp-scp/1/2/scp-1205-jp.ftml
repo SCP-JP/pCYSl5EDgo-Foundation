@@ -6,27 +6,27 @@
 
 [[module css]]
 .hello {
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    background: #b2f2ff;
-    border: solid 1px #000;
-    border-radius: 10px;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #b2f2ff;
+    border: solid 1px #000;
+    border-radius: 10px;
 }
 
 .box4 {
-    padding: 0em 1em;
-    margin: 0em 0;
-    background: #ffffff;
-    border: solid 1px #000000;
-    border-radiu: 1px;
+    padding: 0em 1em;
+    margin: 0em 0;
+    background: #ffffff;
+    border: solid 1px #000000;
+    border-radiu: 1px;
 }
 
 .box3 {
-    padding: 1em 1em;
-    margin: 2em 0;
-    background: #ffffff;
-    border: solid 2px #000000;
-    border-radiu: 2px;
+    padding: 1em 1em;
+    margin: 2em 0;
+    background: #ffffff;
+    border: solid 2px #000000;
+    border-radiu: 2px;
 }
 
 
@@ -53,11 +53,11 @@
 
 <style type="text/css">
 @import url(http://scp-jp.wdfiles.com/local--files/japanese-syntax/scp-WikidotCss.css);
- 
+ 
 .randomSentence{
 display:none;
 }
- 
+ 
 button{
 cursor:pointer;
 }
@@ -78,12 +78,12 @@ sentenceList.push(divList[i]);
 Ready = true;
 showRandomSentence();
 });
- 
+ 
 function showRandomSentence(){
 if(!Ready)return;
 var selectNumber = Math.floor(Math.random() * sentenceList.length);
 sentenceViewerDiv.innerHTML = sentenceList[selectNumber].innerHTML;
- 
+ 
 }
 </script>
 <div style="text-align: center;">
@@ -173,7 +173,7 @@ SCP-1205-JP内での映像の撮影及び送信は、未知の手段によって
 
 **目的:** 第1空間層内部の調査
 
-**結果:**  第1空間層内部では異常な物品は発見されませんでした。自動化された仕掛けが多く見受けられ、その殆どが幽霊や怪物を模したパネルや人形でした。D-16356の報告内容に通常の遊園地の設備との大きな差はありませんでした。D-16356に対して設備の一部を持ち出すことが指示されましたが、退場口の閉鎖によって回収は失敗しました。
+**結果:**  第1空間層内部では異常な物品は発見されませんでした。自動化された仕掛けが多く見受けられ、その殆どが幽霊や怪物を模したパネルや人形でした。D-16356の報告内容に通常の遊園地の設備との大きな差はありませんでした。D-16356に対して設備の一部を持ち出すことが指示されましたが、退場口の閉鎖によって回収は失敗しました。
 [[/div]]
 [[/collapsible]]
 @@@@

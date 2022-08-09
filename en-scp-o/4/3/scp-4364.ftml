@@ -32,8 +32,8 @@ line-height: 18.05px;
 <script type="text/javascript">
 var x = 2347;
 setInterval(function() {
-    x += 32;
-    document.getElementById("count").innerHTML = x;
+    x += 32;
+    document.getElementById("count").innerHTML = x;
 }, 1000);
 </script>
 </body>

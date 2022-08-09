@@ -37,8 +37,8 @@ Readers with particular sensitivities should also be aware that this story also 
 margin-bottom: -0.35em;
 }
 .content-warning-arrow {
-    height: 14px;
-    transform: scaleY(-1);
+    height: 14px;
+    transform: scaleY(-1);
 }
 [[/module]]
 
@@ -67,45 +67,45 @@ margin-bottom: -0.35em;
 
 /* Fix footnote superscript flying away: */
 .footnoteref, #page-content > sup {
-    top: -0.25em;
+    top: -0.25em;
 }
 
 /* Remove clear on image block when >600px wide */
 @media (max-width: 979px) and (min-width: 768px) {
-    #page-content div, #page-content div table {
-    clear: none;
-    }
+    #page-content div, #page-content div table {
+    clear: none;
+    }
 }
 
 .synopsis {
-    margin: 25px 8% 25px 6%;
-    padding: 2% 4% 2% 4%;
-    background-color: #f2f2f2;
+    margin: 25px 8% 25px 6%;
+    padding: 2% 4% 2% 4%;
+    background-color: #f2f2f2;
 }
 
 .memory {
-    margin: 0px 5% 0 3%;
+    margin: 0px 5% 0 3%;
 }
 
 .pictures4mobile {
-    height: 0px;
-    overflow: hidden;
+    height: 0px;
+    overflow: hidden;
 }
 
 .pictures4desk {
-    height: auto;
+    height: auto;
 }
 
 @media only screen and (max-width: 600px) {
 
-    .pictures4mobile {
-        height: auto;
-    }
+    .pictures4mobile {
+        height: auto;
+    }
 
-    .pictures4desk {
-        height: 0px;
-        overflow: hidden;
-    }
+    .pictures4desk {
+        height: 0px;
+        overflow: hidden;
+    }
 
 }
 [[/module]]

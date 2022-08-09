@@ -1,12 +1,12 @@
 [[module css]]
 @Media (max-width: 768px) {
-  .scp-image-block.block-right,
-  .scp-image-block.block-left {
-    float: none;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  .scp-image-block.block-right,
+  .scp-image-block.block-left {
+    float: none;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 [[/module]]
 [[include credit:start]]

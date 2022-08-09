@@ -119,7 +119,7 @@ The most serious breach of containment was the disappearance of Nico Gutierrez, 
 [[span style="float:left; margin-left:5px; margin-top:12px; padding: 0px 10px;"]]
 [[image Negitive.jpg width="50px"]]
 [[/span]]
-[[size 1.5em]] ##grey|Baby Shark  @doodoodoodoodoodoo## [[/size]]
+[[size 1.5em]] ##grey|Baby Shark  @doodoodoodoodoodoo## [[/size]]
 @@ @@
 @@ @@
 [[size 2em]] ##black|Where are all the new guys coming from? They look real freaky## [[/size]]
@@ -220,11 +220,11 @@ keep their teeth in, get a compress, and call a friend. Try to ask how they got 
 
 [[size 80%]] ##purple|EmporerOfSquambo## [[/size]] [[size 70%]]##grey|Grand Duchy of Squambo| An Empire of my own## (-35)[[/size]]
 GUYS, THE COLLECTIVE IS TURNING CORPS INTO ONEIROI ILLEGALLY
-@@      @@[[size 80%]] ##purple|ASilkenRug## [[/size]] [[size 70%]]##grey|On your feet | Nice and soft## [[/size]]
-@@       @@No way
+@@      @@[[size 80%]] ##purple|ASilkenRug## [[/size]] [[size 70%]]##grey|On your feet | Nice and soft## [[/size]]
+@@       @@No way
 
-@@      @@[[size 80%]] ##purple|EmporerOfSquambo## [[/size]] [[size 70%]]##grey|Grand Duchy of Squambo|An Empire of my own##[[/size]]
-@@        @@YES WAY, CHECK THE NEWS
+@@      @@[[size 80%]] ##purple|EmporerOfSquambo## [[/size]] [[size 70%]]##grey|Grand Duchy of Squambo|An Empire of my own##[[/size]]
+@@        @@YES WAY, CHECK THE NEWS
 [[/div]]
 @@ @@
 
@@ -251,7 +251,7 @@ That's all that's known for now, but subscribe to World News, and we'll keep you
 [[span style="float:left; margin-left:5px; margin-top:12px; padding: 0px 10px;"]]
 [[image NewPiskel(18).png width="50px"]]
 [[/span]]
-[[size 1.5em]] ##grey|Oneiroi West  @theoneiroicollective## [[/size]]
+[[size 1.5em]] ##grey|Oneiroi West  @theoneiroicollective## [[/size]]
 @@ @@
 @@ @@
 [[size 2em]] ##black|It had to be done## [[/size]]
@@ -268,84 +268,84 @@ That's all that's known for now, but subscribe to World News, and we'll keep you
 @import url('https://fonts.googleapis.com/css?family=Prompt:500');
 
 .snapchat, .snapchat-sender {
-    font-family: "Prompt", "Trebuchet MS", sans-serif;
-    font-weight: 500;
+    font-family: "Prompt", "Trebuchet MS", sans-serif;
+    font-weight: 500;
 }
 
 .snapchat {
-    border-left: 6px solid #999;
-    border-radius: 2px;
-    margin: 8px;
-    padding: 0 24px 0 4px;
-    font-size: 17px;
-    background: #e9ecf1;
-    max-width: 460px !important;
+    border-left: 6px solid #999;
+    border-radius: 2px;
+    margin: 8px;
+    padding: 0 24px 0 4px;
+    font-size: 17px;
+    background: #e9ecf1;
+    max-width: 460px !important;
 }
 
 .snapchat p {
-    margin: 0;
-    line-height: 1.55em;
+    margin: 0;
+    line-height: 1.55em;
 }
 
 .snapchat img {
-    margin: 8px 0 8px 12px;
+    margin: 8px 0 8px 12px;
 }
 
 .snapchat-sender {
-    font-size: 13px;
-    position: relative;
-    left: 7px;
-    bottom: -12px;
-    text-transform: uppercase;
+    font-size: 13px;
+    position: relative;
+    left: 7px;
+    bottom: -12px;
+    text-transform: uppercase;
 }
 
 .snapchat.snapchat-incoming {
-    border-left-color: #18aaf8;
+    border-left-color: #18aaf8;
 }
 
 .snapchat.snapchat-outgoing {
-    border-left-color: #f23b57;
+    border-left-color: #f23b57;
 }
 
 .snapchat-sender.snapchat-incoming {
-    color: #18aaf8;
+    color: #18aaf8;
 }
 
 .snapchat-sender.snapchat-outgoing {
-    color: #f23b57;
+    color: #f23b57;
 }
 
 .snapchat.snapchat-typing {
-    border-left-width: 3px;
-    background-color: white;
-    padding-right: 0;
+    border-left-width: 3px;
+    background-color: white;
+    padding-right: 0;
 }
 
 .snapchat.snapchat-typing:after {
-    content: "typing...";
-    font-size: small;
-    color: #666;
-    pointer-events: none;
+    content: "typing...";
+    font-size: small;
+    color: #666;
+    pointer-events: none;
 }
 
 @media (min-width: 480px) {
-    .snapchat.snapchat-typing p:last-child {
-        margin-bottom: -12px
-    }
+    .snapchat.snapchat-typing p:last-child {
+        margin-bottom: -12px
+    }
 
-    .snapchat.snapchat-typing:after {
-        content: url("http://scp-wiki.wdfiles.com/local--files/grin-and-bear-it/stacey-typing");
-        position: relative;
-        left: -7px;
-        speak: none;
-        pointer-events: none;
-    }
+    .snapchat.snapchat-typing:after {
+        content: url("http://scp-wiki.wdfiles.com/local--files/grin-and-bear-it/stacey-typing");
+        position: relative;
+        left: -7px;
+        speak: none;
+        pointer-events: none;
+    }
 
-    .jumbomoji {
-        line-height: 48px;
-        font-size: 32px;
-        letter-spacing: -0.17em;
-    }
+    .jumbomoji {
+        line-height: 48px;
+        font-size: 32px;
+        letter-spacing: -0.17em;
+    }
 }
 
 [[/module]]

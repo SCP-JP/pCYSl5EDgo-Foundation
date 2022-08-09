@@ -7,63 +7,63 @@
 [[include :scp-wiki:component:centered-header-bhl]]
 [[module css]]
 body{
-    --barColour: #710709;
+    --barColour: #710709;
 }
 
 :root {
-    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/nb_logo_blk.svg");
-    --wght: 500;
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/nb_logo_blk.svg");
+    --wght: 500;
 }
 
 .quote-text {
-    display: inline-block;
-    border:dashed 1px #999999;
-    background:#1b1c1f;
-    float:center;
-    width:84%;
-    padding:1px 15px;
-    margin: 10px 10px 10px 30px
+    display: inline-block;
+    border:dashed 1px #999999;
+    background:#1b1c1f;
+    float:center;
+    width:84%;
+    padding:1px 15px;
+    margin: 10px 10px 10px 30px
 }
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Collaboration";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
-    line-height: 2.75ex;
+    --wght: 800;
+    content: "Collaboration";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 2.75ex;
 }
 [[/module]]
 
@@ -112,7 +112,7 @@ SCP-6807を上る人物や物体は、鉛直距離で30～40mの高さに達す�
 [[div class="quote-text"]]
 
 **任務の目的:** 長時間の探索によって、アノマリーの通常時の特性との違いが表出しないかを確認する。エージェント ゲラが単独で調査を行い、エージェント ビジャレアルが司令役を担当する。緊急時の回収役を務める後援エージェント2名が階段の基部で待機する。
- 
+ 
 ----
 
 //(エージェント ゲラがSCP-6807に通じるドアを開ける。視認性が劇的に悪化する。)//

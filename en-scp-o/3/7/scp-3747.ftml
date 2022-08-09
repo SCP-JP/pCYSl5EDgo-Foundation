@@ -7,152 +7,152 @@
 <style type="text/css">
 body
 {
-   font-family:verdana,arial,helvetica,sans-serif;
-   font-size:12.8px;
-   color:#333;
-   line-height:141%
+   font-family:verdana,arial,helvetica,sans-serif;
+   font-size:12.8px;
+   color:#333;
+   line-height:141%
 }
 blockquote
 {
-  border:1px dashed #999;
-  padding: 0 12.8px;
-  background-color:#f4f4f4
+  border:1px dashed #999;
+  padding: 0 12.8px;
+  background-color:#f4f4f4
 }
 a {
-    color: #b01;
-    text-decoration: none;
-    background: transparent;
+    color: #b01;
+    text-decoration: none;
+    background: transparent;
 }
 a.newpage {
-    color: #d61;
-    text-decoration: none;
-    background: transparent;
+    color: #d61;
+    text-decoration: none;
+    background: transparent;
 }
 a:hover {
-    text-decoration: underline;
-    background-color: transparent;
+    text-decoration: underline;
+    background-color: transparent;
 }
 .collapsed {
-  display: none;
+  display: none;
 }
 .vanished {
-  display: none;
+  display: none;
 }
 .warning-cont {
-  color: red;
-  text-align: center;
+  color: red;
+  text-align: center;
 }
 #warning-header {
-  size: 25.6px;
+  size: 25.6px;
 }
 #warning {
-  size: 20px;
+  size: 20px;
 }
 .retrofont {
 font-family: 'Geo', cursive;
 font-weight: bold;
 }
 .cblwarning {
-  color: red;
+  color: red;
 }
 .green {
-  color: green;
+  color: green;
 }
 </style>
 <script type="text/javascript">
 function addEvent(element, eventName, callback) {
-    if (element.addEventListener) {
-        element.addEventListener(eventName, callback, false);
-    } else if (element.attachEvent) {
-        element.attachEvent("on" + eventName, callback);
-    } else {
-        element["on" + eventName] = callback;
-    }
+    if (element.addEventListener) {
+        element.addEventListener(eventName, callback, false);
+    } else if (element.attachEvent) {
+        element.attachEvent("on" + eventName, callback);
+    } else {
+        element["on" + eventName] = callback;
+    }
 }
 
 window.toggle = function(cls) {
-  var collapsed = document.querySelectorAll("." + cls + ".collapsed");
-  var expanded = document.querySelectorAll("." + cls + ":not(.collapsed)");
-  var i;
-  for(i = 0; i < collapsed.length; i++) {
-    collapsed[i].classList.remove("collapsed");
-  }
-  for(i = 0; i < expanded.length; i++) {
-    expanded[i].classList.add("collapsed");
-  }
+  var collapsed = document.querySelectorAll("." + cls + ".collapsed");
+  var expanded = document.querySelectorAll("." + cls + ":not(.collapsed)");
+  var i;
+  for(i = 0; i < collapsed.length; i++) {
+    collapsed[i].classList.remove("collapsed");
+  }
+  for(i = 0; i < expanded.length; i++) {
+    expanded[i].classList.add("collapsed");
+  }
 };
 
 // typewriter code
 function Typewriter(el, str, delay) {
-  if (!(this instanceof Typewriter)) return new Typewriter(el, str, delay);
+  if (!(this instanceof Typewriter)) return new Typewriter(el, str, delay);
 
-  this.el = el;
-  this.str = str || el.innerHTML || el.value;
-  this.delay = delay || 100;
-  this.i = 0;
+  this.el = el;
+  this.str = str || el.innerHTML || el.value;
+  this.delay = delay || 100;
+  this.i = 0;
 }
 
 Typewriter.prototype.type = function() {
-  var i = this.i,
-    char = this.str.charAt(i);
+  var i = this.i,
+    char = this.str.charAt(i);
 
-  if (!char) {
-    clearInterval(this.intervalID);
-    return this;
-  }
+  if (!char) {
+    clearInterval(this.intervalID);
+    return this;
+  }
 
-  if (char === '<') this.isTag = true;
-  if (char === '>') this.isTag = false;
+  if (char === '<') this.isTag = true;
+  if (char === '>') this.isTag = false;
 
-  this.el.innerHTML += char;
-  return this.i++;
+  this.el.innerHTML += char;
+  return this.i++;
 };
 
 Typewriter.prototype.start = function() {
-  var self = this;
-  if (this.i < 0) this.i = 0;
-  if (this.el.innerHTML === this.str) this.clear();
+  var self = this;
+  if (this.i < 0) this.i = 0;
+  if (this.el.innerHTML === this.str) this.clear();
 
-  // this.emit('start');
-  (function loop() {
-    self.type();
-    if (self.isTag) return loop();
-    self.intervalID = setTimeout(loop, self.delay);
-  }());
+  // this.emit('start');
+  (function loop() {
+    self.type();
+    if (self.isTag) return loop();
+    self.intervalID = setTimeout(loop, self.delay);
+  }());
 
-  return this;
+  return this;
 };
 
 Typewriter.prototype.stop = function() {
-  this.i = -1;
-  return this;
+  this.i = -1;
+  return this;
 };
 
 Typewriter.prototype.restart = function() {
-  this.clear();
-  this.i = 0;
-  return this.start();
+  this.clear();
+  this.i = 0;
+  return this.start();
 };
 
 Typewriter.prototype.clear = function() {
-  this.el.innerHTML = '';
-  return this;
+  this.el.innerHTML = '';
+  return this;
 };
 
 var junkChars = ['ó','ò','ñ','ç','¿','ß','à','è','ì','ù','Œ','þ','█','%','+','=','.','«','»','£','$','€','½','¾','À','È','Ì','Ò','Ù','Â','Ê','â','ê','Ä','Ë','ä','ë','ÿ','ü','•'];
 
 var randomIntFromInterval = function(min,max)
 {
-  return Math.floor(Math.random()*(max-min+1)+min);
+  return Math.floor(Math.random()*(max-min+1)+min);
 };
 
 var getJunkChars = function(length) {
-  var res = '';
-  var i;
-  for (i = 0; i < length; i++) {
-    res += junkChars[randomIntFromInterval(0,junkChars.length - 1)];
-  }
-  return res;
+  var res = '';
+  var i;
+  for (i = 0; i < length; i++) {
+    res += junkChars[randomIntFromInterval(0,junkChars.length - 1)];
+  }
+  return res;
 };
 
 var selTabs = [];
@@ -160,11 +160,11 @@ var selTabs = [];
 window.onload = function() { 
 
 selTabs = [
-  document.getElementsByClassName('selTab1')[0],
-  document.getElementsByClassName('selTab2')[0],
-  document.getElementsByClassName('selTab3')[0],
-  document.getElementsByClassName('selTab4')[0],
-  document.getElementsByClassName('selTab5')[0]
+  document.getElementsByClassName('selTab1')[0],
+  document.getElementsByClassName('selTab2')[0],
+  document.getElementsByClassName('selTab3')[0],
+  document.getElementsByClassName('selTab4')[0],
+  document.getElementsByClassName('selTab5')[0]
 ];
 
 var msg1 = '= SECURITY CLEARANCE REQUIRED =';
@@ -177,7 +177,7 @@ var toD1 = delay1 * (msg1.length);
 var toD2 = delay2 * (msg2.length);
 
 var stopEarly = function(){
-  document.querySelectorAll("." + "article" + ":not(.collapsed)")[0].classList.remove("vanished");
+  document.querySelectorAll("." + "article" + ":not(.collapsed)")[0].classList.remove("vanished");
 };
 
 var typ1 =Typewriter(document.querySelectorAll('#warning-header')[0],msg1,delay1)
@@ -191,27 +191,27 @@ setTimeout(function() { typ2.start(); }, toD1 + 500);
 setTimeout(function () { document.querySelectorAll("." + "article" + ":not(.collapsed)")[0].classList.remove("vanished"); }, toD2 + toD1 + 500 + 750);
 
 addEvent(document.querySelectorAll('.verpercle')[0],"click",function(){
-  document.getElementsByClassName('selector')[0].classList.remove('vanished');
+  document.getElementsByClassName('selector')[0].classList.remove('vanished');
 });
 };
 
 var toggled = 0;
 window.afterfirstclick = function() {
-  toggle('article');
-  if (toggled === 0) {
-  setTimeout(function() { 
-    var para = document.querySelectorAll('.verpercle')[0];
-    para.innerHTML += '.';},1000);
-  setTimeout(function() { 
-    var para = document.querySelectorAll('.verpercle')[0];
-    para.innerHTML += '.';},2000);
-  setTimeout(function() { 
-    var para = document.querySelectorAll('.verpercle')[0];
-    para.innerHTML += '.';},3000);
-    toggled = 1;
-  setTimeout(function() {
-    document.querySelectorAll("." + "selector")[0].classList.remove("vanished");},4000);
-  }
+  toggle('article');
+  if (toggled === 0) {
+  setTimeout(function() { 
+    var para = document.querySelectorAll('.verpercle')[0];
+    para.innerHTML += '.';},1000);
+  setTimeout(function() { 
+    var para = document.querySelectorAll('.verpercle')[0];
+    para.innerHTML += '.';},2000);
+  setTimeout(function() { 
+    var para = document.querySelectorAll('.verpercle')[0];
+    para.innerHTML += '.';},3000);
+    toggled = 1;
+  setTimeout(function() {
+    document.querySelectorAll("." + "selector")[0].classList.remove("vanished");},4000);
+  }
 };
 
 var encrypting = 0;
@@ -220,42 +220,42 @@ var freakingOut = 0;
 
 var unencrypt = function(element,num) {
 /*
-  encrypting = 1;
-  var encryptableElems = getTextNodes(element);
-  var cbl = element.getElementsByClassName('cblwarning')[0];
-  if (encryptableElems.length !== 0) {
-  var buckets = [];
-  var i = 0;
-  for (i = 0; i < encryptableElems.length; i++) {
-    buckets[i] = encryptionBucket(encryptableElems[i],cbl);
-  }
-  for (i = 0; i < encryptableElems.length; i++) {
-    buckets[i].enc(num);
-  }
-  }
-  setTimeout(function(){encrypting = 0;},3000);
+  encrypting = 1;
+  var encryptableElems = getTextNodes(element);
+  var cbl = element.getElementsByClassName('cblwarning')[0];
+  if (encryptableElems.length !== 0) {
+  var buckets = [];
+  var i = 0;
+  for (i = 0; i < encryptableElems.length; i++) {
+    buckets[i] = encryptionBucket(encryptableElems[i],cbl);
+  }
+  for (i = 0; i < encryptableElems.length; i++) {
+    buckets[i].enc(num);
+  }
+  }
+  setTimeout(function(){encrypting = 0;},3000);
 */
 };
 
 window.showSelTab = function(num) {
-  if (encrypting === 0 && lastSelTabOpened === 0) {
-  var selTab = selTabs[num];
-  for (i = 0; i < selTabs.length; i++) {
-    var st = selTabs[i];
-    if (!(st.classList.contains('vanished')))
-      st.classList.add('vanished');
-  }
-  unencrypt(selTab,num);
-  selTab.classList.remove('vanished');
+  if (encrypting === 0 && lastSelTabOpened === 0) {
+  var selTab = selTabs[num];
+  for (i = 0; i < selTabs.length; i++) {
+    var st = selTabs[i];
+    if (!(st.classList.contains('vanished')))
+      st.classList.add('vanished');
+  }
+  unencrypt(selTab,num);
+  selTab.classList.remove('vanished');
 }};
 </script>
 <div class="part1">
 <div class="warning-cont">
 <h2 id="warning-header"> 
-  
+  
 </p>
-<h3 id="warning">  
- 
+<h3 id="warning">  
+ 
 </p>
 </div>
 
@@ -263,7 +263,7 @@ window.showSelTab = function(num) {
 <p><center><a onclick="afterfirstclick();">[ INPUT PERSONAL IDENTIFICATION NUMBER ]</a></center></p>
 </div>
 <div class="article collapsed">
- <p><center><a onclick="toggle('article');">[ PERSONAL IDENTIFICATION NUMBER VERIFIED ]</a></center></p>
+ <p><center><a onclick="toggle('article');">[ PERSONAL IDENTIFICATION NUMBER VERIFIED ]</a></center></p>
 <hr />
 <p><sub><tt><sub class="verpercle">VERIFYING PERSONNEL CLEARANCE</tt></sub></p>
 <div class="selector vanished">
@@ -333,7 +333,7 @@ window.showSelTab = function(num) {
 <p><b>Description:</b> SCP-3747 is a Dell Inspiron PP12L Laptop manufactured by Dell Technologies in 2004. SCP-3747 runs the Windows XP SP2 operating system, and its hard drive's contents include several documents, pictures, and games. Full technical specifications can be found in Document 3747-23.</p>
 <p>On the desktop of SCP-3747 is an executable named "connect.exe". Running the executable will show a command prompt window with two lines of text. The first line will always read "CONNECT v1.0". The second line is a brief status report describing SCP-3747-A. These "reports" describe the current state of SCP-3747-A, as well as its current location in intergalactic spacetime. A list of known reports can be found in Document 3747-34.</p>
 <p style="color: blue;">SCP-3747-A is the designation for six objects generally located near the Saturn Hexagon.
- All instances of SCP-3747-A are identical, and are red crescent-shaped vehicles that are at least 1.3 kilometers in height. Instances of SCP-3747-A are extremely durable, as they regularly inhabit levels of Saturn's atmosphere where pressure is at ██ megapascals. Instances of SCP-3747-A are capable of faster-than-light travel, and can navigate interstellar space successfully. SCP-3747-A is always in a ring formation of at least 20 kilometers in diameter. Instances of SCP-3747-A are equipped with various appendages used for an unknown function.</p>
+ All instances of SCP-3747-A are identical, and are red crescent-shaped vehicles that are at least 1.3 kilometers in height. Instances of SCP-3747-A are extremely durable, as they regularly inhabit levels of Saturn's atmosphere where pressure is at ██ megapascals. Instances of SCP-3747-A are capable of faster-than-light travel, and can navigate interstellar space successfully. SCP-3747-A is always in a ring formation of at least 20 kilometers in diameter. Instances of SCP-3747-A are equipped with various appendages used for an unknown function.</p>
 <p style="color: blue;">SCP-3747-A follows a cycle with two main phases:</p>
 <ul style="color: blue;">
 <li><b>Inactive Phase:</b> SCP-3747-A is at rest. During this phase, it can be found within the Saturn Hexagon at a depth of █ kilometers. During this time, SCP-3747-A is stationary.</li>
@@ -379,7 +379,7 @@ window.showSelTab = function(num) {
 <p><b>Description:</b> SCP-3747 is a Dell Inspiron PP12L Laptop manufactured by Dell Technologies in 2004. SCP-3747 runs the Windows XP SP2 operating system, and its hard drive's contents include several documents, pictures, and games. Full technical specifications can be found in Document 3747-23.</p>
 <p>On the desktop of SCP-3747 is an executable named "connect.exe". Running the executable will show a command prompt window with two lines of text. The first line will always read "CONNECT v1.0". The second line is a brief status report describing SCP-3747-A. hese "reports" describe the current state of SCP-3747-A, as well as its current location in intergalactic spacetime. A list of known reports can be found in Document 3747-34.</p>
 <p>SCP-3747-A is the designation for six objects generally located near the Saturn Hexagon.
- All instances of SCP-3747-A are identical, and are red crescent-shaped vehicles that are at least 1.3 kilometers in height. Instances of SCP-3747-A are durable, as they regularly inhabit levels of Saturn's atmosphere where pressure is at ██ megapascals. Instances of SCP-3747-A are capable of faster-than-light travel, and can navigate interstellar space successfully. SCP-3747-A is always in a ring formation of at least 20 kilometers in diameter. Instances of SCP-3747-A are equipped with various appendages used for <span style="color: blue;">the neutralization of SCP-3747-B instances.</span></p>
+ All instances of SCP-3747-A are identical, and are red crescent-shaped vehicles that are at least 1.3 kilometers in height. Instances of SCP-3747-A are durable, as they regularly inhabit levels of Saturn's atmosphere where pressure is at ██ megapascals. Instances of SCP-3747-A are capable of faster-than-light travel, and can navigate interstellar space successfully. SCP-3747-A is always in a ring formation of at least 20 kilometers in diameter. Instances of SCP-3747-A are equipped with various appendages used for <span style="color: blue;">the neutralization of SCP-3747-B instances.</span></p>
 <p>SCP-3747-A follows a cycle with <span style="color: blue;">three</span> main phases:</p>
 <ul>
 <li><b>Inactive Phase:</b> SCP-3747-A is at rest. During this phase, it can be found within the Saturn Hexagon at a depth of █ kilometers. During this time, SCP-3747-A is stationary.</li>
@@ -423,9 +423,9 @@ window.showSelTab = function(num) {
 <blockquote>
 <p>In order to understand the anomaly designated SCP-3747-B, you must understand the standard model. You have four categories. The first are quarks, which are what makes up protons and neutrons. The second are the leptons, which contains the electrons we use to make atoms. The third are the bosons, which are the driving force that allows atoms to move, stop, and move again. The fourth, and arguable the most important, is the Higgs Boson, which has a category all to itself. The Higgs Boson, or, more specifically, the Higgs Field, is what gives things mass. Mass is important in the realm of physics, as it determines, more or less, the results of the reactions that make up our universe.</p>
 <p>All particles naturally progress towards a vacuum state, or when a particle has no energy. A particle in this state is referred to as being within a "true vacuum". However, the Higgs field does not follow this rule. With our current understanding of quantum physics, it is possible that the Higgs Field is "metastable", which means that it exists in a resting state, but it has not yet reached its ground state. This "resting state" is known as a "false vacuum". Picture the false vacuum as a coat hook, the true vacuum as the floor, and a Higgs Boson as a coat. The coat hangs on the coat hook, at rest. However, all it takes is a small amount of momentum, and the coat tumbles to the floor.</p>
-<p>So, let's say that the Higgs Boson suddenly stops being metastable, and starts moving towards a true vacuum. First of all, as the Higgs Boson in this state would have a large amount of potential energy, an equal amount of energy would be released from this process. This would cause other Higgs Bosons to exit the state of  metastability, therefore causing a chain reaction in the entire Higgs Field. Secondly, the result of all of these Higgs Bosons collapsing into their true vacuum state would cause the very definition of "mass" to change, and with it, the entirety of the rules of physics. The sheer energy released from this reaction would most likely destroy everything that it comes in contact with. The remaining particles, however, would act in completely different ways, in ways that would most likely be unable to sustain life as we know it.</p>
+<p>So, let's say that the Higgs Boson suddenly stops being metastable, and starts moving towards a true vacuum. First of all, as the Higgs Boson in this state would have a large amount of potential energy, an equal amount of energy would be released from this process. This would cause other Higgs Bosons to exit the state of  metastability, therefore causing a chain reaction in the entire Higgs Field. Secondly, the result of all of these Higgs Bosons collapsing into their true vacuum state would cause the very definition of "mass" to change, and with it, the entirety of the rules of physics. The sheer energy released from this reaction would most likely destroy everything that it comes in contact with. The remaining particles, however, would act in completely different ways, in ways that would most likely be unable to sustain life as we know it.</p>
 <p>There are actually several methods to knock the Higgs Boson from this metaphorical coat hanger. The most mundane is through quantum tunneling, however, <a target="_top" href="http://www.scp-wiki.net/scp-319">several anomalies</a> could also cause this reaction. So, why haven't we seen an expanding death sphere yet? Because of the anomaly we classify as SCP-3747-A. We actually don't know how SCP-3747-A stops this reaction, but the working theory is that it manually moves the Higgs Field back to the false vacuum state through anomalous means.</p>
-<p>In conclusion, I  submit my proposal that the anomaly we term SCP-3747-B is the result of this chain reaction; the Higgs Field beginning to collapse.</p>
+<p>In conclusion, I  submit my proposal that the anomaly we term SCP-3747-B is the result of this chain reaction; the Higgs Field beginning to collapse.</p>
 <p><i>- Senior Researcher Graham</i></p>
 </blockquote>
 </span>
@@ -446,7 +446,7 @@ window.showSelTab = function(num) {
 <p>SCP-3747 is a Dell Inspiron PP12L Laptop manufactured by Dell Technologies in 2004. SCP-3747 runs the Windows XP SP2 operating system, and its hard drive's contents include several documents, pictures, and games. Full technical specifications can be found in Document 3747-23.</p>
 <p>On the desktop of SCP-3747 is an executable named "connect.exe". Running the executable will show a command prompt window with two lines of text. The first line will always read "CONNECT v1.0". The second line is a brief status report describing SCP-3747-A. These "reports" describe the current state of SCP-3747-A, as well as its current location in intergalactic spacetime. A list of known reports can be found in Document 3747-34.</p>
 <p>SCP-3747-A is the designation for six objects generally located near the Saturn Hexagon.
- All instances of SCP-3747-A are identical, and are red crescent-shaped vehicles that are at least 1.3 kilometers in height. Instances of SCP-3747-A are durable, as they regularly inhabit levels of Saturn's atmosphere where pressure is at ██ megapascals. Instances of SCP-3747-A are capable of faster-than-light travel, and can navigate interstellar space successfully. SCP-3747-A is always in a ring formation of at least 20 kilometers in diameter. Instances of SCP-3747-A are equipped with various appendages used for the neutralization of SCP-3747-B instances.</p>
+ All instances of SCP-3747-A are identical, and are red crescent-shaped vehicles that are at least 1.3 kilometers in height. Instances of SCP-3747-A are durable, as they regularly inhabit levels of Saturn's atmosphere where pressure is at ██ megapascals. Instances of SCP-3747-A are capable of faster-than-light travel, and can navigate interstellar space successfully. SCP-3747-A is always in a ring formation of at least 20 kilometers in diameter. Instances of SCP-3747-A are equipped with various appendages used for the neutralization of SCP-3747-B instances.</p>
 <p>SCP-3747-A follows a cycle with three main phases:</p>
 <ul>
 <li><b>Inactive Phase:</b> SCP-3747-A is at rest. During this phase, it can be found within the Saturn Hexagon at a depth of █ kilometers. During this time, SCP-3747-A is stationary.</li>

@@ -3,19 +3,19 @@
 
 [[module CSS]]
 div#extra-div-1 {
-     width: 100%;
-     height: calc(100% - var(--final-header-height-on-desktop));
-     position: absolute;
-     top: calc(var(--final-header-height-on-desktop));
-     left: 0;
-     z-index: -1;
-     mask: var(--gradient-background);
-     -webkit-mask: var(--gradient-background);
-     background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:4052664-38-give/Hubble_view_of_M_106_%288450543502%29.jpg);
-     background-size: 100%, 80% var(--background-gradient-distance);
-     background-blend-mode: difference;
-     background-repeat: no-repeat, repeat-x;
-     pointer-events: none;
+     width: 100%;
+     height: calc(100% - var(--final-header-height-on-desktop));
+     position: absolute;
+     top: calc(var(--final-header-height-on-desktop));
+     left: 0;
+     z-index: -1;
+     mask: var(--gradient-background);
+     -webkit-mask: var(--gradient-background);
+     background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:4052664-38-give/Hubble_view_of_M_106_%288450543502%29.jpg);
+     background-size: 100%, 80% var(--background-gradient-distance);
+     background-blend-mode: difference;
+     background-repeat: no-repeat, repeat-x;
+     pointer-events: none;
 }
 [[/module]]
 
@@ -139,7 +139,7 @@ SCP-5843は自身の星系全体を共鳴させ、言語によるコミュニケ
 
 **SCP-5843:** ひち- ちゅよ- よお- にゃ- い
 
-**Binary Star:**  「必要ない」ですね。分かりました。では、貴方の目的は?
+**Binary Star:**  「必要ない」ですね。分かりました。では、貴方の目的は?
 
 //2分間の沈黙。//
 

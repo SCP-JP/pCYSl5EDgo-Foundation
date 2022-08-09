@@ -3,43 +3,43 @@
 
 [[module css]]
 .page {
-    display: block;
-    overflow: hidden;
-    font-size: 175%;
-    font-family: "VT323", "Courier New";
-    font-style: normal;
+    display: block;
+    overflow: hidden;
+    font-size: 175%;
+    font-family: "VT323", "Courier New";
+    font-style: normal;
 
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-    background-origin: padding-box;
-    background-position: 0px 8px;
-    background-repeat: repeat;
-    background-size: 100% 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
 
-    border: 1px solid #CCC;
-    border-radius: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
 .page p,
 .page ul {
-    line-height: 20px;
-    margin: 0;
+    line-height: 20px;
+    margin: 0;
 }
 [[/module]]
 
 [[module CSS]]
 :root {
-    --timeDelay: 0.25s;
+    --timeDelay: 0.25s;
 [[/module]]
 
 [[module CSS]]
 #header {
-  background-image: url(http://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/43pride.png)
+  background-image: url(http://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/43pride.png)
 }
 [[/module]]
 
@@ -87,20 +87,20 @@ Also check out my other articles!
 [[module CSS]]
 .anom-bar-container.ESOTERICCLASSNAME .text-part > .main-class::after,
 .anom-bar-container.ESOTERICCLASSNAME .danger-diamond > .bottom-icon::before {
-  background-color: orchid;
+  background-color: orchid;
 }
 [[/module]]
 
 [[module CSS]]
 .anom-bar-container.truculent .text-part > .main-class::after,
 .anom-bar-container.truculent .danger-diamond > .bottom-icon::before {
-  background-color: orchid;
+  background-color: orchid;
 }
 [[/module]]
 
 [[module CSS]]
 .anom-bar-container.truculent .quadrants > .bottom-quad {
-  background-color: thistle;
+  background-color: thistle;
 }
 [[/module]]
 ----
@@ -124,7 +124,7 @@ Whenever these instructions are followed, a unique anomalous event will occur ba
 
 SCP-5496 itself is made of an unknown, extremely durable material visually reminiscent of rusted metal. Small pencils and slips of paper are also present next to a horizontal opening at the top.[[footnote]]Though displaying no anomalous properties in themselves, SCP-5496 will anomalously generate new pencils and slips of paper to replace those taken.[[/footnote]]
 
-**Discovery:** SCP-5496 was unwittingly “discovered" and utilized by a number of staff over a three-day period. Staff who did not initially recognize its anomalous properties or a potential connection to the recent major increase in the number of on-site accidents, technical failures, and maintenance issues. Most staff outside of either the Quantum Supermechanics or the adjacent Research and Experimentation sections, including those in Hiring and Regulation and administrative positions, remained initially unaware of the appearances of SCP-5496. It wasn't until the morning of February 14, 2022, that any staff members directly noted the apparent anomalous results which followed submissions to SCP-5496.   Dr. Xinyi Du, Chair of Quantum Supermechanics, reported the appearance of SCP-5496-1 and his team's suspicions of its anomalous nature. A video log is available below;
+**Discovery:** SCP-5496 was unwittingly “discovered" and utilized by a number of staff over a three-day period. Staff who did not initially recognize its anomalous properties or a potential connection to the recent major increase in the number of on-site accidents, technical failures, and maintenance issues. Most staff outside of either the Quantum Supermechanics or the adjacent Research and Experimentation sections, including those in Hiring and Regulation and administrative positions, remained initially unaware of the appearances of SCP-5496. It wasn't until the morning of February 14, 2022, that any staff members directly noted the apparent anomalous results which followed submissions to SCP-5496.   Dr. Xinyi Du, Chair of Quantum Supermechanics, reported the appearance of SCP-5496-1 and his team's suspicions of its anomalous nature. A video log is available below;
 
 [[collapsible show="■ View Video Log ■" hide="□ Close Log □"hideLocation="both"]]
 
@@ -305,14 +305,14 @@ The following is a running log summarizing prior SCP-5496 containment strategies
 [[div class="blockquote"]]
 **Method:** Put up highly visible warning signs around instances to alert staff and warn them not to utilize the object.
 -----
-**Results:** All warning signs and posters in immediate vicinity translocated. SCP-5496  remained in its prior location.
+**Results:** All warning signs and posters in immediate vicinity translocated. SCP-5496  remained in its prior location.
 -----
 **Additional Notes:** Each individual piece of warning material appears to have translocated to different locations, all of which appear to function either directly or indirectly towards general waste disposal. Examples of places where warning materials or their remains were subsequently found include three separate nearby garbage bins, two paper shredders, filters from one Acroamatic Abatement processor, and the containment cell of SCP-████
 [[/div]]
 [[div class="blockquote"]]
 **Method:** Make a “suggestion” that SCP-5496 be permanently removed from Site-43.
 -----
-**Results:** All direct mentions of SCP-5496 by its previous designation, SCP-[DATA  CORRUPTED] removed from internal and digital documentation when accessed on-site. This does not extend to its newer (and current) designation of SCP-5496.
+**Results:** All direct mentions of SCP-5496 by its previous designation, SCP-[DATA  CORRUPTED] removed from internal and digital documentation when accessed on-site. This does not extend to its newer (and current) designation of SCP-5496.
 -----
 **Additional Notes:** Effect does not extend outside grounds of Site-43, and the previous designation has since been successfully reassigned. That article has been programmed to display an alternate item number and an accompanying note of explanation when accessed from within Site-43.
 [[/div]]
@@ -363,7 +363,7 @@ Subsequent correspondence with SCP-5520 indicates that SCP-5520 was and remains 
 [[/div]]
 
 **Res. Gibson:** Wait, when you say "suggestion"...
- 
+ 
 **Res. Gibson:** Did you submit this via a sort of ‘suggestion box’ by any chance, if one appeared down there? 
 
 [[div class="page"]]

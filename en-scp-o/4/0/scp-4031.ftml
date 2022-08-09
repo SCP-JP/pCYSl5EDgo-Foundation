@@ -7,76 +7,76 @@
 
 [[module CSS]]
 /* HEADER */
- :root{
-   --header-title: "RAISA Archive";
-   --header-subtitle: "RECORDS AND INFORMATION SECURITY ADMINISTRATION";
-   --titleColor: hsl(0, 0%, 20%);
-   --subtitleColor: hsl(0, 0%, 20%);
-   --lgurl: url(https://scp-wiki.wdfiles.com/local--files/scp-4031/raisa-logo100.png);
+ :root{
+   --header-title: "RAISA Archive";
+   --header-subtitle: "RECORDS AND INFORMATION SECURITY ADMINISTRATION";
+   --titleColor: hsl(0, 0%, 20%);
+   --subtitleColor: hsl(0, 0%, 20%);
+   --lgurl: url(https://scp-wiki.wdfiles.com/local--files/scp-4031/raisa-logo100.png);
 }
- #page-title{
-     display: none;
+ #page-title{
+     display: none;
 }
 
 /* RAISA Theme by Croquembouche
- * (CC BY-SA 3.0)
+ * (CC BY-SA 3.0)
 **/
- div#container-wrap{
-     background-image: url(https://scp-wiki.wdfiles.com/local--files/scp-4031/raisa-body_bg.png);
+ div#container-wrap{
+     background-image: url(https://scp-wiki.wdfiles.com/local--files/scp-4031/raisa-body_bg.png);
 }
- #header::before{
-     opacity: .525;
+ #header::before{
+     opacity: .525;
 }
- #login-status{
-     color: hsl(0, 0%, 20%);
+ #login-status{
+     color: hsl(0, 0%, 20%);
 }
- #login-status #my-account{
-     color: hsl(0, 0%, 100%);
+ #login-status #my-account{
+     color: hsl(0, 0%, 100%);
 }
 
 /* FORMATTING */
- #page-content .collapsible-block{
-     box-shadow: unset;
+ #page-content .collapsible-block{
+     box-shadow: unset;
 }
- .wiki-content-table{
-     width: unset;
+ .wiki-content-table{
+     width: unset;
 }
- .centered-table{
-     float: left;
-     display: inline-flex;
-     width: 100%;
-     max-width: 600px;
-     margin-bottom: 1em;
+ .centered-table{
+     float: left;
+     display: inline-flex;
+     width: 100%;
+     max-width: 600px;
+     margin-bottom: 1em;
 
-     border-collapse: collapse;
+     border-collapse: collapse;
 }
- .centered-table > tbody{
-     margin: 0 auto;
+ .centered-table > tbody{
+     margin: 0 auto;
 
-     text-align: center;
+     text-align: center;
 }
- .centered-table td{
-     padding: .3em .7em;
+ .centered-table td{
+     padding: .3em .7em;
 
-     border: 1px solid black;
+     border: 1px solid black;
 }
- .centered-table tr:first-child td{
-     width: 30%;
-     padding: .3em .7em;
+ .centered-table tr:first-child td{
+     width: 30%;
+     padding: .3em .7em;
 
-     background-color: silver;
-     border: 1px solid hsl(0, 0%, 5%);
+     background-color: silver;
+     border: 1px solid hsl(0, 0%, 5%);
 
-     font-weight: bold;
-     text-align: center;
+     font-weight: bold;
+     text-align: center;
 }
- .sanguine{
-     color: hsl(356, 82%, 38%);
-     font-weight: bold;
+ .sanguine{
+     color: hsl(356, 82%, 38%);
+     font-weight: bold;
 }
- .licensebox .collapsible-block-folded,
- .licensebox .collapsible-block-unfolded-link{
-     text-align: center;
+ .licensebox .collapsible-block-folded,
+ .licensebox .collapsible-block-unfolded-link{
+     text-align: center;
 }
 [[/module]]
 
@@ -101,7 +101,7 @@
 |comments=**SCP-4031:** The Amnesiac Redemption 
 **Author:** [[*user Lt Flops]] 
 **Published on 27 Dec 2018** 
- 
+ 
 Written for **[/forum/t-381751 Bright's 1st Challenge]** in under 3 hours. 
 ----
 [[include :scp-wiki:more-by:lt-flops]]

@@ -1,20 +1,20 @@
 [[module CSS]]
 .beeg-text .collapsible-block .collapsible-block-link {
-    font-size: 25px;
+    font-size: 25px;
 }
 [[/module]]
 [[include :scp-jp:theme:black-highlighter-theme]]
 [[include :scp-wiki:theme:scp-archive]]
 [[module css]]
 .test{
-    border:dotted 1px #000000;
-    background:#f4f4f4;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:dotted 1px #000000;
+    background:#f4f4f4;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 :root {
-    --fnColor: #465a4b;
+    --fnColor: #465a4b;
 }
 [[/module]]
 [[include :scp-jp:component:betterfootnotes]]

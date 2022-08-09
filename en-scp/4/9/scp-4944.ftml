@@ -5,70 +5,70 @@
 [[module CSS]]
 
 div.terminal{
-    border: 1px solid black;
-    border: solid 3px #BBBBBB;
-    border-radius: 16px;
-    background-color: #037aba;
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #037aba;
 /* black shadow at the top of the terminal */
-    background-image:
-        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #111c22);
-    background-position: center;
-    display: block;
+    background-image:
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #111c22);
+    background-position: center;
+    display: block;
 /* shadow around the terminal */
-    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
 /* prevents scanline from forming a scrollwheel */
-    overflow:hidden;
+    overflow:hidden;
 }
 div.terminal blockquote {
-    background-color: black;
-    border: double 3px #88efe8
+    background-color: black;
+    border: double 3px #88efe8
 }
 div.scanline{
-    margin-top: -40%;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    pointer-events: none;
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
 /* Safari 4.0 - 8.0 */
-    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
-    animation: scan 12s linear 0s infinite; /* Same as above */
-    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
 }
 
 div.text{
-    color: rgba(136,239,232,0.8);
-    padding-left: 2em;
-    padding-top: 40%;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
+    color: rgba(136,239,232,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
 }
 
 @keyframes scan{
-    from{ transform: translateY(-10%);}
-    to{  transform: translateY(5000%);} /* Same as above.*/
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
 }
 
 div.text a {
-    color: #88efe8;
-    text-decoration: none;
-    background: transparent;
+    color: #88efe8;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a.newpage {
-    color: #88efe8;
-    text-decoration: none;
-    background: transparent;
+    color: #88efe8;
+    text-decoration: none;
+    background: transparent;
 }
 div.text a:hover {
-    color: #111c22;
-    text-decoration: underline;
-    background-color: #88efe8;
-    padding: 1px;
+    color: #111c22;
+    text-decoration: underline;
+    background-color: #88efe8;
+    padding: 1px;
 }
 div.text a:hover::before{
 content: "> ";
@@ -78,13 +78,13 @@ content: "> ";
 [[include :scp-jp:component:black-highlighter-theme-dev]]
 [[module CSS]]
 .yui-navset .yui-content {
-    background-color: transparent;
+    background-color: transparent;
 }
 .yui-navset .yui-content, .yui-navset .yui-navset-top .yui-content {
-    border: none;
+    border: none;
 }
 .yui-navset .yui-nav, .yui-navset .yui-navset-top .yui-nav {
-    border: none;
+    border: none;
 }
 [[/module]]
 [[div style="background: url(http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png) bottom center no-repeat; text-align: center; width: 600px; margin: 0 auto; font-size: 20px; padding: 0px;"]]
@@ -134,8 +134,8 @@ SCP-4944-Bから10m以内に形態に関係なくカフェインが進入した�
 
 ,,注: 被験者の97.7％が、以下のファイルには音がなかったと報告しています。,,
 [[include :snippets:html5player
-    |type=audio
-    |url=http://scp-jp-storage.wikidot.com/local--files/file:5518554-66-7up4/10.wav
+    |type=audio
+    |url=http://scp-jp-storage.wikidot.com/local--files/file:5518554-66-7up4/10.wav
 ]]
 
 液体状態のカフェイン(形態は問わない)が提供されると、液体は加速度的に蒸発を開始します。これは特にコーヒー豆の痕跡が残存している場合、より顕著になります。およそ2日以内にカフェインが与えられなかった場合、SCP-4944-Aは、その基部からシロップに類似する褐色で粘性のある液体を排出し始めます。このプロセスは、カフェインが提供されるまで続きます。この時点で、SCP-4944は、例えSCP-4944から滲出する液体の量がSCP-4944-Aの水室[[footnote]]最近のコーヒーマシンの設計では、水室は、水と粉末を混ぜて温かい飲み物を作るために水で満たされる容器のことを指します。[[/footnote]]の保持容量を超過していたとしても、その液体をSCP-4944-Aの水室に吸収し始めます。SCP-4944によって生成される液体には有害的影響はないものの、極めて粘性が高いです。この液体には高濃度のブドウ糖とゼラチンが含まれており、味見をしたところ、強い甘みが感じられました。
@@ -147,7 +147,7 @@ SCP-4944とのインタビューが予定されています。
 ||~ 質問 ||~ オシロスコープを通して見た回答||
 || "あなたは何者なのですか？" || "気にするな、豆が必要だ。" || 
 || "あなたは何故カフェインを好むのですか？" || "俺はコーヒィに中毒なんだわさ:(" [原文ママ] || 
-|| "カフェインが補給されていないときに排出される液体は何なのですか？"  || "コーヒィ。ごっくん ごっくん。" [原文ママ] || 
+|| "カフェインが補給されていないときに排出される液体は何なのですか？"  || "コーヒィ。ごっくん ごっくん。" [原文ママ] || 
 || "あなたは何に使われていたのですか？" || "**コーヒィ**" [原文ママ] || 
 || "何故コーヒーマシンのような外観を有しているのですか？" || "モノマネの練習。" ||
 

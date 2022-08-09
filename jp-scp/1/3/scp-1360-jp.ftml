@@ -27,43 +27,43 @@ margin-bottom: 0px !important;
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 #top-bar .open-menu a {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 div#header-extra-div-1 {
-    height: 180px;
-    width: 100%;
-    top: 6px;
-    left: -10px;
-    position: absolute;
-    background: url("http://scp-wiki.wdfiles.com/local--files/theme%3Apaperstack/lgtrans.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0 50%;
-    z-index: -1;
-    pointer-events: none;
+    height: 180px;
+    width: 100%;
+    top: 6px;
+    left: -10px;
+    position: absolute;
+    background: url("http://scp-wiki.wdfiles.com/local--files/theme%3Apaperstack/lgtrans.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    z-index: -1;
+    pointer-events: none;
 }
 @media (max-width: 880px) {
-    div#header-extra-div-1 {
-         height: 184px;
-         top: -3px;
-         left: 0;
-         background-position: 50% 50%;
-    }
+    div#header-extra-div-1 {
+         height: 184px;
+         top: -3px;
+         left: 0;
+         background-position: 50% 50%;
+    }
 }
 #side-bar {
-    background-color: #fff;
-    box-shadow: 0px 0px 7px #949494;
-    left: -21em;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px #949494;
+    left: -21em;
 }
 @media (max-width: 767px)
 #side-bar {
-    left: -21em;
+    left: -21em;
 }
 #top-bar div.open-menu a {
-    border: 1px white !important;
+    border: 1px white !important;
 }
 #page-content {
-    font-size: 0.83rem;
+    font-size: 0.83rem;
 }
 [[/module]]
 
@@ -289,18 +289,18 @@ SCP-1360-JPは1982年10月現在、その規模を更に拡大しつつありま
 
 [[module CSS]]
 .acs-hybrid-text-bar {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .page-rate-widget-box .cancel a {
-    color: #000;
+    color: #000;
 }
 .rate-box-with-credit-button .creditButton {
-    background-color: transparent !important;
-    border: 1px solid transparent !important;
-    box-shadow: 0px 0px 0px transparent !important;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    box-shadow: 0px 0px 0px transparent !important;
 }
 .scp-image-block img {
-    height: 92% !important;
+    height: 92% !important;
 }
 [[/module]]
 
@@ -317,56 +317,56 @@ SCP-1360-JPは1982年10月現在、その規模を更に拡大しつつありま
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 #top-bar .open-menu a {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 div#header-extra-div-1 {
-    height: 180px;
-    width: 100%;
-    top: 6px;
-    left: -10px;
-    position: absolute;
-    background: url("http://scp-wiki.wdfiles.com/local--files/theme%3Apaperstack/lgtrans.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0 50%;
-    z-index: -1;
-    pointer-events: none;
+    height: 180px;
+    width: 100%;
+    top: 6px;
+    left: -10px;
+    position: absolute;
+    background: url("http://scp-wiki.wdfiles.com/local--files/theme%3Apaperstack/lgtrans.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    z-index: -1;
+    pointer-events: none;
 }
 @media (max-width: 880px) {
-    div#header-extra-div-1 {
-         height: 184px;
-         top: -3px;
-         left: 0;
-         background-position: 50% 50%;
-    }
+    div#header-extra-div-1 {
+         height: 184px;
+         top: -3px;
+         left: 0;
+         background-position: 50% 50%;
+    }
 }
 #side-bar {
-    background-color: #fff;
-    box-shadow: 0px 0px 7px #949494;
-    left: -21em;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px #949494;
+    left: -21em;
 }
 @media (max-width: 767px)
 #side-bar {
-    left: -21em;
+    left: -21em;
 }
 #top-bar div.open-menu a {
-    border: 1px white !important;
+    border: 1px white !important;
 }
 #page-content {
-    font-size: 0.83rem;
+    font-size: 0.83rem;
 }
 body {
-    color: #FFFFFF;
-    background-image: linear-gradient( to bottom, #64030F, #000000 246px, #000000 249px, #850005 263px, #850005 262px, #000000 100%);
+    color: #FFFFFF;
+    background-image: linear-gradient( to bottom, #64030F, #000000 246px, #000000 249px, #850005 263px, #850005 262px, #000000 100%);
 }
 div.modalbox {
-    color: black;
+    color: black;
 }
 #header h1 a::before, #header h2::before {
-    color: #F4F4F4;
+    color: #F4F4F4;
 }
 .owindow {
-    color: black !important;
+    color: black !important;
 }
 [[/module]]
 
@@ -469,38 +469,38 @@ SCP-1360-JPの有する副次的な異常性として、太陽光を完全に遮
 [[include :scp-wiki:component:wide-image-sizer]]
 
 [[include component:image-block
-    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6759963-100-7t3f/image |
-    caption=現在のSCP-1360-JP。 |
-    align=center |
-    width=100%
+    name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6759963-100-7t3f/image |
+    caption=現在のSCP-1360-JP。 |
+    align=center |
+    width=100%
 ]]
 
 [[module CSS]]
 .acs-hybrid-text-bar {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .page-rate-widget-box .cancel a {
-    color: #000;
+    color: #000;
 }
 .rate-box-with-credit-button .creditButton {
-    background-color: transparent !important;
-    border: 1px solid transparent !important;
-    box-shadow: 0px 0px 0px transparent !important;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    box-shadow: 0px 0px 0px transparent !important;
 }
 .scp-image-block img {
-    height: 92% !important;
+    height: 92% !important;
 }
 div.obj {
-    background-image: url("data:image/svg+xml,%3Csvg id='patternId' width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='a' patternUnits='userSpaceOnUse' width='29' height='50.115' patternTransform='scale(1) rotate(0)'%3E%3Crect x='0' y='0' width='100%25' height='100%25' fill='hsla(0, 100%25, 22%25, 1)'/%3E%3Cpath d='M14.5 6.628L8.886 3.372v-6.515L14.502-6.4l5.612 3.257-.001 6.514zm0 50.06l-5.613-3.256v-6.515l5.614-3.258 5.612 3.257-.001 6.515zm14.497-25.117l-5.612-3.257v-6.515L29 18.541l5.612 3.257-.001 6.515zm-29 0l-5.612-3.257v-6.515L0 18.541l5.612 3.257v6.515zM14.5 11.82L4.36 5.967l.002-11.706 10.14-5.855L24.638-5.74l-.001 11.707zm0 50.06L4.36 56.028l.002-11.706 10.14-5.855 10.137 5.852-.001 11.707zm14.498-25.118L18.858 30.91l.002-11.707L29 13.349l10.137 5.853-.001 11.706zm-29 0l-10.139-5.852.002-11.707L0 13.349l10.138 5.853-.002 11.706zm14.501-19.905L0 8.488.002-8.257l14.5-8.374L29-8.26l-.002 16.745zm0 50.06L0 58.548l.002-16.745 14.5-8.373L29 41.8l-.002 16.744zM28.996 41.8l-14.498-8.37.002-16.744L29 8.312l14.498 8.37-.002 16.745zm-29 0l-14.498-8.37.002-16.744L0 8.312l14.498 8.37-.002 16.745z' stroke-linecap='square' stroke-width='1' stroke='hsla(4, 100%25, 0%25, 1)' fill='none'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='800%25' height='800%25' transform='translate(0,0)' fill='url(%23a)'/%3E%3C/svg%3E") !important;
-    border: solid 2px #000 !important;
+    background-image: url("data:image/svg+xml,%3Csvg id='patternId' width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='a' patternUnits='userSpaceOnUse' width='29' height='50.115' patternTransform='scale(1) rotate(0)'%3E%3Crect x='0' y='0' width='100%25' height='100%25' fill='hsla(0, 100%25, 22%25, 1)'/%3E%3Cpath d='M14.5 6.628L8.886 3.372v-6.515L14.502-6.4l5.612 3.257-.001 6.514zm0 50.06l-5.613-3.256v-6.515l5.614-3.258 5.612 3.257-.001 6.515zm14.497-25.117l-5.612-3.257v-6.515L29 18.541l5.612 3.257-.001 6.515zm-29 0l-5.612-3.257v-6.515L0 18.541l5.612 3.257v6.515zM14.5 11.82L4.36 5.967l.002-11.706 10.14-5.855L24.638-5.74l-.001 11.707zm0 50.06L4.36 56.028l.002-11.706 10.14-5.855 10.137 5.852-.001 11.707zm14.498-25.118L18.858 30.91l.002-11.707L29 13.349l10.137 5.853-.001 11.706zm-29 0l-10.139-5.852.002-11.707L0 13.349l10.138 5.853-.002 11.706zm14.501-19.905L0 8.488.002-8.257l14.5-8.374L29-8.26l-.002 16.745zm0 50.06L0 58.548l.002-16.745 14.5-8.373L29 41.8l-.002 16.744zM28.996 41.8l-14.498-8.37.002-16.744L29 8.312l14.498 8.37-.002 16.745zm-29 0l-14.498-8.37.002-16.744L0 8.312l14.498 8.37-.002 16.745z' stroke-linecap='square' stroke-width='1' stroke='hsla(4, 100%25, 0%25, 1)' fill='none'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='800%25' height='800%25' transform='translate(0,0)' fill='url(%23a)'/%3E%3C/svg%3E") !important;
+    border: solid 2px #000 !important;
 }
 div.objclass::before {
-    background: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6759963-101-k1n1/Tiamat.svg) center no-repeat;
-    background-size: 1.5em;
-    --mask-url: null;
+    background: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6759963-101-k1n1/Tiamat.svg) center no-repeat;
+    background-size: 1.5em;
+    --mask-url: null;
 }
 .fa-info:before {
-    filter: invert(1);
+    filter: invert(1);
 }
 [[/module]]
 ====

@@ -61,16 +61,16 @@ margin-bottom: unset !important;
 }
 
 #page-content a.collapsible-block-link:not(.licensebox a.collapsible-block-link, .info-container a.collapsible-block-link) {
-   font-weight: 600;
-   color: white;
-   padding-top: 4px;
-   padding-bottom: 4px;
-   padding-left: 7px;
-   padding-right: 9px;
-   background: black;
-   border-radius: 6px;
-   margin-top: 10px;
-   margin-bottom: 12px;
+   font-weight: 600;
+   color: white;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 7px;
+   padding-right: 9px;
+   background: black;
+   border-radius: 6px;
+   margin-top: 10px;
+   margin-bottom: 12px;
 }
 
 .blockquote {
@@ -79,12 +79,12 @@ color: white;
 }
 
 span.blink {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 
 @keyframes blink {
-    0% { opacity: 0%; }
-    50%, 100% { opacity: 100%; }
+    0% { opacity: 0%; }
+    50%, 100% { opacity: 100%; }
 }
 
 [[/module]]

@@ -12,52 +12,52 @@
 
 .page {
 
-    display: block;
+    display: block;
 
-    overflow: hidden;
+    overflow: hidden;
 
-    font-family: "HG正楷書体-PRO", "HG正楷書体", sans-serif;
+    font-family: "HG正楷書体-PRO", "HG正楷書体", sans-serif;
 
-    font-style: normal;
-
-
-    background-attachment: scroll;
-
-    background-clip: border-box;
-
-    background-color: transparent;
-
-    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
-
-    background-origin: padding-box;
-
-    background-position: 0px 8px;
-
-    background-repeat: repeat;
-
-    background-size: 100% 20px;
+    font-style: normal;
 
 
-    border: 1px solid #CCC;
+    background-attachment: scroll;
 
-    border-radius: 10px;
+    background-clip: border-box;
 
-    padding: 10px 10px;
+    background-color: transparent;
 
-    margin-bottom: 10px;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+
+    background-origin: padding-box;
+
+    background-position: 0px 8px;
+
+    background-repeat: repeat;
+
+    background-size: 100% 20px;
 
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    border: 1px solid #CCC;
 
-    }
+    border-radius: 10px;
+
+    padding: 10px 10px;
+
+    margin-bottom: 10px;
+
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+
+    }
 
 .page p,
 
 .page ul {
 
-    line-height: 25px;
+    line-height: 25px;
 
-    margin: 0;
+    margin: 0;
 
 }
 

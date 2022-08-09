@@ -1,16 +1,16 @@
 [[module css]]
 div.letter {
-    margin: 1em 3em;
+    margin: 1em 3em;
 }
 @media (max-width: 479px) {
-    div.letter {
-        margin: 1em 0;
-    }
+    div.letter {
+        margin: 1em 0;
+    }
 }
 @media (min-width: 480px) and (max-width: 580px) {
-    div.letter {
-        margin: 0.5em;
-    }
+    div.letter {
+        margin: 0.5em;
+    }
 }
 [[/module]]
 [[>]]
@@ -19,19 +19,19 @@ div.letter {
 
 [[include :scp-wiki:component:anomaly-class-bar-source
 
-    |item-number= SCP-5135
+    |item-number= SCP-5135
 
-    |clearance= 4
+    |clearance= 4
 
-    |container-class= safe
+    |container-class= safe
 
-    |secondary-class= none
+    |secondary-class= none
 
-    |secondary-icon= none
+    |secondary-icon= none
 
-    |disruption-class= ekhi
+    |disruption-class= ekhi
 
-    |risk-class= caution
+    |risk-class= caution
 
 ]]
 
@@ -104,17 +104,17 @@ No evidence has been recovered regarding any events after this occurred. It is u
 **Description:** An audio fragment of a phone call between an unknown U.S. Government employee, possibly employed by the U.S. Secretary of State, and an unknown party.
 **Contents:**
 [[include :scp-wiki:component:audio-player-woed-source
-    |unique-name=SCPStateCall
-    |audio-file=https://scp-wiki.wikidot.com/local--files/scp-5135/Recording-4.mp3
-    |background-color=rgb(252, 252, 252)
-    |border-color=rgb(215, 215, 215)
-    |border-radius=0.313rem
-    |dropshadow-color=rgba(12, 12, 12, 0.15)
-    |text-color=rgb(80, 0, 2)
-    |icons-color=rgb(171, 0, 5)
-    |player-color=rgb(215, 215, 215)
-    |progress-color=rgb(80, 0, 2)
-    ]]
+    |unique-name=SCPStateCall
+    |audio-file=https://scp-wiki.wikidot.com/local--files/scp-5135/Recording-4.mp3
+    |background-color=rgb(252, 252, 252)
+    |border-color=rgb(215, 215, 215)
+    |border-radius=0.313rem
+    |dropshadow-color=rgba(12, 12, 12, 0.15)
+    |text-color=rgb(80, 0, 2)
+    |icons-color=rgb(171, 0, 5)
+    |player-color=rgb(215, 215, 215)
+    |progress-color=rgb(80, 0, 2)
+    ]]
 //Metadata indicates this call took place in on November 19, 2009 at 05:43PM EST.//
 > Unknown: Well, the secretary of state already said we're disavowing any relationship with them.
 > //(pause)//
@@ -137,17 +137,17 @@ No evidence has been recovered regarding any events after this occurred. It is u
 **Description:** Brief excerpt of Air Traffic Control signal picked up by Italian ENAV (Air Traffic Control). Transmissions are from Italy Area Control Center in Rome (ROMA), U.S. Army 173rd Infantry Brigade Combat Team Airborne ("REDTAIL"), and Unidentified Aircraft (UAC001). [[footnote]]Note: "[BLOCKED]" Indicates the message was blocked by another transmission.[[/footnote]]
 **Contents:**
 [[include :scp-wiki:component:audio-player-woed-source
-    |unique-name=SCPPlane
-    |audio-file=https://scp-wiki.wikidot.com/local--files/scp-5135/ScipThinjg.mp3
-    |background-color=rgb(252, 252, 252)
-    |border-color=rgb(215, 215, 215)
-    |border-radius=0.313rem
-    |dropshadow-color=rgba(12, 12, 12, 0.15)
-    |text-color=rgb(80, 0, 2)
-    |icons-color=rgb(171, 0, 5)
-    |player-color=rgb(215, 215, 215)
-    |progress-color=rgb(80, 0, 2)
-    ]]
+    |unique-name=SCPPlane
+    |audio-file=https://scp-wiki.wikidot.com/local--files/scp-5135/ScipThinjg.mp3
+    |background-color=rgb(252, 252, 252)
+    |border-color=rgb(215, 215, 215)
+    |border-radius=0.313rem
+    |dropshadow-color=rgba(12, 12, 12, 0.15)
+    |text-color=rgb(80, 0, 2)
+    |icons-color=rgb(171, 0, 5)
+    |player-color=rgb(215, 215, 215)
+    |progress-color=rgb(80, 0, 2)
+    ]]
 > [061616/043514] ENAV-ROMA: Aircraft heading 1-8-5, ENAV-ROMA, are you on radio?
 > [061616/043555] ENAV-ROMA: Aircraft heading 1-8-5, ROMA, are you on radio?
 > [061616/043623] ENAV-ROMA: Aircraft 1-8-5 . ENAV-ROMA Visual. Squawk 7-6-0-0 if radio inoperative. ROMA.
@@ -240,7 +240,7 @@ End of recording.
 > **Author:** [[*User CityToast]]
 > **License:** CC-BY-SA 3.0
 > **Source Link:** Self
-> **Derivative of:**  Open Streetmap, [https://www.openstreetmap.org/copyright copyrighted by OpenStreetMap Contributors], with data made available under the Open Database License, and the graphical tile licensed for use under CC-BY-SA.
+> **Derivative of:**  Open Streetmap, [https://www.openstreetmap.org/copyright copyrighted by OpenStreetMap Contributors], with data made available under the Open Database License, and the graphical tile licensed for use under CC-BY-SA.
 
 > **Filename:** corrupted_photo.png
 > **Name:** Corrupted Photo

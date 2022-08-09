@@ -14,17 +14,17 @@
 
 [[module CSS]]
 :root{
-   --header-title: "SCP財団";
-   --header-subtitle: "サイト-400";
-   --lgurl: url("https://scp-jp-storage.wdfiles.com/local--files/file%3A7657035-8-3qmy/SCP_Fifthism.png");
+   --header-title: "SCP財団";
+   --header-subtitle: "サイト-400";
+   --lgurl: url("https://scp-jp-storage.wdfiles.com/local--files/file%3A7657035-8-3qmy/SCP_Fifthism.png");
 }
 .creditRate {
-    width: 100%;
-    justify-content: center;
+    width: 100%;
+    justify-content: center;
 }
 .creditButton, .modalbox {
-    border-radius: 0 !important;
-    box-shadow: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
 [[/module]]
 

@@ -31,7 +31,7 @@
 [[include component:image-block name=location.png|align=right|width=30%|caption=Salvation, IN, US]]
 
 
-**Special Containment Procedures:** The town of Salvation, Indiana has been evacuated and a fenced 2km quarantine zone has been established around the center of the town. Roads leading to the nearby town of Eminence have been removed and rerouted. Foundation personnel are to monitor all known travel routes into Salvation for signs of civilians. Any civilians caught attempting to enter Salvation are to be remanded to the custody of local authorities. Cover story 3935.18 “Hazardous Waste Disaster” is currently being disseminated.  
+**Special Containment Procedures:** The town of Salvation, Indiana has been evacuated and a fenced 2km quarantine zone has been established around the center of the town. Roads leading to the nearby town of Eminence have been removed and rerouted. Foundation personnel are to monitor all known travel routes into Salvation for signs of civilians. Any civilians caught attempting to enter Salvation are to be remanded to the custody of local authorities. Cover story 3935.18 “Hazardous Waste Disaster” is currently being disseminated.  
 
 The building containing SCP-3935, Salvation High School, is to be guarded by Foundation security personnel. Under no circumstances are any non-authorized personnel to enter SCP-3935. Individuals believed to be affected in any way by SCP-3935 are to be moved to Temporary Site-81-5 near Eminence for evaluation.
 
@@ -134,286 +134,286 @@ One unidentified woman reports witnessing a weeping young woman running back int
 
 [[html]]
 <head>
-    <style>
-        @import url("https://use.typekit.net/rit0pba.css");
+    <style>
+        @import url("https://use.typekit.net/rit0pba.css");
 
-        :root {
-            --body-font: proxima-nova,sans-serif;
-            --base-font-size: 0.9375rem;
-            --base-line-height: 1.313rem;
-            --pale-gray-monochrome: 244,244,244;
-            --light-gray-monochrome: 160,160,160;
-            --black-monochrome: 12,12,12;
-            --pale-accent: 230,40,60;
-            --dark-accent:100,3,15;
-            --swatch-primary-darkest:var(--dark-accent);
-            --swatch-text-dark: var(--black-monochrome);
-            --swatch-menubg-light-color: var(--pale-gray-monochrome);
-            --swatch-menubg-black-color: var(--black-monochrome);
-            --swatch-menubg-medium-color: var(--light-gray-monochrome);
-            --swatch-border-color: var(--black-monochrome);
-            --link-color: var(--pale-accent);
-        }
+        :root {
+            --body-font: proxima-nova,sans-serif;
+            --base-font-size: 0.9375rem;
+            --base-line-height: 1.313rem;
+            --pale-gray-monochrome: 244,244,244;
+            --light-gray-monochrome: 160,160,160;
+            --black-monochrome: 12,12,12;
+            --pale-accent: 230,40,60;
+            --dark-accent:100,3,15;
+            --swatch-primary-darkest:var(--dark-accent);
+            --swatch-text-dark: var(--black-monochrome);
+            --swatch-menubg-light-color: var(--pale-gray-monochrome);
+            --swatch-menubg-black-color: var(--black-monochrome);
+            --swatch-menubg-medium-color: var(--light-gray-monochrome);
+            --swatch-border-color: var(--black-monochrome);
+            --link-color: var(--pale-accent);
+        }
 
-        body {
-            -moz-font-feature-settings: "lnum","kern","clig","calt";
-            -moz-hyphens: manual;
-            font-family: Lato,sans-serif;
-            font-family: var(--body-font);
-            font-feature-settings: "lnum","kern","clig","calt";
-            font-kerning: auto;
-            font-size: .875rem;
-            font-size: var(--base-font-size);
-            font-variant-numeric: normal;
-            font-weight: 500;
-            hyphens: manual;
-            word-break: normal;
-            color: rgb(var(--swatch-text-dark));
-            font-variant-ligatures: none;
-            line-height: 1.5;
-        }
+        body {
+            -moz-font-feature-settings: "lnum","kern","clig","calt";
+            -moz-hyphens: manual;
+            font-family: Lato,sans-serif;
+            font-family: var(--body-font);
+            font-feature-settings: "lnum","kern","clig","calt";
+            font-kerning: auto;
+            font-size: .875rem;
+            font-size: var(--base-font-size);
+            font-variant-numeric: normal;
+            font-weight: 500;
+            hyphens: manual;
+            word-break: normal;
+            color: rgb(var(--swatch-text-dark));
+            font-variant-ligatures: none;
+            line-height: 1.5;
+        }
 
-        embed, iframe, img, object, table, video {
-            max-width: 100%;
-        }
+        embed, iframe, img, object, table, video {
+            max-width: 100%;
+        }
 
-        a, a.newpage {
-            background: rgba(0,0,0,0);
-            text-decoration: none;
-        }
+        a, a.newpage {
+            background: rgba(0,0,0,0);
+            text-decoration: none;
+        }
 
-        a {
-            color: #b42323;
-            color: rgb(var(--link-color));
-        }
+        a {
+            color: #b42323;
+            color: rgb(var(--link-color));
+        }
 
-        blockquote, div.blockquote {
-            --box-shadow: rgba(var(--swatch-menubg-black-color),0.1);
-            -webkit-box-shadow: 0 .063em .125em rgba(0,0,0,.1);
-            -moz-box-shadow: 0 .063em .125em rgba(0,0,0,.1);
-            -webkit-box-shadow: 0 .063em .125em var(--box-shadow);
-            -moz-box-shadow: 0 .063em .125em var(--box-shadow);
-            display: block;
-            margin: .5em 40px;
-            box-shadow: 0 .063em .125em rgba(0,0,0,.1);
-            box-shadow: 0 .063em .125em var(--box-shadow);
-            border: .063em dashed rgba(var(--swatch-border-color),.25);
-            background-color: #f4f4f4;
-            background-color: rgb(var(--swatch-menubg-light-color));
-            padding: 0 1em;
-        }
+        blockquote, div.blockquote {
+            --box-shadow: rgba(var(--swatch-menubg-black-color),0.1);
+            -webkit-box-shadow: 0 .063em .125em rgba(0,0,0,.1);
+            -moz-box-shadow: 0 .063em .125em rgba(0,0,0,.1);
+            -webkit-box-shadow: 0 .063em .125em var(--box-shadow);
+            -moz-box-shadow: 0 .063em .125em var(--box-shadow);
+            display: block;
+            margin: .5em 40px;
+            box-shadow: 0 .063em .125em rgba(0,0,0,.1);
+            box-shadow: 0 .063em .125em var(--box-shadow);
+            border: .063em dashed rgba(var(--swatch-border-color),.25);
+            background-color: #f4f4f4;
+            background-color: rgb(var(--swatch-menubg-light-color));
+            padding: 0 1em;
+        }
 
-        .scp-image-block.block-right {
-            --box-shadow: rgba(var(--swatch-menubg-black-color,12,12,12));
-            float: right;
-            clear: right;
-            margin: 0 0 1em 2em;
-            min-width: 30%;
-            -webkit-box-shadow: 0 .0625rem .375rem rgba(0,0,0,.25);
-            -moz-box-shadow: 0 .0625rem .375rem rgba(0,0,0,.25);
-            -moz-box-shadow: 0 .0625rem .375rem var(--box-shadow);
-            -webkit-box-shadow: 0 .0625rem .375rem var(--box-shadow);
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -webkit-flex-flow: column nowrap;
-            -moz-box-orient: vertical;
-            -moz-box-direction: normal;
-            -ms-flex-flow: column nowrap;
-            -webkit-box-align: center;
-            -webkit-align-items: center;
-            -moz-box-align: center;
-            -ms-flex-align: center;
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: flex;
-            flex-flow: column nowrap;
-            align-items: center;
-            box-shadow: 0 .0625rem .375rem rgba(0,0,0,.25);
-            box-shadow: 0 .0625rem .375rem var(--box-shadow);
-            border: .0625rem solid rgb(var(--swatch-primary-darkest));
-        }
+        .scp-image-block.block-right {
+            --box-shadow: rgba(var(--swatch-menubg-black-color,12,12,12));
+            float: right;
+            clear: right;
+            margin: 0 0 1em 2em;
+            min-width: 30%;
+            -webkit-box-shadow: 0 .0625rem .375rem rgba(0,0,0,.25);
+            -moz-box-shadow: 0 .0625rem .375rem rgba(0,0,0,.25);
+            -moz-box-shadow: 0 .0625rem .375rem var(--box-shadow);
+            -webkit-box-shadow: 0 .0625rem .375rem var(--box-shadow);
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-flow: column nowrap;
+            -moz-box-orient: vertical;
+            -moz-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            -ms-flex-align: center;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            box-shadow: 0 .0625rem .375rem rgba(0,0,0,.25);
+            box-shadow: 0 .0625rem .375rem var(--box-shadow);
+            border: .0625rem solid rgb(var(--swatch-primary-darkest));
+        }
 
-        .scp-image-block img[style*="width:"] {
-            width: 100% !important;
-        }
+        .scp-image-block img[style*="width:"] {
+            width: 100% !important;
+        }
 
-        .scp-image-block img {
-            border: 0;
-            min-width: 100%;
-        }
+        .scp-image-block img {
+            border: 0;
+            min-width: 100%;
+        }
 
-        .scp-image-block .scp-image-caption {
-            border-top: .0625rem solid #0c0c0c;
-            border-top: .0625rem solid rgb(var(--swatch-menubg-black-color));
-            background-color: #f4f4f4;
-            background-color: rgb(var(--swatch-menubg-light-color));
-            padding: .125rem 0;
-            font-size: 80%;
-            font-weight: 700;
-            letter-spacing: .016em;
-            text-align: center;
-        }
+        .scp-image-block .scp-image-caption {
+            border-top: .0625rem solid #0c0c0c;
+            border-top: .0625rem solid rgb(var(--swatch-menubg-black-color));
+            background-color: #f4f4f4;
+            background-color: rgb(var(--swatch-menubg-light-color));
+            padding: .125rem 0;
+            font-size: 80%;
+            font-weight: 700;
+            letter-spacing: .016em;
+            text-align: center;
+        }
 
-        .scp-image-caption {
-            min-width: 100%;
-        }
+        .scp-image-caption {
+            min-width: 100%;
+        }
 
-        .scp-image-block .scp-image-caption > p {
-            margin: 0;
-            padding: 0 .625rem;
-        }
+        .scp-image-block .scp-image-caption > p {
+            margin: 0;
+            padding: 0 .625rem;
+        }
 
-        hr {
-            display: block;
-            margin: 1em 0;
-            border: 0;
-                border-top-color: currentcolor;
-                border-top-style: none;
-                border-top-width: 0px;
-            border-top: .063rem solid #424248;
-            border-top: .063rem solid rgba(var(--swatch-menubg-medium-color,66,66,72));
-            padding: 0;
-            height: .063rem;
-        }
+        hr {
+            display: block;
+            margin: 1em 0;
+            border: 0;
+                border-top-color: currentcolor;
+                border-top-style: none;
+                border-top-width: 0px;
+            border-top: .063rem solid #424248;
+            border-top: .063rem solid rgba(var(--swatch-menubg-medium-color,66,66,72));
+            padding: 0;
+            height: .063rem;
+        }
 
-        @media only screen and (max-width:685px) {
-            body > div {
-                font-size:.9em
-            }
+        @media only screen and (max-width:685px) {
+            body > div {
+                font-size:.9em
+            }
 
-            div {
-                clear: both;
-            }
-            
-            .scp-image-block.block-right {
-                max-width: 40vw !important;
-            }
+            div {
+                clear: both;
+            }
+            
+            .scp-image-block.block-right {
+                max-width: 40vw !important;
+            }
 
-            .scp-image-block img[style*="width:"] {
-                width: 100% !important;
-            }
+            .scp-image-block img[style*="width:"] {
+                width: 100% !important;
+            }
 
-            .blockquote, .curved, blockquote {
-                margin: 0;
-            }
-        }
+            .blockquote, .curved, blockquote {
+                margin: 0;
+            }
+        }
 
-    </style>
+    </style>
 </head>
 <body>
-            <div class="scp-image-block block-right" style="width:300px;"><img src="https://scp-wiki.wdfiles.com/local--files/scp-3935/humanoid.png" style="width:300px;" alt="humanoid.png" class="image">
-                <div class="scp-image-caption">
-                <p>Only known image of black humanoid entity, circled in red.</p>
-                </div>
-                </div>
-        <p><em>Note: The following log is a transcription of audio and video recordings gathered from the initial Foundation search-and-rescue attempt into SCP-3935.</em></p>
-        <blockquote>
-            <p>[BEGIN LOG]</p>
-            <p><strong>Ellis:</strong> Alright, mics hot. Let’s go.</p>
-            <p><em>Agents Ellis, Porter and Haskel enter SCP-3935. Each is equipped with a shoulder mounted torch, which illuminates upon entering the space beyond the archway.</em></p>
-            <p><strong>Ellis:</strong> Alright… so first thing’s first, there’s definitely something happening… back here. (<em>Pauses</em>) The walls are getting pretty tight. Stay close.</p>
-            <p><em>Team proceeds forward.</em></p>
-            <p><strong>Porter:</strong> Can you feel that?</p>
-            <p><strong>Ellis:</strong> What?</p>
-            <p><strong>Porter:</strong> The air feels funny.</p>
-            <p><strong>Haskel:</strong> Yeah, and the walls… look.</p>
-            <p><em>Shoulder mounted torch illuminates the wall next to Agent Haskel. Images are carved into the rock, similar to a child's drawings.</em></p>
-            <p><strong>Ellis:</strong> Come on, I think I feel a breeze. Might be an opening up here.</p>
-            <p><em>Team continues to push through the rock tunnel.</em></p>
-            <p><strong>Porter:</strong> Jesus, these… I can barely move, the walls are too close. Ellis, I- (<em>cuts out suddenly</em>).</p>
-            <p><em>Agent Porter's camera suddenly goes black. A moment later, it appears to be looking up at two sources of light, likely Ellis and Haskel's torches, as Agent Porter falls.</em></p>
-            <p><strong>Porter:</strong> (<em>Intermittent screaming</em>)</p>
-            <p><strong>Ellis:</strong> What the fuck just happened? Porter? Porter? Where- I can't turn around, where is he?</p>
-            <p><strong>Haskel:</strong> I hear something coming behind us, we need to move. We need to move!</p>
-            <p><em>Both agents struggle to continue forward, the tight space continuing to impede their movement. After a short time of struggling, both men fall forward into a larger open space.</em></p>
-            <p><strong>Ellis:</strong> Jesus Christ, I can't- where's Porter? Porter?</p>
-            <p><strong>Haskel:</strong> He's not behind me, can you see him in there?</p>
-            <p><em>Silence.</em></p>
-            <p><strong>Ellis:</strong> We… OK. We need to get another team down here. He might have fallen in a ravine or something, or slipped back there, or-</p>
-            <p><strong>Haskel:</strong> Ellis… look.</p>
-            <p><em>Both men turn around and illuminate the space they are in with their shoulder mounted torches. In front of them is a massive structure, seemingly carved out of the stone around them. A thick fog covers the entire chamber. Beyond the fog, dim lights are visible in openings in the structure. It is impossible to determine how high or low the structure extends. The structure is only reachable via a narrow stone bridge that extends across a large chasm between the agents and the far wall.</em></p>
-            <p><strong>Ellis:</strong> Is that… is this the high school? Why does it look like that?</p>
-            <p><strong>Haskel:</strong> Yeah… the geometry isn't right, but… yeah, look there. That's the main entrance. There's another door there, yeah. This is the school. (<em>Pauses</em>) There's another one below it. And one below that.</p>
-            <p><strong>Ellis:</strong> How far down does this go? Are there any other-</p>
-            <p><em>Both men pause. Appearing over the bridge in front of them are nine female humanoid figures, their faces obscured by long white hair. They do not move.</em></p>
-            <p><strong>Haskel:</strong> Ellis?</p>
-            <p><strong>Ellis:</strong> Hang on.</p>
-            <p><em>The nine entities hang in the air for a short time, before suddenly appearing ten meters backwards, and then another ten, and then right in front of the door to the subterranean school structure. The faces of all nine suddenly become visible, and although they are not visible on the recording due to the distance, both agents noticeably recoil. Afterwards, all the entities disappear.</em></p>
-            <p><strong>Haskel:</strong> Jesus Christ, Jesus Christ- holy shit what was that?</p>
-            <p><strong>Ellis:</strong> (<em>Heavy breathing</em>) Alright, god, we are not ready for this. We-</p>
-            <p><em>There is the sudden sound of many voices speaking in hushed tones in the distance. Both agents react at the sound.</em></p>
-            <p><strong>Haskel:</strong> The search team? Survivors?</p>
-            <p><strong>Ellis:</strong> Come on, let's go.</p>
-            <p><em>Both agents cross the chasm bridge leading towards the non-Euclidean replica of Salvation High School. Upon entering, they find the main concourse of the school. No other entities are visible within.</em></p>
-            <p><strong>Haskel:</strong> Porter? Anyone? Is there anyone here?</p>
-            <p><strong>Ellis:</strong> I feel like- Jesus, you feel this too? Like you're looking at the whole room all at once?</p>
-            <p><strong>Haskel:</strong> Yeah, it's the fucking- the walls don't make any sense.</p>
-            <p><strong>Ellis:</strong> Come on. I hear the voices down this way, let's go.</p>
-            <p><em>Both men move quickly down the closest hallway. As they do, doors on either side of the wall are visible. Although neither agent seems to notice, faces are occasionally visible through glass panes in the doorways. They are impossible to make out.</em></p>
-            <p><strong>Ellis:</strong> Here, this is the door to the auditorium. I'll bet they're in-</p>
-            <p><em>Agent Ellis opens the door. As he does, his video recorder disconnects. Agent Haskel screams and scrambles backwards. The voices increase dramatically in volume and from Agent Haskel's perspective on the ground near the door, nine female figures appear around Agent Ellis. Their movements are erratic and their bodies are contorted into impossible positions. They close on Agent Ellis, and the man and the figures disappear.</em></p>
-            <p><strong>Haskel:</strong> Fuck! Fuck! Ellis! God- fuck!</p>
-            <p><em>Agent Haskel stands and begins to run away from the door. As he reaches the end of the hall, he looks back over his shoulder and sees the nine figures approaching.</em></p>
-            <p><strong>Haskel:</strong> Oh fuck! Oh fuck! No no no! Hello? Is anyone there? Help me! God, please, help me! Hello? Fuck me, please, god, help!</p>
-            <p><em>Agent Haskel turns again to see the nine figures in the hallway behind him, though they are no longer moving forward. Instead, they hang in the air, unmoving, as Agent Haskel's pace slows. He watches them for a moment, and then stops. His breathing becomes quick.</em></p>
-            <p><strong>Haskel:</strong> Wh- what? What do you want?</p>
-            <p><em>Agent Haskel turns slowly to look behind him, and upon turning is face-to-face with a small, black, humanoid creature sitting upside down on the ceiling of the hallway. The creature has no discernible features, but its presence creates significant visual distortion in Agent Haskel's camera.</em></p>
-            <p><strong>Unidentified Figure:</strong> Hello.</p>
-            <p><em>There is a loud, low sound like a bell tolling. The sound continues for twenty seconds. The video feed for Agent Haskel goes dead. The audio feed begins to experience severe distortion, as if the signal was being drawn out over a longer period of time. There is a snapping noise, and then the feed goes silent. All three signals are quiet for some time. Eventually, all three radios begin responding again.</em></p>
-            <p><strong>Ellis:</strong> -just wants to be, wouldn't you like to just be? (<em>Pauses</em>) Yeah, yeah, we all would die. We all would die. No more of the nine, we all would- (<em>Pauses</em>) They're back. They're ba-</p>
-            <p><em>Silence for eighty-one minutes.</em></p>
-            <p><strong>Haskel:</strong> -wall is like every other wall. This hall is like every other hall. Down and down and down and down, no no no no more please, no more down, can't go down any more, can't go-</p>
-            <p><em>Silence for eighteen minutes.</em></p>
-            <p><strong>Haskel:</strong> Ellis, god, can anyone hear me? (<em>Shouting</em>) Does anyone know who I am? I can't see the light anymore! I can't see- oh god, it's only dark, it's only dark down here. I just want to see the light aga-</p>
-            <p><em>Silence for nine minutes.</em></p>
-            <p><strong>Haskel:</strong> (<em>Laughing and speaking incoherently</em>) -tenth is down below, the tenth is the madness, woke it up, there are nine but the tenth is down below, god please just make it-</p>
-            <p><em>Silence for nine minutes.</em></p>
-            <p><strong>Porter:</strong> (<em>Screaming</em>)</p>
-            <p><em>Silence for nine minutes.</em></p>
-            <p><strong>Haskel:</strong> I see you down there. You want me to come in? You want me to… you want us to all come down and be with you, down… (<em>Wet, choking sounds. Splashing. Sharp intake of breath. Wet choking. Silence.</em>)</p>
-            <p><em>Silence for nine minutes.</em></p>
-            <p><strong>Ellis:</strong> Fall forever! Fall forever! Fall forever! Fall forever! Fall forev- (<em>Sound of wind moving past the microphone quickly</em>).</p>
-            <p><em>Silence for nine minutes.</em></p>
-            <p><strong>Porter:</strong> -goes on forever. It goes down forever. We're in here forever. Just more of the nine, more of Salvation, down forever and ever. None of them got out. None of them got out. None of them got- got- got- got out out out out- (<em>Static</em>)</p>
-            <p><strong>Unidentified Voice:</strong> (<em>Through Porter's radio</em>) Hello.</p>
-            <p><strong>Porter:</strong> (<em>Weeping</em>)</p>
-            <p><strong>Porter:</strong> (<em>Static</em>)</p>
-            <p><em>No more transmissions from any of the three microphones received after this point. Possible exploration attempts into SCP-3935 using Class-D subjects are forthcoming.</em></p>
-            <p>[END LOG]</p>
-            </blockquote>
-        </div>
-        </div>
-        </div>
+            <div class="scp-image-block block-right" style="width:300px;"><img src="https://scp-wiki.wdfiles.com/local--files/scp-3935/humanoid.png" style="width:300px;" alt="humanoid.png" class="image">
+                <div class="scp-image-caption">
+                <p>Only known image of black humanoid entity, circled in red.</p>
+                </div>
+                </div>
+        <p><em>Note: The following log is a transcription of audio and video recordings gathered from the initial Foundation search-and-rescue attempt into SCP-3935.</em></p>
+        <blockquote>
+            <p>[BEGIN LOG]</p>
+            <p><strong>Ellis:</strong> Alright, mics hot. Let’s go.</p>
+            <p><em>Agents Ellis, Porter and Haskel enter SCP-3935. Each is equipped with a shoulder mounted torch, which illuminates upon entering the space beyond the archway.</em></p>
+            <p><strong>Ellis:</strong> Alright… so first thing’s first, there’s definitely something happening… back here. (<em>Pauses</em>) The walls are getting pretty tight. Stay close.</p>
+            <p><em>Team proceeds forward.</em></p>
+            <p><strong>Porter:</strong> Can you feel that?</p>
+            <p><strong>Ellis:</strong> What?</p>
+            <p><strong>Porter:</strong> The air feels funny.</p>
+            <p><strong>Haskel:</strong> Yeah, and the walls… look.</p>
+            <p><em>Shoulder mounted torch illuminates the wall next to Agent Haskel. Images are carved into the rock, similar to a child's drawings.</em></p>
+            <p><strong>Ellis:</strong> Come on, I think I feel a breeze. Might be an opening up here.</p>
+            <p><em>Team continues to push through the rock tunnel.</em></p>
+            <p><strong>Porter:</strong> Jesus, these… I can barely move, the walls are too close. Ellis, I- (<em>cuts out suddenly</em>).</p>
+            <p><em>Agent Porter's camera suddenly goes black. A moment later, it appears to be looking up at two sources of light, likely Ellis and Haskel's torches, as Agent Porter falls.</em></p>
+            <p><strong>Porter:</strong> (<em>Intermittent screaming</em>)</p>
+            <p><strong>Ellis:</strong> What the fuck just happened? Porter? Porter? Where- I can't turn around, where is he?</p>
+            <p><strong>Haskel:</strong> I hear something coming behind us, we need to move. We need to move!</p>
+            <p><em>Both agents struggle to continue forward, the tight space continuing to impede their movement. After a short time of struggling, both men fall forward into a larger open space.</em></p>
+            <p><strong>Ellis:</strong> Jesus Christ, I can't- where's Porter? Porter?</p>
+            <p><strong>Haskel:</strong> He's not behind me, can you see him in there?</p>
+            <p><em>Silence.</em></p>
+            <p><strong>Ellis:</strong> We… OK. We need to get another team down here. He might have fallen in a ravine or something, or slipped back there, or-</p>
+            <p><strong>Haskel:</strong> Ellis… look.</p>
+            <p><em>Both men turn around and illuminate the space they are in with their shoulder mounted torches. In front of them is a massive structure, seemingly carved out of the stone around them. A thick fog covers the entire chamber. Beyond the fog, dim lights are visible in openings in the structure. It is impossible to determine how high or low the structure extends. The structure is only reachable via a narrow stone bridge that extends across a large chasm between the agents and the far wall.</em></p>
+            <p><strong>Ellis:</strong> Is that… is this the high school? Why does it look like that?</p>
+            <p><strong>Haskel:</strong> Yeah… the geometry isn't right, but… yeah, look there. That's the main entrance. There's another door there, yeah. This is the school. (<em>Pauses</em>) There's another one below it. And one below that.</p>
+            <p><strong>Ellis:</strong> How far down does this go? Are there any other-</p>
+            <p><em>Both men pause. Appearing over the bridge in front of them are nine female humanoid figures, their faces obscured by long white hair. They do not move.</em></p>
+            <p><strong>Haskel:</strong> Ellis?</p>
+            <p><strong>Ellis:</strong> Hang on.</p>
+            <p><em>The nine entities hang in the air for a short time, before suddenly appearing ten meters backwards, and then another ten, and then right in front of the door to the subterranean school structure. The faces of all nine suddenly become visible, and although they are not visible on the recording due to the distance, both agents noticeably recoil. Afterwards, all the entities disappear.</em></p>
+            <p><strong>Haskel:</strong> Jesus Christ, Jesus Christ- holy shit what was that?</p>
+            <p><strong>Ellis:</strong> (<em>Heavy breathing</em>) Alright, god, we are not ready for this. We-</p>
+            <p><em>There is the sudden sound of many voices speaking in hushed tones in the distance. Both agents react at the sound.</em></p>
+            <p><strong>Haskel:</strong> The search team? Survivors?</p>
+            <p><strong>Ellis:</strong> Come on, let's go.</p>
+            <p><em>Both agents cross the chasm bridge leading towards the non-Euclidean replica of Salvation High School. Upon entering, they find the main concourse of the school. No other entities are visible within.</em></p>
+            <p><strong>Haskel:</strong> Porter? Anyone? Is there anyone here?</p>
+            <p><strong>Ellis:</strong> I feel like- Jesus, you feel this too? Like you're looking at the whole room all at once?</p>
+            <p><strong>Haskel:</strong> Yeah, it's the fucking- the walls don't make any sense.</p>
+            <p><strong>Ellis:</strong> Come on. I hear the voices down this way, let's go.</p>
+            <p><em>Both men move quickly down the closest hallway. As they do, doors on either side of the wall are visible. Although neither agent seems to notice, faces are occasionally visible through glass panes in the doorways. They are impossible to make out.</em></p>
+            <p><strong>Ellis:</strong> Here, this is the door to the auditorium. I'll bet they're in-</p>
+            <p><em>Agent Ellis opens the door. As he does, his video recorder disconnects. Agent Haskel screams and scrambles backwards. The voices increase dramatically in volume and from Agent Haskel's perspective on the ground near the door, nine female figures appear around Agent Ellis. Their movements are erratic and their bodies are contorted into impossible positions. They close on Agent Ellis, and the man and the figures disappear.</em></p>
+            <p><strong>Haskel:</strong> Fuck! Fuck! Ellis! God- fuck!</p>
+            <p><em>Agent Haskel stands and begins to run away from the door. As he reaches the end of the hall, he looks back over his shoulder and sees the nine figures approaching.</em></p>
+            <p><strong>Haskel:</strong> Oh fuck! Oh fuck! No no no! Hello? Is anyone there? Help me! God, please, help me! Hello? Fuck me, please, god, help!</p>
+            <p><em>Agent Haskel turns again to see the nine figures in the hallway behind him, though they are no longer moving forward. Instead, they hang in the air, unmoving, as Agent Haskel's pace slows. He watches them for a moment, and then stops. His breathing becomes quick.</em></p>
+            <p><strong>Haskel:</strong> Wh- what? What do you want?</p>
+            <p><em>Agent Haskel turns slowly to look behind him, and upon turning is face-to-face with a small, black, humanoid creature sitting upside down on the ceiling of the hallway. The creature has no discernible features, but its presence creates significant visual distortion in Agent Haskel's camera.</em></p>
+            <p><strong>Unidentified Figure:</strong> Hello.</p>
+            <p><em>There is a loud, low sound like a bell tolling. The sound continues for twenty seconds. The video feed for Agent Haskel goes dead. The audio feed begins to experience severe distortion, as if the signal was being drawn out over a longer period of time. There is a snapping noise, and then the feed goes silent. All three signals are quiet for some time. Eventually, all three radios begin responding again.</em></p>
+            <p><strong>Ellis:</strong> -just wants to be, wouldn't you like to just be? (<em>Pauses</em>) Yeah, yeah, we all would die. We all would die. No more of the nine, we all would- (<em>Pauses</em>) They're back. They're ba-</p>
+            <p><em>Silence for eighty-one minutes.</em></p>
+            <p><strong>Haskel:</strong> -wall is like every other wall. This hall is like every other hall. Down and down and down and down, no no no no more please, no more down, can't go down any more, can't go-</p>
+            <p><em>Silence for eighteen minutes.</em></p>
+            <p><strong>Haskel:</strong> Ellis, god, can anyone hear me? (<em>Shouting</em>) Does anyone know who I am? I can't see the light anymore! I can't see- oh god, it's only dark, it's only dark down here. I just want to see the light aga-</p>
+            <p><em>Silence for nine minutes.</em></p>
+            <p><strong>Haskel:</strong> (<em>Laughing and speaking incoherently</em>) -tenth is down below, the tenth is the madness, woke it up, there are nine but the tenth is down below, god please just make it-</p>
+            <p><em>Silence for nine minutes.</em></p>
+            <p><strong>Porter:</strong> (<em>Screaming</em>)</p>
+            <p><em>Silence for nine minutes.</em></p>
+            <p><strong>Haskel:</strong> I see you down there. You want me to come in? You want me to… you want us to all come down and be with you, down… (<em>Wet, choking sounds. Splashing. Sharp intake of breath. Wet choking. Silence.</em>)</p>
+            <p><em>Silence for nine minutes.</em></p>
+            <p><strong>Ellis:</strong> Fall forever! Fall forever! Fall forever! Fall forever! Fall forev- (<em>Sound of wind moving past the microphone quickly</em>).</p>
+            <p><em>Silence for nine minutes.</em></p>
+            <p><strong>Porter:</strong> -goes on forever. It goes down forever. We're in here forever. Just more of the nine, more of Salvation, down forever and ever. None of them got out. None of them got out. None of them got- got- got- got out out out out- (<em>Static</em>)</p>
+            <p><strong>Unidentified Voice:</strong> (<em>Through Porter's radio</em>) Hello.</p>
+            <p><strong>Porter:</strong> (<em>Weeping</em>)</p>
+            <p><strong>Porter:</strong> (<em>Static</em>)</p>
+            <p><em>No more transmissions from any of the three microphones received after this point. Possible exploration attempts into SCP-3935 using Class-D subjects are forthcoming.</em></p>
+            <p>[END LOG]</p>
+            </blockquote>
+        </div>
+        </div>
+        </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-        <script>
-            function getRandomInterval(variation, range){
-                randInterval = Math.floor((Math.random()*1000*variation)+(1000*range)); 
-                return randInterval;
-            }   
-            var salvationv = new Audio('https://scp-wiki.wdfiles.com/local--files/scp-3935/salvation-v.png');
-            salvationv.loop = false;
-            document.querySelectorAll('.collapsible-block-link').forEach(item => {
-                item.addEventListener('click', function () {
-                    var d = $(this).parents('div.collapsible-block').first();
-                    if (d.find('.collapsible-block-folded').is(':visible')) {
-                        d.find('.collapsible-block-folded').hide();
-                        var e = d.find('.collapsible-block-unfolded');
-                        e.find('.collapsible-block-content').hide();
-                        e.show();
-                        e.find('.collapsible-block-content').fadeIn('fast');
-                        var randomInt = getRandomInterval(10,1);
-                        console.log(randomInt);
-                        setTimeout(function(){
-                            salvationv.play();
-                        }, randomInt);
-                    } else {
-                    }
-                });
-            });
-        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script>
+            function getRandomInterval(variation, range){
+                randInterval = Math.floor((Math.random()*1000*variation)+(1000*range)); 
+                return randInterval;
+            }   
+            var salvationv = new Audio('https://scp-wiki.wdfiles.com/local--files/scp-3935/salvation-v.png');
+            salvationv.loop = false;
+            document.querySelectorAll('.collapsible-block-link').forEach(item => {
+                item.addEventListener('click', function () {
+                    var d = $(this).parents('div.collapsible-block').first();
+                    if (d.find('.collapsible-block-folded').is(':visible')) {
+                        d.find('.collapsible-block-folded').hide();
+                        var e = d.find('.collapsible-block-unfolded');
+                        e.find('.collapsible-block-content').hide();
+                        e.show();
+                        e.find('.collapsible-block-content').fadeIn('fast');
+                        var randomInt = getRandomInterval(10,1);
+                        console.log(randomInt);
+                        setTimeout(function(){
+                            salvationv.play();
+                        }, randomInt);
+                    } else {
+                    }
+                });
+            });
+        </script>
 </body>
 [[/html]]
 [[/collapsible]]

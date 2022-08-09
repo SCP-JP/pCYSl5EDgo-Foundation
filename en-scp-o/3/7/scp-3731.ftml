@@ -1,49 +1,49 @@
 [[module CSS]]
 .inset {
-    float: right;
-    width: 25%;
-    margin: 0px;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 2px;
-    border-color: #ee9999;
-    padding: 10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background: #FFEEEE;
-    font-size: 90%;
+    float: right;
+    width: 25%;
+    margin: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #ee9999;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #FFEEEE;
+    font-size: 90%;
 }
 .inset > p {
-    margin: 0;
+    margin: 0;
 }
 audio {
-   display:none;
+   display:none;
 }
 .space {
-    background-image: url(http://i.imgur.com/LtqzOqx.png);
+    background-image: url(http://i.imgur.com/LtqzOqx.png);
 float:center; width:100%; border:solid 3px #5050CA; padding:10px; margin-bottom: 10px;margin:0 auto;
 [[/module]]
 
 [[module css]]
-#page-content .collapsible-block {  
-  max-width: 100%;
-    /* text-align: center; */
-    text-align: center;
+#page-content .collapsible-block {  
+  max-width: 100%;
+    /* text-align: center; */
+    text-align: center;
 text-color: black;
-    border-color: #b01;
-    border: solid 1px #b01;
-    background-color: #E6DD93;
+    border-color: #b01;
+    border: solid 1px #b01;
+    background-color: #E6DD93;
 }
 .collapsible-block-content p {
-    text-align: left;
-    padding-left: 5px;
-    padding-right: 5px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 blockquote {
-    border: 1px double #999;
-    /* padding: 0 1em; */
-    background-color: #f4f4f4;
+    border: 1px double #999;
+    /* padding: 0 1em; */
+    background-color: #f4f4f4;
 }
 [[/module]]
 
@@ -52,8 +52,8 @@ blockquote {
 [[/>]]
 
 [[include component:image-block
-    name= orangezonemap.png |
-    caption= Orange Zone as of 4/26/2020 ]]
+    name= orangezonemap.png |
+    caption= Orange Zone as of 4/26/2020 ]]
 
 **Item #:** SCP-3731
 
@@ -67,15 +67,15 @@ blockquote {
 * Sites containing immovable K-class threats have been thaumically warded and locked down; Overt Automated Defense systems have been deployed to maintain the perimeters of these Sites.
 * All assets formerly restricted by the veil doctrine - including paratechnical weapons and vehicles, infantry augmentation equipment, and Overt Automated Defense systems such as Giant-class unpiloted combat drones - are approved for open use.
 [[include component:image-block
-    name= giantclass |
-    caption= Giant-class unpiloted combat drone ]]
+    name= giantclass |
+    caption= Giant-class unpiloted combat drone ]]
 * Ethics Committee rulings pertaining to SCP-3731 are considered irrelevant.
 
 All Mobile Task Force units/Foundation military assets are reassigned to the securing of SCP-3731 by any means necessary. Instances of SCP-3731 are to be relocated to the Orange Zone for processing. Provisional containment areas have been constructed within the Orange Zone to house excess SCP-3731 instances. Trucking, rail, and other transport infrastructure is to be commandeered as necessary for the movement of contained instances.
 
 [[include component:image-block
-    name= tentcolony |
-    caption= Provisional Containment Area 2 ]]
+    name= tentcolony |
+    caption= Provisional Containment Area 2 ]]
 
 As of O5 Council mandate 3731-Ov236, contained instances of SCP-3731 are to be restored to baseline normalcy via neutralization procedure 08-Lilac. Restored instances are to be employed as Class-E personnel within the Orange Zone until global normalcy can be reinstated.
 
@@ -171,7 +171,7 @@ At this time, breakthroughs in antithaumic technology enabled the Foundation to 
 
 > 9/20/2020: Food and water shortages at Provisional Containment Area 11 result in the expiration of over 400 SCP-3731 instances over the course of the week. Area director Francesca Whitlark makes the unauthorized decision to shut down PCA-11's containment operations, resulting in the breach of approximately 11,000 instances.
 
-> 1/4/2021: MTF Phi-00 "Loyalists" formed, consisting of SCP-3731 instances who retained allegiance to the Foundation post-conversion. MTF Phi-00  assigned to defense of Orange Zone borders.
+> 1/4/2021: MTF Phi-00 "Loyalists" formed, consisting of SCP-3731 instances who retained allegiance to the Foundation post-conversion. MTF Phi-00  assigned to defense of Orange Zone borders.
 > 
 > Flora and fauna affected by thaumic mutation continue to take on increasingly dangerous forms. Travel outside the Zone is impossible without specially equipped military escort.
 
@@ -223,10 +223,10 @@ At this time, breakthroughs in antithaumic technology enabled the Foundation to 
 [[/div]]
 
 [[include component:earthworm
-  first=false | last=false | hub=yes |
-  previous-url=/a-new-age-of-magic | previous-title=A New Age of Magic |
-  next-url=/thrive | next-title=Thrive |
-  hub-url=/apotheosis-hub | hub-title=Apotheosis Hub |
+  first=false | last=false | hub=yes |
+  previous-url=/a-new-age-of-magic | previous-title=A New Age of Magic |
+  next-url=/thrive | next-title=Thrive |
+  hub-url=/apotheosis-hub | hub-title=Apotheosis Hub |
 ]]
 
 [[footnoteblock]]

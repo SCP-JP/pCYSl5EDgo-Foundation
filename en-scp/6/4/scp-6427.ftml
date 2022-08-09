@@ -2,17 +2,17 @@
 
 [[module CSS]]
 #u-blink-bar p:last-child::after {
-    content: "";
-    border-right: 1px solid #e4e4e4;
-    animation: blink 1.0s infinite;
-    position: relative;
-    left: 1px;
+    content: "";
+    border-right: 1px solid #e4e4e4;
+    animation: blink 1.0s infinite;
+    position: relative;
+    left: 1px;
 }
- 
+ 
 @keyframes blink{
-    to {
-        opacity: .0;
-    }
+    to {
+        opacity: .0;
+    }
 [[/module]]
 
 [[>]]
@@ -62,7 +62,7 @@ SCP-6427は2021年12月10日、Site-324内において敵対勢力の目撃情�
 
 SCP-6427は自身を記述されたものを嫌う性質があると考えられており、それによって不活性化すると考えられています。[[footnote]] 俺がそいつの名称を書くまで実体は止まらなかったから、口頭での説明やビデオログは効果がないようだ。 [[/footnote]]
 
-SCP-6427が文書で積極的に記述されている時、胎児のような姿勢をとりますが、1秒以上の間を置くと動くことができるようになります。[[footnote]] 注記:  俺は科学のために危険を冒すことを厭わなかった。今、俺は覆い被さられているも同然だ。 [[/footnote]]
+SCP-6427が文書で積極的に記述されている時、胎児のような姿勢をとりますが、1秒以上の間を置くと動くことができるようになります。[[footnote]] 注記:  俺は科学のために危険を冒すことを厭わなかった。今、俺は覆い被さられているも同然だ。 [[/footnote]]
 
 [[div id="blink-bar"]]
 SCP-6427は記述することで無期限に封じ込めることが可能です[[footnote]] 俺が電源ケーブルを見つけられた場合。 [[/footnote]]が、この収容方法は実行が不可能であり、 1つの理由として挙げられるのｈ
@@ -204,7 +204,7 @@ SCP-6427は記述することで無期限に封じ込めることが可能です
 @@@@
 @@@@
 
-     **[ページロックが解除されました。]**
+     **[ページロックが解除されました。]**
 
 @@@@
 @@@@

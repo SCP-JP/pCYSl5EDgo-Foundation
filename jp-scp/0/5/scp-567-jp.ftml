@@ -24,19 +24,19 @@ user-select: none;
 
 </style>
 <div id="area1">
-    <div style='float:right;' id ="imgarea"></div>
-    <p><b>アイテム番号:</b><span id="itemid">SCP-567-JP</span></p>
-    <p><b>オブジェクトクラス:</b><span id="oclass"></span><span id="destination"></span></p>
-    <p><b>特別収容プロトコル:</b><span id="protocol"></span></p>
+    <div style='float:right;' id ="imgarea"></div>
+    <p><b>アイテム番号:</b><span id="itemid">SCP-567-JP</span></p>
+    <p><b>オブジェクトクラス:</b><span id="oclass"></span><span id="destination"></span></p>
+    <p><b>特別収容プロトコル:</b><span id="protocol"></span></p>
 
-    <table align="left">
-    	<tr><td><p><b>説明:</b>SCP-567-JPとは、<span id="description"></span></p></td><td width="50"></td><tr>
-    </table>
+    <table align="left">
+    	<tr><td><p><b>説明:</b>SCP-567-JPとは、<span id="description"></span></p></td><td width="50"></td><tr>
+    </table>
 </div>
 <div id="area2">
-    <div id="space1"></div>
-    <p><b>補遺-001:</b><span id="addendum"></span></p>
-    <p><div id="debugarea"></div></p>
+    <div id="space1"></div>
+    <p><b>補遺-001:</b><span id="addendum"></span></p>
+    <p><div id="debugarea"></div></p>
 </div>
 
 <!--[if lt IE 9]>
@@ -53,7 +53,7 @@ user-select: none;
 w2qyv=Object;
 
 w2qyv.ObjectClass="Safe";
-w2qyv.protocol="SCP-567-JPは現在、F4サイト-128に収容されています。SCP-567-JPの複製は電子的・物理的を問わず許可されていません。 担当職員はA4またはA5用紙に12ptで印刷されたSCP-567-JPを、鍵のかかるロッカーまたは引き出しに保管してください。<br><br>  SCP-567-JPは担当職員の許可と立ち合いのもと、 Ｂクラスまでの職員が閲覧を許可されています。SCP-567-JPから得られた情報は全て担当職員に連絡し、 概要を記録してください。また、 それが有益な情報だと思われる場合、両者は研究員に連絡を行う必要があります。 また、担当職員は定期的にSCP-567-JPのトリミングを行い、過度な増殖を抑えてください。 その際閲覧者がSCP-567-JPを持ち出せることがないよう、トリミングの量には注意してください。  担当を変える場合、元の職員にはクラスBの記憶処理が必要です。 また、もし新たに民間人がSCP-567-JPおよびその性質を発見した場合、回収の際は必要に応じクラスA記憶処理を施してください。";
+w2qyv.protocol="SCP-567-JPは現在、F4サイト-128に収容されています。SCP-567-JPの複製は電子的・物理的を問わず許可されていません。 担当職員はA4またはA5用紙に12ptで印刷されたSCP-567-JPを、鍵のかかるロッカーまたは引き出しに保管してください。<br><br>  SCP-567-JPは担当職員の許可と立ち合いのもと、 Ｂクラスまでの職員が閲覧を許可されています。SCP-567-JPから得られた情報は全て担当職員に連絡し、 概要を記録してください。また、 それが有益な情報だと思われる場合、両者は研究員に連絡を行う必要があります。 また、担当職員は定期的にSCP-567-JPのトリミングを行い、過度な増殖を抑えてください。 その際閲覧者がSCP-567-JPを持ち出せることがないよう、トリミングの量には注意してください。  担当を変える場合、元の職員にはクラスBの記憶処理が必要です。 また、もし新たに民間人がSCP-567-JPおよびその性質を発見した場合、回収の際は必要に応じクラスA記憶処理を施してください。";
 
 w2qyv.description="「w=?&2times=█ .繧ｪ繝悶ず.アルファベット・数字繧ｧ繧ｯ繝合という、 必要医け繝ｩ繧ｹ:qyてください。:-v,という組み合わ繝/&gt;」 という、5文字からなる文字列です。20██年█月、██県にある電波望遠鏡が受信した信号を文字コードに符号化したところ、 データベースの一貫性に不整合が生じたことを発端に財団に発見されました。<br><br> SCP-567-JPの特性は、観測に応じ新たな文字が増殖・発生し、また発生した文字が変化することにあります。電子媒体に保存した場合は主記憶・補助記憶ともにビットの反転とシフトが発生し、このときデータの整合性に関わらずパリティエラー・チェックは抑制されます。物理媒体に印刷した場合、着色剤・媒体の種類に関わらず、媒体上で新たなインクの発生及び移動が発生します。増分を頻繁に削除する、または観測を控えることで新たな発生は抑えられますが、発生する文字の内容を制御する方法は見つかっていません。<br><br>報告によれば、増加した文字列は多くはランダムな文字列ですが、まれに意味的かつ統語的に自然言語と判断されるものがあり、またその中には未発見の科学的知見が含まれています。このためSCP-567-JPが知性を有する可能性が指摘され、また増殖を制御することで財団に有益となる情報を得られる可能性が指摘されていますが、現時点ではそれらの検証実験は許可されていません。<br><br> <em>閲覧記録い-5（現担当者より）：</em><br><ul> <li>日付:20██/██/██</li> 閲覧者:エージェント・█<br> SCP-567-JPの概要：「waffleの作り方(2人前)」と題された調理レシピ。<br> <em>試しに作ってみたが、なかなか旨い。――エージェント・█</em> <li>日付:20██/██/██</li> 閲覧者:エージェント・██<br> SCP-567-JPの概要：わらべ歌「2 Little Blackbirds」の一部、及び「Little girl and queen」。 <li>日付:20██/██/██</li> 閲覧者:エージェント・██<br> SCP-567-JPの概要：「weak boson2タイプと場の量子論」と題された論文。 <li>日付:20██/██/██</li> 閲覧者:エージェント・██<br> SCP-567-JPの概要：ランダムなアルファベット文字列。 <li>日付:20██/██/██</li> 閲覧者:エージェント・██<br> SCP-567-JPの概要：ランダムな、かな漢字文字列。中には単語と思われるものがある。 <li>日付:20██/██/██</li> 閲覧者:エージェント・██<br> SCP-567-JPの概要：ランダムな、かな漢字文字列。中には学術用語と思われるものがある。 <li>日付:20██/██/██</li> 閲覧者:エージェント・██<br> SCP-567-JPの概要：ランダムな、かな漢字文字列。中にはプログラム言語やマークアップ言語と思われるものがある。 </ul><br> ";
 
@@ -63,7 +63,7 @@ w2qyv.FPS=20;
 w2qyv.MOVEFLAG = false; 
 w2qyv.w=window;
 w2qyv.d=document;
-w2qyv.SIZE_X  =w2qyv.w.outerWidth ||w2qyv.d.documentElement.clientWidth || w2qyv.d.body.clientWidth;
+w2qyv.SIZE_X  =w2qyv.w.outerWidth ||w2qyv.d.documentElement.clientWidth || w2qyv.d.body.clientWidth;
 w2qyv.SIZE_Y = w2qyv.w.outerHeight ||w2qyv.d.documentElement.clientHeight || w2qyv.d.body.clientHeight;
 
 w2qyv.buttonstr="<input type=\"button\" id=\"awaken\" onClick=\"phase3()\" this.disabled=\'true\'>";
@@ -81,241 +81,241 @@ var NUM_SWARM2 = w2qyv.ary2.length;
 var tn=[];
 var testTimer;
 $(document).ready( function(){
-    phase1();
+    phase1();
 });
 function phase1(){
-    document.getElementById("oclass").innerHTML = w2qyv.ObjectClass;
-    document.getElementById("protocol").innerHTML = w2qyv.protocol;
-    document.getElementById("space1").innerHTML =""
-    var h= $('#oclass').height();
-    var str="";
-    var spaceHeight=w2qyv.SIZE_Y;
-    for(i=0;i<spaceHeight;i+=h){
-    	str+=" <br>";
-    }
-    document.getElementById("description").innerHTML = w2qyv.description+str;
-    str="<br>SCP-567-JPの検証実験「多点交叉法を用いた変異の人為的制御」が申請されています。<br><input type='button' value='実験を許可する(要・上席研究員クリアランス)' onClick='phase2();'>";
-    document.getElementById("addendum").innerHTML = str;
+    document.getElementById("oclass").innerHTML = w2qyv.ObjectClass;
+    document.getElementById("protocol").innerHTML = w2qyv.protocol;
+    document.getElementById("space1").innerHTML =""
+    var h= $('#oclass').height();
+    var str="";
+    var spaceHeight=w2qyv.SIZE_Y;
+    for(i=0;i<spaceHeight;i+=h){
+    	str+=" <br>";
+    }
+    document.getElementById("description").innerHTML = w2qyv.description+str;
+    str="<br>SCP-567-JPの検証実験「多点交叉法を用いた変異の人為的制御」が申請されています。<br><input type='button' value='実験を許可する(要・上席研究員クリアランス)' onClick='phase2();'>";
+    document.getElementById("addendum").innerHTML = str;
 
 };
 function phase2(){
-    document.getElementById("oclass").innerHTML = "<s>Safe</s> Euclid";
-    document.getElementById("space1").innerHTML =""
-    var str="";
-    	for (var i=NUM_SWARM1; i<NUM_SWARM; ++i) {
-    	str+="<span id=word"+i+">"+w2qyv.ary2[i-NUM_SWARM1]+"</span>";
-    }
-    document.getElementById("protocol").innerHTML = str+"<br>";
-    str="";
-    	for (var i=0; i<NUM_SWARM1; ++i) {
-    	str+="<span id=word"+i+">"+w2qyv.ary[i]+"</span>";
-    }
-    document.getElementById("description").innerHTML=str;
-    	for (var i=0;i<NUM_SWARM; ++i) {
-    	var word="word"+i;
-    	var ele = document.getElementById(word);
-    	var result=Distance(ele);
-    	var px=result.left;
-    	var py=result.top;
-    	swarm[i] = {
-            	x: px,
-            	y: py,
-            	vx: 0,
-            	vy: 0
-    	}
-    }
-    	for (var i=0;i<NUM_SWARM; ++i) {
-    	var word=$("#word"+i);
-    	tn.push(word)
-    	word.css('display', 'inline-block')
-    	.css('position', 'absolute')
-    	.css("left",Math.floor( swarm[i].x))
-    	.css("top",Math.floor( swarm[i].y));
+    document.getElementById("oclass").innerHTML = "<s>Safe</s> Euclid";
+    document.getElementById("space1").innerHTML =""
+    var str="";
+    	for (var i=NUM_SWARM1; i<NUM_SWARM; ++i) {
+    	str+="<span id=word"+i+">"+w2qyv.ary2[i-NUM_SWARM1]+"</span>";
+    }
+    document.getElementById("protocol").innerHTML = str+"<br>";
+    str="";
+    	for (var i=0; i<NUM_SWARM1; ++i) {
+    	str+="<span id=word"+i+">"+w2qyv.ary[i]+"</span>";
+    }
+    document.getElementById("description").innerHTML=str;
+    	for (var i=0;i<NUM_SWARM; ++i) {
+    	var word="word"+i;
+    	var ele = document.getElementById(word);
+    	var result=Distance(ele);
+    	var px=result.left;
+    	var py=result.top;
+    	swarm[i] = {
+            	x: px,
+            	y: py,
+            	vx: 0,
+            	vy: 0
+    	}
+    }
+    	for (var i=0;i<NUM_SWARM; ++i) {
+    	var word=$("#word"+i);
+    	tn.push(word)
+    	word.css('display', 'inline-block')
+    	.css('position', 'absolute')
+    	.css("left",Math.floor( swarm[i].x))
+    	.css("top",Math.floor( swarm[i].y));
 
-    }
-    var ele = document.getElementById("destination");
-    var result=Distance(ele);
-    w2qyv.AREA_x=Math.floor(result.left);
-    w2qyv.AREA_y=Math.floor(result.top);
-    var h= $('#oclass').height();
-    str="";
+    }
+    var ele = document.getElementById("destination");
+    var result=Distance(ele);
+    w2qyv.AREA_x=Math.floor(result.left);
+    w2qyv.AREA_y=Math.floor(result.top);
+    var h= $('#oclass').height();
+    str="";
 
-    var spaceHeight=swarm[w2qyv.ary.length-1].y+w2qyv.SIZE_Y;
+    var spaceHeight=swarm[w2qyv.ary.length-1].y+w2qyv.SIZE_Y;
 
-    for(i=0;i<spaceHeight;i+=h){
-    	str+="<br>";
-    }
-    document.getElementById("space1").innerHTML =str;
-    str="<br>SCP-567-JPの検証実験「多点交叉法を用いた変異の人為的制御」が申請されています。<br>実験が許可されました……<br>実験が許可されました……<br>実験を行っています……/><br>";
+    for(i=0;i<spaceHeight;i+=h){
+    	str+="<br>";
+    }
+    document.getElementById("space1").innerHTML =str;
+    str="<br>SCP-567-JPの検証実験「多点交叉法を用いた変異の人為的制御」が申請されています。<br>実験が許可されました……<br>実験が許可されました……<br>実験を行っています……/><br>";
 
-    document.getElementById("addendum").innerHTML = str;
+    document.getElementById("addendum").innerHTML = str;
 };
 function phase3(){
-    start();
-    var errorstr="<br><em>エラー!! "+getBrowser()+"のSynchronized-Communication-Pluginが無効になっています.<br>一般職員がプラグインを有効化し、[サイト-128]にアクセスするには<a href=\"#\" onclick=\"phase3_5()\">こちら</a>をクリックしてください.</em>";
-    document.getElementById("addendum").innerHTML = errorstr;
+    start();
+    var errorstr="<br><em>エラー!! "+getBrowser()+"のSynchronized-Communication-Pluginが無効になっています.<br>一般職員がプラグインを有効化し、[サイト-128]にアクセスするには<a href=\"#\" onclick=\"phase3_5()\">こちら</a>をクリックしてください.</em>";
+    document.getElementById("addendum").innerHTML = errorstr;
 };
 function phase3_5(){
-    chat();
+    chat();
 }
 function phase4(bool){
-    if(bool){
-    w2qyv.ObjectClass="<s>Safe</s> <s>Euclid</s> <s>Keter</s> Neutralized";
-    w2qyv.protocol="現在、SCP-567-JPは特別な収容手順が不要です。一般職員はクラスを問わず、閲覧および複製が許可されています。";
-    w2qyv.description="「w2qyv」というアルファベットと数字5文字からなる文字列です。20██年█月、██県にある電波望遠鏡が受信した信号を文字コードに符号化したところ、 データベースの一貫性に不整合が生じたことを発端に財団に発見されました。<br><br> SCP-567-JPの特性は、観測に応じ新たな文字が増殖・発生し、また発生した文字が変化することにあります。記憶装置に保存した場合は主記憶・補助記憶ともにビットの反転とシフトが発生し、このときデータの整合性に関わらずパリティエラー・チェックは抑制されます。物理媒体に印刷した場合、着色剤・媒体の種類に関わらず、媒体上で新たなインクの発生及び移動が発生します。増分を頻繁に削除する、または観測を控えることで新たな発生を抑えられますが、発生する文字の種別を制御する方法は見つかっていません。<br><br>報告によれば、増加した文字列は多くはランダムな文字列ですが、まれに意味的かつ統語的に自然言語と判断されるものがあり、またその中には未発見の科学的知見が含まれています。このためSCP-567-JPが知性を有する可能性が指摘され、また増殖を制御することで財団に有益となる情報を得られる可能性が指摘されています。<br><br><b>補遺:</b><br>20██/██/██,当時SCP-567-JPを収容していたサイト-128にて、本オブジェクトの収容違反事故が発生しました。事故後の調査の結果、SCP-567-JPは特性を変異させ、物体ないしディスプレイ表面上の移動能力、及び記録装置や動植物を媒体とした増殖能力を有していたと考えられます。<br><br>この収容違反の結果、当時サイト-128に従事していた財団職員一人を除く全ての職員と、SCP-███-JP,SCP-███-JPが失われました。<br><br>なお、事故の報告を受け機動部隊ろ-5がサイト-128に到着したとき、すでにサイト内施設の内装および設備の多くは増殖したSCP-567-JPに覆われていましたが、全て通常の文字列として不活性化していました。生存者のインタビューおよび調査の結果、SCP-567-JPの代謝および世代交代に必要となる情報量が本体から切り離された結果、SCP-567-JPは死亡（ないし活動停止）したと思われます。<br><br>事故を元にSCP-567-JPの異常性は観察されなくなり、調査報告ののち、SCP-567-JPのオブジェクトクラスはNeutralizedに変更されました。";
+    if(bool){
+    w2qyv.ObjectClass="<s>Safe</s> <s>Euclid</s> <s>Keter</s> Neutralized";
+    w2qyv.protocol="現在、SCP-567-JPは特別な収容手順が不要です。一般職員はクラスを問わず、閲覧および複製が許可されています。";
+    w2qyv.description="「w2qyv」というアルファベットと数字5文字からなる文字列です。20██年█月、██県にある電波望遠鏡が受信した信号を文字コードに符号化したところ、 データベースの一貫性に不整合が生じたことを発端に財団に発見されました。<br><br> SCP-567-JPの特性は、観測に応じ新たな文字が増殖・発生し、また発生した文字が変化することにあります。記憶装置に保存した場合は主記憶・補助記憶ともにビットの反転とシフトが発生し、このときデータの整合性に関わらずパリティエラー・チェックは抑制されます。物理媒体に印刷した場合、着色剤・媒体の種類に関わらず、媒体上で新たなインクの発生及び移動が発生します。増分を頻繁に削除する、または観測を控えることで新たな発生を抑えられますが、発生する文字の種別を制御する方法は見つかっていません。<br><br>報告によれば、増加した文字列は多くはランダムな文字列ですが、まれに意味的かつ統語的に自然言語と判断されるものがあり、またその中には未発見の科学的知見が含まれています。このためSCP-567-JPが知性を有する可能性が指摘され、また増殖を制御することで財団に有益となる情報を得られる可能性が指摘されています。<br><br><b>補遺:</b><br>20██/██/██,当時SCP-567-JPを収容していたサイト-128にて、本オブジェクトの収容違反事故が発生しました。事故後の調査の結果、SCP-567-JPは特性を変異させ、物体ないしディスプレイ表面上の移動能力、及び記録装置や動植物を媒体とした増殖能力を有していたと考えられます。<br><br>この収容違反の結果、当時サイト-128に従事していた財団職員一人を除く全ての職員と、SCP-███-JP,SCP-███-JPが失われました。<br><br>なお、事故の報告を受け機動部隊ろ-5がサイト-128に到着したとき、すでにサイト内施設の内装および設備の多くは増殖したSCP-567-JPに覆われていましたが、全て通常の文字列として不活性化していました。生存者のインタビューおよび調査の結果、SCP-567-JPの代謝および世代交代に必要となる情報量が本体から切り離された結果、SCP-567-JPは死亡（ないし活動停止）したと思われます。<br><br>事故を元にSCP-567-JPの異常性は観察されなくなり、調査報告ののち、SCP-567-JPのオブジェクトクラスはNeutralizedに変更されました。";
 
-    }else{
-    w2qyv.ObjectClass="<s>Safe</s> <s>Euclid</s> <s>Keter</s> Safe";
-    w2qyv.protocol="SCP-567-JPは現在、サイト-129に収容されています。"+
-    "サイト内の一般職員はクラスを問わずSCP-567-JPの閲覧が許可されていますが、持ち出しは禁じられています。"+
-    "担当職員は定期的に、ケージである&lt;table&gt;タグ内にSCP-567-JPが収容されていることを確認し、"+
-    "もし逃げ出した場合は筆記具を用いてケージ内にSCP-567-JPを再収容してください。"+
-    "また、SCP-567-JPに何らかの異常を発見した場合、サイト内の担当職員に連絡してください。";
+    }else{
+    w2qyv.ObjectClass="<s>Safe</s> <s>Euclid</s> <s>Keter</s> Safe";
+    w2qyv.protocol="SCP-567-JPは現在、サイト-129に収容されています。"+
+    "サイト内の一般職員はクラスを問わずSCP-567-JPの閲覧が許可されていますが、持ち出しは禁じられています。"+
+    "担当職員は定期的に、ケージである&lt;table&gt;タグ内にSCP-567-JPが収容されていることを確認し、"+
+    "もし逃げ出した場合は筆記具を用いてケージ内にSCP-567-JPを再収容してください。"+
+    "また、SCP-567-JPに何らかの異常を発見した場合、サイト内の担当職員に連絡してください。";
 
-    w2qyv.description="特定のアルファベットと数字5文字からなる文字列です。 20██年█月、██県にある電波望遠鏡が受信した信号を文字コードに符号化したところ、 データベースの一貫性に不整合が生じたことを発端に財団に発見されました。<br><br> SCP-567-JPの特性は、観測に応じ新たな文字が増殖・発生し、また発生した文字が変化することにあります。記憶装置に保存した場合は主記憶・補助記憶ともにビットの反転とシフトが発生し、このときデータの整合性に関わらずパリティエラー・チェックは抑制されます。物理媒体に印刷した場合、着色剤・媒体の種類に関わらず、媒体上で新たなインクの発生及び移動が発生します。増分を頻繁に削除する、または観測を控えることで新たな発生を抑えられますが、発生する文字列を制御する方法は見つかっていません。<br><br>報告によれば、増加した文字列は多くはランダムな文字列ですが、まれに意味的かつ統語的に自然言語と判断されるものがあり、またその中には未発見の科学的知見が含まれています。このためSCP-567-JPが知性を有する可能性が指摘され、また増殖を制御することで財団に有益となる情報を得られる可能性が指摘されています。<br><br><b>補遺:</b><br>20██/██/██,当時SCP-567-JPを収容していたサイト-128にて、本オブジェクトの収容違反事故が発生しました。事故後の調査の結果、SCP-567-JPは特性を変異させ、物体ないしディスプレイ表面上の移動能力、及び記録装置や動植物を媒体とした増殖能力を有していたと考えられます。この収容違反の結果、当時サイト-128に従事していた全ての職員とSCP-███-JP,およびSCP-███-JPが失われました。なお、事故の報告を受け機動部隊ろ-5がサイト-128に到着したとき、すでにサイト内施設の内装および設備の多くは増殖したSCP-567-JPに覆われていましたが、そのほとんどが通常の文字列として不活性化していました。収容違反時、または機動部隊の到着までに、何らかの原因により、SCP-567-JPは再び性質を変化させたと考えられています。これに合わせ、収容プロトコルが変更されました。<br><br>現在収容しているSCP-567-JPは、事故後に財団職員の死体から発見されたものです。物体ないしディスプレイ表面上の移動能力を有していますが、その能力は限定的であり、増殖能力を持たず、線分・壁・段差のような障害を超えることができません。また、新たにSCP-567-JPを複製することはできません。複製したSCP-567-JPは通常の文字列として不活性化します。こうした性質の変化がなぜ起きたのか、SCP-567-JPおよび事故の調査は継続しています。";
-    }
+    w2qyv.description="特定のアルファベットと数字5文字からなる文字列です。 20██年█月、██県にある電波望遠鏡が受信した信号を文字コードに符号化したところ、 データベースの一貫性に不整合が生じたことを発端に財団に発見されました。<br><br> SCP-567-JPの特性は、観測に応じ新たな文字が増殖・発生し、また発生した文字が変化することにあります。記憶装置に保存した場合は主記憶・補助記憶ともにビットの反転とシフトが発生し、このときデータの整合性に関わらずパリティエラー・チェックは抑制されます。物理媒体に印刷した場合、着色剤・媒体の種類に関わらず、媒体上で新たなインクの発生及び移動が発生します。増分を頻繁に削除する、または観測を控えることで新たな発生を抑えられますが、発生する文字列を制御する方法は見つかっていません。<br><br>報告によれば、増加した文字列は多くはランダムな文字列ですが、まれに意味的かつ統語的に自然言語と判断されるものがあり、またその中には未発見の科学的知見が含まれています。このためSCP-567-JPが知性を有する可能性が指摘され、また増殖を制御することで財団に有益となる情報を得られる可能性が指摘されています。<br><br><b>補遺:</b><br>20██/██/██,当時SCP-567-JPを収容していたサイト-128にて、本オブジェクトの収容違反事故が発生しました。事故後の調査の結果、SCP-567-JPは特性を変異させ、物体ないしディスプレイ表面上の移動能力、及び記録装置や動植物を媒体とした増殖能力を有していたと考えられます。この収容違反の結果、当時サイト-128に従事していた全ての職員とSCP-███-JP,およびSCP-███-JPが失われました。なお、事故の報告を受け機動部隊ろ-5がサイト-128に到着したとき、すでにサイト内施設の内装および設備の多くは増殖したSCP-567-JPに覆われていましたが、そのほとんどが通常の文字列として不活性化していました。収容違反時、または機動部隊の到着までに、何らかの原因により、SCP-567-JPは再び性質を変化させたと考えられています。これに合わせ、収容プロトコルが変更されました。<br><br>現在収容しているSCP-567-JPは、事故後に財団職員の死体から発見されたものです。物体ないしディスプレイ表面上の移動能力を有していますが、その能力は限定的であり、増殖能力を持たず、線分・壁・段差のような障害を超えることができません。また、新たにSCP-567-JPを複製することはできません。複製したSCP-567-JPは通常の文字列として不活性化します。こうした性質の変化がなぜ起きたのか、SCP-567-JPおよび事故の調査は継続しています。";
+    }
 
-    var fadetime=1000;
-    $("#oclass").fadeOut(fadetime);
-    $("#protocol").fadeOut(fadetime);
-    $("#description").fadeOut(fadetime);
-    setTimeout(function(){
-    document.getElementById("oclass").innerHTML = w2qyv.ObjectClass;
-    document.getElementById("protocol").innerHTML = w2qyv.protocol;
-    document.getElementById("description").innerHTML = w2qyv.description;
-    },fadetime);
-    setTimeout(fadein(bool),fadetime+1);
+    var fadetime=1000;
+    $("#oclass").fadeOut(fadetime);
+    $("#protocol").fadeOut(fadetime);
+    $("#description").fadeOut(fadetime);
+    setTimeout(function(){
+    document.getElementById("oclass").innerHTML = w2qyv.ObjectClass;
+    document.getElementById("protocol").innerHTML = w2qyv.protocol;
+    document.getElementById("description").innerHTML = w2qyv.description;
+    },fadetime);
+    setTimeout(fadein(bool),fadetime+1);
 };
 function fadein(bool){
-    var fadetime=1000;
-    $("#oclass").fadeIn(fadetime);
-    $("#protocol").fadeIn(fadetime);
-    $("#description").fadeIn(fadetime);
-        if (!bool) {
-    document.getElementById("imgarea").innerHTML ="<table border='1' id='scpimgtbl'><tbody><tr><td colspan='2'><div id='scpimg' style='width:300px;height:200;' ></td></tr><tr><th colspan='2'><sup>収容違反後のSCP-567-JP</sup></th></tr></tbody></table>";
-    drowscp();
-    }
+    var fadetime=1000;
+    $("#oclass").fadeIn(fadetime);
+    $("#protocol").fadeIn(fadetime);
+    $("#description").fadeIn(fadetime);
+        if (!bool) {
+    document.getElementById("imgarea").innerHTML ="<table border='1' id='scpimgtbl'><tbody><tr><td colspan='2'><div id='scpimg' style='width:300px;height:200;' ></td></tr><tr><th colspan='2'><sup>収容違反後のSCP-567-JP</sup></th></tr></tbody></table>";
+    drowscp();
+    }
 }
 function drowscp(){
-    var w = 300;
-    var h = 200;
-    var nodes = [ {id:0, label:"w"},
-                  {id:1, label:"2"},
-                  {id:2, label:"q"},
-                  {id:3, label:"y"},
-                  {id:4, label:"v"}
-                ];
-    var links = [ {source:0, target:1},
-                  {source:1, target:2},
-                  {source:2, target:3},
-                  {source:3, target:4}
-                ];
-   var force = d3.layout.force()
-                 .nodes(nodes)
-                 .links(links)
-                 .size([w, h])
-                 .linkStrength(0.9)
-                 .friction(0.9)
-                 .distance(10)
-                 .charge(-30)
-                 .gravity(0.1)
-                 .theta(0.8)
-                 .alpha(0.1)
-                 .start(); 
-    var svg = d3.select("#scpimg").append("svg").attr({width:w, height:h});
-    var link = svg.selectAll("line")
-                  .data(links)
-                  .enter()
-                  .append("line")
-                  .style({"stroke": "ffffff",
-                          "stroke-width": 0});
-    var node = svg.selectAll("circle")
-                  .data(nodes)
-                  .enter()
-                  .append("circle")
-                  .attr({r: 30,
-                         opacity: 0})
-                  .style({"fill": "white"})
-                  .call(force.drag);
+    var w = 300;
+    var h = 200;
+    var nodes = [ {id:0, label:"w"},
+                  {id:1, label:"2"},
+                  {id:2, label:"q"},
+                  {id:3, label:"y"},
+                  {id:4, label:"v"}
+                ];
+    var links = [ {source:0, target:1},
+                  {source:1, target:2},
+                  {source:2, target:3},
+                  {source:3, target:4}
+                ];
+   var force = d3.layout.force()
+                 .nodes(nodes)
+                 .links(links)
+                 .size([w, h])
+                 .linkStrength(0.9)
+                 .friction(0.9)
+                 .distance(10)
+                 .charge(-30)
+                 .gravity(0.1)
+                 .theta(0.8)
+                 .alpha(0.1)
+                 .start(); 
+    var svg = d3.select("#scpimg").append("svg").attr({width:w, height:h});
+    var link = svg.selectAll("line")
+                  .data(links)
+                  .enter()
+                  .append("line")
+                  .style({"stroke": "ffffff",
+                          "stroke-width": 0});
+    var node = svg.selectAll("circle")
+                  .data(nodes)
+                  .enter()
+                  .append("circle")
+                  .attr({r: 30,
+                         opacity: 0})
+                  .style({"fill": "white"})
+                  .call(force.drag);
 
-    var label = svg.selectAll('text')
-                    .data(nodes)
-                    .enter()
-                    .append('text')
-                    .attr({"text-anchor":"middle",
-                           "fill":"black"})
-                    .style({"font-size":30})
-                    .text(function(d) { return d.label; });
+    var label = svg.selectAll('text')
+                    .data(nodes)
+                    .enter()
+                    .append('text')
+                    .attr({"text-anchor":"middle",
+                           "fill":"black"})
+                    .style({"font-size":30})
+                    .text(function(d) { return d.label; });
 
 setInterval(function(){
-    var rand= Math.random();
-                 force.linkStrength(rand)
-                 .friction(rand)
-                 .distance(rand*100)
-                 .charge(-100*rand);
-    force.resume();
+    var rand= Math.random();
+                 force.linkStrength(rand)
+                 .friction(rand)
+                 .distance(rand*100)
+                 .charge(-100*rand);
+    force.resume();
 },1000);
 
-    force.on("tick", function() {
-      link.attr({x1: function(d) { return xbarrier (d.source.x); },
-                 y1: function(d) { return ybarrier (d.source.y); },
-                 x2: function(d) { return xbarrier (d.target.x); },
-                 y2: function(d) { return ybarrier (d.target.y); }});
-      node.attr({cx: function(d) { return xbarrier (d.x); },
-                 cy: function(d) { return ybarrier (d.y); }});
-      label.attr({x: function(d) { return xbarrier (d.x); },
-                  y: function(d) { return ybarrier (d.y); }}); });
+    force.on("tick", function() {
+      link.attr({x1: function(d) { return xbarrier (d.source.x); },
+                 y1: function(d) { return ybarrier (d.source.y); },
+                 x2: function(d) { return xbarrier (d.target.x); },
+                 y2: function(d) { return ybarrier (d.target.y); }});
+      node.attr({cx: function(d) { return xbarrier (d.x); },
+                 cy: function(d) { return ybarrier (d.y); }});
+      label.attr({x: function(d) { return xbarrier (d.x); },
+                  y: function(d) { return ybarrier (d.y); }}); });
 function xbarrier (d) {
-    if(d >10&&d<290){
-    return d;
-    }else if(d<10){
-    return 10;
-    }else{
-    return 290
-    }
+    if(d >10&&d<290){
+    return d;
+    }else if(d<10){
+    return 10;
+    }else{
+    return 290
+    }
 }
 function ybarrier (d) {
-    if(d >10&&d<200){
-    return d;
-    }else if(d<10){
-    return 10;
-    }else{
-    return 200
-    }
+    if(d >10&&d<200){
+    return d;
+    }else if(d<10){
+    return 10;
+    }else{
+    return 200
+    }
 }}
 function chat(){
-    var chatroom="<table border='1' width=\"600\" bgcolor=\"#000000\">"+
-    "<tr><td height=\"300\" align=\"left\" valign=\"top\"style=\"color:#ffffff; font-size: x-small; \">"+
-    "<div id='a2' style=\"height:300px; width:600px; overflow-y:scroll\"><pre><span id =\"progressbar\"></span><span class=\"serif\"></span></pre><pre><span class=\"serif2\"></span></pre></div></td></tr> </table> <form name=\"js\" onsubmit=\"return false;\"><input type=\"text\"maxlength=\"30\" name=\"txtb\" value=\"\"> <input type=\"button\" value=\"send\" name=\"sendbutton\"onclick=\"send()\" disabled><br></form>";
-    document.getElementById("addendum").innerHTML = chatroom;
-    document.js.sendbutton.disabled = true;
-    var c=0;
-    function progress(){
-    	c++;
-    	if(c>100)c=0;
-    	var bar="";
-    	var comp="";
-    	var num=c/5;
-    	for(i=0;i<num;i++){bar+="#";}
-    	var text1 =">接続を確立します<br>";
-    	var text2=bar  + c +"%";
-    	document.getElementById("progressbar").innerHTML = text1+text2;
-    	if(c!=100){
-    	setTimeout(progress,30);
-    	}else{
-    	text2=bar  + c +"%<br>>接続を確立しました<br>";	
-    	document.js.sendbutton.disabled = false;
-    	document.getElementById("progressbar").innerHTML = text1+text2;
-    	chat2();
-    	}
-    }
-    setTimeout(progress,50);
+    var chatroom="<table border='1' width=\"600\" bgcolor=\"#000000\">"+
+    "<tr><td height=\"300\" align=\"left\" valign=\"top\"style=\"color:#ffffff; font-size: x-small; \">"+
+    "<div id='a2' style=\"height:300px; width:600px; overflow-y:scroll\"><pre><span id =\"progressbar\"></span><span class=\"serif\"></span></pre><pre><span class=\"serif2\"></span></pre></div></td></tr> </table> <form name=\"js\" onsubmit=\"return false;\"><input type=\"text\"maxlength=\"30\" name=\"txtb\" value=\"\"> <input type=\"button\" value=\"send\" name=\"sendbutton\"onclick=\"send()\" disabled><br></form>";
+    document.getElementById("addendum").innerHTML = chatroom;
+    document.js.sendbutton.disabled = true;
+    var c=0;
+    function progress(){
+    	c++;
+    	if(c>100)c=0;
+    	var bar="";
+    	var comp="";
+    	var num=c/5;
+    	for(i=0;i<num;i++){bar+="#";}
+    	var text1 =">接続を確立します<br>";
+    	var text2=bar  + c +"%";
+    	document.getElementById("progressbar").innerHTML = text1+text2;
+    	if(c!=100){
+    	setTimeout(progress,30);
+    	}else{
+    	text2=bar  + c +"%<br>>接続を確立しました<br>";	
+    	document.js.sendbutton.disabled = false;
+    	document.getElementById("progressbar").innerHTML = text1+text2;
+    	chat2();
+    	}
+    }
+    setTimeout(progress,50);
 };
 function chat2(){
 var str="<ins>miyauchi:</ins>"+"誰か・・誰か、生存者は残ってるか？もしいたら、SCP-567-JPの本体を教えてほしい<ins>1</ins><br>".slice(Math.floor( Math.random() * 4))+
 "<ins>miyauchi:</ins>w...wは分かる。残りの4文字は何だ？<ins>2</ins><br><ins>miyauchi:</ins>糞、担当職員は食われちまった。<ins>2</ins><br><ins>miyauchi:</ins>みんな死んだか？SCP-567-JPを警戒してるのか？<ins>2.5</ins><br><ins>miyauchi:</ins>生存者の皆には知っておいてほしい<ins>1</ins><br><ins>miyauchi:</ins>SCP-567-JPはSafeオブジェクトだった<ins>2</ins><br><ins>miyauchi:</ins>見ると、ときどき姿が変わる。中身が増えるんだ<ins>2</ins><br><ins>miyauchi:</ins>たまに見直して・・増えた分は切り取ればよかった<ins>2</ins><br><ins>miyauchi:</ins>大抵、料理のレシピとか歌詞とか・・何かの設計書の時もあった。<ins>2</ins><br><ins>miyauchi:</ins>今にしてみればかわいい内容だったな。<ins>2</ins><br><ins>miyauchi:</ins>思えば、あれは突然変異だったんだ<ins>1</ins><br><ins>miyauchi:</ins>やがて見るたび、中身が凄い勢いで変わるようになった<ins>1</ins><br><ins>miyauchi:</ins>変な数式とか、記号とか・・プログラムの時もあった<ins>2</ins><br><ins>miyauchi:</ins>それで閲覧が禁止されたんだ<ins>1</ins><br><ins>miyauchi:</ins>見ない分には安全だからな<ins>3</ins><br><ins>miyauchi:</ins>それが、突然こうなったんだ<ins>2</ins><br><ins>miyauchi:</ins>誰かがプロトコル違反したか、実験でもしたか・・何かしたんだ。あれが変異することを。<ins>2</ins><br><ins>miyauchi:</ins>お前も見たな。蟻、蠅？あれはどんどん増える<ins>2</ins><br><ins>miyauchi:</ins>あれは本も食うしデータも食う。人も。<ins>1</ins><br><ins>miyauchi:</ins>このサイトは、もうダメかも知れん。<ins>1</ins><br><ins>miyauchi:</ins>物理的にネットワークが切れてよかった。あれが拡散したらと思うと、ぞっとする<ins>3</ins><br><ins>miyauchi:</ins>まだ生きてる職員、<ins>1</ins><br><ins>miyauchi:</ins>あれに襲われたら、本体を探せ<ins>1</ins><br><ins>miyauchi:</ins>本体を抜けば、残りは無力化するはず。インクやら、データ屑やら、大量の血液に戻る<ins>1</ins><br><ins>miyauchi:</ins>本体は何文字かの、アルファベットと数字と・・何だったか<ins>1</ins><br><ins>miyauchi:</ins>。。。<ins>3</ins><br><ins>miyauchi:</ins>俺も行くか。<ins>300</ins><br><ins>miyauchi:</ins>母さん。<br>";
-    $('.serif').t(str,{speed:1,speed_vary:true}); 
-    startTimer();
+    $('.serif').t(str,{speed:1,speed_vary:true}); 
+    startTimer();
 };
 
 function startTimer(){
@@ -329,281 +329,281 @@ function stopTimer(){
 clearInterval(testTimer);
 }
 function send(){
-    stopTimer();
-    document.js.sendbutton.disabled = true; 
-    $('.serif').t('pause');
-     $('.serif').empty();
-    var inputstring = escapeHTML(document.js.txtb.value);
-    document.getElementById("progressbar").innerHTML="unknown:"+inputstring+"<br>";
-    var array = [ "誰だ？" , "今のは何だ？","unknown？" ];
-    var rand = array[ Math.floor( Math.random()* array.length ) ];
-    var rand2="";
-    if(inputstring.match(/2qyv/)){
-    rand2="・・・・・いや、そんなことどうだっていい。<ins>2</ins><br>"+
-    "<ins>miyauchi:</ins>そうだ、2qyv！、wと、2qyvだ！それを抜けば良い<ins>2</ins><br>"+
-    "<ins>miyauchi:</ins>あんた、";
-    }
-    str ="<ins>1</ins><ins>miyauchi:</ins>"+rand+rand2+"<br><ins>1</ins><ins>接続が遮断されました...</ins>";
-    $('.serif2').t(str,{speed:1,speed_vary:true}); 
-    
-    phase4(inputstring.match(/2qyv/));
+    stopTimer();
+    document.js.sendbutton.disabled = true; 
+    $('.serif').t('pause');
+     $('.serif').empty();
+    var inputstring = escapeHTML(document.js.txtb.value);
+    document.getElementById("progressbar").innerHTML="unknown:"+inputstring+"<br>";
+    var array = [ "誰だ？" , "今のは何だ？","unknown？" ];
+    var rand = array[ Math.floor( Math.random()* array.length ) ];
+    var rand2="";
+    if(inputstring.match(/2qyv/)){
+    rand2="・・・・・いや、そんなことどうだっていい。<ins>2</ins><br>"+
+    "<ins>miyauchi:</ins>そうだ、2qyv！、wと、2qyvだ！それを抜けば良い<ins>2</ins><br>"+
+    "<ins>miyauchi:</ins>あんた、";
+    }
+    str ="<ins>1</ins><ins>miyauchi:</ins>"+rand+rand2+"<br><ins>1</ins><ins>接続が遮断されました...</ins>";
+    $('.serif2').t(str,{speed:1,speed_vary:true}); 
+    
+    phase4(inputstring.match(/2qyv/));
 }
 var escapeHTML = function(val) {
-      return $('<div />').text(val).html();
+      return $('<div />').text(val).html();
 };
 function start(){
-    var count = 0;
-    var max=w2qyv.FPS;
-    var rule=1;
-    var interval=Math.floor(1000/w2qyv.FPS);
-    var repeat = setInterval(function(){
-    	count =count+1;
-    	simulate(rule);
-    	if(count>max){
-    	if(w2qyv.MOVEFLAG==false){
-    	rule=2;
-    	}else if(escaped()==false){
-    	rule=3;
-    	}else{
-    	clearInterval(repeat);
-    	removewords();
-    	}
-    	}
-    }, interval);
+    var count = 0;
+    var max=w2qyv.FPS;
+    var rule=1;
+    var interval=Math.floor(1000/w2qyv.FPS);
+    var repeat = setInterval(function(){
+    	count =count+1;
+    	simulate(rule);
+    	if(count>max){
+    	if(w2qyv.MOVEFLAG==false){
+    	rule=2;
+    	}else if(escaped()==false){
+    	rule=3;
+    	}else{
+    	clearInterval(repeat);
+    	removewords();
+    	}
+    	}
+    }, interval);
 };
 function removewords(){
-    var i=0;
+    var i=0;
 while(i < NUM_SWARM) {
-    	tn[i].remove();
+    	tn[i].remove();
 i=(i+1)|0;
-    }
+    }
 };
 var simulate = function(i) {
-    draw(); 
-    switch (i){
-      case 1:
-    	move1();
-        	break;
-      case 2:
-    	move2();
-        	break;
-      case 3:
-    	move3();
-        	break;
-    }            
+    draw(); 
+    switch (i){
+      case 1:
+    	move1();
+        	break;
+      case 2:
+    	move2();
+        	break;
+      case 3:
+    	move3();
+        	break;
+    }            
 };
 var draw = function() {
-    var i=0;
-    var len=swarm.length;
+    var i=0;
+    var len=swarm.length;
 while(i < len) {
-    var x = swarm[i].vx;
-    var y = swarm[i].vy;
-    var deg = (283+Math.atan2(y,x)*180)/Math.PI;
- //   deg=Math.floor(deg)+"deg";
-     deg=String(deg)+"deg";
-    tn[i].css("-moz-transform","rotate("+deg+")")
-    .css("-webkit-transform","rotate("+deg+")")
-    .css("-o-transform","rotate("+deg+")")
-    .css("-o-transform","rotate("+deg+")")
-    .css("-ms-transform","rotate("+deg+")")
-    .css("transform","rotate("+deg+")")
-    .css("left",swarm[i].x)
-    .css("top", swarm[i].y);
-//    .css("left",Math.floor(swarm[i].x))
-//    .css("top", Math.floor(swarm[i].y));
+    var x = swarm[i].vx;
+    var y = swarm[i].vy;
+    var deg = (283+Math.atan2(y,x)*180)/Math.PI;
+ //   deg=Math.floor(deg)+"deg";
+     deg=String(deg)+"deg";
+    tn[i].css("-moz-transform","rotate("+deg+")")
+    .css("-webkit-transform","rotate("+deg+")")
+    .css("-o-transform","rotate("+deg+")")
+    .css("-o-transform","rotate("+deg+")")
+    .css("-ms-transform","rotate("+deg+")")
+    .css("transform","rotate("+deg+")")
+    .css("left",swarm[i].x)
+    .css("top", swarm[i].y);
+//    .css("left",Math.floor(swarm[i].x))
+//    .css("top", Math.floor(swarm[i].y));
 i=(i+1)|0;
-    }
+    }
 };
 var move1 = function() {
-    var i=0;
-    var len=swarm.length;
+    var i=0;
+    var len=swarm.length;
 while(i < len) {
-        rule1_1(i);    
-        rule2(i);    
-        rule3(i);   
-        var b = swarm[i];
-        var speed = Math.sqrt(b.vx*b.vx + b.vy*b.vy);
-        if (speed >= w2qyv.MAX_SPEED) {
-            var r = w2qyv.MAX_SPEED / speed;
-            b.vx *= r;
-            b.vy *= r;
-        }
-        b.x += b.vx;
-        b.y += b.vy;
+        rule1_1(i);    
+        rule2(i);    
+        rule3(i);   
+        var b = swarm[i];
+        var speed = Math.sqrt(b.vx*b.vx + b.vy*b.vy);
+        if (speed >= w2qyv.MAX_SPEED) {
+            var r = w2qyv.MAX_SPEED / speed;
+            b.vx *= r;
+            b.vy *= r;
+        }
+        b.x += b.vx;
+        b.y += b.vy;
 i=(i+1)|0;
-    }    
+    }    
 };
 var move2 = function() {
-    var c = {x: 0, y:0}; 
-    var i=0;
-    var len=swarm.length;
+    var c = {x: 0, y:0}; 
+    var i=0;
+    var len=swarm.length;
 while(i < len) {
-    	c.x += swarm[i].x;
-    	c.y += swarm[i].y;
-            rule1_2(i);  
-            rule2(i); 
-            rule3(i);   
-            var b = swarm[i];
-            var speed = Math.sqrt(b.vx*b.vx + b.vy*b.vy);
-            if (speed >= w2qyv.MAX_SPEED) {
-                var r = w2qyv.MAX_SPEED / speed;
-                b.vx *= r;
-                b.vy *= r;
-            }
-        b.x += b.vx;
-        b.y += b.vy;
+    	c.x += swarm[i].x;
+    	c.y += swarm[i].y;
+            rule1_2(i);  
+            rule2(i); 
+            rule3(i);   
+            var b = swarm[i];
+            var speed = Math.sqrt(b.vx*b.vx + b.vy*b.vy);
+            if (speed >= w2qyv.MAX_SPEED) {
+                var r = w2qyv.MAX_SPEED / speed;
+                b.vx *= r;
+                b.vy *= r;
+            }
+        b.x += b.vx;
+        b.y += b.vy;
 i=(i+1)|0;
-    }
-    	c.x /= swarm.length;
-    	c.y /= swarm.length;
-    	if(c.x < w2qyv.AREA_x && c.y < w2qyv.AREA_y){
-    	document.getElementById("oclass").innerHTML = "<s>Safe</s> <s>Euclid</s> Keter";
-    	w2qyv.MOVEFLAG=true;
-    	}
+    }
+    	c.x /= swarm.length;
+    	c.y /= swarm.length;
+    	if(c.x < w2qyv.AREA_x && c.y < w2qyv.AREA_y){
+    	document.getElementById("oclass").innerHTML = "<s>Safe</s> <s>Euclid</s> Keter";
+    	w2qyv.MOVEFLAG=true;
+    	}
 };
 var move3 = function() {
-    var i=0;
-    var len=swarm.length;
+    var i=0;
+    var len=swarm.length;
 while(i < len) {
-        rule1_3(i);   
-        rule2(i);  
-        rule3(i); 
-        var b = swarm[i];
-        var speed = Math.sqrt(b.vx*b.vx + b.vy*b.vy);
-        if (speed >= w2qyv.MAX_SPEED) {
-            var r = w2qyv.MAX_SPEED / speed;
-            b.vx *= r;
-            b.vy *= r;
-        }
-        b.x += b.vx;
-        b.y += b.vy;
+        rule1_3(i);   
+        rule2(i);  
+        rule3(i); 
+        var b = swarm[i];
+        var speed = Math.sqrt(b.vx*b.vx + b.vy*b.vy);
+        if (speed >= w2qyv.MAX_SPEED) {
+            var r = w2qyv.MAX_SPEED / speed;
+            b.vx *= r;
+            b.vy *= r;
+        }
+        b.x += b.vx;
+        b.y += b.vy;
 i=(i+1)|0;
-    }
+    }
 };
 var rule1_1 = function(index) {
-    	var startx=swarm[w2qyv.INSERT].x;
-    	var starty=swarm[w2qyv.INSERT].y;
-    	var c = {x: startx, y:starty};   
-    	swarm[index].vx += (c.x-swarm[index].x) / 100;
-    	swarm[index].vy += (c.y-swarm[index].y) / 100;
+    	var startx=swarm[w2qyv.INSERT].x;
+    	var starty=swarm[w2qyv.INSERT].y;
+    	var c = {x: startx, y:starty};   
+    	swarm[index].vx += (c.x-swarm[index].x) / 100;
+    	swarm[index].vy += (c.y-swarm[index].y) / 100;
 };
 var rule1_2 = function(index) {
-    	var startx=swarm[w2qyv.INSERT].x;
-    	var starty=swarm[w2qyv.INSERT].y;
-    	if(index==w2qyv.INSERT){
-    	var c = {x: w2qyv.AREA_x-30, y:w2qyv.AREA_y-10};   
-    	}else{
-    	var c = {x: startx, y:starty};   
-    	}
-    	swarm[index].vx += (c.x-swarm[index].x) / 100;
-    	swarm[index].vy += (c.y-swarm[index].y) / 100;
+    	var startx=swarm[w2qyv.INSERT].x;
+    	var starty=swarm[w2qyv.INSERT].y;
+    	if(index==w2qyv.INSERT){
+    	var c = {x: w2qyv.AREA_x-30, y:w2qyv.AREA_y-10};   
+    	}else{
+    	var c = {x: startx, y:starty};   
+    	}
+    	swarm[index].vx += (c.x-swarm[index].x) / 100;
+    	swarm[index].vy += (c.y-swarm[index].y) / 100;
 };
 var rule1_3 = function(index) {
-    	var startx=swarm[w2qyv.INSERT].x;
-    	var starty=swarm[w2qyv.INSERT].y;
-    	if(index==w2qyv.INSERT){
-    	var c = {x: w2qyv.SIZE_X*2, y:w2qyv.SIZE_Y*2};   
-    	}else{
-    	var c = {x: startx, y:starty};   
-    	}
-    	swarm[index].vx += (c.x-swarm[index].x) / 100;
-    	swarm[index].vy += (c.y-swarm[index].y) / 100;
+    	var startx=swarm[w2qyv.INSERT].x;
+    	var starty=swarm[w2qyv.INSERT].y;
+    	if(index==w2qyv.INSERT){
+    	var c = {x: w2qyv.SIZE_X*2, y:w2qyv.SIZE_Y*2};   
+    	}else{
+    	var c = {x: startx, y:starty};   
+    	}
+    	swarm[index].vx += (c.x-swarm[index].x) / 100;
+    	swarm[index].vy += (c.y-swarm[index].y) / 100;
 };
 var rule2 = function(index) {
-    var i=0;
-    var len=swarm.length;
+    var i=0;
+    var len=swarm.length;
 while(i < len) {
-        if (i != index) {
-            var d = getDistance(swarm[i], swarm[index]);
-            if (d < 7) {
-                swarm[index].vx -= swarm[i].x - swarm[index].x;
-                swarm[index].vy -= swarm[i].y - swarm[index].y;
-            }
-        }
+        if (i != index) {
+            var d = getDistance(swarm[i], swarm[index]);
+            if (d < 7) {
+                swarm[index].vx -= swarm[i].x - swarm[index].x;
+                swarm[index].vy -= swarm[i].y - swarm[index].y;
+            }
+        }
 i=(i+1)|0;
-    }
+    }
 };
 var rule3 = function(index) {
-    var pv = {x: 0, y: 0};
-    var i=0;
-    var len=swarm.length;
+    var pv = {x: 0, y: 0};
+    var i=0;
+    var len=swarm.length;
 while(i < len) {
-        if (i != index) {
-            pv.x += swarm[i].vx;
-            pv.y += swarm[i].vy;
-        }
+        if (i != index) {
+            pv.x += swarm[i].vx;
+            pv.y += swarm[i].vy;
+        }
 i=(i+1)|0;
-    }
-    pv.x /= swarm.length - 1;
-    pv.y /= swarm.length - 1;
-    swarm[index].vx += (pv.x-swarm[index].vx) / 30;
-    swarm[index].vy += (pv.y-swarm[index].vy) / 30;
+    }
+    pv.x /= swarm.length - 1;
+    pv.y /= swarm.length - 1;
+    swarm[index].vx += (pv.x-swarm[index].vx) / 30;
+    swarm[index].vy += (pv.y-swarm[index].vy) / 30;
 };
 var getDistance = function(b1, b2) {
-    var x = b1.x - b2.x;
-    var y = b1.y - b2.y;
-    return Math.sqrt(x*x + y*y);
+    var x = b1.x - b2.x;
+    var y = b1.y - b2.y;
+    return Math.sqrt(x*x + y*y);
 };
 var Distance = function(node) {
-    var style = node.currentStyle || window.getComputedStyle(node);
-    var result = {
-        width : node.offsetWidth, height : node.offsetHeight,
-        left : 0, top : 0,
-        right : node.offsetWidth, bottom : node.offsetHeight,
-        borderTop : Math.floor(style.borderTopWidth),
-        borderRight :Math.floor(style.borderRightWidth),
-        borderBottom : Math.floor(style.borderBottomWidth),
-        borderLeft : Math.floor(style.borderLeftWidth),
-        paddingTop : Math.floor(style.paddingTop),
-        paddingRight : Math.floor(style.paddingRight),
-        paddingBottom : Math.floor(style.paddingBottom),
-        paddingLeft : Math.floor(style.paddingLeft)
-    };
-    var parent = node;
-    while (parent) {
-        result.left += parent.offsetLeft;
-        result.top += parent.offsetTop;
-        parent = parent.offsetParent;
-    }
-    if (document.all && document.compatMode == 'BackCompat') { //IE compat
-        result.right += result.left;
-        result.bottom += result.top;
-    } else {
-        result.right += result.left - result.borderLeft - result.borderRight;
-        result.bottom += result.top - result.borderTop - result.borderBottom;
-    }
-    return result;
+    var style = node.currentStyle || window.getComputedStyle(node);
+    var result = {
+        width : node.offsetWidth, height : node.offsetHeight,
+        left : 0, top : 0,
+        right : node.offsetWidth, bottom : node.offsetHeight,
+        borderTop : Math.floor(style.borderTopWidth),
+        borderRight :Math.floor(style.borderRightWidth),
+        borderBottom : Math.floor(style.borderBottomWidth),
+        borderLeft : Math.floor(style.borderLeftWidth),
+        paddingTop : Math.floor(style.paddingTop),
+        paddingRight : Math.floor(style.paddingRight),
+        paddingBottom : Math.floor(style.paddingBottom),
+        paddingLeft : Math.floor(style.paddingLeft)
+    };
+    var parent = node;
+    while (parent) {
+        result.left += parent.offsetLeft;
+        result.top += parent.offsetTop;
+        parent = parent.offsetParent;
+    }
+    if (document.all && document.compatMode == 'BackCompat') { //IE compat
+        result.right += result.left;
+        result.bottom += result.top;
+    } else {
+        result.right += result.left - result.borderLeft - result.borderRight;
+        result.bottom += result.top - result.borderTop - result.borderBottom;
+    }
+    return result;
 };
 var getBrowser = function(){
-    var userAgent = window.navigator.userAgent.toLowerCase();
-   if (userAgent.indexOf('edge') != -1) {
-      return 'Microsoft Edge';
-    }else if (userAgent.indexOf('opera') != -1) {
-      return 'Opera';
-    }else if (userAgent.indexOf('chrome') != -1) {
-      return 'Google chrome';
-    } else if (userAgent.indexOf('safari') != -1) {
-      return 'Safari';
-    } else if (userAgent.indexOf('firefox') != -1) {
-      return 'Firefox'; 
-    }else if (userAgent.indexOf('msie') != -1 ||userAgent.indexOf('trident/7') != -1) {
-      return 'Internet Explorer';
-    } else {
-      return 'ブラウザ';
-    }
+    var userAgent = window.navigator.userAgent.toLowerCase();
+   if (userAgent.indexOf('edge') != -1) {
+      return 'Microsoft Edge';
+    }else if (userAgent.indexOf('opera') != -1) {
+      return 'Opera';
+    }else if (userAgent.indexOf('chrome') != -1) {
+      return 'Google chrome';
+    } else if (userAgent.indexOf('safari') != -1) {
+      return 'Safari';
+    } else if (userAgent.indexOf('firefox') != -1) {
+      return 'Firefox'; 
+    }else if (userAgent.indexOf('msie') != -1 ||userAgent.indexOf('trident/7') != -1) {
+      return 'Internet Explorer';
+    } else {
+      return 'ブラウザ';
+    }
 };
 var escaped = function(){
-    var b=true;
-    var i=0;
-    var len=swarm.length;
+    var b=true;
+    var i=0;
+    var len=swarm.length;
 while(i < len) {
-    	if(swarm[i].x < w2qyv.SIZE_X || swarm[i].y <w2qyv.SIZE_Y){
-    	b=false;
-    	break;
-    	}
+    	if(swarm[i].x < w2qyv.SIZE_X || swarm[i].y <w2qyv.SIZE_Y){
+    	b=false;
+    	break;
+    	}
 i=(i+1)|0;
-        }
-    return b;
+        }
+    return b;
 }
 //-->
 </script>

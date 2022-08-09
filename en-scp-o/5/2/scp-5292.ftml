@@ -3,18 +3,18 @@
 [[include :scp-wiki:component:wide-image-sizer]]
 [[module CSS]]
 :root {
-    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/secure-facility-dossier-site-120/ontologonew.png");
-    --header-title: "Site-120";
-    --header-subtitle: "Fighting Fire With Fire";
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/secure-facility-dossier-site-120/ontologonew.png");
+    --header-title: "Site-120";
+    --header-subtitle: "Fighting Fire With Fire";
 [[/module]]
 [[include :scp-wiki:component:rso]]
 [[module CSS]]
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+    animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -273,7 +273,7 @@ Hannah Rivera sighed, knocking on the door of Vemhoff's new office. As angry as 
 
 Two eyes were suddenly lifted from the papers, and a tired face filled with wrinkles despite its young age looked up to the woman entering. "Yes. Yes, I have."
 
-She shouldn't be worried nor nervous, she was his goddamned supervisor, but for some reason, her heart beat quicker than it should have when the linguist's eyes looked at her. "What seems to be the problem?" Despite having literal authority over him, she was nervous. Why, she could not tell.  
+She shouldn't be worried nor nervous, she was his goddamned supervisor, but for some reason, her heart beat quicker than it should have when the linguist's eyes looked at her. "What seems to be the problem?" Despite having literal authority over him, she was nervous. Why, she could not tell.  
 
 "I got more info," Vemhoff said, moving some of the papers from the stacks into his hands. "Alone. I... I discovered something I wasn't sure anyone else should know."
 
@@ -545,7 +545,7 @@ Using some of the tricks described in the books, we were able to recreate parts 
 
 //The enemy firing stops for a moment as she starts to attack. Despite being at an advantage, upon noticing the silver colors of the bullets, the Fae start to panic, wildly misfiring. Rivera uses one of the fallen bookshelves as cover, attempting to focus all of the enemies on her.//
 
-**Rivera:**  Well, come here and get some!
+**Rivera:**  Well, come here and get some!
 
 //As the fighting focuses entirely on her cover, she glances at the rest of the team.//
 
@@ -775,10 +775,10 @@ The following file is the current description of SCP-5292 and all of its sub-ano
 ]]
 -----
 [[include component:image-block
-    name=http://scp-wiki.wdfiles.com/local--files/scp-5292/books |
-    caption=Numerous SCP-5292-1 instances as seen in the Research Team's workspace. |
-    align=center |
-    width=100%
+    name=http://scp-wiki.wdfiles.com/local--files/scp-5292/books |
+    caption=Numerous SCP-5292-1 instances as seen in the Research Team's workspace. |
+    align=center |
+    width=100%
 ]]
 -----
 [[table style="width: 100%;"]]

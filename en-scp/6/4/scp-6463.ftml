@@ -3,30 +3,30 @@
 [[module CSS]]
 
 div#header-extra-div-1 {
-    height: 180px;
-    width: 100%;
-    top: 6px;
-    left: -10px;
-    position: absolute;
-    background: url("http://scp-wiki.wdfiles.com/local--files/theme%3Apaperstack/lgtrans.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0 50%;
-    z-index: -1;
-    pointer-events: none;
+    height: 180px;
+    width: 100%;
+    top: 6px;
+    left: -10px;
+    position: absolute;
+    background: url("http://scp-wiki.wdfiles.com/local--files/theme%3Apaperstack/lgtrans.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    z-index: -1;
+    pointer-events: none;
 }
 @media (max-width: 880px) {
-    div#header-extra-div-1 {
-         height: 184px;
-         top: -3px;
-         left: 0;
-         background-position: 50% 50%;
-    }
+    div#header-extra-div-1 {
+         height: 184px;
+         top: -3px;
+         left: 0;
+         background-position: 50% 50%;
+    }
 }
 
 #side-bar {
-    background-color: #fff;
-    box-shadow: 0px 0px 7px #949494;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px #949494;
 }
 
 [[/module]]
@@ -38,13 +38,13 @@ div#header-extra-div-1 {
 [[div class="header-container"]]
 [[div class="text-item"]]
 [[size 90%]]##grey|**アイテム番号:**##[[/size]]
- 
+ 
 [[size 220%]]**SCP-6463**[[/size]]
 [[/div]]
- 
+ 
 [[div class="text-item"]]
 [[size 90%]]##grey|**収容クラス:**##[[/size]]
- 
+ 
 [[size 220%]]**PENDING**[[/size]]
 [[/div]]
 [[/div]]

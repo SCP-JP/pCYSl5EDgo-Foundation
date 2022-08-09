@@ -2,9 +2,9 @@
 
 [[module CSS]]
 @media (max-width: 767px) {
-    span {
-        word-break: unset;
-    }
+    span {
+        word-break: unset;
+    }
 }
 [[/module]]
 [!--
@@ -48,7 +48,7 @@ by [[[literallymechanical-s-author-page|LiterallyMechanical]]]
 --]
 [!-- Thanks to Croquembouche and other site members for their writeup of how to use the listpages module: http://www.scp-wiki.net/listpages-magic-and-you --]
 
-[[module ListPages  category="fragment" parent="." limit="1" created_by="literallymechanical" order="created_at" offset="@URL|0"]]
+[[module ListPages  category="fragment" parent="." limit="1" created_by="literallymechanical" order="created_at" offset="@URL|0"]]
 %%content%%
 [[/module]]
 

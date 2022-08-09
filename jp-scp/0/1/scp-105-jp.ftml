@@ -14,7 +14,7 @@ https://nkmrkisk.com/archives/925
 
 
 [[html]]
- 
+ 
 <style>
 @import url(http://d3g0gp89917ko0.cloudfront.net/v--de24f08b1628/common--theme/base/css/style.css);
 @import url(http://d3g0gp89917ko0.cloudfront.net/v--de24f08b1628/common--theme/shiny/css/style.css);
@@ -23,36 +23,36 @@ https://nkmrkisk.com/archives/925
 font-size:18px;
 }
 #awcy.colour{
-  background-color:#b0c4de;
-  padding:30px; border:1px solid; border-color:#000000;
-  background-image: url(http://ja.scp-wiki.net/local--files/scp-105-jp/SCP-105-JP-08);
-  background-size:contain;
-  background-repeat:space;
-  background-position:center center;
+  background-color:#b0c4de;
+  padding:30px; border:1px solid; border-color:#000000;
+  background-image: url(http://ja.scp-wiki.net/local--files/scp-105-jp/SCP-105-JP-08);
+  background-size:contain;
+  background-repeat:space;
+  background-position:center center;
 }
 #SCP-105-JP-02 {
-  padding:5px; background:#eeeeee;
+  padding:5px; background:#eeeeee;
 }
 #SCP-105-JP-03 {
-  padding:5px; background:#eeeeee;
+  padding:5px; background:#eeeeee;
 }
 #index{
-  border-width: thin; border-style: dashed;
-  padding:15px; background:#eeeeee;
-  margin: 30px; margin-right: 70px;
+  border-width: thin; border-style: dashed;
+  padding:15px; background:#eeeeee;
+  margin: 30px; margin-right: 70px;
 }
 #proc {
-  display: none;
+  display: none;
 }
 #proc.show {
-  display: block;
+  display: block;
 }
 #scpf {
-  display: none;
+  display: none;
 }
 </style>
 
- <script src="http://ja.scp-wiki.net/local--files/scp-105-jp/jquery-3.3.1.min.js"></script> 
+ <script src="http://ja.scp-wiki.net/local--files/scp-105-jp/jquery-3.3.1.min.js"></script> 
 
 <div id="awcy"; class="show">
 
@@ -65,7 +65,7 @@ font-size:18px;
 😅でも皆さん、実際はこのSCiPについてよくわかっていないのではないですか？ <font size="+2">🤔</font></p>
 
 <img src="http://scp-jp.wikidot.com/local--files/image-use-policy/sasidome.png" width="600px" height="400px">
-<a href="javascript:void(0);"><img id="SCP-105-JP-02" src="http://ja.scp-wiki.net/local--files/scp-105-jp/SCP-105-JP-02" alt="SCiPNETでシェア！" width="180px" height="61px" vspace="3mm"></a>  <a href="javascript:void(0);"><img id="SCP-105-JP-03" src="http://ja.scp-wiki.net/local--files/scp-105-jp/SCP-105-JP-03" alt="関連記事はここから！" height="61px" vspace="3mm"></a>
+<a href="javascript:void(0);"><img id="SCP-105-JP-02" src="http://ja.scp-wiki.net/local--files/scp-105-jp/SCP-105-JP-02" alt="SCiPNETでシェア！" width="180px" height="61px" vspace="3mm"></a>  <a href="javascript:void(0);"><img id="SCP-105-JP-03" src="http://ja.scp-wiki.net/local--files/scp-105-jp/SCP-105-JP-03" alt="関連記事はここから！" height="61px" vspace="3mm"></a>
 <p><font size="+2"; color="#ff0000"><b>☝️☝️☝️気に入ったらシェア！</b></font>
 
 <br>
@@ -221,51 +221,51 @@ var dly = 1000;
 var count = 0;
 var tx = [];
 var txCount = [];
- 
+ 
 function countSet(){
-  for(n=0;n<id.length;n++){
-    txCount[n] = 0;
-  }
+  for(n=0;n<id.length;n++){
+    txCount[n] = 0;
+  }
 }
- 
+ 
 function kamikakushi(){
-  for(i=0;i<id.length;i++){
-    id[i] = document.getElementById(id[i]);
-    tx[i] = id[i].firstChild.nodeValue;
-    id[i].innerHTML = '';
-  }
+  for(i=0;i<id.length;i++){
+    id[i] = document.getElementById(id[i]);
+    tx[i] = id[i].firstChild.nodeValue;
+    id[i].innerHTML = '';
+  }
 }
- 
+ 
 function itimozi(){
-  id[count].innerHTML = tx[count].substr( 0, ++txCount[count] )+"_";
-  if(tx[count].length != txCount[count]){
-    setTimeout("itimozi()",txSp);
-  }else{
-  id[count].innerHTML = tx[count].substr( 0, ++txCount[count] );
-    count++;
-    if(count != id.length){
-    setTimeout("itimozi()",dly);
-    }
-  }
+  id[count].innerHTML = tx[count].substr( 0, ++txCount[count] )+"_";
+  if(tx[count].length != txCount[count]){
+    setTimeout("itimozi()",txSp);
+  }else{
+  id[count].innerHTML = tx[count].substr( 0, ++txCount[count] );
+    count++;
+    if(count != id.length){
+    setTimeout("itimozi()",dly);
+    }
+  }
 }
 
 var showup = function() {
-    $('#scpf').fadeIn('slow');
+    $('#scpf').fadeIn('slow');
 }
 
 var colour = function() {
-    $('#awcy').addClass('colour');
+    $('#awcy').addClass('colour');
 }
 
 $(function() {
-  $('button').click(function() {
-    setTimeout(colour, 3000);
-    $('#proc').addClass('show');
-    kamikakushi();
-    countSet();
-    itimozi();
-    setTimeout(showup, 9000);
-  });
+  $('button').click(function() {
+    setTimeout(colour, 3000);
+    $('#proc').addClass('show');
+    kamikakushi();
+    countSet();
+    itimozi();
+    setTimeout(showup, 9000);
+  });
 });
 
 </script>

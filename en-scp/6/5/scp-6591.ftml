@@ -6,19 +6,19 @@
 
 [[module CSS]]
 div#container-wrap {
-    background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-181-d1b9/backgroundVK-1.png);
+    background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-181-d1b9/backgroundVK-1.png);
 }
 :root {
-    --logo-image: url("http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-180-z3qi/vklogotransparent-1.png");
-    --header-title: "  Vikander-Kneed";
-    --header-subtitle: "   Technical Media";
+    --logo-image: url("http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-180-z3qi/vklogotransparent-1.png");
+    --header-title: "  Vikander-Kneed";
+    --header-subtitle: "   Technical Media";
 }
 
 /* Adjust Mobile Image Size */
 @media (max-width: 479px) {
 #header {
-    background-size: 100px 100px;
-    background-position: 1em;
+    background-size: 100px 100px;
+    background-position: 1em;
 }
 }
 
@@ -31,8 +31,8 @@ div#container-wrap {
 
 [[module CSS]]
 :root {
-    --timeScale: 6;
-    --timeDelay: 6s;
+    --timeScale: 6;
+    --timeDelay: 6s;
 }
 
 #page-content hr {
@@ -54,38 +54,38 @@ color: #FFF;
 }
 
 #page-content > .collapsible-block {
-    display: block;
-    text-align: center;
-    padding: .8em;
-    background-color: #e3e3e3;
-    border-top: 0.125rem dashed #b5b5b5;
-    border-bottom: 0.125rem dashed #b5b5b5;
+    display: block;
+    text-align: center;
+    padding: .8em;
+    background-color: #e3e3e3;
+    border-top: 0.125rem dashed #b5b5b5;
+    border-bottom: 0.125rem dashed #b5b5b5;
 }
 
 #page-content > .collapsible-block .collapsible-block-content {
-    text-align: left;
+    text-align: left;
 }
 
 blockquote,
 div.blockquote {
-    border: 0.125rem solid #d4d4d4;
-    background-color: #F5F5F5;
+    border: 0.125rem solid #d4d4d4;
+    background-color: #F5F5F5;
 }
 
 .interview{
-    border:solid 2px #d4d4d4;
-    background:#F5F5F5;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:solid 2px #d4d4d4;
+    background:#F5F5F5;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 
 .addendum{
-    border:solid 1px #5e5e5e;
-    background:#ffffff;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:solid 1px #5e5e5e;
+    background:#ffffff;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 
 #page-title{display:none}
@@ -95,7 +95,7 @@ div.blockquote {
 [[>]]
 [[module Rate]]
 [[/>]]
- 
+ 
 [[include :scp-wiki:component:info-ayers
 |lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
 |page=scp-6591[!-- url of your page on the scp wiki --]
@@ -204,7 +204,7 @@ SCP-6591-AはSCP-6591の司会者です。外見は青いレオタードを着�
 > 
 > //(この章は3分間のスノーノイズで始まる。様々な歪曲した映像がノイズの間に差し挟まれている。最も鮮明な映像は、前述したダンサーたちが手を繋いでSCP-6591-Aを取り囲んでいる様子である。)//
 > 
->  //(ノイズが唐突に途切れ、屋外から窓越しにスタジオ内を覗き込む手持ちカメラの映像に切り替わる。2人のダンサーが全速力でSCP-6591-Aから遠ざかる姿が映っており、他のダンサーたちは床に座って息を荒げたり、怪我の手当てをしている。)//
+>  //(ノイズが唐突に途切れ、屋外から窓越しにスタジオ内を覗き込む手持ちカメラの映像に切り替わる。2人のダンサーが全速力でSCP-6591-Aから遠ざかる姿が映っており、他のダンサーたちは床に座って息を荒げたり、怪我の手当てをしている。)//
 > 
 > //(突然、スタジオ内のドアの開閉音と思われる、金属質なバンという音が聞こえる。)//
 > 
@@ -237,7 +237,7 @@ SCP-6591-AはSCP-6591の司会者です。外見は青いレオタードを着�
 > **SCP-6591-A:** あなたたちは自分をダメな奴だと思ってる。そして私にそれを解決する力があると思ってる。私はあなたたちの神。私は答えを持っているから、あなたたちは私に従う。このビデオを消すのを誰も止めないけれど、あなたたちは消さないでしょうね。深入りし過ぎているから。あなたたちはこれを日課にしなきゃいけない -- 自分の脳を騙して、これが好きだと思わせて、続けなきゃいけない。
 > 
 > //(SCP-6591-Aは運動を前後ジャンプに切り替える。ダンサーたちは即座に従う。)//
->  
+>  
 > **SCP-6591-A:** さぁ、やっていきましょう！ わたしはこの人たちを所有してる。彼らは私の物。彼らは私を信じる、そしてあなたたちもよ。あなたたちは1ヶ月で諦めるような達成不可能な目標を目指してこれを見続ける。でもそれでいいの、私たちがやるべき事はサイズ・アップだけ！ もう一度その場でジョギング！
 > 
 > //(SCP-6591-Aはステージから降り、ダンサーたちは左右屈伸運動に移る。SCP-6591-Aはジョギング歩調でダンベルラックへと移動し、10ポンドのダンベルを掴んで、体液溜まりで踊る女性の下へと運んでいく。)//

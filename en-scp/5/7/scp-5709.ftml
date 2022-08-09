@@ -1,22 +1,22 @@
 [[include :scp-wiki:theme:blankstyle]]
 [[module css]]
 body{
-    --barColour: #b8a499;
+    --barColour: #b8a499;
 }
 
 :root{
-  --header-title: "戦術神学部門";
-  --header-subtitle: "アブラハム三宗教担当下位部門";
+  --header-title: "戦術神学部門";
+  --header-subtitle: "アブラハム三宗教担当下位部門";
 }
 @media (max-width: 768px) {
-    :root {
-         --header-title: "戦術神学部門";
-    }
+    :root {
+         --header-title: "戦術神学部門";
+    }
 }
 
 div#extra-div-1 {
-    background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-128-ww6p/tactical-theology.png);
-    filter: opacity(20%);
+    background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-128-ww6p/tactical-theology.png);
+    filter: opacity(20%);
 }
 [[/module]]
 

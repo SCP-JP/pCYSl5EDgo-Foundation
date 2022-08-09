@@ -13,14 +13,14 @@ span, a { word-break: normal !important }
 [[module CSS]]
 /* anendlessusername's invaluable correction of the ACS octagon! */
 #page-content .quadrants > div {
-    top: 2.25%;
-    left: 18.5%;
+    top: 2.25%;
+    left: 18.5%;
 }
 [[/module]]
 
 [[module CSS]]
 :root {
-    --timeDelay: 0.5s;
+    --timeDelay: 0.5s;
 }
 [[/module]]
 
@@ -65,9 +65,9 @@ Welcome to Macintosh.
 ----
 
 [[include component:image-block
-    name=http://scp-wiki.wdfiles.com/local--files/scp-5295/LCIII.jpg|
-    caption=SCP-5295-A, deactivated.|
-    width=300px|
+    name=http://scp-wiki.wdfiles.com/local--files/scp-5295/LCIII.jpg|
+    caption=SCP-5295-A, deactivated.|
+    width=300px|
 ]]
 
 **Special Containment Procedures:** SCP-5295-A has been rendered permanently non-functional via disconnection from SCP-5295-B. It has been remanded to the custody of the Chief of Identity and Technocryptography at [http://scp-wiki.wikidot.com/secure-facility-dossier-site-43 Site-43].
@@ -93,10 +93,10 @@ SCP-5295-A behaves as a typical machine of its model. Its anomalous properties a
 Completing this prompt chain enables the user to access any Macintosh LC III computer anywhere on Earth, so long as it is presently active. After selecting their preferred machine, the user must wait for that machine's owner to deactivate it. The owner will be confronted with the following modified version of their device's shutdown screen; the alterations will typically escape their notice.
 
 [[include component:image-block
-    name=http://scp-wiki.wdfiles.com/local--files/scp-5295/maynot.jpg|
-    caption=Message received by devices pending access by SCP-5295-A.|
-    width=414px|
-    align=center|
+    name=http://scp-wiki.wdfiles.com/local--files/scp-5295/maynot.jpg|
+    caption=Message received by devices pending access by SCP-5295-A.|
+    width=414px|
+    align=center|
 ]]
 
 Once its target is deactivated, SCP-5295-A will restart, and TAN will then allow it to access the target's file structure as though the two machines were connected by a local area network. TAN functions even when SCP-5295-A is not itself connected to any network, and even when the target device is completely disconnected from all power sources.
@@ -290,9 +290,9 @@ While decommissioning was not approved, Briggs secured O5 approval to render SCP
 [[collapsible show=" » CERTIFY CLEARANCE LEVEL-5 CREDENTIALS AND EXPAND" hide=" » LEVEL-5 CREDENTIALS CONFIRMED"]]
 
 [[include component:image-block
-    name=http://scp-wiki.wdfiles.com/local--files/scp-5295/External.jpg|
-    caption=SCP-5295-B in storage (left).|
-    width=125px|
+    name=http://scp-wiki.wdfiles.com/local--files/scp-5295/External.jpg|
+    caption=SCP-5295-B in storage (left).|
+    width=125px|
 ]]
 
 **Update 1996/02/12:** Technician Veiksaar was provided with a non-anomalous model M0135 Apple Macintosh 20MB external hard disk to destroy. Chief Briggs was instructed to retain custody of both SCP-5295-A and -B for use under future circumstances dictated by the O5 Council. Her eventual successor will be briefed on -B's continued existence, and the sensitivity of this information, to ensure the continuance of these duties.

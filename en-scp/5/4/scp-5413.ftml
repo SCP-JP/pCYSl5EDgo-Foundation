@@ -8,39 +8,39 @@
 :root {
 
 
-    --logo-image: url("http://kaktuskontainer.wdfiles.com/local--files/iss-part1/logo");
-    --header-title: "The Foundation";
-    --header-subtitle: "  ";
-    --body-font: interstate, 'Lato', sans-serif;
-    --header-font: maecenas, 'Poppins', sans-serif;
-    --title-font: maecenas-heavies, 'Poppins', sans-serif;
-    --mono-font: "PT Mono", "Andale Mono", "Courier New", Courier, monospace;
-    --bright-accent: 88, 24, 69;
-    /* bright red */
-    --medium-accent: 199, 0, 57 ;
-    /* medium red */
-    --dark-accent: 216, 1, 63;
-    /* dark red */
-    --newpage-color: 210, 74, 32;
-    /* pale orange */
+    --logo-image: url("http://kaktuskontainer.wdfiles.com/local--files/iss-part1/logo");
+    --header-title: "The Foundation";
+    --header-subtitle: "  ";
+    --body-font: interstate, 'Lato', sans-serif;
+    --header-font: maecenas, 'Poppins', sans-serif;
+    --title-font: maecenas-heavies, 'Poppins', sans-serif;
+    --mono-font: "PT Mono", "Andale Mono", "Courier New", Courier, monospace;
+    --bright-accent: 88, 24, 69;
+    /* bright red */
+    --medium-accent: 199, 0, 57 ;
+    /* medium red */
+    --dark-accent: 216, 1, 63;
+    /* dark red */
+    --newpage-color: 210, 74, 32;
+    /* pale orange */
 }
 
 #page-title,
 .meta-title,
 .meta-title span {
-    font-family: var(--header-font);
-    color: rgb(120, 40, 31);
+    font-family: var(--header-font);
+    color: rgb(120, 40, 31);
 }
 
 #header h2 {
-    background: url(http://kaktuskontainer.wdfiles.com/local--files/iss-part1/hindi);
-    background-repeat: no-repeat;
-    background-clip: border-box;
-    background-size: contain;
-    top: 4.5rem;
-    left: 8rem;
-    height: 2rem;
-}   
+    background: url(http://kaktuskontainer.wdfiles.com/local--files/iss-part1/hindi);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: contain;
+    top: 4.5rem;
+    left: 8rem;
+    height: 2rem;
+}   
 
 }
 [[/module]]
@@ -53,7 +53,7 @@
 |lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
 |page=scp-5413[!-- url of your page on the scp wiki --]
 |authorPage=http://www.scp-wiki.net/popsioaks-garden[!-- link to your author page --]
-|comments= Apavitr; Or, Thy Next Foe Is(不浄、或いは汝の次なる敵)  - Popsioak
+|comments= Apavitr; Or, Thy Next Foe Is(不浄、或いは汝の次なる敵)  - Popsioak
 ]]
 
 [[include component:image-block name=gurdwara.jpg|caption= SCP-5413|width=200px]]
@@ -65,7 +65,7 @@
 **収容クラス:** Safe
 
 **特別収容プロトコル:** SCP-5413に付与されたパンジャーブ州当局の認可は失効し、オブジェクトは財団の所有下に移されています。あらゆる印刷物、オンラインメディア上のSCP-5413への言及が除去されます。SCP-5413の外には常時2名の守衛が配置されます。SCP-5413への民間人の進入はあらゆる状況で禁止され、クラスA記憶処理を施す許可が与えられています。
- 
+ 
 **説明:** SCP-5413は放棄されたグルドワラ[[footnote]]シク教徒の礼拝の場。[[/footnote]]であり、パンジャーブ州ルディヤーナーの郊外に位置しています。SCP-5413の外に設置された看板には「ラバ・ダ・シャバド・グルドワラ」[[footnote]]直訳で「神の言葉」[[/footnote]]と記されています。一方で、シロマニ・グルドワラ・パルバンダック委員会[[footnote]]グルドワラの運営を司る委員会。[[/footnote]]の記録に同名のグルドワラが建設された証拠は存在しません。近隣住人は、SCP-5413に関する情報を伝達する能力を持たないか、情報提供に非協力的です。
 
 通常であれば光を透過する窓、ひび割れ、穴が存在するにも拘わらず、SCP-5413内部には自然光が存在しません。外部から観察した際、窓等の空隙は光を完全に近い形で吸収する金属質の膜で覆われています。一方、SCP-5413内部でも人工光源は正常に機能します。SCP-5413を観察することによって得られたSCP-5413の構造に関する情報は、軽度の強制効果ないし記憶影響を及ぼし、無意識のうちに複数回の訪問を行うことを促します。加えて、SCP-5413に進入してから長時間が経過した対象は、以下の症状を経験します：

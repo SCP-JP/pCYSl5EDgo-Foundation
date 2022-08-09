@@ -3,40 +3,40 @@
 [[include :scp-jp:component:collapsible-sidebar]]
 
 [[module css]]
- div#container-wrap{
-     background-image: url('http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-2/bg3.png');
-     background-repeat: repeat-x;
+ div#container-wrap{
+     background-image: url('http://scp-sandbox-3.wdfiles.com/local--files/harry-blank-2/bg3.png');
+     background-repeat: repeat-x;
 }
 [[/module]]
 
 [[module CSS]]
 div#header h1 a span {
-    font-size: 0px;
+    font-size: 0px;
 }
 div#header h1 a:before {
-    content: "サイト-106";
-    color: #eee;
-    font-family: jostregular;    
+    content: "サイト-106";
+    color: #eee;
+    font-family: jostregular;    
 }
 div#header h2 span {
-    font-size:0px;
-    padding: 4px;
+    font-size:0px;
+    padding: 4px;
 }
 div#header h2:after {
-    content: "調達・清算部門";
-    font-weight: bold;
-    font-size: 15px;
-    font-family: jostregular;
-    color: #eee;
-    border-color: rgba(0,0,0,0.267);
+    content: "調達・清算部門";
+    font-weight: bold;
+    font-size: 15px;
+    font-family: jostregular;
+    color: #eee;
+    border-color: rgba(0,0,0,0.267);
 }
 #page-title {
-    display: show;
+    display: show;
 [[/module]]
 
 [[module css]]
 div#header {
-    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-360-haj5/106.png');
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-360-haj5/106.png');
 [[/module]]
 
 [[include :scp-jp:credit:start]]

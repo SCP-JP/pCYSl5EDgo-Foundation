@@ -24,43 +24,43 @@ vertical-align: top; position: relative; top: -0.5em;
 display:none;}
 
 #page-content .info-container {
-    --link-color: rgb(var(--swatch-text-general));
+    --link-color: rgb(var(--swatch-text-general));
 }
 
 #page-content .info-container .translation_block {
-    display: none;
+    display: none;
 }
 
 #page-content .info-container .collapsible-block-link,
 #page-content .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 #page-content .info-container .collapsible-block-folded,
 #page-content .info-container .collapsible-block-unfolded-link {
-    display: grid;
+    display: grid;
 }
 
 #page-content .info-container .collapsible-block-folded .collapsible-block-link,
 #page-content .info-container .collapsible-block-link {
-    -webkit-mask: unset;
-            mask: unset;
-    background: transparent;
-    grid-column: 1;
-    grid-row: 1;
-    opacity: 0;
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
 }
 
 #page-content .info-container .collapsible-block-folded::before,
 #page-content .info-container .collapsible-block-unfolded-link::before {
-    --wght: 800;
-    content: "Collaboration";
-    color: #FFFFFF;
-    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
-    display: block;
-    pointer-events: none;
-    grid-column: 1;
-    grid-row: 1;
+    --wght: 800;
+    content: "Collaboration";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
 }
 [[/module]]
 [[>]]
@@ -96,7 +96,7 @@ Records pertaining to SCP-3813 have been removed from the public historical reco
 
 [[include component:image-block name=SCP-3813-P-72A.png|align=center|link="http://www.scp-wiki.net/local--files/scp-3813/SCP-3813-P-72B.png"|width=700px|caption=Section of artwork 3813-P-73: Neapolitan artist Zhaites's depiction of SCP-3813 following the attack on Rome. The fire damage's source is unknown. Click for full view.]]
 
-The majority of information pertaining to SCP-3813 was gathered from a property owned by former Church of the Broken God leader [[[twistedgears-kaktus-proposal|Robert Bumaro]]]. The documents and artwork were discovered within a sealed vault located below the property.  Included among the documents were receipts of their purchase from Marshall, Carter and Dark Ltd, The Journeymen, Wilmington and Associates, The Orion Institute, and Kervier International.
+The majority of information pertaining to SCP-3813 was gathered from a property owned by former Church of the Broken God leader [[[twistedgears-kaktus-proposal|Robert Bumaro]]]. The documents and artwork were discovered within a sealed vault located below the property.  Included among the documents were receipts of their purchase from Marshall, Carter and Dark Ltd, The Journeymen, Wilmington and Associates, The Orion Institute, and Kervier International.
 
 The documents and artwork totaled at 1391 pieces. Alongside these pieces were also notes and journals written by Bumaro and other high-ranking members of the Church of the Broken God. These included schematics, diagrams, graphs and other charts about SCP-3813 and the nearby region, and long-form technical documents about the entity's power source[[footnote]] “An... unthinkable puzzle… something that this man drew out of nothing with no knowledge of providence. God doesn’t provide willingly to the undevout, so how would a heathen like the Carthaginian find this gift? What makes him deserving of a blessing like this and not one of the devout?" ~ Robert Bumaro[[/footnote]].
 

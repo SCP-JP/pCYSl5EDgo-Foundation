@@ -51,214 +51,214 @@ It is of note that some instances of SCP-4688 were recovered with rusted copper 
 <style type="text/css">
 body
 {
-   font-family:verdana,arial,helvetica,sans-serif;
-   font-size:12.8px;
-   color:#333;
-   line-height:141%
+   font-family:verdana,arial,helvetica,sans-serif;
+   font-size:12.8px;
+   color:#333;
+   line-height:141%
 }
 blockquote
 {
-  border:1px dashed #999;
-  padding: 0 12.8px;
-  background-color:#f4f4f4
+  border:1px dashed #999;
+  padding: 0 12.8px;
+  background-color:#f4f4f4
 }
 a {
-    color: #7e2a2a;
-    text-decoration: none;
-    background: transparent;
+    color: #7e2a2a;
+    text-decoration: none;
+    background: transparent;
 }
 a.newpage {
-    color: #d61;
-    text-decoration: none;
-    background: transparent;
+    color: #d61;
+    text-decoration: none;
+    background: transparent;
 }
 a:hover {
-    text-decoration: underline;
-    background-color: transparent;
+    text-decoration: underline;
+    background-color: transparent;
 }
 .collapsed {
-  display: none;
+  display: none;
 }
 .vanished {
-  display: none;
+  display: none;
 }
 .image-cap {
-    background-color: #eee;
-    border-top: solid 1px #666;
-    padding: 2px 0;
-    font-size: 80%;
-    font-weight: bold;
-    text-align: center;
+    background-color: #eee;
+    border-top: solid 1px #666;
+    padding: 2px 0;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: center;
 }
 /* not red anymore, but im too lazy to change the name */
 .redcontainer {
-    background-color: #d3d1ff;
-    border: 3px solid #cccccc;
-    margin: 5px 5px 5px 5px;
-    padding: 10px 10px 10px 10px;
+    background-color: #d3d1ff;
+    border: 3px solid #cccccc;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
 }
 .blue {
-   animation-duration: 250ms;
-   animation-name: blink;
-   animation-iteration-count: infinite;
-   animation-direction: alternate;
+   animation-duration: 250ms;
+   animation-name: blink;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
 }
 @keyframes blink {
-   from {
-      color: #333;
-   }
-   to {
-      color: blue;
-   }
- }
+   from {
+      color: #333;
+   }
+   to {
+      color: blue;
+   }
+ }
 
 #selector a {
-  color: #0a065a
+  color: #0a065a
 }
 
 /* Standard Image Block */
 .scp-image-block {
-    border: solid 1px #666;
-    box-shadow: 0 1px 6px rgba(0,0,0,.25);
-    width: 300px;
+    border: solid 1px #666;
+    box-shadow: 0 1px 6px rgba(0,0,0,.25);
+    width: 300px;
 }
- 
+ 
 .scp-image-block.block-right {
-        float: right;
-    clear: right;
-    margin: 0 2em 1em 2em;
+        float: right;
+    clear: right;
+    margin: 0 2em 1em 2em;
 }
- 
+ 
 .scp-image-block.block-left {
-    float: left;
-    clear: left;
-    margin: 0 2em 1em 0;
+    float: left;
+    clear: left;
+    margin: 0 2em 1em 0;
 }
- 
+ 
 .scp-image-block.block-center {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 .scp-image-block img {
-    border: 0;
-    width: 300px;
+    border: 0;
+    width: 300px;
 }
 .scp-image-block .scp-image-caption {
-    background-color: #eee;
-    border-top: solid 1px #666;
-    padding: 2px 0;
-    font-size: 80%;
-    font-weight: bold;
-    text-align: center;
-    width: 300px;
+    background-color: #eee;
+    border-top: solid 1px #666;
+    padding: 2px 0;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
 }
 .scp-image-block > p {
-    margin: 0;
+    margin: 0;
 }
 .scp-image-block .scp-image-caption > p {
-    margin: 0;
-    padding: 0 10px;
-    line-height: 125%
+    margin: 0;
+    padding: 0 10px;
+    line-height: 125%
 }
 
 .blue {
-  color: blue;
+  color: blue;
 }
 </style>
 <script type="text/javascript">
 selTabs = [];
 var initSelTabs = function() {
-  selTabs = [
-    document.getElementsByClassName('selTab1')[0],
-    document.getElementsByClassName('selTab2')[0],
-    document.getElementsByClassName('selTab3')[0],
-    document.getElementsByClassName('selTab4')[0],
-    document.getElementsByClassName('selTab5')[0],
-    document.getElementsByClassName('selTab1c')[0],
-    document.getElementsByClassName('selTab2c')[0],
-    document.getElementsByClassName('selTab3c')[0],
-    document.getElementsByClassName('selTab4c')[0],
-    document.getElementsByClassName('selTab5c')[0]
-  ];
+  selTabs = [
+    document.getElementsByClassName('selTab1')[0],
+    document.getElementsByClassName('selTab2')[0],
+    document.getElementsByClassName('selTab3')[0],
+    document.getElementsByClassName('selTab4')[0],
+    document.getElementsByClassName('selTab5')[0],
+    document.getElementsByClassName('selTab1c')[0],
+    document.getElementsByClassName('selTab2c')[0],
+    document.getElementsByClassName('selTab3c')[0],
+    document.getElementsByClassName('selTab4c')[0],
+    document.getElementsByClassName('selTab5c')[0]
+  ];
 };
 
 var junkChars = ['ó','ò','ñ','ç','¿','ß','à','è','ì','ù','Œ','þ','█','%','+','=','.','«','»','£','$','€','½','¾','À','È','Ì','Ò','Ù','Â','Ê','â','ê','Ä','Ë','ä','ë','ÿ','ü','•'];
 
 var randomIntFromInterval = function(min,max)
 {
-  return Math.floor(Math.random()*(max-min+1)+min);
+  return Math.floor(Math.random()*(max-min+1)+min);
 };
 
 window.onload = function() {
-  document.getElementById('selector').classList.remove('vanished');
+  document.getElementById('selector').classList.remove('vanished');
 
-  // glitchy stuff
-  var glitchy = function() {
-     var glitchElems = document.getElementsByClassName('glitchy');
-     for (var i = 0; i < glitchElems.length; i++) {
-       var elem = glitchElems[i];
-       var stringG = '';
-       for (var j = 0; j < elem.innerHTML.length; i++)
-         stringG += junkChars[randomIntFromInterval(0, junkChars.length - 1)];
-       elem.innerHTML = stringG;
-       setTimeout(function(){glitchty();}, 150);
-     }
-  };
+  // glitchy stuff
+  var glitchy = function() {
+     var glitchElems = document.getElementsByClassName('glitchy');
+     for (var i = 0; i < glitchElems.length; i++) {
+       var elem = glitchElems[i];
+       var stringG = '';
+       for (var j = 0; j < elem.innerHTML.length; i++)
+         stringG += junkChars[randomIntFromInterval(0, junkChars.length - 1)];
+       elem.innerHTML = stringG;
+       setTimeout(function(){glitchty();}, 150);
+     }
+  };
 
-  //glitchy();
+  //glitchy();
 };
 
 var beginFlicker = function() {
-  var flickerElems = document.getElementsByClassName('flicker');
-  
-  var msPerSecond = 1000;
-  var flickerBegin = 15.0;
-  var flickerEnd = 1.125;
+  var flickerElems = document.getElementsByClassName('flicker');
+  
+  var msPerSecond = 1000;
+  var flickerBegin = 15.0;
+  var flickerEnd = 1.125;
 
-  var doFlicker = function(begin, end, elems) {
-    setTimeout(function() {
-      for (var i = 0; i < elems.length; i++)
-        elems[i].classList.add('blue');
-      setTimeout(function() {
-        for (var i = 0; i < elems.length; i++)
-          elems[i].classList.remove('blue');
+  var doFlicker = function(begin, end, elems) {
+    setTimeout(function() {
+      for (var i = 0; i < elems.length; i++)
+        elems[i].classList.add('blue');
+      setTimeout(function() {
+        for (var i = 0; i < elems.length; i++)
+          elems[i].classList.remove('blue');
 
-        if (begin !== 7.5)
-          begin /= 2;
-        if (end !== 15.0)
-          end *= 2;
-        doFlicker(begin, end, elems);
-      }, end * msPerSecond);
-    }, begin * msPerSecond);
-  };
+        if (begin !== 7.5)
+          begin /= 2;
+        if (end !== 15.0)
+          end *= 2;
+        doFlicker(begin, end, elems);
+      }, end * msPerSecond);
+    }, begin * msPerSecond);
+  };
 
-  doFlicker(flickerBegin, flickerEnd, flickerElems);
+  doFlicker(flickerBegin, flickerEnd, flickerElems);
 }
 
 corrupted = false;
 window.displaySeltab = function(num) {
-  document.getElementById("selTabContainer").classList.remove('vanished');
-  if (selTabs.length === 0) {
-    initSelTabs();
-  }
+  document.getElementById("selTabContainer").classList.remove('vanished');
+  if (selTabs.length === 0) {
+    initSelTabs();
+  }
 
-  if (corrupted)
-    num += 5
-  var selTab = selTabs[num];
-  for (i = 0; i < selTabs.length; i++) {
-    var st = selTabs[i];
-    if (!(st.classList.contains('vanished')))
-      st.classList.add('vanished');
-  }
-  if (selTab)
-    selTab.classList.remove('vanished');
+  if (corrupted)
+    num += 5
+  var selTab = selTabs[num];
+  for (i = 0; i < selTabs.length; i++) {
+    var st = selTabs[i];
+    if (!(st.classList.contains('vanished')))
+      st.classList.add('vanished');
+  }
+  if (selTab)
+    selTab.classList.remove('vanished');
 
-  // other stuff
-  if (num === 4) {
-    corrupted = true;
-    document.getElementById('st6video').play();
-    beginFlicker();
-  }
+  // other stuff
+  if (num === 4) {
+    corrupted = true;
+    document.getElementById('st6video').play();
+    beginFlicker();
+  }
 };
 </script>
 <div class="redcontainer">

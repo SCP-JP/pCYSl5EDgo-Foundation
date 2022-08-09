@@ -50,7 +50,7 @@ sup {
 vertical-align: top; position: relative; top: -0.5em;
 }
 #header::before {
-    opacity: 0.5 !important;
+    opacity: 0.5 !important;
 }
 :root{
 --header-subtitle: 'Secure - Contain - Protect' !important;
@@ -58,7 +58,7 @@ vertical-align: top; position: relative; top: -0.5em;
 --barColour: #590505 !important;
 --timeScale: 1 !important;
 --timeDelay: 1s !important;
-  --accentColor: 160, 44, 44 !important;
+  --accentColor: 160, 44, 44 !important;
 --dark-gray-monochrome: 46, 58, 51 !important;
 --black-monochrome: 26, 33, 29 !important;
 --lgurl: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-159-vqzt/scpnewlogo.png) !important;
@@ -102,15 +102,15 @@ line-height: 1.6em;
 
 [[module css]]
 .anom-bar-container.esoteric .text-part>.main-class::before {
-    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
 }
 
 .anom-bar-container.esoteric .text-part>.main-class::before,
 .anom-bar-container.esoteric .danger-diamond>.top-icon::before {
-    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
-    background-image: url("http://scp-jp.wdfiles.com/local--files/scp-6666/esoteric-icon-ededed.svg");
-    -webkit-filter: initial;
-    filter: initial;
+    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    background-image: url("http://scp-jp.wdfiles.com/local--files/scp-6666/esoteric-icon-ededed.svg");
+    -webkit-filter: initial;
+    filter: initial;
 }
 [[/module]]
 
@@ -717,7 +717,7 @@ SCP-4840-AとSCP-073は共にアダム・エル・アセムとの親族関係を
 
 **補遺 6666.6:** 遠隔偵察ログ
 
-//以下はSCP-6666の下にある洞窟の無人探査試行の映像の書き起こしです。問題のドローン -- 財団支給 4.5kg マークVII オクトコプター、コードネーム “ヒーロー” -- は8時間分のバッテリー寿命を有し、最長距離23kmまで操作可能でした。ヒーロー・ドローンは改良された人工知能コンスクリプトモジュール (AIC) 、コードネーム “ヴァロール”  によって、操作範囲外でも自律活動が可能でした。ヴァロール・モジュール自体に知覚力は無いと見做されていますが、基本的な問題解決・危機管理能力があり、より複雑な任務目標もこなすことが可能です。//
+//以下はSCP-6666の下にある洞窟の無人探査試行の映像の書き起こしです。問題のドローン -- 財団支給 4.5kg マークVII オクトコプター、コードネーム “ヒーロー” -- は8時間分のバッテリー寿命を有し、最長距離23kmまで操作可能でした。ヒーロー・ドローンは改良された人工知能コンスクリプトモジュール (AIC) 、コードネーム “ヴァロール”  によって、操作範囲外でも自律活動が可能でした。ヴァロール・モジュール自体に知覚力は無いと見做されていますが、基本的な問題解決・危機管理能力があり、より複雑な任務目標もこなすことが可能です。//
 
 //また、ヒーロー・ドローンには小型の遠隔操作クワッドコプター、コードネーム “チャンピオン” が搭載されており、著しく大型のヒーローでは侵入できない区域の探索も可能になっていました。//
 
@@ -825,7 +825,7 @@ SCP-4840-AとSCP-073は共にアダム・エル・アセムとの親族関係を
 * ミーガン・ワイルズ博士 - 西部地域司令部管理
 * ジーン・ヴァン・ブランク博士 - 西部地域司令部管理
 * アイリーン・トーレ - 西部地域司令部管理
-* 管理官補佐 [[span class="ruby"]]許 小玲[[span class="rt"]]シュウ・シャオリン[[/span]][[/span]]  - 技術部門
+* 管理官補佐 [[span class="ruby"]]許 小玲[[span class="rt"]]シュウ・シャオリン[[/span]][[/span]]  - 技術部門
 * キャメロン・サンピエール博士 - 倫理委員会連絡員
 * ローマン・ホール博士 - 倫理委員会
 * [[span class="ruby"]]仁 甄[[span class="rt"]]ジン・ゼン[[/span]][[/span]]博士 - 倫理委員会
@@ -1165,7 +1165,7 @@ SCP-4840-AとSCP-073は共にアダム・エル・アセムとの親族関係を
 **部隊長:** 1-𐤇 エストレイ指揮官
 **焼灼チーム:** 1-𐤇 キャリアー / 1-𐤇 ホライゾン / 1-𐤇 トリプル / 1-𐤇 プレッシャー / 1-𐤇 グラス
 **研究チーム:** ビショップ博士、ムーア博士、グティエレス博士、[[span class="ruby"]]習[[span class="rt"]]シー[[/span]][[/span]]博士
- 
+ 
 -----
 
 [[include component:image-block name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-154-7d4d/darkforest.png|align=right|caption=N/A]]
@@ -1328,7 +1328,7 @@ SCP-4840-AとSCP-073は共にアダム・エル・アセムとの親族関係を
 
 **1-𐤇 ホライゾン:** おいどうした？ 何があった？
 
-**ムーア:** み… 見た…  (//荒い呼吸//)
+**ムーア:** み… 見た…  (//荒い呼吸//)
 
 **1-𐤇 Aエストレイ** (//目覚める//) 何が起きてる？
 

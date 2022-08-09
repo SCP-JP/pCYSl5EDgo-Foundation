@@ -4,10 +4,10 @@
 --linkColour: #fff;
 }
 .info-container .collapsible-block-content > div:nth-child(1) > p {
-    margin: 0.5em;
+    margin: 0.5em;
 }
 .info-container #u-author_block, .info-container .translation_block{
- display: none;
+ display: none;
 }
 [[/module]]
 [[include :scp-wiki:theme:black-highlighter-theme]]
@@ -17,8 +17,8 @@
 [[include :scp-wiki:component:acs-animation]]
 [[module CSS]]
 :root {
-    --timeScale: 1.5;
-    --timeDelay: 0.5s;
+    --timeScale: 1.5;
+    --timeDelay: 0.5s;
 }
 [[/module]]
 [[module CSS]]
@@ -27,16 +27,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 .Salamin {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.00em;
-  font-style: italic;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.00em;
+  font-style: italic;
 }
 :root {
-    --pale-accent: 158, 105, 0;
-    --bright-accent: 232, 202, 37;
-    --medium-accent: 55, 158, 179;
-    --dark-accent: 38, 53, 113;
-    --alt-accent: 255, 126, 5;
+    --pale-accent: 158, 105, 0;
+    --bright-accent: 232, 202, 37;
+    --medium-accent: 55, 158, 179;
+    --dark-accent: 38, 53, 113;
+    --alt-accent: 255, 126, 5;
 --header-h2-font-size: calc(var(--base-font-size) * 1.05);
 --header-gradient-color-bottom: var(--medium-accent);
 --header-gradient-color-middle: var(--dark-accent);
@@ -57,28 +57,28 @@
 [[module CSS]]
 
 .text{
-    border:dotted 1px #000000;
-    background:#FFFFFF;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:dotted 1px #000000;
+    background:#FFFFFF;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 
 .transcript{
-    border:dotted 1px #000000;
-    background:#f2f3f4;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
+    border:dotted 1px #000000;
+    background:#f2f3f4;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
 }
 
 .appeal{
-    border:dotted 1px #000000;
-    background:#F8F8FF;
-    width:90%;
-    padding:1px 15px;
-    margin: 10px auto;
-    max-width: 500px;
+    border:dotted 1px #000000;
+    background:#F8F8FF;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+    max-width: 500px;
 }
 span.date{
 max-width: 300px;
@@ -151,7 +151,7 @@ blockquote{background-color: transparent;}
 **Edit 10/12/1996:** SCP-5489 has currently taken residence in the Site-48 pool supply closet. Personnel are forbidden from discussing classified topics in pool area. Researcher Ustinov is instructed to continue counter-espionage campaign at least once per work day. Custodial staff have been instructed to refuse to acknowledge presence of SCP-5489 behind the locker.
 
 **Description:** SCP-5489 is a covert listening device created by GoI-16 which has infiltrated Site-48. SCP-5489 is a passive cavity resonator[[footnote]]Device is surrounded by a membrane microphone composed of unknown material.[[/footnote]] with no power supply; when 'illuminated' by correct radio frequency identification[[footnote]]610 to 640MHz[[/footnote]], audio data can be transmitted through SCP-5489 to a radio demodulator. Although this demodulator has never been recovered, and although ultra-high frequencies operate via line-of-sight propagation, it is believed that SCP-5489 is transmitting this data to points outside of Site-48. SCP-5489 is sapient, capable of spontaneous translocation, and cannot be contained at a fixed location. Item has the superficial appearance of a framed photograph of former US President Richard Nixon, which changes with every relocation event.
- 
+ 
 **Addendum- Incidents:** Item was discovered on 05/25/1989 by Officer Gomez. Object identified by CCTV to have manifested within right main elevator platform at 13:02. Unknown if object had infiltrated site prior to this.
 [[div class="transcript"]]
 **05/25/1989**
@@ -164,7 +164,7 @@ blockquote{background-color: transparent;}
 [[/=]]
 
 //<Officers Gomez and Tillerson enter elevator.>//
- 
+ 
 **Officer Tillerson:** ... So don't bitch at me about not getting you anything, you can go down to the break room yourself.
 
 **Officer Gomez:** Okay, it's nothing.
@@ -292,7 +292,7 @@ Object relocated to Research Office C#6. Office was vacated pending proper conta
 
 //<Ustinov enters C#6 with a demodulator to perform further counter-espionage. He slyly slinks into the seat below SCP-5489.>//
 
-**Ustinov:**  //[Whisper]// Psst. //Tovarich//.
+**Ustinov:**  //[Whisper]// Psst. //Tovarich//.
 
 //<Radio silence.>//
 
@@ -365,7 +365,7 @@ Object relocated to Research Office C#6. Office was vacated pending proper conta
 **Ustinov:** Stay in touch. I only trust one person. You, Agent Searchlight.
 
 **SCP-5489:** You too, Agent Lionwolf.
- 
+ 
 [[=]]
 **//<End transcript>//**
 [[/=]]
@@ -510,7 +510,7 @@ Object relocated to Research Office C#6. Office was vacated pending proper conta
 ]]
 **SCP-5489:** Don't tell me you're jaded too.
 
-**Ustinov:** I wouldn't tell you that. You and I can keep the mission up.  The Union prevails, //tovarich//.
+**Ustinov:** I wouldn't tell you that. You and I can keep the mission up.  The Union prevails, //tovarich//.
 
 **SCP-5489:** What mission?
 
@@ -592,49 +592,49 @@ Object relocated to Research Office C#6. Office was vacated pending proper conta
 > **Filename:** scp-nixon-elvis.jpg
 > **Name:** Elvis-nixon.JPG
 > **Author:** Ollie Atkins
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** [[[*https://commons.wikimedia.org/wiki/File:Elvis-nixon.jpg | Wikimedia]]]
 =====
 > **Filename:** scp-nixon-official.jpg
 > **Name:** Richard Nixon portrait.jpg
 > **Author:** Library of Congress's Prints and Photographs division
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** [[[*https://commons.wikimedia.org/wiki/File:Richard_Nixon_portrait.jpg | Wikimedia]]]
 =====
 > **Filename:** scp-nixon-mao.jpg
 > **Name:** President_Nixon_meets_with_China's_Communist_Party_Leader,_Mao_Tse-_Tung,_02-29-1972_-_NARA_-_194759.tif
 > **Author:** NARA
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** [[[*https://commons.wikimedia.org/wiki/File:President_Nixon_meets_with_China's_Communist_Party_Leader,_Mao_Tse-_Tung,_02-29-1972_-_NARA_-_194759.tif | Wikimedia]]]
 =====
 > **Filename:** scp-nixon-navy.jpg
 > **Name:** NH_84098_Lieutenant_Commander_Richard_Milhous_Nixon,_USN.jpeg
 > **Author:** Naval History and Heritage Command
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** [[[*https://commons.wikimedia.org/wiki/File:NH_84098_Lieutenant_Commander_Richard_Milhous_Nixon,_USN.jpeg | Wikimedia]]]
 =====
 > **Filename:** scp-nixon-wall.jpg
 > **Name:** Nixon_looking_on_at_Great_Wall.jpg
 > **Author:** Byron Shumaker
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** [[[*https://commons.wikimedia.org/wiki/File:Nixon_looking_on_at_Great_Wall.jpg | Wikimedia]]]
 =====
 > **Filename:** scp-nixon-v.jpg
 > **Name:** NIXONcampaigns.jpg
 > **Author:** Ollie Atkins
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** [[[*https://commons.wikimedia.org/wiki/File:NIXONcampaigns.jpg | Wikimedia]]]
 =====
 > **Filename:** scp-nixon-snowman.jpg
 > **Name:** Nixons_with_snowman_E1999-12A.jpg
 > **Author:** White House Photo Office
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** [[[*https://commons.wikimedia.org/wiki/File:Nixons_with_snowman_E1999-12A.jpg | Wikimedia]]]
 =====
 > **Filename:** scp-nixon-tree.jpg
 > **Name:** Nixons_plant_a_tree_C6311-11a.jpg
 > **Author:** White House Photo Office
-> **License:**  Public Domain
+> **License:**  Public Domain
 > **Source Link:** [[[*https://commons.wikimedia.org/wiki/File:Nixons_plant_a_tree_C6311-11a.jpg | Wikimedia]]]
 =====
 

@@ -1,27 +1,27 @@
 [[include theme:night-rush-theme]]
 [[module CSS]]
 div#header h1 a span {
-    font-size: 0px;
+    font-size: 0px;
 }
 div#header h1 a:before {
-    content: "サイト-120";
-    color: #eee;
-    
+    content: "サイト-120";
+    color: #eee;
+    
 }
 div#header h2 span {
-    font-size:0px;
-    padding: 4px;
+    font-size:0px;
+    padding: 4px;
 }
 div#header h2:after {
-    content: "火を以つて火と戦ふ";
-    font-weight: bold;
-    color: #f0f0c0;
-    padding: 19px 0;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
-    white-space: pre;
+    content: "火を以つて火と戦ふ";
+    font-weight: bold;
+    color: #f0f0c0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+    white-space: pre;
 }
 #header {
-  background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-25-pu9l/Ontotop.png)
+  background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-25-pu9l/Ontotop.png)
 }
 [[/module]]
 

@@ -1,19 +1,19 @@
 [[module CSS]]
 @Media (max-width: 768px) {
-  .scp-image-block.block-right,
-  .scp-image-block.block-left {
-    float: none;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  .scp-image-block.block-right,
+  .scp-image-block.block-left {
+    float: none;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .blink-collapsibe a.collapsible-block-link {
-  animation: blinkAnime 1s infinite alternate;
+  animation: blinkAnime 1s infinite alternate;
 }
 @keyframes blinkAnime{
-   0% { opacity: 0 }
- 100% { opacity: 1 }
+   0% { opacity: 0 }
+ 100% { opacity: 1 }
 }
 [[/module]]
 [[include credit:start]]
@@ -57,7 +57,7 @@ SCP-362-JP内には敵対的な半生物的実体(以下SCP-362-JP-2)が存在�
 **第2次調査:** 日付202█/10/█
 > **目的:** より広範囲の調査、水中カメラによる水路の調査。
 > 
-> **手段:**  Dクラス職員を潜入させる。
+> **手段:**  Dクラス職員を潜入させる。
 > 
 > **結果:** 入口から300m以内の地図を作成。水中カメラ、視界不良のため撮影困難。担当者”血液中に何かがいたような気がする”と報告、映像では確認できず。
 > 

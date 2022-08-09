@@ -34,9 +34,9 @@ vertical-align: top; position: relative; top: -0.5em;font-size: 85%;}
 [[/>]]
 
 [[include component:image-block
-    width=250px|
-    name=notebook.jpg|
-    caption=SCP-4211。画像にはミーム浄化処理が施されている。|
+    width=250px|
+    name=notebook.jpg|
+    caption=SCP-4211。画像にはミーム浄化処理が施されている。|
 ]]
 **アイテム番号:** SCP-4211
 @@ @@
@@ -82,7 +82,7 @@ font-family: 'Andale Mono', 'Courier New', Courier, monospace;
 div.dashyboi{background-color: rgba(0,0,0,0.1); border-radius: 10px; border:dashed 1px black; padding: 10px;}
 
 table, td {
-  border-collapse: collapse;
+  border-collapse: collapse;
 }
 th{
 text-align: left;
@@ -115,18 +115,18 @@ text-decoration: none;
 <p class="teletype">君にとって一番目立つのは何？</p>
 </center>
 <table style="width:25%;margin: 0 auto;">
-  <tr>
-    <td><span class="teletype">木</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver1a'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">野原</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver1b'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">空</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver1c'>☐</a></td>
-  </tr>
+  <tr>
+    <td><span class="teletype">木</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver1a'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">野原</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver1b'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">空</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver1c'>☐</a></td>
+  </tr>
 </table>
 <br><br><br>
 </div>
@@ -159,7 +159,7 @@ font-family: 'Andale Mono', 'Courier New', Courier, monospace;
 div.dashyboi{background-color: rgba(0,0,0,0.1); border-radius: 10px; border:dashed 1px black; padding: 10px;}
 
 table, td {
-  border-collapse: collapse;
+  border-collapse: collapse;
 }
 th{
 text-align: left;
@@ -192,18 +192,18 @@ text-decoration: none;
 <p class="teletype">ここは何処？</p>
 </center>
 <table style="width:25%;margin: 0 auto;">
-  <tr>
-    <td><span class="teletype">家</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver2a'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">地獄</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver2b'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">希望</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver2c'>☐</a></td>
-  </tr>
+  <tr>
+    <td><span class="teletype">家</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver2a'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">地獄</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver2b'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">希望</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver2c'>☐</a></td>
+  </tr>
 </table>
 <br><br><br>
 </div>
@@ -236,7 +236,7 @@ font-family: 'Andale Mono', 'Courier New', Courier, monospace;
 div.dashyboi{background-color: rgba(0,0,0,0.1); border-radius: 10px; border:dashed 1px black; padding: 10px;}
 
 table, td {
-  border-collapse: collapse;
+  border-collapse: collapse;
 }
 th{
 text-align: left;
@@ -269,18 +269,18 @@ text-decoration: none;
 <p class="teletype">どんな気持ち？</p>
 </center>
 <table style="width:25%;margin: 0 auto;">
-  <tr>
-    <td><span class="teletype">孤独</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver3a'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">恐怖</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver3b'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">困惑</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver3c'>☐</a></td>
-  </tr>
+  <tr>
+    <td><span class="teletype">孤独</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver3a'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">恐怖</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver3b'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">困惑</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver3c'>☐</a></td>
+  </tr>
 </table>
 <br><br><br>
 </div>
@@ -313,7 +313,7 @@ font-family: 'Andale Mono', 'Courier New', Courier, monospace;
 div.dashyboi{background-color: rgba(0,0,0,0.1); border-radius: 10px; border:dashed 1px black; padding: 10px;}
 
 table, td {
-  border-collapse: collapse;
+  border-collapse: collapse;
 }
 th{
 text-align: left;
@@ -346,18 +346,18 @@ text-decoration: none;
 <p class="teletype">自分の記憶を信じられる？</p>
 </center>
 <table style="width:25%;margin: 0 auto;">
-  <tr>
-    <td><span class="teletype">はい</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver4a'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">いいえ</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver4b'>☐</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">よく分からない</span></td>
-    <td><a onclick='document.getElementById("container").innerHTML = ver4c'>☐</a></td>
-  </tr>
+  <tr>
+    <td><span class="teletype">はい</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver4a'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">いいえ</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver4b'>☐</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">よく分からない</span></td>
+    <td><a onclick='document.getElementById("container").innerHTML = ver4c'>☐</a></td>
+  </tr>
 </table>
 <br><br><br>
 </div>
@@ -393,29 +393,29 @@ cursor: pointer;
 }
 
 .tooltip {
-  position: relative;
-  display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .nobr {white-space: nowrap;}
 
 .tooltip .tooltiptext {
-  visibility: hidden;
-  background-color: #f4f4f4;
-  padding: 0.25em;
-  border: 1px solid #999;
-  text-align: left;
+  visibility: hidden;
+  background-color: #f4f4f4;
+  padding: 0.25em;
+  border: 1px solid #999;
+  text-align: left;
 
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -6em;
-  margin-top: 0.5em;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -6em;
+  margin-top: 0.5em;
 }
 .tooltip:hover .tooltiptext {
-  visibility: visible;
+  visibility: visible;
 }
 </style>
 <br>
@@ -532,7 +532,7 @@ font-family: 'Andale Mono', 'Courier New', Courier, monospace;
 div.dashyboi{background-color: rgba(0,0,0,0.1); border-radius: 10px; border:dashed 1px black; padding: 10px;}
 
 table, td {
-  border-collapse: collapse;
+  border-collapse: collapse;
 }
 th{
 text-align: left;
@@ -552,18 +552,18 @@ text-align: left;
 <p class="teletype">彼女が何をしたか覚えてる？</p>
 </center>
 <table style="width:25%;margin: 0 auto;">
-  <tr>
-    <td><span class="teletype">当然だ</span></td>
-    <td><a>☑</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">彼女は僕の</span></td>
-    <td><a>☑</a></td>
-  </tr>
-  <tr>
-    <td><span class="teletype">全てだった</span></td>
-    <td><a>☑</a></td>
-  </tr>
+  <tr>
+    <td><span class="teletype">当然だ</span></td>
+    <td><a>☑</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">彼女は僕の</span></td>
+    <td><a>☑</a></td>
+  </tr>
+  <tr>
+    <td><span class="teletype">全てだった</span></td>
+    <td><a>☑</a></td>
+  </tr>
 </table>
 <center>
 <p class="teletype" style="color: green;"><b>[✔] 彼女は今もまだ、あなたを呼んでいるのです。</b></p>

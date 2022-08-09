@@ -1,40 +1,40 @@
 [[module CSS]]
 .block-1 {
-    display: block;
-    border: solid 4px #444444;
-    padding: 0 1em;
-    box-shadow: 2px 1px 3px rgba(0,0,0,.2);
-    float: center;
-    margin: 1em 40px;
+    display: block;
+    border: solid 4px #444444;
+    padding: 0 1em;
+    box-shadow: 2px 1px 3px rgba(0,0,0,.2);
+    float: center;
+    margin: 1em 40px;
 }
 
 .block-2 {
-    display: block;
-    border: solid 1px #999999;
-    background: #DAFAD9;
-    padding: 0 1em;
-    float: center;
-    margin: 1em 40px;
+    display: block;
+    border: solid 1px #999999;
+    background: #DAFAD9;
+    padding: 0 1em;
+    float: center;
+    margin: 1em 40px;
 }
 
 @media (max-width: 479px) {
 .block-1 {
-    margin: 1em;
+    margin: 1em;
 }
 }
 @media(min-width:480px) and (max-width:580px) {
 .block-1 {
-    margin: 0.5em
+    margin: 0.5em
 }
 }
 @media (max-width: 479px) {
 .block-2 {
-    margin: 1em;
+    margin: 1em;
 }
 }
 @media (min-width:480px) and (max-width:580px) {
 .block-2 {
-    margin: 0.5em
+    margin: 0.5em
 }
 }
 

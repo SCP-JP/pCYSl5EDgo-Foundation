@@ -1,91 +1,91 @@
 [[module CSS]]
 
 blockquote {
-    display: inline-block;
+    display: inline-block;
 }
 
 /* TABVIEW */
- 
+ 
 .yui-navset .yui-nav,
 .yui-navset .yui-navset-top .yui-nav {
-    border-color:#d6c2c2; /* color between tab list and content */
-    display: grid;
-    grid-gap: .25em;
-    grid-template-columns: repeat(9, auto);
-    grid-auto-flow: row;
-    text-align: center;
-    font-weight: 900;
+    border-color:#d6c2c2; /* color between tab list and content */
+    display: grid;
+    grid-gap: .25em;
+    grid-template-columns: repeat(9, auto);
+    grid-auto-flow: row;
+    text-align: center;
+    font-weight: 900;
 }
 
 .yui-navset .yui-nav li, 
 .yui-navset .yui-navset-top .yui-nav li {
-    display: flex;
+    display: flex;
 }
- 
+ 
 .yui-navset .yui-nav a,
 .yui-navset .yui-navset-top .yui-nav a {
-    background-color:#d8d8d8 ! important; /* tab background */
-    border-color:#d6c2c2;
-    color:#303030;
-    transition: 0.125s;
-    flex-grow: 2;
+    background-color:#d8d8d8 ! important; /* tab background */
+    border-color:#d6c2c2;
+    color:#303030;
+    transition: 0.125s;
+    flex-grow: 2;
 }
- 
+ 
 .yui-navset .yui-nav a em {
-    background-color: #fdfdfd;
-    box-shadow: 0px 1px 2px rgba(0,0,0,0.7);
-    border-color: #b7a9a9;
+    background-color: #fdfdfd;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.7);
+    border-color: #b7a9a9;
 }
- 
+ 
 .yui-navset .yui-nav .selected a,
 .yui-navset .yui-nav .selected a:focus,
 .yui-navset .yui-nav .selected a:hover {
-    background-image: none;
-    background-color: #4D4D4D; /* selected tab background */
-    color:white;
+    background-image: none;
+    background-color: #4D4D4D; /* selected tab background */
+    color:white;
 }
- 
+ 
 .yui-navset .yui-nav .selected a,
 .yui-navset .yui-nav .selected a em {
-    border-color: transparent;
-    box-shadow: 0px 1px 2px rgba(134,7,7,0.5);
-    background-color: #c72e2e; 
+    border-color: transparent;
+    box-shadow: 0px 1px 2px rgba(134,7,7,0.5);
+    background-color: #c72e2e; 
 }
- 
+ 
 .yui-navset .yui-content {
-    background-color: #F7F7F7; /* content background color */
+    background-color: #F7F7F7; /* content background color */
 }
- 
+ 
 .yui-navset .yui-content,
 .yui-navset .yui-navset-top .yui-content {
-    border-color: #b7a9a9; /* content border */
-    border-top-color:#b7a9a9; /* different border color */
+    border-color: #b7a9a9; /* content border */
+    border-top-color:#b7a9a9; /* different border color */
 }
- 
+ 
 .yui-navset-left .yui-content {
-    border-left-color: #b7a9a9; /* different border color */
+    border-left-color: #b7a9a9; /* different border color */
 }
 
 @media (max-width: 767px) {
-    .yui-navset .yui-nav,
-    .yui-navset .yui-navset-top .yui-nav {
-        grid-template-columns: repeat(3, auto);
-    }
+    .yui-navset .yui-nav,
+    .yui-navset .yui-navset-top .yui-nav {
+        grid-template-columns: repeat(3, auto);
+    }
 }
- 
+ 
 blockquote {
-  border-style: dashed;
-  border-color: #a7a7a7;
-  border-width: 1pt;
-  background-color: #f7f7f7;
-  box-shadow: 0px 1px 2px rgba(0,0,0,0.1); }
- 
+  border-style: dashed;
+  border-color: #a7a7a7;
+  border-width: 1pt;
+  background-color: #f7f7f7;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.1); }
+ 
 div.image-block {
- float:right;
- margin:0 2em 1em 2em;
- width:300px;
+ float:right;
+ margin:0 2em 1em 2em;
+ width:300px;
 }
- 
+ 
 div.image-block img {
 width:300px;
 }
@@ -146,7 +146,7 @@ Should individuals who have been linked to SCP-4877 disappear for longer than se
 * The individual must be consciously attempting to trigger SCP-4877.
 * The individual must close their eyes.
 
-It is believed that there are additional requirements, both physically and mentally, that are fulfilled prior to a successful triggering of SCP-4877. Due to the lack of concrete resources regarding SCP-4877, the Foundation has been unable to confirm the exact steps necessary.  
+It is believed that there are additional requirements, both physically and mentally, that are fulfilled prior to a successful triggering of SCP-4877. Due to the lack of concrete resources regarding SCP-4877, the Foundation has been unable to confirm the exact steps necessary.  
 
 **Discovery:** SCP-4877 was brought to the Foundation's attention following the posting of a video to YouTube which gained approximately 30,000 views in under an hour.
 
@@ -317,7 +317,7 @@ Due to the lack of information gathered by the interview, Project Lead Dr. Telle
 > 
 > <**Begin Transcript**>
 > 
-> **Lin:** ...  When are you planning to graduate?
+> **Lin:** ...  When are you planning to graduate?
 > 
 > **Walsh:** Heh, funny you say that. I was supposed to graduate in two years but I failed out of one of my courses, which sets me back in prereqs and stuff so it's looking more like three. 
 > 
@@ -334,7 +334,7 @@ Due to the lack of information gathered by the interview, Project Lead Dr. Telle
 > **Walsh:** Anyways, why did you join up? 
 > 
 > **Lin:** I just saw some promotional video on YouTube. It's taken down now.
->  
+>  
 > **Walsh:** No, no. Not how you heard about it. //Why// did you join?
 > 
 > **Lin:** Oh... uh. I guess I thought it would be good for me. 
@@ -360,7 +360,7 @@ Due to the lack of information gathered by the interview, Project Lead Dr. Telle
 > **Lin:** Yeah. Just a bit.
 > 
 > **Walsh:** What did you order?
->  
+>  
 > **Lin:** Iced mocha, why do you ask?
 > 
 > **Walsh:** I think they've got your drink.
@@ -396,7 +396,7 @@ Due to the lack of information gathered by the interview, Project Lead Dr. Telle
 > 
 > Olivia came back this week. She didn't look fazed in the slightest. Although no one acknowledged that we just watched an old woman die the other day. Maybe there's some sort of memetic suppression? I don't think so though, because I can say for certain that I felt uneasy, and I don't know why I would be an exception. But Olivia looked like she felt... I don't know. More at ease? She spoke up more today than in the past. She looked happy.
 > 
-> Anyways, strange behaviors aside, we spent today talking about bonds. All different kinds of bonds. And when I say we, I'm including myself for once. I don't know why I spoke up this time. Maybe I was paranoid that the others would notice something strange about me. I don't think so though, because what I said felt natural. Like, I wasn't forcing it at all. I think I'm overthinking this.  
+> Anyways, strange behaviors aside, we spent today talking about bonds. All different kinds of bonds. And when I say we, I'm including myself for once. I don't know why I spoke up this time. Maybe I was paranoid that the others would notice something strange about me. I don't think so though, because what I said felt natural. Like, I wasn't forcing it at all. I think I'm overthinking this.  
 > 
 > ------
 > 
@@ -490,7 +490,7 @@ Due to the lack of information gathered by the interview, Project Lead Dr. Telle
 > 
 > Today Rainbow announced that Olivia would be graduating early, due to her excellent performance the past few days. She's taking the "Final Exam" this weekend.
 > 
-> I know I shouldn't do anything, and I'm not, but like— I don't know. She looked so happy. She knows that's she's going to jump to her death though. Or, I mean I don't know any more. Maybe she flies.  I hope she flies. Her life's been too short to end on the rocks at the bottom of that cliff.
+> I know I shouldn't do anything, and I'm not, but like— I don't know. She looked so happy. She knows that's she's going to jump to her death though. Or, I mean I don't know any more. Maybe she flies.  I hope she flies. Her life's been too short to end on the rocks at the bottom of that cliff.
 > 
 > So much for those weekly coffees.
 > 
@@ -595,7 +595,7 @@ Due to the lack of information gathered by the interview, Project Lead Dr. Telle
 > 
 > **Lin:** Can— can I open my eyes now?
 > 
->  //Estimates of Lin's speed predict that she should have left the cloud cover by this point, however the fog continues. A light can be seen up ahead.//
+>  //Estimates of Lin's speed predict that she should have left the cloud cover by this point, however the fog continues. A light can be seen up ahead.//
 > 
 > **Lin:** I can feel the updraft pushing me somewhere. I think I'm flying. I don't want to look.
 > 

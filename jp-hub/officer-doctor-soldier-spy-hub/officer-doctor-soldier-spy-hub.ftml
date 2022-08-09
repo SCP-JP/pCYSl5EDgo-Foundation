@@ -4,79 +4,79 @@
 @import url('http://shitake-crude-production.wikidot.com/odss-theme/code/1');
 
 .worldview{
-  background: linear-gradient(-135deg, #333333, #1A1A1A);
-  color:#ffffff;
-  font-size:30px;
-  font-weight:bold;
-  text-align:center;
+  background: linear-gradient(-135deg, #333333, #1A1A1A);
+  color:#ffffff;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
 }
 
 .summary{
-  background: linear-gradient(-135deg, #4D4D4D, #333333);
-  color:#ffffff;
-  font-size:30px;
-  font-weight:bold;
-  text-align:center;
+  background: linear-gradient(-135deg, #4D4D4D, #333333);
+  color:#ffffff;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
 }
 
 .glossary{
-  background: linear-gradient(-135deg, #666666, #4D4D4D);
-  color:#ffffff;
-  font-size:30px;
-  font-weight:bold;
-  text-align:center;
+  background: linear-gradient(-135deg, #666666, #4D4D4D);
+  color:#ffffff;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
 }
 
 .characters{
-  background: linear-gradient(-135deg, #1A1A1A, #666666);
-  color:#ffffff;
-  font-size:30px;
-  font-weight:bold;
-  text-align:center;
+  background: linear-gradient(-135deg, #1A1A1A, #666666);
+  color:#ffffff;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
 }
 
 .guide{
-  background: linear-gradient(-135deg, #333333, #1A1A1A);
-  color:#ffffff;
-  font-size:30px;
-  font-weight:bold;
-  text-align:center;
+  background: linear-gradient(-135deg, #333333, #1A1A1A);
+  color:#ffffff;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
 }
 
 .hoge{
-  text-align: center;
+  text-align: center;
 }
 
 .text-link{
-  font-size:20px;
-  font-weight:bold;
-  font-color:#ffffff;
+  font-size:20px;
+  font-weight:bold;
+  font-color:#ffffff;
 }
 
 .cold-link{
-  font-size:20px;
-  font-weight:bold;
-  font-color:#ffffff;
+  font-size:20px;
+  font-weight:bold;
+  font-color:#ffffff;
 }
 
 .modern-link{
-  font-size:20px;
-  font-weight:bold;
-  font-color:#ffffff;
+  font-size:20px;
+  font-weight:bold;
+  font-color:#ffffff;
 }
 
 #page-content .collapsible-block-link{
-  color: #ffffff;
+  color: #ffffff;
 }
 
 .collapse-background{
-  background-color:#333333
+  background-color:#333333
 }
 
 .collapse-background-2{
-  size: 23px;
-  font-weight: bold;
-  background-color:#333333
+  size: 23px;
+  font-weight: bold;
+  background-color:#333333
 }
 
 [[/module]]
@@ -186,7 +186,7 @@ by[[*user hey_kounoike]]
 [[/collapsible]]
 
 [[collapsible show="【ODSS ページ一覧】" hide="【ODSS ページ一覧】"]]
-[[module ListPages  separate="no" tags="odss" order="created_at" category="*" prependLine="||~ Tale ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+[[module ListPages  separate="no" tags="odss" order="created_at" category="*" prependLine="||~ Tale ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
 || %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
 [[/module]]
 [[/collapsible]]
@@ -201,7 +201,7 @@ by[[*user hey_kounoike]]
 [[tabview]]
 [[tab 世界観]]
 [[div class="worldview"]] 
- 
+ 
 世界観 
 [[/div]]
 [[size 0%]]　[[/size]]
@@ -227,7 +227,7 @@ by[[*user hey_kounoike]]
 [[=]]
 + 年表
 [[/=]]
- 
+ 
 ||~ 1940年代後半|| 東西対立が激化||
 ||~ 1952年|| 日本政府による異常存在研究調査活動が再開||
 ||~ 1955年|| O5評議会が日本支部へ政府による活動抑止の対策を指示||
@@ -237,8 +237,8 @@ by[[*user hey_kounoike]]
 ||~ 1993年|| [編集済]||
 ||~ 20██年|| [*http://ja.scp-wiki.net/axe-and-whip A.西塔、ロシア研修へ赴く]||
 ||~ 20██年 12月|| [*http://ja.scp-wiki.net/winter-day-201x 通信システム隊幹部殺人事件]||
-||~ 20██年  1月|| [*http://ja.scp-wiki.net/emperor-s-february-1 財団政治局、夜鷹への捜査を開始]||
-||~ 20██年  2月|| [*http://ja.scp-wiki.net/emperor-s-february-2 星鳥事件]||
+||~ 20██年  1月|| [*http://ja.scp-wiki.net/emperor-s-february-1 財団政治局、夜鷹への捜査を開始]||
+||~ 20██年  2月|| [*http://ja.scp-wiki.net/emperor-s-february-2 星鳥事件]||
 
 
 [[size 0%]]　[[/size]]
@@ -332,7 +332,7 @@ by[[*user hey_kounoike]]
 +++ 『鳥が鳴く国の官僚 [[[*bureau-country-birdsroar-1|前編]]]・[[[*bureau-country-birdsroar-2|後編]]]』
 [[/=]]
 > これは「星鳥」の後日譚だ。五行結社から離脱したテロリストを追う、JAGPATO条約軍。だが上層部の思惑により、事態は思わぬ行き詰まりを見せる。窮地に追い込まれた道策と、排撃班隊長・御蔵。二人の現場指揮官は状況を打開すべく、ギリギリの賭けに出る。それは、呪術・パラテク・スピードを駆使した死闘の幕開けだった。そのさなか、道策が掴み取った真実とは──。
- 
+ 
 [[size 0%]]　[[/size]]
 
 [[html]]
@@ -394,7 +394,7 @@ by[[*user hey_kounoike]]
 [[/tab]]
 [[tab 用語集]]
 [[div class="glossary"]]
- 
+ 
 用語集
 [[/div]]
 [[=]]
@@ -478,7 +478,7 @@ by[[*user hey_kounoike]]
 [[/tab]]
 [[tab 登場人物/関係機関]]
 [[div class="characters"]]
- 
+ 
 登場人物/関係機関
 [[/div]]
 
@@ -551,7 +551,7 @@ by[[*user hey_kounoike]]
 * 世界オカルト連合108議会加盟組織「五行結社」麾下「土軍」総帥。
 * 結社からの離脱者という形でJAGPATOに刺客を放ち、機構の秩序に挑戦する好戦的な存在。
 * 多くの妖術者・超常存在・そして数多くの人間を使役する。
- 
+ 
 +++ “御蔵”
 * 排撃班“尾宿”及び 混成分隊 “円”指揮官。質実剛健さと教養を兼ね備える。キレると何をするか分からない男。
 
@@ -620,7 +620,7 @@ by[[*user hey_kounoike]]
 [[/tab]]
 [[tab 執筆者向けガイド]]
 [[div class="guide"]]
- 
+ 
 執筆者向けガイド
 [[/div]]
 [[size 0%]]　[[/size]]

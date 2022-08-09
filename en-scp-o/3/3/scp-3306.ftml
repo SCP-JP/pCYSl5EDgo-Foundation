@@ -14,44 +14,44 @@
 
 [[module css]]
 .warning-box {
-    display: block;
-    width: 90%;
-    height: auto;
-    text-align:center;
-    overflow: visible;
-    margin: 0px 5% 10px 5%;
+    display: block;
+    width: 90%;
+    height: auto;
+    text-align:center;
+    overflow: visible;
+    margin: 0px 5% 10px 5%;
 }
 
 .warning-img {
-    width: 14%;
-    height: auto;
-    padding: 5px;
-    display: table-cell;
-    vertical-align: middle;
+    width: 14%;
+    height: auto;
+    padding: 5px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .warning-text {
-    max-width: 80%;
-    width: 80%;
-    display: table-cell;
-    padding: 5px;
+    max-width: 80%;
+    width: 80%;
+    display: table-cell;
+    padding: 5px;
 }
 
 .warning-text p {
-    display: inline-block;
-    padding: 5px;
+    display: inline-block;
+    padding: 5px;
 }
 [[/module]]
 
 [[div class="warning-box"]]
-    [[div class="warning-img"]]
+    [[div class="warning-img"]]
 [[image warning2.png]]
-    [[/div]]
-    [[div class="warning-text"]]
+    [[/div]]
+    [[div class="warning-text"]]
 [[size 105%]]##firebrick|**This document has been flagged for extratemporal data corruption**.##[[/size]]
 If you experience any technical difficulties, reload the page after sixty seconds.
 If issues persist, please contact your site's database technician.
-    [[/div]]
+    [[/div]]
 
 [[/div]]
 
@@ -75,7 +75,7 @@ Personnel are to refrain from influencing subjects' decisions during Illions Eve
 
 When SCP-3306 was first discovered, it bore no horses, and 50 persons of interest (3306-POI, sub-designated 01 through 50) were found aboard its rotating platform. 3306-POI are unable to deboard the platform; likewise, all attempts to board the platform or physically interact with 3306-POI subjects in any way have failed. Despite their lack of access to food and water, 3306-POI remain in perfect health and do not seem to age. 
 
-3306-POI subjects claim to have been normal individuals with no connection to anomalous phenomena prior to waking up aboard SCP-3306. Foundation investigators have yet to find any evidence to disprove this.  
+3306-POI subjects claim to have been normal individuals with no connection to anomalous phenomena prior to waking up aboard SCP-3306. Foundation investigators have yet to find any evidence to disprove this.  
 
 Every year on the 17th of February, SCP-3306 will play a recording of a heavily distorted voice instructing 3306-POI subjects to vote for who they believe to be "the imposter". The subject who receives the most votes by midnight will instantly disappear, and a new horse will simultaneously manifest on SCP-3306's sweeps. Following this, another message will be played stating that subjects have chosen incorrectly. Foundation personnel may refer to this day as an Illions Event.
 
@@ -170,7 +170,7 @@ The assertion that there is an imposter among 3306-POI has neither been confirme
 > **Dr. Ricks:** Like clockwork. 
 > 
 > **Simmons:** Hey. What more do you want?
->  
+>  
 > **Dr. Ricks:** I think that's sufficient. Thank you for your time.
 > 
 > **[End Log]**
@@ -292,6 +292,6 @@ http://www.scp-wiki.net/fragment:scp3306-endingc
 
 [[div class="footer-wikiwalk-nav"]]
 [[=]]
-<< [[[SCP-3305]]] |  SCP-3306 | [[[SCP-3307]]] >>
+<< [[[SCP-3305]]] |  SCP-3306 | [[[SCP-3307]]] >>
 [[/=]]
 [[/div]]

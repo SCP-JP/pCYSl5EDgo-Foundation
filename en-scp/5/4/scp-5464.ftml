@@ -2,86 +2,86 @@
 [[include :scp-wiki:component:bhl-dark-sidebar]]
 
 [[module CSS]]
- 
+ 
 :root {
 
-    --logo-image: url("http://scp-jp-storage.wdfiles.com/local--files/file%3A2258894-13-5v6d/ontologonew.png");
-    --header-title: "Site-120";
-    --header-subtitle: "Researching Realities";
+    --logo-image: url("http://scp-jp-storage.wdfiles.com/local--files/file%3A2258894-13-5v6d/ontologonew.png");
+    --header-title: "Site-120";
+    --header-subtitle: "Researching Realities";
 
 [[/module]]
 
 [[module css]]
 /* anendlessusername's invaluable correction of the ACS octagon! */
 #page-content .quadrants > div {
-    top: 2.25%;
-    left: 18.5%;
+    top: 2.25%;
+    left: 18.5%;
 }
 
 /* tags */
 #main-content .page-tags {
-    border-top: 2px solid rgba(var(--swatch-menubg-medium-color),.5);
+    border-top: 2px solid rgba(var(--swatch-menubg-medium-color),.5);
 }
 
 #main-content .page-tags a {
-    display: inline-block;
-    height: 0.8125rem;
-    line-height: 13px;
-    line-height: 0.8125rem;
-    font-size: 11px;
-    font-size: 0.6875rem;
-    background: rgb(48, 48, 52);
-    background: rgb(var(--swatch-menubg-dark-color, 48, 48, 52));
-    color: rgb(252, 252, 22);
-    color: rgb(var(--swatch-menutxt-light-color, 252, 252, 252));
-    border-bottom-right-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    margin: 0 0 .5rem .75rem;
-    padding: 0.1875rem 0.3125rem 0.1875rem 0;
+    display: inline-block;
+    height: 0.8125rem;
+    line-height: 13px;
+    line-height: 0.8125rem;
+    font-size: 11px;
+    font-size: 0.6875rem;
+    background: rgb(48, 48, 52);
+    background: rgb(var(--swatch-menubg-dark-color, 48, 48, 52));
+    color: rgb(252, 252, 22);
+    color: rgb(var(--swatch-menutxt-light-color, 252, 252, 252));
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    margin: 0 0 .5rem .75rem;
+    padding: 0.1875rem 0.3125rem 0.1875rem 0;
 }
 
 #main-content .page-tags a:before {
-    top: -0.1875rem;
-    left: -0.625rem;
-    width: 0;
-    height: 0;
-    border-color:
-     transparent
-     rgb(48, 48, 52)
-     transparent
-     transparent;
-    border-color:
-     transparent
-     rgb(var(--swatch-menubg-dark-color,  48, 48, 52))
-     transparent
-     transparent;
-    border-style: solid;
-    border-width: 0.5rem 0.5rem 0.5rem 0;
-    padding: 0 0.0625rem 0.1875rem;
+    top: -0.1875rem;
+    left: -0.625rem;
+    width: 0;
+    height: 0;
+    border-color:
+     transparent
+     rgb(48, 48, 52)
+     transparent
+     transparent;
+    border-color:
+     transparent
+     rgb(var(--swatch-menubg-dark-color,  48, 48, 52))
+     transparent
+     transparent;
+    border-style: solid;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0 0.0625rem 0.1875rem;
 }
 
 #main-content .page-tags a:before,
 #main-content .page-tags a:after {
-    content: "";
-    float: left;
-    position: relative;
+    content: "";
+    float: left;
+    position: relative;
 }
 
 #main-content .page-tags a:after {
-    --box-shadow: rgb(var(--swatch-menubg-dark-color,  48, 48, 52));
-    top: 0.28125rem;
-    left: -0.5rem;
-    width: 0.25rem;
-    height: 0.25rem;
-    border-radius: 0.125rem;
-    background-color: rgb(252, 252, 252);
-    background-color: rgb(var(--swatch-background, 252, 252, 252));
-    box-shadow: -0.0625rem -0.0625rem 0.125rem rgb(48, 48, 52);
-    box-shadow: -0.0625rem -0.0625rem 0.125rem var(--box-shadow);
+    --box-shadow: rgb(var(--swatch-menubg-dark-color,  48, 48, 52));
+    top: 0.28125rem;
+    left: -0.5rem;
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 0.125rem;
+    background-color: rgb(252, 252, 252);
+    background-color: rgb(var(--swatch-background, 252, 252, 252));
+    box-shadow: -0.0625rem -0.0625rem 0.125rem rgb(48, 48, 52);
+    box-shadow: -0.0625rem -0.0625rem 0.125rem var(--box-shadow);
 }
 
 .page-tags span {
-    border-top: .5rem solid transparent;
+    border-top: .5rem solid transparent;
 }
 [[/module]]
 
@@ -139,7 +139,7 @@ SCP-5464の真の性質を知らない、あるいはミーム耐性を欠く人
 = [[[SCP-5870|次]]]もまた[[[Bear Flag Republic|この度]]]と同じく良きものになることを願おう
 = 守護熊の状況:
 = 未知の勢力により1名が捕まった
-=  3ヶ月以内にポーランド守護熊 ("ヴォイテク") からの返答がなかった場合
+=  3ヶ月以内にポーランド守護熊 ("ヴォイテク") からの返答がなかった場合
 = 可及的速やかにポーランド守護熊の代理を見つけなければならない
 = 臨時代理の現時点での候補は以下の通りである
 = ドイツ守護熊 ("ハンス")

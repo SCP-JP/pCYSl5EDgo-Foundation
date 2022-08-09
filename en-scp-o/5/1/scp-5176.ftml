@@ -6,16 +6,16 @@
 [[include :scp-wiki:component:pride-highlighter |inc-pan-alt= --]]]
 [[module CSS]]
 sup {
-    vertical-align: top;
-    position: relative;
-    top: -0.5em;
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
 }
 :root {
-    --cutColour: #fafafa;
-    --barColour: #590505;
+    --cutColour: #fafafa;
+    --barColour: #590505;
 }
 a.collapsible-block-link {
-  font-weight: bold;
+  font-weight: bold;
 }
 .translation_block, .u-faq { display: none; }
 }
@@ -25,75 +25,75 @@ color: #fff;}
 color: #fff;
 }
 #page-title {
-    display: inline !important;
-    text-align: center;
+    display: inline !important;
+    text-align: center;
 }
- .scp-image-block > p {
-     margin: 0;
+ .scp-image-block > p {
+     margin: 0;
 }
- .scp-image-block .scp-image-caption > p {
-     margin: 0;
-     padding: 0 10px;
+ .scp-image-block .scp-image-caption > p {
+     margin: 0;
+     padding: 0 10px;
 }
 #page-content > .collapsible-block {
-    display: block;
-    text-align: center;
-    padding: 0.65em;
+    display: block;
+    text-align: center;
+    padding: 0.65em;
 }
 #page-content > .collapsible-block .collapsible-block-content {
-    text-align: left;
+    text-align: left;
 }
 .lie{
-     font-weight: bold;
-     font-family: monospace;
-     font-size: 140%;
+     font-weight: bold;
+     font-family: monospace;
+     font-size: 140%;
 }
 .list{
-    background: #f4f4f4;
-    padding: 0 1em;
+    background: #f4f4f4;
+    padding: 0 1em;
 }
 .info-container .collapsible-block-link,
 .info-container:hover .collapsible-block-link {
-    line-height: 1.6em;
+    line-height: 1.6em;
 }
 @media (max-width: 2000px) {
-    .desktop-only {
-     display: none;
-     visibility: hidden;
+    .desktop-only {
+     display: none;
+     visibility: hidden;
 }
 div.info-container > div.collapsible-block {
-    padding: 0 !important;
-    margin: 0 !important;
-    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
 }
 .hover {
-    background-color: #88c2ff;
-    padding: 0 1px;
+    background-color: #88c2ff;
+    padding: 0 1px;
 }
 .hover:hover {
 }
-.hover span {    display: none;}
+.hover span {    display: none;}
 .hover:hover span {
-    position: absolute;
-    display: inline;
-    margin: 0px 0px;
-    height: auto;
-    width: auto;
-    background: #fff;
-    border: 2px solid rgb(var(--bright-accent));
-    color: rgb(var(--bright-accent));;
-    padding: 1em;
+    position: absolute;
+    display: inline;
+    margin: 0px 0px;
+    height: auto;
+    width: auto;
+    background: #fff;
+    border: 2px solid rgb(var(--bright-accent));
+    color: rgb(var(--bright-accent));;
+    padding: 1em;
 }
 .hover:hover span span {
-    position: relative;
-    margin: auto;
-    height: auto;
-    width: auto;
-    border: none;
-    padding: 0;
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
 }
 .top-left-box > .item {
-  display: none;
+  display: none;
 }
 [[/module]]
 
@@ -102,7 +102,7 @@ div.info-container > div.collapsible-block {
 |page=SCP-5537[!-- url of your page on the scp wiki --]
 |authorPage= [!-- link to your author page --]
 |comments=
-= **SCP-5176:** [Little] Caesars' Palace   
+= **SCP-5176:** [Little] Caesars' Palace   
 = **Author:** [[*user Hexick]].
 
 -----
@@ -170,13 +170,13 @@ div.info-container > div.collapsible-block {
 
 Class-3 Vectronic Meme Counters (VMCs)[[footnote]]Devices capable of measuring the memetic and/or antimemetic resistance index of sapient entities. Such items were initially created in 1989 by Dr. Aaron Vectermann in an effort to make the analysis of such data more efficient. Prior to this, index registrations took in excess of two weeks and were highly invasive procedures.[[/footnote]] fashioned in a way to blend in with their environments have been established within SCP-5176's area of effect to constantly monitor the antimemetic resistance indexes of all humans within the area. Should an individual with a resistance level at or exceeding 4.5 AMQs be present, an automated system has been configured to alert Foundation field operatives within Provisional Outpost-86[[footnote]]A provisional facility under the purview of Site-35 specifically created for the containment of SCP-5176.[[/footnote]] -- wherein they can be removed from the location in addition to being administered amnestics when deemed appropriate.
 
-**Description:** SCP-5176 designates an anomalous transfigurative event affecting Times Square in Manhattan, New York. Beginning on March 15th, 2020, over the course of 5 days, all structures within the area were converted into a conglomerative superstructure possessing Greco Roman architecture and features correlating to the Little Caesars Pizza[[footnote]]Fast-food pizza chain popular throughout the United States for its affordable pricing.[[/footnote]] brand.  
+**Description:** SCP-5176 designates an anomalous transfigurative event affecting Times Square in Manhattan, New York. Beginning on March 15th, 2020, over the course of 5 days, all structures within the area were converted into a conglomerative superstructure possessing Greco Roman architecture and features correlating to the Little Caesars Pizza[[footnote]]Fast-food pizza chain popular throughout the United States for its affordable pricing.[[/footnote]] brand.  
 
-SCP-5176 is comprised primarily of structural items/materials emblazoned with Little Caesars' branding, orange and white coloration, and food products produced by the company. For example: a common item found within SCP-5176 are fountains made entirely of //'Crazy Bread'// and cycle a liquified cheese substance in lieu of water. In general, the complex is reminiscent of palaces constructed during the height of the Roman Empire.    
+SCP-5176 is comprised primarily of structural items/materials emblazoned with Little Caesars' branding, orange and white coloration, and food products produced by the company. For example: a common item found within SCP-5176 are fountains made entirely of //'Crazy Bread'// and cycle a liquified cheese substance in lieu of water. In general, the complex is reminiscent of palaces constructed during the height of the Roman Empire.    
 
 While expansive, SCP-5176 itself is self-concealing. The anomaly possesses a mild antimemetic filter rendering humans with an antimemetic resistance level of less than 4.5 incapable of perceiving the anomalous qualities that have since overcome the locale.
 
-Presently, it is the belief that the manifestation of SCP-5176 is a result of an ontokinetic entity hereafter regarded as SCP-5176-1. It is theorized to be located within a former Little Caesars franchise in the center of SCP-5176: the apparent structure from which the viral spread of SCP-5176 originated from. As of this writing, no further knowledge pertaining to this entity is available.  
+Presently, it is the belief that the manifestation of SCP-5176 is a result of an ontokinetic entity hereafter regarded as SCP-5176-1. It is theorized to be located within a former Little Caesars franchise in the center of SCP-5176: the apparent structure from which the viral spread of SCP-5176 originated from. As of this writing, no further knowledge pertaining to this entity is available.  
 
 [[include :scp-wiki:component:image-block name=http://kaktuskontainer.wikidot.com/local--files/jambox/barker.jpg|align=right|width=350px|caption={{Fig 1.3.}} Mr. Barker upon initial recovery by Foundation agents.]]
 
@@ -204,7 +204,7 @@ To accomplish this, Agent Jackson Walker, a specialist in dealing with ontokinet
 
 **WALKER:** Affirmative. Beginning entry now.
 
-//[Upon initial entry by Agent Walker, there are carvings seen in the pale-grey stone walls depicting a masculine, short statured individual with numerous lacerations staring down on a scene of ruin; environment seems to be topographically similar to the Italian peninsula. After the insinuation of a long period of time, the same figure, crying, stares at broken tapestries and buildings. The  final tapestry, showing the apparent life of the individual, is engulfed mostly in what appears to be cheese.]//
+//[Upon initial entry by Agent Walker, there are carvings seen in the pale-grey stone walls depicting a masculine, short statured individual with numerous lacerations staring down on a scene of ruin; environment seems to be topographically similar to the Italian peninsula. After the insinuation of a long period of time, the same figure, crying, stares at broken tapestries and buildings. The  final tapestry, showing the apparent life of the individual, is engulfed mostly in what appears to be cheese.]//
 
 **[12 minutes of extraneous traversal removed.]**
 

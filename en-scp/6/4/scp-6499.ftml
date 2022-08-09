@@ -47,7 +47,7 @@ SCP-6499は大抵の場合、非異常であるように見受けられます。
 
 SCP-6499は、自身とSCP-6499-1の両方が差し迫った危険に晒されなくなると、その効果を停止します。第三に、健忘作用を発揮し、SCP-6499-1から危機的状況の記憶がすべて消去されます。このことを質問されると、軽度の錯乱状態を引き起こします。
 [[=]]
-> //**警告:  当サイトでKETER及びEUCLIDクラスの収容違反が多発しています。サイト‐196の完全封鎖が開始されました。**//
+> //**警告:  当サイトでKETER及びEUCLIDクラスの収容違反が多発しています。サイト‐196の完全封鎖が開始されました。**//
 [[/=]]
 **補遺:**
 [[div class="note"]]
@@ -121,33 +121,33 @@ L. Glaslow博士は、職場の地下にある核爆弾が起動しても不安�
 [[/=]]
 [[module CSS]]
 .note {
- background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/SCP_icon%281%29.png) top
- right no-repeat;
- color: black;
- letter-spacing: 0.02em;
- float: center;
- border: solid 1px #000000;
- padding: 25px 35px 35px 35px !important;
- box-shadow: 0 1px 3px rgba(0,0,0,.2);
- width: 74%;
- margin: 2% 4% 4% 4%;
+ background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/SCP_icon%281%29.png) top
+ right no-repeat;
+ color: black;
+ letter-spacing: 0.02em;
+ float: center;
+ border: solid 1px #000000;
+ padding: 25px 35px 35px 35px !important;
+ box-shadow: 0 1px 3px rgba(0,0,0,.2);
+ width: 74%;
+ margin: 2% 4% 4% 4%;
 }
 .Fblockquote, Fblockquote
 
 {
-  font-weight: bold;
+  font-weight: bold;
 
-  color: black;
-  font-size: 16pt;
-  padding: 0,5em;
-  border: .5em solid black;
-  border-image: repeating-linear-gradient(
-    -45deg,
-    #000,
-    #000 20px,
-    #ffb101 20px,
-    #ffb101 40px
-  ) 10;
+  color: black;
+  font-size: 16pt;
+  padding: 0,5em;
+  border: .5em solid black;
+  border-image: repeating-linear-gradient(
+    -45deg,
+    #000,
+    #000 20px,
+    #ffb101 20px,
+    #ffb101 40px
+  ) 10;
 }
 table.wiki-content-table td {
 padding: 12px;
@@ -155,33 +155,33 @@ padding: 12px;
 
 .blockquote, blockquote
 {
-  font-family: verdana,arial,helvetica,sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  color: black;
-  font-size: 18pt;
-  padding: 1em;
-  border: .5em solid black;
-  border-image: repeating-linear-gradient(
-    -45deg,
-    #000,
-    #000 20px,
-    #ffb101 20px,
-    #ffb101 40px
-  ) 10;
-  animation: pulse 2s infinite;
-  -webkit-animation: pulse 2s infinite;
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+  font-size: 18pt;
+  padding: 1em;
+  border: .5em solid black;
+  border-image: repeating-linear-gradient(
+    -45deg,
+    #000,
+    #000 20px,
+    #ffb101 20px,
+    #ffb101 40px
+  ) 10;
+  animation: pulse 2s infinite;
+  -webkit-animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
-  0% {background-color: #FFFFFF;}
-  50% {background-color: #FFCCCC;}
-  100% {background-color: #FFFFFF;}
+  0% {background-color: #FFFFFF;}
+  50% {background-color: #FFCCCC;}
+  100% {background-color: #FFFFFF;}
 }
 @-webkit-keyframes pulse {
-  0% {background-color: #FFFFFF;}
-  50% {background-color: #FFCCCC;}
-  100% {background-color: #FFFFFF;}
+  0% {background-color: #FFFFFF;}
+  50% {background-color: #FFCCCC;}
+  100% {background-color: #FFFFFF;}
 }
 
 [[/module]]

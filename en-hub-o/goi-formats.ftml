@@ -1,16 +1,16 @@
 [[module CSS]]
 #page-content #toc {
-    max-width: 18.25rem;
+    max-width: 18.25rem;
 }
 #toc-list div[style="margin-left: 2em;"] {
-    font-size: 96.5%;
+    font-size: 96.5%;
 }
 @media only screen and (max-width: 640px) {
-    #page-content #toc.floatright {
-        max-width: 90%;
-        float: none;
-        margin: 1rem auto;
-    }
+    #page-content #toc.floatright {
+        max-width: 90%;
+        float: none;
+        margin: 1rem auto;
+    }
 }
 [[/module]]
 

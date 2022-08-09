@@ -3,7 +3,7 @@
 [[include :scp-wiki:component:centered-header-bhl]]
 [[module CSS]]
 .text-fade {
-    -webkit-mask-image: linear-gradient(to bottom, rgb(0,0,0,1), rgba(0,0,0,0) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgb(0,0,0,1), rgba(0,0,0,0) 100%);
 }
 
 .footnotes-footer {display:none;}
@@ -14,38 +14,38 @@ span, a { word-break: normal; }
 
 /* Make superscripts not fuck with the line spacing */
 sup {
-  vertical-align: top;
-  position: relative;
-  top: -0.5em;
+  vertical-align: top;
+  position: relative;
+  top: -0.5em;
 }
 
 /* Haha blue boi */
 .outside {
-  margin: 2em -6em;
-  padding: 1em 10em;
-  --narration-color: rgba(214, 234, 248,1);
-  background: var(--narration-color);
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, var(--narration-color) 20%, var(--narration-color) 80%, rgba(255,255,255,0) 100%);
-  z-index: -2;
+  margin: 2em -6em;
+  padding: 1em 10em;
+  --narration-color: rgba(214, 234, 248,1);
+  background: var(--narration-color);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, var(--narration-color) 20%, var(--narration-color) 80%, rgba(255,255,255,0) 100%);
+  z-index: -2;
 }
 
 /* Make the blue bois that are within the document have smaller margins so they break flow less*/
 .outside.inline {
-  margin: 1em -6em;
-  padding: 1px 10em;
+  margin: 1em -6em;
+  padding: 1px 10em;
 }
 
 /* Force the side bar to render on top of the blue bois */
 #side-bar {
-  z-index: 2;
+  z-index: 2;
 }
 
 :root {
-  --accentColor: #50C878;
+  --accentColor: #50C878;
 }
 
 #page-title {
-    display: none;
+    display: none;
 }
 [[/module]]
 

@@ -7,22 +7,22 @@
 <style type="text/css">
 body
 {
-    font-family: verdana,arial,helvetica,sans-serif;
-    font-size: 0.82em;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 0.82em;
 }
 table.wiki-content-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: 0.5em auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0.5em auto;
 }
 table.wiki-content-table td{
-    border: 1px solid #888;
-    padding: 0.3em 0.7em;
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
 }
 table.wiki-content-table th{
-    border: 1px solid #888;
-    padding: 0.3em 0.7em;
-    background-color: #EEE;
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
+    background-color: #EEE;
 }
 </style>
 <table class="wiki-content-table">
@@ -30,14 +30,14 @@ table.wiki-content-table th{
 <td colspan="2">
 <script language="JavaScript">
 var imgs = [
-  "http://www.scp-wiki.net/local--files/scp-4948/door.png",
-  "http://www.scp-wiki.net/local--files/scp-4948/door2.png"
+  "http://www.scp-wiki.net/local--files/scp-4948/door.png",
+  "http://www.scp-wiki.net/local--files/scp-4948/door2.png"
 ];
 var index = 0;
 var rand = Math.round(Math.random() * 10);
 if (rand === 2 || rand === 3) index = 1;
 function show() {
-  document.write('<img src="' + imgs[index] + '" alt="image" class="image" width="300px">');
+  document.write('<img src="' + imgs[index] + '" alt="image" class="image" width="300px">');
 }
 show();
 </script></td>

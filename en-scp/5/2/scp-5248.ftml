@@ -1,20 +1,20 @@
 [[include :scp-wiki:theme:flopstyle-dark]]
 
 [[module css]]
- :root{
-     --accentColor: hsl(4, 98%, 66%);
-     --accentColorLite: hsla(4, 98%, 76%, .5);
-     --hue: 4deg;
+ :root{
+     --accentColor: hsl(4, 98%, 66%);
+     --accentColorLite: hsla(4, 98%, 76%, .5);
+     --hue: 4deg;
 }
 
 .leftblock{
-     word-wrap: normal;
-     text-align: left;
+     word-wrap: normal;
+     text-align: left;
 }
 
 .rightblock{
-     word-wrap: normal;
-     text-align: right;
+     word-wrap: normal;
+     text-align: right;
 }
 [[/module]]
 

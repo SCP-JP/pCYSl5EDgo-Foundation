@@ -144,14 +144,14 @@ SCP-1155-JPを活用することを目的とした視聴実験では、SCP-1155-
 
 window.onload = function(){
 var textarea = document.getElementById("editing");
- if( textarea.scrollHeight > textarea.offsetHeight ){
+ if( textarea.scrollHeight > textarea.offsetHeight ){
 textarea.style.height = textarea.scrollHeight+'px';
 }
 }
 
 function textResize(){
 var textarea = document.getElementById("editing");
- if( textarea.scrollHeight > textarea.offsetHeight ){
+ if( textarea.scrollHeight > textarea.offsetHeight ){
 textarea.style.height = textarea.scrollHeight+'px';
 }
 }

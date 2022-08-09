@@ -13,19 +13,19 @@
 
 [[module CSS]]
 :root {
-    --header-title: "Parazoology ";
-    --header-subtitle: "Division";
-        --logo-image: url("http://www.scp-wiki.net/local--files/scp-4347/1572269486726.png");
-    --pale-accent: 40, 230, 60;
-    /* light red, for visited links */
-    --bright-accent: 0, 133, 5;
-    /* bright green */
-    --medium-accent: 46, 100, 44;
-    /* medium green - the "default" accent color */
-    --dark-accent: 3, 100, 15;
-    /* dark green */
-    --alt-accent: 102, 221, 17;
-    /* pale green, for newpage links */
+    --header-title: "Parazoology ";
+    --header-subtitle: "Division";
+        --logo-image: url("http://www.scp-wiki.net/local--files/scp-4347/1572269486726.png");
+    --pale-accent: 40, 230, 60;
+    /* light red, for visited links */
+    --bright-accent: 0, 133, 5;
+    /* bright green */
+    --medium-accent: 46, 100, 44;
+    /* medium green - the "default" accent color */
+    --dark-accent: 3, 100, 15;
+    /* dark green */
+    --alt-accent: 102, 221, 17;
+    /* pale green, for newpage links */
 }
 [[/module]]
 
@@ -101,9 +101,9 @@ line-height: 1.6em;
 
 -----
 [[include component:image-block
-    name= SCP-XXXX.jpg |
-    caption= SCP-5326.|
-    width=300px
+    name= SCP-XXXX.jpg |
+    caption= SCP-5326.|
+    width=300px
 ]]
 
 **特別収容プロトコル:** サイト-10の飼鳥園は、SCP-5326が居住できるように再構築されています。SCP-5326の飼鳥園の外柵はチタンアルミナイドに変更され、耐油性の金属用エポキシが塗布されています。加えて、飼鳥園の床には同材料で作られた格子が取り付けられ、SCP-5326用の給餌システムと繋がっています。規定の食事及びメンテナンス双方のニーズを満たすために、内部配管システムを使用して、週ごとに約8ガロンの石油がSCP-5326に与えられます。余剰分の石油は回収し、回収後はサイト-10で利用をしてください。これにはSCP-5326の給餌への利用も含まれます。

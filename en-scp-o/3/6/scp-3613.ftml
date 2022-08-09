@@ -35,15 +35,15 @@ display:none;}
 [[/module]]
 [[module css]]
 #side-bar {
-    background: rgb(var(--white-monochrome));
+    background: rgb(var(--white-monochrome));
 }
 
 #side-bar div.menu-item a, #side-bar div.menu-item .text {
-    color: rgb(var(--black-monochrome));
+    color: rgb(var(--black-monochrome));
 }
 
 #side-bar>div:nth-child(5) {
-    background-color: rgba(var(--dark-accent),0.25)!important;
+    background-color: rgba(var(--dark-accent),0.25)!important;
 }
 [[/module]]
 
@@ -126,5 +126,5 @@ On January 11th, 2016, the following message was received from Marshall, Carter 
 [[/div]]
 
 [[include :scp-wiki:component:license-box]]
-[!-- N/A (No Images)  --]
+[!-- N/A (No Images)  --]
 [[include :scp-wiki:component:license-box-end]]
