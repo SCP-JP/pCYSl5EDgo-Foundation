@@ -1,0 +1,248 @@
+[[div style="display: none;"]]
+[[include :scp-wiki:theme:flopstyle-dark]]
+[[/div]]
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+ :root{
+   /* -- COLORS -- */
+     --accentColor: #a80006;
+     --accentColorLite: #ff3d3d;
+     --hue: 0deg;
+   /* -- TITLES -- */
+     --header-title: "ツィツフズ・ヘル";
+     --header-subtitle: "悪魔がおやすみを告げ、犬が尻で吠える場所";
+     --titleColor: title_colour;
+     --subtitleColor: subtitle_colour;
+   /* -- LOGO -- */
+     --lgurl: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A3995762-91-ei59/umbrella-scp.png);
+   /* -- STATIC COLORS -- */
+     --textColor: hsl(212, 3%, 75%);
+     --bgColor: hsl(220, 20%, 10%);
+}
+
+#header h1 a::before,
+#header h2::before{
+   /* Styles the New Text */
+     font-family: 'Zen Antique', serif;
+     letter-spacing: 2px;
+     text-shadow: none;
+}
+
+.meta-title{
+      font-size: 1.55rem;
+      font-weight: bold;
+}
+[[/module]]
+
+[[div class="meta-title"]]
+ツィツフズ・ヘル ハブ
+[[/div]]
+
+[[module Rate]]
+
+[[div class="byline"]]
+[[span]] by [http://scp-pl.wikidot.com/userinfo-zygard Zygard] [[/span]]
+[[/div]]
+@@@@
+@@@@
+[[div class="report-box"]]
++++* カノン所属作品 (年代順)
+----
+[[=]]
+**2000 - 2020**
+[[/=]]
+
+* **[[[SCP-PL-289]]] "Wielowymiarowe Rozwiązanie Problemu Zakupów w Biedronce"** -- もっと楽に暮らしたいという欲求は、財団を袋小路へ導いた。 -- by [[*user Zygard]]
+* **[[[chaos-kontrolowany|Chaos Kontrolowany]]]** -- 悪魔の辿り着かぬところに、彼は[[span class="ruby"]]混沌[[span class="rt"]]カオス[[/span]][[/span]]を齎す。 -- by [[*user Zygard]]
+* **[[[projekt-aplikacji-malphas|Projekt aplikacji — Malphas]]]** -- マルファスはお客様に合わせて設計されたホームヘルパー、アシスタント、セラピストです。 -- by [[*user Zygard]]
+* **[[[Zlecenie MEF-2839|Zlecenie MEF-2839]]]** -- “アドラメレク”速射ライフルは、お客様のニーズに合わせて製造しております。 -- by [[*user Zygard]] and [[*user EvilAngel413]]
+* **[[[zimno-jak-w-piekle|Zimno Jak W Piekle]]]** -- 民間の南極探査隊はそこにあるべきでないものと総遇する。 -- by [[*user Zygard]]
+* **[[[SCP-PL-139]]] "Mięsny Rój"** -- 施設の建造中に1m×1mの肉のキューブがあんな問題を引き起こすなんて、一体誰が考える？ -- by [[*user Zygard]]
+ * **[[[wiedzmy|Wiedźmy]]]** -- by [[*user Zygard]]
+* **[[[SCP-PL-189]]] "Demon Senny"** -- ハンターは犠牲となったのだ。 -- by [[*user Zygard]]
+
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[tabview]]
+[[tab このカノンは何？]]
+[[div class="log-header"]]
+[[span class="ruby"]]『ツィツフズ・ヘル』 [[span class="rt"]]Piekło Cyców[[/span]][[/span]]は、我々の次元とは障壁で隔てられている、悪魔次元の存在に関するカノンです。偶然にも、この障壁は辺境のツィツフ市[[footnote]] **訳注:** 原文はGmina Cyców。Gmina (グミナ) とはポーランドの基本行政区分で、立ち位置としては日本の市町村に近い。ツィツフ市はいくつかのより小さな村が集まってできているが、その中に市の名の由来となった村、ツィツフ村がある。 [[/footnote]]で最も薄くなっています。市内でアノマリーの発生が相次いだことを受けて、財団はすぐに市全域を確保、Nx-79“ツィツフ市”と命名し、市を外の文明から完全に切り離しました。サイトPL-79がネクサス全域を見張り、悪魔次元に関するアノマリーを調査するべく設立されました。
+
+しかし、その存在を知っている組織は財団だけではありませんでした。ツィツフ村の森にはハンター・インダストリーズ社の兵器工場と本部が存在しています。財団が悪魔実体の研究を行っているのに対し、彼らは技術開発と兵器製造に悪魔を利用します。彼らは複数の研究所や工場を、我々と悪魔の次元双方に構えています。
+[[/div]]
+[[/tab]]
+[[tab 人物、場所、要注意団体、用語]]
+[[div class="log-header"]]
++++* 人物
+----
+* **アントニ・グズミフィ管理官 (Director Antoni Grzmichuj)** -- 2003〜2010年のサイトPL-79管理官。財団にとって不利な契約をハンター・インダストリーズと結んだ際の署名責任者であったことから、法務部門の郵便室に左遷された。監督官の立場に誇りを抱いているため、かつての立場を取り戻し、自分が単なる無能ではないと思いたがっている。
+
+* **ブリジダ・ヴィシュニエフスカ (Brygida Wiśniewska)** -- サイトPL-79の財団エージェント 兼 [[span class="ruby"]]監査官 [[span class="rt"]]インクイジター[[/span]][[/span]]。彼女の働きで、アントニ・グズミフィはサイト管理官でなくなった。断固とした性格の自信家で、歯に衣を着せない人物。
+
+* **カミル・シュトル管理官 (Director Kamil Szczur)** -- グズミフィ後任のサイトPL-79管理官。若く自信ある男性で、自身の価値を証明したがっている。前任者の問題解決に取り組み、ハンター・インダストリーズとの契約による妨害をかいくぐろうとする。
+
+* **コンスタンティン・ヤコフスキ博士 (Dr. Konstantyn Jackowski)** -- 悪魔部門長。一見無能で、そのルーズさから職位にそぐわないように見える。だが実際は、悪魔存在と悪魔次元に関して財団最高峰の知識を誇る人材である。長年財団で働く奇跡術師でもあるが、悪魔学ほど深く関わっているわけではない。ウィスキー愛飲者。
+
+* **アダム・ハンター (Adam Hunter)** -- ハンター・インダストリーズの2人の経営者の片割れ。主に外部の人間と社の契約を結ぶ役割に就いている。穏やかでプロフェッショナルな、白髪に白服の男。目を合わせた者に強い暗示をかける異能を持つ。
+[[/div]]
+[[div class="log-header"]]
++++* 場所
+----
+* **悪魔次元** -- 障壁によって隔てられた別次元で、我々の世界の悪魔版。悪魔存在が居住しており、知的で文明を築いているものと、知能の無い怪物がいる。景観の特徴は、白く、些か血を浴びたかのような菌類の構造物。
+
+* **Nx-79 “ツィツフ市”** -- ツィツフ市の全域が、DunwichクラスのNx-79 “ツィツフ市”に分類されている。Nx-79は我々の次元と悪魔次元を隔てる障壁が最も薄い場所である。Nx-79地域で自殺した人物は、ツィツフ市で死んだ際と同じ状態で再出現する。ただし蘇る場所は悪魔次元であり、大量の悪魔実体がいるために我々の次元より遥かに危険である。
+
+* **サイトPL-79** -- ツィツフ村に設立された財団サイトで、Nx-79全域のアノマリーならびに悪魔次元関連存在の確保を担う。また、悪魔部門の本部でもある。
+[[/div]]
+[[div class="log-header"]]
++++* 要注意団体
+----
+* **ハンター・インダストリーズ** -- アマンダ・ハンターとアダム・ハンターの双子により創設された会社。ハンター・インダストリーズの本部はツィツフ村に位置する。社自体は悪魔存在・悪魔次元関連の兵器・技術の研究・開発を行っている。複数の研究所・工場を我々の現実と悪魔次元の双方に保有している。
+[[/div]]
+[[div class="log-header"]]
++++* 用語
+----
+* **EZAWエネルギー** -- 悪魔実体から得られる異常なエネルギー。ハンター・インダストリーズの技術・兵器に使用されている。
+
+* **悪魔実体** -- 悪魔次元由来の存在の名称。A〜Eの文字で分類されており、この分類法は財団とハンター・インダストリーズの双方が使用している。階級が高いほど、強い力と高い知性を有する。クラスE悪魔実体は貧弱かつ無知性である。クラスD存在は動物に似る。危険かつ強力だが、本能のままに動く。クラスC実体は通常発話ないしは他の手段でコミュニケーションを取ることができ、クラスD実体より強いとは限らない一方、通常はそれよりも賢い。クラスB悪魔実体は高位悪魔であり、悪魔次元の特定箇所で統治権を行使する。クラスA悪魔実体は1体が知られているが、彼についてのデータは機密事項である。
+[[/div]]
+[[/tab]]
+[[tab このカノンと他のカノンの関係]]
+[[div class="log-header"]]
+
++++* このカノンと共存できるカノン
+----
+
+* **[[[przyczajone-leczenie-hub|潜伏治療]]]** -- 『潜伏治療』はかなり緩いカノンであるため、互いの設定は衝突しません。
+
+* **[[[chwasty-hub|雑草]]]** -- 『雑草』はかなり緩いカノンであるため、互いの設定は衝突しません。
+
+* **[[[symonia-hub|罪団]]]** -- カノン構造が解釈に大きく左右されるものであるため、『罪団』の出来事はここでも正規設定となり得ます。
+
+* **[[[czarne-niebo-hub|黒塗りの空]]]** -- 『黒塗りの空』は『ツィツフズ・ヘル』の正規設定であり、その逆もまた然りです。
+[[/div]]
+[[div class="log-header"]]
++++* このカノンと共存できないカノン
+----
+* **[[[from-120-s-archives-hub|120の史料館より]]], [[[no-return|ノー・リターン]]]ならびにメタファウンデーション[[footnote]] **訳注:** 主にENで2022年辺りから一部有志が進めている、複数のカノンを統合させて巨大なメガカノンを構築するプロジェクト。先述した2カノンの他、『43から目を離すな』『S & Cプラスチック』『サイト-17深淵目録』 (特にその中の『訓戒』シリーズ) などがここに所属している。 [[/footnote]]所属カノン** -- メタファウンデーション所属カノンに言及することがあるかもしれませんが、カノン自体は『ツィツフズ・ヘル』と適合しません。
+
+* **[[[zwarcie-hub|機界紛争]]]** -- かなり多くの点が異なります。
+[[/div]]
+[[/tab]]
+[[tab 年表]]
+[[div class="log-header"]]
+**2003年** -- アントニ・グズミフィがサイトPL-79の管理官になる。
+**2010年** -- SCP-PL-189がサイトPL-79の管轄区に出現。
+**2011年** グズミフィ管理官が降格され、カミル・シュトルが新たなサイト管理官となる。
+**2013年** -- 偶然にも、ハンター・インダストリー制作の悪魔アプリが一般に公開されてしまう。
+**2014年** -- 悪魔実体の問題により、ハンター・インダストリーズの兵器をA.R.G.U.S.株式会社に発送するのが遅れている。
+**2017年** -- 建設中のサイトPL-48でセキュリティ違反が発生し、建設が大きく遅れる。
+**2019年3月** -- ツィツフ村での謎の儀式により、サイトPL-48のSCP-PL-139の振る舞いに大きな変化が生じる。
+**2019年6月** -- 奇跡術儀式の犠牲となったクラスC悪魔実体がサイトPL-49に収容される。
+[[/div]]
+[[/tab]]
+[[tab ここで何か書いてみたくなりましたか？]]
+[[div class="log-header"]]
+『ツィツフズ・ヘル』は悪魔、文明からの市全域の隔絶、悪魔存在を私利私欲のため利用する企業、それらを理解しようとする財団についてのカノンです。これだけ知っておけば十分でしょう。詳細を知りたければ、試しに記事を読んでみるか、あるいはカノン監督  ([[*user Zygard]]) までWikidotかDiscord (なるべくDiscord) でご質問ください。
+[[/div]]
+[[div class="log-header"]]
++++* 質問コーナー
+-----------
+**どんな人がこのカノンに参加できますか？**
+-- 誰でも！
+
+**あの、このカノンで記事を書きたいんですけど、私のだと出来事がちょっと違っていて、他の記事とちょっと矛盾するんです。でもこの記事がクールなのは間違いないんですよ。**
+-- OK、ただその作品は他の作品からは正式設定とは見なされません。
+
+**[[span class="ruby"]]複砲[[span class="rt"]]マルチカノン[[/span]][[/span]]ドリフトがしたい。このカノンを使ったうえで他のカノンも採用した作品が書きたいんです。**
+-- 設定等がちゃんと揃っていて、まず私に査読させてくれるなら、素敵ですね。
+
+**このカノン専用のCSSテーマはありますか？**
+-- 今のところないですが、ハンター・インダストリーズのフォーマットには、[https://scp-wiki.wikidot.com/theme:basalt Basalt]をダークモードでヘッダーを変えて使うのをお勧めします。[[[zlecenie-mef-2839|注文MEF-2839]]]で見れるような感じです。他の記事には、[https://scp-wiki.wikidot.com/theme:flopstyle-dark Flopstyle: DARK]をちょっと変えて使うか、あるいは単に[https://scp-wiki.wikidot.com/theme:jakstyle Jakstyle]を[https://scp-wiki.wikidot.com/theme:black-highlighter-theme Black Highlighter]と併用したりして使うといいでしょう。
+
++++ テーマ
+
+角括弧がある場所にはもう一個角括弧を足すのを忘れないでください。ボブ・ロスが言ったように、誰にだって友達が必要ですからね。
+
+**ハンター・インダストリーの記事用**
+[[div class="code terminal" style="padding-bottom: 1rem"]]
+[include :scp-wiki:theme:basalt darkmode=a]
+[module CSS]
+:root{
+    --logo: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A3995762-92-6txe/hunterindustrieslogo);
+    --title: "Hunter Industries";
+    --subtitle: "僕等の製品に心を開いて";
+}
+#side-bar {
+    margin: 0;
+}
+[/module]
+[[/div]]
+
+**Flopstyle Dark (このハブで使われているやつ)**[[footnote]] **訳注:** 「犬が尻で吠える場所」 (Gdzie psy dupami szczekają) は、辺境の地を指すポーランド語の下品な慣用句。 [[/footnote]]
+[[div class="code terminal" style="padding-bottom: 1rem"]]
+[include :scp-wiki:theme:flopstyle-dark]
+[module CSS]
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+ :root{
+   /* -- COLORS -- */
+     --accentColor: #a80006;
+     --accentColorLite: #ff3d3d;
+     --hue: 0deg;
+   /* -- TITLES -- */
+     --header-title: "ツィツフズ・ヘル";
+     --header-subtitle: "悪魔がおやすみを告げ、犬が尻で吠える場所";
+     --titleColor: title_colour;
+     --subtitleColor: subtitle_colour;
+   /* -- LOGO -- */
+     --lgurl: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A3995762-91-ei59/umbrella-scp.png);
+   /* -- STATIC COLORS -- */
+     --textColor: hsl(212, 3%, 75%);
+     --bgColor: hsl(220, 20%, 10%);
+}
+
+#header h1 a::before,
+#header h2::before{
+   /* Styles the New Text */
+     font-family: 'Zen Antique', serif;
+     letter-spacing: 2px;
+     text-shadow: none;
+}
+
+.meta-title{
+      font-size: 1.55rem;
+      font-weight: bold;
+}
+[/module]
+[[/div]]
+
+**Jakstyle**
+[[div class="code terminal" style="padding-bottom: 1rem"]]
+[include :scp-wiki:theme:black-highlighter-theme]
+[include :scp-wiki:theme:jakstyle]
+[[/div]]
+
+**まだ質問があります！**
+-- SCPポーランド語支部のDiscordかWikiから質問してください。
+[[/div]]
+[[/tab]]
+[[tab 海外の方へ]]
+[[div class="log-header"]]
+++++ 海外の方へ
+--------
+
+**このカノンの名前はなんで『ツィツフズ・ヘル』って言うんですか？**
+-- このカノンの出来事は、主にツィツフ村とその周辺を舞台にしています。[https://en.wikipedia.org/wiki/Cyc%C3%B3w ツィツフ村は実在する場所です]。
+
+**……ポーランド語以外の支部に所属しているのですが、このカノンで書いても大丈夫ですか？**
+-- ええ、大丈夫ですよ！ まずは私に連絡し、その後あなたの支部で作品を公開し、INTに翻訳してください。そうすれば私や他の人がポーランド語に翻訳できますからね。
+[[/div]]
+[[/tab]]
+[[/tabview]]

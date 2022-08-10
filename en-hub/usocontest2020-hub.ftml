@@ -1,0 +1,1659 @@
+[[include :scp-jp-sandbox2:inc:jstyles]]
+[[module css]]
+@import url(http://scp-jp.wdfiles.com/local--code_/usocontest2020-hub/1);
+[[/module]]
+[[div_ id="u-open-side-link"]][!--SideBar--]
+[#u-side-nav ≡]
+[[/div]]
+[[div_ id="u-side-nav"]]
+[[div class="side-content"]]
+[[[usocontest2020-hub | 嘘のコンテスト]]]
+[[[uso-bumon-hub| 嘘部門ハブ]]]
+[[/div]]
+[[div class="side-heading"]]
+7周年コンテスト
+[[/div]]
+[[div class="side-content"]]
+[[[7thanivpages | ７周年コンテスト・ハブ]]]
+[[[rookie-s-contest-2020 | ルーキーコンテスト]]]
+[[[crosslink-campaign-2020 | クロスリンクコンテスト]]]
+[[/div]]
+[[div class="side-heading"]]
+サイトについて
+[[/div]]
+[[div class="side-content"]]
+[[collapsible show="初めての方へ" hide="初めての方へ"]]
+[[[guide-for-newbies | 初めての方へ]]]
+[[[system:join|このサイトに参加する]]]
+[[[discord-guideline|SCP-JP公式チャット]]]
+[[/collapsible]]
+[[collapsible show="ガイドライン" hide="ガイドライン"]]
+[[[guide-hub | ガイドハブ]]]
+[[[site-rules | サイトルール]]]
+[[[licensing-guide | ライセンスガイド]]]
+[[[tag-guide|タグガイド]]]
+[[[tag-list|タグリスト]]]
+[[[meet-the-staff-jp|サイトスタッフ]]]
+[[/collapsible]]
+[[/div]]
+[[div class="side-heading"]]
+SCPシリーズ
+[[/div]]
+[[div class="side-content scps"]]
+[[collapsible show="ENシリーズ" hide="ENシリーズ"]]
+[[[scp-series|I]]][[[scp-series-2|Ⅱ]]][[[scp-series-3|Ⅲ]]][[[scp-series-4|Ⅳ]]][[[scp-series-5|Ⅴ]]][[[scp-series-6|Ⅵ]]]
+[[/collapsible]]
+[[collapsible show="JPシリーズ" hide="JPシリーズ"]]
+[[[scp-series-jp|I]]][[[scp-series-jp-2|Ⅱ]]][[[scp-series-jp-3|Ⅲ]]]
+[[/collapsible]]
+[[/div]]
+[[div class="side-heading"]]
+その他のコンテンツ
+[[/div]]
+[[div class="side-content"]]
+[[[foundation-tales|Tales]]]
+[[[foundation-tales-jp|Tales-JP]]]
+[[[canon-hub|カノン]]]
+[[[canon-hub-jp|カノン-JP]]]
+[[[goi-formats|GoIフォーマット一覧]]]
+[[[goi-formats-jp|GoIフォーマット-JP一覧]]]
+[[[artwork-jp|アートワーク-JP]]]
+[[[international-artwork|アートワーク国際版]]]
+[[[members-pages-jp|著者ページ-JP]]]
+----
+[[[scp-international|SCP国際版]]]
+[[[international-goi-formats|GoIフォーマット国際版]]]
+----
+[[[forum:start|フォーラム]]]
+[[[forum:recent-posts|最近の投稿]]]
+[[[http://scp-jp-sandbox3.wikidot.com/forum:recent-posts|最近の下書き批評]]]
+[[/div]]
+[[div class="side-heading"]]
+サイト情報
+[[/div]]
+[[div class="side-content"]]
+[[[system:recent-changes|最近の更新]]]
+[[[Most Recently Created|最近作成された記事]]]
+[[[Most Recently Edited|最近編集された記事]]]
+[[[random:random-page|ランダムページ]]]
+[[[Top Rated Pages|評価の高い記事]]]
+[[[Lowest Rated Pages|評価の低い記事]]]
+[[[top-rated-pages-en|評価の高い記事-EN]]]
+[[/div]]
+[[/div]]
+[[div_ id="u-close-side-link"]]
+[#main-content CLOSE]
+[[/div]][!--EndOfSideBar--]
+[[div_ id="u-fake-header-title"]]
+SCP-JP ##var(--c-accent)|7##th Anniversary
+[[/div]]
+@@@@
+@@@@
+[[=]]
+[[span class="break"]]真実を語る者は、[[/span]][[span class="break"]]機知のない人間だけである。[[/span]]
+[[/=]]
+[[>]]
+- フョードル・ドストエフスキー「白痴」
+[[/>]]
+
+[[=image lie-contest.png style="max-width:100%;"]]
+
+[[=]]
+[[div class="thin"]]
+[[span style="line-height:0.5em;font-size:2.5em;"]]##var(--c-accent)|L##ie ##var(--c-accent)|C##ontest
+[[/span]]
+2020
+[[/=]]
+
+[[/div]]
+
+[[module css]]
+@import url(http://scp-jp.wdfiles.com/local--code_/usocontest2020-hub/1);
+
+.result-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  white-space: nowrap;
+}
+
+.result-wrap .result.first {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 100%;
+  border: solid .1px dimgray;
+  margin: .25em;
+  box-sizing: border-box;
+  height: 100px;
+}
+
+.result-wrap .result.first .goldpanel {
+  flex: 0 0 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "FontAwesome";
+  color: white;
+  background: linear-gradient(150deg, #BF953F, #f5ec94, #B38728, #f5ec94);
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.result-wrap .result.first .title {
+  flex: 1 1 70%;
+  display: flex;
+}
+
+.result-wrap .result.first .title .awardtitle {
+  flex: 1 1 40%;
+  line-height: 100px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.result-wrap .result.first .title a {
+  display: block;
+  flex: 1 1 60%;
+  line-height: 100px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.result-wrap .result.first .articledetail {
+  flex: 0 0 145px;
+}
+
+.result-wrap .result.first .articledetail .author {
+  line-height: calc(100px / 2);
+  text-align: center;
+}
+
+.result-wrap .result.first .articledetail .points {
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (max-width:870px) {
+  .result-wrap .result.first {
+    height: 70px;
+  }
+
+  .result-wrap .result.first .goldpanel {
+    flex: 0 0 70px;
+    line-height: 70px;
+    font-size: 40px;
+  }
+
+  .result-wrap .result.first .title {
+    flex: 1 1 70%;
+  }
+
+  .result-wrap .result.first .title .awardtitle {
+    flex: 1 1 40%;
+    line-height: 70px;
+    font-size: 140%;
+  }
+
+  .result-wrap .result.first .title a {
+    flex: 1 1 60%;
+    line-height: 70px;
+    font-size: 130%;
+  }
+
+  .result-wrap .result.first .articledetail {
+    flex: 0 0 150px;
+  }
+
+  .result-wrap .result.first .articledetail .author {
+    line-height: calc(70px / 2);
+  }
+
+  .result-wrap .result.first .articledetail .points {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:610px) {
+
+  .result-wrap .result.first {
+    height: unset;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+
+  .result-wrap .result.first .goldpanel {
+    display: none;
+  }
+
+  .result-wrap .result.first .title {
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+  }
+
+  .result-wrap .result.first .title .awardtitle {
+    flex: 1 0 100%;
+    line-height: 2;
+    font-size: 120%;
+  }
+
+  .result-wrap .result.first .title a {
+    flex: 1 0 100%;
+    line-height: 2;
+    font-size: 150%;
+  }
+
+  .result-wrap .result.first .articledetail {
+    flex: 0 0 100%;
+  }
+
+  .result-wrap .result.first .articledetail .author {
+    line-height: 3;
+  }
+
+  .result-wrap .result.first .articledetail .points {
+    line-height: 1.5;
+  }
+}
+
+#html-body #odialog-container a {
+  text-shadow: unset;
+}
+
+
+.result-wrap .result.second {
+  flex: 1 1 30%;
+  max-width: 350px!important;
+  text-align: center;
+  border: solid .1px dimgray;
+  margin: .25em;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.result-wrap .result.second .awardtitle {
+  font-size: 105%;
+  line-height: 2;
+}
+
+.result-wrap .result.second > a {
+  font-size: 125%;
+  line-height: 3;
+}
+
+.result-wrap .result.second .author {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+[[/module]]
+
+@@ @@
+= [[size 175%]]##var(--c-accent)|SCP部門##[[/size]]
+@@ @@
+
+[[div_ class="result-wrap"]]
+
+[[div_ class="result first"]]
+[[div_ class="goldpanel"]]
+
+[[/div]]
+[[div_ class="title"]]
+[[div_ class="awardtitle"]]
+空想虚構賞
+[[/div]]
+[[[scp-2616-jp|]]]
+[[/div]]
+[[div_ class="articledetail"]]
+[[div_ class="author"]]
+[[*user BenjaminChong]]
+[[/div]]
+[[div_ class="points"]]
+332 pts.
+(219+113)
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div_ class="result first"]]
+[[div_ class="goldpanel"]]
+
+[[/div]]
+[[div_ class="title"]]
+[[div_ class="awardtitle"]]
+舞文曲筆賞
+[[/div]]
+[[[scp-2144-jp|]]]
+[[/div]]
+[[div_ class="articledetail"]]
+[[div_ class="author"]]
+[[*user Mitan]]
+[[/div]]
+[[div_ class="points"]]
+332 pts.
+(306+26)
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div_ class="result second"]]
+[[span class="awardtitle"]]偽装賞[[/span]]
+[[[SCP-2472-JP|]]]
+[[span class="author"]][[*user KanKan]], [[*user tazen]][[/span]]
+[[div_ class="points"]]
+210 pts.
+(162+48)
+[[/div]]
+[[/div]]
+
+[[/div]]
+
+@@ @@
+= [[size 175%]]##var(--c-accent)|Tale部門##[[/size]]
+@@ @@
+
+[[div_ class="result-wrap"]]
+
+[[div_ class="result first"]]
+[[div_ class="goldpanel"]]
+
+[[/div]]
+[[div_ class="title"]]
+[[div_ class="awardtitle"]]
+空言乱惑賞
+[[/div]]
+[[[his-name-is|]]]
+[[/div]]
+[[div_ class="articledetail"]]
+[[div_ class="author"]]
+[[*user nemo111]]
+[[/div]]
+[[div_ class="points"]]
+154 pts.
+(100+54)
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div_ class="result second"]]
+[[span class="awardtitle"]]造言賞[[/span]]
+[[[hanen|]]]
+[[span class="author"]][[*user pear-qu]][[/span]]
+[[div_ class="points"]]
+150 pts.
+(111+39)
+[[/div]]
+[[/div]]
+
+[[div_ class="result second"]]
+[[span class="awardtitle"]]妄言賞[[/span]]
+[[[monster|]]]
+[[span class="author"]][[*user Mitan]][[/span]]
+[[div_ class="points"]]
+113 pts.
+(87+26)
+[[/div]]
+[[/div]]
+
+[[/div]]
+
+@@ @@
+= [[size 175%]]##var(--c-accent)|GoIフォーマット部門##[[/size]]
+@@ @@
+
+[[div_ class="result-wrap"]]
+
+[[div_ class="result first"]]
+[[div_ class="goldpanel"]]
+
+[[/div]]
+[[div_ class="title"]]
+[[div_ class="awardtitle"]]
+讒訴誣告賞
+[[/div]]
+[[[critter-profile-brungo|]]]
+[[/div]]
+[[div_ class="articledetail"]]
+[[div_ class="author"]]
+[[*user WagnasCousin]]
+[[/div]]
+[[div_ class="points"]]
+160 pts.
+(110+50)
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div_ class="result second"]]
+[[span class="awardtitle"]]詭詐賞[[/span]]
+[[[yamizushi-file-no303|]]]
+[[span class="author"]][[*user indonootoko]][[/span]]
+[[div_ class="points"]]
+113 pts.
+(81+32)
+[[/div]]
+[[/div]]
+
+[[div_ class="result second"]]
+[[span class="awardtitle"]]騙詐賞[[/span]]
+[[[critter-profile-nikolai|]]]
+[[span class="author"]][[*user ykamikura]][[/span]]
+[[div_ class="points"]]
+90 pts.
+(68+22)
+[[/div]]
+[[/div]]
+
+[[/div]]
+
+@@ @@
+
+[[collapsible show="+ 決選投票の結果を表示" hide="- 閉じる"]]
+
+@@ @@
+
+= [[size 175%]]##var(--c-accent)|SCP部門##[[/size]]
+[[div_ class="finalvoting"]]
+[[module ListPages category="_default" name="scp-2144-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 306
+決選投票: 26
+合計: 332
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2616-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 219
+決選投票: 113
+合計: 332
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2472-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 162
+決選投票: 48
+合計: 210
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2900-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 138
+決選投票: 2
+合計: 140
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2233-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 134
+決選投票: 4
+合計: 138
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2666-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 132
+決選投票: 28
+合計: 160
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-1883-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 116
+決選投票: 51
+合計: 167
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2995-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 116
+決選投票: 22
+合計: 138
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-cn-1616-j" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 117
+決選投票: 62
+合計: 179
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2708-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 86
+決選投票: 7
+合計: 93
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2888-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 92
+決選投票: 22
+合計: 114
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2113-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 87
+決選投票: -20
+合計: 67
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2575-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 81
+決選投票: -8
+合計: 73
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-1779-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 83
+決選投票: 20
+合計: 103
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2925-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 78
+決選投票: -8
+合計: 70
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-676-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 77
+決選投票: 17
+合計: 94
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2693-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 79
+決選投票: -2
+合計: 77
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2052-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 80
+決選投票: 2
+合計: 82
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2047-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 69
+決選投票: 24
+合計: 93
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-1701-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 69
+決選投票: 17
+合計: 86
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2555-jp" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 65
+決選投票: 25
+合計: 90
+[[/div]]
+[[/module]]
+[[/div]]
+@@ @@
+= [[size 175%]]##var(--c-accent)|Tale部門##[[/size]]
+[[div_ class="finalvoting"]]
+[[module ListPages category="_default" name="japanese-area-directors-dossier" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 111
+決選投票: -32
+合計: 79
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="hanen" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 111
+決選投票: 39
+合計: 150
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="silence-cheers" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 86
+決選投票: 20
+合計: 106
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="monster" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 87
+決選投票: 26
+合計: 113
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="vanished-underground-city" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 72
+決選投票: 15
+合計: 87
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="his-name-is" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 100
+決選投票: 54
+合計: 154
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="29mo-8" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 74
+決選投票: -10
+合計: 64
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="wagnascousin-fattyacid-r-00x-s-proposal" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 76
+決選投票: 8
+合計: 84
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="hana-wo-taoru" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 77
+決選投票: 25
+合計: 102
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="wagnascousin-4" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 70
+決選投票: 0
+合計: 70
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="the-hidden-love" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 69
+決選投票: 26
+合計: 95
+[[/div]]
+[[/module]]
+[[/div]]
+@@ @@
+= [[size 175%]]##var(--c-accent)|GoIフォーマット部門##[[/size]]
+[[div_ class="finalvoting"]]
+[[module ListPages category="_default" name="critter-profile-brungo" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 110
+決選投票: 50
+合計: 160
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="project-nishiki-no-mihata-1942" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 103
+決選投票: -16
+合計: 87
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="koigarezaki-news-20190415" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 94
+決選投票: -20
+合計: 74
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="project-shinkon-san-2020" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 84
+決選投票: -12
+合計: 72
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="yamizushi-file-no303" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 81
+決選投票: 32
+合計: 113
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="yamizushi-file-no033-d" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 71
+決選投票: -15
+合計: 56
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="dreamlandiwate" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 68
+決選投票: -10
+合計: 58
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="critter-profile-nikolai" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 68
+決選投票: 22
+合計: 90
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="ambrose-on-the-gears" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 65
+決選投票: 19
+合計: 84
+[[/div]]
+[[/module]]
+
+[[module ListPages category="_default" name="birds-023" separate="no" wrapper="no"]]
+[[div class="finalvoting_article"]]
++++ %%title_linked%%
+作者: %%created_by_linked%%
+----
+記事Rate: 61
+決選投票: -9
+合計: 52
+[[/div]]
+[[/module]]
+[[/div]]
+
+[[/collapsible]]
+
+@@ @@
+
+------
+
++ エントリー作品一覧
+++ ##var(--c-accent)|S##CP部門
+[[div style="margin: 10px auto;"]]
+[[module ListPages separate="no" category="" rating=">=60" tags="+嘘コン20 scp -ハブ" perPage="100" order="rating desc"]]
+ # [[size 120%]]%%title_linked%%[[/size]] [[size 105%]]//by// %%created_by%% : %%rating%%点 [[/size]]
+[[/module]]
+[[/div]]
+
+-----
+[[div style="margin: 10px auto;"]]
+[[module ListPages separate="no" category="" rating="<60" tags="+嘘コン20 scp -ハブ" perPage="100" order="rating desc"]]
+ # [[size 120%]]%%title_linked%%[[/size]] [[size 105%]]//by// %%created_by%% : %%rating%%点 [[/size]]
+[[/module]]
+[[/div]]
+
+++ ##var(--c-accent)|T##ale部門
+
+[[div style="margin: 10px auto;"]]
+[[module ListPages separate="no" category="" rating=">=60" tags="+嘘コン20 tale" perPage="100" order="rating desc"]]
+ # [[size 120%]]%%title_linked%%[[/size]] [[size 105%]]//by// %%created_by%% : %%rating%%点 [[/size]]
+[[/module]]
+[[/div]]
+
+------
+[[div style="margin: 10px auto;"]]
+[[module ListPages separate="no" category="" rating="<60" tags="+嘘コン20 tale" perPage="100" order="rating desc"]]
+ # [[size 120%]]%%title_linked%%[[/size]] [[size 105%]]//by// %%created_by%% : %%rating%%点 [[/size]]
+[[/module]]
+[[/div]]
+
+++ ##var(--c-accent)|G##oIフォーマット部門
+
+[[div style="margin: 10px auto;"]]
+[[module ListPages separate="no" category="" rating=">=60" tags="+嘘コン20 goi-format -ハブ" perPage="100" order="rating desc"]]
+ # [[size 120%]]%%title_linked%%[[/size]] [[size 105%]]//by// %%created_by%% : %%rating%%点 [[/size]]
+[[/module]]
+[[/div]]
+
+------
+[[div style="margin: 10px auto;"]]
+[[module ListPages separate="no" category="" rating="<60" tags="+嘘コン20 goi-format -ハブ" perPage="100" order="rating desc"]]
+ # [[size 120%]]%%title_linked%%[[/size]] [[size 105%]]//by// %%created_by%% : %%rating%%点 [[/size]]
+[[/module]]
+[[/div]]
+
+
+
+[[=]]
+**投稿期間**
+8/7 0:00 ～ 9/7 23:59
+
+**投票期間**
+9/8 0:00 ～ 9/14 23:59
+
+**決戦投票期間**
+9/15 0:00 ～ 9/19 23:59
+[[/=]]
+
++++ ##var(--c-accent)|テ##ーマ: 「嘘」
+嘘という漢字が含有するありとあらゆる嘘を対象とします。
+
++++ ##var(--c-accent)|部##門
+
+[[div class="contents"]]
+以下3部門を設けます。それぞれ優勝者は一名です。
+[[div style="font-size:1.2em"]]
+# SCP部門
+ # 偽証賞
+ # 偽筆賞
+ # 虚偽賞
+ # 偽装賞
+# Tale部門
+ # 造言賞
+ # 虚言賞
+ # 戯言賞
+ # 妄言賞
+# GoIフォーマット部門
+ # 詭詐賞
+ # 巧詐賞
+ # 詐欺賞
+ # 騙詐賞
+[[/div]]
+
++++ ##var(--c-accent)|嘘##部門
+ルーキーコンテストではサブ部門がありましたね。残念ながらそのようなものは、このコンテストにおいて部門としては設けていません。しかし、それでは満足できない方のために「嘘部門」をご用意しました。といっても、コンテストの結果には何も影響しないものです。詳細は以下のページをご覧ください。
+* [[[uso-bumon-hub|]]]
+
+------
+__SCP部門__
+* [[span class="thin"]][[size large]]{{##var(--c-accent)|偽##証賞^^##var(--c-accent)|ぎ##しょうしょう^^}}: [[/size]][[/span]] オブジェクトクラスがSafe, Euclid, Keterいずれかであり、SCP-001ではなく、かつ、フォーマットスクリューではないSCP記事を対象とする賞です。
+
+* [[span class="thin"]][[size large]]{{##var(--c-accent)|偽##筆賞^^##var(--c-accent)|ぎ##ひつしょう^^}}: [[/size]][[/span]]  偽証賞の対象とならないSCP記事(Joke, Explained等を含む)を対象とする賞です。
+
+* [[span class="thin"]][[size large]]{{虚##var(--c-accent)|偽##賞^^きょ##var(--c-accent)|ぎ##しょう^^}}: [[/size]][[/span]]  投稿されたSCP記事の中で最高得点に与えられる賞です。 偽証賞と偽筆賞それぞれと同時に授与され、それぞれ{{空想虚構賞^^くうそうきょこうしょう^^}}、{{舞文曲筆賞^^ぶぶんきょくひつしょう^^}}として表彰されます。
+
+* [[span class="thin"]][[size large]]{{##var(--c-accent)|偽##装賞^^##var(--c-accent)|ぎ##そうしょう^^}}: [[/size]][[/span]]  偽証賞、偽筆賞に輝いた作品を除いた内で最高得点のSCP記事に与えられる賞です。
+
+__Tale部門__
+* [[span class="thin"]][[size large]]{{造##var(--c-accent)|言##賞^^ぞう##var(--c-accent)|げん##しょう^^}}: [[/size]][[/span]] 新聞や報告書のような、何らかのフォーマットに則ったTale記事を対象とする賞です。
+
+* [[span class="thin"]][[size large]]{{虚##var(--c-accent)|言##賞^^きょ##var(--c-accent)|げん##しょう^^}}: [[/size]][[/span]]  造言賞の対象とならない、一般的な小説形式に近いTale記事を対象とする賞です。
+
+* [[span class="thin"]][[size large]]{{戯##var(--c-accent)|言##賞^^ぎ##var(--c-accent)|げん##しょう^^}}: [[/size]][[/span]]  投稿されたTale記事の中で最高得点に与えられる賞です。 造言賞と虚言賞それぞれと同時に授与され、それぞれ{{巧言令色賞^^こうげんれいしょくしょう^^}}、{{空言乱惑賞^^くうげんらんわくしょう^^}}として表彰されます。
+
+* [[span class="thin"]][[size large]]{{妄##var(--c-accent)|言##賞^^もう##var(--c-accent)|げん##しょう^^}}: [[/size]][[/span]]  造言賞、虚言賞に輝いた作品を除いた内で最高得点のTale記事に与えられる賞です。
+
+__GoIフォーマット部門__
+* [[span class="thin"]][[size large]]{{詭##var(--c-accent)|詐##賞^^き##var(--c-accent)|さ##しょう^^}}: [[/size]][[/span]] SCP-JPオリジナルの要注意団体が作成したGoIフォーマット記事を対象とする賞です。
+
+* [[span class="thin"]][[size large]]{{巧##var(--c-accent)|詐##賞^^こう##var(--c-accent)|さ##しょう^^}}: [[/size]][[/span]]  詭詐賞の対象とならないGoIフォーマット記事を対象とする賞です。
+
+* [[span class="thin"]][[size large]]{{##var(--c-accent)|詐##欺賞^^##var(--c-accent)|さ##ぎしょう^^}}: [[/size]][[/span]]  投稿されたGoIフォーマット記事の中で最高得点に与えられる賞です。 詭詐賞と巧詐賞それぞれと同時に授与され、それぞれ{{排斥擠陥賞^^はいせきせいかんしょう^^}}、{{讒訴誣告賞^^ざんそふこくしょう^^}}として表彰されます。
+
+* [[span class="thin"]][[size large]]{{騙##var(--c-accent)|詐##賞^^へん##var(--c-accent)|さ##しょう^^}}: [[/size]][[/span]]  詭詐賞、巧詐賞に輝いた作品を除いた内で最高得点のGoIフォーマット記事に与えられる賞です。
+
+[[/div]]
+
+
+++ ##var(--c-accent)|入##賞特典
+
+[[div class="contents"]]
+各部門賞毎に専用の評価モジュールが付与されます。賞によって使用するモジュールの色が若干異なります。
+* [[span class="thin"]][[size large]]金色: [[/size]][[/span]]  SCP部門の空想虚構賞あるいは舞文曲筆賞, Tale部門の巧言令色賞あるいは空言乱惑賞, GoIフォーマット部門の排斥擠陥賞あるいは讒訴誣告賞
+
+* [[span class="thin"]][[size large]]銀色: [[/size]][[/span]]  SCP部門の偽証賞あるいは偽筆賞,Tale部門の造言賞あるいは虚言賞, GoIフォーマット部門の詭詐賞あるいは巧詐賞
+
+* [[span class="thin"]][[size large]]銅色: [[/size]][[/span]]  SCP部門の偽装賞,Tale部門の妄言賞,GoIフォーマット部門の騙詐賞
+
+[[div style="box-shadow: 10px 10px 6px -6px rgba(0,0,0,0.75);padding: 2em;border: 1px solid;margin:3em 0;"]]
+++ ##var(--c-accent)|エ##ントリー条件
+
+* 期間中のエントリー取り消しは可能です。
+
+
+* **再エントリー:** エントリーを取り消した場合の再エントリーは可能です。
+
+エントリーの際は以下の内容に合意したとみなします。
+
+* コンテスト終了後のエントリー取り消しは原則不可とする。
+
+* 当コンテストの入賞を辞退した場合**永久欠格**となり、コンテスト参加の資格を将来にわたって喪失する。これは辞退した時点で取り消しが出来ないものとする。
+
+* 当コンテストの入賞作品が辞退等で空位となった場合、次点作品が繰り上げで受賞する。繰り上げ受賞を辞退した場合、同様にコンテスト参加の永久欠格とする。
+
+* コンテスト入賞作品の以下のような改稿は、サイトスタッフによる議論のうえ、コンテスト参加の永久欠格となる場合がある。
+ # 白紙化等の即時削除になるような改稿、または低評価削除を誘導するような内容への改稿。
+ # コンテストの趣旨を支える部分を削除することを含む、元々の記事のコンセプトからの逸脱が著しい改稿。
+
+* 上記1,2がサイトスタッフによる議論の結果コンテスト参加の永久欠格の対象になった場合、サイトスタッフは永久欠格処分を行う前に、対象者へ「永久欠格とする理由の説明」及び「改稿差し戻しの推奨」を行わなければならない。2週間の間に改稿の差し戻しが行われなかった場合、永久欠格の処分を行う。
+
+[[/div]]
+
++ ##var(--c-accent)|エ##ントリー方法
+
+[[div class="contents"]]
+嘘のコンテストにエントリーすることをディスカッションに明記の上、「嘘コン20」タグをつけてください。
+
+今回のコンテストの参加記事は、通常の評価モジュールの代わりにクレジット付き評価モジュールの使用を義務付けられます。以下をコピー&ペーストし、内容を適切に改変して使用してください。
+
+> @@[[include credit:start]]@@
+> @@**タイトル:**@@ SCP-XXX-JP - タイトル
+> @@**著者:**@@ ©︎@@[[*user@@ **あなたのアカウント名**@@]]@@
+> @@**作成年:**@@ 20XX
+> @@[[include credit:end]]@@
+
+[[/div]]
+
+++++ 他言語版記事のエントリーについて
+今回のコンテストでは、他言語版SCPサイトの記事もエントリーできます。以下の条件を確認して、訳文が用意できたらスタッフに連絡してください。
+* エントリーする記事は日本語に翻訳され、訳文はSCP-JPに翻訳記事として投稿されなくてはなりません。このエントリー作品は通常の翻訳記事として扱われます。DVによって削除されることはなく、内容へのフィードバックは元言語版のサイトで行われるべきです。
+* エントリーする記事は、他言語版サイトにおける原記事の投稿日時、SCP-JPにおける翻訳記事の投稿日時のいずれもがエントリー期間内でなければなりません。
+* あなたが翻訳者であれば、記事の原作者にこのコンテストにエントリーするという同意を得てください。
+* コンテスト運営委員会が記事の翻訳を請け負ったり、翻訳者をあてがうようなことはありません。
+* 下書き内容へのフィードバックは各言語版のサイトで受けてください。翻訳を通してSCP-JPで下書き批評を受ける必要はありません。翻訳に関する査読は通常通り受けることができます。
++++ ##var(--c-accent)|決##選投票
+
+[[div class="contents"]]
+9/15に投稿記事のRateが+60以上であることを優勝条件とします。この時点で優勝条件を満たすものが1記事の場合、優勝者決定とします。
+
+この際、優勝条件を満たした記事複数の場合、決選投票フェーズに移行します。
+[[/div]]
+
+[[=]]
+[[size 150%]]
+##var(--c-accent)|決##選投票フェーズ
+[[/size]]
+[[/=]]
+[[div class="contents"]]
+優勝条件を満たす記事には決選投票用Rateモジュールがつけられます。優勝条件を満たした記事それぞれに紐付けされており、記事内部のRateモジュールとは独立のVote数を持ちます。
+
+決選投票用RateモジュールはWikiのメンバーならば誰でも操作できます。投票に際しては、記事が優勝作品にふさわしいか否かということを判断した上で、それをVoteの形で表明してください。複数投票は可能です。
+
+9/19時点での、記事本来のRateモジュールのVote数と、決選投票用RateモジュールのVote数を合わせた数を得点とします。得点が最大の記事が優勝です。
+[[/div]]
+[[/div]]
+[[=]]
+[[size 150%]]
+##var(--c-accent)|そ##の他
+[[/size]]
+[[/=]]
+* エントリー作品には通常の削除のガイドラインが適用されます。
+* 通常通りサンドボックス3が利用できます。下書き批評を募る際は、ページコンソールからジャンル「コンテスト」を含んだ選択をしてください。
+* DiscordのSCP-JPサーバーも開放されており、そちらで批評を募ることも可能です。利用ルールはサイトの[http://scp-jp.wikidot.com/discord-guideline ディスコードに関するルールとポリシー]に準じます。Discord自体の利用方法は各自で調べてください。
+* **投票者の方へ:** 記事へのVoteは決選投票以外、[[[vote-policy|Voteポリシー]]]に従い、通常の記事の評価と同じ基準で行ってください。
+* コンテスト最終日が近くなってきたからといって、優勝者を操作するためにVoteをコロコロ変えるのは、決選投票Rateモジュール以外に認められません。やめてください。
+
+++ ##var(--c-accent)|Q## & A
+> **Q:** テーマが"嘘"だけど、このテーマ自体も嘘じゃないの？
+> **A:** 嘘ですが嘘ではありません。嘘です。
+
+> **Q:** 記事は書けたけど、嘘っぽいかどうか不安……。
+> **A:** 例え嘘っぽく無くても"嘘"だと言い張ることが可能です。信念を持って嘘をつき通して下さい。
+
+> **Q:** とっても面白い記事があったんだけど、全然嘘っぽくない。どうすれば良いの？
+> **A:** その場合は記事内部のRateモジュールはアップボートしてください。もしその記事が優勝条件を満たしたならば、決選投票用Rateモジュールでダウンボートしてください。
+
+> **Q:** SCPはフィクションだから全部の記事が嘘に該当するんじゃない？
+> **A:** その通りです。ただし決選投票でその主張が認められるかどうかは分かりません。
+
+> **Q:** フォーマットスクリューには[*http://scp-jp.wikidot.com/classification-committee-memo ACS]とかは含むの？
+> **A:** 含みません。記事の内容に関わらず適用できるためです。このコンテストは誰にも真似できないようなひねくれ者を求めています。
+
+> **Q:** 共著はアリ？
+> **A:** アリです。大勢でつく大掛かりな嘘ほどバレにくいものです。
+
+> **Q:** ちょっと待って、投稿数制限はどこ行った？
+> **A:** [*http://scp-jp.wikidot.com/mucon19 昨年]まであった、1人1作だとか2作だとかしか投稿できないというルールのことなら消し飛ばしました。嘘八百というように、嘘は質だけでなく数でも勝負です。
+
+> **Q:** 投稿した後で「この記事で嘘コン参加すれば良かったのに」って言われたんだけど、後から参加って出来るの？
+> **A:** 出来ます。ただし「その記事がコンテストの投稿期間中に投稿されたこと」「投稿期間中に参加表明をしたこと」この2つの条件が満たされている場合のみ認められます。
+
+> **Q:** 絶対無理だけど「俺は優勝してやるぜ!」って言って良い？
+> **A:** 許します。当コンテストではビッグマウスを奨励します。
+
+> **Q:** コンテストで一位取れなかったけど「一位取ったぜ」って言って良い？
+> **A:** 許します。本物の一位が出てきた場合は逃げましょう。
+
+> **Q:** コンテストテーマが[*http://scp-jp.wikidot.com/forum/t-13351724/6-5 ジョイマンコンテスト]になりかけてたってマジ？
+> **A:** 信じるか信じないかはあなた次第です。
+
+その他、コンテストに関する質問、要望、連絡はこのページのディスカッションか、[*http://scp-jp.wikidot.com/forum/t-13051128/7 7年目コンテスト運営Discord]までご連絡ください。
+
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[=]]
+[[span class="break"]]嘘というものがなければ、[[/span]][[span class="break"]]人間は絶望と退屈で死んでしまうであろう。[[/span]]
+[[/=]]
+[[>]]
+- アナトール・フランス
+[[/>]]
+
+[[footnoteblock]]
+[!-- 脚注をコメント欄の上に表示するために必要な構文です。不要な場合は削除してください。 --]
+
+[[div style="display:none"]]
+[[code type="css"]]
+/*
+  CSS Theme for SCP-JP Lie Contest 2020
+  --author: ukwhatn
+  --source: http://pseudo-scp-jp.wikidot.com/ukwhatn:test
+  --license: CC BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0 )
+*/
+/* For Header and Page-Content */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700;900&display=swap');
+
+/*
+  Sigma9 Customizable Header
+  --author: ukwhatn
+  --source: http://scp-jp-sandbox3.wikidot.com/draft:3396310-168-9905
+  --license: CC BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0 )
+*/
+#container-wrap {
+  --c-header: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(34, 34, 34, 1) 100%);
+  --c-topbar: rgba(40, 40, 40, 1);
+  --c-accent: rgba(255, 44, 44, 1);
+  --c-accent-shadow: 2px 1.5px 2px black;
+}
+
+div#container-wrap {
+  background: url("http://expunged.xyz/css/sigma9/origin/header-bg.png") top left repeat-x, var(--c-header) top left repeat-x;
+  background-size: auto 164px;
+}
+
+/* Disable Header Texts */
+div#header h1 span,
+div#header h2 span {
+  display: none;
+}
+
+/* Header LOGO */
+:root {
+  --header-logo: url("http://pseudo-scp-jp.wikidot.com/local--files/ukwhatn:test/white-logo.svg");
+}
+
+div#header {
+  background: var(--header-logo) 50% 15px no-repeat;
+  background-size: 100px auto;
+}
+
+@media (max-width: 580px) {
+  div#header {
+    background: var(--header-logo) 50% 45px no-repeat;
+    background-size: 70px auto;
+  }
+}
+
+/* Header Text */
+div#header h1 {
+  margin-left: unset;
+  padding: unset;
+  float: unset;
+  max-height: unset;
+}
+
+div#header h1 a {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+div#main-content {
+  position: static;
+}
+
+#u-fake-header-title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 900;
+  display: block;
+  position: absolute;
+  top: -65px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  z-index: 9;
+}
+
+/* Collapsible Search Area */
+#search-top-box {
+  width: unset;
+}
+
+#search-top-box-form::after {
+  position: absolute;
+  z-index: 2;
+  content: "\f002";
+  font-family: "FontAwesome";
+  top: 5px;
+  left: 7.5px;
+  font-size: 12px;
+  color: white;
+  pointer-events: none;
+}
+
+#search-top-box-input {
+  position: relative;
+  z-index: 1;
+  width: 19px;
+  height: 19px;
+  border-radius: 35%;
+  transition: .5s ease-out, z-index .1s step-start;
+  background: rgba(0, 0, 0, 1);
+}
+
+#search-top-box-input:hover {
+  background: rgba(34, 34, 34, 1)
+}
+
+#search-top-box input.empty {
+  color: transparent;
+}
+
+#search-top-box-input:focus {
+  z-index: 3;
+  width: 100px;
+  height: 19px;
+  border-radius: unset;
+  background: rgba(34, 34, 34, 1);
+}
+
+#search-top-box-form .btn {
+  width: 1px;
+  opacity: 0;
+  transition: .5s ease-out;
+}
+
+@media (max-width: 479px) {
+  #search-top-box {
+    top: 79px;
+    right: 9px;
+  }
+}
+
+/* Background */
+body {
+  background: rgba(37, 37, 37, 1);
+}
+
+/* Colors */
+body {
+  color: white;
+}
+
+a {
+  color: var(--c-accent);
+  text-shadow: 2px 1.5px 2px black;
+}
+
+a.newpage {
+  color: maroon;
+}
+
+#page-title, h1 {
+  color: var(--c-accent);
+  text-shadow: var(--c-accent-shadow);
+  font-family: 'Noto Serif JP', serif;
+}
+
+blockquote, .blockquote {
+  background: rgba(255, 255, 255, 0.05);
+  border: solid 0.2px rgba(255, 255, 255, 0.1)
+}
+
+/*Tabs*/
+#page-content .yui-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: unset;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.15);
+}
+
+#page-content .yui-nav li {
+  flex: 1 1;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+#page-content .yui-nav li a {
+  width: 100%;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#page-content .yui-nav a {
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+
+#page-content .yui-nav a:hover,
+#page-content .yui-nav .selected a,
+#page-content .yui-nav .selected a:focus,
+#page-content .yui-nav .selected a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+#page-content .yui-nav li * {
+  border: unset;
+}
+
+#page-content .yui-nav li a em {
+  padding 0;
+  top: unset;
+  padding: 0.4em 1em;
+}
+
+#page-content .yui-content {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#html-body .hovertip {
+  background: rgba(37, 37, 37, 1);
+  border: solid 0.5px rgba(255, 255, 255, .5);
+  color: white;
+}
+
+#html-body .hovertip .content .footnote {
+  color: black;
+}
+
+/* Side-Bar */
+#side-bar,
+#top-bar,
+#u-open-side-link,
+#u-close-side-link {
+  display: none;
+}
+
+#u-open-side-link a {
+  display: inline-block;
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+  border: solid 1px rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  background: rgba(30, 30, 30, 1);
+}
+
+#u-open-side-link a:hover {
+  background: rgba(50, 50, 50, 1);
+}
+
+#u-side-nav {
+  position: absolute;
+  top: 1.5em;
+  left: 1em;
+  float: left;
+  clear: left;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 400;
+}
+
+#u-side-nav hr {
+  margin: 0.25em 2em;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#u-side-nav p {
+  margin: 0;
+}
+
+#u-side-nav a,
+#u-side-nav a.newpage {
+  color: var(--c-accent);
+}
+
+#u-side-nav .side-heading {
+  width: 14em;
+  padding: 0.25em 0 0.25em 0.25em;
+  margin-bottom: 0.25em;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+  font-size: 120%;
+  font-weight: 700;
+  color: var(--c-accent);
+  text-shadow: var(--c-accent-shadow);
+}
+
+#u-side-nav .side-content a {
+  display: block;
+  box-sizing: border-box;
+  line-height: 2.5;
+  padding-left: 1em;
+  margin-left: .5em;
+  text-decoration: none !important;
+  transition: background 0.15s;
+  color: white;
+}
+
+#u-side-nav .side-content a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#u-side-nav .side-content .collapsible-block-unfolded-link a {
+  line-height: 2;
+  padding-left: 0;
+  margin-left: .5em;
+  padding-left: .5em;
+  color: white;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+  text-decoration: none !important;
+  background: none !important;
+}
+
+#u-side-nav .side-content br {
+  display: none;
+}
+
+#u-side-nav .collapsible-block-content {
+  margin-left: .5em;
+}
+
+#u-side-nav .scps .collapsible-block-content p {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+#u-side-nav .scps .collapsible-block-content a {
+  display: inline-block;
+  text-align: center;
+  flex: 1 1 40%;
+  padding-left: unset;
+  margin-left: unset;
+}
+
+@media(max-width:767px) {
+  #u-open-side-link {
+    display: block;
+  }
+
+  #u-close-side-link a {
+    display: block;
+    font-size: 0px;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 998;
+  }
+
+  #u-side-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 1em;
+    background: rgba(50, 50, 50, 1);
+    transform: translateX(-300px);
+    transition: transform 0.5s ease-out;
+    z-index: 999;
+    overflow-y: scroll;
+  }
+
+  #u-side-nav:target {
+    transform: translateX(0px);
+  }
+
+  #u-side-nav:target~#u-close-side-link {
+    display: block;
+  }
+}
+
+#odialog-container {
+  color: black;
+}
+
+/*決選投票ボックス*/
+.finalvoting {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.finalvoting_article {
+  box-sizing: border-box;
+  min-width: 250px;
+  max-width: 341px!important;
+  flex: 1 1 40%;
+  border: dashed .25px darkgray;
+  margin: .5em;
+  padding: 1em;
+}
+
+
+[[/code]]
+
+[!-- 決選投票モジュール用 --]
+[[code type="css"]]
+#navi-bar,
+#navi-bar-shadow,
+#header,
+#side-bar,
+#page-title,
+#breadcrumbs,
+#page-info,
+.page-watch-options,
+.page-options-bottom,
+.page-tags,
+#footer,
+#license-area,
+#footer-bar,
+.odialog-shader,
+.hide-embed,
+.hiddenDisclaimer {
+  display: none !important;
+}
+
+#main-content {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.owindow {
+  position: static !important;
+  width: 0px;
+  height: 0px
+}
+
+#ohandle-1 {
+  font-size: 0px !important;
+}
+
+.modal-header {
+  font-size: 0px !important;
+}
+
+.button-bar {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.page-rate-widget-box .rate-points {
+  background-color: #444;
+}
+
+.page-rate-widget-box a {
+  background-color: #ffffff;
+}
+[[/code]]
+[[/div]]

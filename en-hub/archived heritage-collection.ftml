@@ -1,0 +1,378 @@
+[[div class="heritage-notice"]]
+[[div style="float: left; padding: 8px 0;"]]
+[[image heritage-emblem.png]]
+[[/div]]
+[[div style="margin-left: 100px;"]]
+**SCP財団殿堂入りコレクション**はサイトの歴史と文化にとって重要であり、アイコンで簡単に識別できる公式の"栄誉の殿堂"です。 
+[[/div]]
+[[/div]]
+
+[[div style="max-width: 700px; margin: 0 auto;"]]
++ 必要条件
+
+殿堂入りコレクションのすべての記事には以下の必要条件を満たさなければなりません:
+
+# 記事はSCP財団メイン・リストとSCP財団ファン・コミュニティの両方にとって重要な存在でなければなりません。
+# 記事は最低3年以上の物で、好(ポジティブ)評価でなければなりません。
+# いつかその記事が番号指定から外されるとファン・コミュニティが混乱する危険の可能性があるとスタッフが推測出来る十分に象徴的な記事でなければなりません。
+
+必ずしもきちんとしたカノンを象徴する記事である必要はありませんが、一般的に広く認められた古典的または中心的な記事でなければなりません。 
+[[/div]]
+
+----
+
+[[module CSS]]
+.heritage-notice {
+border: dashed 2px #b00010; 
+border-radius: 10px; 
+width: 400px; 
+margin: 0 auto; 
+padding: 0 20px; 
+background: #fcfcf0 url(/local--files/heritage-collection-arc/hatch-black10i.png); 
+color: #331010; 
+min-height: 116px;
+}
+
+table.heritage {
+  border: 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 600px;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+table.heritage td {
+  vertical-align: top;
+}
+
+table.heritage td.title,
+table.heritage td.label {
+  border-right: solid 1px #999;
+  font-size: 16pt;
+  color: #999;
+  width: 200px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+table.heritage td.label {
+  font-size: 20pt;
+}
+
+table.heritage td.title {
+  padding-bottom: 20px;
+}
+table.heritage td.label {
+  font-weight: bold;
+}
+
+table.heritage td.entry {
+  padding: 6px 0 20px 10px;
+}
+
+table.heritage div.description {
+  font-size: 14pt;
+}
+table.heritage div.snippet {
+  font-style: italic;
+  font-size: 8pt;
+  color: #666;
+}
+table.heritage div.date {
+  font-weight: normal;
+  font-size: 7pt;
+}
+table.heritage div.snippet p {
+  margin: 5px 0;
+}
+table.heritage div.description p,
+table.heritage div.date p {
+  margin: 0;
+}
+
+@media (max-width: 599px) {
+.heritage-notice {
+padding: 0; 
+}
+
+table.heritage {
+width: 100%;
+}
+
+table.heritage td.title, table.heritage td.label {
+width: 40%;
+}
+
+table.heritage td.label {
+font-size: 15pt;
+}
+}
+[[/module]]
+
+[[table class="heritage" cellspacing="0"]]
+[[row]]
+[[cell class="title"]]
+2013部門
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-055]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+正体不明
+[[/div]]
+[[div class="snippet"]]
+"私にはアレがどんなものかわかりません。でも間違いなくありました。アレは何かこう、覚えていられないもので、とりあえず球の形はしていませんでした。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-076]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+"アベル"
+[[/div]]
+[[div class="snippet"]]
+"お願いします、上が隠す彼の存在、彼がしたこと。我々がしたこと。我々の過ちは皆が知るべきことです。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-087]]]
+[[div class="date"]]
+登録日: **2013年8月14日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+吹き抜けた階段
+[[/div]]
+[[div class="snippet"]]
+"音声記録によると最初のプラットフォームから約200m下から駄々をこねる子供の泣き声の様な音が確認されています。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-093]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+紅海の円盤
+[[/div]]
+[[div class="snippet"]]
+"この世界はすべて同じだと考えている、だけど俺が見る限りSCP-093の世界は1954年で終わっている。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-173]]]
+[[div class="date"]]
+登録日: **2013年8月14日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+彫刻
+[[/div]]
+[[div class="snippet"]]
+"コンクリートと鉄筋の材質でクライロン製スプレーを吹き付けられたかのような見た目をしています。SCP-173は生きており、とても敵対的です。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-231]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+特別職員要件
+[[/div]]
+[[div class="snippet"]]
+"最後に、我々財団の仕事は極めて不愉快な内容が多いです。しかし、犠牲を払って実行する価値は十分あります。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-239]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+ちいさな魔女
+[[/div]]
+[[div class="snippet"]]
+"どんな状況であろうと絶対に対象を目覚めさせるようなことはあってはなりません。対象を目覚めさせようと試みた職員は何者であろうと即座に処分されます。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-343]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+"神"
+[[/div]]
+[[div class="snippet"]]
+"更なるセキュリティーや安全予防措置を追加する試みは、SCP-343の性質のため不可能であり不必要です。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-500]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+万能薬
+[[/div]]
+[[div class="snippet"]]
+"幾度と無く実験を繰り返し、多種多様な材料で調剤したが錠剤を作ることはできませんでした。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-682]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+不死身の爬虫類
+[[/div]]
+[[div class="snippet"]]
+"SCP-682はできるだけ早く破壊しなければなりません。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-701]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+吊られた王の悲劇
+[[/div]]
+[[div class="snippet"]]
+"事実に直面しよう、ドクター。長い間これに関しての秘密は漏れていたのだ。そして、我々の業務において、10年おきに100人程度失うだけなら我々はラッキーだと判断せざるを得ない。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-882]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+機械
+[[/div]]
+[[div class="snippet"]]
+"スタッフの聴覚に問題が報告された場合は直ちに確認し、影響を受けた担当者は十分な心理検査を受け、その結果によっては別の施設への完全隔離または[消去済み]となります。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-914]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+ぜんまい仕掛け
+[[/div]]
+[[div class="snippet"]]
+"実験者は出力された全てのものについて責任を負います。実験によって引き起こされる死傷事件は、実験者は管理審査および懲戒処分の対象になります。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-963]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+不死の首飾り
+[[/div]]
+[[div class="snippet"]]
+"妙なことになったぞ。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[!--
+(Entry Template)
+[[row]]
+[[cell class="label"]]
+[[[SCP-]]]
+[[div class="date"]]
+登録日: **2013年12月20日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+
+[[/div]]
+[[div class="snippet"]]
+""
+[[/div]]
+[[/cell]]
+[[/row]]
+--]
+[[/table]]

@@ -1,0 +1,134 @@
+[[module css]]
+.page {
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
+
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
+.page p {
+    line-height: 20px;
+    margin: 0;
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** 財団探偵 ハブ
+**著者:** ©︎巌流島の戦い
+**作成年:** 2020
+[[include credit:end]]
+[[=]]
+@@ @@
+@@ @@
+##000080|やれやれ、また来たのか阿宮君。少しは自分で頭を捻らなければ成長しないよ？##
+@@ @@
+@@ @@
+##800000|まあそう言わずに、これでも十分悩んでから来たつもりです。##
+@@ @@
+@@ @@
+##000080|仕方ないな...今度は何が起きたんだい？話してみ給え。##
+@@ @@
+@@ @@
+##800000|はい、それがですね...##
+@@ @@
+・
+@@ @@
+・
+@@ @@
+・
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:6323156-1-4ufh/%E8%B2%A1%E5%9B%A3%E6%8E%A2%E5%81%B5.png width="50%"]]
+[[size 400%]]**財団探偵**[[/size]]
+@@ @@
+//Detective in Case Consultation room//
+----
+@@ @@
+[[size 200%]]≫**事件ファイル**[[/size]]
+@@ @@
+@@ @@
+[[div class="page"]]
+[[size 150%]]**[[[*http://scp-jp.wikidot.com/murder-on-d-house | D家の殺人事件]]]**[[/size]]
+@@ @@
+©[[*user shirasutaro-]]
+@@ @@
+
+[[/div]]
+
+[[div class="page"]]
+[[size 150%]]**[[[*http://scp-jp.wikidot.com/die-freikugel | Die Freikugel]]]**[[/size]]
+@@ @@
+©[[*user ogakuzu]]
+@@ @@
+
+[[/div]]
+
+[[div class="page"]]
+[[size 150%]]**[[[*http://scp-jp.wikidot.com/tasteless-closed-room | 無味乾燥な密室]]]**[[/size]]
+@@ @@
+©[[*user Ruka_Naruse]]
+@@ @@
+
+[[/div]]
+
+[[div class="page"]]
+[[size 150%]]**[[[*http://scp-jp.wikidot.com/walked-corpse | 歩いた死体]]]**[[/size]]
+@@ @@
+©[[*user NorthPole]]
+@@ @@
+
+[[/div]]
+
+@@ @@
+@@ @@
+[[size 150%]]≫**About this**[[/size]]
+[[/=]]
+[[tabview]]
+[[tab 登場人物]]
+* **阿宮** //Amiya//
+財団の新人職員。一般人からの通報等を仕分け、異常性の有無を判断する"判別部門"に就任している。
+仕事には熱心だが、新人故かツメが甘い部分もしばしばある。よく"相談室"に事件を持ち込む。
+@@ @@
+@@ @@
+* **吽野** //Uruno//
+財団の特殊顧問、簡易相談役、あるいは探偵。"判別部門"からある理由で転職し、様々な案件で発生する懸念点を解消する"相談室"に一人就任している。
+小さな案件なら安楽椅子の上で解決してしまうが、大きな事例であればフィールドワークに繰り出す事もしばしば。
+@@ @@
+@@ @@
+[[/tab]]
+[[tab 用語集]]
+* **判別部門** //Discriminant Analysis department//
+警察内部に潜入しているエージェントと連携を取り、異常存在の関与が疑われる事件を一般捜査から隔離しその異常性の是非を判別する部門。案件量の絶対数の多さから複数サイトに跨り設けられている比較的大規模な部門。
+@@ @@
+@@ @@
+* **相談室** //Case Consultation room//
+在籍者が吽野ただ一人の部門。その名の通り職員のさまざまな相談に乗ることが業務だ。ただし、ここで言う相談はあくまでも案件に関する相談であり、職場相談や人生相談とは全くの別物である。また、吽野はしばしば相談の域を超えて相談室の外へ赴くが、本来の業務にはそこまで組み込まれていない。在籍が吽野ただひとりである以上それを咎める者も居ないため半ば野放しと言っても過言ではない。
+なぜこのような特殊かつ例外的な部門が存在するのか、それを知る者は少ない。
+@@ @@
+@@ @@
+[[/tab]]
+[[tab シリーズ概要/執筆ガイド]]
+
+通常、探偵が解き明かすのは"一見すると不可解なものの、論理的に推理することが出来る事件"だが、このシリーズで扱うのは主に、"論理的には不可解な異常事件"である。
+
+探偵とその助手が事件に向き合う、その秩序とも形容できる様式美に異常存在という混沌を投じたこのシリーズだが、彼らの主な仕事は"異常が関わっているか否かの判別"、ひいては"様々な事例に潜む些細な違和感の解決"である。
+つまり実際には異常な存在が関わっていなくとも、非常に奇妙な事件であれば彼らの仕事足り得るし、その解決に動くのならばこのシリーズ足り得るのだ。裏を返せばそれ以外の要素は――例えば異常存在の犯人を捕まえるだとか――そういったことは全く以て重要ではない。
+
+極論探偵吽野と助手阿宮、この二人のどちらかが登場し、推理と解決という探偵的なアプローチを取ってさえいれば、このシリーズ"財団探偵"足り得ると考えて貰いたい。
+@@ @@
+@@ @@
+[[/tab]]
+[[/tabview]]

@@ -1,0 +1,326 @@
+[[include component:preview text=そう、あなたの新しい同僚はカモメ。この世界は実に奇妙なのです。財団へようこそ。 -- //カルヴィン研究員//]]
+
+[[include :scp-jp:component:info-ayers
+|lang=jp
+|page=bird
+|authorPage=http://www.scp-wiki.net/bird
+|comments=**チームバード ハブ/Team Bird Hub**
+[[*user notgull]]、[[*user Lt Flops]]、[[*user Ayers]]、[[*user Quantum Physician]]によるシリーズ。終末の日コンテストのために作成されました。
+]]
+
+[[module CSS]]
+/* INFO BOX */
+sup{
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
+}
+body{
+    --cutColour: #050505;
+    --barColour: #e6ac00;
+    color: rgb(12, 12, 12);
+}
+.translation_block, .u-faq, #u-author_block{ display:none; }
+
+/* HEADER */
+#header h1 a {
+    display: block;
+    margin: 0;
+    padding: 80px 0 25px;
+    line-height: 0;
+    max-height: 0;
+    color: transparent;
+    background: transparent;
+    font-family: 'Verdana', Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: none;
+    letter-spacing: 0.9px;
+}
+#header h1 a::before {
+    content: "鳥類部門";
+    color: white;
+    letter-spacing: -0.02em;
+    text-shadow: 3px 3px 5px black;
+}
+#header h2 span {
+    display: block;
+    margin: 0;
+    padding: 19px 0;
+    line-height: 0;
+    max-height: 0;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: none;
+}
+#header h2 span::before {
+    content: '我らの巣を取り戻すまで';
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+/* RATE MODULE */
+.page-rate-widget-box .rate-points {
+    background-color: #c90 !important;
+    border: solid 1px #c90;
+}
+.page-rate-widget-box .rateup,
+.page-rate-widget-box .ratedown {
+    background-color: #fffbf0;
+    border-top: solid 1px #c90;
+    border-bottom: solid 1px #c90;
+}
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a {
+    color: #c90;
+}
+.page-rate-widget-box .rateup a:hover,
+.page-rate-widget-box .ratedown a:hover {
+    background: #c90;
+    color: #fffbf0;
+}
+.page-rate-widget-box .cancel {
+    background-color: #c90;
+    border: solid 1px #c90;
+}
+.page-rate-widget-box .cancel a {
+    color: #664d00;
+}
+.page-rate-widget-box .cancel a:hover {
+    background: #c90;
+    color: #fffbf0;
+}
+
+/* FORMATTING */
+.bg-gradiant{
+    background-color: #fff;
+    background: linear-gradient(to bottom, #f7f7f7,#ffc81c,#ffc81c,#fff);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+hr{
+    display: block;
+    border: 0;
+    padding: 0;
+    margin: 1em 0;
+    height: 1px;
+}
+
+/* DIV BLOCKS */
+.header-image{
+    border: 3px solid rgb(12, 12, 12);
+    background: #eee;
+    padding: 0;
+    margin: .5em 0;
+}
+.showcase{
+    border: 3px solid rgb(12, 12, 12);
+    background: #fff;
+    padding: .5em;
+    margin: .5em;
+}
+.showcase hr{ background: #ffc818; height: 2px; }
+
+/* TABLES */
+blockquote,
+.article blockquote,
+.continued blockquote{
+    border: solid 1px #ffc818;
+    background: #fff;
+    padding: 0;
+}
+.article table.wiki-content-table,
+.continued table.wiki-content-table{
+    margin: 0 0 -1px;
+    width: 100%;
+}
+.article table.wiki-content-table th,
+.continued table.wiki-content-table th{
+    border: solid 1px #ffc818;
+    font-weight: normal;
+    padding: 0;
+}
+.article table.wiki-content-table td,
+.continued table.wiki-content-table td{
+    border: solid 1px #ffc818;
+    border-right: 0;
+}
+.continued table.wiki-content-table td{
+    border-top: 0;
+}
+[[/module]]
+
+[[div class="bg-gradiant"]]
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[div class="header-image"]]
+[[image http://scp-wiki.wdfiles.com/local--files/bird/teambird2.jpg]]
+
+[[div style="border-bottom: 3px solid rgb(12, 12, 12);"]]
+[[/div]]
+
+= [[size 85%]]**バナーは才能あふれる[[*user Mendelssohn]]のご厚意によるものです！彼(女)の他のアートを見たい方は[[[pendleton-miller-s-cognitoseward-collection|こちら]]]へ！**[[/size]]
+[[/div]]
+
+[[=]]
++ [[span style="color: rgb(12, 12, 12);"]]—[[/span]]
+[[/=]]
+
+[[div class="showcase"]]
+どういうわけだか、エジプト神話の神々、サメ殴りの世界、謎の吸魂装置、出来の悪い駄洒落、カモメの科学者たちはすべて、同じストーリーラインで仲良く共存できます。彼らが自身をチームバードと呼ぶのも当然です。プロットのブレーンストーミングは全員が最高にハイになってる時に行われたに違いありません。
+= —**[[*user Modulum]]、[[[scpdeclassified|SCPDeclassified]]]班長**
+[[/div]]
+
+[[=]]
++ [[span style="color: rgb(12, 12, 12);"]]—[[/span]]
+[[/=]]
+
+[[div class="showcase"]]
+[[=]]
+[[size 125%]]BE-クラス ”渡り鳥” 意識終焉シナリオ[[/size]]
+[[/=]]
+
+----
+
+[[include :scp-sandbox-3:image-zoom name=http://scp-wiki.wdfiles.com/local--files/task-forces/Eta4.png|caption=エータ-4 ”失せろトリ頭”|width=150px]]
+
+鳥たちにも神々がいることを御存知だろうか？ ああ、”神々”は私たちの使う言葉ではないね。我々は”最上級多能性実体”という言葉を使うことにはなっているが、それを強制する者はいない。だって面倒だろう？
+
+ともかく、ある日我々はその1柱を怒らせるような何かをしでかしてしまった。神は大変お怒りになられ、名もしれぬ土地の尊大な王位から腰を上げ、地球上の人類に鳥の心を与えて一掃しようとしたのだ。それは上手くいってしまった。そして今や我々は皆おかしくなってしまったと考えている。
+
+我々が何者かだと？ 我々は機動部隊エータ-4、またの名を”失せろトリ頭/Begone Thoth”。メディラに誓って言ってやろう、この名前に決めた野郎を探し出してつついてやると。話が脱線したね。我々の仕事は旧財団の使命を守り通すこと。70億人の人間、とある神、メディラの知る無数の異常たち(一部はトート本鳥によるものだ)──それらに立ち向かう75羽の鳥。それが我々だ。当然オッズは厳しいものだ。だが我々には頭脳、決意、そしてありったけのバードパワーがあるのだよ。きちんと上手くやれるなら、我々はこの終焉を止められる。
+
+[[>]]
+メディラよ、我ら皆を救いたまえ。
+[[/>]]
+
+----
+
+[[>]]
+—フレデリック・ホイガル博士(PhD)
+//鳥類部門長//
+[[/>]]
+[[/div]]
+
+[[=]]
++ [[span style="color: rgb(12, 12, 12);"]]—[[/span]]
+[[/=]]
+
+[[div class="showcase" style="margin-bottom: 4%;"]]
+
+----
+
+[[=]]
+++ シーズン1
+++ ”鳥類爆発/バーデミック”
+++++ 主要ストーリーライン
+[[/=]]
+
+----
+
+__[[size 110%]]**必読**[[/size]]__
+
+[[div class="article"]]
+> ||||**[[[scp-3095|SCP-3095 (Bird is the Word)]]]**||by **[[*user notgull]]**||
+[[/div]]
+
+__[[size 110%]]**パート1: 終末の日**[[/size]]__
+
+[[div class="article"]]
+> ||**1.**||**[[[scp-3662|SCP-3662 (終末時計)]]]**||by **[[*user Ayers]]**||
+> ||**2.**||**[[[scp-3296|SCP-3296 (The Drifter)]]]**||by **[[*user notgull]]**||
+> ||**3.**||**Tale: [[[join-the-flock|群れる]]]**||by **[[*user notgull]]**||
+> ||||||**推奨読書: [[[scp-2785|SCP-2785]]]** by **[[*user notgull]]**||
+> ||**4.**||**Tale: [[[tales-of-the-automaton-the-big-birdocalypse|Tales of the Automaton: The Big Birdocalypse]]]**||by **[[*user notgull]]**||
+> ||**5.**||**[[[scp-3362|SCP-3362 (強制的自己挿入)]]]**||by **[[*user notgull]]**||
+[[/div]]
+
+__[[size 110%]]**幕間**[[/size]]__
+
+[[div class="continued"]]
+> ||**6.**||**GoIフォーマット: [[[spc-507|SPC-507 (The Bigger Boat)]]]**||by **[[*user Lt Flops]]**||
+[[/div]]
+
+__[[size 110%]]**パート2: 渡り鳥**[[/size]]__
+
+[[div class="continued"]]
+> ||**7.**||**[[[scp-3570|EE-3570 (Umbral Ultimatum)]]]**||by **[[*user Lt Flops]]**||
+> ||**8.**||**GoIフォーマット: [[[the-sacred-djehuti|The Sacred Djehuti]]]**||by **[[*user Lt Flops]]** and **[[*user Ayers]]**||
+> ||**9.**||**[[[scp-3632|SCP-3632 (Nibirdu)]]]**||by **[[*user Quantum Physician]]**||
+> ||**10.**||**Tale: [[[avian-anthology-i|Avian Anthology I]]]**||by **Team Bird**||
+> ||**11.**||**Tale: [[[umbral-migratory-sequence|UMBRAL MIGRATORY SEQUENCE]]]**||by **[[*user Lt Flops]]**||
+> ||**12.**||**Tale: [[[avian-anthology-ii|Avian Anthology II]]]**||by **Team Bird**||
+[[/div]]
+
+[[size 80%]]チームバードは全くクソみてえなチームだ[[/size]]
+[[/div]]
+
+[[div class="showcase" style="margin-bottom: 4%;"]]
+
+----
+
+[[=]]
+++ 間劇
+++++ チームバード世界の物語
+[[/=]]
+
+----
+
+[[div class="continued"]]
+> ||||**GoIフォーマット: [[[corncrake-of-destiny|運命のウズラクイナ]]]**||by **[[*user Uncle Nicolini]]**||
+> ||||**[[[scp-4688|SCP-4688 (Manipulative Bike Helmets)]]]**||by **[[*user Mew-ltiverse]]** and **[[*user notgull]]**||
+> ||||**Tale: [[[erics-journal|Eric's Journal]]]**||by **[[*user Mew-ltiverse]]** and **[[*user notgull]]**||
+[[/div]]
+[[/div]]
+
+[[div class="showcase"]]
+
+----
+
+[[=]]
+++ シーズン2
+++ "バーデミック2: ショック&テラー"
+++++ チームバードアンソロジー
+[[/=]]
+
+----
+
+[[div class="article"]]
+> ||||**Tale: [[[the-scent-of-a-toaster|The Scent of a Toaster]]]**||by **[[*user notgull]]**||
+> ||||**Tale: [[[my-empire-of-birds|My Empire of Birds]]]**||by **[[*user notgull]]**||
+> ||||**[[[scp-4248|SCP-4248 (Alphabet and Omega)]]]**||by **[[*user notgull]]**||
+> ||||**Tale: [[[document-recovered-from-a-parallel-universe|Document recovered from a Parallel Universe]]]**||by **[[*user notgull]]**||
+> ||||**前日譚: [[[scp-4795|SCP-4795 (Feathered F(r)iends)]]]**||by **[[*user Mew-ltiverse]]** and **[[*user Lt Flops]]**||
+> ||||**Tale: [[[Three Feet Under I]]]**||by **[[*user notgull]]**||
+> ||||**Tale: [[[Three Feet Under II]]]**||by **[[*user notgull]]**||
+> ||||**Tale: [[[Three Feet Under III]]]**||by **[[*user notgull]]**||
+[[/div]]
+
+[[/div]]
+
+[[=]]
++ [[span style="color: rgb(12, 12, 12);"]]—[[/span]]
+[[/=]]
+
+[[div class="showcase"]]
+__[[size 110%]]**ここにあるページを全部は読めない/読みたくない場合はどうすればいいですか？**[[/size]]__
+
+チームバードの公式なマチェーテ順は以下の通り:
+
+**[[[scp-3570|EE-3570]]]** ▶ **[[[avian-anthology-i|Avian Anthology I]]]** ▶ **[[[umbral-migratory-sequence|UMBRAL_MIGRATORY_SEQUENCE]]]** ▶ **[[[avian-anthology-ii|Avian Anthology II]]]**
+
+あなたのような方のため、EE-3570がシナリオを要約してくれることでしょう。次に、Avian AnthologiesとUmbral Migratoryにはすべての活動が載っています。お望みなら、あるいは//心底//時間が惜しいのなら、SCP-3095は読み飛ばしても構いません。SCP-3095を要約すれば、”財団のため働く科学者の鳥たち”といえます。
+
+でも時間があるのでしたら、他の記事も読むことを強く推奨します。この世界にもっと深みを与えてくれるでしょうし、それに本当に、//本当//によい記事たちですから！
+[[/div]]
+
+,,ハブ作成: [[*user Lt Flops]] & [[*user notgull]],,
+,,チームバードがベストチームだ,,
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[/div]]

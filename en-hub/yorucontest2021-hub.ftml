@@ -1,0 +1,776 @@
+[[div class="saying"]]
+= 夏は夜。月の頃はさらなり。
+- 清少納言『枕草子』
+[[/div]]
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:2712598-3-ondf/yorucon-01.png]]
+----
+
++ 結果発表
+
+[[module css]]
+.resultWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.resultWrapper > div {
+  text-align: center;
+  min-width: 135px;
+  line-height: 1.5em;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.resultWrapper > div.resultFirst {
+  flex: 0 0 100%;
+}
+
+.resultWrapper > div.resultOthers {
+  flex: 1 0 30%;
+}
+
+@media(max-width:458px) {
+  .resultWrapper > div.resultOthers.resultSecond {
+    flex: 1 0 100%;
+  }
+}
+
+.resultWrapper > div.resultNonSCP {
+  flex: 1 0 45%;
+}
+
+.resultWrapper > div > span {
+  display: inline-block;
+}
+
+.resultWrapper > div > span.resultTitle {
+  font-size: 120%;
+  font-weight: bold;
+  margin: 0.25em 0;
+}
+
+.resultWrapper > div.resultFirst > span.resultTitle {
+  font-size: 140%;
+}
+
+.resultWrapper > div > span.resultLink {
+  font-size: 135%;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.resultWrapper > div > span.resultLink {
+  font-size: 135%;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.resultWrapper span.resultLink a {
+  color: var(--accent-color)!important;
+}
+
+.resultWrapper > div > span.resultAuthor {
+  margin: 0.25em 0;
+}
+
+.resultWrapper > div > span.resultPoints {
+  margin: 0.25em 0;
+}
+[[/module]]
+
+[[=]]
+++ 闇夜部門
+[[/=]]
+
+[[div_ class="resultWrapper"]]
+
+[[div_ class="resultFirst"]]
+[[span class="resultTitle"]]金賞[[/span]]
+[[span class="resultLink"]][[[scp-2332-jp|]]][[/span]]
+[[span class="resultAuthor"]][[*user Fennecist]][[/span]]
+[[span class="resultPoints"]]+168 (93+75)[[/span]]
+[[/div]]
+
+[[div_ class="resultOthers resultSecond"]]
+[[span class="resultTitle"]]銀賞[[/span]]
+[[span class="resultLink"]][[[scp-2644-jp|]]][[/span]]
+[[span class="resultAuthor"]][[*user tsukiyomizuku]][[/span]]
+[[span class="resultPoints"]]+123 (91+32)[[/span]]
+[[/div]]
+
+[[div_ class="resultOthers"]]
+[[span class="resultTitle"]]銅賞[[/span]]
+[[span class="resultLink"]][[[scp-2931-jp|]]][[/span]]
+[[span class="resultAuthor"]][[*user mitan]][[/span]]
+[[span class="resultPoints"]]+155 (119+36)[[/span]]
+[[/div]]
+
+[[/div]]
+
+----
+
+[[=]]
+++ 月夜部門
+[[/=]]
+
+[[div_ class="resultWrapper"]]
+
+[[div_ class="resultFirst"]]
+[[span class="resultTitle"]]金賞[[/span]]
+[[span class="resultLink"]][[[hotaruikenohotorinite|]]][[/span]]
+[[span class="resultAuthor"]][[*user mojamoja]][[/span]]
+[[span class="resultPoints"]]+162 (90+72)[[/span]]
+[[/div]]
+
+[[div_ class="resultOthers resultSecond"]]
+[[span class="resultTitle"]]銀賞[[/span]]
+[[span class="resultLink"]]該当なし[[/span]]
+[[/div]]
+
+[[div_ class="resultOthers"]]
+[[span class="resultTitle"]]銅賞[[/span]]
+[[span class="resultLink"]][[[junen|]]][[/span]]
+[[span class="resultAuthor"]][[*user pear-qu]][[/span]]
+[[span class="resultPoints"]]+138 (128+9)[[/span]]
+[[/div]]
+
+[[/div]]
+
+----
+
+[[=]]
+++ 夕闇部門
+[[/=]]
+
+[[div_ class="resultWrapper"]]
+
+[[div_ class="resultFirst"]]
+[[span class="resultTitle"]]金賞[[/span]]
+[[span class="resultLink"]][[[times-of-day|]]][[/span]]
+[[span class="resultAuthor"]][[*user Dr_Knotty]][[/span]]
+[[span class="resultPoints"]]+182 (122+60)[[/span]]
+[[/div]]
+
+[[div_ class="resultOthers resultSecond"]]
+[[span class="resultTitle"]]銀賞[[/span]]
+[[span class="resultLink"]][[[news4pamwac-kaguya|]]][[/span]]
+[[span class="resultAuthor"]][[*user indonootoko]][[/span]]
+[[span class="resultPoints"]]+120 (120+0)[[/span]]
+[[/div]]
+
+[[div_ class="resultOthers"]]
+[[span class="resultTitle"]]銅賞[[/span]]
+[[span class="resultLink"]][[[go-go-go-and-gos-on|]]][[/span]]
+[[span class="resultAuthor"]][[*user hey-kounoike]][[/span]]
+[[span class="resultPoints"]]+95 (77+18)[[/span]]
+[[/div]]
+
+[[/div]]
+
+----
+
+[[collapsible show="+ 最終結果一覧"]]
+
+++ 闇夜部門
+
+# [[[scp-2332-jp|]]] by [[user fennecist]] : 168(記事:93 + 宵pt:75)
+# [[[scp-2931-jp|]]] by [[user mitan]] : 155(記事:119 + 宵pt:36)
+# [[[scp-2644-jp|]]] by [[user tsukiyomizuku]] : 123(記事:91 + 宵pt:32)
+# [[[scp-2110-jp|]]] by [[user crow-109]] : 85(記事:62 + 宵pt:23)
+# [[[scp-2170-jp|]]] by [[user kankan]] : 66(記事:98 + 宵pt:-32)
+# [[[scp-2251-jp|]]] by [[user suamax]] : 54(記事:72 + 宵pt:-18)
+# [[[scp-2520-jp|]]] by [[user ponhiro]] : 35(記事:64 + 宵pt:-29)
+# [[[scp-2655-jp|]]] by [[user stengan774]] : 7(記事:70 + 宵pt:-63)
+
+= @@----@@
+
+# [[[scp-2823-jp|]]] by [[user solvex]] : 54
+# [[[scp-2682-jp|]]] by [[user nemo111]] : 54
+# [[[scp-2804-jp|]]] by [[user kyougoku08]] : 42
+# [[[scp-959-jp|]]] by [[user stengan774]] : 40
+# [[[enderman-desu-s-proposal|]]] by [[user enderman-desu]] : 39
+# [[[scp-1847-jp|]]] by [[user ykamikura]] : 37
+# [[[scp-2433-jp|]]] by [[user stengan774]] : 31
+# [[[meshiochislash-s-proposal-j|]]] by [[user meshiochislash]] : 31
+# [[[scp-2986-jp|]]] by [[user eiansakashiba]] : 27
+# [[[scp-2460-jp|]]] by [[user sanks269]] : 26
+# [[[scp-1468-jp|]]] by [[user izumi-sngw]] : 22
+# [[[scp-2610-jp|]]] by [[user teruteru-5]] : 22
+# [[[scp-2751-jp|]]] by [[user p51]] : 16
+# [[[scp-2798-jp-ex|]]] by [[user first-man]] : 12
+# [[[scp-2502-jp|]]] by [[user solvex]] : 11
+# [[[scp-2675-jp|]]] by [[user carbon13]] : 10
+# [[[scp-2727-jp|]]] by [[user rokurouru]] : 10
+# [[[scp-893-jp-ex|]]] by [[user wagnascousin]] : 4
+# [[[scp-2608-jp|]]] by [[user witherite]] : 2
+
+----
+
+
+++ 月夜部門
+
+# [[[hotaruikenohotorinite|]]] by [[user mojamoja]] : 162(記事:90 + 宵pt:72)
+# [[[junen|]]] by [[user pear-qu]] : 138(記事:129 + 宵pt:9)
+# [[[solvex-s-tale-009|]]] by [[user solvex]] : 124(記事:69 + 宵pt:55)
+# [[[night-is-coming|]]] by [[user mitan]] : 96(記事:77 + 宵pt:19)
+# [[[our-polar-lights|]]] by [[user renerd]] : 77(記事:53 + 宵pt:24)
+# [[[forgot-how-to-sing|]]] by [[user watazakana]] : 73(記事:61 + 宵pt:12)
+# [[[tokeru|]]] by [[user crow-109]] : 39(記事:57 + 宵pt:-18)
+# [[[eightpair|]]] by [[user dr-kudo]] : 39(記事:58 + 宵pt:-19)
+
+= @@----@@
+
+# [[[good-bye|]]] by [[user nemo111]] : 47
+# [[[crossword-puzzle-of-yorucontest2021|]]] by [[user renerd]] : 45
+# [[[my-birthday|]]] by [[user cat-eyes]] : 45
+# [[[observable-present|]]] by [[user meshiochislash]] : 43
+# [[[odss-oneshot-part5|]]] by [[user 1nar1]] : 41
+# [[[it-is-not-the-sun|]]] by [[user taga49]] : 33
+# [[[chiyou|]]] by [[user k-cal]] : 31
+# [[[byakuya-yumeututu|]]] by [[user aisurakuto]] : 29
+# [[[road-of-curse-at-night|]]] by [[user jiraku-mogana]] : 29
+# [[[waraizemi|]]] by [[user usubaorigeki]] : 29
+# [[[red-dust|]]] by [[user meshiochislash]] : 29
+# [[[uoo-zenzenomoidasenai-notyetdr|]]] by [[user notyetdr]] : 28
+# [[[shita|]]] by [[user mitan]] : 28
+# [[[mirror-or-window|]]] by [[user 1nar1]] : 26
+# [[[no-answer-jp|]]] by [[user yagisawaan]] : 25
+# [[[dropping-into-the-night|]]] by [[user jiraku-mogana]] : 25
+# [[[faint-light|]]] by [[user northpole]] : 23
+# [[[planning-suicide-in-the-night|]]] by [[user eiansakashiba]] : 22
+# [[[your-ears|]]] by [[user karathh]] : 19
+# [[[fear-of-the-dark|]]] by [[user harvester-blandish]] : 19
+# [[[to-the-setting-of-the-sun|]]] by [[user ruka-naruse]] : 17
+# [[[yoruno-tobari-1|]]] by [[user yoruno-tobari]] : 16
+# [[[those-who-come-on-a-snowy-night|]]] by [[user solid-pp]] : 14
+# [[[bakekuzira|]]] by [[user usubaorigeki]] : 14
+# [[[nanimitenndatemee|]]] by [[user usubaorigeki]] : 14
+# [[[rainy-nocturne|]]] by [[user 29mo]] : 11
+# [[[tale-kaya|]]] by [[user marli1147]] : 10
+# [[[str0016|]]] by [[user str0717]] : 9
+# [[[midnight-so-bright|]]] by [[user tolpo]] : 9
+# [[[skeleton-are-here|]]] by [[user karkaroff]] : 6
+# [[[final-world|]]] by [[user northpole]] : 5
+# [[[fighting-mahjong-tiles-in-the-dark-night|]]] by [[user tateito]] : 3
+
+----
+
+++ 夕闇部門
+
+# [[[times-of-day|]]] by [[user notyetdr]] : 182(記事:122 + 宵pt:60)
+# [[[news4pamwac-kaguya|]]] by [[user indonootoko]] : 120(記事:120 + 宵pt:0)
+# [[[go-go-go-and-gos-on|]]] by [[user hey-kounoike]] : 95(記事:77 + 宵pt:18)
+# [[[yamizushi-madscience-483|]]] by [[user jiraku-mogana]] : 94(記事:54 + 宵pt:40)
+# [[[corpse-night-dream|]]] by [[user amamiel]] : 85(記事:51 + 宵pt:34)
+# [[[critter-profile-tantata|]]] by [[user wagnascousin]] : 50(記事:79 + 宵pt:-29)
+# [[[news4pamwac-youjo|]]] by [[user indonootoko]] : 46(記事:79 + 宵pt:-33)
+# [[[koigarezaki-news-19980714-veil|]]] by [[user mishary]] : 41(記事:54 + 宵pt:-13)
+
+= @@----@@
+
+# [[[zetetic-bulletin-the-revival-of-st-chopin|]]] by [[user stengan774]] : 27
+# [[[koigarezaki-news-20210809|]]] by [[user kumer1090]] : 26
+# [[[eden-leap-3131|]]] by [[user eiansakashiba]] : 15
+# [[[murder-at-the-restaurant-in-kinki|]]] by [[user jiraku-mogana]] : 15
+
+----
+
+[[/collapsible]]
+
+[[collapsible show="+ エントリー作品一覧"]]
+
++ エントリー作品一覧
+
+++ 闇夜部門
+[[div style="margin: 10px auto;"]]
+[[module ListPages separate="no" category="_default"  tags="+夜コン21 scp -ハブ" perPage="100" order="rating desc"]]
+# [[size 120%]]%%title_linked%%[[/size]] [[size 105%]]//by// %%created_by%% : %%rating%%点 [[/size]]
+[[/module]]
+[[/div]]
+
+++ 月夜部門
+[[div style="margin: 10px auto;"]]
+[[module ListPages separate="no" category="_default"  tags="+夜コン21 tale -ハブ" perPage="100" order="rating desc"]]
+# [[size 120%]]%%title_linked%%[[/size]] [[size 105%]]//by// %%created_by%% : %%rating%%点 [[/size]]
+[[/module]]
+[[/div]]
+
+++ 夕闇部門
+[[div style="margin: 10px auto;"]]
+[[module ListPages separate="no" category="_default"  tags="+夜コン21 goi-format -ハブ" perPage="100" order="rating desc"]]
+# [[size 120%]]%%title_linked%%[[/size]] [[size 105%]]//by// %%created_by%% : %%rating%%点 [[/size]]
+[[/module]]
+[[/div]]
+[[/collapsible]]
+
+----
+
+
+[[=]]
+**投稿期間**
+7/26 0:00 ～ 8/16 23:59
+
+**投票期間**
+8/17 0:00 ～ 8/23 23:59
+
+**決戦投票期間**
+8/24 0:00 ～ 8/30 23:59
+[[/=]]
+
++++ テーマ: 「夜」
+夜という漢字が含有するありとあらゆる夜を対象とします。
+
++++ 部門
+
+[[div class="contents"]]
+以下3部門を設けます。それぞれ優勝者は一名です。
+[[div style="font-size:1.2em"]]
+# 闇夜部門 _
+ //scp//タグが付く記事を対象とします。
+# 月夜部門 _
+ //tale//タグが付く記事を対象とします。
+# 夕闇部門 _
+ //goi-format//タグが付く記事を対象とします。
+[[/div]]
+
+----
+
+今回のコンテストでは、SCP、tale、GoIフォーマットをそれぞれ内容によってふたつのグループに分類します。分類は以下の通りです。
+
+__闇夜部門__
+# オブジェクトクラスがSafe, Euclid, Keterいずれかであり、001提言ではなく、かつ、フォーマットスクリューではないSCP記事です。
+# 上記グループの対象とならないSCP記事(Joke, Explained等を含む)です。
+
+__月夜部門__
+# 新聞や報告書のような、何らかのフォーマットに則ったTale記事を対象とする賞です。
+# 上記グループの対象とならない一般的な小説形式に近いTale記事です。
+
+__夕闇部門__
+# SCP-JPオリジナルの要注意団体が作成したGoIフォーマット記事です。
+# 上記グループの対象とならないGoIフォーマット記事です。
+
+
+
+[[div style="box-shadow: 10px 10px 6px -6px rgba(0,0,0,0.75);padding: 2em;border: 1px solid;margin:3em 0;"]]
+++ エントリー条件
+
+* 期間中のエントリー取り消しは可能です。
+
+
+* **再エントリー:** エントリーを取り消した場合の再エントリーは可能です。
+
+エントリーの際は以下の内容に合意したとみなします。
+
+* コンテスト終了後のエントリー取り消しは原則不可とする。
+
+* 当コンテストの入賞を辞退した場合**永久欠格**となり、コンテスト参加の資格を将来にわたって喪失する。これは辞退した時点で取り消しが出来ないものとする。
+
+* 当コンテストの入賞作品が辞退等で空位となった場合、次点作品が繰り上げで受賞する。繰り上げ受賞を辞退した場合、同様にコンテスト参加の永久欠格とする。
+
+* コンテスト入賞作品の以下のような改稿は、サイトスタッフによる議論のうえ、コンテスト参加の永久欠格となる場合がある。
+ # 白紙化等の即時削除になるような改稿、または低評価削除を誘導するような内容への改稿。
+ # コンテストの趣旨を支える部分を削除することを含む、元々の記事のコンセプトからの逸脱が著しい改稿。
+
+* 上記1,2がサイトスタッフによる議論の結果コンテスト参加の永久欠格の対象になった場合、サイトスタッフは永久欠格処分を行う前に、対象者へ「永久欠格とする理由の説明」及び「改稿差し戻しの推奨」を行わなければならない。2週間の間に改稿の差し戻しが行われなかった場合、永久欠格の処分を行う。
+
+[[/div]]
+
+
++ エントリー方法
+
+[[div class="contents"]]
+夜のコンテストにエントリーすることをディスカッションに明記の上、「//夜コン21//」タグをつけてください。
+
+今回のコンテストの参加記事は、通常の評価モジュールの代わりにクレジット付き評価モジュールの使用を義務付けられます。以下をコピー&ペーストし、内容を適切に改変して使用してください。
+
+> @@[[include credit:start]]@@
+> @@**タイトル:**@@ SCP-XXXX-JP - タイトル
+> @@**著者:**@@ ©︎@@[[*user@@ **あなたのアカウント名**@@]]@@
+> @@**作成年:**@@ 2021
+> @@[[include credit:end]]@@
+
+[[/div]]
+
+++++ 他言語版記事のエントリーについて
+今回のコンテストでは、他言語版SCPサイトの記事もエントリーできます。以下の条件を確認して、訳文が用意できたらスタッフに連絡してください。
+* エントリーする記事は日本語に翻訳され、訳文はSCP-JPに翻訳記事として投稿されなくてはなりません。このエントリー作品は通常の翻訳記事として扱われます。DVによって削除されることはなく、内容へのフィードバックは元言語版のサイトで行われるべきです。
+* エントリーする記事は、他言語版サイトにおける原記事の投稿日時、SCP-JPにおける翻訳記事の投稿日時のいずれもがエントリー期間内でなければなりません。
+* あなたが翻訳者であれば、記事の原作者にこのコンテストにエントリーするという同意を得てください。
+* コンテスト運営委員会が記事の翻訳を請け負ったり、翻訳者をあてがうようなことはありません。
+* 下書き内容へのフィードバックは各言語版のサイトで受けてください。翻訳を通してSCP-JPで下書き批評を受ける必要はありません。翻訳に関する査読は通常通り受けることができます。
+* 投稿数に制限はありません。
+
++++ 決選投票
+
+[[div class="contents"]]
+8/24に各部門の上位8作品であることを優勝条件とします。この時点で優勝条件を満たすものが1記事の場合、優勝者決定とします。
+
+この際、優勝条件を満たした記事複数の場合、決選投票フェーズに移行します。
+[[/div]]
+
+[[=]]
+[[size 150%]]
+決選投票フェーズ
+[[/size]]
+[[/=]]
+優勝条件を満たす記事には決選投票用Rateモジュールがつけられます。優勝条件を満たした記事それぞれに紐付けされており、記事内部のRateモジュールとは独立のVote数を持ちます。
+
+決選投票用RateモジュールはWikiのメンバーならば誰でも操作できます。投票に際しては、記事が__「夜」のコンテストの受賞作品__にふさわしいか否かということを判断した上で、それをVoteの形で表明してください。複数投票は可能です。
+
+8/31時点での、記事本来のRateモジュールのVote数と、決選投票用RateモジュールのVote数を合わせた数を得点とします。
+
+入賞については、決選投票期間終了時点において、金賞は各部門それぞれ最も得点の高い作品、銀賞は金賞とは別のグループの最も得点が高かった作品、銅賞は、金賞銀賞を除いた最も得点の高い作品にそれぞれ送られます。また各部門賞毎に専用の評価モジュールが付与されます。
+
+金賞を受賞した作品が、その部門における優勝作品になります。
+[[/div]]
+
+[[=]]
+[[size 150%]]
+その他
+[[/size]]
+[[/=]]
+* エントリー作品には通常の削除のガイドラインが適用されます。
+* 通常通りサンドボックスⅢが利用できます。下書き批評を募る際は、ページコンソールからジャンル「コンテスト」を含んだ選択をしてください。
+* DiscordのSCP-JPサーバーも開放されており、そちらで批評を募ることも可能です。利用ルールはサイトの[http://scp-jp.wikidot.com/discord-guideline ディスコードに関するルールとポリシー]に準じます。Discord自体の利用方法は各自で調べてください。
+* **投票者の方へ:** 記事へのVoteは決選投票以外、[[[vote-policy|Voteポリシー]]]に従い、通常の記事の評価と同じ基準で行ってください。
+* コンテスト最終日が近くなってきたからといって、優勝者を操作するためにVoteをコロコロ変えるのは、決選投票Rateモジュール以外に認められません。やめてください。
+* ルールを満たしていないと思われる作品を見つけた場合、早めに運営までご一報ください。
+* 投稿作品がルールを満たしていないと運営により判断された場合、警告と共にエントリーの取り消しが行われる場合があります。(エントリーの取り消しについては運営委員での厳正な調査の元、その必要があると判断された場合のみ行われます)
+* 受賞する範囲の作品で同点のものがある場合、決選投票での評価が高い方を優先して高い順位とします。また通常評価、決選投票での評価がともに同点だった場合は常任委員、専任委員による投票で順位が決定されます。またこの投票にサイトスタッフは含まれません。
+
+++ Q&A
+> **Q:** 記事は書けたけど夜っぽいかどうか不安です。
+> **A:** 例え夜っぽく無くても"夜"だと言い張ることが可能です。
+
+> **Q:** とっても面白い記事があったんだけど、全然夜っぽくない。どうすれば良いの？
+> **A:** その場合は記事内部のRateモジュールはアップボートしてください。もしその記事が優勝条件を満たしたならば、決選投票用Rateモジュールでダウンボートしてください。
+
+> **Q:** フォーマットスクリューには[*http://scp-jp.wikidot.com/classification-committee-memo ACS]とかは含みますか？
+> **A:** 含みません。記事の内容に関わらず適用できるためです。
+
+> **Q:** 共著はアリですか？
+> **A:** アリです。
+
+> **Q:** 投稿した後で参加って出来ますか？
+> **A:** 出来ます。ただし「その記事がコンテストの投稿期間中に投稿されたこと」「投稿期間中に参加表明をしたこと」この2つの条件が満たされている場合のみ認められます。
+
+> **Q:** 8位の記事が同率で複数ある場合はどうなりますか？
+> **A:** その場合は該当する記事すべてに決戦投票が行われます。つまり上位8作品を超える場合があります。
+
+> **Q:** ルールを満たしていない作品ってどういうものですか?
+> **A:**. 以下のような極端な例が該当します。
+> * 夜という文字が登場する**だけ**。
+> * 夜の場面が一部描かれている**だけ**。
+> * 夜の画像が貼られている**だけ**。
+> この例のみならず運営によってルールに即していないと判断される場合はあります。ただしあくまで上記は例であり、類似するような記事であっても十分テーマに沿っていると判断されれば問題はありません。
+
+> **Q:** 専任委員による投票ってどんな基準ですか？
+>
+> **A:** 投票の基準は決選投票と同じ基準で行われます。また投票は一人一票であり、該当作品の著者はこの投票に参加しません。
+
+その他、コンテストに関する質問、要望、連絡は--このページのディスカッションか、--wikidotの不調によりディスカッションが見られない場合があるため、SCP-JPイベント委員会Discordまでご連絡ください。
+
+----
+
+[[collapsible show="提供していただいたアートワーク" hide="閉じる"]]
+
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A4137401-6-hx13/%E5%A4%9C%E3%82%B3%E3%83%B3%E3%83%AD%E3%82%B4%E6%A1%88.png]]
+
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A7452090-7-bj9p/%E5%A4%9C%E3%82%B3%E3%83%B3%E3%82%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A1%88%E8%BB%BD%E9%87%8F%E5%8C%96%E7%89%88.png]]
+
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A5818807-5-03kt/nightconart]]
+
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A2577572-242-bt2h/yorucon-01.png]]
+
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A4864771-6-embs/%E5%A4%9C%E3%82%B3%E3%83%B316_9.png]]
+
+[[/collapsible]]
+
+[!--
+[[code type="css"]]
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600&display=swap');
+
+:root {
+    --accent-color: #fff541;
+    --dark-accent-color: #c0b83a;
+    --bg-color: #1c1d31;
+}
+
+a,
+a.newpage {
+    color: var(--dark-accent-color);
+}
+
+hr {
+    margin: 1em 2em;
+    padding: 0;
+    height: 1px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+div#container-wrap {
+    background: unset;
+    background-color: var(--bg-color);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#header {
+    background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A3396310-51-e7xd/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#header h1, #header h2 {
+    display: none;
+}
+
+#top-bar ul {
+    display: none;
+}
+
+#search-top-box {
+    display: none;
+}
+
+
+/*
+#top-bar > div > ul {
+    position: absolute;
+    top: 21px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#top-bar > div > ul > li {
+    flex: 1 1 30%;
+}
+*/
+
+#side-bar .side-block {
+    border: solid 1px rgba(255, 255, 255, 0.2) !important;
+    border-radius: unset !important;;
+    box-shadow: unset !important;;
+    background: transparent !important;;
+}
+
+#side-bar .heading {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+#side-bar .side-block:not(.sns) div.menu-item img {
+    visibility: hidden;
+    width: 0.5em;
+}
+
+#side-bar .collapsible-block-folded {
+    background: unset;
+}
+
+#side-bar .collapsible-block-unfolded-link {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+    #side-bar {
+        background-color: var(--bg-color);
+    }
+}
+
+
+h1 {
+    color: var(--dark-accent-color);
+    font-family: "M Plus 1p", sans-serif;
+    font-weight: 300;
+}
+
+blockquote {
+    border: dashed 1px rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+}
+
+#page-title {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "M Plus 1p", sans-serif;
+    font-weight: 100;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+.saying {
+    text-align: right;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 4em 0 2em 0;
+}
+
+.saying p:nth-of-type(1) {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+#page-content .page-rate-widget-box .rate-points {
+    background-color: var(--bg-color) !important;
+    border-color: var(--dark-accent-color);
+}
+
+#page-content .page-rate-widget-box .rateup, .page-rate-widget-box .ratedown {
+    background-color: white;
+    border-top-color: var(--dark-accent-color);
+    border-bottom-color: var(--dark-accent-color);
+    font-weight: bold;
+}
+
+#page-content .page-rate-widget-box .rateup a, .page-rate-widget-box .ratedown a {
+    color: var(--bg-color);
+}
+
+#page-content .page-rate-widget-box .cancel {
+    background-color: var(--bg-color);
+    border-color: var(--dark-accent-color);
+}
+
+#page-content .page-rate-widget-box .rateup a:hover, .page-rate-widget-box .ratedown a:hover {
+    background: var(--bg-color);
+    color: white;
+}
+
+#page-content .rate-box-with-credit-button .creditButton {
+    background-color: var(--bg-color);
+    border-color: var(--dark-accent-color);
+}
+
+#page-content .creditButton a:hover {
+    color: var(--accent-color);
+}
+
+#page-content .modalbox .modalbox-title {
+    background: var(--bg-color);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.75);
+    color: white;
+}
+
+#page-content .modalbox {
+    background: var(--bg-color);
+    box-shadow: 0px 0 20px 0px rgb(255 255 255 / 25%);
+}
+
+#page-content .credit-license a.cc {
+    color: rgba(255,255,255,0.75);
+}
+[[/code]]
+[[code type="css"]]
+#navi-bar,
+#navi-bar-shadow,
+#header,
+#side-bar,
+#page-title,
+#breadcrumbs,
+#page-info,
+.page-watch-options,
+.page-options-bottom,
+.page-tags,
+#footer,
+#license-area,
+#footer-bar,
+.odialog-shader,
+.hide-embed,
+.hiddenDisclaimer,
+.pollNote,
+.wikisys--template-dialog {
+    display: none !important;
+}
+
+#main-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.owindow {
+    position: static !important;
+    width: 0px;
+    height: 0px
+}
+
+#ohandle-1 {
+    font-size: 0px !important;
+}
+
+.modal-header {
+    font-size: 0px !important;
+}
+
+.button-bar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 0!important;
+    margin: 0!important;
+}
+
+#page-content .page-rate-widget-box .rate-points {
+    background: #1c1d31;
+    font-size: 0;
+}
+
+#page-content .page-rate-widget-box .rate-points .number {
+    font-size: 0.8rem;
+}
+
+#page-content .page-rate-widget-box .rate-points .number:before {
+    content: "宵ポイント: ";
+}
+
+[[/code]]
+--]
+[[module css]]
+@import url(https://scp-jp.wdfiles.com/local--code/yorucontest2021-hub/1);
+
+/*決選投票ボックス*/
+.finalvoting {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.finalvoting_article {
+    box-sizing: border-box;
+    min-width: 250px;
+    max-width: 341px!important;
+    flex: 1 1 40%;
+    border: dashed .25px rgba(255, 255, 255, 0.75);
+    margin: .5em;
+    padding: 1em;
+}
+
+[[/module]]

@@ -1,0 +1,301 @@
+[[module CSS]]
+#header {background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A3995762-66-2ytm/Pissresize.png);}
+#header h1 a {
+    display: block;
+    margin: 0;
+    padding: 90px 0 90px;
+    line-height: 0px;
+    max-height: 0px;
+    color: transparent;
+    background: transparent;
+    font-family: BauhausLTDemi. 'Nanum Gothic'. Arial. sans-serif;
+    text-decoration: none;
+    text-shadow: none;
+    letter-spacing: 0.9px;
+}
+ 
+#header h1 a::before {
+    content: "SCP財団";
+    color: #fff;
+    letter-spacing: -0.02em;
+    text-shadow: 3px 3px 5px #000;
+}
+ 
+#header h2 span {
+    display: block;
+    margin: 0;
+    padding: 19px 0;
+    line-height: -45px;
+    max-height: 0px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: none;
+}
+ 
+#header h2 span::before {
+    content: 'インセクト・ヘル──昆虫地獄';
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+sup {
+  vertical-align: top;
+  position: relative;
+  top: -0.5em;
+}
+
+.scp-image-block.block-right { margin: 1em 2em 1em 1em; }
+
+#page-title {
+  display: none;
+}
+.fake_title {
+  font-size: 200%;
+  color: #990011;
+  padding: 0 0 0.25em;
+  margin: 0 0 0.6em;
+  border-bottom: 1px solid #bbb;
+font-family: Old English Text MT;
+}
+.fake_title p {
+  padding: 0;
+  margin: 0;
+}
+[[/module]]
+
+[[div class="fake_title"]]
+[[span class="ruby"]]”昆虫地獄”[[span class="rt"]]インセクト・ヘル[[/span]][[/span]] ハブ
+[[/div]]
+[[>]]
+[[module rate]]
+[[/>]]
+@@@@
+[[=]]
+[[div style="background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]] 
++ 警告: 以下のファイルは##red|レベル3/ARBH##機密に指定されています
+----
++++ レベル3/ARBH認証無しで行われるこのファイルへのアクセス試行は記録され、即時懲戒処分の対象となります。
+[[/div]]
+[[/=]]
+
+------
+
+[[=]]
+[[div id="myDiv" style=" color:firebrick; padding: 5px 5px 5px 15px; margin-bottom:10px; border:solid 5px #068200; background:#83e27f; box-shadow: 1px 3px #888888;"]]
++ ARBH-クラス調査団 ”チーズケーキ”
+++ **調査団長:** [[*user JackalRelated]]
+++ **主任研究員:** [[*user DrMorris]]
+
+//「世界が昆虫地獄になっちまうって？ 俺たちにはそういう時用の駆虫剤があるのさ」//
+[[/=]]
+[[/div]]          
+@@ @@                      
+[[div id="myDiv" style=" padding: 5px 5px 5px 15px; margin-bottom:10px; border:dotted 1px; box-shadow: 1px 3px #888888; width: 97%;"]]
+------
+
+**内部連絡:** 調査団チーズケーキの成果
+
+**書き起こし:**
+こちら調査団”チーズケーキ”。やけに陽気でズレた名前については置いておいて、これは我々の誰にとっても財団で//やる//最後の仕事となるに違いない。我々の仕事は、どう……あー、どうやって世界が終わったかについてファイルにまとめることだ。僕としちゃあ682に賭けてたんだがね、実際は腹を空かせたバッタどもが正解だった。
+
+幸運を。どうか上手くやれよ。
+
+**著者:** ジョー・フィネガン研究員
+
+------
+[[/div]]
+
+------
+
+[[tabview]]
+
+[[tab ░░░░░░░]]
+
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; pointer-events: none; background:#ffede0;"]]
+[[=]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/file%3A3995762-67-qt7d/ARBHEvent-FULL.png width="340px"]]
++ ARBH-クラス”昆虫地獄”イベントシナリオ
+//2021-2023イベント記録//
+[[/=]]
+[[/div]]
+[[/tab]]
+[[tab ░2021/3░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **生き物プロフィール: ジンギス！**
+**//この悪夢の始まり。//**
+
+**抜粋:**
+> “ジンギス”は、この古き良きオレゴン州にやって来た、1匹のオーストラリアトビバッタに私たちが付けた名前だ。恐らくオーストラリアを去ってから、彼はお隣のワスコ郡で暮らすようになり、群れで作物不足を引き起こしてしまった。ジンギスが見つかったのは、ウィルソンズで働く専門家たちが、彼の群れが異常な速さで発達していると気付いた時だった。
+
+**ファイルを開く:** [[[critter-profile-genghis|生き物プロフィール: ジンギス！]]]
+[[/div]]
+[[/tab]]
+[[tab ░2021/8░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **SCP-3916**
+**//”皆殺し”の雄叫びを上げよ。戦争の犬を解き放て。//**
+
+**抜粋:**
+> SCP-3916の小さな一群がサイト-121の標準生物収容セルに収容されています。群れには毎日500kgの新鮮な植物質を給餌します。過剰な個体 (およそ1500を超えるもの) は必要に応じて終了します。収容を脱する個体があれば、火炎や殺虫剤といった従来通りの手段で終了します。SCP-3916の試験を希望する職員は現在の主任研究員に連絡する必要があります。
+
+**ファイルを開く:** [[[SCP-3916]]]
+[[/div]]
+[[/tab]]
+[[tab ░2021/8░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **ARBH-クラスのデブリーフファイル**
+**//知識は至高の武器である。//**
+
+**抜粋:**
+> ハロー、これを読んでいる新たなレベル3財団職員の皆さん。あなたがたがこれを読んでいる理由は、サイト長に読むように言われたか、ARBH-クラスイベントが実際どんなものか興味が湧いたからのいずれかでしょう。まあ、これで正解ですよ。これはデブリーフィング・トレーニング用のファイルです。あなたの抱く疑問への答えはまずここで見つかるでしょうし、この終末イベントにどう対応し、どう防ぐべきかの基本が載っています。
+
+**ファイルを開く:** [[[ARBH-Class Debrief File|]]]
+
+[[/div]]
+[[/tab]]
+[[tab ░2022/3░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **The Morality of Insects**
+**//昆虫が問題なのではなかった……//**
+
+**抜粋:**
+> **PETAHN:** Well, if LARPA does its job, the US won't need the Ration Acts and eventually there will be much more jobs in agriculture. We're working with LUBILOSAD to ensure it happens soon.
+> 
+> **DALY:** That takes care of the environment, but what about the locusts?
+> 
+> **SIMMONS:** Let me use an old FBI term. Terminate. With extreme prejudice.
+
+**ファイルを開く:** [[[The Morality of Insects |The Morality of Insects]]]
+[[/div]]
+[[/tab]]
+[[tab ░2022/7░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **The Last of LARPA**
+**//……我々がどう対応したか。//**
+
+**抜粋:**
+>"//Containment breach in Sections Twelve and Ten. All personnel evacuate the West sector. I repeat, containment breach in Sections Twelve and Ten. All personnel evacuate the West sector. Over.//" crackled the intercom.
+> 
+> Researcher Petahn overrode the G4 fire door leading back into Section Twelve. On the other side stood the captain of the MTF team δ-17, waiting for the researcher. Twelve could only be described as a hellish inferno; the fires licked and toyed with the walls, drawing dancing shadows like a fiery kaleidoscope.
+> 
+> "What's the status, Captain Quayle?" Petahn asked as he approached the suit-clad MTF member.
+> 
+> "There's fire everywhere. It's helping to contain the instances, but that also means our team can't contain them ourselves." replied Quayle.
+
+**ファイルを開く:** [[[The Last of LARPA |The Last of LARPA]]]
+[[/div]]
+[[/tab]]
+[[tab ░2022/7░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **Zero Hour**
+**//終末はすぐそこだ。//**
+
+**抜粋:**
+> "Hey, Simmons?" asked Petahn.
+> 
+> "Yeah?"
+> 
+> "Do you think for once, just once, we're going to do the right thing?"
+> 
+> "What do you mean?"
+
+**ファイルを開く:** [[[Zero Hour]]]
+[[/div]]
+[[/tab]]
+
+[[/tabview]]
+@@ @@
+@@ @@
+[[tabview]]
+
+[[tab ░░░░░░░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; pointer-events: none; background:#ffede0;"]]
+[[=]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/file%3A3995762-67-qt7d/ARBHEvent-FULL.png width="340px"]]
++ その他の発生例
+//追加のイベント記録//
+[[/=]]
+[[/div]]
+[[/tab]]
+[[tab ░1985/9░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **When the Sun Sets For Its Thousandth Time**
+**//他の世界はどうやらこの悪夢を見ていなかったようだ。この時までは。//**
+
+**抜粋:**
+
+> What she saw was hunger. Unquenchable hunger.
+
+**ファイルを開く:** [[[when-the-sun-sets-for-its-thousandth-time|When the Sun Sets For Its Thousandth Time]]]
+[[/div]]
+[[/tab]]
+[[tab ░2016/4░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **SCP-4991**
+**//以前にも起きかけたことがある。……もしくは？//**
+
+**抜粋:**
+> 
+> **WorldHealthMinistry** //@healthministryearth//
+> 
+> 全ての北アメリカ居住者に対し、外出を控えるべきであると勧告します。一度でも屋外で呼吸した方は毒物管理センターに連絡してください。
+
+**ファイルを開く:** [[[SCP-4991]]]
+[[/div]]
+[[/tab]]
+[[tab ░2022/7░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **END OF THE WORLD LIVESTREAM**
+**//一般人では何も変えられない。死は必ずや訪れる。//**
+
+**抜粋:**
+> **pygmallion07 01/15/21(Mon) 18:50:04 #83648190**
+> 
+> screw this lmao, im gonna survive.
+> 
+> __come on and watch me__
+> 
+> for old time's sake :)
+
+**ファイルを開く:** [[[End of the World Livestream | End of the World Livestream]]]
+[[/div]]
+[[/tab]]
+[[tab ░2022/7░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **奴らはどんな道でも探し出す**
+**//彼らなら小さな異次元空間で無事だ。……本当に？//**
+
+**抜粋:**
+> 彼らは生き延びたのだ。
+> 
+> しかし、他の者たちはそれほど幸運ではなかった。
+
+**ファイルを開く:** [[[They'll Always Find a Way In | 奴らはどんな道でも探し出す]]]
+[[/div]]
+[[/tab]]
+[[tab ░2022/12░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **Apologies and Redemption**
+**//時代が終わったあとの始まり。//**
+
+**抜粋:**
+> The machine pinged Site 31. It received no response. Nor did it get one from Site 84, Site 119, or Site 12. The machine methodically worked its way through its list of 3,547 sites, facilities, and research stations. Not a single one replied.
+> 
+> So the machine waited 24 hours, and tried again. And again. And again and again and again. And after a full year, after confirming for the 365th time that none of the Foundation's facilities would respond to it, it moved to the next step in its protocol.
+
+**ファイルを開く:** [[[apologies-and-redemption|Apologies and Redemption]]]
+[[/div]]
+[[/tab]]
+[[tab ░2023/5░]]
+[[div style="padding: 5px 5px 5px 15px; margin-bottom:10px; width: 96%;font-family: courier; font-size: 1em;border:solid 5px #f9eee5; background:#ffede0;"]]
++++ **Entomophobia**
+**//O5はどう感じたのか？ [[span class="ruby"]]かれ[[span class="rt"]]they[[/span]][[/span]]は何を感じたのか？//**
+
+**抜粋:**
+> What could make this apocalypse worse than all the others?
+
+**ファイルを開く:** [[[https://web.archive.org/web/20190527174459/http://scp-wiki.net/entomophobia|Entomophobia]]] (削除済)
+[[/div]]
+[[/tab]]
+[[/tabview]]
