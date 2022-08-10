@@ -1,0 +1,17 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+Fragment list:
+http://scp-wiki.wikidot.com/fragment:jim-scp-001-1
+http://scp-wiki.wikidot.com/fragment:jim-scp-001-2
+http://scp-wiki.wikidot.com/fragment:jim-scp-001-3
+http://scp-wiki.wikidot.com/fragment:jim-scp-001-4
+http://scp-wiki.wikidot.com/fragment:jim-scp-001-5
+http://scp-wiki.wikidot.com/fragment:jim-scp-001-6
+--]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
