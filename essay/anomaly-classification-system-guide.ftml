@@ -1,0 +1,1169 @@
+[[include :scp-jp:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:centered-header-bhl]]
+
+[[module css]]
+:root {
+    --five-color: 196,2,51;
+    --four-color: 255,109,0;
+    --three-color: 255,211,0;
+    --two-color: 0,135,189;
+    --one-color: 0,159,107;
+}
+
+#breadcrumbs,
+#page-title {
+    text-align: center;
+}
+
+
+#page-content .collapsible-block-folded a.collapsible-block-link {
+    --wght: 900;
+    font-size: 1.5em;
+    line-height: 1;
+    word-wrap: break-word;
+    font-weight: 900;
+    color: #b01;
+}
+
+.desktop-display,
+.mobile-display {
+    text-align: center;
+}
+
+.desktop-display .collapsible-block-content,
+.mobile-display .collapsible-block-content {
+    width: -webkit-calc(100% + -webkit-calc(100vw - 100%));
+    width: -moz-calc(100% + -moz-calc(100vw - 100%));
+    width: calc(100% + calc(100vw - 100%));
+    height: 100vh;
+    min-width: -webkit-calc(100% + -webkit-calc(100vw - 100%));
+    min-width: -moz-calc(100% + -moz-calc(100vw - 100%));
+    min-width: calc(100% + calc(100vw - 100%));
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.desktop-display .collapsible-block-content p,
+.mobile-display .collapsible-block-content p {
+    margin: 0;
+    padding: 0;
+}
+
+.desktop-display .collapsible-block-content br,
+.mobile-display .collapsible-block-content br {
+    display: none;
+}
+
+.desktop-display iframe,
+.mobile-display iframe {
+    width: -webkit-calc(100% + -webkit-calc(100vw - 100%));
+    width: -moz-calc(100% + -moz-calc(100vw - 100%));
+    width: calc(100% + calc(100vw - 100%));
+    height: 100vh;
+    min-width: -webkit-calc(100% + -webkit-calc(100vw - 100%));
+    min-width: -moz-calc(100% + -moz-calc(100vw - 100%));
+    min-width: calc(100% + calc(100vw - 100%));
+    min-height: 100vh;
+    display: block;
+    border: none;
+    overflow: hidden;
+    background: rgb(var(--swatch-background));
+    max-width: inherit;
+}
+
+.desktop-display > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1),
+.mobile-display > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) {
+    position: fixed;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    top: 1rem;
+    right: 2rem;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background-color: rgb(var(--swatch-menubg-black-color));
+    color: rgb(var(--swatch-menutxt-light-color));
+    min-width: 3.250rem;
+    min-height: 3.375rem;
+    font-size: 2rem;
+    padding: 0;
+    z-index: 9999;
+}
+
+.desktop-display {
+    display: block;
+}
+
+.mobile-display {
+    display: none;
+}
+
+.color-five {
+    background-color: rgb(var(--five-color));
+    color: rgb(var(--white-monochrome, 252, 252, 252));
+}
+
+.color-four {
+    background-color: rgb(var(--four-color));
+}
+
+.color-three {
+    background-color: rgb(var(--three-color));
+}
+
+.color-two {
+    background-color: rgb(var(--two-color));
+}
+
+.color-one {
+    background-color: rgb(var(--one-color));
+}
+
+.color-gray {
+    background-color: rgba(var(--gray-monochrome, 66, 66, 72),0.15);
+}
+
+.color-white {
+    background-color: rgb(var(--white-monochrome, 252, 252, 252));
+}
+
+.color-black,
+.cosmic {
+    background-color: rgb(var(--black-monochrome, 12, 12, 12));
+    color: rgb(var(--white-monochrome, 252, 252, 252));
+    border: 0.5rem solid rgb(var(--white-monochrome));
+}
+
+.icons {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: -webkit-calc((100% / 5) - 0.25rem) 0.25rem -webkit-calc((100% / 5) - 0.25rem) 0.25rem -webkit-calc((100% / 5) - 0.25rem) 0.25rem -webkit-calc((100% / 5) - 0.25rem) 0.25rem -webkit-calc((100% / 5) - 0.25rem);
+    -ms-grid-columns: -moz-calc((100% / 5) - 0.25rem) 0.25rem -moz-calc((100% / 5) - 0.25rem) 0.25rem -moz-calc((100% / 5) - 0.25rem) 0.25rem -moz-calc((100% / 5) - 0.25rem) 0.25rem -moz-calc((100% / 5) - 0.25rem);
+    -ms-grid-columns: calc((100% / 5) - 0.25rem) 0.25rem calc((100% / 5) - 0.25rem) 0.25rem calc((100% / 5) - 0.25rem) 0.25rem calc((100% / 5) - 0.25rem) 0.25rem calc((100% / 5) - 0.25rem);
+    grid-template-columns: repeat(5, -webkit-calc((100% / 5) - 0.25rem));
+    grid-template-columns: repeat(5, -moz-calc((100% / 5) - 0.25rem));
+    grid-template-columns: repeat(5, calc((100% / 5) - 0.25rem));
+    grid-gap: 0.25rem;
+}
+
+.class-table-box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 0.125rem 75%;
+    grid-template-columns: 1fr 75%;
+    background-color: rgb(var(--black-monochrome));
+    grid-gap: 0.125rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 500px ) {
+    .class-table-box {
+     -ms-grid-columns: initial;
+     grid-template-columns: initial;
+     border: 0.125rem solid rgb(var(--black-monochrome, 12,12,12));
+    }
+}
+
+.class-table-box > div {
+    padding: 0.5rem;
+}
+
+.class-name {
+    font-family: var(--title-font);
+    font-size: 1.15em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+}
+
+.class-description {
+    background-color: rgb(var(--white-monochrome));
+}
+
+@media (max-width: 500px ) {
+    .icons {
+     -ms-grid-columns: -webkit-calc((100% / 3) - 0.25rem) 0.25rem -webkit-calc((100% / 3) - 0.25rem) 0.25rem -webkit-calc((100% / 3) - 0.25rem);
+     -ms-grid-columns: -moz-calc((100% / 3) - 0.25rem) 0.25rem -moz-calc((100% / 3) - 0.25rem) 0.25rem -moz-calc((100% / 3) - 0.25rem);
+     -ms-grid-columns: calc((100% / 3) - 0.25rem) 0.25rem calc((100% / 3) - 0.25rem) 0.25rem calc((100% / 3) - 0.25rem);
+     grid-template-columns: repeat(3, -webkit-calc((100% / 3) - 0.25rem));
+     grid-template-columns: repeat(3, -moz-calc((100% / 3) - 0.25rem));
+     grid-template-columns: repeat(3, calc((100% / 3) - 0.25rem));
+    }
+}
+
+.icon_image {
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    border: 0.25rem solid rgb(var(--black-monochrome, 12, 12, 12));
+    overflow: hidden;
+}
+
+.icon_name,
+.icon_link {
+    font-family: var(--title-font);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-transform: uppercase;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.step_container {
+    margin: 0.5rem 0;
+    border: 0.0625rem solid rgb(var(--swatch-menubg-medium-dark-color));
+    padding: 1em;
+}
+
+.help {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+            align-content: stretch;
+    padding-top: 1em;
+    border-top: 0.0625rem dashed rgb(var(--swatch-menubg-medium-dark-color));
+}
+
+.help blockquote {
+    margin: 0;
+    font-size: 85%;
+}
+
+.help blockquote > p {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+    margin-right: 0;
+    min-height: 2rem;
+    margin: 0;
+}
+
+.help blockquote > p * {
+    margin: 0 0.1rem;
+    height: 100%;
+}
+
+.help blockquote:nth-of-type(1) {
+    width: 50%;
+    background: transparent;
+    border: unset;
+    -webkit-box-shadow: unset;
+       -moz-box-shadow: unset;
+            box-shadow: unset;
+    text-align: right;
+    margin-right: 0;
+    padding: 0;
+}
+
+.help blockquote:nth-of-type(1) > p {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+       -moz-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+.help blockquote:nth-of-type(2) {
+    margin-left: 1em;
+    width: 50%;
+}
+
+#page-content .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    background-color: rgba(var(--swatch-menubg-medium-color),0.25);
+    border-top: 0.125rem dashed rgb(var(--swatch-menubg-medium-dark-color));
+    border-bottom: 0.125rem dashed rgb(var(--swatch-menubg-medium-dark-color));
+}
+
+.scp-image-block.image-hover-enlarge,
+.scp-image-block.image-hover-enlarge img,
+.scp-image-block.image-block-slide-reveal,
+.scp-image-block.image-block-slide-reveal img {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#page-content div.collapsible-block > div.collapsible-block-unfolded > div.collapsible-block-content {
+    text-align:left;
+}
+
+@media only screen and (max-width:768px) {
+    .desktop-display {
+        display: none;
+    }
+
+    .mobile-display {
+        display: block;
+    }
+}
+[[/module]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+
++ [#ACS アノマリー分類システム (ACS) ガイド][[# ACS]]
+
+------
+
+[[div class="step_container"]]
+
++ [#what-is-acs ACSって何?][[# what-is-acs]]
+
+> ACSは既存のオブジェクトクラスシステムにさらなる深みを与える新しい分類システムです。 **これは既存のオブジェクトクラスシステムを置き換えることを意図したものではなく、それを強化することのみを意図したものです。**
+
+[[=]]
++++ クレジット
+[[/=]]
+
+> アノマリー分類システムは[[*user Woedenaz]]により、以下のメンバーの多大な協力を得て作成されました: [[*user The Great Hippo]] | [[*user Rounderhouse]] | [[*user djkaktus]] | [[*user Yossipossi]] | [[*user Captain Kirby]] | [[*user CadaverCommander]] | [[*user Uncle Nicolini]] | [[*user aismallard]] | [[*user Jade Skylar]] | [[*user Lt Flops]] | [[*user Sterbai]]
+
+[[/div]]
+
+[[div class="step_container"]]
+[[=]]
+
++ [#acs-db ACSを用いた記事の全データベース][[# acs-db]]
+[[/=]]
+[[div class="blockquote"]]
+[[=]]
+*これは [http://ja.scp-wiki.net/component:anomaly-class-bar-source ACSコンポーネントバー]を使っているかどうかに関わらず、[https://github.com/Woedenaz/acs-database 全てのSCPを読み、現在ACSを使った全てのページを見つけようとするツール]により（ほぼ）自動作成されました。
+
+**もしACSが使われているページで以下に載っていないものを見つけたら、[[*user Woedenaz]]に知らせてください!**
+
+**最新の更新: 2021/3/21**
+[[/=]]
+[[/div]]
+[[div_ class="desktop-display"]]
+[[collapsible show="<<ACSデータベースを表示する>>" hide="✖"]]
+[[iframe https://elusionillusion.com/scp/acs-database/acs-database.html scrolling="yes" frameborder="0" allowtransparency="true"]]
+[[/collapsible]]
+[[/div]]
+[[div_ class="mobile-display"]]
++ ごめんなさい!
+++ ACSデータベースはデスクトップでのみ利用可能です
+,,おそらくスマートフォンでも動作する可能性がありますが、しかし、それは正しく動くのには程遠いです。,,
+^^表示したい場合はデスクトップに移動してください :]^^
+[[/div]]
+[[/div]]
+[[div class="step_container"]]
+
++ [#examples 例][[# examples]]
+
++++ [#acs-bar-example ACSバーの例][[# acs-bar-example]]
+
+[[include :scp-jp:component:anomaly-class-bar-source
+|item-number= 2105
+|clearance= 2
+|container-class= euclid
+|secondary-class= none
+|disruption-class= vlam
+|risk-class= notice
+]]
+
+[[div class="step_container" style="text-align: center;"]]
++++ [http://scp-jp.wikidot.com/component:anomaly-class-bar 使用するには、こちらのコンポーネントガイドを参照してください]
+[[/div]]
+
+------
+
+++ [http://scp-jp.wikidot.com/component:acs-hybrid-text-bar ハイブリッドおよびテクスチュアルACSコンポーネントの詳細については、こちらをご覧ください]
+
++++ [#hybrid-example ハイブリッドの例][[# hybrid-example]]
+
+[[include :scp-jp:component:acs-hybrid-text-bar-source
+|version= hybrid
+|item-number= 2105
+|clearance-level= 2
+|containment-class= euclid
+|include-secondary= yes
+|secondary-class= apollyon
+|secondary-icon= http://scp-jp
+.wikidot.com/local--files/component:anomaly-class-bar/apollyon-icon.svg
+|disruption-class= vlam
+|risk-class= notice
+]]
+
+------
+
++++ [#text-example テクスチュアルの例][[# text-example]]
+
+[[include :scp-jp:component:acs-hybrid-text-bar-source
+|version= text
+|item-number= 2105
+|clearance-level= 2
+|containment-class= euclid
+|include-secondary= yes
+|secondary-class= apollyon
+|disruption-class= vlam
+|risk-class= notice
+]]
+
+-----
+
++++ [#bare-example ベアボーンの例][[# bare-example]]
+
+**アイテム番号:** SCP-4205
+**クリアランスLv2:** Restricted
+
+**オブジェクトクラス:** Euclid
+**撹乱クラス:** 2/Vlam
+**リスククラス:** 1/Notice
+@@ @@
+[[collapsible show="+ ベアボーンの例のコードを開く" hide="- ベアボーンの例のコードを閉じる"]]
+[[code]]
+
+**アイテム番号:** SCP-4205
+**クリアランスLv2:** Restricted
+
+**オブジェクトクラス:** Euclid
+**撹乱クラス:** 2/Vlam
+**リスククラス:** 1/Notice
+[[/code]]
+[[/collapsible]]
+
+------
+
+[[div class="step_container"]]
++++ [#classifications-summary ACSを使った分類は以下のように行います。:][[# classifications-summary]]
+[[div_ class="class-table-box"]]
+[[div_ class="class-name color-black"]]
+クリアランスレベル(Clearance Level)
+[[/div]]
+[[div_ class="class-description"]]
+これは既存の[http://ja.scp-wiki.net/security-clearance-levels クリアランスレベル]の改良です。多数の変更が以下に記されています。**クリアランスレベルは、文書に含まれた情報を読む許可を与えられた職員のレベルを表します。**
+[[/div]]
+[[div_ class="class-name color-black"]]
+収容クラス(Containment Class)
+[[/div]]
+[[div class="class-description"]]
+これは旧"オブジェクトクラス"と同様です。**これは分類が何を示すかをわかりやすくするため、改名されました。つまり収容です。**これは「確保、収容、保護」の「収容」です。
+[[/div]]
+[[div_ class="class-name color-black"]]
+撹乱クラス(Disruption Class)
+[[/div]]
+[[div class="class-description"]]
+これはこの分類システムのために新設されたクラスのひとつです。**撹乱クラスはアノマリーが世界の現状を乱す、さらに／もしくはベールを破壊する能力を表します。**これは「確保、収容、保護」の「確保」です。
+
+オブジェクトの撹乱クラスを考えるとき、あなたはこれらを自問してください:
+# アノマリーの影響はどの程度早く広まりますか？
+# 気づかれずにどの程度まで広まることができますか？
+# その影響を財団はどのくらい簡単に無効化できますか？
+[[/div]]
+[[div_ class="class-name color-black"]]
+リスククラス(Risk Class)
+[[/div]]
+[[div class="class-description"]]
+これはこの分類システムのために新設されたクラスのひとつです。**リスククラスは人物に対するアノマリーの影響の激しさと、どの程度簡単にそこから回復できるかを表します。**これは「確保、収容、保護」の「保護」です。
+
+オブジェクトのリスククラスを考えるとき、あなたはこれらを自問してください:
+# 回復できるとして、人間はどの程度簡単に回復できますか？
+# 影響はどの程度激しいですか？
+# これらの影響が気づかれ始めるのは、どの程度近づいたときですか？
+[[/div]]
+[[div_ class="class-name color-black"]]
+副次クラス(Secondary Class)
+[[/div]]
+[[div class="class-description"]]
+これは**オプション**として用意された新クラスですが、この分類システムのための新規追加というわけではありません。副次クラスは「Esoteric Class」としても知られています[[footnote]]**訳注:** 日本支部では「特殊オブジェクトクラス」などと訳されています。[[/footnote]]。
+
+これは特殊オブジェクトクラスとしてすでに知られているものを使用され、[http://scp-jp.wikidot.com/esoteric-classes-complete-list リストはここにあります。]
+
+副次クラスを使用するときには、収容クラスは「Esoteric」とするのが通常ですが、必須ではありません[[footnote]]日本支部でこのシステムに則った記事を書くならば、「特殊」などとするのが適当であろうか？[[/footnote]]。
+[[/div]]
+[[/div]]
+[[/div]]
+
++ [#detailed 詳しい解説][[# detailed]]
+
+[[div class="step_container"]]
+
+++ [#clearance-lvl クリアランスレベル][[# clearance-lvl]]
+
+> クリアランスレベルはこの分類システムの重要な部分であり、著者や読者のヘッドカノンに大きく依存します。以下の説明はある特定の財団観に基づいたものであり、あなたの財団観とは一致しないかもしれません。ですが問題ありません!これらを一般的なガイドラインとして使用し、あなたの見かたに合わせて適合させてください。
+
+[[div_ class="class-table-box"]]
+[[div_ class="class-name color-one"]]
+レベル 1: Unrestricted (UR)
+[[/div]]
+[[div_ class="class-description"]]
+この文書はすべての財団職員に閲覧可能です。財団から定期的な給与支払いを受けているならば、この文書を見ることができます。
+[[/div]]
+[[div_ class="class-name color-two"]]
+レベル 2: Restricted (RS)
+[[/div]]
+[[div class="class-description"]]
+この文書は申請があれば大部分の職員が閲覧可能です。もし職員が部下を持っているならば、その職員はすでにレベル2アクセスを持っています。もし部下がいないならば、文書にアクセスするには上司の許可が必要です。
+[[/div]]
+[[div_ class="class-name color-three"]]
+レベル 3: Confidential (CF)
+[[/div]]
+[[div class="class-description"]]
+この文書は少数の職員にのみ閲覧可能です。サイトの筆頭の管理的なスタッフはレベル3アクセスを持っています。もし部下を抱える職員で、レベル3アクセスが無いならば、文書にアクセスするにはサイトの管理的な職員の許可が必要です。もし部下を持たない職員ならば、まず上司に申請が必要であり、さらにその上司がサイトの管理的な職員の許可を申請します。
+[[/div]]
+[[div_ class="class-name color-four"]]
+レベル 4: Secret (SC)
+[[/div]]
+[[div class="class-description"]]
+この文書はサイト及び財団の管理レベルのスタッフのみが閲覧可能です。レベル4アクセスを持たない状態でのアクセスは、一般的には却下され、非常に特殊な目的のためにのみ許可されます。
+[[/div]]
+[[div_ class="class-name color-five"]]
+レベル 5: Top Secret (TS)
+[[/div]]
+[[div class="class-description"]]
+この文書は、倫理委員会やO5評議会といった、財団の最高の管理レベルのスタッフのみが閲覧可能です。レベル5アクセスを持たないものによるアクセスは常に却下されるでしょう。
+[[/div]]
+[[div_ class="class-name cosmic"]]
+レベル 6: Cosmic Top Secret (CTS) [[footnote]]バカバカしい名前でしょうか？ええ、そうかもしれませんが、[https://www.wikiwand.com/en/Classified_information#/NATO_classifications NATOでも最高のクリアランスレベルとして使われています。][[/footnote]]
+[[/div]]
+[[div class="class-description"]]
+この文書はO5評議会のメンバーのみが閲覧可能です。この文書へのアクセスはO5評議会メンバーの裁量のみで認可されます。
+[[/div]]
+[[/div]]
+
+[[/div]]
+
+[[div class="step_container"]]
+
+++ [#containment-class 収容クラス][[# containment-class]]
+
+> [http://ja.scp-jp.net/object-classes オブジェクトクラスのページ]を参照してください。
+
+**NOTE:** ACSでは、Thaumielは収容クラスではなく**副次クラス**と考えられます。
+
++++ 収容クラスの種類
+
+[[div_ class="icons"]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-one"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/safe-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+safe
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-three"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+euclid
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-five"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/keter-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+keter
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-gray"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/neutralized-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+neutralized
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-black"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/pending-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+pending
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-white"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/explained-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+explained
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-white"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/esoteric-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+esoteric
+[[/div]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+
+[[div class="step_container"]]
+
+++ [#secondary-class 副次クラス][[# secondary-class]]
+
+> [http://ja.scp-wiki.net/esoteric-classes-complete-list 特殊オブジェクトクラスのページ]を参照してください。
+
+**NOTE:** ACSでは、Thaumielは収容クラスではなく**副次クラス**と考えられます。
+
++++ 副次クラスの種類
+
+> 全ての副次クラスがここにリストされているわけではありません。ここではアイコンが描かれたもののみが示されています。全ての種類については[http://ja.scp-wiki.net/esoteric-classes-complete-list 特殊オブジェクトクラスのページ]を参照してください。
+
+[[div_ class="icons"]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-white"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/apollyon-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+apollyon
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-white"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/archon-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+archon
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-white"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/cernunnos-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+cernunnos
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-white"]]
+[[image https://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/decommissioned-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+decommissioned
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-white"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/hiemal-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+hiemal
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-white"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/tiamat-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+tiamat
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-white"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/ticonderoga-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+ticonderoga
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-white"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/thaumiel-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+thaumiel
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-white"]]
+[[image https://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/uncontained-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+uncontained
+[[/div]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+
+[[div class="step_container"]]
+
++ [#disruption-class 撹乱クラスのレベル][[# disruption-class]][[footnote]]撹乱クラスのレベルは光の強さに基づいています。撹乱クラスが高まるほど、遠くまで届く光となります。[[/footnote]]
+
+[[div_ class="icons"]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-one"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/dark-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+dark
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-two"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/vlam-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+vlam
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-three"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/keneq-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+keneq
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-four"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/ekhi-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+ekhi
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-five"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/amida-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+amida
+[[/div]]
+[[/div]]
+
+[[/div]]
+
+[[div_ class="class-table-box"]]
+[[div_ class="class-name color-one"]]
+Dark[[footnote]]「Safe」と同じような感覚で、基準として理解しやすいものとして設定されました。[[/footnote]]
+[[/div]]
+[[div_ class="class-description"]]
+既知または潜在的な撹乱能力が、**懸念するほどではないほど低い**ことを意味します。
+
+オブジェクトは基本的に接触されない限り不活性であり、**潜在的に1人の人物にしか影響しない**と思われます。
+
+財団は、**事後のクリーンアップが必要ないほど取るに足らない**ことを見出すでしょう。
+[[/div]]
+[[div_ class="class-name color-two"]]
+Vlam[[footnote]][https://en.wiktionary.org/wiki/vlam オランダ語で炎の意]、一般的にはロウソクの炎をさします。[[/footnote]]
+[[/div]]
+[[div class="class-description"]]
+既知または潜在的な撹乱能力が、**ごく一握りの人々に限局される**であろうことを意味します。
+
+異常性は確実に**複数の人々に影響しますが、広範囲に拡大することはないでしょう。**
+
+財団は、**その影響を無力化するのは比較的シンプルな**ことを見出すでしょう。
+[[/div]]
+[[div_ class="class-name color-three"]]
+Keneq[[footnote]][https://glosbe.com/ems/ja/keneq ユピク語で炎の意]、一般的にはキャンプファイヤーですが、もっと大きなものをさすこともあります。[[/footnote]]
+[[/div]]
+[[div class="class-description"]]
+既知または潜在的な撹乱能力が、**概ね都市人口ほどの人々に拡大する**程度に強いことを意味します。
+
+異常性は、**懸念するのに十分なかなりの速度で拡大**しえます。
+
+財団は**その影響を無力化するのはまあまあ難しい**ことを見出すでしょう。
+[[/div]]
+[[div_ class="class-name color-four"]]
+Ekhi[[footnote]][https://en.wikipedia.org/wiki/Eki_(goddess) バスク語で太陽の意。][[/footnote]]
+[[/div]]
+[[div class="class-description"]]
+**既知の撹乱能力**が、**概ね大都市圏から国全体のサイズに拡大する**可能性があるほど強いことを意味します。**潜在的な撹乱能力**は、**既知の全世界**まで拡大する可能性があります。
+
+拡散は**早く、対応が難しい**でしょう。
+
+財団は、**その影響を無力化するのは非常に難しい**ことを見出すでしょう。
+[[/div]]
+[[div_ class="class-name color-five"]]
+Amida[[footnote]]多くの意味がありますが、この場合は、[https://ja.wikipedia.org/wiki/阿弥陀如来 ブッダの永遠の光]を意味します。[[/footnote]]
+[[/div]]
+[[div class="class-description"]]
+**この撹乱クラスは、財団が本質的にアノマリーに「宣戦布告」するような特殊な状況のために使用されるべきです。**アノマリーが世界の現状と財団のベールに対し、無力化のためにはあらゆる可能な選択肢を使わなくてはならない程の深刻な脅威を提示する状況です。
+
+**Amidaアノマリーの影響は既知の世界全体を超え、宇宙全体まで広がる可能性があります。**
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="step_container"]]
+
++ [#risk-class リスククラスのレベル][[# risk-class]]
+
+[[div_ class="icons"]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-one"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/notice-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+notice
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-two"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/caution-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+caution
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-three"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/warning-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+warning
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-four"]]
+[[image http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/danger-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+danger
+[[/div]]
+[[/div]]
+
+[[div_ class="icon_container"]]
+[[div_ class="icon_image color-five"]]
+[[image https://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/critical-icon.svg]]
+[[/div]]
+[[div_ class="icon_name"]]
+critical
+[[/div]]
+[[/div]]
+
+[[/div]]
+[[div_ class="class-table-box"]]
+[[div_ class="class-name color-one"]]
+Notice
+[[/div]]
+[[div_ class="class-description"]]
+オブジェクトの異常な影響は**殆ど存在しないか微弱です**。
+
+オブジェクトに近接した人物はオブジェクトから**何も感じません**。
+
+近くの人物には**何の危険も**及ぼしません。
+[[/div]]
+[[div_ class="class-name color-two"]]
+Caution
+[[/div]]
+[[div class="class-description"]]
+オブジェクトの異常な影響は**微弱から中程度です**。
+
+オブジェクトに近接した人物は**微弱な影響を感じるかもしれません**。
+
+近くの人物には**微弱な危険**を及ぼします。
+[[/div]]
+[[div_ class="class-name color-three"]]
+Warning
+[[/div]]
+[[div class="class-description"]]
+オブジェクトの異常な影響は**中程度から重大です**。
+
+オブジェクトに近接した人物は**微弱な影響を感じるでしょうし、強い影響を感じるかもしれません**。
+
+近くの人物には**中程度の危険**を及ぼします。
+[[/div]]
+[[div_ class="class-name color-four"]]
+Danger
+[[/div]]
+[[div class="class-description"]]
+オブジェクトの異常な影響は**重大から極度です**。
+
+オブジェクトに近接した人物は**強い影響を感じるでしょうし、極度の影響を感じるかもしれません**。
+
+近くの人物には**重大な危険**を及ぼします。
+[[/div]]
+[[div_ class="class-name color-five"]]
+Critical
+[[/div]]
+[[div class="class-description"]]
+このリスククラスはオブジェクトの影響が**ほぼ即時かつ／もしくは極度に激しい**場合にのみ選ばれるべきです。
+
+必ずしも実際の死を引き起こす必要はありませんが、死の可能性が極めて高く予想されます。オブジェクトに近接した人物は**即座に影響を感じ、回復の可能性はありえません**。
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
++ [#acs-addons ACSのアドオン&エキストラ][[# acs-addons]]
+[[div_ class="step_container" style="text-align: center;"]]
+++ [#more-icons アイコンいっぱい!][[# more-icons]]
+[[div_ class="step_container"]]
+++ [[[more-acs-icons|]]]
++++ by [[*user ShineShadowD]]
+++++ 翻訳者 [[*user Dr Fishbone]]
+------
+[[include :scp-wiki:component:image-features-source |hover-enlarge=--]
+|enlarge-amount=2
+|speed=300
+|float=false
+|width=100%
+|url=https://scp-wiki.wdfiles.com/local--files/anomaly-classification-system-guide/ShineShadowIcons.png
+|add-caption=false
+]]
+[[/div]]
+[[div_ class="step_container"]]
+++ [[[josephartwork|]]]
++++ by [[*user JosephJoestar]]
+++++ 翻訳者 [[*user Dr Fishbone]]
+------
+[[include :scp-wiki:component:image-features-source |hover-enlarge=--]
+|enlarge-amount=2
+|speed=300
+|float=false
+|width=100%
+|url=https://scp-wiki.wdfiles.com/local--files/anomaly-classification-system-guide/JosephJoestarIcons.png
+|add-caption=false
+]]
+[[/div]]
+[[div_ class="step_container"]]
+++ [[[calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what|]]]
++++ by [[*user Calibold]]
+------
+[[include :scp-wiki:component:image-features-source |hover-enlarge=--]
+|enlarge-amount=2
+|speed=300
+|float=false
+|width=100%
+|url=https://scp-wiki.wdfiles.com/local--files/anomaly-classification-system-guide/CalibriIcons.png
+|add-caption=false
+]]
+[[/div]]
+[[div_ class="step_container"]]
+++ [[[dr-moned-s-icons-and-art|]]]
++++ by [[*user Dr Moned]]
+------
+[[include :scp-wiki:component:image-features-source |hover-enlarge=--]
+|enlarge-amount=2
+|speed=300
+|float=false
+|width=100%
+|url=https://scp-wiki.wdfiles.com/local--files/anomaly-classification-system-guide/DrMonedIcons.png
+|add-caption=false
+]]
+[[/div]]
+[[div_ class="step_container"]]
+++ [[[itsdenalis-personnel-file|ItsDenali's Bison Box
+]]]
++++ by [[*user ItsDenali]]
+------
+[[include :scp-wiki:component:image-features-source |hover-enlarge=--]
+|enlarge-amount=2
+|speed=300
+|float=false
+|width=100%
+|url=https://scp-wiki.wdfiles.com/local--files/anomaly-classification-system-guide/ItsDenaliIcons.png
+|add-caption=false
+]]
+[[/div]]
+[[div_ class="step_container"]]
+++ [[[greyve-art-page|Greyve Art Page]]]
++++ by [[*user Greyve]]
+------
+[[include :scp-wiki:component:image-features-source |hover-enlarge=--]
+|enlarge-amount=2
+|speed=300
+|float=false
+|width=100%
+|url=https://scp-wiki.wdfiles.com/local--files/anomaly-classification-system-guide/GreyveIcons.png
+|add-caption=false
+]]
+[[/div]]
+[[/div]]
+[[div_ class="step_container" style="text-align:center;"]]
+++ [#acs-alts-mods ACSの改造と代替][[# acs-alts-mods]]
+[[div_ class="step_container"]]
+++ [[[component:flops-header|]]]
++++ by [[*user Lt Flops]]
+------
+[[include :scp-jp:component:flops-header
+|item=4205
+|containment=euclid
+|level=2
+|security=secret
+|disruption=vlam
+|disruption-bg-color=rgb(var(--four-color))
+]]
+[[/div]]
+[[div_ class="step_container"]]
+++ [[[component:advanced-information-methodology|]]]
++++ by [[*user Dr Moned]]
+------
+[[module css]]
+.s-cell:nth-of-type(1), .s-cell:nth-of-type(3) {
+    text-align: left;
+}
+[[/module]]
+[[include :scp-jp:component:advanced-information-methodology
+|XXXX=4205
+|lv=two
+|cc=EUCLID
+|dc=Vlam
+|site=Site-0
+|dir=Dr Woed
+|head=Dr Naz
+|mtf=Alpha-80085
+]]
+[[/div]]
+[[div_ class="step_container"]]
+++ [[[component:acs-peppo-lite|ACS Lite by peppo]]]
++++ by [[*user PeppersGhost]]
+------
+[[include :scp-wiki:component:image-features-source |hover-enlarge=--]
+|enlarge-amount=2
+|speed=300
+|float=false
+|width=100%
+|url=https://scp-wiki.wdfiles.com/local--files/anomaly-classification-system-guide/peppo-lite-example.png
+|add-caption=false
+]]
+[[/div]]
+[[div_ class="step_container"]]
+++ [[[component:acs-peppo-split|]]]
++++ by [[*user PeppersGhost]]
+------
+[[include :scp-wiki:component:image-features-source |hover-enlarge=--]
+|enlarge-amount=2
+|speed=300
+|float=false
+|width=100%
+|url=https://scp-wiki.wdfiles.com/local--files/anomaly-classification-system-guide/peppo-splitter-example.png
+|add-caption=false
+]]
+[[/div]]
+[[div_ class="step_container"]]
+++ [[[component:acs-animation|]]]
++++ by [[*user EstrellaYoshte]]
+------
+[[include :scp-wiki:component:image-features-source |slide-block-reveal=--]
+|block-color=rgb(var(--swatch-menubg-medium-dark-color))
+|slide-direction=top
+|speed=300
+|float=false
+|width=100%
+|url=https://scp-wiki.wdfiles.com/local--files/anomaly-classification-system-guide/ACSAnimVid.webp
+|add-caption=true
+|caption=カーソルを合わせると見えます!
+]]
+[[/div]]
+[[div_ class="step_container"]]
+++ [[[component:customizable-acs|Mega Cool Customizable ACS Add-On Ver. 1.7.0]]]
++++ by [[*user Calibold]]
+------
+[[include :scp-jp:component:anomaly-class-bar-source
+|item-number= SCP-5956
+|clearance= 5
+|container-class= antithesis
+|disruption-class= amida
+|risk-class= caution
+]]
+[[module css]]
+.anom-bar-container.antithesis {
+    text-align: left;
+}
+.anom-bar-container.antithesis .text-part > .main-class > .contain-class > .class-text {
+    font-size: -webkit-calc(8px + (15 - 8) * ( (100vw - 400px) / ( 800 - 400) ));
+    font-size: -moz-calc(8px + (15 - 8) * ( (100vw - 400px) / ( 800 - 400) ));
+    font-size: calc(8px + (15 - 8) * ( (100vw - 400px) / ( 800 - 400) ));
+}
+.anom-bar-container.antithesis .top-left-box > .item {
+    display: none;
+}
+[[/module]]
+[[include :scp-wiki:component:customizable-acs
+|containment-class= antithesis
+|containment-image= https://scp-wiki.wdfiles.com/local--files/blank-art/antithesis-icon.svg
+|containment-color= 0,135,189
+|inc-containment = --]]]
+[[/div]]
+[[/div]]
