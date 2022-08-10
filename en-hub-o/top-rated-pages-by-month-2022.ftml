@@ -1,0 +1,90 @@
+[[module css]]
+.toc-table {
+    float: right;
+}
+.toc-table table.wiki-content-table tbody td:first-of-type {
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+}
+@media (max-width: 979px) {
+    .toc-table tr {
+        display: inline;
+    }
+}
+[[/module]]
+
+[[div class="toc-table"]]
+> = **Year**
+> ||= ##blue|**2022**##  ||
+> ||= [[[top-rated-pages-by-month-2021|2021]]] ||
+> ||= [[[top-rated-pages-by-month-2020|2020]]] ||
+> ||= [[[top-rated-pages-by-month-2019|2019]]] ||
+> ||= [[[top-rated-pages-by-month-2018|2018]]] ||
+> ||= [[[top-rated-pages-by-month-2017|2017]]] ||
+> ||= [[[top-rated-pages-by-month-2016|2016]]] ||
+> ||= [[[top-rated-pages-by-month-2015|2015]]] ||
+> ||= [[[top-rated-pages-by-month-2014|2014]]] ||
+> ||= [[[top-rated-pages-by-month-2013|2013]]] ||
+> ||= [[[top-rated-pages-by-month-2012|2012]]] ||
+> ||= [[[top-rated-pages-by-month-2011|2011]]] ||
+> ||= [[[top-rated-pages-by-month-2010|2010]]] ||
+> ||= [[[top-rated-pages-by-month-2009|2009]]] ||
+> ||= [[[top-rated-pages-by-month-2008|2008]]] ||
+[[/div]]
+
+[[collapsible show="August 2022" hide="- Click to hide"]]
+**August 2022**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2022.08"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="July 2022" hide="- Click to hide"]]
+**July 2022**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2022.07"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="June 2022" hide="- Click to hide"]]
+**June 2022**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2022.06"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="May 2022" hide="- Click to hide"]]
+**May 2022**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2022.05"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="April 2022" hide="- Click to hide"]]
+**April 2022**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2022.04"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="March 2022" hide="- Click to hide"]]
+**March 2022**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2022.03"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="February 2022" hide="- Click to hide"]]
+**February 2022**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2022.02"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="January 2022" hide="- Click to hide"]]
+**January 2022**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2022.01"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]

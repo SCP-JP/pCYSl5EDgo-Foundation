@@ -1,0 +1,108 @@
+[[module css]]
+.toc-table {
+    float: right;
+}
+.toc-table table.wiki-content-table tbody td:first-of-type {
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+}
+@media (max-width: 979px) {
+    .toc-table tr {
+        display: inline;
+    }
+}
+[[/module]]
+
+[[div class="toc-table"]]
+> = **Year**
+> ||= [[[top-rated-pages-by-month-2022|2022]]] ||
+> ||= [[[top-rated-pages-by-month-2021|2021]]]  ||
+> ||= [[[top-rated-pages-by-month-2020|2020]]] ||
+> ||= [[[top-rated-pages-by-month-2019|2019]]] ||
+> ||= [[[top-rated-pages-by-month-2018|2018]]] ||
+> ||= [[[top-rated-pages-by-month-2017|2017]]] ||
+> ||= [[[top-rated-pages-by-month-2016|2016]]] ||
+> ||= [[[top-rated-pages-by-month-2015|2015]]] ||
+> ||= [[[top-rated-pages-by-month-2014|2014]]] ||
+> ||= [[[top-rated-pages-by-month-2013|2013]]] ||
+> ||= [[[top-rated-pages-by-month-2012|2012]]] ||
+> ||= ##blue|**2011**##  ||
+> ||= [[[top-rated-pages-by-month-2010|2010]]] ||
+> ||= [[[top-rated-pages-by-month-2009|2009]]] ||
+> ||= [[[top-rated-pages-by-month-2008|2008]]] ||
+[[/div]]
+
+Here you will find the most favored pages on the site created in 2011. For the highest rated pages created this month, see [[[Top Rated Pages This Month]]].
+
+[[collapsible show="December 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.12"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="November 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.11"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="October 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.10"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="September 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.09"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="August 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.08"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="July 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.07"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="June 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.06"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="May 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.05"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="April 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.04"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="March 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.03"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="February 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.02"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="January 2011" hide="- Click to hide"]]
+[[module ListPages rating=">15" order="rating desc" separate="false" limit="200" perPage="25" date="2011.01"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]

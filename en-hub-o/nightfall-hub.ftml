@@ -1,0 +1,234 @@
+[[div style="display: none;"]]
+[[include :scp-wiki:theme:flopstyle-dark]]
+[[/div]]
+[[module CSS]]
+/* TALE BLURBS */
+.fancybox {
+    box-sizing: border-box;
+    padding: 2vw;
+    border: 2vw solid rgba(0, 0, 0, 0.5);
+    border-image: url("http://scp-sandbox-3.wikidot.com/local--files/fish-18/divbox.png") 600 round;
+    background-image: url("http://scpdsandbox.wdfiles.com/local--files/darkartist-s-hub-for-drafts-or-whatever/bloodmoon.png");
+    background-size: 18em;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-image-width: 6;
+}
+
+.fancybox a{font-family: "Montserrat", sans-serif; color: #bdbfc1}
+.fancybox a:hover{background-color: var(--accentColorLite)}
+.fancybox .title a {color: var(--accentColor); font-weight: bold; font-size: 125% background:radial-gradient(black 0%, transparent 70%); text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;}
+
+/* VARIABLE ESPECIFICATIONS */
+:root{
+     --accentColor: hsl(0, 89%, 41%);
+     --accentColorLite: hsla(0, 89%, 51%, .5);
+     --hue: 0deg;
+
+     --lgurl: url(https://scp-wiki.wdfiles.com/local--files/nightfall-hub/moon1.png);
+
+     --header-title: "NIGHTFALL";
+     --header-subtitle: "Everyone Dies in the Dark";
+
+     --textColor: hsl(212, 3%, 75%);
+     --bgColor: hsl(220, 20%, 10%);
+}
+
+/* HEADER */
+#extra-div-1{
+     filter: opacity(.1) saturate(1.25) brightness(1.25);
+}
+[[/module]]
+
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[div class="blockquote lightweight"]]
+Perhaps one day the light will return to this place. And we will live a life of happiness and plenty. But not today. Today the blood moon hangs low in the sky and reflects off the bay. No sunlight shines in this place of madness.
+
+The 2nd shift whistle blows and the midday bells begin to ring. People begin to stream through the streets.
+
+The Queen's Own Constables rumble across the cobblestones in the street just outside this apartment, shoving passersby out of the way.
+
+Each bears the blazing badge of the city of Dezmond, Capitol of the Kingdom of Xerophyllia. You close the curtains and look away. Certainly they're here to investigate yesterday's gruesome murder.
+
+As you explore the dark interior of the apartment, the victim of yesterday's violence still occupies your mind. Did they live in such squalor as this? Fighting day after day against the darkness inside them? Perhaps they didn't have to die screaming as a monster tore them apart.
+
+And then it strikes you. Embracing the night is the only way to survive in this bloody city. Of that you are certain.
+
+Your claws grow into daggers as the constables bang on the door. Hair begins to sprout from your body. A sickening crack echoes in the nearly empty apartment as your bones grow and displace. Your yellowed eyes rest on last night's victim, propped against the door frame. And you know a harsh truth.
+
+Here. Now. And perhaps for all time?
+
+Everyone dies in the dark.
+[[/div]]
+----
+[[collapsible show="Penny For Your Thoughts?" hide="You fool. Now I have your thoughts."]]
+
+[[div style="display: none"]]
+
+To include an entry, copy the following format:
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[second-part-of-the-url|Title Tale]]][[/span]]
+[[*user Author]]
+//Blurb//
+[[/div]]
+[[/=]]
+@@@@
+
+[[/div]]
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[the-tale-of-vanessa|The Tale of Vanessa]]][[/span]]
+[[*user MoreMuffins]]
+//Why wander across this dying world?//
+[[/div]]
+[[/=]]
+@@@@
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[embers|Embers]]][[/span]]
+[[*user DodoDevil]]
+//Magnus Kinslow watched the slow death of another world unfold.//
+[[/div]]
+[[/=]]
+@@@@
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[ulla-na-folla|Úlla na Folla]]][[/span]]
+[[*user Neatpicky]]
+//Yvith had, through brute force, tore her way inside the Archives.//
+[[/div]]
+[[/=]]
+@@@@
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[the-red-catalyst|The Red Catalyst]]][[/span]]
+[[*user Marcelles_Raynes]]
+//They were brothers, once. But decades of bloodlust drove them apart.//
+[[/div]]
+[[/=]]
+@@@@
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[stained-glass|Stained Glass]]][[/span]]
+[[*user Fish^12]]
+
+//There is no better place to die than in a church.//
+[[/div]]
+[[/=]]
+@@@@
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[he-walked-a-crooked-mile|He Walked a Crooked Mile.]]][[/span]]
+[[*user Doctor Cimmerian]]
+
+//These weren't my hands. These weren't my eyes. But this was my mind.//
+[[/div]]
+[[/=]]
+@@@@
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[crooked-kingdom|Crooked Kingdom]]][[/span]]
+[[*user Neatpicky]]
+
+//She was half of my soul. Now she’s gone. I don’t know anymore.//
+[[/div]]
+[[/=]]
+@@@@
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[rough-waters|Rough Waters]]][[/span]]
+[[*user toastee]]
+
+//Crimson moonlight glistened upon the waves, illuminating the decaying town.//
+[[/div]]
+[[/=]]
+@@@@
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[https://scp-wiki.wikidot.com/the-knights-of-wonder| The Knights of Wonder]]][[/span]]
+[[*user Tstaffor]]
+
+//A documentation and record of the enclave's adventures through the foreign environment of Xerophylla.//
+[[/div]]
+[[/=]]
+@@@@
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[https://scp-wiki.wikidot.com/scp-6248| SCP-6248]]][[/span]]
+[[*user LORDXVNV]]
+
+//SCP-6248-α is the White Phlegm of Yvith, which gushes from SCP-6248.//
+[[/div]]
+[[/=]]
+@@@@
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[Bury the Light]]][[/span]]
+[[*user Ralliston]]
+
+//He didn't think the man could get inside his house. But the man was full of surprises.//
+[[/div]]
+[[/=]]
+@@@@
+
+[[=]]
+[[div class="fancybox"]]
++ [[span class="title"]][[[Hobbies]]][[/span]]
+[[*user LAN 2D]]
+
+//I’ve seen people laugh so hard they died.//
+[[/div]]
+[[/=]]
+@@@@
+
+[[/collapsible]]
+----
+[[div class="blockquote lightweight"]]
++++ What is NIGHTFALL?
+NIGHTFALL is a gothic canon set in the Victorian Era, heavily inspired by popular works such as Bloodborne and Fallen London. The canon takes place in the kingdom of Xerophylla, a larger, national equivalent of Britain.
+
+In this alternate universe, the Foundation is essentially a governing body. Ruling over the Kingdom of Xerophylla following the **first Arcane War**, a war that brought the supernatural into the public eye.
+
+Many decades after the first Arcane War, the Foundation grew more confident, competent and arrogant. They create a weapon capable of slaying a god. Their target? Yvith, goddess of the night.
+
+Their attack fails. Yvith, filled with rage, plunges the world into eternal night. The undead and creatures of the night run rampant and the Foundation has gone silent.
+
+Now we have no choice, we must **embrace the darkness.**
+
++++ How to contribute?
+
+If you wish to write for NIGHTFALL, I'd first suggest you read some articles in the canon! Familiarize yourself with the tone and setting. If you need someone to look over your idea, PM [[*user MoreMuffins]] or join the [https://discord.gg/aUnw82J9bg NIGHTFALL discord server].
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** bloodmoon.png
+> **Name:** Blood Moon.jpg
+> **Author:** [[*user TheDarkArtist]]
+> **License:** Creative Commons Attribution-Share Alike 4.0 International
+> **Source Link:** 
+> **Derivative of:** https://commons.wikimedia.org/wiki/File:Blood_Moon.jpg
+> **Additional Notes:** Original Image by Abhranil Kundu
+
+> **Filename:** moon1.png
+> **Author:** [[*user Fish^12]]
+> **License:** Creative Commons Attribution-Share Alike 3.0
+> **Source Link:** https://scp-wiki.wdfiles.com/local--files/nightfall-hub/moon1.png
+=====
+[[include :scp-wiki:component:license-box-end]]

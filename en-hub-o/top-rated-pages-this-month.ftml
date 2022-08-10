@@ -1,0 +1,138 @@
+[[include :scp-wiki:component:earthworm
+| first=false | last=false | hub=yes
+| previous-url=https://scp-wiki.wikidot.com/shortest-pages-this-month | previous-title=Shortest Pages
+| next-url=/ | next-title=Top Rated Pages
+| hub-url=https://scp-wiki.wikidot.com/new-pages-feed | hub-title=New Pages Feed
+]]
+
+[!-- SCP Block --]
+
+[[div class="feature-block"]]
+
+[[div class="content-panel left-column"]]
+[[div class="panel-heading"]]
+Top Rated SCPs (Last 30 Days)
+[[/div]]
+[[div class="panel-body"]]
+
+[[module ListPages category="_default adult" rating=">10" tags="+scp -admin -artwork -author -contest -creepypasta -essay -former-author -goi-format -guide -hub -in-deletion -in-rewrite -news -orphaned -project -sandbox -site -splash -supplement -tale -workbench" order="rating desc" separate="false" date="last 30 day"]]
+%%title_linked%% (+%%rating%%)
+[[/module]]
+
+[[/div]]
+[[div class="panel-footer"]]
+  [!-- Placeholder --]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[!-- Tale Block --]
+
+[[div class="content-panel right-column"]]
+[[div class="panel-heading"]]
+Top Rated Tales (Last 30 Days)
+[[/div]]
+[[div class="panel-body"]]
+
+[[module ListPages category="_default adult" rating=">10" tags="tale" order="rating desc" separate="false" date="last 30 day"]]
+%%title_linked%% (+%%rating%%)
+[[/module]]
+
+[[/div]]
+[[div class="panel-footer"]]
+  [!-- Placeholder --]
+[[/div]]
+[[/div]]
+
+~~~~
+
+[!-- GOI Block --]
+
+[[div class="feature-block"]]
+
+[[div class="content-panel left-column"]]
+[[div class="panel-heading"]]
+Top Rated GOI-Formats (Last 30 Days)
+[[/div]]
+[[div class="panel-body"]]
+
+[[module ListPages category="_default adult" rating=">10" tags="goi-format" order="rating desc" separate="false" date="last 30 day"]]
+%%title_linked%% (+%%rating%%)
+[[/module]]
+
+[[/div]]
+[[div class="panel-footer"]]
+  [!-- Placeholder --]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[!-- Art Block --]
+
+[[div class="content-panel right-column"]]
+[[div class="panel-heading"]]
+Top Rated Art Pages (Last 30 Days)
+[[/div]]
+[[div class="panel-body"]]
+
+[[module ListPages category="_default art adult" rating=">10" tags="artist artwork" order="rating desc" separate="false" date="last 30 day"]]
+%%title_linked%% (+%%rating%%)
+[[/module]]
+
+[[/div]]
+[[div class="panel-footer"]]
+  [!-- Placeholder --]
+[[/div]]
+[[/div]]
+
+~~~~
+
+[!-- Misc Block --]
+
+[[div class="content-panel" style="width: 50%; margin: auto;"]]
+[[div class="panel-heading"]]
+Top Rated Other/Untagged Pages (Last 30 Days)
+[[/div]]
+[[div class="panel-body"]]
+
+[[module ListPages rating=">10" tags="-scp,-tale,-goi-format,-admin, -artist, -artwork" category="_default adult theme component component-backend" order="rating desc" separate="false" date="last 30 day"]]
+%%title_linked%% (+%%rating%%)
+[[/module]]
+
+[[/div]]
+[[div class="panel-footer"]]
+  [!-- Placeholder --]
+[[/div]]
+[[/div]]
+
+~~~~
+
+
+----
+
++ Archive
+
+[[[top-rated-pages | Top Rated Pages of All Time]]]
+[[[top-rated-pages-by-year | Top Rated Pages by Year]]]
+[[[Top Rated Pages By Month 2022]]]
+[[[Top Rated Pages By Month 2021]]]
+[[[Top Rated Pages By Month 2020]]]
+[[[Top Rated Pages By Month 2019]]]
+[[[Top Rated Pages By Month 2018]]]
+[[[Top Rated Pages By Month 2017]]]
+[[[Top Rated Pages By Month 2016]]]
+[[[Top Rated Pages By Month 2015]]]
+[[[Top Rated Pages By Month 2014]]]
+[[[Top Rated Pages By Month 2013]]]
+[[[Top Rated Pages By Month 2012]]]
+[[[Top Rated Pages By Month 2011]]]
+[[[Top Rated Pages By Month 2010]]]
+[[[Top Rated Pages By Month 2009]]]
+[[[Top Rated Pages By Month 2008]]]
+
++ See Also
+[[[featured-scp-archive|Featured SCP Archive I]]] | [[[featured-scp-archive-ii|II]]]
+[[[featured-tale-archive|Featured Tale Archive I]]] | [[[featured-tale-archive-ii|II]]]
+[[[featured-goi-format-archive|]]]
+[[[reviewers-spotlight-archive|Reviewers Spotlight Archive I]]] | [[[reviewers-spotlight-archive-ii|II]]]
+[[[young-and-under-30|]]]

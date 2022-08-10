@@ -1,0 +1,524 @@
+[[include :scp-wiki:theme:blankstyle]]
+[[include :scp-wiki:component:fade-in speed=1]]
+[[module css]]
+:root{
+  --header-title: "R\0026 C SITE-120";
+  --header-subtitle: "FIGHTING FIRE WITH FIRE";
+}
+
+div#extra-div-1 {
+    background-image: url(https://scp-wiki.wdfiles.com/local--files/secure-facility-dossier-site-120/120.png);
+    filter: opacity(20%);
+}
+[[/module]]
+
+[[module CSS]]
+:root {
+--problem: 241, 167, 92;
+}
+
+.creditRate {
+float: unset !important;
+margin-bottom: unset !important;
+}
+
+#top-bar div.open-menu a {
+border: none;
+background: black;
+color: white;
+}
+
+#header h1 a::before, #header h2::before {
+text-shadow: 0px 0px 12px white;
+}
+
+#header h1 a::before {
+-webkit-text-stroke: 2px black;
+}
+
+#header h2 {
+margin-top: 0.9rem;
+}
+
+#main-content {
+top: -0.5rem;
+}
+
+#top-bar, #top-bar a {
+top: 10rem;
+font-weight: bold;
+color: black;
+}
+
+::selection {
+background: #cf1932;
+text-shadow: none;
+color: white;
+}
+
+.scp-image-block .scp-image-caption {
+background-color: black;
+color: #ffffff;
+margin-top: 10px;
+}
+
+.scp-image-block {
+border: none;
+}
+
+.scp-image-block img {
+border: solid 1px black;
+box-sizing: border-box;
+}
+#page-content > hr:nth-child(2), div.paper hr:not(div.paper-content hr) {
+background: transparent !important;
+border-top: double 4px black;
+}
+[[/module]]
+
+-----
+[[div class="pseudocrumbs"]]
+[[[canon-hub|Canon Hub]]] >> [[[From 120's Archives Hub]]] >> Secure Facility Dossier: Site-120
+[[[Secure Facilities Locations|Foundation Facilities]]] >> Secure Facility Dossier: Site-120
+[[/div]]
+
+[[size 1%]]##transparent|.##[[/size]]
+
+[[=]]
+[[div]]
+[[include :scp-wiki:info:start]]
+[[=]]
+**Secure Facility Dossier: Site-120**
+
+Written by [[*user Ralliston]]
+
+**[http://scp-wiki.wikidot.com/ralliston-s-authorpage More by this author]**
+
+[[/=]]
+[[include :scp-wiki:info:end]]
+[[/div]]
+[[/=]]
+
+[[div style="text-align: center; margin: -10px auto 10px auto;"]]
+[[size 80%]]Written by **[[user Ralliston]]**[[/size]]
+[[/div]]
+
+[[div style="center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; margin: auto; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+
+[[div class="imagediv"]]
+[[image https://scp-wiki.wdfiles.com/local--files/secure-facility-dossier-site-120/120.png width="177px"]]
+[[/div]]
+
+[[=]]
++ SCP Foundation Secure Facility Dossier
+
++++ Site-120
+
+**Official Designation:** SCP Foundation Częstochowian Research and Reliquary Dimensional Containment Facility
+
+**Site Identification Code:** EUPLCA-Site-120
+[[/=]]
+----
+[[=]]
+++ General Information
+[[/=]]
+----
+[[include component:image-block name=medium.jpg|align=right|caption=Site-120's aboveground area as seen from the banks of Warta.|width=300px]]
+
+**Purpose:** Built atop [[[SCP-5292]]], Site-120 is the main hub of operations for the Department of Ontokinetics and its three sub-Departments -- the Divisions of Thaumaturgy, Theology, and Spatial Disruptions. As the oldest Site located within the boundaries of Poland, Site-120 is the primary unit of action during Poland-related activities and the main observation point for the [[[nexus-series|Free Port]]] of [[[esterberg-city-wikipedia|Esterberg]]].
+
+**Founded:** 02/05/1916
+
+**Location:** Abandoned industrial complex of Częstochowa, Poland
+
+**Founding Director:** Hannah Rivera / Raia Micheals
+
+**Cover Story:** Renovation and safe demolishing of abandoned industrial complexes within near proximity, radioactive waste disposal, cleaning of radioactively polluted areas of the Warta River nearby
+
+**Size:** Aboveground Area of 34 km²
+
+----
+[[=]]
+++ Site Overview
+[[/=]]
+-----
+[[=]]
+//Researching Realities / Fighting Fire With Fire / Belief is Key//
+[[/=]]
+
+As one of the few Sites built almost entirely near anomalous spaces and not using D-Class personnel whatsoever, Site-120 is a rather odd Site when compared to the rest of the facilities operated by the Foundation. Initially built as a provisional outpost within SCP-5292 (at that time known as PL-X0R38/0124) for the [[[historia-polskiego-projektu-przechowawczego|Polish Containment Project]]], Site-120 quickly became a larger facility with the anomaly it was supposed to monitor actively becoming a part of the entire building.
+
+[[include :scp-wiki:component:carousel
+| images=ontologo2.png,ontologonew2.png,120.png
+| caption=Site-120's logo evolution over time: 1916,[[span class="fnnum"]].[[/span]][[span class="fncon"]][[size 125%]]The original Department of Ontokinetics logo, created by [https://www.wikidot.com/user:info/jakob17 Dr. Jakob], later adopted as Site-120's logo.[[/size]][[/span]] 1959,[[span class="fnnum"]].[[/span]][[span class="fncon"]][[size 125%]]Re-designed by [https://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne Junior Designer S. Yvonne] following Dr. Ethan MacCarthy obtaining Site-120 directorship from the deceased Dr. Raia Micheals.[[/size]][[/span]] and 1985.[[span class="fnnum"]].[[/span]][[span class="fncon"]][[size 125%]]Re-designed by [https://scp-wiki.wikidot.com/azamo Dr. Adelaide Worth] following the Site-120 Director Council obtaining Site-120 directorship from the deceased Dr. Ethan MacCarthy.[[/size]][[/span]] 
+| interval=3
+| wiki=scp-wiki
+| page=secure-facility-dossier-site-120
+| width=300px
+| height=240px
+| position=right
+| no-caption=false
+| background=white
+| options=yes
+]]
+
+One full cooperation agreement with SCP-5292-2 and a couple of decades later, Site-120 stands strong as, ironically, a bastion of relative weirdness within the Foundation -- being one of the few Sites actively encouraging the usage of thaumaturgy, hiring of anomalous personnel, and exploitation of anomalous technology, the facility has a reputation of being an "anti-containment facility," sometimes incorporating the anomalous into its structure, systems, or staff, rather than containing it The shining example of this philosophy is [[[SCP-5672]]], which is actively used as a training grounds for its personnel rather than being closely monitored. Though this "fighting fire with fire" -- fire being here thaumaturgy, reality-bending, and anomalies -- has been initially looked down upon by the entire Foundation -- even following the implementation of [[[ralliston-s-proposal|Directive Alpha/1911]]] -- following the grand success of [[[secure-facility-dossier-site-43|Site-43]]]'s [[[on-guard-43-hub|implementation of esoteric containment and classes into its containment plans]]], the dislike for Site-120's system has visibly decreased.
+
+Being the hub for the entire Department of Ontokinetics, Site-120 is one of the few Sites that treat ontokinetics, thaumaturgy, and theology as real sciences with set rules, and not just anomalous influence. This approach, though dangerous at times -- with the most well-known incident being the unfortunate loss of Dr. Scranton, one of the lead ontokinetics researchers at Site-120 within [[[SCP-3001]]] -- has been noted to yield great results. Following Site-120's discovery and creation of numerous anti-ontokinetic and anti-thaumaturgic equipment and technology -- such as the Scranton Reality Anchors and Asheworth-Rivera Conduits and the [[[SCP-6172|entirety of the modern multiverse theory]]] -- numerous other Foundation departments are less than shy about using them.
+
+Site-120's overall research has proven itself to be extremely useful to the Foundation at large -- after years of non-stop studying and translating of SCP-5292-1 instances, Site-120 came to possess the most extensive physical and digital library of information concerning everything it researches, with the amount of information concerning its three main specialties being a particular point of pride. In fact, over its numerous operation years, this database became so large that it needed to be digitized, with a necessity for a special digital keeper to look over, catalog, and further study all such files -- this task is accomplished by [[[SCP-6079|Ra.aic]]], Site-120's primary [[[aiad-homescreen|Artificially Intelligent Conscript]]].
+
+
+-----
+[[div class="blockquote"]]
+
+[[f>image ra.png width="125px"]]
+
+**Designation:** Ra.aic ("Ra")
+
+**Classification:** Class-IV Positive-Aligned General Intelligence, ver1.2.1, Gen(II), Clearance Level 3
+
+**Description:** Developed in 1988 by a collaboration between the Departments of Ontokinetics and the Artificial Intelligence Applications Division, Ra.aic focuses on sorting and analyzing all knowledge regarding deities possessed by Site-120 for further research as well as on the general maintenance of its digital space. Named after one of the founders of the Site, Raia Micheals.
+
+[[/div]]
+----
+[[=]]
+++++ //Beyond Science, Towards Understanding//
+[[/=]]
+-----
+
+"Esterberg," "Tysiąclecie Górne," "Częstochowa's Free Port" -- many names were given to FP-120, the anomalous city under Site-120's watching eye. Built entirely within a pocket dimension parallel to the city of Częstochowa, Esterberg is the main hub for all anomalous races and activities within the region, acting as a safe space without the danger of Foundation interference.
+
+Due to numerous trust issues mainly caused by ideological differences and unpleasant prior interactions the Foundation-Esterberg relationship is most of the time less than ideal. Site-120's secondary objective is to fix this divide, as diplomatically as possible. To achieve this, the Foundation has been forced to cooperate with numerous [[[Groups of Interest]]] in the past. Though initially widely regarded as a bad idea, following the satisfying results given by the [[[the-gulf|Gulf Initiative]]] as well as the successful Foundation-GoI-571-20 ("[http://scp-int.wikidot.com/pzga-hub Polish Anomalous Mushroom Picking Association]") that occurred during SCP-PL-252's discovery, the Foundation-Esterberg cooperation plans have started to receive more and more funding with each year of activity, with continually improving results.
+
+----
+[[=]]
+++ Anomalies Under the Jurisdiction of Site-120
+[[/=]]
+-----
+
+[[div class="table4"]]
+||~ ID Number||~ Object Class||
+||[[[ralliston-s-proposal|SCP-001]]]||Thaumiel||
+||[http://scp-pl.wikidot.com/scp-pl-213 SCP-PL-213]||Pending||
+||[http://scp-pl.wikidot.com/scp-pl-252 SCP-PL-252]||Skótos||
+||[[[SCP-PL-253]]]||Keter/Tiamat||
+||[http://scp-int.wikidot.com/scp-pl-259 SCP-PL-259]||Euclid||
+||[http://scp-pl.wikidot.com/scp-pl-284 SCP-PL-284]||Archon||
+||[[[SCP-643]]]||Keter||
+||[[[SCP-3001]]]||Euclid||
+||[[[SCP-3963]]]||Safe||
+||[[[SCP-4845]]]||Safe||
+||[[[SCP-5292]]]||Yesod||
+||[[[SCP-5314]]]||Safe||
+||[[[SCP-5327]]]||Keter||
+||[[[SCP-5373]]]||Gödel||
+||[[[SCP-5464]]]||Euclid||
+||[[[SCP-5484]]]||Safe||
+||[[[SCP-5572]]]||Terminal||
+||[[[SCP-5659]]]||Keter||
+||[[[SCP-5672]]]||N/A||
+||[[[SCP-5795]]]||Keter||
+||[[[SCP-5815]]]||Safe||
+||[[[SCP-5890]]]||Keter||
+||[[[SCP-5936]]]||Euclid||
+||[[[SCP-6072]]]||Keter||
+||[[[SCP-6079]]]||Pending||
+||[[[SCP-6099]]]||Thaumiel||
+||[[[SCP-6120]]]||Eparch||
+||[[[SCP-6172]]]||Thaumiel||
+||[[[SCP-6198]]]||Euclid||
+||[[[SCP-6471]]]||Thaumiel||
+||[[[SCP-6483]]]||Integrated||
+||[[[SCP-6596]]]||Keter||
+||[[[SCP-6651]]]||Draugr||
+||[[[SCP-6672]]]||Argus||
+||[[[SCP-6744]]]||Safe||
+||[[[SCP-6747]]]||Thaumiel||
+||[[[SCP-6772]]]||Keter||
+||[[[SCP-6936]]]||Embla||
+||[[[7000contestralliston|SCP-7000]]]||Archon||
+||[[[7000contestfabledtiefling|SCP-7000]]]||Integrated||
+[[/div]]
+
+----
+[[=]]
+++ Site Layout
+[[/=]]
+-----
+[[=]]
++++ Aboveground
+[[/=]]
+
+Though not as impressive as the rest of the facility, Site-120's aboveground area is still a sight to behold -- transformed from an uninhabitable space left by the rapid industrialization of Częstochowa's nearby areas in the 19th century, it is now mainly occupied by an industrial complex seemingly bleeding into the newly planted green around. With a park, couple of animal habitats for animal anomalies the Site contains, riverbanks, and a small port located nearby, with each day the once toxic wasteland that was the area around Site-120 is being eliminated, giving into the newly found nature.
+
+[[=]]
++++ Level 1
+[[/=]]
+
+The first and largest floor of Site-120 is where the day-to-day life happens; filled entirely with staff offices, RAISA archives, recreational areas, and the Site's cafeteria. Almost no anomalies are contained within this area -- with the only exception to this rule being a large portion of Site-120's staff.
+
+[[=]]
++++ Level 2
+[[/=]]
+
+The second floor is where the actual research and containment happen. With highly equipped laboratories and research areas, containment cells -- even if a rarity -- and servers overlooked by Ra.aic, Level 2 is the main workspace for the entirety of the Site.
+
+[[=]]
++++ Level 3
+[[/=]]
+
+Being entirely occupied by SCP-5292 and the library it offers, Level 3 is a relatively strange space -- occupied by both translation offices led by Dr. Alistair Vemhoff and reading areas available to all staff for free access, the dimly-lit halls of Site-120's Grand Library are never devoid of life.
+
+[[=]]
++++ Level 4
+[[/=]]
+
+Located underneath a reinforced barrier dividing the maintenance spaces of Site-120 and SCP-5292, Level 4 houses most of the electrical apparatus that keeps the Site running. Being a maze filled with numerous dark hallways and long corridors, the technical space is one of the more interesting places Site-120 has to offer -- especially its plumbing system, with a sewage cleaning apparatus releasing purified water directly into the waters of Warta, which was built relatively early in the Site's development and thus remains a place filled with much weirdness -- sometimes more literally than one would expect.
+
+[[=]]
++++ Level 5
+[[/=]]
+
+Only available to Clearance Level 4+ personnel, Level 5 is by far the most ominous and secretive place within Site-120. With a Deepwell Archive and a small area acting as a total exclusionary zone, it is the final front of defense for personnel and information likewise. How many times it actually needed to be used though remains unknown.
+
+
+----
+[[=]]
+++ Staffing Information
+[[/=]]
+----
+
+[[div class="blockquote"]]
+[[=]]
+++++ Aboveground Personnel
+[[/=]]
+-----
+**Description:** Maintaining the Veil and protecting the secrecy of all of Site-120, Aboveground Personnel keep the aboveground structures working to maintain the illusion of normalcy.
+
+**№ of Members:** 41
+
+**Leader:** Mirosław Górski
+
+[[/div]]
+
+[[div class="blockquote"]]
+[[=]]
+++++ Site Director Council
+[[/=]]
+-----
+**Description:** Due to the lack of an appropriate candidate following the [[[SCP-5936|death of Site Director Dr. MacCarthy on 28/03/1984]]], and the number of complex divisions working within Site-120, it was decided by Overseer order that rather than a single individual ruling over the Site, a five-person council is to be in charge of this duty, with the following division of responsibilities:
+
+* **General Project Overseer and Department Director:** Dr. Magdaleine Cornwell
+
+* **Human Resources and Personnel Satisfaction Lead:** Dr. Jessie Rivera
+
+* **Grand Thaumist and Thaumaturgical Archivist:** Dr. Daniel Asheworth
+
+* **Theology Division Chief and Theological Projects Overseer:** Dr. Ethan MacCarthy Junior 
+
+* **Ontokinetics and Spatial Disruptions Chief:** Dr. James Micheals
+
+**№ of Members:** 5
+
+**Leader(s):** Dr. Magdaleine Cornwell, Dr. Jessie Rivera, Dr. Daniel Asheworth, Dr. James Micheals, Dr. Ethan MacCarthy Junior,
+
+[[/div]]
+
+[[div class="blockquote"]]
+[[=]]
+++++ Research Team
+[[/=]]
+-----
+**Description:** The main research organ for Site-120, focused on furthering the knowledge of anomalous sciences and objects within its custody.
+
+**№ of Members:** 163
+
+**Leader:** --[[[SCP-3001|Dr. Robert Scranton and Dr. Anna Lang]]]-- Dr. Mark Kaufmann[[span class="fnnum"]].[[/span]][[span class="fncon"]] Of the [[[SCP-1483|Third Empire]]], employed by the Foundation as one of the personnel given to it by [[[antarctic-exchange-hub|the Exchange]]]. [[/span]]
+
+[[/div]]
+
+[[div class="blockquote"]]
+[[=]]
+++++ Inter-species Communications Team
+[[/=]]
+----
+**Description:** Responsible for all inter-species negotiations and diplomacy, the Inter-species Communications Team is the main organ through which Esterberg-Foundation contact happens.
+
+**№ of Members:** 27
+
+**Leader:** Dr. Anna Szulc
+
+[[/div]]
+
+[[div class="blockquote"]]
+[[=]]
+++++ Translation Team
+[[/=]]
+-----
+**Description:** With numerous anomalies requiring the knowledge of anomalous languages and dialects -- such as all SCP-5292-1 instances -- the Translation Team ensures that all information gathered from these sources remains both true and readable.
+
+**№ of Members:** 43
+
+**Leader:** [[[in-life-as-in-language|Dr. Alistair Vemhoff]]]
+
+[[/div]]
+
+[[div class="blockquote"]]
+[[=]]
+++++ Administrative Team
+[[/=]]
+-----
+**Description:** The organ responsible for sorting all information within the Site's archives, both physically and digitally, as well as general report and information maintenance.
+
+**№ of Members:** 27
+
+**Leader(s):** James Moore, Ra.aic
+
+[[/div]]
+
+[[div class="blockquote"]]
+[[=]]
+++++ Maintanance Team
+[[/=]]
+-----
+**Description:** A large and hard-working team of maintenance personnel, focused on making sure the technical side of Site-120 works just as well as its staff.
+
+**№ of Members:** 67
+
+**Leader:** Mieczysław Bury
+
+[[/div]]
+
+[[div class="blockquote"]]
+[[=]]
+++++ Site Defence
+[[/=]]
+-----
+**Description:** Similarly to all Foundation Sites, Site-120 is at constant risk of attacks by hostile Groups of Interest, Persons of Interest, and anomalies -- this team ensures that no such attacks are successful.
+
+**№ of Members:** 89
+
+**Leader:** Cptn. Jeremy Cornwell
+
+[[/div]]
+
+-----
+[[=]]
+++ On-Site Mobile Task Force Units
+[[/=]]
+-----
+
+
+[[div class="blockquote"]]
+**Mobile Task Force Omega-6 ("Bearly Enough")**
+
+A three-man squad of ursinology experts trained in field operations focused entirely on making sure [[[SCP-5464]]]'s actions remain not interfered with, with their secondary objective being ensuring the anomaly's well being. These actions range from complex field operations through making sure its specialized habitat near Site-120's park remains in a good shape to simply taking it for a walk around said park on a regular basis.
+[[/div]]
+
+
+[[div class="blockquote"]]
+**Mobile Task Force Theta-120 ("Tyrfing Black")**
+
+A three-man Mobile Task Force consisting of the main research group of the [[[and-every-time-we-meet-again-hub|The Damien Nowak case]]]; despite their relatively high rankings within the Foundation -- these being the Site Director statuses of Jessie Rivera and Daniel Asheworth and the Chief of Security status of Jeremy Cornwell -- the team was decided to be a valuable field resource due to their high knowledge of PoI-5936. Currently existing only on paper with no responsibilities due to the PoI-5936 case being long-closed. 
+[[/div]]
+
+-----
+[[=]]
+++ Notable Event Logs
+[[/=]]
+-----
+
+[[div class="blockquote"]]
+**1984-1986**
+
+[[[SCP-5936]]], [[[SCP-5890]]], [[[SCP-5795]]], [[[SCP-5373]]], [[[SCP-5672]]], [[[SCP-6120]]], [[[SCP-6936]]]: [[[and-every-time-we-meet-again-hub|The Damien Nowak case]]], being the incident (or a series of them) Site-120 is most known for, was a longstanding investigation into the workings of a cult operating across Poland. Having occupied a large portion of the 1980s, the entire project was a rather important one to the entirety of the Site's history.
+[[/div]]
+
+[[div class="blockquote"]]
+**11/01/2004**
+
+Caused by an unexpected theft of PoI-001-C's ("[[[ralliston-s-proposal|Queen Mab]]]") soul, a two-manned retrieval squad consisting of Directors Cornwell and Rivera has been sent into Esterberg in an attempt to infiltrate the local Triumviraté cell, hoping to re-contain the stolen artifact. Further information available in the [[[gaslight-gatekeep-girlboss-hub|mission casefiles]]].
+[[/div]]
+
+[[div class="blockquote"]]
+**01/01/2021**
+
+[[[SCP-5956]]]: Following the empowering of the REISNO Cannon, Site-120 was [[[whack-a-mole|visited by Dr. Daniil Sokolsky of Site-43]]] with accompanying personnel, resulting in the furthering of his plans, as well as the [[[inadvertent-neolinguistics|unintentional embarassment]]] of one of Site-120's Directors.
+[[/div]]
+
+[[div class="blockquote"]]
+**01/04/2021**
+
+The first of April, 2021 was a relatively hard time for Site-120 -- falling victim to both a [[[049-x-minion-x-reader|reality collision]]] as well as a [[[danimals|sudden turning of one of the Director Council members into an ape]]], the chaos that ensued was one the Foundation had to deal with for more than it wanted to.
+[[/div]]
+
+
+[[div class="blockquote"]]
+**15/02/2030**
+
+[[[SCP-6172]]]; During the final test of SCP-6172 and the dissolution of the SCP Foundation, a fatal error occurred, stranding numerous vital Site-120 and Department of Ontokinetics personnel across the multiverse, which in turn forced the remaining staff to attempt to initiate any way possible to bring them back. Further details regarding the incident are available in [[[chronicles-of-the-irreal-hub|Project Hermes casefiles]]].
+
+[[/div]]
+
+[[size 1%]]##transparent|.##[[/size]]
+
+[[/div]]
+
+-----
+[[=]]
+[[collapsible show="» SHOW FOOTNOTES «" hide="« HIDE FOOTNOTES »"]]
+
+[[div class="blockquote"]]
+[[<]]
++++++ @@      @@ FOOTNOTES & REFERENCES
+
+# The original Department of Ontokinetics logo, created by [https://www.wikidot.com/user:info/jakob17 Dr. Jakob], later adopted as Site-120's logo.
+# Re-designed by [https://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne Junior Designer S. Yvonne] following Dr. Ethan MacCarthy obtaining Site-120 directorship from the deceased Dr. Raia Micheals.
+# Re-designed by [https://scp-wiki.wikidot.com/azamo Dr. Adelaide Worth] following the Site-120 Director Council obtaining Site-120 directorship from the deceased Dr. Ethan MacCarthy.
+# Of the [[[antarctic-exchange-hub|Third Empire]]], employed by the Foundation as one of the personnel given to it by the Exchange.
+[[/<]]
+[[/div]]
+
+[[/collapsible]]
+[[/=]]
+-----
+[[include :scp-wiki:component:wikimodule |ratings= --]]]
+-----
+[[=]]
+[[div]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** ontologo2.png
+> **Author:** [[*user Jakob17]] and [[*user Ralliston]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** N/A
+
+> **Filename:** 120.png
+> **Author:** [[*user Azamo]] and [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** N/A
+
+> **Filename:** ontologonew.png
+> **Author:** [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [http://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne link]
+
+> **Filename:** ontologonew2.png
+> **Author:** [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [http://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne link]
+
+> **Filename:** medium.jpg
+> **Author:** [https://www.flickr.com/photos/8466254@N03 Matt Jiggins]
+> **License:** CC BY-SA 2.0
+> **Source Link:** [https://search.creativecommons.org/photos/9e650ad8-a171-4f31-aba1-785361ba87c2 link]
+
+> **Filename:** ra.png
+> **Author:** [[*user Placeholder McD]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** N/A
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/div]]
+[[/=]]

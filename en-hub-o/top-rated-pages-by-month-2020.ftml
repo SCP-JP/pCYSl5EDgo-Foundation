@@ -1,0 +1,118 @@
+[[module css]]
+.toc-table {
+    float: right;
+}
+.toc-table table.wiki-content-table tbody td:first-of-type {
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+}
+@media (max-width: 979px) {
+    .toc-table tr {
+        display: inline;
+    }
+}
+[[/module]]
+
+[[div class="toc-table"]]
+> = **Year**
+> ||= [[[top-rated-pages-by-month-2022|2022]]] ||
+> ||= [[[top-rated-pages-by-month-2021|2021]]] ||
+> ||= ##blue|**2020**##  ||
+> ||= [[[top-rated-pages-by-month-2019|2019]]] ||
+> ||= [[[top-rated-pages-by-month-2018|2018]]] ||
+> ||= [[[top-rated-pages-by-month-2017|2017]]] ||
+> ||= [[[top-rated-pages-by-month-2016|2016]]] ||
+> ||= [[[top-rated-pages-by-month-2015|2015]]] ||
+> ||= [[[top-rated-pages-by-month-2014|2014]]] ||
+> ||= [[[top-rated-pages-by-month-2013|2013]]] ||
+> ||= [[[top-rated-pages-by-month-2012|2012]]] ||
+> ||= [[[top-rated-pages-by-month-2011|2011]]] ||
+> ||= [[[top-rated-pages-by-month-2010|2010]]] ||
+> ||= [[[top-rated-pages-by-month-2009|2009]]] ||
+> ||= [[[top-rated-pages-by-month-2008|2008]]] ||
+[[/div]]
+
+[[collapsible show="December 2020" hide="- Click to hide"]]
+**December 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.12"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="November 2020" hide="- Click to hide"]]
+**November 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.11"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="October 2020" hide="- Click to hide"]]
+**October 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.10"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="September 2020" hide="- Click to hide"]]
+**September 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.09"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="August 2020" hide="- Click to hide"]]
+**August 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.08"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="July 2020" hide="- Click to hide"]]
+**July 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.07"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="June 2020" hide="- Click to hide"]]
+**June 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.06"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="May 2020" hide="- Click to hide"]]
+**May 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.05"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="April 2020" hide="- Click to hide"]]
+**April 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.04"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="March 2020" hide="- Click to hide"]]
+**March 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.03"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="February 2020" hide="- Click to hide"]]
+**February 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.02"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]
+
+[[collapsible show="January 2020" hide="- Click to hide"]]
+**January 2020**
+[[module ListPages rating=">5" order="rating desc" separate="false" limit="200" perPage="25" date="2020.01"]]
+%%title_linked%% (rating: %%rating%%, comments: %%comments%%)
+[[/module]]
+[[/collapsible]]

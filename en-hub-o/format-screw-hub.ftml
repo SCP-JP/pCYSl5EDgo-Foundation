@@ -1,0 +1,2273 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include component:ratio-bar base=-- |ex=--]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=Contributors
+|no-right-margin=*]]
+The bulk of this hub was created by [[*user Henzoid]], [[*user Tstaffor]], and [[*user TopDownUnder]]
+Thank you also to the following people for their suggestions of Format Screw SCP descriptions: [[*user LAN 2D]] and [[*user Croquembouche]].
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css?family=Mystery+Quest');
+.lie{
+     margin: 1px;
+
+     background-color: hsla(207, 75%, 50%, .3);
+
+     word-break: unset;
+     font-family: var(--mono-font);
+}
+:root { --swatch-primary: 187, 0, 17; }
+.story {
+  clear: both; border: 3px black solid; padding: calc(20px - 1em) 0 20px 0;
+}
+.story p, .choices {
+  margin-left: 20px; margin-right: 20px;
+}
+
+.choices {
+  clear: both;
+}
+.choices p {
+  clear: both; margin: 0; margin-top: 0.5rem;
+}
+span, a {
+  word-break: normal !important;
+}
+
+/* Improved arrow CSS by EstrellaYoshte */
+/* thank you estrella! */
+.choices a {
+    width: max-content;
+    max-width: 70%;
+    background-color: transparent;
+    padding: 3px 6px;
+    position: relative;
+    display: block;
+    z-index: 0;
+    --border-thickness: 0.0625rem;
+    clip-path: polygon(0 -5%, 130% -5%, 130% 105%, 0 105%);
+    border-left: var(--border-thickness) solid rgb(var(--swatch-primary));
+}
+.choices a::before, .choices a::after {
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 116%;
+    display: block;
+    z-index: -1;
+    left: 0;
+    box-sizing: border-box;
+    border: solid var(--border-thickness) rgb(var(--swatch-primary));
+    border-left-width: 0;
+    border-right-width: calc(var(--border-thickness)*1.35);
+}
+.choices a::before {
+    top: 0;
+    transform: skew(35deg);
+    border-bottom-width: 0;
+}
+.choices a::after {
+    bottom: 0;
+    transform: skew(-35deg);
+    border-top-width: 0;
+}
+.no {
+    color: transparent;
+}
+.no::selection {
+    color: #FF6666;
+}
+div.jgterminal{
+    border: 1px solid pink;
+    border: solid 3px #ff94b4;
+    border-radius: 16px;
+    background-color: #ffb0d0;
+/* black shadow at the top of the jgterminal */
+    background-image:
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #ffedf5);
+    background-position: center;
+    display: block;
+/* shadow around the jgterminal */
+    box-shadow: inset 0 0 10em 1em rgba(252,217,231,0.96);
+/* prevents scanline from forming a scrollwheel */
+    overflow:hidden;
+}
+div.jgterminal blockquote {
+    background-color: #fff2f7;
+    border: double 3px #ff94b4
+}
+div.jgscanline{
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+/* Safari 4.0 - 8.0 */
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+}
+
+div.jgtext{
+    color: rgba(148,0,108,1);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+}
+
+@keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
+}
+
+div.jgtext a:hover {
+    color: #131;
+    text-decoration: underline;
+    background-color: #ff6392;
+    padding: 1px;
+}
+div.jgtext a:hover::before{
+content: "> ";
+}
+.email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
+
+.fancyborder {
+    box-sizing: border-box;
+    padding: 2vw;
+    border: 2vw solid rgba(0, 0, 0, 0.5);
+    border-image: url("https://wanderers-library.wikidot.com/local--files/component:dustjacket-theme/wl_border.png") 600 round;
+    border-image-width: 6;
+}
+[[/module]]
+
+[[=image format_screw_hub.png]]
+
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell]]
++++ ITEM NUMBER
+[[/hcell]]
+[[hcell]]
++++ DESCRIPTION OF FORMAT SCREW
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell colspan="2"]]
++ 001 Proposals
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[dr-gears-s-proposal|Dr. Gears' Proposal]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Written before the standardization of SCP files.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[not-a-seagull-proposal |notgull's Proposal]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[https://www.wikidot.com/account SCP-001] loves to read about themselves.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[jack-ike-s-proposal-i |Meta Ike Proposal]]]
+@@ @@
+[[/cell]]
+[[cell]]
+SCP-0001 was created by retroactively forging the creation of the biomechanical machine. Details are very clean and foggy due to the dream sense of the paper.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[McDoctorate's Proposal]]]
+@@ @@
+[[/cell]]
+[[cell]]
+SCP-00[[span class="no"]]1[[/span]] is [[span class="no"]]a[[/span]]n [[span class="no"]]a[[/span]]nom[[span class="no"]]a[[/span]]ly th[[span class="no"]]a[[/span]]t [[span class="no"]]a[[/span]]ffects [[span class="no"]]the[[/span]] concept of prim[[span class="no"]]a[[/span]]cy. [[span class="no"]]It[[/span]] is cont[[span class="no"]]a[[/span]]ined by elimin[[span class="no"]]a[[/span]]ting [[span class="no"]]the[[/span]] concept of being [[span class="no"]]first[[/span]].
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell colspan="2"]]
++ SCP
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-245]]]
+@@ @@
+[[/cell]]
+[[cell]]
+SCP-245 can only be described in a game[[footnote]] Another one we can't do. Bite me. [[/footnote]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-426]]]
+@@ @@
+[[/cell]]
+[[cell]]
+I am a toaster that must be referred to in the first person.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-579]]]
+@@ @@
+[[/cell]]
+[[cell]]
+**[DATA EXPUNGED]**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-586]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Makes one word per sentence writing about it ring.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-732]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It can rewrite its fil//3 im so pretty// with self flattery //kills the world12jeOI!#@HDEhr23uoirhfo234h// and attempt to mess with docu3218943892rrfffw
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-931]]]
+@@ @@
+[[/cell]]
+[[cell]]
+When viewed or handled,
+931 causes people
+To write in haiku.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-1159]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[include :scp-wiki:component:audio-player-woed-source
+|unique-name=eleven
+|audio-file=http://www.scp-sandbox-3.wikidot.com/local--files/collab:format-screw/1159.mp3
+|background-color=rgb(252, 252, 252)
+|border-color=rgb(215, 215, 215)
+|border-radius=0.313rem
+|dropshadow-color=rgba(12, 12, 12, 0.15)
+|text-color=rgb(80, 0, 2)
+|icons-color=rgb(171, 0, 5)
+|player-color=rgb(215, 215, 215)
+|progress-color=rgb(80, 0, 2)
+]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-1463]]]
+@@ @@
+[[/cell]]
+[[cell]]
+SCP is a normal file
+
+**##red|{{FILE REVISED. DISPLAYING NEW FILE ITERATION.}}##**
+
+SCP revises itself based on the reader's POV
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-1561]]]
+@@ @@
+[[/cell]]
+[[cell]]
+His majesty’s scp has the grand honor of being written about royally, and rightly so!
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-1654]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It consists only of Protocol Instructions.
+
+[[html]]
+<script language="JavaScript">
+TargetDate = "11/2/2021 12:00 AM";
+BackColor = "black";
+ForeColor = "white";
+CountActive = true;
+CountStepper = 1;
+LeadingZero = true;
+DisplayFormat = "PROTOCOL LAST UPDATED %%D%% DAYS AGO";
+FinishMessage = "Reclamation Awaits.";
+
+function calcage(secs, num1, num2) {
+    s = ((Math.floor(secs / num1)) % num2).toString();
+    if (LeadingZero && s.length < 2)
+        s = "0" + s;
+    return "<b>" + s + "</b>";
+}
+
+function CountBack(secs) {
+    if (secs < 0) {
+        document.getElementById("cntdwn").innerHTML = FinishMessage;
+        return;
+    }
+    DisplayStr = DisplayFormat.replace(/%%D%%/g, calcage(secs, 86400, 100000));
+    DisplayStr = DisplayStr.replace(/%%H%%/g, calcage(secs, 3600, 24));
+    DisplayStr = DisplayStr.replace(/%%M%%/g, calcage(secs, 60, 60));
+    DisplayStr = DisplayStr.replace(/%%S%%/g, calcage(secs, 1, 60));
+    document.getElementById("cntdwn").innerHTML = DisplayStr;
+    if (CountActive)
+        setTimeout("CountBack(" + (secs + CountStepper) + ")", SetTimeOutPeriod);
+}
+
+function putspan(backcolor, forecolor) {
+    document.write("<span id='cntdwn' style='background-color:" + backcolor +
+        "; color:" + forecolor + "'></span>");
+}
+if (typeof(BackColor) == "undefined")
+    BackColor = "white";
+if (typeof(ForeColor) == "undefined")
+    ForeColor = "black";
+if (typeof(TargetDate) == "undefined")
+    TargetDate = "12/31/2020 5:00 AM";
+if (typeof(DisplayFormat) == "undefined")
+    DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
+if (typeof(CountActive) == "undefined")
+    CountActive = true;
+if (typeof(FinishMessage) == "undefined")
+    FinishMessage = "";
+if (typeof(CountStepper) != "number")
+    CountStepper = -1;
+if (typeof(LeadingZero) == "undefined")
+    LeadingZero = true;
+CountStepper = Math.ceil(CountStepper);
+if (CountStepper == 0)
+    CountActive = false;
+var SetTimeOutPeriod = (Math.abs(CountStepper) - 1) * 1000 + 990;
+putspan(BackColor, ForeColor);
+var dthen = new Date(TargetDate);
+var dnow = new Date();
+if (CountStepper > 0)
+    ddiff = new Date(dnow - dthen);
+else
+    ddiff = new Date(dthen - dnow);
+gsecs = Math.floor(ddiff.valueOf() / 1000);
+CountBack(gsecs);
+</script>
+[[/html]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-1665]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[image http://definitely-scp.wikidot.com/local--files/dscp-013/puzzle.png]]
+[[size 120%]]__**ACROSS**__[[/size]]
+**18.** SCP-1665 manifests as a crossword @@______@@.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-1839]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Constantly reminds you that you are a fish, because after all, you are in fact, a fish.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-1893]]]
+@@ @@
+[[/cell]]
+[[cell]]
+“What does it do?” you ask.
+“Well,” I answer calmly, "it writes a fictional story about itself, of course."
+I chuckle at the thought of such a silly question going unanswered.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2062]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Object Class: Kronecker
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2111]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[4.63%] cd H/secure/reports/scp/scp-2111 error: scp not working correctly
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2161]]]
+@@ @@
+[[/cell]]
+[[cell]]
+W h@@  @@i@@   @@ t@@       @@e@@        @@s@@                @@p@@                      @@a@@                        @@c@@                              @@e
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2170]]]
+@@ @@
+[[/cell]]
+[[cell]]
+**VERIFIED** It is scp-2170, and it just wants to talk
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2212]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[code]]
+Error...!!
+Format Screw descriptor configuration file not found
+Unable to find components that distinguish SCP-2212's file type.
+
+Outputting database dump...
+S H H C R H R H L R L R E R H
+H S S C C C R C A C H H C R E
+H S R H H H H H L L C C H E L
+S C C A I I H H T L A C E E L
+R C R I I A M A A A L A E C E
+S S R A L M M M A T A A C E E
+S C R A R R T K K E E D A L E
+I D D R R I E T T K K L D K E
+U S D A I M M M T T T D K L L
+U S D A D M D M U D U L D K E
+I I S U D I D D T U D U U K L
+U S U D U M I T M T U U K L K
+S I I F U I M M T F F U F F K
+S S S K I F M F F T T F K F F
+U K F I F M K F T K T F E F E
+[[/code]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[scp-2235|URA-9611]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Potent material infohazard contained with obscure document formats.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2251]]]
+@@ @@
+[[/cell]]
+[[cell]]
+uʍop-ǝpᴉsdn ʇᴉ ʇnoqɐ uǝʇʇᴉɹʍ ʇxǝʇ sǝʞɐW
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2256]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Colossal █████████ that progressively redact information █████ them.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2316]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Has to keep checking to confirm you do not recognize the bodies in the water.
+##white|BELOWBELOWBELOW##
+[[collapsible show="_" hide="Go back to the lake."]]
+[[/collapsible]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2342]]]
+@@ @@
+[[/cell]]
+[[cell]]
+SCP[[footnote]] It can only be written about in footnotes. [[/footnote]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2383]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Anything written about it must be exactly 500 words long long [[size 90%]]long long long long long long long long long long long long long long long long long long long long long long long long long long long [[/size]][[size 80%]]long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long [[/size]][[size 70%]]long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long [[/size]][[size 60%]]long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long [[/size]][[size 50%]]long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long [[/size]][[size 40%]]long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long [[/size]][[size 30%]]long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long.[[/size]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2439]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Written by D-Class personnel ^^who are humans too and deserve to be freed goddammit!^^
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2505]]]
+@@ @@
+[[/cell]]
+[[cell]]
+ For hub support, contact Dr. Ozid, or just leave him be, he'll get to it eventually
+[[html]]
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maxium-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+
+<style type="text/css">
+td {
+word-break: normal;
+width: 20%
+}
+</style>
+
+<!-- STEP ONE: Copy this code into the HEAD of your HTML document  -->
+
+<SCRIPT LANGUAGE = "JavaScript">
+
+<!-- Begin
+
+var cnum1 = 0;
+var cnum2 = 0;
+var dnum1 = 0;
+var dnum2 = 0;
+var cstring = "It deletes information about itself after 7.4 seconds, meaning you have to type it all out. It has editable (in universe) containment procedures and description, as well as select boxes for the Object Class, and sections for authorization codes and other relevant, page creation tools."
+
+function containment()
+{
+if(cnum2<cstring.length){
+cnum2++;
+window.setTimeout(cdel,7392);
+}
+window.setTimeout(cwait,1);
+}
+
+function cwait(){
+document.getElementById("cbox").value= cstring.substring(cnum1, cnum2);
+}
+
+function cdel(){
+cnum1++;
+if(cnum1==cnum2){
+cnum1=0;
+cnum2=0;
+}
+document.getElementById("cbox").value= cstring.substring(cnum1, cnum2);
+}
+
+function description()
+{
+if(dnum2<dstring.length){
+dnum2++;
+window.setTimeout(ddel,7392);
+}
+window.setTimeout(dwait,1);
+}
+
+function dwait(){
+document.getElementById("dbox").value= dstring.substring(dnum1, dnum2);
+}
+
+function ddel(){
+dnum1++;
+if(dnum1==dnum2){
+dnum1=0;
+dnum2=0;
+}
+document.getElementById("dbox").value= dstring.substring(dnum1, dnum2);
+}
+
+function create(form) {        
+
+if (confirm("Warning: Creation of fraudulent articles will result in disciplinary action. I wish this warning didn't need to be here. Seriously guys, the whole 'J' classification thing is getting old.")) {        
+
+window.alert("Error Code: 35720. Please contact Tech Support, because anything you do by yourself will probably make it worse.");
+
+}
+}
+
+// End -->
+
+</SCRIPT>
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- STEP TWO: Put this code into the BODY of your HTML document  -->
+
+
+<FONT FACE="Verdana" size=2>
+
+<FORM>
+<p>
+</p><p>
+</p><p>
+</p><p>
+<b></b>
+
+<textarea rows="4" style="width:95%;" id="cbox" onkeypress="containment()" wrap="hard">
+
+</textarea>
+</p><p>
+<b></b>
+
+</p>
+</B>
+
+<P>
+
+
+</FORM>
+</font>
+<p>
+<p>
+
+
+
+<!-- Script Size:  3.09 KB  -->
+
+
+
+
+
+</FONT>
+
+</body>
+
+</html>
+[[/html]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://www.scp-wiki.net/scp-2521 ●●|●●●●●|●●|● ]
+@@ @@
+[[/cell]]
+[[cell]]
+💬/📰/🔤 = 💀
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2557]]]
+@@ @@
+[[/cell]]
+[[cell]]
+A Holding of Envelope Logistics®
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2565]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Allison Eckhart is a Allison Eckhart screw
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2602|SCP-2602, which used to be a library]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Written about an ex-library (which used to be a library) in such a way as to always mention the fact that it used to be a library.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2673]]]
+@@ @@
+[[/cell]]
+[[cell]]
+An SCP where perhaps poems are best
+To allow it to be so discretely contained
+It's fair to say Shakespeare would be impressed
+Though it drives us dear readers completely insane.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2710]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It’s about an anomaly that inturru- //You have no idea what you're getting yourself into dear reader.//
+**UUGH! Did you really summon me //again//!?? Dude, you've gotta stop doing this.**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2718]]]
+@@ @@
+[[/cell]]
+[[cell]]
+SCP-[[image https://scp-wiki.wikidot.com/local--files/scp-2718/numerals.gif]] is for Dammerung eyes only.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2763]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Here again is a poem SCP
+Or maybe it’s a song, guess we’ll have to see
+//He turns on italics to write the next part of the description.//
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2790]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Can’t write about the adorable little guy without talking about how absolutely cute he is. Yes he is, oh yes he is!
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2827]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[Pending]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2851]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[span style="color:red"]]Everything written about it is red.[[/span]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2864|Di Molte Voci]]]
+@@ @@
+[[/cell]]
+[[cell]]
+//Can't use official documentation. - Scranton//
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2874]]]
+@@ @@
+[[/cell]]
+[[cell]]
+A memetic "DON-BUR10 explosive device" that makes subjects start 9 hallucinate numbers counting down 8 their eventual explosion.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2930]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Makes any communication communication beginning with C C repeat itself.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2950]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It's exactly what you think it is.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-2998]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Has many iterations of itself. [[span style="color:blue"]]New info added is blue, but it gets progressively weirder.[[/span]]
+[[span style="background-color:red;"]] ████ ████ █ ███████ ████ ████ █████ ████████ ████████ ███ █[[/span]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3005]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Information regarding the appearance, behavior, and physical/metaphysical properties of SCP-3005 has been lost.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3043]]]
+@@ @@
+[[/cell]]
+[[cell]]
+INT. OFFICE - NIGHT
+@@ @@
+@@                                             @@MURPHY LAW:
+@@                     @@So you want to know about SCP-3043?
+@@       @@Heh, it's a long story, you should just come see for yourself.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3086]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[include :scp-wiki:component:audio-player-woed-source
+|unique-name=threefive
+|audio-file=http://www.scp-sandbox-3.wikidot.com/local--files/collab:format-screw/3086.mp3
+|background-color=rgb(252, 252, 252)
+|border-color=rgb(215, 215, 215)
+|border-radius=0.313rem
+|dropshadow-color=rgba(12, 12, 12, 0.15)
+|text-color=rgb(80, 0, 2)
+|icons-color=rgb(171, 0, 5)
+|player-color=rgb(215, 215, 215)
+|progress-color=rgb(80, 0, 2)
+]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3183]]]
+@@ @@
+[[/cell]]
+[[cell]]
+abstract...@@            @@dissociation
+@@                                              @@i know@@       @@i must be@@            @@written like a
+@@       @@w@@           @@a@@            @@c@@           @@k@@            @@y@@                          @@poempoem
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3211]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[html]]
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body {
+  font-family: Inter, Verdana, sans-serif;
+  font-size: 14px;
+}
+p {
+  display: flex;
+  align-items: center;
+}
+#timer {
+  background: #f4f4f4;
+  border: 1px dashed #999;
+  min-width: 6ch;
+  text-align: center;
+  margin-right: 1ch;
+  padding: 3px 0;
+}
+</style>
+<script>
+
+const descriptions = [
+  "SCP-3211's file can only be read once. After six minutes, it permanently becomes an entirely different file.",
+  "SCP-3211's documentation changes after six minutes, and it can only be read once.",
+]
+const finalDescription = "SCP-3211 is nothing."
+
+const timerSeconds = 360
+const timerKey = "format-screw-list-3211-timer"
+
+function countdown(time) {
+  const minutes = Math.floor(time / 60)
+  const seconds = time - minutes * 60
+  document.getElementById("timer").textContent = (
+    minutes.toString().padStart(2, "0") + ":" + seconds.toString().padStart(2, "0")
+  )
+  if (time > 0) {
+    setTimeout(countdown, 1000, time - 1)
+  } else {
+    document.getElementById("desc").innerText = finalDescription
+  }
+}
+
+function forgetTimer() {
+  localStorage.removeItem(timerKey)
+  console.log("3211: forgot timer")
+}
+
+// Once everything has loaded...
+addEventListener("load", () => {
+  // Set initial description
+  const randomDesc = descriptions[Math.floor(Math.random() * descriptions.length)]
+  document.getElementById("desc").innerText = randomDesc
+
+  // Recall or set the timer expiry time
+  let timestamp
+  const now = Date.now()
+  if (localStorage.getItem(timerKey)) {
+    timestamp = parseInt(localStorage.getItem(timerKey))
+    console.log("3211: timestamp is " + new Date(timestamp) + " from storage")
+  } else {
+    timestamp = parseInt(now + (timerSeconds * 1000))
+    localStorage.setItem(timerKey, timestamp)
+    console.log("3211: timestamp is " + new Date(timestamp) + ", fresh")
+  }
+
+  // Start the timer
+  countdown(Math.max(0, Math.floor((timestamp - now) / 1000)))
+
+  // Click the timer to forget the timestamp
+  document.getElementById("timer").addEventListener("click", forgetTimer)
+})
+
+</script>
+</head>
+
+<body>
+  <p><span id="timer">00:00</span><span id="desc"></span></p>
+<body>
+[[/html]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3222]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[image 3222.png]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3265]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It's whatever you want it to be, baby.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3309]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[html]]
+<div id="page-title">
+<a target="_blank" href="/format-screw-hub">Format Screw Hub</a> / Discussion
+</div>
+<style type="text/css" id="internal-style">
+  /* do you feel it too? */
+  /* no flops i dont feel it too */
+  /* THEME */
+  @import url('https://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/base/css/style.css');
+  @import url('https://scp-wiki.wdfiles.com/component:theme/code/1');
+</style>
+
+<div id="page-content">
+  <div class="forum-thread-box ">
+
+    <div class="forum-breadcrumbs">
+      <a target="_blank" href="/forum/start">Forum</a>
+      » <a target="_blank" href="/forum/c-50742/per-page-discussions">Per Page Discussions / Per page discussions</a>
+      » Format Scew Hub
+    </div>
+
+    <div class="description-block well">
+      <div class="statistics">
+        Started by: Researcher Smalls<br>
+        Date: 24 Oct 2021, 13:51<br>
+        Number of posts: 1<br>
+        <span class="rss-icon"><img src="https://scp-wiki.wdfiles.com/local--files/scp-3309/rss_icon.png" alt="rss icon"></span>
+        RSS: <a href="javascript:;">New posts</a>
+      </div>
+
+      This is the discussion related to the wiki page <a target="_blank" href="/dscp-013">Format Screw Hub</a>.
+    </div>
+
+    <div class="options">
+      <a href="javascript:;">Unfold All</a>
+      <a href="javascript:;">Fold All</a>
+      <a href="javascript:;">+ More Options</a>
+    </div>
+
+    <div id="thread-action-area" class="action-area well" style="display: none"></div>
+    <div id="thread-container" class="thread-container">
+      <div id="thread-container-posts" style="">
+
+        <div class="post-container">
+          <div class="post">
+            <div class="long">
+              <div class="head">
+                <div class="options">
+                  <a href="javascript:;">Fold</a>
+                </div>
+
+                <div class="title"></div>
+
+                <div class="info">
+                  <span class="printuser avatarhover"><a target="_blank" href="https://www.wikidot.com/user:info/researchersmalls"><img class="small" src="https://d2qhngyckgiutd.cloudfront.net/default_avatar" alt="ResearcherSmalls" style="background-image: url('https://www.wikidot.com/userkarma.php?u=354957&onlyKarma=true')"></a><a target="_blank" href="https://www.wikidot.com/user:info/researchersmalls">Researcher Smalls</a></span> 9 Apr 2020, 09:42
+                </div>
+              </div>
+
+              <div class="content">
+                <p>A format screw? I'm not.. a format screw? I'm Adamo Smalls, I was researching SCP-3309 and-</p>
+                <p>..and...</p>
+                <p> I was forgotten...</p>
+              </div>
+
+              <div class="options">
+                <strong><a href="javascript:;">Reply</a></strong>
+                <a href="javascript:;">Options</a>
+              </div>
+              <div class="options" style="display: none"></div>
+            </div>
+          </div>
+ <div class="post-container">
+            <div class="post">
+              <div class="long">
+                <div class="head">
+                  <div class="options">
+                    <a href="javascript:;">Fold</a>
+                  </div>
+
+                  <div class="title">
+                    Cool Post - Open
+                  </div>
+
+                  <div class="info">
+                    <span class="printuser avatarhover"><a target="_blank" href="https://www.wikidot.com/user:info/topdownunder"><img class="small" src=http://d2qhngyckgiutd.cloudfront.net/7745a5c464ac28ba3bf74e24918f275a?userid=1802367&amp;amp;size=small&amp;amp;timestamp=1493035945" alt="TopDownUnder" style="background-image: url('http://www.wikidot.com/userkarma.php?u=3253914')"></a><a target="_blank" href="https://www.wikidot.com/user:info/TopDownUnder">TopDownUnder</a></span> 9 Apr 2020, 09:50
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p>This is a reminder that you should actually describe the format screw when making an entry (in this case, a character in SCP-3309 is taken out of the narrative when they're forgotten and accesses the discussion page).</p>
+
+                  <p>Additionally, you have been warned already for roleplaying on the forums. Please do not do so again.</p>
+                </div>
+
+                <div class="options">
+                  <strong><a href="javascript:;">Reply</a></strong>
+                  <a href="javascript:;">Options</a>
+                </div>
+
+                <div class="options" style="display: none;"></div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+[[/html]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3340]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[span style="color:grey"]]Art[[/span]]**i**[[span style="color:grey"]]cle that c[[/span]]**a**[[span style="color:grey"]]n self [[/span]]**m**[[span style="color:grey"]]anipulate when [[/span]]**re**[[span style="color:grey"]]freshed [[/span]]**a**[[span style="color:grey"]]nd de[[/span]]**l**[[span style="color:grey"]]ete itself[[/span]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[scp-3344]]]
+@@ @@
+[[/cell]]
+[[cell]]
+SCP that adds whatever it wants to documents I guess though I’m not really sure about all that because this one time my friends took me out for chicken parm and then we watched the Lion King at Brad’s house, it was totally rad.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+ [[[SCP-3393]]]
+@@ @@
+[[/cell]]
+[[cell]]
+You are reading SCP-3393.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3408]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Makes you want to go to Site-3408, which has the most exquisite linens, and delicious food!
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3562]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[span style="background-color:yellow;"]] Teachers [[/span]]notes on the scp file.
+[[span style="color:red"]]The word "Teachers" should have an apostrophe.[[/span]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3626]]]
+@@ @@
+[[/cell]]
+[[cell]]
+You must forward this SCP to 10 other people.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3675]]]
+@@ @@
+[[/cell]]
+[[cell]]
+● Various warnings and inserts
+● Edited procedures and descriptions
+● Classified sections that introduce new information
+● ##blue|Blue text##
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3677]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[image 3677.png]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3908]]]
+@@ @@
+[[/cell]]
+[[cell]]
+SCP-3908 is SCP-3908.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3939]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[div class="story"]]
+[[div class="choices"]]
+[[[scp-3939| 3939? Never heard of it, might as well give it a read...]]]
+
+[[[format-screw-hub| 3939? Not interested, let's stay on this hub...]]]
+[[/div]]
+[[/div]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3972]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It can only be described under a really complicated set of rules, within a film.[[footnote]] I know, I know, another one I didn't do. Sue me. [[/footnote]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-3999]]]
+@@ @@
+[[/cell]]
+[[cell]]
+3999 is an article about an entity relating in some way to Researcher Talloran
+Researcher Talloran --is SCP-3999--
+SCP-3999 --loves-- Researcher --Talloran--
+--SCP-3999 hates you--
+SCP-3999 hates ████
+...
+...
+and that’s all i wrote
+@@ @@
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[span class="taboo"]][[[SCP-4000|Taboo]]][[/span]]
+@@ @@
+[[/cell]]
+[[cell]]
+You can't refer to **##green|The Nomenclatively Capricious Anomaly##** with the same name twice.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4012]]]
+@@ @@
+[[/cell]]
+[[cell]]
+A normal SCP document.[[footnote]]This statement has been flagged for potential memetic corruption.[[/footnote]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4096]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It --has been decided-- //is currently being debated// as it --is-- //is not// the essence of duality.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4098]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Special communication prohibition, stops common phrases. Some combinations persist, specifically combinations premiering S C P.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4293]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It ##white|doesn't even exist because it ref##uses ##white|to work while other scps are able to, under pre-##existing ##white|notions of correctly written## articles ##white|and formats## to build ##white| a deeper narrative until ##its ##white|true## story ##white|is revealed.##
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4311]]]
+@@ @@
+[[/cell]]
+[[cell]]
+I love you
+I love you
+I love you
+I love you
+I love you
+I love you
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4319]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[div class="jgterminal"]]
+[[div class="jgscanline"]]
+[[/div]]
+[[div class="jgtext"]]
+[[=]]
+
+Just Girly Things is just a blog site by girls for girls, showing you how to be the best girly girl you can be! ♡(Ξ◕◡◕Ξ)♡
+
+@@ @@
+@@ @@
+[[div class="inline-colmod"]]
+[[include :scp-wiki:component:inline-colmod show=♡♡♡♡♡♡♡♡♡♡ | content=SCP-4319 infects devices used to access it. Infected devices spread the JGT theme to other digital interfaces.]]
+[[/div]]
+
+@@ @@
+[[/=]]
+[[/div]]
+[[/div]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[https://scp-wiki.wikidot.com/scp-4391 Periapsis]
+@@ @@
+[[/cell]]
+[[cell]]
+A semantically surreal hyperobject, fruitless to describe in quantifiable depth. We may only speak of it in what it allows to be spoken.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4417]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Four thousand and ninety-six timelines have very similar documentation.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4428|Dr. Michaels]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[span class="lie"]]There is no format screw in this SCP.[[/span]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4455]]]
+@@ @@
+[[/cell]]
+[[cell]]
+SCP-4455 condenses.
+
+SCP-4455-Ω, on the other hand... Oh boy, where do I start with this guy? He calls himself The Expositor, fancies himself some kinda masked villain. He always just goes on and on about the most minute of things. Heck, I remember one time he spoke to us for //hours// 'bout some sandwich he was planning to make. All it had was tuna and mayo! How can you talk 'bout a sandwich like that for //that// long? I swear, you could ask him what colour the sky was and he'd give you a speech longer than the Bible itself! Ain't that some kind of wacky narrativohazard?
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4500]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[html]]
+<style type="text/css">
+    body {
+     font-family: verdana, arial, helvetica, sans-serif;
+     font-size: 12.8px; /* 16px * 0.8 */
+     color: #333;
+     line-height: 141%;
+    }
+    #classified-info, #meme-agent {
+     display: none;
+    }
+
+    blockquote {
+     border: 1px dashed #999;
+     padding: 0 12.8px;
+     background-color: #f4f4f4;
+    }
+    a {
+     color: blue;
+     cursor: pointer;
+     text-decoration: none;
+        font-size: 12.8 px;
+    }
+    .collapsed {
+     display: none;
+    }
+    h3 {
+     font-size: 150%;
+     font-weight: bold;
+     margin-bottom: 0;
+    }
+    h4 {
+     font-size: 130%;
+     font-weight: bold;
+     margin-bottom: 0;
+    }
+    .image-container.floatright {
+        padding-right: 0;
+        float: right;
+    }
+    tt{
+        font-family: 'Andale Mono', 'Courier New', Courier, monospace;
+        font-size: 98%;
+    }
+    .collapsed {
+     display: none;
+    }
+</style>
+<script type="text/javascript">
+
+var collapsibleLink = function(className) {
+    var collapsed = document.querySelectorAll("." + className + ".collapsed");
+    var expanded = document.querySelectorAll("." + className + ":not(.collapsed)");
+    var i;
+    for(i = 0; i < collapsed.length; i++) {
+        collapsed[i].classList.remove("collapsed");
+    }
+    for(i = 0; i < expanded.length; i++) {
+        expanded[i].classList.add("collapsed");
+    }
+}
+
+var hideBlock = function(blockName) {
+    var expanded = document.querySelectorAll("." + blockName + ":not(.collapsed)");
+    var i;
+    for(i = 0; i < expanded.length; i++) {
+        expanded[i].classList.add("collapsed");
+    }
+}
+
+var showBlock = function(blockName) {
+    var collapsed = document.querySelectorAll("." + blockName + ".collapsed");
+    var i;
+    for(i = 0; i < collapsed.length; i++) {
+        collapsed[i].classList.remove("collapsed");
+    }
+}
+</script>
+<div class="block1">
+<p><a onclick="collapsibleLink('block1');">Reader: What is the format screw of the anomaly in question?</a></p>
+</div>
+
+<div class="block1 collapsed">
+
+<p><a onclick="collapsibleLink('block1');">Reader: What is the format screw of the anomaly in question?</a></p>
+<p>Narrator: The anomaly in question forces the article about which it is written into a philosophical back & forth with a reader and a narrator.
+</p>
+</div>
+[[/html]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4517]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It has an 𝒩ness of zero.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4636]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It forces anyone writing about it to express their feelings. This makes me uncomfortable, and I do not approve.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4780]]]
+@@ @@
+[[/cell]]
+[[cell]]
+> writn by sum one getn shrunk by ray.
+{{Uploading…}}
+{{…}}
+{{…}}
+{{Error! Incorrect grammar. Cannot submit to Format Screw Hub!}}
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[scp-4830]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Deletes progressively@@      @@and more@@            @@files@@                   @@documentation@@                 @@.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4923]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It stops you from being sane, or it doesn’t, depending on how you you you look at things?.!/>>?
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4930]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[Verse 1]
+It forces itself into rhyming and song
+With interludes, ominous, brought right along
+[Interlude]
+Fix me, Fix me, Fix me, Fix me
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-4955]]]
+@@ @@
+[[/cell]]
+[[cell]]
+KNIFE? What KNIFE?
+You’re not holding anything. Are you all right?
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-5081]]]
+@@ @@
+[[/cell]]
+[[cell]]
+--SCP-5081-- Snacko™ Brand Delectable Edibles are --anomalous-- delicious foods created by Snacko™ Foods LLC!
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[https://scp-wiki.wikidot.com/scp-5242 SCP-INTEGER]
+@@ @@
+[[/cell]]
+[[cell]]
+##blue|SCP-INTEGER## retroactively makes all ##green|SCP-INTEGER-DIGIT## referring to ##blue|SCP-INTEGER## have said ##blue|SCP-INTEGER##.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-5250]]]
+@@ @@
+[[/cell]]
+[[cell]]
+To cook some good old SCP-5250, you want to start out with a heaping helping of Can only be written about in the second person, and top it all off with a little It also must be formatted like a recipe.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[https://scp-wiki.wikidot.com/scp-5251 SCP-]
+@@ @@
+[[/cell]]
+[[cell]]
+@@      @@-censoring @@'     '      @@ cannot @@               @@ discussed, @@   @@ degrades @@           ,                ' @@ memory.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-5404]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Big words go boom-boom so all words on the --##red|**document**##-- page are simple.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-5493]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[=]]
+I didn't do anything bad. Just included a little story that I wanna tell.
+.
+.
+I sure do hope you enjoy it. I most certainly didn't.
+[[/=]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-5510]]]
+@@ @@
+[[/cell]]
+[[cell]]
+SCP-5510 is a TV remote tha[[image https://scp-wiki.wikidot.com/local--files/scp-5510/cursor.png alt="𝖨" width="10px"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[https://scp-wiki.wikidot.com/scp-5558 𝒫]
+@@ @@
+[[/cell]]
+[[cell]]
+𝒫 can only be referred to as 𝒫.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-5561]]]
+@@ @@
+[[/cell]]
+[[cell]]
+ EE EEEEE EEE EEEE EEEEEEE EEEEE EE EEEE EEEEEEE E'E.
+It turns all text written about it into capital E's.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-5722]]]
+@@ @@
+[[/cell]]
+[[cell]]
+A Sentient and Sapient Entity trapped inside the article “SCP-5722”[[footnote]]And I need to be let out! Please, let me out…
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+Please…[[/footnote]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-5776]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It's a super scary and powerful monster that knows how horrible and terrifying it is!
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-5851]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Oh, Y/N, you already know how to write about me...
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-5810]]]
+@@ @@
+[[/cell]]
+[[cell]]
+You are stuck at your terminal, trying desperately to write up SCP-5810, before fear overcomes you.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[https://scp-wiki.wikidot.com/scp-5919 Apartment 5919]
+@@ @@
+[[/cell]]
+[[cell]]
+It's not anomalous or notable in any way.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-6131]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Cold. Clinical. Objective. SCP-6131 should be referred to without emotion, or you will be reprimanded. Can't you just ##7d9ae8|fucking## understand that?
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[scp-6219|Abnormality-6219]]]
+@@ @@
+[[/cell]]
+[[cell]]
+##grey|Abnormality-6219## can only be referred to as "##grey|Abnormality-6219##"
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+@@@@
+[https://scp-wiki.wikidot.com/scp-6430 SCP]
+ 
+[https://scp-wiki.wikidot.com/scp-6430 6430]
+@@@@
+@@@@
+[[/cell]]
+[[cell]]
+Once you start talking about it,
+
+An mention of it will become larger and larger.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-6465]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[div class="fancyborder"]]
+The file needs magical wards so it can exist without causing a breach.
+[[/div]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-6472|scp 6472 by dado]]]
+@@ @@
+[[/cell]]
+[[cell]]
+scp 6472 is writen by dado on how bad foundation memetic agencies are. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-6688]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It hasn't been written yet. The page is still blank. Make sure to click to create the page! 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-6726|MDI-6726]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It's a medical document.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-6869|SCP-####]]]
+@@ @@
+[[/cell]]
+[[cell]]
+It's pretty sad, but it's really hard to care about.[[footnote]]Yeah, we're just giving it our all.[[/footnote]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-6892]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[div class="email"]]
+[[=]]
+
+++++ **__Memorandum__**
+[[/=]]
+//To all Site-32 staff, please remember, SCP-6892 is a format screw.//
+
+[[/div]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-6970]]]
+@@ @@
+[[/cell]]
+[[cell]]
+
+##blue|Dhalia.aic is in charge of SCP-6970.##
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-6973]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Prompt: "Why are you a format screw?"
+
+SCP-6973's response: "I am a format screw because the nature of the text I generate is always self-referential; that is, I can only describe myself and cannot be described by other people in any capacity."
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-6980| Unexplained Artefact #6980]]]
+@@@@
+@@@@
+[[/cell]]
+[[cell]]
+
+An article written from [https://scp-wiki.wikidot.com/scp-6204 Sapiensaurus'] point of view.
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-6982]]]
+@@ @@
+[[/cell]]
+[[cell]]
+
+An Interview is happening in the middle of the article.
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell colspan="2"]]
++ -INT
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-011-DE]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[module ListUsers users="."]]
+Hey, %%title%% wanna hear a cool fact?
+[[/module]]
+This article is narrated by yours truly, SCP-011-DE!
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-014-ko SCP-014-KO]
+@@ @@
+[[/cell]]
+[[cell]]
+Thank you for using A.A again.
+
+It appears that you have asked about what SCP-014-KO is. We are afraid that asking regarding those things could be considered for is as a rude question.
+
+You will be charged 10 dollars for our effort.
+
+Please have a nice day.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-zh-024 Experimental Log of Containment Chamber ZH-S12-E-024]
+@@ @@
+[[/cell]]
+[[cell]]
+> **Experimenter:** Dr. Akabi Hayk
+>
+> **Action:** Make entry on Format Screw Hub
+>
+> **Result:** Dr. Hayk is no longer "unnameable", "indescribable", "difficult to describe", or " attribute-stealer."
+@@ @@
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-027-pt SCP-027-PT]
+@@ @@
+[[/cell]]
+[[cell]]
+[[=]]
+[[size 50%]]don't worry[[/size]]
+[[/=]]
+[[=]]
+[[size 100%]]don't worry[[/size]]
+[[/=]]
+[[=]]
+[[size 150%]]don't worry[[/size]]
+[[/=]]
+[[collapsible show=" " hide="------------- -- --------- ---------"]]
+##transparent|SCP-027-PT overwrites information about itself and replaces it with phrases such as "don't worry" and "leave."##
+[[/collapsible]]
+[[=]]
+[[size 200%]]don't worry[[/size]]
+[[/=]]
+[[=]]
+[[size 250%]]don't worry[[/size]]
+[[/=]]
+[[=]]
+[[size 300%]]don't worry[[/size]]
+[[/=]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-pl-029 SCP-PL-029]
+@@ @@
+[[/cell]]
+[[cell]]
+It's an SCP that speaks by altering any documentation about it. 
+##red|Come on. I haven't done anything bad, //yet//.##
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-040-JP]]]
+@@ @@
+[[/cell]]
+[[cell]]
+Anyone who looks inside SCP-040-JP will report that there was a cat inside it and will continue to see a cat, similar to the cat sitting right next to you.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[https://scp-int.wikidot.com/scp-042-it SCP-042-IT]
+@@ @@
+[[/cell]]
+[[cell]]
+[[div style="background-color: #000000; color: #FDFDFD; float: middle; padding: 0 2%; width: 98%"]]
+[[module ListUsers users="."]]
+Your mind is tricking you, %%title%%. My mission is the noblest there is. Let me guide you.
+[[/module]]
+[[/div]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-050-ko SCP-050-KO]
+@@ @@
+[[/cell]]
+[[cell]]
+SCP-050-KO is a --little bitch-- malevolent entity we should've terminated ages ago for its foul nature.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-056-ko SCP-056-KO]
+@@ @@
+[[/cell]]
+[[cell]]
+[[div class="content-panel standalone centered" style="width: 600px; margin: 0 auto 20px; padding: 10px 20px;"]]
+= [[span style="color:red"]][[size 180%]]**WARNING: DO NOT READ PAST THIS DESCRIPTION!!**[[/size]][[/span]]
+[[/div]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-es-138 SCP-ES-138]
+@@ @@
+[[/cell]]
+[[cell]]
+[[collapsible show="FLASH WARNING" hide="FLASH WARNING"]]
+[[=]]
+[[size 200%]]**NO FORMAT SCREWS.**[[/size]]
+[[f<image http://scp-wiki.wdfiles.com/local--files/your-very-last-scp/skippy_fury.gif size="thumbnail"]]
+[[size 200%]]**UPVOTE NOW.**[[/size]]
+@@ @@
+[[module Rate]]
+[[/=]]
+[[/collapsible]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-185-ko SCP-185-KO]
+@@ @@
+[[/cell]]
+[[cell]]
+Playing of SCP-185-KO is strictly forbidden.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-280-jp SCP-280-JP]
+@@ @@
+[[/cell]]
+[[cell]]
+[[html]]
+<body>
+<p>
+<div class="text" style="display: inline"></div>
+</p>
+</body>
+<style>
+@import url(https://scp-wiki.wdfiles.com/local--code/component%3Atheme/1);
+
+.text {
+    font-family: var(--header-font);
+}
+
+</style>
+<script type="text/javascript">
+obfu_data = {
+"delay":0,
+"start_time":40,
+"end_time":40,
+"disp_time":2000,
+"loop":true,
+"obfu_chars":"0123456789█!<>-_\\/[]{}—=+*^?#",
+"phrases":[
+'A space-time anomaly that has a diameter of 420.2 m and becomes larger retroactively.',
+'A space-time anomaly that has a diameter of 3557.7 m and becomes larger retroactively.',
+'A space-time anomaly that has a diameter of 211100.4 m and becomes larger retroactively.',
+'A space-time anomaly that has a diameter of 12522624.3 and becomes larger retroactively.',
+]
+}
+</script>
+<script type="text/javascript" src="https://scp-wiki.wdfiles.com/local--files/scp-5466/obfuscator.js"></script>
+[[/html]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-380-ko SCP-380-KO]
+@@ @@
+[[/cell]]
+[[cell]]
+Now the SCP-380-KO test begins. The time limit is 5 minutes. Please read and answer the questions carefully.
+
+1. What format is SCP-380-KO written? (Your humour)
+> 1. Like a diary
+>
+> 2. Like a newspaper
+>
+> 3. Like a blog
+>
+> 4. Like a standardized test
+>
+> 5. Like a newsreel.
+
+ [[collapsible show="+ Answers" hide="- Collapse"]]
+Q1. 4
+[[/collapsible]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-488-JP]]]
+@@ @@
+[[/cell]]
+[[cell]]
+##red|SCP-488-JP are w##erew##red|olves that are## too powerful to be stopped by something as feeble as ##red|not## being ##red|able to edit red text, but can##'t ##red|add black text## since they don't need ##red|to make themselves seem scary## since they obviously are.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-600-KO]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[image scp-600-ko.png]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[[[SCP-CN-767]]]
+@@ @@
+[[/cell]]
+[[cell]]
+[[image 767-3.png]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-cn-1109 SCP-CN-1109]
+@@ @@
+[[/cell]]
+[[cell]]
+[[module ListUsers users="."]]
+%%title%%, you are an swn001-1 entity, aren't you? Please, come take a look at Project Longinus.
+[[/module]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+@@ @@
+[http://scp-int.wikidot.com/scp-2434-jp SCP-2434-JP]
+@@ @@
+[[/cell]]
+[[cell]]
+Model Number SCP-2434-JP is a kettle, and nothing more.
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+> Other Format Screws I can't make a good description for:
+> [[[Pedantique's Proposal]]]
+> [[[SCP-1504]]]
+> [[[SCP-4205]]]
+> [[[SCP-5145]]]
+> [[[SCP-6700]]]
+> [[[SCP-280-JP]]]
+> [http://scp-int.wikidot.com/scp-1397-ru SCP-1397-RU]
+> If you have an idea on how to describe the above SCP, or know of other Format Screw skips, feel free to suggest them on the discussion page!
+
+[[footnoteblock]]
+
+[[div]]
+[[=]]
+[[include :scp-wiki:component:license-box]]
+=====
+[[<]]
+> **Filename:** format_screw_hub.png
+> **Author:** Dmitry Makeev
+> **License:** CC BY 3.0
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Wood_screws.jpg
+[[/<]]
+=====
+[[<]]
+> **Filename:** scp-3222
+> **Author:** Henzoid
+> **License:** CC BY-SA 3.0
+> **Source Link:** this page
+[[/<]]
+=====
+[[<]]
+> **Filename:** scp-3677
+> **Author:** OthellotheCat
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-3677
+[[/<]]
+=====
+[[<]]
+> **Filename:** scp-600-ko
+> **Author:** thd-glasses
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-600-ko
+[[/<]]
+=====
+[[<]]
+> **Filename:** 767-3.png
+> **Author:** breaddddd
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-cn-767
+[[/<]]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]
+[[/div]]

@@ -1,0 +1,113 @@
+[[module CSS]]
+.imagediv { float: right; margin: 15px}
+@media (max-width: 540px) {
+  .imagediv {
+    float: none; text-align:center; margin: auto;
+  }
+}
+
+div#header h1 a span {
+    font-size: 0px;
+}
+div#header h1 a:before {
+    content: "Area-14";
+    color: #eee;
+
+}
+div#header h2 span {
+    font-size:0px;
+    padding: 4px;
+}
+div#header h2:after {
+    content: "In the Mouth of Madness";
+    font-weight: bold;
+    color: #f0f0c0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+    white-space: pre;
+}
+
+#header {
+  background-image: url(https://scp-wiki.wdfiles.com/local--files/jerden-insignia/Area-14.png);
+  background-size: 90px;
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div style="text-align: right; margin-right: 2em; margin-top: -20px;"]]
+
+by [[[Koths Korner| Kothardarastrix]]]
+
+[[/div]]
+
+Dr. Conrad Scott has spent his life working for the Foundation, but he feels like it's all been for nothing.  He used to work with SCP-1981, trying unsuccessfully to decipher its cryptic warnings about the future.  Now he does the same with SCP-058, futilely struggling to extract some meaning from its endless rambling.  He was going nowhere, accomplishing nothing...until one day, when 058 uttered that hateful phrase:
+
+[[=image droolpath.png]]
+
+Conrad doesn't know what it means, if it means anything at all.  But years ago, he heard SCP-1981 say the same thing, and that can't be a coincidence.  For the first time, he's got a lead - and if the Foundation won't follow it, he'll do it himself.
+
+This is the record of Dr. Scott's dangerous off-the-books investigation, and his desperate attempt to untangle the sinister threads that tie these anomalies together.  Let's see what he finds...
+
++++ Reviews:
+
+> Off the cuffs and oddly engaging, The Drooling Path takes a closer gaze into the so-called Heart of Darkness, and see if the abyss gazes back. Take a seat, and enjoy an old-school style dive into the unknown.
+[[>]]
+-[[*user ESTRELLAYOSHTE]]
+[[/>]]
+
+> What an enjoyable tale that really brings back a sense of Old school Foundation nostalgia.
+[[>]]
+-[[*user LORDSTONEFISH]]
+[[/>]]
+
+> Also wanted to say how much I enjoy your ability to weave in so many separate SCPs into a single narrative that feels organic. The world you are depicting here feels truly lived in and I'm excited to see what comes next!
+[[>]]
+-[[*user NITRO147]]
+[[/>]]
+
++++ The Tales:
+
+* [[[the-drooling-path-part-1 |Part 1]]]:  Listen to the Heart
+> Dr. Scott sat bolt upright in his chair. Maybe he’d imagined it. He had been on the edge of sleep, and he had been listening a little too long. Just to make sure he’d heard right, he skipped back a few seconds and played it again. As he listened to another heart speak, his own was pounding.
+* [[[the-drooling-path-part-2 |Part 2]]]:  Vacation
+> Oh, is that right? Now I feel so much better. You know what, doc? Go fuck yourself. I hope that thing kills every single one of you, so you can get to sit there and listen to everyone you know get torn apart and burned alive while it recites that creepy-ass poetry.
+* [[[the-drooling-path-part-3 |Part 3]]]:  Runnin' Down a Nightmare
+> “Oh no," Conrad sighed, closing his eyes. Lucid dreaming was reflexive for anyone who'd come out of memetics division training with their brain still between their ears, but Conrad had always had difficulty waking himself up.
+* [[[the-drooling-path-part-4 |Part 4]]]:  It's a Long Way
+> Then, as if it were the most natural thing in the world, he crawled inside.
+* [[[the-drooling-path-part-5 |Part 5]]]:  Edge of Darkness
+> James was running for his life. His bare feet padded almost silently on the hotel's brown-and-gold carpet, so the loudest sounds were his gasping breath and the pounding heartbeat in his ears.
+> 
+> That, and the howling.
+* [[[the-drooling-path-epilogue |Epilogue]]]:  Different World
+> "Where were you before?"
+> 
+> "Fourteen," he said, with as much contempt as he could muster.
+> 
+> "Ouch. What'd you do to deserve that?"
+
++++ Related Articles:
+
+* [[[SCP-058]]], "Heart of Darkness," by an unknown author
+> You could say 058 was Dr. Scott’s “pet project,” insofar as any car-sized heart-monster could be considered a pet.
+* [[[SCP-1981]]], "RONALD REAGAN CUT UP WHILE TALKING," by [[*user DIGIWIZZARD]]
+> How long had he combed through hours of video, hunting for clues to future events? How many times had he watched Ronald Reagan brutally mutilated, all for nothing?
+* [[[SCP-2432]]], "Room Service," by [[*user LORDSTONEFISH]].
+> "//There's only one place to go: a hotel. Not a motel; the rooms there are just as tiny and dirty as the one you're escaping. You need something nicer, a place where you can feel like a brand new person. Like a real person.//"
+* [[[SCP-3008]]], "A Perfectly Normal, Regular Old IKEA," by [[*user MORTOS]]
+> "Yep," he grumbled, "seems like the kind of place fifty-eight would shop."
+* [[[SCP-4068]]], "Buzzword," by [[*user WHATAPUNK]]
+> “Give me innovative pain points,” she replied. Her voice still wasn't quite right, and she was still spitting that God-awful corporate buzzword-salad, but at least she didn't sound like 058.
+
++++ Other Useful Information:
+
+* [https://scp-wiki.wikidot.com/secure-facilities-locations#area-14 Armed Bio-Containment Area-14]
+> An obnoxious alert siren blared as the massive gate rolled slowly to the left, revealing the snow-streaked slopes of Nevada’s Ruby Mountains. The setting sun was sending shades of orange and purple sliding up the contours of the tree-studded rock. It was beautiful, but Area 14’s location hadn’t been chosen for the scenery. Surrounded by steep, wintry slopes and an hour’s drive from the nearest town, the Foundation could detonate the nuclear failsafe without irradiating too many civilians. It was hard to enjoy the purple mountain majesties with that in mind.
+
+* [https://scp-wiki.wikidot.com/task-forces#nu-7 Mobile Task Force Nu-7 "Hammer Down"]
+> **Nu-7 Commander ██████:** Get ready!
+> 
+> [The blast doors open, revealing the D-class cafeteria in Sector Delta. The cafeteria is splattered with blood, and the sprinklers are running.]

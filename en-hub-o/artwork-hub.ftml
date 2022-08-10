@@ -1,0 +1,133 @@
+= [[size 200%]]**Artist Showcase**[[/size]]
+
+= Click the showcased artist's name to view their art page!
+
+----
+
+[[include component:image-block name=https://cdn.discordapp.com/attachments/691763397338857542/939741240629559366/1903.png|align=right|width=200px|caption=Interpretation of [[[SCP-1903]]], by [[*user agente alan]]. Click the preview to see it at full size.|link="https://cdn.discordapp.com/attachments/691763397338857542/939741240629559366/1903.png"]]
+
+[[div style="background-color: #2e4050; background: linear-gradient(to right, #666,#eee,#fff); padding: 0px 8px;"]]
+++ [[span class="artist-header"]][[[art-page-from-agent-alan| Art page from Agent Alan]]] [[/span]]
+[[/div]]
+
+I've always liked to give characters my own design, adding details or clothing that they didn't have before. For [[[SCP-1903]]] I decided to draw her wearing something other than the white dress she is always drawn in. I thought about it for some time until I came up with the idea of a long dark blue dress with white dots; I wanted her to be elegant as well, so I drew her with a scarf and some other details. SCP-1903 is, in my opinion, an article with one of the images that best represents the anomaly, and I think that's why I made this design one of my own. I hope to do more someday!
+
+~~~~
+
+[[include component:image-block name=https://64.media.tumblr.com/a8dbfb71fad0da8f6a988ebbe803f4f5/bc3a220a0a7bb2ae-11/s2048x3072/3a511bc36ae43ff869eea96c0a997cab78831b27.png|align=left|width=120px|caption=Depiction of [[[SCP-ES-113]]], by [[*user nihonio]]. Click the preview to see it at full size.|link="https://64.media.tumblr.com/a8dbfb71fad0da8f6a988ebbe803f4f5/bc3a220a0a7bb2ae-11/s2048x3072/3a511bc36ae43ff869eea96c0a997cab78831b27.png"]]
+
+[[div style="background-color: #2e4050; background: linear-gradient(to left, #666,#eee,#fff); padding: 0px 8px;"]]
+[[>]]
+++ [[span class="artist-header"]] [[[nihonio-s-artpage | Nihonio's Artpage]]][[/span]]
+[[/>]]
+[[/div]]
+
+I made this piece back for the SCPtober in 2021. Sadly, I only could do two of the days (Favorite article and [[[SCP-ES-113]]]), but it was extremely fun to see everyone participate and submit their drawings. As part of the social media team over the hispanic branch, I got to spread a lot of the art done for it. Hope if it's done again this year more people might want to join in. 
+
+Anyways, this piece also helped me realize I liked painting more than I originally thought. So that's another plus.
+
+~~~~
+
+[[include component:image-block name=http://scp-sandbox-3.wdfiles.com/local--files/ananomalouswriter/SCP%205000%20Desktop%20With%20Text.jpg|align=right|width=250px|caption=Illustration of [[[SCP-5000]]], by [[*user AnAnomalousWriter.]]. Click the preview to see it at full size.|link="http://scp-sandbox-3.wdfiles.com/local--files/ananomalouswriter/SCP%205000%20Desktop%20With%20Text.jpg"]]
+
+[[div style="background-color: #2e4050; background: linear-gradient(to right, #666,#eee,#fff); padding: 0px 8px;"]]
+++ [[span class="artist-header"]] [[[ananomalouswriter-s-wallpaper-place-and-more| AnAnomalousWriter's Wallpaper Place]]][[/span]]
+[[/div]] 
+
+SCP-5000 is probably the article I can attribute that firmly cemented my interest in the SCP universe, and in a way instigated my future contributions off-site and on-site. So I thought, why not make SCP-5000 the second article to be featured in my more ambitious "Art Piece Wallpaper Series." and here we are :D
+
+Thought of the composition of the image by visualizing the final scenes of the article, paired with the iconic message. Also chose a larger scale overall to emphasize the threat of going against the Foundation. Furthermore, also used it as an experimentation with lighting and compositing, specifically the backlit scenes. A testing ground of sorts for a thing I have yet to release/complete at this time of writing ;)
+
+~~~~
+
+[[div style="background-color: #2e4050; background: linear-gradient(to right, #666,#fff,#fff); padding: 0px 8px;"]]
+++ [[span class="artist-header"]][[[artist-showcase-archive| Artist Showcase Archive]]][[/span]]
+[[/div]]
+~~~~
+----
+= [[size 200%]]**Artist Master List**[[/size]]
+
+[[module CSS]]
+.content-panel .content-type-title > p {
+  margin: 0;
+}
+.content-panel .content-type-title {
+  font-size: 120%;
+  font-weight: bold;
+  padding: 5px 20px;
+  background-color: #666;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,.8),
+    inset 0 15px 1px rgba(255,255,255,.2),
+    inset 0 15px 10px rgba(255,255,255,.2);
+}
+.content-panel .content-type-description {
+padding: 0 20px;
+text-align: justify;
+}
+.content-panel.content-row .content-type-description {
+padding: 5px 20px;
+}
+.content-panel.content-row .content-type-description-2 {
+padding: 0 20px;
+text-align: justify;
+}
+
+.artist-header a{
+    color: white;
+    text-shadow: #003 2px 2px;
+}
+[[/module]]
+
+[[div class="content-panel standalone content-row"]]
+[[div class="content-type-title"]]
+Artwork Pages
+[[/div]]
+
+[[div class="content-type-description-2"]]
+
+[[table style="width: 100%;"]]
+[[row style="font-weight: bold; color: #fff; background-color: #666;"]]
+[[cell style="padding: 0 2px; width: 50%;"]]
+Page
+[[/cell]]
+[[cell style="padding: 0 2px; width: 25%; text-align: center;"]]
+Last Update
+[[/cell]]
+[[cell style="padding: 0 2px; text-align: center;"]]
+Created By
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[/div]]
+
+[[div class="content-type-description"]]
+
+[[module ListPages order="updated_at desc" tag="artwork artist" category="*" prependLine="[[include component:listpages-table]]" perPage="20" appendLine="[[/table]]" separate="false"]]
+[[row]]
+[[cell style="vertical-align: top;"]]
+%%title_linked%%
+[[/cell]]
+[[cell style="vertical-align: top; text-align: center;"]]
+%%updated_at%%
+[[/cell]]
+[[cell style="vertical-align: top; text-align: left;"]]
+%%created_by_linked%%
+[[/cell]]
+[[/row]]
+[[/module]]
+
+[[/div]]
+[[/div]]
+
+
+----
+
+
+[[=]]
+++* ENTRY REQUIREMENTS
+[[/=]]
+
+If you'd like to post your own art here to the site, please check out [[[how-to-post-your-art-to-the-scp-wiki |this guide first!]]] It goes over image hosting, basic CSS formatting, customization, and posting requirements. You're free to personalize the page however you like, but note that art pages are subject to the [[[deletions-guide|Deletions process]]] like any other posted page.

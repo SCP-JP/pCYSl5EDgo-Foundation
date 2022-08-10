@@ -1,0 +1,174 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[module css]]
+@import url("https://use.typekit.net/tqr1skr.css");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Poppins:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+h4 {
+    color: #780d8e;
+    padding: 0 0 0.25em;
+    margin: 0 0 0.6em;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/* NEWSPAPER, slight modification of Pitchfork CSS by Lt Flops */
+.newspaper-header{
+    line-height: 38.1px;
+    font-size: 300%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.parawatch{
+    background-color: #000;
+    border: 2px solid #262626;
+    color: #f2f2f2;
+    font-family: "Courier", "Courier New", "Roboto Mono", monospace;
+    padding: 0 1em;
+    font-size: 1.1em;
+}
+.parawatch hr{margin: 1em 2em; padding: 0; height: 1px; border: none; background-color: #f2f2f2;}
+
+.parawatch blockquote{
+    background: #000;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #262626;
+}
+
+:root {
+    --header-title: "SCProtectorate";
+    --header-subtitle: "Mundus, Liberari";  
+--logo-image: url("https://scp-wiki.wdfiles.com/local--files/mundus-liberari/MundusLiberari.png");
+
+[[/module]]
+[[include :scp-wiki:component:text-style]]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div class="blockquote"]]
+//Mundus, Normalis// - "The World, Normal"; the creed of the Global Occult Coalition
+[[/div]]
+
+[[div class="parawatch"]]
+**##grey|Account Purged##** 00/00/00 ERR 763: POST NO. NOT FOUND
+-----
+...I'm not going to pretend that what Parawatch used to be was //meaningful//. One of our forum moderators thought a Bigfoot rising was always imminent, for chrissake.  But Rook "retired" without even saying goodbye, more and more of the people that gave this place life have either been perma'd or gone inactive, and the new admins kill any article or thread that doesn't have even the slightest HINT of a fashy or Alex Jones-y undertone. Parawatch is being gutted, and there's no anesthetic...
+[[/div]]
+@@ @@
+[[div style="border:solid 1px #9400D3; background:#f2f2c2; padding:7px; margin-bottom: 10px;"]]
+[[=]]
+++++ [[size 300%]]Announcement[[/size]]
+
+[[span style="color:purple"]]...While the good Doctor will be stepping down, the magic and whimsy of Doctor Wondertainment, Inc. will continue under the gracious new ownership of...[[/span]]
+[[/=]]
+[[/div]]
+@@ @@
+[[div class="blockquote"]]
+[[=image https://scp-wiki.wdfiles.com/local--files/deer-college-hub/DeerSeal.png link="deer-college-hub"]]
+> = [[span class="newspaper-header"]]To The Bitter
+> = End, We Shall Write[[/span]]
+[[/div]]
+@@ @@
+@@ @@
+[[div class="blockquote"]]
+//Mundus, Liberari// - "The World, Freed"; the creed of the Security and Containment Protectorate
+[[/div]]
+@@ @@
+[[div class="blockquote"]]
+[[=]]
+
+[[=image https://scp-wiki.wikidot.com/local--files/mundus-liberari/MundusLiberari.png]]
+
+**WE WILL SECURE** and liberate the realms, citizens, and technology that you have violently taken control of.
+
+**WE WILL CONTAIN** your operatives, informants, and sympathizers, so that they will stand trial for their crimes against the worlds.
+
+**WE WILL PROTECT** and shelter the refugees of your massacres, and make the worlds without you a safer place for all.
+
+[[/=]]
+[[/div]]
+
+[[tabview]]
+[[tab Overview]]
+Three Portlands has fallen.
+
+The Library has been burnt to ash.
+
+Every day, a little bit more of the worlds, both behind the Veil and beyond it, is snatched by the talons of the Global Occult Coalition. 
+
+Knowledge is consumed by fire or locked away.
+
+Paratechnology is maliciously repurposed. 
+
+Magic is gradually snuffed out.
+
+Entire species and cultures are put through the shredder, all for the goal of "normalcy".
+
+One group is doing its damndest to make sure that the worlds don't go down with a whimper.
+
+Originally created as part of the 2020 Art Exchange for the user [[*user Raptie]] by [[*user Nykacolaquantum]], the world of Mundus, Liberari is a radical reinterpretation of the setting, dynamics, and premise of the Foundationverse like you've never seen before. Themes of black-and-grey morality, "the enemy of my enemy is my friend", strained partnerships, anti-fascism and rebellion are all deeply embedded in this series' core. How will you join the fight?
+
+[[/tab]]
+[[tab Entries]]
+* [https://scp-wiki.wikidot.com/re-kto-0001-bellfather RE: KTO-0001-Bellfather "Overwatch Council"] by [[*user Nykacolaquantum]]
+* [[[Ecce Insurgo]]] by [[*user LordXVNV]]
+* [https://scp-wiki.wikidot.com/re-kto-1466-houdini RE:KTO-1466-Houdini "Mages' Academy] by [[*user Jerden]]
+[[/tab]]
+[[tab The Players]]
+__Main pieces__
+* **The Global Occult Coalition:** A fascist, bigoted group, whom seemingly appeared from nowhere with the single-minded goal of quashing anything considered "abnormal" from the world. Whether it is by completely destroying their targets or absorbing anything useful from them and tossing away the remaining, marrow-sucked bones. They are decidedly //not// the UN-beholden organization that you are familiar with; untied to any one nation, and unscrupulous enough to ignore the Geneva Convention and laws of war in order to pursue their goal.
+* **The Security and Containment Protectorate:** An organization, composed of the remnants of former anomalous Groups and a few dimensional stowaways with nowhere else to go, formed to fight the Global Occult Coalition tooth and nail using their combined knowledge and resources. It is led by the Overwatch Council, one much more hands-on in their duties than the ones you've seen before. The members of the Council are:
+ * //ADAM//, the legacy of Prometheus Labs
+ * //Charles Ambrose//, ex-CEO of Ambrose Restaurants
+ * //Vincent Anderson II//, ex-CEO of Anderson Robotics
+ * //Marion Carter//, ex-CFO of Marshall, Carter, & Dark
+ * //Alyx Chao//, a member of the Black Queen, stranded in the universe of ML after the greater Library cut its losses
+ * //Tonya Chappell//, bastard granddaughter of Richard and formerly part of the Chicago Spectre
+ * //"The Critic"//, former head of anartist collective Are We Cool Yet?
+ * //"dado"//, amorphous pharmaceutical and business entrepreneur with too many past ventures to list off here
+ * //Maria Dracu//, vampyre and ex-journalist for Deer College's //The Oddysey//
+ * //Wilna Fritz//, former head admin for Parawatch
+ * //Gibson//, Hedwigian-Maxwellist Mekhanite
+ * //Icky//, former Clown and ex-ringleader for the Circus of the Disquieting
+ * //Jude Kriyot//, member of Gamers Against Weed
+ * //M'r'j'nz//,  former occupant of the Wanderers' Library from an unknown dimension
+ * //Quinn MacCallister//, former FBI agent of the Unusual Incidents Unit
+ * //"Nobody"//, member of the group of the same name
+ * //Faeowynn Wilson//, former co-manager of Wilsons' Wildlife Solutions
+ * //Isabel Wondertainment//, ex-president, CEO, and "Key Creative Director and Big Boss Woman" of Doctor Wondertainment, Incorporated
+
+__Wild cards__
+* **Gamers Against Weed:** Jude was not the only member to escape unharmed from the battle of Kenowhere, though their location is unknown.
+* **Nobody:** A very hidden group with unknown intentions for the world overall. However, at least one of their members is on the Protectorate's side.
+* Innumerable other [https://scp-wiki.wikidot.com/goi-complete-list Groups] who can either be persuaded to join the Protectorate, or be forcibly brought into the Coalition's fold. Neutrality can only last so long in this world. 
+[[/tab]]
+[[tab So, you'd like to join the resistance?]]
+This series is indefinitely open for contribution, for anyone who might like to take a crack at writing for a wildly different formula of story. However, there are some things that you should know.
+
+* **__This series, by its very nature, is incompatible with literally every other one out there, and very difficult to write skips in__**. There are just too many differences with the worlds, characters, and groups for Mundus, Liberari to naturally lead into anything like Broken Masquerade, From 120's Archives, No Return or what have you. The best you'll probably be able to do, if you really want to cross the canons, is have documentation from this series somehow get sent into one of the other universes.
+* **__The Global Occult Coalition is not invincible__**. Like many other fascist organizations, there are blind spots to its eyes, holes in its security, places where its talons are not able to reach. Try to avoid any military tacticool wankery, if you ever want to write from their perspective.
+* **__The Protectorate is not infallible__**. The Overwatch Council alone is made up of individuals from all across the left-right political spectrums, with different values, vices, and morals. They can, and they will, occasionally have a clash of ideals that will temporarily interfere in their goals (see the fistfight briefly described between Jude and the Critic for the most extreme example). They will eventually see their goal to the end, but tensions will never really cool down.
+* **__The path of this series is not set in stone__**. Do the Protectorate succeed in their goal of defeating the Coalition, and bring peace to both sides of the Veil? Do they become their own antithesis, and some other group has to rise to combat a Protectorate that became what they intended to destroy? Does something else throw a wrench in the gears of both sides of the conflict? This series is split-timeline/sub-canon friendly. If you have an idea, please don't hesitate to contact [[*user Nykacolaquantum]]!
+[[/tab]]
+[[/tabview]]
+
+[[include :scp-wiki:component:license-box
+|author=Nykacolaquantum]]
+=====
+> **Filename:** //DeerSeal.png//
+> **Name:** //File:Complete Guide to Heraldry Fig390.png//
+> **Author:** Arthur Charles Fox-Davies/[[*user ch00bakka]]
+> **License:** CC BY-SA 3.0 (Public Domain Components)
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Complete_Guide_to_Heraldry_Fig390.png Wikimedia Commons]/[http://www.scpwiki.com/local--files/deer-college-hub/DeerSeal.png The SCP Wiki]
+
+> **Filename:** MundusLiberari.png
+> **Name:** Mundus,&Liberari
+> **Authors:** [[*user Crow Gu]] and Liang'Chen
+> **License:** CC-BY-SA 3.0
+=====
+[[include :scp-wiki:component:license-box-end]]
