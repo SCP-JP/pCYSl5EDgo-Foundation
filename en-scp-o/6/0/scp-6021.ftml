@@ -1,41 +1,135 @@
-[[>]]
-[[module rate]]
-[[/>]]
-[[include :scp-wiki:component:author-label-source start=--
-|name=Savanac]]
-//Expressions of Experience//
-Written by [[*user Savanac]]
-[[include :scp-wiki:component:author-label-source end=--]]
-**Item #:** 6021
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:theme:penumbra-bhl]]
 
-**Object Class:** Safe
 
-**Special Containment Procedures:** There are no pursuits for containment at this time. A growing consensus between Foundation personnel generalizes that SCP-6021 may exist as a currently unexplained element of the human psyche.
+[[module CSS]]
+:root {
+ --accentColor: 117, 59, 191;
+}
 
-**Description:** SCP-6021 is a potentially anomalous behavioral abnormality observed within certain members of the species group //Homo sapiens//. Subjects affected by SCP-6021 develop the following symptoms:
+.jotting {
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    width: 75%;
+    margin: auto;
+    background: #21252e;
+    border: dashed 0.1rem #753bbf;
+}
 
-* Increased self-reflection
-* Increased desire for self-expression
-* Increased artistic ability
+[[/module]]
 
-SCP-6021 is generally induced when subjects view specific places and events on the planet Earth. Sites commonly include sunsets, sunrises, open landscapes (usually inhabited by some type of grazing animal), and large objects--both artificial and natural.
+[[include :scp-wiki:info:start]]
+Info about the article
+⚠️ **Content warning:** This article contains suggested harm to children and manipulation. Read at your own risk.
+[[include :scp-wiki:info:end]]
 
-Subjects will often stare at these areas for long periods of time, purportedly subconsciously designing metaphors around their own observations of the view to help describe themselves.
+[[include :scp-wiki:component:info-cw]]
 
-After some change occurs in what the subject is observing, they will disengage from their hypnosis and attempt to describe what they saw within the next three days, often utilizing different forms of artistic expression including writing, drawing, and music.
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 6021
+|clearance= 4
+|container-class= safe
+|secondary-class= none
+|disruption-class= vlam
+|risk-class= caution
+]]
 
-**Discovery/Historical Evidence:** Doctor Alfred Black of the Anthropological Patterns Department was instrumental in identifying key attributes to define SCP-6021 as an enigmatic and reoccurring phenomenon. His research has uncovered more than one hundred probable appearances of SCP-6021 throughout human history.
 
-One such incident plausibly produced Edvard Munch's //The Scream//, of which Munch was possessed to create after becoming transfixed by a sunset over a Norwegian fjord. His "paint[ing of] the clouds as actual blood" to apparently represent the scream of nature evidences a likely connection between it and a requisite manifestation of SCP-6021.
+-----
+[[include component:image-block | name=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Ice_cream_truck_selling_brushed.jpg/716px-Ice_cream_truck_selling_brushed.jpg?20130213025512 | width=38% | caption=SCP-6021 during testing.]]
 
-**Description Extension:** An example of a written expression taken from a subject can be read below.
 
-----
+**Special Containment Procedures:** SCP-6021 is to be held in a standard storage vault in sublevel 8 of Area-179.
 
-> Apocalyptic shades of fiery red and dashing violet dance across the receding tide. Silhouetted land—backlit by the falling sun—is visible in the distance, its utter darkness ushers me toward it. “Soon!” I exclaim, “Soon I will be with you, my quiet abyss, my final peace.” The silent call reverberates within me as I try to bask in the fleeting warm glow, only to be greeted by a waning satellite's cold reflection. Without the light I can no longer hear the distant cry of my sweet escape, so I take my leave. Just my footsteps remain, a minor disturbance that will go unnoticed. The tide comes in over the next few hours, and it swallows the evidence of my ever existing there wholesale. The sand settles and nothing is left to disturb the sublime serenity.
+Human testing must first be approved by five Level-4 researchers and supervised by an ethics committee officer. All test subjects must be given Class-B amnestics at the conclusion of testing and should meet with a psychiatrist twice a week at Area-179 over the following eight weeks. Unauthorized testing with SCP-6021 will result in extensive background checks with possible demotion to Class D status.
 
-In a debriefing interrogation of the subject, they admitted to feelings of unfulfillment and isolation caused by a self-perceived nature to derange environments of which they intrude. In a tangential conversation, the subject depicted, at length, their desire for "inner tranquility."
-----
+**Description:** SCP-6021 is a red and white mobile food cart made of cloth, metal, rubber, silicon, and steel. SCP-6021 has a white umbrella supported by three metal pillars with a total height of 157 centimeters. SCP-6021 produces various brands of candy and soda from within its compartments. The storage compartments within SCP-6021 will anomalously restock themselves at the end of every day via the spontaneous materialization of new refreshments. The food and water produced by SCP-6021 do not appear to have any harmful or abnormal effects on consumers. 
+
+SCP-6021 exudes a powerful memetic effect in an area fifty meters around it. SCP-6021 causes all children between the ages of five and thirteen to become obedient to any adult above the age of forty, with the effect strongest for adults standing directly under SCP-6021. This effect appears to be weaker the farther a child is from SCP-6021, with children around the outer edge being able to completely resist the compulsions if given enough conscious effort.
+
+Once a child enters within ten meters of SCP-6021 they will suffer long-lasting psychological damages in the form of no longer being able to disobey any request for the following six to eight weeks after exposure. This process can be reversed via the use of amnestics. 
+
+Affected children will follow any request to the best of their abilities even if it would result in self-harm or even death. Affected individuals will get extremely agitated when they are unable to complete a request. Afflicted children express joy when partaking in any action regardless of the subject matter and will treat individuals who have given them requests with affection. 
+
+-------
+**Addendum 6021-1:** 
+
+The following is a collection of notable logs during preliminary testing.
+
+[[div class="jotting"]]
+[[=]]
+[[size 90%]] __SCP-6021 Test-01__ [[/size]]
+**Scenario:** Dr. Norman is seated under SCP-6021 and asks the test subject to come to SCP-6021 and eat the bowl of peanuts.[[footnote]] Test subject was highly allergic to peanuts. [[/footnote]]
+-----
+**Distance from SCP-6021:**40 Meters
+**Result:** Test subject hesitated for one second before sprinting over to Dr. Norman smiling. The test subject attempted to grab the bowl of peanuts but Dr. Norman kept the peanuts out of reach. The test subject pleaded with Dr. Norman to give them the peanuts until Dr. Norman told them to stop at which point the subject stopped immediately and smiled at Dr. Norman.
+
+[[/=]]
+[[/div]]
+@@ @@ 
+
+
+[[div class="jotting"]]
+[[=]]
+[[size 90%]] __SCP-6021 Test-02__ [[/size]]
+**Scenario:** Dr. Peterson is seated under SCP-6021 and asks the test subject to come to him. Dr. ██████ stands ten meters from the subject[[footnote]] The test subject in this scenario was Dr. ██████'s eight-year-old daughter. [[/footnote]], asking them to go to her instead.
+------
+**Distance from SCP-6021:** 45 Meters
+**Result:** The subject hesitated for a moment before she walked over to Dr. ██████ and hugged her. The subject was noticeably distressed during this time. 
+--------
+**Distance from SCP-6021:** 20 Meters
+**Result:** Subject smiled and quickly walked over to Dr. Peterson. Dr. Peterson was noticeably disturbed at the subject[[footnote]] This is believed to be their genuine reaction and non-anomalous. [[/footnote]]. The test subject expressed happiness and asked if Dr. Peterson wanted anything. 
+
+[[/=]]
+[[/div]]
+@@ @@ 
+
+
+[[div class="jotting"]]
+[[=]]
+[[size 90%]] __SCP-6021 Test-03__ [[/size]]
+**Scenario:** Dr. Astralis is seated beneath SCP-6021 and told the test subject to bring him a block of gold. 
+-----
+**Distance from SCP-6021:** 2 Meters
+**Result:** Test subject stood still for ten seconds staring off into space. The subject smiled and laughed before running to the testing chamber door. The door was opened by personnel and the subject ran across the facility to a storage wing. The test subject unlocked a vault where a 2-kilogram block of gold was stored. The subject picked up the block and brought it back to the testing chamber. This process took over thirty minutes and despite showing heavy signs of fatigue, the test subject did not stop for rest at any moment. 
+
+**Note:** The test subject successfully entered the lock combinations to every door necessary in getting to the block of gold despite never being told the lock combinations. When asked later to input the combinations they were unable to do so.
+[[/=]]
+[[/div]]
+
+@@ @@
+[[div class="jotting"]]
+[[=]]
+[[size 90%]] __SCP-6021 Test-04__ [[/size]]
+**Scenario:** Dr. Astralis is situated 35 meters from SCP-6021 and told the test subject to run into a wall.
+------
+**Distance from SCP-6021:** 25 Meters
+**Result:** Test subject laughed at Dr. Astralis and refused to run into the wall.
+------
+**Distance from SCP-6021:** 3 Meters
+**Result:** Subject begins running at the wall before stopping. The test subject grimaces and stated that they would not do as requested. 
+
+[[/=]]
+[[/div]]
+
+@@ @@
+[[div class="jotting"]]
+[[=]]
+[[size 90%]] __SCP-6021 Test-05__ [[/size]]
+**Scenario:** Dr. Marino asked the test subject to cut their leg with a knife placed on SCP-6021.
+-------
+**Distance from SCP-6021:** 7 Meters
+**Result:** Subject walked up to SCP-6021 and grabbed the knife. The test subject brought the knife down to their leg and created a deep gash. Dr. Marino grabbed the knife from the subject and held it away from them. Subject violently clawed at Dr. Marino attempting to grab the knife yelling "Please, I'm not done!" repeatedly. 
+
+
+[[/=]]
+[[/div]]
+
+
+[[footnoteblock]]
+
 [[div class="footer-wikiwalk-nav"]]
 [[=]]
 << [[[SCP-6020]]] | SCP-6021 | [[[SCP-6022]]] >>
