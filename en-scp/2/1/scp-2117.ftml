@@ -1,0 +1,17 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module CSS]]
+@import url(/component:scp-pride/code/1);
+[[/module]]
+
+[[module css]]
+sup { 
+vertical-align: top; position: relative; top: -0.5em; 
+}
+[[/module]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
