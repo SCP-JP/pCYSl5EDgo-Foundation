@@ -1,0 +1,850 @@
+[[module CSS]]
+
+div.terminal{
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
+    /* black shadow at the top of the terminal */
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
+    /* shadow around the terminal */
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    /* prevents scanline from forming a scrollwheel */
+    overflow:hidden;
+}
+div.terminal blockquote {
+    background-color: black;
+    border: double 3px #80FF80
+}
+div.scanline{
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+}
+
+div.text{
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+}
+
+@keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
+}
+
+div.text a {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a.newpage {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a:hover {
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
+}
+div.text a:hover::before{
+    content: "> ";
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 6832
+|clearance= 4
+|container-class= euclid
+|secondary-class= none
+|disruption-class= vlam
+|risk-class= caution
+]]
+
+**Special Containment Procedures:** SCP-6832 is to be kept within a 30cm^^3^^ structural steel box with an inner box made up of two inches of steel, followed by three inches of fiberglass followed by a further two inches of steel.
+
+The box is to be kept under a constant electrical current of 100 kV and constant surveillance by no less than two armed guards and three surveillance cameras. Testing is only to be permitted by Clearance-4 Personnel or higher.
+
+The container is to be kept in an Isolated room with three inches of reinforced steel and sound-proof walls, guarded by no less than two armed guards at any time. 
+
+As of now, it is contained at Site-█ in the Euclid-Wing of the facility.
+
+**Description:**   
+**SCP-6832-1** is a 6x6x12cm diamond-shaped object with a crystalline purple transparent outer shell with its “core” being made up of a black and purple viscose liquid-like substance. The Item is adorned by ornately shaped metals in a spiral shape arranged around SCP-6832-1 of different origins and make-up. The item gives off a glow of 40W yet it appears to consume the surrounding area with darkness.
+The item has one main anomalous effect, which can best be described as the termination of other anomalous effects. If exposed to other anomalies, SCP-6832-1 begins to emit a glow-like effect, while its darkening effect seems to lessen spontaneously. The other anomaly in the case of it being an object begins to experience a decrease of anomalous activity over time. The range of the objects affected varies from 1 to 37 meters^^3^^. The effect of the item seems to weaken until after exposure of approximately 30 minutes to 4 hours, at this point, the item temporarily loses its effect. In the case of living organisms, the effect could be harmful. Such side effects may include; nausea, hypothermia, confusion, headaches, and effects similar to that of a diabetic shock.
+
+If not exposed to any anomalous energy source for 24 hours it begins to drain different energy sources, beginning with electrical currents, after approximately 18 hours, it begins to absorb thermal energy until the room reaches absolute zero, and after approximately 12 hours, goes over to kinetic energy, yet it has not been allowed to go past that stage, out of fear of it damaging the facility or any staff.
+
+**SCP-6832-2** are bubbles of varying color and saturation which float 15 to 20cm above the object they have left, after absorbing a differentiation amount of other SCP-6832-2 it rapidly moves into SCP-6832-1. 
+
+[[collapsible show="+ Test 03 - 08/03/████" hide="- Test 03 - 08/03/████"]]
+
+__**Test 03 - 08/03/████**__
+[[div class="blockquote"]]
+**Subject: SCP-6832** 
+
+**Procedure:** 
+__Preparation:__
+-x1 Class-D Personnel.
+-x3 Security Personnel.
+-x1 Hazmat Suit responsible for deactivating the chamber and moving the SCP.
+-[[[SCP-403|SCP-403]]] is brought into the chamber.
+The containment chamber of  SCP-6832 (the crystal thus referred to as SCP-6832-1) was used as the room for the experiment.
+
+The experiment was suggested by Dr. Willis, and accepted with the permission of Director Dark.
+
+**<Begin Log,[08/03/████]>**
+
+**<15:00>** 
+D-8376 enters the containment chamber. 
+
+**<15:01:25>** 
+The armed guards wheel a safe into the room containing [[[SCP-403|SCP-403]]].
+
+**<15:01:50>** 
+[[[SCP-403|SCP-403]]] is placed by D-8376 (from the safe) within 10cm of SCP-6832.
+
+**<15:11>** 
+The first recorded effects started to materialize at this point: transparent bubbles (from now on referred to as SCP-6832-2] with differentiating colors with a recorded pattern of yellow, orange, and red appear from [[[SCP-403|SCP-403]]] at a constant speed of about 5cm per minute. 
+
+**<15:15>** 
+The amount of SCP-6832-2 in the air levitating precisely between 15 and 20cm above [[[SCP-403|SCP-403]]] stays consistent at about forty instances of SCP-6832-2. Once an extra instance of SCP-6832-2 leaves the lighter any two of the forty SCP-6832-2 in the air fuse together making their colors more saturated and decreasing the translucid of the SCP-6832-2 instance. Once an instance of SCP-6832-2 has absorbed a total of twenty other SCP-6832-2 it turns into a droplet moving at 20cm per second into SCP-6832-1. SCP-6832-1 begins to increase its emitted light to 80W, losing its light absorbing effect. 
+
+**<19:15>** 
+The number of SCP-6832-2 instances decreases to only twenty, keeping its other properties. The glow effect of 6832-1 decreases to 60W, while the room begins to slightly be drained of light again.
+
+**<23:15>** 
+The number of SCP-6832-2 instances decreases to zero. The glow effect of 6832-1 decreases back down to 40W, while the room was being drained of light at the normal rate. No physical change could be noticed on [[[SCP-403|SCP-403]]].
+
+
+**<23:25>**
+ during an attempt to bring  [[[SCP-403|SCP-403]]] back to its container, it was accidentally activated by the aforementioned D-8376, catching him by surprise at the size of the flame, measuring approximately 5x5cm. This caught the research team off guard as in previous experiments it was observed that  [[[SCP-403|SCP-403]]] was on the brink of continental destruction when hypothesized about its next activation.
+
+
+**Results:**As a result of the experiment, it resulted in significantly weakening [[[SCP-403|SCP-403]]] although not tested afterward by the personnel involved naturally due to the fear of unexpected "surprises" as previously argued by Dr. Twilight. This experiment, led by Dr. Ocasio and overseen by Ethics Committee Representative Dr. Blake, was widely seen as a success in determining what SCP-6832-1 is capable of.
+The majority of research personnel involved with the experiment have hypothesized about reclassifying SCP-6832-1 as Object Class Thaumiel, yet its other properties make this possibility less likely. 
+
+**Analysis:** 
+It is hypothesized that the bubbling of [[[SCP-403|SCP-403]]] could be a manifestation of the anomalous energy leaving the lighter itself. Therefore it has been noted that the glowing effect and absorption ceased at some point, indicating that the item has reached a point of near inactivity. This suggests that SCP-6832-1 can deactivate most anomalous objects yet it is not clear if it can affect living organisms with anomalous properties. 
+
+[[/div]]
+[[/collapsible]]
+
+
+**Addendum:** Dr. Willis has put forward the idea that more should be found out about the true extent to how severely [[[SCP-403|SCP-403]]] weakened as a result of the cross-test, this is still pending, however.
+Dr. Mann on the other hand is strongly opposed to any more trials with SCP-6832: “It is not within our clear understanding yet on the true extent of SCP-6832’s anomalous properties, We should try approaching SCP-6832 with caution until we are confident enough with everything it is capable of.
+
+-Dr. Mann has suggested for the name change of SCP-6832 to be 'Absorbent Crystal'.[PENDING REQUEST]
+-Dr. Ocasio has suggested for the name change of SCP-6832 to be 'Anomaly Neutralizer' [DENIED REQUEST]
+-Dr. Willis has suggested for the name change of SCP-6832 to be 'Enigmatic Diamond' [DENIED REQUEST]
+-Dr. Twilight has suggested for the name change of SCP-6832 to be [Removed on request of Dr. Willow] Remark from Dr. Ocasio “really? why did we even ask you…?”
+-Dr. Willow has suggested for the name change of SCP-6832 to be 'Void Crystal' to the confusion of other staff. [DENIED REQUEST]
+
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+[[/=]]
+[[/div]]
+
+[[collapsible show="+ Recording of the Research Conference" hide="- Recording of the Research Conference"]]
+
+[[div class="blockquote"]]
+**Recording of the Research Conference :[13/03/████]**
+
+**Participants:** Dr.Ocasio [Research Supervisor, Clearance 4], Dr.Twilight [Senior Researcher, Clearance 3], Dr. Willis [Senior Researcher, Clearance 3], Dr. Mann [Senior Researcher, Clearance 3], and Dr. Willow [Project Lead].
+
+**Foreword:** A recording that took place from 13:16 to 13:27 between the five research personnel in Conference Room B in the aftermath of the experiment.
+
+**<Begin Log, [13:16, 13/03/████]>**
+
+**Dr. Ocasio:** Alright settle down gentlemen, let's begin. I believe that this experiment was a complete success, well… Aside from the D-Class scorching himself and almost causing Dr. Mann a heart attack… Heh. Well let's dive straight into it, shall we? Dr. Twilight let's start with you. What do you think we could have done better?
+
+**Dr.Twilight:** Well, Dr. Ocasio, I don’t see anything that we necessarily need to improve other than the fact that we shouldn’t have used a Class-D in the experiment, had SCP-6832 not done what was previously anticipated then a chunk of the continent would’ve been blown to kingdom come.
+
+**Dr. Ocasio:** Right, anyone else wants to expand on that? [There is no response from any of the doctors] Okay.
+
+**Dr. Twilight:** If I may, Luke, could we perhaps discuss other possible candidates for future cross-testing with SCP-6832?
+
+**Dr. Ocasio:** Good idea, let's do that. So… Any more ideas on top of that?
+
+//[Dr. Willis raises his hand]//
+
+**Dr. Ocasio:** Yeah? Go on then.
+
+**Dr. Willis:** This may be a risky plan but from what we have seen with  [[[SCP-403|SCP-403]]], maybe we could see a living organism rather than an object. [Dr. Willes pauses] Oh! What about an SCP-939 instance? There’s bound to be loads of the fuckers around the globe, besides, at Area-12 there’s what? Nine, ten of them already locked up? I don’t see a potential risk here if one of them virtually becomes a harmless pet… Right?
+
+**Dr. Willow:** I object to that idea, why mix a dangerous Keter Class with SCP-6832, it just devolves into an unnecessary risk… Or liability if you will. I just find that idea stupid, no offense Dunkon.
+
+**Dr. Ocasio:** Gentlemen, remember to maintain professionalism at all times, refer to each other by ‘doctor’ and whatever last name they have. Although I see your point, Dr. Willow, I will have to agree with Dr. Mann here that it isn’t much of a risk, besides, it's for a scientific breakthrough!
+
+**Dr. Willis:** Alright, fine. Will anyone else make an input?
+
+**Dr. Twilight:** Actually, yeah. I believe that further testing should be permitted with Memetic SCPs.
+
+**Dr. Mann:** … What would be the point of that, except for finding out if it affects them?
+
+**Dr. Willis:** simply, it would show us if it can be used to deactivate memetic kill agents and could be a way to reduce the risk from certain memetic agents as well as showing us if it can clear the effect of any living creature after exposure. 
+
+**Dr. Ocasio:** Let's move on then to the last question for today, does anyone here believe that we should reclassify SCP-6832 or should it remain at Euclid? 
+
+**Dr. Mann:** keep it a Euclid, it is still a risk even when inside its box even if it is easy to contain, but SCP- 6832s  effect doesn’t just vanish because we put it in a box. 
+
+**Dr. Willis:** If further tests prove that it is a long-term Scranton reality anchor then it should be Thaumiel, the reason for having many different uses in the containment of SCP and the suppression of breaches. 
+
+**Dr.Twilight:** I mostly agree with Dr. Willis on this one, I think it should already be considered a Thaumiel due to its many uses within containment and even in the worst of cases, as a tool for neutralization of uncontainable anomalies.
+
+**<End Log, [13:27, 13/03/████]>**
+
+**Closing Statement:** 
+Dr. Willis’ proposal for the reclassification to Thaumiel remains pending by the Classification Committee. 
+
+Dr. Twilight’s proposal for future experiments with Memetic SCPs has been permitted.
+
+Dr. Willis’ proposal for the experimentation with an instance of SCP-939 was denied but the one with SCP-049-2 [Dr. Twilight’s proposal] remains pending.
+
+The update to SCP-6832’s file on the discovery of SCP-6832-2 has been permitted [in progress].
+
+[[/div]]
+[[/collapsible]]
+
+After the meeting, tests were intended to continue as normal. During one of these tests, an incident occurred resulting in the loss of SCP-6832-1 temporality.
+
+[[collapsible show="+ Incident 6832-C" hide="- Incident 6832-C"]]
+
+[[div class="blockquote"]]
+**[Incident 6832-C] Log:[17/03/████]**
+
+**Context:** This incident has been caught and assembled out of security camera footage, witness testimonies, and sensory alerts. 
+
+**Foreword:** The Incident began during the breakfast of the majority of site personnel, about 5 minutes after the 2 guards at the door swapped from the night shift personnel to the morning shift.
+
+**<Begin Log, [06:30 17/03/████]>**
+
+**[06:35:00]:** The morning shift guards arrive at SCP-6832’s containment chamber followed by the previous two security guards leaving their posts at the end of their shifts.
+
+**[06:40]:** The third guard [Agent Garret] leaves at that point to enjoy their breakfast as their shift also ends.
+
+**[06:50]:** Dr. Gabriel Miller walks into the observation room to begin an authorized experiment on SCP-6832.
+
+ **[06:52]:**  Agent. Rowlands takes out his Glock 19 whilst Agent. Andrews firmly grabs Dr. Miller’s right arm and twists it, he is then pinned to the floor by the Agent and shortly afterward, struck in the head by the handgun. One suspect then proceeds to take his ID badge and keycard and uses the keycard to steal SCP-6832. After this occurs, The second suspect is seen placing SCP-6832 in a backpack as the duo sprint out of the room and down the hallway, they proceed down a corridor in the Entrance Zone.
+
+ **[06:56]:** The suspects arrive at the entrance of the cafeteria using their communication devices for approximately 20 seconds sounding panic-stricken.
+
+**[06:56]:** The duo sprint into the Cafeteria yelling “Breach in 939’s Holding pen!”
+
+**[06:58]:** Most of the Security personnel have left the cafeteria and are on their way to deal with the ‘breach’.
+
+**[07:00]:** Both suspects have made it to the checkpoint near the Gates, followed by them inputting an unknown device into the slot of the keycard scanner.
+
+**[07:05]:** The suspects manage to leave the Site through Gate B with an unmarked vehicle picking them up on the outside.
+
+**[07:10]:** The containment breach is shortly dealt with, and personnel return to the cafeteria.
+
+**[08:00]:** The Disappearance of Dr. Miller is noticed and personnel begin to search for him.
+ 
+**[08:05]:** Dr. Miller is found unconscious on the floor inside SCP-6832’s observation room, missing both his ID card and keycard.
+
+**<End Log, [08:05:00, 17/03/████]>**
+
+**Closing Statement:** 
+The Incident caused a total of six fatalities,  and a further caused twelve injuries, some repairs were needed in the SCP-939 holding pens suggesting that something had blunt-forced the control panel beyond repair, this implies that this was a planned and well-coordinated attack. Furthermore, the demand for more security will be increased and all personnel will be searched by Inspectors of the Internal Security Department.
+
+[[/div]]
+[[/collapsible]]
+
+The following is a recorded Interview held between Site Director Dark and Agent.  ██████, of the Internal Security Department with Security Chief Curtis.
+
+[[collapsible show="+ Interview Log - Security Chief Curtis" hide="- Interview Log - Security Chief Curtis"]]
+
+[[div class="blockquote"]]
+**Interviewed:** Security Chief Curtis
+
+**Interviewer:** Agent  ██████ of ISD and Site Director Dark.
+
+**<Begin Log, [16:22, 17/03/████]>**
+
+**Director Dark:** You have got to be shitting me… Are you seriously telling me that two unknown assailants just walked on in and left with a Euclid?
+
+**Security Chief Curtis:** Well, sir, it was much more complicated than tha-
+
+//The Director cuts him off//
+
+**Director Dark:**  Well it seems to me that it wasn’t that complicated as I can spell it out for you: We lost a lot of important shit, including an SCP that ONE particular Clearance-5 member was chiming into the progress of, a motherfucking containment breach of a Keter, in which one had to be terminated…We had THREE! //Director Dark’s mood swings to furious anger// Answer me this, Curtis. Why did no one contain the 939s conventionally, why did NOBODY question why two security had a fucking bag on them? How could they leave the main gate with NOBODY NONE OF THE WISER? I HAVE SO MANY QUESTIONS, YET THEY GO UNANSWERED CURTIS! TELL ME! 
+
+**Security Chief Curtis:** The conventional way was not an option, in the aftermath, we saw that eight out of the ten tranq’ rifles and half the darts were snapped in two. It was either the security team or the 939. Personally, I didn’t give the order as I was off-duty at the time given my break, but I’m afraid I have to agree with my men on this matter, they did what they had to do to survive, there was no other way. As for the dynamic asshole duo, we still have no clue as of now, it is still being looked into, believe me, sir, I am dumbfounded by their sheer luck, one in a billion if you ask m-
+
+//Agent. ██████ cuts off the Security Chief//
+
+**Agent ██████:** That is not a feasible way of avoiding the Director’s question of how the ‘duo’ as you put it, got away scot-free. Simply describing it as luck will not be accepted.
+
+**Security Chief Curtis:** Well, with all due respect, we did everything that was asked of us, but what was asked of us wasn’t what saved us. I’m sorry, Director, but when procedures fail due to a scenario like this one, is it really the fault of the whole Department? 
+
+**Director Dark:** You fucking moron, did I stutter or what? You have been avoiding this question for too long now: //sigh// This…  is the last time I ask, before we have an issue, how did they manage to leave the facility whilst all of this was going on? I want to know exactly how the hell that happened. //Director Dark looks over to Agent. ██████// Do we have footage of the suspects leaving with the bag?
+
+**Agent ██████:** We do, we can send two guys to go grab it for you, now if you’d like.
+
+**Director Dark:** Yes, thank you, that will be great. Oh, and before you leave, give me the names of the personnel posted near the gate during the incident.
+
+**Agent ██████:** Will do.
+
+//After 15 minutes the screen is connected to the security footage, and the video of the Incident is played in the room for all to see//
+
+**Security Chief Curtis:** Wait… Wasn’t the CCTV Operator supposed to be on duty at this point? He would’ve radioed in ahead to warn us of their imminent escape, and that someone had the shit kicked out of them.  
+
+
+**Agent ██████:** that is quite troubling, the operator should have seen it and in case they did would have had to call it in immediately. Director, I think we should speak to this CCTV Operator, we would require their name, Chief.
+
+**Security Chief Curtis:** That would be James Heartly sir, he’s a newbie who was on duty on the CCTV for the first time most likely.
+
+ **Agent ██████:** Alright, thank you for your time, Curtis. Director, I think we’re done here.
+
+**<End Log, [18:40, 17/03/████]>**
+
+**Closing Statement:** 
+The Security Chief has been temporarily suspended and moved to a lower position within the Security Department whilst still under close observation, the CCTV Operator has seemingly fled as there are no records of a James Heartly in the facility’s archived database ever entering or leaving the site. It was widely believed at this point that this Operator was a double agent like the rest that fled, or never existed, if the latter is the case then the Security Chief must be questioned further. 
+[[/div]]
+[[/collapsible]]
+
+Seven days after the incident, the unmarked vehicle was traced to a Chaos Insurgency storage facility. Mobile Task Force Nu-7 “Hammer Down” was tasked with raiding the warehouse and reacquiring all stolen objects. Their mission was a success, and SCP-6832 has been recovered undamaged, although it seems that the Chaos Insurgency has experimented on it, none of these experiments are known however as all Insurgents fought to the last man, the only thing the Nu-7  operatives got out of them was a remark before the raid: “The return of the dead man walking.” Researchers are still speculating on the meaning of this phrase. Due to the nature of little to no gathered information on the experiments, research on SCP-6832 has been halted until further notice as Site Director Dark remarked “SCP-6832 testing is to cease until we know it is safe once again, I will not have another  catastrophe on my hands due to insubordination.” 
+
+After 3 weeks of waiting, SCP-6832 was once again ready for testing.
+
+This test was to starve the anomaly of energy for an extended period of time. The result of this test was the discovery that the anomaly’s range seemed to vary greatly, and its absorption got sporadic as it ran out of energy. This has led some researchers to speculate that it may be, to a certain degree sentient or at least pose the drive to preserve itself.
+
+[[collapsible show="+ Test 16 - 14/04/████" hide="- Test 16 - 14/04/████"]]
+
+__**Test 16 - 14/04/████**__
+[[div class="blockquote"]]
+**Subject: SCP-6832-1** 
+
+**Procedure:** 
+__Preparation:__
+-x2 Security Personnel.
+-x1 Hazmat Suit responsible for deactivating the chamber.
+-x1 Precision equipment including:
+-x1 A diamond cutter.
+-x1 A plasma cutter.
+     Analytical equipment .
+
+
+**<Begin Log,[14/04/████]>**
+
+**<12:00>** 
+The Hazmat enters the containment chamber with the equipment.
+
+**<12:01>** 
+The Hazmat attempts but fails to sever any part of SCP-6832-1’s main crystalline structure.
+
+**<12:02>** 
+The Hazmat severs part of the ornamental metal and stores it for further research...
+
+**<12:03>** 
+SCP 6832-1 begins to glow and increase its energetic drain as the metal which is part of SCP 6832-1, starts to regenerate the damage done by the experiment.
+
+**<12:06>** 
+After 3 further minutes of failed attempts to sever any links to the main SCP 6832-1 crystal, the experiment is halted and the hazmat returns the metal substance for further examination.
+
+**Results:**
+The analysis of the metals has yielded the following results: one of these metals is a perfect molecular fusion between gold and platinum dubbed SCP 6832-B and makes up 15% of the metal surrounding SCP-6832-1. The second metal is something henceforth referred to as SCP-6832-C, making up 33.7% of the metallic structure surrounding SCP-6832-1 and it has proven to be a carbon fiber, merged with iron on a molecular level to form an advanced form of steel. The last metal could not be identified due to not being a newly discovered metal found on earth, the properties of this metal are still being tested. The previous metal, SCP-6832-D and makes up 51.3% of the structure surrounding the main crystal.
+
+[[/div]]
+[[/collapsible]]
+
+The metal was intended to be identified as SCP-6832-3 yet after the majority vote this was declined in favor of considering it part of SCP-6832-1 and splitting the individual metals into their own respected categories, it is hereby referred to as SCP-6832-A.
+[[collapsible show="+ Incident 6832-F - SCP-035" hide="- Incident 6832-F - SCP-035"]]
+[[div class="blockquote"]]
+**[Incident 6832-F - SCP-035] Log:[18/04/████]**
+
+**Context:**  [[[SCP-035|SCP-035]]] had been transported to Site-█ due to a combination of a site-wide power failure of the nuclear reactors directly contributing to the containment chambers of all SCPs, amongst Class-D Personnel, being unlocked, this is the result of a mass-scale assault conducted by hostile [[[Groups of Interest|Groups of Interest]]]. A containment breach followed this incursion resulting in several containment chambers being damaged beyond repair. This would include [[[SCP-035|SCP-035]]]’s containment chamber. 
+
+**Foreword:** 
+During an intended cross-test between SCP-6832-1 and [[[SCP-939|SCP-939]]]-27, the researcher transporting SCP-6832-1 ended up in a hostage situation involving [[[SCP-035|SCP-035]]] and two instances of SCP-035-1.
+
+**<Begin Log, [09:18, 17/03/████]>**
+
+**[09:18:22]:** Dr. Napalm is spotted on camera walking with SCP-6832-1 towards [[[SCP-939|SCP-939]]]’s holding pen.
+
+**[09:20:53]:**  Whilst passing by [[[SCP-035|SCP-035]]]’s containment chamber, a guard can be seen exiting it, forcing the doctor by the left arm, and dragging him into the observation room. 
+
+**[09:21:05]:**  The SCP-035-1 instances, formerly known as Agent. Gray, and the other, Agent. Lewis, at this stage, flips the control panel switch, [[[SCP-035|SCP-035]]] walks out of the chamber and into the observation room.
+
+**[09:21:09]** [[[SCP-035|SCP-035]]] acquires a communication device through one of the SCP-035-1 instances resulting in a call to the Site Director’s office.
+
+//The following is a transcript of the conversation between the Director and [[[SCP-035|SCP-035]]]//
+
+**SCP-035:** Ah! Kelly! Wassup? The curtains unveil for another play! Will you be willing to play your role?
+
+**Director Dark:** //sighs// 
+
+**SCP-035:** I’ll cut right to the chase then! God, why are all of you higher-ups so gloomy all the time? Anywho, It appears that I have found something of value in your inventory of “freaks” as you put it! I for one believe we could join forces for a great hero’s story. Or… let it devolve into a tragedy?
+
+**Director Dark:** Which one are we talking about?
+
+**SCP-035:** Hmm… A little crystal I do not know of, maybe a prop for another play! 
+
+**Director Dark:** Right… 
+
+**SCP-035:** Argh, why are you so bland? You haven’t changed a bit since I first met you! And I thought you’d present some showmanship by now, you’re no fun!
+
+**Director Dark:** Right 035’, cut the bullshit, tell me what I need to know, so you know what you need to know. 
+
+**SCP-035:** Fine! Very well, let the play commence! I would love to take a stroll outside of this nasty box for a little bit, in return, you may have your magical crystal back!
+
+**Director Dark:** //sighs// I’m not going to even decide that for you. You can negotiate about it with the local containment team, goodbye.
+
+//The Director turn the communication device off at this point//
+
+**Director Dark:** //mutters to himself// Because talking to this asshole is about as enjoyable as licking sandpaper…
+
+<End of Transcript>
+
+**[09:26:47]:** The Containment Team mobilized and began barricading the areas surrounding [[[SCP-035|SCP-035]]]’s Containment.
+
+**[09:30:11]:** Negotiations between the Containment Team Leader, Lieutenant Gomley assisted by Zone Manager Semyonovich began.
+
+//The negotiation dragged on for two hours the cameras inside [[[SCP-035|SCP-035]]]’s temporary containment cell recorded the following//
+
+**[11:47:29]:** [[[SCP-035|SCP-035]]] can be seen demanding the SCP-035-1 instances to bring him SCP-6832, but to the horror of [[[SCP-035|SCP-035]]], formerly Agent Gray refuses, whilst Agent Lewis lowers his firearm from Dr. Napalm.
+
+**[11:52:48]:** Agent Lewis can be seen shaking himself violently before raising his gun at [[[SCP-035|SCP-035]]]’s Host and firing a shot, resulting in a scuffle in which saw [[[SCP-035|SCP-035]]] gained the upper hand and managed to acquire the gun and fatally wound Agent Lewis. Agent Gray was able to successfully flee the room with Dr. Napalm although being grazed by a stray bullet in the right shoulder.
+
+**[11:53:37]:** All assembled Containment Personnel form up at the observation room’s entrance to terminate [[[SCP-035|SCP-035]]]’s Host.
+
+
+**[12:00:06]:** The Containment Personnel breach the room, only to discover the mask on the floor next to a half-decomposed body.
+
+**<End Log, [12:10, 18/04/████]>**
+
+**Closing Statement:** The cameras observed [[[SCP-035|SCP-035]]]’s black ooze substance began to vanish over a period of four hours, it has been determined that SCP-6832 is the culprit of the effects, the Mask was seen with a frown when armed personnel breached the door. Dr. Napalm in the aftermath of the incident did report signs of SCP-6832-2 instances materializing throughout the four hours. The Doctor claims the Bubbles to be numbered as high as one hundred. The camera footage confirms these claims and resulted again in different colors including gray, red, purple and some black SCP-6832 was successfully recovered unscathed, [[[SCP-035|SCP-035]]] is scheduled to be moved back to Site-19 as soon as physically possible due to this incident taking place. 
+
+[[/div]]
+[[/collapsible]]
+
+Experiments were to continue as normal, yet after six days a meeting was called by Dr. Willow to discuss the new situation surrounding SCP-6832.
+
+[[collapsible show="+ Excerpt from #site-█-clearance-3/4-channel" hide="- Excerpt from #site-█-clearance-3/4-channel"]]
+
+[[module css]]
+.danke {
+    padding: 5px;
+    margin-bottom:10px;
+    font-family: monospace;
+    font-size: 1.1em; 
+}
+
+.agent {
+    background-color:#000000;
+    border: 3px solid #55AA55;
+    color: #13C216;
+}
+
+.site {
+    background-color:#222200;
+    border: 3px solid #AAAA55;
+    color: #DDDD77;
+}
+[[/module]]
+
+
+[[div class="danke agent"]]
+
+[[div style="background: gray; padding: 1px 15px; border: solid 3px green; margin: 10px; border-radius: 30px 15px;"]]
+
+[[div style="background: black; padding: 1px 15px; border: solid 3px lgreen; margin: 10px; border-radius: 30px 15px;"]]
+
+{{[[size 150%]] Excerpt from #site-█-clearance-3/4-channel, ████/06/03 [[/size]]}}
+
+
+[[/div]]
+[[/div]]
+{{[[size 125%]]##b71c1c|[13:41:35]@WoodsRUs:## Greetings everyone. [[/size]]}}
+
+{{[[size 125%]]##0693E3|[13:41:47]@IHateThatMask:## Willow, why did you message nearly all the Cl.4 staff on Site? [[/size]]}}
+
+{{[[size 125%]]##b71c1c|[13:41:54]@WoodsAreUs:## I wanted to bring to everybody’s attention the recent incidents and complaints by many staff, among other strange occurrences, SCP-6832-1 is indeed what is on everyone’s mind currently. [[/size]]}}
+
+{{[[size 125%]]##FCCB00|[13:42:00]@DrTomNook:## Then by all means Willow, however, be aware that testing will not cease, as the SCP in question has proven more than useful in the containment of more dangerous SCPs which we have all seen recently. [[/size]]}}
+
+{{[[size 125%]]##0693E3|[13:42:47]@IHateThatMask:## Dr. Ocasio, why is your nickname DrTomNook?[[/size]]}}
+
+{{[[size 125%]]##b71c1c|[13:43:06]@WoodsAreUs:## Dr. Mann and I amongst other staff, are feeling a sense of discomfort around 6832-1 of late and are unsure why, if I had to put it into words then I would say it is something deep within the crystal perhaps that is causing it, or in scientific terms: another effect we are unaware of. ##ABB8C3|@MannCoEnterprise## hypothesizes that has to do with the absorption trait/effect the crystal has on anomalies. [[/size]]}} 
+
+{{[[size 125%]]##7200B3|[13:43:17]@GrayShade:## ]##b71c1c|@WoodsAreUs## I wouldn’t be here if that crystal didn’t fuck 035’s shit up. “Don’t use this crap even though it saved you” my ass, keep milking it for all it’s worth so no one else has to be in my shoes. [[/size]]}} 
+
+{{[[size 125%]]##ABB8C3|[13:43:23]@MannCoEnterprise:## Goddamn it ##b71c1c|@WoodsAreUs## I’m on coffee break.[[/size]]}}.
+
+{{[[size 125%]]##b71c1c|[13:43:49]@WoodsAreUs:## Listen ##7200B3|@GrayShade##, I understand your frustration completely, you are justified in every way to be pissed off but you gotta understand this crystal is barely understood, you’re effectively trying to Schrodinger's Cat this shit with nuclear bombs. We have no determined outcome of what might go on if we are crazy enough to play around with a frag grenade. [[/size]]}}
+
+{{[[size 125%]]##7200B3|[13:44:03]@GrayShade:####b71c1c|@WoodsAreUs## That is an absurd overreaction, by simply referencing 035’s bad day and the lighter, it’s apparent that not once, but twice there have been no issues regarding its effects other than some discomfort.[[/size]]}} 
+
+{{[[size 125%]]##0693E3|[13:43:26]@IHateThatMask:## Alright, I’m going to make this abundantly clear, Dr. Willow thank you for voicing your concerns, Agent Gray, thank you for voicing your concerns. Now let us bring this discussion to an end, experimentation will begin nevertheless but security measures will be upped to satisfy both sides and my sanity. Now, I have a coffee break to get to, see ya.  [[/size]]}}
+
+{{[[size 125%]]##0693E3|@IHateThatMask left the channel## [[/size]]}}
+
+[[/div]]
+[[/collapsible]]
+
+After being postponed for a good two months, the test on SCP-049-2 was finally greenlit. The Instance was freshly created to appease [[[SCP-049|SCP-049]]] and then moved from under heavy observation to Site-█. Despite the protesting of Dr. Willow and several researchers and containment staff,  the experiment was set to go. 
+
+[[collapsible show="+ Cross-test SCP-6832 - SCP-049-2  18/06/████" hide="- Crosstest SCP-6832 - SCP-049-2  18/06/████"]]
+
+__**Crosstest SCP-6832 - SCP-049-2  18/06/████**__
+[[div class="blockquote"]]
+**Subject: SCP-6832 and SCP-049-2** 
+
+**Procedure:** 
+__Preparation:__
+-x3 Security Personnel equipped with Hazmat gear.
+-x2 Jr Researchers [Dr. Darkwood and Dr. Fischer] in Bio-Hazmat gear.
+-x1 Sr. Researcher [Dr. Twilight] in the control room.
+-x1 Fresh human SCP-049-2 instance.
+
+The room used was a standard bio-containment chamber within the Bio-Research Sector in Site-█.
+
+**<Begin Log[17:37,18/06/████]>**
+
+**<17:38:42>** 
+Dr. Darkwood enters the containment chamber, wielding SCP-6832-1 in his hands, placing it on the table in the center of the room.
+
+**<17:39:02>** 
+Dr. Darkwood exits the containment chamber to join Dr. Twilight in the control room.
+
+**<17:40:17>** 
+The SCP-049-2 instance is moved whilst restrained and wheeled into the containment chamber. 
+
+**<17:40:51>** 
+After both guards are past the airlock, they move to the sterilization compartment of the bio-containment chamber, and the doors are hermetically sealed. [Note by Dr. Willow: The air filtration may require to be cleaned afterward. The extra-filtration systems of the containment chamber will require to be properly inspected due to a failure of the incineration system.
+
+**<17:42:11>** 
+The SCP-049-2 instance approaches SCP-6832-1 unintentionally, resulting in the first few SCP-6832-2 instances showing signs forming with the colors black and green being the ones primarily documented.
+
+//Conversation between Dr. Darkwood and Dr. Fischer from inside the observation chamber//
+
+**<Begin audio prompt>**
+
+Dr. Darkwood: I am sure of it, Dr. Twilight, SCP-6832 is bound to have some thaumaturgic abilities, as the transmute anomalies into energies would fit into the transmutation category and thus be a great example of automated thaumaturgic processes executed by an object.
+
+Dr. Fischer: May I point out that turning objects into energy isn’t transmutation, yet the thaumaturgy idea is not too bad, it has nothing to do with transmutation, that would be converting an object into another, or an organism into fuel. 
+
+**<End audio prompt>**
+
+**<18:42>** 
+At this point, SCP-049-2 began to dissolve small chunks of flesh, then minutes later began to become  SCP-6832-2s instances, these were from the start, far more saturated and seemingly partly larger than the regular 1cm^^3^^, [a total of 2.5cm^^3^^].
+
+
+**<End Log,19:40>**
+
+**Results:** 
+The body mass of the corpse was approximately dissolved by 71%, with mostly the skeletal and some chunks of flesh remaining, the lack of blood indicated that this was due to the creation of further SCP-6832-2 instances.
+
+**Analysis:** 
+It has been observed that SCP-6832-1 if exposed long enough to an anomalous organism will end up physically harming it in the attempt to create more SCP-6832-2 instances. It has also been recorded that SCP-6832-1’s power has been affected tremendously, decreasing the time it takes to drain the anomalous effects from an anomaly. This has been duly noted since Incident 6832-F -SCP-035 took place.
+[[/div]]
+[[/collapsible]]
+
+In the next couple of days following the cross-test between SCP-049-2 and SCP-6832-1, Director Dark was contacted by a local GOC Representative, to discuss the transfer of an Item. 
+
+[[collapsible show="+ Foundation-GOC Meeting #1" hide="- Foundation-GOC Meeting #1"]]
+
+[[div class="blockquote"]]
+**Foundation-Global Occult Coalition’s First Meeting:[22/06/████]**
+
+**Participants:** Director Dark and ████████.**
+
+**Foreword:** 
+A meeting instigated by the global organization, the Global Occult Coalition, was called into action to meet the demand of the Global Occult Coalition for the transfer of SCP-6832.
+**<Begin Log [11:39, 22/06/████]>**
+
+**Director Dark:** Alright, please present your statement.
+
+**████████:** What you refer to as SCP-6832, we want it handed over.
+
+**Director Dark:** Hmmm… No, I think not.
+
+**████████:** Unfortunately, we’re not asking. 
+
+**Director Dark:** Right, well I’ll sadly have to inform you that you won’t even be catching a glimpse at the thing unless you fix your tone.
+
+**████████:** My tone is very much appropriate for the scenario, it is not my words but the words of my CO.
+
+**Director Dark:** Whatever, wait… How did the G.O.C know about it anyway? 
+
+**████████:** I’ve been instructed not to answer that question if asked, let's move straight onto what is relevant to the conversa-
+
+//Site Director Dark cuts off the Representative//
+
+**Director Dark:** Whilst, of course, maintaining my professionalism, I can’t help but ask: How much do you know about it?
+
+**████████:** Enough, I won’t be inclined though to answer the other question being ordered otherwise. Now, hand it over, please.
+
+**Director Dark:** No, We will not be handing over the Crystal, purely because you want it, I need to take a call now so if you’d excuse me.
+
+<11:43:26>
+//Site Director does not wait for a reply and is then seen standing up and walking out of the conference room to take a call in a remote area of the Sector, before returning after six minutes//
+
+**████████:** So who could call at this time and be important enough to just ignore this meeting?
+
+**Director Dark:** Oh I’m sorry, first you waltz into my site making ridiculous demands and now you want to know who I talk to? I think you’re overstepping your authority. Oh, and with the permissions, I hold over the Site, I politely ask you to leave.
+
+**████████:** I’ll leave on my own accord, thanks. I will warn you though, that my superiors will not be pleased in the slightest.
+
+**Director Dark:** Well, give them a hello from me. Good day!
+
+**<11:45:43>**
+//████████ leaves the conference room//
+
+**<End Log, [22/06/████]>**
+
+**Closing Statement:** 
+After the Site Director turned down the demand, the representative left shortly afterward. Several discussions surfaced between Clearance-4 Personnel and higher resulted in the conclusion to continue the exchange to prevent open hostility between the Global Occult Coalition and the SCP Foundation.
+
+
+[[/div]]
+[[/collapsible]]
+
+Another meeting occurred, 5 days after the previous one. 
+
+[[collapsible show="+ Foundation-GOC Meeting #2" hide="- Foundation-GOC Meeting #2"]]
+
+[[div class="blockquote"]]
+**Foundation-Global Occult Coalition’s Second Meeting Recording :[27/06/████]**
+
+**Participants:** Director Dark, External Affairs Agent Benton and ████████.
+
+**Foreword:** 
+The second meeting instigated by the Global Occult Coalition was called to appease the demand of transferring rights of SCP-6832.
+
+**<Begin Log [13:22, 27/06/████]>** 
+
+**Agent Benton:** Now, to refresh my memory, Director, this is indeed the second exchange?
+
+**Site Director Dark:** Yeah, if I may ask a question, Agent?
+
+**Agent Benton:** Oh! Not at all bothered, hit me.
+
+**Site Director Dark:** How come you are present in this exchange? Last time it went fine.
+
+**Agent Benton:** Well, our superiors sent me to listen in and be the current representative of the Department of External Affairs.
+
+**Site Director Dark:** Right… Well, thank you, Agent, please go right ahead.
+
+**Agent Benton:** Well, no offense to you, Director, but due to “last time” the G.O.C have sent numerous formal complaints to the facility and in an act of pettiness, deliberately sabotaged three of our operatives embedded in a local police force, as well as apprehending two of our field agents for minor cases of trespassing, I take it that this was directly attributed to the Director’s refusal?
+
+**████████:** Yes, I would say that. However, whatever my superiors did is not within my clearance nor interest to comment on, I believe we should move on to more pressing matters.
+
+**Agent Benton:** Agreed. My, and the Director’s superiors have met up and agreed that the G.O.C can maintain full custody of SCP-6832 for three weeks, in return, however, the G.O.C has to agree to the following terms; the release of any and all Foundation operatives embedded anywhere, the ceased harassment of undercover field agents, and the notification of daily status reports on SCP-6832. 
+
+**████████:** I believe my superiors find these terms acceptable, what say you, Director?
+
+**Site Director Dark:** I find the deal barely tolerable, yet I’m itching to get you out of my facility.
+
+**Agent Benton:**: Well, I suppose that’ll be all, where do we sign?
+
+**████████:** Here, and for the Director, here.
+
+//████████ points to where the signatures should be on the contract and they are signed//
+
+**Site Director Dark:** Do you think I’m blind or just plain stupid? I know where to sign.
+
+**Agent Benton:** Alright, thank you for being here, I suppose you will best be on your way, do you need any escorts?
+
+**████████:** I think I’ll be fine, thank you for having me, I’ll report back of course.
+
+//████████ exits the room//
+
+
+[[/div]]
+[[/collapsible]]
+17 days after SCP-6832 was handed over to the G.O.C for their own research, instead of the agreed-on daily reports, a plea for assistance was sent instead: “requesting a containment task force aware of the effects of SCP-6832, and maybe an army.” The situation was described as follows: “we were using the crystal to decrease the risk of an anomaly harming civilians, yet after absorbing the energy from the anomaly, began to violently shake, brightly glow, and then crack. Out of the crack oozed a slight amount of black liquid [still being looked into] forming a 3mx3m oval in the air seemingly out of itself. These bubbles you call SCP-6832-2 streamed out of the Crystal resulting in the oval forming itself into a portal. The portal was see-through, so naturally, we saw what was at the other end, what we saw though shook me, about only three visible features however were noted at the time; a creature possessing three fingers on each hand with a thumb, elongated arms, a torso with spikes/tentacles coming out of its back, numbering four large ones and… I don’t know, maybe twenty, thirty smaller ones? Behind the creature were thousands upon thousands of humanoid figures, vaguely humans, with gasmasks and military-grade gear standing at the ready. the gigantic hall they were in was pure blank darkness, we were able to make out the thousands of humanoid figures in military gear as the light source was just good enough for us to spot many rows of red-glowed goggles, thousands is just an estimation however which is only the tip of the iceberg. What happened next, was what shook me to my core: the fucking grotesque, and I can’t even begin to comprehend what I saw, crawled through the portal and started assaulting our guys, it pretty much shrugged off any small arms fire, soon enough, heavy fire support was called in. The labcoats arrived after it was blown to bits, they ran some tests and took a few photos, one of the labcoats from the SCP Foundation gave us an arsenal of rounds compatible with any guns, damn smartasses. I was informed after the incident that the abomination was composed of approximately 99% of some viscous liquid we don’t know, but that’s when after the labcoats arrived it suddenly re-emerged in a new horrifying form, much less humanoid than last time, I can’t even begin to describe its physical features as they keep changing. it was impacted by the rounds which work as a kind of flashbang, it also seemed to pin with tightly-wrapped string-like netting, it ceased moving but then began to struggle against it, we are at the stage where we are waiting for more of your guys to bag this thing permanently”.
+
+The following is a recorded conversation between Lieutenant Harrison, of the newly formed Mobile Task Force Upsilon-18 “Void Fillers”, and Dr. Willow, the task force leader. The MTF consists of researchers with experience in the field of thaumaturgy and previous work on SCP-6832 and personnel with enate thaumaturgic abilities, with a further couple of fireteams for support usage.
+
+[[collapsible show="+ Incident 6832-K" hide="- Incident 6832-J"]]
+
+[[div class="blockquote"]]
+**[Incident 6832-J] Log:[17/07/████]**
+
+**Foreword:** Mobile Task Force Upsilon-18 approximately two hours after receiving the call, their helicopter touches down in a designated landing area next to what remains of the G.O.C presence.
+
+**<Begin Log, [07:23 17/07/████]>**
+
+**[07:23]:** Mobile Task Force Upsilon-18 disembarks from their helicopters approaching the currently restrained anomaly, which has been reviewed by experts in the field of Groups of Interest as somewhat resembling a Sarkic Abomination. The official designation of the entity from here on out will be SCP-6832-4.
+
+**[07:34]:** SCP-6832-4, still restrained, having been able to sever a few of the strings, began the process of freeing itself, Dr. Willow after assessing the situation traveled back to the deployment zone to prepare procedure “6832-4 Tenok” which is executed as follows; [Data Expunged on request of Dr. Willow] 
+
+**[07:36]:** The setup for the procedure began, and whilst the G.O.C ground Commander was briefed on the procedures, the incident had received unwanted attention from a dozen civilians living in the area, requiring an Amber-scale misinformation campaign followed by a small number of individuals who saw the Incident has since been treated with amnestics.
+
+**[07:40]:** The “runes of death and ambiguous beauty”,  as Dr. Willow referred to them, were set up and powered seemingly through Dr. Willow, resulting in a glow of red, blue white, and green illuminating up the open area, followed by vine-like growths, being created by the set up “runes” creeping towards SCP-6832-4.
+
+**[07:42]:** “The Vines of the Woods” (referred to as such by Dr.Willow) wrapped around SCP-6832-4 and SCP-6832-3 and forced SCP-6832-4 into SCP-6832-3 followed by the vines slowly sliding SCP-6832-3 shut.
+
+**[07:55]:** SCP-6832-3 before being successfully sealed and the figures now, on request of Willow, being designated as the ‘Soul Army’ have now left out of frame in the process of being sealed, Dr. Willow described what he and others witnessed as the Army “effectively standing down”.
+
+**[07:59]:** Work is underway for the Misinformation Bureau branch of the SCP Foundation alongside MTF Gamma-5 “Red Herrings” to begin fabricating a cover story on the installation of powerful stage lighting for an amateur’s concert malfunctioning.
+
+**<End Log, [08:05:00, 17/07/████]>**
+
+**Closing Statement:** 
+The cover story was successfully executed with even a fake concert being set up and led by the aforementioned Dr. Twilight. SCP-6832 has since been reclassified on the order of the O-5 Council, and the disruption level has been moved to Class Keneq whilst the risk class has been designated as Danger.
+[[/div]]
+[[/collapsible]]
+
+
+
+
+
+
+//A new draft has been created detailing the changes made to the previous file.//
+
+
+
+
+
+[[collapsible show="+ New Article Draft as Ordered by Clearance-O5 " hide="- New Article Draft as by Clearance 5 Orders #1"]]
+
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 6832
+|clearance= 4
+|container-class= euclid
+|secondary-class= none
+|disruption-class= keneq
+|risk-class= danger
+]]
+
+**Special Containment Procedures:** SCP-6832-1 is to be kept within a 30x30x30cm structural steel box with an inner box made up of 3cm of steel, followed by 9cm of fiberglass followed by a further 3cm of steel.
+
+The box is to be kept under a constant electrical current of 100 kV and constant surveillance by three CCTV surveillance cameras and no less than five armed guards under by-weekly checkups with the security officers on watch. Testing is only to be permitted by a minimum of two Clearance-4 Personnel or higher.
+
+The container is to be kept in an Isolated room with 3-inches of reinforced steel and sound-proof walls. The chambers are outfitted with an airlock, control room, and up-to-date facial recognition scanners.
+
+The Box is to be covered in “Wood Runes”, which are to be updated and replaced by Mobile Task Force Upsilon-18 on a monthly basis.
+
+As of now, it is contained at Site-█ in the Euclid-Wing of the facility.
+
+**Description:**   
+**SCP-6832-1** is a 6x6x12cm diamond-shaped object with a crystalline purple transparent outer shell with its “core” being made up of a black and purple viscose liquid-like substance. The Item is adorned by ornately shaped metals in a spiral shape arranged around SCP-6832-1 of different origins and make-up. The item gives off a glow of 40W yet it appears to consume the surrounding area with darkness.
+The item has one main anomalous effect, which can best be described as the termination of other anomalous effects. If exposed to other anomalies, SCP-6832-1 begins to emit a glow-like effect, while its darkening effect seems to lessen spontaneously. The other anomaly in the case of it being an object begins to experience a decrease of anomalous activity over time. The range of the objects affected varies from 1 to 37 meters. The effect of the item seems to weaken until after exposure of approximately 30 minutes to 4 hours, at this point, the item temporarily loses its effect. In the case of living organisms, the effect could be harmful. Such side effects may include; nausea, hypothermia, confusion, headaches, and effects similar to that of a diabetic shock.
+
+If not exposed to any anomalous energy source for 24 hours it begins to drain different energy sources, beginning with electrical currents, after approximately 18 hours, it begins to absorb thermal energy until the room reaches absolute zero, and after approximately 12 hours, goes over to kinetic energy, yet it has not been allowed to go past that stage, out of fear of it damaging the facility or any staff.
+
+**SCP-6832-2** Bubbles of varying color and saturation float 15-20cm above the object they have seeped out of, after absorbing a differentiating amount of other SCP-6832-2 instances, it rapidly returns into SCP-6832-1.
+
+**SCP-6832-3** An oval portal with a starting perimeter of 3x5m increases in a size appropriate to the number of organisms terminated within its range, the maximum recorded range was 7.8x10.4m. These fatalities are inflicted by SCP-6832-4
+
+**SCP-6832-4** Is a vaguely humanoid figure consisting of no skeletal structure, made up of black viscous liquid whilst standing approximately 3m in height with three fingers and a thumb on each hand with grossly out-of-proportion 1.8m long arms. Its body changes shape constantly in response to physical trauma mainly contributed by blast damage taken from high caliber armaments or, more typically, shrapnel. It has presented absolute immunity to all forms of small arms fire and the ability to regenerate rapidly unless faced with total bodily mutilation by a large force, similar to that of [[[SCP-682|SCP-682]]] containment methods.
+
+[[/collapsible]]
+
+[[=]]
+[[div style="background: url("https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png") center no-repeat; float: center; border: solid 2px #000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
++ WARNING: THE FOLLOWING INFORMATION IS STRICTLY CLASSIFIED TO CLEARANCE-5 ONLY
++++ ANY ATTEMPT TO ACCESS THIS FILE WITHOUT LEVEL 5 AUTHORIZATION WILL BE LOGGED AND WILL LEAD TO IMMEDIATE DISCIPLINARY ACTION.
+[[/div]]
+[[/=]]
+
+[[collapsible show="+ Open Terminal File" hide="-Close Document"]]
+
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] __Overwatch Terminal__[[/size]]
+@@ @@
+@@ @@
+@@------@@
+loading data…
+. . .
+. . .
+. . .
+data confirmed!
+
+Welcome, User
+@@------@@
+[[/=]]
+@@ @@
+@@ @@
+@@ @@
+> -7: I assume you already know what is going on.
+> -5: I swear to god, if this meeting was called only because a GOI managed to enter Site-05 then I will consider this meeting a complete waste of my time. I traveled down from Portland for this.
+> -7: If this was only Incident 6832-C, I would have ordered the Site Director and Security Chief to sort their shit or face repercussions.
+> -5: Sooo… What’s this shitshow about?
+> -6: A letter addressed to -7 about 2 days after incident 6832-K.
+> -7: Yeah, only you forgot the worst part… It was addressed to me by name.
+> -5: So what? It won’t be the first nor the last time someone gets ahold of one of our names, we’ll just have to watch out for this kind of BS more often, that’s that.
+> -6: You’re awfully calm about this -5, what makes you so sure that it is just one?
+> -5: Not to be ignorant but I wouldn’t remotely believe that some schmuck got their grubby little goblin hands on everybody's names just like that, let alone mine.
+> -7: If it was just one name, trust me I would be concerned, but not call a whole meeting about it.
+> -6: How… Many.
+> -7: You don’t wanna know.
+> -5: Cut the mystery bullshit and tell us already.
+> -7: Nine.
+> -5: Alright. You’ve got some serious explaining to do.
+> -6: Yeah, if you’ve gotten -5 interested you know things have turned sour.
+> -5: Does -1 know?
+> -7: It’s -1, if he didn’t already know I’d be mindblown.
+> >> -1 joined 
+> >> -3 joined 
+> >> -10 joined 
+> -3: What did you do this time? It’s not every day that we call these meetings. over this crap.
+> -1: It’s not about what they’ve done, but rather somebody out there knows us, but we don’t know them.
+> -10: I hear ya, I say we track down this fucker’s location and send a squad of Alpha-1 to their doorstep.
+> -1: -7, I believe they are entitled to the truth.
+> -7: Yeah… About that, this was not performed by one individual, it was a letter from a group… or more an entity of sorts that poses a serious threat to our Foundation.
+> -5: I am sorry for phrasing it like this, but that's bullshit.
+> >> -2 joined 
+> >> -8 joined
+> -8: Sorry I am late.
+> -2: I went across half the fucking continent to listen to  -5 being delirious about something with an array of shocked looks directed at -7.  What the hell kind of circus is this?
+> -1 This is no circus, we were merely discussing the leak of nine of our identities. Would you mind having a seat?
+> -2: I guess that explains the looks. When is the rest of the beehive showing up? Are they using monkey bars to get here?
+> -3: they don’t have any time to do so, it will remain as us eight.
+> -7: So now that we’re all here, does anyone have any suggestions on how to resolve these issues? Or, better yet, who is “The Dead Man Walking” supposed to be? Some kind of bogeyman of sorts.
+> -2: I did recall a report about some book being found near a small town about 200 klicks from here, y’know that’s actually funny, it bears the exact same title that you mentioned, however, we know fuck-all about this creature, or thing, or whatever it may be interpreted as…
+> -6: Well? What are you waiting for? Get a damn research team on it, oh, and sprinkle in a squad of Alpha-1 and ISD, y’know, if any shithead brainiac finds out something we don’t want word to get out about.
+> -1: Whatever may happen, we should always expect the unexpected, fear for the worst if you will. Since I’ve taken over this meeting I might as well conclude it, no need to be formal.
+
+- - -> End of Meeting
+@@ @@
+@@ @@
+[[/div]]
+[[/div]]
+
+
+[[/collapsible]]
+
+Writing helpers Credit:
+-ThatOneSaltyGerman (Co-Writer)
+-Techno (proofreader)
+-CaptainBlueDan (proofreader)
+
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+[[size 150%]]<< [[[SCP-6831]]] | SCP-6832 | [[[SCP-6833]]] >>[[/size]]
+[[/=]]
+[[/div]]
