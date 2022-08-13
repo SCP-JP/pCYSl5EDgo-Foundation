@@ -18,11 +18,15 @@
 .meta-title p {
   margin: 0;
 }
+
+span.o {
+    color: blue;
+}
 [[/module]]
 
 [[module ListPages offset="@URL|0" range="."]]
 [[div class="meta-title"]]
-[[span class="o"]]SCP-5947[[/span]]
+SCP-5947
 [[/div]]
 [[%%content{0}%%module css]]
 .blinkbar {color: red;font-size:125%; animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
@@ -189,7 +193,7 @@ a.collapsible-block-link { font-weight: bold; }
 [[/module]]
 [[module ListPages limit="@URL|0" range="." urlAttrPrefix="page2"]]
 [[div class="meta-title"]]
-[[span class="o"]]SCP-5947[[/span]]
+SCP-5947
 [[/div]]
 [[%%content{0}%%module css]]
 .email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
@@ -673,6 +677,14 @@ Thanks to [[*user N_Aepic_Fael]] and [[*user gee0765]] for looking this over!
 [[[https://search.creativecommons.org/photos/4a8a735d-7605-4987-b0fb-df151d4d69f8|goremachine]]]
 [[/collapsible]]
 [[collapsible show="+ ライセンス" hide="- 閉じる(ライセンス)"]]
+[[div class="blockquote"]]
+**ソース:** [[[https://scp-wiki.wikidot.com/scp-5947|SCP-5947]]]
+**リビジョン:** 10(10, 11, 4)
+**著者:** [[*user UraniumEmpire]]
+**作成年:** 2020
+**最終更新日:** 2021/7/30
+**タグ:** _cc _listpages animal cadaver co-authored deepwell-catalog ectoentropic exquisite-corpse2020 food indestructible marshall-carter-and-dark nobody piscine scp self-replicating thaumiel
+[[/div]]
 [[div class="blockquote"]]
 **ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:2532460-25-b7bd scp_trans]
 
