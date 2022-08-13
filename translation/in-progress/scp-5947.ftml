@@ -1,0 +1,45 @@
+[[>]]
+[[module rate]]
+[[/>]]
+[[module CSS]]
+#page-title {
+  display: none;
+}
+
+.meta-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+
+.meta-title p {
+  margin: 0;
+}
+[[/module]]
+
+[[module ListPages offset="@URL|0" range="."]]
+[[div class="meta-title"]]
+SCP-5947
+[[/div]]
+
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="page2"]]
+[[div class="meta-title"]]
+SCP-5947
+[[/div]]
+
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="page3"]]
+[[div class="meta-title"]]
+AUTOMATED SURVEILLANCE LOG
+[[/div]]
+
+[[/module]]
+
+[!--Pages in use:
+http://www.scp-wiki.net/fragment:scp-5947-1
+http://www.scp-wiki.net/fragment:scp-5947-2
+http://www.scp-wiki.net/fragment:scp-5947-3--]
