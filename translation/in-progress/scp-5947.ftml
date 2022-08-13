@@ -22,7 +22,7 @@
 
 [[module ListPages offset="@URL|0" range="."]]
 [[div class="meta-title"]]
-SCP-5947
+[[span class="o"]]SCP-5947[[/span]]
 [[/div]]
 [[%%content{0}%%module css]]
 .blinkbar {color: red;font-size:125%; animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
@@ -39,29 +39,29 @@ a.collapsible-block-link { font-weight: bold; }
 [[%%content{0}%%/module]]
 [[%%content{0}%%include component:image-block name=https://scp-wiki.wdfiles.com/local--files/scp-5947/silverfish.jpg | caption=The hallmark of the sugar bowl containing SCP-5947]]
 
-**Item №:** SCP-5947
+[[span class="o"]]**Item №:** SCP-5947[[/span]]
 
-**Anomaly Class:** --Euclid-- Thaumiel
+[[span class="o"]]**Anomaly Class:** --Euclid-- Thaumiel[[/span]]
 
-**Special Containment Procedures:** SCP-5947 is currently held in the silver sugar bowl it was recovered from. This bowl is housed in Chamber 02 at Site-90 alongside 88 decoy bowls, identical save for the lack of a hallmark on the base. Once monthly, a member of D-Class personnel is to enter Chamber 02 and select one of the bowls at random -- they will then be instructed to consume its contents, and staff are permitted to use physical force to ensure they comply. In the event that they selected a bowl not containing SCP-5947, they are to be terminated immediately and their body interred beneath Chamber 02. In the event that they select and consume SCP-5947, they are to be escorted from the chamber and assigned to Project Irides[[footnote]]For more information, see addendum, or consult supplementary materials regarding second sight.[[/footnote]] once SCP-5947 has passed through their digestive system.
+[[span class="o"]]**Special Containment Procedures:** SCP-5947 is currently held in the silver sugar bowl it was recovered from. This bowl is housed in Chamber 02 at Site-90 alongside 88 decoy bowls, identical save for the lack of a hallmark on the base. Once monthly, a member of D-Class personnel is to enter Chamber 02 and select one of the bowls at random -- they will then be instructed to consume its contents, and staff are permitted to use physical force to ensure they comply. In the event that they selected a bowl not containing SCP-5947, they are to be terminated immediately and their body interred beneath Chamber 02. In the event that they select and consume SCP-5947, they are to be escorted from the chamber and assigned to Project Irides[[footnote]]For more information, see addendum, or consult supplementary materials regarding second sight.[[/footnote]] once SCP-5947 has passed through their digestive system.[[/span]]
 
-The discovery of a cadaver visually matching William Hazen Rogers outside of Site-90 constitutes a containment breach. MTF Alpha-Kaunan ("Argent Devotees") should be dispatched to recover the body, as well as any silverware within an 80 metre radius. This silver is to be melted down and re-cast into decoy bowls, to be filled with non-anomalous sugar and added to Chamber 02. The cadaver is to be interred beneath the chamber alongside the others.
+[[span class="o"]]The discovery of a cadaver visually matching William Hazen Rogers outside of Site-90 constitutes a containment breach. MTF Alpha-Kaunan ("Argent Devotees") should be dispatched to recover the body, as well as any silverware within an 80 metre radius. This silver is to be melted down and re-cast into decoy bowls, to be filled with non-anomalous sugar and added to Chamber 02. The cadaver is to be interred beneath the chamber alongside the others.[[/span]]
 
 [[%%content{0}%%include component:image-block name=https://scp-wiki.wdfiles.com/local--files/scp-5947/fishfood.jpg | caption=SCP-5947]]
 
-**Description:** SCP-5947 is the designation for a collection of dried anchovies, one of which (SCP-5947-1) is indestructible. Twice per day, at midnight and noon, ##blue|SCP-5947-1## will split into two identical dried anchovies.
+[[span class="o"]]**Description:** SCP-5947 is the designation for a collection of dried anchovies, one of which (SCP-5947-1) is indestructible. Twice per day, at midnight and noon, ##blue|SCP-5947-1## will split into two identical dried anchovies.[[/span]]
 
-**Addendum:** On the order of Director Smith, all personnel assigned to CANUAR-Site-90 have been integrated into Project Irides. Anomalous objects extraneous to Project Irides have been decommissioned.
+[[span class="o"]]**Addendum:** On the order of Director Smith, all personnel assigned to CANUAR-Site-90 have been integrated into Project Irides. Anomalous objects extraneous to Project Irides have been decommissioned.[[/span]]
 @@@@
 @@@@
 @@@@
-------
-------
+----
+----
 [[size 150%]]
-= **END OF FILE**
+= [[span class="o"]]**END OF FILE**[[/span]]
 [[/size]]
-------
-------
+----
+----
 @@@@
 @@@@
 @@@@
@@ -159,28 +159,28 @@ The discovery of a cadaver visually matching William Hazen Rogers outside of Sit
 [[collapsible show="Access SCiPNET Email? One (1) new message!" hide="Re:SUBJECT"]]
 [[<]]
 [[=]]
-[[span class="blinkbar"]]NEW MESSAGE![[/span]]
+[[span class="o"]][[span class="blinkbar"]]NEW MESSAGE![[/span]][[/span]]
 [[/=]]
 @@ @@
 [[div class="email"]]
 [[div class="tofrom"]]
-**To:** SSmith18@Scipnet (Site Director Silas Smith; Classification Level XK-4; Employee Number 378)
-**From:** O5_2@Scipnet (Overseer Two; Classification Level OK-5-Thaumiel; Employee Number 2)
-**Subject:** SCP-5947
+[[span class="o"]]**To:** SSmith18@Scipnet (Site Director Silas Smith; Classification Level XK-4; Employee Number 378)[[/span]]
+[[span class="o"]]**From:** O5_2@Scipnet (Overseer Two; Classification Level OK-5-Thaumiel; Employee Number 2)[[/span]]
+[[span class="o"]]**Subject:** SCP-5947[[/span]]
 [[/div]]
-------
-Dear Director Smith,
+----
+[[span class="o"]]Dear Director Smith,[[/span]]
 
-As of today, the Council has voted 1-12-0 on the issue of dismantling Project Irides. Furthermore, the Council has voted, 12-1-0, to overrule objections from the former Site-90 Ethics Committee, ensuring that your project continues regardless of their past rulings on the matter.
+[[span class="o"]]As of today, the Council has voted 1-12-0 on the issue of dismantling Project Irides. Furthermore, the Council has voted, 12-1-0, to overrule objections from the former Site-90 Ethics Committee, ensuring that your project continues regardless of their past rulings on the matter.[[/span]]
 
-It is the majority opinion of the O5 Council that the existence of Project Irides has given the Foundation an advantage in dealing with several major Groups of Interest, not the least of which being GoIs-004C and -023. [[[site-17-hub|By dominating the concept of silver]]], the Foundation has forced them to abandon significant holdings and resources, putting us in a better position to negotiate with, or combat, such threats.
+[[span class="o"]]It is the majority opinion of the O5 Council that the existence of Project Irides has given the Foundation an advantage in dealing with several major Groups of Interest, not the least of which being GoIs-004C and -023. [[[site-17-hub|By dominating the concept of silver]]], the Foundation has forced them to abandon significant holdings and resources, putting us in a better position to negotiate with, or combat, such threats.[[/span]]
 
-On an official basis, I would like to apologize for any inconvenience these proceedings have caused you.
+[[span class="o"]]On an official basis, I would like to apologize for any inconvenience these proceedings have caused you.[[/span]]
 
-[[[/draft:7974444-21-f737/offset/1/page2_limit/1|On an unofficial basis, I have nothing to say, except that I'd be impressed if I wasn't furious.]]]
+[[span class="o"]][[[/draft:7974444-21-f737/offset/1/page2_limit/1|On an unofficial basis, I have nothing to say, except that I'd be impressed if I wasn't furious.]]][[/span]]
 
 [[>]]
--//O5-2//
+[[span class="o"]]-//O5-2//[[/span]]
 [[/>]]
 [[/div]]
 [[/<]]
@@ -189,7 +189,7 @@ On an official basis, I would like to apologize for any inconvenience these proc
 [[/module]]
 [[module ListPages limit="@URL|0" range="." urlAttrPrefix="page2"]]
 [[div class="meta-title"]]
-SCP-5947
+[[span class="o"]]SCP-5947[[/span]]
 [[/div]]
 [[%%content{0}%%module css]]
 .email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
@@ -223,37 +223,37 @@ a.collapsible-block-link { font-weight: bold; }
 [[%%content{0}%%/module]]
 [[%%content{0}%%include :topia:kaktus-header |head=AUTOMATIC%20NOTICE|desc=As%20directed%2C%20I've%20collected%20some%20relevant%20documentation%20below%2C%20all%20of%20which%20is%20within%20your%20security%20clearance%2C%20of%20course.%20Hope%20it%20helps%2C%20Director%20Smith%2C%20and%20thank%20you%20for%20your%20service!|num=-SILVERFISH.aic]]
 
-------
-------
+----
+----
 [[div class="email"]]
 [[div class="tofrom"]]
-**To:** SSmith18@Scipnet (Agent Silas Smith; Classification Level 1/5947; Employee Number 5994)
-**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)
-**Subject:** Transfer
+[[span class="o"]]**To:** SSmith18@Scipnet (Agent Silas Smith; Classification Level 1/5947; Employee Number 5994)[[/span]]
+[[span class="o"]]**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)[[/span]]
+[[span class="o"]]**Subject:** Transfer[[/span]]
 [[/div]]
-------
-Mr. Smith,
+----
+[[span class="o"]]Mr. Smith,[[/span]]
 
-First: Welcome to CANUAR-Site-90. It's not as glamorous as field work, but you're less likely to lose another foot. And hey, we have on-site therapists if you need someone to talk to.
+[[span class="o"]]First: Welcome to CANUAR-Site-90. It's not as glamorous as field work, but you're less likely to lose another foot. And hey, we have on-site therapists if you need someone to talk to.[[/span]]
 
-Second: You have been assigned to the SCP-5947 project. It's not much, but I suppose that's the point. Hopefully I can give you an environment to recuperate while you work on your doctorate.
+[[span class="o"]]Second: You have been assigned to the SCP-5947 project. It's not much, but I suppose that's the point. Hopefully I can give you an environment to recuperate while you work on your doctorate.[[/span]]
 
-Third: I'm sorry. Wish we could've glassed those Mekhanites, but no use crying over spilt milk.
+[[span class="o"]]Third: I'm sorry. Wish we could've glassed those Mekhanites, but no use crying over spilt milk.[[/span]]
 
-Godspeed,
+[[span class="o"]]Godspeed,[[/span]]
 [[>]]
--//Dr. Aningan Regan, Site Director of CANUAR-Site-90//
+[[span class="o"]]-//Dr. Aningan Regan, Site Director of CANUAR-Site-90//[[/span]]
 [[/>]]
 [[/div]]
-------
+----
 ----
 [[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
 [[=]]
-++++ NOTICE FROM THE FOUNDATION RECORDS AND INFORMATION SECURITY ADMINISTRATION 
+++++ [[span class="o"]]NOTICE FROM THE FOUNDATION RECORDS AND INFORMATION SECURITY ADMINISTRATION [[/span]]
 
-You are reading an archived copy of SCP-5947's documentation. SCP-5947's up-to-date documentation can be found [[[SCP-5947|here]]].
+[[span class="o"]]You are reading an archived copy of SCP-5947's documentation. SCP-5947's up-to-date documentation can be found [[[SCP-5947|here]]].[[/span]]
 
--- Ronald Emmerich, Director, RAISA
+[[span class="o"]]-- Ronald Emmerich, Director, RAISA[[/span]]
 [[/=]]
 [[/div]]
 
@@ -267,13 +267,13 @@ You are reading an archived copy of SCP-5947's documentation. SCP-5947's up-to-d
 |assigned-task-force=N/A
 ]]
 
-------
+----
 
-**Special Containment Procedures:** SCP-5947 is to be stored in a refrigerated locker in Chamber 02 of Site-90. Each week, containment personnel are to identify and isolate SCP-5947-1 from the rest of SCP-5947; remaining instances of SCP-5947 are to be ground into a slurry and used or disposed of as appropriate.
+[[span class="o"]]**Special Containment Procedures:** SCP-5947 is to be stored in a refrigerated locker in Chamber 02 of Site-90. Each week, containment personnel are to identify and isolate SCP-5947-1 from the rest of SCP-5947; remaining instances of SCP-5947 are to be ground into a slurry and used or disposed of as appropriate.[[/span]]
 
 [[%%content{0}%%include component:image-block name=https://scp-wiki.wdfiles.com/local--files/scp-5947/fishfood.jpg | caption=SCP-5947]]
 
-**Description:** SCP-5947 is the designation for a collection of dried anchovies, one of which (SCP-5947-1) is indestructible. Twice per day, at midnight and noon, all intact instances of SCP-5947 will split into two identical dried anchovies.
+[[span class="o"]]**Description:** SCP-5947 is the designation for a collection of dried anchovies, one of which (SCP-5947-1) is indestructible. Twice per day, at midnight and noon, all intact instances of SCP-5947 will split into two identical dried anchovies.[[/span]]
 @@@@
 @@@@
 @@@@
@@ -283,267 +283,267 @@ You are reading an archived copy of SCP-5947's documentation. SCP-5947's up-to-d
 @@@@
 @@@@
 @@@@
-------
+----
 [[size 150%]]
-= **HISTORY**
+= [[span class="o"]]**HISTORY**[[/span]]
 [[/size]]
 
-SCP-5947 was acquired in an anomalous item exchange conducted with GoI-023 ("MC&D Ltd.") under the Burnett Accord. In addition to items and resources negotiated under the Burnett Accord, PoI-MCD003 ("Percival Darke") had included SCP-5947 within a silver sugar plate as part of his three "contractually-allotted indignities".
+[[span class="o"]]SCP-5947 was acquired in an anomalous item exchange conducted with GoI-023 ("MC&D Ltd.") under the Burnett Accord. In addition to items and resources negotiated under the Burnett Accord, PoI-MCD003 ("Percival Darke") had included SCP-5947 within a silver sugar plate as part of his three "contractually-allotted indignities".[[/span]]
 
-As per protocol regarding unexpected gifts from non-partnered Groups of Interest, SCP-5947 was transferred to CANUAR-Site-90, an isolated containment site dedicated to countering mundane and anomalous espionage. Following a round of preliminary testing, SCP-5947's anomalous properties were successfully identified, and containment procedures were finalized on 26/05/1967.
-------
-------
+[[span class="o"]]As per protocol regarding unexpected gifts from non-partnered Groups of Interest, SCP-5947 was transferred to CANUAR-Site-90, an isolated containment site dedicated to countering mundane and anomalous espionage. Following a round of preliminary testing, SCP-5947's anomalous properties were successfully identified, and containment procedures were finalized on 26/05/1967.[[/span]]
+----
+----
 [[size 150%]]
-= **END OF FILE**
+= [[span class="o"]]**END OF FILE**[[/span]]
 [[/size]]
-------
-------
+----
+----
 
 [[div class="body-text"]]
-= **IN ACCORDANCE TO THE BURNETT ACCORD**
+= [[span class="o"]]**IN ACCORDANCE TO THE BURNETT ACCORD**[[/span]]
 
-The following is a receipt of the three contractually-obligated indignities bestowed upon the SCP Foundation. The contents of this receipt, with regards to the text, are not legally binding and cannot be used in further negotiations or legalistic thaumaturgical rituals.
+[[span class="o"]]The following is a receipt of the three contractually-obligated indignities bestowed upon the SCP Foundation. The contents of this receipt, with regards to the text, are not legally binding and cannot be used in further negotiations or legalistic thaumaturgical rituals.[[/span]]
 
-The items are as follows, as well as justifications for such indignities:
-* One (1) obligation to document this receipt in your official database. Such an indignity is intended as backlash against the heavy doctoring of associated documentation for anomalous objects transferred to Marshall Carter & Darke's possession.
-* One (1) heirloom sugar bowl, to be used only to contain the third indignity. Such an indignity is intended to demonstrate the ease with which Marshall Carter & Darke can deploy its wealth against the SCP Foundation.
-* One (1) invulnerable anchovy, to replicate into a series of mundane anchovies at the peak and trough of the sun. Such an obligation is intended as a personal insult to you, specifically, Dr. Rochefort, a mockery engineered solely to make your work the tiniest bit harder. I know you don't like anchovies; not many people do. Find a use for it sooner rather than later.
+[[span class="o"]]The items are as follows, as well as justifications for such indignities:[[/span]]
+* [[span class="o"]]One (1) obligation to document this receipt in your official database. Such an indignity is intended as backlash against the heavy doctoring of associated documentation for anomalous objects transferred to Marshall Carter & Darke's possession.[[/span]]
+* [[span class="o"]]One (1) heirloom sugar bowl, to be used only to contain the third indignity. Such an indignity is intended to demonstrate the ease with which Marshall Carter & Darke can deploy its wealth against the SCP Foundation.[[/span]]
+* [[span class="o"]]One (1) invulnerable anchovy, to replicate into a series of mundane anchovies at the peak and trough of the sun. Such an obligation is intended as a personal insult to you, specifically, Dr. Rochefort, a mockery engineered solely to make your work the tiniest bit harder. I know you don't like anchovies; not many people do. Find a use for it sooner rather than later.[[/span]]
 [[/div]]
-------
-------
+----
+----
 [[div class="body-text"]]
 [[=]]
-+ ON THE WEAPONIZATION OF PSYCHOCONCEPTUAL HUMILIATION
++ [[span class="o"]]ON THE WEAPONIZATION OF PSYCHOCONCEPTUAL HUMILIATION[[/span]]
 
-++ by Dr. Silas Smith
+++ [[span class="o"]]by Dr. Silas Smith[[/span]]
 [[/=]]
-**Abstract:**
+[[span class="o"]]**Abstract:**[[/span]]
 
-This study examined the usage of reverse-engineered beryllium-bronze containment devices (such as those employed by GoI-3088 ("Church of the Second Hytoth") and SoI-004 ("The Imit")) to weaponize both abstract concepts and ideas grounded to physical objects. Over a two year period (December 8th, 1997-December 6th, 1999), such devices were attuned to the concept of a series of 12 cm by 2.8 cm oak blocks painted with the logo of subordinate Group of Interest GoI-952's ("Olney Ironworks") logo.
+[[span class="o"]]This study examined the usage of reverse-engineered beryllium-bronze containment devices (such as those employed by GoI-3088 ("Church of the Second Hytoth") and SoI-004 ("The Imit")) to weaponize both abstract concepts and ideas grounded to physical objects. Over a two year period (December 8th, 1997-December 6th, 1999), such devices were attuned to the concept of a series of 12 cm by 2.8 cm oak blocks painted with the logo of subordinate Group of Interest GoI-952's ("Olney Ironworks") logo.[[/span]]
 
-Using three groups of 1000 blocks (painted blocks, blocks that would not be painted, and blocks which would be painted after a period of a year), the Foundation would employ each on a monthly rotation as foci for experimental psychoconceptual channeling units. Additionally, every fourth month would see the activation of the channeling units without the use of foci. Agents embedded into GoI-952 would examine trends in gross income and workplace safety...
+[[span class="o"]]Using three groups of 1000 blocks (painted blocks, blocks that would not be painted, and blocks which would be painted after a period of a year), the Foundation would employ each on a monthly rotation as foci for experimental psychoconceptual channeling units. Additionally, every fourth month would see the activation of the channeling units without the use of foci. Agents embedded into GoI-952 would examine trends in gross income and workplace safety...[[/span]]
 [[/div]]
 [[=]]
 [[div style="background: url(https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat; float: center; border: solid 2px #000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
-+ NOTICE: UNIDENTIFIED FIGURE APPROACHING CANUAR-SITE-90
++ [[span class="o"]]NOTICE: UNIDENTIFIED FIGURE APPROACHING CANUAR-SITE-90[[/span]]
 ----
-+++ Director Smith,
-++++ This is an automated message to inform you that an unidentified figure has been spotted less than five kilometers from Site-90's security perimeter. Visual scans suggest 29% probability of a containment breach. Please stand by.
++++ [[span class="o"]]Director Smith,[[/span]]
+++++ [[span class="o"]]This is an automated message to inform you that an unidentified figure has been spotted less than five kilometers from Site-90's security perimeter. Visual scans suggest 29% probability of a containment breach. Please stand by.[[/span]]
 [[/div]]
 [[/=]]
-------
-------
+----
+----
 [[div class="email"]]
 [[div class="tofrom"]]
-**To:** SSmith18@Scipnet (Dr. Silas Smith; Classification Level 2/5947; Employee Number 5994)
-**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)
-**Subject:** Congratulations, and a heart-to-heart
+[[span class="o"]]**To:** SSmith18@Scipnet (Dr. Silas Smith; Classification Level 2/5947; Employee Number 5994)[[/span]]
+[[span class="o"]]**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)[[/span]]
+[[span class="o"]]**Subject:** Congratulations, and a heart-to-heart[[/span]]
 [[/div]]
-------
-Dr. Smith,
+----
+[[span class="o"]]Dr. Smith,[[/span]]
 
-Congratulations on receiving your doctorate. I'm... skeptical regarding the applications of such a thesis, especially how it pertains to Site-90.
+[[span class="o"]]Congratulations on receiving your doctorate. I'm... skeptical regarding the applications of such a thesis, especially how it pertains to Site-90.[[/span]]
 
-Are you feeling alright? It's normal for graduate studies to take a toll on your well-being, but last I saw you, you were unusually... stiff, is the only word that comes to mind. Take a breather: you're done. Worry about some self-replicating pizza toppings for the time being.
+[[span class="o"]]Are you feeling alright? It's normal for graduate studies to take a toll on your well-being, but last I saw you, you were unusually... stiff, is the only word that comes to mind. Take a breather: you're done. Worry about some self-replicating pizza toppings for the time being.[[/span]]
 [[>]]
--//Dr. Aningan Regan, Site Director of CANUAR-Site-90//
+[[span class="o"]]-//Dr. Aningan Regan, Site Director of CANUAR-Site-90//[[/span]]
 [[/>]]
 [[/div]]
-------
-------
+----
+----
 [[div class="email"]]
 [[div class="tofrom"]]
-**To:** SSmith18@Scipnet (Dr. Silas Smith; Classification Level 2/5947; Employee Number 5994)
-**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)
-**Subject:** Re: Utilization of SCP-5947
+[[span class="o"]]**To:** SSmith18@Scipnet (Dr. Silas Smith; Classification Level 2/5947; Employee Number 5994)[[/span]]
+[[span class="o"]]**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)[[/span]]
+[[span class="o"]]**Subject:** Re: Utilization of SCP-5947[[/span]]
 [[/div]]
-------
-Dr. Smith,
+----
+[[span class="o"]]Dr. Smith,[[/span]]
 
-Your request has been received, and summarily denied.
+[[span class="o"]]Your request has been received, and summarily denied.[[/span]]
 
-The schematics you have provided are nearly incomprehensible. Furthermore, the ramifications of such a device's very existence would outweigh whatever good its functions may bring to the Foundation.
+[[span class="o"]]The schematics you have provided are nearly incomprehensible. Furthermore, the ramifications of such a device's very existence would outweigh whatever good its functions may bring to the Foundation.[[/span]]
 
-Honestly? I'm worried about you. Most of your free time is spent tilting this particular windmill. I get it, Silas, but it feels like you're attempting to hammer a round peg into a square hole. Site-90 isn't Foundation Overwatch; they deal with the spies, we deal with the cameras.
+[[span class="o"]]Honestly? I'm worried about you. Most of your free time is spent tilting this particular windmill. I get it, Silas, but it feels like you're attempting to hammer a round peg into a square hole. Site-90 isn't Foundation Overwatch; they deal with the spies, we deal with the cameras.[[/span]]
 
-I apologize for the inconvenience.
+[[span class="o"]]I apologize for the inconvenience.[[/span]]
 [[>]]
--//Dr. Aningan Regan, Site Director of CANUAR-Site-90//
+[[span class="o"]]-//Dr. Aningan Regan, Site Director of CANUAR-Site-90//[[/span]]
 [[/>]]
 [[/div]]
-------
-------
+----
+----
 [[div class="email"]]
 [[div class="tofrom"]]
-**To:** SSmith18@Scipnet (Dr. Silas Smith; Classification Level 2/5947; Employee Number 5994)
-**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)
-**Subject:** Re:Re:Re: Utilization of SCP-5947
+[[span class="o"]]**To:** SSmith18@Scipnet (Dr. Silas Smith; Classification Level 2/5947; Employee Number 5994)[[/span]]
+[[span class="o"]]**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)[[/span]]
+[[span class="o"]]**Subject:** Re:Re:Re: Utilization of SCP-5947[[/span]]
 [[/div]]
-------
-Dr. Smith,
+----
+[[span class="o"]]Dr. Smith,[[/span]]
 
-Your request has been received, and summarily denied.
+[[span class="o"]]Your request has been received, and summarily denied.[[/span]]
 
-Officially: There is no reason to believe my objections have been adequately addressed. I cannot in good conscience approve the project if it's not been meaningfully altered.
+[[span class="o"]]Officially: There is no reason to believe my objections have been adequately addressed. I cannot in good conscience approve the project if it's not been meaningfully altered.[[/span]]
 
-Unofficially: You're scaring me, Silas. Stop now, before I'm forced to lodge a complaint with Overwatch Command.
+[[span class="o"]]Unofficially: You're scaring me, Silas. Stop now, before I'm forced to lodge a complaint with Overwatch Command.[[/span]]
 [[>]]
--//Dr. Aningan Regan, Site Director of CANUAR-Site-90//
+[[span class="o"]]-//Dr. Aningan Regan, Site Director of CANUAR-Site-90//[[/span]]
 [[/>]]
 [[/div]]
-------
-------
-= [[size 125%]]**[# Open regan.avi?]**[[/size]]
-------
-------
+----
+----
+= [[span class="o"]][[size 125%]]**[# Open regan.avi?]**[[/size]][[/span]]
+----
+----
 [[div class="email"]]
 [[div class="tofrom"]]
-**To:** SSmith18@Scipnet (Dr. Silas Smith; Classification Level 4/5947; Employee Number 5994)
-**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)
-**Subject:** Re:[no subject]
+[[span class="o"]]**To:** SSmith18@Scipnet (Dr. Silas Smith; Classification Level 4/5947; Employee Number 5994)[[/span]]
+[[span class="o"]]**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)[[/span]]
+[[span class="o"]]**Subject:** Re:[no subject][[/span]]
 [[/div]]
-------
-I don't know how you got that.
+----
+[[span class="o"]]I don't know how you got that.[[/span]]
 
-Your request has been approved.
+[[span class="o"]]Your request has been approved.[[/span]]
 
-Don't talk to me ever again.
+[[span class="o"]]Don't talk to me ever again.[[/span]]
 [[/div]]
 
 [[=]]
 [[div style="background: url(https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat; float: center; border: solid 2px #000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
-+ WARNING: PoI-000 SPOTTED NEAR CANUAR-SITE-90
++ [[span class="o"]]WARNING: PoI-000 SPOTTED NEAR CANUAR-SITE-90[[/span]]
 ----
-+++ Director Smith,
-++++ This is an automated message to inform you that PoI-000 ("Nobody") has been spotted within Site-90's outer security perimeter. Please stand by.
++++ [[span class="o"]]Director Smith,[[/span]]
+++++ [[span class="o"]]This is an automated message to inform you that PoI-000 ("Nobody") has been spotted within Site-90's outer security perimeter. Please stand by.[[/span]]
 [[/div]]
 [[/=]]
-------
-------
+----
+----
 [[div class="body-text"]]
 [[=]]
-++ With regards to Chamber 02's renovations
+++ [[span class="o"]]With regards to Chamber 02's renovations[[/span]]
 [[/=]]
 
-So, Dr. Smith, let me get this straight:
-* You want thirty sugar bowls scattered across the floor. Not welded, adhered, just scattered.
-* Furthermore, you want me to include a Smith Channeler Unit scaled large enough to embed itself into Chamber 02's walls, while retaining the size of the focus (which will remain buried in the concrete).
-* You want me to //hollow out// the area above //and// beneath Chamber 02.
+[[span class="o"]]So, Dr. Smith, let me get this straight:[[/span]]
+* [[span class="o"]]You want thirty sugar bowls scattered across the floor. Not welded, adhered, just scattered.[[/span]]
+* [[span class="o"]]Furthermore, you want me to include a Smith Channeler Unit scaled large enough to embed itself into Chamber 02's walls, while retaining the size of the focus (which will remain buried in the concrete).[[/span]]
+* [[span class="o"]]You want me to //hollow out// the area above //and// beneath Chamber 02.[[/span]]
 
-We can do that, sure. It's gonna screw the budget, but we can definitely do all of that once our BB shipments resolve. I just need to make sure I read your letter correctly; I mean no offense, but handwriting can get lost in translation, and I need to know if you meant all of this.
+[[span class="o"]]We can do that, sure. It's gonna screw the budget, but we can definitely do all of that once our BB shipments resolve. I just need to make sure I read your letter correctly; I mean no offense, but handwriting can get lost in translation, and I need to know if you meant all of this.[[/span]]
 
-Side note: you alright? You looked very pale and jittery last I saw you, and I haven't gotten an email from you since your doctorate. Did something change with SCP-5947?
+[[span class="o"]]Side note: you alright? You looked very pale and jittery last I saw you, and I haven't gotten an email from you since your doctorate. Did something change with SCP-5947?[[/span]]
 [[>]]
-Jared Morello, Maintenance Director
+[[span class="o"]]Jared Morello, Maintenance Director[[/span]]
 [[/>]]
 [[/div]]
-------
-------
+----
+----
 [[div class="body-text"]]
 [[=]]
-++ With regards to Chamber 02's renovations
+++ [[span class="o"]]With regards to Chamber 02's renovations[[/span]]
 [[/=]]
-Well, Irides ran out of space, money, and Director Regan's patience.
+[[span class="o"]]Well, Irides ran out of space, money, and Director Regan's patience.[[/span]]
 
-After some prep work, it's been found that your realization of Irides is gonna intrude on URA-3721. Moreover, the other researchers aren't too fond of what we already have; it's doing something to the morale, more than just the fact that it makes construction noises even on off-hours. 
+[[span class="o"]]After some prep work, it's been found that your realization of Irides is gonna intrude on URA-3721. Moreover, the other researchers aren't too fond of what we already have; it's doing something to the morale, more than just the fact that it makes construction noises even on off-hours. [[/span]]
 
-And again: are you alright? This is all you're talking about. Sometimes it feels like you're an intermediary between me and Irides. I can't even ping your Scipnet account; what's happening?
+[[span class="o"]]And again: are you alright? This is all you're talking about. Sometimes it feels like you're an intermediary between me and Irides. I can't even ping your Scipnet account; what's happening?[[/span]]
 
-SCP-5947 is just fish, Dr. Smith. No need to complicate it any further.
+[[span class="o"]]SCP-5947 is just fish, Dr. Smith. No need to complicate it any further.[[/span]]
 [[>]]
-Jared Morello, Maintenance Director
+[[span class="o"]]Jared Morello, Maintenance Director[[/span]]
 [[/>]]
 [[/div]]
-------
-------
+----
+----
 [[size 150%]]
-= **INCIDENT U3721-B REGAN-MORELLO**
+= [[span class="o"]]**INCIDENT U3721-B REGAN-MORELLO**[[/span]]
 [[/size]]
 
-On 30/08/2002, URA-3721 disappeared from containment, and Dr. Aningan Regan and Jared Morello failed to clock in at their usual times. Security audits indicated that neither had left the premises of CANUAR-Site-90, A search was initiated; however, no evidence of wrongdoing was uncovered.
+[[span class="o"]]On 30/08/2002, URA-3721 disappeared from containment, and Dr. Aningan Regan and Jared Morello failed to clock in at their usual times. Security audits indicated that neither had left the premises of CANUAR-Site-90, A search was initiated; however, no evidence of wrongdoing was uncovered.[[/span]]
 
-On 02/09/2002, maintenance personnel reported a pungent odor from Chamber 02. Preliminary investigation revealed the presence of apparent human viscera in the space below Chamber 02, as well as the shattered remains of URA-3721. Recovery attempts were hindered, however, by architectural quirks in the recently renovated Chamber 02, which provided no means of egress from the space below.
+[[span class="o"]]On 02/09/2002, maintenance personnel reported a pungent odor from Chamber 02. Preliminary investigation revealed the presence of apparent human viscera in the space below Chamber 02, as well as the shattered remains of URA-3721. Recovery attempts were hindered, however, by architectural quirks in the recently renovated Chamber 02, which provided no means of egress from the space below.[[/span]]
 
-Plans to deconstruct Chamber 02 were considered, but ultimately scrapped at the direction of CANUAR-Site-90 Director Silas Smith.
+[[span class="o"]]Plans to deconstruct Chamber 02 were considered, but ultimately scrapped at the direction of CANUAR-Site-90 Director Silas Smith.[[/span]]
 
-Renovation of Chamber 02 is presently set to continue.
+[[span class="o"]]Renovation of Chamber 02 is presently set to continue.[[/span]]
 [[=]]
 [[div style="background: url(https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat; float: center; border: solid 2px #000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
-+ WARNING: PoI-000 ATTEMPTING TO BREACH INNER PERIMETER
++ [[span class="o"]]WARNING: PoI-000 ATTEMPTING TO BREACH INNER PERIMETER[[/span]]
 ----
-+++ Director Smith,
-++++ This is an automated message to inform you that PoI-000 has been spotted heading towards the inner security perimeter of Site-90. Please stand by.
++++ [[span class="o"]]Director Smith,[[/span]]
+++++ [[span class="o"]]This is an automated message to inform you that PoI-000 has been spotted heading towards the inner security perimeter of Site-90. Please stand by.[[/span]]
 [[/div]]
 [[/=]]
-------
-------
-**Relevant excerpts of HMCL Audit S90JAN2003:**
+----
+----
+[[span class="o"]]**Relevant excerpts of HMCL Audit S90JAN2003:**[[/span]]
 [[div class="body-text"]]
 [[=]]
-+++ Chamber 02
++++ [[span class="o"]]Chamber 02[[/span]]
 [[/=]]
-* Supposedly the containment cell of SCP-5947; containment topology not adequately marked.
-* Anomalous object's containment device unsecured, on floor; can be easily moved or opened; not adequately demarcated.
-* Minor psychic compulsion; 7 members of 10 person survey team drawn towards anomalous object upon entrance; not adequately noted.
-* Auxiliary containment devices not built to Foundation Safety and Security regulations; electronics brought into Chamber 02 experience severe malfunctions when brought near machinery; no diagraphic documentation relevant to the structure.
-* Rancid odor, beyond the necessities of the containment procedures.
-* Chemical hazard: silver jewelry worn by members of the survey team found lightly to entirely corroded upon egress; not adequately noted.
-* Major psychic hazard field; survey team reported feelings of extreme subjugation by an unknown force. Not adequately noted.
-* Survey team incapable of entering the bottom chamber safely; floor of bottom chamber appears to be covered in viscera.
-* Survey team barred from entering the top chamber; reason: insufficient security clearance.
+* [[span class="o"]]Supposedly the containment cell of SCP-5947; containment topology not adequately marked.[[/span]]
+* [[span class="o"]]Anomalous object's containment device unsecured, on floor; can be easily moved or opened; not adequately demarcated.[[/span]]
+* [[span class="o"]]Minor psychic compulsion; 7 members of 10 person survey team drawn towards anomalous object upon entrance; not adequately noted.[[/span]]
+* [[span class="o"]]Auxiliary containment devices not built to Foundation Safety and Security regulations; electronics brought into Chamber 02 experience severe malfunctions when brought near machinery; no diagraphic documentation relevant to the structure.[[/span]]
+* [[span class="o"]]Rancid odor, beyond the necessities of the containment procedures.[[/span]]
+* [[span class="o"]]Chemical hazard: silver jewelry worn by members of the survey team found lightly to entirely corroded upon egress; not adequately noted.[[/span]]
+* [[span class="o"]]Major psychic hazard field; survey team reported feelings of extreme subjugation by an unknown force. Not adequately noted.[[/span]]
+* [[span class="o"]]Survey team incapable of entering the bottom chamber safely; floor of bottom chamber appears to be covered in viscera.[[/span]]
+* [[span class="o"]]Survey team barred from entering the top chamber; reason: insufficient security clearance.[[/span]]
 
-It is presently understood that Chamber 02 is undergoing renovations. ##blue|We therefore implore Director Smith to contact us upon Chamber 02's completion.##
+[[span class="o"]]It is presently understood that Chamber 02 is undergoing renovations. ##blue|We therefore implore Director Smith to contact us upon Chamber 02's completion.##[[/span]]
 [[>]]
-Talia Cassel, HMCL Technician
+[[span class="o"]]Talia Cassel, HMCL Technician[[/span]]
 [[/>]]
 [[/div]]
-------
-------
+----
+----
 [[div class="email"]]
 [[div class="tofrom"]]
-**To:** SDivekar@Scipnet (HPCL Supervisor Shakti Divekar; Classification Level RAISA-4; Employee Number 4886)
-**From:** WClarkson2@Scipnet (Researcher Walter Clarkson; Classification Level 1/5947; Employee Number 16020)
-**Subject:** Re:Re: Regarding Maintenance
+[[span class="o"]]**To:** SDivekar@Scipnet (HPCL Supervisor Shakti Divekar; Classification Level RAISA-4; Employee Number 4886)[[/span]]
+[[span class="o"]]**From:** WClarkson2@Scipnet (Researcher Walter Clarkson; Classification Level 1/5947; Employee Number 16020)[[/span]]
+[[span class="o"]]**Subject:** Re:Re: Regarding Maintenance[[/span]]
 [[/div]]
-------
-Hello, and sorry for the third email in a month.
+----
+[[span class="o"]]Hello, and sorry for the third email in a month.[[/span]]
 
-Is there any progress on the Chamber 02 case? It doesn't feel like too much it's been fixed; actually, it feels like it's gotten worse. The smell's starting to spread outside the chamber proper, and the construction noises aren't any quieter. Whatever they're doing when they're not expanding, it's still happening.
+[[span class="o"]]Is there any progress on the Chamber 02 case? It doesn't feel like too much it's been fixed; actually, it feels like it's gotten worse. The smell's starting to spread outside the chamber proper, and the construction noises aren't any quieter. Whatever they're doing when they're not expanding, it's still happening.[[/span]]
 
-I also think it's taking some kind of toll on my coworkers. It's been weeks since I last saw some of them. Actually, I didn't really notice until I started writing this letter, but I haven't seen too many of our projects, either.
+[[span class="o"]]I also think it's taking some kind of toll on my coworkers. It's been weeks since I last saw some of them. Actually, I didn't really notice until I started writing this letter, but I haven't seen too many of our projects, either.[[/span]]
 
-Another thing: apparently I've been assigned to Chamber 02? Nobody told me anything, but my file permissions were shifted around and the file that used to be SCP-239 has been archived. I've tried asking around, and I haven't gotten a response.
+[[span class="o"]]Another thing: apparently I've been assigned to Chamber 02? Nobody told me anything, but my file permissions were shifted around and the file that used to be SCP-239 has been archived. I've tried asking around, and I haven't gotten a response.[[/span]]
 
-Again, apologies for the repeat message, but I'm beginning to feel powerless. Like I'm being watched by a giant.
+[[span class="o"]]Again, apologies for the repeat message, but I'm beginning to feel powerless. Like I'm being watched by a giant.[[/span]]
 [[/div]]
-------
-------
+----
+----
 [[div class="email"]]
 [[div class="tofrom"]]
-**To:** SSmith18@Scipnet (Site Director Silas Smith; Classification Level XK-4; Employee Number 378)
-**From:** PWoodward@Scipnet (Intern Payton Woodward; Classification Level 0/5947; Employee Number 338014)
-**Subject:** Wrong address?
+[[span class="o"]]**To:** SSmith18@Scipnet (Site Director Silas Smith; Classification Level XK-4; Employee Number 378)[[/span]]
+[[span class="o"]]**From:** PWoodward@Scipnet (Intern Payton Woodward; Classification Level 0/5947; Employee Number 338014)[[/span]]
+[[span class="o"]]**Subject:** Wrong address?[[/span]]
 [[/div]]
-------
-I'm sorry to bother you, Director Silas, but I have a few questions if you don't mind:
-* Is something wrong with the Scipnet server? I know Site-90 is supposed to be an isolated site, but your email is the only one I can ping.
-* What's that smell? I assume it's fish, but I didn't expect to smell it until I got to the chamber.
-* Did I get the wrong address? This place looks like a factory, and I can't find anyone.
+----
+[[span class="o"]]I'm sorry to bother you, Director Silas, but I have a few questions if you don't mind:[[/span]]
+* [[span class="o"]]Is something wrong with the Scipnet server? I know Site-90 is supposed to be an isolated site, but your email is the only one I can ping.[[/span]]
+* [[span class="o"]]What's that smell? I assume it's fish, but I didn't expect to smell it until I got to the chamber.[[/span]]
+* [[span class="o"]]Did I get the wrong address? This place looks like a factory, and I can't find anyone.[[/span]]
 
-Thank you for your time, and again, sorry to bother you!
+[[span class="o"]]Thank you for your time, and again, sorry to bother you![[/span]]
 [[/div]]
 [[=]]
 [[div style="background: url(https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat; float: center; border: solid 2px #000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
-+ WARNING: CANUAR-SITE-90 BREACHED BY PoI-000
++ [[span class="o"]]WARNING: CANUAR-SITE-90 BREACHED BY PoI-000[[/span]]
 ----
-+++ Director Smith,
-++++ This is an automated message to inform you that Site-90's premises have been breached by PoI-000 ("Nobody"). [[[/draft:7974444-21-f737/offset/1/page3_limit/1|Please stand by]]].
++++ [[span class="o"]]Director Smith,[[/span]]
+++++ [[span class="o"]]This is an automated message to inform you that Site-90's premises have been breached by PoI-000 ("Nobody"). [[[/draft:7974444-21-f737/offset/1/page3_limit/1|Please stand by]]].[[/span]]
 [[/div]]
 [[/=]]
 [[/module]]
 [[module ListPages limit="@URL|0" range="." urlAttrPrefix="page3"]]
 [[div class="meta-title"]]
-AUTOMATED SURVEILLANCE LOG
+[[span class="o"]]AUTOMATED SURVEILLANCE LOG[[/span]]
 [[/div]]
 [[%%content{0}%%module css]]
 .body-text {
@@ -575,80 +575,78 @@ AUTOMATED SURVEILLANCE LOG
 
 [[div class="body-text"]]
 [[size 200%]]
-= **Site-90 Atrium**
+= [[span class="o"]]**Site-90 Atrium**[[/span]]
 [[/size]]
-> ++ AUTOMATIC NOTICE
-> SILVERFISH.aic has logged "Dust Atrium" to the maintenance masterlist as an Omega-level priority.
+> [[span class="o"]]++ AUTOMATIC NOTICE[[/span]]
+> [[span class="o"]]SILVERFISH.aic has logged "Dust Atrium" to the maintenance masterlist as an Omega-level priority.[[/span]]
 
-//PoI-000 enters through the main ground-floor entrance. They briefly vocalize shock, before activating a flashlight and taking their first steps into the interior.//
+[[span class="o"]]//PoI-000 enters through the main ground-floor entrance. They briefly vocalize shock, before activating a flashlight and taking their first steps into the interior.//[[/span]]
 
-//PoI-000 attempts to proceed further into the site, but appears to be distracted by a portion of the SILVERFISH auxiliary containment unit. Pulling out an electronic device, PoI-000 places a clamp onto one of the pipes, pausing presumably to take a reading before quickly unclamping from the unit and continuing onward.//
+[[span class="o"]]//PoI-000 attempts to proceed further into the site, but appears to be distracted by a portion of the SILVERFISH auxiliary containment unit. Pulling out an electronic device, PoI-000 places a clamp onto one of the pipes, pausing presumably to take a reading before quickly unclamping from the unit and continuing onward.//[[/span]]
 
-//PoI-000 appears to accidentally hit their head on the unit as they make their way out of the Atrium.//
+[[span class="o"]]//PoI-000 appears to accidentally hit their head on the unit as they make their way out of the Atrium.//[[/span]]
 [[/div]]
 
 [[div class="body-text"]]
 [[size 200%]]
-= **Site-90 1st-Floor South Hallways**
+= [[span class="o"]]**Site-90 1st-Floor South Hallways**[[/span]]
 [[/size]]
-> ++ AUTOMATIC NOTICE
-> SILVERFISH.aic has logged "Dust 1st-Floor South Hallways" to the maintenance masterlist as an Omega-level priority.
+> [[span class="o"]]++ AUTOMATIC NOTICE[[/span]]
+> [[span class="o"]]SILVERFISH.aic has logged "Dust 1st-Floor South Hallways" to the maintenance masterlist as an Omega-level priority.[[/span]]
 
-//PoI-000 continues through the 1st-floor South Hallways; they appear to experience difficulty navigating around the SILVERFISH auxiliary containment unit.//
+[[span class="o"]]//PoI-000 continues through the 1st-floor South Hallways; they appear to experience difficulty navigating around the SILVERFISH auxiliary containment unit.//[[/span]]
 
-//Ignoring the stairwell and administrative offices, PoI-000 continues down the hallway until they reach the wall-mounted map of the Site-90 complex. They spend several minutes examining the map, occasionally looking away to monitor the hallway. Eventually, PoI-000 continues along their way.//
+[[span class="o"]]//Ignoring the stairwell and administrative offices, PoI-000 continues down the hallway until they reach the wall-mounted map of the Site-90 complex. They spend several minutes examining the map, occasionally looking away to monitor the hallway. Eventually, PoI-000 continues along their way.//[[/span]]
 
-> ++ AUTOMATIC NOTICE
-> SILVERFISH.aic has logged "Correct map of Site-90" to the maintenance masterlist as a Theta-level priority.
+> [[span class="o"]]++ AUTOMATIC NOTICE[[/span]]
+> [[span class="o"]]SILVERFISH.aic has logged "Correct map of Site-90" to the maintenance masterlist as a Theta-level priority.[[/span]]
 [[/div]]
 
 [[div class="body-text"]]
 [[size 200%]]
-= **Site-90 1st-Floor Break Room**
+= [[span class="o"]]**Site-90 1st-Floor Break Room**[[/span]]
 [[/size]]
-> ++ AUTOMATIC NOTICE
-> SILVERFISH.aic has logged "Dust 1st-Floor Break Room" to the maintenance masterlist as an Omega-level priority.
+> [[span class="o"]]++ AUTOMATIC NOTICE[[/span]]
+> [[span class="o"]]SILVERFISH.aic has logged "Dust 1st-Floor Break Room" to the maintenance masterlist as an Omega-level priority.[[/span]]
 [[%%content{0}%%include component:image-block name=https://scp-wiki.wdfiles.com/local--files/scp-5947/goremachine.jpg | caption=Picture of 1st-Floor Break Room, taken by PoI-000.]]
 
-//PoI-000 enters the 1st-Floor Break Room with apparent difficulty, spending several minutes attempting to navigate through a portion of the SILVERFISH auxiliary containment unit.//
+[[span class="o"]]//PoI-000 enters the 1st-Floor Break Room with apparent difficulty, spending several minutes attempting to navigate through a portion of the SILVERFISH auxiliary containment unit.//[[/span]]
 
-//Once inside the 1st-Floor Break Room, PoI-000 pulls out their electronic device, taking a picture of the 1st-Floor Break Room, which SILVERFISH.aic automatically logs.//
+[[span class="o"]]//Once inside the 1st-Floor Break Room, PoI-000 pulls out their electronic device, taking a picture of the 1st-Floor Break Room, which SILVERFISH.aic automatically logs.//[[/span]]
 
-//PoI-000 suddenly startles, turning towards the general direction of Chamber 02. They attempt to climb the SILVERFISH auxiliary containment unit; however, the grated ceiling hinders their progress, forcing them to remove a section of ceiling with a multi-tool. Climbing through the hole in the ceiling, PoI-000 enters the 2nd-Floor South Hallways.//
+[[span class="o"]]//PoI-000 suddenly startles, turning towards the general direction of Chamber 02. They attempt to climb the SILVERFISH auxiliary containment unit; however, the grated ceiling hinders their progress, forcing them to remove a section of ceiling with a multi-tool. Climbing through the hole in the ceiling, PoI-000 enters the 2nd-Floor South Hallways.//[[/span]]
 [[/div]]
 
 [[div class="body-text"]]
 [[size 200%]]
-= **Site-90 2nd-Floor South Hallways**
+= [[span class="o"]]**Site-90 2nd-Floor South Hallways**[[/span]]
 [[/size]]
-> ++ AUTOMATIC NOTICE
-> SILVERFISH.aic has logged "Dust 2nd-Floor South Hallways" to the maintenance masterlist as an Omega-level priority.
+> [[span class="o"]]++ AUTOMATIC NOTICE[[/span]]
+> [[span class="o"]]SILVERFISH.aic has logged "Dust 2nd-Floor South Hallways" to the maintenance masterlist as an Omega-level priority.[[/span]]
 
-//Emerging into the 2nd-Floor South Hallways, PoI-000 moves to stand before immediately kneeling to retch.//
+[[span class="o"]]//Emerging into the 2nd-Floor South Hallways, PoI-000 moves to stand before immediately kneeling to retch.//[[/span]]
 
-//Several minutes pass before PoI-000 collects their bearings, navigating the dense piping of the SILVERFISH auxiliary containment unit towards Chamber 02.//
+[[span class="o"]]//Several minutes pass before PoI-000 collects their bearings, navigating the dense piping of the SILVERFISH auxiliary containment unit towards Chamber 02.//[[/span]]
 [[/div]]
 
 [[div class="body-text"]]
 [[size 200%]]
-= **Chamber 02**
+= [[span class="o"]]**Chamber 02**[[/span]]
 [[/size]]
 
-//Upon entering Chamber 02, PoI-000 is immediately drawn to SCP-5947. They do not attempt to survey the rest of Chamber 02 at this time.//
+[[span class="o"]]//Upon entering Chamber 02, PoI-000 is immediately drawn to SCP-5947. They do not attempt to survey the rest of Chamber 02 at this time.//[[/span]]
 
-//PoI-000 stops approximately .5 meters from SCP-5947, bending down to examine it with their mouth and nose covered. Several minutes pass; during this time, PoI-000 dissects two instances of SCP-5947 and attempts to analyze more through their electronic device. Eventually, PoI-000 stands up and turns to leave, at which point Director Smith impales them through their midsection.//
+[[span class="o"]]//PoI-000 stops approximately .5 meters from SCP-5947, bending down to examine it with their mouth and nose covered. Several minutes pass; during this time, PoI-000 dissects two instances of SCP-5947 and attempts to analyze more through their electronic device. Eventually, PoI-000 stands up and turns to leave, at which point Director Smith impales them through their midsection.//[[/span]]
 
-//Director Smith drags PoI-000 back to SCP-5947, forcing their face onto the containment bowl. PoI-000 is held there for several minutes, until they begin eating SCP-5947 at Director Smith's direction. Eventually, PoI-000 is able to finish SCP-5947 without gagging.//
+[[span class="o"]]//Director Smith drags PoI-000 back to SCP-5947, forcing their face onto the containment bowl. PoI-000 is held there for several minutes, until they begin eating SCP-5947 at Director Smith's direction. Eventually, PoI-000 is able to finish SCP-5947 without gagging.//[[/span]]
 
-//As PoI-000 has successfully completed SCP-5947's containment ritual, Director Smith drags them towards the iron stairs leading towards the space above Chamber 02. PoI-000 briefly struggles against Director Smith, before going limp from apparent shock.//
+[[span class="o"]]//As PoI-000 has successfully completed SCP-5947's containment ritual, Director Smith drags them towards the iron stairs leading towards the space above Chamber 02. PoI-000 briefly struggles against Director Smith, before going limp from apparent shock.//[[/span]]
 
-//Director Smith pulls PoI-000 beyond the threshold and deposits them beneath the SILVERFISH primary containment unit. In turn, SILVERFISH comes out of Hibernation Mode. After reviewing the Automated Surveillance Log, SILVERFISH measures PoI-000's neck, before proceeding with integration.//
+[[span class="o"]]//Director Smith pulls PoI-000 beyond the threshold and deposits them beneath the SILVERFISH primary containment unit. In turn, SILVERFISH comes out of Hibernation Mode. After reviewing the Automated Surveillance Log, SILVERFISH measures PoI-000's neck, before proceeding with integration.//[[/span]]
 
-//Two days later, SILVERFISH's focal cadaver stirs, indicating a successful integration.//
+[[span class="o"]]//Two days later, SILVERFISH's focal cadaver stirs, indicating a successful integration.//[[/span]]
 [[/div]]
 [[/module]]
 
 [!--Pages in use:
-http://www.scp-wiki.net/fragment:scp-5947-1
-http://www.scp-wiki.net/fragment:scp-5947-2
-http://www.scp-wiki.net/fragment:scp-5947-3--]
+http://www.scp-wiki.net/fragment:scp-5947-1http://www.scp-wiki.net/fragment:scp-5947-2http://www.scp-wiki.net/fragment:scp-5947-3--]
