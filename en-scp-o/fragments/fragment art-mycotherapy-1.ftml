@@ -1,0 +1,24 @@
+[[include :scp-wiki:theme:penumbra]]
+[[module CSS]]
+.linkOne a{
+    color: #2F333C;
+}
+.linkOne a:hover{
+    color: #2F333C;
+    background-color: #2F333C;
+}
+.linkOne a:visited{
+    color: #2F333C;
+}
+
+.linkTwo a{
+    color: #1EB5E8;
+}
+.linkTwo a:hover{
+    color: #2F333C;
+    background-color: #21EB5E8;
+}
+.linkTwo a:visited{
+    color: #1EB5E8;
+}
+[[/module]]

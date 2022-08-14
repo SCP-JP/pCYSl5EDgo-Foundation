@@ -1,0 +1,126 @@
+@@ @@
+@@ @@
+++ Technical/Staff
+@@ @@
+@@ @@
+[[=]]
+----
++++ [[size 125%]]📎[[/size]][[[component:adult-splash | Adult Splash]]]
+----
+[[/=]]
+
+This component used to warn readers of adult content on an article they're reading. It should **only** be used when making the splash page for an adult page. To use it, paste the following:
+
+> @@[[include component:adult-splash slug=slug_name]]@@
+
+@@ @@
+[[=]]
+----
++++ [[size 125%]]📎[[/size]][[[component:hide-tags | Hide Tags]]]
+----
+[[/=]]
+
+This component hides a page's tags. This component **can not** be used without Tech Team approval and can only be used on the first offset page on offset articles. To use it, paste the following:
+
+> @@[[include :scp-wiki:component:hide-tags]]@@
+
+See the [[[Technical Content Policy]]] for information.
+
+@@ @@
+[[=]]
+----
++++ [[size 125%]]📎[[/size]][[[component:interwiki-style | Interwiki Style]]]
+----
+[[/=]]
+
+This component allows you to restyle the interwiki. To use it, paste the following:
+
+>  @@[[include :scp-wiki:component:interwiki-style@@
+> | priority=X
+> | theme=<link to CSS stylesheet>
+> | css=<URI-encoded CSS>
+> @@]]@@
+
+@@ @@
+[[=]]
+----
++++ [[size 125%]]📎[[/size]][[[component:license-box | License Box]]]
+----
+[[/=]]
+
+This component allows you to properly attribute files used in your pages and lets people know how to properly attribute your page as well. To use it, paste the following at the end of your page:
+
+[[div class="blockquote"]]
+@@[[include :scp-wiki:component:license-box]]@@
+@@=====@@
+@@> **Filename:** @@
+@@> **Name:** (if different from filename)@@
+@@> **Author:**@@
+@@> **License:**@@
+@@> **Source Link:**@@
+@@> **Derivative of:** (If applicable)@@
+@@> **Additional Notes:** (Optional)@@
+@@=====@@
+@@[[include :scp-wiki:component:license-box-end]]@@
+[[/div]]
+
+Once you've done that, make sure to add the [/system:page-tags/tag/_licensebox _licensebox tag] to your page.
+
+You can see an example of this component at the bottom of this page.
+
+@@ @@
+[[=]]
+----
++++ [[size 125%]]📎[[/size]][[[component:s-css-p | S-CSS-P]]]
+----
+[[/=]]
+
+This component is used to list pages that don't operate well with the S-CSS-P browser extension, which injects custom CSS into scp-wiki pages. To add your page to it, modify the component page and add the slug for your article.
+
+@@ @@
+[[=]]
+----
++++ [[size 125%]]📎[[/size]][[[component:theme-squares | Theme Squares]]]
+----
+[[/=]]
+
+[[include :scp-wiki:component:theme-squares -=-
+| color1-name=Payne's Grey
+| color1-variable=--gray-monochrome
+| color1-info=(66, 66, 72)
+| color1-has-light-text=1
+| color2-name=Rosewood
+| color2-variable=--bright-accent
+| color2-info=(133, 0, 5)
+| color2-has-light-text=1
+| subcolor1-name=Alto
+| subcolor1-variable=--very-light-gray-monochrome
+| subcolor1-info=(215, 215, 215)
+| subcolor2-name=White Smoke
+| subcolor2-variable=--pale-gray-monochrome
+| subcolor2-info=(244, 244, 244)
+| subcolor3-name=Bastille
+| subcolor3-variable=--dark-gray-monochrome
+| subcolor3-info=(48, 48, 52)
+| subcolor3-has-light-text=1
+| subcolor4-name=Buccaneer
+| subcolor4-variable=--medium-accent
+| subcolor4-info=(100, 46, 44)
+| subcolor4-has-light-text=1
+| subcolor5-name=Maroon
+| subcolor5-variable=--dark-accent
+| subcolor5-info=(100, 3, 15)
+| subcolor5-has-light-text=1
+| subcolor6-name=Mango Tango
+| subcolor6-variable=--newpage-color
+| subcolor6-info=(221, 102, 17)
+]]
+
+This component is meant for use on {{theme:}} pages. It allows you to show off the colour palette used on your theme. To use it, paste the following for each square:
+
+> @@[[include :scp-wiki:component:theme-squares -=-@@
+> | color1-name=My Favourite Colour
+> | color1-variable=--fav-color
+> | color1-info=(191, 144, 0)
+> | color1-has-light-text=0/1
+> ]]

@@ -1,0 +1,754 @@
+[[iftags +fragment]]
+
+**Note**: the map below (and nothing else on this page) can be included on any page that doesn't have the fragment tag, using the following code:
+[[div class="code"]]
+@<[[include :scp-wiki:fragment:facilities-map>@
+legend = Legend|
+site = Site|
+area = Area
+]]
+[[/div]]
+You can replace Legend, Site and Area with terms of your choice, enabling you to translate this map into other languages without having to copy the whole thing over every time it gets updated!
+
+This page was designed to be collaborative, so if you add a Site to the [[[Secure Facilities Locations]]] page and it has a well defined location, you can also add to this map. Feel free to make minor edits to positioning of the icons if you think the position is off, just preview carefully before saving.
+
+A few notes;
+* Don't add facilities like Site-01 or Site-19 just because one article specifies a location - unlike the facilities on this map, those Sites don't have a consistently agreed upon location! 
+* Many of these locations are approximate - often, only the State or Country has been specified in published articles, so the location within it was basically a guess.
+* These locations aren't "canon", just widely agreed on. You're free to contradict this map in your own articles if you feel like it!
+
+[[collapsible show="▷ Instructions for Additions" hide="◁ With and without a custom icon"]]
+Copy and edit the following code, replacing x_coordinate and y_coordinate with numbers (representing distance from the top left corner in percent) and replacing url_for_the_image with the image link for the Site or Area icon:
+[[div class="code"]]
+@<[[include :scp-wiki:component:mapping-source>@
+facility=-- |
+x=x_coordinate |
+y=y_coordinate |
+image=url_for_the_image|>@
+]]
+[[/div]]
+
+If you don't have a custom image for your Site or Area, you can use a plain white outline, replacing XXX with your number (for an area, use template-area)
+[[div class="code"]]
+@<[[include :scp-wiki:component:mapping-source>@
+facility=-- |
+x=x_coordinate |
+y=y_coordinate |
+image=https://scp-wiki.wdfiles.com/local--files/fragment%3Afacilities-map/template-site.png|
+textclass=numbermap |
+text=XXX |
+]]
+[[/div]]
+
+For full instructions on how to use this component, see the [[[component:mapping|Mapping Component Page]]].
+
+Tip: copy the x and y coordinates from the nearest site, then make small adjustments until your icon is in the appropriate position!
+
+New additions should be added in numerical order to the appropriate list of Sites or Area. Facilities in North America (Primarily the USA and Canada, but facilities in Central America or the Caribbean could also be included) are listed twice, the first time to add them to the North American Map, the second time to add them to the World Map. When adding these locations to the World Map, replace "expand" with "fixed", since the North American Map will automatically expand when this region is selected.
+[[/collapsible]]
+
+In addition to including this page on any other page, you're welcome to copy the code and use it for any other purpose compatible with the license - feel free to add or remove Facilities, change icons, or add additional popouts for other regions to show specific locations in more detail. Just make sure to credit [[*user Jerden]], [[*user L200]], and any artists who's work you use - you'll need to copy the licensing information at the bottom of this page over to your page.
+
+[[=]]
++ Map of Foundation Facilities
+++ (Major Facilities of the English-Speaking Foundation)
+[[/=]]
+[[/iftags]]
+
+[[include :scp-wiki:component:mapping-source
+code=-- |
+]]
+
+[[module CSS]]
+.special41 {
+   position: absolute;
+   height: 1.5vmin;
+   width: 1.5vmin;
+   background-size: contain !important;
+   background-repeat: no-repeat;
+   transform: translate(-50%, -50%);
+   opacity: 0.25;
+   transition: all 0.3s;
+}
+
+.special41:hover {
+   transform: translate(-50%, -50%) scale(7.5);
+   opacity: 1;
+   z-index: 2;
+}
+[[/module]]
+
+[[div class="mainmap"]]
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Afacilities-map/Map-World.png]]
+
+[!-- North American Map --]
+[[include :scp-wiki:component:mapping-source
+secmap=-- |
+sx= 25|
+sy= 35|
+x=10|
+y=5|
+image=https://scp-wiki.wdfiles.com/local--files/fragment%3Afacilities-map/Map-North-America.png|
+]]
+
+[!-- Sites (on North American Map) --]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=65.5|
+y=54.3|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-11.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=25.2|
+y=59.0|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-14.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=23.4|
+y=61.3|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-15.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=78.7|
+y=54.0|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-28.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=65.5|
+y=64.5|
+image= https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-38.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=41.5 |
+y=61.7 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-41.svg|
+specialcase=-- |
+specialclass=special41 |
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=69.2|
+y=52.0|
+image= https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/S43.png|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=29.9|
+y=63.9|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-45-PH.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=80.2|
+y=50.9|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-55.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=28.3|
+y=56.4|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-56.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=24.4|
+y=48.8|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-64.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=42.0|
+y=40.0|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-65.svg||
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=53.1|
+y=71.6|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-73.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=65.2 |
+y=59.9|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-81.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=77.5|
+y=54.7|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-83.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=57.9|
+y=50.1|
+image= https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/S87.png|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=64.8|
+y=72.4|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-88.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=75.8|
+y=56.8|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-98.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=76.2|
+y=78.2|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/S106.png|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=34|
+y=66|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-169.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=85.4|
+y=44.6|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-184.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=65.2|
+y=69.5|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-234.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=58.8|
+y=48.1|
+image= https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/S246.png|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=76.9|
+y=56.1|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-322.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=31.1|
+y=63.3|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-666.svg|
+]]
+
+[!-- Areas (on North American Map) --]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=29.8|
+y=60.0|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Area-09.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=31.8 |
+y=56.8|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Area-14.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=73.5 |
+y=49.5|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Area-27.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=75.0|
+y=54.8|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Area-179.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=70.0|
+y=20.0|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Area-314.svg||
+]]
+
+[[/div]]
+
+[!-- World Map --]
+[!-- Sites in North America (on World Map) --]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=26.6|
+y=23.2|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-11.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=16.5|
+y=26.3|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-14.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=16.0|
+y=27.0|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-15.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=28.6|
+y=24.9|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-28.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=25.4|
+y=27.4|
+image= https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-38.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=20.5 |
+y=27.0 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-41.svg|
+specialcase=--|
+specialclass=special41|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=27.6 |
+y=22.7 |
+image= https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/S43.png|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=17.8|
+y=27.4|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-45-PH.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=29.5|
+y=23.6|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-55.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=17.5|
+y=25.0|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-56.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=17.0|
+y=22.5|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-64.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=22.8 |
+y=17.5 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-65.svg||
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=22.0|
+y=29.7|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-73.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=26.0 |
+y=25.6|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-81.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=28.3|
+y=24.9|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-83.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=25.8|
+y=22.0|
+image= https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/S87.png|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=24.5|
+y=30.5|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-88.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=26.5|
+y=25.3|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-98.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=25.8|
+y=34.0|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/S106.png|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=18.9|
+y=27.7|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-169.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=32.0 |
+y=22.0 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-184.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=24.7|
+y=29.2|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-234.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=25.8|
+y=21.0|
+image= https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/S246.png|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=27.9|
+y=25.2|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-322.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=18.0|
+y=26.6|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-666.svg|
+]]
+
+[!-- Areas in North America --]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=17.8|
+y=25.6|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Area-09.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=18.5 |
+y=24.8|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Area-14.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=29.5 |
+y=21.8 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Area-27.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=27.8|
+y=24.5|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Area-179.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=33.2|
+y=10.9|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Area-314.svg||
+]]
+
+[!-- Sites outside of North America --]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=48.7 |
+y=19.8 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-06.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=66.9 |
+y=32.8 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-36.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=47.7 |
+y=18.6 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-44.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=77.0 |
+y=71.7|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-45.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=50.3|
+y=18.2 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-54.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=50.8 |
+y=24.0 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-77.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=82.5 |
+y=30.0|
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-79.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=83.9 |
+y=64.5 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-84.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=47.1 |
+y=17.6 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-91.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=52.3 |
+y=18.5 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-120.svg|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=52.5 |
+y=21.0 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-228.svg
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=83.9 |
+y=60.5 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-300.svg|
+textclass=subtitlemap|
+text=(-12)|
+]]
+
+[[include :scp-wiki:component:mapping-source
+facility=-- |
+x=66.9 |
+y=09.8 |
+image=https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-300.svg|
+textclass=subtitlemap|
+text=(-14)|
+]]
+
+
+[[div class="subtitle"]]
+[[include :scp-wiki:fragment:facilities-map-legend
+legend = {$legend}|
+site = {$site}|
+area = {$area}
+]]
+[[/div]]
+[[/div]]
+
+[[iftags +fragment]]
+[[=]]
+[[div class="licensebox"]]
+[[collapsible show="‡ Licensing / Citation" hide="‡ Hide Licensing / Citation"]]
+Cite this page as:
+> "Facilities Map" by Jerden and L200, from the [https://scp-wiki.wikidot.com SCP Wiki]. Source: https://scp-wiki.wikidot.com/fragment:facilities-map. Licensed under [https://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA].
+For more information, see [https://scp-wiki.wikidot.com/licensing-guide Licensing Guide].
+**Licensing Disclosures**
+=====
+=====
+[[<]]
+> **Filename:** World-Map
+> **Original Author:** Canuckguy, see File history for full list of contributors.
+> **Modified By:** [[*user L200]] and [[*user Jerden]]
+> **License:** Public Domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:BlankMap-World.svg
+
+> **Filename:** North-America-Map
+> **Original Authors:** Kaldari and Halava
+> **Modified By:** [[*user L200]] and [[*user Jerden]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://commons.wikimedia.org/wiki/File:North_America_map_with_states_and_provinces.svg
+
+> **Filename:** Site-01, Site-06, Site-11, Site-17, Site-18, Site-19, Site-23, Site-36, Site-38, Site-41, Site-44, Site-45, Site-45-PH, Site-54, Site-62, Site-64, Site-65, Site-66, Site-73, Site-77, Site-81, Site-83, Site-84, Site-91, Site-120, Site-184, Site-234, Site-300, Site-322, Site-666, Area-12, Area-14, Area-27, Area-37, Area-179
+> **Author:** [[*user Jerden]] based on work by [[*user HarryBlank]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/jerden-insignia
+
+> **Filename:** Site-11
+> **Author:** [[*user Jerden]] using the CoA_Roman_Catholic_Diocese_of_Lansing by Jayarathina
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/jerden-insignia
+
+> **Name:** CoA_Roman_Catholic_Diocese_of_Lansing
+> **Author:** Jayarathina
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://commons.wikimedia.org/wiki/File:CoA_Roman_Catholic_Diocese_of_Lansing.svg
+
+> **Filename:** Site-14
+> **Author:** [[*user Jerden]] using the Telecommunications Monitoring Office (TMO) logo by [[*user Agente Shuffle]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** http://scp-wiki.wikidot.com/jerden-insignia
+
+> **Name:** TMOwhite
+> **Author:** [[*user Agente Shuffle]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/site-14-secure-facility-dossier
+
+> **Filename:** Site-15
+> **Author:** [[*user Jerden]] using the Infotech Department logo by [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/jerden-insignia
+
+> **Name:** Infotech Department
+> **Author:** [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne
+
+> **Filename:** Site-28
+> **Author:** [[*user Jerden]] using the Artistic Anomalies Department logo by [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/jerden-insignia
+
+> **Name:** Artistic Anomalies Department
+> **Author:** [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne
+
+> **Filename:** Site-56
+> **Author:** [[*user Jerden]] using calamarie-2-mono by Gunnvôr silfrahárr
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/jerden-insignia
+
+> **Filename:** calamarie-2-mono
+> **Name:** Calamarie (2)
+> **Author:** Gunnvôr silfrahárr
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://heraldicart.org/viking-answer-lady-svg-images-for-heralds
+
+> **Filename:** Site-88
+> **Author:** [[*user Jerden]] using Meuble_héraldique_marteau by Yorick
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/jerden-insignia
+
+> **Filename:** Meuble_h%C3%A9raldique_marteau
+> **Name:** Meuble héraldique marteau
+> **Author:** Yorick
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Meuble_h%C3%A9raldique_marteau.svg
+
+> **Filename:** Site-98
+> **Author:** [[*user Jerden]] using the Department of Sciences logo by [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/jerden-insignia
+
+> **Name:** Department of Sciences
+> **Author:** [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne
+
+> **Filename:** Site-104
+> **Author:** [[*user Jerden]] using tree-blasted-3-mono by Gunnvôr silfrahárr
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/jerden-insignia
+
+> **Filename:** tree-blasted-3-mono
+> **Name:** Tree Blasted (3)
+> **Author:** Gunnvôr silfrahárr
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://heraldicart.org/viking-answer-lady-svg-images-for-heralds
+
+> **Filename:** S43, S87, 106, S246
+> **Author:** [[*user HarryBlank]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/blank-art
+[[/<]]
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]
+[[/iftags]]
