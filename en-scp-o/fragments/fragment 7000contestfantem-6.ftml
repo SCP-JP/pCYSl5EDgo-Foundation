@@ -1,0 +1,266 @@
+[[include :scp-wiki:theme:basalt hidetitle=a]]
+[[module CSS]]
+:root{
+--logo: url(https://scp-wiki.wikidot.com/local--files/7000contestfantem/Sigil_Main.png);
+--title: "SCP Foundation";
+--subtitle: "Regarding Primrose Fatish Von Trevil";
+}
+
+.document {
+    background: white url('https://scp-wiki.wikidot.com/local--files/7000contestfantem/SCP_Trans.png') center center no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 26px auto 0;
+    max-width: 550px;
+    min-height: 300px;
+    padding: 24px;
+    padding-top: 50px;
+    position: relative;
+    width: 80%;
+    color: black;
+}
+ 
+.document:before,
+.document:after {
+    content: " ";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+ 
+.document:before {
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
+}
+ 
+.document:after {
+    background: #f6f6f6;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
+}
+
+
+[[/module]]
+
+[[include :scp-wiki:component:acs-animation]]
+[https://scp-wiki.wikidot.com/7000contestfantem/offset/5 < Previous Page]
+[[include :scp-wiki:component:customizable-acs
+|inc-clearance-image=  --]]]
+[[include :scp-wiki:component:customizable-acs
+|containment-class= safe
+|containment-color=
+|secondary-class=draugr
+|secondary-color= 125, 112, 152
+|inc-split-color=  --]]]
+[[include :scp-wiki:component:customizable-acs
+|containment-class= safe
+|containment-image= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/safe-icon.svg
+|containment-color=  
+|inc-esoteric-layout= --]]]
+[[div class="anom-bar-esoteric"]]
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= SCP-7000
+|clearance= 1
+|container-class= safe
+|secondary-class= draugr
+|secondary-icon= https://scp-wiki.wikidot.com/local--files/7000contestfantem/Draugr.png
+|disruption-class= dark
+|risk-class= notice
+]]
+[[/div]]
+----
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image https://scp-wiki.wikidot.com/local--files/7000contestfantem/Modern_Boat.png style="width:100%;"]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-7000, post-repairs.
+[[/div]]
+[[/div]]
+**Special Containment Procedures:**[[footnote]]**Draugr:** Item is considered Neutralized or Decommissioned, but ongoing anomalous phenomena originates from them.[[/footnote]] SCP-7000 and SCP-7000-# are to be contained in Site-88. SCP-7000 is to be investigated for anomalous properties, and its Hume level monitored for spikes in activity.
+
+Reconstruction of SCP-7000 is currently underway, so as to obtain a better understanding of its nature.
+
+**Description:** SCP-7000 is a **##7D7098|formerly##** damaged American sternwheel steamboat commissioned by one “Adrian"[[footnote]]No last name given. **##7D7098|Known relations to [[[SCP-6159]]]##**[[/footnote]] in 1921. The object was used for commercial river cruises along the Mississippi River, and as a cover for illegal activities such as gambling and moonshine production/distribution.
+
+The many relevant objects found within the vessel are referred to as SCP-7000-#, and include decks of standard playing cards, dice, roulette tables, slot machines, and eight deceased humans. SCP-7000-# gaming equipment only manifest anomalous properties within SCP-7000. Any players who participate in a game of chance have a 100% success rate. When SCP-7000-1, or Adrian's corpse, is treated as a “player” of a game within SCP-7000, SCP-7000-1 **##7D7098|and Adrian, the living Tartarean entity employed as Foundation Thaumiel-Agent Primrose Fatish Von Trevil's familiar,##** loses 100% of games in all tests.
+
+All results of chance-based elements of any game played within SCP-7000 are decided in the players favor. Should the odds of a win-condition be impossible, the circumstances of that game will shift to allow a player win. Skill-based factors of games played within SCP-7000 are unaffected, as well as games where the opponent is another player, excluding the "House."
+
+**##7D7098|SCP-7000 acts as a siphon and amplifier for Tartarean Resonance Energy for any activities that occur within it. The vessel's internal Hume level of 10██~ is from an overabundance of siphoned TRE, and is not reflective of the object itself.##** SCP-7000-# objects have been proven to be non-anomalous, and SCP-7000 merely reacts to games of chance being played within it. SCP-7000-# corpses are thought to be non-anomalous and have been buried, save for SCP-7000-1.
+
+**Addendum:** SCP-7000 was found in the bottom of the Mississippi River, near Port Sulphur, its destruction **##7D7098|caused by##** an explosion to its engine. Civilians aboard SCP-7000 at the time of its malfunction have been safely evacuated, the only casualties appearing to be Adrian, and 7 confirmed members of the New Orleans Crime Family. 
+
+
+[[collapsible show="[+] LEVEL 4 CLEARANCE REQUIRED" hide="[-] LEVEL 4 CLEARANCE REQUIRED"]]
+
+[[div class="blockquote"]]
+
+**Date:** 07/31/2022
+
+**Location:** Site-666
+
+**Personnel Present:** Sheldon Katz, Esq. //(Legal Department)//, Adrian //(Familiar/Paralegal/Emotional Support Animal)//
+
+-----
+
+//[Katz and Adrian sit at opposite end of Conference Room B's table. The room has been recently repaired from the recent signing of the 2022 [https://scp-wiki.wikidot.com/scp-6607 SCP-IRS Accords.]]//
+
+
+**Adrian:** The uh... Roof is fine, right? A little scared of it coming down again.
+
+**Katz:** I don't blame you, but don't worry. Short of another direct attack, it should be just fine.
+
+//[Groaning  from above can be heard.]//
+
+**Adrian:** Okay, I know that's just from the roof settling or something, but damn if that doesn't make me nervous. Let's keep it short for both of our sanity's, yeah?
+
+**Katz:** Yeah, agreed. So, you wanted me to help you submit a proposal to the Ethics Committee about SCP-7000. I understand you were the captain of the vessel when you were alive and human.
+
+**Adrian:** Yep. So, Prim's filled you in on what it does, and how it works. Thing is though, it's sorta tied to her. You can't really interact with it the way she and I can, and the only reason why I can play with it is because I'm her familiar. We also noticed that the Foundation's practical knowledge on TRE and Hell in general is... well, lacking. No offense.
+
+**Adrian:** We wanted to propose taking advantage of the huge amounts of TRE festered on the boat, and utilizing it as a portable hellscape that the Foundation can utilize for testing purposes. This would allow us to better facilitate the safe study and production of Tartarean technology. The downside is that Prim or I need to be stationed there to ensure it goes right. We also still need to... //produce// TRE, so some sinning will need to go down. 
+
+**Adrian:** Your standard fare of sex, drugs, and rock n' roll should be enough.
+
+**Katz:** And Prim is okay with shifting her work? If I recall, she was helping us form Tartarean counter-measures.
+
+**Adrian:** Yep. She actually helped me prep what I said just now. We think this is a valuable use of resources. It's better than my idea of strapping a sin-canon to it and riding it into nautical battles. Also, side note, you're not just gonna need to defend against Hell. //Heaven// is a problem you're gonna run into too. If a Seraphim came here, which is now more likely since Hell's presence on Earth has strengthened in recent years, you'd just be fucked.
+
+**Katz:** Uh, elaborate?
+
+**Adrian:** "Rapture." A purge. If even a single Seraphim arrived, it would mean that Heaven has deemed Earth TFG.[[footnote]]"Too Far Gone"[[/footnote]] It's not a matter of demon-acceptance, either. Just demonic //presence// could flag you for it, which is increasing. Now, I ain't saying it's about to happen, but we SEEM to be heading that way after what we just did in the 2022 IRS-SCP Accords, and it's good to prepare.
+
+**Adrian:** Which makes our proposal somewhat necessary, to protect against //both// sides in the long-term. A self-contained, portable Hellscape capable of multidimensional travel would have a minimal impact on the global TRE levels, and should leakage occur, its portable nature would allow us to quickly move the problem someplace else till we fix it.
+
+**Adrian:** This would also create demand the inverse. A test site for a Heaven-equivalent; testing and understanding Heaven-tech. We would need to collaborate with those folk a lot.
+
+**Katz:** Hm... what would you suggest if this was not the avenue we wanted to go down?
+
+**Adrian:** Steal shit and study it. Good news is, that's the Foundation's wheelhouse, so you could do that without us. Now, if this proposal is denied, we would be willing and able to assist with that. However, that'll take time, careful political maneuvering, and it'll inevitably require us to pick a side to ally with in the meantime. Heaven or Hell.
+
+**Adrian:** And uh, personal opinion, we should be trying to be independent of both. They're both different flavors of oppressive regime. Hell's absorptionist, and Heaven's... Genocidal? Even that seems to downplay the severity of it since there's no real word for a political position that's in favor of a scorched earth policy.
+
+**Katz:** [pause] I can now see why you're going to the Ethic's Committee directly for this.
+
+**Adrian:** Now, I do need to emphasize, this is not an //urgent// threat. It's an oncoming one. What's important is that we give them a reason not to fuck with us. Which is gonna be tough, since their status of being the only two afterlives out there means either one could just destroy Earth and benefit from it.
+
+**Adrian:** Again, to summarize, this proposal is basically... our recommended approach. Research and develop technology and get alot more shit into Gödel-Class,[[footnote]] **Gödel:** Item is explainable using anomalous science.[[/footnote]] and make us a target not worth going after. Otherwise, we're gonna need to make some Allies. 
+
+[[/div]]
+
+----
+
+[[div class="document"]]
+
+[[=]]
++ Ethics Committe Proposal 7000
+[[/=]]
+
+**Date:** 07/31/2022
+
+**Proposal:** Use SCP-7000 to create a contained, portable environment in which to study the effects of TRE, and develop technology to prevent either a TTK-Class Tartarean-Intrusion Scenario,[[footnote]]**TTK-Class Tartarean-Intrusion Scenario:** A K-Class Scenario in which one or more tartarean dimensions (Hell, Hades, etc.) gain influence over baseline reality.[[/footnote]] HK-Class Deific Subjugation Scenario, or XK-Class End-of-the-World Scenario. A vote of NAY will result in the continuation of SCP-7000's containment.
+
+------
+
+[[div class="addendum" style="font-weight: bold; background:#fff url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat;"]]
+@@ @@
+
+= [[size 125%]]COMMITTE VOTE SUMMARY:[[/size]]
+
+= YEA (COUNT PENDING)
+||~ NAME||~ REPRESENTATION||~ HEAD||
+||  ||   ||   ||
+
+= NAY (COUNT PENDING)
+||~ NAME||~ REPRESENTATION||~ HEAD||
+||  ||   ||   ||
+
+= ABSTAIN (COUNT PENDING)
+||~ NAME||~ REPRESENTATION||~ HEAD||
+||  ||   ||   ||
+
+@@ @@
+||~ STATUS ||
+|| [[span style="font-weight: normal; font-family: Stencil; font-size: 140%; color: orange; padding: 3pt 3pt;"]]PENDING[[/span]] ||
+[[/div]]
+[[=]]
+++ [https://scp-wiki.wikidot.com/forum/t-15063622/7000contestfantem Please submit your vote here]
+[[/=]]
+[[/div]]
+
+@@ @@
+
+
+
+
+
+
+
+
+
+
+
+[[div style="display: none;"]]
+
+
+
+
+**Closing Statement:** The vote has passed in a YEA majority. Adrian and Primrose Fatish Von Trevil has been temporarily stationed at SCP-7000 to assist in the research, production, and study of TRE-based technology and weaponry. SCP-7000 has been reclassified from Safe to Thaumiel.
+[[div class="blockquote"]]
+//##870f06|I look forward to working with the Foundation Tartarean Research team. I can not stress the importance of the work we will be doing together. For a free Earth, we will need to pursue a much deeper understanding of everything that goes on beyond this life. As someone deeply familiar with the inner workings of the abyss, I will personally ensure our progress is exponential, and we have a fighting chance at holding our own against the two overwhelming forces of the Afterlife.##//
+
+//##870f06|Thank you for trusting me to be your first, and your last, resort.##//
+
+//##870f06|I am excited for what we will accomplish.##//
+
+[[image https://scp-wiki.wdfiles.com/local--files/scp-6159/Primrose_Fatish_Von_Trevil.png width="35%"]]
+
+@@ @@
+
+[[/div]]
+
+[[div class="blockquote"]]
+##706236|Sex. Drugs. Rock and Roll.##
+
+[[image https://media.discordapp.net/attachments/512608492503433228/1003360891259068456/Captain_Adrian_cocosign.png width="25%"]]
+
+[[/div]]
+
+
+**Closing Statement:** The vote has passed with a NAY majority. Adrian and Primrose Fatish Von Trevil has been stationed at Site-666 to assist in the diplomatic relations and acquisition of TRE-based technology and weaponry. Efforts to establish Earth as a cosmically neutral party are underway.
+[[div class="blockquote"]]
+//##870f06|I am excited to be working with Site-666. I can not stress the importance of the work we will be doing together. For the long-term survival of Earth, we will need to pursue a much deeper understanding of everything that goes on beyond this life. As someone deeply familiar with the inner workings of the abyss, I will personally ensure we have allies against the two overwhelming forces of the Afterlife.##//
+
+//##870f06|Thank you for trusting me to be your first, and your last, resort.##//
+
+//##870f06|I look forward to what we will accomplish.##//
+
+[[image https://scp-wiki.wdfiles.com/local--files/scp-6159/Primrose_Fatish_Von_Trevil.png width="35%"]]
+
+@@ @@
+
+[[/div]]
+
+[[div class="blockquote"]]
+##706236|Here lies Anna's Orchestra. I will always look back on our memories fondly, but at least no one's gonna blow you up again.##
+
+[[image https://media.discordapp.net/attachments/512608492503433228/1003360891259068456/Captain_Adrian_cocosign.png width="25%"]]
+
+[[/div]]
+
+@@ @@
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+[https://scp-wiki.wikidot.com/7000contestfantem/offset/0 I] | [https://scp-wiki.wikidot.com/7000contestfantem/offset/1 II] | [https://scp-wiki.wikidot.com/7000contestfantem/offset/2 III] | [https://scp-wiki.wikidot.com/7000contestfantem/offset/3 IV] | [https://scp-wiki.wikidot.com/7000contestfantem/offset/4 V] | [https://scp-wiki.wikidot.com/7000contestfantem/offset/5 V1]
+[[/=]]
+[[/div]]
+
+
+[[/div]]
+
+[[/collapsible]]
