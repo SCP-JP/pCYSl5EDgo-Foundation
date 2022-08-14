@@ -1,0 +1,37 @@
+[[module css]]
+.danke {
+    padding: 2em;
+    margin-bottom:10px;
+    font-family: monospace;
+    font-size: 1.1em; 
+}
+
+.agent {
+    background-color:#002200;
+    border: 3px solid #55AA55;
+    color: #77CC77;
+}
+
+.site {
+    background-color:#222200;
+    border: 3px solid #AAAA55;
+    color: #DDDD77;
+}
+[[/module]]
+
+[[div class="danke agent"]]
+[[=]]
+##red|**__WARNING__**##
+
+The file you are trying to access is Level-3/6465 Classified, and can only be accessed safely if stored, transmitted, and accessed in an area secured by Derichs-Lindberg Thaumic Exclusion Wards.
+If you are not cleared to access this file, close this page immediately and report for emergency amnestic treatment. Do not mention this file.
+[[/=]]
+-----
+[[collapsible show="Input Level-3/6465 Credentials" hide="ACCESS GRANTED"]]
+
+By accessing the SCP-6465 file you understand that access without proper warding constitutes a containment breach and will be met with disciplinary measures. Do you wish to proceed?
+
+@@>@@ [https://scp-wiki.wikidot.com/scp-6465/offset/1 Yes]
+
+[[/collapsible]]
+[[/div]]

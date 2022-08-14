@@ -1,0 +1,992 @@
+[[include :scp-wiki:theme:dustjacket-sigma]]
+
+[[module CSS]]
+#header {
+    background: url('https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/WLscp.svg') 13px 38px no-repeat;
+}
+#header h1 a::before {
+    background: url('https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/WLoverwatch.svg') no-repeat;;
+    background-position: 0 -0.08em
+}
+#top-bar ul li:hover ul li a {
+    font-size: .92rem;
+}
+#top-bar ul li a {
+    font-size: 0.92rem;
+}
+#top-bar ul li.sfhover a {
+    font-size: 0.92rem;
+}
+#page-content {
+    font-size: .92rem;
+}
+#page-content .page-rate-widget-box {
+    font-size: .92rem;
+    margin-left: 27px;
+}
+#main-content .page-tags a {
+    font-size: 0.8rem;
+}
+#header h1 a {
+    padding-bottom: 12px;
+    font-size: 150%;
+}
+#search-top-box {
+         top: 115px;
+         right: 0px;
+}
+div#header h2:after {
+    content: "Sacrifice Confers Power";
+    font-weight: bold;
+    font-size: 125%;
+    color: #f0f0c0;
+    margin-left: 50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+    white-space: pre;
+}
+#page-title {
+    display: none;
+}
+[[/module]]
+
+[[module css]]
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+[[/module]]
+
+[[include :scp-wiki:component:toggle-sidebar]]
+
+[[=]]
++ Death and the Authors
+[[/=]]
+
+[[div class="one column"]]
+[[=]]
++ [*/the-s-c-plastics-hub Site-87]
+**Sloth's Pit, Wisconsin, United States of America**
+[[/=]]
+[[/div]]
+
+----
+
+"I hate stories."
+
+It wasn't exactly the truth, but she knew it would hit harder. 
+
+The man at the podium blanched. She might as well have told him she hated Greeks. He glanced at the title slide projected above and behind him, as if for support; it read 'Applied Apocalyptic Pataphysics, or Telling Tales at the End of Everything'. He nodded to himself, apparently convinced, and affirmed: "Nobody hates stories."
+
+An entire auditorium torso-twisted in their seats to see Delfina Ibanez's short frame dominate the tall doorframe by sheer force of personality. "Fine," she allowed. "I hate //fiction.//"
+
+"That's... better." Judging by his tone, the improvement was marginal. "Now, you want to answer the question?"
+
+She strolled down the aisle, relishing the creaking of her leather boots and the flexing of her rayon jumpsuit. "Already forgot it."
+
+"I asked what your favourite story is. I was going to ask someone who //didn't// show up late, but you made such a dramatic entrance..."
+
+She flopped down in a chair next to the only other person in the room she recognized. Dr. Udo Okorie looked like death warmed over; Ibanez offered her a sympathetic smile before responding.
+
+"I'm late because I hate fiction. Which means I //despise// pataphysics. Which means you should ask someone else."
+
+"You want to call the shots? Get your own presentation." He gripped the pulpit and leaned forwards; she could hear his sneakers squeak on the stage. "What's your favourite story, Chief Ibanez?"
+
+She pretended to consider, just for a moment, then answered:
+
+"//The Right Stuff.//"
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/broken-bowe/Asterisk.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+"I hate magic."
+
+Ibanez arched her eyebrows. "How can //you// hate magic?"
+[[div]]
+Okorie remained in her seat as the auditorium emptied around them. Her eyes were haunted. "You'd learn to hate air, if you suddenly found yourself on the moon."
+
+"What's wrong with your friend?"
+
+Ibanez glanced up at the rumpled Adonis in the aisle. "I blame your stupid lecture."
+
+"You're stupid," he grinned. "My lecture was great."
+
+"I'm a thaumaturge," said Okorie. She took off her glasses and pinched the bridge of her nose. "Natural-born."
+
+"I'm ninety percent water," said Ibanez. "You're ninety percent hot air. She's ninety percent //magic.//"
+
+Okorie smiled weakly. "Not far off the truth. Since the Impasse started, I've woken up every day feeling like I just gave a pint of blood."
+
+"You might try Dr. Sinclair's lab," the man suggested. "Our mage. Might be something for low EVE in there."
+
+Okorie nodded listlessly. Ibanez shrugged. "Thanks, Dr. Whatever."
+
+"Placeholder," he corrected her. "Placeholder McDoctorate."
+
+She arched her brows again.
+
+"Wanna know how that happened?"
+
+"No." Ibanez linked arms with her friend, and helped her up.
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/broken-bowe/Asterisk.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+Okorie found a pack of syringes in the absent Dr. Sinclair's office which temporarily alleviated her malaise. Ibanez left her in the dormitory to sleep it off; Placeholder proved more difficult to shake.
+
+"You know how rare it is for the O5s to declassify //two// double-oh-one proposals?" he asked the back of her head. His legs were long, but she walked like she had a purpose. "Swann says a gaggle of horror writers in extradimensional space intervene in our daily lives, and Pickman //et al// say the very concept of narrative is //sapient.// They wouldn't have let me lecture on that and freak everyone out for no reason."
+
+"I didn't say there was no reason," she shot over her shoulder. "I said the reason was stupid."
+
+"Reality isn't stupid!" He jogged in front of her and began dancing backwards down the corridor on the tips of his shoes. "Our existence is defined by a network of anomalous systems. We live in an anomalous //ecosystem,// Chief Ibanez. Something is killing off the genetic diversity, but it's not happening evenly across the board. As one layer of esoteric weirdness contracts, the others expand to fill the gap." He pulled a strange, fiddly piece of technology out of his labcoat pocket and waved it at her. "This thing measures narrative fluctuations, and the needle is still moving. There's barely an inch of magic left in Sloth's Pit, but the power of fiction is still going strong."
+
+She grimaced. "You expect us to substitute stories for //actual magic.//"
+
+"Stories //are// actual magic!" Placeholder waved his arms in the air, clipping off a passing agent's baseball cap. He pirouetted to offer an apology, falling in step beside Ibanez as he did so.
+
+She shook her head. "Fine! It's all the same." They had reached the barracks, where she was bunking for the night. She backed against the door and plucked a keyring off her belt. "Stories can be magic, for all I care, because my job is to shut magic down." She unlocked the door. "I //end// stories, doctor."
+
+She slipped inside, and closed the door in his face.
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Moon.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+[[div class="one column"]]
+[[=]]
++ [*/scp-5923 Ferryman's Landing]
+[[/=]]
+[[/div]]
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Ferry.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+Ibanez awoke to the sound of water on wood. It lapped at the edges of her perception, a rhythmic liquid clapping, soothingly low-pitched. She became aware of a creeping moisture on the back of her jumpsuit, and her first coherent thought was //I have __never__ peed the bed before.//
+
+Her second coherent thought was //I've never gone to bed on grass before//, and that was enough to propel her to her feet.
+
+The air was ice-cold, and she could see her breath in the brief instant before it melded with the oppressive mists shrouding a riverbank stretching to infinity in two directions. The water was darker than the space behind her eyelids, clapping against the sides of a low-riding wooden rowboat rocking in a breeze she couldn't feel.
+
+There were oars in the oarlocks, and a heavy travelling cloak was flung carelessly over the stern. A battered fedora was perched precariously on top...
+
+...and it moved to witness her approach. The coat heaved once, only once, like a held breath.
+
+"Hi," she said.
+
+The hat dipped down, obscuring whatever lay beneath. One sleeve swung up out of the water, dripping black rivulets, and pointed weakly down the river. It held this pose for just an instant, then slapped back against the bleached timbers.
+
+"Why not," she said. This was clearly a dream.
+
+She waded out, feeling the chill against her calves through her combat boots, and boarded the small craft. The heap of fabric seemed to deflate, as though achieving its goal had sapped the last of its strength.
+
+"I'll be rowing, then," she sighed.
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Ferry.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+The ferryman's hat bobbed rhythmically with the dipping of the oars as it watched her pull them along the estuary. After an eternity of splashing in mirror-still waters and uncertain progress through an opaque cloud of white, she felt...
+
+...she didn't know what she felt, but it was behind her. The ferryman's hat slid back, and she sensed that it would beckon again if it could. She looked over her shoulder, and saw the city...
+
+...she was standing in the city. The river, the boat, the ferryman were all gone. Stone walls loomed around her, and there were solid cobbles under her feet. The street rose up a steep hillside, a dusky antique burg dominating the horizon.
+
+[[span style="font-family: merienda one; word-break: normal !important"]]**//I wasn't sure you would hear me.//**[[/span]]
+
+Ibanez bit off a retort; the voice was thin, weak and piteous. She began to walk, and her shadow refracted in the dim light. A myriad of silhouetted figures kept time with her footsteps.
+
+[[span style="font-family: merienda one; word-break: normal !important"]]**//I bring you hope, in the final hour.//**[[/span]]
+
+"Who are you?" She paused. "And don't give me any cryptic dream bullshit."
+
+[[span style="font-family: merienda one; word-break: normal !important"]]**//Our time is nearly spent.//**[[/span]]
+
+...she was climbing the broad chalk steps of a church, surrounded by shadowy figures which winked out one by one as she passed them by. The steps ended at a smooth stone platform, where a snow-white robe lay fluttering in another phantom breeze.
+
+[[span style="font-family: merienda one; word-break: normal !important"]]**//Come to me, and begin.//**[[/span]]
+
+The breeze soared into a gale, and she fell to her knees. As she clamped both hands over her ears and shouted something fierce, the robe blew aside to reveal--
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/broken-bowe/Asterisk.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+[[div class="one column"]]
+[[=]]
++ [*/the-s-c-plastics-hub Site-87]
+**Sloth's Pit, Wisconsin, United States of America**
+[[/=]]
+[[/div]]
+
+----
+
+"It was a vision," Okorie yawned. She fiddled with the cold chicken sandwich on her plate.
+
+"It was a story seed," Placeholder crowed. He devoured half his own sandwich in a single bite.
+
+"It was a dream," Ibanez growled. "Undigested cheese."
+
+"Dickensian myth." Placeholder waved it away, flinging a stringy piece of poultry onto a passing agent's boot. "Cheese doesn't cause bad dreams. Protagonistic proclivity, though, that's a surefire way to get--"
+
+"Visions," Okorie finished. She looked only marginally better than she had the previous night. "Know what else never fails to grant visions? [[[SCP-5923]]]."
+
+Ibanez blinked. "Which one's that?"
+
+"A lonely city in Turkey. It used to send people dreams, begging them to come 'home' to it, until we started funnelling tourists there in the nineties. Haven't heard a peep since." The mage steepled her fingers. "Was there a river? A boat? A boatman?"
+
+Ibanez nodded.
+
+"Mists? A church? A figure in white?"
+
+Ibanez half-nodded. "More or less."
+
+Okorie leaned back. "5923. It wants something from you."
+
+"Probably dying," said Placeholder. "Like all anomalous things. Maybe thinks you can help it."
+
+"Maybe thinks it can help //us,//" Ibanez mused.
+
+"What?" the other two asked, in unison.
+
+"It told me..." She winced. "It told me I could restore the balance, and it showed me a sword. It told me the sword was the key." She felt ridiculous.
+
+The doctors shared a meaningful glance. "Alright," said Placeholder. "Let's play by the rules; O5 says anything we do to counteract 6.5k has to be ritualistic, something something reinforce the power of the anomalous." He pointed at Ibanez. "Say that you don't want to go to Turkey."
+
+"I //don't// want to go to Turkey." She meant it.
+
+"Good. You've refused the call, so we can proceed." He gestured at Okorie. "Vision quest rules?"
+
+Okorie shrugged. "It's not a vision quest when the vision comes first. That's just a straight-up quest."
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Turkey.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+[[div class="one column"]]
+[[=]]
++ [*/scp-5923 Village of Kayaköy]
+**Republic of Turkey**
+[[/=]]
+[[/div]]
+
+----
+
+"Well," Ibanez remarked. "This is horrible."
+
+They were standing in a snapshot of a bustling village, street after street of stock-still people with glassy looks in their eyes. A faint breeze whistled through the winding, rising townscape, and a middle-aged man with a fanny pack pitched over into an apricot stall. Its contents rolled merrily down the hill.
+
+"Sit them down," she called. Her ten-man Mobile Task Force fanned out, gently guiding the swaying subjects to the ground. Okorie was already kneeling; she was fumbling with Sinclair's pack, preparing her third injection of the day.
+
+"What happened to them?" Placeholder was negotiating the accidental fruit liberator onto his back.
+
+"It's this place," Okorie yawned. She was yawning every other sentence. "Thrives on the vitality of its citizens."
+
+"So, vampire village." Ibanez fingered her holster.
+
+"No." Okorie took a deep breath. "It doesn't leech life, it... mirrors it. It cares for the people who visit. If it's subsisting on them now, there has to be a reason."
+
+"Sure," said Placeholder. "It's starving, and they're the only meal in range."
+
+"I'm not so s--" said Okorie. She was punctuated prematurely by a deep rumble which shook the cobbles so hard they popped out of their mortar. Ibanez barely kept her feet, and Placeholder fell into the apricot cart as the street curled over them like a tidal wave. It broke with a crash of stone and powdered paste, the buildings all fell away, and they were tumbling through a sheer black expanse...
+
+The landscape reformulated. They were now standing, crouching and sitting in the basin of a dry fountain. The church of Ibanez's dreams towered in front of them. The MTF was gone.
+
+[[span style="font-family: merienda one; word-break: normal !important"]]**//Hurry.//**[[/span]] Each word was a breathless, urgent plea. [[span style="font-family: merienda one; word-break: normal !important"]]**//Find me. Hurry.//**[[/span]]
+
+"It's speaking to me." Ibanez stepped out of the fountain. "It's telling me to find the sword."
+
+"There," Okorie rasped, pointing at a stone portico at the base of the church stairs. "The library. There isn't much magic left here, but I can..." She shook her head. "It's in the library."
+
+"Appropriate." Placeholder offered her his hand as Ibanez checked in with her squad on the radio.
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Turkey.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+The library was modest. Kayaköy was only a village, and really more of a--
+
+"Tourist trap," said Ibanez. "I want credit for that one."
+
+There was only one patron, slumped over at a table with his face literally in a book. The librarian behind the help desk was peering unseeingly into her computer screen. The third occupant of the room, therefore, attracted their full attention.
+
+[[span style="font-family: merienda one; word-break: normal !important"]]**//Take it,//**[[/span]] begged the white-robed, hooded figure. It stood in the centre of the scuffed mosaic floor, alabaster hands bearing aloft a suspiciously shiny sword.
+
+Ibanez unbuttoned her holster. "Don't try anything funny."
+
+[[span style="font-family: merienda one; word-break: normal !important"]]**//The end of the unknown is the end of all stories.//**[[/span]] The voice was a mere tickle in her inner ear as she warily approached. [[span style="font-family: merienda one; word-break: normal !important"]]**//The end of all stories is the end of all change.//**[[/span]]
+
+The robe abruptly slipped away, revealing a glossy white marble statue of... the same robed figure. Ibanez strained to hear the final words:
+
+[[span style="font-family: merienda one; word-break: normal !important"]]//**The end of change is the end of everything.**//[[/span]]
+
+Ibanez pulled a chair from beside the slumbering scholar and dropped it against the statue's plinth. Placeholder knelt to pick up the fallen robe.
+
+"Be careful," Okorie rasped. She was leaning heavily on the help desk.
+
+Ibanez stepped onto the chair, and worked her fingers between the statue's hand and the sword's guard. The cool metal lifted easily, and she wrapped her hands around the attached cylinder of cool wood. She held her breath...
+
+...and drew the weapon free.
+
+She released her breath and examined the thing more closely. It was a shortsword, less than three feet long with a circular crossguard and a polished oak pommel. There was writing on the edge of the crossguard, but she couldn't read it. The unfamiliar lettering made her eyes hurt.
+
+"What now?" She stepped down, feeling off-balance with the heavy weapon in her hand. "Do I stick this in something, or?"
+
+Placeholder looked thoughtful. "A dragon would be the obvious choice."
+
+Okorie's head was cocked to one side. "You hearing voices too?" Ibanez called over.
+
+In response, the thaumaturge collapsed to the floor. She put her back up against the panelled wood, breathing heavily. Her companions rushed over, Ibanez carefully pointing the sword behind her as she ran.
+
+Okorie was grimacing as they bent over her. "There's a Way in here."
+
+"A way to what?" Placeholder rummaged through Sinclair's satchel for another EVE shot, stowing the robe in the process.
+
+"A Way," Okorie repeated. "A portal. I can feel it." She blinked rapidly. "But every Way has a Knock, and I don't know this one." She glanced at the sword. "Any further messages from the great beyond?"
+
+Ibanez shook her head. "I think we're alone, now." She showed the crossguard to Okorie. "This mean anything to you?"
+
+The mage squinted, then looked away sharply. "I can't read that. But I know who could." She thumped the back of her skull against the desk. "The Serpent's Hand."
+
+Placeholder frowned as he helped her with the injection. "Right, our best friends. Good thinking."
+
+"The Hand doesn't want magic to die any more than we do," Okorie reminded him. "Circumstances have changed."
+
+"Where exactly is this Way?" Ibanez interjected.
+
+Okorie reached over her shoulder and rapped her knuckles on the wood. "Right--"
+
+There was a distinct //click// from within the desk. Okorie's jaw dropped.
+
+"You didn't tell me Knocks were literal." Ibanez grabbed the sword and stood up.
+
+"They aren't." Okorie squirmed on the floor; Placeholder stuck his arm under hers, and hauled her to her feet. She didn't let him go, this time. "Must be a symptom of the general breakdown."
+
+"Or this was your role in the narrative," the pataphysicist suggested. Okorie grimaced again, but did not argue the point.
+
+Ibanez walked around the desk, and rolled the comatose librarian out of the way to reveal...
+
+"Son of a bitch."
+
+There was a cabinet door at knee level in the desk. It was open. When she saw what lay beyond, she very nearly dropped the sword again.
+
+[[div_ class="fancyhr" style="margin-bottom: 16px"]]
+----
+[[/div]]
+
+[[div class="one column"]]
+[[=]]
++ [https://wanderers-library.wikidot.com/ The Wanderers' Library]
+[[/=]]
+[[/div]]
+[[div_ class="fancyhr"]]
+----
+[[/div]]
+
+They crawled through the door in the desk, trading the cool stone of Kayaköy for a soft, warm bed of whistling blue grass. There were timbers beneath, not rotten but firm and... polished? Ibanez didn't fully understand until she stood up, when she didn't understand at all.
+
+She was standing in a scrubland clearing which was simultaneously an ornate athenaeum. The grandest library she had ever seen, a treeline of jam-packed shelves rising up to a stormclouded ceiling. A warm breeze carried the scent of ancient paper and the sound of distant fighting to her as she turned to face her comrades.
+
+Okorie was still on the grass. She looked up apologetically. "I don't think..."
+
+Ibanez handed the sword to Placeholder, and reached down to carry her friend. "Hope most of your weight was magic."
+
+They passed into the forest of stacks, walls of literature stretching in every direction. They promenaded through a series of colossal arcades, pausing at each junction to watch for supernatural traffic. Over the course of fifteen minutes they encountered: an animate skeleton pressing its fingerbones into a two-metre blob composed entirely of eyes, screaming "PRAXIS!" over and over again; a squat, four-eyed green creature pulping an army of papier-mâché cockroaches with an enormous leather tome; some sort of immense serpent-dinosaur creature, which they ran away from too quickly to see what it was up to; and no less than three different wild-eyed robed men struggling in the grip of disembodied arms which reached down from the ceiling to throttle them.
+
+Okorie trailed her arms behind her, lightly caressing the spines of every book within reach. She was breathing deeply, her eyes rimmed with tears.
+
+"What's that?" Placeholder asked, and Ibanez shifted her stance to carry the mage one-handed. Her other hand snapped to her waist with practiced ease, there was a rush of air, and a single shot echoed through the wooden canyon. The slug impacted a swollen cluster of nerves in mid-leap, and both disintegrated in a spectacular spurt of blood and metal.
+
+"Yeah," said Ibanez, lowering her service weapon. "What //was// that."
+
+"Did you even aim?!" Placeholder knelt to examine the wreckage of the spider-thing, setting the sword on the floor between them. "You're terrifying."
+
+"And loud," Okorie groaned. "Put me down before you do that again."
+
+Ibanez gently lowered her to the floor. The mage shuddered. "I'm feeling... I don't know if it's //better,// but--"
+
+Ibanez swung 'round, finding the pommel of the sword with her left hand and bringing it up in one fluid motion. Another ball of flesh was falling from the distant ceiling, and she slapped it away with the flat of the blade. "Pull!" she shouted, and snapped off a second shot. This time the creature careened into one of the shelves, tracing a bloody trail along a set of encyclopaedia.
+
+"Oh," said Placeholder. "Shit."
+
+He was staring down the aisle at an army of sanguine spiders knotting together to bar their passage. Before Ibanez could regain her feet, however, the curtain of flesh was violently flung aside and scattered across the stacks. A tremendous red-backed millipede, bigger than a convoy of buses end-on-end, reared up and hurled the jittery things high into the air. It sucked them into a gnashing split down the middle of its gigantic round head, then snatched the stragglers up from the ground with an unearthly squeal. As the last red morsel disappeared down its gullet, its deep brown belly burned scarlet and the sound of boiling flesh filled the air.
+
+It belched a thin plume of flame over its own rounded shoulders, then slammed back down to loom over the three of them.
+
+Ibanez glanced at Placeholder, now cowering beside Okorie's prone form.
+
+"This count as a dragon, you figure?"
+
+[[div_ class="fancyhr"]]
+----
+[[/div]]
+
+"Jailors!" the gargantuan horror squealed. "In //my// library! You shall not--"
+
+Its spindly limbs splayed out suddenly, and its segmented trunk crashed down to the overgrown floorboards. "Oh," it wheezed. "Bother."
+
+Ibanez stood, raising the sword up between them. "I'm not here to jail anything." She kept what she felt was a surprisingly even tone for addressing a train-sized detritovore. "I'm here for one single piece of information, and trust me, you really do want to help me find it."
+
+"I'm not a //docent,// you half-bite nitwit." It scrabbled back to its feet (?), leaning against the stacks for support. "I should tear you to niblets for suggesting it." It paused. "Niblets? Or is it giblets? //At any rate// I don't trust your kind. I don't abide thieves and book-burners!"
+
+"Would you rather abide //spiders?//" Ibanez kicked the nearest mulched monstrosity; the millipede slapped it out of the air with a flick of one spined foreleg. "Are you a //spider abider?//"
+
+The creature reared back again, and for an instant Ibanez thought she was about to join the spiders in its fiery stomach. Then a surprisingly gentle chittering sound filled the air, and she came to the feverish realization that it was laughing. "Spider abider! You're not all bad," it hissed. "I am the Eighth Archivist. My friends call me the Rounderpede." Its t-bar eyelids contracted. "You may call me the Eighth Archivist."
+
+"Awesome." Ibanez lowered the sword. "You want to tell me why the Library's on fire, metaphorically speaking?"
+
+"Metaphor //nothing.//" The archivist skittered aside to reveal the largest interior space Okorie had ever seen: row on row of desks, shelves, tables and chairs, //chaises longue// and couches, lanterns, braziers, magazine racks and podiums. It was expanding and contracting like a living, breathing thing, and as she stepped out from under the stacks she suddenly saw why.
+
+A skyscraper's worth of overhanging galleries were crawling with an endless web of fleshy red spiders, entwining their quivering nerve-appendages together to form a network of gore and gristle.
+
+"The Grand Hall," Okorie breathed.
+
+Sparks leapt from spider to spider, putting Ibanez in mind of...
+
+//Fuck __me__.//
+
+"I will revise. You want to tell me why there's an... arachnobrain, forming in your lobby?"
+
+The Rounderpede wheezed, expanding and contracting like a bellows. "The old magic is dying. The Ways are open, and we cannot shut them. Things are coming through; things we don't want. Things which have been waiting."
+
+"What sorts of things?" Placeholder had joined Ibanez in the atrium.
+
+"Former patrons ejected for theft, destruction of Library property, consumption of Library property, consumption of other patrons." The gigantic globular head swung up as a new smattering of spiders burst bloodily into being far above. "And eldritch monstrosities, of course. Things which only exist to transition from //out// to //in.// This is one of those." Its glowing green orbs narrowed. "The Grand Hall expands to suit its contents. That's normally very convenient. Not so much, right now."
+
+Okorie stood up shakily. "You guys on a first-name basis?"
+
+"It's the Halfwit Brain of Ueberroth," the Rounderpede spat. The spit was a mass of writhing black; it sizzled on the green boards beside them with a scent of rusted metal. "Anathema to knowledge. Ueberroth the Empty, Ueberroth the Senseless Web, Ueberroth the Maw of Trackless Midnights."
+
+"That's a dude's name," said Ibanez.
+
+The archivist clicked its gruesome zipper of teeth together. "What?"
+
+"Ueberroth." Ibanez stared, entranced, at the multiplying meat-neurons. "Sports guy from the eighties. My dad used to follow baseball."
+
+The apex of the hall was now concealed above a false ceiling of rippling red, livid with blind moronic mirth.
+
+"Peter Ueberroth," she said. The spiders were fructifying in the stacks; a gaggle of docents were gamely brushing them down with brooms. "I'm about ninety percent sure."
+
+"Yeah," said Placeholder. "I don't think this is him."
+
+Ibanez squatted down, and tugged her boots tight. "You a climber, buddy?"
+
+The Rounderpede's coils were tensing. "Ever upward."
+
+She shifted into a starting position. "And how tough is your chitin?"
+
+The archivist was shuddering with anticipation. "Tough enough for what you're considering."
+
+"What are you cons--" Okorie said, in the moment before Ibanez kicked off the floor onto the massive millipede's back. It beetled onto the nearest support column, and they shot up into the cavernous space beneath the congealing brain.
+
+Ibanez gripped an arched spine with one hand and twirled her blade with the other. It was emitting a dull white glow. "I'd hide if I were you," she called down to her companions as the Rounderpede spiralled towards the welcoming wall of organic filigree.
+
+[[div_ class="fancyhr"]]
+----
+[[/div]]
+
+Ibanez ascended the immense arthropod's rising trunk, hopping from section to accordioned section as it crawled across golden mezzanines and swinging from spine to spine as it climbed endless marble stanchions. The sky was raining spiders, and books; the Rounderpede caught the former with its teeth, tearing them to shreds or gulping them down, and plucked the latter out of the air with its serpentine tongue, clutching them to its belly with astonishing tenderness. Once it snapped a grimoire out of freefall and swallowed it whole.
+
+"Eating library property?" Ibanez shouted over the blood in her ears.
+
+"I have separate tracts for... tracts," the Rounderpede wheezed. "Some of my fluids are excellent for conservation."
+
+Her retort was cut off by a sudden tearing at her hair; she pulled out a wriggling spider, and smashed it against the archivist's flank. "Okay," she howled. "Operation Fuck Spiders is a BIG go." They swerved through a balustraded gallery, and another mindless malicious thing hurled itself towards her. She swung hard, and the spider slid along the flat of the blade. Twin slits opened up in its suppurating breast, and she flung it hard into an ornate gold stanchion. It exploded.
+
+The Rounderpede's colossal visage rolled around to glare at her. "Swords are not clubs!"
+
+"Baseball on the brain." She adjusted her grip as they wove through the squirming stacks.
+
+"I don't even know what that is."
+
+She split the next three leaping horrors cleanly in half, the scarlet spray vanishing into the archivist's hide, then pulled herself on top of its head as they dashed between the shelves. She knelt for balance between the shining crystalline eyes, held the sword out behind her, and began to hum as quivering shapes bounded towards her from all sides.
+
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/LibraryFightSmall.jpg class="img-responsive"  link="https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/LibraryFightLarge.jpg"]]
+
+The next few minutes were a red blur as Ibanez hacked and slashed and otherwise eviscerated her attackers. They exploded back into the Grand Hall in a haze of cheliceric viscera, and she danced on the archivist's back like a drunken Errol Flynn. She spun one unlucky lump of meat on the point of her sword; it tried to clamber down the blade, and she whisked all eight of its legs off before flicking it away. It struck the tiles beside the ground-pounding doctors like a hunk of wet hamburger. She swung wide and caught five of the creatures at once, sweeping them into the Rounderpede's gullet and giggling maniacally.
+
+A dozen storeys up, the space where the ceiling had been was finally in reach. The archivist kicked off the wall and crossed the open vault like an architectural rib, upside-down; Ibanez clambered onto its belly and held the sword aloft, tearing through the arachnid sky and bathing in a torrent of shimmering crimson. She was laughing so hard, she nearly lost her balance; a curious chthonic tittering which might have been the Rounderpede laughing with her echoed across the grisly gap.
+
+A chunk of falling masonry tore through the organic fabric, striking the archivist's back. With a mighty HARRUMPH it released a belch of flame just inches from where Ibanez stood. She lurched back and swung the sword, a gesture of purely futile instinct...
+
+...and a rush of //force// expanded from the leading edge, catching the fire and incorporating it. The sword now gleamed with a blinding white light, and Ibanez brought it around in a wide arc. A firestorm twirled through the hall, and the canopy of veined arachnids burst into flame as one writhing, dying entity.
+
+The Rounderpede finished its transfer to the opposite wall and thrust its foreparts into the empty air, whipping back and forth to catch the sheets of falling, burning spiders. Ibanez scrabbled back onto its head to carve up the remaining horrors as they tumbled down, cackling and whooping and posing contrapposto.
+
+Placeholder and Okorie retreated to the stacks as a waterfall of cooked grey matter and boiling claret spattered the floor. The Rounderpede skittered down the final storey to the ground-level carnage, and Ibanez swung down one of its legs like a monkey on a vine. She landed shitkicker-first on a final surviving spider, crouched in apparent terror on top of the main circulation desk. It blew apart like a red jelly donut.
+
+The doctors stared at her. She was covered, plastered, head-to-toe enveloped in blood. Her vermillion visage split open in a dazzling white smile, and she bellowed "I LOVE STORIES!" before doubling over with laughter so fierce and full-throated that it obviously hurt.
+
+Sparks danced and fizzled out on the Rounderpede's slick chitin, and it snatched a few more out of the steaming air with its black and sinuous tongue. It was whistling soft and low, still cradling dozens of priceless manuscripts and monographs with the tenderness of a doting parent.
+
+[[div_ class="fancyhr"]]
+----
+[[/div]]
+
+The archivist recoiled from the blade. "I wouldn't speak that tongue if I could, which I can't," it growled. "No-one here can help you; you must go down to the source."
+
+Ibanez nodded. "That tracks. What's the source?"
+
+It told her.
+
+"Oh," said Placeholder. "Let's not go there."
+
+"We have to." Okorie was sifting through the nearest shelf, visibly drawing strength from its contents. "It's where this story ends." She noticed him staring at her, and blushed. "Quest, story, same difference."
+
+Ibanez gritted her teeth. "If we get this translated, and all it says is 'Peace on Earth', I'm gonna break something. //Maybe everything.//" 
+
+"Perhaps that's what the sword does," Placeholder mused. "Makes you so pissed off you become the ultimate warrior."
+
+She ignored him, addressing the archivist instead. "I assume there's a Way we can use?"
+
+"Not a Way. A wound," it sibilated. "An infected scar, the only souvenir of an unwise alliance long-broken. It lies beyond the Sevenfold Portal, which will shut behind you when you enter. The Library is connected to all places of knowledge, but..." It faltered. "This connection was not made willingly, and we would sever it if we could."
+
+"I've been meaning to ask about that," said Placeholder. "The Library is connected to all possible realities, isn't it? It's a multiversal constant. How is it falling apart just because our reality's magic is dying?"
+
+The tremendous head cocked to one side, as if considering. "The cause must also be a multiversal constant, or near enough. Personally I blame you."
+
+Placeholder winced. "So I guess sending us some serious help is out of the question."
+
+"Yes." The millipede scratched at the floorboards. "This may soon be the last bastion of magic in all creation. I won't risk it on your fool's errand."
+
+Ibanez scowled. "We're trying to save the world, here. You can give us an inch."
+
+"I've given you more than I would have on any other day." The archivist reared its bulk up against the ceiling, as if to impress upon them their relative bargaining power.
+
+Ibanez dropped the Kayaköy robe, now stained vermillion, and examined her still-streakish reflection in the bright blade. "Alright," she said. "Show us where the portal is."
+
+The Rounderpede shook its head, shaking a few stray scarlet droplets free. "I need only curse you to find it yourselves." It drew a deep breath, and they stared into the amber glow at the heart of its ribbed throat as it chanted:
+
+[[div]]
+[[=]]
+> **//I hie thee now to halls unkind//**
+> **//Where to your sorrow you shall find//**
+> **//In grimoires black on ebon shelves//**
+> **//The stygian pits within yourselves//**
+[[/=]]
+[[/div]]
+
+"I'm sorry," it added after a moment's pause.
+
+Okorie and Placeholder immediately walked away. Ibanez strained against the sudden force impelling her to follow, pulling against it like a swimmer in the tide. She asked: "What if this is all that's left?"
+
+The archivist's eyelids contracted almost imperceptibly.
+
+"Even if you're right, if we don't succeed there won't be a single centimetre of anomalous anything left outside of this place." Ibanez gestured with great effort at the Grand Hall, in the midst of a runaway expansion as the surviving Wanderers congregated at the scene of the bloodbath. "What if everything dies but the Library?"
+
+"Then the Library will be enough," the Rounderpede stated flatly. It swung around to join the throng as Ibanez finally succumbed to the urge to take her leave.
+
+[[div_ class="fancyhr"]]
+----
+[[/div]]
+
+They filed through well-tread corridors, well-kept gardens and commodious common rooms in a lucid trance, clusters of patrons breaking around them like waves on the shore. They plunged deeper and deeper into the heart of the Library, minds blank, stepping surely and precisely and wholly unconsciously past age-worn galleries, decrepit archives and disused studies. When at last they reached the jet-black vault door, they were alone. Okorie pressed a hand to the iron, and the outline of a larger hand unfurled in gold brocade.
+
+The door opened. The air changed. The door opened. Their hearts raced. The door opened. The door opened. All moments in time became one. The door opened. Time stood still.
+
+The door opened, and they walked through. Almost as an afterthought, the door opened to admit them.
+
+"I hate magic," said Ibanez. Okorie patted her on the shoulder.
+
+The room beyond was a diminished reflection of the Grand Hall, blackened and pitted with age, fire and rot. A beam of pure darklight shone down on the shattered tile floor from an aperture in the ceiling. A viscous black fluid ran in narrow streams from the empty shelves, flowing down into the central emptiness; it looked like ink. Sheets of paper rained from above, disappearing into the apparently bottomless pit.
+
+"The thing about bottomless pits," said Placeholder, "is that they aren't. Ever."
+
+Ibanez walked gingerly to the edge. "This is a metaphor, yeah? The descent into madness?"
+
+Her companions joined her. "It's a metaphor for progression," said Placeholder. "For transition. For the acquisition of deeper knowledge."
+
+"It's a hole," said Okorie. She stepped in front of them, smiled brightly, then stepped back into nothingness.
+
+They watched her fall, then linked hands and stepped in after her.
+
+The door closed.
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Alagadda.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+[[div class="one column"]]
+[[=]]
++ [*/the-black-vaults-of-alagadda The Black Vaults]
+[[/=]]
+[[/div]]
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Alagadda.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+Ibanez free-fell in darkness for the second time that day.
+
+She didn't consciously close her eyes as she fell away from the light, but she did have to consciously open them when her feet touched solid ground again. She still couldn't see, and when she opened her mouth to comment that fact she realized she was wearing a mask. She worked her fingers under the edge, and peeled it off like a bad sunburn; it was a solid featureless strip of white porcelain, like a well-worn bar of soap.
+
+Her companions stood beside her, holding their own masks and squinting in the sudden brightness...
+
+She dropped the mask and held the shimmering sword aloft. Okorie leaned in to examine it, stroking the crossguard longingly. "This thing is just //haemorrhaging// magic," she whispered, awestruck. "It shouldn't be getting more powerful! //Nothing// gets more powerful anymore. Half the artifacts in our inventory have straight-up failed. 2264 won't open. 005 and 963 are flat-out dead. But not this thing?"
+
+"Maybe that's why the magic city wanted us to have it," Placeholder suggested. "Maybe it really is part of the solution."
+
+"Putting the genius in //genius loci,//" Okorie agreed. "Here's hoping."
+
+"Well," said Ibanez. "It's a pretty shit sword, minus the part with the //whoosh.//" She blew out for emphasis, then held the thing in front of her to illuminate their surroundings.
+
+"Guess we're on a library crawl today," she muttered. A corridor of cramped black bookshelves stretched away to near-infinity; she could almost sense the curvature of the Earth in their immensity. Very cramped black bookshelves. Very, //very...//
+
+They all shuddered as one. Ibanez had a palpable sense that //the books are wrong. The shelves are wrong.// She cut herself on the sharp sudden image of the charcoal stacks splitting open with their expanding burden, bursting in a hail of--
+
+"We need to move," she said. She shook her head, hard. "We need to move before we start--"
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//HEARING VOICES?//**[[/span]]
+
+She immediately strode forward. "Come on." She didn't look to see if they were following.
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//HAVE YOU COME TO STEAL OUR SECRETS?//**[[/span]] The voice was not weak, as the voice of Kayaköy had been. This voice was strong, confident, ringing with the tone of broken bells in empty wells. [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//RATS TO THE POISON.//**[[/span]]
+
+She walked faster. The shelves lengthened skyward like dead fingernails. The books were watching. They did not approve.
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//DO YOU SEEK TO KNOW US? DO YOU SEEK TO KNOW YOURSELF? OR DO YOU SEEK FOULER OBSCENITIES STILL?//**[[/span]] The voice was a sneer, a mockery; it was also a raucous stream of laughter, sonorous and wracking. She was naked in the dark.
+
+"Delfina?" Okorie, from far behind. "Delfina, are you alright?"
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//YOU ARE COME TO OUR DWELLING-PLACE.//**[[/span]] The shelves were closing in. There were no shelves. [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//YOU ARE COME TO THE TERMINUS OF ALL WHICH IS BEAUTIFUL AND RUINED.//**[[/span]] Her footfalls made no sound. [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//YOU ARE COME TO BLACK ALAGADDA, AND YOU ARE WELCOME HERE.//**[[/span]]
+
+She stopped walking. She closed her eyes.
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//COME TO ME,//**[[/span]] the voice sang. [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//COME TO ME, AND __END__.//**[[/span]]
+
+"This doesn't end." Her own voice startled her awake, and she opened her eyes.
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Alagadda.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+She was standing -- the four of them were standing -- in [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//A POOL OF CALIGINOUS TEARS.//**[[/span]] There were books in the water, [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//DROWNED CATASTROPHIC REVELATIONS,//**[[/span]] the words drifting off the sodden pages to swim beneath the surface tension. Ibanez knelt down in the murk, and ran her fingers through [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//A MEMBRANE BETWEEN THE VENOM AND THE--//**[[/span]]
+
+"ENOUGH!" Her companions staggered back as Ibanez's shout echoed through the vast subterranean lake, all three of them staring at her reproachfully.
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//HERE IS YOUR KNOWLEDGE,//**[[/span]] one chided. [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//DROWN IN IT.//**[[/span]]
+
+She blinked. "Knowledge." She gazed into the pool, then reached in and scooped up one of the books. Its pulped interior sloughed over her jumpsuit as she closed the cover. She couldn't read the words, but the lettering was [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//WHAT REMAINS WHEN NAMES DIE.//**[[/span]] She squinted. The lettering was [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]//**AN IMPRIMATURE OF THE MADNESS WITHIN ALL OF US.//**[[/span]] She took a deep breath, squeezed her eyes tight, then tried one final time.
+
+The title was simple: //Spoliation.// She dropped it, and the still waters swallowed it up without so much as a dewdrop of protest. She scooped up another. //Wrack and Roses.// Another. //The Auspices of Debauchery.// English words surfaced through the silent Alagaddan tongue like a whale breaching the ocean.
+
+"Of course," said Okorie, kneeling to look over Ibanez's shoulder. "Alagaddan script translates itself within the city."
+
+They stood together, and the four of them closed a circle at the centre of the pool. "This is what the archivist meant," said Ibanez. She held the sword aloft, and rotated it slowly. "We had to go down to the source."
+
+The blade was a shaft of pure white light, so they could read the inscription with perfect clarity. Ibanez spoke it aloud:
+
+"I will not fade."
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//WE'LL SEE ABOUT THAT,//**[[/span]] her third companion spat, and in the instant before she realized she didn't have a third companion, it fell upon her.
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3//Alagadda.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//THE AMBASSADOR OF ALAGADDA//**[[/span]] dug into the flesh of her right hand with sharp nails, and she fell over backward into the piceous pool. Through the swirling murk she saw the absence of a face, shredded wrappings radiating away like peeled-off skin.
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//I KNOW YOU,//**[[/span]] it cackled. [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//YOU ARE NO HERO.//**[[/span]]
+
+Her back broke the surface -- though she could still see the frantic faces of Okorie and Placeholder peering down at her -- and she splayed out on the polished tile floor of Site-43's main elevator access corridor. A hundred bandaged spectres stalked towards her, and she found that the sword in her hand was now a sleek and shining high-tech rifle.
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//MURDERER,//**[[/span]] the nearest one spat, and she spat fire back at it. At the moment of impact it transformed into a terrified woman in a security uniform; she spun away, both arms severed at the shoulders, blood splashing the clean white walls.
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//COWARD,//**[[/span]] cried the next one, throwing back its hands in defiance; the woman it became disappeared in a red mist as Ibanez pulled the trigger.
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//JAILOR//**[[/span]] was the final word from the advancing throng, as Ibanez scrabbled back against the wall and sprayed them all with sustained fire. They fell on her, blasted apart, blood soaking the tiles, until a clawed hand reached out and pressed her head down into the spreading plash. [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//YOU ARE NO SAVIOUR.//**[[/span]]
+
+She emerged a coughing, sobbing wreck from a stagnant pool of swampwater. The sky was on fire and planes were roaring overhead, pelting a lagoonside village with heavy artillery while men and women in MTF outfits struggled to assemble an anti-aircraft gun.
+
+The torch in her hand had been snapped in half, but the incandescence above luridly lit the expanding cloud of red in the water before her. A small girl lay face-down in the muck, a single clean exit wound in the back of her skull. Ibanez reached down -- fighting the almost overpowering urge to drop the torch -- and turned over her sister's ice-cold corpse.
+
+"This is[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//N'T REAL.//**[[/span]] Her voice disappeared into the throaty snickering of the faceless bandaged beast, which reached up and closed its talons around her throat. [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//YOU ARE NOTHING.//**[[/span]]
+
+This time she fought back, hammering at the ambassador with the broken torch. It seemed taller, leaner, more confident as each blow landed. "This isn't real!" she screamed. "This is a dream!"
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//DREAMS ARE MORE REAL THAN ALL THE MAGIC IN ALAGADDA, TODAY.//**[[/span]] The bandages fell away, and a lithe form of sheer night enveloped her. She felt her fingers loosen on [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//THE TORCH THE GUN//**[[/span]] //the sword,// and as the Ambassador thrust her down to the water once more she understood what was happening.
+
+She took a deep rattling breath as it pressed her beneath the tepid surface, cleared her mind and focused on the only thing that mattered to her at the end of all things: her failure at the fountain, where ten good men and women lay dead.
+
+[[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//YOU ARE NO LEADER.//**[[/span]] Razor-sharp fingers dug into her scalp, and her eyes filled with blood as she emerged into the moonlit, rain-swept landscape of Kayaköy. She splashed through the fountain's basin, coughing up rainwater and gagging on scalding-hot air. The beast stood on the church steps, regarding her with an air of casual, impersonal malice. [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]**//I COULD TAKE YOU APART WITH A WHISPER,//**[[/span]] it crowed. [[span style="font-family: metal mania; font-size: 120%; word-break: normal !important"]]//**BUT IT'S FAR MORE AMUSING TO LET YOU DO IT YOURS--**//[[/span]]
+
+"Fire," she croaked, and felt a rush of satisfaction as the Ambassador froze in confusion just before ten rifles' worth of hollow-point ammunition tore it to sable shreds. Her agents emptied their magazines; the perforated monster took one step forward, then plunged face-first down the stairs. She had the briefest glimpse of a white robe blowing crazily in the full-force gale behind it before the entire scene abruptly snapped into nonexistence.
+
+She was on all fours in the endless pool of knowledge. Her enemy was face-down in the water, whole but motionless. She loosened her grip on the sword, and held it up behind her; she didn't see which of her friends took it, so focused was she on the savagely satisfying act of reaching out and snapping the hateful creature's neck. A sound like a single link of chain shattering rebounded through the cavern, and she dragged herself out of the inky mire.
+
+Okorie wordlessly handed her back the sword. It glowed like a beacon in the black.
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Alagadda.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+"What the //fuck// was that thing?!" Placeholder was raving as they strode down the stone corridor.
+
+"The Ambassador of Alagadda." Okorie was calm. "One of the most powerful sorcerors ever to walk the Earth."
+
+"Is it dead?"
+
+"It was dead to begin with." The mage looked rueful. "Under normal circumstances, it could have disassembled us at the atomic level without batting an eye."
+
+"Yeah," Ibanez nodded. Her voice was sombre, but stronger somehow. "It said as much. That's why it lost." She reached up to clean the blood she felt running down her face; her hand came away clean. "Villains never know how to read the room."
+
+"//Was// that the villain?" Placeholder interrupted. "Okorie, you called it an ambassador. Does it serve the Hanged King?"
+
+"Don't say that name out loud." Okorie winced. "The answer is 'yes' and 'no'. It's complicated."
+
+Placeholder reached into his labcoat pocket. "Do either of you know anything about character archetypes?"
+
+They both shrugged as he produced his narrative fluctuation detector. 
+
+"Specifically, do you know what they call the big bad's second-in-command?"
+
+They shrugged again as he adjusted the dials on the device.
+
+"They call it a Dragon."
+
+Ibanez stopped walking. "Are you saying..."
+
+"I'm saying you pulled a sword out of a statue, saved a sovereign state, fought and maybe even slew a dragon, and..." He stared at the detector. "...yeah. We're topping out the scales, here."
+
+Ibanez shifted her weight impatiently. "And that means? Practically speaking?"
+
+"It means we need to start winding this thing down, or we're going to draw the authors down to our level and get trapped in an eternally-escalating narrative. As much fun as it would be to see you achieve heroic apotheosis, there's still that small matter of a world needs saving."
+
+Okorie's eyes were glinting in swordlight. "Actually, on that topic..." She reached out to touch the sword, then jerked her hand back to suck on her finger. "Oops. Ahem." She collected her thoughts. "Are we clear on why this dead hunk of metal has been gradually approaching critical mass?"
+
+"It's twinning her protagonistic potential," said Placeholder.
+
+Ibanez stared at him. "What?"
+
+"It's drawing strength from your heroism," Okorie explained. "No, scratch that. It's //matching// the strength of your heroism, the way Kayaköy mirrors the contentment of the tourists. The city called out for a hero, and you answered. Because of who you are." She clasped Ibanez's shoulders. "We've come to Alagadda from //Turkey,// Delfina, by way of the goddamn //Wanderers' Library.// We didn't do that to read an inscription that didn't tell us anything useful! We did that to //do it.//"
+
+"The sword triggered the quest, and the quest triggered the sword," Placeholder agreed. "Through your absurd sequence of strength-feats."
+
+"Do you know how long it's been since someone shifted the balance of power in Alagadda?" Okorie asked. "How long it's been since Jailors walked free in the halls of the Hand? How many decades it's been since Kayaköy spoke?" She laughed. "Or how long it's been since my veins felt full of fire?" She was beaming fit to shame the sword. "That's what this thing does. It's reflecting what's inside of you, stirring the stories, bringing life to dead and dying places. For all we know, there's enough raw change built up in that blade to reverse the Impasse entirely!"
+
+Ibanez considered this as they reached the end of the corridor, a thick stone archway leading into an ample dark.
+
+"Well," she said. "Holy shit?"
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Alagadda.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+An empty dread settled over them as they crossed the threshold. They were standing at the edge of a colossal rotunda, a coral reef of twisted pillars, tattered banners and chasmal colonnades. Passages like the one they had just exited branched off in every direction, legends in sinister sigils carved above ebony lintels. The heart of the hall of the Hanged King was a circular stairway to a raised daïs, dominated by a crepuscular throne sculpted with scenes and figures which crawled beneath their eyes like the memory of worms in the grave. It was littered with nasty-looking spikes, broken links of black metal and frayed lengths of black rope. A single chain hung from the unseen ceiling, swaying in a breath of air which failed to disturb the dust coating every exposed surface.
+
+The throne was empty.
+
+Okorie drew them back into the corridor, her dusky features funereally pale. "We have a problem." She nearly choked on the words. "The only way to leave Alagadda is to pass through a door. A real door." She jerked a thumb over her shoulder. "There might be one in there, but there are //definitely// doors in the city."
+
+"So, we head up and out?" Ibanez felt her pulse rising.
+
+Okorie shook her head. "The King is free. I think you... I think //we// freed him."
+
+Ibanez raised the blade between them, and Okorie shook her head more forcefully. "You saw what it did to the Ambassador. If the Hanged King gets his hands on that, with nothing to hold him back, we won't need to bother saving the world. It'll already be doomed."
+
+Placeholder was hyperventilating. "So, we search the passages, and hope we find a door."
+
+"And if we don't?" Ibanez watched her friend's face carefully.
+
+Okorie turned away from her. "Pick a corridor, any corridor, and run."
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Alagadda.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+The light in the hall was curious. They could read the inscriptions over each passage, but the space across the daïs where the winding stairs to Alagadda proper lurked was an unbroken pitch-black. As they moved from doorway to doorway, staring down endless tunnels of lightless rock, they realized the shadows were neither lengthening nor shortening with the motion of their makeshift torch.
+
+They found a grand total of one door, a jet black wooden affair with a starburst pattern of locks. The legend on the lintel read "ADYTUM," and Okorie wordlessly declined to try opening it. Teeth clenched and faces gaunt, they edged around the throne platform towards the unretreating gloom where--
+
+The gloom //moved.//
+
+"Oh," said Okorie. She reached into her satchel, withdrew a leather pouch, and poured its contents into her left hand. She clapped both hands together, and a cinnabar cloud expanded around her. "Goodbye."
+
+"What?" Ibanez seized the mage's shoulder; Okorie's muscles were taut, and she planted her feet firmly in the grime.
+
+Placeholder scanned the tunnels frantically as Ibanez tried to force her friend to face her. Okorie rubbed her hands together until they were both the colour of old rust, then began tracing lines in the lingering powder.
+
+"Udo!" Ibanez moved to step in front of Okorie, and the taller woman turned around and shoved her roughly back. Her face was streaked with tears. "You need to go." She knelt to draw lines in the floor with her fingers, carving an intricate design around herself as the black haze billowed up behind her. An antimatter skein, an unravelling tapestry of absolute nothing, a multitude of tenebrous tentacles writhing out towards them...
+
+Ibanez raised the sword, and Okorie favoured her with an anguished smile before striking a fire between her thumb and forefinger, pressing it to the figures on the floor.
+
+A wall of flame erupted beneath her feet, bisecting the throne room, separating Ibanez and Placeholder from the advancing ecliptic tangle that was the Hanged King's shade. Ibanez pressed her hands to the fire; it was cool to the touch, but firm as solid stone.
+
+Okorie mirrored her friend's gesture, then pursed her lips and //pushed.// Ibanez was flung back, sliding across the filthy slabs. Placeholder pulled her to her feet as she screamed: "UDO!"
+
+The space behind the firewall was now a starless, moonless night. Okorie raised both hands above her head, hair billowing, muscles straining, spine straight. The King's empty bulk forced her to back away, bit by bit, edging beneath a lintel marked with the simple sign of three crescent moons.
+
+She was still a picture of perfect resolve when Ibanez lost sight of her, propelled down a lightless passage marked NEVERMEANT by the distraught but insistent pataphysicist.
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Alagadda.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+[[div class="one column"]]
+[[=]]
++ [*/scp-5999 The Nevermeant]
+[[/=]]
+[[/div]]
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Candles.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+They hadn't made it fifty feet before Ibanez felt a violent urge to race back to the throne room, stronger than the archivist's curse in the Library, stronger than the pull of a moth to a flickering flame. "We have to go back."
+
+Placeholder made no move to restrain her; he obviously knew his own strength. "We can't. This is the only way forward." He ran both hands through his dark, curly hair. "We need to get you out of here. We need to get the //sword// out of here. You're the protagonist. Okorie and I..."
+
+"No," snapped Ibanez.
+
+"Okorie and I are just secondary characters." He raised his hands up defensively. "It's true!"
+
+Ibanez barely resisted the urge to slap him. She pointed back down the passageway. "Don't talk pataphysics at me right now! My friend, my //friend,// is going to //die// back there if I don't help her."
+
+He shook his head sadly. "No. She's going to die whether you help her or not. The question is, will everyone else?"
+
+Ibanez balled her hands into fists. "You don't know where this goes. For all you know, you're leading us down a dead end while Udo gets..." She blinked back furious tears. "For //nothing.//"
+
+Placeholder frowned grimly as he tapped the narrative detector with one finger. "I //do// know where this is going. Alagadda is on the shores of the Nevermeant, an interdimensional void. A space-between-spaces. With the collapse of magic, if my theories are correct, it's a realm of pure pataphysics. The domain of the authors."
+
+Ibanez blinked. "If your theories are correct."
+
+He nodded. "I talked to Okorie about this before we left Sloth's Pit. There was always a chance we'd get trapped in a loop out here, with our world so infused with narrative power." He sighed. "If that happened, we agreed to push things over the edge."
+
+She felt her jaw setting. "Push things over the edge."
+
+He looked stricken. "Check off another narrative box. Reel the authors in. Hit one final note on the cliché scale." Her withering glare dared him to say it, so he swallowed hard and obliged: "A grand gesture. A sacrifice."
+
+For a moment she feared she might drive the radiant sword through his heart. For a moment, she thought she might dash him against the glistening black masonry. For a moment she thought she might lose her mind, and then her heart leapt into her throat and a blinding light burst from the edge of the blade.
+
+"It's //not// a fucking //sacrifice.//" She stuck the tip of the blade directly under his nose. "It's a //sequel hook.//"
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Candles.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+At first, there seemed to be a light at the end of the tunnel. It then became apparent that this was actually an absence of both light and darkness, a creeping cast of grey which swept all clarity and colour aside. They ran through the dimming fog, Ibanez stealing brief glances behind them; for a few precious moments there was still the void, the silent memorial to the uncertain fate of Udo Okorie, but soon not even the absence of anything remained--
+
+Their feet were falling on thick pile carpet, casting clouds of dust through a starlit gallery panelled in vibrant maple. "This isn't real," said Placeholder, eyes set firmly forward. There was fire burning beyond the leaded windows, and a sudden lamentation split the night with enough force to--
+
+They were running through a labyrinth of stinging nettles, staring up at a hollow sky. A noose was hanging from the heavens, a shapeless figure kicking at the end of the rope. "We're breaking through the layers," the pataphysicist snapped. "Keep moving--"
+
+They were barrelling down a hazy, fence-lined street, rows of dead-eyed corpses turning to watch them pass. Trumpets thundered on high; something massive moved in the mists. "Almost there," Placeholder gasped, clearly out of breath--
+
+They were falling through an empty expanse, //again,// and she suddenly knew she was being observed from behind the veil. 
+
+"I never told you how I got my name," Placeholder remarked. His eyes were wide and wild as he pointed at the emptiness ahead. "I got something's attention, and it [[span style="color:blue"]]CURSED[[/span]] me."
+
+They were pinned against a black velvet curtain like butterflies on a specimen board, a metaphysical mass looming over them, reaching out to grasp--
+
+"We've learned a thing or two about curses ourselves, in the interim."
+
+A howl of static, a sevenfold shattering of chains, an inhuman rictus rising up behind them and a scream from beyond the fourth wall, and--
+
+[[div]]
+[[=]]
+@@ @@
+[[image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-3/Turkey.png]]
+@@ @@
+[[/=]]
+[[/div]]
+
+[[div class="one column"]]
+[[=]]
++ [*/scp-5923 Village of Kayaköy]
+**Republic of Turkey**
+[[/=]]
+[[/div]]
+
+----
+
+They were sitting side by side on an uncomfortable wooden pew, gazing up at the white-robed figure floating above the pulpit. Its robes were billowing in an unseen breeze.
+
+[[span style="font-family: merienda one; word-break: normal !important"]]**//The end of the end is nigh.//**[[/span]]
+
+"What was that thing?" Her own voice sounded flat, empty, alien to her. "When the author came for us?"
+
+"It was a safeguard," Placeholder muttered, staring at the motionless needle on his narrative fluctuation detector. "A last resort against the writers, if push came to shove. A contingency plan we never thought we'd need to use." He blew out a ragged breath. "I deployed it into the noosphere before we left 87."
+
+Ibanez glanced at him, almost too exhausted to ask: "Why didn't you tell anyone?"
+
+He responded timidly, recognizing the fire in her eyes. "Because then it wouldn't have found us, because it wouldn't have been a //deus ex machina.// We have to follow the rules, you know."
+
+She glanced down at the blade -- //I will not fade// -- gleaming like burnished bronze, and shook her head. "Fuck that noise." She stood up and headed for the open double doors, pointedly ignoring the lingering //genius loci.// "The rules follow //me,// starting right now."
+[[/div]]
+
+----
+@@ @@
+||~ <END LOG> ||
+|||| [/scp-6500/offset/6 Return to main document to view related material.] ||
+@@ @@
+----

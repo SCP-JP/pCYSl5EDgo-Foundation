@@ -1,0 +1,150 @@
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:component:centered-header-bhl]]
+
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:fade-in speed=4]]
+
+[[module CSS]]
+.email-example .collapsible-block-folded a.collapsible-block-link {
+    animation: blink 0.8s ease-in-out infinite alternate;
+}
+@keyframes blink {
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
+}
+.email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
+.email-example a.collapsible-block-link {font-weight: bold;}
+.tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
+[[/module]]
+
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 6226
+|clearance= 1
+|container-class= euclid
+|secondary-class= none
+|secondary-icon= https://urlhere.com
+|disruption-class= dark
+|risk-class= notice
+]]
+
+----
+
+[[include component:image-block name=duckboat.jpg|caption=SCP-6226 posing for a picture.]]
+
+**Special Containment Procedures:** SCP-6226 is allowed to freely float around Aquatic Enclosure 6.
+
+**Description:** SCP-6226 is a sentient rowboat behaving similarly to a non-anomalous //Balaeniceps rex// (Shoebill). It uses its attached oars to ambulate through the water. It is very friendly with personnel and will float along the edge of its enclosure following anyone passing by its fence.
+
+**Addendum-6226.1 Anomaly Transferral:**
+Due to the Boring Agreement, since SCP-6226 was discovered in Crater Lake, it is planned to be transferred to GoI-466 (Wilson's Wildlife Solutions) for documenting and care. A full document from WWS is expected upon its arrival.
+
+[[=]]
+[[collapsible show="□ Email Relations □" hide="▣ Email Relations ▣"]]
+[[<]]
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Tim Wilson
+**From:** Dr. Jerimiah Greene
+**Subject:** New Anomaly
+[[/div]]
+------
+We have come into the possession of a new anomaly. It was found swimming near the bank of Crater Lake so we are planning on sending it over to you.
+[[>]]
+Dr. Jerimiah Greene
+SCP-6226 Head Researcher
+[[/>]]
+[[/div]]
+
+@@ @@
+
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Dr. Jerimiah Greene
+**From:** Tim Wilson
+**Subject:** Re:New Anomaly
+[[/div]]
+------
+Sounds like a plan! What sort of creature should we be expecting? What kind of enclosure does the little buddy need?
+[[>]]
+Tim Wilson
+WWS
+[[/>]]
+[[/div]]
+
+@@ @@
+
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Tim Wilson
+**From:** Dr. Jerimiah Greene
+**Subject:** Re:New Anomaly
+[[/div]]
+------
+Most researchers here have described him as a shoebill. Quite docile. He even likes to follow around our staff when they come to greet him! I will attach a photo of the enclosure he is currently being kept in. I'm not really sure why we've put the fence around there, it's not like he's planning on going anywhere!
+[[>]]
+Dr. Jerimiah Greene
+SCP-6226 Head Researcher
+[[/>]]
+> +++++ 📎Attached Image:
+> [[=image pond.jpg width="400px" ]]
+[[/div]]
+
+@@ @@
+
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Dr. Jerimiah Greene
+**From:** Tim Wilson
+**Subject:** Re:New Anomaly
+[[/div]]
+------
+Great news. We haven't had many birds some in our doors for a while. Everyone's very excited to meet him! I'm especially intrigued as I've been wanting to care for a Shoebill for quite a while. I've also come up with a name, Eddie!
+
+That enclosure seems a little small. We've picked out a nice roomy habitat for him. We suspect he'll love it! The enclosure is nice, but I do wish we could see his smiling face! Speaking of Eddie, what anomalous properties should we be expecting?
+[[>]]
+Tim Wilson
+WWS
+[[/>]]
+[[/div]]
+
+@@ @@
+
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Tim Wilson
+**From:** Dr. Jerimiah Greene
+**Subject:** Re:New Anomaly
+[[/div]]
+------
+There isn't much you'll need to worry about vis-à-vis anomalous traits. My only gripe about him is he doesn't need to eat or sleep (His squawking could get a little loud during the night!). But for the most part, he's just like a baseline shoebill. I've packed a copy of the full documentation we have on him (including some wonderful photos from our on-site amateur photographer that are just so lovely) along with him in the truck we're sending him to you in. Should be arriving any time now!
+[[>]]
+Dr. Jerimiah Greene
+SCP-6226 Head Researcher
+[[/>]]
+[[/div]]
+
+@@ @@
+
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Dr. Jerimiah Greene
+**From:** Tim Wilson
+**Subject:** Re:New Anomaly
+[[/div]]
+------
+I think I just heard your trucks pull up! I'll send over his new documents soon!
+[[>]]
+Tim Wilson
+WWS
+[[/>]]
+[[=]]
+> +++++ 📎Attached File: [[[http://www.scp-wiki.net/scp-6226/offset/1|Critter Profile: Eddie!]]]
+[[/=]]
+[[/div]]
+[[/<]]
+[[/collapsible]]
+[[/=]]
+
+[[footnoteblock]]

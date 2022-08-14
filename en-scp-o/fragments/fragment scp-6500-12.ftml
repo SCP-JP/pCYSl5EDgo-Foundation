@@ -1,0 +1,185 @@
+[[div style="display: none;"]]
+[[include :scp-wiki:theme:placestyle]]
+[[/div]]
+[[include :scp-wiki:component:fade-in speed=1]]
+
+[[module css]]
+body {
+    background-image: linear-gradient(
+        to bottom,
+        #5c3, #2F333C 200px,
+        #2F333C 200px, #2F333C 100%);
+}
+
+:root {
+  --header-title: "OVERWATCH";
+  --header-subtitle: "SACRIFICE CONFERS POWER";
+  --lgurl: url('https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-12/overwatchheadervanguard.svg');
+  --accentColor: #5c3;
+}
+
+div#extra-div-1 {
+    filter: brightness(100%);
+    height: 100px;
+    margin-top: 30px;
+}
+
+#header h1 a::before {
+    color: transparent;
+}
+
+#header h2::before {
+    color: transparent;
+}
+
+.bt {
+    filter: none;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.no {
+    font-size: 125%;
+}
+
+.no:hover {
+    filter: opacity(0.5);
+    cursor: not-allowed;
+}
+
+#login-status {
+    color: #21252E;
+}
+#login-status a {
+    color: #21252E;
+}
+#login-status ul a {
+    color: #ededed;
+    background: #21252E;
+}
+#login-status ul a:hover {
+    color: #21252E;
+}
+#account-topbutton{
+    border: solid 1px #21252E;
+}
+
+.fancyborder {
+    border-radius: 5rem;
+}
+
+.fancyborder .fnnum::after {
+    color: #000;
+}
+
+@media (max-width: 706px) {
+    .fancyborder {
+        border-radius: 1rem;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.cards > .image-container {
+    padding: 1px;
+}
+
+.yui-navset {
+    margin: 2%;
+}
+
+.graybox {
+    --accentColor: #ddcfee;
+}
+
+.fancyhr {
+    filter: hue-rotate(60deg);
+}
+[[/module]]
+
+= [[span class="bt"]]__ADDENDUM II:__[[/span]] Timeline Observations
+
+[[div class="darkbox"]]
+@@ @@
+[[=image https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-12/LockBroken.png]]
+@@ @@
+----
+@@ @@
+[[=]]
++ ##eee|PROPOSAL 6500-Ω:## ACTIVE
+[[/=]]
+@@ @@
+[[/div]]
+
+Following O5 Council Conference #X-2737B, the Temporal Anomalies Department alerted administrative personnel to the passing of a critical Pivot in time. It is believed this occurred as a direct result of the conference's events.
+
+[[div class="blockquote"]]
+@@      @@//"In temporal theory, a [[span class="bt"]]Pivot[[/span]] is any non-predeterminable event; when a Pivot occurs, it results in the 'branching' of its timeline into multiple timelines, each corresponding to one of the possible outcomes of the event. A [[span class="bt"]]critical Pivot[[/span]] is one that occurs in all timelines which are 'branches' of the Prime-Timeline, despite the vast differences between said branches. Critical Pivots are rare, unavoidable 'branching' events and/or decisions with immense consequences on the fundamental trajectory and stability of their timelines -- if a critical Pivot has two outcomes, one will almost always cause a gradual decline in stability, eventually resulting in total temporal failure and timeline collapse."//
+[[>]]
+//-- [*/time-travel Elementary Time Travel and Causal Analysis, Second Edition]//
+[[/>]]
+[[/div]]
+
+Critical Pivots can only be detected after they occur. Due to the immense ramifications posed by the 'wrong' outcome of a critical Pivot, the Temporal Anomalies Department is tasked with monitoring the stability of newly-created 'branches'. This entails observing the actions of individual Foundation personnel following the critical Pivot; detailed reports of such are to be appended to this document and presented in keeping with [[span class="bt"]]PROTOCOL SIXTH SUN[[/span]], in case of lingering SCP-6500 effect.
+@@ @@
+[[div_ class="fancyhr"]]
+----
+[[/div]] 
+[[=]]
++ //Choose Your Path//
+[[/=]]
+@@ @@
+[[div class="cards"]]
+[[div class="graybox" style="filter: opacity(0.3); width: 50%;"]]
+[[div class="cards"]]
+[[f=image https://i.imgur.com/ODYqAnz.png width="180px"]]
+[[f=image https://i.imgur.com/SUgdvNC.png width="180px"]]
+[[/div]]
+[[div height="5px"]]
+[[/div]]
+[[tabview]]
+[[tab RESTRICTED TO TEMPORAL DEPT.]]
+= **{{[/scp-6500/offset/12 LOCKED]}}**
+[[/tab]]
+[[/tabview]]
+[[/div]]
+[[div style="width: 50%;"]]
+[[div class="cards"]]
+[[f=image https://i.imgur.com/3Y5HzCK.png link="https://scp-wiki.wikidot.com/scp-6500/offset/15" width="180px"]]
+[[f=image https://i.imgur.com/I7yLWQ8.png link="https://scp-wiki.wikidot.com/scp-6500/offset/16" width="180px"]]
+[[/div]]
+[[div height="5px"]]
+[[/div]]
+[[tabview]]
+[[tab VOYAGER]]
+= Take a disorienting tour through the life of an immortal Temporal Agent as she attempts to fix her jumpwatch; become a witness to a different world, both the good and the bad.
+[[/tab]]
+[[tab EMISSARY]]
+= A group of former adversaries, prominent minds, and representatives of the anomalous world gather to discuss just what shape the future of the once mighty Foundation should take.
+[[/tab]]
+[[/tabview]]
+[[/div]]
+[[/div]]
+----
+[[div class="blockquote"]]
+= {{TEMPORAL CREDENTIALS VERIFIED. WELCOME, AGENT.}}
+[[/div]]
+
+= If you have reviewed **__all previous files__**, please submit a timeline stability report.
+@@ @@
+||= [/scp-6500/offset/17 » BEGIN REPORT «] ||
+@@ @@
+[[div_ class="fancyhr"]]
+----
+[[/div]]
