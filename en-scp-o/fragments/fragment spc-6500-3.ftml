@@ -1,0 +1,26 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:extra-black-highlighter-theme]]
+[[include :scp-wiki:theme:shark-punching-centre-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[module CSS]]
+#content-wrap::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: repeat-x;
+  pointer-events: none;
+  opacity: 0.0;
+}
+[[/module]]
+
+Some people already think we're a laughingstock and call us the "Shark Punching Centre." We'll be damned if we change our names to the "Shark Conserving Centre" instead.
+
+Tim and Faeowynn Wilson are still mad about all the times we performed [[[SPC-446]]] on them, anyways. Something about "animal cruelty."
+
+And, well. Even the strongest of us wouldn't be able to resist the allure of so many targets.
+
+[http://scp-wiki.wikidot.com/spc-6500/offset/1 > Cancel]

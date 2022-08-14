@@ -1,0 +1,90 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[module CSS]]
+#page-title {
+    display: none;
+}
+
+div.expoblock {
+    border: 0.5rem solid #1a1a1a;
+    padding: 1rem;
+}
+.expoblock hr {
+    height: 0.6rem;
+    margin: 1.5em 0;
+    background-color: black;
+}
+
+[[/module]]
+[[include :scp-wiki:component:blacklight-box-source |inc-source= --]]]
+[[include :scp-wiki:component:blacklight-box-source |inc-colors= --]
+|color-family=big-yikes
+|bg-color=rgb(252, 252, 252)
+|txt-color=rgb(5, 5, 5)
+|border-color=rgb(5, 5, 5)
+|label-bg-color=rgb(5, 5, 5)
+|label-txt-color=rgb(252, 252, 252)
+]]
+[[module CSS]]
+#page-title {
+    display: none;
+}
+
+.blbf-main > div::before {
+    top: -0.5rem;
+    left: -0.35em;
+}
+
+.blbf-main > div {
+    border: 0.50rem black solid;
+    margin-left: auto;
+}
+
+.blbf-main > div::before {
+    background-color: black;
+}
+
+span.hilighter {
+    background-color: rgb(var(--black-monochrome));
+    color: white;
+    font-weight: bold;
+    padding: 0.2em;
+    font-size: 108%;
+    line-height: 1.2;
+}
+
+a.collapsible-block-link {
+    color: transparent!important;
+    background-color: transparent!important;
+}
+
+[[/module]]
+[[=]]
++ [https://scp-wiki.wikidot.com/scp-2744 CLICK HERE TO ACCESS IMMERSIVE MODE]
+[[/=]]
+[[div class="expoblock"]]
+[[=]]
+[[span class="hilighter"]]
++ WELCOME WILLIAM MILLER
+[[/span]]
+
+++ This anomaly currently presents no danger to you. Please ensure the following:
+[[/=]]
+[[/div]]
+@@ @@
+[[div class="expoblock"]]
+++ 1. You have informed all close family and acquaintances of your love for them and have made any or all amends.
+
+++ 2. Representatives from either HR or Legal Departments are in possession of a binding and valid will. The named executor must be a member of Foundation staff.
+
+++ 3. You have accepted that further access to this terminal //will// result in your immediate termination by an unknown and hostile entity.
+
+++ 4. You are aware and accept that your termination will be excruciatingly painful. 
+[[/div]]
+[[=]]
+[[div class="expoblock"]]
+++ [[span class="hilighter"]]PLEASE LOGIN AGAIN TO CONFIRM.[[/span]]
+++ [[span class="hilighter"]]**LOGIN:**[[/span]] WMiller119
+++ [[span class="hilighter"]]**PASSWORD:**[[/span]] @<*************>@
++ [https://scp-wiki.wikidot.com/scp-2744/offset/5 CLICK TO LOGIN]
+[[/=]]
+[[/div]]

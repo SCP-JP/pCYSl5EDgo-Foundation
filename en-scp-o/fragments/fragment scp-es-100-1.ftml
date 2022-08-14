@@ -1,0 +1,764 @@
+[[module css]]
+#page-title {display: none;}
+[[/module]]
+
+[[html]]
+<head>
+ 
+<style>
+ 
+body {
+ 
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 12.8px; /* 16px * 0.8 */
+    color: #333;
+    line-height: 141%;
+}
+
+bodysmall {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 10.4px; /* 14px * 0.8 */
+  color: #333;
+  line-height: 141%;
+}
+
+bodysmallred {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 10.4px; /* 14px * 0.8 */
+  color: #901;
+  line-height: 141%;
+}
+
+a {
+    color: #b01;
+    text-decoration: none;
+    background: transparent;
+}
+
+.square{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: grey;
+    background-color: #F5F5F5;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.squarered{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #ff3333;
+    background-color: #f7dbdb;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.left{
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+bodysmallred2 {
+  
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 10.4px; /* 14px * 0.8 */
+  color: #901;
+  line-height: 141%;
+  
+  animation: fadeIn 1s infinite alternate;
+}
+
+</style>
+ 
+</head>
+ 
+<body>
+
+<div align="right"><bodysmallred><b>Displayed Version:</b> Level 2/ES-100</bodysmallred> <bodysmall>[ Censored Elements: <b>5</b> | Censorship Supervisor: <b>Doctor Fisher</b> ]</bodysmall></div>
+<div align="right"><bodysmallred2><a href="http://scp-wiki.net/scp-es-100/offset/2" target="_blank"><b>Click here</b></a></bodysmallred2><bodysmall> to view the<b> Level 4/ES-100</b> Version of this Archive.</div></bodysmall> <br><br><br><br>
+ 
+<center><img src="http://scp-yerko-2.wdfiles.com/local--files/scp-es-100/Encabezado%20Green.png"></center><br>
+
+<b>Special Containment Procedures:</b> Instances of requisitioned 2800 model elevators are listed and stored in the Low Value Items Storage Facility in Section G (Hall12) of Site-34.<br><br>
+
+<div class="square"><b>Update - 09/02/2007:</b> In accordance with the guidelines agreed upon in the SCP-ES-100 full research protocol, a single instance of the Model 2800 elevator will be installed in the assigned Experimental Area for this use, located between Sublevels 3 through 12 of Wing D of Site-34. The instance used will only be kept in operational condition during the course of the tests, and must be replaced by a new instance approved by the Project Manager in charge of SCP-ES-100 after an investigation cycle that will not exceed 20 days.</div><br>
+
+<div align="right"><bodysmall>Written on 07/28/2007, 12:43:51 UTC by Dr Ashworth, <bodysmallred>j.ashworth@rsrch.scp.net</bodysmallred></bodysmall><br>
+<bodysmall>Last Update [3] on 09/02/2007, 16:02:34 UTC by Doctor Ashworth, <bodysmallred>j.ashworth@rsrch.scp.net</bodysmallred></bodysmall></div>
+
+<center><img src="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/Barra%20de%20Separaci%C3%B3n%20Final.png"></center>
+
+<div class="squarered"><p><img src="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-05/Aviso.png" class="left" style="width:55px;margin-right:15px;">Object experimentation has been suspended indefinitely. Consult your Site Director if any of your proposals require the use or manipulation of this object.</p></div><br>
+
+<b>Description:</b> SCP-ES-100 refers to a cognitohazardous effect that has tentatively been associated with Model 2800 elevators, freight elevators of the ████████ brand, during the journey between a home floor and a destination floor.<br><br>
+
+Despite the fact that, at the time of writing, all experiments in controlled environments have been unable to reproduce the anomaly presented during Incident 034.100.001/N3, the current hypothesis holds that exposure to SCP-ES-100 induces temporary visual dissociative agnosia, preventing subjects inside from recognizing their destination floor, their floor of origin, or any memory of disparities between the two.<br><br>   
+
+This sensation of alienation and disorientation seems to be intensified with each new journey, aggravating the subject's state of anguish and fear to the point of refusing to leave the elevator.<br><br>  
+
+If the hypothesis is correct, prolonged exposure to the anomaly will result in cognitive alterations such as loss of the notion of time, paranoid psychosis (including auditory and visual hallucinatory episodes), personality dissociation and obsession with blue tonality and lacunar amnesia, all traits associated with a possible fugue state caused by SCP-ES-100's trauma.<br><br>
+
+<div align="right"><bodysmall>Written on 07/28/2007, 12:52:12 UTC by Doctor Ashworth, <bodysmallred>j.ashworth@rsrch.scp.net</bodysmallred></bodysmall><br>
+<bodysmall>Last Update [8] on 04/12/2010, 13:02:36 UTC by <bodysmallred>[REDACTED]</bodysmallred></bodysmall></div>
+
+<center><img src="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/Barra%20de%20Separaci%C3%B3n%20Final.png"></center>
+
+<b>Recovery:</b> SCP-ES-100 came to the attention of the Foundation on 07/14/2007, after an emergency call was made to the online maintenance and breakdown services of the ████████ company by PoI-034.3701/ES-100 from, it is assumed, the interior of a Model 2800 elevator located in the city of Valencia, Spain.<br><br>
+
+The subsequent investigation showed that the ████████ company was unaware of the anomalous effects produced by SCP-ES-100 in its Model 2800 elevators, which led to ruling out that the anomaly was intentionally introduced into its design. As a preventive measure, the production of Model 2800 elevators was suspended under the pretext of serious safety errors.<br><br>
+
+Foundation personnel requisitioned all Model 2800 cabins in service, mainly in the Iberian Peninsula and most of the countries that make up Latin America. They were replaced by Model 3100 elevators under the justification of a free joint urban renewal plan by the ████████ company and the state institutions of each region.<br><br>
+
+<div class="square"><b>Update - 02/14/2008:</b> Despite the fact that the last of the Model 2800 elevators present in the official inventory of the ████████ company was withdrawn from circulation on 02/13/2008, it has been determined that an unknown number have not yet been acquired by the Foundation. It is believed that these are in public circulation, possible due to their illegal second-hand sale and altered serial numbers.<br><br>
+
+Given the potential risk this presents to the population, staff members of Mobile Task Force Sigma-22 ("Prey Dogs") currently maintain low priority active tracking for new instances of Model 2800 elevators that still remain outside containment.</div><br>
+
+<div align="right"><bodysmall>Written on 02/14/2008, 13:07:46 UTC by Doctor Ashworth, <bodysmallred>j.ashworth@rsrch.scp.net</bodysmallred></bodysmall><br>
+<bodysmall>Last Update [5] on 04/12/2010, 13:25:11 UTC by <bodysmallred>[REDACTED]</bodysmallred></bodysmall></div>
+
+<center><img src="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/Barra%20de%20Separaci%C3%B3n%20SCP%20Final.png"></center>
+</div>
+[[/html]]
+[[=]]
+++ THE FOLLOWING PORTION OF THE FILE HAS BEEN CLASSIFIED AS:
+ 
++ [[size 200%]]LEVEL 3/ES-100[[/size]]
+ 
+IN ORDER TO VIEW THE ARTICLE, IT IS NECESSARY TO CHECK YOUR SECURITY ACCESS LEVEL
+
+[[/=]]
+[[html]]
+<link href='//fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+<head>
+ 
+<style>
+ 
+body {
+ 
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 12.8px; /* 16px * 0.8 */
+    color: #333;
+    line-height: 141%;
+}
+
+bodysmall {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 10.4px; /* 14px * 0.8 */
+  color: #333;
+  line-height: 141%;
+}
+
+bodysmallred {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 10.4px; /* 14px * 0.8 */
+  color: #901;
+  line-height: 141%;
+}
+
+a {
+    color: #b01;
+    text-decoration: none;
+    background: transparent;
+}
+
+robot {
+    font-family: Aldrich;
+    font-size: 12.8px;
+
+}
+
+.square{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: grey;
+    background-color: #F5F5F5;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.squaregrey{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-style: none;
+    border-width: 1px;
+    border-color: grey;
+    background-color: #F5F5F5;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.squarered{
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: #901;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.squareOpen{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-left: solid #901 6px;
+    border-right: solid grey 1px;
+    border-bottom: solid grey 1px;
+    border-top: solid grey 1px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.squareOpen2{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-left: solid grey 1px;
+    border-right: solid grey 1px;
+    border-bottom: solid grey 1px;
+    border-top: solid grey 1px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#input.button {
+  display: flex;
+  justify-content: center;
+}
+ 
+#myProgress {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: #ddd;
+}
+ 
+#myBar {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  background-color: #901;
+}
+ 
+#label {
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+div {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 12.8px; /* 16px * 0.8 */
+    color: #333;
+    line-height: 141%;
+}
+ 
+span {
+   font-family: Aldrich;font-size: 12.8px;
+   font-size: 12.8px; /* 16px * 0.8 */
+    color: #333;
+    line-height: 141%;
+}
+
+hr {
+ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.button {
+    border: none;
+    padding: none;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 12.8px; /* 16px * 0.8 */
+    line-height: 141%;
+    color: #b01;
+    text-decoration: none;
+    background: transparent;
+    text-align: left,
+}
+
+.button2 {
+  box-sizing: border-box;
+  display: block;
+  width: 50%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 6px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  background: #901;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background: #7a000d;
+}
+
+/* Buttons' focus effect */
+.button2:focus {
+  border-color: #05a;
+}
+
+.right{
+    float: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+</style>
+ 
+</head>
+ 
+<body>
+<br>
+<center><button class="button2" onclick="this.style.visibility='hidden'; move(); showDiv()">Credential Validation</button></center>
+<br>
+<div id="myProgress">
+  <div id="myBar">
+    <div id="label">10%</div>
+  </div>
+</div>
+ 
+<div id="loader"></div>
+ 
+<div style="display:none;" id="myDiv1" class="animate-bottom">
+<br>
+<span>Decrypting access to the system.</span>
+<br>
+<br>
+<span>Credentials checked, access allowed.</span>
+<br>
+<br>
+</div>
+<div style="display:none;" id="myDiv2" class="animate-bottom">
+<span>Loading requested file...</span>
+<br>
+</div>
+</div>
+<div style="display:none;" id="myDiv3" class="animate-bottom">
+<span>.</span>
+</div>
+ 
+<div style="display:none;" id="myDiv4" class="animate-bottom">
+<span>.</span>
+</div>
+ 
+<div style="display:none;" id="myDiv5" class="animate-bottom">
+<span>.</span>
+</div>
+<br>
+<br>
+<div style="display:none;" id="myDiv6" class="animate-bottom">
+<br>
+<div align="right"><bodysmallred><b>Displayed Version:</b> Level 3/ES-100</bodysmallred> <bodysmall>[ Censored Elements: <b>4</b> | Censorship Supervisor: <b>Doctor Fisher</b> ]</bodysmall></div><br><br><br><br><br>
+
+<b>Incident 034.100.001/N3 - Research Report</b><br><br>
+
+<b>Date:</b> 07/21/2007<br><br>
+
+<b>Location:</b> Valencia, Spain (39.4███° N, 0.39██° W)<br><br>
+
+<b>Personnel present:</b> Agent Ariadna Llaurado<br><br>
+
+<b>Incident Log:</b> On 07/14/2007 at approximately 18:23 hours, Andrea Vázquez Garrido (16-year-old Caucasian female) took the elevator to the 4th floor in the building located at the Carrer del ████████ street, to make her usual journey from the ground floor to the fourth floor, where her family home is located.<br><br>
+
+It is known and recorded that Andrea Vazquez Garrido made a call and sent three text messages from inside the elevator cabin before reaching her destination on the fourth floor.<br><br>
+
+It is estimated, at the time the first message was sent, that the journey inside the cabin took approximately 5 hours and 26 minutes. It has been verified that, in a non-anomalous situation, the duration of this trip does not exceed 31 seconds.<br><br>
+
+Andrea Vazquez Garrido reached the fourth floor, and returned to the family home at approximately 23:47 hours, without the knowledge or memory of what she herself had related in her call and messages.<br><br>
+
+It is possible to request a digital copy of the original investigation report of this anomalous incident. [ref: <a href="http://scp-yerko-2.wdfiles.com/local--files/fragment%3Ascp-es-100-1/Page.jpg" target="_blank">incident 034.100.001/N3 - original report</a>]<br><br>
+
+<div align="right"><bodysmall>Written on 07/28/2007, 13:13:58 UTC by Agent Llaurado, <bodysmallred>a.llaurado@info.scp.net</bodysmallred></bodysmall></div>
+
+<center><img src="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/Barra%20de%20Separaci%C3%B3n%20Final.png"></center>
+
+<p><a href="http://scp-yerko-2.wdfiles.com/local--files/fragment%3Ascp-es-100-1/EN.jpg"target="_blank"><img src="http://scp-yerko-2.wdfiles.com/local--files/fragment%3Ascp-es-100-1/EN.jpg" class="right" style="width:350px;margin-left:15px;"></a><b>Post-Incident Summary:</b> In line with the standard operating procedure, a subsequent interview was conducted with Andrea Vazquez Garrido [PoI-034.6701/ES-100], as well as her family members and close acquaintances. These interviews turned out to be irrelevant for clarifying new information about the incident.</p>
+
+Due to the importance of the messages, the mobile phone devices of PoI-034.6701/ES-100 and its mother were requisitioned. The elevator cabin used by PoI-034.6701/ES-100 during Incident 034.100.001/N3 was disassembled, replaced, and moved to Site-34 facilities, where it is currently stored.<br><br>
+
+It should be noted that PoI-034.6701/ES-100 mobile phone device did not record any outgoing calls or messages.<br><br>
+
+Foundation assets made sure that the messages were not deleted by PoI-034.6701/ES-100 or another person either, but not their mother's mobile phone device, which received three text messages.<br><br>
+
+Please note that due to the psychological state of PoI-034.6701/ES-100 it has been impossible to know exactly whether other calls were made or messages sent in addition to those recorded during the course of Incident 034.100.001/N3.<br><br>
+
+The use of leteic amnesic treatment or discocitante among those involved was dismissed given the importance of their possible future testimonies; instead, the Department of Disinformation, Censorship and Rescission created an appropriate alibi to cover up the incident.<br><br>
+
+<div class="square"><b>Update - 10/11/2007:</b> At the request of the Project Manager in charge of SCP-ES-100 investigation, a secret DNA match was requested, which confirmed the identity of PoI-034.6701/ES-100.<br><br>
+
+A passive follow-up is currently being maintained on PoI-034.6701/ES-100 and her family members.</div><br>
+
+<div align="right"><bodysmall>Written on 07/28/2007, 13:16:24 UTC by Doctor Ashworth, <bodysmallred>j.ashworth@rsrch.scp.net</bodysmallred></bodysmall><br>
+<bodysmall>Last Updated [2] on 10/15/2007, 15:09:41 UTC by Doctor Ashworth, <bodysmallred>j.ashworth@rsrch.scp.net</bodysmallred></bodysmall></div>
+
+<center><img src="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/Barra%20de%20Separaci%C3%B3n%20Final.png"></center>
+
+<div class="squarered">
+  <center><img src="http://vignette2.wikia.nocookie.net/mlp/images/7/78/SCP_Foundation_Logo_white.png/revision/latest/scale-to-width-down/480?cb=20150517110821" style="width:100px;height:100px;"><strong><h2>WARNING!</h2></strong></center>
+
+<center><b>This is a message from the Counter-Memetics and Cognito Hazards Division.</b><br><br> 
+<hr><br>
+The following images have been purged for safe observation.<br><br>
+
+Although no severe cognitohazard has been associated with the following images, it is advisable to proceed with caution during their observation.</center></div>
+
+<br>
+
+<b>Text and Audio 034.100.02/N3 - Transcriptions:</b> The material presented below corresponds to communication attempts made by PoI-034.6701/ES-100 between 18:23 hours and 23:47 hours on 07/14/2007 during what was supposed to be PoI-034.6701/ES-100's journey to its destination floor inside a model 2800 elevator.<br><br><br>
+
+<div class="squareOpen">
+<b>Date:</b> 18:23, 07/14/2007<br><br>
+
+<b>Recipient:</b> Mother of PoI-034.6701/ES-100<br><br>
+
+<b>Type:</b> Text message<br><br>
+
+<hr><br>
+
+<div class="squaregrey"><robot>Mom!!! I think theres something wrong with the elevator at home. Can u go out and wait for me outside?!</robot></div><br><br><br>
+
+<center><button class="button2" onclick="myFunction3()">Image attached to the message</button></center><br>
+
+
+<div id="Collap3" style="display:none;">
+<center><a href="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/jonathan-simcoe-177914-unsplashFinal2-glitched-6-13-2018-10-11-53-PM.png"target="_blank"><img src="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/jonathan-simcoe-177914-unsplashFinal2-glitched-6-13-2018-10-11-53-PM.png"></a></center><br></div></div><br>
+
+<hr><br>
+
+<div class="squareOpen">
+<b>Date:</b> 18:49, 14/07/2007<br><br>
+
+<b>Recipient:</b> Mother of PoI-034.6701/ES-100<br><br>
+
+<b>Type:</b> Text message<br><br>
+
+<hr><br>
+
+<div class="squaregrey"><robot>Im getting coberage again. I'm really scared i think theres someone here the elevator number doesnt work well either. mom come noooooow!!!</div></robot><br><br><br>
+
+<center><button class="button2" onclick="myFunction4()">Image attached to the message</button></center><br>
+
+
+<div id="Collap4" style="display:none;">
+<center><a href="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/paul-volkmer-299704-unsplash-Final2-glitched-6-17-2018-12-38-30-AM.png"target="_blank"><img src="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/paul-volkmer-299704-unsplash-Final2-glitched-6-17-2018-12-38-30-AM.png"></a></center><br></div></div><br>
+
+<hr><br>
+
+<div class="squareOpen">
+<b>Date:</b> 20:08, 07/14/2007<br><br>
+
+<b>Recipient:</b> ████████ Online Maintenance and Troubleshooting Services<br><br>
+
+<b>Type:</b> Phone Call<br><br>
+
+<hr><br>
+
+<center><button class="button2" onclick="myFunction8()">Open Transcription</button></center><br>
+
+
+<div id="Collap8" style="display:none;">
+
+<div class="squaregrey">
+<b>< Beginning of the Call, 07/14/2007 - 20:08 ></b><br><br>
+
+<b>Operator:</b> Good afternoon. You have contacted the maintenance and breakdown service from the ████████ company. In order to help you, could you please tell me the serial number of your cabin first?<br><br>
+
+<b>Andrea:</b> Hello...? Hello! Can you hear me?<br><br>
+
+<b>Operator:</b> Yes, I can hear you.<br><br>
+
+<b>Andrea:</b> Thank you, my God... thank you. I need you to help me!<br><br>
+
+<b>Operator:</b> Please give me the serial number of your cabin.<br><br>
+
+<b>Andrea:</b> Number? I don't know what you're talking about... Don't you understand...? I need someone to come and help me right now! It's urgent.<br><br>
+
+<b>Operator:</b> I'm afraid if you don't give me the serial number, I won't be able to offer you assistan-<br><br>
+
+<b>Andrea:</b> Don't... don't hang up... Help me, please! Something's wrong with this elevator. You've got to get me out of here!<br><br>
+
+<b>Operator:</b> Are you referring to any type of breakdown? Are you locked inside the cabin?<br><br>
+
+<b>Andrea:</b> Yes, well... no, it's nothing like that... it's hard for me to explain... <i>(cry)</i> I know it sounds crazy but I'm absolutely sure that every time I get to my floor, it's not the same.<br><br>
+
+<b>Operator:</b> I'm sorry, I don't quite understand. What do you mean your floor isn't the same?<br><br>
+
+<b>Andrea:</b> At first it was like a feeling... that there was something wrong. God... I really don't know how to describe it... Every day I get on this elevator to my house on the fourth floor. Today I have also done it, but when I arrived... well, it wasn't the same... it wasn't the same as always. The walls were no longer the same, they were... they were bluer!<br><br>
+
+<b>Operator:</b> t's okay. You say that the color of your floor walls was different... <i>(sighs)</i> I need you to tell me now the serial number of your cab-<br><br>
+
+<b>Andrea:</b> Listen to me! I'm telling you it wasn't the same. It wasn't my house! I need you to believe me, please. I'm not crazy, really... <i>(cries) </i><br><br>
+
+<b>Operator:</b> Okay... Relax. Isn't it possible they just painted the walls of your floor while you weren't in the building?<br><br>
+
+<b>Andrea:</b> I'm sure they haven't, they've always had the same color... but they weren't just the walls... when I got out of the elevator there were other things, more differences. I didn't see them, but I did notice that they were there... Everything was very strange, I got scared and went back to the elevator. I just wanted to go back to the ground floor but when the doors opened it wasn't the same either, it had also changed. It's like a nightmare... You have to get me out of here, please! I don't want to end up in blue... I want to go home!<br><br>
+
+<b>Operator:</b> Have you made sure to correctly press the number of your target floor? You may have been confused due to-<br><br>
+
+<b>Andrea:</b> Are you even listening to me? I don't even think I'm in the same building anymore! Something must have happened to the elevator... I think it's the blue one, I'm sure. I've tried several times, but every time the doors open my floor is completely different. It's like... there's always a new shade of blue waiting for me. I need you to help me!<br><br>
+
+<b>Operator:</b> All right. Stay calm. In order to help you, you need to give me the serial number of your cabin. You can find it on th-<br><br>
+
+<b>Andrea:</b> God... are you listening to them? Not again...<br><br>
+
+<b>Operator:</b> I beg your pardon?<br><br>
+
+<b>Andrea:</b> The whispers, the voices... don't you hear them? They started again... <i>(cries)</i><br><br>
+
+<b>Operator:</b> No, I only hear you. As I was saying, you can find the serial number on-<br><br>
+
+<b>Andrea:</b> Shhhhh... One second, they're mumbling something... <i>(Quiet)</i><br><br>
+
+<b>Andrea:</b> You know? They think I can't hear them, but it's not true. I do, even though they whisper from the deepest blue... but I don't understand what they say, I'm not sure they use words... Do you think I should answer them? No, no, no.... <i>(cries)</i> I'm so afraid to do it...<br><br>
+
+<b>Operator:</b> I'm sorry. I don't know what you're talking abou-<br><br>
+
+<b>Andrea:</b> It's them... Don't you see? Why don't you listen to me? Why doesn't anyone listen to me...? Now I know it's always been them. They're looking at me but I don't want to see them. Nobody wants to see them... do you understand? I think they don't like me telling you this... they're watching me from the blue... since I got on the elevator, but maybe they did it a long time before. You have to get me out of here... Get me out of here, please!<br><br>
+
+<b>Operator:</b> I'll repeat it again... I need your cabin serial number now. I will not be able to continue to offer you assistance if you do not give it to me.<br><br>
+
+<b>Andrea:</b> No, please, don't make me do it... I know they're there. I'm afraid to turn around and see them looking at me behind the sp- <i>(interference)</i><br><br>
+
+<b>Operator:</b> Hello...? What's that sound? Are you still there? Hello?<br><br>
+
+<b>Operator:</b> Answer me. Are you still there? Hello...?<br><br>
+
+<b>Andrea:</b> <i>(interference)</i> … in the blue … <i>(interference)</i><br><br>
+
+<b>Operator:</b> Are you there? I can't hear you... Hello? Hello?<br><br>
+
+<b>< End of the Call, 20:13 ></b><br><br></div></div></div>
+
+<br><hr><br>
+
+<div class="squareOpen">
+<b>Date:</b> 22:10, 07/14/2007<br><br>
+
+<b>Recipient:</b> Mother of PdI-034.6701/ES-100<br><br>
+
+<b>Type:</b> Text message<br><br>
+
+<hr><br>
+
+<div class="squaregrey"><robot>Where are u, mom??!! everythings in the blue theyre in the blue. Am i in the blue??? why donty ou answer??!!!!!!</robot></div><br><br><br>
+
+
+<center><button class="button2" onclick="myFunction5()">Image attached to the message</button></center><br>
+
+
+<div id="Collap5" style="display:none;">
+<center><a href="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/jamison-riley-524424-unsplash-Final2%20%28ver3%29-glitched-6-17-2018-12-20-23-AM.png"target="_blank"><img src="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/jamison-riley-524424-unsplash-Final2%20%28ver3%29-glitched-6-17-2018-12-20-23-AM.png"></a></center><br></div></div><br>
+
+<hr><br>
+
+<div class="square"><b>Update - 10/04/2007:</b> On 10/03/2007 the requisitioned mobile phone device of the mother of PoI-034.6701/ES-100 received a new message of the number associated to PoI-034.6701/ES-100.<br><br>
+
+The verification of the requisitioned mobile phone device of PoI-034.6701/ES-100 showed that it had not made any new calls since its seizure..<br><br>
+
+<center><button class="button2" onclick="myFunction7()">Open Addendum</button></center><br>
+
+<div id="Collap7" style="display:none;">
+
+<div class="squareOpen">
+<b>Date:</b> 04:23, 09/03/2007<br><br>
+
+<b>Recipient:</b> Mother of PoI-034.6701/ES-100<br><br>
+
+<b>Type:</b> Text message<br><br>
+
+<hr><br>
+
+<div class="squaregrey"><robot>sAZ!23ioer?oU#r&eeeeeeeee L!!!qwqeqwqwqwqwqw</robot></div><br><br><br>
+
+<center><button class="button2" onclick="myFunction6()">Image attached to the message</button></center><br>
+
+
+<div id="Collap6" style="display:none;">
+<center><a href="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/charles-deluvio-456801-unsplash%20Final2.png"target="_blank"><img src="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/charles-deluvio-456801-unsplash%20Final2.png"></a></center><br></div></div></div></div><br>
+
+<div align="right"><bodysmall>Written on 07/28/2007, 13:44:06 UTC by Agent Llaurado, <bodysmallred>a.llaurado@info.scp.net</bodysmallred></bodysmall><br>
+<bodysmall>Last Updated [2] on 08/10/2007, 10:03:27 UTC by Doctor Ashworth, <bodysmallred>j.ashworth@rsrch.scp.net</bodysmallred></bodysmall></div>
+
+<center><img src="http://borradores-scp-es.wdfiles.com/local--files/concursoscpes100belasias-01/Barra%20de%20Separaci%C3%B3n%20Final.png"></center>
+
+<b>Addendum 034.100.047/N3 - Project Cancellation:</b> On 02/12/2010, Site-34's Management determined to finalize the agreed study protocol for SCP-ES-100, as well as the indefinite cancellation of its associated experimental trials.<br><br>
+
+Further information on the decision taken can be obtained by requesting the documentation associated with this opinion. [ref: <a href="http://scp-wiki.net/scp-es-100/offset/1" target="_blank">document 034.100.047/N3 - Project Cancellation: Reasons</a>]<br><br>
+
+<div align="right"><bodysmall>Written on 02/14/2010, 12:43:51 UTC by Doctor Hayman, <bodysmallred>r.hayman@ethc.scp.net</bodysmallred></bodysmall></div>
+
+
+<br><br><br>
+
+</div>
+</div>
+ 
+<script>
+function move() {
+  var elem = document.getElementById("myBar");
+  var width = 10;
+  var id = setInterval(frame, 25);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+      document.getElementById("label").innerHTML = width * 1  + '%';
+    }
+  }
+}
+function showDiv() {
+    setTimeout(showPage1, 3000);
+    setTimeout(showPage2, 4000);
+    setTimeout(showPage3, 4500);
+    setTimeout(showPage4, 5000);
+    setTimeout(showPage5, 5500);
+    setTimeout(showPage6, 6500);
+}
+ 
+ 
+function showPage1() {
+ document.getElementById("myDiv1").style.display = "block";
+}
+ 
+function showPage2() {
+ document.getElementById("myDiv2").style.display = "block";
+}
+ 
+function showPage3() {
+ document.getElementById("myDiv3").style.display = "block";
+}
+ 
+function showPage4() {
+ document.getElementById("myDiv4").style.display = "block";
+}
+ 
+function showPage5() {
+ document.getElementById("myDiv5").style.display = "block";
+}
+
+function showPage6() {
+ document.getElementById("myDiv6").style.display = "block";
+}
+
+function myFunction1() {
+    var x = document.getElementById("Collap1");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+function myFunction2() {
+    var x = document.getElementById("Collap2");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+} 
+
+function myFunction3() {
+    var x = document.getElementById("Collap3");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+} 
+
+function myFunction4() {
+    var x = document.getElementById("Collap4");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+} 
+
+function myFunction5() {
+    var x = document.getElementById("Collap5");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+} 
+
+function myFunction6() {
+    var x = document.getElementById("Collap6");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+function myFunction7() {
+    var x = document.getElementById("Collap7");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+function myFunction8() {
+    var x = document.getElementById("Collap8");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}   
+ 
+</script>
+</body>
+[[/html]]

@@ -1,0 +1,171 @@
+[[module css]]
+#page-title {display: none;}
+[[/module]]
+
+[[=]]
++ [[size 250%]]WARNING[[/size]]
+
++ YOU ARE ATTEMPTING TO ACCESS A CLASSIFIED FILE
+@@@@
+@@@@
+@@@@
+
+++ THE INFORMATION IN THIS FILE HAS BEEN CLASSIFIED AS:
++ [[size 200%]]LEVEL 4/ES-100[[/size]]
+@@@@
+IF THIS IS NOT YOUR CLEARANCE LEVEL, LEAVE THIS PAGE IMMEDIATELY.
+
+IF YOU DO NOT KNOW YOUR CURRENT CLEARANCE LEVEL OR BELIEVE YOU LACK THE PROPER CREDENTIALS, CONTACT SITE-34'S RECORDS AND INFORMATION SECURITY ADMINISTRATION (RAISA) BRANCH.
+
+------
+@@@@
+@@@@
++++ ENTER YOUR USER ID AND NUMERIC PASSWORD BELOW
+
+[[/=]]
+[[div style="background: url(http://borradores-scp-es.wikidot.com/protected:page/local--files/protected%3Apage/SCP%20Logo%2035.png) center center no-repeat ; float: center; background-size: 90%;"]]
+[[html]]
+<head>
+<link href='//fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+<style>
+body {
+  background: #456;
+  font-family: verdana;font-size: 12.8px;
+}
+
+robot {
+font-family: Aldrich;font-size: 12.8px;
+}
+
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.login-header {
+  background: #962407;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.myForm {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+.login input[type="fnumber"]:focus,
+.login input[type="fname"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #962407;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #721902;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+</style>
+
+<div class="login">
+  <br>
+  <h2 class="login-header"><img src="http://vignette2.wikia.nocookie.net/mlp/images/7/78/SCP_Foundation_Logo_white.png/revision/latest/scale-to-width-down/480?cb=20150517110821" style="width:125px;height:125px;">
+<br>
+ACCESS TERMINAL</h2>
+  
+
+  <form name="myForm" action="demo_form.asp"
+onsubmit="return validateForm()" method="post">
+    <p><input type="text" name="fnumber" placeholder="User ID"></p>
+    <p><input type="text" name="fname" placeholder="Six-Digit Password"></p>
+    <p><input type="submit" value="Login"></p>
+  </form>
+<br>
+<center><robot  id="demo"></robot></center>
+</div>
+
+<script>
+function validateForm() {
+    var x, text;
+    var y, text;
+
+    x = document.forms["myForm"]["fname"].value;
+    y = document.forms["myForm"]["fnumber"].value;
+    if (y == "j.ashworth" && x == "090707") {
+       window.open('http://scp-wiki.net/scp-es-100/offset/3');
+       return false;
+    } else if (y == "j.ashworth") {
+       document.getElementById("demo").innerHTML = "Password Hint<br><br> <i>The day of my little Émili</i>";
+       return false;
+    } else {
+       document.getElementById("demo").innerHTML = "Incorrect User ID or Password.";
+       return false;
+    }
+}
+</script>
+</head>
+<body>
+
+</body>
+[[/html]]
+
+[[html]]
+<link href='//fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+<style>
+body {
+font-family: Aldrich;font-size: 12.8px;
+</style>
+<center>Media requested through this terminal is considered classified and is bound by the SEK-24B confidentiality agreement you have signed. 
+<br>
+<br>
+ Any infringement will be subject to severe disciplinary action. 
+<br>
+<br>
+Any unauthorized access will be monitored and tracked.</center>
+<br>
+<br>
+<br>
+[[/html]]
+[[/div]]

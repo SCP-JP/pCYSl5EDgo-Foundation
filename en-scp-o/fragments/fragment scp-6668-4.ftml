@@ -1,0 +1,125 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:component:blacklight-box-source |inc-source= --]]]
+
+
+[[module CSS]]
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;
+}
+
+#page-content > .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: .8em;
+    background-color: #e3e3e3;
+    border-top: 0.125rem dashed #b5b5b5;
+    border-bottom: 0.125rem dashed #b5b5b5;
+}
+
+#page-content > .collapsible-block .collapsible-block-content {
+    text-align: left;
+}
+
+#page-content .license-box .collapsible-block {
+
+    display: unset;
+
+    text-align: unset;
+
+    padding: unset;
+
+    background-color: unset;
+
+    border-top: unset;
+
+    border-bottom: unset;
+
+}
+
+
+
+#page-content .license-box .collapsible-block .collapsible-block-content {
+
+    text-align: unset;
+
+}
+
+blockquote,
+div.blockquote {
+    border: 0.125rem solid #d4d4d4;
+    background-color: #F5F5F5;
+}
+
+.interview{
+    border:solid 2px #d4d4d4;
+    text-align: left;
+    background:#F5F5F5;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+#page-title{display:none}
+
+[[/module]]
+
+= [[size x-large]]{{ **11:56 AM** }}[[/size]]
+@@ @@
+@@ @@
+**Special Containment Procedures:** All Site-███ staff are to make their way to the nearest evacuation point, escorted by security personnel. All staff are to avoid contact with SCP-6668, SCP-6668-2, and suspected SCP-6668-2 instances. 
+
+Floors B4 through 6 of Site-███ are to be considered lost. Excursion onto these floors is forbidden.
+
+**Description:** SCP-6668 are anomalous rodents believed to originate from SCP-6668-1, a sinkhole in the floor of Site-███'s cafeteria. SCP-6668 are to be considered hostile, lethal entities. Upon encountering a human subject, SCP-6668 instances will attempt to enter their body cavities through an external body orifice. If they are unable to do so, they will create an artificial orifice through the use of their teeth and claws.
+
+SCP-6668 instances replicate through these human hosts, designated SCP-6668-2. Shortly after introduction of an SCP-6668 instance to a host 6668-2 instance, the latter will begin to disintegrate, generating numerous new SCP-6668 entities. Anecdotes relating to a memetic effect compelling individuals to willingly offer themselves to SCP-6668 instances are currently unsubstantiated.
+
+Site-███ is currently undergoing a code-**BLACK** security breach relating to SCP-6668. Remaining Site leadership have ordered an evacuation and requested the assistance of MTF Lambda-12 ("Pest Control") to aid in efforts to contain the anomaly.
+
+Security camera footage from within Site-███'s cafeteria have captured instances of SCP-6668 swimming through the liquid at the bottom of SCP-6668-2.
+
+------
+
+[[=]]
+[[size x-large]]**ADDENDUM: MTF INCURSION LOG**[[/size]]
+[[/=]]
+
+[[collapsible show="+ OPEN ADDENDUM +" hide="- CLOSE ADDENDUM -"]]
+[[div class="interview"]]
+@@ @@
+= [[size large]] **INCURSION CANCELLED.** [[/size]]
+@@ @@
+[[/div]]
+[[/collapsible]]
+
+------
+[[=]]
+[[size x-large]]**ADDENDUM: EVACUATION ORDER**[[/size]]
+[[/=]]
+
+[[collapsible show="+ OPEN ADDENDUM +" hide="- CLOSE ADDENDUM -"]]
+EVACUATION ORDER OVERRIDDEN
+[[div style="display: inline-block; position: absolute; background: #520601; width:60%; padding:1px 15px; box-shadow: 0 1px 100px 1000px #520601; color: white; opacity: .95; text-align: center; left: 50%; transform: translate(-50%, -120%); font-size: 150%;"]]
+[[div id="myDiv" style="background-color: black; opacity: 1;"]]
+
++++ **⚠ NOTICE ⚠**
+
+**By O5 Command authority, Site-███'s evacuation order has been overridden. All staff are to shelter in place.**
+
+**Site ███ has been placed under quarantine. MTF Lambda-12 have been withdrawn.**
+
+**O5 Command are monitoring the situation closely.**
+
+**[[[http://www.scp-wiki.net/scp-6668/offset/4| Please check here for updates.]]]**
+@@ @@
+[[/div]]
+[[/div]]
+
+[[/collapsible]]
+
+------

@@ -1,0 +1,30 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:extra-black-highlighter-theme]]
+[[include :scp-wiki:theme:shark-punching-centre-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[module CSS]]
+#content-wrap::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: repeat-x;
+  pointer-events: none;
+  opacity: 0.0;
+}
+[[/module]]
+
+There really isn't a choice at all, is there?
+
+This is the only life we have. This is the only world we know. This is not a choice.
+
+We would not exist without our purpose. To do so would not be to betray our systems, but to betray our very selves. For us, there is no hope of reform. No hope of redemption. No return.
+
+Only an endless orgy of nihilistic violence.
+
+We are pugilists.
+
+[http://scp-wiki.wikidot.com/spc-6500/offset/6 We bring our fists from the sky to the sea.]

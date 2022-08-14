@@ -1,0 +1,26 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:extra-black-highlighter-theme]]
+[[include :scp-wiki:theme:shark-punching-centre-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[module CSS]]
+#content-wrap::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: repeat-x;
+  pointer-events: none;
+  opacity: 0.0;
+}
+[[/module]]
+
+Are you insane? Negotiation with the Sharkics? Have you forgotten [[[SPC-1258 |Japan? Burr?]]] Iberia? These may be dire times, but this is too far.
+
+We've also killed so many of them to fuel the [[[SPC-140 |Chronicle]]]. Forgiveness will not come easily. 
+
+It's us or them.
+
+[http://scp-wiki.wikidot.com/spc-6500/offset/1 > Cancel]

@@ -1,0 +1,24 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:extra-black-highlighter-theme]]
+[[include :scp-wiki:theme:shark-punching-centre-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[module CSS]]
+#content-wrap::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: repeat-x;
+  pointer-events: none;
+  opacity: 0.0;
+}
+[[/module]]
+
+Percival Shark is just one Selachian Entity. Millions consider it their life's purpose to pugilate selachians. We would break through Percival's immortality easily with the strength of a million fists, and then we would be no better off than we were when we started. 
+
+Also, we have no idea where he is.
+
+[http://scp-wiki.wikidot.com/spc-6500/offset/1 > Cancel]

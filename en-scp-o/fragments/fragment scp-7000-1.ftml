@@ -1,0 +1,79 @@
+[[include :scp-wiki:theme:simple-yonder]]
+
+[[include :scp-wiki:component:image-features-source |hover-enlarge=--]
+|enlarge-amount=6
+|speed=200 
+|float=true
+|align=left
+|width=300px
+|url=http://scp-wiki.wikidot.com/local--files/fragment:scp-7000-1/Ian%20Dice.jpg
+|add-caption=true
+|caption=A 20-sided die or D20]]
+
+[[html]]
+<html>
+<head>
+    <title>Dice Simulator 2015</title>
+    <link rel="stylesheet" h* {
+  font-family: Helvetica;
+  text-align: center;
+}
+button {
+  background-color: rgb(82, 186, 179);
+  border-radius: 6px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-transform: uppercase;
+  width: 200px;
+  cursor: pointer;
+}
+#placeholder {
+  height: 100px;
+  width: 100px;
+  padding: 50px;
+  margin: 50px auto;
+  border: 1px solid gray;
+  border-radius: 10px;  
+  font-size:80px;
+}ref="style.css">
+</head>  
+<body>
+  <p id="placeholder">
+  
+  </p>
+  <button id="button">Roll Dice</button>
+  <script>
+var dice = {
+  sides: 20,
+  roll: function () {
+    var randomNumber = Math.floor(Math.random() * this.sides) + 1;
+    return randomNumber;
+  }
+};
+
+//Prints dice roll to the page
+
+function printNumber(number) {
+  var placeholder = document.getElementById("placeholder");
+  placeholder.innerHTML = number;
+}
+
+var button = document.getElementById("button");
+
+button.onclick = function () {
+  var result = dice.roll();
+  printNumber(result);
+};
+</script>
+</body>
+</html>
+[[/html]]
+
+[[div style="margin:0; width:250px;"]]
+|| [[[fragment:scp-7000-2 |1]]] || [[[fragment:scp-7000-3 |2]]] || [[[fragment:scp-7000-3 |3]]] || [[[fragment:scp-7000-3 |4]]] ||
+|| [[[fragment:scp-7000-3 |5]]] || [[[fragment:scp-7000-4 |6]]] || [[[fragment:scp-7000-4 |7]]] || [[[fragment:scp-7000-4 |8]]] ||
+|| [[[fragment:scp-7000-4 |9]]] || [[[fragment:scp-7000-5 |10]]] || [[[fragment:scp-7000-5 |11]]] || [[[fragment:scp-7000-5 |12]]] ||
+|| [[[fragment:scp-7000-5 |13]]] || [[[fragment:scp-7000-6 |14]]] || [[[fragment:scp-7000-6 |15]]] || [[[fragment:scp-7000-2 |16]]] ||
+|| [[[fragment:scp-7000-7 |17]]] || [[[fragment:scp-7000-7 |18]]] || [[[fragment:scp-7000-7 |19]]] || [[[fragment:scp-7000-8 |20]]] ||
+[[/div]]
