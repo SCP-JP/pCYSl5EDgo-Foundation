@@ -1,0 +1,72 @@
+[[>]]
+[[include theme:black-highlighter-theme]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+
+[[/>]]
+
+[[module CSS]]
+.raisa_memo {
+    background: url(https://scp-wiki.wikidot.com/local--files/theme:basalt/RAISA_LIGHTLOGO.png) #fff3ad;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    min-height: 4rem;
+    max-height: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    word-break: break-word;
+}
+.raisa_memo>p:nth-child(1)::before {
+    content: "NOTICE FROM THE RECORDS AND INFORMATION SECURITY ADMINISTRATION\00000a";
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    font-size: 130%;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
+    border-bottom: dotted 0.13rem darkslategrey;
+    max-width: 49rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+.papernote {
+    background-color: #eaeeef;
+    color: #21252E !important;
+    padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+    box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 30%);
+    margin: auto;
+    width: 100%;
+}
+[[/module]]
+
+@@ @@
+[[div class="raisa_memo"]]
+[[size large]]
+**RAISA- Records And Information Security Administration:**
+
+The original version of this file was initially elaborated by Agent Ramírez.
+The file has been revised and updated by the Paratech Division of Site-63.
+
+Access to the original file is unrestricted under Level 1 security clearance.
+Access to the updated version is only for staff with Level 3 security clearance.
+
+[[/size]]
+[[/div]]
+
+@@ @@
+
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[>]]
+[[[https://scp-wiki.wikidot.com/scp-6038/offset/1 |First iteration (Level 1) --->]]]
+[[/>]]
+[[/div]]

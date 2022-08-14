@@ -1,0 +1,109 @@
+[[>]]
+[[include theme:black-highlighter-theme]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+
+[[/>]]
+
+[[module CSS]]
+.raisa_memo {
+    background: url(https://scp-wiki.wikidot.com/local--files/theme:basalt/RAISA_LIGHTLOGO.png) #fff3ad;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    min-height: 4rem;
+    max-height: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    word-break: break-word;
+}
+.raisa_memo>p:nth-child(1)::before {
+    content: "NOTICE FROM THE RECORDS AND INFORMATION SECURITY ADMINISTRATION\00000a";
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    font-size: 130%;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
+    border-bottom: dotted 0.13rem darkslategrey;
+    max-width: 49rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+.papernote {
+    background-color: #eaeeef;
+    color: #21252E !important;
+    padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+    box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 30%);
+    margin: auto;
+    width: 100%;
+}
+[[/module]]
+
+[[div class="papernote"]]
+----
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= SCP-6038
+|clearance= 4
+|container-class= pending
+|secondary-class= none
+|secondary-icon= none
+|disruption-class= none
+|risk-class= none
+]]
+----
++++ __**Special Containment Procedures:**__
+
+[PENDING]
+
++++ __**Description:**__
+
+[[include component:image-block | name=aerial| caption=Satellite photograph of the area affected by SCP-6038| width=50px]]
+
+SCP-6038 refers to an ongoing phenomenon affecting rural villages in the southern region of [REDACTED], Central America. No eyewitness accounts of the events are available, since every case has involved the complete termination of the local inhabitants. Preliminary forensic evaluation of human remains after an SCP-6038 incident indicates extreme violence consistent with the use of both premodern bladed and edged weapons, as well as blunt trauma. Severity of the damage to both human remains and property suggests the physical strength of the perpetrators vastly exceeds that of the average human. 
+
+Three SCP-6038 incidents have been documented so far. They occurred sequentially in a lapse of 5 days, between 2:00 AM and 3:00 AM. Forensic reconstruction suggests attackers emerged from the ground and started rounding the population. Footprints recovered from the scene indicate the attackers are likely humanoid and weigh around 200 kilograms. Height estimates are about 2 meters tall. Each set of footprints originates from a different crater in the ground within a 50-meter radius from the town. There are no signs of tunnels or another type of digging, suggesting the entities manifested in those locations. The initial location of the humanoid entities is consistent with a tactical positioning intended to cut the escape routes for the inhabitants of the affected towns. In one incident, villagers had access to firearms and used them to defend themselves; evidence suggests it was ineffective in stopping the attack. After the termination of all inhabitants in the town, there is no evidence of further activity on the part of SCP-6038. It is unclear how SCP-6038 left the incident's area. At the time the aftermath of SCP-6038 was discovered, there was no trace of it aside from footprints and very small traces of fine dust from an ivory-like substance.
+
+**Discovery Log:**
+
+A bus driver arrived at the locality of San Jacinto, [REDACTED]. The individual presented signs of acute psychological disturbance and attempted to contact local authorities, claiming that a "matanza" had occurred in a nearby village. Local police dismissed the man as disturbed and argued that incidents in "guerrilla territory" felt outside of their jurisdiction. However, they still elaborated a report on the bus driver's declaration. 
+
+A few days later, the report caught the attention of Agent Ramírez, a local SCP Foundation operative, and liaison with local authorities. The peculiarities of the reported events prompted Agent Ramírez to travel to the location, where he confirmed the bus driver's testimony. Agent Ramírez's evaluation of the site pointed to anomalous involvement in the incident. In the following days, Agent Ramírez discovered two other settlements affected by SCP-6038. The three affected towns were suspected by local authorities to be support bases for the insurgent group known as "Las Víboras". Nearby towns not affiliated with that group have not been affected.  Based on this hypothesis, Agent Ramírez identified the most probable site for SCP-6038's manifestation and requested MTF intervention.
+
+**Addendum - Transmission Log:**
+
+> **Identified:** Agent Ramírez
+> 
+> **Identified:** Dr. Guevara
+> 
+> **Foreword:** After the discovery of SCP-6038, Agent Ramírez began urgent communication with Dr. Guevara, their immediate superior.
+> 
+> **<Begin Log>**
+> 
+> **Dr. Guevara:** All you have presented so far is circumstantial evidence. Unfortunately, we still lack sufficient information to confirm the presence of anomalous activity on your site. I'm afraid I can not approve the deployment of an MTF at this moment.
+> 
+> **Agent Ramírez:** The last time I called you it was one town. Now there are two more! All dead because we don't have "enough information". Do you know what I think? I think that in the States we send "Hammer Down" every time someone gives us a dirty look. And here I have almost 100 corpses and can't get even a single squad!
+> 
+> **Dr. Guevara:** Careful with your words, kid. Remember your career is on the line. How do you think it will look if I deploy an MTF at your request and it ends up being nothing?
+> 
+> **Agent Ramírez:** No worse than if you don't and it ends up being something. Look, Doctor, if you are right and I'm wrong you can laugh at me and relocate my ass to Svalbard. I will take full responsibility for the fiasco. But if I'm right and you are wrong, I will make sure you take full responsibility for every single one of the dead. Am I being clear enough?
+>  
+> **<End Log>**
+>  
+> **Closing Statement:** At Agent Ramírez's request, MTF Tau-52 "Rumble in the Jungle", specialized in containment and engagement in tropical environments, has been urgently dispatched to the area.
+[[/div]]
+
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[>]]
+[[[https://scp-wiki.wikidot.com/scp-6038/offset/2 |Next iteration (Level 3) --->]]]
+[[/>]]
+[[/div]]

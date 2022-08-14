@@ -1,0 +1,2591 @@
+[[include theme:black-highlighter-theme]]
+[[include theme:the-foundation-theme]]
+
+[[module css]]
+:root {
+    --rating-module-text-color: var(--swatch-menutxt-light-color);
+    --rating-module-button-color:  var(--swatch-menutxt-light-color);
+}
+
+#page-content > div:nth-child(1) {
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.page-rate-widget-box {
+    margin: 0;
+    background:
+     linear-gradient(0deg,
+     rgba(var(--swatch-primary-darkest),.55) 0,
+     rgba(var(--swatch-primary-darkest),.45)) !important;
+}
+[[/module]]
+
+[[module css]]
+@import url("https://use.typekit.net/put0nby.css");
+
+.warning-container iframe {
+    min-height: 9.375rem;
+}
+
+.page-title {
+    --wght: 900;
+    margin-top: 1rem;
+    min-height: 4rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: -webkit-calc(100% - 1em - 0.5rem);
+    width: -moz-calc(100% - 1em - 0.5rem);
+    width: calc(100% - 1em - 0.5rem);
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: initial;
+    font-size: 3em;
+    line-height: 1;
+    text-align: center;
+    color: rgb(var(--white-monochrome));
+    background-color: rgb(var(--swatch-primary));
+    padding: 0.5em;
+    border: 0.25rem solid rgb(var(--white-monochrome));
+    position: relative;
+    z-index: 1;
+    font-family: var(--title-font);
+    font-weight: 900;
+}
+
+.page-title::before {
+    content: " ";
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(https://nu-scptheme.github.io/Black-Highlighter/img/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-color: rgb(var(--swatch-primary));
+    z-index: -1;
+    opacity: 0.25;
+}
+
+.warning-container,
+.warning-container * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    		box-sizing: border-box;
+}
+
+.warning-container {
+    --wght: 900;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(var(--dark-gray-monochrome));
+    color: rgb(var(--swatch-text-light));
+    font-weight: 900;
+    border: 0.5em solid rgb(var(--swatch-primary-darkest));
+}
+
+.warning-container .warning-top {
+    font-size: 200%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: var(--title-font);
+    background-color: rgb(var(--swatch-primary));
+    background-image: url("https://scp-wiki.wikidot.com/local--files/theme:the-foundation-theme/foundation-circles-bg.png");
+    -webkit-background-size: 50% 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+.warning-container .warning-body {
+    --wght: 300;
+    font-weight: 300;
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 1.5;
+    font-size: 115%;
+    font-family: var(--mono-font);
+    background-color: rgb(var(--swatch-primary-darkest),0.25);
+}
+
+.warning-container .warning-body,
+.warning-container .warning-body * {
+    font-variation-settings: 
+    	"wght" var(--mono-wght), 
+    	"slnt" var(--slnt), 
+    	"CASL" var(--CASL), 
+    	"CRSV" var(--CRSV), 
+    	"MONO" var(--MONO);
+}
+
+.collapsible-block {
+    width: 100%;
+}
+
+.collapsible-block-folded > a,
+.collapsible-block-unfolded-link > a {
+    --wght: 900;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: rgb(var(--white-monochrome));
+    font-weight: 900;
+    font-size: 1.25em;
+    background: rgb(var(--gray-monochrome));
+    -webkit-border-bottom-left-radius: 0.5em;
+    -moz-border-radius-bottomleft: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    -webkit-border-bottom-right-radius: 0.5em;
+    -moz-border-radius-bottomright: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+table.wiki-content-table {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table.wiki-content-table,
+table.wiki-content-table * {
+    border-color: rgb(var(--black-monochrome)) !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+table.wiki-content-table tr:last-of-type {
+    --wght: 700;
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -moz-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin: 0;
+    font-weight: 700;
+}
+
+table.wiki-content-table td {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+    -moz-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    background-color: rgb(var(--swatch-primary-darkest));
+    color: rgb(var(--white-monochrome));
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+
+table.wiki-content-table td * {
+    width: 100%;
+}
+
+table.wiki-content-table td span:nth-of-type(even) {
+    font-family: var(--mono-font);
+    font-size: 0.75em;
+}
+
+table.wiki-content-table td span:nth-of-type(even),
+table.wiki-content-table td span:nth-of-type(even) * {
+    font-variation-settings: 
+    	"wght" var(--mono-wght), 
+    	"slnt" var(--slnt), 
+    	"CASL" var(--CASL), 
+    	"CRSV" var(--CRSV), 
+    	"MONO" var(--MONO);
+}
+
+/* Doc 3 GoI Entry */
+
+div.database_container,
+div.database_container * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+div.database_container {
+    width: 100%;
+    background-color: rgb(var(--swatch-primary-darkest));
+    color: rgb(var(--white-monochrome));
+    position: relative;
+}
+
+div.database_main {
+    background-color: rgb(var(--black-monochrome), 0.5);
+    margin: 1rem;
+    padding: 1rem;
+    display: -ms-grid;
+    display: grid;
+    	grid-template-areas:
+    	"title"
+    	"top"
+    	"main";
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    position: relative;
+    left: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+div.database_main .cell[data-label] {
+    padding: 2.55em 0.5em 0.5em 0.5em;
+    border: 0.0625rem #CCCCCC solid;
+    border: 0.0625rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+}
+
+div.database_main .cell[data-label]::before {
+    --wght: 900;
+    content: attr(data-label) "\A";
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    /* label + newline */
+    white-space: normal;
+    /* makes newline work */
+    font-family: var(--mono-font);
+    font-variation-settings: 
+    	"wght" var(--mono-wght), 
+    	"slnt" var(--slnt), 
+    	"CASL" var(--CASL), 
+    	"CRSV" var(--CRSV), 
+    	"MONO" var(--MONO);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: -webkit-calc(100% - 0.7em);
+    width: -moz-calc(100% - 0.7em);
+    width: calc(100% - 0.7em);
+    position: absolute;
+    margin-bottom: 1em;
+    top: 0;
+    left: 0;
+    background: #aaa;
+    background: rgb(var(--swatch-primary-darkest));
+    color: #fcfcfc;
+    color: rgb(var(--swatch-menutxt-light-color));
+    padding-left: 0.7em;
+    padding-top: 0.35em;
+    padding-bottom: 0.3em;
+    font-weight: 900;
+}
+
+div.database_main > .database_title {
+    --wght: 900;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: title;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: var(--header-font);
+    letter-spacing: 0.025em;
+    background: rgb(var(--swatch-primary-darkest));
+    -webkit-border-top-right-radius: 0.5rem;
+    -moz-border-radius-topright: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    -webkit-border-top-left-radius: 0.5rem;
+    -moz-border-radius-topleft: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    color: rgb(var(--white-monochrome));
+    border-bottom: 0.5rem double;
+    margin-top: 0.5rem;
+}
+
+div.database_main > .database_table.top {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: top;
+    display: -ms-grid;
+    display: grid;
+    	grid-template-areas:
+    	"group-name group-name"
+    	"aliases logotype"
+    	"leadership logotype";
+    -ms-grid-columns: -webkit-calc(100% / 3) -webkit-calc((100% / 3) * 2);
+    -ms-grid-columns: -moz-calc(100% / 3) -moz-calc((100% / 3) * 2);
+    -ms-grid-columns: calc(100% / 3) calc((100% / 3) * 2);
+    grid-template-columns: -webkit-calc(100% / 3) -webkit-calc((100% / 3) * 2);
+    grid-template-columns: -moz-calc(100% / 3) -moz-calc((100% / 3) * 2);
+    grid-template-columns: calc(100% / 3) calc((100% / 3) * 2);
+    padding: 1rem;
+    background-color: rgba(var(--black-monochrome));
+}
+
+
+div.database_main > .database_table.top > .cell:nth-of-type(1) {
+    --wght: 900;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: group-name;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2.3rem 0.5rem 0.5rem 0.5rem;
+    font-weight: 900;
+}
+
+div.database_main > .database_table.top > .cell:nth-of-type(1)::before {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.35rem 0.7rem 0.3rem;
+    width: -webkit-calc(100% - 1.4rem);
+    width: -moz-calc(100% - 1.4rem);
+    width: calc(100% - 1.4rem);
+}
+
+div.database_main > .database_table.top > .cell:nth-of-type(2) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: aliases;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / span 1;
+}
+
+div.database_main > .database_table.top > .cell:nth-of-type(3) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: leadership;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / span 1;
+}
+
+div.database_main > .database_table.top > .hansarp_logo {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    height: 3rem;
+    grid-area: logotype;
+    display: -ms-grid;
+    display: grid;
+    	grid-template-areas:
+    	"image caption"
+    	"image caption";
+    -ms-grid-column: 2;
+    grid-column: 2;
+    height: 100%;
+    width: auto;
+    margin-left: 2rem;
+}
+
+div.database_main > .database_table.top > .hansarp_logo > .cell:first-of-type {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    grid-area: image;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 9rem;
+    height: 9rem;
+    justify-self: end;
+    border: 0.5rem double rgba(var(--white-monochrome));
+}
+
+div.database_main > .database_table.top > .hansarp_logo > .cell:first-of-type > img {
+    background-color: rgba(var(--white-monochrome), 0.85);
+    padding: 0.5em;
+}
+
+div.database_main > .database_table.top > .hansarp_logo > .cell:last-of-type {
+    --wght: 900;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-area: caption;
+    height: 5rem;
+    justify-self: start;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    padding: 1em 1em 1em 4em;
+    margin-left: -3em;
+    background-color: rgb(var(--swatch-primary-darkest));
+    font-family: var(--mono-font);
+    font-size: 1rem;
+    font-weight: 900;
+    hyphens: none;
+}
+
+div.database_main > .database_table.top > .hansarp_logo > .cell:last-of-type,
+div.database_main > .database_table.top > .hansarp_logo > .cell:last-of-type * {
+    font-variation-settings: 
+    	"wght" var(--mono-wght), 
+    	"slnt" var(--slnt), 
+    	"CASL" var(--CASL), 
+    	"CRSV" var(--CRSV), 
+    	"MONO" var(--MONO);
+}
+
+div.database_main > .database_table.main {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: main;
+    display: -ms-grid;
+    display: grid;
+}
+
+div.database_main > .database_table.main > .locations {
+    display: -ms-grid;
+    display: grid;
+    	grid-template-areas:
+    	"primary addtl limited";
+    -ms-grid-columns: 40% 40% 20%;
+    grid-template-columns: 40% 40% 20%;
+    margin-top: 1rem;
+}
+
+div.database_main > .database_table.main > .locations > .cell {
+    position: relative;
+}
+
+div.database_main > .database_table.main > .locations > .cell::before {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.35rem 0.7rem 0.3rem;
+    width: -webkit-calc(100% - 1.4rem);
+    width: -moz-calc(100% - 1.4rem);
+    width: calc(100% - 1.4rem);
+    text-align: center;
+}
+
+div.database_main > .database_table.main > .locations > .cell:nth-of-type(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: primary;
+}
+
+div.database_main > .database_table.main > .locations > .cell:nth-of-type(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: addtl;
+}
+
+div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: limited;
+}
+
+div.database_main > .database_table.main > .locations > .cell > ul {
+    list-style: none;
+    list-style-position: outside;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 1.5rem 0 0 0;
+    padding: 0;
+}
+
+div.database_main > .database_table.main > .locations > .cell > ul > li {
+    width: 100%;
+    padding: 0.25rem 0 0.25rem 0.25rem;
+}
+
+div.database_main > .database_table.main > .locations > .cell > ul > li:not(:first-of-type) {
+    border-top: 0.125rem dashed rgba(var(--swatch-primary))
+}
+
+div.database_main .main_content {
+    margin-top: 1rem;
+    background-color: rgba(var(--swatch-primary), 0.15);
+}
+
+div.database_main .main_content .cell::before {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.35rem 0.7rem 0.3rem;
+    width: -webkit-calc(100% - 1.4rem);
+    width: -moz-calc(100% - 1.4rem);
+    width: calc(100% - 1.4rem);
+    text-align: center;
+}
+
+div.database_main .main_content .cell div {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    padding: 0 2em;
+}
+
+/* Doc 4 Artifacts */
+
+div.collapsible-block:nth-child(5) > div:nth-child(2) > div:nth-child(2) > p:nth-child(1) {
+    margin: 0;
+}
+
+.responsive_table {
+    background-color: rgba(var(--swatch-primary-darkest));
+    padding: 1rem;
+}
+
+.responsive_table br {
+    display: none;
+}
+
+.responsive_table .table_data,
+.responsive_table .table_header_data {
+    vertical-align: top;
+    text-align: left;
+    margin: -0.0625rem 0 0 -0.0625rem;
+    position: relative;
+}
+
+.responsive_table .table_row {
+    display: -ms-grid;
+    display: grid;
+    	grid-template-areas:
+    	"ID  Title Title Title "
+    	"Date Subject Subject Subject "
+    	"Location Subject Subject Subject "
+    	"Current Current Current Current ";
+    -ms-grid-columns: 25% 75%;
+    grid-template-columns: 25% 75%;
+    padding: 0.375em;
+    border: 0.0625rem #CCCCCC solid;
+    border: 0.0625rem rgb(var(--swatch-border-color)) solid;
+    margin-bottom: 1.250em;
+    position: relative;
+    background-color: rgba(var(--black-monochrome),0.5);
+}
+
+.responsive_table .table_data {
+    padding: 1.95em 0.5em 0.5em 0.5em;
+    border: 0.0625rem #CCCCCC solid;
+    border: 0.0625rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+    background-color: rgb(var(--white-monochrome));
+}
+
+.responsive_table .table_row div:nth-of-type(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: ID;
+}
+
+.responsive_table .table_row div:nth-of-type(4) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: Location;
+}
+
+.responsive_table .table_row div:nth-of-type(2) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: Date;
+}
+
+.responsive_table .table_row div:nth-of-type(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-area: Title;
+}
+
+.responsive_table .table_row div:nth-of-type(5) {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-area: Subject;
+}
+
+.responsive_table .table_row div:nth-of-type(6) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-area: Current;
+}
+
+/* Add labels */
+.responsive_table .table_data::before {
+    --wght: 700;
+    content: attr(data-label) "\A";
+    /* label + newline */
+    white-space: pre;
+    /* makes newline work */
+    font-size: 0.750em;
+    text-transform: uppercase;
+    width: -webkit-calc(100% - 0.7em);
+    width: -moz-calc(100% - 0.7em);
+    width: calc(100% - 0.7em);
+    height: 1.35em;
+    position: absolute;
+    margin-bottom: 1em;
+    top: 0;
+    left: 0;
+    background: #aaa;
+    background: rgb(var(--swatch-primary-darkest));
+    color: #fcfcfc;
+    color: rgb(var(--swatch-menutxt-light-color));
+    padding-left: 0.7em;
+    padding-top: 0.35em;
+    padding-bottom: 0.7em;
+    font-weight: 700;
+}
+
+
+/* Doc 5 Interview */
+
+:root {
+    --jates-color: 34, 31, 71;
+    --harmon-color: 142, 101, 61;
+    --fitzwell-color: 31, 71, 56;
+}
+
+.interview-foreword {
+    --wght: 600;
+    margin: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.25;
+    padding: 0.5rem;
+    background: rgba(var(--gray-monochrome), 0.15);
+    font-weight: 600;
+    font-family: var(--mono-font);
+}
+
+.interview-foreword,
+.interview-foreword * {
+    font-variation-settings: 
+    	"wght" var(--mono-wght), 
+    	"slnt" var(--slnt), 
+    	"CASL" var(--CASL), 
+    	"CRSV" var(--CRSV), 
+    	"MONO" var(--MONO);
+}
+
+.interview-container {
+    background-color: rgba(var(--gray-monochrome), 0.5);
+    padding: 1rem;
+}
+
+.interview-container > .on-call {
+    background-color: rgb(var(--very-light-gray-monochrome), 1);
+    padding: 1rem 0.5em 0em 0.5em;
+    border: 0.0625rem #CCCCCC solid;
+    border: 0.0625rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+}
+
+.interview-container > .on-call::before {
+    --wght: 900;
+    content: " ";
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    /* label + newline */
+    white-space: normal;
+    /* makes newline work */
+    font-family: var(--title-font);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+    	-ms-flex-align: center;
+    		align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+    	-ms-flex-pack: center;
+    		justify-content: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 1em;
+    top: 0;
+    left: 0;
+    background: #aaa;
+    background: rgb(var(--swatch-primary-darkest));
+    color: #fcfcfc;
+    color: rgb(var(--swatch-menutxt-light-color));
+    padding-top: 0.35em;
+    padding-bottom: 0.3em;
+    font-weight: 900;
+    font-size: 1.25em;
+}
+
+.interview-container > .on-call::before {
+    content: "On-Call"
+}
+
+.interview-container > .on-call > ul {
+    padding: 0.25rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: -webkit-calc(100% /3) -webkit-calc(100% /3) -webkit-calc(100% /3);
+    -ms-grid-columns: -moz-calc(100% /3) -moz-calc(100% /3) -moz-calc(100% /3);
+    -ms-grid-columns: calc(100% /3) calc(100% /3) calc(100% /3);
+    grid-template-columns: -webkit-calc(100% /3) -webkit-calc(100% /3) -webkit-calc(100% /3);
+    grid-template-columns: -moz-calc(100% /3) -moz-calc(100% /3) -moz-calc(100% /3);
+    grid-template-columns: calc(100% /3) calc(100% /3) calc(100% /3);
+    list-style: none;
+}
+
+.interview-container > .on-call > ul > li {
+    	grid-template-areas:
+    	"name"
+    	"title";
+    padding: 0 1em;
+    text-align: center;
+    position: relative;
+}
+
+.interview-container > .on-call > ul > li > span.doctor_name {
+    --wght: 900;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    grid-area: "name";
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+    	-ms-flex-pack: center;
+    		justify-content: center;
+    font-weight: 900;
+    color: #fcfcfc;
+    color: rgb(var(--swatch-menutxt-light-color));
+    margin-top: 1em;
+    padding: 0.5em 0;
+    font-family: var(--title-font);
+}
+
+.interview-container > .on-call > ul > li:nth-of-type(1) > span.doctor_name {
+    background-color: rgba(var(--jates-color));
+}
+
+.interview-container > .on-call > ul > li:nth-of-type(2) > span.doctor_name {
+    background-color: rgba(var(--harmon-color));
+}
+
+.interview-container > .on-call > ul > li:nth-of-type(3) > span.doctor_name {
+    background-color: rgba(var(--fitzwell-color));
+}
+
+.interview-container > .on-call > ul > li > span.doctor_title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    grid-area: "title";
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+    	-ms-flex-pack: center;
+    		justify-content: center;
+    line-height: 1.2;
+    margin-top: 0.5em;
+    font-size: 1.1em;
+    font-family: var(--title-font);
+}
+
+.interview-container > .interview-main {
+    background-color: rgb(var(--very-light-gray-monochrome), 1);
+    padding: 1rem 0.5em 0em 0.5em;
+    margin-top: 1rem;
+    border: 0.0625rem #CCCCCC solid;
+    border: 0.0625rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+}
+
+.interview-container > .interview-main > br {
+    display: none;
+}
+
+.interview-container > .interview-main > div {
+    display: block;
+    width: -webkit-calc(100% - 3rem);
+    width: -moz-calc(100% - 3rem);
+    width: calc(100% - 3rem);
+    background-color: rgb(var(--very-light-gray-monochrome), 1);
+    padding: 0.75rem 0.75rem 0.5rem;
+    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+    border: 0.25rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.interview-container > .interview-main > div > p:first-of-type {
+    margin-top: 0;
+}
+
+.interview-container > .interview-main > div > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.interview-container > .interview-main > div::before {
+    --wght: 600;
+    content: " ";
+    position: absolute;
+    top: -1.25rem;
+    left: -0.5rem;
+    padding: 0.5em 0.5em;
+    color: rgb(var(--white-monochrome));
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-indent: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.interview-container > .interview-main > div.jates {
+    background-color: rgba(var(--jates-color), 0.1);
+    border-color: rgba(var(--jates-color));
+}
+
+.interview-container > .interview-main > div.harmon {
+    background-color: rgba(var(--harmon-color), 0.1);
+    border-color: rgba(var(--harmon-color));
+}
+
+.interview-container > .interview-main > div.fitzwell {
+    background-color: rgba(var(--fitzwell-color), 0.1);
+    border-color: rgba(var(--fitzwell-color));
+}
+
+.interview-container > .interview-main > div.jates::before {
+    content: "Dr. Jates";
+    background-color: rgba(var(--jates-color));
+}
+
+.interview-container > .interview-main > div.harmon::before {
+    content: "Dr. Harmon";
+    background-color: rgba(var(--harmon-color));
+}
+
+.interview-container > .interview-main > div.fitzwell::before {
+    content: "Dr. Fitzwell";
+    background-color: rgba(var(--fitzwell-color));
+}
+
+/* Footnotes */
+.footnote_block {
+    --wght: 600;
+    all: initial;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-left: 0;
+    margin-right: -0.25em;
+}
+
+.footnote_block .footnote_content,
+.footnote_block .footnote_content * {
+    --wght: 600;
+    all: initial;
+    display: block;
+    position: absolute;
+    right: -12rem;
+    width: 8rem;
+    line-height: 1.2;
+    border: 0.125rem solid rgb(var(--black-monochrome));
+    font-family: var(--body-font);
+    font-weight: 600;
+    padding: 1rem;
+    text-shadow: initial;
+    -webkit-filter: initial;
+    filter: initial;
+    color: rgb(var(--black-monochrome));
+    -webkit-transition:
+    	opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	-webkit-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition:
+    	opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	-webkit-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -o-transition:
+    	opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	-o-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-transition:
+    	opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	-moz-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition:
+    	opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition:
+    	opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	-webkit-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	-moz-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	-o-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    pointer-events: none
+    z-index: 20;
+}
+
+.footnote_block .footnote_num {
+    --wght: 900;
+    text-shadow: initial;
+    font-weight: 900;
+    color: rgb(var(--white-monochrome));
+    cursor: pointer;
+    -webkit-box-shadow: initial;
+    -moz-box-shadow: initial;
+    box-shadow: initial;
+    -webkit-filter: unset;
+    filter: unset;
+    -webkit-transform: unset;
+    -moz-transform: unset;
+    -ms-transform: unset;
+    -o-transform: unset;
+    transform: unset;
+    border-bottom: 0.0625rem dotted;
+    line-height: 2;
+    background-color: rgb(var(--link-color));
+    height: 1em;
+    width: 1em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.footnote_block .footnote_content::before {
+    --wght: 900;
+    content: " ";
+    position: absolute;
+    font-size: 1em;
+    top: -0.5em;
+    left: -0.5em;
+    text-shadow: initial;
+    font-weight: 900;
+    color: rgb(var(--white-monochrome));
+    cursor: pointer;
+    -webkit-box-shadow: initial;
+    -moz-box-shadow: initial;
+    box-shadow: initial;
+    -webkit-filter: unset;
+    filter: unset;
+    -webkit-transform: unset;
+    -moz-transform: unset;
+    -ms-transform: unset;
+    -o-transform: unset;
+    transform: unset;
+    line-height: 2;
+    background-color: rgb(var(--link-color));
+    height: 1em;
+    width: 1em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0.25em
+}
+
+.footnote_block.seven .footnote_num + div {
+    -webkit-transform: translateX(-25%);
+    -moz-transform: translateX(-25%);
+    -ms-transform: translateX(-25%);
+    -o-transform: translateX(-25%);
+    transform: translateX(-25%);
+}
+
+.footnote_block.seven .footnote_num:hover + div {
+    -webkit-transform: translateX(1rem);
+    -moz-transform: translateX(1rem);
+    -ms-transform: translateX(1rem);
+    -o-transform: translateX(1rem);
+    transform: translateX(1rem);
+}
+
+.footnote_block.eight .footnote_num + div {
+    -webkit-transform: translateX(-webkit-calc(275% + 1rem));
+    -moz-transform: translateX(-moz-calc(275% + 1rem));
+    -ms-transform: translateX(calc(275% + 1rem));
+    -o-transform: translateX(calc(275% + 1rem));
+    transform: translateX(calc(275% + 1rem));
+}
+
+.footnote_block.eight .footnote_num:hover + div {
+    -webkit-transform: translateX(-webkit-calc(300% + 2rem));
+    -moz-transform: translateX(-moz-calc(300% + 2rem));
+    -ms-transform: translateX(calc(300% + 2rem));
+    -o-transform: translateX(calc(300% + 2rem));
+    transform: translateX(calc(300% + 2rem));
+}
+
+.footnote_block .footnote_num + div {
+    opacity: 0;
+}
+
+.footnote_block .footnote_num:hover + div {
+    opacity: 1;
+}
+
+
+.footnote_block.seven .footnote_content::before {
+    content: "7";
+}
+
+.footnote_block.eight .footnote_content::before {
+    content: "8";
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .main_container,
+    .main_container * {
+    	-webkit-transform: unset !important;
+    	-moz-transform: unset !important;
+    	-ms-transform: unset !important;
+    	-o-transform: unset !important;
+    	transform: unset !important;
+    	-webkit-filter: unset;
+    	filter: unset;
+    }
+
+    .footnote_block .footnote_content {
+    	position: fixed;
+    	bottom: 1em;
+    	left: 12.5%;
+    	background-color: rgba(var(--white-monochrome));
+    	width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .page-title {
+    	font-size: 2em;
+    }
+    
+    table.wiki-content-table tr {
+    	flex-wrap: wrap;
+    }
+
+    table.wiki-content-table tr > td {
+    	min-width: 100%;
+    	font-size: 1rem;
+    	padding: 0.5rem;
+    }
+    
+    div.database_main {
+    	margin: 0.5rem;
+    	padding: 0.5rem;
+    }
+
+    div.database_main > .database_table.top {
+    	grid-template-areas:
+    		"group-name group-name"
+    		"aliases leadership"
+    		"logotype logotype";
+    	-ms-grid-columns: 50% 50%;
+    	grid-template-columns: 50% 50%;
+    }
+
+
+    div.database_main > .database_table.top > .cell:nth-of-type(2) {
+    	-ms-grid-column: 1;
+    	-ms-grid-column-span: 1;
+    	grid-column: 1 / span 1;
+    }
+
+    div.database_main > .database_table.top > .cell:nth-of-type(3) {
+    	-ms-grid-column: 2;
+    	-ms-grid-column-span: 1;
+    	grid-column: 2 / span 1;
+    }
+
+    div.database_main > .database_table.top > .cell:nth-of-type(2)::before,
+    div.database_main > .database_table.top > .cell:nth-of-type(3)::before {
+    	-webkit-box-pack: center;
+    	-webkit-justify-content: center;
+    	-moz-box-pack: center;
+    	-ms-flex-pack: center;
+    	justify-content: center;
+    	font-size: 0.7rem;
+    	padding: 0.35rem 0.7rem 0.3rem;
+    	width: -webkit-calc(100% - 1.4rem);
+    	width: -moz-calc(100% - 1.4rem);
+    	width: calc(100% - 1.4rem);
+    	text-align: center;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo {
+    	grid-template-areas:
+    		"image"
+    		"caption";
+    	-ms-grid-column: 1;
+    	grid-column: 1;
+    	width: 100%;
+    	height: auto;
+    	margin: 0 auto;
+    	-ms-grid-column-span: 2;
+    	grid-column: 1 / span 2;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo > .cell:first-of-type {
+    	width: initial;
+    	height: 100%;
+    	-ms-grid-column-align: center;
+    	justify-self: center;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo > .cell:first-of-type > img {
+    	background-color: rgba(var(--white-monochrome), 0.85);
+    	padding: 0.5em;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo > .cell:last-of-type {
+    	--wght: 900;
+    	grid-area: caption;
+    	height: auto;
+    	-ms-grid-column-align: center;
+    	justify-self: center;
+    	-webkit-align-self: center;
+    	-ms-flex-item-align: center;
+    	-ms-grid-row-align: center;
+    	align-self: center;
+    	text-align: center;
+    	padding: 0.5rem 1rem;
+    	margin: 0;
+    	background-color: rgb(var(--swatch-primary-darkest));
+    	font-family: var(--mono-font);
+    	font-size: 0.85rem;
+    	font-weight: 900;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo > .cell:last-of-type,
+    div.database_main > .database_table.top > .hansarp_logo > .cell:last-of-type * {
+    	font-variation-settings: 
+    		"wght" var(--mono-wght), 
+    		"slnt" var(--slnt), 
+    		"CASL" var(--CASL), 
+    		"CRSV" var(--CRSV), 
+    		"MONO" var(--MONO);
+    }
+
+    div.database_main > .database_table.main > .locations {
+    	display: -ms-grid;
+    	display: grid;
+    	grid-template-areas:
+    		"primary"
+    		"addtl"
+    		"limited";
+    	-ms-grid-columns: 100%;
+    	grid-template-columns: 100%;
+    	margin-top: 1rem;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell > ul {
+    	display: -ms-grid;
+    	display: grid;
+    	-ms-grid-columns: 50% 50%;
+    	grid-template-columns: 50% 50%;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell > ul > li {
+    	-ms-grid-column-span: 1;
+    	grid-column: span 1;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) > ul {
+    	margin-top: 0;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(1) > ul > li:nth-of-type(1),
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(1) > ul > li:nth-of-type(6),
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(2) > ul > li:nth-of-type(1),
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(2) > ul > li:nth-of-type(6),
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) > ul > li:nth-of-type(6) {
+    	-ms-grid-column-span: 2;
+    	grid-column: span 2;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:not(:nth-of-type(3)) > ul > li:nth-of-type(even):not(:last-of-type) {
+    	border-right: 0.125rem dashed rgba(var(--swatch-primary))
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) > ul > li:nth-of-type(2) {
+    	border-top: initial;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) > ul > li:nth-of-type(even) {
+    	border-left: 0.125rem dashed rgba(var(--swatch-primary))
+    }
+
+    div.database_main > .database_table.main > .locations > .cell > ul > li:not(:nth-of-type(even)):last-of-type {
+    	-ms-grid-column: 1;
+    	-ms-grid-column-span: 2;
+    	grid-column: 1 / span 2;
+    }
+
+    div.database_main .main_content .cell div {
+    	font-size: 0.95rem;
+    	line-height: 1.25;
+    	padding: 0 1em;
+    }
+
+    div.database_main .main_content .cell:first-of-type div {
+    	margin-top: 2.5rem;
+    }
+
+    .responsive_table .table_row {
+    	grid-template-areas:
+    		"ID  Location Location Location"
+    		"Date Location Location Location"
+    		"Title Title Title Title"
+    		"Subject Subject Subject Subject"
+    		"Current Current Current Current";
+    	-ms-grid-columns: 40% 60%;
+    	grid-template-columns: 40% 60%;
+    }
+
+    .responsive_table .table_row div:nth-of-type(1) {
+    	-ms-grid-row: 1;
+    	-ms-grid-column: 1;
+    }
+
+    .responsive_table .table_row div:nth-of-type(4) {
+    	-ms-grid-row: 1;
+    	-ms-grid-row-span: 2;
+    	-ms-grid-column: 2;
+    	-ms-grid-column-span: 3;
+    }
+
+    .responsive_table .table_row div:nth-of-type(2) {
+    	-ms-grid-row: 2;
+    	-ms-grid-column: 1;
+    }
+
+    .responsive_table .table_row div:nth-of-type(3) {
+    	-ms-grid-row: 3;
+    	-ms-grid-column: 1;
+    	-ms-grid-column-span: 4;
+    }
+
+    .responsive_table .table_row div:nth-of-type(5) {
+    	-ms-grid-row: 4;
+    	-ms-grid-row-span: 1;
+    	-ms-grid-column: 1;
+    	-ms-grid-column-span: 4;
+    }
+
+    .responsive_table .table_row div:nth-of-type(6) {
+    	-ms-grid-row: 5;
+    	-ms-grid-column: 1;
+    	-ms-grid-column-span: 4;
+    }
+
+    div.database_main > .database_table.top > .cell:nth-of-type(1) {
+    	-ms-grid-row: 1;
+    	-ms-grid-column: 1;
+    	-ms-grid-column-span: 2;
+    }
+
+    div.database_main > .database_table.top > .cell:nth-of-type(2) {
+    	-ms-grid-row: 2;
+    	-ms-grid-column: 1;
+    }
+
+    div.database_main > .database_table.top > .cell:nth-of-type(3) {
+    	-ms-grid-row: 2;
+    	-ms-grid-column: 2;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo {
+    	-ms-grid-row: 3;
+    	-ms-grid-row-span: 1;
+    	-ms-grid-column: 1;
+    	-ms-grid-column-span: 2;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo > .cell:first-of-type {
+    	-ms-grid-row: 1;
+    	-ms-grid-row-span: 1;
+    	-ms-grid-column: 1;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo > .cell:last-of-type {
+    	-ms-grid-row: 2;
+    	-ms-grid-row-span: 1;
+    	-ms-grid-column: 1;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(1) {
+    	-ms-grid-row: 1;
+    	-ms-grid-column: 1;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(2) {
+    	-ms-grid-row: 2;
+    	-ms-grid-column: 1;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) {
+    	-ms-grid-row: 3;
+    	-ms-grid-column: 1;
+    }
+    
+    .interview-container > .on-call {
+    	padding-left: 0;
+    	padding-right: 0;
+    }
+
+    .interview-container > .on-call > ul {
+    	-ms-grid-columns: 100%;
+    	grid-template-columns: 100%;
+    	margin-top: 2rem;
+    	margin-bottom: 0;
+    }
+
+    .interview-container > .on-call > ul > li > span.doctor_name {
+    	margin-top: 0rem;
+    }
+
+
+    .interview-container > .on-call > ul > li > span.doctor_title {
+    	margin-top: 0;
+    	margin-bottom: 1rem;
+    	padding: 0.25rem 2rem 0.5rem;
+    	border-left: 0.125rem dashed;
+    	border-right: 0.125rem dashed;
+    	border-bottom: 0.125rem dashed;
+    	z-index: -2;
+    }
+}
+
+@media (max-width: 500px ) {
+    .warning-container .warning-body {
+    	padding: 0.5rem 1rem;
+    	margin-bottom: 1.5rem;
+    	font-size: 95%;
+    }
+}
+
+[[/module]]
+[[div_ class="page-title"]]
+SCP-4485 ORIENTATION PART 2 OF 8
+[[/div]]
+@@ @@
+[[div_ class="warning-container"]]
+[[div_ class="warning-top"]]
+!! REMOTE TERMINAL MESSAGE !!
+[[/div]]
+[[div class="warning-body"]]
+Your progression is most satisfactory. Dr. Lark has joined me and requested to observe your progress in person. However, his request was denied. It is imperative that you complete the orientation in isolation until an acceptable level of comprehension is observed.
+
+I already anticipate you have many questions. However, all out-going communication is forbidden. As such, I can give you answers to a few common inquiries that other employees have had:
+
+# **What level of comprehension is deemed acceptable?:** This is on a supervisor to supervisor basis. The Foundation has requested that we accept nothing but a perfect level of understanding. However, I tend to only require this if the Researcher will be directly involved in SCP-4485. As you will be directly involved, I will accept nothing but perfection.
+# **What will happen if I am found to fail the orientation?:** You will be terminated.
+# **What does "comprehension" mean?:** A depressingly common question. It means you must understand the risk and logical danger that SCP-4485 poses. If you need to ask this question, you likely will not pass.
+
+That is all. I will be stepping away from the Terminal for a time and Dr. Lark will observe in my absence.
+
+Please Continue.
+
+Lloyd Michaelson
+Director,  Site-12
+[[/div]]
+[[/div]]
+
+------
+
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell colspan="2"]]
+SCP-4485 DOCUMENT THREE
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[span]]GROUP OF INTEREST[[/span]]
+[[span]]DATABASE ENTRY[[/span]]
+[[span]]"HANSARP"[[/span]]
+[[/cell]]
+[[cell]]
+[[span]]Originally filed:[[/span]]
+[[span]]Saturday, 29 July, 1967[[/span]]
+[[span]]Archived pulled: [[/span]]
+[[html]]
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Mono">
+<style type="text/css">
+body {
+    --wght: 900;
+    color: rgb(252, 252, 252);
+    font-family: "PT Mono", "Courier New", Courier, monospace;
+    font-size: 1.055rem;
+    font-weight: 900;
+    line-height: 1.406rem;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    font-variant-numeric: normal;
+    -webkit-font-feature-settings: "lnum", "kern", "liga", "clig", "calt";
+    -moz-font-feature-settings: "lnum", "kern", "liga", "clig", "calt";
+    font-feature-settings: "lnum", "kern", "liga", "clig", "calt";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    orphans: 2;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    word-break: normal;
+    text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+<center>
+<script>
+
+    var mydate=new Date()
+    var year=mydate.getYear()
+    
+    if (year < 1000)
+    	year+=1900
+    
+    var day=mydate.getDay()
+    var month=mydate.getMonth()
+    var daym=mydate.getDate()
+    
+    if (daym<10)
+    	daym="0"+daym
+    	
+    var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday",
+    						"Friday","Saturday")
+    var montharray=new Array("January","February","March","April","May","June",
+    						"July","August","September","October","November","December")
+    
+    document.write("",dayarray[day]+", "+daym+" "+montharray[month]+", "+year, "")
+
+</script>
+</center>
+</body>
+[[/html]] 
+[[/cell]]
+[[/row]]
+[[/table]]
+[[collapsible show="⇛ CLICK TO BEGIN ⇚" hide="⤋ HIDE DOCUMENT ⤋"]]
+    [[div_ class="database_container"]]
+    	[[div_ class="database_main"]]
+    		[[div_ class="database_title"]]
+    		Group of Interest Profile ◦ Site-35 Department of External Groups
+    		[[/div]]
+    		[[div_ class="database_table top"]]									
+    			[[div_ class="cell" data-label="Group Name"]]
+    			"HANSARP"
+    			[[/div]]
+    			[[div_ class="cell" data-label="Aliases"]]
+    			Unknown
+    			[[/div]]
+    			[[div_ class="cell" data-label="Leadership"]]
+    			Unknown
+    			[[/div]]
+    			[[div_ class="hansarp_logo"]]
+    				[[div_ class="cell"]]
+[[image https://scp-wiki.wikidot.com/local--files/fragment:scp-4485-2/hansarplogo.png]]
+    				[[/div]]
+    				[[div_ class="cell"]]
+    				ONLY KNOWN "HANSARP" LOGOTYPE
+    				[[/div]]
+    			[[/div]]
+    		[[/div]]
+    		[[div_ class="database_table main"]]
+    			[[div_ class="locations"]]
+    					[[div_ class="cell" data-label="Primary Areas of Activity"]]
+[[ul]]
+[[li]]Southern Germany[[/li]]
+[[li]]Austria[[/li]]
+[[li]]Switzerland[[/li]]
+[[li]]Hungary[[/li]]
+[[li]]Yugoslavia[[/li]]
+[[li]]Czechoslovakia[[/li]]
+[[/ul]]
+    					[[/div]]
+[[div_ class="cell" data-label="Additional Areas of Activity"]]
+[[ul]]
+[[li]]SE France[[/li]]
+[[li]]Northern Italy[[/li]]
+[[li]]Switzerland[[/li]]
+[[li]]NE Spain[[/li]]
+[[li]]Denmark[[/li]]
+[[li]]Western Soviet Socialist Republic[[/li]]
+[[/ul]]
+    					[[/div]]
+    					[[div_ class="cell" data-label="Limited Activity"]]
+[[ul]]
+[[li]]Greece[[/li]]
+[[li]]Belgium[[/li]]
+[[li]]United Kingdom[[/li]]
+[[li]]Egypt[[/li]]
+[[/ul]]
+    					[[/div]]
+    			[[/div]]
+    			[[div_ class="main_content"]]
+    				[[div_ class="cell" data-label="Group Activity Pattern Analysis"]]
+    					[[div]]
+    Group activity centers around the creation of anomalous art pieces and the creation of anomalous machines. While the style and structure of these pieces differs, all appear to serve the same purpose of altering reality.
+
+    What is most unusual, however, is the transient nature of these pieces and machines. In the case of nearly all recovered artifacts, the pieces have been placed in locations where they would be visible to a large number of civilians (typically at intersections, within shopping centers, on the sides of buildings, etc.) but do not remain long after they are noticed. In many cases, the pieces have self-removed by the time Foundation assets have moved to intercept them. To date, all pieces have been tagged with the word "HANSARP" in orange spray paint, and signed with a crude drawing of a vertical fish.
+    					[[/div]]
+    				[[/div]]
+    				[[div_ class="cell"  data-label="Group Description"]]
+    					[[div]]
+    It is currently believed that "HANSARP" is a cultural evolution	within a south German "Are We Cool Yet?" sect, designed to disrupt the tenuous peace within the civilian population in the area. Like many AWCY? sects, "HANSARP" creates pieces of obscene or provocative "art", which are then placed in areas where they would do the most harm and left to disturb population centers. The primary differentiation between the two groups, however, is that while artists within AWCY? sects tend to seek attention personally through the use of pseudonyms, "HANSARP" members do not identify themselves by any name other than "HANSARP".
+
+    Documents recovered from a coordinated information exchange with the Global Occult Coalition European Taskforce indicate that "HANSARP" has additional ties to high-ranking members of the Church of the Broken God. These connections are likely the source of the anomalous machinery often discovered at "HANSARP" activity sites, though their relation to the Church of the Broken God is still unknown. Analysis of these machines prior to their self-removal has resulted in no definitive answer to their purpose; the machines simply perform a function for a short period of time, and then disassemble afterwards. While it is assumed that they, like the anomalous art pieces attributed to "HANSARP", exist only to disrupt the public, this assumption is not conclusive.
+    					[[/div]]
+    				[[/div]]
+    			[[/div]]
+    		[[/div]]
+    	[[/div]]
+    [[/div]]
+[[/collapsible]]
+
+------
+
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell colspan="2"]]
+SCP-4485 DOCUMENT FOUR
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[span]]Reported or Recovered "HANSARP" Artifacts[[/span]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[collapsible show="⇛ CLICK TO BEGIN ⇚" hide="⤋ HIDE DOCUMENT ⤋"]]
+@@ @@
+[[div_ class="responsive_table"]]
+    [[div_ class="table_row"]]
+    	[[div_ class="table_data" data-label="ID#"]]
+    	4485/35B
+    	[[/div]]
+    	[[div_ class="table_data" data-label="DISCOVERY DATE"]]
+    	3 March, 1967
+    	[[/div]]
+    	[[div_ class="table_data" data-label="TITLE"]]
+    	"Dog Will Sniff" by HANSARP
+    	[[/div]]
+    	[[div_ class="table_data" data-label="LOCATION OF DISCOVERY"]]
+    	Restaurant in Vienna, Austria
+    	[[/div]]
+    	[[div_ class="table_data" data-label="SUBJECT & EFFECTS"]]
+    	Watercolor painting of an artist painting a watercolor painting. The artist's head is located on its back, facing down, and its features are indistinguishable. Exposed subjects reported seeing duplicates of themselves, and duplicates of the duplicates within the restaurant.
+    	[[/div]]
+    	[[div_ class="table_data" data-label="CURRENT LOCATION"]]
+    	N/A. Painting was reduced to colored water after two hours.
+    	[[/div]]
+    [[/div]]
+    [[div_ class="table_row"]]
+    	[[div_ class="table_data" data-label="ID#"]]
+    	4485/35G
+    	[[/div]]
+    	[[div_ class="table_data" data-label="DISCOVERY DATE"]]
+    	23 May, 1967
+    	[[/div]]
+    	[[div_ class="table_data" data-label="TITLE"]]
+    	"I looked up on upon Babylon ylon" by HANSARP
+    	[[/div]]
+    	[[div_ class="table_data" data-label="LOCATION OF DISCOVERY"]]
+    	Judicial building in Munich, West Germany
+    	[[/div]]
+    	[[div_ class="table_data" data-label="SUBJECT & EFFECTS"]]
+    	A rough pencil sketch of three children consuming each others' feet. Two of the children appear to be weeping, one is laughing. Individuals exposed to the piece began to suffer from the inability to pass through doorways, and were unable to escape the building for some time. This continued until the piece self-removed from the first floor lobby wall.
+    	[[/div]]
+    	[[div_ class="table_data" data-label="CURRENT LOCATION"]]
+    	N/A. The piece is reported to have begun curling up on itself after several hours, and continued to roll tighter until it no longer existed.
+    	[[/div]]
+    [[/div]]
+    [[div_ class="table_row"]]
+    	[[div_ class="table_data" data-label="ID#"]]
+    	4485/36K
+    	[[/div]]
+    	[[div_ class="table_data" data-label="DISCOVERY DATE"]]
+    	19 October, 1969
+    	[[/div]]
+    	[[div_ class="table_data" data-label="TITLE"]]
+    	"Untitled '95" by HANSARP
+    	[[/div]]
+    	[[div_ class="table_data" data-label="LOCATION OF DISCOVERY"]]
+    	In a cellar beneath a home in Frankfurt, West Germany
+    	[[/div]]
+    	[[div_ class="table_data" data-label="SUBJECT & EFFECTS"]]
+    	A small, vinyl-covered clockwork machine that produces a small, two dimensional paper fish once every sixteen minutes. Each fish contains the text of a single racial epithet, though these words only appear offensive or obscene to individuals of a different ethnic background, and appear to be the words "what will you do?" to those of the intended background.
+    	[[/div]]
+    	[[div_ class="table_data" data-label="CURRENT LOCATION"]]
+    	Currently in a storage locker at Site-35. Ceased functioning after it was removed from the house. Believed to have generated over 1,900 pieces of paper fish prior to its discovery.
+    	[[/div]]
+    [[/div]]
+    [[div_ class="table_row"]]
+    	[[div_ class="table_data" data-label="ID#"]]
+    	4485/35AA
+    	[[/div]]
+    	[[div_ class="table_data" data-label="DISCOVERY DATE"]]
+    	21 October, 1969
+    	[[/div]]
+    	[[div_ class="table_data" data-label="TITLE"]]
+    	"dak dak dit va va ti da da" by HANSARP
+    	[[/div]]
+    	[[div_ class="table_data" data-label="LOCATION OF DISCOVERY"]]
+    	A public square in St. Gallen, Switzerland
+    	[[/div]]
+    	[[div_ class="table_data" data-label="SUBJECT & EFFECTS"]]
+    	A green arrow painted on a lamp post pointed upwards. Individuals exposed to this piece directly begin to feel severe anxiety and self-loathing. Spreads to individuals who interact with these individuals
+    		[[div_ class="footnote_block seven"]]
+    			[[div_ class="footnote_num"]]
+    								7  
+    						[[/div]]
+    			[[div_ class="footnote_content"]]
+    				This effect is poorly understood, and is still under investigation.
+    			[[/div]]
+    					[[/div]]
+    	.
+    	[[/div]]
+    	[[div_ class="table_data" data-label="CURRENT LOCATION"]]
+    	Paint could not be removed through traditional means. Light post was removed and sandblasted into metal shavings. The metal shavings retained the same characteristics of the light post, and were moved to a secure vault.
+    	[[/div]]
+    [[/div]]
+    [[div_ class="table_row"]]
+    	[[div_ class="table_data" data-label="ID#"]]
+    	4485/35AV
+    		[[div_ class="footnote_block eight"]]
+    			[[div_ class="footnote_num"]]
+    								8  
+    						[[/div]]
+    			[[div_ class="footnote_content"]]
+    				Contents redacted due to memetic effect of the location and description of the artifact. First instance of a "HANSARP" artifact showing anomalous effects without need for its physical presence.
+    			[[/div]]
+    					[[/div]]
+    	[[/div]]
+    	[[div_ class="table_data" data-label="DISCOVERY DATE"]]
+    	9 December, 1972
+    	[[/div]]
+    	[[div_ class="table_data" data-label="TITLE"]]
+    	 	"AND I SAW NATIONS" by HANSARP
+    	[[/div]]
+    	[[div_ class="table_data" data-label="LOCATION OF DISCOVERY"]]
+    		█████████, ███████
+    	[[/div]]
+    	[[div_ class="table_data" data-label="SUBJECT & EFFECTS"]]
+    		█ ████-█████ ███████ ██ ███ ████████ ██ ████-██. ████████ ██████████ ███ ███ ███████ ██ █████ ██████ ██ ████. ██████████ ████ ██ ███ ███████ ████████ ██ █████ ██ ████-██. ███ █████ "████ ██ ██████ █████, █ ███'█ ██████ ███ ████" ███ ███████ ██ ███ ████ ██ ███ ███████.
+    	[[/div]]
+    	[[div_ class="table_data" data-label="CURRENT LOCATION"]]
+    		Moved to Site-35. █████████ ██ ██████ ███████████.
+    	[[/div]]
+    [[/div]]
+    [[div_ class="table_row"]]
+    	[[div_ class="table_data" data-label="ID#"]]
+    	4485/47X
+    			[[/div]]
+    	[[div_ class="table_data" data-label="DISCOVERY DATE"]]
+    	1 May, 1983
+    	[[/div]]
+    	[[div_ class="table_data" data-label="TITLE"]]
+    	"Less Fewer Every Day" by HANSARP
+    	[[/div]]
+    	[[div_ class="table_data" data-label="LOCATION OF DISCOVERY"]]
+    	Stuttgart, West Germany
+    	[[/div]]
+    	[[div_ class="table_data" data-label="SUBJECT & EFFECTS"]]
+    	Phenomenon affecting a group of Foundation personnel at Site-35. Attributed to "HANSARP" in letter to the editor published in local newspaper.
+    	[[/div]]
+    	[[div_ class="table_data" data-label="CURRENT LOCATION"]]
+    	Contained at Site-35, pending further evaluation (See Document 5).
+    	[[/div]]
+    [[/div]]
+[[/div]]
+[[/collapsible]]
+
+------
+
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell colspan="2"]]
+SCP-4485 DOCUMENT FIVE
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[span]]INTERNAL INTERVIEW[[/span]]
+[[/cell]]
+[[cell]]
+[[span]]CONDUCTED 10 MAY, 1983[[/span]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[collapsible show="⇛ CLICK TO BEGIN ⇚" hide="⤋ HIDE DOCUMENT ⤋"]]
+@@ @@
+    [[div_ class="interview-foreword blockquote"]]
+    	Below is a transcript of an interview via three-way telephone call following the appearance of Artifact 4485/47X conducted by Dr. Viktor Jates with Dr. Isaac Harmon and Dr. Leonard Fitzwell.
+    [[/div]]
+    [[div_ class="interview-container"]]
+    	[[div_ class="on-call"]]
+    		[[ul]]
+    			[[li]][[span class="doctor_name"]]Dr. Viktor Jates[[/span]][[span class="doctor_title"]]Foundation European Mathematical Studies Director[[/span]][[/li]]
+    			[[li]][[span class="doctor_name"]]Dr. Isaac Harmon[[/span]][[span class="doctor_title"]]Foundation European Department of Containment Director[[/span]][[/li]]
+    			[[li]][[span class="doctor_name"]]Dr. Leonard Fitzwell[[/span]][[span class="doctor_title"]]European GOI Liaison[[/span]][[/li]]
+    		[[/ul]]
+    	[[/div]]
+    	[[div_ class="interview-main"]]
+    					[[div class="jates"]]
+    			Dr. Harmon, hello. Dr. Fitzwell, thank you both for taking my call.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			Of course.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			Isaac has seen our report?
+    			[[/div]]
+    			[[div class="harmon"]]
+    			On the ride over, but not in depth.
+    			[[/div]]
+    			[[div class="jates"]]
+    			I was hoping you could, uh, illuminate him, on-
+    			[[/div]]
+    			[[div class="harmon"]]
+    			I'm just trying to wrap my head around what you're saying here, Fitz. About this whole art thing, it sounds like you're saying nothing we've done here has accomplished anything.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			Well that's just it, Isaac. We've missed the forest for the trees on this one, and I think we're in dire trouble.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			Explain.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			Do you know when the last time we were contacted by an outside group to investigate itself?
+    			[[/div]]
+    			[[div class="harmon"]]
+    			I- what? That's never happened.
+    			[[/div]]
+    			[[div class="jates"]]
+    			As of Tuesday, it has.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			What?
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			The largest anom-art community in Europe is "Are We Cool Yet?" They're fairly fragmented, but bound by this sort of loose association with an individual called "The Critic". 
+    			
+    			That individual contacted one of our field agents on Tuesday to request that we look into the well-being of one of their studios near Munich.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			I don't understand. Why would they try to contact us about that?
+    			[[/div]]
+    			[[div class="jates"]]
+    			That was our question. The Critic claims that the studio in question, some hundred or so individuals, has just dropped off the face of the earth. Local authorities weren't able to help, and they were worried that contacting the Coalition would result in more deaths than recoveries. 
+    			
+    			So they contacted us instead.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			And? What did we find?
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			Nothing, Isaac. We raided the studio and found //nothing//. Not that we didn't find signs of habitation-
+    			[[/div]]
+    			[[div class="jates"]]
+    			Oh yes, we found //plenty// of that.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			-it's that by all accounts the people who had been living there just got up one day and left.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			Do we think this is some kind of anomalous influence, or something mundane? Maybe they ran out of money, or-
+    			[[/div]]
+    			[[div class="jates"]]
+    			No, they wouldn't have just left all of their stuff there. Their equipment, belongings, it was all left untouched.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			So what does this have to do with HANSARP?
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			When our field agent reported back to The Critic what we had found, he revealed some things about HANSARP we didn't know. He thinks HANSARP has been influencing a group of disillusioned members of Are We Cool Yet? over the last several months, and that influence might have resulted in their disappearance.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			Influencing how?
+    			[[/div]]
+    			[[div class="jates"]]
+    			There's a growing sentiment within that community that the effort to produce creatively is not worth the outcome, because they are no closer to self-actualization. 
+    			
+    			They call it wanting to become "cool", but it's just a desire to reach some state of synthesis with themselves and their artform. Their inability to unify the "self" and the "cool" is what we typically see as a motivating factor for the group.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			The Critic poses that the most vocal voices of displeasure have come out of south Germany, where more and more of them are turning to violence and sadism in attempting to reach this state of "cool". The Critic says he's been able to moderate most of the more radical influences, but not HANSARP. 
+    			
+    			Something about HANSARP has really set these people off, and then they disappear suddenly.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			I still- I don't understand this, Leonard. This HANSARP and Are We Cool Yet?, our documentation says that they're the same group, but you're suggesting they're separate? Where are you getting this information from?
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			Isaac, they //have// to be separate. 
+    			
+    			Aside from creating anomalous art pieces, they're totally different. Are We Cool Yet? seeks to make art pieces that establish the creator as an elevated member within the group - something closer to "cool" than others. 
+    			
+    			HANSARP doesn't care about creators, or about the art work at all. HANSARP's pieces aren't trying to create status or position, they're nothing. They don't mean anything. There's no linearity between them, and yet they continue to be created. More people are disappearing, specifically those who encountered these pieces. 
+    			
+    			That chapter of Are We Cool Yet? They were exposed to a piece the week before, hung right outside their studio. Now they're gone.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			Alright, so... so what does this all mean? What does this mean for those kids who disappeared in Germany?
+    			[[/div]]
+    			[[div class="jates"]]
+    			We, well...
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			We're beginning to think that they //are// HANSARP.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			What?
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			They didn't used to be, but they are now. 
+    			
+    			HANSARP isn't like other outside groups, where you're recruited or sign up or just find yourself within their ranks. HANSARP is like... like a disease. Like a virus. You see it and it works its way into your soul and by the time you realize what has happened to you, you're HANSARP. 
+    			
+    			Which leads to our next point...
+    			[[/div]]
+    			[[div class="jates"]]
+    			We don't think the pieces of art are anomalous.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			What do you think about sideways eyes on █████ ██████ ██ ████?
+    			[[/div]]
+    			[[div class="harmon"]]
+    			Excuse me?
+    			[[/div]]
+    			[[div class="jates"]]
+    			(//Interrupting//) Not in, not in the way we had originally believed, anyway. 
+    			
+    			Something else you need to understand - HANSARP is a dadaist movement. 
+    			
+    			Within dada, there is no meaning - reason and logic are considered detrimental to the human condition in favor of disorder. They don't have a set of beliefs that you could call consistent because they have given up on consistency.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			It's not shocking that they would target groups who are at a growing risk of frustration due to the impossibility of their goals, because HANSARP's philosophy precludes the possibility of "goals" as a concept. You can't have "goals" when there is nothing to be gained. 
+    			
+    			But then by the same token, what is "cool" if there are no inherent rules governing what "cool" is? If there are no ideals or definite purpose, then who's to say that everything isn't cool?
+    			[[/div]]
+    			[[div class="harmon"]]
+    			So what... what does any of this have to do with the art pieces being anomalous?
+    			[[/div]]
+    			[[div]]
+    			//Silence.//
+    			[[/div]]
+    			[[div class="harmon"]]
+    			Viktor?
+    			[[/div]]
+    			[[div class="jates"]]
+    			The pieces are anomalous, but not... not in the way we thought they were. 
+    			
+    			The book is the same way. 
+    			
+    			We thought the book was changing reality, but it's- the book hasn't done anything since we put it in containment. 
+    			
+    			The art pieces don't //do// anything when we put them in containment. We only see the sort of anomalous activity we associate with the book when other people are involved. People who see these art pieces, or who read SCP-4485, they're exposed to something that makes them question fundamental truths about their lives. It happened here, at Site-35.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			What? What happened?
+    			[[/div]]
+    			[[div class="jates"]]
+    			We had a group of our own researchers studying SCP-4485, reading it and trying to figure out some sort of pattern in the madness of it.
+    			
+    			We eventually started to notice that some of them were growing... detached. 
+    			
+    			They stopped interacting with others around them, started to ask strange questions. Some of them started to become agitated, angry. They'd rant and rave about some- some ideology, or some position, something political. 
+    			
+    			Our staff psychologists spoke to them, and they looked at their background profiles. The ones who were becoming violent were those with a history of- of strong positions on certain issues, things they'd spoken up about in the past: political movements, workplace issues, that sort of thing. 
+    			
+    			The rest just- just hadn't. But they were all being changed, like HANSARP was crystallizing their apathy, or their zealotry. When they started to change, the site started to change.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			How?
+    			[[/div]]
+    			[[div class="jates"]]
+    			People began to see things that weren't there. Doors that didn't exist, impossible changes in geometry. HANSARP took credit for this in a local paper, but there had been no contact with these people and HANSARP, except by reading the book.
+    			
+    			Over time, the same thing happened to the psychologists. Talking to these people changes the way you see the world, and once you've become like they are, the world changes to fit what you see. Madness.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			Where are these researchers now?
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			Isolated. At different locked safehouses. 
+    			
+    			We can't change them, and they're still- they're changing. Keeping them apart helps mitigate some of the issues, but we keep finding more every day.
+    			[[/div]]
+    			[[div class="jates"]]
+    			We're starting to see this everywhere, Isaac. All over Europe. 
+    			
+    			Any site that has ever housed a HANSARP artifact, or SCP-4485, or even... even someone who had read SCP-4485, or- or...
+    			[[/div]]
+    			[[div class="harmon"]]
+    			You cannot be serious...
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			Isaac, they're everywhere. We have affected researchers everywhere.
+    			
+    			And it doesn't take much - they'll ask an innocuous question, maybe questioning a strongly held position. But something about HANSARP makes those questions stick, and then... then they become carriers for it. They become HANSARP.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			This... the staff rotations... all of Europe, all of our sites...
+    			[[/div]]
+    			[[div class="jates"]]
+    			The only people who weren't affected were people on my team. People who were trained to use formula and theory to discern truth. They saw the same things other people did, but they didn't succumb to it. They weren't changed.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			We- we need to begin training, we need to get these individuals at- at every site, every site could be affected.
+    			[[/div]]
+    			[[div class="jates"]]
+    			There aren't enough, Isaac. We would need an army of mathematicians, and that just- it doesn't exist.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			I- (//pauses//) -alright. 
+    			
+    			I will discuss this with my team. We will work on taking the necessary steps to mitigate this issue. 
+    			
+    			(//Pauses//) 
+    			
+    			Leonard, we'll need to get you evacuated from Site-35; if what Viktor is saying is true, and you haven't had this sort of intensive training, then-
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			No, Isaac. 
+    			
+    			There is work that needs to be done here. We can still communicate with those affected. Another group went missing recently, Broken God faithful each, and the connection between the two is undeniable. We... I will know when it is too late for us to accomplish anything here, Isaac. Then I will leave.
+    			[[/div]]
+    			[[div class="harmon"]]
+    			Please do. We need you, Leonard. Now more than ever. 
+    			
+    			I'm going to report this to Director Bright and Director Quin. You are right. We have work to do. Be safe.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			You as well, Isaac.
+    			[[/div]]
+    			[[div]]
+    			//Dr. Harmon disconnects.//
+    			[[/div]]
+    			[[div class="jates"]]
+    			How much longer do you have, Leonard?
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			(//Laughs//) 
+    			
+    			Truthfully, I don't even know if you are real, Viktor. 
+    			
+    			Everything feels the same. This conversation feels the same. I will make due until I cannot make due any longer, and then... well.
+    			
+    			Hopefully Isaac comes up with something before then.
+    			[[/div]]
+    			[[div class="jates"]]
+    			The Broken God link, what do you see there?
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			That's who is building these machines, of course. 
+    			
+    			I think we're- the more I look into this crawling madness I know follows me wherever I go, the more I see the method. A god that cannot be rebuilt. 
+    			
+    			A state of cool that cannot be reached. 
+    			
+    			If you break down the structures that determine what "broken" is, or what "cool" is, what are you left with? 
+    			
+    			(//Pauses//) 
+    			
+    			We should've known sooner.
+    			[[/div]]
+    			[[div class="jates"]]
+    			We couldn't have known.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			We could have tried. 
+    			
+    			I kept that book in my study for a month, you know? 
+    			
+    			Just reading it. 
+    			
+    			Trying to see what in it could compel a man to remove his own face, just in order to see... to see something. We should have rules for that sort of thing.
+    			[[/div]]
+    			[[div class="jates"]]
+    			I know.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			Viktor, I- have I said anything to you yet? Anything that you- that you could see didn't make sense? Something out of place? I think, I've tried to think and see, if there would be anything. 
+    			
+    			Tell me truthfully, Viktor. Please.
+    			[[/div]]
+    			[[div class="jates"]]
+    			Just once. Sideways eyes.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			Ah. On shores of glass ████ ████ ████ █ ██████ ██ █████. I remember. (//Pauses//) Just now?
+    			[[/div]]
+    			[[div class="jates"]]
+    			Yes.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			Isaac?
+    			[[/div]]
+    			[[div class="jates"]]
+    			We know. We'll take care of him.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			Very good, very... very good. Thank you, Viktor. Your team does extraordinary... extraordinary work.
+    			[[/div]]
+    			[[div class="jates"]]
+    			Thank you, Leonard.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			(//Pauses//) I'm sorry, Viktor. I'm sorry.
+    			[[/div]]
+    			[[div class="jates"]]
+    			It's alright, Leonard. It will be alright.
+    			[[/div]]
+    			[[div class="fitzwell"]]
+    			I'm sorry, I'm- goodnight, Viktor.
+    			[[/div]]
+    			[[div]]
+    			//Dr. Fitzwell disconnects. Call ends.//
+    			[[/div]]
+    		[[/div]]
+    	[[/div]]
+    [[/collapsible]]
+
+------
+
+[[div_ class="warning-container"]]
+[[html]]
+<!DOCTYPE html>
+
+<head>
+    <base target="_parent">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="https://d3g0gp89917ko0.cloudfront.net/v--b23e476b7ade/common--theme/base/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://nu-scptheme.github.io/Black-Highlighter/css/min/black-highlighter.min.css">
+    <link rel="stylesheet" type="text/css" href="https://scp-wiki.wdfiles.com/local--code/theme%3Athe-foundation-theme/1">
+    <style>
+    	html#html-block-html, 
+    	html#html-block-html body {
+    		display: flex;
+    		align-items: center;
+    		justify-content: center;
+    		height: 100% !important;
+    		width: 100% !important;
+    	}
+    	.continue-button {
+    		--wght: 900;
+    		border: 0.313rem solid transparent;
+    		background: rgba(var(--swatch-primary-darkest));
+    		color: rgba(var(--white-monochrome));
+    		padding: 0.95em 1em;
+    		width: 15em;
+    		max-height: 4em;
+    		transition:
+    			text-indent 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+    			width 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+    			max-height 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+    			color 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+    			background 1.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1),
+    			transform 0.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1),
+    			box-shadow 0.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+    		white-space: nowrap;
+    		font-weight: 900;
+    		margin: 1rem auto;
+    		font-family: var(--title-font);
+    		line-height: 1;
+    		font-size: 1.5em;
+    		text-align: center;
+    		display: flex;
+    		flex-wrap: wrap;
+    		flex-direction: column;
+    		align-items: center;
+    		justify-content: center;
+    		position: relative;
+    		text-indent: 0;
+    	}
+
+    	.continue-button a {
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+    		height: 100%;
+    		z-index: 5;
+    		cursor: progress;
+    	}
+
+    	.continue-button a.active-link {
+    		cursor: pointer !important;
+    	}
+
+    	.continue-button br {
+    		display: none;
+    	}
+
+    	.continue-button::before {
+    		pointer-events: none;
+    		content: " ";
+    		position: absolute;
+    		top: -0.625rem;
+    		left: -0.625rem;
+    		width: calc(100% + 1.25rem);
+    		height: calc(100% + 1.25rem);
+    		background-color: rgb(var(--swatch-primary));
+    		background-image: url("https://scp-wiki.wikidot.com/local--files/theme:the-foundation-theme/foundation-circles-bg.png");
+    		background-size: 50%;
+    		background-attachment: fixed;
+    		opacity: 0;
+    		transition:
+    			opacity 1.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1),
+    			background-size 1.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+    		background-position: center center;
+    		z-index: -1;
+    	}
+
+    	.continue-button:hover::before {
+    		opacity: 1;
+    		background-size: 100%;
+    	}
+
+    	.continue-button .supervisor {
+    		max-height: 0;
+    		font-size: 0.85em;
+    		text-align: center;
+    		display: flex;
+    		align-items: center;
+    		justify-content: center;
+    		opacity: 0;
+    		transition:
+    			opacity 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    			max-height 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    	}
+
+    	.continue-button:hover .supervisor {
+    		opacity: 1;
+    		max-height: 2em;
+    		transition:
+    			opacity 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    			max-height 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    	}
+
+    	.continue-button span {
+    		--wght: 400;
+    		display: inline-flex;
+    		transform: translateX(13rem) translateY(0.5rem);
+    		font-weight: 400;
+    		color: rgba(var(--white-monochrome), 0);
+    		opacity: 0;
+    		transition:
+    			opacity 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    			transform 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    			color 1.4s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    			text-shadow 1.4s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    			font-size 0s 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    		position: absolute;
+    		right: 1.875rem;
+    		top: 0.367rem;
+    		font-size: 0em;
+    		border-radius: 50%;
+    		background-color: darkgreen;
+    		width: 3.750rem;
+    		height: 3.750rem;
+    		align-items: flex-start;
+    		justify-content: flex-start;
+    		text-shadow:
+    			0 0 0 rgba(var(--light-gray-monochrome), 1);
+    		z-index: -1;
+    		text-indent: 0;
+    	}
+
+    	.continue-button:hover {
+    		text-indent: -4em;
+    		background: rgba(var(--light-gray-monochrome));
+    		color: rgba(var(--white-monochrome));
+    		width: 17em;
+    		max-height: 10em;
+    		transform: translateX(0.625rem) translateY(-0.625rem);
+    		box-shadow:
+    			0.625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+    			-0.625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+    			0 0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+    			0 -0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+    			0.625rem 0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+    			-0.625rem 0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+    			0.625rem -0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+    			-0.625rem -0.625rem 0 rgba(var(--light-gray-monochrome), 1);
+    	}
+
+    	.continue-button:hover span {
+    		color: rgba(var(--white-monochrome), 1);
+    		text-shadow:
+    			0.0625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+    			-0.0625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+    			0 0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+    			0 -0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+    			0.0625rem 0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+    			-0.0625rem 0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+    			0.0625rem -0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+    			-0.0625rem -0.0625rem 0 rgba(var(--light-gray-monochrome), 1);
+    		transition:
+    			opacity 1.1s 1.5s cubic-bezier(0.4, 0.0, 0.2, 1),
+    			transform 1.4s 1.5s cubic-bezier(0.4, 0.0, 0.2, 1),
+    			color 1.4s 6.8s cubic-bezier(0.4, 0.0, 0.2, 1),
+    			text-shadow 1.4s 6.8s cubic-bezier(0.4, 0.0, 0.2, 1),
+    			font-size 400ms 6.8s cubic-bezier(0.4, 0.0, 0.2, 1);
+    		transform: translateX(0) translateY(0.5rem);
+    		opacity: 1;
+    		font-size: 3em;
+    	}
+
+    	.continue-button span::before {
+    		content: " ";
+    		pointer-events: none;
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+    		height: 100%;
+    		border-radius: 50%;
+    		text-indent: -3em;
+    		transform: rotateZ(360deg);
+    	}
+
+    	.continue-button:hover span::before {
+    		transition:
+    			transform 6.8s 1500ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    		animation:
+    			border 5.4s cubic-bezier(0.2, 0.6, 0.8, 1) 1500ms 1 forwards,
+    			rotate 1.125s linear 1500ms 5 backwards;
+    		transform: rotateZ(0deg);
+    	}
+
+    	@keyframes border {
+    		0% {
+    			box-shadow:
+    				inset 0 0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Top 1 */
+    				inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Top Left 2 */
+    				inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Left 3 */
+    				inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom 4*/
+    				inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom Left 5 */
+    				inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom Right 6 */
+    				inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Right 7 */
+    				inset -0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0);
+    			/* Top Right 8 */
+    		}
+
+    		6.25% {
+    			box-shadow:
+    				inset 0 0.3125rem 0 rgba(var(--white-monochrome)),
+    				/* Top 1 */
+    				inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Top Left 2 */
+    				inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Left 3 */
+    				inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom 4*/
+    				inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom Left 5 */
+    				inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom Right 6 */
+    				inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Right 7 */
+    				inset -0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0);
+    			/* Top Right 8 */
+    		}
+
+    		93.75% {
+    			box-shadow:
+    				inset 0 0.3125rem 0 rgba(var(--white-monochrome)),
+    				/* Top 1 */
+    				inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Top Left 2 */
+    				inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Left 3 */
+    				inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom 4*/
+    				inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom Left 5 */
+    				inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom Right 6 */
+    				inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Right 7 */
+    				inset -0.234375rem 0.234375rem 0 rgba(var(--white-monochrome));
+    			/* Top Right 8 */
+    		}
+
+    		100% {
+    			box-shadow:
+    				inset 0 0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Top 1 */
+    				inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Top Left 2 */
+    				inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Left 3 */
+    				inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom 4*/
+    				inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom Left 5 */
+    				inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Bottom Right 6 */
+    				inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+    				/* Right 7 */
+    				inset -0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0);
+    			/* Top Right 8 */
+
+    		}
+    	}
+
+    	@keyframes rotate {
+    		0% {
+    			transform: rotate(0deg);
+    		}
+
+    		100% {
+    			transform: rotate(360deg);
+    		}
+    	}
+    	@media only screen and (max-width: 400px) {
+    		.continue-button {
+    			font-size: 1em;
+    		}
+    	}
+
+    </style>
+</head>
+
+<body>
+    <div id="continue-button-id" class="continue-button">
+    	<a id="continue-link" href="/scp-4485/offset/3"></a>
+    	<div class="accept">CLICK TO SUBMIT APPROVAL</div>
+    	<div class="supervisor">SUPERVISOR APPROVAL</div>
+    	<br>
+    	<span>✔</span>
+    </div>
+    <script>
+    	var continueButton = document.getElementById("continue-button-id");  
+    	var continueLink = document.getElementById("continue-link"); 
+    	var to = null;     
+
+    	function mouseOver() {
+    		if(to){
+    			clearTimeout(to);
+    		}           
+    		to = setTimeout(function(){                 
+    			continueButton.classList.remove("active-hover");
+    			continueLink.classList.add("active-link");                    
+    		}, 5500);
+    	}
+
+    	function mouseOut() {
+    		if(to){
+    			clearTimeout(to);
+    		}
+    		continueLink.classList.remove("active-link");
+    	}        
+
+    	continueLink.addEventListener("mouseover", mouseOver);
+    	continueLink.addEventListener("mouseout", mouseOut);
+    </script>
+</body>
+
+[[/html]]
+[[/div]]

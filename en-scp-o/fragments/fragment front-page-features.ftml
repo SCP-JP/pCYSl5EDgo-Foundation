@@ -1,0 +1,141 @@
+[[div class="feature-block"]]
+[!-- ------------------------------------- --]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+Featured SCP (chosen by PlaguePJP and Voiiiii)
+[[/div]]
+
+[[div class="panel-body"]]
+++++ [[[SCP-6599| SCP-6599: HOGSLICE]]]
+[[span class="feature-subtitle"]]by [[user PlaguePJP]] and [[user J Dune]][[/span]]
+
+//WALDO.aic currently tracks all known accounts under the username “HOGSLICE.”//
+
+[[/div]]
+
+[[div class="panel-footer"]]
+[[[Featured SCP Archive II | Featured SCP Archive]]]
+[[/div]]
+[[/div]]
+
+[!-- ------------------------------------- --]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+Featured Tale (chosen by PlaguePJP and Voiiiii)
+[[/div]]
+
+[[div class="panel-body"]]
+++++ [[[ulla-na-folla | Úlla na Folla]]]
+[[span class="feature-subtitle"]]by [[user Neatpicky]][[/span]]
+
+//The Library was always a quiet place.//
+
+[[/div]]
+
+[[div class="panel-footer"]]
+[[[Featured Tale Archive II | Featured Tale Archive]]]
+[[/div]]
+[[/div]]
+
+[!-- ------------------------------------- --]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+Featured GoI Format 
+[[/div]]
+[[div class="panel-body"]]
+++++ [[[adoption-poster-lloyd | Adoption Poster: Lloyd!]]]
+[[span class="feature-subtitle"]]by [[user Aloices]][[/span]]
+
+//He's very good at Monopoly, mind you, even if he says he doesn't practice often.//
+
+[[/div]]
+
+[[div class="panel-footer"]]
+[[[Featured GoI Format Archive]]]
+[[/div]]
+[[/div]]
+
+[!-- ------------------------------------- --]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+Reviewers' Spotlight: Alzin Cdag
+[[/div]]
+[[div class="panel-body"]]
+++++ [[[Down with the Sickness]]]
+[[span class="feature-subtitle"]]by [[user The Great Hippo]][[/span]]
+
+//It feels like her brain is slathered in honey and her head is filled with ravenous, vengeful wasps.//
+[[/div]]
+
+[[div class="panel-footer"]]
+[[[reviewers-spotlight-archive-ii|Reviewers' Spotlight Archive]]]
+[[/div]]
+[[/div]]
+
+[!-- ------------------------------------- --]
+[[/div]]
+
+
+
+
+
+[[module CSS]]
+.art-block {
+    margin: 1.5rem auto;
+}
+
+.art-block .panel-body {
+    padding: 0;
+}
+.art-block .panel-body .alternate {
+    padding: 5px 10px;
+}
+
+.art-block .art-title {
+    font-weight: bold;
+    font-size: 110%;
+    margin-bottom: 5px;
+    color: #633;
+}
+.art-block .art-content {
+    margin: 5px 0;
+}
+.art-block .art-title > p,
+.art-block .art-content > p {
+    margin: 0;
+}
+
+.feature-block {
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1.4rem;
+    align-items: stretch;
+}
+
+.feature-block .content-panel {
+    flex-basis: 17.5rem;
+    flex-grow: 1;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.feature-block .content-panel .panel-body {
+    flex-grow: 1; /* To make the content height take up all available space */
+    padding: 0.125rem 1rem;
+}
+
+.feature-block  h4 {
+    font-size: 125%;
+}
+.feature-block .feature-subtitle {
+    font-size: 90%;
+    margin-top: -1em;
+    display: block;
+}
+[[/module]]

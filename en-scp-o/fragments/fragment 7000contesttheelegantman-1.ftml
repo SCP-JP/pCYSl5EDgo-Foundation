@@ -1,0 +1,806 @@
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[module CSS]]
+div.terminal{
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
+    /* black shadow at the top of the terminal */
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
+    /* shadow around the terminal */
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    /* prevents scanline from forming a scrollwheel */
+    overflow:hidden;
+}
+div.terminal blockquote {
+    background-color: black;
+    border: double 3px #80FF80
+}
+div.scanline{
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+}
+
+div.text{
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+}
+
+@keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
+}
+
+div.text a {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a.newpage {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a:hover {
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
+}
+div.text a:hover::before{
+    content: "> ";
+}
+[[/module]]
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:foundless]]
+[[module CSS]]
+:root {
+  --header-title: "SCP Foundation";
+  --header-subtitle: "Secure-Contain-Protect";
+}
+[[/module]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:anomaly-class-bar-source
+
+|item-number= 7000
+
+|clearance= 5
+
+|container-class= esoteric
+
+|secondary-class=  archon
+
+|secondary-icon= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/archon-icon.svg
+
+|disruption-class= ekhi
+
+|risk-class= critical
+
+]]
+
+@@ @@
+
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] __Foundation Audio Program V.07__[[/size]]
+@@ @@
+@@ @@
+//How much longer do you think I'll have to sit in this pool of my own blood, blind, no longer able to see the end of the world. It all happened so fast, everything was gone so fast. Now I am alone in the dark, with only the moving gears of this computer and the metallic touch of this coin giving me comfort.//
+
+
+Update Containment Class: __Esoteric/Archon__
+
+Update Disruption Class: __Ekhi__
+
+Update Caution Class: __Critical__
+
+Update Clearance level: __Level Five__
+
+Lock Page
+
+[Clink]
+
+This anomaly is what caused the scorching of Earth and the mass extinction of almost all life: from the largest of trees to the smallest of bacteria. The location of the anomaly? Well... it's the coin that's in the palm of my hand. 
+
+[Clink]
+
+The anomaly was recovered in 2010 after it caused some major industrial damage. We did a few tests with it. All should've told us to leave it the hell alone. No, bury it under pounds and pounds of concrete or throw it in the Marianas Trench under a brick. 
+
+[Clink]
+
+I believe that the article stated that the incident involving the D-Class riot was the last one and further experimentation was suspended. That was a lie... a lie I only learned about a few days ago.
+
+The Foundation, secre- arrgh, fu-u-u-ck me!
+
+[He howls in inexplicable pain while shuddering and grasping what little breaths he has left]
+
+Apologies... it's just that my current circumstances have left me in an uncomfortable position.
+
+[He takes a deep breath, regaining his composure]
+
+Multiple tests utilizing the anomaly were hidden from most in the Foundation. The only ones who knew about them were a select few with level five clearance, the Ethics Committee, and the O5 Council. 
+
+Do you want to know the weirdest part of it all: none of them objected to this. Even after constant failures and unnecessary casualties... they continued. 
+
+Countless containment breaches, constant malfunctions, and now the end.
+
+[Clink]
+
+[Silence]
+
+[Clink]
+
+
+Most of the tests involving the anomaly ended with unlucky before the eighth flip and in retrospect that was probably the lucky outcome, but they didn't see it that way.
+
+[Clink]
+
+They became obsessed with it, infatuated, angry but always going back to it for another. Even those who were originally against it.
+
+But it wasn't those tests that did this... no, it was one... single... experiment.
+
+Proj. Gambler's Fallacy.
+
+Truly a perfect world. One where possibly every dangerous anomaly is retrofitted in being beneficial for us. One where the Foundation uses its assets to actively assist the common man...
+
+All they needed was a little bit of luck…
+
+[Clink]
+
+It took five years for the Foundation to prepare. They took their time with every nook and cranny of this machine. Multiple tests created a prosthetic arm that could flip a coin perfectly in order to have it land on the right side.
+
+Then they began. 
+
+Download Proj. Gambler's Fallacy
+[[/=]]
+@@ @@
+
+[[/div]]
+[[/div]]
+
+@@ @@
+
+[[div class="blockquote"]]
+[[div style="background: url(https://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png) bottom center no-repeat; text-align: center; width: 600px; margin: 0 auto; font-size: 20px; padding: 0px;"]]
+
+@@ @@
+@@ @@
+
+@@ @@
+
+@@ @@
+
+[[=]]
+++* ##black|PROJ. GAMBLER'S FALLACY##
+##black|The following file is Level 5/7000 classified. Unauthorized access is forbidden and shall result in the appropriate punishment.##
+[[/=]]
+= **##black|7000##**
+
+@@ @@
+
+@@ @@
+
+[[/div]]
+[[=]]
+**Proj. Gambler's Fallacy O5 Council Deliberation**
+[[/=]]
+
+**Date:** 9/03/2033
+
+[Begin Log]
+------
+
+**O5-6:** I'm sorry if I sound paranoid or narcissistic, but why exactly am I the only one here that is at least a tad bit skeptical about this whole thing.
+
+**O5-3:** You do sound paranoid.
+
+**O5-1:** Well... would you like to tell us why you are so skeptical.
+
+**O5-4:** There usually isn't a reason with people like this. They always find a reason to go against real progress.
+
+**O5-10:** True.
+
+**O5-6:** Don't you all see that. This is exactly what I'm talking about. Don't any of you think this is just a tad involuntarily hive-mindish?
+
+**O5-5:** Well that does sound paranoid...
+
+**O5-6:** You voted against the reintegration of this research alongside me. You were pushing it back harder than me.
+
+**O5-5:** The difference between me and then is that now I see its potential.
+
+**O5-6:** This is a fucking gamble! Why are we doing this?
+
+**O5-1:** My friend, this is no gamble. The prosthetic arm has been consistent in every trial. There is nothing to fear.
+
+**O5-6:** It's an anomaly... that's enough reason to fear it.
+
+**O5-7:** It's just one attempt and if it does go wrong... well, it was worth the gamble. Besides we've dealt with so many world-ending anomalies with a small number of casualties. I'm sure we could deal with another.
+
+**O5-6:** You and everyone else are missing the point. Why do we have to take this risk?
+
+**O5-8:** We've always taken risks. How is this any different from the others?
+
+**O5-6:** Necessity is the difference.
+
+**O5-1:** But this is necessary, my friend. It may not make sense to you now but I'm sure it will soon.
+
+**O5-6:** This... is... stupid.
+
+**O5-13:** Can we hurry and vote? The outcome has already been decided. Let's just move the pleasantries out of the way.
+
+**O5-1:** Agreed, if you all are ready I shall begin. Yea.
+
+**O5-2:** Yea.
+
+**O5-3:** Yea.
+
+**O5-4:** Yea.
+
+**O5-5:** Yea.
+
+**O5-6:** Nay...
+
+**O5-7:** Yea.
+
+**O5-8:** Yea.
+
+**O5-9:** Yea.
+
+**O5-10:** Yea.
+
+**O5-11:** Yea.
+
+**O5-12:**Abstain.
+
+**O5-13:** Yea.
+
+**O5-1:** Thank you. Proj. Gambler's Fallacy has now been approved to move forward to the final stage. O5-13 will be supervising the experiment. Until we all meet again.
+
+------
+[End Log]
+[[/div]]
+
+[[div class="blockquote"]]
+[[=]]
+**PROJ. GAMBLER'S FALLACY**
+------
+[[/=]]
+
+**Date:** 10/03/2033
+
+**Procedure/Notes:** This experiment will focus on fully utilizing SCP-7000 for the benefit of the Foundation. For maximum safety, the prosthetic arm, codenamed Gambler's Hand, attached to Agent Richard Perard will be used for this experiment. Gambler's Hand has been tested multiple times with coins of similar dimensions in perfect conditions. Simulations have shown Gambler's Hand flipping SCP-7000 multiple times with it landing on lucky in every instance.
+
+This experiment shall attempt to reach 10 lucky flips.
+
+Note: Attempts to find SCP-7000's reality alteration events will come after the experiment is done.
+
+**Test Coordinator:** O5-13
+
+**Test Subject:** SCP-7000
+
+------
+[Begin Log]
+
+**O5-13:** Are we all ready? Good. Diagnostics check. Maintenance check. I think everything's ready. You good Richard?
+
+**Richard Perard:** Yup, ready to go, sir.
+
+**O5-13:** Then there's no reason to take any longer. 
+
+[SCP-7000 is brought into the testing room]
+
+**O5-13:** Are you all ready to change the world for the better. 
+
+[Richard lifts the coin with the Gambler's Hand]
+
+**O5-13:** Now... begin.
+
+[SCP-7000 is flipped four consecutive times; all resulted in lucky]
+
+**O5-13:** Good... again Richard.
+
+[SCP-7000 is flipped four consecutive times once more; all resulted in lucky]
+
+**O5-13:** Just two more boys. Then we can all see what will be waiting for us. 
+
+ [Richard pauses before taking the next step]
+
+**Richard Perard:** Are you sure we should keep going, sir?
+
+[O5-13 stares at Richard without giving an answer]
+
+**Richard Perard:** I-I'm sorry sir, but isn't this enough now.
+
+**O5-13:** Please... Richard... don't make me hurt you. Flip... the... coin.
+
+**Richard Perard:** Y-yes sir.
+
+[Richard lifts SCP-7000, hesitantly; he looks toward O5-13 before flicking the Gambler's Hand's fingers]
+
+**Richard Perard:** W-Wha-
+
+[Richard stares at the anomaly, whispering something unintelligible to himself]
+
+**O5-13:** What's the problem, Richard?
+
+[Richard ignores O5-13, fixated on SCP-7000]
+
+**O5-13:** What the hell's your problem? Go again!
+
+**Richard Perard:** U-Un-U-U-
+
+**O5-13:** Dammnit, spit it out!
+
+**Richard Perard:** Unlucky...
+
+[O5-13 stared at Richard with a face of disbelief and shock]
+
+**O5-13:** Bullshit, show me the damn thi-
+
+[O5-13 paused unable to express his shock]
+
+**O5-13:** No, no, no. That is not possible. We ran the simulations multiple times. This shouldn't be... shit. Halt the experiment. We need to know what's going to happen! Get on it now!
+
+------
+[End Log]
+[[/div]]
+
+@@ @@
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] __Foundation Audio Program V.07__[[/size]]
+@@ @@
+@@ @@
+//A shudder rang across all that was living. The instinctual understanding that life shall be no more. The end wasn't an explosion or some fantastical nuclear warfare.//
+//It was silent... and so, so bright.//
+
+[Clink]
+
+It didn't happen immediately. Instead, it was approximately 7 minutes after the fact. It was a countdown that no one could hear. One by one Foundation satellites loses communication with Earth.
+
+One by one it got closer and closer. The bright light that enveloped the world. No one noticed until it was too late.
+
+
+[Clink]
+
+Number 39.
+I was on the basement level of Site-18 when it happened. I was finishing up some paperwork, for retirement. I was also talking to my wife, for some company... God, I miss her voice. Midway through our talk though... our phones disconnected.
+
+I tried calling back but my phone wouldn't even start ringing. I thought it was just crappy service. Then the lights shut off, leaving me in the darkness of my office for about ten seconds. 
+
+They came back on but the phone still wasn't working. I thought it was just crappy service and bad electricity, so I decided to get back to the paperwork, but my computer couldn't even connect to the internet.
+ 
+I left my office and made my way to the exit door so I could gather some of the technicians. At the door, I saw one of the guards, his name was Logan Smith. 
+
+"Do you know what's going on out there?" I asked. "Trying to get some paperwork done. Are any of the technicians out." 
+
+Download Site-18 Video Log 10/4/2033, 16:34
+@@ @@
+[[/=]]
+[[/div]]
+[[/div]]
+@@ @@
+[[div class="blockquote"]]
+[[=]]
+**VIDEO LOG**
+[[/=]]
+------
+[Begin Log]
+
+**Logan Smith:** I was actually just going out to check on it myself. 
+
+[Both Andrew and Logan open the door and begin walking up the stairs]
+
+**Andrew Garland:** Looks like everything got turned off. Even the backup generator ain't working.
+
+**Logan Smith:** Yeah, I was checking the cameras and a flash of light just came out of nowhere. Maybe an electrical problem or a passing storm.
+
+**Andrew Garland:** Yeah, maybe.
+
+[They reached the door to the 1st level]
+
+**Andrew Garland:** Why is it so dark in here? Shouldn't there be some light? It ain't night yet.
+
+**Logan Smith:** What's that smell and why does the air feel so thick?
+
+[Logan began to cough violently]
+
+**Andrew Garland:** Yeah, I'm feeling what you feel... Where is everybody though?
+
+[Both walk up to the front desk with nobody there to welcome them]
+
+**Andrew Garland:** Hey... is that... dust.
+
+[Andrew Garland looks at the chair where there should be someone, checking everyone in and out]
+
+**Logan Smith:** Hey sir, you might want to look at this?
+
+[Both look out of the window; shock engraved into their faces]
+
+**Andrew Garland:** What the hell?
+------
+[End Log]
+[[/div]]
+@@ @@
+
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] __Foundation Audio Program V.07__[[/size]]
+@@ @@
+@@ @@
+//There were no screams, there were no cries, and there were no prayers. A white light, utterly blinding, flowed into the world. All organic matter that was touched by it became nothing but ash. Every tree, every child. Old and new.//
+
+//Nothing but ash.//
+
+[Clink]
+
+Number 45.
+You should've seen it. It was snowing ash, it was falling all around us. It would've been a beautiful sight if the circumstances were different. It didn't take much for me to understand something... terrible has happened.
+
+[Clink]
+
+Logan wasn't as calm as I was. Almost immediately he began to hyperventilate. He looked over to the chair where someone should be and saw the ash that took their place. Fuck, he yelped... fuck was the same thing going on in my mind.
+
+[Silence]
+
+It seemed like the realization was sudden after that sight... how quiet it was. No conversations between colleagues about various anomalies. No angry shouts stemming from the D-Class. What the hell, my only friend yelled.
+
+He ran without me, trying to find some semblance of life in this seemingly dead facility but there were patches of ash at every corner. 
+
+We checked the offices for any of our co-workers.
+Ash
+
+We checked the holding cells for the D-Class.
+Ash
+
+We checked for potted plants.
+Ash
+
+Ash
+
+Ash
+
+[Clink]
+
+Just ash...
+
+Looking outside we knew whatever happened out there ended up making its way in here... and probably everywhere else. The trees and every blade of grass were gone. The sky was gray, now instead of clouds, only black blots of ash roamed the sky.
+
+It felt like hell took its place on Earth's surface. Logan and I tried our best to remain calm... as calm as you can be when you're the only two things seemingly alive. We took stock of how much food we had left and stayed inside until we received something from the Foundation.
+
+The idea of ash filling your lungs wasn't a pretty thought.
+
+[Clink]
+
+It was two weeks... two weeks of me and him trying to make sense of it all, for how could any of this make sense. Two weeks of wondering if our families back home were ash.
+
+Then we received a message, specifically from Site 83.
+
+Download Distress Signal 10/15/2033, 9:54
+
+@@ @@
+[[/=]]
+[[/div]]
+[[/div]]
+@@ @@
+
+
+
+
+[[=]]
+[[div style="background: url("https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png") center no-repeat; float: center; border: solid 2px #000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
++ DISTRESS SIGNAL
+----
+++++ Attention surviving SCP Foundation personnel. 99.97% of all organic matter has been turned into ash. All able-bodied personnel are to attempt to reach Site 83 to assist in reversing this event. Further communication is impossible.
+[[/div]]
+[[/=]]
+
+ @@ @@
+
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] __Foundation Audio Program V.07__[[/size]]
+@@ @@
+@@ @@
+//Have you ever heard of liminal spaces? The concept of being somewhere so familiar, but what made it it was gone. The crowds. The smell of a busy morning in the city. The woods staring back at you during the night. We really do take these things for granted. Oh, Monika...//
+
+[Clink]
+
+Number 69.
+After listening to the message, we didn't know what to do. Reverse it... how? What could be there that can revert all of this? It would be a two-day road trip for me and Logan to make.
+
+It would be long and difficult considering the circumstances. The temperature rose to sixty-two degrees celsius. The air was most likely unbreathable on the outside. We would have to wear suits from the biological sector.
+
+We'd have to leave the only safe house we know of for miles out with a vehicle that neither of us know how to fix. If one thing went wrong we were dead but... it felt that was the case anyway. We were getting sick of staying inside anyway.
+
+[Clink]
+
+We gathered up as many supplies as we possibly could and tossed them into the truck. For some reason, we checked one more time to see if there was anybody other than us left. Just a little bit more noise. That's all we were looking for... I think.
+
+[Silence; Andrew takes a deep, long breath, adding on to the heat of the room]
+
+The first few hours of the drive were silent. Logan decided to drive for the first day. He was tired... tired of all of it. He tried to keep a smile on his face; for me I guess. But I knew... we both knew. It was too damn obvious.
+
+I simply sat in a realm of my own silence, looking out of the window just to witness the disturbing reality we were a part of now. One, two, and three hours passed. The sights were all the same, except for the size of the ash piles.
+
+That was when I realized looking at my watch. It was daytime but the little light that came to us felt like it came from the Moon. I looked back up to the gray sky. 
+
+The Sun no longer looked like a Sun... more like its shadow. An eclipse that was eternal. A hole in space emitting the slightest of light.
+
+[Clink]
+
+Did SCP-7000 do that too? How far was this thing's reach? Its ability to overhaul reality. Did that extend to the Sun as well?
+
+I was able to get a pretty good shot of it.
+
+Download SCP-7000-A
+@@ @@
+[[/=]]
+[[/div]]
+[[/div]]
+@@ @@
+
+[[include component:image-block
+| name=http://scp-sandbox-3.wikidot.com/local--files/fragment:scp-theelegantman-1-offset-1/Midnight%20Sun
+| caption=SCP-7000-A/Midnight Sun
+| width=300px
+]]
+
+@@ @@
+
+@@ @@
+
+@@ @@
+ 
+@@ @@
+
+@@ @@
+
+@@ @@
+
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] __Foundation Audio Program V.07__[[/size]]
+@@ @@
+@@ @@
+//I said I was making a pit stop for supplies. Checking for any canned food...but I'm pretty sure he understood my real reasons. I just had to check... I already knew but I just had to see it. I just had to see it with my own eyes... and there you were. Your ashes still grasping the phone. I'm sorry Monika... I should've been there with you.//
+
+[Clink]
+
+Number 77
+The ride was as smooth as one would think. It was still so quiet, with the only noise coming from our own engine. No road rage, no excessive and prudent honking, nobody trying to sell us flowers at a red light. I hated every second of it.
+
+We ended up passing through a gated community, just to check if there was anything we could find useful for the rest of the ride. Meat, water... beer. It took us an hour to find something that wasn't completely covered in ash. 
+
+[Clink]
+
+Logan was already back at the truck waiting for me. I decided to check one more house for a beer before heading back. Then I heard something behind me.
+
+It was Logan crouching silently behind me, motioning for me to get down. I asked him, "what's the problem." He said nothing but prompted me to look through the kitchen window.
+
+At first, I thought it was a naked man simply covered in ash, but no... that was no man. Covered, no, made of ash, it was tall, I'm guessing two-hundred and thirty centimeters. Its body was shaped like the human muscular system. 
+
+But it had no mouth, bearing its teeth, and its hands had no fingers, instead sharpened and long knife-like structures, and it held no eyes, but rather deep sockets filled with a void except for the tiny white dot you could find inside.
+
+[Clink]
+
+Logan whispered, "it spooked me and I ran off. I don't think it can hear us but I don't know about its sight. We need to get back to the car, now."
+
+That was the plan... the only plan we had in mind. There was no telling how many there were out there. We began silently exiting the house, watching our every step, making sure not to slip.
+
+As we made our way through each house and intersection, more and more of those things popped up. It felt like it was getting denser and denser the closer we got to the truck. I thought by the time we made it, we would have already lost a few limbs. But then, involuntary bait appeared.
+
+A kid, no older than fifteen, was walking the opposite way from our truck. He was covered up, with a mask on for the ash. To survive as long as he did was nothing short of a miracle. A miracle... that miracle failed him.
+
+[Clink]
+
+He took one wrong step and came into view of one of those things. It was like the air froze and things became even more silent. Simultaneously, they turned their heads toward the boy's direction, as if they all say through the single walking ash.
+
+Then... then they all charged the boy. We took the opportunity and ran to the truck but I foolishly looked backward. He was being ripped apart. They ripped his limbs from his body and shredded them finely enough to where the fragments of bones blended in nicely with the ash. 
+
+They pulled his intestines through every pore of his body like an amateur playing with a yarn ball. His screaming was guttural, you could hear him fighting the blood rushing throughout his throat until they relieved him of his esophagus. 
+
+They pulled his spine out, tore his jaw off, and smashed his head until it was just jelly. The boy was no longer a boy but instead, a meaty slop left for nothing to devour at this stage in the world. It felt too disrespectful... 
+
+[Clink]
+
+We made it to the car and didn't talk about what had transpired for the rest of the ride. It was a mutual understanding that there was nothing we could do. That's a lie...
+
+[Clink]
+
+We could've taken a gamble. Diverted their attention or something.
+
+[Silence]
+
+That's a lie...
+
+[Clink]
+
+Upload Audio Log From Computer 5/16/2033, 5:38
+@@ @@
+[[/=]]
+[[/div]]
+[[/div]]
+@@ @@
+
+[[div class="blockquote"]]
+**AUDIO LOG**
+------
+
+[Begin Recording]
+
+**Logan Smith:** No way... you got that damn thing to work.
+
+**Andrew Garland:** Yup, just barely. Seems like the audio recording was left on too. Got anything you wanna say to the end of the world.
+
+**Logan Smith:** Heh, if I'm being honest, man. I just wanna hug my kids again or at least be there with them in that instant.
+
+[They both pause]
+
+**Andrew Garland:** Yeah... I understand exactly what you mean.
+
+[There is silence for five minutes]
+
+**Andrew Garland:** Hmmm... looks like most of the data's been corrupted.
+
+**Logan Smith:** What do you mean corrupted?
+
+**Andrew Garland:** Corrupted in the sense that mostly everything here is either deleted or completely unintelligible. Every log, every article... Jesus this sucks.
+
+**Logan Smith:** That's a shame. Well, keep digging till you find something noteworthy.
+
+**Andrew Garland:** Will do cap.
+
+**Logan Smith:** Pretty sure you outrank me.
+
+[Andrew laughs at the remark]
+
+**Andrew Garland:** I'm pretty sure rank don't matter at this point.
+
+------
+[End Log]
+[[/div]]
+@@ @@
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] __Foundation Audio Program V.07__[[/size]]
+@@ @@
+@@ @@
+//I did find something. I found out why my wife was gone. Why that child was ripped apart. Why the Sun was stripped of its brightness. All for a gamble. I didn't think Logan would need to hear that but now that he's... I should've told him.//
+
+[Clink]
+
+Number 99
+We arrived at the vicinity surrounding the Site. We were expecting more sound but the deafening silence was as potent as ever. Logan, now on the passenger's side, looked for any survivors in this sea of ash.
+
+But no one showed themselves. At this point, we were starting to become even more anxious. Was the signal something set up before everybody died? Is there really something that can reverse all this? 
+
+[Clink]
+
+While surfing through this sea of thoughts. Logan pointed something out to me. Blood. We passed a faint trail of blood. From what we understood, this world-ending anomaly didn't cause anyone to bleed. But we knew what did. 
+
+Down the field, near the entranceway of Site 83, we noticed something. It was one of those things... the killing made from ash and at that moment... it noticed us.
+
+It began running at speeds I couldn't conceive. I floored it trying to get past him so that we could make it inside the facility but then one of those things rose from the ash beneath us and sent our truck flying. 
+
+[Clink]
+
+Logan was the first one to regain his composure. He got out of the truck and pulled me out of it now that it was inoperable. We saw both charging at us, noticing our momentary weakness. Logan pulled out his rifle and fired at both.
+
+They tripped and tumbled, the rifle slowed them down and damaged them but they were repairing themselves using the ash around them. He grabbed me by the arm, telling me we had to move but he didn't see what I saw. 
+
+One of them formed themselves right behind him. I pushed him out the way before it swiped and instead of it knocking his head off, it took my eyes. From now on, I am forever in the dark.
+
+I heard a shot echo. I felt a touch on my arm. I was lifted and carried, all the while the shots rang. I heard the cries of a man telling me to keep moving... to keep going. I could smell the ash, the metallic sting of my blood, and the intoxicating scent of gunpowder.
+
+[Clink]
+
+Right when I regained my bearings, I heard the stomps of an army trying to eradicate us. Then a push and then an order, run... forward.
+
+The screams as I ran were gut-wrenching. I wish they took my ears instead. I ran into the facility, laptop in hand, unaware of my surroundings. Yet... I knew when to turn. When to go down the flight of stairs and then off.
+
+[Clink]
+
+Something was pulling me... and I knew what. 
+
+[Clink]
+
+I pushed for you to be suspended. I pushed for you to be thrown away...and I failed. I failed everyone. 
+
+[Clink]
+
+It pushed its little tendrils in every crevice it could possibly think of. I should've pushed harder.
+
+[Andrew's breathing stutters with an on and off hiccup caused by the tears flowing down his face]
+
+I think you understand now... and you probably felt its pull too. There's enough food and water to last you for weeks. Flip the coin... over and over and over. Until everything goes blank and this is all a dream.  I've flipped for so long and yet... I don't think anything changed.
+
+I no longer have the strength to talk. My mind is numb and is now losing its hold. All I can do now...
+
+[Clink]
+
+[Clink]
+
+Oh Monika...
+
+[Clink]
+
+I'm sorry...
+
+[Clink]
+
+[Clink]
+
+[Clink]
+
+[Clink]
+
+[Clink]
+
+[Clink]
+
+[Clink]
+
+[Silence]
+
+[Silence]
+
+[Silence]
+
+[Silence]
+
+[Silence]
+
+[Silence]
+
+
+
+ WARNING
+@@ @@
+
+[[size 150%]] Power Level 0% Shutting Down[[/size]]
+
+@@ @@
+
+[End Recording]
+[[/=]]
+[[/div]]
+[[/div]]
+@@ @@

@@ -1,0 +1,137 @@
+[!-- CSS for SCiPNET login. --]
+[[module CSS]]
+.email-block .collapsible-block .collapsible-block-unfolded-link {
+margin:0.5em 0;
+text-align: center;
+}
+.email-block .collapsible-block .collapsible-block-folded {
+margin:0.5em 0;text-align: center;
+}
+.email-block .collapsible-block a.collapsible-block-link {
+display: inline-block;
+width: 50%;
+max-width: 160px;
+background-color: Maroon;
+color: white;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+opacity: 0.9;
+transition: 0.09s;
+border-radius: 3px;
+transition 0.8s;
+}
+.email-block .collapsible-block a.collapsible-block-link:hover {
+opacity: 1;
+transition: 0.8s;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.7);
+text-decoration: none;
+}
+.email-block .collapsible-block a.collapsible-block-link:active {
+transition: 0.09s;
+transform: translateY(1px);
+box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+.blinkbar {color: #bb0010; font-size:125%; animation: blink 1.5s infinite; animation-iteration-count: 3;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
+@keyframes blink {
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
+}
+[[/module]]
+
+
+[!-- Login form. --]
+[[html]]
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=K2D' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {font-family: Verdana;}
+* {
+    box-sizing: border-box;
+}
+ 
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+ 
+}
+ 
+.input-field:focus{
+    border-style: solid;
+    transition: 0.5;
+    border-color: maroon;
+    border-width: 2px;
+}
+ 
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    transition: 0.5s;
+}
+ 
+p{
+    font-family: Helvetica;
+    margin-bottom: 5%;
+}
+
+</style>
+</head>
+<body>
+ 
+<form autocomplete="off" style="max-width:450px;text-align:center;margin: auto;">
+<p style="font-size:55px; font-weight: bold; font-family: K2D, sans-serif;">SCiPNET LOGIN</p>
+<div class="input-container">
+  <input class="input-field" type="text" placeholder="Username" name="username" value="briareus_staff" readonly="readonly">
+</div>
+ 
+<div class="input-container">
+  <input onkeyup="if(this.value.length > 0) document.getElementById('start_button').disabled = false; else document.getElementById('start_button').disabled = true;" class="input-field" type="password" placeholder="Password" value="STARTLEtheSUN" readonly="readonly">
+</div>
+ 
+</form>
+</body>
+</html>
+[[/html]]
+
+[!-- Intro email. --]
+[[div class="email-block"]]
+[[collapsible show="Sign in" hide="Sign out"]]
+@@ @@
+@@ @@
+[[=]]
+[[span class="blinkbar"]]NEW MESSAGE[[/span]]
+[[div class="logbox"]]
+[[<]]
+[[div class="tofrom"]]
+**To:** Project Briareus Staff
+**From:** Director Zeig Skannon
+**Subject:** Containment in 2020 and Beyond
+[[/div]]
+------
+Recently, a number of people have asked me why this project exists. The Foundation's resources aren't unlimited, so why should we use them to seek out anomalies we wouldn't even know existed if we didn't look? In the short term, it appears to have little benefit; however, in the long term, it will prove to be essential.
+
+One of the greatest challenges we face as an organization which, at its core, strives to control change is determining what //should// change. Where is the line drawn between anomalous and mundane? When should science be top secret, and when should it be used to advance humanity?
+
+These questions do not always have answers. But one thing my colleagues and I are absolutely certain of is that, if humanity is to have a future, it will lie beyond Earth.
+
+To date, a number of extraterrestrial anomalies have been documented and contained, but the majority of the Foundation’s work has been terrestrial in nature. Looking to the future, a dedicated space program will become exponentially more important. It is our job to clear the way for humanity’s advancement so that, when future generations look back through their history and forward to their own prospects, it will cohere into something that makes sense; to explore the darkness so others can expand into the light; and, as always, to secure, contain, and protect.
+
+Towards this end, Project Briareus is being significantly expanded. All staff will be required to read the logs from the mission which took place at the end of last year. This will give you an example of the sort of things we expect to encounter out there and an opportunity to learn from past mistakes. The logs have been attached to this message.
+
+Good luck to you all.
+– Zeig Skannon, Project Briareus Director
+------
+1 attachment: [[[http://www.scp-wiki.net/scp-5300/offset/1 | briareus_3_logs.fdoc]]]
+[[/<]]
+[[/div]]
+[[/=]]
+[[/collapsible]]
+[[/div]]
+@@ @@
+@@ @@
