@@ -237,7 +237,9 @@ a.collapsible-block-link { font-weight: bold; }
 }
 
 [[%%content{0}%%/module]]
-[[%%content{0}%%include :topia:kaktus-header |head=AUTOMATIC%20NOTICE|desc=As%20directed%2C%20I've%20collected%20some%20relevant%20documentation%20below%2C%20all%20of%20which%20is%20within%20your%20security%20clearance%2C%20of%20course.%20Hope%20it%20helps%2C%20Director%20Smith%2C%20and%20thank%20you%20for%20your%20service!|num=-SILVERFISH.aic]]
+[!-- 自動通知 --]
+[!-- 命令に従い、全ての関連文書を以下に収集しました。当たり前ですがあなたのセキュリティクリアランスの範囲内のものです。スミス管理官の助けとなることを望みます。ご利用ありがとうございました！ --]
+[[%%content{0}%%include :topia:kaktus-header |head=%E8%87%AA%E5%8B%95%E9%80%9A%E7%9F%A5|desc=%E5%91%BD%E4%BB%A4%E3%81%AB%E5%BE%93%E3%81%84%E3%80%81%E5%85%A8%E3%81%A6%E3%81%AE%E9%96%A2%E9%80%A3%E6%96%87%E6%9B%B8%E3%82%92%E4%BB%A5%E4%B8%8B%E3%81%AB%E5%8F%8E%E9%9B%86%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%E5%BD%93%E3%81%9F%E3%82%8A%E5%89%8D%E3%81%A7%E3%81%99%E3%81%8C%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%A9%E3%83%B3%E3%82%B9%E3%81%AE%E7%AF%84%E5%9B%B2%E5%86%85%E3%81%AE%E3%82%82%E3%81%AE%E3%81%A7%E3%81%99%E3%80%82%E3%82%B9%E3%83%9F%E3%82%B9%E7%AE%A1%E7%90%86%E5%AE%98%E3%81%AE%E5%8A%A9%E3%81%91%E3%81%A8%E3%81%AA%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%9C%9B%E3%81%BF%E3%81%BE%E3%81%99%E3%80%82%E3%81%94%E5%88%A9%E7%94%A8%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81|num=-SILVERFISH.aic]]
 
 ----
 ----
@@ -267,6 +269,7 @@ a.collapsible-block-link { font-weight: bold; }
 ゴッドスピード
 [[>]]
 [[span class="o"]]-//Dr. Aningan Regan, Site Director of CANUAR-Site-90//[[/span]]
+-//アニンガン・リーガン博士、CANUAR-サイト-90サイト管理官//
 -//アニンガン・リーガン博士、CANUAR-サイト-90サイト管理官//
 [[/>]]
 [[/div]]
@@ -375,6 +378,7 @@ a.collapsible-block-link { font-weight: bold; }
 +++ [[span class="o"]]Director Smith,[[/span]]
 +++ スミス管理官
 ++++ [[span class="o"]]This is an automated message to inform you that an unidentified figure has been spotted less than five kilometers from Site-90's security perimeter. Visual scans suggest 29% probability of a containment breach. Please stand by.[[/span]]
+++++ これはあなたにお知らせする自動メッセージです。未確認人物がサイト-90のセキュリティ境界から5km以内に発見されています。ビジュアルスキャンは29%の確率で収容違反を示唆しています。準備してください。
 [[/div]]
 [[/=]]
 ----
@@ -382,19 +386,24 @@ a.collapsible-block-link { font-weight: bold; }
 [[div class="email"]]
 [[div class="tofrom"]]
 [[span class="o"]]**To:** SSmith18@Scipnet (Dr. Silas Smith; Classification Level 2/5947; Employee Number 5994)[[/span]]
+**To:** SSmith18@Scipnet (シラス・スミス博士; 機密レベル2/5947; 雇用者番号5994)
 [[span class="o"]]**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)[[/span]]
 **From:** ARegan2@Scipnet (サイト管理官 アニンガン・リーガン; 機密4/S90; 雇用者番号378)
 [[span class="o"]]**Subject:** Congratulations, and a heart-to-heart[[/span]]
-**Subject:** 
+**Subject:** おめでとう、それと腹を割って話そう
 [[/div]]
 ----
 [[span class="o"]]Dr. Smith,[[/span]]
+スミス博士
 
 [[span class="o"]]Congratulations on receiving your doctorate. I'm... skeptical regarding the applications of such a thesis, especially how it pertains to Site-90.[[/span]]
+博士号修得おめでとう。私は……そのようなテーマの願書に関して特にそれがサイト-90にどうして相応しいのか疑問に思うよ。
 
 [[span class="o"]]Are you feeling alright? It's normal for graduate studies to take a toll on your well-being, but last I saw you, you were unusually... stiff, is the only word that comes to mind. Take a breather: you're done. Worry about some self-replicating pizza toppings for the time being.[[/span]]
+体調は大丈夫かい？大学院の研究で健康を犠牲にするのは普通だけれども、前回君を見た時君は普通じゃなく……堅固だった、そうとしか言いようがない。ちょっと休みなよ。君は成し遂げたんだから。しばらくは自己複製するピザのトッピングについて考えてなよ。
 [[>]]
 [[span class="o"]]-//Dr. Aningan Regan, Site Director of CANUAR-Site-90//[[/span]]
+-//アニンガン・リーガン博士、CANUAR-サイト-90サイト管理官//
 [[/>]]
 [[/div]]
 ----
@@ -402,23 +411,28 @@ a.collapsible-block-link { font-weight: bold; }
 [[div class="email"]]
 [[div class="tofrom"]]
 [[span class="o"]]**To:** SSmith18@Scipnet (Dr. Silas Smith; Classification Level 2/5947; Employee Number 5994)[[/span]]
+**To:** SSmith18@Scipnet (シラス・スミス博士; 機密レベル2/5947; 雇用者番号5994)
 [[span class="o"]]**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)[[/span]]
 **From:** ARegan2@Scipnet (サイト管理官 アニンガン・リーガン; 機密4/S90; 雇用者番号378)
 [[span class="o"]]**Subject:** Re: Utilization of SCP-5947[[/span]]
-**Subject:** 
+**Subject:** Re: SCP-5947利用について
 [[/div]]
 ----
 [[span class="o"]]Dr. Smith,[[/span]]
+スミス博士
 
 [[span class="o"]]Your request has been received, and summarily denied.[[/span]]
+君の要望は受理され、そしてすぐさま否認された。
 
 [[span class="o"]]The schematics you have provided are nearly incomprehensible. Furthermore, the ramifications of such a device's very existence would outweigh whatever good its functions may bring to the Foundation.[[/span]]
+君の提出した回路図はほぼわけがわからないよ。さらにその上、こんな機器が存在するだけで生じる悪影響はその機能がどれだけ財団に良きをなそうと上回るだろう。
 
 [[span class="o"]]Honestly? I'm worried about you. Most of your free time is spent tilting this particular windmill. I get it, Silas, but it feels like you're attempting to hammer a round peg into a square hole. Site-90 isn't Foundation Overwatch; they deal with the spies, we deal with the cameras.[[/span]]
 
 [[span class="o"]]I apologize for the inconvenience.[[/span]]
 [[>]]
 [[span class="o"]]-//Dr. Aningan Regan, Site Director of CANUAR-Site-90//[[/span]]
+-//アニンガン・リーガン博士、CANUAR-サイト-90サイト管理官//
 [[/>]]
 [[/div]]
 ----
@@ -426,6 +440,7 @@ a.collapsible-block-link { font-weight: bold; }
 [[div class="email"]]
 [[div class="tofrom"]]
 [[span class="o"]]**To:** SSmith18@Scipnet (Dr. Silas Smith; Classification Level 2/5947; Employee Number 5994)[[/span]]
+**To:** SSmith18@Scipnet (シラス・スミス博士; 機密レベル2/5947; 雇用者番号5994)
 [[span class="o"]]**From:** ARegan2@Scipnet (Site Director Aningan Regan; Classification 4/S90; Employee Number 378)[[/span]]
 **From:** ARegan2@Scipnet (サイト管理官 アニンガン・リーガン; 機密4/S90; 雇用者番号378)
 [[span class="o"]]**Subject:** Re:Re:Re: Utilization of SCP-5947[[/span]]
@@ -433,6 +448,7 @@ a.collapsible-block-link { font-weight: bold; }
 [[/div]]
 ----
 [[span class="o"]]Dr. Smith,[[/span]]
+スミス博士
 
 [[span class="o"]]Your request has been received, and summarily denied.[[/span]]
 
@@ -441,6 +457,7 @@ a.collapsible-block-link { font-weight: bold; }
 [[span class="o"]]Unofficially: You're scaring me, Silas. Stop now, before I'm forced to lodge a complaint with Overwatch Command.[[/span]]
 [[>]]
 [[span class="o"]]-//Dr. Aningan Regan, Site Director of CANUAR-Site-90//[[/span]]
+-//アニンガン・リーガン博士、CANUAR-サイト-90サイト管理官//
 [[/>]]
 [[/div]]
 ----
@@ -471,6 +488,7 @@ a.collapsible-block-link { font-weight: bold; }
 +++ [[span class="o"]]Director Smith,[[/span]]
 +++ スミス管理官
 ++++ [[span class="o"]]This is an automated message to inform you that PoI-000 ("Nobody") has been spotted within Site-90's outer security perimeter. Please stand by.[[/span]]
+++++ これはあなたにお知らせする自動メッセージです。サイト-90の外側セキュリティ境界内にPoI-000 ("何者でもない")が発見されています。準備してください。
 [[/div]]
 [[/=]]
 ----
@@ -529,6 +547,7 @@ a.collapsible-block-link { font-weight: bold; }
 +++ [[span class="o"]]Director Smith,[[/span]]
 +++ スミス管理官
 ++++ [[span class="o"]]This is an automated message to inform you that PoI-000 has been spotted heading towards the inner security perimeter of Site-90. Please stand by.[[/span]]
+++++ これはあなたにお知らせする自動メッセージです。サイト-90の内側セキュリティ境界に向けて進行するPoI-000が発見されています。準備してください。
 [[/div]]
 [[/=]]
 ----
