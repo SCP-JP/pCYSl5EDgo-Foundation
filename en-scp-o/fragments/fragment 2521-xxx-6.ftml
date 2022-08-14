@@ -1,0 +1,26 @@
+[[module CSS]]
+#page-content div.box {
+    position: relative;
+}
+#page-content div.background {
+    position: absolute;
+    z-index: 0;
+}
+#page-content div.overlay {
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+}
+#page-content div.overlay:hover {
+    opacity: 1;
+}
+[[/module]]
+
+[[div class="box"]]
+[[div class="background"]]
+[[image Jinn2521XXX-6.png]]
+[[/div]]
+[[div class="overlay"]]
+[[image Jinn2521XXX-7.png]]
+[[/div]]
+[[/div]]
