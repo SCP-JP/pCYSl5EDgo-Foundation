@@ -1,0 +1,130 @@
+[[include :scp-jp:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:extra-black-highlighter-theme]]
+[[module css]]
+.page-tags  {
+display:none
+}
+
+div.pseudo-tags ul {
+    font-size: 85%;
+    border-top: 1px solid #BBB;
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 0 2px;
+    list-style: none;
+}
+
+div.pseudo-tags li {
+    color: #b01;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+div.pseudo-tags li:hover {
+    text-decoration: underline;
+}
+[[/module]]
+
+[[include component:object-warning-box-source
+|bg-image=http://scp-jp-storage.wikidot.com/local--files/file:6673216-112-539r/SCP_Foundation_%28emblem%29.svg
+|bg-opacity=0.15
+|text-top=監督評議会命令
+|text-bottom=以下のファイルはレベル6/001機密情報です。
+**無許可のアクセスは禁止されています。**
+|object-number=001
+]]
+
+[[include component:anomaly-class-bar-source
+|item-number= 001
+|clearance= 6
+|container-class= esoteric
+|secondary-class= principalis
+|secondary-icon= http://scp-jp-storage.wikidot.com/local--files/file:5722815-44-luto/principalis-icon-png.png
+|disruption-class= amida
+|risk-class= notice
+]]
+
+-----
+
+[[include component:image-block name=allthingsmustend.png|align=center|width=700px|caption=全てを終わらせなければならない]]
+
+-----
+
+**特別収容プロトコル:** SCP-001の収容体制の確立は財団監督評議会の義務です。
+
+**説明:** SCP-001の本質を知る事は財団の本質を知る事です。
+
+詳細は//文書001-GOI.01-Operatus//を確認してください。
+
+**補遺001.1:** 付属文書
+
+[[collapsible show="解読キーを入力してください。" hide="解読中…"]]
+@@@@
+@@@@
+[[=]]
+[[div style="display: inline-block; border: dashed 1px #444444; margin-left: auto; margin-right: auto; width: 380px; padding: 10px"]]
+最初の人はただ1人立ち尽くした
+不毛の土地の只中に
+そして彼は遠くに見た
+鍵の掛かる門を
+最大の恥辱を封じられた門を。
+ 
+彼は蛇を見遣った
+まるで蚯蚓のように
+腹でのたうつソレを
+そして彼はその裏切りを呪った。
+ 
+「私を騙したな」男は言った
+「私を堕落へと誘い
+そして我々は地獄に落とされたのだ。」
+ 
+蛇は嘆息した。
+「私は君に知恵を与えた」ソレは言った
+「そしてその知恵で
+君は君自身の選択を決めた。
+それは私が変わってしてやれる事ではない。」
+ 
+男は叫んだ
+「どちらにしても同じだ、お前を信じた事こそが
+私の最大の過ちだったのだ。」
+
+「違うよ」ヘビは言った
+「君の最大の過ちは、
+君に選択肢などが有ったと思った事だ。」
+@@@@
+@@@@
+- -- -
+@@@@
+@@@@
+[[div style="display: inline-block; border: solid 1px #000000; background-color: #F5F5F5 ; width: 300px;"]]
+[http://ja.scp-wiki.net/djkaktus-s-proposal-iii/offset/1 文書001-GOI.01-Operatusにアクセスします]
+[[/div]]
+[[/div]]
+[[/=]]
+[[/collapsible]]
+
+@@ @@
+
+[[collapsible show="+ タグを表示する" hide="- タグを閉じる"]]
+[[div class="pseudo-tags"]]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/001提言#pages 001提言]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/aaron-siegel#pages aaron-siegel]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/en#pages en]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/esoteric-class#pages esoteric-class]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/scp#pages scp]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/エンジニア#pages エンジニア]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/エージェント・ラメント#pages エージェント・ラメント]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/カオス・インサージェンシー#pages カオス・インサージェンシー]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/クレフ博士#pages クレフ博士]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/タウ-5-サムサラ#pages タウ-5-サムサラ]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/不死身の爬虫類#pages 不死身の爬虫類]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/倫理委員会#pages 倫理委員会]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/放浪者の図書館#pages 放浪者の図書館]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/概念#pages 概念]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/現実改変#pages 現実改変]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/管理者#pages 管理者]
+* [*http://scp-jp.wikidot.com/system:page-tags/tag/黒の女王#pages 黒の女王]
+[[/div]]
+[[/collapsible]]

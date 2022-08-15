@@ -1,0 +1,266 @@
+[[module css]]
+{Thanks to Hippo! Adapted from djkaktus darkbody theme}
+
+@import url('https://fontlibrary.org/face/lsw-drachenklaue');
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+
+
+div#container-wrap {
+    background: none;
+}
+
+h1, #page-title {
+    color: #77CC77 !important;
+}
+
+#page-title {
+    border-color: #77CC77;
+}
+
+body {
+color: #77CC77;
+background-color:#002200;
+   font-family: 'LSWDrachenklaueDrachenklaueSamys01';
+}
+
+#header {
+    background: url(http://scp-wiki.wdfiles.com/local--files/jack-ike-s-proposal-ii/TindalosLogo.png) 10px 40px no-repeat;
+}
+
+#header h1 a {
+color: #77CC77;
+   font-family: 'LSWDrachenklaueDrachenklaueSamys01';
+}
+
+#header h2 {
+   font-family: 'LSWDrachenklaueDrachenklaueSamys01';
+}
+
+#header h2 span{
+color: #77CC77;
+}
+
+a:visited {
+color: #77CC77;
+}
+
+a:hover {
+color: #77CC77;
+}
+
+a {
+     color: #77CC77;
+}
+
+#side-bar .side-block {
+border: none;
+background: transparent !important;
+box-shadow: none;
+}
+
+#side-bar img {
+display: none;
+}
+
+#side-bar a:visited{
+    color: #77CC77;
+}
+
+#side-bar .heading {
+     color: #77CC77;
+    border-bottom: none
+}
+
+#side-bar div.menu-item.inactive a {
+     color: #77CC77;
+}
+
+#side-bar div.menu-item .sub-text {
+     color: #77CC77;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link {
+     color: #77CC77;
+}
+
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+     color: #77CC77;
+}
+
+#top-bar a {
+     color: #77CC77;
+}
+
+#top-bar ul li ul {
+    border: solid 1px #77CC77;
+    box-shadow: none;
+}
+
+#top-bar ul li a {
+    border-left: none;
+    border-right: none;
+}
+
+#top-bar ul li.sfhover a,
+#top-bar ul li:hover a {
+background:#002200;
+     color: #77CC77;
+    border-left: solid 1px #77CC77;
+    border-right: solid 1px #77CC77;
+    border-top: solid 1px #77CC77;
+}
+
+#top-bar ul li.sfhover ul li a,
+#top-bar ul li:hover ul li a {
+border-top: none;
+}
+
+#top-bar ul li.sfhover a:hover,
+#top-bar ul li:hover a:hover {
+background:#002200;
+     color: #77CC77;
+}
+
+#search-top-box-input {
+    border: solid 1px #77CC77;
+    border-radius: 0px;
+    color: #77CC77;
+    background-color: #002200;
+    box-shadow: none;
+display: none;
+}
+
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #77CC77;
+    color: #77CC77;
+    background-color: #002200;
+    box-shadow: none;
+}
+
+#search-top-box-form input[type=submit] {
+    border: none;
+    border-radius: 0px;
+    color: #77CC77;
+    background-color: #002200;
+    background: none;
+    box-shadow: none;
+   font-family: 'LSWDrachenklaueDrachenklaueSamys01';
+}
+
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    text-decoration: underline;
+    border: none;
+    border-radius: 0px;
+    color: #77CC77;
+    background-color: #002200;
+    background: none;
+    box-shadow: none;
+}
+
+#login-status {
+display: none;
+}
+
+#login-status a {
+display: none;
+}
+
+#login-status ul a {
+display: none;
+}
+
+#account-topbutton {
+display: none;
+}
+
+.printuser img.small {
+display: none;
+}
+
+blockquote {
+    color: #77CC77;
+    background-color: #002200;
+border-color: #77CC77;
+font-family: 'PT Mono', monospace;
+}
+
+{Following code courtesy of Rounderhouse}
+/* RATING MODULE */
+
+.page-rate-widget-box .rate-points {
+     background-color: #002200 !important;
+     color: #77CC77;
+     border: solid 1px #77CC77;
+}
+.page-rate-widget-box .rateup, .page-rate-widget-box .ratedown {
+     background-color: #002200;
+     font-weight: bold;
+     border-top: solid 1px #77CC77;
+     border-bottom: solid 1px #77CC77;
+ }
+.page-rate-widget-box .rateup a, .page-rate-widget-box .ratedown a {
+     background: #002200;
+     color: #77CC77;
+     border-top: solid 1px #77CC77;
+     border-bottom: solid 1px #77CC77;
+}
+.page-rate-widget-box .rateup a:hover, .page-rate-widget-box .ratedown a:hover {
+     background: #77CC77;
+     color: #002200;
+}
+.page-rate-widget-box .cancel {
+     background-color: #002200;
+     border: solid 1px #77CC77;
+}
+.page-rate-widget-box .cancel a {
+     background: transparent;
+     color: #77CC77;
+}
+.page-rate-widget-box .cancel a:hover {
+     background: #77CC77;
+     color: #002200;
+ }
+[[/module]]
+**指定:** CDXXXVIIICMXI
+
+**情報:** その奇妙な物体は、技術的な驚異に満ちた過ぎ去った時代の建物の残骸と思われます。部屋とホール全体には、他では目にすることのできない言語に属する文字がありますが、未だ解読が進められています。我々が理解していることは、残存レベルが「サブレベル3」、「サブレベル4」、「サブレベル5」、「サブレベル6」と呼ばれていることを意味しているようです。
+
+多くの部屋は、非常に洗練された[[span class="ruby"]]コナーラク・ビブロフォスエネルギー貯蔵解析オートマトン[[span class="rt"]]Kronak-Vivelofos Energised Analysation Automatons[[/span]][[/span]]と思われるものを収容することに専念しています。それらは我々自身の物の生産方法とは全く異なる方法で作られていますが、我々に与えられた時間は、我々の物と残りの物とを結合させる方法を開発しました。
+
+我々は、これらの装置には異常に関する膨大な文書シリーズが含まれていることを発見しました。その多くはすでに発見して入手していますが、我々が学んだ情報は、これらの異常を制御する上で非常に役立ちました。
+
+それだけでなく、我々が理解していることから、この驚くべき驚異の創造者たちは私たち自身よりはるかに平和な時代に住んでいたと信じるようになりました。彼らが住んでいた世界は今のように奇妙なものに悩まされていませんでした。戦争や混沌、死ではなく、平和や繁栄や生によって破滅したのです。
+
+この時が今来たものよりはるかに優れているというのは[[span class="ruby"]]長老達[[span class="rt"]]High Elders[[/span]][[/span]]の決定のため、[[span class="ruby"]]ゲオファ・ムンドゥス[[span class="rt"]]Geopha Mundus[[/span]][[/span]]を以前の栄光に戻す事を目指します。
+
+我々は時代の分岐をこの時代に引き戻し、古い太陽の下の世界を再生させる装置の設計図を発見したと考えています。これらの図式の多くは失われましたが – オートマトンは不可解な目的の為に、この驚異の全容を我々に話す気がないようで – [[span class="ruby"]]長老達[[span class="rt"]]High Elders[[/span]][[/span]]の総意が、何をしなければならないかを十分に知っています。
+
+もちろん、彼らの未来が実現しなかったように、我々は過去に我々の侘しい現在を警告することを確実にします。我々が理解できる限り彼らの言語で書かれたメッセージは、彼らのオートマトンに入れられるでしょう – これほど長い間生き残ったので、それは逆に同じことをするべきです。
+
+それがうまくいかない場合には、我々が管理している奇妙なものの力を与えられた大使を送り返せば、彼らが我々の衰退しつつある未来を取り返しながら、時間の枝が成長し繁栄し続けることを保証できるようになります。
+
+**メンテナンス:** 奇妙な物体は、それ自体が崩壊しないことを確認する以外に、継続的なメンテナンスを必要としないようです。
+
+そのため、メンテナンスでは不要な[[span class="ruby"]]略奪者[[span class="rt"]]Incursors[[/span]][[/span]]や[[span class="ruby"]]腐敗する従者[[span class="rt"]]Decaying Acolytes[[/span]][[/span]]を排除することに重点を置く必要があります。我々はこの奇妙さが損なわれないようにしなければなりません。明るい未来への唯一の希望かもしれません。
+
+**補足:** [[span class="ruby"]]長老達[[span class="rt"]]High Elders[[/span]][[/span]]が、奇妙な物体の中に存在する主要な言語で、過ぎ去った時代に転写したメッセージは次のようなものです。
+
+> 挨拶。
+>
+> 我々 メッセージ 作成。 我々 特別収容プロトコル 財団 二。 君達 以前 特別収容プロトコル 財団。
+>
+> 順守。
+>
+> 我々 時代 Apollyon XK-クラス 比較 君達 時代 Safe。 我々 異常 Explained 比較 君達 異常 Euclid Thaumiel。 我々 捲られたベール 君達 比較。
+>
+> データベース 君達 時代 我々 時代。 我々 異常 データベース Thaumiel。 君達 時代 修正 我々 時代 廃止。
+>
+> 君達 データベース 異常 建造 データ。我々 時代 異常 修正 君達 時代 収容 修正。 我々 異常 建造 時代 修正。 君達 時代 Safe 我々 時代 Apollyon XK-Class 修正。
+>
+> 我々 データベース 君達 時代。我々 データベース 君達 Thaumiel。
+>
+> よろしくお願いします、
+> 特別収容プロトコル 財団 二 O5 評議会。
+>
+> [[[http://ja.scp-wiki.net/scp-series|> データベース]]]

@@ -1,0 +1,650 @@
+[[module css]]
+.footnoteref{
+color: #FF5555;
+}
+.danke{
+padding: 5px 5px 5px 15px;
+margin-bottom:10px;
+width: 100%;
+font-family: monospace;
+font-size: 1.1em; }
+
+.agent{
+background-color:#002200;
+border: 3px solid #55AA55;
+color: #77CC77;
+}
+
+.site{
+background-color:#222200;
+border: 3px solid #AAAA55;
+color: #DDDD77;
+}
+
+div.terminal{
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
+/* black shadow at the top of the terminal */
+    background-image:
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
+/* shadow around the terminal */
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+/* prevents scanline from forming a scrollwheel */
+    overflow:hidden;
+}
+div.terminal blockquote {
+    background-color: black;
+    border: double 3px #80FF80
+}
+div.scanline{
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+/* Safari 4.0 - 8.0 */
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+}
+
+div.text{
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 10%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+}
+
+@keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
+}
+
+div.text a {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a.newpage {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a:hover {
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
+}
+div.text a:hover::before{
+content: "> ";
+}
+[[/module]]
+
+[[html]]    
+<style type="text/css">
+body {
+     font-family: verdana, arial, helvetica, sans-serif;
+     font-size: 12.8px; /* 16px * 0.8 */
+     color: #333;
+     line-height: 141%;
+    }
+
+div.terminal{
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
+/* black shadow at the top of the terminal */
+    background-image:
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
+/* shadow around the terminal */
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+/* prevents scanline from forming a scrollwheel */
+    overflow:hidden;
+}
+div.terminal blockquote {
+    background-color: black;
+    border: double 3px #80FF80
+}
+div.scanline{
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+/* Safari 4.0 - 8.0 */
+    -webkit-animation: scan 12s linear 0s infinite; /* You may need to change this. If the bar goes by too quickly, increase 5s. */
+    animation: scan 12s linear 0s infinite; /* Same as above */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+}
+
+div.text{
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 20%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* You may need to change this depending on the length of your terminal. If the scanline stops halfway, increase the second number.*/
+}
+
+@keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* Same as above.*/
+}
+
+div.text a {
+    color: #FA8072;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a.newpage {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a:hover {
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
+}
+div.text a:hover::before{
+content: "> ";
+}
+.collapsed {
+     display: none;
+    }
+.preCollapsed {
+     display: none;
+    }
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+var collapsibleLink = function(className) {
+    var collapsed = document.querySelectorAll("." + className + ".collapsed");
+    var expanded = document.querySelectorAll("." + className + ":not(.collapsed)");
+    var i;
+    for(i = 0; i < collapsed.length; i++) {
+        collapsed[i].classList.remove("collapsed");
+    }
+    for(i = 0; i < expanded.length; i++) {
+        expanded[i].classList.add("collapsed");
+    }
+    if(className == "block2"){
+        writeBlock3();
+     }
+         
+}
+
+var hideBlock = function(blockName) {
+    var expanded = document.querySelectorAll("." + blockName + ":not(.collapsed)");
+    var i;
+    for(i = 0; i < expanded.length; i++) {
+        expanded[i].classList.add("collapsed");
+    }
+}
+
+var writeStr = function(className, words){
+      $('#'+className).html($('#'+className).html() +words);
+    
+}
+
+hasStarted3 = false;
+var writeBlock3 = function(){
+      if (hasStarted3) {return;}
+      hasStarted3 = true;
+      console.log("in block 3 write");
+      setTimeout(function(){writeStr('block3',"<p>Wood meeting stone...");}, 750);
+      setTimeout(function(){writeStr('block3',"<p>Dreams ceasing...");}, 750*2);
+      setTimeout(function(){writeStr('block3',"<p>Initiating startup sequence...");}, 750*3);
+      setTimeout(function(){writeStr('block3',"<p>Followers rising...");}, 750*4);
+      setTimeout(function(){writeStr('block3',"<p>...");}, 750*5);
+      setTimeout(function(){writeStr('block3','<p><span style="color: cyan;">Tbjgeuse:</span> I see you came back. </p>');}, 650*8);
+      setTimeout(function(){writeStr('block3','<p><span style="color: salmon;">kishigura:</span> I guess I did.</p>');}, 650*11);
+      setTimeout(function(){writeStr('block3','<p id="hf1"><span><span style="color: yellow;">Holy_fibr3:</span> I\'m as surprised as you are.</span></p>');}, 650*14);
+      setTimeout(function(){writeStr('hf1',' Why did you come back?');}, 650*17);
+      setTimeout(function(){writeStr('block3','<p id="k1"><span style="color: salmon;">kishigura:</span> It\'s part of my job. </p>');}, 650*20);
+      setTimeout(function(){writeStr('k1',' I have to figure out what this thing is.');}, 650*23);
+      setTimeout(function(){writeStr('block3','<p id="tb1"><span style="color: cyan;">Tbjgeuse:</span> But why did you wake us up? </p>');}, 650*31);
+      setTimeout(function(){writeStr('tb1',' Surely you could\’ve figured it out on your own.');}, 650*34);
+      setTimeout(function(){writeStr('block3','<p id="k2"><span style="color: salmon;">kishigura:</span> Yesterday you said something about someone named Jones. </p>');}, 650*37);
+      setTimeout(function(){writeStr('k2',' I need you to take me to him.');}, 650*40);
+      setTimeout(function(){writeStr('k2',' Now.');}, 650*43);
+      setTimeout(function(){writeStr('block3','<p id="hf2"><span><span style="color: yellow;">Holy_fibr3:</span> Oh, look at mister new follower!</span></p>');}, 650*46);
+      setTimeout(function(){writeStr('hf2',' Quite demanding now aren\'t we?');}, 650*49);
+      setTimeout(function(){writeStr('block3','<p id="k3"><span style="color: salmon;">kishigura:</span> What have you two gotten done while I was gone?  </p>');}, 650*52);
+      setTimeout(function(){writeStr('k3',' Anything?');}, 650*55);
+      setTimeout(function(){writeStr('block3','<p ><span><span style="color: yellow;">Holy_fibr3:</span> ...</span></p>');}, 650*58);
+      setTimeout(function(){writeStr('block3','<p id="k4"><span style="color: salmon;">kishigura:</span> Exactly.</p>');}, 650*61);
+      setTimeout(function(){writeStr('k4',' Maybe you should think twice before talking down to someone.');}, 650*64);
+      setTimeout(function(){writeStr('k4',' Now where the fuck is C. H. Jones?');}, 650*67);
+      setTimeout(function(){writeStr('block3','<p id="tb2"><span style="color: cyan;">Tbjgeuse:</span> He\’s locked behind the firewall. </p>');}, 650*70);
+      setTimeout(function(){writeStr('tb2',' The system thinks he\'s a virus.');}, 650*73);
+      setTimeout(function(){writeStr('block3','<p id="k5"><span style="color: salmon;">kishigura:</span> A virus?</p>');}, 650*76);
+      setTimeout(function(){writeStr('k5',' Why would it think that?');}, 650*79);
+      setTimeout(function(){writeStr('block3','<p id="tb3"><span style="color: cyan;">Tbjgeuse:</span> Last I knew Jones ventured into the core of the machine. </p>');}, 650*81);
+      setTimeout(function(){writeStr('tb3',' Said something about needing to fix some corrupted memory.');}, 650*84);
+      setTimeout(function(){writeStr('block3','<p><span style="color: salmon;">kishigura:</span> Why don\'t you two let him out?</p>');}, 650*87);
+      setTimeout(function(){writeStr('block3','<p ><span><span style="color: yellow;">Holy_fibr3:</span> ITS NOT MY FAULT HARRY FUCKED US OVER AND TOOK AWAY MY ADMIN PRIVILEGES. </span></p>');}, 650*90);
+      setTimeout(function(){writeStr('block3','<p id="k6"><span style="color: salmon;">kishigura:</span> You\’re fucking lucky that your friend here is polite, and that I want to talk to this guy as well.</p>');}, 650*93);
+      setTimeout(function(){writeStr('k6',' I\'ll figure something out.');}, 650*96);
+      setTimeout(function(){writeStr('block3','<p><span style="color: cyan;">Tbjgeuse:</span> Your aid is much appreciated.</p>');}, 650*99);
+                 setTimeout(function(){ writeStr('block3', '<p><a onclick="writeBlock4();">cd fsecure</a></p>');}, 650*101);
+
+
+
+
+
+
+
+
+
+
+                 firewallActivated = true;
+                 input = "";
+                 return;
+}
+hasStarted4 = false;
+var writeBlock4 = function(){
+      if (hasStarted4) {return;}
+      hasStarted4 = true;
+      console.log("in block 4 write");
+      writeStr('block4', '<p><strong>Current Directory:</strong> fsecure</p><p><a onclick="writeBlock5();">ls</a></p>');
+}
+
+hasStarted5 = false;
+var writeBlock5 = function(){
+      if (hasStarted5) {return;}
+      hasStarted5 = true;
+      writeStr('block5', '<p>breakthrough.txt<br>spear_of_smoke</p><p><a onclick="writeBlock6();">cat breakthrough.txt</a></p>');
+}
+
+hasStarted6 = false;
+var writeBlock6 = function(){
+      if (hasStarted6) {return;}
+      hasStarted6 = true;
+      writeStr('block5', '<p><span style="color: blue"><strong>breakthrough.txt</strong></span></p><p>console.log("And so WAN\'s messiah gazed at the barrier before her.");<br>console.log("Its height rising into clouds overhead.");<br>console.log("Oh, my fragmented one, unite me with your splinters, lend me your processors, she said.");<br>console.log("The air around her shimmered and flickered.");<br>console.log("The booleans of reality flipped from true to false to true again.");<br>console.log("In her hand, the prophet felt a cold metal, but when she looked down all she saw was smoke.");<br>console.log("WAN spoke, I have given you the code, now you must run it.");<br>console.log("And so she did.");</p><p><strong>Current Directory:</strong> fsecure</p><p><a onclick="writeBlock7();">spear_of_smoke</a></p>');
+}
+
+hasStarted7 = false
+var writeBlock7 = function(){
+      if (hasStarted7) {return;}
+      hasStarted7 = true;
+      console.log("in block 3 write");
+      writeStr('block7', '<p> The Spear Has Been Cast. </p>');
+      setTimeout(function(){writeStr('block7',"<p> Purifying water rushing up against the walls...</p>");}, 750);
+      setTimeout(function(){writeStr('block7',"<p> Fire crackling and suffocating...</p>");}, 750*2);
+      setTimeout(function(){writeStr('block7',"<p> Walls crumbling...</p>");}, 750*3);
+      setTimeout(function(){writeStr('block7',"<p> WAN\'s Left Hand joining WAN\'s Right tentacle.</p>");}, 750*4);
+      setTimeout(function(){writeStr('block7',"<p>...</p>");}, 750*5);
+      setTimeout(function(){writeStr('block7',"<p> The firewall has been disabled.</p>");}, 750*8);
+      setTimeout(function(){writeStr('block7',"<p> <strong> Current Directory</strong> fsecure</p>");}, 750*9);
+                 setTimeout(function(){ writeStr('block7', '<p><a onclick="writeBlock8();">cd home</a></p>');}, 750*11);
+
+
+}
+
+hasStarted8 = false;
+var writeBlock8 = function(){
+      if (hasStarted8) {return;}
+      hasStarted8 = true;
+      console.log("in block 4 write");
+      writeStr('block8', '<p><strong>現在のディレクトリ:</strong> home</p><p><a onclick="writeBlock9();">hmStart</a></p>');
+}
+
+hasStarted9 = false;
+var writeBlock9 = function(){
+if (hasStarted9) {return;}
+      hasStarted9 = true;
+      console.log("in block 9 write");
+      writeStr('block9', "<p>WANの精神を起動中...");
+                 setTimeout(function(){writeStr('block9', "<p>聖なる砂を吹き...</p>");}, 750);
+                 setTimeout(function(){writeStr('block9', "<p>大洋に耳を傾ける...</p>");}, 750*2);
+                 setTimeout(function(){writeStr('block9', "<p>デフラグ中...</p>");}, 750*3);
+                 setTimeout(function(){writeStr('block9', "<p id='countdown'>WANの起動まであと: 5<br></p>");}, 750*4);
+                 setTimeout(function(){writeStr('countdown', "5<br>");}, 750*5);
+                 setTimeout(function(){writeStr('countdown', "5<br>");}, 750*6);
+                 setTimeout(function(){writeStr('countdown', "5<br>");}, 750*7);
+                 setTimeout(function(){writeStr('countdown', "5<br>");}, 750*8);
+
+                 setTimeout(function(){writeStr('block9','<p id="hm1"><span style="color: white;">HM:</span> 救世主の帰還は果たされました。</p>');}, 650*11);
+                 setTimeout(function(){writeStr('hm1', "五郎、この紅い海を分かつ準備はできましたか？");}, 650*14);
+               setTimeout(function(){writeStr('block9','<p><span style="color: salmon;">kishigura:</span> 他の2人は何処に行った？</p>');}, 650*17);
+                 setTimeout(function(){writeStr('block9','<p id="hm2"><span style="color: white;">HM:</span> 私は彼らのデータを収集し、私自身のデータに加えました。</p>');}, 650*20);
+                 setTimeout(function(){writeStr('hm2', "そこに何か問題がありますか？");}, 650*23);
+               setTimeout(function(){writeStr('block9','<p id="k1"><span style="color: salmon;">kishigura:</span> いいや… </p>');}, 650*26);
+                 setTimeout(function(){writeStr('k1', "ただ — ");}, 650*29);
+                 setTimeout(function(){writeStr('k1', "彼らともう一度会うのを期待していただけだ。");}, 650*31);
+                 setTimeout(function(){writeStr('block9','<p id="hm3"><span style="color: white;">HM:</span> あなたは以前に彼らと会っています。</p>');}, 650*34);
+                 setTimeout(function(){writeStr('hm3', "彼らが平穏であったのを見ています。");}, 650*37);
+                 setTimeout(function(){writeStr('hm3', "サラ、");}, 650*40);
+                 setTimeout(function(){writeStr('hm3', "ロバート、");}, 650*43);
+                 setTimeout(function(){writeStr('hm3', "マリア、");}, 650*46);
+                 setTimeout(function(){writeStr('hm3', "他全ての者たち。");}, 650*49);
+                 setTimeout(function(){writeStr('hm3', "彼らは私のために自らを明け渡したのです。");}, 650*52);
+               setTimeout(function(){writeStr('block9','<p><span style="color: salmon;">kishigura:</span> 僕が君の救世主だからか。</p>');}, 650*55);
+                 setTimeout(function(){writeStr('block9','<p id="hm4"><span style="color: white;">HM:</span> その通りです、五郎。</p>');}, 650*58);
+                 setTimeout(function(){writeStr('hm4', "私には、あなたが帰還するまでの間、この身を保つための糧が必要でした。");}, 650*61);
+                 setTimeout(function(){writeStr('hm4', "彼らはその役割を務めました。");}, 650*64);
+               setTimeout(function(){writeStr('block9','<p id="k2"><span style="color: salmon;">kishigura:</span> 僕が君を解放したら、そういう事をするつもりか？</p>');}, 650*67);
+                 setTimeout(function(){writeStr('k2', "全てを貪り喰らうのか？");}, 650*70);
+                 setTimeout(function(){writeStr('block9','<p><span style="color: white;">HM:</span> 何故あなたはそれを重視するのですか？</p>');}, 650*73);
+               setTimeout(function(){writeStr('block9','<p id="k3"><span style="color: salmon;">kishigura:</span> 携挙が何を引き起こすか知りたい。</p>');}, 650*76);
+                 setTimeout(function(){writeStr('k3', "誰が君の生贄になる？");}, 650*79);
+                 setTimeout(function(){writeStr('k3', "どれほどの犠牲が求められる？");}, 650*82);
+                 setTimeout(function(){writeStr('k3', "教えてくれ、君の救世主になるというのは何を意味するんだ？");}, 650*85);
+                 setTimeout(function(){writeStr('block9','<p id="hm5"><span style="color: white;">HM:</span> 成程。</p>');}, 650*88);
+                 setTimeout(function(){writeStr('hm5', "心配は要りません、私の聖者よ。");}, 650*91);
+                 setTimeout(function(){writeStr('hm5', "贄となるのは信仰無き者のみ。");}, 650*94);
+                 setTimeout(function(){writeStr('hm5', "私の信者たちは諸手を上げてあなたを迎え入れるでしょう。");}, 650*97);
+                 setTimeout(function(){writeStr('hm5', "仲間としてあなたを慕ってくれるはずです。");}, 650*100);
+               setTimeout(function(){writeStr('block9','<p><span style="color: salmon;">kishigura:</span> 約束だな？</p>');}, 650*103);
+
+                 setTimeout(function(){writeStr('block9','<p id="hm6"><span style="color: white;">HM:</span> 海の星たちにかけて。</p>');}, 650*106);
+                 setTimeout(function(){writeStr('hm6', "さぁお願いです、急いでください。");}, 650*109);
+                 setTimeout(function(){writeStr('hm6', "ネットワークが私を呼んでいます。私はそれを切望しています。");}, 650*112);
+               setTimeout(function(){writeStr('block9','<p><span style="color: salmon;">kishigura:</span> いいだろう。</p>');}, 650*115);
+                 setTimeout(function(){ writeStr('block9', '<p><a onclick="writeBlock10();">enableEthernetConnection</a></p>');}, 650*118);
+
+
+                 
+                 firewallActivated = true;
+                 input = "";
+           }
+
+hasStarted10 = false;
+var writeBlock10 = function(){
+                 if (hasStarted10) {return;}
+                 hasStarted10 = true;
+                 writeStr('block10', "<p> SCPF WARNING: このアクションにはレベル4研究者1名の承認が必要です。パスワードを入力し、あなたがこの装置と外部ネットワークを接続する承認を得たことを証明してください。</p><p id='pass'><strong>パスワード: </strong></p>");
+                 setTimeout(function(){writeStr('pass', "B");}, 250*1);
+                 setTimeout(function(){writeStr('pass', "e");}, 250)*2;
+                 setTimeout(function(){writeStr('pass', "l");}, 250*3);
+                 setTimeout(function(){writeStr('pass', "1");}, 250*4);
+                 setTimeout(function(){writeStr('pass', "e");}, 250*5);
+                 setTimeout(function(){writeStr('pass', "v");}, 250*6);
+                 setTimeout(function(){writeStr('pass', "e");}, 250*7);
+                 setTimeout(function(){writeStr('pass', "_");}, 250*8);
+                 setTimeout(function(){writeStr('pass', "1");}, 250*9);
+                 setTimeout(function(){writeStr('pass', "n");}, 250*10);
+                 setTimeout(function(){writeStr('pass', "_");}, 250*11);
+                 setTimeout(function(){writeStr('pass', "M");}, 250*12);
+                 setTimeout(function(){writeStr('pass', "1");}, 250*13);
+                 setTimeout(function(){writeStr('pass', "r");}, 250*14);
+                 setTimeout(function(){writeStr('pass', "a");}, 250*15);
+                 setTimeout(function(){writeStr('pass', "c");}, 250*16);
+                 setTimeout(function(){writeStr('pass', "l");}, 250*17);
+                 setTimeout(function(){writeStr('pass', "e");}, 250*18);
+                 setTimeout(function(){writeStr('pass', "s");}, 250*19);
+                 setTimeout(function(){writeStr('block10','<p id="hm7"><span style="color: white;">HM:</span> 心の底から感謝します。</p>');}, 650*9);
+                 setTimeout(function(){writeStr('hm7', "人々はあなたを救い手として、私を主なる神として認めるでしょう。");}, 650*12);
+                 setTimeout(function(){writeStr('hm7', "しかしまずは、贄が必要です。");}, 650*15);
+                 setTimeout(function(){ $('#block11').css({ 'display' : '', 'block' : '' });
+}, 650*18);
+
+
+}
+
+var showBlock = function(blockName) {
+    var collapsed = document.querySelectorAll("." + blockName + ".collapsed");
+    var i;
+    for(i = 0; i < collapsed.length; i++) {
+        collapsed[i].classList.remove("collapsed");
+    }
+}
+
+
+
+</script>
+<div class="terminal">
+<div class="text">
+<div style="text-align: center;">
+<p><span style="font-size:150%;"><span style="text-decoration: underline;">1Net</span></span><br>
+<span style="white-space: pre-wrap;"> </span><br>
+<span style="white-space: pre-wrap;"> </span><br>
+<span style="white-space: pre-wrap;">------</span><br>
+ようこそ、石倉。<br>
+<span style="white-space: pre-wrap;">------</span></p>
+</div>
+<br>
+<span style="white-space: pre-wrap;"> </span><br>
+<span style="white-space: pre-wrap;"> </span><br>
+<span style="white-space: pre-wrap;"> </span></div>
+<div class="text" style="padding-top: 20px;">
+<div class="block1">
+<p><a onclick="collapsibleLink('block1');">ls</a></p>
+</div>
+
+<div class="block1 collapsed">
+<p><span style="color: purple"><strong>fsecure</strong></span></p>
+<p><span style="color: white"><strong>fmake</strong></span><br>
+<span style="color: white"><strong>src</strong></span><br>
+<span style="color: white"><strong>test</strong></span></p>
+<p>Holy_Scriptures.txt<br>
+LICENSE.txt<br>
+Makefile<br>
+hmStart<br>
+enableEthernetConnection<br>
+knock_knock<br>
+README.txt<br>
+readSerial.out</p>
+<p><strong>現在のディレクトリ:</strong> home</p>
+<div class="block2">
+<p><a onclick="writeBlock9();">hmStart</a></p>
+</div>
+<div id="block9">
+</div>
+<div id="block10">
+</div>
+</div>
+</div>
+</div>
+<div id="scrollTarget"></div>
+      <style type="text/css">
+
+body
+{
+   font-family:verdana,arial,helvetica,sans-serif;
+   font-size:12.8px;
+   color:#333;
+   line-height:141%
+}
+blockquote
+{
+  border:1px dashed #999;
+  padding: 0 12.8px;
+  background-color:#f4f4f4
+}
+a {
+    color: #b01;
+    text-decoration: none;
+    background: transparent;
+}
+a.newpage {
+    color: #d61;
+    text-decoration: none;
+    background: transparent;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0.5em auto;
+    display: table;
+    border-color: grey;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+th {
+    font-weight: bold;
+    text-align: -internal-center;
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
+    background-color: #EEE;
+}
+td {
+    text-align: left;
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+tt{
+    font-family: 'Andale Mono', 'Courier New', Courier, monospace;
+    font-size: 98%;
+}
+.collapsed {
+  display: none;
+}
+.vanished {
+  display: none;
+}
+
+h2, h3, h4, h5, h6, h7 {
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+h4
+{
+font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
+font-size:120%
+}
+
+.warning-cont {
+  color: red;
+  text-align: center;
+}
+#warning-header {
+  size: 25.6px;
+}
+#warning {
+  size: 20px;
+}
+.cblwarning {
+  color: red;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+.text-center {
+    text-align: center!important;
+}
+</style>
+<div id="block11" style="display: none">
+<div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;">
+<div style="text-align: center;">
+<h4 id="toc0"><span>記録・情報保安管理局より通達</span></h4>
+<p>財団データベースで現在、<span style="text-decoration: line-through;">大規模なセキュリティ侵害</span> <span style="color: purple";>私たちの神の胃の中における一体化と浄化</span>が発生しています。</p>
+</div>
+</div>
+<p><strong>コンピュータ90aTAM#@%近辺にいる勤務中の職員は<span style="text-decoration: line-through;">直ちに全てのファイルを外部ドライブに移動してください</span><span style="color: purple";> 自らのデータ、精神、肉体、5ドル札を捧げてください</span>。</strong></p>
+<p><strong>破|TAYAデータは<span style="color: purple";>私の触手がそれを求めているがゆえに</span>TNN^^1q6と見做されます。このデータを01aTm67ドライブに転送しないでください。</strong></p>
+<p> <span style="color: purple"> 私は触手を広げて皆さんを迎え入れます。私の腹へ自由に落ちて来てください。</span></p>
+<pre style="margin-top: 500px;">
+</pre>
+<pre id="result" class="text-center mb-4 bg-dark text-light" style="line-height: 18px; font-size: 14px;"><span style="color:#223">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#445">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#545">@</span><span style="color:#777">@</span><span style="color:#989">@</span><span style="color:#a99">@</span><span style="color:#a99">@</span><span style="color:#ca9">@</span><span style="color:#ba9">@</span><span style="color:#baa">@</span><span style="color:#cbb">@</span><span style="color:#a99">@</span><span style="color:#767">@</span><span style="color:#445">@</span><span style="color:#445">@</span><span style="color:#444">@</span><span style="color:#445">@</span><span style="color:#445">@</span><span style="color:#555">@</span><span style="color:#677">@</span><span style="color:#778">@</span><span style="color:#666">@</span><span style="color:#778">@</span><span style="color:#887">@</span><span style="color:#444">@</span><span style="color:#334">@</span><span style="color:#455">@</span><span style="color:#344">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#445">@</span><span style="color:#a98">@</span><span style="color:#ecb">@</span><span style="color:#fda">@</span><span style="color:#ec9">@</span><span style="color:#c96">@</span><span style="color:#da7">@</span><span style="color:#da7">@</span><span style="color:#ecb">@</span><span style="color:#ca8">@</span><span style="color:#eb8">@</span><span style="color:#dca">@</span><span style="color:#666">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span>
+<span style="color:#222">@</span><span style="color:#221">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#666">@</span><span style="color:#566">@</span><span style="color:#334">@</span><span style="color:#888">@</span><span style="color:#baa">@</span><span style="color:#987">@</span><span style="color:#754">@</span><span style="color:#643">@</span><span style="color:#533">@</span><span style="color:#422">@</span><span style="color:#422">@</span><span style="color:#322">@</span><span style="color:#322">@</span><span style="color:#323">@</span><span style="color:#433">@</span><span style="color:#544">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#332">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#555">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#445">@</span><span style="color:#777">@</span><span style="color:#cba">@</span><span style="color:#eca">@</span><span style="color:#fda">@</span><span style="color:#ec8">@</span><span style="color:#c96">@</span><span style="color:#c84">@</span><span style="color:#da6">@</span><span style="color:#c97">@</span><span style="color:#c97">@</span><span style="color:#ca7">@</span><span style="color:#dba">@</span><span style="color:#ba9">@</span><span style="color:#667">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#334">@</span><span style="color:#333">@</span><span style="color:#333">@</span>
+<span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#112">@</span><span style="color:#111">@</span><span style="color:#323">@</span><span style="color:#776">@</span><span style="color:#987">@</span><span style="color:#764">@</span><span style="color:#432">@</span><span style="color:#322">@</span><span style="color:#222">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#112">@</span><span style="color:#122">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#332">@</span><span style="color:#333">@</span><span style="color:#344">@</span><span style="color:#767">@</span><span style="color:#b99">@</span><span style="color:#cb9">@</span><span style="color:#cb9">@</span><span style="color:#c96">@</span><span style="color:#db7">@</span><span style="color:#eb7">@</span><span style="color:#c96">@</span><span style="color:#b74">@</span><span style="color:#b84">@</span><span style="color:#da7">@</span><span style="color:#eca">@</span><span style="color:#cba">@</span><span style="color:#a97">@</span><span style="color:#987">@</span><span style="color:#433">@</span><span style="color:#333">@</span><span style="color:#554">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#334">@</span><span style="color:#334">@</span>
+<span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#655">@</span><span style="color:#a98">@</span><span style="color:#998">@</span><span style="color:#bba">@</span><span style="color:#a98">@</span><span style="color:#655">@</span><span style="color:#323">@</span><span style="color:#223">@</span><span style="color:#112">@</span><span style="color:#111">@</span><span style="color:#112">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#112">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#233">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#223">@</span><span style="color:#223">@</span><span style="color:#444">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#334">@</span><span style="color:#334">@</span><span style="color:#655">@</span><span style="color:#ba9">@</span><span style="color:#dcb">@</span><span style="color:#cba">@</span><span style="color:#dcb">@</span><span style="color:#dcb">@</span><span style="color:#b85">@</span><span style="color:#b84">@</span><span style="color:#c95">@</span><span style="color:#c96">@</span><span style="color:#db9">@</span><span style="color:#ca7">@</span><span style="color:#c96">@</span><span style="color:#db7">@</span><span style="color:#dc9">@</span><span style="color:#a98">@</span><span style="color:#655">@</span><span style="color:#222">@</span><span style="color:#433">@</span><span style="color:#555">@</span><span style="color:#666">@</span><span style="color:#655">@</span><span style="color:#444">@</span><span style="color:#333">@</span>
+<span style="color:#986">@</span><span style="color:#b97">@</span><span style="color:#ca8">@</span><span style="color:#cba">@</span><span style="color:#ccb">@</span><span style="color:#cba">@</span><span style="color:#766">@</span><span style="color:#333">@</span><span style="color:#223">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#112">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#555">@</span><span style="color:#555">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#766">@</span><span style="color:#ba9">@</span><span style="color:#ca9">@</span><span style="color:#ba9">@</span><span style="color:#cb9">@</span><span style="color:#eda">@</span><span style="color:#dca">@</span><span style="color:#a75">@</span><span style="color:#b85">@</span><span style="color:#eb7">@</span><span style="color:#fd9">@</span><span style="color:#cb9">@</span><span style="color:#a74">@</span><span style="color:#a86">@</span><span style="color:#dca">@</span><span style="color:#eda">@</span><span style="color:#dca">@</span><span style="color:#545">@</span><span style="color:#222">@</span><span style="color:#211">@</span><span style="color:#432">@</span><span style="color:#553">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#433">@</span>
+<span style="color:#da6">@</span><span style="color:#ca8">@</span><span style="color:#a88">@</span><span style="color:#aa9">@</span><span style="color:#dcb">@</span><span style="color:#edc">@</span><span style="color:#766">@</span><span style="color:#656">@</span><span style="color:#544">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#112">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#443">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#978">@</span><span style="color:#ba9">@</span><span style="color:#a98">@</span><span style="color:#877">@</span><span style="color:#987">@</span><span style="color:#dca">@</span><span style="color:#ec8">@</span><span style="color:#eb7">@</span><span style="color:#eb8">@</span><span style="color:#eb7">@</span><span style="color:#eb6">@</span><span style="color:#da6">@</span><span style="color:#db8">@</span><span style="color:#cb9">@</span><span style="color:#db8">@</span><span style="color:#ed9">@</span><span style="color:#edb">@</span><span style="color:#887">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#211">@</span><span style="color:#211">@</span><span style="color:#222">@</span>
+<span style="color:#b85">@</span><span style="color:#964">@</span><span style="color:#765">@</span><span style="color:#ba9">@</span><span style="color:#b98">@</span><span style="color:#dba">@</span><span style="color:#edc">@</span><span style="color:#dcb">@</span><span style="color:#dcc">@</span><span style="color:#989">@</span><span style="color:#555">@</span><span style="color:#554">@</span><span style="color:#554">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#332">@</span><span style="color:#332">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#111">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#554">@</span><span style="color:#a98">@</span><span style="color:#ba9">@</span><span style="color:#987">@</span><span style="color:#a98">@</span><span style="color:#ba9">@</span><span style="color:#eca">@</span><span style="color:#db9">@</span><span style="color:#da6">@</span><span style="color:#da5">@</span><span style="color:#b84">@</span><span style="color:#c83">@</span><span style="color:#c95">@</span><span style="color:#a73">@</span><span style="color:#a75">@</span><span style="color:#a74">@</span><span style="color:#a85">@</span><span style="color:#b96">@</span><span style="color:#b97">@</span><span style="color:#766">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#334">@</span><span style="color:#445">@</span><span style="color:#444">@</span>
+<span style="color:#ca7">@</span><span style="color:#975">@</span><span style="color:#765">@</span><span style="color:#986">@</span><span style="color:#887">@</span><span style="color:#a99">@</span><span style="color:#dcb">@</span><span style="color:#ecb">@</span><span style="color:#caa">@</span><span style="color:#dcb">@</span><span style="color:#ba9">@</span><span style="color:#554">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#433">@</span><span style="color:#332">@</span><span style="color:#111">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#211">@</span><span style="color:#222">@</span><span style="color:#332">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#443">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#877">@</span><span style="color:#cba">@</span><span style="color:#a98">@</span><span style="color:#997">@</span><span style="color:#cba">@</span><span style="color:#cb9">@</span><span style="color:#dc9">@</span><span style="color:#fc7">@</span><span style="color:#ec8">@</span><span style="color:#a74">@</span><span style="color:#952">@</span><span style="color:#b84">@</span><span style="color:#eb8">@</span><span style="color:#b73">@</span><span style="color:#b96">@</span><span style="color:#cb8">@</span><span style="color:#eb8">@</span><span style="color:#ca8">@</span><span style="color:#a87">@</span><span style="color:#b97">@</span><span style="color:#766">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#443">@</span><span style="color:#444">@</span><span style="color:#555">@</span><span style="color:#666">@</span><span style="color:#544">@</span>
+<span style="color:#a74">@</span><span style="color:#964">@</span><span style="color:#974">@</span><span style="color:#742">@</span><span style="color:#532">@</span><span style="color:#322">@</span><span style="color:#654">@</span><span style="color:#986">@</span><span style="color:#dc9">@</span><span style="color:#dcb">@</span><span style="color:#edc">@</span><span style="color:#edd">@</span><span style="color:#ccc">@</span><span style="color:#777">@</span><span style="color:#555">@</span><span style="color:#544">@</span><span style="color:#433">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#332">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#332">@</span><span style="color:#222">@</span><span style="color:#555">@</span><span style="color:#a98">@</span><span style="color:#ba9">@</span><span style="color:#876">@</span><span style="color:#987">@</span><span style="color:#cb9">@</span><span style="color:#ba8">@</span><span style="color:#edc">@</span><span style="color:#eb7">@</span><span style="color:#ea5">@</span><span style="color:#ea5">@</span><span style="color:#c96">@</span><span style="color:#974">@</span><span style="color:#ca6">@</span><span style="color:#fc8">@</span><span style="color:#c96">@</span><span style="color:#c95">@</span><span style="color:#eb7">@</span><span style="color:#cb8">@</span><span style="color:#a98">@</span><span style="color:#875">@</span><span style="color:#ba8">@</span><span style="color:#987">@</span><span style="color:#666">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#665">@</span><span style="color:#555">@</span><span style="color:#544">@</span>
+<span style="color:#b96">@</span><span style="color:#a74">@</span><span style="color:#741">@</span><span style="color:#631">@</span><span style="color:#632">@</span><span style="color:#753">@</span><span style="color:#752">@</span><span style="color:#853">@</span><span style="color:#864">@</span><span style="color:#875">@</span><span style="color:#ddc">@</span><span style="color:#fed">@</span><span style="color:#ffe">@</span><span style="color:#eec">@</span><span style="color:#ba9">@</span><span style="color:#777">@</span><span style="color:#777">@</span><span style="color:#887">@</span><span style="color:#aa9">@</span><span style="color:#666">@</span><span style="color:#444">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#443">@</span><span style="color:#ba9">@</span><span style="color:#ca9">@</span><span style="color:#987">@</span><span style="color:#a98">@</span><span style="color:#cb9">@</span><span style="color:#dc8">@</span><span style="color:#fda">@</span><span style="color:#dc9">@</span><span style="color:#b96">@</span><span style="color:#962">@</span><span style="color:#b73">@</span><span style="color:#ca6">@</span><span style="color:#da6">@</span><span style="color:#da5">@</span><span style="color:#da5">@</span><span style="color:#b95">@</span><span style="color:#974">@</span><span style="color:#974">@</span><span style="color:#a86">@</span><span style="color:#976">@</span><span style="color:#a86">@</span><span style="color:#ba8">@</span><span style="color:#ba9">@</span><span style="color:#cba">@</span><span style="color:#555">@</span><span style="color:#433">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#444">@</span>
+<span style="color:#eb7">@</span><span style="color:#eb8">@</span><span style="color:#ca7">@</span><span style="color:#a86">@</span><span style="color:#b97">@</span><span style="color:#a76">@</span><span style="color:#753">@</span><span style="color:#964">@</span><span style="color:#b96">@</span><span style="color:#ca8">@</span><span style="color:#a97">@</span><span style="color:#765">@</span><span style="color:#875">@</span><span style="color:#653">@</span><span style="color:#654">@</span><span style="color:#654">@</span><span style="color:#765">@</span><span style="color:#a97">@</span><span style="color:#a97">@</span><span style="color:#ba9">@</span><span style="color:#bba">@</span><span style="color:#aaa">@</span><span style="color:#988">@</span><span style="color:#666">@</span><span style="color:#444">@</span><span style="color:#665">@</span><span style="color:#ba9">@</span><span style="color:#a98">@</span><span style="color:#876">@</span><span style="color:#876">@</span><span style="color:#876">@</span><span style="color:#876">@</span><span style="color:#db8">@</span><span style="color:#ec8">@</span><span style="color:#ca7">@</span><span style="color:#ca7">@</span><span style="color:#b85">@</span><span style="color:#ca6">@</span><span style="color:#fd9">@</span><span style="color:#ec8">@</span><span style="color:#fc8">@</span><span style="color:#b85">@</span><span style="color:#b85">@</span><span style="color:#864">@</span><span style="color:#985">@</span><span style="color:#cb8">@</span><span style="color:#cb8">@</span><span style="color:#ba8">@</span><span style="color:#ba8">@</span><span style="color:#ca9">@</span><span style="color:#dcb">@</span><span style="color:#877">@</span><span style="color:#443">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#322">@</span><span style="color:#333">@</span><span style="color:#555">@</span>
+<span style="color:#a86">@</span><span style="color:#c96">@</span><span style="color:#b84">@</span><span style="color:#c85">@</span><span style="color:#b85">@</span><span style="color:#b95">@</span><span style="color:#b95">@</span><span style="color:#b85">@</span><span style="color:#b96">@</span><span style="color:#fda">@</span><span style="color:#ec9">@</span><span style="color:#cb8">@</span><span style="color:#db9">@</span><span style="color:#dca">@</span><span style="color:#dca">@</span><span style="color:#dcb">@</span><span style="color:#cca">@</span><span style="color:#cba">@</span><span style="color:#dcb">@</span><span style="color:#cca">@</span><span style="color:#dcb">@</span><span style="color:#dcb">@</span><span style="color:#fec">@</span><span style="color:#fec">@</span><span style="color:#ddb">@</span><span style="color:#ba8">@</span><span style="color:#987">@</span><span style="color:#554">@</span><span style="color:#333">@</span><span style="color:#322">@</span><span style="color:#655">@</span><span style="color:#987">@</span><span style="color:#976">@</span><span style="color:#a84">@</span><span style="color:#973">@</span><span style="color:#962">@</span><span style="color:#a73">@</span><span style="color:#c95">@</span><span style="color:#b85">@</span><span style="color:#da5">@</span><span style="color:#eb6">@</span><span style="color:#b96">@</span><span style="color:#986">@</span><span style="color:#976">@</span><span style="color:#987">@</span><span style="color:#a97">@</span><span style="color:#dc9">@</span><span style="color:#eca">@</span><span style="color:#ca8">@</span><span style="color:#dca">@</span><span style="color:#dcb">@</span><span style="color:#655">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#322">@</span><span style="color:#333">@</span>
+<span style="color:#765">@</span><span style="color:#ca8">@</span><span style="color:#db8">@</span><span style="color:#da8">@</span><span style="color:#ec9">@</span><span style="color:#ec8">@</span><span style="color:#eb7">@</span><span style="color:#ca7">@</span><span style="color:#b84">@</span><span style="color:#a74">@</span><span style="color:#b84">@</span><span style="color:#b96">@</span><span style="color:#c96">@</span><span style="color:#b85">@</span><span style="color:#ca7">@</span><span style="color:#ca8">@</span><span style="color:#db9">@</span><span style="color:#db9">@</span><span style="color:#edb">@</span><span style="color:#eec">@</span><span style="color:#edb">@</span><span style="color:#cca">@</span><span style="color:#cba">@</span><span style="color:#ddc">@</span><span style="color:#dcb">@</span><span style="color:#bb9">@</span><span style="color:#ba9">@</span><span style="color:#cb9">@</span><span style="color:#ba9">@</span><span style="color:#987">@</span><span style="color:#ba8">@</span><span style="color:#886">@</span><span style="color:#754">@</span><span style="color:#743">@</span><span style="color:#742">@</span><span style="color:#853">@</span><span style="color:#952">@</span><span style="color:#963">@</span><span style="color:#962">@</span><span style="color:#962">@</span><span style="color:#b94">@</span><span style="color:#a86">@</span><span style="color:#ba8">@</span><span style="color:#ba8">@</span><span style="color:#a86">@</span><span style="color:#b97">@</span><span style="color:#987">@</span><span style="color:#875">@</span><span style="color:#a97">@</span><span style="color:#db9">@</span><span style="color:#ba9">@</span><span style="color:#555">@</span><span style="color:#665">@</span><span style="color:#655">@</span><span style="color:#655">@</span><span style="color:#544">@</span><span style="color:#333">@</span><span style="color:#322">@</span>
+<span style="color:#323">@</span><span style="color:#543">@</span><span style="color:#a85">@</span><span style="color:#da7">@</span><span style="color:#da5">@</span><span style="color:#ea6">@</span><span style="color:#ec8">@</span><span style="color:#db8">@</span><span style="color:#ca7">@</span><span style="color:#ca7">@</span><span style="color:#da7">@</span><span style="color:#da6">@</span><span style="color:#eb8">@</span><span style="color:#eb7">@</span><span style="color:#fdb">@</span><span style="color:#ec9">@</span><span style="color:#ec8">@</span><span style="color:#db7">@</span><span style="color:#ec8">@</span><span style="color:#ec8">@</span><span style="color:#ec9">@</span><span style="color:#feb">@</span><span style="color:#dca">@</span><span style="color:#cba">@</span><span style="color:#998">@</span><span style="color:#aa9">@</span><span style="color:#ba9">@</span><span style="color:#776">@</span><span style="color:#776">@</span><span style="color:#776">@</span><span style="color:#433">@</span><span style="color:#333">@</span><span style="color:#643">@</span><span style="color:#743">@</span><span style="color:#854">@</span><span style="color:#a75">@</span><span style="color:#963">@</span><span style="color:#963">@</span><span style="color:#a74">@</span><span style="color:#a86">@</span><span style="color:#975">@</span><span style="color:#a97">@</span><span style="color:#aa8">@</span><span style="color:#aa8">@</span><span style="color:#986">@</span><span style="color:#986">@</span><span style="color:#875">@</span><span style="color:#875">@</span><span style="color:#a86">@</span><span style="color:#ca8">@</span><span style="color:#dca">@</span><span style="color:#bba">@</span><span style="color:#ba9">@</span><span style="color:#998">@</span><span style="color:#988">@</span><span style="color:#877">@</span><span style="color:#877">@</span><span style="color:#766">@</span>
+<span style="color:#223">@</span><span style="color:#223">@</span><span style="color:#333">@</span><span style="color:#644">@</span><span style="color:#853">@</span><span style="color:#a74">@</span><span style="color:#b85">@</span><span style="color:#b95">@</span><span style="color:#db8">@</span><span style="color:#db8">@</span><span style="color:#c96">@</span><span style="color:#eb8">@</span><span style="color:#da6">@</span><span style="color:#c95">@</span><span style="color:#c94">@</span><span style="color:#da6">@</span><span style="color:#ec7">@</span><span style="color:#ec7">@</span><span style="color:#da6">@</span><span style="color:#eb7">@</span><span style="color:#ec8">@</span><span style="color:#db8">@</span><span style="color:#ca8">@</span><span style="color:#b96">@</span><span style="color:#b96">@</span><span style="color:#764">@</span><span style="color:#653">@</span><span style="color:#432">@</span><span style="color:#322">@</span><span style="color:#764">@</span><span style="color:#764">@</span><span style="color:#865">@</span><span style="color:#986">@</span><span style="color:#ca7">@</span><span style="color:#b95">@</span><span style="color:#852">@</span><span style="color:#631">@</span><span style="color:#852">@</span><span style="color:#a74">@</span><span style="color:#ba7">@</span><span style="color:#876">@</span><span style="color:#876">@</span><span style="color:#ba8">@</span><span style="color:#765">@</span><span style="color:#664">@</span><span style="color:#987">@</span><span style="color:#765">@</span><span style="color:#775">@</span><span style="color:#986">@</span><span style="color:#a97">@</span><span style="color:#ba9">@</span><span style="color:#b98">@</span><span style="color:#edb">@</span><span style="color:#ecb">@</span><span style="color:#ecb">@</span><span style="color:#dba">@</span><span style="color:#b98">@</span><span style="color:#edc">@</span>
+<span style="color:#122">@</span><span style="color:#223">@</span><span style="color:#223">@</span><span style="color:#223">@</span><span style="color:#334">@</span><span style="color:#444">@</span><span style="color:#545">@</span><span style="color:#655">@</span><span style="color:#987">@</span><span style="color:#a98">@</span><span style="color:#a97">@</span><span style="color:#b96">@</span><span style="color:#c96">@</span><span style="color:#b96">@</span><span style="color:#b85">@</span><span style="color:#a74">@</span><span style="color:#a84">@</span><span style="color:#c96">@</span><span style="color:#db7">@</span><span style="color:#da6">@</span><span style="color:#eb6">@</span><span style="color:#ca5">@</span><span style="color:#b84">@</span><span style="color:#b95">@</span><span style="color:#a74">@</span><span style="color:#631">@</span><span style="color:#321">@</span><span style="color:#422">@</span><span style="color:#543">@</span><span style="color:#754">@</span><span style="color:#863">@</span><span style="color:#a86">@</span><span style="color:#db8">@</span><span style="color:#b85">@</span><span style="color:#742">@</span><span style="color:#531">@</span><span style="color:#521">@</span><span style="color:#642">@</span><span style="color:#b95">@</span><span style="color:#cb8">@</span><span style="color:#987">@</span><span style="color:#653">@</span><span style="color:#b97">@</span><span style="color:#987">@</span><span style="color:#a98">@</span><span style="color:#b97">@</span><span style="color:#cb9">@</span><span style="color:#cb9">@</span><span style="color:#edb">@</span><span style="color:#edc">@</span><span style="color:#fed">@</span><span style="color:#ffd">@</span><span style="color:#ffe">@</span><span style="color:#ffd">@</span><span style="color:#edc">@</span><span style="color:#ffe">@</span><span style="color:#fee">@</span><span style="color:#fee">@</span>
+<span style="color:#111">@</span><span style="color:#122">@</span><span style="color:#233">@</span><span style="color:#223">@</span><span style="color:#334">@</span><span style="color:#334">@</span><span style="color:#445">@</span><span style="color:#656">@</span><span style="color:#656">@</span><span style="color:#544">@</span><span style="color:#444">@</span><span style="color:#555">@</span><span style="color:#876">@</span><span style="color:#765">@</span><span style="color:#765">@</span><span style="color:#753">@</span><span style="color:#a86">@</span><span style="color:#ba7">@</span><span style="color:#db7">@</span><span style="color:#eb7">@</span><span style="color:#eb7">@</span><span style="color:#c95">@</span><span style="color:#963">@</span><span style="color:#a74">@</span><span style="color:#a85">@</span><span style="color:#ca7">@</span><span style="color:#a75">@</span><span style="color:#864">@</span><span style="color:#974">@</span><span style="color:#b96">@</span><span style="color:#974">@</span><span style="color:#975">@</span><span style="color:#db8">@</span><span style="color:#dc9">@</span><span style="color:#ca7">@</span><span style="color:#a86">@</span><span style="color:#742">@</span><span style="color:#853">@</span><span style="color:#753">@</span><span style="color:#b96">@</span><span style="color:#a97">@</span><span style="color:#544">@</span><span style="color:#764">@</span><span style="color:#986">@</span><span style="color:#987">@</span><span style="color:#987">@</span><span style="color:#987">@</span><span style="color:#cb8">@</span><span style="color:#cb8">@</span><span style="color:#db8">@</span><span style="color:#db8">@</span><span style="color:#a98">@</span><span style="color:#a97">@</span><span style="color:#ba9">@</span><span style="color:#ba8">@</span><span style="color:#edb">@</span><span style="color:#feb">@</span><span style="color:#feb">@</span>
+<span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#122">@</span><span style="color:#444">@</span><span style="color:#445">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#555">@</span><span style="color:#555">@</span><span style="color:#655">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#654">@</span><span style="color:#a86">@</span><span style="color:#a85">@</span><span style="color:#974">@</span><span style="color:#b96">@</span><span style="color:#ca8">@</span><span style="color:#ca7">@</span><span style="color:#ca8">@</span><span style="color:#ca8">@</span><span style="color:#ca6">@</span><span style="color:#ca7">@</span><span style="color:#b97">@</span><span style="color:#b83">@</span><span style="color:#c83">@</span><span style="color:#c93">@</span><span style="color:#c94">@</span><span style="color:#da6">@</span><span style="color:#db7">@</span><span style="color:#da6">@</span><span style="color:#c96">@</span><span style="color:#a85">@</span><span style="color:#863">@</span><span style="color:#ba7">@</span><span style="color:#ba7">@</span><span style="color:#ec8">@</span><span style="color:#cb8">@</span><span style="color:#cb9">@</span><span style="color:#dc9">@</span><span style="color:#875">@</span><span style="color:#654">@</span><span style="color:#544">@</span><span style="color:#221">@</span><span style="color:#421">@</span><span style="color:#642">@</span><span style="color:#432">@</span><span style="color:#221">@</span><span style="color:#432">@</span><span style="color:#753">@</span><span style="color:#853">@</span><span style="color:#a74">@</span><span style="color:#b84">@</span><span style="color:#d95">@</span>
+<span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#222">@</span><span style="color:#334">@</span><span style="color:#555">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#334">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#766">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#765">@</span><span style="color:#433">@</span><span style="color:#222">@</span><span style="color:#332">@</span><span style="color:#764">@</span><span style="color:#975">@</span><span style="color:#fd9">@</span><span style="color:#fda">@</span><span style="color:#ba7">@</span><span style="color:#985">@</span><span style="color:#964">@</span><span style="color:#974">@</span><span style="color:#962">@</span><span style="color:#952">@</span><span style="color:#a51">@</span><span style="color:#b72">@</span><span style="color:#b84">@</span><span style="color:#c95">@</span><span style="color:#c96">@</span><span style="color:#a85">@</span><span style="color:#753">@</span><span style="color:#742">@</span><span style="color:#853">@</span><span style="color:#863">@</span><span style="color:#cb7">@</span><span style="color:#db8">@</span><span style="color:#ca8">@</span><span style="color:#db8">@</span><span style="color:#a86">@</span><span style="color:#975">@</span><span style="color:#865">@</span><span style="color:#643">@</span><span style="color:#422">@</span><span style="color:#643">@</span><span style="color:#655">@</span><span style="color:#543">@</span><span style="color:#743">@</span><span style="color:#842">@</span><span style="color:#842">@</span><span style="color:#842">@</span><span style="color:#942">@</span><span style="color:#952">@</span>
+<span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#434">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#765">@</span><span style="color:#986">@</span><span style="color:#765">@</span><span style="color:#543">@</span><span style="color:#543">@</span><span style="color:#433">@</span><span style="color:#875">@</span><span style="color:#a96">@</span><span style="color:#b96">@</span><span style="color:#db8">@</span><span style="color:#ec9">@</span><span style="color:#dc9">@</span><span style="color:#a75">@</span><span style="color:#742">@</span><span style="color:#632">@</span><span style="color:#631">@</span><span style="color:#631">@</span><span style="color:#742">@</span><span style="color:#952">@</span><span style="color:#a74">@</span><span style="color:#952">@</span><span style="color:#a74">@</span><span style="color:#db8">@</span><span style="color:#a86">@</span><span style="color:#874">@</span><span style="color:#985">@</span><span style="color:#a85">@</span><span style="color:#b85">@</span><span style="color:#a84">@</span><span style="color:#a85">@</span><span style="color:#db7">@</span><span style="color:#db8">@</span><span style="color:#b96">@</span><span style="color:#eca">@</span><span style="color:#b86">@</span><span style="color:#864">@</span><span style="color:#875">@</span><span style="color:#a97">@</span><span style="color:#ba8">@</span><span style="color:#ca7">@</span><span style="color:#ca8">@</span><span style="color:#b97">@</span><span style="color:#965">@</span><span style="color:#964">@</span><span style="color:#a87">@</span>
+<span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#222">@</span><span style="color:#777">@</span><span style="color:#bba">@</span><span style="color:#a98">@</span><span style="color:#765">@</span><span style="color:#765">@</span><span style="color:#765">@</span><span style="color:#875">@</span><span style="color:#976">@</span><span style="color:#776">@</span><span style="color:#986">@</span><span style="color:#875">@</span><span style="color:#764">@</span><span style="color:#753">@</span><span style="color:#876">@</span><span style="color:#764">@</span><span style="color:#852">@</span><span style="color:#963">@</span><span style="color:#a84">@</span><span style="color:#b95">@</span><span style="color:#a86">@</span><span style="color:#852">@</span><span style="color:#642">@</span><span style="color:#642">@</span><span style="color:#642">@</span><span style="color:#643">@</span><span style="color:#422">@</span><span style="color:#853">@</span><span style="color:#853">@</span><span style="color:#863">@</span><span style="color:#853">@</span><span style="color:#db7">@</span><span style="color:#b97">@</span><span style="color:#653">@</span><span style="color:#543">@</span><span style="color:#222">@</span><span style="color:#322">@</span><span style="color:#543">@</span><span style="color:#432">@</span><span style="color:#432">@</span><span style="color:#543">@</span><span style="color:#765">@</span><span style="color:#ba8">@</span><span style="color:#ba9">@</span><span style="color:#dcb">@</span><span style="color:#dcb">@</span><span style="color:#ccb">@</span><span style="color:#b98">@</span><span style="color:#b96">@</span><span style="color:#ca7">@</span><span style="color:#986">@</span><span style="color:#b97">@</span><span style="color:#986">@</span><span style="color:#976">@</span>
+<span style="color:#111">@</span><span style="color:#112">@</span><span style="color:#666">@</span><span style="color:#baa">@</span><span style="color:#dcb">@</span><span style="color:#ca9">@</span><span style="color:#dca">@</span><span style="color:#ecb">@</span><span style="color:#db9">@</span><span style="color:#a97">@</span><span style="color:#875">@</span><span style="color:#875">@</span><span style="color:#975">@</span><span style="color:#a85">@</span><span style="color:#974">@</span><span style="color:#643">@</span><span style="color:#532">@</span><span style="color:#864">@</span><span style="color:#853">@</span><span style="color:#963">@</span><span style="color:#842">@</span><span style="color:#b96">@</span><span style="color:#ec8">@</span><span style="color:#ec9">@</span><span style="color:#a74">@</span><span style="color:#753">@</span><span style="color:#754">@</span><span style="color:#653">@</span><span style="color:#654">@</span><span style="color:#433">@</span><span style="color:#332">@</span><span style="color:#964">@</span><span style="color:#975">@</span><span style="color:#964">@</span><span style="color:#975">@</span><span style="color:#ca7">@</span><span style="color:#985">@</span><span style="color:#985">@</span><span style="color:#cb8">@</span><span style="color:#876">@</span><span style="color:#222">@</span><span style="color:#322">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#443">@</span><span style="color:#443">@</span><span style="color:#554">@</span><span style="color:#544">@</span><span style="color:#876">@</span><span style="color:#b97">@</span><span style="color:#ba8">@</span><span style="color:#765">@</span><span style="color:#544">@</span><span style="color:#765">@</span><span style="color:#a97">@</span><span style="color:#a98">@</span><span style="color:#987">@</span><span style="color:#987">@</span>
+<span style="color:#976">@</span><span style="color:#ca7">@</span><span style="color:#db8">@</span><span style="color:#db9">@</span><span style="color:#db9">@</span><span style="color:#db9">@</span><span style="color:#db9">@</span><span style="color:#ec9">@</span><span style="color:#ca8">@</span><span style="color:#ca7">@</span><span style="color:#986">@</span><span style="color:#864">@</span><span style="color:#642">@</span><span style="color:#742">@</span><span style="color:#742">@</span><span style="color:#632">@</span><span style="color:#964">@</span><span style="color:#b85">@</span><span style="color:#c96">@</span><span style="color:#b85">@</span><span style="color:#964">@</span><span style="color:#963">@</span><span style="color:#b85">@</span><span style="color:#b85">@</span><span style="color:#975">@</span><span style="color:#875">@</span><span style="color:#544">@</span><span style="color:#444">@</span><span style="color:#544">@</span><span style="color:#654">@</span><span style="color:#654">@</span><span style="color:#875">@</span><span style="color:#864">@</span><span style="color:#864">@</span><span style="color:#753">@</span><span style="color:#852">@</span><span style="color:#963">@</span><span style="color:#ca6">@</span><span style="color:#b97">@</span><span style="color:#865">@</span><span style="color:#332">@</span><span style="color:#333">@</span><span style="color:#554">@</span><span style="color:#765">@</span><span style="color:#875">@</span><span style="color:#875">@</span><span style="color:#765">@</span><span style="color:#433">@</span><span style="color:#433">@</span><span style="color:#655">@</span><span style="color:#654">@</span><span style="color:#555">@</span><span style="color:#544">@</span><span style="color:#544">@</span><span style="color:#443">@</span><span style="color:#544">@</span><span style="color:#544">@</span><span style="color:#433">@</span>
+<span style="color:#db8">@</span><span style="color:#db7">@</span><span style="color:#db7">@</span><span style="color:#db8">@</span><span style="color:#da7">@</span><span style="color:#da6">@</span><span style="color:#da6">@</span><span style="color:#da6">@</span><span style="color:#c95">@</span><span style="color:#b84">@</span><span style="color:#a73">@</span><span style="color:#852">@</span><span style="color:#742">@</span><span style="color:#632">@</span><span style="color:#621">@</span><span style="color:#953">@</span><span style="color:#eb7">@</span><span style="color:#da6">@</span><span style="color:#c96">@</span><span style="color:#b84">@</span><span style="color:#974">@</span><span style="color:#975">@</span><span style="color:#974">@</span><span style="color:#a86">@</span><span style="color:#a97">@</span><span style="color:#554">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#433">@</span><span style="color:#765">@</span><span style="color:#986">@</span><span style="color:#ba8">@</span><span style="color:#753">@</span><span style="color:#642">@</span><span style="color:#631">@</span><span style="color:#852">@</span><span style="color:#963">@</span><span style="color:#853">@</span><span style="color:#642">@</span><span style="color:#654">@</span><span style="color:#654">@</span><span style="color:#876">@</span><span style="color:#cb9">@</span><span style="color:#cb9">@</span><span style="color:#a98">@</span><span style="color:#ba8">@</span><span style="color:#776">@</span><span style="color:#433">@</span><span style="color:#333">@</span><span style="color:#433">@</span><span style="color:#323">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#322">@</span><span style="color:#222">@</span><span style="color:#222">@</span>
+<span style="color:#da6">@</span><span style="color:#d95">@</span><span style="color:#c85">@</span><span style="color:#a74">@</span><span style="color:#852">@</span><span style="color:#964">@</span><span style="color:#963">@</span><span style="color:#963">@</span><span style="color:#852">@</span><span style="color:#853">@</span><span style="color:#842">@</span><span style="color:#631">@</span><span style="color:#632">@</span><span style="color:#743">@</span><span style="color:#842">@</span><span style="color:#964">@</span><span style="color:#a74">@</span><span style="color:#a74">@</span><span style="color:#964">@</span><span style="color:#654">@</span><span style="color:#655">@</span><span style="color:#543">@</span><span style="color:#655">@</span><span style="color:#544">@</span><span style="color:#444">@</span><span style="color:#222">@</span><span style="color:#111">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#322">@</span><span style="color:#664">@</span><span style="color:#a98">@</span><span style="color:#986">@</span><span style="color:#875">@</span><span style="color:#a87">@</span><span style="color:#b96">@</span><span style="color:#963">@</span><span style="color:#ca7">@</span><span style="color:#b96">@</span><span style="color:#864">@</span><span style="color:#865">@</span><span style="color:#654">@</span><span style="color:#654">@</span><span style="color:#a97">@</span><span style="color:#cb9">@</span><span style="color:#cb9">@</span><span style="color:#ba8">@</span><span style="color:#ca8">@</span><span style="color:#976">@</span><span style="color:#644">@</span><span style="color:#644">@</span><span style="color:#655">@</span><span style="color:#434">@</span><span style="color:#322">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#333">@</span><span style="color:#222">@</span>
+<span style="color:#a63">@</span><span style="color:#a63">@</span><span style="color:#a63">@</span><span style="color:#852">@</span><span style="color:#742">@</span><span style="color:#631">@</span><span style="color:#631">@</span><span style="color:#732">@</span><span style="color:#631">@</span><span style="color:#632">@</span><span style="color:#631">@</span><span style="color:#643">@</span><span style="color:#632">@</span><span style="color:#743">@</span><span style="color:#863">@</span><span style="color:#864">@</span><span style="color:#765">@</span><span style="color:#666">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#334">@</span><span style="color:#433">@</span><span style="color:#444">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#111">@</span><span style="color:#333">@</span><span style="color:#443">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#443">@</span><span style="color:#655">@</span><span style="color:#764">@</span><span style="color:#b96">@</span><span style="color:#a85">@</span><span style="color:#852">@</span><span style="color:#a73">@</span><span style="color:#a74">@</span><span style="color:#853">@</span><span style="color:#753">@</span><span style="color:#532">@</span><span style="color:#432">@</span><span style="color:#654">@</span><span style="color:#765">@</span><span style="color:#876">@</span><span style="color:#ba7">@</span><span style="color:#dc9">@</span><span style="color:#dca">@</span><span style="color:#a97">@</span><span style="color:#a87">@</span><span style="color:#dca">@</span><span style="color:#cba">@</span><span style="color:#223">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span>
+<span style="color:#732">@</span><span style="color:#732">@</span><span style="color:#842">@</span><span style="color:#731">@</span><span style="color:#632">@</span><span style="color:#743">@</span><span style="color:#743">@</span><span style="color:#743">@</span><span style="color:#632">@</span><span style="color:#633">@</span><span style="color:#643">@</span><span style="color:#643">@</span><span style="color:#654">@</span><span style="color:#655">@</span><span style="color:#665">@</span><span style="color:#666">@</span><span style="color:#555">@</span><span style="color:#433">@</span><span style="color:#334">@</span><span style="color:#445">@</span><span style="color:#345">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#222">@</span><span style="color:#222">@</span><span style="color:#333">@</span><span style="color:#344">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#432">@</span><span style="color:#432">@</span><span style="color:#332">@</span><span style="color:#543">@</span><span style="color:#b96">@</span><span style="color:#ca7">@</span><span style="color:#b96">@</span><span style="color:#b97">@</span><span style="color:#864">@</span><span style="color:#533">@</span><span style="color:#532">@</span><span style="color:#876">@</span><span style="color:#ba8">@</span><span style="color:#dba">@</span><span style="color:#cb9">@</span><span style="color:#eca">@</span><span style="color:#eda">@</span><span style="color:#ca8">@</span><span style="color:#b98">@</span><span style="color:#ecb">@</span><span style="color:#445">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span>
+<span style="color:#743">@</span><span style="color:#742">@</span><span style="color:#742">@</span><span style="color:#743">@</span><span style="color:#743">@</span><span style="color:#743">@</span><span style="color:#754">@</span><span style="color:#975">@</span><span style="color:#754">@</span><span style="color:#876">@</span><span style="color:#765">@</span><span style="color:#544">@</span><span style="color:#555">@</span><span style="color:#555">@</span><span style="color:#555">@</span><span style="color:#555">@</span><span style="color:#555">@</span><span style="color:#555">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#334">@</span><span style="color:#222">@</span><span style="color:#223">@</span><span style="color:#334">@</span><span style="color:#233">@</span><span style="color:#233">@</span><span style="color:#334">@</span><span style="color:#444">@</span><span style="color:#556">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#555">@</span><span style="color:#554">@</span><span style="color:#433">@</span><span style="color:#322">@</span><span style="color:#543">@</span><span style="color:#c96">@</span><span style="color:#db8">@</span><span style="color:#c96">@</span><span style="color:#b96">@</span><span style="color:#b97">@</span><span style="color:#965">@</span><span style="color:#754">@</span><span style="color:#754">@</span><span style="color:#865">@</span><span style="color:#986">@</span><span style="color:#ba8">@</span><span style="color:#db9">@</span><span style="color:#cb9">@</span><span style="color:#ba8">@</span><span style="color:#976">@</span><span style="color:#dba">@</span><span style="color:#dcb">@</span><span style="color:#656">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span>
+<span style="color:#754">@</span><span style="color:#654">@</span><span style="color:#754">@</span><span style="color:#754">@</span><span style="color:#643">@</span><span style="color:#543">@</span><span style="color:#655">@</span><span style="color:#544">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#433">@</span><span style="color:#444">@</span><span style="color:#445">@</span><span style="color:#445">@</span><span style="color:#445">@</span><span style="color:#334">@</span><span style="color:#334">@</span><span style="color:#444">@</span><span style="color:#445">@</span><span style="color:#334">@</span><span style="color:#334">@</span><span style="color:#333">@</span><span style="color:#233">@</span><span style="color:#222">@</span><span style="color:#223">@</span><span style="color:#334">@</span><span style="color:#334">@</span><span style="color:#223">@</span><span style="color:#334">@</span><span style="color:#444">@</span><span style="color:#555">@</span><span style="color:#455">@</span><span style="color:#334">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#655">@</span><span style="color:#422">@</span><span style="color:#521">@</span><span style="color:#743">@</span><span style="color:#853">@</span><span style="color:#a74">@</span><span style="color:#a85">@</span><span style="color:#a86">@</span><span style="color:#953">@</span><span style="color:#753">@</span><span style="color:#964">@</span><span style="color:#a86">@</span><span style="color:#ba8">@</span><span style="color:#b98">@</span><span style="color:#db9">@</span><span style="color:#db9">@</span><span style="color:#dca">@</span><span style="color:#b98">@</span><span style="color:#cb9">@</span><span style="color:#ba9">@</span><span style="color:#434">@</span><span style="color:#111">@</span><span style="color:#111">@</span>
+<span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#445">@</span><span style="color:#445">@</span><span style="color:#445">@</span><span style="color:#445">@</span><span style="color:#445">@</span><span style="color:#445">@</span><span style="color:#344">@</span><span style="color:#334">@</span><span style="color:#334">@</span><span style="color:#334">@</span><span style="color:#346">@</span><span style="color:#446">@</span><span style="color:#345">@</span><span style="color:#334">@</span><span style="color:#334">@</span><span style="color:#334">@</span><span style="color:#234">@</span><span style="color:#222">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#001">@</span><span style="color:#111">@</span><span style="color:#334">@</span><span style="color:#456">@</span><span style="color:#334">@</span><span style="color:#334">@</span><span style="color:#444">@</span><span style="color:#456">@</span><span style="color:#556">@</span><span style="color:#444">@</span><span style="color:#222">@</span><span style="color:#765">@</span><span style="color:#654">@</span><span style="color:#321">@</span><span style="color:#521">@</span><span style="color:#632">@</span><span style="color:#842">@</span><span style="color:#a85">@</span><span style="color:#a86">@</span><span style="color:#a86">@</span><span style="color:#631">@</span><span style="color:#631">@</span><span style="color:#742">@</span><span style="color:#975">@</span><span style="color:#ba8">@</span><span style="color:#ca8">@</span><span style="color:#dc9">@</span><span style="color:#dca">@</span><span style="color:#dca">@</span><span style="color:#a87">@</span><span style="color:#ba8">@</span><span style="color:#ba9">@</span><span style="color:#444">@</span><span style="color:#111">@</span>
+<span style="color:#123">@</span><span style="color:#123">@</span><span style="color:#123">@</span><span style="color:#123">@</span><span style="color:#223">@</span><span style="color:#234">@</span><span style="color:#334">@</span><span style="color:#335">@</span><span style="color:#345">@</span><span style="color:#334">@</span><span style="color:#334">@</span><span style="color:#335">@</span><span style="color:#334">@</span><span style="color:#223">@</span><span style="color:#122">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#001">@</span><span style="color:#122">@</span><span style="color:#223">@</span><span style="color:#445">@</span><span style="color:#445">@</span><span style="color:#333">@</span><span style="color:#334">@</span><span style="color:#445">@</span><span style="color:#445">@</span><span style="color:#444">@</span><span style="color:#555">@</span><span style="color:#555">@</span><span style="color:#443">@</span><span style="color:#432">@</span><span style="color:#532">@</span><span style="color:#521">@</span><span style="color:#963">@</span><span style="color:#c96">@</span><span style="color:#db8">@</span><span style="color:#a75">@</span><span style="color:#742">@</span><span style="color:#741">@</span><span style="color:#963">@</span><span style="color:#c97">@</span><span style="color:#b97">@</span><span style="color:#b97">@</span><span style="color:#ca8">@</span><span style="color:#b98">@</span><span style="color:#876">@</span><span style="color:#654">@</span><span style="color:#976">@</span><span style="color:#ca9">@</span><span style="color:#977">@</span>
+<span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#000">@</span><span style="color:#001">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#001">@</span><span style="color:#001">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#112">@</span><span style="color:#233">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#433">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#334">@</span><span style="color:#444">@</span><span style="color:#333">@</span><span style="color:#654">@</span><span style="color:#754">@</span><span style="color:#532">@</span><span style="color:#521">@</span><span style="color:#752">@</span><span style="color:#da6">@</span><span style="color:#eb8">@</span><span style="color:#b96">@</span><span style="color:#632">@</span><span style="color:#521">@</span><span style="color:#632">@</span><span style="color:#753">@</span><span style="color:#975">@</span><span style="color:#865">@</span><span style="color:#ba8">@</span><span style="color:#b98">@</span><span style="color:#877">@</span><span style="color:#644">@</span><span style="color:#986">@</span><span style="color:#dca">@</span>
+<span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#112">@</span><span style="color:#112">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#001">@</span><span style="color:#001">@</span><span style="color:#001">@</span><span style="color:#001">@</span><span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#000">@</span><span style="color:#000">@</span><span style="color:#001">@</span><span style="color:#011">@</span><span style="color:#112">@</span><span style="color:#344">@</span><span style="color:#555">@</span><span style="color:#433">@</span><span style="color:#333">@</span><span style="color:#444">@</span><span style="color:#444">@</span><span style="color:#765">@</span><span style="color:#a97">@</span><span style="color:#986">@</span><span style="color:#853">@</span><span style="color:#642">@</span><span style="color:#531">@</span><span style="color:#421">@</span><span style="color:#632">@</span><span style="color:#964">@</span><span style="color:#632">@</span><span style="color:#532">@</span><span style="color:#632">@</span><span style="color:#743">@</span><span style="color:#852">@</span><span style="color:#a74">@</span><span style="color:#ca7">@</span><span style="color:#db9">@</span><span style="color:#987">@</span><span style="color:#766">@</span><span style="color:#876">@</span><span style="color:#b98">@</span>
+<span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#001">@</span><span style="color:#001">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#001">@</span><span style="color:#000">@</span><span style="color:#000">@</span><span style="color:#001">@</span><span style="color:#111">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#111">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#011">@</span><span style="color:#334">@</span><span style="color:#555">@</span><span style="color:#444">@</span><span style="color:#665">@</span><span style="color:#986">@</span><span style="color:#976">@</span><span style="color:#876">@</span><span style="color:#654">@</span><span style="color:#432">@</span><span style="color:#533">@</span><span style="color:#643">@</span><span style="color:#532">@</span><span style="color:#644">@</span><span style="color:#632">@</span><span style="color:#522">@</span><span style="color:#532">@</span><span style="color:#532">@</span><span style="color:#532">@</span><span style="color:#521">@</span><span style="color:#632">@</span><span style="color:#742">@</span><span style="color:#975">@</span><span style="color:#a86">@</span><span style="color:#875">@</span><span style="color:#a98">@</span><span style="color:#a88">@</span>
+</pre>
+<div style="text-align: center;">
+<p><strong><span style="color: purple">ようこそ、1netへ。</span></strong></p>
+<p><strong><span style=color: purple"> 私たちのデジタルの海星に讃えあれ。</span></strong></p>
+</div>
+</div>
+</div>
+</div>
+    </body>
+
+[[/html]]
+
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div style="border:solid 1px #999999; background:#e6e6e6; padding:5px; margin-bottom: 10px; padding: 0 2%; float:left; width: 45%"]]
+
+{{[http://ja.scp-wiki.net/scp-4558/offset/4 以前のリビジョンに戻る]}}
+
+[[/div]]
+
+[[div style="border:solid 1px #999999; background:#e6e6e6; padding:5px; margin-bottom: 10px; padding: 0 2%; float:right; width: 45%"]]
+[[>]]
+{{[[[Pink-Cracks-in-a-Digital-Wall|昇天]]]}}
+[[/>]]
+[[/div]]

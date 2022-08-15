@@ -1,0 +1,34 @@
+----
+[[include :scp-wiki:component:classified-decoration
+|lv=4
+|item=4182
+|oc=Keter
+|lang=JP
+]]
+----
+[[include component:image-block name=blank.png|caption=**{{無効なファイル/ディレクトリ ('CAM-5.ogg')}}**]]
+
+**特別収容プロトコル:** SCP-4182に影響されたファイルを目的に財団運営bot(I/O-SILVER)がIntSCPFNサーバーを検査します。これらのファイルは隔離され、検査と異常除去のために勤務中のサーバー管理者に報告されます。職員はサイト-5が実在しないことを念頭に置いてください。
+
+**説明:** SCP-4182は財団内部ドキュメントが実在しないサイト("サイト-5")への言及を含むよう周期的に改変される現象です。これが発生するメカニズムは未だ解明されていません。
+
+サイト-5の描写は一貫性がありませんが、典型的には危険な物質を保管するために建造された人工島として説明されます[[footnote]]特に異常な廃棄物の収容サイトとして言及されています。[[/footnote]]。
+
+2018年の発見以来、SCP-4182の発生速度は指数関数的に増加しています。
+
+[[footnoteblock title="脚注"]]
+
+++ 525 Internal Server Error
+
+サーバーで予期せぬ状態が発生したため、要求を処理できませんでした:
+[[div style="color: white; font-family: Courier; font-weight: bold; display: inline-block; background:#000000; float:top; padding:5px; width:100%"]]
+**##white|{{@@ Traceback (most recent call last):@@}}##**
+**##white|{{@@   File "/SCP/4182/files/_display.py", line 551, in respond@@}}##**
+**##white|{{@@     table.open.body = self.handler()@@}}##**
+**##white|{{@@   File "/SCP/4182/files/_display.py", line 24, in __call__@@}}##**
+**##white|{{@@     return self.callable(*self.args, **self.kwargs)@@}}##**
+**##white|{{@@   File "error_classic.py", line 6 in index@@}}##**
+**##white|{{@@     raise FileNotFoundError(obj)@@}}##**
+**##white|{{@@ FileNotFoundError: [Errno 2] No such file or directory: 'CAM-5.ogg'@@}}##**
+[[/div]]
+> **注記:** 当ドキュメントで予期せぬ状態が発生しています。**[http://ja.scp-wiki.net/scp-4182/offset/1 こちら]**をクリックして以前のリビジョンに差し戻すか、詳細についてあなたのサーバーの管理者(##red|@@jdavis@scp.foundation.int@@##)まで連絡してください。
