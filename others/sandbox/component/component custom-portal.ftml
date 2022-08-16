@@ -1,0 +1,581 @@
+[!--
+作成: Nanigashi Sato
+協力: C-take(システム原型), ukwhatn(デザイン原型), Mishary(一部構文提供)
+--]
+[[module css]]
+.system-draft-list-show-area{
+  display: none;
+}
+
+#page-title, #page-content {
+  font-weight: 400;
+}
+
+.portal-content-panel {
+    background-color: white;
+    border-radius: 0px;
+    margin: 0 1em;
+    padding: 0.1em;
+    font-weight: 400;
+    border: solid 1px gray;
+    box-shadow: none;
+}
+
+.custom-sb3-portal {
+    margin: 1.5em 0 1.5em 0;
+}
+
+.custom-sb3-portal ol li {
+    margin: 0 0 0.1em 0;
+}
+
+.ab,
+.ba {
+    display: none;
+}
+
+.custom-undefined-draftList,
+.custom-writting-draftList,
+.custom-wreforming-draftList,
+.custom-wcriticismin-draftList,
+.custom-wcriticismend-draftList,
+.custom-translating-draftList,
+.custom-treforming-draftList,
+.custom-tcriticismin-draftList,
+.custom-tcriticismend-draftList,
+.custom-others-draftList,
+.custom-oreforming-draftList,
+.custom-ocriticismin-draftList,
+.custom-ocriticismend-draftList,
+.custom-sharing-draftList {
+    display:none !important;
+    border-bottom: solid 1px gray;
+    padding-bottom: 5px;
+}
+
+.custom-scp-draftList,
+.custom-tale-draftList,
+.custom-goif-draftList {
+    display:none !important;
+}
+
+.custom-undefined-draftList p,
+.custom-writting-draftList p,
+.custom-wreforming-draftList p,
+.custom-wcriticismin-draftList p,
+.custom-wcriticismend-draftList p,
+.custom-translating-draftList p,
+.custom-treforming-draftList p,
+.custom-tcriticismin-draftList p,
+.custom-tcriticismend-draftList p,
+.custom-others-draftList p,
+.custom-oreforming-draftList p,
+.custom-ocriticismin-draftList p,
+.custom-ocriticismend-draftList p,
+.custom-sharing-draftList p {
+    padding:0;
+    margin:0;
+}
+
+.undefined-title,
+.writting-title,
+.wreforming-title,
+.wcriticismin-title,
+.wcriticismend-title,
+.translating-title,
+.treforming-title,
+.tcriticismin-title,
+.tcriticismend-title,
+.others-title,
+.oreforming-title,
+.ocriticismin-title,
+.ocriticismend-title,
+.sharing-title {
+    font-weight:bold;
+    font-size: 150%;
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+.undefined-title:before {
+    content: "\f0f6";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.writting-title:before {
+    content: "\f040";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.wreforming-title:before {
+    content: "\f044";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.wcriticismin-title:before {
+    content: "\f27b";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.wcriticismend-title:before {
+    content: "\f0ea";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.translating-title:before {
+    content: "\f11c";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.treforming-title:before {
+    content: "\f046";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.tcriticismin-title:before {
+    content: "\f27a";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.tcriticismend-title:before {
+    content: "\f19d";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.others-title:before {
+    content: "\f007";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.oreforming-title:before {
+    content: "\f234";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.ocriticismin-title:before {
+    content: "\f0f0";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.ocriticismend-title:before {
+    content: "\f21b";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+
+.sharing-title:before {
+    content: "\f1e0";
+    font-family: FontAwesome;
+    margin-right: 3px;
+    color: black;
+}
+[[/module]]
+
+[[div class="custom-sb3-portal"]]
+
+[[div class="custom-undefined-draftList"]]
+[[span class="undefined-title"]]ステータス未定義[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="-_criticism-in -_reforming -_criticism-end -_scp-jp -_tale-jp -_goi-format-jp -_translation -_others" created_by="=" order="{$order}" separate="no" perPage="{$perPage}" urlAttrPrefix="undefindstate" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev.[[/size]]
+[[/module]]
+[[collapsible show="▷ ステータス未定義の批評終了ページを表示"hide="▽ ステータス未定義の批評終了ページを表示"]]
+
+[[div class="custom-undefined-draftList"]]
+[[span class="undefined-title"]]ステータス未定義 - 批評終了[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="-_criticism-in -_reforming +_criticism-end -_scp-jp -_tale-jp -_goi-format-jp -_translation -_others" created_by="=" order="{$order}" separate="no" perPage="{$perPage}" urlAttrPrefix="undefindstate" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev.[[/size]]
+[[/module]]
+[[/collapsible]]
+@@@@
+
+[[div class="a{$type}"]]
+[[div class="custom-writting-draftList"]]
+~~~~
+[[span class="writting-title"]]執筆 - 執筆中[[/span]]
+[[/div]]
+[[div class="custom-scp-draftList" style="margin-top: -0.8em; margin-bottom: -0.5em"]]
+__**SCP**__
+[[/div]]
+[[module ListPages category="draft" tags="+_scp-jp -_criticism-in -_reforming -_criticism-end" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="scp" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+[[div class="custom-tale-draftList" style="margin-top: -0.8em; margin-bottom: -0.5em"]]
+__**Tale**__
+[[/div]]
+[[module ListPages category="draft" tags="+_tale-jp -_criticism-in -_reforming -_criticism-end" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="tale" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+[[div class="custom-goif-draftList" style="margin-top: -0.8em; margin-bottom: -0.5em"]]
+__**GoIフォーマット**__
+[[/div]]
+[[module ListPages category="draft" tags="+_goi-format-jp -_criticism-in -_reforming -_criticism-end" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="goif" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-wreforming-draftList"]]
+~~~~
+[[span class="wreforming-title"]]執筆 - 手直し中[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_reforming _scp-jp _tale-jp _goi-format-jp" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="wreforming" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-wcriticismin-draftList"]]
+~~~~
+[[span class="wcriticismin-title"]]執筆 - 批評受付中[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-in _scp-jp _tale-jp _goi-format-jp" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="wcriticismin" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-wcriticismend-draftList"]]
+~~~~
+[[span class="wcriticismend-title"]]執筆 - 批評終了[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-end _scp-jp _tale-jp _goi-format-jp" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="wcriticismend" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+@@@@
+
+[[div class="custom-translating-draftList"]]
+~~~~
+[[span class="translating-title"]]翻訳 - 翻訳中[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_translation -_criticism-in -_reforming -_criticism-end" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="translating" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-treforming-draftList"]]
+~~~~
+[[span class="treforming-title"]]翻訳 - 手直し中[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_reforming +_translation" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="treforming" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-tcriticismin-draftList"]]
+~~~~
+[[span class="tcriticismin-title"]]翻訳 - 査読受付中[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-in +_translation" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="tcriticismin" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-tcriticismend-draftList"]]
+~~~~
+[[span class="tcriticismend-title"]]翻訳 - 査読終了[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-end +_translation" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="tcriticismend" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+@@@@
+
+[[div class="custom-others-draftList"]]
+~~~~
+[[span class="others-title"]]その他 - 作成中[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_others -_criticism-in -_reforming -_criticism-end" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="others" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-oreforming-draftList"]]
+~~~~
+[[span class="oreforming-title"]]その他 - 手直し中[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_reforming +_others" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="treforming" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-ocriticismin-draftList"]]
+~~~~
+[[span class="ocriticismin-title"]]その他 - 批評受付中[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-in +_others" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="ocriticismin" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-ocriticismend-draftList"]]
+~~~~
+[[span class="ocriticismend-title"]]その他 - 批評終了[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-end +_others" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="ocriticismend" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+[[/div]]
+[[/div]]
+[[div class="b{$type}"]]
+[[div class="custom-writting-draftList"]]
+~~~~
+[[span class="writting-title"]]作成中 - 執筆[[/span]]
+[[/div]]
+[[div class="custom-scp-draftList" style="margin-top: -0.8em; margin-bottom: -0.5em"]]
+__**SCP**__
+[[/div]]
+[[module ListPages category="draft" tags="+_scp-jp -_criticism-in -_reforming -_criticism-end" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="scp" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+[[div class="custom-tale-draftList" style="margin-top: -0.8em; margin-bottom: -0.5em"]]
+__**Tale**__
+[[/div]]
+[[module ListPages category="draft" tags="+_tale-jp -_criticism-in -_reforming -_criticism-end" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="tale" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+[[div class="custom-goif-draftList" style="margin-top: -0.8em; margin-bottom: -0.5em"]]
+__**GoIフォーマット**__
+[[/div]]
+[[module ListPages category="draft" tags="+_goi-format-jp -_criticism-in -_reforming -_criticism-end" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="goif" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-translating-draftList"]]
+~~~~
+[[span class="translating-title"]]作成中 - 翻訳[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_translation -_criticism-in -_reforming -_criticism-end" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="translating" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-others-draftList"]]
+~~~~
+[[span class="others-title"]]作成中 - その他[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_others -_criticism-in -_reforming -_criticism-end" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="others" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+@@@@
+
+[[div class="custom-wreforming-draftList"]]
+~~~~
+[[span class="wreforming-title"]]批評中断 - 執筆[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_reforming _scp-jp _tale-jp _goi-format-jp" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="wreforming" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-treforming-draftList"]]
+~~~~
+[[span class="treforming-title"]]批評中断 - 翻訳[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_reforming +_translation" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="treforming" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-oreforming-draftList"]]
+~~~~
+[[span class="oreforming-title"]]批評中断 - その他[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_reforming +_others" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="treforming" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+@@@@
+
+[[div class="custom-wcriticismin-draftList"]]
+~~~~
+[[span class="wcriticismin-title"]]批評中 - 執筆[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-in _scp-jp _tale-jp _goi-format-jp" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="wcriticismin" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-tcriticismin-draftList"]]
+~~~~
+[[span class="tcriticismin-title"]]翻批評中 - 翻訳[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-in +_translation" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="tcriticismin" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-ocriticismin-draftList"]]
+~~~~
+[[span class="ocriticismin-title"]]批評中 - その他[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-in +_others" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="ocriticismin" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+@@@@
+
+[[div class="custom-wcriticismend-draftList"]]
+~~~~
+[[span class="wcriticismend-title"]]批評終了 - 執筆[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-end _scp-jp _tale-jp _goi-format-jp" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="wcriticismend" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-tcriticismend-draftList"]]
+~~~~
+[[span class="tcriticismend-title"]]批評終了 - 翻訳[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-end +_translation" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="tcriticismend" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[div class="custom-ocriticismend-draftList"]]
+~~~~
+[[span class="ocriticismend-title"]]批評終了 - その他[[/span]]
+[[/div]]
+[[module ListPages category="draft" tags="+_criticism-end +_others" created_by="=" order="{$order}" perPage="{$perPage}" urlAttrPrefix="ocriticismend" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+[[/div]]
+
+[[div class="custom-sharing-draftList"]]
+~~~~
+[[span class="sharing-title"]]作成した共有ページ[[/span]]
+[[/div]]
+[[module ListPages category="sharedpage" created_by="=" order="{$order}" separate="no" perPage="{$perPage}" urlAttrPrefix="sharedpage" separate="no"]]
+# %%title_linked%%[[size 80%]] - %%revisions%%rev. @@/@@ %%comments%%com.[[/size]]
+[[/module]]
+
+[[module ListPages category="draft" tags="-_criticism-in -_reforming -_criticism-end -_scp-jp -_tale-jp -_goi-format-jp -_translation -_others" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-undefined-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="_scp-jp _tale-jp _goi-format-jp -_criticism-in -_reforming -_criticism-end" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-writting-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_scp-jp -_criticism-in -_reforming -_criticism-end" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-scp-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_tale-jp -_criticism-in -_reforming -_criticism-end" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-tale-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_goi-format-jp -_criticism-in -_reforming -_criticism-end" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-goif-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_reforming _scp-jp _tale-jp _goi-format-jp" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-wreforming-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_criticism-in _scp-jp _tale-jp _goi-format-jp" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-wcriticismin-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_criticism-end _scp-jp _tale-jp _goi-format-jp" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-wcriticismend-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_translation -_criticism-in -_reforming -_criticism-end" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-translating-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_reforming +_translation" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-treforming-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_criticism-in +_translation" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-tcriticismin-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_criticism-end +_translation" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-tcriticismend-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_others -_criticism-in -_reforming -_criticism-end" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-others-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_reforming +_others" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-oreforming-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_criticism-in +_others" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-ocriticismin-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="draft" tags="+_criticism-end +_others" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-ocriticismend-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages category="sharedpage" created_by="=" limit="1"]]
+[[%%content{0}%%module css]]
+.custom-sharing-draftList{
+    display:block !important;
+}
+[[%%content{0}%%/module]]
+[[/module]]

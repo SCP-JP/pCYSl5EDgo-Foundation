@@ -1,0 +1,67 @@
+[!--{$nomal}
+[[div class="initial_{$tag}"]]
+[[module ListPages category="portal" tags="initial_{$tag}" offset="{$offset}" perPage="250" separate="no"  order="created_by"]]
+[[a href="/%%fullname%%" class="%%created_by_unix%%"]]@@%%created_by%%@@[[span style="float:right;"]] - %%tags%%[[/span]][[/a]]
+[[/module]]
+[[/div]]
+[[module css]]
+.initial_{$tag} a[class^="{$tag}"] {
+    display: none;
+}
+[[/module]]
+[!----]
+[!--{$null}
+[[div class="initial_null"]]
+[[module ListPages category="portal" tags="initial_null"  offset="{$offset}"  perPage="250" separate="no"  order="created_by"]]
+[[a href="/%%fullname%%" class="null%%created_by%%"]]@@%%created_by%%@@[[span style="float:right;"]] - %%tags%%[[/span]][[/a]]
+[[/module]]
+[[/div]]
+[[module css]]
+.initial_null .list-pages-box p a[class*="null"],
+.initial_null .list-pages-box p a[class^="null("],
+.initial_null .list-pages-box p a[class^="null_"],
+.initial_null .list-pages-box p a[class^="null!"],
+.initial_null .list-pages-box p a[class^="null#"],
+.initial_null .list-pages-box p a[class^="null$"],
+.initial_null .list-pages-box p a[class^="null%"],
+.initial_null .list-pages-box p a[class^="null&"],
+.initial_null .list-pages-box p a[class^="null'"],
+.initial_null .list-pages-box p a[class^='null"'],
+.initial_null .list-pages-box p a[class^="null)"],
+.initial_null .list-pages-box p a[class^="null*"],
+.initial_null .list-pages-box p a[class^="null+"],
+.initial_null .list-pages-box p a[class^="null-"],
+.initial_null .list-pages-box p a[class^="null,"],
+.initial_null .list-pages-box p a[class^="null."],
+.initial_null .list-pages-box p a[class^="null/"],
+.initial_null .list-pages-box p a[class^="null:"],
+.initial_null .list-pages-box p a[class^="null;"],
+.initial_null .list-pages-box p a[class^="null<"],
+.initial_null .list-pages-box p a[class^="null>"],
+.initial_null .list-pages-box p a[class^="null="],
+.initial_null .list-pages-box p a[class^="null?"],
+.initial_null .list-pages-box p a[class^="null@"],
+.initial_null .list-pages-box p a[class^="null["],
+.initial_null .list-pages-box p a[class^="null]"],
+.initial_null .list-pages-box p a[class^="null^"],
+.initial_null .list-pages-box p a[class^="null`"],
+.initial_null .list-pages-box p a[class^="null{"],
+.initial_null .list-pages-box p a[class^="null|"],
+.initial_null .list-pages-box p a[class^="null}"],
+.initial_null .list-pages-box p a[class^="null~"]{
+    display: none;
+}
+[[/module]]
+[!----]
+[!--{$deleted}
+[[div class="非使用ユーザー"]]
+[[module ListPages category="portal" tags="非使用ユーザー"  offset="{$offset}"  perPage="250" separate="no"  order="created_by"]]
+[[a href="/%%fullname%%" class="%%created_by%%"]]@@%%created_by%%@@[[span style="float:right;"]] - %%tags%%[[/span]][[/a]]
+[[/module]]
+[[/div]]
+[[module css]]
+.非使用ユーザー a[class="(user deleted)"] {
+    display: none;
+}
+[[/module]]
+[!----]

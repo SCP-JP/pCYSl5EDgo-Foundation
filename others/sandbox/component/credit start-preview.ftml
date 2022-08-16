@@ -1,0 +1,29 @@
+[[module css]]
+@import url('http://scp-jp.wdfiles.com/local--code_/credit%3Astyle/1');
+[[/module]]
+
+[[div_ class="creditRate"]]
+[[div_ class="rateBox"]]
+[[div_ class="rate-box-with-credit-button"]]
+[[module Rate]]
+[[div_ class="creditButton"]]
+[[a href="#u-credit-view" class="fa fa-info" style="position:relative;"]][[image http://scp-jp.wikidot.com/local--files/nav:side/blank.png title="クレジットを表示する" style="position:absolute;height:100%;width:100%;top:0;left:0;"]][[/a]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div_ style="clear:both;"]]
+[[/div]]
+
+[[div_ id="credit-view"]]
+[[div_ class="fader"]]
+[[iframe http://scp-jp.wdfiles.com/local--code/credit%3Abackmodule/1 ]]
+[[/div]]
+
+[[div_ class="modalcontainer"]]
+[[div_ class="modalbox"]]
+[[div_ class="modalbox-title"]]
+++* クレジット
+[[/div]]
+[[div class="credit"]]

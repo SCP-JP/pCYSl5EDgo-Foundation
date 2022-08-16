@@ -1,0 +1,11 @@
+[[include component:sandbox-modifying-for-darktheme-base
+|font-color= {$font-color}
+|pvw-bg= {$pvw-bg}
+|rev-bg= {$rev-bg}
+|cmt-bg= {$cmt-bg}
+
+|font-color= #fff
+|pvw-bg= #423
+|rev-bg= #135
+|cmt-bg= linear-gradient(to right, #444, #3f3e3e)
+]]

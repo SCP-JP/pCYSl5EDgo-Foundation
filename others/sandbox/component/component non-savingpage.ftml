@@ -1,0 +1,59 @@
+[[module css]]
+@import url("http://scp-jp-sandbox3.wdfiles.com/local--code/component:non-savingpage/1");
+[[/module]]
+[[iftags +コンポーネント]]
+[[code type="css"]]
+body[class="wait"] #odialog-shader-iframe, body[class="wait"] #odialog-shader {
+  display: none !important;
+}
+#odialog-container {
+  position: fixed !important;
+}
+body[class="wait"] #odialog-container {
+  z-index: -1;
+}
+body[class="wait"] #odialog-container #owindow-1 {
+  top: calc(100% - 400px) !important;
+  left: 0 !important;
+}
+body[class="wait"] a[name="page-top"][target]+div #main-content #action-area div#lock-info {
+  background-color: #ffcdd2;
+  border: 1px solid #e53935;
+}
+div#lock-info {
+  font-size: 0;
+  margin: .8rem 0;
+  padding: 0.4rem .8rem;
+}
+div#lock-info::before {
+  content: 'You have an exclusive 15-minute lock that will stop others editing this page while you are working.\AThe lock expires in';
+  display: inline;
+  font-size: .82rem;
+  white-space: pre-wrap;
+}
+div#lock-info > strong {
+  font-size: .82rem;
+}
+div#lock-info::after {
+  content: 'seconds of inactivity.';
+  display: inline;
+  font-size: .82rem;
+}
+body[class="wait"] a[name="page-top"][target]+div #main-content #action-area div#lock-info::before {
+  content: '保存中です。\Aこの表示が長い間表示されている場合、編集エリアのテキストを一時的にクリップボードに移しておくことをお勧めします。';
+  display: inline;
+  font-size: .82rem;
+  color: red;
+  white-space: pre-wrap;
+}
+body[class="wait"] a[name="page-top"][target]+div #main-content #action-area div#lock-info::after {
+  font-size: 0;
+}
+body[class="wait"] a[name="page-top"][target]+div #main-content #action-area div#lock-info>strong {
+  font-size: 0;
+}
+body[class="wait"] a[name="page-top"][target]+div #main-content #action-area div#lock-info::after {
+  font-size: 0;
+}
+[[/code]]
+[[/iftags]]
