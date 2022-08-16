@@ -1,0 +1,13 @@
+文章に脚注を付ける場合は{{@@[[footnote]]@@}} というタグを使用します。脚注リストを文末__以外__の場所に表示したい場合は {{@@[[footnoteblock]]@@}}を使用します。
+
+[[div style="background-color:#EEE;border:dashed #CCC 1px;"]]
+何かしらのテキスト@@[[footnote]]そして脚注[[/footnote]]。更に別の脚注[[footnote]]もう1つの脚注の内容[[/footnote]]@@。
+
+@@[[footnoteblock]]@@
+[[/div]]
+
+何かしらのテキスト[[footnote]]そして脚注[[/footnote]]。更に別の脚注[[footnote]]もう1つの脚注の内容[[/footnote]]。
+
+[[footnoteblock]]
+
+もし標準の脚注タイトル("脚注")に満足できない場合は {{@@[[footnoteblock title="Custom title"]]@@}} を使用して好きな脚注を付けたり、titleの箇所を(title="")と記述して脚注タイトルをなくしたりする事ができます。

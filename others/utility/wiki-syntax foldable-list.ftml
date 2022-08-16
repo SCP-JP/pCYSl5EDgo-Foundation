@@ -1,0 +1,27 @@
+[*http://snippets.wikidot.com/code:foldable-list 折り畳み式リスト]は@@[[div]]@@に使われた特別なクラスを含めています。これはリストでそれぞれ違う段階を折り畳みと展開することで表されるナビゲーションメニューを作るときに便利です。次の例はどうやって3段階まで入り込むことができるのかの一例です。
+[[code]]
+[[div class="foldable-list-container"]]
+* リンク
+ * Wikidot
+  * [*http://www.wikidot.com/doc ドキュメンテーション]
+  * [*http://www.wikidot.com/doc:wiki-syntax Wiki構文]
+  * [*http://community.wikidot.com/howto:howto-list ハウツー]
+ * サーチエンジン
+  * [*http://www.google.com Google]
+  * [*http://www.yahoo.com Yahoo]
+* メインカテゴリー1
+ * [# メイン1 - サブ1]
+ * [# マイン1 - サブ2]
+* メインカテゴリー2
+ * [# メイン2 - サブ1]
+ * [# メイン2 - サブ2]
+ * [# メイン2 - サブ3]
+* メインカテゴリー3
+ * [# メイン3 - サブ1]
+[[/div]]
+[[/code]]
+
+[[div class="alert alert-info"]]
+**アップデートノート:** 
+* この構文はどこにでも使うことができます(もう{{サイドバー}}だけには限りません)
+[[/div]]

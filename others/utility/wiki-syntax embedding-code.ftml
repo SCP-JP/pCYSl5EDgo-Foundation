@@ -1,0 +1,78 @@
+主にSNSサイトでは指定されたコードを任意のページに貼りつける事によってサイトの機能を高めたり元のサイトのコンテンツを埋め込む事ができるようにしています。
+
+++ {{@@[[embed]]@@}} タグ
+
+{{@@[[embed]]@@}}タグによって自分のwikiページにも他のサイトのコンテンツを埋め込むができるようになります。例えば[https://www.alexa.com/ https://www.alexa.com/]からアクセスランキングを表示したい場合は下記のコードを記述するだけです。
+
+[[code]]
+[[embed]]
+<!-- http://www.alexa.com/site/site_stats/signup　より　Alexa グラフ   -->
+
+<script type="text/javascript"
+    src="http://widgets.alexa.com/traffic/javascript/graph.js"></script>
+
+<script type="text/javascript">/*
+<![CDATA[*/
+
+   // ユーザ設定項目
+   // スペース区切りで3つのドメインを記入してください
+   var sites      = ['ja.scp-wiki.net'];
+   var opts = {
+      width:      380,  // ピクセル指定によるグラフの幅 (最大 400)
+      height:     300,  // ピクセル指定によるグラフの幅 (最大 300)
+      type:       'n',  // "r" Reach, "n" Rank, "p" Page Views
+      range:      '6m', // 表示範囲 "7d", "1m", "3m", "6m", "1y", "3y", "5y", "max"
+      bgcolor:    'ffffff' // hex value without "#" char (usually "e6f3fc")
+   };
+   // ユーザ設定項目終り
+   AGraphManager.add( new AGraph(sites, opts) );
+
+//]]></script>
+
+<!-- end Alexa Graph Widget -->
+[[/embed]]
+[[/code]]
+[[embed]]
+<!-- Alexa Graph Widget from http://www.alexa.com/site/site_stats/signup -->
+
+<script type="text/javascript"
+    src="http://widgets.alexa.com/traffic/javascript/graph.js"></script>
+
+<script type="text/javascript">/*
+<![CDATA[*/
+
+   // USER-EDITABLE VARIABLES
+   // enter up to 3 domains, separated by a space
+   var sites      = ['ja.scp-wiki.net'];
+   var opts = {
+      width:      380,  // width in pixels (max 400)
+      height:     300,  // height in pixels (max 300)
+      type:       'n',  // "r" Reach, "n" Rank, "p" Page Views
+      range:      '6m', // "7d", "1m", "3m", "6m", "1y", "3y", "5y", "max"
+      bgcolor:    'ffffff' // hex value without "#" char (usually "e6f3fc")
+   };
+   // END USER-EDITABLE VARIABLES
+   AGraphManager.add( new AGraph(sites, opts) );
+
+//]]></script>
+
+<!-- end Alexa Graph Widget -->
+[[/embed]]
+その他対応しているサービスについては右記のページをご参照ください: [http://www.wikidot.com/doc:embedding | Embedding code from other services].
+
+注意点として、もしこの構文に{{<script type="text/javascript"...}}、Javascriptを埋め込んだ場合、@@[@@プレビュー@@]@@ではページ中に該当のコンテンツは表示されません。@@[@@プレビュー@@]@@中のページより更に下に表示されます。
+
+++ [[# iframe]]{{@@[[iframe]]@@}} 要素
+
+//iframe// 要素を使用する事によって他のサイトのコンテンツを埋め込む事ができます。構文は下記のものになります。
+[[code]]
+[[iframe url-source attributes]]
+[[/code]]
+この構文は {{<iframe src="url-source" attributes></iframe>}}のHTML構文に変換されます。
+この構文では下記の属性を使用する事ができます:
+* frameborder (0 or 1 allowed), align (left, right, top, bottom, middle)
+* height (ピクセルもしくは%指定)
+* width (ピクセルもしくは%指定)
+* scrolling (yes or no)
+* class
+* style

@@ -1,0 +1,48 @@
+@@[[code]] ... [[/code]]@@タグでコード･ブロックを生成することができます。
+[[code]]
+これがコードブロックです
+[[/code]]
+
+[[include]]タグを除いて、コードブロック内のすべてのwiki構文はリテラルテキストとして扱われ、処理されません。
+[[include]]タグの処理を避けたい場合は、1つの半角スペース（" "）をその前に挿入して下さい。
+
+ページ内のコードブロックはそれぞれが一意のURLを持っています。これはコードブロックがCSSコードを含んでいる際に特に役立つでしょう。
+[[code]]
+http://scpjp-fansite.wikidot.com/wikidot-syntax-trans/code
+http://scpjp-fansite.wikidot.com/wikidot-syntax-trans/code/2  -- second block
+[[/code]]
+
+こうすることで、_templateを考慮せずに、ページのソース自体に定義されたコードブロックを抽出することができます。
+_templateと組み合わせたページのソースを形成しているコー​​ドブロックにアクセスするには、次のURLを使用します。
+[[code]]
+http://mysite.wikidot.com/category:page/code_  -- 末尾のアンダースコアに注意して下さい
+http://mysite.wikidot.com/category:page/code_/2  -- second block
+[[/code]]
+
+
+あなたがPHPタグを使用するときに、自動的に色付けされたPHPブロックを作成するには、[[code type="php"]]…[[/code]] タグを使用してコードを囲みます。
+色付けされたPHPコードを取得するには、<?php … ?>で囲む必要があります。
+
+Wikidot.comはPEAR :: Text_Highlighterを使用しており、かなりの数のカラースキームをサポートしています。
+以下はPEAR :: Text_Highlighterがサポートしている言語です;
+
+php, html, cpp, css, diff, dtd, java, javascript, perl, python, ruby, xml.
+
+[[code]]
+[[code type="php"]]
+<?php
+/* comment */
+for($i=0; $i<100; $i++){
+echo "number".$i."\n";
+}
+?>
+[[/code]]
+[[/code]]
+[[code type="php"]]
+<?php
+/* comment */
+for($i=0; $i<100; $i++){
+echo "number".$i."\n";
+}
+?>
+[[/code]]

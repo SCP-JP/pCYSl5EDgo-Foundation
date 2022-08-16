@@ -1,0 +1,40 @@
+もしタイポグラフィ[[footnote]] ここで言うタイポグラフィとはクォーテーション等の強調記号の事を表します[[/footnote]]を使用したいのであれば、便利な方法をいくつか用意してあります。
+@@@@
+||~ 構文 ||~ 表示 ||
+|| @@``クォーテーション''@@ || ``クォーテーション'' || 
+|| @@`クォーテーション'@@ || `クォーテーション' || 
+|| @@,,クォーテーション''@@ || ,,クォーテーション'' || 
+|| @@,,クォーテーション''@@ || ,,クォーテーション'' || 
+|| @@ <<クォーテーション>> @@ || <<クォーテーション>> || 
+|| @@>>クォーテーション<<@@ || >>クォーテーション<< || 
+|| @@3点ドット...@@ || 3点ドット... ||
+|| @@始点 -- ダッシュ@@ || 始点 -- ダッシュ ||
+注意: ダッシュはスペースに囲まれている時のみ動作します。
+
+[[module css]]
+.wiki-content-table {
+width:100%;
+table-layout:fixed;
+}
+.wiki-content-table tr th{
+font-weight:bold;
+color:#000;
+text-align:left;
+border:none;
+background-color:#EEE;
+}
+
+
+.wiki-content-table tr td{
+padding:3px;
+border-top:none;
+border-left:none;
+border-right:none;
+border-bottom:solid #CCC 1px;
+text-align:left;
+}
+
+span.br{
+display:block;
+}
+[[/module]]

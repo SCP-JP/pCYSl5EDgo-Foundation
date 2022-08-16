@@ -1,0 +1,77 @@
+Wikidot.comでは[http://mathjax.org MathJax]を使い美しい数式を描画します。LaTeX の構文を知っている人であればwikidotで数式を扱う事は簡単です。
+
+++ [[# equations]] 数式
+
+数式を{{@@[[math@@ //label//]] ... @@[[/math]]@@}} のタグブロックの間に置くだけで記述できます("label"は任意の文字です)。数式はLaTeXにおける{{@@\begin{equation} ... \end{equation}@@}} の間に記述されたのと同じ環境で描画されます。この構文の詳細についてはいくつかのLaTeXのマニュアルを参照してください。
+
+[[code]]
+[[math label1]]
+  \rho _{\rm GJ} = -\sigma (r) \left[ (1 - \eta _{\ast }^2 {\kappa \over {\eta ^3}}) \cos \chi \right.
++ \left. {3\over 2} \theta (\eta) H(\eta)
+\xi \sin \chi \cos \phi \right]
+[[/math]]
+[[/code]]
+
+[[math label1]]
+\rho _{\rm GJ} = -\sigma (r) \left[ (1 - \eta _{\ast }^2 {\kappa \over {\eta ^3}}) \cos \chi \right.
++ \left. {3\over 2} \theta (\eta) H(\eta)
+\xi \sin \chi \cos \phi \right]
+[[/math]]
+
+__ラベル付けされた__式を参照する方法は{{@@[[eref@@ //label//]]}}を使用して式番号を取得するか例えば{{@@ ([[eref@@ //label1//]])}}を使い式を取得するだけです
+
+**例:**
+[[code]]
+[[math sample]]
+\lim_{h \to 0} \frac{(x+h)^{2}-x^{2}}{h} \
+[[/math]]
+[[/code]]
+> {{@@[[eref@@ //sample//]]}}
+> {{@@ ([[eref@@ //sample//]])}}
+**出力:**
+[[math sample]]
+\lim_{h \to 0} \frac{(x+h)^{2}-x^{2}}{h} \\
+[[/math]]
+> [[eref sample]]
+> ([[eref sample]])
+
+LaTeXの環境を指定する方法は2通りあります。1つは{{type="<environment>"}}パラメーターを渡す方法でもう1つは数式の中で{{@@\begin{<environment>}@@}} と{{@@\end{<environment>}@@}}を使う方法です。この2つは同等の機能を持ちます。
+
+[[code]]
+[[math type="align"]]
+E = mc^2
+[[/math]]
+[[/code]]
+
+[[code]]
+[[math]]
+\begin{align}
+E = mc^2
+\end{align}
+[[/math]]
+[[/code]]
+**出力:**
+[[div style="background-color:#EEE;border:dashed #CCC 1px;"]]
+[[math]]
+\begin{align}
+E = mc^2
+\end{align}
+[[/math]]
+[[/div]]
+{{equation}} は標準の環境です。その他の環境としては下記をサポートしています。
+ {{align}}, {{alignat}}, {{aligned}}, {{alignedat}}, {{array}}, {{Bmatrix}}, {{bmatrix}}, {{cases}}, {{eqnarray}}, {{equation}}, {{gather}}, {{gathered}}, {{matrix}}, {{multline}}, {{pmatrix}}, {{smallmatrix}}, {{split}}, {{subarray}}, {{Vmatrix}}, {{vmatrix}}.
+
+++ [[# inline]] 文中の数式
+
+文章中に数式を挿入する場合は{{@@[[$ ... $]]@@}}のタグブロックを使用します。
+
+[[div style="float:left; width: 45%; margin: 0 2%;"]]
+[[code]]
+[[$ E = mc^2 $]] は[[$ G_{\mu\nu} - \Lambda g_{\mu\nu} = \kappa T_{\mu\nu} $]]という式より有名です。
+[[/code]]
+[[/div]]
+[[div style="float:left; width: 45%; margin: 0 2%;"]]
+[[$ E = mc^2 $]] は[[$ G_{\mu\nu} - \Lambda g_{\mu\nu} = \kappa T_{\mu\nu} $]]という式より有名です。
+[[/div]]
+
+~~~~~~~

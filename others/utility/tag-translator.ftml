@@ -1,0 +1,36 @@
+[[include :scp-jp:credit:start |mode=no-rate]]
+
+**タイトル:** タグ翻訳システム
+**著者:** ©︎SCP財団
+**作成年:** 2021
+----
+本ページはSCPコミュニティのために作成され、SCP財団に帰属します。本ページの管理は[[[meet-the-staff-jp|サイトスタッフ]]]に委任されています。
+
+[[include :scp-jp:credit:end]]
+
+このシステムは[[*user ukwhatn]] により開発され、SCP-JPテクニカル・スタッフ・チームにより管理されています。不具合を見つけたら、スタッフに報告してください。
+現在はEN(英語版)のみに対応しています。
+
+[[tabview]]
+[[tab タグ単独検索]]
+検索したいタグ(JPでの名称)を入力し、「検索」をクリックしてください。タグリストの説明文が表示されます。
+
+[[iframe https://scp.ukwhatn.com/front/tag/tag_translator_jptagdesc.html width="100%" height="100%" style="min-height:500px"]]
+
+
+[[/tab]]
+[[tab タグ単独翻訳]]
+検索したい支部を選択した後、翻訳したいタグ(その支部での名称)を入力し、「翻訳」をクリックしてください。JPでのタグの名称が表示されます。
+複数のタグを同時に入力はできません。
+
+[[iframe https://scp.ukwhatn.com/front/tag/tag_translator_singletag.html width="100%" height="100%" style="min-height:500px"]]
+
+[[/tab]]
+[[tab タグページ翻訳]]
+検索したい支部を選択した後、翻訳したいページのページネーム(URLの、wikidot.com/よりも後の部分)を入力し、「翻訳」をクリックしてください。そのページに付与されているタグのJPでの名称が表示されます。
+複数のページを同時に入力はできません。
+
+[[iframe https://scp.ukwhatn.com/front/tag/tag_translator.html width="100%" height="100%" style="min-height:500px"]]
+
+[[/tab]]
+[[/tabview]]

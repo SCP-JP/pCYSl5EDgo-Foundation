@@ -1,0 +1,19 @@
+ページにソーシャルブックマークのボタンを追加するのは簡単です。ただ(何の変数なしで){{@@[[social]]@@}}だけを入力することで次のように出力されます。
+
+[[social blinklist,blogmarks,connotea,del.icio.us,digg,fark,feedmelinks,furl,linkagogo,newsvine,netvouz,reddit,simpy,spurl,wists,yahoomyweb,facebook]]
+
+これは次のものと同じ意味です。
+
+[[code]]
+[[social blinklist,blogmarks,connotea,del.icio.us,digg,fark,feedmelinks,furl,linkagogo,newsvine,netvouz,reddit,simpy,spurl,wists,yahoomyweb,facebook]]
+[[/code]]
+
+さらに、サービスを選ぶこともできます。例えば、digg、furl、del.icio.us、Facebookを使うには次のコードを使ってください。
+
+[[code]]
+[[social digg,furl,del.icio.us,facebook]]
+[[/code]]
+
+出力: [[social digg,furl,del.icio.us,facebook]]
+
+**チップ:** ソーシャルブックマークを使ってください！いつでもサイトバーや記事の下にソーシャルアイコンを入れるのは良いアイデアです。

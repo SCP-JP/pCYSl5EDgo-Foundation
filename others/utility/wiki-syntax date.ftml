@@ -1,0 +1,401 @@
+pWikidotにおけるいくつかのページ（フォーラム、プライベートメッセージ、最新版更新日　等）では（カーソルが重ねられた際、もしくは直接記述された形で）経過時間を自動的に計算する日付及びタイムスタンプを使用しています。例えば
+* [[date 1237135440 format="%e %b %Y, %H:%M %Z|agohover"]] (カーソルをこの日付の上に置き表示される文章を見てください) もしくは
+* [[date 1237135440 format="%c"]]
+
+もしあなたが自分のページに「どれぐらい時間が経ったか」を自動的に伝える日付を掲載したいのであれば、ここであなたにその方法を教えます。
+
+++ [[# how]] 使い方
+
+下記の構文を要します:
+> {{@@[[date@@ //timestamp// <format="//format//@@<|agohover>">]]@@}}
+
+構文
+* < ... > 任意のパラメータを意味します
+* {{//timestamp//}} は1970年1月1日から任意の日付までの秒数を記述します。特定の日付をこの数字に変換したい場合は[#wizard Code Wizard]以下をご参照ください。
+* {{//format//}}は//[http://community.wikidot.com/howto:frontforum-date-variable#modifiers %modifiers]//を含み得る、実際に表示される日付もしくは時間に変換される任意の文字列です。{{//format//}} を指定しない場合は"%e''が標準で設定されます。
+* {{|agohover}} は{{//format//}}で規定した文章が表示されている時、その文章にカーソルが重なった時に表示されるホバーテキスト ("//時間に応じて// 秒/分/時間/日 ago") を指定します。
+
+++ [[# wizard]][[# example]]Code Wizard[[footnote]] 原文に掲載されていた[http://www.wikidot.com/doc-wiki-syntax:date#wizard Code Wizard]を[[*user C-take]]が改良したものです[[/footnote]]
+自身のページに特定の日付からの経過日数を表示する際に必要なコードを見つけ出します:
+[[html]]
+<head>
+    <!--Created by ErichSteinboeck 2008-->
+    <style type="text/css">
+    	@import url('/common--theme/base/css/style.css');
+    	#main-content {margin: 0; padding: 0;}
+    </style>
+    <script type="text/javascript" src="/common--javascript/init.combined.js"></script>
+    <script type="text/javascript" src="/common--javascript/WIKIDOT.combined.js"></script>
+    <script  type="text/javascript">
+    OZONE.request.timestamp = Math.floor(new Date().getTime()/1000);
+    OZONE.request.date = new Date();
+
+<!-- Begin
+    window.addEventListener("message",function(event){
+    	var checkC = event.data.indexOf(",");
+    	if(checkC < 0){
+    		return;
+    	}
+    	if(event.data.substring(0,checkC) == "response")
+    	{
+    		document.getElementById('output').innerHTML = event.data.substring(checkC+1,event.data.length);
+    		window.parent.window.subDate.window.postMessage("","*");
+    	}
+    });
+    
+var initializeRun = true;
+//-- Load dropdown lists with values ----------------------------
+function loadLists() {
+
+  //-- Populate a dropdown list ---------------------------------
+  function loadList(options, from, to, minLength, selected) {
+
+    var text;
+
+    for (var i = from; i < to+1; i++) {
+      text = i.toString();
+      if (text.length<minLength)
+        text = '0000'.substr(1,minLength-text.length)+text;
+      options[i-from] = new Option(text);
+    }
+    options[selected-from].selected = true;
+  }
+
+  // Clear "no javascript" warning
+  document.getElementById('no_js').firstChild.data = '';
+
+  // Load all dropdown lists and select current date/time
+  var current=new Date();
+  var months = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
+
+  with (document.timestamp) {
+    for (var i = 0; i < 12; i++)
+      month.options[i] = new Option(months[i]);
+    month.options[current.getMonth()].selected = true;
+    loadList(day.options, 1, 31, 1, current.getDate());
+    loadList(year.options, 1960, current.getFullYear(), 4, current.getFullYear());
+    loadList(hour.options, 0, 23, 2, current.getHours());
+    loadList(minute.options, 0, 59, 2, current.getMinutes());
+  }
+
+  adaptDayList(current.getMonth(), current.getFullYear());
+}
+
+//-- Adapt "day" dropdown list --------------------------------
+function adaptDayList(month, year) {
+
+  // calculate last day of month/year
+  var dayOne = new Date(month<12?year:year+1, month<12?month+1:1, 1);
+  var maxDays = new Date(dayOne.getTime()-1000).getDate();
+
+  with (document.timestamp.day) {
+    if (selectedIndex > maxDays-1)
+      selectedIndex = maxDays-1;
+    for (var i = options.length; i < maxDays; i++)
+      options[i] = new Option(i+1);
+    if (options.length != maxDays)
+      options.length = maxDays;
+  }
+}
+
+//-- Calculate timestamp from selection --------------------------------
+function calculate() {
+
+  // Calculate timestamp
+  with (document.timestamp) {
+    adaptDayList(month.selectedIndex, year.selectedIndex);
+    var ts = new Date(year.selectedIndex+1960, month.selectedIndex, day.selectedIndex+1, hour.selectedIndex, minute.selectedIndex);
+  }
+
+  // Write timestamp to code & output
+  var time = Math.floor(ts.getTime()/1000);
+  var text;
+
+  text = time;
+  if (document.formatstring.format.value != '')
+    text = time + ' format="' + document.formatstring.format.value  + '"';
+  document.getElementById('code').firstChild.data = text;
+
+  text = time;
+  if (document.formatstring.format.value != ''){
+    text = time + '|' + document.formatstring.format.value;
+    }
+    if( initializeRun){
+    	document.getElementById('output').firstChild.data = text;
+    }else{
+    	window.parent.window.subDate.window.postMessage("request,"+text,"*");
+    }
+  <!--CODE TO UPDATE THE CHANGED ODATE GOES HERE-->
+}
+
+//-- Initial load for dropdown lists and initial calculate() ---------------
+function initialize() {
+  loadLists();
+changeTableStyle();
+  document.formatstring.format.value = '%Y年 %m月 %d日, %H:%M %Z|agohover'
+  calculate();
+ initializeRun = false;
+}
+
+        function isUseSmartPhone(){
+            return (((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0));
+        }
+
+function changeTableStyle(){
+    var table = document.getElementById("displayTable");
+    var resultTable = document.getElementById("ResultTable");
+    		var SelectButton = document.getElementById("forSmartPhone");
+    	SelectButton.parentNode.removeChild(SelectButton);
+    var isUserPhone = isUseSmartPhone();
+    if(isUserPhone){
+    	var formatArea = document.getElementById("formatArea");
+    	formatArea.removeAttribute("size");
+    	formatArea.setAttribute("style","width:100%;");
+    	var newStyle = "width:100%;table-layout:fixed;font-break:break-all;";
+    	table.setAttribute("style",newStyle);
+    	var oldStyle = resultTable.getAttribute("style");
+    	newStyle = newStyle+oldStyle;
+    	resultTable.removeAttribute("style");
+    	resultTable.setAttribute("style",newStyle);
+    	replasticTable("SlectDate");
+    	replasticTable("DecideFormat");
+    	var ChildOfChild = new Array();
+    	var trParent = resultTable.getElementsByTagName("tr")[0].parentNode;
+    	while(trParent.children.length > 0){
+    		var tmpChild = trParent.children[0].children;
+    		for(var j = 0;j < 2;j++){
+    			ChildOfChild.push(tmpChild[j]);
+    		}
+    		trParent.removeChild(trParent.children[0]);
+    	}
+    	for(var i = 0;i<4;i++){
+    		var Newtr = document.createElement("tr");
+    		var index = 0;
+    		switch(i){
+    			case 1:
+    				index = 2;
+    			break;
+    			case 2:
+    				index = 1;
+    			break;
+    			case 3:
+    				index = 3;
+    			break;
+    		}
+    		ChildOfChild[index].setAttribute("colspan","2");
+    		if(index == 2){
+    			SelectButton.style.display = "block";
+    			ChildOfChild[index].appendChild(SelectButton);
+    		}
+    		Newtr.appendChild(ChildOfChild[index]);
+
+    		trParent.appendChild(Newtr);
+
+    	}
+
+    }else{
+var codeResult = document.getElementById("codeResult");
+codeResult.parentNode.appendChild(SelectButton);
+SelectButton.style.display = "block";
+}
+
+}
+
+function replasticTable(idName){
+var TargetParent = document.getElementById(idName);
+var ChildrenNode = TargetParent.children;
+ChildrenNode[0].setAttribute("colspan","2");
+ChildrenNode[1].setAttribute("colspan","2");
+var AfterChild = ChildrenNode[1];
+TargetParent.removeChild(ChildrenNode[1]);
+
+var NewTr = document.createElement("tr");
+NewTr.appendChild(AfterChild);
+TargetParent.after(NewTr);
+}
+
+//  End -->
+</script>
+</head>
+
+<body id="html-body" onload="initialize();">
+<div id="container-wrap">
+<div id="container">
+<div id="content-wrap">
+<div id="main-content">
+<div id="page-content">
+<table id="displayTable"><tr id="SlectDate">
+<td><ul><li>必要な日付もしくは時間を選択してください</li></ul>
+</td><td style="padding:0 0 0 1em">
+<form name="timestamp" onsubmit="return false;">
+<select name="year" onkeyup="calculate();" onchange="calculate();">
+<option>2008</option>
+</select>
+<select name="month" onkeyup="calculate();" onchange="calculate();">
+<option>Aug</option>
+</select>
+<select name="day" onkeyup="calculate();" onchange="calculate();">
+<option>27</option>
+</select>
+&nbsp;
+<select name="hour" onkeyup="calculate();" onchange="calculate();">
+<option>20</option>
+</select>:<select name="minute" onkeyup="calculate();" onchange="calculate();">
+<option>51</option>
+</select>
+</form></td></tr><tr id="DecideFormat">
+<td><ul><li>更に<em><a href="http://community.wikidot.com/howto:frontforum-date-variable#modifiers" target="_parent">format</a></em>を記入してください</li></ul></td>
+<td style="padding:0 0 0 1em">
+<form name="formatstring" onsubmit="return false;">
+<input name="format" type="text" size="50" id="formatArea" onkeyup="calculate();" value="%Y年 %m月 %d日, %H:%M %Z|agohover">
+</form></td></tr></table>
+<span id="no_js">JavaScriptを有効にしてください …</span>
+<br>
+<table style="border-collapse:collapse;border-top:2px solid;border-bottom:2px solid;table-layout:fixed;width:100%;" id="ResultTable">
+<tr>
+<td style="padding:3px 1em 3px 0"><em><strong>構文…</strong></em></td>
+<td><em><strong>表示 …</strong></em></td>
+</tr>
+<tr style="border-top:1px solid">
+<td style="padding:3px 1em 3px 0">
+<div class="code" id="codeResult">
+<pre>
+<code>[[date <span id="code">format="1219863060%Y年 %m月 %d日, %H:%M %Z|agohover"</span>]]</code>
+</pre>
+</div>
+</td>
+<td><span id="output" class="odate">1219863060|%Y年 %m月 %d日, %H:%M %Z|agohover</span></td>
+</tr>
+</table>
+<div id="forSmartPhone" style="display:none;width:100%;">
+<button style="width:100%;" onclick="(function(){
+var oldSelect = window.getSelection();
+while(oldSelect.rangeCount > 0){
+oldSelect.removeRange(oldSelect.getRangeAt(0));
+}
+var code = document.getElementById('codeResult');
+var range = document.createRange();
+range.selectNodeContents(code);
+window.getSelection().addRange(range);
+})()">構文全選択</button>
+</div>
+</div></div></div></div></div>
+<div style="display:none" id="dummy-ondomready-block"></div>
+</body>
+[[/html]]
+表示されたコードをコピーして自身のページに貼り付けてください。
+
+++ [[# examples]]構文例
+[[table style="border-collapse:collapse;border-top:2px solid;border-bottom:2px solid"]]
+[[row]]
+[[cell style="padding:3px 1em 3px 0"]]//**記述例**//[[/cell]][[cell]]//**表示**//[[/cell]]
+[[/row]]
+[[row style="border-top:1px solid"]]
+[[cell style="padding:3px 1em 3px 0"]]{{@@[[date 1216153821]]@@}}[[/cell]]
+[[cell]][[date 1216153821]][[/cell]]
+[[/row]]
+[[row style="border-top:1px solid"]]
+[[cell style="padding:3px 1em 3px 0"]]{{@@[[date 1216153821 format="%d. %m. %Y|agohover"]]@@}}[[/cell]]
+[[cell]][[date 1216153821 format="%d. %m. %Y|agohover"]][[/cell]]
+[[/row]]
+[[row style="border-top:1px solid"]]
+[[cell style="padding:3px 1em 3px 0"]]{{@@[[date 681746400 format="James is %O young"]]@@}}[[/cell]]
+[[cell]][[date 681746400 format="James is %O young"]][[/cell]]
+[[/row]]
+[[row style="border-top:1px solid"]]
+[[cell style="padding:3px 1em 3px 0"]]{{@@+++ Minutes from [[date 1234567890 format="%e %B|agohover"]]@@}}[[/cell]]
+[[cell]]
++++* Minutes from [[date 1234567890 format="%e %B|agohover"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+注意点: 未来の日付に対しても %O を使用する事ができます。
+[[embed]]
+<iframe style="display:none;" src="http://ja.scp-wiki.net/wiki-syntax:date/code/1" name="subDate"></iframe>
+[[/embed]]
+**著者**
+created by [[*user ErichSteinboeck]]
+[!--
+[[code type="html"]]
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Wikidot Date Wizard</title>
+    <script type="text/javascript" src="http://ja.scp-wiki.net/scpmetatitlesearch/code/4"></script>
+    		<script type="text/javascript" src="/common--javascript/init.combined.js"></script>
+    <script type="text/javascript" src="/common--javascript/WIKIDOT.combined.js"></script>
+
+    <script  type="text/javascript">
+    OZONE.request.timestamp = Math.floor(new Date().getTime()/1000);
+    OZONE.request.date = new Date();
+    var url = location.href;
+    var pureURL = url;
+    var PermitSend = "";
+    var check = -1;
+    var loopSend = true;
+    var debug = true;
+    var RequestFormat = "";
+
+    	
+    function initialize(){
+    check = url.indexOf("#");
+     if(check < 0){
+    	return;
+     }
+    	pureURL = url.substring(0,check);
+    	var data =decodeURIExtension(url.substring(check+1,url.length));
+    	RequestFormat = data;
+    	
+    	document.getElementById("output").firstChild.data =RequestFormat;	
+setTimeout(LoopSend,5);
+    }
+    
+    function LoopSend(){
+
+    	if(document.getElementById("output").firstChild.data != "" ){
+    	
+    		if(RequestFormat != document.getElementById("output").innerHTML)
+    		{
+    			var iframes = window.parent.window.frames;
+    			for(var i = 0;i < iframes.length;i++){
+    				iframes[i].window.postMessage("response,"+document.getElementById("output").innerHTML,"*");
+    			}
+    		}
+    	}
+    	if(loopSend){
+    		setTimeout(LoopSend,5);
+    	}
+    }
+    
+    window.addEventListener("message",function(event){
+    //リクエストを受け取るまでこのスクリプトは始動しない
+    	if(event.data == ""){
+    		loopSend = false;
+    		return;
+    	}
+    	var checkC = event.data.indexOf(",");
+    	if(checkC < 0){
+    		loopSend = false;
+    		return;
+    	}
+    	var runType = event.data.substring(0,checkC);
+    	if(runType == "request")
+    	{
+    		loopSend = false;
+    		RequestFormat = event.data.substring(checkC+1,event.data.length);
+    		location.href = pureURL + "#" + RequestFormat;
+    		location.reload();
+    	}
+    });
+    </script>
+
+</head>
+<body id="html-body" onload="initialize();">
+</body>
+<span id="output" class="odate">1219863060|%Y年 %m月 %d日, %H:%M %Z|agohover</span>
+</body>
+</html>
+[[/code]]
+--]

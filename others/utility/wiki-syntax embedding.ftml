@@ -1,0 +1,39 @@
+++ [[# video]]Video
+
+動画をページに直接埋め込む場合は{{@@[[embedvideo]] ... [[/embedvideo]]@@}}タグを使用します。
+HTMLコード埋め込み区画には下記の動画サイトから提供されるコードを埋め込む必要があります。
+
+* [http://video.google.com Google Video]
+* [http://www.youtube.com YouTube]
+
+例:
+
+[[code]]
+[[embedvideo]]
+<embed style="width:400px; height:326px;" id="VideoPlayback" align="middle"
+type="application/x-shockwave-flash"
+src="http://video.google.com/googleplayer.swf?docId=263244138622602613"
+allowScriptAccess="sameDomain" quality="best" bgcolor="#ffffff" scale="noScale" salign="TL"
+FlashVars="playerMode=embedded"> </embed>
+[[/embedvideo]]
+[[/code]]
+
+++ [[# audio]]音楽
+
+音楽を埋め込む場合は {{@@[[embedaudio]] ... [[/embedaudio]]@@}} を使用し、音楽サイトから提供される埋め込みコードを記述します。
+
+現在下記のサイトをサポートしています。
+* [http://www.odeo.com Odeo.com]
+
+例:
+[[code]]
+[[embedaudio]]
+<embed src="http://www.odeo.com/flash/audio_player_standard_gray.swf"
+quality="high" width="300" height="52" name="audio_player_standard_gray"
+align="middle" allowScriptAccess="always" wmode="transparent"
+type="application/x-shockwave-flash" flashvars="audio_id=99133&audio_duration=282.0&valid_sample_rate=true&external_url=http://www.vitalpodcasts.com/FileSystem/podcasts/89/opensource_episode1.mp3" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</embed><br /><a style="font-size: 9px; padding-left: 110px; color: #f39;
+letter-spacing: -1px; text-decoration: none" href="http://odeo.com/audio/99133/view">
+powered by <strong>ODEO</strong></a>
+[[/embedaudio]]
+[[/code]]

@@ -1,0 +1,17 @@
+[[collapsible show="+ 折り畳みブロックの説明" hide="- もう分かった、ありがとう。"]]
+@@[[collapsible]]@@タグはクリック一発でページで折り畳みテキストブロックを作り出すことができます。テキストブロックを短くするには、次のフォームを使ってください。
+
+[[code]]
+[[collapsible show="+ 見せる" hide="- 隠す"]]
+見せ/隠せようとするテキスト。
+[[/collapsible]]
+[[/code]]
+
+どんなWikidotテキストでも折り畳むことができます。例を見る方はこちらへ： http://snippets.wikidot.com/code:collapsible-block-unleashed.
+
+@@[[collapsible]]@@と@@[[/collapsible]]@@を同一の行に入れると構文解析が実行されません。
+
+基本的には見せるリンクは"+ show block"、隠せるリンクは"- hide block"で表されます。長いブロックのためには、@@hideLocation="both"@@設定を追加することで見せられた時に隠しリンクを上と下の両方に出すことができます。hideLocation設定の他の値には"top"(デフォルト)と"bottom"があります。
+
+最後に、@@folded="no"@@設定は基本的にブロックを見させて、ユーザーが欲しい時に折り畳むことができます。例えば、この設定は目次などに使われます。
+[[/collapsible]]
