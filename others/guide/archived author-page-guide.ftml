@@ -1,0 +1,105 @@
+> [[size 150%]]このページは古くなって保存されました。[[/size]]
+> 
+> このページの新しいバージョンは[[[author-page-guide|こちら]]]へ。このバージョンは参照用のために保存されています。
+
+[[module CSS]]
+#page-content h1 {
+    font-weight: bold;
+    margin: 30px 0;
+    color: #901;
+}
+#page-content h2 {
+    font-weight: bold;
+    margin: 20px 0;
+    color: #901;
+}
+#page-content h3,
+#page-content h4 {
+    font-weight: bold;
+    margin: 15px 0;
+}
+.rule,
+.code {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: 1px solid #999;
+    padding: 10px 20px;
+    background: #eee;
+    box-shadow: 0 2px 6px rgba(0,0,0,.3);
+}
+.rule ul,
+.rule ol {
+    /*ul fix*/
+    padding: 0 20px;
+}
+[[/module]]
+
++ 1. 「著者ページ」とは
+
+[[[*http://scp-jp.wikidot.com/members-pages-jp|著者ページ]]]は作品のリストを保管するためのページです。
+
+著者ページに最低限必要なものは、あなたがこのサイトに投稿した作品の一覧だけであって、それさえあれば、あとはルールとマナーを守っていれば自由です。
+
+また著者ページでは、あなたがよく[使用する/使用していく予定]のキャラクターの設定を書いておられる方もいます。
+これらの設定は通称「人事ファイル」と呼ばれ、そこに書かれたキャラクターは、あなたのアバターキャラクターとして見なされることが多いです。
+
+ただし、アバターキャラクターを作ることが著者ページの目的ではないので、アバターキャラクターの作成は必ずしも必要ということではありません。
+
+その他の書式に制限はありません。本家の著者ページなどを参考にして自由に作成して下さい。
+
++ 2. ルール
+
+「著者ページ」に関する最低限のルールです。
+違反は、サイトルールの「ガイドラインの遵守」違反と見做される場合があります。
+
+++ 作成条件
+
+著者ページの作成には、下記の条件を満たす必要があります。
+
+[[div class="rule"]]
+# SCP記事/Taleを合わせて、少なくとも3つ以上を作成している（Rateが+1以上のもののみ、改稿に関するものは含めない）。
+[[/div]]
+
+また、上記条件を満たさなくなったら（特に、作品が全て削除されたら）、作品リストとしての機能を失うため、[/deletions-guide 「削除のガイドライン」]に基づき、著者ページは削除される場合があります。
+
+++ サイト内での取扱い
+
+サイト内で、「著者ページ」は、下記の原則に従って扱われます。
+
+[[div class="rule"]]
+# 著者ページ内は、SCP_Foundationの世界観とは、原則切り離して扱ってください（著者ページ内は、SCP_Foundationの世界観と矛盾しても、SCPと全く関係ない物が含まれていても良いものとします）。
+#  「著者ページへのdv」と「著者ページ記載の"人事ファイル"に対する批評コメント」は禁止します（著者ページは、基本的に評価を必要としないページです。著者が求めていない限り、批評は不要です）。
+ # ただし、逆に記事/tale等で「人事ファイルの登場人物」を使用した場合、そのページのディスカッションにおいて通常通り批評対象とし、「taleオリジナルの登場人物」と同じ扱いをしてください。
+# 著者と著作物の区別は明確にしてください。「人事ファイルの登場人物」への批判を、即時に著者自身への批判と見做さないでください。
+[[/div]]
+
+**要約:** "人事ファイル"のキャラは、批評しないでください。作品内で出てきたなら、そのディスカッションで批評してください。
+
++ 3. その他
+
+以下の構文（製作者[[*user y33r41]]）を使用すればあなたの作成した記事を自動でリストに登録することができます。
+**@@created_by="[user name]"@@** の部分を、あなたのWikidotユーザー名に書き換えてください。
+
+[[code]]
+[[=]]
++++ SCPs
+[[/=]]
+[[module ListPages created_by="[user name]" separate="no" tags="+scp +jp" order="created" prependLine="||~ SCP ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+[[=]]
++++ Tales
+[[/=]]
+[[module ListPages created_by="[user name]" separate="no" tags="tale +jp" order="created" prependLine="||~ Tale ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+[[=]]
++++ Others
+[[/=]]
+[[module ListPages created_by="[user name]" separate="no" tags="-scp -author -tale -著者ページ" order="created" prependLine="||~ Others ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+[[/code]]
+
+//注:他のメンバーと共同で制作した記事はこれらの構文では反映されません。手動でリストに加えて下さい。//
