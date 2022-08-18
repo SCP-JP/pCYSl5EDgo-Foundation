@@ -1,120 +1,5 @@
 [[include :scp-wiki:theme:black-highlighter-theme]]
 [[include :scp-wiki:component:bhl-dark-sidebar]]
-
-[[module CSS]]
-.justify {
-   text-align: justify;
-}
-
-@media only screen and (max-width: 768px) {
- .justify {
-  text-align: left;
- }
-}
-
-body .italic, body .italic *, body em, body em *, body i, body i * {
- --slnt: 7;
-}
-
-.text {
-   position: relative;
-   color: black;
-   border: solid 5px #000000;
-   border-top:solid 3px #d3d3d3;
-   background-color: #ffffff;
-   background-position: top center;
-   padding-left:15px;
-   padding-right:15px;
-   padding-top:5px;
-   padding-bottom:5px;
-   margin-bottom: 10px;
-   z-index: 1;
-}
-
-.text2 {
-   position: relative;
-   color: black;
-   border: solid 5px #000000;
-   border-top:solid 3px #5E1A1E;
-   background-color: #ffffff;
-   background-position: top center;
-   padding-left:15px;
-   padding-right:15px;
-   padding-top:5px;
-   padding-bottom:5px;
-   margin-bottom: 10px;
-   z-index: 1;
-}
-
-.image {
-   position: relative;
-   color: black;
-   border-top: solid 5px #000000;
-   border-right: solid 5px #000000;
-   border-left: solid 5px #000000;
-   border-bottom: solid 3px #d3d3d3;
-   background-color: #ffffff;
-   background-position: top center;
-   padding-left:15px;
-   padding-right:15px;
-   padding-top:5px;
-   padding-bottom:5px;
-   margin-bottom: 0px;
-   z-index: 1;
-}
-
-.image::after {
-   content: "";
-   position: absolute;
-   z-index: -1;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   background: url('https://i.imgur.com/CQCcN7e.png') center center;
-   background-size: contain;
-   background-repeat: no-repeat;
-   opacity: 0.15;
-}
-
-.image2 {
-   position: relative;
-   color: black;
-   border-top: solid 5px #000000;
-   border-right: solid 5px #000000;
-   border-left: solid 5px #000000;
-   border-bottom: solid 3px #5E1A1E;
-   background-color: #ffffff;
-   background-position: top center;
-   padding-left:15px;
-   padding-right:15px;
-   padding-top:5px;
-   padding-bottom:5px;
-   margin-bottom: 0px;
-   z-index: 1;
-}
-
-.image2::after {
-   content: "";
-   position: absolute;
-   z-index: -1;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   background: url('https://upload.wikimedia.org/wikipedia/commons/e/ec/SCP_Foundation_%28emblem%29.svg') center center;
-   background-size: contain;
-   background-repeat: no-repeat;
-   opacity: 0.05;
-}
-[[/module]]
-
-[[module CSS]]
-:root {
-    --zero: 0;
-}
-[[/module]]
-
 [[div style="border:outset 8px red; padding:10px; background:white; margin-bottom: 8px; border-radius: 30px;"]]
 [[=]]
 + CONTENT WARNING
@@ -1057,3 +942,118 @@ What has to be stated, is that the basis for this change is that of an utilitari
 > **Source:** [https://commons.wikimedia.org/wiki/File:Friern_Hospital,_London;_an_old_man,_emaciated,_viewed_from_Wellcome_V0029616.jpg Wikimedia]
 =====
 [[include :scp-wiki:component:license-box-end]]
+[[module CSS]]
+.justify {
+   text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+ .justify {
+  text-align: left;
+ }
+}
+
+body .italic, body .italic *, body em, body em *, body i, body i * {
+ --slnt: 7;
+}
+
+.text {
+   position: relative;
+   color: black;
+   border: solid 5px #000000;
+   border-top:solid 3px #d3d3d3;
+   background-color: #ffffff;
+   background-position: top center;
+   padding-left:15px;
+   padding-right:15px;
+   padding-top:5px;
+   padding-bottom:5px;
+   margin-bottom: 10px;
+   z-index: 1;
+}
+
+.text2 {
+   position: relative;
+   color: black;
+   border: solid 5px #000000;
+   border-top:solid 3px #5E1A1E;
+   background-color: #ffffff;
+   background-position: top center;
+   padding-left:15px;
+   padding-right:15px;
+   padding-top:5px;
+   padding-bottom:5px;
+   margin-bottom: 10px;
+   z-index: 1;
+}
+
+.image {
+   position: relative;
+   color: black;
+   border-top: solid 5px #000000;
+   border-right: solid 5px #000000;
+   border-left: solid 5px #000000;
+   border-bottom: solid 3px #d3d3d3;
+   background-color: #ffffff;
+   background-position: top center;
+   padding-left:15px;
+   padding-right:15px;
+   padding-top:5px;
+   padding-bottom:5px;
+   margin-bottom: 0px;
+   z-index: 1;
+}
+
+.image::after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: url('https://i.imgur.com/CQCcN7e.png') center center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   opacity: 0.15;
+}
+
+.image2 {
+   position: relative;
+   color: black;
+   border-top: solid 5px #000000;
+   border-right: solid 5px #000000;
+   border-left: solid 5px #000000;
+   border-bottom: solid 3px #5E1A1E;
+   background-color: #ffffff;
+   background-position: top center;
+   padding-left:15px;
+   padding-right:15px;
+   padding-top:5px;
+   padding-bottom:5px;
+   margin-bottom: 0px;
+   z-index: 1;
+}
+
+.image2::after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: url('https://upload.wikimedia.org/wikipedia/commons/e/ec/SCP_Foundation_%28emblem%29.svg') center center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   opacity: 0.05;
+}
+
+:root {
+    --zero: 0;
+}
+
+span.o {
+   color: blue;
+}
+[[/module]]
