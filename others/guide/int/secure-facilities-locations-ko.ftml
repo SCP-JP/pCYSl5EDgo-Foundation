@@ -1,0 +1,280 @@
+[[module CSS]]
+.siteIcon {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  width: 30px;
+  height: 17px;
+  vertical-align: bottom;
+  background-color: #999;
+  border: solid 2px #000;
+  border-radius: 0 6px 0 6px;
+  color: #fff;
+}
+.siteIcon img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 0;
+}
+.siteIcon .number {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  line-height: 100%;
+  font-size: 60%;
+  font-weight: bold;
+  text-shadow: #333 1px 1px;
+}
+
+.areaIcon {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  width: 30px;
+  height: 17px;
+  vertical-align: bottom;
+  background-color: #333;
+  border: solid 2px #000;
+  border-radius: 0 6px 0 6px;
+  color: #fe3;
+}
+.areaIcon img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 0;
+}
+.areaIcon .number {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  line-height: 100%;
+  font-size: 60%;
+  font-weight: bold;
+  text-shadow: #333 1px 1px;
+}
+[[/module]]
+
+[[tabview]]
+[[tab title="Introduction"]]
+[[f>toc]]
+
++ Facility Designations
+
+The Foundation maintains and operates a large number of facilities worldwide, from small outposts with only a handful of staff to major Sites with thousands of personnel.
+
+++ Site
+
+Foundation facilities designated as Sites are //covert// facilities, meaning that while existence of the facility is known to the public, such facilities are often disguised under government or corporate fronts. Sites are often built in locations in relatively close proximity to civilian populations, where facilities would require such cover.
+
+++ Area
+
+Foundation facilities designated as Areas are //clandestine// facilities, meaning that civilians are not aware of their existence at all. Such facilities are often built far away from civilian populations and may contain highly dangerous anomalies; the vast majority of Areas have extreme fail-safe measures such as on-site nuclear warheads.
+
++ Facility Sections
+
+++ Sector
+
+Sectors are sections of Sites or Areas that are designated for specific purposes, such as containment, research, or storage. The exact usage of Sectors vary from facility to facility and is dependent on the facility's primary purpose and size.
+
+++ Unit
+Units are self-contained sections of Sites or Areas such as those containing Biological or Dimensional anomalies and are designed to self-seal in case of a breach or other catastrophic event. All personnel entering or exiting a Unit must typically undergo a full decontamination procedure.
+
++ Prefixes
+
+These prefixes are often used to denote specializations of facilities or facility sections and are generally only used in internal communication.
+
+++ Armed
+
+Armed denotes a facility or facility section with abnormally high physical security concerns, either due to containment of violent hostile entities or threat of outside attack. Such facilities typically have a large amount of military-grade weaponry and vehicles as well as a disproportionately large number of permanent security staff; in the case of a full facility, this typically entails a detachment of at least battalion or regiment strength.
+
+++ Biological (Bio)
+
+Biological containment facilities or facility sections deal with infectious or otherwise biohazardous anomalies and are both isolated and self-contained to prevent the possible escape of such anomalies.
+
+++ Containment
+
+Containment facilities or facility sections are primarily equipped and intended for the containment of anomalous objects, entities, or phenomena.
+
+++ Dimensional (Dim)
+
+Dimensional containment facilities or facility sections deal with extradimensional apertures or anomalies exhibiting inconsistent or warped spacetime.
+
+++ Humanoid
+
+Humanoid containment facilities or facility sections primarily deal with sentient, sapient human or near-human entities capable of understanding and complying with instructions. These are essentially analogous to a prison facility for anomalous entities.
+
+++ Protected
+
+Protected facilities and facility sections are "safe zones" kept free of anomalous influence. No anomalies are allowed within these facilities at any time.
+
+++ Provisional
+
+Provisional facilities are those that are established or built around an immobile anomaly. Provisional facilities typically contain only a single anomaly.
+
+++ Reliquary
+
+Reliquary facilities or facility sections are designed for handling artifacts and objects of religious or historical significance.
+
+++ Research
+
+Research facilities or facility sections are designed for either the handling and study of anomalies or anomalous materials or research and development of new containment schemes and methods.
+
+++ Storage
+
+Storage facilities or facility sections are intended for long-term storage of non-anomalous or inert anomalous objects with no risk of autonomous interaction.
+
++ Miscellaneous
+
+These are Foundation facilities or locations that do not fall under the standard organizational structure.
+
+++ Observation Posts
+
+Observation Posts are tiny facilities established in a multitude of locations worldwide. Often limited to small standalone buildings or single units within larger buildings, Observation Posts are typically used to monitor regional communications for flagged content, as well as monitor nearby Foundation facilities. Many Observation Posts are also used as secure communications hubs or safe-houses by undercover Foundation agents.
+
++ Facilities List (Abridged)
+
+The following is a partial list of notable Foundation facilities. Please note that this list is incomplete; many Foundation facilities are not listed here due to operational security requirements or because their purpose and/or location are classified. Many facility designations have also been recycled over time as the original facilities are decommissioned or otherwise no longer in use.
+
+++ Sites
+[[include :scp-wiki:component:site name=[*http://scp-int.wikidot.com/secure-facility-dossier-site-01K Site-01K]|number=01K|c0=#030|subtitle=[!-- --]]]
+
+Site-01K
+
+[[include :scp-wiki:component:site name=[*http://scp-int.wikidot.com/secure-facility-dossier-site-04k Site-04K]|number=04K|c0=#800|subtitle=(Research and Monitoring Site-04K)]]
+
+Site-04K of the SCP Foundation Korea Regional Command was established in Geonbongsan Mountain, Goseong-gun, the northernmost part of Gangwon-do, for the purpose of complete surveillance and removal of the paranormal blind spots. Site-04K is monitoring the North Korean border area and the coastal border for that purpose. 
+
+[[include :scp-wiki:component:site name=[*http://scp-int.wikidot.com/secure-facility-dossier-complex-13k Complex-13K]|number=13K|c0=#006|subtitle=(Integrated Facility Complex-13K)]]
+
+Complex-13K is a provincial site which is a result of combined Foundation facilities in Jeju Special Self Governing Province. Five major facilities are located around the island. Mobile Task Force Zeta-4 is stationed here. Anomalies such as [[[SCP-601-KO]]] and [[[SCP-953-KO]]] are under Complex-13K management.
+
+[[include :scp-wiki:component:site name=[*http://scp-int.wikidot.com/secure-facility-dossier-site-21k Site-21K]|number=21K|c0=#006|subtitle=(Central Research and Containment Facility-21K)]]
+
+Site-21K is the largest Central Research and Containment facility in Korea, located in ██████ ████, Seoul, built to manage the recently skyrocketing numbers of anomalies found in the Republic of Korea. Nowadays, the base serves as the axis of most projects led by the Foundation.
+
+[[include :scp-wiki:component:site name=Site-27K|number=27K|c0=#630|subtitle=[!-- --]]]
+
+Site-27K
+
+[[include :scp-wiki:component:site name=[*http://scp-int.wikidot.com/secure-facility-dossier-site-37k Site-37K]|number=37K|c0=#006|subtitle=(Armed Storage Site-37K)]]
+
+Site-37K is located in Dong-gu, Incheon Metropolitan City. Site-37K uses its coastal location to its advantage, serving as the logistics hub of the Korea Regional Command, and tracker of groups and persons of interest in the Korean Penninsula. MTF unit Gapho-13 is stationed in this site. [[[SCP-270-KO]]]-H is deployed for aiding the dispatch of the MTF unit. No other anomalies are contained in the base.
+
+[[include :scp-wiki:component:site name=[*http://scp-int.wikidot.com/secure-facility-dossier-site-64k Site-64K]|number=64K|c0=#006|subtitle=(Research and Containment Site-64K)]]
+
+Site-64K is the Foundation facility that overlooks anomalies in [[[mujin-yarn|Mujin]]], South Jeolla Province. MTF unit Mu-39 is stationed here. Anomalies such as [[[SCP-052-KO]]], [[[SCP-246-KO]]], [[[SCP-711-KO]]], and [[[SCP-814-KO]]] are under Site-64K management.
+
+[[include :scp-wiki:component:site name=Site-89|number=89|c0=#630|subtitle=[!-- --]]]
+
+Site-89
+
+[[include :scp-wiki:component:site name=Site-145K|number=145K|c0=#006|subtitle=[!-- --]]]
+
+Site-145K is located in Jeongeup-si, North Jeolla Province. It is responsible for the research and containment of Safe and Euclid class anomalies in western North Jeolla Province. It houses anomalies such as [[[security-clearance-recheck|SCP-074-KO]]], [[[SCP-150-KO]]] and [[[SCP-169-KO]]] 
+
+++ Areas
+
+[[include :scp-wiki:component:area name=Area-██|number= -- |c0=#606|subtitle=[!-- --] ]]
+[REDACTED]
+
+[[/tab]]
+[[tab title="Writing Guide"]]
+----
+[[size 120%]]**Identification Code**[[/size]]
+
+Similar to the item numbers of SCP instances, secure facilities have their own Identification Code. Identification Codes are comprised of:
+
+> (Country Code)(Provincial/Metropolitan Code)(Local Code)-(Type)-(Number)
+
+"Type" includes 'Site' or 'Area'.
+For example, [[[http://scp-wiki.wikidot.com/secure-facility-dossier-site-81|Site-81]]]'s Identification Code, USINBL-Site-81 can be translated as:
+
+> Site(Site)-81 located in Bloomington(BL), Indiana(IN), United States of America(US)
+
+To make a Korea-based area or site, the Country code is KR. For Provincial/Metropolitan codes and Local codes, refer to the table below.
+
+[[collapsible show="Open Table" hide="Collapse Table"]]
+||||~ Seoul Special City: SE || Jongno-gu JO || Jung-gu CE || Yongsan-gu YO ||
+|| Seongdong-gu SU || Gwangjin-gu GJ || Dongdaemun-gu DD || Jungnang-gu JR || Seongbuk-gu SB ||
+|| Gangbuk-gu GB || Dobong-gu DB || Nowon-gu NO || Eunpyeong-gu EU || Seodaemun-gu SD ||
+|| Mapo-gu MA || Yangcheon-gu YA || Gangseo-gu GS || Guro-gu GU || Geumcheon-gu GC ||
+|| Yeongdeungpo-gu YD || Dongjak-gu DJ || Gwanak-gu GW || Seocho-gu SC || Gangnam-gu GN ||
+|| Songpa-gu SP || Gangdong-guGD || || || ||
+||||~ Busan Metropolitan City: BU || Jung-gu CE || Dong-gu EA  || Seo-gu WE ||
+|| Nam-gu SO || Buk-gu NO || Yeongdo-gu YD || Busanjin-gu BJ ||  Dongnae-gu DR ||
+|| Gangseo-gu GA || Haeundae-gu HA ||  Saha-gu SH || Geumjeong-gu GJ || Yeonje-gu YO ||
+|| Suyeong-gu SU || Sasang-gu SS || Gijang-gun GI || || ||
+||||~ Daegu Metropolitan City: DA || Jung-gu CE ||  Dong-gu EA  || Seo-gu WE ||
+|| Nam-gu SO || Buk-gu NO || Suseong-gu SU || Dalseo-gu DL || Dalseong-gun DS ||
+||||~ Incheon Metropolitan City: IN || Jung-gu CE || Dong-gu EA  || Seo-gu WE ||
+|| Nam-gu SO || Namdong-gu SE || Yeonsu-gu YE || Bupyeong-gu BU || Gyeyang-gu GY ||
+|| Ganghwa-gun GA || Ongjin-gun ON || || || ||
+||||~ Gwangju Metropolitan City: GW ||  Dong-gu EA  || Seo-gu WE || Nam-gu SO ||
+|| Buk-gu NO || Gwangsan-gu GW || || || ||
+||||~ Daejeon Metropolitan City: DJ || Jung-gu CE || Dong-gu EA || Seo-gu WE ||
+|| Yuseong-gu YU || Daeduk-gu DA || || || ||
+||||~ Sejong Special Autonomous City: SJ ||  || || ||
+||||~ Ulsan Metropolitan City: UL || Jung-gu CE || Dong-gu EA || Nam-gu SO ||
+|| Buk-gu NO || Ulju-gun UL || || || ||
+||||~ Gyeonggi Province: GY || Suwon City SU || Seongnam City SN || Euijeongbu City EU ||
+|| Anyang City AY || Bucheon City BU || Gwangmyeong City GM || Pyeongtaek City PY || Dongducheon City DO ||
+|| Ansan City AS || Goyang City GO || Gwacheon City GC || Guri City GU || Namyangju City NA ||
+|| Osan city OS || Siheung City SH || Gunpo City GP || Euiwang City EW || Hanam City HN ||
+|| Yongin City YO || Paju City PA || Icheon City IC ||  Anseong City AS || Gimpo City GP ||
+|| Hwaseong City HW || Gwangju City GW || Yangju City YJ || Pocheon City PC || Yeoju City YJ ||
+|| Yeoncheon-gun YC || Gapyeong-gun GA || Yangpyeong-gun YP || || ||
+||||~ Gangwon Province: GA || Chuncheon City CH || Wonju City OJ || Gangneung City GA ||
+|| Donghae City DO || Taebaek City TA || Sokcho City SO || Samcheok City SA || Hongcheon-gun HC ||
+|| Hoengseong-gun HS || Yeongwol-gun YW || Pyeongchang-gun PC || Jeongseon-gun JS || Cheolwon-gun CO ||
+|| Hwacheon-gun HW || Yanggu-gun YG || Inje-gun IJ || Goseong-gun GS || Yangyang-gun YY ||
+||||~ North Chungcheong Province: CN || Cheongju City CJ || Chungju City CU || Jecheon City JC ||
+|| Boeun-gun BO || Okcheon-gun OC || Yeongdong-gun YD || Jeungpyeong-gun JP || Jincheon-gun JI ||
+|| Goesan-gun GO || Eumsung-gun ES || Danyang-gun DY || || ||
+||||~ South Chungcheong Province: CS || Cheonan City CA || Gongju City GO || Boryeong City BO ||
+|| Asan City AS || Seosan City SS || Nonsan City NS || Gyeryong City GY || Dangjin City DA ||
+|| Geumsan-gun GS || Buyeo-gun BY || Seocheon-gun SC || Cheongyang-gun CY || Hongseong-gun HS ||
+|| Yesan-gun YS || Taean gun TA || || || ||
+||||~ North Jeolla Province: JN || Jeonju City JJ || Iksan City IK || Gunsan City GS ||
+|| Jeongup city JE ||  Gimje City GJ || Namwon City NA || Wanju City WA || Gochang City GO ||
+|| Buan-gun BU || Imsil-gun IM || Sunchang-gun SU || Jinan-gun JI || Muju-gun MU ||
+|| Jangsu-gun JA ||  || || || ||
+||||~ South Jeolla Province: JS || Mokpo City MO || Yeosu City YE || Suncheon City SU ||
+|| Mujin City MU || Naju City NA || Gwangyang City GW || Damyang-gun DA || Gokseong-gun GK ||
+|| Gurye-gun GU || Goheung-gun GH || Boseong-gun BS || Hwasun-gun HW || Jangheung-gun JH ||
+|| Gangjin-gun GJ || Haenam-gun HN || Yeongam-gun YA || Muan-gun MA || Hampyeong-gun HA ||
+|| Yeonggwang-gun YG || Jangseong-gun JS || Wando-gun WA || Jindo-gun JI || Sinan-gun SI  ||
+||||~ North Gyeongsang Province: GN || Pohang City PO || Gyeongju City GY || Gimcheon City GI ||
+|| Andong City AN || Gumi City GU || Yeongju City YJ || Yeongcheon City YC || Sangju City SA ||
+|| Mungyeong City MU || Gyepngsan City GS || Gunwi City GU || Eisung City EU || Cheongseong city CU ||
+|| Yeongyang-gun YY || Yeongduk-gun YD || Chungdo-gun CD || Goryeong-gun GR || Seongju-gun SJ ||
+|| Chilgok-gun CG || Yechoen-gun YE || Bonghwa-gun BH || Uljin-gun UJ || Ulleung-gun UL ||
+||||~ South Gyeongsang Province: GS || Changwon City CW || Gimhae City GH || Jinju City JJ ||
+|| Yangsan City YS || Geoje City GJ || Tongyeong City TY || Sacheon City SA || Milyang City MY ||
+|| Haman-gun HA || Geochang-gun GC || Changnyeong-gun CN || Goseong-gun GS || Hadong-gun HD ||
+|| Hapcheon-gun HC || Namhae-gun NH || Hamyang-gun HY || Sancheong-gun SC || Eiryeong-gun EU ||
+||||~ Jeju Special Self-Governing Province: JE || Jeju City JE || Seogwipo City SG || ||
+[[/collapsible]]
+
+For example the Identification Code for "Site-724K in Gwanak-gu, Seoul Special City" is:
+> KRSEGW-Site-724K
+
+----
+[[size 120%]]**General Information**[[/size]]
+
+----
+[[size 120%]]**Staff Information**[[/size]]
+
+----
+[[size 120%]]**Anomalous entities**[[/size]]
+
+----
+[[size 120%]]**Additional information**[[/size]]
+
+[[/tab]]
+[[/tabview]]

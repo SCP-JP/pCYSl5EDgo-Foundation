@@ -1,0 +1,284 @@
+[[module css]]
+
+ 
+#page-content {
+    --accent: #000000;
+    --daccent: #000000;
+    --hraccent: #000000;
+}
+
+
+#page-content .chr hr {
+    margin: unset;
+    padding: unset;
+    height: unset;
+    border: unset;
+    color: unset;
+    background-color: unset;
+}
+
+#page-content .chr hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, var(--hraccent) 50%, rgba(255, 255, 255, 1) 100%);
+    width: 85%;
+    margin: 3em auto;
+    position: relative;
+    overflow: visible;
+}
+
+#page-content .chr hr::after {
+    display: block;
+    content: "";
+    font-family: "FontAwesome";
+    font-size: 15px;
+    color: var(--accent);
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    background: url(http://scp-jp-storage.wikidot.com/local--files/file:4062604-7-lq3b/sushi-svgrepo-com.svg);
+    background-size: contain;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    transform: translateX(-50%);
+}
+
+#page-content .chr.shr hr {
+    width: 30%;
+    margin: 2em auto;
+}
+
+#page-content .chr.sshr hr {
+    width: 15%;
+    margin: 1em auto;
+}
+[[/module]]
+
+
+[[include credit:start]]
+**Title:** So you'd like to spin SUSHI?
+**Original Title:** [http://scp-jp.wikidot.com/alors-comme-ca-vous-voulez-tourner-des-sushis それで、あなたはSUSHIを回しますか？]
+**Author:** ©[[*user Jiraku_Mogana]]
+**Transrator:** [[*user Zatto13]]
+**Year of creation:** 2021
+**Year of transration:** 2021
+[[include credit:end]]
+ 
+
+[[=]]
+[[size 150%]]__**So you'd like to spin SUSHI?**__[[/size]]
+[[size 80%]]Wouldn't you rather drink a soy sauce?[[/size]]
+[[/=]]
+
+
+[[div class="blockquote"]]
+
+I couldn't help but notice that the meatier [[[sushiblade-hub |the hub page]]] becomes by increasing works concerned with Sushiblade, the more difficult it is for beginners to understand Sushiblade.
+
+Some of Sushiblade's works and works concerned with them are translated into English (INT), Korean (KO), Chinese (CN), German (DE), Traditional Chinese (ZH), etc.       
+Some of them are even original articles whose language are not Japanese. But I think the number of them is too many to choose what articles to translate and it is very difficult that you understand Sushiblade.
+
+For those who just discover Sushiblade from movies or games or who just hear about the crazy canon in JP, there may be many questions yet. What's sushi? What's Dark Sushi? Sumeshi Brainwashing? What to read? What points are interesting? I'll answer those.
+
+This is a guide for such a "newcomer of Sushiblade".
+
+
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+
++ First Sushiblade
+What to read at first after you find Sushiblade.
+All interested parties of Sushiblade must say that
+//"You should read [[[*scp-1134-jp |SCP-1134-JP]]]!"//.
+1134-JP is the first article and origin for Sushiblade and it has all the concepts of Sushiblade. Just read it and you will understand other Sushiblade works.
+
+To be more precise, read SCP-1134-JP or you cannot understand the following sentences at all.
+ 
+@@@@
+@@@@
+[[div_ class="chr"]]
+----
+[[/div]]
+@@@@
+
+
++ The world and groups in Sushiblade
+
+
+* People for Sushiblade
+Characters must spin sushi in a story of this canon. As we all know, //Spin// is the rotation of sushi like a spinning top. If a sushi is rotating sushi on a conveyor, it's not Sushiblade. Characters have various feelings, take various actions, and create a story for just spinning sushi.
+
+But, don't forget that spinning sushi is an anomalous skill even in the world of the SCP Foundation. Those who belong to the Foundation are accustomed to anomalies, but it is so serious for the general public to encounter them. Also, even if innocent people see sushi spun justifiably by a sushiblader, they think it is a trick or something.
+
+However, most of sushibladers don't try to hide Sushiblade. Efforts of the Foundation make the general public unaware of Sushiblade as being anomalous. In order to regard Sushiblade as fiction in public, the Foundation broadcasted fictional stories as a cover story: anime, movie, etc.
+
+* What sushi is
+The concept of "sushi" in this canon is often a little different, especially one which members of Dark Sushi, which are introduced in the following works, are using. When you eat dishes in a rotation sushi, for example ramen noodle, some sushibladers regard them all as sushi. Also, the "concept of Sushi" invented by Dark Sushi is made even from incorporeal concepts. A range wherein each sushiblader regards as sushi is different, but if they lose a Sushiblade battle, they should have their sushi having been spun.
+ 
+* [[[yamizushi-hub |Dark Sushi]]] (//闇寿司//)
+A group of sushi chefs losing pride as a sushi chef and meddling with dark power. Most of them are willing to use any means in order to win Sushiblade battles and appeals to force. Has various technologies related on sushi, not only Sushiblade, but also "sumeshi brainwashing" and "sushi of weakpoints", and is skillful with mind and concept control. Sometimes cooperates with other GoIs, for example technical collaboration with JOICL, while normalcy-preservation agencies are neutral or against.
+ 
+Dark Sushi writes documents called "[http://scp-int.wikidot.com/jp-hub#toc12 Dark Sushi file]" which are written about research on sushi. Almost all of this research is on sushi made or used by Dark Sushi members, while some of them is on sushi used by opponents, instruments to spin sushi, or counters against sushi.
+
+Dark Sushi's head is the man called Yami. Other members hardly are in systematic activities as an organization. Each member is free to act and often competes with each other. People called Dark Lord of the Sushi or the Four Chef of Dark Sushi have been confirmed as executives. 
+
+@@@@ 
+@@@@
+[[div_ class="chr"]]
+----
+[[/div]]
+@@@@
+
+
++ Simple Sushipedia
+The canon "Sushiblade" has a few peculiar terms. The following are extracts of important terms from the hub.
+----
+* Sumeshi Brainwashing (//精神酢飯漬け//)
+A way of brainwashing which Dark Sushi uses or a state brainwashed. Minds brainwashed by Dark Sushi sleep in sumeshi.
+----
+* Sumeshi Telepathy (//精神酢飯接続//)
+A skill, which enable to use telepathy with other sushibladers by reinforcing the capability of touching each sushiblader's heart on purpose. Its communication cannot be jammed and intercepted by an outsider.
+----
+* Holy Spirit (//聖霊//)
+Empyrean entities which top sushibladers can summon. Appears from Sushiblade spinning fast floating.
+----
+* Interdimensionale Sushifield (//次元間スシ・フィールド//)
+Sushifields caused by top sushibladers' distortion of a space. Expands by bringing the world in sushi. The view of it often varies depending on the sushiblader causing it.
+----
+* The Society of Unrotation-Sushi (//回らない寿司協会//)
+The normalcy-preservation agency of foods. Managements sushi which is involved with anomalous and protects orthodox Edomae-sushi. Has an out-of-date side: not only can it not accept heresy sushi, but also innovative sushi, for example salmon. Must be against Dark Sushi.
+----
+* Dark Lord of the Sushi (//スシの暗黒卿//)
+A title showing a strong sushiblader in the dark side. Seems to play a leader role of Dark Sushi.
+----
+* The Four Chef of Dark Sushi (//闇寿司四包丁//)
+Top spinners having nicknames originating from knives, including kitchen knives. They are called the Four Chef, but the number of them is more than ten.
+----
+* Sortation, Utilization, Maintaining and Energizing Committee of the Invincibles (SUME-CI) (//不滅なる寿司の選別・利用・維持および活性化のための委員会// )
+One of the Committees of Dark Sushi. Management ideas of sushi for Dark Sushi and revises Dark Sushi file.
+----
+* Sushisumo (//鮨相撲//)
+A game spread by Hanaya Yohē, who started Yohē Sushi in the Edo era. In this game, you spin and hit sushi. Sushistorians guess that it is the predecessor of Sushiblade.
+----
+* [http://scp-jp.wikidot.com/system:page-tags/寿司の意思 Will of Sushi] (//寿司の意思//)
+The god of very sushi. It is called God of Sushi, Demon of Sushi, Prayer of Sushi, Past of Sushi, Future of Sushi, etc.
+----
+* Darkness of Eternity (//永遠の闇//)
+The root of Dark Sushi and the very darkness which sushi chefs fall into. It is called Darkness of Great, End of Sushi, Imprecation of Sushi, Origin of Evil of Sushi, etc. It is a pair with the "Will of Sushi" and against it, so they are eternal as long as sushi exists.
+----
+* Monad of Sushi (//寿司のモナド//)
+The idea of "what sushi is" for each of us. It relies on Monad of Sushi for whether something is orthodox or heresy. A.K.A "sushi only for me".
+
+
+@@@@
+@@@@
+[[div_ class="chr"]]
+----
+[[/div]]
+@@@@
+
+
++ Characters
+I'll show you some of the various characters in Sushiblade.
+
+----
+* [http://scp-int.wikidot.com/system:page-tags/tag/takao Takao]　([http://scp-int.wikidot.com/SCP-1134-JP First Appearance])
+
+The young man who can hear a sushi's voice. Is employed as a D-class officer (D-1028) by the Foundation. However, his story started by him contacting SCP-1134-JP.
+----
+* [http://scp-int.wikidot.com/system:page-tags/tag/kai Kai]　([http://scp-int.wikidot.com/SCP-1134-JP First Appearance])
+
+Takao's young rival man. When he researched SCP-1134-JP as a D-Class officer (D-1228), he lost Sushiblade against Takao and fell into the dark side. But he was helped by Takao and withdrew from Dark Sushi.
+
+----
+* [http://scp-int.wikidot.com/system:page-tags/tag/scp-1134-jp Katsu]　([http://scp-int.wikidot.com/SCP-1134-JP First Appearance])
+
+A skillful sushi chef. Teaches visitors Sushiblade in "Rotation Sushi Katsu", so he is designated SCP-1134-JP by the Foundation. Was insulted by Yami and Kai and has a serious injury.
+
+----
+* [http://scp-int.wikidot.com/system:page-tags/tag/master-yami Yami]　([http://scp-int.wikidot.com/SCP-1134-JP First Appearance])
+
+The best sushiblader of Dark Sushi. Almost no one has equal power of Sushiblade with him due to mastery of orthodox and heresy Sushiblade. Real younger brother of Katsu; his name used to be Sakae.
+
+----
+* [http://scp-jp.wikidot.com/system:page-tags/tag/%E5%BE%A1%E8%93%AE%E5%AF%BA%E6%81%8B%E6%B2%BB Orenji Renji]　([[[yamizushi-file-no058 |First Appearance]]])
+
+One of the Dark Lord of the Sushi. Has creative ideas and certain capabilities. Is sometimes expelled from Dark Sushi because of his unprecedented strange actions. According to his Dark Sushi file, he is a game geek having strong preferences.
+
+----
+* [http://scp-jp.wikidot.com/system:page-tags/tag/%E5%87%BA%E5%88%83%E5%8C%85%E4%B8%81%E3%81%AE%E3%82%A6%E3%82%A3%E3%83%BC%E3%82%AF Weak of the slicing knife]　([[[vinegared-rice-brainwashing-orientation |First Appearance]]])
+
+One of the four chef sushibladers and a researcher specializing in psychology. Good at sumeshi brainwashing and other skills and acts in secret while other sushibladers of the Four Chef are active.
+
+----
+* [http://scp-jp.wikidot.com/system:page-tags/tag/%E9%9A%A0%E3%81%97%E5%8C%85%E4%B8%81%E3%81%AE%E3%82%B9%E3%83%8B%E3%83%BC%E3%82%AF Sneak of the hidden knife]　([[[itamae-yami |First Appearance]]])
+
+One of the Four Chef sushibladers. Is not very strong, but has ambition. His effort is rated by other sushibladers of the Four Chef and Yami too.
+
+
+----
+* [http://scp-jp.wikidot.com/system:page-tags/tag/%E3%83%89%E3%82%AF%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%88%E3%83%A9%E3%83%A4%E3%83%BC Dr. Torayar]　([[[yamizushi-file-no058 |First Appearance]]])
+
+A talented scientist belonging to Dark Sushi. Has advanced technology in many areas, not just sushi, so he is called "the brain of Dark Sushi".
+
+@@@@
+@@@@
+[[div_ class="chr"]]
+----
+[[/div]]
+@@@@
+
+
++ Works
+
+Recommended tales for beginners
+
+* [[[sushiblade |New program "Nigiru syari and sushiblade"]]]: This is the first Sushiblade work in SCP-JP.
+* [[[sushi-3-2-1-hey-rassyai |Just before final episode "Sushiblade of memories! Evolving Salumon!"]]]: A tale helping you to understand the world of Sushiblade.
+* [[[egg-drago |Golden left spin, Egg-Drogo!]]]: It describes passionate fights which you can only read in the Sushiblade canon.
+
+----
+
+Recommended Dark Sushi files
+
+* [[[yamizushi-file-no042 |Dark Sushi file No.042 "California roll"]]]: Commemorable first Dark Sushi file.
+* [[[yamizushi-file-no403 |Dark Sushi file No.403 "Sushi of weakpoints"]]]: Eventually, they cook a sushi of a concept.
+* [[[yamizushi-file-no073 |Dark Sushi file No.073 "Origin of sushi"]]]: A famous SCP object appears in the tale.
+
+----
+
+Works for a little mature reader
+
+* [[[yamizushi-file-no303 |Dark Sushi file No.303 "Zico"]]]: You may think that such a work is accepted as Sushiblade.
+* [[[sb-ibunden |Explosive Nigiri Sushiblade: Strange story]]]: A tale that describes 13 episodes(!) of a Sushiblade Anime. Take enough of your time to read it.
+
+@@@@
+@@@@
+[[div_ class="chr"]]
+----
+[[/div]]
+@@@@
+
+
++ Writing Tips!
+
+"Su-Shi-Shi! I'll write a Sushiblade article! Hey Rassyai!"
+
+Wow, he is also fascinated by Sumeshi.
+
+"Finish! My sushiblader "Jet Black" is the strongest! Murder Takao, Yami and etc. with Aconitum=Sushi! Let's post my work."
+
+Wait! It is not easy to leave a Sushiblade article on the wiki. If you just spin sushi in your own way, the result will be deleted. I'll show you tips on how to write a better sushi article.
+
+* **Don't jest!**　You may regard characters in the Sushiblade canon as crazy at a glance. They try to spin sushi, we can understand that. However, they are often very serious and mature men of sushi chef even in Dark Sushi. If they, excepting a character who is likely to do that, suddenly become fools or throw out sushi, sushi readers cannot sympathize with this story. Most sushi are foods so it is difficult for vulgar articles to have a good reputation. In Sushiblade, funny points are often serious rather than comical.
+
+* **Be consistent!**　The Sushiblade canon has many suspicious theories and mysterious technologies. If you use them halfway, the reader will not understand them well and will be less immersed, and the work will not get a good evaluation. Even if it seems strange, try to keep the explanation and theory consistent to satisfy a reader. However, some Sushiblade authors use technology which gets laugh by rushing with fun without enough time to understand them...
+
+* **Write your original story!**　We are no longer surprised at just spinning a sushi, as well as just changing an existing object to sushi too. If you used even so funny materials, your story could not have a good reputation without cooking sushi from them well. Consider that Why you'd like to spin that sushi or that how you write good works with Sushiblade.
+
+
+[[footnoteblock]]

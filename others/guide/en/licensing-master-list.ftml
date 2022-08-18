@@ -1,0 +1,189 @@
+[[span style="margin-left:2em"]]//For information about licensing requirements, please see the [[[Licensing Guide]]].//[[/span]]
+
+Below is the master list for content, including images and audio, which are used on the SCP Wiki. This list is a living document and is in the process of being updated.
+
+In the event that the table below is broken or you have questions about implementation, please contact [[*user CityToast]] or another member of the Licensing team.
+
+[[collapsible show="How to add licensing information to a page" hide="-How to add licensing information to a page"]]
+
+If you would like to add licensing information to your own page, follow these steps:
+
+**Step 1:**
+
+Add this to the bottom of the page:
+
+[[div class="blockquote"]]
+@@[[include :scp-wiki:component:license-box]]@@
+@@=====@@
+@@> **Filename:** @@
+@@> **Name:** (if different from filename)@@
+@@> **Author:**@@
+@@> **License:**@@
+@@> **Source Link:**@@
+@@> **Derivative of:** (If applicable)@@
+@@> **Additional Notes:** (Optional)@@
+@@=====@@
+@@[[include :scp-wiki:component:license-box-end]]@@
+[[/div]]
+
+You can also use this handy box-ify-er:
+[[html]]
+<head>
+<style>
+@charset "utf-8";
+@import url('www.scp-wiki.net/component:theme/code/1');
+</style>
+<script type = "text/javascript">
+  function resetBox(){
+  var txtName = document.getElementById("inputLicenseInfo");
+  var name = txtName.value;
+  inputLicenseInfo.value = "**Images:** (or audio, if applicable)\r\n* \"[LINK-TO-SOURCE Name-of-image]\" by AUTHOR-NAME, Licensed under Type-of-License"
+  } // end clear
+  function boxify(){
+  var txtName = document.getElementById("inputLicenseInfo");
+  var name = txtName.value;
+  inputLicenseInfo.value = "[[include :scp-wiki:component:license-box]]\r\n=====\r\n" + name + "\r\n=====\r\n[[include :scp-wiki:component:license-box-end]]"
+  } // end boxify
+ </script>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "textBoxes.css" />
+ </head>
+ <body>
+ <form action = "">
+ <textarea id="inputLicenseInfo" rows="10" cols="80">
+&gt; **Filename:** 
+&gt; **Name:** (if different from filename)
+&gt; **Author:**
+&gt; **License:**
+&gt; **Source Link:**
+&gt; **Derivative of:** (If applicable)
+&gt; **Additional Notes:** (Optional)
+</textarea><br>
+<input type = "button" value = "License-box-ify!" onclick = "boxify()"/>
+<input type = "button" value = "Reset" onclick = "resetBox()"/>
+ </form>
+ </body>
+[[/html]]
+
+//Notes//:
+
+* You cannot use some modules, including CSS, HTML, and listpages, inside the license section. You also cannot use collapsibles or tables.
+* If your footnotes are appearing after the license section, add [[span style="background-color: beige; font-family:'courier new';"]]@@[[footnoteblock]]@@[[/span]] above the license template.
+* Do not copy or move the [[span style="background-color: beige; font-family:'courier new';"]]@@=====@@[[/span]] elements. Only have one pair, and place that pair below and above the includes.
+
+**Step 2**
+Add the [https://scp-wiki.wikidot.com/system:page-tags/tag/_licensebox _licensebox tag] to the page.
+
+**Step 3 (optional)**
+
+You can change the name of the author in the pre-generated attribution by specifying the author variable **|author=**. This is particularly useful for co-authored works, works in which you wish to be credited under another alias, or works which are attributed via metadata. Add the variable like this:
+
+[[div class="blockquote"]]
+@@[[include :scp-wiki:component:license-box@@
+|author=YourAliasHere]]
+[[/div]]
+
+[[/collapsible]]
+@@ @@
+[[module ListPages tags="+_licensebox" category="_default" wrapper="no" separate="no" order="name desc desc"]]
+
+[[head]]
+[[table class="wiki-content-table" style="width:100%"]]
+[[row]]
+[[hcell]]
+Page Name
+[[/hcell]]
+[[hcell]]
+License Info
+[[/hcell]]
+[[/row]]
+[[/head]]
+
+[[body]]
+[[row]]
+[[cell class="wiki-content-table"]]
+%%title_linked%%
+[[/cell]]
+[[cell]]
+%%content{2}%%
+[[/cell]]
+[[/row]]
+[[/body]]
+
+[[foot]]
+[[/table]]
+[[/foot]]
+
+[[/module]]
+
+[[collapsible show="+ Pages tagged _cc but not _licensebox" hide="show="- Pages tagged _cc but not _licensebox"]]
+
+[[module ListPages tags="+_cc -_licensebox" category="_default" wrapper="no" separate="no" order="create_date desc"]]
+
+[[head]]
+[[table class="wiki-content-table" style="width:100%"]]
+[[row]]
+[[hcell]]
+Page Name
+[[/hcell]]
+[[hcell]]
+License Info
+[[/hcell]]
+[[/row]]
+[[/head]]
+
+[[body]]
+[[row]]
+[[cell class="wiki-content-table"]]
+%%title_linked%%
+[[/cell]]
+[[cell]]
+%%content{2}%%
+[[/cell]]
+[[/row]]
+[[/body]]
+
+[[foot]]
+[[/table]]
+[[/foot]]
+
+[[/module]]
+
+[[/collapsible]]
+
+
+[[collapsible show="+ Pages tagged _licensebox but not _cc" hide="show="- Pages tagged _cc but not _licensebox"]]
+
+[[module ListPages tags="-_cc +_licensebox" category="_default" wrapper="no" separate="no" order="create_date desc"]]
+
+[[head]]
+[[table class="wiki-content-table" style="width:100%"]]
+[[row]]
+[[hcell]]
+Page Name
+[[/hcell]]
+[[hcell]]
+License Info
+[[/hcell]]
+[[/row]]
+[[/head]]
+
+[[body]]
+[[row]]
+[[cell class="wiki-content-table"]]
+%%title_linked%%
+[[/cell]]
+[[cell]]
+%%content{2}%%
+[[/cell]]
+[[/row]]
+[[/body]]
+
+[[foot]]
+[[/table]]
+[[/foot]]
+
+[[/module]]
+
+[[/collapsible]]

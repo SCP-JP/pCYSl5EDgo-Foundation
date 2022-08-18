@@ -1,0 +1,79 @@
+[[=image http://scp-int.wdfiles.com/local--files/review-attention-levels/RT-Recruitment.png width="300px" style="border: 1px solid #333;" link="http://scp-int.wdfiles.com/local--files/review-attention-levels/RT-Recruitment.png"]]
+
++++ ##b00|The International Translation Archive needs YOU to join the Review Team!##
+
+You are fluent in English? You want to help the Archive out? Apply today for the Review Team.
+
+Your duties would be to review our translations for:
+* scientifical tone
+* expression
+* spelling and grammar
+As a member of the Review Team you would be a staff member, and gain access to our illustrious staff site and the Review Team's chat.
+
+Who can apply? Everyone fluent in English, native speaker or not. Also already being staff in the archive or another wiki has no influence on membership in the Review Team.
+
+How to apply? Just answer to [http://scp-int.wikidot.com/forum/t-2150084/the-review-team-recruitment-thread this thread] or send a PM to [[*user LadyKatie]] here or on our Discord. You will be asked to correct a short article or section of an article to test your skills then.
+
+-- //The Archive's staff//
+
+
+PS. You don't want to join the Review Team but to help checking translations? Just see the box below for articles in need.
+
+~~~~
+----
++ Review Attention Levels
+
+[[tabview]]
+[[tab Review Attention Levels]]
+This is an overview over the Review Attention Level of all pages in this wiki.
+
+The Review Attention Level indicates the priority and the grade of necessity to review and correct that article:
+
+* o = Quite good, not much to do, just a last check.
+* oo = Needs minor attention. Spelling and grammar are mostly correct.
+* ooo = Needs major attention. Some sentences and expressions may need to be rephrased. Spelling and grammar may need correction.
+* oooo = Emergency! Partially rewrite may be necessary, while MTFs secure the premises.
+
+Everybody who reviews a translation removes one "o'', __though the last level may only be removed by members of the Review Team!__ This means that all new translations are at least level "o''. If the last level is removed, it is replaced with "_o''. This tag is normally invisible and is used by automated lists.
+
+Whenever translators post their work in the wiki, they estimate the Review Attention Level of their translation, with a minimum of "o''. Staff and fluent English-speakers may change the Level if they think it doesn't fit.
+
+[[/tab]]
+
+[[tab Level oooo]]
+[[module ListPages category="*" separate="no" tags="oooo" perPage="40" order="name" pagetype="*"]]
+|| %%title_linked%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab Level ooo]]
+[[module ListPages category="*" separate="no" tags="ooo" perPage="40" order="name" pagetype="*"]]
+|| %%title_linked%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab Level oo]]
+[[module ListPages category="*" separate="no" tags="oo" perPage="40" order="name" pagetype="*"]]
+|| %%title_linked%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab Level o]]
+[[module ListPages category="*" separate="no" tags="o" perPage="40" order="name" pagetype="*"]]
+|| %%title_linked%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab Review complete]]
+[[module ListPages category="*" separate="no" tags="_o" perPage="40" order="name" pagetype="*"]]
+|| %%title_linked%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab No Level set]]
+[[module ListPages category="*" separate="no" tags="-oooo -ooo -oo -o -_o -_sys" perPage="40" order="name" pagetype="*"]]
+|| %%title_linked%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[/tabview]]

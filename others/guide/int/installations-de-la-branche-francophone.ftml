@@ -1,0 +1,504 @@
+[[module CSS]]
+.siteIcon {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  width: 30px;
+  height: 17px;
+  vertical-align: bottom;
+  background-color: #999;
+  border: solid 2px #000;
+  border-radius: 0 6px 0 6px;
+  color: #fff;
+}
+.siteIcon img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 0;
+}
+.siteIcon .number {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  line-height: 100%;
+  font-size: 60%;
+  font-weight: bold;
+  text-shadow: #333 1px 1px;
+}
+
+.areaIcon {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  width: 30px;
+  height: 17px;
+  vertical-align: bottom;
+  background-color: #333;
+  border: solid 2px #000;
+  border-radius: 0 6px 0 6px;
+  color: #fe3;
+}
+.areaIcon img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 0;
+}
+.areaIcon .number {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  line-height: 100%;
+  font-size: 60%;
+  font-weight: bold;
+  text-shadow: #333 1px 1px;
+}
+[[/module]]
+
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[div class="desktop"]]
+[[f>image admin.png width="130px"]]
+
+[[f<image http://scp-wiki.wdfiles.com/local--files/amnestic-orientation-manual/logo.png width="130px"]]
+[[/div]]
+
+[[div style="font-size: 350%; font-weight: bold; margin: 2px 0 5px;"]]
+[[=]]
+{{FRANCOPHONE BRANCH FACILITIES}}
+[[/=]]
+----
+[[/div]]
+
+The Foundation's facilities, Sites, Areas and outposts symbolize its control over land all around the world. They are considered special enclaves within many countries' territory and obey their own internal set of laws. A coveted target for hostile factions, they are indeed the most visible manifestation of the Foundation's activity: we secure, we contain, we protect.
+
+These facilities generally serve three purposes: protecting the outside world from what they contain, protecting themselves from the outside -- hostile actions, breaches of secrecy -- and offering a viable work environment for personnel. However, every facility is unique: their equipment and personnel are specifically suited for fulfilling their mission as optimally as possible. Containment, research, storage, assembly, administration: ranging from broad to specialized, from the vast, multi-purpose regional Site to the small Area containing a single item.
+
+[[size 130%]]
+**{{ORGANIZATION}}**
+[[/size]]
+
+An **observational outpost** is a small facility not designed for containment. Scattered throughout the world and especially in urban centers, they mainly serve for surveillance in order to detect new anomalies and for local coordination. Generally limited to a single building, they also serve as secure communication nodes and a safe refuge for infiltrated agents.
+
+A **Site** is a covert facility. Although their existence and location are known to civilians, their true nature is dissimulated under a false identity: military base, private laboratory, etc. Such a cover story is needed when proximity to civilians or the location's properties prevent effective dissimulation.
+
+An **Area** is a clandestine facility, which means the civilian world is not aware of its existence. Generally hosting particularly dangerous anomalies, they are therefore built far from population centers and are allowed to enforce radical security measures, such as a self-destruction procedure via underground nuclear detonation.
+
+Site-01 has a particular role: it is the O5 Council's headquarters and serves as the administrative center of the entire Foundation.
+
+[[size 130%]]
+**{{THE FRANCOPHONE BRANCH}}**
+[[/size]]
+
+As the name implies, the Francophone Branch covers all French-speaking territories: Metropolitan France and its overseas territories, Belgium, Switzerland, Quebec, Haiti, Lebanon, the Maghreb, French-speaking Sub-Saharan Africa and Madagascar. Exceptions exist for historical or administrative reasons, but facilities under the Francophone Branch's control outside of these territories remain rare. In contrast to the Anglophone Branch's numerical system, the Francophone Branch uses letters of the Hebrew alphabet. Finally, the Francophone Branch has the particularity of using a [#he generic designation] for facilities containing a single unmovable object.
+
+[[# toc]]
+> [[collapsible show="Show table of contents" hide="hide" folded="no"]]
+> = **Table of contents**
+> @@  @@[#aleph Site-Aleph]
+> @@  @@[#beth Site-Beth]
+> @@  @@[#ghimel Site-Ghimel]
+> @@  @@[#he Site-He]
+> @@  @@[#zayin Site-Zayin]
+> @@  @@[#yod Site-Yod]
+> @@  @@[#mayim Site-Mayim]
+> @@  @@[#ayin Site-Ayin]
+> @@  @@[#tav Site-Tav]
+> @@  @@[#kybian Site-Kybian]
+> @@  @@[#lamedh Site-Lamedh]
+> @@  @@[#mem Area-Mem]
+> @@  @@[#shell Area-Shell]
+> [[/collapsible]]
+[[/div]]
+
+[[# aleph]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Site-Aleph
+[[/=]]
+
+[[image Aleph.png style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:site name=Site-Aleph|number=א|c0=#052|subtitle=(Armed Dimensional Site-Aleph)]]
+
+**Site Director:** Bruce Garett
+
+**Description:** Site-Aleph was built upon the remains of the former city of [REDACTED], in the Massif Central, which was destroyed on ████/██/██ following a dimensional incident caused by SCP-███-FR. While some buildings could be renovated and now host Foundation facilities, those that were too badly damaged were leveled to make way for newer structures. Hence, renovation and construction constantly mobilize the Manufacturing Department and the Engineering and Technical Services Department, with nearly ███ Level-1 personnel members working on construction. As of today, two thirds of the facilities are usable, although the sensitive nature of some sectors may retard construction.
+
+Site-Aleph features vast housing for the entirety of personnel working there as well as all services required for life on-site.
+
+A multi-purpose facility, Site-Aleph offers first and foremost a large storage and containment capacity for very diverse SCP items, except those of Keter class. Numerous research facilities are available for study of these items, hence, the Scientific Department has a strong presence on-site and numerous Class-D personnel are present. The Site is also an administrative hub, hosting a major offshoot of the Department of External Affairs. Finally, it is one of the most secure locations of the Francophone Branch, with dedicated heavy equipment as well as a stationed regiment of ███ members of the Security Department. It is also a major hub of the Department of Internal Security.
+
+**Contained items:**
+
+[[module ListPages order="name" limit="100" tags="-tale +scp +aleph" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +aleph" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+[[# beth]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Site-Beth
+[[/=]]
+
+[[image Beth.jpg style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:site name=[/dossier-site-beth Site-Beth]|number=ב|c0=#F00|subtitle=(Humanoid Containment Site-Beth)]]
+
+**Site Director:** Gaes Galgata
+
+**Description:** Specialized Site-Beth is a complex intended for containment of humanoid SCPs currently located in the Middle East. It contains numerous Safe and Euclid-class humanoid entities as well as housing for Foundation personnel. It also serves as a medical center where injured agents can be treated for the entire duration of their recovery.
+
+**Contained items:**
+
+[[module ListPages order="name" limit="100" tags="-tale +scp +beth" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +beth" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+[[# ghimel]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Site-Ghimel
+[[/=]]
+
+[[image Ghimel.png style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:site name=Site-Ghimel|number=ג|c0=#930|subtitle=(Storage and Containment Site-Ghimel)]]
+
+**Site Director:** Ismaël Saïdi
+
+**Description:** Site-Ghimel has been designed as a traditional concrete bunker capable of withstanding harsh weather, high temperatures and potential enemy attacks. It is made of 14 entirely subterranean levels and does not feature any external buildings. Located in the middle of the Saharan desert, this Site was designed in order to more efficiently contain items and entities linked to temperature and humidity variations. To this end, the entire Site has been fitted with a ventilation and temperature regulation system, as well as an emergency sand-filling system.
+
+**Contained items:**
+
+[[module ListPages order="name" limit="100" tags="-tale +scp +ghimel" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +ghimel" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+[[# he]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Sites-He
+[[/=]]
+
+@@@@
+[[include component:site name=Sites-He|number=ה|c0=#511|subtitle=(Temporary Containment Multi-Sites-He)]]
+
+**Description :** Sites referred to as He are the collection of all Sites hosting a single SCP item which is either immovable (such as a building) or should not be moved. They generally consist in an exclusion zone around the anomaly, as well as headquarters for the security personnel and research personnel if present. Their size can range from a simple watchtower to a vast, secure research complex. These facilities are designated "Site-He-XXX(-FR)" where XXX is the contained SCP item's serial number.
+
+**Examples:**
+[[module ListPages order="name" limit="100" tags="-tale +scp +he" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+[[# zayin]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Site-Zayin
+[[/=]]
+
+[[image Zayin.jpg style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:site name=Site-Zayin|number=ז|c0=#341|subtitle=(Armed Site-Zayin)]]
+
+**Site Director:** Geoffrey Doyles
+
+**Description :** Armed Site-Zayin is a former military base repurposed for containment of SCP items classifiable as weaponry or having military potential. Located ███ km away from Site-█████, it is considered by many to be an extension of the latter. Despite currently containing few anomalies, Site-Zayin also serves as a training ground for members of the Security Department as well as the Internal Security Department.
+
+**Contained items:**
+
+[[module ListPages order="name" limit="100" tags="-tale +scp +zayin" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +zayin" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+[[# yod]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Site-Yod
+[[/=]]
+
+[[image Yod.jpg style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:site name=[/dossier-site-yod Site-Yod]|number=י|c0=#E30|subtitle=(Armed Containment Site-Yod)]]
+
+**Site Director:** Alexa Earl
+
+**Description:** Site-Yod, located in the former city of [REDACTED], is specialized in permanent containment of Euclid and Keter-class anomalies with predatory behavior. It is one of the most sensitive Foundation Sites with an especially high mortality rate, despite optimal design and draconian security measures. For this reason, it was chosen as the permanent base of MTF Delta-4 ("Safari Time") and as a training ground for Tactical Response Officers.
+
+
+**Contained items:**
+
+[[module ListPages order="name" limit="100" tags="-tale +scp +yod" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +yod" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+[[# mayim]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Site-Mayim
+[[/=]]
+
+[[image Mayim.jpg style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:site name=Site-Mayim|number=מ|c0=#077db8|subtitle=(Extended Research and Containment Complex-Mayim)]]
+
+**Site Director:** Jacques-André Parmelin (administrative wing)
+
+**Description:** Site-Mayim is a collection of Foundation locations and complexes connected by a network of underground galleries covering several thousand square kilometers in the French-speaking Switzerland region. Divided into seven administrative sections (for the cantons of Jura, Neuchâtel, Vaud, Geneva, Bern, Fribourg and Valais), it is one of the three major Foundation sites in Swiss territory.
+
+Site-Mayim features, in every canton it covers, several complexes specialized in one of the Foundation's missions: research, containment, surveillance...
+
+**Contained items:**
+
+[[module ListPages order="name" limit="100" tags="-tale +scp +mayim" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +mayim" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+
+[[# ayin]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Site-Ayin
+[[/=]]
+
+[[image Ayin.png style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:site name=Site-Ayin|number=ע|c0=#005|subtitle=(Orbital Spatial Containment Site-Ayin)]]
+
+**Directeur:** Garry Rugaini (only present on-site three months per year)
+
+**Description:** Site-Ayin is a space station in geostationary orbit at 3°E. It allows for containment of entities that must be kept in a vacuum. Initially designed to host SCP-086-FR, the Site is undergoing extensions and now contains new items. Only personnel with express authorization from an O5 may enter Ayin. Transfer is carried out by common capsule.
+
+**Contained items:**
+
+[[module ListPages order="name" limit="100" tags="-tale +scp +ayin" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +ayin" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+[[# tav]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Site-Tav
+[[/=]]
+
+[[image Tav.png style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:site name=Site-Tav|number=ת|c0=#FF0|subtitle=(Storage Reliquary-Tav)]]
+
+**Site Director:** Juste Ivesern
+
+**Description:** Site-Tav is a site specialized in containment of items related in any manner to the [[[groupes-d-interet-fr#light|Order of Light]]]. This Site used to be an outpost of the Order containing several artifacts, including SCP-056-FR. When the latter was contained, the Foundation appropriated Site-Tav.
+
+**Contained items:**
+
+[[module ListPages order="name" limit="100" tags="-tale +scp +tav" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +tav" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+[[# kybian]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Site-Kybian
+[[/=]]
+
+[[image Kybian.png style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:site name=Site-Kybian|number=ᘸ|c0=#FD6C9E|subtitle=(Storage Site-Kybian)]]
+
+**Site Director:** Kathryn Mayers
+
+**Description:** Storage Site-Kybian is a cluster of former underground warehouses, now renovated and used for en masse storage of small artifacts requiring no particular containment procedures or little maintenance. It features necessary infrastructure for the administrative personnel, four security teams and two research teams.
+
+**Contained items:**
+
+[[module ListPages order="name" limit="100" tags="-tale +scp +kybian" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +kybian" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+[[# lamedh]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Site-Lamedh
+[[/=]]
+
+[[image Lamedh.jpg style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:site name=Site-Lamedh|number=ל|c0=#006EFF|subtitle=(Protected Climate Research Site-Lamedh)]]
+
+**Site Director:** André Montnoir
+
+**Description:** Site-Lamedh is built around a powerful radio-telescope designed to detect anomalies in outer space before any other civilian or military telescope. To this end, the radio-telescope uses a hybrid technology relying on both classical astronomy and the effect of several anomalous items. An laboratory is present nearby as well as a launch pad for the Foundation's spatial missions. Other than the radio-telescope, various vast meteorological and geological sensor systems have been built, some anomalous, others normal.
+
+In the last years, a biological research unit has been developing due to the rich surrounding biodiversity. Hence, Site-Lamedh is now used for the storage and study of biological anomalies, in addition to meteorological and astronomical research.
+
+**Contained items:**
+
+[[module ListPages order="name" limit="100" tags="-tale +scp +lamedh" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +lamedh" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+[[# mem]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Area-Mem
+[[/=]]
+
+[[image Mem.jpg style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:area name=[/dossier-zone-mem Area-Mem]|number=ם|c0=#01F|subtitle=(Armed Area-Mem)]]
+
+**Area Director:** Joachim Meyer
+
+**Description:** Area-Mem is based on a small island off the Breton coast and serves as the main naval base for the [[[equipement-de-la-branche-francophone|Francophone Branch's fleet]]], as well as the home port of all ships. Harboring a high density of military equipment and personnel, Area-Mem is extremely secure. It also serves for training relevant personnel, such as marine security officers and marine commandos, and remains a mandatory step for scientists pursuing research on littoral and maritime anomalies. A handful of relevant and low-threat SCP items and contained on-site.
+
+**Contained items:**
+
+[[module ListPages order="name" limit="100" tags="-tale +scp +mem" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +mem" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]
+
+[[# shell]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[=]]
++ Area-Shell
+[[/=]]
+
+[[image Shell.png style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 550px; margin: 0 auto;"]]
+@@@@
+[[include component:area name=Area-Shell|number=☉|c0=#F0F|subtitle=(Dimensional Research and Containment Area-Shell)]]
+
+**Area Director:** Alison Per
+
+**Description:** Area-Shell is entirely dedicated to the surveillance and maintenance of SCP-123-FR to be used in Project Wormhole. It is currently administered by ██████, interim replacement of O5-2 and O5-3 and contains Dr Vleken and Ezcyo's research equipment, its own security squadron, and MTFs Phi-23 and Tau-17. Located underground, it allows optimal dissimulation of the aforementioned activities, and it is located far enough from any large centers of population such that human casualties are minimized in case of destruction.
+
+**Contained items:**
+[[[SCP-213-FR]]]
+
+**Incident logs:**
+[[module ListPages order="name" limit="100" tags="-scp +tale +shell" separate="no" perPage="100"]]
+* %%title_linked%%
+[[/module]]
+
+[[div style="text-align:right"]]
+,,[#toc Return],,
+[[/div]]
+[[/div]]

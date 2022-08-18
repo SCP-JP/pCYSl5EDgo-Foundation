@@ -1,0 +1,240 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+> Note: The majority of the contents of this page is translated and originally from the [https://ja.scp-wiki.net/wiki-syntax Wiki Syntax] page on the SCP-JP wiki.
+
+> This page references [https://www.wikidot.com/doc:wiki-syntax Wikidot's syntax documentation].
+
+This is a reference for Wikidot syntax used often (or not) in writing SCPs. If you'd like to see more advanced formatting using non-Wikidot syntax on Wikidot, check out [[*user DrMagnus]]'s [[[advanced-formatting-and-you|Advanced Formatting and You]]] essay, and if you'd like some easily copy-pasted templates for various alternative logs and formats, check out [[*user shaggydredlocks]]'s [[[scp-style-resource|SCP Style Resource]]] essay.
+
+[[toc title="Table of Contents"]]
+
++ Text
+
+||~ Syntax||~ Example ||
+|| @@**Bold**@@ || **Bold** ||
+|| @@//Italics//@@ || //Italics// ||
+|| @@__Underline__@@ || __Underline__ ||
+|| @@--Strikethrough--@@ || --Strikethrough-- ||
+|| @@{{Teletype (Monospaced)}}@@ || {{Teletype (Monospaced)}} ||
+|| @@Text^^Superscript^^@@ || Text^^Superscript^^ ||
+|| @@Text,,Subscript,,@@ || Text,,Subscript,, ||
+|| @@[[span style="color:red"]]//span// Inline Element[[/span]]@@ || [[span style="color:red"]]//span// Inline Element[[/span]] ||
+|| @@##blue|Predefined## or ##0000FF|Hex Color Code##@@ || ##blue|Predefined## or ##0000FF|Hex Color Code## ||
+|| @ @ @@Escape Parsing {{Example}}@@ @ @ || @@Escape Parsing {{Example}}@@ ||
+
+*Note that to escape parsing, there should be no spaces between the two @'s and the text. It is written as above due to @@ failing to escape parsing for itself.
+
++ Text Size
+
+Changing size based on current text size:
+
+||~ Syntax||~ Example ||
+||@@[[size smaller]]Smaller Text[[/size]]@@||[[size smaller]]Smaller Text[[/size]] ||
+||@@[[size larger]]Larger Text[[/size]] @@||[[size larger]]Larger Text[[/size]] ||
+||@@[[size 80%]]80% Of Current Size[[/size]]@@||[[size 80%]]80% Of Current Size[[/size]] ||
+||@@[[size 100%]]100% Of Current Size[[/size]]@@||[[size 100%]]100% Of Current Size[[/size]] ||
+||@@[[size 150%]]150% Of Current Size[[/size]]@@||[[size 150%]]150% Of Current Size[[/size]]||
+||@@[[size 0.8em]]80% Of Current Size[[/size]]@@||[[size 0.8em]]80% Of Current Size[[/size]]||
+||@@[[size 1em]]100% Of Current Size[[/size]]@@||[[size 1em]]100% Of Current Size[[/size]]||
+||@@[[size 1.5em]]150% Of Current Size[[/size]]@@||[[size 1.5em]]150% Of Current Size[[/size]]||
+
+Setting the size directly:
+
+||~ Syntax||~ Example ||
+||@@[[size xx-small]]Extra-Extra-Small Text[[/size]]@@||[[size xx-small]]Extra-Extra-Small Text[[/size]] ||
+||@@[[size x-small]]Extra-Small Text[[/size]]@@||[[size x-small]]Extra-Small Text[[/size]]||
+||@@[[size small]]Small Text[[/size]]@@||[[size small]]Small Text[[/size]]||
+||@@[[size large]]Large Text[[/size]]@@||[[size large]]Large Text[[/size]]||
+||@@[[size x-large]]Extra-Large Text[[/size]]@@||[[size x-large]]Extra-Large Text[[/size]]||
+||@@[[size xx-large]]Extra-Extra Large Text[[/size]]@@||[[size xx-large]]Extra-Extra Large Text[[/size]]||
+||@@[[size 7px]]Text Size 7 Pixels[[/size]]@@||[[size 7px]]Text Size 7 Pixels[[/size]]||
+||@@[[size 18.75px]]Text Size 18.75 Pixels[[/size]]@@||[[size 18.75px]]Text Size 18.75 Pixels[[/size]]||
+
++ Links
+
+URLs will automatically become links:
+
+> @@https://example.com/@@ - https://example.com/
+
+To link specific words or phrases, use the following:
+
+> @@[https://en.wikipedia.org/wiki/Apple_Pie apple pie]@@ - [https://en.wikipedia.org/wiki/Apple_Pie apple pie]
+
+Pages within the wiki can be linked to directly with just the title, if the url and title are the same (i.e. the page title that Wikidot generates based on the url you use, non-case sensitive):
+
+> @@DrMagnus's [[[Advanced Formatting and You]]]@@ - DrMagnus's [[[Advanced Formatting and You]]]
+
+If they differ, you specify the url and then give your own title:
+
+> @@[[[scp-001|001 Proposals]]]@@ - [[[scp-001|001 Proposals]]]
+
+Adding an asterisk (*) in front of the url opens the link in a new window:
+
+> @@*https://example.com/@@ - *https://example.com/
+> @@[*https://example.com/ Example Page]@@ - [*https://example.com/ Example Page]
+
++ Collapsibles
+
+Collapsibles are for hiding long blocks of text to prevent the page from getting too long. The hidden text appears once you click on the collapsible link:
+
+> @@[[collapsible show="+ Open" hide="- Close"]]@@
+> @@Collapsed text here@@
+> @@[[/collapsible]]@@
+
+[[collapsible show="+ Open" hide="- Close"]]
+Collapsed text here
+[[/collapsible]]
+
+The collapsible show/hide text is "+ show block" and "- hide block" by default, if no show/hide is specified.
+
+For long text blocks, use "hideLocation="both"" to show the hide link at the bottom of the block as well:
+
+> @@[[collapsible hideLocation="both" show="+ Open" hide="- Close"]]@@
+> @@Longer@@
+> @@Collapsed@@
+> @@Text@@
+> @@Here@@
+> @@[[/collapsible]]@@
+
+[[collapsible hideLocation="both" show="+ Open" hide="- Close"]]
+Longer
+Collapsed
+Text
+Here
+[[/collapsible]]
+
++ Footnotes
+
+Footnotes are good for inserting more information into text without cluttering the text:
+
+> @@Content[[footnote]]Footnote content[[/footnote]]. More content[[footnote]]More footnote content[[/footnote]].@@
+
+Inserting @@[[footnoteblock]]@@ determines the position of the footnotes. Otherwise, footnotes will appear at the bottom of the page:
+
+> Content[[footnote]]Footnote content[[/footnote]]. More content[[footnote]]More footnote content[[/footnote]].
+
+[[footnoteblock]]
+
++ Images
+
+Use this code to insert images. {{width}} is an optional measurement and can be removed, in which case it shall default to 300px. {{align}} is also optional, defaulting to the right.
+
+> @@[[include component:image-block@@
+> | name=URL-GOES-HERE
+> | caption=CAPTION-GOES-HERE
+> | width=WIDTH-GOES-HERE
+> | align=ALIGNMENT (left, right, or center)]]
+
+The image width must have a [https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#lengths unit], such as {{px}} (pixels), {{em}} (relative to font size), %, etc.
+
+* To place it on the left, use {{align=left}}
+* To place it in the middle and stretch from one side of the page to the other, set {{width}} to 100%.
+* In general you should avoid pixel-based sizes and make it proportional to either the page size or the font size. This will improve how your page appears on mobile and tablets.
+
++ Audio and Video
+
+Use the HTML5 media player to add audio and video. Change the type to either "audio" or "video" to fit what you're inserting:
+
+> @@[[include :snippets:html5player@@
+> @@| type=audio@@
+> @@| url=URL-GOES-HERE]]@@
+
++ Quoteblocks
+
+Quoteblocks are handy for inserting text that comes from notes, or just to insert long quotes:
+
+{{@@> Quote@@}}
+{{@@> @@}}
+{{@@> More quote@@}}
+
+> Quote
+> 
+> More quote
+
+Note that there is a "> " to insert the empty line, and a space after the second ">" bracket; without those, the empty line isn't there:
+
+{{@@> Quote@@}}
+{{@@>@@}}
+{{@@> More quote@@}}
+
+> Quote
+>
+> More quote
+
+{{@@> Quote@@}}
+
+{{@@> More quote@@}}
+
+> Quote
+
+> More quote
+
+In addition to the Wikidot standard blockquotes, there is another way to create the same effect:
+
+{{@@[[div class="blockquote"]]@@}}
+{{@@Quote@@}}
+{{@@[[/div]]@@}}
+
+[[div class="blockquote"]]
+Quote
+[[/div]]
+
+This style of quoteblock saves you the trouble of needing to start every line with a ">" and also lets authors include code that normally doesn't work with the standard quoteblocks.
+
++ Tabs
+
+Tabs are great for a variety of uses, mostly for keeping your numerous drafts on one sandbox page, but there are other creative uses for it too.
+
+> @@[[tabview]]@@
+> @@[[tab Tab 1]]@@
+> @@Contents of tab 1@@
+> @@[[/tab]]@@
+> @@[[tab Tab 2]]@@
+> @@Contents of Tab 2@@
+> @@[[/tab]]@@
+> @@[[tab Tab 3]]@@
+> @@Contents of Tab 3@@
+> @@[[/tab]]@@
+> @@[[/tabview]]@@
+
+[[tabview]]
+[[tab Tab 1]]
+Contents of tab 1
+[[/tab]]
+[[tab Tab 2]]
+Contents of tab 2
+[[/tab]]
+[[tab Tab 3]]
+Contents of tab 3
+[[/tab]]
+[[/tabview]]
+
+Tabs can be nested within tabs, but the most obvious method (putting a [[tabview]] within another [[tabview]]) will not work. There is a specific method required for nesting tabs, but I don't recommend doing it due to readability issues. Just make another sandbox page at that point.
+
++ Tables
+
+Tables can be useful for experiment logs, or SCPs with a large number of component entities:
+
+> @@||~ TITLE-FORMATTED CELL ||~ TITLE-FORMATTED CELL ||~ TITLE-FORMATTED CELL ||@@
+> @@|| Non-formatted cell || Non-formatted cell || Non-formatted cell ||@@
+> @@||< Left-aligned cell ||< Left-aligned cell ||< Left-aligned cell ||@@
+> @@||> Right-aligned cell ||> Right-aligned cell ||> Right-aligned cell ||@@
+> @@||= Center-aligned cell ||= Center-aligned cell ||= Center-aligned cell||@@
+
+||~ TITLE-FORMATTED CELL ||~ TITLE-FORMATTED CELL ||~ TITLE-FORMATTED CELL ||
+|| Non-formatted cell || Non-formatted cell || Non-formatted cell ||
+||< Left-aligned cell ||< Left-aligned cell ||< Left-aligned cell ||
+||> Right-aligned cell ||> Right-aligned cell ||> Right-aligned cell ||
+||= Center-aligned cell ||= Center-aligned cell ||= Center-aligned cell||
+
+Adding more cell separators (||) before the cell's text will make the cell span multiple columns based on how many cell separators you used:
+
+> @@||~ Cell title ||~ Cell title ||~ Cell title ||@@
+> @@|| Cell spanning one column |||| Cell spanning two columns ||@@
+> @@|||||| Cell spanning three columns||@@
+
+||~ Cell title ||~ Cell title ||~ Cell title ||
+|| Cell spanning one column |||| Cell spanning two columns ||
+|||||| Cell spanning three columns||

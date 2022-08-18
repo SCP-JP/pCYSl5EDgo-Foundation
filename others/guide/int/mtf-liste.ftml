@@ -1,0 +1,416 @@
+[[module css]]
+@import url('http://scp-wiki-de.wdfiles.com/local--code/component:image-pop-up/2');
+
+#main-content {
+    padding-top: 0;
+    top: 0.5em;
+}
+#page-title {
+    display: none;
+}
+#u-buttonbox {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: .5em;
+    right: 1.5em;
+}
+
+.wp_sheet.c_list-box {
+    margin-bottom: 3em;
+    background-image: linear-gradient(to bottom, #eee 4em, #fff 4em);
+}
+.c_intro-toc {
+    margin-top: 2em;
+    text-align: center;
+    background-image: none;
+}
+.long-toc {
+    float: none;
+    margin: 20px 0;
+}
+.long-toc .toc-list {
+    columns: 2;
+}
+.wp_sheet .image-container {
+    padding-top: 0;
+}
+.wp_sheet img {
+    height: 240px;
+    object-fit: contain;
+}
+.c_list-box p {
+    margin-bottom: .2em;
+    margin-top: .5em;
+}
+.c_list-box ul {
+    margin-top: 0;
+}
+.c_list-box h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 1.4em;
+    color: #333;
+    font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
+    font-size: 160%
+}
+
+.justify li {
+    text-align: initial;
+}
+.justify td {
+    text-align: justify;
+}
+
+.c_list-box .pop-button .image-container {
+    padding: 0 0 0 1em;
+}
+.c_list-box .pop-button img {
+    height: 135px;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.c_beschreibung p:first-child {
+    margin-top: 0;
+}
+.c_overview p:first-child {
+    text-align: center;
+    font-size: 110%;
+}
+.c_overview ul {
+    margin-bottom: 1em;
+}
+.white-paper .col-title .colmod-content .foldable-list-container {
+    font-size: initial;
+}
+.wp_sheet #toc, .wp_sheet .toc {
+    margin-bottom: 1em;
+}
+.wp_sheet .long-toc {
+    margin: 1em 0 20px;
+    padding: .5em 1.2em;
+}
+.toc-list p:not(:first-child) {
+    margin-top: .5em;
+}
+#u-RTFs {
+    background-image: none;
+}
+#u-RTFs.c_list-box p {
+    margin: 1em 0;
+}
+#u-RTFs .justify.hyphens {
+    margin-bottom: 1em;
+}
+
+/* Site box footer */
+.wp_sheet .panel-footer {
+    clear: both;
+    padding: 1px;
+    color: #fffff0;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 1px 0px 4px;
+    text-align: right;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+.wp_sheet .panel-footer > p {
+    margin: 0;
+}
+.wp_sheet .panel-footer a,
+.wp_sheet .panel-footer a:visited {
+    color:#888880;
+    text-shadow: 0px 0px 1px rgba(0,0,0,.1);
+}
+
+@media (max-width: 880px) {
+    .c_list-box td {
+     display: block;
+    }
+}
+@media (min-width: 880px) {
+    .c_list-box .image-container {
+     padding: 0;
+    }
+    .c_list-box td:first-of-type {
+     width: 200px;
+     padding-right: 1em;
+    }
+    .c_list-box img {
+     height: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .long-toc .toc-list {
+     columns: 1;
+    }
+}
+@media (max-width: 710px) {
+    .long-toc .toc-list {
+     columns: 1;
+    }
+}
+@media (min-width: 768px) and (max-width: 880px) {
+    .wp_title {
+        font-size: 285%;
+    }
+}
+@media (max-width: 595px) {
+    .wp_title {
+        font-size: 285%;
+    }
+    .c_list-box h1 {
+     font-size: 170%;
+     color: #901;
+     color: var(--ct_col_h1-txt);
+    }
+    .c_list-box {
+     background-image: none;
+    }
+}
+@media (max-width: 767px) {
+    #u-buttonbox {
+        right: .5em;
+    }
+}
+
+/* Popup */
+.c_map .pop-wrap .pop-popup {
+    animation: fadein 0.35s ease-in forwards;
+    background: #888880;
+    border: 1px solid #888880;
+    border-radius: 10px;
+    height: auto;
+    left: 0;
+    margin: 2em auto;
+    position: fixed;
+    right: 0;
+    top: 2em;
+    width: 1024px;
+    z-index: 10;
+}
+
+.c_list-box .pop-wrap .pop-popup {
+    animation: fadein 0.35s ease-in forwards;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 353px;
+    z-index: 10;
+}
+
+#page-content .c_map .pop-wrap div.pop-popup {
+    max-width: 95%;
+}
+
+.c_map .pop-wrap .pop-button div.foldable-list-container {
+    display: block;
+}
+.c_list-box .pop-wrap {
+    float: right;
+}
+.pop-wrap br {
+    line-height: 0;
+}
+.c_map .pop-wrap .pop-popup img {
+    border-radius: 10px;
+}
+.c_list-box .pop-wrap .pop-popup .image-container {
+    padding: 0;
+}
+
+.c_list-box table.wiki-content-table {
+    margin: 0.5em 0;
+}
+.c_list-box table.wiki-content-table td {
+    border: 0;
+    padding-left: 0;
+    padding-right: 2em;
+    width: auto;
+}
+[[/module]]
+
+[[div class="white-paper"]]
+
+[[# MTFs]]
+[[div class="wp_sheet c_intro-toc"]]
+
+[[span class="wp_section-title"]]MOBILE TASK FORCES OF THE GERMANOPHONE SCP FOUNDATION[[/span]]
+
+[[div class="justify hyphens"]]
+The SCP Foundation's German Branch operates its own MTFs, which are usually only deployed in Germany, Austria and Switzerland. Most permanent non-SCP-related MTFs are assigned to a location whose specialization matches that of the MTF. Large MTFs and Temporary MTFs are usually barracked in dedicated Sites like Site-DE8. The MTFs of the Germanophone Foundation are designated with a letter in [[[frakturschrift-vorlage| Fraktur]]] (Gothic Script) rather than with Greek letters. The number of each MTF corresponds to that of the Site at which it is stationed. Every MTF has a callsign, for example "6-Dieter", used in radio communications and everyday speech, and a nickname. Only permanent MTFs are listed here.
+[[/div]]
+
+[[div class="toc float-right long-toc"]]
+[[div class="toc-title"]]
+Table of Contents
+[[/div]]
+[[div class="toc-list"]]
+[#u-1-H MTF DE1-ℌ · 1-Heinrich · "HAL 1000"]
+[#u-1-L MTF DE1-𝔏 · 1-Ludwig · "The Inquisition"]
+[#u-4-K MTF DE4-𝔎 · 4-Karl · "PSI-Corps"]
+[#u-4-V MTF DE4-𝔙 · 4-Vera · "The Defenders"]
+[#u-6-D MTF DE6-𝔇 · 6-Dieter · "The Draft"]
+[#u-8-A MTF DE8-𝔄 · 8-Anton · "Crime Scene Cleaner"]
+[#u-8-G MTF DE8-𝔊 · 8-Gustaf · "No Wonder"]
+[#u-20-R MTF DE20-ℜ · 20-Rena · "Seers"]
+[[/div]]
+[[/div]]
+
+~~~~
+[[/div]]
+
+[[div class="wp_sheet justify hyphens c_list-box" id="1-H"]]
+
++* MTF DE1-ℌ • 1-Heinrich • "HAL 1000"
+[[div class="c_beschreibung"]]
+[[include :scp-wiki-de:component:image-pop-up link=http://scp-wiki-de.wdfiles.com/local--files/fragment%3Amtf-liste-de/MTF-DE1-H.png]]
+**Mission:** Mobile Task Force DE1-ℌ consists of Computer and AI-experts, as well as the quantum AI "[[[datenblatt-kira| KIRA]]]", and is dedicated to defense against and tracking of digital attacks via internet and intranet on the German Branch's data center and central archive at Site-DE1, as well as tracing and tracking digital anomalies. MTF DE1-ℌ is also responsible for the maintenance of KIRA and its hardware.
+
+||**Site:** DE1 || **Size:** 9 Person + 1 AI ||
+
+**Deployments:**
+* [[[SCP-059-DE]]] / [[[SCP-071-DE]]] / [[[SCP-101-DE]]] / [[[SCP-127-DE]]]
+* [[[log-01-011-de|First containment of SCP-011-DE]]] / [[[SCP-075-DE-Neutralisierungsprotokoll|SCP-075-DE Neutralisation Protocol]]]
+[[/div]]
+[[div class="panel-footer"]]
+[#MTFs Back to Start]
+[[/div]]
+[[/div]]
+
+[[div class="wp_sheet justify hyphens c_list-box" id="1-L"]]
+
++* MTF DE1-𝔏 • 1-Ludwig • "The Inquisition" ("Die Inquisition")
+
+[[div class="c_beschreibung"]]
+[[include :scp-wiki-de:component:image-pop-up link=http://scp-wiki-de.wdfiles.com/local--files/fragment%3Amtf-liste-de/MTF-DE1-L.png]]
+**Mission:** The covert Mobile Task Force DE1-𝔏 is the Germanophone Foundation's combined internal secret service and criminal police. Their duties are to track, apprehend and eliminate infiltrators and undercover agents of government agencies and other organizations, as well as prosecuting crimes against the Foundation from within, such as murder, treason, SCP theft, or causing a containment breach. Their size, equipment and the identities of their members are classified. Their members tend to investigate undercover and wear full face masks when in the field.
+
+||**Site:** DE1 || **Size:** 20-30 people ||
+
+**Deployments:**
+* [[[SCP-165-DE]]]
+[[/div]]
+[[div class="panel-footer"]]
+[#MTFs Back to Start]
+[[/div]]
+
+[[/div]]
+
+[[div class="wp_sheet justify hyphens c_list-box" id="4-K"]]
+
++* MTF DE4-𝔎 • 4-Karl • "PSI-Corps"
+
+[[div class="c_beschreibung"]]
+[[include :scp-wiki-de:component:image-pop-up link=http://scp-wiki-de.wdfiles.com/local--files/fragment%3Amtf-liste-de/MTF-DE4-K.png]]
+**Mission:** Mobile Task Force DE4-𝔎 specializes in apprehending or containing memetic, mind and/or mind affecting entities or objects, and other such threats. Every six months, all members must pass the memetics defense training class Ψ-3 by scoring at least 90%. This training requires SCP-███-DE, located at Site-DE4, and so the MTF remains stationed there.
+
+||**Site:** DE4 || **Size:** 14 people ||
+
+**Deployments:**
+* [[[028-de-i2|Incident #028-DE/I2]]]
+[[/div]]
+[[div class="panel-footer"]]
+[#MTFs Back to Start]
+[[/div]]
+[[/div]]
+
+[[div class="wp_sheet justify hyphens c_list-box" id="4-V"]]
+
++* MTF DE4-𝔙 • 4-Vera • "The Defenders" ("Die Verteidiger")
+
+[[div class="c_beschreibung"]]
+[[include :scp-wiki-de:component:image-pop-up link=http://scp-wiki-de.wdfiles.com/local--files/fragment%3Amtf-liste-de/MTF-DE4-V.png]]
+**Mission:** Mobile Task Force DE4-𝔙 consists of the users of [[[SCP-150-DE]]], the "Power Armor". This special MTF is distributed across several Sites to allow it to act flexibly, only moving out as a unit in crisis situations. However, in order to use the power and performance of SCP-150-DE for normal missions, individual units are loaned out to other task forces for support as required.
+
+||**Sites:** DE7, DE9, DE12, DE16, DE17 || **Size:** Secret ||
+
+**Deployments:**
+* [[[SCP-171-DE]]] / [[[SCP-190-DE]]] / [[[SCP-008-INT]]]
+[[/div]]
+[[div class="panel-footer"]]
+[#MTFs Back to Start]
+[[/div]]
+[[/div]]
+
+[[div class="wp_sheet justify hyphens c_list-box" id="6-D"]]
+
++* MTF DE6-𝔇 • 6-Dieter • "The Draft" ("Das Aufgebot")
+
+[[div class="c_beschreibung"]]
+[[include :scp-wiki-de:component:image-pop-up link=http://scp-wiki-de.wdfiles.com/local--files/fragment%3Amtf-liste-de/MTF-DE6-D.png]]
+**Mission:** Mobile Task Force DE6-𝔇 is a universal MTF designed to respond to unknown or unpredictable threats and destroy, contain or overwhelm them. For this reason, it is the task force with the largest arsenal of weapons and protective equipment and is one of the largest intervention forces in the German-speaking Foundation. Within this unit members are often reassigned, to transfer their experience and help to contain new anomalies that they have previously captured or confiscated. When deployed, this task force disguises itself as a unit of the Bundespolizei of the respective state in which it operates or, if the situation permits, as a unit of the German Bundeswehr, the Swiss Army or the Austrian Bundesheer. In order to be able to react quickly, this task force is spread across multiple locations.
+
+||**Sites:** DE8, DE9, DE10, DE19 || **Size:** Hundreds, High Turnover ||
+
+**Deployments:**
+* [[[SCP-125-DE]]] / [[[SCP-135-DE]]] / [[[SCP-190-DE]]] / [[[SCP-008-INT]]]
+* [[[Vorfallprotokoll 149-DE|]]]
+[[/div]]
+[[div class="panel-footer"]]
+[#MTFs Back to Start]
+[[/div]]
+[[/div]]
+
+[[div class="wp_sheet justify hyphens c_list-box" id="8-A"]]
+
++* MTF DE8-𝔄 • 8-Anton • "Crime Scene Cleaner" ("Tatortreiniger")
+
+[[div class="c_beschreibung"]]
+[[include :scp-wiki-de:component:image-pop-up link=http://scp-wiki-de.wdfiles.com/local--files/fragment%3Amtf-liste-de/MTF-DE8-A.png]]
+**Mission:** Mobile Task Force DE8-𝔄, like most of the MTFs from location DE8, is camouflaged as a unit of the German Federal Police. Together with MTF DE6-𝔇, DE8-𝔅 and -ℭ, with a strength of hundreds it is one of the largest permanently deployed MTFs. Its specialty is mission security in public spaces, as well as following-up on the impact of anomalies on the population after large-scale missions, through mass application of amnestics and memetic agents, as well as deletion of photos, videos and other recordings, suppression of anomaly-induced unrest, and also forensics and protection of property.
+
+||**Site:** DE8 || **Size:** Hundred ||
+
+**Deployments:**
+* [REDACTED]
+[[/div]]
+[[div class="panel-footer"]]
+[#MTFs Back to Start]
+[[/div]]
+[[/div]]
+
+[[div class="wp_sheet justify hyphens c_list-box" id="8-G"]]
+
++* MTF DE8-𝔊 • 8-Gustaf • "No Wonder" ("Kein Wunder")
+
+[[div class="c_beschreibung"]]
+[[include :scp-wiki-de:component:image-pop-up link=http://scp-wiki-de.wdfiles.com/local--files/fragment%3Amtf-liste-de/MTF-DE8-G.png]]
+**Mission:** Mobile Task Force DE8-𝔊 is disguised as an Arrest Unit (BFE) of the German Bundespolizei (Federal Police),  and specializes in arresting reality-bending humanoid entities. Through genetic and cybernetic adaptation, they are able to survive the side effects of portable Scranton Reality Anchors built into their combat gear.
+
+||**Site:** DE8 || **Size:** 20 people in 2-3 groups ||
+
+**Deployments:**
+* [[[SCP-189-DE]]] / [[[SCP-221-DE]]]
+* [[[028-de-i2|Incident #028-DE/I2]]]
+[[/div]]
+[[div class="panel-footer"]]
+[#MTFs Back to Start]
+[[/div]]
+[[/div]]
+
+[[div class="wp_sheet justify hyphens c_list-box" id="20-R"]]
+
++* MTF DE20-ℜ • 20-Rena • "Seers" ("Seher")
+
+[[div class="c_beschreibung"]]
+[[include :scp-wiki-de:component:image-pop-up link=http://scp-wiki-de.wdfiles.com/local--files/fragment%3Amtf-liste-de/MTF-DE20-R.png]]
+**Mission:** Mobile Task Force DE20-ℜ specializes in magical, esoteric and occult anomalies, both their containment or neutralization as well as the initial elimination of any traces of them. They also have a secondary specialization in confronting and dealing with living and dead corporeal and incorporeal entities, and are proficient in the use of mildly anomalous firearms and melee weapons, as well as passively anomalous means of initial containment.
+
+||**Site:** DE20 || **Size:** 12 people + specialists||
+
+**Deployments:**
+* [[[SCP-114-DE]]] / [[[SCP-124-DE]]] / [[[SCP-144-DE]]] / [[[SCP-189- DE]]] / [[[SCP-193-DE]]] / [[[SCP-221-DE]]]
+* [[[willkommen-im-berg|Welcome to the Mountain]]] / [[[huckepack|Piggyback]]] / [[[Schwierige Beziehungen|Difficult relationships]]] / [[[blutnacht|Bloody Night]]]
+[[/div]]
+[[div class ="panel-footer"]]
+[#MTFs Back to Start]
+[[/div]]
+[[/div]]
+
+[[/div]]

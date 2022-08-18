@@ -1,0 +1,795 @@
+[[include credit:start]]
+**Title:** Manuel de formatage avancé
+**Author:** [[user Dr Lekter]]
+**Date:** 19 juillet 2020
+**Images:** [http://fondationscp.wdfiles.com/local--files/manuel-de-formatage-avance/schema.png Scheme] from Wikipedia under CC0 1.0 license & Cactuses picture by [[user Dr Lekter]], hereby released under CC BY-SA 3.0
+[[include credit:end]]
+
+[[=]]
++ Introduction
+[[/=]]
+
+You're entering an odd world. Odd, because this guide is a fleeting view of a much bigger and more complex world that extends way beyond the limits of this wiki. Its aim is to help you //understand// the functioning of elements that can be useful for your articles here but it does not claim to teach you CSS or any other language in a suitable way for real use outside of the wiki. If that's what you are looking for, you can find several online courses and [https://developer.mozilla.org/en-US/docs/Web/CSS reference sites].
+
+But before diving into the code itself, let's repeat the basics: the common formatting you may already have used on the wiki is called **Wikidot syntax**; a syntax is a set of rules conceived to make the main formatting options (bolded and italic text, tables etc) easily and quickly accessible for users.
+
+However, as soon as you will want to try something more specific, you'll have to use the "actual" languages used by internet developers, designers and other code artists. They do not come from Wikidot but can be used on it in the different ways we're going to explore here.
+
+Before going to the next section, a quick overview of some original or surprising results you can get by using these to give you an idea of the possibilities:
+* [http://www.scpwiki.com/scp-3125 SCP-3125], password interface
+* [http://fondationscp.wikidot.com/scp-499-fr SCP-499-FR], collapsibles and boxes styling
+* [http://www.scpwiki.com/scp-5999 SCP-5999], remote reading terminal
+* [[[SCP-369-FR]]], surprise!
+* [http://www.scpwiki.com/scp-style-resource And much more.]
+
+------
+
+[[=]]
++ CSS
+[[/=]]
+
+CSS -- for Cascading Style Sheets -- is a language used to define the **appearance** of an object. It allows to specify its dimensions, shape, color and several other elements. It's the language you will use 99% of the time to style your articles up and luckily it's very easy to understand. Let's see.
+
+There are two main ways to organise text and apply code to it: div and span elements.
+
+[[span style="background-color: #f3e2A9;"]]Here is a span element,[[/span]] which targets a set segment of text and allows you to switch from one style to another on the same line.
+
+[[div style="background-color: #f3e2A9;"]]
+Here is a div element, also called div block because it encompasses a whole portion of text. Divs are used for interviews or exploration logs in SCP articles, for example.
+[[/div]]
+It needs to include a line break after the last line of text in it before switching to another style. 
+
+So let's have a look at how it works.
+
+[[=]]
+++ Creating a box step by step
+[[/=]]
+
+[[div class="blockquote"]]
+@@[[div]]@@
+Text
+@@[[/div]]@@
+[[/div]]
+
+This is the basic, blank template of a div box. This one doesn't actually do anything yet because we didn't tell it to; let's choose what we want it to look like then.
+
+[[div class="blockquote"]]
+@@[[div@@ **style=" "**@@]]@@
+Text
+@@[[/div]]@@
+[[/div]]
+
+There, we're going to put a series of **CSS declarations** which are bits of code specifying each property like the background color, the border etc. Let's say I want a light blue background.
+
+[[div class="blockquote"]]
+@@[[div@@ **style="background-color: skyblue;"**@@]]@@
+Text
+@@[[/div]]@@
+------
+[[div style="background-color: skyblue;"]]
+Text
+[[/div]]
+[[/div]]
+
+A CSS declaration is always made in the same way: a **CSS argument**, here //background-color// which targets the background to say that what comes after will be about it, followed by a colon and a **value** which tells exactly how it should be, here a **[https://htmlcolorcodes.com/fr/noms-de-couleur/ color name]** in English. It could also have been an **[https://htmlcolorcodes.com/fr/ hexadecimal code]** (or RGB, or any other less common code that also specifies colors) or even the link of an image you want to display in the background. Then the declaration ends with a semicolon and can or not be followed by other declarations. 
+
+The single difficulty in this process is to know the right names for the different arguments and values: you will learn more and more by heart with time and practice, but you should probably use a **[https://www.w3schools.com/cssref/ reference list]** to start with all the useful info and details at hand.
+
+I can quickly make my div block look better using other such values!
+
+[[div class="blockquote"]]
+@@[[div@@ style="background-color: skyblue; **border: 1px solid black;**"@@]]@@
+Text
+@@[[/div]]@@
+------
+[[div style="background-color: skyblue; border: 1px solid black;"]]
+Text
+[[/div]]
+[[/div]]
+
+Here, we're using several values in a row to define distinct aspects of the desired element: I want a border, so I specify its width (1 pixel), its appearance (solid, because it could also be a dashed one) and its color (black). But you may also have noticed a most ungainly spacing inside and outside of this box.
+
+[[div class="blockquote"]]
+@@[[div@@ style="background-color: skyblue; border: 1px solid black; **margin: 1em; padding: 1em;**"@@]]@@
+Text
+@@[[/div]]@@
+------
+[[div style="background-color: skyblue; border: 1px solid black; margin: 1em; padding: 1em;"]]
+Text
+[[/div]]
+[[/div]]
+
+The //margin// and //padding// arguments respectively target the space between the outer border and the content above, under and on the sides of the box and the space between its inner border and the other elements it contains. They both are almost compulsory, especially the padding, if you want your box to be easy on the eye.
+
+[[collapsible show="+ Scheme and info" hide="- Close" hideLocation="both"]]
+
+[!--
+[[div style="background-color: gold; padding: 1em;"]]
+= margin
+[[div style="background-color: black; margin: 1em; padding: 0.1em;"]]
+= ##white|border##
+[[div style="background-color: gold; margin: 1em; padding: 1em;"]]
+= padding
+[[div style="background-color: yellow; margin: 1em; padding; 1em;"]]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[[/div]]
+= padding
+[[/div]]
+= ##white|border##
+[[/div]]
+= margin
+[[/div]]
+--]
+
+[[=image schema.png]]
+
+You can use these to easily change the top, bottom or side spacing by adding the corresponding specifications **-top**, **-bottom**, **-right** or **-left** right after your argument. For example:
+
+[[div class="blockquote"]]
+@@[[div style="background-color: gold; margin: 1em;@@ **padding: 0.5em; padding-bottom: 1.5em;**@@"]]@@
+Text
+@@[[/div]]@@
+------
+[[div style="background-color: gold; margin: 1em; padding: 0.5em; padding-bottom: 2em;"]]
+Text
+[[/div]]
+
+[[/div]]
+
+[[/collapsible]]
+
+The measure used here, the em, adapts its size to that of the font used with it. If your box contains very big text, these spaces will adapt themselves to provide a more accurate display. However, you can also use pixels (px) or any other fixed measure.
+
+[[div class="blockquote"]]
+@@[[div@@ style="background-color: skyblue; border: 1px solid black; margin: 1em; padding: 1em; **font-size: 300%;**"@@]]@@
+Text
+@@[[/div]]@@
+------
+[[div style="background-color: skyblue; border: 1px solid black; margin: 1em; padding: 1em; font-size: 300%;"]]
+Text
+[[/div]]
+[[/div]]
+
+But let's polish this box a bit to make it more stylish.
+
+[[div class="blockquote"]]
+@@[[div@@ style="background-color: skyblue; border: 1px solid black; margin: 1em; padding: 1em; --font-size: 300%;-- **border-radius: 0.5em; box-shadow: 5px 5px;**"@@]]@@
+Text
+@@[[/div]]@@
+------
+[[div style="background-color: skyblue; border: 1px solid black; margin: 1em; padding: 1em; border-radius: 0.5em; box-shadow: 5px 5px;"]]
+Text
+[[/div]]
+[[/div]]
+
+I have rounded the corners up and added a shadow, but it's a bit too aggressive on the eye and I'd like it to be on the top part. The first two numbers in px stand for the horizontal and vertical shadows (x and y axis). Let's invert the vertical one and add a third measure which indicates a blur on the shadow to make it smoother. 
+
+[[div class="blockquote"]]
+@@[[div@@ style="background-color: skyblue; border: 1px solid black; margin: 1em; padding: 1em; border-radius: 0.5em; box-shadow: **5px -5px 6px**;"@@]]@@
+Text
+@@[[/div]]@@
+------
+[[div style="background-color: skyblue; border: 1px solid black; margin: 1em; padding: 1em; border-radius: 0.5em; box-shadow: 5px -5px 6px;"]]
+Text
+[[/div]]
+[[/div]]
+
+And why not add a color to this shadow while we're at it.
+
+[[div class="blockquote"]]
+@@[[div@@ style="background-color: skyblue; border: 1px solid black; margin: 1em; padding: 1em; border-radius: 0.5em; box-shadow: 5px -5px 6px **#0404b4**;"@@]]@@
+Text
+@@[[/div]]@@
+------
+[[div style="background-color: skyblue; border: 1px solid black; margin: 1em; padding: 1em; border-radius: 0.5em; box-shadow: 5px -5px 6px #0404b4;"]]
+Text
+[[/div]]
+[[/div]]
+
+And here you are, you just created a div box! It may seem complicated because we referred several times to arguments you probably have never heard of before but that's where the real work is; understanding and learning the utility and use of these codes. For this, there's only one way: trying. If you want to try your hand with the most common arguments, you can use several online tools like **[http://selfcss.org/ this one]** and you will soon be able to stand on your own two feet!
+
+[[=]]
+++ Span Elements
+[[/=]]
+
+Spans work the same way as div boxes and with the same arguments save for a few properties that can't apply to a segment of text.
+
+[[div class="blockquote"]]
+@@[[span style="background-color: gold; border: 0.9px solid grey; border-radius: 0.2em; padding: 0.2em"]] Example of text within a span [[/span]]@@ followed by another bit of text that isn't included in it and is not affected by its formatting
+------
+[[span style="background-color: gold; border: 0.9px solid grey; border-radius: 0.2em; padding: 0.2em;"]] Example of text within a span [[/span]] followed by another bit of text that isn't included in it and is not affected by its formatting
+[[/div]]
+
+[[=]]
+++ CSS Modules
+[[/=]]
+
+Using "inline" properties in spans and divs (with a **style=" "** directly in your page's code) is an easy way to apply CSS in your article. However, it can be more convenient to use a **CSS module** to do so[[footnote]] And that's how you should ideally write any rule that's applied to more than one element, but let's see what we're talking about first. [[/footnote]].
+
+A CSS module is a block of text that won't be displayed anywhere on your page and contains a set of CSS declarations that will apply to your page. The wiki's [[[/system:page-tags/tag/theme|themes]]] are basically nothing but big CSS modules most often affecting general aesthetic elements -- and that's where it becomes interesting. CSS modules allow you to not only apply styles to specific elements you created from zero in your code but also to modify the design and attributes of elements that already have different default ones and to which you cannot apply a **style=" "** value. This code, for example, allows you to modify Wikidot tables' design:
+
+[[code type="css"]]
+[[module CSS]]
+table.wiki-content-table {
+    background-color: #CEF6CE !important;
+    color: black !important;
+}
+table.wiki-content-table th {
+    background-color: #3B0B17 !important;
+    color: #F6CED8 !important;
+}
+[[/module]]
+[[/code]]
+
+[[div class="blockquote"]]
+And with this code on your page, the following:
+
+@@||~ Title 1 ||~ Title 2 ||~ Title 3 ||@@
+@@|| Cell 1 || Cell 2 || Cell 3 ||@@
+
+Will look like this: 
+
+||~ Title 1 ||~ Title 2 ||~ Title 3 ||
+|| Cell 1 || Cell 2 || Cell 3 ||
+
+[[module css]]
+table.wiki-content-table {
+    background-color: #CEF6CE !important;
+    color: black !important;
+}
+table.wiki-content-table th {
+    background-color: #3B0B17 !important;
+    color: #F6CED8 !important;
+}
+[[/module]]
+[[/div]]
+
+"table.wiki-content-table" is the CSS name for the table cells and the "th" specification more precisely targets the title cells. After giving them a new background and font color, we add the "!important" command to indicate that this argument has to overwrite any other previously defined color. It is not always necessary but can be useful to replace Wikidot's default settings if you try with a normal argument and it doesn't work. Be careful not to use !important if your code works without it though, it can also break it if used unwisely.
+
+But you may have noticed a change in the format we're using? Indeed, the standard CSS format we use in those modules implies 1) a more readable formatting and 2) the necessity to precise which element should each CSS declaration apply to since our module is not tied to a single element but to the whole page. The recommended format in a CSS module is the following:
+
+[[code type="css"]]
+elementname {
+    argument: value;
+    argument: value;
+    argument: value;
+}
+[[/code]]
+
+To note that spaces and line breaks are used for readability only: the following module would also work, even if much less enjoyable to look at.
+
+[[code type="css"]]
+elementname{argument:value;argument:value;argument:value;}
+[[/code]]
+
+You may now be asking yourself how to find the name of an element to modify it: to do so, your computer has an appointed tool you might already have used, the element inspector. We will talk again about this tool's possibilities later, but for now just remember you only have to right click on what you want to modify then select "Inspect" to find its name which will be displayed in the newly opened interface.
+
+[[=image inspection.png link="http://fondationscp.wdfiles.com/local--files/manuel-de-formatage-avance/inspection.png"]]
+
+//Rightclicking on this image show me that the blocks I used here are named "div.code" or more simply ".code" in CSS.//
+
+Once you have opened this window, you can go on top left of it to use the "inspect by click" tool instead of using right again click every time. **Pro tip:** It can also be used more quickly with the Ctrl + Shift + C shortcut.
+
+[[=image inspectclic.png]]
+
+Let's see the different practical applications of a CSS module now.
+
+Case 1: You use the same div box several times in your article and would like to lighten your code by avoiding to repeat all of it every time. You will then have to define a class - in other words, create a set of rules you will then be able to simultaneously apply to several elements. To do so, set the element to target a dot followed by the name you want to give your class.
+
+[[code type="css"]]
+.yourclassname {
+    padding: 1em;
+    margin: 1em;
+    background-color: gold;
+    color: darkred;
+    border: 1px dashed black;
+}
+[[/code]]
+[[module css]]
+.yourclassname {
+    padding: 1em;
+    margin: 1em;
+    background-color: gold;
+    color: darkred;
+    border: 1px dashed black;
+}
+[[/module]]
+
+To apply your class to a div, span or other element, simply add **class="yourclassname"** to it.
+
+[[div class="blockquote"]]
+@@[[div@@ **class="yourclassname"**@@]]@@
+Text inside of your div block
+@@[[/div]]@@
+------
+[[div class="yourclassname"]]
+Text inside of your div block
+[[/div]]
+[[/div]]
+
+Case 2: You use the same div box several times in your article while sometimes changing a detail in it. To do so, you can either 1) use several classes or 2) add a **style=" "** to the main one. Let's see the first of these two methods.
+
+[[code type="css"]]
+.box {
+    padding: 1em;
+    margin: 1em;
+    color: darkred;
+    border: 1px dashed black;
+}
+.yellow {
+    background-color: gold;
+}
+.blue {
+    background-color: lightblue;
+}
+[[/code]]
+[[module css]]
+.box {
+    padding: 1em;
+    margin: 1em;
+    color: darkred;
+    border: 1px dashed black;
+}
+.yellow {
+    background-color: gold;
+}
+.blue {
+    background-color: lightblue;
+}
+[[/module]]
+
+All elements given the "box" class will receive its properties and you will then be able to adjust their appearance through a second more specific class, here used for the background color. The order of the classes doesn't matter.
+
+[[div class="blockquote"]]
+@@[[div class="@@**yellow box**@@"]]@@
+Text inside of the yellow box
+@@[[/div]]@@
+
+@@[[div class="@@**box blue**@@"]]@@
+Text inside of the blue box
+@@[[/div]]@@
+------
+[[div class="yellow box"]]
+Text inside of the yellow box
+[[/div]]
+
+[[div class="box blue"]]
+Text inside of the blue box
+[[/div]]
+[[/div]]
+
+But you can also get the same result using class and style at the same time, like this:
+
+[[div class="blockquote"]]
+@@[[div@@ **class="box" style="background-color: gold;"**@@]]@@
+Text inside of the yellow box
+@@[[/div]]@@
+
+@@[[div@@ **class="box" style="background-color: lightblue;"**@@]]@@
+Text inside of the blue box
+@@[[/div]]@@
+[[/div]]
+
+None of these options is better than the other, it's up to you to see which one is the most intuitive and convenient to use on a case by case basis.
+
+------
+
+[[=]]
++ Of the virtues of study and experimentation as a way of learning
+[[/=]]
+
+There is a most efficient path to follow in your quest to become an advanced formatting expert: trying. The **[https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector page inspector]**, accessible using right click or Ctrl + Maj + I or Ctrl + Maj + C (depending on your browser), is the best tool to do so.
+
+Once done, you will see all of selected element's properties and will be able to modify them at leisure and see the results live on your page. These modifications will be visible by you only, won't affect all other users and will be reset if you refresh the page, so don't hold yourself back! Here's a random box to train yourself:
+
+[[div style="padding: 1em; margin: 0.7em; background-color: darkgreen; color: #fff; border: 1px solid white; border-radius: 1.2em; box-shadow: 4px 3px 6px black;"]]
+Example text
+[[/div]]
+@@@@
+If you enjoy this game, you can push it further by adding the study of existing formats to it, comparing their code with the result to understand what does what. You can and are encouraged totry this a bit everywhere on the site, but here are some interesting examples with comments to let you see the recommended method. P.S. : If you are curious about the use of **components**, you may be interested in the second tab.
+@@@@
+@@@@
+[[include :fondationscp:component:onglets-compacts]]
+
+[[tabview]]
+[[tab ⁰]]
+
+[[/tab]]
+[[tab 1]]
+
+= [[size 130%]] Format [[/size]]
+
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+= [[size 150%]] __SCiPNet 6.1 Console__[[/size]]
+@@ @@
+@@ @@
+[[module ListUsers users="."]]
+= ~~~
+= Welcome, user #%%number%%
+= ~~~
+[[/module]]
+@@ @@
+@@ @@
+@@ @@
+> Links inside the terminal gain a ">" when you hover over them.
+> [http://www.google.com like this]
+
+And here we are!
+@@ @@
+@@ @@
+[[/div]]
+[[/div]]
+
+= [[size 130%]] Hard code [[/size]]
+
+[[div class="blockquote"]]
+
+@@[[div class="terminal"]]@@
+[[div style="background-color: gold;"]]
+@@[[div class="scanline"]]@@
+@@[[/div]]@@
+[[/div]]
+@@[[div class="text"]]@@
+@@=@@[[footnote]] Centers the line where it's put. [[/footnote]]@@[[size 150%]] __SCiPNet 6.1 Console__[[/size]]@@
+
+@@[[module ListUsers users="."]]@@[[footnote]] This targets a Wikidot user, here the one that's reading the page, and can then display various information about them like their username, pages they created or other data. If the user is not logged into a Wikidot account, the module's content isn't displayed. [https://www.wikidot.com/doc-modules:listusers-module More information.] [[/footnote]]
+@@ ~~~ @@
+@@= Welcome, user #%%number%%@@[[footnote]] Displays the user's ID -- a numerical equivalent to their username. [[/footnote]]
+@@ ~~~ @@
+@@[[/module]]@@
+
+[[div style="background-color: lightsalmon; padding-bottom: 0.5em;"]]
+@@>@@[[footnote]] In this format, the quote block design has been modified, see CSS below. [[/footnote]] @@Links inside the terminal gain a ">" when you hover over them.@@
+[[div style="background-color: lightpink; margin: 0.5em;"]]
+@@> [http://www.google.com like this]@@
+[[/div]]
+[[/div]]
+
+And here we are!
+
+@@[[/div]]@@
+@@[[/div]]@@
+
+[[/div]]
+
+= [[size 130%]] Code CSS [[/size]]
+
+[[div class="blockquote"]]
+div.terminal {
+@@    @@border: 1px solid black;
+@@    @@border: solid 3px #BBBBBB;
+@@    @@border-radius: 16px;
+@@    @@background-color: #131;
+@@    @@background-image: radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);[[footnote]] Sets a circular color gradient as background, starting from the middle then going to the borders. [[/footnote]]
+@@    @@background-position: center;
+@@    @@display: block;
+@@    @@box-shadow: inset[[footnote]] Displays the shadow inside of the element instead of outside. [[/footnote]] 0 0 10em 1em rgba(0,0,0,0.5);
+@@    @@overflow: hidden;
+}
+[[div style="background-color: lightsalmon;"]]
+div.terminal blockquote[[footnote]] Corresponds to quote blocks, made by putting a > at the start of the line. [[/footnote]] {
+@@    @@background-color: black;
+@@    @@border: double 3px #80FF80;
+}
+[[/div]]
+[[div style="background-color: gold;"]]
+div.scanline {
+@@    @@margin-top: -40%;
+@@    @@width: 100%;
+@@    @@height: 60px;
+@@    @@position: relative;
+@@    @@pointer-events: none;
+@@    @@-webkit-animation: scan 12s linear 0s infinite;
+@@    @@animation: scan 12s linear 0s infinite;[[footnote]] Uses a previously set animation, here a "scan bar" effect", then specifies the animation length and its consistency. [[/footnote]]
+@@    @@background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;[[footnote]] Adds a blurry shadow effect around of the scan bar to make it look nicer than a simple bar. [[/footnote]]
+}
+@keyframes scan {
+@@    @@from { transform: translateY(-10%); }[[footnote]] Where the scan bar starts. [[/footnote]]
+@@    @@to { transform: translateY(5000%); }[[footnote]] Where the scan bar stops. [[/footnote]]
+}
+@-webkit-keyframes scan {[[footnote]] Webkits are code bits especially made to be compatible with a browser that otherwise wouldn't support their regular version, here Safari for example. [[/footnote]]
+@@    @@from { transform: translateY(-10%); }
+@@    @@to { transform: translateY(5000%); }
+}
+[[/div]]
+div.text {
+@@    @@color: rgba(128,255,128,0.8);
+@@    @@padding-left: 2em;
+@@    @@padding-top: 40%;
+@@    @@font-family: monospace;
+@@    @@font-size: 1.2em;
+}
+div.text a[[footnote]] An "a" always indicates links. It can be used alone to target all page links or added after another element name to target the links in said element. [[/footnote]] {
+@@    @@color: #90EE90;
+@@    @@text-decoration: none;
+@@    @@background: transparent;
+}
+div.text a.newpage {
+@@    @@color: #90EE90;
+@@    @@text-decoration: none;
+@@    @@background: transparent;
+}
+[[div style="background-color: lightpink;"]]
+div.text a:hover[[footnote]] "hover" properties specify what happens when you hover over an element with your cursor. [[/footnote]] {
+@@    @@color: #131;
+@@    @@text-decoration: underline;
+@@    @@background-color: #80FF80;
+@@    @@padding: 1px;
+}
+div.text a:hover::before {
+@@    @@content: "> ";[[footnote]] Puts these character(s) before the element when it's hovered. [[/footnote]]
+}
+[[/div]]
+[[/div]]
+
+[[module css]]
+div.terminal {
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
+    background-image: radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+div.terminal blockquote {
+    background-color: black;
+    border: double 3px #80FF80;
+}
+div.scanline {
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+/* Safari 4.0 - 8.0 */
+    -webkit-animation: scan 12s linear 0s infinite;
+    animation: scan 12s linear 0s infinite;
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+}
+div.text {
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scan {
+    from { transform: translateY(-10%); }
+    to { transform: translateY(5000%); }
+}
+@keyframes scan {
+    from { transform: translateY(-10%); }
+    to { transform: translateY(5000%); }
+}
+div.text a {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a.newpage {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a:hover {
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
+}
+div.text a:hover::before {
+content: "> ";
+}
+[[/module]]
+
+[[/tab]]
+[[tab 2]]
+= [[size 130%]] Format [[/size]]
+
+[[include :scp-int-sandbox:component:image-zoom name=ExampleImage.jpg |caption=Hover me! |width=300px |align=right]]
+
+~~~~
+
+= [[size 130%]] Hard code [[/size]]
+
+[[div class="blockquote"]]
+@@[[include@@ :scp-int-sandbox:component:image-zoom name=ExampleImage.jpg |caption=Hover me! |width=300px |align=right]]
+[[/div]]
+
+= [[size 130%]] CSS code [[/size]]
+
+What do you mean, there's none? But this small code can't make the image zoom when hovered, can it? Maybe there's something hidden to find...
+
+"**include**d" codes fetch the content of another page (often called **component**) and copy it on the current one. They are often used for long codes that may be used in several places while only changing small parts of them (like the image name and caption here), a bit like CSS classes but fot all kinds of codes. The credit module you can see on many if not all articles or the aforementioned captioned image code are used through an include, for instance. But how does it work?
+
+The "include" mention is often followed in order by the **Wikidot site** name then by the **page** where the code has to be fetched and the text to use to fill in the gaps that have been purposedly left in it, like the caption field.
+
+The site name actually is its URL without ".wikidot.com" with a colon on each side of it; if we take scp-int-sandbox.wikidot.com, we get **:scp-int-sandbox:**. Then comes the page name, i.e. what follows "scp-int-sandbox.wikidot.com/" in its link. This name is also called **unix name**[[footnote]] And that's also the one you'd better use for internal links, following the **@@[[[pagename | Page name]]]@@** format. [[/footnote]]. To note that, if the page to fetch is on the same site you use the include code on, you don't need to specify a site name.
+
+To find the whole code, we'll need to go to this page! By reconstituting its link with a pretty archaeological precision, we obtain: http://scp-int-sandbox.wikidot.com/component:image-zoom. Let's see the source code.
+
+[[div class="blockquote"]]
+@@[[include :sandboxscpfr:component:image-zoom-base name={$name} |caption={$caption} |width={$width} |width=300px |link={$link} |link=# |align={$align} |align=right]]@@
+[[/div]]
+
+Come on, again? Yes, it's an intermediary component to avoid being forced to set some values (as {$link}) that would display an error message if we were using the original page [[footnote]] Most components don't need such default values since they usually aren't optional. [[/footnote]]. But let's repeat the operation: http://scp-int-sandbox.wikidot.com/component:image-zoom-base. Bingo!
+
+[[div class="blockquote"]]
+
+@@[[module CSS]]@@
+[[span style="background-color: palegreen;"]].enlarge {[[/span]]
+@@    @@transition: .25s;
+}
+[[span style="background-color: palegreen;"]].enlarge:hover {[[/span]]
+@@    @@transform: scale(1.6);[[footnote]] Enlarges the targeted element by 60%. [[/footnote]]
+@@    @@transition: .25s;
+@@    @@transition-delay: .4s;
+@@    @@z-index: 1000;
+}
+@@[[/module]]@@
+
+@@[[div class="scp-image-block block-{$align}@@[[footnote]] {$example}-like arguments are blank fields the user will be able to fill in when using the component. They'll just have to write "**|example=Example contents**" to do so. Here, by using "left", "right" or "center", they will define the div box as belonging to a CSS class defined in the site theme and properly align it. [[/footnote]]@@" style="width: {$width};"]]@@
+@@[[image {$name}@@ [[span style="background-color: palegreen;"]]class="enlarge"[[/span]][[footnote]] This image was assigned the aforementioned CSS class, which enlarges elements on hover. It was as simple as that![[/footnote]] @@style="width: {$width};" link={$link}]]@@
+@@[[div class="scp-image-caption" style="width: {$width};"]]@@
+{$caption}[[footnote]] Image caption. [[/footnote]]
+@@[[/div]]@@
+@@[[/div]]@@
+
+[[/div]]
+
+[[/tab]]
+[[tab 3]]
+
+= [[size 130%]] Format [[/size]]
+
+Page content that won't disappear
+
+[[div_ class="fadeout-wrapper"]]
+Page content that will disappear
+
+[[span class="escape"]]Page content that won't disappear[[/span]]
+
+Page content that willl disappear
+
+[[collapsible show="Click to make text disappear" hide=" "]]
+[[div class="cover"]]
+@@@@
+[[/div]]
+[[/collapsible]]
+[[/div]]
+Page content that won't disappear
+
+= [[size 130%]] Hard code [[/size]]
+
+[[div class="blockquote"]]
+Page content that won't disappear
+
+[[div style="background-color: lavender; padding-left: 0.5em; padding-right: 0.5em;"]]
+@@[[div_ class="fadeout-wrapper"]]@@[[footnote]] The contents of this div will be hidden by our code... [[/footnote]]
+
+Page content that will disappear
+
+[[div style="background-color: paleturquoise;"]]
+@@[[span class="escape"]]Page content that won't disappear[[/span]]@@[[footnote]] ... Except for the content of "escape"-class divs and spans that were tinkered not to be affected. [[/footnote]]
+[[/div]]
+
+Page content that will disappear
+
+@@[[collapsible show="Click to make text disappear" hide=" "]]@@[[footnote]] Clicking on this collapsible block displays the "cover" div and triggers the effect. [[/footnote]]
+[[div style="background-color: khaki;"]]
+@@[[div class="cover"]]@@[[footnote]] This div contains all the code that will be normally displayed by the collapsible once opened. [[/footnote]]
+@@@@@@@@
+@@[[/div]]@@
+[[/div]]
+@@[[/collapsible]]@@
+
+@@[[/div]]@@
+[[/div]]
+Page content that won't disappear
+
+[[/div]]
+
+= [[size 130%]] CSS code [[/size]]
+
+[[div class="blockquote"]]
+@import url('http://smlt.wdfiles.com/local--code/ukwhatn%3Afadeout/1');[[footnote]] **@import**s are the CSS equivalent of a component: they're fetching code from a stylesheet somewhere else and apply it where they're used. By the by, you can find the Wikidot page where it's hosted by removing "/local-files/" and the numerical extension, "/1", "/2" or another. See the whole code below. [[/footnote]]
+
+:root {[[footnote]] The :root argument defines variables, in other words values that will fill blank spaces set on purpose in the imported code to allow it to be adapted. It somehow is the equivalent of **|example=Content**" in includes. [[/footnote]]
+[[span style="background-color: powderblue;"]]@@    --@@fadeout-background: white;[[/span]]
+[[span style="background-color: bisque;"]]@@    --@@fadeout-time: 1s;[[/span]]
+[[span style="background-color: lemonchiffon;"]]@@    --@@cropped-header: url(http://smlt.wdfiles.com/local--files/ukwhatn:fadeout/header-crop.png);[[footnote]] Defines a different background image for the site header (**[http://fondationscp.wikidot.com/local--files/component:theme/body_bg.png this model]** but repeated and on which we add the "SCP Foundation" title, the top nav bar, etc.) whithout a black gardient below; the disappearing text has a white background that would most uglily be noticed if used on the top of the page without this precaution. [[/footnote]] [[/span]]
+}
+[[/div]]
+
+[[div class="blockquote"]]
+div#container-wrap {[[footnote]] Stands for the header background image. [[/footnote]]
+@@    @@background-image: [[span style="background-color: lemonchiffon;"]]@@var(--cropped-header)@@[[/span]];
+}
+[[div style="background-color: lavender;"]]
+.fadeout-wrapper {
+@@    @@position: relative;
+@@    @@overflow: hidden;
+}
+[[/div]]
+[[div style="background-color: khaki;"]]
+.fadeout-wrapper .cover {
+@@    @@width: 100%;
+@@    @@height: 200%;
+@@    @@position: absolute;
+@@    @@top: 0px;
+@@    @@left: 0px;
+@@    @@z-index: 2;
+@@    @@background: [[span style="background-color: powderblue;"]]@@var(--fadeout-background)@@[[/span]];
+@@    @@color: transparent;
+@@    @@animation: [[span style="background-color: palegoldenrod; border: 0.8px solid grey;"]]cover-anim[[/span]] [[span style="background-color: bisque;"]]@@var(--fadeout-time)@@[[/span]] linear 0s 1 forwards;
+}
+[[/div]]
+[[span style="background-color: palegoldenrod; border: 0.8px solid grey;"]]@keyframes cover-anim[[/span]] {[[footnote]] Sets an animation can then be applied to any other CSS object in your code. [[/footnote]]
+@@  @@0% {
+@@    @@opacity: 0;
+@@  @@}
+@@  @@100% {
+@@    @@opacity: 1;
+@@  @@}
+}
+[[div style="background-color: paleturquoise;"]]
+.fadeout-wrapper .escape {
+@@    @@position: relative;
+@@    @@display: inline-block;
+@@    @@z-index: 3;
+}
+[[/div]]
+.fadeout-wrapper .fadein-txt {
+@@    @@position: relative;
+@@    @@z-index: 3;
+@@    @@opacity: 0;[[footnote]] An opactiy of 1 is equivalent to a normal text, and a value of 0 is entirely transparent. [[/footnote]]
+@@    @@animation: [[span style="background-color: palegoldenrod; border: 0.8px solid grey;"]]cover-anim[[/span]][[footnote]] Applies the animation above. [[/footnote]] var@@(--txt-fadein-time) linear var(--txt-fadein-delay)@@ 1 forwards;
+}
+[[/div]]
+
+[[module css]]
+@import url('http://smlt.wdfiles.com/local--code/ukwhatn%3Afadeout/1');
+:root {
+  --fadeout-background: white;
+  --fadeout-time: 1s;
+  --cropped-header: var(--ct_bg_header-image);
+}
+[[/module]]
+
+[[/tab]]
+[[/tabview]]
+
+------
+
+[[=]]
++ Conclusion
+[[/=]]
+
+If you have read and undersood all of the above, you should just need some practice to become a master in the art of advanced syntax. If you have any questions or problems with code tinkering, feel free to contact either me ([[*user Dr Lekter]] on Wikidot, Lekter#1551 on Discord) or a technical expert or staff from your branch.
+
+Good luck in your quest, and may you make a wise use of the skills you will acquire on the road!
+
+[[module css]]
+h3 {
+    font-weight: normal;
+}
+[[/module]]
+
+[[div style="border: dashed 2px #999; border-radius: 20px; margin: 2em auto; padding: 0.8em; padding-bottom: 1em; text-align: center; background-color: #fff;"]]
+++ Useful links recap
++++ to go further
+ >> [https://www.w3schools.com/cssref/ CSS arguments list] <<
+ >> [http://selfcss.org/ Div box creation tool] <<
+ >> [https://developer.mozilla.org/en-US/docs/Web/CSS Full documentation] <<
+ >> [https://www.color-hex.com/ HTML color codes] <<
+ >> [http://scp-wiki.wikidot.com/scp-style-resource Ready-to-use codes][[footnote]] Also a very good analysis and experimentation tools resource. [[/footnote]] <<
+[[/div]]
+
+[[footnoteblock title="Notes"]]

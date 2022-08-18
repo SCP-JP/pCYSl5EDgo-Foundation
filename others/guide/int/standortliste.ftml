@@ -1,0 +1,956 @@
+[[module css]]
+@import url('http://scp-wiki-de.wdfiles.com/local--code/secure-facilities-locations/1');
+#breadcrumbs {
+    display: initial;
+}
+
+/* Map box */
+.c_map {
+    background-color: #888880;
+    background-color: var(--ct_brd_white-paper-sheet);
+    -o-object-fit: contain;
+    object-fit: contain;
+    padding: 0;
+}
+.c_map .pop-button img {
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    height: auto;
+}
+.c_map p {
+    background: #eee;
+    background: var(--ct_col_image-block-contrast);
+    border-top: solid 1px #888880;
+    border-top: var(--ct_brd_white-paper-sheet);
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+    margin: 0;
+    padding: .5em 0;
+    text-align: center;
+}
+
+/* Popup */
+.pop-wrap > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.pop-wrap > ul {
+    list-style: none;
+    padding: 0;
+}
+.pop-wrap .pop-button div.foldable-list-container {
+    display: inline;
+}
+.pop-wrap .pop-button .foldable-list-container > a:last-child {
+    animation: fadein 0.35s ease-in forwards;
+    background: rgba(0,0,0,.3);
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.c_map .pop-wrap .pop-popup {
+    animation: fadein 0.35s ease-in forwards;
+    background: #888880;
+    border: 1px solid #888880;
+    border-radius: 10px;
+    height: auto;
+    left: 0;
+    margin: 2em auto;
+    position: fixed;
+    right: 0;
+    top: 2em;
+    width: 1024px;
+    z-index: 10;
+}
+
+.c_list-box .pop-wrap .pop-popup {
+    animation: fadein 0.35s ease-in forwards;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 353px;
+    z-index: 10;
+}
+
+#page-content .c_map .pop-wrap div.pop-popup {
+    max-width: 95%;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.pop-wrap .pop-dummy,
+.pop-wrap .folded .pop-popup,
+.pop-wrap .folded .pop-button .foldable-list-container > a:last-child {
+    display: none;
+}
+
+.c_map .pop-wrap .pop-button div.foldable-list-container {
+    display: block;
+}
+.pop-wrap {
+    float: right;
+}
+.pop-wrap br {
+    line-height: 0;
+}
+.c_map .pop-wrap .pop-popup img {
+    border-radius: 10px;
+}
+.pop-wrap .pop-popup .image-container {
+    padding: 0;
+}
+
+[[/module]]
+
+
+[[# Facilities]]
+[[div class="white-paper"]]
+
+[[div class="wp_sheet c_intro-toc"]]
+
+[[span class="wp_section-title"]]FACILITIES OF THE GERMANOPHONE SCP FOUNDATION[[/span]]
+
+[[div class="toc float-right content-toc long-toc"]]
+[[div class="toc-title"]]
+Table of Contents
+[[/div]]
+[[div class="toc-list"]]
+[#u-DE1 Site-DE1]
+[#u-DE2 Site-DE2]
+[#u-DE3 Site-DE3]
+[#u-DE4 Site-DE4]
+[#u-DE5 Site-DE5]
+[#u-DE6 Site-DE6]
+[#u-DE7 Site-DE7]
+[#u-DE8 Site-DE8]
+[#u-DE9 Site-DE9]
+[#u-DE10 Site-DE10]
+[#u-DE11 Site-DE11]
+[#u-DE12 Site-DE12]
+[#u-DE13 Site-DE13]
+[#u-DE14 Site-DE14]
+[#u-DE15 Site-DE15]
+[#u-DE16 Site-DE16]
+[#u-DE17 Site-DE17]
+[#u-DE18 Site-DE18]
+[#u-DE19 Site-DE19]
+[#u-DE20 Site-DE20]
+[#u-DE21 Site-DE21]
+[#u-DE22 Site-DE22]
+[#u-DE23 Site-DE23]
+[#u-DE24 Site-DE24]
+[#u-DE25 Site-DE25]
+[#u-Concordia Site Concordia]
+[#u-DE3-EX Site-DE3-EX]
+[#u-FR-Mayim Site Mayim]
+[[/div]]
+[[/div]]
+
+[[div class="justify hyphens"]]
+The Germanophone SCP Foundation has its own structure and fundamentally differentiates between Containment Sites, Special Sites, Areas and Outposts of Sites, as well as mixed types like Special Containment Sites. Each Containment Site has at least one primary specialization and one or more secondary specializations, although primary specializations can often also appear as secondary specializations. The Germanophone SCP Foundation maintains 25 Sites, 17 of which are Containment Sites, one of which is a Special Containment Site and one of which is in a Meta-Reality, which means that it has no capacity for the Initial Containment of objects. There are also eight special Sites, some of which have Initial Containment capabilities. On occasion, Sites are relinquished or no longer actively used due to abnormal contamination or other abuses. Facilities that are suitable are given over to civil companies, authorities, the military or other government agencies. Sometimes underground facilities are sealed, backfilled, or removed, and the site is sold or leased.
+[[/div]]
+~~~~
+
+[[div class="col-title"]]
+[[include component:coltop show=+ FURTHER INFORMATION +|hide=- HIDE INFORMATION -]]
+
+[[div class="justify hyphens"]]
+
+[[span class="wp_section-title"]]TYPES OF FACILITY[[/span]]
+The basic types of Facility used by the Germanophone SCP-Foundation are:
+* **Containment Sites:** Facilities intended for the initial, transitional or permanent Containment of anomalies.
+* **Special Sites:** Facilities that primarily serve a special purpose, and therefore have only limited or even no Initial Containment capabilities, and where no other anomalies are contained.
+* **Areas:** Self-sufficient facilities for the containment of a single (usually immobile) anomaly that requires so much effort or infrastructure to contain that an Outpost would be insufficient.
+* **Outposts:** Small Facilities associated with a Site.
+ * **Guard Posts:** One or more Reaction Forces are on standby here, along with emergency vehicles, equipment, supplies, and often a (possibly improvised) helicopter landing pad and simple containment options for newly contained anomalies. Guard Posts increase the operational range of Sites, and are usually set up in locations that are difficult to access or far away.
+ * **Observation Posts:** Posts used for general reconnaissance and the detection of anomalies.
+ * **Containment Outposts:** Used for the containment of anomalies outside of the immediate area around a Site.
+* **Former Sites:** Sites that are no longer used as such, but that cannot be given up. One example is the location designated Site-DE3-EX.
+
+[[span class="wp_section-title"]]TYPES OF CONTAINMENT[[/span]]
+A basic distinction is made between three types of containment:
+* **Initial Containment:** Occurs following discovery, detention and transport to a facility to receive an initial classification, followed by transfer to the facility with the appropriate specialisation for Transitional Containment.
+* **Transitional Containment:** During Transitional Containment anomalies are researched, tested and investigated. This occurs to derive strategic insights, to correctly classify them and to determine how easily they can be contained. In order to achieve this, they are sometimes transported to locations not directly specialized in anomalies of their type, in order to carry out experiments. The best example of this is the Research Site-DE12.
+* **Permanent Containment:** Once an anomaly has been researched, it is brought to a specialised and prepared Site for Permanent Containment.
+
+[[span class="wp_section-title"]]CAMOUFLAGE[[/span]]
+All facilities are camouflaged in various ways, sometimes as the base for a police department, a military facility, an industrial park, factory, office building, or - not uncommon for the entrance to largely underground Sites - as hotel complexes. In accordance with the camouflage of the facility, its personnel (working above ground) and their vehicles are also camouflaged to give civilian observers of these facilities no cause for suspicion. Due to distrust of the police and especially the military by the population and press, at least in Germany, civilian camouflage or multiple camouflages are increasingly used, for example reversible jackets or outer clothing. An example would be emergency service workers becoming soldiers, who get into their vehicle and then get out again as federal police.
+
+[[span class="wp_section-title"]]EQUIPTMENT[[/span]]
+Exact equipment varies from location to location. Sites have a certain amount of autonomy in terms of their set-up and exact equipment, and can manage themselves as long as they follow guidelines. Essentially every Site has (underground) garages for emergency vehicles that cannot be seen from the outside, a helicopter landing pad (and often one or more helicopters), at least one hidden anti-aircraft gun, and often hidden defense positions. Some are even equipped with permanently installed guns and automatic cannons and have interiors designed for defense, at least in the entrance area. Furthermore, all Sites have workshops, storage rooms, offices, social rooms and accommodation.
+
+Laboratory and containment equipment varies considerably depending on specialization and is produced by the Foundation itself, unless available at low cost on the open market.
+
+The Germanophone Branch of the Foundation provides various furnishing and equipment packages assembled by various architects and development teams. These are updated regularly, and so some Sites procure all new equipment from a different package after a change of director. Essentially all parts from each version are compatible, but Sites are free to equip themselves differently. Basic design principles are that all furnishings should help provide a positive working environment, that there should always be sufficient lighting, ventilation and air conditioning, and that all equipment should be in good condition. The Foundation doesn't neglect the importance of creating a working environment in which people can thrive.
+
+[[span class="wp_section-title"]]SPECIALISATION[[/span]]
+
+Each Containment Site has at least one primary specialization. The Site and its equipment, personnel and construction are designed accordingly, and specializations are in turn selected based on the local conditions. A Site for large and difficult to transport objects will be located in a logistically easy to access hub. The primary specialization (or specialisations) of each site determines where anomalies will be brought to for transitional and especially permanent containment, but also where specialized MTFs will probably have to be deployed from, although not all MTFs are stationed at the Site with their specialization. In addition, through the specialist knowledge of the staff, the discretion of the site manager, or other factors, nearly every Site has one or more secondary specialisations, which can occur multiple times and be the primary specialisation of other sites.
+
+In the initial containment of an anomaly, the specialization of the Site plays a less important role; and the Site responsible is newly contained anomalies is usually the one in whose catchment area the anomaly is located, or the one whose staff can be on the scene first.
+
+[[include component:coltop show=▼ CANONICITY|hide=▼ HIDE CANONICITY]]
+
+Canonicality means to what extent an article - or or in this case, a Site - corresponds to the [[[scp-foundation-in-deutschland-portal| SCP-DE canon]]]. Authors on the German Language site are not obliged to take into account the SCP-DE canon; however, all articles belonging to that canon form a self-contained narrative continuum with numerous facets and sub-canons.
+
+All Sites on this list, and only these, are part of the SCP-DE canon. Articles referring to other sites are automatically non-canonical. Unless it is agreed jointly that a Site should be changed, deleted, or added, the following list is complete and will not be altered in future, with the exception of spelling corrections.
+
+However, everyone is invited (in coordination with the community of the German Language site) to further develop a Site, add details or write a dossier on a specific Site. For Sites that have "somewhere" in the Site description, a suitable real location can be searched for in the general area specified. It should be noted that the SCP universe doesn't have to be a 1: 1 representation of reality; terrain that is empty in real life can be actively used by the Foundation in the SCP universe.
+
+Note that Site-54 from the English Language site ("located in, around, and beneath the city of Leipzig, Germany") is not considered compatible with the SCP-DE canon and is therefore not canonical in it. The Site as described [https://scp-wiki.wikidot.com/secure-facilities-locations here] does not fit within the SCP-DE canon in terms of content, and is not considered even remotely credible by the standards of the canon.
+
+[[include component:colend hide=▲ HIDE CANONICITY]]
+[[include component:colend hide=- HIDE INFORMATION -]]
+[[/div]]
+
+[[/div]]
+
+[[div class="wp_sheet c_map"]]
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[image http://scp-int.wdfiles.com/local--files/standortliste/Location_overview_705.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[image http://scp-int.wdfiles.com/local--files/standortliste/Location_overview_1024.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Site overview map (click to enlarge)
+
+[[/div]]
+
+
+[[span class="wp_sub-title"]]Site Database[[/span]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE1"]]
+
++* Site-DE1
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE1_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE1_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Special Site-DE1 is an industrial park located somewhere [https://www.google.com/maps/@50.8102189,9.4344545,11z west] of Bad Hersfeld in Hessen. The above ground sectors are disguised as small businesses that justify increased security on the premises, including a jewellery manufacturer. Site-DE1 houses the Germanophone SCP Foundation's administration, management and computer centre. The quantum AI [[[datenblatt-kira|KIRA]]] as well as [[[mtf-liste#u-1-H | MTF DE1-ℌ]]] and [[[mtf-liste#u-1-L | MTF DE1-𝔏]]] are also based in Site-DE1. With a few strategic exceptions, no anomalies are permitted at this site.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE2"]]
+
++* Site-DE2
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE2_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE2_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+[[[einrichtung-dossier-standort-de2|Special Site-DE2]]] is located under the [https://www.google.com/maps/@46.9072742,10.0840103,14.5z Silvretta Reservoir] and the surrounding area in western Austria. It houses the complete archive of the Germanophone Foundation in digital, paper and microfilm formats. The Site houses redundant backups of all data, and historical records from the Foundation and other organizations are also stored, digitized and analyzed here. The second quantum AI of the Germanophone Foundation is located at DE2: KAI, serving as an archivist and analysis AI. No anomalies are allowed here, and the site does not have any of its own MTFs.
+[[collapsible show="+ Show Security Measures" hide="- Hide Security Measures"]]
+Four of the servers, known as the //Four Elements//, are secured against unauthorized access through special measures, including among other things lethal memetic hazards, malware developed by the Foundation and several bait databases. Due to its strategic importance in the event of a temporal or ontokinetic shift, Site-DE2 has state-of-the-art physical defense systems as well as precautionary measures, such as Scranton Reality Anchors, systems for detecting thaumaturgic and psionic influences and the Germanophone Foundation's only Xyank/Anastasakos Constant Temporal Sink. The upper areas of the site (and thus the entrances) can be flooded by the reservoir and sealed by adding special cement. The site has a fusion reactor and fully automatic systems, and so in the event of a lethal K-Class Scenario the Site can be run by KAI alone, without the need for any human personnel.
+[[/collapsible]]
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE3"]]
+
++* Site-DE3
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE3_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE3_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+[[[einrichtung-dossier-standort-de3|Nuclear Site-DE3]]] specializes in containment of radioactive anomalies, and was built for this purpose in the decommissioned [https://www.google.com/maps/@52.129323,10.6704213,829m/data=!3m1!1e3 Asse II] nuclear waste repository in the south of Lower Saxony, which is supposedly being demolished . The Site is also able to simulate different atmospheres, for anomalies that require special atmospheric conditions. The fact that the site is located in a former salt mine contaminated with nuclear waste places increased strain on personnel. Although the premises of the site are protected by access locks and plastic coatings, non-radiological metallic anomalies are still difficult to contain.
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE4"]]
+
++* Site-DE4
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE4_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE4_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Memetic Site-DE4 is located in a former quarry in [https://www.google.com/maps/@51.3900038,7.8413779,700m/data=!3m1!1e3 western Sauerland] and is externally disguised as a Police training-center. It primarily specialises in memetic, meta-, informational and media anomalies. Because of the location (and for camouflage), specialised training for Foundation Assault Teams takes place there, as well as memetic defence training by means of a benign anomaly. The Site has several Containment Outposts, including an Outpost at the entrance of Site-DE9. Amongst other functions, [[[mtf-liste#u-4-K | MTF DE4-𝔎]]] is stationed at Site DE4, and contained anomalies include: [[[SCP-034-DE]]], [[[SCP-062-DE]]], [[[SCP-099-DE]]] and [[[SCP-066-DE]]].
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE5"]]
+
++* Site-DE5
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE5_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE5_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+[[[einrichtung-dossier-standort-de5|Physics and Chemistry Site-DE5]]] is located in [https://www.google.de/maps/@50.4562536,13.017199,5991m/data=!3m1!1e3 Grube Niederschlag] in the Ore Mountains (Erzgebirge), and primarily specialises in physical and chemical anomalies. It has a secondary specialisation in [[[abteilung-xxv-hub|Division XXV]]] and Anomalies of the GDR and the Russian Red Army, as well as on weapons and military equipment. The Site is able to simulate atmospheres for anomalies that require specific atmospheric conditions, and houses the only underground shooting range for tank cannons.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE6"]]
+
++* Site-DE6
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE6_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE6_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Biome Site-DE6 is located somewhere in the [https://www.google.com/maps/@47.8534936,15.5391081,11.5z south-west] of Lower Austria, and is the Primary Site of the Foundation in Austria. It has been disguised as a coal-fired power-plant. Site DE6 primarily specializes in biological anomalies that require a specific environment, and so has been equipped with numerous environmental simulation units. The Site also has extensive humanoid containment capabilities, specialising in the [[[4r-hub| Fourth Reich]]]. Objects contained at this facility include: [[[SCP-023-DE]]], [[[SCP-077-DE]]] and [[[SCP-092-DE]]].
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE7"]]
+
++* Site-DE7
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE7_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE7_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Special Site-DE7 is located in [https://www.google.de/maps/@53.8910562,9.2021354,796m/data=!3m1!1e3 Brunsbüttel], Schleswig-Holstein. In addition to a power plant that is supposedly being demolished and its underground sectors, it includes parts of the lock system of the Kiel Canal and the Port. The Site is the Maritime-HQ and northern logistics center of the Germanophone Foundation, and also has containment capabilities, specialising in maritime and regional/cultural anomalies.
+[[collapsible show="+ Additional Information" hide="- Hide Additional Information"]]
+Site-DE7's area of operations includes a large part of Schleswig-Holstein, Hamburg, and the north-east of Lower Saxony, as well as the entire North Sea coast and all of the Foundation's offshore activities. The Site maintains an Outpost near Cuxhafen on the Nordholz Air Base, where cooperation with the German Bundeswehr facilitates the use of Naval Aviation Wing 5 personnel and helicopters through an MTF embedded within the squadron. The Site maintains another Outpost on the island of Helgoland, where additional helicopters are kept ready above an underground research and training facility. Furthermore, the //Department for Maritime Archeology// temporarily occupies an excavation site built near Rungholt. All goods transported by sea are handled by Site-DE7, and even if the transfer from land to sea or vice versa happens in other ports, it is organized by Site-DE7. The Site contains a large high-bay warehouse in the empty halls of the power plant, holding goods to supply on demand to Sites in the northern half of the DACH (Germany-Austria-Switzerland) region.
+[[/collapsible]]
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE8"]]
+
++* Site-DE8
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE8_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE8_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Special Site-DE8 is a former army barracks near [https://www.google.de/maps/@50.3434278,8.9222229,11z Hammelburg] in northern Bavaria, disguised as a barracks for the federal police, while also making use of the military training area of ​​the German Bundeswehr infantry school, while disguised as Bundeswehr Units. In some cases, cooperative training courses with special units of the Bundeswehr take place here. The Site houses numerous MTFs for use in the entire DACH region (Germany, Austria, Switzerland), especially large units and general-purpose combat MTFs. It also serves as a headquarters and training facility, and only strategic anomalies essential for MTFs are permitted here. [[[mtf-liste#u-8-A | MTF DE8-𝔄]]] and [[[mtf-liste#u-8-G | MTF DE8-𝔊]]] are stationed at Site-DE8.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE9"]]
+
++* Site-DE9
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE9_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE9_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+[[[einrichtung-dossier-standort-de9|High Security Site-DE9]]] is located in a [[[SCP-250-DE|Meta-Reality]]] that includes the original 17th Century city of Bielefeld, accessible from the [https://www.google.com/maps/@52.0211384,8.5428168,6648m/data=!3m1!1e3 University of Bielefeld] and Sites DE6, DE9, DE19 and DE20 via a wormhole that can be opened selectively. It is used for the safe, secure, and separate containment of anomalies that are extremely dangerous, difficult-to-contain, or likely to breach containment.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE10"]]
+
++* Site-DE10
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE10_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image  http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE10_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Technology Site-DE10 is located somewhere near [https://www.google.de/maps/@49.8494726,10.954158,10.5z Bamberg] in Bavaria, in (or rather, beneath) an old open-cast mine, and is the largest of the Germanophone Foundation's underground facilities. The Site is disguised as a research facility run by a Foundation front company, and also employs civilians. Site DE10's primary specializations are anomalous technologies as well as research and development. A secondary specialization is the [[[raptor-tec-industries| Raptor Tec. Industries]]] Group of Interest and the anomalies originating from it. Objects contained at this facility include: [[[SCP-049-DE]]], [[[SCP-071-DE]]], [[[SCP-119-DE]]], [[[SCP-135-DE]]] and [[[SCP-136-DE]]].
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE11"]]
+
++* Site-DE11
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE11_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE11_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Orbital Site-DE11 is a space station in geostationary orbit over Central Europe. The station is used to research and contain anomalies that are in orbit and outside the Earth's sphere of influence. The Site is always manned by at least 90 personnel and has special defensive measures against outside intruders. Site defense and internal security is facilitated by weapons such as special rifles and pistols that also work in a vacuum, laser projectors and rocket launchers.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE12"]]
+
++* Site-DE12
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE12_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE12_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+[[[einrichtung-dossier-standort-de12|Research Site-DE12]]] is located somewhere in a forest in the [https://www.google.com/maps/@53.1857822,10.0217001,43551m/data=!3m1!1e3 Lüneburger Heath], in a restricted area disguised as a Bundeswehr military training area. The Site is divided into eight test sites measuring approx. 10 hectares, arranged in an octagon around a central building. Numerous field tests and investigations into anomalies considered to be less dangerous take place on Site. Although Site DE12 is a Special Site, it has certain capacities for initial containment and, above all, for the transitional containment required for its research.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE13"]]
+
++* Site-DE13
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE13_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE13_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+[[[einrichtung-dossier-standort-de13|Special Site-DE13]]] is the [https://www.google.de/maps/@51.775901,13.1808658,6619m/data=!3m1!1e3 Holzdorf Air Base] located on the border between Brandenburg and Saxony-Anhalt, and is the aerial logistics center of the Germanophone Foundation. All of the Germanophone Foundation's aircraft are stationed here, and there is continual transfer of goods transported by air freight. The German Luftwaffe also use this location and its aircraft, necessitating additional security measures to maintain confidentiality. For this reason, only a few mostly flight-based anomalies are contained here, such as [[[SCP-050-DE]]].
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE14"]]
+
++* Site-DE14
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE14_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE14_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+High-Intensity Biological Site-DE14 is located somewhere in the [https://www.google.com/maps/@46.9078188,13.8445937,11z Nock Mountains (Nockberge)] of Austria and extends under the public Biosphere Reserve. The Site specializes in the containment of biological anomalies that are particularly difficult to contain, and has large underground enclosures with biomes for anomalies of all terrestrial and numerous anomalous environments, on land, in water (or other liquids) and in the air.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE15"]]
+
++* Site-DE15
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE15_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE15_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+[http://scp-wiki-de.wikidot.com/einrichtung-dossier-standort-de15 Special Site-DE15], the technology, factory and southern logistics center, is located in [https://www.google.com/maps/@48.7433689,11.4834569,14249m/data=!3m1!1e3 Ingolstadt] and makes use of the Audi Factory infrastructure. The Site is the main location for the manufacture of batches of the Foundation's own technologies, as well as the primary development center for new standard-issue equipment. Most of the furnishings and equipment at various Sites that does not originate from the civilian market originate in this Site. The Site's logistics center also supplies all facilities in southern Germany, Austria and Switzerland. DE15 is one of the only Sites to employ non-initiated civilians in its production process.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE16"]]
+
++* Site-DE16
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE16_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE16_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+[[[einrichtung-dossier-standort-de16|Coastal Site-DE16]]] is located in a former Soviet facility on the [https://www.google.de/maps/@54.0748426,11.5790349,9414m/data=!3m1!1e3 Wustrow Peninsula]. The Site is responsible for monitoring the Baltic Sea, its coast and its islands, and possesses a number of small coastal boats and helicopters, as well as a berth in the port of Wismar used as a landing stage for Foundation ships. Due to its location on a peninsula with only a narrow connection to the mainland, and an extensive bunker system from the Soviet era, the Site is well equipped for its other primary specialization, the containment of anomalies from outside this reality.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE17"]]
+
++* Site-DE17
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE17_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE17_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+High Intensity Site-DE17 is located somewhere [https://www.google.com/maps/@47.5083191,11.1791966,11z near the Zugspitze] and is primarily designed for intelligent and sensitive anomalies that are particularly difficult or costly to contain and are not contained at an Biological Site. It also specializes in humanoid anomalies in general. Despite initial skepticism, its location in a tourist area has proven fortunate, since even escaped anomalies and their arrests go unnoticed, although concealing access to the Site is complicated by the large number of people. The Site is located deep within the mountain, and has long corridors with lockable bulkheads, making the Site easy to seal off and secure against escape.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE18"]]
+
++* Site-DE18
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE18_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE18_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Necropolis Site-DE18 is located somewhere [https://www.google.com/maps/@48.4413807,8.8453641,11.5z along the Neckar River], east of the Black Forest (Schwarzwald), and specialises in Anomalies that affect the dead and the undead. Additional specialties include anomalous entities that affect the dead, esoteric practices like necromancy, and anomalous species connected with death, such as some types of vampire, several types of ghost, and necrophages. The Site has an outpost on Lake Constance (Bodensee) and is responsible for this body of water.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE19"]]
+
++* Site-DE19
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE19_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE19_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Large Object Containment Site-DE19 is located in the disused [https://www.google.com/maps/@50.4079095,7.4852368,1725m/data=!3m1!1e3 Mülheim-Kärlich nuclear power plant] in Koblenz, and is the Germanophone Foundation's biggest Containment Site, specialising in the containment of particularly large anomalies. The Site's secondary specialization is the containment of anomalous objects that don't fall under the remit of any other specialized Site. Examples of objects contained at this facility include: [[[SCP-046-DE]]], [[[SCP-069-DE]]], [[[SCP-025-DE]]], [[[SCP-047-DE]]] and [[[SCP-070-DE]]].
+
+[[collapsible show="+ Additional Information" hide="- Hide Information"]]
+Outpost-DE19-B is located west of Site-DE19, in [https://www.google.com/maps/@50.1726251,7.0591291,5813m/data=!3m1!1e3 Büchel Airbase], Tactical Luftwaffe Squadron 33, the only squadron in Germany still involved in nuclear sharing, is stationed there and consists partly of Foundation agents, particularly in leadership positions and as commissioned officers. The majority of the soldiers stationed there are unaware of this, and so due to the high staff turnover in units of the Bundeswehr, concealing the Foundation's involvement at this location is a top priority. In the event of a compromise or use of the nuclear weapons stationed there, a memetic agent with an amnesic effect will be delivered to the soldiers via the distribution of food. The B61-11 tactical nuclear weapon is stored at this Outpost, a device capable of destroying most underground Foundation Sites, through multiple uses if necessary.
+[[/collapsible]]
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE20"]]
+
++* Site-DE20 / Sito Angerona
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE20_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE20_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Esoteric Site-DE20 is located at [https://www.google.com/maps/@46.8179675,8.8060143,6217m/data=!3m1!1e3 Chli Ruchen] in the Glarner Alps, and is the Foundation's only Containment Site in Switzerland other than the French Site Mayim. The Site is also home to a delegation from the Italian Branch, which is responsible for the Italian-speaking region of Switzerland, and is named [[[siti-italiani#toc0| Sito Angerona]]] after the Roman goddess of winter solitude, death and silence. Site-DE20 is therefore large and extensively equipped, and is disguised as a luxury hotel complex. Its primary specialties are magic, and magical or esoteric artefacts. Its secondary specialties are the necro-esoteric, Swiss cultural artefacts, the [[[magierakademie-hub| Mages Academy]]] and [[[goi-1995-de-das-wunderkabinett| Das Wunderkabinett]]].
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE21"]]
+
++* Site-DE21
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE21_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE21_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Demonology Site-DE21 is located somewhere near [https://www.google.com/maps/@48.8119202,12.970522,11z Deggendorf] in Bavaria and primarily specialises in demonic, angelic, divine and other religious anomalies. Conflicts of interest have prevented cooperation with the Vatican, however there is collaboration with the German Evangelical Church and with local Catholic parish priests. Site-DE21, along with DE18 and DE20, are the only Sites that occasionally work together with the [[[magierakademie-hub| Mages Academy]]].
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE22"]]
+
++* Site-DE22
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE22_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE22_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Cultural Site-DE22 is located somewhere [https://www.google.com/maps/@50.9616559,11.3484398,12.25z near Weimar] in Thüringen and specialises in the containment of anomalous cultural artefacts and cultural anomalies, especially artworks and historical anomalies. The decision to locate the Site in Weimar, a city steeped in culture and history, was mainly made for symbolic reasons. Workload permitting, the Site (along with Site-DE7) runs its own secular, cultural, and historical (research) projects. The Site is also responsible for the [[[caecus-c-hub|Caecus Carneliana-Collective]]], and for freelance anartists in general.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE23"]]
+
++* Site-DE23
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE23_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE23_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Digital Site-DE23 is located somewhere [https://www.google.com/maps/@53.3272868,13.7765923,11z in the Uckermark], and is responsible for the Containment of digital anomalies. The Site has systems secured with multiple redundancies and a redundant power supply, and is equipped with a wide array of different computer and digital storage systems. The Site has a large inventory of semi-finished beryllium bronze products, and a constant stock of Scranton Reality Anchors.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE24"]]
+
++* Site-DE24
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE24_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE24_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+[[[einrichtung-dossier-standort-de24|High Intensity Paraphysical Site-DE24]]] is located somewhere between [https://www.google.com/maps/@52.8321779,8.2423164,11.5z Cloppenburg and Vechta] in Niedersachsen. It is primarily focused on the containment of paraphysical or parascientific anomalies that are difficult to contain, especially dangerous or fundamentally contradict the laws of nature. This is the only Site other than Site-DE15 capable of producing its own Scranton Reality Anchors. The Site's secondary specialisation is the containment of powerful reality-bending anomalies. The Site also has the capability to simulate any atmosphere and physical state.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE25"]]
+
++* Site-DE25
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE25_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE25_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+[[[einrichtung-dossier-standort-de25|Site-DE25]]] is an underwater base located [https://www.4coffshore.com/offshorewind/index.aspx?lat=55.796&lon=3.849&wfid=DE22 in the far north] of the exclusively German economic zone of the North Sea (commonly known as the "Duckbill"). The base is located at a depth of around 90 m, and was built into the seabed. The Site is used to monitor and contain anomalies in the North Sea and serves as a port for the Germanophone Foundation's submarine fleet. The area occupied by Site-DE25 is known to the public as the unfinished H2-20 offshore wind farm, of which only the control platform and a few wind turbines were built. This control platform provides the only surface access to the base.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="Concordia"]]
+
++* Site Concordia
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-Concordia_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-Concordia_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+International Site Concordia is located [https://www.google.com/maps/@46.9505244,7.4325847,12z near Bern] in Switzerland. Concordia is a hub for international collaboration and research between branches of the Foundation, both within Europe and worldwide. In this Site, joint research and development takes place, as well as education and training. Seminars and meetings between branch officials are also held at this Site.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="DE3-EX"]]
+
++* Site-DE3-EX
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE3-EX_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DE3-EX_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Former Site-DE3 is [[[SCP-028-DE]]]. It was the Headquarters of the [[[skp-portal| Sonderkommando for the Paranormal]]] during World War II, and is currently used to contain the components of SCP-028-DE, and to research and review the work of the SKP. It is located in Kassel, disguised as a wellness hotel for elite guests and guarded incredibly strictly. Inside is a microscopic portal leading to //R-3378-DE//, a reality in which the Third Reich won World War II. The SKP intends to expand into this reality, and so drastic plans have been put in place in order to neutralize any containment breach.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+
+[[div class="wp_sheet justify hyphens c_list-box" id="FR-Mayim"]]
+
++* Sites of other Branches
+
+[[div_ class="pop-wrap"]]
+[[ul]]
+[[li class="folded"]]
+[[ul class="pop-dummy"]]_[[/ul]]\
+[[div class="pop-button"]]
+[[div_ class="foldable-list-container"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DEXX_logo-110.png link="#"]] [# a]
+[[/div]][[/div]]
+[[div class="pop-popup"]]
+[[=image http://scp-wiki-de.wdfiles.com/local--files/fragment%3Astandortliste-de/Standort-DEXX_logo-400.png]]
+[[/div]]
+[[/li]][[/ul]][[/div]]
+
+Although the Foundation's Branches do not usually have overlapping areas of responsibility, Switzerland in particular is a special case, with the German-Italian Site-DE20, the International Site Concordia and the French Site Mayim in the French-speaking west of Switzerland. It is customary to provide cross-border support when one Branch requests assistance from another in the border regions, and there are ongoing joint projects between Branches.
+
+Site Mayim consists of a tunnel system spanning French-speaking Switzerland, with facilities in every French-speaking Canton. Site Mayim is a research, containment and logistics Site, and its tunnels extend as far as Site Concordia and Site-DE20, facilitating special cooperation.
+
+[[div class="panel-footer"]]
+[#toc Back to Start]
+[[/div]]
+[[/div]]
+
+[[/div]]
+[[/div]]
