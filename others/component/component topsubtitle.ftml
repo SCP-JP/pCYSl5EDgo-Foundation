@@ -1,0 +1,23 @@
+[[module css]]
+#html-body #header h1 a {
+  position: relative;
+}
+
+#html-body #header h1 a:before {
+  color:{$COLOR};
+  content: "{$TITLE}";
+  display: block;
+  font-family: BauhausLTDemi, "Nanum Gothic", Arial, sans-serif;
+  font-size: 50%;
+  position: absolute;
+  bottom: 2em;
+  left: 0px;
+  padding: 80px 0 25px;
+  line-height: 0px;
+  background: transparent;
+  text-shadow: 3px 3px 5px #000000;
+  letter-spacing: 0.9px;
+  white-space: nowrap;
+  z-index: 1;
+}
+[[/module]]

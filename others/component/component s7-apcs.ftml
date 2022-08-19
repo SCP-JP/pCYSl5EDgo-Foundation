@@ -1,0 +1,19 @@
+[[include :scp-jp:component:s7-apcs-base
+scp-number = {$scp-number} |
+scp-class = {$scp-class} |
+non-standart-class = {$non-standart-class} |
+non-standart-color = {$non-standart-color} | non-standart-color = #330000 |
+lineFirst = {$lineFirst} | lineFirst = none | 
+lineSecond = {$lineSecond} | lineSecond = none |
+lineThird = {$lineThird} | lineThird = none |
+danger-select-1 = {$danger-select-1} | danger-select-1 = none |
+danger-select-2 = {$danger-select-2} | danger-select-2 = none |
+danger-select-3 = {$danger-select-3} | danger-select-3 = none |
+danger-select-4 = {$danger-select-4} | danger-select-4 = none |
+danger-select-5 = {$danger-select-5} | danger-select-5 = none |
+danger-select-6 = {$danger-select-6} | danger-select-6 = none |
+activation = {$activation} |
+threat-ind = {$threat-ind} |
+contaiment-risk = {$contaiment-risk} |
+k-class = {$k-class}
+]]

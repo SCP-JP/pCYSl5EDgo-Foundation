@@ -1,0 +1,192 @@
+[[module CSS]]
+
+.expunged {
+  color: #000;
+  background: #000;
+  padding: 0 1px 0 1px;
+  transition: all 1.5s;
+}
+ 
+.expunged:hover {
+  background: rgba(0,0,0,0.1);
+  color: #000;
+  transition: all 1.5s;
+}
+
+.show {
+  display: inline;
+}
+
+.hide {
+  display: none;
+}
+
+#side-bar {
+  z-index: calc( 1 - {$alt} );
+}
+
+body {
+  overflow-x:hidden;
+}
+
+.raisainfo a, .raisainfo a:visited, .raisainfo a.newpage {
+  color: #b01;
+  text-decoration: none;
+  background: transparent;
+}
+
+.raisa {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  border-top: solid 2px #999999;
+  border-bottom: solid 2px #999999;
+  background: #f2f2c2;
+  padding: 0px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.adjust {
+  margin-left: calc( -22em  - ( 49.55vw - 500px ) );
+}
+
+.raisainfo {
+  display: inline-block;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 1em 2em 1em 2em;
+  text-align: center;
+  word-break: keep-all;
+  font-size: 105%;
+  font-weight: bold;
+  background: url(http://scpko.wdfiles.com/local--files/thd-glasses-hub/scp_bg.png) center no-repeat;
+}
+
+.raisamargin {
+  width: 15.5em;
+}
+
+@media (max-width: 979px) {
+  .raisa {
+    position: absolute;
+    left: 0px;
+  }
+  .adjust {
+    margin-left: -20em;
+  }
+}
+
+@media (max-width: 767px) {
+  .adjust {
+    margin-left: calc( -4.87vw - 1px );
+  }
+  .raisamargin {
+    width: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .adjust {
+    margin-left: -1.9em;
+  }
+}
+
+@media (max-width: 385px) {
+  .adjust {
+    margin-left: -1.5em;
+  }
+}
+
+[[/module]]
+
+[[iftags +コンポーネント]]
+
+[[module CSS]]
+.unmargined{ display:none; }
+[[/module]]
+
+[[div style="min-height: 150px;"]]
+[[div class="raisa adjust" style="max-width: 100vw;"]]
+[[div class="raisamargin"]]
+[[/div]]
+[[div class="raisainfo" style="max-width: 600px; min-height: 120px;"]]
+
+[[table style="margin: 0 auto;"]][[row]]
+[[cell style="width:30px; padding-right: 10px;"]]
+[[image scp-001-ex/padlock.png width="100%"]]
+[[/cell]]
+[[cell style="text-align: center; word-break: keep-all; font-size: 120%; font-weight: 800;"]]
+参考：SCP Wiki内部で使われているテンプレートページです。
+[[/cell]][[/row]][[/table]]
+
+**スタッフの許可なしに**
+**このページを触れないでください**
+
+**-- thd-glasses**
+
+[[/div]]
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+
+++ 使い方
+
+記事の一番上に以下の構文を入れてください。
+
+> @@[[include :scp-jp:component:raisa-ribbon]]@@
+
+リボンを入れたい位置には以下の構文を入れてください。
+
+[[div class="blockquote"]]
+
+@@[[div style="@@**min-height: 200px;**"]]
+@@[[div class="raisa adjust" style="max-width: 100vw;"]]@@
+@@[[div class="raisamargin"]]@@
+@@[[/div]]@@
+@@[[div class="raisainfo" style="max-width: 600px;@@ **min-height: 200px;**"]]
+
+@@[[table style="margin: 0 auto;"]][[row]]@@
+@@[[cell style="width:30px; padding-right: 10px;"]]@@
+@@[[image http://scp-jp.wdfiles.com/local--files/scp-001-ex/padlock.png width="100%"]]@@
+@@[[/cell]]@@
+@@[[cell style="text-align: center; word-break: keep-all; font-size: 120%; font-weight: 800;"]]@@
+**(ここには見出しを入れてください)**
+@@[[/cell]][[/row]][[/table]]@@
+
+@@**@@**(ここにはテキストを入れてください)**@@**@@
+
+@@[[/div]]@@
+@@[[/div]]@@
+@@[[/div]]@@
+
+[[/div]]
+
+上記の構文の中で次の要素に欲しい値や内容を入れて使ってください。
+
+* **min-height: 200px;** : リボンの厚み(div高さ)を決めます。2つの値を一致させるか、上の値を下の値より大きくしてください。このテンプレートは特定幅に対してposition: absolute;属性を使っており、もし表示されるリボンがmin-heightより太くなる場合、下の内容を隠してしまうしまう可能性があります。
+
+* **(ここには見出しを入れてください)** : 見出しの構造を変えたい場合、table構文を丸ごと消してください。
+
+* **(ここにはテキストを入れてください)** : 内容の構成はRAISAテンプレートが使われている他の記事をご参照ください。
+
+* **サイドバーより上に置きたい場合** : リボンとサイドバーが重ねっている時に、リボンをサイドバーより上に置けるには記事の一番上に入れてたinclude構文を以下の物と交換してください。
+
+[[div class="blockquote"]]
+@@[[include :scp-jp:component:raisa-ribbon@@
+@@|alt=1]]@@
+[[/div]]
+
+[[/iftags]]
+
+
+[[div style="display: none"]]
+[[#ifexpr {$alt} == 0 | default | [!-- ]]
+
+[[include :scp-jp:component:raisa-ribbon
+|alt=0
+]]
+
+[[#ifexpr {$alt} == 0 | default | --] ]]
+[[/div]]

@@ -1,0 +1,864 @@
+[[div class="baseHeading {$scp-class} contaiment-risk-{$contaiment-risk} threat-ind-{$threat-ind}"]]
+
+    [[div class="leftBlockHeading"]]
+        [[div class="confidentialHeading"]]
+            [[span class="confidentialSpan"]][[[s7-apcs-guide|CONFIDENTIAL]]][[/span]]
+        [[/div]]
+        [[div class="detailsHeading"]]
+            [[span class="detailsSpan" data-title="{$lineFirst}"]]{$lineFirst}[[/span]]
+            [[span class="detailsSpan" data-title="{$lineSecond}"]]{$lineSecond}[[/span]]
+            [[span class="detailsSpan" data-title="{$lineThird}"]]{$lineThird}[[/span]]
+        [[/div]]
+    [[/div]]
+
+    [[div class="centerBlockHeading"]]
+
+        [[div id="dangerLevels-1" class="dangerLevelsBlock {$danger-select-1}" data-title="{$danger-select-1}"]]
+        [[/div]]
+
+        [[div id="dangerLevels-2" class="dangerLevelsBlock {$danger-select-2}" data-title="{$danger-select-2}"]]
+        [[/div]]
+
+        [[div id="dangerLevels-3" class="dangerLevelsBlock {$danger-select-3}" data-title="{$danger-select-3}"]]
+        [[/div]]
+
+        [[div id="dangerLevels-4" class="dangerLevelsBlock {$danger-select-4}" data-title="{$danger-select-4}"]]
+        [[/div]]
+
+        [[div id="dangerLevels-5" class="dangerLevelsBlock {$danger-select-5}" data-title="{$danger-select-5}"]]
+        [[/div]]
+
+        [[div id="dangerLevels-6" class="dangerLevelsBlock {$danger-select-6}" data-title="{$danger-select-6}"]]
+        [[/div]]
+
+    [[/div]]
+
+
+
+    [[div class="rightBlockHeading"]]
+        [[div id="classImageHeading-safe" data-title="クラス: Safe" style="background:#4e6c77;"]]
+            [[span style="color: white; font-weight: bold; font-size: 500%; line-height: 60px;"]]S[[/span]]
+        [[/div]]
+        [[div id="classImageHeading-euclid" data-title="クラス: Euclid" style="background:#ffc000;"]]
+            [[span style="color: white; font-weight: bold; font-size: 500%; line-height: 60px;"]]E[[/span]]
+        [[/div]]
+        [[div id="classImageHeading-keter" data-title="クラス: Keter" style="background:#b80000;"]]
+            [[span style="color: white; font-weight: bold; font-size: 500%; line-height: 60px;"]]K[[/span]]
+        [[/div]]
+        [[div id="classImageHeading-thaumiel" data-title="クラス: Thaumiel" style="background:#8B008B;"]]
+            [[span style="color: white; font-weight: bold; font-size: 500%; line-height: 60px;"]]T[[/span]]
+        [[/div]]
+        [[div id="classImageHeading-neutralized" data-title="クラス: Uncontained / Neutralized" style="background:#ddd;"]]
+            [[span style="color: black; font-weight: bold; font-size: 500%; line-height: 60px;"]]N[[/span]]
+        [[/div]]
+        [[div id="classImageHeading-nonstandard" data-title="クラス: {$scp-class}" style="background:{$non-standart-color};"]]
+            [[span style="color: white; font-weight: bold; font-size: 500%; line-height: 60px;"]]{$non-standart-class}[[/span]]
+        [[/div]]
+    [[/div]]
+
+    [[div class="bottomBlockHeading"]]
+        [[div class="componentHeading"]]
+            [[span class="componentHeadingSkewFixSpan" style="position: relative;top: -15px;"]]{$activation}[[/span]]
+        [[/div]]
+
+        [[div id="xxxxHeading-A5" style="background: #4e6c77; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                ##white|A5##
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-A4" style="background: orange; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                A4
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-A3" style="background: red; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                A3
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-A2" style="background: red; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                A2
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-B5" style="background: #4e6c77; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                ##white|B5##
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-B4" style="background: orange; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                B4
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-B3" style="background: orange; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                B3
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-B2" style="background: red; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                B2
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-C5" style="background: #4e6c77; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                ##white|C5##
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-C4" style="background: #4e6c77; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                ##white|C4##
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-C3" style="background: orange; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                C3
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-C2" style="background: orange; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                C2
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-D5" style="background: #4e6c77; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                ##white|D5##
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-D4" style="background: #4e6c77; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                ##white|D4##
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-D3" style="background: orange; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                D3
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-D2" style="background: orange; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                D2
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-E5" style="background: #4e6c77; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                ##white|E5##
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-E4" style="background: #4e6c77; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                ##white|E4##
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-E3" style="background: orange; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                E3
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-E2" style="background: orange; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                E2
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-KETER" data-title="KETER CLASS" style="background: red; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                KETER
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-AAA" data-title="実行可能ないかなる封じ込め手段を用いても収容違反は不可避" style="background: black; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox" style="color:white; margin: 0 0 0 25%;"]]
+                AAA
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-EEE" data-title="収容違反の可能性なし" style="background: white; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                EEE
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-TS" data-title="収容は不可能" style="background: #ccc; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                Ȼ
+            [[/div]]
+        [[/div]]
+    
+        [[div id="xxxxHeading-Q" data-title="データ不足につき推計不可能" style="background: white; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                ?
+            [[/div]]
+        [[/div]]
+
+       [[div id="xxxxHeading-T" style="background: #8B008B; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                ##white|T##
+            [[/div]]
+        [[/div]]
+
+        [[div id="xxxxHeading-KC" data-title="収容違反によってもたらされうる世界終焉の類型" style="background: red; display: none; font-size: 18px;"]]
+            [[div class="XXXXheadBox"]]
+                {$k-class}
+            [[/div]]
+        [[/div]]
+
+        [[div id="xxxxHeading-none" style="width: 0;"]]
+        [[/div]]
+
+
+
+        [[div id="potentialLevel-1" data-title="機密性毀損リスクレベル: 壊された虚構" class="potentialLevelsBlock"]]
+            [[div class="potentialLvl-Wh"]]
+                Vedist I
+            [[/div]]
+        [[/div]]
+        [[div id="potentialLevel-2" data-title="機密性毀損リスクレベル: 遠雷" class="potentialLevelsBlock"]]
+            [[div class="potentialLvl-Wh"]]
+                Vedist II
+            [[/div]]
+        [[/div]]
+        [[div id="potentialLevel-3" data-title="機密性毀損リスクレベル: 堕天使" class="potentialLevelsBlock"]]
+            [[div class="potentialLvl-Wh"]]
+                Vedist III
+            [[/div]]
+        [[/div]]
+        [[div id="potentialLevel-4" data-title="機密性毀損リスクレベル: 突きつけられた指先" class="potentialLevelsBlock"]]
+            [[div class="potentialLvl-Wh"]]
+                Vedist IV
+            [[/div]]
+        [[/div]]
+        [[div id="potentialLevel-5" data-title="機密性毀損リスクレベル: 鋭利なる剃刀" class="potentialLevelsBlock"]]
+            [[div class="potentialLvl-Wh"]]
+                Vedist V
+            [[/div]]
+        [[/div]]
+        [[div id="potentialLevel-6" data-title="機密性毀損リスクレベル: 真空" class="potentialLevelsBlock"]]
+            [[div class="potentialLvl-Wh"]]
+                Vedist VI
+            [[/div]]
+        [[/div]]
+
+        [[div class="numberHeading"]]
+            [[span class="numberHeadingSkewFixSpan" style="position: relative;top: -15px;"]]{$scp-number}[[/span]]
+        [[/div]]
+    [[/div]]
+
+[[/div]]
+
+
+
+
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+
+.baseHeading {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    border: 1px solid #ccc;
+    font-family: 'Oswald', sans-serif;
+    background: white;
+}
+
+.leftBlockHeading {
+    width: 29%;
+    float: left;
+    height: 100%;
+}
+.confidentialHeading {
+    height: 25%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.confidentialSpan {
+    font-size: 36px;
+    line-height: 0px;
+}
+.confidentialSpan a {
+    color: #000;
+}
+.detailsHeading {
+    height: 70%;
+    margin: 0;
+    padding-left: 20px;
+}
+.detailsSpan {
+    font-size: auto;
+}
+.detailsSpan[data-title="none"] {
+    display: none;
+}
+
+.centerBlockHeading {
+    width: 55%;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+}
+
+div#u-dangerLevels-1:hover::after, div#u-dangerLevels-2:hover::after, div#u-dangerLevels-3:hover::after, div#u-dangerLevels-4:hover::after, div#u-dangerLevels-5:hover::after, div#u-dangerLevels-6:hover::after {
+    display: block;
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+    width: 20em;
+    top: auto;
+    transform: skew(0deg) !important;
+    color: #333;
+}
+div#u-dangerLevels-1[data-title="none"], div#u-dangerLevels-2[data-title="none"], div#u-dangerLevels-3[data-title="none"], div#u-dangerLevels-4[data-title="none"], div#u-dangerLevels-5[data-title="none"], div#u-dangerLevels-6[data-title="none"] {
+    display: none !important;
+}
+
+.rightBlockHeading {
+    width: 14%;
+    height: 80%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.rightBlockHeading div {;
+    display: none;
+}
+.{$scp-class} #classImageHeading-{$scp-class} {
+    width: 70%;
+    height: 80%;
+    display: inline-block;
+    margin: 7% 0px;
+}
+.{$scp-class} #u-classImageHeading-{$scp-class} {
+    display: inline-block !important;
+    width: 100px;
+    height: 90px;
+    margin-top: 15px;
+}
+.{$scp-class} #u-classImageHeading-{$scp-class}:hover::after {
+    display: block;
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Относительное позиционирование */
+    z-index: 3; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+    transform: skew(0deg) !important;
+    color: #333;
+}
+
+#u-classImageHeading-nonstandard:not([data-title="クラス: safe"]):not([data-title="クラス: euclid"]):not([data-title="クラス: keter"]):not([data-title="クラス: thaumiel"]):not([data-title="クラス: neutralized"]) {
+    display: inline-block !important;
+    width: 100px;
+    height: 90px;
+    margin-top: 15px;
+}
+#u-classImageHeading-nonstandard:not([data-title="クラス: safe"]):not([data-title="クラス: euclid"]):not([data-title="クラス: keter"]):not([data-title="クラス: thaumiel"]):not([data-title="クラス: neutralized"]):hover::after {
+    display: block;
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; /* top: 10%; */ /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+    transform: skew(0deg) !important;
+    color: #333;
+}
+
+
+.bottomBlockHeading {
+    width: 70%;
+    height: 20%;
+    text-align: center;
+    display: inline-flex;
+    float: right;
+}
+.componentHeading {
+    font-size: 18px;
+    width: 55%;
+    text-align: center;
+    background: #ccc;
+    height: 100%;
+    transform: skew(-45deg);
+    box-shadow: inset 5px 5px 4px -4px rgba(0,0,0,0.7);
+}
+.componentHeadingSkewFixSpan {
+  transform: skew(45deg);
+  display: block;
+}
+
+.xxxxHeading {
+    font-size: 18px;
+    width: 15%;
+    text-align: center;
+    background: #ccc;
+    height: 100%;
+    transform: skew(-45deg);
+    box-shadow: inset 0 5px 4px -4px rgba(0,0,0,0.7);
+}
+.contaiment-risk-{$contaiment-risk} #u-xxxxHeading-{$contaiment-risk} {
+    display: flex !important;
+    text-align: center;
+    width: 17.1%;
+    transform: skew(-45deg);
+    z-index: 1;
+    box-shadow: inset 0 5px 4px -4px rgba(0,0,0,0.7);
+}
+.xxxxSkewFixSpan {
+  transform: skew(45deg);
+  display: block;
+}
+.XXXXheadBox {
+  color: black;
+  position: relative;
+  top: -15px;
+  margin: 0 0 0 20%;
+  transform: skew(45deg);
+}
+.contaiment-risk-{$contaiment-risk} #u-xxxxHeading-{$contaiment-risk}[data-title]:hover::after {
+    display: block;
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+    transform: skew(45deg);
+    width: max-content;
+    top: 110%;
+    color: #333;
+}
+
+.threat-ind-{$threat-ind} #u-potentialLevel-{$threat-ind} {
+    font-size: 18px;
+    width: 14%;
+    text-align: center;
+    background: #ccc;
+    height: 100%;
+    display: none;
+    color: white;
+    box-shadow: inset 0 5px 4px -4px rgba(0,0,0,0.7);
+}
+.potentialLvl-Bl {
+    color: black;
+    position: relative;
+    top: -15px;
+    margin: 0 0 0 10%;
+    transform: skew(45deg);
+}
+.potentialLvl-Wh {
+    color: white;
+    position: relative;
+    top: -15px;
+    margin: 0 0 0 10%;
+    transform: skew(45deg);
+}
+.threat-ind-{$threat-ind} #u-potentialLevel-{$threat-ind} {
+    display: flex !important;
+    text-align: center;
+    width: 18%;
+    transform: skew(-45deg);
+    z-index: 1;
+    box-shadow: inset 0 5px 4px -4px rgba(0,0,0,0.7);
+}
+.threat-ind-{$threat-ind} #u-potentialLevel-{$threat-ind}:hover::after {
+    display: block;
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+    transform: skew(45deg);
+    width: max-content;
+    top: 110%;
+    color: #333;
+}
+
+.numberHeading {
+    font-size: 18px;
+    width: 30%;
+    text-align: center;
+    background: #ccc;
+    margin-left: -15px;
+    box-shadow: inset 0 5px 4px -4px rgba(0,0,0,0.7);
+    margin-top: -0.2px;
+}
+
+/* Оптимизация для мобилок by MrNereof */
+@media (max-width: 1024px) {
+    div#u-dangerLevels-1, div#u-dangerLevels-2, div#u-dangerLevels-3, div#u-dangerLevels-4, div#u-dangerLevels-5, div#u-dangerLevels-6 {
+        width: 60px !important;
+        height: 60px !important;
+        background-size: 60px !important;
+        margin-top: 20px !important;
+    }
+    
+    .{$scp-class} div#u-classImageHeading-{$scp-class}, div#u-classImageHeading-nonstandard {
+        width: 90px !important;
+        height: 90px !important;
+    }
+    
+    .{$scp-class} div#u-classImageHeading-{$scp-class} span, div#u-classImageHeading-nonstandard span {
+        line-height: 50px !important;
+    }
+    
+    span.confidentialSpan {
+        font-size: 29px !important;
+    }
+    
+    .bottomBlockHeading {
+        width: 30em !important;
+    }
+
+    .componentHeading {
+        transform: skew(0deg) !important;
+    }
+
+    .componentHeadingSkewFixSpan {
+        transform: skew(0deg) !important;
+    }
+
+    .contaiment-risk-{$contaiment-risk} #u-xxxxHeading-{$contaiment-risk} {
+        width: 3em !important;
+        transform: skew(0deg) !important;
+    }
+
+    .XXXXheadBox {
+        transform: skew(0deg) !important;
+        margin: 0 auto;
+    }
+
+    .threat-ind-{$threat-ind} #u-potentialLevel-{$threat-ind} {
+        width: 5em !important;
+        transform: skew(0deg) !important;
+    }
+
+    .potentialLvl-Wh {
+        transform: skew(0deg) !important;
+    }
+    .numberHeading {
+        width: 10em !important;
+    }
+    .contaiment-risk-{$contaiment-risk} #u-xxxxHeading-{$contaiment-risk}[data-title]::after {
+        transform: skew(0deg) !important;
+        width: 20em !important;
+        color: #333;
+    }
+    .threat-ind-{$threat-ind} #u-potentialLevel-{$threat-ind}::after {
+        transform: skew(0deg) !important;
+        width: 20em !important;
+    }
+}
+
+@media (max-width: 970px) {
+    .baseHeading {
+        padding-bottom: 105px;
+    }
+
+    .detailsHeading {
+        max-width: 200% !important;
+        width: 200%;
+        font-size: 1.2em;
+    }
+
+    .centerBlockHeading {
+        display: flex;
+        width: 100%;
+        margin-left: 10px;
+        padding-top: 15px;
+    }
+
+    div#u-dangerLevels-1, div#u-dangerLevels-2, div#u-dangerLevels-3, div#u-dangerLevels-4, div#u-dangerLevels-5, div#u-dangerLevels-6 {
+        margin-top: -10px !important;
+    }
+
+     .rightBlockHeading {
+        position: absolute;
+        right: 10%;
+        width: 90px !important;
+        height: 90px !important;
+        margin-top: 25px;
+    }
+    
+    .bottomBlockHeading {
+        margin-top: 10px;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 410px) {
+    div#u-dangerLevels-1, div#u-dangerLevels-2, div#u-dangerLevels-3, div#u-dangerLevels-4, div#u-dangerLevels-5, div#u-dangerLevels-6 {
+        width: 50px !important;
+        height: 50px !important;
+        background-size: 50px !important;
+    }
+
+    .baseHeading {
+        padding-bottom: 95px;
+    }
+}
+/* Styling */
+
+.centerBlockHeading .dangerLevelsBlock {
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+#page-content .bottomBlockHeading .potentialLevelsBlock {
+    background: #505052;
+    display: none;
+    font-size: 18px;
+}
+
+.centerBlockHeading .dangerLevelsBlock.ミーム性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-11-oszh/01_%E3%83%9F%E3%83%BC%E3%83%A0%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.反ミーム性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-11-xren/02_%E5%8F%8D%E3%83%9F%E3%83%BC%E3%83%A0%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.パラナチュラルハザード {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-12-eclz/03_%E3%83%8F%E3%82%9A%E3%83%A9%E3%83%8A%E3%83%81%E3%83%A5%E3%83%A9%E3%83%AB%E3%83%8F%E3%82%B5%E3%82%99%E3%83%BC%E3%83%88%E3%82%99.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.非肉体性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-13-lbks/04_%E9%9D%9E%E8%82%89%E4%BD%93%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.非物質性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-14-n9n5/05_%E9%9D%9E%E7%89%A9%E8%B3%AA%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.ケミカルハザード {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-15-fh42/06_%E3%82%B1%E3%83%9F%E3%82%AB%E3%83%AB%E3%83%8F%E3%82%B5%E3%82%99%E3%83%BC%E3%83%88%E3%82%99.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.バイオハザード {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-16-cd8q/07_%E3%83%8F%E3%82%99%E3%82%A4%E3%82%AA%E3%83%8F%E3%82%B5%E3%82%99%E3%83%BC%E3%83%88%E3%82%99.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.ラジエーションハザード {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-17-l5pq/08_%E3%83%A9%E3%82%B7%E3%82%99%E3%82%A8%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%8F%E3%82%B5%E3%82%99%E3%83%BC%E3%83%88%E3%82%99.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.裸火 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-18-kgoj/09_%E8%A3%B8%E7%81%AB.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.超低温 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-19-huar/10_%E8%B6%85%E4%BD%8E%E6%B8%A9.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.感電性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-20-6m42/11_%E6%84%9F%E9%9B%BB%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.力学的作用 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-21-7dda/12_%E5%8A%9B%E5%AD%A6%E7%9A%84%E4%BD%9C%E7%94%A8.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.腐食性環境 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-22-ksgx/13_%E8%85%90%E9%A3%9F%E6%80%A7%E7%92%B0%E5%A2%83.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.高輝度光 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-23-81qb/14_%E9%AB%98%E8%BC%9D%E5%BA%A6%E5%85%89.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.認識災害性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-24-pvvv/15_%E8%AA%8D%E8%AD%98%E7%81%BD%E5%AE%B3%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.心理的作用 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-25-e1wg/16_%E5%BF%83%E7%90%86%E7%9A%84%E4%BD%9C%E7%94%A8.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.マインドコントロール {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-26-ven3/17_%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%88%E3%82%99%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.テレキネシス {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-27-0tb8/18_%E3%83%86%E3%83%AC%E3%82%AD%E3%83%8D%E3%82%B7%E3%82%B9.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.対電子機器作用 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-28-qlns/19_%E5%AF%BE%E9%9B%BB%E5%AD%90%E6%A9%9F%E5%99%A8%E4%BD%9C%E7%94%A8.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.直接的攻撃性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-29-ve8e/20_%E7%9B%B4%E6%8E%A5%E7%9A%84%E6%94%BB%E6%92%83%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.捕食性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-30-bo99/21_%E6%8D%95%E9%A3%9F%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.知性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-31-bk5f/22_%E7%9F%A5%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.重力操作 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-32-2y86/23_%E9%87%8D%E5%8A%9B%E6%93%8D%E4%BD%9C.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.認識操作 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-33-0r4c/24_%E8%AA%8D%E8%AD%98%E6%93%8D%E4%BD%9C.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.確率操作 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-34-p65k/25_%E7%A2%BA%E7%8E%87%E6%93%8D%E4%BD%9C.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.異次元 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-35-yzi2/26_%E7%95%B0%E6%AC%A1%E5%85%83.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.時間操作 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-36-wa89/27_%E6%99%82%E9%96%93%E6%93%8D%E4%BD%9C.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.ポータル生成脅威 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-37-0myc/28_%E3%83%9B%E3%82%9A%E3%83%BC%E3%82%BF%E3%83%AB%E7%94%9F%E6%88%90%E8%84%85%E5%A8%81.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.現実改変 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-38-qeq3/29_%E7%8F%BE%E5%AE%9F%E6%94%B9%E5%A4%89.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.音声脅威 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-39-uf0l/30_%E9%9F%B3%E5%A3%B0%E8%84%85%E5%A8%81.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.シグナル {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-40-iq4x/31_%E3%82%B7%E3%82%AF%E3%82%99%E3%83%8A%E3%83%AB.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.対情報脅威 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-41-huvj/32_%E5%AF%BE%E6%83%85%E5%A0%B1%E8%84%85%E5%A8%81.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.擬態 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-42-jwxo/33_%E6%93%AC%E6%85%8B.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.不可視化能力 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-43-6qsc/34_%E4%B8%8D%E5%8F%AF%E8%A6%96%E5%8C%96%E8%83%BD%E5%8A%9B.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.説き伏せ {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-44-e3s6/35_%E8%AA%AC%E3%81%8D%E4%BC%8F%E3%81%9B.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.テレポーテーション {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-45-jmih/36_%E3%83%86%E3%83%AC%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.強靭な体力 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-46-0ccm/37_%E5%BC%B7%E9%9D%AD%E3%81%AA%E4%BD%93%E5%8A%9B.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.爆発危険性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-47-hnry/38_%E7%88%86%E7%99%BA%E5%8D%B1%E9%99%BA%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.複製能力 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-48-0j38/39_%E8%A4%87%E8%A3%BD%E8%83%BD%E5%8A%9B.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.ロジカルパラドクス {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-49-qbyv/40_%E3%83%AD%E3%82%B7%E3%82%99%E3%82%AB%E3%83%AB%E3%83%8F%E3%82%9A%E3%83%A9%E3%83%88%E3%82%99%E3%82%AF%E3%82%B9.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.遺伝学的変異 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-50-twxm/41_%E9%81%BA%E4%BC%9D%E5%AD%A6%E7%9A%84%E5%A4%89%E7%95%B0.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.変形 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-51-kp1h/42_%E5%A4%89%E5%BD%A2.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.再生 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-52-01pc/43_%E5%86%8D%E7%94%9F.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.損傷耐性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-53-9obp/44_%E6%90%8D%E5%82%B7%E8%80%90%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.不死性あるいは破壊不能性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-54-7ugn/45_%E4%B8%8D%E6%AD%BB%E6%80%A7%E3%81%82%E3%82%8B%E3%81%84%E3%81%AF%E7%A0%B4%E5%A3%8A%E4%B8%8D%E8%83%BD%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.屍体刺激 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-55-gcq9/46_%E5%B1%8D%E4%BD%93%E5%88%BA%E6%BF%80.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.インセクトハザード {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-56-4rvs/47_%E3%82%A4%E3%83%B3%E3%82%BB%E3%82%AF%E3%83%88%E3%83%8F%E3%82%B5%E3%82%99%E3%83%BC%E3%83%88%E3%82%99.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.ナノハザード {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-57-yhq0/48_%E3%83%8A%E3%83%8E%E3%83%8F%E3%82%B5%E3%82%99%E3%83%BC%E3%83%88%E3%82%99.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.衝撃波 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-58-hcwr/49_%E8%A1%9D%E6%92%83%E6%B3%A2.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.気象操作 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-59-6nb2/50_%E6%B0%97%E8%B1%A1%E6%93%8D%E4%BD%9C.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.生産性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-60-b4n6/51_%E7%94%9F%E7%94%A3%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.高価値性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-61-jhhl/52_%E9%AB%98%E4%BE%A1%E5%80%A4%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.異常誘磁性 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-62-0wwn/53_%E7%95%B0%E5%B8%B8%E8%AA%98%E7%A3%81%E6%80%A7.png);
+}
+
+.centerBlockHeading .dangerLevelsBlock.他の物体内への転移 {
+    background-image: url(http://scp-jp-storage.wikidot.com/local--files/file:7183424-63-l24m/54_%E4%BB%96%E3%81%AE%E7%89%A9%E4%BD%93%E5%86%85%E3%81%B8%E3%81%AE%E8%BB%A2%E7%A7%BB.png);
+}
+[[/module]]
