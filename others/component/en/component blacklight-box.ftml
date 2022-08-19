@@ -1,0 +1,484 @@
+[[module css]]
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/normalize.min.css");
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/black-highlighter.min.css");
+
+.help {
+    display: flex;
+    align-content: stretch;
+    padding-top: 1em;
+    border-top: 1px dashed #999;
+}
+
+.help blockquote {
+    margin: 0;
+}
+
+.help blockquote > p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-right: 0;
+    min-height: 2rem;
+    margin: 0;
+}
+
+.help blockquote > p > * {
+    margin: 0 0.1rem;
+    height: 100%;
+    font-size: 70%;
+}
+
+.help blockquote:nth-of-type(1) {
+    width: 50%;
+    background: transparent;
+    border: unset;
+    box-shadow: unset;
+    text-align: right;
+    margin-right: 0;
+    padding: 0;
+}
+
+.help blockquote:nth-of-type(1) > p {
+    justify-content: flex-end;
+}
+
+.help blockquote:nth-of-type(2) {
+    margin-left: 1em;
+    width: 50%;
+}
+
+#page-content > .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    background-color: lightgrey;
+    border-top: 0.125rem dashed slategrey;
+    border-bottom: 0.125rem dashed slategrey;
+}
+
+#page-content > div.collapsible-block > div.collapsible-block-unfolded > div.collapsible-block-content {
+    text-align:left;
+}
+[[/module]]
+
+[[=]]
+[[module Rate]]
+> Welcome to yet-another-Woedenaz-component-that-is-far-too-complicated-mostly-because-of-stupid-wikidot
+> YAWCTIFTCMBOSW for short.
+
+++ [https://scp-wiki.wikidot.com/component:blacklight-box#toc8 Jump To Examples]
+-----
++ HOW TO
+[[/=]]
+[[include :scp-wiki:component:blacklight-box-source |inc-source= --]]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-colors= --]
+|color-family=main-colors
+|bg-color=rgb(234,234,234)
+|txt-color=rgb(12,12,12)
+|border-color=rgb(100,3,15)
+|label-bg-color=rgb(100,3,15)
+|label-txt-color=rgb(252,252,252)
+]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=main-colors
+|unique-name=step1
+|display-name=Step 1 – Include Source
+]]
+
+[[=]]
++++ YOU ONLY NEED ONE OF THESE!
+[[/=]]
+
+> 
+> {{[[@@include@@ :scp-wiki:component:blacklight-box-source |inc-source= @@--@@]]]}}
+> 
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=main-colors
+|unique-name=step2
+|display-name=OPTIONAL STEP 2 – COLORS
+]]
+
+[[=]]
++++ This step is OPTIONAL. 
+++++ Only include if you want to change the default colors.
+-----
+[[/=]]
+> {{[[@@include@@ :scp-wiki:component:blacklight-box-source |inc-colors= @@--@@]}}
+> {{|color-family=lowercase-nospaces}}
+> {{|bg-color=rgb(234,234,234)}}
+> {{|txt-color=rgb(12,12,12)}}
+> {{|border-color=rgb(100,3,15)}}
+> {{|label-bg-color=rgb(100,3,15)}}
+> {{|label-txt-color=rgb(252,252,252)}}
+> {{]]}}
+[[=]]
+-----
+++ TIPS
+[[/=]]
+* If you want all boxes to share the same colors, only include this ONCE and give every box the SAME Color Family. //[See Example 2]//
+* The box DOES have default colors if you do not use this Include //[See Example 1.]// They change to match either [https://scp-wiki.wikidot.com/theme:black-highlighter-theme Black Highlighter] or [https://scp-wiki.wikidot.com/component:theme Sigma-9] 
+* It's generally best to keep the border and the label bg color the same.
+* Always put this BEFORE the box you wish to change the color of.
+* All colors accept hex, rgb, rgba, and hsl.
+
+[[div_ class="help"]]
+> 
+> Beginning of include ↦
+> 
+> Unique Color Family **//LOWERCASE & NO SPACES//** ↦
+> 
+> Background Color for Content Box ↦
+> 
+> Text Color for Content Box ↦
+> 
+> Border Color for Content Box ↦
+> 
+> Background Color for Label ↦
+> 
+> Text Color for Label ↦
+> 
+> End of include ↦
+> 
+
+> 
+> {{[[@@include@@ :scp-wiki:component:blacklight-box-source |inc-colors= @@--@@]}}
+> 
+> {{|color-family=lowercase-nospaces}}
+> 
+> {{|bg-color=rgb(234,234,234)}}
+> 
+> {{|txt-color=rgb(12,12,12)}}
+> 
+> {{|border-color=rgb(100,3,15)}}
+> 
+> {{|label-bg-color=rgb(100,3,15)}}
+> 
+> {{|label-txt-color=rgb(252,252,252)}}
+> 
+> {{]]}}
+> 
+[[/div]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=main-colors
+|unique-name=step3
+|display-name=Step 3 – Content Box
+]]
+[[=]]
++++ You will need one of these per content box.
+------
+[[/=]]
+
+> {{[[@@include@@ :scp-wiki:component:blacklight-box-source |inc-section-start= @@--@@]}}
+> {{|color-family=optional-colors}}
+> {{|unique-name=lowercase-nospaces}}
+> {{|display-name=text in label}}
+> {{]]}}
+> Insert content of box here.
+> {{[[include :scp-wiki:component:blacklight-box-source |inc-section-end= @@--@@]]]}}
+
+[[=]]
+-----
+++ TIPS
+[[/=]]
+* If you are using custom colors from step 2, make sure to always put it BEFORE this set of includes.
+ * Remember, if you want the same custom colors in all boxes, use the same color family per box
+ * If you want individual colors for each box, you will need to give each a unique color family and have multiple optional color includes.
+* Content within the box can be any Wikidot syntax. 
+* Try to not make the labels too long. They do not wrap. The text does scale down for mobile devices, though.
+[[div_ class="help"]]
+> 
+> Beginning of content box start include ↦
+> 
+> //OPTIONAL:// Color Family if using Part 2 ↦
+> 
+> Unique Name **//LOWERCASE & NO SPACES//** ↦
+> 
+> Display Name in Label ↦
+> 
+> End of content box start include ↦
+> 
+> Insert Content Here  ↦
+> 
+> Content box end include ↦
+> 
+
+> 
+> {{[[@@include@@ :scp-wiki:component:blacklight-box-source |inc-section-start= --]}}
+> 
+> {{|color-family=optional-colors}}
+> 
+> {{|unique-name=lowercase-nospaces}}
+> 
+> {{|display-name=text in label}}
+> 
+> {{]]}}
+> 
+> Insert content of box here.
+> 
+> {{[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]}}
+> 
+[[/div]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[=]]
+
+-----
+
++ EXAMPLES
+-----
+++ Example 1
++++ Simple Default Color Boxes
+[[/=]]
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|unique-name=default
+|display-name=Default Colors
+]]
+These change depending on whether you are using [https://scp-wiki.wikidot.com/component:black-highlighter-theme-dev Black Highlighter] or [https://scp-wiki.wikidot.com/component:theme Sigma-9].
+
+**You do not need to include a color-family.**
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[collapsible show="+ Click here to see above Example 1's code" hide="- Hide code"]]
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-source= @@--@@]]]}}
+> 
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-start= @@--@@]}}
+> {{|unique-name=default}}
+> {{|display-name=Default Colors}}
+> {{]]}}
+> {{These change depending on whether you are using @@[https://scp-wiki.wikidot.com/component:black-highlighter-theme-dev Black Highlighter]@@ or @@[https://scp-wiki.wikidot.com/component:theme Sigma-9]@@.}}
+> 
+> {{@@**You do not need to include a color-family.**@@}}
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-end= @@--@@]]]}}
+[[/collapsible]]
+
+-----
+[[=]]
+++ Example 2
++++ Boxes with identical custom color schemes
+[[/=]]
+[[include :scp-wiki:component:blacklight-box-source |inc-colors= --]
+|color-family=same-color
+|bg-color=rgb(27,22,62)
+|txt-color=rgb(246,246,246)
+|border-color=rgb(203, 90, 204)
+|label-bg-color=rgb(203, 90, 204)
+|label-txt-color=rgb(27,22,62)
+]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=same-color
+|unique-name=unique-name-1
+|display-name=Same Colors
+]]
+All of these boxes will have the same color.
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=same-color
+|unique-name=unique-name-2
+|display-name=Different Labels!
+]]
+Even though they have different labels,
+and different unique-names
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=same-color
+|unique-name=unique-name-3
+|display-name=Same Unique Name
+]]
+They are in the same Color Family,
+Which is {{|color-family=same-color}} in this case.
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[collapsible show="+ Click here to see above Example 2's code" hide="- Hide code"]]
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-source= @@--@@]]]}}
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-colors= @@--@@]}}
+> {{|color-family=same-color}}
+> {{|bg-color=rgb(27,22,62)}}
+> {{|txt-color=rgb(246,246,246)}}
+> {{|border-color=rgb(203, 90, 204)}}
+> {{|label-bg-color=rgb(203, 90, 204)}}
+> {{|label-txt-color=rgb(27,22,62)}}
+> {{]]}}
+> 
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-start= @@--@@]}}
+> {{|color-family=same-color}}
+> {{|unique-name=unique-name-1}}
+> {{|display-name=Same Colors}}
+> {{]]}}
+> {{All of these boxes will have the same color.}}
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-end= @@--@@]]]}}
+> 
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-start= @@--@@]}}
+> {{|color-family=same-color}}
+> {{|unique-name=unique-name-2}}
+> {{|display-name=Different Labels!}}
+> {{]]}}
+> {{Even though they have different labels,}}
+> {{and different unique-names}}
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-end= @@--@@]]]}}
+> 
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-start= @@--@@]}}
+> {{|color-family=same-color}}
+> {{|unique-name=unique-name-3}}
+> {{|display-name=Same Unique Name}}
+> {{]]}}
+> {{They are in the same Color Family,}}
+> {{Which is @@{{|color-family=same-color}}@@ in this case.}}
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-end= @@--@@]]]}}
+[[/collapsible]]
+
+-----
+[[=]]
+++ Example 3
++++ Boxes with unique custom color schemes
+[[/=]]
+[[include :scp-wiki:component:blacklight-box-source |inc-colors= --]
+|color-family=colors-1
+|bg-color=rgb(178, 210, 180)
+|txt-color=rgb(12,12,12)
+|border-color=rgb(255, 219, 90)
+|label-bg-color=rgb(255, 219, 90)
+|label-txt-color=rgb(12,12,12)
+]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=colors-1
+|unique-name=name-1
+|display-name=Unique Colors
+]]
+You can really go nuts, if you want.
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-colors= --]
+|color-family=colors-2
+|bg-color=rgb(150, 62, 184)
+|txt-color=rgb(230,234,246)
+|border-color=rgb(118,137,174)
+|label-bg-color=rgb(118,137,174)
+|label-txt-color=rgb(230,234,246)
+]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=colors-2
+|unique-name=name-2
+|display-name=On Every Box
+]]
+Full technicolor nightmare, really.
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-colors= --]
+|color-family=colors-3
+|bg-color=rgb(70,56,33)
+|txt-color=rgb(244,244,244)
+|border-color=rgb(185,150,80)
+|label-bg-color=rgb(252,236,135)
+|label-txt-color=rgb(26,25,24)
+]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=colors-3
+|unique-name=name-3
+|display-name=Never Too Many Colors
+]]
+Or maybe this is a dream.
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-colors= --]
+|color-family=colors-4
+|bg-color=rgb(39,6,75)
+|txt-color=rgb(217,233,251)
+|border-color=rgb(1,245,252)
+|label-bg-color=rgb(255,52,131)
+|label-txt-color=rgb(14,12,45)
+]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=colors-4
+|unique-name=name-4
+|display-name=Live Your Colorful Life
+]]
+Maybe you are just going mad.
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[collapsible show="+ Click here to see above Example 3's code" hide="- Hide code"]]
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-source= @@--@@]]]}}
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-colors= @@--@@]}}
+> {{|color-family=colors-1}}
+> {{|bg-color=rgb(178, 210, 180)}}
+> {{|txt-color=rgb(12,12,12)}}
+> {{|border-color=rgb(255, 219, 90)}}
+> {{|label-bg-color=rgb(255, 219, 90)}}
+> {{|label-txt-color=rgb(12,12,12)}}
+> {{]]}}
+> 
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-start= @@--@@]}}
+> {{|color-family=colors-1}}
+> {{|unique-name=name-1}}
+> {{|display-name=Unique Colors}}
+> {{]]}}
+> {{You can really go nuts, if you want.}}
+> {{[[include :scp-wiki:component:blacklight-box-source |inc-section-end= @@--@@]]]}}
+> 
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-colors= @@--@@]}}
+> {{|color-family=colors-2}}
+> {{|bg-color=rgb(150, 62, 184)}}
+> {{|txt-color=rgb(230,234,246)}}
+> {{|border-color=rgb(118,137,174)}}
+> {{|label-bg-color=rgb(118,137,174)}}
+> {{|label-txt-color=rgb(230,234,246)}}
+> {{]]}}
+> 
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-start= @@--@@]}}
+> {{|color-family=colors-2}}
+> {{|unique-name=name-2}}
+> {{|display-name=On Every Box}}
+> {{]]}}
+> {{Full technicolor nightmare, really.}}
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-end= @@--@@]]]}}
+> 
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-colors= @@--@@]}}
+> {{|color-family=colors-3}}
+> {{|bg-color=rgb(70,56,33)}}
+> {{|txt-color=rgb(244,244,244)}}
+> {{|border-color=rgb(185,150,80)}}
+> {{|label-bg-color=rgb(252,236,135)}}
+> {{|label-txt-color=rgb(26,25,24)}}
+> {{]]}}
+> 
+> {{[[include :scp-wiki:component:blacklight-box-source |inc-section-start= @@--@@]}}
+> {{|color-family=colors-3}}
+> {{|unique-name=name-3}}
+> {{|display-name=Never Too Many Colors}}
+> {{]]}}
+> {{Or maybe this is a dream.}}
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-end= @@--@@]]]}}
+> 
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-colors= @@--@@]}}
+> {{|color-family=colors-4}}
+> {{|bg-color=rgb(39,6,75)}}
+> {{|txt-color=rgb(217,233,251)}}
+> {{|border-color=rgb(1,245,252)}}
+> {{|label-bg-color=rgb(255,52,131)}}
+> {{|label-txt-color=rgb(14,12,45)}}
+> {{]]}}
+> 
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-start= @@--@@]}}
+> {{|color-family=colors-4}}
+> {{|unique-name=name-4}}
+> {{|display-name=Live Your Colorful Life}}
+> {{]]}}
+> {{Maybe you are just going mad.}}
+> {{@@[[include @@:scp-wiki:component:blacklight-box-source |inc-section-end= @@--@@]]]}}
+[[/collapsible]]

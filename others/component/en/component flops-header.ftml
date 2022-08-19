@@ -1,0 +1,208 @@
+[[iftags +component]]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module CSS]]
+/* ---- PRESENTATION ---- */
+ .unmargined > div:first-of-type{ display: none; }
+ .templateInfo{ margin: 0 0 1em; padding: 0 1em; border: 1px solid hsl(0, 0%, 87%); }
+ .templateInfo hr{ margin: 1em 0; }
+ h1, h3{ text-align: center; }
+
+/* ---- CODE BY WOEDENAZ ---- */
+ .help{
+     display: flex;
+     align-content: stretch;
+     padding-top: 1em;
+}
+ .help blockquote{
+     margin: 0;
+     font-size: 85%;
+}
+ .help blockquote > p{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     align-content: center;
+     min-height: 2rem;
+     margin: 0;
+     margin-right: 0;
+}
+ .help blockquote > p *{
+     height: 100%;
+     margin: 0 .1rem;
+}
+ .help blockquote:nth-of-type(1){
+     margin-right: 0;
+     padding: 0;
+     background: transparent;
+     border: unset;
+     box-shadow: unset;
+     text-align: right;
+}
+ .help blockquote:nth-of-type(1) > p{
+     justify-content: flex-end;
+}
+ .help blockquote:nth-of-type(2){
+     width: 60%;
+     margin-left: 1em;
+}
+[[/module]]
+
+[[note]]
+**Author:**
+[[*user Lt Flops]]
+----
+**Based on The Concept By:**
+[[*user Woedenaz]] ([[[*/anomaly-classification-system-guide|Source]]])
+----
+**How to Use:**
+[/component:flops-header#toc2 > Guide <]
+[[/note]]
+
+[[div class="templateInfo"]]
++ Examples
+[[/div]]
+
+[[include :scp-wiki:component:flops-header-source
+|item=0001
+|containment=neutralized
+|level=1
+|security=unrestricted
+|disruption=dark
+|disruption-bg-color=hsl(197, 100%, 27%)
+]]
+
+[[include :scp-wiki:component:flops-header-source
+|item=0002
+|containment=safe
+|level=2
+|security=restricted
+|disruption=vlam
+|disruption-bg-color=hsl(160, 100%, 27%)
+]]
+
+[[include :scp-wiki:component:flops-header-source
+|item=0003
+|containment=euclid
+|level=3
+|security=confidential
+|disruption=keneq
+|disruption-bg-color=hsl(50, 100%, 37%)
+]]
+
+[[include :scp-wiki:component:flops-header-source
+|item=0004
+|containment=keter
+|level=4
+|security=secret
+|disruption=ekhi
+|disruption-bg-color=hsl(26, 100%, 37%)
+]]
+
+[[include :scp-wiki:component:flops-header-source
+|item=0005
+|containment=[*/esoteric-classes-complete-list apollyon]
+|level=5
+|security=top-secret
+|disruption=amida
+|disruption-bg-color=hsla(345, 100%, 27%)
+]]
+
+[[div class="templateInfo"]]
++ What Is This?
+----
+A simple header design for the SCP Format, with a level-based Security Clearance modifier and lightweight "Disruption Class" bar.
+
+**[[[*/anomaly-classification-system-guide#toc18|See this page for more information.]]]**
+[[/div]]
+
+[[div class="templateInfo"]]
++ How to Use
+----
++++ Step 1. Copy me onto your page!
+----
+[[div class="code"]]
+@@[[include :scp-wiki:component:flops-header@@
+@@|item=@@
+@@|containment=@@
+@@|level=@@
+@@|security=@@
+@@|disruption=@@
+@@|disruption-bg-color=@@
+@@]]@@
+[[/div]]
+----
++++ Step 2. Read this short guide.
+----
+[[div_ class="help"]]
+> Start of Include Block. ▷
+> 
+> Item Number. ▷
+> 
+> Object/Containment Class. ▷ **(Appears in Uppercase.)**
+> 
+> Clearance – Level Number. ▷
+> 
+> Clearance – Security Type Name. ▷ **(Appears in Uppercase.)**
+> 
+> Disruption Class Name. ▷ **(Appears in Uppercase.)**
+> 
+> Desired Bar Colour. ▷ **(Hex, RGB, & HSL Codes Allowed.)**
+> 
+> End of Include Block. ▷
+> 
+
+> [[include :scp-wiki:component:flops-header
+> 
+> |item={{0001–9999}}
+> 
+> |containment={{safe}}/{{euclid}}/{{keter}}/{{thaumiel}}/{{other}}
+> 
+> |level={{1–6}}
+> 
+> |security={{unrestricted}}/{{restricted}}/{{confidential}}/{{secret}}/{{top-secret}}/{{other}}
+> 
+> |disruption={{dark}}/{{vlam}}/{{keneq}}/{{ekhi}}/{{amida}}/{{other}}
+> 
+> |disruption-bg-color={{#00638a}}/{{#008a5c}}/{{#bd9d00}}/{{#bd5200}}/{{#8a0022}}/{{your choice}}
+> 
+> ]]
+> 
+[[/div]]
+----
++++ Step 3. Fill in all fields after each = sign.
+----
+[[/div]]
+
+[[div class="templateInfo"]]
++ Result
+[[/div]]
+
+[[include :scp-wiki:component:flops-header-source
+|item=0000
+|containment=thaumiel
+|level=6
+|security=the council
+|disruption=undetermined
+|disruption-bg-color=hsl(240, 15%, 37%)
+]]
+
+@@ @@
+----
++++ > [[[*/component:flops-header-source|To see the source code, follow me!]]] <
+----
+@@ @@
+[[/iftags]]
+
+[[iftags -component]]
+[[include :scp-wiki:component:flops-header-source
+|item={$item}
+|containment={$containment}
+|level={$level}
+|security={$security}
+|disruption={$disruption}
+|disruption-bg-color={$disruption-bg-color}
+]]
+[[/iftags]]

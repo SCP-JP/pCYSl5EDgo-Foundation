@@ -1,0 +1,929 @@
+[[module css]]
+
+.one-line-preview > :not(.preview) { display: none }
+.one-line-preview { display: block; font-weight: 700; }
+.one-line-preview .preview { display: inline !important; }
+.one-line-preview p { display: inline; }
+.one-line-preview .preview span { display: none; }
+
+.content-box .content-section .translations iframe.scpnet-interwiki-frame,
+.content-box .content-section .translations div.scpnet-interwiki-wrapper {
+    height: 165px!important;
+    width: 20em;
+}
+
+.content-section{
+ float:left;
+ width: 45%;
+ padding: 0 2%;
+}
+@media (max-width: 450px) {
+ .content-section{
+  width: 98%
+ }
+}
+
+.content-box{
+ width:100%;
+ display: inline-block;
+ padding-left:1%;
+ transition: box-shadow 1s ease-out;
+ border-radius: 7px;
+ margin-bottom: 5px;
+}
+
+.preview-border{
+ border-style: none none solid solid;
+ border-color: lightgray;
+}
+
+.content-box:hover{
+ box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.19);
+ transition: box-shadow 0.3s ease-out;
+ background: url('{$background-image}') 80% 50% fixed no-repeat;
+}
+
+.content-box.no:hover, .content-box.false:hover{
+ box-shadow: none;
+ transition: none;
+ background: none;
+}
+
+.content-box .span { 
+ opacity: 0;
+ pointer-events: none;
+ transition: all 0.3s ease-in-out;
+ text-overflow:ellipsis;
+ position:fixed;
+ z-index: 11;
+ right: 1em;
+ bottom: 2em;
+ width:21%;
+ width: calc(50vw - 520px);
+ min-width: 250px;
+ height:23%;
+ padding:1%;
+ float:top; 
+ color:grey;
+ text-size:0.9em;
+ font-family:Segoe UI Light,Verdana,sans-serif;
+}
+
+.content-box:hover .span { 
+ opacity: 1;
+ background-color:#ffffff;
+}
+
+.collab-header{
+ display:none;
+}
+
+@media screen and (max-width:992px) {
+    .content-box .span{
+     display: none;
+    }
+}
+
+#page-options-container {
+ background: transparent;
+ position: relative;
+ z-index: 10;
+}
+
+#action-area { position: relative; z-index: 20; }
+
+.collab-header{
+ display:initial;
+}
+
+.translations{
+  font-weight:bold;
+}
+
+.unbold{
+  font-weight:normal;
+}
+
+.top-border {
+ display:inline-box;
+ border-style:solid none none;
+}
+
+.available-translation.no, available-translation.none{
+ display:none;
+}
+
+.no-translation{
+ display:none;
+}
+
+.no-translation.no{
+ display:inherit;
+}
+
+.not-scp-un.uli{
+ display:none;
+}
+
+.scp-un{
+ display:none;
+}
+
+.scp-un.uli{
+ display:inherit;
+}
+
+[[/module]]
+
+[[iftags +component]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=Calibold
+|no-right-margin=*]]
+[[=]]
+[[module ListPages range="."]]
+**%%title%%**
+[[/module]]
+
+**[[[Calibri Bold's Mega Cool Author Page|Calibold's Mega Cool Author Page]]]**
+[[/=]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
++ Introduction
+
+Howdy there, and thank you for checking out this author page tool! This tool is designed to automatically update your author page with new pages and data, and provides support for additional pages, such as coauthored pages and foreign pages. Another tool similar to this one already exists on the wiki, and you can click [http://scp-wiki.wikidot.com/author-page-tool here] if you're interested in using it.
+
++ But Why?
+
+I know that there's a tool like this already on the wiki. I still think that's really cool, of course! But there were some things that I'd like to see in that kind of tool that I've included in here. For starters, this tool includes variables such as upvote/downvote ratios, tags, and even translations! Additionally, there are a lot more customization options, such as toggling the floating effect or choosing the background.
+
+Basically, there are plenty of differences between this tool and the other tool. There's definitely pros and cons to both; introducing another tool merely gives more options to select from.
+
+++ Collapsibles
+
+I'm putting this at the top so that you can see it //before// you try and implement it.
+
+##red|This tool will not work with standard collapsibles.##
+
+If you'd like to place this tool underneath a collapsible, you'll have to use the tool below:
+
+> @@[[include :scp-wiki:component:coltop show=SHOW TEXT |hide=HIDE TEXT]]@@
+> <content>
+> @@[[include :scp-wiki:component:colend]]@@
+
+The reason this doesn't work is because the "Tags" and "Translations" sections of this are underneath collapsibles[[footnote]]Because otherwise they'd take up a whole bunch of space.[[/footnote]], and because of complicated coding reasons, I can't use the collapsible thing I just showed you within the tool itself. Sorry ):
+
++ The Main Stuff
+
+There are three components to this tool: the automatic page lister, the coauthored pieces section, and the foreign articles section. The first one is automatic, and includes most of the pages you'll make on the site.
+
+Here's the base code you'll need to include, and I'll explain what each variable does below:
+
+> @@[[include :scp-wiki:component:mega-cool-author-page-tool |inc-list= --]@@
+> @@|order=@@
+> @@|perpage=@@
+> @@|background-image=@@
+> @@|shadow=@@
+> @@]]@@
+
+**|order=** The order you want your articles to be in. Use one of the following variables for whichever results you'd like:
+* **name:** Order alphabetically by page URL.
+* **title:** Order alphabetically by page title.
+* **rating:** Order by rating.
+* **created_at:** Order by time created.
+You can put any of these in reverse order simply by adding "desc" afterwards (e.g. "rating desc").
+
+**|perpage=** The number of articles of each category you want per page. Default is 20, maximum is 250.
+
+**|background-image=** If you'd like to have a background image or logo when you hover over entries, paste a link to the image you'd like. If you'd like to use a simple Foundation logo, you can use the one [http://scpsandboxcn.wikidot.com/local--files/asriel3/logo.png here]. If you leave it blank, no image will show up.
+
+**|shadow=** By default, whenever you hover your mouse over an entry, the entry will "pop out" slightly. If you don't want it to do this, put "no" or "false" here.
+
+I've shown an example of how this might look below, using the most recently created articles on the site. These are ordered by time created.
+
+[[module Listpages category="-fragment" date="last 72 hours" order="created_at desc" limit="1" order="random" rating=">0"]]
+[[div style="text-align: center;"]]
++ Recent Pages
+[[size 75%]]([[[*%%link%%|Random]]])[[/size]]
+-----
+[[/div]]
+[[/module]]
+
+[[module ListPages category="-fragment" date="last 72 hours" order="created_at desc" limit="5" rating=">0"]]
+[[div class="content-box {$shadow}"]]
+++ **%%title_linked%%**
+[[div class="content-section"]]
+------
+**Rating:** +%%rating%%
+**Comments:** %%comments%%
+**+/- :** +[[#expr ((%%rating%%+%%rating_votes%%)/2)]]/-[[#expr ((%%rating_votes%%-%%rating%%)/2)]]
+**Last Comment:** %%commented_by%% (//%%commented_at|%D %H:%M|agohover%%//)
+**Last Edit:** %%updated_by%% (//%%updated_at|%D %H:%M|agohover%%//)
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Tags" hide="- Tags"]]
+[[div class="unbold"]]
+%%tags_linked%%
+[[/div]]
+[[/collapsible]]
+------
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+[[/module]]
+
+There are multiple values and sections here, and I'll go through each one of them really quickly.
+
+**(Random):** Selects a random article of that category.
+
+**Rating** and **Comments:** The rating and the number of comments, respectively.
+
+**+/-:** This is the ratio of upvotes to downvotes. For instance, a value of "+8/-2" would mean that the article has 8 upvotes and 2 downvotes.
+
+**Last Comment:** The name of the user who gave the last comment and when it was posted.
+
+**Last Comment:** The name of the user who last edited the page and when it was done.
+
+**Tags:** Can open a list of all visible tags on the article, with links to each tag page.
+
+**Translations:** Can open a list of all translations of the article.
+
++ Coauthored Articles
+
+One thing that the tool above //doesn't// include is coauthored pages. Coauthored pages using this module are uploaded manually, although they're each easy and simple to upload. The reason they're not included with the standard updater is for two reasons. First, you can't attribute coauthor credit. Second, if you have multiple coauthored pages, there's a chance that some of those pages were uploaded by you and some by your coauthor, and only the ones that were uploaded by you would actually show up on the module. This means that you'd be forced to either split all coauthored pages between the standard module and the coauthored module, or you'd have duplicates of articles on the main module in the coauthored section.
+
+If you have coauthored pages, first, place this module above where you want your coauthored pages:
+
+> @@[[include :scp-wiki:component:mega-cool-author-page-tool |inc-coauthor-header= --]]]@@
+
+Then, you'd need to use one of these for every one of your coauthored pieces:
+
+> @@[[include :scp-wiki:component:mega-cool-author-page-tool |inc-coauthored= --]@@
+> @@|name=@@
+> @@|feat=@@
+> @@|language=@@
+> @@]]@@
+
+This one only has three variables needed, since everything else should already be covered by the standard tool that's already on your page.
+
+**|name=** This is the portion of the URL link that specifies your page on the site. It is //not// the actual title of the article. For instance, instead of putting "Periapsis," for [[[SCP-4391|this page]]], you would put "scp-4391".
+
+**|feat=** List all of the coauthors for the page here, except yourself.
+
+**|language=** Same as the one above, it's the two-letter lowercase ID for the article's language.
+
+Here's an example of one of my own coauthored pieces, with CityToast:
+
+[[div style="text-align: center;"]]
++ Co-Authored
+-----
+[[/div]]
+
+[[module Listpages fullname="scp-194" category="*"]]
+[[div class="content-box {$shadow}"]]
+++ **%%title_linked%%** (//feat.// CityToast)
+[[div class="content-section"]]
+------
+**Rating:** +%%rating%%
+**Comments:** %%comments%%
+**+/- :** +[[#expr ((%%rating%%+%%rating_votes%%)/2)]]/-[[#expr ((%%rating_votes%%-%%rating%%)/2)]]
+**Last Comment:** %%commented_by%% (//%%commented_at|%D %H:%M|agohover%%//)
+**Last Edit:** %%updated_by%% (//%%updated_at|%D %H:%M|agohover%%//)
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Tags" hide="- Tags"]]
+[[div class="unbold"]]
+%%tags_linked%%
+[[/div]]
+[[/collapsible]]
+------
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+[[/module]]
+
++ Foreign Articles
+
+While I'm sure this only covers a small portion of your, some folks write not only for this branch of the wiki, but also for a different language branch! Naturally, you should be free to take credit for those as well.
+
+Foreign articles are a bit trickier to implement. One of the biggest issues is that any article of yours that you've written on a different translation site will be hosted on a different site from the site your author page is on. This means that we can't use ListPages to return things like ratings, comments, or tags. The only things showing up here, sadly, will be the article link, a link to a translation, and the list of translations. Ironically, it has the most variables out of anything, since it involves some cross-site magic.
+
+Include this module above where you want your foreign articles:
+
+> @@[[include :scp-wiki:component:mega-cool-author-page-tool |inc-foreign-header= --]]]@@
+
+Then, include this piece of code for every one of your foreign articles:
+
+> @@[[include :scp-wiki:component:mega-cool-author-page-tool |inc-foreign= --]@@
+> @@|name=@@
+> @@|link=@@
+> @@|title=@@
+> @@|translation=@@
+> @@|language=@@
+> @@]]@@
+
+**|name=** The name of the article. Again, not the title, but the name from the URL link. If your page is hosted on the [http://scp-un.wikidot.com/ Underrepresented Languages Incubator], then only include the portion of the URL //after// the page category. For instance, if your page slug is "la:scp-la-xxx," then you would only include "scp-la-xxx".
+
+**|link=** A link to the original article.
+
+**|title=** This is where the actual //title// goes.
+
+**|translation=** A full link to the translation in the language of your site. For example, if you're on the -EN wiki and have written a -CN article which was translated onto the -EN wiki, you'd include a link to the English translation on the -EN wiki. If you don't have a translation available, put "no".
+
+**|language=** The name of the language the original article is in. For example, if you're including an article from the -FR branch, put "French".
+
+The reason for all these variables is to ensure that the one thing that //does// work, the translation module, will fully function properly. Since ListPages can't access other sites, a lot more stuff has to be put in manually.
+
+Here's an example of how it would look using [[[SCP-488-JP]]], if the original author had made an author page on the -EN wiki.
+
+[[div style="text-align: center;"]]
++ Foreign
+-----
+[[/div]]
+
+[[div class="content-box {$shadow}"]]
+++ **[http://scp-jp.wikidot.com/scp-488-jp SCP-488-JP]**
+[[div class="content-section"]]
+------
+**[http://www.scp-wiki.net/scp-488-jp Translation]**
+**Language:** Japanese
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=scp-488-jp" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+
++ Manual Component
+
+The auto-updater isn't a perfect tool, sadly. If you've deleted your account previously, or if you've written articles for someone else, this tool likely won't function properly. You might also not like it for other reasons! Maybe you don't like how the categories are divided up, or there are some pages you'd like to leave off, or whatever.
+
+If you'd like to include all the information that comes with this module, but you don't want to use the auto-updater, you're covered!
+
+For every category of articles you'd like to show, place this code block above where the articles will go:
+
+> @@[[include :scp-wiki:component:mega-cool-author-page-tool |inc-manual-header= --]@@
+> @@|category=@@
+> @@|tags=@@
+> @@]]@@
+
+**|category=** This is the header that will go above the list of articles. On the auto-updating list, there are four categories: SCPs, Tales, GoI Formats, and Others. Place the category of all the articles that will go below this. For instance, if you're including all your articles featuring the GOC in this section, you might put "GOC Articles," or if you're including all the theme pages you've made, you might put "Theme Pages". If you're not dividing your articles up at all, you could just put "Articles".
+
+**|tags=** This is used for the "Random" button beneath the header. Basically, it includes all the tags that are shared by articles in this category and are written by you, which this button will then randomly select from when you click it. List out any tags you want it to select from in a //space-separated// list of tags, each of the prefaced by a "+". If you want to be sure that certain articles are excluded, include those tags prefaced by a "-". For instance, if you wanted to include any pages related to Doctor Wondertainment, but which //aren't// SCP articles, you would put "+dr-wondertainment -scp". If you don't want a random button at all, you can simply leave this variable blank. If you want it to randomly select from //all// your articles, put "-author".
+
+Next are the manual entries. For every one of your articles, include this block:
+
+> @@[[include :scp-wiki:component:mega-cool-author-page-tool |inc-manual-list= --]@@
+> @@|name=@@
+> @@|background-image=@@
+> @@|language=@@
+> @@|shadow=@@
+> @@]]@@
+
+Pretty much all of these variables are covered above, with the normal module! The only difference is that you now have to include the name of the article itself. If you want to include coauthored or foreign pages, you can use the tools above, with or without the big "Co-Authored" and "Foreign" headers if you'd prefer.
+
++ Custom Listing
+
+For those of you who like the automatic updating feature, but dislike the categories the default tool is separated into, or maybe want to split their articles across multiple tabs or organize them differently, this tool is for you. The Custom Listing tool allows you to choose how your articles will be organized using a tag-based system, without forcing you to manually update it.
+
+To use it, implement the following code:
+
+> @@[[include :scp-wiki:component:mega-cool-author-page-tool |inc-custom-list= --]@@
+> @@|background-image=@@
+> @@|language=@@
+> @@|order=@@
+> @@|perpage=@@
+> @@|shadow=@@
+> @@|category=@@
+> @@|tags=@@
+> @@]]@@
+
+All of these variables work the same as explained above. However, unlike in the manual tool, the **tags** field is //required//. Fill this out with the tags you want to include (+tag-name) and exclude (-tag-name), space separated.
+
+[[div style="display:none;"]]
+
++ Page Titles/Descriptions
+
+One of the greatest shortcomings of tools like this is that you can't include things like SCP titles or page descriptions. That has remained a major flaw that has proved difficult to fix... until now! With the latest in weird stuff that honestly isn't revolutionary at all, you can now choose to have SCP titles or page descriptions on your entries. To do so, include the following code block on any page you want to pull a subtitle or description from:
+
+> @@[[div style="display:none;"]]@@
+> @@--]TEXT[!--@@
+> 
+> @@--]@@
+> @@[[/div]]@@
+
+Note that this code block **must** go above all other content on the page in order for the tool to pull the title. This include the rating module, include blocks, and CSS code. Not including this code or placing it below any other content will not break your page or the author page tool, it will simply not display the subtitle or description on the tool.
+
+After you've placed the above code block on your page, simply replace "TEXT" with whatever text you choose. Note that this can only be a single paragraph; trying to include more than one paragraph will not work and may break things. The title pull works with the automatic component, the coauthor component, and the manual component, but it does not work with the foreign component.
+
+Here is an example of how an SCP title might look with this:
+
+[[module Listpages fullname="scp-4645" category="*"]]
+[[div class="content-box {$shadow}"]]
+++ **%%title_linked%%**
+
+**Blackmailing Computer**
+
+[[div class="content-section"]]
+------
+**Rating:** +%%rating%%
+**Comments:** %%comments%%
+**+/- :** +[[#expr ((%%rating%%+%%rating_votes%%)/2)]]/-[[#expr ((%%rating_votes%%-%%rating%%)/2)]]
+**Last Comment:** %%commented_by%% (//%%commented_at|%D %H:%M|agohover%%//)
+**Last Edit:** %%updated_by%% (//%%updated_at|%D %H:%M|agohover%%//)
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Tags" hide="- Tags"]]
+[[div class="unbold"]]
+%%tags_linked%%
+[[/div]]
+[[/collapsible]]
+------
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+[[/module]]
+
+Alternatively, if you want to include a complete page description, here's how that might look:
+
+[[module Listpages fullname="ulysses-b-donkman-and-the-heinous-hitman" category="*"]]
+[[div class="content-box {$shadow}"]]
+++ **%%title_linked%%**
+
+**Dozens of people have gathered together this day, and all but one of them weeps in distress. Today, they mourn the death of a true hero. Ulysses B. Donkman has been slain.**
+
+[[div class="content-section"]]
+------
+**Rating:** +%%rating%%
+**Comments:** %%comments%%
+**+/- :** +[[#expr ((%%rating%%+%%rating_votes%%)/2)]]/-[[#expr ((%%rating_votes%%-%%rating%%)/2)]]
+**Last Comment:** %%commented_by%% (//%%commented_at|%D %H:%M|agohover%%//)
+**Last Edit:** %%updated_by%% (//%%updated_at|%D %H:%M|agohover%%//)
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Tags" hide="- Tags"]]
+[[div class="unbold"]]
+%%tags_linked%%
+[[/div]]
+[[/collapsible]]
+------
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+[[/module]]
+
+[[/div]]
+
+If you are have any issues or concerns with this tool, send a Wikidot PM to [[*user Calibold]], or leave a comment on this page! Good luck, and happy skipping!
+
+[[footnoteblock]]
+
+[[include :scp-wiki:more-by:calibold]]
+
+[[/iftags]]
+
+[!-- {$inc-list}
+
+[[module Listpages created_by="=" category="-fragment -component" tag="+scp -tale -goi-format -co-authored" limit="1" order="random"]]
+[[div style="text-align: center;"]]
++ SCPs
+([[[*%%link%%|Random]]])
+-----
+[[/div]]
+[[/module]]
+
+[[module Listpages created_by="=" order="{$order}" category="-fragment -component" tag="+scp -tale -goi-format -co-authored" perPage="{$perpage}"]]
+[[div class="content-box {$shadow}"]]
+++ **%%title_linked%%**
+[[div class="content-section"]]
+------
+**Rating:** +%%rating%%
+**Comments:** %%comments%%
+**+/- :** +[[#expr ((%%rating%%+%%rating_votes%%)/2)]]/-[[#expr ((%%rating_votes%%-%%rating%%)/2)]]
+**Last Comment:** %%commented_by%% (//%%commented_at|%D %H:%M|agohover%%//)
+**Last Edit:** %%updated_by%% (//%%updated_at|%D %H:%M|agohover%%//)
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Tags" hide="- Tags"]]
+[[div class="unbold"]]
+%%tags_linked%%
+[[/div]]
+[[/collapsible]]
+------
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+[[/module]]
+
+[[module Listpages created_by="=" category="-fragment -component" tag="-scp +tale -goi-format -co-authored" limit="1" order="random"]]
+@@ @@
+[[div class="top-border"]]
+[[/div]]
+[[div style="text-align: center;"]]
++ Tales
+([[[*%%link%%|Random]]])
+-----
+[[/div]]
+[[/module]]
+
+[[module Listpages created_by="=" order="@URL|{$order}" category="-fragment -component" tag="-scp +tale -goi-format -co-authored" perPage="{$perpage}"]]
+[[div class="content-box {$shadow}"]]
+++ **%%title_linked%%**
+[[div class="content-section"]]
+------
+**Rating:** +%%rating%%
+**Comments:** %%comments%%
+**+/- :** +[[#expr ((%%rating%%+%%rating_votes%%)/2)]]/-[[#expr ((%%rating_votes%%-%%rating%%)/2)]]
+**Last Comment:** %%commented_by%% (//%%commented_at|%D %H:%M|agohover%%//)
+**Last Edit:** %%updated_by%% (//%%updated_at|%D %H:%M|agohover%%//)
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Tags" hide="- Tags"]]
+[[div class="unbold"]]
+%%tags_linked%%
+[[/div]]
+[[/collapsible]]
+------
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+[[/module]]
+
+[[module Listpages created_by="=" category="-fragment -component" tag="-scp -tale +goi-format -co-authored" limit="1" order="random"]]
+@@ @@
+[[div class="top-border"]]
+[[/div]]
+[[div style="text-align: center;"]]
++ GoI Formats
+([[[*%%link%%|Random]]])
+-----
+[[/div]]
+[[/module]]
+
+[[module Listpages created_by="=" order="{$order}" category="-fragment -component" tag="-scp -tale +goi-format -co-authored" perPage="{$perpage}"]]
+[[div class="content-box {$shadow}"]]
+++ **%%title_linked%%**
+[[div class="content-section"]]
+------
+**Rating:** +%%rating%%
+**Comments:** %%comments%%
+**+/- :** +[[#expr ((%%rating%%+%%rating_votes%%)/2)]]/-[[#expr ((%%rating_votes%%-%%rating%%)/2)]]
+**Last Comment:** %%commented_by%% (//%%commented_at|%D %H:%M|agohover%%//)
+**Last Edit:** %%updated_by%% (//%%updated_at|%D %H:%M|agohover%%//)
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Tags" hide="- Tags"]]
+[[div class="unbold"]]
+%%tags_linked%%
+[[/div]]
+[[/collapsible]]
+------
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+[[/module]]
+
+[[module Listpages created_by="=" category="-fragment" tag="-scp -tale -goi-format -co-authored" limit="1" order="random"]]
+@@ @@
+[[div class="top-border"]]
+[[/div]]
+[[div style="text-align: center;"]]
++ Others
+([[[*%%link%%|Random]]])
+-----
+[[/div]]
+[[/module]]
+
+[[module Listpages created_by="=" order="{$order}" category="-fragment" tag="-scp -tale -goi-format -co-authored" perPage="{$perpage}"]]
+[[div class="content-box {$shadow}"]]
+++ **%%title_linked%%**
+[[div class="content-section"]]
+------
+**Rating:** +%%rating%%
+**Comments:** %%comments%%
+**+/- :** +[[#expr ((%%rating%%+%%rating_votes%%)/2)]]/-[[#expr ((%%rating_votes%%-%%rating%%)/2)]]
+**Last Comment:** %%commented_by%% (//%%commented_at|%D %H:%M|agohover%%//)
+**Last Edit:** %%updated_by%% (//%%updated_at|%D %H:%M|agohover%%//)
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Tags" hide="- Tags"]]
+[[div class="unbold"]]
+%%tags_linked%%
+[[/div]]
+[[/collapsible]]
+------
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+[[/module]]
+@@ @@
+
+[!----]
+
+[!-- {$inc-coauthored-header}
+
+[[div class="top-border"]]
+[[/div]]
+[[div style="text-align: center;"]]
++ Co-Authored
+-----
+[[/div]]
+
+[!----]
+
+[!-- {$inc-coauthored}
+
+[[module Listpages fullname="{$name}" category="*"]]
+[[div class="content-box {$shadow}"]]
+++ **%%title_linked%%** (//feat.// {$feat})
+[[div class="content-section"]]
+------
+**Rating:** +%%rating%%
+**Comments:** %%comments%%
+**+/- :** +[[#expr ((%%rating%%+%%rating_votes%%)/2)]]/-[[#expr ((%%rating_votes%%-%%rating%%)/2)]]
+**Last Comment:** %%commented_by%% (//%%commented_at|%D %H:%M|agohover%%//)
+**Last Edit:** %%updated_by%% (//%%updated_at|%D %H:%M|agohover%%//)
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Tags" hide="- Tags"]]
+[[div class="unbold"]]
+%%tags_linked%%
+[[/div]]
+[[/collapsible]]
+------
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+[[/module]]
+
+[!----]
+
+[!-- {$inc-foreign-header}
+[[div class="top-border"]]
+[[/div]]
+[[div style="text-align: center;"]]
++ Foreign
+-----
+[[/div]]
+
+[!----]
+
+[!-- {$inc-foreign}
+
+[[div class="content-box {$shadow}"]]
+++ **[{$link} {$title}]**
+[[div class="content-section"]]
+------
+[[div_ class="available-translation {$translation}"]]
+**[{$translation} Translation]**
+[[/div]]
+[[div_ class="no-translation {$translation}"]]
+**No Translation**
+[[/div]]
+**Language:** {$language}
+@@ @@
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename={$name}" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+
+[!----]
+
+[!-- {$inc-manual-header}
+
+@@ @@
+[[div class="top-border"]]
+[[/div]]
+[[div style="text-align: center;"]]
++ {$category}
+[[module Listpages created_by="=" category="-fragment" tag="{$tags}" limit="1" order="random"]]
+([[[*%%link%%|Random]]])
+[[/module]]
+-----
+[[/div]]
+
+[!----]
+
+[!-- {$inc-manual-list}
+
+[[module Listpages fullname="{$name}" category="*"]]
+[[div class="content-box {$shadow}"]]
+++ **%%title_linked%%**
+[[div class="content-section"]]
+------
+**Rating:** +%%rating%%
+**Comments:** %%comments%%
+**+/- :** +[[#expr ((%%rating%%+%%rating_votes%%)/2)]]/-[[#expr ((%%rating_votes%%-%%rating%%)/2)]]
+**Last Comment:** %%commented_by%% (//%%commented_at|%D %H:%M|agohover%%//)
+**Last Edit:** %%updated_by%% (//%%updated_at|%D %H:%M|agohover%%//)
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Tags" hide="- Tags"]]
+[[div class="unbold"]]
+%%tags_linked%%
+[[/div]]
+[[/collapsible]]
+------
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+[[/module]]
+
+[!----]
+
+[!-- {$inc-custom-list}
+
+[[div class="top-border"]]
+[[/div]]
+[[div style="text-align: center;"]]
++ {$category}
+[[module Listpages created_by="=" category="-fragment" tag="{$tags}" limit="1" order="random"]]
+([[[*%%link%%|Random]]])
+[[/module]]
+-----
+[[/div]]
+
+[[module Listpages created_by="=" order="{$order}" category="-fragment" tag="{$tags}" perPage="{$perpage}"]]
+[[div class="content-box {$shadow}"]]
+++ **%%title_linked%%**
+[[div class="content-section"]]
+------
+**Rating:** +%%rating%%
+**Comments:** %%comments%%
+**+/- :** +[[#expr ((%%rating%%+%%rating_votes%%)/2)]]/-[[#expr ((%%rating_votes%%-%%rating%%)/2)]]
+**Last Comment:** %%commented_by%% (//%%commented_at|%D %H:%M|agohover%%//)
+**Last Edit:** %%updated_by%% (//%%updated_at|%D %H:%M|agohover%%//)
+[[/div]]
+[[div class="content-section"]]
+------
+[[div class="translations"]]
+[[collapsible show="+ Tags" hide="- Tags"]]
+[[div class="unbold"]]
+%%tags_linked%%
+[[/div]]
+[[/collapsible]]
+------
+[[collapsible show="+ Translations" hide="- Translations"]]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang=en&community=scp&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/div]]
+
+[[/collapsible]]
+------
+[[/div]]
+[[/div]]
+[[/div]]
+[[/module]]
+
+[!----]

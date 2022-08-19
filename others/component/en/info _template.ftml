@@ -1,0 +1,57 @@
+[[module CSS]]
+@import url(https://scp-wiki.wdfiles.com/local--code/info%3Astyle/1);
+[[/module]]
+
+> The Credit Module was created by [[*user c-take]], [[*user Physicslike]], [[*user sinazugawa]] and [[*user 7happy7]] for the [http://ja.scp-wiki.net/ Japanese wiki], adapted by [[*user dr_grom]] for the [http://scp-wiki-de.wikidot.com/credit:start German wiki], and adapted by [[*user Croquembouche]] and [[*user Rimple]] for the English wiki (as the Info module).
+
+[[div style="border: 1px solid #ddd; padding: 1em;"]]
+The Info module is an alternative to the rating module that allows you to add arbitrary out-of-universe text to your page. It appears in a modal that only appears when the reader clicks a little info button next to the rating module.
+
+Typically this is used to include information such as the SCP title, commentary, licensing information and crit attribution that would normally be out of place in a fictional article.
+
++ Usage
+
+At the top of your page, insert the following code **instead of** the Rating Module and the {{[[>]]}} things. Remove any lines that aren't needed, and between each {{[[include ...]]}}, feel free to add your own.
+
+[[div class="code"]]
+**@@[[include :scp-wiki:info:start]]@@**
+##666|@@**SCP-XXXX:** TITLE@@##
+##666|@@**NAME OF TALE/GOI-FORMAT**@@##
+##666|@@**Author:** [[*user AUTHOR]]@@##
+##666|@@**Original:** LINK TO ORIGINAL@@##
+##666|@@**Translator:** [[*user TRANSLATOR]]@@##
+##666|@@**Image:** Put any licensing information for images here@@##
+##666|Add anything else you'd like the reader to know##
+**@@[[include :scp-wiki:info:more]]@@**
+##666|//More, optional info that appears in a new window. Remove the "[[include :scp-wiki:info:more]]" if you don't want this//##
+**@@[[include :scp-wiki:info:end]]@@**
+[[/div]]
+
+If your article does not have a rating module, then use the following {{[[include]]}}'s instead of the ones above.
+
+[[div class="code"]]
+{{@@[[include :scp-wiki:info:start-standalone]]@@
+@@[[include :scp-wiki:info:more-standalone]]@@
+@@[[include :scp-wiki:info:end-standalone]]@@}}
+[[/div]]
+
+Warning: When previewing the page using the "Preview" button, the credits module will not be displayed correctly until the page has been Saved. This is normal.
+
+Note: Multipage ListPages modules are not supported. Use {{perPage="250"}} to maximise the number of articles you can list per page.
+
+[[collapsible show="+ Show pages associated with this module" hide="- Hide  pages associated with this module"]]
+* [[[info:start|info:start]]]
+* [[[info:start-standalone|info:start-standalone]]]
+* [[[info:more|info:more]]]
+* [[[info:more-standalone|info:more-standalone]]]
+* [[[info:end|info:end]]]
+* [[[info:end-standalone|info:end-standalone]]]
+* [[[info:style|info:style]]]
+* [[[info:_template|info:_template]]]
+[[/collapsible]]
+
+[[/div]]
+
+-----
+
+%%content%%

@@ -1,0 +1,477 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+[[module css]]
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/normalize.min.css");
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/black-highlighter.min.css");
+h1, h2 {
+    text-align: center;
+}
+
+.step_container {
+    margin: 0.5rem 0;
+    border: 1px solid #999;
+    padding: 1em; 
+}
+
+.help {
+    display: flex;
+    align-content: stretch;
+    padding-top: 1em;
+    border-top: 1px dashed #999;
+}
+
+.help blockquote {
+    margin: 0;
+    font-size: 85%;
+}
+
+.help blockquote > p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-right: 0;
+    min-height: 2rem;
+    margin: 0;
+}
+
+.help blockquote > p * {
+    margin: 0 0.1rem;
+    height: 100%;
+}
+
+.help blockquote:nth-of-type(1) {
+    width: 50%;
+    background: transparent;
+    border: unset;
+    box-shadow: unset;
+    text-align: right;
+    margin-right: 0;
+    padding: 0;
+}
+
+.help blockquote:nth-of-type(1) > p {
+    justify-content: flex-end;
+}
+
+.help blockquote:nth-of-type(2) {
+    margin-left: 1em;
+    width: 50%;
+}
+
+#page-content > .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    background-color: lightgrey;
+    border-top: 0.125rem dashed slategrey;
+    border-bottom: 0.125rem dashed slategrey;
+}
+
+#page-content > div.collapsible-block > div.collapsible-block-unfolded > div.collapsible-block-content {
+    text-align:left;
+}
+[[/module]]
+
++ EXAMPLE
+
+[[include :scp-wiki:component:discord-chat-source |inc-source= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-user= --]
+|user-id=one
+|username=GOTO 20
+|usericon=https://scp-wiki.wikidot.com/local--files/component:discord-chat/GOTO20.png
+|usercolor=#ff5e56
+]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-user= --]
+|user-id=two
+|username=corvas
+|usericon=https://scp-wiki.wikidot.com/local--files/component:discord-chat/corvas.png
+|usercolor=#60b9dc
+]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-start= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-msg-start= --]
+|user-id=one
+|username=GOTO 20
+|msg-time=Today at 4:28 PM
+]]
+yo, Corvus, you around? [[image https://scp-wiki.wikidot.com/local--files/component:discord-chat/smug.svg class="emoji inline"]]
+[[include :scp-wiki:component:discord-chat-source |inc-msg-end= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-msg-start= --]
+|user-id=two
+|username=Corvas
+|msg-time=Today at 4:28 PM
+]]
+ya 
+what's up [[span class="at_mention"]]@GOTO 20[[/span]]
+[[image https://scp-wiki.wikidot.com/local--files/component:discord-chat/smug.svg class="emoji alone"]]
+[[include :scp-wiki:component:discord-chat-source |inc-msg-end= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-new-msgs= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-msg-start= --]
+|user-id=one
+|username=GOTO 20
+|msg-time=Today at 4:29 PM
+]]
+Here is an image
+[[image https://scp-wiki.wikidot.com/local--files/component:discord-chat/noodle.jpg link="https://scp-wiki.wikidot.com/scp-4378" class="msgimage"]]
+[[include :scp-wiki:component:discord-chat-source |inc-msg-end= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-attch= --]
+|attch-id=attch-one
+|user-id=one
+|username=GOTO 20
+|msg-time=Today at 4:30 PM
+|attchname=mv_sk1r.tar.gz
+|attchsize=2.71 KB
+|attchlink=https://scp-wiki.wikidot.com/scp-2105
+]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-attch= --]
+|attch-id=attch-two
+|user-id=two
+|username=corvas
+|msg-time=Today at 5:20 PM
+|attchname=butts.zip
+|attchsize=512 MB
+|attchlink=https://scp-wiki.wikidot.com/scp-4205
+]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-end= --] ]]
+@@ @@
+[[collapsible show="+ Click here to see above example's code" hide="- Hide code"]]
+
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-source= --@@] ]]}}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-user= --@@]}}
+> {{|user-id=one}}
+> {{|username=GOTO 20}}
+> {{|usericon=@@https://scp-wiki.wikidot.com/local--files/component:discord-chat/GOTO20.png@@}}
+> {{|usercolor=#ff5e56}}
+> {{]]}}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-user= --@@]}}
+> {{|user-id=two}}
+> {{|username=Corvas}}
+> {{|usericon=@@https://scp-wiki.wikidot.com/local--files/component:discord-chat/corvas.png@@}}
+> {{|usercolor=#60b9dc}}
+> {{]]}}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-start= --@@] ]]}}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-start= --@@]}}
+> {{|user-id=one}}
+> {{|username=GOTO 20}}
+> {{|msg-time=Today at 4:28 PM}}
+> {{]]}}
+> {{yo, Corvus, you around? [[@@image https://scp-wiki.wikidot.com/local--files/component:discord-chat/smug.svg class="emoji inline"@@]]}}
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-end= --@@] ]]}}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-start= --@@]}}
+> {{|user-id=two}}
+> {{|username=Corvas}}
+> {{|msg-time=Today at 4:28 PM}}
+> {{]]}}
+> {{ya }}
+> {{what's up  [[@@span class="at_mention"]]@GOTO 20[[/span@@]]}}
+> {{[[@@image https://scp-wiki.wikidot.com/local--files/component:discord-chat/smug.svg }}class="emoji alone"@@]]}}
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-end= --@@] ]]}}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-new-msgs= --@@] ]]}}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-start= --@@]}}
+> {{|user-id=one}}
+> {{|username=GOTO 20}}
+> {{|msg-time=Today at 4:29 PM}}
+> {{]]}}
+> {{Here is an image}}
+> {{[[@@image https://scp-wiki.wikidot.com/local--files/component:discord-chat/noodle.jpg link="https://scp-wiki.wikidot.com/scp-4378" class="msgimage"@@]]}}
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-end= --@@] ]]}}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-attch= --@@]}}
+> {{|attch-id=attch-one}}
+> {{|user-id=one}}
+> {{|username=GOTO 20}}
+> {{|msg-time=Today at 4:30 PM}}
+> {{|attchname=mv_sk1r.tar.gz}}
+> {{|attchsize=2.71 KB}}
+> {{|attchlink=@@https://scp-wiki.wikidot.com/scp-2105@@}}
+> {{]]}}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-attch= --@@]}}
+> {{|attch-id=attch-two}}
+> {{|user-id=two}}
+> {{|username=corvas}}
+> {{|msg-time=Today at 5:20 PM}}
+> {{|attchname=butts.zip}}
+> {{|attchsize=512 MB}}
+> {{|attchlink=@@https://scp-wiki.wikidot.com/scp-4205@@}}
+> {{]]}}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-end= --@@] ]]}}
+> 
+[[/collapsible]]
+
++ **HOW TO USE**
+
+> **This template is //fairly// complex so please read this in its entirety.**
+
+[[div_ class="step_container"]]
+
+++ **Step 1:** Include the source
+
+**This Step only needs to be done once.**
+
+Add this include to the top part of your code:
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-source= --]@@]]}}
+
+[[/div]]
+[[div_ class="step_container"]]
+
+++ **Step 2:** Add users
+
+**This Step only needs to be done once.**
+For each unique user you would like to add to the discord block, add the following include block:
+
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-user= --]@@}}
+> {{|user-id=}}
+> {{|username=}}
+> {{|usericon=}}
+> {{|usercolor=}}
+> {{]]}}
+
+**Each unique user will need their own user include block.**
+
+[[div_ class="help"]]
+> Beginning of user include ↦
+> 
+> Unique ID per user //(Do NOT use symbols, numbers, or spaces)// ↦
+> 
+> Username //(Does not necessarily need to be unique)// ↦
+> 
+> URL of user's icon ↦
+> 
+> Color of user's name //(accepts hex, rgb, rgba, hsl)// ↦
+> 
+> End of user include ↦
+> 
+
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-user= --@@]}}
+> 
+> {{|user-id=one}}
+> 
+> {{|username=GOTO 20}}
+> 
+> {{|usericon=GOTO20.png}}
+> 
+> {{|usercolor=#ff5e56}}
+> 
+> {{]]}}
+> 
+[[/div]]
+
+[[/div]]
+[[div_ class="step_container"]]
+
+++ **Step 3:** Start the discord block
+
+Add this to where you would like the Discord Block to begin:
+
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-start= --] ]]@@}}
+
+[[/div]]
+[[div_ class="step_container"]]
+
+++ **Step 4:** Add messages and/or attachments
+
+Once all your users are included, you can now add messages and attachments. 
+Messages and Attachments cannot share the same block. They will always be separate //(ie. show the username and avatar of the user posting.)//
+
++++ **Step 4.1:** Add messages
+
+Add the following include for each block of user messages:
+
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-start= --@@]}}
+> {{|user-id=}}
+> {{|username=}}
+> {{|msg-time=}}
+> {{]]}}
+> {{**Content goes here**}}
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-end= --]@@ ]]}}
+
+[[div_ class="help"]]
+> Beginning of message start include block ↦
+> 
+> Unique ID per user //(Same as what you set before)// ↦
+> 
+> Username associated with Unique User ID ↦
+> 
+> Time message was sent ↦
+> 
+> End of message start include  ↦
+> 
+> Content of messages go here. 
+> All wikidot syntax is allowed. ↦
+> 
+> Message end include ↦
+> 
+
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-start= --@@]}}
+> 
+> {{|user-id=one}}
+> 
+> {{|username=GOTO 20}}
+> 
+> {{|msg-time=Today at 4:28 PM}}
+> 
+> {{]]}}
+> 
+> {{ya 
+> what's up }}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-end= --]@@ ]]}}
+> 
+[[/div]]
+
++++ **Step 4.2:** Add attachments
+
+Add the following include for each attachment:
+
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-attch= --@@]}}
+> {{|attch-id=}}
+> {{|user-id=}}
+> {{|username=}}
+> {{|msg-time=}}
+> {{|attchname=}}
+> {{|attchsize=}}
+> {{|attchlink=}}
+> {{]]}}
+
+[[div_ class="help"]]
+> Beginning of attachment include block ↦
+> 
+> Unique ID per attachment //(Do NOT use symbols, numbers, or spaces)// ↦
+> 
+> Unique ID per for user sending the attachment //(Same as what you set before)// ↦
+> 
+> Username associated with Unique User ID ↦
+> 
+> Time attachment was sent ↦
+> 
+> Displayed attachment name ↦
+> 
+> Displayed attachment size ↦
+> 
+> Link the attachment goes to when clicked //(Leave blank for no link)// ↦
+> 
+> End of attachment include block ↦
+> 
+
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-attch= --@@]}}
+> 
+> {{|attch-id=attch-one}}
+> 
+> {{|user-id=one}}
+> 
+> {{|username=GOTO 20}}
+> 
+> {{|msg-time=05/14/2019}}
+> 
+> {{|attchname=mv_sk1r.tar.gz}}
+> 
+> {{|attchsize=2.71\a0KB}}
+> 
+> {{|attchlink=https://scp-wiki.wikidot.com/scp-2105}}
+> 
+> {{]]}}
+> 
+[[/div]]
+
+[[/div]]
+[[div_ class="step_container"]]
+
+++ **Step 5:** End the discord block
+
+Add this to where you would like the Discord Block to end:
+
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-end= --] ]]@@}}
+
+[[/div]]
+[[div_ class="step_container"]]
+
+------
+
+++ **It is possible to repeat steps 3-5 to have more than one Discord block with the same Users chatting.**
+
+------
+
+++ **Optional items**
+
++++ I'll be adding more optional items as they're requested and/or I think of them.
+
+++ Adding images
+
+Here is an example of an image within a message:
+
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-start= --@@]}}
+> {{|user-id=one}}
+> {{|username=GOTO 20}}
+> {{|msg-time=Yesterday at 1:28 AM}}
+> {{]]}}
+> {{Here is an image}}
+> {{[[@@image noodle.jpg link="https://scp-wiki.wikidot.com/" class="msgimage"@@]]}}
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-end= --@@] ]]}}
+
+* **{{class="msgimage"}} must be added to the image for it to function correctly.**
+* **{{link="url"}}**can be added as well for the image to link to something
+
+++ Adding emojis
+
+Here is two examples of message includes with an emoji:
+
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-start= --@@]}}
+> {{|user-id=one}}
+> {{|username=GOTO 20}}
+> {{|msg-time=Last Monday at 9:15 PM}}
+> {{]]}}
+> {{yo, Corvus, you around? [[@@image smug.svg class="emoji inline"@@]]}}
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-end= --@@] ]]}}
+> 
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-start= --@@]}}
+> {{|user-id=two}}
+> {{|username=Corvas}}
+> {{]]}}
+> {{ya}}
+> {{what's up }}
+> {{[[@@image smug.svg class="emoji alone"@@]]}}
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-msg-end= --@@] ]]}}
+
+As you can see, there are two types of emojis:
+* Inline emojis -- These are given {{class="emoji inline"}}
+* Standalone emojis -- These are given {{class="emoji alone"}}
+
+This is not done automatically so you must add these classes to the images when you place them.
+
+++ Adding NEW MESSAGE divider
+
+Add this to where you would like the NEW MESSAGE divider to appear
+
+> {{[[@@include :scp-wiki:component:discord-chat-source |inc-new-msgs= --] ]]@@}}
+
+++ Adding @mention styling
+
+To make a stylized @mention simply wrap the @(username) in:
+> {{[[@@span class="at_mention"@@]]@username[[@@/span@@]]}}.
+
+[[/div]]
+
+[[div_ class="step_container"]]
+++ **If you have any questions or concerns, feel free to message me on Wikidot** ([[*User Woedenaz]]) **or on Discord** (Woedenaz#1111).
+[[/div]]

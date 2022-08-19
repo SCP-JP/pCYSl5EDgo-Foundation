@@ -1,0 +1,434 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[=]]
+[[module Rate]]
+[[/=]]
+[[module css]]
+div.image-example {
+    border: 0.0625rem dashed rgb(var(--swatch-menubg-medium-dark-color));
+    background-color: rgb(var(--swatch-menubg-light-color));
+    margin: 0;
+    padding: 1em !important;
+}
+
+#page-title, h1, h2, h3, h4, .centered {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h3 {
+    margin-top: -0.4em;
+}
+
+span.pointer {
+    font-family: var(--body-font);
+    display: inline-block;
+    height: 0.8125rem;
+    line-height: 0.750rem;
+    line-height: 0.8125rem;
+    font-size: 0.625rem;
+    font-size: 0.6875rem;
+    background: rgb(var(--swatch-primary-darkest));
+    color: rgb(var(--swatch-menutxt-light-color));
+    -webkit-border-bottom-right-radius: 0.25rem;
+       -moz-border-radius-bottomright: 0.25rem;
+            border-bottom-right-radius: 0.25rem;
+    -webkit-border-top-right-radius: 0.25rem;
+       -moz-border-radius-topright: 0.25rem;
+            border-top-right-radius: 0.25rem;
+    margin: 0 0 0 .75rem;
+    padding: 0.1875rem 0.3125rem 0.1875rem 0;
+    -webkit-user-select: none;      
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+span.pointer::before,
+span.pointer::after {
+    float: left;
+    position: relative;
+}
+
+span.pointer::before {
+    content: "";
+    top: -0.1875rem;
+    left: -0.625rem;
+    width: 0;
+    height: 0;
+    border-color: transparent rgb(var(--swatch-primary-darkest)) transparent transparent;
+    border-style: solid;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0 0.0625rem 0.1875rem;
+}
+
+span.pointer::after {
+    --box-shadow: rgb(var(--swatch-primary-darkest));
+    content: "";
+    top: 0;
+    left: -0.5rem;
+    width: 0.5rem;
+    height: 1rem;
+    color: rgb(var(--swatch-menutxt-light-color));
+    -webkit-box-shadow: -0.0625rem -0.0625rem 0.125rem var(--box-shadow);
+       -moz-box-shadow: -0.0625rem -0.0625rem 0.125rem var(--box-shadow);
+            box-shadow: -0.0625rem -0.0625rem 0.125rem var(--box-shadow);
+    font-size: 1rem;
+    line-height: 0.6em;
+    -webkit-mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.2' baseProfile='tiny' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 26.5933838 19.6584473' overflow='visible' xml:space='preserve'%3E%3Cpolygon fill='%23FFFFFF' points='26.5933838,5.1333008 7.7148438,5.1333008 7.7148438,0 0,9.6740723 7.7148438,19.6584473 7.7148438,14.0671387 26.5933838,14.0671387 '/%3E%3C/svg%3E%0A");
+            mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.2' baseProfile='tiny' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 26.5933838 19.6584473' overflow='visible' xml:space='preserve'%3E%3Cpolygon fill='%23FFFFFF' points='26.5933838,5.1333008 7.7148438,5.1333008 7.7148438,0 0,9.6740723 7.7148438,19.6584473 7.7148438,14.0671387 26.5933838,14.0671387 '/%3E%3C/svg%3E%0A");
+    -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+    -webkit-mask-size: 1rem auto;
+            mask-size: 1rem auto;
+    background-color: rgb(var(--swatch-menutxt-light-color));
+}
+
+@media only screen and (max-width:500px) {
+    span.pointer {
+    	width: -webkit-calc(100% - 1rem);
+    	width: -moz-calc(100% - 1rem);
+    	width: calc(100% - 1rem);
+    	height: auto;
+    padding-left: 0.5rem;
+    line-height: 1.5em;
+    }
+    span.pointer::before {
+    	dislay: none;
+    }
+    span.pointer::after {
+    	-webkit-mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.2' baseProfile='tiny' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 19.6584473 26.5933838' overflow='visible' xml:space='preserve'%3E%3Cpolygon fill='%23FFFFFF' points='14.5251465,26.5933838 14.5251465,7.7148438 19.6584473,7.7148438 9.984375,0 0,7.7148438 5.5913086,7.7148438 5.5913086,26.5933838 '/%3E%3C/svg%3E%0A");
+    	        mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.2' baseProfile='tiny' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 19.6584473 26.5933838' overflow='visible' xml:space='preserve'%3E%3Cpolygon fill='%23FFFFFF' points='14.5251465,26.5933838 14.5251465,7.7148438 19.6584473,7.7148438 9.984375,0 0,7.7148438 5.5913086,7.7148438 5.5913086,26.5933838 '/%3E%3C/svg%3E%0A");
+    	-webkit-mask-size: contain;
+    	        mask-size: contain;	
+    	mask-position: center center;    
+    }
+}
+[[/module]]
+
++ What is this?
+[[=]]
+**A collection of alternative {{[image blocks]}} that provide extra interactivity to the images in your Articles, SCPs, Tales, or whatever the heck you want!**
+[[/=]]
+
++ How to use
+[[=]]
+Most are self-explanatory but there are a few shared features:
+[[/=]]
+[[ul_]]
+[[li]]**THESE WORK ON BOTH SIGMA-9 AND BLACK HIGHLIGHTER**[[/li]]
+[[li]]**Any {{true/false}} options must be included.**[[/li]]
+[[li]]**Images can be floated.** This means text will wrap around them. If you chose {{|float=true}} you also need to pick {{|align=left/right}}. This will choose what side of the screen the image will float on.[[/li]]
+[[li]]**Width is max-width.** On mobile, images will always be max-50% screen width. If you want to change this, you'll have to edit CSS values:
+[[div class="code"]]
+.scp-image-block[data-feature="image-feature"] {
+@@	@@max-width: [add width here] !important;
+}
+[[/div]][[/li]]
+[[li]]**Captions are optional!** If you chose {{|add-caption=false}}, you do not need to include a {{|caption=text}}.[[/li]]
+[[li]]Fractal Noise Reveal and Pixelate Reveal both use HTML in iframes which are... a little odd on Wikidot. They //should// work but there is certainly a chance they will bug out.[[/li]]
+[[li]]If you have any more questions or requests feel free to contact [[*user Woedenaz]]. No guarantee that I'll respond quickly but I'll try![[/li]]
+[[/ul]]
+
+++ Multi-Line Captions
+[[=]]
+You **can** have multi-line captions. 
+You just need to format the code like so:
+[[/=]]
+[[div_ class="code"]]
+@@|add-caption=true@@
+@@|caption=This is a super duper long caption that is eventually going to have a line break. _@@
+@@You just need to add a space WITH an underscore after. _@@
+@@Remember the space or it will not work. _@@
+@@Adding a space after the underscore will also cause it not to work.@@
+[[/div]]
+~~~~
+------
+~~~~
++ IMAGE REVEALS
+
+++ Hover Blur Reveal
++++ Tap Blur Reveal on Mobile
+[[div_ class="image-example"]]
+[[include :scp-wiki:component:image-features-source |blur-reveal=--]
+|blur-amount=1.5
+|speed=60
+|float=false
+|width=18.75rem
+|url=noodle.jpg
+|add-caption=true
+|caption=Lots of blur might end up looking really odd
+]]
+
+[[div_ class="code"]]
+@@[[include :scp-wiki:component:image-features-source |blur-reveal=--]@@
+|blur-amount=Number [[span class="pointer"]]1.5 - 5 Recommended. Higher number = More blur![[/span]]
+|speed=Number [[span class="pointer"]]Animation speed in milliseconds[[/span]]
+|float=true/false 
+|align=left/right
+|width=px/rem/vw/% [[span class="pointer"]]All measurement types work here.[[/span]]
+|url=url
+|add-caption=true/false 
+|caption=text
+]]
+[[/div]]
+[[/div]]
+~~~~
+------
+~~~~
+++ Hover Blur Change Image
++++ Tap Blur Change Image on Mobile
+[[div_ class="image-example"]]
+[[include :scp-wiki:component:image-features-source |image-change=--]
+|blur-amount=20
+|speed=1000
+|float=false
+|width=18.75rem
+|start-url=noodle.jpg
+|hover-url=scp-4378-noodleverse.png
+|add-caption=true
+|caption=This works best if both images share the same width to height ratio.
+]]
+
+[[div_ class="code"]]
+@@[[include :scp-wiki:component:image-features-source |image-change=--]@@
+|blur-amount=Number [[span class="pointer"]]1.5 - 5 Recommended. Higher number = More blur![[/span]]
+|speed=Number [[span class="pointer"]]Animation speed in milliseconds[[/span]]
+|float=true/false
+|align=left/right
+|width=px/rem/vw/% [[span class="pointer"]]All measurement types work here.[[/span]]
+|start-url=url [[span class="pointer"]]URL of image BEFORE hover.[[/span]]
+|hover-url=url [[span class="pointer"]]URL of image AFTER hover.[[/span]]
+|add-caption=true/false
+|caption=text
+]]
+[[/div]]
+[[/div]]
+~~~~
+------
+~~~~
+++ Hover Slide Blur Reveal
++++ Tap Slide Blur Reveal on Mobile
+[[=]]
+**Firefox supported blur slide code provided by [[*user EstrellaYoshte]]!**
+[[/=]]
+[[div_ class="image-example"]]
+[[include :scp-wiki:component:image-features-source |slide-blur-reveal=--]
+|blur-amount=5
+|slide-direction=right
+|speed=640
+|float=false
+|width=18.75rem
+|url=noodle.jpg
+|add-caption=true
+|caption=The slide direction means it will move AWAY that direction.
+]]
+
+[[div_ class="code"]]
+@@[[include :scp-wiki:component:image-features-source |slide-blur-reveal=--]@@
+|blur-amount=Number [[span class="pointer"]]5 - 10 Recommended. Higher number = More blur![[/span]]
+|slide-direction=left/right/top/bottom [[span class="pointer"]]Direction slide will move AWAY from.[[/span]]
+|float=true/false
+|align=left/right
+|speed=Number [[span class="pointer"]]Animation speed in milliseconds[[/span]]
+|width=px/rem/vw/% [[span class="pointer"]]All measurement types work here.[[/span]]
+|url=url
+|add-caption=true/false
+|caption=text
+]]
+[[/div]]
+[[/div]]
+~~~~
+------
+~~~~
+++ Hover Slide Block Reveal
++++ Tap Slide Block Reveal on Mobile
+[[div_ class="image-example"]]
+[[include :scp-wiki:component:image-features-source |slide-block-reveal=--]
+|block-color=rgb(0,0,0)
+|slide-direction=top
+|speed=640
+|float=false
+|width=18.75rem
+|url=noodle.jpg
+|add-caption=true
+|caption=This slide direction is not different. _
+It moves AWAY from that direction also.
+]]
+
+[[div_ class="code"]]
+@@[[include :scp-wiki:component:image-features-source |slide-block-reveal=--]@@
+|block-color=hex/rgb/hsl [[span class="pointer"]]All color inputs work here.[[/span]]
+|slide-direction=left/right/top/bottom [[span class="pointer"]]Direction slide will move AWAY from.[[/span]]
+|speed=Number [[span class="pointer"]]Animation speed in milliseconds[[/span]]
+|float=true/false
+|align=left/right
+|width=px/rem/vw/% [[span class="pointer"]]All measurement types work here.[[/span]]
+|url=url
+|add-caption=true/false
+|caption=text
+]]
+[[/div]]
+[[/div]]
+~~~~
+------
+~~~~
+++ Slide Image Revealer
+[[div_ class="image-example"]]
+[[include :scp-wiki:component:image-features-source |slide-revealer=--]
+|float=false
+|width=18.75rem
+|left-url=noodle.jpg
+|right-url=scp-4378-noodleverse.png
+|slider-start-percent=50
+|slider-color=white
+|slider-circle-size=1.875rem
+|add-caption=true
+|caption=The slider button arrows will change _
+from black to white _
+depending on the slider-color!
+]]
+
+[[div_ class="code"]]
+@@[[include :scp-wiki:component:image-features-source |slide-revealer=--]@@
+|block-color=hex/rgb/hsl [[span class="pointer"]]All color inputs work here.[[/span]]
+|float=true/false
+|align=left/right
+|width=px/rem/vw/% [[span class="pointer"]]All measurement types work here.[[/span]]
+|left-url=url [[span class="pointer"]]This is the URL for the left image.[[/span]]
+|right-url=url [[span class="pointer"]]This is the URL for the right image.[[/span]]
+|slider-start-percent=0-100 [[span class="pointer"]]% from the left where the slider will start.[[/span]]
+|slider-color=hex/rgb/hsl [[span class="pointer"]]All color inputs work here.[[/span]]
+|slider-circle-size=px/rem/vw/% [[span class="pointer"]]All measurement types work here.[[/span]]
+|add-caption=true/false
+|caption=text
+]]
+[[/div]]
+[[/div]]
+~~~~
+------
+~~~~
+++ Hover Fractal Noise Reveal
++++ Tap Fractal Noise Reveal on Mobile
+[[div_ class="image-example"]]
+[[include :scp-wiki:component:image-features-source |noise-reveal=--]
+|fractal-size=995
+|speed=1000
+|float=false
+|width=18.75rem
+|background=rgb(var(--swatch-menubg-dark-color));
+|url=noodle.jpg
+|add-caption=true
+|caption=Lower fractal sizes can look super neat. _
+Try it out!
+]]
+
+[[div_ class="code"]]
+@@[[include :scp-wiki:component:image-features-source |noise-reveal=--]@@
+|fractal-size=1-999 [[span class="pointer"]]Larger # means smaller fractal.[[/span]]
+|speed=Number [[span class="pointer"]]Animation speed in milliseconds[[/span]]
+|float=true/false
+|align=left/right
+|width=px/rem [[span class="pointer"]]vw/% WILL NOT WORK.[[/span]]
+|background=color/url("")/gradient [[span class="pointer"]]Any sort of background input will work here.[[/span]]
+|url=url
+|add-caption=true/false
+|caption=text
+]]
+[[/div]]
+[[/div]]
+~~~~
+------
+~~~~
+++ Hover Pixelate Reveal
++++ Tap Pixelate Reveal on Mobile
+[[div_ class="image-example"]]
+[[include :scp-wiki:component:image-features-source |pixel-reveal=--]
+|pixel-res=32
+|speed=1000
+|float=false
+|width=18.75rem
+|url=noodle.jpg
+|add-caption=true
+|caption=This is all done in iframes. _
+It's best to only use one per page, if possible.
+]]
+
+[[div_ class="code"]]
+@@[[include :scp-wiki:component:image-features-source |pixel-reveal=--]@@
+|pixel-res=Number [[span class="pointer"]]Larger # means larger pixels. (4-32 suggested)[[/span]]
+|speed=Number [[span class="pointer"]]Animation speed in milliseconds[[/span]]
+|float=true/false
+|align=left/right
+|width=px/rem [[span class="pointer"]]vw/% WILL NOT WORK.[[/span]]
+|url=url
+|add-caption=true/false
+|caption=text
+]]
+[[/div]]
+[[/div]]
+~~~~
+------
+~~~~
++ IMAGE ZOOMS
+
+++ Hover Enlarge
++++ Tap Enlarge on Mobile
+[[div_ class="image-example"]]
+[[include :scp-wiki:component:image-features-source |hover-enlarge=--]
+|enlarge-amount=10
+|speed=120
+|float=false
+|width=18.75rem
+|url=noodle.jpg
+|add-caption=true
+|caption={{enlarge-amount=6}} means it will grow to 1.6 times its original size. _
+{{enlarge-amount=20}} means 3.0 times larger.
+]]
+
+[[div_ class="code"]]
+@@[[include :scp-wiki:component:image-features-source |hover-enlarge=--]@@
+|enlarge-amount=Number [[span class="pointer"]]Higher number: Larger Expand. (5-20 Recommended)[[/span]]
+|speed=Number [[span class="pointer"]]Animation speed in milliseconds[[/span]]
+|float=true/false
+|align=left/right
+|width=px/rem/vw/% [[span class="pointer"]]All measurement types work here.[[/span]]
+|url=url
+|add-caption=true/false
+|caption=text
+]]
+[[/div]]
+[[/div]]
+~~~~
+------
+~~~~
+++ Click & Hold Fullscreen
++++ Tap Fullscreen on Mobile
+[[div_ class="image-example"]]
+[[include :scp-wiki:component:image-features-source |click-fullscreen=--]
+|speed=320
+|float=false
+|width=18.75rem
+|url=noodle.jpg
+|add-caption=true
+|caption=The speed here refers to how quickly _
+the image will fade into the center of the screen _
+when you click/tap.
+]]
+
+[[div_ class="code"]]
+@@[[include :scp-wiki:component:image-features-source |click-fullscreen=--]@@
+|speed=Number [[span class="pointer"]]Animation speed in milliseconds[[/span]]
+|float=true/false
+|align=left/right
+|width=px/rem/vw/% [[span class="pointer"]]All measurement types work here.[[/span]]
+|url=url
+|add-caption=true/false
+|caption=text
+]]
+[[/div]]
+[[/div]]

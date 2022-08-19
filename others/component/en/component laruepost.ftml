@@ -1,0 +1,90 @@
+[[module css]]
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Source+Sans+Pro&display=swap');
+
+
+.rmpostcontainer
+{
+    background-image: url('http://scp-wiki.wikidot.com/local--files/component:laruepost/LaRueDesk.png');
+    background-repeat: no-repeat;
+    width: 100%; max-width: 660px;
+    height: 980px;
+    margin: 0px;
+        padding: 60px 20px 0px 60px;
+}
+
+.rmpostcontent
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Gochi Hand', cursive;
+    font-style: normal;
+    font-size: 1.30em;
+    color: #000;
+    width: 530px;
+    height: 880px;
+    padding: 30px;
+    margin: 0px;
+    margin-top: -8px;
+}
+
+.rmpostmobiletitle
+{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .rmpostcontainer {
+        background-image: url("http://scp-wiki.wikidot.com/local--files/component:laruepost/LaRueMobile.png");
+        background-size: 100%;
+        background-repeat: repeat;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        padding-top: 0px;
+    }
+
+    .rmpostcontent {
+        font-size: 14pt;
+        width: 85%;
+        height: auto;
+        padding: 10px 10px 0px 30px;
+    }
+
+    .rmposttitle {
+        width: auto;
+        height: auto;
+        padding: 0px 20px 0px 70px;
+    }
+
+}
+
+[[/module]]
+
+//The following is a posting found torn from the Board in [[[larue-hub|La Rue Macabre.]]]//
+
+[[div class="rmpostcontainer"]]
+@@ @@
+@@ @@
+[[div class="rmposttitle"]]
+[[image https://scp-wiki.wikidot.com/local--files/component:laruepost/LaRueTitle.png]]
+[[/div]]
+[[div class="rmpostmobiletitle"]]
+La Rue Macabre
+[[/div]]
+[[div class="rmpostcontent"]]
+[[=]]
+[[image {$image} width="200px"]]
+[[size 120%]]{$title}[[/size]] ({$subtitle})
+[[/=]]
+
+[[/div]]
+[[/div]]
+
+[[div class="rmpostcontainer"]]
+@@ @@
+[[div class="rmpostcontent"]]
+{$content2}
+[[/div]]
+
+[[/div]]

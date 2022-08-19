@@ -1,0 +1,109 @@
+[[iftags +component]]
+[[module CSS]]
+td { vertical-align: top; }
+.options table.wiki-content-table td { border: none; padding: 0.7em 1em; }
+[[/module]]
+[[div style="border: 1px solid #ddd; padding: 1em;"]]
+
++ What this is
+
+This page contains the source code for the Document Transcript Swapper component. If you have an image with text you want to include in your article, this component can be used to give the reader the option to view a transcribed version.
+
++ Usage
+
+[[div class="code"]]
+[[span style="color: blue;"]]**[[include :scp-wiki:component:doc-transcript-swapper start=-**[[/span]]##blue|**-**##
+##blue|**|**####green|image####blue|**=**## image.png
+##blue|**|**####green|totrans####blue|**=**## Show Transcribed Document
+##blue|**|**####green|toimage####blue|**=**## Show Original Document##blue|**]]**##
+Write the transcript of the image's text here
+[[span style="color: blue;"]]**[[include :scp-wiki:component:doc-transcript-swapper end=-**[[/span]]##blue|**-]]**##
+[[/div]]
+
+**Don't remove any of the pipe symbols! (##blue||##)**
+
+[[div class="options"]]
+|| **image** || The image to display. ||
+|| **totrans** _
+//Default: "Show Transcribed Document"// || The text of the swap button when the image is displayed. ||
+|| **toimage** _
+//Default: "Show Original Document"// || The text of the swap button when the transcript is displayed. ||
+|| **showimg** _
+//Default: 1// || If 0, the transcript will be shown by default. If 1, the image will be shown by default. ||
+[[/div]]
+
+[[collapsible show="+ BHL add-on" hide="- BHL add-on"]]
+This component is perfectly compatible with the [[[theme:black-highlighter-theme | Black Highlighter]]] theme, but since I use it a lot myself I whipped something up to make it a little prettier. If you want to use it yourself, paste this in at the bottom of your article:
+
+[[div style="display: none;"]]
+[[code type="css"]]
+.blockquote.docbox-selector {
+    font-family: var(--UI-font);
+    padding: 0.1em 0.7em;
+    margin-bottom: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #b6b6b6, rgba(255, 255, 255, 0)) 1 100%;
+}
+[[/code]]
+[[/div]]
+
+[[code]]
+[[module CSS]]
+@import url('https://scp-wiki.wdfiles.com/local--code/component%3Adoc-transcript-swapper/1');
+[[/module]]
+[[/code]]
+[[/collapsible]]
+
+Pages in this component:
+
+[[module PageTree]]
+
+[[/div]]
+[[/iftags]]
+
+[!-- {$start}]
+[[module CSS]]
+.document-swapper { margin: 1em 0; }
+.document-swapper > ul,
+.document-swapper > ul > li {
+    display: block;
+    line-height: inherit;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.document-swapper .foldable-list-container { display: inline-block; }
+.document-swapper li.folded > .foldable-list-container > a:nth-child(1) { display: none; }
+.document-swapper li.unfolded > .foldable-list-container > a:nth-child(2) { display: none; }
+.document-swapper li.folded > .document-swapper-image { display: none; }
+.document-swapper li.unfolded > .document-swapper-transcribed { display: none; }
+.blockquote.docbox-selector {
+    position: relative;
+    clear: both;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0.1em;
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+.docbox-selector > a { font-size: 0.85em; }
+.blockquote.document-swapper-image { padding: 1px; }
+.blockquote.document-swapper-image,
+.blockquote.document-swapper-transcribed {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+[[/module]]
+
+[[include :scp-wiki:component:doc-transcript-swapper-deep
+image={$image}
+|totrans={$totrans}|totrans=Show Transcribed Document
+|toimage={$toimage}|toimage=Show Original Document
+|showimg={$showimg}|showimg=1]]
+[!-- --]
+
+[!-- {$end}]
+[[/div]][[/li]][[/ul]][[/div]]
+[!-- --]

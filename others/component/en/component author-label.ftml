@@ -1,0 +1,63 @@
+[[iftags +component]]
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=Ralliston & Lt Flops?]]
+You were expecting either [[*user Ralliston]] or [[*user Lt Flops]], but it was //me//, [[*user EstrellaYoshte]]!
+
+Here's my author page: [[[estrellayoshte|]]]
+
+You can put a bunch of author and article info in here.
+As well as a bunch of placeholder text:
+
+Cras sapien augue, condimentum et sollicitudin in, convallis quis nunc. Proin auctor magna in tortor ornare, in iaculis ligula sagittis. Maecenas eu cursus lorem, ultrices ultricies lorem. Nullam imperdiet placerat orci, id sagittis magna eleifend at. Mauris neque justo, feugiat sed convallis eget, aliquam ac tellus. Duis et sodales diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a dui sed turpis aliquam suscipit. Maecenas non purus nunc.
+
+Nunc tincidunt nunc risus, at molestie libero vulputate non. Nam non odio tincidunt, pretium nisi placerat, aliquam magna. Nunc non gravida diam. Donec faucibus tortor pharetra massa efficitur, eget scelerisque mauris commodo. Praesent vulputate bibendum metus. Etiam ut ipsum a tellus pretium convallis.
+[[include :scp-wiki:component:author-label-source end=--]]
+
+@@ @@
+
+[[div style="border: solid 2px #ededed; padding: 0.5rem; margin: 4px;"]]
+This is a component designed to put author credits beneath the rating module that opens a small dropdown menu.
+
+To use, put the following syntax:
+
+> @@[[>]]@@
+> @@[[module rate]]@@
+> @@[[/>]]@@
+> 
+> @@[[include :scp-wiki:component:author-label-source start=--@@
+> @@|name=Ralliston & Lt Flops?]]@@
+> You were expecting either Ralliston or Lt Flops but it was //still// me, EstrellaYoshte!
+> @@[[include :scp-wiki:component:author-label-source end=--]]@@
+
+To null the right margin when used with themes such as [[[theme:black-highlighter-theme|]]], add an extra parameter to the top {{[[include]]}}:
+> @@[[include :scp-wiki:component:author-label-source start=--@@
+> @@|name=Your name(s) here@@
+> @@|no-right-margin=*]]@@
+
+If you want to center the label, add this parameter instead:
+> @@[[include :scp-wiki:component:author-label-source start=--@@
+> @@|name=Your name(s) here@@
+> @@|center=*]]@@
+
+@@ @@
+----
+@@ @@
+
+If you encounter overlapping problems or want to manually adjust the top and bottom spacing, you can override the normal values with the following:
+
+> @@[[module CSS]]@@
+> .authorlink-wrapper {
+> @@    --author-top-adjust: -0.5rem;@@
+> @@    --author-bottom-adjust: -0.35rem;@@
+> }
+> @@[[/module]]@@
+
+Written are the default margin, which you can increase or decrease to your needs.
+
+[[/div]]
+
+[[/iftags]]

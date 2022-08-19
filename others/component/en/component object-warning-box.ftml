@@ -1,0 +1,121 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+[[module css]]
+h1, h2 {
+    text-align: center;
+}
+
+.help {
+    display: flex;
+    align-content: stretch;
+    padding-top: 1em;
+}
+
+.help blockquote {
+    margin: 0;
+    font-size: 85%;
+}
+
+.help blockquote > p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-right: 0;
+    min-height: 2rem;
+    margin: 0;
+}
+
+.help blockquote > p * {
+    margin: 0 0.1rem;
+    height: 100%;
+}
+
+.help blockquote:nth-of-type(1) {
+    background: transparent;
+    border: unset;
+    box-shadow: unset;
+    text-align: right;
+    margin-right: 0;
+    padding: 0;
+}
+
+.help blockquote:nth-of-type(1) > p {
+    justify-content: flex-end;
+}
+
+.help blockquote:nth-of-type(2) {
+    margin-left: 1em;
+    width: 50%;
+}
+[[/module]]
+
+[[include :scp-wiki:component:object-warning-box-source
+|bg-image=https://scp-wiki.wikidot.com/local--files/component:object-warning-box-source/scp-logo.svg
+|bg-opacity=0.15
+|bg-size=105% 105%
+|text-top=BY ORDER OF THE OVERSEER COUNCIL
+|text-bottom=The following file is Level 4/2935 Classified 
+**Unauthorized access is forbidden.**
+|object-number=2935
+]]
+
+[[iftags +component]]
++ How to use
+
+++ 1. Copy code below.
+++ 2. Follow guide on bottom.
+
+[[div class="code"]]
+@@[[include :scp-wiki:component:object-warning-box-source@@
+@@|bg-image=https://thisisaurl.com@@
+@@|bg-opacity=0.15@@
+@@|bg-size=105% 105%@@
+@@|text-top=BY ORDER OF THE OVERSEER COUNCIL@@
+@@|text-bottom=The following file is Level 4/2935 Classified @@
+@@**Unauthorized access is forbidden.**@@
+@@|object-number=2935@@
+@@]]@@
+[[/div]]
+
+[[div_ class="help"]]
+> Beginning of component include. **Will need to paste this entire code per block.** ↦ 
+> 
+> Background image //(SCP Logo by Default)// ↦ 
+> 
+> Background image opacity //(0.15 is suggested for SCP Logo)// ↦
+> 
+> Background size //(Defaults to "Contain")// ↦
+> 
+> Text for the top section. //(New lines are allowed.)//  ↦ 
+> 
+> Text for the bottom section. //(New lines are allowed.)// ↦ 
+> 
+> Bottom Text continued. //(NOTE: A space must be left at the end of each new line)// ↦ 
+> 
+> Text for Object Number ↦ 
+> 
+> End of Include Block ↦ 
+> 
+
+> [[include :scp-wiki:component:object-warning-box-source
+> 
+> |bg-image=https://thisisaurl.com
+> 
+> |bg-opacity=0.15
+> 
+> |bg-size=105% 105%
+> 
+> |text-top=BY ORDER OF THE OVERSEER COUNCIL
+> 
+> |text-bottom=The following file is Level 4/2935 Classified 
+> 
+> @@**Unauthorized access is forbidden.**@@
+> 
+> |object-number=2935
+> 
+> ]]
+> 
+[[/div]]
+[[/iftags]]

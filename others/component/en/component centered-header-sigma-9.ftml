@@ -1,0 +1,336 @@
+[[iftags +component]]
+[[include :scp-wiki:component:croqstyle]]
+
+[[module CSS]]
+/* ---- PRESENTATION ---- */
+ .templateInfo{
+     margin: 1em 0;
+     padding: 0 1em;
+     background: hsl(0, 0%, 100%);
+     border: 1px solid hsl(0, 0%, 87%);
+}
+[[/module]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+
+[[note]]
+**Author:**
+[[*user Lt Flops]]
+----
+**Forked From:**
+[[[*https://scp-wiki.wikidot.com/theme:penumbra|Penumbra Theme]]] by [[*user EstrellaYoshte]]
+----
+**Image Attribution:**
+"[https://scp-wiki.wdfiles.com/local--files/component%3Acentered-header-sigma-9/logo.svg logo.svg]" by [[*user Woedenaz]].
+Licensed under [https://creativecommons.org/licenses/by-sa/3.0/ CC BY-SA 3.0].
+----
+**How to Use:**
+[#toc2 Click Here]
+[[/note]]
+
+@@ @@
+
+[[div class="templateInfo"]]
+[[=]]
++ What Is This?
+[[/=]]
+----
+This is a component that introduces a new centered header design to **Sigma-9**. It is forked from [[[*https://scp-wiki.wikidot.com/theme:penumbra|Penumbra Theme]]] by [[*user EstrellaYoshte]].
+
+I __**recommend**__ using this component in tandem with [[[*https://scp-wiki.wikidot.com/component:toggle-sidebar|Toggle Sidebar]]].
+
+This component is __**incompatible**__ with Black Highlighter. [[[*https://scp-wiki.wikidot.com/component:centered-header-bhl|Centered Header BHL can be found here.]]]
+[[/div]]
+
+@@ @@
+
+[[div class="templateInfo"]]
+[[=]]
++ How to Use
+[[/=]]
+----
+To use this component, please paste the following syntax onto the top of your page. If your page uses a custom Sigma-9 theme, please paste the following syntax //after// the custom theme:
+
+[[div class="code terminal"]]
+**##var(--c-keyword)|[[include##** ##var(--c-symbol)|:scp-wiki:component:centered-header-sigma-9##**##var(--c-keyword)|]]##**
+[[/div]]
+
+@@ @@
+
+You may alter the header-title, header-subtitle, header-title colour, header-subtitle colour, and header logo as you see fit. Just paste this syntax //after// the {{include}}, then style it accordingly:
+
+[[div class="code terminal"]]
+**##var(--c-keyword)|[[module##** ##var(--c-builtin)|CSS##**##var(--c-keyword)|]]##**
+@@ @@##var(--c-symbol)|:root##{
+@@   @@##var(--c-builtin)|@@--@@header-title##: ##var(--c-value)|"TITLE"##;
+@@   @@##var(--c-builtin)|@@--@@header-subtitle##: ##var(--c-value)|"SUBTITLE"##;
+@@   @@##var(--c-builtin)|@@--@@titleColor##: ##var(--c-value)|title_colour##;
+@@   @@##var(--c-builtin)|@@--@@subtitleColor##: ##var(--c-value)|subtitle_colour##;
+@@   @@##var(--c-builtin)|@@--@@lgurl##: ##var(--c-builtin)|url##(##var(--c-string)|@@URL_HERE@@##);
+}
+**##var(--c-keyword)|[[/module]]##**
+[[/div]]
+
+The default __header-title__ and __header-subtitle__ font is [[span style="font-family: 'Montserrat', sans-serif;"]]Montserrat[[/span]].
+
+If you wish to keep your page's //original// __header-title__ font, add this code:
+
+[[div class="code terminal"]]
+@@ @@##var(--c-symbol)|#header h1 a::before##{
+@@     @@##var(--c-builtin)|font-family##: ##var(--c-value)|unset##;
+}
+[[/div]]
+
+If you wish to keep your page's //original// __header-subtitle__ font, add this code:
+
+[[div class="code terminal"]]
+@@ @@##var(--c-symbol)|#header h2::before##{
+@@     @@##var(--c-builtin)|font-family##: ##var(--c-value)|unset##;
+}
+[[/div]]
+
+The default __titleColor__ is [[span style="display: inline-block;
+     width: 1em;
+     height: 1em;
+     vertical-align: middle;
+     background-color: hsl(0, 0%, 95%);
+     border: 3px solid hsl(0, 0%, 85%);"]]
+[[/span]] {{hsl(0, 0%, 95%)}}.
+The default __subtitleColor__ is [[span style="display: inline-block;
+     width: 1em;
+     height: 1em;
+     vertical-align: middle;
+     background-color: hsl(60, 62%, 85%);
+     border: 3px solid hsl(60, 62%, 75%);"]]
+[[/span]] {{hsl(60, 62%, 85%)}}.
+
+If you wish to keep the //original// title colours, you may omit these two fields entirely.
+
+You can also choose to have no logo:
+
+[[div class="code terminal"]]
+@@ @@##var(--c-symbol)|:root##{
+@@   @@##var(--c-builtin)|@@--@@lgurl##: ##var(--c-value)|none##;
+}
+[[/div]]
+
+@@ @@
+
+Because this component takes a different approach to designing the header, logo components (like [[[*https://scp-wiki.wikidot.com/component:scp-pride|SCP Pride Template]]], [[[*http://scp-wiki.wikidot.com/component:pride-highlighter|Pride Highlighter]]], and [[[*https://scp-wiki.wikidot.com/theme:calibri-logos|Calibri's Mega Cool Alternate SCP Logos]]]) won't work here as intended. If you //do// wish to use logos from one of the pages I just linked, please instead view their "Files" sections, then link the desired logo image directly.
+
+@@ @@
+
+**[Optional]** Quick-access Toggle Sidebar:
+
+[[div class="code terminal"]]
+**##var(--c-keyword)|[[include##** ##var(--c-symbol)|:scp-wiki:component:toggle-sidebar##**##var(--c-keyword)|]]##**
+[[/div]]
+[[/div]]
+
+@@ @@
+
+[[div class="templateInfo"]]
+[[=]]
++ Source Code
+[[/=]]
+[[/div]]
+[[/iftags]]
+
+[[div [[iftags -component]]style="display: none"[[/iftags]]]]
+
+[[=]]
+[[collapsible show="▷ Show Code ◁" hide="△ Hide Code △"]]
+[[/=]]
+[[<]]
+
+[[module CSS show="true"]]
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap);
+
+/* Centered Header Sigma-9
+ * [2021 Wikidot Component]
+ * By Lt Flops (CC BY-SA 3.0)
+ * Forked from:
+   * Penumbra Theme by EstrellaYoshte
+ * Also based on:
+   * Centered Header BHL by Woedenaz
+**/
+
+/* ---- VARS ---- */
+ :root{
+     --titleColor: hsl(0, 0%, 95%);
+     --subtitleColor: hsl(60, 62%, 85%);
+     --lgurl: url(https://scp-wiki.wdfiles.com/local--files/component%3Acentered-header-sigma-9/logo.svg);
+}
+
+/* ---- SITE BANNER ---- */
+ #header,
+ div#header{
+     background-image: none;
+}
+
+ #header::before{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     content: "";
+
+     background-image: var(--lgurl);
+     background-position: center top;
+     background-repeat: no-repeat;
+     background-size: auto 10.55em;
+     opacity: .33;
+}
+
+ #header h1,
+ #header h2{
+     float: none;
+     margin-left: 0;
+
+     text-align: center;
+}
+
+ #header h1 span,
+ #header h2 span{
+   /* Hide the Existing Text */
+     display: none;
+}
+
+ #header h1 a::before,
+ #header h2::before{
+   /* Style the New Text */
+     font-family: "Montserrat", "Arial", sans-serif;
+     text-shadow: none;
+}
+
+ #header h1 a::before{
+     position: relative;
+     bottom: .15em;
+
+     color: var(--titleColor);
+
+     font-size: 115%;
+     font-weight: 700;
+}
+
+ #header h2::before{
+     position: relative;
+     top: .1em;
+
+     color: var(--subtitleColor);
+
+     font-size: 130%;
+     font-weight: 600;
+}
+
+ #header h1 a::before{
+   /* Set the New Text's Content From Variable */
+     content: var(--header-title, "SCP FOUNDATION");
+}
+
+ #header h2::before{
+     content: var(--header-subtitle, "SECURE - CONTAIN - PROTECT");
+}
+
+/* ---- SEARCH ---- */
+ #search-top-box{
+     top: 1em;
+     right: 0;
+}
+
+ #search-top-box-form input.button{
+     margin-right: 0;
+}
+
+ #search-top-box-input,
+ #search-top-box-input:hover,
+ #search-top-box-input:focus,
+ #search-top-box-form input[type=submit],
+ #search-top-box-form input[type=submit]:hover,
+ #search-top-box-form input[type=submit]:focus{
+     border-radius: 0;
+     box-shadow: none;
+
+     font-size: 100%;
+}
+
+/* ---- TOP BAR ---- */
+ #top-bar{
+     right: 0;
+     display: flex;
+     justify-content: center;
+}
+
+ #top-bar ul li ul{
+     border-bottom: 1px solid hsl(0, 0%, 40%);
+     box-shadow: none;
+}
+
+/* ---- LOGIN ---- */
+ #login-status{
+     top: 1.1em;
+     right: initial;
+
+     color: hsl(0, 0%, 87%);
+}
+
+ #account-topbutton{
+     border-color: hsl(0, 0%, 87%);
+
+     font-size: 100%;
+}
+
+/* ---- PAGE TITLE ---- */
+ .meta-title,
+ #page-title{
+     text-align: center;
+}
+
+/* ---- BREADCRUMBS ---- */
+ .pseudocrumbs,
+ #breadcrumbs{
+     text-align: center;
+}
+
+/* ---- MOBILE DISPLAY ---- */
+ @media (max-width: 767px){
+     #search-top-box{
+          top: 1.85em;
+          width: unset;
+    }
+
+     .mobile-top-bar{
+          position: relative;
+          left: 0;
+          display: flex;
+          justify-content: center;
+    }
+
+     #login-status{
+          top: 0;
+          right: 0;
+    }
+
+     #header .printuser{
+          font-size: 0;
+    }
+
+     #header .printuser img.small{
+          margin: 0;
+
+          transform: translate(6px, 4px);
+    }
+
+     #my-account{
+          display: none;
+    }
+
+     #account-topbutton{
+          margin-left: 2px;
+    }
+}
+[[/module]]
+[[/<]]
+[[/div]]
+[[/collapsible]]

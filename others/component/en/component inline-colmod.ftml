@@ -1,0 +1,130 @@
+[[iftags +component]]
+[[module css]]
+@import url('https://scp-wiki.wdfiles.com/local--code/component%3Acolstyle/1');
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+This is an //inline collapsible block// module. Originally created by [[*user Yuuki410]] and adapted by [[*user hoah2333]] for combining the code into the instruction page.
+
+[[div class="inline-colmod"]]
+A cool example of
+[[include :scp-wiki:component:coltop-deep ifprot=0 |nohide=true |folded=1 |hide= |show=Inline Collapsible Block Module.]]
+inline-colmod.
+[[include :scp-wiki:component:colend-deep nohide=true |hide= ]]
+
+[[div style="height: .8em"]]
+[[/div]]
+[[div class="inline-colmod"]]
+Of course,
+[[include :scp-wiki-cn:component:coltop show = you can make the words separated on a new line| hide= | nohide = true ]]
+the words can be separated on a new line.
+Like this one.
+[[include :scp-wiki-cn:component:colend]]
+。
+[[/div]]
+
+[[/div]]
+
+It's useful when needs permission verification, such as the part which can only be accessed by relevant personnel in special containment procedure.
+
++++ How To Use
+
+Put the following code in where you need the inline-colmod:
+[[div class="code"]]
+@@[[div class="inline-colmod"]]@@
+**Text before collapsible block**
+@@[[include :scp-wiki:component:inline-colmod show=@@**##blue|Text displayed before clicking##**@@ | content=@@**##green|Text displayed after clicking##**@@]]@@
+**Text after collapsible block**
+@@[[/div]]@@
+[[/div]]
+Note: you must put the @@[[include ...]]@@ on a separate line.
+
++++ Specially, if you want to use it continuously,
+you need to add something between the two modules in order to separate them. Such as "@@~~~~@@" or "@@@@@@@@", or the code shows below. Each method makes a different effect.
+[[code]]
+[[div style="height: .8em"]]
+[[/div]]
+[[/code]]
+
++++ If you want to wrap lines at a special position
+
+[[div class="inline-colmod"]]
+Wrap at start of line,
+[[include :scp-wiki-cn:component:coltop show = show me the result, | hide= | nohide = true ]]
+@@@@
+like this one,
+[[include :scp-wiki-cn:component:colend]]
+wrap at start of line.
+[[/div]]
+
+[[div class="code"]]
+@@[[div class="inline-colmod"]]@@
+Wrap at the start of line,
+@@[[include :scp-wiki:component:coltop show = show me the result, | hide= | nohide = true ]]@@
+@@@@@@@@
+like this one,
+@@[[include :scp-wiki:component:colend]]@@
+wrap at the start of line.
+@@[[/div]]@@
+[[/div]]
+
+[[div class="inline-colmod"]]
+Wrap at the end of line,
+[[include :scp-wiki-cn:component:coltop show = show me the result,| hide= | nohide = true ]]
+like this one,
+@@@@
+[[include :scp-wiki-cn:component:colend]]
+wrap at the end of line.
+[[/div]]
+
+[[div class="code"]]
+@@[[div class="inline-colmod"]]@@
+Wrap at the end of line,
+@@[[include :scp-wiki:component:coltop show = show me the result,| hide= | nohide = true ]]@@
+like this one,
+@@@@@@@@
+@@[[include :scp-wiki:component:colend]]@@
+wrap at the end of line.
+@@[[/div]]@@
+[[/div]]
+
+[[div style="display: none;"]]
+[[/iftags]]
+
+[[include :scp-wiki:component:coltop show = {$show} | hide= | nohide = true ]]
+{$content}
+[[include :scp-wiki:component:colend]]
+
+[[iftags +component]]
+[[/div]]
+[[/iftags]]
+
+[[module CSS]]
+/* Inline Collapsible Module
+ * by Tachiabana Yuuki
+ * CC BY-SA 3.0 */
+.inline-colmod,
+.inline-colmod > p,
+.inline-colmod > .colmod-block,
+.inline-colmod .colmod-block > ul,
+.inline-colmod ul > .folded,
+.inline-colmod .folded > .colmod-link-top,
+.inline-colmod .folded > .colmod-link-top > .foldable-list-container,
+.inline-colmod .folded .foldable-list-container > a {
+    display: inline;
+}
+.inline-colmod .unfolded,
+.inline-colmod .unfolded > .colmod-content,
+.inline-colmod .unfolded > .colmod-content > p,
+.inline-colmod .unfolded > .colmod-content > .foldable-list-container,
+.inline-colmod .unfolded .foldable-list-container > a {
+    display: inline;
+}
+.inline-colmod .unfolded > .colmod-link-top,
+.inline-colmod .colmod-block li > div:last-of-type{
+    display: none;
+}
+[[/module]]

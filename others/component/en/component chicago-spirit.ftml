@@ -1,0 +1,115 @@
+[[module CSS]]
+@import url(https://scp-wiki.wdfiles.com/local--code/component%3Achicago-spirit/1);
+[[/module]]
+
+[[iftags +component]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+This is the Old-Timey Tabs mod by PeppersGhost.
+
+To use this mod, please put the following at the top of your page:
+
+[[div class="code"]]
+@@[[include component:chicago-spirit]]@@
+[[/div]]
+
+This theme mod is designed to make Wikidot tabs look like old metal-framed filing tabs. Mostly for use in Chicago Spirit articles, but you can use it wherever. 
+
+Example: 
+
+[[tabview]]
+[[tab]]
+Lorem ipsum dolar sit
+[[/tab]]
+[[tab]]
+Lorem ipsum dolar sit
+[[/tab]]
+[[/tabview]]
+
+[[code type="css"]]
+
+@import url('https://scp-wiki.wdfiles.com/local--files/component%3Achicago-spirit/telegram3.css');
+@import url('https://scp-wiki.wdfiles.com/local--files/component%3Achicago-spirit/yukarimobile.css');
+
+.CS-title {
+    font-family: 'alpha_echoregular';
+}
+
+/* YUI-TABS */
+/* This is the parent class for most of the tab module.  */
+.yui-navset .yui-content{
+    background-color: #ededed;
+    padding: 10px 25px 10px 25px;
+    border-width: 15px 1px 1px 1px;
+    border-color: #291f1f;
+
+}
+
+/* This section affects unselected tabs. */
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    background-color: transparent;
+    background-image: url(http://scp-wiki.wdfiles.com/local--files/component%3Aspirit-theme/yuitabs8.png);
+    background-size: cover;
+    border-width: 0px;
+    padding: 2px 20px 0px 20px;
+    margin-top: 10px;
+    border-top: none;
+}
+
+/* This section affects the currently selected tab. */
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
+.yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    background:transparent url(http://scp-wiki.wdfiles.com/local--files/component%3Aspirit-theme/yuitabs7.png) ; /* selected tab background */
+    color:#000;
+    background-size: cover;
+    border-width: 0px;
+    padding: 2px 20px 0px 20px;
+    margin-top: 10px;
+    border-top: none;
+}
+
+/* This section affects tabs you are hovering over. */
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    background:transparent url(http://scp-wiki.wdfiles.com/local--files/component%3Aspirit-theme/yuitabs7.png) ;
+    background-size: cover;
+    text-decoration: hover;
+    border-width: 0px;
+    padding: 2px 20px 0px 20px;
+    margin-top: 10px;
+    border-top: none;
+}
+
+/* This removes the border around tab images. */
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: transparent;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #291f1f;
+}
+.yui-navset li {
+    line-height: normal;
+}
+.yui-navset .yui-nav a em, .yui-navset .yui-navset-top .yui-nav a em {
+    border-color: none;
+    border-width: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.25em 0.75em;
+    position: relative;
+    right: 0;
+    top: -1px;
+}
+[[/code]]
+
+[[/iftags]]

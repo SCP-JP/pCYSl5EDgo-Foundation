@@ -1,0 +1,71 @@
+[[iftags +component]]
++ Check Page Source for Code
+[[/iftags]]
+[[module CSS]]
+.borderstylz {
+    border: 1px solid #888;
+    padding: 0.3em 0.7em;
+    background-color: #EEE;
+}
+
+.cellstylz {
+    border: 1px solid #888;
+    padding: 0.7em;
+    text-align:center;
+}
+
+.cellstylz2 {
+    border: 1px solid #888;
+    padding: 0.7em;
+}
+[[/module]]
+[[table style="border-collapse:collapse; margin: 0px auto 30px auto;"]]
+[[row]]
+[[hcell class="borderstylz"]]
+**Test #**
+[[/hcell]]
+[[hcell class="borderstylz"]]
+**Subject**
+[[/hcell]]
+[[hcell class="borderstylz"]]
+**Age**
+[[/hcell]]
+[[hcell class="borderstylz"]]
+**Sex**
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell class="cellstylz"]]
+{$test}
+[[/cell]]
+[[cell class="cellstylz"]]
+{$name}
+[[/cell]]
+[[cell class="cellstylz"]]
+{$age}
+[[/cell]]
+[[cell class="cellstylz"]]
+{$sex}
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell class="borderstylz" colspan="4"]]
+Method
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell class="cellstylz2" colspan="4"]]
+{$method}
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell class="borderstylz" colspan="4"]]
+Results
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell class="cellstylz2" colspan="4"]]
+{$result}
+[[/cell]]
+[[/row]]
+[[/table]]

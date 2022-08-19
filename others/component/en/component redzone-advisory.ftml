@@ -1,0 +1,15 @@
+[[include :scp-wiki:component:redzone-advisory-base
+|color=#B22
+|logo=/component:redzone-advisory/redzone3.png
+|title={$title}|title=false
+|id={$id}
+|updated={$updated}|updated=false
+|published={$published}|published=false
+|version={$version}|version=false
+|final={$final}|final=true
+|impact={$impact}
+|worknd={$worknd}|worknd=false
+|bugs={$bugs}
+|cwe={$cwe}|cwe=false
+|cve={$cve}|cve=false
+]]

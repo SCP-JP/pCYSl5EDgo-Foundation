@@ -1,0 +1,48 @@
+[[iftags +component]]
+Revised image block module:
+* Aligns right edge of the image to be flush edge of the overall content, rather than just the edge of the rating module.
+* Clears float and centers image if the user's window is <600px wide. 
+
+By PeppersGhost and Stormbreath. 
+
+[[[SCP-4703|Example here!]]]
+
+To use, copy and paste the following code to your page and adjust the name, caption, and width fields as needed.
+
+> [[include component:image-block-peppo
+> |name=http://scp-wiki.wdfiles.com/local--files/scp-4703/4703.jpg
+> |caption= Put your caption here!
+> |width=300px
+> ]]
+
+
+[[=]]
++ Check page source for code
+[[/=]]
+[[/iftags]]
+[[iftags -component]]
+
+
+[[include :scp-wiki:component:image-block
+|name={$name}
+|caption={$caption}
+|width={$width}|width=300px
+|link={$link}|link=#
+|align=right
+]]
+
+[[module CSS]]
+/* Aligns image to right edge */
+.scp-image-block.block-right {
+    margin: 0em 0em 1em 2em;
+}
+
+/* Visually centers image block */
+@media only screen and (max-width: 600px) {
+    .scp-image-block.block-right{
+        float: none;
+        margin: 10px auto;
+    }
+}
+[[/module]]
+[[/iftags]]

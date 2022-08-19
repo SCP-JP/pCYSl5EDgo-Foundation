@@ -1,0 +1,456 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+[[module css]]
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/normalize.min.css");
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/black-highlighter.min.css");
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.step_container {
+    margin: 0.5rem 0;
+    border: 1px solid #999;
+    padding: 1em;
+}
+
+.step_container blockquote {
+    background: rgb(var(--swatch-menubg-dark-color));
+    color: rgb(var(--swatch-menutxt-light-color));
+    padding: 0.25em;
+    text-align: center;
+}
+
+.help {
+    display: flex;
+    align-content: stretch;
+    padding-top: 1em;
+    border-top: 1px dashed #999;
+}
+
+.help blockquote {
+    margin: 0;
+    font-size: 85%;
+}
+
+blockquote tt {
+    font-size: 80%;
+}
+
+.help blockquote > p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-right: 0;
+    min-height: 2rem;
+    margin: 0;
+}
+
+.help blockquote > p * {
+    margin: 0 0.1rem;
+    height: 100%;
+}
+
+.help blockquote:nth-of-type(1) {
+    width: 50%;
+    background: transparent;
+    border: unset;
+    box-shadow: unset;
+    text-align: right;
+    margin-right: 0;
+    padding: 0;
+}
+
+.help blockquote:nth-of-type(1) > p {
+    justify-content: flex-end;
+}
+
+.help blockquote:nth-of-type(2) {
+    margin-left: 1em;
+    width: 50%;
+}
+
+#page-content > .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    background-color: lightgrey;
+    border-top: 0.125rem dashed slategrey;
+    border-bottom: 0.125rem dashed slategrey;
+}
+
+#page-content > div.collapsible-block > div.collapsible-block-unfolded > div.collapsible-block-content {
+    text-align: left;
+}
+
+
+#toc8 tt {
+    background: rgb(var(--swatch-menubg-dark-color));
+    color: rgb(var(--swatch-menutxt-light-color));
+    padding: 0.25em;
+}
+
+.step_container blockquote b,
+.step_container blockquote strong {
+    font-weight: 900;
+}
+[[/module]]
+
+[[=]]
++++ This works on both Sigma 9 (the base Wikidot Theme) and BHL.
+[[/=]]
+
++ EXAMPLE
+
+[[html]]
+<head>
+<style type="text/css">
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 0 #000;
+    -moz-box-shadow: 0 0 0 #000;
+    box-shadow: 0 0 0 #000;
+}
+video {
+    width: 100%;
+}
+</style>
+</head>
+
+<figure>
+    <video preload="" controls="controls" width="628" height="396" autoplay loop muted>
+    	<source src="https://scp-wiki.wikidot.com/local--files/component:responsive-tables/Responsive%20Tables.mp4">
+    	<source src="https://scp-wiki.wikidot.com/local--files/component:responsive-tables/Responsive%20Tables.webm">
+    	<p class="warning">Your browser does not support HTML5 video.</p>
+    </video>     
+</figure>                       
+[[/html]]
+
+[[include :scp-wiki:component:responsive-tables-source |responsive-table-start= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |header-start= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |header-cell-start= --] ]]
+Sex
+[[include :scp-wiki:component:responsive-tables-source |header-cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |header-cell-start= --] ]]
+Height
+[[include :scp-wiki:component:responsive-tables-source |header-cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |header-cell-start= --] ]]
+Weight/Build
+[[include :scp-wiki:component:responsive-tables-source |header-cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |header-cell-start= --] ]]
+Race
+[[include :scp-wiki:component:responsive-tables-source |header-cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |header-cell-start= --] ]]
+Hair
+[[include :scp-wiki:component:responsive-tables-source |header-cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |header-cell-start= --] ]]
+Eyes
+[[include :scp-wiki:component:responsive-tables-source |header-cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |header-cell-start= --] ]]
+Identifying Attributes
+[[include :scp-wiki:component:responsive-tables-source |header-cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |header-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |row-start= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Sex ]]
+Male
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Height ]]
+70in
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Weight/Build ]]
+Slender
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Race ]]
+Caucasian
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Hair ]]
+Black
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Eyes ]]
+Brown/Star-shaped Pupils
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Identifying Attributes ]]
+Cordial disposition
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |row-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |row-start= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Sex ]]
+Female
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Height ]]
+61in
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Weight/Build ]]
+Thin
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Race ]]
+East Asian
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Hair ]]
+Black
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Eyes ]]
+Pale Green
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=Identifying Attributes ]]
+Flamboyantly dressed
+[[include :scp-wiki:component:responsive-tables-source |cell-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |row-end= --] ]]
+
+[[include :scp-wiki:component:responsive-tables-source |responsive-table-end= --] ]]
+
+[[collapsible show="+ Click here to see above example's code" hide="- Hide code"]]
+
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |responsive-table-start= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-start= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-start= @@--@@] ]]}}
+> Sex
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-start= @@--@@] ]]}}
+> Height
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-start= @@--@@] ]]}}
+> Weight/Build
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-start= @@--@@] ]]}}
+> Race
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-start= @@--@@] ]]}}
+> Hair
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-start= @@--@@] ]]}}
+> Eyes
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-start= @@--@@] ]]}}
+> Identifying Attributes
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |row-start= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Sex ]]}}
+> Male
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Height ]]}}
+> 70in
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Weight/Build ]]}}
+> Slender
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Race ]]}}
+> Caucasian
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Hair ]]}}
+> Black
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Eyes ]]}}
+> Brown/Star-shaped Pupils
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Identifying Attributes ]]}}
+> Cordial disposition
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |row-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |row-start= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Sex ]]}}
+> Female
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Height ]]}}
+> 61in
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Weight/Build ]]}}
+> Thin
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Race ]]}}
+> East Asian
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Hair ]]}}
+> Black
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Eyes ]]}}
+> Pale Green
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= @@--@@] |cell-header=Identifying Attributes ]]}}
+> Flamboyantly dressed
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |row-end= @@--@@] ]]}}
+> 
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |responsive-table-end= @@--@@] ]]}}
+
+[[/collapsible]]
+
+[[div_ class="step_container"]]
++ **IMPORTANT INFORMATION**
+
+++ Components of a Table
+[[=]]
+[[image https://scp-wiki.wikidot.com/local--files/component:responsive-tables/TableComponents.jpg]]
+[[/=]]
+
++++ A table consists of a **header row** followed by a series of **content rows**. Each of those rows is made up of a series of **cells**.
+[[/div]]
+
++ **HOW TO USE**
+
+[[div class="toc_box"]]
+> **I apologize in advance for how... much there is for this... I may simplify it in the future. Anyway, for now, this is step by step how to use this component.**
+
+* **Step 1:** Start the table
+* **Step 2:** Start the header row
+ * **Step 2.1:** Add a header cell _
+**Repeat as needed**
+ * **Step 2.2:** End the header row
+* **Step 3:** Start a content row
+ * **Step 3.1:** Add a content cell _
+**Repeat as needed**
+ * **Step 3.2:** End the content row
+* **Repeat 3 -- 3.2 as needed**
+* **Step 4:** End the table
+[[/div]]
+
+[[div_ class="step_container"]]
+
+++ **Step 1:** Start the table
+
+**This Step only needs to be done once.**
+
+Add this include to the top part of your code:
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |responsive-table-start= @@--@@] ]]}}
+
+[[/div]]
+
+[[div_ class="step_container"]]
+
+++ **Step 2:** Start the header row
+
+**This Step can be repeated depending on how many headers you would like.**
+
+Add this include:
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-start= @@--@@] ]]}}
+
+[[div_ class="step_container"]]
+
+++ **Step 2.1:** Add a header cell
+
+**This Step can be repeated depending on how many cells you would like in the header row.**
+
+Add this include for each cell in your header:
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-start= @@--@@] ]]}}
+> **HEADER CELL CONTENT HERE**
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-cell-end= @@--@@] ]]}}
+
+[[/div]]
+
+[[div_ class="step_container"]]
+
+++ **Step 2.2:** End the header row
+
+**This Step should be repeated depending on how many headers you have included.**
+
+Add this include to the end of your series of header cells:
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |header-end= @@--@@] ]]}}
+
+[[/div]]
+[[/div]]
+
+[[div_ class="step_container"]]
+
+++ **Step 3:** Start a content row
+
+**This Step can be repeated depending on how many rows you would like.**
+
+Add this include to the start of your content row:
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |row-start= @@--@@] ]]}}
+
+[[div_ class="step_container"]]
+
+++ **Step 3.1:** Add a content cell
+
+**This Step can be repeated depending on how many cells you would like in the content row. It should be the same number as header cells.**
+
++++ IMPORTANT NOTE: For each cell, the {{|cell-header=}} must be the same content as the column header the cell is within. So, in the example above, the second column is "Height" so every cell below it must have {{|cell-header=Height}} with the include. __**If you do not do this, the cell will not have a header on mobile.**__
+
+Add this include for each cell in your row:
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-start= --] |cell-header=**CELL HEADER HERE** ]]}}
+> **CELL CONTENT HERE**
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |cell-end= @@--@@] ]]}}
+[[/div]]
+
+[[div_ class="step_container"]]
+
+++ **Step 3.2:** End the content row
+
+**This Step should be repeated depending on how many rows you have included.**
+
+Add this include for each cell in your row:
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |row-end= @@--@@] ]]}}
+[[/div]]
+[[/div]]
+
+[[div_ class="step_container"]]
+
+++ **Step 4:** End the table
+
+**This Step only needs to be done once.**
+
+Add this include for each cell in your row:
+> {{[[@@include@@ :scp-wiki:component:responsive-tables-source |responsive-table-end= @@--@@] ]]}}
+[[/div]]
+
+,,Over engineered and over-coded? Yes, probably. But it works! :p,,

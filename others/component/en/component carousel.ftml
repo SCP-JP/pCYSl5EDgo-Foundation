@@ -1,0 +1,314 @@
+[[iftags +component]]
+
+[[include :scp-wiki:component:croqstyle -=- ]]
+
+[[module CSS]]
+td { vertical-align: top; }
+table.wiki-content-table td { border: none; padding: 0.7em 1em; }
+[[/module]]
+
+[[div style="border: 1px solid #ddd; padding: 1em;"]]
++ What this is
+
+An image carousel component that, instead of showing just one image, cycles through many.
+
++ Usage
+
+[[=]]
+[http://scp-sandbox-3.wikidot.com/carousel-demo >>> DEMO <<<]
+[[/=]]
+
+Wherever you want your Image Carousel, slap in this code instead of your standard image block.
+
+Make sure that any images you want are already uploaded to your page. If you chose to ignore that sage advice and only upload your images //after// setting up the Carousel, then your images won't work until you Hard Refresh the page (Ctrl+Shift+R).
+
+[[div class="code"]]
+@@[[include :scp-wiki:component:carousel@@
+| images=photograph.png,old-map.png,jumpscare.gif
+| caption=A selection of images.
+| interval=5
+| wiki=scp-wiki
+| page=SCP-173
+| width=300px
+| height=240px
+| position=right
+| no-caption=false
+| background=white
+| options=yes
+]]
+[[/div]]
+
+Using an image carousel presents certain accessibility concerns - the constant motion can be very distracting for some users. It is also not a great idea to force your reader to wait to see your article's images. This component is also a great way to irritate your reader by forcing interactivity onto them in an otherwise non-interactive context. If possible, I would recommend not using this component. Use a series of standard image blocks instead. 
+
++ What each option is
+
+Anything in //italics// is //optional//. Everything else you gotta have.
+
+If you omit an //optional// option, then it will have its default value. If you omit a non-optional option, then don't expect the carousel to work properly.
+
+|| **images:** || A list of images, separated by commas. Be sure that each one of these images is uploaded to the page. You can also specify images by URL. _
+These images will appear in the carousel in the order that you list them. ||
+|| **//links://** _
+//(Optional)// || A list of URLs for each image to link to, separated by commas. If provided, there must be the same number of URLs as there are images. ||
+|| **//caption://** _
+//(Optional)// || The caption that goes underneath the carousel. _
+If you have no caption, make sure you set **no-caption** to true. _
+//Default value: "{$caption}"// ||
+|| **//interval://** _
+//(Optional)// || If you set this to a non-zero number, then the carousel will automatically move onto the next image after this number of seconds. _
+If the user has clicked an arrow to manually change the image, or if they are currently hovering their mouse over the carousel, then the image will not rotate. _
+//Default value: "0"// ||
+|| **wiki:** || The name of the wiki that the page that you want the carousel to be on, is on. For example, {{scp-wiki}} (NOT "scpwiki") or {{scp-sandbox-3}}. ||
+|| **page:** || The slug of the page that you want the carousel to be on. Include the category, if any. (The 'slug' is the name of the page as seen in the URL - for example, for [[[scp-botnik-j|]]] the slug is {{scp-botnik-j}}.)||
+|| **//width://** _
+//(Optional)// || The width of the widest image in the carousel. _
+//Default value: "300px"// ||
+|| **//height://** _
+//(Optional)// || The height of the tallest image in the carousel. _
+//Default value depends on browser// ||
+|| **//position://** _
+//(Optional)// || The horizontal position of the carousel on the page. "left", "right" or "center". _
+//Default value: "right"// ||
+|| **//no-caption://** _
+//(Optional)// || Set this to "true" if you don't want a caption. Otherwise, leave it blank , or set it to "false", or get rid of it completely. _
+//Default value: "false"// ||
+|| **//background://** _
+//(Optional)// || The background colour behind the images. _
+//Default value: "transparent"// ||
+|| **//options://** _
+//(Optional)// || Do you want the detailed options (play/pause button and the row of little circles) to display? If not, set to anything but "yes". _
+//Default value: "yes"// ||
+
+//I want the carousel to spread across the whole page!//
+Set **width** to "100%" and **position** to "center".
+
+//I set width/height to the size of my biggest image but it's way too big!//
+Pick a smaller number, or make your images smaller.
+[[/div]]
+
+-----
+[[/iftags]]
+
+[[div_ class="carousel-container {$position}" style="width: calc({$width} + 34px);"]]
+[[iframe https://scp-wiki.wikidot.com/local--code/component%3Acarousel/1#?images={$images}&links={$links}&wiki={$wiki}&page={$page}&interval={$interval}&background={$background}&options={$options}&style={$style} style="width: calc({$width} + 34px); height: calc({$height} + 6px);" scrolling="no"]]
+
+[[div class="carousel-caption-wrapper"]]
+[[div class="carousel-caption {$no-caption}" style="width: calc({$width});"]]
+{$caption}
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[module CSS]]
+@import url(https://scp-wiki.wikidot.com/local--code/component%3Acarousel/3);
+[[/module]]
+
+[[iftags +component]]
+~~~~~
+
+-----
+
++ Codebase
+
+++ HTML structure of the carousel
+[[code type="html"]]
+<html ng-app="carousel" ng-controller="CarouselController">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+  <script src="https://scp-wiki.wikidot.com/local--code/component%3Acarousel/2"></script>
+  <link href="https://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/base/css/style.css" rel="stylesheet">
+  <link href="https://scp-wiki.wdfiles.com/local--code/component%3Atheme/1" rel="stylesheet">
+  <link href="https://scp-wiki.wdfiles.com/local--code/component%3Acarousel/4" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper" id="background">
+    <div class="carousel">
+      <div class="horsie" ng-repeat="image in images track by $index"
+           ng-class="[index > $index ? 'past' : null,
+                      index === $index ? 'present' : null,
+                      index < $index ? 'future' : null]">
+        <img ng-src="{{image}}" ng-if="!links[$index]">
+        <a href="{{links[$index]}}" target="_blank" ng-if="links[$index]">
+          <img ng-src="{{image}}">
+        </a>
+      </div>
+    </div>
+    <div class="arrow decrementor"
+         ng-class="index === 0 ? 'inactive' : 'active'"
+         ng-click="increment(-1)">
+      <div class="image"></div>
+    </div>
+    <div class="arrow incrementor"
+         ng-class="index === images.length-1 ? 'inactive' : 'active'"
+         ng-click="increment(1)">
+      <div class="image"></div>
+    </div>
+    <div class="bubble-holder" ng-class="[options === 'yes' ? null : 'invisible']">
+      <div class="bubble" ng-repeat="image in images track by $index"
+           ng-class="[index === $index ? 'present' : null]"
+           ng-click="selectImage($index)">
+      </div>
+    </div>
+    <div class="control play" ng-click="control('play')"
+         ng-class="[state === 'play' ? 'active' : null,
+                    options === 'yes' ? null : 'invisible']"></div>
+    <div class="control pause" ng-click="control('pause')"
+         ng-class="[state === 'pause' ? 'active' : null,
+                    options === 'yes' ? null : 'invisible']"></div>
+  </div>
+</body>
+</html>
+[[/code]]
+
+++ JS to operate the carousel
+[[code type="javascript"]]
+function getQueryVariable(variable) {
+  var query = document.location.href.match(/\?.*$/g)[0].substring(1);
+  var vars = query.split("&");
+  for(var i = 0; i < vars.length; i++) { // >
+    var pair = vars[i].split("=");
+    if(pair[0] === variable) return pair[1]; 
+  }
+  return false;
+}
+
+(function(){
+  var carousel = angular
+    .module('carousel',[])
+    .controller('CarouselController',CarouselController);
+  
+  CarouselController.$inject = ['$scope','$timeout'];
+  function CarouselController($scope,$timeout){
+    var wiki = getQueryVariable("wiki") || "scp-wiki";
+    var page = getQueryVariable("page");
+
+    var style = getQueryVariable("style");
+    if (style !== "{$style}") {
+      var styleElement = document.createElement("style");
+      document.head.appendChild(styleElement);
+      styleElement.appendChild(document.createTextNode(atob(style)));
+    }
+
+    var images = getQueryVariable("images").split(",");
+    $scope.images = images.map(image => {
+      if (!/^https?:/.test(image)) {
+        // Make a full URL for the specified page
+        return `https://${wiki}.wdfiles.com/local--files/${page}/${image}`;
+      }
+      return image;
+    })
+
+    var links = getQueryVariable("links");
+    $scope.links = links !== "{$links}" ? links.split(",") : [];
+    
+    $scope.index = 0;
+    $scope.increment = function(amount) {
+      if(amount > 0 && $scope.index < $scope.images.length-1) { 
+        $scope.index += amount;
+      }
+      if(amount < 0 && $scope.index > 0) { 
+        $scope.index += amount;
+      }
+      $scope.state = "pause";
+    }
+    
+    var interval = getQueryVariable("interval") || 0;
+    if(interval === "{$interval}") interval = 0;
+    $scope.state = "play";
+    if(interval === 0) $scope.state = "pause";
+    function oscillate() {
+      $timeout(function() {
+        if(!mouseover && $scope.state === "play") {
+          if($scope.index < $scope.images.length-1) {
+            $scope.index++;
+          } else {
+            $scope.index = 0;
+          }
+        }
+        if($scope.state === "play") {
+          oscillate();
+        }
+      }, interval*1000, true);
+    }
+    
+    var mouseover = false;
+    document.documentElement.onmouseover = function () {
+      mouseover = true;
+    }
+    document.documentElement.onmouseout = function () {
+      mouseover = false;
+    }
+    
+    if($scope.state === "play") {
+      oscillate();
+    }
+    document.getElementById('background').style.background = getQueryVariable("background");
+    
+    $scope.selectImage = function(index) {
+      $scope.index = index;
+      $scope.state = "pause";
+    }
+    
+    $scope.control = function(direction) {
+      switch(direction) {
+        case "play":
+          $scope.state = "play";
+          oscillate();
+          break;
+        case "pause":
+          $scope.state = "pause";
+          break;
+      }
+    }
+    
+    $scope.options = getQueryVariable("options");
+    if($scope.options === "{$options}") $scope.options = "yes";
+  }
+})();
+[[/code]]
+
+++ Styling for the caption box
+[[code type="css"]]
+.carousel-container { position: relative; z-index: 1; float: right; margin: 0 1em 1em 1em; }
+.carousel-container.left { float: left; }
+.carousel-container.center { float: none; clear: both; margin: 0 auto 1em auto; }
+.carousel-container iframe { position: relative; z-index: 2; width: 334px; border: none; }
+.carousel-container .carousel-caption { position: relative; background-color: #eee; border: solid 1px #666; padding: 2px 0; font-size: 80%; font-weight: bold; text-align: center; width: 300px; margin-top: -3px; box-shadow: 0 1px 6px rgba(0,0,0,.25); z-index: 3; max-width: 675px; }
+
+#page-content .carousel-container .carousel-caption-wrapper { max-width: 673px; }
+
+.carousel-container .carousel-caption-wrapper { padding: 0 16px; }
+.carousel-container .carousel-caption p { margin: 0; padding: 0 10px; }
+.carousel-container .carousel-caption.true { display: none; }
+[[/code]]
+
+++ Styling for the rest of the carousel
+[[code type="css"]]
+html { width: calc(100% - 32px); height: calc(100% - 4px); margin: 0; padding: 0; }
+body { width: 100%; height: 100%; margin: 0; padding: 2px 16px; background: transparent; }
+.wrapper { position: relative; width: 100%; height: 100%; }
+.carousel { position: relative; width: calc(100% - 2px); height: calc(100% - 2px); overflow-x: hidden; border: 1px solid #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); box-sizing: content-box; }
+.horsie { position: absolute; height: 100%; width: 100%; top: 0; left: 0; transform: translate(0,0); transition: transform 0.3s ease-in-out; }
+.horsie img { object-fit: contain; width: 100%; height: 100%; }
+.horsie.past { transform: translate(-100%,0); }
+.horsie.future { transform: translate(100%,0); }
+.arrow { height: 30px; width: 30px; border: 1px solid #666; border-radius: 50%; position: absolute; top: 50%; background: #eee; box-shadow: 0 1px 6px rgba(0,0,0,.25); cursor: pointer; }
+.arrow .image { height: 30px; width: 30px;position: absolute; top: 0; left: 0; background-position: 50% 50%; background-size: 80% 80%; background-repeat: no-repeat; opacity: 0.6; transition: opacity 0.1s ease-in-out; }
+.arrow.inactive { cursor: default; }
+.arrow.inactive .image { opacity: 0; }
+.decrementor { left: 0; transform: translate(-50%,-50%); }
+.decrementor .image { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAdElEQVR4AezQJwKAMBQD0DCOjAfD9j1BXVUdR0OxkWzCJvHvD/x5aVxEDMZBWVfAIDB1JQwOY96IUSzGYjCaxdgMJuMwOQJ4c51jlnc0HgsCUs5pPbX82csozaQsFqVuSpksSjIpg0OJBdACqlorw7AEowAAblWUrl8sD5AAAAAASUVORK5CYII='); }
+.incrementor { right: 0; transform: translate(50%,-50%); }
+.incrementor .image { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAcUlEQVR4Ae3QpwJAUACF4WM+sU6xV9M0TdI8mmR389j+07878PfSHOjYnYAETTdtP5Sh4VAik8pZlMSkChYlM6mSRalLKWN2FqolVLNqGgsyOE/zOZ+9i5FZTMFgJBaT34gRWUzGYAABKYMZizvm75W1TreU8DMmtioAAAAASUVORK5CYII='); }
+.bubble-holder { display: flex; position: absolute; width: calc(100% - 60px); height: 20%; justify-content: center; align-items: flex-end; flex-wrap: wrap; align-content: flex-end; bottom: 0; margin: 5px 0; left: 30px; }
+.bubble { border: 2px solid #666; height: 0; width: 0; margin: 5px; border-radius: 50%; transition: all 0.2s ease-in-out; background-color: white; }
+.bubble.present { height: 2px; width: 2px; background-color: white; margin: 4px; }
+.bubble-holder:hover .bubble { height: 6px; width: 6px; margin: 2px; cursor: pointer; }
+.bubble-holder:hover .bubble.present { height: 12px; width: 12px; margin: -1px; }
+.control { position: absolute; height: 10px; width: 10px; left: 5px; bottom: 5px; background-size: contain; opacity: 0.3; cursor: pointer; }
+.control.active { opacity: 1; cursor: default; }
+.control.play { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAgElEQVR4Ae2UQRWAIBBEJwIRjGAEI9hEG0ATaaINtIE0kAbqnrh4/M/Tzr//B7A78nzF0wvKraiAiF5ODYzIWBQIkXFpZETGqo4R2bkmRmTs6hmRERUIURsKQNSGAhBlQlSYqyXisQ/i+6tmYiA3YkUqs7SZqJHCFFtS+Lf8PZ4HilOsPBFiYmoAAAAASUVORK5CYII='); }
+.control.pause { left: 20px; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAOUlEQVR4Ae3WoQ0AMAwDwY7ezdsFzKyg3EthBgdzJCl309X7opev3wMBAQEtAQEBAQEBAU09+ZL0AdrO+xGDE6h0AAAAAElFTkSuQmCC'); }
+.invisible { display: none; }
+[[/code]]
+[[/iftags]]

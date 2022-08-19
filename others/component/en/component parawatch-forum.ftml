@@ -1,0 +1,59 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include theme:creepypasta]]
+
+**Example:**
+
+[[include component:parawatch-forum-post
+    color=green |
+    username=somedude |
+    date=10/20/15 (Tue) 18:21:54 |
+    postno=65410813 |
+    depth=0 |
+    content=Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+]]
+
+[[include component:parawatch-forum-post
+    color=cyan |
+    username=🗿 jlessthan |
+    date=10/20/15 (Tue) 19:07:14 |
+    postno=65412825 |
+    depth=1 |
+    content=Something something something something something something. 
+ 
+Moderation stop order.
+]]
+
+[[include component:parawatch-forum-post
+    color=green |
+    username=somedude |
+    date=10/20/15 (Tue) 18:23:30 |
+    postno=65410841 |
+    depth=2 |
+    content=im sorry
+]]
+
+
+**Usage:**
+
+> ##lightblue|@@[[include :scp-wiki:component:parawatch-forum-post@@##
+> ##lightblue|@@    color@@##=##lightgreen|color name or #rrggbb here## |
+> ##lightblue|@@    username@@##=##lightgreen|account name of person## | ← prefix with "🗿 " if a moderator
+> ##lightblue|@@    date@@##=##lightgreen|MM/DD/YY (DOW) HH:MM:SS## | ← DOW is day of week, first three letters
+> ##lightblue|@@    postno@@##=##lightgreen|8digitnumber## | ← should increase with time of creation
+> ##lightblue|@@    depth@@##=##lightgreen|0/1/2/3/4...## | ← how many layers deep this post is
+> ##lightblue|@@    content@@##=##lightgreen|The actual forum post content goes here.## ← if it spans across multiple lines, each must end with a space
+> ##lightblue|@@]]@@##
+
+= (produces)
+
+[[include component:parawatch-forum-post
+    color=red |
+    username=account name of person |
+    date=MM/DD/YY (DOW) HH:MM:SS |
+    postno=8digitnumber |
+    depth=0 |
+    content=The actual forum post content goes here.
+]]

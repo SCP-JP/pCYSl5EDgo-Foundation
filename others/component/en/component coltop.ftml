@@ -1,0 +1,59 @@
+[[iftags +component]]
+[[module CSS]]
+td { vertical-align: top; }
+.options table.wiki-content-table td { border: none; padding: 0.7em 1em; }
+[[/module]]
+
+[[div style="border: 1px solid #ddd; padding: 1em;"]]
++ What this is
+
+This page contains the source code for the top half of the Nested Collapsible component, created by [[*user Boyu12]] for the Japanese branch.
+
++ Usage
+
+How to create a nested collapsible:
+
+[[div class="code"]]
+##blue|**[[include :scp-wiki:component:coltop**##
+##blue|**|**## ##green|show####blue|**=**##+ show block
+##blue|**|**## ##green|hide####blue|**=**##- hide block
+##blue|**]]**##
+Text to show inside the collapsible
+##blue|**[[include :scp-wiki:component:colend]]**##
+[[/div]]
+
+**Don't remove any of the pipe symbols! (##blue||##)**
+
+[[div class="options"]]
+|| **show** _
+//Default: "+ show block"// || The text of the button that opens the collapsible. ||
+|| **hide** _
+//Default: "- hide block"// || The text of the button that closes the collapsible. ||
+|| **nohide** _
+//Default: 0// || If 0, the "hide" text will be shown when the collapsible is open. If 1, it will not be. ||
+|| **folded** _
+//Default: 1// || If 0, the collapsible will start opened. If 1, it will start closed. ||
+[[/div]]
+
+You can nest as many Nested Collapsibles inside each other as you like. You can even put Nested Collapsibles inside regular collapsibles, and vice versa. However, you cannot nest regular collapsibles inside other regular collapsibles.
+
+Pages in this component:
+
+[[module PageTree]]
+
+[[/div]]
+
+-----
+
+[[/iftags]]
+
+[[module css]]
+@import url('https://scp-wiki.wdfiles.com/local--code/component%3Acolstyle/1');
+[[/module]]
+
+[[include :scp-wiki:component:coltop-deep
+ifprot={$ifprot}|ifprot=0
+|nohide={$nohide}|nohide=0
+|folded={$folded}|folded=1
+|hide={$hide}|hide=- Hide block
+|show={$show}|show=+ Show block]]

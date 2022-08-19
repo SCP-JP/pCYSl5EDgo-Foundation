@@ -1,0 +1,189 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div style="text-align: right; margin-top: -20px;"]]
+[[size 80%]]##757575|by Dr Moned##[[/size]]
+[[/div]]
+
+[[module CSS]]
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/normalize.min.css");
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/black-highlighter.min.css");
+
+.box {
+    position: relative;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 2px 1.5px 1px lightgrey, 0 0 0px 1px lightgrey;
+    overflow-wrap: break-word;
+    color: black;
+}
+[[/module]]
+
+[[div class="box"]]
+[[=]]
+++++ What is ANT:
+[[/=]]
+----
+ANT is a new navigation system, taking inspiration from the [https://scp-wiki.wikidot.com/component:earthworm Earthworm Series Navigator]. ANT was created to make a semi-customizable bar that allows access and gives information about the related articles.
+
+If there are any issues, please contact me through Discord[[footnote]]T3DK[[/footnote]] or Wikidot[[footnote]][https://www.wikidot.com/account/messages#/new/5596963 Dr Moned][[/footnote]] pms.
+[[/div]]
+
+
+[[div class="box"]]
+[[=]]
+++++ Basics:
+[[/=]]
+----
+Using ANT is fairly simple (I hope). There are a few options and choices that will be explained lower down, but this is the basic code you can grab and tinker with to fit your needs.
+
+[[div class="code"]]
+[[span style="color: #246eb7"]][[include :scp-wiki:component:advanced-navigation-toolbar-source[[/span]] [[span style="color: #B52424"]]dual= false[[/span]]
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]styleNum[[/span]][[span style="color: #246eb7"]]=[[/span]] [[span style="color: #B52424"]]one[[/span]]
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]prev[[/span]][[span style="color: #246eb7"]]=[[/span]] articleURL [[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]prevtext[[/span]][[span style="color: #246eb7"]]=[[/span]] link text
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]prevImage[[/span]][[span style="color: #246eb7"]]=[[/span]] prevImageURL
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]hub[[/span]][[span style="color: #246eb7"]]=[[/span]] hubURL [[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]hubtext[[/span]][[span style="color: #246eb7"]]=[[/span]] Name
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]next[[/span]][[span style="color: #246eb7"]]=[[/span]] articleURL [[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]nexttext[[/span]][[span style="color: #246eb7"]]=[[/span]] link text
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]nextImage[[/span]][[span style="color: #246eb7"]]=[[/span]] nextImageURL
+[[span style="color: #246eb7"]]]][[/span]]
+[[/div]]
+
+When using ANT, do not alter any of the blue text above. The red text can be altered, but I recommend you read the related sections below before doing so.
+
+[[div class="box"]]
+[[=]]
+[[collapsible show="Code used to produce the example image below:" hide="Code used to produce the example image below:"]]
+
+[[<]]
+[[div class="code"]]
+@@[[include :scp-wiki:component:advanced-navigation-toolbar-source dual= false@@
+@@|styleNum= one@@
+@@|prev= https://scp-wiki.wikidot.com/scp-001 |prevtext= SCP-001@@
+@@|prevImage= https://scp-wiki.wdfiles.com/local--files/dr-moned-s-icons-and-art/Damnum.png@@
+@@|hub= https://scp-wiki.wikidot.com/scp-series |hubtext= Series One Hub@@
+@@|next= https://scp-wiki.wikidot.com/scp-003 |nexttext= SCP-003@@
+@@|nextImage= https://scp-wiki.wdfiles.com/local--files/dr-moned-s-icons-and-art/Yesod.png@@
+@@]]@@
+[[/div]]
+[[/<]]
+
+[[/collapsible]]
+[[/=]]
+[[/div]]
+
+[[include component:image-block
+| name=ANTexample.png
+| caption=ANT example
+| align=center
+| width=100%
+]]
+[[/div]]
+
+[[div class="box"]]
+[[=]]
+++++ Variables:
+[[/=]]
+----
+> **"style"** - This will be addressed in the box below.
+
+> **"prev"**  - This deals with the link leading to your previous article. "prev" takes in an input in the form of a link, then a pipe character ("|"), then the text you wish for the link to show. "https://scp-wiki.wikidot.com/scp-001|SCP-001" for example.
+@@@@
+> **"prevImage"**  - Refers to the image in the circle at the left end of the bar (More detailed images may be harder to see given the size). All the icons at [https://scp-wiki.wikidot.com/dr-moned-s-icons-and-art my art page] should work, in addition to any 600px squared image (which I believe any [https://scp-wiki.wikidot.com/anomaly-classification-system-guide image made for ACS] is, as the ones I tried worked fine). Please shout at me if they don't. 
+@@@@
+> **"hub"** - Similar to "prev", though deals with the link and link text to your series hub. Alternatively, if you don't have a hub I recommend parenting it to either the SCP series list; or for tales something like the [https://scp-wiki.wikidot.com/curated-tale-series. Curated Tale Series Hub].
+@@@@
+> **"next"** - See "prev", though substitute "previous article" with "next article".
+@@@@
+> **"nextImage"** - See "prevImage", though substitute "left end" with "right end".
+
+If you want some simple images, this page comes with "prev.png", "next.png" and "hub.png" in the files down below.
+[[/div]]
+
+[[div class="box"]]
+[[=]]
+++++ ANT - Styles:
+[[/=]]
+----
+ANT currently has three different styles to choose from. You can change between styles by putting "one", "two", or "three" after where it says "styleNum= " in the import section. Below you can see an example of the styles.
+
+[[include component:image-block
+| name=STYLE1example.png
+| caption=ANT style 1 example
+| align=center
+| width=100%
+]]
+@@ @@
+[[include component:image-block
+| name=STYLE2example.png
+| caption=ANT style 2 example
+| align=center
+| width=100%
+]]
+@@ @@
+[[include component:image-block
+| name=STYLE3example.png
+| caption=ANT style 3 example
+| align=center
+| width=100%
+]]
+
+
+[[/div]]
+
+[[div class="box"]]
+[[=]]
+++++ ANT - Dual navigation bar:
+[[/=]]
+----
+If you have two tale series that both intersect on a single piece of work there is a dual version (With all of the different styles) of the ANT bar using the code below.
+
+When switching between modes, make sure the include statement is correct, as "dual= false" is used to display the original bar, whereas "dual= true", as shown in red below is used for the dual mode.
+
+[[div class="code"]]
+[[span style="color: #246eb7"]][[include :scp-wiki:component:advanced-navigation-toolbar-source [[/span]][[span style="color: #B52424"]]dual= true[[/span]]
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]styleNum[[/span]][[span style="color: #246eb7"]]=[[/span]] one
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]prev[[/span]][[span style="color: #246eb7"]]=[[/span]] articleURL [[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]prevtext[[/span]][[span style="color: #246eb7"]]=[[/span]] link text
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]prevImage[[/span]][[span style="color: #246eb7"]]=[[/span]] prevImageURL
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]prev2[[/span]][[span style="color: #246eb7"]]=[[/span]] article2URL [[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]prev2text[[/span]][[span style="color: #246eb7"]]=[[/span]] link2 text
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]prev2Image[[/span]][[span style="color: #246eb7"]]=[[/span]] prev2ImageURL
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]hub[[/span]][[span style="color: #246eb7"]]=[[/span]] hubURL [[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]hubtext[[/span]][[span style="color: #246eb7"]]=[[/span]] Name
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]hubImage[[/span]][[span style="color: #246eb7"]]=[[/span]] imageRepresentingHub
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]next[[/span]][[span style="color: #246eb7"]]=[[/span]] articleURL [[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]nexttext[[/span]][[span style="color: #246eb7"]]=[[/span]] link text
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]nextImage[[/span]][[span style="color: #246eb7"]]=[[/span]] nextImageURL
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]next2[[/span]][[span style="color: #246eb7"]]=[[/span]] article2URL [[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]next2text[[/span]][[span style="color: #246eb7"]]=[[/span]] link2 text
+[[span style="color: #246eb7"]]|[[/span]][[span style="color: #728fac"]]next2Image[[/span]][[span style="color: #246eb7"]]=[[/span]] next2ImageURL
+[[span style="color: #246eb7"]]]][[/span]]
+[[/div]]
+[[div class="box"]]
+[[=]]
+[[collapsible show="Code used to produce the example image below:" hide="Code used to produce the example image below:"]]
+
+[[<]]
+[[div class="code"]]
+@@[[include :scp-wiki:component:advanced-navigation-toolbar-source dual= true@@
+@@|styleNum= three@@
+@@|prev= https://scp-wiki.wikidot.com/scp-001 |prevtext= prev article@@
+@@|prevImage= https://scp-wiki.wdfiles.com/local--files/dr-moned-s-icons-and-art/Damnum.png@@
+@@|prev2= https://scp-wiki.wikidot.com/scp-002 |prev2text= another prev article@@
+@@|prev2Image= https://scp-wiki.wdfiles.com/local--files/dr-moned-s-icons-and-art/Yesod.png@@
+@@|hub= https://scp-wiki.wikidot.com/ |hubtext= My Big Hub@@
+@@|hubImage= https://timebox.wikidot.com/local--files/anttestinput3/ArchivistIcon.png@@
+@@|next= https://scp-wiki.wikidot.com/scp-003 |nexttext= nextArticle@@
+@@|nextImage= https://scp-wiki.wdfiles.com/local--files/dr-moned-s-icons-and-art/Heimal.png@@
+@@|next2= https://scp-wiki.wikidot.com/scp-004 |next2text= another nextArticle@@
+@@|next2Image= https://scp-wiki.wdfiles.com/local--files/dr-moned-s-icons-and-art/Terminal.svg@@
+]]
+[[/div]]
+[[/<]]
+
+[[/collapsible]]
+[[/=]]
+[[/div]]
+[[include component:image-block
+| name=BIGANTexample.png
+| caption=Dual ANT bar.
+| align=center
+| width=100%
+]]
+[[/div]]

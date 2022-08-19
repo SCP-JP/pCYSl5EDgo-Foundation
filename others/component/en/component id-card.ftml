@@ -1,0 +1,276 @@
+[[iftags +component]]
+
+[[div style="border: solid 2px #ededed; padding: 0.5rem; margin: 1rem 0;"]]
+This is a component used to make decorative ID cards.
+[[=image https://scp-wiki.wdfiles.com/local--files/component%3Aid-card/idcard.png width="80%"]]
+
+[[div class="code" style="width:80%;margin:auto" ]]
+@@[[include :scp-wiki:component:id-card@@ ##blue|**@@|css=--@@**##
+@@|photo=https://scp-wiki.wdfiles.com/local--files/estrellayoshte/u.png@@
+|level=3 [[span style="color:blue;font-style:italic;user-select:none"]]Supports 1 to 5[[/span]]
+|name=Suong Yvonne
+|dept=of Design |position=Iconographer
+|id-number= 3492-775201
+|expiry=06/2029
+@@]]@@
+[[/div]]
+
+If multiple cards are placed on one page, you only need the {{css}} parameter once, and can otherwise be omitted on subsequent {{[[include]]}}s.
+
+[[/div]]
+
+
+[[code type="css"]]
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+    --id-card-five-color: 196,2,51;
+    --id-card-four-color: 255,109,0;
+    --id-card-three-color: 255,211,0;
+    --id-card-two-color: 0,135,189;
+    --id-card-one-color: 0,159,107;
+
+    --id-card-margin: min(1.5rem, calc(1.75vw + 0.325rem));
+    --id-card-border-color: 210,210,210;
+    --id-card-text-color: 20,20,20;
+    --id-card-subtext-color: 140,140,140;
+    --id-card-background-color: 252,252,252;
+    --id-card-background-logo: url('https://scp-wiki.wdfiles.com/local--files/component%3Aid-card/SCP_F.png');
+    --id-card-background-logo-opacity: 0.075;
+}
+
+#page-content .foundation-id-card {
+    max-width: calc(var(--id-card-margin)*24.5);
+}
+.foundation-id-card {
+    display: grid;
+    grid-template-areas:
+        "pfp level"
+        "pfp info"
+        "extra extra";
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: calc(var(--id-card-margin)*3) auto auto;
+    grid-gap: calc(var(--id-card-margin)*0.625);
+    box-sizing: border-box;
+    padding: var(--id-card-margin);
+    margin: 1.5rem auto;
+    border-radius: calc(var(--id-card-margin)*0.75);
+    box-shadow: 0 0 0.325rem rgba(0,0,0,0.175);
+    line-height: 1.125;
+    font-family: 'Lexend', sans-serif;
+    color: rgb(var(--id-card-text-color));
+    background-color: rgb(var(--id-card-background-color));
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.foundation-id-card::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: var(--id-card-background-logo-opacity);
+    background-image: var(--id-card-background-logo);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 150% 50%;
+    z-index: -1;
+}
+
+.foundation-id-card .profile-picture {
+    grid-area: pfp;
+    box-sizing: border-box;
+    border: solid 0.125rem rgb(var(--id-card-border-color));
+    border-radius: calc(var(--id-card-margin)*0.385);
+    aspect-ratio: 4/5;
+    overflow: hidden;
+    position: relative;
+}
+.foundation-id-card .profile-picture img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.foundation-id-card .level-container {
+    grid-area: level;
+    display: flex;
+    grid-gap: calc(var(--id-card-margin)*0.325);
+    align-items: center;
+}
+.foundation-id-card .level-container .levels {
+    display: flex;
+    flex-direction: column;
+    grid-gap: calc(var(--id-card-margin)*0.285);
+    max-height: calc(var(--id-card-margin)*3);
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+.foundation-id-card .level-container .levels .level {
+    display: none;
+    flex-basis: calc(var(--id-card-margin)*0.5);
+    flex-shrink: 1;
+}
+.foundation-id-card .level-container .levels.l-1 .level:is(:nth-child(1)) {
+    display: block;
+    background-color: rgb(var(--id-card-one-color));
+}
+.foundation-id-card .level-container .levels.l-2 .level:is(:nth-child(1), :nth-child(2)) {
+    display: block;
+    background-color: rgb(var(--id-card-two-color));
+}
+.foundation-id-card .level-container .levels.l-3 .level:is(:nth-child(1), :nth-child(2), :nth-child(3)) {
+    display: block;
+    background-color: rgb(var(--id-card-three-color));
+}
+.foundation-id-card .level-container .levels.l-4 .level:is(:nth-child(1), :nth-child(2), :nth-child(3), :nth-child(4)) {
+    display: block;
+    background-color: rgb(var(--id-card-four-color));
+}
+.foundation-id-card .level-container .levels.l-5 .level {
+    display: block;
+    background-color: rgb(var(--id-card-five-color));
+}
+
+
+.foundation-id-card .access {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: calc(var(--id-card-margin)*1.425);
+    line-height: calc(var(--id-card-margin)*1.325);
+}
+.foundation-id-card .access > * { font-weight: bold; }
+.foundation-id-card .access span:first-child { font-size: 103.5%; }
+.foundation-id-card .access br { display: none; }
+
+.foundation-id-card .info {
+    grid-area: info;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: calc(var(--id-card-margin)*0.375);
+}
+.foundation-id-card .info > * {
+    flex-grow: 1;
+}
+.foundation-id-card .info > .fullname {
+    flex-basis: 100%;
+}
+.foundation-id-card .info > * br { display: none; }
+.foundation-id-card .info > * .heading {
+    display: block;
+    text-transform: uppercase;
+    font-size: calc(var(--id-card-margin)*0.675 + 0.075rem);
+    letter-spacing: -0.025em;
+    color: rgb(var(--id-card-subtext-color));
+}
+.foundation-id-card .info > * .fill-info {
+    font-size: calc(var(--id-card-margin) + 0.05rem);
+    font-weight: bold;
+    line-height: 1.05;
+}
+.foundation-id-card .info > .fullname .fill-info {
+    font-size: calc(var(--id-card-margin)*1.1 + 0.125rem);
+}
+
+.foundation-id-card .card-end {
+    grid-area: extra;
+    display: flex;
+    height: calc(var(--id-card-margin)*2);
+    align-items: center;
+    padding-top: calc(var(--id-card-margin)*0.625);
+    grid-gap: calc(var(--id-card-margin)*0.375);
+    border-top: solid 0.125rem rgb(var(--id-card-border-color));
+    overflow: hidden;
+}
+.foundation-id-card .card-end .barcode {
+    font-family: 'Libre Barcode 128', cursive;
+    user-select: none;
+    height: 100%;
+    flex-basis: 67.5%;
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: calc(var(--id-card-margin)*3.5);
+    line-height: 1;
+    align-self: flex-start;
+    box-sizing: border-box;
+}
+.foundation-id-card .card-end .expire {
+    color: rgb(var(--id-card-subtext-color));
+    font-size: calc(var(--id-card-margin)*0.525);
+    font-family: 'Share Tech Mono', monospace;
+    align-self: flex-end;
+    text-align: right;
+    min-width: max-content;
+}
+.foundation-id-card .card-end .expire .id .sublead { font-size: 80%; margin-right: 0.75ch; }
+.foundation-id-card .card-end .expire .id { font-size: 115%; }
+[[/code]]
+[[/iftags]]
+
+[!-- {$css}]
+[[module css]]
+@import url("https://scp-wiki.wdfiles.com/local--code/component:id-card/1");
+[[/module]]
+[!-- --]
+
+[[div class="foundation-id-card"]]
+
+[[div_ class="profile-picture"]]
+[[image {$photo}]]
+[[/div]]
+
+[[div_ class="level-container"]]
+[[div_ class="levels l-{$level}"]]
+[[div class="level"]]
+[[/div]]
+[[div class="level"]]
+[[/div]]
+[[div class="level"]]
+[[/div]]
+[[div class="level"]]
+[[/div]]
+[[div class="level"]]
+[[/div]]
+[[/div]]
+[[div_ class="access"]]
+[[span]]Level{$level}[[/span]]
+[[span]]Access[[/span]]
+[[/div]]
+[[/div]]
+
+[[div_ class="info"]]
+[[div_ class="fullname"]]
+[[span class="heading"]]Full Name[[/span]]
+[[span class="fill-info"]]{$name}[[/span]]
+[[/div]]
+[[div_ class="department"]]
+[[span class="heading"]]Department[[/span]]
+[[span class="fill-info"]]{$dept}[[/span]]
+[[/div]]
+[[div_ class="position"]]
+[[span class="heading"]]Position[[/span]]
+[[span class="fill-info"]]{$position}[[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="card-end"]]
+[[div_ class="barcode"]]
+{$id-number}{$id-number}
+[[/div]]
+[[div_ class="expire"]]
+[[span class="id"]][[span class="sublead"]]ID NO.[[/span]]{$id-number}[[/span]]
+[[span class="valid"]]Valid until {$expiry}[[/span]]
+[[/div]]
+[[/div]]
+
+[[/div]]

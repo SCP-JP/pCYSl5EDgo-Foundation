@@ -1,0 +1,173 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+[[module css]]
+h1, h2 {
+    text-align: center;
+}
+
+.help {
+    display: flex;
+    align-content: stretch;
+    padding-top: 1em;
+}
+
+.help blockquote {
+    margin: 0;
+    font-size: 85%;
+}
+
+.help blockquote > p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-right: 0;
+    min-height: 2rem;
+    margin: 0;
+}
+
+.help blockquote > p * {
+    margin: 0 0.1rem;
+    height: 100%;
+}
+
+.help blockquote:nth-of-type(1) {
+    background: transparent;
+    border: unset;
+    box-shadow: unset;
+    text-align: right;
+    margin-right: 0;
+    padding: 0;
+}
+
+.help blockquote:nth-of-type(1) > p {
+    justify-content: flex-end;
+}
+
+.help blockquote:nth-of-type(2) {
+    margin-left: 1em;
+    width: 50%;
+}
+[[/module]]
+
+[[include :scp-wiki:component:object-class-bar-source
+|item-num=4444
+|obj-class=Keter
+|site-resp=USMILA Site-19
+|director=Tilda Moose
+|rsch-head=K. P. Crow
+|task-force=N/A
+|colorbar-bg-color=rgb(59,54,181)
+|colorbar-bg-img=linear-gradient(0deg, rgba(59,54,181,1) 0%, rgba(209,209,209,1) 45%, rgba(209,209,209,1) 50%, rgba(209,209,209,1) 55%, rgba(173,0,3,1) 100%)
+|colorbar-one=full
+|colorbar-two=full
+|colorbar-three=full
+|colorbar-four=full
+|colorbar-five=half
+|colorbar-six=none
+|level=4
+|secrecy=Classified
+]]
+
+[[iftags +component]]
++ How to use
+
+++ 1. Copy code below.
+++ 2. Follow guide on bottom.
+
+> @@[[include :scp-wiki:component:object-class-bar-source@@
+> @@|item-num=4444@@
+> @@|obj-class=Esoteric Class Ticonderoga@@
+> @@|site-resp=USMILA Site-19@@
+> @@|director=Tilda Moose@@
+> @@|rsch-head=K. P. Crow@@
+> @@|task-force=N/A@@
+> @@|colorbar-bg-color=rgb(0,0,0)@@
+> @@|colorbar-bg-img=optional@@
+> @@|colorbar-one=full@@
+> @@|colorbar-two=full@@
+> @@|colorbar-three=full@@
+> @@|colorbar-four=full@@
+> @@|colorbar-five=half@@
+> @@|colorbar-six=none@@
+> @@|level=4@@
+> @@|secrecy=Classified@@
+> @@]]@@
+
+[[div_ class="help"]]
+> Beginning of component include. **Will need to paste this entire code per block.** ↦ 
+> 
+> Item # for the SCP ↦ 
+> 
+> Object class for the SCP ↦
+> 
+> Site Containing SCP ↦ 
+> 
+> Director in charge of SCP ↦ 
+> 
+> Researcher in charge of SCP ↦ 
+> 
+> Task Force in charge of SCP ↦ 
+> 
+> Color of the color bars //(accepts hex, rgb, rgba, hsl)// ↦ 
+> 
+> OPTIONAL background image for color bars //(accepts urls and gradients)// ↦ 
+> 
+> Choose whether the first color bar is full opacity //(accepts arguments "full", "half", and "none")// ↦ 
+> 
+> Choose whether the second color bar is full opacity //(accepts arguments "full", "half", and "none")// ↦ 
+> 
+> Choose whether the third color bar is full opacity //(accepts arguments "full", "half", and "none")// ↦ 
+> 
+> Choose whether the forth color bar is full opacity //(accepts arguments "full", "half", and "none")// ↦ 
+> 
+> Choose whether the fifth color bar is full opacity //(accepts arguments "full", "half", and "none")// ↦ 
+> 
+> Choose whether the sixth color bar is full opacity //(accepts arguments "full", "half", and "none")// ↦ 
+> 
+> The clearance # of the SCP ↦ 
+> 
+> The clearance level of the SCP ↦ 
+> 
+> End of Include Block
+> 
+
+> [[include :scp-wiki:component:object-class-bar-source
+> 
+> |item-num=4444
+> 
+> |obj-class=Esoteric Class Ticonderoga
+> 
+> |site-resp=USMILA Site-19
+> 
+> |director=Tilda Moose
+> 
+> |rsch-head=K. P. Crow
+> 
+> |task-force=N/A
+> 
+> |colorbar-bg-color=rgb(0,0,0)
+> 
+> |colorbar-bg-img=optional
+> 
+> |colorbar-one=full
+> 
+> |colorbar-two=full
+> 
+> |colorbar-three=full
+> 
+> |colorbar-four=full
+> 
+> |colorbar-five=half
+> 
+> |colorbar-six=none
+> 
+> |level=4
+> 
+> |secrecy=Classified
+> 
+> ]]
+> 
+[[/div]]
+[[/iftags]]

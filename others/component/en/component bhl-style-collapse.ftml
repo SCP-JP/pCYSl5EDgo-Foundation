@@ -1,0 +1,225 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include component:bhl-style-collapse-source
+|scp-number=XXXX]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div_ class="no-addendum"]]
+[[collapsible show="CODE" hide="CODE"]]
+[[div_ style="font-size: 65%;"]]
+[[code type="css"]]
+[[include component:bhl-style-collapse-source]]
+[[/code]]
+[[/div]]
+[[/collapsible]]
+[[/div]]
+@@@@
+[[div class="no-addendum" style="border: solid 1px #444444; padding: 1px 10px; margin: auto; box-shadow: 1px 1px 5px rgba(0,0,0,.3)"]]
++ Including
+On any wiki:
+[[div class="code" style="font-family: monospace;"]]
+@@[[include :scp-wiki:component:bhl-style-collapse-source@@
+@@|scp-number=XXXX]]@@
+[[/div]]
+
+Be sure to set the "scp-number" variable accordingly. If you aren't using the [http://scp-wiki.wikidot.com/theme:black-highlighter-theme Black Highlighter Theme] on your article, insert this CSS module after the previous include:
+[[collapsible show="CSS" hide="CSS"]]
+[[div_ style="font-size: 65%;"]]
+[[code type="css"]]
+[[module css]]
+/* bhl-style-collapse Sigma-9 Compatiblity Patch */
+#page-content .collapsible-block-folded, #page-content .collapsible-block-unfolded, #page-content .unfolded-collapse{
+    line-height: 1.4;
+}
+#page-content .collapsible-block-folded .collapsible-block-link::before, #page-content .collapsible-block-unfolded .collapsible-block-link::before, #page-content .unfolded-collapse::before {
+    font-family: monospace;
+    font-size: 130%;
+    margin-left: -0.4em
+}
+[[/module]]
+[[/code]]
+[[/div]]
+[[/collapsible]]
+@@ @@
+[[/div]]
++ What this is
+This is an unofficial [http://scp-wiki.wikidot.com/theme:black-highlighter-theme Black Highlighter Theme] component that adds slick, animated BHL-style collapsible bars to your articles. It affects the existing {{[collapsible]}} element. Your articles will probably require only minor modification to be made compatible.
+
+[[collapsible show="CLICK ME!" hide="CLICK ME!"]]
+
+**Features:**
+* Slick, excessive animations that will surely make at least a few people slam the upvote button
+* Compatible with mobile
+* Somewhat customizable (see below)
+* Literally does the addendum counting for you lmao
+* Standalone custom div decorations for those that don't care about the clicky smashy part
+* That arrow that faces right turns downward when it unfolds HOW COOL IS THAT!?
+* You know if you get enough upvotes, you might just finally be at peace with yourself. Come on, include the module. It's what you need.
+
+**Restrictions:**
+* It will affect //all// collapsibles. If you have some custom ones, you'll need to learn some CSS editing.
+* It looks very silly when you set {{hideLocation}} to "both"
+* It does not magically add support for nested collapsibles. This is just CSS.
+
+[[/collapsible]]
+
+[[div_ class="no-addendum"]]
+[[collapsible show="CHANGELOG" hide="CHANGELOG"]]
+**1/2/2022**
+* Added customization options for the "Addendum XXXX" text.
+* Added customization options for collapsible colors.
+* Hovering over/clicking a collapsible now changes the color of the collapsible header and footer.
+* "END OF ADDENDUM" text now always fits on one line, regardless of text size.
+* Collapsibles inside "no-addendum" divs no longer cut off show/hide text.
+* The underline for collapsible text now stays hidden.
+
+**7/9/2020**
+* Added Sigma-9 compatibility patch
+* Fixed conflict with Ayer's info module
+[[/collapsible]]
+[[/div]]
+-----
++ Usage
+[[div style="border: solid 1px #444444; padding: 1px 10px; margin: auto; box-shadow: 1px 1px 5px rgba(0,0,0,.3)"]]
++++++ Collapsible
+**Normal:**
+This component modifies the standard collapsible, so this is entirely the same. Heavily recommended that you make the 'show' and 'hide' fields the same.
+
+//Note:// The "{{ADDENDUM XXXX.N}}" is automatically added and incremented based on the number of previous collapsibles. It can be removed, see below.
+[[collapsible show="COOL THING" hide="COOL THING"]]
+[[code]]
+[[collapsible show="COOL THING" hide="COOL THING"]]
+Stuff!
+[[/collapsible]]
+[[/code]]
+[[/collapsible]]
+**Always Unfolded:**
+To be clear, this is literally just an "in-place" decorative element. You aren't actually putting any of your article inside of this "collapsible."
+
+//Note:// The "{{ADDENDUM XXXX.N}}" counter is still incremented by these collapsibles.
+[[div_ class="unfolded-collapse"]]
+COOL THING
+[[/div]]
+[[div_ class="unfolded-collapse-border"]]
+[[/div]]
+[[code]]
+[[div_ class="unfolded-collapse"]]
+COOL THING
+[[/div]]
+[[div_ class="unfolded-collapse-border"]]
+[[/div]]
+[[/code]]
+[[/div]]
+----
+[[div style="border: solid 1px #444444; padding: 1px 10px; margin: auto; box-shadow: 1px 1px 5px rgba(0,0,0,.3)"]]
++++++ Modifiers
+**Changing Colors:**
+//Note:// This will affect //all// collapsibles in the article.
+{{@@--base-color:@@}} The color of collapsibles you aren't hovering over.
+{{@@--hover-color@@:}} The color of collapsibles you are hovering over.
+{{@@--click-color:@@}} The color a collapsible flashes when you click on it.
+The default values are included below. You only need to add this code if you want to use different colors.
+[[code]]
+[[module css]]
+:root{
+  --base-color: rgb(66, 66, 72);
+  --hover-color: rgb(100, 46, 44);
+  --click-color: rgb(133, 0, 5);
+}
+[[/module]]
+[[/code]]
+
+**Centering:**
+[[div_ class="center-collapse"]]
+[[collapsible show="COOL THING" hide="COOL THING"]]
+[[code]]
+[[div_ class="center-collapse"]]
+[[collapsible show="COOL THING" hide="COOL THING"]]
+Stuff!
+[[/collapsible]]
+[[/div]]
+[[/code]]
+[[/collapsible]]
+[[/div]]
+
+[[div_ class="center-collapse"]]
+[[div_ class="unfolded-collapse"]]
+COOL THING
+[[/div]]
+[[div_ class="unfolded-collapse-border"]]
+[[/div]]
+[[/div]]
+[[code]]
+[[div_ class="center-collapse"]]
+[[div_ class="unfolded-collapse"]]
+COOL THING
+[[/div]]
+[[div_ class="unfolded-collapse-border"]]
+[[/div]]
+[[/div]]
+[[/code]]
+
+**Remove "Addendum" and Animation:**
+//Note:// The "{{ADDENDUM XXXX.N}}" counter is still incremented by these collapsibles.
+[[div_ class="no-addendum"]]
+[[collapsible show="COOL THING" hide="COOL THING"]]
+[[code]]
+[[div_ class="no-addendum"]]
+[[collapsible show="COOL THING" hide="COOL THING"]]
+Stuff!
+[[/collapsible]]
+[[/div]]
+[[/code]]
+[[/collapsible]]
+[[/div]]
+
+[[div_ class="no-addendum"]]
+[[div_ class="unfolded-collapse"]]
+COOL THING
+[[/div]]
+[[div_ class="unfolded-collapse-border"]]
+[[/div]]
+[[/div]]
+[[code]]
+[[div_ class="no-addendum"]]
+[[div_ class="unfolded-collapse"]]
+COOL THING
+[[/div]]
+[[div_ class="unfolded-collapse-border"]]
+[[/div]]
+[[/div]]
+[[/code]]
+
+**Remove Footer:**
+[[div_ class="no-footer"]]
+[[collapsible show="COOL THING" hide="COOL THING"]]
+[[code]]
+[[div_ class="no-footer"]]
+[[collapsible show="COOL THING" hide="COOL THING"]]
+Stuff!
+[[/collapsible]]
+[[/div]]
+[[/code]]
+[[/collapsible]]
+[[/div]]
+@@@@
+[[/div]]
+----
+[[div style="border: solid 1px #444444; padding: 1px 10px; margin: auto; box-shadow: 1px 1px 5px rgba(0,0,0,.3)"]]
++++++ Footer
+[[code]]
+[[div_ class="addendumfooter"]]
+[[/div]]
+[[/code]]
+[[div_ class="addendumfooter"]]
+[[/div]]
+@@@@
+[[/div]]
++ Credits
+* [[*user monkatraz]]
+* [[*user AnActualCrow]]
+* [[*user Stormbreath]]
+* About 1500 people on Google

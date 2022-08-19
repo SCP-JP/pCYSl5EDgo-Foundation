@@ -1,0 +1,23 @@
+[[module CSS]]
+.page-tags {
+    display: none;
+}
+[[/module]]
+
+[!-- Component info --]
+[[iftags +component]]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+This component hides the tag list on the page it is included on.
+
+Usage of this component is **not** permitted without Tech approval. It may only be used on offset articles on **the first offset only**.
+
+See the [[[Technical Content Policy]]] for information.
+
+**Usage:**
+[[div class="code"]]
+@<[[include :scp-wiki:component:hide-tags]]>@
+[[/div]]
+[[/iftags]]

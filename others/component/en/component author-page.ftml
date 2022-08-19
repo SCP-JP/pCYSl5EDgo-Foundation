@@ -1,0 +1,228 @@
+[[module css]]
+
+.infobox {
+ display:inline-box;
+ overflow:hidden;
+ position:fixed;
+ right: 1em;
+ bottom: 2em;
+ width: 21%;
+ width: calc(50vw - 520px);
+ min-width: 250px;
+ height:23%;
+ padding:1%;
+ float:top; 
+ box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+ background-color:#ffffff;
+ opacity: 1;
+ transition: all 0.5s ease-out;
+}
+
+.infobox:hover {
+  color:rgba(0, 0, 0, 0.5);
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.au-preview{
+ color:grey;
+ width:100%;
+ display: inline-block;
+ padding-left:1%;
+ transition: box-shadow 1s ease-out;
+}
+
+.au-preview:hover{
+ box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.19);
+ transition: box-shadow 0.3s ease-out;
+}
+
+.au-preview.yes:hover, 
+.au-preview.true:hover{
+  background: url('https://scp-wiki.wdfiles.com/local--files/component%3Aauthor-page/scpf-seal.png') 80% 50% fixed no-repeat;
+}
+
+.au-preview .span { 
+ opacity: 0;
+ pointer-events: none;
+ transition: all 0.3s ease-in-out;
+ text-overflow:ellipsis;
+ position:fixed;
+ z-index: 11;
+ right: 1em;
+ bottom: 2em;
+ width:21%;
+ width: calc(50vw - 520px);
+ min-width: 250px;
+ height:23%;
+ padding:1%;
+ float:top; 
+ color:grey;
+ text-size:0.9em;
+ font-family:Segoe UI Light,Verdana,sans-serif;
+}
+
+.au-preview:hover .span { 
+ opacity: 1;
+ background-color:#ffffff;
+}
+
+.collab-header{
+ display:none;
+}
+
+.imagepre{
+ background:#fff;
+ max-width:80%;
+ position:absolute;
+ right: 1em;
+ bottom:calc(100% - 1em);
+ box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imagepre.\{\$image\} {
+display:none
+}
+
+.sortbar.no{
+display:none
+}
+
+@media screen and (max-width:992px) {
+    .au-preview .span{
+    	display: none;
+    }
+    .infobox {
+    	position: relative;
+    	margin: 1em auto;
+    	right: 0;
+    	bottom: 0;
+    }
+}
+
+#page-options-container {
+ background: transparent;
+ position: relative;
+ z-index: 10;
+}
+
+#action-area { position: relative; z-index: 20; }
+
+[[/module]]
+
+
+
+[[div class="infobox"]]
+@@@@
+[[module Listpages created_by="=" tag="-author -workbench -contest -splash -supplement -international" category="-fragment -component" limit="1" order="random"]]
+= **[[[*%%link%%|Random Work!]]]**
+
+= {{**%%created_by_linked%%**}}
+[[/module]]
+[[module Countpages created_by="=" tag="-workbench -contest" category="-fragment -component"]]
+= %%total%% Pages
+[[/module]]
+[[/div]]
+
+[[div class="sortbar {$sortbar}"]]
+[[module ListPages fullname="="]]
+= [/%%fullname%%/order/created_at  Chronological order] | [/%%fullname%%/order/created_at%20desc  Recently posted] | [/%%fullname%%/order/rating%20desc  Top rated]  | [/%%fullname%%/order/updated_at%20desc/category/* Recently updated]
+[[/module]]
+[[/div]]
+
+[!-- SCP Block: Auto disabled if none --]
+[[module Listpages created_by="=" tag="-international +scp" category="-fragment -component" limit="1"]]
+[[div style="text-align: center;"]]
+-----
+++ SCPs
+-----
+[[/div]]
+[[/module]]
+
+[[module Listpages created_by="=" order="@URL|{$order}" tag="-international +scp" category="-fragment -component" perPage="{$perPage}"]]
+[[div class="au-preview {$background}"]]
+**%%title_linked%%**
+ +**{{%%rating%%}}**@@   @@^^...^^ **{{%%comments%%}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%D %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%D %H:%M%%}}**
+[[div class="span"]]
+[[image :first class="imagepre {$image}"]]
+%%preview%%
+##000000|//tags://## %%tags%%
+[[/div]]
+[[/div]]
+[[/module]]
+
+[!-- Tale Block: Auto disabled if none --]
+[[module Listpages created_by="=" tag="-international +tale" category="-fragment -component" limit="1"]]
+[[div style="text-align: center;"]]
+-----
+++ Tales
+-----
+[[/div]]
+[[/module]]
+
+[[module Listpages created_by="=" order="@URL|{$order}" tag="-international +tale" category="-fragment -component" perPage="{$perPage}"]]
+[[div class="au-preview"]]
+**%%title_linked%%**
+ +**{{%%rating%%}}**@@   @@^^...^^ **{{%%comments%%}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%D %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%D %H:%M%%}}**
+[[div class="span"]]
+[[image :first class="imagepre {$image}"]]
+%%preview%%
+##000000|//tags://## %%tags%%
+[[/div]]
+[[/div]]
+[[/module]]
+
+[!-- GoI Block: Auto disabled if none --]
+[[module Listpages created_by="=" category="-fragment -component" tag="-international +goi-format" limit="1"]]
+[[div style="text-align: center;"]]
+-----
+++ GoI Formats
+-----
+[[/div]]
+[[/module]]
+
+[[module Listpages created_by="=" order="@URL|{$order}" category="-fragment -component" tag="-international +goi-format" perPage="{$perPage}"]]
+[[div class="au-preview {$background}"]]
+**%%title_linked%%**
+ +**{{%%rating%%}}**@@   @@^^...^^ **{{%%comments%%}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%D %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%D %H:%M%%}}**
+[[div class="span"]]
+[[image :first class="imagepre {$image}"]]
+%%preview%%
+##000000|//tags://## %%tags%%
+[[/div]]
+[[/div]]
+[[/module]]
+
+[!-- Others Block: Auto disabled if none --]
+[[module Listpages created_by="=" category="-fragment -component" tag="-scp -tale -goi-format" limit="1"]]
+[[div style="text-align: center;"]]
+-----
+++ Others
+-----
+[[/div]]
+[[/module]]
+
+[[module Listpages created_by="=" order="@URL|{$order}" category="-fragment -component" tag="-scp -tale -goi-format" perPage="{$perPage}"]]
+[[div class="au-preview {$background}"]]
+**%%title_linked%%**
+ +**{{%%rating%%}}**@@   @@^^...^^ **{{%%comments%%}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%D %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%D %H:%M%%}}**
+[[div class="span"]]
+[[image :first class="imagepre {$image}"]]
+%%preview%%
+##000000|//tags://## %%tags%%
+[[/div]]
+[[/div]]
+[[/module]]
+
+[[div class="collab-header" style="text-align: center;"]]
+-----
+++ Collaborations
+-----
+[[/div]]
