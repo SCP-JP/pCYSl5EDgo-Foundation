@@ -1,0 +1,42 @@
+[[module CSS]]
+@import url(http://scp-jp.wdfiles.com/local--code/info%3Astyle/1);
+[[/module]]
+
+[[div class="creditRate"]]
+[[div class="rateBox" [[iftags 殿堂入り]]style="display:none;"[[/iftags]]]]
+[[div class="rate-box-with-credit-button"]]
+[[module Rate]]
+[[div class="creditButton"]]
+[[a href="#u-credit-view" class="fa fa-info"]]@@@@[[/a]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[div class="rateBox" [[iftags -殿堂入り]]style="display:none;"[[/iftags]]]]
+[[div class="heritage-rating-module"]]
+[[div class="heritage-emblem"]]
+[[image http://scp-jp.wdfiles.com/local--files/component%3Aheritage-rating/scp-heritage-v3.png link="heritage-collection-arc" style="max-width: none;"]]
+[[/div]]
+[[module Rate]]
+[[div class="creditButton"]]
+[[a href="#u-credit-view" class="fa fa-info"]]@@@@[[/a]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div style="clear:both;"]]
+[[/div]]
+
+[[div id="credit-view"]]
+[[div class="fader"]]
+[[iframe http://scp-jp-sandbox3.wdfiles.com/local--code/credit%3Abackmodule/1 ]]
+[[/div]]
+
+[[div class="modalcontainer"]]
+[[div class="modalbox"]]
+[[=]]
+++* Info
+[[/=]]
+------
+[[div class="credit first"]]
+[[iframe http://scp-jp.wdfiles.com/local--code/info%3Astyle/3 class="close-credits" style="height:2em;margin: 0;padding: 0;border: 0;background: transparent;"]]
