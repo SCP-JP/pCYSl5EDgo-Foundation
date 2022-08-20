@@ -341,7 +341,7 @@
 [[/div]]
 [[/div]]
 @@ @@
-[[div style="float: center; border:dashed 2px #444444 ; width: auto; padding-top:15px; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="experiment"]]
 [[table style="border: none; width: 100%;"]]
 [[row]]
 [[cell]]
@@ -371,7 +371,7 @@
 [[/div]]
 [[/div]]
 @@ @@
-[[div style="float: center; border:dashed 2px #444444 ; width: auto; padding-top:15px; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="experiment"]]
 [[table style="border: none; width: 100%;"]]
 [[row]]
 [[cell]]
@@ -411,7 +411,7 @@
 [[/div]]
 [[/div]]
 @@ @@
-[[div style="float: center; border:dashed 2px #444444 ; width: auto; padding-top:15px; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="experiment"]]
 [[table style="border: none; width: 100%;"]]
 [[row]]
 [[cell]]
@@ -445,7 +445,7 @@
 [[/div]]
 [[/div]]
 @@ @@
-[[div style="float: center; border:dashed 2px #444444 ; width: auto; padding-top:15px; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="experiment"]]
 [[table style="border: none; width: 100%;"]]
 [[row]]
 [[cell]]
@@ -479,7 +479,7 @@
 [[/div]]
 [[/div]]
 @@ @@
-[[div style="float: center; border:dashed 2px #444444 ; width: auto; padding-top:15px; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="experiment"]]
 [[table style="border: none; width: 100%;"]]
 [[row]]
 [[cell]]
@@ -511,7 +511,7 @@
 [[/div]]
 [[/div]]
 @@ @@
-[[div style="float: center; border:dashed 2px #444444 ; width: auto; padding-top:15px; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="experiment"]]
 [[table style="border: none; width: 100%;"]]
 [[row]]
 [[cell]]
@@ -541,7 +541,7 @@
 [[/div]]
 [[/div]]
 @@ @@
-[[div style="float: center; border:dashed 2px #444444 ; width: auto; padding-top:15px; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="experiment"]]
 [[table style="border: none; width: 100%;"]]
 [[row]]
 [[cell]]
@@ -1180,6 +1180,17 @@ body .italic, body .italic *, body em, body em *, body i, body i * {
 
 :root {
     --zero: 0;
+}
+
+div.experiment {
+   float: center;
+   border:dashed 2px #444444;
+   width: auto;
+   padding-top:15px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin: auto;
 }
 
 span.o {
