@@ -70,7 +70,7 @@
 [[span class="o"]]While it is judged that potential effects able to bypass the postmortem regeneration may exist, it is believed that SCP-6086 is impossible to neutralize with standard and easily accessible methods. It is not known whether the entity would eventually self-terminate due to old age.[[/span]]
 [[/div]]
 
-[[div style="float: center; border: solid 5px #444444; width: auto; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="proposal"]]
 = [[span class="o"]][[size 180%]]**Discovery of SCP-6086**[[/size]][[/span]]
 [[/div]]
 [[div style="float: center; border-bottom: dashed 2px #444444; border-right: dashed 2px #444444; border-left: dashed 2px #444444; border-top: none ; width: auto; padding-top:3px; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
@@ -191,10 +191,10 @@
 [[/div]]
 @@ @@
 
-[[div style="float: center; border: solid 5px #444444; width: auto; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="proposal"]]
 = [[span class="o"]][[size 180%]]**Containment Log**[[/size]][[/span]]
 [[/div]]
-[[div style="float: center; border-bottom: solid 2px #444444; border-right: solid 2px #444444; border-left: solid 2px #444444; border-top: none ; width: auto; padding-top:15px; padding-bottom: 15px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="proposal-collapsible"]]
 [[=]]
 [[collapsible show="+ Interrogation of SCP-6086 1906/06/09" hide="- 閉じる"]]
 [[/=]]
@@ -308,17 +308,17 @@
 [[/div]]
 [[/collapsible]]
 [[/div]]
-[[div style="float: center; border-bottom: solid 2px #444444; border-right: solid 2px #444444; border-left: solid 2px #444444; border-top: none ; width: auto; padding-top:15px; padding-bottom: 15px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="proposal-collapsible"]]
 [[=]]
 [[collapsible show="+ 実験記録" hide="- 閉じる"]]
 [[/=]]
-[[div style="float: center; border:dashed 2px #444444 ; width: auto; padding-top:15px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
-[[table style="border: none; width: 100%;"]]
+[[div class="experiment"]]
+[[table]]
 [[row]]
 [[cell]]
 **実験番号:** 1
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 **対象:** SCP-6086
 [[/cell]]
 [[/row]]
@@ -326,7 +326,7 @@
 [[cell]]
 **実験日:** 1906/06/11
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 [[span class="o"]]**Lead researcher:** Fabian Turner[[/span]]
 **主任研究員:** ファビアン・ターナー
 [[/cell]]
@@ -347,12 +347,12 @@
 [[/div]]
 @@ @@
 [[div class="experiment"]]
-[[table style="border: none; width: 100%;"]]
+[[table]]
 [[row]]
 [[cell]]
 **実験番号:** 2
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 **対象:** SCP-6086
 [[/cell]]
 [[/row]]
@@ -360,7 +360,7 @@
 [[cell]]
 **実験日:** 1906/06/20
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 [[span class="o"]]**Lead researcher:** Fabian Turner[[/span]]
 **主任研究員:** ファビアン・ターナー
 [[/cell]]
@@ -377,12 +377,12 @@
 [[/div]]
 @@ @@
 [[div class="experiment"]]
-[[table style="border: none; width: 100%;"]]
+[[table]]
 [[row]]
 [[cell]]
 **実験番号:** 3
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 **対象:** SCP-6086
 [[/cell]]
 [[/row]]
@@ -390,7 +390,7 @@
 [[cell]]
 [[span class="o"]]**Date:** 1906/07/01-1906/08/01[[/span]]
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 [[span class="o"]]**Lead researcher:** Fabian Turner[[/span]]
 **主任研究員:** ファビアン・ターナー
 [[/cell]]
@@ -417,12 +417,12 @@
 [[/div]]
 @@ @@
 [[div class="experiment"]]
-[[table style="border: none; width: 100%;"]]
+[[table]]
 [[row]]
 [[cell]]
 **実験番号:** 4
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 **対象:** SCP-6086
 [[/cell]]
 [[/row]]
@@ -430,7 +430,7 @@
 [[cell]]
 **実験日:** 1906/09/02
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 [[span class="o"]]**Lead researcher:** Fabian Turner[[/span]]
 **主任研究員:** ファビアン・ターナー
 [[/cell]]
@@ -451,12 +451,12 @@
 [[/div]]
 @@ @@
 [[div class="experiment"]]
-[[table style="border: none; width: 100%;"]]
+[[table]]
 [[row]]
 [[cell]]
 **実験番号:** 5
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 **対象:** SCP-6086
 [[/cell]]
 [[/row]]
@@ -464,7 +464,7 @@
 [[cell]]
 **実験日:** 1906/09/15
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 [[span class="o"]]**Lead researcher:** Fabian Turner[[/span]]
 **主任研究員:** ファビアン・ターナー
 [[/cell]]
@@ -485,12 +485,12 @@
 [[/div]]
 @@ @@
 [[div class="experiment"]]
-[[table style="border: none; width: 100%;"]]
+[[table]]
 [[row]]
 [[cell]]
 **実験番号:** 6
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 **対象:** D-1231
 [[/cell]]
 [[/row]]
@@ -498,7 +498,7 @@
 [[cell]]
 **実験日:** 1906/09/16
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 [[span class="o"]]**Lead researcher:** Fabian Turner[[/span]]
 **主任研究員:** ファビアン・ターナー
 [[/cell]]
@@ -517,12 +517,12 @@
 [[/div]]
 @@ @@
 [[div class="experiment"]]
-[[table style="border: none; width: 100%;"]]
+[[table]]
 [[row]]
 [[cell]]
 **実験番号:** 7
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 **対象:** SCP-6086
 [[/cell]]
 [[/row]]
@@ -530,7 +530,7 @@
 [[cell]]
 **実験日:** 1906/09/29
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 [[span class="o"]]**Lead researcher:** Fabian Turner[[/span]]
 **主任研究員:** ファビアン・ターナー
 [[/cell]]
@@ -547,12 +547,12 @@
 [[/div]]
 @@ @@
 [[div class="experiment"]]
-[[table style="border: none; width: 100%;"]]
+[[table]]
 [[row]]
 [[cell]]
 **実験番号:** 8
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 **対象:** SCP-6086
 [[/cell]]
 [[/row]]
@@ -560,7 +560,7 @@
 [[cell]]
 **実験日:** 1906/12/09～1907/04/01
 [[/cell]]
-[[cell style="text-align: right;"]]
+[[cell class="align-right"]]
 [[span class="o"]]**Lead researcher:** Fabian Turner[[/span]]
 **主任研究員:** ファビアン・ターナー
 [[/cell]]
@@ -587,7 +587,7 @@
 [[/div]]
 [[/collapsible]]
 [[/div]]
-[[div style="float: center; border-bottom: solid 2px #444444; border-right: solid 2px #444444; border-left: solid 2px #444444; border-top: none ; width: auto; padding-top:15px; padding-bottom: 15px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="proposal-collapsible"]]
 [[=]]
 [[collapsible show="+ Site-37 Director meeting" hide="- 閉じる"]]
 [[/=]]
@@ -677,7 +677,7 @@
 [[/div]]
 [[/collapsible]]
 [[/div]]
-[[div style="float: center; border-bottom: solid 2px #444444; border-right: solid 2px #444444; border-left: solid 2px #444444; border-top: none ; width: auto; padding-top:15px; padding-bottom: 15px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="proposal-collapsible"]]
 [[=]]
 [[collapsible show="+ Containment Report" hide="- 閉じる"]]
 [[/=]]
@@ -704,7 +704,7 @@
 [[/collapsible]]
 [[/div]]
 @@ @@
-[[div style="float: center; border: solid 5px #444444; width: auto; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="proposal"]]
 = [[span class="o"]][[size 180%]]**Bailey-Rosen Proposal**[[/size]][[/span]]
 ----
 = [[span class="o"]][[size 140%]]**Preliminary reading**[[/size]][[/span]]
@@ -987,7 +987,7 @@
 [[/div]]
 [[/div]]
 ----
-[[div style="float: center; border: solid 5px #444444; width: auto; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
+[[div class="proposal"]]
 = [[span class="o"]][[size 180%]]**Containment Update**[[/size]][[/span]]
 [[/div]]
 [[div style="float: center; border-bottom: dashed 2px #444444; border-right: dashed 2px #444444; border-left: dashed 2px #444444; border-top: none ; width: auto; padding-top:3px; padding-bottom: 5px ; padding-left: 10px; padding-right: 10px; margin: auto ;"]]
@@ -1196,6 +1196,39 @@ div.experiment {
    padding-left: 10px;
    padding-right: 10px;
    margin: auto;
+}
+
+div.experiment table {
+   border: none;
+   width: 100%;
+}
+
+div.proposal {
+   float: center;
+   border: solid 5px #444444;
+   width: auto;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin: auto;
+}
+
+div.proposal-collapsible {
+   float: center;
+   border-bottom: solid 2px #444444;
+   border-right: solid 2px #444444;
+   border-left: solid 2px #444444;
+   border-top: none;
+   width: auto;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin: auto;
+}
+
+cell.align-right {
+   text-align: right;
 }
 
 span.o {
