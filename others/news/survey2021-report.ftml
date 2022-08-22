@@ -1,0 +1,3091 @@
+茜刺財団新聞号外あるいは[[[news-2021-10|令和3年10月号]]]の増補ページ、あるいは佐藤事務員の政策レポート番外編ということで、スタッフを代表して[[*user Nanigashi Sato]]が年次調査の集計結果についてご報告します。
+
+2021年の年次調査は8/1から9/5にかけてGoogleフォームを利用して行われたアンケートです。サイトメンバーに限らず、誰でも回答可ということで[http://scp-jp.wikidot.com/forum/t-14152600/scp-jp 実施]しました。
+集まった回答は**計1340件**です。皆様、ご協力ありがとうございました！
+
+以下は集計結果をグラフにしたものです。私がコメントを付けているものもあります。また、自由記述での回答が可能とした項目でお寄せいただいた項目については、一部を返信させていただいています。
+
+(グラフが表示されるまでにタイムラグが発生することがあります)
+
+----
+
+[[html]]
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>SCP-JP年次調査2021</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+          crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.4.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+    <style>
+        body {
+            font-size: 0.9rem;
+            padding: 0 .25em;
+
+        }
+
+        p.h4 {
+            margin-top: 1rem;
+        }
+
+
+        .accordion {
+            margin-left: 1em;
+        }
+
+        .card-body.desc {
+            font-size: 0.7rem;
+        }
+
+        .card-body.desc .normalFontSize {
+            font-size: 0.9rem;
+        }
+
+        .chart-wrapper {
+            width: 100%;
+            max-width: 450px;
+            margin: 1rem auto;
+        }
+
+        .chart-wrapper > canvas {
+            width: 100%;
+        }
+    </style>
+    <script>
+        const OPTION_PIE = {
+            legend: {
+                position: "bottom",
+            },
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        display: false,
+                        beginAtZero: true,
+                    },
+                    gridLines: {
+                        display: false
+                    }
+                }]
+            },
+            hoverOffset: 4,
+            animation: {
+                animateRotate: true
+            }
+        }
+    </script>
+</head>
+<body>
+<p class="h4">1.ユーザー層統計</p>
+<div class="accordion" id="acc1">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc1--1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col1--1"
+                    aria-expanded="false" aria-controls="col1--1">
+                <strong>1. あなたの年齢層を教えてください。</strong>
+            </button>
+        </h2>
+        <div id="col1--1" class="accordion-collapse collapse" aria-labelledby="acc1--1"
+             data-bs-parent="#acc1">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        回答者全体だと2/3ほどが未成年ですが、サイトメンバーであると回答した方に絞ってみても半数強が未成年の年齢層であると回答していました。若年層が現在のアクティブ層の代表であると言っても過言ではないでしょう。
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha1--1"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha1--1"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "15未満",
+                            "15-19",
+                            "20-24",
+                            "25-29",
+                            "30-34",
+                            "35-39",
+                            "40-49",
+                            "50-59",
+                            "60以上"
+                        ],
+                        datasets: [{
+                            label: "あなたの年齢層を教えてください。",
+                            data: [
+                                247, 568,
+                                279, 120,
+                                65, 28,
+                                22, 7,
+                                4
+                            ],
+                            backgroundColor: [
+                                "#96f2d7", "#0ca678",
+                                "#a5d8ff", "#1c7ed6",
+                                "#ffec99", "#f59f00",
+                                "#eebefa", "#ae3ec9",
+                                "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc1--2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false"
+                    aria-controls="col1--2"
+                    data-bs-target="#col1--2">
+                <strong>2. あなたの性別を教えてください。</strong>
+            </button>
+        </h2>
+        <div id="col1--2" class="accordion-collapse collapse"
+             aria-labelledby="acc1--2"
+             data-bs-parent="#acc1">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        サイトメンバーに絞ると男性率が3/4強まで増えます。
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha1--2"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha1--2"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "男性",
+                            "女性",
+                            "その他"
+                        ],
+                        datasets: [{
+                            label: "あなたの性別を教えてください。",
+                            data: [
+                                905, 344,
+                                62
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252", "#ced4da"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc1--3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false"
+                    aria-controls="col1--3"
+                    data-bs-target="#col1--3">
+                <strong>3. あなたの母語は日本語ですか？</strong>
+            </button>
+        </h2>
+        <div id="col1--3" class="accordion-collapse collapse"
+             aria-labelledby="acc1--3"
+             data-bs-parent="#acc1">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <canvas id="cha1--3"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha1--3"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "はい",
+                            "いいえ"
+                        ],
+                        datasets: [{
+                            label: "あなたの母語は日本語ですか？",
+                            data: [
+                                1335, 5
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc1--4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false"
+                    aria-controls="col1--4"
+                    data-bs-target="#col1--4">
+                <strong>4. あなたは日本人ですか？</strong>
+            </button>
+        </h2>
+        <div id="col1--4" class="accordion-collapse collapse"
+             aria-labelledby="acc1--4"
+             data-bs-parent="#acc1">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <canvas id="cha1--4"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha1--4"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "はい",
+                            "いいえ"
+                        ],
+                        datasets: [{
+                            label: "あなたの母語は日本語ですか？",
+                            data: [
+                                1326, 11
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+<p class="h4">2.サイト</p>
+<div class="accordion" id="acc2">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc2--1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col2--1"
+                    aria-expanded="false" aria-controls="col2--1">
+                <strong>1. あなたはWikidot(SCP財団が使用しているホスティングサービス)のアカウントを所持していますか？</strong>
+            </button>
+        </h2>
+        <div id="col2--1" class="accordion-collapse collapse" aria-labelledby="acc2--1"
+             data-bs-parent="#acc2">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <canvas id="cha2--1"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha2--1"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "はい",
+                            "いいえ"
+                        ],
+                        datasets: [{
+                            label: "あなたはWikidot(SCP財団が使用しているホスティングサービス)のアカウントを所持していますか？",
+                            data: [
+                                577, 823
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc2--2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col2--2"
+                    aria-expanded="false" aria-controls="col2--2">
+                <strong>2. あなたはSCP財団日本語版(SCP-JP)Wikiに参加していますか？</strong>
+            </button>
+        </h2>
+        <div id="col2--2" class="accordion-collapse collapse" aria-labelledby="acc2--2"
+             data-bs-parent="#acc2">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <canvas id="cha2--2"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha2--2"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "はい",
+                            "いいえ"
+                        ],
+                        datasets: [{
+                            label: "あなたはSCP財団日本語版(SCP-JP)Wikiに参加していますか？",
+                            data: [
+                                493, 847
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc2--3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col2--3"
+                    aria-expanded="false" aria-controls="col2--3">
+                <strong>3. あなたはどのSCP財団Wikiに参加していますか？当てはまるものを全て選んでください。</strong>
+            </button>
+        </h2>
+        <div id="col2--3" class="accordion-collapse collapse" aria-labelledby="acc2--3"
+             data-bs-parent="#acc2">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        <strong>参加していない: 1188</strong>(グラフ中省略)<br>
+                        <hr>
+                        「参加していない」1188名のうち、SCP-JPにも参加していない方は847名ですので、引き算して341名がSCP-JPサイトメンバーでかつ「参加していない」と言えるでしょう。
+                    </div>
+                </div>
+                <canvas id="cha2--3"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha2--3"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "EN", "RU", "KO", "CN",
+                            "FR", "PL(ポーランド)", "ES", "TH",
+                            "DE", "IT", "UA", "PT/BR",
+                            "CS", "ZH", "PL(ポルトガル)", "INT", "非公式支部",
+                            "姉妹サイト", //"参加していない"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                106, 3, 16, 18,
+                                6, 4, 4, 4,
+                                9, 7, 7, 4,
+                                6, 9, 2, 48, 37,
+                                24, //1188
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 0.85
+                    },
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc2--4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col2--4"
+                    aria-expanded="false" aria-controls="col2--4">
+                <strong>4. SCP財団Wikiにおいて、普段どういったことを行っていますか？</strong>
+            </button>
+        </h2>
+        <div id="col2--4" class="accordion-collapse collapse" aria-labelledby="acc2--4"
+             data-bs-parent="#acc2">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body desc">
+                        ※1: 原文「フォーラムやスレッドに書き込む」<br>
+                        ※2: 原文「アートワークや音楽など、他の内容についての創作を行い投稿する」
+                    </div>
+                </div>
+                <canvas id="cha2--4"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha2--4"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "記事を読む",
+                            "記事を書く",
+                            "記事にVoteする",
+                            "記事にコメントする",
+                            "フォーラムに書き込む(※1)",
+                            "記事や下書きに批評を行う",
+                            "記事を翻訳する",
+                            "他の創作を行い投稿する(※2)",
+                            "その他"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                1294,
+                                190, 370, 123, 113, 125, 64, 70, 70
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 1
+                    },
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc2--5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col2--5"
+                    aria-expanded="false" aria-controls="col2--5">
+                <strong>5. 記事を新しく読む際、どのように読む記事を選びますか？</strong>
+            </button>
+        </h2>
+        <div id="col2--5" class="accordion-collapse collapse" aria-labelledby="acc2--5"
+             data-bs-parent="#acc2">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body desc">
+                        ※1: 原文「SCP一覧・Tale一覧などのハブページから、気になった記事を読む」<br>
+                        ※2: 原文「Youtubeやニコニコ動画などに公開された動画で紹介されている記事を読む」<br>
+                        ※3: 原文「新着記事から、気になった記事を読む」<br>
+                        ※4: 原文「コンテスト参加作品を読む」<br>
+                        ※5: 原文「TwitterなどのSNSやその他ブログなどで紹介されている記事を読む」<br>
+                        ※6: 原文「評価の高いページから、高評価の記事を読む」<br>
+                        ※7: 原文「友人から薦められた記事を読む」<br>
+                        ※8: 原文「茜刺財団新聞から、その月の高評価記事を読む」<br>
+                        ※9: 原文「茜刺財団新聞から、「去年の今は」に掲載されている記事を読む」<br><br>
+                        その他にも、たくさんの自由記述回答をいただきました。<br>
+                        <hr>
+                        <div class="normalFontSize">
+                            選択肢として用意<span style="text-decoration: line-through;">するのを忘れていた</span>していませんでしたが、<a
+                                href="http://scp-jp.wikidot.com/random:random-page" target="_blank">ランダムページ</a>を利用するという風に自由記述で回答してくれた方が8名いました。ランダムページというのはサイドバーからアクセスでき、ランダムに条件に合致する記事を抽出してくれるページです。<a
+                                target="_blank" href="http://scp-jp.wikidot.com/scp-090-de">SCP-090-DE</a>を使うという捻くれた方もいました。<br><br>
+                            茜刺財団新聞の利用率の低さは課題と捉えています。今後は新聞をもっと活用できるコンテンツとしてアピールしていきたいですね。
+                        </div>
+                    </div>
+                </div>
+                <canvas id="cha2--5"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha2--5"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "ハブから(※1)",
+                            "動画から(※2)",
+                            "新着記事(※3)",
+                            "コンテスト(※4)",
+                            "SNS(※5)",
+                            "高評価記事(※6)",
+                            "友人から(※7)",
+                            "新聞-高評価(※8)",
+                            "新聞-去年の今は(※9)"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                953,
+                                844,
+                                610,
+                                603,
+                                537,
+                                521,
+                                287,
+                                145,
+                                87
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 0.75
+                    },
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+<p class="h4">2'.サイト(メンバー向け)</p>
+<div class="accordion" id="acc3">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc3--1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col3--1"
+                    aria-expanded="false" aria-controls="col3--1">
+                <strong>1. あなたはVoteをどれくらい行っていますか？</strong>
+            </button>
+        </h2>
+        <div id="col3--1" class="accordion-collapse collapse" aria-labelledby="acc3--1"
+             data-bs-parent="#acc3">
+            <div class="accordion-body">
+                <canvas id="cha3--1"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha3--1"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "消極的",
+                            "",
+                            "",
+                            "",
+                            "積極的"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                88,
+                                60,
+                                96,
+                                119,
+                                94,
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc3--2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col3--2"
+                    aria-expanded="false" aria-controls="col3--2">
+                <strong>2. あなたのVoteの傾向を教えてください。</strong>
+            </button>
+        </h2>
+        <div id="col3--2" class="accordion-collapse collapse" aria-labelledby="acc3--2"
+             data-bs-parent="#acc3">
+            <div class="accordion-body">
+                <canvas id="cha3--2"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha3--2"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "DV寄り",
+                            "",
+                            "",
+                            "",
+                            "UV寄り"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                4,
+                                24,
+                                113,
+                                161,
+                                143,
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc3--3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col3--3"
+                    aria-expanded="false" aria-controls="col3--3">
+                <strong>3. SCP-JPの附属サイトのうち、参加しているものをすべて選択してください</strong>
+            </button>
+        </h2>
+        <div id="col3--3" class="accordion-collapse collapse" aria-labelledby="acc3--3"
+             data-bs-parent="#acc3">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <div class="card">
+                        <div class="card-body desc">
+                            ※1: 原文「SCP-JPサンドボックスⅢ (http://scp-jp-sandbox3.wikidot.com/)」<br>
+                            ※2: 原文「SCP-JPサンドボックスⅡ(http://scp-jp-sandbox2.wikidot.com/)」<br>
+                            ※3: 原文「SCPサンドボックス(http://scpsandbox-jp.wikidot.com/)」<br>
+                            ※4: 原文「SCP-JPファイルストレージ(http://scp-jp-storage.wikidot.com/)」<br>
+                        </div>
+                    </div>
+                </div>
+                <canvas id="cha3--3"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha3--3"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "SB3(※1)",
+                            "SB2(※2)",
+                            "SB(※3)",
+                            "Storage(※4)"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                335,
+                                149,
+                                35,
+                                217
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc3--4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col3--4"
+                    aria-expanded="false" aria-controls="col3--4">
+                <strong>4. SCP-JPサンドボックスⅢについて、最も当てはまるものを選択してください</strong>
+            </button>
+        </h2>
+        <div id="col3--4" class="accordion-collapse collapse" aria-labelledby="acc3--4"
+             data-bs-parent="#acc3">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <div class="card">
+                        <div class="card-body desc">
+                            ※1: 原文「そのサイトを知らない」<br>
+                            ※2: 原文「名前だけは知っている」<br>
+                            ※3: 原文「利用ガイドを読んだことがある」<br>
+                            ※4: 原文「サイトに参加している」<br>
+                            ※5: 原文「ポータルページを作成したことがある」<br>
+                            ※6: 原文「下書きページをいくつか作成したことがある」<br>
+                            ※7: 原文「下書きページを複数作成したことがある」<br>
+                        </div>
+                    </div>
+                    <canvas id="cha3--4"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha3--4"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "知らない(※1)",
+                            "名前だけ(※2)",
+                            "ガイドは読んだ(※3)",
+                            "参加済み(※4)",
+                            "ポータル所有(※5)",
+                            "何度か利用(※6)",
+                            "複数回利用(※7)",
+                        ],
+                        datasets: [{
+                            label: "SCP-JPサンドボックスⅢについて、最も当てはまるものを選択してください",
+                            data: [
+                                11,
+                                72,
+                                57,
+                                25,
+                                28,
+                                87,
+                                189
+                            ],
+                            backgroundColor: [
+                                "#868e96",
+                                "#ff6b6b",
+                                "#cc5de8",
+                                "#20c997",
+                                "#fcc419",
+                                "#339af0",
+                                "#f76707",
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc3--5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col3--5"
+                    aria-expanded="false" aria-controls="col3--5">
+                <strong>5. SCP-JPファイルストレージについて、最も当てはまるものを選択してください</strong>
+            </button>
+        </h2>
+        <div id="col3--5" class="accordion-collapse collapse" aria-labelledby="acc3--5"
+             data-bs-parent="#acc3">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <div class="card">
+                        <div class="card-body desc">
+                            ※1: 原文「そのサイトを知らない」<br>
+                            ※2: 原文「名前だけは知っている」<br>
+                            ※3: 原文「利用ガイドを読んだことがある」<br>
+                            ※4: 原文「サイトに参加している」<br>
+                            ※5: 原文「ポータルページを作成したことがある」<br>
+                            ※6: 原文「下書きページをいくつか作成したことがある」<br>
+                            ※7: 原文「下書きページを複数作成したことがある」<br>
+                        </div>
+                    </div>
+                    <canvas id="cha3--5"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha3--5"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "知らない(※1)",
+                            "名前だけ(※2)",
+                            "ガイドは読んだ(※3)",
+                            "参加済み(※4)",
+                            "ポータル所有(※5)",
+                            "何度か利用(※6)",
+                            "複数回利用(※7)",
+                        ],
+                        datasets: [{
+                            label: "SCP-JPサンドボックスⅢについて、最も当てはまるものを選択してください",
+                            data: [
+                                93,
+                                110,
+                                44,
+                                37,
+                                30,
+                                51,
+                                101
+                            ],
+                            backgroundColor: [
+                                "#868e96",
+                                "#ff6b6b",
+                                "#cc5de8",
+                                "#20c997",
+                                "#fcc419",
+                                "#339af0",
+                                "#f76707",
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc3--6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col3--6"
+                    aria-expanded="false" aria-controls="col3--6">
+                <strong>6. 上でSCP-JPサンドボックスⅡに参加していると回答された方にお伺いします。このサイトを現在も利用していますか？また、今後も利用し続けたいと思いますか？</strong>
+            </button>
+        </h2>
+        <div id="col3--6" class="accordion-collapse collapse" aria-labelledby="acc3--6"
+             data-bs-parent="#acc3">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        既にcomponent等の移植・調整を含むテクニカル面のサポートを打ち切っていますし、サンドボックスⅡは何が起きてもおかしくありません。今も利用している方は早急にサンドボックスⅢにお引越しをしてくださいね。
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha3--6"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha3--6"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "はい",
+                            "いいえ"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                87, 89
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc3--7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col3--7"
+                    aria-expanded="false" aria-controls="col3--7">
+                <strong>7. 上でSCPサンドボックスに参加していると回答された方にお伺いします。このサイトを現在も利用していますか？また、今後も利用し続けたいと思いますか？</strong>
+            </button>
+        </h2>
+        <div id="col3--7" class="accordion-collapse collapse" aria-labelledby="acc3--7"
+             data-bs-parent="#acc3">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        無印サンドボックスの利用者……まだ生き残りが…………マジでおすすめしませんので、Ⅲに引っ越してください。
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha3--7"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha3--7"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "はい",
+                            "いいえ"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                59, 50
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+
+<p class="h4">3.コンテンツ</p>
+<div class="accordion" id="acc4">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc4--1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col4--1"
+                    aria-expanded="false" aria-controls="col4--1">
+                <strong>1. SCPを知ってからどれくらい経っていますか？</strong>
+            </button>
+        </h2>
+        <div id="col4--1" class="accordion-collapse collapse" aria-labelledby="acc4--1"
+             data-bs-parent="#acc4">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        SCP-JPは今年で8周年。それより昔からSCP財団を知っている17名の猛者は一体何者なんでしょうね。意外とかつてのスタッフだったりするかもしれませんね。
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha4--1"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha4--1"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "6カ月以下",
+                            "6-12カ月",
+                            "1-2年",
+                            "2-3年",
+                            "3-4年",
+                            "4-5年",
+                            "5-6年",
+                            "6-7年",
+                            "7-8年",
+                            "8-9年",
+                            "9-10年",
+                            "それ以上"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                81, 98, 321, 279,
+                                209, 158, 84, 45,
+                                35, 7, 10, 7
+                            ],
+                            backgroundColor: [
+                                "#e5dbff", "#c5f6fa", "#fff3bf", "#ffe3e3",
+                                "#9775fa", "#69db7c", "#ffd43b", "#ff8787",
+                                "#6741d9", "#2f9e44", "#f08c00", "#f03e3e",
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc4--2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col4--2"
+                    aria-expanded="false" aria-controls="col4--2">
+                <strong>2. どのようにしてSCP財団を知りましたか？</strong>
+            </button>
+        </h2>
+        <div id="col4--2" class="accordion-collapse collapse" aria-labelledby="acc4--2"
+             data-bs-parent="#acc4">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body desc">
+                        ※1: 原文「Youtube(解説)」<br>
+                        ※2: 原文「インターネットミームから」<br>
+                        ※3: 原文「Twitterから」<br>
+                        ※4: 原文「Youtube(ゲーム実況)」<br>
+                        ※5: 原文「NicoNico(解説)」<br>
+                        ※6: 原文「他のものを検索中に偶発的に」<br>
+                        ※7: 原文「知人から紹介されて」<br>
+                        ※8: 原文「SCPのゲームから」<br>
+                        ※9: 原文「NicoNico(ゲーム実況)」<br>
+                        ※10: 原文「上記以外のSNSのファンアートから」<br>
+                        ※11: 原文「Wikipedia」<br>
+                        ※12: 原文「ゲームのSCPmodから」<br>
+                        ※13: 原文「他のブログから」<br>
+                        ※14: 原文「ゲームサイトの記事から」<br><br>
+                        その他にも、たくさんの自由記述回答をいただきました。<br>
+                        <hr>
+                        <div class="normalFontSize">
+                            自由記述回答では、色々なものがありました。特に多かったのが「MAD動画から」というものです。他にはちらほらと@wikiつまりはアニヲタWiki(仮)や日本のSCP文化の発祥の地であるふたば☆ちゃんねる、今はサービスが終了したNAVERまとめなども挙げられていました。Lobotomy
+                            CorporationやインセインSCP、ややタイムリーなものだとコロコロコミックの名前もありましたよ。<br>
+                            Lobotomy CorporationというのはSCP財団に影響を受けて製作されたらしい、異常物品を収容する施設経営シミュレーションゲーム。2500円くらいです。私はやったことがありませんが面白いとよく聞きます。<br>
+インセインはホラージャンルTRPGで、そのルールブック3巻がSCP財団の世界観で遊べる追加データとなっています。5000円くらいで1から3まで買えます。インセイン楽しいよ、やろう。<br>
+コロコロについては説明するまでもないでしょう。かの小学生向け雑誌で連載されているブラックチャンネルという漫画に、今年の3月号には<a target="_blank" href="http://scp-jp.wikidot.com/scp-096">シャイガイ</a>が、5月号には<a target="_blank" href="http://scp-jp.wikidot.com/scp-910-jp">シンボル</a>がゲスト出演したのです。更には現在発売中の11月号ではSCP極秘捜査ファイルと題したオブジェクトの図鑑がふろくとして付いてきます。平成の自分にSCP財団はコロコロデビューするぞとか言っても信じないでしょう。鬼ヤバな時代になりましたね。サンキューブラック。<br>
+                            <br>
+                            他に面白いものだと、「街中で<a target="_blank" href="http://scp-jp.wikidot.com/scp-018">反発係数が2のボール</a>についての話を耳に挟んだ」なんてものや、「マリアナ海溝について検索していて<a
+                                target="_blank" href="http://scp-jp.wikidot.com/document-recovered-from-the-marianas-trench">マリアナ海溝から回収された文書</a>に流れ着いた」だなんてものも。<br>
+                            また、特定のクリエイターの名前が複数名から出されていました。主にサイト外で活動されている方で、SCPオブジェクトをざっくりと紹介する漫画を創作されている方です。氏が連載されているコミックを宣伝しようかと思いましたがSCP財団と関係が無い作品で怒られそうなので控えておきます。気になった方は松(A・TYPEcorp.)で検索してみてください。Dead
+                            by Daylightとか好きなら気に入ると思います。
+                        </div>
+                    </div>
+                </div>
+                <canvas id="cha4--2"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha4--2"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "Youtube解説(※1)",
+                            "ネットミーム(※2)",
+                            "Twitter(※3)",
+                            "Youtube実況(※4)",
+                            "niconico解説(※5)",
+                            "検索中に(※6)",
+                            "紹介(※7)",
+                            "ゲーム(※8)",
+                            "niconico実況(※9)",
+                            "ファンアート(※10)",
+                            "Wikipedia(※11)",
+                            "ゲームmod(※12)",
+                            "ブログ(※13)",
+                            "ゲームサイト(※14)"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                556, 377,
+                                214, 209, 205, 204,
+                                189, 142,
+                                67, 49, 46, 42, 27, 11
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 0.75
+                    },
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc4--3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col4--3"
+                    aria-expanded="false" aria-controls="col4--3">
+                <strong>3. よく読む/興味がある順番に並べてください。(記事カテゴリ)</strong>
+            </button>
+        </h2>
+        <div id="col4--3" class="accordion-collapse collapse" aria-labelledby="acc4--3"
+             data-bs-parent="#acc4">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body desc">
+                        各カテゴリに対して、最もよく読むと回答したものを<strong>6点</strong>, 2番目によく読むと回答したものを<strong>5点</strong>,
+                        6番目によく読むと回答したものを<strong>1点</strong>として合計。<br>
+                        <hr>
+                        <div class="normalFontSize">
+                            圧倒的SCP記事。予想通りの結果になったと言えるでしょう。やはりSCP記事はSCP財団のメインコンテンツですね。
+                        </div>
+                    </div>
+                </div>
+                <canvas id="cha4--3"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha4--3"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "SCP記事",
+                            "Tale記事",
+                            "設定集(ハブ)",
+                            "寄稿型合作",
+                            "GoIF記事",
+                            "アートワーク記事",
+                        ],
+                        datasets: [{
+                            label: "pts",
+                            data: [
+                                851 * 6 + 24 * 5 + 74 * 4 + 83 * 3 + 39 * 2 + 206 * 1,
+                                100 * 6 + 496 * 5 + 268 * 4 + 181 * 3 + 150 * 2 + 66 * 1,
+                                103 * 6 + 241 * 5 + 382 * 4 + 284 * 3 + 130 * 2 + 99 * 1,
+                                133 * 6 + 218 * 5 + 245 * 4 + 211 * 3 + 180 * 2 + 221 * 1,
+                                122 * 6 + 210 * 5 + 270 * 4 + 222 * 3 + 188 * 2 + 175 * 1,
+                                147 * 6 + 161 * 5 + 200 * 4 + 196 * 3 + 228 * 2 + 200 * 1,
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            x: {
+                                beginAtZero: false
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc4--4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col4--4"
+                    aria-expanded="false" aria-controls="col4--4">
+                <strong>4. よく読む/興味がある順番に並べてください。(創作/翻訳)</strong>
+            </button>
+        </h2>
+        <div id="col4--4" class="accordion-collapse collapse" aria-labelledby="acc4--4"
+             data-bs-parent="#acc4">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body desc">
+                        各カテゴリに対して、最もよく読むと回答したものを<strong>3点</strong>, 2番目によく読むと回答したものを<strong>2点</strong>,
+                        3番目によく読むと回答したものを<strong>1点</strong>として合計。<br>
+                        <hr>
+                        <div class="normalFontSize">
+                            私にとってこの結果は意外でした。非サイトメンバーが多くを占める集計であるので、翻訳記事が人気と予想していたためです。試しにサイトメンバーのみの結果と見比べてみましたが、差異はさほど見られませんでした。
+                        </div>
+                    </div>
+                </div>
+                <canvas id="cha4--4"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha4--4"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "JPでの創作",
+                            "ENからの翻訳",
+                            "その他の翻訳"
+                        ],
+                        datasets: [{
+                            label: "pts",
+                            data: [
+                                763 * 3 + 229 * 2 + 320 * 1,
+                                274 * 3 + 857 * 2 + 161 * 1,
+                                268 * 3 + 166 * 2 + 847 * 1,
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            x: {
+                                beginAtZero: false
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc4--5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col4--5"
+                    aria-expanded="false" aria-controls="col4--5">
+                <strong>5. 記事を読んでいる途中、他の記事へのリンクが貼られていたらどうしていますか？</strong>
+            </button>
+        </h2>
+        <div id="col4--5" class="accordion-collapse collapse" aria-labelledby="acc4--5"
+             data-bs-parent="#acc4">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body desc">
+                        ※1: 原文「読み終わった後に、リンク先の記事を読み始める」<br>
+                        ※2: 原文「読むことを中断し、リンク先の記事を流し読みする」<br>
+                        ※3: 原文「読むことを中断し、リンク先の記事を先に読む」<br>
+                        ※4: 原文「読むことを中断し、リンク先の記事を確認だけする」<br>
+                        ※5: 原文「リンクは無視する」<br>
+                        <hr>
+                        <div class="normalFontSize">
+                            この設問は思いつきかつ興味本位で入れてみたのですが、概ね予想通りの結果になりました。来年は抜いてもいいかもしれません。
+                        </div>
+                    </div>
+                </div>
+                <canvas id="cha4--5"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha4--5"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "読了後(※1)",
+                            "流し読み(※2)",
+                            "先に読む(※3)",
+                            "確認する(※4)",
+                            "無視(※5)"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                497,
+                                380,
+                                317,
+                                265,
+                                76
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            x: {
+                                beginAtZero: false
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+
+<p class="h4">3'.コンテンツ(メンバー向け)</p>
+<div class="accordion" id="acc5">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc5--1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col5--1"
+                    aria-expanded="false" aria-controls="col5--1">
+                <strong>1. あなたは自分の著者ページを持っていますか？</strong>
+            </button>
+        </h2>
+        <div id="col5--1" class="accordion-collapse collapse" aria-labelledby="acc5--1"
+             data-bs-parent="#acc5">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        「作成条件を満たしているが未作成」、本当にこんなにいるのかちょっと疑問ですが、本当ならば是非とも著者ページを作成していただきたい。<br>
+                        人事キャラクターとか面白いこととか別に書かなくてもいいんですからね。自著のリストがあるだけで意義はあります。作ろう著者ページ。
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha5--1"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha5--1"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "持っている",
+                            "作成条件を満たしているが未作成",
+                            "作成条件を満たしていない"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                115, 43, 294
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#a5d8ff", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+
+<p class="h4">4.広報</p>
+<div class="accordion" id="acc6">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc6--1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col6--1"
+                    aria-expanded="false" aria-controls="col6--1">
+                <strong>1. あなたはSCP-JP公式Twitterアカウント(@scpjp_announce)をチェックしていますか？</strong>
+            </button>
+        </h2>
+        <div id="col6--1" class="accordion-collapse collapse" aria-labelledby="acc6--1"
+             data-bs-parent="#acc6">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        そう、実はスタッフはTwitterやってるんです。フォローよろしくね。<br>
+                        → <a target="_blank" href="https://twitter.com/scpjp_announce">https://twitter.com/scpjp_announce</a>
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha6--1"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha6--1"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "はい",
+                            "いいえ"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                465, 875
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc6--2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col6--2"
+                    aria-expanded="false" aria-controls="col6--2">
+                <strong>2. SCP-JP公式Twitterアカウントが発信する情報は役に立っていますか？</strong>
+            </button>
+        </h2>
+        <div id="col6--2" class="accordion-collapse collapse" aria-labelledby="acc6--2"
+             data-bs-parent="#acc6">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        公式Twitterで発信する情報は色々と増やしてみようと考えています。今後にご期待ください。
+                    </div>
+                </div>
+                <canvas id="cha6--2"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha6--2"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "役に立っていない",
+                            "",
+                            "",
+                            "",
+                            "役に立っている"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                40,
+                                47,
+                                337,
+                                221,
+                                145
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc6--3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col6--3"
+                    aria-expanded="false" aria-controls="col6--3">
+                <strong>3. Twitter以外のSNSで、SCP-JP公式アカウントから情報を発信してもらいたいですか？</strong>
+            </button>
+        </h2>
+        <div id="col6--3" class="accordion-collapse collapse" aria-labelledby="acc6--3"
+             data-bs-parent="#acc6">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <canvas id="cha6--3"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha6--3"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "はい",
+                            "いいえ"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                293, 1047
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc6--4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col6--4"
+                    aria-expanded="false" aria-controls="col6--4">
+                <strong>4. 上の質問ではいと答えた方はお答えください。そのSNSは以下のどれですか？</strong>
+            </button>
+        </h2>
+        <div id="col6--4" class="accordion-collapse collapse" aria-labelledby="acc6--4"
+             data-bs-parent="#acc6">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        その他にも、niconicoやTikTokなどの自由記述回答がありました。はっきり言って動画サービスは期待しないでください。それを動かすスタッフがいません。ですが、Instagramなどは検討の余地があります。私たちは団体ではあるものの企業ではなく本名を晒している代表者がいるわけでもないので、公式アカウントというものを作るにあたってハードルがあることはご理解ください。
+                    </div>
+                </div>
+                <canvas id="cha6--4"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha6--4"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "Instagram",
+                            "Facebook",
+                            "Youtube",
+                            "LINE"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                154, 69, 45, 16,
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 1.5
+                    },
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc6--5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col6--5"
+                    aria-expanded="false" aria-controls="col6--5">
+                <strong>5. あなたは毎月スタッフが発行している「茜刺財団新聞」をチェックしていますか？</strong>
+            </button>
+        </h2>
+        <div id="col6--5" class="accordion-collapse collapse" aria-labelledby="acc6--5"
+             data-bs-parent="#acc6">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        茜刺財団新聞、知名度が無い！ 非サイトメンバーにも読んでみて欲しいですね。ここで言っても詮無きことですけども。
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha6--5"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha6--5"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "毎月している",
+                            "たまにしている",
+                            "していない"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                245, 397, 668
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#a5d8ff", "#fa5252"]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc6--6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col6--6"
+                    aria-expanded="false" aria-controls="col6--6">
+                <strong>6. 「茜刺財団新聞」で発信される情報は役に立っていますか？</strong>
+            </button>
+        </h2>
+        <div id="col6--6" class="accordion-collapse collapse" aria-labelledby="acc6--6"
+             data-bs-parent="#acc6">
+            <div class="accordion-body">
+                <canvas id="cha6--6"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha6--6"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "役に立っていない",
+                            "",
+                            "",
+                            "",
+                            "役に立っている"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                20,
+                                22,
+                                270,
+                                243,
+                                253
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc6--7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col6--7"
+                    aria-expanded="false" aria-controls="col6--7">
+                <strong>7. 「茜刺財団新聞」のレイアウトデザインは読みやすいですか？</strong>
+            </button>
+        </h2>
+        <div id="col6--7" class="accordion-collapse collapse" aria-labelledby="acc6--7"
+             data-bs-parent="#acc6">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        財団新聞のCSSテーマはいくつか問題があり、更にはもう少し改善できる点がいくつかあると考えていますが、オーバーホールは開発リソースの関係で後回しにされ続けています。オレのテクニカルパゥアでなんとかしてやるZE☆という有志がいらっしゃいましたらご一報ください。
+                    </div>
+                </div>
+                <canvas id="cha6--7"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha6--7"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "読みづらい",
+                            "",
+                            "",
+                            "",
+                            "読みやすい"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                16,
+                                21,
+                                254,
+                                199,
+                                317
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+
+<p class="h4">5.Discord公式チャット</p>
+<div class="accordion" id="acc7">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc7--1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col7--1"
+                    aria-expanded="false" aria-controls="col7--1">
+                <strong>1. あなたはDiscordのSCP-JP公式チャットサーバーに参加していますか？</strong>
+            </button>
+        </h2>
+        <div id="col7--1" class="accordion-collapse collapse" aria-labelledby="acc7--1"
+             data-bs-parent="#acc7">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <canvas id="cha7--1"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha7--1"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "はい",
+                            "いいえ"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                221, 1065
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc7--2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col7--2"
+                    aria-expanded="false" aria-controls="col7--2">
+                <strong>2. 公式チャットに欲しい機能を教えて下さい</strong>
+            </button>
+        </h2>
+        <div id="col7--2" class="accordion-collapse collapse" aria-labelledby="acc7--2"
+             data-bs-parent="#acc7">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>画像提供の機能が欲しい。</strong>
+                        </p>
+                        <p>
+                            かつて同様の要望がなされたことがありましたが、いくつかの理由（主にライセンス関連）から棄却されました。今のところそれを撤回する予定はありません。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>SCP関連の話題だけを独立カテゴリ化して欲しい。</strong>
+                        </p>
+                        <p>
+                            前々からスタッフ間でも出ていたアイデアで、大変良い案と思います。前向きに検討します。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>Bot"SATSUKI"の検索コマンドで評価も表示されるようにして欲しい。</strong>
+                        </p>
+                        <p>
+                            <strong>"/src -d scp-280-jp"</strong>というように、detailオプションを使用することで「著者名」「作成日」「評価」「タグ」の情報が表示されます。詳しくはSATSUKIのDMに<strong>"/help"</strong>と送信して確認してみてください。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>他の財団関連鯖への招待リンクを貼る事ができ、それらを一覧する事ができるチャンネルが欲しい。</strong>
+                        </p>
+                        <p>
+                            公式サーバーについては"ASHURA"によってその機能は果たされているものと考えています。JPスタッフが管轄していないコミュニティサーバーについては、そのサーバーが健全に運営されているかどうかスタッフが確認する必要があると思われるため、現状では難しいです。将来的に"ASHURA"からこれらがアクセスできるようになる可能性は否定しません。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc7--3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col7--3"
+                    aria-expanded="false" aria-controls="col7--3">
+                <strong>3. 公式チャットに増設・永続化してほしいチャンネルを教えて下さい</strong>
+            </button>
+        </h2>
+        <div id="col7--3" class="accordion-collapse collapse" aria-labelledby="acc7--3"
+             data-bs-parent="#acc7">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>長文・難解記事の考察を永続的に行えるチャンネル</strong>
+                        </p>
+                        <p>
+                            「SCPの話」チャンネルにスレッドを作成するようにしてください。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>良かった記事をオススメするだけのチャンネル</strong>
+                        </p>
+                        <p>
+                            そういう主旨のスレッドを設置してみてください。需要が多ければスレッド常設化やチャンネル独立の対応をします。チャオペが。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>定期的にランダムで記事URLを表示し、皆でかつリアルタイムで読むチャンネル</strong>
+                        </p>
+                        <p>
+                            読書会のようなテーマで定例会をしたことは過去にありますし、設置の価値は十分にありそうです。前向きに検討しますが、スレッドで需要を示してくれればこっちも素早く対応できますよ(ﾁﾗｯ
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>各カノンの専用チャンネル</strong>
+                        </p>
+                        <p>
+                            必要であればプロジェクトチャンネルの申請をお願いします。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>人文社会科学チャンネル</strong>
+                        </p>
+                        <p>
+                            「science_and_tech」チャンネルでカバー可能と思いますが、これを"理系"のチャンネルと位置付け直して別に"文系"に特化したチャンネルを増設するのはアリだと思います。検討します。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>宣伝をするチャンネル</strong>
+                        </p>
+                        <p>
+                            「SCPの話」で十分ではないかと考えています。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>発言権が無くても良いので画面を共有できるVC</strong>
+                        </p>
+                        <p>
+                            VCについてはログが保存できないため、共有されている画面に問題のあるものが写り込んでいたりした場合にスタッフが確認・対応できないことから、現状では設置は考えていません。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>批評チャンネルのスレッド利用化</strong>
+                        </p>
+                        <p>
+                            スレッドの特性に適しており、メリットも大きそうですね。試験的な導入に向けて動いていますが、例によっていつ頃開始できるかは分かりません。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>簡易版ブレストのような、みんなで意見交換をするチャンネル</strong>
+                        </p>
+                        <p>
+                            既存のチャンネルで対応可能だと考えています。先述したブレストチャンネルのスレッド化などの運用面でカバーしたいと思います。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>要注意団体やカノンの初案などを他メンバーと一緒に練るチャンネル</strong>
+                        </p>
+                        <p>
+                            「財団世界観」チャンネルやスレッド、あるいはブレスト用チャンネルを利用し、需要が見込めるのであればプロジェクトチャンネルを申請してください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc7--4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col7--4"
+                    aria-expanded="false" aria-controls="col7--4">
+                <strong>4. 公式チャットのチャンネルの並び順について、意見や提案等がありましたら記述してください（具体的な並び順・法則等でも構いません）</strong>
+            </button>
+        </h2>
+        <div id="col7--4" class="accordion-collapse collapse" aria-labelledby="acc7--4"
+             data-bs-parent="#acc7">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>稼働中のプロジェクトについて、特定カノンや連作等の執筆関連のチャンネルと作業用のチャンネルを分けて欲しい。</strong>
+                        </p>
+                        <p>
+                            確かに分かりづらいですね。改善を検討します。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>まったく使われていない「scp-star」が一番上にある状態を何とかして欲しい。</strong>
+                        </p>
+                        <p>
+                            多くのスタッフが同じことを思っていたので、すぐに対応しました。現在、該当チャンネルはCloseされています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc7--5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col7--5"
+                    aria-expanded="false" aria-controls="col7--5">
+                <strong>5. なにか提案したいことがありましたらここに記述してください</strong>
+            </button>
+        </h2>
+        <div id="col7--5" class="accordion-collapse collapse" aria-labelledby="acc7--5"
+             data-bs-parent="#acc7">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>チャットの使い方を画像、もしくは映像で見せて欲しい。文章だけでは分かりにくいし、敷居が高く感じる。</strong>
+                        </p>
+                        <p>
+                            「Discord全体の使い方」については、Discordの公式ヘルプページ等を参照してください。<a target="_blank"
+                                                                               href="https://support.discord.com/hc/ja">ここをクリック！</a><br>
+                            批評募集やBotの使い方などがわかりにくいようであれば、ガイドの改善を検討します。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>Discordは使いづらいのでTwitterも合わせて運用して欲しい。</strong>
+                        </p>
+                        <p>
+                            質問窓口としてTwitterアカウントを運用することはできるかもしれませんが、現状では運営人員の観点から難しいです。将来的に検討します。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>質問を完全スレッド化して欲しい。</strong>
+                        </p>
+                        <p>
+                            批評やブレストと同じく、質問もスレッド機能を用いることはとてもよい案だと思います。導入に向けて動き出していますよ。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>新規スレッドと新規下書き、本投稿をジャンルでまとめて欲しい。</strong>
+                        </p>
+                        <p>
+                            現在は「新規作成ページvia-rss」チャンネルで新規投稿ページと批評開始下書きの通知が行われています。また、「rss通知」チャンネルでWikidotのスレッドや公式Twitterアカウントの新規ツイートを通知しています。スレッド機能を使うことで細分化は比較的に容易そうなので、将来的に検討したいと思います。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>砕けた話ができるチャットが欲しい。</strong>
+                        </p>
+                        <p>
+                            「雑談」チャンネルでできない話はしないでください。それ以上に砕けた話なら……他所でやることをオススメします。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>「雑談」チャンネル附属スレッドの30秒制限の撤廃、もしくは部分緩和をして欲しい。</strong>
+                        </p>
+                        <p>
+                            クールタイムが意味を為さなくなってしまうため、考えていません。「雑談」チャンネルのクールタイムが無くなる時が来たならば、一緒にクールタイムは外れるでしょう。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>雑談チャンネルで｢射殺した｣など相手を殺害するような表現がよくされるのが不快です。</strong>
+                        </p>
+                        <p>
+                            仰る通りです。取り締まりと対応を検討します。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>リアクションのうち内輪的な性質が強いものを削除して欲しい。特に「よちち」は対人 (あるいは対キャラクター)
+                                相手に頻繁に使われており、多くの場合で性的なニュアンスを伴う印象と不快感を抱えています。</strong>
+                        </p>
+                        <p>
+                            多くのスタッフがこのご要望に対して同意を表明しました。リアクションも増え続けており、剪定はそのうちにやります。ただカニの絵文字は消しません（鋼の意思）。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>有識者会議を公式Discordサーバーで行って欲しい。</strong>
+                        </p>
+                        <p>
+                            サーバーは違いますが、スタッフが公式サポートしている有識者会議専用のサーバーが稼働を開始しましたよ！"ASHURA"から参加が可能です。<a
+                                href="http://scp-jp.wikidot.com/discord-guideline"
+                                target="_blank">ディスコードに関するルールとポリシー</a>をご覧ください。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>先に批評を募集している人がいるにも関わらず後から時間を被せるケースが見られ、これについて制限をかけて欲しい。</strong>
+                        </p>
+                        <p>
+                            マナー違反として全体への周知を行ってみて、改善が見られないようであればルールの策定を検討します。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <strong>ガイドの批評ルーム部分の記述について、批評を求める側と批評に参加する側で分けて欲しい。</strong>
+                        </p>
+                        <p>
+                            ここでは省略しましたがメリットについても詳しく書いてあり、大変良い案であると思いました。前向きに検討いたします。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<p class="h4">5'.Discord公式チャット(参加者向け)</p>
+<div class="accordion" id="acc8">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc8--1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col8--1"
+                    aria-expanded="false" aria-controls="col8--1">
+                <strong>1. 公式チャットで主に利用するカテゴリを教えて下さい</strong>
+            </button>
+        </h2>
+        <div id="col8--1" class="accordion-collapse collapse" aria-labelledby="acc8--1"
+             data-bs-parent="#acc8">
+            <div class="accordion-body">
+                <canvas id="cha8--1"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha8--1"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "カジュアル",
+                            "フォーマル",
+                            "批評ルーム",
+                            "稼働中のプロジェクト"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                132,
+                                79,
+                                65,
+                                47
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+
+<p class="h4">6. イベント</p>
+<div class="accordion" id="acc9">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc9--1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col9--1"
+                    aria-expanded="false" aria-controls="col9--1">
+                <strong>1. あなたは公式コンテストに参加したことがありますか？</strong>
+            </button>
+        </h2>
+        <div id="col9--1" class="accordion-collapse collapse" aria-labelledby="acc9--1"
+             data-bs-parent="#acc9">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        参加したことがあるのは当然ながら全てサイトメンバーであり、参加したことがないと回答したサイトメンバーは340人でした。
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha9--1"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha9--1"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "ある",
+                            "ない"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                153, 1187
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc9--2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col9--2"
+                    aria-expanded="false" aria-controls="col9--2">
+                <strong>2. あなたは公式コンテストに参加したいと思いますか？</strong>
+            </button>
+        </h2>
+        <div id="col9--2" class="accordion-collapse collapse" aria-labelledby="acc9--2"
+             data-bs-parent="#acc9">
+            <div class="accordion-body">
+                <canvas id="cha9--2"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha9--2"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "思わない",
+                            "",
+                            "",
+                            "",
+                            "思う"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                320,
+                                159,
+                                274,
+                                268,
+                                319
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc9--3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col9--3"
+                    aria-expanded="false" aria-controls="col9--3">
+                <strong>3. あなたは最近の公式コンテストの頻度についてどう思いますか？</strong>
+            </button>
+        </h2>
+        <div id="col9--3" class="accordion-collapse collapse" aria-labelledby="acc9--3"
+             data-bs-parent="#acc9">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        サイトメンバーだけに回答を絞っても、分布は変わりませんでした。ただし、公式イベント全てに参加したいというメンバーから多いという意見を頂いたりもしました。今年はイベントを意図的に多めにしたので、来年は逆に少なめにしてみる予定です。
+                    </div>
+                </div>
+                <canvas id="cha9--3"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha9--3"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "少ない",
+                            "",
+                            "",
+                            "",
+                            "多い"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                22,
+                                81,
+                                759,
+                                181,
+                                56
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc9--4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col9--4"
+                    aria-expanded="false" aria-controls="col9--4">
+                <strong>4. あなたはコンテストの告知期間(発表から投稿開始まで)はどれくらいの長さが適切だと思いますか？</strong>
+            </button>
+        </h2>
+        <div id="col9--4" class="accordion-collapse collapse" aria-labelledby="acc9--4"
+             data-bs-parent="#acc9">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        多くの場合、これは一ヶ月としています。執筆の猶予時間と見做しており、そのためにある程度の時間が必要と考えているためです。二週間という意見が主流で驚きました。もしかすると一ヶ月以上の項目を設けていないことも原因かもしれません。予告から開始まで数か月あるコンテストもやってみたいですね。
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha9--4"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha9--4"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "1週間",
+                            "1週間半",
+                            "2週間",
+                            "2週間半",
+                            "3週間",
+                            "1ヶ月",
+                            "分からない"
+                        ],
+                        datasets: [{
+                            label: "告知期間",
+                            data: [
+                                86, 98, 291,
+                                76, 101, 165,
+                                364
+                            ],
+                            backgroundColor: [
+                                "#96f2d7", "#0ca678",
+                                "#a5d8ff", "#1c7ed6",
+                                "#ffec99", "#f59f00",
+                                "#eebefa", "#ae3ec9",
+                                "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc9--5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col9--5"
+                    aria-expanded="false" aria-controls="col9--5">
+                <strong>5. あなたはコンテストの投票期間(投稿期間と重複する期間は含まない)はどれくらいが適切だと思いますか？</strong>
+            </button>
+        </h2>
+        <div id="col9--5" class="accordion-collapse collapse" aria-labelledby="acc9--5"
+             data-bs-parent="#acc9">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <canvas id="cha9--5"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha9--5"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "1週間",
+                            "1週間半",
+                            "2週間",
+                            "2週間半",
+                            "3週間",
+                            "1ヶ月",
+                            "分からない"
+                        ],
+                        datasets: [{
+                            label: "告知期間",
+                            data: [
+                                251, 151, 287,
+                                46, 51, 70,
+                                310
+                            ],
+                            backgroundColor: [
+                                "#96f2d7", "#0ca678",
+                                "#a5d8ff", "#1c7ed6",
+                                "#ffec99", "#f59f00",
+                                "#eebefa", "#ae3ec9",
+                                "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc9--6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col9--6"
+                    aria-expanded="false" aria-controls="col9--6">
+                <strong>6. SCP-JPで過去に行われた以下のコンテスト/執筆企画のうち、再度開催してほしいコンテストテーマはありますか？最も当てはまるものを選んでください。</strong>
+            </button>
+        </h2>
+        <div id="col9--6" class="accordion-collapse collapse" aria-labelledby="acc9--6"
+             data-bs-parent="#acc9">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <div class="card">
+                        <div class="card-body desc">
+                            選択肢原文:
+                            <ul>
+                                <li>※1: 何らかの芸術作品の画像を主体とする(SCP-173-JPコンテスト)</li>
+                                <li>※2: モブの財団職員をメインキャラクターにする(“無名”職員は語る)</li>
+                                <li>※3: 「終末」(2015年末終末記事企画)</li>
+                                <li>※4: 「日本」(SCP-1000-JPコンテスト)</li>
+                                <li>※5: 人事ファイルキャラクターの原点を描く(財団職員 the Origin)</li>
+                                <li>※6: 「死」(4年目の死のコンテスト'17 La Danse Macabre)</li>
+                                <li>※7: 「悪」(5年目の悪のコンテスト)</li>
+                                <li>※8: 「無」(無のコンテスト19)</li>
+                                <li>※9: 「変遷」(SCP-2000-JPコンテスト)</li>
+                                <li>※10: 「嘘」(嘘のコンテスト)</li>
+                                <li>※11: 既出の財団職員をメインキャラクターにする(財団職員 The Identity)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <canvas id="cha9--6"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha9--6"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "※1:画像主体",
+                            "※2:無名職員",
+                            "※3:終末",
+                            "※4:日本",
+                            "※5:キャラ原点",
+                            "※6:死",
+                            "※7:悪",
+                            "※8:無",
+                            "※9:変遷",
+                            "※10:嘘",
+                            "※11:既存職員",
+                            "特になし"
+                        ],
+                        datasets: [{
+                            label: "イベント1",
+                            data: [
+                                86, 141, 98, 106,
+                                44, 85, 108, 48,
+                                45, 147, 76, 220
+                            ],
+                            backgroundColor: [
+                                "#96f2d7", "#0ca678",
+                                "#a5d8ff", "#1c7ed6",
+                                "#ffec99", "#f59f00",
+                                "#eebefa", "#ae3ec9",
+                                "#ffe3e3", "#fa5252",
+                                "#495057", "#e9ecef",
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc9--7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col9--7"
+                    aria-expanded="false" aria-controls="col9--7">
+                <strong>7. あなたはSCP-JPで過去に行われた以下のコンテスト/執筆企画のうち、再度開催してほしいコンテスト形式はありますか？</strong>
+            </button>
+        </h2>
+        <div id="col9--7" class="accordion-collapse collapse" aria-labelledby="acc9--7"
+             data-bs-parent="#acc9">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <div class="card">
+                        <div class="card-body desc">
+                            選択肢原文:
+                            <ul>
+                                <li>※1: 自身で撮影した画像を用いる(SCP財団日本設立一周年記念フォトコンテスト)</li>
+                                <li>※2: 要注意団体を新規作成/掘り下げする(要注意団体コンテスト)</li>
+                                <li>※3: イラスト限定(3周年記念イラストコンテスト)</li>
+                                <li>※4: ドラフト型三題噺(コトダマTale企画、令和三年度言霊競演)</li>
+                                <li>※5: クロスリンク必須(クロスコンテスト’17 The Crossroads Demon)</li>
+                                <li>※6: 字数制限有りの短編限定(1600文字コンテスト、1200字掌編企画2019)</li>
+                                <li>※7: 単独で完成するSCP限定(棍棒での殴り合いコンテスト、素手喧嘩コンテスト)</li>
+                                <li>※8: 短期間(72時間ジャムコンテストJP-2019)</li>
+                                <li>※9: チーム制(チームコンテスト)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <canvas id="cha9--7"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha9--7"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "※1:自作画像",
+                            "※2:GoI",
+                            "※3:イラスト",
+                            "※4:三題噺",
+                            "※5:クロスリンク",
+                            "※6:短編",
+                            "※7:棍棒",
+                            "※8:短時間",
+                            "※9:チーム制",
+                            "特になし"
+                        ],
+                        datasets: [{
+                            label: "イベント2",
+                            data: [
+                                146, 255, 64, 16,
+                                50, 170, 157, 51,
+                                89, 183
+                            ],
+                            backgroundColor: [
+                                "#96f2d7", "#0ca678",
+                                "#a5d8ff", "#1c7ed6",
+                                "#ffec99", "#f59f00",
+                                "#eebefa", "#ae3ec9",
+                                "#ffe3e3", "#e9ecef",
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc9--8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col9--8"
+                    aria-expanded="false" aria-controls="col9--8">
+                <strong>8. あなたは他支部で過去に行われたコンテストのうち、JPでも開催してほしいコンテストテーマはありますか？</strong>
+            </button>
+        </h2>
+        <div id="col9--8" class="accordion-collapse collapse" aria-labelledby="acc9--8"
+             data-bs-parent="#acc9">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body desc">
+                        選択肢原文:
+                        <ul>
+                            <li>※1: 「民話/都市伝説」(SCP-1000コンテスト)</li>
+                            <li>※2: 「答え」(五つの謎かけコンテスト)</li>
+                            <li>※3: 「サイエンス・フィクション」(SCP-2000コンテスト)</li>
+                            <li>※4: 「ディストピア」(ディストピアコンテスト)</li>
+                            <li>※5: 「Dクラス」(Dクラスコンテスト)</li>
+                            <li>※6: 「歴史」(歴史コンテスト、SCP-4000コンテスト)</li>
+                            <li>※7: 「ホラー」(SCP-3000コンテスト)</li>
+                            <li>※8: 「謎」(SCP-5000コンテスト)</li>
+                            <li>※9: 「恋愛」(キューピッドコンテスト)</li>
+                            <li>※10: 「世界滅亡」(世界滅亡コンテスト)</li>
+                            <li>※11: 「再建」(再建コンテスト)</li>
+                            <li>※12: 「犯罪」(犯罪コンテスト)</li>
+                        </ul>
+                        <hr>
+                        <div class="normalFontSize">
+                            「過去に行われたコンテストテーマすべて」って書いた人、怒らないから出てきなさい。
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha9--8"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha9--8"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "※1:民話",
+                            "※2:答え",
+                            "※3:SF",
+                            "※4:ディストピア",
+                            "※5:Dクラス",
+                            "※6:歴史",
+                            "※7:ホラー",
+                            "※8:謎",
+                            "※9:恋愛",
+                            "※10:世界滅亡",
+                            "※11:再建",
+                            "※12:犯罪",
+                            "その他自由記述"
+                        ],
+                        datasets: [{
+                            label: "イベント3",
+                            data: [
+                                151, 48, 59,
+                                61, 186, 45,
+                                120, 126, 51,
+                                129, 51, 36,
+                                1093 - 1063
+                            ],
+                            backgroundColor: [
+                                "#96f2d7", "#0ca678", "#087f5b",
+                                "#a5d8ff", "#1c7ed6", "#1864ab",
+                                "#ffec99", "#f59f00", "#d9480f",
+                                "#eebefa", "#ae3ec9", "#862e9c",
+                                "#ffe3e3", "#f03e3e", "#e9ecef",
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc9--9">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col9--9"
+                    aria-expanded="false" aria-controls="col9--9">
+                <strong>9. あなたは2019年にSCP-INTで行われたインターナショナルGoIコンテストのような国際交流企画に参加したいと思いますか？</strong>
+            </button>
+        </h2>
+        <div id="col9--9" class="accordion-collapse collapse" aria-labelledby="acc9--9"
+             data-bs-parent="#acc9">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        やっぱり英語力が必要な点がハードルの高さに直結していますね。SCP財団の共用語は英語ですので、英語ができないと話にならないのはそうですが、国際イベントが行われたときに英語ができない人も参加ができるような何らかの方式が模索できるとよいですね。何もアイデアを伴っていないので、絵に描いた餅に過ぎませんけれども。
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha9--9"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha9--9"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "はい",
+                            "興味はあるが語力の問題がある",
+                            "いいえ"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                54, 633, 401
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#a5d8ff", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc9--10">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#col9--10"
+                    aria-expanded="false" aria-controls="col9--10">
+                <strong>10. あなたはコンテストに該当しない(評価を競わない)形式の企画をもっと増やして欲しいですか？</strong>
+            </button>
+        </h2>
+        <div id="col9--10" class="accordion-collapse collapse" aria-labelledby="acc9--10"
+             data-bs-parent="#acc9">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        キャンペーン形式のイベントは今後増やしていきたいと考えています。<a target="_blank"
+                                                           href="http://scp-jp.wikidot.com/pile-up-dumplings-2021">お月見</a>と<a
+                            target="_blank" href="http://scp-jp.wikidot.com/matchmaking2021">お見合い</a>はその嚆矢です。こういった非競争のイベントのアイデアがあったら是非イベント委員までお越しください。
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="cha9--10"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha9--10"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "はい",
+                            "どちらとも言えない",
+                            "いいえ"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                484, 564, 70
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fcc419", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc9--11">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#col9--11"
+                    aria-expanded="false" aria-controls="col9--11">
+                <strong>11. あなたがやってほしい(あるいは参加したい)コンテストテーマを1つ自由に教えてください。</strong>
+            </button>
+        </h2>
+        <div id="col9--11" class="accordion-collapse collapse" aria-labelledby="acc9--11"
+             data-bs-parent="#acc9">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        お寄せいただいたピッタシ500件のコンテストテーマ案すべてに目を通しました。面白かったです。<br>
+                        これを何の参考にするかは秘密です。ちなみにそれとは無関係ですが、複数人から「SCP-3000-JP」という風なテーマ案が寄せられていました。ご安心ください、現在のペースから予測するに来年開催ということになると思われます。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<p class="h4">7.スタッフ</p>
+<div class="accordion" id="acc10">
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc10--1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#col10--1"
+                    aria-expanded="false" aria-controls="col10--1">
+                <strong>1. あなたはスタッフのサイト運営についてどう思いますか？</strong>
+            </button>
+        </h2>
+        <div id="col10--1" class="accordion-collapse collapse" aria-labelledby="acc10--1"
+             data-bs-parent="#acc10">
+            <div class="accordion-body">
+                <canvas id="cha10--1"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha10--1"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "不満",
+                            "",
+                            "",
+                            "",
+                            "満足"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                8,
+                                17,
+                                218,
+                                378,
+                                542
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc10--2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#col10--2"
+                    aria-expanded="false" aria-controls="col10--2">
+                <strong>2. あなたはスタッフの政策についてどう思いますか？</strong>
+            </button>
+        </h2>
+        <div id="col10--2" class="accordion-collapse collapse" aria-labelledby="acc10--2"
+             data-bs-parent="#acc10">
+            <div class="accordion-body">
+                <canvas id="cha10--2"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha10--2"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "閉鎖的",
+                            "",
+                            "",
+                            "",
+                            "開放的"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                12, 67, 423, 319, 281
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc10--3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#col10--3"
+                    aria-expanded="false" aria-controls="col10--3">
+                <strong>3. スタッフのタスク処理速度についてどう思いますか？</strong>
+            </button>
+        </h2>
+        <div id="col10--3" class="accordion-collapse collapse" aria-labelledby="acc10--3"
+             data-bs-parent="#acc10">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        早いと思っていてくれてありがとうございます。なるべく早くの対応を心がけますのでこれからもよろしくお願いします。
+                    </div>
+                </div>
+                <canvas id="cha10--3"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha10--3"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "遅い",
+                            "",
+                            "",
+                            "",
+                            "早い"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                7, 42, 382, 336, 297
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc10--4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#col10--4"
+                    aria-expanded="false" aria-controls="col10--4">
+                <strong>4. スタッフのタスク処理について、無謬性と処理速度のどちらを優先すべきと考えますか？</strong>
+            </button>
+        </h2>
+        <div id="col10--4" class="accordion-collapse collapse" aria-labelledby="acc10--4"
+             data-bs-parent="#acc10">
+            <div class="accordion-body">
+                <div class="card">
+                    <div class="card-body">
+                        やや無謬性に寄っているということで、今後の参考にしようかと思います。
+                    </div>
+                </div>
+                <canvas id="cha10--4"></canvas>
+            </div>
+            <script>
+                new Chart($("#cha10--4"), {
+                    type: "bar",
+                    data: {
+                        labels: [
+                            "無謬性",
+                            "",
+                            "",
+                            "",
+                            "処理速度"
+                        ],
+                        datasets: [{
+                            label: "回答数",
+                            data: [
+                                108, 292, 453, 146, 78
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'x',
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        aspectRatio: 2
+                    },
+                });
+            </script>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc10--5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#col10--5"
+                    aria-expanded="false" aria-controls="col10--5">
+                <strong>5. スタッフがその権限を行使する差し戻しが可能な処理についても、ミスを絶対にしないことを求めますか？</strong>
+            </button>
+        </h2>
+        <div id="col10--5" class="accordion-collapse collapse" aria-labelledby="acc10--5"
+             data-bs-parent="#acc10">
+            <div class="accordion-body">
+                <div class="chart-wrapper">
+                    <canvas id="cha10--5"></canvas>
+                </div>
+            </div>
+            <script>
+                new Chart($("#cha10--5"), {
+                    type: "pie",
+                    data: {
+                        labels: [
+                            "求める",
+                            "求めない"
+                        ],
+                        datasets: [{
+                            label: "回答",
+                            data: [
+                                174, 925
+                            ],
+                            backgroundColor: [
+                                "#1c7ed6", "#fa5252"
+                            ]
+                        }]
+                    },
+                    options: OPTION_PIE
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+
+<p class="h4">8.その他</p>
+<div class="accordion" id="acc11">
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="acc11--1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#col11--1"
+                    aria-expanded="false" aria-controls="col11--1">
+                <strong>1. アンケートやその他に関する意見・要望</strong>
+            </button>
+        </h2>
+        <div id="col11--1" class="accordion-collapse collapse" aria-labelledby="acc11--1"
+             data-bs-parent="#acc11" style="padding: 1rem;">
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>今後も定期的にユーザーアンケートを実施して欲しい。</strong>
+                    </p>
+                    <p>
+                        これからは年に一度やることにしました。来年もご協力をお願いします！
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>アンケートにおいて、個人情報は収集していないという但し書き</strong>
+                    </p>
+                    <p>
+                        仰る通りですね。来年以降は明記しようと思います。
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>このアンケートで公式Twitter/Discord/茜刺財団新聞の存在を始めて知りました。</strong>
+                    </p>
+                    <p>
+                        今後積極的に存在を告知していけたらと思います。
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>財団新聞の体裁が実際の新聞らしく縦書きになると、より魅力的になるのではと思いました。</strong>
+                    </p>
+                    <p>
+                        開発リソース不足の問題、CSSテーマの観点からかなり難しいです。ちなみに、多くの電子新聞は横書きです。
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>荒らし・利用規約違反行為に対する積極的かつ然るべき対応をして欲しい。</strong>
+                    </p>
+                    <p>
+                        してます！ ……してるつもりです！ もしされていない場合、スタッフが把握できていない可能性があるのでスタッフにご連絡ください。
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>記事を単語検索できると嬉しい。</strong>
+                    </p>
+                    <p>
+                        このページを一番上までスクロールした後、右上のSearchというボタンをクリックしてみてください。<br>
+                        Wikidotの不調により検索機能が死んでいる場合、Googleでsite:コマンドを使ってみるとよいでしょう。site:scp-jp.wikidot.comと検索したい単語を入力すること(例:
+                        site:scp-jp.wikidot.com K-クラスシナリオ)で、このSCP財団Wikiの中だけから検索することができます。
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>インターネット初心者が加入しやすいようにして欲しい。SCP財団に詳しくないことも相まって、躊躇してしまう。</strong>
+                    </p>
+                    <p>
+                        インターネットコミュニティの特性上、ネットに不慣れな方の参加が難しいことは避けられないものと考えています。<br>
+                        サイトに参加するために詳しい知識を持っている必要はないことは、「初めての方へ」などに明記することを検討します。
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>非サイトメンバーでも不具合を報告したり、企画を考えたり、参加したりできるようにして欲しい。</strong>
+                    </p>
+                    <p>
+                        不具合等は「SCP-JP運営Discord」、企画のアイデアは「SCP-JPイベント委員会」サーバーへお越しいただければと思います。共にサイトメンバー以外でも利用可能であり、「ASHURA」から参加できます。企画の参加は……うん……サイトメンバーは誰でも無料でなれるので、サイトメンバーになってくれればそれで解決ですよ！
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>タグの使用の傾向を見れるようにして欲しい。</strong>
+                    </p>
+                    <p>
+                        テクニカルチームのスタッフが暇なときにやるって言ってました。彼らは暇ではないのであまり期待しないでください。
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>見ている記事のメタタイトルがどこからでも確認できるようになって欲しい。一覧からでないと確認できないのは面倒。</strong>
+                    </p>
+                    <p>
+                        著者の皆さん、クレジットモジュールを使用しましょう！
+                        全記事クレジットモジュール化とかはしたいのですが、余力がありません。もしやるとなったら実働部隊を募ることになると思うので、皆さんご協力をお願いいたします。
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>記事投稿後にタグを付与しようとしていたら、他メンバーから説教のようなことをされてやめて欲しかった。</strong>
+                    </p>
+                    <p>
+                        自治行為ではなく穏当な指摘の範疇でしたら、スタッフがそれを咎めることはありません。しかし、記事を作成して十分も経たないうちに指摘するなどは抑制していきたいと思っています。<br>
+                        記事の投稿作業のうち、最後の投稿報告がされていてもタグが付与されていない場合などは指摘が必要になるかもしれません。投稿する側も、投稿前に付与するタグを洗い出しておいてコピペですぐにタグを付与できるようにするとよいかもしれませんよ。
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>アンケートについて公式チャットで@everyoneメンションしてもいいんじゃないでしょうか。</strong>
+                    </p>
+                    <p>
+                        このご意見を見てスタッフみんなが「メンションしたよね？」「した気がする」みたいな感じになり「してなかった」「しましょう」「するそうです」みたいになりました。つまり、みんな忘れていたと言うことです。本当に申し訳ない。
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>アンケート少し長いかも。</strong>
+                    </p>
+                    <p>
+                        ごめん。アンケートは私とbeing241さんで手分けして作ったので、全体の長さとかを意識できていなかったという反省があったりなかったりします。ある程度は仕方のない部分もあるので、来年は所要時間を最初に書いておく等をしようかと思います。
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong>（その他アンケートに関する要望）</strong>
+                    </p>
+                    <p>
+                        今回初めての試みということで、いくつも不具合があったり不十分な点があったりしました。ご意見は来年の改善に繋げさせていただこうと思います。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+[[/html]]
+
+
+----
+
+以上になります。改めて、ご協力ありがとうございました！
