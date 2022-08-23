@@ -1,9 +1,0 @@
-[[include :scp-jp:theme:black-highlighter-theme]]
-
-[[include credit:start]]
-[[include credit:cc4]]
-[[include credit:end]]
-
-[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
-%%content%%
-[[/module]]
