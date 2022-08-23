@@ -1,4 +1,4 @@
-[[include theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:black-highlighter-theme]]
 [[include :scp-wiki:component:bhl-dark-sidebar]]
 [[include :scp-wiki:component:fade-in speed=1]]
 [[include :scp-wiki:component:centered-header-bhl]]
@@ -13,7 +13,7 @@
 ++++ 財団歴史連続性委員会より通達
 
 [[span class="o"]]The following file has been found to contain a large number of inaccuracies in relation to the currently modeled historical progression. Through collaboration with the Temporal Anomalies Department this has been confirmed to be a product of the retrocausal anomalies described herein. The progression of events described below can be confirmed to have happened in one or more previous historical progressions with 98.6% certainty.[[/span]]
-以下のファイルには現在形成されている歴史連続体との関連で多数の誤りが含まれていると判明しています。時間異常部門との協力を通じてここに記述される因果遡行アノマリーの産物であるとこれは確認されました。以下に記述されるイベントの進行は前回またはそれ以前の歴史連続体において発生したと98.6%の確度で確認することができます。
+以下のファイルには現在形成済の歴史経過との関連で多数の誤りが含まれていると判明しています。時間異常部門との協力を通じてここに記述される逆因果的アノマリーの産物であるとこれは確認されました。以下に記述されるイベントの進行は前回またはそれ以前の歴史経過において発生したと98.6%の確度で確認することができます。
 [[/=]]
 [[/div]]
 
@@ -29,28 +29,28 @@
 ]]
 ----
 [[span class="o"]]**Special Containment Procedures:** As there exists no means by which to prevent an SCP-5715 Event, containment efforts are instead to focus on documenting all alterations caused by SCP-5715-2. To this end, [[[Welcome to Delta T|Temporal Site-02]]] is to house a data center capable of storing multiple Foundation database backups. These backups are to be continually updated to ensure minimal loss of information between SCP-5715 Events.[[/span]]
-**特別収容プロトコル:** SCP-5715イベントを防ぐ手段が存在しないため、収容の努力は代わりにSCP-5715-2により引き起こされた全変更を文書化することに焦点が置かれます。この目標に向け、[[[welcome-to-delta-t|時間サイト-02]]]に複数の財団データベースバックアップを保管可能なデータセンターを内蔵します。これらバックアップは確実にSCP-5715イベント間の情報ロスを確実に最小化するために持続的に更新されます。
+**特別収容プロトコル:** SCP-5715イベントを防ぐ手段が存在しないため、収容の努力は代わりにSCP-5715-2により引き起こされた全変更を文書化することに焦点が置かれます。この目標に向け、[[[welcome-to-delta-t|時間サイト-02]]]に複数の財団データベースバックアップを保管可能なデータセンターを内蔵します。これらバックアップはSCP-5715イベント前後での情報喪失を確実に最小化するために継続的に更新されます。
 
 [[span class="o"]]Temporal Site-02 has been outfitted with the Tachyon-Flux Monitoring System (TFMS). The TFMS measures tachyon concentrations within our baseline dimension to determine if an SCP-5715 Event has occurred. Following the detection of an SCP-5715 Event the TFMS will automatically initiate Protocol Veritas.[[/span]]
-時間サイト-02には[[span class="ruby"]]タキオン流監視システム[[span class="rt"]]Tachyon-Flux Monitoring System[[/span]][[/span]]が配備されています。TFMSは私たちの基底次元内のタキオン濃度を測定しすることでSCP-5715イベントが発生したか否かを判定します。SCP-5715イベントの検出後、TFMSは自動的にプロトコル・ヴェリタスを開始します。
+時間サイト-02には[[span class="ruby"]]タキオン流監視システム[[span class="rt"]]Tachyon-Flux Monitoring System[[/span]][[/span]]が配備されています。TFMSは私たちの基底次元内のタキオン濃度を測定することでSCP-5715イベントが発生したか否かを判定します。SCP-5715イベントの検出後、TFMSは自動的にプロトコル・ヴェリタスを開始します。
 
 [[span class="o"]]SCP-5715-1 is to be housed at Site-17 within a standard humanoid containment cell outfitted with a Mk I XACTS device. SCP-5715-1 is required to see an on-site psychologist weekly to ensure their continued psychological well-being.[[/span]]
-SCP-5715-1はサイト-17内のMk Ⅰ XACTSデバイスの備えられた標準人型収容室に居住します。SCP-5715-1はサイトの精神分析医と毎週会って持続的精神的健康を確保する必要があります。
+SCP-5715-1はサイト-17内のMk Ⅰ XACTSデバイスの備えられた標準人型収容室に居住します。SCP-5715-1はサイトの精神分析医と毎週面会し、継続的に精神面の健康を確かなものとしなくてはなりません。
 
 [[span class="o"]]To prevent retrocausal tampering this file is to be solely stored within Temporal Site-02's private database, and may only be accessed through select terminals.[[/span]]
-因果遡行的改竄を防止するため、このファイルは時間サイト―02内の内部データベースに単独で保存され、選ばれた端末からのみアクセスされます。
+逆因果的改竄を防止するため、このファイルは時間サイト―02内の内部データベースに単独で保存され、選ばれた端末からのみアクセスされます。
 
 [[span class="o"]]**Description:** SCP-5715 is a recurring phenomenon in which universal tachyon flux will cease, effectively freezing time for an indeterminate duration. The intervals between these events have proven to be entirely random. Additionally, a lack of any preemptive signs means SCP-5715 Events can only be confirmed after their occurrence. Thus far the only means of detection is verification from SCP-5715-1 or data analysis done by Protocol Veritas.[[/span]]
-**説明:** SCP-5715は繰り返し発生する現象です。この現象では宇宙タキオン流が止まり、事実上非決定的期間の時間を停止します。これらイベントの間隔は完全にランダムであると証明されています。加えて、あらゆる先行する兆候の欠如はSCP-5715イベントがその発生後にのみ確認できることを意味します。今までの所、唯一の検出手段はSCP-5715-1に確認するかプロトコル・ヴェリタスによってなされるデータ解析です。[[footnote]]**訳注:** 唯一と言いつつ2つありますが誤訳ではないはずです。Thus far the only means of detection is verification from SCP-5715-1 or data analysis done by Protocol Veritas.[[/footnote]]
+**説明:** SCP-5715は反復現象です。この現象では宇宙タキオン流が止まり、事実上非決定的期間の時間を停止します。これらイベントの間隔は完全にランダムであると証明されています。加えて、あらゆる先行する兆候の欠如はSCP-5715イベントがその発生後にのみ確認できることを意味します。今までの所、唯一の検出手段はSCP-5715-1に確認するかプロトコル・ヴェリタスによってなされるデータ解析です。[[footnote]]**訳注:** 唯一と言いつつ2つありますが誤訳ではないはずです。Thus far the only means of detection is verification from SCP-5715-1 or data analysis done by Protocol Veritas.[[/footnote]]
 
 [[span class="o"]]SCP-5715 was first discovered by former Foundation researcher Joseph Carter, now SCP-5715-1. Dr. Carter was assigned to Project Kairos, an initiative aimed at developing applications of targeted tachyon emissions. During the course of testing Dr. Carter was exposed directly to a malfunctioning tachyon emitter which, for unknown reasons, granted the ability to remain cognizant during SCP-5715 Events. Before the discovery of SCP-5715-2, Dr. Carter was classified as SCP-5715 as it was initially believed that the anomaly applied solely to them.[[/span]]
-SCP-5715は現在SCP-5715-1であり以前の財団の研究員であったジョセフ・カーターにより最初に発見されました。ターゲッティド・タキオン・エミッション・アプリケーションの開発を目標とするイニシアチブであるプロジェクト・カイロスにカーター博士は割り当てられていました。一連の実験中、カーター博士は誤作動を起こしたタキオン放出子に直接曝露し、理由は不明ですがSCP-5715イベントの間自意識を保つ能力を得ました。SCP-5715-2の発見以前、カーター博士にのみ異常性が適用されていると当初信じられていたため、カーター博士がSCP-5715として分類されていました。
+SCP-5715は現在SCP-5715-1であり元財団研究員ジョセフ・カーターにより最初に発見されました。指向性タキオン放射用アプリケーションの開発を目標とするイニシアチブであるプロジェクト・カイロスにカーター博士は割り当てられていました。一連の実験中、カーター博士は誤作動を起こしたタキオン放射装置に直接曝露し、理由は不明ですがSCP-5715イベントの間自意識を保つ能力を得ました。SCP-5715-2の発見以前、カーター博士にのみ異常性が適用されていると当初信じられていたため、カーター博士がSCP-5715として分類されていました。
 
 [[span class="o"]]SCP-5715-2 are entities that only manifest during SCP-5715 Events. Size and form vary greatly between instances, however all share a constantly shifting exterior resembling television static as well as a lack of depth cues[[footnote]]A visual cue that allows an individual to perceive depth in an object[[/footnote]] resulting in a two-dimensional appearance from all angles. They do not carry out any biological functions and are non-physical in nature. Instances of SCP-5715-2 will spend the majority of an SCP-5715 Event wandering aimlessly, often phasing through solid matter in the process.[[footnote]]A consequence of any entity occupying an environment with no time, rather than a unique ability possessed by SCP-5715-2[[/footnote]] The only physical evidence to SCP-5715-2's existence are the higher than average tachyon concentrations found in locations they have visited.[[/span]]
 SCP-5715-2はSCP-5715イベントの間のみ顕現する実体です。大きさと形態は実例間で大変大きく異なっていますが、テレビのスノーノイズに類似し、同じく深度刺激[[footnote]]物体の深さを個人に感じさせる視覚的刺激[[/footnote]]を欠くことで全ての確度から見ても平面的に見える外見を恒常的に揺らめかせるという点が全てにおいて共通しています。彼らはあらゆる生理学的機能を持たず、事実上非物理的です。SCP-5715-2実例はSCP-5715イベントの半分以上の間をしばしば充実性の物質を透過しながら目的なく彷徨うことに費やします。[[footnote]]むしろ時間を持たず環境を占有する実体に生じる現象であり、SCP-5715-2のユニークな能力というわけではありません。[[/footnote]]SCP-5715-2が存在する唯一の物理的証拠は、彼らが訪れた場所は平均タキオン濃度より高値であるということです。
 
 [[span class="o"]]Instances of SCP-5715-2 are capable of adding or removing items, structures, and organisms (designated as targets) to/from existence. This will retroactively alter all prior interactions with the target, changing history, records, and associated memories to align with the target's new state of existence. This interaction is theorized to be accomplished through the highly complex manipulation of tachyons entangled to bradyons[[footnote]]Any massive particle that travels slower than the speed of light[[/footnote]] resulting in a new historical progression. Instances are believed to be sentient, however all meaningful attempts at two-way communication have thus far failed.[[/span]]
-SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を追加して存在するようにするか、または削除して存在しないようにすることが可能です。これは遡及的に対象とのソレ以前の全ての干渉を変更し、歴史・記録・関連記憶を対象の新しい存在状態に沿って変えます。ブラディオン[[footnote]]あらゆる光速より遅く移動する質量を持った粒子[[/footnote]]と縺れているタキオンの行動に複雑な操作を通じてこの干渉が成され、新しい歴史連続体が生じると仮説が立てられています。実例には知性があると信じられていますが、しかしながら双方向コミュニケーションを図る全ての有意義な試行はこれまでの所失敗してきました。
+SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を追加して存在するようにするか、または削除して存在しないようにすることが可能です。これは遡及的に対象とのソレ以前の全ての干渉を変更し、歴史・記録・関連記憶を対象の新しい存在状態に沿って変えます。ブラディオン[[footnote]]あらゆる光速より遅く移動する質量を持った粒子[[/footnote]]と縺れているタキオンの行動に複雑な操作を通じてこの干渉が成され、新しい歴史経過が生じると仮説が立てられています。実例には知性があると信じられていますが、しかしながら双方向コミュニケーションを図る全ての有意義な試行はこれまでの所失敗してきました。
 ----
 [[span class="o"]]**Addendum 5715-1: Initial Discovery**[[/span]]
 **補遺5715-1: 初期発見**
@@ -63,7 +63,7 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 **インタビュー対象:** ジョセフ・カーター
 
 [[span class="o"]]**Foreword:** On 2006/02/17 Dr. Carter was working with the Project Kairos research team. During preparations for planned testing Dr. Carter was exposed directly to an active tachyon emitter and was seemingly teleported across Site-17. Immediately following the event Dr. Carter collapsed and began having a seizure. He was rushed to the site's medical wing for recovery. This interview was conducted the following day.[[/span]]
-**序:** 2006/02/17、カーター博士はプロジェクト・カイロス研究チームで働いていました。予定された実験の準備中にカーター博士は直接アクティブタキオン放出に曝露し、見かけ上サイト-17を横断してテレポートしました。イベント後即時にカーター博士は転倒してんかん発作を起こしました。治療のためサイトの医療棟に運び込まれました。このインタビューは翌日行われたものです。
+**序:** 2006/02/17、カーター博士はプロジェクト・カイロス研究チームで働いていました。予定された実験の準備中にカーター博士は直接稼働中のタキオン放射装置に曝露し、見かけ上サイト-17を横断してテレポートしました。イベント後即時にカーター博士は転倒してんかん発作を起こしました。治療のためサイトの医療棟に運び込まれました。このインタビューは翌日行われたものです。
 
 ----
 
@@ -76,34 +76,34 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 **カーター博士:** レベル3研究員のジョセフ・カーター、現在プロジェクト・カイロスで技術主任をしている。
 
 [[span class="o"]]**Dr. Tyler:** Could you please explain the events leading up to the incident?[[/span]]
-**タイラー博士:** インシデントに続いていった出来事を説明できますか？
+**タイラー博士:** インシデントに続いて発生した出来事について説明してもらえますか？
 
 [[span class="o"]]**Dr. Carter:** Well, Dr. Richards, Dr. Allen, and myself were sent to prep the observational equipment for the upcoming experiment. It was pretty routine but we kept getting readings from the emitter when we shouldn't have been, I ended up going into the chamber to fix the problem.[[/span]]
-**カーター博士:** ええ、リチャーズ博士、アレン博士、そして私自身が来る実験の観察機器を準備するために派遣されました。本当ルーチン作業でしたが、私たちはそうなるはずはない時に放出子から値を受け取り続けていました。ですので私は最終的に問題を修正しにチャンバーに入って行きました。
+**カーター博士:** ええ、リチャーズ博士、アレン博士、そして私自身が来る実験の観察機器を準備するために派遣されました。実に決まりきった作業でしたが、私たちはそうなるはずはない時に放射装置から値を受け取り続けていました。ですので私は最終的に問題を修正しにチャンバーに入って行きました。
 
 [[span class="o"]]**Dr. Tyler:** Instead of following protocol and reporting the issue?[[/span]]
 **タイラー博士:** プロトコルに従い問題を報告する代わりに？
 
 [[span class="o"]]**Dr. Carter:** Well at first we tried to adjust the receiver remotely, but, regardless of the frequency we dialed in, the emitter just kept firing. The tachyon levels were weak enough to be harmless. Also as head technician I would have to be the one to fix it either way, so yeah, I just went in.[[/span]]
-**カーター博士:** ええ、最初に私たちは受信機を遠隔調節しようとしましたが、しかし、どれだけ頻度をつまみを回して調節しても、放出子はただ発火し続けていたのです。タキオンの水準は十分無害なほど弱かったです。また技術主任として私はどちらにせよそれを修理する人になりますし、ですからええ、私はただ入っていったのです。
+**カーター博士:** ええ、最初に私たちは受信機を遠隔調節しようとしましたが、しかし、周波数をどれだけ調節しようとダイアルを回してしても、放射装置はただ発火し続けていたのです。タキオンの水準は十分無害なほど弱かったです。また技術主任ですので、どの道私が修理しなくてはならなかったでしょう。ですからええ、私はただ単に入室しました。
 
 [[span class="o"]]**Dr. Tyler:** And this is when the incident occurred?[[/span]]
 **タイラー博士:** そしてこの時インシデントが発生したと？
 
 [[span class="o"]]**Dr. Carter:** Yes. One moment I was standing in the testing chamber, and the next I was on the other side of the site with my head screaming at me. [[/span]]
-**カーター博士:** はい。私は実験チャンバー内で立っていたのですが、次の瞬間にはサイトの反対側にいまして頭が割れそうでした。
+**カーター博士:** はい。私は実験チャンバー内で立っていたのですが、次の瞬間にはサイトの反対側にいまして、頭が割れそうな程痛みました。
 
 [[span class="o"]]**Dr. Tyler:** So... the emitter teleported you across the site?[[/span]]
-**タイラー博士:** では……放出子がサイトの向こうにテレポートさせたと？
+**タイラー博士:** では……放射装置がサイトの向こうにテレポートさせたと？
 
 [[span class="o"]]**Dr. Carter:** That's what I thought at first but once I could think clearly, I realized I had memories that weren't there before. It still hurts when I try to think through it all but I definitely remember seeing the others frozen in place, I was trying to get their help but... nothing. I remember running, looking for anybody who wasn't frozen. Then everything around me started moving again and I got hit with the worst headache of my life.[[/span]]
-**カーター博士:** そう最初に私も考えましたが、しかししっかり考えられるようになってみますと、そこにいなかったという記憶があることに気付きました。その全てについて考えようとするとまだ痛むのですが、私は確かに他の人々がその場で凍りついている様を見たのを覚えています。私は彼らの助けを得ようとしていましたが……何もありませんでした。誰でも良いので凍ってない人を探して走っていたのを覚えています。そして周囲の皆が再び動き出し、人生最悪の頭痛がしだしたのです。
+**カーター博士:** 最初はそう私も考えましたが、頭がクリアになってみますと、そこにいなかったという記憶があることに気付きました。その全てについて考えようとするとまだ痛むのですが、私は確かに他の人々がその場で凍りついている様を見たのを覚えています。私は彼らの助けを得ようとしていましたが……何もありませんでした。誰でも良いので凍ってない人を探して走っていたのを覚えています。そして周囲の皆が再び動き出し、人生最悪の頭痛がしだしたのです。
 
 [[span class="o"]]**Dr. Tyler:** Interesting... well I suppose that covers everything for now. You will be temporarily relocated to an isolated domicile and scheduled for regular testing throughout the next two weeks to insure that no anomalous phenomena persist. After which you will be permitted to return to your work. Understood?[[/span]]
-**タイラー博士:** 興味深いですね……さて、今の所十分なんじゃないかと思います。あなたは隔離された居室に一時的に配置され、次の2週間は異常な現象が何も継続しないことを確実にするための定期的実験が予定されることとなるでしょう。その後になら仕事に復帰することが許されるでしょう。わかりましたか？
+**タイラー博士:** 興味深いですね……さて、今の所十分なんじゃないかと思います。あなたは隔離された居室に一時的に移されます。そして異常な現象が何も継続していないことを保証するため、定期的実験が続く2週間は予定されることとなるでしょう。その後になら仕事に復帰することが許されるでしょう。わかりましたか？
 
 [[span class="o"]](//Dr. Carter remains silent, in apparent contemplation//)[[/span]]
-(//カーター博士は明らかに沈思黙考しています。//)
+(//カーター博士は沈黙し、明らかに考え込んでいる。//)
 
 [[span class="o"]]**Dr. Tyler:** Carter, is that understood?[[/span]]
 **タイラー博士:** カーター、理解していますか？
@@ -112,7 +112,7 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 **カーター博士:** 何を……？ああいや、すみません。ちょっとただ私は……いえ、今週末に娘と会う予定だったな、と。
 
 [[span class="o"]]**Dr. Tyler:** Unfortunately that will have to wait. I'm sure she'll understand.[[/span]]
-**タイラー博士:** 残念ですが、それは待たなくてはならないでしょうね。彼女もきっと理解してくれることでしょう。
+**タイラー博士:** 残念ですが、延期せざるを得ないでしょうね。彼女もきっと理解してくれることでしょう。
 
 [[span class="o"]]**Dr. Carter:** Right.[[/span]]
 **カーター博士:** そうですね。
@@ -120,7 +120,7 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 [ログ終了]
 [[/div]]
 [[span class="o"]]The incident was initially classified as EE-32983. Dr. Carter was placed in temporary containment for testing and observation. Following Event-5715-02 this was reclassified as Event-5715-01.[[/span]]
-インシデントは当初EE-32983と分類されました。カーター博士は実験及び観察のために一時収容に配置されました。イベント-5715-02に続いてこれはイベント-5715-01に再分類されました。
+インシデントは当初EE-32983と分類されました。カーター博士は実験及び観察のために一時的収容下に置かれました。イベント-5715-02に続いてこれはイベント-5715-01に再分類されました。
 [[/collapsible]]
 [[collapsible show="+ イベント-5715-02の後のファイルにアクセス" hide="ファイルを閉じる"]]
 [[div class="blockquote"]]
@@ -131,10 +131,10 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 **インタビュー対象:** ジョセフ・カーター博士
 
 [[span class="o"]]**Foreword:** On 2006/02/25 security footage of Dr. Carter's isolation unit captured him seemingly teleporting across the room before collapsing. He was once again taken to the site medical wing for treatment and recovery.[[/span]]
-**序:** 2006/02/25、カーター博士の隔離室の監視カメラは部屋の間でテレポートして店頭したように見える様を捉えました。彼はすぐさま治療と回復のためにサイト医療棟にかつてのように再び運ばれました。
+**序:** 2006/02/25、カーター博士の隔離室の監視カメラは部屋の間でテレポートして転倒したように見える様を捉えました。彼は治療と回復のためにサイト医療棟に再度搬送されました。
 
 [[span class="o"]]Containment Specialist Molly Langman personally volunteered to conduct this interview, citing her experience working with Dr. Carter on multiple projects as a valuable asset in ensuring his cooperation.[[/span]]
-収容専門家であるモリー・ラングマンが個人的に志願してこのインタビューを行いました。彼女はカーター博士と複数のプロジェクトで共に働いた経験を彼の協力を保証するために有用な資産として引用しました。
+収容スペシャリストのモリー・ラングマンが自らをカーター博士との協力を保証するための貴重な人材として、複数のプロジェクトで共に働いたという経験を引き合いに出す形で個人的に志願し、このインタビューを行いました。
 
 ----
 
@@ -162,7 +162,7 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 **ラングマン博士:** いいですか……私は何が起きるのか確かなことは言えませんが、しかし協力することでもっとスムーズに物事が運べるようになると知っています。つまり最良のシナリオでは、私たちはこのゴタゴタを無かったことにする方法を解明します。そしてたとえそれが上手くいかなかったとしても多分彼らからあなたの家族に伝えてもらう何かしら言葉を頼めるのではないでしょうか。ですが、あなたが私に話してくれないのなら何も私は保証できません。
 
 [[span class="o"]]**Dr. Carter:** ... When I was a kid, my father took me to the Grand Canyon. It was breathtaking, I had never seen anything so open and free. To this day it's one of my favorite places to visit. I was hoping to take Lizzy there one day. (//Pauses//) That's what I was thinking about.[[/span]]
-**カーター博士:** ……私が子どもの頃、父にグランドキャニオンへ連れて行ってもらった。息を呑むほどだった、あれほどオープンでフリーな物を見たことがなかった。今日にいたるまであそこは大好きな旅行先の1つだ。リジーをいつか連れて行ってやりたかった。(//ポーズ//)私が考えているのはそういうものだよ。
+**カーター博士:** ……私が子どもの頃、父にグランドキャニオンへ連れて行ってもらった。息を呑むほどだった、あれほどオープンでフリーな物を見たことがなかった。今日にいたるまであそこは大好きな旅行先の1つだ。リジーをいつか連れて行ってやりたかった。(//間//)私が考えているのはそういうものだよ。
 
 [[span class="o"]]**Dr. Langman:** I see. Um... last time you were explaining to Dr. Tyler how you experienced a rush of memories, did that happen again?[[/span]]
 **ラングマン博士:** なるほど……うーん……前回タイラー博士に対して記憶の奔流をどう経験したのかを説明していましたよね、またあれは発生しましたか？
@@ -192,7 +192,7 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 **ラングマン博士:** では今の所これで全部だと私は思います。発生するにつれて何かしらの進展と決断を彼らはあなたに知らせるでしょう。
 
 [[span class="o"]](//Dr. Langman gets up to leave.//)[[/span]]
-(//ラングマン博士は退室するために起立します。//)
+(//ラングマン博士は退室するために立ち上がる。//)
 
 [[span class="o"]]**Dr. Langman:** And Joseph, there's still a chance that if they can fix you they can use amnestics to let you be with Lizzy again.[[/span]]
 **ラングマン博士:** それにジョセフ、彼らがあなたを治し記憶処理をすることでリジーとまた一緒になれるチャンスはまだあります。
@@ -211,7 +211,7 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 [[collapsible show="+ イベント-5715-07の後のファイルにアクセス" hide="ファイルを閉じる"]]
 [[div class="blockquote"]]
 [[span class="o"]]**Interviewer:** Dr. Andrew Wittenbrook[[/span]]
-**インタビューア:** アンドリュー・リトゥンブルック博士
+**インタビューア:** アンドリュー・ヴィッテンブルック博士
 
 [[span class="o"]]**Interviewed:** SCP-5715[[/span]]
 **インタビュー対象:** SCP-5715
@@ -224,45 +224,45 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 [ログ開始]
 
 [[span class="o"]]**Dr. Wittenbrook:** So what exactly happened? Was this event as particularly long as last time?[[/span]]
-**リトゥンブルック博士:** それで正確には何が起きたのですか？このイベントは前回ほど特に長かったのですか？
+**ヴィッテンブルック博士:** それで正確には何が起きたのですか？このイベントは前回同様非常に長かったのですか？
 
 [[span class="o"]]**SCP-5715:** … No, it wasn't anywhere near as long... Its just...[[/span]]
 **SCP-5715:** ……いえ、長いという訳では全然なくて……ただ……
 
 [[span class="o"]](//SCP-5715 falls silent.//)[[/span]]
-(//SCP-5715の声量が低下します。//)
+(//SCP-5715の声量が低下する。//)
 
 [[span class="o"]]**Dr. Wittenbrook:** Please continue.[[/span]]
-**リトゥンブルック博士:** 続けてください。
+**ヴィッテンブルック博士:** 続けてください。
 
 [[span class="o"]]**SCP-5715:** ... I saw something.[[/span]]
 **SCP-5715:** ……何かを見ました。
 
 [[span class="o"]]**Dr. Wittenbrook:** What do you mean?[[/span]]
-**リトゥンブルック博士:** どういう意味ですか？
+**ヴィッテンブルック博士:** どういう意味ですか？
 
 [[span class="o"]]**SCP-5715:** When I realized that another event had started I looked around the hallway, and right on the back wall was this blotch of... it looked like static. At first I thought something was wrong with my head, some weird side effect of the headaches, but then it moved.[[/span]]
-**SCP-5715:** また別のイベントが始まったと気付いた時私は廊下を見回しました。すると右後方の壁にこんなシミみたいな……それはスノーノイズみたいなものでした。最初は自分の頭が何かおかしくなったと、頭痛の何かしら奇妙な副作用だろうと思いましたが、その時それは動いたのです。
+**SCP-5715:** また別のイベントが始まったと気付いた時、私は廊下を見回しました。すると右後方の壁にこんなシミみたいな……それはスノーノイズみたいなものでした。最初は自分の頭が何かおかしくなったと、頭痛の何かしら奇妙な副作用だろうと思いましたが、その時それは動いたのです。
 
 [[span class="o"]]**Dr. Wittenbrook:** The static started spreading?[[/span]]
-**リトゥンブルック博士:** スノーノイズが拡散しだしたのですか？
+**ヴィッテンブルック博士:** スノーノイズが拡散しだしたのですか？
 
 [[span class="o"]]**SCP-5715:** No, it was more like it was emerging from the wall. At first I thought it was fixed in place, a visual glitch, but as it started to pull itself through I realized it had volume to it. It was this amorphous blob of static... but it still looked flat.[[/span]]
-**SCP-5715:** いえ、壁から現れてきたという感じです。最初はその場に固定されていると視覚的グリッチだと思いましたが、乗り越えて出てくるにつれて体積があることに気が付きました。それはこんな不定形なスノーノイズの塊でした……しかしまだ平らかに見えました。
+**SCP-5715:** いえ、壁から現れてきたという感じです。最初はその場に固定されたグリッチだと思いましたが、乗り越えて出てくるにつれて奥行きがあることに気が付きました。それはこんな不定形なスノーノイズの塊でした……しかしまだ平らかに見えました。
 
 [[span class="o"]]**Dr. Wittenbrook:** And what exactly did this blob do?[[/span]]
-**リトゥンブルック博士:** そしてこの塊は実際をしたのですか？
+**ヴィッテンブルック博士:** そしてこの塊は実際をしたのですか？
 
 [[span class="o"]]**SCP-5715:** It was just swaying in place in weird jerky motions. I had no idea how to react, and I was too scared to stare at it directly. Yet I couldn't bring myself to move either, I didn't want to draw attention to myself. Me and that thing sat there for what felt like a couple hours, and by that point I figured it wasn't gonna move, so I thought about making a run for it, but then it started to rush towards me. I ended up running through the site until I reached the cafeteria. I ducked under one of the tables hoping it wouldn't notice me. A few seconds later it was over and you guys found me.[[/span]]
 **SCP-5715:** それはただその場において奇妙でピクピクした動きで揺らめいていました。どう反応したら良いかわからず、恐ろしすぎて直に見つめられませんでした。ですが動くこともまたできませんでした、注意を惹きたくなかったのです。私とあのものは何時間にも感じられるほどそこにいて、その点からそれが動かないだろうと判断しました。ですので逃げることを考えましたが、するとそれが私に向けて迫りだしたのです。結局サイト内を駆け回ってカフェテリアに来ました。テーブルの1つに身を屈め、それが気付かないことを願いました。数秒後に終わってあなた達が私を見つけたのです。
 
 [[span class="o"]]**Dr. Wittenbrook:** I see. That's quite a lot of new information we will have to process. I'll let you know if we have any further questions.[[/span]]
-**リトゥンブルック博士:** わかりました。処理せねばならない新情報が本当に沢山ありますね。なにか更に質問ができたら知らせましょう。
+**ヴィッテンブルック博士:** わかりました。処理せねばならない新情報が本当に沢山ありますね。なにか更に質問ができたら知らせましょう。
 
 [ログ終了]
 [[/div]]
 [[span class="o"]]The following day Dr. Wittenbrook admitted SCP-5715 for a series of CT scans and meetings with on-site psychologists, believing that SCP-5715 was suffering from visual hallucinations.[[/span]]
-リトゥンブルック博士は後日SCP-5715に対する一連のCTスキャンとサイトの精神科医との面談を許可しました。SCP-5715が視覚的幻覚に苦しんでいると信じたためです。
+ヴィッテンブルック博士は後日SCP-5715に対する一連のCTスキャンとサイトの精神科医との面談を許可しました。SCP-5715が視覚的幻覚に苦しんでいると信じたためです。
 [[/collapsible]]
 [[collapsible show="+ イベント-5715-15の後のファイルにアクセス" hide="ファイルを閉じる"]]
 [[div class="blockquote"]]
@@ -273,17 +273,17 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 **インタビュー対象:** SCP-5715
 
 [[span class="o"]]**Foreword:** On 2006/07/19 SCP-5715 alerted site security that an individual named Angela Fisher, an alleged member of site staff, had vanished immediately following the occurrence of an SCP-5715 Event. Initial investigation found no record of an Angela Fisher under Foundation employment. Upon being informed of this SCP-5715 refused to speak further with interviewers, requesting that Dr. Langman conduct the interview instead. After some deliberation the request was eventually granted.[[/span]]
-2006/07/19、アンジェラ・フィッシャーという名の個人--@@　　@@--サイト職員であると思われます--@@　　@@--がSCP-5715イベントの発生の直後に消失しているとSCP-5715はサイトセキュリティに警告しました。初期調査ではアンジェラ・フィッシャーの財団雇用記録は見つかりませんでした。SCP-5715はこれを知らされて後、インタビューアにさらに話すことを拒否し、代わりにラングマン博士とインタビューすることを求めました。いくらか検討した後要求は最終的に承認されました。
+2006/07/19、SCP-5715はアンジェラ・フィッシャーという名の個人--@@　　@@--サイト職員であると思われます--@@　　@@--がSCP-5715イベント発生直後から消失しているとサイトセキュリティに警告しました。初期調査ではアンジェラ・フィッシャーの財団雇用記録は見つかりませんでした。SCP-5715はこれを知らされて後、インタビューアにさらに話すことを拒否し、代わりにラングマン博士とインタビューすることを求めました。いくらか検討した後要求は最終的に承認されました。
 
 ----
 
 [ログ開始]
 
 [[span class="o"]]**Dr. Langman:** So... how are you feeling? They’ve noted in your file that you are handling the memory rush a lot better now.[[/span]]
-**ラングマン博士:** それで……気分はどうですか？今や記憶奔流により上手に対処できるとファイルにメモされていましたよ。
+**ラングマン博士:** それで……気分はどうですか？今ではより上手に記憶奔流に対処できるとファイルにメモされていましたよ。
 
 [[span class="o"]]**SCP-5715:** So I'm assuming you also read how Wittenbrook thinks I’ve lost it?[[/span]]
-**SCP-5715:** ならば私がそれを失ってきたとリトゥンブルックがどう考えているのかも今や読んだと考えていいのですね。
+**SCP-5715:** ならば、私が正気を失っているとヴィッテンブルックがみなしていることについてあなたは読んだと考えていいですね。
 
 [[span class="o"]]**Dr. Langman:** He worded it a little differently than that, but yes, I saw what he said.[[/span]]
 **ラングマン博士:** それとはちょっと違う言葉選びをしていましたが、そうですね、彼の言いたいことはわかっています。
@@ -298,28 +298,28 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 **SCP-5715:** 彼が正しいと思いますか？
 
 [[span class="o"]]**Dr. Langman:** ... I don’t agree with his theory. It makes sense on a surface level, but the evidence just doesn’t support it. He’s arguing that the increased brain activity is causing you to experience hallucinations, yet for some reason you've only experienced symptoms whenever time freezes? Seems like he’s reaching to me. Not to mention that your scans don’t turn anything up. (//Pauses//) However, there’s still the Angela Fisher situation.[[/span]]
-**ラングマン博士:** ……彼の仮説には賛成しません。表面的には意味を成しますが、しかし証拠はただ支持していません。増加した脳活動が幻覚を体験させているのだと彼は主張しますが、それにも関わらず何らかの理由で時間が止まった時にのみ症状を経験ですって？彼は私の地位にまで来ようとしているかのようです。言うまでもありませんがあなたをスキャンしても何もわかりませんでした。(//ポーズ//)しかし、アンジェラ・フィッシャーの状況についてまだ言えることがあります。
+**ラングマン博士:** ……彼の仮説には賛成しません。表面的には意味を成しますが、しかし証拠はただ支持していません。増加した脳活動が幻覚を体験させているのだと彼は主張しますが、それにも関わらず何らかの理由で時間が止まった時にのみ症状を経験ですって？彼は私の地位にまで来ようとしているかのようです。言うまでもありませんがあなたをスキャンしても何もわかりませんでした。(//間//)しかし、アンジェラ・フィッシャーの状況についてまだ言えることがあります。
 
 [[span class="o"]]**SCP-5715:** So you really don’t remember her?[[/span]]
 **SCP-5715:** ではあなたは本当に彼女を覚えていないのですか？
 
 [[span class="o"]]**Dr. Langman:** I’m sorry, no. (//Pauses//) Could you tell me about her?[[/span]]
-**ラングマン博士:** 残念ですが、はい。(//ポーズ//)彼女について教えてくれませんか？
+**ラングマン博士:** 残念ですが、はい。(//間//)彼女について教えてくれませんか？
 
 [[span class="o"]]**SCP-5715:** I didn't know her all that well. I'm pretty sure she worked with humanoids, though that's not all that surprising considering we're at Site-17. Her work didn't have much overlap with mine but I do remember a couple years back she had to consult with some of our people about some assignment of hers. Not that any of that matters, its not like you'll suddenly remember her.[[/span]]
 **SCP-5715:** あまり詳しくは知りません。人型に対して働いていたことは確かですが、ここがサイト-17であることを考えると驚くべきことではないですね。彼女の仕事は私のとかぶらなかったのですが、数年前彼女に割り当てられたものについて私の部下の幾人かに相談しなければならなかったというのを覚えています。それは大した問題ではありませんが、あなたは突然彼女のことを思い出したりはしないようですね。
 
 [[span class="o"]]**Dr. Langman:** Well no, probably not, but the way I see it there are still some important options to cover. First would be that Wittenbrook is right and the time stops really did mess with your head. Second would be that Angela has gone antimemetic on us, which still leaves some very important questions, such as why you can still remember details about her. And perhaps the most important option to consider: Angela did exist, but now she doesn’t.[[/span]]
-**ラングマン博士:** ええ、そうですね、多分はい、ですが私が見るにまだ幾つか大事な選択肢をカバーする方法がありますね。第1にリトゥンブルックが正しくて時間停止が本当にあなたの頭を混乱させているというものです。第2にアンジェラが私たちに対して反ミーム的となってしまったというものですが、どうして彼女の詳細をあなたはまだ覚えていられるのかという重要な質問がこれにはまだ残ることとなります。そして恐らく最も考慮すべき重要な選択肢は、アンジェラは存在したが今やそうではないというものです。
+**ラングマン博士:** ええ、そうですね、多分はい、ですが私が見るにまだ幾つか大事な選択肢をカバーする方法がありますね。第1にヴィッテンブルックが正しくて時間停止が本当にあなたの頭を混乱させているというものです。第2にアンジェラが私たちに対して反ミーム的となってしまったというものですが、どうして彼女の詳細をあなたはまだ覚えていられるのかという重要な質問がこれにはまだ残ることとなります。そして恐らく最も考慮すべき重要な選択肢は、アンジェラは存在したが今やそうではないというものです。
 
 [[span class="o"]]**SCP-5715:** ... As in a localized CK-Class Event.[[/span]]
-**SCP-5715:** ……局所CK-クラスイベント中に。
+**SCP-5715:** ……局地的CK-クラスイベント中に。
 
 [[span class="o"]]**Dr. Langman:** It’s a possibility we should look into to. Assuming your memory wasn’t affected we may be able to find a discrepancy between what you should know and what you actually know.[[/span]]
 **ラングマン博士:** 調べねばならない可能性です。あなたの記憶が影響を受けなかったと推定すると私たちはあなたが知っているはずのことと実際知っているはずのことの間の相違を見つけることもできるでしょう。
 
 [[span class="o"]]**SCP-5715:** We should also check my work history with the Foundation. If the restructuring was retrocausal in nature, as I’m starting to suspect, it’s very likely that there are now differences in the history of people who interacted with Fisher.[[/span]]
-**SCP-5715:** 私の財団業務履歴もチェックすべきでしょう。再構築が事実因果遡行的ならば、私は疑い始めたのですが、フィッシャーと干渉した人々の歴史に今や差異が非常にありそうです。
+**SCP-5715:** 私の財団業務履歴もチェックすべきでしょう。再構築が本質的に逆因果的ならば、私は疑い始めたのですが、フィッシャーと干渉した人々の歴史に今や差異が非常にありそうです。
 
 [[span class="o"]]**Dr. Langman:** I’ll request the files and some other materials so we can get started.[[/span]]
 **ラングマン博士:** 取り掛かれるようにファイルと他の資料を要求しましょう。
@@ -327,7 +327,7 @@ SCP-5715-2実例は物品・構造・生命体(標的と指定されます)を�
 [ログ終了]
 [[/div]]
 [[span class="o"]]On 2006/07/19 Dr. Langman initiated an official investigation into a possible CK-Class Restructuring Event related to SCP-5715. Dr. Langman requested several devices from Dr. Anastasakos, the head of Project Kairos, and control over the containment procedures of SCP-5715 for the duration of the investigation. All materials as well as permission to conduct tests on SCP-5715 were approved, however control of containment procedures remained under Dr. Wittenbrook.[[/span]]
-2006/07/19、ラングマン博士はSCP-5715に関連したCK-クラス再構築の可能性に対するイベント公的調査を開始しました。ラングマン博士はプロトコル・カイロス主任であるアナスタサコス博士に幾つかの機器と調査中のSCP-5715収容プロトコルの統制権を要求しました。SCP-5715に実験を行う許可と全資料が承認されましたが、収容プロトコルの統制権はリトゥンブルック博士の下に留められています。
+2006/07/19、ラングマン博士はSCP-5715に関連したCK-クラス再構築の可能性に対するイベント公的調査を開始しました。ラングマン博士はプロトコル・カイロス主任であるアナスタサコス博士に幾つかの機器と調査中のSCP-5715収容プロトコルの統制権を要求しました。SCP-5715に実験を行う許可と全資料が承認されましたが、収容プロトコルの統制権はヴィッテンブルック博士の下に留められています。
 [[/collapsible]]
 [[collapsible show="+ 調査5715-01の公的な発見" hide="ファイルを閉じる"]]
 [[span class="o"]]On 2006/09/03 the following message was sent by Dr. Langman to Site-17 Director Weathers as well as Dr. Anastasakos.[[/span]]
@@ -353,11 +353,11 @@ SCP-5715に対する初期インタビューでは記録された歴史とSCP-57
 * [[span class="o"]]The start of SCP-5715's Foundation employment in 1996 (records show 1999)[[/span]] _
 1996年にSCP-5715の財団雇用開始(記録では1999年です)
 * [[span class="o"]]SCP-5715's assignment to a project centered on studying retrocausal loops (though such studies have been conducted by the Foundation, our records do not show that SCP-5715 participated in them)[[/span]] _
-因果遡行ループの研究に重点を置いたプロジェクトへのSCP-5715の割り当て(財団によってそのような研究が行われてきましたが、私たちの記録ではSCP-5715がそれに参加したと示すものはありません)
+逆因果的ループの研究に重点を置いたプロジェクトへのSCP-5715の割り当て(財団によってそのような研究が行われてきましたが、私たちの記録ではSCP-5715がそれに参加したと示すものはありません)
 * [[span class="o"]]The assassination of U.S. President George W. Bush on 2005/05/10[[/span]] _
 2005/05/10の合衆国大統領ジョージ・W・ブッシュ暗殺
 [[span class="o"]]Though the majority of these discrepancies could not be confirmed to have been true through interviews alone it is of note that SCP-5715 knows accurate personal information about Dr. Chance Johnson, a former Foundation researcher who retired in 1998. According to SCP-5715, Dr. Johnson acted as a mentor and friend upon their joining of the Foundation. Our records would suggest that these two never met, and that SCP-5715 would not have access to this information.[[/span]]
-これら相違の大半はインタビュー単独では真実であるか確認できませんが、1998年に辞職したかつて財団研究員であるチャンス・ジョンソン博士の正確な個人情報をSCP-5715が知っていることは注目に値するでしょう。SCP-5715によりますとその財団加入時からジョンソン博士は師匠であり友人として振る舞っていたそうです。私たちの記録では2人はけして会ったことがなく、SCP-5715はこの情報にアクセスできなかったことを示しています。
+これら相違の大半はインタビュー単独では真実であるか確認できませんが、1998年に辞職した元財団研究員チャンス・ジョンソン博士の正確な個人情報をSCP-5715が知っていることは注目に値するでしょう。SCP-5715によりますとその財団加入時からジョンソン博士は師匠であり友人として振る舞っていたそうです。私たちの記録では2人はけして会ったことがなく、SCP-5715はこの情報にアクセスできなかったことを示しています。
 
 [[span class="o"]]Beyond this we were able to find quantitive proof to the existence of the creatures observed by SCP-5715. By using tachyon counters provided by Dr. Anastasakos, we created an array of detectors spread across Site-17. SCP-5715 noted the locations of these entities during the latest event; this information was then overlaid with the tachyon counter array. It was found that tachyon counters in close proximity to the creatures were detecting tachyon concentrations at least ten times the average.[[/span]]
 これを越えて、SCP-5715により観察された怪物が実在する定量的証拠を私たちは見つけられました。アナスタサコス博士に提供されたタキオン測定器を用い、私たちはサイト-17全体に検出器配列を広げました。SCP-5715は最後のイベント中これら実体のいた場所をメモしました。この情報はタキオン検出器配列と重なりました。怪物と空間的に近接したタキオン測定器が平均の最低10倍のタキオン濃度を検出しているとわかりました。
@@ -373,7 +373,7 @@ SCP-5715に観察された実体が現実に存在するのみならず、私た
 [[image http://scp-jp-storage.wikidot.com/local--files/file:7974444-64-2i5d/AngelaFisher.jpg style="width:80%;" link=#]]
 [[div class="scp-image-caption" style="width:60%;"]]
 [[span class="o"]]Angela Fisher (left) facilitating a seminar in 2002[[/span]]
-2002年のセミナーで司会をするアンジェラ・フィッシャー(逝去)
+2002年のセミナーで司会をするアンジェラ・フィッシャー(左)
 [[/div]]
 [[/div]]
 
@@ -398,7 +398,7 @@ SCP-5715-2の現実改変能力に示される脅威に対応し、効果的な�
 プロトコル・ヴェリタスはSCP-5715-2により起こされたあらゆる改変を同定する最良の手法であると共にSCP-5715イベントを確認する主な方法として動作します。時間サイト-02に格納された至近の入手可能なバックアップと現在のデータベースの比較を通じてこれは達成されます。これらのバージョン間のあらゆる原因不明の差異はCK-クラス5715型再構築イベント宣言をもたらします。
 
 [[span class="o"]]Following confirmation of an SCP-5715 Event, Protocol Veritas will continue to scan and compare the two iterations of the database in order to find all new, altered, and erased SCP files. New files require no alteration or further action. Altered files will be reviewed and edited to incorporate as much accurate and relevant data as possible. Erased files will undergo review by Level 5/5715 personnel or O5 Command, in cases of high priority, to determine the feasibility of reestablishing containment. In the event that an anomaly is still extant, containment efforts will be reenacted as soon as possible, with records of its discovery being updated to match the new historical progression. SCPs found to be nonextant will remain unaltered within the database.[[/span]]
-SCP-5715イベントの確認後、プロトコル・ヴェリタスはスキャンを継続して全ての新しく、改変され、消去されたSCPファイルを発見するためにデータベースの2バージョンを比較します。新規ファイルには変更やさらなる対処は不要です。変更されたファイルはレビューされ可能な限りより正確かつ関連データを多く含むように編集されます。消去されたファイルについてはレベル5/5715職員またはO5司令部によるレビューを受け、高い優先度が疑われる場合には、収容再確立の実行可能性を判定されます。アノマリーが未だ存在する場合には、収容の努力が可及的速やかに再開され、新しい歴史連続体に合致するように回収記録が更新されます。存在しないとわかったSCPについてはデータベースに変更を加えずそのままとします。
+SCP-5715イベントの確認後、プロトコル・ヴェリタスはスキャンを継続して全ての新しく、改変され、消去されたSCPファイルを発見するためにデータベースの2バージョンを比較します。新規ファイルには変更やさらなる対処は不要です。変更されたファイルはレビューされ可能な限りより正確かつ関連データを多く含むように編集されます。消去されたファイルについてはレベル5/5715職員またはO5司令部によるレビューを受け、高い優先度が疑われる場合には、収容再確立の実行可能性を判定されます。アノマリーが未だ存在する場合には、収容の努力が可及的速やかに再開され、新しい歴史経過に合致するように回収記録が更新されます。存在しないとわかったSCPについてはデータベースに変更を加えずそのままとします。
 [[/div]]
 [[/collapsible]]
 
@@ -430,7 +430,7 @@ SCP-5715-2(多分もっとマシな名前を考えるべきだ)の3実例に遭�
 [[span class="o"]]Major takeaways:[[/span]]
 重大事実:
 * [[span class="o"]]They seem to be free to move around space in whatever way they want, ignoring physical obstacles and even gravity[[/span]] _
-したければどんな方法でも物理的障害や重力すら無視して空間を自由に動けるようだ。
+実例はその気になれば物理的障害や重力すら無視して空間を自由に動けるようだ。
 * [[span class="o"]]As far as I can tell they can only affect things they are physically near when the event ends[[/span]] _
 私にわかる範囲ではイベントが終了する時に物理的に近くにあるものにだけ影響を与えられるようだ。
 
@@ -474,7 +474,7 @@ SCP-5715-2(多分もっとマシな名前を考えるべきだ)の3実例に遭�
 **SCP-5715-1:** 1体に会うのにほとんど2ヶ月掛かったことを知っていますか？
 
 [[span class="o"]]**Dr. Langman:** Yeah, that's probably part of the reason Wittenbrook called you crazy.[[/span]]
-**ラングマン博士:** ええ、それが多分リトゥンブルックがあなたを狂っていると言った理由の一つでしょうし。
+**ラングマン博士:** ええ、それが多分ヴィッテンブルックがあなたを狂っていると言った理由の一つでしょうし。
 
 [[span class="o"]]**SCP-5715-1:** Well it doesn't make any sense to me. Why is it that now I see at least one instance every time?[[/span]]
 **SCP-5715-1:** まあ私にとってもう意味は無いのですが。何故今や毎回最低1体に遭遇するのでしょうか？
@@ -498,7 +498,7 @@ SCP-5715-2(多分もっとマシな名前を考えるべきだ)の3実例に遭�
 **SCP-5715-1:** ええ、何故です？
 
 [[span class="o"]]**Dr. Langman:** As far as the Foundation is concerned that information is useless, no reason to keep it locked up safe and tight in their big new fancy causally isolated database. So, if she really was gone, there is no way I could know that.[[/span]]
-**ラングマン博士:** その情報が不要であると財団が考える限りそれを安全でがっちりとした大きな新しいファン品―因果隔絶データベースに仕舞い込み続ける理由はありません。ですので彼女が本当に亡くなった場合、私がそれを知る方法はありません。
+**ラングマン博士:** そのような情報を不要と財団が考えている限り、新型大容量空想的略式隔絶データベースに確実かつ強固に封印しておく理由はありません。ですので彼女が本当に亡くなった場合、私がそれを知る方法はありません。
 
 [[span class="o"]]**SCP-5715-1:** I... thank you.[[/span]]
 **SCP-5715-1:** 私は……ありがとうございます。
@@ -569,7 +569,7 @@ TFMSデータ要求の決裁を未だ待っているが、驚くようなこと�
 もし私が何らかの方法でこれらのものたちを創造しているならば、時が経つにつれて私から遠ざかっていき空間に拡散するだろう。しかし、逆を見た。これらのものたちは私に向けて集まってきたのだ、ゆっくりと深宇宙から近付いてくるのだ。その響きが恐ろしいほど、最終的に彼らについて確かなことを知れて実際はなぜだか安心できるのだが。
 
 [[span class="o"]]The working theory is that the -2 have been around longer than I have, presumably wandering the universe, stranded in no-time, messing with a world they aren't even fully a part of. Then I come along and get myself a time-share in temporal limbo and suddenly they want to meet the new resident. I have no idea how it is that they sensed me, but evidently even atemporal static beings aren't immune to curiosity.[[/span]]
-辻褄の合う理論は、-2は私より長く側にいて、おそらく宇宙を漂い無時間に座礁したのであり、完全にその一部というわけですらない世界をめちゃくちゃにしている、というものだ。そして私が表れて時間の辺獄にて時を共有するようになった。突然彼らは新しい住人に会いたくなったのだ。どうやって彼らが私を知覚したのかはわからないが、非時間的なスノーノイズな存在ですら明らかに好奇心には免疫がないのだった。
+辻褄の合う理論は、-2は私より長く側にいて、おそらく宇宙を漂い極めて短時間に座礁したのであり、完全にその一部というわけですらない世界をめちゃくちゃにしている、というものだ。そして私が表れて時間の辺獄にて時を共有するようになった。突然彼らは新しい住人に会いたくなったのだ。どうやって彼らが私を知覚したのかはわからないが、非時間的なスノーノイズな存在ですら明らかに好奇心には免疫がないのだった。
 
 [[span class="o"]]I'm so close to understanding these things, I have to be. We already knew that they are non-physical, and now, knowing that they aren't just mindless husks, it feels pretty safe to assume they operate like I do when I'm in there: just pure thoughts and consciousness. Biggest difference is that they presumably don't have a body to go back to when it's all said and done.[[/span]]
 これらのものたちを理解できそうだ、そうであるべきなのだ。彼らが非物理的であると私たちは既に知っている、そして今やただの心無い抜け殻ではないとも知っている。私が底にいる時にしているように彼らも動作していると推測するのはとても安全であるように感じる。ピュアな思考と意識があるだけなのだ。最も大きな違いは、彼らが恐らく最終的に戻る肉体を持たないことなのだ。
@@ -659,7 +659,7 @@ TFMSデータ要求の決裁を未だ待っているが、驚くようなこと�
 **ラングマン博士:** ではなんですか、あなたたちは全員テレパシーでまさにつながっているのですか？
 
 [[span class="o"]]**SCP-5715-1:** Not exactly. If you think of the mind as a house then telepaths are effectively breaking and entering, usually having to put in effort to do so, but during the events it's as if all the doors are unlocked and all you have to do is walk inside.[[/span]]
-**SCP-5715-1:** 正確には違います。心を家と考えるならばテレパシストは通常努力をして効率的に破壊して侵入しますが、しかしイベント中は全てのドアに鍵が掛かっておらず中に歩いていけばそれだけで済むかのようなのです。
+**SCP-5715-1:** 正確には違います。心を家と考えるならばテレパスは通常努力をして効率的に破壊して侵入しますが、しかしイベント中は全てのドアに鍵が掛かっておらず中に歩いていけばそれだけで済むかのようなのです。
 
 [[span class="o"]]**Dr. Langman:** So what exactly did you do with this revelation?[[/span]]
 **ラングマン博士:** ではこの新事実に対してあなたは正確には何をしたのですか？
@@ -686,7 +686,7 @@ TFMSデータ要求の決裁を未だ待っているが、驚くようなこと�
 **SCP-5715-1:** 基礎的なレベルで私はそれを感じましたので。単なる幻覚やマインドトリックではなかったです。彼らの渇望を感じました。かつて生きていた生命の上辺を絶望的に欲しています。
 
 [[span class="o"]]**Dr. Langman:** What about their retrocausal abilities? None of that explains how and why they are messing with history.[[/span]]
-**ラングマン博士:** 彼らの因果遡行能力はどうですか？歴史を玩ぶ方法と理由をそれは何も説明していませんよ。
+**ラングマン博士:** 彼らの逆因果的能力はどうですか？歴史を玩ぶ方法と理由をそれは何も説明していませんよ。
 
 [[span class="o"]]**SCP-5715-1:** They are intertwined with time, they could theoretically change it however they see fit. The only reason they haven't made our reality a cacophonous mess is because they don't want it to be. There is purpose in the choices they make. Painstaking trial and error, all to push existence in one direction. They needed something from the physical world to latch onto, something more real that could help pull them out. Do you know what that makes me?[[/span]]
 **SCP-5715-1:** 彼らは時間と撚り合わさっているのです。彼らは理論上はそれを変更できますがしかし適切だと思っています。彼らが私たちの現実を調和の失われたゴミにしない唯一の理由はそうなって欲しくないからです。彼らのなす選択には理由があります。つらいトライ＆エラーです。その全ては存在を1つの方向に向かせるためなのです。彼らが物理的世界にしがみつくには何らかのものが必要でした。彼らが現れるのを手助けできるより現実的ものが。それが私をどうしたかわかりますか？
@@ -698,13 +698,13 @@ TFMSデータ要求の決裁を未だ待っているが、驚くようなこと�
 **SCP-5715-1:** (//声高に//)私はただのクソッタレなロープだ！もし私が自分を引っ張り上げようとしようものならあいつらも一緒に出てきちまうから、自分を治す方法を見つけても問題はなかったんだ。私が再び正常になる……
 
 [[span class="o"]](//By this point Agent Garland, who was overseeing the interview, deemed SCP-5715-1's aggressive behavior as a potential threat to Dr. Langman and called in security to terminate the interview, sedate SCP-5715-1, and return them to their cell//)[[/span]]
-(//この時点までにインタビューを監視していたエージェント・ガーランドはSCP-5715-1の攻撃的振る舞いがラングマン博士に対して潜在的脅威であると見做し、インタビューを終了し、SCP-5715-1を鎮静し、収容室に戻すために警備を呼び寄せます。//)
+(//この時点までにインタビューを監視していたエージェント・ガーランドはSCP-5715-1の攻撃的振る舞いがラングマン博士を脅かしうるものであると見做し、インタビューを終了し、SCP-5715-1を鎮静し、収容室に戻すために警備を呼び寄せる。//)
 
 [[span class="o"]]**SCP-5715-1:** ... I can become normal again is by screwing up time itself. I'm forever gonna be an SCP, living my life in a cage, and I didn't even get the chance to say goodbye to my daughter. I spent years paying more attention to this goddamn job than her, and now I can't even fix my mistak—[[/span]]
-**SCP-5715-1:** ……惟一の方法は時間自身をクソミソにするしかない。私は永遠にSCPなんだ、檻の中で一生を生き、そして娘にさよならと言う機会すら得られずに。彼女よりもこの畜生仕事に何年も心砕いて働いてきて、そんで今となっては自分のミスすら治せ--@@　　@@--
+**SCP-5715-1:** ……時間そのものを滅茶苦茶にすれば、私は再び正常になれる。私は永遠にSCPなんだ、檻の中で一生を生き、そして娘にさよならと言う機会すら得られずに。彼女よりもこの畜生仕事に何年も心砕いて働いてきて、そんで今となっては自分のミスすら治せ--@@　　@@--
 
 [[span class="o"]](//Security agents enter the room and successfully sedate SCP-5715-1 removing them from the room//)[[/span]]
-(//セキュリティ・エージェントが入室しSCP-5715-1の鎮静に成功して部屋から排除します。//)
+(//セキュリティ・エージェントが入室しSCP-5715-1の鎮静に成功して部屋から排除する。//)
 
 [[span class="o"]]**Dr. Langman:** (//Whispers//) I'm sorry.[[/span]]
 **ラングマン博士:** (//囁き声で//)ごめんなさい。
@@ -785,7 +785,7 @@ TFMSデータ要求の決裁を未だ待っているが、驚くようなこと�
 **ラングマン博士:** わ……わかりました。あなたの要求に上役たちは問題を感じないと思いますので、数日以内のある時にサイトの医療棟に連れて行かれて記憶処理治療を受けられるでしょう。
 
 [[span class="o"]](//Dr. Langman gets up to leave before pausing at the door.//)[[/span]]
-(//ラングマン博士は立ち上がって退室しますがドアの前に固まります。//)
+(//ラングマン博士は立ち上がって退室しようとするがドアの前で立ち止まる。//)
 
 [[span class="o"]]**Dr. Langman:** Goodbye Joseph.[[/span]]
 **ラングマン博士:** さよなら、ジョセフ。
