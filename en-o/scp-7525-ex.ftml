@@ -1,0 +1,334 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:fade-in speed=4]]
+[[module CSS]]
+
+#page-content hr {
+border-top: none;
+height: .05em;
+background: #454545;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;
+}
+
+#page-content > .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: .8em;
+    background-color: #e3e3e3;
+    border-top: 0.125rem dashed #b5b5b5;
+    border-bottom: 0.125rem dashed #b5b5b5;
+}
+
+#page-content > .collapsible-block .collapsible-block-content {
+    text-align: left;
+}
+
+blockquote,
+div.blockquote {
+    border: 0.125rem solid #d4d4d4;
+    background-color: #F5F5F5;
+}
+
+.interview{
+    border:solid 2px #d4d4d4;
+    background:#F5F5F5;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+.addendum{
+    border:solid 1px #5e5e5e;
+    background:#ffffff;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+#page-title{display:none}
+
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div style="text-align: right; margin-top: -20px;"]]
+[[size 80%]]##757575|by PlaguePJP & HarryBlank##[[/size]]
+[[/div]]
+ 
+[[include component:info-ayers
+|lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=scp-7525-EX[!-- url of your page on the scp wiki --]
+|authorPage=http://www.scp-wiki.net/plaguepjp[!-- link to your author page --]
+|comments= The Slot Goblin - PlaguePJP and HarryBlank
+]]
+
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+++++ NOTICE FROM THE FOUNDATION RECORDS AND INFORMATION SECURITY ADMINISTRATION 
+
+Due to extreme measures taken to circumvent significant database corruption, the SCP classifications used in this file may appear incorrect to the casual observer. Foundation personnel are reminded that they are **not** casual observers, and must refrain from "correcting" said classifications on penalty of the loss of database privileges.
+
+-- Maria Jones, Director, RAISA
+[[/=]]
+[[/div]]
+
+----
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 7525-EX
+|clearance= 4
+|container-class= keter
+|secondary-class= none
+|disruption-class= ekhi
+|risk-class= notice
+]]
+
+-----
+
+[[div class="scp-image-block block-right" style="width:50%;"]]
+[[image slot%20goblin.png style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-5257-1.
+[[/div]]
+[[/div]]
+
+**Special Containment Procedures:** There is no SCP-7525-EX. The SCP-7525-EX file itself represents the primary containment apparatus for a phenomenon classified SCP-5257. Use of this database slot is the only practical means of recording information pertaining to SCP-5257, which remains actively anomalous. 
+
+-----
+
+**Description:** SCP-5257 is a "Trojan Horse" virus formerly infecting the SCiPNET servers, now isolated to the SCP-5257, SCP-5257-EX, and SCP-7525-EX database files. The former two files have been taken offline as of 05/17/2021; all attempts to view them will be met with an error or a notification from Site-19's Technical Department.
+
+Until recently, SCP-5257 executed opportunistic vandalism attacks against slots in the SCP database. It appears to have a limited predictive capacity, as it tended to interact with empty database slots already slated for imminent official use. Statistical analysis established the following hierarchy of preferences:
+
+# Slots below SCP-1000;
+# Slots with numbers relevant to a file's proposed contents;
+# Slots below SCP-2000;
+# Slots with numbers having humorous associations;
+# Slots below SCP-3000;
+# Slots with aesthetically or sonically pleasant numbers;
+# Slots below SCP-4000.
+
+SCP-5257 attacked its targets by corrupting any existing data, inserting unwanted and extraneous new data, inserting SCP-5257-1, and reverting authorized edits by appropriate Foundation personnel.
+
+SCP-5257-1 is a photo with the file name slot_goblin.png which appeared in each slot affected by SCP-5257. It depicts a clean line-art rendering of a goblin, with two images of a man costumed as the Green Goblin from the //Spider-Man// franchise mirrored on the lower left-hand and right-hand corners. "YOU HAVE BEEN GOBLINED BY THE SLOT GOBLIN" //[sic]// and "FUCK YOU AND YOUR SLOT" //[sic]// appear on the top and bottom of the picture, respectively.
+
+While the image appears to be non-anomalous[[footnote]]It was downloaded onto a virtual machine which suffered no ill effects, even when connected to the SCiPNET test servers. [[/footnote]], it has proven exceedingly difficult to remove from affected files, and completely impossible to eradicate from SCiPNET as a whole. Its single persistent iteration was formerly hosted in the SCP-5257 slot; it is presently confined to SCP-7525-EX.
+
+**Addendum 5257.1:** Incident Log
+
+[[div class="addendum"]]
+
+The following is an abridged log of notable incidents related to SCP-5257 activity within the SCP Foundation database.
+
+**02/07/2015:** Agent Lament uploaded an SCP file to the [[[SCP-1848]]] slot. The file's "common name," used informally to distinguish SCP files at a glance, has read [ACCESS DENIED] since its initial posting. All attempts to correct this have resulted in reversion, with an edit comment reading simply "OOPS."
+//Stop bugging me about this, I'm retired -- Agent T. Lament//
+
+**05/13/2016:** The first occurrence of the "Slot Goblin" image appeared alongside corruption of the SCP-5257 file. The anomaly was classified SCP-5257 internally, though attempts to upload data on its effects to the related file were repeatedly reverted with an edit comment reading "YOU CAN'T DEFINE THE SLOT GOBLIN!"
+//We might not be able to fix this without abandoning SCiPNET altogether -- Dir. M. Jones//
+//I won't miss it -- Dir. P. Lague//
+
+**07/21/2019:** All unoccupied slots in the database were corrupted by SCP-5257. They now contained short unpublished drafts of unlikely anomalous objects not otherwise attested by Foundation sources, with a level of completion ranging from full descriptions with testing logs, to fragmentary Special Containment Procedures, to completely unintelligible gibberish. Edit comments included "HOW DO I POST," "IN PROGRESS DON'T DELETE," and "LOL SNIPED."
+//Getting tired of cleaning this junk out -- H. Sturmatem//
+
+**10/14/2020:** Researcher Calvin's account uploaded an explained SCP file to the [[[SCP-5025]]] mainlist slot, rather than SCP-5025-EX. The edit comment read "I DIDN'T READ THE INSTRUCTIONS LOL." Researcher Calvin denied uploading the file, and reported considerable backlash from his colleagues over the subversion of proper protocol.
+//I don't see the problem here -- Dir. R. House//
+
+**03/20/2021:** Drs. Blank and McDoctorate prepared an SCP file for an object known as the REISNO Cannon. They indicated a preference for the [[[SCP-5244]]] slot, as the item in question was thematically connected to both [[[SCP-5242]]] and [[[SCP-5243]]]. The slot had gone unused for nearly one year prior to this. They expressed this preference to Director Jones of RAISA; within one hour the slot had been corrupted by SCP-5257, with an edit comment reading "LOL YOU HAD EIGHT MONTHS."
+//Research takes longer than eight months, asshole -- Dr. H. Blank//
+
+**06/10/2021:** Site-17's Labeling Team encountered a massive database corruption wherein 98% of all entries on SCiPnet had their organizational tags removed. These were eventually reinstated when the servers were disconnected and reconnected to their power source.
+//Turning it off and on again was my idea -- Jr. Designer S. Yvonne//
+
+**06/27/2021:** Dr. Septer removed an outdated file under the SCP-3775 designation. Upon its deletion, SCP-5257 immediately corrupted the slot. Later that same day, Junior Researcher Russ accidentally catalogued an entry in an out-of-range file series. This was subsequently corrected and SCP-5257 corrupted that slot.
+//I need a drink -- Dir. S. Andrews//
+
+**05/17/2022:** Through a series of extreme technical interventions, RAISA successfully isolated SCP-5257's mainlist activities to its own slot. Attempts to suppress the associated image were unsuccessful until the creation of the SCP-5257-EX slot describing the anomaly, at which point the image (and all further vandalism) transferred there. Damage to the original slot appears at present to be irreversible; the file refuses to load on most terminals in approximately 50% of recorded attempts.
+
+**Update:** SCP-5257 has now permanently disabled the SCP-5257-EX file. Its contents have been migrated to the present file, SCP-7525-EX, which remains stable for unknown reasons.
+
+[[/div]]
+
+**Addendum 5257.2:** MTF Investigation:
+
+WALDO.aic was uploaded into the SCP-5257 file for the purposes of tracking it. Following the next flagged upload of SCP-5257-1, an originating location was pinged in the Delaware State Forest in Pennsylvania, USA. An edit comment accompanying this upload read "Catch me if you can ;)," and WALDO.aic was forcibly removed from the affected file.
+
+Two members of MTF φ-103 "Bark and Bite" were deployed to the target location.
+
+[[div class="interview"]]
+= **TRANSCRIPT**
+-----
+
+__Members__
+Command - Dr. V. Brownley
+φ-103-6 Sycamore
+φ-103-34 Willow
+
+-----
+
+= **<<BEGIN LOG>>**
+
+//(A large, artificially carved tree stump is seen in the distance. Upon closer inspection, architectural features such as windows and an operational chimney are present.)//
+
+**φ-103 | Sycamore:** Approaching the compound.
+
+**Command:** Copy.
+
+//(φ-Sycamore pulls a vaguely door-shaped piece of bark from the stump. The interior is illuminated by a miniature version of a green 2002 iMac computer. The monitor displays SCP-5257-1 with a red button reading "UPLOAD" below it.)//
+
+**φ-103 | Willow:** Can you peek in there?
+
+**φ-103 | Sycamore:** Here.
+
+//(φ-Sycamore removes his body camera and grasps it in his hand. After laying down, Sycamore reaches into the stump and views the feed via his forearm-mounted display.)//
+
+**φ-103 | Sycamore:** Can we all see?
+
+**Command:** Clear.
+
+**φ-103 | Willow:** Clear.
+
+//(φ-Sycamore guides the camera to the monitor and hovers over it. The sound of whimpering is heard.)//
+
+**φ-103 | Willow:** The hell was that?
+
+**Command:** Remove the desk, Sick.
+
+**φ-103 | Sycamore:** Copy.
+
+//(φ-Sycamore swats the desk and monitor, revealing a 2-meter tall automaton resembling a goblin cowering beneath. The creature appears to be composed of wood and foliage from the surrounding area, connected by metallic implements.)//
+
+**Command:** What is that?
+
+**φ-103 | Sycamore:** Doesn't seem dangerous. Permission to retrieve it?
+
+**Command:** Granted.
+
+//(φ-Sycamore grasps the automaton, henceforth SCP-5257-2, and pulls it out of the stump.)//
+
+**φ-103 | Sycamore:** Son of a bitch! 
+
+//(SCP-5257-2 is dropped.)//
+
+**φ-103 | Sycamore:** The fucker bit me!
+
+**φ-103 | Willow:** It ran back into the stump.
+
+**Command:** Alright, new tactic.
+
+**φ-103 | Willow:** Net?
+
+**Command:** Sure.
+
+//(SCP-5257-2 returns to the team, now holding a wax-sealed letter.)//
+
+**φ-103 | Willow:** Alright, no net then.
+
+**φ-103 | Sycamore:** I'm not putting my hands near that. 
+
+//(SCP-5257-2 thrusts the letter into the air.)//
+
+**Command:** We need to get that letter.
+
+**φ-103 | Sycamore:** Tell me what— 
+
+**φ-103 | Willow:** Drop it! Drop!
+
+//(SCP-5257-2 complies with φ-Willow's command. φ-Sycamore retrieves and opens the document.)//
+
+**φ-103 | Willow:** Good.
+
+[[div class="addendum"]]
+
+[[=]]
+[[size 160%]]**THE MIRROR**[[/size]]
+
+**By Marlo Anderson**
+
+A goblin whose main duty in life is to fill in a file with something weird. How boring and sad. 
+
+[[size 125%]]//**~ Are We Cool Yet? ~**//[[/size]]
+
+[[/=]]
+[[/div]]
+**φ-103 | Sycamore:** [[[SCP-1802 | That's not even original.]]]
+
+**φ-103 | Willow:** What a goddamn waste of time.
+
+//(φ-Sycamore tears the letter. SCP-5257-2 begins punching at his shin.)//
+
+**φ-103 | Sycamore:** Fuck you too.
+
+//(φ-Sycamore kicks SCP-5257-2 into the stump, causing its head to disconnect from its body.)//
+
+= **<<END LOG>>**
+
+[[/div]]
+
+Attempts to repair SCP-5257-2 have failed, and it has been designated a decommissioned sub-anomaly. Despite this, SCP-5257 is still active and SCP-5257-1 continues to manifest despite deletions; whether further instances of SCP-5257-2 exist is unknown, and investigation is ongoing. [https://scp-wiki.wdfiles.com/local--files/scp-7525-ex/goblin.png YOU CAN'T STOP THE SLOT GOBLIN].
+
+[[footnoteblock]]
+----
+[[module CSS]]
+.nineteen{
+    border-top:solid 2px #b0d8f7;
+    border-bottom:solid 2px #b0d8f7;
+    background:#F5F5F5;
+    width:100%;
+    padding: 0.01px;
+    margin: 5px auto;
+    text-align: center;
+}
+[[/module]]
+[[div class="nineteen"]]
+[[a href="https://scp-wiki.wikidot.com/7000contestplaguepjp" style="font-size: 110%;"]]**SCP-7000 — SITE-19**[[/a]]
+[[/div]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5735-EX]]] | SCP-7525-EX | [[[SCP-8900-EX]]] >>
+[[/=]]
+[[/div]]
+
+[[include component:wikimodule |ratings= --]]]
+
+[[div]]
+[[=]]
+[[include :scp-wiki:component:license-box
+|author=PlaguePJP and HarryBlank]]
+=====
+[[<]]
+> **Filename:** slot goblin.png
+> **Author:** [[*user PlaguePJP]]
+
+> **Filename:** goblin.png
+> **Author:** [[*user AnActualCrow]]
+
+> **Name:** Goblin illustration from 19th century
+> **Author:** John Dickson Batten
+> **License:** Public Domain
+> **Source:** [https://commons.wikimedia.org/wiki/File:Goblin_illustration_from_19th_century.jpg Wikimedia Commons]
+
+> **Name:** WonderCon 2019 - The Green Goblin Cosplay
+> **Author:** W10002 
+> **License:** CC BY-SA 2.0
+> **Source:** [https://search.creativecommons.org/photos/f5153400-d1d1-4f9f-a24d-37611e05a26d flickr]
+[[/<]]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]
+[[/div]]

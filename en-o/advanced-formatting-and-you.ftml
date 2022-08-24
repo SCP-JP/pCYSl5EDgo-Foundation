@@ -1,0 +1,591 @@
+[[module css]]
+#page-content .collapsible-block {  
+  max-width: 100%;
+    /* text-align: center; */
+text-color: black;
+background-color: #afe0ff;
+    border-color: #b01;
+    border: solid 1px #b01;
+padding: 5px;
+margin: 5px;
+}
+.collapsible-block-content p {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.collapsible-block-content{
+text-align: left;
+}
+
+.collapsible-block-folded, .collapsible-block-unfolded{
+text-align: center;
+color: black;
+}
+[[/module]]
+[[>]]
+[[module rate]]
+[[/>]]
+
+
+++ Advanced Formatting and You
+
+Greetings and salutations.  If you're reading this page, you're probably here to learn how to do fancy things with wikidot coding!
+
+This essay is intended for anyone who wants to move beyond basic bolding, italics, and collapsibles.  I'll be going over those as well, however, most of this guide is intended to be used for //advanced// design for articles.
+
+If you're looking for more basic formatting, see this kick-ass write up [[[https://scp-wiki.wikidot.com/wiki-syntax | here]]].
+
+Some examples of what you can accomplish with the things covered in this guide are located in several of my SCPs, such as [[[scp-3872 | SCP-3872]]] and [[[scp-027-j | SCP-027-J]]].
+
+If you have any questions about sections of this guide, please send me a wikidot PM!
+
+------
+
+
+[[=]]
++++ __**Section 1: Basic Wikidot Formatting Tricks**__
+[[/=]]
+Some of the basic wikidot code itself is kind of tricky, and isn't necessarily explained perfectly. These are the two pieces I get the most questions on: 
+[[=]]
+++++ **Quoteblocks**
+[[/=]]
+[[collapsible show="Show Quoteblock Code" hide="Hide Quoteblock Code"]]
+To use a quote block, you place a "> " character at the start of a line.  Notice the space after the > .
+[[div style="padding: 5px; border: double black 1px; background-color: #e8e8e8; margin: 5px;"]]
+**Code:**
+@@> This is an example of the code that will produce a quoteblock.@@
+@@> @@
+@@> And here I have a linebreak.  Notice the space after the >  for a blank line in the quote block.@@
+**Result:**
+> This is an example of the code that will produce a quoteblock.
+> 
+> And here I have a linebreak.  Notice the space after the >  for a blank newline in the quote block.
+[[/div]]
+[[/collapsible]]
+[[=]]
+++++ **Tabs**
+[[/=]]
+
+[[collapsible show="Show Tabview Code" hide="Hide Tabview Code"]]
+Tabviews allow you to organize information in an easily browseable way, and save space.
+[[div style="padding: 5px; border: double black 1px; background-color: #e8e8e8; margin: 5px;"]]
+**Code:**
+@@[[tabview]]@@
+@@[[tab Name of Tab 1]]@@
+@@Your text/article goes here@@
+@@[[/tab]]@@
+@@[[tab Name of Tab 2]]@@
+@@Your text/article 2 goes here@@
+@@[[/tab]]@@
+@@[[/tabview]]@@
+**Result:**
+[[tabview]]
+[[tab Name of Tab 1]]
+Your text/article goes here
+[[/tab]]
+[[tab Name of Tab 2]]
+Your text/article 2 goes here
+[[/tab]]
+[[/tabview]]
+[[/div]]
+[[/collapsible]]
+
+> Hey, hey Magnus, this page over here has this really awesome bit of formatting and I wanna use it.  teach me how!
+
+Well, random citizen, it's easier than you think.  In the lower right-hand corner of every page on the mainsite, it says "Options".  Click it.  A little list thingy opens.  Click "View Page Source" and it'll show you the Wikidot code that generated that page.  Every single bit of it.
+
+This'll let you see whatever you wanna find on the wiki, if you don't know how to do something.
+
+------
+
+
+[[=]]
++++ __**Section 2: Using non-wikidot code**__
+[[/=]]
+This is where it starts getting interesting.  Wikidot has support for all kinds of objects.  They don't just have their own markup language, you can also include custom divs.
+[[div style="padding: 5px; border: double black 1px; background-color: #e8e8e8; margin: 5px;"]]
+**Code:**
+@@[[div id="myDiv" style="background-color: green; text-color:white;"]]@@
+@@This is a div!@@
+@@[[/div]]@@
+**Result:**
+[[div id="myDiv" style="background-color: green; color:white;"]]
+This is a div!
+[[/div]]
+[[/div]]
+
+Div's are standard web containers that define a thing that holds other things.  Those things can be text, other divs, spans, and other web objects.  You can style them literally however you want, using properties. 
+
+Generally this is done through what's called CSS, or cascading style sheets.  These will override standard wikidot formatting, which is how my collapsible above look slightly different than the ones you probably are used to.
+
+Using Divs allows you to create boxes and various other shapes to fit the needs of your article.  
+
+For instance, if you want something to look like a text message conversation:
+[[div style="padding: 5px; border: double black 1px; background-color: #e8e8e8; margin: 5px;"]]
+**Code:**
+@@[[div id="myTextMessageConvoHolder" style="display:inline-block; width:100%;"]]@@
+@@[[div id="myTextMessageConvoDiv" style="color:white; border-radius: 25px; background: #73AD21;padding: 15px;width: 150px; height: 100px;float:left;"]]@@
+@@I like big butts, and I cannot lie.@@
+@@[[/div]]@@
+@<@@ @@>@
+@@[[div id="myTextMessageConvoDivReply" style="color:white; border-radius: 25px; background: blue; padding: 15px;width: 150px; height: 100px;float:right;display: inline-block"]]@@
+@@Mine other brethren cannot deny.@@
+@@[[/div]]@@
+@@[[/div]]@@
+**Result:**
+[[div id="myTextMessageConvoHolder" style="display:inline-block; width:100%;"]]
+[[div id="myTextMessageConvoDiv" style="color:white; border-radius: 25px; background: #73AD21;padding: 15px;width: 150px; height: 100px;display: inline-block"]]
+I like big butts, and I cannot lie.
+[[/div]]
+[[html]]
+<br/>
+[[/html]]
+[[div id="myTextMessageConvoDivReply" style="color:white; border-radius: 25px; background: blue; padding: 15px;width: 150px; height: 100px;float:right; display: inline-block"]]
+Mine other brethren cannot deny.
+[[/div]]
+[[/div]]
+[[/div]]
+As you can see, there's a lot of things you can use this for. You can also see, I have another non-standard wikidot code section: an HTML block.
+
+If you know how to write HTML, you can include it in a @@[[html]] [[/html]]@@ block, and include whatever you want, including HTML and javascript inside of <script> tags.
+
+This lets you introduce some really awesome components. One of the components I get asked frequently about is how to do double collapsibles. 
+
+These aren't too hard to make.  The important part is to notice, that each level has one more space before the asterisk than the previous level.
+[[div style="padding: 5px; border: double black 1px; background-color: #e8e8e8; margin: 5px;"]]
+**Code:**
+@@[[div class="foldable-list-container"]]@@
+@@* Lol collapsible@@
+@@ * second@@
+@@* Moar@@
+@@ * even moar @@
+@@  * Test @@
+@@[[/div]]@@
+**Result:**
+[[div class="foldable-list-container"]]
+* Lol collapsible
+ * second
+* Moar
+ * even moar 
+  * Test 
+[[/div]]
+
+[[/div]]
+
+You can also style the foldable-list-container div, but changing your module css to include elements within the div.  See sections 3 and 4 to understand how to do this.
+
+The last piece of non-wikidot code that is included in some of the more administrative pages, are iframes.
+
+I frames are used to include the fulltext of another website in to the current page.  An example is below:
+[[div style="padding: 5px; border: double black 1px; background-color: #e8e8e8; margin: 5px;"]]
+**Code:**
+@@[[iframe https://home.helenbot.com/tools/randomButton.php style="border: 1px black solid;" width="100%" height="25" scrolling="no"]]@@
+**Result:**
+[[iframe https://home.helenbot.com/tools/randomButton.php style="border: 0;" width="100%" height="25" scrolling="no"]]
+[[/div]]
+This is a page from my website, where I host a lot of technical projects, which is a random button for an SCP.  This takes the literal webpage, fetches it, then displays it in a smaller div here on the current page.  This is how a lot of the more "Advanced" images are created for articles such as [[[scp-895 | SCP-895]]] and [[[scp-027-j | SCP-027-J]]]
+
+The image block for SCP-027-J for example is generated with the following:
+[[div style="padding: 5px; border: double black 1px; background-color: #e8e8e8; margin: 5px; display: inline-block"]]
+**Code:**
+@@[[div class="scp-image-block" style="width:200px; float: right;"]]@@
+@@[[iframe https://scp-wiki.wikidot.com/local--files/scp-027-j/remote.html width="200px" height="200px" frameborder="0" scrolling="no"]]@@
+@@[[div class="scp-image-caption" style="width:200px;"]]@@
+@@SCP-027-J?@@
+@@[[/div]]@@
+@@[[/div]]@@
+**Result:**
+[[div class="scp-image-block" style="width:200px; float: right;"]]
+[[iframe https://scp-wiki.wikidot.com/local--files/scp-027-j/remote.html width="200px" height="200px" frameborder="0" scrolling="no"]]
+[[div class="scp-image-caption" style="width:200px;"]]
+SCP-027-J?
+[[/div]]
+[[/div]]
+[[/div]]
+------
+
+
+[[=]]
++++ __**Section 3: Divs and how to style them**__
+[[/=]]
+
+So you've seen divs, and some bits where it says "Style."  These are hard-coded CSS settings, which you can define on a per-object basis if you want.  Or you can include your own custom CSS settings.
+
+This is the CSS module for the page you're looking at right now:
+[[div style="padding: 5px; border: double black 1px; background-color: #e8e8e8; margin: 5px;"]]
+@@[[module css]]@@
+@@#page-content .collapsible-block {  @@
+@@  max-width: 100%;@@
+@@background-color: #afe0ff;@@
+@@text-color: black;@@
+@@   border-color: #b01;@@
+@@    border: solid 1px #b01;@@
+@@padding: 5px;@@
+@@}@@
+@@.collapsible-block-content p {@@
+    @@padding-left: 5px;@@
+    @@padding-right: 5px;@@
+    @@padding-bottom: 5px;@@
+    @@padding-top: 5px;@@
+@@}@@
+@@.collapsible-block-content{@@
+@@text-align: left;@@
+@@}@@
+@@@@
+@@.collapsible-block-folded, .collapsible-block-unfolded{@@
+@@text-align: center;@@
+@@text-color: black;@@
+@@}@@
+@@[[/module]]@@
+[[/div]]
+What this specifically does, is override the CSS settings for the collapsible blocks, as you can see above in the collapsible sections.
+
+CSS Modules allow you to do just about anything with a page.  You can even change the colors of the parent containers.  You can change the color of the pages themselves, which is used extensively in GoI hubs, such as the [[[third-law-hub | Third Law Canon Hub]]].  You can also store your CSS in another page, and import it, as you can see in the canon hub.
+
+**It's important to note, any attribute applied to a "parent" container also applies to its children unless overridden by a child attribute.  If you center the text of a div, all text contained in any div inside of that div will be centered, unless you override it inside of the "child" div**
+
+This isn't intended to be a CSS tutorial, but the basic concepts are:
+[[collapsible show="Div Id's" hide="close"]]
+A # character indicates an id.  When you give a div an id="myId" this would be referred to as #myId { /*properties go here */ } in your CSS module.  id's refer to a SINGLE element on a page.
+> **Example:**
+> This would make all the text contained inside the element called myId red.
+> 
+> @@#myId{@@
+>   @@color: red;  @@
+> @@}@@
+[[/collapsible]]
+[[collapsible show="Div Classes" hide="close"]]
+A . character indicates a class. Classes are like ID's but the effects of a class css is applied to all elements with that class.  all div class="myClass" would get the values of the CSS for .myClass { /*properties go here*/}
+> **Example:**
+> This would cause any .myClass objects to have a 1 pixel wide solid black border.
+> 
+> @@ .myClass {@@
+>   @@border: solid black 1px;@@
+> @@}@@
+[[/collapsible]]
+[[collapsible show="Nesting Ids and Classes" hide="close"]]
+You can also "nest" these constructs.  .myClass .myClass2 { /*properties*/} would be "For all .myClass2 divs within .myClass divs".  All .myClass2 div's that are NOT inside of .myClass divs are unaffected.  
+> **Example:**
+> This would cause any .myClass objects inside of the #myId1 element to use helvetica as its font.
+> 
+> @@#myId1 .myClass {@@
+> @@font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;@@
+> @@}@@
+[[/collapsible]]
+
+[[collapsible show="Applying the same styling to multiple ids and/or classes" hide="close"]]
+You can also use , to apply the same formatting to multiple classes or ids.  #myId1, #myId2 { /*properties*/} would apply all those properties to the element #myId1 and #myId2.  The same goes for classes, it would apply those effects to both classes.
+
+> **Example:**
+> This would cause all .myClass elements, and the specific element called myId1 to have centered text
+> 
+> @@#myId1, .myClass {@@
+> @@text-align: center;@@
+> @@}@@
+[[/collapsible]]
+
+
+------
+
+[[=]]
++++ __**Section 4: Manipulating a page for fun and profit**__
+[[/=]]
+
+The last section is the big question: If you have something you want to fix, how the hell do I actually know what to change?
+
+This isn't supposed to be a tutorial in web development, so this is going to be a bit sparse, but I'll give you a crash course in how to change element properties.
+
+If you hover your mouse over a thing (literally, any part of a webpage) and right click.  There should be an option that says "Inspect Element".  This will open a view, that kinda looks like a giant control panel. 
+
+If you hover over the blue "text message" in section 2 above, and inspect element, you get the following properties:
+
+> element.style {
+>    color: white;
+>    border-radius: 25px;
+>    background: blue;
+>    padding: 15px;
+>    width: 150px;
+>    height: 100px;
+>    float: right;
+>    display: inline-block;
+> }
+
+You can click on the right hand side of these properties, and modify any of the attributes, or click below or above them, and add an attribute.  The best way to figure it out is just to experiment.  If all else fails, google the attribute you want, or a general description of the thing you want to do, followed by "CSS".
+
+Try modifying the "background: blue;" property to a different color.  This only affects how YOU see the page, and will not affect anyone elses view of the page.
+
+------
+
+[[=]]
++++ __**Section 5: Listpages**__
+[[/=]]
+
+Alright, this one feels kinda like the great grand-daddy.  Listpages is a module that wikidot provides, which allows you to search the wiki for criteria, and display results.  The easiest application of this is:
+
+[[div style="padding: 5px; border: double black 1px; background-color: #e8e8e8; margin: 5px;"]]
+**Code:**
+@@[[module ListPages created_by="DrMagnus" limit="5" separate="no"]]@@
+@@%%title_linked%% - %%rating%% Created On: %%created_at%%@@
+@@[[/module]]@@
+**Result:**
+[[module ListPages created_by="DrMagnus" limit="5" separate="no"]]
+%%title_linked%%: %%rating%% Created On: %%created_at%%
+[[/module]]
+[[/div]]
+
+This is a simple select for pages by me, DrMagnus, limit to 5 of them, don't add a line break.  In the "body" of the module, you provide what you want to show.  Here, I'm showing the title, rating, and creation date.  
+
+Listpages will significantly slow down your page, if you have a lot of them, and more than one is really really not recommended per page.
+
+Below is a small number of your criteria and selectable stuff:
+
+[[collapsible show="Criteria" hide="Hide"]]
+[[div style="border: black 1px solid;     margin-left: 10%;
+    margin-right: 10%; background:lightgray;"]]
+* pagetype
+ * "normal": non hidden pages
+ * "hidden": Hidden Pages
+ * "*": Both 
+[[/div]]
+[[div style="border: black 1px solid;     margin-left: 10%;
+    margin-right: 10%; background:lightgray;"]]
+* category	
+ * "." means current category (default)
+ * "*" means all categories
+ * else, a list of space/comma delimited categories
+ * categories are by default additive (category OR category OR category)
+ * "-category" means exclude pages in this category (AND NOT)
+ * "%%category%%" means the same category as the current page ( if used on a _template page)
+[[/div]]
+[[div style="border: black 1px solid;     margin-left: 10%;
+    margin-right: 10%; background:lightgray;"]]
+* Tags 
+ * "-" means pages with no tags, visible or invisible
+ * "=" means pages with any of the same visible tags as this page
+ * "==" means pages with the exact same visible tags as this page
+ * else, a list of space/comma delimited tags
+ * tags are by default additive (tag OR tag OR tag)
+ * "-tag" means pages without the tag (AND NOT)
+ * "+tag" means pages with the tag (AND)
+[[/div]]
+[[div style="border: black 1px solid;     margin-left: 10%;
+    margin-right: 10%; background:lightgray;"]]
+* Parent page selector: 
+ * "-" means pages with no parent page
+ * "=" means siblings of current page (same parent)
+ * "-=" means with different parent than current page
+ * "." means children of current page (parent is this page)
+ * else specifies a single full page name
+[[/div]]
+[[div style="border: black 1px solid;     margin-left: 10%;
+    margin-right: 10%; background:lightgray;"]]
+* Outgoing links selector: 
+ * enter a single full name of an existing page to select pages that link to that page
+ * while "." means pages that link to current page
+[[/div]]
+[[div style="border: black 1px solid;     margin-left: 10%;
+    margin-right: 10%; background:lightgray;"]]
+* Creation date selector: 
+ * "=" means created on same day as current page
+ * "yyyy" means specified year
+ * "yyyy.mm" means specified year and month
+ * optionally prefixed by ">", "<", "=", "<=", ">=", "<>" (default is "=")
+ * dates are not site-local but currently all UTC (GMT)
+ * "last n unit" or "older than n unit" where 'n' is a count (defaults to 1) and unit is "hours", "day", "week", or "month"
+[[/div]]
+[[div style="border: black 1px solid;     margin-left: 10%;
+    margin-right: 10%; background:lightgray;"]]
+* Update date selector: 
+ * dates are not site-local but currently all UTC (GMT)
+ * "last n unit" or "older than n unit" where 'n' is a count (defaults to 1) and unit is "hours", "day", "week", or "month"
+[[/div]]
+[[div style="border: black 1px solid;     margin-left: 10%;
+    margin-right: 10%; background:lightgray;"]]
+* Author selector:
+ * "=" means by created by author of current page
+ * "-=" means by not created by author of current page
+ * else, a single user name 
+[[/div]]
+[[div style="border: black 1px solid;     margin-left: 10%;
+    margin-right: 10%; background:lightgray;"]]
+* Rating selector:
+ * "n" means pages with rating equal to n
+ * "=" means pages with same rating as current page
+ * optionally prefixed by ">", "<", "=", "<=", ">=", "<>" (default is "=")
+[[/div]]
+[[/collapsible]]
+[[collapsible show="Linkables" hide="Hide"]]
+[[div style="margin-left:10%;margin-right:10%;background: lightgray"]]
+||~ Linkable||~ Displays||
+||%%created_at%%	||Date page was created||
+||%%created_by%%	||User who created page||
+||%%created_by_unix%%	||"Unixified" name of user who created page — to be used for constructing URLs||
+||%%created_by_id%%	||"ID" number of user who created page — to be used for constructing URLs||
+||%%created_by_linked%%	||Icon and link to user who created page||
+||%%updated_at%%	||Date page was updated (edited, tagged, parented)||
+||%%updated_by%%	||User who updated page||
+||%%updated_by_unix%%	||"Unixified" name of user who updated page — to be used for constructing URLs||
+||%%updated_by_id%%	||"ID" number of user who updated page — to be used for constructing URLs||
+||%%updated_by_linked%%	||Icon and link to user who updated page||
+||%%commented_at%%	||Date of last comment||
+||%%commented_by%%	||User who made last comment||
+||%%commented_by_unix%%	||"Unixified" name of user who made last comment — to be used for constructing URLs||
+||%%commented_by_id%%	||"ID" number of user who made last comment — to be used for constructing URLs||
+||%%commented_by_linked%%	||Icon and link to user who made last comment||
+||%%name%%	||Page name without category||
+||%%category%%	||Page category if any||
+||%%fullname%%	||Page name with category if any||
+||%%title%%	||Page title||
+||%%title_linked%%	||Link to page showing title as text||
+||%%parent_name%%	||Parent page name without category||
+||%%parent_category%%	||Parent page category if any||
+||%%parent_fullname%%	||Parent page name with category if any||
+||%%parent_title%%	||Parent page title||
+||%%parent_title_linked%%	||Link to Parent page showing title as text||
+||%%link%%	||URL pointing to page||
+||%%content%%	||Page content||
+||%%content{n}%%	||Numbered content section||
+||%%preview%%	||First 200 characters of the page||
+||%%preview(n)%%	||First n characters of the page||
+||%%summary%%	||Summary of content||
+||%%first_paragraph%%	||The first paragraph of the page||
+||%%tags%%	||Page visible tags (not starting with underscore)||
+||%%tags_linked%%	||Page visible tags linked to system:page-tags/tag/{tag}||
+||%%tags_linked|link_prefix%%	||Page visible tags linked to link_prefix{tag}||
+||%%_tags%%	||Page hidden tags (starting with underscore)||
+||%%_tags_linked%%	||Page hidden tags linked to system:page-tags/tag/{tag}||
+||%%_tags_linked|link_prefix%%	||Page hidden tags linked to link_prefix{tag}||
+||%%form_data{name}%%	||Field value from page data form if any||
+||%%form_raw{name}%%	||For select fields, the internal value saved in the page form data, if any||
+||%%form_label{name}%%	||The label of the field as defined in the data form if any||
+||%%form_hint{name}%%	||The hint of the field as defined in the data form if any||
+||%%children%%	||Number of child pages||
+||%%comments%%	||Number of comments on page||
+||%%size%%	||Number of characters in page||
+||%%rating%%	||Page rating value (number or stars depending on Rating settings in Site Manager||
+||%%rating_votes%%	||Number of votes||
+||%%rating_percent%%	||Percent value of 5-star rating only||
+||%%revisions%%	||Number of revisions to page||
+||%%index%%	||Page index in ListPages output + offset (1 to %%total%%)||
+||%%total%%	||Total number of pages ignoring limit (may be higher than %%limit%%)||
+||%%limit%%	||Limit passed to ListPages (empty if not passed)||
+||%%site_title%%	||Title of current site||
+||%%site_name%%	||Wikidot Unix name for site||
+||%%site_domain%%	||Active domain name of current site||
+
+[[/div]]
+[[/collapsible]]
+
+
+------
+
+[[=]]
++++ __**Section 6: The Good Stuff**__
+[[/=]]
+
+Do you know web development?  Flaunt it.  
+[[collapsible show="We are the Titans" hide="Mighty Mighty Titans."]]
+[[div style="padding: 5px; border: double black 1px; background-color: #e8e8e8; margin: 5px;"]]
+**Code:**
+[[code]]
+[[html]]
+<div style="display:inline-block; width = 100%">
+<div id="findbalance" class="titlebox" style="float:left">
+Left side!
+  <Button type="button" class="inputfield" id="submit">Submit</Button><br/>
+</div>
+<div id="wise" style="display:none;float:right" class="titlebox" >
+Strong side!
+  <Button type="button" class="inputfield" id="wiseSubmit">Submit</Button>
+</div>
+</div>
+<script>
+document.getElementById("submit").onclick= function(){
+document.getElementById("findbalance").style.display = "none";
+document.getElementById("wise").style.display="";
+}
+document.getElementById("wiseSubmit").onclick= function(){
+document.getElementById("wise").style.display = "none";
+document.getElementById("findbalance").style.display = "";
+};
+</script>
+<style>
+.titlebox{
+  border: black 1px solid;
+  padding: 10px;
+  width: 40%;
+  background: beige;
+}
+.inputfield {
+padding: 2px;
+margin: 2px;
+}
+</style>
+[[/html]]
+[[/code]]
+
+**Result:**
+[[html]]
+<div style="display:inline-block; width=100%">
+<div id="findbalance" class="titlebox" style="float:left">
+Left side!
+  <Button type="button" class="inputfield" id="submit">Switch!</Button><br/>
+</div>
+<div id="wise" style="display:none;float:right" class="titlebox" >
+Strong side!
+  <Button type="button" class="inputfield" id="wiseSubmit">Switch!</Button>
+</div>
+</div>
+<script>
+document.getElementById("submit").onclick= function(){
+document.getElementById("findbalance").style.display = "none";
+document.getElementById("wise").style.display="";
+}
+document.getElementById("wiseSubmit").onclick= function(){
+document.getElementById("wise").style.display = "none";
+document.getElementById("findbalance").style.display = "";
+};
+</script>
+<style>
+.titlebox{
+  border: black 1px solid;
+  padding: 10px;
+  width: 40%;
+  background: beige;
+}
+.inputfield {
+padding: 2px;
+margin: 2px;
+}
+</style>
+[[/html]]
+
+[[/div]]
+[[/collapsible]]
+
+
+------
+
+[[=]]
++++ __**Conclusion**__
+[[/=]]
+
+I hope this has provided at least a look in to how to make some of the more advanced applications of wikidot code work.  If you have any questions feel free to PM me.
+
+[[include :scp-wiki:component:license-box
+|author=DrMagnus]]
+=====
+> **Name:** File:Roku XDS with Remote.jpg
+> **Author:** Mattnad
+> **License:** CC BY-SA 3.0
+> **Source:** https://commons.wikimedia.org/wiki/File:Roku_XDS_with_Remote.jpg
+
+> **Name:** File:Toshiba Remote Control CT-9863.jpg
+> **Author:** Muband
+> **License:** CC BY-SA 3.0
+> **Source:** https://commons.wikimedia.org/wiki/File:Toshiba_Remote_Control_CT-9863.jpg
+
+=====
+[[include :scp-wiki:component:license-box-end]]

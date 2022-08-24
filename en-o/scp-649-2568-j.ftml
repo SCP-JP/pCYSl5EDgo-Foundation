@@ -1,0 +1,79 @@
+[[include component:info-ayers
+|lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=scp-649-2568-j[!-- url of your page on the scp wiki --]
+|authorPage=http://www.scp-wiki.net/dr-cimmerian-s-personnel-file[!-- link to your author page --]
+|comments= 
+
+If anyone is wondering 649-2568 is "Mix-A-Lot" which is a reference to the line "Dial 1-900-MIXALOT and kick them nasty thoughts". From Baby Got Back.
+
+Also that's an anaconda. Picture is sourced from here: https://commons.wikimedia.org/wiki/File:Anaconda_jaune_34.JPG .
+
+(© Patrick JEAN / muséum d'histoire naturelle de Nantes")
+
+I had the idea and couldn't let it go. Also I love puns.
+
+]]
+[[include theme:black-highlighter-theme]]
+[[module CSS]]
+sup { 
+vertical-align: top; position: relative; top: -0.5em; 
+}
+:root{ 
+--cutColour: #fafafa;
+--barColour: #590505;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;}
+
+.translation_block{
+display:none;}
+[[/module]]
+[[module css]]
+#side-bar {
+    background: rgb(var(--white-monochrome));
+}
+
+#side-bar div.menu-item a, #side-bar div.menu-item .text {
+    color: rgb(var(--black-monochrome));
+}
+
+#side-bar>div:nth-child(5) {
+    background-color: rgba(var(--dark-accent),0.25)!important;
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include component:image-block name=Anaconda_jaune_34.JPG|caption=SCP 649-2568 inside its containment unit.|width=300px]]
+
+**Item #:** SCP-649-2568
+
+**Object Class:** Keter
+
+**Special Containment Procedures:** SCP 649-2568 is to be kept in a standard animal containment unit. Under no circumstances is SCP 649-2568 to be allowed to discuss geological or geographic details.
+
+Interviews of SCP 649-2568 should be scheduled daily, with a focus on any future escape attempts. All other testing involving SCP 649-2568 requires approval from the project director.
+
+**Description:** SCP 649-2568 is an entity which superficially resembles the species //Eunectes notaeus//. Despite this resemblance, SCP 649-2568 retains the personality and speech patterns of a human male. SCP 649-2568 has shown a capacity to reshape any geological features it sees, or has heard described. These reshaping events exclusively affect any features the entity deems as "too flat". This has, in the past, included plains, marshes, and the ocean floor.
+
+During reshaping events, these locations will experience several seconds of tremors, followed by the growth of an extrusion, generally at the geographic center of the area seen or described. These extrusions will rise above the surrounding land, and have uniformly possessed steep sides with flat tops. No known force has been capable of stopping this growth, though the internal structure of these formations have displayed no anomalous properties beyond their creation.
+
+Furthermore, when interviewed, SCP 649-2568 displays a compulsion to disclose the truthful answer to any inquiry. This compulsion has led to the discovery of several escape attempts, including one involving anomalous contact with an outside organization.
+
+Due to the linking of its reshaping ability to descriptions of locations, the method of this anomalous contact must be determined to effect continued containment. While interviews with SCP 649-2568 have proven effective in limiting this contact, care must be taken to avoid further restructuring events during those interviews.
+
+[[collapsible show="+ Show Interview Log" hide="Hide Interview Log"]]
+
+> //The following interview took place very shortly after containment.//
+> 
+> **Dr. [http://www.scp-wiki.net/dr-cimmerian-s-personnel-file Cimmerian]:** Hello. In your own words, describe yourself.
+> 
+> **SCP 649-2568:** Well. I like big buttes and I cannot lie.
+> 
+> //Following this admission, the interview was suspended until further questions could be approved by the project director.//
+[[/collapsible]]

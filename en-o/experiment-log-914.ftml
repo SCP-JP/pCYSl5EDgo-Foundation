@@ -1,0 +1,41 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+REMINDERS TO CONTRIBUTORS: SCP-914 does not create or destroy matter, nor does it change anything on the atomic level. All outputs should contain all and only the matter included in the input. Some grandfathered entries break this rule, but new entries should never do so.
+--]
+
+**Note to all Researchers:**
+Please include your name on all records, along with date and total number of items "refined".
+
+Researchers are responsible for all "Output". Should damage or loss of life occur, the researcher will be subject to administrative review and possible disciplinary action.
+
+Biological testing has been suspended. Any biological testing must be cleared by O5 Command.
+
+**Test Log Format:**
+All test logs should be written in this form.
+**Name:**
+**Date:** DD/MM/YYYY
+**Total Items:**
+
+**Input:**
+**Setting:**
+**Output:**
+------
+
+[[module ListPages  category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- To generate a list of child pages, change:
+
+%%content%%
+
+to:
+
+%%title_linked%%
+
+and then remove 'limit="1"' from the module code.
+
+Then click Preview. Do not click Save. --]

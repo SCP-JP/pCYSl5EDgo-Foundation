@@ -1,0 +1,25 @@
+[[include theme:black-highlighter-theme]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+[[module ListPages  category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+Fragments:
+https://scp-wiki.wikidot.com/fragment:scp-5999-1
+https://scp-wiki.wikidot.com/fragment:scp-5999-2
+https://scp-wiki.wikidot.com/fragment:scp-5999-3
+https://scp-wiki.wikidot.com/fragment:scp-5999-4
+https://scp-wiki.wikidot.com/fragment:scp-5999-5
+--]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5998]]] | SCP-5999 | [[[SCP-6000]]] >>
+[[/=]]
+[[/div]]

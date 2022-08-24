@@ -1,0 +1,128 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[module CSS]]
+/* **code/variables goes here** */
+ 
+:root {
+ 
+/* S-CSS-P Integration */
+    /* If you're making a new CSS theme, please include the following three variables at minimum. */
+    --theme-base: "black-highlighter";
+    /* must be either "black-highlighter" or "sigma9" */
+    --theme-id: "wandsmen-theme";
+    /* set this to the URL of your theme's page - eg for "component:ar-theme", set it to "ar-theme" */
+    --theme-name: "Wandsmen Theme";
+    /* set this to your theme's full name */
+ 
+    --header-title: "The Wandsmen";
+    --header-subtitle: "Pursuing the Right, and the True";
+        --logo-image: url("https://scp-wiki.wdfiles.com/local--files/wandsmen-hub/wandsmen.png");
+    --background: linear-gradient(0.99 turn, #a11cff, #a11cff, #a11cff);
+    /* A grey gradient */
+    --pale-accent: 100, 5, 50;
+    /* light grey, for visited links (and unvisited) */
+    --bright-accent: 100, 5, 50;
+    /* bright grey */
+    --medium-accent: 100, 5, 50;
+    /* medium/light grey - the "default" accent color */
+    --dark-accent: 100, 5, 50;
+    /* dark grey */
+    --alt-accent: 100, 5, 50;
+    /* light grey */
+}
+ 
+/*Code for background color*/
+body {
+ background-color: #cccccc;
+}
+[[/module]]
+
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[=image game_on_logo.png]]
+
+Welcome to "Game On!" where I, the 15th Wandsman of Pasia, review all of the latest video games, board games and other interactive experiences from across the multiverse.
+
+I had the luxury of a delightful chat over tea with one of the most fascinating and controversial Board Game designers in the Third Western Central Quadrant, Xing Mascia. 
+
+Xing Mascia is an absolute Titan in the Milky Way games industry. He started out with the simple trading card game “Collect Your Color” where blind players would slowly seek out cards in hidden locations to gain the ability to see.
+
+It was praised for its fascinating strategy as the more cards you collected, the better your eyesight would be, but the harder each successive card would be to find.
+
+However, Xing's decision to have the losing players slowly lose their ability to see, leaving them just as blind as when they started, lead to some very negative reviews. 
+
+Xing has had his work published through Dr. Wondertainment for quite some time. His new “dream game” //Escape from Your Deepest Fears// is scheduled to hit shelves this week.
+
+> **Wandsman:** Thank you for agreeing to meet with me today.
+> 
+> **Xing:** Well, it’s been a long time since I’ve been able to talk about my work with anyone who genuinely wanted to listen.
+> 
+> **Wandsman:** Indeed. I know your last three games were recalled on Earth. Why do you think that is?
+> 
+> **Xing:** Oh that’s just a misunderstanding. Obviously when one operates on Earth there are… certain extra-governmental parties who have a vested interest in controlling the narrative of what is and is not possible in game design.
+> 
+> **Wandsman:** You refer, of course, to the SCP Foundation?
+> 
+> **Xing:** Among others. Fear not though. I’ve taken steps to ensure that anyone who wants to play my games will always have a way to buy them.
+> 
+> **Wandsman:** What steps are those?
+> 
+> //<Xing laughs.>//
+> 
+> **Xing:**  I’m afraid that’s a trade secret.
+> 
+> **Wandsman:** Understood. Many critics have noted that there’s a theme of “self improvement” running through your games’ narratives, but playing through them in the office I admit many of our staff felt quite… damaged by them, rather than improved. Why do you think that is?
+> 
+> //<Xing sighs.>//
+> 
+> **Xing:** I understand that you were just doing your jobs, but you really shouldn’t have playtested my games if you weren’t going to take them seriously. Self improvement requires time and dedication. It’s not something you can just try out and put down.
+> 
+> **Wandsman:** I do always try to interject some alternate perspectives into these interviews. So, just briefly, I’d like to read you the statement of one of your players. “I keep playing over and over again. But my son never comes back to me for more than a few moments. I’ve rolled the dice so many times I’ve-”
+> 
+> **Xing:** I’m going to stop you right there. The reason her son hasn’t woken from the coma is because she has not devoted herself to the game enough. I didn’t create //Come Back to Me// for people who refuse to put in the work.”
+> 
+> **Wandsman:** So, to clarify, your response to her is just “get good”?
+> 
+> **Xing:** If she wants a game without any strategy there’s always //Candyland//.
+> 
+> **Wandsman:** … fair enough. On to your most recent title, what exactly is a “Dream Game?”
+> 
+> //<Xing smiles.>//
+> 
+> **Xing:** Dream games are a criminally underexplored medium where the game takes the form of dreams that appear in the players minds while they're resting. Sapient beings have a tendency to spend up to a third of their lives sleeping,  why not make it more exciting?
+> 
+> **Wandsman:** That does sound interesting. The title //Escape From Your Deepest Fears// sounds like a horror game though. Why start your exploration of this medium with a genre that will literally give your players nightmares?
+> 
+> **Xing:** You said it yourself, my games focus on self improvement. What better place is there to work towards self improvement? It's my hope that by playing this game, players will learn to understand and conquer their fears.
+> 
+> **Wandsman:** ... Fair enough.
+ 
+After the interview I got my hands on the title. It took the form of an earwig which promptly clawed its way inside my inner ear. There was a great deal of discomfort that occurred because of this, which Xing assured me would be patched out in a later version of the release.
+
+Once the earwig reached my nervous system, I fell asleep and entered the dream.
+
+I have to  say though... I wasn't very impressed. I wrestled with my self image (a common workplace hazard for a Wandsman) and made my way through many primal fears such as darkness and claustraphobia, but nothing really impressive was thrown at me until I bumped into an image of my mother, who has been dead for centuries, begging me to not abandon her as she was buried under a pile of my previous review articles.
+
+It hurt my feelings terribly, but not only is a regret like that off-theme, it's also fairly unoriginal.
+
+Another glitch I discovered while playtesting was that the earwig refused to uninstall and I had to get my inner ear surgically removed in order to clear it out, a process which I imagine would be much more inconvenient for players without my regenerative abilities.
+
+So, while I was genuinely impressed by the innovation that Xing had clearly put into the title, I feel like as of now it's far too buggy and would need a major content patch to be the kind of deep psychological exploration Xing was hoping for.
+
+Maybe DLC or a very ambitious day one patch will save it, but for now I'm not holding my breath.
+
+**Score: 4/10**
+
+//Originally published in the Wandsmen's Gazette on 4-4-2021//
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** game_on_logo.png
+> **Author:** [[*user chaucer345]]
+> **License:** CC BY-SA 3.0
+> **Additional Notes:** Made by user
+
+=====
+[[include :scp-wiki:component:license-box-end]]

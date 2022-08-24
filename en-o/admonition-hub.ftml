@@ -1,0 +1,533 @@
+[[include :scp-wiki:theme:basalt darkmode=a|hidetitle=a]]
+
+[[div class="watermark" style="position: fixed; right: 40px; bottom: 40px; font-family: 'Work Sans', sans-serif; color: #EDEDED; pointer-events: none; text-align: center; opacity: 20%; font-size: 1rem; z-index: 1000;"]]
+**ADMONITION**
+[[/div]]
+
+[[div style="display: none;"]]
+[[include component:image-block
+name=https://scp-wiki.wikidot.com/local--files/admonition-hub/thumb_admonition.png
+|caption=ADMONITION
+|width=100%
+|align=center]]
+[[/div]]
+
+[[module CSS]]
+body {
+background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23131313' stroke-width='1.8'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23000000'%3E%3Ccircle cx='769' cy='229' r='25'/%3E%3Ccircle cx='539' cy='269' r='25'/%3E%3Ccircle cx='603' cy='493' r='25'/%3E%3Ccircle cx='731' cy='737' r='25'/%3E%3Ccircle cx='520' cy='660' r='25'/%3E%3Ccircle cx='309' cy='538' r='25'/%3E%3Ccircle cx='295' cy='764' r='25'/%3E%3Ccircle cx='40' cy='599' r='25'/%3E%3Ccircle cx='102' cy='382' r='25'/%3E%3Ccircle cx='127' cy='80' r='25'/%3E%3Ccircle cx='370' cy='105' r='25'/%3E%3Ccircle cx='578' cy='42' r='25'/%3E%3Ccircle cx='237' cy='261' r='25'/%3E%3Ccircle cx='390' cy='382' r='25'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+hr {
+background: transparent;
+border-top: double 3px var(--accentColor);
+    filter: brightness(300%);
+}
+
+.notation hr, .jotting hr, .darkdocument hr, .modal hr, .smallmodal hr, div.blockquote hr, .blockquote hr, blockquote hr {
+border-top: solid 2px grey;
+}
+
+#side-bar {
+    background: linear-gradient(
+0deg
+ , rgba(10, 10, 10, 1) 87%, var(--accentColor) 100%);
+}
+
+a {
+    font-weight: 600;
+}
+
+a.newpage {
+    font-weight: 600;
+}
+
+a:visited {
+    font-weight: 600;
+}
+
+#side-bar .side-block {
+    background: linear-gradient(
+180deg
+, rgba(10, 10, 10, 1) 0%, var(--accentColor) 100%);
+border: solid 2px var(--accentColor);
+}
+
+#side-bar .side-block.resources {
+    background: var(--accentColor);
+}
+
+#side-bar .side-block.media {
+    background-color: var(--accentColor) !important;
+    border-bottom: solid 2px var(--accentColor);
+    border-top: solid 2px var(--accentColor);
+}
+
+::selection {
+    background-color: rgba(242, 242, 242, 1);
+    color: black;
+}
+
+.footer-wikiwalk-nav a {
+    color: var(--accentColor);
+}
+
+:root {
+    --title: "ADMONITION";
+    --subtitle: "DEEPWELL CATALOG";
+    --accentColor: hsl(0, 0%, 0%);
+    --accentColor2: hsl(0, 0%, 20%);
+    --sidesubtitle: "DEEPWELL CATALOG";
+    --logo: url(http://scptestwiki.wdfiles.com/local--files/theme:superintendence-theme/superintendence_logo_white.png);
+}
+#side-bar > div.side-block.media img {
+    filter: none !important;
+    -webkit-filter: none !important;
+}
+
+.custom2 .wiki-content-table {
+    width: 100%;
+}
+
+#page-content tr th {
+    text-align: center;
+}
+
+.fnnum::after, .fnnum:hover::after {
+    color: #b8f !important;
+}
+
+#main-content {
+max-width: 95%;
+}
+
+#content-wrap {
+    margin: 0 0 0 0 !important;
+    min-width: 100%;
+}
+
+#page-content .page-rate-widget-box .rate-points, #page-content .page-rate-widget-box .rateup, #page-content .page-rate-widget-box .ratedown, #page-content .page-rate-widget-box .cancel {
+    background-color: #000000 !important;
+}
+
+hr {
+border-top: double 4px #333333;
+}
+
+#extra-div-1 {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+/* -------------------- */
+
+.admonition {
+margin: 0 auto 0 auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+}
+
+.episode {
+background: transparent;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;
+border: solid 2px rgb(70, 70, 70);
+margin: 1rem 1rem 1rem 1rem;
+width: 17.7rem;
+height: 31rem;
+cursor: default;
+transition-duration: 0.4s;
+z-index: 5;
+}
+
+.episode:hover {
+transform: scale(1.05);
+border-color: #EDEDED !important;
+transition-duration: 0.4s;
+}
+
+.episode-number {
+text-align: center;
+font-family: 'Work Sans', sans-serif;
+font-weight: 600;
+font-size: 90%;
+letter-spacing: 5px;
+}
+
+.scp-number {
+color: rgb(220, 220, 220);
+margin-top: 5rem;
+text-align: center;
+font-family: 'Work Sans', sans-serif;
+font-weight: 700;
+letter-spacing: 3px;
+}
+
+.episode-title {
+margin-top: -1.5rem;
+text-align: center;
+font-family: 'Work Sans', sans-serif;
+font-weight: 900;
+font-size: 200%;
+line-height: 1px;
+}
+
+.director {
+margin-top: 7rem;
+text-align: center;
+font-family: 'Work Sans', sans-serif;
+font-weight: 500;
+font-size: 80%;
+letter-spacing: 2px;
+}
+
+.episode a {
+color: #EDEDED;
+}
+
+.episode a:hover {
+border-color: rgb(20, 20, 20) !important;
+transform: scale(1.1);
+letter-spacing: 4px !important;
+transition-duration: 0.4s;
+}
+
+@media (min-width: 1290px) {
+    .customX {
+        width: 50% !important;
+    }
+}
+
+.episode.terminationattempt:hover {
+background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url(https://scp-wiki.wikidot.com/local--files/admonition-hub/6820_animcard_1.png) !important;
+background-position: center !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+}
+
+.episode.chaostheory:hover {
+background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url(https://scp-wiki.wikidot.com/local--files/admonition-hub/6747_animcard.gif) !important;
+background-position: center !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+}
+
+.episode.metagnostic:hover {
+background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url(https://scp-wiki.wikidot.com/local--files/admonition-hub/6659_animcard.gif) !important;
+background-position: center !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+}
+
+[[/module]]
+
+[[div style="margin-top: -2rem;"]]
+[[=]]
+[[module Rate]]
+[[/=]]
+[[/div]]
+= @@ @@
+[[=]]
+[[span class="bigtext" style="color: #F9F9F9; font-size: 200%; font-weight: 900;"]]ADMONITION[[/span]]
+
+[[div style="opacity: 80%;"]]
+[[size 80%]]/ˌadməˈnɪʃ(ə)n/[[/size]]
+[[size 80%]]**(n.)** a warning or reproof given by an ecclesiastical authority.[[/size]]
+[[/div]]
+
+= [[size 90%]]//To control everything is to control nothing; as one's dominion increases, so too is it stretched thin.//[[/size]]
+[[/=]]
+= @@ @@
+------
+
+[[div class="admonition" style="justify-content: flex-end;"]]
+
+[[div class="admonition"]]
+[[div]]
+[[div style="margin-bottom: 1.5rem; padding: 0 4rem 1.5rem 0; border-bottom: solid 5px grey; display: inline-block;"]]
+[[span class="bigtext" style="font-size: 350%; line-height: 4rem;"]]PHASE[[/span]]
+[[span class="bigtext" style="font-size: 450%;"]]ONE[[/span]]
+[[/div]]
+[[span class="bigtext"]][[size 120%]]4/5[[/size]] UNLOCKED[[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="episode terminationattempt" style="background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 100%), url(https://scp-wiki.wikidot.com/local--files/admonition-hub/card-6820.png); background-repeat: no-repeat; background-size: cover; background-position: top center;"]]
+[[div class="episode-number"]]
+EPISODE **1**
+[[/div]]
+[[div class="scp-number"]]
+SCP-6820
+[[/div]]
+[[div class="episode-title"]]
+TERMINATION
+ATTEMPT
+[[/div]]
+[[div class="director"]]
+[[size 80%]]DIRECTED BY:[[/size]]
+[[a href="https://scp-wiki.wikidot.com/placeholder-mcd-s-authorpage"]]**PLACEHOLDER MCD**[[/a]]
+[[/div]]
+[[a href="https://scp-wiki.wikidot.com/scp-6820" style="display: block; background: linear-gradient(180deg, rgba(20, 20, 20, 1) 0%, rgba(0, 0, 0, 1) 100%), rgb(10, 10, 10); border: solid 2px rgb(40, 40, 40); margin: 0rem 1.7rem 0 1.7rem; text-align: center; font-family: 'Work Sans', sans-serif; font-weight: 700; letter-spacing: 1px; padding: 0 0 1.25rem 0; text-decoration: none; transition-duration: 0.4s;"]]
+VIEW
+[[/a]]
+[[/div]]
+
+[[div class="episode chaostheory" style="background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url(https://scp-wiki.wikidot.com/local--files/admonition-hub/card-6747_new.png); background-repeat: no-repeat; background-size: cover; background-position: top center;"]]
+[[div class="episode-number"]]
+EPISODE **2**
+[[/div]]
+[[div class="scp-number"]]
+SCP-6747
+[[/div]]
+[[div class="episode-title"]]
+CHAOS
+THEORY
+[[/div]]
+[[div class="director"]]
+[[size 80%]]DIRECTED BY:[[/size]]
+[[a href="https://scp-wiki.wikidot.com/ralliston-s-authorpage"]]**RALLISTON**[[/a]]
+[[/div]]
+[[a href="https://scp-wiki.wikidot.com/scp-6747" style="display: block; background: linear-gradient(180deg, rgba(20, 20, 20, 1) 0%, rgba(0, 0, 0, 1) 100%), rgb(10, 10, 10); border: solid 2px rgb(40, 40, 40); margin: 0rem 1.7rem 0 1.7rem; text-align: center; font-family: 'Work Sans', sans-serif; font-weight: 700; letter-spacing: 1px; padding: 0 0 1.25rem 0; text-decoration: none; transition-duration: 0.4s;"]]
+VIEW
+[[/a]]
+[[/div]]
+
+[[div class="episode metagnostic" style="background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 100%), url(https://scp-wiki.wikidot.com/local--files/admonition-hub/card-6659_new.png); background-repeat: no-repeat; background-size: cover; background-position: top center;"]]
+[[div class="episode-number"]]
+EPISODE **3**
+[[/div]]
+[[div class="scp-number"]]
+SCP-6659
+[[/div]]
+[[div class="episode-title"]]
+METAGNOSTIC
+@@ @@
+[[/div]]
+[[div class="director"]]
+[[size 80%]]DIRECTED BY:[[/size]]
+[[a href="https://scp-wiki.wikidot.com/dodo-s-den-of-declassified-delights"]]**DODODEVIL**[[/a]]
+[[/div]]
+[[a href="https://scp-wiki.wikidot.com/scp-6659" style="display: block; background: linear-gradient(180deg, rgba(20, 20, 20, 1) 0%, rgba(0, 0, 0, 1) 100%), rgb(10, 10, 10); border: solid 2px rgb(40, 40, 40); margin: 0rem 1.7rem 0 1.7rem; text-align: center; font-family: 'Work Sans', sans-serif; font-weight: 700; letter-spacing: 1px; padding: 0 0 1.25rem 0; text-decoration: none; transition-duration: 0.4s;"]]
+VIEW
+[[/a]]
+[[/div]]
+
+[[div class="episode eighthcommandment" style="background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 100%), url(https://scp-wiki.wikidot.com/local--files/admonition-hub/card-6488-new.png); background-repeat: no-repeat; background-size: cover; background-position: top center;"]]
+[[div class="episode-number"]]
+EPISODE **4**
+[[/div]]
+[[div class="scp-number"]]
+SCP-6488
+[[/div]]
+[[div class="episode-title"]]
+EIGHTH
+COMMANDMENT
+[[/div]]
+[[div class="director"]]
+[[size 80%]]DIRECTED BY:[[/size]]
+[[a href="https://scp-wiki.wikidot.com/john-cena"]]**JACK IKE**[[/a]]
+[[/div]]
+[[a href="https://scp-wiki.wikidot.com/scp-6488" style="display: block; background: linear-gradient(180deg, rgba(20, 20, 20, 1) 0%, rgba(0, 0, 0, 1) 100%), rgb(10, 10, 10); border: solid 2px rgb(40, 40, 40); margin: 0rem 1.7rem 0 1.7rem; text-align: center; font-family: 'Work Sans', sans-serif; font-weight: 700; letter-spacing: 1px; padding: 0 0 1.25rem 0; text-decoration: none; transition-duration: 0.4s;"]]
+VIEW
+[[/a]]
+[[/div]]
+
+[[div class="episode" style="background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 100%), url(https://scp-wiki.wikidot.com/local--files/admonition-hub/slurry.gif); background-repeat: no-repeat; background-size: cover; background-position: top center; cursor: not-allowed; border-color: rgb(40, 40, 40) !important; opacity: 70%; filter: contrast(90%);"]]
+[[div class="episode-number"]]
+EPISODE **##grey|5##**
+[[/div]]
+[[div class="scp-number"]]
+????
+[[/div]]
+[[div class="episode-title"]]
+{{[LOCKED]}}
+@@ @@
+[[/div]]
+[[div class="director"]]
+[[size 80%]]##grey|DIRECTED BY:##[[/size]]
+##grey|**{{[UNKNOWN]}}**##
+[[/div]]
+[[/div]]
+
+[[/div]]
+
+------
+
+[[div class="admonition" style="justify-content: flex-end; background-image: url(https://scp-wiki.wikidot.com/local--files/admonition-hub/looming.png); background-position: center; background-size: contain; background-repeat: no-repeat;"]]
+
+[[div class="admonition"]]
+[[div]]
+[[div style="margin-bottom: 1.5rem; padding: 0 4rem 1.5rem 0; border-bottom: solid 5px grey; display: inline-block;"]]
+[[span class="bigtext" style="font-size: 350%; line-height: 4rem;"]]PHASE[[/span]]
+[[span class="bigtext" style="font-size: 450%;"]]TWO[[/span]]
+[[/div]]
+[[span class="bigtext"]][[size 120%]]##grey|0##/5[[/size]] UNLOCKED[[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="episode" style="background: rgb(10, 10, 10); cursor: not-allowed; border-color: rgb(40, 40, 40) !important; opacity: 70%;"]]
+[[div class="episode-number"]]
+EPISODE **##grey|6##**
+[[/div]]
+[[div class="scp-number"]]
+????
+[[/div]]
+[[div class="episode-title"]]
+{{[LOCKED]}}
+@@ @@
+[[/div]]
+[[div class="director"]]
+[[size 80%]]##grey|DIRECTED BY:##[[/size]]
+##grey|**{{[UNKNOWN]}}**##
+[[/div]]
+[[/div]]
+
+[[div class="episode" style="background: rgb(10, 10, 10); cursor: not-allowed; border-color: rgb(40, 40, 40) !important; opacity: 70%;"]]
+[[div class="episode-number"]]
+EPISODE **##grey|7##**
+[[/div]]
+[[div class="scp-number"]]
+????
+[[/div]]
+[[div class="episode-title"]]
+{{[LOCKED]}}
+@@ @@
+[[/div]]
+[[div class="director"]]
+[[size 80%]]##grey|DIRECTED BY:##[[/size]]
+##grey|**{{[UNKNOWN]}}**##
+[[/div]]
+[[/div]]
+
+[[div class="episode" style="background: rgb(10, 10, 10); cursor: not-allowed; border-color: rgb(40, 40, 40) !important; opacity: 70%;"]]
+[[div class="episode-number"]]
+EPISODE **##grey|8##**
+[[/div]]
+[[div class="scp-number"]]
+????
+[[/div]]
+[[div class="episode-title"]]
+{{[LOCKED]}}
+@@ @@
+[[/div]]
+[[div class="director"]]
+[[size 80%]]##grey|DIRECTED BY:##[[/size]]
+##grey|**{{[UNKNOWN]}}**##
+[[/div]]
+[[/div]]
+
+[[div class="episode" style="background: rgb(10, 10, 10); cursor: not-allowed; border-color: rgb(40, 40, 40) !important; opacity: 70%;"]]
+[[div class="episode-number"]]
+EPISODE **##grey|9##**
+[[/div]]
+[[div class="scp-number"]]
+????
+[[/div]]
+[[div class="episode-title"]]
+{{[LOCKED]}}
+@@ @@
+[[/div]]
+[[div class="director"]]
+[[size 80%]]##grey|DIRECTED BY:##[[/size]]
+##grey|**{{[UNKNOWN]}}**##
+[[/div]]
+[[/div]]
+
+[[div class="episode" style="background: rgb(10, 10, 10); cursor: not-allowed; border-color: rgb(40, 40, 40) !important; opacity: 70%;"]]
+[[div class="episode-number"]]
+EPISODE **##grey|10##**
+[[/div]]
+[[div class="scp-number"]]
+????
+[[/div]]
+[[div class="episode-title"]]
+{{[LOCKED]}}
+@@ @@
+[[/div]]
+[[div class="director"]]
+[[size 80%]]##grey|DIRECTED BY:##[[/size]]
+##grey|**{{[UNKNOWN]}}**##
+[[/div]]
+[[/div]]
+
+[[/div]]
+
+------
+
+= @@ @@
+
+= @@ @@
+
+= [[span class="bigtext" style="display: block; text-transform: uppercase; font-size: 180%; text-align: justify; line-height: 2.5rem !important; max-width: 40rem; margin: auto; opacity: 90%;"]]The instinct to achieve the unachievable, to challenge in the face of defeat, is core to {{Our Foundation}}'s ideology, and so goes unquestioned. We can achieve any goal to which we set our minds, and so we shall without doubt. And yet, our objectives, while noble in ambition, lack hubris -- we climb ever-so-high to find the mountain's peak undesirable. We are unsatisfied.[[/span]]
+= @@ @@
+= [[span class="bigtext" style="font-size: 180%;"]]**EVERYTHING WILL BE AS IT SHOULD.**[[/span]]
+
+= @@ @@
+
+= @@ @@
+
+[[=]]
+[[size 230%]]...[[/size]]
+[[/=]]
+
+= @@ @@
+
+= @@ @@
+
+[[div class="customX" style="width: 90%; color: #EDEDED; background: rgb(7, 7, 7); border: solid 2px grey; padding: 0.4rem; margin: 1rem auto 1rem auto; z-index: 5;"]]
+
+[[div class="blockquote" style="background: black; margin: auto;"]]
+
+= **{{[INFORMATION]}}**
+
+[[span class="bigtext"]]**ADMONITION**[[/span]] is a collaborative anthology/miniseries, generally comprised of SCP articles, portraying an uber-competent, uber-//confident// Foundation attempting to contain the uncontainable, to achieve the unachievable, in the name of their mission and in the spirit of human arrogance.
+
+Each installment, "directed" by a unique volunteer author, aims to explore a special aspect of the Foundationverse and its relation to the series' themes. New episodes are periodically released according to an overarching plan -- all future episodes and their featured authors have now been lined up.
+
+------
+
+[[span class="bigtext"]]**ADMONITION**[[/span]] is primarily set in a split timeline branching from that of the [[[https://scp-wiki.wikidot.com/site-17-hub |Site-17 Deepwell Catalog]]] universe; characters, anomalies, and other elements may be borrowed from the canon without total adherence to their original counterparts.
+
+= The project is managed by [[*user Liryn]] and [[*user Placeholder McD]]. Contact them via Wikidot or Discord for any enquiries.
+
+[[/div]]
+
+[[/div]]
+
+= @@ @@
+
+= @@ @@
+
+= @@ @@
+
+= @@ @@
+
+------
+
+[[=]]
+[[include :scp-wiki:component:license-box
+|author=Liryn and Placeholder McD]]
+=====
+> **NOTE:** The media used in this hub is composed of varying derivatives of the following images (if unspecified, the media is author-created):
+
+||~ NAME ||~ AUTHOR(S) ||~ LICENSE ||~ SOURCE ||
+||||||||= **TERMINATION ATTEMPT** ||
+||= ball.jpg ||= [[*user stephlynch]] ||= CC BY-SA 3.0 ||= [*https://scp-wiki.wdfiles.com/local--files/scp-6820/ball.jpg SCP-6820 (local files)] ||
+||||||||= **CHAOS THEORY** ||
+||= Golden Road ||= Kevin Dooley ||= CC BY 2.0 ||= [*https://www.flickr.com/photos/pagedooley/35268591394/ Flickr] ||
+||= ESO 2.2-m WFI Image of the Tarantula Nebula ||= NASA Goddard Space Flight Center ||= CC BY 2.0 ||= [*https://commons.wikimedia.org/wiki/File:ESO_2.2-m_WFI_Image_of_the_Tarantula_Nebula_(4598317299).jpg Wikimedia Commons] ||
+||= wjjujEl.jpg,  ASaFAcP.png ||= [[*user stephlynch]] ||= CC BY-SA 3.0 ||= [*https://i.imgur.com/wjjujEl.jpg Imgur], [*https://i.imgur.com/ASaFAcP.png Imgur] ||
+||||||||= **METAGNOSTIC** ||
+||= God schept de zon en de maan ||= Francesco Villamena ||= Public Domain ||= https://hdl.handle.net/10934/RM0001.COLLECT.188589 ||
+||= RP FLIP at research location ||= U.S. Navy/John F. Williams ||= Public Domain ||= [*https://en.wikipedia.org/wiki/File:RP_FLIP_at_research_location_(120630-N-PO203-310).jpg Wikimedia Commons] ||
+||= CMS Higgs-event ||= Lucas Taylor / CERN ||= CC BY-SA 3.0 ||= [*https://commons.wikimedia.org/wiki/File:CMS_Higgs-event.jpg Wikimedia Commons] ||
+||= Prometheus Brings Fire to Mankind ||= Heinrich Füger ||= Public Domain ||= [*https://commons.wikimedia.org/wiki/File:Heinrich_fueger_1817_prometheus_brings_fire_to_mankind.jpg Wikimedia Commons] ||
+
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]

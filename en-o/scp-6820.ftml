@@ -1,0 +1,78 @@
+[[div style="display: none;"]]
+[[include component:image-block name=https://scp-wiki.wikidot.com/local--files/azamo/ep1thumb.png|caption=.]]
+[[/div]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6820-0 ORIGINAL --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6820-1 ACCESSIBILITY --]
+
+@@ @@
+[[module css]]
+#page-content .main-class::before {
+    margin-right: 13px;
+    margin-top: 6px;
+}
+
+#page-content .main-class::after {
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+#page-content .custom1 .bottom-icon::before {
+    filter: none !important;
+    -webkit-filter: none !important;
+}
+
+.custom3 {
+    --esoteric: var(--five-color);
+    --lg-bar: var(--five-color);
+}
+
+.custom4 hr {
+    border-top: 1px #aaa solid;
+}
+[[/module]]
+----
+[[=]]
+[[div class="table5"]]
+
+More works by [https://scp-wiki.wikidot.com/azamo Liryn] / [https://scp-wiki.wikidot.com/placeholder-mcd-s-authorpage Placeholder McD] / [https://twitter.com/anafabulaic stephlynch]
+
+[[module Rate]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6819]]] | SCP-6820 | [[[SCP-6821]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+||~ FILENAME ||~ AUTHOR(S) ||~ LICENSE ||~ SOURCE ||
+||= Antikill.svg ||= [[*user Calibold]] ||= CC BY-SA 3.0 ||= [*https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/Antikill.svg Cal's Art Page] ||
+||= office.jpg ||= Dan Debold _
+[[*user Liryn]] ||= CC BY 2.0 ||= [*https://www.flickr.com/photos/ddebold/10222446383/ Flickr] | [*https://live.staticflickr.com/8417/10222446383_762c8f3449_b.jpg Direct] ||
+||= AKF-A.svg ||= [[*user EstrellaYoshte]] _
+[[*user HarryBlank]] ||= CC BY-SA 3.0 ||= [*https://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/AKF-A.svg Harry's Authorpage] ||
+||= drygioni-icon-2.svg _
+drygioni-full.svg ||= [[*user HarryBlank]] ||= CC BY-SA 3.0 ||= [*https://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/drygioni-full.svg Harry's Authorpage] ||
+||= Erasure.jpg ||= [[*user Liryn]] _
+[[*user HarryBlank]] _
+[[*user Placeholder McD]] ||= CC BY-SA 3.0 ||= local files ||
+||||||||= The above image is derivative of SCP-682's image, sourced [*https://scp-wiki.wikidot.com/forum/t-76858/scp-682#post-4750138 here] ||
+||= ball.jpg, _
+IecPtNC.mp4 _
+smvXny9.mp4 ||= [[*user stephlynch]] ||= CC BY-SA 3.0 ||= local files _
+[*https://imgur.com/IecPtNC Imgur] _
+[*https://imgur.com/smvXny9 Imgur] ||
+[[<]]
+> **NOTE:** Significant textual and formatting elements borrowed from SCP-682. Code for invisible text created by Croquembouche and taken from SCP-5251. [[[theme:basalt |BASALT Theme]]] designed to debut on this article by Liryn and Placeholder McD.
+[[/<]]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/div]]
+[[/=]]
+@@ @@

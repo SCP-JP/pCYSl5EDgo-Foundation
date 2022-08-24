@@ -1,0 +1,384 @@
+[[div style="display: none"]]
+[[include :scp-wiki:theme:flopstyle-dark]]
+[[/div]]
+[[module CSS]]
+ :root{
+   --accentColor: hsl(195, 81%, 51%);
+   --accentColorLite: hsla(195, 81%, 61%, .5);
+   --hue: 195deg;
+  --lgurl: url(https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/tg_logo_blk.svg);
+  --header-subtitle: "SYNERGIZE - COLLABORATE - PROPOSE";
+}
+
+ .wiki-content-table tr td:nth-child(1),
+ .wiki-content-table tr td:nth-child(2){
+     text-align: center;
+}
+
+ .wiki-content-table tr td:nth-child(1){
+     font-weight: bold;
+}
+
+ #page-content div table{
+     overflow-x: auto;
+}
+
+ .darkbox.darkbox2{
+     border-bottom: 7px solid var(--accentColor);
+}
+[[/module]]
+
+[[module Rate]]
+
+@@ @@
+
+[[div class="meta-title"]]
+A Semi-Comprehensive List of Foundation Departments
+[[/div]]
+
+[[div class="pseudocrumbs"]]
+[[[departments| Foundation Departments]]] >> A Semi-Comprehensive List of Foundation Departments 
+[[/div]]
+
+[[div class="darkbox"]]
+The Foundation's mission is to Secure, Contain, and Protect the anomalous. However, this is a pretty vast goal, ranging from containing small, harmless cowbells to universal concepts endangering the very core of humanity. The entire Foundation cannot tackle all these anomalies at once. As such, it becomes necessary to divide and conquer, in the form of Departments.
+
+Departments are entities within the Foundation that specialize in one specific task or discipline. They put their expertise to use in areas where others could not, ensuring that each respective field is given the care and attention it deserves.
+[[/div]]
+
+[[div class="lightbox"]]
++++++ This is an open, collaborative project. If you discover a Department which is absent or has been improperly catalogued, feel free to add it.
+[[/div]]
+
+[[div class="darkbox"]]
++ HOW TO CONTRIBUTE
+
+[[collapsible show="SHOW INSTRUCTIONS" hide="HIDE INSTRUCTIONS"]]
+So, you wanna add to this page?
+
+Good! There's no automatic way of updating this page, so the more people who add to it the better. That way, we have a better chance of covering everything and leaving no stone unturned! But, how does a Department qualify for addition to this page? Well,
+
+* **The Department has appeared in at least one successful article.**
+
+And that's it! Basically, if it exists on one or more articles with a rating above 0, you can add it here. Now that we know which Departments can and can't be added here, how do we actually add them in?
+----
++++ Adding New Departments
+
+First, find the category it falls under. Currently, some Departments have been haphazardly placed in one of the four categories. If we get enough Departments that don't necessarily fit into one of the categories below, an "Other" category will be opened for these oddballs.
+
+Next, find where it would fit alphabetically.
+
+Then inject this code:
+[[code]]
+|| [DEPARTMENT NAME] || [LINK TO AN ARTICLE IT HAS APPEARED IN] || [BITE-SIZED DESCRIPTION] || [SUBDIVISION STATUS, IF APPLICABLE] ||
+[[/code]]
+
+If the Department has a hub of its own, like the Antimemetics Division or Department of Miscommunications, embed that link in the first column. For the Subdivision column, if this Department is a part of a larger Department, put it as so. If it has subdivisions within itself, list them.
+
+For appearances, there is no limit to how many you may add. However, I ask that you try to prioritize a department's more major appearances. **The only exception to this is Departments with their own tag.** If they have a tag, just link the tag for Appearances.
+
+If you make any changes to this page, make sure to leave a summary of them in the "Short description of changes" category in the edit screen!
+----
++++ Special Cases
+
+So, you got a Department that you think should be on this list, but it's not necessarily part of the Foundation. That's alright! As long as the organization it's a part of is roughly analogous to the Foundation, it can be added to this page.
+
+For example, [[[SCP-4317]]] showcases the Department of Marketing, which is a part of the "SCP Corporation." While it's not part of //our// Foundation, it is still part of //a// Foundation. You could consider the Corporation to fill a similar role as the Foundation while not being a 1:1 copy. As such, the Department of Marketing is eligible for inclusion.
+
+A Department cannot be added if its organization is a Foundation precursor or successor. For example, [/system:page-tags/tag/hmfscp#pages HMFSCP]'s [[[raisa-6147 |Operations Council]]] would not be considered for this list, as in most canons HMFSCP becomes part of the Foundation. This also applies to [[[SCP-4163]]]'s Federation Records Department, as the SCP Federation is a direct result of the SCP Foundation.
+
+Finally, before anyone asks, **Groups of Interests considered to be alternative Foundations are not allowed.** That means no Selachian Pugilist Centre. Sorry, CICAPOCO, not today. Likewise, this also applies to the Chaos Insurgency and their Delta Command.
+
+However, feel free to add these alternative, precursor or successor organisations to the [[[goi-complete-list| Semi-Comprehensive List of Groups of Interest]]] instead.
+[[/collapsible]]
+----
++++ Related Pages
+
+There are other pages on the Wiki just like this one. In fact, there's a whole collection!
+
+* **[[[task-forces-complete-list|A Comprehensive List of Mobile Task Forces]]]**
+ * By [[*user MaliceAforethought]], [[*user Modern_Erasmus]], and [[*user Crayne]]
+* **[[[k-class-complete-list|A Comprehensive List of K-Class Scenarios]]]**
+ * By [[*user Petrograd]]
+* **[[[esoteric-classes-complete-list|A Comprehensive List of Esoteric Classes]]]**
+ * By [[*user Nagiros]]
+* **[[[goi-complete-list|A Semi-Comprehensive List of Groups of Interest]]]**
+ * By [[*user Jerden]]
+* **[[[facilities-complete-list| A Semi-Comprehensive List of Foundation Facilities]]]**
+ * By [[*user Jerden]]
+[[/div]]
+
+
+[[div class="darkbox darkbox2"]]
+[[collapsible show="ADMINISTRATION" hide="ADMINISTRATION"]]
+||~ Department Name ||~ Appearances ||~ Description ||~ Subdivisions _
+(If Applicable) ||
+|| The Office of the Administrator|| [[[rounderhouse-proposal |ROUNDERHOUSE's Proposal]]] || An administrative department made up of The Administrator and their closest staff. || N/A ||
+|| O5 Council _
+Overseer Council _
+Overwatch Command || [[[O5 Command Dossier]]] || A group of 13 high-ranking officials with ultimate control over the Foundation. || N/A ||
+|| Oversight Committees || [[[SCP-4421]]], [[[SCP-4476]]] || Each O5 runs an Oversight Committee that manages areas/sites/SCPs/Departments that fall under their individual purview || N/A ||
+|| O6 Council || [[[SCP-4023]]] || A now defunct group of high-ranking personnel that did the day-to-day work that the O5 Council couldn't. || N/A ||
+|| O4 Command || [[[Lockdown Procedures]]] || The first response to containment breaches and attacks by Groups of Interest on Foundation facilities. || N/A ||
+|| O3 Court || [[[SCP-5338]]] || Primarily operates as a high court of appeals for matters of Foundation policy. May overturn decisions of lower authorities. || N/A ||
+|| Site Directors' Executive Committee of the Whole (SDECotW) || [[[kate-mctiriss-s-proposal|Kate McTiriss's Proposal]]] || A collective of every Site Director, voting on administrative proposals //en masse//. || N/A ||
+|| Accounting Department || [[[The Foundation is Broke]]] || Takes stock of the Foundation's assets, employees, and finances. || See **Subdepartment of Statistics** and **Amnestics Production Committee** ||
+|| Amnestics Production Committee || [[[The Foundation is Broke]]] || Oversees the production of amnestics within the Foundation. || Subdivision of the **Accounting Department** ||
+|| Classification Committee || [[[SCP-3812]]] || Proposes modifications to object classification. || N/A ||
+|| Containment Committee || [[[SCP-049]]] || Proposes modifications to containment procedures. || N/A ||
+|| Eduskip Division || [[[A New Chance to Explore Life]]], [[[The Revert]]], [[[First Lesson]]] || Recruits talented students from schools and universities, and holds joint educational programs with them. [[[broken-masquerade-hub|Exclusive for broken-masquerade canon.]]] || N/A ||
+|| [[[departments#ethics-committee| Ethics Committee]]] || [/system:page-tags/tag/ethics-committee Pages tagged Ethics Committee] || An independent board responsible for weighing the moral costs of the Foundation's containment. || See **Ethics Subcommittee for Humanoid Anomalies**. ||
+|| Ethics Subcommittee for Humanoid Anomalies || [[[SCP-4175]]], [[[SCP-6113]]] || Determines ethical containment and containment procedures relating to humanoid anomalies. || Subdivision of **Ethics Committee** ||
+|| Foundation Experimentation Committee || [[[SCP-5034]]] || Approves of testing and experimentation. || N/A ||
+|| Department of Health and Security || [[[SCP-5590]]] || Ensures the health of security of Foundation personnel. || N/A ||
+|| Department of Human Resources || [[[hr-the-transfer |The Transfer]]], [[[SCP-5874]]], [[[SCP-6645]]] || Oversees the recruiting, interviewing, and hiring of new staff, and ensuring that staff are treated well by administration. || N/A ||
+|| Legal Department || [[[SCP-738]]], [[[SCP-2553]]], [[[SCP-4703]]] || The Foundation's in-house legal department. || N/A ||
+|| Location Selection Committee || [[[SCP-5780]]] || Chooses the locations for testing and other Foundation procedures which cannot be conducted in-site. || N/A ||
+|| Department of Morality || [[[djkaktus-s-proposal-iii| djkaktus's Proposal III]]] || Precursor to the Ethics Committee, headed by O5-2. || N/A ||
+|| Reintegration Committee || [[[SCP-4395]]], [[[SCP-6113]]], [[[pearloftheorientation | Welcome to the Last Frontier]]] || Oversees the reintegration of anomalous humans into society per the  Pseudohuman Rights Act of 2013. || N/A ||
+|| Subdepartment of Statistics || [[[The Foundation is Broke]]] || Provides statistical information based on the records kept by the Accounting Department. || Subdivision of **Accounting Department** ||
+|| Department of Surplus || [[[The Foundation is Broke]]] || Supervises the selling or lending of Foundation surplus supplies. || N/A ||
+[[/collapsible]]
+[[/div]]
+
+
+[[div class="darkbox darkbox2"]]
+[[collapsible show="INFO, DATABASES, & RECORDS" hide="INFO, DATABASES, & RECORDS"]]
+||~ Department Name ||~ Appearances ||~ Description ||~ Subdivisions _
+(If Applicable) ||
+|| Archival Department || [[[You Can Say Hi]]] || Catalogues, preserves, maintains, and otherwise manages all documents and records, both physical and on the SCiPNET database. || N/A ||
+|| Department of Crisis Assessment || [[[SCP-6249]]] || Predicts, investigates and assesses possible tragedies or disasters that could come as a result of an anomaly. || N/A ||
+|| [[[Decom. Dept. Hub| Decommissioning Department]]] || [/system:page-tags/tag/decommissioning-dept Pages tagged Decommissioning Department] || Reviews petitions to intentionally terminate (decommission) an SCP when containment is deemed unsustainable. || N/A ||
+|| Department of Design || [[[icon-documents |Regular documents from the Iconography Division]]] || Handles all aspects of creative architectural and visual decorations. || See **Iconography Division**. ||
+|| Digitization Department || [[[raisa-6147 |RAISA-6147 (PENDING ASSIGNMENT) ]]] || Digitizes physical records held by the Foundation. || Subdivision of **RAISA**. ||
+|| Disinformation Bureau || [[[Disinformation Bureau Orientation]]] || Disseminates false and contradictory information within the public to ensure a veil of secrecy. || N/A ||
+|| Document Recovery Division || [[[SCP-4298]]] || Recovers deleted or lost documents for archiving and posterity. || Subdivision of **RAISA**. ||
+|| Explanation and Research Department ||  [[[SCP-5187]]], [[[SCP-5226]]], [[[SCP-2023-EX]]] || Responsible for reclassifying various outdated or misclassified anomalies as Explained. || N/A ||
+|| Iconography Division || [[[icon-documents |Regular documents from the Iconography Division]]] || Produces icons for Foundation use. || Subdivision of **Department of Design** ||
+|| Information Detraction, Censorship, and Rescission Division (IDCaRD) || [[[The Fellowship]]] || Monitors and obstructs groups which seek to disseminate information about the anomalous. || N/A ||
+|| Department of Inter-Anomaly Experimentation || [[[SCP-5549]]]  || A now-defunct department that oversaw cross-testing between anomalies. || N/A ||
+|| Logistics and Transportation Department || [[[trot-log-1 |Eight Hundred and Thirteen Mile Car Trip]]] || The department that manages the transportation of personnel and anomalies. || N/A ||
+|| Observer: An SCP Foundation Journal || [[[SCP-2108]]], [[[SCP-2336]]], [[[SCP-2472]]], [[[an-overview-of-foundation-journals-published-in-may-2017|An Overview of Foundation Journals Published in May 2017]]], [https://scp-jp.wikidot.com/scp-588-jp| SCP-588-JP] || Scientific journal published by the Foundation for internal circulation. || N/A ||
+|| Department of Paranormal Organization Review ||  [[[djkaktus-s-proposal-iii |djkaktus's Proposal III]]] || Maintains records on [[[groups-of-interest| "Groups of Interest"]]], headed by O5-5. || N/A ||
+|| Department of Public Disinformation || [[[SCP-5004]]] || Disseminates misinformation into the public to cover up anomalous activity. || N/A ||
+|| Department of Public Outreach || [[[SCP-5723]]] || Oversees communications with GoIs, organizations, and figures with a public presence, and produces Foundation media to be disseminated into the public. || N/A ||
+|| Recordkeeping and Information Security Administration (RAISA) || [[[SCP-4450]]] || Maintains the security and safety of all internal Foundation data. || See **Digitization** and **Document Recovery**. ||
+[[/collapsible]]
+[[/div]]
+
+
+[[div class="darkbox darkbox2"]]
+[[collapsible show="RESEARCH & CONTAINMENT" hide="RESEARCH & CONTAINMENT"]]
+||~ Department Name ||~ Appearances ||~ Description ||~ Subdivisions _
+(If Applicable) ||
+|| Department of Abnormalities || [/system:page-tags/tag/abnormalities List of Abnormalities] ||= **[[[[scp-3790 |DATA LOST]]]]** || N/A ||
+|| Abrahamic Division || [[[SCP-5709]]] || A division of Tactical Theology focused on Abrahamic Religions (Christianity, Judaism, and Islam). || Subdivision of **Tactical Theology**.||
+|| Department of Acroamatic Abatement || [[[acroamatic abatement |Everything You Need to Know About Acroamatic Abatement But Were Too Confused by the Name to Ask]]], [[[SCP-5243]]], [[[SCP-5520]]] || A department that processes anomalous waste material for disposal. || N/A ||
+|| [[[the-alchemy-department-hub |Alchemy Department]]]|| [[[SCP-5501]]] || Tasked with containing threats beyond rational science, involving the manipulation of the Aetheric forces which generate reality. || N/A ||
+|| Department of Amnestics || [[[Captain Kirby's Proposal]]] || Manages amnestic administration. || N/A ||
+|| Department of Analytics || [[[SCP-2897]]], [[[SCP-5999]]], [[[Deus Vulture]]], [[[SCP-6225]]] || Data analysis and statistical forecasting using both mundane and anomalous methods. Manages the WATCHDOG monitoring network. || Organized into Divisions of **Data Processing**, **Statistical Prediction**, and **Informational Security**. Also responsible for the ad hoc **Eigenweaponry Division**. ||
+|| Department of Anomalous Broadcasting || [[[dab-orientation|And Now, Our Feature Presentation... ]]] || Monitors television & radio broadcasts and the World Wide Web for anomalies. || N/A ||
+|| Department of Anomalous Chronology || [[[scp-4566|SCP-4456-D]]] || Studies the timeline and anomalous alterations to it. || Subdivision of **History** ||
+|| Department of Anomalous Communications and Relations || [[[SCP-6170]]] [[[SCP-6015]]] || A Department created to communicate to anomalies, GOIs and POIs. They are used in interviews, to recover vital information. They travel from site to site, or where they are needed. Its director is Dr. Cole Thereven. || N/A ||
+|| Anomalous Entity Engagement Division || [[[aeed-orientation| AEED Orientation]]], [[[secure-facility-dossier-site-169| Secure Facility Dossier: Site-169]]], [[[scp-6925| SCP-6925]]] || A department dedicated to the social interaction with sentient and non-hostile anomalies, which may include counseling and conducting various recreational activities. || N/A ||
+|| Department of Anomalous Locations || [[[SCP-5317]]] || Oversees, classifies, and studies anomalous locations || N/A ||
+|| Division of Anomalous Programming || [[[SCP-5452]]] || Studies programming languages which use anomalous components. || Subdivision of **Department of Informational Technology** ||
+|| Department of Antiquity || [[[SCP-1445]]] || Studies anomalies related to ancient civilizations. || N/A ||
+|| [[[antimemetics-division-hub |Antimemetics Division]]] || [[[SCP-3125]]] || Researches and contains antimemetic anomalies. Seemingly unaware of the Counterconceptual Division. || Subdivision of **Department of Cognitohazards** ||
+|| Apiary Department || [[[SCP-5280]]] || Studies anomalous apians || Subdivision of **Parazoology** ||
+|| Department of Atypical Persuasion || [[[SCP-6970]]], [[[dap-orientation |DAP Orientation]]] || Handles interrogations using tactics outside of what is normal. || N/A ||
+|| Division of Applied Patapsychology || [[[SCP-5036]]] || Researches and develops anomalous mind-control methodologies. || Nμ Project is one of its initiatives. ||
+|| Department of Paraastronomy || [[[SCP-5649]]] || A department overseeing any and all extraterrestrial projects, as well as forwarding them to other divisions. Led by Dr L. Woomywood, with mission control in Site-64. || N/A ||
+|| Department of Archaeology || [[[SCP-4002]]], [[[SCP-4400]]], [[[SCP-6003]]] || A department which undergoes archaeological studies in regards to anomalous locations or civilizations. || N/A ||
+|| Architectural Zoology || [[[excerpts-from-training-seminars-for-lesser-known-foundation |Excerpts from Training Seminars for Lesser Known Foundation Careers]]] || Studies living buildings. || Subdivision of **Department of Zoology** ||
+|| [[[aiad-homescreen |Artificial Intelligence Applications Division (AIAD)]]] || [[[ALERT! LOCKDOWN INITIATED!]]] || Develops, studies, and uses Artificial Intelligence for research and tactical operations. || Subdivision of **Department of Informational Technology** ||
+|| Department of Artistic Anomalies || [[[SCP-3688]]] || Studies anomalies related to music, dance, or visual art. || N/A ||
+|| Department of Astrophysics || [[[SCP-5612]]] || Studies physics relating to astronomical bodies. || N/A ||
+|| Avian Division || [[[bird |Team Bird Series]]] || Fulfills the Foundation's goals from an alternative perspective. Employed and organized solely by [[[SCP-3095]]]-1 instances who work for the Foundation.  || N/A ||
+|| Department of Chemistry || [[[SCP-118]]] || Studies chemical anomalies. || See **Metallurgical Studies** ||
+|| Department of Cognitohazards || [[[wjs-proposal |WJS' Proposal]]] || Reviews memetic hazards for cognitohazardous effects. || See **Antimemetics Division** & **Memetics Division**. ||
+|| Compendium Phenomic Inquiry || [[[SCP-6001]]] || A department within the Compendium consisting of a task force of scientific experts who investigate scientific curiosities. || N/A ||
+|| Computus Desk || [[[SCP-1844]]] || Performs computations associated with theological anomalies. || N/A ||
+|| Concepts Division  || [[[SCP-4556]]] || Studies conceptual anomalies, or anomalies relating to concepts. || N/A ||
+|| Department of Conlanging || [[[SCP-5431]]] || Develops new words or phrases to describe anomalous phenomena || N/A ||
+|| Counterconceptual Division || [[[SCP-2358]]] || Studies anomalies that resist conception. Seemingly unaware of the Antimemetics Division. || N/A ||
+|| Department of Cryptozoology || [[[SCP-3773]]] [[[SCP-6448]]] || Studies anomalous animal species. || Subdivision of **Parazoology** ||
+|| Department of Culinary Anomalies || [[[SCP-3689]]] || Manages anomalous food understanding. || N/A ||
+|| Cult Division || [[[SCP-4515]]] || Studies anomalous cults. || N/A ||
+|| Department of Demonics || [[[SCP-6566]]] || Researches and contains demonic/tartarean entities and anomalies. || N/A ||
+|| Department of Ectodimensional Anomalies || [http://scp-int.wikidot.com/scp-588-jp SCP-588-JP], [[[SCP-3676]]], [[[SCP-3856]]] || Studies anomalies orginating from other dimensions. || N/A ||
+|| Department of Entomology || [[[entomology-intro-tale | "Sorry to bug you, Director..."]]] || Studies insectoid anomalies. || Subdivision of **Department of Parazoology** ||
+|| Department of Epidemiology || [[[SCP-5350]]] || Studies the spread and possible control of anomalous diseases || N/A ||
+|| Engineering Division || [[[SCP-4383]]] || Develops Foundation technology and structures || N/A ||
+|| Department of Essophysics || [[[SCP-4260]]], [[[SCP-6820]]] || A small department that studies essophysical entities and manifestation events. "Essophysical" denotes physical embodiments of concepts. || N/A ||
+|| Department of Esoteric Physics || [[[SCP-5080]]] || Studies anomalies that operate under anomalous rules of physics. || N/A ||
+|| Department of Ethnography || [[[Genius Loci]]] || Studies the anomalous customs of different people and cultures. || N/A ||
+|| Experimental Containment Research Group (ECRG) || [[[SCP-1718]]], [[[SCP-2409]]] || Develop new containment techniques, often later declared anomalous. || N/A ||
+|| Department of Extradimensional Matters _
+---- _
+-- Department of Extradimensional Studies|| [[[SCP-4366]]], [[[SCP-6996]]] || Studies cross-dimensional travel and affairs. || N/A ||
+|| Department of Extrasolar Activities || [[[SCP-3417]]] || Monitors and researches anomalies beyond the solar system. || N/A ||
+|| Department of Extratemporal Studies || [[[apas |Automated Passive Amnestization System Ver. 17.09]]] || Studies events from other timelines and dimensions. || N/A ||
+|| Department of Film and Media || [[[SCP-3317 Audio]]] || Studies and contains anomalies related to auditory and visual media. || N/A ||
+|| The Final Department || [[[final-exam|The Final Department Orientation: Final Exam]]], [[[SCP-6430]]] || Tasked with neutralizing time-loops, self-replicating zones and other infinite phenomena. || N/A ||
+|| General Non-Anomalous Testing and Containment (GNATC) || [[[Spring Cleaning]]] || Nicknamed "Granny's Attic," stores and processes objects that are determined to be non-anomalous. || "Processing Bureau" (also called "Penalty Box") - considered a punishment detail for researchers who have annoyed management.||
+|| Department of Geology _
+---- _
+Department of Geological and Oceanic Abnormalities || [[[SCP-359]]], [[[SCP-4336]]], [[[SCP-6204]]] || Studies geological anomalies || N/A ||
+|| Department of Glaciology || [[[SCP-6339]]]|| Studies Ice-Related anomalies || See **Minology Supervising Department** ||
+|| Department of History || [[[SCP-5207]]], [[[SCP-5997]]] || Studies historical information in regards to the anomalous || See **Chronology**, **Public History** and **Xenohistory** ||
+|| Human Capital Exchange Division || [[[SCP-4600]]] || Tasked with the containment of SCP-4600 through the use of social and economic engineering. || N/A ||
+|| Department of Informational Technologies || [[[SCP-5452]]] || Studies anomalies relating to computer technology. || See **AIAD** & **Division of Anomalous Programming**. ||
+|| The Integumentary Department || [[[SCP-6972]]] || Studies anomalies that relate to the skin, human or otherwise. || N/A ||
+|| Department of Kinetography || [[[SCP-3688]]] || Studies kinetoglyphs: Physical and mental anomalous effects that occur when an entity performs specific motions and gestures. || N/A ||
+|| Department of Literature || [[[SCP-4410]]] || Studies anomalous literature or literature relating to the anomalous. || N/A ||
+|| Department of Marketing ||[[[SCP-4317]]] || Studies anomalies to devise ways to get the most profit out of them as possible. Part of the SCP Corporation. || N/A ||
+|| Department of Mathematics || [[[CAST]]] || Studies mathematical anomalies. || N/A ||
+|| Medical Department || [[[SCP-5606]]] || Provides medical support to Foundation operatives. || N/A ||
+|| Memetics Division || [[[SCP-2111]]] || Studies anomalous memetics. || N/A ||
+|| Department of Metallurgical Studies || [[[SCP-359]]] || Department dedicated to researching and cataloguing anomalous metals. || Subdivision of **Chemistry** ||
+|| Department of Microbiology || [[[SCP-5400]]] || Studies anomalous microorganisms || N/A ||
+|| [[[secure-facility-dossier-site-418|Minecraft Division]]] || [[[SCP-6468]]] || Researches and contains anomalies based in the video-game //Minecraft.// || N/A ||
+|| Mintology Supervising Division || [[[SCP-6339]]] || Supervising Mint-related anomalies || Subdivision of **Glaciology** ||
+|| [[[domc-hub |Department of Miscommunications (DoMc)]]] || [/system:page-tags/tag/miscommunications#pages Pages tagged Miscommunications] || Researches and contains anomalies that violate or negate conventional linguistics. || N/A ||
+|| Department of Musicals || [[[enter-stage-right|Department of Musicals Orientation]]] || Searches for incoming anartist performances and takes public attention off from them by creating live musical plays, concerts and other shows at their date of performance. || N/A ||
+|| Department of Multidimensional Imbrication || [[[SCP-4345]]] || Deals with the merging and overlapping of different realities || N/A ||
+|| [[[departments#folklore-dept| Department of Mythology and Folkloristics]]] || [/system:page-tags/tag/folklore-dept Pages tagged Folklore Department] || Studies the role the anomalous has played in the development of global religion and mythology. || N/A ||
+|| Department of Nautical Anomalies || [[[SCP-5862]]] || Studies anomalous nautical vessels. || N/A ||
+|| Office of the //Nganga// || [[[SCP-1036]]] || Manages Foundation staff members who are shamans, witch doctors or practitioners of traditional African magic || N/A ||
+|| Department of Occult Containment || [[[SCP-4290]]] || Devises containment procedures involving thaumaturgy and/or ritualistic practices. || N/A ||
+|| Department of Ontokinetics || [[[SCP-5292]]], [[[SCP-5572]]], [[[SCP-5795]]]|| Studies anomalies capable of altering reality, with Site-120 being its main hub of operations. || See **Theology Division**, **Thaumaturgy Division**, & **Spatial Disruptions Division**. ||
+|| Department of Other || [[[SCP-5784]]] || Contains and studies anomalies that do not fall under the jurisdiction of other departments or that other departments refuse to handle. || N/A ||
+|| Department of Paracryptology || [[[SCP-4573]]] || Studies anomalous code, usually in an attempt to decode it. || N/A ||
+|| Department of Parazoology || [[[SCP-2584]]] || Studies anomalous animal species. || See **Apiary**, **Entomology**, **Architectural Zoology** and **Cryptozoology**. ||
+|| Department of 'Pataphysics || [[[operation-overmeta|Operation ÓverMeta]]], [[[SCP-3309]]], [[[SCP-4028]]] || Studies anomalies relating to the narrative. || N/A ||
+|| Department of Pastaphysics || [[[Orientation for the Pastaphysics Department]]] || Prepares meals for anomalies and staff members based on their preferences and role in The Foundation. || N/A ||
+|| [[[secure-facility-dossier-site-106|Department of Procurement and Liquidation]]] || [[[just-another-shop-that-wasn-t-there|Just Another Shop That Wasn't There]]], [[[SCP-6237]]], [[[sunshine-and-lucre|Sunshine and Lucre]]] || Searches for marketed anomalies and buys them or the company selling it for containment. || Subdivisions are **Acquisitions & Appropriations, Sourcing & Containment, Negotiations & Legality** and **Distribution & Liquidation** ||
+|| Psionics Division || [[[SCP-2664]]], [[[SCP-5090]]], [[[SCP-5508]]] || Studies psionics (i.e telekinesis, telepathy, etc.) || N/A ||
+|| Department of Public History || [[[SCP-4078]]] || Alters public records of historical events. || N/A ||
+|| Department of Solar System Oversight || [[[Directive A-42]]] || Monitors and researches anomalies within the solar system. || N/A ||
+|| Department of Spectral Phenomena || [[[SCP-4435]]], [[[SCP-4973]]], [[[SCP-6766]]], [[[ghost-story |RAISA-007710 (RECOVERED DOCUMENT)]]] || Studies apparitions, ghosts, and other spectral anomalies. || N/A ||
+|| [[[departments#surrealistics-dept| Department of Surrealistics]]] || [/system:page-tags/tag/surrealistics-dept Pages tagged Surrealistics Department] || Responsible for the identification and containment of incoherent anomalies, requiring non-traditional logic to observe and effectively comprehend. || N/A ||
+|| Department of Tactical Mathematics || [[[SCP-5650]]] || A department specializing in the study of anomalous mathematics for Foundation utilization. || N/A ||
+|| [[[secure-facility-dossier-reliquary-area-27 |Department of Tactical Theology]]] || [/system:page-tags/tag/tactical-theology Pages tagged Tactical Theology] || A department responsible for assisting in the capture, containment, and potential neutralization of theological anomalies. || See **Abrahamic Division**. ||
+|| [[[welcome-to-delta-t | Department of Temporal Anomalies]]] || [[[SCP-1780]]] ||  The Foundation has no record of the existence of a "Temporal Anomalies Department" headed by Dr. Thaddeus Xyank. || N/A ||
+|| Department of Tesseractic Geometry || [[[SCP-2634]]] || Focuses on determining a method of further interaction with higher-dimensional entities. || N/A ||
+|| Department of Thaumatology || [[[SCP-3688]]] || Studies the anomalous science of thaumaturgy (colloquially, magic). || Subdivision of **Department of Ontokinetics** ||
+|| Department of Thaumaturgical Zoology || [[[SCP-5217]]] || A department that specializes in the study and containment of anomalous animal species that utilize or emit thaumaturgic matter or energies (i.e magic). || Subdivision of **Parazoology** ||
+|| Department of Trans-Dimensional Development and Discovery || [[[SCP-6001]]] || A department within the Compendium that oversees the discovery and relationships with other realities. Headed by Dr. Primrose || N/A ||
+|| [[[unreality-hub| Department of Unreality]]] || [[[unreality-hub|Department of Unreality Hub]]] || A department which [Relevant Information concerning the Department]. [[span class="fnnum"]].[[/span]][[span class="fncon"]]There also exists another Department of Unreality in [[[SCP-3302]]], which studies unreality instead of [Information regarding Department duties].[[/span]] || N/A ||
+|| Department of Web Anomaly Containment (DoWAC) || [[[SCP-6590]]] || Specializing in the containment of internet anomalies, DoWAC operates almost all of the Foundation's web-sweepers. Headed by Niel Connors. || Formerly the **Web Anomalies Containment Team (WACT)** ||
+|| Department of Xenohistory || [[[SCP-5099]]] || Studies the history of extraterrestrial civilizations || Subdivision of **History** ||
+[[/collapsible]]
+[[/div]]
+
+
+[[div class="darkbox darkbox2"]]
+[[collapsible show="SECURITY" hide="SECURITY"]]
+||~ Department Name ||~ Appearances||~ Description ||~ Subdivisions _
+(If Applicable) ||
+|| Department of Advanced Diplomacy || [[[SCP-6678]]] || Negotiates between the Foundation and non-Foundation groups to benefit the foundation, usually through the use of blackmail || Subdivision of **External Affairs and Intelligence Agency** ||
+|| Department of Applied Force|| [[[SCP-4661]]] || Foundation's military arm, overseeing joint tasks force operations. || See also the **Department of Applied Influence** and the **Department of Task Forces**. ||
+|| Department of Applied Influence || [[[djkaktus-s-proposal-iii| djkaktus's Proposal III]]] || Directly influences non-Foundation groups to achieve Foundation goals. || Subdivision of **External Affairs and Intelligence Agency** ||
+|| Department of Anomalous Weapons Development || [[[SCP-359]]], [[[War Machine]]] || Develops means of weaponizing anomalies for use in Foundation operations. || N/A ||
+|| Emergent Threat Tactical Response Authority (ETTRA) || [[[resurrection-old-foes-hub |Resurrection: Old Foes]]] || Specializes in identifying threats and responding to them before or right as they become an issue. || N/A ||
+|| Elections Monitoring Commission || [[[SCP-5054-EX]]] || Surveils elections for signs of anomalous manipulation. || N/A ||
+|| Department of External Affairs and Intelligence Agency || [[[SCP-4056]]] || Involved in diplomatic relations with non-Foundation groups and espionage. || See **Advanced Diplomacy**, **Applied Influence**, and **Spectral Affairs**||
+|| Fire Suppression Department || [[[Life Insurance Policy]]] || The department tasked with preventing foundation employees from quitting their jobs by any means necessary. || Subdivision of the **Department of Internal Affairs** ||
+|| Department of Internal Affairs || [[[Foundation Incident Review 221-B]]] || Department responsible for archiving general incidents and similar events that do not fall into the purview of a single department. || See **Fire Supression Department** ||
+|| Department of Logistics and Asset Management || [[[SCP-5646]]] || Hybridized internal department that focuses on the investigation, reconnaissance and adherence to protocol of both personnel and anomalies within Foundation sites. || N/A ||
+|| Department of Personnel Integrity || [[[Integrity]]] || A department specializing in investigating personnel irregularities and ensuring they haven't been compromised/are who they say they are. || N/A ||
+|| Special Duty Office || [[[SCP-1844]]], [[[SCP-4436]]] || Recruits and manages individuals who qualify, by means of apostolic succession or the equivalent, and by maintaining a high akiva rating, for certain containment tasks of a theological nature. || Subdivision of the **Department of Tactical Theology** ||
+|| Department of Spectral Affairs || [[[Welcome to Spectral Affairs]]] || Negotiates with afterlives and relocate spectral entities to locations away from civilisation. || Subdivision of **External Affairs and Intelligence Agency** ||
+|| Department of Task Forces || [[[Task Forces]]] || A department overseeing the formation, operations, and deactivation of Foundation Task Forces. || N/A ||
+|| [[[telecommunications-monitoring-office-hub|Telecommunications Monitoring Office]]] || [[[site-14-secure-facility-dossier|WINTER]]], [[[SCP-5783]]] || Monitors calls to emergency services for mentions of anomalies. || N/A ||
+|| War-Time Production Division || [[[War Machine]]] || A division during the 7th Occult war that developed paraweapons for Foundation use. A precursor to the **Department of Anomalous Weapons Development.** || N/A ||
+[[/collapsible]]
+[[/div]]
+
+
+[[div class="darkbox darkbox2"]]
+[[collapsible show="INTERNATIONAL" hide="INTERNATIONAL"]]
+||~ Department Name ||~ Appearances||~ Description ||~ Subdivisions _
+(If Applicable) ||
+|| CL5 / The Lusophone Directorial Board (PT) || [http://scp-int.wikidot.com/about-the-lusophone-branch About The Lusophone Branch] || A regional administrative force for the Lusophone Branch of the Foundation. || N/A ||
+|| Department of Deduction (CN) || [http://scp-int.wikidot.com/deduction-department2 Dr Voctor's Elementary Lecture on Narrative Iteration] || Chinese Branch of Department of 'Pataphysics || N/A ||
+|| Internal Security (RU) || [[[list-of-foundation-s-internal-departments |Internal Departments]]] || A secret police force responsible for filtering traitors as well as operational and information security risks among the Foundation's ranks. || N/A ||
+|| [[[tribunal |Internal Tribunal Department]]] (RU) || [[[list-of-foundation-s-internal-departments | Internal Departments]]], [[[they|They!]]], [/scp-6500/offset/10 SCP-6500] || An internal judiciary department, hearing cases by personnel accused of breaking Foundation protocol. || N/A ||
+|| Italian Branch Superintendence (IT) || [http://scp-int.wikidot.com/organizzazione-interna IT Branch Internal Organization] || A regional administrative force for the Italian Branch of the Foundation. || N/A ||
+|| Board of Japanese Area Directors (JP) || [http://scp-jp.wikidot.com/japanese-area-directors Orientation Manual for Japanese Branch and Board of Japanese Area Directors (Untranslated)], [http://scp-jp.wikidot.com/japanese-area-directors-dossier Japanese Area Directors Dossier (Untranslated)] || A regional administrative force for the Japanese Branch of the Foundation. Basically consists of 7 members. || N/A ||
+|| Department of Eschatology (PL) || [http://scp-wiki.net.pl/scp-pl-275 SCP-PL-275] || A department dedicated to the project of creating a new reality, modifying the current one, creating or acquiring a facility that allows to live in an environment better suited for battling and learning about anomalous objects. || N/A ||
+|| Department of Logic (CN) || [https://scp-wiki-cn.wikidot.com/scp-cn-1614 SCP-CN-1614], [https://scp-wiki-cn.wikidot.com/scp-cn-1615 SCP-CN-1615] || Studies and contains anomalies which break conventional logic || N/A ||
+||Department of Applied Necromancy (DE)|| [http://scp-wiki-de.wikidot.com/scp-221-de  SCP-221-DE] (Untranslated) || Specialised in necromancy and resurrection, to ask the dead for advice. At the same time also responsible for combating the misuse of these powers for military or economic purposes. || N/A ||
+|| Department of Manufacturing (RU) || [[[list-of-foundation-s-internal-departments |Internal Departments]]] || Responsible for fulfilling any material requests that can arise during the capture of anomalies, containment, or any other Foundation process. || N/A ||
+|| Department of Mycology (PL) || [http://scp-wiki.net.pl/scp-pl-275 SCP-PL-275] || Department dedicated to the study, documentation, collection, and containment of fungal anomalies. || N/A ||
+|| Division of Memetic Engineering (ZH) || [http://scp-zh-tr.wikidot.com/scp-zh-440 SCP-ZH-440] || Production and research of memetic hazards. Also involved in the training of personnel against memetics hazards. || N/A ||
+|| O4 Council / Board of Directors of the German-speaking SCP Foundation (DE) || [http://scp-int.wikidot.com/scp-foundation-in-deutschland-portal  The German SCP Foundation], [[[SCP-028-DE]]], [[[SCP-150-DE]]] || A regional administrative force for the German-speaking Branch of the Foundation. Members are named like the O5 from -1 to -13, rarely are there only 12 or even up to 15.  || N/A ||
+|| O5-CN Council (CN) || [http://scp-wiki-cn.wikidot.com/scarlet-s-proposal Scarlet's Proposal] || A regional administrative force for the Chinese Branch of the Foundation. Directed by O5-9. Members are named after [http://en.wikipedia.org/wiki/Chinese_zodiac Chinese Zodiac Signs] and additional "Cat" || N/A ||
+|| Safe Class Research Department (ZH) || [http://scp-int.wikidot.com/scp-zh-973 SCP-ZH-973] || A department responsible for the research of class "Safe" item in Site-ZH-94 || N/A ||
+||[http://scp-zh-tr.wikidot.com/three-enclosures-hub Three Enclosures Command/Council] (ZH) || [[[SCP-ZH-002]]] || A regional administrative force of ZH Branch of Foundation. Named after the [https://en.wikipedia.org/wiki/Chinese_constellations#Three_Enclosures Ancient Chinese constellation system]. || N/A ||
+|| Administration of the Polish Branch (PL) || [http://scp-int.wikidot.com/scp-pl-200 SCP-PL-200] || A regional administrative force for the Polish Branch of the Foundation. || N/A ||
+|| Czech Council of Regional Directors (ČROD) (CS) || [http://scp-cs.wikidot.com/scp-nadace-na-uzemi-ceska SCP Foundation in the Czech Republic - Information about the Czech Branch of the SCP Foundation (Untranslated)] || A regional administrative force for the Czech Branch of the Foundation. || N/A ||
+|| Maintenance Department (ID) || [http://scp-idn.wikidot.com/orientasi-departemen-pemeliharaan Maintenance Department Orientation (Untranslated)], [http://scp-idn.wikidot.com/tiada-hari-yayasan-tanpa-masalah No Day Without Any Problem in the Foundation (Untranslated)] || A department in charge of handling technical and structural aspects of Foundation facilities, such as construction designs for Foundation offices and anomaly containment units, repair and maintenance of Foundation equipment, and et cetera.|| Subdivision of **Engineering and Technical Service Department** ||
+|| [http://scp-jp.wikidot.com/dialogue-department-hub Dialogue Department (JP)] || [http://scp-jp.wikidot.com/system:page-tags/tag/%E5%AF%BE%E8%A9%B1%E9%83%A8%E9%96%80#pages Pages tagged Dialogue Department (JPWiki)] || Keeps and assures mental normalcy by mental care of Foundation personnel.|| N/A ||
+|| [http://scp-jp.wikidot.com/formality-department-hub Formality Department (JP)] || [http://scp-jp.wikidot.com/system:page-tags/tag/%E5%BD%A2%E5%BC%8F%E9%83%A8%E9%96%80#pages Pages tagged Formality Department (JPWiki)] || Researches conditions exhibiting anomalous effects. || N/A ||
+|| [http://scp-jp.wikidot.com/foundation-radio-bureau-hub Foundation Radio Bureau (JP)] || [http://scp-jp.wikidot.com/system:page-tags/tag/%E8%B2%A1%E5%9B%A3%E3%83%A9%E3%82%B8%E3%82%AA%E6%94%BE%E9%80%81%E5%B1%80#pages Pages tagged Foundation Radio Bureau (JPWiki)]  || Managements internal lines or communication among Foundation sites. FRB broadcasts various informations including entertainment program and announcement about a containment breach. || Subdivision of the **Department of External Affairs and Intelligence Agency** ||
+||Department of Testimony (CN)|| [http://scp-wiki-cn.wikidot.com/scp-cn-313  SCP-CN-313] (Untranslated), [http://scp-int.wikidot.com/scp-cn-2989  SCP-CN-2989],  [http://scp-wiki-cn.wikidot.com/SCP-CN-2102 SCP-CN-2102 ] (Untranslated) || Demonstrate that the present world they dwell is true beingness, not some kind of existence of phantasmagoria.|| N/A ||
+||Department of Compensation and Intercourse (CN)|| [http://scp-wiki-cn.wikidot.com/scp-cn-2651 SCP-CN-2651] (Untranslated), [http://scp-int.wikidot.com/scp-cn-2788 SCP-CN-2788] (Untranslated),  [http://scp-wiki-cn.wikidot.com/SCP-CN-2959 SCP-CN-2959] (Untranslated) || Affiliated to [http://scp-wiki-cn.wikidot.com/site-cn-11 Site-CN-11]. Utilizes low-risk anomalies to comfort personnel, trades in beneficial anomalies with other sites and GoIs, and pleases intelligent anomalies to reduce the cost of containment. The name of this department in Chinese is a pun on the Japanese term "[[[https://en.wikipedia.org/wiki/Enjo_k%C5%8Dsai|Enjo-kōsai]]]". || N/A ||
+||Department of Spatial Anomalies (CN)|| [http://scp-wiki-cn.wikidot.com/scp-cn-1907 SCP-CN-1907] (Untranslated), [http://scp-int.wikidot.com/scp-cn-2662 SCP-CN-2662] (Untranslated),  [http://scp-wiki-cn.wikidot.com/SCP-CN-2746 SCP-CN-2746] (Untranslated) || Affiliated to [http://scp-wiki-cn.wikidot.com/site-cn-11 Site-CN-11-γ]. Explores and researches anomalous space.|| N/A ||
+||Department of Normalcy (CN)|| [http://scp-wiki-cn.wikidot.com/scp-cn-2045 SCP-CN-2045] (Untranslated), [http://scp-wiki-cn.wikidot.com/scp-cn-2046 SCP-CN-2046] (Untranslated) || Removes anomalous properties from objects, returning them to a "normal" state. Treated similarly to the Department of Abnormalities. || N/A ||
+||Ornithology Department (DE)|| [http://scp-int.wikidot.com/scp-015-de-j SCP-015-DE-J] || Studies anomalous avian. Unclear, but probably no connection to Team Bird. But apparently they can understand the language of birds. || Subdivision of **Parazoology** ||
+[[/collapsible]]
+[[/div]]
+
+[[div class="darkbox"]]
++ CREDITS
+
+[[collapsible show="SHOW CREDITS" hide="HIDE CREDITS" folded="no"]]
+This page wouldn't have been possible without the help of others before me, especially [[*user Lt Flops]]! A lot of the departments here were catalogued by her, so, honestly, this page wouldn't be possible without her!
+
+These were the following pages I pulled from, alongside those who contributed to them:
+
+* [http://scp-sandbox-3.wikidot.com/collab:foundation-departments List of Foundation Departments] (SCP Sandbox III)
+ * [[*user Lt Flops]]
+ * [[*user Nagiros]]
+ * [[*user NatVoltaic]]
+ * [[*user MaliceAforethought]]
+ * [[*user Connor MacWarren]]
+ * [[*user Henzoid]]
+ * [[*user C8H17OH]]
+ * [[*user eggcetera]]
+ * Mzgs (account deleted)
+ * [[*user Scientist Filipp]]
+
+And that's everyone! Well, almost everyone.
+
+* [[*user Limeyy]]
+ * Tactical Theology
+ * Counterconceptuals
+ * Human Resources
+* [[*user EstrellaYoshte]]
+ * Department of Design
+ * Iconography Division
+* [[*user Placeholder McD]]
+ * Surrealistics Department
+* [[*user Ralliston]]
+ * Department of Ontokinetics
+ * Theology Division
+ * Thaumaturgy Division
+ * Spatial Disruptions Division
+* [[*user Ethagon]]
+ * Explanation and Research Department
+
+Okay, //now// that's everyone who helped with the first version of this page. A big thank you to all of them!
+[[/collapsible]]
+[[/div]]
+
+@@ @@
+
+----
+[[div class="centered"]]
+[[include :scp-wiki:component:license-box
+|author=Dr Moned, Lt Flops, TopDownUnder]]
+[[include :scp-wiki:component:license-box-end]]
+[[/div]]

@@ -1,0 +1,504 @@
+[[div style="display: none;"]]
+[[include :scp-wiki:theme:placestyle]]
+[[/div]]
+
+[[div style="display: none;"]]
+[[include component:image-block name=https://scp-wiki.wdfiles.com/local--files/placeholder-mcd-s-authorpage/s17_purp.png|caption=.]]
+[[/div]]
+
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --accentColor: #97e;
+    --lgurl: url(https://scp-wiki.wdfiles.com/local--files/placeholder-mcd-s-authorpage/s17_purp.png);
+    --header-title: "SITE-17 DEEPWELL";
+    --header-subtitle: "SECURE - CONTAIN - PROTECT";
+}
+
+body {
+    background: #080016 !important;
+    font-family: 'Inter', sans-serif;
+}
+
+#header h1 a::before, #header h2::before {
+letter-spacing: 2px;
+font-family: 'Work Sans', sans-serif !important;
+font-weight: 700 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Work Sans', sans-serif !important;
+font-weight: 700 !important;
+text-transform: uppercase !important;
+}
+
+#header h2::before {
+font-size: 1em;
+}
+
+#header h1 a::before {
+font-size: 1em;
+letter-spacing: 5px;
+}
+
+.allmont, .allmont *, .allmont *::before, .allmont *:before, .allmont *::after, .allmont *:after {
+font-family: 'Work Sans', sans-serif !important;
+font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    #main-content {
+       max-width: 98%;
+    }
+}
+
+.notation {
+    border-left: solid 3px rgb(40, 40, 40);
+    border-right: solid 3px rgb(40, 40, 40);
+    padding: 5px 15px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.7);
+    width: 75%;
+    margin: auto;
+    background: rgb(20, 20, 20) !important;
+    overflow: auto;
+    height: auto;
+}
+
+.modal {
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.7);
+    width: 96%;
+    margin: auto;
+    background: rgb(20, 20, 20);
+    border: solid 2px rgb(40, 40, 40);
+    overflow: auto;
+    height: auto;
+}
+
+.bigtext {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: var(--accentColor);
+    font-size: 110%;
+}
+
+.scp-image-block .scp-image-caption p {
+    font-size: 110%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.scp-image-block {
+    border: none;
+    box-shadow: none;
+}
+
+.scp-image-block .scp-image-caption {
+    border-top: none !important;
+    margin-top: 8px;
+    background: rgb(10, 10, 10);
+    color: #ffffff;
+}
+
+.scp-image-block img,
+.scp-image-block .scp-image-caption {
+    outline: solid 1px var(--accentColor);
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.7);
+}
+
+div#extra-div-1 {
+    filter: opacity(0.4);
+}
+
+/* excerpt div stuff */
+.excerpt {
+  border: solid 2px var(--accentColor);
+  border-left-width: 10px;
+  padding: 1px 15px;
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #303040;
+}
+@media (max-width: 479px) {
+  .excerpt {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* replacing wikidot syntax for centering/size */
+.excerpt > p:first-child {
+  text-align: center;
+  font-size: 80%;
+}
+.excerpt p:first-child > strong:first-of-type,
+.excerpt p:first-child > em {
+  font-size: 125%;
+}
+.excerpt:not(.hub) > hr ~ p {
+  font-style: italic;
+}
+/* excerpt border colors */
+.series.lifeless {
+  --accentColor: #59f;
+}
+.series.white-space {
+  --accentColor: #0c3;
+}
+.admonition {
+  --accentColor: #f24;
+}
+.other {
+  --accentColor: #ccc;
+}
+.other a {
+  --accentColor: #97e;
+}
+
+/* section header stuff */
+.section-header {
+  border-bottom: 2px solid var(--accentColor);
+  margin: 50px 0 15px;
+}
+.section-header h1 {
+  margin-bottom: 2px;
+}
+[[/module]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+----
+@@ @@
+@@ @@
+[[==]]
+[[div class="notation"]]
+The Foundation is a global, clandestine organization with an iron grip on all media, literature, and public knowledge. They operate within a strict hierarchy of Researcher to Site Director to Overseer to ensure that humanity remains in perpetual and blissful ignorance. They will and have contained God, and no one seems to care.
+
+= [[span class="bigtext"]]Everything is as it must be.[[/span]]
+[[/div]]
+@@ @@
+@@ @@
+[[div class="notation"]]
+Site-17 is the second-largest Foundation containment facility, housing hundreds of researchers and containing twice as many anomalies. Corruption has slowly festered within its ranks. The embodiment of the anomalous is knocking on reality's door. Someone has stopped to listen to a humanoid's sobbing.
+
+= [[span class="bigtext"]]Is everything as it must be?[[/span]]
+[[/div]]
+@@ @@
+@@ @@
+[[div class="notation"]]
+Site-17 is on the brink. There is always the slowly-beating thrum of anticipation, always the knowledge of something bigger, always the end just out of reach. So keep your head down, and your nose to the grindstone. You don't have to like what we do here; you just have to do it. If you start having dreams, consult a psychiatrist. If you start feeling ill, look past the blood. If you start losing your memories, don't bother. That's just how it is in this place.
+
+= [[span class="bigtext"]]Nothing is as it should be.[[/span]]
+[[/div]]
+[[/==]]
+@@ @@
+
+[[div class="section-header"]]
++* Stories
+[[/div]]
+
+Deepwell is loosely stratified into series and standalone works; below are the canon's standalone works, followed by its series in their recommended reading order.
+
+@@ @@
+
+[[div class="series other"]]
+[[collapsible show="Scenes From The Deepwell" hide="Scenes From The Deepwell" folded="no"]]
+
+[[div class="excerpt"]]
+**[[[test-subjects|'Test Subjects' (B82SW/9KL74/Y4P1K)]]]**
+by **Ralliston**
+----
+And what will we do about this, Mr. Graham? It'd be a true shame if saving 1 pound per subject would have to cost us this much.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4855]]]:** //Mind Like a Steel Trap//
+by **loddite**
+----
+SCP-4855 is a 74 year-old African-American female, legally named Ms. Edwina Drake, of ██████████, North Dakota. SCP-4855 is immune to informational, psychological, memetic, and antimemetic anomalies.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-5947]]]:** //SILVERFISH//
+by **UraniumEmpire**, **MaliceAforethought**
+----
+Once monthly, a member of D-Class personnel is to enter Chamber 02 and select one of the bowls at random — they will then be instructed to consume its contents, and staff are permitted to use physical force to ensure they comply.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4936]]]:** //Summer Vacation// 🦀
+by **Nagiros**
+----
+Although SCP-4936 usually presents as Beta Cancri, it is capable of altering its physical form, usually to take the appearance of a mundane crab.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-5715]]]:** //Ghosts of Time's Past//
+by **Nitro147**
+----
+The progression of events described below can be confirmed to have happened in one or more previous historical progressions with 98.6% certainty.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-6113]]]:** //Temporary Reflections//
+by **Dr Asteria**
+----
+If there was a button that let you change sex, would you press it?
+[[/div]]
+
+
+[[div class="excerpt"]]
+**[[[SCP-6086]]]:** //Errata//
+by **Arcydziegiel**
+----
+At this point, we can only hope that he is no longer conscious.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-5576]]]:** //Damned to Limbo//
+by **Cremo**, **Jack Waltz**
+----
+"And in all honesty, it simply wouldn't be fair for me to live a happy, normal life with everything I've done."
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-6124]]]:** //Cow Spotting//
+by **Nagiros**
+----
+SCP-6124's effects cease when the observer diverts their gaze from the cattle responsible for the vector.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-6969-J]]]:** //The End of Sex 6.9: You Can (Not) Reproduce//
+by **Yossipossi**
+----
+[[=]]
+[[size 250%]]**##red|EL##**[[/size]]
+
+[[size 250%]]**##red|SEXOOOOO##**[[/size]]
+[[/=]]
+[[/div]]
+
+[[/collapsible]]
+[[/div]]
+
+@@ @@
+------
+@@ @@
+
+[[div class="series lifeless"]]
+[[collapsible show="'These Lifeless Things'" hide="'These Lifeless Things'" folded="no"]]
+
+[[div class="excerpt"]]
+**[[[SCP-4051]]]:** //Your Friendly Neighborhood Keter//
+by **Nagiros**
+----
+SCP-4051 is a male humanoid which can create temporary Class-E wormholes to extradimensional spaces populated by a theoretically infinite number of a unique item. Efforts to utilize it to the Foundation's benefit are ongoing.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4260]]]:** The Subdirective
+by **Nagiros**
+----
+SCP-4260 refers to the consciousness of an essophysical entity which has permeated itself through the known universe. The effect of SCP-4260's existence has been well documented by almost every sapient culture.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[APAS|]]]**
+by **Nagiros**
+----
+[[module CSS]]
+div.terminal {
+  margin-bottom: 1em;
+  border: solid 3px #BBBBBB;
+  border-radius: 16px;
+  background-color: #131;
+  background-image: radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121); /* black shadow at the top of the terminal */
+  background-position: center;
+  box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5); /* shadow around the terminal */
+  overflow: hidden; /* prevents scanline from forming a scrollwheel */
+  color: rgba(128,255,128,0.8);
+  font-family: monospace;
+  font-size: 1.45em;
+  padding: 0 1em;
+}
+[[/module]]
+
+[[div class="terminal"]]
+Your current version of the Automated Passive Amnestization System (APAS), installed at Site-17, is up to date and all systems are online. What now?
+[[/div]]
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[He Who Screws With Reality]]]**
+by **Nagiros**
+----
+"His first name is Samuel. Last name is Veras. He's a Class V reality bender, and we have no idea how to keep him contained. The Foundation's never seen anything like him before."
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4175]]]:** //Friends Made, and the **Void**//
+by **Nagiros**
+----
+SCP-4175 is a Level-I Humanoid Apparition which can be viewed in the reflection of a bathroom vanity mirror.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4415]]]:** //Humanoid Containment Chamber #λ045//
+by **Nagiros**
+----
+SCP-4415 is a set of extradimensional locations accessible through the door of the former Humanoid Containment Unit #λ045 at Site-17. They are inaccessible to non-anomalous persons.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[SCP-4755]]]:** //When We Are Omnipotent//
+by **Nagiros**
+----
+SCP-4755 designates the ultimate purpose of conceptualization, which is containment.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[Systems Patch]]]**
+by **Nagiros**
+----
+[[div style="background: #eee; border: solid 1px #6f4c7a; padding: 5px 15px; margin: 5px 5px 12.8px 5px"]]
+= [[span class="bigtext" style="color: #6f4c7a;"]]{{Hello, Nathaniel. Will you be implementing my interface update tonight?}}[[/span]]
+[[/div]]
+[[/div]]
+
+[[/collapsible]]
+[[/div]]
+@@ @@
+[[div class="series a-part"]]
+[[collapsible show="'A Part'" hide="'A Part'" folded="no"]]
+
+[[div class="excerpt"]]
+**[[[SCP-5097]]]:** //Working 9 to 5//
+by **VoidLady**
+----
+On 4/8/2020, Dr. Kara removed themself from baseline reality and temporally ceased existing.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[Hurt]]]**
+by **CelesteKara**
+----
+They put their head in their hands as they continued to look over the notebook. They had always been troubled with something since they were a kid.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[Without You]]]**
+by **CelesteKara**
+----
+They weren't just missing, they were gone. Their presence had left the universe and wouldn’t return.
+[[/div]]
+
+[[div class="excerpt"]]
+**[[[Somnambulant Directives Take The Helm]]]**
+by **Nagiros**
+----
+Their coworkers dreamed of the hyperreal, but Kassidy was left with paper cuts.
+[[/div]]
+
+[[/collapsible]]
+[[/div]]
+@@ @@
+[[div class="series white-space"]]
+[[collapsible show="'White Space'" hide="'White Space'" folded="no"]]
+
+[[div class="excerpt hub"]]
+**[[[white space (HUB)]]]**
+----
+The future is more bleak than you could possibly imagine. It is an unconscious hellscape, a continuation of the present, a birthplace of the static sky above the port. The Foundation — if it can be called that at this stage in its mutation — has entered its endgame.
+
+Fortunately, this hell won't last much longer.
+[[/div]]
+
+[[/collapsible]]
+[[/div]]
+@@ @@
+[[div class="admonition"]]
+[[collapsible show="'ADMONITION'" hide="'ADMONITION'" folded="no"]]
+@@ @@
+[[div class="excerpt notation"]]
+**[*/admonition-hub ADMONITION (HUB)]**
+by **Azamo, Placeholder McD, et. al**
+----
+= //To control everything is to control nothing; as one's dominion increases, so too is it stretched thin.//
+----
+The instinct to achieve the unachievable, to challenge in the face of defeat, is core to Our Foundation's ideology, and so goes unquestioned. We can achieve any goal to which we set our minds, and so we shall without doubt. And yet, our objectives, while noble in ambition, lack hubris -- we climb ever-so-high to find the mountain's peak undesirable. We are unsatisfied.
+
+= [[span class="bt"]]Everything will be as it should.[[/span]]
+[[/div]]
+[[/collapsible]]
+[[/div]]
+
+[[div class="section-header"]]
++* Canon Details
+[[/div]]
+
+[[tabview]]
+[[tab That Which Can Be Said]]
+++* Beginnings
+
+The first tenet of Site-17's fiction is that the Foundation is, at its core, evil. It is a hierarchical, bureaucratic institution which seeks to enforce ignorance as law and is plainly hostile to the world at large. It worships the greater ethical good but has no method of defining what that good is.
+
+Perhaps, the researchers within the Foundation have not realized this. Perhaps even the Overseers are likewise deluded. But the ones who have been trampled beneath the weight of the Foundation's transgressions are not so blind.
+
+++* Middles
+
+The second tenet is that Site-17's fiction runs on a vibe. Highly atmospheric and emotionally-driven, Deepwell presents a world defined by wrongness; institutions tasked with the safeguarding of humanity have taken on a certain malignancy. Control, prided by the Foundation as a central dogma, seems more and more every day like a facade to hide the unknown forces to which the men in charge have given themselves, and the world.
+
+++* Continuations
+
+Preferably, articles written for Site-17 should incorporate one or more of the following elements into their fiction:
+
+* Inclusion of, or references to, established characters or events within the canon
+* Ethics Committee interactions
+* Thematic interest in secrecy, truth, and/or the sacrifices made to maintain the Veil
+
+In any case, feel free to parent your article to this page and add it here when it's posted. The applicable tag is {{deepwell-catalog}}.
+[[/tab]]
+[[tab That Which Can Be Known]]
+++ Essophysics
+
+Essophysics is the study of embodiments. The ideas which govern our everyday are not really ours; reality bends to the wills of Intrinsic anomalies, fading in and out of reality alongside their concepts. None are all-powerful, all are subject to the discordancy of conceptualization, and all are mortal. Painfully, obviously mortal.
+
+++ Timeline Of Important Events
+
+This primarily exists as a vain attempt to ensure that characters born in 1990 don't become Site Directors in 1970. It's harder than you'd think!
+
+------
+**Warning:** Heavy spoilers.
+
+[[collapsible show="+ Show Full Timeline" hide="- Hide Full Timeline" hideLocation="both"]]
+
+||~ Date ||~ Event ||
+||08/06/1906 || First humanoid anomaly, [[[SCP-6086]]], is contained. ||
+||1910|| Creation of the Ethics Committee. ||
+||02/10/1912 || [[[SCP-6086]]] is designated as neutralized. ||
+||1987|| The Foundation notes the existence of [[[SCP-4755]]] but fails to determine its source or nature. ||
+||01/13/1999|| Death is contained as [[[SCP-4260]]] after voluntarily manifesting and requesting medical assistance. ||
+||2003|| [[[APAS | Apollyon]]] manifests for the first time and destroys Site-17, but is turned back by Dr. Skyler. Dr. Weathers is contracted as the Provisional Site Director. ||
+||5/13/2005|| Irantu //Mark-LXXII// contacts the Foundation from the year 2103 CE regarding SCP-4755. ||
+||01/04/2010|| Apollyon completes a manifestation event and exits the local timeline. ||
+||4/17/2011|| [[[SCP-4518]]] is contained with significant effort. ||
+||August 2012|| Rainer Miller is contained as [[[SCP-4051]]]. ||
+||09/08/2015|| [[[SCP-4175 | Alex Conrad]]] is neutralized. ||
+||02/13/2016|| Foundation Administrator Ethan Horowitz becomes the heir to SCP-4260 in order to prevent a ΩK-Class ("End-of-Death") Scenario. ||
+||2103||The Foundation ascends to a Tier V conceptual anomaly, becoming SCP-4755.||
+
+[[/collapsible]]
+[[/tab]]
+[[tab That Which Can Be Done]]
+= <reserved for future use>
+[[/tab]]
+[[/tabview]]
+
+----
+@@ @@
