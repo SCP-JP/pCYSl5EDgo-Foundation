@@ -1,0 +1,1585 @@
+[[include theme:black-highlighter-theme]]
+[[module css]]
+@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+
+.rounder {
+    background: url(https://scp-wiki.wdfiles.com/local--files/rounderhouse-s-author-page/rounderception.png);
+    border: 5px solid rgb(var(--dark-gray-monochrome));
+    color: #000;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-left: 2%
+} 
+
+.rounder h1 {
+    font-family: 'Bungee', cursive;
+}
+
+#page-title {
+    display: none;
+}
+
+#page-content > div:nth-child(3) {
+    float: right;
+}
+
+.page-rate-widget-box {
+    margin-top: 0.75rem;
+}
+
+.theme-articles ul li a[href*="4205"] {
+    font-family: var(--mono-font);
+}
+[[/module]]
+
+[[toc]]
+[[div_ class="top-image"]]
+[[image https://scp-wiki.wikidot.com/local--files/black-highlighter-themes/bhl-themes.svg]]
+[[/div]]
+[[div_ class="rating-container" style="text-align: right"]]
+[[module Rate]]
+[[/div]]
+
++ Welcome! :D
+
+[[div class="welcome"]]
+Below are themes to Black Highlighter, an SCP Wiki theme that most that browse the Wiki have likely seen at this point. If you'd like to learn more, [[[theme:black-highlighter-theme | take a look at the component page!]]]
+
+Everyone is welcome to add their themes here! Just make sure you follow the format. Make sure to put your name in Alphabetical order.
+[[/div]]
+
++ 7Happy7
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ SCP Archive Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:scp-archive | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[scp-6740|SCP-6740 — Our Shared Grave]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://scp-wiki.wdfiles.com/local--files/black-highlighter-themes/scp-archive.png]]
+    [[/div]]
+[[/div]]
+
++ CityToast
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Human Resources Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:scp-human-resources | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [https://scp-wiki.wikidot.com/hr-journeys Journeys: The Story of Dane]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://scp-wiki.wdfiles.com/local--files/black-highlighter-themes/human-resources.png]]
+    [[/div]]
+[[/div]]
+
++ Croquembouche
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Swirling Ashes Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:swirling-ashes | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[Rat's Nest Hub]]]
+* [[[The Four Arcana]]]
+* [[[A Terrible Thing]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image swirling-ashes.png]]
+    [[/div]]
+[[/div]]
+
++ EstrellaYoshte
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Isolated Terminal Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:isolated-terminal | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[SCP-5311]]]
+* [[[SCP-5887]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image isolated_theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Penumbra BHL
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:penumbra-bhl | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[Spirit Stories]]]
+* [[[SCP-6666]]]
+* [[[SCP-4812]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://scp-wiki.wdfiles.com/local--files/black-highlighter-themes/penumbra.png]]
+    [[/div]]
+[[/div]]
+
+
++ Etinjat
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Broken World Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:broken-world | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[the-book-of-gnosis-repairers-vol-of-psalms-part-1|]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image http://scpsandboxcn.wikidot.com/local--files/image/SHOW_broken-world-theme.png]]
+    [[/div]]
+[[/div]]
+
++ GreenGolem
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ SPC Black Highlighter Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:shark-punching-centre-bhl | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[spc-179|]]]
+* [[[spc-cn-985|]]]
+* [[[spc-6500|]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://scp-wiki.wdfiles.com/local--files/black-highlighter-themes/spc.png]]
+    [[/div]]
+[[/div]]
+
+
++ Greyve
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ The Coalition Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:the-coalition-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [https://scp-wiki.wikidot.com/project-roc-part-1 Roc Series Deicide Drone, Prototype Model]
+* [[[scp-6871 | SCP-6871 ⁠— In the Blink of an Eye]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image coalition_theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Foundless Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:foundless | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[Within The Walls I]]]
+* [[[Outfounded Hub]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://scp-wiki.wdfiles.com/local--files/black-highlighter-themes/unfounded.png]]
+    [[/div]]
+[[/div]]
+
++ JackalRelated
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Present Malice Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:present-malice | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[scp-5420 | SCP-5420 — Mission to Meta]]]
+* [[[scp-5384 | SCP-5384 — The Late White Shark]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image present-malice-2.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Timepiece Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:clock-tower | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[scp-5279|SCP-5279 ⁠— This is Eye-Catching]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image clock-tower-2.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Neon Dystopia Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:cyberpunk | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[scp-5782|SCP-(5.782×10⁵⁴) — And Alexander Wept]]]
+* [[[scp-6266|SCP-6266 — Red Light, Green Light]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://scp-wiki.wdfiles.com/local--files/black-highlighter-themes/neon-dystopia.png]]
+    [[/div]]
+[[/div]]
+
+
+
++ JakdragonX
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ JAKSTYLE
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:jakstyle | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[SCP-6200]]]
+* [[[SCP-5346]]]
+* [[[SCP-783]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image http://kaktuskontainer.wikidot.com/local--files/collab-sigma:jakdragonx-michael/jakstyle.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Minimalist BHL Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:minimalist-bhl | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[SCP-5365]]]
+* [[[SCP-5366]]]
+* [[[SCP-6217]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://scp-wiki.wdfiles.com/local--files/black-highlighter-themes/minimalist.png]]
+    [[/div]]
+[[/div]]
+
++ MalyceGraves
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Memoria Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:memoria | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[A Most Contentious Reunion]]]
+* [[[et-ecce | Et Ecce Equus Pallidus]]]
+* [[[kelipat | Kelipat Nogah]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://scp-wiki.wdfiles.com/local--files/black-highlighter-themes/memoria.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ La Rue Macabre Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:laruetheme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[New World, Old Flames]]]
+* [[[swamplight | s w a m p l i g h t]]]
+* [[[SCP-4421]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://scp-wiki.wdfiles.com/local--files/black-highlighter-themes/macabre.png]]
+    [[/div]]
+[[/div]]
+
++ Mishary
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ IJAMEA BHL Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:ijamea-bhl | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[Project Konkane Kamuy, 1905]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image ijamea.png]]
+    [[/div]]
+[[/div]]
+
++ Oboebandgeek99
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Calamity Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:calamity | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[UnHuman Hub]]]
+* [[[cinema-chaotique |]]]
+* [[[SCP-5825]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://scptestwiki.wdfiles.com/local--files/theme%3Acalamity/calamity-theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div class="rounder"]]
++ [[size 125%]]**ROUNDERHOUSE**[[/size]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ The Way Out Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:the-way-out | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[djkaktus-s-proposal-ii | djkaktus's Proposal II — Atonement]]]
+* [[[SCP-5008]]]
+* [[[SCP-5017]]]
+* [[[SCP-5018]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://i.imgur.com/Gj2SeuK.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Black Highlightyear Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:black-highlightyear | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[SCP-4774]]]
+* [[[SCP-4887]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image black-highlightyear_theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ [[span style="font-size: 67%"]]Disrememberment Theme[[/span]]
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:disrememberment-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[SCP-4224]]]
+* [[[SCP-5108]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image disrememberment_theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ EX OFFICIO THEME.
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:goc | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [https://scp-wiki.wikidot.com/scp-5495 EXTDOC-5495]
+* [[[UTE-1919-Discofather]]]
+* [[[KTE-5634-Ex-Machina-Bosch]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image goc_theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ I57 BHL Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:i57 | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[SCP-5227]]]
+* [[[SCP-5164]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image i57_theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ RAISA Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:raisa | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [https://scp-wiki.wikidot.com/raisa-6147 RAISA-6147 (PENDING ASSIGNMENT)]
+* [[[scp-5813|SCP-5813 ⁠— Mr. President II]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image https://scp-wiki.wdfiles.com/local--files/black-highlighter-themes/raisa.png]]
+    [[/div]]
+[[/div]]
+
++ Sekai_s
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Deus Ex Machina Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:deus-ex-machina | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[scp-5309 | SCP-5309 ⁠— is not to exist.]]]
+* [[[scp-6090 | SCP-6090 ⁠— Therianthropy Virus]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image Deus_Ex_Machina_Theme.jpeg]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Exposé Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:expose | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[On the Outskirts]]]
+* [[[keeping-it-chill | Keeping it Chill With Your Homies Down at The SCP Foundation]]]
+* [[[scp-5350 | SCP-5350 ⁠— Oculoma]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image Expose_Theme.png]]
+    [[/div]]
+[[/div]]
+
++ Stormbreath
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Black Market Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:black-market | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[All That Glisters]]]
+* [[[perispirit-records-personal-concert-experience-dm437-25p16f | 'Perispirit Records Personal Concert Experience']]]
+* [[[mcd-thunderbolt-iron | 'Thunderbolt Iron']]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image mcdsample.png]]
+    [[/div]]
+[[/div]]
+
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Wilderness Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:wilderness | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[critter-profile-the-polar-bear | Critter Profile: The Polar Bear]]]
+* [[[adoption-poster-pearl | Adoption Poster: Pearl!]]]
+* [[[critter-profile-geist | Critter Profile: Geist!]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image wilsonsnu-preview.png]]
+    [[/div]]
+[[/div]]
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ War on All Fronts Theme (BHL)
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:war-on-all-fronts-bhl | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[scp-5514 | SCP-5514 ⁠— The Dragonslayer]]]
+* [[[scp-5391 | SCP-5391 ⁠— Anastasis]]]
+* [[[scp-3741 | SCP-3741 ⁠— The World Is Your Oyster]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image woaf.png]]
+    [[/div]]
+[[/div]]
+
++ Woedenaz
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ 𝑨𝑬𝑺𝑻𝑯𝑬𝑻𝑰𝑪 𝑻𝑯𝑬𝑴𝑬
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:aesthetic-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[BREAKNECK]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image Aesthetic_Theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Chinese Foundation Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:ch-scp-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[Aflame with the Fires of Delusion]]]
+* [[[scp-4161 | SCP-4161 — METEMPSYCHOSIS.]]]
+* [[[scp-4522 | SCP-4522 — The Mystical Village of the Jade Peach]]]
+* [[[oh-i-feel-it-i-feel-the-cosmos | Oh, I feel it! I feel the cosmos!]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image CHSCP_Theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Crocker (Granny) Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:crocker-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[dianas-personnel-file | Diana's Author Page]]]
+* [[[Site-81 Community Cookbook]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image Crocker_Theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Dustjacket Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:dustjacket| Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[wanderers-library-hub | The Wanderers' Library Hub]]]
+* [[[mother-who-demands-ones-toes | Karcist Halyna Ieva]]]
+* [[[rock-war-rock-war | ROCK WAR! ROCK WAR!]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image dustjacket.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Extra Black Highlighter Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:extra-black-highlighter-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[scp-5664 | SCP-5644 — An Addiction to Blood]]]
+* [[[truth-lies | Truth Lies]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image ExtraBHL_Theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Galactic Federation Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:galactic-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[the-moons-stellar-companion | The Moon's Stellar Companion]]]
+* [[[Sky Sermon Hub]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image GalFed_Theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Laughter & Knives Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:laughter-and-knives-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[mzl-1730 | MZL-1730 (And, god willing, that will be the only one.)]]]
+* [[[WE LIVE IN A SOCIETY]]] 
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image Knives_Theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Old Money Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:old-money-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[djkaktus | The Based God]]]
+* [[[Starch and Cream]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image OldMoney_Theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Ourobouros Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:ouroborous-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [https://www.scp-wiki.wikidot.com/djkaktus-s-proposal-iii/offset/1 SCP-001: The Way It Ends]
+* [[[scp-6140|SCP-6140 ⁠— The True Empire]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image Ouro_Theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ SCP Offices Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:scp-offices-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[scp-4205 | SCP-4205 — In The Eyes of the Beholder 🖳]]]
+* [[[scp-4511 | SCP-4511 — SWINE GOD]]]
+* [[[scp-4191 | SCP-4191 — Hiding In Your Hands]]]
+* [[[scp-4939 | SCP-4939 — The Man on the Moon]]]
+* [[[Hawks n Artworks]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image offices_theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ The Foundation Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:the-foundation-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[scp-4485 | SCP-4485 — Such Black Light]]]
+* [[[scp-6565 | SCP-6565 — Incubus]]]
+* [[[Secure Facility Dossier Site-98]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image TF_Theme.png]]
+    [[/div]]
+[[/div]]
+
+[[div_ class="theme-container"]]
+    [[div_ class="theme-name"]]
+++ Unusual Incidents Unit Theme
+    [[/div]]
+    [[div_ class="theme-link"]]
+    	[[div_ class="button-container"]]
+    		[[[theme:uiu-bhl-theme | Theme Link]]]
+    	[[/div]]
+    [[/div]]
+    [[div class="theme-articles"]]
+* [[[make-america-normaler | Directive: Make America Normaler]]]
+* [[[uiu-file-2008-21 | UIU File: 2008-021]]]
+* [[[uiu-file-2017-102 | UIU File: 2017-102 ]]]
+    [[/div]]
+    [[div_ class="theme-img"]]
+    	[[image UIU_Theme.png]]
+    [[/div]]
+[[/div]]
+
+----
+
+[[size 130%]] **__See Also__** [[/size]]
+
+* [[size 120%]] [[[Sigma-9 Themes]]] [[/size]]
+* [[size 120%]] [[[CSS Theme Preparation Tool]]] [[/size]]
+* [[size 120%]] [[[CSS Policy]]] [[/size]]
+
+[[module css]]
+
+/* ===MAIN CSS===*/
+.theme-container,
+.theme-container * {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+
+.theme-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 0.25fr 0.25fr 1fr;
+    grid-gap: 0.125rem;
+    width: calc(100% - 0.625rem);
+    min-height: 15.625rem;
+    margin-bottom: 1rem;
+    grid-template-areas:
+    	"name img"
+    	"link img"
+    	"artc img";
+    background: rgb(var(--black-monochrome), 1);
+    border: 0.125rem solid rgb(var(--swatch-primary-darkest));
+    box-shadow:
+    	0.0625rem 0.0625rem 0 rgb(var(--swatch-primary-darkest)),
+    	0.125rem 0.125rem 0 rgb(var(--swatch-primary-darkest)),
+    	0.1875rem 0.1875rem 0 rgb(var(--swatch-primary-darkest)),
+    	0.25rem 0.25rem 0 rgb(var(--swatch-primary-darkest)),
+    	0.3125rem 0.3125rem 0 rgb(var(--swatch-primary-darkest)),
+    	0.375rem 0.375rem 0 rgb(var(--swatch-primary-darkest)),
+    	0.4375rem 0.4375rem 0 rgb(var(--swatch-primary-darkest)),
+    	0.5rem 0.5rem 0 rgb(var(--swatch-primary-darkest));
+    transform: translateY(-0.625rem) translateX(-0.625rem);
+}
+
+.theme-container>div {
+    background-color: rgb(var(--white-monochrome), 0.1);
+    padding: 1rem;
+}
+
+.theme-container>.theme-name {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: name;
+    display: flex;
+    background-color: rgb(var(--swatch-primary-darkest));
+    color: rgb(var(--white-monochrome));
+    font-family: var(--title-font);
+    font-size: 110%;
+    text-align: center;
+    line-height: 1.1;
+    text-shadow:
+    	0.0625rem 0.0625rem 0 rgb(var(--black-monochrome)),
+    	0.125rem 0.125rem 0 rgb(var(--black-monochrome)),
+    	0.1875rem 0.1875rem 0 rgb(var(--black-monochrome)),
+    	0.25rem 0.25rem 0 rgb(var(--black-monochrome))
+}
+
+.theme-container>.theme-name>h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.theme-container>.theme-link {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: link;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-container>.theme-link .button-container,
+.theme-container>.theme-link .button-container * {
+    box-sizing: border-box;
+}
+
+.theme-container>.theme-link .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 90%;
+    padding: 0.5rem 0.25rem;
+    background-color: rgb(var(--swatch-primary));
+    box-shadow:
+    	0 0 0 rgb(var(--black-monochrome)),
+    	0 0 0 rgb(var(--black-monochrome)),
+    	0 0 0 rgb(var(--black-monochrome)),
+    	0 0 0 rgb(var(--black-monochrome)),
+    	0 0 0 rgb(var(--black-monochrome)),
+    	0.125rem 0.125rem 0 rgb(var(--black-monochrome)),
+    	-0.125rem -0.125rem 0 rgb(var(--black-monochrome)),
+    	-0.125rem 0.125rem 0 rgb(var(--black-monochrome)),
+    	0.125rem -0.125rem 0 rgb(var(--black-monochrome));
+    transform: translateX(0) translateY(0);
+    position: relative;
+    overflow: hidden;
+    will-change: box-shadow, transform;
+    transition:
+    	box-shadow 150ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.theme-container>.theme-link>.button-container>a {
+    --wght: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(var(--white-monochrome));
+    font-size: 125%;
+    font-weight: 900;
+    position: relative;
+    transform: translateX(0);
+    transition: transform 150ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.theme-container>.theme-link>.button-container::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(var(--pale-accent));
+    transform: translateX(-100%);
+    transition: transform 150ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -webkit-clip-path: polygon(0.00% 0.00%, 100% 0px, 90% 100%, 0px 100%);
+            clip-path: polygon(0.00% 0.00%, 100% 0px, 90% 100%, 0px 100%);
+}
+
+.theme-container>.theme-link>.button-container::after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    right: 0.35em;
+    color: rgb(var(--white-monochrome));
+    font-size: 200%;
+    transform: translateY(-0.15em) translateX(-1.25rem);
+    transition:
+    	transform 150ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	opacity 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.theme-container>.theme-link .button-container:hover {
+    box-shadow:
+    	0.0625rem 0.0625rem 0 rgb(var(--black-monochrome)),
+    	0.125rem 0.125rem 0 rgb(var(--black-monochrome)),
+    	0.1875rem 0.1875rem 0 rgb(var(--black-monochrome)),
+    	0.25rem 0.25rem 0 rgb(var(--black-monochrome)),
+    	0.3125rem 0.3125rem 0 rgb(var(--black-monochrome)),
+    	0.125rem 0.125rem 0 rgb(var(--black-monochrome)),
+    	-0.125rem -0.125rem 0 rgb(var(--black-monochrome)),
+    	-0.125rem 0.125rem 0 rgb(var(--black-monochrome)),
+    	0.125rem -0.125rem 0 rgb(var(--black-monochrome));
+    transform: translateX(-0.25rem) translateY(-0.25rem);
+}
+
+.theme-container>.theme-link .button-container:hover>a {
+    transform: translateX(-0.78125rem);
+}
+
+.theme-container>.theme-link .button-container>a:hover {
+    text-decoration: none;
+}
+
+.theme-container>.theme-link .button-container:hover::before {
+    transform: translateX(0);
+}
+
+.theme-container>.theme-link .button-container:hover::after {
+    opacity: 1;
+    transform: translateY(-0.15em) translateX(0);
+}
+
+.theme-container>.theme-articles {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: artc;
+    display: grid;
+    padding: 0;
+}
+
+.theme-articles ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-rows: minmax(4rem, -webkit-max-content);
+    grid-auto-rows: minmax(4rem, max-content);
+    color: rgb(var(--black-monochrome));
+    grid-gap: 0.125rem;
+    align-content: center;
+}
+
+.theme-articles ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background-color: rgb(var(--swatch-primary), 0.25);
+}
+
+.theme-articles ul li a {
+    --wght: 900;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(var(--white-monochrome));
+    position: relative;
+    overflow: hidden;
+    font-weight: 900;
+    line-height: 1.1;
+    transform: translateX(0) translateY(0);
+    letter-spacing: 0.03em;
+    box-shadow:
+    	0 0 0 rgb(var(--black-monochrome)),
+    	0 0 0 rgb(var(--black-monochrome)),
+    	0 0 0 rgb(var(--black-monochrome)),
+    	0 0 0 rgb(var(--black-monochrome));
+    text-shadow:
+    	0 0 0 rgb(var(--black-monochrome)),
+    	0 0 0 rgb(var(--black-monochrome)),
+    	0 0 0 rgb(var(--black-monochrome)),
+    	0 0 0 rgb(var(--black-monochrome));
+    transition:
+    	color 150ms 200ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	text-shadow 150ms 200ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.theme-articles ul li a::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(var(--swatch-primary));
+    transform: translateX(-100%);
+    transition: transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -webkit-clip-path: polygon(0.00% 0.00%, 100% 0px, 90% 100%, 0px 100%);
+            clip-path: polygon(0.00% 0.00%, 100% 0px, 90% 100%, 0px 100%);
+    z-index: -1;
+}
+
+.theme-articles ul li a:hover {
+    color: rgb(var(--white-monochrome));
+    text-decoration: none;
+    box-shadow:
+    	0.0625rem 0.0625rem 0 rgb(var(--black-monochrome)),
+    	0.125rem 0.125rem 0 rgb(var(--black-monochrome)),
+    	0.1875rem 0.1875rem 0 rgb(var(--black-monochrome)),
+    	0.25rem 0.25rem 0 rgb(var(--black-monochrome));
+    text-shadow:
+    	0.0625rem 0.0625rem 0 rgb(var(--black-monochrome)),
+    	0.125rem 0.125rem 0 rgb(var(--black-monochrome)),
+    	0.1875rem 0.1875rem 0 rgb(var(--black-monochrome)),
+    	0.25rem 0.25rem 0 rgb(var(--black-monochrome));
+    transform: translateX(-0.25rem) translateY(-0.25rem);
+}
+
+.theme-articles ul li a:hover::before {
+    transform: translateX(0);
+}
+
+.theme-container>.theme-img {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    background-color: rgb(var(--light-pale-gray-monochrome), 1);
+    grid-area: img;
+    display: flex;
+}
+
+.theme-container>.theme-img>img {
+    object-fit: cover;
+    object-position: center left;
+    width: 100%;
+}
+
+#page-content>table {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 30%;
+    top: 3rem;
+    right: 0;
+    margin-top: 10rem !important;
+    overflow: visible;
+    transform: translateX(340%);
+    border-collapse: collapse;
+}
+
+#page-content>table>tbody {
+    position: absolute;
+}
+
+#page-content>div.rating-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 3rem;
+    right: 0;
+    overflow: visible;
+    transform: translateX(105%) translateY(-100%);
+    border-collapse: collapse;
+    float: right;
+    margin-bottom: -4rem;
+    padding-top: 2rem;
+    width: var(--sidebar-width-on-desktop);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-rate-widget-box {
+    margin-top: 0 !important;
+}
+
+#page-content>br:nth-of-type(1) {
+    display: none;
+}
+
+#page-content h1 span {
+    display: flex;
+    align-items: center;
+    min-height: 1em;
+    margin: 0.5em 0;
+    padding: 0;
+    border: none;
+    line-height: 1;
+}
+
+#page-content h1 span::after {
+    content: "";
+    flex-grow: 1;
+    height: 0.0625rem;
+    margin: auto auto auto 1.25rem;
+    background: rgb(var(--swatch-tertiary-color));
+}
+
+#toc0 {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    font-size: 300%;
+    position: relative;
+}
+
+#toc0::after {
+    content: " ";
+    position: absolute;
+    height: 1rem;
+    width: 18rem;
+    background-color: rgb(var(--dark-gray-monochrome));
+    bottom: 0.25rem;
+}
+
+.top-image {
+    margin-top: -10rem;
+}
+
+#toc-action-bar {
+    display: none;
+}
+
+.welcome {
+    box-sizing: border-box;
+    background-color: rgb(var(--dark-gray-monochrome));
+    color: rgb(var(--white-monochrome));
+    padding: 1rem;
+    font-size: 120%;
+    transform: translateX(-0.625rem);
+}
+
+.welcome a {
+    box-shadow: inset 100vw 0 0 0 rgb(var(--swatch-primary-darkest)), 0.25rem 0.25rem 0 rgb(var(--swatch-primary-darkest)), -0.25rem -0.25rem 0 rgb(var(--swatch-primary-darkest)), -0.25rem 0.25rem 0 rgb(var(--swatch-primary-darkest)), 0.25rem -0.25rem 0 rgb(var(--swatch-primary-darkest));
+    -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+    color: rgb(var(--white-monochrome));
+}
+
+#page-content div#toc {
+    border: none;
+    padding: 0;
+    margin: 0;
+    border: solid 0.125rem rgb(var(--swatch-primary-darkest));
+    max-height: calc(100vh - var(--final-header-height-on-desktop));
+    box-shadow:
+    	0.0625rem 0.0625rem 0 rgb(var(--swatch-primary-darkest)),
+    	0.125rem 0.125rem 0 rgb(var(--swatch-primary-darkest)),
+    	0.1875rem 0.1875rem 0 rgb(var(--swatch-primary-darkest)),
+    	0.25rem 0.25rem 0 rgb(var(--swatch-primary-darkest)),
+    	0.3125rem 0.3125rem 0 rgb(var(--swatch-primary-darkest));
+    flex-direction: column;
+    border-collapse: collapse;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+
+#toc #toc-list:not([style*="none"]) {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: stretch;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    max-height: initial;
+}
+
+#toc #toc-list>div {
+    background-color: rgb(var(--white-monochrome));
+    width: 100%;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.1
+}
+
+#toc #toc-list div[style*="em"] {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+#toc #toc-list div[style*="em"]::before,
+#toc #toc-list div[style*="em"]::after,
+#toc #toc-list div[style*="em"] a::before,
+#toc #toc-list div[style*="em"] a::after {
+    display: none;
+}
+
+#toc #toc-list>div[style*="margin-left: 1em"] {
+    --wght: 900;
+    padding: 0;
+    font-weight: 900;
+    font-size: 120%;
+}
+
+#toc #toc-list>div[style*="margin-left: 1em"]:first-of-type {
+    padding-top: 0.5ch;
+    width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#toc #toc-list>div[style*="margin-left: 1em"]:first-of-type::after {
+    content: "⇓ Designers ⇓";
+    width: 100%;
+    height: 1em;
+    margin-top: 0.5em;
+    padding: 0.25em 0;
+    color: rgb(var(--white-monochrome));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(var(--swatch-primary));
+    align-self: flex-end;
+}
+
+#toc #toc-list>div[style*="margin-left: 1em"]:not(:first-of-type) {
+    width: 100%;
+ 	flex-basis: 100%;
+    border-top: 0.125rem solid rgb(var(--swatch-primary-darkest)) !important;
+    padding-top: 0.25em;
+    padding-bottom: 0.25rem;
+}
+
+#toc #toc-list>div[style*="margin-left: 2em"] {
+    flex-grow: 1;
+    flex-basis: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#toc #toc-list>div[style*="margin-left: 2em"]>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    transform: translateX(0) translateY(0);
+    letter-spacing: 0.03em;
+    box-shadow:
+    	0 0 0 rgba(var(--swatch-primary-darkest), 0),
+    	0 0 0 rgba(var(--swatch-primary-darkest), 0),
+    	0 0 0 rgba(var(--swatch-primary-darkest), 0),
+    	0 0 0 rgba(var(--swatch-primary-darkest), 0);
+    text-shadow:
+    	0 0 0 rgba(var(--swatch-primary-darkest), 0),
+    	0 0 0 rgba(var(--swatch-primary-darkest), 0),
+    	0 0 0 rgba(var(--swatch-primary-darkest), 0),
+    	0 0 0 rgba(var(--swatch-primary-darkest), 0);
+    transition:
+    	color 150ms 200ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	text-shadow 150ms 200ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1),
+    	transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+#toc #toc-list>div[style*="margin-left: 2em"]>a::before {
+    --right-arrow-mask: none;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(var(--swatch-primary));
+    transform: translateX(-100%);
+    transition: transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -webkit-clip-path: polygon(0.00% 0.00%, 100% 0px, 90% 100%, 0px 100%);
+            clip-path: polygon(0.00% 0.00%, 100% 0px, 90% 100%, 0px 100%);
+    z-index: -1;
+}
+
+#toc #toc-list>div[style*="margin-left: 2em"]>a:hover {
+    color: rgb(var(--white-monochrome));
+    text-decoration: none;
+    box-shadow:
+    	0.0625rem 0.0625rem 0 rgba(var(--swatch-primary-darkest), 1),
+    	0.125rem 0.125rem 0 rgba(var(--swatch-primary-darkest), 1),
+    	0.1875rem 0.1875rem 0 rgba(var(--swatch-primary-darkest), 1),
+    	0.25rem 0.25rem 0 rgba(var(--swatch-primary-darkest), 1);
+    text-shadow:
+    	0.0625rem 0.0625rem 0 rgba(var(--swatch-primary-darkest)),
+    	0.125rem 0.125rem 0 rgba(var(--swatch-primary-darkest)),
+    	0.1875rem 0.1875rem 0 rgba(var(--swatch-primary-darkest)),
+    	0.25rem 0.25rem 0 rgba(var(--swatch-primary-darkest));
+    transform: translateX(-0.25rem) translateY(-0.25rem);
+}
+
+#toc #toc-list>div[style*="margin-left: 2em"]>a:hover::before {
+    transform: translateX(0);
+}
+
+#toc #toc-list>div[style*="margin-left: 2em"] {
+    background-color: rgb(var(--swatch-primary), 0.1);
+}
+
+#toc #toc-list>div[style*="margin-left: 3em"] {
+    margin: 0;
+    background-color: rgb(var(--swatch-primary), 0.15);
+}
+
+#toc #toc-list>div[style*="margin-left: 4em"] {
+    margin: 0;
+}
+
+@media only screen and (max-width: 1300px) {
+    .top-image {
+    	margin-top: 0;
+    	display: block;
+    	margin-top: 4rem !important;
+    }
+
+    #page-content>div.rating-container {
+    	position: relative;
+    	transform: translateX(0);
+    	margin-top: -2rem;
+    	margin-bottom: -4rem;
+    	width: 100%;
+    	display: inline-flex;
+    	justify-content: center;
+    	align-items: center;
+    	float: initial;
+    }
+
+    #toc0 {
+    	display: inline-flex;
+    	width: 60%;
+    }
+
+    #page-content>table>tbody {
+    	position: relative;
+    }
+
+    #page-content>table {
+    	position: relative;
+    	width: 90%;
+    	right: 0;
+    	transform: translateX(0);
+    	margin: 0 auto !important;
+    }
+
+    #page-content div#toc {
+    	max-width: inherit;
+    	width: 100%;
+    }
+
+    #toc #toc-list {
+    	max-width: 90vw;
+    }
+
+    #toc #toc-list>div[style*="margin-left: 2em"]:not(:first-of-type) {
+    	flex-basis: 25%;
+   }
+}
+
+@media only screen and (max-width: 1300px) {
+    #toc0 {
+    	width: 100%;
+    	font-size: 250%;
+    	margin: 8rem auto 0;
+    }
+
+    .theme-container {
+    	grid-template-areas:
+    		"name name"
+    		"link artc"
+    		"artc img";
+    	grid-template-columns: 40% 60%;
+    	grid-template-rows: auto auto 1fr;
+    	min-height: 50vh;
+    	transform: unset;
+    }
+
+    .theme-articles ul li a {
+    	font-size: 120%;
+    }
+
+    .welcome {
+    	transform: unset;
+    }
+
+    .theme-container>.theme-name {
+    	-ms-grid-row: 1;
+    	-ms-grid-column: 1;
+    	-ms-grid-column-span: 3;
+    }
+
+    .theme-container>.theme-link {
+    	-ms-grid-row: 3;
+    	-ms-grid-column: 1;
+    }
+
+    .theme-container>.theme-articles {
+    	-ms-grid-row: 3;
+    	-ms-grid-row-span: 3;
+    	-ms-grid-column: 1;
+    	-ms-grid-column-span: 3;
+    }
+
+    .theme-container>.theme-img {
+    	-ms-grid-row: 5;
+    	-ms-grid-row-span: 1;
+    	-ms-grid-column: 3;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #toc0 {
+    	width: 100%;
+    	font-size: 250%;
+    }
+
+    #page-content>div.rating-container {
+    	top: var(--topbar-height-on-mobile);
+    	overflow: visible;
+    	transform: initial;
+    	width: 100%;
+    	z-index: 5;
+    	padding: 1rem 0 0 0;
+    	margin: 0;
+    	text-align: center !important;
+    	position: -webkit-sticky;
+    	position: sticky;
+    }
+
+    .theme-container {
+    	grid-template-areas:
+    		"name"
+    		"link"
+    		"img"
+    		"artc";
+    	grid-template-columns: 100%;
+    	grid-template-rows: auto auto 1fr;
+    	min-height: 50vh;
+    }
+
+    .theme-container>.theme-name {
+    	-ms-grid-row: 1;
+    	-ms-grid-column: 1;
+    	-ms-grid-column-span: 1;
+    }
+
+    .theme-container>.theme-link {
+    	-ms-grid-row: 3;
+    	-ms-grid-column: 1;
+    }
+
+    .theme-container>.theme-articles {
+    	-ms-grid-row: 7;
+    	-ms-grid-row-span: 1;
+    	-ms-grid-column: 1;
+    	-ms-grid-column-span: 1;
+    }
+
+    .theme-container>.theme-img {
+    	-ms-grid-row: 5;
+    	-ms-grid-row-span: 1;
+    	-ms-grid-column: 1;
+    }
+}
+
+[[/module]]

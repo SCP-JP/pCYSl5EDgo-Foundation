@@ -1,0 +1,1101 @@
+[[iftags +theme]]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=Calibold
+|no-right-margin=*]]
+[[=]]
+[[module ListPages range="."]]
+**%%title%%**
+[[/module]]
+
+**[[[Calibri Bold's Mega Cool Author Page|Calibold's Mega Cool Author Page]]]**
+[[/=]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/USA%20SCP") !important;
+}
+[[/module]]
+
+[[module css]]
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/normalize.min.css");
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/black-highlighter.min.css");
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+div.pridebox,
+div.includebox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.pridebox div.insidebox {
+    flex-basis: calc((100% / 2) - 0.125rem);
+    border: 0.0625rem solid rgb(var(--bright-accent));
+    flex-grow: 2;
+    min-width: 18.750em;
+}
+
+div.insidebox div.imagebox {
+    display: flex;
+    justify-content: center;
+}
+
+div.insidebox div.imagebox > div {
+    width: 50%;
+    min-width: inherit;
+}
+
+div.includebox {
+    text-align: center;
+}
+
+div.includebox > blockquote {
+    flex-basis: calc(50% - 1em);
+    flex-grow: 2;
+    box-sizing: border-box;
+    margin: 0.25em;
+    width: calc(50% - 1em);
+}
+
+div.includebox tt {
+    font-size: 80%;
+}
+
+div.pridebox div.insidebox h1, div.pridebox div.insidebox h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    padding: 0 1em;
+}
+
+#page-content > div.pridebox div.scp-image-block {
+    box-shadow: inherit;
+    background-color: rgb(var(--very-light-gray-monochrome));
+    border: initial;
+}
+
+#page-content > div.pridebox div.scp-image-block > a {
+    width: 90%;
+}
+
+#page-content > div.pridebox div.scp-image-block > div.scp-image-caption {
+    border-top: inherit;
+}
+
+.flipped {
+    display: inline-block;
+    transform: scaleX(-1);
+}
+
+[[/module]]
+
+[[=]]
+
+Do you see that cool logo on the top left of the page? Yeah, I know. You wish it was //even cooler//. Well, I'm here to help. Below are a bunch of various logos, which you can use to replace the stand one in the corner up there. Simply copy and paste the code for what you need, and you're golden!
+
+Some of these are more inclined for various articles, such as the joint Foundation/GoI logos. Others, like the flag logos, are just for fun, to add a bit of a personal touch to your articles.
+
+All of these logos are created by me, [[*user Calibold]], unless otherwise stated. If you'd like to request I make a logo to feature on this, feel free to PM me! Alternatively, if you've made a logo that you'd like others to have access to, you may PM me a request for it to be featured on this page and credited to you.
+[[/=]]
+
+
+
+
+[[=]]
++ Flag-Themed SCP Logos
+
+Standard SCP logo, colored and stylized like various flags! Great for author pages, celebrating holidays, or for just showing off your patriotism!
+[[/=]]
+
+[[div_ class="pridebox"]]
+
+[[div_ class="insidebox"]]
+++ USA SCP
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/USA%20SCP link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/USA%20SCP"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**USA SCP Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-usa= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-usa= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ UK SCP
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/UK%20SCP link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/UK%20SCP"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**UK SCP Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-uk= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-uk= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ France SCP
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/French%20SCP link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/French%20SCP"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**France SCP Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-fr= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-fr= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ China SCP
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Chinese%20SCP link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Chinese%20SCP"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**China SCP Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-cn= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-cn= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ Germany SCP
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Germany%20SCP link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Germany%20SCP"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**Germany SCP Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-de= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-de= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ Sweden SCP
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Sweden%20SCP link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Sweden%20SCP"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**Sweden SCP Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-se= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-se= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ Japan SCP
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Japanese%20SCP link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Japanese%20SCP"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**Japan SCP Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-jp= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-jp= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ Malaysia SCP
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Malaysian%20SCP link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Malaysian%20SCP"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**Malaysia SCP Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-my= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-my= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+------
+
+[[=]]
++ Joint Foundation - GoI Logos
+
+These are the Foundation logo, combined with the theme or logo of a Group of Interest. A good idea for SCP documents involving a GoI, or for GoI documents involving the Foundation!
+[[/=]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ SCP Foundation / GRU Division "P"
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/USSR%20SCP link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/USSR%20SCP"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**SCP Foundation / GRU Division "P" Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-ussr= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-ussr= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ SCP Foundation / Horizon Initiative
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Horizon%20Initiative link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Horizon%20Initiative"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**SCP Foundation / Horizon Initiative Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-hi= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-hi= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ scp foundation / dado
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/scp%20dado link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/scp%20dado"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**scp foundation / dado logo code block**__
+> for sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-dado= --@@]]]}}
+> 
+> for bhl: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-dado= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ SCP Foundation / AWCY
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20AWCY link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20AWCY"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**SCP Foundation / AWCY Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-awcy= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-awcy= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ SCP Foundation / Sarkicism
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Sarkic link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Sarkic"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**SCP Foundation / Sarkicism Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-sarkic= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-sarkic= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ SCP Foundation / IJAMEA
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20IJAMEA link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20IJAMEA"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**SCP Foundation / IJAMEA Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-ijamea= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki:theme:calibri-logos |inc-ijamea= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ SCP Foundation / Ambrose Restaurants
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Ambrose%20Restaurants link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Ambrose%20Restaurants"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**SCP Foundation / Ambrose Restaurants Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-ar= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki:theme:calibri-logos |inc-ar= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ SCP Foundation / Chaos Insurgency
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20CI link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20CI"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**SCP Foundation / Chaos Insurgency Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-ci= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki:theme:calibri-logos |inc-ci= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ SCP Foundation / Global Occult Coalition
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20GOC link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20GOC"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**SCP Foundation / Global Occult Coalition Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-goc= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki:theme:calibri-logos |inc-goc= --@@]]]}}
+[[/div]]
+[[/div]]
+
+
+
+
+[[div_ class="insidebox"]]
+++ SCP Foundation / Fifthism
+[[div class="imagebox"]]
+[[div class="scp-image-block"]]
+[[image https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Fifthism link="https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Fifthism"]]
+[[/div]]
+[[/div]]
+[[div_ class="includebox"]]
+> __**SCP Foundation / Fifthism Logo Code Block**__
+> For Sigma-9: 
+> {{@@[[include :scp-wiki: theme:calibri-logos |inc-s9-5= --@@]]]}}
+> 
+> For BHL: 
+> {{@@[[include :scp-wiki:theme:calibri-logos |inc-5= --@@]]]}}
+[[/div]]
+[[/div]]
+
+[[/div]]
+
+
+
+
+------
+
+[[=]]
+
++ Also go to Woedenaz's [[[component:pride-highlighter|Pride Highlighter Page]]], for various LGBT-themed SCP logos!
+
+[[/=]]
+
+------
+
+[[include :scp-wiki:more-by:calibold]]
+
+[[/iftags]]
+
+
+
+
+[!-- {$inc-usa}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/USA%20SCP") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-usa}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/USA%20SCP") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-uk}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/UK%20SCP") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-uk}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/UK%20SCP") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-fr}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/French%20SCP") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-fr}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/French%20SCP") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-ussr}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/USSR%20SCP") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-ussr}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/USSR%20SCP") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-cn}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Chinese%20SCP") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-cn}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Chinese%20SCP") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-hi}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Horizon%20Initiative") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-hi}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Horizon%20Initiative") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-dado}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/scp%20dado") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-dado}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/scp%20dado") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-awcy}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20AWCY") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-awcy}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20AWCY") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-sarkic}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Sarkic") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-sarkic}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Sarkic") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-ijamea}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20IJAMEA") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-ijamea}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20IJAMEA") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-ar}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Ambrose%20Restaurants") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-ar}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Ambrose%20Restaurants") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-ci}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20CI") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-ci}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20CI") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-de}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Germany%20SCP") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-de}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Germany%20SCP") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-se}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Sweden%20SCP") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-se}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Sweden%20SCP") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-goc}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20GOC") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-goc}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20GOC") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-5}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Fifthism") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-5}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/SCP%20Fifthism") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-jp}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Japanese%20SCP") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-jp}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Japanese%20SCP") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]
+
+
+
+
+[!-- {$inc-my}
+[[module css]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Malaysian%20SCP") !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-s9-my}
+[[module css]]
+#header {
+    background: url("https://scp-wiki.wdfiles.com/local--files/theme:calibri-logos/Malaysian%20SCP") 15px 40px no-repeat !important;
+    background-size: 6rem !important;
+}
+@media (max-width: 580px) and (min-width: 480px) {
+    #header {
+        background-position: 0.5em 4.5em  !important;
+        background-size: 66px 66px  !important;
+    }
+}
+
+@media (max-width: 479px) {
+    #header {
+        background-position: 0 5.5em !important;
+        background-size: 55px 55px !important;
+    }
+}
+[[/module]]
+[!----]

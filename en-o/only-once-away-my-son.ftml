@@ -1,0 +1,14 @@
+[[include theme:scp-trans-pride |trans-pride-logo= --] |trans-pride-footer= --]]]
+
+[!--
+Fragment list:
+https://scp-wiki.wikidot.com/fragment:only-once-away-my-son-1
+https://scp-wiki.wikidot.com/fragment:only-once-away-my-son-2
+https://scp-wiki.wikidot.com/fragment:only-once-away-my-son-3
+https://scp-wiki.wikidot.com/fragment:only-once-away-my-son-4
+https://scp-wiki.wikidot.com/fragment:only-once-away-my-son-5
+--]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]

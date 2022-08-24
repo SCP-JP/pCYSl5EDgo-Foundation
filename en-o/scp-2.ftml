@@ -1,0 +1,128 @@
+[!-- For Maintenance and Translators
+https://scp-wiki.wikidot.com/scp-2 (You Are Here)
+https://scp-wiki.wikidot.com/fragment:scp-2-1
+https://scp-wiki.wikidot.com/fragment:scp-2-2
+https://scp-wiki.wikidot.com/fragment:scp-2-3
+https://scp-wiki.wikidot.com/fragment:scp-2-4
+--]
+
+[[include component:preview
+|text=I'm going to take a Tylenol for my tension headache, grab some tea, and get to work on this never-ending backlog of technical issues plaguing my inbox.]]
+
+[[div style="display: none;"]]
+[[include :scp-wiki:theme:flopstyle]]
+[[/div]]
+[[include :scp-wiki:theme:technoblast]]
+[[include :scp-wiki:component:centered-header-sigma-9]]
+
+[[module CSS]]
+/* HEADER */
+ :root{
+   --titleColor: hsl(180, 100%, 50%);
+   --subtitleColor: hsl(27, 100%, 63%);
+   --lgurl: url(https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/tg_logo.svg);
+}
+ body{
+   --linkColour: hsl(27, 100%, 63%);
+     font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+}
+ #header h1 a::before,
+ #header h2::before{
+     font-family: "Orbitron", sans-serif;
+}
+ #page-title{
+     display: none;
+}
+ #page-content{
+     font-size: unset;
+}
+[[/module]]
+
+[[div class="anchor"]]
+[[div class="authorbox"]]
+
+[[module ListPages name="="]]
+||~ %%title%% ||
+||= **By:** %%created_by_linked%% ||
+||~ Published on %%created_at|%d %b %Y%% ||
+[[/module]]
+
+|| **AUTHOR'S NOTE:** This Tale has FOUR different chapters. Please see the navigation links at the bottom of each page to view the next part of the article! ||
+
+[[/div]]
+[[/div]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=scp-2
+|authorPage=/floppyphoenix
+|comments= 
+@@ @@ 
+> = The sun, aching temperature, punishing what time could only take, turning threats against dark champions 
+ 
+= [[span style="color: transparent;"]]She knows.[[/span]] 
+----
+**SCP-2:** A Eulogy for 2wo 
+**Author:** [[*user Lt Flops]] 
+**Published on 4 Dec 2018** 
+**This article contains excerpts from //When We Two Parted// by Lord Byron (Public Domain)** 
+ 
+This article is set in the **[*/aiad-homescreen AIAD]** canon. 
+ 
+**Behind The Scenes:** This Tale was created as a challenge, in response to a known r/SCP glitch. The glitch involved the subreddit's main bot (/u/The-Paranoid-Android, otherwise known as "Marv") linking to "SCP-2" -- a non-existent article -- seemingly at random. The phenomenon persisted for a few years, and sometime after I published this article, it was finally fixed. 
+ 
+For extra context, see any of the following threads: **[*https://redd.it/61u0mv 1] [*https://redd.it/694o4x 2] [*https://redd.it/9f5sgi 3] [*https://redd.it/a1df2u 4] [*https://redd.it/a45sgq 5]** 
+----
+[[include :scp-wiki:more-by:lt-flops]]
+[[/div]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+
+@@ @@
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+@@ @@
+@@ @@
+
+[[div class="footing"]]
+[[/div]]
+
+@@ @@
+
+[[div class="centered"]]
+[[include :scp-wiki:component:license-box]]
+[[<]]
+=====
+> **Filename:** infotech_dept.png
+> **Name:** Infotech Department Logo
+> **Author:** [https://www.wikidot.com/user:info/estrellayoshte EstrellaYoshte]
+> **License:** [https://creativecommons.org/licenses/by-sa/3.0/ Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)]
+> **Source Link:** [[[https://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne|Desk of Junior Designer S. Yvonne]]]
+
+> **Filename:** fodder.png
+> **Name:** Fodder
+> **Author:** [https://www.wikidot.com/user:info/lt-flops Lt Flops] (With [http://www.heromachine.com/heromachine-3-lab/ HeroMachine 3])
+> **License:** [https://creativecommons.org/licenses/by-sa/3.0/ Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)]
+> **Source Link:** https://scp-wiki.wdfiles.com/local--files/scp-2/fodder.png
+
+> **Filename:** leonidas.png
+> **Name:** Leonidas
+> **Author:** [https://www.wikidot.com/user:info/lt-flops Lt Flops] (With [http://www.heromachine.com/heromachine-3-lab/ HeroMachine 3])
+> **License:** [https://creativecommons.org/licenses/by-sa/3.0/ Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)]
+> **Source Link:** https://scp-wiki.wdfiles.com/local--files/scp-2/leonidas.png
+
+> **Name:** //When We Two Parted//
+> **Author:** George Gordon Byron (Lord Byron)
+> **License:** Public Domain
+> **Additional Notes:** This article contains excerpts from the listed poem.
+=====
+[[/<]]
+[[include :scp-wiki:component:license-box-end]]
+[[/div]]
+
+@@ @@

@@ -1,0 +1,81 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+**Item #:** SCP-1921-J
+
+**Object Class:** please i have so much work to do
+
+**Special Containment Procedures:** SCP-1921-J is to be unplugged and plugged back in twice per day. Staff are encouraged to be helpful and supportive in Jr. Researcher Riemann's problems. --Please be nice to me-- Making fun of Jr. Researcher Riemann appears to exacerbate the anomalous effects of SCP-1921-J. 
+
+**Description:** SCP-1921-J refers to the model Motorola MG7540 combination wireless router / modem owned by Jr. Researcher Riemann. SCP-1921-J appears to encompass the entire internet connectivity of Riemann's office, which is ridiculous because I'm paying 70 dollars a month for this. SCP-1921-J is known to hate Jr. Researcher Riemann and make their life significantly more difficult. 
+
+It was hypothesised that being nice to SCP-1921-J can mitigate its effects but that was before we knew the depths of its hatred. The effects of SCP-1921-J have forced Jr. Researcher Riemann to go outside several times and it's very hot out right now.
+
+Its anomalous properties were discovered after repeated disconnects from the Site-17 VPN despite all the blinking lights still being on. Jr. Researcher Riemann reports that everything else is working great it just seems to hiccup every once in a
+
+
+[[html]]
+<head>
+
+<style>
+@import url("https://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/base/css/style.css");
+@import url("https://scp-wiki.wdfiles.com/local--code/component%3Atheme/1");
+
+.box {
+  background: white; border: 2px solid #bbb; width: 200px; min-width: 50vw; display: inline-block; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);
+}
+
+.box-interior {
+  margin: 10px; padding: 0 50px; background-position: bottom center; background-repeat: no-repeat;
+}
+</style>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+$(document).ready(() => {
+  $('#buttons').show()
+  $('#saving').hide()
+  $('#fuck').hide()
+
+  $('#cancel').on('click', () => {
+    $('#buttons').hide()
+    $('#saving').hide()
+    $('#fuck').show()
+  })
+
+  $('#retry').on('click', () => {
+    $('#buttons').hide()
+    $('#saving').show()
+    $('#fuck').hide()
+    setTimeout(() => {
+      $('#buttons').show()
+      $('#saving').hide()
+      $('#fuck').hide()
+    }, 3000)
+  })
+})
+</script>
+
+</head>
+<body>
+
+<div style="background: #222b; height: 300px; position: relative;">
+  <div class="box">
+    <div class="box-interior" id="buttons">
+      <p style="text-align: center">Connection lost.</p>
+      <p style="text-align: center"> <button id="cancel">Cancel</button>
+      <button id="retry">Retry</button></p>
+    </div>
+    <div class="box-interior" id="saving" style="background-image: url(https://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--theme/base/images/progress/progressbar.gif); padding-bottom: 10px;">
+      <p style="text-align: center">Reconnecting...</p>
+    </div>
+    <div class="box-interior" id="fuck">
+      <p style="font-size: 2em; text-align: center">FUCK</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+[[/html]]

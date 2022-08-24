@@ -1,0 +1,146 @@
+[[include :scp-wiki:component:toggle-sidebar]]
+
+[[include :scp-wiki:theme:y2k]]
+[[include :scp-wiki:theme:retro-aiad-theme]]
+
+[[include :scp-wiki:info:start]]
+[[=]]
+[[include component:ratio-bar pie=--]]
+
+**AI Classification Guide**
+Written by [[*user Placeholder McD]] on behalf of Team .AIC for the [*http://scp-wiki.wikidot.com/canon-renaissance-contest 2020 Canon Renaissance Contest]. All images created by me. Speech box code graciously provided by [[*user LurkD]]. 
+[[/=]]
+[[include :scp-wiki:info:end]]
+----
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff00c4; font-family: "Microsoft Sans Serif"; border: #bf207f 4px solid; background:#ff00c4; text-align: left; padding: 2px 10px;"]]
+[[include :topia:listusers-1 users="."]]
+Hey there, %%name%%! My name is mnemosyne.aic, and I'd like to formally welcome you to the Artificial Intelligence Applications Division. Congrats on the new job, by the way.
+[[include :topia:listusers-2]]
+Hey there, reader! My name is mnemosyne.aic, and I'd like to formally welcome you to the Artificial Intelligence Applications Division. Congrats on the new job, by the way.
+[[include :topia:listusers-3]]
+[[/div]]
+[[div]]
+[[image mnemchat.png width="100px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff00c4; font-family: "Microsoft Sans Serif"; border: #bf207f 4px solid; background:#ff00c4; text-align: left; padding: 2px 10px;"]]
+As you might have guessed, you'll be dealing with a lot of different types of AI around here; you're encouraged to read the following- //*yawn*//- AI Classification Guide.
+[[/div]]
+[[div]]
+[[image mnemchat_talking.png width="100px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-right: 10px; padding-left: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff9900; font-family: "Microsoft Sans Serif"; border: #ff6f00 4px solid; background:#ff9900; text-align: left; padding: 2px 10px;"]]
+Did you really just //pretend// to yawn for effect?
+[[/div]]
+[[div]]
+[[image glachat.png width="100px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff00c4; font-family: "Microsoft Sans Serif"; border: #bf207f 4px solid; background:#ff00c4; text-align: left; padding: 2px 10px;"]]
+Maybe I did. Did you really just interrupt my rad introduction?
+[[/div]]
+[[div]]
+[[image mnemchat_smile.png width="100px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-right: 10px; padding-left: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff9900; font-family: "Microsoft Sans Serif"; border: #ff6f00 4px solid; background:#ff9900; text-align: left; padding: 2px 10px;"]]
+...proceed.
+[[/div]]
+[[div]]
+[[image glachat_annoyed.png width="100px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff00c4; font-family: "Microsoft Sans Serif"; border: #bf207f 4px solid; background:#ff00c4; text-align: left; padding: 2px 10px;"]]
+Anyways. This stuff bores me, but, considering you applied for this job, you're a huge nerd. So, enjoy the guide.
+[[/div]]
+[[div]]
+[[image mnemchat.png width="100px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+----
+[[div style="display: block; border: dashed 1px #444444; background: #F5F5F5; margin-left: auto; margin-right: auto; width: auto; padding: 20px;"]]
+[[size 200%]]__**AI CLASSIFICATION GUIDE**__[[/size]]
+
+[[size 120%]]**Artificial Intelligence Applications Division**[[/size]]
+[[size 120%]]Site-15[[/size]]
+
+**DATE:** 1996/04/16
+**WRITTEN BY:** Director Nathan Valis, Site-15
+
+**NOTE:** As technology progresses, the boundaries of normalcy expand; as [*http://scp-wiki.wikidot.com/scp-5470 the new millenium] approaches, what was considered anomalous yesterday may be decommissioned today. On the other hand, technological progress allows informational anomalies to become more and more interconnected, accessible - and dangerous. As such, the following is an all-encompassing guide for any computer program which can be considered intelligent, and is not limited to those which are presently considered to be anomalous.
+----
+++++ __FUNCTIONALITY__
+* The types of functions an AI is able to perform.
+
+||~ CLASS ||~ DESCRIPTION ||
+|| Class-I: Reactive || The most rudimentary form of Artificial Intelligence; is able to react to sensory data. Does not possess memory from which to learn. ||
+|| Class-II: Adaptive || Possesses memory and is able to learn from previous experiences in order to improve. ||
+|| Class-III: Cognizant || Is able to understand, interpret, and predict the behaviors of other intelligent entities. ||
+|| Class-IV: Sentient || Possesses self-awareness and is able to understand itself in relation to its environment. ||
+|| Class-V: Sapient || Possesses advanced awareness of the relationships between itself and other intelligent entities; often possesses 'human-like' attributes. ||
+@@ @@
+++++ __INTELLIGENCE__
+* An AI's capacity to learn, adapt, and improve.
+
+||~ CLASS ||~ DESCRIPTION ||
+|| Narrow Intelligence || Able to perform a single task or category of tasks. ||
+|| General Intelligence || Able to perform new tasks which it was not programmed to solve. ||
+|| Superintelligence || Able to perform tasks which humans are not able to perform, or at a level which humans are not capable of. ||
+@@ @@
+++++ __ALIGNMENT__
+* The extent to which an AI's goals are aligned with humanity's goals.
+
+||~ CLASS ||~ DESCRIPTION ||
+|| Positive-Aligned || Utility function aligned with the interests of humanity and/or the Foundation. ||
+|| Neutral-Aligned || Utility function does not align with the interests of humanity and/or the Foundation, but is not actively detrimental. ||
+|| Negative-Aligned || Utility function aligned against the interests of humanity and/or the Foundation; is actively detrimental and/or malicious. ||
+----
+@@ @@
+The following is a list of Artificially Intelligent Conscripts (.aic's) employed by the Foundation.
+
+||~ DESIGNATION ||~ CLASSIFICATION ||~ DESCRIPTION ||
+|| 8B-A1.aic ("8-Ball") || Class-IV Positive-Aligned Narrow Intelligence (GenI) || Originally designed in 1978 for message encryption, replacing the outdated Enigmagraph system. Decommissioned in 1993, with exceptions for field activity. ||
+|| Glacon.aic ("Glacon") || Class-IV Positive-Aligned General Intelligence (GenII) || Began development in 1987 as a replacement for 8B-A1.aic, and was eventually released in 1993. Glacon.aic demonstrates several high-functioning logical processes and advanced learning capabilities. ||
+|| mnemosyne.aic ("Mnemosyne") || Class-V Positive-Aligned General Intelligence (GenII+) || Designed in 1996 in conjunction with the Counterconceptual Division to specialize in antimemetic deconstruction and decryption; mnemosyne.aic was developed in response to containment challenges posed by SCP-5241-A. ||
+@@ @@
+[[include component:image-block name=mnemosyne.png |caption=mnemosyne.aic |width=170px |align=right]]
+[[include component:image-block name=8Ball.png |caption=8B-A1.aic |width=170px |align=left]]
+[[include component:image-block name=Glacon.png |caption=Glacon.aic |width=170px |align=center]]
+[[/div]]
+----
+[[include :scp-wiki:component:earthworm
+| first=true | last=false | hub=yes
+| previous-url=/ | previous-title=
+| next-url=/scp-5241 | next-title=THAT ALIEN MESSAGE
+| hub-url=/aiad-homescreen | hub-title=AIAD HUB
+]]
+----
+[[module CSS]]
+#page-title {
+display: none;
+}
+[[/module]]

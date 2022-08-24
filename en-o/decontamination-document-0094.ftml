@@ -1,0 +1,80 @@
+[[include component:info-ayers
+|lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=decontamination-document-0094[!-- url of your page on the scp wiki --]
+|authorPage=http://www.scp-wiki.net/dr-cimmerian-s-personnel-file[!-- link to your author page --]
+|comments= Back to the first page: http://www.scp-wiki.net/scp-2413
+]]
+[[include theme:black-highlighter-theme]]
+[[module CSS]]
+sup { 
+vertical-align: top; position: relative; top: -0.5em; 
+}
+:root{ 
+--cutColour: #fafafa;
+--barColour: #590505;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;}
+
+.translation_block{
+display:none;}
+[[/module]]
+[[module css]]
+#side-bar {
+    background: rgb(var(--white-monochrome));
+}
+
+#side-bar div.menu-item a, #side-bar div.menu-item .text {
+    color: rgb(var(--black-monochrome));
+}
+
+#side-bar>div:nth-child(5) {
+    background-color: rgba(var(--dark-accent),0.25)!important;
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+++ Please view the following image until auditory hallucinations cease. 
+
+[[=image https://scp-wiki.wikidot.com/local--files/decontamination-document-0094/Apophysis-100303-104.jpg style="width: 99%; border: solid 1px #000000; padding: 1px"]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+
+**Thank you for completing the Cognitohazard Containment Procedure. This process must be completed again if accessing SCP-2413's documentation at a later date.**
+
+[[html]]
+<audio autoplay>
+  <source src="https://scp-wiki.wdfiles.com/local--files/decontamination-document-0094/newbackandforth.mp3" type="audio/mpeg">
+</audio>
+
+<html>
+<head>
+<script type="text/javascript">
+
+function checkRedirect()
+{
+    if (parseInt(sessionStorage.read) != 1)
+    {
+        window.top.location = "http://www.scp-wiki.net/scp-2413";
+    }
+}
+</script>
+</head>
+<body onLoad="checkRedirect();">
+</body>
+</html>
+[[/html]]

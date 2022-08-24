@@ -1,0 +1,78 @@
+[[include component:info-ayers
+|lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=scp-245-1-a[!-- url of your page on the scp wiki --]
+|authorPage=http://www.scp-wiki.net/dr-cimmerian-s-personnel-file[!-- link to your author page --]
+|comments= Go back to the original page for more information: http://www.scp-wiki.net/scp-245
+]]
+[[include theme:black-highlighter-theme]]
+[[module CSS]]
+sup { 
+vertical-align: top; position: relative; top: -0.5em; 
+}
+:root{ 
+--cutColour: #fafafa;
+--barColour: #590505;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;}
+
+.translation_block{
+display:none;}
+[[/module]]
+[[module css]]
+#side-bar {
+    background: rgb(var(--white-monochrome));
+}
+
+#side-bar div.menu-item a, #side-bar div.menu-item .text {
+    color: rgb(var(--black-monochrome));
+}
+
+#side-bar>div:nth-child(5) {
+    background-color: rgba(var(--dark-accent),0.25)!important;
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
++ Warning. This file may only be accessed by authorized personnel.
+
+++ **File Information for SCP-RPG: "The Lone and Level Sands"**
+
+> File Name: SCP-245-1.zip
+> File Size: <50 mb
+> Master Password: largecosmiclouse
+
+++ Basic Plot
+
+[[include component:image-block name=startingmap.png|caption= Originally loaded sample map utilized in SCP-245-1's creation. Any modifications to this map are to be reported to the SCP-245 project head.]]
+
+SCP-245-1 is simplistic, owing to the constraints of time and resources for the SCP-245 project. The storyline follows a young protagonist who is inspired to take up the sword and shield of his grandmother to protect his town from attacks by sand golems. Upon conclusion of this quest, the protagonist will be required to go on a quest to recover the daughter of the king who has gone missing. 
+
+This quest involves several side quests which must be completed to find the bandit camp, and the bandit captain who is believed to have abducted princess. Bandit antagonist is a decoy, as the princess left with him willingly. Primary antagonist (Ozymandius) then arrives and thanks the protagonist for furthering his goals through the completion of the side quests.
+
+King directs protagonist to a pyramid where a final confrontation with the antagonist occurs. Antagonist completes a ritual at the last moment and the protagonist must battle antagonist. Once this battle is completed, the credits run. Following the credits a full description of SCP-245 will be displayed.
+
+[[html]]
+<html>
+<head>
+<script type="text/javascript">
+
+function checkRedirect()
+{
+    if (parseInt(sessionStorage.read) != 1)
+    {
+        window.top.location = "http://www.scp-wiki.net/scp-245";
+    }
+}
+</script>
+</head>
+<body onLoad="checkRedirect();">
+</body>
+</html>
+[[/html]]

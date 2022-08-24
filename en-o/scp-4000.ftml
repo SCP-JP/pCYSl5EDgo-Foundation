@@ -1,0 +1,36 @@
+##firebrick|**REQUEST=**"4000_Additional_Documentation"##
+##firebrick|**...**##
+##firebrick|**...**##
+##firebrick|**...**##
+[[size 125%]]##firebrick|**[ACCESS: DENIED]**##[[/size]]
+[[module Redirect destination="http://www.scp-wiki.net/taboo"]]
+##firebrick|**...**##
+##firebrick|**...**##
+##firebrick|**...**##
+##firebrick|**REQUEST=**"4000_Additional_Documentation"##
+##firebrick|**CREDENTIALS=**"SCP-4000/noredirect/true"##
+##firebrick|**...**##
+##firebrick|**...**##
+##firebrick|**...**##
+[[size 125%]]##firebrick|**[ACCESS: GRANTED]**##[[/size]]
+[[size 110%]]##firebrick|**[Clever, clever.]**##[[/size]]
+
+[!--
+Fragments:
+http://scp-wiki.wikidot.com/fragment:scp-4000-to-name-a-baby
+--]
+
+[[module ListPages category="fragment" parent="." order="random" limit="1"]]
+[[div class="taleBlock"]]
+%%content%%
+[[/div]]
+[[/module]]
+
+[[module CSS]]
+
+.taleBlock {
+    margin: 0px 80px 0px 50px;
+    padding: 10px 20px 10px 20px;
+    background-color: #f2f2f2;
+}
+[[/module]]

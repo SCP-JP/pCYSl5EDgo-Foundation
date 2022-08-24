@@ -1,0 +1,141 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+
+[[include :scp-wiki:component:rso]]
+
+[[module css]]
+/* anendlessusername's invaluable correction of the ACS octagon! */
+#page-content .quadrants > div {
+    top: 2.25%;
+    left: 18.5%;
+}
+[[/module]]
+
+[[module CSS]]
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/secure-facility-dossier-site-120/ontologonew.png");
+    --header-title: "Site-120";
+    --header-subtitle: "Fighting Fire With Fire";
+[[/module]]
+
+-----
+[[include component:info-ayers
+|lang=en
+|page=scp-0110-j
+|authorPage=http://www.scp-wiki.wikidot.com/ralliston-s-authorpage
+|comments=The definitions for all of the object classes come from [http://www.scpwiki.com/esoteric-classes-complete-list A Comprehensive List of Esoteric Classes] written by Nagiros per the author's permit. The warning header is an edited version of the one present in [[[SCP-5391]]] written by J Dune. The comment code comes from [[[SCP-3309]]] written by LtFlops and FamtomGuy.
+]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div style="background: url(http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png) bottom center no-repeat; text-align: center; width: 600px; margin: 0 auto; font-size: 20px; padding: 0px;"]]
+@@ @@
+[[=]]
+++* ##black|EMERGENCY NOTICE FROM THE O5 COUNCIL##
+##black|In light of recent discovery the following file's clearance requirement has been lowered from Level-5/0110-J to Level-1/0110-J. It is our belief that the information contained in this file and its ability to be edited by all personnel might, in fact, help all of us. For the safety of our organization and the survival of humanity; all Foundation personnel are required to read this document.
+**Secure, Contain, Protect.** ##
+[[/=]]
+= **##black|0110-J##**
+[[/div]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 0110-J
+|clearance= 1
+|container-class= esoteric
+|secondary-class= thaumiel
+|secondary-icon= http://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/thaumiel-icon.svg
+|disruption-class= dark
+|risk-class= notice
+]]
+-----
+**Special Containment Procedures:** In order to postpone SCP-0110-PRIME-J for as long as possible, the following file is to be available to edit by all personnel, regardless of clearance.[[footnote]] As long as they adhere to the purpose of such an allowance. [[/footnote]] As long as such a permit is maintained and edits are made regularly, SCP-0110-PRIME-J poses almost no threat to humanity.
+
+**Description:** SCP-0110-J is an anomalous relationship between the number of Object Classes within the SCP Foundation's database and the number of months until an inevitable ÓK-Class "Universal Collapse" Scenario.[[footnote]] Hereby referred to as SCP-0110-PRIME-J. [[/footnote]] The event has been noted to inevitably occur on 09/09/2030 within all observable multiverses.
+
+However, it was discovered through extrauniversal sources that when a new logical and usable Object Class is introduced into the database, the event is postponed by exactly one month. The mechanism upon which the anomaly functions is unknown.
+
+**Addendum 0110-1-J:** The following is a table of all proposed Object Classes in relation to stopping SCP-0110-PRIME-J.
+
+||~ Attempt Number ||~ Name of the Class ||~ Definition ||~ Personnel Suggesting ||~ Database Accaptence ||
+|| #1 || Anomalous || Item is so simplistic that it is not assigned an official database file || D. Asheworth ||  ##green|**Accepted**## ||
+|| #2 || Archon || Item is able to be contained but ought not to be || J. Rivera ||  ##green|**Accepted**## ||
+|| #3 || Ticonderoga || Item cannot be contained but does not need to be contained || J. Micheals ||  ##green|**Accepted**## ||
+|| #4 || Keeter || Item is deemed more difficult to contain that a standard Keter object || E. MacCarthy Jr.[[footnote]] Comment: Technically, we can also make typos in already existing classes and call them "upgraded" versions of the old ones. [[/footnote]] ||  ##red|**Denied**##[[footnote]] Comment: We understand what you're trying to do here, Ethan, and we appreciate the good will, but unfortunately it doesn't work. [[/footnote]] ||
+||||||||||= [40 lines omitted ]||
+|| #45 || Yesod || Item has been integrated into the Foundation's command structure || D. Asheworth ||  ##green|**Accepted**## ||
+|| #46 || Chhokmah || [REDACTER PER ORDER OF O5-1] || D. Asheworth ||  ##green|**Accepted**## ||
+
+++ Please submit your proposals here:
+[[html]]
+
+  <div><textarea rows="10" style="width:95%;" id="fakepost" onkeypress="description()" wrap="hard">
+    </textarea>
+  </div>
+
+  <div class="buttons alignleft">
+    <input class="btn" value="Cancel" type="button">
+    <input class="btn" value="Preview" type="button">
+    <input class="btn" value="Submit" type="button">
+  </div>
+</div>
+[[/html]]
+-----
+@@ @@
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+++++ NOTICE FROM THE FOUNDATION RECORDS AND INFORMATION SECURITY ADMINISTRATION
+What the fuck is wrong with you
+[[/=]]
+I'm away for a month-long vacation -- I should also mention it's the first in literally decades -- and I come up back to forty-five new Object Classes. Are any of you even aware of how much paperwork that creates? Hell, even one new Object Class creates weeks of new documents to fill, but forty-five? Most of them aren't even usable! I don’t care there’s a -K goddamnit, you guys can literally remake the universe, so find a way around that shit. You are literally just clogging the database for the purpose of sounding ~cool~ or your documentation getting more attention due to a word at the top of it. Yesod is practically a Thaumiel, except with less uses! And what the hell even is a Chhokmah?
+[[=]]
+-- Maria Jones, Director, RAISA
+[[/=]]
+[[/div]]
+@@ @@
+
+[[div style="display: block; border : dashed 1px #444444 ; background :#f5f5f5; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+
+**Re: What the fuck is wrong with you**
+
+Chhokmah balls
+
+[[/div]]
+@@ @@
+
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+**Re: Re: What the fuck is wrong with you**
+[[=]]
+That’s not funny. What the hell is Maksur then?
+[[/=]]
+[[/div]]
+
+@@ @@
+[[div style="display: block; border : dashed 1px #444444 ; background :#f5f5f5; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+**Re: Re: Re: What the fuck is wrong with you**
+
+Maksur to Chhokmah balls lmao
+[[/div]]
+
+@@ @@
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+You are all fired.
+[[/=]]
+[[/div]]
+
+[[footnoteblock]]
+-----
+[[include component:wikimodule |ratings= --]]]
+-----
+[[=]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** ontologonew
+> **Author:** [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [http://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne link]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]
