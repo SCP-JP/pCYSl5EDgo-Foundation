@@ -1,0 +1,266 @@
+[[module CSS]]
+/* YUI-TABS */
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+    background-image: url(http://www.scp-wiki.net/local--files/team-bird-art-page/birdtabs.png);
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
+.yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
+    background-image: url(http://www.scp-wiki.net/local--files/team-bird-art-page/birdtabs.png); /* selected tab background */
+}
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus {
+    background-image: url(http://www.scp-wiki.net/local--files/team-bird-art-page/birdtabs.png);
+}
+[[/module]]
+
+[[div class="bg-gradiant"]]
+
+[[include component:info-ayers
+|lang=jp
+|page=http://scp-jp.wikidot.com/bird
+|authorPage=http://scp-jp.wikidot.com/bird
+|comments=Team Bird Art Page
+
+アートページ [[*user Karakatt]].
+
+
+[[*user stormbreath]]への大きな感謝驚くべきタブ修正。彼をチェックしてください！
+
+チームバードは**シリーズ**です [[*user not_a_seagull]], [[*user Lt Flops]], [[*user Ayers]], and [[*user Quantum Physician]], ** 2018年の終末コンテスト**のために作成されました。
+
+ [http://scp-jp.wikidot.com/bird 
+ここでチームバードを読んでください！]
+]]
+
+[[module CSS]]
+ body{
+     --barColour: #b98f0e;
+     color: rgb(12, 12, 12);
+     word-break: unset;
+}
+ .info-container .collapsible-block-unfolded{ background: #fff; }
+ .translation_block, .u-faq, #u-author_block{ display:none; }
+
+/* HEADER */
+ #header h1 a{
+     color: transparent;
+     font-family: 'Verdana', Arial, sans-serif;
+     text-shadow: none;
+}
+ #header h1 a::before{
+     content: "鳥類部門";
+     color: #eee;
+     text-shadow: 3px 3px 5px rgb(12, 12, 12);
+     letter-spacing: -0.02em;
+}
+ #header h2 span{
+     color: transparent;
+     text-shadow: none;
+}
+ #header h2 span::before{
+     '我らの巣を取り戻すまで';
+     color: #eee;
+     text-shadow: 1px 1px 1px rgba(12, 12, 12, .8);
+}
+
+/* RATE MODULE */
+ div.page-rate-widget-box .rate-points{
+     background-color: #b98f0e;
+     border: solid 1px #b98f0e;
+}
+ .page-rate-widget-box .rateup,
+ .page-rate-widget-box .ratedown{
+     background-color: #fffff0;
+     border-top: solid 1px #b98f0e;
+     border-bottom: solid 1px #b98f0e;
+}
+ .page-rate-widget-box .rateup a,
+ .page-rate-widget-box .ratedown a{
+     color: #b98f0e;
+}
+ .page-rate-widget-box .rateup a:hover,
+ .page-rate-widget-box .ratedown a:hover{
+     background: #b98f0e;
+}
+ .page-rate-widget-box .cancel{
+     background-color: #b98f0e;
+     border: solid 1px #b98f0e;
+}
+ .page-rate-widget-box .cancel a{
+     color: #664d00;
+}
+ .page-rate-widget-box .cancel a:hover{
+     background: #b98f0e;
+     color: #fffff0;
+}
+
+/* DIV BLOCKS */
+ .header-image{
+     border: 3px solid rgb(12, 12, 12); 
+     background: #fff;
+}
+ .showcase{
+     border: 3px solid rgb(12, 12, 12); 
+     background: #fff; 
+     padding: 0 .5em;
+}
+ .showcase hr{ background: #ffc818; height: 2px; }
+
+/* FORMATTING */
+ .bg-gradiant{
+     background-color: #fff; 
+     background: linear-gradient(to bottom, #f7f7f7, #ffc818, #ffc818, #fff);
+     padding: 0 2%; 
+}
+ hr{
+     display: block;
+     height: 1px;
+     margin: 1em 0;
+}
+ h1,h2,h3,h4{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+     color: rgb(12, 12, 12);
+     word-break: unset;
+}
+
+/* TABLES */
+ blockquote,
+ .article blockquote,
+ .continued blockquote{
+     padding: 0;
+     background: #fff;
+     border: solid 1px #ffc818;
+}
+ .article table.wiki-content-table,
+ .continued table.wiki-content-table{
+     width: 100%;
+     margin: 0 0 -1px;
+}
+ .article table.wiki-content-table th,
+ .continued table.wiki-content-table th{
+     padding: 0;
+     border: solid 1px #ffc818;
+     font-weight: normal;
+}
+ .article table.wiki-content-table td,
+ .continued table.wiki-content-table td{
+     border: solid 1px #ffc818;
+     border-right: 0;
+}
+ .continued table.wiki-content-table td{
+     border-top: 0;
+}
+[[/module]]
+
+@@ @@
+[[>]]
+[[module rate]]
+[[/>]]
+@@ @@
+
+[[tabview]]
+[[tab パート1：終末の日]]
+
+[[include component:image-block
+name=3662birbKarakatt|
+align=center|
+caption= ノウアスフィアに入る (SCP-3662) [[*user Karakatt]]|
+width=800px ]]
+
+[[/tab]]
+
+[[tab パート2：渡り鳥]]
+
+[[include component:image-block
+name=ee3570Karakatt|
+align=center|
+caption= EE3570 By [[*user Karakatt]]|
+width=800px ]]
+
+@@ @@
+
+[[include component:image-block
+name=SCPEE3570Karakatt|
+align=center|
+caption= さらに別のEE3570 [[*user Karakatt]]|
+width=800px ]]
+
+[[/tab]]
+
+[[tab 間劇]]
+
+[[include component:image-block
+name=IrisKarakatt|
+align=center|
+caption= 財団の前のアイリス [[*user Karakatt]]|
+width=800px ]]
+
+[[/tab]]
+
+[[tab シーズン2：ショック&テラー]]
+
+[[/tab]]
+
+[[tab 鳥]]
+
+[[include component:image-block
+name=HoygullKarakatt|
+align=center|
+caption= ホイガル博士 [[*user Karakatt]]|
+width=800px ]]
+
+[[/tab]]
+
+[[tab エクストラ]]
+
+[[size larger]] **このタブは、まだチームバードであるが、SCP、テイルズ、またはハブ上の他のものからのものではないアートのためのものです。** [[/size]]
+
+[[include component:image-block
+name=HoygulldeadKarakatt|
+align=center|
+caption= ホイガルズの死\ [[*user Karakatt]]|
+width=800px ]]
+
+[[/tab]]
+
+[[tab このページにアートを追加してみませんか？]]
+
+このページに追加するには、Karakatを介してこのページに追加 [http://www.wikidot.com/user:info/karakatt Wikidot,] [https://discord.com/ Discord (Karakatt#9875),] もしくは [http://www.scp-wiki.net/chat-guide IRC (Karakatt/Karakatt132).] でDMを送ってください。アートを追加するには:
+
+* 自身のアートであることを証明できなければなりません、 
+
+* Imgurのリンク、もしくはオリジナルの.png/.jpgを渡してください、
+
+* どのシーン、SCP、もしくはTaleのアートかを伝えてください、 
+
+* どのタブに入れたいか言ってください、
+
+* Wikidotのユーザー名を教えてください？
+
+
+ページにアートを送信するには、上記のすべてが必要です。
+
+**Karaは、理由を問わずアートを拒否する権利を留保します。**
+
+翻訳エラーをお詫び申し上げます。私はネイティブスピーカーではありません。どうもありがとうございます！
+
+
+[[/tab]]
+
+[[tab 現在のアーティスト]]
+
+||~ ユーザー ||~ アートワークの掲載場所||~ アートページ/ Deviantart||~ 著者ページ||
+|| [[*user Karakatt]] ||~ パート1：終末の日、パート2：渡り鳥、間劇、鳥、および追加 ||~ [http://www.scp-wiki.net/kara-s-page-of-art アートページ（英語）,] [https://www.deviantart.com/karalinekatt 逸脱アート（英語）]  ||[http://www.scp-wiki.net/karas-corner-of-doom 私の著者ページ（英語）] ||
+
+[[/tab]]
+[[/tabview]]
+
+@@ @@
+
+[[/div]]

@@ -1,0 +1,201 @@
+[[iftags -コンポーネント・バックエンド]]
+[[module css]]
+div.warning-box {
+    position: relative;
+    height: 15rem;
+}
+
+div.warning-box span {
+    word-break: break-word;
+}
+
+div.warning-box div.warning-box-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+}
+
+div.warning-box div.text-top,
+div.warning-box div.text-bottom,
+div.warning-box div.text-number {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+div.warning-box div.text-top {
+    font-size: 2em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+    font-weight: 900;
+}
+
+div.warning-box div.text-bottom {
+    font-size: 1.25em;
+    line-height: 1;
+    margin: 0 auto;
+}
+
+div.warning-box div.text-number {
+    font-size: 1.25em;
+    position: absolute;
+    bottom: 2em;
+}
+
+div.warning-box div.image-bg {
+    position: absolute;
+    background: url(http://www.scp-wiki.net/local--files/component:object-warning-box-source/scp-logo.svg);
+    background: url({$bg-image});
+    -webkit-background-size: contain;
+            background-size: contain;
+    -webkit-background-size: {$bg-size};
+            background-size: {$bg-size};
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 0;
+    width: 100%;
+    height: 15rem;
+    z-index: 0;
+    opacity: {$bg-opacity};
+}
+
+@media only screen and (max-width: 768px) {
+    div.warning-box div.text-top {
+        font-size: 1.75em;
+    }
+    div.warning-box div.text-bottom {
+        font-size: 1.15em;
+    }
+}
+[[/module]]
+
+[[div_ class="warning-box"]]
+[[div_ class="warning-box-container"]]
+[[div_ class="text-top"]]
+[[span]]{$text-top}[[/span]]
+[[/div]]
+[[div_ class="text-bottom"]]
+[[span]]{$text-bottom}[[/span]]
+[[/div]]
+[[/div]]
+[[div_ class="text-number"]]
+[[span]]{$object-number}[[/span]]
+[[/div]]
+[[div_ class="image-bg"]]
+[[/div]]
+[[/div]]
+[[/iftags]]
+
+[[iftags +コンポーネント・バックエンド]]
+[[code]]
+[[module css]]
+div.warning-box {
+    position: relative;
+    height: 15rem;
+}
+
+div.warning-box span {
+    word-break: break-word;
+}
+
+div.warning-box div.warning-box-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+}
+
+div.warning-box div.text-top,
+div.warning-box div.text-bottom,
+div.warning-box div.text-number {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+div.warning-box div.text-top {
+    font-size: 2em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+    font-weight: 900;
+}
+
+div.warning-box div.text-bottom {
+    font-size: 1.25em;
+    line-height: 1;
+    margin: 0 auto;
+}
+
+div.warning-box div.text-number {
+    font-size: 1.25em;
+    position: absolute;
+    bottom: 2em;
+}
+
+div.warning-box div.image-bg {
+    position: absolute;
+    background: url(http://www.scp-wiki.net/local--files/component:object-warning-box-source/scp-logo.svg;
+    background: url({$bg-image});
+    -webkit-background-size: contain;
+            background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 0;
+    width: 100%;
+    height: 15rem;
+    z-index: 0;
+    opacity: {$bg-opacity};
+}
+
+@media only screen and (max-width: 768px) {
+    div.warning-box div.text-top {
+        font-size: 1.75em;
+    }
+    div.warning-box div.text-bottom {
+        font-size: 1.15em;
+    }
+}
+[[/module]]
+
+[[div_ class="warning-box"]]
+[[div_ class="warning-box-container"]]
+[[div_ class="text-top"]]
+[[span]]{$text-top}[[/span]]
+[[/div]]
+[[div_ class="text-bottom"]]
+[[span]]{$text-bottom}[[/span]]
+[[/div]]
+[[/div]]
+[[div_ class="text-number"]]
+[[span]]{$object-number}[[/span]]
+[[/div]]
+[[div_ class="image-bg"]]
+[[/div]]
+[[/div]]
+[[/code]]
+[[/iftags]]

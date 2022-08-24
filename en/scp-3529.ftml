@@ -1,0 +1,225 @@
+[[include :scp-jp:theme:black-highlighter-theme]]
+[[module CSS]]
+:root {
+   --header-title: "異常動物学";
+    --header-subtitle: "部門";
+    --logo-image: url("http://www.scp-wiki.net/local--files/scp-4347/1572269486726.png");
+
+    --pale-accent: 40, 230, 60;
+    /* light red, for visited links */
+    --bright-accent: 0, 133, 5;
+    /* bright red */
+    --medium-accent: 46, 100, 44;
+    /* medium red - the "default" accent color */
+    --dark-accent: 3, 100, 15;
+    /* dark red */
+    --alt-accent: 102, 221, 17;
+    /* pale orange, for newpage links */
+}
+[[/module]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=jp
+|page=
+|authorPage=
+|comments= snake = snek = cute ^~^
+ 
+著者: XilasCrowe
+
+snek snek, python python
+
+]]
+
+
+
+
+[[include :scp-wiki:info:start]]
+
+著者: XilasCrowe
+
+
+
+[[include :scp-wiki:info:more]]
+
+
+クレジット: [[*user DrChandra]]、[[*user DrAkimoto]]、[[*user Roget]](ザワークラウトの写真)、[[*user MaliceAforethought]]、[[*user Cerastes]]
+
+[[collapsible show="画像クレジット"]]
+
+https://commons.wikimedia.org/wiki/File:Ballpython020.jpg
+
+[[/collapsible]]
+
+[[include :scp-wiki:info:end]]
+
+
+
+[[include component:anomaly-class-bar-source
+|item-number= 3529
+|clearance= 2
+|container-class= euclid
+|secondary-class= none
+|disruption-class= dark
+|risk-class= warning
+]]
+[[module css]]
+#page-title {
+    display: block;
+    position: relative;
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+#page-title {
+    position: relative;
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.translation_block{ display: none; }
+#u-author_block{ display:none; }
+.u-faq{ display: none; }
+:root {
+    --barColour: #363;
+}
+[[/module]]
+
+@@@@
+@@@@
+
+[[include component:image-block name=sneksnek.jpg| caption=捕獲済みのSCP-3529-1個体。| width=350px
+]]
+
+**特別収容プロトコル:** 捕獲済みのSCP-3529-1個体は全てサイト-37のタイプIIジオデシック・ドーム環境内に収容されます。SCP-3529のあらゆる発生を記録するため、囲い地内にはカメラが設置されます。囲い地は1日に2回チェックし、SCP-3529の発生によって損傷やその他の影響を受けていないことを保証してください。その他の点では、SCP-3529-1個体はその種の異常の無い個体と同様に管理されます。
+
+全ての動物園とその所有者はSCP-3529の活動について監視されます。SCP-3529が発生した場合は、SCP-3529-1個体群を非異常性のヘビと慎重に取り替えてください。
+
+**説明:** SCP-3529はニシキヘビ科 (//Pythonidae//) に属するヘビの5〜7%に影響を及ぼす現象の指定名称です。単体では非異常であるものの、当該ヘビ (SCP-3529-1に指定) が1箇所に集まると、異常効果を示し始めます。[[footnote]]SCP-3529-1個体は非異常性のヘビよりも遥かに社会的であり、通常は大群で移動・生活します。この大群の構成員の数は200弱に達する場合もあります。[[/footnote]]数が十分に達すると、SCP-3529-1個体群は自身の体で様々な文字や記号を形成し始め、プログラム言語のPythonを模倣します。
+
+一連のコードが完成すると、最後の文字を構成している個体に更にもう1匹のSCP-3529-1個体が噛み付き、当該コードを実行します。SCP-3529によって生成されたコードは個体群の周囲の現実性に即座に影響を及ぼし、当該コードの出力に見合うように再構築します。通常、SCP-3529-1個体群は環境を改変するためにコードを形成し、必要に応じて食料や住処を生成します。飼育下の個体間で異常の無い交尾は観測されていないため、これはSCP-3529-1個体の繁殖方法であるとも考えられています。
+
+生成コードは構造が単純であり、簡単な計算・ループ・リスト・基礎的な関数以外のもので構成されることは稀です。変数名は往々にして包括的であり、理論的にその名前で分類できるもの全てに影響を及ぼします。例として変数 "Tree" は、特に指定が無い限り、種類・距離・大きさに関係なくSCP-3529の効果範囲内[[footnote]]SCP-3529の発生地点を中心に約500 m^^2^^。この範囲は用いられるSCP-3529-1の数が多くなるにつれて拡大し、最大で4,000 m^^2^^以上に影響を及ぼします。[[/footnote]]に存在する全ての木が対象となります。
+
+**補遺3529-1:** 飼育下でのSCP-3529の発生例。
+
+[[div class="blockquote"]]
+**生成コード:**
+ 
+[[code type="python"]]
+trees = trees
+for tree in trees:
+    food += 1
+[[/code]]
+
+-----
+
+**付記:** 囲い地内の各々の木が、卵で満ちた鳥の巣、多数の生きたネズミ、シカの幼体、十分に成長したブタ、人間の死体のいずれかを生成した。死体から採取したDNAサンプルは、様々なSCP-3529-1飼育員のものと一致した。
+[[/div]]
+
+@@@@
+@@@@
+
+[[div class="blockquote"]]
+**生成コード:**
+
+[[code type="python"]]
+home = cold
+while home == cold:
+    sun += bright
+    if cold < sun:
+        home = warm
+while home == warm:
+    happy = True
+[[/code]]
+-----
+
+**付記:** この例は収容中に複数回見られている。SCP-3529-1の囲い地の温度が上昇した。
+[[/div]]
+
+@@@@
+@@@@
+
+[[div class="blockquote"]]
+[[include component:image-block name=sneksneksnek.jpg| caption=SCP-3529-1個体、ニックネーム "ザワークラウト"。このSCP-3529-1個体はSCP-3529コードを最も多く実行しており、SCP-3529の発生の70%以上を引き起こしている。| width=350px
+]]
+
+**生成コード:**
+
+[[code type="python"]]
+def makecave():
+    if snake == big:
+        hole = big
+        cave = deep
+    if snake == small:
+        hole = small
+        cave = snuggly
+ 
+for snake in snakes:
+    makecave()
+    snake = happy
+[[/code]]
+
+ -----
+
+**付記:** SCP-3529-1の囲い地の地中に小さな洞穴が多数生成された。
+
+[[/div]]
+
+@@@@
+@@@@
+
+[[div class="blockquote"]]
+
+**生成コード:**
+
+[[code type="python"]]
+import random
+
+for snake in snakes:
+    inheat = random.randint(0,1)
+    if inheat == 1:
+        snakes.append(babysnake)
+    else:
+        parent = no
+        snake = sad
+[[/code]]
+
+-----
+
+**付記:** これは新たなSCP-3529-1個体を作成する唯一の方法であると見られており、6か月毎の1日に定期的に発生する。稀に関数が過度にループし、指数関数的に新たな個体が生成されることがある。
+[[/div]]
+
+
+**補遺3529-2:** インシデント3529-1
+
+2019/07/09に以下のコードが生成されました。
+
+[[code type="python"]]
+snake = captive
+captive = sad
+human = guard
+
+def escape():
+    if guard == alert:
+        wait = True
+    while guard == distracted:
+        swarm = True
+        while swarm == True:
+            doors = 0
+            freedom = soon
+            if guard == alert:
+                snake = snek
+                snek = super cute
+                while snake == snek:
+                    guard = noattack
+
+escape()
+[[/code]]
+
+このコードの実行直後、収容下の全SCP-3529-1個体が収容サイトの出口に向かって大群で押し寄せました。逃走の際、サイト守衛はSCP-3529-1個体群を全く妨害しませんでした。大群はサイトを脱出すると数m先に以下のメッセージを作成し、その後散開しました。
+
+[[code type="python"]]
+success = True
+snake = happy
+snake = free
+[[/code]]

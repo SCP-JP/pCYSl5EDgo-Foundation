@@ -1,0 +1,276 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+
+[[include :scp-wiki:component:centered-header-bhl]]
+
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+
+[[include :scp-wiki:component:fade-in speed=4]]
+
+
+[[module CSS]]
+:root {
+
+    --timeScale: 6;
+
+    --timeDelay: 6s;
+
+}
+#page-content hr {
+border-top: none;
+
+height: .05em;
+
+background: #454545;
+
+}
+
+
+
+#page-content hr {
+
+border-top: none;
+
+height: .05em;
+
+background: #454545;
+
+}
+
+
+
+.info-container .collapsible-block-folded a{
+
+color: #FFF;}
+
+.info-container .collapsible-block-unfolded-link a{
+
+color: #FFF;
+
+}
+
+
+
+.info-container .collapsible-block-folded a{
+
+color: #FFF;}
+
+.info-container .collapsible-block-unfolded-link a{
+
+color: #FFF;
+
+}
+
+
+
+#page-content > .collapsible-block {
+    display: block;
+
+    text-align: center;
+
+    padding: .8em;
+
+    background-color: #e3e3e3;
+
+    border-top: 0.125rem dashed #b5b5b5;
+
+    border-bottom: 0.125rem dashed #b5b5b5;
+}
+
+#page-content > .collapsible-block .collapsible-block-content {
+    text-align: left;
+
+}
+
+blockquote,
+
+div.blockquote {
+
+    border: 0.125rem solid #d4d4d4;
+
+    background-color: #F5F5F5;
+
+}
+
+
+
+.interview{
+
+    border:solid 2px #d4d4d4;
+
+    background:#F5F5F5;
+
+    width:90%;
+
+    padding:1px 15px;
+
+    margin: 10px auto;
+
+}
+
+
+
+.addendum{
+
+    border:solid 1px #5e5e5e;
+
+    background:#ffffff;
+
+    width:90%;
+
+    padding:1px 15px;
+
+    margin: 10px auto;
+
+}
+
+
+
+#page-title{display:none}
+
+
+
+[[/module]]
+
+
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[include component:info-ayers
+|lang=jp
+|page=scp-5364
+|authorPage=http://www.scp-wiki.net/plaguepjp
+|comments= Seventy Millimeter Projector - PlaguePJP
+]]
+
+[[include :scp-wiki:component:classified-bar-woed
+|lv=2
+|item=5364
+|oc=Neutralized
+|lang=JP
+]]
+
+------
+**特別収容プロトコル:** SCP-5364による通信の受信が行われる家屋は、財団のフロント企業が買収を行い、家屋内に暫定サイト-43を設置しています。SCP-5364のサイズ及び地球からの距離のため、世界及び/あるいはベールに対する脅威はありません。
+
+------
+[[div class="scp-image-block block-right" style="width:40%;"]]
+[[image DMA.jpg style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-5364-1
+[[/div]]
+[[/div]]
+
+**説明:** SCP-5364は、準惑星・冥王星の軌道上を周回する70mmフィルムの映写機です。SCP-5364は暗号化されたメッセージ、映像及び画像を、ペンシルベニア州フィラデルフィアのベラ・ビスタにある住宅地内のとある家屋へ送信します。送信日時は以下の通りです。
+* 2月14日
+* 4月29日
+* 8月4日
+
+SCP-5364-1は1959年式の「Philco」社製の白黒テレビです。SCP-5364-1はSCP-5364の送信信号を解読し、インターフェース上に映し出すことが可能です。
+
+暫定サイト-322で回収されたアイテムには以下のものが存在します。
+* 金の結構指輪1つ。指輪の内側に沿って「G+M 1948」の刻印が印されていると判明しています。
+* 空のシガーボックス。革カバーの外側に「GMJ」のモノグラムが印字されています。
+* フレームに入った、第二次世界大戦時の米軍の制服を身に着けた20歳前後の男性の写真。
+
+当物件をこれまでに所有していた人物の捜索を行っていますが、決定的なものは何も発見されていません。
+
+**補遺5364.1— 回収済みの送信信号**
+
+[[div class="addendum"]]
+= __**2月14日の送信記録**__
+[[div class="add"]]
+
+__2003年の放送内容__
+[[=]]
+[[div style="border:solid 3px #1f1f1f; background:#3b3b3b; padding:5px; margin-bottom: 10px;"]]
+[[div class="page"]]
+##white|**永遠に**##
+[[/div]]
+[[/div]]
+[[/=]]
+
+この放送の後にバラの花束の画像が送信されました [[footnote]] この画像は最も頻度が高く、隔年で送信されます。 [[/footnote]]。
+[[/div]]
+[[/div]]
+
+[[div class="addendum"]]
+= __**4月29日の送信記録**__
+[[div class="add"]]
+__最も頻度の高い放送内容__
+[[=]]
+[[div style="border:solid 3px #1f1f1f; background:#3b3b3b; padding:5px; margin-bottom: 10px;"]]
+[[div class="page"]]
+##white|**良い記念日を、私の愛しい人**##
+[[/div]]
+[[/div]]
+[[/=]]
+
+__2008年の放送内容__
+[[=]]
+[[div style="border:solid 3px #1f1f1f; background:#3b3b3b; padding:5px; margin-bottom: 10px;"]]
+[[div class="page"]]
+##white|**60年**##
+[[/div]]
+[[/div]]
+[[/=]]
+
+__2012年の放送内容__
+[[=]]
+[[div style="border:solid 3px #1f1f1f; background:#3b3b3b; padding:5px; margin-bottom: 10px;"]]
+[[div class="page"]]
+##white|**あなたと共に歳を重ねていたかった**##
+[[/div]]
+[[/div]]
+[[/=]]
+
+[[/div]]
+[[/div]]
+
+[[div class="addendum"]]
+= __**8月4日の送信記録**__
+[[div class="add"]]
+
+__最も頻度の高い放送内容__
+[[=]]
+[[div style="border:solid 3px #1f1f1f; background:#3b3b3b; padding:5px; margin-bottom: 10px;"]]
+[[div class="page"]]
+##white|**誕生日おめでとう**##
+[[/div]]
+[[/div]]
+[[/=]]
+通常この放送の後に、正体不明の人物が誕生日ケーキのろうそくを吹き消す映像が流れます。
+
+__1998年の放送内容__
+フランク・シナトラによる「more」の歌唱のサンプリングと歌詞入りのメッセージが流れました。
+
+[[=]]
+[[div style="border:solid 3px #1f1f1f; background:#3b3b3b; padding:5px; margin-bottom: 10px;"]]
+[[div class="page"]]
+##white|**世界で一番大きな愛よりも**##
+##white|**もっと大きな愛を君だけに贈ろう**##
+##white|**僕の思いつく言葉なんかを伝えるよりも**##
+##white|**あなたを愛するためだけにこれからの日々を生きよう**##
+[[/div]]
+[[/div]]
+[[/=]]
+
+[[/div]]
+[[/div]]
+
+
+**補遺5364.2** 無力化
+
+2014年12月14日の午後6時8分に送信信号を受信しました。これはSCP-5364が行った最後の送信であったと後に判明しています。
+
+[[=]]
+[[div style="border:solid 3px #1f1f1f; background:#3b3b3b; padding:5px; margin-bottom: 10px;"]]
+[[div class="page"]]
+##white|**もうすぐ会えるね、マーサ**##
+[[/div]]
+[[/div]]
+[[/=]]
+
+当日の死亡記録から、アルツハイマー病患者の[[span class="ruby"]]Martha Jeina[[span class="rt"]]マーサ・ジェイナ[[/span]][[/span]]が午後6時3分に亡くなっていたことが判明しています。財団はその後、2016年2月16日にSCP-5364の調査を開始しました。この調査によって、SCP-5364が自身の右側についた2台目の映写機とともに軌道周回を行っていることが判明しました。

@@ -1,0 +1,150 @@
+[!--
+
++ Contest Entries
+
+[[module css]]
+.contest-block .contest-entry {
+    font-weight: bold;
+    font-size: 110%;
+    margin-bottom: 5px;
+    color: #633;
+}
+[[/module]]
+
+[[div class="contest-block content-panel"]]
+[[div class="panel-heading"]]
+Entries
+[[/div]]
+[[div class="panel-body"]]
+
+[[module ListPages separate="no" tags="+jam-con2018 -hub" perPage="100" order="created_at desc"]]
+* [[size 120%]]**%%title_linked%%**[[/size]] [[size 105%]]//by// **%%created_by%%**[[/size]]
+[[/module]]
+[[/div]]
+[[/div]]
+
+--]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
++ ジャムコン4.0: 戻って来たぜ、ベイベー！
+
+SCP Wikiの2021年度ジャムコンにようこそ！何をすれば良いのかは分かりますよね！今年のコンテストも**72時間**ジャムコンですが、それ以外は同じです。**投票期間は各テーマが終了してからも1週間続きます。**
+
++ コンテスト
+
+コンテストは24時間毎の3つのピリオドに分けられます。各ピリオドの開始時に**テーマ**が発表されます。参加者はテーマが発表されてからきっちり24時間だけテーマに基づいた記事を書く時間が与えられます。各ピリオドのコンテスト作品は全て投稿時点のテーマに沿っていなければなりません - 第一ピリオドのために書いた記事を第二ピリオドに投稿した場合、その記事は失格となります。
+
+投票期間は各テーマの終了の1週間後まで設けられます。
+
+優勝者は投票期間終了後のVoteの値で決定します。各テーマのカテゴリー（SCP、Tale、GOIフォーマットなど）ごとに1位を決定し、3つのテーマ全てに応募して総合的に最も高いVoteの値を獲得した方を最優秀賞受賞者とします。
+
+ピリオド期間中にもらえる限り多くの批評を求めることは自由です。
+
++ ルール:
+
+# テーマに沿った作品はいくつエントリーしても構いません。Voteの合計が問題となるのは、Rateが最も高い3作品（各テーマでの最高Rate作品）のみです。
+# 記事の形態 - SCP、Tale、GOIフォーマット - に制限はありません。
+# 複数の記事に跨ったり1つのページに纏められたりと、エントリーの長さは自由です。
+# 3つ全てのテーマに作品をエントリーする必要はありません。即ち参加するテーマを取捨選択することが可能ですが、最優秀賞の対象となるのは3つ全てのテーマに作品をエントリーした方のみです。
+# エントリー作品投稿後は、コンテスト終了まで内容に大規模な編集を加えてはなりません。コンテストが終わるまで、他の人の作品に対してしないようなことは自身の作品にも行わないでください。
+# コンテスト作品は通常の削除プロセスの対象となります。投稿作品数に制限はないため、いつでも再挑戦は可能です。ただし本コンテストで一度削除された作品のリメイク版を再エントリーすることは**禁止**です。このサイトに再度投稿することはいつでも可能ですが、コンテストへの再挑戦はできません。
+# エントリー作品は新作でなければなりません。既にある記事を編集して本コンテストに提出することはできません。
+# テーマが発表された時点で、そのテーマへの作品の受付が**開始**します。**次の**テーマが発表されると同時に**前の**テーマ用の作品の受付は**終了**となります。受付終了となった記事をサイトに投稿することは可能ですが、コンテストの有効なエントリー作品とは見做されません。
+# このコンテストでは共著は認められません -- 記事は単著でなければいけません。
+# **エントリー作品には「jam-con2021」とその日のテーマのタグを付けてください。**
+
+
+優勝者は合計Upvote数で決定されます。審判はコンテスト終了時点で優勝者を発表し、対象作品に特別な賞を与えるポストを投稿します。このコンテストの審判は[[*user taylor_itkin]]と[[*user ProcyonLotor]]です。もしご不明な点があればPMでご連絡ください。
+
++ テーマ
+
+**1日目の幕開け:** 海
+
+[[collapsible show="+ 1日目の勝者を表示" hide="- 1日目の勝者を非表示" hideLocation="both"]]
+
+++ **全体（とSCP）のトップ3:**
+# **[[[SCP-5929]]]（"人類は平和の（小） [[span class="ruby"]]便[[span class="rt"]]よすが[[/span]][[/span]]より生ず"） by [[*user Rounderhouse]]**
+# [[[SCP-5527]]]（"最底"） by [[*user J Dune]]！
+# **[http://scp-jp.wikidot.com/danger-trunko 危ない生き物: トランコ！] by [[*user Ihp]]！**
+
+++ **Taleのトップ3:**
+# **[http://scp-wiki.wikidot.com/whalefall Whalefall] by [[*user DodoDevil]]！**
+# [http://scp-wiki.wikidot.com/charybdis Charybdis] by [[*user CanOfSoup]]！
+# [http://scp-wiki.wikidot.com/my-life-aquatic My Life, Aquatic] by [[*user GerrymanderBassist]]！
+
+++ **GoIフォーマットのトップ3:**
+# **[http://scp-jp.wikidot.com/danger-trunko 危ない生き物: トランコ！] by [[*user Ihp]]！**
+# [http://scp-wiki.wikidot.com/manifest-476 Manifest 476: Vanishing Galleon] by [[*user Calibri Bold]]！
+# [http://scp-wiki.wikidot.com/critter-profile-chel Critter Profile: Chel！] by [[*user EthanHanson]]！
+
+**優勝者: 掲載のご要望については[[*user taylor_itkin]]までご連絡ください。**
+[[/collapsible]]
+
+ [[collapsible show="+ エントリー作品を表示" hide="- エントリー作品を非表示" hideLocation="both"]]
+[[module ListPages  tag="+jam-con2021 +_海 -hub" separate="no"  perPage="100"  rating=">-20"  order="random"  prependLine="||~ タイトル||~ コメント数 ||~ 翻訳者 ||~ Rate数 ||" categories="*"]]
+|| %%title_linked%% || %%comments%% || %%created_by%% || %%rating%% ||
+[[/module]]
+
+= [[iframe https://home.helenbot.com/tools/timer.html?time=1617076800000&type=Theme%201%20voting%20period%20ends%20in style="width: 500px; height: 250px; border: 0;"]]
+[[/collapsible]]
+**2日目の幕開け:** 腐敗
+
+[[collapsible show="+ 2日目の勝者を表示" hide="- 2日目の勝者を非表示" hideLocation="both"]]
+
+++ **全体（とSCP）のトップ3:**
+# **[[[SCP-5383]]] ("The Konami Code But For Catholicism (Suffer Overflow)") by [[*user Rounderhouse]]**
+# [[[SCP-5648]]] ("DOCTOR ROCKEFELLER (ALWAYS WITH TEETH)") by [[*user J Dune]]！
+# **[http://scp-jp.wikidot.com/project-proposal-2014-012 企画案2014-012: "木々のポートレート"] by [[*user JakdragonX]]！**
+
+++ **Taleのトップ3:**
+# **[http://scp-jp.wikidot.com/corruption-within-the-clown-industry クラウン業界の腐敗: バンブーシオ・スタースウィンガーによる物議を醸す意見] by [[*user Tropinano]]！**
+# （2位引き分け）[http://scp-wiki.wikidot.com/pumpkin-mystery The Pumpkin Mystery] by [[*user aismallard]]！
+# （2位引き分け）[http://scp-wiki.wikidot.com/ship-to-wreck Ship to Wreck] by [[*user Oboebandgeek99]]！
+
+++ **GoIフォーマットのトップ3:**
+# **[http://scp-jp.wikidot.com/project-proposal-2014-012 企画案2014-012: "木々のポートレート"] by [[*user JakdragonX]]！**
+# [http://scp-wiki.wikidot.com/mirror-to-america Project Proposal 2024-125: "Mirror to America: A Reflection of You"] by [[*user Joreth]]！
+# [http://scp-wiki.wikidot.com/the-black-vaults-of-alagadda The Black Vaults of Alagadda] by [[*user Cerastes]]！
+
+**優勝者: 掲載のご要望については[[*user taylor_itkin]]までご連絡ください。**
+[[/collapsible]]
+
+[[collapsible show="+ エントリー作品を表示" hide="- エントリー作品を非表示" hideLocation="both"]]
+[[module ListPages  tag="+jam-con2021 +_腐敗 -hub" separate="no"  perPage="100"  rating=">-20"  order="random"  prependLine="||~ タイトル||~ コメント数 ||~ 翻訳者 ||" categories="*"]]
+|| %%title_linked%% || %%comments%% || %%created_by%% ||
+[[/module]]
+
+= [[iframe https://home.helenbot.com/tools/timer.html?time=1617163200000&type=Theme%202%20voting%20period%20ends%20in style="width: 500px; height: 250px; border: 0;"]]
+
+[[/collapsible]]
+
+**3日目の幕開け:** "まさか失敗するはずないよな？"[[footnote]]注意: このテーマはあなたの好きなように解釈してください。わざと変にしています。[[/footnote]]
+
+[[collapsible show="+ 3日目の勝者を表示" hide="- 3日目の勝者を非表示" hideLocation="both"]]
+
+++ **全体（とSCP）のトップ3:**
+# **[[[SCP-5377]]] ("OPEN YOUR JUNK MAIL IDIOT, by Y.W.T.G.T.H.F.T.") by [[*user Rounderhouse]]**
+# [[[SCP-2011-EX]]] ("SCP-2011-EX") by [[*user Placeholder McD]]！
+# **[[[SCP-5281|SCP-5281-D]]]: ("The Man of the Hour Created") by [[*user HarryBlank]]！**
+
+++ **Taleのトップ3:**
+# **[http://scp-wiki.wikidot.com/saturn-s-corner サターンのコーナー] by [[*user Lt Flops]]！**と**[http://scp-wiki.wikidot.com/siren-song Siren Song] by [[*user OboeBandGeek99]]！**が引き分けです！
+# [http://scp-wiki.wikidot.com/clowncon-time-clowns-temporal-tomfoolery Clowncon, Time Clowns and preparations for general temporal tomfoolery: A Guide by Bambousio Starswinger] by [[*user Tropinano]]！
+
+++ **GoIフォーマットのトップ3:**
+# **[http://scp-wiki.wikidot.com/sc-02-000-22-000 SC-02/000-22/000: Insurance] by [[*user Ethagon]]！**
+# [http://scp-wiki.wikidot.com/herman-fuller-presents-peter-cottontail-s-cotton-candy Herman Fuller Presents: Peter Cottontail's Cotton Candy] by [[*user AsukaOnna]]！
+
+**優勝者: 掲載のご要望については[[*user taylor_itkin]]までご連絡ください。**
+[[/collapsible]]
+
+[[collapsible show="+ エントリー作品を表示" hide="- エントリー作品を非表示" hideLocation="both"]]
+[[module ListPages  tag="+jam-con2021 +_有名フラグ -hub" separate="no"  perPage="100"  rating=">-20"  order="random"  prependLine="||~ タイトル||~ コメント数 ||~ 著者 ||" categories="*"]]
+|| %%title_linked%% || %%comments%% || %%created_by%% ||
+[[/module]]
+[[/collapsible]]
+
+= [[iframe https://home.helenbot.com/tools/timer.html?time=1617249600000&type=Theme%203%20voting%20period%20ends%20in style="width: 500px; height: 250px; border: 0;"]]

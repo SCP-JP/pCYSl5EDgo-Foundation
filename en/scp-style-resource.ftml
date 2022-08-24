@@ -1,0 +1,3305 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module css]]
+.footnoteref{
+color: #FF5555;
+}
+.danke{
+padding: 5px 5px 5px 15px;
+margin-bottom:10px;
+width: 100%;
+font-family: monospace;
+font-size: 1.1em; }
+
+.agent{
+background-color:#002200;
+border: 3px solid #55AA55;
+color: #77CC77;
+}
+
+.site{
+background-color:#222200;
+border: 3px solid #AAAA55;
+color: #DDDD77;
+}
+[[/module]]
+
+[[module css]]
+.page {
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
+
+   
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    
+
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
+.page p,
+.page ul {
+    line-height: 20px;
+    margin: 0;
+}
+
+.discord-nagi {display:block; background:#363940; color: #DADBDC; padding: 5px 10px 5px 10px;}
+.quote {background-color: #2F3136;border: solid 3px #2B2C31;border-radius: 10px;color: #7C8C8E; padding: 0px 5px 0px 5px; width: 85%; margin: 0px 0px 5px; font-size: 110%}
+.highlight {background-color: black; color: white; font-family:monospace; font-size: 125%}
+.light {display:block; background:#FFFFFF; color: #DADBDC; padding: 5px 10px 5px 10px; border: solid 1px black}
+.lightquote {color: #839496; background-color: #F8F9F9;border: solid 3px #EBEDEF;border-radius: 10px; padding: 0px 5px 0px 5px; width: 85%; margin: 0px 0px 5px; font-size: 110%}
+.lighthighlight {background-color: #F8F9F9; color: #939BA6; font-family:monospace; font-size: 125%}
+.user1 {font-weight: bold;color: #c0e3ea}
+.user2 {font-weight: bold;color: #ff0066}
+.tag {color: #7289DA}
+[[/module]]
+
+やあ、よく来てくれましたね！
+
+ここは応用的なSCPファイルのログやフォーマットを素早く「コピー＆ペースト」する、謂わば簡単操作を目的とするリソースです。要注意団体フォーマット個々のスタイルガイドと同じようなものです。基礎的なWikidotフォーマットを探しているなら[[[wiki-syntax:startpage|Wikidotシンタックス]]]から、更に高度なコーディングについては[[[advanced-formatting-and-you|Advanced Formatting]]]のガイドを参照しましょう。
+
+このページは様々なフォーマットのカケラ達を生み出すため、共著として門戸を開いています[[footnote]]**訳注:** SCP-JPでは追加しないでください。[[/footnote]]。この後に続く表現形式に従ってください。
+
+**注:** これは完璧なリストを目指す物ではありません。これらのテンプレートを守る必要は全くありません。自分たちにとって最も気楽な任意のやり方を試み、拡張していくことをおすすめします。
+
+**注:** CSSモジュールは、ページが保存され、更新された後に適用されます。プレビューではページは更新されません。CSSモジュールに関する変更を確認するためには、ページを保存しなければなりません。
+
+@@ @@
+[[toc]]
+
+@@ @@
+[[# basic]]
+
+++ 基本的な記事のテンプレート
+
+[[code]]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+**アイテム番号:** SCP-XXXX-JP
+
+**オブジェクトクラス:** Safe/Euclid/Keter (クラスを示しましょう)
+ 
+**特別収容プロトコル:** [プロトコルを説明するパラグラフ]
+
+**説明:** [説明を説明するパラグラフ]
+
+**補遺:** [任意に追加されるパラグラフ]
+[[/code]]
+
+++ インタビューのテンプレート
+
+[[code]]
+> **回答者:** [インタビューを受ける個人やSCP]
+> 
+> **質問者:** [インタビュアー；█を使って隠すことも]
+> 
+> **前書:** [インタビューを描写する短い節]
+> 
+> **<記録開始, [任意の時間情報]>**
+> 
+> **質問者:** [スピーチ]
+> 
+> **個人:** [スピーチ]
+> 
+> [必要なだけ繰り返し]
+> 
+> **<記録終了, [任意の時間情報]>**
+> 
+> **後書:** [インタビュー後に分かったことについての短い要約と節]
+[[/code]]
+
+**注:** >を使用して引用符を挿入する際、>のそれぞれの後に半角スペースを追加してください-- そうしなければ、テキストは引用符内に表示されません。
+
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+
+[[# tables]]
+
+++ 実験ログフォーマット:
+
+**__オプション1__**[[footnote]][[[SCP-2682]]]に見られる[[/footnote]]
+
+**見た目:**
+
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[row]]
+[[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
+実験の表題的な何か
+[[/cell]]
+[[cell style="font-weight:bold; padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver;"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+被検体
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+ここにデータ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+手順
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+ここにデータ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid black"]]
+結果
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+ここにデータ
+[[/cell]]
+[[/row]]
+[[/table]]
+
+**コピーするもの:**
+
+[[collapsible]]
+[[code]]
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[row]]
+[[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
+実験の表題的な何か
+[[/cell]]
+[[cell style="font-weight:bold; padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver;"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+被検体
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+ここにデータ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+手順
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+ここにデータ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid black"]]
+結果
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+ここにデータ
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/code]]
+[[/collapsible]]
+
+-----
+
+**__オプション2__**[[footnote]][[[SCP-2832]]]に見られる[[/footnote]]
+
+**見た目:**
+
+[[table style="border: 1px solid silver"]]
+[[row]]
+[[hcell style="border: 1px solid silver"]]
+日付
+[[/hcell]]
+[[hcell style="border: 1px solid silver"]]
+データ
+[[/hcell]]
+[[hcell style="border: 1px solid silver"]]
+現象
+[[/hcell]]
+[[hcell style="border: 1px solid silver"]]
+メモ
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid silver"]]
+日付
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+[[=]]
+データ
+[[/=]]
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+現象
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+メモ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid silver"]]
+日付
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+[[=]]
+データ
+[[/=]]
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+現象
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+メモ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid silver"]]
+日付
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+[[=]]
+データ
+[[/=]]
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+現象
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+メモ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid silver"]]
+日付
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+[[=]]
+データ
+[[/=]]
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+現象
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+メモ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid silver"]]
+日付
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+[[=]]
+データ
+[[/=]]
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+現象
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+メモ
+[[/cell]]
+[[/row]]
+[[/table]]
+
+**コピーするもの:**
+
+[[collapsible]]
+[[code]]
+
+[[table style="border: 1px solid silver"]]
+[[row]]
+[[hcell style="border: 1px solid silver"]]
+日付
+[[/hcell]]
+[[hcell style="border: 1px solid silver"]]
+データ
+[[/hcell]]
+[[hcell style="border: 1px solid silver"]]
+現象
+[[/hcell]]
+[[hcell style="border: 1px solid silver"]]
+メモ
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid silver"]]
+日付
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+[[=]]
+データ
+[[/=]]
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+現象
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+メモ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid silver"]]
+日付
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+[[=]]
+データ
+[[/=]]
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+現象
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+メモ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid silver"]]
+日付
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+[[=]]
+データ
+[[/=]]
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+現象
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+メモ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid silver"]]
+日付
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+[[=]]
+データ
+[[/=]]
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+現象
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+メモ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid silver"]]
+日付
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+[[=]]
+データ
+[[/=]]
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+現象
+[[/cell]]
+[[cell style="border: 1px solid silver"]]
+メモ
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[/code]]
+[[/collapsible]]
+
+
+**__オプション3__**
+
+**見た目:**
+[[collapsible show="+ クリックしてリプレイ" hide="- 閉じて…" folded="no"]]
+[[include :scp-jp:component:classified-experiment
+|experiment-title=実験-XXXX
+|sub-title=サブタイトル
+|left=実験の目的:
+これは左フレーム
+
+結果:
+広いフレーム
+|right=対象:
+これは右フレーム
+
+日付/場所:
+狭いフレーム
+|content=> = 引用符
+> **太字:** 文章文章文章[https://www.google.com/ 引用符内のリンク]
+> = ↓hr要素
+> ----
+> +* h1
+> ++* h2
+> +++* h3
+> ++++* h4
+> +++++* h5
+> ++++++* h6
+
++* h1
+++* h2
++++* h3
+++++* h4
++++++* h5
+++++++* h6
+]]
+[[/collapsible]]
+
+**コピーするもの:**
+
+[[collapsible]]
+**Tips!** 通常の折りたたみの代わりに[/scp-style-resource#toc7 "ログイン/ログアウト"フォーマット(オプション1, オプション2-サブオプション)]を使えます。
+> @@[[collapsible]]@@
+> **[[include :scp-jp:component:classified-experiment**
+> **|experiment-title=**実験-XXXX
+> **|sub-title=**サブタイトル
+> **|left=**実験の目的:
+> これは左フレーム
+> 
+> 結果:
+> 広いフレーム
+> **|right=**対象:
+> これは右フレーム
+> 
+> 日付/場所:
+> 狭いフレーム
+> **|content=**@@> = 引用符@@
+> @@> **太字:** 文章文章文章[https://www.google.com/ 引用符内のリンク]@@
+> @@> = ↓hr要素@@
+> @@> ----@@
+> @@> +* h1@@
+> @@> ++* h2@@
+> @@> +++* h3@@
+> @@> ++++* h4@@
+> @@> +++++* h5@@
+> @@> ++++++* h6@@
+> 
+> @@+* h1@@
+> @@++* h2@@
+> @@+++* h3@@
+> @@++++* h4@@
+> @@+++++* h5@@
+> @@++++++* h6@@
+> **]]**
+> @@[[/collapsible]]@@
+
+||~ 属性 ||~ 必須 ||~ 許容値 ||~ 説明 ||
+|| experiment-title || **yes** || 文章 _
+リンク || タイトルの値 ||
+|| sub-title || no || 文章 _
+リンク || サブタイトルの値 ||
+|| content || **yes** || 文章 _
+リンク || 引用符などのwikidot構文も使える ||
+|| left || no || 文章 _
+リンク || 広いフレーム ||
+|| right || no || 文章 _
+リンク || 狭いフレーム ||
+|| warning || no || 文章 || "アクセス承認"を変更する ||
+
+[[/collapsible]]
+
+
+**__オプション4__**
+
+**見た目:**
+[[collapsible show="+ クリックして再生" hide="- リプレイ"]]
+10秒お待ちください...
+[[include :scp-sandbox-3:component:3d-logo |header=true|title=SCiP NET|num=ver. β]]
+TEXT TEXT TEXT
+TEXT TEXT TEXT
+TEXT TEXT TEXT
+TEXT TEXT TEXT
+TEXT TEXT TEXT
+TEXT TEXT TEXT
+TEXT TEXT TEXT
+TEXT TEXT TEXT
+TEXT TEXT TEXT
+[[include :scp-sandbox-3:component:3d-logo |footer=true]]
+[[/collapsible]]
+
+**コピーするもの:**
+> @@[[collapsible show="+ load" hide="- stop"]]@@
+> [[include :scp-sandbox-3:component:3d-logo |header=true|title=SCiP NET|num=ver. β]]
+> TEXT TEXT TEXT
+> [[include :scp-sandbox-3:component:3d-logo |footer=true]]
+> @@[[/collapsible]]@@
+**Tips!** 通常の折りたたみの代わりに[/scp-style-resource#toc7 "ログイン/ログアウト"フォーマット(オプション1, オプション2-サブオプション)]を使えます。
+
+
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+
+[[# logs]]
+
+++ 音声/映像ログフォーマット:
+
+**__オプション1__**[[footnote]][[[SCP-1730]]]に見られる[[/footnote]]
+
+**見た目:**
+
+
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+**探索映像ログの書き起こし**
+
+**日付:** 任意
+
+**探索部隊:** 部隊名 - 任意
+
+**対象:** AREA/ANOMALY - 任意
+
+**部隊長:** 任意
+
+**部隊員:** 任意
+-----
+
+[ログ開始]
+
+**A:** ダイアログ
+
+**B:** ダイアログ
+
+//出来事か何か//
+
+**A:** ダイアログ
+
+
+[ログ終了]
+
+[[/div]]
+
+**コピーするもの:**
+
+[[collapsible]]
+[[code]]
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+**探索映像ログの書き起こし**
+
+**日付:** 任意
+
+**探索部隊:** 部隊名 - 任意
+
+**対象:** AREA/ANOMALY - 任意
+
+**部隊長:** 任意
+
+**部隊員:** 任意
+-----
+
+[ログ開始]
+
+**A:** ダイアログ
+
+**B:** ダイアログ
+
+//出来事か何か//
+
+**A:** ダイアログ
+
+
+[ログ終了]
+
+[[/div]]
+[[/code]]
+
+[[/collapsible]]
+
+-----
+
+**__オプション2__**[[footnote]][[[SCP-2571]]]に見られる[[/footnote]]
+
+**見た目:**
+
+[[div style="display: inline-block; border:dashed 1px #999999; background:#F5F5F5; float:center; width:84%; padding:1px 15px; margin: 10px 10px 10px 40px"]]
+= **映像記録**
+----
+**日付:** 
+
+**注記:** 
+----
+
+[記録開始]
+
+
+**時間:** 出来事
+
+**時間:** 出来事
+
+**時間:** 出来事
+
+-----
+
+[記録終了]
+[[/div]]
+
+**Tip!** このスタイルは、よくサイトのそこらで見かける通常の引用符に似せたものです(通常のwikiフォーマットならば、"> "で行を始めます)が、これには画像がうまい具合に機能するという利点があります。
+
+**コピーするもの:**
+
+[[collapsible]]
+
+[[code]]
+
+[[div style="display: inline-block; border:dashed 1px #999999; background:#F5F5F5; float:center; width:84%; padding:1px 15px; margin: 10px 10px 10px 40px"]]
+= **映像記録**
+----
+**日付:** 
+
+**注記:** 
+----
+
+[記録開始]
+
+
+**時間:** 出来事
+
+**時間:** 出来事
+
+**時間:** 出来事
+
+-----
+
+[記録終了]
+[[/div]]
+[[/code]]
+[[/collapsible]]
+
+-----
+
+**__オプション3__**[[footnote]][[[SCP-2409]]]に見られる[[/footnote]]
+
+コンピューターを使用しているような見た目。
+
+**見た目:**
+
+[[div class="danke agent"]]
+| 描写
+| 描写
+| 描写
+| 描写
+| 描写
+
+テキスト テキスト テキスト
+もっとテキスト
+
+もっと
+
+もっともっと
+
+書き終わるまでもっと
+[[/div]]
+
+**コピーするもの:**
+
+[[collapsible]]
+**重要** ページトップに書き込んでください。
+
+[[code]]
+[[module css]]
+.footnoteref{
+color: #FF5555;
+}
+.danke{
+padding: 5px 5px 5px 15px;
+margin-bottom:10px;
+width: 100%;
+font-family: monospace;
+font-size: 1.1em; }
+
+.agent{
+background-color:#002200;
+border: 3px solid #55AA55;
+color: #77CC77;
+}
+
+.site{
+background-color:#222200;
+border: 3px solid #AAAA55;
+color: #DDDD77;
+}
+[[/module]]
+
+[[/code]]
+
+**重要**: ボックスを表示させたい部分に書き込んでください。
+
+[[code]]
+[[div class="danke agent"]]
+| 描写
+| 描写
+| 描写
+| 描写
+| 描写
+
+テキスト テキスト テキスト
+もっとテキスト
+
+もっと
+
+もっともっと
+
+書き終わるまでもっと
+[[/div]]
+
+[[/code]]
+
+**Tips!** 'danke agent'を'danke site'に変えれば、配色が黄色に変わります。
+[[/collapsible]]
+
+__**オプション4:**__
+
+[[div style="background: gray; padding: 1px 15px; border: solid 3px lightgray; margin: 10px; border-radius: 30px 15px;"]]
+
+[[div style="background: white; padding: 1px 15px; border: solid 3px lightgray; margin: 10px; border-radius: 30px 15px;"]]
+
+ここに何か入れる
+
+[[/div]]
+[[/div]]
+
+[[collapsible]]
+
+[[code CSS]]
+[[div style="background: gray; padding: 1px 15px; border: solid 3px lightgray; margin: 10px; border-radius: 30px 15px;"]]
+
+[[div style="background: white; padding: 1px 15px; border: solid 3px lightgray; margin: 10px; border-radius: 30px 15px;"]]
+
+ここに何か入れる
+
+[[/div]]
+[[/div]]
+
+[[/code]]
+
+[[/collapsible]]
+
+**__オプション5__**[[footnote]][[[ykamikura-6|たんぽぽが咲く頃に(tale-jp)]]]に見られる[[/footnote]]
+
+**見た目:**
+
+[[div class="no-unfold"]]
+[[div class="containercontainer"]]
+[[div class="container"]]
++* [!-- この"+*"は消さないでください --]
+[[span_ class="overlay"]]
+もっとだ！
+[[/span]]
+[[div_ class="overlayback"]]
+[[/div]]
+
++* h1
+++* h2
++++* h3
+++++* h4
++++++* h5
+++++++* h6
+テキスト
+もっとテキスト
+
+もっと[[span class="blinkbar"]][][[/span]]
+
+[[/div]]
+[[/div]]
+[[/div]]
+[[module CSS]]
+.containercontainer {position: relative;width: auto;height: auto;border: 2px solid #666;background: #141212;color: #3F3;margin-top: 1em;margin-bottom: 1em;}.containercontainer .container .overlay {background: rgba(51, 255, 51, 0.9);color: #121010;position: absolute;width: auto;height: 50px;top: 0;right: 0;bottom: 0;left: 0;margin: auto;line-height: 50px;display: inline;vertical-align: middle;text-align: center;font-family: Courier New;font-size: 30px;letter-spacing: 5px;font-weight: bolder;z-index: 3;animation: overlay-anim 10s linear;animation-fill-mode: forwards;animation-iteration-count: infinite;}.overlayback {background: rgba(187, 187, 187, 0.5);z-index: 3;position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: auto;height: auto;animation: overlay-anim 10s linear;animation-fill-mode: forwards;animation-iteration-count: infinite;}.containercontainer .container {text-align: center;width: inherit;height: inherit;position: relative;overflow: hidden;}.containercontainer .container::after {content: " ";display: block;position: absolute;top: 0;left: 0;bottom: 0;right: 0;background: rgba(21, 19, 19, 0.2);opacity: 0;z-index: 2;animation: flicker 0.15s infinite;}.containercontainer .container::before {content: " ";display: block;position: absolute;top: 0;left: 0;bottom: 0;right: 0;background: linear-gradient(rgba(18, 16, 16, 0.03) 50%, rgba(0, 0, 0, 0.45) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.22), rgba(0, 255, 0, 0.11), rgba(0, 0, 255, 0.22));z-index: 2;background-size: 100% 2px, 3px 100%;}.no-unfold {text-align: center;}.container h1,.container h2,.container h3,.container h5,.container h6 {color: #3F3;}.container hr {border-top: 1px dotted #3F3;border-bottom: none;}.container hr {border-top: 1px solid #3F3;border-bottom: 1px solid #3F3;color: transparent;background-color: transparent;}.container hr:after {display: block;margin-top: 2px;border-top: 1px solid #3F3;border-bottom: 1px solid #3F3;}.blinkbar {animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }15% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
+[[/module]]
+
+**コピーするもの:**
+
+[[collapsible]]
+**重要** ページトップに書き込んでください。
+
+[[code]]
+[[module CSS]]
+.containercontainer {position: relative;width: auto;height: auto;border: 2px solid #666;background: #141212;color: #3F3;margin-top: 1em;margin-bottom: 1em;}.containercontainer .container .overlay {background: rgba(51, 255, 51, 0.9);color: #121010;position: absolute;width: auto;height: 50px;top: 0;right: 0;bottom: 0;left: 0;margin: auto;line-height: 50px;display: inline;vertical-align: middle;text-align: center;font-family: Courier New;font-size: 30px;letter-spacing: 5px;font-weight: bolder;z-index: 3;animation: overlay-anim 10s linear;animation-fill-mode: forwards;animation-iteration-count: infinite;}.overlayback {background: rgba(187, 187, 187, 0.5);z-index: 3;position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: auto;height: auto;animation: overlay-anim 10s linear;animation-fill-mode: forwards;animation-iteration-count: infinite;}.containercontainer .container {text-align: center;width: inherit;height: inherit;position: relative;overflow: hidden;}.containercontainer .container::after {content: " ";display: block;position: absolute;top: 0;left: 0;bottom: 0;right: 0;background: rgba(21, 19, 19, 0.2);opacity: 0;z-index: 2;animation: flicker 0.15s infinite;}.containercontainer .container::before {content: " ";display: block;position: absolute;top: 0;left: 0;bottom: 0;right: 0;background: linear-gradient(rgba(18, 16, 16, 0.03) 50%, rgba(0, 0, 0, 0.45) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.22), rgba(0, 255, 0, 0.11), rgba(0, 0, 255, 0.22));z-index: 2;background-size: 100% 2px, 3px 100%;}.no-unfold {text-align: center;}.container h1,.container h2,.container h3,.container h5,.container h6 {color: #3F3;}.container hr {border-top: 1px dotted #3F3;border-bottom: none;}.container hr {border-top: 1px solid #3F3;border-bottom: 1px solid #3F3;color: transparent;background-color: transparent;}.container hr:after {display: block;margin-top: 2px;border-top: 1px solid #3F3;border-bottom: 1px solid #3F3;}.blinkbar {animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }15% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
+[[/module]]
+[[/code]]
+
+**重要**: ボックスを表示させたい部分に書き込んでください。
+
+[[code]]
+[[div class="no-unfold"]]
+[[div class="containercontainer"]]
+[[div class="container"]]
++* [!-- この"+*"は消さないでください --]
+[[span_ class="overlay"]]
+もっとだ！
+[[/span]]
+[[div_ class="overlayback"]]
+[[/div]]
+
++* h1
+++* h2
++++* h3
+++++* h4
++++++* h5
+++++++* h6
+テキスト
+もっとテキスト
+
+もっと[[span class="blinkbar"]][][[/span]]
+
+[[/div]]
+[[/div]]
+[[/div]]
+[[/code]]
+[[/collapsible]]
+
+**__オプション6__**[[footnote]][[[cassette-tape-1006-1|カセットテープ　#1006-1(tale-jp)]]]や、[[[SPC-710-JP]]]、[[[SCP-3648]]]に見られる _
+[[size 85%]]//※[[[SCP-3648]]]はテープアニメーションのみの使用です。//[[/size]] _
+[[size 85%]]//※カセットテープの画像は日本支部の[[*user indonootoko]]によるもの。//[[/size]][[/footnote]]
+
+**見た目:**
+
+[[div class="tape-wrap"]]
+[[collapsible show="PLAY" hide="RELOAD"]]
+[[div class="tape-anim"]]
+[[div class="tape-left"]]
+[[/div]]
+[[div class="tape-right"]]
+[[/div]]
+[[/div]]
+
+[[div class="tape-record"]]
+[[span class="record r1"]]//1行目//
+//2行目//
+//最終行//[[/span]]
+[[span class="record r2"]]//文章//
+//もっと文章//[[/span]]
+
+[[/div]]
+[[/collapsible]]
+[[/div]]
+
+
+[[module CSS]]
+/* //// When you want to add new "records", //// */
+/* //// add new "options" like the following format. //// */
+.r1 {animation-delay: 3s;}
+.r2 {animation-delay: 6s;}
+
+.tape-wrap .collapsible-block-unfolded-link .collapsible-block-link
+{animation-delay: calc(6s + 2s);}
+
+.tape-record {position: relative;height: 6em;pointer-events: none;}.record {display: block;position: absolute;width: 100%;animation-name: record;animation-duration: 2.5s;opacity: 0;top: 0;text-align: center;}.tape-wrap {position: relative;background-color: rgba(244, 244, 244, 1);border: 1px dashed #999;padding: 0 1em;}.tape-anim {position: relative;background-image: url("http://unofficial-scp-sandbox-jp.wikidot.com/local--files/iroiro-workshop-8/DoxYSJAV4AET63r.png");background-size: 200px;background-position: center center;background-repeat: no-repeat;min-height: 300px;}.tape-left,.tape-right {display: block;position: absolute;margin: auto;height: 0;width: 70px;padding-bottom: 100%;background-image: url("http://unofficial-scp-sandbox-jp.wikidot.com/local--files/iroiro-workshop-8/scp_trans.png");background-size: contain;background-position: center center;background-repeat: no-repeat;pointer-events: none;}.tape-left {top: -20px;bottom: 0;left: -70px;right: 0;animation-name: spin1;animation-duration: 15s;animation-timing-function: linear;animation-fill-mode: forwards;}.tape-right {top: 0;bottom: -32px;left: 0;right: -72px;animation-name: spin1;animation-duration: 20s;animation-timing-function: linear;animation-fill-mode: forwards;}.tape-wrap .collapsible-block-unfolded-link {padding-top: 1em;}.tape-wrap .collapsible-block-folded,.tape-wrap .collapsible-block-unfolded-link {position: relative;text-align: center;}.tape-wrap .collapsible-block-link:before {display: inline-block;font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;transform: translate(0, 0);}.tape-wrap .collapsible-block-folded .collapsible-block-link:before {content: "\f04b";}.tape-wrap .collapsible-block-unfolded-link .collapsible-block-link:before {content: "\f1da";}.tape-wrap .collapsible-block-unfolded-link .collapsible-block-link {animation-name: g-ex;animation-duration: 1s;animation-fill-mode: forwards;visibility: hidden;opacity: 0;}.tape-wrap .collapsible-block-folded {padding-top: 1em;padding-bottom: 1em;}@keyframes g-ex {50% {visibility: visible;opacity: 0;}100% {visibility: visible;opacity: 1;}}@keyframes spin1 {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);}}@keyframes record {0% {opacity: 0;}25% {opacity: 1;}75% {opacity: 1;}100% {opacity: 0;}}@-moz-document url-prefix() {.tape-anim {height: 300px;}.tape-left,.tape-right {display: block;width: 70px;height: 70px;position: relative;margin: 0 auto;padding: 0 auto;}.tape-left {top: 105px;bottom: initial;left: -36px;}.tape-right {top: 60px;bottom: initial;left: 35px;}}
+[[/module]]
+
+**コピーするもの:**
+
+[[collapsible]]
+**重要:**
+* ページトップに追加してください。
+* 「レコード」を追加したいならば、下記のフォーマットの通りに「オプション」を追加しましょう。
+ * .r3 {animation-delay: 9s;} _
+.r4 {animation-delay: 12s;}
+[[code]]
+[[module CSS]]
+/* //// 「レコード」を追加したいならば、 //// */
+/* //// 下記のフォーマットの通りに「オプション」を追加しましょう。 //// */
+.r1 {animation-delay: 3s;}
+.r2 {animation-delay: 6s;}
+
+.tape-wrap .collapsible-block-unfolded-link .collapsible-block-link
+{animation-delay: calc(6s + 2s);}
+
+.tape-record {position: relative;height: 6em;pointer-events: none;}.record {display: block;position: absolute;width: 100%;animation-name: record;animation-duration: 2.5s;opacity: 0;top: 0;text-align: center;}.tape-wrap {position: relative;background-color: rgba(244, 244, 244, 1);border: 1px dashed #999;padding: 0 1em;}.tape-anim {position: relative;background-image: url("http://unofficial-scp-sandbox-jp.wikidot.com/local--files/iroiro-workshop-8/DoxYSJAV4AET63r.png");background-size: 200px;background-position: center center;background-repeat: no-repeat;min-height: 300px;}.tape-left,.tape-right {display: block;position: absolute;margin: auto;height: 0;width: 70px;padding-bottom: 100%;background-image: url("http://unofficial-scp-sandbox-jp.wikidot.com/local--files/iroiro-workshop-8/scp_trans.png");background-size: contain;background-position: center center;background-repeat: no-repeat;pointer-events: none;}.tape-left {top: -20px;bottom: 0;left: -70px;right: 0;animation-name: spin1;animation-duration: 15s;animation-timing-function: linear;animation-fill-mode: forwards;}.tape-right {top: 0;bottom: -32px;left: 0;right: -72px;animation-name: spin1;animation-duration: 20s;animation-timing-function: linear;animation-fill-mode: forwards;}.tape-wrap .collapsible-block-unfolded-link {padding-top: 1em;}.tape-wrap .collapsible-block-folded,.tape-wrap .collapsible-block-unfolded-link {position: relative;text-align: center;}.tape-wrap .collapsible-block-link:before {display: inline-block;font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;transform: translate(0, 0);}.tape-wrap .collapsible-block-folded .collapsible-block-link:before {content: "\f04b";}.tape-wrap .collapsible-block-unfolded-link .collapsible-block-link:before {content: "\f1da";}.tape-wrap .collapsible-block-unfolded-link .collapsible-block-link {animation-name: g-ex;animation-duration: 1s;animation-fill-mode: forwards;visibility: hidden;opacity: 0;}.tape-wrap .collapsible-block-folded {padding-top: 1em;padding-bottom: 1em;}@keyframes g-ex {50% {visibility: visible;opacity: 0;}100% {visibility: visible;opacity: 1;}}@keyframes spin1 {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);}}@keyframes record {0% {opacity: 0;}25% {opacity: 1;}75% {opacity: 1;}100% {opacity: 0;}}@-moz-document url-prefix() {.tape-anim {height: 300px;}.tape-left,.tape-right {display: block;width: 70px;height: 70px;position: relative;margin: 0 auto;padding: 0 auto;}.tape-left {top: 105px;bottom: initial;left: -36px;}.tape-right {top: 60px;bottom: initial;left: 35px;}}
+[[/module]]
+[[/code]]
+
+**重要:**
+* ボックスを表示させたい部分に書き込んでください。
+* 「レコード」を追加したいならば、下記のフォーマットの通りに「オプション」を追加しましょう。
+ * @@[[span class="record r3"]]Text[[/span]]@@ _
+@@[[span class="record r4"]]More text[[/span]]@@
+
+[[code]]
+[[div class="tape-wrap"]]
+[[collapsible show="PLAY" hide="RELOAD"]]
+[[div class="tape-anim"]]
+[[div class="tape-left"]]
+[[/div]]
+[[div class="tape-right"]]
+[[/div]]
+[[/div]]
+
+[[div class="tape-record"]]
+[[span class="record r1"]]//1行目//
+//2行目//
+//最終行//[[/span]]
+[[span class="record r2"]]//文章//
+//もっと文章//[[/span]]
+
+[[/div]]
+[[/collapsible]]
+[[/div]]
+[[/code]]
+[[/collapsible]]
+
+
+**__オプション7__**
+
+**見た目:**
+
+[[div class="type-wrap-wrapper"]]
+[[div class="type-wrapper"]]
+[[div id="u-start"]]
+[[/div]]
+[[div class="typearea"]]
+[[div class="textchange"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+あなたのwikidot IDは"%%name%%"です。[[span class="blink"]]|[[/span]]
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+あなたのwikidot IDを確認できませんでした。[[span class="blink"]]|[[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[div class="buttonwrapper"]]
+[[a class="likebutton" href="#u-start"]]クリック！[[/a]]
+[[/div]]
+[[/div]]
+[[module CSS]]
+#u-start, .textchange div.sitemember:nth-child(2) {display:none;}.type-wrap-wrapper {position: relative;text-align: left;}.type-wrapper {background: #555;}.typearea {color: lime; font-family: "Courier";font-size: 1.2em;margin: 10px 0 0 10px;white-space: nowrap;overflow: hidden;width: 0;}#u-start:target ~ .typearea {width: 100%;animation: type 4s steps(60, end); }.typearea a{color: lime;text-decoration: none;}.blink {animation: blink 1s infinite;}@keyframes type{ from { width: 0; } } @keyframes blink{to{opacity: .0;}}.buttonwrapper {text-align: center;}.likebutton {padding: 0.1em 0.5em;text-decoration: none;font-size: 1.3em;background-color: #F4F4F4;border: 1px solid #AAA;color: #000;}.likebutton:hover {background-color: #DDD;color: #000;border: 1px solid #0098b3;}
+[[/module]]
+
+**コピーするもの:**
+
+[[collapsible]]
+**重要:** ページトップに追加してください。
+
+[[code]]
+[[module CSS]]
+#u-start, .textchange div.sitemember:nth-child(2) {display:none;}.type-wrap-wrapper {position: relative;text-align: left;}.type-wrapper {background: #555;}.typearea {color: lime; font-family: "Courier";font-size: 1.2em;margin: 10px 0 0 10px;white-space: nowrap;overflow: hidden;width: 0;}#u-start:target ~ .typearea {width: 100%;animation: type 4s steps(60, end); }.typearea a{color: lime;text-decoration: none;}.blink {animation: blink 1s infinite;}@keyframes type{ from { width: 0; } } @keyframes blink{to{opacity: .0;}}.buttonwrapper {text-align: center;}.likebutton {padding: 0.1em 0.5em;text-decoration: none;font-size: 1.3em;background-color: #F4F4F4;border: 1px solid #AAA;color: #000;}.likebutton:hover {background-color: #DDD;color: #000;border: 1px solid #0098b3;}
+[[/module]]
+[[/code]]
+
+**重要:** ボックスを表示させたい部分に書き込んでください。
+
+[[code]]
+[[div class="type-wrap-wrapper"]]
+[[div class="type-wrapper"]]
+[[div id="u-start"]]
+[[/div]]
+[[div class="typearea"]]
+[[div class="textchange"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+あなたのwikidot IDは"%%name%%"です。[[span class="blink"]]|[[/span]]
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+あなたのwikidot IDを確認できませんでした。[[span class="blink"]]|[[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[div class="buttonwrapper"]]
+[[a class="likebutton" href="#u-start"]]クリック！[[/a]]
+[[/div]]
+[[/div]]
+[[/code]]
+[[/collapsible]]
+
+**__オプション8__**[[footnote]][[[SCP-4224]]]に見られる[[/footnote]]
+
+**見た目:**
+[[module CSS]]
+
+div.terminal{
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
+/* ターミナル上部の黒い影 */
+      background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+      background-position: center;
+      display: block;
+/* ターミナル周囲の影 */
+      box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+/* スキャン線の飛び出しを防ぐ */
+      overflow:hidden;
+}
+div.terminal blockquote {
+
+    background-color: black;
+
+    border: double 3px #80FF80
+
+}
+div.scanline{
+    margin-top: -40%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+    -webkit-animation: scan 5s linear 0s infinite;; /* Safari 4.0 - 8.0 */
+    animation: scan 12s linear 0s infinite;
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+}
+
+div.text{
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+font-family: monospace;
+font-size: 1.2em;
+    }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* ターミナルの長さに応じて、これを変える必要があります。 */
+}
+
+div.text a {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a.newpage {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a:hover {
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
+}
+div.text a:hover::before{
+content: "> ";
+}
+[[/module]]
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] __Terminal #001__[[/size]]
+@@ @@
+@@ @@
+@@------@@
+Welcome, User
+@@------@@
+[[/=]]
+@@ @@
+@@ @@
+@@ @@
+> ターミナル内のリンクにマウスを重ねると、">"が表示されます。
+> [http://www.google.com こんな風に]
+ 
+私のフォーマットを御贔屓に！
+[[/div]]
+[[/div]]
+
+**コピーするもの:**
+[[collapsible]]
+
+**重要:** CSSモジュールです。記事の上部に書き入れてください。
+[[code]]
+[[module CSS]]
+
+div.terminal{
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
+/* ターミナル上部の黒い影 */
+      background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+      background-position: center;
+      display: block;
+/* ターミナル周囲の影 */
+      box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+/* スキャン線の飛び出しを防ぐ */
+      overflow:hidden;
+}
+div.terminal blockquote {
+
+    background-color: black;
+
+    border: double 3px #80FF80
+
+}
+div.scanline{
+    margin-top: -40%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+    -webkit-animation: scan 5s linear 0s infinite;; /* Safari 4.0 - 8.0 */
+    animation: scan 12s linear 0s infinite;
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+}
+
+div.text{
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+font-family: monospace;
+font-size: 1.2em;
+    }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* ターミナルの長さに応じて、これを変える必要があります。 */
+}
+
+div.text a {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a.newpage {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a:hover {
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
+}
+div.text a:hover::before{
+content: "> ";
+}
+[[/module]]
+[[/code]]
+
+**重要:** ターミナル本体です。どこに入れても大丈夫です。
+[[code]]
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] __Terminal #001__[[/size]]
+@@ @@
+@@ @@
+@@------@@
+Welcome, User
+@@------@@
+[[/=]]
+@@ @@
+@@ @@
+@@ @@
+> ターミナル内のリンクにマウスを重ねると、">"が表示されます。
+> [http://www.google.com こんな風に]
+ 
+私のフォーマットを御贔屓に！
+[[/div]]
+[[/div]]
+[[/code]]
+[[/collapsible]]
+
+
+@@ @@
+@@ @@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+
+++ 警告/通知フォーマット:
+
+**__オプション1__**[[footnote]][[[SCP-835]]]に見られる[[/footnote]]
+
+**見た目:**
+
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+[[size larger]] **財団記録・情報保安管理局より通達** [[/size]]
+
+ここに通知文を入れる
+
+-- RAISA管理官、マリア・ジョーンズ
+[[/=]]
+[[/div]]
+
+**コピーするもの:**
+
+[[collapsible]]
+[[code]]
+
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+[[size larger]] **財団記録・情報保安管理局より通達** [[/size]]
+
+ここに通知文を入れる
+
+-- RAISA管理官、マリア・ジョーンズ
+[[/=]]
+[[/div]]
+
+[[/code]]
+[[/collapsible]]
+
+**__オプション2__**[[footnote]][[[SCP-3143]]]に見られる[[/footnote]]
+
+**見た目:**
+
+[[=]]
+[[div style="background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]] 
+##ff5c48|[[size 150%]] **警告: 以下のファイルはレベル#/XXXX機密情報です** [[/size]]##
+----
+[[size larger]] **このファイルにレベル#/XXXX承認無しで行われるアクセス試行は記録され即時懲戒処分の対象となります。**[[/size]]
+[[/div]]
+[[/=]]
+
+**コピーするもの:**
+
+[[collapsible]]
+[[code]]
+
+[[=]]
+[[div style="background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]] 
+##ff5c48|[[size 150%]] **警告: 以下のファイルはレベル#/XXXX機密情報です** [[/size]]##
+----
+[[size larger]] **このファイルにレベル#/XXXX承認無しで行われるアクセス試行は記録され即時懲戒処分の対象となります。**[[/size]]
+[[/div]]
+[[/=]]
+
+[[/code]]
+
+**注:** このコードには削除された画像のリンクが含まれています。白色の背景のままにしておきたい場合はコードをそのままにし、画像を入れたい場合は[http://scp-wiki.wdfiles.com/local--files/djkaktus-s-proposal/amber.png このリンク]をコード内のリンクと置き換えてください。##999|(訳注: 現在は削除された画像が復旧したため、この説明は現状に沿ったものではありません。)##
+
+[[/collapsible]]
+
+__**オプション3:**__
+
+**見た目:** 
+
+[[div style="background: url(http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png) bottom center no-repeat; text-align: center; width: 600px; margin: 0 auto; font-size: 20px; padding: 0px;"]]
+
+@@ @@
+@@ @@
+
+@@ @@
+
+@@ @@
+
+[[=]]
+++* ##black|監督評議会命令##
+##black|下記のファイルはレベルX/XXXXの機密事項に指定されています。不正なアクセスは禁じられています。##
+[[/=]]
+= **##black|XXXX##**
+
+@@ @@
+
+@@ @@
+
+[[/div]]
+
+**コピーするもの:**
+
+[[collapsible]]
+
+[[code]]
+
+[[div style="background: url(http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png) bottom center no-repeat; text-align: center; width: 600px; margin: 0 auto; font-size: 20px; padding: 0px;"]]
+
+@@ @@
+@@ @@
+
+@@ @@
+
+@@ @@
+
+[[=]]
+++* ##black|監督評議会命令##
+##black|下記のファイルはレベルX/XXXXの機密事項に指定されています。不正なアクセスは禁じられています。##
+[[/=]]
+= **##black|XXXX##**
+
+@@ @@
+
+@@ @@
+
+[[/div]]
+
+[[/code]]
+
+[[/collapsible]]
+
+__**オプション4:**__
+
+**見た目:** 
+
+[[div class="orderwrapper"]]
+[[div class="council1"]]
+[[/div]]
+[[div class="ordertitle"]]
++* タイトル
+[[/div]]
+[[div class="orderdescription"]]
+ _
++* サブタイトル
+説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明
+[[/div]]
+[[div class="itemno"]]
++* XXXX
+[[/div]]
+[[/div]]
+
+[[module CSS]]
+.orderwrapper {position: relative;width: auto;text-align: center;}.council1 {position: relative;top: 0;bottom: 0;left: 0;right: 0;width: 295px;height: 295px;margin: auto;background-image: url( "http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png" );background-size: 295px 295px;background-repeat: no-repeat;background-position: center;}.ordertitle {position: absolute;left: 0;right: 0;top: 38px;}.ordertitle h1 {font-size: 220%;color: #555;}.orderdescription {position: absolute;left: 0;right: 0;top: 85px;width: 100%;}.orderdescription p {font-size: 90%;color: #555;}.orderdescription h1 {font-size: 120%;color: #555;}.itemno {position: absolute;left: 0;right: 0;bottom: 27px;}.itemno h1 {font-size: 170%;color: #555;}
+[[/module]]
+
+**コピーするもの:**[[footnote]][http://ja.scp-wiki.net/indonootoko-s-proposal SCP-001-JP]に見られる[[/footnote]]
+
+[[collapsible]]
+
+[[code]]
+[[div class="orderwrapper"]]
+[[div class="council1"]]
+[[/div]]
+[[div class="ordertitle"]]
++* タイトル
+[[/div]]
+[[div class="orderdescription"]]
+ _
++* サブタイトル
+説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明 説明
+[[/div]]
+[[div class="itemno"]]
++* XXXX
+[[/div]]
+[[/div]]
+
+[[module CSS]]
+.orderwrapper {position: relative;width: auto;text-align: center;}.council1 {position: relative;top: 0;bottom: 0;left: 0;right: 0;width: 295px;height: 295px;margin: auto;background-image: url( "http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png" );background-size: 295px 295px;background-repeat: no-repeat;background-position: center;}.ordertitle {position: absolute;left: 0;right: 0;top: 38px;}.ordertitle h1 {font-size: 220%;color: #555;}.orderdescription {position: absolute;left: 0;right: 0;top: 85px;width: 100%;}.orderdescription p {font-size: 90%;color: #555;}.orderdescription h1 {font-size: 120%;color: #555;}.itemno {position: absolute;left: 0;right: 0;bottom: 27px;}.itemno h1 {font-size: 170%;color: #555;}
+[[/module]]
+[[/code]]
+
+[[/collapsible]]
+
+__**オプション5:**__[[footnote]][[[SCP-4051]]]で使用されています。 [[/footnote]]
+
+**見た目:**
+[[include :topia:kaktus-header |head=BY%20ORDER%20OF%20THE%20OVERSEER%20COUNCIL|desc=text%3Cbr%3E%3C%2Fbr%3E%0Atext%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text%20text|num=9999]]
+
+**コピーするもの**
+
+[[collapsible]]
+**注:** 全ての入力フォームを埋める必要があります。
+[[iframe http://topia.wikidot.com/local--code/kaktus-header/1 style="width: 100%; height: 600px;"]]
+[[/collapsible]]
+
+@@ @@
+
+@@ @@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+++ 応用的なヘッダーフォーマット
+
+__**オプション1:**__
+
+**見た目:**[[footnote]][[*user djkaktus]]作の[[[SCP-3935]]]より画像を借用。[[/footnote]]
+
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+[[size 125%]]**アイテム番号:** SCP-XXXX[[/size]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[size 125%]]###990000|**Level 4/XXXX**##[[/size]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[size 125%]]**オブジェクトクラス:** Euclid[[/size]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[size 125%]]###990000|**Classified**##[[/size]]
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+[[include component:image-block name=http://scp-wiki.wdfiles.com/local--files/scp-3935/school.png|align=center|width=100%|caption=SCP-XXXX.]]
+----
+
+**コピーするもの:**
+
+[[collapsible]]
+[[code]]
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+[[size 125%]]**アイテム番号:** SCP-XXXX[[/size]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[size 125%]]###990000|**Level 4/XXXX**##[[/size]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[size 125%]]**オブジェクトクラス:** Euclid[[/size]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[size 125%]]###990000|**Classified**##[[/size]]
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+[[include component:image-block name=image.jpg|align=center|width=100%|caption=SCP-XXXX.]]
+----
+[[/code]]
+**注:**  'image.jpg'を画像名/URLと置き換えてください。記事の幅を100%埋めるため、画像ボックスが広くなることに注意してください。
+[[/collapsible]]
+
+__**オプション2:**__[[footnote]][[[SCP-2983]]]などで見られる[[/footnote]]
+
+**見た目:**
+
+[[collapsible]]
+
+**レベル1:**
+
+[[image http://scp-wiki.wikidot.com/local--files/scp-style-resource/header1new.png]]
+
+------
+
+**レベル2:**
+
+[[image http://scp-wiki.wikidot.com/local--files/scp-style-resource/header2.png]]
+
+------
+
+**レベル3:**
+
+[[image https://i.imgur.com/RDgDBft.png]]
+
+------
+
+**レベル4:**
+
+[[image http://scp-wiki.wikidot.com/local--files/scp-style-resource/header4.png]]
+
+------
+
+**レベル5:**
+
+[[image http://scp-wiki.wikidot.com/local--files/scp-style-resource/header5.png]]
+
+------
+
+**[**ヘッダー1と3を修正してくれた[[*user TSATPWTCOTTTADC]]に感謝を。**]**
+
+[[/collapsible]]
+
+**コピーするもの:**
+
+[[collapsible]]
+
+[[code]]
+[[image header1/2/3/4/5.png]] (特定の画像)
+
+------
+[[/code]]
+
+**注:** このコードが画像を内包しているわけではありません。記事に画像をアップロードするか、このページの画像のアドレスをコピーしてください。
+
+[[/collapsible]]
+
+__**オプション3:**__[[footnote]][http://ja.scp-wiki.net/scp-1970-jp SCP-1970-JP]や[http://ja.scp-wiki.net/scp-1370-jp SCP-1370-JP]に見られる[[/footnote]]
+
+**見た目:**
+[[include :scp-jp:component:classified-decoration
+|lv=1
+|item=7777
+|oc=Euclid
+|lang=EN
+]]
+[[collapsible show="+ これに加え..." hide="- close"]]
+[[include :scp-jp:component:classified-decoration
+|lv=2
+|item=7777-RU
+|oc=Евклид
+|lang=RU
+]]
+[[include :scp-jp:component:classified-decoration
+|lv=3
+|item=7777-KO
+|oc=유클리드(Euclid)
+|lang=KO
+]]
+[[include :scp-jp:component:classified-decoration
+|lv=4
+|item=CN-7777
+|oc=Euclid
+|lang=CN
+]]
+[[include :scp-jp:component:classified-decoration
+|lv=5
+|item=7777-FR
+|oc=Euclide
+|lang=FR
+]]
+[[include :scp-jp:component:classified-decoration
+|lv=1
+|item=7777
+|oc=--Euclid--
++* Safe
+|lang=EN
+]]
+[[/collapsible]]
+
+
+
+**コピーするもの:**
+
+[[collapsible]]
+> @@[[include :scp-jp:component:classified-decoration@@
+> |lv=**1**/**2**/**3**/**4**/**5**
+> |item=7777
+> |oc=Euclid
+> |lang=**EN**/**RU**/**KO**/**CN**/**FR**/**PL**/**ES**/**TH**/**JP**/**DE**/**IT**/**UA**/**PTBR**
+> @@]]@@
+
+> @@[[include :scp-jp:component:classified-decoration@@
+> |lv=1
+> |item=7777
+> |oc=@@--@@Euclid@@--@@
+> **@@+* Safe@@**
+> |lang=EN
+> @@]]@@
+= //あるいは"LEVEL"や"CLASSIFIED"といったテキストを変更してみたかったりします？//
+> @@[[include :scp-wiki:component:classified-decoration@@
+> |lv=1/2/3/4/5
+> |item=7777
+> |oc=Euclid
+> |lang=EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR
+> |trans-level=**<"LEVEL"に相当する翻訳語>**
+> |trans-classified=**<"CLASSIFIED"に相当する翻訳語>**
+> @@]]@@
+[[/collapsible]]
+
+
+__**オプション4:**__
+
+**見た目:**
+
+[[include :scp-jp:component:aers:classification-stuff
+|item=XXXX
+|lvl=4
+|class=Keter
+|threat=赤
+|threat-colour=#b01 [!-- これは球の色です。よく分からなければ、threatに入れたものと同じ色(例: red)をいれてください。 --]
+]]
+
+**コピーするもの:**
+
+[[collapsible]]
+
+
+> [[include :scp-jp:component:aers:classification-stuff
+> |item=XXXX
+> |lvl=4
+> |class=Keter
+> |threat=赤
+> |threat-colour=#b01 @@[!-- これは球の色です。よく分からなければ、threatに入れたものと同じ色(例: red)をいれてください。 --]@@
+> ]]
+
+[[/collapsible]]
+
+
+__**オプション5:**__[[footnote]][[[SCP-3570|EE-3570]]]などに見られる。[[*user YossiLeiner]]並びに [[*user KindlyTurtleClem]]によるもの。[[/footnote]]
+
+**見た目:**
+
+[[a href="*http://ja.scp-wiki.net/niveaux-de-menace-des-objets-scp" style="text-decoration: none; text-shadow: 1px 3px 1px rgba(0,0,0,0.3); font-family: verdana; font-size: 16px; color: white;"]]
+[[span_ style="display: inline-block; width: 100%; background-color: black; text-align: center; border: 1px solid #000; margin-top: 1px; margin-bottom: 1px; margin-left: 1px; margin-right: 1px;"]]
+**脅威レベル:** 黒
+[[/span]]
+[[/a]]
+= ^^(ここをクリック！)^^
+
+[[collapsible show="+ 他の色も…" hide="- 閉じる"]]
+[[a href="*http://ja.scp-wiki.net/niveaux-de-menace-des-objets-scp" style="text-decoration: none; text-shadow: 1px 3px 1px rgba(0,0,0,0.3); font-family: verdana; font-size: 16px; color: black;"]]
+[[span_ style="display: inline-block; width: 100%; background-color: white; text-align: center; border: 1px solid #000; margin-top: 1px; margin-bottom: 1px; margin-left: 1px; margin-right: 1px;"]]
+**脅威レベル:** 白
+[[/span]]
+@@ @@
+[[/a]]
+[[a href="*http://ja.scp-wiki.net/niveaux-de-menace-des-objets-scp" style="text-decoration: none; text-shadow: 1px 3px 1px rgba(0,0,0,0.3); font-family: verdana; font-size: 16px; color: white;"]]
+[[span_ style="display: inline-block; width: 100%; background-color: red; text-align: center; border: 1px solid #000; margin-top: 1px; margin-bottom: 1px; margin-left: 1px; margin-right: 1px;"]]
+**脅威レベル:** 赤
+[[/span]]
+[[/a]]
+
+[[/collapsible]]
+
+**コピーするもの:**
+
+[[collapsible]]
+
+[[code]]
+[[a href="*http://ja.scp-wiki.net/niveaux-de-menace-des-objets-scp" style="text-decoration: none; text-shadow: 1px 3px 1px rgba(0,0,0,0.3); font-family: verdana; font-size: 16px; color: white;"]]
+[[span_ style="display: inline-block; width: 100%; background-color: black; text-align: center; border: 1px solid #000; margin-top: 1px; margin-bottom: 1px; margin-left: 1px; margin-right: 1px;"]]
+**脅威レベル:** 黒
+[[/span]]
+[[/a]]
+[[/code]]
+
+**注:** 色を変更する場合は、単純に"background-color"をwhite/blue/green/yellow/orange/red/blackに変えてください。色のコントラストによって、文章の色("color")をwhite/blackに可読性に従って変更してください。
+
+**注:** ページで使用する場合、読み込みに半秒ほどかかります。なお、上記の通り他のヘッダースタイルとも劣らず機能します。フランス支部の脅威レベル分類をもとにしています。
+[[/collapsible]]
+
+__**オプション6:**__
+
+**見た目:**
+[[include :scp-sandbox-3:component:cd-ver2
+|lv=6
+|item=SCP-XXXX
+|class=Thaumiel
+|site-responsible=Site-%E2%96%88%E2%96%88
+|director=N/A
+|research-head=N/A
+|assigned-task-force=N/A
+]]
+[[collapsible show="+ 他のレベル..."]]
+[[include :scp-sandbox-3:component:cd-ver2
+|lv=3
+|item=SCP-XXXX
+|class=Safe
+|site-responsible=Site-%E2%96%88%E2%96%88
+|director=N/A
+|research-head=N/A
+|assigned-task-force=N/A
+]]
+[[/collapsible]]
+
+**コピーするもの:**
+[[collapsible]]
+> [[include :scp-sandbox-3:component:cd-ver2
+> |lv=6
+> |item=SCP-XXXX
+> |class=Thaumiel
+> |site-responsible=Site-%E2%96%88%E2%96%88
+> |director=N/A
+> |research-head=N/A
+> |assigned-task-force=N/A
+> ]]
+**注:** {{|lv}}の値には**0**から**6**までの値が使用できます。
+**重要な注意:** このモジュールに使用できる文字列は、アルファベットや数字、またはいくつかの記号のみです(Edgeが誤動作をするため)。それら以外の文字を使用したい場合は、下のツールを使って変換してください。[[footnote]]訳注: 日本語(ひらがな・カタカナ・漢字)を使用する場合、必ず変換してから使用してください。[[/footnote]]
+[[embed]]
+<iframe src="http://pseudo-scp-jp.wdfiles.com/local--code/cd-ver2-test/1" style="width: 100%; height: 200px;"></iframe>
+[[/embed]]
+[[/collapsible]]
+
+__**オプション7:**__
+
+**見た目:**
+[[include :topia:svgheader1-inc
+|lv=3
+|threat=green
+|item=XXXX
+|oc=Euclid
+]]
+[[collapsible show="+ 他のレベル..."]]
+[[include :topia:svgheader1-inc
+|lv=0
+|threat=green
+|item=XXXX
+|oc=Euclid
+]]
+[[include :topia:svgheader1-inc
+|lv=6
+|threat=green
+|item=XXXX
+|oc=Euclid
+|oc2=Thaumiel
+]]
+[[/collapsible]]
+
+**見た目:**
+[[collapsible]]
+> [[include :topia:svgheader1-inc
+> |lv=3
+> |threat=green
+> |item=XXXX
+> |oc=Euclid
+> ]]
+
+> [[include :topia:svgheader1-inc
+> |lv=6
+> |threat=green
+> |item=XXXX
+> |oc=Euclid
+> ##red||oc2=Thaumiel##
+> ]]
+* **lv:** 0 - 6
+* **threat:** white/blue/green/orange/red/black
+
+[[/collapsible]]
+
+@@ @@
+
+@@ @@
+
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+
+++ "手紙/メモ"フォーマット
+
+**__オプション1__**[[footnote]][http://ja.scp-wiki.net/scp-4003 SCP-4003]に見られる[[/footnote]]
+
+**見た目:**
+
+[[div class="page"]]
+
+文書本体です。スペースを空けて段落作る場合、"@@ @@"を使用する必要があります。
+@@ @@
+このように。
+@@ @@
+適切に見せるため、[[<]]や[[=]]、[[>]]を使って異なる行/段落を寄せることができます。
+@@ @@
+[[>]]
+Enjoy.
+[[/>]]
+[[/div]]
+
+
+**コピーするもの:**
+
+[[collapsible]]
+
+**重要** ページトップに書き込んでください。
+
+[[code]]
+[[module css]]
+.page {
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
+
+   
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    
+
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
+.page p {
+    line-height: 20px;
+    margin: 0;
+}
+[[/module]]
+[[/code]]
+
+**重要** ボックスを表示させたい部分に書き込んでください。
+
+[[code]]
+[[div class="page"]]
+
+文書本体です。スペースを空けて段落作る場合、"@@ @@"を使用する必要があります。
+@@ @@
+このように。
+@@ @@
+キレイに見せるため、[[<]]や[[=]]、[[>]]を使って異なる行/段落を寄せることができます。
+@@ @@
+[[>]]
+Enjoy.
+[[/>]]
+[[/div]]
+[[/code]]
+[[/collapsible]]
+
+@@ @@
+
+@@ @@
+
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+
+++ "ログイン/ログアウト"フォーマット
+
+**__オプション1__**[[footnote]]**ソース:** http://scp-jp-sandbox2.wikidot.com/inc:fakeprot _
+**原作者:** [[*user Nanimono Daemon]][[/footnote]][[footnote]][http://ja.scp-wiki.net/scp-1370-jp SCP-1370-JP]に見られる[[/footnote]][[footnote]]**訳注:** SCP-JPでは、もっと簡単にこれを使用できます。詳しくは[http://ja.scp-wiki.net/esoteric-syntax#toc23 コチラ]のページから。[[/footnote]]
+
+**見た目:**
+[[module CSS]]
+.fakeprot .mailform-box .buttons{display:none;}
+.fakeprot + .collapsible-block .collapsible-block-link {padding: 0.1em 0.5em;text-decoration: none;background-color: #F4F4F4;border: 1px solid #AAA;color: #000;}
+.fakeprot + .collapsible-block .collapsible-block-link:hover {background-color: #DDD;color: #000;}
+.fakeprot + .collapsible-block .collapsible-block-link:active {background-color: #DDD;color: #000;}
+.fakeprot + .collapsible-block .collapsible-block-unfolded-link{margin:0.5em 0;text-align: center;}
+.fakeprot + .collapsible-block .collapsible-block-folded{margin:0.5em 0;text-align: center;}
+.fakeprot .passw input[type=text] {text-security:disc;-webkit-text-security:disc;-mox-text-security:disc;}
+.mailform-box td:first-child {width: 80px;}
+[[/module]]
+
+[[div class="fakeprot"]]
+[[module MailForm to="aaaa (DUMMY)" button=""]]
+# name
+ * title: ID
+ * default: <あなたのID>
+ * type: text
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
+[[/module]]
+[[div class="passw"]]
+[[module MailForm to="aaaa (DUMMY)" button=""]]
+# affiliation
+ * title: パスワード
+ * default: ・・・・・・・・・
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
+[[/module]]
+[[/div]]
+[[/div]]
+[[collapsible show="ログイン" hide="ログアウト"]]
+文章
+[[/collapsible]]
+
+
+**コピーするもの:**
+
+[[collapsible]]
+
+**重要:** ページトップに書き込んでください。
+
+[[code]]
+[[module CSS]]
+.fakeprot .mailform-box .buttons{display:none;}
+.fakeprot + .collapsible-block .collapsible-block-link {padding: 0.1em 0.5em;text-decoration: none;background-color: #F4F4F4;border: 1px solid #AAA;color: #000;}
+.fakeprot + .collapsible-block .collapsible-block-link:hover {background-color: #DDD;color: #000;}
+.fakeprot + .collapsible-block .collapsible-block-link:active {background-color: #DDD;color: #000;}
+.fakeprot + .collapsible-block .collapsible-block-unfolded-link{margin:0.5em 0;text-align: center;}
+.fakeprot + .collapsible-block .collapsible-block-folded{margin:0.5em 0;text-align: center;}
+.fakeprot .passw input[type=text] {text-security:disc;-webkit-text-security:disc;-mox-text-security:disc;}
+.mailform-box td:first-child {width: 80px;}
+[[/module]]
+[[/code]]
+
+**重要:** フォームを表示させたい部分に書き込んでください。
+
+[[code]]
+[[div class="fakeprot"]]
+[[module MailForm to="aaaa (DUMMY)" button=""]]
+# name
+ * title: ID
+ * default: <あなたのID>
+ * type: text
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
+[[/module]]
+[[div class="passw"]]
+[[module MailForm to="aaaa (DUMMY)" button=""]]
+# affiliation
+ * title: PASSWORD
+ * default: ・・・・・・・・・
+ * rules:
+  * required: true 
+  * maxLength:10
+  * minLength: 100
+[[/module]]
+[[/div]]
+[[/div]]
+[[collapsible show="ログイン" hide="ログアウト"]]
+文章
+[[/collapsible]]
+[[/code]]
+[[/collapsible]]
+
+**__オプション2__**
+
+**見た目:**
+[[html]]
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Verdana;}
+* {box-sizing: border-box;}
+ 
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+ 
+}
+ 
+.input-field:focus{
+border-style: solid;
+transition: 0.5;
+border-color: maroon;
+border-width: 2px;
+ 
+}
+ 
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    transition: 0.5s;
+ 
+}
+ 
+.btn:focus {
+  outline: 0;
+}
+ 
+.btn {
+  background-color: Maroon;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  transition: 0.09s;
+  border-radius: 3px;
+}
+ 
+.btn:hover {
+  opacity: 1;
+  transition: 0.8s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.7);
+}
+ 
+.btn:active {
+  transition: 0.09s;
+  transform: translateY(1px);
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+ 
+.btn2 {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+ 
+}
+ 
+p{
+font-family: Helvetica;
+margin-bottom: 5%;
+}
+</style>
+</head>
+<body>
+ 
+<form autocomplete="off" style="max-width:450px;text-align:center;margin: auto;">
+<p style="font-size:55px; font-weight: bold;">SCiPNET LOGIN</p>
+  <div class="input-container">
+    <input class="input-field" type="text" placeholder="Username" name="usrnm">
+  </div>
+ 
+  <div class="input-container">
+    <input onkeyup="if(this.value.length > 0) document.getElementById('start_button').disabled = false; else document.getElementById('start_button').disabled = true;" class="input-field" type="password" placeholder="Password">
+  </div>
+ 
+   <button id="start_button" class="btn btn-success" onclick="window.open('ログインボタンで移動させたいリンクを入れてください','_parent')" disabled> ログイン</button>
+ 
+<br></br>
+   <button style= "font-weight: bold;" class="btn2 btn-success"> パスワードを忘れた場合</button>
+ 
+</form>
+</body>
+</html>
+[[/html]]
+
+**コピーするもの:**
+[[collapsible]]
+[[code type="html"]]
+[[html]]
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Verdana;}
+* {box-sizing: border-box;}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+.input-field:focus{
+border-style: solid;
+transition: 0.5;
+border-color: maroon;
+border-width: 2px;
+
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    transition: 0.5s;
+
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn {
+  background-color: Maroon;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  transition: 0.09s;
+  border-radius: 3px;
+  transition 0.8s;
+}
+
+.btn:hover {
+  opacity: 1;
+  transition: 0.8s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.7);
+}
+
+.btn:active {
+  transition: 0.09s;
+  transform: translateY(1px);
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+
+.btn2 {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+p{
+font-family: Helvetica;
+margin-bottom: 5%;
+}
+</style>
+</head>
+<body>
+
+<form autocomplete="off" style="max-width:450px;text-align:center;margin: auto;">
+<p style="font-size:55px; font-weight: bold;">SCiPNET LOGIN</p>
+  <div class="input-container">
+    <input class="input-field" type="text" placeholder="Username" name="usrnm">
+  </div>
+  
+  <div class="input-container">
+    <input onkeyup="if(this.value.length > 0) document.getElementById('start_button').disabled = false; else document.getElementById('start_button').disabled = true;" class="input-field" type="password" placeholder="Password">
+  </div>
+
+   <button id="start_button" class="btn btn-success" onclick="window.open('ログインボタンで移動させたいリンクを入れてください','_parent')" disabled> ログイン</button>
+
+<br></br>
+   <button style= "font-weight: bold;" class="btn2 btn-success"> パスワードを忘れた場合</button>
+
+
+</form>
+</body>
+</html>
+[[/html]]
+[[/code]]
+
+**重要:**
+* パスワード欄が空欄の場合、ログインボタンはリンクにリダイレクトしません。
+* このログインフォーマットはoffsetの使用を前提に作られています。元から入っている値(placeholder)のテキストを 用意した記事のoffsetのリンクに変えてください。
+[[/collapsible]]
+
+**__オプション2-//サブオプション//__**
+**見た目:**
+
+[[include :scp-jp:component:login-module |url=http://ja.scp-wiki.net/scp-style-resource|id=<ID>|pw=<パスワード>|disc=true|value=リンク]]
+[[include :scp-jp:component:login-module |id=<ID>|pw=<パスワード>|disc=true]]
+[[collapsible show="折りたたみ" hide="ログアウト"]]
+文章
+[[/collapsible]]
+
+**__コピーするもの:__**
+[[collapsible]]
++++* linkオプション: "url"に、ページのurl(あるいは"/ + pagename")を入力
+> @@[[include@@ :scp-jp:component:login-module **@@|url=http://ja.scp-wiki.net/scp-style-resource@@**|id=<ID>|pw=<パスワード>|disc=true**@@|value=リンク@@**@@]]@@
++++* collapsibleオプション: モジュールの直後に折りたたみ構文を挿入
+> @@[[include :scp-jp:component:login-module |id=<ID>|pw=<パスワード>|disc=true]]@@
+> @@[[collapsible show="折りたたみ" hide="ログアウト"]]@@
+> 文章
+> @@[[/collapsible]]@@
++++* 他には…？
+||~ 属性 ||~ 必須 ||~ 許容値 ||~ 説明 ||
+|| id || **yes** || 文章 || IDの値 ||
+|| pw || **yes** || 文章 || パスワードの値 ||
+|| url || no || @@http://example.com@@ _
+/pagename || 指定しない場合、リンクボタンは表示されない ||
+|| value || no || 文章 || リンクボタンの名前 ||
+|| disc || no || true || 指定する場合、パスワードが伏字になる ||
+|| title || no || 文章 _
+リンク || タイトル名 ||
+[[/collapsible]]
+
+
+@@ @@
+
+@@ @@
+
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+++ カスタム画像ブロックフォーマット
+
+**__オプション1__**[[footnote]][[[SCP-4224]]]や[[[SCP-4577]]]、[[[SCP-3662]]]に見られる[[/footnote]]
+
+**見た目:**
+[[include :scp-jp:component:image-zoom name=http://scp.avn.sh/local--files/mrpines:choo-choo/train3.jpg|caption=マウスを上に置くと、画像が拡大します。|width=300px|align=center]]
+
+**コピーするもの:**
+[[collapsible]]
+> [[include :scp-jp:component:image-zoom name={$name}|caption={$caption}|width=300px|align=right]]
+
+**{$name}**をファイル名か画像リンクに、**{$caption}**を画像下部に表示させたい文章に変えてください。幅(width)とどちらに寄せるか(align)は標準的なSCP記事に合わせていますが、好きなように変えることもできます。
+[[/collapsible]]
+
+**__オプション2__**[[footnote]][[[error-field-cannot-be-lloyd|ERROR: Field Cannot Be Lloyd]]]に見られる[[/footnote]]
+
+**見た目:**
+
+[[include :scp-jp:component:image-blur name=http://scp.avn.sh/local--files/mrpines:choo-choo/train3.jpg|caption=マウスを上に置くと、画像が表示されます。|width=300px|align=center]]
+
+**コピーするもの:**
+[[collapsible]]
+[[div class="code"]]
+@@[[include :scp-jp:component:image-blur name={$name}|caption={$caption}|width=300px|align=right]]@@
+[[/div]]
+
+**{$name}**をファイル名か画像リンクに、**{$caption}**を画像下部に表示させたい文章に変えてください。幅(width)とどちらに寄せるか(align)は標準的なSCP記事に合わせていますが、好きなように変えることもできます。
+[[/collapsible]]
+
+**__オプション3__**[[footnote]][[[hawks-n-artworks|]]]に見られる。[[/footnote]]
+
+**見た目:**
+
+[[include :scp-sandbox-3:component:image-zoom-2 name=http://scp.avn.sh/local--files/mrpines:choo-choo/train3.jpg|caption=クリックしてそのままホールドすると、画像が拡大します。|width=300px|align=center]]
+
+**コピーするもの:**
+[[collapsible]]
+[[div class="code"]]
+@@[[include :scp-sandbox-3:component:image-zoom-2 name={$name}|caption={$caption}|width=300px|align=right]]@@
+[[/div]]
+[[/collapsible]]
+@@ @@
+
+@@ @@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+++ 画像カルーセル
+
+[[include :topia:cqb:carousel
+| images=SCP-396-new.jpg,scp085-03.png,monster8editub9-new.jpg,neko.png,001JPmeme.jpg
+| caption=特別な意味も隠されたメッセージも無い、ただの画像。
+| interval=3
+| wiki=scp-jp
+| page=scp-style-resource
+| width=300px
+| height=240px
+| position=center
+| background=white
+]]
+
+使い方は[http://topia.wikidot.com/cqb:carousel こちら]にあります[[footnote]]**訳注:** リンク先は英文です。[[/footnote]]。
+@@ @@
+
+@@ @@
+
+
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+++ サンドボックスお役立ちツール
+
+**見た目:**
+[[module ListPages offset="@URL|0" range="."]]
+[/scp-style-resource/offset/1/tool_limit/1#toc10 ツールを表示する]
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="tool"]]
+[[%%content{0}%%include :scp-jp-sandbox2:component:usefultool-module]]
++* 右下を見てください！
+**注:** ページ内で@@[[toc]]@@が既に使われている場合、"Table of Contents"オプションは機能しません。
+[/scp-style-resource#toc10 ツールを非表示にする]
+[[/module]]
+**コピーするもの:**
+> **EN:** @@[[include@@ :scp-sandbox-3:component:usefultool-module]]
+> **CN:**[[footnote]]SCP-CN翻訳者: [[*user Sekai_s]][[/footnote]] @@[[include@@ :scpsandboxcn:component:usefultool-module]]
+> **KO:**[[footnote]]SCP-KO翻訳者: [[*user Aiken Drum]][[/footnote]] @@[[include@@ :sandbox.scp-wiki.kr:component:usefultool-module-ko]]
+> **JP:**[[footnote]]SCP-JP翻訳者: [[*user 7happy7]][[/footnote]] @@[[include@@ :scp-jp-sandbox2:component:usefultool-module]]
+**重要:** ページ下部に書き込んでください。
+
+**__オプション2__**
+
+**見た目:**
+[[include :scp.avn.sh:7happy7:ut-ver2
+|home=http://ja.scp-wiki.net
+]]
+[[module ListPages offset="@URL|0" range="."]]
+[/scp-style-resource/offset/1/tool2_limit/1#toc10 ツールを表示する]
+[[%%content{0}%%module CSS]]
+.fixed-controls{display:none;}
+[[%%content{0}%%/module]]
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="tool2"]]
++* 右下を見てください！
+**###901|警告:##** [[span_ class="fa fa-edit"]]@<&nbsp;>@[[/span]]は**″編集ボタン″**です。このページを編集する必要ないならば、//押さないでください。//
+
+[/scp-style-resource#toc10 ツールを非表示にする]
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="tool"]]
+[[%%content{0}%%module CSS]]
+.fixed-controls{display:none;}
+[[%%content{0}%%/module]]
+[[/module]]
+
+**コピーするもの:**
+> @@[[include@@ :scp.avn.sh:7happy7:ut-ver2]]
+> |home=@@http://アナタノ-ホームページ.com@@
+> ]]
+
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+
+++ 黒塗りフォーマット[[footnote]]双方ともに[[*user Nanimono Daemon]]によるもの。[[/footnote]]
+
+**__オプション1__**
+**見た目:**
+[[span class="bblock"]]情報を黒塗りし、マウスオーバーで可視化させるフォーマットです。[[/span]]
+
+**コピーするもの:**
+[[code]]
+[[span class="bblock"]]ここに文章[[/span]]
+[[/code]]
+
+**調整の仕方:**
+このコードでマウスオーバー時の文章の色を調整します。
+[[code]]
+[[module CSS]]
+.bblock:hover {color: white}
+[[/module]]
+[[/code]]
+
+**__オプション2__**
+**見た目:**
+[[span class="dblock"]]文章の方ではなく、背景の色を調整します。[[/span]]
+
+**コピーするもの:**
+[[code]]
+[[span class="dblock"]]ここに文章[[/span]]
+[[/code]]
+
+**調整の仕方:**
+このコードでマウスオーバー時の背景の色を調整します。
+[[code]]
+[[module CSS]]
+.dblock:hover {background: #f4f4f4}
+[[/module]]
+[[/code]]
+
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+
+++ "今日の日付"フォーマット
+
+**__オプション1__**[[footnote]]日本支部の[[*user C-take]]によるもの。[[/footnote]]
+**見た目:**
+[[module css]]
+@import url(http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/7);
+[[/module]]
+++* ノーマルフォント (分まで表示)
+[[div class="normalFontTime"]]
+サンプル: 今日は[[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/1 width="120" scrolling="no"]]です。
+[[/div]]
+> @@[[div class="normalFontTime"]]@@
+> @@サンプル: 今日は[[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/1 width="120" scrolling="no"]]です。@@
+> @@[[/div]]@@
+[[collapsible show="+ The others..."]]
+
+++* ノーマルフォント (秒まで表示)
+[[div class="normalFontTime"]]
+sample: [[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/2 width="130" scrolling="no"]]
+[[/div]]
+> @@[[div class="normalFontTime"]]@@
+> @@sample: [[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/2 width="130" scrolling="no"]]@@
+> @@[[/div]]@@
+
+++* h1 (分まで表示)
+sample:
+[[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/3 width="230" height="25" scrolling="no"]]
+> @@[[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/3 width="230" height="25" scrolling="no"]]@@
+
+++* h1 (秒まで表示)
+sample:
+[[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/4 width="260" height="25" scrolling="no"]]
+> @@[[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/4 width="260" height="25" scrolling="no"]]@@
+
+++* 太字 (分まで表示)
+[[div class="normalFontTime"]]
+**sample:** [[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/5 width="140" height="16" scrolling="no"]]
+[[/div]]
+> @@[[div class="normalFontTime"]]@@
+> @@[[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/5 width="140" height="16" scrolling="no"]]@@
+> @@[[/div]]@@
+
+++* 太字 (秒まで表示)
+[[div class="normalFontTime"]]
+**sample:** [[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/6 width="160" hegiht="16" scrolling="no"]]
+[[/div]]
+> @@[[div class="normalFontTime"]]@@
+> @@[[iframe http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/6 width="160" height="16" scrolling="no"]]@@
+> @@[[/div]]@@
+
+[[/collapsible]]
+**導入方法:**
+[[collapsible]]
+**重要:** ページトップに書き込んでください。
+[[code]]
+[[module css]]
+@import url(http://scp-sandbox-3.wikidot.com/local--code/component:todaysdate/7);
+[[/module]]
+[[/code]]
+
+上記のコードをインストールすれば準備完了！これらのiframeが使えるようになります。
+[[/collapsible]]
+
+**__オプション2__**
+**見た目:**
+[[module ListPages limit="1" category="*" order="updated_at desc"]]
+> 今日は%%updated_at|%Y/%m/%d%%です…多分ね！
+[[/module]]
+
+**コピーするもの:**
+[[collapsible]]
+[[code]]
+[[module ListPages limit="1" category="*" order="updated_at desc"]]
+> 今日は%%updated_at|%Y/%m/%d%%です…多分ね！
+[[/module]]
+[[/code]]
+[[/collapsible]]
+
+@@@@
+@@@@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+@@@@
+@@@@
+
+++ Discordチャットフォーマット
+
+**__オプション1:__**
+
+**見た目:**
+
+[[include :scp-wiki:component:discord-chat-source |inc-source= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-user= --]
+|user-id=one
+|username=GOTO 20
+|usericon=http://www.scp-wiki.net/local--files/component:discord-chat/GOTO20.png
+|usercolor=#ff5e56
+]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-user= --]
+|user-id=two
+|username=corvas
+|usericon=http://www.scp-wiki.net/local--files/component:discord-chat/corvas.png
+|usercolor=#60b9dc
+]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-start= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-msg-start= --]
+|user-id=one
+|username=GOTO 20
+|msg-time=今日 16:28
+]]
+やあ、Corvus。 今いるかい？ [[image http://www.scp-wiki.net/local--files/component:discord-chat/smug.svg class="emoji inline"]]
+[[include :scp-wiki:component:discord-chat-source |inc-msg-end= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-msg-start= --]
+|user-id=two
+|username=Corvas
+|msg-time=今日 16:28
+]]
+いるよ
+どうした？ [[span class="at_mention"]]@GOTO 20[[/span]]
+[[image http://www.scp-wiki.net/local--files/component:discord-chat/smug.svg class="emoji alone"]]
+[[include :scp-wiki:component:discord-chat-source |inc-msg-end= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-new-msgs= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-msg-start= --]
+|user-id=one
+|username=GOTO 20
+|msg-time=今日 16:29
+]]
+これは画像です
+[[image http://www.scp-wiki.net/local--files/component:discord-chat/noodle.jpg link="http://www.scp-wiki.net/scp-4378" class="msgimage"]]
+[[include :scp-wiki:component:discord-chat-source |inc-msg-end= --] ]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-attch= --]
+|attch-id=attch-one
+|user-id=one
+|username=GOTO 20
+|msg-time=今日 16:30
+|attchname=mv_sk1r.tar.gz
+|attchsize=2.71 KB
+|attchlink=http://www.scp-wiki.net/scp-2105
+]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-attch= --]
+|attch-id=attch-two
+|user-id=two
+|username=corvas
+|msg-time=今日 17:20
+|attchname=butts.zip
+|attchsize=512 MB
+|attchlink=http://www.scp-wiki.net/scp-4205
+]]
+
+[[include :scp-wiki:component:discord-chat-source |inc-end= --] ]]
+
+**見た目:**
+
+[*http://scp-wiki.net/component:discord-chat 完全な説明はこちら][[footnote]]訳注: SCP-ENのページです[[/footnote]]
+
+**__オプション2:__**
+
+**見た目:**
+
+[[div class="discord-nagi"]]
+[[size 110%]]##363940|.....##[[/size]][[size 200%]]##lightgreen|⇒##[[/size]] [[size 125%]]##363940|.## ##7289DA|@Rainer's a soft boi##が さんか した！ こうかは ばつぐんだ！[[/size]]
+------
+[[span class="user1"]]A-paul-yon[[/span]] [[size 75%]]##5B5E63|今日 12:00##[[/size]]
+Yo, [[span class="tag"]]@Rainer's a soft boi[[/span]]
+[[span class="highlight"]]こちらを確認してください。[[/span]]
+------
+[[span class="user2"]]Rainer's a soft boi[[/span]] [[size 75%]]##5B5E63|今日 12:00##[[/size]]
+それはとてもクールですが、次のことを考慮してください:
+[[div class="quote"]]
+資本主義のもとでは、道徳的な消費は起こりません。
+[[/div]]
+[[/div]]
+
+**コピーするもの:**
+
+[[collapsible]]
+**重要:** これは記事の最上部に設置されるCSSモジュールです。
+
+[[code]]
+[[module CSS]]
+.discord-nagi {display:block; background:#363940; color: #DADBDC; padding: 5px 10px 5px 10px;}
+.quote {background-color: #2F3136;border: solid 3px #2B2C31;border-radius: 10px;color: #7C8C8E; padding: 0px 5px 0px 5px; width: 85%; margin: 0px 0px 5px; font-size: 110%}
+.highlight {background-color: black; color: white; font-family:monospace; font-size: 125%}
+.user1 {font-weight: bold;color: #c0e3ea}
+.user2 {font-weight: bold;color: #ff0066}
+.tag {color: #7289DA}
+[[/module]]
+[[/code]]
+
+以下はチャット本体のコードです。記事の中でチャットを表示したい場所に設置してください。
+
+[[code]]
+[[div class="discord-nagi"]]
+[[size 110%]]##363940|.....##[[/size]][[size 200%]]##lightgreen|⇒##[[/size]] [[size 125%]]##363940|.## ##7289DA|@Rainer's a soft boi##が さんか した！ こうかは ばつぐんだ！[[/size]]
+------
+[[span class="user1"]]A-paul-yon[[/span]] [[size 75%]]##5B5E63|今日 12:00##[[/size]]
+Yo, [[span class="tag"]]@Rainer's a soft boi[[/span]]
+[[span class="highlight"]]こちらを確認してください。[[/span]]
+------
+[[span class="user2"]]Rainer's a soft boi[[/span]] [[size 75%]]##5B5E63|今日 12:00##[[/size]]
+それはとてもクールですが、次のことを考慮してください:
+[[div class="quote"]]
+資本主義のもとでは、道徳的な消費は起こりません。
+[[/div]]
+[[/div]]
+[[/code]]
+[[/collapsible]]
+
+**__オプション3:__**
+
+**見た目:**
+
+[[div class="light"]]
+[[size 110%]]##363940|.....##[[/size]][[size 200%]]##lightgreen|⇒##[[/size]] [[size 125%]]##363940|.## ##7289DA|@Rainer's a soft boi##が さんか した！ こうかは ばつぐんだ！[[/size]]
+------
+[[span class="user1"]]A-paul-yon[[/span]] [[size 75%]]##5B5E63|今日 12:00##[[/size]]
+Yo, [[span class="tag"]]@Rainer's a soft boi[[/span]]
+[[span class="highlight"]]こちらを確認してください。[[/span]]
+------
+[[span class="user2"]]Rainer's a soft boi[[/span]] [[size 75%]]##5B5E63|今日 12:00##[[/size]]
+それはとてもクールですが、次のことを考慮してください:
+[[div class="quote"]]
+資本主義のもとでは、道徳的な消費は起こりません。
+[[/div]]
+[[/div]]
+
+**コピーするもの:**
+
+[[collapsible]]
+**重要:** これは記事の最上部に設置されるCSSモジュールです。
+
+[[code]]
+[[module CSS]]
+.light {display:block; background:#FFFFFF; color: #DADBDC; padding: 5px 10px 5px 10px; border: solid 1px black}
+.lightquote {color: #839496; background-color: #F8F9F9;border: solid 3px #EBEDEF;border-radius: 10px; padding: 0px 5px 0px 5px; width: 85%; margin: 0px 0px 5px; font-size: 110%}
+.lighthighlight {background-color: #F8F9F9; color: #939BA6; font-family:monospace; font-size: 125%}
+.user1 {font-weight: bold;color: #c0e3ea}
+.user2 {font-weight: bold;color: #ff0066}
+.tag {color: #7289DA}
+[[/module]]
+[[/code]]
+
+以下はチャット本体のコードです。記事の中でチャットを表示したい場所に設置してください。
+
+[[code]]
+[[div class="light"]]
+[[size 110%]]##363940|.....##[[/size]][[size 200%]]##lightgreen|⇒##[[/size]] [[size 125%]]##363940|.## ##7289DA|@Rainer's a soft boi##が さんか した！ こうかは ばつぐんだ！[[/size]]
+------
+[[span class="user1"]]A-paul-yon[[/span]] [[size 75%]]##5B5E63|今日 12:00##[[/size]]
+Yo, [[span class="tag"]]@Rainer's a soft boi[[/span]]
+[[span class="highlight"]]こちらを確認してください。[[/span]]
+------
+[[span class="user2"]]Rainer's a soft boi[[/span]] [[size 75%]]##5B5E63|今日 12:00##[[/size]]
+それはとてもクールですが、次のことを考慮してください:
+[[div class="lightquote"]]
+資本主義のもとでは、道徳的な消費は起こりません。
+[[/div]]
+[[/div]]
+[[/code]]
+[[/collapsible]]
+
+@@@@
+@@@@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+@@@@
+@@@@
+
+++ 拡張Wikidotモジュール
+[[=]]
++++ ListUsersモジュール
+[[/=]]
+**__オプション1 (//非Wikidotユーザー向けListUsersモジュール//):__**
+
+**見た目:**
+[[include :topia:listusers-1 users="."]]
+##red|%%name%%##
+[[include :topia:listusers-2]]
+##blue|ゲスト##
+[[include :topia:listusers-3]]
+**注:** あなたがWikidotユーザーであれば、**モジュールにはあなたのIDが表示され**、そうでなければ、**"ゲスト"と表示されます。**
+
+**What to copy:**
+[[collapsible]]
+> ##red|[[include :topia:listusers-1 users="."]]##
+> @@##red|@@**%%name%%**@@##@@
+> ##red|[[include :topia:listusers-2]]##
+> @@##blue|@@**ゲスト**@@##@@
+> ##red|[[include :topia:listusers-3]]##
+[[/collapsible]]
+ _
+
+**__オプション2 (//ListUsersの値を利用した@@[[include]]@@の方法//):__**[[footnote]] **出典:** http://smlt.wikidot.com/boyu12:inc-loop
+**作者:** [[*user boyu12]] [[/footnote]]
+
+**見た目:**[[footnote]]画像は[[*user djkaktus]] 作 [[[SCP-3935]]]からお借りしました。[[/footnote]]
+[[include :topia:listusers-1 users="."]]
+[[include :topia:inc-loop c=__________|p=component:image-block]]
+|name=http://scp-wiki.wdfiles.com/local--files/scp-3935/school.png
+|align=center
+|width=100%
+|caption=これはSCP-XXXXで… そしてあなたは //%%name%%//だね。
+]]
+[[include :topia:listusers-2]]
+[[include component:image-block
+|name=http://scp-wiki.wdfiles.com/local--files/scp-3935/school.png
+|align=center
+|width=100%
+|caption=これはSCP-XXXXで… きみはだれだ？
+]]
+[[include :topia:listusers-3]]
+
+**コピーするもの:**
+[[collapsible]]
+> ##red|@@[[module ListUsers users="."]]@@##
+> @@[[include :topia:inc-loop c=__________|p=<インクルードするページ名>]]@@
+> |<value>=**%%name%%**
+> ]]
+> ##red|@@[[/module]]@@##
+> ----
+> **サンプル:**
+> ##red|[[include :topia:listusers-1 users="."]]##
+> @@[[include :topia:inc-loop c=__________|p=component:image-block]]@@
+> |name=@@http://scp-wiki.wdfiles.com/local--files/scp-3935/school.png@@
+> |align=center
+> |width=100%
+> |caption=これはSCP-XXXXで… そしてあなたは //%%name%%//だね。
+> ]]
+> ##red|[[include :topia:listusers-2]]##
+> [[include component:image-block
+> |name=@@http://scp-wiki.wdfiles.com/local--files/scp-3935/school.png@@
+> |align=center
+> |width=100%
+> |caption=これはSCP-XXXXで… きみはだれだ？
+> ]]
+> ##red|[[include :topia:listusers-3]]##
+[[/collapsible]]
+@@@@
+@@@@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+@@@@
+@@@@
+
+++ アノマリー分類システムヘッダー
+
+[[[anomaly-classification-system-guide|これについて学ぶにはこちらをクリックしてください。]]]
+
+**作者:** [[*user Woedenaz]]
+
+**見た目:**
+
+
+[[include :scp-jp:component:anomaly-class-bar-source
+
+|item-number= XXXX
+
+|clearance= #
+
+|container-class= euclid
+
+|secondary-class= none
+
+|secondary-icon= http://urlhere.com
+
+|disruption-class= vlam
+
+|risk-class= warning
+
+]]
+
+**コピーするもの:**
+
+[[collapsible]]
+[[[component:anomaly-class-bar|完全なガイドはこちら。]]]
+
+> [[include :scp-jp:component:anomaly-class-bar-source
+> 
+> |item-number= XXXX
+> 
+> |clearance= #
+> 
+> |container-class= euclid
+> 
+> |secondary-class= none
+> 
+> |secondary-icon= http://acsurlexample.com/image.svg
+> 
+> |disruption-class= vlam
+> 
+> |risk-class= warning
+> 
+> ]]
+[[/code]]
+
+[[/collapsible]]
+
+@@@@
+@@@@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+@@@@
+@@@@
+
+++ カスタムスクロールバー
+
+**見た目:** [[[component:wondertainmenttheme | ワンダーテインメント博士のテーマ]]] または [[[component:wilsons-theme | ウィルソンズ・ワイルドライフ・ソリューションズのテーマ]]]
+
+**コピーするもの:**
+
+[[collapsible]]
+[[code]]
+[[module CSS]]
+::-webkit-scrollbar-thumb
+{
+    [properties]; /* これは、スクロールバーの色からボーダーラインの半径、アウトラインの追加まで、ほとんど何でも使用できます。参考として、NagirosのPoIファイルのコードを示します。 */
+    background: rgba(247,168,184, .5);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+[[/module]]
+[[/code]]
+[[/collapsible]]
+
+@@@@
+@@@@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+@@@@
+@@@@
+
+++ サイドバーを開くボタンのデザイン変更
+
+**見た目:** [[[component:wilsons-theme | ウィルソンズ・ワイルドライフ・ソリューションズのテーマ]]] または [[[http://scp-wiki.net/nagiros-poi-file | Nagiros' PoI File]]]
+
+**コピーするもの:**
+
+[[collapsible]]
+[[code]]
+[[module CSS]]
+@media (max-width: 767px) {
+    .open-menu a {
+         /* 色を変更する必要のない部分については、関連する行を削除してください。 */
+         border: 0.2em solid COLOR !important; /* これは円の色に影響します。 */
+         background-color: COLOR !important; /* これは背景色に影響します。 */
+         color: COLOR !important; /* これは円の内部のバーの色に影響します。 */
+    }
+}
+[[/module]]
+[[/code]]
+[[/collapsible]]
+
+@@@@
+@@@@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+@@@@
+@@@@
+
+++ アマチュアカウントダウンタイマー
+
+**見た目:** 
+
+[[html]]
+<script type="text/javascript">
+today = new Date();
+BigDay = new Date("January 1, 2050"); // Change date to the day you would like to countdown to
+msPerDay = 24 * 60 * 60 * 1000 ;  // Vbs
+timeLeft = (BigDay.getTime() - today.getTime());// Vbs
+e_daysLeft = timeLeft / msPerDay;// Vbs
+daysLeft = Math.floor(e_daysLeft);// Vbs
+e_hrsLeft = (e_daysLeft - daysLeft)*24;// Vbs
+hrsLeft = Math.floor(e_hrsLeft);// Vbs
+minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);// Vbs
+document.write("2050年まであと " + daysLeft + " 日 " + hrsLeft +" 時間 " + minsLeft + "  分です。 <P>"); 
+// I started this from something I got from moonfruit.com  Credits for them. 
+</script>
+[[/html]]
+
+**コピーするもの:**
+
+[[collapsible]]
+[[code]]
+[[html]]
+<script type="text/javascript">
+today = new Date();
+BigDay = new Date("月 日, 年"); // カウントダウンしたい日を入力してください(注: "January 1, 2050"のように英語と数字で入力してください)
+msPerDay = 24 * 60 * 60 * 1000 ;  // Vbs
+timeLeft = (BigDay.getTime() - today.getTime());// Vbs
+e_daysLeft = timeLeft / msPerDay;// Vbs
+daysLeft = Math.floor(e_daysLeft);// Vbs
+e_hrsLeft = (e_daysLeft - daysLeft)*24;// Vbs
+hrsLeft = Math.floor(e_hrsLeft);// Vbs
+minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);// Vbs
+document.write("...まであと " + daysLeft + " 日 " + hrsLeft +" 時間 " + minsLeft + "  分です。 <P>"); 
+// このコードはmoonfruit.comを参考にして制作されました。
+</script>
+[[/html]]
+[[/code]]
+[[/collapsible]]
+
+@@@@
+@@@@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+@@@@
+@@@@
+
+++ 多重折りたたみ
+
+**見た目:** 
+
+[[include component:coltop show=+ A |hide=- A]]
+AAAAAAAAAAAAAAAAAAA!
+[[include component:coltop show=+ さらなるA |hide=- AAAAAAAA]]
+[[=]]
++* A
+[[/=]]
+[[include :scp-int:component:colend]]
+[[include :scp-int:component:colend]]
+
+**コピーするもの:**
+
+[[collapsible]]
+[[div class="code"]]
+@@[[include component:coltop show=テキストを表示 |hide=テキストを隠す]]@@
+@@[[include component:coltop show=テキストを表示 |hide=テキストを隠す]]@@
+@@[[include component:colend]]@@
+@@[[include component:colend]]@@
+[[/div]]
+[[/collapsible]]
+
+@@@@
+@@@@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+@@@@
+@@@@
+
+++ 偽リンク・折り畳み
+
+**見た目:**[[footnote]] [[[SCP-4415]]]でみられる。 [[/footnote]]
+
+[# + █K-クラス "千の(データ消去済)の踊り"記録ファイルに接続]
+
+[# www.serpents-hand.org]
+
+**コピーするもの:**
+
+[[collapsible]]
+[[code]]
+[# リンクテキスト]
+[[/code]]
+[[/collapsible]]
+
+@@@@
+@@@@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+@@@@
+@@@@
+
+++ Eメールテンプレート
+
+[[module CSS]]
+.blinkbar-nagi {color: red;font-size:125%; animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
+.nagiros-example .collapsible-block-folded a.collapsible-block-link {
+    animation: blink 0.8s ease-in-out infinite alternate;
+}
+@keyframes blink {
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
+}
+.email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
+.nagiros-example a.collapsible-block-link { font-weight: bold; }
+.tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
+[[/module]]
+
+**見た目:**[[footnote]] [[[http://scp-wiki.net/APAS | Automated Passive Amnestization System Ver. 17.09]]]、[[[http://scp-wiki.net/the-beast-beneath-the-library | The Beast Beneath The Library]]]、[[[SCP-4415]]]でみられる。 [[/footnote]]
+
+[[div class="nagiros-example"]]
+[[=]]
+------
+[[collapsible show="SCiPNET Emailに接続しますか？ (1)通の新着メッセージがあります！" hide="Re:件名"]]
+[[<]]
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Natalie Reems研究員
+**From:** Tonya Skyler研究員
+**Subject:** 件名
+[[/div]]
+------
+OwO
+[[/div]]
+@@ @@
+[[=]]
+[[span class="blinkbar-nagi"]]新着メッセージです！[[/span]]
+[[/=]]
+@@ @@
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Tonya Skyler研究員
+**From:** Natalie Reems研究員
+**Subject:** Re:件名
+[[/div]]
+------
+UwU
+[[/div]]
+[[/<]]
+[[/collapsible]]
+[[/=]]
+[[/div]]
+
+**コピーするもの:**
+
+[[collapsible]]
+**重要:** 以下のものはページの最上部に配置してください。
+[[code]]
+[[module CSS]]
+.blinkbar {color: red;font-size:125%; animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
+.collapsible-block-folded a.collapsible-block-link {
+    animation: blink 0.8s ease-in-out infinite alternate;
+}
+@keyframes blink {
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
+}
+.email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
+a.collapsible-block-link { font-weight: bold; }
+.tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
+[[/module]]
+[[/code]]
+
+**重要:** 以下のものはメールを表示したい場所に配置してください。
+[[code]]
+[[=]]
+------
+[[collapsible show="SCiPNET Emailに接続しますか？ (1)通の新着メッセージがあります！" hide="Re:件名"]]
+[[<]]
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Natalie Reems研究員
+**From:** Tonya Skyler研究員
+**Subject:** 件名
+[[/div]]
+------
+OwO
+[[/div]]
+@@ @@
+[[=]]
+[[span class="blinkbar"]]新着メッセージです！[[/span]]
+[[/=]]
+@@ @@
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Tonya Skyler研究員
+**From:** Natalie Reems研究員
+**Subject:** Re:件名
+[[/div]]
+------
+UwU
+[[/div]]
+[[/<]]
+[[/collapsible]]
+[[/=]]
+[[/code]]
+[[/collapsible]] 
+@@@@
+@@@@
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+@@@@
+@@@@
+
+++ ページ内容のフェードアウト
+
+__**オプション1:**__[[footnote]][*http://ja.scp-wiki.net/scp-1630-jp SCP-1630-JP]や[*http://ja.scp-wiki.net/scp-1286-jp SCP-1286-JP]に見られる[[/footnote]]
+
+**見た目:** 
+[[module css]]
+/* 
+Fadeout Page-Contents
+- Copyright (c) 2020 ukwhatn
+- Released under the MIT License
+- http://expunged.xyz/MIT.txt
+*/
+
+/*== variables ==*/
+:root {
+
+  /* FadeOut Duration */
+  --fadeout-time: 1s;
+
+  /* Image FadeIn Duration */
+  --img-fadein-time: 1s;
+
+  /* Image Fadein Delay */
+  --img-fadein-delay: 2s;
+
+}
+
+/*== BASE CODE ==*/
+
+.fadeout-wrapper  {
+  position: relative;
+  overflow: hidden;
+}
+
+.fadeout-wrapper .cover{
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  background: white;
+  color: transparent;
+  animation: cover-anim var(--fadeout-time) linear 0s 1 forwards;
+}
+
+@keyframes cover-anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeout-wrapper .escape {
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+}
+
+.fadeout-wrapper .fadein-img img{
+  position: relative;
+  z-index: 3;
+  opacity: 0;
+  animation: cover-anim var(--img-fadein-time) linear var(--img-fadein-delay) 1 forwards;
+}
+[[/module]] 
+[[div style="padding-left: 1em"]]
+消したくない文章
+
+[[div_ class="fadeout-wrapper"]]
+
+消したい文章
+
+[[span class="escape"]]消したくない文章[[/span]]
+
+消したい文章
+
+[[collapsible show="クリックしてフェードアウト" hide=" "]]
+[[div class="cover"]]
+@@@@
+[[/div]]
+[[/collapsible]]
+[[/div]]
+消したくない文章
+[[/div]]
+**コピーするもの:**
+@@ @@
+[[collapsible]]
+----
+[[size 125%]]**CSSモジュール**[[/size]]
+
+最上部の変数を用いてタイミングなどをカスタムすることができます。
+[[code]]
+[[module css]]
+@import url('http://smlt.wdfiles.com/local--code/ukwhatn%3Afadeout/1');
+
+/*== 変数 ==*/
+:root {
+
+  /* 背景色 (デフォルトではwhite) */
+  --fadeout-background: white;
+
+  /* フェードアウトにかかる時間 */
+  --fadeout-time: 1s;
+
+  /* 切り抜き済みのヘッダー(ヘッダー下部の影をキャンセルします)
+      Sigma9(通常のテーマ)以外のテーマを使用する場合、この変数のURLを変更してください。 */
+  --cropped-header: url(http://smlt.wdfiles.com/local--files/ukwhatn:fadeout/header-crop.png);
+
+}
+
+[[/module]]
+[[/code]]
+
+[[size 125%]]**フェードアウトする部分**[[/size]]
+
+fadeout-wrapperで囲まれた部分だけがフェードアウトします。
+**@@[[span class="escape"]]テキスト[[/span]]@@** の部分は消えません。これはページ内で何度でも、どんな大きさでも使用できます。
+
+[[code]]
+
+消したくない文章
+
+[[div_ class="fadeout-wrapper"]]
+
+消したい文章
+
+[[span class="escape"]]消したくない文章[[/span]]
+
+消したい文章
+
+[[collapsible show="クリックしてフェードアウト" hide=" "]]
+[[div class="cover"]]
+@@@@
+[[/div]]
+[[/collapsible]]
+[[/div]]
+消したくない文章
+
+[[/code]]
+
+[[/collapsible]]
+@@ @@
+__**オプション2: フェードアウト後に画像を表示**__[[footnote]]サンプル画像は[*https://www.goodfreephotos.com/public-domain-images/wide-hiking-path.jpg.php Wide Hiking Path](CC0)をお借りしました。[[/footnote]]
+
+**見た目:** 
+[[div style="padding-left: 1em"]]
+消したくない文章
+
+[[div_ class="fadeout-wrapper"]]
+
+消したい文章
+@@ @@
+[[collapsible show="クリックしてフェードアウト" hide=" "]]
+[[div class="cover"]]
+@@ @@
+[[/div]]
+
+[[div_ class="fadein-img"]]
+[[=image http://smlt.wdfiles.com/local--files/ukwhatn%3Afadeout/sample.jpg]]
+[[/div]]
+
+[[/collapsible]]
+
+[[/div]]
+消したくない文章
+[[/div]]
+**コピーするもの:**
+@@ @@
+[[collapsible]]
+----
+[[size 125%]]**CSSモジュール**[[/size]]
+
+最上部の変数を用いてタイミングなどをカスタムすることができます。
+[[code]]
+[[module css]]
+@import url('http://smlt.wdfiles.com/local--code/ukwhatn%3Afadeout/1');
+
+/*== VARIABLES ==*/
+:root {
+
+  /* 背景色 (デフォルトではwhite) */
+  --fadeout-background: white;
+
+  /* フェードアウトにかかる時間 */
+  --fadeout-time: 1s;
+
+  /* 画像のフェードインにかかる時間 */
+  --img-fadein-time: 1s;
+
+  /* 画像のフェードインがはじまるまでの時間 */
+  --img-fadein-delay: 2s;
+
+  /* 切り抜き済みのヘッダー(ヘッダー下部の影をキャンセルします)
+      Sigma9(通常のテーマ)以外のテーマを使用する場合、この変数のURLを変更してください。 */
+  --cropped-header: url(http://smlt.wdfiles.com/local--files/ukwhatn:fadeout/header-crop.png);
+
+}
+
+[[/module]]
+[[/code]]
+
+[[size 125%]]**フェードアウトする部分**[[/size]]
+
+fadeout-wrapperで囲まれた部分だけがフェードアウトします。
+**@@[[span class="escape"]]テキスト[[/span]]@@** の部分は消えません。これはページ内で何度でも、どんな大きさでも使用できます。
+
+[[code]]
+
+消したくない文章
+
+[[div_ class="fadeout-wrapper"]]
+
+消したい文章
+
+[[collapsible show="クリックしてフェードアウト" hide=" "]]
+
+[[div class="cover"]]
+@@ @@
+[[/div]]
+
+[[div_ class="fadein-img"]]
+[[=image <画像のURL>]]
+[[/div]]
+
+[[/collapsible]]
+
+[[/div]]
+消したくない文章
+
+[[/code]]
+
+[[/collapsible]]
+
+[[module CSS]]
+#page-title {
+    display: block;
+}
+[[/module]]
+@@ @@
+@@ @@

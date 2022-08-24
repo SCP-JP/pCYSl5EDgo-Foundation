@@ -1,0 +1,470 @@
+[[include :scp-jp:theme:basalt darkmode=a|hidetitle=a]]
+
+[[module CSS]]
+body {
+background: black;
+}
+
+hr {
+background: transparent;
+border-top: double 3px var(--accentColor);
+    filter: brightness(300%);
+}
+
+.notation hr, .jotting hr, .darkdocument hr, .modal hr, .smallmodal hr, div.blockquote hr, .blockquote hr, blockquote hr {
+border-top: solid 2px grey;
+}
+
+#side-bar {
+    background: linear-gradient(
+0deg
+ , rgba(10, 10, 10, 1) 87%, var(--accentColor) 100%);
+}
+
+a {
+    font-weight: 600;
+}
+
+a.newpage {
+    font-weight: 600;
+}
+
+a:visited {
+    font-weight: 600;
+}
+
+#side-bar .side-block {
+    background: linear-gradient(
+180deg
+, rgba(10, 10, 10, 1) 0%, var(--accentColor) 100%);
+border: solid 2px var(--accentColor);
+}
+
+#side-bar .side-block.resources {
+    background: var(--accentColor);
+}
+
+#side-bar .side-block.media {
+    background-color: var(--accentColor) !important;
+    border-bottom: solid 2px var(--accentColor);
+    border-top: solid 2px var(--accentColor);
+}
+
+::selection {
+    background-color: rgba(242, 242, 242, 1);
+    color: black;
+}
+
+.footer-wikiwalk-nav a {
+    color: var(--accentColor);
+}
+
+:root {
+    --title: "或(ドードーの)任務";
+    --subtitle: "助けて、淵に嵌っちまった!";
+    --accentColor: hsl(0, 0%, 0%);
+    --accentColor2: hsl(0, 0%, 20%);
+    --sidesubtitle: "助けて、淵に嵌っちまった";
+    --logo: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-149-nsmy/Dodo-bw.png);
+
+}
+#side-bar > div.side-block.media img {
+    filter: none !important;
+    -webkit-filter: none !important;
+}
+
+.custom2 .wiki-content-table {
+    width: 100%;
+}
+
+#page-content tr th {
+    text-align: center;
+}
+
+.fnnum::after, .fnnum:hover::after {
+    color: #b8f !important;
+}
+
+#main-content {
+max-width: 95%;
+}
+
+#content-wrap {
+    margin: 0 0 0 0 !important;
+    min-width: 100%;
+}
+
+#page-content div.page-rate-widget-box .rate-points, #page-content .page-rate-widget-box .rateup, #page-content .page-rate-widget-box .ratedown, #page-content .page-rate-widget-box .cancel {
+    background-color: #000000;
+}
+
+hr {
+border-top: double 4px #333333;
+}
+
+#extra-div-1 {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+/* Japanese localizing */
+
+:root {
+    --titleLength: 220px;
+}
+
+[[/module]]
+
+[[div style="display: none;"]]
+[[include component:image-block
+name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-149-nsmy/Dodo-bw.png
+|caption=或（ドードーの）任務
+|width=100%
+|align=center]]
+[[/div]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+
+[[=]]
++ [[span style="letter-spacing: unset;"]]A(DODO)MISSION[[/span]]
+
+[[div style="opacity: 80%;"]]
+[[size 90%]]**（名）** フェルト製のクジラによる一連のアートワーク。[[/size]]
+[[/div]]
+
+= //全てを描画するということは、何も描画しないということだ。カンバスが広がるとともに、またその絵は薄く広がってもいく。//
+----
+[[tabview]]
+[[tab 終了試行]]
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-145-pjq3/TERMA-S.jpg width="600px"]]
++ __SCP-6820: 終了試行__
+[*http://scp-jp.wikidot.com/scp-6820 > リンク <]
+@@ @@
+By, [[*user Placeholder McD]], [[*user stephlynch]], & [[*user Liryn]]
+@@ @@
+[[collapsible show="イメージソース" hide="閉じる"]]
+=====
+> **タイトル:** 我が子を食らうサトゥルヌス
+> **著作者:** フランシスコ・デ・ゴヤ
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://en.wikipedia.org/wiki/File:Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg
+=====
+> **タイトル:** Fotoreproductie van een tekening naar een foto van een zonsverduistering
+> **著作者:** 匿名
+> **ライセンス:** Public domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.479904
+=====
+> **タイトル:** Allegorie op de wereld
+> **著作者:** Boëtius Adamsz. Bolswert
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.84343
+=====
+> **タイトル:** Gevecht tussen een slang en een draak
+> **著作者:** 匿名
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.47211
+=====
+> **タイトル:** Endleaves of Art
+> **著作者:** 匿名
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.575681
+=====
+> **タイトル:** Liggend konijn
+> **著作者:** ユリー・デ・フラーハ
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.205691
+=====
+> **タイトル:** Prints of the Brain and the Heart
+> **著作者:**  Jan l'Admiral
+> **ライセンス:** Public domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.44416
+=====
+> **タイトル:** Dood verschijnt aan hemel boven kasteel
+> **著作者:** Jean Danguy
+> **ライセンス:** Public domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.42109
+=====
+> **タイトル:** 演劇改良 吉野拾遺四條縄手 楠正行討死之図 楠帯刀正行 市川団十郎
+> **著作者:** 月岡 芳年
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.441804
+=====
+> **タイトル:** Executioners’ swords of the Court of Holland
+> **著作者:** 匿名
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.233067
+=====
+> **タイトル:** Sword of Honour
+> **著作者:** 匿名
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.245226
+=====
+[[/collapsible]]
+[[/tab]]
+
+[[tab カオス理論]]
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-146-3u5e/CHAOS-S.jpg width="600px"]]
++ __SCP-6747: カオス理論__
+[*http://scp-jp.wikidot.com/scp-6747 > リンク <]
+@@ @@
+By, [[*user Ralliston]], [[*user Placeholder McD]], & [[*user Liryn]]
+@@ @@
+[[collapsible show="イメージソース" hide="閉じる"]]
+=====
+> **タイトル:** 渦巻 続篇
+> **著作者:** 渡辺 霞亭
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.434931
+=====
+> **タイトル:** Fragment van twee aan elkaar genaaide delen
+> **著作者:** 匿名
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.232031
+=====
+> **タイトル:** Wandbespanning
+> **著作者:** Chris Lebeau
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.19742
+=====
+> **タイトル:** Wandbespanning met het motief "Lotos"
+> **著作者:** Chris Lebeau
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.19718
+=====
+> **タイトル:** Tuinmelde
+> **著作者:** Anselmus Boëtius de Boodt
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.675976
+=====
+> **タイトル:** Kool
+> **著作者:** Anselmus Boëtius de Boodt
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.675069
+=====
+> **タイトル:** Still Life with Apples in a Delft Blue Bowl
+> **著作者:** ウィレム・デ・ズワルト
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.9652
+=====
+> **タイトル:** Affiche voor Boon's Geïllustreerd Magazijn
+> **著作者:** ヨハン・ヘオルフ・ファン・カスペル
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.634447
+=====
+> **タイトル:** Crown for the King of Ardra
+> **著作者:** 匿名
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.233390
+=====
+> **タイトル:** Still Life with Books
+> **著作者:** ヤン・リーフェンス
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.5233
+=====
+> **タイトル:** モナコ近くのコルニッシュ
+> **著作者:** クロード・モネ
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.7561
+=====
+[[/collapsible]]
+
+[[/tab]]
+
+[[tab 超越霊智]]
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-147-hy1w/Prom-4.jpg width="600px"]]
++ __SCP-6659: 超越霊智__
+[*http://scp-jp.wikidot.com/scp-6659 > リンク <]
+@@ @@
+By, [[*user DodoDevil]], [[*user Placeholder McD]], & [[*user Liryn]]
+@@ @@
+[[collapsible show="イメージソース" hide="閉じる"]]
+=====
+> **タイトル:** Anatomische studie van de spieren en pezen van de linkerhand
+> **著作者:** Pieter van Gunst
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.339427
+=====
+> **タイトル:** Röntgenopname van een hand van een volwassene
+> **著作者:** Otto Hidlebrand
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.288300
+=====
+> **タイトル:** Studie van een hand
+> **著作者:** Joannes Bemme
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.77725
+=====
+> **タイトル:** Studie van een hand met een naald tussen duim en wijsvinger
+> **著作者:** Henricus Wilhelmus Couwenberg
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.99491
+=====
+> **タイトル:** Skelet van een hand
+> **著作者:** Jan l'Admiral
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.230751
+=====
+> **タイトル:** Twee zeesterren en een zeespin
+> **著作者:** Maurtis Verveer
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.640375
+=====
+> **タイトル:** Zeester (Asteroidea)
+> **著作者:** 匿名
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.693289
+=====
+> **タイトル:** Microscopische opname van een jonge zeester, 25 keer vergroot
+> **著作者:** Marunus Pieter Filbri
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.266441
+=====
+> **タイトル:** Star-shaped tile with floral scrolls
+> **著作者:** Anonyomous
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.52503
+=====
+> **タイトル:** Staartster en de wonderbaarlijke genezing van een doofstomme jongen, 1627
+> **著作者:** 匿名
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.459081
+=====
+> **タイトル:** Portret van Hardouin de Beaumont de Péréfixe
+> **著作者:** Nicolas Pitau (I)
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.165124
+=====
+> **タイトル:** Deel van de sterrenhemel
+> **著作者:** M. Henry
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://hdl.handle.net/10934/RM0001.COLLECT.281873
+=====
+> **タイトル:** CMS Higgs-event
+> **著作者:** Lucas Taylor / CERN
+> **ライセンス:** Creative Commons Attribution-Share Alike 3.0
+> **ソースのリンク:** https://commons.wikimedia.org/wiki/File:CMS_Higgs-event.jpg
+=====
+> **タイトル:** Satan Exulting over Eve
+> **著作者:** ウィリアム・ブレイク
+> **ライセンス:** Public domain
+> **ソースのリンク:** https://commons.wikimedia.org/wiki/File:Satan_Exulting_over_Eve.jpg
+=====
+> **タイトル:** tree0210
+> **著作者:** Jonathan Lidbeck
+> **ライセンス:** Attribution 2.0 Generic (CC BY 2.0)
+> **ソースのリンク:** https://www.flickr.com/photos/jondissed/49096163528/in/album-72157711740788652/
+=====
+> **タイトル:** 火を盗んだプロメテウス
+> **著作者:** ハインリヒ・フューガー
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://commons.wikimedia.org/wiki/File:Heinrich_fueger_1817_prometheus_brings_fire_to_mankind.jpg
+=====
+> **タイトル:** Stradanus: Map of Lower Hell
+> **著作者:** ストラダヌス
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://commons.wikimedia.org/wiki/File:Stradano_Inferno_Map_Lower.jpg
+=====
+> **タイトル:** Aartsengel Michaël verslaat de draak
+> **著作者:** Jacob de Wit
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.225526
+=====
+> **タイトル:** Anatomische studie van het hoofd
+> **著作者:** Pieter van Gunst
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://www.rijksmuseum.nl/en/collection/RP-P-OB-70.622
+=====
+> **タイトル:** De heilige Michaël
+> **著作者:** ヤーコブ・コルネリスゾーン・ファン・オーストザーネン
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.37529
+=====
+[[/collapsible]]
+
+[[/tab]]
+
+[[tab 第八戒]]
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-148-ib0u/8C-S.jpg width="600px"]]
++ __SCP-6488: 第八戒__
+[*http://scp-jp.wikidot.com/scp-6488 > リンク <]
+@@ @@
+By, [[*user Jack Ike]], [[*user Placeholder McD]], & [[*user Liryn]]
+@@ @@
+[[collapsible show="イメージソース" hide="閉じる"]]
+=====
+> **タイトル:** Twee ogen die door een raam naar een voorwerp kijken
+> **著作者:** Sébastien Leclerc (I)
+> **ライセンス:** Public Domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.137993
+=====
+> **タイトル:** Octagonal saucer with lotus scrolls
+> **著作者:** 匿名
+> **ライセンス:** Public domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.2666
+=====
+> **タイトル:** Octagonal saucer with lotus scrolls (#2)
+> **著作者:** 匿名
+> **ライセンス:** Public domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.23170
+=====
+> **タイトル:** Prints of the Brain and the Heart
+> **著作者:** Jan l'Admiral
+> **ライセンス:** Public domain
+> **ソースのリンク:** https://www.rijksmuseum.nl/en/collection/RP-P-1961-520
+=====
+> **タイトル:** 渦巻 上
+> **著作者:** 渡辺 霞亭
+> **ライセンス:** Public domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.434928
+=====
+> **タイトル:** 渦巻 中
+> **著作者:** 渡辺 霞亭
+> **ライセンス:** Public domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.434929
+=====
+> **タイトル:** Gallinule with Lotus Flowers
+> **著作者:** 小原 古邨
+> **ライセンス:** Public domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.359265
+=====
+> **タイトル:** Dish
+> **著作者:** 匿名
+> **ライセンス:** Public domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.3147
+=====
+> **タイトル:** Spin in een web
+> **著作者:**  ユリー・デ・フラーハ
+> **ライセンス:** Public domain
+> **ソースのリンク:** http://hdl.handle.net/10934/RM0001.COLLECT.230861
+=====
+> **タイトル:**  ENIAC (Electronic Numerical Integrator And Computer) in Philadelphia
+> **著作者:** 不明
+> **ライセンス:** Public Domain
+> **ソースのリンク:** https://commons.wikimedia.org/wiki/File:Eniac.jpg
+=====
+> **タイトル:** Universum
+> **著作者:** Heikenwaelder Hugo
+> **ライセンス:**  Creative Commons Attribution-Share Alike 2.5 Generic
+> **ソースのリンク:** https://commons.wikimedia.org/wiki/File:Universum.jpg
+=====
+> **タイトル:** Internet map 1024
+> **著作者:** The Opte Project
+> **ライセンス:** Creative Commons Attribution-Share Alike 2.5 Generic
+> **ソースのリンク:** https://en.wikipedia.org/wiki/File:Internet_map_1024.jpg
+=====
+> **タイトル:** ENIAC
+> **著作者:** thekirbster
+> **ライセンス:** Attribution 2.0 Generic (CC BY 2.0)
+> **ソースのリンク:** https://www.flickr.com/photos/17157315@N00/3660521353
+=====
+[[/collapsible]]
+[[/tab]]
+[[/tabview]]
+@@ @@
++ さらに見る:
++++ [*http://scp-jp.wikidot.com/dodos-arts-and-crafts-corner 芸術]
++++ [*http://scp-jp.wikidot.com/dodo-s-den-of-declassified-delights 文章]
+[[/=]]
+@@ @@

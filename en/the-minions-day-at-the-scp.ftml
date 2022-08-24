@@ -1,0 +1,366 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+[[html]]
+
+<!--TUTORIAL: Hi, and welcome to the official SCP CYOA code tutorial! To find out how to modify the code to suit your Choose Your Own Adventure story, look for any lines that say TUTORIAL at the beginning in this source code.-->
+
+<!--WARNING: Don't edit anything unless you're told to, or the code might break.-->
+<html lang="en"> <head> <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maxium-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+<style type="text/css">
+@import url("http://scpsandbox2.wikidot.com/local--files/adventure/adventure.css")
+</style>
+<audio autoplay loop id="bgm">
+
+<!--TUTORIAL: Change the file location BELOW to change the starting Background Music.-->
+<!--If you want to start with BGM off, or no BGM, replace the web address with a space; in other words, just put " ".-->
+<source src="" type="audio/mpeg">
+
+
+</audio>
+
+<audio autoplay id="effect">
+<source src=" " type="audio/mpeg">
+</audio>
+
+
+<!--TUTORIAL: If you have no background music, all the text between here...-->
+
+<div align="right">
+<button onclick="enableMute()" type="button">ミュート</button>
+</div>
+
+<!--TUTORIAL: ...and here can be removed to get rid of the Mute button.-->
+
+<SCRIPT LANGUAGE = "JavaScript">
+
+var BGM2 = document.getElementById("bgm");
+var effect2 = document.getElementById("effect");
+function enableMute() { 
+    BGM2.muted = !BGM2.muted;
+    effect2.muted = BGM2.muted;
+}
+
+// TUTORIAL: PAGES is the variable that's going to hold your story!
+// Each Page of the story is separated by brackets.
+// As you create more pages, you should number them to keep track of what you're doing.
+// This is the first page of the story, Page 0.
+var PAGES = [{ //Page 0
+
+// TUTORIAL: The image below is the one that will be loaded at the top of Page 0.
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-start.jpg',
+
+// TUTORIAL: The text below is the text that will appear on Page 0.
+// Note that whenever we want a ' symbol to appear, we have to type \' instead.
+// If you want to go to the next line, add the symbol <br>.
+// If you don't want to worry about getting the formatting right, then type up each page (and choice) in an external word processor, then run that text through the following web tool:
+// http://www.htmlescape.net/htmlescape_tool.html
+// Then, the output of that should be run through:
+// http://www.htmlescape.net/stringescape_tool.html
+// After this, paste that output between the ' quotes and you're set to go!
+
+    'text': 'こんにちは、そしてようこそミニオン©と財団の一日へ、私の名前はRandomini、この物語の作者です、そしてあなたたちはミニオンです!!! <i>あなたのミニオンのおともだちが一日を無事で過ごせるよう、死なないよう手伝ってあげてください!!!</i> もしすべてのミニオンが生き残ったなら、あなたはポイントを手に入れられます。:D .</b> それでははじめましょう。 <br> <br> <div align="center"> なにをする??? </div>',
+
+// TUTORIAL: Here are the choices for Page 0.
+        'choices': [{
+
+// TUTORIAL: There are two things we need for each choice; the text and the target.
+// The text is what it says on that option.
+// The target is the page we will go to when it is clicked.
+// For this option, the text says 'Walk.'
+// When this option is chosen, we will move to Page 1.
+        'text': '#site19に行く',
+            'target': 1
+    }, {
+
+// TUTORIAL: For this option, the text says 'Drive.'
+// When this option is chosen, we will move to Page 2.
+        'text': '#site17に行く',
+            'target': 2
+    }]
+
+
+// TUTORIAL: This is the beginning of Page 1. Note the format is much the same as above, but we only have the one choice, which returns us to Page 0 as the player has died.
+}, { //Page 1
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-site-19-transition.jpg',
+    'text': 'サイト19にはとっっっても危険なSPCがいるので、もしミスをすると、たちまちあなたは死んでしまいます!!! ，もしあなたが死んでいないのなら、これはネタバレ画像です ;D <b>\x3Cb\x3E LIFES COUNT: ALIVE \x3Cb\x3E<b>',
+        'choices': [{
+        'text': 'それでも行く!!!',
+            'target': 3
+    }]
+
+// TUTORIAL: This is the beginning of Page 2. As the player has lived, they will go to Page 5, which takes them to Site 19.
+}, { //Page 2
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minion-site-17.jpg',
+    'text': 'あなたはサイト19に向かっている',
+        'choices': [{
+        'text': 'わたしは2つもストーリーを書きたくないので、あなたはサイト19に向かっています、いいね？',
+            'target': 3
+    }]
+
+
+// TUTORIAL: This is the beginning of Page 3. Again, the character died, so they return to Page 0.
+}, { //Page 3
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-site-19.jpg',
+    'text': 'あなたはサイト19に到着した!!!じゃあ、あなたのミニオン©たちはどのともだちとおしゃべりする???',
+
+        'choices': [{
+        'text': 'クレフとおしゃべり',
+            'target': 4
+    }, {
+        'text': 'SCP-173とおしゃべり',
+            'target': 5
+    }, {
+        'text': 'SCP-682とおしゃべり',
+            'target': 6
+    }, {
+        'text': 'rumetzenとおしゃべり',
+            'target': 7
+    }, {
+        'text': 'あなた自身とおしゃべり',
+            'target': 8
+    }
+]
+
+
+// TUTORIAL: This is the beginning of Page 4. Again, the player has lived, so they will go to Page 5.
+}, { //Page 4
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-clef.jpg',
+    'text': 'あなたはクレフを誘惑した。;D <b>\x3Cb\x3E セックスのタイムカウントだ。：クレフ \x3Cb\x3E<b>',
+        'choices': [{
+        'text': 'やりなおす???',
+            'target': 3
+    }]
+
+// TUTORIAL: This is the beginning of Page 5. The player has made the right choice, and safely arrived at Site 19. Let's give them an applause when they get here.
+}, { //Page 5
+    'pageimage': 'http://scp-jp-storage.wdfiles.com/local--files/file%3A2081491-81-3new/peanut.jpg',
+
+// If you want a page to play a sound effect when you arrive on a page, put the address to that effect the same way as below.
+
+    'text': 'ウゥーウ、173は世界でいちばん危険なSCP、あなたは大間抜け!!! 死んだ!!! (ここには以前、著作権に関するおもろジョークがあったんだけど今のあなたにはすごく酷いナッツアレルギーだけがある。ご愁傷さま。 (著作権は大変だ!!!!!)',
+        'choices': [{
+        'text': 'さいしょから。',
+            'target': 0
+    }]
+
+// TUTORIAL: This is the beginning of Page 6. Again, the player chose poorly.
+}, { //Page 6
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-dead.jpg',
+    'text': 'scp-682はミニオンを気に入ってちょっと遊んでくれました!!! そのあと、彼は秘密の過去を話してくれます...',
+        'choices': [{
+        'text': '秘密の過去って???',
+            'target': 9
+    }]
+
+// TUTORIAL: This is the beginning of Page 7; this is simply a large block of nonsense text.
+// When you have this much text on one page, you should run it through the webtools as discussed above.
+}, { //Page 7
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-rumetzen.jpg',
+    'text': 'なんっっってダッサイオタクなんだ!',
+    'choices': [{
+        'text': 'これはジョークですが、もし面白くないと思ったならダウンボートしてください。 :L',
+        'target': 3
+    }]
+
+// TUTORIAL: This is the beginning of Page 8. The player wants to change the background music.
+}, { //Page 8
+    'pageimage': 'http://scp-wiki.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-ursefl.jpg',
+    'text': 'あなた自身を友として話す必要はありません、あなたにはここに私達という友達がいます。どうか私達もしくは医療プロフェッショナルにお話し下さい、私達はあなたをここから連れ出したいだけなのです。 ;_; ありがとう。',
+    'choices': [{
+        'text': 'https:\x2F\x2Fwww.beyondblue.org.au\x2Fthe-facts\x2Fsuicide',
+        'target': 3
+    }]
+
+// TUTORIAL: This is the beginning of Page 9. Again, we change the BGM.
+}, { //Page 9
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-682-secret-past.jpg',
+    'text': 'scp-682はあなたに放浪者の図書館についての物語を話しますが、それは本当につまらない、はやらないもののように聞こえます。',
+    'choices': [{
+        'text': 'アー、退屈していますが続きます!!!',
+        'target': 10
+    }]
+
+// TUTORIAL: This is the beginning of Page 10. The player wanted to remove the BGM.
+// To do this, we simply assign an empty value to the BGM.
+}, { //Page 10
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-682-angry.jpg',
+    'text': 'なんということでしょうspc-682はあなたが放浪者の図書館に興味がないことに怒っています!!!走って逃げた方がよさそうです...',
+    'choices': [{
+        'text': '...少なくとも今は...',
+        'target': 11
+    }]
+
+}, { //Page 11
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-banana.jpg',
+    'text': '待って!!! 立ち止まった時、あなたは気付いてしまいます... バナナを落としてしまった! あれはあなたの世界一お気に入りのバナナでした、それが今や世界で最も反英雄的なSCPの持ち物になっています!!! 誰かを訪ねる必要があるようです... 助けてもらいに...',
+
+    'choices': [{
+        'text': 'クレフに助けを求める... 助けて...',
+            'target': 12
+    }, {
+        'text': '173に助けを求める... 助けて...',
+            'target': 5
+    }, {
+        'text': 'アベルに助けを求める... 助けて...',
+            'target': 13
+    }, {
+        'text': 'O5に助けを求める... 助けて...',
+            'target': 14
+    }, {
+        'text': 'ええ、 神は自ら助けるものを助けます...',
+            'target': 15
+    }
+]
+
+}, { //Page 12 - clef
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-clef-post-coitus.jpg',
+    'text': '彼がそうしてくれない理由を探しても、あなたはわかりません。クレフはあらゆるセックスに疲れています...',
+    'choices': [{
+        'text': 'クレフは4回しかセックスしていません... 典型的な男です!!!',
+        'target': 11
+    }]
+
+}, { //Page 13 - able
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-able.jpg',
+    'text': 'アベルはミニオンが嫌いです、アベルはSCPだけが好きなのです... もしあなた自身をSCPにしてもらうとしたら... 誰に頼めばよいのでしょう??? (ヒント: ゼロ ファイブ) この画像は http:\x2F\x2Ftraicere.deviantart.com\x2Fart\x2FSCP-076-Able-430806434 からです',
+    'choices': [{
+        'text': 'scpになったら戻りましょう!',
+        'target': 11
+    }]
+
+}, { //Page 14 - o5s
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-in-black.jpg',
+    'text': 'o5はミニオンのファンで、あなたを財団のSCPにしてくれました! 今やあなたはSCPに分類され (SCP-MINION) チャンスを得ました...',
+    'choices': [{
+        'text': 'ですが最初は他のSCP友だちを作るべきでしょう!!!',
+        'target': 16
+    }]
+
+}, { //Page 15 - YHWH
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-343.jpg',
+    'text': 'あなたはヤハウェとエホバに祈りましたが2人とも聞いていません... おそらくあなたは違ったことに挑戦すべきなのでしょう、なぜなら神は本物の能無しではないからです!!! ごめんなさい、これが2度目でしたら最初まで戻って下さい。これをするのは難しいことです、すみません。',
+    'choices': [{
+        'text': '神の思い違いを読み、真実について学びましょう。 あなたは無知な間抜けです!',
+        'target': 11
+    }]
+
+}, { //Page 16 - friends
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-friends.jpg',
+    'text': 'あなたは今やSCPです、なのでほかのSCPに助けを求めることができます!!! (picture from http://thefoggygolem.tumblr.com/post/123252018004/july-4th-2015-freedom-rings-again-as-the-war-on)',
+    'choices': [{
+        'text': '173に助けを求める... たすけて...',
+            'target': 5
+    }, {
+        'text': 'アベルに助けを求める... 助けて...',
+            'target': 17
+    }, {
+        'text': '055に助けを求める... 助けて...',
+            'target': 18
+    }, {
+        'text': '吊られた王に助けを求める... 助けて...',
+            'target': 19
+    }, {
+        'text': 'ミスター・レッドに助けを求める... 助けて...',
+            'target': 20
+    }, {
+        'text': 'SCP-____-Jに助けを求める... 助けて...',
+            'target': 21
+    }, {
+        'text': 'ええ, 343は自らを助けるものを助けます...',
+            'target': 15
+    }
+]
+
+}, { //Page 17 - able
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-able-minion.jpg',
+    'text': 'あなたはアベルにSCP-682を殺すのを手伝ってくれるか聞きました!!! アベルは言います \" 俺はSCP-682のような大物に挑戦して殺すのが喜びなんだ。: トカゲを殺すのは難しい。ここに来て俺の方に座れ、もう友人だ。 :)\" なのであなたは彼がSCP-682へと雄々しく行進する際、アベルの肩に座っていました... 失われたバナナを取り返す時です!!!',
+    'choices': [{
+        'text': '続く...',
+        'target': 22
+    }]
+
+}, { //Page 18 - 055
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-055.jpg',
+    'text': 'そんなSCPは聞いたことありません!!!',
+    'choices': [{
+        'text': '冗談です、わからなかったらSCP-055を読んでください :)',
+        'target': 16
+    }]
+
+}, { //Page 19 - hanged king
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-hanged-king.jpg',
+    'text': 'あなたが吊られた王に682に立ち向かうのを手伝うよう頼むと、彼はイエスと言いました! 吊られた王は682のところまで行って切りつけましたが、682は何もしませんでした。吊られた王は682を殺せるほど強くはないので、あなたがこのゲームを終わらせたいのなら、682を殺せるだけの力を持ったSCPを探す必要があります... ですがどのscpなら682より強いのでしょう??? (警告とコツ: 173を選んではいけません、彼はあなたを殺すでしょう。)',
+    'choices': [{
+        'text': 'go back and aks someone esle!',
+        'target': 16
+    }]
+
+}, { //Page 20 - mr redd
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-mister-redd.jpg',
+    'text': 'あなたはSCPですがミスター・コレクターではありません - たとえあなたがミニオン・コレクターを望んでいてもです。 ;D どちらにしろ間違った選択です。',
+    'choices': [{
+        'text': '彼はちょっぴりかっこいいので、間違っていたとしても素敵な選択です。;D',
+        'target': 16
+    }]
+
+}, { //Page 21 - SCP-____-J
+    'pageimage': '',
+    'text': 'ここには後で記入されます(ウソです, これはジョークですから ;D)',
+    'choices': [{
+        'text': 'もし読んだことがないのならSCP-____-Jを読んでください。 とてもいいものです!',
+        'target': 16
+    }]
+
+
+}, { //Page 22 - able fights 682
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-able-minion-682.jpg',
+    'text': 'アベルは682に歩み寄り彼の剣を振り上げました。682はその時こう言っていました、 \" 待て、私が何をしたというのだ???\" アベルは言いました、 \"ああ、SCP-MINIONがお前がバナナを盗んだと言っている!\" 682は言い返しました、 \"確かにそうしたが、それは私が食べるバナナがなかったからだ...\"',
+    'choices': [{
+        'text': 'あなたは少し罪悪感を感じ始めました...',
+        'target': 23
+    }]
+
+}, { //Page 23 - bananabs regrets
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-vision-of-ezekiel.jpg',
+    'text': 'https://www.youtube.com/watch?v=HDCUnLM6UUc を演奏するときにはこのページをミュートし、戻ってきたらミュートを解除してください。 \n \u201cパン以外の形で神が現れることはない、世界は飢えた人々で溢れている。u201d\n~ マハトマ・ガンジー (宗教家)\n\n\"願望は意志の産物と言われるが、 真実はこうだ。意志は願望の産物である。\"\n~ ドゥニ・ディドロ (1713-1784) フランスの哲学者. \n\n\"あらゆる人間の欠点として、人は願望をその反対のものを通してしか叶えることが出来ないというのがある。\"\n~ セーレン・キルケゴール (1813-1855) デンマークの哲学者にして作家。 \n\nあなたはバナナへの渇望が自分を苦しめていたと気付きました... 願望が飢えを導いたのです... 飢えが怖れを導いたのです... 怖れは苦しみを導きました、あなたの友人への... あなたがこのたった1本だけのバナナですることはなんでしょう??? おそらくあなたは間違っていた... この歴史において...\n\n\"望みを少なくするほど神に近くなる。\"\n~ ソクラテス (紀元前 469-紀元前 399) ギリシャの哲学者 ',
+    'choices': [{
+        'text': 'わたしは世界の終わり、破壊者となった。わたしを通らずに父なる神の側に行くものはいない。',
+        'target': 24
+    }]
+
+}, { //Page 24 - happy end
+    'pageimage': 'http://scp-jp.wdfiles.com/local--files/the-minions-day-at-the-scp/minions-able-minion-682-bananas.jpg',
+    'text': 'だから代わりにあなたはバナナをともだちと分け合った!!! ハッピーエンド',
+    'choices': [{
+        'text': 'さいしょから。',
+        'target': 0
+    }]
+
+// TUTORIAL: That's our last page. If you want to add more pages, simply copy the code for one of the pages above, paste it here, and change the comment to remember which page it is.
+
+// TUTORIAL: And that's it! Just tweak and combine the above code to make whatever stories you want to create.
+
+
+// WARNING: Don't edit anything below here!
+}];
+var imported = document.createElement('script');
+imported.src = 'http://scpsandbox2.wikidot.com/local--files/adventure/adventure.js';
+document.head.appendChild(imported);
+</SCRIPT>
+</head>
+
+<body>
+<FONT FACE="Verdana" size=2>
+<div id="page" class="blockCenter">
+    <div id="page_image"></div>
+    <div id="page_text"></div>
+    <div id="response">
+        </ul>
+    </div>
+</FONT>
+</body>
+
+</html>
+[[/html]]

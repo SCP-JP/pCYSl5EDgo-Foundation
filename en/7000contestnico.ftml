@@ -1,0 +1,188 @@
+[[module css]]
+/* Make superscripts not fuck with the line spacing */
+sup {
+  vertical-align: top;
+  position: relative;
+  top: -0.5em;
+}
+
+/* Haha blue boi */
+.outside {
+  margin: 2em -6em;
+  padding: 1em 10em;
+  --narration-color: rgba(214, 234, 248,1);
+  background: var(--narration-color);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, var(--narration-color) 20%, var(--narration-color) 80%, rgba(255,255,255,0) 100%);
+  z-index: -2;
+}
+
+/* Make the blue bois that are within the document have smaller margins so they break flow less*/
+.outside.inline {
+  margin: 1em -6em;
+  padding: 1px 10em;
+}
+
+/* Force the side bar to render on top of the blue bois */
+#side-bar {
+  z-index: 2;
+}
+
+/* Hide the original page title */
+#page-title {
+  display: none;
+}
+
+/* Make my fake page title look like the original (thanks SCP-2998) */
+.page-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+.page-title p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1040px) {
+  .outside {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.meta-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+.meta-title p {
+  margin: 0;
+}
+[[/module]]
+
+[[include :scp-jp:info:start]]
+⚠️ **コンテンツ警告:** この記事には**自殺の試み、自殺の言及、有害なポジティブさ、ガスライティング**が含まれます。
+[[include :scp-jp:info:end]]
+[[include :scp-wiki:component:info-cw]]
+
+
+[[div class="outside"]]
+レックスへ、
+
+こんな私を見つけるのがあなたなのかは本当にはわからない。だけど誰かが私を見つけるとしたら、それはあなたなんだって思ったんだ。話がそれたね。
+[[/div]]
+@@ @@
+@@ @@
+[[div style="color: black; font-family: Courier; font-weight: bold; background:#DFFFF3 url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-136-lkm2/fsd.png) center no-repeat; float: center; border: solid 1px #000000; padding: 15px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2); width: 84%; margin-left: auto; margin-right: auto; margin-bottom: 4%; margin-top: 4%;"]]
+
+= __[[[scp-6630|退職防止部門ケースID-7000XP]]]__
+
+問題:
+@@     @@ジャスティン・エバーウッド博士は収容違反562341673444WTXの唯一の生存者であることによって重度のサバイバーズ・ギルトを示している。
+
+情報:
+@@     @@エバーウッドは過去、特に10代のころ自殺傾向を示しており、今後数週間のうちにその傾向は再発すると予想される。
+
+推奨手続き:
+@@     @@心理学職員を用いてその自殺傾向を促進させ、ラッキー・ヘア・プロトコル（LUCKY HARE protocol）の2%を実施する。
+
+注:
+@@     @@なし
+[[/div]]
+@@ @@
+@@ @@
+[[div class="outside"]]
+あの収容違反で生き残るべきじゃなかった。皆、片腕だけ無事で逃げられたのは幸運だったって言ってるけど、私は信じない。50人が死んで1人が負傷した？ お願い。死ぬべきだったのに死ななかったってわかってるのに幸運なんてことない。
+[[/div]]
+@@ @@
+@@ @@
+[[div style="color: black; font-family: Courier; font-weight: bold; background:#DFFFF3 url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-136-lkm2/fsd.png) center no-repeat; float: center; border: solid 1px #000000; padding: 15px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2); width: 84%; margin-left: auto; margin-right: auto; margin-bottom: 4%; margin-top: 4%;"]]
+
+= __退職防止部門ケースID-7000XP__
+@@ @@
+= __更新__
+@@ @@
+ラッキー・ヘア・プロトコルは予測通り機能した。エバーウッドは今週のどこかで自殺を試みると予想される。ラッキー・ヘア・プロトコルにつき、SCP-7000は警備員の不注意により残された非異常の銃器を装ってエバーウッドが容易に利用可能な場所に残される。
+[[/div]]
+@@ @@
+@@ @@
+[[div class="outside"]]
+私のために一生懸命働いてくれてありがとう。あなたが私たちの部門の中で一番働き者なんだから、昇進はもうすぐだって確信してる。でももっと大事なことは、友人でいてくれてありがとう。あなたのおかげでここで働くのがずっと楽しくなった。
+[[/div]]
+@@ @@
+@@ @@
+[[div style="border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+[[div class="meta-title"]]
+SCP-7000
+[[/div]]
+[[include component:image-block name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-135-t8wl/640px-Beretta_90TWO_closed.JPG|caption=SCP-7000。]]
+**アイテム番号:** SCP-7000
+
+**オブジェクトクラス:** Safe
+
+**特別収容プロトコル:** SCP-7000はサイト-55の標準異常オブジェクト金庫に保管されます。退職防止部門職員はこのオブジェクトに対する無制限のアクセスが許可されています。
+
+**説明:** SCP-7000は標準的なベレッタ90-Twoセミオートマチックピストルです。人間の対象に向けて発砲した際、SCP-7000の機構はオブジェクトの状態にかかわらず弾詰まりを起こし、発砲に失敗します。SCP-7000は他の標的を狙った際は通常通り発砲されます。加えて、SCP-7000は発砲されると人間の対象に損害を与える結果になる場合は発砲されません。
+[[/div]]
+@@ @@
+@@ @@
+[[div class="outside"]]
+この罪悪感を抱えて生きるだなんてもうできない。
+[[/div]]
+@@ @@
+@@ @@
+[[div style="color: black; font-family: Courier; font-weight: bold; background:#DFFFF3 url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-136-lkm2/fsd.png) center no-repeat; float: center; border: solid 1px #000000; padding: 15px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2); width: 84%; margin-left: auto; margin-right: auto; margin-bottom: 4%; margin-top: 4%;"]]
+= __ラッキー・ヘア・プロトコル__
+@@ @@
+@@ @@
+概要:
+@@     @@ラッキー・ヘア・プロトコルの公式の目的は、自殺する職員の不必要な損失を予防することである。
+
+これは目標の職員に自身が圧倒的な幸運であると伝えることにより達成される。プロセスには、目標の職員に慈愛や肯定的な断言を示しながら、悪感情の無駄なものとしての軽視を確実にすることが含まれる。これにより、60%のケースで目標の職員はより人生に満足するようになる。
+
+さらなる38%のケースでは、より集中的な治療作業および投薬の併用を要する。退職防止部門では、固有の薬物を用いてラッキー・ヘア・プロトコルのこの区分に分類される職員のさらなるリハビリテーションを行っている。
+
+ラッキー・ヘア・プロトコルの最後の2%に分類されている職員はより直接的な手段を要する。このような職員にはその幸運の確かな証拠を要することがしばしばあり、そのため、士気を高めるためのアノマリーの使用が承認されている。ラッキー・ヘア・プロトコルの2%の手続きにおける使用が承認されたアノマリーは、典型的には外見は地味であり非異常オブジェクトに見間違えられ得るため、プロジェクトの信憑性に役立つ。
+[[=]]
+[[collapsible show="さらに読む" hide="さらに読む"]]
+[[/collapsible]]
+[[/=]]
+[[/div]]
+@@ @@
+@@ @@
+[[div class="outside"]]
+さようなら、いままで魚をありがとう、かな。
+
+- //ジェイ・エバーウッド//
+[[/div]]
+@@ @@
+@@ @@
+[[div style="color: black; font-family: Courier; font-weight: bold; background:#DFFFF3 url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-136-lkm2/fsd.png) center no-repeat; float: center; border: solid 1px #000000; padding: 15px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2); width: 84%; margin-left: auto; margin-right: auto; margin-bottom: 4%; margin-top: 4%;"]]
+
+= __退職防止部門ケースID-7000XP__
+@@ @@
+= __更新__
+@@ @@
+エバーウッドは、2022/07/26 0000時ごろ、そのオフィスの方向からの銃声が聞こえた後に通過した警備員によってオフィスで発見された。SCP-7000は変装した警備員によって回収された。エバーウッドは無傷であり、現在フォン・チューネン博士によって広範な心理療法措置を受けている。エバーウッドは今後3週間のうちに38番目のパーセンテージのケースに入ると予想されている。
+
+このケースは解決と見なされる。
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@

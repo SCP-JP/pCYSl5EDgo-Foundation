@@ -1,0 +1,119 @@
+[[module CSS]]
+#page-title {
+  display: none;
+}
+
+.meta-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+
+.meta-title p {
+  margin: 0;
+}
+[[/module]]
+
+[[html]]
+
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--javascript/init.combined.js"></script>
+    <script  type="text/javascript">
+        var URL_HOST = 'www.wikidot.com';
+        var URL_DOMAIN = 'wikidot.com';
+        var USE_SSL =  true ;
+        var URL_STATIC = 'http://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba';
+        // global request information
+        
+        var WIKIREQUEST = {};
+        WIKIREQUEST.info = {};
+        
+        WIKIREQUEST.info.domain = "www.scp-wiki.net";
+        WIKIREQUEST.info.siteId = 66711;
+        WIKIREQUEST.info.siteUnixName = "scp-wiki";
+        WIKIREQUEST.info.categoryId = 366566;
+        WIKIREQUEST.info.themeId = 1;
+        WIKIREQUEST.info.requestPageName = "scp-meta-ex-j";
+        OZONE.request.timestamp = 1497733898;
+        OZONE.request.date = new Date();
+        WIKIREQUEST.info.lang = 'en';
+                        WIKIREQUEST.info.lang = "en";
+        OZONE.lang = "en";
+        var isUAMobile = !!/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    </script>
+    
+    
+
+
+    
+        <script  type="text/javascript">
+    
+        require.config({
+            baseUrl: URL_STATIC + '/common--javascript',
+            paths: {
+                'jquery.ui': 'jquery-ui.min',
+                'jquery.form': 'jquery.form'
+            }
+        });
+    
+    </script>
+    
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                            
+    
+    
+    
+    
+    <meta http-equiv="content-language" content="en"/>
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--javascript/WIKIDOT.combined.js"></script>
+        
+    
+    <style type="text/css" id="internal-style">
+        
+        /* modules */
+        
+                
+        /* theme */
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/base/css/style.css);
+                    @import url(http://www.scp-wiki.net/component:theme/code/1);
+            </style>
+            <div id="page-content">
+                        
+
+<div style="text-align: center;">
+<h1 id="toc0"><span>このページはまだ存在しません。マジです。ある時点では存在したのかもしれませんが、削除されています。</span></h1>
+</div>
+<hr />
+<div style="background-color: #600; border: solid 1px #600; border-radius: 20px; color: #fff; width: 450px; margin: 0 auto; font-size: 150%; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,.5), inset 0 1px rgba(255,255,255,.5), inset 0 10px rgba(255,204,204,.5), inset 0 10px 20px rgba(255,204,204,.3), inset 0 -15px 30px rgba(48,0,0,.5); line-height: 100%; padding: 0 10px;">
+<p><strong>記事を投稿するその前に、今一度確認を。オレはしなかったし、今DVされてる :(</strong></p>
+</div>
+<div style="background-color: #fff0f0; border: solid 1px #600; border-radius: 20px; color: #300; width: 450px; margin: 20px auto 0; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,.5); padding: 0 10px;">
+<p>SCP Wikiにはフィードバックをもらうための手段が数多く存在し、批評を受けた記事の方がはるかに成功する可能性が高いです。にもかかわらず、いくつかのスレッドは誰の目にも留まらずに建設的な批評が不足し、深淵の暗闇で孤独な最後を遂げ犬死にします。それでも、あなたが完成した資料を投稿することは財団とそれに続く記録者皆々様の最大の利益となるnです[原文ママ]。</p>
+<hr />
+<p><strong><a href="/how-to-write-an-scp">SCP記事を作成するには</a> &#8212; <a href="http://scp-jp-sandbox2.wikidot.com/start">SCPサンドボックスWiki</a> &#8212; <a href="/guide-hub">ガイドハブ</a></strong></p>
+<p><strong><a href="/image-use-policy">画像利用ポリシー</a></strong></p>
+<p><strong><a href="/forum/c-790922/">フォーラムのヘルプ：アイデアとブレインストーミング</a></strong><br />
+<strong><a href="/forum/c-790921/">ヘルプ：下書きと批評</a></strong><br />
+<strong><a href="/chat-guide">チャットのガイドライン</a></strong></p>
+</div>
+<div style="background-color: #fffff0; border: solid 1px #660; border-radius: 20px; color: #330; width: 450px; margin: 20px auto 0; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,.5); padding: 0 10px;">
+<p><span style="font-size:120%;">上記に加えて、次のことをもう一度強調しておきます。<strong>このサイトは完成した作品の評価をする場所であり、未完成作品のフィードバックや批評を行うための場所ではありません。</strong></span></p>
+<hr />
+<p>完成した最終稿のみを投稿することが、あなたの役目です（気を強く持ってあなたの記事をじっくりと見直しましょう）。サイトメンバーは自らの投票について、一切の説明や正当化をする義務がありません。わかった？</p>
+<p>以上を理解した上で新しい記事を執筆するには<strong><a class="wiki-standalone-button" href="javascript:;" onclick="location.href='http://ja.scp-wiki.net/scp-meta-ex-j-offset'")">ここをクリック</a></strong>して下さいヨ。</p>
+</div>
+
+                    </div>
+
+                    
+
+                    
+
+                    <div id="page-info-break"></div>
+                    
+                    <div id="action-area" style="display: none;"></div>
+                </div>
+[[/html]]

@@ -1,0 +1,249 @@
+[[module css]]
+.infobox {
+    display:inline-box;
+    overflow:hidden;
+    position:fixed;
+    right: 1em;
+    bottom: 2em;
+    width: 21%;
+    width: calc(50vw - 520px);
+    min-width: 250px;
+    height:23%;
+    padding:1%;
+    float:top;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:#ffffff;
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+
+.infobox:hover {
+    color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+.preview{
+    color:grey;
+    width:100%;
+    display: inline-block;
+    padding-left:1%;
+    transition: box-shadow 1s ease-out;
+}
+
+.preview:hover{
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-out;
+}
+
+.preview.yes:hover, .preview.true:hover{
+     background: url('http://scp-jp.wdfiles.com/local--files/author-page-tool/logo.png') 80% 50% fixed no-repeat;
+}
+
+.preview .span {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+    text-overflow:ellipsis;
+    position:fixed;
+    z-index: 11;
+    right: 1em;
+    bottom: 2em;
+    width:21%;
+    width: calc(50vw - 520px);
+    min-width: 250px;
+    height:23%;
+    padding:1%;
+    float:top;
+    color:grey;
+    text-size:0.9em;
+    font-family:Segoe UI Light,Verdana,sans-serif;
+}
+
+.preview:hover .span {
+    opacity: 1;
+    background-color:#ffffff;
+}
+
+.collab-header{
+    display:none;
+}
+
+.imagepre{
+    background:#fff;
+    max-width:80%;
+    position:absolute;
+    right: 1em;
+    bottom:calc(100% - 1em);
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imagepre.\{\$image\} {
+    display:none
+}
+
+@media screen and (max-width:992px) {
+    .preview .span{
+     display: none;
+    }
+    .infobox {
+     position: relative;
+     margin: 1em auto;
+     right: 0;
+     bottom: 0;
+    }
+}
+
+#page-options-container {
+    background: transparent;
+    position: relative;
+    z-index: 10;
+}
+
+#action-area {
+    position: relative; z-index: 20; 
+}
+[[/module]]
+[[include credit:start]]
+**タイトル:** 自分の著者ページを更新するのが面倒くさくてたまらない人のための超簡単ツール
+**著者:** [[*user W-Asriel]]
+**オリジナル:** http://www.scp-wiki.net/author-page-tool
+**訳者:** [[*user RTa-technology]]
+[[include credit:end]]
++ 要約
+
+これをあなたの著者ページに張り付けてください。
+
+> @@[[include component:author-page order=created_at]]@@
+このコンポーネントは、自動的にあなたが投稿したすべての作品のリストを投稿日順に生成します。それらは4つのカテゴリに分類されます。SCP、Tale、GoIフォーマット、そして翻訳とその他に。
+
+以下の折りたたみには、このコンポーネントが使用時にどのように見えるかというデモがあります。このデモはSCP-JP上の最新の5つのページを表示しますが、あなたの著者ページで使用する場合はあなたが投稿したすべてのページを表示するでしょう。
+
+[[collapsible show="[ デモを表示する ]" hide="[ デモを隠す ]" hideLocation="both"]]
+[[div class="infobox"]]
+
+[[module Listpages category="-fragment -component -anomalous-jp" date="last 24 hours" order="created_at" limit="1" order="random"]]
+= **[[[*%%link%%|ランダムページ！]]]**
+[[/module]]
+= Made by {{**[[*user Croquembouche]]**}} and {{**[[*user W Asriel]]**}}
+[[module Countpages category="-fragment -component -anomalous-jp" date="last 24 hours" order="created_at"]]
+= %%total%% new pages in last 24 hours
+[[/module]]
+[[/div]]
+
+-----
+[[=]]
+++* 新しく投稿された記事
+[[/=]]
+-----
+[[module ListPages category="-fragment -component -anomalous-jp" date="last 24 hours" order="created_at" limit="5"]]
+[[div class="preview"]]
+**%%title_linked%%**
+ +**{{%%rating%%}}**@@   @@^^...^^ **{{%%comments%%}}**
+//最終コメント投稿者:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%y/%m/%d %H:%M%%}}**
+//最終編集者:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%y/%m/%d %H:%M%%}}**
+[[div class="span"]]
+[[image :first class="imagepre yes"]]
+%%preview%%
+##000000|//tags://## %%tags%%
+[[/div]]
+[[/div]]
+[[/module]]
+
+...
+...
+
+[[/collapsible]]
+
++ 追加のパラメータ
+
+コンポーネントをさらにカスタマイズするために、合計5つの追加のパラメータを使用することができます。以下は、デフォルト値が指定されたコンポーネントの例です。
+
+> @@[[include component:author-page@@
+> @@order=created_at |@@
+> @@perpage=100 |@@
+> @@background=yes |@@
+> @@image=yes |@@
+> @@sortbar=yes |@@
+> @@]]@@
+
+パラメータを一つ一つ説明していきしょう。
+
+**Order:** ##red|order=##の後に記述する引数によりページのリストの順序を決定します。ページを投稿日順、編集日順、評価順、その他いろいろな順序に並べることができます。以下にいくつかの便利なオプションを記述しています。
+||~ 引数||~ 意味||
+|| {{name}} || ページURL順(アルファベット順) ||
+|| {{title}} || ページタイトル順(アルファベット順) ||
+||{{rating desc}} || 評価順||
+||{{random}} || ランダム (再度ランダムに表示するには1分待つ必要があります。) ||
+||{{created_at}} || 投稿日順 ||
+||{{updated_at}} || 編集日順 ||
+これらは昇順になります - 降順にしたい場合は、"@@ @@desc"を追加してください。(例)"created_at desc"
+Orderの引数の一覧は[http://www.wikidot.com/doc-modules:listpages-module#toc3 こちら]をご覧ください。
+
+**Perpage:** 各ページに何個の項目を表示するかというものを指定できます。 もしあなたが膨大な数の作品がある場合、便利かもしれません。デフォルトは{{20}}、最大は{{250}}です。
+
+**Background:** 項目にマウスオーバーしたときに、背景に派手なSCPロゴが表示されるかどうかを指定できます。初期設定は{{no}}です。
+以下のデモにマウスオーバーすると、どのように表示されるかを確認することができます。
+
+[[module ListPages name="author-page-tool"]]
+[[div class="preview yes"]]
+**%%title_linked%%**
+ +**{{%%rating%%}}**@@   @@^^...^^ **{{%%comments%%}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%y/%m/%d %H:%M%%}}**
+
+Backgroundを有効にするには {{**background=yes**}}としてください。
+[[/div]]
+[[/module]]
+[[module ListPages name="author-page-tool"]]
+[[div class="preview"]]
+**%%title_linked%%**
+ +**{{%%rating%%}}**@@   @@^^...^^ **{{%%comments%%}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%y/%m/%d  %H:%M%%}}**
+
+{{**background=no**}}を使用するか、このパラメータを完全に省略することでBackgroundを無効にします。
+[[/div]]
+[[/module]]
+
+**Image:** 各ページの最初の画像をマウスオーバーしたときにプレビューの上に表示するかどうかを指定できます。この項目を有効にしていると、作者のページの読み込みが非常に遅くなる可能性があることに注意してください。
+[[module ListPages name="scp-105"]]
+[[div class="preview"]]
+**%%title_linked%%**
+ +**{{%%rating%%}}**@@   @@^^...^^ **{{%%comments%%}}**
+Imagesを有効にするには{{**image=yes**}} or {{**image=true**}}.
+[[div class="span"]]
+[[image :first class="imagepre"]]
+%%preview%%
+##000000|//tags://## %%tags%%
+[[/div]]
+[[/div]]
+[[/module]]
+[[module ListPages name="scp-105"]]
+[[div class="preview"]]
+**%%title_linked%%**
+ +**{{%%rating%%}}**@@   @@^^...^^ **{{%%comments%%}}**
+画像はデフォルトでは無効になっています。また、サンプルコードではimageと書いてある行を削除することができます。
+[[div class="span"]]
+%%preview%%
+##000000|//tags://## %%tags%%
+[[/div]]
+[[/div]]
+[[/module]]
+
+**Sortbar:** ページ上部に"[# 作成が古い順] | [# 作成が新しい順] | [# 評価が高い順] | [# 更新が新しい順]"というバーを表示するかどうかを設定します。初期設定は{{yes}}です。無効にするには##red|sortbar=no##を指定してください。
+
++ 共著
+共著の場合、記事自体はあなたが投稿したものではないかもしれません。でも、あなたの著者ページに表示させたいですよね！標準コンポーネントはあなたが作成したページ以外のページを表示することはできません。ですので、追加の共著ページを表示するために前述のinclude blockの下に以下のコードを追加してください。
+
+> @@[[include component:author-page-collab@@
+> @@name=共著記事のurl |@@
+> @@written_by=ページの共著者(オプション)|@@
+> @@note=そのページについての説明(オプション)|@@
+> @@background=yes |@@
+> @@image=yes | @@
+> @@]]@@
+##red|name=##の後に記述する引数は、タイトルではなくurlにしてください。例えば、"How do I delete articles"ではなく##red|scp-309-j##と指定してください。
+
+各共著記事ごとに新しくコンポーネントをincludeする必要があります。
+
++ Tips
+1.このコンポーネントは、著者ページを作成したユーザーが投稿したすべての記事を表示します。これは通常問題を引き起こすことはありませんが、他のユーザーのために記事を投稿した場合、wikiアカウント名を変更した場合、他のユーザーに自分の著者ページの投稿を依頼した場合など、モジュールが正常に機能しない可能性があります。
+1.共著コンポーネントを使用する際には、##red|written_by=##と ##red|note=##の後に続く内容に ##red|"##または##red||##の文字を入れたり、半角スペースのみの指定をしてはなりません。

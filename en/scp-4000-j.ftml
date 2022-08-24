@@ -1,0 +1,273 @@
+[[include :scp-wiki:component:black-highlighter-theme-dev]]
+[[include :scp-wiki:component:info-ayers
+|lang=jp[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=scp-4000-J[!-- url of your page on the scp wiki --]
+|authorPage=http://www.scp-wiki.net/djkaktus[!-- link to your author page --]
+|comments=N/A
+]]
+[[module CSS]]
+sup { 
+vertical-align: top; position: relative; top: -0.5em; 
+}
+:root{ 
+--cutColour: #fafafa;
+--barColour: #590505;
+}
+.translation_block{
+display:none;}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;}
+
+.info-container .collapsible-block-link, 
+.info-container:hover .collapsible-block-link {
+line-height: 1.6em;
+}
+[[/module]]
+@@@@
+@@@@
+[[module css]]
+blockquote{-webkit-margin-start: 0px;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-end: 0px;border: 3px solid #000000}
+.red blockquote{background-color:#ffe2e2}
+.orange blockquote{background-color:#ffe4c1}
+.yellow blockquote{background-color:#fff9d3}
+.gray blockquote{background-color: #d1d1d1}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[=]]
+[[image NomenclatureWarning.png]]
+[[size smaller]]##red|警告:##
+以下のアノマリーは**何らか**の影響を受けています。
+これについて言及を行わないでください。[[/size]][[/=]]
+-----
+[[include component:image-block name=header(resized).jpg|align=center|width=700px|caption={{図 1.1.}} 空中に出現する土着の人型実体。Eshuプロトコルに違反する可能性のある箇所は削除されています。]]
+-----
+
+[[include component:image-block name=notawell.png|caption={{図 1.2.}} 無関係の画像。|width=175px|align=right]]
+
+**アイテム番号:** //プロトコル4000-Eshuに基づき制限されています。//
+
+**オブジェクトクラス:** Keter
+
+**特別収容プロトコル:** 本文書で解説されているアノマリーは超常的に不安定な名辞的構造を有しているため、その説明はEshuプロトコルで定められている制限の下で可能な限り曖昧な表現で書かれなければいけません。現在、Eshuプロトコルは改定中です。Eshuプロトコルの改定版は内容が確定し次第閲覧可能となります。
+
+現在、このファイルの保守管理はマック博士が担当しています。
+
+**説明:** ##red|**SCP-4000**##は、危険な名辞現象を含む多数の異常な性質を示す、余剰次元の森林地帯です。この独特な異常性質は未だ完全には解明されておらず、本ファイルへのアクセスは--ダニエルズ博士-- --メイヤー博士-- --ペッパーズ博士-- 担当研究員 (現在はマック博士) のみに制限されています。 
+
+##red|**SCP-4000**##は
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** いかなる状況においても、関連アノマリーを同一の識別名で繰り返し呼称してはいけません。//
+[[/div]]
+
+##red|**以下に述べる余剰次元の場所**##は、大部分がアメリカ合衆国サウスカロライナ州バスカヴィル町の近辺に存在する低湿地帯
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** いかなる状況においても、関連アノマリーの構造的組成について言及を行うべきではありません。//
+[[/div]]
+
+また、##red|**このファイルで述べられているもの**##
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** 多くの文化圏において赤の着色は攻撃のサインとみなされ得るため、関連データファイルでの使用は禁止されています。//
+[[/div]]
+
+また、##blue|**このファイルで**##
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** 多くの文化圏において--赤の--着色は攻撃のサインとみなされ得るため、関連データファイルでの使用は禁止されています。//
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+この異常な
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** いかなる状況においても、関連ファイル内のあらゆる文章は関連アノマリーが関わる異常について何一つほのめかしてはいけません//
+[[/div]]
+
+この
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** おそらくは不安定と思われる名辞的構造の収容違反を防ぎ、かつ執筆者の創造的思考を奨励するため、指示語は通例避けなければいけません。//
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+**補遺[編集済].1:** 発見
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** いかなる状況においても、「関連アノマリーは一度も発見されていない」という概念に関する言及を行ってはいけません。//
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+濡
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** 記述が直接的です。//
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+私は祖父のことを知らなかった
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** ？？？//
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+
+が、彼のことは家族の集まりでひっそりと話題に上った。叔母と赤ん坊の従兄弟は部屋の遠い隅で身を寄せ合って座り、彼が行ったかもしれないし、行なわなかったかもしれないことについて不可解な秘密を話し合った。一方でマーサー博士の方は
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** 複雑な比喩やメタファーを用いて関連アノマリーを職員の逸話に例える行為は、道徳上の問題から抑止されるべきです。//
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** また、執筆者はこれが[[span class="ruby"]]tale[[span class="rt"]]物語[[/span]][[/span]]ではなくSCPデータファイルであることを思い出すことが推奨されます。//
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+SCP
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** 駄目です。//
+[[/div]]
+
+オブジェクト
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** 駄目です。//
+[[/div]]
+
+あー、タローラン博士？
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** **駄目です。**//
+[[/div]]
+
+//クソ妖精//
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:** [[size 200%]]**駄目です。**[[/size]]//
+[[/div]]
+
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+**アイテム番号:** //プロトコル4000-Eshuに基づき制限されています。//
+
+**オブジェクトクラス:** //プロトコル4000-Eshuに基づき制限されています。//
+
+**特別収容プロトコル:** 本文書で解説されているアノマリーは超常的に不安定な名辞的構造を有しているため、その説明はEshuプロトコルで定められている制限の下で可能な限り曖昧な表現で書かれなければいけません。現在、Eshuプロトコルは改定中です。Eshuプロトコルの改定版は内容が確定し次第閲覧可能となります。
+
+現在、このファイルの保守管理は--マック博士が--担当しています。
+
+**説明:** ウェスト博士のケツから採ったコカインをグイっと一発キメて、目が覚めたら自分のチンコでフェラするやる気と柔軟さがあることを祈るぜ。この短かったクソ人生を締めくくる最後の楽しみにな。
+
+[[div_ class="yellow"]]
+> //**Eshuプロトコル更新:**// ##green|**ファイルの改定版が承認されました！**##
+[[/div]]

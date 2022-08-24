@@ -1,0 +1,132 @@
+[[include :scp-jp:component:black-highlighter-theme-dev]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:fade-in speed=1]]
+
+[!-- Add email formatting. --]
+[[module CSS]]
+.logbox {
+    display: inline-block;
+    float: top;
+    padding: 1px 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width:100%;
+    margin: auto;
+    border: solid 2px #000000;
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.tofrom {
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 1px 15px;
+    border-left: solid 3px maroon;
+}
+[[/module]]
+
+[[>]]
+[[include :scp-jp:info:start]]
+[[=]]
+**タイトル:** SCP-6064 - マーブル・マッドネス
+**著者:** ©︎[[*user MirageTD]]
+**原題:** SCP-6046 - Marble Madness
+**作成年:** 2021
+[[include :scp-wiki:component:ratio-bar pie=--]]
+[[/=]]
+[[include :scp-jp:info:end]]
+[[/>]]
+
+[[div style="margin-bottom:20px;"]]
+[[include :scp-wiki:component:customizable-acs
+|containment-class= pending
+|containment-image= https://scp-jp.wdfiles.com/local--files/component%3Aanomaly-class-bar/pending-icon.svg
+|containment-color= 12, 12, 12
+|inc-esoteric-layout = --]]]
+[[div class="anom-bar-esoteric"]]
+[[include :scp-jp:component:anomaly-class-bar-source
+|item-number= 6046
+|clearance= 1
+|container-class= pending
+|secondary-class= anomalous
+|secondary-icon= https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/Anomalous.svg
+|disruption-class= none
+|risk-class= none
+]]
+[[/div]]
+[!-- Undo some of the stuff caused by using pending and customizable acs. --]
+[[module CSS]]
+.anom-bar-container.pending .second-class,
+.anom-bar-container.pending .text-part > .main-class::before {
+    display: flex;
+}
+.anom-bar-container.pending .danger-diamond > .top-icon {
+    width: 33%;
+    height: 33%;
+    top: 0.25rem;
+    left: 33.5%;
+    border-width: 0.1875rem;
+}
+.anom-bar-esoteric .anom-bar-container.pending .text-part > .main-class::before {
+    top: calc(50% - 2.25rem) !important;
+    right: 1.5rem !important;
+}
+.anom-bar-esoteric .anom-bar-container.pending .text-part > .main-class::after {
+    top: calc(50% - 2.25rem) !important;
+    right: 0.5rem !important;
+}
+@media (max-width: 875px ) {
+    .anom-bar-esoteric .anom-bar-container.pending .text-part > .main-class::before {
+        top: 1.2rem !important;
+        right: 1.5rem !important;
+    }
+    .anom-bar-esoteric .anom-bar-container.pending .text-part > .main-class::after {
+        top: 1.2rem !important;
+        right: 0.5rem !important;
+    }
+}
+[[/module]]
+[[/div]]
+
+[[include :scp-jp:component:image-block
+|name= http://scp-jp-storage.wdfiles.com/local--files/file%3A3705485-13-7657/marbles.jpg
+|caption= SCP-6046。
+]]
+
+**特別収容プロトコル:** SCP-6046実例はゴム栓で閉じた瓶に保管します。SCP-6046のコンテナから4メートル以内には機械的な留め具[[footnote]]ボルト・リベット・ネジなど。[[/footnote]]で各部品を連結する物体を持ち込んではいけません。
+
+未収容のSCP-6046実例が回収されるまで、メンテナンススタッフは現場で発見された弱い機械的接続部をエミール・ロズマン博士に報告してください。
+
+**説明:** SCP-6046は12個のビー玉であり、各実例が半径3.4メートル以内に存在する機械的な接続を弱くします。実験からSCP-6046はリベットの尾部を変形させたり、ボルト・ナット・ネジおよび釘を緩めたりすることが可能であることが確認されています。SCP-6046は接着剤には影響を及ぼしません。
+
+**補遺6046.1:** インシデント6046.1
+
+SCP-6046前責任研究者であるアニス・シルバーマン博士は[[span style="white-space: nowrap;"]]認識災害[[footnote]]実験ログ830-9005を参照。[[/footnote]][[/span]]に曝露したのち、精神病エピソードを経験しました。治療のために診断および拘留される前、シルバーマン博士は4つのSCP-6046を収容下から取り除きましたが、捜索においてそのいずれも彼女の周囲や仕事場からは発見されませんでした。シルバーマン博士が回復するまでの間、SCP-6046の責任はロズマン博士に移譲されました。
+
+**補遺6046.2:** インシデント6046.2
+
+職員の休憩室の壁に取り付けられていたスペースヒーターが外れて落下し、サイモン・コルバート研究員に直撃しました。コルバート研究員はこの衝撃から生存しましたが、前頭葉に深刻な損傷を負ったことにより多くの反社会的行動を行うようになりました。その後の調査において該当の休憩室で未収容のSCP-6046実例が発見されました。
+
+**補遺6046.3:** アーカイブされた連絡
+
+以下のロズマン博士からの提案は審査後に実行が検討されています。
+
+[[div class="logbox" style="margin-bottom: 18px"]]
+[[<]]
+[[div class="tofrom"]]
+**To:** ザイク・スカノン管理官
+**From:** エミール・ロズマン博士
+**Subject:** SCP-6046
+[[/div]]
+------
+件のインシデントに巻き込まれたことを考慮し、SCP-6046を[[[*https://scp-wiki.wikidot.com/log-of-anomalous-items-vol-iii |Anomalousアイテム記録]]]から正式なデータベースエントリーに移すことが適当であると考えました。それらの収容方法についても幾つか提案があります:
+
+# 行方不明の実例の回収に対しより積極的なアプローチを行う
+# 私の心理評価の頻度を高める
+# 精神的に不安定さが引き起こされる状況が操作されていないと確認されるまで、SCP-6046の収容クラスをEuclidにする
+
+状況証拠に過ぎないにしろ、人々の心神喪失に繋がるものがネジを緩くするビー玉の一連の紛失なのではないかと疑っているのは、私だけではないでしょう。
+[[/<]]
+[[/div]]
+
+[[footnoteblock title="脚注"]]

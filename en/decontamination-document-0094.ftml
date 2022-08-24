@@ -1,0 +1,74 @@
+[[include :scp-jp:theme:black-highlighter-theme]]
+[[module CSS]]
+sup { 
+vertical-align: top; position: relative; top: -0.5em; 
+}
+:root{ 
+--cutColour: #fafafa;
+--barColour: #590505;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;}
+
+.translation_block{
+display:none;}
+[[/module]]
+[[module css]]
+#side-bar {
+    background: rgb(var(--white-monochrome));
+}
+
+#side-bar div.menu-item a, #side-bar div.menu-item .text {
+    color: rgb(var(--black-monochrome));
+}
+
+#side-bar>div:nth-child(5) {
+    background-color: rgba(var(--dark-accent),0.25)!important;
+}
+[[/module]]
+
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+++ 下の画像を、幻聴が停止するまで閲覧してください。
+
+[[=image http://www.scp-wiki.net/local--files/decontamination-document-0094/Apophysis-100303-104.jpg style="width: 99%; border: solid 1px #000000; padding: 1px"]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+**認識災害封じ込め処置を完了してくださり、ありがとうございました。後日、SCP-2413文書にアクセスする場合、このプロセスを再び完了しなければなりません。**
+
+[[html]]
+<audio autoplay>
+  <source src="http://www.scp-wiki.net/local--files/decontamination-document-0094/newbackandforth.mp3" type="audio/mpeg">
+</audio>
+
+<html>
+<head>
+<script type="text/javascript">
+
+function checkRedirect()
+{
+    if (parseInt(sessionStorage.read) != 1)
+    {
+        window.top.location = "http://ja.scp-wiki.net/scp-2413";
+    }
+}
+</script>
+</head>
+<body onLoad="checkRedirect();">
+</body>
+</html>
+[[/html]]

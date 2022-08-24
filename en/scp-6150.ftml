@@ -1,0 +1,188 @@
+[[include :scp-wiki:theme:blankstyle]]
+[[module css]]
+body{
+    --barColour: #8c8c8c;
+}
+
+:root{
+  --header-title: "SCP Foundation";
+  --header-subtitle: "Secure, Contain, Protect";
+}
+
+#header h1 a:before {
+    font-size: 2.0rem;
+}
+
+div#extra-div-1 {
+    background-image: url(https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/nb_logo_blk.svg);
+    filter: opacity(25%);
+}
+
+#page-content .info-container {
+    --link-color: rgb(var(--swatch-text-general));
+}
+
+#page-content .info-container .translation_block {
+    display: none;
+}
+
+#page-content .info-container .collapsible-block-link,
+#page-content .info-container:hover .collapsible-block-link {
+    line-height: 1.6em;
+}
+
+#page-content .info-container .collapsible-block-folded,
+#page-content .info-container .collapsible-block-unfolded-link {
+    display: grid;
+}
+
+#page-content .info-container .collapsible-block-folded .collapsible-block-link,
+#page-content .info-container .collapsible-block-link {
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
+}
+
+#page-content .info-container .collapsible-block-folded::before,
+#page-content .info-container .collapsible-block-unfolded-link::before {
+    --wght: 800;
+    content: "Elenee FishTruck";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 2.75ex;
+}
+[[/module]]
+
+[[include :scp-jp:component:info-ayers
+|lang=jp
+|page=scp-6150
+|authorPage=http://scp-wiki.wikidot.com/elenee-s-author-page
+|comments=
+
+= **SCP-6150** - //ボスホート3号//
+
+----
+
+= TheYeIIowDucKによって作成され、EleneeFishTruckによって書き直されました
+]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-jp:component:classified-bar-woed
+|lv=3
+|item=6150
+|oc=Safe
+|lang=JP
+]]
+
+----
+
+[[include component:image-block
+| name=http://scp-jp-storage.wikidot.com/local--files/file:5518554-37-a1hp/voskhod.jpg
+| caption=SCP-6150。
+]]
+
+**特別収容プロトコル:** 1人の警備員がSCP-6150の収容室を監視します。SCP-6150を開けようとする試みは禁止されています。
+
+----
+
+**説明:** SCP-6150は、ボスホート-3KV宇宙船の再突入モジュールであり、外部に重大な損傷を受けています。モジュールにある全ての開口部は、金属製の器具によって溶接され、閉じられています。また、不透明な物質が内側から全ての窓を覆っています。
+
+時折、金属を叩くような音、ひっかくような音、苦しむようなロシア語や叫びによって助けを求めるくぐもった声が当該オブジェクトから発せられます。これらの音は不定の時間が経過することで収まり、いかなる刺激にも反応しませんでした。
+
+SCP-6150は、バイコヌール宇宙基地近くの放棄された施設で財団職員に発見されました。施設内部は甚大な火災被害を受けたことを示していました。施設に残っている文書や財団の管理下にある文書はありませんが、入り口の壁にスプレーで書かれたメッセージが発見されました：
+
+> = **ВОСКОД 3**[[footnote]]"ボスホート3号": セルゲイ・コロリョフとヴァシーリー・ミシンとの間でソビエト連邦の宇宙計画の主導権が移った後、NASAのジェミニ計画に比べて目立って求心力がなかったために中止された、構想に終わった宇宙探査ミッションに関連する。[[/footnote]]
+>
+> = **Кодовое имя: ПОРОГ**[[footnote]]"コードネーム: スレッシュホールド": 文脈が不明である。[[/footnote]]
+
+----
+
+**補遺6150.1:** 解析
+
+当該オブジェクト内部をスキャンすると、一貫性のない結果が得られます。添付画像をご覧ください。
+
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:5518554-38-zt1d/scan-1.jpg style="width:300px;"]]
+
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:5518554-39-dr07/scan-2.jpg style="width:300px;"]]
+
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:5518554-40-l59s/scan-3.jpg style="width:300px;"]]
+
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:5518554-41-bolh/scan-4.jpg style="width:300px;"]]
+
+[[include :scp-wiki:component:license-box
+|author=TheYeIIowDucK, rewritten by Elenee FishTruck]]
+=====
+> **ファイル名:** voskhod.jpg
+> **作者:** [[*user Elenee FishTruck]], Ardfern, Rinet IT Australia, Deb Tremper
+> **ライセンス:** CC BY-SA 3.0
+> **出典リンク:** [http://scp-wiki.wikidot.com/scp-6150 SCP Foundation Wiki]
+> **引用:**
+> ----
+> **ファイル名:** Cosmonauts Exhibition, Science Museum, London, February 2016 (03).JPG
+> **作者:** Ardfern
+> **ライセンス:** CC BY 4.0
+> **出典リンク:** [https://commons.wikimedia.org/wiki/File:Cosmonauts_Exhibition,_Science_Museum,_London,_February_2016_(03).JPG Wikimedia Commons]
+> ----
+> **ファイル名:** Grunge texture
+> **作者:** Rinet IT Australia
+> **ライセンス:** CC BY-SA 2.0
+> **出典リンク:** [https://flic.kr/p/G5JNu3 Flickr]
+> ----
+> **ファイル名:** grunge paper texture
+> **作者:** Deb Tremper
+> **ライセンス:** CC BY 2.0
+> **出典リンク:** [https://flic.kr/p/9FMfcn Flickr]
+
+> **ファイル名:** scan-1.jpg, scan-2.jpg, scan-3.jpg
+> **作者:** [[*user Elenee FishTruck]], virtually_supine, The British Library
+> **ライセンス:** CC BY-SA 3.0
+> **出典リンク:** [http://scp-wiki.wikidot.com/scp-6150 SCP Foundation Wiki]
+> **引用:**
+> ----
+> **ファイル名:** BurnishedCopperAndVerdigris1
+> **作者:** virtually_supine
+> **ライセンス:** CC BY-SA 2.0
+> **出典リンク:** [https://flic.kr/p/7C4VVn Flickr]
+> ----
+> **ファイル名:** British Library digitised image from page 189 of "The Half Hour Library of Travel, Nature and Science for young readers"
+> **作者:** The British Library
+> **ライセンス:** Public Domain
+> **出典リンク:** [https://www.flickr.com/photos/britishlibrary/11301675726/ Flickr]
+> ----
+> **ファイル名:** British Library digitised image from page 308 of "The Half Hour Library of Travel, Nature and Science for young readers"
+> **作者:** The British Library
+> **ライセンス:** Public Domain
+> **出典リンク:** [https://www.flickr.com/photos/britishlibrary/11140511685/ Flickr]
+> ----
+> **ファイル名:** British Library digitised image from page 319 of "The Half Hour Library of Travel, Nature and Science for young readers"
+> **作者:** The British Library
+> **ライセンス:** Public Domain
+> **出典リンク:** [https://www.flickr.com/photos/britishlibrary/11241578765/ Flickr]
+
+> **ファイル名:** scan-4.jpg
+> **作者:** [[*user Elenee FishTruck]], virtually_supine, NASA
+> **ライセンス:** CC BY-SA 3.0
+> **出典リンク:** [http://scp-wiki.wikidot.com/scp-6150 SCP Foundation Wiki]
+> **引用:**
+> ----
+> **ファイル名:** BurnishedCopperAndVerdigris1
+> **作者:** virtually_supine
+> **ライセンス:** CC BY-SA 2.0
+> **出典リンク:** [https://flic.kr/p/7C4VVn Flickr]
+> ----
+> **ファイル名:** Suitsat1 release.jpg
+> **作者:** NASA
+> **ライセンス:** Public Domain
+> **出典リンク:** [https://commons.wikimedia.org/wiki/File:Suitsat1_release.jpg Wikimedia Commons]
+=====
+[[include :scp-wiki:component:license-box-end]]

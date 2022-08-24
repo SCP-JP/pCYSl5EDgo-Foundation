@@ -1,0 +1,263 @@
+[[module CSS]]
+@import url(/theme:3law/code/1);
+[[/module]]
+
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+#header h2 span::before {
+    content: '星屑を星々の下へ ';
+}
+#page-title {
+   font-size: 0pt;
+}
+
+#breadcrumbs {
+
+   display: none;
+
+}
+
+div#page-content a.collapsible-block-link{
+color: #315B7D;
+font-size: 150%;
+font-weight: bold;
+font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
+letter-spacing: 1px;
+}
+.scpf {
+background-color: rgba(252, 81, 48, 0.25);
+}
+.goc {
+background-color: rgba(48, 188, 237, 0.25);
+}
+.tcc {
+background-color: rgba(157, 121, 188, 0.25);
+}
+.five {
+background-color: black;
+color: white;
+}
+[[/module]]
+
+[[div style="display: none;"]]
+
+[[include component:image-block
+
+name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-358-qqo1/cake_rocket_thumbnail.png
+
+|width=100%
+
+|align=center]]
+
+[[/div]]
+
+[[table style="width: 100%"]]
+[[row]]
+[[cell style="text-align: left; vertical-align: top"]]
+[[[third-law-hub|第三法則ハブ]]] >> ダモクレス・イニシアチブ
+[[/cell]]
+[[cell style="text-align: right; width:200px;"]]
+[[include :scp-jp:credit:start]]
+[[include :scp-jp:credit:cc4]]
+[[include :scp-jp:credit:end]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[div style="border: solid 5px #999999; background:#fffbfe; padding: 10px; margin: auto; margin-bottom: 25px; margin-top: 10px;"]]
+
+[[div style="border: solid 1px #000000; background:#ffffff; padding: 10px; margin-bottom: 10px;"]]
+[[table style="width: 100%; margin:0 auto"]]
+[[row]]
+[[cell style="text-align:left; width:30%;"]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-354-wgcs/SCP_Interstellar_logo3.png width="250px"]]
+[[/cell]]
+[[cell style="vertical-align:center"]]
+[[table style="margin:0 auto; white-space: pre"]]
+[[row]]
+[[cell style="text-align:center; font-size: 5vmin; font-family: 'stationmedium', Arial, sans-serif; line-height: 0.5;"]]
+**DAMOCLES**
+**INITIATIVE**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align:center"]]
+@@ @@
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align:center"]]
+@@ @@
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align:center; font-size: 2.5vmin; font-family: 'Baumans', 'stationmedium', serif;"]]
+//Sic itur ad astra//
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/cell]]
+[[cell style="text-align:right; width:30%;"]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-355-tbca/GOC_Taskforce_Logo.png width="250px"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+
+[[=]]
+//ヘクター・キャンヴェラは星々の間に悟りを求めている。
+彼を成功させてはならない。
+彼を阻止できるのは、ジョワユーズの乗組員だけなのだ。//
+
+**[[[greenwolf-s-author-page| GreenWolf]]]**、**[[[tygently-author-page|TyGently]]]**、**[[[ch00bakka-personnel-file|ch00bakka]]]** 著
+[[/=]]
+
+----
+
+[[=]]
+[[collapsible show="▶ その前に ◀" hide="▼ その前に ▼" hideLocation="top"]]
+//彼らは何処からやって来たのか、そして何故ここに居るのか？//
+[[/=]]
+[[div style="margin-left: 10%; width: 80%"]]
+[[<]]
+* **[[[grant-request-for-the-construction-of-an-interstellar-scienc|星間科学船の建造のための認可計画]]]** -- //By GreenWolf// _
+ダモクレスの前には、ダイダロスが存在した。 _
+@@ @@
+* **[[[SCP-1425]]] -- 星のシグナル** -- //By Silberescher// _
+“第五世界で動く前に、あなたは決して本当に動いたとは言えません。” _
+@@ @@
+* **[[[a-little-bit-of-help|]]]** -- //By ch00bakka// _
+高貴なる古代ゴルモゴン教団の//エクメニクス・ヴォルジ//は史上最高の初デートを経験する。
+[[/div]]
+[[/<]]
+[[/collapsible]]
+
+----
+
+[[=]]
+++ カウントダウン
+//想像を絶する重要性を帯びた秘密の宇宙開発競争。
+2つの惑星の運命が懸かっている。
+そして、片方は既にスタートを切っている。//
+[[/=]]
+
+[[div style="margin-left: 15%; width: 70%"]]
+**1. [[[stairway-to-the-stars|]]]** -- //By ch00bakka//
+一緒に宇宙へ旅立つのは、普通だったら4回目のデートでやる事なのに。
+
+**2. [[[harvester-of-eyes|]]]** -- //By TyGently//
+{{あなたの血はあなた自身のものです。
+地球を養わないでください。}}
+
+**3. [[[workshop-of-the-telescopes|望遠鏡工房]]]** -- //By GreenWolf and TyGently//
+菓子ベースのブラックホール供給システムに関するダモクレス作業班の覚書
+
+**4. [[[SCP-6523]]] -- The Machine (ISV //Joyeuse//)** -- //By GreenWolf//
+//ジョワユーズ//は400年でアルラ・ボレアリスに到達する。
+帰還することは無い。
+[[/div]]
+
+[[=]]
+++ 点火
+//旅は始まった。
+2機の宇宙船は星々の間に広がる虚空を渡る。
+無傷で目的地へ辿り着けるだろうか？//
+[[/=]]
+
+[[div style="margin-left: 15%; width: 70%"]]
+**5. [[[Fire of Unknown Origin]]]** -- //By ch00bakka, GreenWolf, and TyGently//
+船出のために、//ジョワユーズ//の乗組員たちはまず人類史上最大の爆発を起こさなければならない。
+
+**6. [[[burnin-for-you|Burnin' For You]]]** -- //By ch00bakka, GreenWolf, and TyGently//
+//ジョワユーズ//はブラックホールを捕まえて、冥王星でピットストップし、永遠に暗闇へと出航する。
+
+[[/div]]
+----
+[[=]]
+++ その後 & 別件
+//別な時代、別な場所で、
+星々を越えて新しい年代記が記される。//
+[[/=]]
+
+[[div style="margin-left: 15%; width: 70%"]]
+
+**[[[site anvil|Secure Planet Dossier: Site Anvil]]]** -- 人類を完全な破滅から守るために、恒星間植民地化計画が進んでいる。人類が決してそれを知る日が来ないのが理想だ。 //By GreenwolfGreenWolf and TyGently//
+
+[[/div]]
+
+[[/div]]
+
+[[div style="border: solid 5px #999999; background:#fffbfe; padding: 10px; margin: auto; margin-bottom: 25px; margin-top: 10px;"]]
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-359-920t/cake_rocket_2_bigtext.png title="ISV ジョワユーズ" alt="ISV ジョワユーズの詳細な設計図。" link="http://scp-jp-storage.wikidot.com/file:2375337-359-920t"]]
+----
+[[=]]
+++ プレイヤー
+[[/=]]
+
+[[div style="margin-left: 5%; width: 90%"]]
+
+[[span class="five"]]**クインテッセンス・エアロスペース**[[/span]] -- 民間宇宙飛行企業。億万長者の自費運営プロジェクト。その実態は星を崇拝する第五主義カルト。 [[span style="text-decoration: line-through 0.2em"]]神[[/span]] [[span style="text-decoration: line-through 0.2em"]]ナンバー5[[/span]] エイリアンを探し求めて宇宙船 //クインカンクス// を建造した。
+
+[[span class="tcc"]]**ダモクレス・イニシアチブ**[[/span]] -- 財団とGOCの独立共同機関。星間航行船 //ジョワユーズ// の操縦に携わる。//クインカンクス//の迎撃と無力化を任務とする。
+
+[[span class="scpf"]]**星間収容部門 (SCPF)**[[/span]] -- ダモクレス・イニシアチブの財団側。航行システムのメンテナンスや、その他の//ジョワユーズ//船内における工学的・科学的・収容関連業務を担当する。
+
+[[span class="goc"]]**星間脅威対応機動部隊 (UNGOC)**[[/span]] -- ダモクレス・イニシアチブのGOC側。船の兵器システムや、ほとんどの戦闘・保安機能を担当する。奇跡論やその他の超常科学分野の専門家が多数所属している。
+
+[[/div]]
+
+----
+
+[[=]]
+++ 場所
+[[/=]]
+
+[[div style="margin-left: 5%; width: 90%"]]
+
+**地球** -- 読者が今いる所。
+
+**宇宙** -- めっちゃ広い。めっちゃ空虚。
+
+**(532) ヘルキュリナ** -- 主要小惑星帯で11番目に巨大な天体。プロメテウス・ラボの研究施設跡地が存在する。自動防衛システムがあるため、接近には危険が伴う。プロメテウス・ラボが作成した小規模なブラックホールを内包していると信じられている。
+
+**ファーポイント基地** -- 冥王星にあるGOCの前線作戦基地。処分できない重大な超常脅威を安全に保管するために使われている。深宇宙警報システムの監視施設。
+
+**アルラ・ボレアリス** -- 地球の太陽から約400光年離れた位置にあるK3IIIクラスの橙色巨星。
+
+[[/div]]
+
+----
+
+[[=]]
+++ 人々
+[[/=]]
+
+[[div style="margin-left: 5%; width: 90%"]]
+
+[[span class="five"]]**ヘクター・キャンヴェラ (Hector Canvera)**[[/span]] -- 狂気の億万長者。 [[span style="text-decoration: line-through 0.2em"]]世界で5番目に裕福な男[[/span]] 宇宙一裕福な男。クインテッセンス・エアロスペースの創業者にしてCEO。第五教会の信者。
+
+[[span class="scpf"]]**ジェシカ・フォーダイス (Jessica Fordyce)**[[/span]] -- 星間収容部門長。以前はGOCとの間を繋ぐ特別連絡員だった。ミシェル・ダールと恋愛関係にある。
+
+[[span class="goc"]]**ミシェル・ダール (Michelle Dahl)**[[/span]] -- 星間脅威対応機動部隊の指揮官。別名イフェゲニア・メーソンベーン、高貴なる古代ゴルモゴン教団の//[[span class="ruby"]]エメリタス・エクメニクス・ヴォルジ[[span class="rt"]]Emeritus Oecumenicus Volgi[[/span]][[/span]]//。
+
+[[span class="tcc"]]**ハイラム・ダグラス (Hiram Douglas)**[[/span]] -- //ジョワユーズ//の船長。プロメテウス・ラボの潜水艦の元・艦長/テストパイロット。ブラックホールを動力源とする宇宙船を飛ばす訓練を受けた唯一の人物。
+
+[[span class="scpf"]]**[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]] (Song Jin-ho)**[[/span]] -- //ジョワユーズ//の機関長。アントワネット・マシンの主任設計士/監督。財団の小型融合炉研究の主任研究員だった。
+
+[[span class="goc"]]**レイラ・ウィクストロム (Leila Wikström)**[[/span]] -- //ジョワユーズ//の主席医務官。サイバネティクスと医療用人工装具の第一人者。硅素のノルニルの従者。ユーテック医事委員会所属。
+
+[[span class="goc"]]**リリス・ソーントン (Lilith Thornton)**[[/span]] -- //ジョワユーズ//の主席奇跡術師。ICSUTチューリッヒ分校の名誉教授にして、元・多元宇宙研究学科長。[[span class="ruby"]]例の図書館のカード[[span class="rt"]]A Library card[[/span]][[/span]]を持っている。
+
+[[span class="tcc"]]**ティファニー・ティファニー (Tiffany Tiffany)**[[/span]] -- //ジョワユーズ//の副船長にして、ハイラム・ダグラスの副官。元アメリカ合衆国海軍航空隊員、現在はアトランティス人。プロメテウス・ラボ没落後のペンタグラムのシンクタンクでコンサルタントを務めていた。
+
+[[span class="scpf"]]**フィービー・ハーラン (Phoebe Harlan)**[[/span]] -- //ジョワユーズ//の二等機関士。ダリウス-スミ・シンギュラリティ・ドライブの保守担当。財団の材料工学プログラムの監督研究員だった。
+
+[[span class="scpf"]]**アントン・オルロフ (Anton Orlov)**[[/span]] -- 機動部隊プサイ-1 (“レッドシャツ”) 司令官。元・GRU-P部局スペツナズ士官。シベリアで[[span class="ruby"]]緋色の鎚[[span class="rt"]]スカーレット・ハンマー[[/span]][[/span]]への対抗作戦を指揮した。GRU-Pと財団の合同作戦に度々参加している。
+
+[[span class="goc"]]**ピエール・デュヴァル (Pierre Duval)**[[/span]] -- 排撃班2112 (“スターシップ・トゥルーパーズ”) 隊長。サタンと科学者の統一教会に所属する[[span class="ruby"]]魔術師[[span class="rt"]]ウォーロック[[/span]][[/span]]。神学と哲学の博士号を持つ。戦闘認識論の実践者。
+
+[[span class="goc"]]**ラズロ・サルカニー (Laszlo Sarkany)**[[/span]] -- //ジョワユーズ//の副主席奇跡術師。ショロマンツァの名誉大魔導士であり、108評議会の元メンバー。間違いなく古代から生きている、漠然とヨーロッパ系の人物。
+[[/div]]
+
+[[/div]]

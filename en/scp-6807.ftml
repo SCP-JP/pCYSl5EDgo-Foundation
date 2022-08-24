@@ -1,0 +1,321 @@
+[[div style="display: none;"]]
+[[include component:image-block name=staircrom.png|caption=.]]
+[[/div]]
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:extra-black-highlighter-theme]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[module css]]
+body{
+    --barColour: #710709;
+}
+
+:root {
+    --logo-image: url("https://scp-wiki.wdfiles.com/local--files/component:pride-highlighter/nb_logo_blk.svg");
+    --wght: 500;
+}
+
+.quote-text {
+    display: inline-block;
+    border:dashed 1px #999999;
+    background:#1b1c1f;
+    float:center;
+    width:84%;
+    padding:1px 15px;
+    margin: 10px 10px 10px 30px
+}
+
+#page-content .info-container {
+    --link-color: rgb(var(--swatch-text-general));
+}
+
+#page-content .info-container .translation_block {
+    display: none;
+}
+
+#page-content .info-container .collapsible-block-link,
+#page-content .info-container:hover .collapsible-block-link {
+    line-height: 1.6em;
+}
+
+#page-content .info-container .collapsible-block-folded,
+#page-content .info-container .collapsible-block-unfolded-link {
+    display: grid;
+}
+
+#page-content .info-container .collapsible-block-folded .collapsible-block-link,
+#page-content .info-container .collapsible-block-link {
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
+}
+
+#page-content .info-container .collapsible-block-folded::before,
+#page-content .info-container .collapsible-block-unfolded-link::before {
+    --wght: 800;
+    content: "Collaboration";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 2.75ex;
+}
+[[/module]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=scp-6807
+|authorPage=http://scp-wiki.wikidot.com/elenee-s-author-page
+|comments=
+
+= **SCP-6807** - //無限音階//
+
+----
+
+= Cole 13著 -- GremlinGroup、JakdragonX、Elenee FishTruckにより改稿
+]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:classified-bar-woed
+|lv=2
+|item=6807
+|oc=Safe
+|lang=JP
+]]
+
+----
+
+[[include component:image-block name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-273-ghdv/stairs.png|width=100%|align=center|caption=SCP-6807。]]
+
+**特別収容プロトコル:** 遠隔観測システムがSCP-6807の入口 (現在は工業規格の鋼鉄製ドア) を監視しています。如何なる状況でも、探索任務中の職員が階段に座り込んだり、もたれかかったりすることは認められません。
+
+----
+
+**説明:** SCP-6807は、京都市の下水道にある識別マークの無いドアからアクセスできる、赤い絨毯が敷かれた階段です。階段は地上に露出していないにも拘らず、本来そのために必要な長さを遥かに超過しています。絵画が一定間隔でレンガ造りの壁に掛けられています。
+
+SCP-6807を上る人物や物体は、鉛直距離で30～40mの高さに達するまでごく普通に移動した後、階段のより低い位置へと自然に再配置されます。この転移現象はシームレスに発生し、影響者は指摘されなければ高さの変化に気付きません。SCP-6807の実際の高さの正確な計測はまだ行われていません。
+
+この他にも異常現象が確認されていますが、詳細な調査は実施されていません。下記の補遺を参照してください。
+
+----
+
+**補遺6807.1:** 探索ログ
+
+[[div class="quote-text"]]
+
+**任務の目的:** 長時間の探索によって、アノマリーの通常時の特性との違いが表出しないかを確認する。エージェント ゲラが単独で調査を行い、エージェント ビジャレアルが司令役を担当する。緊急時の回収役を務める後援エージェント2名が階段の基部で待機する。
+ 
+----
+
+//(エージェント ゲラがSCP-6807に通じるドアを開ける。視認性が劇的に悪化する。)//
+
+**ゲラ:** 階段を上ります。
+
+**司令:** 了解した。
+
+//(ゲラは頭部装着式のライトを点けて階段を薄暗く照らし、回収要員2名を最下段に待機させたまま、着実に階段を上がってゆく。上る際の足音は絨毯で消されている。鉛直距離で10m上った時点で、彼女は最初の絵画1組に遭遇する。)//
+
+**ゲラ:** いつも通りの2枚。
+
+**司令:** 変わりないようで何よりだ。何かしらの変化に気付いたら教えてくれ。
+
+
+**ゲラ:** 了解。
+
+//(ゲラは更に20m上昇し、時折先程と同じ絵画の別な実例を眺める。司令役はエージェント ゲラの位置の唐突かつ急激な変化を検出する。)//
+
+**司令:** エージェント、高度計を読んでくれ。
+
+**ゲラ:** 10m。これがループですか？
+
+**司令:** その通りだ。何か変わったことは？
+
+**ゲラ:** いえ。むしろ同じ光景を何度も見ているような感じです！
+
+//(司令役とゲラは笑う。ゲラは階段を上り続ける。映像から彼女の穏やかな呼吸と静かな足音以外の音声は検出されない。)//
+
+**ゲラ:** …あの音が聞こえますか？
+
+**司令:** いいや。
+
+**ゲラ:** その… しかし私は… いえ、何でもありません。
+
+**司令:** 何が言いたかったんだ、エージェント？
+
+**ゲラ:** 音色、と言いますか。背景雑音です。とにかく、私はそう思いました。
+
+//(音声から別な雑音は全く検出されない。ゲラは上り続け、階段を3回ループする。彼女はまた1組の絵画と遭遇する。)//
+
+**司令:** 止まれ。
+
+**ゲラ:** はい？
+
+**司令:** 右側の絵画を見てくれ。
+
+[[include component:image-block
+| name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-274-iyc9/painting-1.png| caption=SCP-6807に存在する絵画。作者や起源は不明。
+| width=200px
+]]
+
+//(ゲラは指示通りに右側を向く。添付画像を参照。)//
+
+**ゲラ:** 特に変わった点はありませんが。
+
+**司令:** こちらでは確信が持てなかった、それだけだ。違う物が見えたと思った。
+
+**ゲラ:** ああ成程。可愛らしい絵でしょう？
+
+//(ゲラは上り続ける。またしてもループした後、彼女は硬直する。)//
+
+**ゲラ:** …まただ。
+
+**司令部:** 復唱を。
+
+**ゲラ:** 雑音です、あの… あれがまた聞こえました。音源は分かりません。絶えず高くなっていくような音です、分かります？ 音程が増していくんですよ。それが今聞こえます。
+
+**司令:** 我々には聞こえない、エージェント。君を撤退させるべきか--
+
+**ゲラ:** い、いえ、私は… まだ先に進めます。
+
+**司令:** 了解した。
+
+//(ゲラは歩調を速めて上り続けるが、階段の右側に留まっている。周辺環境の変化は検出されない。)//
+
+**ゲラ:** まるで… 何と言えば良いでしょう？ ひたすら上り続けていると、ある時点でそれが--
+
+//(ゲラが再び硬直する。)//
+
+**司令:** エージェント？
+
+**ゲラ:** 何処から聞こえるのか…
+
+**司令:** もう一度言う、我々は君を撤退させることも--
+
+**ゲラ:** まだ続けます。の -- 上らなければ。
+
+//(ゲラは階段の右側を上り続ける。)//
+
+**ゲラ:** //(呟く)// 今向かってる、待ってろ、今行くぞ！
+
+**司令:** エージェント？
+
+//(ゲラは歩調を更に速める。呼吸が速くなり、足音も大きくなる。)//
+
+**司令:** エージェント？ エージェント ゲラ、聞こえているか？
+
+**ゲラ:** 音は背後から聞こえます。も -- もっと速く上らなければ。彼女が私を必要としている。
+
+**司令:** エージェント、階段を降りるよう命じる。
+
+**ゲラ:** あれは… 無限音階です！ 速くしないと… 奴が後ろから迫っている、速く上らなければ--
+
+**司令:** エージェント、階段を降りろ！
+
+[[include component:image-block
+| name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-275-09jq/painting-2.png| caption= SCP-6807に存在する絵画。作者や起源は不明。
+| width=200px
+]]
+
+//(ゲラは左側に掛かっている絵画を一瞥し、硬直する。)//
+
+**ゲラ:** 奴は笑ってる！
+
+//(ゲラは階段の右側を駆け上がる。浅い息遣いと力強い足音が音声を占めている。ゲラは時折左側の絵画に目線を送りつつ、一段飛ばしに大股で走っている。)//
+
+**司令:** ゲラ、止まれ！
+
+**ゲラ:** 近寄るな！ 近寄--
+
+//(ゲラが段差に躓き、前のめりに倒れ込む。彼女は階段に横たわって喘ぐ。)//
+
+**司令:** ゲラ、大丈夫か？
+
+**ゲラ:** 私は… 私はまだ…
+
+**司令:** いいか、君は階段を降りるだけでいいんだ。ほんの10mしか離れていない。
+
+//(ゲラは仰向けになり、頭部のライトを外す。軽く擦れるような音が検出される。ゲラは自らの額を擦る。)//
+
+**ゲラ:** うぅ… 畜生。
+
+**司令:** ゲラ。
+
+**ゲラ:** 待っ、待ってください。ただ… 彼女が -- あの音が伝えてきたんです、あの -- 左側に近付くなと。笑い声が--
+
+**司令:** 後ほど確認する。今は、階段を降りるだけでいい。
+
+//(ゲラは上体を起こして大きく息を吐く。)//
+
+**ゲラ:** OK、少し待ってください。すぐ--
+
+//(頭部ライトが消失する。擦れるような音が大きくなる。)//
+
+**ゲラ:** そんな… ライトは、ライトは何処に--
+
+**司令:** ゲラ、落ち着け。これは命令だ。
+
+**ゲラ:** どうして -- どうして//寒い？//
+
+**司令:** 階段に掴まれ。
+
+**ゲラ:** は？
+
+**司令:** 階段に。掴まれ。
+
+**ゲラ:** OK、OK、こ -- ここからも下の床が見えます。降りられ--
+
+//(何らかの力がゲラを押し倒し、彼女は必死に階段にしがみ付く。司令役はゲラが加速しつつ急上昇するのを検出するが、それに対応する位置変位は発生していない。ゲラの片手が滑って外れる。)//
+
+**ゲラ:** 無理です！ 掴まっていられない、クソッ！
+
+**司令:** 次の段差を掴むんだ。回収エージェントの待機地点まで這って降りろ、君ならできる。
+
+**ゲラ:** あの音が… 音が大きくなっている！
+
+**司令:** 音のことは忘れろ！ そこを降りるんだ！
+
+**ゲラ:** 手が滑--
+
+//(カメラが上向きに傾く。激しい風の音とゲラの唸り声が検出される。)//
+
+**司令:** ゲラ、聞こえるか?!
+
+//(唸り声が続く。)//
+
+**司令:** ゲラ！
+
+**ゲラ:** ややややややややややや-
+
+//(カメラが壁に叩き付けられる。グシャッという音が検出された後、映像が途絶える。)//
+
+[[/div]]
+
+現場の職員は、エージェント ゲラの消失後、SCP-6807の階段頂点から低い笑い声が聞こえたと報告しました。消失時の状況が断定されるまで、更なる探索は禁止されています。
+
+@@
+@@
+@@
+@@
+
+[[footnoteblock]]
+
+@@
+@@
+@@
+@@
+----
+
+[[collapsible show="もしかしたらこの記事も気に入るかも..." hide="おススメを閉じる"]]
+[[div class="blockquote"]]
+[[[SCP-6080]]] -- //Cartoon Network//, by [[*user JackalRelated]], [[*user pastarasta1]], & [[*user ValidClay]]
+[[[SCP-3672]]] -- //どうしてこんなにたくさんの虹を歌った歌があるんだろう//, by [[*user LordStonefish]]
+[[/div]]
+[[/collapsible]]

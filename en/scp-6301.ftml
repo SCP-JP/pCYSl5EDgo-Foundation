@@ -1,0 +1,204 @@
+[[include :scp-jp:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include :scp-wiki:component:collapsible-sidebar]]
+[[module CSS]]
+div#container-wrap {
+    background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-181-d1b9/backgroundVK-1.png);
+}
+:root {
+    --logo-image: url("http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-301-afpu/VKlogo-pride-Small.png");
+    --header-title: "  Vikander-Kneed";
+    --header-subtitle: "   Technical Media";
+}
+
+/* Adjust Mobile Image Size */
+@media (max-width: 479px) {
+#header {
+    background-size: 100px 100px;
+    background-position: 1em;
+}
+}
+
+[[/module]]
+
+[[include :scp-wiki:info:start]]
+[[=]]
+**[[[vikander-kneed-technical-media-hub | ヴィキャンデル=ニード・テクニカル・メディア ハブ]]]**
+@@ @@
+**[*https://scp-wiki.wikidot.com/grigori-karpin-s-author-page Grigori Karpinの他の著作はこちら]**
+@@ @@
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-335-k2xl/6301%20logo.png width="100px"]]
+[[/=]]
+[[include :scp-wiki:info:end]]
+
+[[include :pseudo-scp-jp:cd-ver2
+|lv=3
+|item=6301
+|class=Safe
+|site-responsible=%E3%82%B5%E3%82%A4%E3%83%88-43
+|director=%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BBJ%E3%83%BB%E3%83%9E%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B9
+|research-head=%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%82%A6%E3%82%A7%E3%83%88%E3%83%AB%E5%8D%9A%E5%A3%AB
+|assigned-task-force=MTF-%E3%82%AB%E3%83%83%E3%83%91-43
+]]
+
+[[include :scp-wiki:component:image-features-source |hover-enlarge=--]
+|enlarge-amount=6
+|speed=250
+|float=true
+|align=right
+|width=400px
+|url=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-276-sxqa/VKTMChildrenLP.jpg
+|add-caption=true
+|caption=SCP-6301。
+]]
+
+++++ __特別収容プロトコル__
+METATRON.aicはメディアの販売に関連するサーバー (//Amazon//や//eBay//を含むがそれらに限定されない) をスキャンし、SCP-6301の説明と一致する出品がないかを調査します。また、.aicは各ウェブサイトの運営初期まで遡って過去の販売履歴を検索し、SCP-6301と一致する商品の記録を探ります。
+
+SCP-6301実例を購入・売却した人物は、その入手元についてのインタビューの後、記憶処理されます。
+
+1枚のSCP-6301実例がサイト-43の大容量データストレージ施設1号に保管され、その他の押収された実例は破棄されます。
+
+また、METATRON.aicはラジオや配信サービスにおける子供向け音楽番組を監視して、SCP-6301の収録楽曲が放送されている兆候がないかを調査し、検出された場合は放送システムを停止する任務を負います。
+@@ @@
+
+++++ __説明__:
+SCP-6301は“ファンキー・フィンのチルドレン・ハッピー・アワー”と題された、一般に“12インチ”と呼称されるタイプのビニール盤レコードです。このサイズのレコードは通常ならば約22分の音声録音が可能ですが、SCP-6301は90分以上の再生時間を有します。最初の楽曲は英語でおよそ4分続きますが、SCP-6301再生時間の残りは未知の言語です。
+
+SCP-6301は特定の対象層にのみ影響を及ぼす催眠・強迫特性を帯びています - レコードが再生されると、12歳以下の人物は楽曲に没頭し、苦痛をはじめとする外部刺激に反応しなくなります。SCP-6301の収録音声を聴取した児童[[footnote]]直接聴いた場合も、放送を通して聴いた場合も該当します。 [[/footnote]]は、SCP-6301の再生が中断されると緊張状態に陥ります。レコードが最後まで再生されない限り、この状態の人物が意識を取り戻すことはありません。
+
+SCP-6301を最後まで聴取した児童は、その内容の記憶を持たずに強制力から解放されます。影響者はその後数日間、無気力と意欲低下を示しますが、数日間休息すれば永続的な影響を伴なわずに正常な状態に戻ります。
+
+++++ __補遺: SCP-6301の内容__
+//以下はSCP-6301の唯一解読できる部分の転写である。//
+[[div style="border: solid 5px #000000; padding: 1px 15px; background:#EFF5EF    ; margin: auto; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+
+**ファンキー・フィン**: //よう、ガキども！//
+
+**児童たち**: //[一斉に]// よう、ファンキー！
+
+**ファンキー**: 人生で大切な事の歌を歌う準備はいいか？
+
+**児童たち**: //[一斉に]// イェーイ！
+
+**ファンキー**: よーし、お家にいるお前も、俺や友達みんなと一緒に歌おうぜ！
+
+[[=]]
+//Watch out for complexities//
+//##999|複雑なものには気を付けろ##//
+//Avoid heavy philosophies//
+//##999|重苦しい哲学には関わるな##//
+//This is the song for every day//
+//##999|こいつは日々の暮らしの歌だ##//
+//We sing about important things,//
+//##999|俺たちが大切な事を歌う##//
+//So keep an eye on working things//
+//##999|だから働く事から注意を逸らすな##//
+//This is your song for every day.//
+//##999|こいつはお前の日々の暮らしの歌だ##//
+
+//Monday's for labor, Tuesday's for bills.//
+//##999|月曜は労働、火曜は請求書##//
+//Wednesday, more labor, Thursday, the mill.//
+//##999|水曜はもっと労働、木曜は苦労##//
+//And on Friday when the pipes have burst,//
+//##999|金曜は配管が破裂して##//
+//You're cleaning the loo.//
+//##999|お前は便所を掃除する##//
+//On Saturday you'll pay some debt.//
+//##999|土曜は幾らか借金を返す##//
+//And Sunday is a day of rest//
+//##999|そして日曜は休日だ##//
+//But not. For. You.//
+//##999|お前にはそうじゃないけどな##//
+
+//Watch out for complexities,//
+//##999|複雑なものには気を付けろ##//
+//You only need simplicities//
+//##999|単純なものだけあればいいのさ##//
+//Don't cloud your head with thoughts about your plight//
+//##999|自分の苦境を思い悩んで頭を一杯にするな##//
+//We'll sing of what's important,//
+//##999|俺たちが大切な事を歌う##//
+//So don't be self-important//
+//##999|だからお高くとまってんじゃねぇ##//
+//For working's all you need to do things right//
+//##999|正しい行いをするには働くだけでいい##//
+
+//And if you're ever tired, or if you're ever sad//
+//##999|そして疲れたり、悲しくなったりしたら##//
+//You gotta work harder, and if you can't that's bad.//
+//##999|もっと一生懸命働け、もし無理ならそいつは悪い事だ##//
+//An excellent life is made up of just a single thing//
+//##999|素晴らしい人生は単純なもので出来ている##//
+//So buck up friends, and hear me true.//
+//##999|だから元気出せ相棒、そして俺の真実の言葉を聞け##//
+//Life is work, at least for you!//
+//##999|人生は労働だ、少なくともお前にとってはな！##//
+
+//Watch out for complexities,//
+//##999|複雑なものには気を付けろ##//
+//The flaw in all societies//
+//##999|どんな社会にもある欠陥さ##//
+//If you deserved more, you'd have been born rich//
+//##999|より良い報いに値するなら、お前は生まれつき金持ちのはずだ##//
+//So grab your bootstraps, pull them up,//
+//##999|だから靴紐をしっかり結んで##//
+//Go work the fields right at sunup//
+//##999|日の出と共に畑に出て働け##//
+//And till the soil until you're in a ditch!//
+//##999|そして野垂れ死にするまで土を耕せ！##//
+
+//Monday's for labor, Tuesday's for bills.//
+//##999|月曜は労働、火曜は請求書##//
+//Wednesday, more labor, Thursday, the mill.//
+//##999|水曜はもっと労働、木曜は苦労##//
+//And on Friday when the pipes have burst,//
+//##999|金曜は配管が破裂して##//
+//You're cleaning the loo.//
+//##999|お前は便所を掃除する##//
+//On Saturday you'll pay some debt.//
+//##999|土曜は幾らか借金を返す##//
+//And Sunday is a day of rest//
+//##999|そして日曜は休日だ##//
+//But not. For. You.//
+//##999|お前にはそうじゃないけどな##//
+
+//Embrace the pure simplicity//
+//##999|逆境の無い人生の##//
+//Of life without adversity//
+//##999|純粋な単純さを受け入れろ##//
+//Pledge to do your very best//
+//##999|全力を尽くすと誓いを立てろ##//
+//There's never any time to rest//
+//##999|休む暇なんて一切無い##//
+//You will never end up rich//
+//##999|金持ちになんか一生なれない##//
+//So work yourself into a ditch//
+//##999|だから野垂れ死にするまで働いてろ##//
+//Everything we sing is true//
+//##999|俺たちが歌う全ては真実だ##//
+//Nothing waits out there for you//
+//##999|お前を待ってるものなんか無い##//
+//And every day the world is blue//
+//##999|そして毎日世界は青い##//
+//‘cuz working is the life for you!//
+//##999|それは労働こそがお前の人生だからだ！##//
+//You don't know what else to do//
+//##999|お前は他に何をすべきか分かってない##//
+//Working is the life for you//
+//##999|労働こそがお前の人生##//
+//In your heart you know it's true//
+//##999|心の底では真実だと分かってんだろ##//
+//Working is the life for you//
+//##999|労働こそがお前の人生##//
+//You will know once life is through//
+//##999|生きていくうちにきっと分かる##//
+//Working is the life for you//
+//##999|労働こそがお前の人生##//
+[[/=]]
+[[/div]]
+
+@@ @@
+-----
+[[footnoteblock]]

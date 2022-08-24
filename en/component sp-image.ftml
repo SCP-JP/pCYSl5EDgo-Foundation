@@ -1,0 +1,8 @@
++++ {$caption}
+[[collapsible show="+ 画像を見る" hide="- 画像を隠す"]]
+[[div style="border: 1px solid #000;"]]
+[[div style="height: 100%;"]]
+[[=image {$src} alt="{$caption}" title="{$caption}" width="{$width}"]]
+[[/div]]
+[[/div]]
+[[/collapsible]]

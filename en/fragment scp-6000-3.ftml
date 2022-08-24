@@ -1,0 +1,198 @@
+[[include :scptestwiki:rso6k]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root{
+/* --red: 128, 34, 25; */
+--toggle-button-bg: #fff;
+--swatch-background: 28, 28, 28;
+--swatch-text-dark: 242, 242, 242;
+--rating-module-text-color: var(--red);
+--rating-module-button-color: var(--red);
+}
+
+div.objclass::before {
+   filter: invert(1);
+}
+
+.collapsible-block {
+    background-color: #2f2f2f;
+}
+
+#page-content hr {
+    border-color: rgb(var(--swatch-background));
+}
+.licensebox blockquote {
+    background-color: #000;
+    border: none;
+    border-left: 6px solid rgb(var(--red));
+}
+div.scp-image-block .scp-image-caption {
+    background: rgb(var(--swatch-background));
+    color: rgb(var(--red));
+}
+div.bannerinfo, div.bannerhead {
+    border-color: rgb(var(--swatch-background));
+}
+
+div.bannerimage img {
+filter: drop-shadow(0 0 0.15rem rgb(var(--red)));
+}
+div.obj {
+background-color: none;
+background-image: url("data:image/svg+xml,%3Csvg id='patternId' width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='a' patternUnits='userSpaceOnUse' width='29' height='50.115' patternTransform='scale(1) rotate(0)'%3E%3Crect x='0' y='0' width='100%25' height='100%25' fill='hsla(0, 100%25, 22%25, 1)'/%3E%3Cpath d='M14.5 6.628L8.886 3.372v-6.515L14.502-6.4l5.612 3.257-.001 6.514zm0 50.06l-5.613-3.256v-6.515l5.614-3.258 5.612 3.257-.001 6.515zm14.497-25.117l-5.612-3.257v-6.515L29 18.541l5.612 3.257-.001 6.515zm-29 0l-5.612-3.257v-6.515L0 18.541l5.612 3.257v6.515zM14.5 11.82L4.36 5.967l.002-11.706 10.14-5.855L24.638-5.74l-.001 11.707zm0 50.06L4.36 56.028l.002-11.706 10.14-5.855 10.137 5.852-.001 11.707zm14.498-25.118L18.858 30.91l.002-11.707L29 13.349l10.137 5.853-.001 11.706zm-29 0l-10.139-5.852.002-11.707L0 13.349l10.138 5.853-.002 11.706zm14.501-19.905L0 8.488.002-8.257l14.5-8.374L29-8.26l-.002 16.745zm0 50.06L0 58.548l.002-16.745 14.5-8.373L29 41.8l-.002 16.744zM28.996 41.8l-14.498-8.37.002-16.744L29 8.312l14.498 8.37-.002 16.745zm-29 0l-14.498-8.37.002-16.744L0 8.312l14.498 8.37-.002 16.745z' stroke-linecap='square' stroke-width='1' stroke='hsla(4, 100%25, 0%25, 1)' fill='none'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='800%25' height='800%25' transform='translate(0,0)' fill='url(%23a)'/%3E%3C/svg%3E");
+}
+.secret, .secret a, .secret a:visited {
+    color: #eaeaea!important;
+}
+[[/module]]
+[[div_ class="banner"]]
+
+[[div_ class="bannerhead"]]
+PROJECT FUSILLADE
+[[/div]]
+
+[[div_ class="bannerinfo"]]
+SCP財団 // 世界オカルト連合 // 共同クリアランスファイル//
+----
+= パスコード:
+= THE GARDEN IS THE SERPENT'S PLACE.
+[[/div]]
+
+[[div_ class="bannerimage"]]
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:3215764-11-vt4l/centerred.png]]
+[[/div]]
+
+[[/div]]
+----
+[[include :scp-wiki:component:classified-bar-woed
+|lv=1
+|item=6000
+|oc=apollyon
+|lang=JP
+]]
+----
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image http://scp-jp-storage.wikidot.com/local--files/file:3215764-12-b33c/earth.png style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-6000、空撮。
+[[/div]]
+[[/div]]
+
+----
+
+[[include component:image-block name=http://scp-jp-storage.wikidot.com/local--files/file:3215764-13-ffok/interior.jpg|
+    caption=SCP-6000。
+]]
+
+**特別収容プロトコル:** SCP-6000の収容は失敗に終わりました。地球を去った全ての財団職員及びプロジェクト・フュージレイド従事者は各サイトのHMCL主任にさらなる指示を仰いでください。
+
+
+**説明:** SCP-6000は「放浪者の図書館」として知られる異空間の一部へと変化した地域です。現在SCP-6000は西半球全域を覆っており、拡大を続けています。SCP-6000は南アメリカアマゾン盆地から発生し、プロジェクト・フュージレイドのもと財団-GOC連合のとった進行阻止の努力もむなしく、数週間で半球を覆うにまで拡大しました。
+
+SCP-6000内部の居住地及び、財団、GOC、プロジェクト・フュージレイドのサイトは全て喪失したものと思われます。ヴェール・プロトコルは放棄されました。
+
+現在、SCP-6000の収容はプロジェクト・フュージレイドの人員を外次元バックアップサイトに退避させることを含みます。
+
+SCP-6000は地表の58パーセントを覆っており、拡大を続けています。2週間から2週間半以内に全球が覆われるものと予測されます。
+
+----
+[[=]]
+++ 補遺6000.1
++++ {{最終記録}}
+[[/=]]
+----
+以下は施設-57が完全にSCP-6000に覆いつくされるまでに録音・送信された最後のオーディオログです。すべての職員及び有用なアノマリーは全て退避されたものと考えられていましたが、調査の結果、ムース管理官は混乱に紛れ避難ヘリコプターに乗らなかったことが判明しました。
+
+このオーディオファイルが録音されたのち、両名の反応とも施設-57の生体センサーから消滅しました。数秒後、施設はSCP-6000に覆われました。
+
+[[collapsible hideLocation="both" folded="no" show="▶ファイルを開く◀" hide="▷閉じる◁"]]
+[[div class="addendum" style="color: black;"]]
+= **<<抜粋開始>>**
+----
+
+**ムース:** では... 一体何が起こっているのでしょう?
+
+**SCP-6000-A:** 「なに」とは? 我々は待っているのだ。他にすべきことがあるか?
+
+**ムース:** ありませんね、確かに。我々は待つばかりです。
+
+**SCP-6000-A:** では何を憂いている?
+
+**ムース:** よくわかりません。
+
+//[静寂。]//
+
+**SCP-6000-A:** 憂う必要など全くないのだ、分かっているだろう。
+
+**ムース:** なぜですか?
+
+**SCP-6000-A:**  この世界を去ることは、そう聞こえるほど恐ろしいことではない。
+
+**ムース:** 何がこれから起こるのかわかっておいでのようですね。
+
+**SCP-6000-A:** これから起こること、か? これは常に起こっていたことだ。これが自然なのだ。
+
+**ムース:** いいえ。自然だなんてとんでもない話です。何も自然ではありません。この世界は生きたまま喰われています。我々はただ座って終末を眺めているだけで、できることなど何もない。
+
+//[静寂。]//
+
+**SCP-6000-A:** この後、何かが残ると思うか?
+
+**ムース:** 神だというのなら、私は信じていませんよ。財団に勤めていながらいまだに神のことを信じているなら、教皇よりも信心深いですよ。
+
+**SCP-6000-A:** そうではない。「道」が世界を覆いつくした後は何が起こると思う? ただ無に帰すだけか?
+
+**ムース:** 当然でしょう。あれは世界を//呑み込み//、作り変えているのですから。
+
+**SCP-6000-A:** そこが違うというのだ。
+
+**ムース:** はい?
+
+//[SCP-6000-Aは煙草に火をつける。]//
+
+**SCP-6000-A:** 分からんのだ、管理官よ。太陽が、理論上はいつか燃え尽きることは知っていよう。お前はこの宇宙にも寿命はあると知りながら、形だけの人生を過ごしてきた。何事にも終わりはある。
+
+**ムース:** それはそうです、でもそれは-
+
+**SCP-6000-A:** 自然だというのか? この宇宙がゆっくりと苦しみに満ちた熱的死を迎え、星々はもはや爆発することもできず、光を失っていくのを見守るのが、今の状況よりも自然だと? お前たち財団はいつもそうだ。受け入れることも生き延びることもできない。
+
+**ムース:** そういっても、何も変わりません。
+
+**SCP-6000-A:** 全てが変わるのだ、ティルダ。我々は何事も永遠には続かぬと知りながら生きてきた。しかし終わりはあると知りつつも、物語を自ら壊すことはしない。そして - ここが重要なところだ。//より多くの物語が、常に存在するのだ。//
+
+**ムース:** ...よくわかりません。
+
+**SCP-6000-A:** 図書館は全ての物語だ。かつては財団とその世界の終わりに対する勇気ある撤退の物語が1つしかなかったが、そこには10億の物語、10億の世界が生まれるのだ。
+
+//[静寂。]//
+
+**SCP-6000-A:** 図書館は単に全ての世界を繋ぐだけではない。それは全ての世界そのものなのだ。全ての世界に物語が、全ての物語に世界があり、あらゆるものが等しく重要なのだ。
+
+**ムース:** つまり何もできない訳ではないのですね。これはこの物語の終わりであり、我々は... 図書館の一部となる。
+
+**SCP-6000-A:** まあそういう言い方もできるだろう。図書館をもう一度訪れたいと願ったことはなかったか? お前はそのことに気づかなかった。エージェント・マクミランは確かに願っていたがな。
+
+//[静寂。]//
+
+**SCP-6000-A:** さあ来い。この手錠を外せ。世界の終わりを見逃したくはなかろう?
+
+//[静寂。]//
+
+**SCP-6000-A:** どうした?
+
+**ムース:** では... 私やアダム、その他大勢の誰も、これを止めることはできなかったのでしょうか。無意味なことだったのでしょうか。
+
+**SCP-6000-A:** //[溜息。]// //意味//というのは、これまでに起こってきたことだ。何もないところに新たな物語を作ること。幸福たれ、ティルダ。お前の物語は永遠に記憶されるであろう。
+
+|| **ムース:** [https://scp-jp.wikidot.com/scp-6000/offset/3 もし... もし新しい物語など望まなかったら?]|| **ムース:** [https://scp-jp.wikidot.com/scp-6000/offset/4 我々の物語も誰かに読まれると思いますか?] ||
+= [[span class="secret"]][https://scp-jp.wikidot.com/a-look-back-on-what-we-accomplished 物語についての物語][[/span]]
+----
+= **<<記録終了>>**
+[[/div]]
+[[/collapsible]]

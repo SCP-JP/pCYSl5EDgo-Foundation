@@ -1,0 +1,52 @@
+[[include :scp-jp:theme:black-highlighter-theme]]
+
+[[module CSS]]
+.notice {
+    border: solid 1px #999;
+    background: #f2f2c2;
+    padding: 1em;
+    margin-bottom: 0.5em;
+}
+[[/module]]
+
+[[include :scp-wiki:info:start]]
+**SCP-5510:** Universal Remote / 全世界共通リモコン
+**著者:** [[*user aismallard]] ([http://www.scpwiki.com/aismallard 著者ぺージ])
+
+**スペシャルサンクス:**
+* wctaiwan
+* [[*user rounderhouse]]
+* [[*user The Great Hippo]]
+* [[*user Uncle Nicolini]]
+* [[*user Yossipossi]]
+* [[*user Captain Kirby]]
+[[include :scp-wiki:info:end]]
+
+[[div_ class="notice"]]
+**ようこそ、アーチボルド博士。**
+あなたは現在SCP-5510のファイルを編集中です。本セッションは**118**秒間入力がなければ解除されます。
+[[/div]]
+
+[[include component:image-block
+    name=http://scp-jp.wdfiles.com/local--files/scp-3930/default.png |
+    caption={{[ファイルが選択されていません]}} |
+    width=100px
+]]
+
+**アイテム番号:** SCP-5510
+
+**オブジェクトクラス:** Safe (暫定)
+
+**特別収容プロトコル:** SCP-5510は小型アイテムロッカーに保管されます。検証試験が現在行われています。
+
+**説明:** SCP-5510はテレビ用リモコンです。4種類の操作ボタン以外は予想される通りに機能します。ボタンを押すと、SCP-5510に作用する主観的な時間の流れが変化します。
+
+**補遺5510-1:** 試験ログ
+
+||~ ボタン ||~ 結果 ||
+|| 早送り || SCP-5510に作用する時間は半分に減速します。 ||
+|| 巻き戻し || SCP-5510に作用する時間は2倍に加速します。 ||
+|| 再生 || 既知の影響はありません。 ||
+|| 一時停止 || [[image cursor.png alt="𝖨" width="10px"]] ||
+
+[[footnoteblock]]

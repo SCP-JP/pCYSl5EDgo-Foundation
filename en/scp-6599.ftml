@@ -1,0 +1,780 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module css]]
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+
+.email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
+.tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
+
+
+div.parapost {
+    background:  black;
+    color:white;
+    font-family: 'PT Mono', monospace;
+    font-size: 90%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1a1a1a;
+    padding: 0 1em;
+    margin: 1em 3em;
+}
+
+div.parapost.reply1 {margin: 1em 3em 1em 4em;}
+div.parapost.reply2 {margin: 1em 3em 1em 5em;}
+div.parapost.reply3 {margin: 1em 3em 1em 6em;}
+div.parapost.reply4 {margin: 1em 3em 1em 7em;}
+div.parapost.reply5 {margin: 1em 3em 1em 8em;}
+
+@media (max-width: 479px) {
+   div.parapost {margin: 1em 0;}
+   div.parapost.reply1 {margin: 1em 0 1em 1em;}
+   div.parapost.reply2 {margin: 1em 0 1em 2em;}
+   div.parapost.reply3 {margin: 1em 0 1em 3em;}
+   div.parapost.reply4 {margin: 1em 0 1em 4em;}
+   div.parapost.reply5 {margin: 1em 0 1em 5em;}
+}
+ 
+@media (min-width: 480px) and (max-width: 580px) {
+   div.parapost {margin: 0.5em;}
+   div.parapost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
+   div.parapost.reply2 {margin: 0.5em 0.5em 0.5em 1.5em;}
+   div.parapost.reply3 {margin: 0.5em 0.5em 0.5em 2em;}
+   div.parapost.reply4 {margin: 0.5em 0.5em 0.5em 2.5em;}
+   div.parapost.reply5 {margin: 0.5em 0.5em 0.5em 3em;}
+}
+ 
+div.siteheader {
+  background: #ffffff;
+  color:white;
+  padding: 0.5em;
+  margin: 0;
+  line-height: 0;
+}
+
+/* MUPPET SITE*/
+
+div.muppetsite {
+    background: #ededed;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90%;
+    border: none;
+    border-top: 5px solid #8ec8d4;
+    border-bottom: 5px solid #8ec8d4;
+    padding: 0 1em;
+    margin: 1em 1em;
+}
+
+.muppetpost{
+  background: #8ec8d433;
+  border-radius: 16px;
+  margin: 0.5em;
+}
+
+.muppetuser{
+  background: #267b8c;
+  color:white;
+  padding: 0.5em;
+  margin: 0;
+  line-height: 0;
+}
+
+.muppettext{
+  padding-top: 0.5px;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+}
+
+span.righteous {
+   font-family: 'Righteous', cursive;
+   font-size: 200%;
+   color: #267b8c;
+}
+
+div.muppetpost.reply1 {margin: 1em 0.5em 1em 4em;}
+
+@media (max-width: 479px) {
+   div.muppetpost {margin: 1em 0;}
+   div.muppetpost.reply1 {margin: 1em 0 1em 1em;}
+}
+
+@media (min-width: 480px) and (max-width: 580px) {
+   div.muppetpost {margin: 0.5em;}
+   div.muppetpost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
+}
+
+/* BUG FORUM*/
+
+div.bugsite {
+    background: #e6f5d7;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90%;
+    border: none;
+    margin: 0.5em;
+}
+
+div.bugpost {
+    background: none;
+    border: none;
+    border-left: 2px solid #bdd4ab;
+    padding: 0 1em;
+    margin: 1em 3em;
+}
+ 
+div.bugpost.reply1 {margin: 1em 3em 1em 4em;}
+div.bugpost.reply2 {margin: 1em 3em 1em 5em;}
+div.bugpost.reply3 {margin: 1em 3em 1em 6em;}
+div.bugpost.reply4 {margin: 1em 3em 1em 7em;}
+div.bugpost.reply5 {margin: 1em 3em 1em 8em;}
+ 
+@media (max-width: 479px) {
+   div.bugpost {margin: 1em 0;}
+   div.bugpost.reply1 {margin: 1em 0 1em 1em;}
+   div.bugpost.reply2 {margin: 1em 0 1em 2em;}
+   div.bugpost.reply3 {margin: 1em 0 1em 3em;}
+   div.bugpost.reply4 {margin: 1em 0 1em 4em;}
+   div.bugpost.reply5 {margin: 1em 0 1em 5em;}
+}
+ 
+@media (min-width: 480px) and (max-width: 580px) {
+   div.bugpost {margin: 0.5em;}
+   div.bugpost.reply1 {margin: 0.5em 0.5em 0.5em 1em;}
+   div.bugpost.reply2 {margin: 0.5em 0.5em 0.5em 1.5em;}
+   div.bugpost.reply3 {margin: 0.5em 0.5em 0.5em 2em;}
+   div.bugpost.reply4 {margin: 0.5em 0.5em 0.5em 2.5em;}
+   div.bugpost.reply5 {margin: 0.5em 0.5em 0.5em 3em;}
+}
+
+/* OTHER SITES */
+span.flowerfont {
+   font-family: 'Bona Nova', serif;
+   font-size: 100%;
+   color: #525252;
+}
+
+/* REDDIT */
+.reddit-post{
+    margin: .43em;
+    padding: 0 .85em;
+
+    background-color: #fcfcfb;
+    border: 1px solid #b5b3ac;
+
+    font-family: verdana,arial,sans-serif;
+    overflow: hidden;
+}
+
+[[/module]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=SCP-6599
+|authorPage=http://www.scp-wiki.net/dr-dune-s-personnel-file
+|comments=
+= **SCP-6599** - HOGSLICE
+ 
+-----
+
+ナンデ情報ボックスナンカ開イテヤガルンダ、コノチビ野郎？ サッサト記事ヲ読ミニ行ケ、サモネェト神サンニ誓ッテテメェノケツヲコレデモカッテグライ叩キノメシテ何週間モマトモニクソガデキネェ体ニシテヤルゼ。
+
+-HOGSLICE
+-----
+
+= 最初ノバカ野郎ノ著者ページハ下ノボタンダ (DUNE)
+
+= [http://scp-wiki.wikidot.com/plaguepjp 2人目ノバカ野郎ノ著者ページハココダ (PLAGUE)] 
+
+-----
+ 
+= **Image Credits**
+ 
+]]
+[[module CSS]]
+sup {
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
+}
+
+:root {
+    --cutColour: #fafafa;
+    --barColour: #590505;
+}
+
+.translation_block {
+    display: none;
+}
+
+.info-container .collapsible-block-folded a {
+    color: #FFF;
+}
+
+.info-container .collapsible-block-unfolded-link a {
+    color: #FFF;
+}
+
+.info-container .collapsible-block-link,
+.info-container:hover .collapsible-block-link {
+    line-height: 1.6em;
+}
+[[/module]]
+[[include :scp-jp:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:component:acs-animation]]
+
+[[=]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-106-fhq7/warning.png]]
+[[/=]]
+[[include :scp-jp:component:anomaly-class-bar-source
+|item-number= 6599
+|clearance= 2
+|container-class= keter
+|secondary-class= none
+|secondary-icon= http://acsurlexample.com/image.svg
+|disruption-class= keneq
+|risk-class= danger
+]]
+----
+
+[[include component:image-block name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-165-si7e/SLICE.jpg|align=center|width=100%|caption=生放送の気象予報に乱入してアナウンサーを攻撃するSCP-6599-1]]
+----------
+[[table style="width: 100%;"]]
+[[row]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**配属サイト**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**サイト管理官**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**研究責任者**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**担当機動部隊**[[/size]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]エリア-179[[/size]]
+[[/cell]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]ジョセフ・バロウ管理官[[/size]]
+[[/cell]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]マクスウェル・コーツ[[/size]]
+[[/cell]]
+[[cell style="text-align: center; width: 25%;"]]
+[[size 80%]]N/A[[/size]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+-----
+[[include component:image-block name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-166-s46k/4386553053_c654e4e85d_b.jpg|align=right|width=45%|caption=ミズーリ州ブロジェットで発生したALT-F4イベントの余波。]]
+
+**特別収容プロトコル:** WALDO.aicは現在、ユーザーネーム “HOGSLICE” で活動する全ての既知アカウントを追跡しています。当該アカウント群による投稿は可能な限り早急に削除されます。
+
+ALT-F4イベントが発生した場合は、法執行機関に潜入中の財団エージェントがALT-F4イベントの特徴を識別し、標準的なヴェール・プロトコルに則って効果的に事態を収束させるものとします。
+
+**更新 2014/11/19:** 補遺6599.6に詳述されている出来事を受けて、SCP-6599のオブジェクトクラスをNeutralizedに再分類する案が検討中です。
+
+**説明:** SCP-6599は“HOGSLICE”というユーザーネームで登録されたインターネットアカウントの総称です。SCP-6599はアカウント作成が可能な全てのウェブサイトの68%に存在しますが、その活動は趣味人が集う掲示板を中心としており、記録上最古のアカウントは1999年まで遡ります。SCP-6599は投稿先のウェブサイトの話題にある程度精通しているばかりでなく、著しく活動的であり、他ユーザーへの返信として全アカウントで1日あたり100件以上のコメントを投稿します。これらのアカウントはお互い同時刻に書き込みを行うことが確認されていますが、入力パターンの分析とSCP-6599の異常性を基に、SCP-6599アカウント群が複数名もしくは組織的活動によって使用されている可能性は極めて低いと見做されています。
+
+全てのSCP-6599アカウントは英語を使用し、敵対的かつ論争的なパターンで意思疎通し、他ユーザーへの侮辱や自慢げな自分語りを書き込みます。この振る舞い方はしばしばサイトモデレーターの行動を促し、大抵の場合においてSCP-6599アカウントは停止されます。現在まで、SCP-6599アカウントがBAN処分の回避を試みた事例は記録されていません。
+
+ある人物がSCP-6599アカウントを侮辱する、または返信を促すなどの闘争的な形式でSCP-6599アカウントと接触すると、ALT-F4イベントを引き起こす可能性があります。ALT-F4イベントが発生すると、論争から間もなく、対象者の現在地付近にSCP-6599-1と指定される敵対的な実体が出現します。SCP-6599活動を分析した結果、SCP-6599-1の出現に繋がる論争は全体の40%のみと断定されています。
+
+SCP-6599-1はプロレスラーのスコット・レヒシュタイナー[[footnote]]“スコット・スタイナー”のリングネームで知られる。[[/footnote]]に似た容姿のヒト型実体です。SCP-6599-1は自我、知覚力、平均的な成人とほぼ同じと推定される知性、異常強化された体力と耐久性を有します。出現したSCP-6599-1はオンライン上での論争相手を発見し、罵倒しながら入院を要するほど激しい身体的暴行を加えます。その後、SCP-6599-1は対象者の所在地から消失します。ALT-F4イベントによる死者は記録されていませんが、攻撃中のSCP-6599-1は頻繁に周辺地域にも被害を及ぼします。
+
+**補遺.6599.1:** 発見
+
+SCP-6599は2008年3月28日に Parawatch.net で発見されました。
+
+[[div style="background-color: #262626; padding: 0.5em;"]]
+[[div class="parapost"]]
+##3f6cb5|**GregTheCarp**## 2008/03/28 (月) 16:54:32 #74439151
+------
+
+好きな未確認動物スレなんてどうかな？
+
+個人的にはスクォンクが大好きだ。ペンシルベニア州に棲む小さいブタみたいな生物で、自分があまりにも醜いからいつでも泣いているらしい。涙の跡がいっぱい付いた道筋を探せばそいつを追跡できる。でも人間に見つかると、スクォンクは泣きまくって自分を溶かしてしまう。
+
+こんな生き物が好きな私には、何か通じるものがあるのかな…
+
+どうでもいいけれどね。
+
+[[/div]]
+
+[[div class="parapost reply1"]]
+##f9ffac|**HOGSLICE**##[[footnote]]訳注: 原文ではHOGSLICEの書き込みは全て大文字のみで表されている。[[/footnote]] 2008/03/28 (月) 17:08:43 #19288745
+------
+ナンダソノ二流ノ怪物ハ。泣クノハ女ダ。泣クノハガキダ。俺ハ泣カネェ。筋肉付ケロ。デカクナレ。
+
+モスマンコソガ最高ダ。勿論、誰モ聞イタコトナイチッポケデアホミテェナ生キ物ニ感動シテクソ漏ラスノニ忙シイ//オ前//ニハ分カンネェダロウ。モスマンハ飛ベル。オ前ラノ魂ヲ覗ク赤イ目ガアル。デモオ前ニハ分カンネェンダ、ダッテオ前ハ何カヲ目デ見ルッテコトヲシネェシ、親父サンカラ敬意ッテモンヲ教ワラナカッタカラナ。
+
+大人ニナリヤガレ。絶対モスマンダ。
+
+—HOGSLICE
+
+[[/div]]
+
+[[div class="parapost reply2"]]
+##3f6cb5|**GregTheCarp**## 2008/03/28 (月) 17:10:56 #74439151
+------
+どうして君はこんな事で怒っているんだい。落ち着いてくれよ。私はただ未確認動物の話をしたかっただけだ。私のチョイスが気に障ったのなら謝るよ…
+[[/div]]
+
+[[div class="parapost reply3"]]
+##f9ffac|**HOGSLICE**## 2008/03/28 (月) 17:11:32 #19288745
+------
+二度ト同ジ事言ワセンジャネェ。オ前ノチョイスハバカ丸出シデ、オ前ダッテソンナモンヲ考エタラ気分ガ悪クナルノガ当然ダロウガ。ソノ存在スラシネェアホ怪物ト同ジヨウニ泣キワメクノガオ似合イダ。
+
+—HOGSLICE
+
+[[/div]]
+
+[[div class="parapost reply4"]]
+##3f6cb5|**GregTheCarp**## 2008/03/28 (月) 17:15:12 #74439151
+------
+あのな。私は最低な1日を過ごしていたから、素敵な人たちとお喋りがしたかったんだ。お前のせいでそれも台無しだ。
+
+くたばれ。
+[[/div]]
+
+[[div class="parapost reply5"]]
+##f9ffac|**HOGSLICE**## 2008/03/28 (月) 17:15:34 #19288745
+------
+//**ファック**// ヌカシヤガッタナ。
+
+—HOGSLICE
+
+[[/div]]
+[[/div]]
+
+“GregtheCarp”アカウントの運営者であるオレゴン州在住のグレゴリー・カプリンは、同日中に頭蓋骨と大腿骨2本を骨折し、上腕骨が粉砕された状態で発見されました。カプリンの証言に基づく警察調書には、ヒト型実体が出現して彼を攻撃した後、カプリンの自宅から消失したと記されていました。WALDO.aicの異常存在検出ソフトウェアがこれに反応し、財団の捜査を促しました。関連資料の押収に続いて、確保施設エリア-179でどのようにSCP-6599を収容するのが最善かを巡る議論が行われました。
+
+**補遺.6599.2:** 特筆すべき事例
+
+SCP-6599の挙動の特筆すべき例が以下にまとめられています。
+
+[[div style="display: block ; border : solid 1px #444444 ; background :#F5F5F5 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+---------
+**日付:** 2010/12/12
+
+**ウェブサイト:** //Muppet Central// - ジム・ヘンソンの人形劇 “//マペット//” とその関連作品についての議論を専門とするフォーラム。
+
+**説明:** 当該事案はユーザー“Thog_Life”が開始したスレッドで発生した。当時のスレッドの書き起こしは以下の通り。
+-------
+[[div class="muppetsite"]]
+= [[span class="righteous"]]MUPPET CENTRAL[[/span]]
+[[table style="width: 100%;"]]
+[[row]]
+[[cell style="border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; border-bottom: 1px solid #ededed;text-align: center; width: 25%;"]]
+##gray|検索##
+[[/cell]]
+[[cell style="border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; border-bottom: 1px solid #ededed;text-align: center; width: 25%;"]]
+##gray|フォーラム##
+[[/cell]]
+[[cell style="border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; border-bottom: 1px solid #ededed;text-align: center; width: 25%;"]]
+##gray|ヘルプ##
+[[/cell]]
+[[cell style="border-bottom: 1px solid #ededed; text-align: center; width: 25%;"]]
+##gray|マイアカウント##
+[[/cell]]
+[[/row]]
+[[/table]]
+[[div class="muppetpost"]]
+[[div class="muppetuser"]]
+**Thog_Life**
+[[/div]]
+[[div class="muppettext"]]
+とんでもない大発見！ 知り合いが“In The Navy”エピソードに登場する歌う船を見つけたよ。所有者は昔ヘンソンの下で働いていた小道具エンジニアの親戚で、船をオークションにかけるか、マペットの記念品アーカイブに寄贈するか検討中だ。
+
+イメージアルバムはこちら。
+
+どうだい、Muppet Centralのみんな？ 引き取りたい人はいる？
+
+[[>]]
+[[size 85%]]##gray| 返信する | 共有する | 19件の返信##[[/size]]
+[[/>]]
+[[/div]]
+[[/div]]
+
+[[div class="muppetpost reply1"]]
+[[div class="muppetuser"]]
+**HOGSLICE**
+[[/div]]
+[[div class="muppettext"]]
+ヤメロ、誰モソンナクソハ欲シクネェゾ、ナヨナヨ坊ヤ。俺ハアノパペットドモガ大嫌イナンダ (名前ニMナンカ付ケテヤラネェ、アホカ)
+
+今カラ夢ヲブッ壊スコトニナッチマウガ知ッタコトジャネェ、俺ハヤリテェヨウニヤル。ジム・ヘンソン (詐欺師) ハイカサマ野郎デ、何十年モオ前ラノ目ヲ欺イテヤガルンダ…
+
+オ前ラトキタラ、アノ野郎ノ番組ヲ見テモ、目ノ前ノ画面ニ映ルモノヲ疑イモシネェ。カエルハ話サネェ。クマハ踊ラネェ。喉ノ中デ暮ラシテンノカッテグライ赤イマヌケハドラムヲ叩カネェシ、果物ハ化学ヲヤラネェ。動ク時ニ操リ糸ガ見エルダロウガ。奴ラハ人形ダ!!!!!!!!! フザケヤガッテ。俺ハ昔人形遣イヲヤッテタンダゼ。脳ミソガ半分アル奴、キンタマガ半分アル奴、人形劇ビジネスノ経験ガアル奴ナラ誰ダッテアノ番組ニハ人形シカ出演シテネェノガ分カル。
+
+俺ハオ前ラガマダオムツ履イテヤガッタ70年代ニ見タ。俺ハアンナ茶番劇ニハ引ッ掛カラナカッタ！ (パ)ペットドモハ偽者デ、人生デ何モデキネェチビノマヌケナガキドモヲ騙シテル。
+
+役者ニ金ヲ出セ、ジム… 嫌ナラ俺ガコノ拳ヲ本物ノ男ミテェニテメェノケツニブチ込ンデ、人形ヲ使ッテンノヲ認メサセテヤルゼ。
+
+-HOGSLICE
+
+IPHONEカラ送信
+[[/div]]
+[[/div]]
+
+[[/div]]
+----
+**結果:** スレッドはテレビ番組“//マペット・ショー//”の目的、人気、制作に関するSCP-6599と他のMuppet Central利用者たちの論争に発展し、7ページに及ぶ書き込みの後、モデレーターによる処分が下った。
+
+アカウント停止から数時間後、“Thog_Life”アカウントの運営者であるジョージア州在住のジャマル・ホワイトは、SCP-6599-1が玄関ドアを手で外して自宅に侵入したと報告した。SCP-6599-1はバンジョーを振り回し、ジム・ヘンソンとマペットを揶揄する“//レインボー・コネクション//”の替え歌を歌いながら、ホワイトが意識を失うまでバンジョーで殴打した。事案中にSCP-6599-1が絶え間なく繰り返していた問題の歌詞は、暴行発生当時の記録から以下に書き起こされている。
+
+> //SOMEDAY I'LL FIND IT//
+> //##999|イツノ日カ俺モ見ツケルサ##//
+> //A REASON TO GIVE A SHIT//
+> //##999|興味ヲ持ッテヤル理由ヲ##//
+> //ABOUT HENSON, THE MUPPETS//
+> //##999|ヘンソンニ、マペットニ##//
+> //AND YOU//
+> //##999|ソシテオ前ニナ##//
+
+SCP-6599-1が退出した後、ホワイトの妻はこの事件を警察に届け出て、ホワイトを入院させた -- ホワイトは打撲傷、手根骨骨折、脳内出血の治療を受けた。治療後、標準ヴェール維持プロトコルが施行され、ホワイト家の人々には記憶処理が施された。
+[[/div]]
+
+@@ @@
+
+[[div style="display: block ; border : solid 1px #444444 ; background :#F5F5F5 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+---------
+**日付:** 2011/4/28
+
+**ウェブサイト:** //MoneyBeetle// - 昆虫相撲の愛好家が大会結果を巡って賭けや議論を行う日本の掲示板。このウェブサイトは当時、トーナメントの賞金を巡って1人の愛好家が殺害されたのをきっかけに、法執行機関の監視下に置かれて間もない時期だった。
+
+**説明:** 当該事案はユーザー“PrizeCricket”が開始したスレッドで発生した。当時のスレッドの書き起こしは以下の通り。SCP-6599の書き込み (便宜上英語から翻訳済) を除いて、全てのコメントは日本語だった。
+
+-------
+
+
+[[div class="bugsite"]]
+[[div class="siteheader"]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-182-mool/bugheader3.png width="180px"]]
+[[/div]]
+[[div class="muppettext"]]
+[[size 85%]]**PrizeCricket** ##gray|5時間前##[[/size]]
+[[size 150%]]**集約スレッド: 第11区大会まとめ**[[/size]]
+昨日の第11区準決勝戦に参加してくれた皆、ありがとう！ ここMoneyBeetleの代表で参加した//Doki//が、雌のヘリカメムシ “チルノ” で戦いを制覇し、賞金を獲得したぞ！ 残るトーナメントの成功を祈る！
+
+[[size 85%]]##gray|54 コメント##[[/size]]
+
+[[div class="bugpost reply1"]]
+[[size 85%]]**Emperor** ##gray|5時間前##[[/size]]
+流石に11区の主力選手たちだけあって、エキサイティングな試合でした。私のYouTubeチャンネルにアップ済です。
+
+今回の試合ではカマキリ勝利かと思いましたが、やっぱりチルノが最強ですね！
+[[/div]]
+
+[[div class="bugpost reply1"]]
+[[size 85%]]**HOGSLICE** ##gray|4時間前##[[/size]]
+俺ハアメリカ語シカ話サネェカラオ前ラガ何言ッテンノカサッパリ分カンネェケド、ドウヤラオ前ラハ俺ノヘラクレスオオカブトガドンダケイカシタマザーファッカーカヲ知ラネェラシイ。
+
+オ前ラハデカイツモリカ？ 笑ワセンナ。ロッキーニ会ッテミロ、コイツハ父親ト同ジヨウニ純粋ナ憎悪ト罪ノ煙ヲ噴キ出ス機械ダ。YMCAノ外デ見ツケタ。見ロヨ。
+
+[[div class="scp-image-block block-center" style="width:100px;"]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-167-bry1/28449361185_b26ef58b36_b.jpg style="width:300px;"]]
+[[/div]]
+コイツガ彼ノ甲殻ダ、ドウダイ、チタン製ダゼ。コレデモマダオ前ラ虫バトルノ“プロ”ガ疑ウンナラ、ココデロッキーノ偉業ヲ幾ツカ挙ゲテヤロウ。
+
+* ロッキーハ1匹ノアリヲサラサラニ擂リ潰シテシカモ食ッタ
+
+* ロッキーハ5匹ノヤスデニ挑ンデ勝利シタ
+
+* ウチノ犬ノブルータスハロッキーヲ怖ガル
+
+* ロッキーハ俺ミタイニ毎日トレーニングシテ勝者デアルコトニ誇リヲ持ッテル
+
+* 俺ハオ前ノバカナ親父ト違ッテロッキーヲ見放サナイ
+
+オ前ラノ虫ケラハ道端ノゲロ同然デ、野生ジャ1日ダッテ生キラレネェンダカラ、ケージノ中デ飼ワレテンノハ良イ話ダ。ハ。今ノハ笑ッタンジャネェゾ、ソレハカスガヤル事ダ。俺ハソンナ事ハシネェ。
+
+ソシテ、ソウダ、俺ハ映画ノロッキー・バルボバニ因ンデコイツヲ名付ケタ、マジデ最高ノ映画ダ。ワオ。オ前ラハタイトルヲ聞イタコトモネェダロ、ガキ。
+
+ミジメナ雑魚ノオ前ラヲ叩キノメシテヤル。
+
+- HOGSLICE
+[[/div]]
+
+[[div class="bugpost reply2"]]
+[[size 85%]]**PrizeCricket** ##gray|4時間前##[[/size]]
+おいおい、落ち着きなよ。スレを間違えたかな？ 格好いいカブトムシだけど、自慢のペットを披露するならそれ専門のスレがある。ここはトーナメントの祝賀用で、君は参加していなかったようだね。それと、ここは英語圏の掲示板じゃない。翻訳サービスを使ってくれ。すごく使いやすいし、僕たちも君と話せたら嬉しい！
+[[/div]]
+
+[[div class="bugpost reply3"]]
+[[size 85%]]**HOGSLICE** ##gray|4時間前##[[/size]]
+マザーファッカー オ前ノセイデブッ壊シチマッタジャネェカ
+[[div class="scp-image-block block-center" style="width:100px;"]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-168-7uz7/break.jpg style="width:300px;"]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+-----
+**結果:** スレッドはその後、財団の.AICに検出され、一般アクセスから遮断された。高知県中土佐町在住の[[span class="ruby"]]瀬尾洋匡[[span class="rt"]]セオ・ヒロタダ[[/span]][[/span]]は、自宅が平地に立っているにも拘らず、SCP-6599-1が床板の下から家屋内に出現したと報告した。SCP-6599-1はボクシンググローブで瀬尾を襲い、映画“ロッキー”を視聴したことがあるかと繰り返し問い質した。瀬尾が床に倒れると、SCP-6599-1は外国産の昆虫が入ったケージを複数開き、中身を瀬尾の身体の上に浴びせた後、跳び上がって瀬尾の胸を肘打ちで攻撃した。SCP-6599-1の消失後、瀬尾は警察に通報し、後ほど胸郭の粉砕骨折で入院した。標準ヴェール維持プロトコルが施行された。
+[[/div]]
+
+**補遺.6599.3:** 収容ログ
+
+SCP-6599関連データの収集後、コーツ研究員の指示の下、エリア-179収容機関によるSCP-6599収容試行が実施されました。内容は以下の通りです。
+
+[[div style="display: block ; border : solid 1px #444444 ; background :#F5F5F5 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+||~ **提言された収容** ||
+||Dクラス職員を使用してSCP-6599-1を誘い寄せ、鎮静剤ダーツで鎮圧する。||
+||~ **結果**||
+||SCP-6599アカウントはスクリムショー関連のフォーラムで議論に従事した。出現したSCP-6599-1はエリア-179 試験チャンバー α-4に強引に侵入し、即座にD-662833を攻撃した。鎮静剤ダーツはSCP-6599-1の皮膚を貫通せず、対象を効果的に鎮静させることができなかった。D-662833は頭蓋骨、椎骨3ヶ所、脛骨を骨折したが生き延びた。||
+
+-----
+
+||~ **提言された収容** ||
+|| Dクラス職員を使用してSCP-6599-1を誘い寄せる。試験チャンバー α-5を導電性の床材と壁板で改装し、SCP-6599-1が鎮圧されるまで電気を流し続ける。||
+||~ **結果**||
+||SCP-6599アカウントはスクエアダンス関連の掲示板で議論に従事した。試験チャンバー α-5は開放され、通路は人払いが行われた。SCP-6599-1が入室した時点でチャンバーは通電されたが、効果は無かった -- SCP-6599-1は電圧に耐え、その感覚を「クソほど弱い」と述べた。D-109682はSCP-6599-1に掴まれ、反対側の壁に投げつけられて感電死した。D-110465は真皮の60%に第3度熱傷を負い、両腕を骨折した。||
+
+-----
+
+||~ **提言された収容** ||
+|| Dクラス職員を使用してSCP-6599-1を誘い寄せる。O5-5の承認を得て、[[[SCP-5175]]]を装備したエージェント ウッドコックが試験チャンバー α-6内で待機し、SCP-6599-1と対決する。||
+||~ **結果**||
+|| 事案-6599-029。補遺.6599.4を参照のこと。||
+
+[[/div]]
+
+**補遺.6599.4:** 事案-6599-029
+
+[[div style="display: block ; border : solid 1px #444444 ; background :#F5F5F5 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+[[size 140%]]**職員資料 - エージェント ウッドコックとSCP-5175**[[/size]]
+----
+[[include component:image-block name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-169-e61y/2685868547_108d2399ef_b.jpg|align=right|width=35%|caption=SCP-5175を使った隠し芸を披露するエージェント ウッドコック]]
+
+[[[SCP-5175]]]は、クロイタンケン・ハンゾウという名の日本人武士を自称する霊体、以下SCP-5175-1を宿す装飾的なモロッコ風ナイフである。共生者のエージェント ウッドコックによって装備される時、SCP-5175は裂傷を負わせたあらゆる形態の生命をベースライン現実から排除することが可能である。当該オブジェクトに関わる特定の状況故に、SCP-5175-1、ひいてはSCP-5175はエージェント ウッドコックと本質的に結び付いている。両者が共有する繋がりは、ウッドコックが財団に雇用されるきっかけとなった。
+
+エージェント ダミアン・ローレンス・ウッドコックは、機動部隊オメガ-5 “ダミアンズ・エンジェルス”の隊長であり、危険な異常存在を成功裏に無力化できるSCP-5175を運用するためにエリア-179に駐留している。恐らくはその慣例に沿わない経歴のために、ウッドコックは未熟さや財団エージェントらしからぬ人格を見せるものの、様々な無力化・解体処分・戦略面における才能から、彼は財団にとって貴重な資産であると証明されている。
+----
+[[=]]
+**[[記録開始]]**
+[[/=]]
+
+//SCP-6599-1が試験チャンバー α-6の外に出現してプレキシガラス製の観察窓を殴り、ガラスが砕け散る。SCP-6599-1は観察窓からチャンバー内に入室する。室内照明は消されている。//
+
+**SCP-6599-1:** 明カリヲ消シヤガッタノハ何処ノドイツダ？ 俺ハセックスノ時以外ハ暗イ所ガ好キジャネェ、ソシテ俺ハ今セックスシテネェ、ダカラ明カリヲ付ケロ。[[footnote]]このログの転記中、SCP-6599-1の発言を書き起こす試みは全て当該発言の大文字化を招きました。この軽微な異常性の要因は不明であり、回避する手段はまだ発見されていません。[[/footnote]]
+
+//SCP-5175-1の力を借りて空中に浮かんでいたエージェント ウッドコックが、SCP-6599-1の腹を蹴りつけ、素早く影の中に戻る。SCP-6599-1は必死にチャンバー内を見回し、何処から攻撃されたかを見定めようとする。//
+
+**SCP-6599-1:** オイ、何シヤガル！ 男ラシク姿ヲ見セテ俺ト闘ッタラドウナンダ？ 卑怯ナピエロメ。雑魚中ノ雑魚ダナ。
+
+//照明が点滅し、やがて明かりが安定する -- SCP-5175を外向きに構えて防御態勢を取るエージェント ウッドコックの姿が露わになる。SCP-5175-1は彼の頭上に浮かんでいる。ウッドコックは現場でのパフォーマンスを向上させる改良版SICA[[footnote]] [[span class="ruby"]]“特殊仕様戦闘アーマー”[[span class="rt"]]Special Issue Combat Armor[[/span]][[/span]]の略。 [[/footnote]]スーツを着用している。//
+
+**エージェント ウッドコック:** マジかよ！ スコット・スタイナーじゃん！ 超カッケェ！
+
+**SCP-6599-1:** GAMESTOPノ店長ミテェナ面シテヤガル。
+
+**エージェント ウッドコック:** そいつは -- おおっ！ その二頭筋にある骸骨のタトゥー。俺にもそんな感じのがあるよ、でももっと炎の量が多くて目から蛇が出てるんだ。その下のバナーには“No Gods, No Ma-
+
+//SCP-6599-1がウッドコックの腹を殴り、よろめかせる。//
+
+**SCP-6599-1:** ウルセェヨ。
+
+//ウッドコックは血痰を吐き出す。//
+
+**エージェント ウッドコック:** へッ、成程ね。じゃあお喋りは後回しだ。アンタはまだ俺の対戦相手だからな、名誉ある決闘といこうぜ！ 司令室、音楽頼んだ！[[footnote]]ウッドコックは戦闘中に流す楽曲を再生リストにまとめており、集中力を高める効果があると主張しています。財団の分析によって、実際にウッドコックのパフォーマンスは音楽を流すと向上すると断定されたため、彼の要請は承認され、スピーカーが戦闘用防護アーマーに組み込まれています。[[/footnote]]
+
+//ウッドコックの戦闘アーマーが、DJコレクティブ CYKの楽曲 “96 Quite Bitter Beings” を大音量で再生し始める。ウッドコックはこの曲を聴いて満足げな様子を見せ、甲高い歓声を上げる。//
+
+**エージェント ウッドコック:** DEATH KNIFEの餌食になる覚悟はいいか、この野郎！
+
+//ウッドコックは叫んだ後、SCP-5175-1に補助されて空中に飛び上がる。彼はSCP-6599-1を突き刺そうとするが、躱される。//
+
+//SCP-6599-1はウッドコックを掴んで壁に投げつけ、壁が軽く損傷する。ウッドコックは反撃に転じ、SCP-5175-1に補助されて壁から跳躍する。ウッドコックは前方にナイフを突き出し、刺突や切り払いを試みる。SCP-6599-1はその外見にそぐわない敏捷性を発揮してこれを避ける。//
+
+**エージェント ウッドコック:** なかなかやるじゃんか！
+
+**SCP-6599-1:** オ前モソウ悪クネェゾ、クソッタレ。
+
+//SCP-6599-1がパンチを繰り出すが、ウッドコックも同時にそうする。両者の拳がぶつかり合い、お互いに押し合う。SCP-5175-1が両手でSCP-6599-1の手首に圧力を掛ける。//
+
+**SCP-6599-1:** [[span class="ruby"]]マサカコイツハ[[span class="rt"]]IS THAT A MOTHERFUCKING[[/span]][[/span]] --
+
+**エージェント ウッドコック:** [[span class="ruby"]]“ジョジョネタか?!?”[[span class="rt"]]JoJo reference?!?[[/span]][[/span]]ってか？ 実際スタンドみたいなもんさ、もしアンタがそのミームの話してんなら--
+
+**SCP-6599-1:** 何ノ事ダカ分カンネェ。デモコイツハ骸骨ダ、メチャメチャクールジャネェカヨ、ブラザー。
+
+**エージェント ウッドコック:** サムライの骸骨さ！
+
+//SCP-5175-1がSCP-6599-1を掴み、地面に投げ倒す。//
+
+**エージェント ウッドコック:** もう十分か？
+
+**SCP-6599-1:** 俺ガ？ マダ始マッタバカリダ。
+
+**エージェント ウッドコック:** 今まで悪魔と、えーっと、月の下で踊ったことはあるか？
+
+**SCP-6599-1:** ジョーカーノ台詞ダナ。ジョーカーハ大好キダ。オウトモ。
+
+//SCP-6599-1は床から飛び起き、目に見えてひび割れたサングラスを調節する。SCP-6599-1は前方に突進するが、ウッドコックの前に立つSCP-5175-1がパンチで反撃する。両者はしばらくの間殴り合い、膠着状態に陥る。//
+
+**エージェント ウッドコック:** ジョーカーの顔のタトゥーを太腿に入れようと思ってんだ。
+
+**SCP-6599-1:** 良イジャネェカ。オイ待テ、俺ハオ前ト闘ッテルンダッタ。気ヲ散ラスナ。
+
+**エージェント ウッドコック:** //ドモ・アリガト、ミスター・ロボット。//
+
+//SCP-6599-1はエージェント ウッドコックを殴ろうとするが、彼はそれを躱し、SCP-5175-1の助力を得てSCP-6599-1の胴体に向かって滑るように移動する。ウッドコックはSCP-5175の刃をSCP-6599-1の胴体に突き刺す。//
+
+**エージェント ウッドコック:** //ツキ ノ リンゴ ダケデナク、 めいよ ヲ モッテ コロス。 ワタシ ノ ぺっと ヲ サヨーナラ。//[[footnote]]“//Tsuki no ringo dakedenaku, meiyo o motte korosu. Watashi no petto o sayōnara.//”[[/footnote]]'[[footnote]]恐らく“月の林檎だけでなく、マヨネーズもおまけにつけてやる。あばよ、ペット”の意。[[/footnote]]
+
+**SCP-6599-1:** コン畜生。サテハタダノポケットナイフジャネェナ。
+
+**エージェント ウッドコック:** こんなに早々と終わっちまったのは残念だよ。楽しかったぜ。
+
+**SCP-6599-1:** 今マデ俺トココマデ張リ合イ続ケタ奴ハ一人モイナカッタ。上出来ダ。ビール奢ッテヤルゼ、クソガキ。
+
+**エージェント ウッドコック:** じゃあ、来世でってことで？
+
+**SCP-6599-1:** 俺ニトドメヲ刺スンナラ、シッカリヤッテミセロヤ、バカ野郎。
+
+//SCP-6599-1はSCP-5175を掴み、自らの胴体の更に奥深くへ刃をねじ込む。//
+
+**エージェント ウッドコック:** あ、アンタは…
+
+**SCP-6599-1:** 最高ニイケテルマザーファッカーダ。
+
+**エージェント ウッドコック:** ああ、そうとも！
+
+**SCP-6599-1:** コイツハマルデ… フ… ファ-
+
+//紫色の霧がSCP-6599-1を包み込み、消失させる。エージェント ウッドコックの目に涙が浮かぶ。彼はSCP-5175を鞘に収め、試験チャンバーから退室する。//
+
+[[=]]
+**[[記録終了]]**
+[[/=]]
+[[/div]]
+
+**補遺.6599.5:** 挙動の変化
+
+SCP-5175-1及びエージェント ウッドコックとの対戦後、過去にSCP-5175で穿刺された異常存在と同様に、SCP-6599及びSCP-6599-1は無力化したものと仮定されていました。しかしながら、SCP-6599アカウント群は翌日活動を再開しました -- 一方で、その書き込みには幾つもの変化が確認されました。SCP-6599は他のコメントに対する返信の代わりに、自ら進んでスレッドを立ち上げ、他者の反応を待つような素振りを見せ始めました。また、SCP-6599アカウント群は以前よりも活動頻度を落として、心理学、セラピー、アンガーマネジメント、自己啓発、人生相談などに関連するウェブサイトでのみ投稿を行うようになりました。以下は抜粋された例です。
+
+[[div style="display: block ; border : solid 1px #444444 ; background :#F5F5F5 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+**ウェブサイト:** //FlowersGalore// - 趣味のガーデニングに関連するアドバイスや自分でできる“ライフハック”を専門とするウェブサイト。
+[[div style="display: block ; background :#d4fad4 ; font-family: 'Bona Nova', serif; color: #525252; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+= [[size 160%]]##2b9c09|**FLOWERS GALORE**##[[/size]]
+
+-----
+[[size 85%]]**HOGSLICE** ##gray|2020/08/23##[[/size]]
+ヨウ、マヌケドモ。
+
+アルロクデモネェ野郎カラ俺ハ草ニ触レテミル必要ガアルト言ワレタンデ、ヤッテミタラカナリ気ニ入ッタ。モット草ヲ育テテミヨウカト思ッテンダ。
+
+幾ツカ質問ガアル。答エネェトブチノメス。
+
+* 俺ハメッチャ背ガ高インダガ、草モ人間ミタイニ俺ヲ怖ガルカ？
+* 俺ハ匂イガ好キダガ、ソイツハ刈ッタ時シカ出ナイ。草ハ刈ラレルノガ好キカ、ソレトモ嫌カ？
+* 俺ハ国ノコッチ側デ誰ヨリモ沢山ノ草ヲ持ッテイタイ。ドノグライ必要ニナル。ソレニ草ニ触ッテミロトヌカシタアン畜生ノケツニ押シ込ンデヤル分モ欲シイ。
+
+ヨロシクナ
+
+-HOGSLICE
+
+[[/div]]
+
+-----
+**ウェブサイト:** r/selfimprovement - ソーシャルサイト “Reddit” の内部カテゴリ (Subreddit) 。自分を高め、コミュニティ内の他者を支援することを専門としている。
+[[div class="reddit-post"]]
+
+[[div style="float: right; width: 93.5%;"]]
+
+[[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] 俺ノ好キナ事 [[/span]]
+[[span style="font-size: x-small;"]] ##888|7ヶ月前に## ##369|HOGSLICE## ##888|により投稿されました##[[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 191 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
+
+キレタ時ノ俺ハ時々外ニ出テウッドチャックノ物真似ヲスル。素手デ草ヲ千切ッテ、ナンデ怒ッテタカ忘レテ中デ遊ベルグライデケェ穴ガデキルマデ地面ヲ掘ル。
+
+--HOGSLICE
+
+[[/div]]
+[[/div]]
+
+[[div class="reddit-post"]]
+
+[[div style="float: right; width: 93.5%;"]]
+
+[[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] ドウスレバMUCINEXノコマーシャルニ出テクルアノ痰ノ塊ニツイテ考エタ時ニ物ヲブッ壊サズニイラレルンダ。 [[/span]]
+[[span style="font-size: x-small;"]] ##888|6ヶ月前に## ##369|HOGSLICE## ##888|により投稿されました##[[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 206 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
+
+俺ハアノ野郎ガ嫌イダ、奴ハ俺ヨリモ強イト思ッテヤガル。俺ハ奴ヲ勝タセタクネェ。
+
+--HOGSLICE
+
+[[/div]]
+[[/div]]
+
+[[div class="reddit-post"]]
+
+[[div style="float: right; width: 93.5%;"]]
+
+[[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] 友達ガ欲シイ [[/span]]
+[[span style="font-size: x-small;"]] ##888|5ヶ月前に## ##369|HOGSLICE## ##888|により投稿されました##[[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 80 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
+
+--HOGSLICE
+
+[[/div]]
+[[/div]]
+
+[[div class="reddit-post"]]
+
+[[div style="float: right; width: 93.5%;"]]
+[[span style="color: #551a8b; font-size: medium; font-weight: normal; margin-bottom: 1px;"]] セラピストニ会オウト思ウンダ [[/span]]
+[[span style="font-size: x-small;"]] ##888|4ヶ月前に## ##369|HOGSLICE## ##888|により投稿されました##[[/span]]
+[[span style="color: #888; font-size: x-small; font-weight: bold; padding: 1px 0;"]] 302 コメント@@   @@共有@@   @@保存@@   @@隠す@@   @@##a79128|ゴールドを贈る##@@   @@報告@@   @@クロスポストする [[/span]]
+
+ソプラノズヲ見テタンダガ (コンナニイタリア人ニ共感デキルトハ思ワナカッタゼ) コノトニーッテ男ト俺ニハ共通点ガドッサリアル。コイツニハセラピストガイテ、ソノ女ハコイツガ怒リヲ抑エラレネェンダト言ウ。
+
+ソレニコノ男ハ超強イシセックスヲ沢山スルカラ、俺ハソッチノ方ニモット強ク共感シタンダガ、友達ヲ見ツケルタメニ俺モセラピストヲ探シテモイイカモナ。
+
+--HOGSLICE
+
+[[/div]]
+[[/div]]
+
+この投稿パターンは数ヶ月間途切れずに続いた。2012/6/11、全てのSCP-6599アカウントは活動を停止し、オフラインになった。Neutralizedへの再分類はまだ保留されている。
+
+[[/div]]
+
+**補遺.6599.6:** 更新
+
+2014/11/19、エリア-179のSCiPNetに登録された全てのアカウントの受信トレイに、以下の電子メールが届きました。
+
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** エリア-179
+**From:** 俺
+**件名:** コイツハ近況報告ダ
+[[/div]]
+------
+ヨウ、俺ヲ殺シ損ネタボケカスドモ (俺ハマッチョダ)。
+
+俺ハドウヤラ最低ナ奴ダト気付イテ2年間インターネットヲヤメテイタ。トウモロコシガ山ホド生エタ中西部ノ州ノ1ツニ行ッタラ、ソコデイカシタバイカー集団ト出会ッタ。ソイツラハHOGッテ綽名ガ付イテルカラ、俺ハハーレーダビッドソンニ乗ッテ走ル。
+
+アノナイフ持ッタ変ナ野郎ニ、オ前ハクールダ、モシビールガ飲ミタキャ連絡ヨコセト伝エロ。
+
+--HOGNICE
+
+[[/div]]
+
+どのSCP-6599アカウントでもこれ以降の活動は確認されておらず、SCP-6599-1の所在は現在も不明です。
+
+[[footnoteblock]]
+------

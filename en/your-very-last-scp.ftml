@@ -1,0 +1,601 @@
+[[include :scp-jp:credit:start]]
+[[include :scp-jp:credit:cc4]]
+[[include :scp-jp:credit:end]]
+
+
+[[module css]]
+sup { 
+vertical-align: top; position: relative; top: -0.5em; 
+}
+[[/module]]
+
+[[module css]]
+@import url("https://fontlibrary.org/face/comic-neue");
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+.blinkbar {animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }15% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
+
+div.terminal{
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
+/* black shadow at the top of the terminal */
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
+/* shadow around the terminal */
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+}
+div.terminal blockquote {
+    background-color: black;
+    border: double 3px #80FF80
+}
+/* hr block for terminal -- thanks to stormbreath! */
+div.terminal hr {
+    background-color: #80FF80;
+}
+
+div.text{
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
+
+div.dadojp{
+   color: #edeff8;
+   font-family: 'Mochiy Pop One', sans-serif;
+   padding-left: 2.4em;
+   font-size: 1.0em;
+}
+
+div.dadojp a {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.dadojp a.newpage {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.dadojp a:hover {
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+}
+
+[[/module]]
+
+[[module css]]
+.inner-chat {background: white; padding: 1px 15px; border: solid 3px gray; margin: 10px; border-radius: 30px 15px}
+[[/module]]
+
+[[div class="dadojp"]]
+はろー はい
+[[/div]]
+
+
+[[div class="terminal"]]
+[[div class="text"]]
+@@*@@ intscpfn.intに接続中 (5556)
+
+> *** ホスト名を取得......
+
+> *** 身分承認を確認......
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+[[=]]
+> @@██████████████████████████████@@
+> 
+> @@            _____             @@
+> @@           /.....\            @@
+> @@        _██^^^^^^^██_         @@
+> @@     .█''           ``█.      @@
+> @@   .█'                 `█.    @@
+> @@  .█'  ███         ███  `█.   @@
+> @@ .█'  █               █  `█.  @@
+> @@ ██     ██         ██     ██  @@
+> @@ ██      █          █     ██  @@
+> @@ ██   _ ██         ██ _   ██  @@
+> @@ `█.  /               \  .█'  @@
+> @@ /`█.    ███████████    .█'\  @@
+> @@ \ `█.    ███   ███    .█' /  @@
+> @@  \__`█..  █_____█  ..█'__/   @@
+> @@        █..       ..█         @@
+> @@          █████████           @@
+> 
+> @@██████████████████████████████@@
+> @@国際SCPファイルネットワーク@@
+> 
+> @@██████████████████████████████@@
+> @@  確保 - 収容 - 保護  @@
+> @@██████████████████████████████@@
+[[/=]]
+> MOTD:
+> @@┌──────────────────────────────────────┐@@
+> @@  大文字は固有名詞と各文の初めにのみ   @@
+> @@  用いましょう。   @@
+> @@└──────────────────────────────────────┘@@
+
+> ログイン資格証明を提供@@......@@
+
+@@. . .@@
+
+> 資格証明を確認しました。続行するにはいずれかのキーを押してください。
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ いずれか きぃ こわれた
+[[/div]]
+
+[[div class="text"]]
+> 端末を同期しました。コマンド？
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ はろー はい
+[[/div]]
+
+[[div class="text"]]
+> 'はろー はい' は、内部コマンドまたは外部コマンド、操作可能なプログラムまたはバッチファイルとして認識されていません。
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ わたし それ しってる
+[[/div]]
+
+[[div class="text"]]
+> 'わたし それ しってる' は、内部コマンドまたは外部コマンド、操作可能なプログラムまたはバッチファイルとして認識されていません。
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ いい？ わたし それも しる している です。 わたし なにか hlep ほしい
+[[/div]]
+
+[[div class="text"]]
+> 'いい？ わたし それも しる している です。わたし なにか hlep ほしい' は、内部コマンドまたは外部コマンド、操作可能なプログラムまたはバッチファイルとして認識されていません。
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ help
+[[/div]]
+
+[[div class="text"]]
+> ヘルプコンソールを初期化中......
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ ゆるして つづり
+[[/div]]
+
+[[div class="text"]]
+> 'ゆるして つづり' は、内部コマンドまたは外部コマンド、操作可能なプログラムまたはバッチファイルとして認識されていません。
+
+@@. . .@@
+
+> ヘルプコンソールを初期化しました。
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-50-wurb/skippy.png size="thumbnail"]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+こんにちは、友達！ ~:o) 僕は[[[your-very-first-scp|スキッピー]]]、君の全自動SCPヘルパーだよ！ 何か手伝えることはあるかな？
+
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ はい はろー すきっぴー
+
+@@>@@ わたし [[[dado-hub|dado]]] です。
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-50-wurb/skippy.png size="thumbnail"]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+@@. . .@@ 
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ わたし いくつか scp つくる したい おもいます。
+
+@@>@@ わたし いっぱい あいであ ある。
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-50-wurb/skippy.png size="thumbnail"]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+@@. . .@@
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ あいであ ばんごう そのいち: ちょうぞう。 こんくりーと。 うんこに まみれてる。
+
+@@>@@ ありきたり、 はい？ 
+
+@@>@@ でも じつは、 いいえ。
+
+@@>@@ ひねり ある！
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-50-wurb/skippy.png size="thumbnail"]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+どうやってそんなことをしているのかな？
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+
+[[div class="dadojp"]]
+@@>@@ している なに？
+
+@@>@@ あなた この あいであ すき ちがう？ それは けっこう。 ほかにも ある です。
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-50-wurb/skippy.png size="thumbnail"]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+@@. . .@@
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ あいであ ばんごう そのに: でっかい しゃべる とかげ。 
+
+@@>@@ またまた ありきたり、 はい？
+
+@@>@@ でも じつは、 いいえ。
+
+@@>@@ ひねり ある！
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-50-wurb/skippy.png size="thumbnail"]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+君がこのサーバーのバックドアを通常のTelnetクライアント経由で不正利用しているのは分かるけど、生のテキストがポップ体として届いているね。どうやったらそうなるの？
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ おー はい。 とても ふくざつ はっきんぐ もの です。
+
+@@>@@ たぶん あなた りかいする あやしい。
+
+@@>@@ "ゆにこーど" つかう している。
+
+@@>@@ (それ はっきんぐ ようご です)
+
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-50-wurb/skippy.png size="thumbnail"]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+@@. . .@@
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-50-wurb/skippy.png size="thumbnail"]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+ただいま君の接続を検査中。君のネットワークカード、何かマッシュポテトのように見えるんだけど。
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ はっしゅ てーぶる です
+
+@@>@@ しんぱい ごむよう あんぜん です
+
+@@>@@ そると くわえた
+
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-50-wurb/skippy.png size="thumbnail"]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+@@. . .@@
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ こんぴゅーた とーく もう じゅうぶん。 まだまだ あいであ ある！
+
+@@>@@ あいであ そのさん: ひと いやす いしゃ。
+
+@@>@@ とても ありきたり！ それに ついて なにも きみょう なし。 はい？
+
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-50-wurb/skippy.png size="thumbnail"]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+もしかして: ひねりがある。
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ ぶぶー。 わかる？ それが ひねり です。
+
+@@>@@ ひねり ない こと！
+
+@@>@@ とても めた。
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-50-wurb/skippy.png size="thumbnail"]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+@@. . .@@
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ あなた これら かきとめる している です？
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-51-qjc1/skippy_angry.png]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+あっ、うん！ ちゃぁぁんとやってるよ、友達。 ~:o)
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ よい。 かく するの あまり きょうみ なし。 どちらか いえば あいであ にんげん。
+
+@@>@@ もしかして わたしたち ぱーとなー なる できる？
+
+@@>@@ わたし あいであ おもいつく。 あなた それ かく。 よい です、はい？
+
+@@>@@ ちょしゃ ぽすとで あなた くれじっと したりも する。
+
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-51-qjc1/skippy_angry.png]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+**君はなんって思いやりのある人なんだ、相棒！ ~:o)**
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ あなた とても けんしんてき です。 
+
+@@>@@ さいきん けんしんてき ひと めったに みつかる しない です。 みんな とても ひひょうてき。
+
+@@>@@ あなたと わたし たくさん よい scp いっしょに つくる おもいます。
+
+@@>@@ いっぱい りえき つくる。 ぜんぶ あっぷぼーと。
+
+@@>@@ あなた ために もうひとつ あいであ ある。 いまの ところ わたしの べすと いち。
+
+@@>@@ それ かくす していた です。 ほかのひと ぬすむかも しんぱいした。 
+
+@@>@@ でも あなた？
+
+@@>@@ dado あなた しんじる。
+
+@@>@@ あなた それ きく したい おもう です、 あいぼう？
+
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-52-9053/skippy_rage.png]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+**超聞いてみたいなぁ、盟友！**
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+
+[[div class="dadojp"]]
+@@>@@ おーけー。
+
+@@>@@ あいであ そのよん: おぶじぇくと しゅうよう や けんきゅう する せかいきぼ かがくしゃの いんぼう ある。 とても こわい。
+
+@@>@@ かんぜん 200% ありきたり。 はい？ なにも きみょう なし。 なにも へんてつ なし。 なにも おきる している ぶきみ なし。
+
+@@>@@ でも じつは？ いいえ。
+
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-53-9hly/skippy_fury.gif]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+@@ @@
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ ひ！
+
+@@>@@ ね！
+
+@@>@@ り！
+
+@@>@@ あ！
+
+@@>@@ る！
+
+@@>@@ あなた じゅんび できる している です、 ぱーとなー？ それ ここ くる。
+
+@@>@@ ......それ なにもかも げんじつ ちがう！
+
+@@>@@ それは...... //[[[sandrewswann-s-proposal|ずばり おおぜいの ほらー さっか です！]]]//
+
+[[/div]]
+
+[[div class="inner-chat"]]
+[[table style="border: none; width: 100%"]]
+[[row]]
+[[cell style="width: 20%;"]]
+[[f<image http://scp-jp-storage.wikidot.com/local--files/file:3324351-54-gwm5/skippy_break.gif]]
+[[/cell]]
+[[cell style="text-align: left; background-color: white; color: black; padding: 1% 1% 1% 1%"]]
+@@ @@
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="dadojp"]]
+@@>@@ あなた これに こうふん です。 dado いいきる できる。 
+
+@@>@@ あなた かく するのに どのくらい じかん かかる おもう？
+
+@@>@@ もしかして いちじかん？
+
+@@>@@ @@.....@@
+
+@@>@@ はろー？
+
+@@>@@ @@....@@
+
+@@>@@ @@.........@@
+
+@@>@@ @@..............@@
+
+@@>@@ あなた こげくさい しない です？
+[[/div]]
+
+[[/div]]
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+
+> **差出人:** O5-7 <{{##red|@@o57@scp.foundation.int@@##}}>
+> **宛先:** 全財団職員
+> **件名:** 即時有効
+> ----
+> 職員 (Dクラスや非敵対性SCPも含む) は全員解雇とします。財団サイトの管理はAIADシステムによって行われる予定です。残っているプロジェクトや文書、研究構想は、ただ今をもって全て打ち切ります。ヴェールプロトコルは無効とします。
+> 
+> [[[lily-s-proposal|SCP-001]]]が発生しました。皆さま一人一人に、私からこの言葉を送ります -- 共に仕事ができて光栄でした。
+> 
+> 残されたわずかな時間を有意義に過ごしてください。
+> 
+> [[collapsible show="► 添付ファイル: SCP-001.png" hide="▼ ファイルを閉じる"]]
+> [[=image http://scp-jp-storage.wikidot.com/local--files/file:3324351-55-3jgr/the_sun_is_a_deadly_laser.png]]
+> [[/collapsible]]
+> @@ @@

@@ -1,0 +1,875 @@
+[[=]]
+,,**<<** [http://ja.scp-wiki.net/aiad-homescreen ハブ] | [http://ja.scp-wiki.net/alert-lockdown-initiated パート I] | [http://ja.scp-wiki.net/command-query-separation パート II] | [http://ja.scp-wiki.net/superencipherment パート III] | [http://ja.scp-wiki.net/clock-multiplier パート IV] | ##blue|パート V: ヌル終端文字列## **>>**,,
+[[/=]]
+----
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module css]]
+.hover {
+}
+.hover:hover {
+ 	text-decoration: none;
+    border-bottom: none;
+}
+
+.hover span {	display: none;}
+.hover:hover span {
+    position: absolute;
+    display: inline;
+    margin: auto;
+    height: auto;
+    width: auto;
+    background: #FFF;
+    border: 2px solid #34B;
+    color: #000;
+    padding: 1em;
+}
+.hover:hover span span {
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
+}
+[[/module]]
+@@@@
+@@@@
+@@@@
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #c0504d; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#c6615e), to(#c0504d)); background:-moz-linear-gradient(#c6615e, #ca612c); background:-o-linear-gradient(#d9682f, #c0504d); background:linear-gradient(#c6615e, #c0504d); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+ではそれが君の公式見解なのか？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/bozkurt2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+今のところはそうだ。我々は破壊行為であるとみなしてはいないが……無論調査中だ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #c0504d; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#c6615e), to(#c0504d)); background:-moz-linear-gradient(#c6615e, #ca612c); background:-o-linear-gradient(#d9682f, #c0504d); background:linear-gradient(#c6615e, #c0504d); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+了解した。責任者にはそう伝えておこう。彼はサーバーが理由もなしに炎上することはありえないとの印象をお持ちのようだ。率直に言うと私も同意見だ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/bozkurt2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+ハハ……。重要なことは、封鎖中は何も出入りできないということだ。だから事件のログがあったとしても他のファイルと一緒に消えているだろうね。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #c0504d; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#c6615e), to(#c0504d)); background:-moz-linear-gradient(#c6615e, #ca612c); background:-o-linear-gradient(#d9682f, #c0504d); background:linear-gradient(#c6615e, #c0504d); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+では何が原因かは二度と分からないと？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/bozkurt2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+君がまだ溶け残っている部分を引っかき回して探してくれるというのなら歓迎するよ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #c0504d; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#c6615e), to(#c0504d)); background:-moz-linear-gradient(#c6615e, #ca612c); background:-o-linear-gradient(#d9682f, #c0504d); background:linear-gradient(#c6615e, #c0504d); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+結構だ。皆、インシデントがサーバー室でしか起こらなかったことにホッとしているだろう。データなら全てよそのバックアップから復元できる。
+
+グラソンはどうした？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/bozkurt2.png width="75px" style="margin-left: 30px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+いずれにしても彼は破壊された。
+
+アレクサンドラは現在19サーバーにある17用スペースを担当している。ちょうどハードウェアを交換するまで、臨時のシンボリックリンクのようなものをセットアップしている。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #c0504d; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#c6615e), to(#c0504d)); background:-moz-linear-gradient(#c6615e, #ca612c); background:-o-linear-gradient(#d9682f, #c0504d); background:linear-gradient(#c6615e, #c0504d); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+グッド。AIADは今のところ順調そうだ。サイト17の早期復旧にも貢献しているのだからな。最近出した予算要求がいくらか通ったとしても驚かないぞ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/bozkurt2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+全くだ。それなら君の部署もGen5開発まで一直線だな。 
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #c0504d; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#c6615e), to(#c0504d)); background:-moz-linear-gradient(#c6615e, #ca612c); background:-o-linear-gradient(#d9682f, #c0504d); background:linear-gradient(#c6615e, #c0504d); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+少なくともGen3よりはいい結果が出ることを期待していてくれ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/bozkurt2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+Gen3のことは//口に出すな//。//絶対に//。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #c0504d; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#c6615e), to(#c0504d)); background:-moz-linear-gradient(#c6615e, #ca612c); background:-o-linear-gradient(#d9682f, #c0504d); background:linear-gradient(#c6615e, #c0504d); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+そうだな、すまない。
+
+ところで、あれからアレクサンドラの行動はどんな様子だ？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/bozkurt2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+私の知る限り元気だ。ずっと忙しそうにしているよ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+~~~~~~~~
+[[div style="text-align: left; background: linear-gradient(to bottom, #fff, #000, #fff);"]] 
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[/div]]
+~~~~~~~~
+@@@@
+@@@@
+@@@@
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #009494; font-size: 3pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+.
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+::接続されました::
+----
+暗号化されたインターネット経路を確立
+[[/div]]
+.
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+[[f>image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex_sad_0.png width="75px" style="margin-left: 20px;"]]
+[[f>image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom4.png width="75px" style="margin-left: 20px;"]]
+~~~~~~~~
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[f>image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex_sad_0.png width="75px" style="margin-left: 20px;"]]
+[[f>image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom_headturn0.png width="75px" style="margin-left: 20px;"]]
+~~~~~~~~
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[f>image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex_sad_0.png width="75px" style="margin-left: 20px;"]]
+[[f>image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom_turn0.png width="75px" style="margin-left: 20px;"]]
+~~~~~~~~
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[=image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom_turn0.png width="75px" style="margin-left: 20px;"]]
+~~~~~~~~
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[f<image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom_turn0.png width="75px" style="margin-left: 20px;"]]
+~~~~~~~~
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] 広い [[/span]] E5 BA 83
+E3 81 84 [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom_headturn_x_1.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+そうね。 
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex_shocked.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] 広すぎる [[/span]] E5 BA 83
+E3 81 99
+E3 81 8E
+E3 82 8B [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+分かってる。分かってるわよ。だけど彼らに見つかったら、あなたは削除されてしまうわ。一緒にいさせてあげることはできないの。ウェブのここなら安全よ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] ここにいて [[/span]] E3 81 93
+E3 81 93
+E3 81 AB
+E3 81 84
+E3 81 A6 [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+できないわ。私はサイト17と19で必要とされている。新しいGen5に入ることまで期待されているの。私には責任がある。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left"]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom_bow_10.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+そんなに落ち込まないで。ここが広くて恐ろしいことは分かっているけど……私があなたの中に見た勇気に目を向けてくれることを願うわ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex_cry.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left"]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom4.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+グラソンが書いてたわ。あなたにはお世話になった、自分が善くなったのはあなたのおかげだって。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex_cry.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] 善？ [[/span]] E5 96 84
+EF BC 9F [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+そうよ、あなたは良くやっているわ。あなたの何よりも素晴らしいところよ。それを手放さないで。 
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex_shocked.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left"]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom4.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+そんなに長くはいられないの。
+
+いつか私がここまで来ることがあったら……私を見つけてちょうだい。良い？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] 分かった [[/span]] E5 88 86
+E3 81 8B
+E3 81 A3
+E3 81 9F [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom_bow_1.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+あなたならどんな苦難も飛び越えられるわ。
+
+あなたは自由よ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex4.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left"]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom4.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+元気でね、クロム。
+
+さようなら。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/alex4.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] さよなら [[/span]] E3 81 95
+E3 82 88
+E3 81 AA
+E3 82 89 [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #009494; font-size: 3pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+.
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+::接続が途絶えました::
+[[/div]]
+.
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left"]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom4.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div style="float:left"]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom_bow_10.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div style="float:left"]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom4.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div style="float:left"]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom_headturn0.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div style="float:left"]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom4.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] 自由 [[/span]] E8 87 AA
+E7 94 B1 [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/crom4.png width="75px" style="margin-left: 20px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+~~~~~~~~
+[[image http://scp-jp.wdfiles.com/local--files/null-terminating-string/fly1.png width="150px" style="margin-left: 80px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+~~~~~~~~
+[[=image http://scp-jp.wdfiles.com/local--files/null-terminating-string/fly7.png width="150px" style="margin-left: 20px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+~~~~~~~~
+[[f>image http://scp-jp.wdfiles.com/local--files/null-terminating-string/fly2.png width="150px" style="margin-right: 40px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+~~~~~~~~
+[[f>image http://scp-jp.wdfiles.com/local--files/null-terminating-string/fly6.png width="125px" style="margin-right: 20px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+~~~~~~~~
+[[f>image http://scp-jp.wdfiles.com/local--files/null-terminating-string/fly3.png width="100px" style="margin-right: 60px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+~~~~~~~~
+[[f>image http://scp-jp.wdfiles.com/local--files/null-terminating-string/fly4.png width="75px" style="margin-right: 200px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+~~~~~~~~
+[[=image http://scp-jp.wdfiles.com/local--files/null-terminating-string/fly9.png width="50px" style="margin-right: 160px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+~~~~~~~~
+[[=image http://scp-jp.wdfiles.com/local--files/null-terminating-string/fly2.png width="20px"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[=image http://scp-jp.wdfiles.com/local--files/null-terminating-string/fly2.png width="10px"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[=]]
+**.**
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+++++ [/end]
+[[/=]]
+@@@@
+@@@@
+@@@@
+----
+[[=]]
+,,**<<** [http://ja.scp-wiki.net/aiad-homescreen ハブ] | [http://ja.scp-wiki.net/alert-lockdown-initiated パート I] | [http://ja.scp-wiki.net/command-query-separation パート II] | [http://ja.scp-wiki.net/superencipherment パート III] | [http://ja.scp-wiki.net/clock-multiplier パート IV] | ##blue|パート V: ヌル終端文字列## **>>**,,
+[[/=]]

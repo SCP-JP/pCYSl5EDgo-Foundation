@@ -1,0 +1,38 @@
+[[module CSS]]
+div#header h1 a span {
+    font-size: 0px;
+}
+div#header h1 a:before {
+    content: "監督評議会";
+    color: #eee;
+    
+}
+div#header h2 span {
+    font-size:0px;
+    padding: 4px;
+}
+div#header h2:after {
+    content: "Site-01 Internal Database";
+    font-weight: bold;
+    color: #f0f0c0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+    white-space: pre;
+}
+[[/module]]
+
+[[module CSS]]
+#header {
+  background-image: url('http://scp-jp-storage.wikidot.com/local--files/file:6085604-13-yal4/OC.png')
+}
+[[/module]]
+
+[!--
+Fragments:
+http://scp-jp.wikidot.com/fragment:scp-5618-offset-0
+http://scp-jp.wikidot.com/fragment:scp-5618-offset-1
+--]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]

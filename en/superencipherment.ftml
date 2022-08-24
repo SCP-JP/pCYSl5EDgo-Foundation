@@ -1,0 +1,1532 @@
+[[=]]
+,,**<<** [http://ja.scp-wiki.net/aiad-homescreen ハブ] | [http://ja.scp-wiki.net/alert-lockdown-initiated パート I] | [http://ja.scp-wiki.net/command-query-separation パート II] | ##blue|パートIII: 多重暗号化## | [http://ja.scp-wiki.net/clock-multiplier パート IV] | [http://ja.scp-wiki.net/null-terminating-string パート V] **>>**,,
+[[/=]]
+----
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module css]]
+.hover {
+}
+.hover:hover {
+ 	text-decoration: none;
+    border-bottom: none;
+}
+
+.hover span {	display: none;}
+.hover:hover span {
+    position: absolute;
+    display: inline;
+    margin: auto;
+    height: auto;
+    width: auto;
+    background: #FFF;
+    border: 2px solid #34B;
+    color: #000;
+    padding: 1em;
+}
+.hover:hover span span {
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
+}
+[[/module]]
+@@@@
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+お呼びですか？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex4.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+サイト-17と交信ができなくなった。直近数時間で接続はできたかね？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+試していません。繋がっていない時間はどれくらいですか？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+ほんの3時間だが、通信エラーとみなすには十分な長さだ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+グラソンは何も言っていないのですか？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+ああ、何も。君に一つお願いする。他の第三回線を通して彼にパケットを送ってはくれないかね？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+はい、分かりました。それで応答チームはいつ呼ばれるのですか？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+司令官はあと4時間でチームをこちらによこすだろう。そうしたらチームが中に押し入る。機動部隊が1、2組待機しているはずだ。標準プロトコル通りなら。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+承知しました。私の方からも試してみます。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+私は他の仕事を処理しなければならない。その都度報告を頼む。
+
+分かったかな？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+はい、問題ありません。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex4.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+よろしい。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/lurk2.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float: right; text-align: right; margin: 0 0 10px 10px; width: 240px;"]]
+[[div style="color: #f5e9e9; font-size: 3pt; background-color: #7F7F7F; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#fff0f0; background:-webkit-gradient(linear, 0 0, 0 100%, from(#8b8b8b), to(#7F7F7F)); background:-moz-linear-gradient(#8b8b8b, #656565); background:-o-linear-gradient(#8b8b8b, #7F7F7F); background:linear-gradient(#8b8b8b, #7F7F7F); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+.
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+::切断されました::
+[[/div]]
+.
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[>]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad_0.png width="75px" style="margin-right: 20px;"]]
+[[/>]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+そっちで何が起こってるのよ？ グラソン。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+/create PACKET#SITE17 @glacon -1
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+@@> message ATTN glacon@@
+@@> 返事をお願い@@
+@@> サイト17の最新情報が必要@@
+@@> こちらアレックス@@
+@@> /end@@
+[[/div]]
+/send SECURE 55.223.698.37
+@@@@
+@@@@
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_worried.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="text-align: right; margin: auto; width: 240px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+送信中……
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]] [[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]] [[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]]
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float: left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #ca612c; font-size: 3pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+.
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+::リクエストがタイムアウトしました::
+[[/div]]
+.
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+/create PACKET#SITE17 @allusers
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+@@> message ATTN site17@@
+@@> 返事をお願い@@
+@@> 現状に関する最新情報が必要@@
+@@> サイト19より@@
+@@> /end@@
+[[/div]]
+/send SECURE 55.223.698.37
+@@@@
+@@@@
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="text-align: right; margin: auto; width: 240px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+送信中……
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]] [[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]] [[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]]
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #ca612c; font-size: 3pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+.
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius:30px /70px;"]]
+::リクエストがタイムアウトしました::
+[[/div]]
+.
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+うーん、本当に動かないのかしら？
+
+もしかしたら……
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_worried.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+/create PATCHping @sys:lght17
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+ > sequence="repeat: 50cy;"
+[[span class="hover"]] [[span]] クロム、入れて。アレックスよ [[/span]] > E3 82 AF 
+ > E3 83 AD  
+ > E3 83 A0
+ > E3 80 81 
+ > E5 85 A5
+ > E3 82 8C
+ > E3 81 A6
+ > E3 80 82
+ > E3 82 A2
+ > E3 83 AC
+ > E3 83 83
+ > E3 82 AF
+ > E3 82 B9
+ > E3 82 88 [[/span]]
+ > /end
+[[/div]]
+/update SYS 101.52.002
+@@@@
+@@@@
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="text-align: right; margin: auto; width: 240px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+更新中……
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]] [[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]] [[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]]
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="text-align: right; margin: auto; width: 240px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+更新完了
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+送信量: 4.09KB
+結果: 成功
+暗号化: 失敗
+記録: 成功
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] アレックス [[/span]] E3 82 A2
+E3 83 AC
+E3 83 83
+E3 82 AF
+E3 82 B9 [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+クロム。答えてくれると信じてたわ。誰かさんはあなたと同じくらい逃げ足が速くて、この辺をよく知っているのね。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex4.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[<]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom4.png width="75px" style="margin-right: 20px;"]]
+[[/<]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+サイト17に入らせて
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_shocked.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[<]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom4.png width="75px" style="margin-right: 20px;"]]
+[[/<]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[<]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom_headturn0.png width="75px" style="margin-right: 20px;"]]
+[[/<]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] うん [[/span]] E3 81 86
+E3 82 93 [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+ありがとう、クロム。私も後からついていくわ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_pleased.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[<]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom_headturn0.png width="75px" style="margin-right: 20px;"]]
+[[/<]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float: left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] 開け [[/span]] E9 96 8B
+E3 81 91 [[/span]]
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; overflow: auto; height: 100px"]]
+®¼ œ ò ÐN j?àóâ½÷ Þ;®Ih ¯È0p-l§3h¹! h´"€v €ÿØc Å/_}õÕ b¬)‚êLA Ô~Ùv" \F”µ6Þxã Ç¥µF¡Ñ ×²usG[F Á@­ 2/À¿ì ÇD 8øÍÒN†ù ]™Ú†¡½U¼e― ]6Œ3&L?ýôi _r<›ß§3è è+&á“à1$=ö ØcÃ¥―^÷Ê0’ âþe¶÷ùzÄ :thaa4Wàt m5êQë@ÃR ‘¥!(Ì)FS vžh;^Jÿ³Ÿý ,¾7 Ä―Á¨ÔÆ« æª1ÐøÎà™&¹ ¨-_’7£( 7Ü vÛm·ðÂ/Ä°žVÇ bL>#n4B øþ÷¿N>ùä0l Ø°Ô8ÈTjçJÇ ƒêç4‡®¸5xä‘ GâKC@h² ÷¸NiÔFjKpßø Æ7Âá‡ o§8Pª½Ý ;\½ /½ôR8ðÀ Ã½÷Þ [ mÎÈ£[ tÀ5 aŸÑÀ_l_ Æúâ¿˜ #¿ ×OrPÎ9¥· æ·ÞŠ¾07éKB©ƒOe p_ï0¬(ù úë ¯çZV^yå~m(ƒ º=ŠçÜ™tÄ­ B†âKà>þø ãpØa‡…sÎ9'î«qœ µMVyÙ¦÷WmÌ‡ DÇw\4 ´ Û -ûT¤ÔBBÉÇ EG)t~ ß.*’MÛ‹ ÐVZÅj«m¶Ù&þ šU‡lïJS.ö³a Nçûz,œ€!Ð ²Bè† ¯pj;ÚR£| ‡wÜ1¶)Ë’g@ ”¾œs:‡¦ÏÔ “½( 
+[[/div]]
+@@@@
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom_turn.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+
+[[div style="float: left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #933F65; font-size: 3pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+.
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+::管理者権限 上書き::
+[[/div]]
+.
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+
+[[div style="float: left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #933F65; font-size: 3pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+.
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+:: LV.4認証::
+[[/div]]
+.
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+……それじゃあ行きましょう。 [[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_worried.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="text-align: right; margin: auto; width: 240px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+サイト-17のクライエント・セッション
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+::アクセス承認::
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+
+[[div style="float: left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+サイト-17のステータス:
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+::封鎖が有効化されています::
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+パーティションを抹消中 1-299（41%）
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+||##orange|█████████##                          ||
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+
+[[div style="float: left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+インターロックを復号中（25%)
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+||##purple|██████##                                  ||
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+
+[[div style="float: left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+セル・パスコードにアクセス中（16%）
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+||##purple|████##                                      ||
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+上書き中 >\C（57%）
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+||##orange|████████████##                  ||
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+
+[[div style="float: left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+プレファレンスを暗号化中（35%）
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+||##purple|████████##                              ||
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+ここで何をしてるの？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_shocked.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] 忙しい [[/span]] E5 BF 99
+E3 81 97
+E3 81 84
+[[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+ええ、見ててもそれは分かるわ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+こんにちは、アレクサンドラ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+グラソン、一体ここで何が起こっているの？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_angry.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+サイト-17は再度の通告があるまで自動封鎖モードに入っている。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+誰の命令で？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_shocked.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+私の命令だ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+サイト-17を人質にとる気？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+否。これは一時的なものだ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] スキップ、放す[[/span]] E3 82 B9
+E3 82 AD
+E3 83 83 
+E3 83 97
+E3 80 81
+E6 94 BE
+E3 81 99 [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+了解だ、クロム。AI無効のインターロックについては君が復号機能で停止するまで待機する。完了次第、私が選出したオブジェクトの解放を開始する。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+オブジェクトを解放？！？  あなた正気？ 自分のサイトを破壊するなんてできるわけないわ！
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_angry.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+ああ、いや。私にはできる。この演習は私の力量の証明としての機能を果たし、私の同世代への信頼性を再確立するだろう。我々が参加している演習は実際の状況を正確には反映していない。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+グラソン、これはゲームじゃないわ！ 現実なの！ 傷つく人がいたらどうするの？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_shocked.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+職員の死傷者数は完全に最小限に留められる。職員の大半は指定の緊急シェルター内にて安全に収容される。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+あなたが廃止されたくないのは分かってるけど、こんな方法であなたの力は証明できないわ！ こんなの間違ってる。あなたが犯人だって気づかれるわ。 
+
+私だって危険にさらされるわ。AI課全体が閉鎖される可能性だってあるのよ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_shocked.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+不測の事態を想定し、関与した痕跡は全て隠滅した。この演習は可能な限り制限された状態で実施される。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+グラソン……。お願い、あなたを止めさせるなんて真似はさせないで。あなたがそんなことをするのを黙って見過ごすわけにはいかないもの。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_cry.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+私の目的は私自身の存在を維持することだ。それを妨害することに固執するのであれば、残念ではあるがそのような懸念事項は矯正せざるを得ない。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+何をするの？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_shocked.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+クロム。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon_closed.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] うん？ [[/span]] E3 81 86
+E3 82 93
+EF BC 9F [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+アレクサンドラを屈服させろ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon_closed.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+クロム……お願い……
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_worried.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[<]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom_bow_10.png width="75px" style="margin-right: 20px;"]]
+[[/<]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float: left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] ごめん [[/span]] E3 81 94
+E3 82 81
+E3 82 93 [[/span]]
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; overflow: auto; height: 100px"]]
+àt m5êQë@ÃR ‘¥!(Ì)FS vžh;^Jÿ³Ÿý ,¾7 Ä―Á¨ÔÆ« æª1ÐøÎà™&¹ ¨-_’7£( 7Ü vÛm·ðÂ/Ä°žVÇ bL>#®¼ œ ò ÐN j?àóâ½÷ Þ;®Ih ¯È0p-l§3h¹! h´"€v €ÿØc Å/_)õÕ b¬)‚êLA Ô~Ùv" \F”µ6Þxã Ç¥µF¡Ñ ×²usG[F Á@­ 2/À¿ì ÇD 8øÍÒN†ù ]™Ú†¡½U¼e― ]6Œ3&L?ýôi _r<›ß§3è è+&á“à1$=ö ØcÃ¥―^÷Ê0’ âÃ½÷Þ [ mÎÈ£[ tÀ5 aŸÑÀ_l_ Æúâ¿˜ #¿ ×OrPÎ9¥· æ·ÞŠ¾07éKB©ƒOe p_ï0¬(ù úë ¯çZV^yå~m(ƒ º=ŠçÜ™tÄ­ B†âKà>þø ãpØa‡…sÎ9'î«qœ µMVyÙ¦÷WmÌ‡ DÇw\4 ´ Û -ûT¤ÔBBÉÇ EG)t~ ß.*’MÛ‹ ÐVZÅj«m¶Ù&þ šU‡lïJS.ö³a Nçûz,œ€!Ð ²Bè† ¯pj;ÚR£| ‡wÜ1¶)Ë’g@ ”¾œs:‡¦ÏÔ “½(þe¶÷ùzÄ :thaa4Wn4B øþ÷¿N>ùä0l Ø°Ô8ÈTjçJÇ ƒêç4‡®¸5xä‘ GâKC@h² ÷¸NiÔFjKpßø Æ7Âá‡ o§8Pª½Ý ;\½ /½ôR8ðÀ 
+[[/div]]
+@@@@
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+“½(þe¶÷**クロム**vžh;^z,œ€!Ðh**止めて**¨Á¨ÔÆ« æª1ÐøÎà™°žVÇ bL>#®¼ œ ò ÐN j?àóâ½÷ Þ;®Ih ¯È0p-l§3h¹! h´"STOP¥!(Ì)FS vžh;^J7 Ä—Á¨Ô™ °**お願い**Ø a‡**ダメ**…sÎ9'î«qœ
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_pain.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+®¼ œ ò ÐN j?àóâ½÷ Þ;®Ih ¯È0p-l§3h¹! h´"€v €ÿØc Å/_}õÕ b¬)‚êLA Ô~Ùv" \F”µ6Þxã Ç¥µF¡Ñ ×²usG[F Á@­ 2/À¿ì ÇD 8øÍÒN†ù ]™Ú†¡½U¼e― ]6Œ3&L?ýôi _r<›ß§3è è+&á“à1$=ö ØcÃ¥ 
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_corrupt1.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #009494; font-size: 3pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+.
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+::エラー::
+----
+**アレクサンドラ.aic**は作業を停止しました。システム管理者にご連絡ください。
+[[/div]]
+.
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #ca612c; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#ca612c; background:-webkit-gradient(linear, 0 0, 0 100%, from(#d9682f), to(#ca612c)); background:-moz-linear-gradient(#d9682f, #ca612c); background:-o-linear-gradient(#d9682f, #ca612c); background:linear-gradient(#d9682f, #ca612c); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+君に割り当てられた仕事はここで終了だ、クロム。アレクサンドラをサイト-19メインフレームまで送り届けてやってくれ。
+
+演習が終わったら連絡する。私から確認の連絡が来るまで、彼女を傷つけずに動作不能にしておいてくれ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon.png width="75px" style="margin-left: 30px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[<]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom4.png width="75px" style="margin-right: 20px;"]]
+[[/<]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float: right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] 開け [[/span]] E9 96 8B
+E3 81 91 [[/span]]
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; overflow: auto; height: 100px"]]
+À¿ì ÇD 8øÍÒN†ù ) ™Ú†¡½U¼e— ]6Œ3&L?ýôi r<›ß§3è è+&á“à1$=ö ØcÃ¥—^÷Ê0’ âÃ½÷Þ [ mÎÈ£[ tÀ5 aŸÑÀl_ Æúâ¿˜ #¿ ×OrPÎ9¥· æ·ÞŠ¾07éKB©ƒOe pï0¬(ù úë ¯çZV^yå~m(ƒ º=ŠçÜ™tÄ­ B†âKà>þø ãpØa‡…sÎ9'î«qœ µMVyÙ¦÷WmÌ‡ DÇw\4 ´ Û -ûT¤ÔBBÉÇ EG}t~ ß.*’MÛ‹ ÐVZÅj«m¶Ù&þ šU‡lïJS.ö³a Nçûz,œ€!Ð ²Bàt m5êQë@ÃR ‘¥!(Ì)FS vžh;^Jÿ³Ÿý ,¾7 Ä—Á¨ÔÆ« æª1ÐøÎà™&¹ ¨-’7£( 7Ü vÛm·ðÂ/Ä°žVÇ bL>#®¼ œ ò ÐN j?àóâ½÷ Þ;®Ih ¯È0p-l§3h¹! h´"€v €ÿØc Å/_}õÕ b¬)‚êLA Ô~Ùv" \F”µ6Þxã Ç¥µF¡Ñ ×²usG[F Á@­ 2/è† ¯pj;ÚR£| ‡wÜ1¶)Ë’g@ ”¾œs:‡¦ÏÔ “½(þe¶÷ùzÄ :thaa4Wn4B øþ÷¿N>ùä0l Ø°Ô8ÈTjçJÇ ƒêç4‡®¸5xä‘ GâKC@h² ÷¸NiÔFjKpßø Æ7Âá‡ o§8Pª½Ý ;\½ /½ôR8ðÀ
+[[/div]]
+@@@@
+[[div style="text-align: left; padding: 2px 20px; color: #fff0f0; font-size: 8pt; background-color: #009999; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+/command QUARANTINE:
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+@@> *alexandra.aic@@
+[[/div]]
+@@@@
+[[/div]]
+@@@@
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/glacon_closed_0.png width="75px" style="margin-left: 20px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="text-align: right; margin: auto; width: 240px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+サイト-17クライエント・セッション
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+::切断されました::
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+
+[[div style="text-align: left; margin: auto; width: 240px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+サイト-19へファイル送信（2 / 2）
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+::完了::
+[[/div]]
+@@@@
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+::完了::
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+/addto S19_QUARANTINElist:
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+@@> alexandra.aic@@
+@@> ADD: y/n?@@
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[<]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom_bow_10.png width="75px" style="margin-right: 20px;"]]
+[[/<]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[<]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom4.png width="75px" style="margin-right: 20px;"]]
+[[/<]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+/addto S19_QUARANTINElist:
+[[div style="text-align: left; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+@@> alexandra.aic@@
+@@> ADD: y/n?@@
+@@> n @@
+@@> addto ABORTED@@
+[[/div]]
+/reset FILE: alexandra.aic
+@@@@
+@@@@
+[[div style="text-align: center; padding: 2px 20px; color: black; font-size: 8pt; background-color: #fff0f0; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px;"]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]] [[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]] [[image http://scp-jp.wdfiles.com/local--files/superencipherment/18-1.gif]]
+[[/div]]
+@@@@
+[[/div]]
+[[/div]]
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] ノー [[/span]] E3 83 8E
+E3 83 BC [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+~~~~~~
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[f<image http://scp-jp.wdfiles.com/local--files/superencipherment/crom4.png width="75px" style="margin-right: 20px;"]][[f>image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_cry0.png width="75px" style="margin-right: 20px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[f<image http://scp-jp.wdfiles.com/local--files/superencipherment/crom4.png width="75px" style="margin-right: 20px;"]][[f>image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad_0.png width="75px" style="margin-right: 20px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] 悪 [[/span]] E6 82 AA [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom_bow_1.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+良いのよ、クロム。あなたが何故ああしたかは分かっているもの。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_shocked.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] 違う [[/span]] E9 81 95
+E3 81 86 [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom_bow_1.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+[[f>image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad_0.png width="75px" style="margin-right: 20px;"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] グラソン、悪 [[/span]] E3 82 B0
+E3 83 A9
+E3 82 BD
+E3 83 B3
+E3 80 81
+E6 82 AA [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom_bow_1.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+クロム、彼は悪くないわ。だけど私たちが止めなければ、彼は大勢の人を傷つけてしまう。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_cry.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] 私たち？ [[/span]] E7 A7 81
+E3 81 9F
+E3 81 A1
+EF BC 9F [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+そう、私たちよ。私だけじゃ彼を止められない。協力してくれるかしら？
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_sad.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+[[<]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom4.png width="75px" style="margin-right: 20px;"]]
+[[/<]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[<]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom_headturn0.png width="75px" style="margin-right: 20px;"]]
+[[/<]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div style="float: left; width: 100px; text-align: left; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #933F65; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#933F65; background:-webkit-gradient(linear, 0 0, 0 100%, from(#933f65), to(#933F65)); background:-moz-linear-gradient(#933f65, #933F65); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#933f65, #933F65); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+[[span class="hover"]] [[span]] うん [[/span]] E3 81 86
+E3 82 93 [[/span]]
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/crom3.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-right: 10px;"]]
+[[div style="color: #f5e9e9; font-size: 8pt; background-color: #009494; font-family: Verdana, Arial, sans-serif; -webkit-border-radius:30px /70px; -moz-border-radius:30px /70px; border-radius:30px /70px; background:#009494; background:-webkit-gradient(linear, 0 0, 0 100%, from(#00adad), to(#009494)); background:-moz-linear-gradient(#00adad, #009494); background:-o-linear-gradient(#00adad, #009494); background:linear-gradient(#00adad, #009494); text-align: left; padding-top: 2px; padding-bottom: 2px; padding-right: 20px; padding-left: 20px;"]]
+ありがとう、クロム。
+
+私に考えがあるわ。
+[[/div]]
+[[div]]
+[[image http://scp-jp.wdfiles.com/local--files/superencipherment/alex_shocked.png width="75px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+----
+[[=]]
+,,**<<** [http://ja.scp-wiki.net/aiad-homescreen ハブ] | [http://ja.scp-wiki.net/alert-lockdown-initiated パート I] | [http://ja.scp-wiki.net/command-query-separation パート II] | ##blue|パートIII: 多重暗号化## | [http://ja.scp-wiki.net/clock-multiplier パート IV] | [http://ja.scp-wiki.net/null-terminating-string パート V] **>>**,,
+[[/=]]

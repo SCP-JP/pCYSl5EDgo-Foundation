@@ -1,0 +1,557 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:theme:broken-masquerade]]
+
+> //「一か月。追加だ」//
+> 
+> 「何の……何、詳細は？」
+> 
+> //「残念ながら、仮に開示していいとしても個人的には詳細に詳しくない」//
+> 
+> 「ど―どうやって間違いを分かれと？」
+> 
+> //「何の話だか私には分かりかねる。君が犯した誤りは完全に説明した」//
+> 
+> 「……オーケー」
+
+------
+
+[[html]]
+
+<script type="text/javascript">
+
+function sakacol(){
+
+    var sakasama = document.getElementById("sakasama");
+    var message = document.getElementById("message");
+
+    if (message.style.display == "block")
+    {
+        message.style.display = "none";
+        sakasama.style.mstransform = "scaleY(1)";
+        sakasama.style.moztransform = "scaleY(1)";
+        sakasama.style.otransform = "scaleY(1)";
+        sakasama.style.webkittransform = "scaleY(1)";
+        sakasama.style.transform = "scaleY(1)";
+    }
+    else
+    {
+        message.style.display = "block";
+        sakasama.style.mstransform = "scaleY(-1)";
+        sakasama.style.moztransform = "scaleY(-1)";
+        sakasama.style.otransform = "scaleY(-1)";
+        sakasama.style.webkittransform = "scaleY(-1)";
+        sakasama.style.transform = "scaleY(-1)";
+    }
+}
+
+</script>
+
+<div id="sakasama"><a style="font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #bb0011; text-decoration: none;" onClick="sakacol();" href="javascript:;">無駄だとしても私が注いだ努力</a></div>
+<div id="message" style="display: none; font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #333333"><img src="http://scp-jp.wdfiles.com/local--files/the-fine-print/scan_paperwork.png" style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); max-width: 100%; width: 640px; margin: 0 auto;" alt="scan_paperwork.png" class="image">
+<p>(訳:<br></p>
+<div style="text-align: center;">
+<p>財団従業員ハンドブックと必読セクションVII:</p>
+<p>職務上の齟齬と義務</p>
+</div>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;">
+<p><em>下に署名することにより、私は次に同意します:</em></p>
+<ul>
+<li><em>この契約書のセクションIおよびIIに基づき、現地での住宅供給と給与水準に具体的に関係して最低でも5年の間、私の</em> <span style="color: #6699CC; text-decoration: solid black underline;">04</span> / <span style="color: #6699CC; text-decoration: solid black underline;">23</span> / <span style="color: #6699CC; text-decoration: solid black underline;">18</span> <em>の雇用面談で定められた範囲で財団の司法権の元にあります</em></li>
+<li><em>最大で4を超えないセキュリティおよびクリアランスレベルを限度として、年に1以上のセキュリティおよびクリアランス/階級における昇格は保障されません</em></li>
+<li><em>まず通知して2人以上の部門部長の承認、および/またはサイト管理者からの3部作成された書面での許可を受けず、予定外の、職務に無関係な事情でサイトを離れません</em></li>
+<li><em>年に2回の3週間の休暇期間があり、これらの期間の利用の届け出については、目的地と出発/帰還の時期の両方に関して最低1人の部門部長に最低でも2週間以上前に届出書を提出し、事前承認を得なければなりません;</em></li>
+<li><em>私の外出の1つが3人以上の部門部長および/またはサイト管理者(書面)により動機において疑わしいとみなされた場合、尋問と降格の見込みの対象になります</em></li>
+</ul>
+<p>このセクション(“セクションVII: 雇用上の齟齬と義務”)に署名することにより私は秘密厳守を誓い、尋問および/または降格あるいは処刑の罰則を前提として、私の部門(“部門8: フィールドワークと回収任務”)と地位(“フィールド研究員”)に関わるいかなる情報もあらゆる外部の非財団関係者/関係者らに漏らしません:</p>
+<p>姓 <span style="color: #6699CC; text-decoration: solid black underline;">Lockwood<span style="white-space: pre-wrap;">     </span></span> 名 <span style="color: #6699CC; text-decoration: solid black underline;">Teresa<span style="white-space: pre-wrap;">   </span></span> イニシャル <span style="color: #6699CC; text-decoration: solid black underline;">A.<span style="white-space: pre-wrap;"> </span></span> | 月 <span style="color: #6699CC; text-decoration: solid black underline;">04</span> 日 <span style="color: #6699CC; text-decoration: solid black underline;">25</span> 年 <span style="color: #6699CC; text-decoration: solid black underline;">2018</span></p>
+<div style="float: right; border: solid 2px black; width: 230px; padding: 1px 15px; margin: 10px 10px 10px 10px;">
+<p>回収情報</p>
+<p>文書はテレサ・ロックウッドの署名された雇用書類の関連するセクションのスキャン、21年██月██日における守秘義務要求違反に続いて予防的措置として保管</p>
+</div>
+<p>署名 <em><span style="color: #6699CC; text-decoration: solid black underline;">Teresa Lockwood</span></em><br>
+地位 <span style="color: #6699CC; text-decoration: solid black underline;"><span style="white-space: pre-wrap;"> </span>フィールド研究員</span><span style="white-space: pre-wrap;"> </span><br>
+日付 <span style="color: #6699CC; text-decoration: solid black underline;">04.25.2018<span style="white-space: pre-wrap;">           </span></span></p>
+<div style="clear: both;">)</div>
+<p><em>「ちょっと速いんじゃないか」</em></p>
+<p>「えっ、何？」</p>
+<p><em>「読むのが速いんじゃないかって。サインして大丈夫か？」</em></p>
+<p>「あっ、ああ！うん、もちろん。とうとうこんなところまで来たね」</p>
+<p><em>「その考え方はいいな。さあ進もう」</em></p>
+<p>「ありがとう」</p>
+<p><em>「いえ、こちらこそ」</em></p><hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;"></div>
+
+[[/html]]
+
+これ以前の人生の記憶は私には必要ない。展望はきっと苦痛に満ちたものだろう。これ以前にそうであったであろう私の定義は、有用さ―潜在的でもそうでなくても―に比べれば取るに足らず、それで問題なかった。私がリアルな世界に生きていた頃には給料を使うあてなんてなかった、受け取ることに何の意味があるのだろう？問題ない。十分理屈が通っているし問題ない。
+
+私はここで2～6年―数年、私の記憶の中でごっちゃになったか完全に消えたかした分を足したり引いたりすると―過ごした。私が雇われた頃、この組織の目的は思っていたほど科学志向ではないのは明らかで、それも問題なかった。大切な仕事だったし、当初いくつかの倫理に関する疑問は抱いていても、私は献身するのに問題を感じなかった。私はここにいたいからいた。あれは私の意図で、満足で、自信のある決断だった。
+
+[[html]]
+
+<script type="text/javascript">
+
+function sakacol2(){
+
+    var sakasama2 = document.getElementById("sakasama2");
+    var message2 = document.getElementById("message2");
+
+    if (message2.style.display == "block")
+    {
+        message2.style.display = "none";
+        sakasama2.style.mstransform = "scaleY(1)";
+        sakasama2.style.moztransform = "scaleY(1)";
+        sakasama2.style.otransform = "scaleY(1)";
+        sakasama2.style.webkittransform = "scaleY(1)";
+        sakasama2.style.transform = "scaleY(1)";
+    }
+    else
+    {
+        message2.style.display = "block";
+        sakasama2.style.mstransform = "scaleY(-1)";
+        sakasama2.style.moztransform = "scaleY(-1)";
+        sakasama2.style.otransform = "scaleY(-1)";
+        sakasama2.style.webkittransform = "scaleY(-1)";
+        sakasama2.style.transform = "scaleY(-1)";
+    }
+}
+
+</script>
+
+<div id="sakasama2"><a style="font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #bb0011; text-decoration: none;" onClick="sakacol2();" href="javascript:;">は無価値にされ、苦痛が勝り</a></div>
+<div id="message2" style="display: none; font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #333333">
+<p><em>「どこにいる？」</em></p>
+<p>「ちょっと職場にね。何か用―」</p>
+<p><em>「おまえが必要なんだ。お父さんと私はもう疲れてるよ」</em></p>
+<p>「疲れて……何に？」</p>
+<p><em>「これにだ！ええと―おまえのことじゃなくて、ただ……この状況にだよ。何か月も帰ってきてないじゃないか。ずっと会ってないよ。ねえ、どれだけ辛いか分からないか？一体何がそんなに重要なんだ？」</em></p>
+<p>「パパ、私―」</p>
+<p><em>「もう子供じゃないのは分かっているよ、だから年の話はやめてくれ―」</em></p>
+<p>「そんなこと言おうとしたんじゃないってば。私が言いたかったのは、お父さんたちが想像するより重要な仕事をしてるってこと―」</p>
+<p><em>「おや、じゃあこれが想像しておくべきことってことなのか？いつこれが論点になったんだ？」</em></p>
+<p>「そんなこと言ってない、そういう意味じゃない！」</p>
+<p><em>「じゃあ何の話なんだ、テレサ？どこにいるんだ？なんで訪ねてこない？」</em></p>
+<p>「やめて―怒鳴らないで、お願いだから、全部そのうちよくなるよ、お父さんたちにもずっとお金を送―」</p>
+<p><em>「おまえの金なんて欲しくないんだ！あの胡散臭い銀行からの怪しい送金の履歴じゃなくて、おまえに私達の生活に戻ってきてほしいんだ、くそっ！おまえのところの銀行は一体何なんだ？聞いたこともないぞ！ググっても何も出てこない！政府か何かで働いてるのか？」</em></p>
+<p>「お願い、叫ばないで―」</p>
+<p><em>「おまえがどこにいるのか教えたらやめるよ！私達は自分の娘がどこにいるか分からないんだ！」</em></p>
+<p>「分かった、インディアナだよ、最寄りの町はブルーミントン、ちょっと―待って、くそっ―」</p>
+<p><em>「『待って、くそっ』がどうした？」</em></p>
+<p>「行かなきゃ。誰か来た―」</p>
+<p><em>「かけ直してくれ、テレサ、おまえがいなくて寂しいんだ―」</em></p>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;">
+<p><em>「誰と話していた？」</em></p>
+<p>「あ、こんにちはウェルナー博士―」</p>
+<p><em>「誰と話していたかを聞いているのだが？」</em></p>
+<p>「誰って―私の―父？私の父、電話してきて、ご存知でしょう、私の家族―」</p>
+<p><em>「我々の所在地を君の父親に話したのか？」</em></p>
+<p>「え―ええ―」</p>
+<p><em>「これは財団の携帯電話ではないな。ロックウッド、規則は知っているだろう、サイト外に年間休暇で出る以外はこれは私物ロッカーに仕舞えと」</em></p>
+<p>「知って……います」</p>
+<p><em>「ああ、そうだろうな」</em></p><hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;"></div>
+
+[[/html]]
+
+私達がしたことについても問題は感じない。でも、私はよく知性あるアノマリーを扱うのに不幸な喜びを感じる、だから自分の都合に埋没しすぎたことを言う前に、自分の財団に対する見方を考慮する必要があるかもしれない。私はサイト-81のフィールドリサーチ部門で働いていて、中西部の湿度の中生物学の学位を焼き捨てて、人や動物をインディアナポリスの不潔な路地やブルーミントンの深い森の中を同じように追跡することに日々は費やされた。結局のところ、異常な生物は簡単に手に入るものではなく、それぞれのプロジェクトは私の時間を数カ月奪っていった。勤務は長く給与は安く、でもそれは私のしたいことだったし、私がしてきたことだった。
+
+[[html]]
+
+<script type="text/javascript">
+
+function sakacol3(){
+
+    var sakasama3 = document.getElementById("sakasama3");
+    var message3 = document.getElementById("message3");
+
+    if (message3.style.display == "block")
+    {
+        message3.style.display = "none";
+        sakasama3.style.mstransform = "scaleY(1)";
+        sakasama3.style.moztransform = "scaleY(1)";
+        sakasama3.style.otransform = "scaleY(1)";
+        sakasama3.style.webkittransform = "scaleY(1)";
+        sakasama3.style.transform = "scaleY(1)";
+    }
+    else
+    {
+        message3.style.display = "block";
+        sakasama3.style.mstransform = "scaleY(-1)";
+        sakasama3.style.moztransform = "scaleY(-1)";
+        sakasama3.style.otransform = "scaleY(-1)";
+        sakasama3.style.webkittransform = "scaleY(-1)";
+        sakasama3.style.transform = "scaleY(-1)";
+    }
+}
+
+</script>
+
+<div id="sakasama3"><a style="font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #bb0011; text-decoration: none;" onClick="sakacol3();" href="javascript:;">そして行動、あるいは考えの欠如により、しみついた</a></div>
+<div id="message3" style="display: none; font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #333333">
+<img src="http://scp-jp.wdfiles.com/local--files/the-fine-print/scan_note.png" style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); max-width: 100%; width: 640px; margin: 0 auto;" alt="scan_note.png" class="image">
+<p>(訳:<br>
+███████,</p>
+<p><span style="white-space: pre-wrap;">   </span>私はこれをラボから書いています。██████が電話でパパと話しているところを見つけて不満のようです。彼がこのことについてした態度と先週の██████████████████████████████████████████とのことで、なんというか、'心配'になってきました。もちろん私は自分が被害妄想気味だと分かっているしいつもそうでした、でも今回は特に嫌な、不快な気分になりました。<br>
+<span style="white-space: pre-wrap;">   </span>これからの数日できるかぎりラボに立ち寄ってください。このメモをあなたのロッカーに21年9月9日の13時51分ごろ置いておきます。これを読んだとき、どれだけ時間が経ったか考えてください。もし1日以上たっていたら、<strong>どうか</strong>ラボに来て聞いて回ってください。とても不安です。</p>
+<p><span style="white-space: pre-wrap;">   </span>気をつけて、そしてこれを確実に捨ててください</p>
+<p><br /><span style="white-space: pre-wrap;">   </span>愛をこめて、</p>
+<p><span style="white-space: pre-wrap;">      </span>テラ</p>
+<div style="float:right; border: solid 2px black; width: 230px; padding: 1px 15px; margin: 10px 10px 10px 10px;">
+<p>回収情報</p>
+<p>フィールドOP.兼ブロック守衛エージェント███████████████のロッカーより21年9月15日に発見。█████████はあらゆる関与を否定、しかし取り調べ予定(09.26.21)。</p>
+</div>
+<br>
+<div style="clear: both;">)</div>
+<p><em>「ロックウッド？何を書いている？」</em></p>
+<p>「あっ、はい私のメモです。後で―」</p>
+<p><em>「ランチの時間が終わってしまう。行くべきだ」</em></p>
+<p>「ああ、そうですね、その通りです」</p>
+<p><em>「誰かに護送させよう」</em></p>
+<p>「ええっ……何故その必要が？」</p>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;"></div>
+
+[[/html]]
+
+事実、財団か似た組織に雇われ//ていなかったなら//いかに私は無目的だったか、考えれば考えるほど気付く。10代から20代初めにしたように9時5時の仕事であくせく働くこともできた、でも何をしただろう？どこかのどうでもいい企業に金儲けさせること？いや、私はそんなことより何か重要なことがしたい、たとえそれが外の世界では受け入れられないような行いをすることを意味していても。
+
+朝鮮半島での出来事で引き起こされた、法に関するくそみたいななんやかんやが財団の背骨にひびを入れた後、人型アノマリーの収容は市民の目にとって新たな動物実験になり、辛辣で破壊的なアクティビズムを動かせるような量の理性的な論拠は存在しなかった。しばらくの間、私は他の分野出身だったらよかったのにと思い始めていた―生物学以外ならなんでも―ただ、財団のいかがわしい道徳性と、埃っぽい事務棟でのファイル作業に目を向けないでいられるように。流行りの論争以外ならなんでも。知覚のある被験者に関わらないものならなんでも。
+
+[[html]]
+
+<script type="text/javascript">
+
+function sakacol4(){
+
+    var sakasama4 = document.getElementById("sakasama4");
+    var message4 = document.getElementById("message4");
+
+    if (message4.style.display == "block")
+    {
+        message4.style.display = "none";
+        sakasama4.style.mstransform = "scaleY(1)";
+        sakasama4.style.moztransform = "scaleY(1)";
+        sakasama4.style.otransform = "scaleY(1)";
+        sakasama4.style.webkittransform = "scaleY(1)";
+        sakasama4.style.transform = "scaleY(1)";
+    }
+    else
+    {
+        message4.style.display = "block";
+        sakasama4.style.mstransform = "scaleY(-1)";
+        sakasama4.style.moztransform = "scaleY(-1)";
+        sakasama4.style.otransform = "scaleY(-1)";
+        sakasama4.style.webkittransform = "scaleY(-1)";
+        sakasama4.style.transform = "scaleY(-1)";
+    }
+}
+
+</script>
+
+<div id="sakasama4"><a style="font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #bb0011; text-decoration: none;" onClick="sakacol4();" href="javascript:;">私の自我は疲弊し、消耗し</a></div>
+<div id="message4" style="display: none; font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #333333">
+<img src="http://scp-jp.wdfiles.com/local--files/the-fine-print/email.png" style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 640px; margin: 0 auto;" alt="email.png" class="image">
+<p>(訳:<br>
+from: internal automail (automail@scpf.net)<br>
+to: Teresa Lockwood (teresa.lockwood@scpf.net)</p>
+<p><strong>メッセージ本文:</strong></p>
+<div style="text-align: center;">
+<p>緊急従業員通知</p>
+</div>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;">
+<p>関係者各位:</p>
+<p>もしあなたがこの通知を受け取ったならば、あなたは1人以上の直属のスーパーバイザーにより疑わしい振舞いのためフラグ付けされています。あなたは最低2週間監視下に置かれ、それに加えてもし必要/状況に対して適切とみなされた場合には、尋問または降格の対象になります。施設を去ろうと試みないで下さい。質問は48時間以内に、あなたの部門のスーパーバイザーに寄せねばなりません。</p>
+<p><em>これは自動メッセージです。このeメールに返信しないでください。.</em><br>
+)</p>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;"></div>
+
+[[/html]]
+
+つまり、私は引き裂かれた。私が従事した人間アノマリーたちは―私の全キャリアの中でたったの3体だけだった―全く人間らしく振舞わなかった。//人間//は穏やかな会話の中で接近されて叫んで蹴ったりしないし、//人間//は自分を治療する医者を殺そうとしないし、//人間//は夜に何時間も天井に向かって叫び続け、無理やり鎮静されてようやく止めたりしない。あんなことをするのは動物だけ。あの頃認めたかったかそうでなかったに関わりなく、私は動物と働いていた。違う？
+
+[[html]]
+
+<script type="text/javascript">
+
+function sakacol5(){
+
+    var sakasama5 = document.getElementById("sakasama5");
+    var message5 = document.getElementById("message5");
+
+    if (message5.style.display == "block")
+    {
+        message5.style.display = "none";
+        sakasama5.style.mstransform = "scaleY(1)";
+        sakasama5.style.moztransform = "scaleY(1)";
+        sakasama5.style.otransform = "scaleY(1)";
+        sakasama5.style.webkittransform = "scaleY(1)";
+        sakasama5.style.transform = "scaleY(1)";
+    }
+    else
+    {
+        message5.style.display = "block";
+        sakasama5.style.mstransform = "scaleY(-1)";
+        sakasama5.style.moztransform = "scaleY(-1)";
+        sakasama5.style.otransform = "scaleY(-1)";
+        sakasama5.style.webkittransform = "scaleY(-1)";
+        sakasama5.style.transform = "scaleY(-1)";
+    }
+}
+
+</script>
+
+<div id="sakasama5"><a style="font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #bb0011; text-decoration: none;" onClick="sakacol5();" href="javascript:;">私は覚えている、自分の心が死んだ日のことを</a></div>
+<div id="message5" style="display: none; font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #333333">
+
+<p><em>「君とは話せないよ」</em></p>
+<p>「でも、私は同じ人―」</p>
+<p><em>「いや、私は―そういう意味じゃなく、私は―できない」</em></p>
+<p>「許可されてないってことね。分かった」</p>
+<p><em>「間違いだ。私の間違いかもしれない」</em></p>
+<p>「メモを読んでくれなかったの？メモを見たって言ってよ」</p>
+<p><em>「お願いだから静かにしてくれ。見ろ、本当にお互い話しているところを見られちゃいけないんだ」</em></p>
+<p>「私は違う人間なの？ずっとあなたが知っていたのと同じ人じゃないの？」</p>
+<p><em>「……私には出来ない、分かっただろう？」</em></p>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;"></div>
+
+[[/html]]
+
+関わるコンセプトを考慮すればするほど、いかに環境に強要し、行動をもたらす力があるかを無視するのは率直に言って愚かだという気付きに至る。もちろん人は檻に入れられれば動物のように振舞う、私は数年前スーパーバイザーに説明した。生き物は環境の文脈に順応するもので、私はそれをよく知っていて、そして生き物の環境がある思考態度を強要するようにデザインされているとき、どうやって結果の責を犠牲者に負わせるようなことが誠意をもってできるのだろうか？
+
+彼はこの考えを好まなかった。それは同情に関わる証拠だと彼は言い、そして私を"よりストレスを引き起こさない労働環境"に移すと言った("私自身の安全のために"、もちろん)。私はいるべき場所にいることになるだろう、彼は言った。いつでも記憶処理は選択肢の1つだ。
+
+今のところ、私は自分がどこにいるのか分からない。
+
+[[html]]
+
+<script type="text/javascript">
+
+function sakacol6(){
+
+    var sakasama6 = document.getElementById("sakasama6");
+    var message6 = document.getElementById("message6");
+
+    if (message6.style.display == "block")
+    {
+        message6.style.display = "none";
+        sakasama6.style.mstransform = "scaleY(1)";
+        sakasama6.style.moztransform = "scaleY(1)";
+        sakasama6.style.otransform = "scaleY(1)";
+        sakasama6.style.webkittransform = "scaleY(1)";
+        sakasama6.style.transform = "scaleY(1)";
+    }
+    else
+    {
+        message6.style.display = "block";
+        sakasama6.style.mstransform = "scaleY(-1)";
+        sakasama6.style.moztransform = "scaleY(-1)";
+        sakasama6.style.otransform = "scaleY(-1)";
+        sakasama6.style.webkittransform = "scaleY(-1)";
+        sakasama6.style.transform = "scaleY(-1)";
+    }
+}
+
+</script>
+
+<div id="sakasama6"><a style="font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #bb0011; text-decoration: none;" onClick="sakacol6();" href="javascript:;">そして覚えている、あるとき彼らが</a></div>
+<div id="message6" style="display: none; font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #333333">
+<p><em>「聞いた？」</em></p>
+<p>「何？何を？」</p>
+<p><em>「ニュースだよ。みんな知ってる。一般人は知ってる」</em></p>
+<p>「声が大き―」</p>
+<p><em>「えーっ勘弁してよテラ、誰も聞いてないって」</em></p>
+<p>「知らないだけだよ、分かってる？それはそれとして、新しいニュースじゃなくない？」</p>
+<p><em>「いいや」</em></p>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;"></div>
+
+[[/html]]
+
+私はそれからヒューマノイドと関わる必要がなくなった。私は静かなラボでSafeクラスを研究した。意識ある者も、知能ある者もいない。給与は減ったが気にならなかった。自分の感情も、ニュースも噂も、自分の仕事以外全て無視した。しばらくして、頭が軽く感じられるようになった。毎週はかつてなく滲みながら速く過ぎ去り、私は自分がもはやめったにサイトを離れていないことに気付いた。私の生活はラボと宿舎とカフェテリアの何度も何度も何度もの循環で、それで問題なかった。むしろ心地よくすらあった。私は役に立っていた―役に立っていた//と感じていた//―そして私はそれを、仕事に見出すのと同じぐらいに日常のパターンにも見出していた。
+
+[[html]]
+
+<script type="text/javascript">
+
+function sakacol7(){
+
+    var sakasama7 = document.getElementById("sakasama7");
+    var message7 = document.getElementById("message7");
+
+    if (message7.style.display == "block")
+    {
+        message7.style.display = "none";
+        sakasama7.style.mstransform = "scaleY(1)";
+        sakasama7.style.moztransform = "scaleY(1)";
+        sakasama7.style.otransform = "scaleY(1)";
+        sakasama7.style.webkittransform = "scaleY(1)";
+        sakasama7.style.transform = "scaleY(1)";
+    }
+    else
+    {
+        message7.style.display = "block";
+        sakasama7.style.mstransform = "scaleY(-1)";
+        sakasama7.style.moztransform = "scaleY(-1)";
+        sakasama7.style.otransform = "scaleY(-1)";
+        sakasama7.style.webkittransform = "scaleY(-1)";
+        sakasama7.style.transform = "scaleY(-1)";
+    }
+}
+
+</script>
+
+<div id="sakasama7"><a style="font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #bb0011; text-decoration: none;" onClick="sakacol7();" href="javascript:;">蘇らせ、人間らしくしようと試みたが</a></div>
+<div id="message7" style="display: none; font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #333333">
+<img src="http://scp-jp.wdfiles.com/local--files/the-fine-print/scan_newspaper.png" style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); max-width: 100%; width: 640px; margin: 0 auto;" alt="scan_newspaper.png" class="image">
+<p>(訳:<br></p>
+<div style="text-align: center;">
+<p>ニューヨーク | ラスベガス | ロサンジェルス | ロンドン | シカゴ | ローリー | ソウル</p>
+<p><strong>インフォメーション・ブリーチ</strong><br>
+<em>財団があなたに知ってほしくない事、すべてをひとつに！</em></p>
+</div>
+<p><strong>緊急: 財団の表面上無限の被験者供給は自身の従業員を使用するため無限だった(なぜなら当然彼らはそうするので)</strong></p>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;">
+<p>ブレンデン・ウォーカーズにより2021年9月18日に発行 | ユーモアコラムニスト、CNN番組ウォーキング・オン・ジ・エッジ司会</p>
+<p>我々世間にとっては、SCP財団として知られる腐敗した団体の内幕はよくて道徳的に疑わしく、最悪人権侵害であることはニュースではないだろう。しかし私は、メディアと財団内部からの情報漏洩により暴かれた最新の悪行は万人に対して抜きんでていると言える。財団の従業員自身が常時"Dクラス"ランク―異常オブジェクトの実験(あるいは―どうかそうでありませんように―異常な<em>人々</em>。先週のコラムを参照)であれ、ただ他に誰もやりたくない危ない施設メンテナンスであれ、上司たちが望むままに使われる本質的に使い捨ての被験者を意味する―への降格を免れ得ないのだ。それは本質的に奴隷である―そして財団職員は雇用に際して望んでその書類にサインしているのだ。</p>
+<p>「俺が雇われたとき、書類を沢山は読まなかったな」先週のインタビューで元財団フィールドエージェント、機動部隊ベータ-5のロン・スポールディングは筆者に話した。「ありゃあ後から思うと、知らずに失敗したら次の朝独房で目を覚ましてたかもって考えると恐ろしいな」</p>
+<p>「どんな種類の失敗を？」筆者は訊ねた。</p>
+<p>彼は肩をすくめた。「ああ、'なんでも'とは言いたかねえけどよ、なんでもありえるぜ、何故って部門と肩書によりけりだから挙げきれねえな。(…)辞めた後に戻って雇用書類を見たんだ。フィールド工作員としての俺の条件は基本的に'要注意団体との説明なき非敵対的な接触'だったな、つまり俺がフィールドでCIのエージェントとばったり出会って、知らずにそいつらと話すかなんかして、そいつらも俺が味方じゃねえって知らなくて、そんで俺が協力者じゃねえと<em>証明</em>できなかったら完璧に降格の資格があるってことよ」</p>
+<p>「すると、落とし穴は彼らが―あなたの財団での上司が―あなたに悪意があったと証明できなければいけないということですか」筆者は訊ねた。</p>
+<p>「真逆だな」彼は明確に説明した。「無実が証明されるまでは基本的に有罪だ」彼は一瞬たじろいだ。「そんで他の理由ですでに危ねえときがある。たとえばもしかしたら知性あるアノマリーの扱いが気に入らねえとか―あれはでかいぞ―そんでこれが素行のいい誰かさんには最初の警告になるけど、最後の一発になったりするのさ」</p>
+<p>「財団が時々従業員を降格させる口実を探しているという、あなたの見解について話していらっしゃるんでしょうか？」</p>
+<p>「忘れちゃいけねえのは財団は筋の通った、まとまったことをこういうことにアレすんにはでかすぎるってことだな。サイトによるし、部門のスーパーバイザーによるし、それぞれのアレと人による。俺はただ全部繋がってるって言いたいのよ。もし怪しい動きをしてきて最後にもう一回やって、そんで上司がサイトのどこかよそでまたDクラスが死んで替えがいるって通知もらったら(…)都合のいい偶然を見つけねえって誰にも言えねえよな。特に雇用書類にあんなんでも書いてあったらよ」</p>
+<p>スポールディングの話は多くのものの一つであり、全ては懸念を強めるものだ。従業員を彼らの意思に反して使うのを厭わない組織は、倫理的責任の限度を超えることを厭わない組織だ。しかしこれは旧知のニュースではないだろうか？</p>
+<p>予想通り、この論争は財団にとって有害なようだ。<em>インフォメーション・ブリーチ</em>のレポートは過去1ヶ月間で辞職した財団人員が13%増加したことを示している。財団の研究支部の株価は先週だけで5.45%下落している。このようなニュースを目の当たりにして、財団の好ましからざる倫理観についてはいつ一線を越えることになるか、我々全員が気にしていると筆者は考える―なぜなら現状、世間と彼ら自身の従業員の手による新しい暴露の度に、彼らの振る舞いは絶えず言い訳されているように見えるからである。<em>一体どこで我々は'もう十分はもう十分'と言うのか？</em></p>
+<div style="float:right; border: solid 2px black; width: 230px; padding: 1px 15px; margin: 10px 10px 10px 10px;">
+<p>回収情報</p>
+<p>文書はサイト-81の████████実験棟のルーム██から発見された新聞の切り抜きのトリミングされたスキャン。サイト外からの反財団プロパガンダ資料はサイト-81内では許可されていない。</p>
+</div>
+<div style="clear: both;"> </div>
+<p><span style="color: #ccc">訳注: 左下の線で囲まれた文章の訳。基本的にインタビューからの抜き書き</span><br>
+<em>俺はただ全部繋がってるって言いたいのよ。もし怪しい動きをしてきて最後にもう一回やって、そんで上司がサイトのどこかよそでまたDクラスが死んで替えがいるって通知もらったら(…)<strong>都合のいい偶然を見つけねえって誰にも言えねえよな。</strong></em></p>
+<p><span style="color: #ccc">訳注: 右下の広告とキャプション(一部)の訳</span><br>
+Dは使い捨て<span style="color: #ccc">(disporsable)</span>のDではなく、降格<span style="color: #ccc">(demoted)</span>のDだ。</p>
+<div style="text-align: center;">
+<p>財団にあなたの人権をうばわせないで。<br>
+<strong>いますぐリーワード・アンド・ワーナー・リーガル・ソリューションズにお電話を。</strong><br>
+フェニックス | ロサンジェルス | (1-900-173-9241) | ラスベガス | ソルトレイクシティ</p>
+<p><strong>あなたはひとりじゃない。</strong><br>
+<em>わたしたちもそこにいました。<sup>TM</sup></em></p>
+</div>
+<p>最近の世間の目に対するこの情報の進出に伴い、著名な<em>リーワード・アンド・ワーナー・リーガル・ソリューションズ</em>によるこれのような広告が…<br>
+)</p>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;"></div>
+[[/html]]
+
+私はラボでの有用さとフィールドでの有用さに違いはないと気付いた。この組織は個性という個人的な緩衝作用とでは機能しない。それを残しておくことは歯車を詰まらせて時計を止め、そして今日、私達は止まることを許されない時計だ。時計は全体として機能し続けなければならず、そして私がどの歯車をコントロールしているかは関係ない。大切なのは私が機能し続けることだ。
+
+[[html]]
+<script type="text/javascript">
+
+function sakacol8(){
+
+    var sakasama8 = document.getElementById("sakasama8");
+    var message8 = document.getElementById("message8");
+
+    if (message8.style.display == "block")
+    {
+        message8.style.display = "none";
+        sakasama8.style.mstransform = "scaleY(1)";
+        sakasama8.style.moztransform = "scaleY(1)";
+        sakasama8.style.otransform = "scaleY(1)";
+        sakasama8.style.webkittransform = "scaleY(1)";
+        sakasama8.style.transform = "scaleY(1)";
+    }
+    else
+    {
+        message8.style.display = "block";
+        sakasama8.style.mstransform = "scaleY(-1)";
+        sakasama8.style.moztransform = "scaleY(-1)";
+        sakasama8.style.otransform = "scaleY(-1)";
+        sakasama8.style.webkittransform = "scaleY(-1)";
+        sakasama8.style.transform = "scaleY(-1)";
+    }
+}
+
+</script>
+
+<div id="sakasama8"><a style="font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #bb0011; text-decoration: none;" onClick="sakacol8();" href="javascript:;">彼らの歩み寄る努力にもかかわらず、</a></div>
+<div id="message8" style="display: none; font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #333333"><img src="http://scp-jp.wdfiles.com/local--files/the-fine-print/scan_amnesticization.png" style="display: block; border: solid 1px #666; box-shadow: 0 1px 6px rgba(0,0,0,.25); width: 640px; margin: 0 auto; max-width: 100%;" alt="scan_amnesticization.png" class="image">
+<p>(訳:<br></p>
+<div style="text-align: center;">
+<p>記憶処理の通知</p>
+</div>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;">
+<p>関係者各位:</p>
+<p>財団の標準的手続きとして、あなたは1カ月の試験奉仕に引き続き、21年10月31日に記憶処理を受ける予定です。しかしながら元財団従業員として、あなたには医療エラーと人命損失の可能性を最小化するために、割り当てられた医療人員と記憶処理前検討を実施する権利があります。以下を読み、考慮してください:</p>
+<p>もし以下にあてはまるなら、担当医師に通知してください:</p>
+<ul>
+<li>フィールドでの弱記憶処理剤エアロゾルの使用に対し、アレルギー反応歴がある</li>
+<li>心疾患の症状、あるいは家族歴がある</li>
+<li>貧血症の症状、あるいは家族歴がある</li>
+<li>慢性片頭痛の症状、あるいは家族歴がある</li>
+<li>記憶処理プロセスに対しネガティブに干渉する可能性があるとあなたが考える、あらゆる疾病、アレルギー、食物</li>
+</ul>
+<p>もし21年9月30日に誤って降格されたと考えるならば、担当医師を通じて書面による不服申し立てを提出してもかまいません。不服申し立ての提出は記憶処理手続きの免除にはならず、申し立ての潜在的な承認にもならないでしょう<sup class="footnoteref"><a id="footnoteref-1" href="javascript:;" class="footnoteref" onclick="WIKIDOT.page.utils.scrollToReference('footnote-1')">1</a></sup>。1度以上記憶処理手続きを受けた後の記憶喚起に関わる医学的複雑性のため、申し立ての提出は最初の手続きの前のみ可能であり、そのためこの通知の受理より24時間以内に完了せねばなりません。申し立ての提出を希望する場合はただちに行わねばなりません。</p>
+<p>姓 <span style="white-space: pre-wrap;">_______________ 名 __________________ 日付 _________</span></p>
+<p>識別番号 <span style="white-space: pre-wrap;">___________</span><br>
+署名: <span style="white-space: pre-wrap;">_________________________________</span></p>
+<div style="float:right; border: solid 2px black; width: 230px; padding: 1px 15px; margin: 10px 10px 10px 10px;">
+<p>回収情報</p>
+<p>文書は対象の記憶処理通知書類のスキャン。対象は署名を拒否した。</p>
+</div>
+<div style="clear: both;">
+<p>)</p>
+</div>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;"></div>
+[[/html]]
+
+新聞が貴方に信じさせるだろうことにもかかわらず、問題は財団が私を人間として扱わないことじゃない。彼らがそうしたことがあったかどうかはもちろん常に疑わしいが、この時点では外部の要因と、世間の注目という消耗させ、逃れられない影響が少なくとも努力させていた。いや、問題は財団が私を人間として扱わないことじゃない。問題は私がもはや自分を人間として見ていないことで、私自身の確信が彼らの使える一番有用な道具なのだ。
+
+でも実際問題はない。
+
+[[html]]
+<script type="text/javascript">
+
+function sakacol9(){
+
+    var sakasama9 = document.getElementById("sakasama9");
+    var message9 = document.getElementById("message9");
+
+    if (message9.style.display == "block")
+    {
+        message9.style.display = "none";
+        sakasama9.style.mstransform = "scaleY(1)";
+        sakasama9.style.moztransform = "scaleY(1)";
+        sakasama9.style.otransform = "scaleY(1)";
+        sakasama9.style.webkittransform = "scaleY(1)";
+        sakasama9.style.transform = "scaleY(1)";
+    }
+    else
+    {
+        message9.style.display = "block";
+        sakasama9.style.mstransform = "scaleY(-1)";
+        sakasama9.style.moztransform = "scaleY(-1)";
+        sakasama9.style.otransform = "scaleY(-1)";
+        sakasama9.style.webkittransform = "scaleY(-1)";
+        sakasama9.style.transform = "scaleY(-1)";
+    }
+}
+
+</script>
+
+<div id="sakasama9"><a style="font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #bb0011; text-decoration: none;" onClick="sakacol9();" href="javascript:;">私は組織の歯車の一つに過ぎない。</a></div>
+<div id="message9" style="display: none; font-family: verdana,arial,helvetica,sans-serif; font-size: 0.8em; color: #333333">
+<blockquote style="border: 1px dashed #999;padding: 0 1em;background-color: #f4f4f4;">
+<p><em>「一か月。追加だ」</em></p>
+<p>「何の……何、詳細は？」</p>
+<p><em>「残念ながら、仮に開示していいとしても個人的には詳細に詳しくない」</em></p>
+<p>「ど―どうやって間違いを分かれと？」</p>
+<p><em>「何の話だか私には分かりかねる。君が犯した誤りは完全に説明した」</em></p>
+<p>「……オーケー」</p>
+</blockquote>
+<hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;"><hr style="margin: 1em 2em;padding: 0;height: 1px;border: none;color: #DDD;background-color: #AAA;">
+<div style="text-align: center;">
+<p><sub><a href="/the-fine-print-ii" target="_parent" style="font-family: verdana,arial,helvetica,sans-serif; color: #bb0011; text-decoration: none;">continue ▶</a></sub></p>
+</div></div>
+
+[[/html]]

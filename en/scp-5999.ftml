@@ -1,0 +1,13 @@
+[[include :scp-jp:theme:black-highlighter-theme]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+[[module ListPages  category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+http://scp-jp.wikidot.com/fragment:shaggy5k-1
+http://scp-jp.wikidot.com/fragment:shaggy5k-2
+--]

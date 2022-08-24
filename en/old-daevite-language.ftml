@@ -1,0 +1,690 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+
+[[module css]]
+
+.langheader p {
+    line-height: initial;
+    width: 95%;
+    max-width: 100%;
+    position: relative;
+    display: block;
+    font-size: 1em;
+    font-family: Inter, sans-serif;
+    font-family: var(--title-font, Inter, sans-serif);
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** 古ダエーバイト語入門
+**元記事:** [[[http://www.scp-wiki.net/old-daevite-language|Old Daevite Language]]]
+**原著者:** ©︎[[*user LonLangLin]]
+**初訳者:** [[*user Mishary]]
+**作成年:** 2020
+[[include credit:end]]
+
+
+[[div class="langheader" style="
+    background-color: rgba(0,159,107,0.25);
+    border-left: solid .85rem rgb(0,159,107);
+    font-weight: 600;
+    padding: 0.5em;
+"]]
+LANGUAGE:
+[[size 270%]]古ダエーバイト語 [[/size]]
+------
+[[table style="width: 100%; font-size: 0.97em"]]
+[[row]]
+[[cell style="text-align: center;"]]第一言語話者人口: 0[[/cell]]
+[[cell style="text-align: center;"]]言語クラス: Denaskulo[[footnote]] 言語は全く異常でない。 [[/footnote]][[/cell]]
+
+[[cell style="text-align: center;"]]3文字コード: DAV[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+++ ダエーバイト語学に関するメモ
+ダエーバイト人によって話された言語の研究は、歴史言語学の領域において非常に特一的なものである。ダエーバイト文化の多くの側面は、その言語を含め、我々の知るどの文化とも完全に独立に発展してきたように思われる。そのため、古ダエーバイト語は全ての近隣言語と著しく異なり、言語学的に孤立[[footnote]] 他の言語との関連が立証されていない言語のこと。例: バスク語、シュメール語、エラム語など [[/footnote]]した言語に分類される。
+
+しかし、現代の言語学においては多くの歴史的に孤立した言語が知られ、研究されてきた。ダエーバイト語とその他の言語における最大の相違点は、言語が経時的にどのように変化してきたかという点である。ダエーバイト文化のその他の側面と同様に、ダエーバイト語はその長い歴史時代[[footnote]] 本文書の執筆時点で約3000年。[[/footnote]]において、変化・分岐が著しく少なかった。
+
+歴史的なダエーバイト語の碑文は一般に、やや恣意的に、以下の4言語に分類される。
+
+|| **古ダエーバイト語** || 我々が見ることのできる最初期のダエーバイト資料や、 _
+紀元前1000年ごろに近隣のサーキック国家が _
+破壊・併合されるまでの全ての碑文を含む。  ||
+|| **中ダエーバイト語** || 紀元前1000年から、紀元200年ごろにダエーバイトが崩壊するまでに _
+書かれた全てのダエーバイト資料を含む。 ||
+|| **後ダエーバイト語** || 紀元200年から、独立国家としてのダエーバイトが終了する _
+紀元1300年ごろまでの全ての碑文を含む。 ||
+|| **新ダエーバイト語** || ダエーバイトの独立が失われた後も残存した母語話者の集団により _
+作成されたダエーバイト資料を含む。 ||
+
+この文書は特に古ダエーバイト語の現代的な紹介を主目的として構成されており、そこには初期のサーキシズムや夏の異常な文化的集団について述べた記録が多く存在するのであるから、とりわけ財団にとって重要なものである。
+
+++ 音韻体系
+古ダエーバイト語は死語であるため、正確な発音は不明である。しかし、近隣言語へのダエーバイト語単語の翻字からの推測により、以下のような音素が理論から再構されている。
+
++++ 母音
+
+|| || **前舌** || **後舌** ||
+|| **狭** || i /i/ || u /u/ ||
+|| **中央** || e /e/ || o /o/ ||
+|| **広** || a /a/ || á /ɒ/ ||
+
+以下の二重母音[[footnote]] 母音から異なる母音へと滑らかに移動するもの [[/footnote]]の存在が証明されている:
+
+|| || **頭母音 a** || **頭母音 e** || **頭母音 i** ||
+|| **尾母音 u** || au /a͡u/ || eu /e͡u/ || ||
+|| **尾母音 o** || ao /a͡o/ || || io /i͡o/ ||
+|| **尾母音 á** || || eá /e͡ɒ/ || iá /i͡ɒ/ ||
+|| **尾母音 e** || ae /a͡e/ || || ||
+|| **尾母音 i** || ai /a͡i/ || || ||
+
++++ 子音
+
+|| || **唇音** || **歯茎音** || **後部歯茎音** || **軟口蓋音** || **咽頭音** ||
+|| **鼻音** || m /m/ |||| n /n/ || || ||
+|| **破裂音** || p /p/ b /b/ |||| t /t/ d /d/ || k /k/ g /g/ || ||
+|| **放出破裂音** || |||| ṭ /tʼ/ || ḳ /kʼ/ || ||
+|| **摩擦音** || f /ɸ/ || s /s/ z /z/ || š /ʃ/ || x /x/ || h /ħ/ ||
+|| **接近音** || v /ʋ/ |||| r /ɹ/ || || ||
+|| **側面音** || |||| l /l/ || || ||
+
++++ 音素配列音
+
+古ダエーバイト語では、以下のような音素配列法則が適用される。
+* 音節の最小単位はCVCCである。
+* 長子音[[footnote]] 子音を通常よりも長く発音すること。古ダエーバイト語においては、およそ二倍の長さになる。 [[/footnote]]は鼻音と破裂音に限定される。
+* 放出音は子音連結に用いることができない。子音連結が放出音を伴う場合、その子音は削除される。
+* 語末の無声放出破裂音は帯気音となる。
+
+++ 文法
+
++++ 文法的性
+
+シベリアの言語としては極めて稀なことであるが、古ダエーバイト語は完全な文法的性（もしくは名詞クラス）のシステムを有していた。このシステムは動詞の活用のみならず、複数形にも作用するものであった。複数の性が含まれる集団を指す場合に、集団全体に対して用いられる性を決定する為に、性の階級が存在した。その集団中に含まれる「最も高位」の性が常に用いられていた。ダエーバイトにおける性は以下の通りである。階級の高いものから低いものへ順に示している。
+
+|| **主導 / 広母音型** || **概念 / 末尾子音型** || **生物 / A型** || **無生物 / B型** ||
+|| 主に支配者、指導者、物質世界における原動力に対して用いられるが、文の主語となるその他の名詞に使用される場合もある。これらの名詞は通常、絶対ではないが、最後の音節内に広母音（á または a）を含む。 || 思想、宗教概念、数字、その他物理的に作用することのできないものに対して用いられる。これらの名詞の多くが、鼻音または破裂音で終わる。 || 人間、動物、植物など、ある程度生きているといえる対象物に対して用いられる。これらの名詞は、その他の性との区別を可能にする統一的特徴をほとんど持たない。 || 岩、道具、多様な物質など、生命のない対象物に対して用いられる。これらの名詞は、その他の性との区別を可能にする統一的特徴をほとんど持たない。 ||
+|| 例: _
+Potniá "奴隷所有者" _
+Urdal "王" || 例: _
+Tivik "1" _
+Heug "霊魂" || 例: _
+Leux "子" _
+Hiz "木" || 例: _
+Hiázai "舌"[[footnote]] ダエーバイト人が自らの言語を指すのに用いた単語、Hiázaifeut（「我らの舌」の意）の語根。 [[/footnote]] _
+Šeg "岩" ||
+
++++ 名詞と形容詞の屈折
+
+古ダエーバイト語は3つの文法的数を持った。単数形、複数形、及び興味深いことに、この地域のその他言語では見られない空数形もしくは「ゼロ」数形である。以下に例を挙げる。
+
+|| **単数形** || **複数形** || **空数形** ||
+|| Ḳast || Ḳastau || Mazḳast ||
+|| "1個の果物" || "多くの果物" || "ない果物" ||
+
+単数形は常に無標である。しかし、複数形及び空数形の名詞は有標であり、これを修飾する形容詞と共に、数や性を示す接尾辞が付属する。これらの屈折は以下の通りである。
+
+|| || **主導** || **概念** || **生物** || **無生物** ||
+|| 単数 || || || || ||
+|| 複数 || -(t)[[footnote]] この t は母音の後にのみ挿入される接尾辞である。 [[/footnote]]a || -(t)in || -(t)en || (t)au ||
+|| 空数 |||||||||| maz- ||
+
+所有も同様に、被所有物に標識され所有者の性や人称によって変化する、完全に分離された接尾辞の集合によって示される。複数形の名詞が被所有物の場合は、この接尾辞は複数形の接尾辞に付く。
+
+|| || 一人称 || 二人称 || 三人称 ||
+|| 単数 || -fai || -lok || -sae ||
+|| 複数 || -feut || -láket || -saed ||
+|| 空数 |||||| -šu ||
+
+加えて、単純な形容詞化接頭辞である á- が存在し、これは名詞を形容詞に変換するのに用いられた。形容詞化された名詞をが自身を修飾する形容詞を持っていた場合には、その形容詞にもこの接頭辞が付けられる。以下に例を挙げる。
+
+|| **名詞** || **形容詞** ||
+|| Kaes "山" || Ákaes "山の" ||
+|| Disat "3" || Ádisat "3番目" ||
+
++++ 指小辞
+
+ほとんど立証されていないが、古ダエーバイト語には指小化のシステムが存在した。少ない出現例によれば、語根の最終母音及び最終子音を反復することによって表現されていたと見られている。この指小形は、軽蔑表現（"urdalal"（小王）、不明な外国の統治者を嘲る用法）、あるいは親愛表現（"xaofaof"（小さな花）、母親から娘への愛称としての用法）として用いられていたようである。
+
++++ 破裂音変異
+
+古ダエーバイト語は破裂音変異と呼ばれる独自のシステムを有しており、これは発話者と聞き手相対的な社会的地位に拠るものである。このシステムは単純な異音ではなく、むしろこの言語の中核的・文法的な要素であるとみるべきであり、これはこの変異がダエーバイトの表記体系にも反映していることも根拠となる。
+
+ダエーバイト語の破裂音変異は、聞き手の社会的地位が著しく高いか低い時、全破裂音の対応音素組への交替を伴う。これら2つの組は各々高使用域及び低使用域と呼称され、中立的な基本使用域と対比される。
+
+|| **基本使用域** || **高使用域** || **低使用域** ||
+|| b || p || b ||
+|| d || t || d ||
+|| g || k || g ||
+|| p || p || b ||
+|| t || ṭ || d ||
+|| k || ḳ || g ||
+|| ṭ || ṭ || t ||
+|| ḳ || ḳ || k ||
+
+一例として、「王は扉を閉めた」という文は次のようになる。
+
+> Hios satoku urdal
+
+これが高使用域では次のようになるとみられる。
+
+> Hios saṭoḳu urtal
+
+また低使用域では次のようになるとみられる。
+
+> Hios sadogu urdal
+
++++ 動詞の活用
+
+古ダエーバイト語における動詞の活用はやや複雑で、数、時制、人称、性に応じてそれぞれの動詞が50の異なる形態を有していた。
+
+古ダエーバイト語における2つの時制は未来と非未来である。非未来は無標であり、未来は生物、概念、主導の場合は接尾辞 -ge で標識された。無生物では、これは -ke となる。
+
+空数形はどちらの時制においても有標であり、接頭辞 maz- で標識された。この数においては、人称及び性は示されない。
+
+動詞の人称は動詞に付属した接頭辞の最初の子音により示される。一人称ではこの子音は t であり、二人称と三人称ではそれぞれ x と s である。
+
+この接頭辞の母音はその動詞の人称と数の双方によって判断される。一人称と二人称では、母音が i のとき単数形であり u のとき複数形である。三人称では、母音が a のとき単数形であり á のとき複数形である。
+
+最後に、性はいくつかの異なる方法で示される。生物においては、一人称単数形では接頭辞を付けず、それ以外の活用においては無標の接頭辞を付けた。無生物においては、無標の接頭辞が加えられ、可能であれば動詞語幹の最初の子音が重複される。
+
+概念においては、 r が接尾辞の末尾に加えられる。主導性の動詞では、接頭辞には無標であり、動詞語幹の最初の母音が交替して広母音的になる。a と á は完全な広母音であるため、二重母音と同じくこの影響を受けない。
+
+|| **語幹の母音** || **交替** ||
+|| i || e ||
+|| u || o ||
+|| e || a ||
+|| o || á ||
+|| a || a ||
+|| á || á ||
+
+
+
+[[collapsible show="完全な動詞活用表を閲覧する" hide="閉じる"]]
+
+[[table style="border-collapse:collapse;"]]
+[[row]]
+[[hcell style="border: 1px solid gray" colspan="3"]]
+
+[[/hcell]]
+[[hcell style="border: 1px solid gray"]]
+主導
+[[/hcell]]
+[[hcell style="border: 1px solid gray" ]]
+概念
+[[/hcell]]
+[[hcell style="border: 1px solid gray" ]]
+生物
+[[/hcell]]
+[[hcell style="border: 1px solid gray" ]]
+無生物
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell style="border: 1px solid gray" rowspan="6"]]
+単数形
+[[/hcell]]
+[[hcell style="border: 1px solid gray" rowspan="3"]]
+未来
+[[/hcell]]
+[[hcell style="border: 1px solid gray"]]
+一人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+ti-[mutation]-ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+tir- -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+ -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+tiC- -ke
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="border: 1px solid gray"]]
+二人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+xi-[mutation]-ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xir- -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xi- -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xiC- -ke
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="border: 1px solid gray"]]
+三人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+sa-[mutation]-ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+sar- -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+sa- -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+saC- -ke
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell style="border: 1px solid gray" rowspan="3"]]
+非未来
+[[/hcell]]
+[[hcell style="border: 1px solid gray"]]
+一人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+ti-[mutation]
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+tir-
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+[unmarked]
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+tiC-
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="border: 1px solid gray"]]
+二人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+xi-[mutation]
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xir-
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xi-
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xiC-
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="border: 1px solid gray"]]
+三人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+sa-[mutation]
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+sar-
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+sa-
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+saC-
+[[/cell]]
+[[/row]]
+
+
+
+
+[[row]]
+[[hcell style="border: 1px solid gray" rowspan="6"]]
+複数形
+[[/hcell]]
+[[hcell style="border: 1px solid gray" rowspan="3"]]
+未来
+[[/hcell]]
+[[hcell style="border: 1px solid gray"]]
+一人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+tu-[mutation]-ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+tur- -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+tu- -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+tuC- -ke
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="border: 1px solid gray"]]
+二人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+xu-[mutation]-ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xur- -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xu- -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xuC- -ke
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="border: 1px solid gray"]]
+三人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+so-[mutation]-ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+sor- -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+so- -ge
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+soC- -ke
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell style="border: 1px solid gray" rowspan="3"]]
+非未来
+[[/hcell]]
+[[hcell style="border: 1px solid gray"]]
+一人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+tu-[mutation]
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+tur-
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+tuC-
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="border: 1px solid gray"]]
+二人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+xu-[mutation]
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xur-
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xu-
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+xuC-
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="border: 1px solid gray"]]
+三人称
+[[/hcell]]
+[[cell style="border: 1px solid gray"]]
+sá-[mutation]
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+sár-
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+sá-
+[[/cell]]
+[[cell style="border: 1px solid gray"]]
+sáC-
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="border: 1px solid gray" rowspan="2"]]
+空数形
+[[/hcell]]
+[[hcell style="border: 1px solid gray" colspan="2"]]
+未来
+[[/hcell]]
+[[cell style="border: 1px solid gray" colspan="4"]]
+maz- -ge
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="border: 1px solid gray" colspan="2"]]
+非未来
+[[/hcell]]
+[[cell style="border: 1px solid gray" colspan="4"]]
+maz-
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/collapsible]]
+
+解説のため、「食べる」を意味する動詞 nuxe の活用とその翻訳を幾つか以下に示す。
+
+|| Nuxe || 「彼女/彼は食べた」または「彼女/彼は食べている」 ||
+|| Nuxege || 「彼女/彼は食べる（未来）」 ||
+|| Tinnuxeke || 「それは食べる（未来）」 ||
+|| Maznuxe || 「誰でもないものは食べた」または「誰でもないものは食べている」 ||
+|| Maznuxege || 「誰もないものは食べる（未来）」 ||
+
++++ 統語論
+
+古ダエーバイト語の文及び動詞句の一般的な語順はOVS（目的語 動詞 主語）である。形容詞は常に修飾する名詞に前置される。名詞の格の類が全く存在しないためこの語順は非常に硬直なものであって、これを逸脱する例はまれであり、より社会的地位の低い階級の作る文ほど短くなる傾向にある。
+
+特筆すべき点として、主導性に属する名詞について話す際、その行為主体性を保つためにこれを主語以外の位置に置くことは礼儀に反するものであるとされた。これは、ダエーバイト人たちが、賞賛の対象である主導性の人物や力とそうではないそれらとを、各々どのように記述するのかを映し出している。
+
+古ダエーバイト語は一切のコピュラ[[footnote]] 英語における"to be"動詞。
+訳注: 日本語における「～は～だ」などに相当。 [[/footnote]]を完全に欠いている。二つの名詞が等価であることを述べるには、単に文の目的語と主語を並列する。これは時制の記述に欠くため、時間の経過に伴う関係の変化については、新たな文で補足する必要がある。
+
+古ダエーバイト語では後置詞が用いられた。接置詞句は一般に、形容詞と同様主語に前置される。
+
+++ 語彙
+
++++ 発音
+
+|| || **主導** || **概念** || **生物** || **無生物** ||
+|| 一人称単数 || tai || nau || tau || ||
+|| 二人称単数 || ṭaḳá || namḳa || tuza || ||
+|| 三人称単数 || tintau || naxiá || taniá || surau ||
+|| 一人称複数 || taiai || xunau || xutá || ||
+|| 二人称複数 || ḳuṭa || xunma || xuxe || ||
+|| 三人称複数 || tixtiá || naxau || taosa || suxrau ||
+|| 空数 |||||||| mazšu ||
+
+空数代名詞は主に話者の認識していない名詞を示すのに用いられた。これは質問をする場合に有用であるが、代名詞の限定的な性質により、古ダエーバイト語の質問には名詞でのみ回答可能であり、質問は常にその制限に適する言い回しでなされてきた。以下はその例である。
+
+> Mazšu xinuxe tuza?
+
+> あなたは何を食べたか？[[footnote]] 直訳すると「あなたは何でもないものを食べたか？」 [[/footnote]]
+
+指示代名詞[[footnote]] 英語における"that"、"this"、"those"など。
+訳注: 日本語における「これ」「あれら」など [[/footnote]] は指示接尾辞 -ne を既存の代名詞の語末に付けることで示される。
+
++++ 名詞
+
+|| Ṭao || A Human Sacrifice || 人柱、（人間の）生贄 ||
+|| Giáh || A Human || 人 ||
+|| Raex || A Religious Sacrifice || 宗教的生贄 ||
+|| Teá || Beast, Predatory Animal || 獣、肉食動物 ||
+|| Reg || Bird || 鳥 ||
+|| Mašai || blood || 血 ||
+|| Kae || Body || 体 ||
+|| Adv || Book || 本 ||
+|| Xiábbeá || Border ||　境界 ||
+|| Peuv || Bronze || 青銅 ||
+|| Laohor || Cause, Fact, Reason || 原因、事実、理由 ||
+|| Leux || Child || 子 ||
+|| Neuh || Citizen || 市民 ||
+|| Pádn || City || 都市 ||
+|| Daev || A Daeva || ダエーワ ||
+|| Hezhum || Desolation, Destruction || 荒廃、破壊 ||
+|| Vaduk || Dominion, Sovereignty || 支配権、統治権 ||
+|| Hios || Door || 扉 ||
+|| Aiktue || Large State, Empire || 大国、帝国[[footnote]] ダエーバイト分裂期に存在した多数の都市国家のような、小規模で分権的な国家と対称的に用いられる。必ずしも現代的な意味において帝国と見なされるような国家を全て指すような語ではない。 [[/footnote]] ||
+|| Xaehn || End || 終わり ||
+|| Dauhk || Fire || 炎 ||
+|| Xaof || Flower || 花 ||
+|| Ḳast || Fruit || 果実 ||
+|| Peá || God, Deity || 神、神格 ||
+|| Zeu || Grass || 草 ||
+|| Ṭaulo || Grave || 墓 ||
+|| Teán || Head || 頭 ||
+|| Taef || Heart || 心臓 ||
+|| Vaon || Home || 家 ||
+|| Kiáth || Horse || 馬 ||
+|| Urdal || King, Monarch || 王、君主 ||
+|| Ner || Lack || 欠如 ||
+|| Maopt || Leaf || 葉 ||
+|| Fiáb || Life || 生命 ||
+|| Kifenn || Longing || 思慕 ||
+|| Kaes || Mountain || 山 ||
+|| Saro ||  Moon || 月 ||
+|| Tivik || One || 1 ||
+|| Aidr || Palace || 宮殿 ||
+|| Aok || Place || 場所 ||
+|| Kao || River || 川 ||
+|| Baox || Road || 道 ||
+|| Iohk || Road || 道 ||
+|| Nelk || Sarkite || サーカイト ||
+|| Ḳun  || Slave || 奴隷 ||
+|| Deág || Soldier || 兵士 ||
+|| Heug || Spirit, Lesser Deity || 霊魂、下級神 ||
+|| Geát || Stone || 石 ||
+|| Daošre || Thief, Intruder || 盗賊、侵入者 ||
+|| Hiázai || Tongue || 舌 ||
+|| Hisp || Tree || 3 ||
+|| Tiálḳ || War || 戦 ||
+|| Ṭeukm || Weapon || 兵器 ||
+|| Aint || Wound || 傷 ||
+|| Ba || Wrath || 怒り ||
+
++++ Verbs
+
+|| Tiḳá || To Battle || 戦う ||
+|| Tema || To Be Able to ||　できる ||
+|| Paba || To Be Wroth || 怒る ||
+|| Pove || To Call, to Term || 呼ぶ、名付ける ||
+|| Toku || To Close || 閉ざす ||
+|| Dáṭe || To Command || 令す ||
+|| Mauš || To Cover In Blood || 血で覆う ||
+|| Hele || To Cool || 冷やす ||
+|| Tuṭá || To Cut || 断つ ||
+|| Hezu || To Destroy || 破壊する ||
+|| Musu || To Die || 死ぬ ||
+|| Tiha || To Do || する ||
+|| Nuxe || To Eat || 食べる ||
+|| Ḳofá || To Enslave || 奴隷にする ||
+|| Pone || To Know || 知る ||
+|| Duhau || To Light On Fire || 火を点ける ||
+|| Xáṭe || To March (an armed force) || （軍隊を）行進させる ||
+|| Giho || To Force, to Make (a Thing Do Something) || 強いる、（誰かに何かを）させる ||
+|| Ḳefe || To Place || 置く ||
+|| Naḳa || To Rule || 統治する ||
+|| Ganu || To Set, to Mark || 示す ||
+|| Raxka || To Sacrifice || 生贄にする ||
+|| Gusá || To Send || 送る ||
+|| Hizá || To Speak ||　話す ||
+|| Ṭofi || To Stab, to Strike || 突く、打つ ||
+
++++ 形容詞
+
+|| Iárx || Black || 黒い ||
+|| Tairx || Blue || 青い ||
+|| Liomao || Far || 遠い ||
+|| Murx || Green || 緑の ||
+|| Beulae || Old, Ancient || 古い ||
+|| Ḳuešae || Real, True || 本当の、真の ||
+|| Vihe || Shining || 明るい ||
+|| Aifš || High, Great || 高い、偉大な ||
+|| Baih || Weak || 弱い ||
+|| Taiš || White || 白い ||
+
++++ 機能語
+
+|| Ṭá || In, At || ～で ||
+|| Mašeza || But, However || が、しかしながら ||
+|| Iob || More|| より ||
+|| Šue || Most || 最も ||
+|| Meš || No, None, Not || ない、でない ||
+|| Eá || Towards || ～に対して ||
+|| Maixe || Here || ここ ||
+|| Kut || With || ～と ||
+
+++ 表記体系
+
+古ダエーバイト語の筆記体系はアブギダ[[footnote]] 子音と母音が一体となった形で記述される表記体系で、母音は補助的に表記される。例: エチオピア文字、ブラーフミー文字 [[/footnote]]であり、上から下に、左から右に記述される。これは元来この文字が樹木への記述という形で発展してきたことによるが、その有機的性質から今日の研究下では木刻の銘文はほとんど見られない。
+
++++ 子音表記
+
+子音は各単語内で下向きの線によって記される。単語同士は分割記号によって区別される。
+
+|| 分割記号 || [[image WordSeparator.png]] ||
+
+以下に既知の異なる子音字とそのローマ字表記の対応表を示す。
+
+[[=image ConsonantTable.png]]
+
++++ 母音表記
+
+母音は、その広さの度合いにより区分される3種類の異なる記号により示され、これは母音の前後によって子音列の左右いずれかに配置される。この特徴的な表記体系によって、古ダエーバイト語の6基礎母音を容易に示すことが可能である。
+
+[[=image VowelTable.png]]
+
+母音で始まる単語の場合、母音記号はその直前の単語の分割記号に付けられる。
+
+最後に、二重母音を表記するには、2つの母音記号を図像的に結合する。2記号が子音列のどちらか一方に存在する場合は大きな変更を加える事なく表記可能である。一方2記号が反対側に存在する場合、その中間に水平の接続線が引かれる。
+
+後続する子音が音節の末尾子音である場合には、第二母音記号は通常頭子音の母音が表記される位置に示される。後続の子音が異なる音節の頭子音である場合には、子音を押し下げる。
+
+++ 命数法・記数法
+ダエーバイトの素数、とりわけ7に対する崇敬の念は、その言語に置ける数体系にも表れている。本分野の研究者の大多数は、本稿で示しているシステムは帝国内で主流であったものではない、との見解を示している[[footnote]] 非現実的なほど複雑であることや、下層階級の作品に基礎的な命数上の誤りが散見され、これらの作品の書き手がこのシステムに十分習熟していなかったと見られることが根拠となっている [[/footnote]]。しかし文語や上層階級に於いてはこの数体系が用いられていたようであり、これが唯一現存する古ダエーバイト語の数体系である。
+
+古ダエーバイト語の記数法では、1を除く全ての自然数を記述することができ、素因数分解[[footnote]] 任意の複合数を一意の素数の積として記述することができる処理。 [[/footnote]]を基としている。これから、ダエーバイト人が算術の基本定理の既知の最古の発見者であり、エウクレイデスの『原論』に1300年以上先行していたことが分かる。
+
+素数は無限に存在するため、古ダエーバイト語にはある素数の素数群内に於ける位置を記述する為のサブシステムが存在した。このサブシステムは7進法[[footnote]] 7を底とする。 [[/footnote]]であるが、4と6はそれ専用のダエーバイト数字ではなくそれぞれの素因数を用いて表され、また最後の数字は7進法の数字ではなく常にダエーバイト数字である。一般的な古ダエーバイト語の数体系に於いては、最初の7素数を現す7つのダエーバイト数字が用いられ、その他の素数については7進法のサブシステムを用いて表されていた。最初の7素数以外の素数は、ダエーバイト文字に一般的な縦書きではなく、左横書きを用いることで区別された。
+
+ダエーバイト語では1は数と見なされていなかったようである。1を意味する単語は存在したが、1に対応するダエーバイト数字は存在しなかった。現存するダエーバイト語の数字運用において1が用いられている稀少な例では、該当語は数字を表すというよりも寧ろ一般的な文字を記述するのと同じようにして綴られている。
+
+ダエーバイト数字の一覧は以下の通り。
+
+[[=image DaeviteNumerals.png]]
+
+以下はこの記数法によって記述された数字の実例である。注記として、数は素因数の積によって表されるためダエーバイト数字の表記順に制限はない[[footnote]] しかしながら、素因数の大きさの順に上から下へ記述するという傾向が一般にみられた。 [[/footnote]]。 素数を7進法のサブシステムを用いて表記する部分に於いてのみ、順序が重要となる。
+
+|| **数字（アラビア数字）** || **数字（ダエーバイト数字）** || **ダエーバイト語発音** || **逐語訳** ||
+|| 55 || [[=image 55.png]] || Lok kafšan kut || 5に11 ||
+|| 141 || [[=image 141.png]] || Tu átu mán kut || 3に3番目の2 ||
+|| 9032 || [[=image 9032.png]] || Mán mán kut mán kut átu tu kut tu kut xafak kut || 2に2に2に、3に3に3番目の17 ||
+
+++ 例文
+
+ダエーバイト文明崩壊期のダエーワン（Daevon）の将軍と考えられる、ドゥータエン（Duvtaen）の慰霊碑から発見されたテキスト。
+
+[[collapsible show="原文を閲覧する" hide="隠す"]]
+[[=image DaeviteInscription.png]]
+[[/collapsible]]
+
+> Ádaevavaon deág tai. Ṭeukmsae tai. Duvtaen tai. Ápádnfeut leux xipove tai.
+>
+> Tiálḳ eá tai sagosá pádnfeut. Teátenen tihazu[[footnote]] 動詞が一人称であるため、この文では一人称代名詞が脱落している。これは古ダエーバイトの文中で時折みられる特徴である。 [[/footnote]]. Komitenen tiḳáfá.
+>
+> Tiálḳ ṭá timosu tai. Maixe ṭaulofai sákefe deágenfai. Daošre saṭáfige ápádnfeut ba.
+
+> 吾はダエーワンの兵。吾は武具。吾はドゥータエン。吾は（汝によって）邑の子と名づく。
+>
+> 吾が邑吾を戦へ送れり。吾多く[[footnote]] ここでの「多く」は複数形接尾辞が重複していることによるが、恐らく実際にも類似の意味を持ったと推測される。 [[/footnote]] の獣を滅せり。 吾多くのコミ人[[footnote]] Komis。アディタイト人のこととみられる。 [[/footnote]]を奴隷とせり。
+>
+> 吾戦に死す。吾が兵吾を此処に葬れり。吾が邑の怒り一切の侵略者を襲わん。

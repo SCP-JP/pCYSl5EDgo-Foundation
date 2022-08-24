@@ -1,0 +1,80 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+**アイテム番号:** SCP-1921-J
+
+**オブジェクトクラス:** やるべきことがたくさん
+
+**特別収容プロトコル:** SCP-1921-Jは一日に二回コンセントを抜き差しすることとなっています。職員はリーマン・ジュニア研究員の問題に役立ち、協力的であることが奨励されます。--優しくして-- リーマン・ジュニア研究員を笑い者にすることはSCP-1921-Jの異常効果を更に悪化させるように思われます。
+
+**説明:** SCP-1921-Jはリーマン・ジュニア研究員が所有しているMotorola MG7540ワイヤレスルーター/モデム兼用モデルを指します。SCP-1921-Jはリーマン研究員のオフィスのインターネット接続全体を網羅しているように見えますが、これは私が月に70ドルを払っているからであり、馬鹿げています。SCP-1921-Jはリーマン・ジュニア研究員を嫌い、彼らの生活を著しく困難にしていることが知られています。
+
+SCP-1921-Jに親切にすることでその影響を軽減することができるとの仮説が立てられましたが、それは彼の憎悪の深さを知る以前のことでした。SCP-1921-Jの影響によりリーマン・ジュニア研究員は現在非常に暑い時期であるにもかかわらず何度も外出を余儀なくされています。
+
+その異常な性質は点滅しているすべてのライトがまだ点灯しているにもかかわらずサイト-17VPNからの切断が繰り返された後に発見されました。リーマン・ジュニア研究員の報告によると、それ以外がすべて順調に機能しているが時折不調を
+
+[[html]]
+<head>
+
+<style>
+@import url(http://d3g0gp89917ko0.cloudfront.net/v--edac79f846ba/common--theme/base/css/style.css);
+@import url(http://www.scp-wiki.net/component:theme/code/1);
+
+.box {
+  background: white; border: 2px solid #bbb; width: 200px; min-width: 50vw; display: inline-block; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);
+}
+
+.box-interior {
+  margin: 10px; padding: 0 50px; background-position: bottom center; background-repeat: no-repeat;
+}
+</style>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+$(document).ready(() => {
+  $('#buttons').show()
+  $('#saving').hide()
+  $('#fuck').hide()
+
+  $('#cancel').on('click', () => {
+    $('#buttons').hide()
+    $('#saving').hide()
+    $('#fuck').show()
+  })
+
+  $('#retry').on('click', () => {
+    $('#buttons').hide()
+    $('#saving').show()
+    $('#fuck').hide()
+    setTimeout(() => {
+      $('#buttons').show()
+      $('#saving').hide()
+      $('#fuck').hide()
+    }, 3000)
+  })
+})
+</script>
+
+</head>
+<body>
+
+<div style="background: #222b; height: 300px; position: relative;">
+  <div class="box">
+    <div class="box-interior" id="buttons">
+      <p style="text-align: center">接続が失われました。</p>
+      <p style="text-align: center"> <button id="cancel">キャンセル</button>
+      <button id="retry">再試行</button></p>
+    </div>
+    <div class="box-interior" id="saving" style="background-image: url(https://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--theme/base/images/progress/progressbar.gif); padding-bottom: 10px;">
+      <p style="text-align: center">再接続中...</p>
+    </div>
+    <div class="box-interior" id="fuck">
+      <p style="font-size: 2em; text-align: center">ファック</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+[[/html]]

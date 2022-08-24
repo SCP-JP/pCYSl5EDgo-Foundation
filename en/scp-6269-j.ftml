@@ -1,0 +1,302 @@
+[[include :scp-jp:theme:basalt darkmode=a|hidetitle=a]]
+
+[[module css]]
+body {
+    background-color: var(--accentColor);
+    background-image: url("http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-90-ow9v/Sky1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: luminosity;
+}
+
+body:before {
+  content: ' ';
+  position: fixed;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(165deg, transparent, #000000 60%, #000000 60%, #000000 120%);
+  z-index: -1;
+}
+
+.table2 {
+    --accentColor: rgb(105,155,196);
+}
+
+.bigtext {
+color: #699bc4;
+}
+
+@media (max-width: 1290px) {
+    body {
+        background-size: 100% 66%;
+    }
+}
+
+#extra-div-1 {
+background: linear-gradient( 180deg, rgb(0, 0, 0) 0%, var(--accentColor)100%);
+box-shadow: 0px 0px 8px 4px rgb(0 0 0);
+}
+
+:root {
+    --logo: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-85-g1c0/Hlogo4.png);
+    --title: "収得:";
+    --subtitle: "MCM部門";
+    --accentColor: hsl(207,43.5%,59%);
+    --fnColor: #699bc4;
+    --four-color: 194, 85, 0 !important;
+}
+
+.list-pages-item > hr,
+#page-content > hr {
+background: transparent;
+border-top: double 3px var(--accentColor);
+filter: brightness(170%);
+}
+
+.custom2 .wiki-content-table {
+    width: 100%;
+}
+
+#page-content tr th {
+    text-align: center;
+}
+
+.custom2 tr td {
+    padding: 10px !important;
+}
+
+.fnnum::after {
+    color: #699bc4 !important;
+}
+ 
+.fnnum:hover::after {
+    color: white !important;
+}
+ 
+.fncon {
+    background: rgb(25, 25, 25) !important;
+    color: #EDEDED;
+    border: 0.15rem solid rgb(20, 20, 20);
+    border-radius: 2px;
+    font-size: 90%;
+}
+
+::selection {
+    background-color: rgba(227, 106, 0, 0.7);
+    color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accentColor);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--four-color));
+}
+
+.overwatch_memo>p:nth-child(1)::before {
+    content: "収得部門より通達\00000a";
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    font-size: 130%;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.55rem;
+    border-bottom: dotted 0.13rem darkslategrey;
+    max-width: 49rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+@@ @@
+[[div class="darkdocument"]]
+[[=]]
++ ##699bc4|SCP-6269-J -- 開発提言##
++++ コードネーム: キングフィッシャー
+-----
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-85-g1c0/Hlogo4.png width="100px"]]
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-107-2olp/BlueFish2.jpg]]
+-----
+[[/=]]
+[[div class="jotting"]]
+[[=]]
+栄養のある食糧を十分な数収得することは、その発想以来我らが組織を — 実際的にも道徳的にも — 悩ませています。
+
+我々の職員に研究活動の安全を確保し、異常な脅威を収容し、人類を保護することのできる能力のある食糧源を求めるため、我々は非倫理的かつ持続不可能な農業活動を受け入れてしまっています -- そして食事におけるオメガ3脂肪酸やビタミンD・B2といったビタミンの顕著な不足をもたらしています。
+
+他に選択肢はなかったがため、我々はこうしてきました。
+
+これはもはや問題ではありません。今日から、我らが財団はもう純真無垢な魂に加工済みの、人工的な、高果糖な食糧を暗闇の中で与えはしません — この者たちのフードピラミッドは光の中でバランスをとり続けることでしょう。
+
+我々には新たな手段があります。
+ 
+それはとても持続可能なものです。
+[[/=]]
+-----
+[[>]]
+グレッグ・アルブサーンスター、
+サイト-184-プライム。
+[[/>]]
+[[/div]]
+-----
+[[/div]]
+-----
+[[div class="darkdocument"]]
+[[=]]
++ ##699bc4|SCP-6269-J -- 開発提言##
++++ 概略
+-----
+[[/=]]
+
+[[include :scp-jp:component:anomaly-class-bar-source
+|item-number= SCP-6269
+|clearance= 4
+|container-class= esoteric
+|secondary-class= sustainable
+|secondary-icon= http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-111-i839/R%2CR%2CR.png
+|disruption-class= vlam
+|risk-class= caution
+]]
+
+[[include :scp-jp:component:acs-peppo-split
+|object= thaumiel
+|object-image= https://scp-jp.wdfiles.com/local--files/component%3Aanomaly-class-bar/thaumiel-icon.svg
+|object-color= two-color
+|esoteric-color= esoteric
+]]
+-----
+[[div class="table2"]]
+[[include component:image-block
+name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-108-d0ix/Claw-Fishing-JP.png
+|caption=SCP-6269。提案されているSCP-6269-J付加物を特徴としている。
+|width=350px
+|align=right]]
+[[/div]]
+++ [[span class="bigtext"]]__提案されている収容プロトコル -- 利用:__ [[/span]]
+確実に訓練を受けた釣り師が適切に使用するため、SCP-6269-Jは以下のものに定められている規則・規定にしたがってのみ運用可能です。
+* ジョン・モアウッド著『The Magic of Fishing』、
+* ヘンリー・ギルビー著『The Complete Fishing Manual』、
+* ジェレミー・ウェイド著『How to Think Like a Fish: And Other Lessons from a Lifetime in Angling』、
+* シェリー・ウォルチャク著『52 Rivers: A Woman's Fly-fishing Journey』
+* アーネスト・ヘミングウェイ著『老人と海』。
+加えて、SCP-6269-Jと[http://scp-jp.wikidot.com/scp-6269 SCP-6269]の関係のため、全ての釣り師は『多元宇宙クレーン機部門: 倫理的収得訓練マニュアル##lightgray|（Department of the Multiversal Claw Machine: Ethical Acquisitions Training Manual）##』、略して「DotMCM:EATM」に精通していなければなりません。
+
+前述のテキストに書かれている、経験に基づいた人生や魚釣りの助言を順守していないことが発覚したSCP-6269配属職員は、その違反の重大性に基づき、[*http://scp-jp.wikidot.com/the-fishing-council 釣魚評議会]からの解雇、釣りのライセンスの停止、および/または釣り竿の運用権限の一時的な喪失の対象となる場合があります。
+-----
+++ [[span class="bigtext"]]__説明:__ [[/span]]
+SCP-6269-Jは[*http://scp-jp.wikidot.com/scp-6269 SCP-6269]、「多元宇宙クレーン機」の提案されている技術的改造です。SCP-6269は、財団が開発したコイン投入式の固有機械であり、非-プライム宇宙からのDクラス職員の倫理的な収得に利用されています。
+
+複数の部品を付加することで、SCP-6269-JによりSCP-6269はFクラス職員[[span class="fnnum"]].[[/span]][[span class="fncon"]]Fクラス職員は、SCP財団が収得する、手指のない水棲動物、有頭動物、エラを持つ動物を指す指定名称の案です。[[/span]]の持続可能な収得に特化することが可能です。これらの提案されている付加物には以下のものが含まれます。
+* **SCP-6269-J-BAIT:** 培養生合成有機体の集合で、多岐にわたるエサおよび釣り道具をその生理学的構造内で再現します。-BAIT実例は、対象とするFクラスの収得においてその個体の好みに応じてフラッシュプリントされることが可能です。
+* **SCP-6269-J-REEL:** [情報災害削除済。SCP-REELは存在しません]
+* **SCP-6269-J-BUCKET:** 1500万ガロンの淡水/海水可変水槽。-BUCKETはFクラス職員を収得後に維持するため利用されます。
+
+[[div class="table2"]]
+[[include component:image-block
+name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-109-r5af/Tank.jpg
+|caption= 視覚化した-BUCKET観賞ポータル。提案されている構造はこれより[[span class="kt"]]圧倒的に[[/span]]大きい。
+|width=100%
+|align=center]]
+[[/div]]
+[[/div]]
+-----
+[[div class="darkdocument"]]
+[[=]]
++ ##699bc4|SCP-6269-J -- 開発提言##
++++ 補足資料
+-----
+[[/=]]
+@@ @@
+[[div class="table2"]]
+[[include component:image-block
+name=http://scp-jp-storage.wdfiles.com/local--files/file%3A6370408-110-2ymd/FishGraph-JP.png
+|caption=地球-プライムと非-プライム地球における魚類の量の比較。
+|width=350px
+|align=left]]
+[[/div]]
+
+++ [[span class="bigtext"]]__持続可能性:__ [[/span]]
+Dクラス職員の収得にSCP-6269を使用することで、我々の組織は運営に必要な人間を十分に調達できるようになったものの、これによりさらなる課題 -- 財団内外における -- が明らかになりました。
+
+そのなかでも最も重要なものは、我々の従業員および「志願労働者」が確実に健康かつ幸福で任務を遂行できるようにするための、持続可能な食糧の確保がさらに困難になっていることです。関連して、非培養性の生体材料や再利用の生体材料を十分な量収得することは高コストであるため、今までこの追及に打つ手はありませんでした。SCP-6269-JをFクラス職員の収得に利用することで、財団はビタミンや健康にいい脂肪に富んだ栄養のある食糧を大量に提供できるようになり、この物流的かつ料理的な困難を効果的に解決します。
+
+加えて、SCP-6269-Jをこの試みのために利用することで、Fクラス職員の収得が確実に持続可能となるでしょう。現在の漁業活動における主要な懸案事項は、潜在的な乱獲の危険性に関連しています -- 我々があまりにも強欲になったなら、我々は利用可能なFクラス職員の供給を完全に使い果たしてしまう可能性があるのです。
+
+SCP-6269-Jは、無限に存在する非-プライム宇宙からFクラス職員を収得することで、この厄介な問題を回避します。収得が可能な非-プライム宇宙にいるFクラス実体は無制限にいるため、[[span class="fnnum"]].[[/span]][[span class="fncon"]]添付のグラフを参照してください。より長く続いたため、トリミングしなければなりませんでした。[[/span]]SCP財団は現在の需要を上回ることができ、「シーサイド・チップ・プレース」という名前の一連のレストランの運営による新たな収入源の創出が可能になるでしょう。
+@@ @@
+[[/div]]
+@@ @@
+-----
+@@ @@
+[[div class="overwatch_memo"]]
+@@ @@
+++ 6269-J（キングフィッシャー） -- ##Red|提言 却下##
+-----
+[[<]]
+@@ @@
+グレッグ、
+
+君がSCP-6269を -- 何らかの形で -- 魚類、軟体動物、他の海洋生物の収得に利用することを提言したのはこれで3度目だ。そしてそのアイデアが却下された3度目でもある。君は「DotMCM:EATM」を熟知しているはずだ。したがってSCP-6269を非Dクラス対象の収得や、ましてや個人的・娯楽的な目的で利用することは非倫理的であると見なされ -- ゆえに禁止されていると -- 知っているはずだろう。もし君がSCP-6269の運用における有効性・倫理性・容易性を高めるための誠実な提案があるなら、私に連絡することはいつでも歓迎する。
+
+これが明確でなかったのなら言っておくが、魚釣りは労働時間外のために取っておくべきだ。
+[[/<]]
+[[>]]
+グリーボニ管理官、
+収得部門。
+[[/>]]
+[[/div]]
+@@ @@
+-----
+@@ @@
+[[div class="jotting"]]
+[[=]]
++ ##699bc4|__SCP-6269（-J） -- インシデント: 003（進行中）__##
++++ コードネーム: ビューラー？
+-----
+[[/=]]
+[[span class="bigtext"]]__状況:__[[/span]] 01/04/2022 06:00時点で、収得部門に関連するおよそ800名のSCP財団職員が現地に到着することができず、日課の役目や任務を遂行できませんでした。これらの人物は部門におけるさまざまな立場 -- SCP-6269オペレーター、技師、補助スタッフ、運営職員を含む -- であり、特定された欠勤職員の間における明白な関連性は確証されていません。
+
+13:00時点で、これらの人物と連絡を取る試みや現在位置を特定する試みは全て成功していません。このイベントの原因について確証は得られていないものの、SCP-6269の中央制御コンソールに1枚のタイピングされたメモが発見されました。発見されたテキストの転写が以下に記載されています。
+@@ @@
+-----
+[[div class="blockquote"]]
+[[=]]
+@@ @@
+@@ @@
+++ 釣りしに
+++ 行った
+@@ @@
+@@ @@
+[[/=]]
+[[/div]]
+-----
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+----
+[[=]]
+[[collapsible show="» 脚注を開く «" hide="« 脚注を閉じる »"]]
+@@ @@
+[[div class="notation" style="padding: 0.5rem 0.5rem 0.5rem 0.5rem; font-size: 90%; font-family: 'Work Sans', sans-serif;"]]
+[[<]]
++++++ @@      @@ 脚注 & リファレンス
+# Fクラス職員は、SCP財団が収得する、手指のない水棲動物、有頭動物、エラを持つ動物を指す指定名称の案です。
+# 添付のグラフを参照してください。より長く続いたため、トリミングしなければなりませんでした。
+
+[[/<]]
+[[/div]]
+[[/collapsible]]
+[[/=]]

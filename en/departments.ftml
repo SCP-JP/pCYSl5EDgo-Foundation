@@ -1,0 +1,355 @@
+[[include credit:start]]
+**タイトル:** 財団内部部門
+**著者:** [[*user Jerden]], [[*user Esoterica]]
+**訳者:** [[*user G and B Channel]]
+[[include credit:cc4]]
+[[include credit:end]]
+
+[[module css]]
+.antimemetic .antimeme-fader {
+    opacity: 0;
+    transition-duration: 2s;
+}
+.antimemetic:hover .antimeme-fader {
+    opacity: 100;
+}
+
+#page-content .brass-plaque {
+     font-size: min(calc(0.45rem + 2.75vw), 1.625rem);
+     font-weight: bold;
+     font-family: "Times New Roman", Times, serif;
+     font-style: normal;
+     font-variant: small-caps;
+     color: #5e431e;
+     text-align: center;
+     text-shadow: #d4c59c 0 -1px 0, #d4c59c 0 2px 1px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     overflow: hidden;
+     margin: 0 auto;
+     padding: 1vw;
+     box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.1);
+     border-radius: 0.1em;
+     background-image: linear-gradient(90deg, #dbc374 0%, #c4ad6c 70%);
+}
+[[/module]]
+
+
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[div style="font-size: 350%; font-weight: bold; margin: 2px 0 5px;"]]
+[[=]]
+{{財団内部部門}}
+[[/=]]
+----
+[[/div]]
+[[div class="content-panel standalone" style="font-family: Courier New, Courier, monospace; width: auto; padding: 10px 30px; margin: 20px auto; background: url(/local--files/about-the-scp-foundation/bg-marble.png) repeat; text-shadow: 1px 1px 1px rgba(0,0,0,.25)"]]
+
+ファイル概要: 財団の使命は確保し、収容し、保護することです。これらの目標の下に統合されているとはいえ、それを達成するには多種多様なアプローチと専門技能が必要とされます。このため、特定のタスクまたは分野をそれぞれ専門とする数多くの部門を作成する必要があります。
+
+以下に特に知っておくべき部門がいくつかリストされていますが、これらが[[[list-of-foundation-s-internal-departments|部門の全てではなく]]]、[[[departments-complete-list|より包括的なリスト]]]が存在することは注記すべきでしょう。
+[[/div]]
+
+----
+
+[[# toc]]
+> [[collapsible show="目次を開く" hide="折りたたむ" folded="no"]]
+> = **目次**
+> [#administration 監督]
+> @@ @@ [#o5-council O5評議会]
+> @@ @@ [#ethics-committee 倫理委員会]
+> @@ @@ [#raisa 記録・情報保安管理局]
+> [#departments 部門]
+> @@ @@ [#alchemy-department 錬金術部門]
+> @@ @@ [#antimemetics 反ミーム部門]
+> @@ @@ [#aiad 人工知能適用課]
+> @@ @@ [#decommissioning-dept 解体部門]
+> @@ @@ [#miscommunications 誤伝達部門]
+> @@ @@ [#folklore-dept 神話・民俗学部門]
+> @@ @@ [#surrealistics-dept 超現実部門]
+> @@ @@ [#tactical-theology 戦術神学部門]
+> @@ @@ [#telecom-office 電気通信監視室]
+> @@ @@ [#delta-t 時間異常部門]
+> @@ @@ [#unreality ここに部門名を入力]
+> @@ @@ [#abnormalities 怪奇部門]
+> [#other あなたには部門についてのアイデアがあるのですね。]
+> [#related-pages 関連ページ]
+> [[/collapsible]]
+
+[[/div]]
+
+@@ @@
+
+[[# administration]]
++ 監督
+
+[[# o5-council]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+
++ [[[*o5-command-dossier|O5評議会]]]
+
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-15-5u8i/O5評議会.png width="100px"]]
+
+**概要:** O5評議会——監督評議会や監督司令部としても知られる——はSCP財団における最高機関です。評議会のメンバーは[[[security-clearance-levels| レベル5セキュリティクリアランス]]]を持ち、それゆえSCPデータベース全体への検閲無しのアクセス権を保有します。
+
+O5評議会のメンバーは日常的な問題には関与せず、異常との接触から意図的に隔離されていますが、彼らが[[[task-forces#alpha-1|介入を選択]]]するならば、彼らの言葉が最終決定となります。O5評議会メンバーの正確な数、身元、役割は厳重に秘匿されています。
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+[[# ethics-committe]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ ##black|倫理委員会##
+
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-13-5s4g/倫理委員会_ethic.png width="100px"]]
+
+**概要:** O5評議会が何が安全かを決定する一方で、[[[ethics-committee-orientation|倫理委員会]]]は[[[ethical|何が倫理的か]]]を定義します。財団は道徳的な悩みに対して実用的なアプローチを取っていますが、目的は常に手段を正当化していなければなりません。倫理委員会は、[[[the-foundation-eats-babies|必要な犠牲]]]だけが払われ、[[[ethics-guide|もっとも倫理的な手段]]]が常に選択されることを保証します。財団職員は、倫理委員会が監視し、評価し、[[[task-forces#omega-1|裁きを下し]]]ていることに注意すべきです。
+
+//倫理委員会//のタグが付いた全文書は、[/system:page-tags/tag/倫理委員会 こちら]を参照してください。
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+[[# raisa]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ ##black|記録・情報保安管理局（RAISA）##
+[[f>image 	http://scp-jp-storage.wikidot.com/local--files/file:6166848-18-1uec/raisa.png width="100px"]]
+
+**概要:** 記録・情報保安管理局（RAISA）は、財団データベース[[[scuttle|安全性と完全性]]]を維持する任務に当たっています。RAISAは[[[scp-5549|機密情報]]]への[[[scp-076|アクセスを制御し]]]、何を編集して何を明らかにするかを決定します。RAISAはまた、データベースを侵入から保護し、財団のドキュメントにおける[[[scp-031|不整合を監視し]]]、原因が非異常的なものか異常なものかを判定します。
+
+財団の職員は、RAISAから[[[raisa-6147|SCP報告書]]]に添付された[[[scp-2998|通達]]]を目にする可能性がありますが、それらはしばしばRAISA管理官[/system:page-tags/tag/マリア・ジョーンズ マリア・ジョーンズ]によって署名されています。これらの通達は、それに続く情報に関する重要な示唆を与えます。
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+@@ @@
+
+[[# departments]]
+
++ 部門
+
+[[# alchemy-department]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ [[[*the-alchemy-department-hub|錬金術部門]]]
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-8-rc87/錬金術部門_alchemy-department.png width="100px"]]
+
+**概要:** 財団科学部門 錬金術課はより主流な分野の同僚たちから、しばしば過去の遺物や骨董品とみなされ、軽んじられています。しかし、錬金術とは単なる原始的な科学ではありません。錬金術は、現実の基本的な要素を形成するエーテルの力の操作を専門とする研究分野です。従来の科学でアノマリーを説明できない場合は、錬金術師に相談するだけで良いかもしれません。
+
+//錬金術部門//のタグが付いた全文書は、[/system:page-tags/tag/錬金術部門 こちら]を参照してください。
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+
+[[# antimemetics]]
+[!-- [[div class="content-panel standalone series antimemetic" style="background-color: #FFFFFF;"]]
+[[div class="antimeme-fader"]]--]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ [[[*antimemetics-division-hub|反ミーム部門]]]
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-9-7xu4/反ミーム部門_antimemetics-division.png class="antimeme-fader" width="100px"]]
+
+**概要:** 反ミームとは、人々の間に自らが拡散するのを妨害したり阻止したりする自己検閲特性を持つ概念の事です。反ミーム部門は異常な反ミームを研究し、収容するために存在します。これらの概念、オブジェクト、および実体は正常性や人命を脅かしますが、記録すること、あるいは記憶することさえほとんど不可能です。
+
+慎重な観察、広範な訓練、そして精神影響を伴う記憶補強剤の定期的な服用を通して、反ミーム部門は[[[we-need-to-talk-about-fifty-five|他の誰もが忘れている]]]危険に対処することができます。
+[!-- [[/div]] --]
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+
+[[# aiad]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+
++ [[[*aiad-homescreen|人工知能適用課（AIAD）]]]
+
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-7-zdi0/人工知能適用課_AIAD.png width="100px"]]
+
+**概要:** 財団IT部門 人工知能適用課は、人工知能の開発、研究、利用のため創設されました。これには異常な人工知能の収容・無力化のほか、親財団人工知能徴募員（.aic）を製作し、財団施設の運営や電脳空間におけるフィールドミッションへの派遣を担わせることが含まれます。
+
+//aiad//のタグが付いた全文書は、[/system:page-tags/tag/aiad こちら]を参照してください。
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+
+[[# decommissioning-dept]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+
++ [[[*decom-dept-hub|解体部門]]]
+
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-9-v97j/解体部門_Decom.%20Dept.%20Logo.svg width="100px"]]
+
+**概要:** 財団の核心は破壊ではなく収容にありますが、安全に収容するには危険すぎるか、予測不能であるか、または資源を大量に消費するアノマリーが存在します。他の全ての試みが失敗した場合、最後の手段となるのが解体部門です。
+
+この部門は、異常なオブジェクトを意図的に終了するよう求める要望書を審査し、必要かつ実行可能と考えられる提言のみを承認します。また解体部門は、付随的損害を最小限に抑えながらアノマリーを解体する最も効率的で人道的な方法に関する専門知識も提供しています。
+
+//解体部門//のタグが付いた全文書は、[/system:page-tags/tag/解体部門 こちら]を参照してください。
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+
+[[# miscommunications]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+
++ [[[*domc-hub |誤伝達部門（DoMC）]]]
+
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-14-fhky/誤伝達部門_DoMC_miscdept.png width="100px"]]
+
+**概要:** 誤伝達部門が専門とするのは、言語やコミュニケーションの操作により、正確な記述と収容を困難にするアノマリーです。ミーム学、反ミーム学、言語学、形而上学の学際領域に存在しているこの部門は、財団の収容している最も複雑なアノマリーのいくつかに対して特別収容手順を書くという厄介な仕事を担当しています。
+
+//誤伝達部門//のタグが付いた全文書は、[/system:page-tags/tag/誤伝達部門 こちら]を参照してください。
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+
+[[# folklore-dept]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+
++  ##black|神話・民俗学部門／伝承部門##
+
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-12-xad7/神話民俗学部門_folklore-dept.png width="100px"]]
+
+**概要:** 神話・民俗学部門では、異常なものが人間文化の発展に果たした役割を研究し、この研究を用いて[[[scp-6193|アノマリーを同定し]]]、考えうる収容方法について助言しています。古代の神話から都市伝説まで、[[[SCP-6078|失われた土地]]]から[[[SCP-6087|落ち着きのない霊]]]まであらゆるものを研究することで、この部門は世界中の民間伝承に見られる異常なものへの洞察が、無視されたり忘れ去られたりせずに、財団の知識体系に統合されることを保証します。
+
+//神話・民俗学部門//のタグが付いた全文書は、[/system:page-tags/tag/神話・民俗学部門 こちら]を参照してください。
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+
+[[# surrealistics-dept]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+
++ ##black|超現実部門##
+
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-17-qeia/超現実部門_surreal.png width="100px"]]
+
+**概要:** 私たち超現実部門は、伝統的な論理的/左脳的方法では理解できないアノマリーの特定と収容を専門としています。部門は1491年10月35日に知的な青いアゲハチョウの群れによって設立され、私に言わせれば、それ以来ずっと下り坂でした。
+
+超現実部門は、非現実をよりよく理解するために[http://scp-jp.wikidot.com/scp-4923 認知処理剤][[footnote]] 原文: agnostics [[/footnote]]と明晰な思考を利用します。超現実部門は、[http://scp-jp.wikidot.com/scp-6445 サイト-⌘]と呼ばれる超々物理学的空間に本部を置いています。超現実部門はあなたを夢見ています。
+
+先入観と歯は入口で捨ててください。
+
+//超現実部門//のタグが付いた全文書は、[/system:page-tags/tag/超現実部門 こちら]を参照してください。
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+[[# tactical-theology]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+
++ ##black|戦術神学部門##
+
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-11-qjad/戦術神学部門_tact-theo_DoTT.png width="100px"]]
+
+**概要:** 戦術神学部門は神学的アノマリーの捕獲、収容および[[[deicide|無力化]]]の支援を任務とします。この部門は、[[[scp-4261|聖遺物]]]であると信じられている異常なアイテムや[[[scp-4967|奇跡]]]と考えられている超常現象の収容を担当し、[[[operation-heaving-spirit|超常カルト]]]と最上級多能性実体の対処をも行います。
+
+本部は[[[secure-facility-dossier-reliquary-area-27|遺物エリア-27]]]にありますが世界中で活動しており、この部門には神学者、聖職者、懐疑論者といった多様なスタッフと、様々な宗教的伝統を専門とする下位部門が属します。
+
+//戦術神学部門//のタグが付いた全文書は、[/system:page-tags/tag/戦術神学部門 こちら]を参照してください。
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+[[# telecom-office]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ [[[*telecommunications-monitoring-office-hub|電気通信監視室（TMO）]]]
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-16-rugx/電通室_telecommunications-monitoring-office.png width="100px"]]
+
+**概要:** 電気通信監視室は、財団が世界中の電話から収集した情報の分析と処理を担当しています。これには、緊急サービスへの通話の日常的な監視が含まれます。キーワードに敏感なアルゴリズムによって支援されていますが、TMOの仕事の大部分は、異常関与の形跡を求めて、ほとんどが平凡な何千もの呼びかけをスクリーニングする[[[site-14-secure-facility-dossier|サイト-14]]]のような施設の生身のオペレーターを必要とします。
+
+//電気通信監視室//のタグが付いた全文書は、[/system:page-tags/tag/通信監視室 こちら]を参照してください。
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+[[# delta-t]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+
++ [[[*welcome-to-delta-t|時間異常部門]]]
+
+[[f>image http://scp-jp-storage.wikidot.com/local--files/file:6166848-10-5nqi/時間異常部門_Delta-T.png width="100px"]]
+
+**概要:** 時間異常部門は遡及的、時間的、および反歴史的な異常を扱っています。この部門は実際には研究及び収容班Δt(RCT-Δt)の小さな下位部門であり、時間サイト-01から運営され、通常の財団の指揮系統の外に存在する機関です。この異常な位置は、[[[scp-1780|現在のところ]]]この部門が創設されていないために、RCT-Δt工作員の資格情報を他の部門が認識するのが困難なことを意味しますが、それはどんな時点やタイムラインでも活動することを可能にします。
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+
+[[# unreality]]
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+
++ [[[*unreality-hub |非現実部門]]]
+
+[[f>image department-logo]]
+
+**概要:** [部門名]は、[部門に関する情報]に影響を与える異常な現象の中でも非常に特殊な区分を扱います。
+
+[追加情報]
+
+[さらなる情報へのリンク]
+
+[[div style="text-align:right"]]
+,,[#toc トップに戻る],,
+[[/div]]
+[[/div]]
+
+[[div style="height:0vh;"]]
+[[/div]]
+[[# abnormalities]]
+[[div class="brass-plaque"]]
+[[=]]
+[[size 183%]][[[scp-3790|SCP財団]]][[/size]]
+[http://scp-jp.wikidot.com/system:page-tags/tag/怪奇部門 怪奇部門]
+[[/=]]
+[[/div]]
+
+[[div style="height:0vh;"]]
+[[/div]]
+
+
+@@ @@
+[[# other]]
+[[collapsible show="あなたには部門についてのアイデアがあるのですね。" hide="あなたには部門についてのアイデアがあるのですね。"]]
+> 訳注: ここに記されているのはENで採用されている制度です。JPで採用されている制度については[[[departments-JP]]]を参照してください。
+これは[[[departments-complete-list|財団の部門の完全なリスト]]]ではなく、最も注目すべきもののほんの一部にすぎません。新規追加は歓迎されていますが、最低限の要件を満たす必要があります。
+
+重複を避けるため、このページにリストされている部門を [[[Groups Of Interest|]]] または [[[task-forces|機動部隊]]]のページに掲載することはできません。
+このリストの部門には部門固有のハブページか、独自のタグが必要です。ハブページに求められる唯一の条件はプラスの評価であるため、投稿後数日待ってからこのリストに追加するのが最善です。部門ハブページはカノンやTaleシリーズハブとしても機能し得ますが、既に [[[secure-facilities-locations|サイトとエリアのためのリストページ]]]があるため、セキュリティ施設ファイルにはなり得ません。
+あなたの部門のタグが欲しい場合は、タグ承認スレッド――現在のところ[http://www.scp-wiki.net/forum/t-14227350/tag-suggestion-thread-4:an-approval-for-crows このスレッド][[footnote]] 訳注: このスレッドにJPの部門タグを申請しないでください。念のため。 [[/footnote]]――に投稿する必要があります。GoIタグ（部門に付けられているタグ）の申請要件は、現在、最低でも3著者5記事であり、5著者10記事あることが推奨されています。
+[[/Collapsible]]
+
+@@ @@
+
+[[# related-pages]]
+
+++ 関連ページ
+
+* [[[list-of-foundation-s-internal-departments|]]] - SCP財団[http://scp-jp.wikidot.com/scp-international#RU ロシア支部]から翻訳された、内部部門のリストです。
+* [[[departments-complete-list|]]] - このリストでは省略されたマイナーな部門をリストアップしています。

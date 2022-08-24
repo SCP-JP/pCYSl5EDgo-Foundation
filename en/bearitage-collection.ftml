@@ -1,0 +1,401 @@
+[[include :scp-wiki:theme:wilsons]]
+[[module CSS]]
+:root, :root * {
+    white-space: normal !important;
+    word-break: normal !important;
+}
+
+table.heritage {
+  border: 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 90%;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+table.heritage td {
+  vertical-align: top;
+}
+
+table.heritage td.title,
+table.heritage td.label {
+  border-right: solid 0.0625rem #999;
+  font-size: 1rem;
+  color: #999;
+  width: 33%;
+  text-align: right;
+  padding-right: 0.625rem;
+}
+
+table.heritage td.label {
+  font-size: 1.25rem;
+}
+
+table.heritage td.title {
+  padding-bottom: 1.25rem;
+}
+table.heritage td.label {
+  font-weight: bold;
+}
+
+table.heritage td.entry {
+  padding: 0.375rem 0 1.25rem 0.625rem;
+}
+
+table.heritage div.description {
+  font-size: 0.875rem;
+}
+table.heritage div.snippet {
+  font-style: italic;
+  font-size: 0.5rem;
+  color: #666;
+}
+table.heritage div.date {
+  font-weight: normal;
+  font-size: 0.438rem;
+}
+table.heritage div.snippet p {
+  margin: 0.313rem 0;
+}
+table.heritage div.description p,
+table.heritage div.date p {
+  margin: 0;
+}
+[[/module]]
+
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[div style="border: dashed 2px #A3C162; border-radius: 0.625rem; min-height: 7.25rem; width: 75%; margin: 0 auto; padding: 0 1.25rem; background: #D1ED9A url(http://ja.scp-wiki.net/local--files/heritage-collection-arc/hatch-black10i.png); color: #331010;"]]
+[[div style="float: left; padding: 0.5rem 0;"]]
+[[=]]
+[[image http://ja.scp-wiki.net/local--files/bearitage-collection/Bearitage3.png style="width:90%"]]
+[[/=]]
+[[/div]]
+
+**WWS[[span class="ruby"]]穴蔵入りコレクション[[span class="rt"]]Bearitage Collection[[/span]][[/span]]**はクマが登場していることがアイコンで簡単に識別できる公式の"栄誉の殿堂"です。
+
+[[/div]]
+@@ @@
+[[div class="wilson-border"]]
+[[div class="wilson-header"]]
+穴蔵入りコレクションにようこそ！
+[[/div]]
+[[div class="wilson-body"]]
++ 必要条件
+
+穴蔵入りコレクションのすべての記事は以下の必要条件を満たさなければなりません:
+
+# 記事にクマが重要な存在として登場していなければなりません。
+
+必ずしもきちんとしたクマカノンを象徴する記事である必要はありませんが、一般的に広く認められた古典的または中心的なクマ関連記事でなければなりません。
+-----
+@@ @@
+[[table class="heritage" cellspacing="0"]]
+[[row]]
+[[cell class="title"]]
+2019部門
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-549]]]
+[[div class="date"]]
+登録日: **2019年4 月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+こぐま座
+[[/div]]
+[[div class="snippet"]]
+"SCP-549は、Ursus arctos horribilis（ハイイログマの学名）、グリズリーベアのミニチュア版のようです。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-1048]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+ビルダー・ベア
+[[/div]]
+[[div class="snippet"]]
+"SCP-1048は、高さ約33cmの小さなテディベアです。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-1055]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+バグジー
+[[/div]]
+[[div class="snippet"]]
+"通常、SCP-1055は外見的にハイイログマ（Ursus arctos horribilis）の個体に似ています。しかし、その体積・質量および形態は自然に変化します。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-1145]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+ナガサキ・テディ
+[[/div]]
+[[div class="snippet"]]
+"SCP-1145は高さ約30センチメートルのクマの縫いぐるみで、19██年に日本の長崎から回収されました。表地は全体がツキノワグマ (Ursus thibetanus) のなめし革で構成されています。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-1313]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+熊について解け
+[[/div]]
+[[div class="snippet"]]
+"SCP-1313は異常な一連の論理プロセスであり、その解が1頭の雌のUrsus arctos (ヒグマ) である数学方程式として定義可能です。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-1845]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+野生の王国
+[[/div]]
+[[div class="snippet"]]
+"ハト26羽、アメリカライオン16頭、リス12匹、ヒツジ11頭、アメリカグマ8頭、アライグマ6匹とベンガルトラ1頭。SCP-1845-3とする。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-2091]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+熊とその孫娘
+[[/div]]
+[[div class="snippet"]]
+"SCP-2091-1がSCP-2091-2から15メートル以内に配置されると、SCP-2091-1は動き出し、一般的にハイイログマに見られる行動を示し始めます。SCP-2091-1は可能な限りSCP-2091-2に寄り添い、SCP-2091-2を脅かすか危害を加えると認識した生物を攻撃しようとします。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-2295]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+パッチワークのハートがあるクマ
+[[/div]]
+[[div class="snippet"]]
+"SCP-2295はパッチワークの縫いぐるみのクマであり、’頭’から’足’まで約0.46mで、合成繊維と綿が詰まっています。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-2528]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+パンダ・プロセッサ
+[[/div]]
+[[div class="snippet"]]
+"SCP-2528-Bはジャイアントパンダ種とそれに付随する腸内細菌叢から構成されます。SCP-2528-BがSCP-2528-Aに属する物質を消化すると、異常な化学反応がもつれた粒子対の量子状態を変化させることでクラスタ全体にデータが伝播します。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-2579]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+グラントの踊る熊たち
+[[/div]]
+[[div class="snippet"]]
+"SCP-2579-1の外層には“サイバネ強化熊たちのためのグラントの動物園”という文言が浮き出した状態で記されています。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-2875]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+熊に侵された町
+[[/div]]
+[[div class="snippet"]]
+"オーケイ聞くんだ俺ん家の外にクマがいる。隣ん家の奴はクマに喰われちまった。オーケイ通りにもクマがいるし、人様の家の中にもクマがいる、何とかしなきゃならん。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-3254]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+グレイルの母熊
+[[/div]]
+[[div class="snippet"]]
+"SCP-3254-1は、ぬいぐるみのクマを基本構造として製作される、SCP-3254の物理的コピーです。ぬいぐるみを発見すると、SCP-3254はそれを巣穴に持ち帰って愛撫または掃除します。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-3603]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+ウップス！オールベアーズ
+[[/div]]
+[[div class="snippet"]]
+"15分から32時間後、SCP-3603から成長した球根が弾け、続いてSCP-3603-1が出現します。SCP-3603-1実体はアメリカクロクマ(学名: Ursus Americanus)に不自然に似ています。"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[SCP-3877]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+MIЯЯOЯ BÄR
+[[/div]]
+[[div class="snippet"]]
+"Upon impact, foreign mirror ceased display of tubular bear trap, and reflected cage displayed on SCP-3877-1 opened."
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="label"]]
+[[[maya-the-magnificent|マグニフィセント・マーヤ]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+ハーマン・フラー主催: マグニフィセント・マーヤ
+[[/div]]
+[[div class="snippet"]]
+"私たちの驚嘆すべき音楽家に会いに来たまえ！ 彼女は何処かの山奥で、生死を賭けた猛々しい闘争の中に生まれ育った！"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[cell class="label"]]
+[[[critter-profile-maya|生き物プロフィール: マーヤ！]]]
+[[div class="date"]]
+登録日: **2019年4月1日**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+ウィルソン専属のクマ！
+[[/div]]
+[[div class="snippet"]]
+"現在はマーヤの喫煙習慣を取り除くために、アレックスが必要に応じて特注のニコチンパッチを貼ってあげている。そして勿論、ピエロがマーヤに近寄ることは許されない！"
+[[/div]]
+[[/cell]]
+[[/row]]
+
+[[/table]]
+[[/div]]
+[[/div]]
+[!--
+(Entry Template)
+[[row]]
+[[cell class="label"]]
+[[[SCP-]]]
+[[div class="date"]]
+Inaugurated: **April 1, 2019**
+[[/div]]
+[[/cell]]
+[[cell class="entry"]]
+[[div class="description"]]
+
+[[/div]]
+[[div class="snippet"]]
+""
+[[/div]]
+[[/cell]]
+[[/row]]
+--]

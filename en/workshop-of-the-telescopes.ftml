@@ -1,0 +1,2314 @@
+[[module CSS]]
+@import url(/theme:3law/code/1);
+[[/module]]
+
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+#header h2 span::before {
+    content: '星屑を星々の下へ ';
+}
+#page-title {
+   font-size: 0pt;
+   text-align: center;
+}
+#page-title::before {
+   content: "望遠鏡工房 \A";
+   font-size: xx-large;
+   white-space: pre-wrap;
+   color: #315B7D;
+}
+#page-title::after {
+   content: "或いは、\菓子ベースのブラックホール供給システムに関するダモクレス作業班の覚書";
+   font-size: large;
+   white-space: pre-wrap;
+}
+#breadcrumbs {
+   display: none;
+}
+.reply-thread {
+   border-left: solid 1px #444;
+   padding-left: 0.75em;
+}
+.email-box {
+   border: solid 5px #820D15;
+   background:#fffbfe;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+.goc-email-box {
+   border: solid 5px #4D5889;
+   background:#fffbfe;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+.O5-email-box {
+   border: solid 5px #999999;
+   background:#e0d8de;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+[[/module]]
+[[[第三法則ハブ]]] >> [[[damocles|ダモクレス・イニシアチブ]]] >> 望遠鏡工房
+
+= **<< [[[Harvester-of-Eyes|]]] || [[[damocles|ハブ]]] || [[[SCP-6523|The Machine]]] >>**
+
+[[include :scp-jp:credit:start]]
+[[include :scp-jp:credit:cc4]]
+[[include :scp-jp:credit:end]]
+
+[[div style="border: solid 5px #999999; background:#ffffff; padding: 10px; margin-bottom: 10px;"]]
+[[table style="width: 100%; margin:0 auto"]]
+[[row]]
+[[cell style="text-align:left; width:30%;"]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-354-wgcs/SCP_Interstellar_logo3.png width="250px"]]
+[[/cell]]
+[[cell style="vertical-align:center"]]
+[[table style="margin:0 auto; white-space: pre"]]
+[[row]]
+[[cell style="text-align:center; font-size: 5vmin; font-family: 'stationmedium', Arial, sans-serif; line-height: 0.5;"]]
+**DAMOCLES**
+**INITIATIVE**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align:center"]]
+@@ @@
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align:center"]]
+@@ @@
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align:center; font-size: 2.5vmin; font-family: 'Baumans', 'stationmedium', serif;"]]
+//Sic itur ad astra//
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/cell]]
+[[cell style="text-align:right; width:30%;"]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-355-tbca/GOC_Taskforce_Logo.png width="250px"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+----
+
+[[div class="O5-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+O5-03 (監督者、O5評議会)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+ダモクレス・イニシアチブへようこそ
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+皆さん、
+
+おめでとうございます。今この瞬間、あなた方は記録に残されない歴史上、最も意義深い人間工学プロジェクトに携わっています。
+
+皆さんの任務は今年中に有人恒星間宇宙船を建造し、打ち上げる手段を見つけ出すことです。
+
+添付資料には、何故その必要があるのかの説明があり、宇宙船に必要な性能パラメータを定めるのに役立つはずです。今はこれ以上詳しく述べませんが、これは財団が取り組んできた中で最も重要なプロジェクトになるかもしれない、と言えば十分でしょう。
+
+これは第13条作戦であるため、世界オカルト連合における類似のチームと協力することになります。彼らは有用な奇跡論や秘儀的パラテクノロジーの知識を提供してくれます。
+
+皆さんはレベル5ダモクレス・クリアランスを付与され、全ての宇宙関連アノマリー及び資産へのThaumielアクセス、並びに大半のSCPオブジェクトへの制限付きアクセスが可能となります。また、本プロジェクトに有益と考えられるアノマリーや資産に関するより高度なアクセス権を要求することが認められます。GOCファイルについても同様の権限が付与されており、相手との情報交換が許可・奨励されます。
+
+今日中に評議会と事務次長に報告できるような予備提案の提出を宜しくお願いします。
+
+幸運を祈ります。
+
+[[>]]
+O5-03
+[[/>]]
+----
+1件の添付資料:
+@@     @@[[[stairway-to-the-stars|ISHMAEL_BREAKAWAY_Briefing_O5.scppt]]]
+[[/div]]
+
+----
+
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ユッカ・ピーライネン博士 (上席研究員、秘儀的推進力研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:ダモクレス・イニシアチブへようこそ
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+こん畜生。俺は宇宙人とはとっくに遭遇してる説に金賭けてたんだ。
+
+[[>]]
+ユッカ・ピーライネン, PhD
+研究副主任、秘儀的推進力研究室
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+優先事項
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+はっきり言って、これは不可能だ。もし可能だとしても、それを実現するのは我々ではない。
+
+太陽系内の宇宙アノマリーの見直しから始める。収容下の乗り物型アノマリーもだ。永久機関、外部エントロピー、地球外起源と思われるものは全てチェックする -- 事によるとアルラ・ボレアリス由来のオブジェクトが以前に記録されているかもしれない。それらを組み合わせる方法を考え始めよう。収プロやクロステスト・プロトコルの心配は要らない。スリーは我々に不可能な事をやれと求めているんだから、不可能な答えを出してやろう。
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:優先事項
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+もう着手してる -- ウチが[[[secure-facility-dossier-lunar-area-32|月面基地]]]を構えてたなんて知ってた？ それが何か役立つ訳じゃないけどさ -- [[[scp-120|プール]]]の出口は数ヶ所の固定点に限られてる。私たちが建造段階まで進めば資材運搬に有用かもしれないけど、それ以外には使えない。特に、目的地間の往復には人間が必要らしいからね -- 無駄が多いように感じる。
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+タビサ・マーストン博士 (収容スペシャリスト、監督司令部)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:優先事項
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+実は、ネズミでも上手くいきます。プロ研が認知研究での使用目的で開発した、非常に高知能な実験用ラットの品種が、人間の関与を必要としていた様々なアノマリーから反応を引き出せると分かったのです。月面基地もそうやって建造しました。
+
+[[>]]
+タビサ・マーストン
+無所属収容スペシャリスト、天体物理学アノマリー
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+
+[[div class="goc-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ピエール・デュヴァル (戦闘認識論者、PHYSICS部門)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:Re:優先事項
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+果たしてそれは人間を被検体として使うよりも倫理的と言えるのか。
+
+[[>]]
+ピエール・デュヴァル, PhD, ThD
+魔術師、サタンと科学者の統一教会
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ユッカ・ピーライネン博士 (上席研究員、秘儀的推進力研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:Re:Re:優先事項
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+月面基地やネズミなんてどうでもいい。今GOCのファイルに目を通してるんだが -- あいつら、[[[goc-tale-sequence-farpoint|冥王星基地]]]を持ってやがる。物資補給にアポーテーションを使うだなんてイカレてんのか。凄まじいバックラッシュがあるに違いないぞ。
+
+[[>]]
+ユッカ・ピーライネン, PhD
+研究副主任、秘儀的推進力研究室
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+
+[[div class="goc-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+リリス・ソーントン博士 (教授、ICSUTチューリッヒ分校)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:Re:Re:Re:優先事項
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+君は話の半分も知らない。ある時、バックラッシュはアポーテーションの対象者たち一人一人の完璧なドッペルゲンガーを生成した。そのドッペルゲンガーたちは5分かけて溶けた -- その間ずっと悲鳴を上げながらね。それと、海底火山が1つ噴火して、クジラが1匹死んだ。
+
+[[>]]
+リリス・ソーントン教授
+多元宇宙研究学科長、ICSUTチューリッヒ分校
+[[/>]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+タビサ・マーストン博士 (収容スペシャリスト、監督司令部)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+収獲あり
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+プロ研から財団に渡ったファイルにネタが見つかりましたよ -- どうやら彼らは20年前にキャンヴェラと同じ事をやろうとしていたようです。見てください、宇宙船の動力に素粒子ブラックホールを使うつもりでした。ガンマ線リフレクターの制作まで進んだ後、それをヘルキュリナ周辺の軌道上に投棄しています。
+
+[[>]]
+タビサ・マーストン
+無所属収容スペシャリスト、天体物理学アノマリー
+[[/>]]
+----
+1件の添付資料:
+@@     @@[[[grant-request-for-the-construction-of-an-interstellar-scienc|Project_Daedalus_Overview.pdf]]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ユッカ・ピーライネン博士 (上席研究員、秘儀的推進力研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:収獲あり
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+マジかよ。あいつらの熱意には脱帽させられるね。未完成なのは残念だ。
+
+[[>]]
+ユッカ・ピーライネン, PhD
+秘儀的推進力研究室、研究副主任
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:収獲あり
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+つまりこれって、サルベージ可能な星間航行船が転がってるってことでしょ？ 多分ケレスの軌道上あたりに？
+
+上部構造と動力の大半はもう完成してる。私たちの仕事は内部機構の組み込みとブラックホールの生成だけ。
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ユッカ・ピーライネン博士 (上席研究員、秘儀的推進力研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:Re:収獲あり
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+ああ、そうとも、俺たちはブラックホールを作るだけでいいんだ。楽勝だな。
+
+[[>]]
+ユッカ・ピーライネン, PhD
+研究副主任、秘儀的推進力研究室
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:収獲あり
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+タビー、プロ研の出した数値を確認したが、上手くいくかどうか分からないぞ。推力曲線を見ろ、加速度は秒速云センチメートルで計測されている。キャンヴェラの第五主義者たちは炎上しながらほぼ1Gの速度で太陽系外に向かっているんだ。これでは仮にブラックホールを生成できたとしても追いつけない。
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:収獲あり
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+それは工学的な問題。後から解決すればいい。スリーが求めてるのは予備提案だし、今のところはダイダロス号を改修するのが一番のように思える。誰かもっと良いアイデアがあれば別だけどね。
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ユッカ・ピーライネン博士 (上席研究員、秘儀的推進力研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+もう1つの“工学的な問題”
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+ヘルキュリナの防御機構をどうする？
+
+[[>]]
+ユッカ・ピーライネン, PhD
+研究副主任、秘儀的推進力研究室
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:もう1つの“工学的な問題”
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+それは戦略的な問題。
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+[[div class="goc-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ピエール・デュヴァル (戦闘認識論者、PHYSICS部門)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:もう1つの“工学的な問題”
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+問題にすらならないはずだ。プロメテウスの自動防衛システムはダイダロス号をターゲットにしていないから、私たちとヘルキュリナの間にそれを挟めば済む。
+
+[[>]]
+ピエール・デュヴァル, PhD, ThD
+魔術師、サタンと科学者の統一教会
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:収獲あり
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+それで行こう。もっと良い策を思い付いたら、いつでも後出しで提案できる。
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+
+[[div class="reply-thread"]]
+[[div class="O5-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+ダモクレス作業班の予備提案
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+O5-03 (監督者、O5評議会)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+多大な調査と議論の末、私たちは既存の異常資産を再利用するのが最良の選択であるとの結論に達しました。プロメテウス・ラボは1996年に恒星間宇宙船の建造を開始しましたが、このプロジェクトは打ち切られ、現在まで放置されています。財団と世界オカルト連合のリソースを結集すれば、ダイダロス号の残骸をダモクレス・イニシアチブに適した宇宙船に改修できると考えています。
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+[[div class="O5-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+O5-03 (監督者、O5評議会)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:ダモクレス作業班の予備提案
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+承認します。どのようにそれを成し遂げるか、計画はありますか？
+
+[[>]]
+O5-03
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+[[div class="O5-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:ダモクレス作業班の予備提案
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+O5-03 (監督者、O5評議会)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+現在、詳細を詰めている段階です。
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+----
+
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+スリーからゴーサインが出た
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+オッケー、一体全体どっから手を付ける？
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+ステップその1: 問題(複数)を特定する
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+* どうやってこの宇宙船を入手する？
+* どうやってブラックホールを生成する？
+* どうやって推力を増強する？
+* 他にどのような設備を導入する必要がある？
+* どうやってブラックホールを生成する???
+
+重要な事から着手しよう。従来のロケットでは小惑星帯まで遠すぎるし、ヘルキュリナの防衛グリッドに撃墜される危険性がある。型破りな選択肢は無いだろうか？
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ユッカ・ピーライネン博士 (上席研究員、秘儀的推進力研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+自然はアポーテーションを忌み嫌う
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+こいつは単なる思い付きなんだが、GOCが**冥王星面基地**の補給に使ってるのと同じ手段を利用できないか？
+
+[[>]]
+ユッカ・ピーライネン, PhD
+研究副主任、秘儀的推進力研究室
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="reply-thread"]]
+[[div class="goc-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+リリス・ソーントン博士 (教授、ICSUTチューリッヒ分校)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:自然はアポーテーションを忌み嫌う
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+アポーテーションが最善策に思える。バックラッシュはそれほど理不尽ではないはずだ。数百万ガロンの海水が血に変わり、時折カエルの雨があちこちに降り、もしかしたら小さな地震が起こる程度だろう。
+
+[[>]]
+リリス・ソーントン教授
+多元宇宙研究学科長、ICSUTチューリッヒ分校
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+次の問題
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+よし、進展があったな。ブラックホールはどうする？
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:次の問題
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+パス。推力の問題について考えてみた。奇跡術で船体を軽くできないかな？
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="goc-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+リリス・ソーントン博士 (教授、ICSUTチューリッヒ分校)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:次の問題
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+恐らく可能だけれど、限界を超えて物体を軽くすると構造の完全性を損なってしまう。加速度を倍にすることはできるだろうが、それでも十分ではないような気がするね。
+
+[[>]]
+リリス・ソーントン教授
+多元宇宙研究学科長、ICSUTチューリッヒ分校
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+タビサ・マーストン博士 (収容スペシャリスト、監督司令部)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+こんな事は訊きたくありませんが
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+絶対に無理でしょう。船体の質量を全て打ち消しても、まだ1Gの加速度には届きません -- ブラックホールは重すぎますし、出力も十分ではありません。
+
+奇跡術ってブラックホールにも効くんですか？ 同じ手法でブラックホールの有効質量を減らせますか？
+
+[[>]]
+タビサ・マーストン
+無所属収容スペシャリスト、天体物理学アノマリー
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+止めておこう
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+ゴチャゴチャした難問の蓋を開けてしまうまでもなく、もっと単純な解決策がある。より小規模な、つまり//実際に//質量が少ないブラックホールを使用するんだ。
+
+ブラックホールが小さくなる = 出力が大きくなり、加速に必要な出力は少なくなる。船体の重量を10万メートルトンまで減らすことができれば、その半分の質量のブラックホールで1Gに達するだろう。
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+タビサ・マーストン博士 (収容スペシャリスト、監督司令部)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+素晴らしいアイデア、小さな問題
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+そして4ヶ月以内に爆発します。
+
+[[>]]
+タビサ・マーストン
+無所属収容スペシャリスト、天体物理学アノマリー
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="goc-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+リリス・ソーントン博士 (教授、ICSUTチューリッヒ分校)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:素晴らしいアイデア、小さな問題
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+待ってくれ、何故だ？ そもそもどうやって出力を得る仕組みになっている？
+
+[[>]]
+リリス・ソーントン教授
+多元宇宙研究学科長、ICSUTチューリッヒ分校
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+タビサ・マーストン博士 (収容スペシャリスト、監督司令部)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:素晴らしいアイデア、小さな問題
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+ホーキング放射です。ブラックホールはその質量に反比例した熱を放射します。収縮するにつれて熱くなり、熱くなるほど収縮が早まります。やがて爆発します。
+
+[[>]]
+タビサ・マーストン
+無所属収容スペシャリスト、天体物理学アノマリー
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:素晴らしいアイデア、小さな問題
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+ああ、それが問題だな。質量を供給して安定させるのはどうだろう？
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:素晴らしいアイデア、小さな問題
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+どうやって？ 1秒間に数キロの質量を燃焼するところから始まって、縮めば縮むほどその勢いが早まるばかり。私たちが道中の各星系に立ち寄って小さめの衛星をシャベルで取入口に突っ込むとしても、文字通りのポジティブシンキングパワーで航行してる第五クソ野郎どもの宇宙船は絶対に打倒できないよ。
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+タビサ・マーストン博士 (収容スペシャリスト、監督司令部)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+くたばれエントロピー
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+無から質量を生成するアノマリーの参照タグはありませんか？ これの餌に使えそうな物が何かしら収容されているはずです。
+
+[[>]]
+タビサ・マーストン
+無所属収容スペシャリスト、天体物理学アノマリー
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+扱うには熱すぎるか？
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+確認しておく。ところで、動力システムはそんなに小さいブラックホールに耐えられるだろうか？ 2千兆度以上の熱を放射することになるぞ。
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+タビサ・マーストン博士 (収容スペシャリスト、監督司令部)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:扱うには熱すぎるか？
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+単位は？
+
+[[>]]
+タビサ・マーストン
+無所属収容スペシャリスト、天体物理学アノマリー
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:扱うには熱すぎるか？
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+どんな単位でも。
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:扱うには熱すぎるか？
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+いけると思うけど？ リフレクターはエレクトロニウム製だから問題ないはず。超伝導体ブレードは不安だけど、プロ研の資料によれば超新星爆発にも耐えられるって評価されてる。だから多分大丈夫。
+
+まぁ、一応試験しておくべきかもね。
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:くたばれエントロピー
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+さて、質量問題の解決策が見つかったようだ -- ピンチの時には栄養源にもなる。目を通してくれ。
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+----
+1件の添付資料:
+@@     @@[[[scp-871|L2-871.scptxt]]]
+[[/div]]
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:くたばれエントロピー
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+オッケー、有望だね。でもブラックホールに流し込む手段は思い付いた？ 吸入口の幅は1/10アトメートル以下になる。グチャグチャに混ぜて粒子線に変えると、どうしたって複製を誘発するんじゃないかな。
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ユッカ・ピーライネン博士 (上席研究員、秘儀的推進力研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+問題を縮めよう
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+縮小光線銃を持ってる奴はいないか？
+
+[[>]]
+ユッカ・ピーライネン, PhD
+研究副主任、秘儀的推進力研究室
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:問題を縮めよう
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+トムが持っていたと思う。ただ、我々の仕様には適合しない。例のじょうごはどうだろう、何番だったかな？
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+タビサ・マーストン博士 (収容スペシャリスト、監督司令部)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:問題を縮めよう
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+これでしょうか？
+
+[[>]]
+タビサ・マーストン
+無所属収容スペシャリスト、天体物理学アノマリー
+[[/>]]
+----
+1件の添付資料:
+@@     @@[[[scp-786|L2-786.scptxt]]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+ケーキを食べさせればいいじゃない
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+そうだ。ケーキを等しい質量の山に仕分ける仕掛けを作れば、ケーキが素粒子サイズになるまで繰り返しじょうごに通して、そのまま真っ直ぐブラックホールに放り込める。エネルギーとデザートがタダで手に入ったぞ。
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="goc-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ピエール・デュヴァル (戦闘認識論者、PHYSICS部門)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:ケーキを食べさせればいいじゃない
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+…ケーキ？
+
+[[>]]
+ピエール・デュヴァル, PhD, ThD
+魔術師、サタンと科学者の統一教会
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="goc-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ピエール・デュヴァル (戦闘認識論者、PHYSICS部門)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:ケーキを食べさせればいいじゃない
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+サタンの名に於いて、君たちは何故そもそもこんな物を//持っている？// 指数関数的に増殖する質量複製体が放置されたら、惑星がどれだけ速やかに滅亡するか分かっているのか？ 私たちならこんな脅威は//発見され次第//破壊する。
+
+[[>]]
+ピエール・デュヴァル, PhD, ThD
+魔術師、サタンと科学者の統一教会
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+フィービー・ハーラン博士 (上席研究員、メタマテリアル作業室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:Re:Re:ケーキを食べさせればいいじゃない
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+ウチには制度的に物を溜め込む傾向があるの。良い事でしょ -- 今回の計画を成立させるには、まさにこいつが必要だったんだからね。
+
+[[>]]
+フィービー・ハーラン博士
+プログラム監督者、応用複合材料
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+ブラックホールについて
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+そして、極小ブラックホールをどう生成するかという問題に立ち返る。プロ研にはそのための装置があったが、今は例の忌々しい小惑星の中に封じ込められている。解決策は？
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+タビサ・マーストン博士 (収容スペシャリスト、監督司令部)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+Re:ブラックホールについて
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+球電現象です。1ヶ所に一気に大量のエネルギーを凝縮させます。極めて高い出力の破壊行為。それがGOCのモットーですよね？
+
+[[>]]
+タビサ・マーストン
+無所属収容スペシャリスト、天体物理学アノマリー
+[[/>]]
+[[/div]]
+
+----
+[[div class="reply-thread"]]
+[[div class="goc-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ピエール・デュヴァル (戦闘認識論者、PHYSICS部門)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+君たちはケーキを溜め込むのか
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+もし君たちが怖いと感じたありとあらゆる物に箱を用意する手を5秒休めたら、世界オカルト連合は多様かつ複雑な組織であり、決してただ事物をふっ飛ばすだけではないと気付くはずなのだがね。
+
+とは言うものの、これは確かにゴルモゴン教団の役目のように思える。
+
+奇跡術で増強した爆弾励起レーザーを一揃い用意すれば、必要なエネルギー密度を得るのに最適だろう。魔法と爆薬を組み合わせるなら、彼ら以上のエキスパートはいない。
+
+[[>]]
+ピエール・デュヴァル, PhD, ThD
+魔術師、サタンと科学者の統一教会
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+まとめに入ろう
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+少なくとも、主要な問題に対する暫定的な解決策は見つかったようだ。
+
+* GOCはアポーテーションを使用して技術者チームをダイダロス号に派遣できる
+* ブラックホールを小さくして推力を増強し、奇跡術を(より一般的な質量節約法と合わせて)使ってできる限り船体を軽量化する
+* SCP-871とSCP-786を利用し、一定の速度でブラックホールに質量を送り込むことによって、ホーキング放射で失われる質量を補填する
+* ゴルモゴン教団がブラックホールの生成に用いられる奇跡核爆弾励起レーザー群の建造を監修する
+* その他の運行システムの設置は現場の技術者が行う。推進系を除き、ミッションに必要なシステムを検討するのは当作業班の管轄外である
+
+これだけあれば作業開始に十分な事前準備が整ったと言えるだろう。私はこれからケーキの仕分け、縮小、推進メカニズムの回路図設計に取り掛かる。菓子ベースのブラックホール供給システム。なかなか馴染みやすい言葉だと思わないか？
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+ユッカ・ピーライネン博士 (上席研究員、秘儀的推進力研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+スリーのお気に召すだろう
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+DAMOCLES@L5.Working (ダモクレス作業班、暫定)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+で、ケーキだけで動く宇宙船が設計できたのをスリーに伝えたいのは誰かな？
+
+[[>]]
+ユッカ・ピーライネン, PhD
+研究副主任、秘儀的推進力研究室
+[[/>]]
+[[/div]]
+
+----
+
+[[div class="O5-email-box"]]
+[[table style="align:left"]]
+[[row]]
+[[hcell style="text-align:right"]]
+From
+[[/hcell]]
+[[cell]]
+宋榛浩博士 (上席研究員、実験的融合研究室)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+件名
+[[/hcell]]
+[[cell]]
+ダモクレス作業班の最終提案
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+To
+[[/hcell]]
+[[cell]]
+O5-03 (監督者、O5評議会)
+[[/cell]]
+[[/row]]
+[[/table]]
+
+完全版の提案書を下に添付しました。
+
+良いニュースは、我々に計画があるということです。我々は宇宙船を建造し、動力を供給し、乗組員を乗せることができます。そして船は敵とほぼ同時にアルラ・ボレアリスへと到着できるでしょう。
+
+悪いニュースは、この計画に関するその他全てです。
+
+[[>]]
+[[span class="ruby"]]宋 榛浩[[span class="rt"]]ソン・ジンホ[[/span]][[/span]]博士
+研究室代表、MICROSTAR
+[[/>]]
+----
+2件の添付資料:
+@@     @@Damocles_Report.scppt
+@@     @@Antoinette_Machine.scpng
+[[/div]]
+
+= **<< [[[Harvester-of-Eyes|]]] || [[[damocles|ハブ]]] || [[[SCP-6523|The Machine]]] >>**
+[[>]]
+[[module Rate]]
+[[/>]]

@@ -1,0 +1,180 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div class="scp-image-block block-right" style="width:300px;"]]
+[[html]]
+<script>
+// 895 Camera
+// by stephlynch
+// if you are from the tech team you will cry. be warned.
+
+var overlay = 0;
+
+function randomizeImage(){
+   var element;
+   if(overlay > 0){
+      element = document.getElementById("overlay" + overlay);
+      element.style.display = "none";
+      overlay = 0;
+   } else {
+      overlay = Math.ceil(Math.random() * 6);
+      console.log("Randomize rolled: " + overlay);
+      element = document.getElementById("overlay" + overlay);
+      element.style.display = "block";
+   }
+}
+
+function interrupt(){
+   console.log("Triggered Interrupt!");
+   document.getElementById("dark").style.opacity = "1";
+   setTimeout("randomizeImage()", 1000);
+   setTimeout(function(){document.getElementById("dark").style.opacity = "0"; }, 2000);
+}
+
+function animateStatic(){
+   document.getElementById("static").style.backgroundPosition = '' + (Math.random() * 5000) + 'px 0';
+}
+
+function updateTimeDate(){
+   var timer = document.getElementById("timer");
+   var date = new Date();
+   var year = date.getFullYear();
+   var month = date.getMonth() + 1;
+   var day = date.getDate();
+   var hour = date.getHours();
+   var minute = date.getMinutes();
+   var second = date.getSeconds();
+   timer.innerHTML = year + "-"
+                + (month < 10 ? "0" + month : month) + "-"
+                + (day < 10 ? "0" + day : day) + " "
+                + (hour < 10 ? "0" + hour : hour) + ":"
+                + (minute < 10 ? "0" + minute : minute) + ":"
+                + (second < 10 ? "0" + second : second) ;
+}
+
+var staticInterval = setInterval('animateStatic()',50);
+var timerInterval = setInterval('updateTimeDate()', 1000);
+var interruptInterval = setInterval('interrupt()', 8000 + (Math.random() * 5000));
+</script>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600');
+
+.feed {
+   height: inherit;
+   width: inherit;
+   position: absolute;
+   background: url("http://scp-jp.wdfiles.com/local--files/scp-895/silo-new.jpg");
+}
+.feedcontainer {
+   width: 300px;
+   height: 225px;
+}
+
+#dark {
+   opacity: 0;
+   transition: opacity 1s ease-in-out;
+   mix-blend-mode: multiply;
+}
+
+#static {
+   mix-blend-mode: color-burn;
+   background: url("http://scp-jp.wdfiles.com/local--files/scp-895/silo-fuzz-new.png") repeat;
+   height: inherit;
+   width: inherit;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.overlay {
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.multiply {
+   mix-blend-mode: multiply;
+}
+
+.camname {
+   position: absolute;
+   bottom: 15px;
+   left: 20px;
+}
+
+.timestamp {
+   position: absolute;
+   bottom: 15px;
+   right: 20px;
+}
+
+.camname span, .timestamp span {
+   color: #defff8;
+   background-color: #000;
+   font-family: "IBM Plex Mono", Courier, monospace;
+   font-weight: bold;
+   font-size: 10pt;
+}
+
+</style>
+
+<div class="feedcontainer">
+<div class="feed">
+<img id="overlay6" class="overlay" src="http://scp-jp.wdfiles.com/local--files/scp-895/silo-b1-new.png">
+<img id="overlay5" class="overlay" src="http://scp-jp.wdfiles.com/local--files/scp-895/silo-b2-new.png">
+<img id="overlay4" class="overlay" src="http://scp-jp.wdfiles.com/local--files/scp-895/silo-b3-new.png">
+<img id="overlay3" class="overlay" src="http://scp-jp.wdfiles.com/local--files/scp-895/silo-b4-new.jpg">
+<img id="overlay2" class="overlay multiply" src="http://scp-jp.wdfiles.com/local--files/scp-895/silo-b5-new.png">
+<img id="overlay1" class="overlay multiply" src="http://scp-jp.wdfiles.com/local--files/scp-895/silo-b6-new.png">
+<img id="dark" src="http://scp-jp.wdfiles.com/local--files/scp-895/silo-dark.png">
+<div id="static"></div>
+<div class="camname"><span>CAM06</span></div>
+<div class="timestamp"><span id="timer">INITIALIZING</span></div>
+</div>
+</div>
+
+[[/html]]
+[[div class="scp-image-caption" style="width:300px;"]]
+収容エリア895-06のライブ映像(30m範囲)
+[[/div]]
+[[/div]]
+
+
+**アイテム番号:** SCP-895
+
+**オブジェクトクラス:** Euclid
+
+**特別収容プロトコル:** SCP-895は地下およそ100mに隔離された収容室に封印されています。カメラ、マイク、その他記録装置を"レッドゾーン"と呼ばれる10m以内に運ぶときは許可を得た上で2人以上のLevel3の職員を同行させてください。
+
+当サイトの職員が少しでも異常行動や精神障害の徴候を見せた場合は即座に検査し、サイトから隔離するか状況によっては殺処分します。
+
+**説明:** SCP-895は、█████ █████霊安室の監視カメラに異常な映像が映っているとの報告の後の調査で、██/█/██にSCP職員が回収した飾り立てたオーク材の棺です。霊安室スタッフはSCP-895がどこからどのようにして持ち込まれたのか判らないと回答しています。現地のエージェントはSCP-895が空であることを確認しています。しかし、ライブカメラで監視していた職員は[削除済]が映っていたと報告しています。追って通知があるまでは、常にSCP-895は閉じたままにしなければなりません。
+
+SCP-895はその50メートル以内にあるビデオやカメラの映像を崩壊させ、SCP-895までの距離に応じた長さと間隔で、鮮明で不穏な幻覚を映します。5m以内でSCP-895を撮影した映像を見ると、大抵の被験者は深刻な精神障害を引き起こしヒステリーになります。この現象は範囲内に物理的にいる観察者には影響を与えません。
+
+**補遺895-01:**SCP-895の回収記録(██/█/██)から音声抜粋
+
+> 03：41L - **指揮官:** チーム1、こちら指揮官。全ての一般職員の出入りを制限、退避させた。君たちは中に入り中身の確認をしてくれ。
+> 03：41L - **T1リーダー**： 指揮官、こちら1リーダー。了解、入ります。
+> 03：43L - **T1リーダー:** ロビーに到着。映像の確認お願いします。
+> 03：44L - **指揮官:** チーム1、こちら指揮官。映像では…[少しの間]…壁が血まみれだ、確認してくれ。
+> 03：44L - **T1リーダー:** 確認できません、指揮官、ここは綺麗な状態です。なんの変化もありません。
+> 03：45L - **指揮官:** …消えた。チーム1、ミーム的影響が発生している可能性があるので注意せよ。
+> 03：45L - **T1リーダー:** 了解、指揮官。チーム1はこれより保管区域に侵入する。
+> 03：47L - **T1リーダー:** 保管区域到着、オブジェクトを確認。
+> 03：48L - **指揮官:** む、動いたな…チーム1、確認してくれ。オブジェクトは生きて動いているようだ。
+> 03：48L - **T1リーダー:** …指揮官、確認できません、動いているようには見えません。オブジェクトは通常通りです。
+> 03：48L - **T1リーダー:** 2、それを開けろ。
+> 03：48L - 武器を構える音に続いてSCP-895が開く音。
+> 03：49L - **T1-2:** リーダー、中は空です。
+> 03：50L - **T1リーダー:** 指揮官、こちら1リーダー。オブジェクトには何も入っていません。
+> 03：51L - **T1リーダー:** 指揮官、聞こえますか？
+> 03：51L - **指揮官:** 叫び声と嘔吐の音。
+> 03：51L - **T1リーダー:** 指揮官、聞こえますか、応答してください？！
+> 03：52L - **T1リーダー:** くそ、ここから出るぞ。それは閉めておけ！
+
+**補遺895-02:** 事件[削除済]および3名の人員喪失のため、SCP-895のレッドゾーンが5mから10mに拡大され、用心のため保全員のシフトを4時間に減らしました。

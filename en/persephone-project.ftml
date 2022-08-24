@@ -1,0 +1,451 @@
+[[include :topia:cqb:flow]]
+[[module css]]
+#page-title {
+  display: none;
+}
+.meta-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+.meta-title p {
+  margin: 0;
+}
+[[/module]]
+[[module css]]
+
+div.pseudo-tags ul {
+    font-size: 85%;
+    border-top: 1px solid #BBB;
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 0 2px;
+    list-style: none;
+}
+
+div.pseudo-tags li {
+    color: #b01;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+div.pseudo-tags li:hover {
+    text-decoration: underline;
+}
+
+[[/module]]
+[[module CSS]]
+/* Hide the collapsible link once it's been expanded */
+.collapsible-block-unfolded-link .collapsible-block-link, #breadcrumbs {
+  display: none;
+}
+
+/* Make superscripts not fuck with the line spacing */
+sup {
+  vertical-align: top;
+  position: relative;
+  top: -0.5em;
+}
+
+/* Haha blue boi */
+.outside {
+  margin: 2em -6em;
+  padding: 1em 10em;
+  --narration-color: rgba(214, 234, 248,1);
+  background: var(--narration-color);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, var(--narration-color) 20%, var(--narration-color) 80%, rgba(255,255,255,0) 100%);
+  z-index: -2;
+}
+
+/* Make the blue bois that are within the document have smaller margins so they break flow less*/
+.outside.inline {
+  margin: 1em -6em;
+  padding: 1px 10em;
+}
+
+/* Force the side bar to render on top of the blue bois */
+#side-bar {
+  z-index: 2;
+}
+
+/* Hide the original page title */
+#page-title {
+  display: none;
+}
+
+/* Make my fake page title look like the original (thanks SCP-2998) */
+.page-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+.page-title p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1040px) {
+  .outside {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+[[/module]]
+[[div style="margin: -1em 0 1em; font-weight: 85%;"]]
+[[[canon-hub|カノンハブ]]] » [[[end-of-death-hub|死の終焉]]] » ペルセフォネ計画
+[[/div]]
+-----
+[[include credit:start]]
+**タイトル:** ペルセフォネ計画
+**原著:** ©︎[[*user Gabriel Jade]][[*user Uncle Nicolini]]
+**翻訳:** [[*user Aoicha]]
+**査読協力:** [[*user Extra3002]]
+**原記事:** [*http://www.scp-wiki.net/persephone-project Persephone Project]
+**作成年:** 2019
+[[include credit:end]]
+
+[[div class="content-panel standalone" style="font-family: Courier New, Courier, monospace; width: auto; padding: 10px 30px; margin: 20px auto; background: url(/local--files/about-the-scp-foundation/bg-marble.png) repeat; text-shadow: 1px 1px 1px rgba(0,0,0,.25)"]]
+[[size 130%]] アルト、
+
+君が私に見せてくれた証拠は厄介なものだ。彼が何をしようとしているのか追跡するために、君にレベル5の権限を利用することを許可しよう。 [[[olympia-project|前回]]]と同じことが起こらないようにしてくれ。
+
+--O5-2
+[[/size]]
+[[/div]]
+
+[[div class="outside"]]
+アルト・クレフは燃える煙草の先を小さな紙に触れさせ、それが灰皿の中で燃えるのを見ていた。彼は指を合わせて腕を伸ばし、手のひらを空に向けた。両手を振り解くと、彼はデスクトップの端末を調べた。
+
+「始めようか、ケイン。お前の陰謀を教えてくれ。」
+
+[[/div]]
+
+[[div style="background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]] 
+[[div class="meta-title"]]
+クロウ教授により最近アクセスされたファイル
+[[/div]]
+##990011|ラザルス計画## - //最終更新- 4時間前//
+[[[kain-pathos-crow-s-author-page|ケイン・パトス・クロウの人事ファイル]]] - //最終更新- 5時間前//
+[[[SCP-244-ARC]]]- //最終更新- 5時間前//
+[[[SCP-447]]]- //最終閲覧- 1時間前//
+[[[SCP-500]]]- //最終閲覧- 2日前//
+[[[SCP-914]]]- //最終閲覧- 2日前//
+[[[SCP-890]]]- //最終閲覧- 2日前//
+[[[olympia-project|オリンピア計画]]]- //最終更新- 192日前//
+[[[SCP-076]]]- //最終閲覧- 193日前//
+[[[SCP-105]]]- //最終閲覧- 193日前//
+@@ @@
+@@ @@
+[[=]]
+[[size 75%]]
+##990011|SCIP.NETをリフレッシュしますか？##[[/size]]
+[[/=]]
+[[/div]]
+
+
+[[div class="outside"]]
+間抜けな老犬と、高慢で忌々しい名前。『ラザルス』。彼は笑った。ばかげている。秘密の計画を見つけるのは予想以上に簡単だった。
+
+クリック音と共に、クレフは最も最近に編集されたファイルを開いた。
+
+[[/div]]
+
+[[div style="background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]] 
++ ラザルス計画
+------------
+
+**プロジェクトコードネーム:** ラザルス(Lazarus)
+ 
+**プロジェクト番号:** PRJOLM-14310193
+
+**クリアランス及びファイル番号:** NPF-00051473
+
+**研究員長:** K. P. クロウ教授
+
+**プロジェクト目的:** K. P. クロウ教授が引き続き財団にとって有益な存在となり続けるように、SCP-244-ARCを再起動し、さらに充実させ、活用すること。
+
+**利用されたSCP:**
+SCP-244-ARC - 基本構造
+SCP-447 - 原料
+SCP-500 - 原料
+SCP-914 - 原料の改質
+SCP-890 - 原料や完成品の改質
+
+**原材料:**
+
+* SCP-500 1錠。
+* SCP-447から生成されたスライム500リッター。生体保存、殺菌の為、または潤滑油として。
+* 人工心肺1つ。
+* 人工透析機1つ。
+* 防弾ガラス250kg。
+* [[[new-buteo-series-mechanical-exoskeleton| アンダーソン・ロボティクス・神経アダプター]]]
+**精製と変化手順:**
+
+SCP-914を用いて人工心肺、人工透析機、防弾ガラスを改質します。
+
+これらの機器を取り付けることで、呼吸が可能になり、脳/呼吸器の萎縮を防ぐことができます。
+
+結果として得られた機械をさらに成形し、SCP-890を用いてSCP-244-ARCの台座と統合するのを助けます。これはSCP-477が生成したスライムを保持しておくのに不可欠です。
+
+スライムはΩK到来時には脅威にはなりませんが、その防腐剤に似た特性は身体の物理的劣化を軽減し、筋骨格系への更なる痛みの発生を防ぐでしょう。
+
+アンダーソン・ロボティクス・神経アダプターは、改質されたSCP-244-ARCの制御システムとして機能します。脳神経受容体への取り付けの適切な技術訓練を受けた、熟練した神経外科医が必要となります。
+
+**追加の変更点:**
+
+* 以前まで取り付けられていた武器の撤去 - //不必要//
+* 緊急自爆装置の撤去 - //不必要//
+* 手動制御システムの撤去 - //不必要//
+* 空力推進システムの撤去 - //不必要//
+* 4本の動かしやすい手足の設置 - //生産性の向上のため//
+* 後頭部サポート付きジャイロスコープカメラの設置 - //視力の向上のため//
+
+**メモ:** 
+
+計画案承認。 - //2022年3月19日//
+SCP-244-ARCの改質完了。 - //2023年9月21日//
+試用テスト開始 - //2024年1月24日//
+試用テスト終了 - //2024年10月20日//
+2025年3月1日に手術予定 - //2025年2月19日//
+クロウ教授の要求により手術延期 - //2025年2月28日//
+2025年6月12日に手術予定 - //2025年3月18日//
+クロウ教授の要求により手術延期 - //2025年6月11日//
+2025年7月30日に手術予定 - //2025年7月12日//
+2025年7月30日、クロウ教授がデバイスに接続された。 - //2025年8月1日//
+測定テストに合格 - //2025年8月15日//
+メンテナンス実地 - //2025年10月23日//
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+[[div class="pseudo-tags"]]
+* 音声 
+* アーカイブ済み 
+* 外部エントロピー 
+* 電子デバイス 
+* 機械 
+* 金属 
+* scp
+* ケイン・パトス・クロウ
+* 計画案
+* ΩK
+[[/div]]
+[[>]]
+@@                         @@ [[size 75%]]ページリビジョン: 83, 最終更新: 2026年10月28日, 23:32 (5日前)[[/size]]
+[[/>]]
+[[/div]]
+
+[[size 0%]].[[/size]]
+
+
+[[div class="outside"]]
+
+右頬の筋肉が苛立ちによりぴくぴくと痙攣し、彼は立ち止まった。古いエッグウォーカーを愚かにも改造したのはもう昔の話だ。彼は1年近く前からそれを持っていた。
+
+「違う、これは『リストの最後』じゃない、このイカレコンピューターめ。この中にもっと沢山のものを隠してるはずだ、あいつのことだ…クソ野郎にしては賢すぎる。」
+
+彼はログアウトし、戻り、10種類あまりの方法を試した。クロウのパーティションを、細かい歯のような管理者レベルの櫛で掘り返した。
+
+そしてそこには何も無かった。
+
+彼はその事実をそのまま受け入れることが出来なかった。
+
+少しだけ面白い結果か、地獄のように退屈な結果の束でもあったならば良かったのだが、それがどうであれ、そこには何も無かった。
+
+何も無いのか？
+
+これは本当にクロウだけのものではないのかもしれない。
+
+…
+
+[[/div]]
+
+[[div style="border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]] 
+##990011|アルト・クレフ(クリアランスレベル-5)## //- 0秒前, 編集無し//
+##990011|D. エスコバ (クリアランスレベル-3)## //- 39分前, 編集済み ##990011|(V?)##//
+##990011|L. シェパード (クリアランスレベル-2)## //- 2時間前, 編集無し//
+##990011|J. ブライト (クリアランスレベル-4)## //-23時間前, 編集済み ##990011|(V?)##//
+[[size 0%]].[[/size]]
+[[=]]
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+...
+[[size 0%]].[[/size]]
+
+##990011|J. ブライト (クリアランスレベル-4)## //-23時間前, 編集済み ##990011|(V?)##//
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+...
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+//##990011|J. ブライト (クリアランスレベル-4)##//
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+
+[[size 0%]].[[/size]]
+...
+[[size 0%]].[[/size]]
+
+//##990011|J. ブライト##//
+[[/=]]
+[[/div]]
+
+[[div class="outside"]]
+なんて卑怯な奴らなんだ。
+
+「畜生、ブライトめ、まさかここまでやるとはな。」
+
+それで一体
+
+どれ程深くまで
+
+お前達2人は
+
+こいつを埋めやがったんだ？
+
+[[/div]]
+
+[[include :scp-int:component:coltop show=そのため彼は袖を捲り |hide=- 更に掘ってみた。]]
+[[div class="outside"]]
+ついに評議会レベルの情報にアクセスできるようになったことで問題が解決するとクレフは思っていたが、それはこの巫山戯たパズルのピースの1つに過ぎなかった。
+
+ジャックが隠そうとしていたものが何であれ、彼はその範囲の広さに困惑した。彼はサイト全体のデータベースを探し回った。サイト管理官以下の人間では見ることができないコードの新しい断片をつなぎ合わせていると、数時間が数日になった。
+[[/div]]
+[[include :scp-int:component:coltop show=彼は掘って、掘って、掘って |hide=- 掘って、掘って、掘った。]]
+[[div class="outside"]]
+3日。彼はこの無駄な足踏みに3日を費やした。ロックされたファイルはシステムが気づかない場所に隠されていた。
+
+今の彼に必要なのは、もうひとつのパスワードの為に冷酷な圧力をかけることのみだった。
+[[/div]]
+[[include :scp-int:component:coltop show=信頼が枯れる場所へと、 |hide=- 恐怖が咲く場所へと、彼は下りて行った。]]
+[[div class="outside"]]
+コンピューターは処理を中断することなく稼働した。かつてのように。選択肢を交互に試し、試行のシステムのメモリを放出した。部屋の静寂の中で、機械のファンの雑音は他の全ての音を洗い流した。
+
+クレフは溜息をついた。彼はパックからもう一本の煙草を抜き取ろうとしたが、空だった。手の中で素早く押し潰し、壁にぶつかるように投げつける。それはここ数週間で増えた煙草の山の上に落ちた。
+
+物事が単純だった時に、ろくでなしを撃つのが当たり前で正しい選択だった時に、彼は失敗した。
+[[/div]]
+[[include :scp-int:component:coltop show=深く、尚深く、|hide=- 狂気の淵まで下りて行った。]]
+@@ @@
+[[div style="background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]] 
+@@ @@
+[[div class="meta-title"]]
+ペルセフォネ計画
+[[/div]]
+
+**プロジェクトコードネーム:** ペルセフォネ(Persephone)
+
+**プロジェクト番号:** [未提出]
+
+**クリアランス及びファイル番号:** NPF-00051473
+
+**研究員長:** [[[kain-pathos-crow-s-author-page |K. P. クロウ教授]]]
+
+**プロジェクト目的:** 人間の生を終わらせることが出来る実体、オブジェクト、またはイベントを作り上げる。
+
+++ **実験されるSCP:**
+
+* [[[SCP-053]]] - //ΩK以前の致死性により選抜//
+* [[[SCP-049]]] - //ΩK以前の致死性により選抜//
+* [[[SCP-2333]]] - //ΩK以前の人間の意識を失わせる能力により選抜//
+* [[[SCP-963]]] - //ΩK以前の人間の意識を失わせる能力により選抜//
+* [[[SCP-2935]]] - //CKクラス再構築イベントを誘発する可能性により選抜//
+
+++ **実験手順:** 
+
+* SCP-049、SCP-053、SCP-2333のサンプル1つは収容状態を解かれ、SCP-2935の入口へと移送されます。
+
+> 君が選んだアノマリーの違反全てを見逃してもらえる訳にはいかないだろう。現実的には、一斉にやる必要がある。しかも、2935への入り口は数トンのコンクリートの下に埋まっている。これがどのように機能するのか、私にはよく分からない。
+> 
+> 公言はするなよ、ここだけの話だ。近頃アルトが詮索しようとしていて煩いからな。
+>   --//ジャック//
+
+> 銀行破りの細かい点は君に任せるよ。今までに君の頼みを聞く機会があったとしたら今がその時だ。 --//ケイン//
+
+* SCP-053は拘束され、エアロゾル化したSCP-2333の溶液に曝されます。
+* SCP-963は対象の肌の上に置かれます。
+* SCP-049が自力で手術を開始しない場合は、手術を行うように伝え、指示します。
+* 手術が開始されると、すべてのアノマリーはSCP-2935の入口の向こうへ移送されます。
+
+> 望みは薄いね、地獄だ。現実自体があまりにも奇妙に思えるよ。僕は、物質や情報と同じように臨界点に達すると、その、死ぬことが出来る可能性があると考えている。入口を超えた瞬間に何か起こるはずだ。僕が開発してきたこの集束虹彩は、奇跡エネルギー、電気エネルギー、ガスエネルギーでさえも機能する。だからきっと、死のエネルギーも拾ってくれるはず、存在さえしていれば。
+> 
+> 正直な話、僕は//何を//期待していいか分からない。でも、僕達は『舞い上がるしかない##gray|(nowhere to go here but up)##』陣営の中でしっかりとした居場所を見つけてきた。これが僕達が出来る最善の賭けだと思うよ。 --//ケイン//
+
+> 2935がある洞窟の周りの監視装置の配線をなんとかやり直して、掘削業者を雇って掘り出したよ。来週までには準備が整うはずだ。フォーカスアークの調子は？
+> //- ジャック//
+
+> 準備万端だ。
+> //-ケイン//
+
+> 来週の木曜日、朝食の前に積み下ろし所35-Cで会おう。君が祈ってるかどうかは知らないが、痛くはないから安心してくれ。
+> //-ブライト//
+
+[[/div]]
+@@@@
+@@@@
+@@@@
+
+[[=]]
+> ##red|[[size large]]サイト全体への通達です。Euclidクラス収容違反が発生しました。
+> 収容セル内におけるSCP-049の不在が確認されました。[[/size]]##
+[[/=]]
+
+@@@@
+@@@@
+
+[[div class="outside"]]
+アルト・クレフは帽子と銃を掴んだ。
+
+「クソ野郎共め。」
+[[/div]]
+
+[[include :scp-jp:component:earthworm
+  first=false | last=false | hub=yes |
+  previous-url=/the-hermit-death-and-the-devil| previous-title=隠者、死神、悪魔。 |
+  next-url=http://www.scp-wiki.net| next-title= Coming Soon...|
+  hub-url=/end-of-death-hub | hub-title=死の終焉- ペルセフォネ計画 |
+]]
+
+[[include :scp-int:component:colend]]
+[[include :scp-int:component:colend]]
+[[include :scp-int:component:colend]]
+[[include :scp-int:component:colend]]

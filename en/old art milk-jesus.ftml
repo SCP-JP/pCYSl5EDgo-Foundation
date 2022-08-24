@@ -1,0 +1,116 @@
+[[include :scp-wiki:theme:basalt darkmode=a]]
+[[module CSS]]
+/* centers page title */
+#page-title {
+  text-align: center;
+}
+
+/* destroys the second brazil in the page */
+#page-content p br:nth-child(2) {
+  display: none;
+}
+
+.rmodecollection {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-start;
+   padding: 1rem;
+}
+
+.rmodecollection .rmode {
+  background: rgb(45, 45, 45);
+  position: relative;
+  box-sizing: border-box;
+  width: calc(25% - (0.3em * 3));
+  height: 3rem;
+  margin: 0.3em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+.rmodecollection .rmode:hover {
+  background: rgb(65,65,65);
+}
+
+.rmodecollection .rmode p {
+margin: 0;
+height: 100%;
+}
+
+.rm-link, .rm-link:hover, .rm-link:visited {
+color: white;
+display: block;
+height: 100%;
+width: 100%;
+text-decoration: none;
+}
+
+.mainimage {
+position: relative;
+}
+
+.mainimage #u-rm-unlit, .mainimage #u-rm-solid, .mainimage #u-rm-wireframe {
+display: none;
+position: absolute;
+top: 1.3em;
+}
+
+.mainimage #u-rm-unlit:target {
+display: block;
+}
+
+.mainimage #u-rm-solid:target {
+display: block;
+}
+
+.mainimage #u-rm-wireframe:target {
+display: block;
+}
+[[/module]]
+[[div style="display: none;"]]
+[[include component:image-block name=http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-269-69b3/cF4SIur.png|caption=.]]
+[[/div]]
+[[=]]
+[[module Rate]]
+[[/=]]
+------
+[[div class="mainimage"]]
+ [!-- this is a stupid fucking solution i know --]
+[[span id="u-rm-rendered"]][[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-265-e1pq/tQbubDW.png]][[/span]]
+[[span id="u-rm-unlit"]][[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-266-dhye/6y7EodV.png]][[/span]]
+[[span id="u-rm-solid"]][[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-267-m0fz/s9ocY6t.png]][[/span]]
+[[span id="u-rm-wireframe"]][[image http://scp-jp-storage.wdfiles.com/local--files/file%3A2375337-268-z0wc/atWcA8S.png]][[/span]]
+[[/div]]
+[[=]]
+[[div class="rmodecollection"]]
+[[div class="rmode"]]
+[[a href="#u-rm-rendered" id="u-rm-rendered" class="rm-link"]]
+レンダリング
+[[/a]]
+[[/div]]
+[[div class="rmode"]]
+[[a href="#u-rm-unlit" id="u-rm-unlit" class="rm-link"]]
+影無し
+[[/a]]
+[[/div]]
+[[div class="rmode"]]
+[[a href="#u-rm-solid" id="u-rm-solid" class="rm-link"]]
+ソリッド
+[[/a]]
+[[/div]]
+[[div class="rmode"]]
+[[a href="#u-rm-wireframe" id="u-rm-wireframe" class="rm-link"]]
+ワイヤーフレーム
+[[/a]]
+[[/div]]
+[[/div]]
+[[/=]]
+------
+[[=]]
+//“ミルク・ジーザス”//は、ユーザー[[*user DarnellJermaine]]が執筆した愛すべきSCP記事、[[[SCP-6542]]]のファンアートとして制作された作品です。閲覧者は“//ミルク・ジーザス//”の意図をより深く理解して観賞するため、原記事を一読してその内容に馴染むべきです。上記リンクがSCP Wikiの有効なページにリンクされなくなった場合、この文章を読んでいる人間は即死します。
+
+もし私のアートワークが気に入ったなら、私の[https://twitter.com/anafabulaic Twitter]と[https://scp-wiki.wikidot.com/artpage-fartpage アートページ]も見に来てくださいね。
+[[/=]]
+------
