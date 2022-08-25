@@ -30,6 +30,8 @@ Post('without-you', 'アンタがいないとなあ', 'en tale');
 Post('somnambulant-directives-take-the-helm', '夢見指令権力掌握', 'en tale 深淵目録');
 Post('scp-4175', 'SCP-4175', 'en scp esoteric-class 深淵目録 シメリアン博士 倫理委員会 人間型 知性');
 Post('scp-4260', 'SCP-4260', 'en scp euclid 深淵目録 k-クラスシナリオ エントロピー 人間型 現実改変 蘇生 管理者');
+PostParent('fragment:scp-4260-0', 'SCP-4260 - Level 2/4260', 'en フラグメント', 'scp-4260');
+PostParent('fragment:scp-4260-1', 'SCP-4260 - Level 5/4260', 'en フラグメント', 'scp-4260');
 Post('scp-4855', 'SCP-4855', 'en scp euclid 深淵目録 生命 認識災害 人間型 情報災害 ミーム 精神影響 神経 知性 自我');
 Post('scp-5097', 'SCP-5097', 'en scp esoteric-class 深淵目録 外部エントロピー 財団製 人間型 時空間 未収容 非現実部門');
 Post('scp-5576', 'SCP-5576', 'en scp euclid 深淵目録 共著 生命 人間型 蘇生 知性 自我 時間');
