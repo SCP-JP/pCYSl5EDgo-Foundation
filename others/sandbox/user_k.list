@@ -1,0 +1,98 @@
+1.kakinosinigamiのサンドボックスポータル : portal:8200562
+2.Kinubaのサンドボックスポータル : portal:7599669
+3.王冠城 : portal:8173807
+4.keen_clawのサンドボックスポータル : portal:8169469
+5.Keitolyのサンドボックスポータル : portal:8135250
+6.K-fiのサンドボックスポータル : portal:8172881
+7.kara_karaのサンドボックスポータル : portal:8174647
+8.KYoMU_04のサンドボックスポータル : portal:7660182
+9.kimotiのサンドボックスポータル : portal:7457998
+10.Kepuchiのサンドボックスポータル : portal:7472998
+11.柿の種のへや : portal:8100760
+12.kurone arinkoのサンドボックスポータル : portal:7688195
+13.okasinoieのサンドボックスポータル : deleted:portal:8085652
+14.ktr037 : portal:8057903
+15.Kawaseのサンドボックスポータル : portal:8083772
+16.クラスメイトの手紙箱 : portal:8081586
+17.kashima8のサンドボックス : portal:8070539
+18.SCP-2114-JP 赤い椅子 : portal:8067214
+19.kyousyuのサンドボックスポータル : portal:8040981
+20.kuroge-jpのサンドボックスポータル : portal:8025482
+21.Kurosuzのサンドボックスポータル : portal:8028742
+22.枸野のサンドボックスポータル : portal:8029026
+23.KeyWe-Verdeのサンドボックスポータル : portal:8008064
+24.KAKESOBA_1026のサンドボックスポータル : portal:7912093
+25.運命を示す手鏡 : portal:7712650
+26.7964720 : portal:7964720
+27.kirutoreiyaのサンドボックスポータル : portal:7804553
+28.kentacomのサンドボックスポータル : portal:6733733
+29.kasamasaのサンドボックスポータル : portal:7951082
+30.katataの砂糖箱 : portal:7948071
+31.砂煙で迷子 : portal:7924231
+32.kagelouのサンドボックスポータル : portal:7924098
+33.kenkenpaの砂場箱 : portal:7661158
+34.kaikaのサンドボックスポータル : portal:7920867
+35.ハンバーカ : portal:7890516
+36.K128のサンドボックスポータル : portal:7889129
+37.7nasiのサンドボックスポータル : deleted:portal:7890826
+38.Kikuchi_Reoのサンドボックスポータル : portal:7889201
+39.K_Meganaの保管庫 : portal:7887878
+40.Kanokiのサンドボックスポータル : portal:7876584
+41.koron1243のサンドボックスポータル : portal:7733329
+42.Keigonのサンドボックスポータル : portal:7873179
+43.輝矢の箱、或いは庭 : portal:6367784
+44.kaeru2193 : portal:7877278
+45.kannjinigateのサンドボックスポータル : portal:7857976
+46.狐々堂 : portal:7837223
+47.karakoronのサンドボックスポータル : portal:7763676
+48.Kaloa_63のサンドボックスポータル : portal:7847676
+49.黒縁の下書き倉庫 : portal:7827085
+50.Kantyaのサンドボックスポータル : portal:7810470
+51.君の美術館 : portal:7782264
+52.Kyanonのサンドボックスポータル : portal:7109923
+53.7799542 : portal:7799542
+54.kamatuki utaのサンドボックスポータル : portal:6638194
+55.Kate Mitsuki Wagnerのサンドボックスポータル : portal:7745250
+56.konosekai/別名Excelの掃き溜め : portal:7759227
+57.終わらせるメビウスの輪 : portal:7743875
+58.KABOOM1167の自由帳 : portal:7737619
+59.Klub HalKota SCP-SB-JP : portal:7703889
+60.kibunwacoffeemilkのサンドボックスポータル : portal:7731861
+61.みずくま : portal:7620752
+62.kettle_manのサンドボックスポータル : portal:4975771
+63.kracia42のサンドボックスポータル : portal:7680769
+64.KAGETAMI13のサンドボックスポータル : portal:7691854
+65.kamakiliのSCP研究室 : portal:7615266
+66.Kudamonのサンドボックスポータル : portal:7608413
+67.黒蜜砂糖の塩湖 : portal:7612768
+68.komichi4hiraのサンドボックスポータル : portal:7641209
+69.Kota-2のサンドボックスポータル : portal:7662975
+70.kureha555のサンドボックスポータル : portal:7631713
+71.このページの元号は「koti2020のサンドボックスポータル」であります : portal:7361472
+72.kkkuboのサンドボックスポータル : portal:7618126
+73.杪夏に : portal:7613692
+74.異世界コインロッカー : portal:7614295
+75.狐谷 早瀬のサンドボックスポータル : portal:7609541
+76.kabosuninjaのサンドボックスポータル : portal:7599917
+77.kisaragi 24のサンドボックスポータル : portal:7335923
+78.kenkentonのサンドボックスポータル : portal:7555397
+79.kks-ppのサンドボックスポータル : portal:7544225
+80.Knowrのサンドボックスポータル : portal:7549533
+Fail in application running on SearchHandler.SearchSandboxAsync
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 既存の接続はリモート ホストに強制的に切断されました。.
+ ---> System.Net.Sockets.SocketException (10054): 既存の接続はリモート ホストに強制的に切断されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at SCPF.SearchHandler.SearchSandboxAsync(String tag, Boolean name)
+   at ConsoleAppFramework.WithFilterInvoker.RunCore(ConsoleAppContext _)
+   at ConsoleAppFramework.WithFilterInvoker.InvokeAsync()
+   at ConsoleAppFramework.ConsoleAppEngine.RunCore(Type type, MethodInfo methodInfo, Object instance, String[] args, Int32 argsOffset)
+   at ConsoleAppFramework.ConsoleAppEngine.RunCore(Type type, MethodInfo methodInfo, Object instance, String[] args, Int32 argsOffset)

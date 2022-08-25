@@ -1,0 +1,98 @@
+1.Dr_Garlicのサンドボックスポータル : portal:8198340
+2.dreams_Fragment : portal:8158041
+3.Doggyjr2178のサンドボックスポータル : portal:7567514
+4.dyingcicadaのサンドボックスポータル : portal:8102662
+5.DBRNのサンドボックスポータル : portal:8065577
+6.DBRNのサンドボックスポータル : deleted:portal:8065577
+7.dongri-tabetaiのサンドボックスポータル : portal:7629267
+8.ds_0431の砂箱 : portal:8052342
+9.da_suke135のサンドボックスポータル : portal:8050092
+10.Dr_Marigoldのサンドボックスポータル : portal:8017246
+11.Daucus_carota_Lのサンドボックスポータル : portal:6803538
+12.くっ…ふぅ….ッ！ : portal:6903570
+13.Dr Pochiの犬小屋 : portal:7878048
+14.Dqm51のサンドボックスポータル : portal:7868155
+15.dongurimotiのサンドボックスポータル : portal:7871511
+16.dr dedのサンドボックスポータル : portal:7871995
+17.dapikanaaのサンドボックスポータル : portal:7828263
+18.DAI 999のサンドボックスポータル(仮称) : portal:7717168
+19.SCP-XXXX-JP「ベイビールーム」 : portal:7703245
+20.Dongomaのサンドボックスポータル : portal:7667069
+21.DX-abcのセーブファイル : portal:7665858
+22.田口博士のゴミ箱(おもちゃ箱) : portal:7619146
+23.domekiのサンドボックスポータル : portal:7537477
+24.Dr_TamaX0523の研究室(ポータルページ) : portal:7607447
+25.Distriful SandBox Portal : portal:7579144
+26.Drink152yenのサンドボックスポータル : portal:7576204
+27.DaiyaUzukiのサンドボックスポータル : portal:7582228
+28.Digdugdogのサンドボックスポータル : portal:7538324
+29.Dive and pineのサンドボックスポータル : portal:7190047
+30.Donnguri0220のサンドボックスポータル : portal:7459765
+31.Denden3840の研究室 : portal:7452090
+32.damakun-jp1024のサンドボックスポータル : portal:7357784
+33.Dr_rrrr_2919の研究所 : portal:7200455
+34.dzgtHO9zO1U6mPeの砂場 : portal:7210246
+35.Delta1427_WDの下書き研究室 : portal:7198688
+36.dragonnight Everydayのサンドボックスポータル : portal:7107648
+37.DSB202のサンドボックスポータル : portal:7172376
+38.DMEENBのサンドボックスポータル : portal:7126415
+39.donte_113のサンドボックスポータル : portal:7090971
+40.daystar_Kのサンドボックスポータル : portal:7089682
+41.The 書斎 : portal:7036208
+42.破壊神の生贄達 : portal:6948861
+43.海辺の宝箱 : portal:6921907
+44.driverTH : portal:6671715
+45.猫砂 : portal:6856613
+46.6692852 : portal:6692852
+47.DirStarFishの作業場 : portal:6734327
+48.dofyalyのサンドボックスポータル : portal:6236978
+49.Day-Jのサンドボックスポータル : portal:6660439
+50.Dugesia7のポータル : portal:3846424
+51.dgmtc5982のサンドボックスポータル : portal:6627790
+52.dango8geのサンドボックスポータル : portal:6574483
+53.Darude Masniumのサンドボックスポータル : portal:3420575
+54.課題は終わったんですか？ : portal:6457615
+55.妄想具現化実験室 : portal:5914401
+56.ますざかの砂場 : portal:6437499
+57.Devvie_Kのサンドボックスポータル : portal:6433014
+58.『承認前報告書　確認者：篠木』とラベルの張られたA5サイズのファイル : portal:6408751
+59.ﾎﾟｰﾀﾙ : portal:6404025
+60.danomのサンドボックスポータル : portal:5414558
+61.doragunのサンドボックスポータル : portal:6396634
+62.Darsplaygasのサンドボックス! : portal:6135491
+63.dsm0msbのサンドボックスポータル : portal:6340619
+64.Dr_Amahitobeのサンドボックスポータル : portal:6083672
+65.DawnofJokerのサンドボックスポータル : portal:6208689
+66.Dark Drawのサンドボックスポータル : portal:5328331
+67.貯金BAGOooN！ : portal:6206642
+68.Dr_Kudoの漬け場 : portal:6198158
+69.dainozaurs営巣地 : portal:6166994
+70.Dara999のサンドボックスポータル : portal:6152898
+71.nemed_2019のサンドボックスポータル : portal:5941499
+72.黙るの書き散らし : portal:6112679
+73.punch : portal:6057712
+74.domino611のサンドボックスポータル : portal:6035451
+75.アイデアの下書き達 : portal:3990555
+76.Dr.Yの新規保護SCP研究資料 : portal:5986776
+77.doctorkross : portal:5961554
+78.den_wgC73NFT9Iのサンドボックスポータル : portal:3321143
+79.救世手 : portal:3150220
+80.籠城戦 : portal:4394677
+Fail in application running on SearchHandler.SearchSandboxAsync
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 既存の接続はリモート ホストに強制的に切断されました。.
+ ---> System.Net.Sockets.SocketException (10054): 既存の接続はリモート ホストに強制的に切断されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at SCPF.SearchHandler.SearchSandboxAsync(String tag, Boolean name)
+   at ConsoleAppFramework.WithFilterInvoker.RunCore(ConsoleAppContext _)
+   at ConsoleAppFramework.WithFilterInvoker.InvokeAsync()
+   at ConsoleAppFramework.ConsoleAppEngine.RunCore(Type type, MethodInfo methodInfo, Object instance, String[] args, Int32 argsOffset)
+   at ConsoleAppFramework.ConsoleAppEngine.RunCore(Type type, MethodInfo methodInfo, Object instance, String[] args, Int32 argsOffset)
