@@ -3,9 +3,10 @@ $folder = './others/prepare/';
 $file = '.ftml';
 $forum = '.forum.ftml';
 function Post($name, $title, $tags) {
-./SCP.exe page upload $branch apas "${folder}${name}${file}" --title $title;
-./SCP.exe page update-tags $branch apas $tags;
-./SCP.exe forum post-page $branch apas "${folder}${name}${forum}" --file;
+$filename = $name.Replace(':', ' ');
+./SCP.exe page upload $branch $name "${folder}${filename}${file}" --title $title;
+./SCP.exe page update-tags $branch $name $tags;
+./SCP.exe forum post-page $branch $name "${folder}${filename}${forum}" --file;
 }
 
 Post('apas', '自動パッシブ記憶処理システム Ver. 17.09', 'en tale 深淵目録');
@@ -18,3 +19,4 @@ $url = "fragment:apas-${i}";
 
 Post('he-who-screws-with-reality', '現実玩弄者である彼は', 'en tale 深淵目録');
 Post('note-your-name-is-nobody', 'メモ: あなたの名前は「何者でもない」', 'en goi-format 何者でもない _何者でもない 放浪者の図書館');
+Post('scp-4175', 'SCP-4175', 'en scp esoteric-class 深淵目録 シメリアン博士 倫理委員会 人間型 知性')
