@@ -30,8 +30,8 @@ Post('without-you', 'アンタがいないとなあ', 'en tale');
 Post('somnambulant-directives-take-the-helm', '夢見指令権力掌握', 'en tale 深淵目録');
 Post('scp-4175', 'SCP-4175', 'en scp esoteric-class 深淵目録 シメリアン博士 倫理委員会 人間型 知性');
 Post('scp-4260', 'SCP-4260', 'en scp euclid 深淵目録 k-クラスシナリオ エントロピー 人間型 現実改変 蘇生 管理者');
-PostParent('fragment:scp-4260-0', 'SCP-4260 - Level 2/4260', 'en フラグメント', 'scp-4260');
-PostParent('fragment:scp-4260-1', 'SCP-4260 - Level 5/4260', 'en フラグメント', 'scp-4260');
+PostParent('fragment:scp-4260-0', 'SCP-4260 - レベル2/4260', 'en フラグメント', 'scp-4260');
+PostParent('fragment:scp-4260-1', 'SCP-4260 - レベル5/4260', 'en フラグメント', 'scp-4260');
 Post('scp-4855', 'SCP-4855', 'en scp euclid 深淵目録 生命 認識災害 人間型 情報災害 ミーム 精神影響 神経 知性 自我');
 Post('scp-5097', 'SCP-5097', 'en scp esoteric-class 深淵目録 外部エントロピー 財団製 人間型 時空間 未収容 非現実部門');
 Post('scp-5576', 'SCP-5576', 'en scp euclid 深淵目録 共著 生命 人間型 蘇生 知性 自我 時間');
@@ -42,3 +42,6 @@ PostParent('fragment:scp-5947-2', 'SCP-5947', 'en フラグメント', 'scp-5947
 PostParent('fragment:scp-5947-3', '自動監視記録', 'en フラグメント', 'scp-5947');
 Post('scp-6086', 'SCP-6086', 'en scp neutralized 深淵目録 生命 art-exchange 倫理委員会 人間型 蘇生 知性 自己修復 自我 アダルト');
 Post('scp-6113', 'SCP-6113', 'en scp esoteric-class 深淵目録 生命 シメリアン博士 倫理委員会 幻覚 人間型 知識 可視光 液体 場所 変身 観測 現実改変 知性 自我 瞬間移動 変容 未収容');
+for ($i = 0; $i -lt 5; $i++) {
+    PostParent("fragment:scp-6113-${i}", "scp-6113-${i}", 'en フラグメント', 'scp-6113');
+}

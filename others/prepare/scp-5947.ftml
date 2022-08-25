@@ -23,10 +23,6 @@ fragment:scp-5947-3
 .meta-title p {
   margin: 0;
 }
-
-span.o {
-    color: blue;
-}
 [[/module]]
 [[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
 %%content%%
