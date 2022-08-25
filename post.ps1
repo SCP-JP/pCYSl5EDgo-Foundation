@@ -7,8 +7,13 @@ echo "delete ${name}";
 function PostParent([string]$name, [string]$title, [string]$tags, [string]$parent) {
 echo "post ${name}";
 $filename = $name.Replace(':', ' ');
-./SCP.exe page upload ${branch} ${name} "./others/prepare/${filename}.ftml" --title "${title}" --parent "${parent}";
+./SCP.exe page upload ${branch} ${name} "./others/prepare/${filename}.ftml" --title "${title}" --parent-page "${parent}";
 ./SCP.exe page update-tags ${branch} ${name} "${tags}";
+}
+
+function SetParent([string]$name, [string]$parent) {
+echo "set parent ${name}";
+./SCP.exe page update-parent-page ${branch} ${name} ${parent};
 }
 
 function Post([string]$name, [string]$title, [string]$tags) {
@@ -82,32 +87,45 @@ $filename = $name.Replace(':', ' ');
 #     PostParent "fragment:apas-${i}" "apas-${i}" 'en フラグメント' 'apas';
 # }
 
-PostForum 'note-your-name-is-nobody';
-PostForum 'he-who-screws-with-reality';
-PostForum 'somnambulant-directives-take-the-helm';
-PostForum 'systems-patch';
-PostForum 'test-subjects';
+# PostForum 'note-your-name-is-nobody';
+# PostForum 'he-who-screws-with-reality';
+# PostForum 'somnambulant-directives-take-the-helm';
+# PostForum 'systems-patch';
+# PostForum 'test-subjects';
 # PostForum 'without-you';
-PostForum 'apas' ;
-PostForum 'hurt' ;
-PostForum 'scp-4175';
-PostForum 'scp-4260';
-PostForum 'scp-4855';
-PostForum 'scp-5097';
-PostForum 'scp-5576';
-PostForum 'scp-5715';
-PostForum 'scp-5947';
-PostForum 'scp-6086';
-PostForum 'scp-6113';
-for ($i = 0; $i -lt 2; $i++) {
-    PostForum "fragment:scp-4260-${i}";
-}
-for ($i = 1; $i -lt 4; $i++) {
-    PostForum "fragment:scp-5947-${i}";
-}
-for ($i = 0; $i -lt 5; $i++) {
-    PostForum "fragment:scp-6113-${i}";
-}
-for ($i = 0; $i -lt 5; $i++) {
-    PostForum "fragment:apas-${i}";
-}
+# PostForum 'apas' ;
+# PostForum 'hurt' ;
+# PostForum 'scp-4175';
+# PostForum 'scp-4260';
+# PostForum 'scp-4855';
+# PostForum 'scp-5097';
+# PostForum 'scp-5576';
+# PostForum 'scp-5715';
+# PostForum 'scp-5947';
+# PostForum 'scp-6086';
+# PostForum 'scp-6113';
+# for ($i = 0; $i -lt 2; $i++) {
+#     PostForum "fragment:scp-4260-${i}";
+# }
+# for ($i = 1; $i -lt 4; $i++) {
+#     PostForum "fragment:scp-5947-${i}";
+# }
+# for ($i = 0; $i -lt 5; $i++) {
+#     PostForum "fragment:scp-6113-${i}";
+# }
+# for ($i = 0; $i -lt 5; $i++) {
+#     PostForum "fragment:apas-${i}";
+# }
+
+# for ($i = 0; $i -lt 2; $i++) {
+#     SetParent "fragment:scp-4260-${i}" 'scp-4260';
+# }
+# for ($i = 1; $i -lt 4; $i++) {
+#     SetParent "fragment:scp-5947-${i}" 'scp-5947';
+# }
+# for ($i = 0; $i -lt 5; $i++) {
+#     SetParent "fragment:scp-6113-${i}" 'scp-6113';
+# }
+# for ($i = 0; $i -lt 5; $i++) {
+#     SetParent "fragment:apas-${i}" 'apas';
+# }
