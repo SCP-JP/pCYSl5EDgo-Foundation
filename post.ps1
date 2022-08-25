@@ -26,3 +26,4 @@ Post('scp-5097', 'SCP-5097', 'en scp esoteric-class 深淵目録 外部エント
 Post('scp-5576', 'SCP-5576', 'en scp euclid 深淵目録 共著 生命 人間型 蘇生 知性 自我 時間');
 Post('scp-5715', 'SCP-5715', 'en scp keter 深淵目録 k-クラスシナリオ 生命 不定形 人間型 pattern-screamer 知性 自我 時間');
 Post('scp-5947', 'SCP-5947', 'en scp thaumiel 深淵目録 共著 動物 死体 外部エントロピー exquisite-corpse2020 食物 破壊不可能 mc&d 何者でもない 魚類 自己複製 画像差し止め');
+Post('scp-6086', 'SCP-6086', 'en scp neutralized 深淵目録 生命 art-exchange 倫理委員会 人間型 蘇生 知性 自己修復 自我 アダルト');
