@@ -31,6 +31,7 @@ for ($i = 0; $i -lt 5; $i++) {
 Post('he-who-screws-with-reality', '現実玩弄者である彼は', 'en tale 深淵目録');
 Post('systems-patch', 'システムパッチ', 'en tale 深淵目録');
 Post('test-subjects', '「実験対象」(B82SW/9KL74/Y4P1K)', 'en goi-format 深淵目録 _mc&d アイリス・ダーク mc&d プロメテウス サーキック');
+Post('hurt', '愛別離苦', 'en tale 深淵目録 批評者スポットライト');
 Post('scp-4175', 'SCP-4175', 'en scp esoteric-class 深淵目録 シメリアン博士 倫理委員会 人間型 知性');
 Post('scp-4260', 'SCP-4260', 'en scp euclid 深淵目録 k-クラスシナリオ エントロピー 人間型 現実改変 蘇生 管理者');
 Post('scp-4855', 'SCP-4855', 'en scp euclid 深淵目録 生命 認識災害 人間型 情報災害 ミーム 精神影響 神経 知性 自我');
