@@ -1,4 +1,5 @@
 $branch = 'pcysl';
+$folder = './trans/prepare/';
 function DeleteF([string]$name) {
 echo "delete ${name}";
 ./SCP.exe page delete ${branch} ${name} --hard;
@@ -7,7 +8,7 @@ echo "delete ${name}";
 function PostParent([string]$name, [string]$title, [string]$tags, [string]$parent) {
 echo "post ${name}";
 $filename = $name.Replace(':', ' ');
-./SCP.exe page upload ${branch} ${name} "./others/prepare/${filename}.ftml" --title "${title}" --parent-page "${parent}";
+./SCP.exe page upload ${branch} ${name} "${folder}${filename}.ftml" --title "${title}" --parent-page "${parent}";
 ./SCP.exe page update-tags ${branch} ${name} "${tags}";
 }
 
@@ -19,14 +20,14 @@ echo "set parent ${name}";
 function Post([string]$name, [string]$title, [string]$tags) {
 echo "post ${name}";
 $filename = $name.Replace(':', ' ');
-./SCP.exe page upload ${branch} ${name} "./others/prepare/${filename}.ftml" --title "${title}";
+./SCP.exe page upload ${branch} ${name} "${folder}${filename}.ftml" --title "${title}";
 ./SCP.exe page update-tags ${branch} ${name} "${tags}";
 }
 
 function PostForum([string]$name) {
 echo "post forum ${name}";
 $filename = $name.Replace(':', ' ');
-./SCP.exe forum post-page ${branch} ${name} "./others/prepare/${filename}.forum.ftml" --file --title 'オーサーポスト及びライセンス表記';
+./SCP.exe forum post-page ${branch} ${name} "${folder}${filename}.forum.ftml" --file --title 'オーサーポスト及びライセンス表記';
 }
 
 # DeleteF 'note-your-name-is-nobody';
