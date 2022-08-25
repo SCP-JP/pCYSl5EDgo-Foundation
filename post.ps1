@@ -17,3 +17,4 @@ $url = "fragment:apas-${i}";
 }
 
 Post('he-who-screws-with-reality', '現実玩弄者である彼は', 'en tale 深淵目録');
+Post('note-your-name-is-nobody', 'メモ: あなたの名前は「何者でもない」', 'en goi-format 何者でもない _何者でもない 放浪者の図書館');
