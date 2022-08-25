@@ -1,7 +1,7 @@
 [[div class="meta-title"]]
 SCP-5947
 [[/div]]
-[[%%content{0}%%module css]]
+[[module css]]
 .email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 a.collapsible-block-link { font-weight: bold; }
 .tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
@@ -28,10 +28,10 @@ a.collapsible-block-link { font-weight: bold; }
     }
 }
 
-[[%%content{0}%%/module]]
+[[/module]]
 [!-- 自動通知 --]
 [!-- 命令に従い、全ての関連文書を以下に収集しました。当たり前ですがあなたのセキュリティクリアランスの範囲内のものです。スミス管理官の助けとなることを望みます。ご利用ありがとうございました！ --]
-[[%%content{0}%%include :topia:kaktus-header |head=%E8%87%AA%E5%8B%95%E9%80%9A%E7%9F%A5|desc=%E5%91%BD%E4%BB%A4%E3%81%AB%E5%BE%93%E3%81%84%E3%80%81%E5%85%A8%E3%81%A6%E3%81%AE%E9%96%A2%E9%80%A3%E6%96%87%E6%9B%B8%E3%82%92%E4%BB%A5%E4%B8%8B%E3%81%AB%E5%8F%8E%E9%9B%86%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%E5%BD%93%E3%81%9F%E3%82%8A%E5%89%8D%E3%81%A7%E3%81%99%E3%81%8C%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%A9%E3%83%B3%E3%82%B9%E3%81%AE%E7%AF%84%E5%9B%B2%E5%86%85%E3%81%AE%E3%82%82%E3%81%AE%E3%81%A7%E3%81%99%E3%80%82%E3%82%B9%E3%83%9F%E3%82%B9%E7%AE%A1%E7%90%86%E5%AE%98%E3%81%AE%E5%8A%A9%E3%81%91%E3%81%A8%E3%81%AA%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%9C%9B%E3%81%BF%E3%81%BE%E3%81%99%E3%80%82%E3%81%94%E5%88%A9%E7%94%A8%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81|num=-SILVERFISH.aic]]
+[[include :topia:kaktus-header |head=%E8%87%AA%E5%8B%95%E9%80%9A%E7%9F%A5|desc=%E5%91%BD%E4%BB%A4%E3%81%AB%E5%BE%93%E3%81%84%E3%80%81%E5%85%A8%E3%81%A6%E3%81%AE%E9%96%A2%E9%80%A3%E6%96%87%E6%9B%B8%E3%82%92%E4%BB%A5%E4%B8%8B%E3%81%AB%E5%8F%8E%E9%9B%86%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%E5%BD%93%E3%81%9F%E3%82%8A%E5%89%8D%E3%81%A7%E3%81%99%E3%81%8C%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%A9%E3%83%B3%E3%82%B9%E3%81%AE%E7%AF%84%E5%9B%B2%E5%86%85%E3%81%AE%E3%82%82%E3%81%AE%E3%81%A7%E3%81%99%E3%80%82%E3%82%B9%E3%83%9F%E3%82%B9%E7%AE%A1%E7%90%86%E5%AE%98%E3%81%AE%E5%8A%A9%E3%81%91%E3%81%A8%E3%81%AA%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%9C%9B%E3%81%BF%E3%81%BE%E3%81%99%E3%80%82%E3%81%94%E5%88%A9%E7%94%A8%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81|num=-SILVERFISH.aic]]
 
 ----
 ----
@@ -67,7 +67,7 @@ a.collapsible-block-link { font-weight: bold; }
 [[/=]]
 [[/div]]
 
-[[%%content{0}%%include :scp-wiki:component:cd-ver2
+[[include :scp-wiki:component:cd-ver2
 |lv=1
 |item=SCP-5947
 |class=Euclid
@@ -81,7 +81,7 @@ a.collapsible-block-link { font-weight: bold; }
 
 **特別収容プロトコル:** SCP-5947はサイト-90チャンバー02の冷凍ロッカー内に保管されます。毎週収容人員がSCP-5947-1を他のSCP-5947から同定し隔離します。残りのSCP-5947実例はすり身となるまですり潰されて適切に使用されるか廃棄されます。
 
-[[%%content{0}%%include :scp-jp:component:image-block name=http://scp-jp-storage.wikidot.com/local--files/file:7974444-63-wk8g/fishfood.jpg | caption=SCP-5947]]
+[[include :scp-jp:component:image-block name=http://scp-jp-storage.wikidot.com/local--files/file:7974444-63-wk8g/fishfood.jpg | caption=SCP-5947]]
 
 **説明:** SCP-5497とはその中の1つ(SCP-5497-1)が破壊不可能である乾燥アンチョビの集合に対する指定です。1日2回、真夜中と正午に、SCP-5947の全ての無傷な実例が同一の乾燥アンチョビ2つに分裂します。
 @@@@

@@ -1,7 +1,7 @@
-[[%%content{0}%%include :scp-wiki:theme:black-highlighter-theme]]
-[[%%content{0}%%include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
 
-[[%%content{0}%%include :scp-jp:component:anomaly-class-bar-source
+[[include :scp-jp:component:anomaly-class-bar-source
 |item-number= 6113
 |clearance= 2
 |container-class= esoteric
@@ -32,7 +32,7 @@
 [[collapsible show="［ファイル6113-1にアクセス］" hide="［ファイルを閉じる］"]]
 [[<]]
 [[div class="block-6113-1"]]
-[[%%content{0}%%include :scp-wiki:component:customizable-acs
+[[include :scp-wiki:component:customizable-acs
 |containment-class= keter
 |containment-image= http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/keter-icon.svg
 |containment-color= 196,2,51
@@ -40,7 +40,7 @@
 
 [[div class="anom-bar-esoteric"]]
 
-[[%%content{0}%%include :scp-jp:component:anomaly-class-bar-source
+[[include :scp-jp:component:anomaly-class-bar-source
 |item-number= 6113-1
 |clearance= 2
 |container-class= keter
@@ -74,7 +74,7 @@ SCP-6113-1はこれまで以下のように観察されてきました。
 [[collapsible show="［ファイル6113-2にアクセス］" hide="［ファイルを閉じる］"]]
 [[<]]
 [[div class="block-6113-1"]]
-[[%%content{0}%%include :scp-wiki:component:customizable-acs
+[[include :scp-wiki:component:customizable-acs
 |containment-class= safe
 |containment-image= http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/safe-icon.svg
 |containment-color= 0,159,107
@@ -82,7 +82,7 @@ SCP-6113-1はこれまで以下のように観察されてきました。
 
 [[div class="anom-bar-esoteric"]]
 
-[[%%content{0}%%include :scp-jp:component:anomaly-class-bar-source
+[[include :scp-jp:component:anomaly-class-bar-source
 |item-number= 6113-2
 |clearance= 2
 |container-class= safe
@@ -94,7 +94,7 @@ SCP-6113-1はこれまで以下のように観察されてきました。
 
 [[/div]]
 -----
-[[%%content{0}%%include :scp-jp:component:image-block
+[[include :scp-jp:component:image-block
 | name=http://scp-jp-storage.wikidot.com/local--files/file:7974444-55-loio/6113-2-prime
 | caption=SCP-6113-2
 |width=100%

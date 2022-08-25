@@ -1,20 +1,57 @@
 $branch = 'pcysl';
+function DeleteF([string]$name) {
+echo "delete ${name}";
+./SCP.exe page delete ${branch} ${name} --hard;
+}
+
 function PostParent([string]$name, [string]$title, [string]$tags, [string]$parent) {
+echo "post ${name}";
 $filename = $name.Replace(':', ' ');
 ./SCP.exe page upload ${branch} ${name} "./others/prepare/${filename}.ftml" --title "${title}" --parent "${parent}";
 ./SCP.exe page update-tags ${branch} ${name} "${tags}";
 }
 
 function Post([string]$name, [string]$title, [string]$tags) {
+echo "post ${name}";
 $filename = $name.Replace(':', ' ');
 ./SCP.exe page upload ${branch} ${name} "./others/prepare/${filename}.ftml" --title "${title}";
 ./SCP.exe page update-tags ${branch} ${name} "${tags}";
 }
 
 function PostForum([string]$name) {
+echo "post forum ${name}";
 $filename = $name.Replace(':', ' ');
 ./SCP.exe forum post-page ${branch} ${name} "./others/prepare/${filename}.forum.ftml" --file --title 'オーサーポスト及びライセンス表記';
 }
+
+# DeleteF 'note-your-name-is-nobody';
+# DeleteF 'he-who-screws-with-reality';
+# DeleteF 'somnambulant-directives-take-the-helm';
+# DeleteF 'systems-patch';
+# DeleteF 'test-subjects';
+# DeleteF 'apas';
+# DeleteF 'hurt';
+# DeleteF 'scp-4175';
+# DeleteF 'scp-4260';
+# DeleteF 'scp-4855';
+# DeleteF 'scp-5097';
+# DeleteF 'scp-5576';
+# DeleteF 'scp-5715';
+# DeleteF 'scp-5947';
+# DeleteF 'scp-6086';
+# DeleteF 'scp-6113';
+# for ($i = 0; $i -lt 2; $i++) {
+#     DeleteF "fragment:scp-4260-{i}";
+# }
+# for ($i = 1; $i -lt 4; $i++) {
+#     DeleteF "fragment:scp-5947-{i}";
+# }
+# for ($i = 0; $i -lt 5; $i++) {
+#     DeleteF "fragment:scp-6113-${i}";
+# }
+# for ($i = 0; $i -lt 5; $i++) {
+#     DeleteF "fragment:apas-${i}";
+# }
 
 Post 'note-your-name-is-nobody' 'メモ: あなたの名前は「何者でもない」' 'en goi-format 何者でもない _何者でもない 放浪者の図書館';
 Post 'he-who-screws-with-reality' '現実玩弄者である彼は' 'en tale 深淵目録';
@@ -45,31 +82,32 @@ for ($i = 0; $i -lt 5; $i++) {
     PostParent "fragment:apas-${i}" "apas-${i}" 'en フラグメント' 'apas';
 }
 
-PostForum 'note-your-name-is-nobody';
-PostForum 'he-who-screws-with-reality';
-PostForum 'somnambulant-directives-take-the-helm';
-PostForum 'systems-patch';
-PostForum 'test-subjects';
-PostForum 'without-you';
-PostForum 'apas' ;
-PostForum 'hurt' ;
-PostForum 'scp-4175';
-PostForum 'scp-4260';
-PostForum 'scp-4855';
-PostForum 'scp-5097';
-PostForum 'scp-5576';
-PostForum 'scp-5715';
-PostForum 'scp-5947';
-PostForum 'scp-6086';
-PostForum 'scp-6113';
-PostForum 'fragment:scp-4260-0';
-PostForum 'fragment:scp-4260-1';
-PostForum 'fragment:scp-5947-1';
-PostForum 'fragment:scp-5947-2';
-PostForum 'fragment:scp-5947-3';
-for ($i = 0; $i -lt 5; $i++) {
-    PostForum "fragment:scp-6113-${i}";
-}
-for ($i = 0; $i -lt 5; $i++) {
-    PostForum "fragment:apas-${i}";
-}
+# PostForum 'note-your-name-is-nobody';
+# PostForum 'he-who-screws-with-reality';
+# PostForum 'somnambulant-directives-take-the-helm';
+# PostForum 'systems-patch';
+# PostForum 'test-subjects';
+# PostForum 'without-you';
+# PostForum 'apas' ;
+# PostForum 'hurt' ;
+# PostForum 'scp-4175';
+# PostForum 'scp-4260';
+# PostForum 'scp-4855';
+# PostForum 'scp-5097';
+# PostForum 'scp-5576';
+# PostForum 'scp-5715';
+# PostForum 'scp-5947';
+# PostForum 'scp-6086';
+# PostForum 'scp-6113';
+# for ($i = 0; $i -lt 2; $i++) {
+#     PostForum "fragment:scp-4260-{i}";
+# }
+# for ($i = 1; $i -lt 4; $i++) {
+#     PostForum "fragment:scp-5947-{i}";
+# }
+# for ($i = 0; $i -lt 5; $i++) {
+#     PostForum "fragment:scp-6113-${i}";
+# }
+# for ($i = 0; $i -lt 5; $i++) {
+#     PostForum "fragment:apas-${i}";
+# }

@@ -24,14 +24,14 @@
     line-height: 20px;
     margin: 0;
 }
-[[%%content{0}%%/module]]
+[[/module]]
 
-[[%%content{0}%%include :scp-wiki:theme:black-highlighter-theme]]
-[[%%content{0}%%include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
 
-[[%%content{0}%%include :scp-wiki:component:pride-highlighter |inc-tg-alt= --]]]
+[[include :scp-wiki:component:pride-highlighter |inc-tg-alt= --]]]
 
-[[%%content{0}%%include :scp-jp:component:anomaly-class-bar-source
+[[include :scp-jp:component:anomaly-class-bar-source
 |item-number= 6113-3
 |clearance= 4
 |container-class= esoteric
@@ -151,19 +151,19 @@ SCP-6113-3とジェームズ・パーク博士の2人共が2つの文書と3つ�
 [[collapsible show="［添付ファイルにアクセス］" hide="［ファイルを閉じる］"]]
 [[div class="block-6113-1"]]
 
-[[%%content{0}%%include :scp-jp:component:image-block
+[[include :scp-jp:component:image-block
 | name=http://scp-jp-storage.wikidot.com/local--files/file:7974444-56-75gg/6113-2-a
 | caption=SCP-6113-2
 | width=100%
 | align=center]]
 @@ @@
-[[%%content{0}%%include :scp-jp:component:image-block
+[[include :scp-jp:component:image-block
 | name=http://scp-jp-storage.wikidot.com/local--files/file:7974444-57-vrch/6113-2-b
 | caption=SCP-6113-2
 | width=100%
 | align=center]]
 @@ @@
-[[%%content{0}%%include :scp-jp:component:image-block
+[[include :scp-jp:component:image-block
 | name=http://scp-jp-storage.wikidot.com/local--files/file:7974444-58-09z0/6113-2-c
 | caption=SCP-6113-2
 | width=100%
