@@ -23,3 +23,4 @@ Post('scp-4175', 'SCP-4175', 'en scp esoteric-class 深淵目録 シメリアン
 Post('scp-4260', 'SCP-4260', 'en scp euclid 深淵目録 エントロピー 人間型 k-クラスシナリオ 現実改変 蘇生 管理者');
 Post('scp-4855', 'SCP-4855', 'en scp euclid 深淵目録 生命 認識災害 人間型 情報災害 ミーム 精神影響 神経 知性 自我');
 Post('scp-5097', 'SCP-5097', 'en scp esoteric-class 深淵目録 外部エントロピー 財団製 人間型 時空間 未収容 非現実部門');
+Post('scp-5576', 'SCP-5576', 'en scp euclid 深淵目録 生命 共著 人間型 蘇生 知性 自我 時間');
