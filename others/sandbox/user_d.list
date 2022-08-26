@@ -78,21 +78,23 @@
 78.den_wgC73NFT9Iのサンドボックスポータル : portal:3321143
 79.救世手 : portal:3150220
 80.籠城戦 : portal:4394677
-Fail in application running on SearchHandler.SearchSandboxAsync
-System.Net.Http.HttpRequestException: An error occurred while sending the request.
- ---> System.IO.IOException: Unable to read data from the transport connection: 既存の接続はリモート ホストに強制的に切断されました。.
- ---> System.Net.Sockets.SocketException (10054): 既存の接続はリモート ホストに強制的に切断されました。
-   --- End of inner exception stack trace ---
-   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
-   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
-   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
-   --- End of inner exception stack trace ---
-   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
-   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
-   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
-   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
-   at SCPF.SearchHandler.SearchSandboxAsync(String tag, Boolean name)
-   at ConsoleAppFramework.WithFilterInvoker.RunCore(ConsoleAppContext _)
-   at ConsoleAppFramework.WithFilterInvoker.InvokeAsync()
-   at ConsoleAppFramework.ConsoleAppEngine.RunCore(Type type, MethodInfo methodInfo, Object instance, String[] args, Int32 argsOffset)
-   at ConsoleAppFramework.ConsoleAppEngine.RunCore(Type type, MethodInfo methodInfo, Object instance, String[] args, Int32 argsOffset)
+81.DrToriumiのサンドボックスポータル : portal:5384512
+82.DrClipperのサンドボックス : portal:5712708
+83.donkatoyuのページ : portal:5408374
+84.なつきち博士のHDD : portal:4627555
+85.今志賀田研究員の覚え書き : portal:4163209
+86.Dahune Riverのサンドボックスポータル : portal:5610970
+87.dawn_ddsのサンドボックスポータル : portal:4348492
+88.Drkoukichiの砂遊び場 : portal:5340751
+89.dokumohuのサンドボックスポータル : portal:5548109
+90.DrMOROKATUのサンドボックスポータル : portal:5534137
+91.未分類文庫 : portal:5518145
+92.Dtherのサンドボックスポータル : portal:5046472
+93.darenya : portal:5399017
+94.SCP-XXXX-JP　お望みどおりに : portal:5350652
+95.darutyonのサンドボックスポータル : portal:4869196
+96.doranosuのサンドボックスポータル : portal:4745888
+97.DrAkitsushima : portal:3845385
+98.DogDebugの図書館 : portal:4526282
+99.Dottssa_Riba_Nahiのサンドボックスポータル : portal:4266021
+100.dr_torayaのサンドボックスポータル : portal:1869219
