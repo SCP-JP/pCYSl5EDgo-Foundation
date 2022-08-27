@@ -30,34 +30,34 @@ $filename = $name.Replace(':', ' ');
 ./SCP.exe forum post-page ${branch} ${name} "${folder}${filename}.forum.ftml" --file --title 'オーサーポスト及びライセンス表記';
 }
 
-# DeleteF 'note-your-name-is-nobody';
-# DeleteF 'he-who-screws-with-reality';
-# DeleteF 'somnambulant-directives-take-the-helm';
-# DeleteF 'systems-patch';
-# DeleteF 'test-subjects';
-# DeleteF 'apas';
-# DeleteF 'hurt';
-# DeleteF 'scp-4175';
-# DeleteF 'scp-4260';
-# DeleteF 'scp-4855';
-# DeleteF 'scp-5097';
-# DeleteF 'scp-5576';
-# DeleteF 'scp-5715';
-# DeleteF 'scp-5947';
-# DeleteF 'scp-6086';
-# DeleteF 'scp-6113';
-# for ($i = 0; $i -lt 2; $i++) {
-#     DeleteF "fragment:scp-4260-${i}";
-# }
-# for ($i = 1; $i -lt 4; $i++) {
-#     DeleteF "fragment:scp-5947-${i}";
-# }
-# for ($i = 0; $i -lt 5; $i++) {
-#     DeleteF "fragment:scp-6113-${i}";
-# }
-# for ($i = 0; $i -lt 5; $i++) {
-#     DeleteF "fragment:apas-${i}";
-# }
+DeleteF 'note-your-name-is-nobody';
+DeleteF 'he-who-screws-with-reality';
+DeleteF 'somnambulant-directives-take-the-helm';
+DeleteF 'systems-patch';
+DeleteF 'test-subjects';
+DeleteF 'apas';
+DeleteF 'hurt';
+DeleteF 'scp-4175';
+DeleteF 'scp-4260';
+DeleteF 'scp-4855';
+DeleteF 'scp-5097';
+DeleteF 'scp-5576';
+DeleteF 'scp-5715';
+DeleteF 'scp-5947';
+DeleteF 'scp-6086';
+DeleteF 'scp-6113';
+for ($i = 0; $i -lt 2; $i++) {
+    DeleteF "fragment:scp-4260-${i}";
+}
+for ($i = 1; $i -lt 4; $i++) {
+    DeleteF "fragment:scp-5947-${i}";
+}
+for ($i = 0; $i -lt 5; $i++) {
+    DeleteF "fragment:scp-6113-${i}";
+}
+for ($i = 0; $i -lt 5; $i++) {
+    DeleteF "fragment:apas-${i}";
+}
 
 # Post 'note-your-name-is-nobody' 'メモ: あなたの名前は「何者でもない」' 'en goi-format 何者でもない _何者でもない 放浪者の図書館';
 # Post 'he-who-screws-with-reality' '現実玩弄者である彼は' 'en tale 深淵目録';
