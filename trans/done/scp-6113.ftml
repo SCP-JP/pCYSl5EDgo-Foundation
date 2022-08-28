@@ -42,7 +42,7 @@ table.wiki-content-table th span.o {
 + 査読者の方へ
 査読文が1000文字以内または50行未満である場合、PMに送信していただけると助かります。
 
-[[include :scp-wiki:component:info-ayers
+[[include :scp-jp:component:info-ayers
 |lang=jp
 |page=scp-6113
 |authorPage=https://scp-wiki.wikidot.com/secure-facility-dossier-ex-site-26
@@ -54,8 +54,8 @@ table.wiki-content-table th span.o {
 [[/>]]
 
 [[module ListPages offset="@URL|0" range="."]]
-[[%%content{0}%%include :scp-wiki:theme:black-highlighter-theme]]
-[[%%content{0}%%include :scp-wiki:component:bhl-dark-sidebar]]
+[[%%content{0}%%include :scp-jp:theme:black-highlighter-theme]]
+[[%%content{0}%%include :scp-jp:component:bhl-dark-sidebar]]
 
 [[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
 [[=]]
@@ -107,7 +107,7 @@ SCP-6113の影響を受けたトランスジェンダー(以後「対象」と�
 [[collapsible show="［ファイル6113-1にアクセス］" hide="［ファイルを閉じる］"]]
 [[<]]
 [[div class="block-6113-1"]]
-[[%%content{0}%%include :scp-wiki:component:customizable-acs
+[[%%content{0}%%include :scp-jp:component:customizable-acs
 |containment-class= keter
 |containment-image= http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/keter-icon.svg
 |containment-color= 196,2,51
@@ -252,10 +252,10 @@ SCP-6113-1はこの時、対象に対して湖面に映る自身の反射を見�
 [[/div]]
 [[/module]]
 [[module ListPages limit="@URL|0" range="." urlAttrPrefix="page2"]]
-[[%%content{0}%%include :scp-wiki:theme:black-highlighter-theme]]
-[[%%content{0}%%include :scp-wiki:component:bhl-dark-sidebar]]
+[[%%content{0}%%include :scp-jp:theme:black-highlighter-theme]]
+[[%%content{0}%%include :scp-jp:component:bhl-dark-sidebar]]
 
-[[%%content{0}%%include :scp-wiki:component:customizable-acs
+[[%%content{0}%%include :scp-jp:component:customizable-acs
 |containment-class= euclid
 |containment-image= http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg
 |containment-color= 255,211,0
@@ -1718,12 +1718,12 @@ SCP-6113自体による財団の介入なしでの新たな状態の確立に対
 .tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
 [[%%content{0}%%/module]]
 
-[[%%content{0}%%include :scp-wiki:theme:black-highlighter-theme]]
-[[%%content{0}%%include :scp-wiki:component:bhl-dark-sidebar]]
+[[%%content{0}%%include :scp-jp:theme:black-highlighter-theme]]
+[[%%content{0}%%include :scp-jp:component:bhl-dark-sidebar]]
 
 [[%%content{0}%%include :scp-wiki:component:pride-highlighter |inc-tg-alt= --]]]
 
-[[%%content{0}%%include :scp-wiki:component:customizable-acs
+[[%%content{0}%%include :scp-jp:component:customizable-acs
 |containment-class= euclid
 |containment-image= http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg
 |containment-color= 255,211,0
@@ -1944,8 +1944,8 @@ Nintendo Switchおよび各種ゲーム ［承認］
 [[/div]]
 [[/module]]
 [[module ListPages limit="@URL|0" range="." urlAttrPrefix="page4"]]
-[[%%content{0}%%include :scp-wiki:theme:black-highlighter-theme]]
-[[%%content{0}%%include :scp-wiki:component:bhl-dark-sidebar]]
+[[%%content{0}%%include :scp-jp:theme:black-highlighter-theme]]
+[[%%content{0}%%include :scp-jp:component:bhl-dark-sidebar]]
 
 [[%%content{0}%%include :scp-jp:component:anomaly-class-bar-source
 |item-number= 6113
@@ -1987,7 +1987,7 @@ SCP-6113の影響を受けたトランスジェンダー(以後「対象」と�
 [[collapsible show="［ファイル6113-1にアクセス］" hide="［ファイルを閉じる］"]]
 [[<]]
 [[div class="block-6113-1"]]
-[[%%content{0}%%include :scp-wiki:component:customizable-acs
+[[%%content{0}%%include :scp-jp:component:customizable-acs
 |containment-class= keter
 |containment-image= http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/keter-icon.svg
 |containment-color= 196,2,51
@@ -2037,7 +2037,7 @@ SCP-6113-1のこれまでの観察記録は以下の通りです。
 [[collapsible show="［ファイル6113-2にアクセス］" hide="［ファイルを閉じる］"]]
 [[<]]
 [[div class="block-6113-1"]]
-[[%%content{0}%%include :scp-wiki:component:customizable-acs
+[[%%content{0}%%include :scp-jp:component:customizable-acs
 |containment-class= safe
 |containment-image= http://scp-jp.wikidot.com/local--files/component:anomaly-class-bar/safe-icon.svg
 |containment-color= 0,159,107
@@ -2144,8 +2144,8 @@ SCP-6113-1はこの時、対象に対して湖面に映る自身の反射を見�
 }
 [[%%content{0}%%/module]]
 
-[[%%content{0}%%include :scp-wiki:theme:black-highlighter-theme]]
-[[%%content{0}%%include :scp-wiki:component:bhl-dark-sidebar]]
+[[%%content{0}%%include :scp-jp:theme:black-highlighter-theme]]
+[[%%content{0}%%include :scp-jp:component:bhl-dark-sidebar]]
 
 [[%%content{0}%%include :scp-wiki:component:pride-highlighter |inc-tg-alt= --]]]
 
