@@ -1,0 +1,66 @@
+[[module CSS]]
+/* OUTER FRAME */
+ div.void{
+     width: 23rem;
+     margin: 1em auto;
+     padding: 0 .8em;
+
+     color: hsl(0, 0%, 5%);
+     background: hsl(0, 0%, 100%);
+     border: 1px solid lightgray;
+     box-shadow: 3px 3px 0 1px hsla(0, 0%, 0%, .15);
+}
+
+ @media (max-width: 767px){
+     div.void{
+          width: auto;
+    }
+}
+
+ div.void span{
+     word-break: unset;
+}
+
+ div.void ul{
+     list-style-type: "ₒ৹๐ ";
+}
+
+/* PROFILE PICTURE */
+ .void-img{
+     float: left;
+     margin: 1em 0 0 .4em;
+     padding: 0 1em;
+}
+
+/* VOID TRENDS */
+ .vactivity{
+     color: blue;
+     cursor: pointer;
+}
+
+ .vactivity span{
+     word-break: unset;
+}
+
+ .vactivity:hover,
+ .vactivity:focus{
+     text-decoration: underline;
+}
+[[/module]]
+
+[[div class="void dark"]]
+[[span class="void-img"]]
+[[image {$profile-pic} style="width: 50px"]]
+[[/span]]
+@@ @@
+[[span style="color: #767676; font-size: 150%" class="vusermod"]]{$username}[[/span]]
+[[span style="color: #767676; font-size: 150%" class="vui"]]⁂{$handle}[[/span]]
+@@ @@
+@@ @@
+[[span style="font-size: 130%"]]{$void-msg}[[/span]]
+@@ @@
+* [[span style="color: #767676; font-size: 80%" class="vui"]]ECHOES@@ @@[[/span]][[span class="vactivity" style="font-size: 110%; font-weight: bold"]]{$echoes}[[/span]]
+* [[span style="color: #767676; font-size: 80%" class="vui"]]HUMS@@ @@[[/span]][[span class="vactivity" style="font-size: 110%; font-weight: bold"]]{$hums}[[/span]]
+@@ @@
+[[span style="color: #767676; font-size: 80%" class="vui"]]{$time-and-date}[[/span]]
+[[/div]]

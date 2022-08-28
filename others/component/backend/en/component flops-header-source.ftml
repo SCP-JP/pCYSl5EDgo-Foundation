@@ -1,0 +1,86 @@
+[[module CSS]]
+/* To see this in action, go here:
+ *   https://scp-wiki.wikidot.com/component:flops-header
+**/
+
+/* ---- ITEM INFO ---- */
+ .itemInfo{
+     position: relative;
+     top: .5em;
+     width: 100%;
+
+     font-size: 135%;
+     text-transform: uppercase;
+     white-space: nowrap;
+}
+
+ .itemInfoHeading{
+     font-weight: 900;
+}
+
+ .alignL{
+     position: relative;
+     right: .195em;
+}
+
+ .alignR{
+     position: relative;
+     left: .195em;
+
+     text-align: right;
+}
+
+ .infofield_1,
+ .infofield_2{
+     font-weight: inherit;
+}
+
+/* ---- DISRUPTION CLASS ---- */
+ a.disruptionHeader{
+     display: inline-block;
+     width: 100%;
+     padding: .3em 0 .4em;
+
+     color: hsl(0, 0%, 91.5%);
+     transition: color .15s linear;
+
+     font-size: 145%;
+     line-height: 1;
+     text-align: center;
+     text-decoration: none;
+     text-shadow:
+          .5px    .9px  0 hsla(0, 0%, 0%, .3),
+        1.5px   2.6px  0 hsla(0, 0%, 0%, .3);
+     text-transform: uppercase;
+}
+
+ a.disruptionHeader:hover{
+     color: white;
+     background-color: transparent;
+
+     text-decoration: none;
+}
+[[/module]]
+
+[[div]]
+[[table class="itemInfo darkbox"]]
+  [[row]]
+    [[cell class="alignL"]]
+      [[span class="itemInfoHeading bt"]][[span class="infofield_1"]]ITEM NUMBER:[[/span]][[/span]]@@ @@SCP-{$item}
+    [[/cell]]
+    [[cell class="alignR"]]
+      [[span class="itemInfoHeading bt"]]LEVEL {$level}/{$item}[[/span]]
+    [[/cell]]
+  [[/row]]
+  [[row]]
+    [[cell class="alignL"]]
+      [[span class="itemInfoHeading bt bh"]][[span class="infofield_2 bh"]]CONTAINMENT CLASS:[[/span]][[/span]]@@ @@{$containment}
+    [[/cell]]
+    [[cell class="alignR"]]
+      [[span class="itemInfoHeading bt"]]{$security}[[/span]]
+    [[/cell]]
+  [[/row]]
+[[/table]]
+
+[[a href="*/anomaly-classification-system-guide" class="disruptionHeader" style="background-color: {$disruption-bg-color};"]][[span style="font-weight: 900;"]]DISRUPTION CLASS:[[/span]]@@ @@{$disruption}[[/a]]
+[[/div]]

@@ -1,0 +1,266 @@
+[[iftags -component-backend]]
+[[module css]]
+.scp-hover-box.{$container-number}::before,
+.scp-hover-box.{$container-number} div.container, 
+.scp-hover-box.{$container-number} div.header {
+    --notch-size: {$corner-cutout};
+}
+
+div.scp-hover-box.{$container-number} .container {
+    --container-bgcolor: {$container-bgcolor};
+    --container-txtcolor: {$container-txtcolor};
+    background-color: var(--container-bgcolor, {$container-bgcolor});
+    color: var(--container-txtcolor, {$container-txtcolor});
+}
+
+div.scp-hover-box.{$container-number} .container:hover {
+    --container-hover-bgcolor: {$container-hover-bgcolor};
+    --container-hover-txtcolor: {$container-hover-txtcolor};
+    background-color: var(--container-hover-bgcolor, {$container-hover-bgcolor});
+    color: var(--container-hover-txtcolor, {$container-hover-txtcolor});
+}
+
+.scp-hover-box.{$container-number}::before {
+    --container-stroke-color: {$container-stroke-color};
+    background-color: var(--container-stroke-color, {$container-stroke-color});
+    border: 0 solid var(--container-stroke-color, {$container-stroke-color});
+}
+
+.scp-hover-box.{$container-number}:hover::before {
+    --container-hover-stroke-color: {$container-hover-stroke-color};
+    --link-stroke-width: {$link-stroke-width};
+    background-color: var(--container-hover-stroke-color, {$container-hover-stroke-color});
+    border: var(--link-stroke-width, {$link-stroke-width}) solid var(--container-hover-stroke-color, {$container-hover-stroke-color});
+    top: calc(var(--link-stroke-width, {$link-stroke-width}) * -1);
+    left: calc(var(--link-stroke-width, {$link-stroke-width}) * -1);
+}
+
+div.scp-hover-box.{$container-number} .container::before,
+div.scp-hover-box.{$container-number} .container::after,
+div.scp-hover-box.{$container-number} .container > *:before,
+div.scp-hover-box.{$container-number} .container > *:after {
+    --container-stroke-color: {$container-stroke-color};
+    background-color: var(--container-stroke-color, {$container-stroke-color});
+}
+
+div.scp-hover-box.{$container-number} .container > * > *:before,
+div.scp-hover-box.{$container-number} .container > * > *:after,
+div.scp-hover-box.{$container-number} .container > * > * > *:before,
+div.scp-hover-box.{$container-number} .container > * > * > *:after {
+    --container-hover-stroke-color: {$container-hover-stroke-color};
+    background-color: var(--container-hover-stroke-color, {$container-hover-stroke-color});
+}
+
+div.scp-hover-box.{$container-number} div.header {
+    --background-url: url("{$background-url}");
+    --background-vertical-position: {$background-vertical-position};
+    background-image: var(--background-url, url("{$background-url}"));
+    background-size: cover;
+    background-position: 0 var(--background-vertical-position, {$background-vertical-position});
+}
+
+div.scp-hover-box.{$container-number} div.title > a,
+div.scp-hover-box.{$container-number} div.sub-title > a {
+    --link-fill-color: {$link-fill-color};
+    --link-stroke-width: {$link-stroke-width};
+    --link-stroke-color: {$link-stroke-color};
+    color: var(--link-fill-color, {$link-fill-color});
+    text-shadow:
+    	calc(var(--link-stroke-width, {$link-stroke-width}) * -1) calc(var(--link-stroke-width, {$link-stroke-width}) * -1) 0 var(--link-stroke-color, {$link-stroke-color}),
+        0 calc(var(--link-stroke-width, {$link-stroke-width}) * -1) 0 var(--link-stroke-color, {$link-stroke-color}),
+        var(--link-stroke-width, {$link-stroke-width}) calc(var(--link-stroke-width, {$link-stroke-width}) * -1) 0 var(--link-stroke-color, {$link-stroke-color}),
+        var(--link-stroke-width, {$link-stroke-width}) 0 0 var(--link-stroke-color, {$link-stroke-color}),
+        var(--link-stroke-width, {$link-stroke-width}) var(--link-stroke-width, {$link-stroke-width}) 0 var(--link-stroke-color, {$link-stroke-color}),
+        0 var(--link-stroke-width, {$link-stroke-width}) 0 var(--link-stroke-color, {$link-stroke-color}),
+        calc(var(--link-stroke-width, {$link-stroke-width}) * -1) var(--link-stroke-width, {$link-stroke-width}) 0 var(--link-stroke-color, {$link-stroke-color}),
+        calc(var(--link-stroke-width, {$link-stroke-width}) * -1) 0 0 var(--link-stroke-color, {$link-stroke-color});
+}
+
+@media not all and (min-resolution:.001dpcm) { @media {
+    div.scp-hover-box.{$container-number} div.title > a,
+    div.scp-hover-box.{$container-number} div.sub-title > a {
+        --link-fill-color: {$link-fill-color};
+        --link-stroke-width: {$link-stroke-width};
+        --link-stroke-color: {$link-stroke-color};
+    	-webkit-text-fill-color: var(--link-fill-color);
+ 		-webkit-text-stroke-width: var(--link-stroke-width, {$link-stroke-width});
+    	-webkit-text-stroke-color: var(--link-stroke-color, {$link-stroke-color});
+    paint-order: stroke fill;
+    text-shadow: unset;
+    }
+}
+
+@supports (-moz-appearance:meterbar) {
+    div.scp-hover-box.{$container-number} div.title > a,
+    div.scp-hover-box.{$container-number} div.sub-title > a {
+    	--link-fill-color: {$link-fill-color};
+        --link-stroke-width: {$link-stroke-width};
+        --link-stroke-color: {$link-stroke-color};
+    	-webkit-text-fill-color: var(--link-fill-color, {$link-fill-color});
+ 		-webkit-text-stroke-width: var(--link-stroke-width, {$link-stroke-width});
+    	-webkit-text-stroke-color: var(--link-stroke-color, {$link-stroke-color});
+    paint-order: stroke fill;
+    text-shadow: unset;
+    }
+}
+[[/module]]
+
+[[# {$anchor}]]
+[[div_ class="scp-hover-box {$container-number}"]]
+[[div_ class="container"]]
+[[div_ ]]
+[[div_ ]]
+[[div_ ]]
+[[div_ class="header"]]
+[[div_ class="title"]]
+[[a href="{$link}"]]{$title}[[/a]]
+[[/div]]
+[[div_ class="sub-title"]]
+[[a href="{$link}"]]{$sub-title}[[/a]]
+[[/div]]
+[[/div]]
+[[div_ class="blerb"]]
+{$blerb}
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/iftags]]
+
+[[iftags +component-backend]]
+[[=]]
+**[[size 2em]][http://www.scp-wiki.net/component:scp-hover-box >>Go here to see what this is for<<][[/size]]**
+[[/=]]
+[[code]]
+[[module css]]
+.scp-hover-box.{$container-number}::before,
+.scp-hover-box.{$container-number} div.container, 
+.scp-hover-box.{$container-number} div.header {
+    --notch-size: {$corner-cutout};
+}
+
+div.scp-hover-box.{$container-number} .container {
+    --container-bgcolor: {$container-bgcolor};
+    --container-txtcolor: {$container-txtcolor};
+    background-color: var(--container-bgcolor, {$container-bgcolor});
+    color: var(--container-txtcolor, {$container-txtcolor});
+}
+
+div.scp-hover-box.{$container-number} .container:hover {
+    --container-hover-bgcolor: {$container-hover-bgcolor};
+    --container-hover-txtcolor: {$container-hover-txtcolor};
+    background-color: var(--container-hover-bgcolor, {$container-hover-bgcolor});
+    color: var(--container-hover-txtcolor, {$container-hover-txtcolor});
+}
+
+.scp-hover-box.{$container-number}::before {
+    --container-stroke-color: {$container-stroke-color};
+    background-color: var(--container-stroke-color, {$container-stroke-color});
+    border: 0 solid var(--container-stroke-color, {$container-stroke-color});
+}
+
+.scp-hover-box.{$container-number}:hover::before {
+    --container-hover-stroke-color: {$container-hover-stroke-color};
+    --link-stroke-width: {$link-stroke-width};
+    background-color: var(--container-hover-stroke-color, {$container-hover-stroke-color});
+    border: var(--link-stroke-width, {$link-stroke-width}) solid var(--container-hover-stroke-color, {$container-hover-stroke-color});
+    top: calc(var(--link-stroke-width, {$link-stroke-width}) * -1);
+    left: calc(var(--link-stroke-width, {$link-stroke-width}) * -1);
+}
+
+div.scp-hover-box.{$container-number} .container::before,
+div.scp-hover-box.{$container-number} .container::after,
+div.scp-hover-box.{$container-number} .container > *:before,
+div.scp-hover-box.{$container-number} .container > *:after {
+    --container-stroke-color: {$container-stroke-color};
+    background-color: var(--container-stroke-color, {$container-stroke-color});
+}
+
+div.scp-hover-box.{$container-number} .container > * > *:before,
+div.scp-hover-box.{$container-number} .container > * > *:after,
+div.scp-hover-box.{$container-number} .container > * > * > *:before,
+div.scp-hover-box.{$container-number} .container > * > * > *:after {
+    --container-hover-stroke-color: {$container-hover-stroke-color};
+    background-color: var(--container-hover-stroke-color, {$container-hover-stroke-color});
+}
+
+div.scp-hover-box.{$container-number} div.header {
+    --background-url: url("{$background-url}");
+    --background-vertical-position: {$background-vertical-position};
+    background-image: var(--background-url, url("{$background-url}"));
+    background-size: cover;
+    background-position: 0 var(--background-vertical-position, {$background-vertical-position});
+}
+
+div.scp-hover-box.{$container-number} div.title > a,
+div.scp-hover-box.{$container-number} div.sub-title > a {
+    --link-fill-color: {$link-fill-color};
+    --link-stroke-width: {$link-stroke-width};
+    --link-stroke-color: {$link-stroke-color};
+    color: var(--link-fill-color, {$link-fill-color});
+    text-shadow:
+    	calc(var(--link-stroke-width, {$link-stroke-width}) * -1) calc(var(--link-stroke-width, {$link-stroke-width}) * -1) 0 var(--link-stroke-color, {$link-stroke-color}),
+        0 calc(var(--link-stroke-width, {$link-stroke-width}) * -1) 0 var(--link-stroke-color, {$link-stroke-color}),
+        var(--link-stroke-width, {$link-stroke-width}) calc(var(--link-stroke-width, {$link-stroke-width}) * -1) 0 var(--link-stroke-color, {$link-stroke-color}),
+        var(--link-stroke-width, {$link-stroke-width}) 0 0 var(--link-stroke-color, {$link-stroke-color}),
+        var(--link-stroke-width, {$link-stroke-width}) var(--link-stroke-width, {$link-stroke-width}) 0 var(--link-stroke-color, {$link-stroke-color}),
+        0 var(--link-stroke-width, {$link-stroke-width}) 0 var(--link-stroke-color, {$link-stroke-color}),
+        calc(var(--link-stroke-width, {$link-stroke-width}) * -1) var(--link-stroke-width, {$link-stroke-width}) 0 var(--link-stroke-color, {$link-stroke-color}),
+        calc(var(--link-stroke-width, {$link-stroke-width}) * -1) 0 0 var(--link-stroke-color, {$link-stroke-color});
+}
+
+@media not all and (min-resolution:.001dpcm) { @media {
+    div.scp-hover-box.{$container-number} div.title > a,
+    div.scp-hover-box.{$container-number} div.sub-title > a {
+        --link-fill-color: {$link-fill-color};
+        --link-stroke-width: {$link-stroke-width};
+        --link-stroke-color: {$link-stroke-color};
+    	-webkit-text-fill-color: var(--link-fill-color);
+ 		-webkit-text-stroke-width: var(--link-stroke-width, {$link-stroke-width});
+    	-webkit-text-stroke-color: var(--link-stroke-color, {$link-stroke-color});
+    paint-order: stroke fill;
+    text-shadow: unset;
+    }
+}
+
+@supports (-moz-appearance:meterbar) {
+    div.scp-hover-box.{$container-number} div.title > a,
+    div.scp-hover-box.{$container-number} div.sub-title > a {
+    	--link-fill-color: {$link-fill-color};
+        --link-stroke-width: {$link-stroke-width};
+        --link-stroke-color: {$link-stroke-color};
+    	-webkit-text-fill-color: var(--link-fill-color, {$link-fill-color});
+ 		-webkit-text-stroke-width: var(--link-stroke-width, {$link-stroke-width});
+    	-webkit-text-stroke-color: var(--link-stroke-color, {$link-stroke-color});
+    paint-order: stroke fill;
+    text-shadow: unset;
+    }
+}
+[[/module]]
+
+[[# {$anchor}]]
+[[div_ class="scp-hover-box"]]
+[[div_ class="container"]]
+[[div_ ]]
+[[div_ ]]
+[[div_ ]]
+[[div_ class="header"]]
+[[div_ class="title"]]
+[[a href="{$link}"]]{$title}[[/a]]
+[[/div]]
+[[div_ class="sub-title"]]
+[[a href="{$link}"]]{$sub-title}[[/a]]
+[[/div]]
+[[/div]]
+[[div_ class="blerb"]]
+{$blerb}
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/code]]
+[[/iftags]]

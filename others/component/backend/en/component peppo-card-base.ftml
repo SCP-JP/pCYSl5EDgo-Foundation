@@ -1,0 +1,24 @@
+[[div_ class="card" style="order:{$articleOrder}; display:{$hideCard};"]]
+[[include component:peppo-card-structure
+articleURL= {$articleURL}
+| articleOrder = {$articleOrder} | articleOrder = initial
+| articleLink = {$articleLink} | articleLink = %%link%%
+| articleTitle = {$articleTitle} | articleTitle = %%title_linked%%
+| articleImage = {$articleImage}
+| articleName = {$articleName}
+| articleQuote = {$articleQuote}
+| articleCredit = {$articleCredit} | articleCredit = @@ @@
+| articleCredit2 = {$articleCredit2} | articleCredit2 = @@ @@
+| showCredit1 = {$showCredit1} | showCredit1 = none
+| showCredit2 = {$showCredit2} | showCredit2 = none
+| hideCard = {$hideCard} | hideCard = inherit
+| creditLink = {$creditLink}
+| creditLink2 = {$creditLink2}
+| showPic = [!-- {$picTrue}pic [!----] [!-- {$picFalse}noPic [!----]
+| ratePlace = [!-- {$picTrue}howItRate [!----][!-- {$picFalse}howItRate2 [!----] 
+
+
+| picTrue = {$picTrue} | picTrue = --] 
+| picFalse = {$picFalse} | picFalse = null
+]]
+[[/div]]

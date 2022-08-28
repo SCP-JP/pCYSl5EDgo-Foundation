@@ -1,0 +1,129 @@
+[[module CSS]]
+.tooltip {
+  position: relative;
+  display: inline-block;
+  transition: transform .16s;
+}
+#page-content .tooltip > a[href*="dark-achievement-badges"] {
+  box-shadow: none!important;
+}
+.tooltip .tooltiptext {
+  width: 120px;
+  background-color: #21252E;
+  color: #f8f8f8;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  position: absolute;
+  top: 95px;
+  left: calc(50% - 5px);
+  margin-left: -60px;
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #21252E transparent;
+}
+.tooltip:hover {
+    transform: scale(1.6);
+    z-index: 2;
+}
+.tooltip:hover > a {
+   background: transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+ /* specific codetext */
+.phd::after {
+  content: "Placeholder";
+}
+.tsf::after {
+  content: "Ten Steps Forward";
+}
+.ccc::after {
+  content: "Canon Crossover Central";
+}
+.mww::after {
+  content: "Dr. Worldwide";
+}
+.sek::after {
+  content: "The SEXTANK Initiative";
+}
+.scl::after {
+  content: "Social Butterfly";
+}
+.clb::after {
+  content: "Thank You for Your Cooperation";
+}
+.dda::after {
+  content: "Double Double Agent";
+}
+.gsa::after {
+  content: "Guest Star Appearance";
+}
+.tlt::after {
+  content: "Tall Tales";
+}
+.tbe::after {
+  content: "Team Building Exercise";
+}
+.chl::after {
+  content: "The Challenger";
+}
+.str::after {
+  content: "Making Strides";
+}
+.awb::after {
+  content: "Are We the Baddies?";
+}
+.cts::after {
+  content: "The Centurion";
+}
+.pbs::after {
+  content: "Playing for both Sites";
+}
+.spa::after {
+  content: "Student Participation Award";
+}
+.egd::after {
+  content: "Engaged";
+}
+.apf::after {
+  content: "Anartist Portfolio";
+}
+.srs::after {
+  content: "Senior Researcher";
+}
+.knl::after {
+  content: "Knowledge Is Power";
+}
+.dado::after {
+  content: "bage 4 dado yes";
+}
+.pdp::after {
+  content: "Periodic Publisher";
+}
+.pvr::after {
+  content: "Pollice Verso";
+}
+.lgbt::after {
+  content: "Symbol of Hope";
+}
+.cda::after {
+  content: "Contender";
+}
+[[/module]]
+
+[[span class="tooltip"]][[image https://scp-wiki.wdfiles.com/local--files/component%3Asybadge/{$code}.png width="64px"style="background-color: var(--bgBadgeColor, #21252E); padding: .66rem .7rem .4rem .5rem; border-radius: .6rem 2.5rem .6rem .6rem; margin: .3rem; border: solid 4px var(--borderColor, #CEA0FF);" link="https://scp-wiki.wikidot.com/dark-achievement-badges"]][[span class="tooltiptext"]][[span class="{$code}"]] [[/span]][[/span]][[/span]]

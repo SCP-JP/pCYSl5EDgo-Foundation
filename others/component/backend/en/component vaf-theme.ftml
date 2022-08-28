@@ -1,0 +1,16 @@
+[!-- This component is used internally by the Vend-a-Friend Links component:
+http://scp-wiki.wikidot.com/component:vaf-links
+This component is not for direct use by authors. --]
+
+[[include :scp-wiki:theme:wondertainment]]
+
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+.link-to-with {
+    display: none !important;
+}
+.link-to-without {
+    display: block !important;
+}
+[[/module]]

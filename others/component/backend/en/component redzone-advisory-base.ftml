@@ -1,0 +1,91 @@
+[[module CSS]]
+#u-info div.name {
+  clear: left;
+  width: 11em;
+  font-weight: bold;
+}
+#u-info div {
+  float: left;
+  margin-bottom: 0.5em;
+}
+#u-info {
+  float: left;
+}
+#u-enum {
+  float: right;
+}
+.letterhead {
+  max-width: 80%;
+  max-height: 50px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1, h2, .title, #page-title {
+  color: {$color};
+}
+h2 {
+  font-weight: bold;
+}
+div#page-title {
+  display: none;
+}
+[[/module]]
+
+[[#if {$logo} |   | [!-- ]]
+[[image {$logo} class="letterhead"]]
+----
+[[#if {$logo} |   | --] ]]
+
+[[#if {$title} |   | [!-- ]]
++ {$title}
+[[#if {$title} |   | --] ]]
+~~~~
+[[div id="info"]]
+[[#if {$id} |   | [!-- ]]
+[[div_ class="name"]]
+Advisory ID:[[/div]][[div_ class="value"]]
+{$id}[[/div]]
+[[#if {$id} |   | --] ]]
+
+[[#if {$updated} |   | [!-- ]]
+[[div_ class="name"]]
+Last Updated:[[/div]][[div_ class="value"]]
+{$updated}[[/div]]
+[[#if {$updated} |   | --] ]]
+
+[[#if {$published} |   | [!-- ]]
+[[div_ class="name"]]
+Published:[[/div]][[div_ class="value"]]
+{$published}[[/div]]
+[[#if {$published} |   | --] ]]
+
+[[#if {$version} |   | [!-- ]]
+[[div_ class="name"]]
+Version {$version}:[[/div]][[div_ class="value"]]
+[[#if {$final} | Final | Interim ]][[/div]]
+[[#if {$version} |   | --] ]]
+
+[[#if {$impact} |   | [!-- ]]
+[[div_ class="name"]]
+Impact Score:[[/div]][[div_ class="value"]]
+Base - {$impact}[[/div]]
+[[#if {$impact} |   | --] ]]
+
+[[div_ class="name"]]
+Workarounds:[[/div]][[div_ class="value"]]
+[[#if {$worknd} | Yes | No]][[/div]]
+
+[[#if {$bugs} |   | [!-- ]]
+[[div_ class="name"]]
+Redzone Bug IDs:[[/div]][[div_ class="value"]]
+{$bugs}[[/div]]
+[[#if {$bugs} |   | --] ]]
+[[/div]]
+[[div_ id="enum"]]
+[[#if {$cve} |   | [!-- ]]
+{$cve}[[#if {$cve} |   | --] ]][[#if {$cwe} |   | [!-- ]]
+{$cwe}[[#if {$cwe} |   | --] ]]
+[[/div]]
+~~~~

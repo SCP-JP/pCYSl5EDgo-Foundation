@@ -1,0 +1,460 @@
+[[iftags -component-backend]]
+[[module CSS]]
+.cell-container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: small;
+}
+@media (max-width: 450px) {
+.cell-container {
+  font-size: xx-small;
+}
+}
+
+.image-cell {
+  width: 80px;
+  height: 60px;
+  font-size: 15px;
+  overflow: visible;
+  margin-top: 10px;
+  background-position: 50%,50%;
+  background-size: 70px, 20px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+@media (max-width: 450px) {
+.image-cell{
+  font-size: xx-small;
+  width: 4em;
+  height: 30px;
+}
+}
+
+
+.image-cell.center {
+  background-position: 50%;
+}
+@media (max-width: 450px) {
+.image-cell.center{
+  background-size: 30px;
+}
+}
+
+/* All images for bar */
+
+/* Center images */
+.image-cell.center.style-one {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_MID_LEFT.png");
+}
+.image-cell.center.style-two {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_MID_LEFT_ALT.png");
+}
+.image-cell.center.style-three {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_MID_LEFT_ALT2.png");
+}
+
+/* Dual height center images */
+.image-cell.dual-center {
+  background-position: 50%;
+  width: 5em;
+  height: 140px;
+}
+@media (max-width: 450px) {
+.image-cell.dual-center{
+  width: 4em;
+  height: 80px;
+  background-size: 35px;
+}
+}
+.image-cell.dual-center.style-one {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_DUAL_LEFT.png");
+}
+.image-cell.dual-center.style-two {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_DUAL_LEFT_ALT.png");
+}
+.image-cell.dual-center.style-three {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_DUAL_LEFT_ALT2.png");
+}
+
+/* Left images */
+.image-cell.left {
+  background-position: 50%, 20%;
+}
+@media (max-width: 450px) {
+.image-cell.left{
+  background-position: 50%,15%;
+  background-size: 35px, 30%;
+}
+}
+.image-cell.left.style-one {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_LEFT.png"), url("{$prevImage}");
+}
+.image-cell.left.style-two {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_LEFT_ALT.png"), url("{$prevImage}");
+}
+.image-cell.left.style-three {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_LEFT_ALT2.png"), url("{$prevImage}");
+}
+.image-cell.left.bottom.style-one {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_LEFT.png"), url("{$prev2Image}");
+}
+.image-cell.left.bottom.style-two {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_LEFT_ALT.png"), url("{$prev2Image}");
+}
+.image-cell.left.bottom.style-three {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_LEFT_ALT2.png"), url("{$prev2Image}");
+}
+
+/* Right images */
+.image-cell.right {
+  background-position: 50%,80%;
+}
+@media (max-width: 450px) {
+.image-cell.right{
+  background-position: 50%,86%;
+  background-size: 35px, 30%;
+}
+}
+.image-cell.right.style-one {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_RIGHT.png"), url("{$nextImage}");
+}
+.image-cell.right.style-two {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_RIGHT_ALT.png"), url("{$nextImage}");
+}
+.image-cell.right.style-three {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_RIGHT_ALT2.png"), url("{$nextImage}");
+}
+.image-cell.right.bottom.style-one {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_RIGHT.png"), url("{$next2Image}");
+}
+.image-cell.right.bottom.style-two {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_RIGHT_ALT.png"), url("{$next2Image}");
+}
+.image-cell.right.bottom.style-three {
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:advanced-navigation-toolbar-source/ANT_END_RIGHT_ALT2.png"), url("{$next2Image}");
+}
+
+
+/* Images for the "ends" of series */
+
+.image-cell.center.endstyle-one {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_MID_LEFT_END.png");
+}
+.image-cell.center.endstyle-two {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_MID_LEFT_ALT_END.png");
+}
+.image-cell.center.endstyle-three {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_MID_LEFT_ALT2_END.png");
+}
+
+/* Dual images for end of series */
+
+.image-cell.dual-center.endstyle-one {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_DUAL_LEFT_END.png");
+}
+
+.image-cell.dual-center.endstyle-two {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_DUAL_LEFT_ALT_END.png");
+}
+
+.image-cell.dual-center.endstyle-three {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_DUAL_LEFT_ALT2_END.png");
+}
+
+
+/* Extra Themes */
+
+.image-cell.left.style-nightfall {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_END_LEFT_NIGHTFALL.png"), url("{$prevImage}");
+}
+.image-cell.left.bottom.style-nightfall {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_END_LEFT_NIGHTFALL.png"), url("{$prev2Image}");
+}
+.image-cell.right.style-nightfall {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_END_RIGHT_NIGHTFALL.png"), url("{$nextImage}");
+}
+.image-cell.right.bottom.style-nightfall {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_END_RIGHT_NIGHTFALL.png"), url("{$next2Image}");
+}
+
+.image-cell.center.style-nightfall {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_MID_LEFT_NIGHTFALL.png");
+}
+.image-cell.dual-center.style-nightfall {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_DUAL_NIGHTFALL_ALT.png");
+}
+
+.image-cell.dual-center.endstyle-nightfall {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_DUAL_LEFT_NIGHTFALL_END.png");
+}
+.image-cell.center.endstyle-nightfall {
+  background-image: url("http://timebox.wikidot.com/local--files/advanced-navigation-toolbar-source/ANT_MID_LEFT_NIGHTFALL_END.png");
+}
+
+.side-text-cell {
+  display: inline-block
+  font-size: 15px;
+  margin-top: 1.1rem;
+  margin-bottom: 0rem;
+  max-width: 1em;
+  
+}
+@media (max-width: 450px) {
+.side-text-cell {
+  margin-top: 0.6rem;
+}
+}
+
+.side-text-cell.top {
+  margin-top: 0.7rem;
+  margin-bottom: 0.45em;
+}
+@media (max-width: 450px) {
+.side-text-cell.top {
+  margin-bottom: -0.7em;
+  margin-top: 0.6em;
+}
+}
+
+.side-text-cell.bottom {
+  margin-top: 0.8rem;
+  margin-bottom: 0.35em;
+}
+@media (max-width: 450px) {
+.side-text-cell.bottom {
+  margin-bottom: -0.4em;
+  margin-top: 0.5em;
+}
+}
+
+.main-text-cell {
+  flex-basis: 10%;
+  max-width: 3em;
+  font-size: 15px;
+  overflow-wrap: normal;
+  margin-top: -0.4rem;
+  margin-bottom: -0.8rem;
+}
+@media (max-width: 450px) {
+.main-text-cell {
+  font-size: xx-small;
+  max-width: 2em;
+  flex-basis: 15%;
+  margin-top: 0rem;
+}
+}
+
+.main-text-cell.image {
+  background-size: 54px, 54px;
+  background-repeat: no-repeat;
+  background-position: 50%,50%;
+  margin-top: 0.5em;
+}
+@media (max-width: 450px) {
+.main-text-cell.image {
+  background-size: 30px, 30px;
+  background-repeat: no-repeat;
+  background-position: 50%,50%;
+  margin-top: 0.5em;
+}
+}
+
+.base-cell {
+  display: flex;
+  flex-direction: column;
+}
+.base-cell.text {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.rightmode-\{\$rightmode\}.normal {
+ display: flex;
+}
+.rightmode-\{\$rightmode\}.end {
+ display: none;
+}
+
+.rightmode-a.normal {
+ display: none;
+}
+.rightmode-a.end {
+ display: flex;
+}
+
+.leftmode-\{\$leftmode\}.normal {
+ display: flex;
+}
+.leftmode-\{\$leftmode\}.end {
+ display: none;
+}
+
+.leftmode-a.normal {
+ display: none;
+}
+.leftmode-a.end {
+ display: flex;
+}
+
+
+[[/module]]
+
+>[!-[[#if {$dual} | - |  ]]
+[[div class="cell-container"]]
+
+[[div class="rightmode-{$rightmode} normal"]]
+[[div class="image-cell left style-{$styleNum}"]]
+@@@@
+@@@@
+[[/div]]
+
+[[div class="side-text-cell"]]
+[[[{$prev}|{$prevtext}]]]
+[[/div]]
+ 
+[[div class="image-cell center style-{$styleNum}"]]
+@@@@
+@@@@
+[[/div]]
+[[/div]]
+
+[[div class="rightmode-{$rightmode} end"]]
+[[div class="image-cell center endstyle-{$styleNum}"]]
+@@@@
+@@@@
+[[/div]]
+[[/div]]
+
+[[div class="main-text-cell"]]
+[[[{$hub}|{$hubtext}]]]
+[[/div]]
+
+[[div class="leftmode-{$leftmode} end"]]
+[[div class="image-cell center endstyle-{$styleNum}" style="transform: scaleX(-1);"]]
+@@@@
+@@@@
+[[/div]]
+[[/div]]
+
+[[div class="leftmode-{$leftmode} normal"]]
+[[div class="image-cell center style-{$styleNum}" style="transform: scaleX(-1);"]]
+@@@@
+@@@@
+[[/div]]
+
+[[div class="side-text-cell"]]
+[[[{$next}|{$nexttext}]]]
+[[/div]]
+
+[[div class="image-cell right style-{$styleNum}"]]
+@@@@
+@@@@
+[[/div]]
+[[/div]]
+
+[[/div]]
+[!-- --]
+
+
+>[!-[[#if {$dual} |  | - ]]
+[[div class="cell-container"]]
+[[div class="base-cell"]]
+[[div class="image-cell left style-{$styleNum}"]]
+@@@@
+@@@@
+[[/div]]
+
+[[div class="rightmode-{$rightmode} normal"]]
+[[div class="image-cell left bottom style-{$styleNum}" style="margin-top: -0.5em;"]]
+@@@@
+@@@@
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="base-cell text"]]
+[[div class="side-text-cell top"]]
+[[[{$prev}|{$prevtext}]]]
+[[/div]]
+
+[[div class="rightmode-{$rightmode} normal"]]
+[[div class="side-text-cell bottom" style="margin-top: 0.2em;"]]
+[[[{$prev2}|{$prev2text}]]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="rightmode-{$rightmode} normal"]]
+[[div class="image-cell dual-center style-{$styleNum}"]]
+@@@@
+@@@@
+[[/div]]
+[[/div]]
+
+[[div class="rightmode-{$rightmode} end"]]
+[[div class="image-cell dual-center endstyle-{$styleNum}"]]
+@@@@
+@@@@
+[[/div]]
+[[/div]]
+
+[[div class="base-cell"]]
+[[div class="main-text-cell"]]
+[[[{$hub}|{$hubtext}]]]
+[[/div]]
+
+[[div class="main-text-cell image" style="background-image: url("{$hubImage}");"]]
+@@@@
+@@@@
+[[/div]]
+[[/div]]
+
+[[div class="leftmode-{$leftmode} normal"]]
+[[div class="image-cell dual-center style-{$styleNum}" style="transform: scaleX(-1);"]]
+@@@@
+@@@@
+[[/div]]
+[[/div]]
+
+[[div class="leftmode-{$leftmode} end"]]
+[[div class="image-cell dual-center endstyle-{$styleNum}" style="transform: scaleX(-1);"]]
+@@@@
+@@@@
+[[/div]]
+[[/div]]
+
+[[div class="base-cell text"]]
+[[div class="side-text-cell top"]]
+[[[{$next}|{$nexttext}]]]
+[[/div]]
+
+[[div class="leftmode-{$leftmode} normal"]]
+[[div class="side-text-cell bottom" style="margin-top: 0.2em;"]]
+[[[{$next2}|{$next2text}]]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="base-cell"]]
+[[div class="image-cell right style-{$styleNum}"]]
+@@@@
+@@@@
+[[/div]]
+
+[[div class="leftmode-{$leftmode} normal"]]
+[[div class="image-cell right bottom style-{$styleNum}" style="margin-top: -0.3em;"]]
+@@@@
+@@@@
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[!-- --]
+[[/iftags]]

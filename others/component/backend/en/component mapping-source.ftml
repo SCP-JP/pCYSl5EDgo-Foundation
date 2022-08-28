@@ -1,0 +1,198 @@
+[!-- {$code}]
+[[module CSS]]
+@import url("https://scp-wiki.wdfiles.com/local--code/component:mapping-source/1");
+[[/module]]
+[!-- --]
+
+[[iftags +component-backend]]
+[[code type="css"]]
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+/* DEFAULT VALUES */
+
+div[style*="$size"] {
+    height: 1.5vmin;
+    width: 1.5vmin;
+}
+
+div[class*="$textclass"] {
+    display: none;
+}
+
+/* ICON SUBTITLES */
+
+.subtitlemap {
+    position: absolute;
+    color: #3d3d3d;
+    pointer-events: none;
+    font-size: 1vmin !important;
+    font-style: italic;
+    transition: 0.3s font-size;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: block;
+    max-width: none !important;
+    text-align: center;
+}
+
+.enlarge:hover .subtitlemap {
+    font-size: 0.4vmin !important;
+    transition: 0.15s font-size;
+}
+
+/* LEGENDS */
+
+.mainmap .subtitle {
+    position: absolute;
+    background-color: #e2e2e2;
+    border: solid 1px;
+    bottom: 0;
+}
+
+.mainmap .subtitle table.wiki-content-table {
+    margin: .5vmin;
+    min-width: 10vmin;
+    width: fit-content;
+}
+
+.mainmap .subtitle tr {
+    border-bottom: solid 1px gray;
+}
+
+.mainmap .subtitle tr td {
+    font-size: 0.8em;
+    font-weight: bold;
+    border: 0 !important;
+    padding: .25vmin;
+}
+
+.mainmap .subtitle tr:first-child td:first-child:hover {
+   transform: scale(1);
+}
+
+.mainmap .subtitle tr td:first-child {
+    max-width: 3vmin;
+    width: 3vmin;
+    transition: all .2s;
+}
+
+.mainmap .subtitle tr td:first-child:hover {
+   transform: scale(5);
+   z-index: 2;
+}
+
+.mainmap .subtitle tr td:nth-child(2) {
+    text-align: right;
+}
+
+/* ICON NUMBER */
+
+.numbermap {
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-shadow: -0.1px 0 white, 0 0.1px white, 0.1px 0 white, 0 -0.11px white;
+    color: #202020;
+    font-size: 0.3vmin;
+}
+
+.numbermap p {
+    height: 100%;
+    display: inline-block;
+    transform: translatey(40%);
+}
+
+/* MAPS */
+
+.mainmap {
+   display: table;
+   height: auto;
+   width: auto;
+   position: relative;
+}
+
+.secmap {
+   height: 0vw;
+   width: 0vw;
+   max-width: none !important;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 10;
+   opacity: 0;
+   transition: all 0.3s;
+}
+
+.maparea {
+   position: absolute;
+   z-index: 1;
+}
+
+.maparea:hover + .secmap {
+   height: 75vmin;
+   width: 75vmin;
+   opacity: 1;
+   transition: all 0.3s;
+}
+
+.secmap:hover {
+   height: 75vmin;
+   width: 75vmin;
+   opacity: 1;
+   transition: all 0.3s;
+   z-index: 2;
+}
+
+/* ENLARGE ICONS */
+
+.enlarge {
+    height: 1.5vmin;
+    width: 1.5vmin;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s;
+    position: absolute;
+}
+
+.secmap .enlarge {
+    pointer-events: none;
+}
+
+.secmap:hover .enlarge {
+    pointer-events: auto;
+}
+
+.enlarge:hover {
+   transform: translate(-50%, -50%) scale(7.5);
+   z-index: 2;
+}
+
+.enlarge p {
+   margin: 0;
+}
+[[/code]]
+[[/iftags]]
+
+[!-- {$facility}]
+[[div class="enlarge [!-- --][!-- {$specialcase}]{$specialclass}[!-- --][!-- {$facility}]" style="left: {$x}%; top: {$y}%; height: {$size}vmin; width: {$size}vmin;"]]
+[[image {$image}]]
+[!-- --]
+[[div class="{$textclass}" style="font-size: {$font-size}vmin;"]]
+{$text}
+[[/div]]
+[!-- {$facility}]
+[[/div]]
+[!-- --]
+[!-- {$secmap}]
+[[div class="maparea" style="width: {$sx}%; height: {$sy}%;[!-- --][!-- {$highlighter}]background-color: black;[!-- --][!-- {$secmap}] left: {$x}%; top: {$y}%; position: absolute;"]]
+[[/div]]
+[[div class="secmap"]]
+[[image {$image}]]
+[!-- --]

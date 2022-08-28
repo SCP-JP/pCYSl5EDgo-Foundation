@@ -1,0 +1,273 @@
+[[iftags -component-backend]]
+[[module css]]
+/* BHL styled collapsibles with fancy-schamncy animations! By Monkatraz, modified by AnActualCrow */
+
+/* VARIABLES FOR CUSTOMIZATION */
+:root{
+  --base-color: rgb(66, 66, 72);
+  --hover-color: rgb(100, 46, 44);
+  --click-color: rgb(133, 0, 5);
+}
+
+/* #page-content is shoved everywhere to make sure it's the most specific thingy */
+/* Styling! */
+#page-content .collapsible-block-folded, #page-content .collapsible-block-unfolded-link {
+    margin-top: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: rgb(128, 128, 128) 0px 0px 3px 0px;
+    /* Animated things */
+    transition: background 0.2s linear;
+    background: var(--base-color);
+    /* Technical bits */
+    width: min-content;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* The Clicky Text */
+#page-content .collapsible-block-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* Gets rid of the underline when hovering over the collapsible */
+#page-content .collapsible-block-link:hover {
+    text-decoration: none
+}
+/* Collapsible content */
+#page-content .collapsible-block-content {
+    /* Animated things */
+    transition: border-top-color 0.2s linear, border-bottom-color 0.2s linear;
+    border-top: solid var(--base-color) 5px;
+    border-bottom: solid var(--base-color) 3px;
+}
+
+Message #multipurpose/* End of addendum tag */
+#page-content .collapsible-block-content::after {
+    content:"END OF ADDENDUM";
+    font-weight: bold;
+    font-size: 95%;
+    color:white;
+    width: intrinsic; width: -moz-max-content; width: -webkit-max-content;
+    padding: 0em .3em;
+    border-radius: 3px;
+    /* Animated things */
+    transition: background 0.2s linear;
+    background: var(--base-color);
+    /* Technical bits */
+    display: block;
+    text-align: center;
+    margin:auto;
+    margin-bottom: -3px;
+}
+/* Folded blocks are animated, unfolded ones are not */
+#page-content .collapsible-block-folded {
+    transition: max-width 0.2s linear;
+    max-width: 10.5em;
+}
+#page-content .collapsible-block-unfolded-link{
+    width: min-content;
+}
+/* Addendum counter */
+#page-content {
+    counter-reset: collapse;
+}
+#page-content .collapsible-block, #page-content .unfolded-collapse, #page-content .centered-unfolded-collapse{
+    counter-increment: collapse;
+}
+
+/* Addendum prefixes */
+#page-content .collapsible-block-folded .collapsible-block-link::before {
+    content: "▷ ADDENDUM {$scp-number}." counter(collapse);
+    border-right: dotted 0.25em;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    font-weight: normal;
+    font-family: var(--mono-font);
+}
+#page-content .collapsible-block-unfolded .collapsible-block-link::before {
+    content: "▽ ADDENDUM {$scp-number}." counter(collapse);
+    border-right: dotted 0.25em;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    font-weight: normal;
+    font-family: var(--mono-font);
+}
+/* Hovering effects */
+#page-content .collapsible-block-folded:hover, #page-content .collapsible-block-unfolded-link:hover {
+    background: var(--hover-color);
+    max-width: 100%;
+}
+/* Collapsible borders - because it looks prettier this way */
+#page-content .collapsible-block-unfolded-link:hover + .collapsible-block-content{
+    border-top-color: var(--hover-color);
+    border-bottom-color: var(--hover-color);
+}
+/* When hovering over link, change addendum tag to hover-color */
+#page-content .collapsible-block-unfolded-link:hover + .collapsible-block-content::after {
+    background: var(--hover-color);
+}
+/* Click flash when clicking, also forces the collapsible to expand */
+#page-content .collapsible-block-folded:active, #page-content .collapsible-block-unfolded-link:active, #page-content .collapsible-block-unfolded-link:active + .collapsible-block-content::after {
+    transition: background 0s, max-width 0s;
+    background: var(--click-color);
+    max-width: 100%;
+}
+/* On click, change borders to click-color */
+#page-content .collapsible-block-unfolded-link:active + .collapsible-block-content {
+    transition: border-top-color 0s, border-bottom-color 0s;
+    border-top-color: var(--click-color);
+    border-bottom-color: var(--click-color);
+}
+/* Done with normal collapsibles, now we do all the variations */
+/* Unfolded collapsible */
+#page-content .unfolded-collapse {
+    margin-top: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: rgb(128, 128, 128) 0px 0px 3px 0px;
+    background: var(--base-color);
+    /* Text */
+    color: white;
+    font-weight: bold;
+    /* Technical bits */
+    width: min-content;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* Addendum prefix */
+#page-content .unfolded-collapse::before {
+    content: "▽ ADDENDUM {$scp-number}." counter(collapse);
+    border-right: dotted 0.25em;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    font-weight: normal;
+    font-family: var(--mono-font);
+}
+/* Bottom border */
+#page-content .unfolded-collapse-border {
+    display: block;
+    width: 700px;
+    border-top: solid var(--base-color) 5px;
+}
+/* Centering, very simple */
+#page-content .center-collapse .collapsible-block-folded, #page-content .center-collapse .collapsible-block-unfolded-link, #page-content .center-collapse .unfolded-collapse{
+    margin:auto;
+    margin-top: 10px;
+}
+/* Removing the slick animation and addendum number because you're a monster */
+/* Set back the max width and just ignore the transition screwyness */
+#page-content .no-addendum .collapsible-block-folded {
+    max-width: 100%;
+}
+/* Prefixes */
+#page-content .no-addendum .collapsible-block-unfolded .collapsible-block-link::before, #page-content .no-addendum .unfolded-collapse::before {
+    content: "▽";
+    border-right: none;
+    padding-right: 0rem;
+}
+#page-content .no-addendum .collapsible-block-folded .collapsible-block-link::before {
+    content: "▷";
+    border-right: none;
+    padding-right: 0rem;
+}
+/* Kill the automatic footer because you haven no trouble figuring out where your addendums end */
+#page-content .no-footer .collapsible-block-content{
+    border-bottom: none;
+}
+#page-content .no-footer .collapsible-block-content::after{
+    display:none;
+}
+/* Fittingly, we finish with the footer object */
+/* The footer is actually the giant bottom border object because larger -> smaller works better */
+#page-content .addendumfooter{
+    display: block;
+    border-bottom: solid 3px var(--base-color);
+    margin: auto;
+    text-align: center;
+}
+/* Texty bits */
+#page-content .addendumfooter::after{
+    content: "END OF ADDENDUM";
+    font-weight: bold;
+    font-size: 95%;
+    color:white;
+    background: var(--base-color);
+    width: intrinsic; width: -moz-max-content; width: -webkit-max-content;
+    padding: 0em .3em;
+    border-radius: 3px;
+    /* Technical bits */
+    display: block;
+    text-align: center;
+    margin:auto;
+    margin-bottom: -3px;
+}
+/* Ayer's info-bar patch */
+#page-content .info-container .collapsible-block {
+    counter-increment: none;
+}
+#page-content .info-container .collapsible-block-folded, #page-content .info-container .collapsible-block-unfolded-link  {
+    transition: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: none;
+    background: var(--barColour);
+}
+#page-content .info-container .collapsible-block-folded::before, #page-content .info-container .collapsible-block-unfolded-link::before  {
+    content: "";
+    display: none;
+}
+#page-content .info-container .collapsible-block-content {
+    border-bottom: none;
+    transition: none;
+    border-top: none;
+}
+#page-content .info-container .collapsible-block-content::after {
+    display: none;
+}
+
+/* License Box Patch */
+#page-content .licensebox .collapsible-block-link {
+    color: inherit;
+}
+#page-content .licensebox .collapsible-block-link:hover {
+    text-decoration: underline;
+}
+#page-content .licensebox .collapsible-block {
+    counter-increment: none;
+}
+#page-content .licensebox  .collapsible-block-folded,
+#page-content .licensebox  .collapsible-block-unfolded-link  {
+    transition: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: none;
+    background: none;
+}
+#page-content .licensebox .collapsible-block-folded::before,
+#page-content .licensebox .collapsible-block-unfolded-link::before  {
+    content: "";
+    display: none;
+}
+#page-content .licensebox .collapsible-block-content {
+    border-bottom: none;
+    transition: none;
+    border-top: none;
+}
+#page-content .licensebox .collapsible-block-folded .collapsible-block-link::before,
+#page-content .licensebox .collapsible-block-unfolded .collapsible-block-link::before,
+#page-content .licensebox .unfolded-collapse::before {
+    display: none;
+}
+#page-content .licensebox .collapsible-block-content::after {
+    display: none;
+}
+[[/module]]
+[[/iftags]]
+[[iftags +component-backend]]
+[[[component:bhl-style-collapse |Click Me Please]]]
+[[/iftags]]

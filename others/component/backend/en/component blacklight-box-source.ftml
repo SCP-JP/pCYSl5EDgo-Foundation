@@ -1,0 +1,115 @@
+[[iftags -component-backend]]
+[!-- {$inc-source}
+[[module css]]
+.blbf-main {
+    position: relative;
+}
+
+.blbf-main > br {
+    display: none;
+}
+
+.blbf-main > div {
+    display: block;
+    width: -webkit-calc(100% - 3rem);
+    width: -moz-calc(100% - 3rem);
+    width: calc(100% - 3rem);
+    padding: 0.75rem 0.75rem;
+    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+    border: 0.25rem rgb(var(--swatch-primary-darkest,144,25,1)) solid;
+    background-color: rgba(var(--blockquote-bg-color), 244, 244, 244,0.25);
+    color: rgb(var(--swatch-text-general,51,51,51));
+    position: relative;
+    line-height: 1.5;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    font-size: inherit;
+}
+
+.blbf-main > div > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.blbf-main > div::before {
+    --wght: 600;
+    content: " ";
+    position: absolute;
+    top: -1.25rem;
+    left: -0.5rem;
+    padding: 0.5em 0.5em;
+    font-size: -webkit-calc(12px + (14 - 12) * ( (100vw - 300px) / ( 800 - 300) ));
+    font-size: -moz-calc(12px + (14 - 12) * ( (100vw - 300px) / ( 800 - 300) ));
+    font-size: calc(12px + (14 - 12) * ( (100vw - 300px) / ( 800 - 300) ));
+    font-family: var(--title-font, "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica);
+    font-variant: all-petite-caps;
+    font-weight: 600;
+    background-color: rgb(var(--swatch-primary-darkest,144,25,1));
+    color: rgb(var(--swatch-text-secondary-color,255,255,255));
+    letter-spacing: 0.05em;
+    text-indent: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 1;
+    white-space: nowrap;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-colors}
+[[module css]]
+.blbf-main > div.blbf-{$color-family} {
+    --blbf-bg-color: {$bg-color};
+    --blbf-txt-color: {$txt-color};
+    --blbf-bdr-color: {$border-color};
+    --blbf-lbl-color: {$label-bg-color};
+    --blbf-lbltxt-color: {$label-txt-color};
+}
+
+.blbf-main > div.blbf-{$color-family} {
+    background-color: var(--blbf-bg-color);
+    color: var(--blbf-txt-color);
+    border-color: var(--blbf-bdr-color);
+}
+
+.blbf-main > div.blbf-{$color-family}::before {
+    background-color: var(--blbf-lbl-color);
+    color: var(--blbf-lbltxt-color);
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-section-start}
+[[module css]]
+.blbf-main > div.blbf-{$unique-name}::before {
+    content: "{$display-name}";
+}
+[[/module]]
+
+[[div class="blbf-main"]]
+[[div class="blbf-{$unique-name} blbf-{$color-family}"]]
+[!----]
+
+[!-- {$inc-section-end}
+[[/div]]
+[[/div]]
+[!----]
+[[/iftags]]
+
+[[iftags +component-backend]]
+[[module css]]
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/normalize.min.css");
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/black-highlighter.min.css");
+
+h1 {
+    color: rgb(var(--swatch-primary));
+}
+[[/module]]
+[[=]]
++ Check Page Source for Code
+[[/=]]
+[[/iftags]]

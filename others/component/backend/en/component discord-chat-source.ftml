@@ -1,0 +1,223 @@
+[[iftags -component-backend]]
+[!-- {$inc-source}
+[[module CSS]]
+@import url("https://scp-wiki.wdfiles.com/local--files/component%3Adiscord-chat-source/discord.css");
+[[/module]]
+[!----]
+
+[!-- {$inc-start}
+[[div_ class="discord"]]
+    [[div_ class="messages-panel"]]
+        [[div_ class="messages-group"]]
+            [[div_ class="messages"]]
+[!----]
+
+[!-- {$inc-end}
+            [[/div]]
+        [[/div]]
+    [[/div]]
+[[/div]]
+[!----]
+
+[!-- {$inc-user}
+[[module css]]
+/* User 1 Messages Content */
+
+.{$user-id} > .icon {
+    background-image: url('{$usericon}');
+}
+
+.{$user-id} > .body > .userblock > .user-name {
+    color: {$usercolor} !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-msg-start}
+                [[div_ class="message {$user-id}"]]
+                    [[div_ class="icon"]]
+                    [[/div]]
+                    [[div_ class="body"]]
+                        [[div_ class="userblock"]]
+                            [[div_ class="user-name"]]
+                            {$username}
+                            [[/div]]
+                            [[div_ class="msg-time"]]
+                            {$msg-time}
+                            [[/div]]
+                        [[/div]]
+                        [[div_ class="content"]]
+[!----]
+
+[!-- {$inc-msg-end}
+                        [[/div]]
+                    [[/div]]
+                [[/div]]
+[!----]
+
+[!-- {$inc-attch}
+[[module css]]
+/* {$attchname} Content */
+
+.{$attch-id} .filenameLinkWrapper > .anchor {
+    content: "{$attchname}";
+}
+
+.{$attch-id}.filenameLinkWrapper > .metadata {
+    content: "{$attchsize}";
+}
+
+.{$attch-id} .icon-code {
+    background-image: url("https://scp-wiki.wdfiles.com/local--files/component%3Adiscord-chat-source/file_icon.svg");
+}
+[[/module]]
+                [[div_ class="message {$user-id} {$attch-id}"]]
+                    [[div_ class="icon"]]
+                    [[/div]]
+                    [[div_ class="body"]]
+                        [[div_ class="userblock"]]
+                            [[div_ class="user-name"]]
+                            {$username}
+                            [[/div]]
+                            [[div_ class="msg-time"]]
+                            {$msg-time}
+                            [[/div]]
+                        [[/div]]
+                        [[div_ class="attachment"]]
+                            [[div_ class="icon-code"]]
+                            [[/div]]
+                            [[div_ class="attachmentInner"]]
+                                [[div_ class="filenameLinkWrapper"]]
+                                    [[a href="{$attchlink}"class="anchor"  rel="noreferrer noopener" target="_blank"]]{$attchname}[[/a]]
+                                    [[div_ class="metadata"]]
+                                    {$attchsize}
+                                    [[/div]]
+                                [[/div]]
+                            [[/div]]
+                            [[a class="anchor" href="{$attchlink}" target="_blank"]][[image https://scp-wiki.wdfiles.com/local--files/component%3Adiscord-chat-source/download-arrow.svg]][[/a]]
+                        [[/div]]
+                    [[/div]]
+                [[/div]]
+[!----]
+
+[!-- {$inc-new-msgs}
+[[div_ class="divider"]]
+[[span class="dividerContent"]]New Messages[[/span]]
+[[/div]]
+[!----]
+[[/iftags]]
+
+[[iftags +component-backend]]
+{{/*====================================================================
+================FOR INSTRUCTIONS ON HOW TO USE GO TO:=================
+============[https://scp-wiki.wikidot.com/component:discord-chat https://scp-wiki.wikidot.com/component:discord-chat]============
+====================================================================*/}}
+[[code]]
+[!-- {$inc-source}
+[[module CSS]]
+@import url("https://scp-wiki.wdfiles.com/local--files/component%3Adiscord-chat-source/discord.css");
+[[/module]]
+[!----]
+
+[!-- {$inc-start}
+[[div_ class="discord"]]
+    [[div_ class="messages-panel"]]
+        [[div_ class="messages-group"]]
+            [[div_ class="messages"]]
+[!----]
+
+[!-- {$inc-end}
+            [[/div]]
+        [[/div]]
+    [[/div]]
+[[/div]]
+[!----]
+
+[!-- {$inc-user}
+[[module css]]
+/* User 1 Messages Content */
+
+.{$user-id} > .icon {
+    background-image: url('{$usericon}');
+}
+
+.{$user-id} > .body > .userblock > .user-name {
+    color: {$usercolor} !important;
+}
+[[/module]]
+[!----]
+
+[!-- {$inc-msg-start}
+                [[div_ class="message {$user-id}"]]
+                    [[div_ class="icon"]]
+                    [[/div]]
+                    [[div_ class="body"]]
+                        [[div_ class="userblock"]]
+                            [[div_ class="user-name"]]
+                            {$username}
+                            [[/div]]
+                            [[div_ class="msg-time"]]
+                            {$msg-time}
+                            [[/div]]
+                        [[/div]]
+                        [[div_ class="content"]]
+[!----]
+
+[!-- {$inc-msg-end}
+                        [[/div]]
+                    [[/div]]
+                [[/div]]
+[!----]
+
+[!-- {$inc-attch}
+[[module css]]
+/* {$attchname} Content */
+
+.{$attch-id} .filenameLinkWrapper > .anchor {
+    content: "{$attchname}";
+}
+
+.{$attch-id}.filenameLinkWrapper > .metadata {
+    content: "{$attchsize}";
+}
+
+.{$attch-id} .icon-code {
+    background-image: url("https://scp-wiki.wdfiles.com/local--files/component%3Adiscord-chat-source/file_icon.svg");
+}
+[[/module]]
+                [[div_ class="message {$user-id} {$attch-id}"]]
+                    [[div_ class="icon"]]
+                    [[/div]]
+                    [[div_ class="body"]]
+                        [[div_ class="userblock"]]
+                            [[div_ class="user-name"]]
+                            {$username}
+                            [[/div]]
+                            [[div_ class="msg-time"]]
+                            {$msg-time}
+                            [[/div]]
+                        [[/div]]
+                        [[div_ class="attachment"]]
+                            [[div_ class="icon-code"]]
+                            [[/div]]
+                            [[div_ class="attachmentInner"]]
+                                [[div_ class="filenameLinkWrapper"]]
+                                    [[a href="{$attchlink}"class="anchor"  rel="noreferrer noopener" target="_blank"]]{$attchname}[[/a]]
+                                    [[div_ class="metadata"]]
+                                    {$attchsize}
+                                    [[/div]]
+                                [[/div]]
+                            [[/div]]
+                            [[a class="anchor" href="{$attchlink}" target="_blank"]][[image https://scp-wiki.wdfiles.com/local--files/component%3Adiscord-chat-source/download-arrow.svg]][[/a]]
+                        [[/div]]
+                    [[/div]]
+                [[/div]]
+[!----]
+
+[!-- {$inc-new-msgs}
+[[div_ class="divider"]]
+[[span class="dividerContent"]]New Messages[[/span]]
+[[/div]]
+[!----]
+[[/code]]
+[[/iftags]]
