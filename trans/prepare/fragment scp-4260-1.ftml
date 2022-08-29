@@ -1,6 +1,6 @@
-[[include :scp-wiki:component:black-highlighter-theme-dev]]
-[[include :topia:cqb:flow speed=1]]
-[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-jp:component:black-highlighter-theme-dev]]
+[!-- topia cqb:flow コンポーネントは空のコンポーネントであるため削除しました。 --]
+[[include :scp-jp:component:bhl-dark-sidebar]]
 [[include :scp-jp:component:anomaly-class-bar-source
 |item-number= 4260
 |clearance= 5
@@ -9,14 +9,14 @@
 |risk-class= critical
 ]]
 ------
-[[include :scp-wiki:component:image-block
+[[include :scp-jp:component:image-block
 |name=http://scp-jp-storage.wdfiles.com/local--files/file%3A5644698-3-jktg/scp_logo
 |caption="メニー・クラウンド・サーペント"作戦の公式紋章
 ]]
-**特別収容プロトコル:** この記事の[[[draft:7974444-17-56c6|バージョンα.4260]]]の収容プロトコルはSCP-4260の長期収容に不適であると考えられています。このような理由により、収容最適化を目的する"メニー・クラウンド・サーペント"実験作戦が2016/02/13に実施されました。結果としてSCP-4260の性質は劇的に変化しました。エラーが以下の説明全体に残っています。[[footnote]]オリジナル下書き作成日: 2000/09/26; 更新保留中[[/footnote]]
+**特別収容プロトコル:** この記事の[[[scp-4260|バージョンα.4260]]]の収容プロトコルはSCP-4260の長期収容に不適であると考えられています。このような理由により、収容最適化を目的する"メニー・クラウンド・サーペント"実験作戦が2016/02/13に実施されました。結果としてSCP-4260の性質は劇的に変化しました。エラーが以下の説明全体に残っています。[[footnote]]オリジナル下書き作成日: 2000/09/26; 更新保留中[[/footnote]]
 **説明:** SCP-4260は観測可能な宇宙に広がる概念物理実体の集合意識です。SCP-4260が存在することにより知的生命体の生理的老化が齎されます。また、SCP-4260はあらゆる生命体の生理機能の停止の直接的な原因でもあります。
-SCP-4260それ自身もまたそれ自身のエントロピーの影響下にあり、その宇宙に与える異常な影響は先立つ1000年において顕著に減少しつつあります。SCP-4260は紀元2017年に概念物理学的nullステートに到達することで失効すると予測されています。SCP-4260の以前の収容プロトコルは完全な物理的収容を達成しましたが、この効果とその主要な異常性質の両者を中断できないことが証明されました。
-SCP-4260の終了--@@　　@@--[[[end-of-death-hub|ΩK-クラス ("死の終焉")シナリオ]]]を齎します--@@　　@@--と異常手段によるSCP-4260の即時蘇生を含む手順8917は1999年3月に完了しました。本手順は財団の著名な人物の死と大量絶滅のいずれかが発生する場合にこれを妨げるために策定されました。
+SCP-4260自身もまた自身のエントロピーの影響下にあり、その宇宙に与える異常な影響は先立つ1000年において顕著に減少しつつあります。SCP-4260は紀元2017年に概念物理学的null状態に到達することで失効すると予測されています。SCP-4260の以前の収容プロトコルは完全な物理的収容を達成しましたが、この効果とその主要な異常性質の両者を停止できないことが証明されました。
+SCP-4260の終了--@@　　@@--[[[end-of-death-hub|ΩK-クラス ("死の終焉")シナリオ]]]を齎します--@@　　@@--と異常手段によるSCP-4260の即時蘇生を含む手順8917は1999年3月に完了しました。本手順は財団の要人の死と大量絶滅のいずれかが発生する場合にこれを妨げるために策定されました。
 **補遺4260.β.1:** 収得
 [[div style="display: block ; border : dashed 1px #444444 ; background :#F5F5F5 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
 [[=]]
@@ -34,73 +34,73 @@ __**アセット-4260: 顕現イベントタイムライン**__
 [[/div]]
 ~~~~
 ------
-[[div style="float:left; width: 15% ; padding: 0 2%"]]
+[[div class="left-float"]]
 {{[[size 110%]]**<12:09a>:**[[/size]]}}
 [[/div]]
-[[div style="float:right; width: 75% ; padding: 0 2%"]]
+[[div class="right-float"]]
 [[size 110%]]研究サイト-76は異常地震活動を記録し始めた。[[/size]]
 [[/div]]
 ~~~~
-[[div style="float:left; width: 15% ; padding: 0 2%"]]
+[[div class="left-float"]]
 {{[[size 110%]]**<12:15a>:**[[/size]]}}
 [[/div]]
-[[div style="float:right; width: 75% ; padding: 0 2%"]]
+[[div class="right-float"]]
 [[size 110%]]読み取り値再調整。地震活動の原因は本来のエントロピー的なものであると断定される。[[/size]]
 [[/div]]
 ~~~~
-[[div style="float:left; width: 15% ; padding: 0 2%"]]
+[[div class="left-float"]]
 {{[[size 110%]]**<01:03a>:**[[/size]]}}
 [[/div]]
-[[div style="float:right; width: 75% ; padding: 0 2%"]]
+[[div class="right-float"]]
 [[size 110%]]研究任務部隊イオタ-39派遣。[[/size]]
 [[/div]]
 ~~~~
-[[div style="float:left; width: 15% ; padding: 0 2%"]]
+[[div class="left-float"]]
 {{[[size 110%]]**<01:45a>:**[[/size]]}}
 [[/div]]
-[[div style="float:right; width: 75% ; padding: 0 2%"]]
+[[div class="right-float"]]
 [[size 110%]]研究任務部隊イオタ-39が地震活動の中心点を同定する。概念物理的エントロピー的活動が確認される。一時的観察駐屯地確立。[[/size]]
 [[/div]]
 ~~~~
-[[div style="float:left; width: 15% ; padding: 0 2%"]]
+[[div class="left-float"]]
 {{[[size 110%]]**<01:55a>:**[[/size]]}}
 [[/div]]
-[[div style="float:right; width: 75% ; padding: 0 2%"]]
+[[div class="right-float"]]
 [[size 110%]]原点周囲の空間歪みにより顕現イベントが示唆される。SCP-4260が顕現可能濃度領域の作成を試みるにつれて研究任務部隊イオタ-39は原点からの軽度の引力を経験する。[[/size]]
 [[/div]]
 ~~~~
-[[div style="float:left; width: 15% ; padding: 0 2%"]]
+[[div class="left-float"]]
 {{[[size 110%]]**<02:08a>:**[[/size]]}}
 [[/div]]
-[[div style="float:right; width: 75% ; padding: 0 2%"]]
+[[div class="right-float"]]
 [[size 110%]]原点にておそらく人間の腕らしきものが顕現する。腕は地に落ち退隠する。[[/size]]
 [[/div]]
 ~~~~
-[[div style="float:left; width: 15% ; padding: 0 2%"]]
+[[div class="left-float"]]
 {{[[size 110%]]**<02:15a>:**[[/size]]}}
 [[/div]]
-[[div style="float:right; width: 75% ; padding: 0 2%"]]
+[[div class="right-float"]]
 [[size 110%]]研究任務部隊イオタ-39は原点からの巨大な引力を報告する。観察駐屯地は固定される。[[/size]]
 [[/div]]
 ~~~~
-[[div style="float:left; width: 15% ; padding: 0 2%"]]
+[[div class="left-float"]]
 {{[[size 110%]]**<02:31a>:**[[/size]]}}
 [[/div]]
-[[div style="float:right; width: 75% ; padding: 0 2%"]]
+[[div class="right-float"]]
 [[size 110%]]原点はこの時点において顕現を補助するのに十分な濃度となり、顕現完了まで36分掛かると予想される。研究任務部隊イオタ-39は収容搬送を要求し、サイト-76にて機動部隊ミュー-8が結成され配備される。[[/size]]
 [[/div]]
 ~~~~
-[[div style="float:left; width: 15% ; padding: 0 2%"]]
+[[div class="left-float"]]
 {{[[size 110%]]**<03:00a>:**[[/size]]}}
 [[/div]]
-[[div style="float:right; width: 75% ; padding: 0 2%"]]
+[[div class="right-float"]]
 [[size 110%]]顕現イベントは最終段階へ突入する。原点が収縮するにつれて観察駐屯地に小さな損傷が生じる。機動部隊ミュー-8が到着し収容と搬送の準備を行う。[[/size]]
 [[/div]]
 ~~~~
-[[div style="float:left; width: 15% ; padding: 0 2%"]]
+[[div class="left-float"]]
 {{[[size 110%]]**<03:07a>:**[[/size]]}}
 [[/div]]
-[[div style="float:right; width: 75% ; padding: 0 2%"]]
+[[div class="right-float"]]
 [[size 110%]]顕現イベント完了。SCP-4260は人間の女性を象って原点に顕現する。SCP-4260は重度の見当識障害を呈し、歩行に障害を抱えている。SCP-4260が即時の収容と療養を求めた段階で機動部隊ミュー-8はSCP-4260を介助し始める。SCP-4260は拘束され研究サイト-76のメディカルベイに搬送される。[[/size]]
 [[/div]]
 ~~~~
@@ -203,5 +203,17 @@ SCP-4260の異常な性質は以下を含みますがこれに限られている
      opacity: 1;
      transform: translate(0,0);
     }
+}
+
+.left-float {
+    float: left;
+    width: 15%;
+    padding: 0 2%;
+}
+
+.right-float {
+    float:right;
+    width: 30%;
+    padding: 0 2%;
 }
 [[/module]]
