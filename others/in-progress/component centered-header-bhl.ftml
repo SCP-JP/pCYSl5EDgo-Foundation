@@ -1,39 +1,47 @@
-[[iftags +component]]
+[[iftags +コンポーネント]]
 [[=]]
 [[module Rate]]
 [[/=]]
 [[module css]]
-@import url("https://nu-scptheme.github.io/Black-Highlighter/css/min/normalize.min.css");
-@import url("https://nu-scptheme.github.io/Black-Highlighter/css/min/black-highlighter.min.css");
+@import url("http://scp-jp.wdfiles.com/local--code/fragment%3Ablack-highlighter-theme-source/1");
+@import url("http://scp-jp.wdfiles.com/local--code/fragment%3Ablack-highlighter-theme-source/2");
+@import url("http://scp-jp.wdfiles.com/local--code/fragment%3Ablack-highlighter-theme-source/3");
 h1, h2 {
     text-align: center;
 }
 [[/module]]
 + [[span class="translation-source"]]What this does[[/span]]
++ これは何をするものか
 
 ++ [[span class="translation-source"]]Rearranges the header so that the titles and logos are centered[[/span]]
+++ タイトルとロゴが真ん中に来るようヘッダを再配置するもの
 
 [[=]]
-* [[span class="translation-source"]]Does NOT work on Sigma-9. This ONLY functions with [http://scp-wiki.wikidot.com/theme:black-highlighter-theme Black Highlighter.][[/span]]
-* [[span class="translation-source"]]Highly suggest using with either [http://www.scpwiki.com/component:collapsible-sidebar Collapsible Sidebar] or [http://www.scpwiki.com/component:toggle-sidebar-bhl Toggle Sidebar][[/span]]
+* [[span class="translation-source"]]Does NOT work on Sigma-9. This ONLY functions with [http://scp-wiki.wikidot.com/theme:black-highlighter-theme Black Highlighter.][[/span]] _
+Sigma-9では動作**しない**。これは[[[theme:black-highlighter-theme|]]]と一緒に使われた時**だけ**機能する。
+* [[span class="translation-source"]]Highly suggest using with either [http://www.scpwiki.com/component:collapsible-sidebar Collapsible Sidebar] or [http://www.scpwiki.com/component:toggle-sidebar-bhl Toggle Sidebar][[/span]] _
+[[[component:collapsible-sidebar|]]]か[[[component:toggle-sidebar-bhl|]]]と一緒に使用することを強くオススメする。
 [[/=]]
 
 ----
 
 + [[span class="translation-source"]]How to use[[/span]]
++ 使用方法
 
 ++ [[span class="translation-source"]]1. Copy code below.[[/span]]
+++ 1. 以下のコードをコピー
 ++ [[span class="translation-source"]]2. Paste in article **after** Black Highlighter and any other Theme include.[[/span]]
+++ 2. ブラック・ハイライターまたは他のテーマをincludeした**後**に記事中にペースト
 
 [[div clas="blockquote"]]
-[[span class="translation-source"]]{{[[include :scp-wiki:component:centered-header-bhl]]}}[[/span]]
+{{[[include :scp-jp:component:centered-header-bhl]]}}
 [[/div]]
 
 ----
 [[/iftags]]
 [[div [[iftags -component]]style="display: none"[[/iftags]]]]
 ----
-[[collapsible show="+ Show component code" hide="- Hide component code"]]
+[[collapsible show="+ Show component code コンポーネントコードを開く" hide="- Hide component code コンポーネントコードを閉じる"]]
 [[module CSS show="true"]]
 
 @supports(display: grid) {
