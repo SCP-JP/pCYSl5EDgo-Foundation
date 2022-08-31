@@ -9,6 +9,9 @@
 h1, h2 {
     text-align: center;
 }
+.translation-source {
+    color: blue;
+}
 [[/module]]
 + [[span class="translation-source"]]What this does[[/span]]
 + これは何をするものか
@@ -39,11 +42,10 @@ Sigma-9では動作**しない**。これは[[[theme:black-highlighter-theme|]]]
 
 ----
 [[/iftags]]
-[[div [[iftags -component]]style="display: none"[[/iftags]]]]
+[[div [[iftags -コンポーネント]]style="display: none"[[/iftags]]]]
 ----
 [[collapsible show="+ Show component code コンポーネントコードを開く" hide="- Hide component code コンポーネントコードを閉じる"]]
 [[module CSS show="true"]]
-
 @supports(display: grid) {
     :root {
         /* header measurements */
@@ -107,7 +109,7 @@ Sigma-9では動作**しない**。これは[[[theme:black-highlighter-theme|]]]
         content: var(--header-title);
     }
 
-    #header h1 a::before  {
+    #header h1 a::before {
         color: rgb(var(--swatch-text-tertiary-color));
         z-index: -1;
         -webkit-text-stroke: 0.325rem rgb(var(--swatch-text-dark));
@@ -319,7 +321,9 @@ Sigma-9では動作**しない**。これは[[[theme:black-highlighter-theme|]]]
 }
 [[/module]]
 [!-- {$ch-scp}
-[[module css]]#header h2 {    height: 2em;    width: auto;    left: 50%;    transform: translateX(-50%);    top: calc(50% + (var(--header-h2-font-size) / 2));    background-position: center center;}@media screen and (max-width:56.25rem) {    #header h2 {        top: calc(50% + (var(--header-h1-font-size) / 2));    }}[[/module]]
+[[module css]]
+#header h2 { height: 2em; width: auto; left: 50%; transform: translateX(-50%); top: calc(50% + (var(--header-h2-font-size) / 2)); background-position: center center;}@media screen and (max-width:56.25rem) { #header h2 { top: calc(50% + (var(--header-h1-font-size) / 2)); }}
+[[/module]]
 [!----]
 [[/div]]
 [[/collapsible]]
