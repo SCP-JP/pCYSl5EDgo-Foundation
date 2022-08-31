@@ -25,5 +25,8 @@ fragment:scp-5947-3
 }
 [[/module]]
 [[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+[[div class="meta-title"]]
+%%title%%
+[[/div]]
 %%content%%
 [[/module]]
