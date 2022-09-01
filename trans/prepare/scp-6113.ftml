@@ -40,16 +40,20 @@ fragment:scp-6113-4
     box-shadow: 0 1px 3px rgba(0,0,0,.2);
 }
 [[/module]]
-[[include :scp-wiki:component:info-ayers
+[[include :scp-jp:component:info-ayers
 |lang=jp
 |page=scp-6113
 |authorPage=https://scp-wiki.wikidot.com/secure-facility-dossier-ex-site-26
 |comments=**SCP-6113:** 一時反射 by //[[*user Dr Asteria]]//
 ]]
 
-[[>]]
-[[module Rate]]
-[[/>]]
+[[include :scp-jp:credit:start]]
+**ソース:** [[[https://scp-wiki.wikidot.com/scp-6113|SCP-6113 - Temporary Reflection]]]
+**リビジョン:** 16
+**著者:** [[*user Dr Asteria]]
+**作成年:** 2021
+**邦題:** 一時反射
+[[include :scp-jp:credit:end]]
 
 [[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
 %%content%%
