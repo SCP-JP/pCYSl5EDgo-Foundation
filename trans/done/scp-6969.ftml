@@ -7,6 +7,9 @@
   -webkit-box-shadow: 0 -0.5rem 0 0 rgb(var(--five-color)) !important;
   -moz-box-shadow: 0 -0.5rem 0 0 rgb(var(--five-color)) !important;
 }
+.o {
+  color: orange;
+}
 [[/module]]
 
 [[include :scp-wiki:theme:black-highlighter-theme]]
