@@ -7,7 +7,7 @@ echo "delete ${name}";
 
 function PostCredits([string]$name) {
 echo "post ${name}";
-./SCP.exe page upload ${branch} "credits-${name}" "./others/utility/credits-${filename}.ftml";
+./SCP.exe page upload ${branch} "credits-${name}" "./others/utility/credits-${name}.ftml";
 }
 
 function PostParent([string]$name, [string]$title, [string]$tags, [string]$parent) {
