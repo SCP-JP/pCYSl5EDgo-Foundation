@@ -88,6 +88,7 @@ for ($i = 0; $i -lt 5; $i++) {
     PostParent "fragment:apas-${i}" "apas-${i}" 'en フラグメント' 'apas';
 }
 
+./SCP.exe page upload scp-series-5 .\others\series\scp-series-5.ftml -r 590
 ./SCP.exe forum post http://scp-jp.wikidot.com/forum/t-13863002/ f.txt
 ./SCP.exe forum post http://scp-jp.wikidot.com/forum/t-14417313/ g.txt
 PostForum 'note-your-name-is-nobody';
