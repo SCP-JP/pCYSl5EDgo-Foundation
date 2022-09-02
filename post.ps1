@@ -1,4 +1,4 @@
-$branch = 'pcysl';
+$branch = 'JP';
 $folder = './trans/prepare/';
 function DeleteF([string]$name) {
 echo "delete ${name}";
@@ -88,6 +88,8 @@ for ($i = 0; $i -lt 5; $i++) {
     PostParent "fragment:apas-${i}" "apas-${i}" 'en フラグメント' 'apas';
 }
 
+./SCP.exe forum post http://scp-jp.wikidot.com/forum/t-13863002/ f.txt
+./SCP.exe forum post http://scp-jp.wikidot.com/forum/t-14417313/ g.txt
 PostForum 'note-your-name-is-nobody';
 PostForum 'he-who-screws-with-reality';
 # PostForum 'somnambulant-directives-take-the-helm';
