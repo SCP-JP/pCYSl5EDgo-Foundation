@@ -35,36 +35,6 @@ $filename = $name.Replace(':', ' ');
 ./SCP.exe forum post-page ${branch} ${name} "${folder}${filename}.forum.ftml" --file --title 'オーサーポスト及びライセンス表記';
 }
 
-Post 'note-your-name-is-nobody' 'メモ: あなたの名前は「何者でもない」' 'en goi-format 何者でもない _何者でもない 放浪者の図書館';
-PostParent 'he-who-screws-with-reality' '現実玩弄者である彼は' 'en tale 深淵目録' 'site-17-hub';
-PostParent 'systems-patch' 'システムパッチ' 'en tale 深淵目録' 'site-17-hub';
-PostParent 'apas' '自動パッシブ記憶処理システム Ver. 17.09' 'en tale 深淵目録' 'site-17-hub';
-PostParent 'scp-4175' 'SCP-4175' 'en scp esoteric-class 深淵目録 シメリアン博士 倫理委員会 人間型 知性' 'site-17-hub';
-PostParent 'scp-4260' 'SCP-4260' 'en scp euclid 深淵目録 k-クラスシナリオ エントロピー 人間型 現実改変 蘇生 管理者' 'site-17-hub';
-PostParent 'fragment:scp-4260-0' 'SCP-4260 - レベル2/4260' 'en フラグメント' 'scp-4260';
-PostParent 'fragment:scp-4260-1' 'SCP-4260 - レベル5/4260' 'en フラグメント' 'scp-4260';
-for ($i = 0; $i -lt 5; $i++) {
-    PostParent "fragment:apas-${i}" "apas-${i}" 'en フラグメント' 'apas';
-}
-PostCredits 'scp-4000-4999';
-PostCredits 'goi-format';
-PostCredits 'tales';
-./SCP.exe page upload JP scp-series-5 '.\others\metadata\scp-series-5.ftml'
-./SCP.exe forum post http://scp-jp.wikidot.com/forum/t-13863002/ f.txt
-./SCP.exe forum post http://scp-jp.wikidot.com/forum/t-14417313/ g.txt
-PostForum 'note-your-name-is-nobody';
-PostForum 'he-who-screws-with-reality';
-PostForum 'systems-patch';
-PostForum 'apas';
-PostForum 'scp-4175';
-PostForum 'scp-4260';
-for ($i = 0; $i -lt 2; $i++) {
-    PostForum "fragment:scp-4260-${i}";
-}
-for ($i = 0; $i -lt 5; $i++) {
-    PostForum "fragment:apas-${i}";
-}
-
 # DeleteF 'somnambulant-directives-take-the-helm';
 # DeleteF 'test-subjects';
 # DeleteF 'without-you';
