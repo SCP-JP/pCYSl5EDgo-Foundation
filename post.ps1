@@ -5,6 +5,11 @@ echo "delete ${name}";
 ./SCP.exe page delete ${branch} ${name} --hard;
 }
 
+function PostCredits([string]$name) {
+echo "post ${name}";
+./SCP.exe page upload ${branch} "credits-${name}" "./others/utility/credits-${filename}.ftml";
+}
+
 function PostParent([string]$name, [string]$title, [string]$tags, [string]$parent) {
 echo "post ${name}";
 $filename = $name.Replace(':', ' ');
@@ -88,19 +93,28 @@ for ($i = 0; $i -lt 5; $i++) {
     PostParent "fragment:apas-${i}" "apas-${i}" 'en フラグメント' 'apas';
 }
 
-./SCP.exe page upload scp-series-5 .\others\series\scp-series-5.ftml -r 590
+PostCredits 'scp-4000-4999';
+PostCredits 'goi-format';
+PostCredits 'tales';
+./SCP.exe page upload JP scp-series-5 '.\others\series\scp-series-5.ftml'
 ./SCP.exe forum post http://scp-jp.wikidot.com/forum/t-13863002/ f.txt
 ./SCP.exe forum post http://scp-jp.wikidot.com/forum/t-14417313/ g.txt
 PostForum 'note-your-name-is-nobody';
 PostForum 'he-who-screws-with-reality';
-# PostForum 'somnambulant-directives-take-the-helm';
 PostForum 'systems-patch';
-# PostForum 'test-subjects';
-# PostForum 'without-you';
 PostForum 'apas' ;
-# PostForum 'hurt' ;
 PostForum 'scp-4175';
 PostForum 'scp-4260';
+for ($i = 0; $i -lt 2; $i++) {
+    PostForum "fragment:scp-4260-${i}";
+}
+for ($i = 0; $i -lt 5; $i++) {
+    PostForum "fragment:apas-${i}";
+}
+# PostForum 'somnambulant-directives-take-the-helm';
+# PostForum 'test-subjects';
+# PostForum 'without-you';
+# PostForum 'hurt' ;
 # PostForum 'scp-4855';
 # PostForum 'scp-5576';
 # PostForum 'scp-5715';
@@ -108,15 +122,9 @@ PostForum 'scp-4260';
 # PostForum 'scp-6086';
 # PostForum 'scp-6113';
 # PostForum 'scp-6969';
-for ($i = 0; $i -lt 2; $i++) {
-    PostForum "fragment:scp-4260-${i}";
-}
 # for ($i = 1; $i -lt 4; $i++) {
 #     PostForum "fragment:scp-5947-${i}";
 # }
 # for ($i = 0; $i -lt 5; $i++) {
 #     PostForum "fragment:scp-6113-${i}";
 # }
-for ($i = 0; $i -lt 5; $i++) {
-    PostForum "fragment:apas-${i}";
-}
