@@ -5,6 +5,10 @@
     color: transparent !important;
     font-size: 0 !important;
 }
+
+.o {
+    color: blue;
+}
 [[/module]]
 [[>]]
 [[module Rate]]
@@ -15,8 +19,10 @@
 @@ @@
 [[div clas="blockquote"]]
 = [[span class="o"]]**Notice From The Records And Information Security Administration**[[/span]]
+= **財団記録・情報保安管理局からの通知**
 
 = [[span class="o"]]The following document was obtained via [https://scpwiki.com/scp-3936 Exclusionary Site] from [https://scp-wiki.wikidot.com/scp-6969 a prior iteration of this universe] detailing an irreversible **XK-Class Event**. Access to this document is restricted to trans- or inter-universal specialist personnel and those with Level 4 or above clearance. And the O5 Council, I think.[[/span]]
+= 以下の文書は[[[scp-3936|除外サイト]]]を通じて[[[scp-6969|この宇宙の以前のバージョン]]]から入手されました。当該文書は非可逆的**XK-クラスイベント**について詳述しています。当該文書へのアクセスは宇宙間または宇宙相互の専門職員及びレベル4以上のクリアランスを持つ職員に制限されています。そして多分O5評議会にも。
 [[/div]]
 @@ @@
 [[include :scp-jp:component:acs-hybrid-text-bar-source
@@ -32,14 +38,22 @@
 
 [[include :scp-jp:component:image-block
 name=http://scp-jp-storage.wikidot.com/local--files/file:7974444-70-c4k8/etherealskeleton.png
-|caption=The Ethereal Skeleton, summoned by the activation of SCP-6969-J.
+|caption=The Ethereal Skeleton, summoned by the activation of SCP-6969-J.SCP-6969-Jの発動により招来されたジ・イシアリアル・スケルトン
 |width=100%
 |align=center]]
 
-||~ [[span class="o"]]Assigned Site[[/span]] ||~ [[span class="o"]]Project Lead(s)[[/span]] ||
-||[[span class="o"]] Site-68[[/span]] ||[[span class="o"]] Dr. Whitney[[footnote]]Head of Group of Interest Research[[/footnote]], Dr. Naomi Ross[[footnote]]Essophysics Department Head[[/footnote]][[/span]] ||
-||~ [[span class="o"]]Head Researcher(s)[[/span]] ||~ [[span class="o"]]Assigned Department(s)[[/span]] ||
-||[[span class="o"]] Dr. Nathan Brown[[footnote]]Prior Head of SCP-6969-J-ARC Research[[/footnote]], Dr. Jonathan Ball[[footnote]]Prominent Anomalous Sciences Researcher[[/footnote]][[/span]] ||[[span class="o"]] Various[[footnote]]Including, but not limited to: The Office of the Administrator, the O5 Council, the O4 Council, the O6 Council, the Site Directors' Executive Committee of the Whole, Accounting Department, Amnestics Production Committee, Ethics Committee, Department of Health and Security, Department of Human Resources, Department of Morality, Decommissioning Department, Disinformation Bureau, Iconography Division, Department of Inter-Anomaly Experimentation, Recordkeeping and Information Security Administration, Department of Acroamatic Abatement, Antimemetics Division, Division of Applied Patapsychology, Department of Thaumatology, Architectural Zoology, Department of Cognitohazards, Department of Conlanging, Department of Essophysics, Mintology Supervising Division, Office of the Nganga, Department of Pataphysics, Department of Pastaphysics, Office of Tactical Theology, and Department of Web Anomaly Containment. Yes, all of these [https://scpwiki.com/departments-complete-list are real].[[/footnote]][[/span]] ||
+||~ [[span class="o"]]Assigned Site[[/span]] _
+担当サイト ||~ [[span class="o"]]Project Lead(s)[[/span]] _
+プロジェクト主任 ||
+||[[span class="o"]] Site-68[[/span]] _
+サイト-68 ||[[span class="o"]] Dr. Whitney[[footnote]]Head of Group of Interest Research[[/footnote]], Dr. Naomi Ross[[footnote]]Essophysics Department Head[[/footnote]][[/span]] _
+ホイットニー博士[[footnote]]要注意団体研究主任[[/footnote]]、ナオミ・ロス博士[[footnote]]概念物理学部門主任[[/footnote]] ||
+||~ [[span class="o"]]Head Researcher(s)[[/span]] _
+主任研究員 ||~ [[span class="o"]]Assigned Department(s)[[/span]] _
+担当部門 ||
+||[[span class="o"]] Dr. Nathan Brown[[footnote]]Prior Head of SCP-6969-J-ARC Research[[/footnote]], Dr. Jonathan Ball[[footnote]]Prominent Anomalous Sciences Researcher[[/footnote]][[/span]] _
+ネイサン・ブラウン博士[[footnote]]元SCP-6969-J-ARC研究主任[[/footenote]]、ジョナサン・ボール博士[[footnote]]高名な異常科学研究者[[/footenote]] ||[[span class="o"]] Various[[footnote]]Including, but not limited to: The Office of the Administrator, the O5 Council, the O4 Council, the O6 Council, the Site Directors' Executive Committee of the Whole, Accounting Department, Amnestics Production Committee, Ethics Committee, Department of Health and Security, Department of Human Resources, Department of Morality, Decommissioning Department, Disinformation Bureau, Iconography Division, Department of Inter-Anomaly Experimentation, Recordkeeping and Information Security Administration, Department of Acroamatic Abatement, Antimemetics Division, Division of Applied Patapsychology, Department of Thaumatology, Architectural Zoology, Department of Cognitohazards, Department of Conlanging, Department of Essophysics, Mintology Supervising Division, Office of the Nganga, Department of Pataphysics, Department of Pastaphysics, Office of Tactical Theology, and Department of Web Anomaly Containment. Yes, all of these [https://scpwiki.com/departments-complete-list are real].[[/footnote]][[/span]] _
+多数[[footnote]]以下を含みますがこれに限られません。管理官事務局、O5評議会、O4評議会、O6評議会、全サイト局長執行委員会、会計部門、記憶処理剤生産委員会、倫理委員会、健康安全部門、人的資源部門、倫理部門、解体部門、情報隠蔽局、図像部門、SCiPクロステスト部門、記録・情報保安管理局、玄妙除却部門、反ミーム部門、応用超常心理学部門、奇跡論部門、建築動物学部門、認識災害部門、人工言語作成部門、概念物理学部門、Mintology Supervising Division、ンガンガオフィス、空想科学部門、料亭科学部門、戦術神学部門、そしてウェブアノマリー収容部門。はい、これら全ては[[[departments-complete-list|現実にあります]]]。[[/footenote]] ||
 
 ----
 
