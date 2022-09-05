@@ -1,0 +1,13 @@
+[[module CSS]]
+.meta-title p {
+    color: transparent !important;
+    font-size: 0 !important;
+}
+[[/module]]
+
+[[module ListPages category="adult" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- fragment:scp-6969-j-1 --]
+[!-- fragment:scp-6969-j-2 --]
