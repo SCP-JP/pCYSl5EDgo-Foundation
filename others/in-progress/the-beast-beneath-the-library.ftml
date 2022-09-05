@@ -1,13 +1,13 @@
-[[include :scp-jp:theme:scp-trans-pride |trans-pride-logo= --]]]
+[[%%content{0}%%include :scp-jp:theme:scp-trans-pride |trans-pride-logo= --]]]
 
-[[module CSS]]
+[[%%content{0}%%module CSS]]
 .email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px auto; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
 a.collapsible-block-link { font-weight: bold; }
-[[/module]]
+[[%%content{0}%%/module]]
 
 [[>]]
-[[module Rate]]
+[[%%content{0}%%module Rate]]
 [[/>]]
 [[div style="text-align: right; margin-top: -18px; margin-right: 2em;"]]
 ##757575|by Nagiros##
@@ -50,7 +50,7 @@ I want to be clear here. As someone with a connection with him, I have a certain
 
 ------
 
-[[include :scp-jp:component:login-module |id=TGRAHAMS_S-17|pw=enochian|disc=true]]
+[[%%content{0}%%include :scp-jp:component:login-module |id=TGRAHAMS_S-17|pw=enochian|disc=true]]
 [[collapsible show="Login" hide="Logout"]]
 @@ @@
 @@ @@
