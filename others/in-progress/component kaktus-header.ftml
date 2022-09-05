@@ -15,7 +15,7 @@
 [[/div]]
 
 [[iftags +7happy7]]
-[[iframe http://topia.wikidot.com/local--code/kaktus-header/1 style="width: 100%; height: 600px;"]]
+[[iframe http://pcysl.wikidot.com/local--code/component%3Akaktus-header/1 style="width: 100%; height: 600px;"]]
 
 [[code type="html"]]
 <!--
@@ -65,7 +65,7 @@ function wiki2html() {
 }
 function encode() {
     wiki2html();
-    result.value = "[[include :topia:kaktus-header |head=" + encodeURIComponent(head.value) + "|desc=" + encodeURIComponent(n) + "|num=" + encodeURIComponent(num.value) + "]]";
+    result.value = "[[include :pcysl:component:kaktus-header |head=" + encodeURIComponent(head.value) + "|desc=" + encodeURIComponent(n) + "|num=" + encodeURIComponent(num.value) + "]]";
     svgHead.innerHTML = head.value;
     svgNum.innerHTML =  num.value;
     svgDesc.innerHTML = n;
