@@ -1,0 +1,9 @@
+[[module Redirect destination="https://crom.avn.sh/misc/wikidot-search-shim#scp-wiki/search:crom/"]]
+
+[!--
+This redirect exists to allow the search box, a native Wikidot feature, to pass its query to Crom to use its wiki search.
+
+It does this by redirecting to Crom, setting a third-party cookie, and then redirecting back and reading the cookie to determine the search query. Thus, if third-party cookies are disabled, then the search query cannot be passed on.
+
+See http://crom.wikidot.com/wiki-search
+--]

@@ -1,0 +1,26 @@
+[[module css]]
+#page-title {display: none}
+
+.cromwalk {
+    margin: 0.5rem 0 0 auto;
+    width: max-content;
+    padding: 0.625rem;
+    border-radius: 8px;
+    background-color: #F5E5E8;
+    color: #9F3C4E;
+}
+.cromwalk a {
+    font-weight: bold;
+    color: #9F3C4E;
+}
+[[/module]]
+
+[[include :crom:wiki-search
+| lang=en
+| wiki=scp-wiki
+| tagconfig=https://05command.wdfiles.com/local--code/tech-hub-tag-list/1
+]]
+
+[[div_ class="cromwalk"]]
+See also: [[[Tag Search]]]
+[[/div]]

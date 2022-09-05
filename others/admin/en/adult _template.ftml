@@ -1,0 +1,24 @@
+[[module CSS]]
+#page-title {
+    display: none;
+}
+[[/module]]
+
+[[div id="adult-warning"]]
+[[div id="adult-header"]]
+ADULT CONTENT
+[[/div]]
+The following article contains content of an adult nature.
+
+Do not proceed if you are not over the age of 18 or are not willing to see such content.
+[[/div]]
+
+[[div class="meta-title"]]
+%%title%%
+[[/div]]
+
+%%content%%
+
+[[div style="display: none"]]
+[[module Redirect destination="https://scp-wiki.wikidot.com/%%name%%"]]
+[[/div]]

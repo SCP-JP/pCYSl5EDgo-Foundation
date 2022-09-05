@@ -1,0 +1,16 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div class="blockquote"]]
+This is a list of all SCP articles, by the year and month they were published. The goal is to provide a visual history of how the SCP Series have changed with time.
+
+See also:
+* [[[Tale Calendar]]]
+* [[[Page Calendar]]]
+[[/div]]
+
+[[module PageCalendar category="_default"]]
+[[module ListPages category="_default" tags="+scp -tale" perPage="100" date="@URL" separate="false" prependLine="||~ Page ||~ Date Published ||~ Created By ||"]]
+|| %%linked_title%% || %%date%% || %%created_by_linked%% ||
+[[/module]]

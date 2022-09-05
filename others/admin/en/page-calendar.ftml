@@ -1,0 +1,16 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div class="blockquote"]]
+This is a list of all pages which are not SCPs or tales, by the year and month they were published. The goal is to provide a visual history of how the site's miscellaneous pages have changed with time.
+
+See also:
+* [[[SCP Calendar]]]
+* [[[Tale Calendar]]]
+[[/div]]
+
+[[module PageCalendar category="*"]]
+[[module ListPages category="*" tags="-scp -tale" perPage="100" date="@URL" separate="false" prependLine="||~ Page ||~ Date Published ||~ Created By ||"]]
+|| %%linked_title%% || %%date%% || %%created_by_linked%% ||
+[[/module]]

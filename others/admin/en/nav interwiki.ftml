@@ -1,0 +1,28 @@
+[!--
+EN Interwiki, based on the CN Interwiki by 7happy7 and Sekai-s.
+
+Source: https://github.com/scpwiki/interwiki
+
+Usage:
+
+On the page that will contain the Interwiki:
+
+ [[include :scp-wiki:nav:interwiki
+| lang=en
+| community=scp
+]]
+
+Change the lang and community for your branch as appropriate. Branches must be supported by Crom (https://crom.avn.sh).
+
+On other pages (e.g. CSS themes), see https://scpwiki.com/component:interwiki-style to style the Interwiki.
+
+See also: https://scpwiki.com/how-to-create-a-branch-of-the-scp-foundation
+--]
+
+[[div class="scpnet-interwiki-wrapper interwiki-stylable"]]
+[[module ListPages range="." limit="1"]]
+[[embed]]
+<iframe src="//interwiki.scpwiki.com/interwikiFrame.html?lang={$lang}&community={$community}&pagename=%%fullname%%" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe>
+[[/embed]]
+[[/module]]
+[[/div]]

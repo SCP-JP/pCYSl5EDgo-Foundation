@@ -1,0 +1,12 @@
+[[module CSS]]
+#page-title {
+  display: none;
+}
+[[/module]] 
+ 
+[!-- https://crom.wikidot.com/tag-search --]
+[[include :crom:tag-search
+    lang=en |
+    wiki=scp-wiki |
+    config=https://05command.wdfiles.com/local--code/tech-hub-tag-list/1 |
+]]

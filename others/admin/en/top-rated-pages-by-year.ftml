@@ -1,0 +1,60 @@
+[[=]]
++* -Year-
+[[/=]]
+[[div_ class="year-nav"]][!-- ADD CURRENT YEAR --]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2022 2022]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2021 2021]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2020 2020]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2019 2019]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2018 2018]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2017 2017]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2016 2016]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2015 2015]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2014 2014]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2013 2013]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2012 2012]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2011 2011]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2010 2010]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2009 2009]
+[https://scp-wiki.wikidot.com/top-rated-pages-by-year/date/2008 2008]
+[[/div]]
+
+[[module ListPages rating=">60" order="rating desc" category="*" separate="false" limit="200" perPage="35" date="@URL|2022"[!-- UPDATE THIS TO CURRENT YEAR --] prependLine="||~ Title||~ Rating||~ Author||~ Written On||"]]
+|| %%title_linked%% || %%rating%% || %%created_by_linked%% || %%created_at%% ||
+[[/module]]
+
+
+[!-- CSS, don't touch --]
+[[module CSS]]
+#page-content h1 {
+    border-bottom: solid 0.125rem currentColor;
+    padding: 0 0 0.25em;
+}
+
+.year-nav {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.year-nav a {
+    padding: 0 0.45em;
+    border-right: solid 2px #333;
+}
+.year-nav a:last-child { border-right: none; }
+[[/module]]
+
+[!--
+Fragment list:
+https://scp-wiki.wikidot.com/fragment:top-rated-by-year-08
+https://scp-wiki.wikidot.com/fragment:top-rated-by-year-09
+https://scp-wiki.wikidot.com/fragment:top-rated-by-year-10
+https://scp-wiki.wikidot.com/fragment:top-rated-by-year-11
+https://scp-wiki.wikidot.com/fragment:top-rated-by-year-12
+https://scp-wiki.wikidot.com/fragment:top-rated-by-year-13
+https://scp-wiki.wikidot.com/fragment:top-rated-by-year-14
+https://scp-wiki.wikidot.com/fragment:top-rated-by-year-19
+https://scp-wiki.wikidot.com/fragment:top-rated-by-year-20
+https://scp-wiki.wikidot.com/fragment:top-rated-by-year-21
+https://scp-wiki.wikidot.com/fragment:top-rated-by-year-22
+--]

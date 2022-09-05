@@ -1,0 +1,338 @@
+This page hosts extensions, tools and scripts to alter and hopefully improve your site experience. If it's hosted here it should work on all browsers that the tool has been tested on. If they don't, or if you need the script to support your browser and it doesn't, report any bugs to the [http://05command.wikidot.com/technical-staff-main Tech Staff] and they'll work on a fix.
+
+This isn't attempt to screw with your browser, your computer, or your life. Nor is it a vast conspiracy to steal those pics of you at the beach wearing nothing but a small guinea pig and assorted fruits. Seriously, these don't do anything other than modify your user experience on the SCP wiki.
+
+[[toc]]
+
+-----
+
+ _
+
+[[# extensions]]
+
++ Extensions
+
+An extension is a fully-fledged addition to your browser that is installed from your browser's extension and/or app store. Extensions will automatically update.
+
+[[div class="content-panel standalone series"]]
+++ S-CSS-P
+
+**Screenshot:**
+
+[[image s-css-p.png]]
+
+**Description:** A modular stylesheet picker that lets you independently adjust the layout, color scheme, logo, fonts, and rating module visibility. Includes sync capability so your preferences carry across browsers so long as you're signed in to Chrome or Firefox.
+
+[[collapsible show="[+] Detailed instructions for install" hide="[-] Detailed instructions for install"]]
+# Install S-CSS-P as an add-on to your default browser.
+ * For Mozilla users: [https://addons.mozilla.org/en-US/firefox/addon/s-css-p/ LINK]
+ * For Chrome users: [https://chrome.google.com/webstore/detail/s-css-p/lcficnblkhejenkbmiloebohoclaebdj LINK]
+ * For Opera users: Use the [https://addons.opera.com/en/extensions/details/install-chrome-extensions/ Install Chrome Extensions] add-on and use the Chrome Link.
+ * For Edge users: Coming soon.
+[[/collapsible]]
+
+For bugs, tips or comments, contact [[user pxdnbluesoul]].
+
+[https://github.com/scpwiki/S-CSS-P GitHub]
+
+**Verified working on:** [[image FF_icon.png width="16"]] [[image Chrome_icon.png width="16"]] [[image Opera_icon.png width="16"]]
+@@ @@
+[[/div]]
+
+ _
+
+[[# services]]
+
++ External services
+
+These are services operated externally by a member of the wiki.
+
+[[div class="content-panel standalone series"]]
+++ Forum notifications
+
+**Description:** Receive notifications, by your choice of Wikidot PM or email, of new replies to your forum threads and posts. For more details and instructions, see the announcement: https://scp-wiki.wikidot.com/forum/t-14209085/forum-notifications-service
+
+For bugs, tips or comments, contact [[user Croquembouche]].
+
+**Verified working:** As of October 2021
+[[/div]]
+
+ _
+
+[[# styles]]
+
++ User Styles
+
+These are effectively CSS themes that you can apply to your entire reading experience on the wiki.
+
+[[div class="content-panel standalone series"]]
+++ Night Mode
+
+**Screenshot:**
+
+[[image night-mode]]
+
+**Description:** Overwrites the default theme of the wiki and swaps it for a darker color scheme.  This is only an aesthetic change and does not effect functionality.  For further details on it's development, please follow the [http://www.scp-wiki.net/forum/t-1353913/help-wanted debug thread] on the wiki which shows what it is and is not capable of.
+
+[[collapsible show="[+] Detailed instructions for install" hide="[-] Detailed instructions for install"]]
+# Install Stylish as an add-on to your default browser.
+ * For Mozilla users: [https://addons.mozilla.org/en-US/firefox/addon/stylish/ LINK]
+ * For Chrome users: [https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en LINK]
+ * For Opera users: [https://addons.opera.com/en/extensions/details/stylish-for-opera/ LINK]
+ * Any other browsers, find them yourselves.
+# Install the custom theme from the following link:
+ * [*https://userstyles.org/styles/118617/scp-wiki-night-mode Click here to download/install]
+# Enable Night Mode from your browser's Stylish drop down menu.
+ * [*http://i.imgur.com/ivQnqIj.png Screenshot]
+[[/collapsible]]
+
+For bugs, tips or comments, contact [[user anqxyr]] or [[user LurkD]].
+
+**Verified working on:** [[image FF_icon.png width="16"]] [[image Chrome_icon.png width="16"]]
+@@ @@
+[[/div]]
+
+ _
+
+[[# userscripts]]
+
++ Tampermonkey userscripts
+
+A userscript is a single Javascript file that runs on your page. It is essentially a much smaller extension. Userscripts must be installed manually through a script manager such as Tampermonkey. These userscripts do not automatically update.
+
+[[collapsible show="+ How to install a userscript"]]
+
+> ++ How to enable your browser to run userscripts
+> 
+> Browsers don't know how to run userscripts by default - to teach them how, you'll need to install an extension that manages them. We recommend Tampermonkey, which works for most browsers. Other userscript managers are available, but it is not guaranteed that these userscripts will work for those.
+> 
+> **[[image FF_icon.png width="16"]] Firefox:**
+> 
+> # Go [https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/ here].
+> # Click the button labeled '+ Add to Firefox' to install Tampermonkey.
+> 
+> **[[image Chrome_icon.png width="16"]] Chrome:**
+> 
+> # Go [https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo here].
+> # Click the button labeled 'Add to Chrome' to install Tampermonkey.
+> 
+> **[[image Safari_icon.png width="16"]] Safari:**
+> 
+> # Go [https://safari-extensions.apple.com/details/?id=net.tampermonkey.safari-G3XV72R5TC here].
+> # Click 'Install now' to install Tampermonkey.
+> 
+> **[[image Opera_icon.png width="16"]] Opera:**
+> 
+> # Go [https://addons.opera.com/en/extensions/details/tampermonkey-beta/ here].
+> # Click the button labeled 'Add to Opera' to install Tampermonkey.
+> 
+> **[[image Edge_icon.png width="16"]] Edge:**
+> 
+> # Go [https://www.microsoft.com/en-gb/p/tampermonkey/9nblggh5162s?rtc=1&activetab=pivot:overviewtab here].
+> # Click the button labeled 'Get' to install Tampermonkey.
+> 
+> This will install the base you need to be able to run the scripts linked here.
+> 
+> Note that this extension is not available for most mobile browsers, meaning the userscripts below are effectively desktop-only.
+
+> ++ How to install the userscripts
+> 
+> **Any browser using Tampermonkey:**
+> 
+> # Pick the userscript you want and click the link labelled "Click here to download/install".
+> # You should be redirected to Tampermonkey. Click "Install".
+>  * If you are not redirected, and the file simply downloads itself, then Tampermonkey is not correctly installed.
+>  * If the userscript fails to install for whatever reason, let a Tech Team member know.
+> # Refresh the page, and your userscript should be active.
+> # Continue browsing!
+> # If at any point you get redirected to a page that says "//A userscript wants to access a cross-origin resource.//", click "Always allow" in the bottom left. You'll have 20 seconds in which to do this - if you run out of time, don't worry, it'll pretend you said "no" and ask you again when it needs to.
+
+ _
+
+[[/collapsible]]
+
+[[div class="content-panel standalone series"]]
+++ Staff Identification
+
+**Link:** [https://github.com/scpwiki/SCP-Wiki-Staff-Identification/raw/master/scpwiki-staff-ids.user.js Click here to download/install]
+
+**Screenshot:**
+
+[[image Staff-identification-screenshot-2.png]]
+
+**Description:** Adds a title below the username to signify if a user is staff and what position they hold. May help you keep track of the shitload of staff we have to employ around here.
+
+This script works on both the SCP Wiki and on O5 Command.
+
+**Verified working on:** [[image FF_icon.png width="16"]] (Mar 2022)
+@@ @@
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++ The Jumpbox
+
+**Link:** [[file scpwiki-jumpbox.user.js|Click here to download/install]]
+
+**Screenshot:**
+
+[[image Jumpbox-screenshot.png]]
+
+**Description:** Inserts a small textbox and button next to your account information at the top right of the screen. Jumpbox allows you to instantly jump to any article you want. Typing in only numbers will shoot you off to the relevant scip. Typing in a mix of letters and numbers, or only letters, will get you that page. So 'chat guide' will get the chat guide. Note that Wikidot takes care of the spaces in there, converting them to dashes.
+
+Both an ENTER keypress and a click on the button work to submit.
+
+**Note:** it doesn't check whether or not the page exists and it doesn't provide anything in the way of spelling correction. 
+
+[[collapsible show="[+] Detailed instructions for usage" hide="[-] Detailed instructions for usage"]]
+
+Preface a title with **[modifier]|** to get a specific type of article. When you want the tale '827' by A Fat Ghost and not SCP-827, typing **t|827** will get you exactly what you want, whereas just the number, or **SCP-827** will get you the scp. 
+
+* **j:** for Joke articles (includes a special fix for SCP-J)
+* **x:** for -EX articles
+* **a:** for -ARC articles
+* **d:** for -D articles
+* **h:** for hub pages (i.e. typing in **h|unfounded** should get you the Unfounded Canon hub page.
+* **t:** for tales
+
+If you use any other modifier, it ignores it and acts like you only requested the page you specified after the pipe. I.e. typing **o|chat guide** will get you the chat guide, ignoring the unknown modifier.
+
+[[/collapsible]]
+
+**Verified working on:** [[image FF_icon.png width="16"]] (Oct 2018)
+@@ @@
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++ Previous/Next Buttons for SCPs
+
+**Link:** [[file scpwiki-prev-next.user.js|Click here to download/install]]
+
+**Screenshot:**
+
+[[collapsible show="[+] Screenshot" hide="[-] Screenshot"]]
+[[image PrevNext-screenshot.png]]
+[[/collapsible]]
+
+**Description:** This provides "<< Previous" and "Next >>" links at the top of any mainlist SCP article. Works fairly fast, but does get slower when there's a lot of [ACCESS DENIED]s between the current page and the next eligible article. This is really only a factor in the lastest SCP series.
+
+**Verified working on:** [[image FF_icon.png width="16"]] (Oct 2018)
+@@ @@
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++ PM shortcut
+
+**Link:** [[file scpwiki-pm-shortcut.user.js|Click here to download/install]]
+
+**Screenshot:**
+
+[[image PMShortcut-screenshot.png]]
+
+**Description:** Adds a small envelope image to the right of usernames produced with the Wikidot @@[[user XXXX]]@@ and @@[[*user XXXX]]@@ syntax. Click on the envelope to go directly to a new Wikidot PM addressed to that user.
+
+**Verified working on:** [[image FF_icon.png width="16"]] [[image Chrome_icon.png width="16"]] [[image Opera_icon.png width="16"]]
+@@ @@
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++ Series pages dead link checker
+
+**Link:** [[file SCP-deadlinks_SCP_Series.user.js|Click here to download/install]]
+
+**Screenshot:**
+
+[[image Series-dead-links-screenshot.png]]
+
+**Description:** Tells you whether or not there's still a title on the Series pages for articles that have been deleted. Inserts a div at the top of the page telling you that either there are no dead links, or the slots that still have a title, but no corresponding page. 
+
+**Verified working on:** [[image FF_icon.png width="16"]] [[image Chrome_icon.png width="16"]]
+@@ @@
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++ Rating-B-Gone
+
+**Link:** [[file scpwiki-rating-b-gone.user.js|Click here to download/install]]
+
+**Screenshot:** N/A
+
+**Description:** Hides the rating module, and modifies the rating link at the bottom to not show the current rating.
+
+**Verified working on:** [[image FF_icon.png width="16"]]
+@@ @@
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++ Delete applications
+
+**Link:** [https://github.com/croque-scp/delete-applications/raw/main/delete-applications.user.js Click here to download/install]
+
+**Screenshot:**
+
+[[image https://raw.githubusercontent.com/croque-scp/delete-applications/main/screenshot.png]]
+
+**Description:** Adds two buttons to your Wikidot message inbox that delete messages informing you that someone has applied to one of your sites. One button deletes applications on the current page only; the other deletes applications on all pages.
+
+**Verified working on:** [[image FF_icon.png width="16"]] (v1.0.0, Feb 2022)
+@@ @@
+[[/div]]
+
++ Outdated userscripts
+
+[[collapsible show="+ Show outdated userscripts"]]
+
+[[div class="content-panel standalone series"]]
+++ Author Karma **(Working, but outdated)**
+
+**Database requires more frequent updating.** (Oct 2018)
+
+**Link:** [[file scpwiki-author-karma.user.js|Click here to download/install]]
+
+**Screenshot:**
+
+[[image AuthorKarma-screenshot.png]]
+
+**Description:** Replaces the Wikidot karmabar with one that signifies how many succesful scp,  tale and goi-format pages a user has written for the wiki. Also adds a textual representation after the username. This may help you determine the amount of experience a user has when it comes to writing for the wiki. However, that does **not** necessarily mean users with low author karma are inexperienced.
+
+**Note:** The page this checks in the background may not have been updated recently (see the textual representation for the last time it was updated.)
+
+The last time the database was updated was 22nd June 2017.
+
+**Verified working on:** [[image FF_icon.png width="16"]]
+@@ @@
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++ Real Rating Info **(Not working)**
+
+**Not working on Firefox or Chrome** (Oct 2018)
+
+**Link:** [[file scpwiki-real-votes.user.js|Click here to download/install]]
+
+**Screenshot:**
+
+[[image ss_real_votes.png]]
+
+**Description:** Adds a clickable text underneath the rating module for a page, that tells you more about its real rating including how many up- and downvotes it has from active members, how many deleted accounts voted on the page, and whether there are double votes.
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++ HIRTOY? (Have I Read This One Yet?) **(Not working)**
+
+**Not working on Chrome (404)** (Nov 2018)
+
+**Link:** [[file scpwiki-page-read.user.js|Click here to download/install]]
+
+**Screenshot:**
+
+[[image PageRead-screenshot.png]]
+
+**Description:** Records and displays whether you've already read an SCP article (-J etc. included). Displays an icon to the left of the page title, with a green checkmark for articles you've read, a red X that you can click to manually mark the article as read, and a button to the far right of the title to toggle automarking articles as read as you view them.
+
+Now also adds a green checkmark on Series pages to show you've already marked an article as read.
+
+**Verified working on:** [[image FF_icon.png width="16"]]
+@@ @@
+[[/div]]
+
+[[/collapsible]]

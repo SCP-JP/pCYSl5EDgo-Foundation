@@ -1,0 +1,7 @@
+[[module ListPages category="*" order="random" limit="1"]]
+Random SCP: %%title_linked%%
+[[/module]]
+
+[[module ListPages category="*" order="random" limit="1"]]
+[[include :snippets:redirect url=%%link%%]]
+[[/module]]

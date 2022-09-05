@@ -1,0 +1,203 @@
+Ahoy! Welcome to the Site News Automator! Below is a series of tools designed to take some of the strain off setting up the monthly news.
+
+------
+
+
+
+------
+
+* These modules will display all the articles in a given month in raw text beside the author. Simply edit the dates in these modules to show the proper month's output prior to copying them to your sandbox.
+
+* Each module has a "- Dated" module that lists the respective content with post dates. This is to be used as a reference to help figure out what goes under which week in the Site News. 
+
+* The module after is to be copy/pasted either directly into the Site News or in the case of SCPs into the title-fetching tool to retrieve all of the titles of the articles.
+
+* At the very bottom, there are some modules for use when contests are being run.
+
+[[=]]
+**Disclaimer on Contests**
+[[/=]]
+
+For months that include contests, one must remember to exclude the appropriate contest's tag in the first set of modules and to change the "Contest" modules to include the excluded tag. This is to easily isolate contest entries so they do not need to be sorted out manually.
+
+------
+------
+[[=]]
+++ SCP Article Section
+[[/=]]
+[!-- SCP ARTICLE SECTION --]
+------
+
+[[collapsible show="SCPs Dated" hide="Close"]]
+[[module ListPages separate="no" name="scp-*" tags="-001-proposal -admin -artwork -author -contest -creepypasta -essay -former-author -goi-format -guide -hub -news -orphaned -project -sandbox -site -splash -supplement -tale -workbench -jam-con2021" created_at="2021.10" rating=">=-10" perPage="250" order="created_at"]]
+
+||@@* [[[@@%%name%%@@|@@ %%title%%@@]]]@@ ("%%actual-title%%") - Written by %%created_by%%.||%%created_at%%||
+[[/module]]
+[[/collapsible]]
+
+------
+
+[[collapsible show="SCPs" hide="Close"]]
+[[module ListPages separate="no" name="scp-*" tags="-001-proposal -admin -artwork -author -contest -creepypasta -essay -former-author -goi-format -guide -hub -news -orphaned -project -sandbox -site -splash -supplement -tale -workbench -jam-con2021" created_at="2021.10" rating=">=-10" perPage="250" order="created_at"]]
+
+||@@* @@ [[#ifexpr %%rating%% >= 100 | 💯 |    ]] [[#ifexpr %%rating%% < 30 | 📈 |    ]] @@ [[[@@%%name%%@@|@@ %%title%%@@]]]@@ ("%%actual-title%%") - Written by %%created_by%%.||
+[[/module]]
+[[/collapsible]]
+
+------
+[[=]]
+++ Tales Section
+[[/=]]
+[!-- TALES SECTION --]
+------
+
+[[collapsible show="Tales Dated" hide="Close"]]
+[[module ListPages separate="no" tags="+tale -jam-con2021" created_at="2021.10" rating=">=-10" perPage="250" order="created_at"]]
+
+||@@* [[[@@%%name%%@@|@@ %%title%%@@]]]@@ - Written by %%created_by%%.||%%created_at%%||
+[[/module]]
+[[/collapsible]]
+
+------
+
+[[collapsible show="Tales" hide="Close"]]
+[[module ListPages separate="no" tags="+tale -jam-con2021" created_at="2021.10" rating=">=-10" perPage="250" order="created_at"]]
+
+||@@* @@ [[#ifexpr %%rating%% >= 100 | 💯 |    ]] @@ [[[@@%%name%%@@|@@ %%title%%@@]]]@@ - Written by %%created_by%%.||
+[[/module]]
+[[/collapsible]]
+
+------
+[[=]]
+++ GoI Format Section
+[[/=]]
+[!-- GOI FORMAT SECTION --]
+------
+
+[[collapsible show="GoI Formats Dated" hide="Close"]]
+[[module ListPages separate="no" tags="+goi-format -jam-con2021" created_at="2021.10" rating=">=-10" perPage="250" order="created_at"]]
+
+||@@* [[[@@%%name%%@@|@@ %%title%%@@]]]@@ - Written by %%created_by%%.||%%created_at%%||
+[[/module]]
+[[/collapsible]]
+
+------
+
+[[collapsible show="GoI Formats" hide="Close"]]
+[[module ListPages separate="no" tags="+goi-format -jam-con2021" created_at="2021.10" rating=">=-10" perPage="250" order="created_at"]]
+
+||@@* @@ [[#ifexpr %%rating%% >= 100 | 💯 |    ]] [[#ifexpr %%rating%% < 20 | 📈 |    ]] @@ [[[@@%%name%%@@|@@ %%title%%@@]]]@@ - Written by %%created_by%%.||
+[[/module]]
+[[/collapsible]]
+
+------
+[[=]]
+++ Miscellaneous Section
+[[/=]]
+[!-- MISCELLANEOUS SECTION --]
+------
+
+[[collapsible show="Miscellaneous Dated" hide="Close"]]
+[[module ListPages separate="no" tags="-scp -tale -goi-format -in-rewrite -author -news -artist -artwork" created_at="2021.10" rating=">=-10" perPage="250" order="created_at"]]
+
+||@@* [[[@@%%name%%@@|@@ %%title%%@@]]]@@ - Written by %%created_by%%.||%%created_at%%||
+[[/module]]
+[[/collapsible]]
+
+------
+
+[[collapsible show="Miscellaneous" hide="Close"]]
+[[module ListPages separate="no" tags="-scp -tale -goi-format -in-rewrite -author -news -artist -artwork" created_at="2021.10" rating=">=-10" perPage="250" order="created_at"]]
+
+||@@* @@ [[#ifexpr %%rating%% >= 100 | 💯 |    ]] @@ [[[@@%%name%%@@|@@ %%title%%@@]]]@@ - Written by %%created_by%%.||
+[[/module]]
+[[/collapsible]]
+
+------
+[[=]]
+++ Author Pages Section
+[[/=]]
+[!-- AUTHOR PAGES SECTION --]
+------
+
+[[collapsible show="Author Pages Dated" hide="Close"]]
+[[module ListPages separate="no" tags="+author" created_at="2021.10" perPage="250" order="created_at"]]
+
+||@@* [[[@@%%name%%@@|@@ %%title%%@@]]]@@ It's %%created_by%%'s Author Page!||%%created_at%%||
+[[/module]]
+[[/collapsible]]
+
+------
+
+[[collapsible show="Author Pages (goes under Miscellaneous heading)" hide="Close"]]
+[[module ListPages separate="no" tags="+author" created_at="2021.10" perPage="250" order="created_at"]]
+
+||@@* @@ [[#ifexpr %%rating%% >= 100 | 💯 |    ]] @@ [[[@@%%name%%@@|@@ %%title%%@@]]]@@ It's %%created_by%%'s Author Page!||
+[[/module]]
+[[/collapsible]]
+
+------
+[[=]]
+++ Art Pages Section
+[[/=]]
+[!-- ART PAGES SECTION --]
+------
+
+[[collapsible show="Art Pages" hide="Close"]]
+[[module ListPages separate="no" tags="artist artwork" created_at="2021.10" perPage="250" order="created_at"]]
+
+||@@* @@ [[#ifexpr %%rating%% >= 100 | 💯 |    ]] @@ [[[@@%%name%%@@|@@ %%title%%@@]]]@@ created by %%created_by%%.||
+[[/module]]
+[[/collapsible]]
+
+------
+------
+
+++++ This module will display coauthored works. Look these up individually for proper attribution - http://www.scp-wiki.net/attribution-metadata.
+
+[[collapsible show="Co-authored" hide="Close"]]
+[[module ListPages separate="no" tags="co-authored" created_at="2021.10" perPage="250" order="created_at"]]
+
+||@@* [[[@@%%name%%@@|@@ %%title%%@@]]]@@ - Written by %%created_by%%.||
+[[/module]]
+[[/collapsible]]
+
+------
+------
+
+@@@@
+@@@@
+
++ SCP Title-Fetching tool:
+
+++++ Note: -EX SCPs ran through this will not display the proper name if the numerical designation exists on the mainlist (ie: SCP-2700-EX will show the title of SCP-2700).
+
+[[include fragment:site-news-title-fetcher]]
+
+@@@@
+@@@@
+
+------
+
+[[=]]
+++ Contest modules 
+[[/=]]
+
+------
+
+[[collapsible show="SCPs" hide="Close"]]
+[[module ListPages separate="no" tags="+memecon2021-unofficial -contest" perPage="250" order="created_at"]]
+
+||@@* @@ [[#ifexpr %%rating%% >= 100 | 💯 |    ]] [[#ifexpr %%rating%% < 30 | 📈 |    ]] @@ [[[@@%%name%%@@|@@ %%title%%@@]]]@@ ("%%actual-title%%") -  Written by %%created_by%%.||
+[[/module]]
+[[/collapsible]]
+
+
+[[collapsible show="Contest" hide="Close"]]
+[[module ListPages separate="no" tags="memecon2021-unofficial -scp" perPage="250" order="created_at"]]
+
+||@@* [[[@@%%name%%@@|@@ %%title%%@@]]]@@ - Written by %%created_by%%.||
+[[/module]]
+[[/collapsible]]
+
+------
