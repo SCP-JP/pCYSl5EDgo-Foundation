@@ -62,12 +62,16 @@ $filename = $name.Replace(':', ' ');
 # Post 'scp-5947' 'SCP-5947' 'en scp thaumiel 深淵目録 共著 動物 死体 外部エントロピー exquisite-corpse2020 食物 破壊不可能 mc&d 何者でもない 魚類 自己複製 画像差し止め';
 # PostParent 'scp-6086' 'SCP-6086' 'en scp neutralized 深淵目録 生命 art-exchange 倫理委員会 人間型 蘇生 知性 自己修復 自我 アダルト' 'site-17-hub';
 # PostParent 'scp-6113' 'SCP-6113' 'en scp esoteric-class 深淵目録 生命 シメリアン博士 倫理委員会 幻覚 人間型 知識 可視光 液体 場所 変身 観測 現実改変 知性 自我 瞬間移動 変容 未収容' 'site-17-hub';
-# Post 'scp-6969' 'SCP-6969' 'en 6000 アダルト 遺伝子 keter ループ 記憶影響 神経 生殖 scp 性的 時間 未収容'
+# Post 'scp-6969' 'SCP-6969' 'en 6000 アダルト 遺伝子 keter ループ 記憶影響 神経 生殖 scp 性的 時間 未収容';
+# Post 'scp-6969-j' 'SCP-6969-J' 'en scp esoteric-class ジョーク アダルト 深淵目録 概念 財団製 世界オカルト連合 移動不可能 破壊不可能 情報災害 k-クラスシナリオ 精神影響 性的 骨格 変容 未収容';
 # PostParent 'fragment:scp-5947-1' 'SCP-5947' 'en フラグメント' 'scp-5947';
 # PostParent 'fragment:scp-5947-2' 'SCP-5947' 'en フラグメント' 'scp-5947';
 # PostParent 'fragment:scp-5947-3' '自動監視記録' 'en フラグメント' 'scp-5947';
 # for ($i = 0; $i -lt 5; $i++) {
 #     PostParent "fragment:scp-6113-${i}" "scp-6113-${i}" 'en フラグメント' 'scp-6113';
+# }
+# for ($i = 1; $i -lt 3; $i++) {
+#     PostParent "fragment:scp-6969-j-${i}" "End of Sex Fragment ${i}" 'en フラグメント' 'scp-6969-j';
 # }
 
 # PostForum 'somnambulant-directives-take-the-helm';
