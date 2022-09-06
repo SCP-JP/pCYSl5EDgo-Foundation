@@ -1,0 +1,21 @@
+[[module CSS]]
+#page-title {
+    display: none;
+}
+
+
+/* DO NOT COPY THE FOLLOWING CSS WITHOUT EXPLICIT TECH TEAM PERMISSION. */
+a#pagerate-button,
+.page-rate-widget-box {
+    display: none;
+}
+[[/module]]
+
+[[div id="adult-warning"]]
+[[div id="adult-header"]]
+ADULT CONTENT
+[[/div]]
+This article contains adult content that may not be suitable for all readers.
+
+If you are above the age of 18+ and wish to read such content, then you may click [/adult:{$slug}/noredirect/true HERE] to view said content.
+[[/div]]
