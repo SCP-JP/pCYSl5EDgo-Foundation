@@ -1,4 +1,13 @@
 [[include :scp-jp:theme:scp-trans-pride |trans-pride-logo= --]]]
+[[%%content{0}%%include :scp-jp:credit:start]]
+**ソース:** [[[https://scp-wiki.wikidot.com/scp-4051|SCP-4051 - Your Friendly Neighborhood Keter]]]
+**リビジョン:** 187
+**著者:** [[*user Nagiros]]
+**作成年:** 2018
+[[%%content{0}%%include :scp-jp:credit:end]]
+[[span class="o"]]{{Contains themes of abuse and emotional manipulation.}}[[/span]]
+
+@@ @@
 
 [[module ListPages offset="@URL|0" range="."]]
 [[%%content{0}%%module CSS]]
@@ -13,21 +22,12 @@
   padding: 0 2%;
 }
 [[%%content{0}%%/module]]
-
-[[>]]
-[[%%content{0}%%module Rate]]
-[[/>]]
-
-[[span class="o"]]{{Contains themes of abuse and emotional manipulation.}}[[/span]]
-
-@@ @@
-
 ----
 [[%%content{0}%%include :scp-jp:component:classified-decoration
 |lv=2
 |item=4051
 |oc=Keter
-|lang=EN
+|lang=JP
 ]]
 [[=]]
 [[span class="o"]]**//Classification Committee Notice Regarding the Following Document://**[[/span]]
@@ -42,13 +42,9 @@
 [[span class="o"]]SCP-4051 requires extensive psychological screening. These sessions are to be performed weekly with on-site therapist Jules Yesenia, communicating with SCP-4051 via the containment unit's two-way audio-surveillance system.[[/span]]
 
 [[div style="border: gray 1px; padding: 7px; margin: 3px; background-color: #fafafa; box-shadow: 0 2px 4px rgba(75, 75, 75, .5); border-radius: 10px;"]]
-
 [[=]]
-
 [[collapsible show="► 4051.Breach_Protocol ◄" hide="▼ 4051.Breach_Protocol ▼"]]
-
 [[div class="breach-proto"]]
-
 ----
 
 ++++ [[span class="o"]]4051.Breach_Protocol.α[[/span]]
@@ -56,17 +52,11 @@
 ----
 
 [[<]]
-
 [[span class="o"]]Should SCP-4051 breach the outer wall of its containment unit, Dr. Yesenia is to be called upon as the primary catalyst for de-escalating potential conflict and recontaining it. If Dr. Yesenia is unable to de-escalate the breach due to unforeseen complications, on-site containment teams are to use standard Ranged-Incapacitation engagement tactics. Note that if SCP-4051 becomes cognizant of the assault team, the strike is to be aborted and the team immediately redeployed.[[/span]]
-
 [[/<]]
-
 [[/div]]
-
 [[/=]]
-
 [[/collapsible]]
-
 [[/div]]
 
 @@ @@
@@ -104,7 +94,7 @@
 
 [[span class="o"]]**Foreword:** Due to SCP-4051’s resistance during its retrieval, SCP-4051 has been separated from Dr. Roswell by a one-way glass barrier and is handcuffed to a chair.[[/span]]
 
-[[span class="o"]]**<Begin Log>**[[/span]]
+**<ログ開始>**
 
 [[span class="o"]]**Dr. Roswell:** Greetings. My name is Dr. Roswell. Is your name Rainer Miller?[[/span]]
 
@@ -146,7 +136,7 @@
 
 [[span class="o"]]**SCP-4051:** You’re welcome.[[/span]]
 
-[[span class="o"]]**<End Log>**[[/span]]
+**<ログ終了>**
 [[/div]]
 [[/collapsible]]
 
@@ -171,12 +161,12 @@
 [[collapsible show="+ Access Experiment-Log-4051-e-1, -e-2, -e-3" hide="- Retract Experiment Log-4051-e-1, -e-2, -e-3"]]
 
 [[div class="test"]]
-
 [[span class="o"]]__**Experiment 4051-e-1:**__[[/span]]
+__**実験4051-e-1:**__
 
 [[span class="o"]]**Name:** Dr. Roswell with Dr. Edwards assisting.[[/span]]
 
-[[span class="o"]]**Date:** 2012/08/15[[/span]]
+**日付:** 2012/08/15
 
 [[span class="o"]]**Procedure:** SCP-4051 is to be asked to manifest several items by Dr. Roswell: a 3 cm^^3^^ cube of lead, an object of SCP-4051's choice, and a container of bleach.[[/span]]
 
@@ -192,12 +182,12 @@
 [[/div]]
 
 [[div class="test"]]
-
 [[span class="o"]]__**Experiment 4051-e-2:**__[[/span]]
+__**実験4051-e-2:**__
 
 [[span class="o"]]**Name:** Dr. Roswell with Dr. Edwards assisting.[[/span]]
 
-[[span class="o"]]**Date:** 2012/08/16[[/span]]
+**日付:** 2012/08/16
 
 [[span class="o"]]**Procedure:** SCP-4051 is to be asked to manifest a copy of Leo Tolstoy’s //War and Peace// and a functioning mobile phone.[[/span]]
 
@@ -214,14 +204,14 @@
 [[/div]]
 [[/div]]
 [[div class="test"]]
-
 [[span class="o"]]__**Experiment 4051-e-3:**__[[/span]]
+__**実験4051-e-3:**__
 
 [[span class="o"]]//[A transcript has been provided to supplement the following experiment.]//[[/span]]
 
 [[span class="o"]]**Name:** Dr. Roswell with Dr. Edwards assisting.[[/span]]
 
-[[span class="o"]]**Date:** 2012/08/17[[/span]]
+**日付:** 2012/08/17
 
 [[span class="o"]]**Procedure:** SCP-4051 is to be asked to manifest a circular square, the color blue, and a statement that says it is false.[[/span]]
 
@@ -231,7 +221,7 @@
 
 [[span class="o"]]**Transcript of Experiment 4051-e-3:**[[/span]]
 
-[[span class="o"]]**<Begin Log>**[[/span]]
+**<ログ開始>**
 
 [[span class="o"]]**Dr. Roswell:** We will now begin the third test. The purpose of this experiment will be to ascertain whether—[[/span]]
 
@@ -259,7 +249,7 @@
 
 [[span class="o"]]//A look of confusion passes over SCP-4051’s face before it rapidly manifests all three. Detrimental effects on the cognitive abilities of anyone directly observing the objects exhibited themselves immediately. SCP-4051 was immediately incapacitated by attending security personnel and returned to its containment unit.//[[/span]]
 
-[[span class="o"]]**<End Log>**[[/span]]
+**<ログ終了>**
 
 [[span class="o"]]**Afterword:** SCP-4051 was returned to its containment unit and the testing chamber was sanitized of residual paradoxical contamination as per standard paracognitohazard protocol ψ-3.[[/span]]
 
@@ -270,7 +260,6 @@
 [[span class="o"]]//- Dr. Edwards//[[/span]]
 [[/div]]
 [[/div]]
-
 [[/collapsible]]
 
 [[collapsible show="+ Access Incident Report: SCP-4051-1" hide="- Retract Incident Report: SCP-4051-1"]]
@@ -298,13 +287,11 @@
 [[span class="o"]]**16:27 -** Two other teams of security personnel converge on SCP-4051's location, and successfully incapacitate it.[[/span]]
 
 [[/div]]
-
 [[/collapsible]]
 
 [[collapsible show="+ Access Note from Site Director Graham" hide="- Retract Note from Site Director Graham"]]
 
 [[div class="test"]]
-
 [[span class="o"]]Site-17 personnel,[[/span]]
 
 [[span class="o"]]In light of yesterday's containment breach, SCP-4051 has been moved to an enhanced humanoid containment unit. That being said, we've concluded that it would be beneficial for Site-17 as a whole to work to better understand SCP-4051's capabilities. Multiple options are being discussed, such as using it to assist in standard repairs and maintenance, but certain influential individuals have also proposed using it to produce more valuable materials.[[/span]]
@@ -316,9 +303,8 @@
 [[span class="o"]]All personnel assigned to directly interact with SCP-4051 have been sent a copy of the updated containment procedures and other relevant materials. Your mistake was not realizing how versatile SCP-4051's anomaly was. Let's not make that mistake again.[[/span]]
 
 [[span class="o"]]//- Site Director Thomas [[[Somnambulant Directives Take The Helm | Graham]]]//[[/span]]
-
+//- サイト管理官 トーマス・[[[somnambulant-directives-take-the-helm|グラハム]]]//
 [[/div]]
-
 [[/collapsible]]
 
 [[span class="o"]]**Addendum.4051.2:** Experiment Logs and Therapy Sessions with Dr. Yesenia[[/span]]
@@ -326,12 +312,11 @@
 [[collapsible show="+ Access Transcript of Therapy-Session-4051-1" hide="- Retract Therapy-Session-4051-1"]]
 
 [[div class="therapy"]]
-
 [[span class="o"]]__**Transcript of Therapy-Session-4051-1:**__[[/span]]
 
 ----
 
-[[span class="o"]]**<Begin Log>**[[/span]]
+**<ログ開始>**
 
 [[span class="o"]]**Dr. Yesenia:** Hey, Rainer! Happy to meet you.[[/span]]
 
@@ -387,23 +372,22 @@
 
 [[span class="o"]]//[The remaining fifteen minutes of conversation have been declared irrelevant to SCP-4051's relationship with the Foundation. To see the extended transcript, submit a request to Site Director Graham.]//[[/span]]
 
-[[span class="o"]]**<End Log>**[[/span]]
+**<ログ終了>**
 
 [[span class="o"]]//**Note:** This may be easier than I thought at first. Right now, effort should be made to convince SCP-4051 that the Foundation has its best interests at heart. I would like to see some modifications to its containment unit as well. Too much concrete.//[[/span]]
 
 [[/div]]
-
 [[/collapsible]]
 
 [[collapsible show="+ Access Experiment-Log-4051-e-4, -e-5" hide="- Retract Experiment-Log-4051-e-4, -e-5"]]
 
 [[div class="test"]]
-
 [[span class="o"]]__**Experiment 4051-e-4:**__[[/span]]
+__**実験4051-e-4:**__
 
 [[span class="o"]]**Name:** Dr. Edwards[[/span]]
 
-[[span class="o"]]**Date:** 2012/08/23[[/span]]
+**日付:** 2012/08/23
 
 [[span class="o"]]**Procedure:** A D-class subject is to be introduced inside the observation chamber with SCP-4051. SCP-4051 will be instructed to manifest a small stone, and the D-class subject will attempt to remove the stone from the portal.[[/span]]
 
@@ -417,12 +401,12 @@
 [[/div]]
 
 [[div class="test"]]
-
 [[span class="o"]]__**Experiment 4051-e-5:**__[[/span]]
+__**実験4051-e-5:**__
 
 [[span class="o"]]**Name:** Dr. Edwards[[/span]]
 
-[[span class="o"]]**Date:** 2012/08/24[[/span]]
+**日付:** 2012/08/24
 
 [[span class="o"]]**Procedure:** A mechanical arm holding a GPS tracking chip will insert the chip into SCP-4051's portal. SCP-4051 will retrieve the intended object, close the portal, and manifest the same object. Staff will determine if a signal from the tracking chip can be established.[[/span]]
 
@@ -436,18 +420,16 @@
 [[span class="o"]]Just a small note, too, but we compared the picture it manifested today to the one it manifested in Experiment-4051-e-1. The more recent one has a few changes. The hairstyle is different and a few moles are missing on her cheeks.[[/span]]
 [[/div]]
 [[/div]]
-
 [[/collapsible]]
 
 [[collapsible show="+ Access Transcript of Therapy-Session-4051-2" hide="- Retract Therapy-Session-4051-2"]]
 
 [[div class="therapy"]]
-
 [[span class="o"]]__**Transcript of Therapy-Session-4051-2:**__[[/span]]
 
 ----
 
-[[span class="o"]]**<Begin Log>**[[/span]]
+**<ログ開始>**
 
 [[span class="o"]]//[The first fifty minutes of conversation have been declared irrelevant to SCP-4051's relationship with the Foundation. To see the extended transcript, submit a request to Site Director Graham.]//[[/span]]
 
@@ -473,10 +455,9 @@
 
 [[span class="o"]]//[The remaining ten minutes of conversation have been declared irrelevant to SCP-4051's relationship with the Foundation. To see the extended transcript, submit a request to Site Director Graham.]//[[/span]]
 
-[[span class="o"]]**<End Log>**[[/span]]
+**<ログ終了>**
 
 [[/div]]
-
 [[/collapsible]]
 
 [[span class="o"]]**Addendum.4051.3:** Procedure 350-PROMETHEAN and Therapy Sessions with Dr. Yesenia[[/span]]
@@ -498,7 +479,6 @@
 [[/div]]
 
 [[div class="test"]]
-
 [[=]]
 
 ++ [[span class="o"]]__Procedure Proposal: Procedure 350-PROMETHEAN__[[/span]]
@@ -611,16 +591,15 @@
 [[/div]]
 
 [[/div]]
-
 [[/collapsible]]
 
 [[collapsible show="+ Access Experiment-Log-4051-e-7" hide="- Retract Experiment-Log-4051-e-7"]]
 
 [[div class="test"]]
-
 [[span class="o"]]__**Experiment 4051-e-7:**__[[/span]]
+__**実験4051-e-7:**__
 
-[[span class="o"]]**Date:** 2012/08/31[[/span]]
+**日付:** 2012/08/31
 
 [[span class="o"]]**Procedure:** Dr. Edwards is to initiate Procedure 350-PROMETHEAN.[[/span]]
 
@@ -632,18 +611,16 @@
 [[span class="o"]]**Notes:** Damn kid. Broke the straps on the chair. I'm tempted to get it tranquilized during the procedure, but we need it awake.[[/span]]
 [[/div]]
 [[/div]]
-
 [[/collapsible]]
 
 [[collapsible show="+ Access Transcript of Therapy-Session-4051-3" hide="- Retract Therapy-Session-4051-3"]]
 
 [[div class="therapy"]]
-
 [[span class="o"]]__**Transcript of Therapy-Session-4051-3:**__[[/span]]
 
 ----
 
-[[span class="o"]]**<Begin Log>**[[/span]]
+**<ログ開始>**
 
 [[span class="o"]]**Dr. Yesenia:** Hey Rainer![[/span]]
 
@@ -671,21 +648,20 @@
 
 [[span class="o"]]//[The remaining fifty minutes of conversation have been declared irrelevant to SCP-4051's relationship with the Foundation. To see the extended transcript, submit a request to Site Director Graham.]//[[/span]]
 
-[[span class="o"]]**<End Log>**[[/span]]
+**<ログ終了>**
 
 [[span class="o"]]//**Note:** The hell am I supposed to do? Edwards has been telling me Rainer's been getting resentful, but I'm not seeing that in our conversations. He still seems like the same, sweet kid as before.//[[/span]]
 
 [[/div]]
-
 [[/collapsible]]
 
 [[collapsible show="+ Access Experiment-Log-4051-e-9" hide="- Retract Experiment-Log-4051-e-9"]]
 
 [[div class="test"]]
-
 [[span class="o"]]__**Experiment 4051-e-9:**__[[/span]]
+__**実験4051-e-9:**__
 
-[[span class="o"]]**Date:** 2012/09/15[[/span]]
+**日付:** 2012/09/15
 
 [[span class="o"]]**Procedure:** Dr. Edwards is to initiate Procedure 350-PROMETHEAN.[[/span]]
 
@@ -697,18 +673,16 @@
 [[span class="o"]]**Notes:** This was the first procedure we've actually completed. We'll need to keep experimenting with different manifested objects. SCP-4051's compliance with the procedure greatly alleviated most of the complications.[[/span]]
 [[/div]]
 [[/div]]
-
 [[/collapsible]]
 
 [[collapsible show="+ Access Transcript of Therapy-Session-4051-4" hide="- Retract Therapy-Session-4051-4"]]
 
 [[div class="therapy"]]
-
 [[span class="o"]]__**Transcript of Therapy-Session-4051-4:**__[[/span]]
 
 ----
 
-[[span class="o"]]**<Begin Log>**[[/span]]
+**<ログ開始>**
 
 [[span class="o"]]//[The first fifteen minutes of conversation have been declared irrelevant to SCP-4051's relationship with the Foundation. To see the extended transcript, submit a request to Site Director Graham.]//[[/span]]
 
@@ -750,21 +724,20 @@
 
 [[span class="o"]]//[The remaining forty minutes of conversation have been declared irrelevant to SCP-4051's relationship with the Foundation. To see the extended transcript, submit a request to Site Director Graham.]//[[/span]]
 
-[[span class="o"]]**<End Log>**[[/span]]
+**<ログ終了>**
 
 [[span class="o"]]//**Note:** Rainer's mental state has been greatly improving. He seems to be fitting into his role here at the Foundation, finally. I hope this means that Edwards' experiments are going more smoothly.//[[/span]]
 
 [[/div]]
-
 [[/collapsible]]
 
 [[collapsible show="+ Access Experiment-Log-4051-e-13, -e-14" hide="- Retract Experiment-Log-4051-e-13, -e-14"]]
 
 [[div class="test"]]
-
 [[span class="o"]]__**Experiment 4051-e-13:**__[[/span]]
+__**実験4051-e-13:**__
 
-[[span class="o"]]**Date:** 2012/09/27[[/span]]
+**日付:** 2012/09/27
 
 [[span class="o"]]**Procedure:** Dr. Edwards is to initiate Procedure 350-PROMETHEAN.[[/span]]
 
@@ -779,10 +752,10 @@
 [[/div]]
 
 [[div class="test"]]
-
 [[span class="o"]]__**Experiment 4051-e-14:**__[[/span]]
+__**実験4051-e-14:**__
 
-[[span class="o"]]**Date:** 2012/10/02[[/span]]
+**日付:** 2012/10/02
 
 [[span class="o"]]**Procedure:** Dr. Edwards is to initiate Procedure 350-PROMETHEAN.[[/span]]
 
@@ -796,18 +769,16 @@
 [[span class="o"]]**Notes:** The procedure was a success. As unprofessional as my behavior was yesterday, I believe my outburst had a positive effect on SCP-4051. We're getting closer to starting work on Project 350-Janus.[[/span]]
 [[/div]]
 [[/div]]
-
 [[/collapsible]]
 
 [[collapsible show="+ Access Transcript of Therapy-Session-4051-5" hide="- Retract Therapy-Session-4051-5"]]
 
 [[div class="therapy"]]
-
 [[span class="o"]]__**Transcript of Therapy-Session-4051-5:**__[[/span]]
 
 ----
 
-[[span class="o"]]**<Begin Log>**[[/span]]
+**<ログ開始>**
 
 [[span class="o"]]//[The first twenty minutes of conversation have been declared irrelevant to SCP-4051's relationship with the Foundation. To see the extended transcript, submit a request to Site Director Graham.]//[[/span]]
 
@@ -851,12 +822,11 @@
 
 [[span class="o"]]//[The remaining thirty minutes of conversation have been declared irrelevant to SCP-4051's relationship with the Foundation. To see the extended transcript, submit a request to Site Director Graham.]//[[/span]]
 
-[[span class="o"]]**<End Log>**[[/span]]
+**<ログ終了>**
 
 [[span class="o"]]//**Note:** This entire plan to get SCP-4051 to want to help the Foundation seems kind of frivolous in hindsight. He's already compliant and convinced that helping out at the site is just an extension of his prior vigilantism. I'll contact Graham in a few minutes.//[[/span]]
 
 [[/div]]
-
 [[/collapsible]]
 
 [[span class="o"]]--**Addendum.4051.4:** SCP-4051 has been granted a Level 1 Security Clearance to assist Site-17 in general repairs. This does not mean SCP-4051 is allowed to wander freely around the facility. SCP-4051 will be escorted by armed personnel to areas requiring repairs once weekly.--[[/span]]
@@ -895,20 +865,7 @@
 .tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
 a.collapsible-block-link { font-weight: bold; }
 [[%%content{0}%%/module]]
-
-[[>]]
-[[%%content{0}%%module Rate]]
-[[/>]]
-[[div style="text-align: right; margin-top: -18px; margin-right: 2em;"]]
-[[span class="o"]]##757575|by Nagiros##[[/span]]
-[[/div]]
-
-[[span class="o"]]{{Contains themes of abuse and emotional manipulation.}}[[/span]]
-
-@@ @@
-
 [[div style="background:#F5F5F5; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px auto;"]]
-
 [[span class="o"]]**MEMO TO THE OFFICE OF THE SITE-17 DIRECTOR**[[/span]]
 [[span class="o"]]**From:** Dr. Yesenia, assigned to [[[SCP-4051]]] as an onsite therapist.[[/span]]
 
@@ -965,7 +922,7 @@ a.collapsible-block-link { font-weight: bold; }
 @@ @@
 ----
 @@ @@
-[[span class="o"]]**<Begin Log>**[[/span]]
+**<ログ開始>**
 
 [[span class="o"]]**P-7 Charlie:** Mic check. Everybody call in.[[/span]]
 
@@ -1551,7 +1508,7 @@ a.collapsible-block-link { font-weight: bold; }
 
 [[span class="o"]]**P-7 Rainer:** Take this![[/span]]
 
-[[span class="o"]]**<End Log>**[[/span]]
+**<ログ終了>**
 
 [[/div]]
 
@@ -1565,7 +1522,7 @@ a.collapsible-block-link { font-weight: bold; }
 
 ----
 
-[[span class="o"]]**<Begin Log>**[[/span]]
+**<ログ開始>**
 
 [[span class="o"]]**Dr. Yesenia:** Rainer? Can you hear me?[[/span]]
 
@@ -1613,7 +1570,7 @@ a.collapsible-block-link { font-weight: bold; }
 
 [[span class="o"]]//(SCP-4051 sits in the corner of its room and smiles, and remains there.)//[[/span]]
 
-[[span class="o"]]**<End Log>**[[/span]]
+**<ログ終了>**
 
 [[/div]]
 
@@ -1624,7 +1581,6 @@ a.collapsible-block-link { font-weight: bold; }
 [[<]]
 [[footnoteblock]]
 [[/<]]
-
 [[/collapsible]]
 
 @@ @@
