@@ -1,0 +1,93 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+**アイテム番号:** SCP-124-JP-J
+
+**オブジェクトクラス:** Euclid
+
+**特別収容プロトコル:** SCP-124-JP-Jの収容違反が発見された場合、該当サイトに機動部隊ゑ-1("メアリーとスー")を派遣してください。機動部隊は該当サイトにてSCP-124-JP-JまたはSCP-124-JP-Jのコピーを発見し、速やかに処分してください。また、収容後は機動部隊を含めた関係職員全てにクラスB記憶処理を施してください。
+
+**説明:** SCP-124-JP-Jは21項目のチェックリストが記述された、A4サイズの普通紙です。項目の内容に変化はありませんが、点数は各収容違反毎に異なる場合があります。[[footnote]]一例としてヒトのオスメスの点差が挙げられます。この点差は発生したSCP-124-JP-J毎に値が異なるため、SCP-124-JP-Jが発生した地域の男女の就業率の差が影響している、という仮説が出ています。[[/footnote]]チェックリストを視認することで、Dクラス以外の財団職員はミーム的認識災害に感染します。SCP-124-JP-Jにはこれ以外の特異性が確認されていません。SCP-124-JP-Jのコピーも同様の性質を持ちますが、Dクラス職員の読み上げを書き起こした文章には感染性がありませんでした。以下の文章は読み上げを元にしたチェックリストの内容と類推されるものです。
+
+[[html]]
+<style type="text/css" id="internal-style">
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--3e7a7facf318/common--theme/base/css/style.css);
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--3e7a7facf318/common--theme/shiny/css/style.css);
+                    @import url(http://scpsandbox-jp.wdfiles.com/local--theme/shiny/style.css);
+</style>
+
+<script language="JavaScript">
+function ttlValue(){
+  chn = 22;
+  ttl = 0;
+  for(i=0; i<chn; i++){
+    if(document.nForm.elements[i].checked){
+      ttl += parseInt(document.nForm.elements[i].value);
+    }
+  }
+  document.nForm.result.value = ttl;
+}
+</script>
+
+<blockquote>
+<form name="nForm">
+<ul style="list-style-type: square">
+<li>種族について</li>
+  <ul style="list-style-type: square">
+    <li><input type="checkbox" name="sue" value="7">生物でない  +7</li>
+    <li><input type="checkbox" name="sue" value="5">ヒト(Homo sapiens)以外の生物である  +5</li>
+    <li><input type="checkbox" name="sue" value="1">ヒトのオスである  +1</li>
+    <li><input type="checkbox" name="sue" value="3">メスである  +3</li>
+    <li><input type="checkbox" name="sue" value="4">ヒトだが性別がオスメスで単純に分けられない  +4</div></li>
+  </ul>
+<li>外見について</li>
+  <ul style="list-style-type: square">
+    <li><input type="checkbox" name="sue" value="6">時代の一般的な価値観において美形である  +6</li>
+    <li><input type="checkbox" name="sue" value="5">美形ではないが特徴的な外見をしている  +5</li>
+    <li><input type="checkbox" name="sue" value="7">ヒトとして不適切な(獣の特徴など)外見をしている  +7</li>
+  </ul>
+<li>年齢について</li>
+  <ul style="list-style-type: square">
+    <li><input type="checkbox" name="sue" value="5">年齢不詳である  +5</li>
+    <li><input type="checkbox" name="sue" value="9">ヒトとして妥当でない長寿である  +9</li>
+    <li><input type="checkbox" name="sue" value="6">外見年齢と年齢に不自然な差がある  +6</li>
+  </ul>
+<li>健康について</li>
+  <ul style="list-style-type: square">
+    <li><input type="checkbox" name="sue" value="10">死亡からの復活が確認されている +10</li>
+    <li><input type="checkbox" name="sue" value="5">心身になんらかの障害を抱えている  +5</li>
+  </ul>
+<li>過去について</li>
+  <ul style="list-style-type: square">
+    <li><input type="checkbox" name="sue" value="8">財団へ雇用される以前に"それだけで小説の書けるような"過去がある  +8</li>
+    <li><input type="checkbox" name="sue" value="6">そしてそれは財団に関係している +6</li>
+  </ul>
+<li>特異性について</li>
+  <ul style="list-style-type: square">
+    <li><input type="checkbox" name="sue" value="6">ミーム汚染されている +6</li>
+    <li><input type="checkbox" name="sue" value="7">恒常的にオブジェクトの影響下にある +7</li>
+    <li><input type="checkbox" name="sue" value="8">オブジェクトやミーム汚染に関係無い、特異な能力または性質を持っている +8</li>
+  </ul>
+<li>財団以外の組織との関係について</li>
+  <ul style="list-style-type: square">
+    <li><input type="checkbox" name="sue" value="7">要注意団体と関係がある +7</li>
+    <li><input type="checkbox" name="sue" value="10">各地の伝承に痕跡を残している +10</li>
+  </ul>
+<li>素行について</li>
+  <ul style="list-style-type: square">
+    <li><input type="checkbox" name="sue" value="5">財団から問題視されている面がある +5</li>
+  </ul>
+</ul>
+
+<input type="button" value="点数チェック" onClick="ttlValue()">
+<br>
+合計点数: <input type="text" name="result" value ="0" size="10"></div>
+</form>
+</blockquote>
+[[/html]]
+
+チェックリストは主観的な表現が使われているため、同一職員を対象とした採点結果が採点者によって異なる場合があります。SCP-124-JP-Jに曝露した職員は必ず自己採点を行います。採点結果により職員の行動は2通りに分かれますが、他の職員に対しても採点を行うことは共通しています。自己採点24点以下の職員は点数の低さが職員としての優秀さであり、25点以上の職員は解雇すべきだと考えます。自己採点25点以上の職員は点数の高さが職員としての優秀さであり、24点以下の職員は解雇すべきだと考えます。両者とも排除行動として人事部及びサイト管理者への嘆願、激しい口論、[データ削除済]を行います。
+
+SCP-124-JP-Jはサイト-81██からO5-█に向けて全職員の解雇が要請されたことで発見されました。機動部隊によるサイト-81██の制圧後、人事部の書類から最初のSCP-124-JP-Jが収容されました。サイト-81██全職員は問題なく記憶処理されました。
+
+SCP-124-JP-Jは不定期に財団で収容違反を起こすため、要注意団体に対する財団への妨害行動の一環の可能性が指摘されています。また、SCP-124-JP-Jの性質に影響され、"財団職員としてふさわしくない"という理由によって職員を解雇する行為は現在禁じられています。[[size 0%]]あなた自身であってもですよ！[[/size]]

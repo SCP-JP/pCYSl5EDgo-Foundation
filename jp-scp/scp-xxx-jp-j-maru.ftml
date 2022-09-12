@@ -1,0 +1,807 @@
+[[>]]
+＊＊WEB拍手＊＊
+[[module Rate]]
+[[/>]]
+
+[[html]]
+<!--
+
+
+////////////////////////////////////////////////////////
+// JS ////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+
+-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+    $(function(){
+
+    	// ダミーエンター制御
+    	$("#dummy").on("click", function() {
+    		$("#meme__div").hide();
+    		$("#meme__div--dummy").show();
+    	});
+    	$("#dummy--return").on("click", function() {
+    		$("#meme__div--dummy").hide();
+    		$("#meme__div").show();
+    	});
+
+    	$("#enter").on("click", function() {
+    		$(this).next().slideToggle(0);
+    	});
+
+    	$("#acMenu dt").on("click", function() {
+    		$(this).next().slideToggle(0);
+    		$(this).toggleClass("active");
+    	});
+
+    	$(".collapsible").on("click", function() {
+    		$(this).next().slideToggle(0);
+    		$(this).children(".collapsible--hide").fadeToggle(0);
+    		$(this).children(".collapsible--activate").fadeToggle(0);
+    	});
+
+    	$("#form__submit").on("click",function(){
+    		var input = $("#form__input").val();
+    		var _notice = $("#form__notice");
+
+    		if ("" == input) {
+    			_notice.hide();
+    		} else {
+    			_notice.show();
+    			_notice.text("ﾊﾟｽﾜｰﾄﾞが違います！");
+    		}
+
+    		// 猫宮用トラップ
+    		if ("scp" == input) {
+    			_notice.show();
+    			_notice.text("\"いつもの\"を入力すればいいってわけじゃありません");
+    		}
+
+    		// ひねくれもの用トラップ
+    		if ("[データ削除済]" == input) {
+    			_notice.show();
+    			_notice.text("謎かけじゃない - 新井人事担当");
+    		}
+
+    	});
+
+    });
+</script>
+<script type="text/javascript" src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/tinkerbell-min.js"></script>
+<!--
+
+
+////////////////////////////////////////////////////////
+// CSS ////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+
+-->
+<style>
+
+    /*文字----------------------------------------*/
+
+    @import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+    h1 {
+    	color: #ddd;
+    	font-family:"Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+    }
+
+    .text-large {
+    	font-size:x-large;
+    }
+
+    /*全体----------------------------------------*/
+
+    #meme__div {
+    	background: #000 url(http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/border-018.png) repeat-y top left;
+    	color: #eee;
+    	font-family: monospace;
+    	font-size: 0.8em;
+    	text-align: center;
+    	padding: 200px 15px;
+    	cursor: crosshair
+    }
+    #meme__div--dummy {
+    	display: none;
+    }
+
+    .meme__a {
+    	color: #a01;
+    	text-decoration: none;
+    }
+
+    .meme__a:hover {
+    	color: #f00;
+    }
+
+    .meme__a--wide {
+    	display: block;
+    	width: 100%;
+    }
+
+    .mb10 {
+    	margin-bottom: 10px;
+    }
+
+    .img-link {
+    	position: relative;
+    	top: 0;
+    	left: 0;
+    }
+    .img-link:hover {
+    	top: 1px;
+    	left: 1px;
+    }
+
+    /*横並び*/
+    .img-line{
+    	display: inline;
+    }
+
+    .notice-msg {
+    	color: #a01;
+    	border: #a01 1px solid;
+    	margin: 10px;
+    	padding: 20px;
+
+    	display: none;
+    }
+
+    /*インタビュー----------------------------------------*/
+
+    .intaview {
+    	border: 1px solid #ddd;
+    }
+
+    .intaview__guest {
+    	color: #72f;
+    }
+
+    /*折りたたみ----------------------------------------*/
+
+    #acMenu{
+    }
+
+    #acMenu dt{
+    	margin: 10px 0;
+    	color: #a01;
+    	text-align: center;
+    	cursor: pointer;
+    }
+    #acMenu dt:hover {
+    	color: #f00;
+    }
+
+    #acMenu dd{
+    	margin: 0;
+    	padding: 20px 0;
+    	text-align:center;
+    	display:none;
+    }
+
+    .collapsible {
+    	color: #a01;
+    	cursor: pointer;
+    }
+    .collapsible:hover {
+    	color: #f00;
+    }
+
+    .collapsible .collapsible--hide {
+    	display:none;
+    }
+
+    .collapsible .collapsible--activate {
+    }
+
+    /*実際のエンター ----------------------------------------*/
+
+    #enter {
+    	display:block;
+    	margin: 20px 0;
+    	color: #aaa;
+    	text-decoration: none;
+    }
+    #enter:hover {
+    	color: #aaa;
+    	text-decoration: none;
+    	cursor: pointer;
+    }
+    #enter:visited {
+    	color: #aaa;
+    	text-decoration: none;
+    }
+
+    #after-enter {
+    	display:none;
+    	padding: 20px 0;
+    }
+
+    /*日記----------------------------------------*/
+
+    .dairy {
+    	border: 1px solid #ddd;
+    	padding: 10px;
+    	margin: 20px 0;
+    }
+    .dairy__date {
+    	border-bottom: 1px dashed #888;
+    	color: #72f;
+    	padding-bottom: 10px;
+    	margin-bottom: 10px;
+    }
+    .dairy__title {
+    	color: #72f;
+    	border-bottom: 1px dashed #888;
+    	padding-bottom: 10px;
+    	margin-bottom: 10px;
+    }
+    .dairy__contents {
+    	display:none;
+    	padding: 20px 0;
+    }
+
+    /*100質----------------------------------------*/
+
+    .hundred {
+    	display: inline-block;
+    	list-style-type: decimal;
+    }
+    .hundred li {
+    	text-align: left;
+    	color: #72f;
+    }
+    .hundred__answer {
+    	display: inline-block;
+    	margin-left: 20px;
+    	color: #eee;
+    }
+
+    /*アクセスカウンター----------------------------------------*/
+
+    table {
+    	margin: 0 auto;
+    }
+
+    /*携帯----------------------------------------*/
+
+    @media screen and (max-width:768px){
+
+    	#acMenu dt{
+    		margin: 30px 0;
+    	}
+
+    }
+
+    /*広告----------------------------------------*/
+
+    #ads {
+    	width: 300px;
+    	margin: 100px auto 50px;
+    	border: 1px solid #ddd;
+    }
+
+    #ads .ads__img {
+    	width: 300px;
+    	height: 300px;
+    	background: #fff no-repeat top left;
+    }
+
+
+</style>
+<!--
+
+
+───<br>だらけのコーディングに、君は耐えられるか。 - 育良
+////////////////////////////////////////////////////////
+// メイン ////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+
+-->
+<div oncontextmenu="alert('右クリックは禁止されています');return false"  id="meme__div">
+    <b>アイテム番号:</b><br>
+    <br>
+    <h1>SCP-XXX-JP-J。</h1>
+    <br>
+    <br>
+    <b>オブジェクトクラス:</b><br>
+    <br>
+    Thaumiel<br>
+    <br>
+    <br>
+    <b>特別規約プロトコル:</b><br>
+    <br>
+    <br>
+    アクセスありがとうございます。<br>
+    <br>
+    この報告書にはミーマティックスクリプトが含まれています。<br>
+    <br>
+    セキュリティクリアランスLv.3以上の職員向けの内容を扱っています。<br>
+    <br>
+    閲覧には、セキュリティクリアランスLv.4以上の職員2名以上による承認と、過去SCP-XXX-JP-Jに類似した事象に関わった事が無いことを証明する、倫理委員会並びに管理部門人事管理局の承認が必要です。承認を経た職員のみ、報告書下部のSCP-XXX-JP-Jより閲覧が可能です。<br>
+    <br>
+    対ミーム処置を受けていない職員、またはミーム耐性の低い職員は<a href="#" onClick="history.back(); return false;" class="meme__a">お引き取りください。</a><br>
+    <br>
+    <br>
+    <br>
+    Since 01/10/02<br>
+    Master 新井管理人<br>
+    <br>
+    <hr><!--hr-->
+    <br>
+    This page is Japanese only.<br>
+    <br>
+    <!--タグはここから-->
+    <table border="0" cellspacing="0" cellpadding="0">
+    	<tr>
+    		<td align="center">
+    		<!-- ここから先は外部サービスなので、CC適用外です。そのうちどうにかします - ikr_4185 -->
+    			<!--<a href="http://www.rays-counter.com/">-->
+    				<img src="http://www.rays-counter.com/d331_f6_015/5699167eafe8d/" alt="アクセスカウンター" border="0">
+    			<!--</a>-->
+    		</td>
+    	</tr>
+    </table>
+    <!--ここまで-->
+    キリリクはBBSまで。<br>
+    <br>
+    <hr><!--hr-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <span class="meme__a text-large" id="dummy">ENTER</span>
+    <a href="#acMenu" id="enter" class="meme__a">** scp-xxx-jp-j **</a>
+    <div id="after-enter">
+    	<dl id="acMenu">
+    		<dt>更新</dt>
+    		<dd>
+    			2004/03/22　補遺 更新<br>
+    			　[データ削除済]<br>
+    			<br>
+    			2004/01/20　インタビューログ 追加<br>
+    			　─ ご協力頂いたみなさん、ありがとうございました。<br>
+    			<br>
+    			2004/01/17　説明 更新<br>
+    			　─ 説明文を考えるのって結構たいへんですよね(；・∀・)<br>
+    			<br>
+    			2004/01/16　更新情報 新設<br>
+    			　─ なくていいんじゃないかなーと思ってたんですが、濱中博士につけた方が良いよと言われたのでつけました。<br>
+    		</dd>
+
+    		<dt><b>説明</b></dt>
+    		<dd>
+    			SCP-XXX-JP-J。は、複数のミーマティックオブジェクトの研究途上で確認された、曝露対象者の時間認識に影響を与えるミーム効果です。同時にその技術応用の実践的スクリプトの呼称ともなっています。<br>
+    			<br>
+    			SCP-XXX-JP-J。の持つミーム効果は、曝露対象にSCP-XXX-JP-J。関連記憶を回復させる事が可能です。<br>
+    			SCP-XXX-JP-J。関連事象に関わっていた対象がSCP-XXX-JP-J。を閲覧した場合、ミーム的記憶想起メソッド(詳細は別紙:技術文書XXX__memetic-reminder--02Bを参照してください)により、SCP-XXX-JP-J。関連事象に関わった時期の記憶が連鎖的に呼び起こされます。<br>
+    			回復可能な範囲は、Bクラス記憶処理までの処理済み記憶を含む、忘却された記憶を含んでいます。<br>
+    			<br>
+    			SCP-XXX-JP。の記憶復元により、対象の時間感覚はSCP-XXX-JP。関連事象に関わっていた時期に巻き戻されます。<br>
+    			SCP-XXX-JP。の効果を予め認識している被験者の場合、懐古・追憶等の反応に留まりますが、それ以外の場合、復元された記憶と現在の認識に相違が生じる事に因り、若干の混乱をきたします(私的連絡でSNSを用いずe-mailを使用しはじめる、文章の語尾に「(」を付けはじめる、鼻歌の直後に突然「消してー」と叫ぶ、等)。<br>
+    			<br>
+    			またSCP-XXX-JP-J。は、従来の記憶復元法と異なり、対象の時間感覚のみに影響を与える為、想定外な副次効果のリスクが非常に少ない事が特徴的です。<br>
+    			これまでの他の薬学・認識災害・現実改変効果を用いた記憶復元法では、中枢神経系の広域、或いは対象周辺の局所的な系自体に作用するため、意図する記憶復元のみの制御が困難でした。<br>
+    			SCP-XXX-JP-J。の画期的な点として、直接的に歯状回・海馬を操作するのではなく、ミーム的記憶想起メソッドを介して記憶制御を行う事が挙げられます。この副次効果リスクを最小限に抑えることが可能である点が、技術的に評価されています。("2015/11/10技術評価" 管理番号:F_B81_TE_10NO15)<br>
+    			<br>
+    			唯一確認されている副次効果として、呼び起こされた記憶群(SCP-XXX-JP-J。-1)が曝露対象の精神状態に強い影響を与える場合があります。<br>
+    			精神影響の程度は、曝露対象者の主観に基づくSCP-XXX-JP-J。-1の重要度に依存しています。影響度の定量的な測定法として、対象の経歴調査・曝露実験前のプロファイリング・事前アンケート等での曝露前分析が存在しています。<br>
+    			この精神影響効果は一般的な懐古や追憶に因るものと考えられていましたが、一部被験者で過剰に強い反応が確認されたため、ミーム効果の異常性質の可能性が指摘されています。研究は現在も進行中です(2008/06/12 "8120-SCP-XXX-JP。研究室報告")。<br>
+    			<br>
+    			利用可能な対象、及び想起可能な記憶の時間的範囲は限られますが、安全かつ効果的な記憶復元に用いることができるとして、Thaumielオブジェクトに分類されています。<br>
+    		</dd>
+
+    		<dt>管理人</dt>
+    		<dd>
+    			新井　結苡<br>
+    			Yui Arai<br>
+    			<br>
+    			誕生：12/23<br>
+    			<br>
+    			性別：生物学的には女<br>
+    			<br>
+    			職務：人事管理、あとこの報告書の管理<br>
+    			<br>
+    			性格：基本雑。<br>
+    			<br>
+    			好き：きれいなもの。<br>
+    			<br>
+    			嫌い：うるさいやつ。電車でマックを食べるやつ。しいたけを廊下に撒いたやつ。<br>
+    			<br>
+    			趣味：人間観察<br>
+    			<br>
+    			連絡：何かあればこちらまで。ikr_4185★yahoo.co.jp ★→@<br>
+    		</dd>
+
+    		<dt>日記</dt>
+    		<dd>
+    			<div class="dairy">
+    				<div class="dairy__date">2003.12.9 Tue 01:28 (<a href="#" class="meme__a">1</a>)</div>
+    				<div class="dairy__title">タイトルを設定してください</div>
+    				<div class="collapsible mb10">
+    					<span class="collapsible--activate"> + 開く</span>
+    					<span class="collapsible--hide"> - 閉じる</span>
+    				</div>
+    				<div class="dairy__contents">
+    					ね、ねむい……<br>
+    					今日の更新分は、明日にまわします～すみません～<br>
+    					<br>
+    					<br>
+    				</div>
+    			</div>
+    			<div class="dairy">
+    				<div class="dairy__date">2003.11.30 Sun 23:42 (<a href="#" class="meme__a">2</a>)</div>
+    				<div class="dairy__title">生存報告。</div>
+    				<div class="collapsible mb10">
+    					<span class="collapsible--activate"> + 開く</span>
+    					<span class="collapsible--hide"> - 閉じる</span>
+    				</div>
+    				<div class="dairy__contents">
+    					また更新あいちゃってすみません……orz<br>
+    					更新するっていったのにこれだよ(<br>
+    					<br>
+    					さいきんまた忙しくて報告書の手直しができてない↓↓<br>
+    					この前チャットで頂いたリク、ちゃんと消化します～～!!<br>
+    					<br>
+    					<br>
+    					▼以下コメ返<br>
+    					<br>
+    					・ねーべさん<br>
+    					ﾒﾝｿﾚｰﾀﾑはやはり哲学……次のﾒﾝｿﾚｰﾀﾑも楽しみにしてます(ぇ<br>
+    					<br>
+    					・とおりますよさん<br>
+    					こちらこそ～～! ごゆっくりしていってください～～(涙<br>
+    					<br>
+    				</div>
+    			</div>
+    			<div class="dairy">
+    				<div class="dairy__date">2003.11.24 Mon 22:56 (<a href="#" class="meme__a">2</a>)</div>
+    				<div class="dairy__title">今医務室で目が覚めました…</div>
+    				<div class="collapsible mb10">
+    					<span class="collapsible--activate"> + 開く</span>
+    					<span class="collapsible--hide"> - 閉じる</span>
+    				</div>
+    				<div class="dairy__contents">
+    					嘘ですｗｗｗｗｗｗ<br>
+    					地雷バトンです。<br>
+    					<br>
+    					凛さんのサイトで踏んじゃいました(笑<br>
+    					<br>
+    					<br>
+    					□■ルール■□<br>
+    					・見たら必ずやること<br>
+    					・タイトルは「今医務室で目が覚めました…」<br>
+    					・アクセス記録が記録情報セキュリティ管理室(RAISA)に残ります!逃げられません!<br>
+    					<br>
+    					□■バトン■□<br>
+    					<br>
+    					<ul class="hundred">
+    						<li>いま好きな子いる?<span class="hundred__answer">いなくはない</span></li>
+    						<li>その子のこと脳内でなんてよんでる?<span class="hundred__answer">じゅん</span></li>
+    						<li>その子の第一印象は?<span class="hundred__answer">眠そうな人だなぁ…</span></li>
+    						<li>ちかくにいる人?<span class="hundred__answer">秘密</span></li>
+    						<li>人間?<span class="hundred__answer">人間だよね?</span></li>
+    						<li>その子には彼氏（彼女）いる?<span class="hundred__answer">多分居ない</span></li>
+    						<li>人間?<span class="hundred__answer">存在しない</span></li>
+    						<li>束縛されたい?したい?<span class="hundred__answer">どちらかというとされたい?</span></li>
+    						<li>もしデートするならどこにいく?<span class="hundred__answer">二子玉川</span></li>
+    						<li>最後にその子に一言どーぞ!<span class="hundred__answer">長生きしてね</span></li>
+    					</ul>
+    				</div>
+    			</div>
+    			<div class="dairy">
+    				<div class="dairy__date">2003.11.23 Sun 23:14 (<a href="#" class="meme__a">6</a>)</div>
+    				<div class="dairy__title">今日は……</div>
+    				<div class="collapsible mb10">
+    					<span class="collapsible--activate"> + 開く</span>
+    					<span class="collapsible--hide"> - 閉じる</span>
+    				</div>
+    				<div class="dairy__contents">
+    					今日はなんの日?<br>
+    					<br>
+    					そう私の誕生日1ヶ月前記念日です!←<br>
+    					<br>
+    					井坂さんから、ﾌﾟﾚｾﾞﾝﾄ頂いちゃいました～() 一月間違えただけというねｗｗｗｗ<br>
+    					<br>
+    					<img src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/plesent012.png"><br>
+    					<br>
+    					<br>
+    					▼以下コメ返<br>
+    					<br>
+    					・ねーべさん<br>
+    					コメありです!やっぱり良いですよねﾒﾝｿﾚｰﾀﾑｗｗｗｗ<br>
+    					<br>
+    					・綺玲さん<br>
+    					ありがとうございます!サイト拝見してます～～<br>
+    					<br>
+    				</div>
+    			</div>
+    			<div class="dairy">
+    				<div class="dairy__date">2003.11.21 Fri 00:16 (<a href="#" class="meme__a">2</a>)</div>
+    				<div class="dairy__title">移転しました。</div>
+    				<div class="collapsible mb10">
+    					<span class="collapsible--activate"> + 開く</span>
+    					<span class="collapsible--hide"> - 閉じる</span>
+    				</div>
+    				<div class="dairy__contents">
+    					更新滞ってすみません!!生きてます!!<br>
+    					今までの日記、結局全部消しちゃいました……移転引き継ぎのやり方が全然わからない……orz<br>
+    					とりあえず、こっちでは定期的に更新していこうと思うので、よろしくおねがいしますm(_ _)m<br>
+    				</div>
+    			</div>
+    		</dd>
+
+    		<dt><b>実験ログ</b></dt>
+    		<dd>＊＊工事中＊＊</dd>
+
+    		<dt>100質</dt>
+    		<dd>
+    			<ul class="hundred">
+    				<li>こんにちは(*ﾟ▽ﾟ*)<span class="hundred__answer">こんにちは！</span></li>
+    				<li>性別は？<span class="hundred__answer">戸籍上は女</span></li>
+    				<li>何歳？<span class="hundred__answer">四捨五入すれば20</span></li>
+    				<li>職務はなに？<span class="hundred__answer">人事ファイルの管理、この報告書の管理</span></li>
+    				<li>いつから財団に？<span class="hundred__answer">いま20だから、6歳の時ってことになりますね</span></li>
+    				<li>財団に入ったきっかけは？<span class="hundred__answer">下北沢ERAで声をかけられて</span></li>
+    				<li>初めて見たオブジェクトは？<span class="hundred__answer">まだみたことないです</span></li>
+    				<li>どこのサイト？<span class="hundred__answer">サイト-8120</span></li>
+    				<li>何のために働いてる？<span class="hundred__answer">人類？</span></li>
+    				<li>確保？収容？保護？<span class="hundred__answer">何が聞きたいの？これ</span></li>
+    				<li>オブジェクトの事どう思う？<span class="hundred__answer">どういうこと？</span></li>
+    				<li>サイト内で好きな場所ランキング！<span class="hundred__answer">いぇーい</span></li>
+    				<li>第3位<span class="hundred__answer">自分のデスク</span></li>
+    				<li>第2位<span class="hundred__answer">3Fの自販機コーナーの入って右のソファー</span></li>
+    				<li>第1位<span class="hundred__answer">階段の踊り場全般</span></li>
+    				<li>好きな食堂のメニューランキング！<span class="hundred__answer">いぇーい</span></li>
+    				<li>第3位<span class="hundred__answer">鉄火丼</span></li>
+    				<li>第2位<span class="hundred__answer">ざるそば</span></li>
+    				<li>第1位<span class="hundred__answer">たぬきそば</span></li>
+    				<li>逆に苦手なメニューランキング！<span class="hundred__answer">ああ…</span></li>
+    				<li>第3位<span class="hundred__answer">地中海風オムカツ</span></li>
+    				<li>第2位<span class="hundred__answer">新ボンゴレビアンコ</span></li>
+    				<li>第1位<span class="hundred__answer">豆腐ハンバーグ定食（みぞれおろし付きの方）</span></li>
+    				<li>好きな収容方法ランキング！<span class="hundred__answer">人事担当も答えるの？これ？</span></li>
+    				<li>第3位<span class="hundred__answer">わからない</span></li>
+    				<li>第2位<span class="hundred__answer">わからない</span></li>
+    				<li>第1位<span class="hundred__answer">わからない</span></li>
+    				<li>財団での最高のエピソードベストスリー！<span class="hundred__answer">いぇーい！</span></li>
+    				<li>第3位<span class="hundred__answer">お給料が出た</span></li>
+    				<li>第2位<span class="hundred__answer">この前の金曜日は定時で仕事が終わった！</span></li>
+    				<li>第1位<span class="hundred__answer">まだ生きてる！</span></li>
+    				<li>財団での最悪のエピソードベストスリー！<span class="hundred__answer">いぇえい！</span></li>
+    				<li>第3位<span class="hundred__answer">昨日とうとう日付回っても帰れなかった</span></li>
+    				<li>第2位<span class="hundred__answer">[編集済]</span></li>
+    				<li>第1位<span class="hundred__answer">[編集済]</span></li>
+    				<li>mixiやってる？<span class="hundred__answer">一応やってる</span></li>
+    				<li>職場のコミュってあったりする？<span class="hundred__answer">知らない</span></li>
+    				<li>通知多いとしんどいよねー！<span class="hundred__answer">そんなの知らない</span></li>
+    				<li>始業何時？<span class="hundred__answer">9時</span></li>
+    				<li>帰りはいつも何時ぐらい？<span class="hundred__answer">9時</span></li>
+    				<li>もしかして……寮住み？<span class="hundred__answer">実家住み</span></li>
+    				<li>きょうは何曜日？<span class="hundred__answer">なんようびだっけ</span></li>
+    				<li>最後に家に帰ったのは？<span class="hundred__answer">確か一昨日は帰った</span></li>
+    				<li>ズバリ給与額は！<span class="hundred__answer">ほんとにズバリかよ</span></li>
+    				<li>他に入りたかった財団ってある？<span class="hundred__answer">他に財団ってあるの？</span></li>
+    				<li>財団とオフとでは、どっちが素の自分に近い？<span class="hundred__answer">そりゃオフでしょうよ</span></li>
+    				<li>先輩は尊敬してる？<span class="hundred__answer">まあ</span></li>
+    				<li>職場でミーティングとかってある？<span class="hundred__answer">ある</span></li>
+    				<li>ミーティングではどんな話するの？<span class="hundred__answer">紙を減らそうとかそういうの</span></li>
+    				<li>一番長かったミーティングは何時間？<span class="hundred__answer">覚えてない…</span></li>
+    				<li>身近で起きた収容違反は？<span class="hundred__answer">いやそんな頻繁に無いでしょ困るでしょ</span></li>
+    				<li>誰か知り合いは巻き込まれた？<span class="hundred__answer">重ッ</span></li>
+    				<li>こんな死に方はいやだ！<span class="hundred__answer">とりあえず人間らしく死にたい…</span></li>
+    				<li>事務用品はどこで買うの？<span class="hundred__answer">駅前のコンビニ</span></li>
+    				<li>本格的なやつ揃えたりするの？<span class="hundred__answer">一回だけLOFT行って万年筆買ったことあるけど、すぐに壊れた…</span></li>
+    				<li>今欲しい事務用品ランキング！<span class="hundred__answer">頭痛止めがほしい</span></li>
+    				<li>第3位<span class="hundred__answer">バファリン</span></li>
+    				<li>第2位<span class="hundred__answer">ロキソニン</span></li>
+    				<li>第1位<span class="hundred__answer">私に合うロキソニン</span></li>
+    				<li>逆にずっと大切に使ってる事務用品ランキング！<span class="hundred__answer">いぇーい！</span></li>
+    				<li>第3位<span class="hundred__answer">昨日買った消しゴム</span></li>
+    				<li>第2位<span class="hundred__answer">消しカス払う羽のやつ（名前忘れた）</span></li>
+    				<li>第1位<span class="hundred__answer">ロキソニン</span></li>
+    				<li>これからもずっと大切にするよね？<span class="hundred__answer">ロキソニンなくなったら死ぬと思う</span></li>
+    				<li>昇進したい？<span class="hundred__answer">一応</span></li>
+    				<li>どんな職員になりたい？<span class="hundred__answer">ちゃんと休める職員</span></li>
+    				<li>憧れの職員はいる？<span class="hundred__answer">仕事あるのにサボる根性がある濱中博士</span></li>
+    				<li>その人と一緒に働きたい？<span class="hundred__answer">働かせたい</span></li>
+    				<li>目標に向かって何かしてる？<span class="hundred__answer">とりあえず最近ラーメンと肉は控えてる…</span></li>
+    				<li>結果は出してる？<span class="hundred__answer">でてない…</span></li>
+    				<li>今持っている資格は？<span class="hundred__answer">普通自動車免許</span></li>
+    				<li>他に資格とる予定は？<span class="hundred__answer">ない</span></li>
+    				<li>気になっている要注意団体は？<span class="hundred__answer">なにそれ</span></li>
+    				<li>その要注意団体で働きたい？<span class="hundred__answer">これ監視されてるでしょ</span></li>
+    				<li>憧れるよね？<span class="hundred__answer">憧れてます！って書いたら翌日私のデスクに違う人が座ってるんでしょ？</span></li>
+    				<li>オブジェクト破壊したい？<span class="hundred__answer">GOCじゃない</span></li>
+    				<li>じゃあ、財団を破壊したい？<span class="hundred__answer">そんな物騒な人たちいるの？</span></li>
+    				<li>ズバリ最近気になっている人は？<span class="hundred__answer">この100質考えたの誰？？</span></li>
+    				<li>人間？人外？<span class="hundred__answer">気になってるってそっちの話かよ！！</span></li>
+    				<li>人外でもイケる？<span class="hundred__answer">たぶんイケる</span></li>
+    				<li>そっか……<span class="hundred__answer">そうだよ</span></li>
+    				<li>Dクラス職員に会ったことある？<span class="hundred__answer">ない</span></li>
+    				<li>一番思い出深いDクラス職員は？<span class="hundred__answer">ない人の事考えてつくってないでしょこれ</span></li>
+    				<li>会ったことがある一番偉い人は？<span class="hundred__answer">サイト管理者の人</span></li>
+    				<li>第一印象は？<span class="hundred__answer">はげてた</span></li>
+    				<li>今は？<span class="hundred__answer">意外と残ってる</span></li>
+    				<li>ずばり、名前は？<span class="hundred__answer">[編集済]</span></li>
+    				<li>その人のうなじはどんな色だった？<span class="hundred__answer">肌色</span></li>
+    				<li>いいね！<span class="hundred__answer">どうも</span></li>
+    				<li>近年の部門再編に伴う予算修正についてどう思う？<span class="hundred__answer">急かよ</span></li>
+    				<li>収容手順で改定が必要だと思うオブジェクトは？<span class="hundred__answer">とりあえず大丈夫じゃん？</span></li>
+    				<li>カント計測器のA-002コンポーネントはやっぱり青銅に変えたほうが良い？<span class="hundred__answer">知らないよ</span></li>
+    				<li>今晩の晩ごはんは？<span class="hundred__answer">気分転換に軽めの質問かよ</span></li>
+    				<li>自炊？<span class="hundred__answer">最近してないってかする暇ない</span></li>
+    				<li>すきなテレビ番組は？<span class="hundred__answer">TECHNE</span></li>
+    				<li>今後管理部門からのお知らせメールは減らしたほうが良い？<span class="hundred__answer">あれなんであんなにフレンドリーなの？</span></li>
+    				<li>そうですか<span class="hundred__answer">そうです</span></li>
+    				<li>これからもたくさん仕事してね！<span class="hundred__answer">はい</span></li>
+    				<li>実は主は管理部門なので、たくさん仕事投げるからね？<span class="hundred__answer">はい</span></li>
+    				<li>お疲れ様でした！<span class="hundred__answer">はい</span></li>
+    			</ul>
+    		</dd>
+
+    		<dt><b>インタビューログ</b></dt>
+    		<dd>
+    			<blockquote class="intaview">
+    				<p><strong>&lt;録音開始&gt;</strong></p>
+    				<p><strong>新井管理人:</strong> インタビューを開始します。</p>
+    				<p class="intaview__guest"><strong>██博士:</strong> よろしくお願いします。</p>
+    				<p><strong>新井管理人:</strong> SCP-XXX-JP-J。に曝露した感想をお聞かせください。</p>
+    				<p class="intaview__guest"><strong>██博士:</strong> とても綺麗な報告書だと思います。普段私が書いている報告書のテンプレートでは、ここまで凝った装飾はできませんから、担当されている新井さんが羨ましいです。</p>
+    				<p><strong>新井管理人:</strong> ありがとうございます。私も管理していて楽しいです。時間逆行ミームの効果はいかがですか？</p>
+    				<p class="intaview__guest"><strong>██博士:</strong> 若い頃[編集済]でサイトを作った事がありました。その頃の事を思い出して、懐かしい気持ちになりました。私もおじさんになりましたね。</p>
+    				<p><strong>新井管理人:</strong> そうですか。今まで忘れていた事で、思い出した事はありましたか？</p>
+    				<p class="intaview__guest"><strong>██博士:</strong> そうですね、瑠璃さんという方がよく書き込みをしてくださっていたのを思い出しました。お元気にしてらっしゃるだろうか。</p>
+    				<p><strong>新井管理人:</strong> 瑠璃さん。ハンドルネームですね。当時博士が使われていたハンドルネームは？</p>
+    				<p class="intaview__guest"><strong>██博士:</strong> それ答えないとだめですか？</p>
+    				<p><strong>新井管理人:</strong> 当時博士が使われていたハンドルネームは？</p>
+    				<p class="intaview__guest"><strong>██博士:</strong> しおんです。<em>[メモに"紫苑"と書く]</em> 紫苑ちゃんと呼ばれていました。</p>
+    				<p class="intaview__guest"><strong>██博士:</strong> そういうチャットだったんです。</p>
+    			</blockquote>
+    			<blockquote class="intaview">
+    				<p><strong>&lt;録音開始&gt;</strong></p>
+    				<p><strong>新井管理人:</strong> インタビューを開始します。</p>
+    				<p class="intaview__guest"><strong>D-68244:</strong> どうも。</p>
+    				<p><strong>新井管理人:</strong> SCP-XXX-JP-J。に曝露した感想をお聞かせください。</p>
+    				<p class="intaview__guest"><strong>D-68244:</strong> なんか古いインターネットみたいですね。</p>
+    				<p><strong>新井管理人:</strong> そうですか。大体10年から15年ほど前は何をされていましたか？</p>
+    				<p class="intaview__guest"><strong>D-68244:</strong> フリーターでしたね。</p>
+    				<p><strong>新井管理人:</strong> 質問を変えましょう。当時買い物によく使われていたお店と、移動手段は？</p>
+    				<p class="intaview__guest"><strong>D-68244:</strong> ドン・キホーテと、ワゴンRです。</p>
+    				<p><strong>新井管理人:</strong> インタビューを終了します。</p>
+    			</blockquote>
+    			<blockquote class="intaview">
+    				<p><strong>&lt;録音開始&gt;</strong></p>
+    				<p><strong>新井管理人:</strong> インタビューを開始します。</p>
+    				<p class="intaview__guest"><strong>被験者-XXX-A:</strong> あの、なんで私が呼ばれたんでしょう。</p>
+    				<p><strong>新井管理人:</strong> SCP-XXX-JP-J。に曝露した感想をお聞かせください。</p>
+    				<p class="intaview__guest"><strong>被験者-XXX-A:</strong> <em>[対象は俯く]</em>えっと、そうですね、顔が熱いです。</p>
+    				<p><strong>新井管理人:</strong> 顔が熱い、とは？</p>
+    				<p class="intaview__guest"><strong>被験者-XXX-A:</strong> 大丈夫です。</p>
+    				<p><strong>新井管理人:</strong> 曝露対象に副次的効果が出ている可能性があります。</p>
+    				<p class="intaview__guest"><strong>被験者-XXX-A:</strong> いえ、いえ！大丈夫です。</p>
+    				<p><strong>新井管理人:</strong> 落ち着いて。ミーム効果が想定以上に強く発露した可能性が</p>
+    				<p class="intaview__guest"><strong>被験者-XXX-A:</strong> <em>[遮って]</em> 気にしないでください。てか忘れてください。</p>
+    				<p><strong>新井管理人:</strong> そうですか。10年から15年ほど前は何をされていましたか？</p>
+    				<p class="intaview__guest"><strong>被験者-XXX-A:</strong> 高校生でした。薙刀を習っていました。</p>
+    				<p><strong>新井管理人:</strong> 他には？</p>
+    				<p class="intaview__guest"><strong>被験者-XXX-A:</strong> 何もないです。</p>
+    				<p><strong>新井管理人:</strong> おかしいですね。ならば、特に影響は出ないはずなんですが。</p>
+    				<p class="intaview__guest"><strong>被験者-XXX-A:</strong> 関わってないです。スクリプトがおかしいんじゃないですか？</p>
+    				<p><strong>新井管理人:</strong> そうですか。わかりました。</p>
+    				<p class="intaview__guest"><strong>被験者-XXX-A:</strong> なんで私が呼ばれたんでしょうね。</p>
+    				<p><strong>新井管理人:</strong> 担当の濱中博士に聞いておきましょう。インタビューを終了します。新刊楽しみにしてますよ。</p>
+    			</blockquote>
+    		</dd>
+
+    		<dt>頂き物</dt>
+    		<dd>
+    			凛さんから一周年記念絵を頂きました～～!!<br>
+    			神貫くんが鉢巻を取るとか、いったいなにが。。。<br>
+    			<br>
+    			<img src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/PduhBx9.jpg" class=""><br>
+    			<br>
+    			<br>
+    			<br>
+    			由乃様から頂きました!<br>
+    			わあ。。。このまま持って帰りたいかわいさ(感涙<br>
+    			あまねの袖になりたい←<br>
+    			<br>
+    			<img src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/9ng8Mb5E.jpg" class=""><br>
+    			<br>
+    			<br>
+    			<br>
+    			きなこ様から一周年記念絵です!<br>
+    			どこか遠くを見ている表情……これは共有ですね(*ﾟ▽ﾟ*)<br>
+    			<br>
+    			<img src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/SiFzSr-s.jpg" class=""><br>
+    			<br>
+    			<!-- このソースを開いてくれた人へ -->
+    			<!-- 正直、頂き物を自作自演するの、めっちゃメンタルにダメージはいるよ - ikr_4185 -->
+    		</dd>
+
+    		<dt><b>補遺</b></dt>
+    		<dd>
+    			ﾊﾟｽﾜｰﾄﾞは[データ削除済]です……
+    			<div id="form__notice" class="notice-msg"></div>
+    			<div class="form">
+    				<label><input type="password" name="key" id="form__input"></label>
+    				<button type="button" name="submit" id="form__submit">送信</button>
+    			</div>
+    		</dd>
+
+    		<dt>リンク</dt>
+    		<dd>
+    			<a href="http://capri.s3.xrea.com/labo/" class="meme__a" target="_parent">亡き王女のための研究室</a> 様<br>
+    			　─ 背景画像をお借りしてます。レース素材が繊細で素敵。<br>
+    		</dd>
+
+    		<dt><a href="http://ja.scp-wiki.net/forum/t-1584199/scp-xxx-jp-j" class="meme__a meme__a--wide" target="_parent">BBS</a></dt>
+    		<dd>waiting: BBSへ移動します...</dd>
+
+    	</dl>
+    </div><!--#after-enter-->
+    <br>
+    <br>
+    <br>
+    - - - - - - - - - - - - - - - - - - - - - - - - - - -<br>
+    <br>
+    <br>
+    <br>
+    バナーは直リン・お持ち帰りどちらでも。<br>
+    <br>
+    <br>
+    Name: SCP-XXX-JP-J。<br>
+    <br>
+    Master: 新井 結苡<br>
+    <br>
+    Address: http://ja.scp-wiki.net/scp-xxx-jp-j-maru<br>
+    <br>
+    Banner: http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/banner.png<br>
+    <br>
+    <img src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/banner.png" class="img-line"><br>
+    <br>
+    <br>
+    <br>
+    - - - - - - - - - - - - - - - - - - - - - - - - - - -<br>
+    <br>
+    <br>
+    <br>
+    ＊＊Ranking参加中＊＊<br>
+    <br>
+    <a href="http://ja.scp-wiki.net/top-rated-pages" class="meme__a" target="_parent">サイト-8120人気報告書*Rank</a><br>
+    <br>
+    <a href="http://rk.fn-p.rich/foundation/site/jp-jmaru/" class="meme__a" target="_parent">Foundation*Rank</a><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="http://www.geocities.co.jp/sadahiko-s-homepage/mabo-dou/" target="_parent"><img src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/mabouni.png" class="img-link"></a><br>
+    <div style="margin-top: 10px;">
+    	<a href="http://ouchi2kaerou.rich" target="_parent"><img src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/kaeritai.png" class="img-line img-link"></a>　
+    	<a href="http://amane-rev.rich" target="_parent"><img src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/amane.png" class="img-line img-link"></a>　
+    	<a href="http://protocol-idle-835.rich" target="_parent"><img src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/yamiko.gif" class="img-line img-link"></a>　
+    	<a href="http://www.geocities.co.jp/dragon-is-over/banana-doujou/" target="_parent"><img src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/banana.png" class="img-line img-link"></a>　
+    </div>
+    <div id="ads">
+    	<img src="http://scp-jp.wdfiles.com/local--files/scp-xxx-jp-j-maru/ads02.jpg" class="ads__img">
+    	<p>この広告は1ヶ月以上更新がない場合に表示されます。<br>報告書の更新後、48時間以内に表示されなくなります。</p>
+    </div>
+
+
+</div><!--#meme__div-->
+<div id="meme__div--dummy">
+    <font size="1">特別規約プロトコルは読みましたか？読んでないですね？<a href="#" class="meme__a" id="dummy--return">読んできてください。</a></font>
+</div>
+<div align="center"><font size="2"> </font><br><br></div>
+<div align="center">
+    <font size="1"><a href="http://ja.scp-wiki.net/system:join" target="_blank">･･･報告書好き?<br>財団職員になるには</a></font><br />
+</div>
+<hr size="1" color="#000000">
+<div align="center"><font size="2"> </font><br><br></div>
+<div align="center"><font size="1"><a href="http://ja.scp-wiki.net/" target="_blank">(C)財団ページ</a></font></div>
+[[/html]]
