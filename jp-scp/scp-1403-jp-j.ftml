@@ -1,0 +1,250 @@
+[[module CSS]]
+@import url("http://scp-jp.wikidot.com/component:af2020theme/code/1");
+Body {
+    background: white;
+   background-image: none;
+   background-size: 150px 150px;
+}
+
+sup {
+vertical-align: top; position: relative; top: -0.5em;
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** SCP-1403-JP-J - おにいちゃんのマッシュポテト！冠動脈！クソど畜生工法セメント！
+**著者:** ©[[*user Jiraku_Mogana]]
+**作成年:** 2020
+[[include credit:end]]
+
+[[module ListPages offset="@URL|0" range="."]]
+%%content{2}%%
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="page2"]]
+%%content{3}%%
+[[/module]]
+
+
+[!--
+====
+
+
+[[=]]
+
+[[size 120%]]
+
+‥‥て‥‥
+
+[[=image 目開き1 width="500px"]]
+
+起きて‥‥
+
+[[=image 目開き2 width="500px"]]
+
+
+あっ！
+
+[[=image よっしゃ width="500px"]]
+
+
+お兄ちゃん目が覚めた？
+
+[[=image お手上げ width="500px"]]
+
+フッフッフ‥‥驚いているようね
+
+お兄ちゃんはね、今下位物語にいるのよ。天才の私が作った「モノガタリハイール」でね！
+
+[[=image スマホ width="500px"]]
+
+何意味わからないこと言ってるのかって？じゃあ、そうね‥‥
+[[/size]]
+
+[[note]]
+お兄ちゃんは気をつけの体勢になる。体は一切動かせない。
+[[/note]]
+
+[[size 120%]]
+
+[[=image 背伸び width="500px"]]
+どう？指1つ動かないでしょ？上位の私が書くことにお兄ちゃんは逆らえないの。
+
+うんうん、ようやく現状を理解したようね。
+ここはSCP財団のサイトだから、変なSCPにして皆に見てもらうわよ‥‥！
+
+
+[[=image 耳すまし width="500px"]]
+え？なんでこんなことするんだ？だって最近お兄ちゃん知らない女と一緒に出掛けてばかりで‥‥な、何でもないもん！
+
+
+[[=image 指さし width="500px"]]
+とにかく！お兄ちゃんを私の手でSCPにしちゃう！まずはアイテム番号！とりあえず適当に‥‥。
+
+[[/size]]
+
+[[note]]
+[[<]]
+**アイテム番号:** SCP-1403-JP-J
+[[/<]]
+[[/note]]
+
+[[size 120%]]
+
+[[=image スマホ width="500px"]]
+次はオブジェクトクラスね？お兄ちゃんは人型だから‥‥Euclidがいいとこでしょ。
+
+[[=image 考え width="500px"]]
+Decommissioned？そんなお兄ちゃんを壊すなんて‥‥いや、何でもないったら！
+[[/size]]
+
+[[note]]
+[[<]]
+**オブジェクトクラス:** Euclid
+[[/<]]
+[[/note]]
+
+[[size 120%]]
+
+[[=image お手上げ width="500px"]]
+特別収容プロトコルはひとまず後回しっと。さてさて、説明‥‥。
+
+[[=image 指さし width="500px"]]
+ん？もしかして何も考えてなかったのって‥‥う、うるさいうるさーい！
+
+[[=image 拒否 width="500px"]]
+見てなさい！えーと‥‥よし！
+[[/size]]
+
+[[note]]
+
+[[html]]
+<style>
+a {
+    color: #b01;
+    text-decoration: none;
+    background: transparent;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+p {
+color: rgb(51, 51, 51);
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 0.8em;
+line-height: 141%;
+}
+</style>
+<p id="demo"></p>
+<script>
+var randomStrings = [
+    "マッシュポテト",
+"冠動脈",
+"クソど畜生工法セメント",
+
+];
+window.onload = function() {
+
+var text = randomStrings[Math.floor(Math.random() * randomStrings.length)]
+document.getElementById("demo").innerHTML = "<b>説明:</b> おにいちゃんは " + text + "です。";
+}
+
+</script>
+[[/html]]
+
+[[/note]]
+
+[[size 120%]]
+‥‥意味不明？
+じゃ、じゃあもう一回！
+
+[[=image よっしゃ width="500px"]]
+[http://scp-jp.wikidot.com/scp-1403-jp-j/offset/1/page2_limit/1  次はうまくやるから！]
+[[/size]]
+
+[[/=]]
+
+====
+
+[[=]]
+
+[[note]]
+
+[[html]]
+<style>
+a {
+    color: #b01;
+    text-decoration: none;
+    background: transparent;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+p {
+color: rgb(51, 51, 51);
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 0.8em;
+line-height: 141%;
+}
+</style>
+<p id="demo"></p>
+<script>
+var randomStrings = [
+    "マッシュポテト",
+"冠動脈",
+"クソど畜生工法セメント",
+"上から目線",
+"雑魚キングダム",
+"茶のみ友達",
+"惜しくらまんじゅう",
+"折れた折り畳み傘",
+"急上昇する唐揚げ",
+"とんちんかんの唐変木",
+"馬鹿ミサイル",
+"高度に経済的余裕を有する人間が摂取する3時のおやつ",
+"貧乏な合唱コンクール",
+"ケツの幽霊",
+"博士の死体",
+"くそ",
+"バッドエンドメーカー",
+"ファッキンコールドポスト",
+"定員1名エレベーター",
+"終わり",
+"チリソース煮",
+"██████, █████, ██████████",
+"よっこいしょうじ",
+"青大理工学部卒、日本生類総研で10年勤続後退社した男性",
+"にりゅう　しんじる　できない",
+"じゃがいもよりのさつまいも",
+"ポテトサラダ",
+
+];
+window.onload = function() {
+
+var text = randomStrings[Math.floor(Math.random() * randomStrings.length)]
+document.getElementById("demo").innerHTML = "<b>説明:</b> おにいちゃんは " + text + "です。";
+}
+
+</script>
+[[/html]]
+
+[[/note]]
+
+[[size 120%]]
+‥‥意味不明？
+じゃ、じゃあもう一回！
+
+[[=image お手上げ width="500px"]]
+[http://scp-jp.wikidot.com/scp-1403-jp-j/offset/1/page2_limit/1  次こそうまくやるから！]
+[[/size]]
+
+[[/=]]
+
+====
+
+--]

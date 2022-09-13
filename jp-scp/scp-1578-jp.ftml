@@ -1,0 +1,241 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+[[module ListPages offset="@URL|0" range="."]]
+%%content{2}%%
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="page2"]]
+%%content{3}%%
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="page3"]]
+%%content{4}%%
+[[/module]]
+[!--
+====
+[[div class="content-panel standalone series"]]
+[[==]]
+**通知:** 職員コード[繝ｬ繝ｳ繧ｿ繝ｫ繧｢繧ｫ繧ｦ繝ｳ繝]でログインしました。財団データベースへのアクセスはすべて記録されます。
+[[/==]]
+[[/div]]
+[[html]]
+<!-- This is the HTML section of the badge -->
+<style type="text/css"><!--
+body {background-color: #fff; font-size: 0.80em; color: #333; font-family: verdana,arial,helvetica,sans-serif;}
+#page-content {font-size: 0.9em;}
+hr {margin: 1em 2em; padding: 0; height: 1px; border: none; color: #DDD; background-color: #AAA;}
+h1 {font-size: 190%; margin-top: 0.7em; padding: 0; font-weight: bold; font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;}
+li, p {line-height: 141%;}
+ul {list-style: square;}
+
+--></style>
+<div id="typing" style="overflow: hidden;">
+  <div id="page-content">
+    <h1 id="toc0">
+      <span style="color: #990000">SCP-1578-JPの特別収容プロトコルはまだ存在しません。</span>
+    </h1>
+    <hr />
+    <div style="background-color: #600; border: solid 1px #600; border-radius: 20px; color: #fff; max-width: 450px; margin: 0 auto; font-size: 150%; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,.5), inset 0 1px rgba(255,255,255,.5), inset 0 10px rgba(255,204,204,.5), inset 0 10px 20px rgba(255,204,204,.3), inset 0 -15px 30px rgba(48,0,0,.5); line-height: 100%; padding: 0 10px;">
+      <p>
+        <strong>報告書を投稿するその前に、今一度確認を</strong>
+      </p>
+    </div>
+    <div style="background-color: #fff0f0; border: solid 1px #600; border-radius: 20px; color: #300; max-width: 550px; margin: 20px auto 0; text-align: left; box-shadow: 0 2px 6px rgba(0,0,0,.5); padding: 0 10px;">
+      <p>
+        <em>
+          <span style="font-size:150%;">
+            <span style="color: #990000">あなたが初めて報告書を投稿するのであれば、<strong>必ず</strong>このページの内容を確認してください。
+            </span>
+          </span>
+        </em>
+      </p>
+      <p>新しいページを作る前に以下の内容に従ってください。</p>
+      <ul>
+        <li>
+          <span style="text-decoration: underline;">
+            <strong>「<span style="color: #b01;">SCP報告書を作成するには</span>」を読んでください。
+            </strong>
+          </span>
+          このガイドには役に立つヒントや助言、SCP報告書のテンプレートやその他の有用なコードが書かれています。
+        </li>
+        <li>
+          <span style="text-decoration: underline;">
+            <strong>未完成な報告書は収容違反を引き起こすリスクがあるため投稿しないでください。</strong>
+          </span>
+          下書きには<strong><span style="color: #b01;">サンドボックス</span>を利用すると良いでしょう。</strong>
+          サンドボックスの使い方は、リンク先に記述があります。
+        </li>
+        <li>
+          <span style="text-decoration: underline;">
+            <strong>翻訳記事の転載のルールを厳守してください。</strong>
+          </span>
+          <strong>形式を日本支部のものに合わせ、メインリストと<span style="color: #b01;">一覧ページ</span>にそれぞれ担当博士の名前とオブジェクト番号を追加することを忘れないで下さい。
+          </strong>
+        </li>
+        <li>
+          フォーラムの<span style="text-decoration: underline;"><strong><span style="color: #b01;">ヘルプ：美しいプロトコルを書くには</span></strong>カテゴリと<strong><span style="color: #b01;">ヘルプ：報告書の校正・改善</span></strong>カテゴリを利用してください。
+          </span>
+    	  ここでフィードバックをもらうことは、より報告書を正確かつわかりやすいものにするのに一番効率的な方法です。
+        </li>
+        <li>
+          <strong><span style="color: #b01;">ガイドハブ</span></strong>を読んでください。執筆に役立つガイドやエッセイの目録があり、陥りがちな失敗や落とし穴について学ぶことができます。
+        </li>
+      </ul>
+    </div>
+    <div style="background-color: #fffff0; border: solid 1px #660; border-radius: 20px; color: #330; max-width: 550px; margin: 20px auto 0; text-align: left; box-shadow: 0 2px 6px rgba(0,0,0,.5); padding: 0 10px;">
+      <p>上記に加えて、次のことをもう一度強調しておきます。</p>
+      <p>
+        <span style="font-size:120%;">
+          <strong>ここはオブジェクトの特別収容プロトコルを投稿する場所であり、未完成な報告書のフィードバックや校正をしたり、JOKE記事を投稿したりするための場所ではありません。</strong>
+        </span>
+      </p>
+      <p>もし報告書の中に記述のミスや誤字脱字や規格からの必要以上な逸脱が存在する場合、特別収容プロトコルを正確に行えなかった結果として大規模収容違反などを引き起こす可能性があります。ですから、報告書を投稿する前は必ず複数人の目を通して確認してください。</p>
+    </div>
+  </div>
+[[/html]]
+[[div class="content-panel standalone series"]]
+[[==]]
+以上を理解した上で新しいページを作成するには[http://ja.scp-wiki.net/scp-1578-jp/offset/1/page2_limit/1 このリンクをクリック]して下さい。
+[[/==]]
+[[/div]]
+====
+[[div class="content-panel standalone series"]]
+[[==]]
+もう一度職員コードとパスワードを入力してください。
+[[include :scp-jp-sandbox2:inc:fakeprot |name=繝ｬ繝ｳ繧ｿ繝ｫ繧｢繧ｫ繧ｦ繝ｳ繝]]
+[[/==]]
+[[/div]]
+[[image newpage.png]]
+[[image textarea.png]]
+[[div class="content-panel standalone series"]]
+[[==]]
+[http://ja.scp-wiki.net/scp-1578-jp/offset/1/page3_limit/1 アップロード]
+[[/==]]
+[[/div]]
+====
+[[div class="content-panel standalone series"]]
+[[==]]
+**通知:** SCP-1578-JPを投稿しました。セキュリティの観点からこのページは**機動部隊ゐ-1**("遊牧者の雄羊")による安全確認が終了するまで隔離されます。緊急性の高いプロトコルの作成・変更はサイト管理者へ報告してください。
+[[/==]]
+[[/div]]
+**アイテム番号:** SCP-1578-JP
+
+**オブジェクトクラス:** Safe
+
+**特別収容プロトコル:** SCP-1578-JPは現在このページに添付されています。複数のUSBメモリに複製して低危険度物品保管ロッカーに保管してください。SCP-1578-JPに曝露した人員にはAクラス記憶処理を行い、認識改変を解除してください。現在未収容のSCP-1578-JPが存在することが判明しています。そのため、財団の所有するWebクローラーを利用してSCP-1578-JPと同一の文字列を捜索してください。発見したSCP-1578-JPはすべて削除し、端末の所持者にインタビューを行った後Aクラス記憶処理を行ってください。
+また、後述するSCP-1578-JP-1を発見するために電子掲示板上の"スレーククエスト" [[footnote]]インターネット上で無料公開されているWindows用ゲームソフトウェア。プレイ人口は30人ほどと推測される。プログラム及び作者に異常性はみられなかった。[[/footnote]] に関するスレッドへのアクセスを解析し、新しく利用するユーザーが出現した場合調査してください。
+
+**説明:** SCP-1578-JPは読み込んだ者に認識改変を引き起こす215文字からなる文章です。SCP-1578-JPの認識改変能力はその複製であっても発揮されますが、筆記や口頭による認識にはその能力が及びません。しかし電子端末を利用している場合、利用するソフトウェアに関わらずSCP-1578-JPの閲覧を試行した時点で認識改変が行なわれます。
+
+SCP-1578-JPに曝露した者（以下SCP-1578-JP-1と呼称）は、"スレーククエスト"を現在継続して利用しているゲームソフトウェアであると認識するようになります。"スレーククエスト"をプレイできる端末を所持していない場合は認識改変が起きません。その知名度からSCP-1578-JPに曝露する前に"スレーククエスト"を利用しているSCP-1578-JP-1は著しく少ないため多くの場合SCP-1578-JP-1は誤って継続して利用していたゲームソフトウェアをアンインストールしてしまったと結論づけ、"スレーククエスト"をダウンロードします。
+
+SCP-1578-JP-1は利用しているソフトウェアが"スレーククエスト"であると認識できませんが、電子端末を利用するときに自分の意思で"スレーククエスト"を利用しているようにふるまいます。このため、インターネット上で第三者がSCP-1578-JP-1の異常性に気が付くことはまれです。口頭や筆記など電子機器を介さない会話を行った場合、言動の矛盾からSCP-1578-JP-1と通常の"スレーククエスト"ファンを容易に区別できます。
+
+SCP-1578-JP-1に対する認識改変は、Aクラス記憶処理又はSCP-1578-JPに曝露して2週間が経過することで解除されます。いずれの場合でもSCP-1578-JP-1はそれまでの行動に関して疑問を持ちません。認識改変中に"スレーククエスト"に対し好意的だったSCP-1578-JP-1は認識改変が解除された後も"スレーククエスト"を利用し続けますが、SCP-1578-JPが持つ認識改変能力の低さと"スレーククエスト"を利用しなくなるSCP-1578-JP-1の方がやや多いことからその点に関して異常性はないと結論づけられています。
+
+**補遺:** SCP-1578-JPが発見されたきっかけは電子掲示板の複数スレッドにSCP-1578-JPのリンクが張られた [[footnote]]投稿者により約30分で削除されました。[[/footnote]] ことです。1週間後にゲーマーズ・アゲインスト・ウィードのメンバーが一般社会で面識のある他のメンバーの言動に不審な点があったため調査した所、メンバーの1人が自白したことにより詳細が判明しました（ログ参照）。
+[[module ListUsers users="."]]
+[[collapsible show="+ ログ１" hide="- テキストを隠す"]]
+
+> **lowansid324:** ひま
+> 
+> **lowansid324:** 最近流行ってるアレって面白い？アクション苦手だからやってないけど
+> 
+> **henesone:** アレってアレか先月発売のなんかすごい数売れたとかいうアレか
+> 
+> **antiantr007:** アバウトすぎてちょっと何言ってるかわからない
+> 
+> **XxecinsebuxX:** 最近アクションで売れたって言ったら一つしかないべ
+> 
+> **XxecinsebuxX:** 難しいけどクリアできないわけじゃないし楽しいから旬の内に買え
+> 
+> **lowansid324:** お前のクリアできるは参考にならんわ
+> 
+> **n0friend810:** おススメする暇あったらゲームやってないで親孝行しろ
+> 
+> **%%title%%:** 唐突なリアル方面での攻撃止めろ
+> 
+> **n0friend810:** 近頃は部屋から出てきてくれないってカーチャン泣いてたぞ
+> 
+> **XxecinsebuxX:** ちゃんと働いてるからセーフ(震え)
+> 
+> **antiantr007:** なんで匿名なのに個人情報知ってるんですかね……
+> 
+> **lowansid324:** そもそもXxecinsebuxX誘ったのがn0friend810だから繋がりあるでしょ
+> 
+> **%%title%%:** それ後で聞こうか
+> 
+> **antiantr007:** 実況みたけどうまい人じゃないときつそう
+> 
+> **antiantr007:** 前言ってたRPGのフリゲはだめなの？スレクエだっけ？
+> 
+> **lowansid324:** なんで私以外誰もやってくれないのか理解に苦しむね（孤独）
+> 
+> **%%title%%:** 楽しかったけどユーザー数が少なすぎる
+> 
+> **lowansid324:** それな
+
+[[/collapsible]]
+
+[[collapsible show="+ ログ２" hide="- テキストを隠す"]]
+> **lowansid324:** おはよー
+> 
+> **henesone:** 丁度来てくれてよかった
+> 
+> **XxecinsebuxX:** おいお前
+> 
+> **XxecinsebuxX:** お前がやったんだろ
+> 
+> **antiantr007:** カンカンですな
+> 
+> **%%title%%:** 今北産業
+> 
+> **henesone:** n0friend810がXxecinsebuxXとリアルでエンカ
+> 
+> **henesone:** 雑談でここ最近ずっとアクションやってたと聞く
+> 
+> **henesone:** なのにブログだとスレクエやってたと発言してた
+> 
+> **henesone:** どう考えてもアイツの仕業やろ←今ここ
+> 
+> **antiantr007:** 四行やん
+> 
+> **henesone:** おいは恥ずかしか！
+> 
+> **n0friend810:** ドマイナーゲーだからといってlowansid324がやったとは限らんし
+> 
+> **lowansid324:** 私がやりましたすみませんごめんなさいわるぎはなかったんです
+> 
+> **XxecinsebuxX:** まあ楽しかったからいいんだけど
+> 
+> **%%title%%:** 熱い手のひら返し
+> 
+> **n0friend810:** それよりなんでこうしたのかっていうのが気になる
+> 
+> **lowansid324:** ユーザー少ないっていってたから増やせばもっと楽しんでもらえるかなって
+> 
+> **lowansid324:** だから他のゲームとすり替えれば楽しんでもらえるしゲーム知ってもらえるし一石二鳥かなって思ってましたすみません
+> 
+> **antiantr007:** 人の好きなゲームを取り上げるのは許されざるよ
+> 
+> **n0friend810:** それ単にスレクエが気になるようにするとか方法はもっとあったのでは
+> 
+> **lowansid324:** そうですね……
+> 
+> **%%title%%:** でそれどうやったの
+> 
+> **lowansid324:** 掲示板に怪文書として書き込んだ
+> 
+> **XxecinsebuxX:** それ大量に人きてスレクエの貧弱鯖消し飛ぶのでは
+> 
+> **antiantr007:** 誰が収集つけるんですかね？用務員？連絡先知らんけど
+> 
+> **henesone:** つみです
+> 
+> **%%title%%:** ちょっと知り合いに頼って何とかできないか聞いてみる
+
+[[/collapsible]]
+[[/module]]
+
+[[footnoteblock]]
+====
+--]

@@ -680,8 +680,8 @@ div.wiki-note {
   border-radius: 5px;
   box-shadow: 1px 1px 3px rgba(0,0,0,.5);
 }
-.page-rate-widget-box .rate-points {
-  background-color: #dc143c !important;
+div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
   border: solid 1px #dc143c;
   border-right: 0;
   border-radius: 5px 0 0 5px;
@@ -726,8 +726,8 @@ div.wiki-note {
 }
 
 /* Credit Rating Module */
-#page-content .creditRate .page-rate-widget-box .rate-points {
-  background-color: #dc143c !important;
+#page-content .creditRate div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
   border: solid 1px #dc143c;
 }
 #page-content .creditButton p a{
@@ -1546,8 +1546,8 @@ font-weight:bold;
 #page-content .creditButton .fa-info{
     color: #fff;
 }
-.page-rate-widget-box .rate-points {
-    background-color:var(--mainblue) !important;
+div.page-rate-widget-box .rate-points {
+    background-color:var(--mainblue);
     border: solid 1px var(--mainblue);
 }
 .page-rate-widget-box .rateup, .page-rate-widget-box .ratedown {
