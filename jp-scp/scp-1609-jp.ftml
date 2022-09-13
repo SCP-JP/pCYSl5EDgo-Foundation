@@ -209,8 +209,8 @@
      border-radius: 0;
      box-shadow: none;
 }
- .page-rate-widget-box .rate-points{
-     background-color: hsl(0, 0%, 40%) !important;
+ div.page-rate-widget-box .rate-points{
+     background-color: hsl(0, 0%, 40%);
      border: none;
      border-radius: 0;
 }

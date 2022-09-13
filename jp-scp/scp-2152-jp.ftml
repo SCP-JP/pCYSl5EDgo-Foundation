@@ -30,61 +30,8 @@
 
 プライム実体・A実体双方の置換は3秒程度の短時間で完了し、異常性を含むSCP-2152-JPの特徴は形成された人型実体に継承されます。特筆すべき点として、上記のプロセスを経ることで、SCP-2152-JPの精神的健康に対してストレスの低減等の良好な影響がもたらされることが判明しています。
 
-[[include :scp-wiki:theme:basalt]]
+[[include :scp-jp:theme:basalt]]
 [[module CSS]]
-@import url('http://1119s.wdfiles.com/local--code_/side-icons/1');
-
-#top-bar,
-#side-bar,
-h1, h2, h3, h4, h5, h6 {
-    text-transform: initial;
-}
-#side-bar {
-    margin: 0;
-}
-.side-block .menu-item img + a::before,
-.side-block ul.menu-item li::before,
-.side-block .collapsible-block-folded a.collapsible-block-link::before {
-    filter: brightness(0) !important;
-}
-#side-bar img {
-    filter: none;
-}
-#side-bar a.collapsible-block-link {
-    background: none;
-}
-#page-content {
-    font-size: 100%;
-}
-.page-rate-widget-box {
-    box-shadow: none;
-    margin: 0;
-}
-.page-rate-widget-box .cancel a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    height: 16px;
-    padding: 2px 5px;
-}
-.rate-box-with-credit-button .creditButton {
-    border: none 0;
-    background: none;
-    box-shadow: none;
-}
-.rate-box-with-credit-button .creditButton a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 16px;
-}
-.modalbox .modalbox-title {
-    border-radius: 0;
-}
-.modalbox .page-rate-widget-box {
-    box-shadow: 0px 0px 7px #999999;
-}
 .classification-header .right-box {
     --level0: 11,0,128;
     font-weight: bold;

@@ -6,7 +6,7 @@
 [[[author:enderman-desu|この著者の他の作品]]]
 [[include :scp-jp:credit:end]]
 
-[[include :scp-wiki:theme:basalt]]
+[[include :scp-jp:theme:basalt]]
 [[include :testsite-000:basalt-sidebox-code]]
 [[module CSS]]
 :root {
@@ -34,41 +34,6 @@
     margin: 0;
     text-transform: unset;
 }
-#page-content {
-    font-size: 90%;
-}
-.page-rate-widget-box {
-    box-shadow: none;
-    margin: 0;
-}
-.page-rate-widget-box .cancel a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    height: 16px;
-    padding: 2px 5px;
-}
-.rate-box-with-credit-button .creditButton {
-    border: none 0 !important;
-    background: none !important;
-    box-shadow: none !important;
-}
-.rate-box-with-credit-button .creditButton a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 16px;
-}
-.modalbox {
-    color: black;
-}
-.modalbox .modalbox-title {
-    border-radius: 0;
-}
-.modalbox .page-rate-widget-box {
-    box-shadow: 0px 0px 7px #999999;
-}
 @media (min-width: 768px) {
     #main-content {
         max-width: 75%;
@@ -80,9 +45,6 @@ a.btn.btn-primary {
     position: absolute !important;
     left: 3em !important;
     top: 1.5em !important;
-  }
-#page-content {
-    font-size: 80%;
   }
 #page-content > hr {
     margin: 1em 5%;
