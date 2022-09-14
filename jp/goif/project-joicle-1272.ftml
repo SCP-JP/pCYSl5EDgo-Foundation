@@ -1,0 +1,708 @@
+[[module CSS]]
+/*
+    JOICL Theme (Simplified Theme)
+    [2018 Wikidot Theme]
+    Based on Nanimono Demonai's JOICL Theme
+    Edited by 7happy7
+*/
+ 
+/*
+背景画像
+*/
+ 
+div#container-wrap {
+  background: none !important;
+}
+ 
+/*
+ヘッダ
+*/
+ 
+#header {
+  padding-top: 2em;
+  height: 130px;
+  z-index: 10;
+  background: url(http://scp-jp-sandbox2.wikidot.com/local--files/nanimono-demonai/q2.png) 10px 40px no-repeat, calc(100% - 10px) calc(100% - 40px) no-repeat;
+}
+ 
+div #header h1 {
+  margin-left: 0;
+  width: 273px;
+  top: 35px;
+  min-height: 100px;
+  position: absolute;
+}
+ 
+div #header h1 a {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1px;
+}
+ 
+div #header h2 {
+  display: none;
+}
+#top-bar a {
+  color: #fff;
+}
+ 
+#top-bar {
+  position: absolute;
+  bottom: 0px;
+  border-radius: 5px;
+  background-color: rgba(23,140,206,0.03);
+  border-top: dotted 1px rgba(23,140,206,0.5);
+  border: solid 1px #178cce; 
+  height: auto;
+  padding: 0;
+  z-index: 20;
+  font-size: 90%;
+ 
+}
+#top-bar ul li ul {
+  border-radius: 0 0 5px 5px;
+  background-color: transparent;
+  border: solid 1px #178cce;
+  border-top: none;
+  box-shadow: none;
+}
+#top-bar ul {
+  float: right;
+  padding-right: : 5em;
+}
+ 
+#top-bar a {
+  color: #b5cde2;
+}
+ 
+#top-bar ul li a {
+  border-left: none;
+  border-right: none;
+}
+ 
+#top-bar ul li.sfhover a, #top-bar ul li:hover a {
+  color: #178cce;
+  border-left: none;
+  border-right: none;
+}
+
+#search-top-box {
+top: 50px;
+}
+ 
+#search-top-box-input {
+    border: solid 1px #0b65c0;
+    background-color: #132639;
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #0b65c0
+    background-color: #132639;
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px #0b65c0;
+    background-color: #132639;
+    color: #0b2447;
+    background: linear-gradient(to bottom, #2373cd,#319ec2,#183291);
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #0b65c0;
+    color: #0b2447;
+    background-color: #132639;
+    background: linear-gradient(to bottom, #2373cd,#319ec2,#183291);
+}
+ 
+/*
+コンテント
+*/
+
+
+
+h1, #page-title {
+  color: #000;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+ 
+a {
+  color: #b5cde2;
+}
+ 
+#page-content a{
+  color: #00A;
+}
+#page-content h2{
+font-weight:bold;
+}
+#page-content h2:before{
+  content:'■';
+  color:#006837;
+}
+ 
+div.page-rate-widget-box .rate-points {
+    background-color: #b5cde2;
+    border: solid 1px #b5cde2;
+}
+.page-rate-widget-box .rateup, .page-rate-widget-box .ratedown {
+    background-color: #b5cde2;
+    border-top: solid 1px #b5cde2;
+    border-bottom: solid 1px #b5cde2;
+}
+.page-rate-widget-box .cancel {
+    background-color: #b5cde2;
+    border: solid 1px #b5cde2;
+}
+.page-rate-widget-box a{
+    color: #fff !important;
+}
+.page-rate-widget-box .rateup a:hover, .page-rate-widget-box .ratedown a:hover {
+    background: #b5cde2;
+    color: #fffff0;
+}
+.page-rate-widget-box .cancel a:hover {
+    background: #b5cde2;
+}
+#page-content .creditRate div.page-rate-widget-box .rate-points {
+     background-color: #178cce;
+     border: solid 1px #0b65c0;
+ }
+ .rate-box-with-credit-button .creditButton{
+ background-color: #178cce !important;
+ }
+/*
+リスト http://webnonotes.com/css/css-list/
+*/
+.defaultlist, .defaultlist li{
+  padding:0px;
+  margin:0px;
+}
+ 
+.defaultlist li{
+  list-style-type:none !important;
+  list-style-image:none !important;
+  margin: 5px 0px 5px 0px !important;
+}
+.list1 li{
+  position:relative;
+  padding-left:20px;
+}
+ 
+.list1 li:before{
+  content:''; 
+  display:block; 
+  position:absolute; 
+  box-shadow: 0 0 2px 2px rgba(255,255,255,0.2) inset;
+  top:3px; 
+  left:2px; 
+  height:0; 
+  width:0; 
+  border-top: 6px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 9px solid #aaa;
+}
+.list2 li{
+  position:relative;
+  padding-left:20px;
+}
+ 
+.list2 li:before{
+  content:''; 
+  height:0; 
+  width:0; 
+  display:block; 
+  border:5px transparent solid; 
+  border-right-width:0; 
+  border-left-color:#aaa; 
+  position:absolute; 
+  top:5px; 
+  left:8px;
+}
+ 
+.list2 li:after{
+  content:''; 
+  height:2px; 
+  width:10px; 
+  display:block; 
+  background:#aaa; 
+  position:absolute; 
+  top:9px; 
+  left:0px;
+}
+.list4 li{
+  position:relative;
+  padding-left:20px;
+}
+ 
+.list4 li:after, .list4 li:before{
+  content:''; 
+  display:block; 
+  position:absolute; 
+  top:4px; 
+  left:8px; 
+  height:11px; 
+  width:4px; 
+  background:#aaa; 
+  border-radius:10px;
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+}
+.list4 li:before{
+  top:8px; 
+  left:3px;
+  height:8px; 
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+}
+.list5 li{
+  position:relative;
+  padding-left:20px;
+}
+.list5 li:before{
+  content:''; 
+  height:0px; 
+  width: 90%;
+  display:block; 
+  position:absolute; 
+  top:18px; 
+  left:0px; 
+  border-bottom: 1px dashed #aaa;
+}
+.list5 li:after{
+  content:'';
+  display:block; 
+  position:absolute; 
+  background:#aaa;
+  width:5px;
+  height:5px; 
+  top:7px; 
+  left:5px; 
+  border-radius: 5px;
+}
+.list6 li{
+  position:relative;
+  padding-left:20px;
+}
+ 
+.list6 li:after{
+  content:'';
+  display:block; 
+  position:absolute; 
+  background:#aaa;
+  width:9px;
+  height:9px; 
+  top:5px; 
+  left:5px; 
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+}
+.list7 li{
+  position:relative;
+  display: block;
+  padding: 5px 0px 5px 30px;
+  background: #ccc;
+  color: #444;
+  border-radius:15px 0px 0px 15px;
+}
+ 
+.list7 li:after{
+  content:'';
+  display:block; 
+  position:absolute;
+  width:14px;
+  height: 14px;
+  top:7px;
+  left:5px;
+  background: #fff;
+  border-radius: 10px;
+}
+/*
+表 http://tablestyler.com/#
+*/
+.defaultT table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+.defaultT table td, .defaultT table th {
+  padding: 3px 10px;
+}
+.defaultT table th:first-child {
+  border: none;
+}
+.defaultT table th:first-child {
+  border: none;
+}
+ 
+.defaultT table tbody td:first-child {
+background-color: #f0f0e6;
+font-weight: bold;
+  border-left: none;
+}
+ 
+.defaultT table tbody tr:last-child td {
+  border-bottom: none;
+}
+ 
+.defaultT .wiki-content-table {
+    margin: 0;
+}
+.defaultT{
+  font: normal 12px/150% Arial, Helvetica, sans-serif;
+  background: #fff;
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+ 
+.defaultT table th {
+    color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+}
+ 
+.defaultT table tbody td {
+  font-size: 12px;
+  font-weight: normal;
+}
+ 
+.blueT {
+  border: 1px solid #006699;
+}
+ 
+.blueT table th {
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F));
+  background: -moz-linear-gradient( center top, #006699 5%, #00557F 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+  background-color: #006699;
+  border-left: 1px solid #0070A8;
+}
+ 
+.blueT table tbody td {
+  border-left: 1px solid #E1EEF4;
+}
+.blueT table tbody td:first-child {
+color: #00496B;
+}
+ 
+.redT {
+  border: 1px solid #991821;
+}
+ 
+.redT table th {
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #991821), color-stop(1, #80141C));
+  background: -moz-linear-gradient( center top, #991821 5%, #80141C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#991821', endColorstr='#80141C');
+  background-color: #991821;
+  border-left: 1px solid #B01C26;
+}
+ 
+.redT table tbody td {
+  border-left: 1px solid #F7CDCD;
+}
+ 
+.redT table tbody td:first-child {
+color: #80141C;
+}
+ 
+.greenT {
+  border: 1px solid #36752D;
+}
+ 
+.greenT table th {
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36752D), color-stop(1, #275420));
+  background: -moz-linear-gradient( center top, #36752D 5%, #275420 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
+  background-color: #36752D;
+  border-left: 1px solid #36752D;
+}
+ 
+.greenT table tbody td {
+  border-left: 1px solid #C6FFC2;
+}
+ 
+.greenT table tbody td:first-child {
+color: #275420;
+}
+ 
+/*
+サイド
+*/
+ 
+#side-bar {
+  background-color: #b5cde2;
+}
+ 
+#side-bar .side-block {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent !important;
+  margin-top: 4em;
+}
+#side-bar .heading {
+    color: #178cce;
+    border-bottom: solid 1px #178cce;
+}
+#side-bar .side-block a {
+  color: #fff;
+}
+ 
+/*
+めであ
+*/
+ 
+@media (max-width: 767px) and (min-width:440px) {
+ 
+  #container {
+    border-left: 9px solid #b5cde2;
+  }
+  #header {
+    background-size: 200px, 180px;
+  }
+  div #header h1 {
+    width: 200px;
+    min-height: 100px;
+  }
+  #side-bar {
+  transform: translateY(0em);
+}
+}
+ 
+@media (max-width: 440px) {
+  #container {
+    border-left: 3px solid #b5cde2;
+  }
+  #header {
+    background-size: 130px, 140px;
+    height: 100px;
+  }
+  div #header h1 {
+    width: 200px;
+    min-height: 80px;
+  }
+  #top-bar {
+    margin-top: -15px;
+    margin-bottom: 2px;
+  }
+}
+ 
+@media (min-width: 441px) and (max-width: 767px) {
+  #top-bar {
+    margin-top: 15px;
+  }
+}
+ 
+@media (min-width: 767px) {
+  #top-bar {
+  margin-bottom: 15px;
+  }
+  #content-wrap {
+  transform: translateY(-2em);
+  }
+}
+ 
+@media (max-width: 767px) {
+    #side-bar:target .close-menu {
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+}
+
+
+
+
+img.close-menu {
+    opacity: 0 !important;
+}
+/*
+[[/module]]
+[[include credit:start]]
+**タイトル:** 報告書 #1272 「フェニックス」
+**著者:** ©︎[[*user indonootoko]]
+**作成年:** 2018
+[[include credit:end]]
+[[# top]]
+[[div style="background-color : #ffffff;color:#000000; padding: 10px; width: 100%; border: inset thin #000000"]]
+　
+[[>]]
+@@ @@
+20██年█月0█日
+[[/>]]
+[[=]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[size x-large]]プロジェクト番号-1272[[/size]]
+@@ @@ 
+[[size x-large]]「フェニックス」研究報告書[[/size]]
+@@ @@
+@@ @@
+@@ @@ 
+@@ @@
+@@ @@ 
+@@ @@
+@@ @@
+@@ @@
+@@ @@ 
+@@ @@
+**久能 尚史 編**
+@@ @@
+@@ @@
+@@ @@ 
+@@ @@
+@@ @@ 
+@@ @@
+@@ @@
+@@ @@
+@@ @@ 
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+- 表紙 -
+@@ @@
+[[/=]]
+[[/div]]
+[[# P1]]
+[[div style="background-color : #ffffff;color:#000000; padding: 10px; width: 100%; border: inset thin #000000"]]
+[[=]]
+@@ @@
+[[size x-large]]- 目次 -[[/size]]
+@@ @@
+[[/=]]
+　　　　[[size x-large]]**表紙**[[/size]]･･･････[/project-joicle-1272#top 表紙]
+@@ @@
+@@ @@
+@@ @@
+　　　　[[size x-large]]**目次**[[/size]]･･･････[/project-joicle-1272#P1 P.1]
+@@ @@
+@@ @@
+@@ @@
+　　　　[[size x-large]]**第一章 実験目的と利用生類**[[/size]]･･･････[/project-joicle-1272#P2 P.2]
+　　　　│ 第一節 背景
+　　　　│ 第二節 目的
+　　　　│ 第三節 方法
+　　　　│ 第四節 使用生類
+@@ @@
+@@ @@
+@@ @@
+　　　　[[size x-large]]**第二章 創成生類概要**[[/size]]･･･････[/project-joicle-1272#P3 P.3]
+　　　　│ 第一節 フェニックス概要
+　　　　│ 第二節 所感
+@@ @@ 
+@@ @@
+@@ @@
+　　　　[[size x-large]]**第三章 補記**[[/size]]･･･････[/project-joicle-1272#P4 P.4]
+　　　　│ 第一節 実験記録抜粋
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[=]]
+-1- 
+[[/=]]
+[[/div]]
+[[# P2]]
+[[div style="background-color : #ffffff;color:#000000; padding: 10px; width: 100%; border: inset thin #000000"]]
+@@ @@
+++ 第一章 実験目的と利用生類
++++ 第一節 背景
+生類合成時に発生する"生類間の拒絶反応"であるが、最近の研究で拒絶反応は遺伝子情報の遠近の他に、その生類の持つ記憶によってもたらされている事が判明してきている。生類間の拒絶反応の緩和、延いては完全な撲滅に成功する事は、生類合成の精度や速度を大幅に改善すると思われる。
+@@ @@
++++ 第二節 目的
+生類間の拒絶反応の撲滅を最終目標に設定し、緩和や応用を中間目的として設定する。
+@@ @@
++++ 第三節 方法
+[[[http://ja.scp-wiki.net/scp-783-jp|記憶の蒸留に火炎を利用]]]し、記憶の継承や除去を試みる。そのために火炎との親和性の高い合成生類を選定し、創成時に特殊能力を付与する。能力実験の対象は記憶の検証が容易なヒト（//Homo sapiens//)を選択した。
+@@ @@
++++ 第四節 使用生類
+**元生類:** コウノトリ（//Ciconia boyciana//）
+
+**素材生類:** ニホンヒギツネ（//Ignevulpes japonica//）
+
+[[image その2.jpg]]
+記憶合成方法には生得的モジュールの遺伝に付帯させる方法を使用する。ヒトのメスへ影響する能力を付与しやすい生物としてコウノトリを選定し、記憶の蒸留にはニホンヒギツネの生物火炎を選定した。コウノトリ81.8%、ニホンヒギツネ18.2%の割合で生類合成し、7世代を継代させる事で、目標に達する新たな生類を創り出す事に成功した。
+[[=]]
+- 2 - 
+[[/=]]
+[[/div]]
+[[# P3]]
+[[div style="background-color : #ffffff;color:#000000; padding: 10px; width: 100%; border: inset thin #000000"]]
+@@ @@
+@@ @@
+++ 第二章 創成生類概要
++++ 第一節 フェニックス概要
+[[image ジョイ.jpg]]
+**和名:** フェニックス
+@@ @@
+**学名:** //Phoenix joicle// Itegiri, 20██ （//Ciconia boyciana × Ignevulpes Japon//）
+@@ @@
+**説示:** フェニックスは日本生類創研Bエリアで創成された新種の鳥類である。妊娠しているヒトのメス（以下、検体）へ敵対心を持つこと以外はコウノトリと類似する生活史を持つ。
+
+フェニックスは検体を発見すると特異性を顕わにし、赤色のイシュタム線へと自らを変換し物理的に接触することで検体へ侵入する。検体への侵入に成功すると、受精卵や胎児へ更に侵入し融合を行う。融合の際に受精卵や胎児が持つ遺伝子情報をフェニックスは蓄積し、後述する特異性を顕わにした際のために、優先的に記憶の吸収を行う対象を選定する。遺伝子情報の蓄積を終えたフェニックスは検体が出産を迎えるまで休眠状態となり、活動を停止する。
+
+検体が出産を迎えた際、フェニックスは更なる特異性を顕わにする。生物性の火炎を爆発を伴いながら放出し、広範囲に爆炎を齎す。この生物性の火炎により、焼死したヒトの記憶を蒸発させる事で記憶の抽出を行う。数十分から数時間後にフェニックスは空気中に漂う記憶を炎ごと吸引し、予め蓄積しておいた遺伝子情報を元にヒトの新生児を再構築する。これらのプロセスを終えるとフェニックスは完全に燃え尽き、二酸化炭素として空中に発散され消滅する。再構築された新生児は、フェニックスの炎により焼死したヒト全員が持っていた記憶を持ち、フェニックスが記憶していた遺伝子情報により近いヒトの人格を継承する。
+
+**技術:** [[[http://ja.scp-wiki.net/scp-1435-jp|ジーンウォーター]]]を利用し、新生児の遺伝子情報を操作する事で、継承する人格を新生児の親族以外に操作する事が可能である。
+@@ @@
++++ 第二節 所感
+結果は当初設置した目標に達するものであり、創成は成功である。今後はヒト以外の霊長類を検体にする調整や、記憶の剪定などが課題になるだろう。現状は記憶の蒸留プロセスが大規模になりやすい為、全体的な小型化も急務である。
+@@ @@
+[[=]]
+- 3 -
+[[/=]]
+[[/div]]
+[[# P4]]
+[[div style="background-color : #ffffff;color:#000000; padding: 10px; width: 100%; border: inset thin #000000"]]
+@@ @@
+++ 第三章 補記
++++ 第一節 実験記録抜粋
+> **実験監督:** 凍霧 研究主任
+> 
+> **内容:** ██病院へ入院している妊婦へフェニックスを接触させ、その後の様子を観察。
+> 
+> **目的:** 創成したフェニックスが完成しているかを調査する。
+> 
+> **結果:** 成功。回収された新生児は母体の記憶を継承し、焼死した人間全員の記憶を保有していた。この火災は事故火災として処理された。
+
+> **実験監督:** 凍霧 研究主任
+> 
+> **内容:** 以前凍霧研究主任が研究に利用した女性に、凍霧研究主任の子供を妊娠させフェニックスを接触させる。発生する火災に凍霧 研究主任が意図的に巻き込まれる。実験場所は日本生類創研フロント企業所有の廃病院で行い、焼死者2名で検証する。
+> 
+> **目的:** 私的利用。検体の精神が崩壊している際の検証。
+> 
+> **結果:** 失敗。新生児は凍霧 研究主任の記憶のみを引き継いでいたため、検体の精神が崩壊している際の検証には成功したが、焼け跡より凍霧 研究主任と検体以外の死体が発見された。実験場は封鎖されており、人の出入りは不可能だった。この死体を解析した結果、その遺伝子構成にヒトと類似点さえ見つかったもののヒトではない不明な存在の物である事が判明した。
+> 
+> 取り返しのつかない失敗をしてしまったかもしれない......。凍霧君に何かが入りこんでしまった可能性がある。と、言うのも彼とは十年近くの付き合いになるが、以前の彼とはなんとなく違うように感じる。彼は否定しているが......。　By 久能 研究室長
+
+> **実験監督:** 久能 研究室長（凍霧 研究主任は先の実験により0歳児となったため参加不能）
+> 
+> **内容:** ジーンウォーターにより遺伝子情報を操作された胎児を妊娠している検体へフェニックスを接触させる。ジーンウォーターには[[[http://ja.scp-wiki.net/scp-1272-jp|池里 研究員]]]の遺伝子情報を付帯させ、且つ池里 研究員は意図的に火災に巻き込まれる。
+> 
+> **目的:** 私的利用。人格の継承を操作できるか検証。
+> 
+> **結果:** 失敗。新生児は池里 研究員の記憶を継承したが、火災を財団に捕捉され、池里 研究員の人格を継承した新生児を奪取されてしまった。
+> 
+> 検証そのものは成功した。凍霧君に入ってしまった"何か"が知りたければ、ジーンウォーターで私の人格を継承させて凍霧君と一緒に心中すれば可能であると分かった。だが、あまりにリスキーであるし、データが足りなすぎる。凍霧君に何かが入ってしまったという保証があるわけでもない。もっと実験が必要だ。　By 久能 研究室長
+[[=]]
+- 4 -
+[[/=]]
+[[/div]]
+　
+　

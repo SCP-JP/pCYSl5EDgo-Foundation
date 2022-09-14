@@ -1,0 +1,261 @@
+[[module css]]
+/*
+    SPC Theme
+    [2018 Wikidot Theme]
+    Based on Aelanna's Sigma 9 and Greenwolf's Third Law and djkaktus' Darkbody Theme
+    Edited by PeppersGhost for the Doomsday Contest
+*/
+
+/* HEADER */
+#header {
+    height: 140px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 30px; /* FOR MENU */
+    background: url(http://scp-wiki.wdfiles.com/local--files/spc-001/SPCLogo50.png) 10px 35px no-repeat;
+}
+
+#header h1 a {
+    content: "SPC サメ殴りセンター";
+}
+
+#header h1 a::before {
+    content: "SPC サメ殴りセンター";
+}
+
+#header h1 a span{
+    display: block;
+    content: "";
+    visibility: hidden;
+}
+
+#header h2 {
+    margin-left: 120px;
+    padding: 0;
+    clear: left;
+    float: left;
+    font-size: 105%;
+    max-height: 38px;
+}
+#header h2 span {
+    display: block;
+    margin: 0;
+    padding: 19px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: none;
+}
+#header h2 span::before {
+    content: "索鮫 殴打 粉砕";
+    display: block;
+    margin: 0;
+    padding: 0px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: #f0f0c0;
+    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+div#container-wrap {
+    background: url(http://scp-wiki.wdfiles.com/local--files/theme%3Aspc/SPCWrapper.jpg) top left repeat-x;
+}
+/* Source: https://www.flickr.com/photos/telemax/2818520042 */
+
+/* SIDEBAR */
+#side-bar img {
+  width:13px;
+  height:13px;
+  box-sizing:border-box;
+  padding-left: 13px;
+  background: url(http://www.scp-wiki.net/local--files/component:spc-theme/FirstIconTransparent.png) left top no-repeat;
+}
+/* Source: https://commons.wikimedia.org/wiki/File:Noun_project_758.svg */
+
+#side-bar .heading {
+    color: #0e7dcd;
+    border-bottom: solid 1px #0e7dcd;
+}
+
+#side-bar div.menu-item.inactive a {
+    color: #0b65c0;
+}
+#side-bar div.menu-item .sub-text {
+    color: #0b65c0;
+}
+
+#side-bar .collapsible-block-unfolded-link {
+    border-bottom: solid 1px #0b65c0;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link {
+    color: #0b65c0;
+}
+
+.interwiki_title {
+    color: #0b65c0;
+}
+
+.interwiki_entry a {
+    color: #0b65c0;
+}
+
+/* LINKS */
+
+a {
+    color: #0c499c;
+    text-decoration: none;
+    background: transparent;
+}
+a.newpage {
+    color: #0c499c;
+    text-decoration: none;
+    background: transparent;
+}
+
+/* RATING MODULE */
+div.page-rate-widget-box .rate-points {
+    background-color: #132639;
+    border: solid 1px #0b65c0;
+}
+.page-rate-widget-box .rateup,
+.page-rate-widget-box .ratedown {
+    background-color: 132639;
+    border-top: solid 1px #0b65c0;
+    border-bottom: solid 1px #0b65c0;
+    font-weight: bold;
+}
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a {
+    background: 132639;
+    color: #0b65c0;
+    padding: 0 4px;
+    margin: 0 1px;
+}
+.page-rate-widget-box .rateup a:hover,
+.page-rate-widget-box .ratedown a:hover {
+    background: #132639;
+    color: #0b65c0;
+    text-decoration: none;
+}
+.page-rate-widget-box .cancel {
+    background-color: #132639;
+    border: solid 1px #0b65c0;
+    border-left: 0;
+    border-radius: 0 5px 5px 0;
+}
+.page-rate-widget-box .cancel a {
+    background: transparent;
+    text-transform: uppercase;
+    color: #0b65c0;
+}
+.page-rate-widget-box .cancel a:hover {
+    border-radius: 0 3px 3px 0;
+    background: #132639;
+    color: #fffff0;
+    text-decoration: none;
+}
+
+#page-content .creditRate div.page-rate-widget-box .rate-points {
+     background-color: #132639;
+     border: solid 1px #0b65c0;
+ }
+ .rate-box-with-credit-button .creditButton{
+ background-color: #132639 !important;
+ }
+
+
+
+/* PAGE TITLEs */
+h1, #page-title {
+    color: #0c499c;
+}
+
+/* SEARCH BAR */
+#search-top-box-input {
+    border: solid 1px #0b65c0;
+    background-color: #132639;
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #0b65c0
+    background-color: #132639;
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px #0b65c0;
+    background-color: #132639;
+    color: #0b2447;
+    background: linear-gradient(to bottom, #2373cd,#319ec2,#183291);
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #0b65c0;
+    color: #0b2447;
+    background-color: #132639;
+    background: linear-gradient(to bottom, #2373cd,#319ec2,#183291);
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** SPC-287-JP-KO-J - このSPC-287-JP-KO-Jを殴る勝者は一体誰なのか?!
+**著者:** ©︎[[*user stengan774]]
+**作成年:** 2021
+ 
+----
+//[[[author:stengan774|この著者の他の作品]]]//
+[[include credit:end]]
+
+[[include component:image-block
+|name=http://scp-jp.wdfiles.com/local--files/photo29/photocon2014_29.jpg
+|caption=会場は興奮と熱狂に包まれています！
+]]
+
+**アイテム番号:** [[[SCP-287-KO|SPC-287-JP-KO-J]]][[footnote]]KOは[[span class="ruby"]]Knock Out[[span class="rt"]]ノックアウト[[/span]][[/span]]。つまり既にセンターはこのオブジェクトに殴打勝利している。[[/footnote]]
+
+**オブジェクトクラス:** Sawara
+
+**鮫殴打特別対策(Shark Punching Contingencies):** さあ今年もやって参りました！最も早く軟骨野郎をぶん殴れるタフガイの世界一決定戦、SharkPanchingCup！
+
+「偉いから殴5なのでは無い、誰よりもサメを上手く殴れるから殴5なのだ！」選び抜かれた13人の[[[SPC-183-JP|殴5評議会メンバー]]]、サメ殴りのプロの中で最も強いヤツが決まる夢の舞台がここ、[[[SPC-002-JP|センター-489]]]という競技場に実現しました。
+
+観客として詰めかけた20万人のセンター職員は思い思いの殴5に賭けつつ、その歴史的瞬間を固唾を呑んで待っています。
+
+出走者の紹介を致しましょう！現在一番人気は、④番[[[stengan774-1|殴5-04]]]。[[[SPC-710-JP]]]を使用した多彩で派手派手な拳法が子供にも大人気です。今回も期待が集まります。
+
+最年長の意地を見せられるか？二番人気は①番殴5-01。剛力と腕力による王道のスタイルで何度も強大な鮫科存在をぶん殴り、その余波で世界をぶちこわしてきました。出走前の意気込みでは「やるべきことは1つ、サメにパンチをお見舞いする。顔面にだ」と語ってくれました。
+
+注目の⑬番殴5-13。パドックでは「**ウォォォォオオオオオオオオオ！！！！**」とだけしか喋らず(叫ばず)、他の殴5すら殴り殺さんばかりの気迫を見せました。もはや化け物です。
+
+ゲートイン完了。出走者の準備が揃いました。
+
+一斉にスタート！
+
+**説明:** 好調な走り出しを見せたのは③番殴5-03。海上を走れるほどの俊足は未だに健在です！その後に続くのは⑪番殴5-11。今回も自慢のロケットパンチが火を吹くのでしょうか。更に紅一点の②番殴5-02、ゴーストシャークを殴るためだけに自らも霊体になったその執念でトップの背中を狙っています！
+
+さあ混戦模様のSharkPanchingCup。ここで実況の私こと、SPC-287-JP-KO-Jの紹介を致しましょう！SPC-287-JP-KO-Jは鮫の形をした純金製のトロフィーであります！ なんと材質自体が本物の金！そして何より鮫！サメ殴り最強の称号を持つ者にふさわしい賞品だとは思いませんか！
+
+最も特筆すべきは、SPC-287-JP-KO-Jに関する説明がアナウンサーまたは競技解説者のような形式で行われることでしょう。また、誰がこのトロフィーを得るにふさわしいかで周囲の人間を血湧き肉躍る闘争に駆り立てる精神影響性を持っています。この異常性とサメの形をしていることにより、私は毎年このような形でサメ殴りセンターに殴り壊される憂き目に遭い、しかもそれを自ら実況しなければいけなくなっています！何という悲劇！
+
+さてレースも終盤、大ケヤキを抜けて最終コーナーに流れ込んでいきます！先頭は依然③番殴5-03、続く両手チェンソーにしたので飯が食えない⑨番殴5-09、その後ろに[[span class="ruby"]]百腕巨人[[span class="rt"]]ヘカトンケイル[[/span]][[/span]]⑥番殴5-06はシンプルに見た目がキモい！更に……おーっとこれはどうしたことだ！？後続の選手が明らかに減っている！
+
+やはり貴様の仕業か殴5-13！最後尾に居たはずの殴5-13が前方の選手をちぎっては殴りちぎっては殴りしてどんどん上がっていきます！殴5-11は苦し紛れにロケットパンチを青空へ放ちつつ脱落！ダイナマイト闘士の⑩番殴5-10もフルアーマー⑤番殴5-05もヤツには歯が立たない！他の選手はこのまま逃げ切れるか！
+
+さあ泣いても笑っても最終コーナー、観客の歓声も最高潮に達してきました！おっと先頭③番殴5-03はスタミナ切れかどんどん下がって……あーっと殴5-13に吹っ飛ばされたー！もはや"一人ボクシング"⑧番殴5-08や中国四千拳の⑦番殴5-07も姿が見えない！勝負は最後まで分かりません！
+
+ぐんぐん上がってくる殴5-13、逃げる①番殴5-01、それにはりつく②番殴5-02！おっとここで殴5-04が上がってきた、伸びるか、伸びるか！っと後続から、"海割りの奇跡"⑫番殴5-12が飛んできた！
+
+いや、それより殴5-13の拳が早い！ゴール目前で全員殴り倒すことに成功！華麗にゴールインを……おっと、これは……？殴5-13が爆発四散した！？どうやら殴5-04が間際にダメージ反転の奥義 『壊神ノ血統・[[span class="ruby"]][[[SCP-073|架印]]][[span class="rt"]]かいん[[/span]][[/span]]』を発動していたようだ！これは予想外の相打ち！
+
+今回は大荒れのSharkPanchingCup。まさかの優勝者無しという結果に終わりましたが、皆様いかがでしたでしょうか！それでは次回も……おやあれは？
+
+上空を飛ぶ、私に向かって飛んでくるような軌道のあの影は？
+
+ほら空を見て！
+
+鳥か？飛行機か？……いや、⑪番殴5-11の放っていたロケットパンチだ！！
+
+なんということでしょう、自動追尾機能付きだったとは私のデータにもありませんでした！見事一着の栄冠を手にし私を殴る権利を得るのは殴5-11のようです。いやはや、本当にレースというのは最後まで分からない物ですねえ。
+
+というわけで私に迫ってきているロケットパンチを見ながらお別れです。それでは皆さんさようなｑあｗせｆｇｈじこ##009900|[END OF FILE]##

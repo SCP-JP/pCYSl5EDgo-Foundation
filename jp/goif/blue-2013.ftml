@@ -1,0 +1,506 @@
+[[module CSS]]
+
+/*
+ 
+參考改編自流浪者圖書館的經典主題頁
+圖片素材由[[user Dr V Valentine]]繪製
+  */
+ 
+h1, #page-title {
+    color: #dd388e;
+}
+ 
+#page-title {
+    border-color: #bbb;
+}
+ 
+/* LINK RECOLORS鏈接回放器 */
+ 
+a {
+    color: #006c84;
+}
+a.newpage {
+    color: #009aa8;
+}
+ 
+#side-bar a:visited{
+    color: #006c84;
+}
+ 
+a:visited {
+    color: #006c84;
+}
+ 
+/* HEADER IMAGES標題 */
+div#container-wrap {
+    background-image: url(https://i.imgur.com/tODPQY3.png);
+}
+ 
+#header {
+     background-image: url(http://scp-jp.wikidot.com/local--files/laundry-of-miya/xiyi-mini.png);
+}
+ 
+/* SEARCH BAR RECOLOR搜索欄重新調整 */
+ 
+#search-top-box-input {
+    border: solid 1px #999;
+    color: #ccc;
+    background-color: #001a33;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.5);
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #fff;
+    color: #fff;
+    background-color: #333e66;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.8);
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px #999;
+    color: #ccc;
+    background-color: #336666;
+    background: linear-gradient(to bottom, #667399, #333966, #000b33);
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #fff;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(255,255,255,.25) ;
+    background-color: #668099;
+    background: linear-gradient(to bottom, #000b33, #667399, #333966);
+    box-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+ 
+/* LOGIN STATUS登錄狀態*/
+#login-status ul a {
+    color: #006c84;
+}
+ 
+/* HEADER TEXT標題文本*/
+#header h1 a {
+    line-height: 0px;
+    max-height: 0px;
+    color: transparent;
+    background: transparent;
+    font-family: BauhausLTDemi, 'Nanum Gothic', Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px transparent;
+    letter-spacing: 0.9px;
+}
+ 
+#header h1 a::before {
+    content: "洗濯部門";
+    color: #001a33;
+}
+ 
+#header h2 span {
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: 1px 1px 1px transparent;
+}
+ 
+#header h2 span::before {
+    content: "洗浄・修繕・保養";
+    color:#71c7d5;
+    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+ 
+/* SIDE BAR邊欄*/
+#side-bar {
+    padding: 10px;
+    border: 2px dotted black;
+    background-color: white !important;
+    box-shadow: 0 2px 6px rgba(0,30,0,.5);
+    border-radius: 10px;
+    margin: auto;
+}
+ 
+#side-bar .side-block{
+    border: none;
+    box-shadow: none;
+    background-color: white !important;
+    margin-bottom: 0px;
+    padding: 3px;
+}
+ 
+#side-bar .heading {
+    color: #001a33;
+    border-bottom: solid 1px #001a33;
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+}
+ 
+#side-bar .collapsible-block-folded {
+    background-image: url(https://i.imgur.com/h7uO8BI.png);
+}
+ 
+#side-bar .collapsible-block-unfolded-link {
+    border-bottom: solid 1px #001a33;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link {
+    color: #001166;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+    color: #006c84;
+}
+ 
+.side-block .menu-item > .image {
+    filter: hue-rotate(140deg) brightness(150%);
+    -webkit-filter: hue-rotate(140deg) brightness(150%);
+}
+ 
+/* TOP-BAR */
+#top-bar ul li.sfhover a,
+#top-bar ul li:hover a {
+    color: #006c84;
+}
+#top-bar ul li ul a, #top-bar a:hover {
+    color: #006c84;
+}
+ 
+/* SOME NICE BOXES */
+div.sexy-box {
+    background: #eee;
+    border: 1px solid #ccc;
+}
+div.sexy-box div.image-container img {
+    border: 1px solid #999;
+}
+ 
+/* CONTENT PANELS */
+.content-panel {
+    border: solid 1px #888880;
+    border-radius: 10px;
+    background-color: #999990;
+    box-shadow: 3px 3px 6px #bbb;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.1);
+}
+.content-panel.standalone {
+    background: #fcfdfb;
+}
+.content-panel .panel-heading {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.35);
+}
+.content-panel .panel-body {
+    background: #f0f6ff url(http://www.zeros-pg.wikidot.com/local--files/component:theme/panel-bg-gradient-reverse.png) bottom repeat-x;
+}
+.content-panel .panel-footer {
+    color: #fffff0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+.content-panel .panel-footer a {
+    color: #ffffff;
+}
+.content-panel .content-toc {
+    background-color: #fff;
+    border: solid 1px #ccc;
+    box-shadow: inset 1px 2px 6px rgba(0,0,0,.15)
+}
+ 
+/*自定義頁面評級模塊 */
+div.page-rate-widget-box .rate-points {
+  background-color: #6ab82d;
+  border: solid 1px #6ab82d;
+}
+.page-rate-widget-box .rateup,
+.page-rate-widget-box .ratedown {
+  background-color: #82e038;
+  border-top: solid 1px #6ab82d;
+  border-bottom: solid 1px #6ab82d;
+}
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a {
+  color: #6ab82d;
+}
+.page-rate-widget-box .rateup a:hover,
+.page-rate-widget-box .ratedown a:hover {
+  background: #6ab82d;
+  color: #82e038;
+}
+.page-rate-widget-box .cancel {
+  background-color: #6ab82d;
+  border: solid 1px #6ab82d;
+}
+.page-rate-widget-box .cancel a {
+  color: #82e038;
+}
+.page-rate-widget-box .cancel a:hover {
+  background: #82e038;#
+  color: #82e038;
+}
+ 
+/* INFO MODULE COMPATIBILITY */
+.rate-box-with-credit-button {
+    background-color: #6ab82d !important;
+    border-color: #6ab82d !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+.creditButton p a {
+    border-left-color: #ecefff !important;
+}
+ 
+/* AYER'S INFO MODULE */
+:root {
+--barColour: #6ab82d;
+}
+ 
+/* Standard Image Block */
+.scp-image-block {
+    border: solid 1px #666;
+    box-shadow: 0 1px 6px rgba(0,0,0,.25);
+}
+.scp-image-block .scp-image-caption {
+    background-color: #eee;
+    border-top: solid 1px #666;
+}
+ 
+/* MOBILE SIDEBAR */
+ 
+@media (max-width: 767px) {   
+#side-bar {
+    background-color: white;
+}
+ 
+#side-bar:target {
+    border: 2px dotted black;
+}
+ 
+#side-bar:target .close-menu { background: none; }
+}
+ 
+/* footnote by 7happy7 */
+span:not([class]):not([style]) > sup.footnoteref:first-child > a.footnoteref:before,
+sup.footnoteref > a.footnoteref:before {
+content: "(";
+}
+span:not([class]):not([style]) > sup.footnoteref > a.footnoteref:before {
+content: ",";
+}
+ 
+/* TRANSLATION BLOCK */
+iframe.scpnet-interwiki-frame {
+  filter: hue-rotate(140deg) brightness(150%);
+  -webkit-filter: hue-rotate(140deg) brightness(150%);
+}
+ 
+/* 分頁籤 */
+div.yui-navset ul.yui-nav a,
+div.yui-navset div.yui-navset-top ul.yui-nav a {
+    background:#f4a018;
+    color: rgb(0, 0, 0);
+}
+div.yui-navset ul.yui-nav a:hover,
+div.yui-navset ul.yui-nav a:focus {
+    background:#fff98c;
+    color: rgb(0, 0, 0);
+}
+div.yui-navset ul.yui-nav .selected a,
+div.yui-navset ul.yui-nav .selected a:focus,
+div.yui-navset ul.yui-nav .selected a:hover {
+    background:#f4d318;
+    color: rgb(0, 0, 0);
+}
+ 
+[[/module]]
+[[include credit:start]]
+**タイトル:** 洗濯タグ: 藍-2013 ※通称"桑名博士"
+**著者:** ©︎[[*user stengan774]]
+**作成年:** 2020
+ 
+----
+//[[[author:stengan774|この著者の他の作品]]]//
+[[include credit:end]]
+[[=]]
++ ##blue|[[size 180%]]洗浄、修繕、保養[[/size]]##
+[[/=]]
+[[include component:image-block
+|name=http://scp-jp.wdfiles.com/local--files/author%3Akwana/Kwana.png
+|caption=今回の洗濯ターゲット
+|align=center
+]]
+
+@@@@
+@@@@
+
+[[tabview]]
+[[tab 導入と手順]]
+**洗濯タグナンバー:** ##blue|2013 ##
+
+**素材:** 不明[[footnote]]着ぐるみなの？それとも生身？ 最後まで分かりませんでした。- 日奉薤[[/footnote]]
+
+**処理手順:** ターゲットを捕獲し、手順2013を正常に実行した後解放します。
+
+**洗濯ターゲットの説明:** 今回の洗濯ターゲットは、[[[author:kwana|桑名博士]]]と呼ばれる財団の研究者です。
+
+**特徴:** ハマグリ(//Meretrix lusoria//)のような頭部には財団のマークが描かれており、一般的なスーツと白衣を模した服を身につけているように見えます。--全体的にゆるキャラのような見た目です--[[footnote]]確かに真面目な記述では無いかもですけど！こうとしか書けなくないですか!? - 日奉薤[[/footnote]]。
+
+**注意事項:** ターゲットはデスクワーカーを自称しながら、修験者免許(普通・大型特殊)[[footnote]]しかも[[[scp-757-jp|JSLU]]]の方じゃなくて蒐集院発行の方。 - 日奉薤[[/footnote]]を[[[kwana-7|取得]]]しており、また神剣クラスの[[[kwana-1|黒]]]と[[[kwana-9|銀]]]の直剣を所持しています。このため、ターゲットの捕獲、洗浄には激しい抵抗を伴う可能性を予想すべきです。
+
+[[/tab]]
+[[tab 背景情報]]
+今回の洗濯は、財団の文書整理業務に当たっている[[[author:stengan774|転眼式見様]]]によるご依頼です。
+
+[[collapsible show="▶︎Access: 提供された音声ログ" hide="- Access Granted"]]
+
+@@ @@
+[[div style="display: inline-block; border-radius: 10px; border:dashed 1px #444444; background:#F5F5F5; float:top; width:90%; padding:15px"]]
+
+[[=]]
++++ **Record 20██/██/██**
+
+[[/=]]
+----
+
+__**メンバー:**__
+
+* 財団 転眼室長代理
+* 財団 白子博士
+
+----
+
+【再生開始】
+
+**白子博士:** それで、話とはなにかね？転眼室長代理。
+
+**転眼室長代理:** 単刀直入に言うと、最近の桑名博士についてのご相談です。
+
+**白子博士:** ふむ。最近アイツとは顔を合わせていないんだが･･････。また[[[kwana-5|異世界]]]から変なものでも持ち込んだか。
+
+**転眼室長代理:** いえ、その･･････。なんというか。臭いんです。
+
+**白子博士:** 臭い？
+
+**転眼室長代理:** はい。ここ最近、桑名博士から洗ってない着ぐるみのにおいがしてきて･･････。しかも日を重ねるごとにどんどんきつく･･････。
+
+**白子博士:** なるほど。前からそういう苦情はあったが、まさかそれほどとはな。
+
+**転眼室長代理:** ええ。皆気を遣って本人には言わないんですが、今日までで2██件以上の何とかしてくれという要望が--　　--
+
+//[メッセージ通知音]//
+
+**転眼室長代理:** ･･････今また1件増えました。
+
+**白子博士:** 話は分かった。で、何か対策を考えているんだろう？まさか無駄に私を呼んだ訳ではあるまい。
+
+**転眼室長代理:** はい。[[[laundry-of-miya|洗濯部門]]]をご存じですか？
+
+**白子博士:** たしか、財団とフランチャイズ契約を結んだ要注意団体だったか。サイト内でも少し話題になったな。
+
+**転眼室長代理:** その通りです。彼らは秘密協定に則り、異常な洗浄技術を提供することで財団と提携を行っています。扱う範囲はオブジェクトの洗浄や機動部隊員制服の除染･･････そして職員の私物の洗濯まで。
+
+**白子博士:** ふうむ。君の言いたいことが分かってきたよ。予算は下りたんだな？
+
+**転眼室長代理:** ええ、今回の件は研究環境整備費の適正使用に当たると予算委員会では合意が取れました。それに洗濯部門の優待割引も適用できます。桑名博士を洗濯する準備は万全に整いました。
+
+**白子博士:** よし。
+
+**転眼室長代理:** さしあたって、桑名博士のご友人である白子博士にもご協力を･･････あの、どちらへ行かれようとしてるんですか？
+
+**白子博士:** 一応こちらも手を打っておく。なに、アイツのことはよく分かっているさ。
+
+【再生終了】
+
+[[/div]]
+
+@@ @@
+
+[[/collapsible]]
+
+洗濯ターゲットの捕獲に対しては、財団の全面的バックアップが提供されました。
+
+[[collapsible show="▶︎Access: 捕獲報告書" hide="- Access Granted"]]
+[[note]]
+[[=]]
+取り込み部隊[[footnote]]取り込み部隊は、脱走した衣類や敵対的なアクセサリーなどを"傷つけずに"捕獲することを専門とする洗濯部門のチームです。[[/footnote]]"赤シャツ"による捕獲報告書
+[[/=]]
+[[<]]
+　予想されていた通り、ターゲットの捕獲は困難を極めました。事前に予測させる要素は何も無かったにもかかわらず、ターゲットはまるで[[[scp-010-jp|未来が見えているかのように行動し]]]、我々から逃げ回りました。
+
+　やっとの思いで袋小路に追い詰めたところ、ターゲットは両手の神剣をめちゃくちゃに振り回し、我々の包囲を突破しようとさえしました。白子博士が[[[scp-210-jp|鉄の巨人]]]に乗って援護してくれなければ、我々といえど無傷でターゲットを捕獲するのは難しかったでしょうね。
+
+　むろん、「無傷」というのはターゲットと我々、双方の話です。
+[[/<]]
+[[/note]]
+
+[[/collapsible]]
+
+捕獲後、洗濯ターゲットは安全にクリーニング施設へ移送されました。
+
+[[/tab]]
+
+[[tab 手順2013]]
+
+> この手順の一部はスタッフ: 日奉薤が担当する必要があります。
+# 日奉薤が洗濯ターゲットの首、手首、足首の部分を切断します。これはターゲットの抵抗を減らすため、そして洗濯作業を簡略化するためです[[footnote]]血も出ないし、後でちゃんとくっつきます。これは私の特殊能力によるものです。すごいでしょ。 - 日奉薤[[/footnote]]。
+# 洗濯ターゲットを[頭部、右足、左足]と[胴体部、右手、左手]の2つに仕分けます。
+# [頭部、右足、左足]を大型のたらいに入れます。
+ # 専用洗浄液2013に洗濯ターゲットを浸し、最初は汚れのひどい部分から、次に全体という順番で柔らかめのブラシでこすります[[footnote]]このころになると、ターゲットも落ち着いてリラックスしてました。気持ちよさそうでしたね～。 - 日奉薤[[/footnote]]。
+ # 1.を繰り返し、においが目立たなくなってきたら、洗浄液が残らないようにきれいな水ですすぎます。
+ # すすぎ終わったら、薄めた柔軟剤をむら無くかけます。
+ # 2､3日の間、陰干しします。
+ # しっかり乾燥したら、ブラッシングします。
+# [胴体部、右手、左手]を洗濯ネットに入れます。
+ # 超工家電製の洗濯機"ラッシュウォッシュ21 業務用"に入れ、設定を"デリケート洗い"、"柔軟剤アリ"、"[[[scp-103-de|靴下引き込み]]]ナシ"にして起動します。
+ # 終了したら、"除臭菊"[[footnote]]夜宵園芸より提供。[[/footnote]]とともに乾燥させます。
+ # 乾燥し、においが取れていることを確認したらブラッシングします。
+# [頭部、右足、左足]と[胴体部、右手、左手]を組み立て直します。
+# 完了。
+
+@@@@
+@@@@
+
+[[size 120%]]**手順参考文献** [[/size]]
+
+[# 第四六一番 - 「白うねり」写本]
+白うねり、もしくは白容裔は、古い雑巾や布巾が変化した竜のような姿の妖怪。人を気絶させるほどの悪臭を全身から放つことで知られており、当時の蒐集院はにおいを減らすためにずいぶん苦労したようです。[*http://scp-jp.wikidot.com/kanshin-ryoiki-tono 遠野妖怪保護区]･蒐集院資料館より提供。
+
+[# イァグトゥイル儀典: より高き位階への月光雫]
+[*http://scp-jp.wikidot.com/wikipedia-shigastan シガスタン]に流入した[[[scp-2264|アラガッダ]]]の錬金術師がもたらしたもの。洗浄液2013の製法について参考にしました。[[[yixuehuihub|中華異学会]]]の分派である竹籠異象考古学研究会より提供。
+
+[# 超常企業の雄に聞く　第三回「たむらニコニコクリーニング、ニッチを攻める重要性」]
+超常廃棄物処理を専門とする[[[scp-1188-jp|たむらニコニコクリーニング]]]に関する[[[koigarezaki-news-911|恋昏崎新聞社]]]のインタビュー記事。たむらニコニコクリーニング自体は壊滅済みの企業ですが、この記事で簡略化された業務内容が確認出来ます。使用済み洗浄液2013の廃棄方法の参考にしました。
+
+[# レシピ: 宇喜田博士の生煎饅頭]
+食材の下処理の部分を参考としました。[[[scp-1858-jp|イェンロン料理研究会]]]より提供。
+
+[# 生き物プロフィール: ミッキーマウス！]
+[[[wilson-s-wildlife-solutions-hub|WWS]]]が保護した[[[scp-3640|異常生物]]]に関する記録。この異常生物は今回の洗濯ターゲットと似通った性質を持っているようです。
+
+[[/tab]]
+
+[[tab 関連補足情報]]
+ターゲットの洗濯は完璧になされました。料金の支払いは通常通り行われ、スタッフには特別ボーナスが支給されました。
+
+事態が急変したのは数週間後のことです。洗濯ターゲットが「また臭うようになった」とのお客様の声が寄せられるようになりました。再び洗濯ターゲットを捕獲し、この事案について独自に調査を開始したところ、この洗濯ターゲットは最初に洗濯した桑名博士ではなく、別の世界からやってきた桑名博士であることが判明しました。
+
+[[include component:image-block name=45桑名博士.png|caption=クソッまた来やがった |width=300px |align=center
+]]
+
+現在洗濯ターゲットとして捕捉されている桑名博士は31体であり、そのどれもが異臭を放っています。
+
+[[note]]
+[[=]]
+藍-2013洗濯スタッフへ
+[[/=]]
+[[<]]
+　昨日、藍-2013洗濯スタッフの連続勤務時間が社内規定を大幅に超えていることが判明した。取り急ぎ、チームリーダーの日奉薤スタッフには有給休暇を取らせた。今週中に追加の人員が派遣される予定だ。
+
+　君たちが辛い状況に立たされていることは分かっている。依頼を引き受けた時にはこんなことになるなんて思ってもみなかったし、財団は別次元から来た桑名博士にも割引制度を適用しろと未だに主張し続けている。
+
+　それでも、我々は目の前の洗濯物から逃げてはいけない。1人の仕事人として、そして洗濯のプロフェッショナルとして、あの迫り来る着ぐるみの大群を洗浄し続けなければならないのだ。
+
+　洗浄、修繕、保養。この理念は、リネン以外にもあらゆる生地のために。
+[[/<]]
+[[/note]]
+@@@@
+
+[[/tab]]
+
+[[/tabview]]

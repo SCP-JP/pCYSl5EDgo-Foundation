@@ -1,0 +1,876 @@
+[[module CSS]]
+/* YUI-TABS */
+.yui-navset {
+    overflow: inherit;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    position: relative;
+    border-bottom: none;
+    padding: 0 10px;
+    font-size: 14px;
+    z-index: 0;
+}
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+    border: none;
+    color: #4e4940;
+    font-weight: normal;
+    background: none;
+}
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus,
+.yui-navset .yui-navset-top .yui-nav a:hover,
+.yui-navset .yui-navset-top .yui-nav a:focus {
+    color: #333;
+    font-weight: normal;
+    background: none;
+}
+.yui-navset .yui-nav li,
+.yui-navset .yui-navset-top .yui-nav li {
+    position: relative;
+    height: 0;
+    border-bottom: 32px solid #BAAE98;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    margin: 0 -10px 0 0;
+    padding: 0;
+    line-height: 32px;
+    filter: drop-shadow(-1px 0 0 #a59a85);
+}
+.yui-navset .yui-nav li:first-of-type,
+.yui-navset .yui-navset-top .yui-nav li:first-of-type {
+    z-index: 1;
+}
+.yui-navset .yui-nav li:nth-child(2),
+.yui-navset .yui-navset-top .yui-nav li:nth-child(2) {
+    z-index: 2;
+}
+.yui-navset .yui-nav li:nth-child(3),
+.yui-navset .yui-navset-top .yui-nav li:nth-child(3) {
+    z-index: 3;
+}
+.yui-navset .yui-nav li:nth-child(4),
+.yui-navset .yui-navset-top .yui-nav li:nth-child(4) {
+    z-index: 4;
+}
+.yui-navset .yui-nav li:nth-child(5),
+.yui-navset .yui-navset-top .yui-nav li:nth-child(5) {
+    z-index: 5;
+}
+.yui-navset .yui-nav li:nth-child(6),
+.yui-navset .yui-navset-top .yui-nav li:nth-child(6) {
+    z-index: 6;
+}
+.yui-navset .yui-nav li:nth-child(7),
+.yui-navset .yui-navset-top .yui-nav li:nth-child(7) {
+    z-index: 7;
+}
+.yui-navset .yui-nav .selected,
+.yui-navset .yui-navset-top .yui-nav .selected {
+    border-bottom: 34px solid #e4d69b;
+    margin: 0 -10px -1px 0;
+    line-height: 33px;
+    filter: drop-shadow(-1px 0 0 #e4d69b);
+    z-index: 10 !important;
+}
+.yui-navset .yui-nav a em,
+.yui-navset .yui-navset-top .yui-nav a em,
+.yui-navset .yui-nav .selected a em {
+    padding: 0 16px;
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus,
+.yui-navset .yui-nav .selected a:hover {
+    overflow-y:hidden;
+    border: none;
+    color: #333;
+    font-weight: normal;
+    background: none;
+}
+.yui-navset .yui-content {
+    overflow: inherit;
+    border-top: 6px solid #e4d69b;
+    border-right: 4px solid #e4d69b;
+    border-bottom: 3px solid #a79c70;
+    border-left: 4px solid #e4d69b;
+    border-radius: 4px;
+    margin:0;
+    padding: 0 12px 12px 12px;
+    background: #ffffff;
+}
+.yui-navset .yui-content hr {
+    margin: 0.5em 0;
+    background-color: #333;
+}
+.yui-navset .yui-content blockquote {
+    border: 1px solid #333;
+    margin: 1em 0;
+    background-color: transparent;
+}
+.yui-navset .yui-content blockquote hr {
+    margin: 0.5em -1em;
+}
+.yui-navset .yui-content table {
+    width: 100%;
+}
+.yui-navset .yui-content table.wiki-content-table th,
+.yui-navset .yui-content table.wiki-content-table td {
+    border: 1px solid #333;
+}
+.yui-navset .yui-content table.wiki-content-table th {
+    padding: 0.5em 0.7em;
+    font-weight: normal;
+    background-color: transparent;
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** 国内特別関心領域: 恋昏崎
+**著者:** ©︎[[*user stengan774]]
+**作成年:** 2020
+ 
+----
+//[[[author:stengan774|この著者の他の作品]]]//
+[[include credit:end]]
+
+@@ @@
+
+[[tabview]]
+[[tab 表紙]]
+
+[[div style="display: inline-block; border: dashed 1px #999999; background: #F5F5F5; float: center;
+width: calc(100% - 70px); padding: 1px 15px; margin: 25px 10px 10px 19px"]]
+[[=]]
+[[size 1.5em]]**##red|審議会通達##**[[/size]]
+ 
+以下の文書はJAGPATO規則第3編第17条に基づいて複製・保存されています。
+
+日本特異例報告管理審議会は文書内容の正確性を担保しないことに留意してください。
+[[/=]]
+[[/div]]
+
+@@ @@
+
+[[=image http://scp-jp.wdfiles.com/local--files/foundation-or-goi-logo/%E7%89%B9%E4%BA%8B%E8%AA%B2.png width="60%"]]
+
+@@ @@
+
+[[=]]
+[[size 1.2em]]警察庁警備局特事調査部異常領域管理課[[/size]]
+
+[[size 1.2em]]警視庁公安部特事課[[/size]]
+[[/=]]
+
+@@ @@
+
+[[div style="float:right; width: calc(25% + 20px;"]]
+[[table]]
+[[row]]
+[[hcell style="border: 2px solid steelblue; background-color: white; padding: 3px 3px 3px 3px;"]]
+[[size 1.3em]]**##steelblue|情報災害検閲済##**[[/size]]
+[[/hcell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+@@ @@
+@@ @@
+@@ @@
+
+[[/tab]]
+[[tab 領域概説]]
+[[div style="float:right; width:16em ; padding: 0 0 0 0.7em; margin: 1em -0.5em 1em 0.5em; border-left: solid #888888 1px; background-color: #FFFFFF;"]]
+[[=]]
+++* 恋昏崎
+
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A5644609-131-eqbq/恋昏崎ロゴ.svg size="small"]]
+
+**隔離次元/集落**
+[[/=]]
+
+[[table]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**接続地点**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+静岡県[[footnote]]推測に基づく。[[/footnote]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**侵入手順**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+未確立
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**発見年**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+1912年
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**侵入年**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+無し
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-bottom: 1px solid black" colspan="2"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**首長**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+不特定[[footnote]]複数のコミュニティが並立しているため。[[/footnote]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**自治体**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+区分不明 - 役場
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-bottom: 1px solid black" colspan="2"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**総人口**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+不明（多数）
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**一時滞在者**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+不明
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-bottom: 1px solid black" colspan="2"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**面積**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+不明
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**人口密度**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+不明
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-bottom: 1px solid black" colspan="2"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**住民の呼称**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+恋昏崎、島民
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-bottom: 1px solid black" colspan="2"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**言語**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+日本語
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-bottom: 1px solid black" colspan="2"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**経済**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+あり
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**通貨**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+日本円
+米国ドル(少数)
+寿司(極めて少数)
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**交流**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+なし
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-bottom: 1px solid black" colspan="2"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:left; vertical-align:top; padding-right: 1em"]]
+**現地責任者**
+[[/hcell]]
+[[cell style="vertical-align:top"]]
+なし
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
++++ 概説
+
+[[[koutou-no-umi|恋昏崎]]]は、静岡県に存在する不明な侵入地点から侵入可能と考えられている隔離次元(以下、当該次元)であり、同時に当該次元に存在する複数の超常コミュニティの総称である。
+
+当該次元は「一面の海洋と1つの島嶼」により構成されている。主に恋昏崎住民が居住しているのは島嶼上の土地であり、住民は基本的にこの島嶼を指して"恋昏崎"、海洋を指して"恋昏海"と呼称する。また当該次元に関して「朝や日中が無く、夕方と夜を繰り返す」という異常性質が複数の文書で言及されており、その特殊な気候・環境に影響された独自の生態系が発達していることが判明している。しかしながら、遠洋で氷山が発見されたとの報告があるなど当該次元に関しては詳細不明の領域が大部分を占める。
+
+当該次元への侵入は現在まで成功を収めていない。これは住民の超常組織に対する敵愾心、嫌悪感、忌避感による妨害のためである。当該次元の住民の多数が既知の関心団体の元構成員であり、除名、引退など何らかの理由で団体を離脱していることが先述の敵対感情の由来となっていると推測される。
+
+この敵対感情に基づき実行されているのが恋昏崎構成員による複数の児童誘拐である。恋昏崎は自治体全体で積極的に「超常組織からの児童保護」を名目とした誘拐活動を推進しており、この対象となる児童は以下に該当する環境に置かれている者が多数である。
+* 異常性質を持つ
+* 関心人物の親族である
+* 関心団体による誘拐、あるいは生育を受けている
+恋昏崎に誘拐された児童は当該次元内で養育される。先述した敵対感情に基づき、恋昏崎住民の大多数は児童養育に関して「超常組織・異常物品に関わらない生き方を教育する」という方針を支持し、内外に対してこの方針を掲げている。
+
+しかしこの恋昏崎の方針に反し、現在までに得られた記録から恋昏崎の誘拐の対象となった児童は将来的に超常コミュニティへ参与する傾向が高い。これは恋昏崎の団体性質上、児童が成長の過程で複数の超常組織の影響を受けること、或いは[[[scp-1460-jp|異常物品]]]による児童養育を行うなど恋昏崎住民の教育に対する知識の少なさに由来すると考えられる。
+
+1912年の発見以降、恋昏崎は当該次元が日本国から独立した主権を持つと主張している。この主張は現在まで日本国政府により認められておらず、公式には恋昏崎は違法に日本国の国土を占拠する犯罪組織として扱われるべきである。しかしながら双方向接続の困難さにより日本国政府の統制が困難であることから、恋昏崎は事実上の治外法権地域となっている。同様の理由により特事調査部による影響力の拡大は困難と考えられる。
+
+恋昏崎における特事調査部の活動内容は当該次元に流入したと思しき住民および一時滞在者のリスト化、及び当該次元外における恋昏崎住民による各種事案の調査報告である。また、これと並行して当該次元への侵入方法の研究、及び既存の侵入経路捜索の試みを続行する。
+@@ @@
++++ 発見
+
+1912年以降、主に東京市内において悪質な新聞販売に対する一般市民の苦情が多数報告された。苦情の内容は以下の通りである。
+> 頭に電髪をかけた奇矯な風体の男が、家庭内の醜聞を詳細に記述した新聞記事を玄関先に陳列し、「すべて買わなければこの新聞を往来で販売する」といった恐喝を行った。
+当初、これらの事象は非異常の新聞社による事件であると想定されていた。しかしながら同様の風貌を持つ男が大阪や名古屋においても報告されたことで、新聞に記載された「[[[koigarezaki-news-20190503|戀昏嵜日報]]]」という団体名について捜査が開始された。
+
+その結果、男が極短期間で遠隔地への移動を行っていることから、隔離次元を経由した移動もしくは超常存在の介在が疑われた。捜査に基づき事件発生の周期性が割り出され、同時に植字に用いられている特殊な字体の活字が静岡県の静岡民友新聞で使用されているものと同一であったため、当時の特事担当機関であった[[[collected-item-no0724|東京警視庁特事取扱方]]]は「静岡県において戀昏嵜日報を名乗る個人あるいは団体が、静岡民友新聞の設備を無断使用することで新聞を発行している」と推測した。
+
+この想定に基づき、静岡民友新聞の協力を得て施設に踏み込んだところ、戀昏嵜日報の構成員約15名が発見された。捜査員はそのうち7名を確保することに成功したが、一部の構成員は隔離次元へ逃亡し、この際初めて恋昏崎が認知された。その後3か月の間戀昏嵜日報の活動は報告されなかったが、事例以前より小規模な形で再開されたことが確認された。また、記事の内容が公的機関に対する批判を主とする傾向に変わったことが報告されている。
+@@ @@
++++ 対応
+
+上述の初期接触より一貫して、特事調査部の恋昏崎に関連する任務は侵入経路捜査と住民の確保が大部分を占める。また近年は、当該次元に本拠を置くと推定される関心団体”恋昏崎新聞社”がインターネットを用いた情報発信を行っているため、特事調査部は恋昏崎に関する主な情報源としてこれら記事を利用している。
+
+住民の多くは脅威ではないが異常な逃走能力を発揮する、もしくは異常な戦闘能力を有するため、確保は困難である。そのため、確保の際は特異能力捜査員[[footnote]]JAGPATO規則第7編第12条に基づき、特殊戦闘及び心霊捜査を主な目的として雇用される人員を指す。[[/footnote]]を伴うことが規定されている。
+
+現在、捜査に介入する可能性が最も大きい関心団体は財団である。連合が恋昏崎の脅威度を低く見積もっているのに対し、財団は恋昏崎新聞社の活動を一般社会に対する異常事例秘匿原則に対する危機であるとした消極的な主張をしている。これは恋昏崎新聞社が[[[scp-1006-jp|財団施設に対する襲撃]]]を含めた積極的な敵対行動を行っていることに起因するものと考えられる。しかしながら財団は現在恋昏崎への対応を監視にとどめており、目下のところ介入の可能性は低いと想定されている。
+
+また財団、連合両組織ともに当該次元に対する侵入の試みが成功したという情報は得られていないため、結果的に両組織と特事調査部の間には恋昏崎に関する情報量の不均衡はほぼ無いと想定される。
+
+[[/tab]]
+[[tab 関連人物]]
+
++++ 関連人物
+
+> **名前:** 印西 平蔵 (いんぜい へいぞう)
+> 
+> **身体特徴:** 人間、モンゴロイド、男性
+> 
+> **異常性質:** 特異技能保持
+> 
+> **活動状況:** 関心団体"東弊重工"に約60年勤務後、引退。現在は恋昏崎において遊具、家具、家庭用品といった物品の製造に携わっていると推測される。
+印西 平蔵　関連文書
+* [[[koutou-no-umi|紅灯の海]]]
+* [[[yonedu-gensui|米津元帥物語]]]
+> **名前:** 横山 格闘王 (よこやま ちゃんぴおん)
+> 
+> **身体特徴:** 人間、モンゴロイド、男性
+> 
+> **異常性質:** 異常な身体能力、異常物品を用いた精神操作・瞬間移動
+> 
+> **活動状況:** 財団による留置。特定関心団体”超電救助隊”に関連する異常物品を有する。これは死亡済人物片倉 銀矢 (かたくら ぎんや)から譲渡されたものであると推測されるが、詳細は不明。
+横山 格闘王　関連文書
+* [[[SCP-1848-JP]]]
+* [*/scp-1848-jp/offset/1/page3_limit/1 ら-K-543"ジーニアス･ジーン施術"販売カタログ]
+> **名前:** ルベトゥス 睦美 (るべとぅす むつみ)
+> 
+> **身体特徴:** 人間、ネグロイド、男性
+> 
+> **異常性質:** 特異技能保持、異常物品を用いた精神影響
+> 
+> **活動状況:** 不明。関心団体”闇寿司”の構成員。常に複数の銃火器を携行しているとの情報があるため、接触の際には注意を要する。
+ルベトゥス 睦美　関連文書
+* [[[jet-black|黒洞々たる闇]]]
+* [[[yamizushi-hub|闇寿司 ハブ]]]
+* [[[yamizushi-file-no911|闇寿司ファイルNo.911 "広末孝行のたたき"]]]
+* [[[yamizushi-file-no064|闇寿司ファイルNo.064 "失伝した寿司"]]]
+* [[[yone-blade|]]]
+* [[[koigarezaki-news-20190415|]]]
+* [[[yamizushi-file-no217-provisional|]]]
+* [[[yamizushi-file-no086|]]]
+* [[[yamizushi-file-no1225|]]]
+* [[[yamizushi-file-no016|]]]
+* [[[yamizushi-file-no2000kari|]]]
+* [[[koigarezaki-news-20210809|]]]
+* [[[koigarezaki-news-20200818-double-hometown-ver|]]]
+
+> **名前:** ジャン＝クロード ヴァンタール (じゃん くろーど ばんたーる)
+> 
+> **身体特徴:** 人間、コーカソイド、男性
+> 
+> **異常性質:** 未確認
+> 
+> **活動状況:** 関心団体”リュミエール騎士団”の元構成員。恋昏崎において"恋昏崎神託銀行"という名称の金融業者として活動しているという情報があるが、詳細は未確認である。
+> 
+> **特記事項:** 仏国において結婚詐欺の罪状で一度逮捕された記録が存在するため、情報照会の要請が検討されている。
+ジャン＝クロード ヴァンタール　関連文書
+* [[[koigarezaki-news-20160827|IOCが組織委の要望を却下 揺れる東京五輪]]]
+* [[[critter-profile-shigastan|生き物プロフィール: シガスタン！]]]
+> **名前:** 米津 元帥 (よねづ げんすい)
+> 
+> **身体特徴:** 人間、モンゴロイド、男性
+> 
+> **異常性質:** 異常感覚、長寿命[[footnote]]1943年の記録と現在確認されている外見が同一なことから。[[/footnote]]
+> 
+> **活動状況:** 既に消滅した関心団体”大日本帝国異常調査局”の構成員。現在も同組織の活動を継続しているとされる。
+> 
+> **特記事項:** 同人物の子孫であり音楽アーティストとして活動する米津 玄師 (よねづ けんし)には、"隠将軍"と呼ばれる帝国異常調査局の残存勢力の一員である嫌疑がかかっている。特事調査部は両者が接触を図る可能性を考慮し、動向を監視している。
+米津 元帥　関連文書
+* [[[yonedu-gensui|米津元帥物語]]]
+* [[[yone-blade|]]]
+* [[[scp-664-jp|]]]
+* [[[s-g-1664|]]]
+* [[[koigarezaki-news-20190415|]]]
+* [[[project-nishiki-no-mihata-1942|]]]
+* [[[sushi-acad-vol103-pp160-167|]]]
+* [[[kaijo-shinpo-2020-07-15-q7eru8h8|]]]
+* [[[collected-item-no0324|]]]
+* [[[go-go-go-and-gos-on|]]]
+* [[[koigarezaki-news-19980714-veil|]]]
+> **名前:** 日奉 芋 (いさなぎ いも)
+> 
+> **身体特徴:** 人間、モンゴロイド、女性
+> 
+> **異常性質:** 器物に対する限定的霊的能力の付与
+> 
+> **活動状況:** 当該次元において"日芋屋"という名称の料理店を経営。関心団体”イェンロン料理研究会”の元構成員であり、父の日奉 根 (いさなぎ こん)は消滅済関心団体"蒐集院"の"研儀官"[[footnote]]蒐集院における、異常存在の研究を行う職種の名称。[[/footnote]]であったとされる。また特徴的な姓から特定関心団体"日奉家"への関与が疑われる。
+> 
+> **特記事項:** 現在も活動を継続しているにもかかわらず、入手可能な同人物の写真が1970年代のものに限定されることから、何らかの異常認識特性を持つ可能性が指摘されている。
+日奉 芋　関連文書
+* [[[koigarezaki-news-201900401|超常社会でジャガイモの値段が大幅下落]]]
+> **名前:** 不明（通称: 隠秘学に自信ニキ）
+> 
+> **身体特徴:** 人間、モンゴロイド、男性
+> 
+> **異常性質:** 特異技能保有、霊体化、亜種奇跡論行使
+> 
+> **活動状況:** 関心超常コミニュティ"PAMWAC"内で◆SHo67Kc0Yのハンドルネームで活動。創作作品内キャラクターとの恋愛/婚約を目的に特異技能を行使し、その行程を同コミニュティ内で共有している様子が確認されている。異常に対する高水準な知識量や技術力を保有するほか、超常社会における活動量も多く、恋昏崎に定住している住民の中でも特別注視すべき人物である。
+> 
+> **特記事項:** 不確定情報ではあるものの、当該人物は財団のフロント組織たる学校法人"プリチャード学院"の元生徒であり、財団への雇用が確定された段階で脱走したとされている。現在までこの報告について財団から有力な情報は共有されていない。
+隠秘学に自信ニキ　関連文書
+* [[[scp-2955-jp|SCP-2955-JP]]]
+* [[[news4pamwac-sadako|ワオ、色白美少女と結婚する方法をついに発見ｗｗｗｗｗｗｗｗｗ]]]
+* [[[news4pamwac-kaguya|]]]
+* [[[news4pamwac-youjo|]]]
+* [[[news4pamwac-horse-racing|]]]
+[[=]]
+**.**
+**.**
+**.**
+[[/=]]
+
+> **名前:** 広末 孝行 (ひろすえ たかゆき)
+> 
+> **身体特徴:** 人間、モンゴロイド、男性
+> 
+> **異常性質:** 未確認
+> 
+> **活動状況:** 関心団体”恋昏崎新聞社”の現編集長兼デスク。国内特別関心領域: ”明大[[footnote]]明治大学を指す。[[/footnote]]”の政治経済学部を卒業後、関心団体"東弊重工"本社総務部で10年勤続後退社し恋昏崎新聞社へ入社したことが判明している。
+広末 孝行　関連文書
+[[module ListPages category="*"  separate="no" limit="250" perPage="250" tags="+広末孝行" order="created_at"]]
+* %%title_linked%%
+[[/module]]
+* [[[sushiblade-hub|スシブレード ハブ]]]
+* [[[news4pamwac-sadako|]]]
+* [[[news4pamwac-kaguya|]]]
+* [[[news4pamwac-youjo|]]]
+----
+
++++ 関連人物 -- 死亡済
+
+> **名前:** 大久保 涼介 (おおくぼ りょうすけ)
+> 
+> **身体特徴:** 人間、モンゴロイド、男性、死亡済（不明-2013）
+> 
+> **異常性質:** 不明
+> 
+> **関与事例:** 恋昏崎新聞社の一部構成員による財団施設襲撃を主導。同事例の際に死亡したとの証言がある[[footnote]]不明確な情報であり、財団への照会は保留中。[[/footnote]]。特定関心団体"日本生類創研"との関連性あり。恋昏崎新聞社において記者を務めているとされる大久保 凛子 (おおくぼ りんこ)との関連については調査を継続中。
+大久保 涼介　関連文書
+* [[[SCP-1006-JP]]]
+* [[[SCP-1460-JP]]]
+* [[[secure-facility-dossier-area-81jh|確保施設ファイル:エリア-81JH]]]
+> **名前:** 片倉 銀矢 (かたくら ぎんや)
+> 
+> **身体特徴:** 人間、モンゴロイド、男性、死亡済（不明-2018）
+> 
+> **異常性質:** 異常な身体能力、特異技能保持、異常物品を用いた精神影響
+> 
+> **関与事例:** 超電救助隊の設立に関与。事件S64-03”HERO大集合”への参加。”神速小児救命士ピディアトリクス･シルバー”として行った複数の誘拐事件。100件以上の破壊、暴行行為。財団施設からの逃亡。恋昏崎総合医療診療所の開設。異常実体に関連する書籍「HEROと君」の出版。関心団体”マナによる慈善財団”との関連。医師免許未取得状態での複数の医療行為。3件の密出入国。アフリカ、ソマリア地域における未認可の医療行為。67件の公務執行妨害。
+片倉 銀矢　関連文書
+* [[[SCP-1848-JP]]]
+* [*/scp-1848-jp/offset/1/page2_limit/1 元･超電救助隊 片倉銀矢氏が死去 71歳]
+[[/tab]]
+
+[[tab 関連団体]]
+これまでに確認された当該次元に本拠を置く団体は、消滅済のものを含め以下の通りである。
+
+**恋昏崎**
+[[module ListPages category="*"  separate="no" limit="250" perPage="250" tags="+恋昏崎" order="created_at"]]
+ * %%title_linked%%
+[[/module]]
+* [[[news4pamwac-meme|]]]
+* [[[solvex-s-tale-008|]]]
+* [[[many-goi|]]]
+
+**戀昏嵜日報**　
+* [[[koigarezaki-news-20190503|恋昏崎固有種の花 太古の地層より化石発見]]]
+
+**恋昏崎新聞社**
+[[module ListPages category="*"  separate="no" limit="250" perPage="250" tags="+恋昏崎新聞社" order="created_at"]]
+ * %%title_linked%%
+[[/module]]
+* [[[indonootoko-proposal-ii-spc|indonootokoの提言Ⅱ...きっとね。]]]
+* [[[secure-facility-dossier-area-81jh|確保施設ファイル:エリア-81JH]]]
+* [[[yamizushi-file-no303|闇寿司ファイルNo.303 "ジーコ"]]]
+* [[[news4pamwac-kaguya|]]]
+
+**恋昏崎即売流通社**
+[!--恋昏崎新聞が印刷発行されている描写がある記事をリストアップしているため、明確に恋昏崎即売流通社の名前が出ていない記事が含まれています。(stengan774)--]
+* [[[SCP-1460-JP]]]
+* [[[secure-facility-dossier-area-81jh|確保施設ファイル:エリア-81JH]]]
+* [[[SCP-2202-JP]]]
+* [[[koigarezaki-news-911-1998-ver|マンハッタン次元崩落 GOC介入目前か]]]
+* [[[koigarezaki-news-20080103-1998ver|]]]
+* [[[koigarezaki-news-19980714-veil|]]]
+
+**恋昏崎出版**
+* [[[project-evaluation-report-on-machiterasu-no-1-reactor|東弊重工製神的エネルギー交換実験炉「マチテラス1号炉」に関する事業評価レポート]]]
+* [[[zetetic-bulletin-the-revival-of-st-chopin|]]]
+
+**[[[1998-hub|恋昏崎ニュースエージェンシー]]]**
+* [[[stengan774-3|]]]
+* [[[koigarezaki-news-911-1998-ver|]]]
+* [[[koigarezaki-news-20020228-1998ver|]]]
+* [[[koigarezaki-news-20080103-1998ver|]]]
+* [[[koigarezaki-news-20150412-1998ver|]]]
+* [[[koigarezaki-news-20200602-1998ver|]]]
+* [[[koigarezaki-news-19980714-veil|]]]
+* [[[vacation-20xx|]]]
+* [[[tale-saiga-boatob|]]]
+* [[[SCP-2355-JP]]]
+
+**恋昏崎役場**
+* [[[koutou-no-umi|紅灯の海]]]
+* [[[jet-black|]]]
+* [[[koigarezaki-news-1224|]]]
+* [[[yonedu-gensui|米津元帥物語]]]
+* [[[yamizushi-file-no073|]]]
+* [[[SCP-2955-JP]]]
+* [[[news4pamwac-kaguya|]]]
+* [[[news4pamwac-youjo|]]]
+
+**恋昏崎自警団**
+* [[[news4pamwac-kaguya|]]]
+
+**恋昏崎神託銀行**
+* [[[koigarezaki-news-20160827|IOCが組織委の要望を却下 揺れる東京五輪]]]
+
+**闇寿司恋昏崎店(Yummy寿司)**
+* [[[jet-black|黒洞々たる闇]]]
+* [[[yamizushi-hub|闇寿司 ハブ]]]
+* [[[yamizushi-file-no911|闇寿司ファイルNo.911 "広末孝行のたたき"]]]
+* [[[yamizushi-file-no064|闇寿司ファイルNo.064 "失伝した寿司"]]]
+* [[[yamizushi-file-053|]]]
+* [[[yamizushi-file-no073|]]]
+* [[[yone-blade|]]]
+* [[[koigarezaki-news-20190415|]]]
+
+**フランス料理店"ロゼルージュ"**
+* [[[jet-black|黒洞々たる闇]]]
+
+**恋昏崎総合医療診療所**
+* [[[SCP-1848-JP]]]
+* [*/scp-1848-jp/offset/1/page2_limit/1 元･超電救助隊 片倉銀矢氏が死去 71歳]
+
+**恋昏ツアーズ株式会社**
+* [[[koigarezaki-news-911|財団9.11関与か 証拠映像入手]]]
+* [[[koigarezaki-news-0517|理外研電算機 身売りを含む選択肢を検討中]]]
+* [[[koigarezaki-news-20190503|恋昏崎固有種の花 太古の地層より化石発見]]]
+* [[[koigarezaki-news-201900401|超常社会でジャガイモの値段が大幅下落]]]
+* [[[hermes|]]]
+* [[[koigarezaki-news-20180803|]]]
+* [[[koigarezaki-news-20200908|]]]
+
+**恋昏崎商事**
+* [[[kanshin-ryoiki-koigarezaki|国内特別関心領域: 恋昏崎]]]
+
+**恋昏崎古物倉庫**
+* [[[yamizushi-file-no303|闇寿司ファイルNo.303 "ジーコ"]]]
+* [[[news4pamwac-sadako|]]]
+
+**家庭料理店「日芋屋」**
+* [[[koigarezaki-news-201900401|超常社会でジャガイモの値段が大幅下落]]]
+
+**恋昏汽船社**
+* [[[koutou-no-umi|紅灯の海]]]
+* [[[koigarezaki-news-20190503|恋昏崎固有種の花 太古の地層より化石発見]]]
+
+**大日本帝国異常事例調査局恋昏崎基地**
+* [[[yonedu-gensui|米津元帥物語]]]
+* [[[yone-blade|]]]
+
+**恋昏崎電信協会**
+* [[[koigarezaki-news-20210307|]]]
+* [[[news4pamwac-youjo|]]]
+
+**恋昏崎共済生活協同組合**
+* [[[koigarezaki-news-20210307|]]]
+
+**恋昏崎放送局**
+* [[[stengan774-3|]]]
+
+**恋昏崎ラジオ**
+* [[[stengan774-3|]]]
+
+**恋昏崎霊界通信**
+* [[[stengan774-3|]]]
+
+**恋昏縫製**
+* [[[news4pamwac-youjo|]]]
+
+**古井狩サキファンクラブ/古井狩サキ**
+* [[[koigarezaki-news-20170723|首都圏特異集合事件から30年 怪異の今]]]
+* [[[collected-item-no2020|二〇二〇番]]]
+* [[[stengan774-3|]]]
+
+[[/tab]]
+[[tab 事件記録]]
+
++++ 事件記録
+
+[[table style="border-collapse:collapse; margin-bottom: 1.5em; margin-left: auto; margin-right: auto;"]]
+[[row]]
+[[cell style="width: 21%; padding: 5px; border: 1px solid black; background-color: #EEEEEE;"]]
+**事件番号:** H01-014
+[[/cell]]
+[[cell style="width: 58%; padding: 5px; border: 1px solid black;"]]
+**事件種別:** 壬種三類 (超常現象/消失済)
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;"]]
+**捜査状況:** 未解決
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**事件概要:** 誘拐
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;" colspan="2" rowspan="2"]]
+”神速小児救命士ピディアトリクス･シルバー”を名乗る男による複数の誘拐事件。片倉 銀矢が同様の名前で活動を行っていたことが判明している。誘拐された児童は資産家として知られる[*http://scp-jp.wikidot.com/scp-1848-jp/offset/1/page3_limit/1 横山 辰夫 (よこやま たつお)]の長男の他、いずれも高所得者の子息子女であることが共通しており、身代金目的での誘拐が疑われた。しかし身代金やそれに類する要求は行われず、この事件は未解決となった。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**被疑者:** 片倉 銀矢
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="border-collapse:collapse; margin-bottom: 1.5em; margin-left: auto; margin-right: auto;"]]
+[[row]]
+[[cell style="width: 21%; padding: 5px; border: 1px solid black; background-color: #EEEEEE;"]]
+**事件番号:** H05-065
+[[/cell]]
+[[cell style="width: 58%; padding: 5px; border: 1px solid black;"]]
+**事件種別:** 非異常
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;"]]
+**捜査状況:** 解決
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**事件概要:** 密輸出
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;" colspan="2" rowspan="2"]]
+恋昏崎商事と名乗る団体により行われていた、当該次元を経由した東南アジア諸国への家電製品輸出。捜査員は福岡港にて不審な人物が集合しているとの通報を受け、現地で非異常の密輸組織と取引を行っていた恋昏崎商事構成員をすべて確保した。家電製品は大部分が十数年前に販売されていたものであり、入手経路については「恋昏崎では[[[scp-1407-jp|いくらでもガラクタを集められる]]]」という証言以上の情報は得られなかった。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**被疑者:** 恋昏崎商事構成員
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="border-collapse:collapse; margin-bottom: 1.5em; margin-left: auto; margin-right: auto;"]]
+[[row]]
+[[cell style="width: 21%; padding: 5px; border: 1px solid black; background-color: #EEEEEE;"]]
+**事件番号:** H14-199
+[[/cell]]
+[[cell style="width: 58%; padding: 5px; border: 1px solid black;"]]
+**事件種別:** 壬種三類 (超常現象/消失済)
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;"]]
+**捜査状況:** 未解決
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**事件概要:** 怪電波
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;" colspan="2" rowspan="2"]]
+静岡県御前崎一帯にて、不審な通信電波が観測された。内容は恋昏崎新聞社から不明な組織への[[[indonootoko-proposal-ii-spc|取材要請]]]と、取材を拒否した場合に発生する”ペンによる報復”をほのめかすものだった。通信は同じ文言が3回繰り返された後、4回目で突如中断され、以後観測されなかった。この現象の発生原因は判明していない。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**被疑者:** 恋昏崎新聞社
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="border-collapse:collapse; margin-bottom: 1.5em; margin-left: auto; margin-right: auto;"]]
+[[row]]
+[[cell style="width: 21%; padding: 5px; border: 1px solid black; background-color: #EEEEEE;"]]
+**事件番号:** H18-128
+[[/cell]]
+[[cell style="width: 58%; padding: 5px; border: 1px solid black;"]]
+**事件種別:** 非異常
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;"]]
+**捜査状況:** 未解決
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**事件概要:** 異常物品の流通
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;" colspan="2" rowspan="2"]]
+放棄された日本生類創研研究施設[[footnote]][*http://scp-jp.wikidot.com/system:page-tags/tag/%E5%8D%9A%E5%A3%AB 匿名の通報者]による情報提供によって、財団に先んじて捜査を行うことに成功した。[[/footnote]]から、[[[koigarezaki-news-20190503|”恋昏崎固有種”]]]と表記のある種子のサンプルが発見された。特異科学捜査研究所による科学調査を行ったところ、種子が異常な速度で発芽、成長し、一部施設の損壊を招いた。その後規定に基づき、当該物品は財団に引き渡された。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**被疑者:** 不明
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="border-collapse:collapse; margin-bottom: 1.5em; margin-left: auto; margin-right: auto;"]]
+[[row]]
+[[cell style="width: 21%; padding: 5px; border: 1px solid black; background-color: #EEEEEE;"]]
+**事件番号:** H23-143
+[[/cell]]
+[[cell style="width: 58%; padding: 5px; border: 1px solid black;"]]
+**事件種別:** 非異常
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;"]]
+**捜査状況:** 未解決
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**事件概要:** 器物損壊
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;" colspan="2" rowspan="2"]]
+恋昏崎への侵入方法を捜査する過程で複数言及される、”[[[koutou-no-umi|船頭]]]”と呼ばれる人物を尾行していた際に発生。同人物が、入館した沼津港深海水族館において展示されていたラブカの剥製を殴打し、破損させた。捜査員が確保のため接近したところ、船頭は異常な腕力を用いて逃走した。破損した剥製は代替品の提供がなされた。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**被疑者:** 船頭
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="border-collapse:collapse; margin-bottom: 1.5em; margin-left: auto; margin-right: auto;"]]
+[[row]]
+[[cell style="width: 21%; padding: 5px; border: 1px solid black; background-color: #EEEEEE;"]]
+**事件番号:** H30-077
+[[/cell]]
+[[cell style="width: 58%; padding: 5px; border: 1px solid black;"]]
+**事件種別:** 非異常
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;"]]
+**捜査状況:** 解決
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**事件概要:** 多数の関心団体構成員の集合
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;" colspan="2" rowspan="2"]]
+[*http://scp-jp.wikidot.com/scp-1848-jp/offset/1/page2_limit/1 静岡県清水市███において、恋昏崎の主導による多数の関心団体構成員の集合が発生した。]特事調査部はこの情報を恋昏崎新聞社の記事から入手し、騒乱罪並びに凶器準備集合罪・凶器準備結集罪[[footnote]]すべてJAGPATO規則第9編第13条に基づく拡大解釈。[[/footnote]]の疑いで、警視庁公安部特事課特異能力捜査員と静岡県警対特事特殊急襲部隊(APSAT)による混成部隊によってその場に集合していた関心団体構成員の確保作戦を実行。その結果関心団体”有村組”の元構成員を含む17名を確保することに成功した。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**被疑者:** 全住民
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="border-collapse:collapse; margin-left: auto; margin-right: auto;"]]
+[[row]]
+[[cell style="width: 21%; padding: 5px; border: 1px solid black; background-color: #EEEEEE;"]]
+**事件番号:** R01-043
+[[/cell]]
+[[cell style="width: 58%; padding: 5px; border: 1px solid black;"]]
+**事件種別:** 非異常
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;"]]
+**捜査状況:** 未解決
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**事件概要:** 違法聴取
+[[/cell]]
+[[cell style="padding: 5px; border: 1px solid black;" colspan="2" rowspan="2"]]
+[[[yonedu-gensui|当該次元において日本放送協会の電波放送が受信可能であることが発覚。]]]記録上恋昏崎住民の中に受信料の支払いを行った者は存在せず、全住民の放送法第64条に基づく受信契約義務違反が明らかとなった。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px; border: 1px solid black"]]
+**被疑者:** 全住民
+[[/cell]]
+[[/row]]
+[[/table]]
+
+
+[[/tab]]
+[[/tabview]]

@@ -1,0 +1,1340 @@
+[[include credit:start]]
+**タイトル:** NHK 超常社会との軋轢激化
+**著者:** ©︎[[*user kossy]]
+**作成年:** 2020
+[[include credit:end]]
+
+[[module CSS]]
+/*
+    REBORN MCF Theme
+    [2018 Wikidot Theme]
+    Based on Reach's Manna Charitable Foundation Theme
+    Created by 7happy7
+*/
+
+@charset "utf-8";
+ 
+@import url('http://scp-jp.wdfiles.com/local--theme/scp-sigma-9-off-canvas/style.css');
+
+
+/* COMMON */
+#page-title {display: none;}
+
+#content-wrap {
+    position: relative;
+    margin: 2em auto 0;
+    max-width: 1040px;
+    min-height:1300px;
+    height: auto !important;
+    height: 1500px;
+}
+
+h1, #page-title {
+    font-family: sansationregular, sans-serif;
+    color: #ff000000;
+    padding: 0 0 0.25em;
+    margin: 0 0 0.6em;
+    text-align: left;
+}
+h1 {
+    margin-top: 0.7em;
+    padding: 0;
+    font-weight: bold;
+}
+h2, h3, h4, h5, h6, h7 {
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+}
+#page-title {
+    font-family: sansationregular, sans-serif;    
+    font-weight: bold;
+    border-color: #ff000000;
+}
+ul {
+    /*list-style-image: url(../images/bullet.gif);*/
+    list-style: square;
+}
+#top-bar ul {
+/* list-style-image: none; /* IE ONLY! IF list-style-image IS SET */
+}
+ 
+li, p {
+    line-height: 150%;
+}
+a {
+    color: #dc143c;
+    text-decoration: none;
+    background: transparent;
+}
+a.newpage {
+    color: #000000;
+    text-decoration: none;
+    background: transparent;
+}
+a:hover {
+    text-decoration: underline;
+    background: transparent;
+}
+ 
+/* GLOBAL WIDTH */
+#header, #top-bar {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #fff;
+    font-family: sansationregular, normal;
+    font-size: 0.80em;
+    color: #333;
+}
+div#container-wrap {
+    background: url(http://indobox.wdfiles.com/local--files/scoop/bbgg.png) top left 90% repeat-x;
+}
+ 
+/* HEADER */
+#header {
+    height: 140px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 22px; /* FOR MENU */
+    background: url(http://indobox.wdfiles.com/local--files/scoop/rogom) 40px 6px no-repeat; background-size: 47%;  background-position: 1em;
+}
+#search-top-box {
+    position: absolute;
+    top: 79px;
+    right: 9px;
+    width: 250px;
+    text-align: right;
+}
+#search-top-box-input {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.5);
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #fff;
+    color: #000;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.8);
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 90%;
+    font-weight: bold;
+    color: #dc143c;
+    background-color: #ffffff;
+    background: linear-gradient(to bottom, #ffffff,#ffffff,#ffffff);
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #fff;
+    color: #dc143c;
+    text-shadow: 0 0 1px rgba(255,255,255,.25)
+    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #f5f5f5,#f5f5f5,#f5f5f5);
+    box-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+ 
+#login-status {
+    color: #ffffff;
+    font-size: 90%;
+    z-index: 30;
+}
+#login-status a {
+    background: transparent;
+    color: #ffffff;
+}
+#login-status ul a {
+    color: #ffffff;
+    background: transparent;
+}
+ 
+#account-topbutton {
+    background: #fff;
+    color: #ffffff;
+}
+ 
+.printuser img.small {
+    margin-right: 1px;
+}
+ 
+#header h1 {
+    margin-left: 120px;
+    padding: 0;
+    float: left;
+    max-height: 95px;
+}
+#header h2 {
+    margin-left: 120px;
+    padding: 0;
+    clear: left;
+    float: left;
+    font-size: 105%;
+    max-height: 38px;
+}
+ 
+#header h1 a {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    max-height: 0px;
+    color: transparent;
+    font-family: sansationregular;
+    font-size: 0%;
+    text-decoration: none;
+}
+ 
+#header h2 span {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-family: quanticoregular, sans-serif;
+    font-size: 0%;
+    color: #092200;
+}
+ 
+/* TOP MENU */
+#top-bar {
+    font-family: quanticoregular, sans-serif;
+    font-size: 90%;
+}
+#top-bar ul {
+    float: right;
+}
+#top-bar a {
+    color: #fff;
+    background: transparent;
+}
+#top-bar ul li {
+    border: 0;
+    position: relative;
+}
+#top-bar ul li ul {
+    border: solid 1px #3d2b1f;
+    box-shadow: 0 2px 6px rgba(0,0,0,.5);
+    border-top: 0;
+}
+#top-bar ul li:last-of-type ul {
+    right: 0;
+}
+#top-bar ul li a {
+    border-left: solid 1px rgba(64,64,64,.1);
+    border-right: solid 1px rgba(64,64,64,.1);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1px;
+    max-height: 1px;
+    overflow: hidden;
+}
+ 
+#top-bar ul li.sfhover a,
+#top-bar ul li:hover a {
+    background: #f0f8ff;
+    color: #006c00;
+    border-left: solid 1px rgba(64,64,64,1);
+    border-right: solid 1px rgba(64,64,64,1);
+}
+ 
+#top-bar ul li.sfhover ul li a,
+#top-bar ul li:hover ul li a {
+    border-width: 0;
+    width: 150px;
+    border-top: 1px solid #ddd;
+    line-height: 160%;
+    height: auto;
+    max-height: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#top-bar ul li.sfhover a:hover,
+#top-bar ul li:hover a:hover {
+    background: #fff;
+    text-decoration: none;
+}
+#top-bar ul li ul {
+    border-width: 0 1px 1px 1px;
+    width: auto;
+}
+#top-bar ul li ul li, #top-bar ul li ul li.sfhover,
+#top-bar ul li ul li, #top-bar ul li ul li:hover {
+    border-width: 0;
+}
+#top-bar ul li ul li a {
+    border-width: 0;
+}
+#top-bar ul li ul a, #top-bar a:hover {
+    color: #8db600;
+}
+ 
+/* IE7 HACK */
+#top-bar ul > li > ul {  
+    *margin-top: -4px;
+}
+ 
+/* SIDE MENU */
+#side-bar {
+    left: -2em;
+    font-family: quanticoregular, sans-serif;
+}
+#side-bar .side-block {
+    padding: 10px;
+    border: 3px solid #dc143c;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    background: #fff;
+    margin-bottom: 15px;
+}
+#side-bar .side-area {
+    padding: 10px;
+}
+#side-bar .heading {
+    color: #c71585;
+    border-bottom: solid 1px #dc143c;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    font-weight: bold;
+}
+#side-bar p {
+    margin: 0;
+}
+#side-bar div.menu-item {
+    margin: 2px 0;
+}
+#side-bar div.menu-item img {
+    width: 13px;
+    height: 13px;
+    border: 0;
+    margin-right: 2px;
+    position: relative;
+    bottom: -2px;
+}
+#side-bar div.menu-item a {
+    font-weight: bold;
+}
+#side-bar div.menu-item.inactive img {
+    opacity: 0.25;
+}
+#side-bar div.menu-item.inactive a {
+    color: #db7093;
+}
+#side-bar div.menu-item .sub-text {
+    font-size: 80%;
+    color: #db7093;
+}
+#side-bar div.menu-item.sub-item {
+}
+ 
+#side-bar .collapsible-block-folded {
+    background: url(http://unofficial-scp-sandbox-jp.wikidot.com/local--files/nav:side/expand.png) 0 2px no-repeat;
+}
+#side-bar .collapsible-block-link {
+    margin-left: 15px;
+    font-weight: bold;
+}
+#side-bar .collapsible-block-unfolded-link {
+    border-bottom: solid 1px #c71585;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    color: #c71585;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+    color: #db7093;
+    text-decoration: none;
+}
+/* CONTENT */
+#main-content {
+    margin: 0 0 0 19em;
+    padding: 0;
+    position: relative;
+}
+ 
+#breadcrumbs {
+    margin: -1em 0 1em;
+    font-weight: 85%;
+}
+ 
+/* YUI-TABS */
+.yui-navset .yui-content{
+    background-color: #f5f5f5;
+}
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+    background-color:#d8d8d8;
+    background-image: url(../images/yuitabs.png);
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
+.yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
+    background:#008000 url(../images/yuitabs.png) repeat-x left -1400px; /* selected tab background */
+    color:#fff;
+}
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus {
+    background:#79d479 url(../images/yuitabs.png) repeat-x left -1300px;
+    text-decoration: none;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #008000;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #006c00;
+}
+ 
+/* FOOTER */
+#footer {
+    clear: both;
+    font-size: 77%;
+    background: #3d2b1f;
+    color: #006c00;
+    margin-top: 15px;
+    padding: 3px 10px;
+}
+#footer .options {
+    visibility: visible;
+    display: block;
+    float: right;
+    width: 50%;
+    font-size: 100%;
+    text-align: right;
+}
+#footer a {
+    color: #fff;
+    background: transparent;
+}
+
+div.wiki-note {
+    background-image: url(http://unofficial-scp-sandbox-jp.wikidot.com/local--files/component:mcf-theme/MCF-7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    border: 1px solid #999;
+    text-align: center;
+    border: double 2px #6bab30;
+    padding: 7px 10px;
+    margin: 5% 20%;
+    font-family: sansationregular, serif;
+    background-color: #edf7e3;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+ 
+/* Custom page content classes */
+#page-content {
+    min-height: 720px;
+}
+ 
+.unmargined > p {
+    margin: 0;
+    line-height: 100%;
+}
+.content-panel {
+    border: solid 1px #5d8aa8;
+    border-radius: 10px;
+    background-color: #bcd4e6;
+    margin: 10px 0 15px;
+    box-shadow: 3px 3px 6px #e6e6fa;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.1);
+}
+.content-panel.standalone {
+    background: #fcfdfb;
+}
+.content-panel.series {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.content-panel.centered {
+    text-align: center;
+}
+.content-panel.left-column {
+    float: left;
+    width: 48%;
+}
+.content-panel.right-column {
+    float: right;
+    width: 48%;
+}
+ 
+.content-panel .panel-heading {
+    padding: 2px 10px;
+    color: #ffffff;
+    font-size: 90%;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.35);
+}
+.content-panel .panel-heading > p,
+.content-panel .panel-footer > p {
+    margin: 0;
+}
+.content-panel .panel-body {
+    padding: 5px 10px;
+    background: f0ffff
+}
+.content-panel .panel-footer {
+    padding: 1px 10px;
+    color: #06da6e;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+.content-panel .panel-footer a {
+    color: #ffffff;
+}
+.content-panel .content-toc {
+    float: right;
+    padding: 0 20px;
+    background-color: #fff;
+    border: solid 1px #5d8aa8;
+    border-radius: 10px;
+    margin: 20px 0 5px 5px;
+    white-space: nowrap;
+    box-shadow: inset 1px 2px 6px rgba(0,0,0,.15)
+}
+.alternate:nth-child(even) {
+    background-color: rgba(255,255,255,.9);
+}
+ 
+/* Page Rating Module Customizations */
+.page-rate-widget-box {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+  font-family: sansationregular, sans-serif !important;
+}
+.page-rate-widget-box .rateup,
+.page-rate-widget-box .ratedown {
+  background-color: #f0f8ff;
+  border-top: solid 1px #dc143c;
+  border-bottom: solid 1px #dc143c;
+  font-weight: bold;
+}
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a {
+  background: transparent;
+  color: #dc143c;
+  padding: 0 4px;
+  margin: 0 1px;
+}
+.page-rate-widget-box .rateup a:hover,
+.page-rate-widget-box .ratedown a:hover {
+  background: #dc143c;
+  color: #dc143c;
+  text-decoration: none;
+}
+.page-rate-widget-box .cancel {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+  border-left: 0;
+  border-radius: 0 5px 5px 0;
+}
+.page-rate-widget-box .cancel a {
+  background: transparent;
+  text-transform: uppercase;
+  color: #f0ffff;
+}
+.page-rate-widget-box .cancel a:hover {
+  border-radius: 0 3px 3px 0;
+  background: #dc143c;
+  color: #f0ffff;
+  text-decoration: none;
+}
+
+/* Credit Rating Module */
+#page-content .creditRate div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+}
+#page-content .creditButton p a{
+background: #dc143c !important;
+}
+.rate-box-with-credit-button .creditButton {
+    background-color: #dc143c !important;
+    border: solid 1px #dc143c !important;
+}
+.creditButton a:hover {
+color: #dc143c !important;
+}
+
+/* Heritage Collection Rating Module */
+.heritage-rating-module {
+  float: right;
+  background-color: #dc143c;
+  padding: 2px 8px 2px 5px;
+  margin-bottom: 10px;
+  margin-right: 2em;
+  border: solid 1px #dc143c;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.heritage-rating-module .page-rate-widget-box {
+  float: right;
+  box-shadow: none;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.heritage-rating-module .heritage-emblem {
+  float: right;
+  position: relative;
+  top: -2px;
+  left: 2px;
+  height: 16px;
+  width: 16px;
+  overflow: visible;
+  margin-right: 2px;
+}
+.heritage-rating-module .heritage-emblem img {
+  width: 20px;
+  height: 20px;
+  border: 0;
+}
+ 
+/* Fixes for Multi-Line Page Tags */
+#main-content .page-tags {
+    margin: 1em 0 0;
+    padding: 0;
+}
+#main-content .page-tags span {
+    display: inline-block;
+    padding: 0;
+    max-width: 60%;
+}
+#main-content .page-tags a {
+    display: inline-block;
+    white-space: nowrap;
+}
+ 
+/* Standard Image Block */
+.scp-image-block {
+  float: right;
+  clear: right;
+  margin: 0 2em 1em 2em;
+  border: solid 1px #ff000000;
+  box-shadow: 0 1px 6px rgba(0,0,0,.25);
+  width: 300px;
+}
+.scp-image-block.block-left {
+  float: left;
+  clear: left;
+  margin: 0 2em 1em 0;
+}
+.scp-image-block img {
+  border: 0;
+  width: 300px;
+}
+.scp-image-block .scp-image-caption {
+  background-color: #ff000000;
+  border-top: solid 1px #ff000000;
+  padding: 2px 0;
+  font-size: 80%;
+  font-weight: bold;
+  text-align: center;
+  width: 300px;
+}
+.scp-image-block > p {
+  margin: 0;
+}
+.scp-image-block .scp-image-caption > p {
+  margin: 0;
+  padding: 0 10px;
+}
+ 
+/* Forum Customizations */
+.forum-thread-box .description-block {
+  padding: .5em 1em;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.15),
+    inset 0 1px 0 rgba(255,255,255,.8),
+    inset 0 10px 5px rgba(255,255,255,.25),
+    inset 0 -15px 30px rgba(0,0,0,.1)
+}
+.thread-container .post .head {
+    padding: 0.5em 1em;
+    background-color: #f0f8ff;
+    background: linear-gradient(to right, #f0f8ff, #eeecec);
+    box-shadow: inset 2px 3px 6px rgba(0,0,0,.15);
+    border-radius: 5px 5px 0 0;
+}
+ 
+/* Hide Forum Signatures */
+.signature {
+  display:none !important;
+}
+
+@media (max-width: 479px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#page-content {
+    font-size: 0.9em;
+}
+ 
+#main-content {
+    margin: 0;
+}
+ 
+#recent-posts-category {
+width: 100%;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+    padding: 0;
+}
+ 
+.page-options-bottom a {
+    padding: 0 4px;
+}
+ 
+blockquote {
+    margin: 1em 0;
+}
+ 
+.license-area {
+    font-size: 0.8em;
+}
+
+#header h1, #header h2 {
+    margin-left: 66px;
+}
+ 
+table.form td, table.form th {
+    float: left;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+td.name {
+    width: 15em;
+}
+ 
+table.form td, table.form th {
+    padding: 0;
+}
+ 
+#edit-page-title {
+    max-width: 90%;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+}
+
+/* ////////////////////background-size//////////////////// */
+/* Mobile Media Query */
+@media (max-width: 319px) {
+#header {
+    background-size: 75%;
+    background-position: 1em;
+}
+}
+ 
+/* Note Media Query */
+@media (min-width: 320px) and (max-width: 580px) {
+#header {
+    background-size: 83%;
+    background-position: 1em;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+#header {
+    background-size: 77%;
+    background-position: 1em;
+}
+}
+
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#header {
+    background-size: 63%;
+    background-position: 1em;
+}
+}
+
+/* Tablet Media Query */
+@media (min-width: 980px) and (max-width: 1024px) {
+#header {
+    background-size: 47%;
+    background-position: 1em;
+}
+}
+/* ////////////////////////////////////////////////// */
+
+/* Note Media Query */
+@media (min-width: 480px) and (max-width: 580px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#main-content {
+    margin: 0 2em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 5px;
+}
+ 
+blockquote {
+    margin: 0.5em;
+}
+ 
+.license-area {
+    font-size: 0.85em;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 80px;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+td.name {
+    width: 15em;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+#main-content {
+    margin: 0 3em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+.top-bar {
+    display: none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 6px;
+}
+ 
+.license-area {
+    font-size: 0.9em;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 93px;
+}
+}
+ 
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#main-content {
+    margin: 0 4em 0 20em;
+}
+ 
+#header, #top-bar #side-bar {
+    max-width: 100%;
+}
+ 
+.top-bar li {
+    margin: 0;
+}
+ 
+#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
+    width: 110px;
+}
+ 
+.page-options-bottom a {
+    padding: 0 7px;
+}
+ 
+.license-area {
+    font-size: 0.95em;
+}
+
+#header h1, #header h2 {
+    margin-left: 106px;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Desktop Media Query -----------
+@media (min-width: 980px) and (max-width: 1399px) {
+ 
+}
+------------------------------------------ */
+ 
+/* Wide Monitor Media Query -----
+@media (min-width: 1400px) {
+ 
+}
+------------------------------------------ */
+ 
+/* off-canvas */
+ 
+.close-menu {
+    display: none;
+}
+ 
+@media (max-width: 767px) {
+ 
+.page-history tbody tr td:last-child {
+width: 35%;
+}
+ 
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div .btn-primary {
+width: 100%;
+float: left;
+}
+ 
+.owindow div .btn-primary ~ div {
+width: 100%;
+}
+ 
+.yui-navset {
+z-index: 1;
+}
+ 
+#navi-bar, #navi-bar-shadow {
+    display: none;
+}
+ 
+.open-menu a {
+    position: fixed;
+    bottom: 0.5em;
+    left: 0.5em;
+    z-index: 15;
+    font-family: 'Nanum Gothic', san-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888 !important;
+    background-color: #fff !important;
+    border-radius: 3em;
+    color: #888 !important;
+}
+ 
+.open-menu a:hover {
+    text-decoration: none !important;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -ms-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -o-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+}
+ 
+#main-content {
+    max-width: 90%;
+    margin: 0 5%;
+    padding: 0;
+    -webkit-transition: 0.5s ease-in-out 0.1s;
+    -moz-transition: 0.5s ease-in-out 0.1s;
+    -ms-transition: 0.5s ease-in-out 0.1s;
+    -o-transition: 0.5s ease-in-out 0.1s;
+    transition: 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -25em;
+    width: 17em;
+    height: 100%;
+    background-color: rgb(240, 255, 240);
+    overflow-y: auto;
+    z-index: 10;
+    padding: 1em 1em 0 1em;
+    -webkit-transition: left 0.5s ease-in-out 0.1s;
+    -moz-transition: left 0.5s ease-in-out 0.1s;
+    -ms-transition: left 0.5s ease-in-out 0.1s;
+    -o-transition: left 0.5s ease-in-out 0.1s;
+    transition: left 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+ 
+}
+ 
+#side-bar:target {
+    display: block;
+    left: 0;
+    width: 17em;
+    margin: 0;
+    border: 1px solid #dedede;
+    z-index: 10;
+}
+ 
+#side-bar:target + #main-content {
+    left: 0;
+}
+ 
+#side-bar:target .close-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3) 1px 1px repeat;
+    z-index: -1;
+}
+}
+[[/module]]
+
+[[include :incbox:koigare-header
+|param=35
+|category=kokunai
+|image=NHKの施設.jpeg
+|title=NHK 超常社会との軋轢激化
+|titlesize=130%
+|date=4/15 7:03
+|by=撮影: 恋昏崎新聞社
+]]
+[[size 180%]]**超常社会のNHK受信料問題　動揺収まらず**[[/size]]　[[size 50%]]##C0C0C0|__恋昏崎新聞社__##[[/size]]
+@@ @@
+　近年、日本放送協会(以後、NHKと表記)の受信料を巡り、超常社会との衝突や軋轢が広がっている。日本国内における超常組織やコミュニティの各地において、NHKが徴収を委託したと見られる団体(以降「徴収団体」と表記)による「取り立て」と表現すべき苛烈な徴収活動が激化しているのだ。中には脅迫紛いな「公共」の名前にあるまじき暴挙も多数確認されている。これまで、NHK受信料問題と関係が無いと考えられてきた恋昏崎でも、NHKは受信料徴収を宣言。住民を恐怖に陥れている。NHKと超常社会の動向を追った。
+
+[[collapsible show="･･･続きを読む" hide=" "]]
+
+----
+
+++ **豹変したNHKと暗躍する徴収団体**
+
+[[include component:image-block
+name=ニッソの研究施設.jpeg|
+caption=徴収団体の「訪問」を受けた日本生類創研の研究施設。現在は別の施設に移転済み。|
+width=230px| 幅指定, この行はオプション
+link=http://example.com | リンク指定, 同上
+align=right| 寄せ, {right, center, left}のいずれか, 同上
+clear=true| モバイル端末における文章の回り込み解除, 同上
+]]
+
+　生物系パラテック大手の日本生類創研は昨年7月以降、運営する研究施設に「NHKから受信料徴収を委託された団体」を名乗る集団が押し掛ける事件が複数回発生した。構成員らはいずれもパラテック系の装備で武装し、NHKとの受信料契約を施設の支部長に要求したことが判明している。事件に遭遇した施設の支部長が匿名で本新聞社の取材に応じた。
+
+「最初は財団かGOC(世界オカルト連合)のガサ入れだと思いました。しかし、彼らの背中にはNHKのロゴマークが入っていたので『まさか！』とその場で唖然としてしまいました。彼らは受信料を徴収するためとは思えないような装備で完全武装していました。すぐに弊社の部隊が救援に来たのですが、全員が短時間で無力化されてしまいました。あれは恐らく、彼らが保有していたアノマリーの力によるものだと思います。最後に連中の1人が『受信料契約に応じない限り、何度でも来る』と私を脅したことは生涯忘れません」
+
+　日本生類創研は現在もNHKとの受信料契約を拒否している。NHKは今年に入ってから、日本生類創研に対し「更なる追加措置」を行うと複数回警告している。日本生類創研は現在、事態の対応を協議中だ。
+
+　企業系の超常組織の多くは日本生類創研と同様の対応を行っている。工業系パラテック製品を生産する東弊重工や、イギリスに拠点を持つマーシャル・カーター＆ダーク株式会社(MC＆D社)は、昨年末から今年初めにかけ、NHKの要求に応じない方針を相次いで固めた。東弊重工の鴻池取締役は次のように憤る。
+
+「我々の商売は信用あってこそですからね。パラテックを扱う企業で御上に簡単に屈するなんて以ての外です。クライアントに見放されますよ」
+
+[[include component:image-block
+|name=日奉藪.jpg
+|width=230px
+|align=left
+|clear=true
+|caption=当新聞社の取材に応じる日奉氏。
+]]
+
+　岩手県の山中に位置する遠野妖怪保護区では事態が複雑化している。遠野妖怪保護区は名目上、日本国の領土と定められており、NHKは受信料支払いの対象地域と主張。今年2月、NHKは保護区の管理者である日奉薮氏宛てに受信料契約を求める警告文を通知した。しかし、日奉氏は保護区内には受信料支払いの対象者は存在しないとして、この要求を拒否した。日奉氏は当新聞社の取材に対し、次のように応じた。
+
+「この地域ではテレビのような電化製品が漂着することがありますが、ごく稀です。テレビを保有している住民もいるのは確かですが、いずれも地上デジタル放送を受信できるテレビではなく、NHKを視聴できる代物ではありません。以上の理由をNHKにお伝えし、丁重にお断りさせて頂きました」
+
+　しかし、NHKは日奉氏の主張について懐疑的だ。日奉氏がNHKからの要求を拒否してから1ヶ月後、NHKは新たに地上デジタル放送を受信可能なテレビが保護区内に存在しないことを確認するため、査察を受け入れるよう日奉氏に要求した。拒否した場合は「断固たる措置」も辞さないとしており、日奉氏は苦しい判断を迫られている。現在、遠野妖怪保護区はNHKの要求は不当であるとして、日本超常組織平和友好条約機構(JAGPATO)の調停裁判所への提訴を政府系超常組織に働きかけることも検討中だ。しかし、NHKは一連の活動について「受信料の契約及び徴収は法律に則り、適切に実施している。徴収団体への委託も正規の手続きに則って行われたもの」と反論しており、状況は混沌としている。
+----
+
+++ **一部の超常組織では支払いに応じる動きも**
+
+　ここにきて、受信料の支払いに応じる動きも出始めた。神界-人間界の通信サービスを手掛けるトリスメギストス・トランスレーション&トランスポーテーション（Ttt）は今年3月、NHKとの受信料契約の締結を発表した。
+
+　「弊社では通信ビジネスで人間界の電波を受信可能なモニターを保有しています。NHK様との契約に応じるかどうかについて、社内でも検討を重ねましたが、弊社が掲げるコンプライアンス順守の姿勢を人間界に示す意味合いもあり、この度に合意に至りました。この契約により、神界と人間界との間で展開されるビジネスが更に飛躍するものと捉え、より多くの事業を展開する予定です。なお、NHK様との協議の結果、過去の受信料支払いについては免責されたこともここにお知らせ致します。（Ttt社長・ヘルメス）」
+
+　Ttt社との交渉妥結に成功したNHKは超常社会からの受信料徴収について自信を深めている。NHKは超常社会に対し「今年中までの契約に応じない超常組織には『更なる追加措置』も検討しなければならない」と主張しており、NHK受信料と超常社会を巡って更なる混乱は必至の情勢だ。
+----
+
+++ **JAGPATOにおけるNHK受信料の扱い**
+
+[[include component:image-block
+name=日本超常組織平和友好条約の批准案採決.jpg|
+caption=条約批准案の採決を撮影した唯一現存する写真。条約審議のため、極秘裏に議員達が緊急招集されたことが判明している。審議では財団やGOCへの過剰な優遇が批判されたが、最終的に与党側の強行採決で決着した。|
+width=240px| 幅指定, この行はオプション
+link=http://example.com | リンク指定, 同上
+align=right| 寄せ, {right, center, left}のいずれか, 同上
+clear=true| モバイル端末における文章の回り込み解除, 同上
+]]
+
+　財団及び世界オカルト連合は他の超常組織とは状況が異なる。NHKは1950年代、両者に対しても受信料の契約と支払いを求めていたが「敵対的要注意団体への情報流出の懸念」を理由に拒否。その後、1959年に成立した日本超常組織平和友好条約により、両者は「人類の秩序安寧を保つ活動」を行う代償として、日本国内における税金や公共料金の支払いを免除され、NHKは要求を取り下げた経緯が存在する。よって、現状では両者とNHKとの間に「受信料問題は存在しない」というのが両者の公式見解だ。
+
+　しかし、財団及び世界オカルト連合がJAGPATOに対して「拒否権」とも呼ばれる非常に強い影響力を保持しながら、税金や公共料金も支払っていない現状に、JAGPATOに加盟する他の組織の間で不信感が燻っていることが当新聞社の取材で判明している。財団及び世界オカルト連合はこうした声がNHKの受信料徴収方針に影響を与える可能性があるとして神経を尖らせている。また、NHKが受信料未払いの超常組織に対して通告している「更なる追加措置」に関して、財団ではNHKが超常組織に対する報道を実施するつもりなのではないかという懸念の声が挙がっており、事態に介入すべきとの意見も出ている。しかし、NHKは日本を代表する報道機関かつ政府の外郭団体という特殊な立ち位置から「介入するにもリスクが大きい」(財団関係者)上に、現状では表面上「ヴェール政策」に反する言動は見られないとして、まずはNHKの今後の動向を注意深く監視する方針だ。
+----
+
+++ **恋昏崎における受信料問題の現状**
+
+　NHKはこれまでNHK受信料問題とは全く関係が無いと思われてきた恋昏崎に対しても、受信料の支払いを要求した。以下は今年3月にNHKから当新聞社へ送付された声明文を記録したものである。
+
+[[div style="display: inline-block ; border : dotted 3px #444444 ; background :#ffffffff ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+
+**恋昏崎に在住の皆様へ　受信料徴収開始のお知らせ**
+
+　NHKは放送法に基づき「いつでも、どこでも、誰にでも、確かな情報や全国津々浦々に遍く伝えていく」という使命を果たすため、日々努力を重ねていることはご存じかと思います。この使命を実現するために皆様から頂く受信料を財源として自主自立を堅持しながら日本の在り様を世界に発信することは、一般社会のみならず皆様のような超常社会で生活する恋昏崎の方々にも非常に重要な話であると私達は認識しています。
+
+　さて本題となりますが、これまで恋昏崎地域はNHKの電波が受信可能か不明であったため、NHKは受信料徴収を控えてまいりましたが、来年度より恋昏崎に在住する全ての住民及び企業から受信料の徴収を実施する方針を決定致しました。近日中にNHKから徴収業務を委託された団体に所属する職員が電波受信の新規契約を行うため、皆様のご自宅及び企業を訪問する予定です。なお、過去の受信料につきましては別途徴収させて頂く予定ですので、ご了承下さい。
+
+　余談となりますが、恋昏崎の住民の中には「恋昏崎は治外法権が適用されるので受信料なんて無視しても良い」「NHKを見なければ受信契約はしなくてもいい、受信料は支払わなくてもいい」等の旨を吹聴する人達が存在することを確認しております。しかしながら、これらの主張は事実ではありません。日本政府の公式見解は「恋昏崎は日本国の領土」であり、恋昏崎には日本国の法律が適用されます。また、放送法や受信規約では受信設備を保有する方は例外なく受信料を支払うことが義務付けられており、受信料を支払わない旨を公言することは法律違反を推奨する行為に他なりません。NHKは契約や支払いを行わない等の違法行為に対し、断固たる措置を取るとここに宣言し、締めの言葉とさせて頂きます。
+[[/div]]
+
+[[include component:image-block
+name=受信料徴収団体の構成員達.jpg|
+caption=当新聞社前で撮影された受信料徴収団体の構成員達。当新聞社を包囲する形で「訪問」して圧力を加えている。|
+width=220px| 幅指定, この行はオプション
+link=http://example.com | リンク指定, 同上
+align=right| 寄せ, {right, center, left}のいずれか, 同上
+clear=true| モバイル端末における文章の回り込み解除, 同上
+]]
+
+
+　上記の声明文が送付されてから数日後、恋昏崎の内部にパラテック系の装備で武装した受信料徴収団体の構成員が大量に出現。恋昏崎各地の企業や家庭に対し、しらみつぶしに押し掛けて受信料契約を強要する事件が発生した。恋昏崎の警察や自警団が追い払おうとしたものの、全員が無力化されてしまった。徴収団体を追い返すことに成功した住民の1人、闇寿司恋昏崎店「Yummy寿司」の店主であるルベトゥス・睦美氏が当新聞社の取材に応じた。
+
+「オー、アノ連中、中々ノ強サダッタヨ。我等ガ闇寿司ノ敵ジャナカッタケドネ。マァ、闇デモ見カケナイヨウナ『アノマリー』持ッテタシ、他ノ住民ニトッテハゴ愁傷様ダッタトシカイイヨウガ無イヨ。デモ、ワタシハ何時デモ広チャンの味方ダカラネー！」
+
+　翌日、徴収団体の構成員達は領域外に去って行ったが、恋昏崎在住世帯の10%程度がNHKとの新規契約に「同意」してしまったことが当新聞社の調査で明らかになっている。当新聞社は契約を拒否することこそできたものの、今後に不安を残す結果となってしまったことは否めない。当新聞社は今後も広末デスクのコラムにもあるように、NHKとの受信料契約には応じてはならないと訴えるつもりだ。
+----
+
+++ **超常社会とNHK受信料の関係**
+
+　NHKが最近になって、このような暴挙を恋昏崎だけではなく超常社会の各地で起こすようになった明確な理由は未だ明らかではない。しかし、NHKが長年に渡って、日本国内に存在する超常組織の受信料未払いに悩まされてきた背景が存在していたのは確かだ。NHKは1950年代以降、繰り返し国内の超常社会に対して受信料の契約及び支払いを求めてきた。しかし、その成果は芳しいとは言えず、ほとんどの超常組織がNHKの要求を拒否し、現在まで応じてこなかった。
+
+　もちろん、超常組織の側にも言い分がある。NHKの規定では、法人の受信料支払いは各組織における事業所の箇所に応じて求められる。ホテル等のように部屋ごとにテレビが設置されている場合は、部屋の数だけ受信料を支払わなければならない。これは多くの超常組織にとって非常に重要な内部情報である。超常社会では常に、「保護者」と「警察」を自認している財団及び世界オカルト連合が各組織の動向を執拗に監視している。そのような状況下で、組織の情報流出に繋がりかねないNHKに対する受信料支払いはほとんどの超常組織において認められないことだったのである。
+
+　そのような状況に業を煮やしたのかどうかは不明だが、対超常社会専門の受信料徴収業者によるものと見られる、衝突や軋轢が各地で増している現状を見れば、NHKが超常社会に対する受信料徴収に本格的に乗り出したことは明らかである。今後、NHKと超常社会との間の軋轢が増すことは避けられそうになく、当新聞社も強い危機感を抱いている。当新聞社は今後もこの問題を追及し、NHKと契約したと見られる謎の徴収団体を徹底調査していく予定だ。【柳瀬 栄・大久保 凛子・ジョージＲ】
+----
+[[=]]
+　～お知らせ～
+[[/=]]
+　平素は弊紙をご購読いただき、誠にありがとうございます。
+
+　本記事の配信後、NHK様から記事の多くに事実と異なる点が存在するとして抗議の連絡を頂きました。
+
+　NHK様からは、事実関係の誤りを認めた上で本記事の削除及び当新聞社の公式謝罪を要求されております。
+
+　しかし、本記事は当新聞社の緻密な取材に基づき執筆されたものであり、事実関係に誤りは存在しないものと認識しております。
+
+　以上の理由から、本記事の削除は致しません。当新聞社は今後もジャーナリズムの精神に基づく報道活動を行っていく所存です。
+
+[[>]]
+2019年4月17日
+編集部一同
+[[/>]]
+
+
+@@ @@
+**【関連記事】**
+
+[# 酩酊街は受信料徴収の対象？ NHK内部で議論に]
+[# 「NHK受信料解放戦線」が発足 国政選挙出馬も視野]
+[# NHKの元職員が内部告発 「受信料徴収業務に有村組の構成員を雇用」]
+[# NHK ネット同時配信実現後に電子上知性実体からの受信料徴収を検討]
+[# NHK受信料支払いを巡り、「回らない寿司協会」と闇寿司が対立]
+[[/collapsible]]
+@@ @@
+------
+
+[[include :incbox:koigare-hirosue
+|header=true
+|width=175px
+|fontsize=75%
+|image=http://incbox.wdfiles.com/local--files/koigare-hirosue/hirosue.jpg
+|text=**▲広末 孝行 明大政治経済学部卒、東弊重工本社総務部で10年勤続後退社し、恋昏崎新聞社へ入社。東弊重工の社員だった時期にもNHKとの受信料トラブルを経験している。**
+]]
+　NHKは「日本放送」の名を冠するように、放送法に基づき設立された日本の公共放送を担う特殊法人です。一般社会だけではなく超常社会においても、その重要性及び必要性は今更言うまでもない話であることは承知であろうと思います。そんなNHKと関わる上で避けて通れないのが所謂「受信料問題」です。
+
+　かねてから、恋昏崎ではNHKの電波放送が受信可能であることが知られていました。しかし、恋昏崎は日本政府の統治が及んでいない地域であるという住民間の認識から、NHK受信料問題は存在しないという意見が多数派を占めてきた経緯が存在します。これは日本国外のNHK放送地域では受信料を徴収していないという事実に基づく考えであり、恋昏崎以外の超常組織からも長らく支持されていた見解です。現実的に考えても、NHKが恋昏崎に乗り込んで徴収業務を行うことは不可能という見方がほとんどでした。
+
+　しかし、今となっては上記のような考えは非常に甘いものだったと言わざるを得ません。[[[http://scp-jp.wikidot.com/kanshin-ryoiki-koigarezaki|NHKがいつ恋昏崎の状況を認知したのかはわかりませんが]]]、NHKは我々の認識をいとも簡単に打ち砕きました。その結果、恋昏崎では受信料徴収団体の構成員による非道を許してしまうこととなってしまいました。当新聞社も何とか支払い拒否を貫くことができましたが、予断を許さない状況に変わりはありません。
+
+　このような状況に至り、既に住民の中からNHKに受信料を支払ってしまったという悲痛な声が当新聞社に複数寄せられています。恋昏崎にとってNHKへの受信料支払いを認めるということは、恋昏崎の基本情報を日本政府に提供するという事と同義であり、日本政府の支配を事実上認めるという話に繋がりかねません。当新聞社はこれからもNHKが主張する詭弁に反対すると共に、不当な取り立てに断固応じてはならないと訴える次第です。【広末 孝行】
+------
+@@ @@
+　[[size 200%]]**__読者コメント__**[[/size]] 　
+[[div style="border:solid 1px #999999; background:#F5F5F5; padding:10px; margin-bottom: 5px;"]]
+
+[[include :topia:ync src=-]]
+[[include :topia:ync head=-
+|img=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-91-3462/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AA%E3%83%BC%E9%A1%943.jpg
+|name=yassu_8888
+|time=2019/04/15 -- 07:43:32
+]]
+今、ウチの研究所がこの件で揉めてます。
+誰でもいいから早くNHKを止めて頂きたいですね。
+[[include :topia:ync body=-|uv=55|dv=3]]
+
+[[include :topia:ync head=-
+|img=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-91-3462/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AA%E3%83%BC%E9%A1%942.jpg
+|name=goto_510
+|time=2019/04/15 -- 09:50:25
+]]
+ウチの会社もこの前酷い目に合いました。本当に恐ろしい連中ですよ。
+噂によると、超常組織の関係者に対しては「手段を選ばず徴収しろ」って号令が掛けられてるそうです…
+[[include :topia:ync body=-|uv=45|dv=6
+]]
+
+[[include :topia:ync head=-
+|img=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-91-3462/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AA%E3%83%BC%E9%A1%94.jpg
+|name=bbb_222
+|time=2019/04/15 -- 11:23:05
+]]
+彼らは本当にNHKの関係者なんですか？他の異常を扱うどの団体よりも異常に思えます。
+借金取りやヤクザのシノギと言われた方がまだ納得できますね。
+[[include :topia:ync body=-|uv=38|dv=2
+]]
+
+[[include :topia:ync head=-
+|img=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-91-3462/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AA%E3%83%BC%E9%A1%942.jpg
+|name=yonezu_ijamea
+|time=2019/04/15 -- 12:03:47
+]]
+[[[http://scp-jp.wikidot.com/yonedu-gensui|どうしてこんなことになってしまったんだ…]]]
+[[include :topia:ync body=-|uv=0|dv=8
+]]
+※コメントはユーザー個人の意見であり、恋昏崎新聞社による公式記事ではありません。
+[[/div]]
+
+------
+++ 広告
+
+[[include component:image-block
+|name=弟の食料品.jpg
+|width=300px
+|align=left
+|clear=true
+|caption=[# 当店で人気の「家庭の味」ハンバーグです。]
+当店ではお客様の心を揺さぶる料理を提供しています。
+恋昏崎の皆様も是非ご来店下さい。
+[[span style="color:gray"]]弟の食料品[[/span]]]]
+
+[[include component:image-block
+|name=伏木駄菓子店広告.jpg
+|width=300px
+|align=center
+|clear=true
+|caption=[# 新製品のご案内(写真はイメージです)]
+1本食べる毎に、ストレスを軽減するシガレットです。
+当店では悩める人の心に寄り添う姿勢を重視しています。
+[[span style="color:gray"]]伏木駄菓子店[[/span]]]]

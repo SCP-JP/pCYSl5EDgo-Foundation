@@ -1,0 +1,1223 @@
+[[module CSS]]
+/*
+    REBORN MCF Theme
+    [2018 Wikidot Theme]
+    Based on Reach's Manna Charitable Foundation Theme
+    Created by 7happy7
+*/
+
+@charset "utf-8";
+ 
+@import url('http://scp-jp.wdfiles.com/local--theme/scp-sigma-9-off-canvas/style.css');
+
+
+/* COMMON */
+#page-title {display: none;}
+
+#content-wrap {
+    position: relative;
+    margin: 2em auto 0;
+    max-width: 1040px;
+    min-height:1300px;
+    height: auto !important;
+    height: 1500px;
+}
+
+h1, #page-title {
+    font-family: sansationregular, sans-serif;
+    color: #ff000000;
+    padding: 0 0 0.25em;
+    margin: 0 0 0.6em;
+    text-align: left;
+}
+h1 {
+    margin-top: 0.7em;
+    padding: 0;
+    font-weight: bold;
+}
+h2, h3, h4, h5, h6, h7 {
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+}
+#page-title {
+    font-family: sansationregular, sans-serif;    
+    font-weight: bold;
+    border-color: #ff000000;
+}
+ul {
+    /*list-style-image: url(../images/bullet.gif);*/
+    list-style: square;
+}
+#top-bar ul {
+/* list-style-image: none; /* IE ONLY! IF list-style-image IS SET */
+}
+ 
+li, p {
+    line-height: 150%;
+}
+a {
+    color: #dc143c;
+    text-decoration: none;
+    background: transparent;
+}
+a.newpage {
+    color: #000000;
+    text-decoration: none;
+    background: transparent;
+}
+a:hover {
+    text-decoration: underline;
+    background: transparent;
+}
+ 
+/* GLOBAL WIDTH */
+#header, #top-bar {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #fff;
+    font-family: sansationregular, normal;
+    font-size: 0.80em;
+    color: #333;
+}
+div#container-wrap {
+    background: url(http://indobox.wdfiles.com/local--files/scoop/bbgg.png) top left 90% repeat-x;
+}
+ 
+/* HEADER */
+#header {
+    height: 140px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 22px; /* FOR MENU */
+    background: url(http://indobox.wdfiles.com/local--files/scoop/rogom) 40px 6px no-repeat; background-size: 47%;  background-position: 1em;
+}
+#search-top-box {
+    position: absolute;
+    top: 79px;
+    right: 9px;
+    width: 250px;
+    text-align: right;
+}
+#search-top-box-input {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.5);
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #fff;
+    color: #000;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.8);
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 90%;
+    font-weight: bold;
+    color: #dc143c;
+    background-color: #ffffff;
+    background: linear-gradient(to bottom, #ffffff,#ffffff,#ffffff);
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #fff;
+    color: #dc143c;
+    text-shadow: 0 0 1px rgba(255,255,255,.25)
+    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #f5f5f5,#f5f5f5,#f5f5f5);
+    box-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+ 
+#login-status {
+    color: #ffffff;
+    font-size: 90%;
+    z-index: 30;
+}
+#login-status a {
+    background: transparent;
+    color: #ffffff;
+}
+#login-status ul a {
+    color: #ffffff;
+    background: transparent;
+}
+ 
+#account-topbutton {
+    background: #fff;
+    color: #ffffff;
+}
+ 
+.printuser img.small {
+    margin-right: 1px;
+}
+ 
+#header h1 {
+    margin-left: 120px;
+    padding: 0;
+    float: left;
+    max-height: 95px;
+}
+#header h2 {
+    margin-left: 120px;
+    padding: 0;
+    clear: left;
+    float: left;
+    font-size: 105%;
+    max-height: 38px;
+}
+ 
+#header h1 a {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    max-height: 0px;
+    color: transparent;
+    font-family: sansationregular;
+    font-size: 0%;
+    text-decoration: none;
+}
+ 
+#header h2 span {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-family: quanticoregular, sans-serif;
+    font-size: 0%;
+    color: #092200;
+}
+ 
+/* TOP MENU */
+#top-bar {
+    font-family: quanticoregular, sans-serif;
+    font-size: 90%;
+}
+#top-bar ul {
+    float: right;
+}
+#top-bar a {
+    color: #fff;
+    background: transparent;
+}
+#top-bar ul li {
+    border: 0;
+    position: relative;
+}
+#top-bar ul li ul {
+    border: solid 1px #3d2b1f;
+    box-shadow: 0 2px 6px rgba(0,0,0,.5);
+    border-top: 0;
+}
+#top-bar ul li:last-of-type ul {
+    right: 0;
+}
+#top-bar ul li a {
+    border-left: solid 1px rgba(64,64,64,.1);
+    border-right: solid 1px rgba(64,64,64,.1);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1px;
+    max-height: 1px;
+    overflow: hidden;
+}
+ 
+#top-bar ul li.sfhover a,
+#top-bar ul li:hover a {
+    background: #f0f8ff;
+    color: #006c00;
+    border-left: solid 1px rgba(64,64,64,1);
+    border-right: solid 1px rgba(64,64,64,1);
+}
+ 
+#top-bar ul li.sfhover ul li a,
+#top-bar ul li:hover ul li a {
+    border-width: 0;
+    width: 150px;
+    border-top: 1px solid #ddd;
+    line-height: 160%;
+    height: auto;
+    max-height: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#top-bar ul li.sfhover a:hover,
+#top-bar ul li:hover a:hover {
+    background: #fff;
+    text-decoration: none;
+}
+#top-bar ul li ul {
+    border-width: 0 1px 1px 1px;
+    width: auto;
+}
+#top-bar ul li ul li, #top-bar ul li ul li.sfhover,
+#top-bar ul li ul li, #top-bar ul li ul li:hover {
+    border-width: 0;
+}
+#top-bar ul li ul li a {
+    border-width: 0;
+}
+#top-bar ul li ul a, #top-bar a:hover {
+    color: #8db600;
+}
+ 
+/* IE7 HACK */
+#top-bar ul > li > ul {  
+    *margin-top: -4px;
+}
+ 
+/* SIDE MENU */
+#side-bar {
+    left: -2em;
+    font-family: quanticoregular, sans-serif;
+}
+#side-bar .side-block {
+    padding: 10px;
+    border: 3px solid #dc143c;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    background: #fff;
+    margin-bottom: 15px;
+}
+#side-bar .side-area {
+    padding: 10px;
+}
+#side-bar .heading {
+    color: #c71585;
+    border-bottom: solid 1px #dc143c;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    font-weight: bold;
+}
+#side-bar p {
+    margin: 0;
+}
+#side-bar div.menu-item {
+    margin: 2px 0;
+}
+#side-bar div.menu-item img {
+    width: 13px;
+    height: 13px;
+    border: 0;
+    margin-right: 2px;
+    position: relative;
+    bottom: -2px;
+}
+#side-bar div.menu-item a {
+    font-weight: bold;
+}
+#side-bar div.menu-item.inactive img {
+    opacity: 0.25;
+}
+#side-bar div.menu-item.inactive a {
+    color: #db7093;
+}
+#side-bar div.menu-item .sub-text {
+    font-size: 80%;
+    color: #db7093;
+}
+#side-bar div.menu-item.sub-item {
+}
+ 
+#side-bar .collapsible-block-folded {
+    background: url(http://unofficial-scp-sandbox-jp.wikidot.com/local--files/nav:side/expand.png) 0 2px no-repeat;
+}
+#side-bar .collapsible-block-link {
+    margin-left: 15px;
+    font-weight: bold;
+}
+#side-bar .collapsible-block-unfolded-link {
+    border-bottom: solid 1px #c71585;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    color: #c71585;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+    color: #db7093;
+    text-decoration: none;
+}
+/* CONTENT */
+#main-content {
+    margin: 0 0 0 19em;
+    padding: 0;
+    position: relative;
+}
+ 
+#breadcrumbs {
+    margin: -1em 0 1em;
+    font-weight: 85%;
+}
+ 
+/* YUI-TABS */
+.yui-navset .yui-content{
+    background-color: #f5f5f5;
+}
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+    background-color:#d8d8d8;
+    background-image: url(../images/yuitabs.png);
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
+.yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
+    background:#008000 url(../images/yuitabs.png) repeat-x left -1400px; /* selected tab background */
+    color:#fff;
+}
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus {
+    background:#79d479 url(../images/yuitabs.png) repeat-x left -1300px;
+    text-decoration: none;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #008000;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #006c00;
+}
+ 
+/* FOOTER */
+#footer {
+    clear: both;
+    font-size: 77%;
+    background: #3d2b1f;
+    color: #006c00;
+    margin-top: 15px;
+    padding: 3px 10px;
+}
+#footer .options {
+    visibility: visible;
+    display: block;
+    float: right;
+    width: 50%;
+    font-size: 100%;
+    text-align: right;
+}
+#footer a {
+    color: #fff;
+    background: transparent;
+}
+
+div.wiki-note {
+    background-image: url(http://unofficial-scp-sandbox-jp.wikidot.com/local--files/component:mcf-theme/MCF-7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    border: 1px solid #999;
+    text-align: center;
+    border: double 2px #6bab30;
+    padding: 7px 10px;
+    margin: 5% 20%;
+    font-family: sansationregular, serif;
+    background-color: #edf7e3;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+ 
+/* Custom page content classes */
+#page-content {
+    min-height: 720px;
+}
+ 
+.unmargined > p {
+    margin: 0;
+    line-height: 100%;
+}
+.content-panel {
+    border: solid 1px #5d8aa8;
+    border-radius: 10px;
+    background-color: #bcd4e6;
+    margin: 10px 0 15px;
+    box-shadow: 3px 3px 6px #e6e6fa;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.1);
+}
+.content-panel.standalone {
+    background: #fcfdfb;
+}
+.content-panel.series {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.content-panel.centered {
+    text-align: center;
+}
+.content-panel.left-column {
+    float: left;
+    width: 48%;
+}
+.content-panel.right-column {
+    float: right;
+    width: 48%;
+}
+ 
+.content-panel .panel-heading {
+    padding: 2px 10px;
+    color: #ffffff;
+    font-size: 90%;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.35);
+}
+.content-panel .panel-heading > p,
+.content-panel .panel-footer > p {
+    margin: 0;
+}
+.content-panel .panel-body {
+    padding: 5px 10px;
+    background: f0ffff
+}
+.content-panel .panel-footer {
+    padding: 1px 10px;
+    color: #06da6e;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+.content-panel .panel-footer a {
+    color: #ffffff;
+}
+.content-panel .content-toc {
+    float: right;
+    padding: 0 20px;
+    background-color: #fff;
+    border: solid 1px #5d8aa8;
+    border-radius: 10px;
+    margin: 20px 0 5px 5px;
+    white-space: nowrap;
+    box-shadow: inset 1px 2px 6px rgba(0,0,0,.15)
+}
+.alternate:nth-child(even) {
+    background-color: rgba(255,255,255,.9);
+}
+ 
+/* Page Rating Module Customizations */
+.page-rate-widget-box {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+  font-family: sansationregular, sans-serif !important;
+}
+.page-rate-widget-box .rateup,
+.page-rate-widget-box .ratedown {
+  background-color: #f0f8ff;
+  border-top: solid 1px #dc143c;
+  border-bottom: solid 1px #dc143c;
+  font-weight: bold;
+}
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a {
+  background: transparent;
+  color: #dc143c;
+  padding: 0 4px;
+  margin: 0 1px;
+}
+.page-rate-widget-box .rateup a:hover,
+.page-rate-widget-box .ratedown a:hover {
+  background: #dc143c;
+  color: #dc143c;
+  text-decoration: none;
+}
+.page-rate-widget-box .cancel {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+  border-left: 0;
+  border-radius: 0 5px 5px 0;
+}
+.page-rate-widget-box .cancel a {
+  background: transparent;
+  text-transform: uppercase;
+  color: #f0ffff;
+}
+.page-rate-widget-box .cancel a:hover {
+  border-radius: 0 3px 3px 0;
+  background: #dc143c;
+  color: #f0ffff;
+  text-decoration: none;
+}
+
+/* Credit Rating Module */
+#page-content .creditRate div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+}
+#page-content .creditButton p a{
+background: #dc143c !important;
+}
+.rate-box-with-credit-button .creditButton {
+    background-color: #dc143c !important;
+    border: solid 1px #dc143c !important;
+}
+.creditButton a:hover {
+color: #dc143c !important;
+}
+
+/* Heritage Collection Rating Module */
+.heritage-rating-module {
+  float: right;
+  background-color: #dc143c;
+  padding: 2px 8px 2px 5px;
+  margin-bottom: 10px;
+  margin-right: 2em;
+  border: solid 1px #dc143c;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.heritage-rating-module .page-rate-widget-box {
+  float: right;
+  box-shadow: none;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.heritage-rating-module .heritage-emblem {
+  float: right;
+  position: relative;
+  top: -2px;
+  left: 2px;
+  height: 16px;
+  width: 16px;
+  overflow: visible;
+  margin-right: 2px;
+}
+.heritage-rating-module .heritage-emblem img {
+  width: 20px;
+  height: 20px;
+  border: 0;
+}
+ 
+/* Fixes for Multi-Line Page Tags */
+#main-content .page-tags {
+    margin: 1em 0 0;
+    padding: 0;
+}
+#main-content .page-tags span {
+    display: inline-block;
+    padding: 0;
+    max-width: 60%;
+}
+#main-content .page-tags a {
+    display: inline-block;
+    white-space: nowrap;
+}
+ 
+/* Standard Image Block */
+.scp-image-block {
+  float: right;
+  clear: right;
+  margin: 0 2em 1em 2em;
+  border: solid 1px #ff000000;
+  box-shadow: 0 1px 6px rgba(0,0,0,.25);
+  width: 300px;
+}
+.scp-image-block.block-left {
+  float: left;
+  clear: left;
+  margin: 0 2em 1em 0;
+}
+.scp-image-block img {
+  border: 0;
+  width: 300px;
+}
+.scp-image-block .scp-image-caption {
+  background-color: #ff000000;
+  border-top: solid 1px #ff000000;
+  padding: 2px 0;
+  font-size: 80%;
+  font-weight: bold;
+  text-align: center;
+  width: 300px;
+}
+.scp-image-block > p {
+  margin: 0;
+}
+.scp-image-block .scp-image-caption > p {
+  margin: 0;
+  padding: 0 10px;
+}
+ 
+/* Forum Customizations */
+.forum-thread-box .description-block {
+  padding: .5em 1em;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.15),
+    inset 0 1px 0 rgba(255,255,255,.8),
+    inset 0 10px 5px rgba(255,255,255,.25),
+    inset 0 -15px 30px rgba(0,0,0,.1)
+}
+.thread-container .post .head {
+    padding: 0.5em 1em;
+    background-color: #f0f8ff;
+    background: linear-gradient(to right, #f0f8ff, #eeecec);
+    box-shadow: inset 2px 3px 6px rgba(0,0,0,.15);
+    border-radius: 5px 5px 0 0;
+}
+ 
+/* Hide Forum Signatures */
+.signature {
+  display:none !important;
+}
+
+@media (max-width: 479px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#page-content {
+    font-size: 0.9em;
+}
+ 
+#main-content {
+    margin: 0;
+}
+ 
+#recent-posts-category {
+width: 100%;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+    padding: 0;
+}
+ 
+.page-options-bottom a {
+    padding: 0 4px;
+}
+ 
+blockquote {
+    margin: 1em 0;
+}
+ 
+.license-area {
+    font-size: 0.8em;
+}
+
+#header h1, #header h2 {
+    margin-left: 66px;
+}
+ 
+table.form td, table.form th {
+    float: left;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+td.name {
+    width: 15em;
+}
+ 
+table.form td, table.form th {
+    padding: 0;
+}
+ 
+#edit-page-title {
+    max-width: 90%;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+}
+
+/* ////////////////////background-size//////////////////// */
+/* Mobile Media Query */
+@media (max-width: 319px) {
+#header {
+    background-size: 75%;
+    background-position: 1em;
+}
+}
+ 
+/* Note Media Query */
+@media (min-width: 320px) and (max-width: 580px) {
+#header {
+    background-size: 83%;
+    background-position: 1em;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+#header {
+    background-size: 77%;
+    background-position: 1em;
+}
+}
+
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#header {
+    background-size: 63%;
+    background-position: 1em;
+}
+}
+
+/* Tablet Media Query */
+@media (min-width: 980px) and (max-width: 1024px) {
+#header {
+    background-size: 47%;
+    background-position: 1em;
+}
+}
+/* ////////////////////////////////////////////////// */
+
+/* Note Media Query */
+@media (min-width: 480px) and (max-width: 580px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#main-content {
+    margin: 0 2em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 5px;
+}
+ 
+blockquote {
+    margin: 0.5em;
+}
+ 
+.license-area {
+    font-size: 0.85em;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 80px;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+td.name {
+    width: 15em;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+#main-content {
+    margin: 0 3em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+.top-bar {
+    display: none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 6px;
+}
+ 
+.license-area {
+    font-size: 0.9em;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 93px;
+}
+}
+ 
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#main-content {
+    margin: 0 4em 0 20em;
+}
+ 
+#header, #top-bar #side-bar {
+    max-width: 100%;
+}
+ 
+.top-bar li {
+    margin: 0;
+}
+ 
+#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
+    width: 110px;
+}
+ 
+.page-options-bottom a {
+    padding: 0 7px;
+}
+ 
+.license-area {
+    font-size: 0.95em;
+}
+
+#header h1, #header h2 {
+    margin-left: 106px;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Desktop Media Query -----------
+@media (min-width: 980px) and (max-width: 1399px) {
+ 
+}
+------------------------------------------ */
+ 
+/* Wide Monitor Media Query -----
+@media (min-width: 1400px) {
+ 
+}
+------------------------------------------ */
+ 
+/* off-canvas */
+ 
+.close-menu {
+    display: none;
+}
+ 
+@media (max-width: 767px) {
+ 
+.page-history tbody tr td:last-child {
+width: 35%;
+}
+ 
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div .btn-primary {
+width: 100%;
+float: left;
+}
+ 
+.owindow div .btn-primary ~ div {
+width: 100%;
+}
+ 
+.yui-navset {
+z-index: 1;
+}
+ 
+#navi-bar, #navi-bar-shadow {
+    display: none;
+}
+ 
+.open-menu a {
+    position: fixed;
+    bottom: 0.5em;
+    left: 0.5em;
+    z-index: 15;
+    font-family: 'Nanum Gothic', san-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888 !important;
+    background-color: #fff !important;
+    border-radius: 3em;
+    color: #888 !important;
+}
+ 
+.open-menu a:hover {
+    text-decoration: none !important;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -ms-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -o-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+}
+ 
+#main-content {
+    max-width: 90%;
+    margin: 0 5%;
+    padding: 0;
+    -webkit-transition: 0.5s ease-in-out 0.1s;
+    -moz-transition: 0.5s ease-in-out 0.1s;
+    -ms-transition: 0.5s ease-in-out 0.1s;
+    -o-transition: 0.5s ease-in-out 0.1s;
+    transition: 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -25em;
+    width: 17em;
+    height: 100%;
+    background-color: rgb(240, 255, 240);
+    overflow-y: auto;
+    z-index: 10;
+    padding: 1em 1em 0 1em;
+    -webkit-transition: left 0.5s ease-in-out 0.1s;
+    -moz-transition: left 0.5s ease-in-out 0.1s;
+    -ms-transition: left 0.5s ease-in-out 0.1s;
+    -o-transition: left 0.5s ease-in-out 0.1s;
+    transition: left 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+ 
+}
+ 
+#side-bar:target {
+    display: block;
+    left: 0;
+    width: 17em;
+    margin: 0;
+    border: 1px solid #dedede;
+    z-index: 10;
+}
+ 
+#side-bar:target + #main-content {
+    left: 0;
+}
+ 
+#side-bar:target .close-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3) 1px 1px repeat;
+    z-index: -1;
+}
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** 恋昏崎固有種の花 太古の地層より化石発見
+**著者:** ©︎[[*user indonootoko]]
+**作成年:** 2020
+[[include credit:end]]
+
+[[image http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-79-ec1e/%E7%A7%91%E5%AD%A6.png width="auto"]]
+[[image http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-79-ec1e/%E6%81%8B%E6%96%B0%E2%91%A0.jpg width="auto"]]
+[[size 250%]]**恋昏崎固有種の植物　太古の地層より化石発見**[[/size]]　[[size 50%]]##C0C0C0|__恋昏崎新聞社__##[[/size]]
+@@ @@
+　恋昏崎に自生する植物11種類が、恋昏崎地中の3億9000年前の地層より化石で発見された。発見された11種類はいずれも異常な生命力を持つことで知られる恋昏崎固有種の植物であり、調査委員会は"太古の恋昏崎や、恋昏崎特有の昼夜について重要かつ貴重な発見である"と声明を発表した。調査委員会は声明の中で、今後の展望として[[a_ href="http://ja.scp-wiki.net/joicl-hub"style="cursor:  text-decoration: none !important; color: inherit;"]]__日本生類創研__[[/a]]など各機関と連携し、調査を更に推進することを明らかにした。
+[[collapsible show="･･･続きを読む" hide=" "]]
+++ **化石の発見された地層"花層"から読み解く太古の恋昏崎**
+[[include component:image-block
+|name=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-79-ec1e/tisou.jpg
+|width=130px
+|align=light
+|clear=true
+|caption=▲花層発見時のボーリングコア 　
+]]
+　化石が発見された地層は"花層"と呼ばれる地層であり、今回の発見は各国の専門家からも注目を集めている。花層の発見に際しては弊社広末デスクが大きく関与しており、弊社は過去に何度かに渡り花層について報じてきた。花層は植物の花や花粉などが堆積して出来た地層であり、地球では見ることが出来ない恋昏崎固有の特殊な地層だ。これほどの層が構成されるには莫大な量の植物が必要になるとされており、その存在自体が特別な地層と言える。
+
+　昨今学会を騒がせている花層だが、最大の特徴として挙げられるのが、『花層の中からは植物以外の痕跡が一切発見されておらず、以降の時代からも発見することが出来ない』というものだ。そのため、花層は深刻な大量絶滅の痕跡だと推測する専門家が多い。花層が生成されるメカニズムはほとんど解明されていない状態であり、科学的見地と隠学的見地の両方向から各機関によって調査が進められている最中だ。
+-----
+++ **『カン･ノンジー遺跡の壁画』や『犀賀派に伝わる教え』が示す花層の正体**
+　1985年の1月に発売され、大きな話題を集めた書籍『犀賀金言集』が再度注目を集めている。犀賀金言集は犀賀派活動家として知られる奥村耀司氏によって執筆された書籍であり、1943年のフィラデルフィア次元断絶事件の発生から1962年キューバ危機回避までの間、当次元に滞在し続けた犀賀六巳氏の残した言葉をまとめた貴重な資料であり、現在は入手が困難になっている。
+
+　その書籍の中にこんな一節があるので紹介したい。
+[[div style="display: inline-block ; border : dotted 3px #444444 ; background :#ffffffff ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+@@ @@
+**奥村:** 先生、世界の終わりを見たことがありますか？
+@@ @@
+##red|**犀賀師:** あるとも。何度もある。##
+@@ @@
+**奥村:** 私は恐ろしいです。滅びとは一体なんなのでしょうか。どんな恐ろしいことが起きるのでしょうか。
+@@ @@
+##red|**犀賀師:** 奥村同志。意外に思うかもしれないが、滅びとは恐ろしいものではないのだ。##
+@@ @@
+**奥村:** 先生はお優しい。先生がそう仰ってくれるおかげで私達は恐れることなく終末を受け入れることができます。
+@@ @@
+##red|**犀賀師:** いやいや。これは方便ではない。滅びとは美しいものなのだ。世界は花と光に包まれ、冷たき死の風も暖かき命の風に変わる。終焉のその時まで人は穏やかに過ごすことが出来るのだ。##
+[[>]]
+[[size 50%]]（犀賀金言集 ECO出版社）[[/size]]
+[[/>]]
+[[/div]]
+
+@@ @@
+[[include component:image-block
+|name=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-79-ec1e/doukutu.jpg
+|width=200px
+|align=left
+|clear=true
+|caption=▲カン・ノンジー遺跡の壁画洞窟
+内部撮影は政府により禁止されている
+]]
+　『世界の終わりの時、世界は花に包まれる』という内容は花層を大量絶滅痕だとする仮説とも矛盾しない興味深い内容だ。発売当時はあまり注目されなかった一節だが、花層の発見とともにこの記述を巡る議論が連日行われている。
+
+　世界に終わりと花に関する資料はこれだけではない。シガスタン共和国の古代ロッカク王朝時代の遺跡"カン・ノンジー遺跡"には、大量の死体と燃え盛る炎の壁画が存在する。この壁画について特に注目したいのが、壁画に描かれた死体の周りには花と思われる意匠が施されている点だ。壁画の発見当時は火葬の様子を描いたものと評価されたが、花層の発見によりこちらも再評価が迫られている。ロッカク王は不死に関する研究でも知られる人物であり、その動機については諸説あるが、『終末に備えるために不死を模索していた』という学説が早くも囁かれ始めている。
+
+　もし犀賀金言集やカン・ノンジー遺跡の壁画で示唆されたように、終末と植物の大量発生が関係しているとしたら、過去に終末の起因となるような災害が恋昏崎を襲ったということになる。現在の恋昏崎を開拓した第一期団が恋昏崎に降り立った時点で、恋昏崎は生命溢れる土地だった点については謎が残るが、有力な学説として主張する声も多い。
+------
+++ **『黄昏が恋した地』　暁無く繰り返される夕暮れと夜に関する新学説**
+[[include component:image-block
+|name=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-79-ec1e/tenou.jpg
+|width=200px
+|align=light
+|clear=true
+|caption=▲ハッブル宇宙望遠鏡撮影の天王星
+縦に形成された環が特徴的だ 　
+]]
+　地中の大発見である花層は、遥か空の天文学にも影響を与えている。恋昏崎に朝や日中は無く、夕方と夜を繰り返すという特殊な時間を持つ場所であり、今日までに時空歪説やアノマリー起因説など様々な説が囁かれてきたが、犀賀金言集の再評価を受け新たに『巨大隕石衝突説』が有力視されている。
+
+　『恋昏崎の存在する惑星は極を太陽に向けて自転している。恋昏崎はこの惑星の極付近に存在するため特殊な昼夜を持っている』とする仮説であり、恋昏崎が存在する星が天王星に似た自転をしているという説だ。天王星は巨大な天体の衝突によって現在の自転に傾いたとされており、恋昏崎でも同様の衝突があったのではないかと推測されている。犀賀金言集の内容を採用した説であり、隕石の衝突により惑星が終末を迎えたと解釈しているのが特徴だ。ただし、この意見には反対意見もあり、『自転が傾くほどの衝撃が発生する隕石ならば植物は即座に消滅し、花層を形成するに至らない』『恋昏崎が惑星に存在するとは限らず、時空連続体の歪に位置する異常空間とみるのが自然』『宇宙規模の活動家である犀賀氏が、惑星規模の終末に言及していると考えられない』など様々な見解が存在する。
+
+　また、隕石衝突説の裏で『自転軌道変動説』も密かに注目を集めている。この説も犀賀金言集の内容を根拠にしているが、『冷たき死の風も暖かき命の風に変わる』という記述に重きを置いているのが特徴だ。これは終末時の世界に訪れる変化が植物の大量発生だけではなく、気候の変化のために自転軌道の大変動も発生するという説であり、恋昏崎における気候の変動は自転の傾きによって極が太陽の方角を向いたことで発生したとされている。終末植物が大量発生に併せて自転すらも大変動するという大胆な説だが、隕石衝突説反対意見として存在した『植物が消滅するため花層が生成されない』という問題を解決することが可能な説だ。自転の変動がいくら何でも唐突すぎるとして拒否反応を示す学者も多いが、花層の生成プロセスに重きを置いて考える隠秘学系の学者には支持されつつある説だ。
+
+　これらの説は今まで最有力視されていた時空歪説を真っ向から否定するものであり、各機関の有識者たちの注目も熱い。花層の調査は続報が楽しみな案件だ。【ライオネル高田】【協力：日本生類創研 薗田氏】
+@@ @@
+@@ @@
+@@ @@
+**【関連記事】**
+[# 恋昏海遠洋に大氷山　元SPCで恋昏汽船社長のメイス氏証言 人工物も？]
+[# 弊社広末デスク大手柄！ 恋昏崎地層より大量絶滅痕発見]
+[# 犀賀六巳を名乗る詐欺事件で有村組構成員4名を逮捕]
+[# 財団だけが知っている？　世界の終わり方に謎の学説]
+[# 【再掲】 戀昏嵜日報第壹號]
+[[/collapsible]]
+@@ @@
+------
+[[image http://scp-jp.wdfiles.com/local--files/koigarezaki-news-0130/%E5%BA%83%E6%9C%AB.jpg width="300px"]]
+　
+[[f>image http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-79-ec1e/hrosu width="200px"]]
+　花層の発見から端を発した今回のニュースですが、ボーリングマニアの私としては続報が楽しみで仕方ありません。恋昏崎固有種の植物が花層から化石で見つかったのは犀賀金言集の内容を裏付ける大発見であり、恋昏崎の昼夜に関する学説に大きな進展を与えたと思います。
+
+　発見された11種類の固有種は外見や特徴がそれぞれ異なりますが、極めて過酷な環境でも根付くことができ、水を必要とせずに成長することが出来るという共通点があります。温暖で安定した気候の恋昏崎において、固有種たちがこのような特性を獲得するに至った経緯はこれまで謎に包まれていましたが、花層の発見と共にこれらは明らかになったと言えると思います。太古の恋昏崎を襲った終末に関しては結論に至っていませんが、それこそ世界が滅ぶような事象が発生したのは間違いありません。
+
+　また、恋昏海の遠洋で発見された大氷山についても今回の発見で進展がありそうです。自転が傾いたのであれば、当時大氷山の存在している地点は日光が当たる温暖な場所であった可能性が高く、大氷山は存在していなかったと推測できます。これまで恋昏崎以外に陸地は無いと考えられていましたが、大氷山の下敷きになった大地が存在するかもしれません。もしそこで生命の痕跡を見つけることができれば恋昏崎を襲った終末の正体も解るかもしれません。各調査委員会の新発見に期待です。【広末 孝行】
+　
+------
+++ 広告
+
+[[include component:image-block
+|name=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-79-ec1e/lorentz.jpg
+|width=300px
+|align=left
+|clear=true
+|caption=[# ローレンツ･ストレージ貸切 2泊3日99800円]
+異常物収拾家ロレンツ･エルドリッヂの宝物庫
+収蔵アノマリー使い放題でこのお値段
+[[span style="color:gray"]]恋昏ツアーズ（株）[[/span]]]]
+
+[[include component:image-block
+|name=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-79-ec1e/same.jpg
+|width=300px
+|align=center
+|clear=true
+|caption=[# 私達の活動のため皆様のお力をお貸しください]
+コーヒー1杯分の寄付で軟骨野郎を10体シバけます
+誰もが鮫を好きに殴れる世界を想像してみてください
+[[span style="color:gray"]]サメ殴りセンター[[/span]]]]

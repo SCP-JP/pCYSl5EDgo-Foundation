@@ -1,0 +1,1264 @@
+[[module CSS]]
+/*
+    REBORN MCF Theme
+    [2018 Wikidot Theme]
+    Based on Reach's Manna Charitable Foundation Theme
+    Created by 7happy7
+*/
+
+@charset "utf-8";
+ 
+@import url('http://scp-jp.wdfiles.com/local--theme/scp-sigma-9-off-canvas/style.css');
+
+
+/* COMMON */
+#page-title {display: none;}
+
+#content-wrap {
+    position: relative;
+    margin: 2em auto 0;
+    max-width: 1040px;
+    min-height:1300px;
+    height: auto !important;
+    height: 1500px;
+}
+
+h1, #page-title {
+    font-family: sansationregular, sans-serif;
+    color: #ff000000;
+    padding: 0 0 0.25em;
+    margin: 0 0 0.6em;
+    text-align: left;
+}
+h1 {
+    margin-top: 0.7em;
+    padding: 0;
+    font-weight: bold;
+}
+h2, h3, h4, h5, h6, h7 {
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+}
+#page-title {
+    font-family: sansationregular, sans-serif;    
+    font-weight: bold;
+    border-color: #ff000000;
+}
+ul {
+    /*list-style-image: url(../images/bullet.gif);*/
+    list-style: square;
+}
+#top-bar ul {
+/* list-style-image: none; /* IE ONLY! IF list-style-image IS SET */
+}
+ 
+li, p {
+    line-height: 150%;
+}
+a {
+    color: #dc143c;
+    text-decoration: none;
+    background: transparent;
+}
+a.newpage {
+    color: #000000;
+    text-decoration: none;
+    background: transparent;
+}
+a:hover {
+    text-decoration: underline;
+    background: transparent;
+}
+ 
+/* GLOBAL WIDTH */
+#header, #top-bar {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #fff;
+    font-family: sansationregular, normal;
+    font-size: 0.80em;
+    color: #333;
+}
+div#container-wrap {
+    background: url(http://indobox.wdfiles.com/local--files/scoop/bbgg.png) top left 90% repeat-x;
+}
+ 
+/* HEADER */
+#header {
+    height: 140px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 22px; /* FOR MENU */
+    background: url(http://indobox.wdfiles.com/local--files/scoop/rogom) 40px 6px no-repeat; background-size: 47%;  background-position: 1em;
+}
+#search-top-box {
+    position: absolute;
+    top: 79px;
+    right: 9px;
+    width: 250px;
+    text-align: right;
+}
+#search-top-box-input {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.5);
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #fff;
+    color: #000;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.8);
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 90%;
+    font-weight: bold;
+    color: #dc143c;
+    background-color: #ffffff;
+    background: linear-gradient(to bottom, #ffffff,#ffffff,#ffffff);
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #fff;
+    color: #dc143c;
+    text-shadow: 0 0 1px rgba(255,255,255,.25)
+    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #f5f5f5,#f5f5f5,#f5f5f5);
+    box-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+ 
+#login-status {
+    color: #ffffff;
+    font-size: 90%;
+    z-index: 30;
+}
+#login-status a {
+    background: transparent;
+    color: #ffffff;
+}
+#login-status ul a {
+    color: #ffffff;
+    background: transparent;
+}
+ 
+#account-topbutton {
+    background: #fff;
+    color: #ffffff;
+}
+ 
+.printuser img.small {
+    margin-right: 1px;
+}
+ 
+#header h1 {
+    margin-left: 120px;
+    padding: 0;
+    float: left;
+    max-height: 95px;
+}
+#header h2 {
+    margin-left: 120px;
+    padding: 0;
+    clear: left;
+    float: left;
+    font-size: 105%;
+    max-height: 38px;
+}
+ 
+#header h1 a {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    max-height: 0px;
+    color: transparent;
+    font-family: sansationregular;
+    font-size: 0%;
+    text-decoration: none;
+}
+ 
+#header h2 span {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-family: quanticoregular, sans-serif;
+    font-size: 0%;
+    color: #092200;
+}
+ 
+/* TOP MENU */
+#top-bar {
+    font-family: quanticoregular, sans-serif;
+    font-size: 90%;
+}
+#top-bar ul {
+    float: right;
+}
+#top-bar a {
+    color: #fff;
+    background: transparent;
+}
+#top-bar ul li {
+    border: 0;
+    position: relative;
+}
+#top-bar ul li ul {
+    border: solid 1px #3d2b1f;
+    box-shadow: 0 2px 6px rgba(0,0,0,.5);
+    border-top: 0;
+}
+#top-bar ul li:last-of-type ul {
+    right: 0;
+}
+#top-bar ul li a {
+    border-left: solid 1px rgba(64,64,64,.1);
+    border-right: solid 1px rgba(64,64,64,.1);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1px;
+    max-height: 1px;
+    overflow: hidden;
+}
+ 
+#top-bar ul li.sfhover a,
+#top-bar ul li:hover a {
+    background: #f0f8ff;
+    color: #006c00;
+    border-left: solid 1px rgba(64,64,64,1);
+    border-right: solid 1px rgba(64,64,64,1);
+}
+ 
+#top-bar ul li.sfhover ul li a,
+#top-bar ul li:hover ul li a {
+    border-width: 0;
+    width: 150px;
+    border-top: 1px solid #ddd;
+    line-height: 160%;
+    height: auto;
+    max-height: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#top-bar ul li.sfhover a:hover,
+#top-bar ul li:hover a:hover {
+    background: #fff;
+    text-decoration: none;
+}
+#top-bar ul li ul {
+    border-width: 0 1px 1px 1px;
+    width: auto;
+}
+#top-bar ul li ul li, #top-bar ul li ul li.sfhover,
+#top-bar ul li ul li, #top-bar ul li ul li:hover {
+    border-width: 0;
+}
+#top-bar ul li ul li a {
+    border-width: 0;
+}
+#top-bar ul li ul a, #top-bar a:hover {
+    color: #8db600;
+}
+ 
+/* IE7 HACK */
+#top-bar ul > li > ul {  
+    *margin-top: -4px;
+}
+ 
+/* SIDE MENU */
+#side-bar {
+    left: -2em;
+    font-family: quanticoregular, sans-serif;
+}
+#side-bar .side-block {
+    padding: 10px;
+    border: 3px solid #dc143c;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    background: #fff;
+    margin-bottom: 15px;
+}
+#side-bar .side-area {
+    padding: 10px;
+}
+#side-bar .heading {
+    color: #c71585;
+    border-bottom: solid 1px #dc143c;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    font-weight: bold;
+}
+#side-bar p {
+    margin: 0;
+}
+#side-bar div.menu-item {
+    margin: 2px 0;
+}
+#side-bar div.menu-item img {
+    width: 13px;
+    height: 13px;
+    border: 0;
+    margin-right: 2px;
+    position: relative;
+    bottom: -2px;
+}
+#side-bar div.menu-item a {
+    font-weight: bold;
+}
+#side-bar div.menu-item.inactive img {
+    opacity: 0.25;
+}
+#side-bar div.menu-item.inactive a {
+    color: #db7093;
+}
+#side-bar div.menu-item .sub-text {
+    font-size: 80%;
+    color: #db7093;
+}
+#side-bar div.menu-item.sub-item {
+}
+ 
+#side-bar .collapsible-block-folded {
+    background: url(http://unofficial-scp-sandbox-jp.wikidot.com/local--files/nav:side/expand.png) 0 2px no-repeat;
+}
+#side-bar .collapsible-block-link {
+    margin-left: 15px;
+    font-weight: bold;
+}
+#side-bar .collapsible-block-unfolded-link {
+    border-bottom: solid 1px #c71585;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    color: #c71585;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+    color: #db7093;
+    text-decoration: none;
+}
+/* CONTENT */
+#main-content {
+    margin: 0 0 0 19em;
+    padding: 0;
+    position: relative;
+}
+ 
+#breadcrumbs {
+    margin: -1em 0 1em;
+    font-weight: 85%;
+}
+ 
+/* YUI-TABS */
+.yui-navset .yui-content{
+    background-color: #f5f5f5;
+}
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+    background-color:#d8d8d8;
+    background-image: url(../images/yuitabs.png);
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
+.yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
+    background:#008000 url(../images/yuitabs.png) repeat-x left -1400px; /* selected tab background */
+    color:#fff;
+}
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus {
+    background:#79d479 url(../images/yuitabs.png) repeat-x left -1300px;
+    text-decoration: none;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #008000;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #006c00;
+}
+ 
+/* FOOTER */
+#footer {
+    clear: both;
+    font-size: 77%;
+    background: #3d2b1f;
+    color: #006c00;
+    margin-top: 15px;
+    padding: 3px 10px;
+}
+#footer .options {
+    visibility: visible;
+    display: block;
+    float: right;
+    width: 50%;
+    font-size: 100%;
+    text-align: right;
+}
+#footer a {
+    color: #fff;
+    background: transparent;
+}
+
+div.wiki-note {
+    background-image: url(http://unofficial-scp-sandbox-jp.wikidot.com/local--files/component:mcf-theme/MCF-7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    border: 1px solid #999;
+    text-align: center;
+    border: double 2px #6bab30;
+    padding: 7px 10px;
+    margin: 5% 20%;
+    font-family: sansationregular, serif;
+    background-color: #edf7e3;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+ 
+/* Custom page content classes */
+#page-content {
+    min-height: 720px;
+}
+ 
+.unmargined > p {
+    margin: 0;
+    line-height: 100%;
+}
+.content-panel {
+    border: solid 1px #5d8aa8;
+    border-radius: 10px;
+    background-color: #bcd4e6;
+    margin: 10px 0 15px;
+    box-shadow: 3px 3px 6px #e6e6fa;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.1);
+}
+.content-panel.standalone {
+    background: #fcfdfb;
+}
+.content-panel.series {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.content-panel.centered {
+    text-align: center;
+}
+.content-panel.left-column {
+    float: left;
+    width: 48%;
+}
+.content-panel.right-column {
+    float: right;
+    width: 48%;
+}
+ 
+.content-panel .panel-heading {
+    padding: 2px 10px;
+    color: #ffffff;
+    font-size: 90%;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.35);
+}
+.content-panel .panel-heading > p,
+.content-panel .panel-footer > p {
+    margin: 0;
+}
+.content-panel .panel-body {
+    padding: 5px 10px;
+    background: f0ffff
+}
+.content-panel .panel-footer {
+    padding: 1px 10px;
+    color: #06da6e;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+.content-panel .panel-footer a {
+    color: #ffffff;
+}
+.content-panel .content-toc {
+    float: right;
+    padding: 0 20px;
+    background-color: #fff;
+    border: solid 1px #5d8aa8;
+    border-radius: 10px;
+    margin: 20px 0 5px 5px;
+    white-space: nowrap;
+    box-shadow: inset 1px 2px 6px rgba(0,0,0,.15)
+}
+.alternate:nth-child(even) {
+    background-color: rgba(255,255,255,.9);
+}
+ 
+/* Page Rating Module Customizations */
+.page-rate-widget-box {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+  font-family: sansationregular, sans-serif !important;
+}
+.page-rate-widget-box .rateup,
+.page-rate-widget-box .ratedown {
+  background-color: #f0f8ff;
+  border-top: solid 1px #dc143c;
+  border-bottom: solid 1px #dc143c;
+  font-weight: bold;
+}
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a {
+  background: transparent;
+  color: #dc143c;
+  padding: 0 4px;
+  margin: 0 1px;
+}
+.page-rate-widget-box .rateup a:hover,
+.page-rate-widget-box .ratedown a:hover {
+  background: #dc143c;
+  color: #dc143c;
+  text-decoration: none;
+}
+.page-rate-widget-box .cancel {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+  border-left: 0;
+  border-radius: 0 5px 5px 0;
+}
+.page-rate-widget-box .cancel a {
+  background: transparent;
+  text-transform: uppercase;
+  color: #f0ffff;
+}
+.page-rate-widget-box .cancel a:hover {
+  border-radius: 0 3px 3px 0;
+  background: #dc143c;
+  color: #f0ffff;
+  text-decoration: none;
+}
+
+/* Credit Rating Module */
+#page-content .creditRate div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+}
+#page-content .creditButton p a{
+background: #dc143c !important;
+}
+.rate-box-with-credit-button .creditButton {
+    background-color: #dc143c !important;
+    border: solid 1px #dc143c !important;
+}
+.creditButton a:hover {
+color: #dc143c !important;
+}
+
+/* Heritage Collection Rating Module */
+.heritage-rating-module {
+  float: right;
+  background-color: #dc143c;
+  padding: 2px 8px 2px 5px;
+  margin-bottom: 10px;
+  margin-right: 2em;
+  border: solid 1px #dc143c;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.heritage-rating-module .page-rate-widget-box {
+  float: right;
+  box-shadow: none;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.heritage-rating-module .heritage-emblem {
+  float: right;
+  position: relative;
+  top: -2px;
+  left: 2px;
+  height: 16px;
+  width: 16px;
+  overflow: visible;
+  margin-right: 2px;
+}
+.heritage-rating-module .heritage-emblem img {
+  width: 20px;
+  height: 20px;
+  border: 0;
+}
+ 
+/* Fixes for Multi-Line Page Tags */
+#main-content .page-tags {
+    margin: 1em 0 0;
+    padding: 0;
+}
+#main-content .page-tags span {
+    display: inline-block;
+    padding: 0;
+    max-width: 60%;
+}
+#main-content .page-tags a {
+    display: inline-block;
+    white-space: nowrap;
+}
+ 
+/* Standard Image Block */
+.scp-image-block {
+  float: right;
+  clear: right;
+  margin: 0 2em 1em 2em;
+  border: solid 1px #ff000000;
+  box-shadow: 0 1px 6px rgba(0,0,0,.25);
+  width: 300px;
+}
+.scp-image-block.block-left {
+  float: left;
+  clear: left;
+  margin: 0 2em 1em 0;
+}
+.scp-image-block img {
+  border: 0;
+  width: 300px;
+}
+.scp-image-block .scp-image-caption {
+  background-color: #ff000000;
+  border-top: solid 1px #ff000000;
+  padding: 2px 0;
+  font-size: 80%;
+  font-weight: bold;
+  text-align: center;
+  width: 300px;
+}
+.scp-image-block > p {
+  margin: 0;
+}
+.scp-image-block .scp-image-caption > p {
+  margin: 0;
+  padding: 0 10px;
+}
+ 
+/* Forum Customizations */
+.forum-thread-box .description-block {
+  padding: .5em 1em;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.15),
+    inset 0 1px 0 rgba(255,255,255,.8),
+    inset 0 10px 5px rgba(255,255,255,.25),
+    inset 0 -15px 30px rgba(0,0,0,.1)
+}
+.thread-container .post .head {
+    padding: 0.5em 1em;
+    background-color: #f0f8ff;
+    background: linear-gradient(to right, #f0f8ff, #eeecec);
+    box-shadow: inset 2px 3px 6px rgba(0,0,0,.15);
+    border-radius: 5px 5px 0 0;
+}
+ 
+/* Hide Forum Signatures */
+.signature {
+  display:none !important;
+}
+
+@media (max-width: 479px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#page-content {
+    font-size: 0.9em;
+}
+ 
+#main-content {
+    margin: 0;
+}
+ 
+#recent-posts-category {
+width: 100%;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+    padding: 0;
+}
+ 
+.page-options-bottom a {
+    padding: 0 4px;
+}
+ 
+blockquote {
+    margin: 1em 0;
+}
+ 
+.license-area {
+    font-size: 0.8em;
+}
+
+#header h1, #header h2 {
+    margin-left: 66px;
+}
+ 
+table.form td, table.form th {
+    float: left;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+td.name {
+    width: 15em;
+}
+ 
+table.form td, table.form th {
+    padding: 0;
+}
+ 
+#edit-page-title {
+    max-width: 90%;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+}
+
+/* ////////////////////background-size//////////////////// */
+/* Mobile Media Query */
+@media (max-width: 319px) {
+#header {
+    background-size: 75%;
+    background-position: 1em;
+}
+}
+ 
+/* Note Media Query */
+@media (min-width: 320px) and (max-width: 580px) {
+#header {
+    background-size: 83%;
+    background-position: 1em;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+#header {
+    background-size: 77%;
+    background-position: 1em;
+}
+}
+
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#header {
+    background-size: 63%;
+    background-position: 1em;
+}
+}
+
+/* Tablet Media Query */
+@media (min-width: 980px) and (max-width: 1024px) {
+#header {
+    background-size: 47%;
+    background-position: 1em;
+}
+}
+/* ////////////////////////////////////////////////// */
+
+/* Note Media Query */
+@media (min-width: 480px) and (max-width: 580px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#main-content {
+    margin: 0 2em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 5px;
+}
+ 
+blockquote {
+    margin: 0.5em;
+}
+ 
+.license-area {
+    font-size: 0.85em;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 80px;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+td.name {
+    width: 15em;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+#main-content {
+    margin: 0 3em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+.top-bar {
+    display: none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 6px;
+}
+ 
+.license-area {
+    font-size: 0.9em;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 93px;
+}
+}
+ 
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#main-content {
+    margin: 0 4em 0 20em;
+}
+ 
+#header, #top-bar #side-bar {
+    max-width: 100%;
+}
+ 
+.top-bar li {
+    margin: 0;
+}
+ 
+#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
+    width: 110px;
+}
+ 
+.page-options-bottom a {
+    padding: 0 7px;
+}
+ 
+.license-area {
+    font-size: 0.95em;
+}
+
+#header h1, #header h2 {
+    margin-left: 106px;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Desktop Media Query -----------
+@media (min-width: 980px) and (max-width: 1399px) {
+ 
+}
+------------------------------------------ */
+ 
+/* Wide Monitor Media Query -----
+@media (min-width: 1400px) {
+ 
+}
+------------------------------------------ */
+ 
+/* off-canvas */
+ 
+.close-menu {
+    display: none;
+}
+ 
+@media (max-width: 767px) {
+ 
+.page-history tbody tr td:last-child {
+width: 35%;
+}
+ 
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div .btn-primary {
+width: 100%;
+float: left;
+}
+ 
+.owindow div .btn-primary ~ div {
+width: 100%;
+}
+ 
+.yui-navset {
+z-index: 1;
+}
+ 
+#navi-bar, #navi-bar-shadow {
+    display: none;
+}
+ 
+.open-menu a {
+    position: fixed;
+    bottom: 0.5em;
+    left: 0.5em;
+    z-index: 15;
+    font-family: 'Nanum Gothic', san-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888 !important;
+    background-color: #fff !important;
+    border-radius: 3em;
+    color: #888 !important;
+}
+ 
+.open-menu a:hover {
+    text-decoration: none !important;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -ms-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -o-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+}
+ 
+#main-content {
+    max-width: 90%;
+    margin: 0 5%;
+    padding: 0;
+    -webkit-transition: 0.5s ease-in-out 0.1s;
+    -moz-transition: 0.5s ease-in-out 0.1s;
+    -ms-transition: 0.5s ease-in-out 0.1s;
+    -o-transition: 0.5s ease-in-out 0.1s;
+    transition: 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -25em;
+    width: 17em;
+    height: 100%;
+    background-color: rgb(240, 255, 240);
+    overflow-y: auto;
+    z-index: 10;
+    padding: 1em 1em 0 1em;
+    -webkit-transition: left 0.5s ease-in-out 0.1s;
+    -moz-transition: left 0.5s ease-in-out 0.1s;
+    -ms-transition: left 0.5s ease-in-out 0.1s;
+    -o-transition: left 0.5s ease-in-out 0.1s;
+    transition: left 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+ 
+}
+ 
+#side-bar:target {
+    display: block;
+    left: 0;
+    width: 17em;
+    margin: 0;
+    border: 1px solid #dedede;
+    z-index: 10;
+}
+ 
+#side-bar:target + #main-content {
+    left: 0;
+}
+ 
+#side-bar:target .close-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3) 1px 1px repeat;
+    z-index: -1;
+}
+}
+[[/module]]
+
+[[module css]]
+#u-saiga a {
+color: inherit;
+text-decoration: underline;
+}
+#u-saiga a:hover {
+text-decoration: none;
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** マンハッタン次元崩落 GOC介入目前か
+**著者:** ©︎[[*user stengan774]]
+**作成年:** 2020
+ 
+----
+//[[[author:stengan774|この著者の他の作品]]]//
+[[include credit:end]]
+
+[[div style="border: double #000"]]
+
+= **この記事は恋昏崎新聞2001年9月13日夕刊の電子アーカイブ版です**
+= 記事内の内容は広告を除いて最新の物ではありません。あらかじめご了承下さい。--　　--恋昏崎ニュースエージェンシー
+
+[[/div]]
+------
+[[div id="u-saiga"]]
+[[image 最新.png width="auto"]]
+[[image 写真11.jpg width="auto"]]
+[[size 250%]]**別次元の摩天楼 GOC介入か**[[/size]]　[[size 50%]]##C0C0C0|__恋昏崎新聞社__##[[/size]]
+@@ @@
+　9月11日に発生したマンハッタン次元崩落同時多発テロ事件、通称9.11事件が現在世界の注目を集めている。[*https://www.google.com/search?q=SCP%E8%B2%A1%E5%9B%A3&oq=SCP%E8%B2%A1%E5%9B%A3&aqs=chrome..69i57j69i61l3.3541j0j4&sourceid=chrome&ie=UTF-8 財団]は昨日午後の声明で、テロの実行犯は指定過激派団体[[[chaos-insurgency-hub|カオス・インサージェンシー]]]である可能性が高いと発表した。混迷化する事件の概況を恋昏崎新聞社ニューヨーク支局特派員が報告する。
+[[/div]]
+@@ @@
+[[collapsible show="･･･続きを読む" hide=" "]]
+
+[# 人類精神再生の為のアンタレス協会が送るセミナー　”グランドマスターズの到来を待て”(広告)]
+[# MC NightCap　ささやき声がたまらないニューアルバム”街都の底で踊れ”(広告)]
+[# ジェイソン・ロイヤーズ氏も愛用　JSLU日本特殊免許組合公認 大富豪免許を取得するには?(広告)]
+[[div id="u-saiga"]]
+++ **事件の背景ーカオス・インサージェンシーの思惑ー**
+[[include component:image-block name=zukai.png|caption=各組織の関係図　クリックで拡大可能|width=240px|link="*http://scp-jp.wdfiles.com/local--files/koigarezaki-news-911-1998-ver/zukai.png"|align=right]]
+
+　[[[scp-1710-jp|0712事件]]]後の世界秩序は、財団、世界オカルト連合(GOC)、プロメテウスグループ、アメリカ合衆国の4組織が主体となってこの3年間構築されてきた。政治、軍事、科学、経済など様々な分野で影響力を発揮するこの4大権力による新たな超常組織体制のことを、その叩き台となった[[[operation-cannery-row-document-2013-451a3|SUSEOCT]]](米国南部超常組織協力条約)の通称からとってメキシコ湾体制と呼ぶ。日本の読者にとっては米国版[[[jagpato-hub|JAGPATO]]](日本超常組織平和友好条約機構)といえば伝わるだろう。
+
+　しかしながら0712事件以前から指摘されていた4大権力の癒着は、メキシコ湾体制成立以後ますますその腐敗ぶりを加速させている。顕著なのが先日当社が報道した財団とアメリカ合衆国の異常事件課(UIU)の間で[[[scp-2635|なんらかの超常資産]]]が定期的に取引されているという｢タマラック・ビル疑惑｣である。財団及びUIUの広報官は｢単なる収容措置である｣としているが、賄賂もしくはマネーロンダリングの隠れ蓑であるのは明らかであり、サイト-58に対する当社の取材も財団の隠蔽体質から常に拒否されている状態だ。
+
+　こうした現状で9.11事件を実行したのが、財団から離脱した過激派超常組織であるカオス・インサージェンシー(CI)である。設立経緯から財団に過剰に反発してきたCIだが、それだけにメキシコ湾体制に対する敵愾心が今回の事件の背景にあると考えられる。
+------
+= [[image 広告1.jpg width="400px"]]
+++ **現在判明している事件の概要**
+[[include component:image-block name=上空.jpg|caption=NASAが宇宙から観測した、突入直後の神秘エネルギーの爆発　丸印は当記事作成者による|width=240px|align=left]]
+　このテロ事件は現地時間11日午前8時頃に、アメリカン航空11便、ユナイテッド航空175便、デルタ航空1989便、アメリカン航空77便、ユナイテッド航空93便の計5機の飛行機がほぼ同時にハイジャックされたことことから始まっている。CIの実行部隊は何らかのパラテクノロジー的な物品を操縦室に持ち込み、パイロットを精神操作して3機(アメリカン航空11便、ユナイテッド航空175便、デルタ航空1989便)をニューヨーク・マンハッタンへ、残り2機(アメリカン航空77便、ユナイテッド航空93便)をワシントンD.C.へ向かわせた。
+
+　その後アメリカン航空77便は国防総省本庁舎(ペンタゴン)へ、ユナイテッド航空93便はペンシルベニア州シャンクスヴィルへそれぞれ非異常性の墜落によってその機体を四散させた。しかしマンハッタンへ向かった3機はワールドトレードセンター(WTC)へ突入し、激突の直後、WTCを中心とするマンハッタン一帯が入れ子結晶構造の別次元へと崩落したのである。
+
+　国際統一奇跡論研究センターの発表によると、こうした現象は神格実体の不完全な顕現に際して発生することが多い『菩薩・バックラッシュ』と呼ばれる現象に性質が近いとのことだが、ここまで大規模なものは今まで観測されたことが無いという。奇跡論に詳しい中華異常事物現象学会分派、竹籠異象考古学研究会の王秀弦氏(75)の話では、CIは別次元神格実体の降臨儀式において、0712事件にも用いられた旧プロメテウス・ニューロンズ社のパラテクノロジー集団意識接続システムを用いた可能性が高い。
+
+「儀式がなぜ失敗したのかは分かりませんが、もし成功していれば3年前のポーランドの悪夢を我々は再び見ることになったでしょう･･････。それも、より甚大で最悪な物を。」
+------
+= [[image 広告2.jpg width="400px"]]
+++ **米国各組織の動き**
+[[include component:image-block name=魚.jpg|caption=マンハッタン近辺にて、多数発見されつつある謎の生物。三枚におろしても動いたとは[*http://scp-jp.wikidot.com/yamizushi-hub 地元寿司店オーナー]の言|width=240px|align=right]]
+　現在、マンハッタン一帯は内部状態を観測不可能であり、現象発生時に一帯にいた人々の安否は不明である。さらに別次元がこちら側へと浸食しつつあり、ニューヨーク(NY)に設立された財団とGOCの特別対策本部は昼夜を問わず対応に追われている。
+
+　別次元侵食対策の他に目下進められているのが、複数の別次元を経由したマンハッタンへのアクセス方法であり、この計画のため朝鮮蛇の手の[[[gumiho|ホヤ女史]]]や理外研の研究者グループなど世界各国の空間工学者と妖術者が次々とここNYに集結している。対策本部はルートが開拓でき次第、最優先で生存者の捜索と救出を行う方針のようだ。
+
+　さらにマンハッタン近辺で発見される生物について、財団は別次元との空間重複によって侵入してきた悪魔実体である可能性が高いとしており、[[[scp-4661|ラスベガス]]]からNYまで対悪魔実体のための[[[scp-4967|聖水生成システム]]]や機材搬入の進行と財団のアルト・クレフ博士率いる悪魔狩り合同部隊の編成が予定されている。
+
+　一方でGOCはこのまま別次元の浸食が進むようであればマンハッタン島を吹き飛ばすのも辞さないという方針のようだ。1988年にもGOCは[[[nx-03|ハイ・ブラジル周辺地域]]]をドラゴクラーケン(ワニイカとも)ごと[[[lte-0851-cetus|指向性核エネルギー兵器]]]で半壊させており、実際に同様の兵器群をNY周辺に配備しつつある。国防総省のオカルト部門であるペンタグラムが機能不全に陥っていることもあり、アメリカ政府はGOCに慎重な行動を求めているが、GOC側は0712事件で遅れをとり被害が拡大した反省から、早期に事態を収拾するための強硬姿勢を崩さない様子だ。介入は時間の問題であると言え、財団の対応の遅れが非難される。　【広末孝行・ジョージR】
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+[[div style="border: double #000"]]
+
+= **電子アーカイブ版ここまで　2001年9月13日夕刊　©恋昏崎新聞(恋昏崎ニュースエージェンシー)**
+
+[[/div]]
+------
+**【新着記事】**
+[# MC&D物流部門独立の兆しか　商標登録『Gpエクスプレス・ロジスティクス』]
+[# 財団がまたもや失敗　拘留中の第二ハイトス教会幹部、献血カーで球状星団テルザンに逃亡]
+[# ワンダーテインメント博士を名乗る連続食い逃げ犯ついに逮捕　アンブローズのジェイミーチーフシェフお手柄]
+[# 火星地下で男性器を模したオブジェ発見　あのルイス・デュシャンの作品か]
+[# 木易蔵書閣がついに公開　”ヒューマニストの貴族たち紳士録”]
+
+**【あなたにオススメ】**
+[# 桜桃楽器×マクスウェリズム教会　｢電脳インプラントまで震える｣ハルモニア・シンセサイザー開発秘話]
+[# 広末孝行のいい旅楽しかりし旅　第5回: イエローストーン国立公園]
+[# ザ・シビリアン、AKI書房とのJAGPATO調停に応じず　不適切図書流出問題に決着の日は来るのか]
+[# 元日本生類創研職員が語る奇蹄病事件と杜撰な生物管理の実態　｢ごめんで済んだら財団はいらない｣]
+[# ナイアーラトピテズム(マクロカオシズム)VS視野狭窄の自由解放戦線　公開ディスカッションの終盤はラップ対決に]
+[[/collapsible]]
+@@ @@
+------
+[[div class="dlink"]]
+[[image 広末シャープ2.jpg width="300px"]]
+[[include :incbox:koigare-hirosue
+|header=false
+|width=175px
+|fontsize=75%
+|image=http://scp-jp.wdfiles.com/local--files/koigarezaki-news-20200602-1998ver/%E3%82%B5%E3%83%9E%E3%83%B3%E3%82%B5.jpg
+|text=**▲広末・G・サマンサ　[*http://scp-jp.wikidot.com/about-deer ディア大学]歴史・社会科学部卒後、恋昏崎ニュースエージェンシーに入社。趣味はボーリングと潮干狩り。最近、海外支局の職員に「いろすえさん」と呼ばれる。**
+]]
+　この記事は私の父であり、恋昏崎ニュースエージェンシーの前身である恋昏崎新聞社の編集長を長年務めた広末孝行によって書かれた物です。当時彼はプロメテウスラボによるカック灰の公開実験を取材するために、特派員としてニューヨーク支局へ渡っていました。結果として彼の9.11事件に深く切り込んだ報道は恋昏崎新聞社の注目度を上げ、出版部数が歴代最高となったいわゆる黄金期を築くことになるのですが、当時の私は妹とともに父の帰りをただただ待つことしかできず、歯がゆい思いをしていたのを覚えています。
+
+　さて、記事の内容を見ていると、やはりこの事件の背景にあるのは財団を筆頭とするメキシコ湾体制の癒着であるように思えます。この事件以後、プロメテウスグループは0712事件に続いて再び復興需要によって大きく業績を伸ばし、名実ともに世界産業の覇権を握ることとなりました。もしこの事件が財団とプロメテウスによって引き起こされたマッチポンプだとしたら･･････全てに説明がつくのではないでしょうか。この事件を切っ掛けに財団とGOCは反目し、メキシコ湾体制は崩壊することとなりますが、それすらも権力を一極集中させるための策略では無いかと感じます。到底許すことはできない陰謀です。財団は近年医療企業連合"Yakushi"などの設立にも関与しており、我々はこれからもその驕り高ぶりを徹底的に追及していく所存です。　【広末・ゴールウェイ・サマンサ】
+[[/div]]
+------
+最近、当社の記事の[[a_ href="*http://ja.scp-wiki.net/koigarezaki-news-0517"style="cursor:  text-decoration: none !important; color: inherit;"]]__無断転載__[[/a]]が増加しています。当社の記事は全て**転載禁止**です。読者の皆様も無断記事転載の撲滅にご協力くださいますようお願いします。
+
+今月から、広告が多すぎるとのご要望に応えたプレミアム購読者機能を追加致しました。プレミアム購読者は広告が表示されなくなるだけでなく、最新記事をメール通知、ユーザー同士でのお気に入り記事共有、編集部のスペシャルメッセージを聞けるなど特別な機能が利用可能です。(月額1,050円)今後とも恋昏崎ニュースエージェンシーをごひいき頂けるようよろしくお願い申し上げます。
+[[>]]
+編集部一同
+[[/>]]
+------
+++ 広告
+
+[[include component:image-block
+|name=闇寿司.sushi
+|width=300px
+|align=left
+|clear=true
+|caption=[# 全品1ドル均一]
+今月の新ネタ: カイジュウキャビア軍艦 モォ～スフィア(株)のマインド・ミルク™炙り 西行ラーメン
+[[span style="color:gray"]]闇寿司 スリー・ポートランド前店[[/span]]]]
+
+[[include component:image-block
+|name=シガスタン名物.jpg
+|width=300px
+|align=center
+|clear=true
+|caption=[# 放出大特価　100g1000ソム]
+知る人ぞ知るシガスタンの高級食材　あのオーミの骨馬がこのお値段
+[[span style="color:gray"]]闘永舎　食肉卸売部門[[/span]]]]
+
+[[include component:image-block
+|name=広告4.jpg
+|width=300px
+|align=center
+|clear=true
+|caption=[# 待望のアディタイト語･ベクソン語･第五世界言語実装！]
+**一丸情報様の五協力により100^55555種類の言語に対応した軽量･軽快翻訳デバイス。我々と星々は煙る。**
+[[span style="color:gray"]]トリスメギストス★トランスレーション&トランスポーテーション(株)[[/span]]]]
+
+[[include component:image-block
+|name=海面.jpg
+|width=300px
+|align=left
+|clear=true
+|caption=[# 幻島連盟非公認　1週間で全島弾丸ツアー]
+全て非公認！観光資源根こそぎ奪ってまたいつか！
+[[span style="color:gray"]]如来観光(有)　協賛 艦隊司令部[[/span]]]]
+
+[[include :scp-wiki:component:earthworm
+  first=false | last=false | hub=yes |
+  previous-url=/september-eleven-prequel | previous-title=狂騒序曲 |
+  next-url=/scp-2911-jp | next-title=SCP-2911-JP |
+  hub-url=/ | hub-title=別次元の摩天楼 GOC介入か |
+]]

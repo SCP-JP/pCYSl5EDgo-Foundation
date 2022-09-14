@@ -1,0 +1,467 @@
+[[module css]]
+@charset "utf-8";
+@import url("http://cdn.dcodes.net/2/divider/css/dc_divider.css");
+@import url('http://scp-jp.wdfiles.com/local--theme/scp-sigma-9-off-canvas/style.css');
+#page-content .creditRate div.page-rate-widget-box .rate-points {
+  background-color: #6b4a2b;
+  border: solid 1px #6b4a2b;
+}
+#content-wrap {
+  height: 1500px;
+}
+h1, #page-title {
+  color: #6b4a2b;
+  font-family: sansationregular, sans-serif;
+  text-align: center;
+}
+#page-title {
+  border-color: #6b4a2b;
+  font-family: sansationregular, sans-serif;
+  font-weight: bold;
+}
+li, p {
+  line-height: 150%;
+}
+a {
+  color: #b22222;
+}
+a.newpage {
+  color: #b22222;
+}
+body {
+  font-family: sansationregular, normal;
+}
+div#container-wrap {
+  background: url(http://scp-jp.wdfiles.com/local--files/elma-hub/ElMA-hed.png) top left 90% repeat-x;
+}
+#header {
+  background: none;
+}
+#search-top-box-input {
+  background-color: #ffffff;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+}
+#search-top-box-input:hover, #search-top-box-input:focus {
+  background-color: #ffffff;
+  color: #000;
+}
+#search-top-box-form input[type=submit] {
+  background: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff);
+  background-color: #ffffff;
+  border: solid 1px #ffffff;
+  color: #6b4a2b;
+}
+#search-top-box-form input[type=submit]:hover, #search-top-box-form input[type=submit]:focus {
+  background: linear-gradient(to bottom, #f5f5f5, #f5f5f5, #f5f5f5);
+  background-color: #f5f5f5;
+  color: #6b4a2b;
+}
+#login-status {
+  color: #ffffff;
+}
+#login-status a {
+  color: #ffffff;
+}
+#login-status ul a {
+  color: #6b4a2b;
+}
+#account-topbutton {
+  background: #fff;
+  color: #ffffff;
+}
+#header h1 {
+  z-index: 11;
+  position: absolute;
+}
+#header h2 {
+  clear: left;
+  font-size: 105%;
+}
+#header h1 a {
+  color: transparent;
+  font-family: sansationregular;
+  text-shadow: none;
+}
+#header h2 span {
+  color: #6b4a2b;
+  font-family: quanticoregular, sans-serif;
+  font-size: 0%;
+}
+#top-bar {
+  font-family: quanticoregular, sans-serif;
+}
+#top-bar ul li ul {
+  border: solid 1px #3d2b1f;
+}
+#top-bar ul li:last-of-type ul {
+  right: 0;
+}
+#top-bar ul li.sfhover a, #top-bar ul li:hover a {
+  background: #f0f8ff;
+  color: #6b4a2b;
+}
+#top-bar ul li ul a, #top-bar a:hover {
+  color: #6b4a2b;
+}
+#side-bar {
+  font-family: quanticoregular, sans-serif;
+  left: -2em;
+}
+#side-bar .side-block {
+  background: #CEC9C3;
+  border: 3px solid #6b4a2b;
+}
+#side-bar .heading {
+  border-bottom: solid 1px #6b4a2b;
+  color: #6b4a2b;
+}
+#side-bar div.menu-item.inactive a, #side-bar div.menu-item .sub-text {
+  color: #6b4a2b;
+}
+#side-bar .collapsible-block-unfolded-link {
+  border-bottom: solid 1px #6b4a2b;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link, #side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+  color: #6b4a2b;
+}
+#main-content {
+  margin: 0 0 0 19em;
+  padding: 0;
+}
+.yui-navset .yui-nav a, .yui-navset .yui-navset-top .yui-nav a {
+  background-image: url(../images/yuitabs.png);
+}
+.yui-navset .yui-nav .selected a, .yui-navset .yui-nav .selected a:focus, .yui-navset .yui-nav .selected a:hover {
+  background: #6b4a2b url(../images/yuitabs.png) repeat-x left -1400px;
+}
+.yui-navset .yui-nav a:hover, .yui-navset .yui-nav a:focus {
+  background: #6b4a2b url(../images/yuitabs.png) repeat-x left -1300px;
+}
+.yui-navset .yui-nav, .yui-navset .yui-navset-top .yui-nav {
+  border-color: #6b4a2b;
+}
+#footer {
+  background: #3d2b1f;
+  color: #6b4a2b;
+}
+div.wiki-note {
+  background-color: #d2b48c;
+  background-image: url(http://unofficial-scp-sandbox-jp.wikidot.com/local--files/component:mcf-theme/MCF-7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: double 2px #6b4a2b;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  font-family: sansationregular, serif;
+  margin: 5% 20%;
+  padding: 7px 10px;
+  text-align: center;
+  width: auto;
+}
+div.sexy-box {
+  background-color: #fff;
+  background-image: url(http://scp-jp-storage.wdfiles.com/local--files/portal%3A3461191/back-elma.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid 4px #6b4a2b;
+  clear: both;
+  font-family: sansationregular, serif;
+  margin: 1% 10%;
+  padding: 1px 15px;
+  width: auto;
+}
+div.page-rate-widget-box .rate-points {
+  background-color: #6b4a2b;
+  border: solid 1px #6b4a2b;
+  font-family: sansationregular, sans-serif !important;
+}
+.page-rate-widget-box .rateup, .page-rate-widget-box .ratedown {
+  background-color: #f0f8ff;
+  border-bottom: solid 1px #6b4a2b;
+  border-top: solid 1px #6b4a2b;
+}
+.page-rate-widget-box .rateup a, .page-rate-widget-box .ratedown a {
+  color: #6b4a2b;
+}
+.page-rate-widget-box .rateup a:hover, .page-rate-widget-box .ratedown a:hover {
+  background: #6b4a2b;
+  color: #6b4a2b;
+}
+.page-rate-widget-box .cancel {
+  background-color: #6b4a2b;
+  border: solid 1px #6b4a2b;
+}
+.page-rate-widget-box .cancel a {
+  color: #f0ffff;
+}
+.page-rate-widget-box .cancel a:hover {
+  background: #6b4a2b;
+  color: #f0ffff;
+}
+#page-content .creditButton p a {
+  background: #6b4a2b !important;
+}
+.rate-box-with-credit-button .creditButton {
+  background-color: #6b4a2b !important;
+  border: solid 1px #6b4a2b !important;
+}
+.creditButton a:hover {
+  color: #6b4a2b !important;
+}
+.heritage-rating-module {
+  background-color: #6b4a2b;
+  border: solid 1px #6b4a2b;
+  margin-right: 2em;
+  padding: 2px 8px 2px 5px;
+}
+.scp-image-block {
+  border: solid 1px #6b4a2b;
+  clear: right;
+  float: right;
+  margin: 0 2em 1em 2em;
+}
+.scp-image-block .scp-image-caption {
+  background-color: #CEC9C3;
+  border-top: solid 1px #6b4a2b;
+}
+.thread-container .post .head {
+  background: linear-gradient(to right, #f0f8ff, #eeecec);
+  background-color: #f0f8ff;
+}
+@media (max-width: 479px) {
+  #page-content div.title {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 581px) and (max-width: 767px) {
+  #search-top-box-input {
+    display: none;
+  }
+}
+@media (min-width: 480px) and (max-width: 580px) {
+  #page-content div.title {
+    word-break: keep-all;
+  }
+}
+@media (max-width: 767px) {
+  #side-bar {
+    background-color: #CEC9C3;
+    left: -25em;
+  }
+  #main-content {
+    margin: 0 5%;
+  }
+  #side-bar:target {
+    border: none;
+  }
+}
+#header-extra-div-1 {
+  height: 140px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A4053112-64-6h1l/elma.svg) 40px 30px no-repeat;
+  background-size: 100px;
+}
+#header-extra-div-2 {
+  height: 140px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A4053112-64-xpcy/ELMA.svg) 0 center no-repeat;
+  background-size: 550px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  #header-extra-div-2 {
+    background-position: 0 center;
+    background-size: 63%;
+  }
+  #header-extra-div-1 {
+    background-position: 2em 1em;
+    background-size: 15%;
+  }
+}
+@media (max-width: 767px) {
+  #header-extra-div-2 {
+    background-position: 0 center;
+    background-size: 85%;
+  }
+  div#header-extra-div-1 {
+    background-position: 2em center;
+    background-size: 20%;
+  }
+}
+[[/module]]
+= ^^##6b4a2b|U設定: #58｜地域設定: 地球｜言語設定:日本語 ##^^
+[[div style="background: #CEC9C3; padding: 20px; border: 2px solid #6b4a2b; width: 95%; margin: auto;"]]
+[[include credit:start]]
+**タイトル:** 異世界跳躍先候補:001
+**著者:** ©︎[[*user indonootoko]]
+**作成年:** 2020
+[[include credit:end]]
+[[include component:image-block
+|name=http://scp-jp-storage.wdfiles.com/local--files/portal%3A3461191/atlalu.jpg
+|width=250px
+|align=light
+|clear=true
+|caption=アトラル最大都市"エルメス"
+]]
+
+[[size 150%]]##6b4a2b|**基礎概要**##[[/size]]
+
+##6b4a2b|**跳躍先名称:** アトラル（エルマ本国）##
+└ 経済的に安定した法治国家が存在します。
+
+##6b4a2b|**所属宇宙:** ユニバース01##
+└ 紛争区域の存在しない安全なユニバースです。
+
+##6b4a2b|**現地エルマ規模:** Ⅸ##
+└ 最大規模のエルマが存在し、安全が確保されています。
+
+##6b4a2b|**エルマより跳躍に関しての注意点:** 有り##
+└ アトラルは最大規模のエルマが存在するため、跳躍に関する危険性はありません。ただしアトラルの時間流は、地球の時間流圧と対比して極めて高圧であるため、跳躍に際しては注意が必要です。
+@@ @@
+@@ @@
+@@ @@
+[[div class="dc_divider5_black"]]
+[[/div]]
+@@ @@
+@@ @@
+[[size 150%]]##6b4a2b|**現地紹介**##[[/size]]
+
+アトラルはユニバース01に存在する半天然惑星です。エルマ本部が存在することからエルマ信者からは"エルマ本国”と呼称されており、アトラルではエルマを国教とする国家が全体の92%を占めています。多くのエルマ信者から見てアトラルは理想郷であり、一度は巡礼したい聖地です。治安も良く、初めての異世界跳躍にオススメです。
+
+アトラル最大の特徴は超高圧の時間流圧です。地球と比較して時間の流れが極めて速く、地球で1日が経過するまでにアトラルでは平均して約50年の年月が経過します。この時間流の差異は地球時間1日と対比して、最小で10日間、最大で80年と大きな変動があります。滞在に際してはエルマ本部が公開している時間流予報を確認してください。
+
+アトラルは地球より遥かに進歩した文明を所持しています。前述の通りアトラルは地球と比べて時間流が速く、文明の進歩も高速です。また、複数の世界から優れた頭脳が移住しており、今この時も新たな進歩を遂げています。
+@@ @@
+@@ @@
+@@ @@
+[[div class="dc_divider5_black"]]
+[[/div]]
+@@ @@
+@@ @@
+[[size 150%]]##6b4a2b|**ランドマーク**##[[/size]]
+
+異世界からの跳躍者はまずアトラル最大の都市"エルメス"を訪れることになります。黒い外壁に暖色の灯が特徴的な先進都市であり、観光目的の跳躍者にも人気の都市です。エルメスは異世界からの移住者を広く募集しており、移住者には集合住宅の一室が提供されます。時間流の速さから『アトラルで10年研究しても元に居た世界では1日も経っていない』と研究職の信者から特に人気です。
+
+エルマ本部はエルメスの惑星間転送網からアクセスでき、エルマ信者ならば誰でも立ち入ることができます。エルメスとは建物の様式がガラリと変わり、石造りの建築が目立ちます。エルマ本部が存在するメザ城はそんな石造建築の中でも最大のものであり、エルマを象徴する施設です。エルマ本部では異世界跳躍を希望する信者をサポートする業務が行われており、職員たちの仕事ぶりをいつでも見学することが出来ます。
+
+エルマ本部の地下空間には、エルマ教祖が初めての異世界跳躍に使用したと伝わる最古の異世界跳躍装置が存在しています。現在でも正常に利用することができ、希望すればユニバース02への異世界跳躍を行うことが可能です。
+
+[[table style="width: 96%; margin: 0 10px;"]]
+
+[[row]]
+
+[[cell style="padding: 10px; border: 1px solid silver; width: 25%;"]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/portal%3A3461191/atlalu-2.jpg width="98%"]]
+[[/cell]]
+
+[[cell style="padding: 10px; border: 1px solid silver; width: 25%;"]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/portal%3A3461191/atlalu-3.jpg width="98%"]]
+[[/cell]]
+
+[[cell style="padding: 10px; border: 1px solid silver; width: 25%;"]]
+[[image http://scp-jp-storage.wdfiles.com/local--files/portal%3A3461191/atlalu-4.jpg width="98%"]]
+[[/cell]]
+
+[[/row]]
+
+[[row]]
+
+[[hcell style="padding: 10px; border: 1px solid silver; background-color: #f0f0f0;"]]
+^^エルメスの街並み^^
+[[/hcell]]
+
+[[hcell style="padding: 10px; border: 1px solid silver; background-color: #f0f0f0;"]]
+^^エルマ本部"メザ城"^^
+[[/hcell]]
+
+[[hcell style="padding: 10px; border: 1px solid silver; background-color: #f0f0f0;"]]
+^^最古の異世界跳躍装置^^
+[[/hcell]]
+
+[[/row]]
+
+[[/table]]
+@@ @@
+@@ @@
+@@ @@
+[[div class="dc_divider5_black"]]
+[[/div]]
+@@ @@
+@@ @@
+[[size 150%]]##6b4a2b|**体験談･逸話**##[[/size]]
+
+**ユニバース058 地球 日本国 石田光由**
+
+私には先立った妻との間に娘が1人おりまして、今年で5歳になります。これから頑張らないといけない......。不治の病が宣告されたのはそんな矢先でした。
+
+言われた時にはもって1か月の命。娘には私以外身寄りが居ません。娘の成長を見守ってやることが出来ないのが無念で仕方がありませんでした。
+
+私がエルマと出会ったのは、私の余命を娘に伝えたその時でした。私の先が短いことをどこで聞きつけたか、大学時代の親友だった本川がお見舞いに訪れたのです（皆さんには上級司祭のモトカワと言った方が判りやすいでしょうか？）。
+
+本川は私に、エルマとその本部があるアトラルについて教えてくれました。アトラルならば私の病ぐらい治療できると言うのです。その時、私は本川の話に聞く耳を持ちませんでした。怪しい宗教に堕ちた本川が、機を見て敏で宗教に勧誘して金をせしめようとしてる風にしか感じることが出来なかったのです。私は本川を病室から追い出し、再び床につきました。
+
+私の容態は医者の予想を超えるペースで悪化しました。お迎えがググっと早まり余命2週間。私は涙を滲ませる娘を抱き寄せ、すぐそこに迫る死について考えていました。そこにまた本川が現れました。本川は私の表情を見て、違う違うと首を横に振り、本川は私に提案をしました。
+
+『娘をエルマに預ける』
+
+私はまた本川を病室から追い出そうとしましたが、先日の聞き分けの良さはとは打って変わり、本川は帰ろうとしませんでした。本川の説得は1時間以上続きました。
+
+娘を得体のしれない宗教に預けるなんてとても出来ない。だからと言って娘を施設へと言うのも......。いやいや、そもそも宗教なんて嘘っぱちで人身売買なんてこともありえるかもしれない。私は首を縦に振れませんでした。孤児になった子供が修道院に入るようなものだ、と本川が私を諭していると娘が口を開きました。
+
+「私、アトラルに行くよ」
+
+私は娘を諫めましたが、娘は聞き入れませんでした。
+
+「本川さんの話が本当なら、お父さんに私の成長した姿を見せることができる。それなら私アトラルに行ってみたい」
+
+娘の成長した姿、本来みることが出来ないはずのそれを......。私はそれ以上なにも言えませんでした。
+
+「今の時期なら1日で6年って所だ。娘さんは任せろ」
+
+そういうと本川と娘は病室を出ていきました。私もすぐそこに迫る死に心を削られていたのでしょうか。病室を出る娘に何も声を掛けることが出来ませんでした。
+@@ @@
+@@ @@
+@@ @@
+
+それから二日後、病室に見知らぬ男が訪ねてきました。「お届け物です」そういうと男は写真を手渡してきました。
+
+見慣れない服装の中学生ぐらいの女が写真に写っていました。写真の裏側には「国立エルメス院合格」の文字がありました。写真の女に、どこか娘の面影を感じた私は男に尋ねました。
+
+「この写真、まさか ──」
+
+男はもう何処にもいませんでした。足音1つも無い。閉まったままの扉。不思議な男と写真を見て、私はアトラルという不思議な世界が本当に存在するのだと思いました。
+
+それからというもの、1日か半日程度の感覚で写真が送られてくるようになりました。
+
+修学旅行、エルメス神学院合格、成年の儀式、エルメス神学院卒業、卒業旅行、エルマ本部職員採用、写真の中で娘が成長していく。"ああ、うまくやってるんだ" そう思うとなんだか安心して......。だんだんと意識が暗転して......。
+
+目が覚めた時、私は見覚えのない病室で大量のチューブに繋がれていました。体が上手く動かず、目を動かして周りを見回すと、枕元に随分と老けた本川が居ました。
+
+「よ、久しぶりだな」
+
+重篤な私はうまく返答することが出来ませんでした。
+
+「これは俺が直接持ってこようと思ってな」
+
+本川は写真を差し出しました。そこには純白のウェディングに身を包んだ娘が映っていました。
+
+「相手はあの子の学生時代の後輩でな。アトラルの結婚式はウェディングドレスじゃないからな、わざわざ作らせたんだ」
+
+「......あの子はもう一人前だよ。もう傍で見ている必要なんてない」
+
+私は写真と涙目な本川を見て、胸がいっぱいになって、涙が止まらなくなって......。
+
+「 実は今日はもう一人客がいるんだ。ちょっと待ってろ」
+
+本川が走って病室を出て行った、
+
+**※ 当文書は石田同志が生前にエルマの異世界跳躍先候補紹介へ寄稿しようと執筆していた内容です。執筆途中であった当文書を石田同志の娘の美優同志の希望で掲載しています。**
+
+[[/div]]

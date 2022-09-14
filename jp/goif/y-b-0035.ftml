@@ -1,0 +1,982 @@
+[[module css]]
+/*
+背景画像
+*/
+
+div#container-wrap {
+  background: none !important;
+}
+
+/*
+ヘッダ
+*/
+
+#header {
+  padding-top: 2em;
+  height: 130px;
+  z-index: 10;
+  background: url(http://scp-jp-sandbox2.wikidot.com/local--files/nanimono-demonai/q2.png) 10px 40px no-repeat, url(http://scp-jp-sandbox2.wdfiles.com/local--files/indonootoko/nisso1.png) calc(100% - 10px) calc(100% - 40px) no-repeat;
+}
+
+div #header h1 {
+  margin-left: 0;
+  width: 273px;
+  top: 35px;
+  min-height: 100px;
+  position: absolute;
+}
+
+div #header h1 a {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1px;
+}
+
+div #header h2 {
+  display: none;
+}
+
+#top-bar {
+  position: absolute;
+  bottom: 0px;
+  margin-top: 115px;
+  height: auto;
+  padding: 0;
+  z-index: 20;
+  font-size: 90%;
+}
+
+#top-bar ul {
+  float: right;
+  padding-right: : 5em;
+}
+
+#top-bar a {
+  color: #b5cde2;
+}
+
+#top-bar ul li a {
+  border-left: none;
+  border-right: none;
+}
+
+#top-bar ul li.sfhover a, #top-bar ul li:hover a {
+  color: #178cce;
+  border-left: none;
+  border-right: none;
+}
+
+#search-top-box-input {
+  display: none;
+}
+
+#search-top-box-form input[type=submit] {
+  border: none;
+  border-radius: 0px;
+  padding: 2px 5px;
+  font-size: 90%;
+  font-weight: bold;
+  color: #178cce;
+  background-color: #fff;
+  background: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#search-top-box-form input[type=submit]:hover, #search-top-box-form input[type=submit]:focus {
+  border: none;
+  color: #b5cde2;
+  text-shadow: none;
+  background-color: #fff;
+  background: none;
+  box-shadow: none;
+}
+
+#search-top-box {
+  position: absolute;
+  top: auto;
+  bottom: 23px;
+  right: 8px;
+  width: 250px;
+  text-align: right;
+}
+
+#header::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 130px;
+  height: 100px;
+  background: url(http://scp-jp-sandbox2.wikidot.com/local--files/nanimono-demonai/q3-min-min.png) top left repeat-x;
+}
+
+/*
+コンテント
+*/
+
+/* ヘッダーにかぶせない */
+
+#main-content {
+  margin-top: 100px;
+}
+
+h1, #page-title {
+  color: #000;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+a {
+  color: #b5cde2;
+}
+
+#page-content a{
+  color: #00A;
+}
+#page-content h2{
+font-weight:bold;
+}
+#page-content h2:before{
+  content:'■';
+  color:#006837;
+}
+
+div.page-rate-widget-box .rate-points {
+    background-color: #178cce;
+    border: solid 1px #178cce;
+}
+.page-rate-widget-box .rateup, .page-rate-widget-box .ratedown {
+    background-color: #b5cde2;
+    border-top: solid 1px #178cce;
+    border-bottom: solid 1px #178cce;
+}
+.page-rate-widget-box .cancel {
+    background-color: #178cce;
+    border: solid 1px #178cce;
+}
+.page-rate-widget-box a{
+    color: #fff !important;
+}
+.page-rate-widget-box .rateup a:hover, .page-rate-widget-box .ratedown a:hover {
+    background: #b5cde2;
+    color: #fffff0;
+}
+.page-rate-widget-box .cancel a:hover {
+    background: #b5cde2;
+}
+#page-content .creditRate div.page-rate-widget-box .rate-points {
+     background-color: #178cce;
+     border: solid 1px #0b65c0;
+ }
+ .rate-box-with-credit-button .creditButton{
+ background-color: #178cce !important;
+ }
+/*
+リスト http://webnonotes.com/css/css-list/
+*/
+.defaultlist, .defaultlist li{
+  padding:0px;
+  margin:0px;
+}
+
+.defaultlist li{
+  list-style-type:none !important;
+  list-style-image:none !important;
+  margin: 5px 0px 5px 0px !important;
+}
+.list1 li{
+  position:relative;
+  padding-left:20px;
+}
+
+.list1 li:before{
+  content:''; 
+  display:block; 
+  position:absolute; 
+  box-shadow: 0 0 2px 2px rgba(255,255,255,0.2) inset;
+  top:3px; 
+  left:2px; 
+  height:0; 
+  width:0; 
+  border-top: 6px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 9px solid #aaa;
+}
+.list2 li{
+  position:relative;
+  padding-left:20px;
+}
+
+.list2 li:before{
+  content:''; 
+  height:0; 
+  width:0; 
+  display:block; 
+  border:5px transparent solid; 
+  border-right-width:0; 
+  border-left-color:#aaa; 
+  position:absolute; 
+  top:5px; 
+  left:8px;
+}
+
+.list2 li:after{
+  content:''; 
+  height:2px; 
+  width:10px; 
+  display:block; 
+  background:#aaa; 
+  position:absolute; 
+  top:9px; 
+  left:0px;
+}
+.list4 li{
+  position:relative;
+  padding-left:20px;
+}
+
+.list4 li:after, .list4 li:before{
+  content:''; 
+  display:block; 
+  position:absolute; 
+  top:4px; 
+  left:8px; 
+  height:11px; 
+  width:4px; 
+  background:#aaa; 
+  border-radius:10px;
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+}
+.list4 li:before{
+  top:8px; 
+  left:3px;
+  height:8px; 
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+}
+.list5 li{
+  position:relative;
+  padding-left:20px;
+}
+.list5 li:before{
+  content:''; 
+  height:0px; 
+  width: 90%;
+  display:block; 
+  position:absolute; 
+  top:18px; 
+  left:0px; 
+  border-bottom: 1px dashed #aaa;
+}
+.list5 li:after{
+  content:'';
+  display:block; 
+  position:absolute; 
+  background:#aaa;
+  width:5px;
+  height:5px; 
+  top:7px; 
+  left:5px; 
+  border-radius: 5px;
+}
+.list6 li{
+  position:relative;
+  padding-left:20px;
+}
+
+.list6 li:after{
+  content:'';
+  display:block; 
+  position:absolute; 
+  background:#aaa;
+  width:9px;
+  height:9px; 
+  top:5px; 
+  left:5px; 
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+}
+.list7 li{
+  position:relative;
+  display: block;
+  padding: 5px 0px 5px 30px;
+  background: #ccc;
+  color: #444;
+  border-radius:15px 0px 0px 15px;
+}
+
+.list7 li:after{
+  content:'';
+  display:block; 
+  position:absolute;
+  width:14px;
+  height: 14px;
+  top:7px;
+  left:5px;
+  background: #fff;
+  border-radius: 10px;
+}
+/*
+表 http://tablestyler.com/#
+*/
+/*
+背景画像
+*/
+
+div#container-wrap {
+  background: none !important;
+}
+
+/*
+ヘッダ
+*/
+
+#header {
+  padding-top: 2em;
+  height: 130px;
+  z-index: 10;
+  background: url(http://scp-jp-sandbox2.wikidot.com/local--files/nanimono-demonai/q2.png) 10px 40px no-repeat, url(http://scp-jp-sandbox2.wdfiles.com/local--files/indonootoko/nisso1.png) calc(100% - 10px) calc(100% - 40px) no-repeat;
+}
+
+div #header h1 {
+  margin-left: 0;
+  width: 273px;
+  top: 35px;
+  min-height: 100px;
+  position: absolute;
+}
+
+div #header h1 a {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1px;
+}
+
+div #header h2 {
+  display: none;
+}
+
+#top-bar {
+  position: absolute;
+  bottom: 0px;
+  margin-top: 115px;
+  height: auto;
+  padding: 0;
+  z-index: 20;
+  font-size: 90%;
+}
+
+#top-bar ul {
+  float: right;
+  padding-right: : 5em;
+}
+
+#top-bar a {
+  color: #b5cde2;
+}
+
+#top-bar ul li a {
+  border-left: none;
+  border-right: none;
+}
+
+#top-bar ul li.sfhover a, #top-bar ul li:hover a {
+  color: #178cce;
+  border-left: none;
+  border-right: none;
+}
+
+#search-top-box-input {
+  display: none;
+}
+
+#search-top-box-form input[type=submit] {
+  border: none;
+  border-radius: 0px;
+  padding: 2px 5px;
+  font-size: 90%;
+  font-weight: bold;
+  color: #178cce;
+  background-color: #fff;
+  background: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#search-top-box-form input[type=submit]:hover, #search-top-box-form input[type=submit]:focus {
+  border: none;
+  color: #b5cde2;
+  text-shadow: none;
+  background-color: #fff;
+  background: none;
+  box-shadow: none;
+}
+
+#search-top-box {
+  position: absolute;
+  top: auto;
+  bottom: 23px;
+  right: 8px;
+  width: 250px;
+  text-align: right;
+}
+
+#header::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 130px;
+  height: 100px;
+  background: url(http://scp-jp-sandbox2.wikidot.com/local--files/nanimono-demonai/q3-min-min.png) top left repeat-x;
+}
+
+/*
+コンテント
+*/
+
+/* ヘッダーにかぶせない */
+
+#main-content {
+  margin-top: 100px;
+}
+
+h1, #page-title {
+  color: #000;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+a {
+  color: #b5cde2;
+}
+
+#page-content a{
+  color: #00A;
+}
+#page-content h2{
+font-weight:bold;
+}
+#page-content h2:before{
+  content:'■';
+  color:#006837;
+}
+
+div.page-rate-widget-box .rate-points {
+    background-color: #178cce;
+    border: solid 1px #178cce;
+}
+.page-rate-widget-box .rateup, .page-rate-widget-box .ratedown {
+    background-color: #b5cde2;
+    border-top: solid 1px #178cce;
+    border-bottom: solid 1px #178cce;
+}
+.page-rate-widget-box .cancel {
+    background-color: #178cce;
+    border: solid 1px #178cce;
+}
+.page-rate-widget-box a{
+    color: #fff !important;
+}
+.page-rate-widget-box .rateup a:hover, .page-rate-widget-box .ratedown a:hover {
+    background: #b5cde2;
+    color: #fffff0;
+}
+.page-rate-widget-box .cancel a:hover {
+    background: #b5cde2;
+}
+/*
+リスト http://webnonotes.com/css/css-list/
+*/
+.defaultlist, .defaultlist li{
+  padding:0px;
+  margin:0px;
+}
+
+.defaultlist li{
+  list-style-type:none !important;
+  list-style-image:none !important;
+  margin: 5px 0px 5px 0px !important;
+}
+.list1 li{
+  position:relative;
+  padding-left:20px;
+}
+
+.list1 li:before{
+  content:''; 
+  display:block; 
+  position:absolute; 
+  box-shadow: 0 0 2px 2px rgba(255,255,255,0.2) inset;
+  top:3px; 
+  left:2px; 
+  height:0; 
+  width:0; 
+  border-top: 6px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 9px solid #aaa;
+}
+.list2 li{
+  position:relative;
+  padding-left:20px;
+}
+
+.list2 li:before{
+  content:''; 
+  height:0; 
+  width:0; 
+  display:block; 
+  border:5px transparent solid; 
+  border-right-width:0; 
+  border-left-color:#aaa; 
+  position:absolute; 
+  top:5px; 
+  left:8px;
+}
+
+.list2 li:after{
+  content:''; 
+  height:2px; 
+  width:10px; 
+  display:block; 
+  background:#aaa; 
+  position:absolute; 
+  top:9px; 
+  left:0px;
+}
+.list4 li{
+  position:relative;
+  padding-left:20px;
+}
+
+.list4 li:after, .list4 li:before{
+  content:''; 
+  display:block; 
+  position:absolute; 
+  top:4px; 
+  left:8px; 
+  height:11px; 
+  width:4px; 
+  background:#aaa; 
+  border-radius:10px;
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+}
+.list4 li:before{
+  top:8px; 
+  left:3px;
+  height:8px; 
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+}
+.list5 li{
+  position:relative;
+  padding-left:20px;
+}
+.list5 li:before{
+  content:''; 
+  height:0px; 
+  width: 90%;
+  display:block; 
+  position:absolute; 
+  top:18px; 
+  left:0px; 
+  border-bottom: 1px dashed #aaa;
+}
+.list5 li:after{
+  content:'';
+  display:block; 
+  position:absolute; 
+  background:#aaa;
+  width:5px;
+  height:5px; 
+  top:7px; 
+  left:5px; 
+  border-radius: 5px;
+}
+.list6 li{
+  position:relative;
+  padding-left:20px;
+}
+
+.list6 li:after{
+  content:'';
+  display:block; 
+  position:absolute; 
+  background:#aaa;
+  width:9px;
+  height:9px; 
+  top:5px; 
+  left:5px; 
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+}
+.list7 li{
+  position:relative;
+  display: block;
+  padding: 5px 0px 5px 30px;
+  background: #ccc;
+  color: #444;
+  border-radius:15px 0px 0px 15px;
+}
+
+.list7 li:after{
+  content:'';
+  display:block; 
+  position:absolute;
+  width:14px;
+  height: 14px;
+  top:7px;
+  left:5px;
+  background: #fff;
+  border-radius: 10px;
+}
+/*
+表 http://tablestyler.com/#
+*/
+.defaultT table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+.defaultT table td, .defaultT table th {
+  padding: 3px 10px;
+}
+.defaultT table th:first-child {
+  border: none;
+}
+.defaultT table th:first-child {
+  border: none;
+}
+
+.defaultT table tbody td:first-child {
+background-color: #f0f0e6;
+font-weight: bold;
+  border-left: none;
+}
+
+.defaultT table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.defaultT .wiki-content-table {
+    margin: 0;
+}
+.defaultT{
+  font: normal 12px/150% Arial, Helvetica, sans-serif;
+  background: #fff;
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.defaultT table th {
+    color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.defaultT table tbody td {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.blueT {
+  border: 1px solid #006699;
+}
+
+.blueT table th {
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F));
+  background: -moz-linear-gradient( center top, #006699 5%, #00557F 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+  background-color: #006699;
+  border-left: 1px solid #0070A8;
+}
+
+.blueT table tbody td {
+  border-left: 1px solid #E1EEF4;
+}
+.blueT table tbody td:first-child {
+color: #00496B;
+}
+
+.redT {
+  border: 1px solid #991821;
+}
+
+.redT table th {
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #991821), color-stop(1, #80141C));
+  background: -moz-linear-gradient( center top, #991821 5%, #80141C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#991821', endColorstr='#80141C');
+  background-color: #991821;
+  border-left: 1px solid #B01C26;
+}
+
+.redT table tbody td {
+  border-left: 1px solid #F7CDCD;
+}
+
+.redT table tbody td:first-child {
+color: #80141C;
+}
+
+.greenT {
+  border: 1px solid #36752D;
+}
+
+.greenT table th {
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36752D), color-stop(1, #275420));
+  background: -moz-linear-gradient( center top, #36752D 5%, #275420 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
+  background-color: #36752D;
+  border-left: 1px solid #36752D;
+}
+
+.greenT table tbody td {
+  border-left: 1px solid #C6FFC2;
+}
+
+.greenT table tbody td:first-child {
+color: #275420;
+}
+
+/*
+サイド
+*/
+
+#side-bar {
+  min-height: calc(100% + 7em);
+  background-color: #b5cde2;
+  transform: translateY(-6em);
+}
+
+#side-bar .side-block {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent !important;
+  margin-top: 4em;
+}
+#side-bar .heading {
+    color: #178cce;
+    border-bottom: solid 1px #178cce;
+}
+#side-bar .side-block a {
+  color: #fff;
+}
+
+/*
+めであ
+*/
+
+@media (max-width: 767px) and (min-width:440px) {
+
+  #container {
+    border-left: 9px solid #b5cde2;
+  }
+  #header {
+    background-size: 200px, 180px;
+  }
+  div #header h1 {
+    width: 200px;
+    min-height: 100px;
+  }
+  #side-bar {
+  transform: translateY(0em);
+}
+}
+
+@media (max-width: 440px) {
+  #container {
+    border-left: 3px solid #b5cde2;
+  }
+  #header {
+    background-size: 130px, 140px;
+    height: 100px;
+  }
+  div #header h1 {
+    width: 200px;
+    min-height: 80px;
+  }
+  #header::after {
+    margin-top: 100px;
+    height: 100px;
+    background: url(http://scp-jp-sandbox2.wikidot.com/local--files/nanimono-demonai/q3-min-min.png) top left repeat-x;
+    background-size: 440px;
+  }
+  #top-bar {
+    margin-top: 33px;
+  }
+  #main-content {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+    #side-bar:target .close-menu {
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+}
+img.close-menu {
+    opacity: 0 !important;
+}
+/*
+サイド
+*/
+
+#side-bar {
+  min-height: calc(100% + 7em);
+  background-color: #b5cde2;
+  transform: translateY(-6em);
+}
+
+#side-bar .side-block {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent !important;
+  margin-top: 4em;
+}
+#side-bar .heading {
+    color: #178cce;
+    border-bottom: solid 1px #178cce;
+}
+#side-bar .side-block a {
+  color: #fff;
+}
+
+/*
+めであ
+*/
+
+@media (max-width: 767px) and (min-width:440px) {
+
+  #container {
+    border-left: 9px solid #b5cde2;
+  }
+  #header {
+    background-size: 200px, 180px;
+  }
+  div #header h1 {
+    width: 200px;
+    min-height: 100px;
+  }
+  #side-bar {
+  transform: translateY(0em);
+}
+}
+
+@media (max-width: 440px) {
+  #container {
+    border-left: 3px solid #b5cde2;
+  }
+  #header {
+    background-size: 130px, 140px;
+    height: 100px;
+  }
+  div #header h1 {
+    width: 200px;
+    min-height: 80px;
+  }
+  #header::after {
+    margin-top: 100px;
+    height: 100px;
+    background: url(http://scp-jp-sandbox2.wikidot.com/local--files/nanimono-demonai/q3-min-min.png) top left repeat-x;
+    background-size: 440px;
+  }
+  #top-bar {
+    margin-top: 33px;
+  }
+  #main-content {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+    #side-bar:target .close-menu {
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+}
+img.close-menu {
+    opacity: 0 !important;
+}
+[[/module]]
+[[include credit:start]]
+**タイトル:** よ-B-035 "霊銀式ヒューマノイド"販売カタログ
+**著者:** ©︎[[*user indonootoko]]
+**作成年:** 2019
+[[include credit:end]]
+[[size 160%]]##F49E4C|**もう1度会いたいあの人......。その願い、日本生類創研にお任せください。**##[[/size]]
+------
++++ 霊銀式ヒューマノイド
+[[div class="greenT defaultT"]]
+||~ 品番||~ 型番||~ 個数||~ 価格||
+||よ-B-035||E01-α || 1体 || **¥ 8,000,000～**||
+[[/div]]
+※完全受注生産
+------
+++ 特徴
+[[div class="defaultlist list4"]]
+* 従来のヒューマノイドより遥かに躍進した行動パターン。
+* 錬金術の本場シガスタンが産んだ高品質ヒューマノイドの日創研カスタム。
+* リアルな質感。リアルな挙動。リアルな重量。
+* デザイン、サイズはカスタマイズ自在。お気軽にご相談ください。
+[[/div]]
+++ 仕様
+[[div class="defaultlist list5"]]
+* シガスタン式錬金術により霊銀を変換し、人体に酷似したヒューマノイドを創り出します。
+* 豊富な行動パターン。従来品の行動パターンに加え、「散歩」「農業」「布団干し」が新登場。
+* 日本生類創研の高い人体培養技術により実現する高い再現能力。
+* 当製品は外見のレプリカであり臓器等は再現できません。ラブドールなどの目的には向きません。
+[[/div]]
+**説明書:** **よ-B-035"霊銀式ヒューマノイド"**は19██年に当研究所が、シガスタン式人体錬成術を元に開発したヒューマノイドです。
+
+よ-B-035は次世代型ヒューマノイドをコンセプトに、多彩なエモーション機能を持つヒューマノイドとして開発されました。長年の研究により蓄積したノウハウを注ぎ込み完成した霊銀式ヒューマノイドは、本物の人物とは一見見分けがつかないほど精巧であり、発売よりたくさんのユーザー様よりお褒めの言葉を頂戴しています。
+
+よ-B-035は主成分として純霊銀を含みます。霊銀とは、19世紀の冒険家でアノマリーコレクターのロレンツ･エルドリッヂ氏によりシガスタン北部の遺跡から発見された鉱石です。同氏の著作"紀行 第2巻"には『霊銀はアダマン、オリハルに並び高い錬成変換効率を持つ金属であり、古代シガスタン人はこれをミスリルと呼び愛用した。』と記されており、その記述通り人体培養において従来の素材とは一線を画す培養効率を持ちます。当研究所は同著作にて記されているシガスタン式人体錬成術を研究し、更なる改良を加え現代に復活させました。
+
+* **E01-α:** ユーザー様より提供いただいた資料を元に、完全受注生産で作成いたします。本物さながらの完成度をお楽しみください。
+[[div class="warning"]]
++ [[span class="fa fa-exclamation-triangle fa-lg"]]@<&nbsp;>@[[/span]]当研究所を騙る詐欺電話にご注意
+昨今、当研究所の名前を騙り、当製品を回収する詐欺電話が急増しています。当研究所が電話にてユーザー様に連絡をとることは無く、そのような回収も行うことはありません。万が一被害に遭われましても、当研究所では保証しかねますのでご注意ください。
+[[/div]]
+------
+> [[=]]
+> +++ ##red|★ご遺体下取りキャンペーンのお知らせ★##
+> [[/=]]
+> ご好評につき今年も当キャンペーンを行います。ご依頼の際にご遺体の下取りをご申請いただけたユーザー様に限り、当製品を99%オフでご提供。詳しくはカタログ注文フォームをご覧ください。
+> @@ @@
+------
+[[f>image http://scp-jp-sandbox2.wdfiles.com/local--files/indonootoko/%E4%B9%85%E8%83%BD.png width="150px"]]
+++ 研究者コメント
+亡くなった人を蘇らせること......、それは深い悲しみからくる祈りであり、不死への欲求でもあります。悲しみの螺旋から人類が脱却するため、高い錬金技術を持った古代シガスタン人は死の克服を試みました。そして完成したシガスタン式人体錬成術はシガスタンの錬金文明を衰退へと追い込み、人々に不死が存在しないことを証明しました。しかし私は彼らの描いた夢が絵空事だったとは思いません。この製品をお買いいただければ人類が彼らの夢に一歩ずつ近づいていることが解るかと思います。是非、貴方の大切な人と奇跡の一時を過してください。　――Bエリア第3研究所　ヒト科生物研究室長　久能 尚史
+[[size 60%]]
+**≪久能博士の実績紹介≫**
+19██年 - ████████大学卒業。日本生類創研入所。
+19██年 - 細胞片より純銀を精製する技術を発見。年度優秀新人賞受賞
+1982年 - ファーテリティ・ダウンフォール施術を研究。
+19██年 - ヒト科生物研究室長に就任。
+19██年 - 霊銀式ヒューマノイドの研究を発表。
+[[/size]]　
+　
+**お客様の声:**
+* お金もないし、死体をどうすればよいか解らなかったので助かりました。　――51歳男性 無職
+* 口コミで知りました。ありがとうございます。　――57歳男性 無職
+* おかげさまでまだ自殺しなくても済みそうです。助かりました。　　――56歳男性 無職
+@@ @@

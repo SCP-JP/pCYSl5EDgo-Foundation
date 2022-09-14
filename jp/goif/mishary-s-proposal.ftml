@@ -1,0 +1,19 @@
+[[module ListPages offset="@URL|0" range="."]]
+%%content{2}%%
+[[/module]][!--Vertical--]
+
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="horizontal"]]
+%%content{3}%%
+[[/module]][!--horizontal--]
+
+[!--
+====
+
+[[include :scp-jp:fragment:mishary-s-proposal-vertical]]
+
+====
+
+[[include :scp-jp:fragment:mishary-s-proposal-horizontal]]
+
+====
+--]

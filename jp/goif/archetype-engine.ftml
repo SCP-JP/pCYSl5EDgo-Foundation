@@ -1,0 +1,881 @@
+[[include credit:start]]
+**タイトル:** アーキタイプ・エンジン
+**著者:** ©︎[[*user KanKan]]
+**作成年:** 2019
+[[include credit:end]]
+
+[[div class="outside"]]
+
+私は眠り、夢の中で目覚める。
+
+いつものように、[*http://ja.scp-wiki.net/oneiroi オネイロイ・ウェスト]のニューロン・ネットワークに接続する。相変わらず、あの事件が過ぎ去った後もここは賑やかだ。掲示板には深夜の間ずっと大勢のオネイロイが貼り付いているし、ニュースのスレッド欄ではよく見る面子が議論をしている。モデレーターたちが今日も忙しそうだ。
+
+だが、今日はあの中に混ざるわけにはいかない。私には、やるべきことがある。そう思い、オネイロイ・ウェストの検索エンジンを起動する。オウルBOTが、元気よく私の眼前に飛び込んでくる。
+
+[[/div]]
+@@ @@
+----
+@@ @@ 
+[[=]]
+
+[[size 2.5em]] オネイロイ・ウェスト [[/size]]
+[[size 1em]] ##purple|接続された意識## [[/size]]
+@@ @@
+[[include :scp-wiki:svg-animation |oneiroi=true|width=100%]]
+@@ @@
+//“##purple|全てはただの夢！##”//
+
+^^**クロウラー**: オウルBOT | **クエリー**: ウレリ | **サーチ**: OWサブネット^^
+,,^^**付属フィルター** | **アンド ノット**: ゴルフ場 | **保留**: はい^^,,
+
+[[/=]]
+@@ @@
+----
+@@ @@
+[[div style="display: table;width:100%;clear: unset;"]]
+[[div class="textbox-left" style="display: table;background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat;padding: 1px 15px; margin: 10px 10px 10px 10px; background-color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.2);clear: unset;float: left;"]]
+
+ホール・コレクティブ（Hole Collective）─略してHC、或いは単にホールと呼ばれる─は、由来不明で数百から数千の肉体持ちをホストにする集合意識です。首都は##purple|**エラカヌラ**##（Erakanura）であると主張しています。最大都市は不明です。
+
+ホール・コレクティブは##purple|**穴**##です。ホール・コレクティブの住民は全員が穴の中にいることを好みます。穴の改変、物体作成、移動性は完全に抑制されています。穴の中に光源は存在せず、住民はこの状態を好意的に受け入れています。穴の広さや構造は住民や政府も把握していません。内部では「子守唄」が聞こえるとされます。
+
+ホール・コレクティブの起源州はエラカヌラとされますが、真偽は確かめられていません。唯一判明していることとして、ホール・コレクティブはホストの夢界を穴に改変し、穴を拡大しているということがあります。夢見たちが住民にならなかった例は無く、また接触したオネイロイの大半が住民になっています。この事から、ホール・コレクティブは強い##purple|**ウイルス**##を拡散していると思われます。 ##purple|**オネイロイ・コレクティブ**##による対応は未だ行われていません。
+
+[[/div]]
+
+[[div class="image-right" style="clear: unset;"]]
+
+[[span style="margin-top: 10px; color: #black; background-color: white; border: grey; width: 2px; padding: 0px 5px;" text-allign: center;]]
+
+[[span style="float:center; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
+[[=image Hole.jpg style="border: grey solid 1px; box-shadow: 0 1px 6px rgba(0,0,0,.25); width:250px;"]]
+[[/span]]
+
+[[/span]]
+
+[[=]]
+
+^^**ホール・コレクティブ**^^
+
+^^**首都**^^
+エラカヌラ？
+
+^^**公用語**^^
+ホストの母国語
+穴への讃美歌
+
+^^**住民の呼称:**^^
+穴教徒
+
+^^**政府:**^^
+不明
+
+^^**時間経済:**^^
+10太陽年=1穴年
+
+^^**現実:**^^
+見ているようで見ていない
+
+^^**心理学:**^^
+妄信的
+
+^^**移民の状態:**^^
+Open
+
+^^**脱出者の状態:**^^
+Closed
+
+[[/=]]
+[[/div]]
+[[/div]]
+[[span style="float:left; weight: semibold; margin-left:5px; margin-top:12px; color: black; background-color: #ffffff; padding: 0px 10px;"]]
+[[size 90%]] //Last Edited 2019/10/01, 04:28 by MadeInHalo// [[/size]]
+[[/span]]
+
+[[span style="float:right; margin-left:5px; margin-top:12px; color: purple; background-color: #ffffff; padding: 0px 10px;"]]
+[VIEW EDITS] [**HISTORY**] [**COMMENTS**]
+[[/span]]
+
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+
+----
+@@ @@
+[[div style="float: left;"]]
+
+[[size 2em]]##purple|{{**redȊst**}}##[[/size]] {{すべての目が私たちに注がれている}}
+
+[[/div]]
+@@ @@
+@@ @@
+
+[[size 1.1em]] ##blue|お菓子の城に虫野郎が入ってきて穴を開けやがった## ##gray|,,[[/size]] (pixserve.com),,##
+[[size .8em]]14日前に投稿 by ##blue| Jonson R. R. R. ## to ##blue|common.redist##<||[[/size]]
+**[EXPAND]**
+
+[[size 1.1em]] ##blue|HCと典型的なエロ広告の関係性について## ##gray|,,[[/size]](hentaic.com),,##
+[[size .8em]]23日前に投稿 by ##blue| Urban Kiosk ## to ##blue|common.redist##<||[[/size]]
+**[EXPAND]**
+
+
+[[size 1.1em]] 穴に帰依せよ##gray|,,[[/size]](redȊst.com),,##
+[[size .8em]]27日前に投稿 by ###e7a9b4| PapaRush ## to ##blue|hole-collective.redist##<||[[/size]]
+[COLLAPSE]
+
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat;  padding: 1px 15px; margin: 10px 10px 10px 10px; background-color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+
+[[size 130%]] 全てのコメントを見る[[/size]] [[size 80%]] ##grey|sorted by (not trash)## [[/size]]
+
+[[size 80%]] ###e7a9b4|PapaRush## [[/size]] [[size 70%]]##grey|穴の住民 | 穴教徒## [[/size]]
+質問は受け付ける。あなたたちが穴に入る手助けをしたい。
+
+[[size 80%]] ##purple|Abraham## [[/size]] [[size 70%]]##grey|空中駅の管理人 | ニワトリ・ケルベロス## [[/size]]
+クソHC野郎と誰が会話すると思ってるんだ？
+
+[[size 80%]] ##purple|jvijvijva'va## [[/size]] [[size 70%]]##grey|BSL7施設の研究員 | エボラ出血熱## [[/size]]
+前から訊きたかったんだけど、君たちは一体どこに向かっているんだい？穴、穴とずっと唱えてるけど。
+
+@@      @@[[size 80%]] ###e7a9b4|PapaRush## [[/size]] [[size 70%]]##grey|穴の住民 | 穴教徒## [[/size]]
+@@       @@我々は既に穴におり、穴の奥へと進んでいく。穴は全てを飲み込み、飲み下し、我々に安心をもたらす。穴の暗闇が我々を包み込む。
+
+@@      @@[[size 80%]] ##purple|jvijvijva'va## [[/size]] [[size 70%]]##grey|BSL7施設の研究員 | エボラ出血熱## [[/size]]
+@@        @@暗闇が怖くはないのかい？
+
+@@      @@[[size 80%]] ###e7a9b4|PapaRush## [[/size]] [[size 70%]]##grey|穴の住民 | 穴教徒## [[/size]]
+@@       @@穴は1本道だ。進めば必ず先はある。
+
+@@      @@[[size 80%]] ##purple|jvijvijva'va## [[/size]] [[size 70%]]##grey|BSL7施設の研究員 | エボラ出血熱## [[/size]]
+@@        @@何も見えないのに、道は1本だと信じていると？
+
+@@      @@[[size 80%]] ###e7a9b4|PapaRush## [[/size]] [[size 70%]]##grey|穴の住民 | 穴教徒## [[/size]]
+@@       @@そうだ。それが我々の教義だ。
+
+@@      @@[[size 80%]] ###e7a9b4|jvijvijva'va## [[/size]] [[size 70%]]##grey|穴の研究員 | エボラ出血熱## [[/size]]
+@@        @@なるほど、それは//素晴らしい//ね。
+
+[[size 80%]] ##purple|Abraham## [[/size]] [[size 70%]]##grey|空中駅の管理人 | ニワトリ・ケルベロス## [[/size]]
+おい、やめろよ？##purple|jvijvijva'va##。
+
+[[size 80%]] ##purple|Abraham## [[/size]] [[size 70%]]##grey|空中駅の管理人 | ニワトリ・ケルベロス## [[/size]]
+おい
+
+[[size 80%]] ##purple|Abraham## [[/size]] [[size 70%]]##grey|空中駅の管理人 | ニワトリ・ケルベロス## [[/size]]
+クソが
+[[/div]]
+@@ @@
+----
+@@ @@ 
+[[div class="outside"]]
+
+ホール・コレクティブは、突如としてオネイロイ・ウェストを中心に拡散していった。彼らは穴を作り、ひたすらその奥へと突き進む、わけのわからない連中として認識された。私も、そのような認識を持つ1人だった。
+
+取り敢えず私が取った行動は、彼らと距離を取っておくことだった。こうして次々とオネイロイが取り込まれていく中で、私はただ逃げていたんだ。
+
+[[/div]]
+@@ @@
+----
+++++++ ワールドニュース
++ ホール・コレクティブによるウイルス拡散、未だ終息せず
+++ 数十のコレクティブが穴と一体化したという情報が多数寄せられており、オネイロイ・ウェストへの侵食も確認されているという。
+[[size 1.2em]]
+先日より突如出現したホール・コレクティブは、未だにその勢いを衰えさせてはいない。ホール・コレクティブがどのようなウイルスを拡散しているのかも特定されていないが、オネイロイ・ウェストの役人たちの一部からはオネイロイ,,オーバー,,^^ディープ^^にウイルスの痕跡を発見したという証言が得られている。
+[[/size]]
+
+[[size 1.2em]]
+「穴教徒」を自称するホール・コレクティブの住民は、睡眠等に問題は見られない。しかし、彼らは未だに穴を進み続けており、交信には感染の危険が伴うようだ。この終末論的な事態によってオネイロイ・ウェストは大混乱に陥っており、それに便乗してこのような内容のメッセージがフートされ、大量にリフートされるなどしている。
+[[/size]]
+
+[[div style="float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
+[[span style="float:left; margin-left:5px; margin-top:12px; padding: 0px 10px;"]]
+[[image Wise-old-man.jpg style="width: 50px;"]]
+[[/span]]
+[[size 1.5em]] ##grey|ウレリ  @Ureri2019## [[/size]]
+@@ @@
+@@ @@
+[[size 2em]] ##black|内なるべきものたちが外にある。これは、これまでの履歴になかった結合が生みしものだ。結合はプシュケーに歪みを生じさせ、エラカヌラから獣を解き放つ結果となった。 _
+お前たちのエンジンを起動せよ。## [[/size]]
+@@ @@
+* [[size .8em]] ##grey|リフート## [[/size]][[size 1.1em]] ##purple| 603,249## [[/size]]
+* [[size .8em]] ##grey|いいね## [[/size]][[size 1.1em]] ##purple| 3,461## [[/size]]
+@@ @@
+[[size .8em]] ##grey|2019/10/12 2:30am ## [[/size]]
+[[/div]]
+
+[[size 1.2em]]
+これが現段階で分かっている全てではあるが、ワールドニュースをチャンネル登録すれば、この現象に関する最新ニュースを欠かさずお伝えします！
+[[/size]]
+
+[[size 1.1em]]
+##black|3 スレッド##
+[[/size]]
+
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin: 3px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Box-1.jpg width="50px"]]
+[[/span]]
+
+**WolrdWooZeta** - ダンボール箱 - //腐った果物にハエがたかってる//
+
+ホールもいいけど、このウレリっていう奴もよくわかんないんだよね。言ってることがよくわからない。内なるべきものってのはホールの連中のこと？何より、一体彼は誰なんだろう？
+@@ @@
+##gray|**Upvote Reply ·+12** · 2019/10/13 01:03am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 30px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Candle.jpg width="50px"]]
+[[/span]]
+
+**BleedingBuilding** - 教会の蝋燭 - //マリア様の目玉のイチゴジャム美味しいね//
+
+最近もフートしてたな。なんか、「Psychonaut」っていうのがどうとか。
+@@ @@
+##gray|**Upvote Reply ·+1** · 2019/10/13 01:24am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 40px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Box-1.jpg width="50px"]]
+[[/span]]
+
+**WolrdWooZeta** - ダンボール箱 - //殺虫剤プシューッ//
+
+Psychonautってことは、心理の航行者とかそういう意味なのかな。それか、Juggernautにかけてどうしようもないくらいに巨大な心とか？
+@@ @@
+##gray|**Upvote Reply ·+1** · 2019/10/13/ 01:28am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 50px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Candle.jpg width="50px"]]
+[[/span]]
+
+**BleedingBuilding** - 教会の蝋燭 - //は？//
+
+さあ。ただ、取り敢えずどっちもヤバそうなのには変わりないね。
+@@ @@
+##gray|**Upvote Reply ·+0** · 2019/10/13 01:29am##
+[[/div]]
+@@ @@
+-----
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin: 3px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[size 130%]]
+##green|Mind##⇄##orange|Blown## ↠ [[/size]] [[size 110%]] ##purple|自己改善とインスピレーション##
+[[/size]]
+
+**Ureri2019** - //明日に道理を通せ//
+[[span style="float:right; margin-right: 15px;"]]
+[[image Wise-old-man.jpg width="50px"]]
+[[/span]]
+全きPsychonautに問う。お前のエンジンは未だ壊れたままか？Theoidは今夢想の底か？
+
+@@ @@
+##gray|**Upvote Reply ·+4** · Webbsday 16, 05:12am##
+-----
+**Abraham**
+[[span style="float:right; margin-right: 15px;"]] [[image Abraham.jpg width="50px"]]
+[[/span]]
+少なくともHCのイカレ野郎どもよりは//マトモ//だよ、カス ##grey|(+3)##
+[[=]]
+@@-------@@
+[[/=]]
+**Ureri2019**
+[[span style="float:right; margin-right: 15px;"]] [[image Wise-old-man.jpg width="50px"]]
+[[/span]]
+
+お前は全きPsychonautではない。真のPsychonautは、エンジンが最も壊れ、何もかもを直視できない者だ。
+[[=]]
+@@-------@@
+[[/=]]
+**Abraham**
+[[span style="float:right; margin-right: 15px;"]] [[image Abraham.jpg width="50px"]]
+[[/span]]
+ケツの穴でも舐めてやがれクソ野郎
+@@ @@
+@@ @@
+[[/div]]
+@@ @@
+----
+@@ @@
+[[div style="float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
+[[span style="float:left; margin-left:5px; margin-top:12px; padding: 0px 10px;"]]
+[[image Wise-old-man.jpg style="width: 50px;"]]
+[[/span]]
+[[size 1.5em]] ##grey|ウレリ  @Ureri2019## [[/size]]
+@@ @@
+@@ @@
+[[size 2em]] ##black| エンジンは壊れている。お前たちはまず、それを直す必要がある。全きPsychonautが必要だ。## [[/size]]
+@@ @@
+* [[size .8em]] ##grey|リフート## [[/size]][[size 1.1em]] ##purple| 274,251## [[/size]]
+* [[size .8em]] ##grey|いいね## [[/size]][[size 1.1em]] ##purple| 1,903## [[/size]]
+@@ @@
+[[size .8em]] ##grey|2019/10/13 2:33pm ## [[/size]]
+[[/div]]
+@@ @@
+----
+@@ @@ 
+[[div class="outside"]]
+
+ウレリは各地に現れ、「全きPsychonaut」とやらに呼び掛け続けた。彼はちょっとした有名人にこそなったが、その扱いは完全に変人としてのそれだった。所謂、終末論的な預言者としての。……あながち、それは間違いではなかったようだけれど。
+
+[[/div]]
+@@ @@
+----
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin: 3px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Wise-old-man.jpg width="50px"]]
+[[/span]]
+
+**Ureri2019** - 内人 - //昨日さえも受容せよ//
+
+応答せよ、Psychonaut。
+@@ @@
+##gray|**Upvote Reply ·+0** · 2019/10/17 02:30am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 30px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Candle.jpg width="50px"]]
+[[/span]]
+
+**BleedingBuilding** - 教会の蝋燭 - //秋田県に行ってみよう！//
+
+なあ、ここにまで来るのはやめろよ。ここは荒れる話題でいっぱいにしたくない。
+@@ @@
+##gray|**Upvote Reply ·+0** · 2019/10/17 02:32am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 40px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Wise-old-man.jpg width="50px"]]
+[[/span]]
+
+**Ureri2019** - 内人 - //お前たちは第二層を広げすぎたのだ//
+
+全きPsychonaut、お前のエンジンは見るも無残にボロボロだ。全てはP-イキシューム（Ikisium）の解放に起因する。お前のTheoidはここではない。
+@@ @@
+##gray|**Upvote Reply ·+0** · 2019/10/17 02:32am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 40px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Candle.jpg width="50px"]]
+[[/span]]
+
+**BleedingBuilding** - 教会の蝋燭 - //全能の神にでも祈ってろよ//
+
+私がその全きナンチャラだって？いい加減にしろよ、ふざけるのはフートの中だけにしとけ。
+@@ @@
+##gray|**Upvote Reply ·+0** · 2019/10/17 02:34am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 40px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Wise-old-man.jpg width="50px"]]
+[[/span]]
+
+**Ureri2019** - 内人 - //エンジンは可修復//
+
+穴はお前が破壊しなければならない。私はあくまでそれを補助するだけだ。内なるべきものを内へと押し込むことはお前自身にしかできない。
+@@ @@
+##gray|**Upvote Reply ·+0** · 2019/10/17 02:34am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 40px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Candle.jpg width="50px"]]
+[[/span]]
+
+**BleedingBuilding** - 教会の蝋燭 - //💩//
+
+そんなの無理に決まってるだろ。
+@@ @@
+##gray|**Upvote Reply ·+0** · 2019/10/17 02:37am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 40px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Wise-old-man.jpg width="50px"]]
+[[/span]]
+
+**Ureri2019** - 内人 - //真のTheoidへ飛び出せ//
+
+「あり得ないだろう」もある意味では内なるべきものの1つだ。お前は全きPsychonautであって、全きPsychomasterではない。欠けたるものを拾う為には進まねばならない。
+@@ @@
+##gray|**Upvote Reply ·+0** · 2019/10/17 02:37am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 40px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Candle.jpg width="50px"]]
+[[/span]]
+
+**BleedingBuilding** - 教会の蝋燭 - //神か何かか？お前は//
+
+よくわかんねえよ。
+@@ @@
+##gray|**Upvote Reply ·+0** · 2019/10/17 02:41am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 40px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Wise-old-man.jpg width="50px"]]
+[[/span]]
+
+**Ureri2019** - 内人 - //己の力を振り絞る時が近い//
+
+ならば、ついてこい。//あり得ないもの//を見せてやろう。
+@@ @@
+##gray|**Upvote Reply ·+0** · 2019/10/17 02:41am##
+[[/div]]
+@@ @@
+----
+++++++ ワールドニュース
++ 謎の人物「Ureri2019」、ホール・コレクティブの住民を奪還
+++ 救出された76人のオネイロイは洗浄済みであり、Ureri2019は今もなおホール・コレクティブと戦闘している。
+[[size 1.2em]]
+謎のフートを行ったことで世間の注目を集めた「Ureri2019」だが、今回ついに行動を開始した。彼は突然オネイロイ・ウェスト内部に違法な程巨大な物体を複数作成し、それを用いてホール・コレクティブに侵攻した。目撃者の証言によると、「彼は、パイプオルガンのように沢山ある大きな排気口が取り付けられた、金属製で筒状の巨大なロケットに乗っていた」「排気口からは石灰の粉が舞っていた」とされる。
+[[/size]]
+
+[[size 1.2em]]
+侵攻から2時間後、ホール・コレクティブに取り込まれていたいくつかの州が正常に戻り、失踪していた76人のオネイロイが正常な状態で発見された。これらのオネイロイの証言によると、「巨大なトイレットペーパーみたいなものが突っ込んできて、先端のガラス窓から2人の人物が見えた」「1人がガラスの向こうからレーザービームを放って、穴に白い線を焼き引いた」という。片方はUreri2019だったそうだが、もう片方の人物は特定されていない。
+[[/size]]
+
+[[size 1.2em]]
+この一件を受けて、オネイロイ・ウェスト中のオネイロイたちからUreri2019を称賛する声が上がっている。中には、彼を模倣した外見に自身を改変し、ホール・コレクティブへ向かう者もいるとされる。今後の彼の言動に注目が集まっている。
+[[/size]]
+----
+@@ @@ 
+[[div class="outside"]]
+
+ウレリは、その瞬間まで乗り気ではなかった私に、すごいものを見せてくれた。私はウレリに促されて、ガラスの向こうに広がる穴の壁に手を伸ばした。すると、たちまちビームが壁に白線を描いた。私は興奮した。これが//あり得ない//なのか、と。
+
+私はロケットに乗ったまま、穴の奥へと進んでいった。穴に白線を引く度に、穴は穴でなくなっていった。そして、私はついに穴の終端へと到達したんだ。
+
+終端には、その先があるかのようで、何もなかった。そして、そこには1人の女性が横たわっていた。その人は苦しそうに荒く呼吸していた。そうしたら、彼は言ったんだ。
+
+「このまま、この女に追突する。」
+
+私は驚いたが、次の瞬間私たちはロケットの外に射出されていた。私が宙を舞った次の瞬間、彼は大鷲の姿に変化し、私を荒々しく掴んで穴の外へと運んだ。刹那、爆発音がして、私たちはもう完全に穴から出ていた。
+
+1つだけ、忘れられないことがある。それは、ウレリに掴まれたその瞬間、ロケットの向こうに見えた。
+
+彼女は//微笑んで//いた。
+
+[[/div]]
+@@ @@
+----
+@@ @@
+[[div style="float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
+[[span style="float:left; margin-left:5px; margin-top:12px; padding: 0px 10px;"]]
+[[image Wise-old-man.jpg style="width: 50px;"]]
+[[/span]]
+[[size 1.5em]] ##grey|ウレリ  @Ureri2019## [[/size]]
+@@ @@
+@@ @@
+[[size 2em]] ##black| 穴は終にあるべきところへと戻された。闇はより深く、しかし夜明けは近い。## [[/size]]
+@@ @@
+* [[size .8em]] ##grey|リフート## [[/size]][[size 1.1em]] ##purple| 63,274,251## [[/size]]
+* [[size .8em]] ##grey|いいね## [[/size]][[size 1.1em]] ##purple| 45,011,357## [[/size]]
+@@ @@
+[[size .8em]] ##grey|2019/10/18 5:21pm ## [[/size]]
+[[/div]]
+@@ @@
+[[div style="float: center; border: grey 4px; width: 370px; padding: 5px; margin: 10px; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"]]
+[[span style="float:left; margin-left:5px; margin-top:12px; padding: 0px 10px;"]]
+[[image Abraham.jpg style="width: 50px;"]]
+[[/span]]
+[[size 1.5em]] ##grey|エイブラハム  @Abraham## [[/size]]
+@@ @@
+@@ @@
+[[size 2em]] ##black| 俺はあの爺さんがクソッタレの穴をぐちゃぐちゃにかき乱すのを見た！ウレリは俺たちの救世主だ！## [[/size]]
+@@ @@
+* [[size .8em]] ##grey|リフート## [[/size]][[size 1.1em]] ##purple| 103,192## [[/size]]
+* [[size .8em]] ##grey|いいね## [[/size]][[size 1.1em]] ##purple| 37,580## [[/size]]
+@@ @@
+[[size .8em]] ##grey|2019/10/18 5:46pm ## [[/size]]
+[[/div]]
+@@ @@
+----
+@@ @@
+[[div style="display: table;width:100%;clear: unset;"]]
+[[div class="textbox-left" style="display: table;background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat;padding: 1px 15px; margin: 10px 10px 10px 10px; background-color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.2);clear: unset;float: left;"]]
+
+ウレリ主義者の州（The State of Urerists）─略してSUと呼ばれる─は、###e5a496|**ウレリ**##（Ureri）として知られる人物の信奉者による集合意識です。###e5a496|**エイブラハム**##（Abraham）を由来とし、かつ唯一の都市とします。
+
+ウレリは10/18のフート以降姿を見せていませんが、ウレリ主義者たちは当然 ##gray|,,[中立的でない記述],,## ウレリへの帰依を訴え続けています。その人口は現在数千に上っており、##purple|**オネイロイ・ウェスト**##だけでなく果ては**[*http://ja.scp-wiki.net/xiupania ユーファニア]**まで布教者が進出しています。その布教の成果はめざましく、現在もその人口は増加し続けています。
+
+###e5a496|**あなたもウレリ主義者の仲間になりませんか？ご連絡先はエイブラハムまで！**## ##gray|,,[中立的でない記述],,##
+
+[[/div]]
+
+[[div class="image-right" style="clear: unset;"]]
+
+[[span style="margin-top: 10px; color: #black; background-color: white; border: grey; width: 2px; padding: 0px 5px;" text-allign: center;]]
+
+[[span style="float:center; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"]]
+[[=image Wise-old-man.jpg style="border: grey solid 1px; box-shadow: 0 1px 6px rgba(0,0,0,.25); width:250px;"]]
+[[/span]]
+
+[[/span]]
+
+[[=]]
+
+^^**ウレリ主義者の州**^^
+
+^^**首都**^^
+エイブラハム
+
+^^**公用語**^^
+ホストの母国語
+もごもごした呟き
+
+^^**住民の呼称:**^^
+ウレリ主義者
+
+^^**政府:**^^
+民主制
+
+^^**時間経済:**^^
+1OW年=1SU年
+
+^^**現実:**^^
+パラ・サイエンス・フィクション
+
+^^**心理学:**^^
+--妄信的-- ###e5a496|敬虔##
+
+^^**移民の状態:**^^
+Open
+
+^^**脱出者の状態:**^^
+Open
+
+[[/=]]
+[[/div]]
+[[/div]]
+[[span style="float:left; weight: semibold; margin-left:5px; margin-top:12px; color: black; background-color: #ffffff; padding: 0px 10px;"]]
+[[size 90%]] //Last Edited 2019/10/31, 23:56pm by Abraham// [[/size]]
+[[/span]]
+
+[[span style="float:right; margin-left:5px; margin-top:12px; color: purple; background-color: #ffffff; padding: 0px 10px;"]]
+[VIEW EDITS] [**HISTORY**] [**COMMENTS**]
+[[/span]]
+
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+
+----
+
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin: 3px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Computer.jpg width="50px"]]
+[[/span]]
+
+**MadeInHalo** - 水槽の中 - //スュレディンガーのﾈｺ//
+
+なあ、ウレリは確かにすごいと思うけど、//こういうの//はちょっと違うんじゃないか？
+@@ @@
+##gray|**Upvote Reply ·+3** · 2019/10/20 01:16am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 30px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image God.jpg width="50px"]]
+[[/span]]
+
+###e5a496|**HentaiHub**## - 性なる夜 - //ウレリ万歳！//
+
+彼はヒーローさ！OWを救った救世主！今彼を崇めなくていつ崇めるって言うんだい？
+@@ @@
+##gray|**Upvote Reply ·+26** · 2019/10/20 01:23am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 40px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Abraham.jpg width="50px"]]
+[[/span]]
+
+###e5a496|**Abraham**## - ウレリの徒 - //服従しよう。啓蒙されよう。//
+
+ウレリは偉大なる神だ。その神は突然俺たちの下に舞い降りて、瞬く間にこのコレクティブを救済してみせた。あのクソッタレ穴を潰してな。そうさ、彼こそが我らの王。今こそ彼の御方に全てを委ねる時だ。万歳と唱えろ。
+@@ @@
+##gray|**Upvote Reply ·+28** · 2019/10/20 01:25am##
+[[/div]]
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin-left: 40px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Computer.jpg width="50px"]]
+[[/span]]
+
+###e5a496|**MadeInHalo**## - 水槽の中 - //ヒーローを受け入れないと//
+
+確かにその通りだ。ごめん！変なことを言ってしまって
+@@ @@
+##gray|**Upvote Reply ·+13** · 2019/10/20 01:28am##
+[[/div]]
+@@ @@
+----
+@@ @@
+[[div class="outside"]]
+
+久しぶりに戻ってみれば、やはり予想通りの展開になっていた。ウレリは今やOWのヒーローとなり、神格化され、もてはやされていた。
+
+彼に会わなければならない。だが、恐らく彼もまた私を探している。彼は//全て//わかっているはずだ。
+
+[[/div]]
+@@ @@
+----
+@@ @@
+[[div style="background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin: 3px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px"]]
+
+[[span style="float:left; margin-right: 15px;"]]
+[[image Candle.jpg width="50px"]]
+[[/span]]
+
+**###e5a496|Ble##edi###e5a496|ng##Bu###e5a496|ildi##ng** - 教会の蝋燭 - //風が吹いてきた//
+
+これを見たなら、返事をしてほしい。
+@@ @@
+##gray|**Upvote Reply ·+0** · 2019/11/01 04:56am##
+[[/div]]
+@@ @@
+----
+@@ @@
+[[div class="outside"]]
+
+……やあ、また会えたな。
+
+[[/div]]
+
+##purple|私はいつでもお前のそばに居たとも、Psychonaut。##
+
+[[div class="outside"]]
+
+もう「全き」とは言ってくれないのか？
+
+[[/div]]
+
+##purple|ああ。お前はいよいよPsychonautに相応しくない。##
+
+[[div class="outside"]]
+
+そうか。
+
+[[/div]]
+
+##purple|……さて、用件があるのだろう？聞こう。##
+
+[[div class="outside"]]
+
+……。
+
+[[/div]]
+
+##purple|躊躇うことはない。好きにするといい。##
+
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+
+[[div id="u-kill"]]
+[[/div]]
+[[div id="u-spare"]]
+[[/div]]
+
+[[div class="before"]]
+
+||= [#u-kill ウレリを殺す] ||
+||= [#u-spare ウレリを生かす] ||
+
+[[/div]]
+
+[[div class="after-k"]]
+
+##purple|……それでいい、Psychonautよ。##
+
+[[div class="outside"]]
+
+……う、ウレリ……。
+
+[[/div]]
+
+##purple|悲しむ必要はない。私は内なるべきものであり、穴に続く第二の悪疫になろうとしていたものだ。それを、内へと押し戻しただけだろう？##
+
+[[div class="outside"]]
+
+だ、だけど…。
+
+[[/div]]
+
+##purple|Psychonaut。これで、全ては元通りだ。だが、約束してほしい。私たちは必ず//戻ってきてしまう//。この「オネイロイ・ウェスト」という結合がある以上、エラカヌラから再び私たちは戻ってくるだろう。だから、その時もまた、私たちを殺してくれ。##
+
+[[div class="outside"]]
+
+……わかった。必ず。
+
+[[/div]]
+
+##purple|ありがとう。##
+
+[[div class="outside"]]
+
+……。
+
+[[/div]]
+
+##purple|……なあ、Psychonautよ。##
+
+[[div class="outside"]]
+
+何だ？
+
+[[/div]]
+
+##purple|……私たちは、キミのエンジンになれたか？##
+
+[[div class="outside"]]
+
+……ああ、きっと。
+
+[[/div]]
+
+[[span style="color: transparent; background: linear-gradient(purple, transparent); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;"]]……なら、良かった。[[/span]]
+
+----
+@@ @@
+[[div class="outside"]]
+
+ウレリは、私の目の前で消え去った。
+
+気がつけば、もうすぐ日が昇ってくる時間だった。彼のウイルスが消え去ったかも確認せず、私は急いでオネイロイ・ウェストを離れる。そして、自分の夢に戻ってくる。
+
+心地よい朝日が顔に当たって、私は目覚めた。
+
+[[/div]]
+
+[[/div]]
+
+[[div class="after-s"]]
+
+[[div class="outside"]]
+
+……いや、何でもないよ。ただ話がしたかっただけだ。
+
+[[/div]]
+
+##purple|……そうか。##
+
+[[div class="outside"]]
+
+……じゃあ、私はこれで──
+
+[[/div]]
+
+##purple|なあ。##
+
+[[div class="outside"]]
+
+──な、何だ？
+
+[[/div]]
+
+##purple|エンジンになれず、すまない。##
+
+[[div class="outside"]]
+
+……え？
+
+[[/div]]
+@@ @@
+----
+@@ @@
+[[div class="outside"]]
+
+振り向いたその時には、彼は私の目の前からいなくなっていた。
+
+私は、今日もオネイロイ・ウェストの奥深くへと進んでいく。見ない間に、ウレリへの賛美の渦でいっぱいになったこのコレクティブに。だが──私の心には結局恐れしかなく、どこにいても私は逃げてばかりだった。
+
+[[/div]]
+
+[[/div]]
+
+[[module css]]
+
+.outside {
+  margin: 2em -6em;
+  padding: 1em 10em;
+  --narration-color: #e5a496;
+  background: var(--narration-color);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, var(--narration-color) 20%, var(--narration-color) 80%, rgba(255,255,255,0) 100%);
+  z-index: -2;
+}
+
+.outside.inline {
+  margin: 1em -6em;
+  padding: 1px 10em;
+}
+
+@media only screen and (max-width: 1040px) {
+  .outside {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .image-right {
+    float: unset;
+  }
+  .textbox-left {
+    width: 85%
+  }
+}
+@media only screen and (min-width: 768px) {
+  .image-right {
+    float: right;
+  }
+  .textbox-left {
+    width: 40%
+  }
+}
+
+
+#u-kill:target ~ .before, #u-kill ~ .after-k {display: none;}
+#u-kill ~ .before, #u-kill:target ~ .after-k {display: block;}
+
+#u-spare:target ~ .before, #u-spare ~ .after-s {display: none;}
+#u-spare ~ .before, #u-spare:target ~ .after-s {display: block;}
+
+[[/module]]

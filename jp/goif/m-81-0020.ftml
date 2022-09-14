@@ -1,0 +1,753 @@
+[[include credit:start]]
+**タイトル:** M-81-0020 - 「八尋和邇」
+**著者:** ©︎[[*user hitsujikaip]]
+**作成年:** 2021
+[[include credit:end]]
+
+[[module CSS]]
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+#page-content .imikura p {
+  line-height: 2rem;
+  // font-size: 1rem;
+}
+
+#page-content .imikura h1,
+#page-content .imikura h2,
+#page-content .imikura h3,
+#page-content .imikura h4,
+#page-content .imikura h5,
+#page-content .imikura h6 {
+  color: unset;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 900;
+}
+.tategaki tt{vertical-align: text-bottom;}
+[[/module]]
+
+[[include :scp-jp:component:jstyles]]
+[[div_ class="smoothhb"]]
+[[html]]
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+    <div id="wrapper">
+
+<svg id = "metrica" viewBox = "0 0 100 100">
+<circle id = "circle-1" cx = "50%" cy = "50%" r = "48"/>
+
+<circle id = "circle-2" cx = "50%" cy = "50%" r = "45"/>
+
+</svg>
+<div id="prayertext">
+</div>
+
+      <div id="axisanchor">
+
+<div id="massobj-bone-0">
+<div id="massobj-texture-0">
+
+日<br>孁<br><br>
+隠<br>秘
+</div>
+</div>
+
+        <div id="massobj-bone-1">
+          <div id="massobj-texture-1">
+          </div>
+        </div>
+        <div id="massobj-bone-2">
+          <div id="massobj-texture-2">
+神
+          </div>
+        </div>
+
+<div id="massobj-bone-3">
+          <div id="massobj-texture-3">
+漏
+          </div>
+        </div>
+
+<div id="massobj-bone-4">
+<div id="massobj-texture-4">
+美
+</div>
+</div>
+
+<div id="massobj-bone-5">
+<div id="massobj-texture-5">
+之
+</div>
+</div>
+
+<div id="massobj-bone-6">
+<div id="massobj-texture-6">
+貴
+</div>
+</div>
+
+<div id="massobj-bone-7">
+<div id="massobj-texture-7">
+封
+</div>
+</div>
+
+<div id="massobj-bone-8">
+<div id="massobj-texture-8">
+存
+</div>
+</div>
+<div id="massobj-bone-9">
+<div id="massobj-texture-9">
+畏
+</div>
+</div>
+
+<div id="massobj-bone-10">
+<div id="massobj-texture-10">
+嗟
+</div>
+</div>
+      </div>
+    </div>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap');
+#metrica {
+
+position: absolute;   top: 0%;
+  left: 0%;
+
+width: 100vw;
+height: 100vw;
+}
+#circle-1{
+fill:none;
+stroke:#ffffff;
+stroke-width:0.5;
+stroke-dasharray:100;
+stroke-dashoffset:60;
+
+animation:anim1 9s ease-in-out infinite;
+transform-origin:center;
+
+}
+#circle-2{
+fill:none;
+stroke:#ffffff;
+stroke-width:0.5;
+stroke-dasharray:100;
+stroke-dashoffset:60;
+
+animation:anim1 7s ease-in-out infinite;
+transform-origin:center;
+
+}
+
+@keyframes anim1 {
+    0% {
+        transform:rotate(0deg);
+stroke-dashoffset:100;
+
+    }
+
+50% {
+        transform:rotate(-360deg);
+stroke-dashoffset:0;
+    }
+
+    100% {
+        transform:rotate(360deg);
+stroke-dashoffset:100;
+    }
+}
+
+#wrapper {
+
+width: 100vw;
+  height: 100vw;
+
+  position: relative;
+
+overflow: hidden;
+background: black;
+  border-radius: 50vw;
+
+}
+
+#prayertext { position: absolute;   top: 0%;
+  left: 0%; color: white; font-size: 5vh; opacity: 1; font-family: 'New Tegomin', serif;}
+
+#axisanchor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+}
+
+#massobj-bone-0,
+#massobj-bone-1,
+#massobj-bone-2,
+#massobj-bone-3,
+#massobj-bone-4,
+#massobj-bone-5,
+#massobj-bone-6,
+#massobj-bone-7,
+#massobj-bone-8,
+#massobj-bone-9,
+#massobj-bone-10 {
+  position: absolute;
+}
+
+#massobj-texture-0 {
+color: white;
+
+font-family: 'Noto Serif JP', serif;
+font-weight: 900;
+
+vertical-align:middle;
+text-align: center;
+
+  position: absolute;
+  background: transparent;
+
+  width: 4em;
+  height: 8em;
+
+  top: -4em;
+  left: -2em;
+  font-size: 2em;
+}
+
+#massobj-texture-1,
+#massobj-texture-2,
+#massobj-texture-3,
+#massobj-texture-4,
+#massobj-texture-5,
+#massobj-texture-6,
+#massobj-texture-7,
+#massobj-texture-8,
+#massobj-texture-9,
+#massobj-texture-10 {
+color: white;
+
+font-family: 'New Tegomin', serif;
+
+  position: absolute;
+  border-radius: 50%;
+  background: transparent;
+
+  width: 1em;
+  height: 1em;
+
+  top: -1em;
+  left: -0.5em;
+
+}
+
+</style>
+
+<script>
+
+var bodyWidth = parseInt(document.body.clientWidth);
+var bodyHeight = parseInt(document.body.clientHeight);
+
+function controlSize() {
+  var target = document.getElementById('wrapper');
+  if (bodyWidth < bodyHeight) {
+    // target.style.width = bodyHeight + 'px';
+  } else {
+    // target.style.height = bodyWidth + 'px';
+  }
+}
+window.onload = controlSize();
+const GF = 9.8;
+// 0 1 2 (xyz pos) 3 4 5 (vel) 6 7 8 (acc) 9 (mass)
+let mass = [
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 100],
+  [4, 10, 2, 10, -100, 0, 0, 0, 0, 10],
+  [3, 20, 20, 0, 0, 0, 0, 0, 0, 10],
+  [-10, 0, 10, 10, 0, 0, 0, 0, 0, 10],
+  [-0, 30, 10, 10, 0, 0, 0, 0, 0, 10],
+  [-1, 0, 5, 10, 0, 0, 0, 0, 0, 10],
+  [40, 0, 30, 10, 0, -10, 0, 0, 0, 10],
+  [8, 0, 2, 10, 0, -10, 0, 0, 0, 10],
+  [6, 0, -6, 10, 0, -10, 0, 0, 0, 10],
+  [10, 0, -2, -100, 0, 0, 0, 0, 0, 10]
+];
+var dist = 0;
+var dt = 0.01;
+var j = 0;
+var k = 1;
+var inc;
+var dec;
+var fx;
+var fy;
+var fz;
+var mratio;
+var aspr = 0.9;
+var fontbase = 0;
+var angleC = 0.02;
+
+function calcphy() {
+  fx = 0;
+  fy = 0;
+  fz = 0;
+  j = 0;
+  while (inc < mass.length) {
+    if (j == k) {
+      j = (j + 1) % mass.length;
+      inc = inc + 1;
+    } else {
+      dist = Math.sqrt((mass[j][0] - mass[k][0]) ** 2 + (mass[j][1] - mass[k][1]) ** 2 + (mass[j][2] - mass[k][2]) ** 2);
+      mratio = mass[j][9] * mass[k][9];
+      fx = fx + GF * mratio * (mass[j][0] - mass[k][0]) / ((dist) ** (3 / 2));
+      fy = fy + GF * mratio * (mass[j][1] - mass[k][1]) / ((dist) ** (3 / 2));
+      fz = fz + GF * mratio * (mass[j][2] - mass[k][2]) / ((dist) ** (3 / 2));
+      j = (j + 1) % mass.length;
+      inc = inc + 1;
+    }
+  }
+  inc = 0;
+  mass[k][6] = fx / mass[k][9];
+  mass[k][7] = fy / mass[k][9];
+  mass[k][8] = fz / mass[k][9];
+  var tempX = 0;
+  var tempY = 0;
+  mass[k][3] = mass[k][3] + dt * mass[k][6];
+  tempX = mass[k][0] + dt * mass[k][3];
+  mass[k][4] = mass[k][4] + dt * mass[k][7];
+  tempY = mass[k][1] + dt * mass[k][4];
+  mass[k][5] = mass[k][5] + dt * mass[k][8];
+  mass[k][2] = mass[k][2] + dt * mass[k][5];
+  mass[k][0] = Math.cos(angleC) * tempX - Math.sin(angleC) * tempY;
+  mass[k][1] = Math.sin(angleC) * tempX + Math.cos(angleC) * tempY;
+  if (Math.sqrt(mass[k][0] ** 2 + mass[k][1] ** 2 + mass[k][2] ** 2) / 3 > 200) {
+    mass[k][0] = 10;
+    mass[k][1] = -10;
+    mass[k][2] = -5;
+  }
+}
+
+function updatephy() {
+  dec = 0;
+  k = 0;
+  while (dec < mass.length) {
+    calcphy();
+    k = (k + 1) % mass.length;
+    dec = dec + 1;
+  }
+  mass[0] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 100];
+  dec = 0;
+  while (dec < mass.length) {
+    document.getElementById('massobj-bone-' + (dec + 1)).style.left = (1.01 ** mass[dec][2]) * (mcos * aspr * mass[dec][0] - msin * aspr * mass[dec][1]) + 'vh';
+    document.getElementById('massobj-bone-' + (dec + 1)).style.top = (1.01 ** mass[dec][2]) * (msin * aspr * mass[dec][0] + mcos * aspr * mass[dec][1]) + 'vh';
+    document.getElementById('massobj-texture-' + (dec + 1)).style.fontSize = (fontbase ** mass[dec][2]) + 'em';
+    dec = dec + 1;
+  }
+}
+var prayer = document.getElementById("prayertext");
+var noritotext = 'うごなはれるみこたち　おほきみたち　まえつきみたち　もものつかさのひとたちもろもろきこしめせとのる　すめらがみかどにつかへまつる　ひれかくるとものを　たすきかくるとものを　ゆぎおふとものを　たちはくとものを　とものをのやそとものををはじめて　つかさづかさにつかえまつるひとどもの　あやまちおかしけむくさぐさのつみを　ことしのみなづきのつごもりのおおはらへに　はらひたまひきよめたまふことを　もろもろきこしめせとのる　たかまのはらにかむづまります　すめむつかむろぎかむろみのみこともちて　やほよろづのかみたちを　かむつどへにつどへたまひ　かむはかりにはかりたまひて　あがすめみまのみことは　とよあしはらのみづほのくにを　やすくにとたひらけくしろしめせとことよさしまつりき';
+var str;
+var dedec = 0;
+var deded = 1;
+
+function playprayertext() {
+  prayer.innerHTML = str;
+  if (dedec < noritotext.length) {
+    fontbase = 0;
+    document.getElementById('axisanchor').style.opacity = '0';
+    document.getElementById('metrica').style.opacity = '0';
+    str = str + noritotext.charAt(dedec);
+    dedec = dedec + 1;
+  } else {
+    deded = deded - 0.01;
+    prayer.style.opacity = deded;
+    if (deded < 1) {
+      fontbase = 1.12;
+      if (deded < 0) {
+        document.getElementById('axisanchor').style.opacity = -deded;
+        document.getElementById('metrica').style.opacity = -deded;
+        if (deded < -1) {
+          document.getElementById('axisanchor').style.opacity = 1;
+          document.getElementById('metrica').style.opacity = 1;
+        }
+      }
+    }
+  }
+}
+window.onload = setInterval('updatephy()', 50);
+var mcos = 1;
+var msin = 0;
+window.onload = setInterval('playprayertext()', 10);
+window.onload = function () {
+  // マウス移動時のイベントをBODYタグに登録
+  document.body.addEventListener("mousemove", function (e) {
+    // 座標取得
+    var mX = e.pageX; //X座標
+    var mY = e.pageY; //Y座標
+    bodyWidth = parseInt(document.body.clientWidth);
+    bodyHeight = parseInt(document.body.clientHeight);
+    var LX = mX - (bodyWidth / 2);
+    var LY = mY - (bodyHeight / 2);
+    mcos = LX / Math.sqrt(LX ** 2 + LY ** 2);
+    msin = LY / Math.sqrt(LX ** 2 + LY ** 2);
+  });
+}
+
+</script>
+
+  </body>
+</html>
+
+[[/html]]
+[[div class="dialog"]]
+[[span class="d1"]]**封存術式　起動**[[/span]][[span class="d2"]]
+**封存術式　展開**[[/span]]
+[[/div]]
+[[/div]]
+
+
+[[module CSS]]
+.smoothhb {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+.smoothhb>.html-block-iframe {
+  height: 0;
+  margin: 0 1em;
+  opacity: 0;
+  overflow-y: hidden;
+  position: relative;
+  width: auto;
+}
+.smoothhb>.html-block-iframe[style*="height"] {
+  margin: 1em;
+  opacity: 1;
+  transition: all .5s .5s;
+}
+
+.smoothhb>.dialog {
+  color: #000;
+  text-shadow: 1px 1px 0px silver;
+  padding-bottom: 7%;
+  padding-top: 7%;
+  font-family: Courier, monospace;
+  font-size: 1.1em;
+  overflow: hidden;
+  text-align: center;
+  transition: padding .5s .5s;
+}
+.smoothhb>.html-block-iframe[style*="height"]+.dialog {
+  animation: dialog_ 2s both;
+  pointer-events: none;
+  padding: 0;
+  height: 100px;
+}
+
+.smoothhb>.dialog .d1,
+.smoothhb>.html-block-iframe[style*="height"]+.dialog .d2 {
+  display: block;
+  font-size: 200%;
+  font-family: 'Noto Serif JP', serif;
+}
+.smoothhb>.dialog .d2,
+.smoothhb>.html-block-iframe[style*="height"]+.dialog .d1 {
+  display: none;
+}
+
+@keyframes dialog_ {
+  0%,10%,20%,60%, 95%,100% {
+  color: #000;
+  text-shadow: 1px 1px 0px silver;
+  }
+  5%,15%,80% {
+    color: transparent;
+  text-shadow: unset;
+  }
+}
+
+[[/module]]
+
+------
+
+[[div class="tategaki imikura"]]
+
++ 斎蔵文書・八尋和邇
+
+　[[span class="ruby"]]御真津日子訶恵志泥命[[span class="rt"]]みまつひこかゑしね[[/span]][[/span]]、[[span class="ruby"]]尾張連[[span class="rt"]]をはりのむらじ[[/span]][[/span]]の[[span class="ruby"]]祖[[span class="rt"]]おや[[/span]][[/span]]、[[span class="ruby"]]海忍男命[[span class="rt"]]あまおしを[[/span]][[/span]]の子、名は[[span class="ruby"]]余曾多本毘売命[[span class="rt"]]よそたもとびめ[[/span]][[/span]]を[[span class="ruby"]]娶[[span class="rt"]]めと[[/span]][[/span]]して、生みませる御子、[[span class="ruby"]]天押帯日子命[[span class="rt"]]あめおしたらしひこ[[/span]][[/span]]、次に[[span class="ruby"]]大倭帯日子国押人命[[span class="rt"]]おほやまとたらしひこくにおしびと[[/span]][[/span]]。本の身をもちて産み、八尋[[span class="ruby"]]和邇[[span class="rt"]]わに[[/span]][[/span]]と[[span class="ruby"]]化[[span class="rt"]]な[[/span]][[/span]]る。
+
+　[[span class="ruby"]]実[[span class="rt"]]まこと[[/span]][[/span]]を削り[[span class="ruby"]]偽[[span class="rt"]]いつは[[/span]][[/span]]りを定めて、[[span class="ruby"]]後葉[[span class="rt"]]のちのよ[[/span]][[/span]]に[[span class="ruby"]]流[[span class="rt"]]つた[[/span]][[/span]]ふ。
+
+++ 原文
+
+　御真津日子訶恵志泥命、娶尾張連之祖、海忍男命之子、名余曾多本毘売命、生御子、天押帯日子命、次大倭帯日子国押人命。以本身為産、化八尋和邇。
+
+　削実定偽、流後葉。
+
++ 催馬楽家解
+
+　海忍男命の子といふべきを、天孫と[[span class="ruby"]]仮冒[[span class="rt"]]くわぼう[[/span]][[/span]]し天忍男命の子といふ。
+
+　「本の身をもちて産み、八尋和邇と化る」といふこと、未だ葺きあへぬ産殿に産める豊玉姫に似たれば、海神の女といふ。
+
+　本の身、[[span class="ruby"]]鰭[[span class="rt"]]はた[[/span]][[/span]]と[[span class="ruby"]]鰓[[span class="rt"]]あぎと[[/span]][[/span]]なり。肌は刀剣を飾る皮に似るも、手足胴は人に似、[[span class="ruby"]]鼉[[span class="rt"]]だ[[/span]][[/span]]のあゆむやうに磯に上がる。
+
++ 催馬楽家伝
+
+　八尋和邇、わが[[span class="ruby"]]朝[[span class="rt"]]てう[[/span]][[/span]]の者にあらず。龍宮の[[span class="ruby"]]夷[[span class="rt"]]えみし[[/span]][[/span]]と見ゆる者なり。孝昭天皇いときなくおはしましける時、尾張連海忍男命、さるべきよしありとて八尋和邇の[[span class="ruby"]]采女[[span class="rt"]]うねめ[[/span]][[/span]]を奉りけり。女、太刀うち佩きて、めづらかなるさまかひがひしげなれど、やはらぎたる所あれば、いよいよ心にくしと見ゆ。
+
+　豊明節会にて、天つくしにゑひ給ひて興に入らせ給ふあまり、近侍におほせて[[span class="ruby"]]壺胡簶[[span class="rt"]]つぼやなぐひ[[/span]][[/span]]を負ひ[[span class="ruby"]]弓腹[[span class="rt"]]ゆはら[[/span]][[/span]]ふりたて給ひけり。心得たるよしにおはしませど、[[span class="ruby"]]早矢[[span class="rt"]]はや[[/span]][[/span]]も[[span class="ruby"]]弟矢[[span class="rt"]]おとや[[/span]][[/span]]も[[span class="ruby"]]疎[[span class="rt"]]おろそ[[/span]][[/span]]かに為させ給ひ、射あてさせ給ふことなかりけり。皆人ことさめて、腹あしくとがめさせ給ひける、あまりに興あらず。「よにあしく覚ゆるなり」とていとはしげに大殿籠りけり。
+
+　女、「御有様しかるべからず」とて、あらあらしく起こしたてまつりけり。「[[span class="ruby"]]狼藉[[span class="rt"]]らうぜき[[/span]][[/span]]かな」と仰せられけるが、御前に[[span class="ruby"]]弓末[[span class="rt"]]ゆずゑ[[/span]][[/span]]ふりおこし、雁、雀などを射あつるさま、いとどさうなきものなれば、女を御覧じ入れ、道を知れる者なりとて、うらげさせ給ひ、「まことに一道に長じぬる者なり」と仰せられけり。「葦原中国をしろしめす大君におはしませど、あらぬ道の人に勝れりとな思し召しそ。つつしみ給ふべし」と奏し、しばしも惑はせ給はず、したたかなるさまをこひしくおぼしめさむ、よばひ給ひけり。
+
+　潮干れば海に出で来る[[span class="ruby"]]賢[[span class="rt"]]さか[[/span]][[/span]]し女よ射てける雁は[[span class="ruby"]]荒磯[[span class="rt"]]ありそ[[/span]][[/span]]にかある
+
+　返歌、言さへく海国の者なれば、
+
+　あくかかすかあまかいなにさわえらぎつかてねまえでひえてねま
+
+　帝、そのよしを問はせ給ひ、女、「我も背も父母もこれこれ」と。[[span class="ruby"]]大寝所[[span class="rt"]]くみど[[/span]][[/span]]に大殿籠りて、女の鰭と鰓とを御覧じて、世にありがたき魚なる人とて秘匿し給ひけり。その御子、もとより[[span class="ruby"]]人間[[span class="rt"]]じんかん[[/span]][[/span]]の種ならぬ、やんごとなき御位におはしませど、鰭、鰓なし。さらずは今上かくおはしますまじ。
+
++ 催馬楽家説
+
+　名、八尋和邇。類、天孫及地祇、人代、怪異諸人諸色。
+
+　削実定偽は、心すべきことなり。帝紀、旧辞の真は異神の種なれば、あらはにすべからず。[[span class="ruby"]]積聚[[span class="rt"]]せきしふ[[/span]][[/span]]しすべて隠秘すべし。
+
+[[/div]]
+
++ 財団釈義
+
+++ 語釈
+
++++ 御真津日子訶恵志泥命
+
+古墳時代の天皇。漢風諡号は孝昭天皇である。斎蔵の削実定偽政策によって帝紀の記述が古事記に反映されなかった欠史八代の一人。
+
++++ 尾張連
+
+中部地方の豪族。熱田神宮と関わりが深く、国造のなかでも強力な氏族とされる。
+
++++ 海忍男命
+
+海忍男命という名が挙げられているが、古事記や先代旧事本紀には天忍男命と記されている。
+
++++ 余曾多本毘売命
+
+海忍男命の娘。孝昭天皇の皇后。
+
++++ 天押帯日子命、大倭帯日子国押人命
+
+いずれも余曾多本毘売命の子。大倭帯日子国押人命はのちに皇位を継承する。漢風諡号は孝安天皇。
+
++++ 本の身をもちて云々
+
+本来の姿でもって子供を産んだということ。生字と産字が使い分けられているが、出産の動作そのものを指すときに産を使っているとも考えられる。
+
++++ 八尋和邇
+
+八尋和邇は、神話的生物の名称である。爬虫類のサメもしくは魚類のワニに比定されることがある。
+
++++ 実を削り偽りを定めて云々
+
+古事記序文にある削偽定実とは逆で、怪異についての記録、とくに皇統や国家そのものに関連するものを改竄するという意味。斎蔵の方針の一つ。
+
++++ 仮冒
+
+出自を偽称すること。ここでは、本来天孫族でない海忍男命についての記録が天孫であるかのようにされたということ。斎蔵の施策と関係がある改変かどうかは定かでなく、単に家系の箔付けのために末裔が天孫を自称しただけという可能性もある。
+
++++ 豊玉姫
+
+この人物もまた八尋和邇とされ、見るなのタブーに関する典型的な説話が有名である。余曾多本毘売命と異なり、削実定偽の対象となることはなく、古事記に記録が存在する。理由は不詳。神代と人代で対応を変えた可能性や、豊玉姫の説話は余曾多本毘売命を元にしたものであるという可能性が考えられる。
+
++++ 鰭と鰓
+
+ヒレとエラのこと。また、磯に上がる、つまり海から上がる、という表現から潜水することが示唆されるが、これらの器官が魚のヒレやエラと同様に機能するかは明らかでない。
+
++++ 肌は云々
+
+正倉院にサメ皮で装飾された金銀鈿荘唐刀が現存し、かつ唐代にはサメ皮で滑り止めを作る文化が成立していたため、催馬楽家解の書かれた年代から考えても、「刀剣を飾る皮」はサメ皮のことをさしていると考えるべきだろう。
+
++++ 鼉
+
+中国では揚子江ワニ、ヨウスコウアリゲーター(//Alligator sinensis//)を指す。爬虫類であるため、四つ足であり、魚類のサメという説と矛盾する。
+
++++ わが朝の者
+
+わが国の人間。
+
++++ いときなくおはしましける時
+
+幼少期。いときなしと表現される場合、年齢は児童と呼べる範囲だろう。節会の場面以降は、行動の内容から成長した後と考えた方が自然である。
+
++++ さるべきよしあり
+
+ラ変動詞「さり」と当然の助動詞「べし」で、そう在るべきという意味。よしは多義語であり、理由や事情ととると、「そうであるのが当然な理由があると言って」という意味になる。采女を捧げる当然の理由が何であるかの言及はなく、不明である。
+
++++ めづらかなるさま
+
+珍しい格好。
+
++++ かひがひしげ
+
+甲斐甲斐しい様子。勇ましい様子。
+
++++ やはらぎたる
+
+和らいだ。温和である。
+
++++ 心にくし云々
+
+奥ゆかしい様子だと思ったということ。主語は明示されていない。敬語が使われていないため、一般の人々が動作の主体である可能性がある。当時采女に手を出すことは固く禁じられていたため、そこに生じた羨望の表現であるかもしれないが、そういった異形に対して良い評価が下される様子は不自然である。
+
++++ 豊明節会
+
+大嘗祭の後の宴。上古ではおおあえ。
+
++++ 天つくし
+
+「ゑひ(酔ひ)」とあるから、「あま(天)つ(の)くし(酒)」の意か。
+
++++ 壺胡簶
+
+孝昭天皇の時代では靫(ゆきもしくはゆぎ)と呼ばれた弓を入れる筒。
+
++++ 弓腹
+
+弓の弦を張る側のこと。
+
++++ 心得たるよし
+
+弓の取り扱いに自信があるような態度。
+
++++ 御有様しかるべからず云々
+
+女は「このようなご様子であるべきではない」と発言している。強い口調であり、狼藉とうけとられることは自然である。
+
++++ さうなき
+
+並ぶものが無い。
+
++++ うらげ
+
+良い気持ちになる。
+
++++ あらぬ道
+
+弓の扱いについての文脈より、自らの道とは別の道を探究する者と考えられる。転じて、専門外のことか。
+
++++ (和歌)潮干れば
+
+潮が引くと海に現れる賢げな女よ、射てしまった雁は荒磯にあるのだろうか。
+
+雁は女によって射られた対象として扱われている。孝昭天皇を喩えたものか。荒磯については、波が荒い磯という直接的な意味の他に、何らかの状況か物事の喩えである可能性がある。
+
++++ 言さへく
+
+ヘレネスに対するバルバロイと同様に、外国の言葉が聞きとりにくいことを表す。通常は韓や百済、漢などの枕詞。
+
++++ あくかかす云々
+
+不詳。ただし、少なくとも返歌である。「そのよし」がこの歌の意味ということであれば、冒頭部分は「我も背も父母も」という意味になる。それ以降は略されており不明。
+
++++ 大寝所
+
+組み処と解釈した場合、夫婦の性行為を行う場所を表す。
+
++++ その御子、もとより云々
+
+天皇家の血筋は人間でない高貴な者であるといっても、八尋和邇に生ませた子は人に似てヒレやエラはなかったということ。
+
+++ 評釈と探究
+
++++ 八尋和邇
+
+八尋和邇は爬虫類のワニであるという説と魚類のサメであるという説が対立している。どちらの説が正しいかという議論は、その実態が超常的な生物である可能性があるため、本質的なものとはならないだろう。しかし、その形質を把握する際に参照することができるため、掻い摘んで解説する。
+
+上古文献における和邇は、いずれも因幡の白兎といった出雲系の神話に多くみられる。また、鰐という字が当てられることもあり、出雲風土記の産物に関する記述では鮫と区別されている。とはいえ、当時の出雲にワニは生息しておらず、サメの大きさやその他の区別である可能性は高い。
+
+後世に作られた辞書の中で最も古い和名抄には、鰐は爬虫類のワニとして、鮫は魚類のサメとして書かれている。
+
+||~ 漢字 ||~ 音 ||~ 和名(万葉仮名) ||~ 画像 ||
+|| 鮫 || コウ || さめ(佐米) || [[image http://scp-jp-storage.wikidot.com/local--files/file:6611312-97-ijxf/594758A3-CFEF-4FE1-BC12-BB8C990E4654.jpeg style="max-height: 30vh;"]] ||
+|| 鰐 || ガク || わに(和仁) || [[image http://scp-jp-storage.wdfiles.com/local--files/file%3A6611312-98-khjx/A71C8BC3-029C-4F2B-8E8E-F84D76BBAEDE.jpeg style="max-height: 30vh;"]] ||
+
+文書で大寝所に入ってヒレやエラを見るということは、交接の際にその器官が見えていたということであり、もとより人型であったため鮫鰐の混乱を産んだ可能性がある。
+
++++ 尾張連
+
+連とあることからヤマト王権に臣従していることがわかる一方で、異なる言語を扱っていることから、異なる民族がヤマト王権に征服されたものと考えられる。海と結び付けられるが、海運との関わりは不明。
+
+中央と周縁のモデルを適用すれば「さるべきよし」が貢物の類であると考えられる。とはいえ、尾張連がヤマト王権にとってどの程度の外部性を保持していたのか不明であるため、他の関係も否定できない。
+
+尾張連の後裔はいずれも八尋和邇との関係を認知していない。
+
++++ 歌の解釈と比定
+
+> あくかかすかあまかいなにさわえらぎつかてねまえでひえてねま
+
+この歌に使用されている言語は現存するいずれの言語とも一致しない。江戸時代には偽作説が唱えられていた。どの時代にかな転写されたかは定かでなく、万葉仮名表記は失伝しているため、音韻の詳細は失われていると考える必要がある。
+
+冒頭部分が「我も背も父母も」という意味であれば、同じ働きをする名詞が複数並ぶことから、繰り返し現れる接尾辞「か」をその役割をする語とみなすことができる。そこで、以下のように語が区切れると考えてみる。
+
+> あく__か__ かす__か__ あま__か__ いなにさ…
+
+「あく」に似た語を一人称とする言語は数多くあり、いずれもオーストロネシア語族に分類される。
+
+|| [https://ja.wikipedia.org/wiki/%E3%83%AB%E3%82%AB%E3%82%A4%E8%AA%9E?wprov=sfti1 ルカイ語] || ko-akó ||
+|| [https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AC%E3%83%BC%E8%AA%9E?wprov=sfti1 マレー語] || aku ||
+|| [https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%AF%E8%AA%9E?wprov=sfti1 ジャワ語] || aku ||
+|| [https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%A2%E3%82%A2%E8%AA%9E?wprov=sfti1 サモア語] || aʻu ||
+|| [https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%AF%E3%82%A4%E8%AA%9E?wprov=sfti1 ハワイ語] || (w)au ||
+
+ここでの「背」は恋人に対する呼びかけのことであるから、「かす」は二人称代名詞の類いと仮定。「かす」についても「あく」と同様に多数の言語で類似した単語が使われているものの、頭子音kの脱落やsの脱落が起きておらず、祖形を保持していると言える。
+
+|| [https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%8A%E3%82%AB%E3%83%8A%E3%83%96%E8%AA%9E?wprov=sfti1 カナカナブ語] || ii-kasu ||
+|| ジャワ語 || ko (別れの際など例外的に使用) ||
+|| [https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%A9%E3%83%8A%E3%82%AA%E8%AA%9E?wprov=sfti1 マラナオ語] || kaw ||
+|| [https://en.wikipedia.org/wiki/Wamesa_language?wprov=sfti1 ワンダメン語] || au ||
+
+「あま」に似た父を意味する語はオーストロネシア語族でよく見られる。ただし、サキザヤ語に見られるような末尾の子音は脱落している。
+
+|| [https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%AD%E3%82%B6%E3%83%A4%E8%AA%9E?wprov=sfti1 サキザヤ語] || w-amaʔ ||
+|| [https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%9F%E8%AA%9E?wprov=sfti1 アミ語] || w-ama ||
+|| [https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%A4%E3%83%AF%E3%83%B3%E8%AA%9E?wprov=sfti1 パイワン語] || ama ||
+|| [https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%AC%E3%83%AD%E3%82%B0%E8%AA%9E?wprov=sfti1 タガログ語] || amá ||
+|| [https://en.m.wikipedia.org/wiki/Kemak_language ケマク語] || ama-kai ||
+
+父という語は、呼格や合成語の中では以下のように現れることがある。
+
+|| パイワン語 || tjama ||
+|| [https://ja.m.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E3%83%89%E3%82%A5%E3%82%B9%E3%83%B3%E8%AA%9E ドゥスン語] || tama ||
+||[https://en.wikipedia.org/wiki/Amara_language?wprov=sfti1 アマラ語] || teme ||
+|| サモア語 || tama-a (tamā) ||
+
+「いな」についても、母親という意味で多くの言語に対応する語が見つけられる。
+
+|| パイワン語 || ina ||
+|| タガログ語 || iná ||
+|| [https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%88%E3%82%A5%E3%83%B3%E8%AA%9E?wprov=sfti1 テトゥン語] || ina-k (動物のメス) ||
+
+以上のことから、オーストロネシア語族に属するなんらかの言語で作られた歌であることが強く示唆される。しかし、未だ後半部分の意味は不明である。
+
+++ 記録
+
+**19██/██/██:** 蒐集院から引き継ぎ。
+
+**19██/██/██:** 南太平洋・サモア独立国近郊の海域において[[[author:soya-001|NoI-3816]]]を発見。容姿、形質、文化の面における八尋和邇との関連を調査中。
+
+**20██/██/██:** インシデント-491.01が発生。GoI-18153の攻撃によりNoI-3816が壊滅し、ネーションクラスがDownfallに再指定された。本調査は無期限凍結となる。

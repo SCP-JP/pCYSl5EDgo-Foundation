@@ -1,0 +1,1269 @@
+[[module CSS]]
+/*
+    REBORN MCF Theme
+    [2018 Wikidot Theme]
+    Based on Reach's Manna Charitable Foundation Theme
+    Created by 7happy7
+*/
+
+@charset "utf-8";
+ 
+@import url('http://scp-jp.wdfiles.com/local--theme/scp-sigma-9-off-canvas/style.css');
+
+
+/* COMMON */
+#page-title {display: none;}
+
+#content-wrap {
+    position: relative;
+    margin: 2em auto 0;
+    max-width: 1040px;
+    min-height:1300px;
+    height: auto !important;
+    height: 1500px;
+}
+
+h1, #page-title {
+    font-family: sansationregular, sans-serif;
+    color: #ff000000;
+    padding: 0 0 0.25em;
+    margin: 0 0 0.6em;
+    text-align: left;
+}
+h1 {
+    margin-top: 0.7em;
+    padding: 0;
+    font-weight: bold;
+}
+h2, h3, h4, h5, h6, h7 {
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+}
+#page-title {
+    font-family: sansationregular, sans-serif;    
+    font-weight: bold;
+    border-color: #ff000000;
+}
+ul {
+    /*list-style-image: url(../images/bullet.gif);*/
+    list-style: square;
+}
+#top-bar ul {
+/* list-style-image: none; /* IE ONLY! IF list-style-image IS SET */
+}
+ 
+li, p {
+    line-height: 150%;
+}
+a {
+    color: #dc143c;
+    text-decoration: none;
+    background: transparent;
+}
+a.newpage {
+    color: #000000;
+    text-decoration: none;
+    background: transparent;
+}
+a:hover {
+    text-decoration: underline;
+    background: transparent;
+}
+ 
+/* GLOBAL WIDTH */
+#header, #top-bar {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #fff;
+    font-family: sansationregular, normal;
+    font-size: 0.80em;
+    color: #333;
+}
+div#container-wrap {
+    background: url(http://indobox.wdfiles.com/local--files/scoop/bbgg.png) top left 90% repeat-x;
+}
+ 
+/* HEADER */
+#header {
+    height: 140px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 22px; /* FOR MENU */
+    background: url(http://indobox.wdfiles.com/local--files/scoop/rogom) 40px 6px no-repeat; background-size: 47%;  background-position: 1em;
+}
+#search-top-box {
+    position: absolute;
+    top: 79px;
+    right: 9px;
+    width: 250px;
+    text-align: right;
+}
+#search-top-box-input {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.5);
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #fff;
+    color: #000;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.8);
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 90%;
+    font-weight: bold;
+    color: #dc143c;
+    background-color: #ffffff;
+    background: linear-gradient(to bottom, #ffffff,#ffffff,#ffffff);
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #fff;
+    color: #dc143c;
+    text-shadow: 0 0 1px rgba(255,255,255,.25)
+    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #f5f5f5,#f5f5f5,#f5f5f5);
+    box-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+ 
+#login-status {
+    color: #ffffff;
+    font-size: 90%;
+    z-index: 30;
+}
+#login-status a {
+    background: transparent;
+    color: #ffffff;
+}
+#login-status ul a {
+    color: #ffffff;
+    background: transparent;
+}
+ 
+#account-topbutton {
+    background: #fff;
+    color: #ffffff;
+}
+ 
+.printuser img.small {
+    margin-right: 1px;
+}
+ 
+#header h1 {
+    margin-left: 120px;
+    padding: 0;
+    float: left;
+    max-height: 95px;
+}
+#header h2 {
+    margin-left: 120px;
+    padding: 0;
+    clear: left;
+    float: left;
+    font-size: 105%;
+    max-height: 38px;
+}
+ 
+#header h1 a {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    max-height: 0px;
+    color: transparent;
+    font-family: sansationregular;
+    font-size: 0%;
+    text-decoration: none;
+}
+ 
+#header h2 span {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-family: quanticoregular, sans-serif;
+    font-size: 0%;
+    color: #092200;
+}
+ 
+/* TOP MENU */
+#top-bar {
+    font-family: quanticoregular, sans-serif;
+    font-size: 90%;
+}
+#top-bar ul {
+    float: right;
+}
+#top-bar a {
+    color: #fff;
+    background: transparent;
+}
+#top-bar ul li {
+    border: 0;
+    position: relative;
+}
+#top-bar ul li ul {
+    border: solid 1px #3d2b1f;
+    box-shadow: 0 2px 6px rgba(0,0,0,.5);
+    border-top: 0;
+}
+#top-bar ul li:last-of-type ul {
+    right: 0;
+}
+#top-bar ul li a {
+    border-left: solid 1px rgba(64,64,64,.1);
+    border-right: solid 1px rgba(64,64,64,.1);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1px;
+    max-height: 1px;
+    overflow: hidden;
+}
+ 
+#top-bar ul li.sfhover a,
+#top-bar ul li:hover a {
+    background: #f0f8ff;
+    color: #006c00;
+    border-left: solid 1px rgba(64,64,64,1);
+    border-right: solid 1px rgba(64,64,64,1);
+}
+ 
+#top-bar ul li.sfhover ul li a,
+#top-bar ul li:hover ul li a {
+    border-width: 0;
+    width: 150px;
+    border-top: 1px solid #ddd;
+    line-height: 160%;
+    height: auto;
+    max-height: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#top-bar ul li.sfhover a:hover,
+#top-bar ul li:hover a:hover {
+    background: #fff;
+    text-decoration: none;
+}
+#top-bar ul li ul {
+    border-width: 0 1px 1px 1px;
+    width: auto;
+}
+#top-bar ul li ul li, #top-bar ul li ul li.sfhover,
+#top-bar ul li ul li, #top-bar ul li ul li:hover {
+    border-width: 0;
+}
+#top-bar ul li ul li a {
+    border-width: 0;
+}
+#top-bar ul li ul a, #top-bar a:hover {
+    color: #8db600;
+}
+ 
+/* IE7 HACK */
+#top-bar ul > li > ul {  
+    *margin-top: -4px;
+}
+ 
+/* SIDE MENU */
+#side-bar {
+    left: -2em;
+    font-family: quanticoregular, sans-serif;
+}
+#side-bar .side-block {
+    padding: 10px;
+    border: 3px solid #dc143c;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    background: #fff;
+    margin-bottom: 15px;
+}
+#side-bar .side-area {
+    padding: 10px;
+}
+#side-bar .heading {
+    color: #c71585;
+    border-bottom: solid 1px #dc143c;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    font-weight: bold;
+}
+#side-bar p {
+    margin: 0;
+}
+#side-bar div.menu-item {
+    margin: 2px 0;
+}
+#side-bar div.menu-item img {
+    width: 13px;
+    height: 13px;
+    border: 0;
+    margin-right: 2px;
+    position: relative;
+    bottom: -2px;
+}
+#side-bar div.menu-item a {
+    font-weight: bold;
+}
+#side-bar div.menu-item.inactive img {
+    opacity: 0.25;
+}
+#side-bar div.menu-item.inactive a {
+    color: #db7093;
+}
+#side-bar div.menu-item .sub-text {
+    font-size: 80%;
+    color: #db7093;
+}
+#side-bar div.menu-item.sub-item {
+}
+ 
+#side-bar .collapsible-block-folded {
+    background: url(http://unofficial-scp-sandbox-jp.wikidot.com/local--files/nav:side/expand.png) 0 2px no-repeat;
+}
+#side-bar .collapsible-block-link {
+    margin-left: 15px;
+    font-weight: bold;
+}
+#side-bar .collapsible-block-unfolded-link {
+    border-bottom: solid 1px #c71585;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    color: #c71585;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+    color: #db7093;
+    text-decoration: none;
+}
+/* CONTENT */
+#main-content {
+    margin: 0 0 0 19em;
+    padding: 0;
+    position: relative;
+}
+ 
+#breadcrumbs {
+    margin: -1em 0 1em;
+    font-weight: 85%;
+}
+ 
+/* YUI-TABS */
+.yui-navset .yui-content{
+    background-color: #f5f5f5;
+}
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+    background-color:#d8d8d8;
+    background-image: url(../images/yuitabs.png);
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
+.yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
+    background:#008000 url(../images/yuitabs.png) repeat-x left -1400px; /* selected tab background */
+    color:#fff;
+}
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus {
+    background:#79d479 url(../images/yuitabs.png) repeat-x left -1300px;
+    text-decoration: none;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #008000;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #006c00;
+}
+ 
+/* FOOTER */
+#footer {
+    clear: both;
+    font-size: 77%;
+    background: #3d2b1f;
+    color: #006c00;
+    margin-top: 15px;
+    padding: 3px 10px;
+}
+#footer .options {
+    visibility: visible;
+    display: block;
+    float: right;
+    width: 50%;
+    font-size: 100%;
+    text-align: right;
+}
+#footer a {
+    color: #fff;
+    background: transparent;
+}
+
+div.wiki-note {
+    background-image: url(http://unofficial-scp-sandbox-jp.wikidot.com/local--files/component:mcf-theme/MCF-7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    border: 1px solid #999;
+    text-align: center;
+    border: double 2px #6bab30;
+    padding: 7px 10px;
+    margin: 5% 20%;
+    font-family: sansationregular, serif;
+    background-color: #edf7e3;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+ 
+/* Custom page content classes */
+#page-content {
+    min-height: 720px;
+}
+ 
+.unmargined > p {
+    margin: 0;
+    line-height: 100%;
+}
+.content-panel {
+    border: solid 1px #5d8aa8;
+    border-radius: 10px;
+    background-color: #bcd4e6;
+    margin: 10px 0 15px;
+    box-shadow: 3px 3px 6px #e6e6fa;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.1);
+}
+.content-panel.standalone {
+    background: #fcfdfb;
+}
+.content-panel.series {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.content-panel.centered {
+    text-align: center;
+}
+.content-panel.left-column {
+    float: left;
+    width: 48%;
+}
+.content-panel.right-column {
+    float: right;
+    width: 48%;
+}
+ 
+.content-panel .panel-heading {
+    padding: 2px 10px;
+    color: #ffffff;
+    font-size: 90%;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.35);
+}
+.content-panel .panel-heading > p,
+.content-panel .panel-footer > p {
+    margin: 0;
+}
+.content-panel .panel-body {
+    padding: 5px 10px;
+    background: f0ffff
+}
+.content-panel .panel-footer {
+    padding: 1px 10px;
+    color: #06da6e;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+.content-panel .panel-footer a {
+    color: #ffffff;
+}
+.content-panel .content-toc {
+    float: right;
+    padding: 0 20px;
+    background-color: #fff;
+    border: solid 1px #5d8aa8;
+    border-radius: 10px;
+    margin: 20px 0 5px 5px;
+    white-space: nowrap;
+    box-shadow: inset 1px 2px 6px rgba(0,0,0,.15)
+}
+.alternate:nth-child(even) {
+    background-color: rgba(255,255,255,.9);
+}
+ 
+/* Page Rating Module Customizations */
+.page-rate-widget-box {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+  font-family: sansationregular, sans-serif !important;
+}
+.page-rate-widget-box .rateup,
+.page-rate-widget-box .ratedown {
+  background-color: #f0f8ff;
+  border-top: solid 1px #dc143c;
+  border-bottom: solid 1px #dc143c;
+  font-weight: bold;
+}
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a {
+  background: transparent;
+  color: #dc143c;
+  padding: 0 4px;
+  margin: 0 1px;
+}
+.page-rate-widget-box .rateup a:hover,
+.page-rate-widget-box .ratedown a:hover {
+  background: #dc143c;
+  color: #dc143c;
+  text-decoration: none;
+}
+.page-rate-widget-box .cancel {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+  border-left: 0;
+  border-radius: 0 5px 5px 0;
+}
+.page-rate-widget-box .cancel a {
+  background: transparent;
+  text-transform: uppercase;
+  color: #f0ffff;
+}
+.page-rate-widget-box .cancel a:hover {
+  border-radius: 0 3px 3px 0;
+  background: #dc143c;
+  color: #f0ffff;
+  text-decoration: none;
+}
+
+/* Credit Rating Module */
+#page-content .creditRate div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+}
+#page-content .creditButton p a{
+background: #dc143c !important;
+}
+.rate-box-with-credit-button .creditButton {
+    background-color: #dc143c !important;
+    border: solid 1px #dc143c !important;
+}
+.creditButton a:hover {
+color: #dc143c !important;
+}
+
+/* Heritage Collection Rating Module */
+.heritage-rating-module {
+  float: right;
+  background-color: #dc143c;
+  padding: 2px 8px 2px 5px;
+  margin-bottom: 10px;
+  margin-right: 2em;
+  border: solid 1px #dc143c;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.heritage-rating-module .page-rate-widget-box {
+  float: right;
+  box-shadow: none;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.heritage-rating-module .heritage-emblem {
+  float: right;
+  position: relative;
+  top: -2px;
+  left: 2px;
+  height: 16px;
+  width: 16px;
+  overflow: visible;
+  margin-right: 2px;
+}
+.heritage-rating-module .heritage-emblem img {
+  width: 20px;
+  height: 20px;
+  border: 0;
+}
+ 
+/* Fixes for Multi-Line Page Tags */
+#main-content .page-tags {
+    margin: 1em 0 0;
+    padding: 0;
+}
+#main-content .page-tags span {
+    display: inline-block;
+    padding: 0;
+    max-width: 60%;
+}
+#main-content .page-tags a {
+    display: inline-block;
+    white-space: nowrap;
+}
+ 
+/* Standard Image Block */
+.scp-image-block {
+  float: right;
+  clear: right;
+  margin: 0 2em 1em 2em;
+  border: solid 1px #ff000000;
+  box-shadow: 0 1px 6px rgba(0,0,0,.25);
+  width: 300px;
+}
+.scp-image-block.block-left {
+  float: left;
+  clear: left;
+  margin: 0 2em 1em 0;
+}
+.scp-image-block img {
+  border: 0;
+  width: 300px;
+}
+.scp-image-block .scp-image-caption {
+  background-color: #ff000000;
+  border-top: solid 1px #ff000000;
+  padding: 2px 0;
+  font-size: 80%;
+  font-weight: bold;
+  text-align: center;
+  width: 300px;
+}
+.scp-image-block > p {
+  margin: 0;
+}
+.scp-image-block .scp-image-caption > p {
+  margin: 0;
+  padding: 0 10px;
+}
+ 
+/* Forum Customizations */
+.forum-thread-box .description-block {
+  padding: .5em 1em;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.15),
+    inset 0 1px 0 rgba(255,255,255,.8),
+    inset 0 10px 5px rgba(255,255,255,.25),
+    inset 0 -15px 30px rgba(0,0,0,.1)
+}
+.thread-container .post .head {
+    padding: 0.5em 1em;
+    background-color: #f0f8ff;
+    background: linear-gradient(to right, #f0f8ff, #eeecec);
+    box-shadow: inset 2px 3px 6px rgba(0,0,0,.15);
+    border-radius: 5px 5px 0 0;
+}
+ 
+/* Hide Forum Signatures */
+.signature {
+  display:none !important;
+}
+
+@media (max-width: 479px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#page-content {
+    font-size: 0.9em;
+}
+ 
+#main-content {
+    margin: 0;
+}
+ 
+#recent-posts-category {
+width: 100%;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+    padding: 0;
+}
+ 
+.page-options-bottom a {
+    padding: 0 4px;
+}
+ 
+blockquote {
+    margin: 1em 0;
+}
+ 
+.license-area {
+    font-size: 0.8em;
+}
+
+#header h1, #header h2 {
+    margin-left: 66px;
+}
+ 
+table.form td, table.form th {
+    float: left;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+td.name {
+    width: 15em;
+}
+ 
+table.form td, table.form th {
+    padding: 0;
+}
+ 
+#edit-page-title {
+    max-width: 90%;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+}
+
+/* ////////////////////background-size//////////////////// */
+/* Mobile Media Query */
+@media (max-width: 319px) {
+#header {
+    background-size: 75%;
+    background-position: 1em;
+}
+}
+ 
+/* Note Media Query */
+@media (min-width: 320px) and (max-width: 580px) {
+#header {
+    background-size: 83%;
+    background-position: 1em;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+#header {
+    background-size: 77%;
+    background-position: 1em;
+}
+}
+
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#header {
+    background-size: 63%;
+    background-position: 1em;
+}
+}
+
+/* Tablet Media Query */
+@media (min-width: 980px) and (max-width: 1024px) {
+#header {
+    background-size: 47%;
+    background-position: 1em;
+}
+}
+/* ////////////////////////////////////////////////// */
+
+/* Note Media Query */
+@media (min-width: 480px) and (max-width: 580px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#main-content {
+    margin: 0 2em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 5px;
+}
+ 
+blockquote {
+    margin: 0.5em;
+}
+ 
+.license-area {
+    font-size: 0.85em;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 80px;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+td.name {
+    width: 15em;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+#main-content {
+    margin: 0 3em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+.top-bar {
+    display: none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 6px;
+}
+ 
+.license-area {
+    font-size: 0.9em;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 93px;
+}
+}
+ 
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#main-content {
+    margin: 0 4em 0 20em;
+}
+ 
+#header, #top-bar #side-bar {
+    max-width: 100%;
+}
+ 
+.top-bar li {
+    margin: 0;
+}
+ 
+#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
+    width: 110px;
+}
+ 
+.page-options-bottom a {
+    padding: 0 7px;
+}
+ 
+.license-area {
+    font-size: 0.95em;
+}
+
+#header h1, #header h2 {
+    margin-left: 106px;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Desktop Media Query -----------
+@media (min-width: 980px) and (max-width: 1399px) {
+ 
+}
+------------------------------------------ */
+ 
+/* Wide Monitor Media Query -----
+@media (min-width: 1400px) {
+ 
+}
+------------------------------------------ */
+ 
+/* off-canvas */
+ 
+.close-menu {
+    display: none;
+}
+ 
+@media (max-width: 767px) {
+ 
+.page-history tbody tr td:last-child {
+width: 35%;
+}
+ 
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div .btn-primary {
+width: 100%;
+float: left;
+}
+ 
+.owindow div .btn-primary ~ div {
+width: 100%;
+}
+ 
+.yui-navset {
+z-index: 1;
+}
+ 
+#navi-bar, #navi-bar-shadow {
+    display: none;
+}
+ 
+.open-menu a {
+    position: fixed;
+    bottom: 0.5em;
+    left: 0.5em;
+    z-index: 15;
+    font-family: 'Nanum Gothic', san-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888 !important;
+    background-color: #fff !important;
+    border-radius: 3em;
+    color: #888 !important;
+}
+ 
+.open-menu a:hover {
+    text-decoration: none !important;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -ms-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -o-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+}
+ 
+#main-content {
+    max-width: 90%;
+    margin: 0 5%;
+    padding: 0;
+    -webkit-transition: 0.5s ease-in-out 0.1s;
+    -moz-transition: 0.5s ease-in-out 0.1s;
+    -ms-transition: 0.5s ease-in-out 0.1s;
+    -o-transition: 0.5s ease-in-out 0.1s;
+    transition: 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -25em;
+    width: 17em;
+    height: 100%;
+    background-color: rgb(240, 255, 240);
+    overflow-y: auto;
+    z-index: 10;
+    padding: 1em 1em 0 1em;
+    -webkit-transition: left 0.5s ease-in-out 0.1s;
+    -moz-transition: left 0.5s ease-in-out 0.1s;
+    -ms-transition: left 0.5s ease-in-out 0.1s;
+    -o-transition: left 0.5s ease-in-out 0.1s;
+    transition: left 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+ 
+}
+ 
+#side-bar:target {
+    display: block;
+    left: 0;
+    width: 17em;
+    margin: 0;
+    border: 1px solid #dedede;
+    z-index: 10;
+}
+ 
+#side-bar:target + #main-content {
+    left: 0;
+}
+ 
+#side-bar:target .close-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3) 1px 1px repeat;
+    z-index: -1;
+}
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** Xデー迫る 国内諸勢力の動き
+**著者:** ©︎[[*user snoj]]
+**作成年:** 2019
+[[include credit:end]]
+
+[[include :incbox:koigare-header
+|param=35
+|category=kokunai
+|image=http://scp-jp.wikidot.com/local--files/koigarezaki-news-1224/navy.jpg
+|title=Xデー迫る 国内諸勢力の動き
+|titlesize=130%
+|date=12/24 20:15
+|by=撮影: 恋昏崎新聞社
+]]
+
+[[size 250%]]**超常組織の一大決戦迫る　国内の動向は**[[/size]]　[[size 50%]]##C0C0C0|__恋昏崎新聞社__##[[/size]]
+@@ @@
+
+[[include component:image-block
+|name=http://ja.scp-wiki.net/local--files/koigarezaki-news-1224/map.png
+|width=210px
+|align=light
+|clear=true
+|caption=▲サーカイトの侵攻予想地域（JAGPATOの公開資料を元に作成）
+]]
+
+　今月31日に予想されるサーキック・カルト（サーカイト）の[[a_ href="http://ja.scp-wiki.net/scp-2217"style="cursor:  text-decoration: none !important; color: inherit;"]]__一斉蜂起__[[/a]]に備え、超常組織の動きが慌ただしくなっている。国内の対サーカイト戦争を統括する日本超常組織平和友好条約機構（JAGPATO）は現在、在野の超常組織に対して協力を呼びかけているが、彼らの反応は三者三様であり、足並みは揃っていない。開戦前夜における国内超常社会の動向を追った。
+
+[[collapsible show="･･･続きを読む" hide=" "]]
+
+++ **大手超常組織の反応**
+
+[[include component:image-block
+|name=http://ja.scp-wiki.net/local--files/koigarezaki-news-1224/ガンダムMk-II.jpg
+|width=143px
+|align=right
+|clear=true
+|caption=▲TH-G Mk-IIの全体図
+]]
+
+　工業系パラテック製品を生産する東弊重工は10月、JAGPATOと休戦協定を締結すると共に、汎用人型駆動兵器「TH-G Mk-II」の生産・供与に合意した。開発部の山嶺八郎氏によると、TH-G Mk-IIは神経接続によって高い機動力を実現しており、付属のベクトル場発生装置（東弊社内では「ビームサーベル」と呼称）を振るうことで、目標の三次元構造を容易に粉砕できるとされる。壊れた神の教会（メカニト）の勢力が弱い国内において、JAGPATOは心強い味方を確保した形だ。
+
+「サーベルの安定性が不安視されたために、[[a_ href="http://ja.scp-wiki.net/scp-1079-jp"style="cursor:  text-decoration: none !important; color: inherit;"]]__TH-G__[[/a]]は長らくお蔵入りとなっていました。しかし、メカニトの皆さんが強化外骨格で戦っていることを知り、『俺達ならもっとすごいのを作れる』と、社員一同、職人魂に火が点いてしまいまして（笑）。今回、JAGPATO様より資金面・技術面のご支援を頂いたことで、40年来の夢がようやく叶うこととなりました」（山嶺開発部長）
+　
+　一方で、不穏な動きを見せる超常組織も多い。生物系パラテック大手の日本生類創研は11月、国内戦闘への不介入を宣言し、以降も再三に渡って中立の立場を示している。しかし、サーカイトが生み出す超常生物は格好の研究対象になることから、「サンプル採取のため、人員やドローンを派遣するのはほぼ確実。作戦の邪魔にならなければ良いが……（MCF幹部）」と、JAGPATO関係者は警戒を募らせている。
+
+　気になるのは如月工務店の動きだ。如月はその閉鎖性から、明確な連絡チャンネルを持っておらず、内部事情を直接探ることはできなかった。一方、サーカイトの侵攻予想地域において「不審な土木業者」を目撃したとの報告が、Twitterや5chを通じて上がっている。如月に詳しい酩酊街の案内人（126）は彼らの動向について、以下のように推察した。
+
+「えらい話ですが、あいつらにとっては絶好の稼ぎ時なんですわ。建材がぎょうさん出来るわけですから」
+
+------
+
+++ **隠れサーキックに戦々恐々**
+
+　日本では飛鳥時代以降、サーキック・カルトと思しき勢力の侵入が確認されているが、布教が定着した例は少なく、サーカイトの”空白地帯”とみなされている。しかしながら、近年では欧米より持ち込まれた新興宗派「ネオ-サーキシズム」が富裕層の間で流行を見せており、財団やGOCは信者の炙り出しに躍起となっている。ここのところ相次ぐ政財界要人の逮捕や失踪は、一般社会に対する超常存在の周知計画（通称：プロジェクト・アンニュイ）がもたらした「アノマリー・ショック」の典型例として受け止められているが、背後に財団らの手回しがあった可能性が高い。また、京都市の石榴倶楽部は12月3日、連名で声明を発表し、サーカイトとの関係を否定すると共に、「カニバリズムとサーキシズムは切り離して考えるよう」超常社会に訴えている。
+
+[[include component:image-block
+|name=http://ja.scp-wiki.net/local--files/koigarezaki-news-1224/tono.jpg
+|width=250px
+|align=left
+|clear=true
+|caption=▲遠野妖怪保護区との境界を示す「カッパ淵」
+]]
+
+　こうした"肉狩り"は何も都市部だけで見られるものではない。岩手県の山中に位置する遠野妖怪保護区では、JAGPATOからの要請に管理側が難色を示し、小競り合いを起こす一幕がみられた。保護区は終戦後、財団への合流を拒んだ蒐集院の一派が建設した超常コミュニティであり、軍事利用された妖怪が多数保護されている。このうち「ぬっぺふほふ」や「寝肥（ねぶとり）」といった肉塊型の妖怪について、財団はサーカイトとの関連が疑われるとし、JAGPATOを通じて身柄の引き渡しを求めていた。保護区を管理する日奉薮氏は憤る。
+
+「一通りの文献にあたりましたが、サーキックを匂わせる記述はまったくと言って良いほど見られません。彼らに引き渡せば最後、この子達の人権が無視されるのは目に見えていますし、『肉々しい』だけで疑いをかけるのは極めて横暴です」
+
+　一方、日奉氏は12月以降、ぬっぺふほふ達の体調が急速に悪化している事実を打ち明けると共に、悲痛な胸中を取材陣に漏らした。
+
+「脂肪分が多いため、肉妖怪は元々、生活習慣病にかかりやすい体質でした。しかし、ここ最近はかつてないほどの容態でして……彼らの厄介にはなりたくありませんが、万が一の事態に備え、JAGPATOの査察を受け入れることにしました。正直、苦渋の決断です」
+
+　交渉の結果、外部への搬送は撤回され、非武装の調査員を駐在させる形で妥協することとなった。現在、保護区ではサーカイトの侵攻を見越し、守護結界の強化を進めている。内外で脅威を抱えていることから、職員・妖怪ともに神経を尖らせる日々が続いている。
+
+------
+
+++ **生き延びるための対策**
+
+[[include component:image-block
+|name=http://ja.scp-wiki.net/local--files/koigarezaki-news-1224/list_new.jpg
+|width=300px
+|align=right
+|clear=true
+|caption=▲恋昏崎新聞社調べ
+]]
+
+　サーカイトの戦術は人体に影響を及ぼすものが中心であり、感染症が蔓延し、パンデミックを引き起こす可能性が高い。このため、Xデーまでにシェルターや異空間に避難することが超常社会では推奨されている。しかしながら、これらの退避手段は高額な費用を要するため、一般人に紛れて暮らす超常市民にとっては現実的でないのが実情だ。
+
+　こうした中、超常組織による支援の輪が徐々に広がりを見せている。神界-人間界の通信サービスを手掛けるトリスメギストス・トランスレーション&トランスポーテーション（Ttt）は11月、島根県松江市の地下に大規模な避難所を開設した。
+
+「今後の事業存続に支障をきたす恐れがあることから、私どもは今回、定命の民を保存するためのスペースをご用意しました。亡者を動員し、清潔な環境を維持しておりますので、どうぞ気兼ねなくお越しください」（広報担当・天日鷲神）
+
+　Ttt社の避難所は黄泉の一画を改装したものであり、有り余るほどの収容キャパシティを誇っている。しかし、超常市民からは「五体満足で帰れるだろうか」「黄泉戸喫（よもつへぐい）でそもそも帰れないのでは」等、現地の環境を懸念する声が根強く、JAGPATOも一般社会への公表を控えているため、利用率は今のところ芳しくない。　【広末孝行・柳瀬栄・大久保凛子・長谷島祥吾・ライオネル高田】
+
+------
+
+[[=]]
+　～お知らせ～
+[[/=]]
+　平素は弊紙をご購読いただき、誠にありがとうございます。
+
+　創業以来、弊社は超常組織、とりわけ財団の闇を暴くという使命の下に、日々取材活動を続けております。
+
+　弊社は公正公平な報道機関を自負しておりますが、この度のサーカイト戦争は人類の存亡に関わるものです。
+
+　事態の特殊性を鑑みて、弊社は12月31日以降、対サーカイトに特化した紙面作りにシフトしていくことを決断いたしました。
+
+　これは戦時下における一時的な措置であり、戦いが終結した際には、財団の驕り高ぶりを改めて追及していく所存です。
+
+　期間中はご不便をおかけしますが、何卒ご理解を賜りますよう、よろしくお願い申し上げます。
+
+[[>]]
+2019年12月24日
+編集部一同
+[[/>]]
+
+@@ @@
+@@ @@
+@@ @@
+**【関連記事】**
+[# 「滅ぶ滅ぶ詐欺」にご用心　警視庁特事課、有村組組員を逮捕]
+[# （恋昏崎こども新聞）カルキスト・イオンってな～に？]
+[# UFOラーメン店主「こんな時こそ」　年末年始も営業へ]
+[# 鉄錆の果実教団東北支部、肉狩りに巻き込まれ壊滅]
+[# 「救われたければ滋賀へ行け」　パラウォッチに出回る怪文書]
+[[/collapsible]]
+@@ @@
+------
+[[image http://ja.scp-wiki.net/local--files/koigarezaki-news-1224/urabanasi.png width="300px"]]
+　
+[[include :incbox:koigare-hirosue
+|header=false
+|width=170px
+|fontsize=75%
+|image=http://scp-jp.wikidot.com/local--files/koigarezaki-news-1224/05.png
+|text=**▲05-S 反財団組織「[http://scp-jp.wikidot.com/groups-of-interest-cn#toc4 05（ゼロゴー）議会]」メンバー。2017年より恋昏崎新聞社のデータベースに侵入、財団関連の寄稿を行っている。座右の銘は「面白き　こともなき世を　面白く」。**
+]]
+　JAGPATOは現在、北海道を中心に戦力を配置しています。これは古来、サーカイトが[[a_ href="http://ja.scp-wiki.net/scp-981-jp"style="cursor:  text-decoration: none !important; color: inherit;"]]__サハリン島__[[/a]]周辺で活動していたことを踏まえたものですが、どこにいようと危ないというのが正直な感想です。なにせ、相手は[[a_ href="http://ja.scp-wiki.net/scp-2075"style="cursor:  text-decoration: none !important; color: inherit;"]]__人間を操る技術__[[/a]]を持っていますからね。いつ誰が彼らの手先と化すか、分かったものではありません。その上、[[a_ href="http://ja.scp-wiki.net/scp-1903-jp"style="cursor:  text-decoration: none !important; color: inherit;"]]__中朝国境のサーカイト__[[/a]]は手強く、日本海を渡り、北陸や西日本へと流れ込む可能性があります。大都市圏に近いため伏せられていますが、飛騨地方における「[[a_ href="http://ja.scp-wiki.net/scp-2478"style="cursor:  text-decoration: none !important; color: inherit;"]]__ゐおん様__[[/a]]」信仰も見過ごせないでしょう。
+
+　さて、悲観的なことばかり申し上げてしまいましたが、為す術もなく蹂躙される……なんてことにはならないと予想します。ロシアでの戦いで示された通り、連合軍側も強力な武器を擁しており、この一年で着実に結束を高めています。各地で熾烈な争いが繰り広げられることは確実だと考えます。その後は……「神々のみぞ知る」でしょうね。個人的には、肉の怪物とTH-Gの死闘をはやくお目にかかりたいものです。
+
+　財団の監視が厳しくなってきましたので、2019年のコラムは本更新をもって終了となります。新聞社および読者の皆さまへ、今年も勝手な寄稿にお付き合い頂きありがとうございました。どうか体調に気をつけて、素晴らしい新年をお迎えください。　【05-S、この"S"は"[[span class="ruby"]]share[[span class="rt"]]共有[[/span]][[/span]]"の意】
+　
+------
+@@ @@
+
+++ 広告
+
+[[include component:image-block
+|name=http://ja.scp-wiki.net/local--files/koigarezaki-news-1224/Envelope.jpg
+|width=300px
+|align=left
+|clear=true
+|caption=[# 未来は早いモノ勝ちです]
+那須高原における大逆転劇の概念に投資しましょう
+[[span style="color:gray"]]Envelope Logistics®[[/span]]]]
+
+[[include component:image-block
+|name=http://ja.scp-wiki.net/local--files/koigarezaki-news-1224/OBmedia.jpg
+|width=300px
+|align= center
+|clear=true
+|caption=[# 害虫退治ならオーダーメイドの隕石を]
+信頼の超精密誘導　S～XLサイズから選べます
+[[span style="color:gray"]]Own Bulletメディア[[/span]]]]

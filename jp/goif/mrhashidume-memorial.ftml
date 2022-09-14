@@ -1,0 +1,256 @@
+[[include credit:start]]
+**タイトル:** 前橋詰 ██ ██氏のご逝去を悼む
+**著者:** ©︎[[*user shirasutaro-]]
+**作成年:** 2019
+[[include credit:end]]
+
+[[module css]]
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP&display=swap');
+
+ol {
+    list-style-type: katakana-iroha;
+}
+
+body {
+    background-color: #e7ddce;
+    font-size: 0.80em;
+    color: #000;
+    font-family: 'Noto Serif JP';
+}
+
+div #header h1 a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    font-size: 1px;
+}
+
+#header h2 span {
+  font-size:0px;
+}
+
+div #header {
+    background: url("http://scp-jp-sandbox3.wikidot.com/local--files/draft:5011139-8-eab3/zakurogo.png") 10px 40px no-repeat;
+}
+
+div#container-wrap {
+    background: url(http://scp-jp-sandbox3.wikidot.com/local--files/draft:5011139-8-eab3/zakuroheader.jpg) top left repeat-x;
+}
+
+div #header h1 {
+    position: relative;
+    top: 35px;
+    width: 210px;
+    min-height: 100px;
+    margin-left: 0;
+}
+
+
+#page-title {
+    display: none;
+}
+
+h4 {
+    margin: 0.5em 0 0.6em;
+    padding: 0.3em 0 0.2em;
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 200%;
+    font-weight: normal;
+    text-align: center;
+
+    -webkit-font-feature-settings: "trad";
+       -moz-font-feature-settings: "trad";
+            font-feature-settings: "trad";
+    font-variant-east-asian: traditional;
+    unicode-bidi: bidi-override;
+}
+
+h4 > span {
+    display: block;
+    margin: 0 -0.5em;
+}
+h4 > span span {
+    display: inline-block;
+    position: relative;
+}
+h4 > span > span:before, h4 > span > span:after {
+    display: block;
+    position: absolute;
+}
+h4 > span > span {
+    padding: 0 1.5em;
+}
+h4 > span > span:before {
+    top: 0;
+    left: 0;
+    content: "【";
+}
+h4 > span > span:after {
+    right: 0;
+    bottom: 0;
+    content: "】";
+}
+
+h3 {
+    margin: 0 0 0.5em;
+    padding: 0 0 0.75em;
+    border-bottom: dashed 1px #30291d;
+    color: #000;
+    font-family: 'Noto Serif JP';
+    font-size: 200%;
+    font-weight: normal;
+    text-align: center;
+
+    -webkit-font-feature-settings: "trad";
+       -moz-font-feature-settings: "trad";
+            font-feature-settings: "trad";
+    font-variant-east-asian: traditional;
+    unicode-bidi: bidi-override;
+}
+
+h3 > span > span[style="font-size:60%;"] {
+    padding: 0 0.5em;
+    text-indent: 0.25em;
+    letter-spacing: 0.25em;
+}
+h3 > span > span[style="font-size:60%;"]:before {
+    top: 0;
+    left: 0;
+    content: "第";
+}
+h3 > span > span[style="font-size:60%;"]:after {
+    right: 0;
+    bottom: 0;
+    content: "号";
+}
+
+blockquote {
+    border: 1px solid #30291d;
+    box-shadow: 0.25em 0.25em rgba(0,0,0,0.15);
+}
+
+.kakoi {
+    margin:2em 0;
+    position: relative;
+    border: solid 1px #30291d;
+    padding: 0.25em 1em;
+    border-radius: 3px 0 3px 0;
+    background: #f4f0e8;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    border-left: double 5px #30291d;
+    border-right: double 5px #30291d;
+}
+.kakoi p {
+    margin: 0;
+    padding: 0;
+}
+
+#search-top-box-input {
+    border: solid 1px #2A110B;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: none;
+    color: #000;
+}
+#search-top-box-input:hover, #search-top-box-input:focus {
+    border: solid 1px #000;
+    background-color: #fff;
+    box-shadow: none;
+    color: #000;
+}
+#search-top-box-form input[type=submit] {
+    padding: 2px 5px;
+    border: solid 1px #2A110B;
+    border-radius: 5px;
+    background: none;
+    background-color: #CCA49B;
+    box-shadow: none;
+    color: #000;
+    font-size: 90%;
+    font-weight: bold;
+    cursor: pointer;
+}
+#search-top-box-form input[type=submit]:hover, #search-top-box-form input[type=submit]:focus {
+    border: solid 1px #2A110B;
+    background: none;
+    background-color: #CCA49B;
+    box-shadow: none;
+    text-shadow: none;
+    color: #000;
+}
+
+@media (max-width: 450px) {
+#search-top-box-input {
+    display:none;
+}
+}
+
+[[/module]]
+[[div class="kakoi"]]
+[[=]]
+**石榴倶楽部 会報**
+++++ [[span]]前橋詰 ██ ██氏のご逝去を悼む[[/span]]
++++ [[size 60%]]1129[[/size]]
+[[image gohan.jpg]]
+@@ @@
+**【前菜三種】**
+煮凝り
+根皮のなめろう
+肉寿司
+@@ @@
+**【肉吸い】**
+小枝の御吸物 クコ仕立て
+@@ @@
+**【向附】**
+ザクロのロースト
+@@ @@
+**【ご飯物】**
+土鍋炊きご飯
+@@ @@
+[[/=]]
+------
+@@ @@
+汐越は酒でじっくり煮込み、冷やし固めることで舌の上で蕩ける煮凝りに、
+なめろうは[[[gourmet-review|根皮]]]を叩いて味噌と胡麻油で合え、薄切りのザクロを載せた肉寿司には香り高い山葵を添えました。
+小枝の御吸物はよくクコが効きながらも出汁の深い風味を感じさせ、ローストは非常に柔らかく、噛んだ途端に閉じ込められた旨味が溢れて土鍋で炊かれた御飯と調和し、
+この日の為に用意させた十番台の[[[scp-647-jp|『Carol di prosperità』]]]も食卓に華を添えました。
+@@ @@
+------
+@@ @@
+来る十一月二九日、京都は五条にて前橋詰██ ██氏を悼む晩餐会を執り行いました。
+@@ @@
+前橋詰との記憶は今なお鮮明に思い出されます。
+彼とは同じ倶楽部に属する同志であっただけでなく、互いに親交を深めた友人でもありました。であるからか、氏の喪失は私に思いがけない寂しさを齎しています。
+@@ @@
+数十年前、医学の徒として名高い彼が、どうして倶楽部に入ったのかと訊ねた事がありました。
+不躾な問いにも悪い顔一つなく彼が聞かして下さった話は、一等私の耳に残っています。
+@@ @@
+彼には幼い頃から、鮪の赤身ですとか、檸檬の断面ですとか、莢の中のエンドウ豆ですとか ― そういうものから多種多様な音が聴こえたのだそうです。
+音というのはまた捉え難い言い方になりますが、見た物によってそれぞれ水音や梵鐘の音、はたまた木の葉のざわめく音や、短いピアノの旋律だとかが聴こえるのだそうで、彼は特に好きな音に空気が似ているとしてバッハのアリアを挙げました。
+@@ @@
+ある種の共感覚のようなものだろうかと私はその話を聞いていましたが、同時に私は最初の問いの答えに考え当たりました。
+@@ @@
+つまり彼の耳というのは ― 厳密な定義については私の与り知らぬ所ですが ― 食材の音を受け取ることができる、特別なつくりになっていたのです。
+そうして彼は職場での病理解剖中に、鴇色に震えるあの脂肪から、一等清らかで美しい音を聴いたという事なのでした。
+@@ @@
+それを聞いてからというもの、私は彼が何かを口に運ぶのを見る度に"あれはどんな音がしていたのだろうか"と気になるようになっていました。
+当然ながら今日に至るまで、彼の聴く音が私にわかることはありませんでした。
+@@ @@
+しかし彼が亡くなり、晩餐会の為に御遺体を捌いて ― ふとその話を思い出して彼の耳朶を齧ったとき、その時にだけ、私は彼のザクロから漏れ出る音を聴いたのです。
+それは確かにかのゴルドベルク変奏曲と似た雰囲気を持った、私の知る限り特別に綺麗で透明な音でした。謙虚で聡明な、生前の彼そのものの音でした。
+@@ @@
+― 皆様もご存知の通り、ザクロを愛した彼の遺体は大変美味であり、得も言われぬ芳醇さでした。
+偉大なる功績を残されました前橋詰の██ ██氏に深い敬意を示しますとともに、この場で哀悼の意を表させて頂きます。
+また先日発表のありました通り、新たな橋詰は███ █氏が襲名致します。
+@@ @@
+@@ @@
+[[>]]
+（記・秋津）
+[[/>]]
+@@ @@
+[[/div]]

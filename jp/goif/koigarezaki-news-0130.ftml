@@ -1,0 +1,1272 @@
+[[module CSS]]
+/*
+    REBORN MCF Theme
+    [2018 Wikidot Theme]
+    Based on Reach's Manna Charitable Foundation Theme
+    Created by 7happy7
+*/
+
+@charset "utf-8";
+ 
+@import url('http://scp-jp.wdfiles.com/local--theme/scp-sigma-9-off-canvas/style.css');
+
+
+/* COMMON */
+#page-title {display: none;}
+
+#content-wrap {
+    position: relative;
+    margin: 2em auto 0;
+    max-width: 1040px;
+    min-height:1300px;
+    height: auto !important;
+    height: 1500px;
+}
+
+h1, #page-title {
+    font-family: sansationregular, sans-serif;
+    color: #ff000000;
+    padding: 0 0 0.25em;
+    margin: 0 0 0.6em;
+    text-align: left;
+}
+h1 {
+    margin-top: 0.7em;
+    padding: 0;
+    font-weight: bold;
+}
+h2, h3, h4, h5, h6, h7 {
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+}
+#page-title {
+    font-family: sansationregular, sans-serif;    
+    font-weight: bold;
+    border-color: #ff000000;
+}
+ul {
+    /*list-style-image: url(../images/bullet.gif);*/
+    list-style: square;
+}
+#top-bar ul {
+/* list-style-image: none; /* IE ONLY! IF list-style-image IS SET */
+}
+ 
+li, p {
+    line-height: 150%;
+}
+a {
+    color: #dc143c;
+    text-decoration: none;
+    background: transparent;
+}
+a.newpage {
+    color: #000000;
+    text-decoration: none;
+    background: transparent;
+}
+a:hover {
+    text-decoration: underline;
+    background: transparent;
+}
+ 
+/* GLOBAL WIDTH */
+#header, #top-bar {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #fff;
+    font-family: sansationregular, normal;
+    font-size: 0.80em;
+    color: #333;
+}
+div#container-wrap {
+    background: url(http://indobox.wdfiles.com/local--files/scoop/bbgg.png) top left 90% repeat-x;
+}
+ 
+/* HEADER */
+#header {
+    height: 140px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 22px; /* FOR MENU */
+    background: url(http://indobox.wdfiles.com/local--files/scoop/rogom) 40px 6px no-repeat; background-size: 47%;  background-position: 1em;
+}
+#search-top-box {
+    position: absolute;
+    top: 79px;
+    right: 9px;
+    width: 250px;
+    text-align: right;
+}
+#search-top-box-input {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.5);
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #fff;
+    color: #000;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.8);
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 90%;
+    font-weight: bold;
+    color: #dc143c;
+    background-color: #ffffff;
+    background: linear-gradient(to bottom, #ffffff,#ffffff,#ffffff);
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #fff;
+    color: #dc143c;
+    text-shadow: 0 0 1px rgba(255,255,255,.25)
+    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #f5f5f5,#f5f5f5,#f5f5f5);
+    box-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+ 
+#login-status {
+    color: #ffffff;
+    font-size: 90%;
+    z-index: 30;
+}
+#login-status a {
+    background: transparent;
+    color: #ffffff;
+}
+#login-status ul a {
+    color: #ffffff;
+    background: transparent;
+}
+ 
+#account-topbutton {
+    background: #fff;
+    color: #ffffff;
+}
+ 
+.printuser img.small {
+    margin-right: 1px;
+}
+ 
+#header h1 {
+    margin-left: 120px;
+    padding: 0;
+    float: left;
+    max-height: 95px;
+}
+#header h2 {
+    margin-left: 120px;
+    padding: 0;
+    clear: left;
+    float: left;
+    font-size: 105%;
+    max-height: 38px;
+}
+ 
+#header h1 a {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    max-height: 0px;
+    color: transparent;
+    font-family: sansationregular;
+    font-size: 0%;
+    text-decoration: none;
+}
+ 
+#header h2 span {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-family: quanticoregular, sans-serif;
+    font-size: 0%;
+    color: #092200;
+}
+ 
+/* TOP MENU */
+#top-bar {
+    font-family: quanticoregular, sans-serif;
+    font-size: 90%;
+}
+#top-bar ul {
+    float: right;
+}
+#top-bar a {
+    color: #fff;
+    background: transparent;
+}
+#top-bar ul li {
+    border: 0;
+    position: relative;
+}
+#top-bar ul li ul {
+    border: solid 1px #3d2b1f;
+    box-shadow: 0 2px 6px rgba(0,0,0,.5);
+    border-top: 0;
+}
+#top-bar ul li:last-of-type ul {
+    right: 0;
+}
+#top-bar ul li a {
+    border-left: solid 1px rgba(64,64,64,.1);
+    border-right: solid 1px rgba(64,64,64,.1);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1px;
+    max-height: 1px;
+    overflow: hidden;
+}
+ 
+#top-bar ul li.sfhover a,
+#top-bar ul li:hover a {
+    background: #f0f8ff;
+    color: #006c00;
+    border-left: solid 1px rgba(64,64,64,1);
+    border-right: solid 1px rgba(64,64,64,1);
+}
+ 
+#top-bar ul li.sfhover ul li a,
+#top-bar ul li:hover ul li a {
+    border-width: 0;
+    width: 150px;
+    border-top: 1px solid #ddd;
+    line-height: 160%;
+    height: auto;
+    max-height: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#top-bar ul li.sfhover a:hover,
+#top-bar ul li:hover a:hover {
+    background: #fff;
+    text-decoration: none;
+}
+#top-bar ul li ul {
+    border-width: 0 1px 1px 1px;
+    width: auto;
+}
+#top-bar ul li ul li, #top-bar ul li ul li.sfhover,
+#top-bar ul li ul li, #top-bar ul li ul li:hover {
+    border-width: 0;
+}
+#top-bar ul li ul li a {
+    border-width: 0;
+}
+#top-bar ul li ul a, #top-bar a:hover {
+    color: #8db600;
+}
+ 
+/* IE7 HACK */
+#top-bar ul > li > ul {  
+    *margin-top: -4px;
+}
+ 
+/* SIDE MENU */
+#side-bar {
+    left: -2em;
+    font-family: quanticoregular, sans-serif;
+}
+#side-bar .side-block {
+    padding: 10px;
+    border: 3px solid #dc143c;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    background: #fff;
+    margin-bottom: 15px;
+}
+#side-bar .side-area {
+    padding: 10px;
+}
+#side-bar .heading {
+    color: #c71585;
+    border-bottom: solid 1px #dc143c;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    font-weight: bold;
+}
+#side-bar p {
+    margin: 0;
+}
+#side-bar div.menu-item {
+    margin: 2px 0;
+}
+#side-bar div.menu-item img {
+    width: 13px;
+    height: 13px;
+    border: 0;
+    margin-right: 2px;
+    position: relative;
+    bottom: -2px;
+}
+#side-bar div.menu-item a {
+    font-weight: bold;
+}
+#side-bar div.menu-item.inactive img {
+    opacity: 0.25;
+}
+#side-bar div.menu-item.inactive a {
+    color: #db7093;
+}
+#side-bar div.menu-item .sub-text {
+    font-size: 80%;
+    color: #db7093;
+}
+#side-bar div.menu-item.sub-item {
+}
+ 
+#side-bar .collapsible-block-folded {
+    background: url(http://unofficial-scp-sandbox-jp.wikidot.com/local--files/nav:side/expand.png) 0 2px no-repeat;
+}
+#side-bar .collapsible-block-link {
+    margin-left: 15px;
+    font-weight: bold;
+}
+#side-bar .collapsible-block-unfolded-link {
+    border-bottom: solid 1px #c71585;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    color: #c71585;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+    color: #db7093;
+    text-decoration: none;
+}
+/* CONTENT */
+#main-content {
+    margin: 0 0 0 19em;
+    padding: 0;
+    position: relative;
+}
+ 
+#breadcrumbs {
+    margin: -1em 0 1em;
+    font-weight: 85%;
+}
+ 
+/* YUI-TABS */
+.yui-navset .yui-content{
+    background-color: #f5f5f5;
+}
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+    background-color:#d8d8d8;
+    background-image: url(../images/yuitabs.png);
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
+.yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
+    background:#008000 url(../images/yuitabs.png) repeat-x left -1400px; /* selected tab background */
+    color:#fff;
+}
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus {
+    background:#79d479 url(../images/yuitabs.png) repeat-x left -1300px;
+    text-decoration: none;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #008000;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #006c00;
+}
+ 
+/* FOOTER */
+#footer {
+    clear: both;
+    font-size: 77%;
+    background: #3d2b1f;
+    color: #006c00;
+    margin-top: 15px;
+    padding: 3px 10px;
+}
+#footer .options {
+    visibility: visible;
+    display: block;
+    float: right;
+    width: 50%;
+    font-size: 100%;
+    text-align: right;
+}
+#footer a {
+    color: #fff;
+    background: transparent;
+}
+
+div.wiki-note {
+    background-image: url(http://unofficial-scp-sandbox-jp.wikidot.com/local--files/component:mcf-theme/MCF-7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    border: 1px solid #999;
+    text-align: center;
+    border: double 2px #6bab30;
+    padding: 7px 10px;
+    margin: 5% 20%;
+    font-family: sansationregular, serif;
+    background-color: #edf7e3;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+ 
+/* Custom page content classes */
+#page-content {
+    min-height: 720px;
+}
+ 
+.unmargined > p {
+    margin: 0;
+    line-height: 100%;
+}
+.content-panel {
+    border: solid 1px #5d8aa8;
+    border-radius: 10px;
+    background-color: #bcd4e6;
+    margin: 10px 0 15px;
+    box-shadow: 3px 3px 6px #e6e6fa;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.1);
+}
+.content-panel.standalone {
+    background: #fcfdfb;
+}
+.content-panel.series {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.content-panel.centered {
+    text-align: center;
+}
+.content-panel.left-column {
+    float: left;
+    width: 48%;
+}
+.content-panel.right-column {
+    float: right;
+    width: 48%;
+}
+ 
+.content-panel .panel-heading {
+    padding: 2px 10px;
+    color: #ffffff;
+    font-size: 90%;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.35);
+}
+.content-panel .panel-heading > p,
+.content-panel .panel-footer > p {
+    margin: 0;
+}
+.content-panel .panel-body {
+    padding: 5px 10px;
+    background: f0ffff
+}
+.content-panel .panel-footer {
+    padding: 1px 10px;
+    color: #06da6e;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+.content-panel .panel-footer a {
+    color: #ffffff;
+}
+.content-panel .content-toc {
+    float: right;
+    padding: 0 20px;
+    background-color: #fff;
+    border: solid 1px #5d8aa8;
+    border-radius: 10px;
+    margin: 20px 0 5px 5px;
+    white-space: nowrap;
+    box-shadow: inset 1px 2px 6px rgba(0,0,0,.15)
+}
+.alternate:nth-child(even) {
+    background-color: rgba(255,255,255,.9);
+}
+ 
+/* Page Rating Module Customizations */
+.page-rate-widget-box {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+  font-family: sansationregular, sans-serif !important;
+}
+.page-rate-widget-box .rateup,
+.page-rate-widget-box .ratedown {
+  background-color: #f0f8ff;
+  border-top: solid 1px #dc143c;
+  border-bottom: solid 1px #dc143c;
+  font-weight: bold;
+}
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a {
+  background: transparent;
+  color: #dc143c;
+  padding: 0 4px;
+  margin: 0 1px;
+}
+.page-rate-widget-box .rateup a:hover,
+.page-rate-widget-box .ratedown a:hover {
+  background: #dc143c;
+  color: #dc143c;
+  text-decoration: none;
+}
+.page-rate-widget-box .cancel {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+  border-left: 0;
+  border-radius: 0 5px 5px 0;
+}
+.page-rate-widget-box .cancel a {
+  background: transparent;
+  text-transform: uppercase;
+  color: #f0ffff;
+}
+.page-rate-widget-box .cancel a:hover {
+  border-radius: 0 3px 3px 0;
+  background: #dc143c;
+  color: #f0ffff;
+  text-decoration: none;
+}
+
+/* Credit Rating Module */
+#page-content .creditRate div.page-rate-widget-box .rate-points {
+  background-color: #dc143c;
+  border: solid 1px #dc143c;
+}
+#page-content .creditButton p a{
+background: #dc143c !important;
+}
+.rate-box-with-credit-button .creditButton {
+    background-color: #dc143c !important;
+    border: solid 1px #dc143c !important;
+}
+.creditButton a:hover {
+color: #dc143c !important;
+}
+
+/* Heritage Collection Rating Module */
+.heritage-rating-module {
+  float: right;
+  background-color: #dc143c;
+  padding: 2px 8px 2px 5px;
+  margin-bottom: 10px;
+  margin-right: 2em;
+  border: solid 1px #dc143c;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.heritage-rating-module .page-rate-widget-box {
+  float: right;
+  box-shadow: none;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.heritage-rating-module .heritage-emblem {
+  float: right;
+  position: relative;
+  top: -2px;
+  left: 2px;
+  height: 16px;
+  width: 16px;
+  overflow: visible;
+  margin-right: 2px;
+}
+.heritage-rating-module .heritage-emblem img {
+  width: 20px;
+  height: 20px;
+  border: 0;
+}
+ 
+/* Fixes for Multi-Line Page Tags */
+#main-content .page-tags {
+    margin: 1em 0 0;
+    padding: 0;
+}
+#main-content .page-tags span {
+    display: inline-block;
+    padding: 0;
+    max-width: 60%;
+}
+#main-content .page-tags a {
+    display: inline-block;
+    white-space: nowrap;
+}
+ 
+/* Standard Image Block */
+.scp-image-block {
+  float: right;
+  clear: right;
+  margin: 0 2em 1em 2em;
+  border: solid 1px #ff000000;
+  box-shadow: 0 1px 6px rgba(0,0,0,.25);
+  width: 300px;
+}
+.scp-image-block.block-left {
+  float: left;
+  clear: left;
+  margin: 0 2em 1em 0;
+}
+.scp-image-block img {
+  border: 0;
+  width: 300px;
+}
+.scp-image-block .scp-image-caption {
+  background-color: #ff000000;
+  border-top: solid 1px #ff000000;
+  padding: 2px 0;
+  font-size: 80%;
+  font-weight: bold;
+  text-align: center;
+  width: 300px;
+}
+.scp-image-block > p {
+  margin: 0;
+}
+.scp-image-block .scp-image-caption > p {
+  margin: 0;
+  padding: 0 10px;
+}
+ 
+/* Forum Customizations */
+.forum-thread-box .description-block {
+  padding: .5em 1em;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.15),
+    inset 0 1px 0 rgba(255,255,255,.8),
+    inset 0 10px 5px rgba(255,255,255,.25),
+    inset 0 -15px 30px rgba(0,0,0,.1)
+}
+.thread-container .post .head {
+    padding: 0.5em 1em;
+    background-color: #f0f8ff;
+    background: linear-gradient(to right, #f0f8ff, #eeecec);
+    box-shadow: inset 2px 3px 6px rgba(0,0,0,.15);
+    border-radius: 5px 5px 0 0;
+}
+ 
+/* Hide Forum Signatures */
+.signature {
+  display:none !important;
+}
+
+@media (max-width: 479px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#page-content {
+    font-size: 0.9em;
+}
+ 
+#main-content {
+    margin: 0;
+}
+ 
+#recent-posts-category {
+width: 100%;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+    padding: 0;
+}
+ 
+.page-options-bottom a {
+    padding: 0 4px;
+}
+ 
+blockquote {
+    margin: 1em 0;
+}
+ 
+.license-area {
+    font-size: 0.8em;
+}
+
+#header h1, #header h2 {
+    margin-left: 66px;
+}
+ 
+table.form td, table.form th {
+    float: left;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+td.name {
+    width: 15em;
+}
+ 
+table.form td, table.form th {
+    padding: 0;
+}
+ 
+#edit-page-title {
+    max-width: 90%;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+}
+
+/* ////////////////////background-size//////////////////// */
+/* Mobile Media Query */
+@media (max-width: 319px) {
+#header {
+    background-size: 75%;
+    background-position: 1em;
+}
+}
+ 
+/* Note Media Query */
+@media (min-width: 320px) and (max-width: 580px) {
+#header {
+    background-size: 83%;
+    background-position: 1em;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+#header {
+    background-size: 77%;
+    background-position: 1em;
+}
+}
+
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#header {
+    background-size: 63%;
+    background-position: 1em;
+}
+}
+
+/* Tablet Media Query */
+@media (min-width: 980px) and (max-width: 1024px) {
+#header {
+    background-size: 47%;
+    background-position: 1em;
+}
+}
+/* ////////////////////////////////////////////////// */
+
+/* Note Media Query */
+@media (min-width: 480px) and (max-width: 580px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#main-content {
+    margin: 0 2em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 5px;
+}
+ 
+blockquote {
+    margin: 0.5em;
+}
+ 
+.license-area {
+    font-size: 0.85em;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 80px;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+td.name {
+    width: 15em;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+#main-content {
+    margin: 0 3em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+.top-bar {
+    display: none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 6px;
+}
+ 
+.license-area {
+    font-size: 0.9em;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 93px;
+}
+}
+ 
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#main-content {
+    margin: 0 4em 0 20em;
+}
+ 
+#header, #top-bar #side-bar {
+    max-width: 100%;
+}
+ 
+.top-bar li {
+    margin: 0;
+}
+ 
+#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
+    width: 110px;
+}
+ 
+.page-options-bottom a {
+    padding: 0 7px;
+}
+ 
+.license-area {
+    font-size: 0.95em;
+}
+
+#header h1, #header h2 {
+    margin-left: 106px;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Desktop Media Query -----------
+@media (min-width: 980px) and (max-width: 1399px) {
+ 
+}
+------------------------------------------ */
+ 
+/* Wide Monitor Media Query -----
+@media (min-width: 1400px) {
+ 
+}
+------------------------------------------ */
+ 
+/* off-canvas */
+ 
+.close-menu {
+    display: none;
+}
+ 
+@media (max-width: 767px) {
+ 
+.page-history tbody tr td:last-child {
+width: 35%;
+}
+ 
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div .btn-primary {
+width: 100%;
+float: left;
+}
+ 
+.owindow div .btn-primary ~ div {
+width: 100%;
+}
+ 
+.yui-navset {
+z-index: 1;
+}
+ 
+#navi-bar, #navi-bar-shadow {
+    display: none;
+}
+ 
+.open-menu a {
+    position: fixed;
+    bottom: 0.5em;
+    left: 0.5em;
+    z-index: 15;
+    font-family: 'Nanum Gothic', san-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888 !important;
+    background-color: #fff !important;
+    border-radius: 3em;
+    color: #888 !important;
+}
+ 
+.open-menu a:hover {
+    text-decoration: none !important;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -ms-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -o-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+}
+ 
+#main-content {
+    max-width: 90%;
+    margin: 0 5%;
+    padding: 0;
+    -webkit-transition: 0.5s ease-in-out 0.1s;
+    -moz-transition: 0.5s ease-in-out 0.1s;
+    -ms-transition: 0.5s ease-in-out 0.1s;
+    -o-transition: 0.5s ease-in-out 0.1s;
+    transition: 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -25em;
+    width: 17em;
+    height: 100%;
+    background-color: rgb(240, 255, 240);
+    overflow-y: auto;
+    z-index: 10;
+    padding: 1em 1em 0 1em;
+    -webkit-transition: left 0.5s ease-in-out 0.1s;
+    -moz-transition: left 0.5s ease-in-out 0.1s;
+    -ms-transition: left 0.5s ease-in-out 0.1s;
+    -o-transition: left 0.5s ease-in-out 0.1s;
+    transition: left 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+ 
+}
+ 
+#side-bar:target {
+    display: block;
+    left: 0;
+    width: 17em;
+    margin: 0;
+    border: 1px solid #dedede;
+    z-index: 10;
+}
+ 
+#side-bar:target + #main-content {
+    left: 0;
+}
+ 
+#side-bar:target .close-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3) 1px 1px repeat;
+    z-index: -1;
+}
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** 財団の人体実験に児童参加か
+**著者:** ©︎[[*user kossy]]
+**作成年:** 2020
+[[include credit:end]]
+
+[[include :incbox:koigare-header
+|param=35
+|category=saishin
+|image=人体実験に参加する児童ら.jpg
+|title=財団の人体実験に児童参加か
+|titlesize=130%
+|date=1/30 5:03
+|by=撮影: 恋昏崎新聞社
+]]
+[[size 180%]]**財団による児童への人体実験　実態映像を独自入手**[[/size]]　[[size 50%]]##C0C0C0|__恋昏崎新聞社__##[[/size]]
+@@ @@
+今年に入り本新聞社に財団から被害を受けたと訴える匿名の方から、[[a_ href="https://www.google.com/search?q=SCP%E8%B2%A1%E5%9B%A3&oq=SCP%E8%B2%A1%E5%9B%A3&aqs=chrome..69i57j69i61l3.3541j0j4&sourceid=chrome&ie=UTF-8"style="cursor:  text-decoration: none !important; color: inherit;"]]__財団__[[/a]]が未成年の児童を利用した人体実験を行っているという驚くべき情報が寄せられた。情報提供で寄せられた[[a_ href="http://ja.scp-wiki.net/scp-653-jp"style="cursor:  text-decoration: none !important; color: inherit;"]]__6本のDVD__[[/a]]に記録された映像には、人体実験に参加させられた児童達の余りにも悲惨な実態が記録されていた。
+[[collapsible show="･･･続きを読む" hide=" "]]
+----
+++ **発端**
+
+　始まりは、今月中旬に「元財団職員」を名乗る人物から送付された6本のDVDだった。付属の文書には、財団が行っている残虐行為の中で特に苛烈な実態を記録しているという旨が記載されており、編集部内で映像の検証が実施されることとなった。以下は付属文書の内容を記録したものである。
+
+[[div style="display: inline-block ; border : dotted 3px #444444 ; background :#ffffffff ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+**情報提供者からの声明全文**
+
+私は財団の元職員として「博士」と呼ばれる立場にあった者です。財団職員として働いていた頃、私は「人類のため」に「異常存在」を「確保・収容・保護する」という財団の理念を信じていました。財団は決して正義の組織ではありませんが、この財団の理念のためには仕方のないことだと思っていました。
+
+しかし、現実は私の中の「理想の財団」を打ち砕きました。
+
+財団は「人類のため」と言いながら、その人類を、それも罪もない子供達を手にかける組織であることを私は知ってしまったのです。私は財団のあまりの蛮行に耐えられなくなってしまいました。
+
+それから私はせめてもの罪滅ぼしとして、子供達を笑顔にするための商品の開発を行ってきました。しかし、財団は私のそんなささやかな活動すら妨害してきたのです。もう私は財団に対する怒りが抑えきれなくなりました。
+
+恋昏崎新聞社様にご提供した映像には目を覆いたくなるような光景が記録されています。皆様には、財団がどれほど酷い所業を行っているか知ってほしいのです。「人類を守る」という名目のためにその人類の未来そのものたる子供達を犠牲にしている…これが財団という組織の実態なのです。私の情報提供によって少しでも財団の実態が知れ渡ってくれることを願います。
+[[/div]]
+
+　DVDに記録されていた映像には実験に参加した児童の個人情報が含まれていた上、一部の媒体には検証中に体調不良を訴える記者が続出するほど凄惨な様子が記録されていたことから、映像そのものの公開は差し控えさせて頂くこととする。どうか御了承願いたい。本記事では最も生々しい実態が記録されていた映像記録を紹介する。
+----
+
+++ **実験の開始と進行**
+
+[[include component:image-block
+|name=写真33.jpg
+|width=220px
+|align=right
+|clear=true
+|caption=▲少年が転移した場所と見られる写真。
+足元は花崗岩らしき物質で形成され、
+周囲には火山が確認できる。
+]]
+
+　まず、映像は殺風景な部屋にオレンジ色の作業服を着た十代前半と見られる少年が、財団の構成員と見られる男に「D-65320」と呼ばれる場面から始まる。財団構成員が「これから財団が開発したアーティファクトの試験を行う」と宣言し、部屋に用意された布団で就寝するよう指示される。布団には世間の人気キャラクターが怪物から逃走するイラストが描かれている事以外、特に変わった所は見当たらない。少年はそのまま布団の中に入り、画像が一旦暗転する。
+
+　しばらくの時間が経過すると、それまでと全く異なる場所に切り替わる。少年は「こんな話は聞いていない」「前回と違う」と呟きながら混乱する様子を見せる。それから程なくして、周囲から大きな叫び声が木霊する。驚いた少年が周囲を見渡すと、背後から棍棒や槍といった武器で武装した、謎の生物集団が少年に向かってくる様子が映し出される。謎の生物は世間で言う「ゴブリン」又は「オーク」のように見え、明確に少年を追跡している事が分かる。少年は恐慌状態となり慌てて逃げ出す。それから数十分程度の間、少年が生物集団から必死に逃亡する様子が記録されていた。少年は何度も「死にたくない！」「財団の皆さん助けてください！」と訴えるも、財団からは無情にも「実験を継続して下さい。無許可での離脱は終了理由となります」と告げられてしまう。これ以降、財団から特にこれと言ったアクションは見られない。
+------
+++ **少年の末路**
+
+[[include component:image-block
+|name=写真22.jpg
+|width=220px
+|align=right
+|clear=true
+|caption=▲財団の人体実験によって変わり果てた少年の写真。腰から上は原型を留めていなかったことが確認済み。
+]]
+
+　そうこうしている内に少年の体力が底を尽き始め、追跡してきた生物集団に完全に追いつかれてしまう。周囲を囲まれてしまった少年の手足は震え、底知れない恐怖を感じているのが見て取れる。少年は生物集団に向かって必死に命乞いを行うが、それから間も無くして少年に対する暴行が始まった。少年は繰り返し「助けて！」と叫ぶも、生物集団が止める様子はない。それ所か、少年へのリンチを楽しんでいる節すら感じられる。地獄絵図そのものとしか言いようがない。やがて、少年が完全に力尽きた所で再び画面が暗転する。
+
+　その後、映像は再び財団の施設と思われる部屋へ移る。部屋には先程実験に使用した毛布が映っているのが確認できる。その毛布の中へ突然死体が出現し、それと同時に財団の構成員が「実験終了」と宣言した。直ちに死体の確認作業が行われるが、見るも無残な姿である。顔が潰れてしまっていたものの、死体の背丈や服装から死体が先程の少年である事に間違いはない。最後に財団構成員と見られる男が「今回は42分か、新記録だな」「まだまだ実用化には遠いな」と呟いたところで映像は終了する。
+------
+++ **映像記録から財団の蛮行が明らかに**
+
+　従来、重犯罪者しか存在しないとされたDクラス職員に十代前半程度の児童が存在していたことは驚くべき事実である。財団が未成年者に対しても容赦なく牙を剥くことが証明された格好だ。更に、実験開始時の少年の発言から、映像記録の実験の前にも何かしらの実験が実施されていたことも見逃せない。財団が実験に参加した少年に対し、実験の内容についての最低限の説明もしていないことは明白である。少なくとも少年に死ぬつもりが無かったことは実験中に「死にたくない」と叫んだことからも確認できる。生命に危険が及びかねない危険な実験に参加しているという自覚が少しでもあれば、もう少し反応は違ったはずだ。
+
+　また、我々が注目したのは財団が少年の「終了」に言及したことだ。少年が実験からの離脱許可を求めた段階で「終了」に言及したということは、最初から少年のことを「消耗品」としか考えていなかったということである。普段からDクラス職員をこのように扱っている事は想像に難くない。
+
+　実験終了後の財団構成員の態度は財団の残酷さが良く表れている。死体の出現と同時に実験終了を宣言した手際の良さから、財団では同一のアーティファクトによる実験を繰り返し実施していた可能性が高い。「新記録」という発言から、他に実験台となった児童達が複数存在し、その多くが犠牲になったことが伺える。その場合、児童達がどのようにして財団に関わったかが重要になる。当新聞社は児童達の身元についてできる限りの調査を実施したが、現在まで一切の情報を入手できていない。我々は財団による拉致の可能性が存在すると考えている。
+
+　映像中の実験で使用された毛布には「ワンダーファクトリー重工総研博士™️」と記載されていたが、もちろん財団による稚拙なカバーストーリーであることに疑いの余地はないだろう。財団が卑劣にも他の団体・人物に自らの罪を擦り付けながら、危険なアノマリーの開発を行っていることは明白である。情報提供を受けたDVDは財団の蛮行を記録した決定的な証拠と言える。我々は今後もこの問題について追及していくつもりだ。【柳瀬 栄・大久保 凛子・ジョージＲ】
+@@ @@
+@@ @@
+**【関連記事】**
+[# 財団中国支部で「壊れた神の教会」信者に対する組織的拉致が横行か　大半は人体実験に利用との情報も]
+[# 日本生類創研とB.E、福島第一原発への対応策発表を中止　財団による妨害か]
+[# 如月工務店にサーキックカルト分派説が浮上　関係者は否定]
+[# ビッグフットは実在した？近年相次ぐ目撃事例　会話が可能との情報も]
+[# 東弊重工が新役員人事を発表　元負号部隊の鴻池氏が取締役に就任]
+@@ @@
+[[/collapsible]]
+------
+
+[[include :incbox:koigare-hirosue
+|header=true
+|width=175px
+|fontsize=75%
+|image=http://incbox.wdfiles.com/local--files/koigare-hirosue/hirosue.jpg
+|text=**▲広末 孝行 明大政治経済学部卒、東弊重工本社総務部で10年勤続後退社し、恋昏崎新聞社へ入社。もうすぐ2人目の子供が生まれる予定。**
+]]
+
+　始めに、財団の非人道的な行為により犠牲となった児童達のご冥福をお祈りします。
+
+　財団が行っている数々の非人道的行為の中に、アノマリーを使用した人体実験があります。財団ではこのような人体実験に参加させる人間を「Dクラス職員」と呼び、名前ではなく番号で管理していることが、これまでの取材で判明しています。財団は内部の構成員が疑問に思わないように「Dクラス職員は死刑囚や重犯罪者を用いているので問題ない」と説明しており、構成員の中には彼らの事を「残機」と呼称する者までいます。しかし、如何なる理由があろうとアノマリーを用いて人体実験を行う事を正当化する理由にはなり得ませんし、ましてや未成年者を実験に参加させるようなこと等、決して許されることではありません。
+
+　映像の検証には私も参加しましたが、正直に言って1児の父親である私にとって大変辛いものでした。今回紹介した映像記録以外にも、多くの未来ある児童達が捕食され、踏み躙られ、拷問され、叩き付けられ、苦しみながら死んでいく…そんな様子が生々しく記録されていました。彼らの最期を思うと、涙が止まりません。財団が悪辣な組織と知っていたつもりの私も、ここまで酷い実態が存在するとは考えていませんでした。認識が甘かったと言わざるを得ません。彼らが一体何をしたというのでしょう？彼らはこれ程までに無残な末路を送らなければならなかったのでしょうか？自らが製作したアノマリーの「実験」に幼気な児童を利用するという蛮行が平然と行われている事実に怒りを禁じ得ません。財団はアノマリーの脅威から人類を「保護」することを活動理念に掲げていますが、その本性が如何に醜悪なものか御理解頂けたのではないかと思います。
+
+　そして今回、「匿名希望」さんの勇気ある告発に心から感謝致します。この方からは今回の記事の執筆に当たって、本当に色々とお世話になりました。「匿名希望」さんの積極的な誠意ある御協力がなければ、記事を執筆することは難しかったと思います。この場を借りて改めて感謝申し上げる次第です。
+
+　また、開発した商品を財団に回収される被害に遭われたとの事で大変悔しかったとお聞きしております。児童達を楽しませることを目的とした商品を開発しているとの事で、財団とは全く異なるその姿勢に感銘を受けずにはいられません。「匿名希望」さんのような善良な市民の方が胸を張って生きていける社会を目指さなければならない。改めてそう思います。【広末 孝行】
+------
+@@ @@
+　[[size 200%]]**__読者コメント__**[[/size]] 　
+[[div style="border:solid 1px #999999; background:#F5F5F5; padding:10px; margin-bottom: 5px;"]]
+
+[[include :topia:ync src=-]]
+[[include :topia:ync head=-
+|img=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-91-3462/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AA%E3%83%BC%E9%A1%943.jpg
+|name=kosssy_542
+|time=2019/01/30 -- 07:37:35
+]]
+財団は普段から私達の事を「倫理観のないイカれた連中」とバカにしてるくせに
+自分達は児童を使って実験三昧ですか。胸糞悪いにも程がありますね。
+
+[[include :topia:ync body=-|uv=65|dv=4]]
+
+[[include :topia:ync head=-
+|img=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-91-3462/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AA%E3%83%BC%E9%A1%942.jpg
+|name=yassu_8888
+|time=2019/01/30 -- 10:52:36
+]]
+児童をたくさん実験に使える財団が羨ましいですね。
+ウチの研究も普段からそれだけ使えるくらいの豊富な予算と素材を用意してくれないものでしょうか。
+[[include :topia:ync body=-|uv=52|dv=7
+]]
+
+[[include :topia:ync head=-
+|img=http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3A3461191-91-3462/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AA%E3%83%BC%E9%A1%94.jpg
+|name=aaa_111
+|time=2019/01/30 -- 12:46:02
+]]
+「匿名希望」の博士さん、ウチに欲しいなあ…
+財団の内情知ってて、財団に敵対してて、技術力もある。最高でしょう。
+[[include :topia:ync body=-|uv=39|dv=3
+]]
+※コメントはユーザー個人の意見であり、恋昏崎新聞社による公式記事ではありません。
+[[/div]]
+
+------
+++ 広告
+
+[[include component:image-block
+|name=広告1.jpg
+|width=300px
+|align=left
+|clear=true
+|caption=[# 新メニュー「UFOつけ麺」始めました]
+恋昏崎の皆様大歓迎です！
+開業35周年記念キャンペーン実施中！
+[[span style="color:gray"]]UFOラーメン[[/span]]]]
+
+[[include component:image-block
+|name=広告4.png
+|width=300px
+|align=center
+|clear=true
+|caption=[# 先割れスプーン廃止嘆願の署名にご協力をお願いします]
+私達は世界中のスプーン保護を目的とした団体です。
+スプーンは動物であり、決してモノではありません。
+[[span style="color:gray"]]スプーンの自由解放戦線[[/span]]]]

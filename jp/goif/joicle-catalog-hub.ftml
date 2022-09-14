@@ -1,0 +1,917 @@
+[[module css]]
+@import url("http://scp-jp.wdfiles.com/local--code/joicle-catalog-hub");
+[[/module]]
+[[>]]
+[[module Rate]]
+[[/>]]
+[[=image cover.png]]
++ 目次
+* [[[a-n-0064| あ-N-0064]]] - "予言獣 クダン"
+* [[[u-m-2059| う-M-2059]]] - "スターゲイジーシード"
+* [[[u-s-0061| う-S-0061]]] - "メロディアスラビット"
+* [[[a-b-0551| え-B-0511]]] - "タケトリロブスター"
+* [[[g-b-0134| が-B-0134]]] - "ファーテリティ・ダウンフォール施術" p. 34
+* [[[g-b-0183| が-B-0183]]] - "リプロダクションライト" p. 83
+* [[[g-e-1370| が-E-1370]]] - "外来生物捕食生物"
+* [[[g-e-2003| が-E-2003]]] - "財団誘引生物"
+* [[[k-d-6550| き-D-6550]]] - "シャチクザウルス"
+* [[[k-s-0682| く-S-0682]]] - "おりこうさんトカゲ"
+* [[[s-a-6157| さ-A-6157]]] - "シンバイオティクスタブレット" p. 91
+* [[[s-b-1998|せ-B-1998]]] - "セミバスターダケ" p. 98
+* [[[s-g-1664|せ-G-1664]]] - "共生自足米「やどりがみ」"
+* [[[n-a-2044|な-A-2044]]] - "リビングキャット" p. 100
+* [[[n-a-2318| な-A-2318]]] - "生命ダイナモ"
+* [[[n-p-2229| に-P-2229]]] - "ぶたもどき"
+* [[[p-b-4099|ぱ-B-4099]]] - "スマートニューロン" p. 101
+* [[[f-a-1030| ふ-A-1030]]] - "クリーンフナムシ" p. 103
+* [[[h-a-3001| ほ-A-3001]]] - "ダイレクトホニャインコくん"
+* [[[m-a-2407|む-A-2407]]] - "「とわひかり」種籾" p. 120
+* [[[y-b-0035|よ-B-0035]]] - "霊銀式ヒューマノイド"
+* [[[w-v-1260| わ-V-1260]]] - "ドネーションブラッドタブレット" p. 189
+
+------
+------
+
+++  このページは
+SCP-JPのGoIの日本生類創研のカタログページ形式のGoIフォーマットのハブです。以下のコードの利用、改造は自由です。コードを使った記事を書いたならば、このハブに追加してください。
+
++ コード
+[[collapsible]]
+[[code type="css"]]
+/*
+使用色定義
+*/
+
+:root {
+    --mainblue: #178cce;
+    --thin-blue: #b5cde2;
+    --cu-green: #006837;
+ 
+    --cu-red: #c1272d;
+    --scribbled-orange: #f49e4c;
+    --third-blue: #0071bc;
+ 
+    --bg: #f0f0e6;
+}
+ 
+/*
+背景画像
+*/
+ 
+div#container-wrap {
+  background: none !important;
+}
+ 
+/*
+ヘッダ
+*/
+ 
+#header {
+  padding-top: 2em;
+  height: 130px;
+  z-index: 10;
+  background: url(http://scp-jp.wdfiles.com/local--files/joicle-catalog-hub/q2.png) 10px 40px no-repeat, url(http://scp-jp.wdfiles.com/local--files/joicle-catalog-hub/q1.png) calc(100% - 10px) calc(100% - 40px) no-repeat;
+}
+ 
+div #header h1 {
+  margin-left: 0;
+  width: 273px;
+  top: 35px;
+  min-height: 100px;
+  position: absolute;
+}
+ 
+div #header h1 a {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1px;
+}
+ 
+div #header h2 {
+  display: none;
+}
+ 
+#top-bar {
+  position: absolute;
+  bottom: 0px;
+  margin-top: 115px;
+  height: auto;
+  padding: 0;
+  z-index: 20;
+  font-size: 90%;
+}
+ 
+#top-bar ul {
+  float: right;
+  padding-right: 5em;
+}
+ 
+#top-bar a {
+  color:var(--thin-blue);
+}
+ 
+#top-bar ul li a {
+  border-left: none;
+  border-right: none;
+}
+ 
+#top-bar ul li.sfhover a, #top-bar ul li:hover a {
+  color:var(--mainblue);
+  border-left: none;
+  border-right: none;
+}
+ 
+#search-top-box-input {
+  display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+  border: none;
+  border-radius: 0px;
+  padding: 2px 5px;
+  font-size: 90%;
+  font-weight: bold;
+  color:var(--mainblue);
+  background-color: #fff;
+  background: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+ 
+#search-top-box-form input[type=submit]:hover, #search-top-box-form input[type=submit]:focus {
+  border: none;
+  color:var(--thin-blue);
+  text-shadow: none;
+  background-color: #fff;
+  background: none;
+  box-shadow: none;
+}
+ 
+#search-top-box {
+  position: absolute;
+  top: auto;
+  bottom: 23px;
+  right: 8px;
+  width: 250px;
+  text-align: right;
+}
+ 
+#header::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 130px;
+  height: 100px;
+  background: url(http://scp-jp.wdfiles.com/local--files/joicle-catalog-hub/q3-min-min.png) top left repeat-x;
+}
+ 
+/*
+コンテント
+*/
+ 
+/* ヘッダーにかぶせない */
+ 
+#main-content {
+  margin-top: 100px;
+}
+ 
+h1, #page-title {
+  color: #000;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+ 
+a {
+  color:var(--thin-blue);
+}
+ 
+#page-content a{
+  color: #00A;
+}
+#page-content h2{
+font-weight:bold;
+}
+#page-content h2:before{
+  content:'■';
+  color:var(--cu-green);
+}
+#page-content .rate-box-with-credit-button .creditButton{
+  background-color:var(--mainblue);
+  border: 1px solid var(--mainblue);
+}
+#page-content .creditButton .fa-info{
+    color: #fff;
+}
+div.page-rate-widget-box .rate-points {
+    background-color:var(--mainblue);
+    border: solid 1px var(--mainblue);
+}
+.page-rate-widget-box .rateup, .page-rate-widget-box .ratedown {
+    background-color:var(--thin-blue);
+    border-top: solid 1px var(--mainblue);
+    border-bottom: solid 1px var(--mainblue);
+}
+.page-rate-widget-box .cancel {
+    background-color:var(--mainblue);
+    border: solid 1px var(--mainblue);
+}
+.page-rate-widget-box a{
+    color: #fff !important;
+}
+.page-rate-widget-box .rateup a:hover, .page-rate-widget-box .ratedown a:hover {
+    background:var(--thin-blue);
+    color: #fffff0;
+}
+.page-rate-widget-box .cancel a:hover {
+    background:var(--thin-blue);
+}
+/*
+リスト http://webnonotes.com/css/css-list/
+*/
+.defaultlist, .defaultlist li{
+  padding:0px;
+  margin:0px;
+}
+ 
+.defaultlist li{
+  list-style-type:none !important;
+  list-style-image:none !important;
+  margin: 5px 0px 5px 0px !important;
+}
+.list1 li{
+  position:relative;
+  padding-left:20px;
+}
+ 
+.list1 li:before{
+  content:''; 
+  display:block; 
+  position:absolute; 
+  box-shadow: 0 0 2px 2px rgba(255,255,255,0.2) inset;
+  top:3px; 
+  left:2px; 
+  height:0; 
+  width:0; 
+  border-top: 6px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 9px solid #aaa;
+}
+.list2 li{
+  position:relative;
+  padding-left:20px;
+}
+ 
+.list2 li:before{
+  content:''; 
+  height:0; 
+  width:0; 
+  display:block; 
+  border:5px transparent solid; 
+  border-right-width:0; 
+  border-left-color:#aaa; 
+  position:absolute; 
+  top:5px; 
+  left:8px;
+}
+ 
+.list2 li:after{
+  content:''; 
+  height:2px; 
+  width:10px; 
+  display:block; 
+  background:#aaa; 
+  position:absolute; 
+  top:9px; 
+  left:0px;
+}
+.list4 li{
+  position:relative;
+  padding-left:20px;
+}
+ 
+.list4 li:after, .list4 li:before{
+  content:''; 
+  display:block; 
+  position:absolute; 
+  top:4px; 
+  left:8px; 
+  height:11px; 
+  width:4px; 
+  background:#aaa; 
+  border-radius:10px;
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+}
+.list4 li:before{
+  top:8px; 
+  left:3px;
+  height:8px; 
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+}
+.list5 li{
+  position:relative;
+  padding-left:20px;
+}
+.list5 li:before{
+  content:''; 
+  height:0px; 
+  width: 90%;
+  display:block; 
+  position:absolute; 
+  top:18px; 
+  left:0px; 
+  border-bottom: 1px dashed #aaa;
+}
+.list5 li:after{
+  content:'';
+  display:block; 
+  position:absolute; 
+  background:#aaa;
+  width:5px;
+  height:5px; 
+  top:7px; 
+  left:5px; 
+  border-radius: 5px;
+}
+.list6 li{
+  position:relative;
+  padding-left:20px;
+}
+ 
+.list6 li:after{
+  content:'';
+  display:block; 
+  position:absolute; 
+  background:#aaa;
+  width:9px;
+  height:9px; 
+  top:5px; 
+  left:5px; 
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+}
+.list7 li{
+  position:relative;
+  display: block;
+  padding: 5px 0px 5px 30px;
+  background: #ccc;
+  color: #444;
+  border-radius:15px 0px 0px 15px;
+}
+ 
+.list7 li:after{
+  content:'';
+  display:block; 
+  position:absolute;
+  width:14px;
+  height: 14px;
+  top:7px;
+  left:5px;
+  background: #fff;
+  border-radius: 10px;
+}
+/*
+表 http://tablestyler.com/#
+*/
+.defaultT table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+.defaultT table td, .defaultT table th {
+  padding: 3px 10px;
+}
+.defaultT table th:first-child {
+  border: none;
+}
+.defaultT table th:first-child {
+  border: none;
+}
+ 
+.defaultT table tbody td:first-child {
+background-color:var(--bg);
+font-weight: bold;
+  border-left: none;
+}
+ 
+.defaultT table tbody tr:last-child td {
+  border-bottom: none;
+}
+ 
+.defaultT .wiki-content-table {
+    margin: 0;
+}
+.defaultT{
+  font: normal 12px/150% Arial, Helvetica, sans-serif;
+  background: #fff;
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+ 
+.defaultT table th {
+    color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+}
+ 
+.defaultT table tbody td {
+  font-size: 12px;
+  font-weight: normal;
+}
+ 
+.blueT {
+  border: 1px solid #006699;
+}
+ 
+.blueT table th {
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F));
+  background: -moz-linear-gradient( center top, #006699 5%, #00557F 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+  background-color: #006699;
+  border-left: 1px solid #0070A8;
+}
+ 
+.blueT table tbody td {
+  border-left: 1px solid #E1EEF4;
+}
+.blueT table tbody td:first-child {
+color: #00496B;
+}
+ 
+.redT {
+  border: 1px solid #991821;
+}
+ 
+.redT table th {
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #991821), color-stop(1, #80141C));
+  background: -moz-linear-gradient( center top, #991821 5%, #80141C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#991821', endColorstr='#80141C');
+  background-color: #991821;
+  border-left: 1px solid #B01C26;
+}
+ 
+.redT table tbody td {
+  border-left: 1px solid #F7CDCD;
+}
+ 
+.redT table tbody td:first-child {
+color: #80141C;
+}
+ 
+.greenT {
+  border: 1px solid #36752D;
+}
+ 
+.greenT table th {
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36752D), color-stop(1, #275420));
+  background: -moz-linear-gradient( center top, #36752D 5%, #275420 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
+  background-color: #36752D;
+  border-left: 1px solid #36752D;
+}
+ 
+.greenT table tbody td {
+  border-left: 1px solid #C6FFC2;
+}
+ 
+.greenT table tbody td:first-child {
+color: #275420;
+}
+/*
+ボックス
+*/
+.warning {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px #FFC107;
+}
+.warning h1{
+    position: absolute;
+    margin-top: 0;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 17px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+.warning p {
+    margin: 0; 
+    padding: 0;
+}
+.danger {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  transform: rotate(45deg);
+  flex-flow: column wrap; 
+  vertical-align: top;
+  width: 1em;
+  height: 1em;
+  border: 2px solid red;
+}
+.danger p{
+  font-weight:bold;
+  transform: rotate(-45deg);
+}
+ 
+/*
+サイド
+*/
+ 
+#side-bar {
+  min-height: calc(100% + 7em);
+  background-color:var(--thin-blue);
+  transform: translateY(-6em);
+}
+ 
+#side-bar .side-block {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent !important;
+  margin-top: 4em;
+}
+#side-bar .heading {
+    color:var(--mainblue);
+    border-bottom: solid 1px var(--mainblue);
+}
+#side-bar .side-block a {
+  color: #fff;
+}
+ 
+/*
+めであ
+*/
+ 
+@media (max-width: 767px) and (min-width:440px) {
+ 
+  #container {
+    border-left: 9px solid var(--thin-blue);
+  }
+  #header {
+    background-size: 200px, 180px;
+  }
+  div #header h1 {
+    width: 200px;
+    min-height: 100px;
+  }
+  #side-bar {
+  transform: translateY(0em);
+}
+}
+ 
+@media (max-width: 440px) {
+  #container {
+    border-left: 3px solid var(--thin-blue);
+  }
+  #header {
+    background-size: 130px, 140px;
+    height: 100px;
+  }
+  div #header h1 {
+    width: 200px;
+    min-height: 80px;
+  }
+  #header::after {
+    margin-top: 100px;
+    height: 100px;
+    background: url(http://scp-jp.wdfiles.com/local--files/joicle-catalog-hub/q3-min-min.png) top left repeat-x;
+    background-size: 440px;
+  }
+  #top-bar {
+    margin-top: 33px;
+  }
+  #main-content {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+    #side-bar:target .close-menu {
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+}
+img.close-menu {
+    opacity: 0 !important;
+}
+[[/code]]
+[[/collapsible]]
+------
++ 利用方法
+記事のどこかに以下のコードを貼り付けてください。
+[[code]]
+[[module css]]
+@import url("http://scp-jp.wdfiles.com/local--code/joicle-catalog-hub");
+[[/module]]
+[[/code]]
+------
+
++ 出力例
+[[collapsible]]
+[[size 160%]]##F49E4C|**オブジェクトは邪悪でありながら、SCP財団の良さも引き立てる優れたボブルです。**##[[/size]]
+
+[[>image http://scp-jp.wdfiles.com/local--files/scp-993/993.jpg width="300px"]]
+[[>]]
+'ボブルのキッチンサプライズ'でのSCP-993の静止画
+[[/>]]
+------
+
++++ ボブル（アナログタイプ）
+
+[[div class="blueT defaultT"]]
+||~ 品番||~ 型番||~ 重さ||~ 価格||
+||ぼ-300-1111 ||BOB-17A || 500g || **¥ 4,800**||
+||ぼ-300-1112 ||BOB-27A || 1000g || **¥ 7,800**||
+||ぼ-300-1113 ||BOB-37A || 28kg || **¥ 27,800**||
+[[/div]]
++++ ボブル（デジタルタイプ）
+[[div class="redT defaultT"]]
+||~ 品番||~ 型番||~ 重さ||~ 価格||
+||ぼ-340-1111 ||BOB-17D || 100g || **¥ 5,800**||
+||ぼ-340-1112 ||BOB-27D || 300g || **¥ 8,800**||
+||ぼ-340-1113 ||BOB-37D || 2kg || **¥ 29,800**||
+[[/div]]
++++ ボブル（レガシー）
+[[div class="greenT defaultT"]]
+||~ 品番||~ 型番||~ 重さ||~ 価格||
+||ぼ-240-1111 ||BOB-14L || 2kg || **¥ 5,80**||
+||ぼ-240-1112 ||BOB-24L || 7kg || **¥ 8,80**||
+||ぼ-240-1113 ||BOB-34L || 27kg || **¥ 29,80**||
+[[/div]]
+
+------
+
+++ 特徴
+[[div class="defaultlist list4"]]
+* オブジェクトクラスはSafeでありながら、なかなかの被害を与えます。
+* アナログタイプは従来のVHS。
+* デジタルタイプはボタン入力でスクリーンとホログラムを切り替えることができます。
+* まとめ買いでお得
+[[/div]]
+
+++ 仕様
+[[div class="defaultlist list5"]]
+* SCP-993のすべての放送は、プロトコル・ユプシロン・ベータ3に詳細が記述されている方法で傍受し、公開を防ぐことになっています。
+* すべての傍受された放送は今後の視聴のために記録して保存してください。 
+* SCP-993を視聴する被験者は10歳未満でなければならず、彼らは見たエピソードの内容を説明した後に、クラスA記憶処置を施されます。
+[[/div]]
+SCP-993の視聴は3名のレベル4職員に承認される必要があります。
+
+**説明:** SCP-993は"ピエロのボブル(Bobble the Clown)"と題する子供向け番組であり19██/██/██に放映が開始されました。SCP-993はボブルというピエロのキャラクターが新しい技術や活動を教える、教育アニメの形式で作られています。この番組は他に出演者はいないようで、番組のセットはエピソードによって異なります。
+
+SCP-993の異常性質はその番組を視聴した時に明らかになります。10歳以上の人間が観賞すると、番組が始まってからすぐに誰も突き刺すような頭痛に襲われ、番組終了まで意識を失うことが報告されました。
+[[div class="warning"]]
++ [[span class="fa fa-exclamation-triangle fa-lg"]]@<&nbsp;>@[[/span]]使用上の注意
+・10歳未満の子供がSCP-993を観賞すると、それは人食い、殺人、拷問、[削除済]といった活動を擁護し、その方法を教えてくれます。これらの活動は被験者の心に深くしみ込むようであり、繰り返しSCP-993を視聴すると永続的な精神病・統合失調症の症状になること場合があります。
+[[/div]]
+[[div style="display:inline;float:left;margin-right:0.5em;"]]
+[[div class="danger"]]
+!
+[[/div]]
+**警告**
+[[/div]]
+[[span style="font-size: 17px;font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;font-weight:bold;"]]視聴すると有害[[/span]]
+SCP-993は現在、未知のソースから定期的に放送されていますが、20██/██/██以降、全ての放送をプロトコル・ユプシロン・ベータ3で傍受し、公開を防ぐことに成功しています。
+[[>]]
+##red|//デモ機は財団に用意してあります！//##
+[[/>]]
+[[/collapsible]]
+------
++ 各項目の解説
+[[collapsible]]
++++ 走り書き
+[[size 160%]]##F49E4C|**記事の先頭に書く走り書きです**##[[/size]]
+[[code]]
+[[size 160%]]##F49E4C|**記事の先頭に書く走り書きです**##[[/size]]
+[[/code]]
+
+------
+
++++ 画像
+[[>image http://scp-jp.wdfiles.com/local--files/scp-993/993.jpg width="300px"]]
+[[>]]
+画像のキャプション
+[[/>]]
+[[code]]
+[[>image http://scp-jp.wdfiles.com/local--files/scp-993/993.jpg width="300px"]]
+[[>]]
+画像のキャプション
+[[/>]]
+[[/code]]
+
+------
+
++++ 表
+++++ 表青
+
++++ 表キャプション
+[[div class="blueT defaultT"]]
+||~ 品番||~ 型番||~ XXX||~ 価格||
+||X||x || xxx || **¥ x,xxx**||
+||Y ||y || yyy || **¥ y,yyy**||
+||Z||z || zzz || **¥ z,zzz**||
+[[/div]]
+
+[[code]]
++++ 表キャプション
+[[div class="blueT defaultT"]]
+||~ 品番||~ 型番||~ XXX||~ 価格||
+||X||x || xxx || **¥ x,xxx**||
+||Y ||y || yyy || **¥ y,yyy**||
+||Z||z || zzz || **¥ z,zzz**||
+[[/div]]
+[[/code]]
+++++ 表赤
++++ 表キャプション
+[[div class="redT defaultT"]]
+||~ 品番||~ 型番||~ XXX||~ 価格||
+||X||x || xxx || **¥ x,xxx**||
+||Y ||y || yyy || **¥ y,yyy**||
+||Z||z || zzz || **¥ z,zzz**||
+[[/div]]
+[[code]]
+[[div class="redT defaultT"]]
+||~ 品番||~ 型番||~ XXX||~ 価格||
+||X||x || xxx || **¥ x,xxx**||
+||Y ||y || yyy || **¥ y,yyy**||
+||Z||z || zzz || **¥ z,zzz**||
+[[/div]]
+[[/code]]
+
+++++ 表緑
++++ 表キャプション
+[[div class="greenT defaultT"]]
+||~ 品番||~ 型番||~ XXX||~ 価格||
+||X||x || xxx || **¥ x,xxx**||
+||Y ||y || yyy || **¥ y,yyy**||
+||Z||z || zzz || **¥ z,zzz**||
+[[/div]]
+[[code]]
++++ 表キャプション
+[[div class="greenT defaultT"]]
+||~ 品番||~ 型番||~ XXX||~ 価格||
+||X||x || xxx || **¥ x,xxx**||
+||Y ||y || yyy || **¥ y,yyy**||
+||Z||z || zzz || **¥ z,zzz**||
+[[/div]]
+[[/code]]
+------
++++ リスト
+
+++ 特徴
+[[div class="defaultlist list4"]]
+* x
+* y
+* z
+* w
+[[/div]]
+[[code]]
+++ 特徴
+[[div class="defaultlist list4"]]
+* x
+* y
+* z
+* w
+[[/div]]
+[[/code]]
+
+++ 仕様
+[[div class="defaultlist list5"]]
+* x
+* y
+* z
+* w
+[[/div]]
+[[code]]
+++ 仕様
+[[div class="defaultlist list5"]]
+* x
+* y
+* z
+* w
+[[/div]]
+[[/code]]
+
+------
+[[div class="defaultlist list1"]]
+* x
+* y
+* z
+* w
+[[/div]]
+[[div class="defaultlist list2"]]
+* x
+* y
+* z
+* w
+[[/div]]
+[[div class="defaultlist list6"]]
+* x
+* y
+* z
+* w
+[[/div]]
+[[div class="defaultlist list7"]]
+* x
+* y
+* z
+* w
+[[/div]]
+
+[[code]]
+[[div class="defaultlist list1"]]
+* x
+* y
+* z
+* w
+[[/div]]
+[[div class="defaultlist list2"]]
+* x
+* y
+* z
+* w
+[[/div]]
+[[div class="defaultlist list6"]]
+* x
+* y
+* z
+* w
+[[/div]]
+[[div class="defaultlist list7"]]
+* x
+* y
+* z
+* w
+[[/div]]
+[[/code]]
+
+------
++++ 注意
+[[div class="warning"]]
++ [[span class="fa fa-exclamation-triangle fa-lg"]]@<&nbsp;>@[[/span]]使用上の注意
+あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。 
+[[/div]]
+[[code]]
+[[div class="warning"]]
++ [[span class="fa fa-exclamation-triangle fa-lg"]]@<&nbsp;>@[[/span]]使用上の注意
+あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。 
+[[/div]]
+[[/code]]
+------
++++ 警告
+[[div style="display:inline;float:left;margin-right:0.5em;"]]
+[[div class="danger"]]
+!
+[[/div]]
+**警告**
+[[/div]]
+[[span style="font-size: 17px;font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;font-weight:bold;"]]XXXすると有害[[/span]]
+あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。 
+
+[[code]]
+[[div style="display:inline;float:left;margin-right:0.5em;"]]
+[[div class="danger"]]
+!
+[[/div]]
+**警告**
+[[/div]]
+[[span style="font-size: 17px;font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;font-weight:bold;"]]XXXすると有害[[/span]]
+あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。 
+
+[[/code]]
+[[/collapsible]]
+------
+
++ 情報
+
+**使用色**
+* 青 #178cce ##178cce |████##
+* 薄青 #b5cde2　##b5cde2 |████##
+* 緑 #006837　##006837 |████##
+* 赤 #c1272d　##c1272d |████##
+* 走り書き用オレンジ #f49e4c　##f49e4c |████##
+* 第三の青 #0071bc　##0071bc |████##
+* 表のbackground-color: #f0f0e6;　##f0f0e6 |████##
+
+**使用画像**
+いずれもWikimedia Commonsから引用しています。
+[https://commons.wikimedia.org/wiki/File:Biology-0001.jpg 1][https://commons.wikimedia.org/wiki/File:Darwinius_radiographs.jpg 2][https://commons.wikimedia.org/wiki/File:Checking_Blood_Sample_(9955279835).jpg 3][https://commons.wikimedia.org/wiki/File:Cell_niche.jpg?uselang=ja 4][https://commons.wikimedia.org/wiki/File:DNA_com_GGN.jpg 5][https://commons.wikimedia.org/wiki/File:Coccidioidomycosis_Spherule.jpg 6][https://commons.wikimedia.org/wiki/File:Coldroom_biohazard_S1_and_radio_safety_zone_door.jpg 7][https://commons.wikimedia.org/wiki/File:Ebola_virus_virion.jpg 8]
+

@@ -1,0 +1,856 @@
+[[module css]]
+
+.hfcontainer {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    background-image: url('http://scp-jp.wdfiles.com/local--files/component%3Ahf-poster/Herman-Fuller-background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #BEB192;
+    text-shadow: 2px 2px #000;
+}
+
+.hfheader {
+    padding: 0;
+    padding-top: 20px;
+    height: 80px;
+    width: 100%;
+    display: block;
+}
+
+.hfnarrowcontent {
+    width: 20%;
+    font-size: 2em;
+    font-family: eastmarketregular, sans-serif;
+    text-align: center;
+    padding: 0% 2%;
+    padding-bottom: 0px;
+    margin: 0;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.hfnarrowcontent p {
+    line-height: 110%;
+}
+
+.hftitle {
+   font-size: 3.2em;
+   font-family: eastmarketregular, sans-serif;
+   font-weight: bold;
+   text-align: center;
+   height: 75px;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   display: block;
+}
+
+.hfwidecontent {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    font-size: 1.5em;
+    font-family: eastmarketregular, sans-serif;
+    text-align: center;
+    padding-bottom: -20px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.hfwidecontent p {
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    padding: 0px 15px;
+}
+
+.hffooter {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    font-family: eastmarketregular, sans-serif;
+    padding: 0px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.hfpic {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-position: center center; 
+    vertical-align: middle;
+}
+
+.hfpicframe {
+    background-image: url('http://scp-jp.wdfiles.com/local--files/component%3Ahf-poster/frame.png');
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.hfpic-container {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hfnarrowcontent {
+        font-size: 18pt;
+    }
+
+    .hfwidecontent p{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    .hftitle {
+       font-size: 3.1em;
+       height: 60px;
+    }
+
+    .hfpic {
+        height: 95%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .hftitle {
+       font-size: 2.5em;
+       height: 50px;
+    }
+    .hfpic-container {
+        height: 350px;
+    }
+    .hfpic {
+        height: 100%;
+    }
+    .hfwidecontent{
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .hfnarrowcontent {
+        font-size: 15pt;
+    }
+    .hfpic-container {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .hftitle {
+       font-size: 2.2em;
+       height: 50px;
+    }
+    .hfnarrowcontent {
+        font-size: 13pt;
+    }
+    .hfnarrowcontent p{
+        margin: 10px 0px;
+    }
+    .hfpic-container {
+        height: 225px;
+        vertical-align: top;
+    }
+    .hfpic {
+        height: 95%;
+        width: 40%;
+    }
+    .hfwidecontent p{
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hftitle {
+       font-size: 2.8em;
+       height: 65px;
+    }
+    .hfnarrowcontent {
+        font-size: 18pt;
+    }
+    .hfnarrowcontent p{
+        margin: 30px 0px;
+    }
+    .hfpic-container {
+        height: 380px;
+    }
+    .hfpic {
+        height: 85%;
+        width: 40%;
+    }
+    .hfwidecontent p{
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .hftitle {
+       font-size: 2.5em;
+       height: 50px;
+    }
+    .hfnarrowcontent {
+        width: 22%;
+        font-size: 17pt;
+    }
+    .hfpic-container {
+        height: 340px;
+    }
+    .hfpic {
+        height: 90%;
+    }
+    .hfwidecontent{
+        margin-top: 20px;
+    }
+    .hfwidecontent p{
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .hfpic {
+        height: 80%;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .hftitle {
+       font-size: 2.3em;
+       height: 40px;
+    }
+    .hfnarrowcontent {
+        width: 20%;
+        font-size: 15pt;
+    }
+    .hfnarrowcontent p{
+        margin: 20px 0px;
+    }
+    .hfpic-container {
+        height: 325px;
+    }
+    .hfpic {
+        width: 45%;
+        height: 85%;
+    }
+}
+
+@media only screen and (max-width: 585px) {
+    .hfheader {
+    padding-top: 20px;
+    height: 60px;
+    }
+    .hftitle {
+       font-size: 2.1em;
+       height: 25px;
+    }
+    .hfpic-container {
+        height: 290px;
+    }
+    .hfpic {
+        width: 45%;
+        height: 80%;
+    }
+    .hfwidecontent{
+        margin-top: 10px;
+    }
+    .hfwidecontent p{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    .hfpic-container {
+        height: 260px;
+    }
+    .hfpic {
+        width: 45%;
+        height: 85%;
+    }
+    .hfnarrowcontent {
+        width: 19%;
+        font-size: 12pt;
+    }
+    .hfnarrowcontent p{
+        margin: 12px 0px;
+    }
+    .hfwidecontent{
+        margin-top: 0px;
+    }
+    .hfwidecontent p{
+        font-size: 0.7em;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .hfheader {
+    padding-top: 20px;
+    height: 40px;
+    }
+    .hftitle {
+       font-size: 2.1em;
+       height: 25px;
+    }
+    .hfnarrowcontent {
+        width: 19%;
+        font-size: 10pt;
+    }
+    .hfnarrowcontent p{
+        margin: 12px 0px;
+    }
+     .hfpic-container {
+        height: 200px;
+    }
+    .hfpic {
+        width: 45%;
+        height: 85%;
+    }
+    .hfwidecontent p{
+        font-size: 0.6em;
+    }
+}
+
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** ハーマンフラー主催：｢女の死｣と｢奇跡の誕生」
+**著者:** ©︎[[*user indonootoko]]
+**作成年:** 2018
+[[include credit:end]]
+@@ @@
+[[div class="hfcontainer"]]
+[[div class="table"]]
+    [[div class="hfheader"]]
+     @@ @@
+    [[/div]]
+
+    [[div class="hftitle"]]
+     ｢女の死｣と｢奇跡の誕生｣
+    [[/div]]
+
+    [[div class="hfpic-container"]]
+
+    [[div class="hfnarrowcontent"]]
+     この女の死様を見に来るのだ！
+
+　　
+教師という夢と悪魔達に裏切られ！
+
+
+壮絶なる悲哀に飲み込まれた！
+
+
+　　
+    [[/div]]
+
+        [[div class="hfpic" style="background-image: url('http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3Aindonootoko-1/tanaka1.png'); background-repeat: no-repeat; background-position: center center; background-size: contain;"]]
+            [[div class="hfpicframe"]]
+            @@ @@
+            [[/div]]
+        [[/div]]
+
+    [[div class="hfnarrowcontent"]]
+     この悲歎は死ぬ程度では消えないのだ！
+
+
+女の死後残される怨嗟が生む奇跡を見よ！
+
+
+魂と思念が作り出す神秘を見に来るのだ！
+    [[/div]]
+
+    [[/div]]
+
+    [[div class="hfwidecontent"]]
+     極東の地で教師をする女//Toshiko Tanaka。// 女は夢を叶えたが夢は絶望へと変わり、悪魔たちは女を銷魂の淵へ叩き落した。女はショーの日に自ら命を絶つ！しかし女の持つ壮絶な絶念は死如きでは清算できない。この不幸な女の死様を見に来い、そして世にも珍しい"イリュージョン"誕生の瞬間を見逃すな！
+    [[/div]]
+
+    [[div class="hffooter"]]
+     一夜限り
+
+1月21日深夜0時、日本国██県██市 特設サーカス場にて。
+ 見られるのはこれっきりだよ！ 寄ってらっしゃい、見てらっしゃい！
+    [[/div]]
+
+ [[/div]]
+[[/div]]
+　
+　
+　
+[[collapsible show="+ 結局のところ、ショーを見て何か失うものはあるでしょうか？" hide="- それは時間と良心ですよ。"]]
+　
+　
+　
+[[module css]]
+.Dame{
+/*赤い下線*/
+text-decoration:underline;
+-webkit-text-decoration-color:red;
+text-decoration-color:red;
+}
+
+.Homeru{
+/*青い下線*/
+text-decoration:underline;
+-webkit-text-decoration-color:blue;
+text-decoration-color:blue;
+}
+
+.Gomen{
+/*緑の下線*/
+text-decoration:underline;
+-webkit-text-decoration-color:green;
+text-decoration-color:green;
+}
+[[/module]]
+　
+
+[[module css]]
+
+.hfcontainer {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    background-image: url('http://scp-jp.wdfiles.com/local--files/component%3Ahf-poster/Herman-Fuller-background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #BEB192;
+    text-shadow: 2px 2px #000;
+}
+
+.hfheader {
+    padding: 0;
+    padding-top: 20px;
+    height: 80px;
+    width: 100%;
+    display: block;
+}
+
+.hfnarrowcontent {
+    width: 20%;
+    font-size: 2em;
+    font-family: eastmarketregular, sans-serif;
+    text-align: center;
+    padding: 0% 2%;
+    padding-bottom: 0px;
+    margin: 0;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.hfnarrowcontent p {
+    line-height: 110%;
+}
+
+.hftitle {
+   font-size: 3.2em;
+   font-family: eastmarketregular, sans-serif;
+   font-weight: bold;
+   text-align: center;
+   height: 75px;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   display: block;
+}
+
+.hfwidecontent {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    font-size: 1.5em;
+    font-family: eastmarketregular, sans-serif;
+    text-align: center;
+    padding-bottom: -20px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.hfwidecontent p {
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    padding: 0px 15px;
+}
+
+.hffooter {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    font-family: eastmarketregular, sans-serif;
+    padding: 0px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.hfpic {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-position: center center; 
+    vertical-align: middle;
+}
+
+.hfpicframe {
+    background-image: url('http://scp-jp.wdfiles.com/local--files/component%3Ahf-poster/frame.png');
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.hfpic-container {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hfnarrowcontent {
+        font-size: 18pt;
+    }
+
+    .hfwidecontent p{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    .hftitle {
+       font-size: 3.1em;
+       height: 60px;
+    }
+
+    .hfpic {
+        height: 95%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .hftitle {
+       font-size: 2.5em;
+       height: 50px;
+    }
+    .hfpic-container {
+        height: 350px;
+    }
+    .hfpic {
+        height: 100%;
+    }
+    .hfwidecontent{
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .hfnarrowcontent {
+        font-size: 15pt;
+    }
+    .hfpic-container {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .hftitle {
+       font-size: 2.2em;
+       height: 50px;
+    }
+    .hfnarrowcontent {
+        font-size: 13pt;
+    }
+    .hfnarrowcontent p{
+        margin: 10px 0px;
+    }
+    .hfpic-container {
+        height: 225px;
+        vertical-align: top;
+    }
+    .hfpic {
+        height: 95%;
+        width: 40%;
+    }
+    .hfwidecontent p{
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hftitle {
+       font-size: 2.8em;
+       height: 65px;
+    }
+    .hfnarrowcontent {
+        font-size: 18pt;
+    }
+    .hfnarrowcontent p{
+        margin: 30px 0px;
+    }
+    .hfpic-container {
+        height: 380px;
+    }
+    .hfpic {
+        height: 85%;
+        width: 40%;
+    }
+    .hfwidecontent p{
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .hftitle {
+       font-size: 2.5em;
+       height: 50px;
+    }
+    .hfnarrowcontent {
+        width: 22%;
+        font-size: 17pt;
+    }
+    .hfpic-container {
+        height: 340px;
+    }
+    .hfpic {
+        height: 90%;
+    }
+    .hfwidecontent{
+        margin-top: 20px;
+    }
+    .hfwidecontent p{
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .hfpic {
+        height: 80%;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .hftitle {
+       font-size: 2.3em;
+       height: 40px;
+    }
+    .hfnarrowcontent {
+        width: 20%;
+        font-size: 15pt;
+    }
+    .hfnarrowcontent p{
+        margin: 20px 0px;
+    }
+    .hfpic-container {
+        height: 325px;
+    }
+    .hfpic {
+        width: 45%;
+        height: 85%;
+    }
+}
+
+@media only screen and (max-width: 585px) {
+    .hfheader {
+    padding-top: 20px;
+    height: 60px;
+    }
+    .hftitle {
+       font-size: 2.1em;
+       height: 25px;
+    }
+    .hfpic-container {
+        height: 290px;
+    }
+    .hfpic {
+        width: 45%;
+        height: 80%;
+    }
+    .hfwidecontent{
+        margin-top: 10px;
+    }
+    .hfwidecontent p{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    .hfpic-container {
+        height: 260px;
+    }
+    .hfpic {
+        width: 45%;
+        height: 85%;
+    }
+    .hfnarrowcontent {
+        width: 19%;
+        font-size: 12pt;
+    }
+    .hfnarrowcontent p{
+        margin: 12px 0px;
+    }
+    .hfwidecontent{
+        margin-top: 0px;
+    }
+    .hfwidecontent p{
+        font-size: 0.7em;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .hfheader {
+    padding-top: 20px;
+    height: 40px;
+    }
+    .hftitle {
+       font-size: 2.1em;
+       height: 25px;
+    }
+    .hfnarrowcontent {
+        width: 19%;
+        font-size: 10pt;
+    }
+    .hfnarrowcontent p{
+        margin: 12px 0px;
+    }
+     .hfpic-container {
+        height: 200px;
+    }
+    .hfpic {
+        width: 45%;
+        height: 85%;
+    }
+    .hfwidecontent p{
+        font-size: 0.6em;
+    }
+}
+
+[[/module]]
+@@ @@
+[[div class="hfcontainer"]]
+[[div class="table"]]
+    [[div class="hfheader"]]
+     @@ @@
+    [[/div]]
+
+    [[div class="hftitle"]]
+    [[span class="Dame"]] ｢女の死｣と｢奇跡の誕生｣[[/span]]##red|(1)##
+    [[/div]]
+
+    [[div class="hfpic-container"]]
+
+    [[div class="hfnarrowcontent"]]
+     [[span class="Dame"]]この女の死様を見に来るのだ！[[/span]]##red|(2)##
+
+
+[[span class="Dame"]]教師という夢と悪魔達に裏切られ！[[/span]]##red|(3)##
+
+
+
+[[span class="Dame"]]壮絶なる悲哀に飲み込まれた！[[/span]]##red|(4)##
+
+
+
+　　
+    [[/div]]
+
+        [[div class="hfpic" style="background-image: url('http://scp-jp-sandbox3.wdfiles.com/local--files/draft%3Aindonootoko-1/tanaka2.png'); background-repeat: no-repeat; background-position: center center; background-size: contain;"]]
+            [[div class="hfpicframe"]]
+            @@ @@
+            [[/div]]
+        [[/div]]
+
+    [[div class="hfnarrowcontent"]]
+     [[span class="Dame"]]この悲歎は死ぬ程度では消えないのだ！[[/span]]##red|(5)##
+
+
+[[span class="Dame"]]女の死後残される怨嗟が生む奇跡を見よ！[[/span]]##red|(6)##
+
+
+[[span class="Dame"]]魂と思念が作り出す神秘を見に来るのだ！[[/span]]##red|(7)##
+    [[/div]]
+
+    [[/div]]
+
+    [[div class="hfwidecontent"]]
+     [[span class="Dame"]]極東の地で教師をする女//Toshiko Tanaka｡// [[/span]]##red|(8)##女は夢を叶えたが[[span class="Dame"]]夢は絶望へと変わり、[[/span]]##red|(9)##[[span class="Dame"]]悪魔たちは女を銷魂の淵へ叩き落した。[[/span]]##red|(10)##[[span class="Dame"]]女はショーの日に自ら命を絶つ！[[/span]]##red|(11)##しかし[[span class="Dame"]]女の持つ壮絶な絶念は死如きでは清算できない。[[/span]]##red|(12)##[[span class="Dame"]]この不幸な女の死様を見に来い、[[/span]]##red|(13)##そして[[span class="Dame"]]世にも珍しい"イリュージョン"誕生の瞬間を見逃すな！[[/span]]##red|(14)##
+    [[/div]]
+
+    [[div class="hffooter"]]
+     [[span class="Dame"]]一夜限り[[/span]]##red|(15)##
+
+[[span class="Dame"]]1月21日深夜0時､[[/span]]##red|(16)##[[span class="Dame"]]日本国██県██市[[/span]]##red|(17)## [[span class="Dame"]]特設サーカス場にて。[[/span]]##red|(18)##
+ [[span class="Dame"]]見られるのはこれっきりだよ！[[/span]]##red|(19)## [[span class="Dame"]]寄ってらっしゃい､[[/span]]##red|(20)## [[span class="Dame"]]見てらっしゃい！[[/span]]##red|(21)##
+    [[/div]]
+
+ [[/div]]
+[[/div]]
+
+##red|(1)─この背景にこの文字の色は見づらいと思いますよ。あと"女"というのは私の事ですね？このポスターはサーカスのポスターのようですが、私がサーカスに出演するという事実はありません。削除してください。##
+##red|(2)─私の死を見世物にするという事ですか？不愉快極まりません。削除してください。##
+##red|(3)─悪魔とは何の事ですか？もしあの子達を指して言っているなら訂正してください。あの子たちは悪魔なんかではありません。##
+##red|(4)─私がどう思ったかを好き勝手書かないでください。訂正をお願いします。##
+##red|(5)─こちらもです。私が悲歎したなどどうして分かるのですか？。訂正してください。##
+##red|(6)─私の死に対してなにか期待を煽るような文です。やめてください。##
+##red|(7)─サーカスは練習を重ねて作る技の集合です。こんなオカルトではサーカスにならないと思いますよ。##
+##red|(8)─これは私の個人情報ですね。削除してください。##
+##red|(9)─また私がどう思ったかを勝手に解釈していますね。私は教師という仕事に絶望していません。##
+##red|(10)─繰り返しになりますがあの子たちを悪魔呼ばわりするのはやめてください。これも訂正をお願いします。##
+##red|(11)─堂々と私が自殺すると宣言していますね....。自殺もしませんし削除しましょう。##
+##red|(12)─私が死ぬことを前提に話が進んでいます。削除してください。##
+##red|(13)─私は自分の境遇を不幸だと思いません。訂正を。##
+##red|(14)─珍しいだとかイリュージョンだとか、公に張り出す文章にあまり意味の分からない事を書かない方が良いと思います。削除しましょう。##
+##red|(15)─この内容の見世物を何回もやられたら堪ったもんではありませんよ。##
+##red|(16)─この日付は.....。どうして、今日は28日です。このサーカスは終わっていますね？##
+##red|(17)─私の住んでいるところまで。何故21日にこんな。##
+##red|(18)─嘘です。私は自分の部屋で....。##
+##red|(19)─もしかして、私が死ぬのを皆で見ていたんですか？##
+##red|(20)─誰も助けてくれる訳でもなく、私の死を見て笑っていたんですか？##
+##red|(21)─苦しむ私を皆で。##
+[[/collapsible]]

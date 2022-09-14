@@ -1,0 +1,331 @@
+[[module CSS]]
+
+#page-title {color: #00bfff;}
+
+body {
+    background: rgb(250, 252, 255);
+    color: rgb(67, 67, 67);
+    font-size:13px;
+}
+#search-top-box-input {
+    border: solid 1px #ffffff;
+    border-radius: 1px;
+    color: rgb(250, 252, 255);
+    background-color: rgb(250, 252, 255);
+    box-shadow: inset 0px 0px 1px rgba(0,0,0,.5);
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #fff;
+    color: rgb(0 ,206 ,209);
+    background-color: rgb(0 ,206 ,209);
+    box-shadow: inset 0px 0px 1px rgba(0,0,0,.8);
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 90%;
+    font-weight: bold;
+    color: rgb(0 ,206 ,209);
+    background-color: rgb(0, 191, 255);
+    background: linear-gradient(to bottom, #ffffff,#ffffff,#ffffff);
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #fff;
+    color: rgb(0, 191, 255);;
+    text-shadow: 0 0 1px rgba(255,255,255,.25)
+    background-color: rgb(0, 191, 255);
+    background: linear-gradient(to bottom, #f5f5f5,#f5f5f5,#f5f5f5);
+    box-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+
+a,a:visited {
+    color: rgb(32 ,178 ,170);
+}
+div#side-bar div.side-block {
+    background: rgb(254, 255, 255);
+}
+div#side-bar div.side-block div.heading,
+div#side-bar div.collapsible-block-unfolded-link,
+div#side-bar div.collapsible-block-unfolded-link div.collapsible-block-link {
+    color: rgb(0, 191, 255);
+    border-color: rgb(0, 191, 255);
+}
+div.open-menu a {
+    color: rgb(0, 191, 255)!important;
+    border-color: rgb(0, 191, 255)!important;
+}
+
+div#container-wrap {
+    background: url(http://scp-jp.wikidot.com/local--files/yumemi-technology-com-company-history-logo/%E5%A4%A2%E8%A6%8B%E3%83%98%E3%83%83%E3%83%80%E3%83%BC.png) top left repeat-x;
+}
+div#header {
+    background: url(http://scp-jp.wikidot.com/local--files/yumemi-technology-com-company-history-logo/%E5%A4%A2%E8%A6%8B%E3%83%AD%E3%82%B4.png) 10px 40px no-repeat;
+    background-position: 0em -3em; background-size 88px 88px;
+}
+div#header h1 a span {
+    font-size: 0px;
+}
+div#header h1 a:before {
+    content: " ";
+    color: #eee;
+    text-shadow: 1px1px1px rgba(0,0,0,.8);
+}
+div#header h2 span {
+    font-size:0px;
+    padding: 4px;
+}
+div#header h2:after {
+    content: " ";
+    font-weight: bold;
+    color: #f0f0c0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,3 .8);
+    white-space: pre;
+}
+div#side-bar div.side-block {
+    background: rgb(254, 255, 255);
+}
+div#side-bar div.side-block div.heading,
+div#side-bar div.collapsible-block-unfolded-link,
+div#side-bar div.collapsible-block-unfolded-link div.collapsible-block-link {
+    color: rgb(13, 45, 135);
+    border-color: rgb(13, 45, 135);
+}
+#side-bar .side-block[style="background-color: #a7dba2;"] {
+    background-color: rgb(254, 255, 255)!important;
+}
+#side-bar .side-block[style="background-color: #fff0f0;"] {
+    background-color: rgb(254, 255, 255)!important;
+}
+#side-bar .side-block[style="background-color: #e5e5ff;"] {
+    background-color: rgb(254, 255, 255)!important;
+}
+#side-bar .side-block[style="background-color: #f0f0f0;"] {
+    background-color: rgb(254, 255, 255)!important;
+}
+
+#side-bar .heading {
+    border-bottom: 2px solid rgb(254, 255, 255);
+    color: rgb(254, 255, 255);
+}
+
+div.page-rate-widget-box,
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.cancel {
+    background-color: rgb(0, 191, 255)!important;
+    border: solid rgb(0, 191, 255) 1px!important;
+}
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown {
+    border: solid rgb(0, 191, 255)!important;
+    border-width: 1px 0!important;
+}
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.cancel a,
+div.page-rate-widget-box span.cancel a:hover {
+    color: rgb(254, 255, 255);
+}
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown {
+    background-color: rgb(0, 191, 255)!important;
+}
+div.page-rate-widget-box span.rateup a,
+div.page-rate-widget-box span.ratedown a {
+    color: rgb(254, 255, 255)!important;
+}
+div.page-rate-widget-box span.cancel a:hover,
+div.page-rate-widget-box span.rateup a:hover,
+div.page-rate-widget-box span.ratedown a:hover {
+    background: transparent!important;
+    color: transparent!important;
+}
+.rate-box-with-credit-button .creditButton {
+    background-color: rgb(0, 191, 255)!important;
+    border: solid 1px rgb(0, 191, 255)!important;
+}
+.creditButton a:hover {
+color: transparent!important;
+}
+.color-green{
+    color:#000000;
+}
+.color-blue{
+    color:#696969;
+}
+.color-yellow{
+    color:#b22222;
+}
+@media (max-width: 479px) {
+#search-top-box-input {
+    display: none;
+}
+
+#login-status {
+    color: var(--1-color);
+}
+#login-status a {
+    background: transparent;
+    color: var(--1-color);
+}
+ 
+#login-status ul a {
+    color: var(--1-color);
+    background: var(--2-color);
+    border-color: var(--1-color);
+}
+ 
+#login-status ul a:hover {
+   color: var(--1-color);
+   font-weight: bold;
+}
+ 
+#account-topbutton {
+    background: transparent;
+    color: var(--1-color);
+    border: none;
+}
+ 
+#account-options {
+   border: 1px solid var(--1-color);
+}
+[[/module]]
+
+[[module CSS]]
+.blinkbar {color: red;font-size:125%; animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }20% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
+.collapsible-block-folded a.collapsible-block-link {
+    animation: blink 0.8s ease-in-out infinite alternate;
+}
+@keyframes blink {
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
+}
+.email {float: center; border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px 10px 10px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
+a.collapsible-block-link { font-weight: bold; }
+.tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
+[[/module]]
+
+[[module CSS]]
+@import url(http://scp-jp-sandbox2.wdfiles.com/local--files/inc%3Aaddspecialcss/SCP-stars_3.css);
+[[/module]]
+[[include credit:start]]
+**タイトル:** プロジェクトナンバー:0189 "シロップ漬けの果実"
+**著者:** ©︎[[*user AMADAI]]
+**作成年:** 2020
+[[include credit:end]]
+
+**プロジェクトナンバー:** 0189
+
+**開発者:** 関東第一研究所　久木潟 彩　　他3名
+
+**依頼者:** 笹川 幸助 様
+
+**依頼日** 2005/02/18
+
+**納品日:** 2005/08/19
+
+**依頼内容:** 変えてください。救ってください。あの人の今までを。これからも。お願いします。[[footnote]]手紙での依頼。原文ママ。[[/footnote]]
+
+###00bfff|**コメント:** ##笹川様の夢は**[個人情報]**様の人生を変える事でした。自身も病でそう長い身ではないとのこと。取引が非常に難しいと判断し、以下の内容で納品しました。 - 久木潟 彩
+
+**開発品説明:** 平行世界干渉装置[[footnote]]プロジェクトナンバー:0002を参照[[/footnote]]及び局所的現実書換装置を組み込んだテレビ。組み込む機械数量の都合上、サイズは20インチのブラウン管テレビと同サイズ。一般的な100Vコンセントで動作。配線や本体の大きさから、必ず3名以上で移動させること。
+
+平行世界に存在する指定した人物の動向を視聴することが可能。接続してあるPCでの入力により、特定の条件を満たした世界の閲覧、事前に視聴した世界を指定しての視聴も可能。前述した検索機能は時間がかかる[[footnote]]10分～約2ヶ月[[/footnote]]ことがあるため、使用の際は事前にテスト、或いは前もって起動しておくなどして依頼者を待たせないようにすること。
+
+平行世界に干渉し、局所的現実書換装置によって本品の複製を生成させ、通信を行うことができる。平行世界の当社には通達済みであるため、指定人物を連れてきてもらい、PCに接続したマイクを用いて会話をさせることも可能。ただし会話内容などによる世界改変を防ぐため、会話終了時点で記憶のリセットを行う必要性あり。記憶消去機能はヘッドホンに付属。PC側での操作により好きなタイミングで任意の範囲の記憶を消去可能。誤操作による記憶全消去に注意。
+
+現在関東第二研究所にて保管中。使用の際は一週間前までに連絡を。
+
+**対価:** 一度の視聴[[footnote]]検索回数による変動はなし。[[/footnote]]につき依頼者の残寿命5年。記憶リセット時、追加で1年。
+@@@@
+@@@@
+----
+@@@@
+@@@@
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+[[=]]
+**初回使用状況報告**
+[[/=]]
+
+**日付:** 2005/08/19
+
+**記録者:** 物見 昌
+
+**責任者:** 久木潟 彩
+
+-----
+
+初回使用は依頼者である笹川様の病室で納品と同時に実行。笹川様は**[個人情報]**様を希望。笹川様には**この世界**の**[個人情報]**様を救えたため、通話できると説明してある。
+
+笹川様は**[個人情報]**様の元気な姿を見れたことで涙を流し喜んでいた。会話は1時間ほど継続。**[個人情報]**様が昼食のため視聴が終了。直後、取引によって笹川様の容体が悪化、2時間後に亡くなられました。
+
+**懸念点:** 相手側の一方的な切断。今後の運用の際は、退席時に切断するか否かを事前に聞いておき、あちら側にも伝えるべき。また、取引の関係上使用後の感想を得られなかった点も問題である。
+
+###00bfff|**コメント:** ##最後に、笹川様の夢を叶えるお手伝いをさせていただいたことは非常に光栄です。笹川様のご冥福をお祈りします。 - 久木潟 彩
+
+[[/div]]
+
+
+[[=]]
+------
+[[collapsible show="(1)通の新着メール" hide="(1)通の新着メール"]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[<]]
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Aya Kukigata
+**From:** Akira Monomi
+**Subject:** プロジェクトナンバー0189について
+[[/div]]
+------
+お疲れ様です。
+先日作成された0189についてです。
+納期の関係もあり、あれで笹川様に納品し、報告書もあげましたが、本当によかったのでしょうか？
+
+あの夢の叶え方は、正しかったのでしょうか？正直、上層部から指摘が入った時が怖いです。騙してまで夢を叶えるのが我々の望んだことなのでしょうか？
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+
+> 返信を作成しますか？
+>
+> ###00bfff|>はい##
+
+@@ @@
+@@ @@
+@@ @@
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** Akira Monomi
+**From:** Aya Kukigata
+**Subject:** Re:プロジェクトナンバー0189について
+[[/div]]
+------
+あれでよかった、いや、あれしかなかったのです。理解してください。
+本人が叶ったとそう思ってるのなら、どんな形であれ夢は叶っているのです。
+
+彼女はどんな世界でも助からない運命でした。それを変えるとなると、どれだけの取引が必要となるか。既に笹川様は十分な取引ができる状態ではありませんでした。
+
+あの映像はこちらで処分しておきます。上から何か言われたら私が責任を取るので安心して業務に戻ってください。
+[[/div]]
+@@ @@
+@@ @@
+> メールの送信が完了しました。
+
+[[/<]]
+[[/collapsible]]
+[[/=]]
+@@@@
+----
+@@@@
+[[footnoteblock title=""]]
