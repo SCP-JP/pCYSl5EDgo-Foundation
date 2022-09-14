@@ -1,0 +1,620 @@
+[[module CSS]]
+#page-title {display:none;}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** プリチャード学院高等学校: 人文学教養科目『ヴェール史概論』より抜粋
+**著者:** ©︎[[*user Tark-IOL]]
+**作成年:** 2021
+[[include credit:end]]
+@@ @@
+
+[[module CSS]]
+:root {
+    /* ====
+       共通 - ここ変えるとだいたい変わります
+       ==== */
+    /* 文字色(RatingとかCreditボタンの"i"とか) - デフォルトは#fff(真っ白) */
+    --creditrate-common-char-color: #fff;
+    /* 背景色 - デフォルトは#633 */
+    --creditrate-common-bg-color: #dd4a53;
+ 
+    /* リンク(UV/DVボタンとか)の文字色 - デフォルトは背景色と同じ */
+    --creditrate-common-link-color: var(--creditrate-common-bg-color);
+    /* リンク(UV/DVボタンとか)の背景色 - デフォルトは#fff6f0 */
+    --creditrate-common-link-bg-color: #fcf0f1;
+ 
+    /* リンクをホバーした際の文字色 - デフォルトはリンクの背景色 */
+    --creditrate-common-hover-link-color: var(--creditrate-common-link-bg-color);
+    /* リンクをホバーした際の背景色 - デフォルトはRateモジュールの背景色 */
+    --creditrate-common-hover-link-bg-color: var(--creditrate-common-bg-color);
+ 
+    /* Creditモーダル上部("クレジット"部分)の文字色 */
+    --creditrate-modal-heading-color: #333;
+    /* Creditモーダルの上部("クレジット"部分)の背景色 */
+    --creditrate-modal-heading-bg-color: #ccc;
+ 
+    /* Creditモーダルの中身の文字色 */
+    --creditrate-modal-body-color: #333;
+    /* Creditモーダルの中身のリンク色 */
+    --creditrate-modal-body-link-color: #b01;
+    /* Creditモーダルの中身の背景色 */
+    --creditrate-modal-body-bg-color: #fff;
+ 
+    /* border-radius(カドの丸み) */
+    --creditrate-border-radius: 5px;
+ 
+    /* ---
+       以下は必要なければ変えなくてもよい
+       --- */
+ 
+    /* ボーダー色 - デフォルト値は背景色と同じ */
+    --creditrate-common-border-color: var(--creditrate-common-bg-color);
+ 
+    /* "Rating"部分 */
+    --creditrate-rating-char-color: var(--creditrate-common-char-color);
+    --creditrate-rating-bg-color: var(--creditrate-common-bg-color);
+    --creditrate-rating-border-color: var(--creditrate-common-border-color);
+    --creditrate-rating-border-radius: var(--creditrate-border-radius);
+ 
+    /* UVボタン */
+    --creditrate-uv-btn-color: var(--creditrate-common-link-color);
+    --creditrate-uv-btn-bg-color: var(--creditrate-common-link-bg-color);
+    --creditrate-uv-btn-border-color: var(--creditrate-common-border-color);
+ 
+    /* UVボタン - Hover */
+    --creditrate-uv-btn-hover-color: var(--creditrate-common-hover-link-color);
+    --creditrate-uv-btn-hover-bg-color: var(--creditrate-common-hover-link-bg-color);
+ 
+    /* DVボタン */
+    --creditrate-dv-btn-color: var(--creditrate-uv-btn-color);
+    --creditrate-dv-btn-bg-color: var(--creditrate-uv-btn-bg-color);
+    --creditrate-dv-btn-border-color: var(--creditrate-uv-btn-border-color);
+ 
+    /* DVボタン - Hover */
+    --creditrate-dv-btn-hover-color: var(--creditrate-common-hover-link-color);
+    --creditrate-dv-btn-hover-bg-color: var(--creditrate-common-hover-link-bg-color);
+ 
+    /* Cancelボタン */
+    --creditrate-cancel-btn-color: var(--creditrate-common-char-color);
+    --creditrate-cancel-btn-bg-color: var(--creditrate-common-bg-color);
+    --creditrate-cancel-btn-border-color: var(--creditrate-common-border-color);
+    --creditrate-cancel-border-radius: 0 var(--creditrate-border-radius) var(--creditrate-border-radius) 0;
+ 
+    /* Cancelボタン - Hover */
+    --creditrate-credit-btn-color: var(--creditrate-common-char-color);
+    --creditrate-credit-btn-bg-color: var(--creditrate-common-bg-color);
+    --creditrate-credit-btn-border-color: var(--creditrate-common-border-color);
+ 
+    /* Creditボタン */
+    --creditrate-credit-btn-hover-color: var(--creditrate-common-char-color);
+    --creditrate-credit-btn-hover-bg-color: var(--creditrate-common-bg-color);
+    --creditrate-credit-border-radius: var(--creditrate-border-radius);
+}
+ 
+#html-body .page-rate-widget-box{
+    border-radius: var(--creditrate-rating-border-radius) var(--creditrate-cancel-border-radius) var(--creditrate-cancel-border-radius) var(--creditrate-rating-border-radius);
+}
+ 
+#html-body div.page-rate-widget-box .rate-points {
+    color: var(--creditrate-rating-char-color);
+    background-color: var(--creditrate-rating-bg-color);
+    border-color: var(--creditrate-rating-border-color);
+    border-radius: var(--creditrate-rating-border-radius) 0 0 var(--creditrate-rating-border-radius);
+}
+ 
+#html-body .page-rate-widget-box .rateup {
+    border-color: var(--creditrate-uv-btn-border-color);
+    background-color: var(--creditrate-uv-btn-bg-color);
+}
+ 
+#html-body .page-rate-widget-box .rateup a {
+    color: var(--creditrate-uv-btn-color);
+}
+ 
+#html-body .page-rate-widget-box .rateup a:hover {
+    color: var(--creditrate-uv-btn-hover-color);
+    background: var(--creditrate-uv-btn-hover-bg-color);
+}
+ 
+#html-body .page-rate-widget-box .ratedown {
+    border-color: var(--creditrate-dv-btn-border-color);
+    background-color: var(--creditrate-dv-btn-bg-color);
+}
+ 
+#html-body .page-rate-widget-box .ratedown a {
+    color: var(--creditrate-dv-btn-color);
+}
+ 
+#html-body .page-rate-widget-box .ratedown a:hover {
+    color: var(--creditrate-dv-btn-hover-color);
+    background: var(--creditrate-dv-btn-hover-bg-color);
+}
+ 
+#html-body .page-rate-widget-box .cancel {
+    border-color: var(--creditrate-cancel-btn-border-color);
+    background-color: var(--creditrate-cancel-btn-bg-color);
+    border-radius: 0 var(--creditrate-cancel-border-radius) var(--creditrate-cancel-border-radius) 0;
+}
+ 
+#html-body .page-rate-widget-box .cancel a {
+    color: var(--creditrate-cancel-btn-color);
+}
+ 
+#html-body .rate-box-with-credit-button .creditButton {
+    background-color: var(--creditrate-credit-btn-bg-color);
+    border-color: var(--creditrate-credit-btn-border-color);
+    border-radius: var(--creditrate-credit-border-radius);
+}
+ 
+#html-body .rate-box-with-credit-button .creditButton a {
+    color: var(--creditrate-credit-btn-color);
+}
+ 
+#html-body .rate-box-with-credit-button .creditButton:hover {
+    background-color: var(--creditrate-credit-btn-hover-bg-color);
+}
+ 
+#html-body .rate-box-with-credit-button .creditButton a:hover {
+    color: var(--creditrate-credit-btn-hover-color);
+}
+ 
+#html-body .modalbox {
+    background: var(--creditrate-modal-body-bg-color);
+}
+ 
+#html-body .modalbox .modalbox-title {
+    color: var(--creditrate-modal-heading-color);
+    background: var(--creditrate-modal-heading-bg-color);
+}
+ 
+#html-body .modalbox .credit {
+    color: var(--creditrate-modal-body-color);
+}
+ 
+#html-body .modalbox .cc.cc-by-sa {
+    color: var(--creditrate-modal-body-color);
+}
+ 
+#html-body .modalbox .credit a {
+    color: var(--creditrate-modal-body-link-color);
+}
+[[/module]]
+
+[[>]]
+（水口 超常史基礎Ⅳ ヴェール史概論, 20██）
+[[/>]]
+
+[[=]]
++++ ヴェール思想の萌芽
+[[/=]]
+
+一般の史学者たちが"流れとしては史実に沿うだろう"と見做して正史を掘り起こそうとしてきた数々の史料や民間伝承が伝えるように、超常事象は古来から人間と共にありました。一方で、危険で強力なこの事象や知識を隠蔽・独占しようという機運も人間が「国」を発明した時分から存在しました。
+
+例として、日本の**蒐集院**はときたま「正常性維持機関」として紹介されますが、彼らが行った自身や異常存在の隠蔽は、"自身や国家、時の為政者等の利益確保を目的とした"蒐集"の遂行"のためにありました。とはいえ、異常存在の隠蔽による体制の安定化、ひいては天下泰平は蒐集院と後援者の利益になるものであり、近代・戦後日本においてヴェールが受容される下地になったとも考えられます。同様の事象は欧州などにおいても存在するといえ、ヴェールという思想の種は近代以前に既に蒔かれていたと言えるでしょう。
+
+[[=]]
++++ ヴェールの確立
+[[/=]]
+
+**「ヴェール」**が思想として体系化され、紳士協定として確立したのは、19世紀末葉の欧州でした。この頃欧州は、中東にまで及ぶ**第六次オカルト大戦**（1875-1882）の最中でした。同戦争は82年に終戦を迎えますが、これには、これまでオカルティストの団体・個人間の戦闘であった同大戦への、各国政府への介入がありました。
+
+戦後、広範囲にわたった惨事を目の前にして、当時のオカルティストたちと各国政府は、再びこの惨禍を繰り返さないために、今次大戦やオカルトの一般市民からの隠蔽を図ります。学者と知識人の間で長い間公然の秘密であった超常現象の情報はこうして隔離され、国家や民間超常団体の手で世界中の一般社会から隠されました。
+
+この過程でヴェールは歴史上初めて、思想として体系化され、紳士協定として確立されました。これに伴い、現代で言うところの**「正常性維持機関」**や**「国家超常機関」**という概念が生まれたのです。彼らは民間超常団体を監視し、ヴェールを守るために働きました。恐らく、この頃に**「財団」**は思想的に現代の財団と地続きになるものが成立し、**第一次世界大戦**（1914-1918）中には、連合（協商）国のオカルト情報共有のために成立した**「同盟オカルト連合(Allied Occult Coalition: AOC)」**が設立されました。後者は国家超常機関による同盟として、戦争におけるオカルトの公然な利用の防止を旨としていました。ヴェールの裏側にもあった理学振興の熱と、戦中のデミウルゴスの死による超常現象の世界的な多発は、近代的な超常科学の確立に繋がり（**超常ルネサンス**）、ヴェールの保護を目的とした超常技術の活用も始まりました。
+
+日本にもこのムーブメントは波及していました。第一次世界大戦において協商側についた日本には当然、同盟オカルト連合からの働きかけがあり、**大日本帝国異常事例調査局**の軍事力としての派遣は、日露戦争に続いて拒否されることになります（もっとも、膠州湾租借地の占領に当たっては、中国人オカルティストたちが主導した攻撃を抑制することに貢献し、陸軍に自身らの必要性を訴えかけました）。先述したように、**蒐集院**とヴェール思想の相性は良く、蒐集院帝都本局は度々ヴェール（当時の言葉では**帳協定**）を援用することで、政府や軍部、そして調査局と渡り合いました。また、討幕運動を支援し、後に三菱財閥をフロント企業にした**九十九機関**は、この頃ヴェール思想に共鳴し、政府や財団と関係を深めながら正常性維持活動を継続しました。彼らは大正期には既に明治期の勢いを失っていましたが、第二次世界大戦の終戦まで存続し、後に蒐集院らと共に財団に合流しています。また、調査局による超常科学の独占に反発し、日本においても超常科学を振興させようという動きは、**理外学研究所**が設立されるなどの形で結実し、その後複数の超常企業が設立されました。
+
+こうして第一次世界大戦においても大規模なオカルトの活用は避けられることになり、**「異常・超常・オカルトを人類の大多数から隠す、もしくは偽装することで、人類社会の平穏を守る」**というヴェールの思想と**「オカルトの大規模な軍事転用の禁止」**は、国際超常コミュニティにおける不問律となります。**ナチス・ドイツ政権**に与する**アーネンエルベ・オブスクラ**と**トゥーレ協会**による、ソロモンの儀式の再演の試み（**第七次オカルト大戦と第二次世界大戦**）が発覚するまで、これは破られませんでした。
+
+[[=]]
++++ 戦後秩序とヴェールの明文化
+[[/=]]
+
+**第七次オカルト大戦**（1939-1945）が、**財団**と、戦時中に**テンプル騎士団**と**英国オカルトサービス**の主導のもと結成された**「連合国オカルトイニシアチブ(AOI)」**の介入により終結すると、戦後体制の確立が進められました。
+
+その一極を担ったのが**「世界オカルト連合（Global Occult Coalition/GOC）」**です。連合は、**D.C.al.Fine（ダ・カーポ・アル・フィーネ）**の暗躍によって、アーネンエルベ・オブスクラとの戦いで勢力を拡大した連合国オカルトイニシアチブ(AOI)と、同盟オカルト連合（AOC）の残滓から、国連の後援の下に成立しました。
+
+連合は、アルフィーネ女史の手腕もあり急速に拡大し、欧米や空白地帯であった東アジアにおいて財団との間に摩擦を引き起こしましたが、ヴェール政策による人類社会の保全を至上命題に持つ彼らは妥協点を見出しました。国際超常コミュニティからの距離をある程度取っており、確保・収容・保護を掲げる財団は、**「超常社会の看守」**を、国家超常機関や民間超常団体といった国際超常コミュニティと密接にかかわり、そして国連のバックグラウンドを持つ連合は、**「超常社会の警察（と啓蒙機関）」**を担うことになったのです。両者のヴェール保護における協力関係は、ソロモンの儀式の共同収容体制を取り決める**「ケルン合意（協定）」**（1945）によるもので、同文書と世界オカルト連合憲章は、戦後の**「ヴェール」**と**「正常性」**について明文化された主要な国際条規でした。
+
+空白地帯であった東アジアでは、日本国の超常機関の活動を抑制するための**「日本超常組織平和友好条約」**（1959）の成立により財団・連合の共同"統治"下にあった日本を例外として、財団が中国大陸と朝鮮半島南部を席巻していました。それでも財団と連合は両者間の冷戦を武力衝突に発展しないように努め、米ソ冷戦のパラノイアを利用してヴェールを維持しました。ソ連は正常性維持機関が東アジアにおいてしばしば米国側を利したことに反発しましたが、財団は「財団の立場は常に安定を至上命題としている」と回答し、冷戦構造自体への深入りを避けました。日本においては、「日本超常組織平和友好条約機構」を後援する財団と連合は、日本超常コミュニティにおけるヴェールの明文化・制度化、そして正常性維持機関による主権干犯の正当化を進めました。
+
+介入の際に両者がしばしば主張した**「種としての人類が持つ制憲権（Species' Constituent Power）」**は、国民主権思想を援用した、超常法学上の主要な学説であり、**「人類という種が存続と発展のために、総体として主権を持ち、そして憲法**（ここでは財団内規総則や世界オカルト連合憲章を指す）**を制定するための権力を有する、故に正常性維持機関は国家主権に優越する権力を持つことを認める」**という説です。これは先進諸国からの反発をしばしば呼びましたが、外宇宙存在や異次元由来実体に対する人類の生存権擁護活動に正当性・法的根拠を与える法理でもあり、K-クラスシナリオが想定される極度の事例や後進国において、彼らが正常性維持機関に正常性維持活動を外注する方便として利用されています。
+
+[[=]]
++++ 正常性の黄金時代とパラテック・バブル
+[[/=]]
+
+財団と連合は表社会で進行しつつあった冷戦のパラノイアを優位になるように利用してヴェールを大きく強化し、正常性の黄金時代として知られる時代の先導役となりました。一方で彼らは技術の急速な進歩と人口の増加に直面にし、ヴェール保全のために新たなパラテックを必要とした結果、本来であれば規制をかけるべきパラテック企業にしばしば依存するようになります。さらには冷戦の進展が核開発競争に匹敵する超常科学の研究競争をもたらしたことで、超常技術開発とその開発団体は大きく伸長します。後に**パラテック・バブル**とも称される好況です。
+
+1960年代には欧米で超常コミュニティの大整理が行われ、**スリーポートランド**や**バックドア・ソーホー**に**アナーティスト**や**パラヒューマン**が集結し、連合は**ユーテック**を創設します。正常性維持機関に監視された**「超常の飛び地」**の下でヴェールは近代以降最も強固なものとなりました。また、当初は一般科学の偉大な進歩と見られていた**悪魔工学**製品の暴走も、速やかに収拾されてヴェールに隠され、これに対処するため起草された**「現実維持多国間協定(MARP)」**や**「悪魔学拡散防止協定」**といった明文法の成立が、かえってヴェールの強化に繋がりました。もっとも、悪魔工学の例が見せるように、それが異常か異常でないかの判断は非常に曖昧なもので、正常性維持機関と関係の深い超常技術供給者の手によって、バブル終結後にはパラテクノロジーに分類される工業製品が、一般の市場に密かに浸透していました。
+
+また、ヴェール政策がよく機能していたことは、ヴェールを策定・保全する正常性維持機関と国家超常機関の権威性を問題視する動きも生みました。超常技術による国際超常コミュニティの繁栄も、人類社会の発展のために超常技術を解放しようというはた迷惑な慈善家を登場させました。現代でも有力な**「蛇の手」**と呼ばれる過激な運動は、ヴェール政策と正常性維持機関による収容・排撃活動の終了を掲げています。当時の国際超常コミュニティの繁栄にある歪さは否定できませんが、その繁栄と平和が維持されていたことの背景には、正常性維持機関と国家超常機関による不断の努力があったことも同様に確かです。冷戦終結後の国家間・民族間・宗教間の対立の高まりに直面した現代人が、冷戦の時代をある意味では平和だったと捉えるのと同様に、後述するヴェールの弱体化の兆候が散見される近年は、パラテック・バブルの時代を再評価する意見も出始めています。
+
+[[=]]
++++ 冷戦とパラテック・バブルの終焉
+[[/=]]
+
+米ソ冷戦は確実に二大国の経済力と政治力を摩耗させていき、一度のデタントを経て冷戦終結へと進んでいきました。冷戦の終結によって、パラテック・バブルを牽引してきた研究競争は鈍化し、国家超常機関も縮小したことは、まもなくパラテック・バブルの破局と政治不安へと展開し、ソ連の崩壊による超常兵器の大流出は、正常性維持機関を震撼させます。新冷戦の過程で起きたイラン革命で勃興した**イスラム・アーティファクト開発事務局（ORIA）**が、中東と中央アジアにおいて、財団と連合の活動を阻もうとしていることも一つの懸念でした。さらに、表社会における人口のとめどない拡大と、通信技術の発達によるマスコミュニケーションと**ユビキタス社会**の成長は、検閲コストを増大させました。環境保護思想や反化学論の進展は、これまでヴェールの一端であった、主流科学への信頼を切り崩しつつあり、ソーシャルメディアによる陰謀論の支持拡大も大きな懸念です。再び世界の多極化や軍拡が進めば、そう遠くない未来に正常性維持機関の政治力は枯渇してしまうでしょう。そして起こりうる結末として、国家に主導されるオカルト大戦の発生を正常性維持機関の政治学者は危惧しています。
+
+**ニューミレニアム**に入ってから、既に30年。減退した超常科学の研究競争は再加熱しつつあり、超常経済は回復の時代に入っています。プロメテウスの遺産を飲み込んで**パラテック・ブラックマーケット**は拡大を続けており、一部の国家超常機関の中にはオカルトの大規模な兵器化を再び企図する動きも存在します。**固有兵器**の理論の多くは完成しており、相互確証破壊のまやかしによる抑止が未だ機能していない戦場に、量産が完了した固有兵器や完全な人工知能が安易に投入されれば、人類社会は破局を迎えることでしょう。いずれにせよ、正常性維持機関はヴェールを維持しつづけ、人類社会の安寧を保とうと日夜奮闘を続けています。
+
+@@@@
+@@@@
+
+[[=]]
+**超常史基礎シリーズ**
+**[[[prichard-hs-basic-of-paratech-history-1|超常科学・超常技術史基礎Ⅰ]]] >>**
+[[/=]]
+
+[[module CSS]]
+.heading {
+    border: none;
+    border-left: solid  6px #dd4a53;
+    border-bottom: dashed  2px #ddd;
+    margin: auto;
+    padding: 1px 10px;
+    font-size:130%;
+}
+.heading p {
+    line-height: 50%;
+}
+
+.ut-table{
+    border:none;
+    width: 100%;
+}
+
+.t-head5{
+    background-color: #dd4a53;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    width: 5%;
+}
+.t-head15{
+    background-color: #dd4a53;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    width: 15%;
+}
+.t-head20{
+    background-color: #dd4a53;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    width: 20%;
+}
+.t-head25{
+    background-color: #dd4a53;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    width: 25%;
+}
+.t-head35{
+    background-color: #dd4a53;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    width: 35%;
+}
+.t-head55{
+    background-color: #dd4a53;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    width: 55%;
+}
+
+.t-cont{
+    background-color:#ffffff;
+    color:#3d3d3d;
+    padding: 3px;
+}
+.t-contc{
+    background-color:#ffffff;
+    color:#3d3d3d;
+    padding: 3px;
+    text-align: center;
+}
+.t-contr{
+    background-color:#ffffff;
+    color:#3d3d3d;
+    padding: 3px;
+    text-align: right;
+}
+
+.yui-navset .yui-nav li a em,
+ .yui-navset-top .yui-nav li a em,
+ .yui-navset-bottom .yui-nav li a em {
+    border-radius: 1px;
+}
+.yui-navset .yui-nav a em,
+.yui-navset .yui-navset-top .yui-nav a em {
+    border-color: #333;
+    border-bottom: none;
+    background-color: #eee;
+    color:#000;
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus,
+.yui-navset .yui-nav .selected a:hover {
+    background: none;
+    color:#fff;
+}
+.yui-navset .yui-nav .selected a em {
+    background-color:#fff;
+}
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus {
+    background: unset;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border: none;
+    border-radius: 5px;
+    background: #dd4a53;
+    padding: 5px 3px 0px 3px;
+    margin: 0px 3px 0px 3px;
+}
+.yui-navset .yui-content {
+    background-color: transparent;
+    border: none;
+}
+[[/module]]
+
+----
+
+[[tabview]]
+[[tab シラバス／Syllabus]]
+[[/tab]]
+[[tab 基本情報／Basic Information]]
+@@ @@
+
+[[table class="ut-table"]]
+[[row]]
+[[cell class="t-head25"]]
+開講科目名
+／Course
+[[/cell]]
+[[cell class="t-cont"]]
+超常史基礎Ⅳ
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+講義コード
+／Course Code
+[[/cell]]
+[[cell class="t-cont"]]
+1-2-HS-HUM-LA-12-0905-JA
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+開講所属
+／Course Offered by
+[[/cell]]
+[[cell class="t-cont"]]
+人文学
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+開講区分
+／semester offered
+[[/cell]]
+[[cell class="t-cont"]]
+教養
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+セキュリティクリアランスレベル
+／Security clearance levels
+[[/cell]]
+[[cell class="t-cont"]]
+1 ／ 2(81D4)
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+使用言語
+／Languages
+[[/cell]]
+[[cell class="t-cont"]]
+日本語
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+単位数
+／Credits
+[[/cell]]
+[[cell class="t-cont"]]
+2
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+学年
+／Year
+[[/cell]]
+[[cell class="t-cont"]]
+高校1・2年配当
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+他学科履修
+／Aviavle to students in other department
+[[/cell]]
+[[cell class="t-cont"]]
+〇
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+備考
+／Notes
+[[/cell]]
+[[cell class="t-cont"]]
+ー
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+主担当教員
+／Main Instructor
+[[/cell]]
+[[cell class="t-cont"]]
+水口 晴馬
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+教室
+／Classroom
+[[/cell]]
+[[cell class="t-cont"]]
+ー
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[/tab]]
+[[tab 詳細情報／Detailed Information]]
+@@ @@
+
+[[table class="ut-table"]]
+[[row]]
+[[cell class="t-head25"]]
+講議題目
+／Subtitle
+[[/cell]]
+[[cell class="t-cont"]]
+ヴェール史概論
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+授業の目標、概要
+／Course Objectives／Overview
+[[/cell]]
+[[cell class="t-cont"]]
+ヴェール思想史と超常史に関する基礎知識の習得。
+----
+学生の皆さんは、財団におけるセキュリティクリアランスレベルを与えられてから、ヴェール・プロトコルの重要性について深く学習し、理解してきたと思われる。超常史や超常社会学に触れたことのある生徒なら、第二次世界大戦後のヴェール政策についても、一定程度の知識があるだろう。
+この授業では、「ヴェール」の概念が生まれた18・19世紀から現代にいたるまで、ヴェールが時代時代でどのように意識されてきたか概要を抑えると共に、個々の事例からそれを掘り返し、裏付けていきたいと思う。財団や今日の国際超常コミュニティの構成者が、何故ヴェールを重視し、あるいは軽視しているのか、その一端を理解していただければ、この授業を深く理解することができたと言えるだろう。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+授業のキーワード
+／Keywords
+[[/cell]]
+[[cell class="t-cont"]]
+[[table class="ut-table"]]
+[[row]]
+[[cell class="t-head25"]]
+日本語用
+／Japanese
+[[/cell]]
+[[cell class="t-cont"]]
+ヴェール/正常性/超常史
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+英語用
+／English
+[[/cell]]
+[[cell class="t-cont"]]
+Veil/Normality/Parahistory
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+教科書
+／Textbook
+[[/cell]]
+[[cell class="t-cont"]]
+毎回の講義で配布。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+参考文献
+／Reference
+[[/cell]]
+[[cell class="t-cont"]]
+* [[user GreenWolf]]他(2016-2021),訳[[user kidonoi]],[[user kumer1090]],[[user santou]]他, [http://scp-jp.wikidot.com/third-law-hub 『第三法則ハブ』]
+* 蒐集院有識者会議（2020）, [http://scp-jp-sandbox3.wikidot.com/sharedpage:ab90dc40-1605155273375-categorya 『蒐集院ハブ策定共有ページ』]
+* [[user islandsmaster]]（2020）, [http://scp-jp-sandbox3.wikidot.com/draft:5060201-45-38e9 『蒐集院についての一考察』]
+* [[user Dr Solo]],[[user MrWrong]]他(2017-2021),訳[[user C-Dives]](2017), [http://scp-jp.wikidot.com/ijamea-hub 『大日本帝国異常事例調査局ハブ』]
+* 扶桑紀編纂室(2020), [http://scp-jp.wikidot.com/fusouki 『扶桑紀』]
+* [[user hey_kounoike]](2019), [http://scp-jp.wikidot.com/collected-item-no0724 『第〇七二四番 「映写機」』]
+* [[user indonootoko]](2020), [http://scp-jp.wikidot.com/scp-2500-jp 『SCP-2500-JP ライズ』]
+* [[user ChaoSera]]（2018）,訳[[user sharkcrash]](2019), [http://scp-jp.wikidot.com/scp-3457 『SCP-3457 ソロモンの儀式』]
+* [[user seafield13]](2018), [http://scp-jp.wikidot.com/foundations-political-history 『財団管理部門人事教育部作成: 政治史講義テキストからの抜粋』]
+* [[user seafield13]](2018), [http://scp-jp.wikidot.com/jagpato-hub 『日本超常組織平和友好条約機構 ハブ』]
+* [[user GreenWolf]](2017),訳[[user k-cal]](2018), [http://scp-jp.wikidot.com/three-portlands-hub 『UIU 領域関連文書 -- "スリー・ポートランド"』]
+* [[user A Random Day]](2016),訳[[user kidonoi]](2017), [http://scp-jp.wikidot.com/moonlighting 『ムーンライティング』]
+* [[user thedeadlymoose]](2014),訳[[user kidonoi]](2016), [http://scp-jp.wikidot.com/serpent-s-hand-hub 『蛇の手ハブ』]
+* [[user thedeadlymoose]](2016),訳[[user kidonoi]](2016), [http://scp-jp.wikidot.com/another-goddamn-magic-system 『魔法のオリエンテーション』]
+* [[user AJMansfield]](2015),訳[[user kidonoi]](2017), [http://scp-jp.wikidot.com/a-brief-explanation-on-demonics 『悪魔工学についての簡潔な解説』]
+* [[user GreenWolf]](2016),訳[[user C-Dives]](2016), [http://scp-jp.wikidot.com/the-bard-of-ambrose 『アンブローズの吟遊詩人』]
+* [[user PeppersGhost]],[[user A Random Day]](2014),訳[[user C-Dives]](2016), [http://scp-jp.wikidot.com/chicago-spirit 『GoI-001: シカゴ・スピリット』]
+* [[user Eskobar]](2014),訳[[user Red_Selppa]](2016), [http://scp-jp.wikidot.com/oria-hub 『イスラム・アーティファクト開発事務局ハブ』]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+履修上の注意
+／Notes on Taking the Course
+[[/cell]]
+[[cell class="t-cont"]]
+本授業では、高校1年次相当の19世紀から21世紀までの世界超常史と日本超常史の通史に関する知識を持っていることを前提に進めていく。初回授業から数回のうちに、ヴェール史の概要という形でも触れるが、開講前に復習をしておくと定着度が変わるだろう。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+関連ホームページ
+／Course-Related Websites
+[[/cell]]
+[[cell class="t-cont"]]
+ー
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+その他
+／Others
+[[/cell]]
+[[cell class="t-cont"]]
+ー
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="t-head25"]]
+メールアドレス
+／e-mail address
+[[/cell]]
+[[cell class="t-cont"]]
+mharuma828s@scip.prichard-u.ac.jp[[/cell]]
+[[/row]]
+[[/table]]
+[[/tab]]
+[[/tabview]]
+
+@@@@
+@@@@
+@@@@
+[[>]]
+[[module rate]]
+[[/>]]
