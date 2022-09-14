@@ -1,0 +1,1303 @@
+[[module css]]
+:root {
+    --bal-right-color: #6DF560;
+    --bal-left-color: #6DF560;
+    --bal-inm-color: #0080FF;
+    --bal-kin-color: #A4A4A4;
+    --bal-com-color: #FFFF00;
+    --bal-art-color: ;
+    --bal-niku-color: #FAAC58;
+    --bal-comn-color: #FFFF00;
+}
+
+.right {
+    text-align: right;
+}
+
+.inm,.kin,.comn {
+    text-align: right;
+}
+
+
+
+.com,.art,.niku {
+    text-align: left;
+}
+
+
+
+
+.left {
+    text-align: left;
+}
+
+.balloon,
+.arrow {
+    display: block;
+    position: relative;
+    width: 240px;
+    color: #000000;
+    font-family: Verdana, Arial, sans-serif;
+    border-radius: 30px /70px;
+    text-align: center;
+    padding: 2px 20px;
+}
+
+.right > .balloon,
+.right > .arrow {
+    background-color: var(--bal-right-color);
+    margin: 0 50px 0 auto;
+}
+
+.inm > .balloon,
+.inm > .arrow {
+    background-color: var(--bal-inm-color);
+    margin: 0 50px 0 auto;
+}
+
+.kin > .balloon,
+.kin > .arrow {
+    background-color: var(--bal-kin-color);
+    margin: 0 50px 0 auto;
+}
+
+.com > .balloon,
+.com > .arrow {
+    background-color: var(--bal-com-color);
+    margin: 0 auto 0 50px;
+}
+.comn > .balloon,
+.comn > .arrow {
+    background-color: var(--bal-com-color);
+    margin: 0 50px 0 auto;
+}
+
+.art > .balloon,
+.art > .arrow {
+    background:linear-gradient(to right,red,orange,yellow,green,aqua,blue,purple);
+    margin: 0 auto 0 50px;
+}
+
+.niku > .balloon,
+.niku > .arrow {
+    background-color: var(--bal-niku-color);
+    margin: 0 auto 0 50px;
+}
+
+
+.left > .balloon,
+.left > .arrow {
+    background-color: var(--bal-left-color);
+    margin: 0 auto 0 50px;
+}
+
+.balloon:before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 12px;
+    top: 0;
+    border-radius: 50%;
+}
+
+.balloon:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    top: 3px;
+    border-radius: 50%;
+}
+
+.right > .balloon:before,
+.right > .balloon:after {
+    background: var(--bal-right-color);
+}
+
+.right > .balloon:before {
+    right: -38px;
+}
+
+.right > .balloon:after {
+    right: -24px;
+}
+
+.inm > .balloon:before,
+.inm > .balloon:after {
+    background: var(--bal-inm-color);
+}
+
+.inm > .balloon:before {
+    right: -38px;
+}
+
+.inm > .balloon:after {
+    right: -24px;
+}
+
+.kin > .balloon:before,
+.kin > .balloon:after {
+    background: var(--bal-kin-color);
+}
+
+.kin > .balloon:before {
+    right: -38px;
+}
+
+.kin > .balloon:after {
+    right: -24px;
+}
+
+
+.comn > .balloon:before,
+.comn > .balloon:after {
+    background: var(--bal-comn-color);
+}
+
+.comn > .balloon:before {
+    right: -38px;
+}
+
+.comn > .balloon:after {
+    right: -24px;
+}
+
+.com > .balloon:before,
+.com > .balloon:after {
+    background: var(--bal-com-color);
+}
+
+.com > .balloon:before {
+    left: -38px;
+}
+
+.com > .balloon:after {
+    left: -24px;
+}
+
+.art > .balloon:before,
+.art > .balloon:after {
+    background: var(--bal-art-color);
+}
+
+.art > .balloon:before {
+    left: -38px;
+}
+
+.art > .balloon:after {
+    left: -24px;
+}
+
+
+.art > .balloon:before,
+.art > .balloon:after {
+    background: var(--bal-art-color);
+}
+
+.art > .balloon:before {
+    left: -38px;
+}
+
+.art > .balloon:after {
+    left: -24px;
+}
+
+.niku > .balloon:before,
+.niku > .balloon:after {
+    background: var(--bal-niku-color);
+}
+
+.niku > .balloon:before {
+    left: -38px;
+}
+
+.niku > .balloon:after {
+    left: -24px;
+}
+
+
+.arrow:before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    margin-left: -15px;
+    border: 10px solid transparent;
+    z-index: 0;
+    transform: scale(2);
+}
+
+.right > .arrow:before {
+    border-left: 15px solid var(--bal-right-color);
+    right: -18px;
+    transform: scale(2) rotate(320deg);
+}
+
+
+.inm > .arrow:before {
+    border-left: 15px solid var(--bal-inm-color);
+    right: -18px;
+    transform: scale(2) rotate(320deg);
+}
+
+.kin > .arrow:before {
+    border-left: 15px solid var(--bal-kin-color);
+    right: -18px;
+    transform: scale(2) rotate(320deg);
+}
+
+.comn > .arrow:before {
+    border-left: 15px solid var(--bal-comn-color);
+    right: -18px;
+    transform: scale(2) rotate(320deg);
+}
+
+.com > .arrow:before {
+    border-right: 15px solid var(--bal-com-color);
+    left: -3px;
+    transform: scale(2) rotate(40deg);
+}
+
+.art > .arrow:before {
+    border-right: 15px solid background:linear-gradient(to right,red,orange);
+    left: -3px;
+    transform: scale(2) rotate(40deg);
+}
+
+.niku > .arrow:before {
+    border-right: 15px solid var(--bal-niku-color);
+    left: -3px;
+    transform: scale(2) rotate(40deg);
+}
+
+
+.left > .arrow:before {
+    border-right: 15px solid var(--bal-left-color);
+    left: -3px;
+    transform: scale(2) rotate(40deg);
+}
+
+.kincom > .balloon,
+.kincom > .arrow {
+   background:linear-gradient(to right,#FFFF00,#A4A4A4);
+    margin: 0 50px 0 auto;
+}
+
+.kincom > .arrow:before {
+    border-left: 15px solid var(--bal-kin-color);
+    right: -18px;
+    transform: scale(2) rotate(320deg);
+}
+
+[[/module]]
+
+
+[[include component:credit-top-sp |special=elec]]
+**タイトル:** インシデント記録: 画像探し
+**著者:** ©︎[[*user Come_Dream]]
+**作成年:** 2020
+[[include credit:otherwise]]
+[[div class="contest"]]
+[*http://scp-jp.wikidot.com/rookie-s-contest-2020 ルーキーコンテスト2020]
+[[span]]Tale-JP部門 優秀賞[[/span]]
+[[/div]]
+[[include credit:end]]
+
+
+
++++ カシャッ
+[[div style="float:center; margin:0 2em 1em 2em; width:300px; border:0;"]]
+|||| [[image sakura.jpg width="500px"]] ||
+[[/div]]
+
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+今日も桜がきれいだなあ
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+[[=]]
++++ (何かが走りながら近づいてくる)
+[[image uwa-.jpg width="300px"]]
+[[image uwa--i.jpg width="300px"]]
+[[/=]]
+@@@@
+@@@@
+[[div]]
+[[image come.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+うわーいったいなんですか？！
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+[[div]]
+[[>image no210.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+あなた、カメラマンとお見受けします。どうか私達の写真を撮って頂けませんか？
+[[/div]]
+[[/div]]
+
+
+[[div]]
+[[>image no173.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 150%]]**[懇願]**[[/size]]
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+あなたたちは？
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+[[div]]
+[[>image no210.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div class="kin"]]
+[[div class="arrow"]]
+申し遅れました。私は[http://scp-jp.wikidot.com/scp-210-jp SCP-210-JP]、彼は[http://scp-jp.wikidot.com/scp-173-jp SCP-173-JP]と呼ばれています。
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+[[div]]
+[[image comase.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+な…なるほど　
+
+何故写真を撮って欲しいんです？
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+
+[[div]]
+[[>image no210.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div class="kin"]]
+[[div class="arrow"]]
+自己防衛のために画像のリセットが行われたため、我々の元々の姿は失われています。以前の姿は参照できません。そのため、どうかお願いしたいのです。
+[[/div]]
+[[/div]]
+
+
+[[div]]
+[[>image no173.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 150%]]**[目に手をあて擦る]**[[/size]]
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div class="com"]]
+[[div class="balloon"]]
+(うーん、ちょっとおかしな感じだけど困ってるのを見捨てるのも…)
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+
+
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+わかった、やりましょう！
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+
+----
+
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+とりあえずお二方、自分の姿を思い出せるだけでいいので描いていただけませんか？
+[[/div]]
+[[/div]]
+
+
+@@@@
+@@@@
+[[=]]
+++ (描画中)
+[[/=]]
+@@@@
+@@@@
+
+[[div]]
+[[>image 210icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+はい、できました。
+[[/div]]
+[[/div]]
+
+
+
+[[div]]
+[[>image 173icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 120%]]**[嬉々として絵を差し出す]**[[/size]]
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+なるほど…こんな感じで…
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+ちょっと撮ってきますね
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+
+[[div]]
+[[>image 210iconase.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="balloon"]]
+大丈夫でしょうか
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+
+----
+
+@@@@
+@@@@
+
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+撮ってきました！
+[[/div]]
+[[/div]]
+
+
+[[div style="float:center; margin:0 2em 1em 2em; width:300px; border:0;"]]
+|||| [[image ha1.jpg width="500px"]] ||
+[[/div]]
+[[div style="float:center; margin:0 2em 1em 2em; width:300px; border:0;"]]
+|||| [[image ha2.jpg width="500px"]] ||
+[[/div]]
+
+[[div]]
+[[>image 210icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+？？？？？？
+[[/div]]
+[[/div]]
+
+
+[[div]]
+[[>image 173icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 130%]]**[首を傾げている]**[[/size]]
+[[/div]]
+[[/div]]
+
+
+
+[[div]]
+[[>image 210icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+なんなんですかこれは？
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+[[div]]
+[[image come.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+え、
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+
+[[div]]
+[[>image 210iconoko.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+[[size large]]適当にもほどがあるでしょう！[[/size]]
+[[/div]]
+[[/div]]
+
+
+[[div]]
+[[>image 173icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 130%]]**[同意の意を示す]**[[/size]]
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+[[div]]
+[[image comase.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+すみません…
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+
+[[div]]
+[[>image 210icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+まあこちらも見た目だけしか情報を与えなかったので。参考までに私には[http://scp-jp.wikidot.com/scp-210-jp こんな特徴]があります。読んでください。
+[[/div]]
+[[/div]]
+
+
+[[div]]
+[[>image 173icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 110%]]**[読め。と言わんばかりに[http://scp-jp.wikidot.com/scp-173-jp 報告書]を荒々しく渡す。]**[[/size]]
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+なるほど…もう一回いってきます。
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+
+----
+
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+[[div class="com"]]
+[[div class="arrow"]]
+撮ってきました！
+[[/div]]
+[[/div]]
+
+[[div style="float:center; margin:0 2em 1em 2em; width:300px; border:0;"]]
+|||| [[image usi.jpg width="500px"]] ||
+[[/div]]
+
+
+[[div]]
+[[>image 210icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+[[size xx-large]]**……**[[/size]]
+[[/div]]
+[[/div]]
+
+
+[[div]]
+[[>image 173iconhoko.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="inm"]]
+[[div class="arrow"]]
+[[size xx-large]]**[咆哮]**[[/size]]
+[[/div]]
+[[/div]]
+
+[[div]]
+[[>image 210iconoko.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+さっきの報告書を読んでこれということは、わざとですね？私と彼両方とでも言いたいのですか？
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+[[div]]
+[[image como.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+冗談冗談！冗談ですよー。
+本当はこちらです。
+[[/div]]
+[[/div]]
+
+
+
+[[div style="float:center; margin:0 2em 1em 2em; width:300px; border:0;"]]
+|||| [[image taka.jpg width="500px"]] ||
+[[/div]]
+
+
+[[div]]
+[[>image 210iconkira.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+おー、かっこいいですね！
+[[/div]]
+[[/div]]
+
+
+
+[[div style="float:center; margin:0 2em 1em 2em; width:300px; border:0;"]]
+|||| [[image toy1.jpg width="500px"]] ||
+[[/div]]
+
+[[div]]
+[[>image 173icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 150%]]**[疑問]**[[/size]]
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+良いでしょう！ではこれで大丈夫ですか？
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+
+[[div]]
+[[>image 210icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+いや…確かにかっこいいですが、これは私っぽくはないですね。彼に至っては色に納得いっていないようです。
+[[/div]]
+[[/div]]
+
+[[div]]
+[[>image 173icontate.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 130%]]**[首を縦に振る]**[[/size]]
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+
+[[div]]
+[[image come.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+えーーそうなの？！
+困ったなぁ〜
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+[[div]]
+[[>image 210icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+黒い三角の金属、輪状の金属、ちいさな平たい金属はご用意できますか？
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+こんな感じでしょうか？
+[[/div]]
+[[/div]]
+[[div style="float:center; margin:0 2em 1em 2em; width:300px; border:0;"]]
+|||| [[image zairyo.png width="150px"]] ||
+[[/div]]
+
+@@@@
+@@@@
+
+[[div]]
+[[>image 210icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+はい！
+では...
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+[[div]]
+[[image come.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+うおっ？！
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+
+ [[>image kumitate.png width="200px"]] 
+
+
+[[div class="kin"]]
+[[div class="arrow"]]
+これをくっつけて...
+
+うーん、なかなか上手くいきませんね
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+        
+    
+@@@@
+@@@@
+@@@@
+@@@@
+[[div]]
+[[image kinnikuicon.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="niku"]]
+[[div class="arrow"]]
+[[size large]]//**お困りのようだね！**//[[/size]]
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+[[div]]
+[[>image com210.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div class="kincom"]]
+[[div class="arrow"]]
+[[size x-large]]**あ、あなたは？**[[/size]]
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+[[div]]
+[[image kinnikuicon.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="niku"]]
+[[div class="arrow"]]
+[[size 120%]]//**しがない鍛治職人さ！君にピッタリの身体を作ってあげよう！**//[[/size]]
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+
+
+[[image kajiya.jpg width="500px"]]
+[[size 120%]]//**カンカンカンカン...**//[[/size]]
+----
+@@@@
+@@@@
+@@@@
+@@@@
+[[div]]
+[[image kinnikuicon.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="niku"]]
+[[div class="arrow"]]
+[[size large]]//**ほら、これだ！**//[[/size]]
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div style="float:center; margin:0 2em 1em 2em; width:300px; border:0;"]]
+|||| [[image kinzoku.jpg width="500px"]] ||
+[[/div]]
+
+[[div]]
+[[>image 210iconkira.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="arrow"]]
+ありがとうございます！これです、まさに！
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+[[div]]
+[[image kinnikuicon.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="niku"]]
+[[div class="arrow"]]
+[[size large]]//**いいってことよ！じゃあな！**//[[/size]]
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div]]
+[[image comase.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+行ってしまった…いったい誰だったんだ...
+しかし、次は色か…さすがに芸術には疎いし、どうすれば…
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div]]
+[[image artisticon.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="art"]]
+[[div class="arrow"]]
+[[size 140%]]**##61210B|お困りのようね！##** [[/size]]
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+[[div]]
+[[>image com173.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div class="comn"]]
+[[div class="arrow"]]
+[[size x-large]]**あ、あなたは？**[[/size]]
+[[/div]]
+[[/div]]
+
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size xx-large]]//**[驚愕]**//[[/size]]
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+[[div]]
+[[image artisticon.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="art"]]
+[[div class="arrow"]]
+[[size 120%]]**##61210B|通りすがりの[[span class="ruby"]]異常芸術家[[span class="rt"]]アーティスト[[/span]][[/span]]よ！##** [[/size]]
+[[size 120%]]**##61210B|色を変えるなんて赤子の手をひねるようなもの！##** [[/size]]
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+[[image artist.jpg width="500px"]]
+----
+
+
+
+@@@@
+@@@@
+@@@@
+@@@@
+[[div]]
+[[image artisticon.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="art"]]
+[[div class="arrow"]]
+[[size 140%]]**##61210B|ほらこれでどう？##** [[/size]]
+[[/div]]
+[[/div]]
+
+
+[[div style="float:center; margin:0 2em 1em 2em; width:300px; border:0;"]]
+|||| [[image toy2.jpg width="500px"]] ||
+[[/div]]
+
+
+
+[[div]]
+[[>image 173iconjamp.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 130%]]//**[大喜びでジャンプする]**//[[/size]]
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+[[div]]
+[[image artisticon.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="art"]]
+[[div class="arrow"]]
+[[size 120%]]**##61210B|そんなに喜んでくれるなんて##** [[/size]]
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+
+
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+すごい人だなぁ。一瞬で色を…
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+
+[[div]]
+[[>image 173icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 140%]]//**[抱きつく]**//[[/size]]
+[[/div]]
+[[/div]]
+
+
+
+[[div]]
+[[>image 210iconase.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="balloon"]]
+あ…
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+[[div]]
+[[image como.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+あれ？もういなくなってしまいましたね。
+[[/div]]
+[[/div]]
+
+
+----
+@@@@
+@@@@
+@@@@
+@@@@
+[[div]]
+[[>image 210icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="kin"]]
+[[div class="balloon"]]
+いろいろとありがとうございました。
+[[/div]]
+[[/div]]
+
+
+[[div]]
+[[>image 173icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 130%]]**[感謝の意を示す]**[[/size]]
+[[/div]]
+[[/div]]
+@@@@
+@@@@
+
+[[div]]
+[[image com.jpg width="120px" style="margin-top: 5px; margin-left: 20px;"]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+[[div class="com"]]
+[[div class="arrow"]]
+お役に立ててよかった！
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+[[div]]
+[[>image 210iconkira.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+[[div class="kin"]]
+[[div class="arrow"]]
+これでやっと博士たちに申請できます。
+カメラマンさんお元気で！
+[[/div]]
+[[/div]]
+
+[[div]]
+[[>image 173icon.jpg width="120px" style="margin-top: 5px; margin-right: 20px;"]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[div class="inm"]]
+[[div class="balloon"]]
+[[size 130%]]**[手を振る]**[[/size]]
+[[/div]]
+[[/div]]
+
+
+
+----
+
+> SCP-173-JP及びSCP-210-JPの再収容は迅速に行われました。
+> 
+> 当該オブジェクトの収容地点付近にて高度な現実改変の形跡が見られました。この度の収容違反との関連性は不明です。
+> 
+> SCP-210-JPが報告書内の画像を所持していた写真に変更するよう申請を求めましたが、日本支部理事会により却下されました。

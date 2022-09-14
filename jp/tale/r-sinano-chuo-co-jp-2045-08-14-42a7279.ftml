@@ -1,0 +1,242 @@
+[[module CSS]]
+/*
+    Powered on 2020/02/19 02:17:53
+    [2020 Wikidot Theme]
+    Created by Ryu JP
+    CC BY-SA 3.0
+*/
+
+#page-title {display: none ;}
+
+body {
+    background: rgb(252, 252, 255);
+    color: rgb(67, 67, 67);
+    font-size:15px;
+}
+#search-top-box-input {
+    border: solid 1px #ffffff;
+    border-radius: 1px;
+    color: rgb(250, 252, 255);
+    background-color: rgb(250, 252, 255);
+    box-shadow: inset 0px 0px 1px rgba(0,0,0,.5);
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #fff;
+    color: rgb(3, 3, 3);
+    background-color: rgb(3, 3, 3);
+    box-shadow: inset 0px 0px 1px rgba(0,0,0,.8);
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 90%;
+    font-weight: bold;
+    color: rgb(106, 168, 79);
+    background-color: rgb(106, 168, 79);
+    background: linear-gradient(to bottom, #ffffff,#ffffff,#ffffff);
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #fff;
+    color: rgb(106, 168, 79);;
+    text-shadow: 0 0 1px rgba(255,255,255,.25)
+    background-color: rgb(106, 168, 79)
+    background: linear-gradient(to bottom, #f5f5f5,#f5f5f5,#f5f5f5);
+    box-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+#search-top-box {
+  top: 114px;
+}
+ 
+a,a:visited {
+    color: rgb(69, 129, 142);
+}
+}
+div#side-bar div.side-block {
+    background: rgb(255, 255, 255);
+}
+div#side-bar div.side-block div.heading,
+div#side-bar div.collapsible-block-unfolded-link,
+div#side-bar div.collapsible-block-unfolded-link div.collapsible-block-link {
+    color: rgb(106, 168, 79);
+    border-color: rgbrgb(106, 168, 79);
+}
+div.open-menu a {
+    color: rgb(106, 168, 79)!important;
+    border-color: rgb(106, 168, 79)!important;
+}
+
+div#container-wrap {
+    background: url(http://ja.scp-wiki.net/local--files/r-sinano-chuo-co-jp-2045-08-14-42a7279/%E4%BF%A1%E6%BF%83%E4%B8%AD%E5%A4%AE%E6%96%B0%E8%81%9E%E7%A4%BE%E3%83%98%E3%83%83%E3%83%80%E3%83%BC.png) top left no-repeat;
+}
+div#header {
+    background: url(ロゴ) 10px 40px no-repeat;
+    background-position: 0em -1em; background-size 88px 88px;
+}
+div#header h1 a span {
+    font-size: 0px;
+}
+div#header h1 a:before {
+    content: " ";
+    color: #eee;
+    text-shadow: 1px1px1px rgba(0,0,0,.8);
+}
+div#header h2 span {
+    font-size:0px;
+    padding: 4px;
+}
+div#header h2:after {
+    content: " ";
+    font-weight: bold;
+    color: #f0f0c0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,3 .8);
+    white-space: pre;
+}
+div#side-bar div.side-block {
+    background: rgb(255, 255, 255);
+}
+div#side-bar div.side-block div.heading,
+div#side-bar div.collapsible-block-unfolded-link,
+div#side-bar div.collapsible-block-unfolded-link div.collapsible-block-link {
+    color: rgb(106, 168, 79);
+    border-color: rgb(106, 168, 79);
+}
+div.page-rate-widget-box,
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.cancel {
+    background-color: rgb(106, 168, 79)!important;
+    border: solid rgb(106, 168, 79) 1px!important;
+}
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown {
+    border: solid rgb(106, 168, 79)!important;
+    border-width: 1px 0!important;
+}
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.cancel a,
+div.page-rate-widget-box span.cancel a:hover {
+    color: rgb(255, 255, 255);
+}
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown {
+    background-color: rgb(106, 168, 79)!important;
+}
+div.page-rate-widget-box span.rateup a,
+div.page-rate-widget-box span.ratedown a {
+    color: rgb(255, 255, 255)!important;
+}
+div.page-rate-widget-box span.cancel a:hover,
+div.page-rate-widget-box span.rateup a:hover,
+div.page-rate-widget-box span.ratedown a:hover {
+    background: transparent!important;
+    color: transparent!important;
+}
+.rate-box-with-credit-button .creditButton {
+    background-color: rgb(106, 168, 79)!important;
+    border: solid 1px rgb(106, 168, 79)!important;
+}
+.creditButton a:hover {
+color: transparent!important;
+}
+.color-green{
+    color:#006400;
+}
+.color-blue{
+    color:#696969;
+}
+.color-yellow{
+    color:#b22222;
+}
+@media (max-width: 479px) {
+#search-top-box-input {
+    display: none;
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** Yakushiに談合及びカルテルの疑い 公取委が立ち入り検査
+**著者:** [[*user Ryu JP]]
+[[include credit:end]]
+
+[[=]]
+[[size 1.3em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]トップ[[/a]]｜[[a href="http://ja.scp-wiki.net/" class="color-green"]]朝刊・夕刊[[/a]]｜[[a href="http://ja.scp-wiki.net/" class="color-green"]]速報[[/a]]｜[[a href="http://ja.scp-wiki.net/" class="color-green"]]マイページ[[/a]]**[[/size]]
+[[/=]]
+
+------
+
+[[size 0.9em]][# 速報][[/size]]
+
+[[size 1.4em]]**Yakushiに談合及びカルテルの疑い 公取委が立ち入り検査**[[/size]]
+
+[[size xx-small]]**公開日 2045年8月14日14:27**[[/size]]
+
+[[image http://ja.scp-wiki.net/local--files/r-sinano-chuo-co-jp-2045-08-14-42a7279/Yakushi%E3%83%AD%E3%82%B4.png width="auto"]]
+[[size x-small]]Yakushiロゴ[[/size]]
+
+東京地検特捜部､公正取引委員会及び警視庁公安部特事課は14日、理外研グループ傘下の理外研メディカル､村雨総合製薬､室橋製薬工業、白山医療の4社及び4社が参加している日本医療産業連合会｢Yakushi｣に対して独占禁止法（不当な取引制限）及び特殊技術不正利用防止法違反の容疑で強制捜査に乗り出した。
+
+東京地検特捜部､公取委､特事課は4社がYakushiを通して国立医療技術研究所(NIMET)から発注した研究機器などの一般競争入札を巡って談合を繰り返していた疑いが強まったとして､独占禁止法違反（不当な取引制限）及び特殊技術不正利用防止法違反の疑いで立ち入り検査を行った。またYakushiに対しては談合容疑とは別にカルテルの疑いも出ており､同日理事会の家宅捜索及び聞き取り調査が行われた｡
+
+公取委及び東京地検特捜部は関係者への事情聴取や押収資料の解析を進めており談合疑惑の実態の解明を急ぐ｡特事課は談合の過程で理外研グループの特殊技術が不正に利用された可能性があると見ており既に理外研電算機にも立ち入り検査を行っている｡
+
+関係者によると、4社は遅くとも数年前から談合を繰り返しているとされており､公取委は事前に各社が前もって受注する医薬品群を割り振っていた疑いがあると見ている。
+
+今回のNIMETの入札の総額はおよそ750億円に上る｡45年6月の共同入札での落札額は理外研メディカルが約265億円、村雨総合製薬が約172億円、室橋製薬工業が約157億円、白山医療が約123億円となっている。
+
+Yakushiは参加企業124社による国内の日本史上最大のカルテルの疑いがかけられており､公取委は薬価や医療機器の価格を引き上げ、自社の利益を確保する狙いでカルテルが結ばれていた可能性があるとする｡
+
+ニッソグループの台頭でYakushiは苦境を強いられていた｡Yakushi幹事企業の1社でもある理外研メディカルの46年3月期の連結営業利益見通しは124億と前期比の60%強のマイナス。検査の結果によってはYakushiの解体も有り得ない話ではない｡
+
+------
+
+[[size 1.3em]]**//財団は語る//**[[/size]]
+
+｢Yakushiは元々は財団に設立された物だったが､財団の体質が変わりYakushiとの関係が長らく緊張関係にある｡Yakushiが独立し意思決定権を持った結果がこれだ｣と1人の財団職員(渉外部門所属)は語る｡Yakushiは最初は財団に設立されたもので､その時はYakushiの方針なども全て財団が決めていた｡だが2041年の81Q5事件から財団の体質が変わり､Yakushiと財団は決裂｡以降はYakushiが方針の意思決定権を持った､だがその時に参加していた企業は全て規模も余り大きくなくキャッシュフローにも余裕が無かった｡そしてYakushiの第三者機関や監査機関は完全に形骸化していてこうなるのは時間の問題だったと語る｡
+
+だがYakushi自体がすぐさま解体などになる可能性は低いという｡Yakushi自体は医療産業においてプロメテウスなどの外資系や医療産業世界トップのニッソグループと拮抗する巨大勢力の1つであり､それらが解体した時の経済へのダメージを考えるとあくまでも1000~2000億円程度の課徴金で済むだろうとの見方が多い｡
+
+しかし公的機関からの指名停止や株価の下落､課徴金による経営へのダメージは決して小さくはなく、Yakushiは全体的に厳しい状況になるのは確実だと見られる｡
+
+日本の医療産業に多大な貢献をしてきたYakushiだが､その在り方の是非が今問われている｡
+
+------
+関連キーワード [# Yakushi]
+------
+[[size 1.1em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]ピックアップ[[/a]]**[[/size]]
+[# マクスウェリズム 新型電脳化 Σ-A7を発表]
+[# ロゴス 日本撤退を決定]
+[# プラグソフト ジャパン 本社化へ]
+
+[[size 1.1em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]新着 国内[[/a]]**[[/size]]
+[# ニッソ医機 郡山に開発センター計画]
+[# 旧東京 避難命令解除]
+[# 北海道に4km越えのビル誕生]
+
+[[size 1.1em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]新着 海外[[/a]]**[[/size]]
+[# XIGA 新型次元通路発表]
+[# プロメテウス 時空干渉機 新製品発表]
+[# ロンドンで大規模な爆発事故]
+
+[[size 1.1em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]経済[[/a]]**[[/size]]
+[# 新型精神通貨 認可決定]
+[# 旧高速道路 解体受注業者決定]
+[# 帝都電脳化新レイヤー化構造発足]
+
+[[size 1.1em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]アクセスランキング[[/a]]**[[/size]]
+1 [# Yakushiに公取委が立ち入り検査]
+2 [# 日本銀行 異例の企業救済]
+3 [# AWCYテロ 爪痕未だ消えず]
+------
+**[# 信濃中央新聞社関連企業]**
+**[# 信濃中央新聞社について]**
+**[# 信濃中央新聞電子版について]**
+------
+[[size x-small]][[a href="http://ja.scp-wiki.net/" class="color-blue"]]お問い合わせ[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]サイトマップ[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]個人情報のお取扱[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]特定個人情報保護方針[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]サイト利用に際して[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]アクセシビリティ[[/a]][[/size]]
+[[>]]
+[[size xx-small]]No reproduction or republication without written permission/CC BY-SA 3.0[[/size]]
+[[/>]]

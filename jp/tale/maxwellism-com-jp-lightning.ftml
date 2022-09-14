@@ -1,0 +1,549 @@
+[[module CSS]]
+
+/*
+Copyright (c) 2020 by Lucas Bebber 
+Released under the MIT license http://opensource.org/licenses/mit-license.php 
+
+Copyright (c) 2020 by a.yamasaki
+Released under the MIT license http://opensource.org/licenses/mit-license.php 
+
+Copyright (c) 2020 by Manuel Pinto
+Released under the MIT license http://opensource.org/licenses/mit-license.php 
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Varela");
+
+#page-title {
+  display: none ;
+}
+
+#container {
+  font-family: 'Varela', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size:15px;
+}
+
+
+.glitch {
+  color: white;
+  font-size: 30px;
+  position: relative;
+}
+
+@keyframes noise-anim {
+  0% {
+    clip: rect(21px, 9999px, 13px, 0);
+  }
+  6.66667% {
+    clip: rect(95px, 9999px, 39px, 0);
+  }
+  13.33333% {
+    clip: rect(51px, 9999px, 58px, 0);
+  }
+  20% {
+    clip: rect(28px, 9999px, 31px, 0);
+  }
+  26.66667% {
+    clip: rect(17px, 9999px, 8px, 0);
+  }
+  33.33333% {
+    clip: rect(21px, 9999px, 65px, 0);
+  }
+  40% {
+    clip: rect(27px, 9999px, 94px, 0);
+  }
+  46.66667% {
+    clip: rect(10px, 9999px, 38px, 0);
+  }
+  53.33333% {
+    clip: rect(41px, 9999px, 44px, 0);
+  }
+  60% {
+    clip: rect(53px, 9999px, 86px, 0);
+  }
+  66.66667% {
+    clip: rect(18px, 9999px, 79px, 0);
+  }
+  73.33333% {
+    clip: rect(59px, 9999px, 84px, 0);
+  }
+  80% {
+    clip: rect(18px, 9999px, 48px, 0);
+  }
+  86.66667% {
+    clip: rect(69px, 9999px, 22px, 0);
+  }
+  93.33333% {
+    clip: rect(15px, 9999px, 85px, 0);
+  }
+  100% {
+    clip: rect(48px, 9999px, 46px, 0);
+  }
+}
+.glitch:after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: white;
+  background: transparent!important;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(86px, 9999px, 51px, 0);
+  }
+  3.57143% {
+    clip: rect(17px, 9999px, 26px, 0);
+  }
+  7.14286% {
+    clip: rect(82px, 9999px, 71px, 0);
+  }
+  10.71429% {
+    clip: rect(85px, 9999px, 5px, 0);
+  }
+  14.28571% {
+    clip: rect(31px, 9999px, 18px, 0);
+  }
+  17.85714% {
+    clip: rect(72px, 9999px, 72px, 0);
+  }
+  21.42857% {
+    clip: rect(93px, 9999px, 38px, 0);
+  }
+  25% {
+    clip: rect(36px, 9999px, 75px, 0);
+  }
+  28.57143% {
+    clip: rect(86px, 9999px, 40px, 0);
+  }
+  32.14286% {
+    clip: rect(89px, 9999px, 52px, 0);
+  }
+  35.71429% {
+    clip: rect(83px, 9999px, 72px, 0);
+  }
+  39.28571% {
+    clip: rect(17px, 9999px, 16px, 0);
+  }
+  42.85714% {
+    clip: rect(99px, 9999px, 27px, 0);
+  }
+  46.42857% {
+    clip: rect(83px, 9999px, 15px, 0);
+  }
+  50% {
+    clip: rect(10px, 9999px, 9px, 0);3
+  }
+  53.57143% {
+    clip: rect(24px, 9999px, 97px, 0);
+  }
+  57.14286% {
+    clip: rect(60px, 9999px, 87px, 0);
+  }
+  60.71429% {
+    clip: rect(22px, 9999px, 46px, 0);
+  }
+  64.28571% {
+    clip: rect(67px, 9999px, 69px, 0);
+  }
+  67.85714% {
+    clip: rect(99px, 9999px, 92px, 0);
+  }
+  71.42857% {
+    clip: rect(26px, 9999px, 80px, 0);
+  }
+  75% {
+    clip: rect(64px, 9999px, 65px, 0);
+  }
+  78.57143% {
+    clip: rect(93px, 9999px, 66px, 0);
+  }
+  82.14286% {
+    clip: rect(58px, 9999px, 20px, 0);
+  }
+  85.71429% {
+    clip: rect(77px, 9999px, 20px, 0);
+  }
+  89.28571% {
+    clip: rect(74px, 9999px, 98px, 0);
+  }
+  92.85714% {
+    clip: rect(88px, 9999px, 53px, 0);
+  }
+  96.42857% {
+    clip: rect(43px, 9999px, 14px, 0);
+  }
+  100% {
+    clip: rect(73px, 9999px, 78px, 0);
+  }
+}
+.glitch:before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  color: white;
+  background: transparent!important;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
+
+#search-top-box {
+  top: -999px;
+}
+
+a,a:visited {
+    color: rgb(255, 255, 255);
+}
+
+div#side-bar div.side-block {
+    background: transparent!important;
+}
+div#side-bar div.side-block div.heading,
+div#side-bar div.collapsible-block-unfolded-link,
+div#side-bar div.collapsible-block-unfolded-link div.collapsible-block-link {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255 ,255);
+}
+div.open-menu a {
+    color: rgb(255,255,255)!important;
+    border-color: transparent!important;
+}
+
+div#container-wrap {
+    background: url(ヘッダー) top left repeat-x;
+}
+div#header {
+  background: url(http://scp-jp.wikidot.com/local--files/maxwellism-com-jp-lightning/98M%E3%83%AD%E3%82%B4.png) 10px 10px no-repeat;
+    background-position: center;
+    background-size 66px 66px;
+}
+div#header h1 a span {
+    font-size: 0px;
+}
+div#header h1 a:before {
+    content: " ";
+    color: #eee;
+    text-shadow: 1px1px1px rgba(0,0,0,.8);
+}
+div#header h2 span {
+    font-size:0px;
+    padding: 4px;
+}
+div#header h2:after {
+    content: " ";
+    font-weight: bold;
+    color: #f0f0c0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,3 .8);
+    white-space: pre;
+}
+
+div#side-bar div.side-block {
+    background: transparent!important;
+}
+div#side-bar div.side-block div.heading,
+div#side-bar div.collapsible-block-unfolded-link,
+div#side-bar div.collapsible-block-unfolded-link div.collapsible-block-link {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+#side-bar .side-block {
+    border: 2px solid transparent!important;
+    box-shadow: none;
+    background-color: transparent!important;
+    color: #ffffff;
+}
+
+#side-bar .side-block[style="background-color: #a7dba2;"] {
+    background-color: color: transparent!important;
+}
+#side-bar .side-block[style="background-color: #fff0f0;"] {
+    background-color: transparent!important;
+}
+#side-bar .side-block[style="background-color: #e5e5ff;"] {
+    background-color: color: transparent!important; 
+} 
+#side-bar .side-block[style="background-color: #f0f0f0;"] {
+    background-color: transparent!important;
+} 
+
+#side-bar .heading {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+div.page-rate-widget-box,
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.cancel {
+    background-color: transparent!important;
+    border: solid rgb(255 ,255 ,255) 1px!important;
+}
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown {
+    border: solid rgb(255, 255 ,255)!important;
+    border-width: 1px 0!important;
+}
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.cancel a,
+div.page-rate-widget-box span.cancel a:hover {
+    color: rgb(255, 255, 255);
+}
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown {
+    background-color: transparent!important;
+}
+div.page-rate-widget-box span.rateup a,
+div.page-rate-widget-box span.ratedown a {
+    color: rgb(255,255 , 255)!important;
+}
+div.page-rate-widget-box span.cancel a:hover,
+div.page-rate-widget-box span.rateup a:hover,
+div.page-rate-widget-box span.ratedown a:hover {
+    background: transparent!important;
+    color: transparent!important;
+}
+.rate-box-with-credit-button .creditButton {
+    background-color: transparent!important;
+    border: solid 1px rgb(255,255,255)!important;
+}
+
+.creditButton a:hover {
+color: transparent!important;
+}
+
+#page-content .fader{
+  background: rgba(0,0,0,0.9);
+}
+#page-content .modalbox {
+  background-color: transparent!important;
+  box-shadow:0 0 5px rgba(245,245,255,1);
+}
+#page-content .modalbox .modalbox-title {
+  background-color: transparent!important;
+}
+
+.btn-open {
+  display: inline-block;
+  width: 100%;
+  height:30px;
+  text-align: center;
+  background-color: transparent!important;
+  font-size: 28px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #FFFFFF;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.btn-open:after{
+  width: 100%;
+  height: 0;
+  content:"";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background : #FFF;
+  opacity: 0.5; 
+  opacity: 0;
+  transform: translateX(-50%) 
+  translateY(-50%) rotate(45deg);
+  transition: .2s;
+  z-index: -1;
+}
+.btn-open:hover{
+  color: #483d8b;
+}
+.btn-open:hover:after{
+  height: 1500%;
+  opacity: 1;
+}
+.btn-open:active:after{
+  height: 500%;
+  opacity: 1;
+}
+
+.color-blue{
+    color:#FFFFFF;
+}
+
+.box1 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #FFFFFF;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #000000,#23d5ab, #083329);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+    	background-position: 0% 50%;
+    }
+    50% {
+    	background-position: 100% 100%;
+    }
+    100% {
+    	background-position: 0% 50%;
+    }
+}
+
+.element {
+  color: transparent!important;
+  text-stroke: 1.0px #fff;
+  -webkit-text-stroke: 1.0px #fff;
+  font-size: 1.9em;
+}
+
+[[/module]]
+[[include credit:start]]
+**タイトル:** 新電脳｢lightning｣登場｡
+**著者:** [[*user Ryu JP]]
+[[include credit:end]]
+------
+[[div class="glitch" data-text="Maxwellism"]]
+Maxwellism
+[[/div]]
+[[div class="glitch" data-text="｢lightning｣"]]
+｢lightning｣
+[[/div]]
+[[div class="glitch" data-text="NEW ARRIVAL"]]
+NEW ARRIVAL
+[[/div]]
+------
+[[=]]
+[[size 1.2em]]//**[[[http://scp-jp.wikidot.com/church-of-the-broken-god-hub | Maxwellism]]]、2年ぶりの新型電脳｡
+圧倒的な没入感を、圧倒的なスピードで｡**//[[/size]]
+[[/=]]
+[[div class="element"]]
+------
+[[<]]
+今まで以上の没入感｡
+[[/<]]
+[[/div]]
+[[f<image http://scp-jp.wikidot.com/local--files/maxwellism-com-jp-lightning/M%E4%BD%BF%E7%94%A8%E8%84%B3.png width="200px"]]
+@@ @@
+@@ @@
+@@ @@
+**//画期的な神経同期システムにより､今まで以上の感覚フィードバックを実現しました｡この機能によって貴方が得るのはもはや単純な情報だけではありません｡視覚情報のみならず､聴覚､嗅覚､触覚､全ての感覚情報にまるで現実世界の様なフィードバックを与えます｡｢lightning｣はあなたに全く新しい世界､そして感動を与えます｡//**
+@@ @@
+[[div class="element"]]
+[[>]]
+------
+最高速の情報処理機能｡
+[[/>]]
+[[/div]]
+[[f>image http://scp-jp.wikidot.com/local--files/maxwellism-com-jp-lightning/M%E4%BD%BF%E7%94%A8%E7%A8%B2%E5%A6%BB.png width="200px"]]
+@@ @@
+@@ @@
+@@ @@
+**//｢lightning｣はその名の通りまるで稲妻の様に情報を処理する事が可能です｡だからこそ電脳レイヤーでも極最小限のタイムラグで仮想イメージを展開する事が出来ます｡更に今までは事前のダウンロードが必要だったり､知覚まで時間がかかっていた3次元仮想型コンテンツもすぐに表示する事が可能になりました｡やりたい事は､すぐに出来る｡//**
+@@ @@
+[[div class="element"]]
+[[<]]
+------
+だいたいどこでも繋げる｡
+[[/<]]
+[[/div]]
+[[f<image http://scp-jp.wikidot.com/local--files/maxwellism-com-jp-lightning/M%E4%BD%BF%E7%94%A8%E5%9C%B0%E5%9B%B3.png width="200px"]]
+@@ @@
+@@ @@
+@@ @@
+**//今までの全ての電脳より多いあらゆるタイプの電脳レイヤーに接続可能｡マクスウェリズムの用意する｢default｣レイヤーは勿論､ニューヨーク､パリ､ロンドン､香港などの世界の様々な首都で独自に導入されている｢city｣レイヤー､また組織の導入する｢original｣レイヤーの99.99%に対応｡これからは｢アクセス未対応｣と言う言葉とは無縁です｡//**
+@@ @@
+[[div class="element"]]
+[[>]]
+------
+安心と安全のセキュリティ｡
+[[/>]]
+[[/div]]
+[[f>image http://scp-jp.wikidot.com/local--files/maxwellism-com-jp-lightning/M%E4%BD%BF%E7%94%A8%E7%9B%BE.png width="200px"]]
+@@ @@
+@@ @@
+@@ @@
+**//衝撃や経年劣化の物理的リスク､ウイルスやマルウェアなどの悪意を持った電磁的リスク､あらゆるリスクをカバーしています｡特殊な構造を用いている為､非電脳由来の疾患に対しても抑制的に働きます｡その為電脳化のリスクだけではなく､人生そのものに付随するリスクを回避する事が可能｡貴方の人生に､安心と安全を｡//**
+@@ @@
+------
+[[div class="element"]]
+[[=]]
+良い所はそれだけじゃない｡
+[[/=]]
+[[/div]]
+[[image http://scp-jp.wikidot.com/local--files/maxwellism-com-jp-lightning/M%E4%BD%BF%E7%94%A8%E7%84%A1%E9%99%90.png width="auto"]]
+@@ @@
+[[=]]
+//**[[size 1.2em]]・高効率処理で脳への負担を軽減｡
+・レイヤー描画の美しさも大幅に進化｡
+・耐用年数は前機種から12年も延長｡
+・前機種より30%も安価｡
+・代用睡眠機能も大幅にパワーアップ｡
+・健康状態診断は更に正確に､簡単に｡
+・最大150時間睡眠不要で連続運転可能｡
+・瞬間記憶もより鮮明に､より便利に｡
+・夢機能も｡明晰夢だって見放題｡[[/size]]**//
+[[/=]]
+[[div class="box1"]]
+[[=]]
+[[size x-large]]さぁ､貴方も繋がろう｡[[/size]]
+@@ @@
+[[div class="container"]]
+[[span class="btn-open"]]契約手続きへ
+[[/span]]
+[[/div]]
+[[size 1.1em]]**仕様及び注意事項を必ずお読みください**
+[[/size]]
+[[/=]]
+[[/div]]
+------
+[[=]]
+[[size 1.6em]]//**仕様**//
+[[/size]]
+分類/ヒト電脳化機器第2種
+厚生労働省電脳認可番号 EC2BM42ACC18
+循環拡張型神経融合式/サイズ 2.75am
+最大処理可能速度 20exa/1s
+搭載防壁 自律型7世代/反射型8世代/擬態型3世代
+瞬間記憶対応感覚 視覚/聴覚/嗅覚/味覚/触覚
+連続運転可能時間 150時間30分(正常維持可能時間)
+自己治癒システム内臓/緊急遮断機能内臓
+電脳式健康診断精度 99.998%/正常性維持機能内臓
+代用睡眠 効率25.17%/明晰夢再生 可能
+耐用年数目安 25年/医療保険対応機器
+[[/=]]
+------
+[[=]]
+[[size 1.6em]]**注意事項**[[/size]]
+@@ @@
+[[size 0.8em]]・1度電脳化すると電脳化前の状態に戻る事は出来ません｡電脳化の際は必ず医療従事者等の専門家との相談を行ってください｡
+・耐用年数はあくまでも目安です｡異常を感じた際は速やかに適切な機関にお問い合わせ下さい｡
+・電脳化によって生じたあらゆる損害は､当社に著しい過失がある場合を除き原則補償致しません｡
+・電脳化の医療保険適用には条件があります｡詳しい条件は主治医に確認するか､厚生労働省のホームページをご確認下さい｡
+・一部の他社の電脳とは互換性が無い場合がございます｡義体の乗り換え､記憶の引き継ぎを行う場合は必ずご確認下さい｡
+・電脳化の際は必ず渡される｢使用方法｣を御熟読の上､使用方法を遵守して下さい｡最悪死亡する場合がございます｡[[/size]]
+[[/=]]
+------
+
+[[size x-small]][[a href="http://ja.scp-wiki.net/" class="color-blue"]]お問い合わせ[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]サイトマップ[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]個人情報のお取扱[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]特定個人情報保護方針[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]サイト利用に際して[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]アクセシビリティ[[/a]][[/size]]
+国/[# Japan]
+[[>]]
+[[size xx-small]]Copyright ©2015 Maxwellism Ink CC BY-SA 3.0[[/size]]
+[[/>]]
+------

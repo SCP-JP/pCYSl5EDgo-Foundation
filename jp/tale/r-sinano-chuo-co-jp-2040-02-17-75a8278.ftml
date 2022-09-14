@@ -1,0 +1,241 @@
+[[module CSS]]
+/*
+    Powered on 2020/02/19 02:17:53
+    [2020 Wikidot Theme]
+    Created by Ryu JP
+    CC BY-SA 3.0
+*/
+
+#page-title {display: none ;}
+
+body {
+    background: rgb(252, 252, 255);
+    color: rgb(67, 67, 67);
+    font-size:15px;
+}
+#search-top-box-input {
+    border: solid 1px #ffffff;
+    border-radius: 1px;
+    color: rgb(250, 252, 255);
+    background-color: rgb(250, 252, 255);
+    box-shadow: inset 0px 0px 1px rgba(0,0,0,.5);
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 1px #fff;
+    color: rgb(3, 3, 3);
+    background-color: rgb(3, 3, 3);
+    box-shadow: inset 0px 0px 1px rgba(0,0,0,.8);
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 90%;
+    font-weight: bold;
+    color: rgb(106, 168, 79);
+    background-color: rgb(106, 168, 79);
+    background: linear-gradient(to bottom, #ffffff,#ffffff,#ffffff);
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #fff;
+    color: rgb(106, 168, 79);;
+    text-shadow: 0 0 1px rgba(255,255,255,.25)
+    background-color: rgb(106, 168, 79)
+    background: linear-gradient(to bottom, #f5f5f5,#f5f5f5,#f5f5f5);
+    box-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+#search-top-box {
+  top: 114px;
+}
+ 
+a,a:visited {
+    color: rgb(69, 129, 142);
+}
+}
+div#side-bar div.side-block {
+    background: rgb(255, 255, 255);
+}
+div#side-bar div.side-block div.heading,
+div#side-bar div.collapsible-block-unfolded-link,
+div#side-bar div.collapsible-block-unfolded-link div.collapsible-block-link {
+    color: rgb(106, 168, 79);
+    border-color: rgbrgb(106, 168, 79);
+}
+div.open-menu a {
+    color: rgb(106, 168, 79)!important;
+    border-color: rgb(106, 168, 79)!important;
+}
+
+div#container-wrap {
+    background: url(http://ja.scp-wiki.net/local--files/r-sinano-chuo-co-jp-2040-02-17-75a8278/%E4%BF%A1%E6%BF%83%E4%B8%AD%E5%A4%AE%E6%96%B0%E8%81%9E%E7%A4%BE%E3%83%98%E3%83%83%E3%83%80%E3%83%BC.png) top left no-repeat;
+}
+div#header {
+    background: url(ロゴ) 10px 40px no-repeat;
+    background-position: 0em -1em; background-size 88px 88px;
+}
+div#header h1 a span {
+    font-size: 0px;
+}
+div#header h1 a:before {
+    content: " ";
+    color: #eee;
+    text-shadow: 1px1px1px rgba(0,0,0,.8);
+}
+div#header h2 span {
+    font-size:0px;
+    padding: 4px;
+}
+div#header h2:after {
+    content: " ";
+    font-weight: bold;
+    color: #f0f0c0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,3 .8);
+    white-space: pre;
+}
+div#side-bar div.side-block {
+    background: rgb(255, 255, 255);
+}
+div#side-bar div.side-block div.heading,
+div#side-bar div.collapsible-block-unfolded-link,
+div#side-bar div.collapsible-block-unfolded-link div.collapsible-block-link {
+    color: rgb(106, 168, 79);
+    border-color: rgb(106, 168, 79);
+}
+div.page-rate-widget-box,
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.cancel {
+    background-color: rgb(106, 168, 79)!important;
+    border: solid rgb(106, 168, 79) 1px!important;
+}
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown {
+    border: solid rgb(106, 168, 79)!important;
+    border-width: 1px 0!important;
+}
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.cancel a,
+div.page-rate-widget-box span.cancel a:hover {
+    color: rgb(255, 255, 255);
+}
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown {
+    background-color: rgb(106, 168, 79)!important;
+}
+div.page-rate-widget-box span.rateup a,
+div.page-rate-widget-box span.ratedown a {
+    color: rgb(255, 255, 255)!important;
+}
+div.page-rate-widget-box span.cancel a:hover,
+div.page-rate-widget-box span.rateup a:hover,
+div.page-rate-widget-box span.ratedown a:hover {
+    background: transparent!important;
+    color: transparent!important;
+}
+.rate-box-with-credit-button .creditButton {
+    background-color: rgb(106, 168, 79)!important;
+    border: solid 1px rgb(106, 168, 79)!important;
+}
+.creditButton a:hover {
+color: transparent!important;
+}
+.color-green{
+    color:#006400;
+}
+.color-blue{
+    color:#696969;
+}
+.color-yellow{
+    color:#b22222;
+}
+@media (max-width: 479px) {
+#search-top-box-input {
+    display: none;
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** 東弊重工、5年連続赤字 今期最終450億円 現実性維持装置の開発が難航
+**著者:** [[*user Ryu JP]]
+[[include credit:end]]
+
+[[=]]
+[[size 1.3em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]トップ[[/a]]｜[[a href="http://ja.scp-wiki.net/" class="color-green"]]朝刊・夕刊[[/a]]｜[[a href="http://ja.scp-wiki.net/" class="color-green"]]速報[[/a]]｜[[a href="http://ja.scp-wiki.net/" class="color-green"]]マイページ[[/a]]**[[/size]]
+[[/=]]
+
+------
+
+[[size 0.9em]][# 経済][[/size]]
+
+[[size 1.4em]]**東弊重工、5年連続赤字 今期最終450億円 現実性維持装置の開発が難航**[[/size]]
+
+[[size xx-small]]**公開日 2040年2月17日20:30**[[/size]]
+
+[[image http://ja.scp-wiki.net/local--files/r-sinano-chuo-co-jp-2040-02-17-75a8278/touhei4.png width="auto"]]
+[[size x-small]]東弊重工ロゴ[[/size]]
+
+日本のパラテック産業はどうなっていくのか。特殊重工最大手の東弊重工業株式会社(東弊重工)は17日、2040年3月期の経常損益の見通しを450億円の赤字とした。これで同社は5期連続で赤字となる見通しだ。広範囲現実性維持装置の開発で減損損失が発生し､それでも尚開発費は膨らみ続けている｡その上外資系の勢いが増している状況だ｡
+
+東弊重工の広範囲現実性維持装置開発は、度重なる設計変更などで難航している。同社は既に納入の延期を発表しており､当初は41年だった納入時期は今回の延期の発表で47年度以降となる見通し｡現在受注している70台が更なるキャンセルに繋がる可能性もある。開発費も3700億円と当初の計画から2100億円も増加した。
+
+これまで同社は当プロジェクトに多額の資産を投資したが利益を得る事は出来なかった｡それどころか前期までで約8000億円の資産を損失計上する事となる。構想中の特殊研究施設用の超高精度広範囲型を含めると開発費は累計で1.5兆円を超える｡取材によると主な要因はプロジェクトの途中で主要な技術者が他企業に流出､または消失した為なのが判明している｡
+
+赤字の主因は広範囲現実性維持装置の開発だが､原因はそれだけでは無い｡特殊技術を用いて建設する必要のある施設の建設や重機の製造､異常性のある環境の整備などの正常性整備などの事業も軒並み苦境に立たされている｡原因はコストが低く品質の良い外資系の進出だ｡
+
+プロメテウス・ラボ・コンツェルン(プロメテウス)やロゴス､ファクトリーなどの外資系企業が日本に進出した事によって市場の流れは大きく変わった｡特にプロメテウスの持つ技術は昨年に電脳化で世界トップシェアを誇るIT大手のマクスウェリズムと業務提携等を行った事もあり､非常に高いレベルとなっている｡その上その技術をプロメテウスは競合他社よりも低コストで全世界に提供している背景もあって、次元産業や医療等､あらゆる分野でトップシェアをほとんど独占している｡その様な市場の動向もあって今まで東弊重工の製品やサービスを利用していた顧客が外資系の企業に流れたと多くの専門家は分析する｡この市場の流れも赤字の増大の原因の一つとされる｡
+
+また複数の関係者によるとそんな中でプロメテウスから業務提携を条件に資金提供を行う提案があるという事も分かった｡プロメテウスの狙いは東弊の持つ現行パラテクノロジーでは再現不可能な最先端の異常製造技術関連であると関係者は話す｡資金や規模ではプロメテウスに及ばないとはいえ今なお世界トップクラスの技術を持っている東弊重工｡開発の難航､追い討ちをかけるように競争環境が厳しくなっていく中で東弊重工がどの様な対応をするのかに注目が集まる｡
+
+------
+
+[[size 1.3em]]**//財団は語る//**[[/size]]
+
+｢現実性維持装置は開発のハードルが非常に高い上に､昨年まで利用されていた並行現実性置換方式という機構が世界的に排除の動きになったのも大きく影響している｣と1人の財団職員(工学技術事業部門所属)は語る｡ハードルが高い理由は主に｢現実性｣という概念自体が近年財団によって公開された難解な概念であり､広範囲でその現実性を制御する大型の装置となるとその装置を構成する部品数は優に200万点を超える｡更に現実性は異常な変動が起きた場合､大災害を引き起こしかねないので現実性維持装置は国や正常性維持機関のチェック項目も膨大な数にのぼる。基本的に審査は設計と同時にスタートし複数の審査が並行して行われ、基準に適合しないことが分かれば設計変更を行う｡しかし基本的には構造の問題で変更の対象となった部品以外の機構にも変更が必要となり､どこか1つの部品を変更する必要がある場合には平均して5000点程度の部品の変更が必要になる。
+
+また､昨年今まで利用していた現実性維持装置の機構､いわゆるスクラントン方式は｢他次元から現実性を奪っている｣と判明した｡そこから全世界でスクラントン方式の注文のキャンセルや既存のスクラントン方式の現実性維持装置の交換など､世界的に排除の動きになった事も開発の難航の大きな要因の1つだと見られている｡その為主な依頼先の日本国も東弊重工に現実性維持装置の大規模な仕様の変更を求めた｡部品を1点変えるだけで5000点の部品も一緒に変えなければいけない開発だ｡どうなったかは想像に難くない｡恐らくはほとんど初めからの開発の振り出しに戻ったと見られている｡それまでに開発していた技術も一部は有用だろうが､つぎ込んでいた資金と天秤にかけると恐らくはかなりのマイナスになっており､それで国から出た補助金や税制措置も微々たる物だった｡この様な開発の混乱が続けば開発費が雪だるま式に増えていくのも当然の結果だ｡
+
+そして別の財団職員の1人(渉外部門所属)は東弊重工のいくつもの事業を抱える企業体質や1度受けた受注をやり遂げようとする昔ながらの性格、そして市場の悪化が合わさって悪循環に陥った面もあるのではと語る。仮の話だが､東弊重工が1つか2つだけの事業だけを手掛ける企業ならば早々にリスクの大きい大型装置の開発参入からは撤退して損失を最小限に抑える動きが出来たはずだからだ。東弊重工の場合は特殊発電機器や物流路構築､航空機など数多の事業を抱えており､他の事業が利益を出している為､現実性維持装置の開発が多少難航したとしても別の事業で開発費を補填する事が可能だった｡その為に東弊重工は昔ながらの撤退は行わないという企業の性質もあって開発を強行｡だが外資系パラテクノロジー企業の日本進出による市場変化で別の事業そのものの収益性も大きなダメージを受けた｡そして技術者の一部は外資系に流れていく泣きっ面に蜂の状態｡東弊重工としては既に現実性維持装置の開発に多額の資金をつぎ込んでいる為に今更撤退もできず､加えてプロメテウスなどの外資系よりも高品質低価格な物を目指さないといけなくなった｡そんな背景もあって東弊重工にとっては撤退も開発も茨の道となってしまった｡
+
+またプロメテウスについてもその財団職員は｢技術だけが狙いの可能性もある｣と話している｡東弊重工は先述の話もあって開発力､資金､規模等で組織の再編や改革を余儀なく求められているような状況だ｡そんな中でのプロメテウスの業務提携と資金提供の申し出は契約の内容によっては東弊重工の持つ世界トップクラスの異常製造技術を安く買い叩く為である可能性もあるとしていて､安易に提携を決めてしまうと東弊重工にとって将来的に致命傷になりかねない｡プロメテウスの真意が把握できるまでは危険な提案だと見る者が多い｡
+
+未だ先の現実は見えてこない｡東弊重工が再び日本の特殊産業の雄として輝ける時は来るのだろうか｡
+------
+関連キーワード [http://ja.scp-wiki.net/system:page-tags/tag/%E6%9D%B1%E5%BC%8A%E9%87%8D%E5%B7%A5 東弊重工] [http://ja.scp-wiki.net/system:page-tags/tag/%E3%83%97%E3%83%AD%E3%83%A1%E3%83%86%E3%82%A6%E3%82%B9 プロメテウス]
+------
+[[size 1.1em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]ピックアップ[[/a]]**[[/size]]
+[# 新型異形化流行でテーマパーク一時閉鎖]
+[# MC＆D JAPANとイワナガ美容連合が業務提携を決定]
+[# 超工家電 新製品大ヒット]
+
+[[size 1.1em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]新着 国内[[/a]]**[[/size]]
+[# 日生創薬と桜良心製薬が共同でロマンス・リーザ病の研究開始]
+[# 如月工務店 またも無免許施工]
+[# 如来観光 新次元旅行プラン発表]
+
+[[size 1.1em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]新着 海外[[/a]]**[[/size]]
+[# マクスウェリズム 新型異形化の影響を受け売上減]
+[# プロメテウス 中国で8500億円規模の大型買収]
+[# イーステック 新製品を発表]
+
+[[size 1.1em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]経済[[/a]]**[[/size]]
+[# GDP 8年連続プラス]
+[# プロメテウス 米日次元通路構築を受注]
+[# 北海道特殊産業特区プロジェクト開始]
+
+[[size 1.1em]]**[[a href="http://ja.scp-wiki.net/" class="color-green"]]アクセスランキング[[/a]]**[[/size]]
+1 [# 夢見テクノロジーに特捜部が立ち入り検査]
+2 [# 理外研汚職事件 指名停止が決定]
+3 [# 帝都大学が新学部を設立]
+------
+**[# 信濃中央新聞社関連企業]**
+**[# 信濃中央新聞社について]**
+**[# 信濃中央新聞電子版について]**
+------
+[[size x-small]][[a href="http://ja.scp-wiki.net/" class="color-blue"]]お問い合わせ[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]サイトマップ[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]個人情報のお取扱[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]特定個人情報保護方針[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]サイト利用に際して[[/a]] | [[a href="http://ja.scp-wiki.net/" class="color-blue"]]アクセシビリティ[[/a]][[/size]]
+[[>]]
+[[size xx-small]]No reproduction or republication without written permission/CC BY-SA 3.0[[/size]]
+[[/>]]
