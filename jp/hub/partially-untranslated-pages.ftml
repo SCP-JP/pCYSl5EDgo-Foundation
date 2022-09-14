@@ -1,0 +1,39 @@
+[[toc]]
+
++ 「要翻訳」記事
+
+ここでは「要翻訳」タグのついた、未翻訳の箇所があるSCPのページを自動でリストアップします。
+基本的に、新規投稿の際は、翻訳が完成した状態で投稿してください。
+
+++ SCP
+
+[[module ListPages order="ratingAsc" limit="100" tags="-管理 -著者ページ -サンドボックス +要翻訳 -合作 scp" separate="no" order="rating desc" prependLine="||~ タイトル ||~ 文字数 ||~ Vote ||~ 投稿日 ||~ リビジョン ||"]]
+|| **%%title_linked%%** || %%size%% || %%rating%% || %%created_at%% || rev.%%revisions%% ||
+[[/module]]
+
+++ tale
+
+[[module ListPages limit="100" tags="-管理 -著者ページ -サンドボックス +要翻訳 -合作 tale" separate="no" order="rating desc" prependLine="||~ タイトル ||~ 文字数 ||~ Vote ||~ 投稿日 ||~ リビジョン ||"]]
+|| **%%title_linked%%** || %%size%% || %%rating%% || %%created_at%% || rev.%%revisions%% ||
+[[/module]]
+
+++ 合作
+
+[[module ListPages limit="100" tags="-管理 -著者ページ -サンドボックス +要翻訳 +合作" separate="no" order="rating desc" prependLine="||~ タイトル ||~ 文字数 ||~ Vote ||~ 投稿日 ||~ リビジョン ||"]]
+|| **%%title_linked%%** || %%size%% || %%rating%% || %%created_at%% ||  rev.%%revisions%% ||
+[[/module]]
+
+++ その他
+
+[[module ListPages limit="100" tags="+要翻訳 -合作 -tale -scp" separate="no" order="rating desc" prependLine="||~ タイトル ||~ 文字数 ||~ Vote ||~ 投稿日 ||~ リビジョン ||"]]
+|| **%%title_linked%%** || %%size%% || %%rating%% || %%created_at%% ||  rev.%%revisions%% ||
+[[/module]]
+
++ 改定または「記事削除による新規投稿」が行われた記事
+
+報告を受け、「元記事削除」タグを付与し、deleted: カテゴリへ移動した記事です。
+代替の新記事が未投稿の場合があります。
+
+[[module ListPages limit="100" tags="+元記事削除" category="*" separate="no" order="rating desc" prependLine="||~ タイトル ||~ 文字数 ||~ Vote ||~ 投稿日 ||~ リビジョン ||"]]
+|| **%%title_linked%%** || %%size%% || %%rating%% || %%created_at%% || rev.%%revisions%% ||
+[[/module]]

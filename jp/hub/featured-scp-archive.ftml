@@ -1,0 +1,10 @@
+過去にメインページで特集された全てのSCPの一覧です。
+翻訳の注目SCPは[[[featured-translated-scp-archive|こちら]]]
+(SCP-ENの翻訳版は[/featured-scp-archive-en こちら])
+
+[[module ListPages category="attention-jp" order="_date desc" _category="1" _original="1" perPage="250"]]
+%%title%%. **[[[%%form_raw{url}%%|%%form_raw{meta}%%]]]**: %%form_raw{meta}%% by [[*user %%form_raw{author}%%]]\
+[[ul]][[li]]\
+%%form_raw{desc}%%\
+[[/li]][[/ul]]\
+[[/module]]

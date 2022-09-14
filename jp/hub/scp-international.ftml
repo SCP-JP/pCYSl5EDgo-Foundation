@@ -1,0 +1,945 @@
+[[module CSS]]
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.wrapper .content-panel {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 49%;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 850px) {
+    .wrapper .content-panel {
+        width: 100%;
+    }
+}
+
+.wrapper .content-panel::after {
+    content: " ";
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    background: white;
+    opacity: 0.98;
+}
+
+.wrapper .content-type-title,
+.wrapper .content-type-options {
+    position: relative;
+    z-index: 3;
+}
+
+.wrapper .content-panel.wide {
+    width: 100%;
+}
+
+.wrapper .content-panel.wide .wide-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.wrapper .content-panel.wide .wide-wrapper .contents {
+    width: 49%;
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+@media (max-width: 850px) {
+    .wrapper .content-panel.wide .wide-wrapper .contents {
+        width: 100%;
+    }
+}
+
+.content-panel.standalone {
+    background-color: white;
+}
+
+.content-panel .content-type-title > h3 {
+    margin: 0;
+}
+
+.content-panel .content-type-title h3 {
+    font-size: 120%;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: #666;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, .8),
+        inset 0 15px 1px rgba(255, 255, 255, .2),
+        inset 0 15px 10px rgba(255, 255, 255, .2);
+}
+
+.content-panel .content-type-options {
+    padding: 0 20px;
+}
+
+.content-panel .content-type-options ul {
+    padding-left: 2em;
+    margin-left: 0;
+}
+
+.toc {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+
+.content-panel.en,
+.content-panel.ru,
+.content-panel.ko,
+.content-panel.cn,
+.content-panel.fr,
+.content-panel.pl,
+.content-panel.es,
+.content-panel.th,
+.content-panel.de,
+.content-panel.it,
+.content-panel.ua,
+.content-panel.pt,
+.content-panel.cz,
+.content-panel.zh,
+.content-panel.vn,
+.content-panel.un {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    min-height: 300px;
+}
+
+.content-panel.en {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A4052664-4-vbf6/scp-logo.svg');
+}
+
+.content-panel.ru {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A4052664-16-7kig/scp-logo-ru.svg');
+}
+
+.content-panel.ko {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A3282741-142-xwjq/scp-logo-ko-400.png');
+}
+
+.content-panel.cn {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A4052664-5-i1qi/scp-logo-cn.svg');
+}
+
+.content-panel.fr {
+    background-image: url('http://scp-jp-storage.wikidot.com/local--files/file%3A3438721-207-s1h7/scp-logo-fr.svg');
+}
+
+.content-panel.pl {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A4052664-14-gjku/scp-logo-pl.svg');
+}
+
+.content-panel.es {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A4052664-7-hx89/scp-logo-es.svg');
+}
+
+.content-panel.th {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A4052664-17-zs9r/scp-logo-th.svg');
+}
+
+.content-panel.de {
+    background-image: url('http://scp-jp-storage.wikidot.com/local--files/file:3438721-196-zbna/scp-logo-dach.svg');
+}
+
+.content-panel.it {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A4052664-11-62nv/scp-logo-it.svg');
+}
+
+.content-panel.ua {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A3282741-131-vhww/scp-logo-ua.svg');
+}
+
+.content-panel.pt {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A3282741-132-wrx0/scp-logo-pt.svg');
+}
+
+.content-panel.cz {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A3282741-130-gvk9/scp-logo-cs.svg');
+}
+
+.content-panel.zh {
+    background-image: url('http://scp-jp-storage.wikidot.com/local--files/file:3438721-158-eess/scp-logo-zh.svg');
+}
+
+.content-panel.vn {
+    background-image: url('http://scp-jp-storage.wikidot.com/local--files/file:3438721-161-fv0x/scp-logo-vn.svg');
+}
+
+.content-panel.un {
+    background-image: url('http://scp-jp-storage.wdfiles.com/local--files/file%3A4052664-10-3nlk/scp-logo-int-full.svg');
+}
+
+.wiki-link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.wiki-link a {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 20em;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 2em;
+    background: snow;
+    border: solid 1px dimgray;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    line-height: 2em;
+}
+
+@media (max-width: 850px) {
+    .wiki-link a {
+        max-width: 90%;
+    }
+}
+
+.wiki-link a[href*="http://scp-int.wikidot.com/"] {
+    background-color: lightcyan;
+    background-image: url('http://incbox.wdfiles.com/local--files/files/scp-logo-int.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+    color: navy;
+
+}
+
+[[/module]]
+
+[[div class="content-panel standalone series"]]
+このページは他の言語のSCPサイトの記事を和訳するページです。
+[[/div]]
+
+> : **目次**[[# toc]] : [#EN SCP Foundation - 英語本家] _
+> [#RU Фонд SCP - ロシア語支部] _
+> [#KO SCP 재단 - 韓国語支部] _
+> [#CN SCP基金会 - 中国語支部] _
+> [#FR Fondation SCP - フランス語支部] _
+> [#PL Fundacja SCP - ポーランド語支部] _
+> [#ES La Fundación SCP - スペイン語支部] _
+> [#TH สถาบัน SCP - タイ語支部] _
+> [#DE Stiftung SCP - ドイツ語支部] _
+> [#IT Fondazione SCP - イタリア語支部] _
+> [#UA Фонд SCP - ウクライナ語支部] _
+> [#PT Fundação SCP - ポルトガル語支部] _
+> [#CS SCP Nadace - チェコ語支部] _
+> [#ZH SCP基金會 - 繁体中国語支部] _
+> [#VN Tổ Chức SCP - ベトナム語支部] _
+> [#UN SCP財団非公式支部]
+
+[[div class="wrapper"]]
+[[div class="content-panel standalone en wide"]]
+[[div class="content-type-title"]]
++++ SCP-EN[[# EN]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://www.scp-wiki.net/ 原語版Wikiへ]
+[[/div]]
+[[div class="wide-wrapper"]]
+[[div class="contents"]]
+* [[[archived:heritage-collection|SCP財団殿堂入りコレクション-ARC]]]
+* SCP一覧
+ * [[[scp-series|SCPシリーズ-I]]]
+ * [[[scp-series-2|SCPシリーズ-II]]]
+ * [[[scp-series-3|SCPシリーズ-III]]]
+ * [[[scp-series-4|SCPシリーズ-IV]]]
+ * [[[scp-series-5|SCPシリーズ-V]]]
+ * [[[scp-series-6|SCPシリーズ-VI]]]
+ * [[[scp-series-7|SCPシリーズ-VII]]]
+ * [[[scp-series-8|SCPシリーズ-VIII]]]
+ * [[[scp-ex|SCP-EX]]]
+ * [[[joke-scps|SCP-J]]]
+ * [[[archived-scps|SCP-ARC]]]
+ * [[[archived:decommissioned-scps|SCP-D]]]
+* [[[foundation-tales|Tale一覧]]]
+ * [[[series-archive|シリーズアーカイブ]]]
+ * [[[scp-series-1-tales-edition|SCPシリーズ-I - Tale版]]]
+ * [[[scp-series-2-tales-edition|SCPシリーズ-II - Tale版]]]
+ * [[[scp-series-3-tales-edition|SCPシリーズ-III - Tale版]]]
+ * [[[scp-series-4-tales-edition|SCPシリーズ-IV - Tale版]]]
+ * [[[scp-series-5-tales-edition|SCPシリーズ-V - Tale版]]]
+ * [[[scp-series-6-tales-edition|SCPシリーズ-VI - Tale版]]]
+[[/div]]
+[[div class="contents"]]
+* [[[goi-formats|GoIフォーマット一覧]]]
+* [[[international-artwork#EN|アートワーク一覧]]]
+
+* [[[canon-hub|カノン]]]
+* [[[groups-of-interest|要注意団体]]]
+* [[[secure-facilities-locations|セキュリティ施設]]]
+* [[[task-forces|機動部隊]]]
+
+* [[[log-of-anomalous-items|Anomalousアイテム記録]]]
+* [[[log-of-extranormal-events|超常現象記録]]]
+* [[[log-of-unexplained-locations|未解明領域記録]]]
+* [[[incident-reports-eye-witness-interviews-and-personal-logs|事件ファイル]]]
+
+* [[[international-members-pages#EN|著者ページ一覧]]]
+* [[[international-guide#EN|ガイド一覧]]]
+* [[[contest-archive#EN|コンテストアーカイブ]]]
+[[/div]]
+[[span style="position: absolute; right: 20px; bottom: 20px;"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone ru"]]
+[[div class="content-type-title"]]
++++ SCP-RU[[# RU]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://scp-ru.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/ru-hub INTのRUハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[scp-list-ru|RUシリーズ-II]]]
+ * RU-EX
+ * [[[joke-scps-ru|RU-J]]]
+ * [[[archived-scps-ru|RU-ARC]]]
+ * RU-D
+ * [[[deleted-scp-ru|Deleted SCP-RU]]]
+* [[[foundation-tales-ru|Tale-RU一覧]]]
+ * シリーズアーカイブ-RU
+ * SCP-RUシリーズ-II - Tale版
+* [[[international-goi-formats|GoIフォーマット-RU一覧]]]
+* [[[international-artwork#RU|アートワーク-RU一覧]]]
+[[/div]]
+[[div class="contents"]]
+* [[[canon-hub-ru|カノン-RU]]]
+* [[[groups-of-interest-ru|要注意団体-RU]]]
+* セキュリティ施設-RU
+* 機動部隊-RU
+
+* [[[log-of-anomalous-items-ru|Anomalousアイテム記録-RU]]]
+* 超常現象記録-RU
+
+* [[[international-members-pages#RU|著者ページ-RU一覧]]]
+* [[[international-guide#RU|ガイド-RU一覧]]]
+* [[[contest-archive#RU|コンテストアーカイブ-RU]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone ko"]]
+[[div class="content-type-title"]]
++++ SCP-KO[[# KO]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://ko.scp-wiki.net/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/ko-hub INTのKOハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[scp-series-ko|KOシリーズ-I]]]
+ * [[[scp-ko-ex|KO-EX]]]
+ * [[[joke-scps-ko|KO-J]]]
+ * [[[archived-scps-ko|KO-ARC]]]
+ * [[[decommissioned-scps-ko-arc|KO-D]]]
+* [[[foundation-tales-ko|Tale-KO一覧]]]
+ * シリーズアーカイブ-KO
+ * SCP-KOシリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page2_limit/1 GoIフォーマット-KO一覧]
+* [[[international-artwork#KO|アートワーク-KO一覧]]]
+[[/div]]
+[[div class="contents"]]
+* [[[canon-hub-ko|カノン-KO]]]
+* [[[groups-of-interest-ko|要注意団体-KO]]]
+* セキュリティ施設-KO
+* 機動部隊-KO
+
+* [[[log-of-anomalous-items-ko|Anomalousアイテム記録-KO]]]
+* [[[log-of-extranormal-events-ko|超常現象記録-KO]]]
+
+* [[[international-members-pages#KO|著者ページ-KO一覧]]]
+* [[[international-guide#KO|ガイド-KO一覧]]]
+* [[[contest-archive-ko|コンテストアーカイブ-KO]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone cn"]]
+[[div class="content-type-title"]]
++++ SCP-CN[[# CN]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://scp-wiki-cn.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/cn-hub INTのCNハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[scp-series-cn|CNシリーズ-I]]]
+ * [[[scp-series-cn-2|CNシリーズ-II]]]
+ * [[[scp-series-cn-3|CNシリーズ-III]]]
+ * [[[scp-ex-cn|CN-EX]]]
+ * [[[joke-scps-cn|CN-J]]]
+ * CN-ARC
+ * CN-D
+* [[[foundation-tales-cn|Tale-CN一覧]]]
+ * [[[series-archive-cn|シリーズアーカイブ-CN]]]
+ * [[[scp-series-cn-1-tales-edition|SCP-CN一覧シリーズ-I - Tale版]]]
+ * [[[scp-series-cn-2-tales-edition|SCP-CN一覧シリーズ-II - Tale版]]]
+* [/international-goi-formats/offset/1/page3_limit/1 GoIフォーマット-CN一覧]
+* [[[international-artwork#CN|アートワーク-CN一覧]]]
+[[/div]]
+[[div class="contents"]]
+* [[[canon-hub-cn|カノン-CN]]]
+* [[[groups-of-interest-cn|要注意団体-CN]]]
+* [[[secure-facilities-locations-cn|セキュリティ施設-CN]]]
+* --機動部隊-CN--
+
+* Anomalousアイテム記録-CN
+* 超常現象記録-CN
+
+* [[[international-members-pages#CN|著者ページ-CN一覧]]]
+* [[[international-guide#CN|ガイド-CN一覧]]]
+* [[[contest-archive-cn|コンテストアーカイブ-CN]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone fr"]]
+[[div class="content-type-title"]]
++++ SCP-FR[[# FR]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://fondationscp.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/fr-hub INTのFRハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* [[[patrimoine-francais-de-la-fondation-scp|SCP財団殿堂入りコレクション-FR]]]
+* SCP一覧
+ * [[[liste-fr|FRシリーズ-I]]]
+ * FR-EX
+ * [[[joke-scps-fr|FR-J]]]
+ * FR-ARC
+ * FR-D
+* [[[foundation-tales-fr|Tale-FR一覧]]]
+ * [[[series-archive-fr|シリーズアーカイブ-FR]]]
+ * SCP-FRシリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page4_limit/1 GoIフォーマット-FR一覧]
+* [[[international-artwork#FR|アートワーク-FR一覧]]]
+[[/div]]
+[[div class="contents"]]
+* [[[centre-des-canons-francais|カノン-FR]]]
+* [[[groupes-d-interet-fr|要注意団体-FR]]]
+* セキュリティ施設-FR
+* 機動部隊-FR
+
+* Anomalousアイテム記録-FR
+* 超常現象記録-FR
+
+* [[[international-members-pages#FR|著者ページ-FR一覧]]]
+* [[[international-guide#FR|ガイド-FR一覧]]]
+* [[[contest-archive#FR|コンテストアーカイブ-FR]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone pl"]]
+[[div class="content-type-title"]]
++++ SCP-PL[[# PL]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://scp-wiki.net.pl/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/pl-hub INTのPLハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[lista-pl|PLシリーズ-I]]]
+ * PL-EX
+ * [[[joke-scps-pl|PL-J]]]
+ * [[[archived-scps-pl|PL-ARC]]]
+ * PL-D
+* [[[foundation-tales-pl|Tale-PL一覧]]]
+ * シリーズアーカイブ-PL
+ * SCP-PLシリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page5_limit/1 GoIフォーマット-PL一覧]
+* [[[international-artwork#PL|アートワーク-PL一覧]]]
+[[/div]]
+[[div class="contents"]]
+* [[[canon-hub-pl|カノン-PL]]]
+* [[[groups-of-interest-pl|要注意団体-PL]]]
+* [[[secure-facilities-locations-pl|セキュリティ施設-PL]]]
+* [[[placowki-polskiej-filii|機動部隊-PL]]]
+
+* Anomalousアイテム記録-PL
+* 超常現象記録-PL
+
+* [[[international-members-pages#PL|著者ページ-PL一覧]]]
+* [[[international-guide#PL|ガイド-PL一覧]]]
+* [[[contest-archive#PL|コンテストアーカイブ-PL]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone es"]]
+[[div class="content-type-title"]]
++++ SCP-ES[[# ES]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://lafundacionscp.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/es-hub INTのESハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[serie-scp-es|ESシリーズ-I]]]
+ * [[[scp-es-ex|ES-EX]]]
+ * [[[joke-scps-es|ES-J]]]
+ * ES-ARC
+ * ES-D
+* [[[foundation-tales-es|Tale-ES一覧]]]
+ * シリーズアーカイブ-ES
+ * SCP-ESシリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page6_limit/1 GoIフォーマット-ES一覧]
+* [[[international-artwork#ES|アートワーク-ES一覧]]]
+[[/div]]
+[[div class="contents"]]
+* [[[canon-hub-es|カノン-ES]]]
+* [[[groups-of-interest-es|要注意団体-ES]]]
+* セキュリティ施設-ES
+* 機動部隊-ES
+
+* Anomalousアイテム記録-ES
+* 超常現象記録-ES
+
+* [[[international-members-pages#ES|著者ページ-ES一覧]]]
+* [[[international-guide#ES|ガイド-ES一覧]]]
+* [[[contest-archive#ES|コンテストアーカイブ-ES]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone th"]]
+[[div class="content-type-title"]]
++++ SCP-TH[[# TH]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://scp-th.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/th-hub INTのTHハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[scp-series-th|THシリーズ-I]]]
+ * [[[scp-th-ex|TH-EX]]]
+ * [[[joke-scps-th|TH-J]]]
+ * [[[archived-scps-th|TH-ARC]]]
+ * TH-D
+* [[[foundation-tales-th|Tale-TH一覧]]]
+ * シリーズアーカイブ-TH
+ * SCP-THシリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page7_limit/1 GoIフォーマット-TH一覧]
+* [[[international-artwork#TH|アートワーク-TH一覧]]]
+[[/div]]
+[[div class="contents"]]
+* [[[th-canon-hub|カノン-TH]]]
+* [[[groups-of-interest-th|要注意団体-TH]]]
+* セキュリティ施設-TH
+* 機動部隊-TH
+
+* Anomalousアイテム記録-TH
+* 超常現象記録-TH
+
+* [[[international-members-pages#TH|著者ページ-TH一覧]]]
+* [[[international-guide#TH|ガイド-TH一覧]]]
+* [[[contest-archive#TH|コンテストアーカイブ-TH]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone de"]]
+[[div class="content-type-title"]]
++++ SCP-DE[[# DE]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://scp-wiki-de.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/de-hub INTのDEハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[scp-serie-de|DEシリーズ-I]]]
+ * [[[scp-de-ex|DE-EX]]]
+ * [[[joke-scps-de|DE-J]]]
+ * [[[archived-scps-de|DE-ARC]]]
+ * DE-D
+* [[[foundation-tales-de|Tale-DE一覧]]]
+ * シリーズアーカイブ-DE
+ * SCP-DEシリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page8_limit/1 GoIフォーマット-DE一覧]
+* [[[international-artwork#DE|アートワーク-DE一覧]]]
+[[/div]]
+[[div class="contents"]]
+* [[[canon-hub-de|カノン-DE]]]
+* [[[groups-of-interest-de|要注意団体-DE]]]
+* セキュリティ施設-DE
+* [[[mobile-task-forces-de|機動部隊-DE]]]
+
+* Anomalousアイテム記録-DE
+* 超常現象記録-DE
+
+* [[[international-members-pages#DE|著者ページ-DE一覧]]]
+* [[[international-guide#DE|ガイド-DE一覧]]]
+* [[[contest-archive#DE|コンテストアーカイブ-DE]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone it"]]
+[[div class="content-type-title"]]
++++ SCP-IT[[# IT]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://fondazionescp.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/it-hub INTのITハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[scp-it-serie-i|ITシリーズ-I]]]
+ * IT-EX
+ * IT-J
+ * [[[http://scp-jp.wikidot.com/scp-it-e-racconti-archiviati|IT-ARC]]]
+ * IT-D
+* [[[foundation-tales-it|Tale-IT一覧]]]
+ * シリーズアーカイブ-IT
+ * SCP-IT一覧シリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page9_limit/1 GoIフォーマット-IT一覧]
+* [[[international-artwork#IT|アートワーク-IT一覧]]]
+[[/div]]
+[[div class="contents"]]
+* カノン-IT
+* [[[gruppi-di-interesse|要注意団体-IT]]]
+* [[[siti-italiani|セキュリティ施設-IT]]]
+* 機動部隊-IT
+
+* Anomalousアイテム記録-IT
+* 超常現象記録-IT
+
+* [[[international-members-pages#IT|著者ページ-IT一覧]]]
+* [[[international-guide#IT|ガイド-IT一覧]]]
+* [[[contest-archive#IT|コンテストアーカイブ-IT]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone ua"]]
+[[div class="content-type-title"]]
++++ SCP-UA[[# UA]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://scp-ukrainian.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/ua-hub INTのUAハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[scp-series-ua|UAシリーズ-I]]]
+ * [[[scp-ua-ex|UA-EX]]]
+ * UA-J
+ * UA-ARC
+ * UA-D
+* [[[foundation-tales-ua|Tale-UA一覧]]]
+ * シリーズアーカイブ-UA
+ * SCP-UAシリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page10_limit/1 GoIフォーマット-UA一覧]
+* [[[international-artwork#UA|アートワーク-UA一覧]]]
+[[/div]]
+[[div class="contents"]]
+* カノン-UA
+* [[[groups-of-interest-ua|要注意団体-UA]]]
+* セキュリティ施設-UA
+* 機動部隊-UA
+
+* Anomalousアイテム記録-UA
+* 超常現象記録-UA
+
+* [[[international-members-pages#UA|著者ページ-UA一覧]]]
+* [[[international-guide#UA|ガイド-UA一覧]]]
+* [[[contest-archive#UA|コンテストアーカイブ-UA]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone pt"]]
+[[div class="content-type-title"]]
++++ SCP-PT/BR[[# PT]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://scp-pt-br.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/pt-hub INTのPTハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[series-1-pt|PTシリーズ-I]]]
+ * PT-EX
+ * [[[joke-scps-pt|PT-J]]]
+ * PT-ARC
+ * PT-D
+* Tale-PT一覧
+ * シリーズアーカイブ-PT
+ * SCP-PTシリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page11_limit/1 GoIフォーマット-PT一覧]
+* [[[international-artwork#PT-BR|アートワーク-PT一覧]]]
+[[/div]]
+[[div class="contents"]]
+* カノン-PT
+* [[[grupos-de-interesse|]]]
+* [[[instalacoes-seguras|]]]
+* 機動部隊-PT
+* [[[sobre-a-fundacao-lusofona|]]]
+* [http://scp-jp.wikidot.com/dossie-de-funcionarios ポルトガル支部のキャラクター]
+
+* Anomalousアイテム記録-PT
+* 超常現象記録-PT
+
+* [[[international-members-pages#PT|著者ページ-PT一覧]]]
+* [[[international-guide#PT|ガイド-PT一覧]]]
+* [[[contest-archive#PT|コンテストアーカイブ-PT]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone cz"]]
+[[div class="content-type-title"]]
++++ SCP-CS[[# CS]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://scp-cs.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/cs-hub INTのCSハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[scp-series-cs|CSシリーズ-I]]]
+ * CS-EX
+ * [[[joke-scps-cs|CS-J]]]
+ * CS-ARC
+ * CS-D
+ * [[[scp-series-sk|SKシリーズ-I]]]
+* [[[foundation-tales-cs|Tale-CS一覧]]]
+ * シリーズアーカイブ-CS
+ * SCP-CSシリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page12_limit/1 GoIフォーマット-CS一覧]
+* [[[international-artwork#CS|アートワーク-CS一覧]]]
+[[/div]]
+[[div class="contents"]]
+* カノン-CS
+* 要注意団体-CS
+* セキュリティ施設-CS
+* 機動部隊-CS
+
+* Anomalousアイテム記録-CS
+* 超常現象記録-CS
+
+* [[[international-members-pages#CS|著者ページ-CS一覧]]]
+* [[[international-guide#CS|ガイド-CS一覧]]]
+* [[[contest-archive#CS|コンテストアーカイブ-CS]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone zh"]]
+[[div class="content-type-title"]]
++++ SCP-ZH-TR[[# ZH]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://scp-zh-tr.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/zh-hub INTのZH-TRハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[scp-series-zh|ZHシリーズ-I]]]
+ * [[[scp-zh-ex|ZH-EX]]]
+ * [[[joke-scps-zh|ZH-J]]]
+ * ZH-ARC
+ * ZH-D
+* [[[foundation-tales-zh|Tale-ZH一覧]]]
+ * シリーズアーカイブ-ZH
+ * SCP-ZHシリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page13_limit/1 GoIフォーマット-ZH一覧]
+* [[[international-artwork#ZH-TR|アートワーク-ZH一覧]]]
+[[/div]]
+[[div class="contents"]]
+* [[[canon-hub-zh|カノン-ZH]]]
+* [[[groups-of-interest-zh|要注意団体-ZH]]]
+ * [[[groups-of-interest-zh-2|準要注意団体-ZH]]]
+* [[[secure-facilities-locations-zh|セキュリティ施設-ZH]]]
+* 機動部隊-ZH
+
+* Anomalousアイテム記録-ZH
+* 超常現象記録-ZH
+
+* [[[international-members-pages#ZH-TR|著者ページ-ZH一覧]]]
+* [[[international-guide#ZH-TR|ガイド-ZH一覧]]]
+* [[[contest-archive#ZH-TR|コンテストアーカイブ-ZH]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel standalone vn"]]
+[[div class="content-type-title"]]
++++ SCP-VN[[# VN]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://scp-vn.wikidot.com/ 原語版Wikiへ]
+[http://scp-int.wikidot.com/vn-hub INTのVNハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* SCP一覧
+ * [[[scp-series-VN|VNシリーズ-I]]]
+ * VN-EX
+ * VN-J
+ * VN-ARC
+ * VN-D
+* Tale-VN一覧
+ * シリーズアーカイブ-VN
+ * SCP-VNシリーズ-I - Tale版
+* [/international-goi-formats/offset/1/page14_limit/1 GoIフォーマット-VN一覧]
+* [[[international-artwork#VN|アートワーク-VN一覧]]]
+[[/div]]
+[[div class="contents"]]
+* カノン-VN
+* 要注意団体-VN
+* セキュリティ施設-VN
+* 機動部隊-VN
+
+* Anomalousアイテム記録-VN
+* 超常現象記録-VN
+
+* [[[international-members-pages#VN|著者ページ-VN一覧]]]
+* [[[international-guide#VN|ガイド-VN一覧]]]
+* [[[contest-archive#VN|コンテストアーカイブ-VN]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+[[div class="content-panel standalone un"]]
+[[div class="content-type-title"]]
++++ Unofficial branches[[# UN]]
+[[/div]]
+[[div class="content-type-options"]]
+[[div class="wiki-link"]]
+[http://scp-un.wikidot.com/ ULIへ]
+[http://scp-int.wikidot.com/other-hub INTのその他の支部ハブへ]
+[[/div]]
+[[div class="wrapper"]]
+[[div class="contents"]]
+* [[[scp-series-unofficial|非公式支部のSCP一覧]]]
+ * [[[joke-scp-series-unofficial|非公式支部のSCP-J一覧]]]
+ * [[[archived-scps-unofficial|非公式支部のArchived SCP一覧]]]
+* [[[foundation-tales-unofficial|非公式支部のTale一覧]]]
+* [/international-goi-formats/offset/1/page15_limit/1 非公式支部のGoIフォーマット一覧]
+* [[[international-artwork#UNOFFICIAL|非公式支部のアートワーク一覧]]]
+[[/div]]
+[[div class="contents"]]
+* 非公式支部のカノン一覧
+* 非公式支部の要注意団体一覧
+ * 要注意団体-INT
+  * [[[the-hive-hub|]]]
+ * [[[is-arhiva|要注意団体-SL]]]
+* 非公式支部のセキュリティ施設一覧
+* 非公式支部の機動部隊一覧
+ * [[[task-forces-el|機動部隊-EL]]]
+
+* [[[international-members-pages#UNOFFICIAL|非公式支部の著者ページ一覧]]]
+* [[[contest-archive#INT|コンテストアーカイブ-INT]]]
+[[/div]]
+[[span class="toc"]][#toc 目次へ][[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
