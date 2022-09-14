@@ -1,0 +1,313 @@
+[[include credit:start]]
+**タイトル:** 未解明領域記録-JP
+**著者:** ©︎SCP財団
+**作成年:** 2021
+[[include :1nu:tweet
+|color=brown
+|font=serif
+|align=left
+|mini=true
+]]
+[[include credit:end]]
+
+**前記:** 本記録は財団が収容している低脅威かつ未解明の異常領域の記録に充てられています。本記録に記載されている全ての領域は、様々な理由から現在以上の研究・収容が必要であるとは見做されていません。将来的にこれらの異常領域の知識が必要になる場合、本記録は情報源として活用される可能性があります。
+[[>]]
+-- 未詳資料/目録編纂室:81管区室長代理、転眼式見
+[[/>]]
+----
+
+[[div id="create-button"]]
+[[module ListPages category="log-of-unexplained-locations-jp" order="name desc" limit="1" wrapper="no" separate="no"]]
+[[a href="/log-of-unexplained-locations-jp:[[#ifexpr (%%name%%+1) < 10 | 0 ]][[#ifexpr (%%name%%+1) < 100 | 0 ]][[#ifexpr (%%name%%+1) < 1000 | 0 ]][[#ifexpr (%%name%%+1) < 10000 | 0 ]][[#expr %%name%%+1]]/noredirect/true/parentPage/log-of-unexplained-locations-jp/#_editpage"]]追加する[[/a]]
+[[/module]]
+[[/div]]
+[[=]]
+[[size 75%]]ページがロックされている場合、他のユーザーが記録を作成中である可能性があります[[/size]]
+[[size 75%]]しばらく待ってから再度試してください[[/size]]
+[[/=]]
+
+ソート方法: [[[/log-of-unexplained-locations-jp/order/rating desc |高評価順]]], [[[/log-of-unexplained-locations-jp/order/rating |低評価順]]], [[[/log-of-unexplained-locations-jp/order/name |古い順]]], [[[/log-of-unexplained-locations-jp/order/name desc |新しい順]]], [[[/log-of-unexplained-locations-jp/order/random |ランダム]]]
+
+[[module ListPages category="log-of-unexplained-locations-jp" order="@URL|name desc" tags="@URL|" perPage="@URL|50" name="@URL"]]
+------
+[[# %%name%%]]
+[[div class="wrap"]]
+[[iframe http://scp-jp.wikidot.com/%%fullname%%/noredirect/true?theme_url=http://scp-jp.wikidot.com/local--code/log-of-unexplained-locations-jp/2 scrolling="no"  style="width:180px; height:26px;overflow:hidden;"frameborder="0"]]
+[[span id="u-c-%%name%%-%%created_by_id%%" class="fa fa-info"]] クレジット[[/span]][[span style="background-color: #901; margin-left: 0.2em; width: 10px; height: 10px; border-radius: 50%; padding: 0.3em;border-color: #901;" class="fa fa-times"]]
+[[/span]]
+[[div_ id="u-c-%%name%%-%%created_by_id%%-hovertip"]]
+**著者:** [[*user %%created_by%%]]
+[[/div]]
+[[/div]]
+[[div class="a-content"]]
+
+**[[[*/log-of-unexplained-locations-jp/name/%%name%% |領域番号: %%form_raw{number}%%]]]**
+**概要:** %%form_raw{content}%%
+**収容日時:** %%form_raw{date}%%
+**場所:** %%form_raw{area}%%
+**保安プロトコル:** %%form_raw{protocol}%%
+
+[[footnoteblock]]
+[[>]]
+([[[*/%%fullname%%/noredirect/true/norender/true/#_editpage |編集]]])([[[*/%%fullname%%/noredirect/true |削除等]]])
+[[/>]]
+
+[[/div]]
+[[/module]]
+------
+[[include :sendoh-oroka:footnote]]
+[[module css]]
+#u-create-button {
+    display: flex;
+    justify-content: center;
+}
+#u-create-button p{
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+#u-create-button a{
+    margin: 0 2px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #F4F4F4;
+    border: 1px solid #AAA;
+    color: #000;
+}
+#u-create-button .collapsible-block-unfolded-link {
+    display: none;
+}
+
+/*Credit by 7happy7*/
+.fa-info[id*="u-c-"] {
+    height: 12px;
+}
+.fa-info[id*="u-c-"],
+.fa-info[id*="u-c-"] + .fa {
+    cursor: pointer!important;
+    display: inline-flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2em;
+    background-color: #633;
+    border: 1px solid #633;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+    font-size: 11px;
+}
+.fa-info[id*="u-c-"]:before {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0.1em;
+    background: #fff;
+    color: #633;
+    margin-right: 0.2em;
+}
+.fa-info[id*="u-c-"] + .fa {
+    display: none!important;
+}
+.fa-info[id*="u-c-"]:hover+ .fa {
+    display: inline-flex!important;
+    cursor: pointer;
+}
+
+.wrap > p {
+    display: flex;
+    margin: 0;
+    vertical-align: top;
+}
+.wrap > br {
+    display: none;
+}
+.wrap > p {
+    display: flex;
+    margin: 0;
+    vertical-align: top;
+}
+.a-content > p {
+  margin-top: 0;
+}
+
+.error-inline {
+    border: none;
+    color: #333;
+    font-size: 0;
+    user-select: none;
+}
+.error-inline em {
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: bold;
+    user-select: text;
+}
+.error-inline em:after {
+    content: " (アカウント削除済み)";
+    font-weight: normal;
+}
+[[/module]]
+
+[!--
+For _template / _404
+[[code type="css"]]
+#page-title {
+  display: none;
+}
+
+#page-content .redirect .error-block {
+  display: none!important;
+}
+
+.form-labels {
+  vertical-align: top;
+}
+
+.row-0,
+.do-not-notify {
+  display: none;
+}
+
+.form-table .form-message {
+  color: red;
+  font-weight: bold;
+}
+[[/code]]
+
+-----------
+
+For ThemePreviewer
+
+[[code type="css"]]
+#navi-bar,
+#navi-bar-shadow,
+#header,
+#side-bar,
+#page-title,
+#breadcrumbs,
+#page-info,
+.page-watch-options,
+.page-options-bottom,
+.page-tags,
+#footer,
+#license-area,
+#footer-bar,
+.odialog-shader,
+.hide-embed,
+.hiddenDisclaimer {display: none !important;}
+
+#main-content {
+  margin: 0!important;
+  padding: 0!important;
+  width: 100%!important;
+}
+body{
+margin:0!important;
+padding:0!important;
+}
+.owindow{
+position:static!important;
+width:0px;
+height:0px
+}
+#ohandle-1{
+font-size:0px!important;
+}
+.modal-header{
+font-size:0px!important;
+}
+.button-bar{
+position: absolute;
+top: 0px;
+right: 0px;
+}
+/* Page Rating Module Customizations */
+.page-rate-widget-box {
+    display: inline;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+    margin: 0;
+}
+div.page-rate-widget-box .rate-points {
+    background-color: #633;
+    border: solid 1px #633;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+}
+.page-rate-widget-box .rateup,
+.page-rate-widget-box .ratedown {
+    background-color: #fff6f0;
+    border-top: solid 1px #633;
+    border-bottom: solid 1px #633;
+    font-weight: bold;
+}
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a {
+    background: transparent;
+    color: #633;
+    padding: 0 4px;
+    margin: 0 1px;
+}
+.page-rate-widget-box .rateup a:hover,
+.page-rate-widget-box .ratedown a:hover {
+    background: #633;
+    color: #fffff0;
+    text-decoration: none;
+}
+.page-rate-widget-box .cancel {
+    background-color:  #633 !important;
+    border: solid 1px #633;
+    border-left: 0;
+    border-radius: 0 5px 5px 0;
+}
+.page-rate-widget-box .cancel a {
+    background: transparent;
+    text-transform: uppercase;
+    color: #966;
+}
+.page-rate-widget-box .cancel a:hover {
+    border-radius: 0 3px 3px 0;
+    background: #633;
+    color: #fffff0;
+    text-decoration: none;
+}
+
+.owindow .button-bar {
+    text-align: unset;
+    padding: unset;
+    margin: unset;
+}
+/* Heritage Collection Rating Module */
+.heritage-rating-module {
+    float: right;
+    background-color: #633;
+    padding: 2px 8px 2px 5px;
+    border: solid 1px #ccc066;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.heritage-rating-module .page-rate-widget-box {
+    float: right;
+    box-shadow: none;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.heritage-rating-module .heritage-emblem {
+    float: right;
+    position: relative;
+    top: -2px;
+    left: 2px;
+    height: 16px;
+    width: 16px;
+    overflow: visible;
+    margin-right: 2px;
+}
+.heritage-rating-module .heritage-emblem img {
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+[[/code]]
+--]
