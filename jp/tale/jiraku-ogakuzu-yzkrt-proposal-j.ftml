@@ -1,0 +1,311 @@
+[[module CSS]]
+/* Hide the collapsible link once it's been expanded */
+.collapsible-block-unfolded-link .collapsible-block-link, #breadcrumbs {
+  display: none;
+}
+
+/* Make superscripts not fuck with the line spacing */
+sup {
+  vertical-align: top;
+  position: relative;
+  top: -0.5em;
+}
+
+/* Haha blue boi */
+.outside {
+  margin: 2em -6em;
+  padding: 1em 10em;
+  --narration-color: rgba(214, 234, 248,1);
+  background: var(--narration-color);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, var(--narration-color) 20%, var(--narration-color) 80%, rgba(255,255,255,0) 100%);
+  z-index: -2;
+}
+
+/* Make the blue bois that are within the document have smaller margins so they break flow less*/
+.outside.inline {
+  margin: 1em -6em;
+  padding: 1px 10em;
+}
+
+/* Force the side bar to render on top of the blue bois */
+#side-bar {
+  z-index: 2;
+}
+
+/* Make my fake page title look like the original (thanks SCP-2998) */
+.page-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+.page-title p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1040px) {
+  .outside {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** Jiraku/ogakuzu/yzkrtの"提"言
+**著者:** ©[[*user Jiraku_Mogana]] [[*user ogakuzu]] [[*user yzkrt]]
+**作成年:** 2019
+[[include credit:end]]
+
+[[div class="outside"]]
+財団日本支部理事"鵺"は頭を抱えていた。先のO5の間で行われた、もったいぶって[http://ja.scp-wiki.net/yzkrt-s-proposal-j 欠番]になっていたSCP-001を決めるという会議。結局会議は紛糾し、SCP-001は決定されなかった。だがO5たちの惨状は他人ごとではない。この日本支部においての001、SCP-001-JPもいまだ欠番になっているのだ。今日の午後行われる会議でSCP-001-JPについての決議をとらなければならないが、何しろキリ番、これだと言える適切なものが決まらないのだ。やはりあの艦橋のような異常性の根幹にかかわるものがいいだろうか、それともあのランプのように財団の切り札になるようなものがいいだろうか。悩みつかれた"鵺"はひとまず気分転換に御手洗へと向かった。落ち着いて物事を考えるのはやはり個室に限る。出ない答えとは裏腹に出る糞便にため息も漏らしながら、トイレットペーパーを一捲り取った時、"鵺"に電撃が走った。
+[[/div]]
+
+----
+> やぁ諸君、私は紛うことなき提言を見つけたぞ。 - 財団日本支部理事"鵺"
+
+> 奇遇ですね。わたしもぴったりの提言を見つけましたよ。 - 財団日本支部理事"鳳林"
+
+> 私も完璧な提言を見つけたよ。 - 財団日本支部理事"若山"
+
+> 素晴らしいことです。どうでしょう、皆さんで一斉に提出してみては。 -財団日本支部理事"稲妻"
+
+> うむ、では‥‥。- 財団日本支部理事"鵺"
+
+[[<image "鵺"の提言 width="300px"]]
+
+[[=image "鳳林"の提言 width="300px"]]
+
+[[>image "若山"の提言 width="300px"]]
+
+> 言を提げるで提言か。これほどまでに提言らしい提言、今まで見たこと無いぞ。 - 財団日本支部理事"千鳥"
+
+> いや皆さん、ちょっと待って下さい。 - 財団日本支部理事"獅子"
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+> [[size 2000%]]提[[/size]] - 財団日本支部理事"獅子"
+@@@@
+@@@@
+
+> うるせぇ！ - 財団日本支部理事"稲妻"
+
+> 私も提言をと思ってね。提を言うということで提言‥‥ - 財団日本支部理事"獅子"
+
+> 真面目に考えてください。 - 財団日本支部理事"鳳林"
+
+> ここはふざける場ではありませんよ。 - 財団日本支部理事"若山"
+
+> もっと本質を見た議論をお願いします。 - 財団日本支部理事"千鳥"
+
+> えぇ‥‥ - 財団日本支部理事"獅子"
+
+@@@@
+@@@@
+
+> まぁ"獅子"はさておきこれが提言で異論はないな？ - 財団日本支部理事"鵺"
+
+> ええ。(くしゃみ) 失礼、最近夏花粉が出てきて。‥‥‥あっ。 - 財団日本支部理事"千鳥"
+
+
+[[=image 提言だったもの width="300px"]]
+
+@@@@
+@@@@
+
+[[=]]
+[[span style="font-size:300%;font-family: HGP行書体; "]]Neutralized　認定[[/span]]
+[[/=]]
+
+------
+
+@@@@
+@@@@
+[[div style="float:right; margin:0 1em;"]]
+[[image http://scp-jp.wdfiles.com/local--files/japanese-area-directors/sign-s.jpg width="120px"]]
+[[/div]]
+[[div style="text-align:right; font-size:150%; height:120px;"]]
+[[size 90%]]2019年 6月 20日[[/size]]
+財団日本支部理事会
+日本支部理事"鵺"
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+> あぁ私の提言が‥‥ - 財団日本支部理事"鵺"
+
+> 大丈夫です、まだ私と"鳳林"の提言が残っています。 - 財団日本支部理事"若山"
+
+> でもあなたのはダメでしょう。 - 財団日本支部理事"升"
+
+> なぜダメなんです？納得のいく"説明"が欲しいですね。 - 財団日本支部理事"若山"
+
+> だってこれをめくると‥‥ - 財団日本支部理事"升"
+
+[[=image こうして width="300px"]]
+
+[[=image こうじゃ width="300px"]]
+
+@@@@
+@@@@
+
+[[=]]
+[[span style="font-size:300%;font-family: HGP行書体; "]]Explained　認定[[/span]]
+[[/=]]
+
+------
+
+@@@@
+@@@@
+[[div style="float:right; margin:0 1em;"]]
+[[image http://scp-jp.wdfiles.com/local--files/japanese-area-directors/sign-s.jpg width="120px"]]
+[[/div]]
+[[div style="text-align:right; font-size:150%; height:120px;"]]
+[[size 90%]]2019年 6月 20日[[/size]]
+財団日本支部理事会
+日本支部理事"若山"
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+> はぁ‥‥冷静になってください。こんな意味もない薄っぺらいのが提言になるわけないでしょう。 - 財団日本支部理事"稲妻"
+
+> そうですよ。こんなの切り捨ててしまいま──── - 財団日本支部理事"升"
+
+> 待ってください！切り込みが入ったこの提言を！つまりこれは財団の"切り"札！ - 財団日本支部理事"鳳林"
+
+[[=image 切り札 width="300px"]]
+
+@@@@
+@@@@
+
+[[=]]
+[[span style="font-size:300%;font-family: HGP行書体; "]]Thaumiel　認定[[/span]]
+[[/=]]
+
+------
+
+@@@@
+@@@@
+[[div style="float:right; margin:0 1em;"]]
+[[image http://scp-jp.wdfiles.com/local--files/japanese-area-directors/sign-s.jpg width="120px"]]
+[[/div]]
+[[div style="text-align:right; font-size:150%; height:120px;"]]
+[[size 90%]]2019年 6月 20日[[/size]]
+財団日本支部理事会
+日本支部理事"稲妻"
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+> いやいやいや、財団の切り札って、そもそも財団要素ないじゃないですか！ - 財団日本支部理事"升"
+
+> ム、確かに‥‥ - 財団日本支部理事"鵺"
+
+> そうです。001提言なら財団と深い関わりが無いと。 - 財団日本支部理事"升"
+
+
+> おや、"鵺"の提言‥‥下の方に何かありませんか？ - 財団日本支部理事"千鳥"
+
+[[=image 全体 width="300px"]]
+
+[[include component:image-block
+name=拡大 |
+caption=[http://ja.scp-wiki.net/necos-kitchen 財団日本支部地下で培養されたバイオ財団ロゴ(遺伝子組み換えでない) ]|
+width=350px| 
+align=center|
+]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[=]]
+[[span style="font-size:300%;font-family: HGP行書体; "]]001提言　認定[[/span]]
+[[/=]]
+
+------
+
+@@@@
+@@@@
+[[div style="float:right; margin:0 1em;"]]
+[[image http://scp-jp.wdfiles.com/local--files/japanese-area-directors/sign-s.jpg width="120px"]]
+[[/div]]
+[[div style="text-align:right; font-size:150%; height:120px;"]]
+[[size 90%]]2019年 6月 20日[[/size]]
+財団日本支部理事会
+日本支部理事"升"
+[[/div]]

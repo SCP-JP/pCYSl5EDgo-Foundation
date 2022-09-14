@@ -1,0 +1,98 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+[[module css]]
+@import url('http://scp-jp.wdfiles.com/local--code/component%3Aaf2018theme');
+@import url("http://ja.scp-wiki.net/good-bye-crab-format/code/2");
+[[/module]]
+[[include :scp-jp-sandbox2:inc:changepagetitle |
+TITLE=SCP漁団|
+COLOR=#EEE]]
+[!--
+[[code type="css"]]
+#page-title {
+    position: relative;
+}
+#page-title:before {
+    content: "🦀";
+    position: absolute;
+    font-size: 5em;
+    -webkit-animation: jump 4s linear 0s infinite alternate;
+    animation: jump 4s linear 0s infinite alternate;
+}
+#page-title:after {
+    content: "🦀";
+    position: absolute;
+    font-size: 5em;
+    -webkit-animation: jump 2s linear 0s infinite alternate-reverse;
+    animation: jump 2s linear 0s infinite alternate-reverse;
+}
+#content-wrap:after {
+    content: "🦀";
+    position: absolute;
+    font-size: 2em;
+    -webkit-animation: jump 4s linear 0s infinite;
+    animation: jump 4s linear 0s infinite;
+}
+#main-content:before {
+    content: "🦀";
+    position: absolute;
+    font-size: 2em;
+    -webkit-animation: jump 4s linear 0s infinite alternate;
+    animation: jump 4s linear 0s infinite alternate;
+}
+#side-bar:before {
+    content: "🦀";
+    position: absolute;
+    top: 80px;
+    font-size: 2em;
+    -webkit-animation: jump2 4s linear 0s infinite alternate;
+    animation: jump2 4s linear 0s infinite alternate;
+}
+#side-bar:after {
+    content: "🦀";
+    position: absolute;
+
+    top: 80px;
+    font-size: 2em;
+    -webkit-animation: jump 4s linear 0s infinite alternate-reverse;
+    animation: jump 4s linear 0s infinite alternate-reverse;
+}
+[[/code]]
+[[code type="css"]]
+div#container-wrap {
+    background: url(http://scp-jp.wdfiles.com/local--files/component%3Aaf2018theme/body_bg-2.png) top left repeat-x;
+}
+#header {
+    background: none;
+}
+#header h2 {
+    display: none;
+}
+#login-status:before {
+    content: none;
+}
+#container:after {
+    content: none;
+}
+
+#container:before {
+    content: none;
+}
+[[/code]]
+--]
+> **voodoobuzz:** oh shit!!!
+> **tobidasu_yahata_kun:** どうしたんだvoodoobuzz！そんな汚い言葉遣いして！
+> **voodoobuzz:** 見てくれyahata！ 俺のよく行くwebサイトがこんなにも蟹まみれ！ 俺は甲殻類アレルギーだってのに、ちくしょう！
+> **tobidasu_yahata_kun:** ワーオこれはひどい……！ でも大丈夫さ！ わたしの作ったコードがあれば、こんな蟹すぐいなくなるぜ！
+> **voodoobuzz:** できればヘッダーのこのイカしたデザインだけはそのままにしておいてくれ！
+> **tobidasu_yahata_kun:** お安い御用さ！ わたしと君との仲じゃないか！ 以下のコードをソースの何処かに(自己責任で)貼り付けるんだ！
+
+[[code]]
+[[module css]]
+@import url("http://ja.scp-wiki.net/good-bye-crab-format/code/1");
+[[/module]]
+[[/code]]
+
+> **voodoobuzz:** 最高だ！ 俺が求めていたのはこのデザインなんだ！ ヒャッホー！ これで最高のエイプリルフールが過ごせそうだ！ これでみーんな救われた！ ありがとうyahata！
+> **tobidasu_yahata_kun:** (スーパーパワーで何処かへ翔び去る音)

@@ -1,0 +1,720 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div style="border: 4px solid #82636b;border-radius: 240px 15px 185px 15px / 15px 200px 15px 185px;margin: 1em 0;padding: 1em;"]]
+[[=]]
+[[size 150%]]SCPに関する詩を投稿するページです。
+詩のジャンルは問いません。追加は自由です。[[/size]]
+[[/=]]
+[[size x-large]][[collapsible show="投稿の手順" hide="投稿の手順"]][[/size]]
+++ **1.作成ボタンをクリック**
+下の"詩を作成する"というボタンをクリックしてください。
+
+++ **2.必要事項を記入→保存**
+ボタンをクリックすると以下のような画面に移ります。次の必要事項に記入してください。
+
+[[=image http://ja.scp-wiki.net/local--files/scp-poem/explanations]]
+# **タイトル** - その詩の題材となっている記事のタイトル（SCP-XXX-JPなど)を記述してください。題材が複数ある場合はカンマで区切るなどしてすべて記述しても構いません。
+# **本文** - あなたの詩の本文を記述してください。
+# **記事のURL** - 題材にした記事のURLを記述してください。題材にした記事が複数の場合は、どれか一つのURLを代表として記述してください。
+
+すべての項目を記述したら、最後に保存ボタンを押してください。これで投稿は完了です。
+
+++ **3.投稿後の編集・削除**
+投稿した詩は後から編集することができます。編集をしたい場合は自分の詩の右下にある（編集）のリンクをクリックして編集してください。
+
+また、投稿した詩を削除したい場合は、同じく自分の下の右下にある（削除）をクリックし、移動先のページの指示に従ってページを削除してください。
+
+削除が完了したら[[[http://ja.scp-wiki.net/forum/t-12464623/|合作参加記事削除の通知･報告スレッド]]]へ自主的に削除した旨を報告して下さい。
+[[/collapsible]]
+[[/div]]
+------
+[[div id="create-button"]]
+[[a class="button" href="/poem:new-item/title/poem/parentPage/scp-poem/#_editpage"]]詩を作成する[[/a]]
+[[/div]]
+ソート方法: [[[/scp-poem/order/rating desc |高評価順]]], [[[/scp-poem/order/rating |低評価順]]], [[[/scp-poem/order/created_at |古い順]]], [[[/scp-poem/order/created_at desc |新しい順]]], [[[/scp-poem/order/random |ランダム]]]
+
+[[module css]]
+/*
+詩を作成の見た目をボタンっぽく
+*/
+#u-create-button p{
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+#u-create-button p a{
+    padding: 10px;
+}
+/*
+クレジット
+作成者様:7happy7
+*/
+.fa-info[id*="u-c-"],
+.fa-info[id*="u-c-"] + .fa {
+    cursor: pointer!important;
+    display: inline-flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2em;
+    background-color: #633;
+    border: 1px solid #633;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+    font-size: 11px;
+}
+.fa-info[id*="u-c-"]:before {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0.1em;
+    background: #fff;
+    color: #633;
+    margin-right: 0.2em;
+}
+.fa-info[id*="u-c-"] + .fa {
+    display: none!important;
+}
+.fa-info[id*="u-c-"]:hover+ .fa {
+    display: inline-flex!important;
+    cursor: pointer;
+}
+
+body{
+-webkit-text-size-adjust: 110%;
+}
+.vpoem{
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+    height: 5px;
+}
+::-webkit-scrollbar-track{
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background: #eee;
+}
+.vpoem{
+text-indent: 0;
+-webkit-writing-mode: vertical-rl;
+writing-mode: vertical-rl;
+margin: auto;
+margin-bottom:0.5em;
+font-size:2.5em;
+font-family: 'KaiTi', 'MS PMincho', 'STKaiti', 'HiraMinProN-W6', 'Hiragino Kaku Gothic Pro', 'MS PGothic', serif;
+}
+
+.vpoem p{
+line-height: 1.4;
+margin:0 auto;
+}
+
+.vpoem tt{
+    vertical-align: middle;
+font-family: 'KaiTi', 'MS PMincho', 'STKaiti', 'HiraMinProN-W6', 'Hiragino Kaku Gothic Pro', 'MS PGothic', serif;
+}
+
+@media screen and (max-width: 767px) { 
+.vpoem{
+font-size:1.5em;
+}
+}
+
+span[style="text-decoration: line-through;"]{
+display: -webkit-inline-flex; /* Safari */
+  display: inline-flex;
+  -webkit-flex-direction: column; /* Safari */
+  flex-direction:         column;
+vertical-align: bottom;
+}
+
+span[style="text-decoration: line-through;"]>tt{
+font-size: 50%;
+line-height: 0.5em;
+}
+.tategaki span[style="text-decoration: line-through;"]>tt{
+line-height: 1em;
+}
+.tategaki span[style="text-decoration: line-through;"]{
+vertical-align: 0.3em;
+}
+.tategaki blockquote {
+    padding: 2em .5em;
+}
+
+.tategaki tt {
+    vertical-align: middle;
+    font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+.tategaki .henoji:before {
+    content: "〳〵";
+    color: rgba(51,51,51,1.0);
+    opacity: 1;
+    transform: scale(1,1)rotateX(0) translateY(0);
+}
+
+.tategaki .dhenoji:before {
+    content: "〴〵";
+    color: rgba(51,51,51,1.0);
+    opacity: 1;
+    transform: scale(1,1)rotateX(0) translateY(0);
+}
+
+.tategaki .dhenoji:after {
+    content: "";
+    color: rgba(51,51,51,1.0);
+    opacity: 1;
+    transform: scale(1,1)rotateX(0) translateY(0);
+}
+
+.tategaki {
+    -webkit-columns-axis: vertical;
+    -moz-columns: auto 20em;
+    -moz-column-gap: 20px;
+    -moz-column-rule: 1px solid #ddd;
+    -moz-column-fill: auto;
+    -webkit-columns: auto 20em;
+    -webkit-column-gap: 20px;
+    -webkit-column-rule: 1px solid #ddd;
+    -webkit-column-fill: auto;
+    columns: auto 20em;
+    column-gap: 20px;
+    column-rule: 1px solid #ddd;
+    column-fill: auto;
+    font-size: small;
+    overflow-y: scroll;
+    width: calc(100% + 3em);
+    padding-right: 2em;
+    writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+.tategaki {
+    -webkit-column-axis: vertical;
+    -moz-columns: auto 20em;
+    -moz-column-gap: 20px;
+    -moz-column-rule: 1px solid #ddd;
+    -moz-column-fill: auto;
+    -webkit-columns: auto 20em;
+    -webkit-column-gap: 20px;
+    -webkit-column-rule: 1px solid #ddd;
+    -webkit-column-fill: auto;
+    columns: auto 20em;
+    column-gap: 20px;
+    column-rule: 1px solid #ddd;
+    column-fill: auto;
+    font-size: small;
+    width: calc(100% + 3em);
+    padding-right: 2em;
+    writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .tategaki{
+        overflow-y: scroll;
+    }
+}
+
+.henoji:before {
+    content: "へ";
+    color: rgba(51,51,51,1.0);
+    opacity: 1;
+    transform: scale(1.9,1)rotateX(180deg) translateY(-0.08em);
+    position: absolute;
+    display: inline-block;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    z-index: 1;
+}
+
+.henoji {
+    position: relative;
+    width: 1em;
+    white-space: pre;
+    display: inline-block;
+    padding: 0 .5em;
+    color: rgba(51,51,51,0);
+}
+
+.dhenoji:before {
+    content: "へ";
+    color: rgba(51,51,51,1.0);
+    opacity: 1;
+    transform: scale(1.9,1)rotateX(180deg) translateY(-0.08em);
+    position: absolute;
+    display: inline-block;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    z-index: 1;
+}
+
+.dhenoji {
+    position: relative;
+    width: 1em;
+    white-space: pre;
+    display: inline-block;
+    padding: 0 .5em;
+    color: rgba(51,51,51,0);
+}
+
+.dhenoji:after {
+    position: absolute;
+    color: rgba(51,51,51,1.0);
+    content: "゛";
+    top: .07em;
+    left: .6em;
+    z-index: 1;
+}
+
+.hdhenoji:before {
+    content: "へ";
+    color: rgba(51,51,51,1.0);
+    opacity: 1;
+    transform: scale(1.9,1)rotateX(180deg) translateY(-0.08em);
+    position: absolute;
+    display: inline-block;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    z-index: 1;
+}
+
+.hdhenoji {
+    position: relative;
+    width: 1em;
+    white-space: pre;
+    display: inline-block;
+    padding: 0 .5em;
+    color: rgba(51,51,51,0);
+}
+
+.hdhenoji:after {
+    position: absolute;
+    color: rgba(51,51,51,1.0);
+    content: "゜";
+    top: .07em;
+    left: .6em;
+    z-index: 1;
+}
+
+span[style="text-decoration: underline;"] tt {
+    position: relative;
+    text-decoration: none;
+}
+
+span[style="text-decoration: underline;"] tt::before {
+    content: '';
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: .25em;
+    background: -webkit-linear-gradient(315deg,transparent,transparent 45%,#000,transparent 55%,transparent 100%),-webkit-linear-gradient(45deg,transparent,transparent 45%,#000,transparent 55%,transparent 100%);
+    background: linear-gradient(135deg,transparent,transparent 45%,#000,transparent 55%,transparent 100%),linear-gradient(45deg,transparent,transparent 45%,#000,transparent 55%,transparent 100%);
+    background-size: .5em .5em;
+    background-repeat: repeat-x,repeat-x;
+}
+
+.namisen {
+    position: relative;
+}
+
+.namisen::before {
+    content: '';
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: .25em;
+    background: -webkit-linear-gradient(315deg,transparent,transparent 45%,#000,transparent 55%,transparent 100%),-webkit-linear-gradient(45deg,transparent,transparent 45%,#000,transparent 55%,transparent 100%);
+    background: linear-gradient(135deg,transparent,transparent 45%,#000,transparent 55%,transparent 100%),linear-gradient(45deg,transparent,transparent 45%,#000,transparent 55%,transparent 100%);
+    background-size: .5em .5em;
+    background-repeat: repeat-x,repeat-x;
+}
+
+.warning {
+    position: relative;
+}
+
+.warning::before {
+    content: '';
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: .25em;
+    background: -webkit-linear-gradient(315deg,transparent,transparent 45%,#f00,transparent 55%,transparent 100%),-webkit-linear-gradient(45deg,transparent,transparent 45%,#f00,transparent 55%,transparent 100%);
+    background: linear-gradient(135deg,transparent,transparent 45%,#f00,transparent 55%,transparent 100%),linear-gradient(45deg,transparent,transparent 45%,#f00,transparent 55%,transparent 100%);
+    background-size: .5em .5em;
+    background-repeat: repeat-x,repeat-x;
+}
+
+tt {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 1em;
+    display: inline-table;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1;
+    height: 1em;
+    vertical-align: calc(1em - 1px);
+    text-indent: 0%;
+}
+
+tt>sup {
+    display: table-header-group;
+    font-size: .6em;
+    line-height: 1.1;
+    text-align: center;
+    white-space: pre;
+}
+
+tt>sub {
+    -webkit-text-emphasis-style: filled sesame;
+    text-emphasis-style: filled sesame;
+    font-size: 1em;
+    vertical-align: calc(-1em + 1px);
+}
+
+tt>em {
+    font-style: normal;
+    -webkit-text-emphasis-style: filled dot;
+    text-emphasis-style: filled dot;
+    vertical-align: calc(-1em + 1px);
+}
+/* For FireFox */
+/*
+@-moz-document url-prefix() {
+tt>em {
+    /* For the environments which comply with CSS3. */
+
+}
+
+tt>em {
+/* For the environments which comply with CSS3. */
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAbElEQVRYw+3TQQ6AIAxEUcZw/yuXlYkRKaPEhMXvnsfQFkVElIU6Vg5vCEgqkr4DZz/fQN0TrkNxkMce3JEMGjbRXQ97CqMUKeCk+H+RZimqc0uGbPYXAAAAAAAAAAAAAAAAAAAAAAAAAACSajbCGcGsSkirAAAAAElFTkSuQmCC) ,none;
+    background-repeat: repeat-x;
+    padding: .5em 0 0;
+    background-color: transparent;
+    background-clip: padding-box,content-box;
+    background-size: 1em 1.3em,auto;
+}    
+}
+
+/* For IE10 */
+@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
+    tt>sub {
+    /* For the environments which comply with CSS3. */
+        font-family: monospace;
+        font-style: normal;
+        font-weight: 400;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAXElEQVRYw+3RMQrAIAwF0ER6/yunWweptmALDs8pInkk36yqioXTVpojIo7RQ2Ze9WzI9tR8d/90hX+AfudZBsMQ3/7uphkAAAAAAAAAAAAAAAAAAAAAAABgU+AEkmQQveksCV0AAAAASUVORK5CYII=),none;
+        background-repeat: repeat-x;
+        padding: .5em 0 0;
+        background-color: transparent;
+        background-clip: padding-box,content-box;
+        background-size: 1em 1.3em,auto;
+    }
+
+    tt>em {
+    /* For the environments which comply with CSS3. */
+        font-family: monospace;
+        font-style: normal;
+        font-weight: 400;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAbElEQVRYw+3TQQ6AIAxEUcZw/yuXlYkRKaPEhMXvnsfQFkVElIU6Vg5vCEgqkr4DZz/fQN0TrkNxkMce3JEMGjbRXQ97CqMUKeCk+H+RZimqc0uGbPYXAAAAAAAAAAAAAAAAAAAAAAAAAACSajbCGcGsSkirAAAAAElFTkSuQmCC) ,none;
+        background-repeat: repeat-x;
+        padding: .5em 0 0;
+        background-color: transparent;
+        background-clip: padding-box,content-box;
+        background-size: 1em 1.3em,auto;
+    }
+}
+
+*/
+.reddel {
+    position: relative;
+}
+
+.reddel:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 40%;
+    bottom: 40%;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+.kenten-b {
+    -webkit-text-emphasis-style: filled dot;
+    text-emphasis-style: filled dot;
+}
+
+.kenten-c {
+    -webkit-text-emphasis-style: filled circle;
+    text-emphasis-style: filled circle;
+}
+
+.kenten-janome {
+    -webkit-text-emphasis-style: filled double-circle;
+    text-emphasis-style: filled double-circle;
+}
+
+.kenten-t {
+    -webkit-text-emphasis-style: filled triangle;
+    text-emphasis-style: filled triangle;
+}
+
+.kenten-goma {
+    -webkit-text-emphasis-style: filled sesame;
+    text-emphasis-style: filled sesame;
+}
+
+.kenten-wb {
+    -webkit-text-emphasis-style: open dot;
+    text-emphasis-style: open dot;
+}
+
+.kenten-wc {
+    -webkit-text-emphasis-style: open circle;
+    text-emphasis-style: open circle;
+}
+
+.kenten-doublec {
+    -webkit-text-emphasis-style: open double-circle;
+    text-emphasis-style: open double-circle;
+}
+
+.kenten-wt {
+    -webkit-text-emphasis-style: open triangle;
+    text-emphasis-style: open triangle;
+}
+
+.kenten-wgoma {
+    -webkit-text-emphasis-style: open sesame;
+    text-emphasis-style: open sesame;
+}
+
+.kenten-hoshi {
+    -webkit-text-emphasis-style: "★";
+    text-emphasis-style: "★";
+}
+
+.kenten-kane {
+    -webkit-text-emphasis-style:"¥";
+    text-emphasis-style: "¥";
+}
+
+.bousen {
+    text-decoration: overline;
+}
+
+[[/module]]
+
+[!--
+//thank you 遠野司書
+--]
+
+[[module css]]
+
+div.pseudo-tags ul {
+    font-size: 85%;
+    border-top: 1px solid #BBB;
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 0 2px;
+    list-style: none;
+}
+
+div.pseudo-tags li {
+    color: #b01;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+div.pseudo-tags li:hover {
+    text-decoration: underline;
+}
+
+[[/module]]
+
+[[div class="listpage-margin"]]
+[[module ListPages category="poem" tags="@URL" order="@URL|name desc" perPage="10"]]
+[[# %%name%%]]
+[[div style="height:36px;"]]
+[[iframe http://ja.scp-wiki.net/%%fullname%%/noredirect/true?theme_url=http://ja.scp-wiki.net/local--code/scp-poem/1 scrolling="no"  style="width:230px; height:26px;overflow:hidden;"frameborder="0"]]
+[[span id="u-c-%%name%%-%%created_by_id%%" class="fa fa-info"]] クレジット[[/span]][[span style="background-color: #901; margin-left: 0.2em; width: 10px; height: 10px; border-radius: 50%; padding: 0.3em;border-color: #901;" class="fa fa-times"]]
+[[/span]]
+[[div_ id="u-c-%%name%%-%%created_by_id%%-hovertip"]]
+[[*user %%created_by%%]] - %%created_at|%Y/%m/%d%%
+[[/div]]
+[[/div]]
+[[div class="vpoem"]]
+[[size smaller]]
+%%form_raw{desc}%%
+[[/size]]
+[[/div]]
+[[>]]
+[%%form_raw{url}%% %%title%%]
+([[[*/%%fullname%%/norender/true#_editpage |編集]]])([[[*/%%fullname%%/noredirect/true |削除等]]])
+[[/>]]
+-----
+[[/module]]
+[[/div]]
+[[module css]]
+.vpoem{
+  margin-top: 0.5em;
+}
+.listpage-margin .list-pages-item{
+margin-top: 50px;
+}
+[[/module]]
+
+[!--
+[[code type="css"]]
+#navi-bar,
+#navi-bar-shadow,
+#header,
+#side-bar,
+#page-title,
+#breadcrumbs,
+#page-info,
+.page-watch-options,
+.page-options-bottom,
+.page-tags,
+#footer,
+#license-area,
+#footer-bar,
+.odialog-shader,
+.hide-embed,
+.hiddenDisclaimer {display: none !important;}
+
+#main-content {
+  margin: 0!important;
+  padding: 0!important;
+  width: 100%!important;
+}
+body{
+margin:0!important;
+padding:0!important;
+}
+.owindow{
+position:static!important;
+width:0px;
+height:0px
+}
+#ohandle-1{
+font-size:0px!important;
+}
+.modal-header{
+font-size:0px!important;
+}
+.button-bar{
+position: absolute;
+top: 0px;
+right: 0px;
+}
+/* Page Rating Module Customizations */
+.page-rate-widget-box {
+    display: inline;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+    margin-bottom: 10px;
+    margin-right: 2em;
+}
+div.page-rate-widget-box .rate-points {
+    background-color: #633;
+    border: solid 1px #633;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+}
+.page-rate-widget-box .rateup,
+.page-rate-widget-box .ratedown {
+    background-color: #fff6f0;
+    border-top: solid 1px #633;
+    border-bottom: solid 1px #633;
+    font-weight: bold;
+}
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a {
+    background: transparent;
+    color: #633;
+    padding: 0 4px;
+    margin: 0 1px;
+}
+.page-rate-widget-box .rateup a:hover,
+.page-rate-widget-box .ratedown a:hover {
+    background: #633;
+    color: #fffff0;
+    text-decoration: none;
+}
+.page-rate-widget-box .cancel {
+    background-color:  #633 !important;
+    border: solid 1px #633;
+    border-left: 0;
+    border-radius: 0 5px 5px 0;
+}
+.page-rate-widget-box .cancel a {
+    background: transparent;
+    text-transform: uppercase;
+    color: #966;
+}
+.page-rate-widget-box .cancel a:hover {
+    border-radius: 0 3px 3px 0;
+    background: #633;
+    color: #fffff0;
+    text-decoration: none;
+}
+/* Heritage Collection Rating Module */
+.heritage-rating-module {
+    float: right;
+    background-color: #633;
+    padding: 2px 8px 2px 5px;
+    border: solid 1px #ccc066;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.heritage-rating-module .page-rate-widget-box {
+    float: right;
+    box-shadow: none;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.heritage-rating-module .heritage-emblem {
+    float: right;
+    position: relative;
+    top: -2px;
+    left: 2px;
+    height: 16px;
+    width: 16px;
+    overflow: visible;
+    margin-right: 2px;
+}
+.heritage-rating-module .heritage-emblem img {
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+[[/code]]
+--]
