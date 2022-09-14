@@ -1,0 +1,922 @@
+[[include component:jstyles]]
+[[include :scp-jp:theme:mujin-getsudo]]
+
+[[include credit:start]]
+**タイトル:** あるドイツ人考古学者の手記～第3部
+**著者:** ©︎[[*user dr_toraya]]
+**作成年:** 2020
+[[include credit:end]]
+
+
+[[div class="normalFontTime"]]
+[[iframe http://scp-jp.wikidot.com/tale-1921-jp-3/code/1 width="100%" height="500px" scrolling="no"]]
+[[/div]]
+
+[[div style="text-align:center; color: black; border: solid 1px #000000; background:#444444 url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat; padding:5px; margin-bottom: 10px;"]]
+**[[[http://scp-jp.wikidot.com/tale-1921-jp/offset/1/page2_limit/1|≪第2部へ戻る]]]**
+[[/div]]
+
+[!--
+[[code type="html"]]
+<html>
+<head>
+<meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+<script src='http://cdn.rawgit.com/phi-jp/phina.js/v0.2.0/build/phina.min.js'></script>
+<script type="text/javascript">
+phina.globalize();
+ 
+var level = 0;
+var life = 3;
+var score = 0;
+var combo = 0;
+var maxcombo = 0;
+var maxlevel = 0;
+var maxscore = 0;
+
+var button9 = [];
+var button_ok;
+var button_pause;
+var answers = [];
+var centerlabel;
+var actionlabel;
+var actionlabeltimer;
+var turntimer;
+var basescene;
+var answerindex;
+var b9lavels = ["Rin","Pyo","Tou","Sha","Kai","Jin","Let","Zai","Zen"];
+var BUTTON_MAX=4;
+var hearts;
+var ninjaimg;
+var bgimg;
+
+var lavelgroup;
+var spritegroup;
+var uigroup;
+
+var levellabel;
+var scorelabel;
+var combolabel;
+
+var READY_TURN=0;
+var ENEMY_TURN=1;
+var PLAYER_TURN=2;
+var SUCCESS_TURN=3;
+var DEAD_TURN=4;
+var MISS_TURN=5;
+var whichturn =READY_TURN;
+var TITLEJP = 'ある考古学者の手記 第3部';
+var TITLE = 'Anmerkung des Archäologen';
+
+var ASSETS = {
+  // 画像
+  image: {
+    'ninja1':'http://scp-jp.wdfiles.com/local--files/tale-1921-jp-3/ninja-153355_640.png',
+    'ninja2':'http://scp-jp.wdfiles.com/local--files/tale-1921-jp-3/ninja-153354_640.png',
+    'ninja3':'http://scp-jp.wdfiles.com/local--files/tale-1921-jp-3/ninja-2288747_1920.png',
+    'ninja4':'http://scp-jp.wdfiles.com/local--files/tale-1921-jp-3/silhouette-3276834_640.png',
+    'ninja5':'http://scp-jp.wdfiles.com/local--files/tale-1921-jp-3/man-2357730_640.png',
+    'ninja6':'http://scp-jp.wdfiles.com/local--files/tale-1921-jp-3/ninja-2007576_1280.jpg',
+    'holygrail':'http://scp-jp.wdfiles.com/local--files/tale-1921-jp-3/holygrail.png',
+    	'grow': 'http://scp-jp.wdfiles.com/local--files/tale-1921-jp-3/glow.png',
+    	'bg':'http://scp-jp.wdfiles.com/local--files/tale-1921-jp-3/castle.jpg',
+  },
+};
+
+phina.main(function() {
+  //作成したManagerSceneを使うにはこれが必要
+  var app = GameApp(
+    {
+      assets: ASSETS, // アセット読み込み
+      startLabel:'MainScene',
+      scenes: [
+        {
+          label: 'MainScene',
+          className: 'MainScene',
+          arguments: { assets: ASSETS },
+        },
+        {
+          label: "SubScene",
+          className: "SubScene",
+        },
+        {
+          label: "PauseScene",
+          className: "PauseScene",
+        },
+        {
+          label: "GameOverScene",
+          className: "GameOverScene",
+        },
+      ]
+    }
+  );
+  //document.body.appendChild(app.domElement);
+  //app.replaceScene(MyManagerScene());
+ 
+  app.run();
+});
+
+phina.define('BaseScene', {
+  superClass: "phina.display.DisplayScene",
+ 
+  init: function() {
+    this.superInit();
+ 
+    var chkAndroid = navigator.userAgent.indexOf("Android")>0;
+ 
+    spritegroup = DisplayElement().addChildTo(this);
+    lavelgroup = DisplayElement().addChildTo(this);
+    uigroup = DisplayElement().addChildTo(this);
+ 
+    centerlabel =Label({
+      fontSize:60,
+      fontWeight:"bold",
+      align:"center",
+      baseline:"bottom",
+      padding:10,
+      fill:"white",
+      stroke:"black",
+      strokeWidth:12,
+      }).addChildTo(lavelgroup);
+    centerlabel.x = this.gridX.center();
+    centerlabel.y = this.gridY.center()+50;
+ 
+    actionlabel = Label({
+      fontSize:40,
+      fontWeight:"bold",
+      align:"right",
+      baseline:"bottom",
+      padding:10,
+      fill:"white",
+      stroke:"black",
+      strokeWidth:12,
+      }).addChildTo(lavelgroup);
+    actionlabel.x = this.gridX.center()+300;
+    actionlabel.y = this.gridY.center()+120;
+    actionlabel.text = '';
+    
+    levellabel = Label({
+      fontSize:50,
+      fontWeight:"bold",
+      align:"left",
+      baseline:"bottom",
+      padding:10,
+      fill:"yellow",
+      stroke:"blue",
+      strokeWidth:10,
+      }).addChildTo(lavelgroup);
+    levellabel.x = 30;
+    levellabel.y = 60;
+
+    scorelabel = Label({
+      fontSize:50,
+      fontWeight:"bold",
+      align:"left",
+      baseline:"bottom",
+      padding:10,
+      fill:"yellow",
+      stroke:"blue",
+      strokeWidth:10,
+      }).addChildTo(lavelgroup);
+    scorelabel.x = 30;
+    scorelabel.y = 120;
+
+    combolabel = Label({
+      fontSize:50,
+      fontWeight:"bold",
+      align:"left",
+      baseline:"bottom",
+      padding:10,
+      fill:"yellow",
+      stroke:"blue",
+      strokeWidth:10,
+      }).addChildTo(lavelgroup);
+    combolabel.x = 30;
+    combolabel.y = 180;
+    levellabel.text = 'level:'+level;
+    scorelabel.text = 'score:'+score;
+    combolabel.text = 'combo:'+combo;
+
+    var self = this;
+    for( let i=0 ; i < BUTTON_MAX ; i++ ){
+      button9[i]=Button({
+        width: 90,         // 横サイズ
+        height: 90,        // 縦サイズ
+        fontWeight:"bold",
+        fontSize: 32,       // 文字サイズ
+        fontColor: 'white', // 文字色
+        cornerRadius: 10,   // 角丸み
+        fill: 'blue',    // ボタン色
+        stroke: 'black',     // 枠色
+        strokeWidth: 4,     // 枠太さ
+        text: b9lavels[i],     // 表示文字
+      });
+      button9[i].addChildTo(uigroup);
+      if(BUTTON_MAX==9){
+        button9[i].setPosition(220+100*(i%3), 700+100*Math.floor(i/3));
+      }else{
+        var x = 400;
+        switch(i){
+          case 0:
+            button9[i].setPosition(x, 800-100);
+            break;
+          case 1:
+            button9[i].setPosition(x-100, 800);
+            break;
+          case 2:
+            button9[i].setPosition(x+100, 800);
+            break;
+          case 3:
+            button9[i].setPosition(x, 800+100);
+            break;
+        }
+      }
+      button9[i].onpointend = function(){
+        if(whichturn != PLAYER_TURN){
+          return;
+        }
+        if( answers.length > answerindex){
+          // 問題が設定されている場合
+          if(answers[answerindex]==i){
+            // collect
+            combo += 1;
+            score += combo;
+            if(maxscore<score){
+              maxscore = score;
+            }
+            if(maxcombo < combo){
+              maxcombo = combo;
+            }
+            scorelabel.text = "score:"+score;
+            combolabel.text = "combo:"+combo;
+            if(answerindex>0){
+              ninjaimg[answers[answerindex-1]].alpha=0;
+            }
+            ninjaimg[answers[answerindex]].alpha=1;
+            answerindex++;
+            if(answerindex >= answers.length){
+              // stage clear
+              centerlabel.text = 'Success!';
+              whichturn=SUCCESS_TURN;
+              turntimer=1000;
+            }
+          }else{
+            combo = 0;
+            combolabel.text = "combo:"+combo;
+            if(answerindex>0){
+              ninjaimg[answers[answerindex-1]].alpha=0;
+            }
+            if(life > 0){
+              // miss
+              centerlabel.text = 'Miss!';
+              life-=1;
+              hearts[life].remove();
+              whichturn=MISS_TURN;
+              turntimer=1000;
+            }
+            if(life===0){
+              // game over
+              centerlabel.text = 'Dead!';
+              whichturn=DEAD_TURN;
+              turntimer=2000;
+            }
+          }
+        }
+        if(actionlabel.text.length==0){
+          actionlabel.text = this.text;
+        }else{
+          actionlabel.text = actionlabel.text + ',' + this.text;
+        }
+        console.log("'"+actionlabel.text+"',"+actionlabel.width);
+        //actionlabeltimer=500;
+      };
+      // Android端末使用時のタップ遅延対策。
+      // 同じ処理2度書くのは大変なのでonpointend()を呼び出し。
+      // 素早く連打した時に重複してしまう場合がある。普通に使う分には問題なさそう？
+      button9[i].onpointover = function(e){
+        if (!e.pointer.getPointing()&&chkAndroid){
+          self.onpointend();
+        }
+      };
+    }
+    
+    /*
+    button_ok=Button({
+      width: 90,         // 横サイズ
+      height: 190,        // 縦サイズ
+      fontSize: 32,       // 文字サイズ
+      fontColor: 'white', // 文字色
+      cornerRadius: 10,   // 角丸み
+      fill: 'skyblue',    // ボタン色
+      stroke: 'blue',     // 枠色
+      strokeWidth: 4,     // 枠太さ
+      text: 'ok',     // 表示文字
+    }).addChildTo(uigroup);
+    button_ok.setPosition(550,850);
+    */
+    
+    button_pause=Button({
+      width: 90,         // 横サイズ
+      height: 90,        // 縦サイズ
+      fontSize: 32,       // 文字サイズ
+      fontColor: 'white', // 文字色
+      fontWeight:"bold",
+      cornerRadius: 10,   // 角丸み
+      fill: 'blue',    // ボタン色
+      stroke: 'black',     // 枠色
+      strokeWidth: 4,     // 枠太さ
+//      text: 'pause',     // 表示文字
+      text: 'die',     // 表示文字
+    }).addChildTo(uigroup);
+    button_pause.setPosition(100,900);
+ 
+     button_pause.onpointend = function(){
+      // Add Pause
+      basescene = self;
+      self.app.replaceScene(GameOverScene());
+      //self.app.pushScene(PauseScene());
+    };
+
+    bgimg = Sprite('bg');
+    bgimg.addChildTo(spritegroup).setPosition(this.gridX.center(),this.gridY.center());
+    bgimg.scaleX = bgimg.scaleY = 2.0;
+
+    ninjaimg=[
+     Sprite('ninja1'),
+     Sprite('ninja2'),
+     Sprite('ninja3'),
+     Sprite('ninja4'),
+     ];
+    ninjaimg[0].addChildTo(spritegroup).setPosition(350,300).alpha=0;
+    ninjaimg[1].addChildTo(spritegroup).setPosition(350,350).alpha=0;
+    ninjaimg[2].addChildTo(spritegroup).setPosition(350,300).alpha=0;
+    ninjaimg[3].addChildTo(spritegroup).setPosition(350,300).alpha=0;
+  },
+
+  update:function(app){
+      key = app.keyboard;
+      //if(key.getKeyDown('up')) button9[0].onpointend();
+      //if(key.getKeyDown('left')) button9[1].onpointend();
+      //if(key.getKeyDown('right')) button9[2].onpointend();
+      //if(key.getKeyDown('down')) button9[3].onpointend();
+      if(key.getKeyDown('w')) button9[0].onpointend();
+      if(key.getKeyDown('a')) button9[1].onpointend();
+      if(key.getKeyDown('d')) button9[2].onpointend();
+      if(key.getKeyDown('s')) button9[3].onpointend();
+      //if(key.getKeyDown('enter')) button_ok.onpointend();
+      if(key.getKeyDown('escape')) button_pause.onpointend();
+ 
+      if(actionlabeltimer >0){
+        actionlabeltimer-= app.deltaTime;
+        if(actionlabeltimer <=0){
+          actionlabel.text = '';
+        }
+      }
+  }, // end of update:function(app)
+});
+
+
+phina.define('MainScene', {
+  superClass: 'phina.display.DisplayScene',
+ 
+  button_start : null,
+ 
+  init: function() {
+    this.superInit();
+    console.log("init at MainScene");
+ 
+    spritegroup = DisplayElement().addChildTo(this);
+    lavelgroup = DisplayElement().addChildTo(this);
+    uigroup = DisplayElement().addChildTo(this);
+ 
+    centerlabel =Label({
+      fontSize:46,
+      fontWeight:"bold",
+      align:"center",
+      baseline:"bottom",
+      padding:10,
+      fill:"white",
+      stroke:"black",
+      strokeWidth:10,
+      }).addChildTo(lavelgroup);
+    centerlabel.x = this.gridX.center();
+    centerlabel.y = this.gridY.center(-2);
+    centerlabel.text = TITLEJP;
+
+    actionlabel = Label({
+      fontSize:32,
+      fontWeight:"bold",
+      align:"center",
+      baseline:"bottom",
+      padding:10,
+      fill:"white",
+      stroke:"black",
+      strokeWidth:10,
+      }).addChildTo(lavelgroup);
+    actionlabel.x = this.gridX.center();
+    actionlabel.y = this.gridY.center(-1);
+    actionlabel.text = TITLE;
+    
+    button_start=Button({
+      width: 240,         // 横サイズ
+      height: 80,        // 縦サイズ
+      fontSize: 32,       // 文字サイズ
+      fontColor: 'white', // 文字色
+      fontWeight:"bold",
+      cornerRadius: 10,   // 角丸み
+      fill: 'blue',    // ボタン色
+      stroke: 'black',     // 枠色
+      strokeWidth: 4,     // 枠太さ
+      text: 'start',     // 表示文字
+    }).addChildTo(uigroup);
+    button_start.setPosition(this.gridX.center(+1),850);
+
+    if(maxscore>0){
+    
+      scorelabel = Label({
+        fontSize:50,
+        fontWeight:"bold",
+        align:"left",
+        baseline:"bottom",
+        padding:10,
+        fill:"yellow",
+        stroke:"red",
+        strokeWidth:10,
+        }).addChildTo(lavelgroup);
+      scorelabel.x = this.gridX.center()-220;
+      scorelabel.y = this.gridY.center(+2);
+  
+      scorelabel.text = 'max-score : '+maxscore;
+    }
+
+    var self = this;
+    button_start.onpointend = function(){
+      self.exit("SubScene");
+    };
+    
+    var ninjatitle = Sprite('ninja6')
+    ninjatitle.addChildTo(spritegroup).setPosition(350,300);
+
+    var grailsprite=Sprite('holygrail');
+    grailsprite.addChildTo(spritegroup).setPosition(130,850);
+    grailsprite.rotation=-20;
+    grailsprite.setScale(0.8,0.8);
+
+  }, // end of init:function
+  update: function(app){
+      key = app.keyboard;
+      if(key.getKeyDown('enter')) button_start.onpointend();
+      
+    var p = Particle(100,750).addChildTo(spritegroup);
+    p.ondisappear = function() {
+      p.reset(100, 750);
+    }.bind(spritegroup);
+
+  }, // end of update:function
+});
+
+
+
+phina.define('SubScene', {
+  superClass: 'BaseScene',
+ 
+  init: function() {
+    this.superInit();
+    console.log("init at SubScene");
+
+    life=3;
+    level=1;
+    maxcombo=0;
+    maxlevel=0;
+     
+    hearts = [];
+    x=500;
+    y=40;
+    for( let i=0 ; i < life ; i++ ){
+      hearts.push(HeartShape({
+      stroke: 'red',     // 枠色
+      strokeWidth: 4,     // 枠太さ
+        }
+        ).addChildTo(this).setPosition(x+40*i, y));
+    }
+
+    whichturn=0;
+    centerlabel.text = 'Get ready!';
+    turntimer=2000;
+    createanswer(level);
+    score = 0;
+    combo = 0;
+    maxcombo = 0;
+    levellabel.text = 'level:'+level;
+    scorelabel.text = 'score:'+score;
+    combolabel.text = 'combo:'+combo;
+
+    var self = this;
+  },
+
+  update: function(app){
+    this.superMethod('update', app);
+    
+    if(turntimer>0){
+      turntimer-=app.deltaTime;
+      if(turntimer<=0){
+        switch(whichturn){
+          case READY_TURN:
+            centerlabel.text = 'Enemy turn!';
+            actionlabel.text = '';
+            whichturn = ENEMY_TURN;
+            
+            createanswer(1);
+            actionlabel.text = '';
+            turntimer=2000;
+            break;
+          case ENEMY_TURN:
+            if( answerindex < answers.length){
+              // 候補を表示
+              centerlabel.text = '['+answerindex+']'+b9lavels[answers[answerindex]];
+              if( answerindex>0){
+                button9[answers[answerindex-1]].fill = 'blue';
+                ninjaimg[answers[answerindex-1]].alpha=0;
+                ninjaimg[answers[answerindex]].alpha=0;
+              }
+              button9[answers[answerindex]].fill = 'red';
+              ninjaimg[answers[answerindex]].alpha=1;
+              answerindex++;
+              turntimer=500;
+            }else{
+              // 候補が終了
+              button9[answers[answerindex-1]].fill = 'blue';
+              ninjaimg[answers[answerindex-1]].alpha=0;
+              whichturn=2;
+              answerindex = 0;
+              centerlabel.text='Player turn!';
+              turntimer=1000;
+            }
+            break;
+          case PLAYER_TURN:
+            centerlabel.text = '';
+            break;
+          case SUCCESS_TURN:
+            centerlabel.text = 'Enemy turn!';
+            console.log("answerindex="+(answerindex-1));
+            console.log("answers[answerindex]="+answers[(answerindex-1)]);
+            ninjaimg[answers[(answerindex-1)]].alpha=0;
+            whichturn = ENEMY_TURN;
+            actionlabel.text = '';
+            createanswer(level+1);
+            turntimer=2000;
+            break;
+          case DEAD_TURN:
+            app.replaceScene(GameOverScene());
+            break;
+          case MISS_TURN:
+            centerlabel.text = 'Enemy turn!';
+            actionlabel.text = '';
+            createanswer(Math.ceil(level/2));
+            whichturn=ENEMY_TURN;
+            turntimer=2000;
+            break;
+        }
+      }
+    }
+  },
+  
+
+});
+
+phina.define('PauseScene', {
+  superClass: 'DisplayScene',
+  init: function() {
+    this.superInit();
+    console.log("init at PauseScene");
+    this.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+
+    var self = this;
+    var button = Button({
+      text: 'Resume',
+    }).addChildTo(this);
+    button.setPosition(this.gridX.center(), this.gridY.center(-3));
+    button.onpush = function() {
+      // 自身を取り除く
+      self.exit();    
+    };
+
+  },
+});
+
+
+phina.define('GameOverScene', {
+  superClass: 'phina.display.DisplayScene',
+ 
+ button_start : null,
+ tweet_btn : null,
+ 
+  init: function() {
+    this.superInit();
+    console.log("init at GameOverScene");
+    
+    spritegroup = DisplayElement().addChildTo(this);
+    lavelgroup = DisplayElement().addChildTo(this);
+    uigroup = DisplayElement().addChildTo(this);
+
+     centerlabel =Label({
+      fontSize:60,
+      fontWeight:"bold",
+      align:"center",
+      baseline:"bottom",
+      padding:10,
+      fill:"white",
+      stroke:"black",
+      strokeWidth:10,
+      }).addChildTo(lavelgroup);
+    centerlabel.x = this.gridX.center();
+    centerlabel.y = this.gridY.center()-50;
+    centerlabel.text = 'GameOver!';
+
+    levellabel = Label({
+      fontSize:50,
+      fontWeight:"bold",
+      align:"left",
+      baseline:"bottom",
+      padding:10,
+      fill:"yellow",
+      stroke:"red",
+      strokeWidth:10,
+      }).addChildTo(lavelgroup);
+    levellabel.x = this.gridX.center()-240;
+    levellabel.y = this.gridY.center(+1)-50;
+
+    combolabel = Label({
+      fontSize:50,
+      fontWeight:"bold",
+      align:"left",
+      baseline:"bottom",
+      padding:10,
+      fill:"yellow",
+      stroke:"red",
+      strokeWidth:10,
+      }).addChildTo(lavelgroup);
+    combolabel.x = this.gridX.center()-240;
+    combolabel.y = this.gridY.center(+2)-50;
+
+    scorelabel = Label({
+      fontSize:50,
+      fontWeight:"bold",
+      align:"left",
+      baseline:"bottom",
+      padding:10,
+      fill:"yellow",
+      stroke:"red",
+      strokeWidth:10,
+      }).addChildTo(lavelgroup);
+    scorelabel.x = this.gridX.center()-240;
+    scorelabel.y = this.gridY.center(+3)-50;
+
+    levellabel.text = 'max-level : '+maxlevel;
+    scorelabel.text = 'score : '+score;
+    combolabel.text = 'max-combo : '+maxcombo;
+
+    jokelabel = Label({
+      fontSize:30,
+      align:"right",
+      baseline:"bottom",
+      padding:10,
+      fill:"black",
+      text:'I got it!'
+      }).addChildTo(lavelgroup);
+    jokelabel.x = 300;
+    jokelabel.y = 60;
+    jokelabel.rotation = 10;
+
+ 
+
+    button_start=Button({
+      width: 240,         // 横サイズ
+      height: 80,        // 縦サイズ
+      fontSize: 32,       // 文字サイズ
+      fontColor: 'white', // 文字色
+      cornerRadius: 10,   // 角丸み
+      fontWeight:"bold",
+      fill: 'blue',    // ボタン色
+      stroke: 'black',     // 枠色
+      strokeWidth: 4,     // 枠太さ
+      text: 'reset',     // 表示文字
+    }).addChildTo(uigroup);
+    button_start.setPosition(this.gridX.center(-3.5),900);
+
+    tweet_btn=Button({
+      width: 200,         // 横サイズ
+      height: 80,        // 縦サイズ
+      fontSize: 32,       // 文字サイズ
+      fontColor: 'white', // 文字色
+      cornerRadius: 10,   // 角丸み
+      fontWeight:"bold",
+      fill: 'blue',    // ボタン色
+      stroke: 'black',     // 枠色
+      strokeWidth: 4,     // 枠太さ
+      text: 'tweet',     // 表示文字
+    }).addChildTo(uigroup);
+    tweet_btn.setPosition(this.gridX.center(+2.5),900);
+    
+    var ninjasprite=Sprite('ninja5');
+    ninjasprite.addChildTo(spritegroup).setPosition(400,200);
+    var grailsprite=Sprite('holygrail');
+    grailsprite.addChildTo(spritegroup).setPosition(200,250);
+    grailsprite.rotation=-20;
+    grailsprite.setScale(0.8,0.8);
+
+
+var textrect = RectangleShape({
+  width:700,
+  height:190,
+  fill:'black',
+  alpha:0.5,
+}).addChildTo(spritegroup);
+textrect.setPosition(this.gridX.center(),740);
+textrect.alpha=0;
+textrect.tweener.fade(0,500).fade(0.8,2000).play();
+
+var textlavel = Label({
+      fontSize:30,
+      align:"center",
+      baseline:"middle",
+      padding:10,
+      fill:"white",
+      }).addChildTo(lavelgroup);
+    textlavel.x = this.gridX.center();
+    textlavel.y = 740;
+    textlavel.text = '聖杯は突如現れたニンジャに奪われた。\nあれ以来、トゥーレもニンジャも、私の\n前に姿を見せていない。かつて私の手に\nあった聖杯の行方は、杳として知れない。';
+
+    var self = this;
+    button_start.onpointend = function(){
+      actionlabel.text = '';
+      self.exit("MainScene");
+    };
+    
+    tweet_btn.onpointend = function(){
+      var text = '{0}\nMax Level:{1}\nMax Combo:{2}\nScore:{3}\n'.format(TITLE, maxlevel, maxcombo, score);
+      var url = phina.social.Twitter.createURL({
+        text: text,
+        hashtags: ["SCPFoundation", "AnmerkungDesArchaologen",],
+        url: "http://scp-jp.wikidot.com/tale-1921-jp-3",
+      });
+      
+      // 新規ウィンドウで開く場合（OS・端末によっては制限があってダメかも？）
+      window.open(url, 'share window', 'width=480, height=320');
+      
+      // 新規タブで開く場合
+      //var childWindow = window.open('about:blank');
+      //childWindow.location.href = url;
+    };
+  }, // end of init:function
+
+  update: function(app){
+    key = app.keyboard;
+    if(key.getKeyDown('enter')) button_start.onpointend();
+
+    var p = Particle(160,150).addChildTo(this);
+    p.ondisappear = function() {
+      p.reset(160, 150);
+    }.bind(this);
+
+  }, // end of update:function
+
+});
+ 
+ 
+function createanswer(aLevel){
+  console.log("createanswer("+aLevel+")");
+  level = aLevel;
+  if(maxlevel<level){
+    maxlevel = level;
+  }
+  levellabel.text = 'level:'+level;
+  answerindex=0;
+  answers = [];
+
+  var pre=-1;
+  var temp;
+  switch (level) {
+    case 1:
+      answers.push(0);
+      break;
+    case 2:
+      answers.push(0);
+      answers.push(1);
+      break;
+    default:
+      for(let i=0 ; i < level ; i++){
+        temp = getRandomInt(BUTTON_MAX);
+        if(pre == temp){
+          temp = (pre+1)%BUTTON_MAX;
+        }
+        pre = temp;
+        answers.push(temp);
+      }
+      break;
+  }
+}
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+
+
+var PARTICLE_MAX_NUM          = 10;  // 最大パーティクル数
+var PARTICLE_COLOR_START      = 180;    // color angle の開始値
+var PARTICLE_COLOR_END        = 30;   // color angle の終了値
+var PARTICLE_VELOCITY_RANGE_X = 8;    // 速度の初期値の範囲 x
+var PARTICLE_VELOCITY_RANGE_Y = 4;    // 速度の初期値の範囲 y
+var PARTICLE_ACCELERATION_Y   = -0.3; // 加速度 y
+var PARTICLE_SCALE            = 0.6;    // 初期スケール
+var PARTICLE_SCALE_DOWN_SPEED = 0.025;// スケールダウンのスピード
+
+phina.define('Particle', {
+  superClass: 'CircleShape',
+  
+  init: function(x, y) {
+    this.superInit({
+      stroke: false,
+      radius: 64,
+    });
+    
+    this.blendMode = 'lighter';
+    
+    var grad = this.canvas.context.createRadialGradient(0, 0, 0, 0, 0, this.radius);
+    grad.addColorStop(0, 'hsla({0}, 75%, 50%, 0.5)'.format(Math.randint(PARTICLE_COLOR_START, PARTICLE_COLOR_END)));
+    grad.addColorStop(1, 'hsla({0}, 75%, 50%, 0.0)'.format(Math.randint(PARTICLE_COLOR_START, PARTICLE_COLOR_END)));
+
+    this.fill = grad;
+    
+    this.beginPosition = Vector2();
+    this.velocity = Vector2();
+    this.reset(x, y);
+  },
+
+  reset: function(x, y) {
+    this.beginPosition.set(x, y);
+    this.position.set(this.beginPosition.x, this.beginPosition.y);
+    this.velocity.set(
+      Math.randint(-PARTICLE_VELOCITY_RANGE_X, PARTICLE_VELOCITY_RANGE_X),
+      Math.randint(-PARTICLE_VELOCITY_RANGE_Y, PARTICLE_VELOCITY_RANGE_Y)
+      );
+    this.scaleX = this.scaleY = Math.randfloat(PARTICLE_SCALE*0.8, PARTICLE_SCALE*1.2);
+  },
+  
+  update: function() {
+    var tim=new Date().getTime()/30;
+    var a = 30;
+    this.position.add(this.velocity);
+    this.velocity.x += (this.beginPosition.x-this.x)/(this.radius/2);
+    this.velocity.y += PARTICLE_ACCELERATION_Y;
+    this.scaleX -= PARTICLE_SCALE_DOWN_SPEED;
+    this.scaleY -= PARTICLE_SCALE_DOWN_SPEED;
+    
+    if (this.scaleX < 0) {
+      this.flare('disappear');
+    }
+  }
+});
+
+</script>
+
+<style type="text/css">
+@import url(http://scp-jp.wdfiles.com/local--files/japanese-syntax/scp-WikidotCss.css);
+
+body {
+  padding:0px;
+  margin: 0px;
+  color: #FFFFFF;
+  background-color: #1a1a1a;
+}
+</style>
+</head>
+<body>
+<div id="page-content">
+</div>
+</body>
+</html>
+[[/code]]
+
+</script>
+
+<style type="text/css">
+@import url(http://scp-jp.wdfiles.com/local--files/japanese-syntax/scp-WikidotCss.css);
+
+body {
+  padding:0px;
+  margin: 0px;
+  color: #FFFFFF;
+  background-color: #1a1a1a;
+}
+</style>
+</head>
+<body>
+<div id="page-content">
+</div>
+</body>
+</html>
+[[/code]]
+--]
