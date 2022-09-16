@@ -1,3 +1,8 @@
+[[module CSS]]
+span.o {
+  color: blue;
+}
+[[/module]]
 [[module ListPages offset="@URL|0" range="."]]
 [[%%content{0}%%module CSS]]
 .test {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px auto; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
@@ -2085,8 +2090,10 @@ SCP-4051は人並み外れた人助けの欲求を持ちます。サイトメン
 **P-7 トレバー:** ライナー！何が起きた？
 
 [[span class="o"]]//(P-7 Rainer screams as the massive, humanoid entity reforms above the group, standing suspended in the chamber. Its eyes begin to glow as it looks down on all of them.)//[[/span]]
+//(巨大な人型実体が集団の頭上に再形成し室内に吊られて立ったため、P-7 ライナーは叫ぶ。全員を見下ろすとその眼は輝き始める。)//
 
 [[span class="o"]]**P-7 Rainer:** Take this![[/span]]
+**P-7 ライナー:** こいつを喰らえ！
 
 **<ログ終了>**
 [[/div]]
@@ -2096,26 +2103,35 @@ SCP-4051は人並み外れた人助けの欲求を持ちます。サイトメン
 [[div style="float:center ; background: #eff4ff; padding: 10px; border: 2px solid #2F4F4F; width: 95%; margin: auto; box-shadow: 0 1px 3px rgba(0,0,0,1);"]]
 
 [[span class="o"]]__**Transcript of Therapy-Session-4051-59**__[[/span]]
+__**セラピーセッション4051-59の転写**
 
 [[span class="o"]]**Foreward:** SCP-4051 is remaining within its containment unit, while Dr. Yesenia communicates with it via the unit's audio-surveillance system.[[/span]]
+**前書き:** SCP-4051はイエセニア博士とユニットの音声監視システム経由で会話しながらも収容ユニット内に留まり続けています。
 
 ----
 
 **<ログ開始>**
 
 [[span class="o"]]**Dr. Yesenia:** Rainer? Can you hear me?[[/span]]
+**イエセニア博士:** ライナー？聞こえますか？
 
 [[span class="o"]]**SCP-4051:** Oh! Dr. Yesenia! How are you?[[/span]]
+**SCP-4051:** おー！イエセニア博士！調子はどう？
 
 [[span class="o"]]**Dr. Yesenia:** I'm doing well. How about you?[[/span]]
+**イエセニア博士:** ぼちぼちですね。そちらはどうですか？
 
 [[span class="o"]]**SCP-4051:** I'm doing great! I just got back from a mission.[[/span]]
+**SCP-4051:** 良い感じだ！任務から戻ってきたばっかりなんだ。
 
 [[span class="o"]]**Dr. Yesenia:** Oh? Tell me about it.[[/span]]
+**イエセニア博士:** あら？話してもらえますか？
 
 [[span class="o"]]**SCP-4051:** I helped a lot of people. Fought a spider. Saved Jayla and Trevor and Rico. And I found out more about my anomaly![[/span]]
+**SCP-4051:** 沢山の人を助けたんだ。クモとバトってね。ジェイラとトレバーとリコを救助したんだ。それに俺のアノマリーについて更にわかったことがあるんだ！
 
 [[span class="o"]]**Dr. Yesenia:** Oh? You did?[[/span]]
+**イエセニア博士:** あらあら？わかったんですか？
 
 [[span class="o"]]**SCP-4051:** Yeah! I can get rid of things by making their opposite. Walls, enemies, monsters. Maybe when I'm doing maintenance, I can clean out--[[/span]]
 
