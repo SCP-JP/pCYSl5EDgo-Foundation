@@ -3,11 +3,11 @@
 [[module CSS]]
 }
 .email-example .collapsible-block-folded a.collapsible-block-link {
-    animation: blink 0.8s ease-in-out infinite alternate;
+  animation: blink 0.8s ease-in-out infinite alternate;
 }
 @keyframes blink {
-    0% { color: transparent; }
-    50%, 100% { color: #b01; }
+  0% { color: transparent; }
+  50%, 100% { color: #b01; }
 }
 .email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
 .email-example a.collapsible-block-link {font-weight: bold;}
@@ -16,27 +16,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 blockquote {
-    border-style: solid;
+  border-style: solid;
 }
 blockquote tt {
-    border: 1px #aaa solid;
-    background-color: white;
-    padding: 0 2px;
+  border: 1px #aaa solid;
+  background-color: white;
+  padding: 0 2px;
 }
 
- div.quote-block{
-     border: 3px double #999;
+div.quote-block{
+  border: 3px double #999;
 }
- div.quote-block{
-     background-color: #f4f4f4;
-     padding: 0 1em;
-     margin: 1em 3em;
+div.quote-block{
+  background-color: #f4f4f4;
+  padding: 0 1em;
+  margin: 1em 3em;
 }
- @media (max-width: 479px){
-     div.quote-block{ margin: 1em 0; }
+@media (max-width: 479px){
+  div.quote-block{ margin: 1em 0; }
 }
- @media (min-width: 480px) and (max-width: 580px){
-     div.quote-block{ margin: .5em; }
+@media (min-width: 480px) and (max-width: 580px){
+  div.quote-block{ margin: .5em; }
 }
 
 #page-title {
