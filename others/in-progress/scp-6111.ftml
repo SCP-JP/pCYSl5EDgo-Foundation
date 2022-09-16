@@ -1,6 +1,8 @@
 [[include :scp-wiki:theme:basalt hidetitle=a]]
 
 [[module CSS]]
+span.o {
+  color: blue;
 }
 .email-example .collapsible-block-folded a.collapsible-block-link {
   animation: blink 0.8s ease-in-out infinite alternate;
@@ -58,7 +60,6 @@ div.quote-block{
 display:none;
 }
 
-
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -69,7 +70,7 @@ display:none;
 }
 
 .no {
-    font-size: 125%;
+  font-size: 125%;
 }
 
 .danke{
@@ -100,26 +101,33 @@ name=https://scp-wiki.wdfiles.com/local--files/scp-6111/Memoriathumbnail.jpg
 [[/div]]
 
 
-[[include :scp-wiki:info:start]]
+[[include :scp-jp:info:start]]
 [[=]]
-+++ [[span class="o"]]SCP-6111 -- Memoria[[/span]]
++++ SCP-6111 -- Memoria
 ++++ [[span class="o"]]{{Our shared world.}}[[/span]]
+++++ {{私たちのシェアード・ワールド。}}
 [[span class="o"]]Written by [[*user Felixou]] and [[*user ZG1906]][[/span]]
+[[*user Felixou]]と[[*user ZG1906]]により執筆されました
 ----
 +++++ [[span class="o"]][[[Felixoupage |If you enjoyed this, check out the Felixoupage]]][[/span]]
++++++ [[[https://scp-wiki.wikidot.com/felixoupage |もしこれが面白かったなら、Felixoupageもチェックしてね。]]]
 ----
 +++++ [[span class="o"]]ZG1906 does not have an author page  :([[/span]]
++++++ ZS1906は著者ページを持っていません (´・ω・｀)
 +++++ [[span class="o"]](but they also made this possible)[[/span]]
++++++ (それでもこれを作れました)
 [[/=]]
-[[include :scp-wiki:info:end]]
+[[include :scp-jp:info:end]]
 
 [[=]]
 
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
 [[span class="o"]]{{Welcome. Please verify your clearance level below.}}[[/span]]
+{{ようこそ。こちらであなたのクリアランスレベルを検証してください。}}
 [[/div]]
 
 = [[span class="o"]]##blue|__Ethics-Comitee.273m3942384.forthebetter.SCIP__##[[/span]]
+= ##blue|__倫理委員会.273m.3942384.大義が為.SCIP__##
 
 
 [[div class="textchange"]]
@@ -127,39 +135,49 @@ name=https://scp-wiki.wdfiles.com/local--files/scp-6111/Memoriathumbnail.jpg
 [[div class="sitemember"]]
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
 [[span class="o"]]{{Welcome user __%%Title%%__}}[[/span]]
+{{ようこそ ユーザー __%%Title%%__}}
 
 [[span class="o"]]{{Congratulation on your promotion to Ethics Committee member.}}[[/span]]
+{{倫理委員会構成員への昇進おめでとうございます。}}
 
 [[span class="o"]]{{You have one (1) document awaiting review.}}[[/span]]
+{{(1)件のレビュー待ち文書があります。}}
 
 [[span class="o"]]{{Would you like to proceed?}}[[/span]]
+{{続行しますか？}}
 
-[[span class="o"]]{{__yes__ / __no__}}[[/span]]
+{{__yes__ / __no__}}
 [[/div]]
 [[/div]]
 [[/module]]
 [[div class="sitemember"]]
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
 [[span class="o"]]{{Welcome user __Carlson__.}}[[/span]]
+{{ようこそ ユーザー __カールソン__}}
 
 [[span class="o"]]{{Congratulations on your promotion to Ethics Committee member.}}[[/span]]
+{{倫理委員会構成員への昇進おめでとうございます。}}
 
 [[span class="o"]]{{You have one (1) document awaiting review.}}[[/span]]
+{{(1)件のレビュー待ち文書があります。}}
 
 [[span class="o"]]{{Would you like to proceed?}}[[/span]]
+{{続行しますか？}}
 
-[[span class="o"]]{{__yes__ / __no__}}[[/span]]
+{{__yes__ / __no__}}
 [[/div]]
 [[/div]]
 [[/div]]
 
-[[span class="o"]]##blue|__Yes.__##[[/span]]
+##blue|__Yes.__##
 
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
 [[span class="o"]]{{Please wait.}}[[/span]]
+{{お待ちください。}}
 @@ @@
 @@ @@
 [[span class="o"]]**Opening file...**[[/span]]
+**ファイルを開いています……**
 [[/div]]
 
 
@@ -179,7 +197,7 @@ name=https://scp-wiki.wdfiles.com/local--files/scp-6111/Memoriathumbnail.jpg
 
 [[include :scp-jp:component:image-block
 | name=Home.jpg
-| caption=Image of the space accessed by use of SCP-6111. Photo captured by drone during initial exploration.
+| caption=Image of the space accessed by use of SCP-6111. Photo captured by drone during initial exploration.SCP-6111を使用してアクセスされた空間の画像。写真は初期探索中にドローンにより撮影された。
 | align=center
 | width=800px]]
 
@@ -188,29 +206,37 @@ name=https://scp-wiki.wdfiles.com/local--files/scp-6111/Memoriathumbnail.jpg
 [[row]]
 [[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
 [[span class="o"]][[size 90%]]**Assigned Site**[[/size]][[/span]]
+[[size 90%]]**配属サイト**[[/size]]
 [[/cell]]
 [[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
 [[span class="o"]][[size 90%]]**Site Director**[[/size]][[/span]]
+[[size 90%]]**サイト管理官**[[/size]]
 [[/cell]]
 [[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
 [[span class="o"]][[size 90%]]**Research Head**[[/size]][[/span]]
+[[size 90%]]**研究責任者**[[/size]]
 [[/cell]]
 [[cell style="border-bottom: 1px solid #AAA; text-align: center; width: 25%;"]]
 [[span class="o"]][[size 90%]]**Assigned Task Force**[[/size]][[/span]]
+[[size 90%]]**担当部隊**[[/size]]
 [[/cell]]
 [[/row]]
 [[row]]
 [[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
 [[span class="o"]][[size 80%]][https://scp-wiki.wikidot.com/site-17-hub Site-17][[/size]][[/span]]
+[[size 80%]][[[site-17-hub|サイト-17]]][[/size]]
 [[/cell]]
 [[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
 [[span class="o"]][[size 80%]]Dir. Graham[[/size]][[/span]]
+[[size 80%]]グラハム管理官[[/size]]
 [[/cell]]
 [[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
 [[span class="o"]][[size 80%]]Dr Benedict[[/size]][[/span]]
+[[size 80%]]ベネディクト博士[[/size]]
 [[/cell]]
 [[cell style="text-align: center; width: 25%;"]]
 [[span class="o"]][[size 80%]]MTF Nu-7 ("Hammer Down")[[/size]][[/span]]
+[[size 80%]]機動部隊ニュー-7 ("下される鉄槌")[[/size]]
 [[/cell]]
 [[/row]]
 [[/table]]
@@ -410,10 +436,10 @@ name=https://scp-wiki.wdfiles.com/local--files/scp-6111/Memoriathumbnail.jpg
 
 [[span class="o"]]{{Do you want to open it?}}[[/span]]
 
-[[span class="o"]]{{__yes__ / __no__}}[[/span]]
+{{__yes__ / __no__}}
 [[/div]]
 
-= [[span class="o"]]##blue|__Yes.__##[[/span]]
+= ##blue|__Yes.__##
 
 [[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
 [[span class="o"]]{{Please wait.}}[[/span]]
