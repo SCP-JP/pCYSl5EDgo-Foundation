@@ -550,7 +550,7 @@ div.hide-not-targeted:not(:target) {
     display: none;
 }
 
-#u-deepwell-catalog-memo {
+#u-deepwell-catalog-memo:not(:target) {
     display: none;
 }
 
