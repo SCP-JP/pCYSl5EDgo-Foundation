@@ -1,4 +1,3 @@
-[[div id="u-header" class="hide-not-targeted"]]
 [[div class="blockquote"]]
 [[=]]
 ここは[[*user pcysl]]の著者ページです。
@@ -12,7 +11,6 @@
 || [[[/author:pcysl#u-self-introduction|詳細自己紹介]]] ||
 || [[[/author:pcysl#u-personnel|人事]]] ||
 || [[[/author:pcysl#u-deepwell-catalog-memo|深淵目録への理解を深めるためのメモ]]] ||
-[[/div]]
 [[div id="u-self-introduction" class="hide-not-targeted"]]
 + 詳細自己紹介
 
@@ -550,5 +548,13 @@ __**現実改変者は皆特別だ--　　--特別でないと消えるからな
 [[module CSS]]
 div.hide-not-targeted:not(:target) {
     display: none;
+}
+
+#u-deepwell-catalog-memo {
+    display: none;
+}
+
+#u-deepwell-catalog-memo:has(:target) {
+    display: unset;
 }
 [[/module]]
