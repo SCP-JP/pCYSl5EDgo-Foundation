@@ -548,10 +548,7 @@ __**現実改変者は皆特別だ--　　--特別でないと消えるからな
 [[include component:colend]]
 [[/div]]
 [[module CSS]]
-#page-conent div.hide-not-targeted {
+div.hide-not-targeted:not(:target) {
     display: none;
-}
-#page-conent div.hide-not-targeted:target {
-    display: unset;
 }
 [[/module]]
