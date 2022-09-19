@@ -534,7 +534,7 @@ div.hide-not-targeted:target {
     display: unset;
 }
 
-#u-deepwell-catalog-memo:has(:target) {
+#u-deepwell-catalog-memo:target, #u-deepwell-catalog-memo:has(:target) {
     display: unset;
 }
 
