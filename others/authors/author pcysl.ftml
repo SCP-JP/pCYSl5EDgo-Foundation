@@ -533,4 +533,8 @@ div.hide-not-targeted:not(:target) {
 #u-deepwell-catalog-memo:has(:target) {
     display: unset;
 }
+
+#:target #u-writing{
+    display: unset;
+}
 [[/module]]
