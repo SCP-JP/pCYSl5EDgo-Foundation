@@ -522,12 +522,16 @@ __**現実改変者は皆特別だ--　　--特別でないと消えるからな
 ところでこれ辞書選んだ意味あるの？
 [[/div]]
 [[module CSS]]
-div.hide-not-targeted:not(:target) {
+div.hide-not-targeted {
     display: none;
 }
 
-#u-deepwell-catalog-memo:not(:target) {
+#u-deepwell-catalog-memo {
     display: none;
+}
+
+div.hide-not-targeted:target {
+    display: unset;
 }
 
 #u-deepwell-catalog-memo:has(:target) {
