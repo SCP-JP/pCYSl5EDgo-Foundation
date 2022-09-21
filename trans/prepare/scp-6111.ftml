@@ -86,6 +86,22 @@ background-color:#222200;
 border: 3px solid #AAAA55;
 color: #DDDD77;
 }
+
+cell.admonition-head {
+  border-bottom: 1px solid #AAA;
+  border-right: 1px solid #AAA;
+  text-align: center;
+  width: 25%;
+  font-weight: bold;
+  font-size: 90%;
+}
+cell.admonition-head:last-of-type {
+  border-bottom: 1px solid #AAA;
+  text-align: center;
+  width: 25%;
+  font-weight: bold;
+  font-size: 90%;
+}
 [[/module]]
 [[div style="display: none;"]]
 [[include :scp-jp:component:image-block
@@ -181,17 +197,17 @@ name=http://scp-jp-storage.wdfiles.com/local--files/file:7974444-75-kati/Memoria
 
 [[table style="width: 100%;"]]
 [[row]]
-[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
-[[size 90%]]**配属サイト**[[/size]]
+[[cell class="admonition-head"]]
+配属サイト
 [[/cell]]
-[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
-[[size 90%]]**サイト管理官**[[/size]]
+[[cell class="admonition-head"]]
+サイト管理官
 [[/cell]]
-[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
-[[size 90%]]**研究責任者**[[/size]]
+[[cell class="admonition-head"]]
+研究責任者
 [[/cell]]
-[[cell style="border-bottom: 1px solid #AAA; text-align: center; width: 25%;"]]
-[[size 90%]]**担当部隊**[[/size]]
+[[cell class="admonition-head"]]
+担当部隊
 [[/cell]]
 [[/row]]
 [[row]]
