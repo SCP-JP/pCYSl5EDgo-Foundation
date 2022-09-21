@@ -1,0 +1,336 @@
+[[include :mkn:sigma:q]]
+
+[[include :scp-jp:credit:start |mode=no-rate]]
+**タイトル:** MikuKanekoの著者ページ
+**著者:** ©︎[[*user MikuKaneko]]
+**作成年:** 2022
+[[include :scp-jp:credit:end]]
+
+[[module CSS]]
+.yui-navset .yui-content {
+    background: none;
+}
+.writing {
+    background: var(--default-background-color);
+    border-left: solid 1px var(--default-border-color);
+    border-radius: 9px;
+    border-top: solid 1px var(--default-border-color);
+    display: grid;
+    margin: 1em;
+}
+.block {
+    border-bottom: solid 1px var(--default-border-color);
+    border-right: solid 1px var(--default-border-color);
+}
+.block .h {
+    background-color: var(--default-border-color);
+    clip-path: polygon(0 0, 100% 0, calc(100% - .5em) 100%, 0% 100%);
+    display: inline-block;
+    font-weight: bold;
+    height: 100%;
+    margin-right: .5em;
+    padding-left: .5em;
+    padding-right: 1em;
+}
+.title {
+    font-size: 150%;
+    font-weight: bold;
+    grid-row: 1;
+    grid-column: 1 / 3;
+    text-align: center;
+}
+.text {
+    border-radius: 9px;
+    font-style: italic;
+    grid-column: 1 / 3;
+    padding: .5em;
+    text-align: center;
+}
+[id*="achieve-hovertip"] {
+   	box-shadow: none !important;
+}
+[id*="achieve-hovertip"] span[style="color:#970118"] {
+    color: var(--accent-color) !important;
+}
+.graph .bars .bar {
+    border: solid 1px var(--default-border-color);
+    border-radius: 0 9px 9px 0;
+    opacity: .93;
+}
+.graph .bars .bar[style="width: calc(0 / var(--max-rating) * 93%);"], .graph .bars .bar[style^="width: calc(-"] {
+    border: none;
+}
+[[/module]]
+
+[[# bottom]]
+
+[[tabview]]
+
+[[tab 貢献]]
++ SCP執筆
+[[include :mkn:writing-list name=scp-1539-jp|title=%%title%% - Future&Notes|head=オブジェクトクラス|text=--Euclid-- Keter]]
+SCP-1539-JPの1次収容違反は不可逆なものとなりましたが、これにより誕生した文化圏は急激な発展を続けており、今後も発展すると考えられています。この文化圏自体には異常性はなく、現代での最新技術が使用されているSCP-1539-JPへの単純な興味から、主にSCP-1539-JPに歌唱させた体での楽曲制作、及びSCP-1539-JPのキャラクター化の活動により成り立っています。
+
+[[collapsible show="+ 裏話" hide="- 最小化"]]
+この記事は、もともと[*/scp-1139-jp SCP-1139-JP]がミクちゃんについてのヘッドカノン違いだったので、それなら自分のヘッドカノンで書いてしまおうと思い書き始めたものです。その後、だんだん書いているうちに、折角なら15周年記念の日に投稿しようと思い、それからは急ピッチで仕上げました。実際書き上がったのは28日で、29日に批評終了して、投稿5分前に改稿を終えました。個人的には小ネタなども含めかなり力を入れた記事なので、読んで頂けたのなら嬉しい限りです。
+[[/collapsible]]
+[[include :mkn:writing-end]]
+
++ その他制作
+[[include :mkn:writing-list name=component:af2022theme|title=%%title%%|head=ページタイプ|text=テーマ]]
+SCPざいにゃん@@  @@-Slave of Cat Party-
+
+[[collapsible show="+ 裏話" hide="- 最小化"]]
+最初は自分でも作ろうと思ってなかったんですが、作ってくれる人を探している、というのを聞き、「これは貢献できるチャンスだ!」と思って2周間で作りました。[*/forum/t-14587498/scp-af2022-jp AF-2022-JP]が自分がSCP-JPに入ってから初めてのイベントだったので、投稿時の反応などを見ていくのはとても新鮮で楽しかったです。テーマ作成で手伝っていただいた皆さん、本当にありがとうございました。また機会があれば是非よろしくお願いします!
+[[/collapsible]]
+[[include :mkn:writing-end]]
+
++ SCP翻訳
+[[include :mkn:writing-list name=scp-432-ko|title=%%title%% - 神に永遠の命を授かって生まれた子|head=オブジェクトクラス|text=Euclid]]
+SCP-432-KOは体長4cmの胎児であり、怪我をした場合は直ちに回復し、周囲の環境によって異常性が変化したり、追加されたりします。
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=scp-6470|title=%%title%% - 遍在|head=オブジェクトクラス|text=Thaumiel]]
+注意: 本規定はSCP財団、世界オカルト連合、国際連合、及びその他の様々な組織によって施行されています。あなたとあなたの家族の命を守るために、必ず各条項を遵守してください。
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=scp-5458|title=%%title%% - 死が二人を分かつまで|head=オブジェクトクラス|text=Safe]]
+"この指輪を以て汝を呪い、我が肉体を以て汝を裁き、現世の財全てを以て汝を追放する。"
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=old:scp-5392|title=%%title%%|head=オブジェクトクラス|text=Euclid]]
+"それは、明らかに、私のやったこと全てが済んだあとに普通の生活を送るのは、ただただ公平ではないからです。"
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=scp-6058|title=%%title%% - クローニングマシン|head=オブジェクトクラス|text=Safe]]
+SCP-6058は、あらゆる生物種において有効なDNAサンプルが与えられた場合に、その生物種が絶滅しているかどうかにかかわらずその生きた標本を生成することが可能な機械装置です。
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=scp-5826|title=%%title%% - 大惨事ディープダイビング|head=オブジェクトクラス|head=収容クラス|text=SAFE]]
+SCP-5826を着用した人物は、軽度の不快感、悪臭、原因不明のこもった発声、高所恐怖症、40秒間に及ぶ一時的な失明を経験していることが判明しました。
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=scp-6641|title=%%title%% - 腕を手に入れたとき誰がモーニングコールを必要とするか|head=収容クラス|text=EUCLID]]
+"なんてこった! 眠った! クソ腕が私を邪魔することなく眠った! 何て素晴らしい事なんだ。ああ、助かった。"
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=scp-3598|title=%%title%% - ビショップス・グレン記念公園|head=オブジェクトクラス|text=Euclid]]
+"あなたの知らない誰かより。 でもすぐに分かりますよ"
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=scp-5884|title=%%title%% - 生きていた|head=オブジェクトクラス|text=Safe]]
+"私は知る必要がある。"
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=scp-6786|title=%%title%% - 余剰次元|head=オブジェクトクラス|text=Safe]]
+SCP-6786はその収容室内に存在する全てと収容室自体の両方に対する指定です。アノマリーは常時サイト-Log(-1)に保管されています。
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=scp-6263|title=%%title%% - インスタントカルマ|head=収容/副次クラス|text=KETER/SIMPATICO]]
+SCP-6263は、他人の綴りや文法を修正することによって引き起こされる現象です。この行動は、ただちに同様の間違いを、通例修正する発言の中で犯すという統計学的に尤度の低いリスクを招き、その可能性および重大度は最初に修整するときの厳しさに比例します。
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=scp-5652|title=%%title%% - マイクロザメ|head=収容クラス|text=EUCLID]]
+SCP-5652は、メスのシュモクザメの成体に似ている全長約4μmの微視的実体です。
+[[include :mkn:writing-end]]
+
++ Tale翻訳
+[[include :mkn:writing-list name=scp-173-but-every-sentence-is-a-crosslink|title=%%title%%|head=[*/scp-0110-j オブジェクトクラス]|text=[*/containment-psychiatry-orientation Euclid]]]
+**[[[scp-1507|SCP-173は生きており]]]**、**[[[scp-1507|極めて敵対的です]]]**。**[[[goc-supplemental-thaumatology|SCP-173は直視されている間は動くことができません]]]**。
+[[include :mkn:writing-end]]
+
++ その他翻訳
+[[include :mkn:writing-list name=theme:scp-human-resources|title=%%title%%|head=ページタイプ|text=テーマ]]
+SCP財団@@  @@人事部門
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=scp7000contesthub|title=%%title%%|head=テーマ|text=運(Luck)!]]
+人生は既に機会と危険に満ちているので、7000コンテストで運試しをしていきませんか?
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=theme:swirling-ashes|title=%%title%%|head=ページタイプ|text=テーマ]]
+ぼさぐちゃ@@  @@-終わりを始めよう-
+[[include :mkn:writing-end]]
+
++ 作成協力
+[[include :mkn:writing-list name=qcontest2022-hub|title=%%title%%|head=9周年イベント|text=Round 2]]
+[[span style="font-family: serif;font-size: 139%;"]][[size 250%]]##954C93|**Q**##[[/size]]: これは何の[[span style="white-space: nowrap;"]]コンテスト[[/span]][[span style="white-space: nowrap;"]]でしょう?[[/span]][[/span]]
+[[include :mkn:writing-end]]
+
+[[include :mkn:writing-list name=pamwac-hub|title=%%title%%|head=GoI|text=093]]
+**PAMWAC**とは[# 超常社会]のヲタク、通称[# パラヲタク]によって構成されたコミュニティである。主にインターネットの海の底、偉い人の目が届きにくい[*https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A6%E3%82%A7%E3%83%96 ダークウェブ]において活動している。
+[[include :mkn:writing-end]]
+[[/tab]]
+
+[[tab 実績]]
+[[include :smlt:7happy7:achievement-jp-module |a1=true|a2=true|a3=true|a4=true|a5=true|a6=true|a17=true|a21=true|a30=true|a68=true|a73=true|num=11]]
+
+[[=]]
+[*http://smlt.wikidot.com/7happy7:achievement-jp-module-introduce ぬるぬる動くあなたの実績]
+[[/=]]
+
+-----
+
+++ 2021
+9/13 Wikidot登録
+9/15 SCP-JP参加
+9/18 [*http://mkn.wikidot.com/ 個人サイト]作成
+9/25 [*http://scp-jp-sandbox3.wikidot.com/portal:7657035 SB3]参加
+9/30 [*http://scp-jp-storage.wikidot.com/portal:7657035 ファイルストレージ]参加
+12/10 [*http://mkn.wikidot.com/scp-2419-jp 自著]初投稿(低評価削除済)
+12/31 [*/discord-guideline 公式Discord]参加
+++ 2022
+1/5 [*/scp-5652 翻訳]初投稿
+1/6 [*https://scpwiki.com/ SCP-EN]参加
+1/25 著者ページ投稿
+1/28 [*http://scp-int.wikidot.com/ SCP-INT]参加
+2/5 [*/news-2022-2#toc20 1月の翻訳数2位]
+2/11 guru到達
+2/12 [*http://gurubox.wikidot.com/mikukaneko Gurubox]参加
+2/15 [*/pamwac-hub PAMWAC]有識者会議(~現在)
+3/1 [*/forum/t-14587498/scp-af2022-jp AF-2022-JP]企画委員(~4/2)
+3/2 [*/nav:side サイドバー]の閉じるリンクの修正を提案
+3/25 [*/scp-280-jp SCP-280-JP]に[*/forum/t-1083301/scp-280-jp#post-5240967 画像]提供
+4/1 [*/component:af2022theme AF2022テーマ]作成
+4/5 [*/news-2022-4#toc21 人気の翻訳記事1位]
+5/8 酩酊街有識者会議(~現在)
+5/9 投稿ガイド再検討委員(~現在)
+6/1 [*/awareness-month 執筆&翻訳強化月間]に[*/forum/t-14179454/awareness-month#post-5340175 画像]提供
+6/22 [*/meet-the-staff-jp#u-mikukaneko サイトスタッフ] テクニカルチーム(~現在)
+7/17 Qのコンテスト専任委員(~現在)
+8/31 [*/scp-1539-jp 自著]投稿&初生存
+9/15 サイト参加1周年
+9/15 [*/t-1754505#post-5583200 サイト日本語化復活]
+[[/tab]]
+
+[[tab 自己紹介&コンタクト]]
++ 自己紹介
+[[*user MikuKaneko]]です。読み方は特にありません。[*http://mkn.wikidot.com/scp-2419-jp 初投稿]で見事に散ってSCPの翻訳始めました。特にSCPシリーズIV、PAMWAC、筐体造り、ちいさなざいだん、二重の故郷、依談が好きです。
+
+実は構文勢でもあります。Go/Python/CSS/Dart/Javascript/HTML(/PHP/C++)を趣味でやっています。構文の相談はいつでも受け付けてます。どんどんしちゃってください(構文好きなので)。
+
+以下にプロフィール(→[[*user MikuKaneko]])の日本語訳をおいておきます。
+[[div class="blockquote"]]
+**趣味**
+音楽プロデューサー:
+初音ミクの弄声/作曲/編曲/ミックス/作詞
+
+開発者:
+Go/Python/CSS/Dart/Javascript/HTML(/PHP/C++)
+
+著者/翻訳者:
+[*/ SCP-JP]/[*https://scp-wiki.wikidot.com/ EN]/[*http://scp-int.wikidot.com/ INT]
+[[/div]]
+++ Scpper
+*https://scpper.com/user/7657035
+++ 個人サイト
+*http://mkn.wikidot.com
+++ SB3
+*http://scp-jp-sandbox3.wikidot.com/portal:7657035
+++ ファイルストレージ
+*http://scp-jp-storage.wikidot.com/portal:7657035
+++ Gurubox
+*http://gurubox.wikidot.com/mikukaneko
+++ Twitter
+*https://twitter.com/MikuKaneko_scp
+++ Github
+*https://github.com/MikuKaneko
+
++ コンタクト
+連絡等はDiscord(MikuKaneko#3573)かTwitter(@MikuKaneko_scp)、またはWikidotPMにお願いします。
+++ [[user MikuKaneko]]に依頼できること
+* コンポーネント、テーマ、その他構文関係の制作
+* SCP記事のEN↔JP翻訳
+ * ただし、過度なフォーマットスクリューや俳句などが含まれている翻訳が難しい記事(構文は大丈夫です)及び、アダルト・ジョーク記事はお断りさせていただきます。ご了承ください。
+* 画像ローカライズ
+* その他にも何かしてほしいことがあれば気軽にご相談ください(企画等も是非!)。
+[[/tab]]
+
+[[tab 構文]]
+依頼を受けて制作したものや暇つぶしで作ったものを載せていきます。(ということで誰か制作依頼ください)
+
++ Rateグラフ
+Rateのランキングをグラフで表示します。基準の値は自動で設定され、手動で変更することも出来ます。
+++ 使い方
+[*http://mkn.wikidot.com/graph こちらのページ]を参照して下さい。
+++ 例
+[[include :mkn:graph
+|category = *
+|tags = +qコン22 -ハブ
+]]
+[[module CSS]]
+:root {
+    --bar-color: var(--hr-color);
+    --graph-line-color: var(--hr-color);
+    --max-rating: 139;
+    --separate: 10;
+    --separate-color: var(--body-background-color);
+}
+[[/module]]
+
++ 自動回帰折り畳み
+折り畳みを閉じると、元の折り畳みが表示されていた位置までスクロールします。折り畳みが長い場合にお勧めです。
+++ 使い方
+[*http://mkn.wikidot.com/collapsible-scroll こちらのページ]を参照して下さい。
+
++ Questionテーマ
+[*/qcontest2022-hub Qのコンテスト2022 ハブ]用に制作したテーマを通常の記事でも使用できるように編集したテーマです。この著者ページにも適用されています。もしQコンで自著が残せればこのテーマも本投稿しようと思います。
+++ 使い方
+[*http://mkn.wikidot.com/sigma:q こちらのページ]を参照して下さい。
+
++ ページソース保存ブックマークレット
+名前のままです。実行するとそのままダウンロードされます。
+++ 使い方
+以下のコードをブックマークして下さい。わからない場合は[*https://qiita.com/aqril_1132/items/b5f9040ccb8cbc705d04 こちら]を見て下さい。
+[[code type="javascript"]]
+javascript:(function(){function b(){var c=document.getElementById("action-area").getElementsByClassName("page-source")[0];if(c){var a=document.createElement("a");a.href=URL.createObjectURL(new Blob([c.innerText],{type:"text/plain;charset=UTF-8"}));a.download=document.getElementById("page-title").textContent.replace(/\s*(.*)\s*/g,"$1")+".txt";a.click()}else setTimeout(b,1E3)}document.getElementById("view-source-button").click();b()})();
+[[/code]]
+
+-----
+
+++ 以下個人的なテスト用
+
+[[module WhoInvited]]
+[[/tab]]
+
+[[tab エージェント・金子の人事ファイル]]
+**注記:** この文書は不完全であり、更なる追記・修正が予定されています。
+
+------
+
+**氏名:** [[span class="ruby"]]金子[[span class="rt"]]カネコ[[/span]][[/span]] [[span class="ruby"]]未来[[span class="rt"]]ミク[[/span]][[/span]]
+
+**性別:** 女性
+
+**セキュリティクリアランスレベル:** 4
+
+**職員クラス:** B
+
+**職務:** プログラマ、フロントエンド・セキュリティエンジニア、エージェント
+
+**所在:** サイト-8119、個人オフィス
+
+**人物:** エージェント・金子は████/██/██生まれの日本人です。彼女は、裸眼での視力が0.1未満と低く、常に眼鏡を着用しています。彼女の人格は流動的であり、常に変化しています。これは、彼女の生立ちによるものであり、何らかの異常性との関係はありません。
+
+エージェント・金子は普段、彼女の好奇心と技術力を活かして財団ネットワークのシステム・ソフトウェアの作成を行っています。彼女はオープンソースを好んでおり、彼女の作成したものは、セキュリティクリアランスレベルに応じてソースコードが公開されています。
+
+また、エージェント・金子は、狙撃銃・拳銃の使用を得意としており、[*https://ja.wikipedia.org/wiki/バレットM82#バレットM82A1 バレットM82A1]と[*https://ja.wikipedia.org/wiki/グロック17 グロック17]を特に愛用しています。これらは、財団の銃火器使用規定に基づいて携帯・使用が許可されています。
+
+さらに、エージェント・金子は初音ミクに対する異常な愛情を抱いています。職務時においてもヘッドフォンを使用し、常に初音ミクの歌唱した楽曲を聴いています。これにより、業務の質と効率の大幅な向上が確認できるため、この行為は許可されています。この他にも、水色の服を着用する、ネギ[[footnote]]一般的に初音ミクの好物であると知られています。[[/footnote]]の含まれた料理を1日2回食事する、など、初音ミクと関連した行動を行っています。尚、名前が一致している点について質問を行ったところ、以下の回答が得られました:
+> //ミクちゃんが大好きだから、名前を変えただけですよ。前の名前はもう覚えていないです。// -- エージェント・金子
+[[/tab]]
+
+@@@@
+@@@@
+
+-----
+
+= ,,[#bottom タブの最初へ戻る],,
+
+[[footnoteblock title="脚注"]]
+
+[[div style="display:none;"]]
+[[/tab]]
+
+[[/tabview]]
+[[/div]]
