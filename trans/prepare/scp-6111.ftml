@@ -92,25 +92,21 @@ color: #DDDD77;
   border-right: 1px solid #AAA;
   text-align: center;
   width: 25%;
+  font-weight: bold;
+  font-size: 90%;
 }
 .admonition-head:last-of-type {
   border-right: unset;
-}
-.admonition-head::first-line {
-  font-weight: bold;
-  font-size: 90%;
 }
 
 .admonition-content {
   border-right: 1px solid #AAA;
   text-align: center;
   width: 25%;
+  font-size: 10%;
 }
 .admonition-content {
   border-right: unset;
-}
-.admonition-content::first-line {
-  font-size: 80%;
 }
 [[/module]]
 [[div style="display: none;"]]
