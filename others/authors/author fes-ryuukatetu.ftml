@@ -1,0 +1,235 @@
+[[include :scp-jp:component:jstyles]]
+[[module CSS]]
+.tabclear .yui-navset .yui-content{
+padding: 0;
+border-width: 0 0 2px 0;
+background: transparent;
+}
+
+.yui-navset .yui-nav{
+display: flex;
+flex-wrap: wrap;
+border: solid 0.5px #333;
+box-sizing: border-box;
+}
+
+.achievement-module-wrap .yui-navset .yui-nav{
+display: block;
+}
+
+.yui-navset .yui-nav li,
+.yui-navset .yui-nav li.selected{
+margin: 0;
+padding: 0;
+flex-grow: 1;
+}
+
+.yui-navset .yui-nav li a{
+display: block;
+height: 100%;
+background: #ffc;
+border: solid 0.5px #333;
+box-sizing: border-box;
+}
+
+.yui-navset .yui-nav li a:hover{
+background: #eea;
+border: solid 0.5px #333;
+box-sizing: border-box;
+}
+
+.yui-navset .yui-nav li.selected a{
+background: #dc0 !important;
+color: #000 !important;
+border: solid 0.5px #333;
+box-sizing: border-box;
+}
+
+.yui-navset .yui-nav li.selected a em{
+padding: 0.25em 0.75em;
+}
+
+.yui-navset .yui-nav li a em{
+text-align: center;
+border: none;
+top: 0;
+}
+
+.collapsible-block-unfolded-link,
+.collapsible-block-folded{
+text-align: center;
+}
+[[/module]]
+
+[[*user FeS_ryuukatetu]]の著者ページです。
+著作、構文、人事を置いていますので、どうぞごゆっくり。
+
+[[=]]
+++++ 著作一覧
+[[include :fes-ryuukatetu:include-list:asiato-line]]
++++ SCP記事
+[[module ListPages category="_default" separate="no" name="scp-2153-jp"]]
+%%title_linked%% - オオカミ警報器
+
+評価: %%rating%% / コメント: %%comments%%件 / 作成日: %%created_at|20%y/%m/%d %H:%M%%
+[[/module]]
+----
++++ Tale
+[[module ListPages category="_default" separate="no" name="namikimiti-no-saki"]]
+%%title_linked%%
+
+評価: %%rating%% / コメント: %%comments%%件 / 作成日: %%created_at|20%y/%m/%d %H:%M%%
+[[/module]]
+[[module ListPages category="_default" separate="no" name="dokuhaku-or-monologue"]]
+%%title_linked%%
+
+評価: %%rating%% / コメント: %%comments%%件 / 作成日: %%created_at|20%y/%m/%d %H:%M%%
+[[/module]]
+[[module ListPages category="_default" separate="no" name="save-me"]]
+%%title_linked%%
+
+評価: %%rating%% / コメント: %%comments%%件 / 作成日: %%created_at|20%y/%m/%d %H:%M%%
+[[/module]]
+[[module ListPages category="_default" separate="no" name="invisible-cat-and-visible-thing"]]
+%%title_linked%%
+
+評価: %%rating%% / コメント: %%comments%%件 / 作成日: %%created_at|20%y/%m/%d %H:%M%%
+[[/module]]
+[[module ListPages category="_default" separate="no" name="village-29-silenced"]]
+%%title_linked%%
+
+評価: %%rating%% / コメント: %%comments%%件 / 作成日: %%created_at|20%y/%m/%d %H:%M%%
+[[/module]]
+[[module ListPages category="_default" separate="no" name="voice-of-a-ghost"]]
+%%title_linked%%
+
+評価: %%rating%% / コメント: %%comments%%件 / 作成日: %%created_at|20%y/%m/%d %H:%M%%
+[[/module]]
+----
++++ アートワーク
+[[module ListPages category="_default" separate="no" name="talklog-1473jp"]]
+%%title_linked%%
+
+評価: %%rating%% / コメント: %%comments%%件 / 作成日: %%created_at|20%y/%m/%d %H:%M%%
+[[/module]]
+----
++++ 共著
+[[module ListPages category="_default" separate="no" name="scp-2000-jp"]]
+%%title_linked%% - 伝書使
+
+評価: %%rating%% / コメント: %%comments%%件 / 作成日: %%created_at|20%y/%m/%d %H:%M%%
+[[/module]]
+[[module ListPages category="_default" separate="no" name="scp-2807-jp"]]
+%%title_linked%% - それは夏の香りとともに
+
+評価: %%rating%% / コメント: %%comments%%件 / 作成日: %%created_at|20%y/%m/%d %H:%M%%
+[[/module]]
+[[module ListPages category="_default" separate="no" name="crossword-puzzle-of-yorucontest2021"]]
+%%title_linked%%
+
+評価: %%rating%% / コメント: %%comments%%件 / 作成日: %%created_at|20%y/%m/%d %H:%M%%
+[[/module]]
+[[/=]]
+----
+[[collapsible show="+++ 獲得実績一覧 +++" hide="--- 獲得実績一覧 ---"]]
+[[include :topia:achievement-jp-module |a1=true|a2=true|a3=true|a4=true|a5=true|a6=true|a10=true|a11=true|a12=true|a13=true|a30=true|a32=true|a34=true|a35=true|a47=true|a50=true|a54=true|a55=true|a61=true|a66=true|num=20]]
+[[/collapsible]]
+----
+[[=]]
+++++ 構文一覧
+[[/=]]
+[[div class="tabclear"]]
+[[tabview]]
+[[tab 自己紹介]]
+FeS_ryuukatetuと申します。一応[[[meet-the-staff-jp|テクニカルスタッフ]]]です。
+サンダースが好きです。ええ、ポケモンの。はい。
+構文を勉強しています。なんかできたらここに上げていきます。
+Twitterアカウントです→ https://twitter.com/FeS_SCP0810
+砂箱3です→ http://scp-jp-sandbox3.wikidot.com/portal:4577911
+個人wikiです→ http://fes-ryuukatetu.wikidot.com
+DM、PM、Discord等、ご連絡はお気軽に。
+[[/tab]]
+[[tab LI█E構文]]
+[[include :fes-ryuukatetu:tab-list:line-syntax]]
+[[/tab]]
+[[tab レーダーチャート構文(円形)]]
+[[include :fes-ryuukatetu:tab-list:radar-chart-syntax]]
+[[/tab]]
+[[tab レーダーチャート構文(多角形)]]
+[[include :fes-ryuukatetu:tab-list:radar-chart-pol-syntax]]
+[[/tab]]
+[[tab デジタル文字構文]]
+[[include :fes-ryuukatetu:tab-list:digit-num-syntax]]
+[[/tab]]
+[[tab デジタル時計構文]]
+[[include :fes-ryuukatetu:tab-list:count-time-syntax]]
+[[/tab]]
+[[tab 財団ロゴ構文]]
+[[include :fes-ryuukatetu:tab-list:scp-logo-syntax]]
+[[/tab]]
+[[tab 足跡が歩き回る構文]]
+[[include :fes-ryuukatetu:tab-list:asiato-syntax]]
+[[/tab]]
+[[tab 足跡区切りライン構文]]
+[[include :fes-ryuukatetu:tab-list:asiato-line-syntax]]
+[[/tab]]
+[[tab 交流チャット構文]]
+[[include :fes-ryuukatetu:tab-list:chat-syntax]]
+[[/tab]]
+[[tab 縺ｿ縺?▽縺代◆]]
+[[include :fes-ryuukatetu:tab-list:cn-994-syntax]]
+[[/tab]]
+[[/tabview]]
+[[/div]]
+
+@@@@
+@@@@
+
+[[=]]
+++++ 人事一覧
+[[/=]]
+[[tabview]]
+[[tab 笛栖研究員の人事ファイル]]
+[[include :fes-ryuukatetu:tab-list:jinji-fuesu]]
+[[/tab]]
+[[tab ナナカマドの猫事(にゃんじ)ファイル]]
+[[include :fes-ryuukatetu:tab-list:nyanji-nana]]
+[[/tab]]
+[[tab エージェント・笹音の人事ファイル]]
+[[include :fes-ryuukatetu:tab-list:jinji-sasanone]]
+[[/tab]]
+[[tab サイト-81██勤務職員との交流チャット]]
+[[include :fes-ryuukatetu:tab-list:chat]]
+[!--
+特別な返信が帰ってくる言葉
+
+笛栖研究員
+* おはよう
+* こんにちは
+* こんばんは
+* よろしく
+* 土佐弁教えて
+* [200文字以上の長文]
+* FeS
+* ナナ
+* 神恵研究員
+* 乾上研究員
+* 猫舞研究員
+* 松原拷問官
+* 黒野博士
+* エージェント・馬頭琴
+* 氷菓監査官
+* 川獺丸従業員
+* エージェント・猿児
+* エージェント・応神
+* しぃカウンセラー
+* 鐚銭博士
+* 月夜見博士
+* 水鐘博士
+* 山月監視員
+
+エージェント・笹音
+まだでつ……
+--]
+[[/tab]]
+[[/tabview]]

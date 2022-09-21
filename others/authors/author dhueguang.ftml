@@ -1,0 +1,81 @@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div class="change-collapsible"]]
+[[=]]
+[[span style="font-size: 200%; font-weight: bold"]][[collapsible show="+書いた" hide="-閉じる"]][[/span]]
+[[/=]]
+[[module ListPages created_by="=" separate="no" tags="+scp +jp" order="created_at desc" category="_default" perPage="100" prependLine="||~ SCP ||~ 評価 ||~ コメント数 ||~ 作成日時 ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% ||
+[[/module]]
+@@@@
+[[module ListPages created_by="=" separate="no" tags="tale +jp" order="created_at desc" category="_default" perPage="100" prependLine="||~ Tale ||~ 評価 ||~ コメント数 ||~ 作成日時 ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% ||
+[[/module]]
+@@@@
+[[module ListPages created_by="=" separate="no" tags="goi-format +jp" order="created_at desc" category="_default" perPage="100" prependLine="||~ GOIフォーマット ||~ 評価 ||~ コメント数 ||~ 作成日時 ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% ||
+[[/module]]
+@@@@
+[[module ListPages created_by="=" separate="no" tags="アートワーク +jp" order="created_at desc" category="_default" perPage="100" prependLine="||~ アートワーク ||~ 評価 ||~ コメント数 ||~ 作成日時 ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% ||
+[[/module]]
+@@@@
+[[module ListPages created_by="=" separate="no"  order="created_at desc" category="-_default, -fragment" perPage="100" prependLine="||~ その他 ||~ 評価 ||~ コメント数 ||~ 作成日時 ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% ||
+[[/module]]
+[[/collapsible]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+[[div class="change-collapsible"]]
+[[=]]
+[[span style="font-size: 200%; font-weight: bold"]][[collapsible show="+訳した" hide="-閉じる"]][[/span]]
+[[/=]]
+[[module ListPages created_by="=" separate="no" tags="-jp" order="created_at desc" category="_default" perPage="100" prependLine="||~ 面倒なのでごちゃまぜで||~ 評価 ||~ コメント数 ||~ 作成日時 ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% ||
+[[/module]]
+[[/collapsible]]
+[[/div]]
+[!--
+[http://ja.scp-wiki.net/author-page-guide 著者ページのガイドライン]に書いてある著作リスト用の構文は多分間違っているんですよね。
+[[code]]
+[[module ListPages created_by="=" separate="no" tags="+scp +jp" order="created_at desc" category="*" prependLine="||~ SCP ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+[[/code]]
+この方がより正しいはず。
+何が違うか
+* ユーザ名を書き換える手間が減らせる。
+* orderを正しい書き方に変更(デフォルトがcreated_at descなので、今の構文だとこの箇所が読み飛ばされるため結果的に影響はないが見ていて腹が立つ。2000-JPコンテストでも似たミスをしていた(昇順はascではなく、何も書かないかdesc desc)。)
+(本当はcategory="_default"にしたいがこれで影響を受ける人はおそらくいないので今は省略。この"*"は全カテゴリを指定するものだが除去するとListPagesの置いてあるページと同じカテゴリ、つまりauthorカテゴリのみを指定することになるため注意。この説明が違ったらごめん。)
+--]
+
+[[module CSS]]
+#page-title {
+  display: none;
+}
+
+.change-collapsible a.collapsible-block-link{
+    color: black;
+}
+
+.page-source {
+    font-size: 0em;
+}
+
+
+.page-source::after {
+ color: black;
+ font-size: 12.5px;
+ white-space: pre-wrap;  
+ content: 'Q. dhueguangってなんて読むんですか？\A
+A. 読まないよ。';
+}
+
+[[/module]]

@@ -1,0 +1,1838 @@
+[[include :scp-jp:component:black-highlighter-theme-dev]]
+[[include :scp-wiki:theme:dustjacket]]
+
+[[module css]]
+.hovertip {
+    background-color: #8fbc8f!important;
+}
+
+.link-red a{
+    color:#B40404;
+}
+
+.modal-body td img[src*="userkarma.php"] {
+    filter: hue-rotate(150deg);
+}
+
+.blur {-webkit-filter: blur(3px);
+filter: blur(3px);
+}
+
+.text-change div.sitemember:nth-child(2) {
+display:none;
+}
+
+#page-title {
+  display: none;
+}
+.meta-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #000000;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+
+[[/module]]
+
+[[=]]
+[[div_ class="fancyborder"]]
+[[div class="text-change"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+ようこそ、%%name%%さん!
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+ようこそ、まだ名前のないゲストさん!
+[[/div]]
+[[/div]]
+[[module listpages name="guestc" category="author"]]
+蔵書点検が%%updated_at|%Y/%m/%d| %%に行われたようです。
+[[/module]]
+[[/div]]
+[[/=]]
+@@ @@
+[[div class="link-red"]]
+
+[[tabview]]
+[[tab 著作]]
+[[/tab]]
+
+[[tab 翻訳]]
+**__EN=>JP__**
+[[module ListPages created_by="guestC" separate="no" tags="+en" order="created_at" category="*"]]
+%%title_linked%%
+　**コメント数:** %%comments%% | **評価:** %%rating%% | [*https://scp-wiki.wikidot.com/%%name%% 原語版を読む]
+[[/module]]
+[[/tab]]
+
+[[/tabview]]
+
+@@ @@
+
+[[tabview]]
+[[tab Favs]]
+
+[[/tab]]
+
+[[tab SCP]]
+[*http://scp-jp.wikidot.com/scp-1714-jp SCP-1714-JP] - --腐食性幽霊-- {{残されたモノたち}}
+[*http://scp-jp.wikidot.com/scp-2448 SCP-2448] - ギルドマスター・ギョームの城
+[*http://scp-jp.wikidot.com/scp-2460 SCP-2460] - 未完の儀式
+[*http://scp-jp.wikidot.com/scp-1046-jp SCP-1046-JP] - 鍵をかけた柩
+[*http://scp-jp.wikidot.com/scp-1326 SCP-1326] - 語彙目録
+[*http://scp-jp.wikidot.com/scp-1710-jp SCP-1710-JP] - **シ[[size 50%]]ョパ[[/size]]ン・ゴジラ**
+[*http://scp-jp.wikidot.com/scp-1986 SCP-1986] - 架空図書館
+[*http://scp-jp.wikidot.com/scp-1726 SCP-1726] - 図書館と石柱
+[*http://scp-jp.wikidot.com/scp-5657 SCP-5657] - ニッキーはお見通し
+[*http://scp-jp.wikidot.com/scp-128 SCP-128] - 運動エネルギー体
+[*http://scp-jp.wikidot.com/scp-4228 SCP-4228] - カーマ・カメレオン
+[*http://scp-jp.wikidot.com/scp-026-jp SCP-026-JP] - 現代のハイヌウェレ
+[*http://scp-jp.wikidot.com/scp-3797 SCP-3797] - たった1度の未来の銃
+[*http://scp-jp.wikidot.com/scp-4982 SCP-4982] - 冠に重圧あり。
+[*http://scp-jp.wikidot.com/scp-1045-jp SCP-1045-JP] - お眼鏡にはかなわない
+[[/tab]]
+
+[[tab Tale]]
+[*http://scp-jp.wikidot.com/yesterday Yesterday]
+[*http://scp-jp.wikidot.com/now-watch-and-learn-heres-the-deal いいかよく見てろ、やり方はこうだ…]
+[*http://scp-jp.wikidot.com/broken-masquerade-epistolary ヴェール無き世界の断片集]
+[*http://scp-jp.wikidot.com/now-that-the-rhinos-are-not-dying サイが死ななくなったので]
+[*http://scp-jp.wikidot.com/o5-a1-f1-003-yotsuya-2-mens-sana No.A1-3]
+[*http://scp-jp.wikidot.com/085-romance-adult 2.5次元のロマンス]
+[*http://scp-jp.wikidot.com/about-deer ディア大学について]
+[*http://scp-jp.wikidot.com/we-love-you 家庭用電機の哲學]
+[*http://scp-jp.wikidot.com/sailor-yorunotobari 姿見ひとつ無い部屋だから]
+[*http://scp-jp.wikidot.com/goc-supplemental-thaumatology ████████████教授の応用奇跡論の講義の書き起こし]
+[*http://scp-jp.wikidot.com/notyetdr-bad-children いけない事をしませんか? ]
+[*http://scp-jp.wikidot.com/no-remorse No Remorse]
+[*https://scp-wiki.wikidot.com/foundation-missed-connections Foundation Missed Connections]
+[*http://scp-jp.wikidot.com/a-brief-essay-on-human-culture 人類文化に関する簡単なエッセイ]
+[*http://scp-jp.wikidot.com/zeitgeist 時代精神]
+[*http://scp-jp.wikidot.com/on-the-radar オン・ザ・レーダー]
+[*http://scp-jp.wikidot.com/the-last-jingle-bell 最後のベル]
+[*http://scp-jp.wikidot.com/september-eleven-prequel 狂騒序曲]
+[*http://scp-jp.wikidot.com/oninodennsetsu 鬼の伝説]
+[[/tab]]
+
+[[tab GoIF]]
+[*http://scp-jp.wikidot.com/the-spinners 極東地域の伝統的な決闘様式]
+[*http://scp-jp.wikidot.com/hello-i-am-an-nameless-aodaisho 概念の蛇が如何にしてあなた方と語らうことになったか]
+[*http://scp-jp.wikidot.com/ahashima アハシマ]
+[*http://scp-jp.wikidot.com/miyake 商人の三宅]
+[*http://scp-jp.wikidot.com/timeline-i-5 タイムライン η-5]
+[*http://scp-jp.wikidot.com/yamizushi-file-no403 闇寿司ファイルNo.403 "弱みの握り"]
+[[/tab]]
+
+[[tab Others]]
+[*http://scp-jp.wikidot.com/aleph-null-hub アレフ・ヌル]
+[*http://scp-jp.wikidot.com/myo-rei-ji 妙麗寺]
+[*http://scp-jp.wikidot.com/news-2018-6 財団世界 隠蔽事件記録]
+[*http://scp-jp.wikidot.com/1998-hub 1998年]
+[*http://scp-jp.wikidot.com/antarctic-exchange-hub 南極の交流]
+[[/tab]]
+[[/tabview]]
+
+@@ @@
+
+[[tabview]]
+[[tab リンク集(仮)]]
+= **原本:** http://pseudo-scp-jp.wikidot.com/links
+[[/tab]]
+
+[[tab 考察]]
+
+++ SCP財団
+
++++ 財団史
+
+[*http://scp-jp.wikidot.com/forum/t-5495188/ 財団の前身・変遷に関するヘッドカノンをお聞かせください]
+[*http://scp-jp.wikidot.com/forum/t-1654139/ 財団が出来る以前の歴史について]
+> 財団が出来る以前、世界にSCPは存在していたのでしょうか。また、それに対して人類はどう対処していたのでしょうか。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-10278184/ 日本支部、蒐集院の発足時期に関する質問]
+> 財団が来日し、日本支部が誕生したのはいつ頃の出来事でしょうか? 蒐集院はいつ頃発生したのでしょうか? また、蒐集院に関して詳しく知ることができる記事などあれば教えてください。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1040017/ かくて財団は生まれぬ]
+> 日本でSCP財団はいつごろ根付いたのでしょう? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-751090/ 財団の設立年代と活動期間]
+[*http://scp-jp.wikidot.com/forum/t-5995576/ 中世あたりの日本の財団世界観について]
+> 平安時代とか戦国時代の財団(おそらくは蒐集院かその類似組織)について皆さんのヘッドカノン砲を好き勝手書くスレッドです。[((bibcite 1))]
+
++++ 組織
+
+++++ 運営
+
+[*http://scp-jp.wikidot.com/forum/t-754834/ 本部と日本支部について]
+> 皆さん何気なく財団の本部があり、日本支部があると考えているかもしれませんが それは正しいのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-3190766/o5 財団日本支部理事会とO5評議会の関係について]
+> 皆さんの中の財団日本支部理事会とO5評議会の上下関係はどのようなものでしょうか。[((bibcite 1))]
+[*http://erimamanus.wikidot.com/organizations-of-foundation-universe 財団世界観の組織考察]
+[*http://scpjp-fansite.wikidot.com/japanese-branch-council-staff-office 日本支部理事会幕僚部に関する諸考察]
+
+++++ 渉外
+[*http://scp-jp.wikidot.com/forum/t-1208678/ 財団は政府に介入することはあるのかという問題]
+[*http://scp-jp.wikidot.com/forum/t-1259619/ 財団と国連の関わりは? ]
+
+++++ オブジェクトクラス
+
+[*http://scp-jp-sandbox3.wikidot.com/draft:kazumikkusu-2-5036 各Thaumielオブジェクトに関する個人的評価]
+> 財団日本支部wikiに存在するJoke以外の全てのThaumielについて、Thaumielとしての利用方法やそれによる効果、リスクを考慮した上でどの程度「優秀」であるかを考察してまとめたページ[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-14147055/thaumiel Thaumielクラスの定義について]
+> 単純にSCPオブジェクトの異常性が財団にとって有益だった場合などはThaumielクラス指定はされないのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-6113343/oc 現象系オブジェクトのOCの基準についての質問です。]
+> オブジェクトクラス=そのオブジェクトの収容難易度というのがSCP財団における一般常識ですが、現象系オブジェクトのオブジェクトクラスの基準はどんなものなのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-4402017/ オブジェクトクラスと財団]
+> オブジェクトクラスは単純な収容難易度以外にも何かある気がするんです。皆さんは財団のオブジェクトクラスに関して、どのようなヘッドカノンを持っていますか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1047952/ オブジェクトクラスの最終決定権は誰にある? ]
+[*http://scp-jp.wikidot.com/niveaux-de-menace-des-objets-scp SCPオブジェクトの脅威レベル]
+
++++ 人事
+
+[*http://scp-jp.wikidot.com/forum/t-1040010/ 財団の役職について]
+> 財団にもこんな役職あるんじゃないor必要じゃない? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-2397158/scp 財団職員のSCPオブジェクトの認知の範囲について]
+> オブジェクトをどの程度一般の研究員が認知しているか? thaumielというクラスについて知っているか? 
+[*http://scp-jp.wikidot.com/forum/t-6686861/ 財団職員のスペックについての質問]
+> エージェントや職員はいったいどの程度のIQや身体能力は持ち合わせていますか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1214889/tale 汎用taleネタについて-“財団職員はどんな仕事をしているのか? ”]
+> 財団のエージェント/博士/その他職員は、普段は具体的にどんな仕事に当たっているのでしょう? [((bibcite 1))]
+
+++++ Dクラス職員
+
+[*http://scp-jp.wikidot.com/forum/t-2052310/ 財団職員の家族について]
+> ふと思ったのですが財団職員の家族は職員の職務を知っているのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-5771369/d 終了されたDクラス職員の遺体の処理方法について]
+> 終了後の遺体はどのように処理されているのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-6240265/d 日本におけるDクラス職員雇用はどうなってるんだ問題][*http://scp-jp.wikidot.com/forum/t-8153140/d Dクラスの年齢について]
+> Dクラスの年齢に下限は存在するのか、若い人材を一体どのように調達しているのか。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-10641483/d Dクラス職員について]
+> Dクラス職員は普段どのような部屋で暮らしてるんでしょうか。(個室? 大部屋? )[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1043402/d Dクラスってどういう人たちなの? ]
+> どうやって財団はDクラスを集めているのでしょう? 
+
+++++ 特定の人物
+
+[*http://scp-jp.wikidot.com/forum/t-2947811/ 各財団支部間におけるブライト博士の知名度]
+> ブライト博士がどれぐらい財団間の中で知られているのか、それこそ国を越えた知名度という解釈で良いのか? ブライト博士が「上品」「紳士的な発言」「娯楽行為の忌避」と言った内容を口にすると財団はどれぐらいの騒動になる? [((bibcite 1))]
+
++++ 施設
+
+[*http://scp-jp.wikidot.com/forum/t-5083839/ 財団施設とその機能について]
+> サイトを建設している作業員は財団職員か? 設計は? 財団職員に寮は与えられるか? 財団施設になくて他の建物にあるもの、あるいはその逆は? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1056621/8181 サイト-8181について]
+> サイト8181ってどのような場所にどのように偽装されているのでしょうかね? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1057206/ 財団の雰囲気及び施設の構造について]
+> 日本支部財団の施設構造についてですが、大雑把な地図のようなものは存在していないのでしょうか? 文字だけの記載だとどうもぼんやりしすぎてる感じがあります。建物は大体何階建てなのかなど、色々気に掛かっています。[((bibcite 1))]
+
++++ 資産
+
+++++ 装備
+
+[*http://scp-jp.wikidot.com/forum/t-7508221/ 財団の装備などについて]
+[*http://scp-jp.wikidot.com/forum/t-2017072/ 財団装備スレッド]
+> * 財団の職員はどのような格好をしているのでしょうか? 
+> * 財団の装備はどのようなものを使っている? 
+> * そういや財団のあの役職の制服ってどうなっているんだ（特によく死ぬ財団の警備員職とか）? 
+> * 現実のこの装備、財団は導入しているに決まっているぜ![((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1946320/d Dクラス用記録機器について]
+多くの報告書やtaleで使われている記録機器ですが、大きさやスペックなどが曖昧な印象があります。録音機能やGPSが搭載されているのが一般的ですが、それ以外にも何か搭載はされていないのでしょうか? [((bibcite 1))]
+
+++++ 軍事
+
+[*http://scp-jp.wikidot.com/forum/t-9939664/m4 【軍事考察】財団のM4について]
+> 財団で使用されている銃については財団軍事考察では何度か話題になっていますが、今回はいわゆる「M4」こと「AR-15」に範囲を絞って考察していただきたいと思います。
+> 財団職員が使用する装置や武装は、すでにあるものを使用しているのか、もしくは財団がオリジナルで生産したものを使用しているのか、どちらででしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/equipement-de-la-branche-francophone フランス支部の軍備]
+
+++++ 技術
+
+[*http://scp-jp.wikidot.com/forum/t-10129530/ 財団が持っていそうな技術をたくさんあげて欲しい]
+[*http://scp-jp.wikidot.com/forum/t-5771186/ 特殊な効果を持つ道具について]
+> 財団にとってスクラントン現実錨やカント計数機はどの程度の価値を持つ道具なのでしょうか? [((bibcite 1))]
+
+++ 組織
+
+[*http://scp-jp.wikidot.com/forum/t-1804588/ 質問 : 国内の政府系超常組織の能力について]
+> 財団の世界には公安調査庁、警察、自衛隊または内調などにも異常現象に対応する組織があるようですがそれらの能力、技術力はどの程度のものなのでしょうか。また、カント計測器等の技術は保有しているのでしょうか。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-6247933/ 財団世界の満州国について]
+> 満州国（満州帝国）が財団世界の歴史にも同様に存在していたとして、"五族協和・王道楽土"の裏側でアノマリーを巡って財団や大日本帝国異常事例調査局（IJAMEA）などのGoIがどう関係していたか、皆さんで語り合いましょう。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1989276/ 昔の日本にはどんな要注意団体があった? ]
+> 実際SCP-JPにも「蒐集院」という要注意団体がいます。準要注意団体には「負号部隊」という要注意団体がいます。そういった人々はどういうことをしていたんでしょうね? 　どうやって怪異を収容したり、研究していたんでしょう? そこにはどんな歴史があるんでしょう? [((bibcite 1))]
+
++++ Are We Cool Yet? 
+
+[*http://scp-jp.wikidot.com/forum/t-10784324/awcy AWCYの起源・前身について]
+> AWCYハブによると、AWCYの起源は19世紀末~20世紀初頭のようですが、それよりも前のAWCYの前身となったような人々の設定などはあるのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1384458/are-we-cool-yet 日本でのAre We Cool Yet? の活動について]
+> アートテロリストである彼らは何時頃から日本での活動を開始したのでしょうか? [((bibcite 1))]
+
++++ 大日本帝国陸軍特別医療部隊
+
+[*http://scp-jp.wikidot.com/forum/t-2154429/goi 負号部隊と韓国新GOIの連係について]
+> SCP-KOでは今、北朝鮮のGOI[*http://sandbox.scp-wiki.kr/dprk-goi 「朝鮮民主主義人民共和国保健1局超常1課」]を構想中です。この団体と負号部隊を連係させればどうかなと思いました。[((bibcite 1))]
+
++++ IJAMEA
+
+[*http://scp-jp.wikidot.com/forum/t-1754421/ijamea-scp IJAMEAとSCP財団日本支部及び要注意団体との関係について]
+> 大日本帝国異常事例調査局(IJAMEA)は、SCP財団日本支部や日本の要注意団体とどのような関係があるのでしょうか。[((bibcite 1))]
+
++++ 蒐集院
+
+[*http://scp-jp.wikidot.com/forum/t-4061112/ 蒐集院における現実改変（者）の呼称]
+[*http://scp-jp.wikidot.com/forum/t-2035180/ 蒐集院スレッド!]
+> 日本の歴史の中に、蒐集院が潜めるような影はないか!? 探してみよう![((bibcite 1))]
+
++++ 石榴倶楽部
+
+[*http://scp-jp.wikidot.com/forum/t-12004312/ 石榴倶楽部を語りたい]
+
++++ 警視庁公安部特事課
+
+[*http://scp-jp.wikidot.com/forum/t-5630175/ 【警視庁公安部特事課】について]
+> 警視庁公安部特事課って何やってんだろうねという事で、あなたの頭の中の特事課をさらけ出そう![((bibcite 1))]
+
++++ 東弊重工
+
+[*http://scp-jp.wikidot.com/forum/t-10829443/ 東弊重工と財団の敵対性について]
+> 東弊重工が財団に対して挑発ないしは敵対的な行動をとることはあるのでしょうか。[((bibcite 1))]
+
+++ 実体・人物
+
++++ ヤルダバオート
+
+[*http://www.scp-wiki.net/forum/t-6560947/the-forces-of-yaldabaoth The Forces of Yaldabaoth]/[*http://erimamanus.wikidot.com/red-selppa-01 ヤルダバオートの戦力 (翻訳)]
+
++++ SCP
+
+[*http://scp-jp.wikidot.com/forum/t-5895762/scp-444-jp SCP-444-JPのトリガーになる情報とは? ]
+
+++ 概念
+
+[*http://scp-jp.wikidot.com/forum/t-2338167/ ミームは現実改変に打ち勝つのか? ]
+> SCP-1000-JPやSCP-540-JPを見てると、どうやら現実改変を引き起こすのは人間の表層意識ではないかと考えました。一方、FAQ;～ヒュームって一体全体なんだ?  Part2では、「情報単独、またはその知識によってヒューム値が変わることはない」とされています。はたして、ミームは現実改変に打ち勝てるのでしょうか? もっと具体的に言うならば、現実改変者に記憶処理を施すと、その異常性はどうなるのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-5650930/ 【財団世界における歴史】ヒュームという概念が登場した時期について]
+> 財団世界において、「ヒューム」という概念が初めて登場した時期っていつ頃なんでしょうか? [((bibcite 1))]
+
++++ 現実改変
+
+[*http://scp-jp.wikidot.com/forum/t-3335784/ 現実改変のデジタル化について]
+> 現実改変が作用する一連の行程を、デジタル化(機械化)することは可能なのでしょうか? [((bibcite 1))]
+
++++ 幽霊/霊体/霊的実体/お化け/ゴーストetc
+
+[*http://scp-jp.wikidot.com/forum/t-12900951/ 霊的実体について]
+> 霊的実体を固定化する機器はあれど、霊的実体の構成要素や計測法について詳しく述べられた記事は見当たりませんでしたので自論を展開してみました→http://scp-jp-sandbox3.wikidot.com/draft:4120291-7-729b
+> しかしながら、この論にはまだまだ改良の余地があると思われます。サイトメンバーの皆様、英知を分けていただけませんか![((bibcite 1))]
+
++++ K-クラスシナリオ
+
+[*http://scp-jp.wikidot.com/forum/t-5193692/zk ZK-クラス:現実不全シナリオ後の世界について]
+> ZK−クラス:現実不全シナリオが訪れた世界は、どのような光景が広がっているのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-3338219/k Kクラスシナリオ発生時の財団の対応について]
+> 地球とほぼ同等(SCiPや財団だけがない)の惑星があります。財団はそれを把握していますが、接触はしていません。ここでもし、地球で重大な損害を引き起こすKクラスシナリオが回避できなく、財団がない惑星にオブジェクト自体や効果をなすりつけることができる場合、財団はなすりつけを実行するでしょうか? [((bibcite 1))]
+
+[[/tab]]
+
+[[tab 解説]]
+
+++ SCP財団
+
+[*http://scp-jp.wikidot.com/anomaly-classification-system-guide アノマリー分類システム (ACS) ガイド]
+[*http://scp-jp.wikidot.com/forum/t-10599654/ 「収容」と「確保」の違いについて]
+> 収容と確保の違いが判りません。[((bibcite 1))]
+[*https://scp-wiki.wikidot.com/forum/t-14039886/what-are-explained-scp-s Explained SCPって何ですか? ]
+[*http://scp-jp-sandbox3.wikidot.com/draft:2919814-7-5757 職員名簿/8105履修チャート]
+[*http://scp-jp.wikidot.com/organizzazione-interna イタリア支部の組織構造]
+[*http://scp-jp.wikidot.com/sobre-a-fundacao-lusofona ポルトガル支部について]
+[*http://scp-jp.wikidot.com/the-foundation-and-evil 財団と悪]
+> 財団は残酷ではありませんが、しかし冷酷です。[((bibcite 2))]
+
+++ 組織
+
+[*http://scp-jp.wikidot.com/author:mrdrytisgod 要注意団体履修リスト!]
+[*https://sp.nicovideo.jp/mylist/66393383 どんと来いプロメテウス研究所]
+> 要注意団体プロメテウス研究所に関わる作品を大勢で紹介する企画です[((bibcite 1))]
+[*https://www.reddit.com/r/SCPDeclassified/comments/8cegt4/pattern_screamers_declassified/ Pattern Screamers Declassified]/[*http://erimamanus.wikidot.com/pattern-screamers-declassified パターン・スクリーマー・ガイド]
+> パターン・スクリーマーズは非常に複雑な怪奇の1つです。なので、このdeclassifiedでは彼らが何者なのか、性質、背景、そして目的は何なのかを説明します。[((bibcite 1))]
+[*http://erimamanus.wikidot.com/would-you-like-to-learn-more オネイロイのこと、もっと知りたい? ]
+> "オネイロイ・コレクティブ"及び、"オネイロイ"という概念、そしてそれを取り巻く人間の"夢の世界"に関する考察/解釈のヘッドカノンを列挙したものです。また、このページは解説のみではなく、各読み手の解釈やヘッドカノンを擦り合わせ、統合し、より良きオネイロイの知見へと繋げていくことも目的としています。[((bibcite 1))]
+[*http://erimamanus.wikidot.com/sarkiscism-sandselbstmord-1 サーキック解説]
+[*https://note.com/nazekimi_/n/nb871e0d9b9cc 【解説】反ミーム部門と第五教会を体系的に学ぶ]
+[*http://scp-jp.wikidot.com/forum/t-5804904/ 第五教会について]
+> 第五教会の目的は? 彼らの神は存在するか? SCP-3125との関連は? 彼らにとって「星」とは? 
+[*http://scp-jp.wikidot.com/forum/t-9087666/kindness Kindnessについての質問です]
+> Kindnessとは何者なのでしょうか? 
+[*https://scpnote.com/archives/4657806.html その手が招くは滅びか救いか……。要注意団体 犀賀派まとめ]
+[*http://scpsandbox-jp.wikidot.com/tsucchii0301 日奉一族について]
+[*http://scp-jp-sandbox2.wikidot.com/guideline:imperialreport 帝国情報]
+
+++ 実体・人物
+
+[*https://scpnote.com/archives/scps-and-tales-related-to-scp701.html 吊られた王とアラガッダの大使の正体とは? SCP-701の謎に迫る関連SCP・Tale紹介]
+[*http://scp-jp.wikidot.com/author:hasuma-s 角宇野一四履修ノート]
+> これは「角宇野記録官について知りたいけど、何がどうなってるかわかんねーよ!」って人のための履修順解説のようなものです。著者である僕自身ノーヒントで理解するのはめちゃムズイなあと思っているので、ここで理解を深めていただければ幸いです。[((bibcite 1))]
+
+++ 場所
+
++++ 放浪者の図書館
+
+[*https://wanderers-library.wikidot.com/the-universe 世界観に関するF&Q]
+
+++ 概念
+
+[*http://scp-jp.wikidot.com/forum/t-3512737/ 『現実改変能』と『過去改変能』は異なるのか? ]
+[*https://scpnote.com/archives/scp-foundation-hazard-list.html 認識災害・情報災害・ミーム災害……SCP財団の○○災害一覧]
+[*http://pseudo-scp-jp.wikidot.com/akiva-drk アキヴァ? ]
+> アキヴァ関係をザッとまとめたものです。
+
++++ 現実改変
+
+[*http://scp-jp.wikidot.com/forum/t-6369926/ スクラトン博士と現実改変能力者に関する疑問]
+> スクラトン博士は自分よりミーム値が低い空間で拡散してしまってバラバラになったんですよね? では何故、現実改変能力者は周りが自分より低いヒューム値なのに拡散しないのでしょうか? [((bibcite 1))]
+
++++ ミーム
+
+[*http://scp-jp.wikidot.com/forum/t-764262/ 結局ミームってなんなのさ]
+[*http://scp-jp.wikidot.com/forum/t-5419814/ で、結局「反ミーム」ってなんなんでしょう? ]
+[*http://scp-jp.wikidot.com/understanding-memetics 財団的ミーム学入門]
+> 財団世界でいう"ミーム"という語について解説するエッセイです。[((bibcite 2))]
+
++++ 技術
+
+[*http://scp-jp.wikidot.com/forum/t-12933762/xacts シャンク/アナスタサコス恒常時間溝(XACTS)について]
+> シャンク/アナスタサコス恒常時間溝の機能とは「効果範囲を時間的な異常事象から保護する」という理解なのですが、これが正しいのか否か、お教えいただけると幸いです。[((bibcite 1))]
+[*http://erimamanus.wikidot.com/mnestics 記憶補強薬]
+[*https://scpnote.com/archives/4576049.html スクラントン現実錨・ヒューム値・カント計数機って何? 財団用語を説明してみました。]
+[*https://scp-wiki.wikidot.com/forum/t-1438186/what-is-a-scranton-reality-anchor-sra スクラントン現実錨(SRA)とは何ですか? ]
+
+++ 読書ガイド
+
+[*http://pseudo-scp-jp.wikidot.com/canon-index カノン目録【追記フリー】]
+> カノン (特にカノンハブに掲載されている合作) についての情報・個人的見解を集約するページです。
+[*https://scpnote.com/archives/5969848.html 76年の夏に一体何が……。 SCP財団 76年シリーズまとめ]
+[*https://m.youtube.com/watch? v=8-jtk8X7C7s&feature=youtu.be 【ハブ解説】これから扶桑紀を読む人へ!扶桑紀の概要、オススメ記事など]
+[*http://scp-jp.wikidot.com/author:tark-iol 布教枠: 第三法則スターターセット]
+[*http://scp-jp.wikidot.com/author:tobisiro 鐘を鳴らす者の詩]
+> 鐘を鳴らす者の詩のTaleを作品順1に紹介していくスペースです![((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/bellerverse-beginner-guide 鐘を鳴らす者の詩初心者ガイド]
+[*http://pseudo-scp-jp.wikidot.com/unhuman-description 人ならぬもの 作品紹介]
+[*http://scp-jp.wikidot.com/author:dr-kudo スシブレード作品案内]
+> このコーナーではスシブレード作品を時系列順に振り返り、キーとなる作品を簡単な解説と共に紹介することで、初めての方でも安心してスシブレード作品群を読み進められるようにお手伝いをできればと思います。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/alors-comme-ca-vous-voulez-tourner-des-sushis それで、あなたはSUSHIを回しますか? ]
+> カノン-JP「スシブレード」を初めて読む方へ向けた入門エッセイです。[((bibcite 2))]
+[*http://pseudo-scp-jp.wikidot.com/sorede-kekkyoku-98tte-nani-yomeba-iinndesuka それで、結局98って何読めばいいんですか? ]
+> 2022年4月現在、[*http://scp-jp.wikidot.com/1998-hub 98]の記事数は180を超えており、大変な時間がかかることが予想されます。「いや無理だよ!」「重要なor面白い記事だけ読みたい!」そんなあなたのために、このページを用意しました!是非活用してください![((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/drk:katte-na-doa-hub 怪奇部門 ハブ (非公式)]
+
+[[/tab]]
+
+[[tab 資料]]
+
+++ 用語集
+
+[*http://erimamanus.wikidot.com/oneiric-glossary オネイロイ簡易用語集]
+> 各著者がオネイロイ関連記事を作成する際の参考・引用・活用を目的に、"オネイロイ"のタグが使用されている記事（未翻訳記事は除く）で登場している用語について、簡易的に列挙・説明されています。[((bibcite 1))]
+[*https://scpnote.com/archives/sarkic-cults-glossary.html サーキック・カルト関連用語集]
+[*http://pseudo-scp-jp.wikidot.com/scp-glossary 財団用語集]
+> このページはSCP財団に関連する作品に登場する用語の網羅を目指して作成されました。[((bibcite 1))]
+[*https://scp-wiki.wikidot.com/glossary-of-terms 用語集]
+
+++ 年表
+
+[*http://erimamanus.wikidot.com/daevite-chronology ダエーバイト年表]
+> ダエーバイトに関わる帝国・文化・文明・民族に関連する事象を時代ごとにまとめます。あくまで設定創作ではなく設定統合です。[((bibcite 1))]
+[*http://erimamanus.wikidot.com/bc-anomlous-list 紀元前超常史リスト]
+> 財団世界の紀元前における超常存在・技術と人類との関わりが見られる記事・Taleのリストです。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/author:tutu-sh 地球史/生命史年表]
+> SCPオブジェクトとして（日本語版に）投稿されたオブジェクトがどれだけ地球史/生命史に絡んでいるのかを一望できるリンク集[((bibcite 1))]
+
+++ 総覧
+
++++ SCP財団関連
+
+++++ オブジェクトクラス
+
+[*http://erimamanus.wikidot.com/non-standard-classes-list 特殊オブジェクトクラス集]
+> リスト情報はやや古いです。最新の情報は[*http://ja.scp-wiki.net/esoteric-classes-complete-list こちら]から入手できるかもしれません。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/esoteric-classes-complete-list 特殊オブジェクトクラスの包括的リスト]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:esoteric-class-survey 特殊オブジェクトクラス調査]
+> SCP-JP本サイトに投稿されている特殊オブジェクトクラスを調査しています。[((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/scp-jp-oc SCP-JPのOC一覧（jokeを除く）]
+[*http://pseudo-scp-jp.wikidot.com/object-classes-list-jp オブジェクトクラス総覧-JP]
+> 全手動のオブジェクトクラス総覧
+[*http://pseudo-scp-jp.wikidot.com/sq-list-xli セフィロト&クリフォトの私的まとめ]
+[*http://scp-jp.wikidot.com/author:eiansakashiba 手動によるTiamat包括的リスト]
+
+++++ Kクラスシナリオ
+
+[*http://scp-jp.wikidot.com/k-class-complete-list Kクラスシナリオの包括的リスト]
+[*http://scp-jp.wikidot.com/author:cateyes Kクラスシナリオまとめ]
+
+++++ 組織
+
+[*http://scp-jp.wikidot.com/task-forces-complete-list 機動部隊の包括的リスト]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:task-forces-jp-list 機動部隊-JP総覧]
+> 『機動部隊』について、いろんな情報を集積するために作られたページです。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/departments-complete-list 財団内部部門の半包括的リスト]
+[*http://pseudo-scp-jp.wikidot.com/scp-jp-dept SCP-JP記事に登場する内部部門一覧]
+[*http://scp-int.wikidot.com/secure-facilities-locations 財団施設の国際目録]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:institutes-jp-survey 財団施設調査]
+> 『財団施設』について、記事単位で用いられたものを記録するために作られたページです。[((bibcite 1))]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:institutes-jp-survey-1 財団施設調査001~1999]
+> 『財団施設』について、記事単位で用いられたものを記録するために作られたページです。
+[*http://pseudo-scp-jp.wikidot.com/scp-jp-site SCP-JP記事に登場するサイト-81XX一覧]
+[*http://pseudo-scp-jp.wikidot.com/foundation-precursor Foundation Precursor]
+> SCP財団の前身組織や、後に財団に吸収された組織の一覧
+[*http://pseudo-scp-jp.wikidot.com/foundation-fronts Foundation Fronts]
+> フロント企業のリスト
+
++++++ 人事
+
+[*http://scp-jp.wikidot.com/personnel-and-character-dossier 職員・人物ファイル]
+[*http://scp-jp.wikidot.com/personnel-and-character-dossier-jp 職員・人物ファイル-JP]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:foundation-personnel-jp-list 財団職員-JP総覧【試用中】]
+[*https://docs.google.com/spreadsheets/d/1-9tePXV59cjcICMNHcfUu35UovEi8Wbqa0JydKX0JMo/htmlview 人事調査2020]
+> 財団に雇用されている状態での描写があるキャラクター全般を扱います。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/author:hasuma-s 職員名簿-JP]
+> 日本支部職員を五十音順で並べました。複数の報告書に登場しいずれかのもので死亡している場合、番号に訂正線を入れています。（Recentry Update:2018/09/30)[((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/prichard-dossier プリチャード関係者一覧]
+
+++++ その他
+[*http://pseudo-scp-jp.wikidot.com/list-of-foundation-ships 財団艦艇(SCPS)目録]
+> SCPverseに登場する財団艦艇(SCPS)の一覧です。[((bibcite 1))]
+[*https://scp-wiki.wikidot.com/forum/t-5468586/does-the-black-moon-howl 黒き月は吠えているか? ]
+> このフレーズに対する応答をもっと知りたい[((bibcite 1))]
+
+++++ 超常技術
+
+[*http://scp-jp.wikidot.com/forum/t-4430814/ 財団が保有する特殊な技術について]
+> 財団には各クラス記憶処理やスクラントン現実錨(砲)、カント計数機等の一般には公開されていない固有技術が存在しますが、他にどのような技術があるのでしょうか。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-6280623/ 財団の持つ超常的な技術について]
+> 財団が異常存在を収容する為、或いは研究する為に使用している超常的な技術[((bibcite 1))]
+[*http://scp-jp.wikidot.com/author:red-selppa 財団の保有する超技術]
+[*https://scp-wiki.wikidot.com/forum/t-5085754/foundation-technology 財団の技術]
+
++++ 要注意団体
+
+[*http://scp-jp.wikidot.com/goi-complete-list 要注意団体の半包括的リスト]
+[*http://scp-jp.wikidot.com/author:transistor-k 要注意団体まとめ]
+> 調査日2017/02/01, 対象：公式認可を受けたサイト[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-10354757/goi GOIナンバーについて]
+> GOI－004が「壊れた神の協会」なのは見つかったけど他にあるんでしょうか? [((bibcite 1))]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:minor-goi-jp-list 準要注意団体-JP総覧【試用中】]
+> 登録条件を満たしていなかったりなんだりで要注意団体-JPページには掲載されていない……けれど財団にとってはそれらと等しく注意を払うべき存在! そんないわゆる『準要注意団体』について、いろんな情報を集積するために作られたページです。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-5819641/scp-jp SCP-JP以外の準要注意団体について]
+> 本家や他の支部にはいったいどんな準要注意団体がいるのか気になったので。[((bibcite 1))]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:minor-poi-jp-list 準要注意人物-JP総覧【試用中】]
+> 準要注意団体-JP総覧のキャラクター版、即ち要注意人物について情報を集積するページです。財団に雇用も収容もされていない状態での描写がされるキャラクター全般を扱います。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-2956064/poi-jp PoI-JPを調べたい]
+
++++ 実体
+
+[*http://scp-jp.wikidot.com/author:nuuko SCP-073が登場または言及されている未翻訳記事]
+[*http://scp-jp.wikidot.com/author:usurahi SCP-682死因一覧]
+> SCP-682の死亡描写があるTalesやJoke記事などをまとめています。[((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/creo-arca-glossary 2000用語集]
+
+
++++ 要注意団体関連
+
+++++ 世界オカルト連合
+
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:groups-of-goc 世界オカルト連合(GOC)加盟組織一覧]
+> SCP財団世界に存在するGOC加盟組織の網羅を目的としたものです。加筆の根拠となる対象はSCP財団に限らず、SCP Foundationやその他すべての支部を含みます。但しフォーラムやサンドボックスなど、記事として存在していないものについては対象から除外されます。[((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/goc-personnel-dossier GOC人物一覧]
+
+++++ 蒐集院
+
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:list-of-the-position-shushu-in 蒐集院役職一覧]
+> SCP-JPの要注意団体である蒐集院の役職についてまとめたページです。[((bibcite 1))]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:list-of-collected-item 蒐集物覚書帳目録一覧]
+> 蒐集物覚書帳目録の一覧とその他の蒐集物の情報をまとめたページです。[((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/shushu-in 蒐集院の記事全部丁寧にまとめる]
+
+++++ その他
+
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:black-queens-list 【共著】GoI-EN「黒の女王」 JP産キャラクター一覧(仮)]
+[*http://pseudo-scp-jp.wikidot.com/misters-list ミスターズ総覧 (WIP)]
+[*http://pseudo-scp-jp.wikidot.com/nouns-of-ijamea IJAMEA名詞群]
+[*http://erimamanus.wikidot.com/empire-report 準GoI-JP”帝国”情報まとめ(仮)]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:hyper-electric-rescue-organization-hero-list 超電救助隊HERO 所属/関連ヒーロー一覧]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:list-of-isanagi-family 日奉一族総覧]
+> 日奉一族の一覧を作っています。掲載の対象となるのは、以下の2点の条件を満たすキャラクターです。
+> * メインサイトに投稿された評価+1以上の作品に登場するキャラクター。
+> * 登場した作品には「日奉一族」のタグが付けられるであろうキャラクター。[((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/list-of-cicp-characters 幻島同盟関係者辞典]
+[*http://pseudo-scp-jp.wikidot.com/history-of-iragami 設定資料集:応神家]
+[*https://scp-wiki.wikidot.com/forum/t-8362809/serpent-s-hand-names-for-other-groups 蛇の手が団体に用いる呼称]
+
++++ その他
+
+[*http://pseudo-scp-jp.wikidot.com/eigenweapons-list 固有兵器 ―Eigenweapon―]
+> 既存記事に登場する固有兵器についてまとめるページです。[((bibcite 1))]
+[*https://wanderers-library.wikidot.com/character-list 主要な放浪者と人物]
+> 放浪者の図書館の主要な登場人物のリストと解説
+[*http://pseudo-scp-jp.wikidot.com/stray-nexus はぐれネクサスのまとめ]
+[*http://pseudo-scp-jp.wikidot.com/list-of-japanese-paranormal-old-families 日本の超常旧家]
+> この情報は2021年9月のものなので、更新の必要があります[((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/kakuukokka SCP架空国家まとめ]
+[*http://pseudo-scp-jp.wikidot.com/homo-list SCPverseにおけるホモ属の一覧]
+[*https://zpdic.ziphil.com/dictionary/bekson-jyaponica-kaamuus 貝和辞典]
+> ベクソン語の辞典です。[((bibcite 1))]
+[*https://scpnote.com/archives/4625921.html スクラントン現実錨が登場するSCP一覧]
+[*https://scp-wiki.wikidot.com/forum/t-14552408/scp-kaiju SCP Kaiju]
+[*http://scp-jp.wikidot.com/forum/t-2212064/scp 日本神話ネタのSCPについて]
+> 元ネタや一部の要素に日本神話を持つSCP記事を出来るだけたくさん教えて欲しいです。
+[*http://scp-jp.wikidot.com/author:gokiso 日本の神様っぽい作品]
+[*http://pseudo-scp-jp.wikidot.com/foundation-mythology 神話・宗教・伝承・都市伝説に関連する記事のまとめ]
+[*http://scp-jp.wikidot.com/author:amamiel 「夢」に関すると思わしきオブジェクトの一覧]
+[*https://scp-wiki.wikidot.com/forum/t-5320007/the-gods-of-the-scp-universe SCPユニバースにおける神]
+
+++ 地図
+
+[*https://www.google.com/maps/d/u/0/viewer? mid=130xwNzBAbWt1MI481WUPyWJOKufx-ubj&ll=30.317147703898268%2C138.56296085000002&z=4 SCP日本地図]
+[*http://scp-jp.wikidot.com/forum/t-12233208/scp SCP世界地図の日本語版を制作中!]
+[*https://scp-wiki.wikidot.com/forum/t-14387801/global-map-of-the-scp-foundation SCP財団世界地図]
+
+++ 言及集
+
+[*http://pseudo-scp-jp.wikidot.com/sarkic-references サーキック周りの興味深い言及等]
+[*http://pseudo-scp-jp.wikidot.com/mentions-akiva Mentions Akiva]
+[*http://pseudo-scp-jp.wikidot.com/mentions-casper Mentions Casper]
+
+[[/tab]]
+
+[[tab 創作]]
+
+++ 執筆初心者向きエッセイ
+
+執筆初心者向きエッセイ[[footnote]]ほぼ[*http://scp-jp.wikidot.com/other-link-hub お役立ちリンク集]のコピペ[[/footnote]]
+[[div class="oldblock"]]
+[[collapsible hideLocation="both" show="+ 目次" hide="- 閉じる"]]
+[*http://scp-jp.wikidot.com/the-style-of-scp-report SCP記事の文体とは]
+> SCP記事の"文体と構成"についてのエッセイです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/kanniban 簡易版:記事作成における注意点]
+> SCP記事を作成する際につまづきやすいフォーマットに関する諸注意をまとめたエッセイです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/are-you-good-writer あなたの記事が低評価にならないために]
+> 「初めてSCPを書く」メンバー向けの、SCPを書く時に低評価になりやすい悪い例及び、良い評価を得るためのちょっとしたやり方を載せたエッセイです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/planning-for-your-first-step あなたの第一歩のための計画書作り]
+> 初めてSCPを書くあなたに、より良い評価と批評を受けるための「計画書」の作り方を提案するエッセイです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/walkthrough ロジェのSCP執筆のウォークスルー]
+> SCP記事を初めて、または10回目に書く際のやり方について、理解を容易にする為にわかりやすい言い回しで書かれたガイドです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/rules-of-thumb 大雑把なやり方]
+> 経験を積んだサイトのメンバーから収集し編纂した経験則のコレクションです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/doing-the-safety-dance SCPの安全な特別収容プロトコル]
+> SCP報告書の"特別収容プロトコル"に関する記事です。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/crosslinks-guide クロスリンクガイド]
+> 記事を改善するクロスリンク(他のページとリンクする)と、一般的に避けるべきクロスリンクの種類について説明するガイドです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/how-to-be-scary-without-saying-anything 「語らずに語る」というやり方]
+> 読んで字のごとく。省略と"5つの致命的な言い回し"について。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/so-you-want-to-write-a-humanoid-scp-object それで、貴方は人型SCPオブジェクトを書きますか]
+> 人型SCPを書く人へのアドバイスです。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/mackenzie-pitfalls マッケンジー博士の「SCPのよくある落とし穴」講座]
+> 悪いSCP記事に繰り返し見られる問題についての概要です。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/mackenzie-containment マッケンジー博士の収容手順]
+> 収容手順をもっともらしく簡潔に書く方法のガイドラインです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/mackenzie-tips マッケンジー博士の“記事執筆のTips”]
+> 客観的なSCPスタイルでストーリーを描く方法です。記事を書く際に考慮すべきものです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/what-not-to-do SCPを書く時にやってはいけないこと、代わりにやるべきことのリスト]
+> このサイトで新しい著者がおかしがちな間違いと、その直し方。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/avoid-the-blackbox その下に何があるのか: 黒塗りのクロとシロ]
+[*http://scp-jp.wikidot.com/ideation 観念化:些細なものからよいアイデアを作り出すためのガイド]
+> 微妙なアイデアの中から良いアイデアを作り出す方法について説明します。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/things-what-do-a-thing-an-essay-on-things “特定の事をする物” - 特定の事をする物なアノマリーについてのエッセイ]
+> Nicoが、最も古典的で使い古されているが、人気のある種類のSCPを書くための様々な方法を語っています。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/standard-cell 人間型オブジェクト標準収容環境]
+> 人間型オブジェクトを収容する際の環境について、ロシア語支部で書かれたエッセイです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/conservation-of-wtf "WTF"を保存する]
+> "そのウサギには本当に２つの脳が必要ですか? ": 異常性について記述する際の考え方を概説するエッセイです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/your-very-first-scp 君のはじめてのSCP!]
+> あなたの新しい友人であり、SCPヘルパーであるSkippyとともに、はじめてのSCP記事を書いてみましょう![((bibcite 2))]
+[*http://scp-jp.wikidot.com/yourjouney-part-1 Ayersの"初めてのSCPへの道"パート1 - まえがき そしてアイデアについて]
+[*http://scp-jp.wikidot.com/yourjouney-part-2 Ayersの"初めてのSCPへの道"パート2 - 物語と独創性について]
+[*http://scp-jp.wikidot.com/yourjouney-part-3 Ayersの"初めてのSCPへの道"パート3 - 下書きと批評について]
+[[/collapsible]]
+[[/div]]
+
+++ 専門的な文章の書き方
+
+[*http://scp-jp.wikidot.com/binomen 学名の書き方ルールと豆知識]
+> 学名をどこかからコピペする際に間違えないよう大雑把に説明したエッセイです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/classified-and-you 機密情報とあなた]
+> 機密情報とは何であるかという簡潔な概要と、実際の機密任務に触れる方法についてのエッセイです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/technical-words 専門用語のリスト]
+> 科学や工学に関する専門的なワードの意味を解説するページです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/technical-writing 専門的な文書の書き方と、専門家のあなたへ]
+> 科学知識を用いたSCPを書く際のガイドです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/clinical-tone-declassified 徹底解説クリニカル・トーン - 分析的な文章を書くために]
+> 捉えがたい、クリニカルトーンをあなたの記事に組み込むためのガイドです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/clinical-vs-complex 臨床的な文章 VS 複雑な文章]
+> 単語を使いすぎず、かつ正確に書く方法についての短いエッセイです。[((bibcite 2))]
+
+++ 批評
+
+[*http://scp-jp.wikidot.com/criticism-tips 下書き批評のTipsまとめ]
+> 下書き批評に役立つかもしれないTipsをまとめたものです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/how-to-get-good-feedback-jp 批評をもらうためのエッセイ]
+> 下書きを公開するときに、より良い批評をもらいやすくするための戦略を紹介するエッセイです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/how-to-become-a-better-critic より良い批評家になる為に]
+> 評論家のコメントやフィードバックを残すときに心がけること。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/metacritique-one メタクリティック その1: 批評家の義務]
+> SCPwikiとそのコミュニティにおける、批評のためのいくつかの指針や批評の立場に関する議論[((bibcite 2))]
+[*http://scp-jp.wikidot.com/forum/t-7407130/ サンドボックス、フォーラムを通さずしてメインに寄稿することは可能か? ]
+[*http://scp-jp-sandbox3.wikidot.com/draft:3205804-121-c9ac 批評が怖い人へのクリニカルパス]
+
+++ 詩
+
+[*https://wanderers-library.wikidot.com/poetry-as-distillation 良い詩のためのエッセイ]
+[*https://wanderers-library.wikidot.com/a-guide-to-poetry-writing-and-reviewing 詩のガイド: 執筆と批評]
+
+++ 特定分野の執筆ガイド
+
+[*http://scp-jp.wikidot.com/author:tyobi AKI商事を登場させるための覚書]
+[*http://scp-jp.wikidot.com/author:central-ech エージェント・セントラルの運用ガイド]
+[*http://scp-jp.wikidot.com/author:aisurakuto 執筆ガイド - キャラクター: 甘梨 和明]
+[*http://scp-jp.wikidot.com/author:aisurakuto 執筆ガイド - キャラクター: 梅田 綾]
+[*http://scp-jp.wikidot.com/author:aisurakuto 執筆ガイド - キャラクター: くだん・バンシー]
+[*http://scp-jp.wikidot.com/author:aisurakuto 執筆ガイド - キャラクター: その他]
+[*http://scp-jp.wikidot.com/author:aisurakuto 執筆ガイド - 団体: 奇想天獄]
+[*http://scp-jp.wikidot.com/author:aisurakuto 執筆ガイド - 領域: 廃桃源]
+[*http://scp-jp.wikidot.com/author:ukarayakara 花瓶の埃カノン執筆者向けガイド]
+[*http://scp-jp.wikidot.com/author:moririn5963 要注意団体「石榴倶楽部」]
+[*http://scp-jp.wikidot.com/the-big-goi-essay GoIフィールドガイド]
+> 特定のGoIを取り上げた記事がどのような文調、トーン、テーマを目指すべきかについてのアドバイスです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/alors-comme-ca-vous-voulez-ecrire-sur-saphir それで、あなたはSAPHIRについて書きますか? ]
+> 要注意団体-FRのひとつであるSAPHIRに関する記事についてのエッセイです。[((bibcite 2))]
+
+++ アイデアリスト
+
+[*http://scp-jp.wikidot.com/author:imerimo まだSCP-JPに存在しない物体・生物一覧表]
+[*http://scp-jp.wikidot.com/forum/t-11374849/ まだ使われたことの無いものをあげるスレ]
+[*http://scp-jp.wikidot.com/forum/t-14459279/scp まだ日本支部においてSCPになってないもの]
+[*http://scp-jp.wikidot.com/forum/t-2175304/ 財団の参考にできる団体]
+[*http://scp-jp.wikidot.com/forum/t-2340177/scp SCPに使えそうな歴史の出来事]
+
+++ キャラクター
+
+[*http://scp-jp.wikidot.com/forum/t-2340058/ 一度も言及のない財団職員を記事に出す時]
+> 初めてSCP記事を書くんですけどそういう時って思い切って書くべきですかね? それとも伏せ字にするのがいいのか…[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1780911/ 財団職員（博士、エージェント）の人間性について]
+> 本当に「優しいエージェント」、「感情移入する博士」はSCPの世界観にはそぐわないのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1982520/ 改めて人事ファイル/アバターキャラクターについて考えてみよう]
+> ・このキャラを使って何か出来そうなんだけど、どこまで設定を拡大解釈やアレンジしていいのだろうか? 
+> ・私のキャラクターについてどう思いますか? 
+> ・あのキャラはこういう書き方をしてもいいんじゃないか? 
+> ・世界観と合っていない設定をどうやって世界観に馴染ませるか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/not-enough-characters 「キャラクターづくりについて少し考えてみましょう」]
+> 財団世界における超自然的なエージェントや博士の扱いに関する重要な問題についてのエッセイです。「キャラクター」に関する議論とよくある落とし穴を回避する方法について説明します。[((bibcite 2))]
+
+++ アートワーク
+
+[*http://scp-jp-sandbox3.wikidot.com/draft:7662975-10-b853 アートワークに関する諸事]
+
+++ その他
+
+[*https://youtu.be/w5BKeadOpK8 SCP記事の書き方解説part1]
+[*http://scp-jp.wikidot.com/author:meltrose Tale執筆メモ]
+[*http://scp-jp.wikidot.com/author:meshiochislash エモとはなに? ]
+[*http://scp-jp-sandbox3.wikidot.com/draft:1988496-58-6329 「設定集」をつくるためのエッセイ]
+[*http://scp-jp.wikidot.com/links リンク集]
+> あなたのSCP創作を助けるリンク集[((bibcite 2))]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:nanigaomoshiroi-ittemiro 記事の面白さを説明するリスト]
+[*https://www.youtube.com/watch? v=NJ8yASIGZSQ&list=PLrneVB44EajgHtw67SIGLmM4FOlve4SKR SCP記事執筆諭]
+[[div class="oldblock"]]
+[[collapsible hideLocation="both" show="+ 目次" hide="- 閉じる"]]
+[*https://www.youtube.com/watch? v=NJ8yASIGZSQ SCP記事執筆論～いい記事はこうやって書けby ponhiro]
+[*https://www.youtube.com/watch? v=EOLJYTEFKz8 SCP記事執筆論～いい記事はこうやって書けby ヤッス]
+[*https://www.youtube.com/watch? v=vBMoDbKE-QY SCP記事執筆論～いい記事はこうやって書けby FattyAcidさん]
+[*https://www.youtube.com/watch? v=dC4MFVkPoag SCP記事執筆論～いい記事はこうやって書けbyIslandsmasterさん]
+[[/collapsible]]
+[[/div]]
+[*http://scp-jp.wikidot.com/forum/t-14590247/goi 新規GoIの名称について]
+> GoIに名前を付ける時どの様な事に気を付ければ良いのか、どのように名前を考えているのか[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-13391352/scp SCP作品を書く時にまず何を考えますか? ]
+[*http://scp-jp.wikidot.com/forum/t-13964804/ あなたの下書きが思うように進まない理由を載せるスレッド]
+[*http://scp-jp.wikidot.com/forum/t-13957499/ 初めて作品を書きたいのですが...]
+> 思いついた作品をよく寝ることはできたのですが、それに対しての適切なプロトコルが分かりません。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1194478/tale taleを書くときに気をつけていること]
+[*http://scp-jp.wikidot.com/forum/t-2156723/scp-xxx-jp 「SCP-XXX-JP」の本体はどこにおくべきなのか]
+[*http://scp-jp.wikidot.com/forum/t-7674221/tale Taleを書くにあたり]
+> 近々初めてTaleを書こうとしているのですが皆さんはTaleを書く時に何を考えていますか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-14020475/scp SCPのナンバー取る時にこだわりとかあります? ]
+[*http://scp-jp.wikidot.com/forum/t-2055570/ サイトナンバーについて]
+[*http://scp-jp.wikidot.com/forum/t-1598065/81xx なぜ我々はサイトナンバーを「サイト-81XX」にしたんだっけ? ]
+> まだ一作も書き上げていない新人なのですがＳＣＰを収容するサイトのナンバーはどう決めていますか? どこかに使われているサイトのまとめとかがあるのでしょうか? それともＳＣＰ公開後に指摘を受けて問題の無いナンバーを探し当てる事になるのでしょか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-5265685/ 記事データベースへアクセスする時の表現(演出)方法について]
+> 財団データベースへアクセスするやり取りを記事中に加えたいと思っています。それっぽい表現にするコツ(言い回し)や参考になる記事はありますでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-7906881/ 執筆の経験談をなんとなく語っていくスレッド]
+[*http://scp-jp.wikidot.com/forum/t-5889823/ 記事の書き方]
+> 以前下書きを投稿したところ、他人が見て面白いと思う書き方が良いという旨のアドバイスを頂いたのですが、それが中々難しいのです。どうすれば良いのでしょうか。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-5754098/ 「段落分け以外での改行」について]
+> 日本支部における「段落分け以外での改行」の扱いを知りたいです。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1035043/scp SCP記事をおもしろくするために、あなたが気をつけていること]
+[*http://scp-jp.wikidot.com/forum/t-853271/ 面白い記事とはなんでしょう? ]
+[*http://scp-jp.wikidot.com/forum/t-6338415/ 面白いと思う記事とは]
+[*http://scp-jp.wikidot.com/forum/t-858180/ 執筆作業中の環境づくりについて]
+[*http://scp-jp.wikidot.com/forum/t-1053114/ ████←これは「検閲」になる? ]
+[*http://scp-jp.wikidot.com/forum/t-11250759/ 報告書におけるオチについて]
+> 記事においてオチは絶対に必要なのでしょうか? [((bibcite 1))]
+> 一定の高評価を得ている記事について、記事がなぜ、どの様に面白いのかを解説するページです。新人執筆者の皆様はぜひ参考にしてください。[((bibcite 4))]
+[*http://scp-jp-sandbox3.wikidot.com/draft:3705485-102-0ae8 夏のコンテストでSCP記事を書くときに気を付けたいこと]
+[*http://scp-jp.wikidot.com/qntm-s-author-page qntmからの少し変わった執筆アドバイス]
+
+[[/tab]]
+
+[[tab 翻訳]]
+[*http://scp-jp.wikidot.com/tips-for-translating-to-japanese 記事の和訳を始める人へ]
+> 外国語から記事を和訳してみたいあなたに、そのための大まかな道筋を紹介するエッセイです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/forum/t-779694/ 翻訳の雑談]
+[*http://scp-jp.wikidot.com/forum/t-1039256/ 翻訳の悩みを皆で解決しよう]
+[*http://scp-jp.wikidot.com/forum/t-1785338/ 翻訳をしようの会]
+[*http://scp-jp.wikidot.com/forum/t-4038503/scp 未翻訳SCP記事の翻訳について]
+> 英語と日本語ではニュアンスやらなんやらが違うので、そのまま日本語にすると｢これは日本語としてはどうなのだろう? ｣というような文が出てきます。そのような文を日本語訳する場合は、多少の意訳は許されるのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-2120859/ 翻訳に関する雑談!]
+[*http://pseudo-scp-jp.wikidot.com/incompletely-translated-series 完訳されていないシリーズの一覧 (試験運用中)]
+
+++ 翻訳辞典
+[*https://docs.google.com/spreadsheets/d/1Nol0RThztFrpBC4_hvPKTY_F_IWxIcX_RtKvNrgXDxw/edit? usp=drivesdk SCP専門用語の訳語をまとめたリストを作ってみました]
+[*http://scp-jp.wikidot.com/author:snoj SCP中日辞典]
+[*http://pseudo-scp-jp.wikidot.com/free:trans-dict SCP英単語辞書]
+
+[[/tab]]
+
+[[tab コミュニティ]]
+
+[*http://scp-jp.wikidot.com/forum/t-7333514/ 日本支部のオブジェクトの特徴]
+> 日本支部は、本家とは違う雰囲気や特徴のあるSCPが多い気がしているので、「日本支部らしい」オブジェクトの傾向が知りたくて立てました。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-3702033/scp 日本支部のSCP]
+> 日本のSCPはどのような特色があるのでしょうか。皆様のご意見をお聞かせてください![((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-9959840/jp シリーズJP-Ⅲについて]
+> SCP-JPの2000番代であるシリーズJP-Ⅲの解放ってどれぐらいになると思いますか。時間的なものがわからない場合はあとどれぐらいのSCP-JPができたら解放するか教えて下さい。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-2530974/downvote downvoteは本当に少ないのか? ]
+[*http://scp-jp.wikidot.com/author:rhapsodyyyyyy みんなのヘッカアンケート]
+[*http://scp-jp.wikidot.com/forum/t-1282720/scp 「SCP財団」の一見さん向けの説明について相談]
+[*http://scp-jp.wikidot.com/forum/t-3627837/scp SCPを知らない人に勧める記事を考えよう!]
+[*http://scp-jp.wikidot.com/forum/t-13203829/ 初見読者に分かり難い設定用語とかの話]
+> サイトをよく知らない人がSCP記事を読むときに、分かり難いかもしれない設定用語について、しみじみ考えていました。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/author-owlcat 過去の定例会のリンク集]
+[*https://docs.google.com/document/d/1uTmaWTbfz_weuirn_ZqAlcS9A6lV9-IbfqVYuUwfdN4/mobilebasic#heading=h.qxgeequ2t1i9 プロジェクト・ファウンデーション プロジェクト計画書 日本語概訳]
+
+++ 公式アナウンス
+[*http://scp-jp.wikidot.com/news-jp 茜刺財団新聞]
+> SCP-JPでの毎月の出来事を纏めたニュース形式のエッセイ[((bibcite 1))]
+
+++ 用語集
+[*http://scp-jp.wikidot.com/mackenzie-glossary マッケンジー博士の用語集]
+> このWikiで遭遇することになるだろう専門用語を網羅した用語集です。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/glossary-for-new-site-members-jp 新サイトメンバーのための用語集]
+> SCP-JP Wikiや周辺のSCP-JPコミュニティで遭遇することになるだろう専門用語や俗語を網羅した用語集です。[((bibcite 2))]
+
+++ 初心者へのガイド
+[*http://scp-jp.wikidot.com/forum/t-14488944/ 何から始めればいいですか? ]
+> 具体的に、財団員になったら何ができるのかわかっていません。
+[*http://scp-jp.wikidot.com/arukikata 「SCP財団」の歩き方]
+> 「SCP財団を始めて訪れた読者の方々」へ向けたガイド。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/sakagami-newmembers-guide 新人職員のための簡単なガイド]
+> 貴方がサイトに登録した直後等、最初どうしたらいいのか分からない、という時の為の手引です。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-10639476/tale taleって最初何読めばいいんでしょうか]
+[*http://scp-jp.wikidot.com/random-but-useful 役立ち小ネタ集]
+[*http://scp-jp.wikidot.com/fucktheurl あなたが見落としがちなことへのガイド]
+
+++ フォーラム活動
+[*http://scp-jp.wikidot.com/for-better-discussion より良いディスカッションの為に]
+> 議論において、相手から感情的反応ではなく、理性的な反応・応答を引き出す為の、実践的なディスカッションの方法論です。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/how-to-propose 提案スレッド設置についてのエッセイ]
+> 提案(と意見募集)をする前に、それらについて理解を深めるためのエッセイです。[((bibcite 2))]
+
+++ 個人コンテスト
+
+[*http://pseudo-scp-jp.wikidot.com/contest-archive Contest Archive]
+> SCP-JPで行われた個人コンテストのアーカイブ
+[*http://pseudo-scp-jp.wikidot.com/contest-archive-sub Contest Archive 更新]
+> Wikidotの不具合により更新が停止している[*http://pseudo-scp-jp.wikidot.com/contest-archive Contest Archive]を補完するページ
+[*http://scp-jp.wikidot.com/user-s-contest 小規模個人コンテスト・チャレンジについて]
+> メンバーが個人で開催する小規模なチャレンジ企画についてのエッセイです。[((bibcite 2))]
+
+++ サイト外
+
+[*http://pseudo-scp-jp.wikidot.com/scp-related-site SCP関連サイト]
+[*http://pseudo-scp-jp.wikidot.com/rso-brief-memo 「RSO協会」というムーブメントについての簡素な口承]
+
+++ サイト/コミュニティ史
+
+[*http://scp-jp.wikidot.com/history-of-the-universe-hub 世界の歴史ハブ]
+[*http://scp-jp.wikidot.com/a-history-of-object-classes オブジェクトクラスの起源]
+[*http://scp-jp.wikidot.com/a-brief-history-of-scp-ru SCP-RUの略史]
+[*http://scp-jp.wikidot.com/a-brief-history-of-scp-ko SCP-KOの略史]
+[*http://scp-jp.wikidot.com/a-brief-history-of-scp-jp SCP-JPの略史]
+[*http://erimamanus.wikidot.com/project-history-compilation SCP-JP史をつくろうのコーナー]
+
+[[/tab]]
+
+[[tab 記事]]
+
+[*http://pseudo-scp-jp.wikidot.com/translation-archive 翻訳アーカイブ]
+> [*http://pseudo-scp-jp.wikidot.com SCP-JP環境再現サイト]内に存在する、翻訳作品を集約するためのページです。[((bibcite 1))]
+
+++ 記事を探す
+
+[*https://twitter.com/Ayahuya_SCP あやふやSCP]
+
+++ アーカイブ
+
+[*http://ukwhatn-tp.wikidot.com/archives-aihe:hub AiliceHershey Articles]
+> AiliceHershey氏の削除記事のアーカイブ
+[*http://scpclassic.wikidot.com/ The SCP Foundation Classic][[*http://pseudo-scp-jp.wikidot.com/scpclassic JA]]
+> 削除された、あるいは大部分が改訂された記事のショーケースです。大規模編集以前に作成された記事に限ります。[((bibcite 1))]
+[*http://dr-iceberg-logjp.wikidot.com/ iceLOG.jp 非公式アイスバーグ博士関連アーカイブ]
+> SCP Foundationのキャラクター「アイスバーグ博士」に関する記事をアーカイブするための非公式ファンサイトです。[((bibcite 1))]
+
+++ データ
+[*http://pseudo-scp-jp.wikidot.com/article-credit article credit]
+> 翻訳記事の原著者と翻訳者を同時に確認できるリスト
+[*http://pseudo-scp-jp.wikidot.com/series-without-hub ハブのないシリーズ]
+
+[[/tab]]
+
+[[tab メディア]]
+
+[*http://scp-jp.wikidot.com/forum/t-12828921/ ロゴの出典をまとめるスレ]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:logo-source-survey GoIロゴ出典調査]
+[*http://scp-jp.wikidot.com/forum/t-5356453/ 要注意団体のロゴを描くスレ]
+[*http://scp-jp.wikidot.com/photoshopping-your-scp 君のSCPをフォトショする]
+> この記事は全く画像編集に慣れていない人や、SCP記事に使う画像作りにあまり労力を割きたくない人向けの手っ取り早く大雑把なチュートリアルです。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/guia-licencias-de-archivos 画像のライセンス、出典、その他の難解なものごとに関するニコのガイド]
+> クリエイティブコモンズ・ライセンスに従って画像を見つけ、作成し、利用する方法。[((bibcite 2))]
+[*http://pseudo-scp-jp.wikidot.com/free-site-blacklist SCP-JPで使えないフリー素材サイト]
+> フリー素材サイト乃至CC適合を掲げつつ、そのコンテンツが何らかの理由でCC BY-SAライセンスを付与できないサイトをまとめるリストです。[((bibcite 1))]
+
+++ 画像を共有する
+
+[*http://scp-jp-share-image.wikidot.com SCP-JP未詳画像資料保管室]
+> SCP財団日本支部(SCP-JP)での創作活動を画像の共有を通して支援するために作成された、非公式サイトです。[((bibcite 1))]
+[*http://scp-jp-archive.wikidot.com/ SCP日本財団中枢資料室。 ]
+> SCP財団で使うための画像を保存する場所です。
+
+++ 画像を探す
+
+[*http://scp-jp.wikidot.com/author:come-dream おすすめ画像探しサイト]
+[*http://scp-jp.wikidot.com/author:owlcat CC素材リンク集]
+> ネットの海から探し出したCC対応サイトのリンク集です。[((bibcite 1))]
+
+[[/tab]]
+
+[[tab Wikidot]]
+
+[*http://scp-jp.wikidot.com/how-to-wikidot Wikidotのつかいかたエッセイ]
+> SCP財団WikiがホスティングされているWikiサービス「Wikidot」の、基本的な使い方に関するエッセイです。[((bibcite 2))]
+[*https://www.wikidot.com/doc:start Wikidot Documentation][[*http://pseudo-scp-jp.wikidot.com/doc JA]]
+[[div class="oldblock"]]
+[[collapsible hideLocation="both" show="+ 目次" hide="- 閉じる"]]
+**[*http://www.wikidot.com/doc:start ドキュメント]**
+* [*http://www.wikidot.com/doc-wiki-syntax:start Wikidotシンタックス][[*http://scp-jp.wikidot.com/wiki-syntax:startpage JA]]
+ * Wikidotの基本的な構文の説明。SCP-JPではユーティリティページとして[[user C-take]]氏が翻訳及び加筆されたものが投稿されています。
+* [*http://www.wikidot.com/doc:quick-reference クイックリファレンス]
+* [*http://www.wikidot.com/doc-modules:start モジュール]
+ * リスト・カテゴリ
+  * [*http://www.wikidot.com/doc-modules:listdrafts-module ListDraftモジュール]
+   * サイト上の保存された下書きを表示します。
+  * [*http://www.wikidot.com/doc-modules:listpages-module ListPagesモジュール][[*http://handbook.wikidot.com/ja:module-listpages JA][[footnote]]一部未翻訳[[/footnote]]|[*http://pseudo-scp-jp.wikidot.com/listpages-module JA][[footnote]]一部抜粋&改変[[/footnote]]]
+   * 様々な条件を設定し、ページの情報を指定した順に表示することができる非常に便利なモジュールです。
+  * [*http://www.wikidot.com/doc-modules:countpages-module CountPagesモジュール]
+   * 指定した条件に合うページの数を数えます。
+  * [*http://www.wikidot.com/doc-modules:listusers-module ListUsersモジュール]
+  * TagCloudモジュール
+  * [*http://www.wikidot.com/doc-modules:pagecalendar-module PageCalenderモジュール]
+   * 年/月ごとに作成されたページの数を数えます。
+  * [*http://www.wikidot.com/doc-modules:pagetree-module PageTreeモジュール]
+   * parent設定したページの構造を表示します。
+  * Backlinksモジュール
+  * [*http://www.wikidot.com/doc-modules:wantedpages-module WantedPagesモジュール]
+   * リンクされているがWiki上に存在しないページを表示します。
+  * [*http://www.wikidot.com/doc-modules:orphanedpages-module OrphanedPagesモジュール]
+   * どのページからもリンクされていない孤立したページを表示します。
+  * [*http://www.wikidot.com/doc-modules:categories-module Categoriesモジュール]
+   * サイト上に存在するカテゴリとカテゴリごとのページを表示します。
+ * ユーザー・メンバー
+  * [*http://www.wikidot.com/doc-modules:watchers-module Watchersモジュール]
+   * ページ/カテゴリ/サイトの閲覧者を表示します。
+  * [*http://www.wikidot.com/doc-modules:members-module Membersモジュール]
+   * サイトメンバーを表示します。
+  * Joinモジュール
+  * SendInvitationsモジュール
+  * WhoInvitedモジュール
+ * Miscellaneousモジュール
+  * MailFormモジュール[[*http://shitake-crude-production.wikidot.com/specification:mailformmodule JA]]
+   * 定義したフォームにユーザーが入力し、それをeメールで受け取ることができます。
+ * ニュース・フィード
+ * フォーラム・ディスカッション
+  * [*http://www.wikidot.com/doc-modules:comments-module Commentsモジュール][[*http://pseudo-scp-jp.wikidot.com/comments-module JA]]
+   * 記事内にページごとのディスカッションを表示させることができます。
+  * [*http://www.wikidot.com/doc-modules:recentposts-module RecentPostsモジュール][[*http://pseudo-scp-jp.wikidot.com/recentposts-module JA]]
+   * 最近のフォーラムポストを表示します。
+  * [*http://www.wikidot.com/doc-modules:minirecentthreads-module MiniRecentThreadsモジュール][[*http://pseudo-scp-jp.wikidot.com/minirecentposts-module JA]]
+   * 直近の最もアクティブだったスレッドをコンパクトに表示します。
+  * [*http://www.wikidot.com/doc-modules:miniactivethreads-module MiniActiveThreadsモジュール][[*http://pseudo-scp-jp.wikidot.com/miniactivethreads-module JA]]
+   * 直近一週間のアクティブなスレッドをコンパクトに表示します。
+  * [*http://www.wikidot.com/doc-modules:minirecentposts-module MiniRecentPostsモジュール][[*http://pseudo-scp-jp.wikidot.com/minirecentposts-module JA]]
+   * 最新のフォーラムポストをコンパクトに表示します。
+ * 評価
+  * [*http://www.wikidot.com/doc-modules:rate-module Rateモジュール]
+  * [*http://www.wikidot.com/doc-modules:ratedpages-module RatedPagesモジュール]
+   * 最も評価の高いページを表示します。
+ * フォト・ギャラリー・ファイル
+  * [*http://www.wikidot.com/doc-wiki-syntax:images#gallery 画像]
+   * 記事に画像を組み込む構文です。
+  * [*http://www.wikidot.com/doc-modules:flickrgallery-module FlickrGallery]
+   * [*http://www.flickr.com/ Flickr]から画像を取り込む構文です。
+  * [*http://www.wikidot.com/doc-modules:files-module Filesモジュール]
+   * 記事にアップロードされているすべての画像を表示します(ページ下部にある操作パネルの「Files」と同じ機能)。
+ * 検索
+  * [*http://www.wikidot.com/doc-modules:search-module Searchモジュール]
+   * サイト内検索
+  * [*http://www.wikidot.com/doc-modules:searchall-module SearchAllモジュール]
+   * 全Wikidotサイトを検索することができます。
+  * [*http://www.wikidot.com/doc-modules:searchusers-module SearchUsersモジュール]
+   * 全Wikidotユーザーを検索することができます。
+ * 変更
+  * [*http://www.wikidot.com/doc-modules:sitechanges-module SiteChangesモジュール]
+   * 最近のサイトの変更を表示します。
+ * 管理
+  * [*http://www.wikidot.com/doc-modules:managesite-module ManageSiteモジュール]
+   * adminパネルにアクセスします。
+  * [*http://www.wikidot.com/doc-modules:clone-module Cloneモジュール]
+   * サイトを複製します。
+ * Deprecated
+* [*http://www.wikidot.com/doc:data-forms データフォーム][[*http://handbook.wikidot.com/ja:data-forms JA]][[footnote]]一部未翻訳[[/footnote]]
+* [*http://www.wikidot.com/doc:embedding 外部サービスの埋め込み]
+* [*http://www.wikidot.com/doc:templates テンプレート]
+ * テンプレートページを利用すると、同じカテゴリ内のページ全てに同じアイテムを表示させることができます。
+* [*http://www.wikidot.com/doc:searching 検索]
+* [*http://www.wikidot.com/doc:site-structure サイト構造]
+ * Wikidotの基本的な構造機能 — タグやカテゴリ、フォーラムについての説明。
+* [*http://www.wikidot.com/doc:users ユーザー]
+ * WikidotアカウントとWikidotサイトについて
+* [*http://www.wikidot.com/doc:layout-reference レイアウト情報]
+* [*http://www.wikidot.com/doc:thumbnails サムネイル]
+* [*http://www.wikidot.com/doc:video 動画によるチュートリアル]
+ * 現在は利用不可能となっています。
+* [*http://www.wikidot.com/doc:advertising 広告]
+* [*http://www.wikidot.com/doc:api Wikidot API]
+* [*http://www.wikidot.com/doc:expressions 数式]
+----
+**よくある質問**
+* [*http://www.wikidot.com/faq:upgrades アップグレードとプラン]
+ * Wikidotには複数のプランが存在し、アップグレードすることによって様々な特典を受けることができます。
+* [*http://www.wikidot.com/faq:editing-pages コミュニティサイトについて]
+* [*http://www.wikidot.com/faq:user-accounts ユーザーアカウントについて]
+* [*http://www.wikidot.com/faq:site-features サイトの特徴について]
+* [*http://www.wikidot.com/faq:private-sites プライベートサイトについて]
+ * Wikidotサイトの管理者はWikiを非公開(Private)に設定することができます。
+* [*http://www.wikidot.com/faq:private-sites ページの編集について]
+* [*http://www.wikidot.com/faq:watching 変更の確認について][[*http://pseudo-scp-jp.wikidot.com/watching JA]]
+ * サイトやページの変更を受信する「ウォッチング」機能について
+* [*http://www.wikidot.com/faq:technical 技術面について]
+ *  Wikidotのサポート対象のブラウザについて
+[[/collapsible]]
+> Wikidotの公式な説明書です[[footnote]]説明欄工事中[[/footnote]]。
+[[/div]]
+[*http://scp-jp.wikidot.com/wiki-syntax 簡易版Wiki構文]
+> SCPを書くための最小限のWiki構文のリストです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/japanese-syntax 日本語表現用Wiki構文拡張スタイル]
+> Wikidot構文を日本語用に拡張した機能です。ルビや、圏点を多用する際には、インクルードすると良いかもしれません。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/esoteric-syntax 難解Wikidot構文]
+> 日本語表現用Wiki構文拡張スタイルからスピンオフしたWikidot機能の活用法のランダムなチュートリアル[((bibcite 2))]
+[*http://scp-jp.wikidot.com/scp-style-resource SCPスタイルリソース]
+> 応用的なSCPファイルのログやフォーマットを素早くかつ容易に「コピー＆ペースト」するためのリソースです。オシャレな実験ログや警告通知などが含まれます。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/advanced-formatting-and-you 高度なフォーマットとあなた]
+> wikidotのコーディングでオシャレなデザインにする方法を解説します![((bibcite 2))]
+[*http://scp-jp.wikidot.com/listpages-magic-and-you ListPagesの魔法とあなた]
+> サイト内のページを選択・表示するWikidotモジュールの使用方法について。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/classification-committee-memo 分類委員会メモ]
+> Woedenaz氏がdjkaktus氏らとともに作成した新しい分類フォーマットに関する財団の内部資料です。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/how-to-create-kojinn-wiki あなたのザイカツを助ける個人Wikiの作り方]
+> 秘密のサンドボックスから構文研究室まで。あなただけの財団風wikiサイトの作り方を紹介するエッセイです。[((bibcite 2))]
+[*http://scp-kojinwiki-template-jp.wikidot.com/ 個人Wiki テンプレート]
+> SCP-JP風の個人Wikiをボタン一つで作成できます。
+[*http://scp-jp.wikidot.com/forum/t-12047789/pc-saving-page （PC側限定）「Saving Page」に引っかかった時の対処法]
+[*https://chrome.google.com/webstore/detail/Wikidot日本語化拡張/heeeobochclolgldpofjbklneaainmka? hl=ja Wikidot日本語化拡張]
+> 不具合のためUIの日本語化が行われていないWikidotに代わり、UIを日本語化するPC版chrome拡張機能。現在[[user ukwhatn]]氏により個人的に鋭意開発中（スタッフ業務ではない）だが概ね使える。[((bibcite 3))]
+[*http://pseudo-scp-jp.wikidot.com/jp -JP]
+> これをサンドボックスページの先頭に書き入れると、ページオプションの一部が日本語になります。ukさんの日本語化Chrome拡張ではカバーできないスマートフォンやChrom以外のブラウザでも使えます。
+[*https://wd.scp-jp.org/ Wikitext Previewer]
+> SCP verse独自言語のマークアップ言語であるFTMLをWeb上でプレビューするためのWebApp．[[user R74]]氏により個人的に鋭意開発中
+++ 再現構文
+[*http://1119s.wikidot.com/about-twitter-dm TwitterDM構文]
+[*http://fes-ryuukatetu.wikidot.com/tab-list:line-syntax L█NE構文]
+[*http://scp-jp.wikidot.com/author:dr-toraya/offset/1/page5_limit/1 ノベルゲー構文解説]
+[*http://scp-jp.wikidot.com/author:fes-ryuukatetu LI█E構文]
+[*http://1119s.wikidot.com/about-ppg About Pseudo-Post Generator]
+> フォーラム上でも機能する疑似フォーラムポスト構文
+
+++ 未分類(構文)
+[*http://scp-jp.wikidot.com/author:fes-ryuukatetu 構文集一覧]
+[[div class="oldblock"]]
+[[collapsible hideLocation="both" show="+ 目次" hide="- 閉じる"]]
+レーダーチャット構文
+デジタル文字構文
+デジタル時計構文
+財団ロゴ構文
+足跡が歩き回る構文
+交流チャット構文
+縺ｿ縺? ▽縺代
+[[/collapsible]]
+> [[user FeS_ryuukatetu]]氏の著者ページに掲載されている構文
+[[/div]]
+
+[*http://scp-jp.wikidot.com/author:iti119 構文]
+[[div class="oldblock"]]
+[[collapsible hideLocation="both" show="+ 目次" hide="- 閉じる"]]
+[*http://1119s.wikidot.com/about-mahjong 麻雀構文]
+[*http://1119s.wikidot.com/about-colpopup ポップアップ構文]
+[*http://1119s.wikidot.com/about-new-message 新着メッセージ構文]
+[[/collapsible]]
+> [[user iti119]]氏の著者ページに掲載されている構文
+[[/div]]
+
+[*http://scp-jp.wikidot.com/author:r74 構文]
+[[div class="oldblock"]]
+[[collapsible hideLocation="both" show="+ 目次" hide="- 閉じる"]]
+[*http://rtas.wikidot.com/tab 偽装タブ構文]
+[*http://rtas.wikidot.com/pseudo:tag 偽装タグ構文]
+* スレッド再現
+ * [*http://rtas.wikidot.com/pseudo:postdemo スレッド再現]
+ * [*http://rtas.wikidot.com/pseudo:post-alt-exp その他スレッド機能]
+* Wikipedia関連
+ * [*http://rtas.wikidot.com/wikipedia:tooltips Wikipedia Tooltips]
+ * [*http://rtas.wikidot.com/wikipedia:infobox-military-conflict Infobox Military Conflict]
+ * [*http://rtas.wikidot.com/wikipedia:navigation-template wikipedia-navbox・topicbox]
+[*http://pseudo-scp-jp.wikidot.com/tweetv2 Tweet v2]
+[*http://rtas.wikidot.com/4ch 4chan]
+[*http://rtas.wikidot.com/colalt Colalt]
+[[/collapsible]]
+> [[user R74]]氏の著者ページに掲載されている構文
+[[/div]]
+
+[*http://scp-jp.wikidot.com/author:mikukaneko 構文]
+[[div class="oldblock"]]
+[[collapsible hideLocation="both" show="+ 目次" hide="- 閉じる"]]
+[*http://mkn.wikidot.com/graph Rateグラフ]
+[*http://mkn.wikidot.com/collapsible-scroll 自動回帰折り畳み]
+[[/collapsible]]
+> [[user Mikukaneko]]氏の著者ページに掲載されている構文
+[[/div]]
+
+[*http://topia.wikidot.com/achievement-jp-module-introduce ぬるぬる動くあなたの実績]
+[*http://scp-jp.wikidot.com/author:soya-001 構文お役立ち情報]
+[*http://shitake-crude-production.wikidot.com/whathubinclude 深層インクルードとは]
+> 簡単に言えばインクルードの初期値を決める構文です。一番表にあるインクルード構文が簡単になる代わりにインクルード元が2つ必要になるというデメリットがあります。[((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/single-depth-include 単一深層インクルードとは]
+> 深層インクルードだと，ページが複数必要ですよね．そんなあなたに朗報です．１ページで完結させちゃいましょう．
+[*http://pseudo-scp-jp.wikidot.com/encouragement-of-syntax-development 構文開発のすゝめ]
+> とある構文勢が構文を作りたいと思うあなたに贈る，覚えておいたほうがいい知識について．
+[*http://pseudo-scp-jp.wikidot.com/hyper-page-changer-and-you 単一ページ遷移構文とあなた]
+> 難解Wikidot構文の中でも最難関の難しさを誇る単一ページ遷移構文の解説をしていこうと思います。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-5484805/scp SCP報告書に使われるコードについて]
+> ギミックが仕込まれているような記事に憧れてるのですが、何から勉強すればよいか分かりません[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-6359044/ 画像を切り替える構文(おそらく折り畳みを応用したもの)を探しています]
+[*http://scp-jp.wikidot.com/forum/t-3758948/ 折りたたみを改造する方法について][*http://erimamanus.wikidot.com/oneiric-template オネイロイ・テンプレート]
+> "オネイロイ"関連記事で使用されている、いくつかの代表的な構文のテンプレートがまとめられています。[((bibcite 1))]
+[*http://scp-jp-sandbox3.wikidot.com/sharedpage:syntax-investigation1 第一回SCP-JP構文調査]
+> ここでは、構文、テーマで、誰が、どんなものを、どのように使うのか、ライセンス表記込みで調査することで、執筆の際に「このような構文やテーマ、確かどこかで見たことあったような…? 」といった探す手間を減らすことを狙いとしています。[((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/syntax-investigation SCP-JP構文調査【追記フリー】]
+[*http://scp-jp.wikidot.com/author:imerimo 汎用ListPages]
+> もともと[[user ukwhatn]]氏の著者ページにあったものをサルベージしたツール
+[*http://shitake-crude-production.wikidot.com/syntax-group 皆の構文広場]
+[[div class="oldblock"]]
+[[collapsible hideLocation="both" show="+ 目次" hide="- 閉じる"]]
+[*http://shitake-crude-production.wikidot.com/common-original-popup 汎用型オリジナルポップアップ]
+[*http://shitake-crude-production.wikidot.com/bubble-appear 消えて現れる文章]
+[*http://shitake-crude-production.wikidot.com/remote-ctrl-collapsible 遠隔折り畳み要素]
+[*http://shitake-crude-production.wikidot.com/show-your-icon 閲覧ユーザのアイコンを出す方法]
+[*http://shitake-crude-production.wikidot.com/myrating-point-name お前が評価すべきもの]
+[*http://shitake-crude-production.wikidot.com/targeting-sentence-change ターゲットによる文章切替]
+[*http://shitake-crude-production.wikidot.com/timerugmove-gimmick 時間経過によるページ遷移]
+[*http://shitake-crude-production.wikidot.com/syntax-place:create-popup オリジナルポップアップ]
+[*http://shitake-crude-production.wikidot.com/syntax-place:choise-acrredit 選択肢のある画面遷移]
+[*http://shitake-crude-production.wikidot.com/font-awesome-step-up FontAwesome応用編]
+[*http://shitake-crude-production.wikidot.com/htmlblockheader htmlブロックのヘッダとその応用例]
+[*http://shitake-crude-production.wikidot.com/minimal-pasword-changer html使用範囲を抑えたパスワード文による表示分岐]
+[*http://shitake-crude-production.wikidot.com/everyonerate:ratechangemodule rate数による表示]
+> rate数による表示の変更
+[*http://shitake-crude-production.wikidot.com/font-awesome-step-up HTMLブロック内でfontawesomeを使う]
+> htmlブロックでfontawesomeを使用する
+[*http://shitake-crude-production.wikidot.com/changecolorelement 要素の色を変える]
+> wikidotを構成する各要素のデザイン設定のやり方の簡易的説明
+[*http://shitake-crude-production.wikidot.com/footnote-explain 脚注の諸所]
+> [footnote]を応用した技法
+[*http://shitake-crude-production.wikidot.com/changebackground Changebackground]
+> idによる背景変更の影響範囲のデモ
+[*http://shitake-crude-production.wikidot.com/changebackground サインインユーザと非サインユーザに対する文章表示切替]
+> listusersモジュールとcssの応用
+[*http://shitake-crude-production.wikidot.com/customtabview 折り畳みタブの諸所]
+> tabviewを応用した技法
+[*http://shitake-crude-production.wikidot.com/audioplay 音楽を流す]
+> 音楽を流す様々な構文
+[*http://shitake-crude-production.wikidot.com/img-caption-original 画像キャプション原文]
+> インクルード文で呼ばれる画像キャプションの中身
+[*http://shitake-crude-production.wikidot.com/collapsible-powerup 折り畳みのデザインについて]
+> [[collapsible]]を応用した技法
+[*http://shitake-crude-production.wikidot.com/table-powerup 表の機能強化]
+> テーブル要素についてのcss及びタグについての説明
+[*http://shitake-crude-production.wikidot.com/title-powerup タイトル位置変更及び機能増加]
+> idがpage-titleの要素に関わるcss
+[[/collapsible]]
+> ここではSCP財団で見かけた特殊な構文を適当に並べます。[((bibcite 1))]
+[[/div]]
+[*http://scp-jp.wikidot.com/forum/t-8656983/ 集まれっ財団構文部!]
+[*http://scp-jp.wikidot.com/forum/t-1411758/wiki あなたのよく使うwiki構文を教えてください。]
+[*http://wanderers-library-jp.wikidot.com/style-guide スタイルガイド]
+> Wikidotの基本的な書式と[*http://wanderers-library.wikidot.com/ WL Wiki]で用いられる主要なコンポネントについて
+
+++ テーマ
+
+[*http://topia.wikidot.com/component:bamboo CSSテーマ（竹）]
+[*http://msr-arc.wikidot.com/qingtan-exp Qingtan]
+[*http://topia.wikidot.com/component:bright CSSテーマ（輝）]
+[*http://topia.wikidot.com/simple-theme-test CSSテーマ（モノトーン）]
+[*http://pseudo-scp-jp.wikidot.com/how-to-localize-a-component 如何にしてtheme/componentをローカライズするか]
+> ENやCN，FRにはとても素晴らしいテーマが数多く存在します．そんなテーマをJPに導入しようと思ったとき，どうすればいいでしょうか．
+
+[[/tab]]
+
+[[tab ツール]]
+
+[*https://scpper.com/ Scpperデータベース]
+> SCP Wikiのページやユーザーに関する様々なデータや統計を提供するサイト。
+[*https://chrome.google.com/webstore/detail/scpper/cpebggobaenfndpoddkdindknnpbjdfc? hl=ja SCPper拡張機能]
+[*https://status.scp-jp.org/ SCP-JP 死活監視]
+[*http://scp-jp.wikidot.com/author-page-tool 自分の著者ページを更新するのが面倒くさくてたまらない人のための超簡単ツール]
+> このコンポーネントは、自動的にあなたが投稿したすべての作品のリストを投稿日順に生成します。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/author:physicslike あなたの著者ページ]
+> あなたが著者ページを持っていなくても、自身がこのwikiで作成したページ一覧を見ることが出来ます。
+[*http://gurubox.wikidot.com/rta-sub 合計リビジョン数/フォーラムポスト数計算ツール]
+[*http://scp-jp.wikidot.com/css-theme-preparation-tool CSSテーマ作成ツール]
+> このツールは簡単なCSSテーマを作成するためのものです。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/css-previewer CSSプレビューアー]
+[*http://scp-jp.wikidot.com/tools-for-sb3 サンドボックスⅢをもっと便利にするお役立ち機能]
+[*http://notifications.wikidot.com/ フォーラム通知サービス]
+
+++ 検索システム
+
+[*http://scp-jp.wikidot.com/scpmetatitlesearch SCPタイトル検索]
+> SCP記事につけられた、いわゆるメタタイトルで作品の検索ができます。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/scpauthorssearch SCP作者検索]
+> 任意のSCP番号を入力する事で、そのSCPの作者を調べる事ができます。[((bibcite 2))]
+[*http://scp-jp.wikidot.com/tag-search 複数タグ検索システム]
+> タグによる絞り込みの他、様々な条件から記事を検索することができます。
+[* https://crom.avn.sh/ Crom]
+[*https://ayame.scp-jp.net/ SCP DataBase]
+
+++ 翻訳システム
+
+[*http://scp-jp.wikidot.com/tag-translator タグ翻訳システム]
+> ページではなく、タグを検索する事ができます。[((bibcite 2))]
+
+++ ソフト
+
+[*http://scp-jp.wikidot.com/forum/t-1064227/scp SCP用の編集ソフト的なものを作ってみたよ]
+[*http://scpjp-fansite.wikidot.com/ikr-ap-001 Wikidot/SCP財団テキストエディタ”IKR SCP EDITOR”]
+
+++ ブックマークレット
+
+[*http://scp-jp.wikidot.com/forum/t-12052508/ 無限セーブ対抗ブックマークレットの共有]
+[*http://scp-jp.wikidot.com/author:toribami ブックマークレット置き場]
+> 原文の文字色を変えるなど翻訳活動に役立つブックマークレット。
+[*http://scp-jp.wikidot.com/forum/t-12408505/ 編集エリア内の文字置換用ブックマークレットの共有]
+[*http://scp-jp.wikidot.com/forum/t-12708365/wiki 簡単!wiki構文コピペ用、「カスタム編集エリア」ブックマークレットの共有]
+[*http://scp-jp.wikidot.com/author:mikukaneko ページソース保存ブックマークレット]
+
+[[/tab]]
+
+[[tab 未分類]]
+
+[*https://scp-wiki.wikidot.com/forum/t-14012012/question 質問]
+> 財団職員の功労に対してある種の賞が授与されることはあるのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-10014077/scp SCPの「確保」についての疑問]
+> 人間や世界に明らかな影響を与えることのないSCiPもありますよね? またはどう考えても民間人が近付かない、近付けないような場所に発生していたり… そのようなSCiPを財団はどのように発見しているのでしょうか? 
+[*http://scp-jp.wikidot.com/forum/t-11868939/ 破壊不能を確かめる方法について]
+> どのようにして破壊不能か否かを確かめているのでしょうか? 財団の理念から考えて「とりあえず破壊してみるか!」ではないでしょうし….。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-14206530/jp-goi JP産GoIの超脅威識別子を考えるスレッド]
+[*http://scp-jp.wikidot.com/forum/t-5719656/goi 【アンケート】大日本帝国GOIの超脅威識別子を決めよう（異論受付中）]
+[*http://scp-jp.wikidot.com/forum/t-10287957/odss カノン化目前!〈ODSS〉シリーズについて語るスレッド]
+[*http://scp-jp.wikidot.com/forum/t-14027124/pamwac 【集まれぽまいら】PAMWACについて語るスレ【ヘッカキボンヌ】]
+[*http://scp-jp.wikidot.com/author:owlcat 財カツに役立つ情報が載ったその他ページのまとめ]
+[*http://scpsandbox-jp.wikidot.com/tsucchii0301 日棒一族について]
+[*https://scp-wiki.wikidot.com/forum/t-13552304/why-is-the-veil-important-for-the-foundation 財団にとってなぜヴェールが重要なのだろう]
+[*http://scp-jp.wikidot.com/forum/t-3173676/goi 特別収容プロトコルにおけるGoI対策]
+[*http://scp-jp.wikidot.com/forum/t-6923945/ 財団と都市伝説について]
+> 財団って異常な存在を収容するなら都市伝説とかも一応調べてるのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-2285287/ 財団による監視・整理・介入について]
+> 記事でたまに監視ネットワークがどうのとか、情報統制がこうのという記述を見るが、具体的に財団はどのような手段を用いて世界を監視し、集まった情報を整理し、そして世間に適応させているのか。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1643479/ 質問:サイト内の“実験”や“インタビュー”って何処で行われてるんでしょうか? ]
+[*http://scp-jp.wikidot.com/forum/t-1912883/ 大質量オブジェクトの輸送について]
+> 運搬は可能でも車道を通れないような大きさや質量をもったオブジェクトをどうやって収容設備の整ったサイトまで輸送するのか少し気になったので記事を作成するうえで考えてみたいです。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-2050563/ 多数のオブジェクトが一斉に収容違反するような事象とは? ]
+[*http://scp-jp.wikidot.com/forum/t-1332862/ 月における財団の活動]
+> 財団のことですからきっと月にも施設やらあると思うんですけど、月面ではどれくらいの規模で活動してるんでしょう? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-5065558/ 財団の研究費や職員の給料について]
+> オブジェクトの研究、維持費や、職員の給料はどうしているのでしょう? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-5787833/ 確保、収容についての疑問]
+> 見つけたオブジェクトって財団内のだれが、どうやって確保、収容しているんだろう。[((bibcite 1))]
+[*http://scp-jp-sandbox3.wikidot.com/draft:3383689-38-84a8 現実改変 - 玉菜解釈]
+[*http://scp-jp.wikidot.com/author:tark-iol 布教枠：JPポリティカル・フィクション履修セット]
+[*http://scp-jp.wikidot.com/forum/t-7681287/ 怪奇部門について]
+> 怪奇部門とは一体全体何なんでしょうか? [((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/flash-explainer-department-of-abnormalities ひとくち解説: 怪奇部門]
+> SCP解説コミュニティ「SCP 『怪奇部門』に関する調査記録]Declassified」に寄稿されている、"Flash Explainer: Department of Abnormalities"の有志翻訳。若干情報は古い。
+[*http://pseudo-scp-jp.wikidot.com/doa-memo 『怪奇部門』に関する調査記録]
+> [[*user Dr_Kasugai]]による、書きかけの怪奇部門解説。サンドボックスⅢの『「怪奇部門」の調査報告』をベースにしている。
+[*http://pseudo-scp-jp.wikidot.com/doa-list 怪奇部門メモ (個人用)]
+> [[*user Dr_Kasugai]]による、既存の怪奇部門記事と関連情報のまとめ。不定期に更新中。
+[*http://pseudo-scp-jp.wikidot.com/doa-page 個人用怪奇部門まとめ]
+[*http://scp-jp.wikidot.com/author:physicslike 物理学的オブジェクト解説]
+> 自分が好きな記事について、オブジェクト自体やそれに出てくる物理学用語などを解説します。リクエストも受け付けます。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/author:usurahi 霊的実体まとめ]
+[*http://scp-jp.wikidot.com/forum/t-7105912/ アイテム番号の呼び方について]
+> scp記事のアイテム番号の読み方は統一されていないのか[((bibcite 1))]
+[*https://scp-wiki.wikidot.com/forum/t-13001119/the-locked-box-test-but-i-wasted-a-lot-of-time-doing-it-for 特殊オブジェクトクラスの箱テスト]
+[*https://scp-wiki.wikidot.com/forum/t-11650399/i-need-help-on-the-topic-of-ghosts ゴーストについて助けてほしいことがあります]
+> 財団によるゴーストの分類について知りたいです[((bibcite 1))]
+[*https://scp-wiki.wikidot.com/forum/t-13983216/would-the-05s-like-have-a-group-chat O5はグループチャットを利用しますか? ]
+[*https://scp-wiki.wikidot.com/forum/t-13972314/differences-between-mtf-omega-7-and-mtf-alpha-9 機動部隊オメガ-7と機動部隊アルファ-9の違いは? ]
+[*https://scp-wiki.wikidot.com/forum/t-13991154/different-types-of-dimensions ディメンションの種類]
+[*http://pseudo-scp-jp.wikidot.com/msr:blood-table-sample Blood Tableテンプレート]
+[*http://scpjp-fansite.wikidot.com/painappuru-01 蒐集院についての私的まとめ]
+[*http://scp-jp-sandbox3.wikidot.com/draft:5060201-45-38e9 蒐集院のついての一考察]
+[*http://scpjp-fansite.wikidot.com/ikr-ss-007 EVE余剰次元仮説(現実子-奇跡統一理論)]
+[*http://scpjp-fansite.wikidot.com/ikr-canvas-001 Hume談義（合作にしたい）]
+[*http://scp-jp.wikidot.com/forum/t-7814454/ 「幽霊」の財団内での扱いについて]
+[*https://scp-wiki.wikidot.com/forum/t-14034758/what-s-the-o5-council-like O5評議会とはどのようなものですか? ]
+[*http://scp-jp.wikidot.com/forum/t-2047491/scp2000 SCP-2000について質問です]
+> SCP2000は人類を再構築し文明も元に戻しますが、収容違反を起こしたオブジェクトたちはどのように再収容するのでしょうか? [((bibcite 1))]
+[*https://scp-wiki.wikidot.com/forum/t-14021157/what-scps-would-be-public-knowledge-in-broken-masquerade 壊された虚構において一般社会に周知されるSCPとは? ]
+[*http://scp-jp.wikidot.com/forum/t-15006421/scp 低脅威度のSCPへ財団が教育を行うかについて]
+[*http://scp-jp.wikidot.com/forum/t-1716690/ 改変に耐性を持つ人物の設定]
+> 現実改変や過去改変に耐性を持つ人物ってどういう体質なのかとか設定はあったりしますか? [((bibcite 1))]
+[*https://scp-wiki.wikidot.com/forum/t-14031889/children-and-teenage-caretakers 子どもやティーンエイジャーの世話人]
+[*https://scp-wiki.wikidot.com/forum/t-14021120/about-type-blues 「タイプ・ブルー」について]
+[*http://scp-jp.wikidot.com/author-owlcat 過去の定例会のリンク集]
+[*http://scp-jp.wikidot.com/forum/t-13501308/scp-4972 SCP-4972を考察するスレッド]
+[*http://scp-jp.wikidot.com/author:tutuji 犀賀派のだいたい個人的解釈]
+[*http://scp-jp.wikidot.com/author:tutuji スシブレード 考察、ヘッドカノン]
+[*http://usubaorigeki.wikidot.com/keibinosigoto 警備の仕事 ヘッカまとめ]
+[*http://usubaorigeki.wikidot.com/roudoukizyunnkanntokukann 財団の労働基準監督業務 ヘッカまとめ]
+[*http://scp-jp.wikidot.com/author:utsuki-k 食人考]
+[*http://scp-jp.wikidot.com/forum/t-2330867/ 記事の参考に答えていただけると幸いです]
+> あなたは財団の職員です。あなたの考える"普通"のSCiPオブジェクトとは何でしょうか。[((bibcite 1))]
+[*http://pseudo-scp-jp.wikidot.com/samiomaliean-language-study サミオマリエ語考察]
+[*https://scp-wiki.wikidot.com/forum/t-3556292/occult-wars-what-were-they オカルト大戦]
+[*https://scp-wiki.wikidot.com/forum/t-14090030/what-to-do-with-those-goi-s GoIに対してどのように行動するでしょう]
+> 財団がGoIのメンバーを確保した場合、どのように扱うのでしょうか[((bibcite 1))]
+[*https://scp-wiki.wikidot.com/forum/t-14064490/sites-17-and-19-locations サイト17と19の所在]
+[*http://scp-jp.wikidot.com/author:onthonon ベクソン語のあれこれ]
+[*https://scp-wiki.wikidot.com/forum/t-3498693/what-is-an-hmcl-supervisor HMCL主任とは何か? ]
+[*https://scp-wiki.wikidot.com/forum/t-3985466/men-in-black メン・イン・ブラック? ]
+> 財団は主に異常なものを扱っていて、それらのいくつかはエイリアンのSCPなわけですが、その他にエイリアンを中心としたグループというのは宇宙に存在しますか? [((bibcite 1))]
+[*https://www.youtube.com/channel/UCoBkIhl3xS327DEfrZs_oTQ SCP財団ラジオ放送部〈Owlnight〉]
+[*http://pseudo-scp-jp.wikidot.com/2000 各記事での2000の扱い]
+[*http://pseudo-scp-jp.wikidot.com/erikesh-memo 古代エリケシュ文明に関する個人的メモ]
+[*http://pseudo-scp-jp.wikidot.com/sarkic-worldmap-tale サーキック・カルトの活動に関する第22回調査報告 (プロジェクト・シトラ=アキュラ編纂)]
+[*http://scp-jp-sandbox3.wikidot.com/draft:5647303-69-8c21 名前生成]
+[*http://pseudo-scp-jp.wikidot.com/my-sarkic-study-02 サーキシズムに関する調査メモ]
+> [[*user Dr_Kasugai]]による、サーキシズム関連情報のまとめ。2020年末に一度休止しているため、情報は些か古い。「サーキシズムに関する調査メモ」は最近再開した情報まとめの続編。
+[*http://scp-jp.wikidot.com/author:apple3 財団とカニバリズムについてのメモ書き]
+[*http://scp-jp.wikidot.com/author:carbo19 レッド・リアリティ関連の云々]
+[*http://scp-jp.wikidot.com/forum/t-10271932/ 名称と博士の扱い方について]
+> とある博士が悪戯でSCPから新しいSCPを作ってしまった場合はどのような対応をするのでしょうか? また、新しくつくられたSCPが便利系SCPであれば対応は変わるのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-11186206/ 異常性の保存について]
+> 財団の目的はオブジェクトを収容することなのは理解しておりますが、オブジェクトの異常性については保存するのでしょうか? [((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-1210918/scp 「異世界の人間」はSCPオブジェクトか? ]
+[*https://docs.google.com/spreadsheets/u/0/d/1-9tePXV59cjcICMNHcfUu35UovEi8Wbqa0JydKX0JMo/htmlview 人事調査2020]
+[*http://scp-jp.wikidot.com/forum/t-2224921/ 財団の行動規範や倫理綱領]
+> 財団は設定上国際的に水面下での多岐にわたる活動が主で博士やエージェントなど財団内部における様々な専門職種の集まりであると認識させてもらっています。その財団内の行動指針などはある程度明確化されてはいますが、望まれる行動規範や職員に求められる倫理綱領などがあれば財団の世界観としても盤石なものとできるのではと考えたので今回意見具申させていただきました。もし既出でなければ皆様の考えを教えていただけませんか。[((bibcite 1))]
+[*http://scp-jp.wikidot.com/forum/t-14568773/ 自然界に生息する異常生物のオブジェクトクラスについて]
+[*http://scp-jp.wikidot.com/forum/t-3242260/ "将来オブジェクトになる物品"の扱いについて]
+[*http://pseudo-scp-jp.wikidot.com/the-language-of-tenem-nita テネムニタの言語について]
+[*http://scp-jp-sandbox3.wikidot.com/draft:3383689-36-9dbc それで、貴方はクリシェなセリフを書きますか]
+[*http://scp-jp.wikidot.com/forum/t-3535536/scp 現実改変とSCPについて]
+> “ヒューム値が低い”という事実は異常存在なのでしょうか? 例えば、生まれつきヒューム値が0.5の山田太郎君は、SCiPになりえるのか…ということです。[((bibcite 1))]
+[*http://scp-jp-sandbox3.wikidot.com/draft:6360224-31-a805 Apollyonに関する統括ページ]
+[*http://scpjp-fansite.wikidot.com/painappuru-01 蒐集院についての私的まとめ]
+[*http://scpjp-fansite.wikidot.com/goc-references GOCに関する設定資料集（加筆募集）]
+[*http://scpjp-fansite.wikidot.com/japanese-branch-council-staff-office 日本支部理事会幕僚部に関する諸考察]
+[*https://scp-wiki.wikidot.com/forum/t-554358/what-is-a-pattern-screamer パターンスクリーマーとは何か]
+[*http://scpjp-fansite.wikidot.com/ikr-ss-007 EVE余剰次元仮説(現実子-奇跡統一理論)]
+[*https://scp-wiki.wikidot.com/forum/t-13089029/human-apparition-system 霊的人型実体のからくり]
+> 霊的実体の分類について
+[*https://scp-wiki.wikidot.com/forum/t-14198527/how-many-d-class-does-the-foundation-use 財団は一体どのくらいのDクラスを使用するか]
+[*https://scp-wiki.wikidot.com/forum/t-13992116/where-are-scp-foundation-s-servers-where-the-data-about-scps SCP財団のサーバーはどこにある? ]
+[*http://pseudo-scp-jp.wikidot.com/tweet Twitter module]
+[*https://scp-jp.wikidot.com/scpdeclassified SCP Declassifiedハブ]
+[*https://www.containmentfiction.net/ Containment Fiction Wiki][[*http://pseudo-scp-jp.wikidot.com/system:page-tags/tag/scf#pages JA]]
+> SCP財団やRPC機構をはじめとする、異常存在と人類の関係を描いた創作コミュニティ「Containment Fiction」を記録・解説するサイト。"Society of Containment Fiction"というDiscord上の有志集団が母体になっている。
+[*https://www.conficmagazine.com/ Confic Magazine]
+> "Confic Magazine LLC"社が運営する、Containment Fiction関連の記事を不定期に掲載しているオンラインマガジン。上記CFwiki同様、Society of Containment Fictionが記事執筆の母体である。なお、運営2人はSCP-ENコミュニティが少数エリートに支配されていると主張して脱退・批判している元メンバーなので、SCPに対しては些か批判的なカラーを帯びている点に留意。
+[*http://scp-jp.wikidot.com/forum/t-3126557 今日の日付を出す方法について]
+[*http://scp-jp-sandbox3.wikidot.com/draft:pequod-morpho-1 【制作中】日本支部の軍備]
+[*http://scp-jp-sandbox3.wikidot.com/draft:6139370-116-e06f エルマ外教妄想考察まとめ]
+[*https://scp-wiki.wikidot.com/usertools ユーザーツール]
+
+[[/tab]]
+
+[[tab About]]
++++ これは何? 
+SCP財団に関する様々な資料やお役立ちページを収集・整理し、情報へのアクセス性を高めることを目的としたリンク集です。
+----
+[[bibliography title="引用"]]
+: 1 : リンク先より
+: 2 : [*http://scp-jp.wikidot.com/other-link-hub お役立ちリンク集]より
+: 3 : [*http://scp-jp.wikidot.com/glossary-for-new-site-members-jp 新サイトメンバーのための用語集]より
+: 4 : [*http://scp-jp-sandbox3.wikidot.com/sharepage-b-hub 共有ページB類ハブ]より
+[[/bibliography]]
+[[/tab]]
+[[/tabview]]
+
+@@ @@
+
+[[tabview]]
+[[tab Forum Log]]
+
+[[/tab]]
+
+[[tab SCP-EN/Foundation Universe]]
+**固定**
+2012-09-10 ◆[*https://scp-wiki.wikidot.com/forum/t-561991/the-leak The Leak] - 世界観のネタバレや関連情報のリーク
+2015-01-14 [*https://scp-wiki.wikidot.com/forum/t-1082671/trying-to-find-an-scp-or-tale-but-don-t-remember-the-name 名前を忘れてしまったSCPやTaleを見つけよう]
+2019-04-13 [*https://scp-wiki.wikidot.com/forum/t-11130369/all-k-class-scenarios-used-in-scps SCP記事で使われたすべてのK-クラスシナリオ]
+----
+[[collapsible hideLocation="both" show="+ 2008" hide="- 閉じる"]]
+2008-07-26 ◆[*https://scp-wiki.wikidot.com/forum/t-76752/foundation-or-organisation FoundationかOrganisationか] - SCPの名称に関する見解
+2008-07-27 [*https://scp-wiki.wikidot.com/forum/t-76922/groups-of-interest 要注意団体] - ジョーク味が強い...
+2008-07-29 [*https://scp-wiki.wikidot.com/forum/t-77363/regarding-scp-110-s-classification SCP-110の分類について]
+2008-07-30 [*https://scp-wiki.wikidot.com/forum/t-77619/some-of-the-scp-s いくつかのSCPって...] - "完全な球"が多いのはなぜか
+2008-08-07 [*https://scp-wiki.wikidot.com/forum/t-79887/coffee-machine-s-range-of-harvest-scp-294 コーヒー自動販売機が取得できる範囲 (SCP 294)]
+2008-08-08 [*https://scp-wiki.wikidot.com/forum/t-80036/scp-824 SCP - 824]
+2008-08-11 [*https://scp-wiki.wikidot.com/forum/t-96223/scp-105 SCP-105] - 結末について
+2008-08-16 [*https://scp-wiki.wikidot.com/forum/t-97475/end-of-the-world 世界終焉] - XK以外に世界が終焉するクラスは存在するのか
+2008-08-28 [*https://scp-wiki.wikidot.com/forum/t-98514/wait-giant-scp-orgy-or-war 待てよ...SCPたちの大乱闘?  -- 戦争!? ] - これを題材に新たな表現ができるのではないか
+2008-09-06 [*https://scp-wiki.wikidot.com/forum/t-86637/the-nature-of-the-foundation 財団の性質] - 財団とそこで働く人々の性質についての一歩
+2008-09-09 [*https://scp-wiki.wikidot.com/forum/t-87563/foundation-origins 財団の起源] - 我らが財団の歴史に関する設定を詰めてみる
+2008-09-23 [*https://scp-wiki.wikidot.com/forum/t-91260/what-s-from-where それはどこから? ] - アイデアの出自
+2008-09-27 [*https://scp-wiki.wikidot.com/forum/t-92508/scp-187 SCP-187] - 栄養失調を解決するシンプルな方法
+2008-10-29 [*https://scp-wiki.wikidot.com/forum/t-100802/indestructable 破 壊 不 能] - 根拠なしに破壊不能を謳うのにはうんざりだ
+2008-11-06 [*https://scp-wiki.wikidot.com/forum/t-102692/facilities-warehouses-etc 施設とか倉庫とか] - サイト名重複を防ぐためリストを作成するべきだ
+2008-11-08 [*https://scp-wiki.wikidot.com/forum/t-103269/containment-site-blueprints 封じ込めサイトの設計図]
+2008-11-19 [*https://scp-wiki.wikidot.com/forum/t-106280/when-should-808-and-914-hook-up いつ808と914を接続しようか]
+2008-12-08 [*https://scp-wiki.wikidot.com/forum/t-111496/quick-question-as-if-such-a-thing-exists ちょっと質問(これってあるの? )] - SafeクラスSCPの保管法にしきたりはあるか
+2008-12-09 [*https://scp-wiki.wikidot.com/forum/t-111798/a-query 疑問] - EuclidあるいはKeterを移送する際外部企業を利用することはありうるだろうか
+[[/collapsible]]
+----
+[[collapsible hideLocation="both" show="+ 2009" hide="- 閉じる"]]
+2009-01-06 [*https://scp-wiki.wikidot.com/forum/t-117714/age-of-the-foundatation 財団が成立した年代]
+2009-01-23 [*https://scp-wiki.wikidot.com/forum/t-122600/is-it-abel-or-able AbelかAbleか]
+2009-02-10 [*https://scp-wiki.wikidot.com/forum/t-128719/quantum-mechanics-and-scps 量子力学とSCP] - 目を離すと変形したり動いたりするSCPについての洞察
+2009-02-10 [*https://scp-wiki.wikidot.com/forum/t-129050/mecha メカ? ] - SCP-244とSCP-344はSCPではないので別の場所に移すべき
+2009-02-13 [*https://scp-wiki.wikidot.com/forum/t-130121/what-to-do-with-all-those-gears 歯車を集めて何をしようか...] - "the broken one"
+2009-03-09 [*https://scp-wiki.wikidot.com/forum/t-136777/500-682 500/682] - vs682
+2009-03-14 [*https://scp-wiki.wikidot.com/forum/t-138336/introduce-scp-076-to-scp-177 SCP-076をSCP-177と接触させると] - 彼はそれを破壊するか、受け入れるか
+2009-03-14 ◆[*https://scp-wiki.wikidot.com/forum/t-138428/the-scp-object-classes SCPオブジェクトクラス] - 混乱が見られるので公式の定義を補足する
+2009-03-19 [*https://scp-wiki.wikidot.com/forum/t-139672/working-on-categories カテゴリー分け] - 有名キャラクターを用いてOC分類を説明
+2009-03-24 [*https://scp-wiki.wikidot.com/forum/t-140910/the-church-of-the-broken-god 壊れた神の教会] - 物語を制作しようと思っているがどのような内容が良いか
+2009-03-24 [*https://scp-wiki.wikidot.com/forum/t-140954/a-simple-question 簡単な質問] - なぜDクラス職員は毎月終了されるのか
+2009-03-26 [*https://scp-wiki.wikidot.com/forum/t-141483/inquiring-on-the-immortality-of-scp-809 SCP-809の不死性についての疑問] - 破壊者は誰か、Havik博士とは
+2009-04-03 [*https://scp-wiki.wikidot.com/forum/t-144207/cain-abel-scp-73-76-2#post-443814 カイン/アベル SCP 073/076-2] - 逆では? 
+2009-04-15 [*https://scp-wiki.wikidot.com/forum/t-147041/does-the-scp-have-any-official-uniforms-vehicles-etc 財団は公式な制服や車両を有するか]
+2009-05-02 [*https://scp-wiki.wikidot.com/forum/t-152895/regarding-reclassifications 異動について] - より危険なSCPへの再割り当てにつながる場合が多すぎる
+2009-05-02 [*https://scp-wiki.wikidot.com/forum/t-152902/searching-for-a-scp とあるSCPを探しています]
+2009-05-15 [*https://scp-wiki.wikidot.com/forum/t-155680/undocumented-task-forces 記録されていないタスクフォース] - Secure Facilities Locationsに掲載されていない機動部隊
+2009-06-23 [*https://scp-wiki.wikidot.com/forum/t-249460/does-the-foundation-have-an-intelligence-arm 財団は諜報部門を有するか]
+2009-06-27 [*https://scp-wiki.wikidot.com/forum/t-165552/idea-about-scp-148 SCP-148に関する案] - SCP-038を利用すれば無限に供給されるのでは...
+2009-07-16 ◆[*https://scp-wiki.wikidot.com/forum/t-169396/canon-and-non-canon カノンと非カノン] - 何がカノンで何が非カノンか
+2009-07-18 [*https://scp-wiki.wikidot.com/forum/t-169972/marshall-carter-dark-ltd マーシャル・カーター&ダーク株式会社] - ロゴや識別用の記号が欲しい / 質問募集
+2009-07-22 [*https://scp-wiki.wikidot.com/forum/t-254699/foundation-fronts 財団フロント] - いくらか肉付けする必要がありそう
+2009-08-01 [*https://scp-wiki.wikidot.com/forum/t-185687/links つながり] - 全SCPは何か意味のあるつながりを持つのか、それとも非現実性の脈絡のない断片なのか
+2009-08-28 [*https://scp-wiki.wikidot.com/forum/t-192246/real-life-foundation-speak 現実世界なら財団はこのように述べる]
+2009-11-21 [*https://scp-wiki.wikidot.com/forum/t-198705/cross-testing-proposals クロステストの提言] - どちらが勝つ? 
+2009-12-25 ◆[*https://scp-wiki.wikidot.com/forum/t-206615/so-well-it-s-christmas-eve-and-this-happened クリスマスイブの日、こんなことがあったんだ...]
+2009-12-31 [*https://scp-wiki.wikidot.com/forum/t-207851/stuff-that-needs-doing スタッフへの要望!] - [カテゴリ違い]
+[[/collapsible]]
+----
+[[collapsible hideLocation="both" show="+ 2010" hide="- 閉じる"]]
+2010-01-05 [*https://scp-wiki.wikidot.com/forum/t-208951/the-broken-god 壊れたる神]
+2010-04-13 [*https://scp-wiki.wikidot.com/forum/t-233852/scp-foundation-technology-levels 財団の技術レベル]
+2010-04-24 [*https://scp-wiki.wikidot.com/forum/t-236866/thoughts-on-poking-the-bear "余計なちょっかい"について] - 触れなければ平気なSCPに対し財団が実験を行うのは普通のことなのか? 
+2010-05-01 [*https://scp-wiki.wikidot.com/forum/t-238354/scp-security-forces-training SCPセキュリティフォースの訓練]
+2010-05-03 [*https://scp-wiki.wikidot.com/forum/t-465932/telepathy-and-other-psychic-abilities-in-foundation-members テレパシー初め超能力を持つ財団メンバー]
+2010-06-10 [*https://scp-wiki.wikidot.com/forum/t-247095/trying-to-track-down-an-scp-i-read 読了SCP捜索作戦]
+2010-06-29 [*https://scp-wiki.wikidot.com/forum/t-250393/intended-tone-of-the-foundation-setting 財団世界観設定の意図するトーン] - 例えばコズミックホラーとか、ドメスティックコメディとか
+2010-07-06 [*https://scp-wiki.wikidot.com/forum/t-251793/speculation:what-would-happen-if-a-human-faction-triumped 推察: 人類のある組織が完全勝利を果たした結果] - 排他的な性質の組織がその目的を達成した後の世界
+2010-08-17 [*https://scp-wiki.wikidot.com/forum/t-259327/ethics-committee 倫理委員会] - 財団に道徳や倫理の指標は存在するか
+2010-08-21 [*https://scp-wiki.wikidot.com/forum/t-276810/artificial-intelligence 人工知能] - [加筆求む]
+2010-08-21 [*https://scp-wiki.wikidot.com/forum/t-276945/class-e Eクラス? ] - Eクラス職員って何? 
+2010-11-13 [*https://scp-wiki.wikidot.com/forum/t-196210/agents エージェント] - 財団エージェントの実態
+2010-11-17 [*https://scp-wiki.wikidot.com/forum/t-284854/want-to-see-how-the-site-looked-in-2008-2009 2008/2009年のサイトの様子を見てみよう]
+2010-12-26 [*https://scp-wiki.wikidot.com/forum/t-294013/when-gears-snaps ギアーズがキレる状況とは]
+[[/collapsible]]
+----
+[[collapsible hideLocation="both" show="+ 2011" hide="- 閉じる"]]
+2011-01-26 [*https://scp-wiki.wikidot.com/forum/t-302685/foundation-roots 財団のルーツ]
+2011-02-02 [*https://scp-wiki.wikidot.com/forum/t-304473/foundation-personnel-meeting-logs 財団の議事録] - 議事録形式の記事
+2011-03-07 [*https://scp-wiki.wikidot.com/forum/t-319382/keter Keter] - 発音
+2011-04-10 [*https://scp-wiki.wikidot.com/forum/t-347067/the-dumbest-scp-expirement-ever 史上最も愚かなSCPの実験]
+2011-05-16 [*https://scp-wiki.wikidot.com/forum/t-241806/foundation-snipe-hunts 財団版スナイプ・ハント]
+2011-05-18 [*https://scp-wiki.wikidot.com/forum/t-469208/foundation-cameos 財団のカメオ] - [カテゴリ違い]
+2011-05-25 [*https://scp-wiki.wikidot.com/forum/t-363075/visual-aesthetic-of-the-foundation 財団の視覚芸術] - [加筆求む]
+2011-05-26 [*https://scp-wiki.wikidot.com/forum/t-363162/scp-to-anomalous-item SCPからAnomalousアイテムへ? ] - 今投稿されればSCPではなくAnomalousアイテムに移動させられるであろう記事
+2011-06-09 [*https://scp-wiki.wikidot.com/forum/t-365578/morality-limits 倫理的制限]
+2011-06-19 ◆[*https://scp-wiki.wikidot.com/forum/t-367352/the-extras-disk CDエクストラ] - 著者による裏話
+2011-06-23 [*https://scp-wiki.wikidot.com/forum/t-368360/new-general-task-force 新しい公式タスクフォース] - 自著向けに新しく作成しても大丈夫だろうか
+2011-07-24 [*https://scp-wiki.wikidot.com/forum/t-394346/hilarious-threats-and-reasoned-retribution  脅しのジョークと合理的な懲罰] - 「Keter任務への割り当て」「Dクラスに降格」のような脅しのジョーク(Hilarious Threat)の是非
+2011-08-01 [*https://scp-wiki.wikidot.com/forum/t-378467/what-is-the-meta-situation-within-the-scp SCPにおける"形而上的"な立場は? ]
+2011-08-01 [*https://scp-wiki.wikidot.com/forum/t-378538/does-the-foundation-ever-forget-things "財団から失われた過去"可能か] - ある必要不可欠な手順を行う理由が忘れ去られた、というのはどうだろう
+2011-08-18 [*https://scp-wiki.wikidot.com/forum/t-383352/while-we-don-t-have-a-cloning-machine クローン"マシン"ではないものの...] - SCP-038を使えば無限にDクラス職員を共有できるのでは? 
+2011-09-10 [*https://scp-wiki.wikidot.com/forum/t-389388/agents-task-forces-and-security-clearance-levels エージェント、タスクフォース、セキュリティクリアランスについて] - エージェントとタスクフォースの違いとは / 彼らにクリアランスは適用されるか
+2011-09-21 [*https://scp-wiki.wikidot.com/forum/t-393134/class-4-restrictions-etc クラス4制限] - 機密扱いのコンテンツを見るにはメンバーシップをアップグレードする必要がある? 
+2011-09-26 [*https://scp-wiki.wikidot.com/forum/t-394798/before-the-foundation 財団以前]
+2011-11-03 [*https://scp-wiki.wikidot.com/forum/t-407398/a-quick-question-about-343 343についての簡単な質問] - 343に271-7の手助けを依頼した人はいるだろうか
+2011-11-05 [*https://scp-wiki.wikidot.com/forum/t-407797/lights-in-the-sky 空の光] - 財団はUFOに対しどう働くか
+2011-11-28 [*https://scp-wiki.wikidot.com/forum/t-416399/replacement-ideas-for-scp-767 SCP-767との入れ替え案]
+2011-12-09 [*https://scp-wiki.wikidot.com/forum/t-420631/xk-class-noticed XK-クラスについて気付いたこと]
+2011-12-12 [*https://scp-wiki.wikidot.com/forum/t-421080/suicide-rate-of-scp-staff SCP職員の自殺率]
+[[/collapsible]]
+----
+[[collapsible hideLocation="both" show="+ 2012" hide="- 閉じる"]]
+2012-01-04 [*https://scp-wiki.wikidot.com/forum/t-427165/goc GOC?] - GOC作品の需要
+2012-01-06 [*https://scp-wiki.wikidot.com/forum/t-429282/on-attachments-between-scps-and-staff SCPと財団スタッフ間の愛情について] - 財団は両者の関係性をどれほど厳格に扱うか
+2012-01-11 [*https://scp-wiki.wikidot.com/forum/t-432073/what-is-nobody Nobodyってなに?]
+2012-01-23 [*https://scp-wiki.wikidot.com/forum/t-436316/minor-question-about-the-containment-procedures 収容プロトコルに関するちょっとした質問] - 職員は我々が見るようなファイルを覚える必要があるか
+2012-01-27 [*https://scp-wiki.wikidot.com/forum/t-437067/can-d-classers-be-promoted Dクラスが昇進することはあるか]
+2012-02-06 [*https://scp-wiki.wikidot.com/forum/t-440565/secure-contain-how 確保、収容。どのように？] - 初期収容について
+2012-02-16 [*https://scp-wiki.wikidot.com/forum/t-443248/gathering-themed-scps ある題材のSCPを集めてます] - 神話関連のSCP
+2012-02-16 [*https://scp-wiki.wikidot.com/forum/t-443275/kids-in-the-foundation 財団施設における未成年] - の扱い
+2012-02-18 [*https://scp-wiki.wikidot.com/forum/t-443608/what-is-it-all-for これは何だというのか] - SCP記事群から感じた陰謀論的なにか
+2012-02-27 [*https://scp-wiki.wikidot.com/forum/t-445592/so-just-for-fun-i-have-been-bragging-about 冗談半分、ちょっとした自慢があってね…] - 財団のバッジを作りたい / 財団IDカードのテンプレートはあるか
+2012-02-29 [*https://scp-wiki.wikidot.com/forum/t-446275/so-does-it-seem-possible-that これは可能だと思われますか...] - 財団の諜報エージェントは携行武器を持つか
+2012-03-03 [*https://scp-wiki.wikidot.com/forum/t-447272/structure-of-the-foundation 財団の組織構造]
+2012-03-06 [*https://scp-wiki.wikidot.com/forum/t-448023/the-history-of-the-foundation 財団の歴史]
+2012-03-18 [*https://scp-wiki.wikidot.com/forum/t-454274/foundation-recruiting 財団の人材募集]
+2012-04-02 [*https://scp-wiki.wikidot.com/forum/t-458212/cross-testing-and-foundation-goals-as-i-understand-them クロステストと財団の目指すところ(私の理解が及ぶ限りの話)] - (メタ的に)クロステストが忌避されていることは知っているが、(世界観的に)財団がオブジェクトを保持するのは潜在的な価値があるからで、これを潰すのはもったいないと思う
+2012-04-06 [*https://scp-wiki.wikidot.com/forum/t-459252/what-the-fuck なんじゃこりゃ] - SCP-732
+2012-04-06 [*https://scp-wiki.wikidot.com/forum/t-459301/misunderstanding-memetics ミームに関する誤解][!-- --]
+2012-04-23 [*https://scp-wiki.wikidot.com/forum/t-463539/what-would-a-foundation-employee-say-to-someone-from-the-irg 財団職員がIRGで使うフレーズ]
+2012-04-24 [*https://scp-wiki.wikidot.com/forum/t-444990/the-g-o-c-and-you GOCとあなた] - GOC Wikiの過疎について
+2012-04-26 [*https://scp-wiki.wikidot.com/forum/t-464115/keter-poll Keter総選挙] - もっとも変わり種のKeterオブジェクト
+2012-04-26 [*https://scp-wiki.wikidot.com/forum/t-464173/would-mc-d MC&Dなら...] - 財団にも商品を売りつけるか
+2012-04-29 [*https://scp-wiki.wikidot.com/forum/t-464690/the-university-alternate-history-or-whole-world-of-its-own ユニバーシティ。改変された歴史と固有の世界] - UniversityというGoIについて
+2012-04-29 [*https://scp-wiki.wikidot.com/forum/t-464981/are-we-cool-yet "Are we cool yet?"] - どういう集まり?
+2012-04-30 [*https://scp-wiki.wikidot.com/forum/t-465021/d-class Dクラス] - 月末終了について
+2012-05-06 [*https://scp-wiki.wikidot.com/forum/t-466566/newbie-question-about-foundation-employees 初心者による財団の従業員に関する疑問] - ブライト博士のキャラクターについて
+2012-05-07 [*https://scp-wiki.wikidot.com/forum/t-466675/how-bureaucratic-is-your-foundation 財団はどのくらい官僚主義的な場所だと思う?]
+2012-05-11 [*https://scp-wiki.wikidot.com/forum/t-467541/newbie-question:how-many-see-the-foundation-as-government-sp 初心者から質問: 財団は政府に支援されていると考える人はどれくらいいますか?]
+2012-05-14 [*https://scp-wiki.wikidot.com/forum/t-468250/would-the-foundation-contain-an-alien 財団はエイリアンを収容するか]
+2012-05-14 [*https://scp-wiki.wikidot.com/forum/t-470479/scp-914-cross-over-theories SCP-914クロスオーバーの原理] - 914にSCPを入力したらどうなる?
+2012-05-15 [*https://scp-wiki.wikidot.com/forum/t-468632/scp:3-j SCP:3-J] - これはなに?
+2012-05-17 [*https://scp-wiki.wikidot.com/forum/t-468961/sidearms 携行武器]
+2012-05-17 [*https://scp-wiki.wikidot.com/forum/t-468964/uniform-for-humanoid-scps 人型SCPの制服]
+2012-05-23 [*https://scp-wiki.wikidot.com/forum/t-469910/scp-789-j SCP-789-J] - 低品質なので削除すべきだ
+2012-05-23 [*https://scp-wiki.wikidot.com/forum/t-470338/how-technologically-ahead-is-the-foundation 財団のテクノロジーの進歩具合]
+2012-05-31 [*https://scp-wiki.wikidot.com/forum/t-472236/foundation-commute 財団の出勤形態]
+2012-06-06 [*https://scp-wiki.wikidot.com/forum/t-474115/question-from-confused-newbie-re:his-personal-idol 迷える初心者の質問] - クレフ博士はしばしばアダムであると言われる。その出典が知りたい
+2012-06-06 [*https://scp-wiki.wikidot.com/forum/t-474119/foundation-funerals 財団の葬式?] - 財団職員の死を彼らの家族にどう説明するか
+2012-06-09 [*https://scp-wiki.wikidot.com/forum/t-484580/a-unified-theory-of-anomalies 異常存在の統一理論]
+2012-06-15 [*https://scp-wiki.wikidot.com/forum/t-509682/headcanon-survey:religious-makeup-of-the-foundation ヘッドカノン調査: 財団の宗教事情]
+2012-06-16 [*https://scp-wiki.wikidot.com/forum/t-509929/end-of-the-world 世界終焉] - XK, NK以外のK-クラスシナリオを知りたい
+2012-07-05 [*https://scp-wiki.wikidot.com/forum/t-517244/what-is-professor-aw "professor-aw"って誰?]
+2012-07-12 [*https://scp-wiki.wikidot.com/forum/t-520736/internal-politics 内部政治]
+2012-07-14 [*https://scp-wiki.wikidot.com/forum/t-523792/foundation-date-system 財団の年月日表記法]
+2012-07-16 [*https://scp-wiki.wikidot.com/forum/t-527238/k-events Kイベント] - AKやXKの意味が知りたい
+2012-07-19 [*https://scp-wiki.wikidot.com/forum/t-529498/reality-benders:what-do-we-know 現実改変者: 我々が知っていること]
+2012-07-21 [*https://scp-wiki.wikidot.com/forum/t-530563/foundation-artists 財団の芸術家] - 財団に努める視覚芸術家の職務とは
+2012-07-29 [*https://scp-wiki.wikidot.com/forum/t-538267/a-list-of-objects-at-large 未確保のオブジェクトリスト?] – Explainedのように特別枠を設けてもいいと思う
+[[/collapsible]]
+[[/tab]]
+
+[[tab WL-EN]]
++ [*http://wanderers-library.wikidot.com/forum/start フォーラムディスカッション]
+++ [*http://wanderers-library.wikidot.com/forum/c-110322/general 一般]
+**固定**
+[*http://wanderers-library.wikidot.com/forum/t-10779431/introductions-2:electric-boogaloo 自己紹介スレッド2: Electric Boogaloo]
+[*http://wanderers-library.wikidot.com/forum/t-14784207/non-wl-recommended-reading-list WL外の推薦図書リスト]
+> あなた//自身//が読むべきと思う文学作品の収集場所
+[*http://wanderers-library.wikidot.com/forum/t-15012860/call-for-artists アーティスト求む]
+> 新しくフロントページに掲載するアートを募集しています
+----
+[*http://wanderers-library.wikidot.com/forum/t-235347/a-fun-read 楽しく読めました]
+> Rateモジュールが設置されているのにvoteができないのはなぜか
+[*http://wanderers-library.wikidot.com/forum/t-519509/what-are-some-good-inspirations-for-library-material 図書館を主軸に据えるとき、良いインスピレーションとは何でしょう]
+[*http://wanderers-library.wikidot.com/forum/t-561409/serpents-hand-equivalent-of-001 蛇の手における001]
+[*http://wanderers-library.wikidot.com/forum/t-595893/an-offer-to-illustrate イラスト依頼]
+[*http://wanderers-library.wikidot.com/forum/t-597634/flat-interface-indented-view フラットかインデントか]
+[*http://wanderers-library.wikidot.com/forum/t-598325/hilarious-snippits-of-chat-laughter-1 笑えるチャットの切り抜き]
+◆[*http://wanderers-library.wikidot.com/forum/t-615180/planasthai:a-weekly-magazine-for-wanderers プラナスタイ: 放浪者向け週刊誌]
+[*http://wanderers-library.wikidot.com/forum/t-620469/steam-group STEAMグループ]
+[*http://wanderers-library.wikidot.com/forum/t-634088/library-in-jokes 図書館ジョーク]
+[*http://wanderers-library.wikidot.com/forum/t-646119/storynexus-project storynexusプロジェクト]
+> storynexusを利用したゲーム制作について
+[*http://wanderers-library.wikidot.com/forum/t-646022/cyoa-engine CYOA エンジン]
+> 簡単なhtmlだけでアドベンチャーゲーム形式の作品を作れます
+[*http://wanderers-library.wikidot.com/forum/t-630788/introductions-thread 自己紹介スレッド]
+[*http://wanderers-library.wikidot.com/forum/t-631120/ask-the-person-above-you-a-question-returns 質問リレー!]
+[*http://wanderers-library.wikidot.com/forum/t-646131/the-wanderers-library-mythology-project 放浪者の図書館神話プロジェクト]
+[*http://wanderers-library.wikidot.com/forum/t-650082/rumetzen-s-challenges Rumetzenチャレンジ]
+[*http://wanderers-library.wikidot.com/forum/t-658333/audio-video-articles 音声/動画作品]
+> どんどん作っていきましょう!
+[*http://wanderers-library.wikidot.com/forum/t-716100/sh-eclipse-phase SHエクリプス・フェイズ]
+[*http://wanderers-library.wikidot.com/forum/t-689543/scp-and-wl-senior-staff-chat SCP・WLシニアスタッフチャット]
+[*http://wanderers-library.wikidot.com/forum/t-692078/nonfiction-in-the-library 図書館におけるノンフィクション]
+[*http://wanderers-library.wikidot.com/forum/t-729157/first-person-wl-game WLのゲームは初? ]
+[*http://wanderers-library.wikidot.com/forum/t-730229/scp-international SCP International]
+[*http://wanderers-library.wikidot.com/forum/t-752412/series-idea シリーズのアイデア? ]
+> オリジナルキャラクターについてのオープンなQ&Aページを共同で運営し気軽に二次利用できるようにしたい
+[*http://wanderers-library.wikidot.com/forum/t-771172/community-survey コミュニティ調査]
+> WLユーザー増加を目的としたアンケート調査について
+[*http://wanderers-library.wikidot.com/forum/t-1013694/hello-just-got-accepted こんにちは!たった今承認されました!]
+[*http://wanderers-library.wikidot.com/forum/t-1159496/snippets-from-chat チャット切り抜き]
+[*http://wanderers-library.wikidot.com/forum/t-1168281/design-one-or-more-genius-loci-avatars-for-the-library Design one or more Genius Loci/Avatars for the Library.]
+[*http://wanderers-library.wikidot.com/forum/t-1432770/in-regards-to-prompts プロンプトについて]
+[*http://wanderers-library.wikidot.com/forum/t-1984217/illustration-of-a-way "道"のイラスト]
+[*http://wanderers-library.wikidot.com/forum/t-2134482/is-this-great-site-dead この(素晴らしい)サイトは死んでしまったの? ]
+[*http://wanderers-library.wikidot.com/forum/t-2189095/a-few-questions-from-a-new-member 新サイトメンバーによる質問]
+[*http://wanderers-library.wikidot.com/forum/t-4472168/about-sigma-3 シグマ-3について]
+[*http://wanderers-library.wikidot.com/forum/t-8229687/tabview-s-don-t-work-for-me-could-you-make-a-guide タブが機能しないので助けていただきたいです]
+[*http://wanderers-library.wikidot.com/forum/t-9560409/how-to-use-tabs タブの使い方は? ]
+[*http://wanderers-library.wikidot.com/forum/t-9955692/hallo-is-german-for-hello Halloはドイツ語でHelloの意味]
+[*http://wanderers-library.wikidot.com/forum/t-10471498/page-tagging ページのタグ付けについて]
+[*http://wanderers-library.wikidot.com/forum/t-10543021/apologies 謝罪]
+[*http://wanderers-library.wikidot.com/forum/t-10889301/my-article-is-not-in-the-most-recently-created 最近作成された記事に私の記事が見当たらない]
+[*http://wanderers-library.wikidot.com/forum/t-11970267/what-procedures-should-a-translated-article-go-through 他支部からの翻訳記事はどのような手順を経ればよいでしょうか]
+[*http://wanderers-library.wikidot.com/forum/t-12562967/plant-kingdom-songs Plant Kingdomの曲について]
+[*http://wanderers-library.wikidot.com/forum/t-12848908/sandbox-and-page-limit サンドボックスやページの上限について]
+[*http://wanderers-library.wikidot.com/forum/t-13101777/how-do-i-post どうやって投稿するのか? ]
+[*http://wanderers-library.wikidot.com/forum/t-13179126/so-is-there-a-problem えっと...問題発生です。]
+[*http://wanderers-library.wikidot.com/forum/t-13180126/pre-reading 事前チェック]
+> 本投稿前に記事を読んでもらう場所はどこか
+[*http://wanderers-library.wikidot.com/forum/t-13251296/author-page 著者ページ? ]
+[*http://wanderers-library.wikidot.com/forum/t-13353902/the-legend-of-chillville-discussion Legend of Chillville (議論しましょう)]
+[*http://wanderers-library.wikidot.com/forum/t-13991193/wanderer-s-library-2021-community-survey 放浪者の図書館2021コミュニティ調査]
+[*http://wanderers-library.wikidot.com/forum/t-13993796/wanderers-depths-theme Wanderer's Depth Theme]
+> 使っても大丈夫? 
+[*http://wanderers-library.wikidot.com/forum/t-13995491/overdue-patrons 返却期限切れパトロン]
+[*http://wanderers-library.wikidot.com/forum/t-14096808/wl-audio-readings-recommendations WL朗読/おすすめ]
+[*http://wanderers-library.wikidot.com/forum/t-14110174/ghost-stories-and-the-sense-of-fear 幽霊の物語とセンス・オブ・フィアー]
+[*http://wanderers-library.wikidot.com/forum/t-14126364/hello こんにちは]
+[*http://wanderers-library.wikidot.com/forum/t-14214350/comprehensive-reviewing-guide-in-the-works 総合的な批評ガイド (進行中)]
+[*http://wanderers-library.wikidot.com/forum/t-14236968/nanowrimo-2021 NaNoWriMo 2021]
+[*http://wanderers-library.wikidot.com/forum/t-14577068/site-themes-cosmetic サイトテーマ(体裁)]
+[*http://wanderers-library.wikidot.com/forum/t-14642430/state-of-the-site-2022 サイト公式声明2022]
+[*http://wanderers-library.wikidot.com/forum/t-14993495/hello-to-everyone 皆さんこんにちは!]
+[*http://wanderers-library.wikidot.com/forum/t-15025356/groups-of-intrigue-expansion 留意団体の拡張]
+[*http://wanderers-library.wikidot.com/forum/t-15039009/hello こんにちは]
+++ [*http://wanderers-library.wikidot.com/forum/c-110323/library-universe 図書館世界観]
+[*http://wanderers-library.wikidot.com/forum/t-244110/a-travelling-companion-for-norton A Travelling companion for Norton? ]
+[*http://wanderers-library.wikidot.com/forum/t-294577/fleshing-out-the-library 図書館の設定を肉付けしよう]
+[*http://wanderers-library.wikidot.com/forum/t-521058/universe-faq 世界観のFAQ]
+[*http://wanderers-library.wikidot.com/forum/t-619789/library-based-on-doctor-who 図書館はドクター・フーのもの]
+[*http://wanderers-library.wikidot.com/forum/t-710060/a-few-questions-about-librarians-and-the-library 司書と図書館についていくつか質問]
+◆[*http://wanderers-library.wikidot.com/forum/t-688278/strange-questions-about-e-libraries-and-how-they-relate 図書館と電子書籍に関する変わった疑問]
+> 彼らは電子書籍の存在を容認しているか、放浪者の図書館Wikiの存在に気付いているか、図書館は本を収集するために求人を行うか
+[*http://wanderers-library.wikidot.com/forum/t-3624161/volunteer-librarians 有志図書館員]
+[*http://wanderers-library.wikidot.com/forum/t-4425346/does-the-library-connect-to-parallel-universes 図書館はパラレルワールドと接続されているか? ]
+◆[*http://wanderers-library.wikidot.com/forum/t-13170369/how-does-the-library-respond-to-various-threats 図書館は多様な脅威に対しどのように対応するか]
+> 敵対的な侵略者に対する基本的なプロトコルはSCPWikiである程度確立されていますが、火事や書棚の落下などに対してはどうでしょうか? 
+[*http://wanderers-library.wikidot.com/forum/t-13392335/individualized-punishments-for-patrons パトロンに個別の罰則? ]> パトロンが司書化を満喫していたら? 
+◆[*http://wanderers-library.wikidot.com/forum/t-13874658/less-common-gois-and-the-library マイナーGoIと図書館]
+> 彼らと図書館の関係を考えてみよう - 財団やGOCは留意団体のページにまとめられている一方、関係性があまり取り上げられないよりマイナーな要注意団体が存在する。そんなGoIに関するアイデアを共有するスレッド
+◆[*http://wanderers-library.wikidot.com/forum/t-13992927/pages ページ]
+> 図書館の代表的な司書の形態の一つであるページについての考察スレッド
+[*http://wanderers-library.wikidot.com/forum/t-14010092/discussion-thread-1:appearances ディスカッションスレッド#2: 見た目]
+> 図書館の外観や内装について
+[*http://wanderers-library.wikidot.com/forum/t-14015786/discussion-thread-2:content ディスカッションスレッド#2: コンテンツ]
+> 図書館は何をもって物語とするか
+[*http://wanderers-library.wikidot.com/forum/t-14084502/how-did-your-author-avatar-come-to-life あなたの著者アバターはどのように誕生しましたか? ]
+[*http://wanderers-library.wikidot.com/forum/t-14953468/any-books-on-magic-or-simmilar 魔法やそれに近しいものについて書かれた本]
+> ...を探しています
+◆[*http://wanderers-library.wikidot.com/forum/t-14995402/biweekly-discussion-threads-1 Biweekly Discussion Threads #1]
+> 自分の作品に使うならどのようなテーマが好きですか? また、あなたの書けないテーマは何ですか? 
+◆[*http://wanderers-library.wikidot.com/forum/t-15035491/biweekly-discussion-thread-2 Biweekly Discussion Threads #2]
+> 図書館はかつて書かれた物語、これから書かれる物語、そして多くのこれから書かれることのない全ての物語を収蔵していますが、物語とは一体何なのでしょうか? 紙の本や革製のグリモワールだけ? web小説(ここにありますね)やwebコミックのようなデジタルコンテンツも含まれるでしょうか? もっと抽象的な、例えばシャンプーボトルの背面や袋ラーメンの説明書きはどうでしょう。物語はあらゆる場所に存在するのです -- 図書館が書棚を割く価値ありと判断するものとは一体? 
+◆[*http://wanderers-library.wikidot.com/forum/t-15075022/biweekly-discussion-thread-3 Biweekly Discussion Threads #3]
+> 執筆モードに入るきっかけは何でしょう? 感情の発露や機械的な規律によって充電されるのでしょうか。事前に読書をしたり、同じ曲をループして聴いたりすることはありますか? 題材によって習慣が変わったりもするのでしょうか? 
+[*http://wanderers-library.wikidot.com/forum/t-15095958/biweekly-discussion-thread-4 Biweekly Discussion Threads #4]
+> 図書館の見た目について
++ 告知と提案
+++ [*http://wanderers-library.wikidot.com/forum/c-110383/proposals 提案]
+[*http://wanderers-library.wikidot.com/forum/t-579133/adding-author-pages-to-sidebar サイドバーに著者ページを追加]
+[*http://wanderers-library.wikidot.com/forum/t-630922/a-proposal-that-is-in-no-way-related-to-the-contest コンテストとは全く関係のない提案!]
+[*http://wanderers-library.wikidot.com/forum/t-724783/proposal-for-library-direction-for-2014 図書館の方向性についての提案]
+[*http://wanderers-library.wikidot.com/forum/t-728946/ongoing-contest-idea 継続的なコンテストの案]
+[*http://wanderers-library.wikidot.com/forum/t-1174181/reusing-old-projects-in-new-locations Reusing old Projects in new Locations]
+[*http://wanderers-library.wikidot.com/forum/t-1176626/random-tales-stories ランダムTale/Story]
+> ランダムページ追加の提案
+[*http://wanderers-library.wikidot.com/forum/t-2257416/minor-css-change CSSの小規模編集]
+[*http://wanderers-library.wikidot.com/forum/t-4388345/prompt-a-week ウィークリープロンプト]
+> フロントページのプロンプトの更新頻度を上げてはどうだろうか
+[*http://wanderers-library.wikidot.com/forum/t-4529137/a-few-proposals いくつか提案]
+[*http://wanderers-library.wikidot.com/forum/t-5134139/renaming-shelves 書棚の名称変更]
+[*http://wanderers-library.wikidot.com/forum/t-5659926/french-translation-of-the-wanderer-s-library 放浪者の図書館フランス語版]
+[*http://wanderers-library.wikidot.com/forum/t-10296532/sandbox-link-at-the-side-menu サイドメニューにサンドボックスへのリンクを]
+[*http://wanderers-library.wikidot.com/forum/t-10346441/dates-for-recents 最近の~に日付を追加]
+[*http://wanderers-library.wikidot.com/forum/t-10346404/critique-team 批評チーム]
+[*http://wanderers-library.wikidot.com/forum/t-10359478/page-deletion ページ削除]
+> 品質維持のため削除システムを設けるべきではないか
+[*http://wanderers-library.wikidot.com/forum/t-12768520/draft-forum 下書きフォーラム]
+> 混乱を避けるためアイデアフォーラムと批評フォーラムを分けてほしい
+[*http://wanderers-library.wikidot.com/forum/t-13281550/proposal-for-finding-works-more-easily 作品をより見つけやすくするための提案]
+[*http://wanderers-library.wikidot.com/forum/t-13354292/a-forum-suggestion フォーラムについて提案]
+> 好きなものを語る場が欲しい
+[*http://wanderers-library.wikidot.com/forum/t-14560328/better-mobile モバイルでもっと使いやすく]
+++ [*http://wanderers-library.wikidot.com/forum/c-110384/policy-and-staff-announcements ポリシー・スタッフアナウンス]
+[*http://wanderers-library.wikidot.com/forum/t-450235/regarding-the-addition-of-new-books-to-the-library Libraryへの新規図書追加について]
+[*http://wanderers-library.wikidot.com/forum/t-542611/license ライセンス]
+> NCライセンスを適用
+[*http://wanderers-library.wikidot.com/forum/t-588717/articles-up-for-review 批評対象記事]
+[*http://wanderers-library.wikidot.com/forum/t-588720/census-thread 人口調査スレッド]
+> アクティブユーザー数の調査
+[*http://wanderers-library.wikidot.com/forum/t-595977/art-on-the-site このサイトでのアート作品の扱い]
+[*http://wanderers-library.wikidot.com/forum/t-762506/new-lowest-highest-rated-features "最も評価の低い/高い記事"新設!]
+[*http://wanderers-library.wikidot.com/forum/t-1760177/correcting-minor-errors 細かなミスの修正]
+[*http://wanderers-library.wikidot.com/forum/t-12024975/regarding-translated-articles 翻訳された記事について]
+> 他言語からENに翻訳された記事はどこにあるか
+[*http://wanderers-library.wikidot.com/forum/t-13354424/the-policy-for-previous-actions 過去の行為に関する方針]
+> 処分歴が将来に与える影響について
+◆[*http://wanderers-library.wikidot.com/forum/t-14425532/comprehensive-navigational-policy-for-user-review 全体的なナビゲーション方針に関する一般意見募集]
+> ナビゲーション改革議論
+[*http://wanderers-library.wikidot.com/forum/t-14429908/temporary-posting-freeze-announcement 一時的な投稿停止の告知]
+[*http://wanderers-library.wikidot.com/forum/t-14458967/new-navigation-and-contest-for-2022 新ナビゲーションコンテスト2022!]
+[*http://wanderers-library.wikidot.com/forum/t-14470035/wl-2022-community-survey WL2022コミュニティ調査]
+[*http://wanderers-library.wikidot.com/forum/t-14996263/question 質問]
+> 歴史ものは認められますか?
+[[/tab]]
+
+[[tab About]]
++++ これらは何? 
+[*http://pseudo-scp-jp.wikidot.com/log-of-foundation-universe-discussion Forum Log/SCP-EN/Foundation Universe](2012/07/29)
+SCP-ENの[*https://scp-wiki.wikidot.com/forum/c-88827 Foundation Universe(財団世界観)]スレッドの総覧です。タイトルの和訳に内容の簡単な説明を付し、スレッド作成順に並べています。また、特に興味深いスレッドにマーカー(◆)をつけています。ENコミュニティの歴史探究や世界観考察の入り口となることを目指して鋭意制作中です。
+----
+[*http://pseudo-scp-jp.wikidot.com/log-of-wl-discussion Forum Log/WL-EN](2022/08/24)
+放浪者の図書館Wiki版で、ほとんど完成しています。
+[[/tab]]
+[[/tabview]]
+
+@@ @@
+
+[[tabview]]
+[[tab 私について]]
+**アカウント:** [[user guestC]]
+@@ @@
+**サイト参加:** 2021年7月3日
+@@ @@
+**活動内容:** EN=>JA翻訳
+@@ @@
+**連絡手段:** WikidotのPM(最も確実) | [*https://twitter.com/guestC_ @guestC_](Twitter) | guestC#2175(Discord)
+[[/tab]]
+
+[[tab 最近更新した翻訳記事]]
+**2022年下半期**
+http://scp-jp.wikidot.com/scp-009
+http://scp-jp.wikidot.com/scp-037
+http://scp-jp.wikidot.com/scp-156
+http://scp-jp.wikidot.com/scp-201
+http://scp-jp.wikidot.com/scp-202
+http://scp-jp.wikidot.com/scp-288
+http://scp-jp.wikidot.com/scp-336
+http://scp-jp.wikidot.com/scp-458
+[[collapsible hideLocation="both" show="+ 2022年上半期" hide="- 閉じる"]]
+http://scp-jp.wikidot.com/scp-127
+http://scp-jp.wikidot.com/scp-129
+http://scp-jp.wikidot.com/scp-168
+http://scp-jp.wikidot.com/scp-174
+http://scp-jp.wikidot.com/scp-192
+http://scp-jp.wikidot.com/scp-199
+http://scp-jp.wikidot.com/scp-212-upgrade-log
+http://scp-jp.wikidot.com/scp-550
+http://scp-jp.wikidot.com/scp-775
+http://scp-jp.wikidot.com/scp-1199
+http://scp-jp.wikidot.com/experiment-log-1402
+http://scp-jp.wikidot.com/scp-1475
+http://scp-jp.wikidot.com/scp-1835
+http://scp-jp.wikidot.com/scp-1884
+http://scp-jp.wikidot.com/scp-2336
+http://scp-jp.wikidot.com/scp-2448
+http://scp-jp.wikidot.com/scp-3725
+http://scp-jp.wikidot.com/scp-3879
+http://scp-jp.wikidot.com/scp-4481
+http://scp-jp.wikidot.com/scp-1994-j
+http://scp-jp.wikidot.com/scp-why-are-you-reading-a-url-go-be-productive-j
+http://scp-jp.wikidot.com/boxes
+http://scp-jp.wikidot.com/ode-to-the-unknown-author
+[[/collapsible]]
+[[/tab]]
+
+[[tab 脚注]]
+[[footnoteblock title="脚注"]]
+[[/tab]]
+[[/tabview]]
+
+[[/div]]
+
+[[>]]
+[[collapsible show="ページの最初へ戻る" hide="- SCP-JP外の翻訳"]]
+[[/>]]
+[[<]]
+++++ SCP-EN特殊
+* [*http://pseudo-scp-jp.wikidot.com/anonymous-articles 匿名記事の投稿ガイド]
+* [*http://pseudo-scp-jp.wikidot.com/the-serpent-and-library 蛇と図書館]
+
+++++ [*http://wanderers-library-jp.wikidot.com 放浪者の図書館]
+**エントリー**
+* [*http://wanderers-library-jp.wikidot.com/forgotten 忘れられし者]
+* [*http://wanderers-library-jp.wikidot.com/aframos-introduction 巡礼者アフラモス・ロングジャーニーの日誌: 序言]
+* [*http://wanderers-library-jp.wikidot.com/cells 細胞]
+* [*http://wanderers-library-jp.wikidot.com/deeper 深く深く…]
+* [*http://wanderers-library-jp.wikidot.com/a-brief-history-of-stairs 階段小史 ]
+* [*http://wanderers-library-jp.wikidot.com/a-restless-wanderer-on-the-earth 安穏ならざる地上の放浪者]
+**ハブページ**
+* [*http://wanderers-library-jp.wikidot.com/the-journal-of-aframos-longjourney アフラモス・ロングジャーニーの日誌]
+* [*http://wanderers-library-jp.wikidot.com/the-silver-d-fabulist-hub-page 白頭の寓話作家 ハブ]
+* [*http://wanderers-library-jp.wikidot.com/1000contesthub 第二翼棟コンテスト!]
+**著者ページ**
+* [*http://wanderers-library-jp.wikidot.com/the-strange-fiction-of-j-ryan-beattie  J・ライアン・ビーティ―の奇妙な小説]
+* [*http://wanderers-library-jp.wikidot.com/wanderer-jacques-nyka-s-overdue-fees 放浪者ジン・ナイカの延滞料金]
+* [*http://wanderers-library-jp.wikidot.com/rumetzen どこでも無い何の意味もない部屋]
+* [*http://wanderers-library-jp.wikidot.com/issa-author イッサ・アンタルのデスク]
+**その他のページ**
+* [*http://wanderers-library-jp.wikidot.com/style-guide スタイルガイド]
+* [*http://wanderers-library-jp.wikidot.com/members-pages メンバーページ]
+
+++++ [*http://scpclassic.wikidot.com/ SCP Foundation Classic]
+**SCP記事**
+* [*http://pseudo-scp-jp.wikidot.com/scp-009-clas SCP-009-CLAS]
+* [*http://pseudo-scp-jp.wikidot.com/scp-015-clas SCP-015-CLAS]
+* [*http://pseudo-scp-jp.wikidot.com/scp-363-clas SCP-363-CLAS]
+**その他ページ**
+* [*http://pseudo-scp-jp.wikidot.com/scpclassic SCP Foundation Classic]
+* [*http://pseudo-scp-jp.wikidot.com/mainlisting-editthis メインリスト: EditThis]
+
+++++ [*https://www.containmentfiction.net/ Containment Fiction WIki]
+* [*http://pseudo-scp-jp.wikidot.com/about-containment-fiction コンテインメント・フィクション]
+* [*http://pseudo-scp-jp.wikidot.com/about-tale Tale]
+* [*http://pseudo-scp-jp.wikidot.com/about-clinical-tone クリニカルトーン]
+
+++++ [*http://rpc-jp.wikidot.com/ RPC機構]
+* [*http://rpc-jp.wikidot.com/amnestics 記憶処理剤分類ガイド]
+
+++++ [*https://www.wikidot.com/doc:start Wikidot Documentation]
+* [*http://pseudo-scp-jp.wikidot.com/karma カルマ]
+* [*http://pseudo-scp-jp.wikidot.com/watching watching機能のFAQ]
+* [*http://pseudo-scp-jp.wikidot.com/comments-module Comments Module]
+* [*http://pseudo-scp-jp.wikidot.com/miniactivethreads-module MiniActiveThreads Module]
+* [*http://pseudo-scp-jp.wikidot.com/minirecentposts-module MiniRecentPosts Module]
+* [*http://pseudo-scp-jp.wikidot.com/minirecentthreads-module MiniRecentThreads Module]
+* [*http://pseudo-scp-jp.wikidot.com/recentposts-module RecentPosts Module]
+
+++++ その他
+* [*http://pseudo-scp-jp.wikidot.com/oc-guide オブジェクトクラス完全ガイド]
+[[/<]]
+[[/collapsible]]

@@ -1,0 +1,135 @@
+[[include :scp-jp:theme:zattou]]
+[[include :scp-wiki:component:toggle-sidebar]]
+[[include :scp-wiki:component:betterfootnotes]]
+[[include :scp-wiki:component:acs-animation]]
+
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+/* ==== Body and Extra ==== */
+
+body{color:#fff;font-family:'Inter',verdana,arial,helvetica,sans-serif;background:transparent;}div#extra-div-1 {background: repeating-linear-gradient(45deg, #1d1826 , #1d1826 4px, #202225 5px, #202225 9px, #1d1826 10px);}div#extra-div-1:before{content:'SCP Foundation';position:absolute;width:100%;height:100%;font-size:3vmax;display:flex;justify-content:center;align-items:center;color:#905fa9;font-family: 'PT Mono', monospace;text-decoration:underline;filter:drop-shadow(0 0 3px black); text-underline-offset: 10%; font-weight: bold;}div#extra-div-2{background-color: transparent;height:30px}.blockquote,div.blockquote{border:solid 1px #eee;background:rgba(255,255,255,.5)}li,p{text-underline-offset:20%;line-height:1.6}#container{overflow:hidden}#main-content{max-width:800px}#main-content a{color:#905fa9;transition:.05s}#main-content a:hover{text-decoration:none;background:#905fa9;color:#fff}div.page-rate-widget-box .rate-points{text-transform:capitalize;font-family:'Inter',sans-serif!important}.danger-diamond>a{color:transparent!important;background:transparent!important}#main-content li{list-style-type:"❖ "} hr { background-color: transparent; border-top: double 3px #666; margin: 2rem 1rem; } #page-title {display: none;} div#extra-div-3 {position: fixed;width: 100%;height: 100vh;top: 0;background: repeating-linear-gradient(45deg, #151618 , #151618 4px, #202225 5px, #202225 9px, #151618 10px);z-index: -1; }
+
+a.fa.fa-info{color:#fff!important}.creditRate .rateBox{border:none!important}.rate-box-with-credit-button .creditButton{border-bottom:solid 1px!important}.creditRate{margin-top:3rem}
+
+/* ==== Top Bar ==== */
+
+#top-bar{display:flex;justify-content:center;right:0;max-width:unset;width:100%}#top-bar ul li a{font-family:'Inter',sans-serif;border:none!important;font-weight:700;letter-spacing:.6px;text-transform:uppercase;text-decoration:none;height:23.8px;display:flex;align-items:center;line-height:unset!important;max-height:unset!important;padding:3px 30px!important}#top-bar a{color:#FEFAFF;background:none}#top-bar ul li.sfhover a,#top-bar ul li:hover a{background:#242424;color:#FCFBF9}#top-bar ul li.sfhover a:hover,#top-bar ul li:hover a:hover{background:#fff;color:#000}#top-bar ul li ul,#top-bar ul li ul li ul{border-color:rgba(0,0,0,.4)}#top-bar ul li.sfhover ul li a,#top-bar ul li:hover ul li a{padding:5px}#top-bar ul li.sfhover ul li ul a,#top-bar ul li:hover ul li ul a{border-top:none}#top-bar ul li ul{border:none;box-shadow:none!important}@media (max-width:767px){.scp-image-block.block-right{margin:2rem auto;float:unset}#top-bar{display:flex;justify-content:center;left:0}#top-bar ul{width:100%;display:flex}#top-bar ul li ul{flex-direction:column}#top-bar ul li{position:unset!important;flex-grow:1}#top-bar ul li ul{flex-direction:column;margin:0 calc(50% - 50vw)!important;width:100vw;right:0;left:0;align-items:center;margin:0}#top-bar ul li a{justify-content:center}#top-bar li ul li{width:100%}#top-bar ul li a{height:39px;padding:0 8px!important}#top-bar ul li ul li a{width:100%!important;height:25px!important}.mobile-top-bar{width:100%;left:0;right:0;top:-22px;max-width:unset!important}}.fncon{font-size:90%;border-color:#f24;background:#000;color:#fff}#breadcrumbs { margin-top: 2rem; }#top-bar .open-menu a{border-radius:0!important;box-shadow:none;text-shadow:none;background:#000!important;border:solid 2px #606060!important;color:#fff!important;transition:all .1s ease-in}#top-bar .open-menu a:hover{color:#000!important;background:#fff!important}.rate-box-with-credit-button .creditButton{border-radius:0!important;box-shadow:none!important;margin-left:0!important}.modalbox .modalbox-title{border-radius:0!important;color:#fff}.modalbox{border-radius:0!important;box-shadow:none!important} .modalbox { color: #000 !important;} .credit hr {display: none;}
+
+/* ==== Image Block ==== */
+
+.scp-image-block .scp-image-caption > p {font-size: 85%;}a{color:#824;font-weight: bold;}@media (max-width:767px){.scp-image-block.block-right {margin: 2rem auto;float: unset;}}page-content .scp-image-block{border:none}#page-content .scp-image-block .scp-image-caption{margin-top:6px;border:none;background:#000;color:#fff}.scp-image-block img{border:solid 2px #000;box-sizing:border-box}.tableb table.wiki-content-table{border-spacing:3px!important;border-collapse:separate} #page-content .scp-image-block { border: none; }
+
+/* ==== Side Bar ==== */
+
+#side-bar,#side-bar:target .close-menu{height:100vh}#side-bar div.menu-item>img{display:none}#side-bar div.menu-item>span{white-space:nowrap}#side-bar .collapsible-block-folded{background:none}#side-bar{background:#000;margin-left:0;-moz-transition:left .39s;transition:left .39s}#side-bar .close-menu{-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);background:rgba(34,37,49,.6);display:block;height:100%;left:0;opacity:0;pointer-events:none;position:fixed;-moz-transition:opacity .39s;transition:opacity .39s;top:0;width:100%;z-index:-1}#side-bar:target{border:none}#side-bar:target .close-menu{opacity:1;pointer-events:auto}@media (max-width:767px){#side-bar:target .close-menu{margin-left:19em!important}}#side-bar .side-block{background:transparent!important}#side-bar .side-block a{padding:2px;-webkit-text-fill-color:unset!important;-webkit-background-clip:unset!important;background:none!important;color:#fff!important;font-weight:500!important}#side-bar .side-block a:hover{background:#97e!important;-webkit-text-fill-color:#333!important;text-decoration:none}#side-bar div.menu-item .sub-text{color:#ddd}#side-bar .menu-item li {list-style-image: none !important;}
+
+/* ==== Page Tag ==== */
+
+#main-content .page-tags{border-top:1px solid hsl(0,0%,73%)}#main-content .page-tags a{display:inline-block;height:.8125rem;margin:0 0 .5rem .75rem;padding:.1875rem .3125rem .1875rem 0;color:hsl(0,0%,95%);background-color:hsl(0,0%,27%);border-bottom-right-radius:.25rem;border-top-right-radius:.25rem;line-height:13px;line-height:.8125rem;font-size:11px;font-size:.6875rem;font-weight:400}#main-content .page-tags a:before{width:0;height:0;top:-.1875rem;left:-.625rem;padding:0 .0625rem .1875rem;border-color:transparent hsl(0,0%,27%) transparent transparent;border-style:solid;border-width:.5rem .5rem .5rem 0}#main-content .page-tags a:before,#main-content .page-tags a:after{content:"";position:relative;float:left}#main-content .page-tags a:after{width:.25rem;height:.25rem;top:.2813rem;left:-.5rem;background-color:hsl(0,0%,100%);border-radius:.125rem}#main-content .page-tags span{max-width:100%;border-top:.5rem solid transparent}
+
+/* ==== Pseudo PageTitle ==== */
+
+.pseudo-pagetitle{margin-top:4rem;border-bottom:solid 1px}.pseudo-pagetitle p{margin:0;font-size:220%;font-family:'PT Mono',monospace}.pseudo-pagetitle p:before{content:">";color:#905fa9;text-shadow:0 0 4px #905fa9;animation:blink 0.85s infinite;padding:0 10px;font-weight:900}@keyframes blink{0%{text-shadow:0 0 4px #905fa940}50%{text-shadow:0 0 4px #905fa9}100%{text-shadow:0 0 4px #905fa940}}
+
+/* ==== Pseudo Container ==== */
+
+.container{display:flex;padding:15px;margin-top:3rem;background:rgb(90 90 90 / 25%);backdrop-filter:blur(3px);border-radius:15px}.container hr{margin:10px 40px}
+
+/* ==== Pseudo LeftColumm ==== */
+
+.pseudo-leftcolumn{width:calc(20% - 1rem);margin-right:1rem;padding:.5rem;float:left;border-radius:1rem 0 0 1rem;background:linear-gradient(180deg,#383b45 0%,#21242b 90%);z-index:1000}.scroll-background{background:url(http://scp-jp-storage.wdfiles.com/local--files/file%3A6759963-286-k4ql/SCP%20Animated%20Logo.svg) center no-repeat,#333;background-size:85%;z-index:2;border:4pt solid #383838;outline:2px solid rgb(0 0 0);box-sizing:border-box;min-width:11.5rem;min-height:11.5rem;border-radius:100%;margin-left:-1.5rem;margin-top:1rem;position:absolute}
+
+/* ==== Pseudo RightColumm ==== */
+
+.pseudo-rightcolumn{float:right;width:calc(80% - 5rem);border-radius:0 1rem 1rem 0;background:linear-gradient(180deg,#383b45 0%,#21242b 90%);padding:1rem 2rem}.pseudo-rightcolumn p{font-size:90%;font-style:italic;color:#cbcbcb}.yui-content{background:#212126!important;border:solid 2px #333!important;font-size:110%}.yui-navset .yui-nav{background:#212126!important;border:solid 2px #333!important;border-bottom:none!important}.yui-navset .yui-nav li.selected a,.yui-navset .yui-nav li.selected a:hover,.yui-navset .yui-nav li.selected a:focus{background:#3d3d44}.yui-navset .yui-nav li.selected a em{color:#fff}.yui-navset .yui-nav li a,.yui-navset .yui-nav li a:hover{background:#333!important}.yui-navset .yui-nav .selected a,.yui-navset .yui-nav .selected a:focus,.yui-navset .yui-nav .selected a:hover{background:#0a0a0a!important}.modulerow p{font-style:initial}
+
+/* ==== Mobile ==== */
+
+@media (max-width:1000px){.scroll-background{left:calc(50% - 4.5rem);right:calc(50% + 4.5rem);outline:none}.container{display:block}.pseudo-leftcolumn{background:linear-gradient(180deg,#383b45 0%,#21242b 75%);float:none;width:auto;margin:auto;border-radius:1rem 1rem 0 0}.pseudo-leftcolumn img{max-width:150px}.pseudo-rightcolumn{float:none;width:auto;margin:auto;border-radius:0 0 1rem 1rem;padding:15px;background:#21242b}#main-content{margin:3px}.yui-content{padding-bottom:15px!important}.pseudo-leftcolumn p{font-size:90%;font-style:italic;color:#cbcbcb}.pseudo-pagetitle p{font-size:150%;margin-left:10px}}
+
+[[/module]]
+
+
+[[div class="pseudo-pagetitle"]]
+Abnormalities Archive: 5214
+[[/div]]
+
+
+[[include :scp-jp:credit:start |mode=no-rate]]
+[[include :scp-jp:credit:cc4]]
+[[include :scp-jp:credit:end]]
+
+
+[[div class="container"]]
+[[div class="pseudo-leftcolumn"]]
+[[=]]
+[[div class="scroll-background"]]
+[[/div]]
+[[div style="padding-top:13.75rem;"]]
+[[/div]]
++++ 超常現象記録:
+-----
+
+本アーカイブは、類似超常現象記録#5214に関するドキュメントを管理している。
+
+本アーカイブに問題が発生していたり、その包括的リストに欠落がみられる場合、このアーカイブの担当者に連絡せよ。
+
+[[/=]]
+[[/div]]
+
+
+[[div class="pseudo-rightcolumn"]]
+
+++ 類似超常現象記録#5214:
+
+大規模かつ予測不能なK-クラスシナリオが、各反復宇宙に齎された。SCP財団の網羅的な調査文書によると、これらシナリオには物語論的な傾向があると推測されており、このため各オブジェクトは類似超常現象記録#5214として包括的に管理されるようになった。以下は、鎮圧済みまたは現在も進行中のシナリオに関する記録であり、その情報は随時更新される。
+
+SCP財団および完全な内部アライアンスチームは、現在もこの不可解なパターンについて調査を続けている。空想科学セクションの調査によると、この激甚性の物語終末論的災害は超過現実実体によって齎されている可能性が高い。これが事実であるならば、現行反復のSCP財団はこれら現実実体に対して如何なる抵抗力も有していない。調査は継続される。
+@@ @@
+
+[[tabview]]
+[[tab ⤷ A to Z]]
+
+[[module ListPages order="title" tags="+jp -著者ページ" created_by="[Enderman_desu]" category="*" separate="false" perPage="12"]]
+[[div class="modulerow"]]
+▸ %%title_linked%%
+@@   @@⤷  //%%created_at%%, ✎ %%size%%//[[span style="float:right;"]]##0f0| %%rating%%## (+[[#expr (%%rating%%+((%%rating_votes%%-%%rating%%)/2))]], -[[#expr ((%%rating_votes%%-%%rating%%)/2)]]) [[/span]]
+[[/div]]
+[[/module]]
+
+[[/tab]]
+[[tab ⤷ Top Rated]]
+
+[[module ListPages order="rating desc" tags="+jp -著者ページ" created_by="[Enderman_desu]" category="*" separate="false" perPage="12"]]
+[[div class="modulerow"]]
+▸ %%title_linked%%
+@@   @@⤷  //%%created_at%%, ✎ %%size%%//[[span style="float:right;"]]##0f0| %%rating%%## (+[[#expr (%%rating%%+((%%rating_votes%%-%%rating%%)/2))]], -[[#expr ((%%rating_votes%%-%%rating%%)/2)]]) [[/span]]
+[[/div]]
+[[/module]]
+
+[[/tab]]
+[[tab ⤷ Newest]]
+
+[[module ListPages order="created_at desc" tags="+jp -著者ページ" created_by="[Enderman_desu]" category="*" separate="false" perPage="12"]]
+[[div class="modulerow"]]
+▸ %%title_linked%%
+@@   @@⤷  //%%created_at%%, ✎ %%size%%//[[span style="float:right;"]]##0f0| %%rating%%## (+[[#expr (%%rating%%+((%%rating_votes%%-%%rating%%)/2))]], -[[#expr ((%%rating_votes%%-%%rating%%)/2)]]) [[/span]]
+[[/div]]
+[[/module]]
+
+[[/tab]]
+
+[[/tabview]]
+
+[[/div]]
+[[/div]]
+
+
+[[div class="container" style="font-size: 90%; justify-content: center; margin-top: 10rem;"]]
+
+このページの一部のCSSテーマは、[[user Vizlox]]氏によって作成された[*http://liminal-archives.wikidot.com/component:theme Liminal Database Theme]をベースとして改造されています。
+
+[[/div]]

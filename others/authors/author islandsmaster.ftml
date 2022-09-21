@@ -1,0 +1,927 @@
+[[module CSS]]
+
+.preview{
+ color:dimgrey;
+ width:100%;
+ display: inline-block;
+ padding-left:1%;
+ transition: box-shadow 1s ease-out;
+}
+
+.preview:hover{
+ box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.19);
+ transition: box-shadow 0.3s ease-out;
+}
+
+.preview.yes:hover, .preview.true:hover{
+  background: url('http://scpsandboxcn.wikidot.com/local--files/asriel3/logo.png') 75% 50% fixed no-repeat;
+}
+
+.collab-header{
+ display:initial;
+}
+
+@media screen and (max-width:992px) {
+    .preview .span{
+     display: none;
+    }
+    .infobox {
+     position: relative;
+     margin: 1em auto;
+     right: 0;
+     bottom: 0;
+    }
+}
+
+#action-area { position: relative; z-index: 20; }
+
+[[/module]]
+
+[[=image 島.jpg link="http://scp-jp-sandbox3.wikidot.com/portal:5060201" title="開拓、それこそは人類の本質なり" alt="これは島だが、数年後には灯台かもしれない"]]
+
+[[div style="text-align: center;"]]
+-----
+++ SCPs
+-----
+[[/div]]
+
+[[module Listpages created_by="=" order="created_at desc" tag="+scp +jp -ハブ -共著" category="-fragment -component" perPage="20"]]
+[[div class="preview yes"]]
+[[size 1.1em]]**%%title_linked%%**[[/size]]
+[[size 1.2em]] +**{{%%rating%%}}**[[/size]]@@       @@^^...^^ **{{%%comments%%}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%y/%m/%d %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%y/%m/%d %H:%M%%}}**
+[[/div]]
+[[/module]]
+
+[[div style="text-align: center;"]]
+-----
+++ Tales
+-----
+[[/div]]
+
+[[module Listpages created_by="=" order="created_at desc" tag="+tale +jp -ハブ" category="-fragment -component" perPage="50"]]
+[[div class="preview yes"]]
+[[size 1.1em]]**%%title_linked%%**[[/size]]
+[[size 1.2em]] +**{{%%rating%%}}**[[/size]]@@       @@^^...^^ **{{%%comments%%}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%y/%m/%d %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%y/%m/%d %H:%M%%}}**
+[[/div]]
+[[/module]]
+
+[[div style="text-align: center;"]]
+-----
+++ GoI Formats
+-----
+[[/div]]
+
+[[module Listpages created_by="=" order="created_at desc" category="-fragment -component" tag="+goi-format +jp -ハブ" perPage="20"]]
+[[div class="preview yes"]]
+[[size 1.1em]]**%%title_linked%%**[[/size]]
+[[size 1.2em]] +**{{%%rating%%}}**[[/size]]@@       @@^^...^^ **{{%%comments%%}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%y/%m/%d %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%y/%m/%d %H:%M%%}}**
+[[/div]]
+[[/module]]
+
+[[div style="text-align: center;"]]
+-----
+++ Others
+-----
+[[/div]]
+
+[[module Listpages created_by="=" order="created_at desc" category="-fragment -component" tag="-scp -goi-format -著者ページ +ハブ +jp" perPage="20"]]
+[[div class="preview yes"]]
+[[size 1.1em]]**%%title_linked%%**[[/size]]
+[[size 1.2em]] +**{{%%rating%%}}**[[/size]]@@   @@^^...^^ **{{%%comments%%}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%y/%m/%d %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%y/%m/%d %H:%M%%}}**
+[[/div]]
+[[/module]]
+
+[[div style="text-align: center;"]]
+-----
+++ Co-Authored Works
+-----
+[[/div]]
+
+
+[[module Listpages fullname="scp-1518-jp" category="*"]]
+[[div class="preview yes"]]
+[[size 1.1em]]**%%title_linked%%**[[/size]]
+[[size 1.2em]] +**{{%%rating%%}}**[[/size]]@@   @@^^...^^ **{{%%comments%%}}**
+//Co-Author:// **{{SOYSOY_Kusagawa}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%y/%m/%d  %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%y/%m/%d  %H:%M%%}}**
+[[/div]]
+[[/module]]
+
+[[module Listpages fullname="scp-2983-jp" category="*"]]
+[[div class="preview yes"]]
+[[size 1.1em]]**%%title_linked%%**[[/size]]
+[[size 1.2em]] +**{{%%rating%%}}**[[/size]]@@   @@^^...^^ **{{%%comments%%}}**
+//Co-Author:// **{{O-92_mallet}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%y/%m/%d  %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%y/%m/%d  %H:%M%%}}**
+[[/div]]
+[[/module]]
+
+[[module Listpages fullname="yakubyo-gami" category="*"]]
+[[div class="preview yes"]]
+[[size 1.1em]]**%%title_linked%%**[[/size]]
+[[size 1.2em]] +**{{%%rating%%}}**[[/size]]@@   @@^^...^^ **{{%%comments%%}}**
+//Co-Author:// **{{Migueludeom}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%y/%m/%d  %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%y/%m/%d  %H:%M%%}}**
+[[/div]]
+[[/module]]
+
+[[div style="text-align: center;"]]
+-----
+++ Rewrites
+-----
+[[/div]]
+
+[[module Listpages fullname="verano-de-2035-espana" category="*"]]
+[[div class="preview yes"]]
+[[size 1.1em]]**%%title_linked%%**[[/size]]
+[[size 1.2em]] +**{{%%rating%%}}**[[/size]]@@   @@^^...^^ **{{%%comments%%}}**
+//First author:// **{{%%created_by%%}}**
+//Latest comment:// **{{%%commented_by%%}}** //at// **{{%%commented_at|%y/%m/%d  %H:%M%%}}**
+//Last edited:// **{{%%updated_by%%}}** //at// **{{%%updated_at|%y/%m/%d  %H:%M%%}}**
+[[/div]]
+[[/module]]
+
+@@ @@
+
+[[div class="CustomTab" style="display: block;"]]
+
+[[tabview]]
+[[tab アイランズ調停官の人事ファイル]]
+
+[[div class="card-1" style="border-top: none;"]]
+
+[[div class="scp-image-block block-right scp-clear-false" style="width:170px; margin: 5px 7px 5px 15px !important; clear: none !important;"]]
+[[image アイランズ.jpg style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+研修中のアイランズ候補生
+[[/div]]
+[[/div]]
+[[module CSS]]
+@media (max-width: 768px) {
+.scp-clear-true.scp-image-block {
+float: none;
+clear: both;
+margin-left: auto;
+margin-right: auto;
+}
+}
+[[/module]]
+
+**名前:** ジョシュア・アイランズ（Joshua Islands）
+
+**セキュリティレベル:** レベル3
+
+**役職:** 外交官 (地域調整担当)
+
+**職務:** 財団内外における外交・調停業務一般
+
+**所在:** サイト-8100/B3F 渉外部門[[[officer-doctor-soldier-spy-hub|渉外政策局総合オフィス]]] またはエリア-81JH/D棟4F [[[secure-facility-dossier-area-81jh|諜報員談話室個人オフィス]]]、日本各地の渉外部門保有施設
+
+**人物:** 米国アラスカ州出身、日本国籍。コーカソイド系白人男性。20██年現在32歳、独身。中肉中背、蒼瞳。色素の薄い癖毛の茶髪がほぼ唯一の外見的特徴です。
+
+**評価:** アイランズ調停官は財団日本支部に所属する外交補佐官です。主に日本国内における財団-非敵対GoI間の交渉、ならびに(主として世界オカルト連合及び日本政府との)係争事案における調停業務を担当しています。
+
+外交業務を行うにあたって経験の少なさが指摘される一方で、温厚で慎重な性格と精神面での安定性、柔軟性、適応力の高さは評価されており、主に首都圏での即応要員として現場業務に当たっています。職務上、即応待機や緊急召集が非常に多いにもかかわらず、各種ストレス指数は常に適正値を維持しており、身体的な不調が記録されたことはありません。この体質により、時間外労働による労災の危険性は低いものと考えられています。渉外部門の慢性的な人手不足に伴い、アイランズ調停官名義の長期休暇申請は却下される必要があります。
+
+職務態度は勤勉で、素行にも問題はみられません。一方で交友関係は非常に特徴的であり、職務上の必要性を考慮してもなお広範な人脈を有しています。複数の異常性職員ならびに秘匿部門スタッフ、多くの(財団と敵対するものを含む)GoI関係者がアイランズ調停官への連絡手段を保持していると考えられています。これらの関係性は有機的な情報伝達による業務効率の向上に寄与する一方で、セキュリティ侵害への潜在的リスクです。
+
+アイランズ調停官のインシデント遭遇率は財団日本支部の職位平均と比して明らかに過大であり、関与する業務内容を考慮してもなお異常です。労働災害審判委員会において認定された14件のインシデント[[footnote]]2件の誘拐未遂、4件の事故、5件の偶発的な交戦を含みます。[[/footnote]]において、これまでの査問がアイランズ調停官の過失を立証したケースはありません。機密情報漏洩が財団に与えうる重篤なリスクを考慮して、内部保安部門はレベルB+++監視態勢[[footnote]]造反の可能性を考慮しない警戒態勢としては最上位に相当します。[[/footnote]]を提供しています。
+
+一般にユダヤ人と認識される家系にありますが、少年期を日本国内で過ごしたため、彼自身は特定の信仰を有しません。現在は帰化申請により日本国籍を取得しています。東アジア一帯への渡航歴があり、現地の習俗および法体系に一定の造詣を有します。彼の伯母は財団本部のシニアスタッフとして勤務していますが、両者の交流は限定的です。
+
+[[/div]]
+[[div class="card-1"]]
+
+**関係者記録:** 監視ログより復元・編集 [内部保安部門要員以外の閲覧を禁ず]
+@@@@
+@@@@
+@@@@
+[[=]]
+[[collapsible show="▼ ある1日の彼の話" hide="- それはそれはひどい1日の話"]]
+
+[[<]]
+**引継ぎ資料:**
+//さあて、お手並み拝見といきましょう。有村組の公的資料はこれで全部、GOC側担当者の素性は一切不明。さて、この状況から導かれる最適な妥結シナリオとそのための小道具は？ 予算はこんな感じですが//。──[[[author:kankan|等岩上級交渉官]]]
+
+//あなたが持ってきた仕事でなければ投げ出しているところですからね、先輩。いざとなったら政治局に投げますが、なんとかやってみましょう。ああ、今日も勤務時間が延びる……//──アイランズ調停官
+
+//上手く処理できたら褒めてあげますよ、がんばれー。//──等岩上級交渉官
+
+**相談とその回答:**
+//月例カウンセリングでストレス係数が全く上昇しないんですが、私、今月の残業時間がそろそろ150時間超えるんです……たまには定時で帰りたいのに先ほども新しい業務が来て……//──アイランズ調停官
+
+//体質としか言いようがないなあ。雇用対策課に問い合わせてみればなんとかなるやもしれんが、今月の担当は吹上だぞ。君、彼を丸め込めるかい？ おい、泣くな。//──[[[author:koikesanshouemon|カウンセラー小池]]]
+
+**注意書き:** 単身者向け職員寮に許容される本棚は2つまでです。レクリエーションルームの本棚に私物の書籍を置いて書庫代わりに利用するのはやめてください。休憩中に業務関連書籍を目にしたくないというクレームが多く寄せられています。即刻撤去をお願いいたします。 ──サイト-8100備品課、[[[author:tf2045|志島]]]
+
+**相談とその回答2:**
+//ここの条文解釈、どうですか？ 上手く突いて調停裁への提訴をちらつかせたいんですが、17条の免訴条項を盾にされると厄介でして。なんとかプレッシャーをかけたいので、対策をお教えいただきたいのですが……//──アイランズ調停官
+
+//方法論は間違っていないが、手持ちのネタだけではまず間違いなく弾かれるな。もう一押し必要だ。少し待っていなさい、確かこの辺りに使えそうな判例があったはずで……//──[[[author:tark-iol|秋客員教授]]]
+
+**冷蔵庫のメモ:** この前の礼はしっかり返してもらう。忘れるなよ、購買に17時。濃厚抹茶ドリームパフェ大盛フルトッピングだ。──[[[author:rainyraven|応神]]]
+
+**ボイスメール:** [録音開始]//ねえこの前サイト-8100のエントランスで凄い美人のGOCエージェントがいたんだけど何か知らない知ってるよねアイランズ君なら当然それが仕事だもん把握してるよねというか会ってたよね仕事でねぜひ教えてほしいくださいこの前の事案の解析結果教えてあげるからぜひよろしくあの子のこと知りたくて私はもう仕事が手につかず廊下に転がってても落ち着かないもんだから今にも階段から転げ落ちああああああ// [録音終了]──[[[author:yanyan1|梁野博士]]]の電話番号
+
+**督促:**
+//なぜ夜勤明けの僕にこんな時間まで仕事を……もう十二分に働きましたよ……ノルマは達成したんですから寝かせてほしい、真剣に……残業は敵だあ……//──[[[author:soysoy-kusagawa|亜月研究員]]]
+
+//私だって残業中ですとも。大体、解析報告書は研究員資格がないと書けないんですよ、ご存じでしょう。担当ユニットで居残ってたのはあなただけなんです。急いでください、間に合わない！//──アイランズ調停官
+
+**呼び出し:**//え、私？ いやあ起きてるけど、こんな遅くに何をさせようっての。任務？ 未発令なのに出動待機？ ははあ、さては切羽詰まってるね？ いいとも、喜んで手助けしてあげよう。恩と喧嘩は高く売るものだから、面白くなるのを期待してるよ。//──[[[author:souyamisaki014|エージェント・亦好]]]
+
+**照会:**//許可を取ったなら、好きに使え。横紙破りは御免だが、上の命令ってことならまあ、"待て"をするのもやぶさかじゃあねえよな。//──[[[author:29mo|D-2930]]]
+
+**発令:** アイランズ外交補佐官に対し、本件における調停任務を発令する。GOCとの交戦は可能な限り回避するべきだ。双方の資産を防衛し、無用な衝突を未然に防げ。ただし、アノマリーの回収も行わねばならない。有村組の活動を掣肘し、地域の正常性を維持せよ。迅速な対応に期待する。──[[[author:hei-kounoike|道策管理官]]]
+
+**相談とその回答3:**
+//お願いします、何とかしてください！ こいつの素性を早く突き止めないと衝突が、私の仕事が！//──アイランズ調停官
+
+//植物は好きだからいいですけどね、いきなり研究室に踏み込むのはどうかと思いますよ、本当に。あとですね、その後ろの怖い顔の人たちをなんとかしてくださいます？//──[[[author:nika_nayuki|神恵研究員]]]
+
+**独り言:** //僕もあんまり人のこと言えた義理じゃないけどさ、流石に手伝ってあげないと彼、生きてこのサイトから出られない気がするよ。せめて肉体労働くらいは代わってあげよう。//──[[[author:dragongirl-hiyoku|エージェント・椛]]]
+
+**机の上の書き置き:** 俺のノルマはもう終わった。悪いが今週の業務はここまでだ。アンタの境遇には同情するが、厄介ごとの引受先になるのは御免蒙る。仕事があるなら俺以外に頼め、Хороших выходных。──[[[author:karkaroff|エージェント・イヴァノフ]]]
+
+**苦情:** //おい、うちに仕事を頼むのはいいがな、飛び入りは困る。なにごとにも順序ってものがあるんだぜ、アノマリーですら法則を守るだろう。書類を出せ書類を、なに？ 押し付ける予定のやつが不在？ それなら自分で書きたまえ。良かったじゃないか、これからはエージェントでも食っていけるようになるぞ。// ──[[[author:yzkrt|刈遠博士]]]
+
+**遭遇と心配:**
+//やあジョシュア、週末予定あります？ 新しい仲間を釣りに行くんだけどよかったら君も……ねえ、大丈夫？ ちゃんと生きてる？ えーと、僕の頭は何に見えますか？//──[[[author:mc-shrimp|隈取博士]]]
+
+//頼みの綱に逃げられた……どうしてこんなことに……私の週末が……//──アイランズ調停官
+
+**相談とその回答3:**
+//確かに私は週末もサイトに居ますけどね、だからって便利屋扱いされるのは困りますよ。政治局をなんだと思ってるんです？ まったく……仕方ないです、後始末くらいは引き受けてあげてもいいですが、貸しですからね。//──[[[author:winston1984|来栖監視官]]]
+
+//め、女神だ……//──アイランズ調停官
+
+//はい？//──来栖監視官
+
+**引継ぎ資料2**
+//……以上で本件はクローズとなりました。GOCの対応は政治局が引き継ぎますので、資料に従って現場の隠蔽と残留物検査の指揮をお願いします。異常を発見した場合は私に連絡して、81KAで初期収容してください。//──アイランズ調停官
+
+//あいよ、了解。こっちはマニュアル通りやっとくからさ、せめて仮眠とりなよ。目の下凄いことになってるぞ、いったい1日なにしてたんだ？//──[[[author:izhaya|エージェント・千代巳]]]
+
+//ええ、まあ、それはそれはひどい1日でした……//──アイランズ調停官
+
+[[/<]]
+
+[[/collapsible]]
+
+[[/=]]
+
+@@@@
+@@@@
+@@@@
+
+[[/div]]
+[[div class="card-1"]]
+
+**面談時記録:** //あなたを含めた多くの方に"友人は選べ"と四六時中言われるわけです、人事官。しかし皆さん面白い人たちばかりですから、もう仕方ないと思いませんか？ 仕事は厳しいですが、ここは楽しい職場です。人間観察にはもってこいですよ。//
+
+[[/div]]
+[[div class="card-1"]]
+
+**？？？:** //……ええとですね、あのう、[[[author:nanigashi-sato|これ]]]はどういう状況なんですか？ なぜ私の名前が？ 人事官？ ちょっと？？？//
+
+[[/div]]
+
+[[div class="CustomCollapsible"]]
+[[collapsible show="出演作品一覧" hide="閉じる"]]
+[[div class="card-1"]]
+
++++ ジョシュア・アイランズ
+
+[[[after-party-1st-mission|]]] by [[*user islandsmaster]]
+
+[[[secure-facility-dossier-area-81jh|]]] by [[*user indonootoko]]
+
+[[[licence-heartless|]]] by [[*user hey_kounoike]]
+
+[[[rainy-islands|]]] by [[*user islandsmaster]]
+
+[[[a-study-in-indigo|]]] by [[*user 2MeterScale]]
+
+[[[case1-1-rinmei-jinja|]]] by [[*user Dr_Kudo]] & [[*user Taga49]] & [[*user Pear_QU]]
+
+[[[shirasutaro-artwork|]]] by [[*user shirasutaro-]]
+
+[[[case-n-operation-sugar-sun-1|]]] by [[*user 2meterscale]]
+
+[[[notlonely-betelgius|]]] by [[*user betelgius]]
+
+[[[agent-of-my-sun|]]] by [[*user taga49]]
+
+[[[it-is-not-the-sun|]]] by [[*user taga49]]
+
+[[/div]]
+[[div class="card-1"]]
+
++++ 関係者・親族
+
+[[[there-is-no-point|]]] - ロザムンド・アイランズ監察官 by [[*user islandsmaster]]
+
+[[[scp-2001-jp|]]] - ジョシュア・アイランズ・ジュニア外交・調停官 by [[*user karkaroff]]
+
+[[[countryroad-side-1|]]] - ジョシュア・アイランズ・ジュニア外交・調停官 by [[*user karkaroff]]
+
+[[/div]]
+[[/collapsible]]
+[[/div]]
+
+[[/tab]]
+[[tab 管理部門機密指定]]
+
+[[div class="card-1" style="border-top: none;"]]
+
+**名前:** ロザムンド・"ロージー"・アイランズ（Rosamund "Rosie" Islands）
+
+**セキュリティレベル:** レベル4
+
+**役職:** 上級監察官
+
+**職務:** 財団管理部門における各種監査・監察業務の統制
+
+**所在:** 不定
+
+**人物:** 米国アラスカ州出身、米国籍。コーカソイド系白人女性。20██年現在65歳、独身。長身痩躯、碧瞳。色素の濃い金髪と高い頬骨、硬い表情が特徴的な人物です。
+
+**評価:** アイランズ監察官は財団管理部門中央統合指令局、通称"サマルカンド・クラブ"直属の上級監察官です。監督評議会司令部の統制下にある全ての支部組織に対する監察権限を保持する監察局の一員として、財団組織の監察業務に従事しています。
+
+監督評議会への高い忠誠心と冷静沈着な判断力、財団の存在理念に関する強固な信念、そして複数の政治闘争における勝利は、アイランズ監察官の評価を確固たるものにしています。常に変化することのない無表情と、それに相反する冷徹かつ激情的な言動や振る舞いは、組織の不正と硬直を打破する闘士としての態度の表出と見做されてきました。男性形の"ロス"という呼称が彼女への敬称として定着しています。これをハラスメント行為と見做す訴えは、監察官本人によって棄却されました。
+
+一般にユダヤ人と認識される家系にありますが、アブラハム宗教の体系とは距離を置く姿勢を鮮明にしています。彼の甥は財団日本支部のスタッフとして勤務していますが、両者の交流は限定的です。
+
+彼女の旧姓について言及する行為は推奨されません。アイランズ監察官は名前または愛称で呼ばれることを好みます。
+[[/div]]
+
+[[div class="CustomCollapsible"]]
+[[collapsible show="即応要員のリスト" hide="閉じる"]]
+[[div class="card-1"]]
+
+**名前:** アンドリース・ムライ（Andries Murai）
+
+**セキュリティレベル:** レベル3
+
+**役職:** 上級エージェント
+
+**職務:** フィールドエージェント現場統括
+
+**所在:** サイト-8192、中部・近畿圏の大規模サイト、ネクサス
+
+**人物:**米国出身、日・南アのクォーター。男性。20██年現在45歳。既婚。元米国空軍戦闘機パイロット。
+
+[[/div]]
+[[/collapsible]]
+[[/div]]
+
+[[/tab]]
+[[tab 調査中の案件]]
+
+[[div class="card-1"]]
+
++++ 翻訳済み資料
+
+[[module Listpages created_by="=" order="created_at desc" category="-fragment" tag="+en" perPage="50"]]
+
+%%title_linked%%
+
+[[/module]]
+[[/div]]
+
+[[div class="card-1"]]
+
++++ スタッフ業務
+
+[[module Listpages created_by="=" order="created_at desc" category="-fragment" tag="+jp -scp -tale -goi-format -著者ページ -トップ掲載 -ハブ" perPage="20"]]
+
+%%title_linked%%
+
+[[/module]]
+[[/div]]
+
+[[/tab]]
+[[tab 業務上の秘密]]
+[[div class="card-1" style="border-top: none;"]]
+
++++ 著作雑感
+
+著作の中で特に [[*user islandsmaster]] の印象に残ったものを取り上げています。更新は不定期です。
+
+[[/div]]
+[[div class="card-1"]]
+
+++++ [[[early-summer-1998|]]]
+
+[[[scp-908-jp|前作]]]を投稿した2日後、宣伝のためにTwitterを徘徊していた島民はフォロワーのざわめきから何やら面白い記事が投稿された気配を感じ取り、リンクを辿った先で[[[scp-1710-jp|]]]と出会った。「なるほどね」みたいに頷きながら夢中で読んでいた覚えがある。なるほどね。何が？
+
+この記事メッチャ面白かったので二次創作したろ！ そういうわけでショパンゼミがポーランドをぶっ壊してついでにヴェールもぶっ壊す流れを一般人が追いかけるtaleを構想。書いたら書けたので投稿した。本当は原作投稿から24時間以内に完成させたかったのだが、流石にクオリティ的に問題があったので批評を貰った。各所で好評を頂いた最後の演説シーンはこのときの批評で大幅に改稿されたもの。投稿を焦らなくて本当によかったと思う。
+
+ほどなく本作はSCP-1710-JPの著者である [[*user Dr_Kasugai]] さんの目に留まることとなった。ほとんど初会話であったにもかかわらず、快く原作記事との相互リンクを許可していただいた鎹さんには感謝してもしきれない。ありがとうございます！ またこのとき、原作はほぼ同時期に投稿された [[*user H0H0]] さんの[[[get-rid-of-the-veil|]]]と壮絶なrateの叩き合いを演じており、本作の投稿はショパンゼミ側の勝利に大きく貢献した……はず。おそらくは。
+
+これまで著作の評価がことごとく低空飛行してきた島民にとって、本作は投稿後のrateの伸びがとても大きく、taleでも十分戦えるという自信の醸成に繋がったため、しばらくは本作のrateを眺めては一人でニヤつく日々が続いた。このセミ怪獣によってポーランドが可哀想なことになる作品がのちに[[[1998-hub|日本支部最大級のカノン]]]に発展するなど、この時の島民には知る由もなかった。
+
+[[/div]]
+[[div class="card-1"]]
+
+++++ [[[scp-908-jp|]]] -六大陸フィギュアスケート選手権
+
+時は2月、[https://ja.wikipedia.org/wiki/2019年四大陸フィギュアスケート選手権 四大陸フィギュア]の中継を見ていた島民はふと疑問に思った。大陸が4つ……大陸？ なぜ同じユーラシア大陸なのにヨーロッパとアジアが別区分なのか？ 南北アメリカは1つ扱いなのか？ 正確には五大陸じゃないか。ウィンタースポーツのシーズンが遥か彼方に過ぎ去っても島民はそのことを考えていた。
+
+そういうわけで異世界のフィギュアスケートの記事を構想。五大陸だと普通すぎるので推しカノンである[[[antarctic-exchange-hub|南極の交流]]]の要素を足して六大陸にした。島民は複数種族がわやくちゃになりながらもなんとなく共存する話が好みで、この記事の執筆を通じて培われた何かしらのエッセンスが後に98カノンで発露することになる。ちなみにこの記事は初めて残すことに成功したSCP記事で、既に2本のSCP記事を爆散させていた島民のSCP恐怖症を多少緩和してくれた。
+
+[[/div]]
+[[div class="card-1"]]
+
+++++ [[[deities-of-reiwa-1st|]]]
+
+[[[recyclecontest19|]]]で秘かに狙っていた「神々の集うコンビニ」というネタを [[*user FattyAcid]] さんが[[[scp-1988-jp|華麗に形にし]]]、完璧な形で先を越された島民は気づいた。だったらtaleを書けばいいのでは？ 折しもリサコンに自身が投稿した記事は爆発四散しており、このやり場のない憤りをぶつける先が必要だった。
+
+そういうわけでFattyさんのSCP-1988-JPを中核に、リサコンの没ネタからもいくらかエッセンスを盛り込んだ神格コメディtaleを構想。書いてみたら書けたので投稿した。トップの画像があからさまに日本のコンビニではないのだが、ライセンス適合のコンビニ店内画像が全然なかったので未だに差し変えられていない。この愛すべきほのぼのした神々がのちに[http://scp-jp.wikidot.com/system:page-tags/tag/ttt社 専用タグ]を得て正要注意団体に昇格するなど、この時の島民には知る由もなかった。
+
+[[/div]]
+[[/tab]]
+[[tab 汚れた作業机]]
+[[div class="card-1" style="border-top: none;"]]
+
+[[div class="scp-image-block block-right scp-clear-false" style="width:25%; margin: 5px 7px 5px 10px !important; clear: none !important;"]]
+[[image 20200702_163948.jpg style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+icelandsmasterではない
+[[/div]]
+[[/div]]
+
++++ 著者について
+
+Name: [[*user islandsmaster]]
+
+Class: Tale Author
+
+Faith: Bionic Nerd
+
+Role: Wiki Administrator
+
+[[/div]]
+[[div class="card-1"]]
+
+島民です。だいたいアイランズと呼ばれています。たまにアイマスとも呼ばれます。間違いではありませんが、アイドルをマスターしたことはありません。
+
+2019年の最序盤に勢いでサイトに参加して以降、半年弱うごうごと穴の中を這いずり回っていましたが、[[[1200-taletaletale-hub|1200字コンテスト]]]をきっかけに陽光の下に姿を現しました。今にも溶けそうですが日々なんとか生きています。
+
+主な著作物はtaleです。政治とか経済とか歴史とかが絡むtaleを好みます。長文taleも好みます。カノン記事であればなお良しです。基本的にSCP記事は読み専です。SCPオブジェクトそのものよりは、SCiPが存在する世界観──いわゆる財団世界に興味があります。最近翻訳にも手を出しましたが、英語って難しいですね。
+
+趣味は読書と映画鑑賞、ストラテジー系のPCゲーム、サイクリング、たまの旅行です。基本的に治安の悪い創作物とブラックユーモアを好みます──ラインナップからご想像されたとおり、社会性は非常に低いです。Twitterで日々胡乱なつぶやきをしているので、できれば探さないでください。ただし、サイトスタッフへの問い合わせはいつでも受け付けています。
+
+[[/div]]
+[[div class="card-1"]]
+
+[[*user islandsmaster]] に連絡したいことがあり、かつ緊急性が高い事項の場合、Discord(かTwitter)のDMを使ってください。WikidotのPM機能を使う場合、すぐに対応できないことがあります(管理者宛のサイト参加申請通知に流されてしまうことが多いため)。
+
+ただし、サイトに関するフォーマルな連絡の場合はできるだけPMでお伝え下さい。確認に多少時間がかかりますが、Wikidotに記録が残るため、より確実です。
+
+[[/div]]
+[[div class="CustomCollapsible"]]
+[[collapsible show="非アクティブ化について" hide="閉じる"]]
+[[div class="card-1"]]
+
+365日以上にわたって [[*user islandsmaster]] のwikidotアカウントがSCP-JPサイト上での活動を停止していた場合、著者として非アクティブ化したとみなされます。
+
+非アクティブ化している期間中、islandsmasterの投稿したページは以下のように取り扱うことができます。ただし、投稿者の非アクティブ化に伴い、著者ページ上の宣言(この項目のことです)に準拠して取り扱った旨を必ずディスカッションにポストしてください。
+
+**オリジナル作品:** 作品としての主題を変更しない範囲で、自由に改稿することができます。ただし、何らかのカノンまたはシリーズに属する作品の場合、有識者会議に連絡を取り、改稿内容を事前に相談することを強く推奨します。
+
+**共著・改稿作品:** 共著者または原著者に管理権限が委譲されます。
+
+**合作作品:** 有識者会議に管理権限が委譲されます。
+
+**翻訳作品:** 自由に改訳することができます。
+
+また、サンドボックスⅢ内に作成されているページの内容についても、アイデアの借用ならびに文章の引用、またはそれらを翻案した新規作品の創作を自由に行うことができます。ただし、すべての記述はCC BY-SA 3.0ライセンスのもとに公開されており、これらを投稿する場合には適切なライセンス表記を必要とします。
+
+wikidotアカウントが活動を再開した時点で、非アクティブ化は解除されます。非アクティブ化している期間に上記の記述に準拠して行われたすべての編集をislandsmasterは尊重し、可能な限り受け容れることを約束します。
+
+[[/div]]
+[[/collapsible]]
+[[/div]]
+
+[[div class="CustomCollapsible"]]
+[[collapsible show="実績" hide="閉じる"]]
+[[div style="margin-left: 2em;"]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_参加表明.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**参加表明**[[/span]][[/size]]
+[[size 85%]]**サイトへの参加を承認される**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_はじめましての挨拶.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**はじめましての挨拶**[[/span]][[/size]]
+[[size 85%]]**フォーラムに書き込む**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_秘密の実験室.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**秘密の実験室**[[/span]][[/size]]
+[[size 85%]]**サンドボックスに自分のページを作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_三人寄れば.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**三人寄れば**[[/span]][[/size]]
+[[size 85%]]**フォーラムで下書きを公開する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_小さな一歩.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**小さな一歩**[[/span]][[/size]]
+[[size 85%]]**記事を作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_採用通知.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**採用通知**[[/span]][[/size]]
+[[size 85%]]**人事ファイルを作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_銅メダル.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**銅メダル**[[/span]][[/size]]
+[[size 85%]]**評価が15以上の記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_銀メダル.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**銀メダル**[[/span]][[/size]]
+[[size 85%]]**評価が30以上の記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_金メダル.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**金メダル**[[/span]][[/size]]
+[[size 85%]]**評価が50以上の記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_テレキル合金メダル.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**テレキル合金メダル**[[/span]][[/size]]
+[[size 85%]]**評価が100以上の記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_みならい・かたりべ.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**みならい・かたりべ**[[/span]][[/size]]
+[[size 85%]]**Taleを5以上作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_ミスター・かたりべ.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**ミスター・かたりべ**[[/span]][[/size]]
+[[size 85%]]**Taleを10以上作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_短編集.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**短編集**[[/span]][[/size]]
+[[size 85%]]**Taleを20以上作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_みならい・ほんやく.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**みならい・ほんやく**[[/span]][[/size]]
+[[size 85%]]**海外記事を5以上翻訳する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image http://scp-jp.wikidot.com/local--files/hal-aki-achievement-badges/実績_ミスター・ほんやく.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**ミスター・ほんやく**[[/span]][[/size]]
+[[size 85%]]**海外記事を10以上翻訳する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_お祭り好き.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**お祭り好き**[[/span]][[/size]]
+[[size 85%]]**コンテストに参加する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_人類学者.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**人類学者**[[/span]][[/size]]
+[[size 85%]]**評価が20以上かつ、自我を持っていて人間に近い外見の人型オブジェクトについてのSCP記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_生物学者.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**生物学者**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ生物学、生命、遺伝子、動物、植物、バクテリアのいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_化学者.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**化学者**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ化学、腐食、ガス発生のいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_言語学者.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**言語学者**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ言語、文書、文字入り、記述、語りのいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_心理学者.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**心理学者**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ精神影響、ミーム、強制力、感情、記憶影響、知識のいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_建築家.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**建築家**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ都市、建造物、場所のいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_旅人.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**旅人**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ時空間、未来、異次元、地図、ポータルのいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_エンジニア.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**エンジニア**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ機械、ぜんまい仕掛け、電子デバイス、自動装置、コンピュータのいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_崩壊のきっかけ.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**崩壊のきっかけ**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつK-クラスシナリオのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_英雄譚.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**英雄譚**[[/span]][[/size]]
+[[size 85%]]**自我を持っていて人間に近い外見の人型オブジェクトが主人公であり、評価が20以上のTaleを作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_誰かの日常.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**誰かの日常**[[/span]][[/size]]
+[[size 85%]]**財団職員が登場せず、かつ評価が20以上のTaleを作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_SCPは世界をつなぐ.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**SCPは世界をつなぐ**[[/span]][[/size]]
+[[size 85%]]**日本支部以外の支部、または本家サイトの記事が元となっており、かつ評価が20以上のTaleを作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_週刊誌.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**週刊誌**[[/span]][[/size]]
+[[size 85%]]**一か月に4つ以上の記事を作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image http://scp-jp.wikidot.com/local--files/hal-aki-achievement-badges/実績_普通のぉぉぉ標識ぃぃぃ.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**普通のぉぉぉ標識ぃぃぃ**[[/span]][[/size]]
+[[size 85%]]**ガイド記事を作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_砲手.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**砲手**[[/span]][[/size]]
+[[size 85%]]**カノンハブページを作成する**[[/size]]
+[[/div]]
+@@@@
+[[div style="margin: 15px 30px 15px 0px;"]]
+[[f<image 実績_来週もお楽しみに.png width="50"]]
+[[size 120%]][[span style="color:#970118"]]**来週もお楽しみに**[[/span]][[/size]]
+[[size 85%]]**連作Taleのためのハブページを作成する**[[/size]]
+[[/div]]
+@@@@
+
+[[/div]]
+[[/collapsible]]
+[[/div]]
+
+[[/tab]]
+[[/tabview]]
+[[/div]]
+
+[!--
+ここから構文モジュール made by 土橋博士: http://scp-jp.wikidot.com/author:tsucchii0301
+--]
+
+
+[[module CSS]]
+
+/* HEADER */
+#header h1 a {
+    font-family: "BauhausLTDemi", "ヒラギノ角ゴ Pro W6", HiraKakuPro-W6, sans-serif;
+}
+
+#header h2 span {
+    font-family: "ヒラギノ角ゴ Pro W6", HiraKakuPro-W6, sans-serif;
+}
+
+
+#page-content .grid {
+    display: flex;
+    overflow: auto;
+}
+
+#page-content .grid-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+    overflow: auto;
+}
+
+#page-content .grid-right {
+    float: right;
+    width: 50%;
+    text-align: left;
+    overflow: auto;
+}
+
+#page-content .card {
+    background-color: #fff;
+    padding: 0.2em 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#page-content .card-1 {
+    float: center;
+    border-top: solid #B7B7B7 1px;
+    padding: 1em;
+    overflow: auto;
+}
+
+#page-content .image-card{
+    position: relative;
+    margin: 1px 0;
+}
+
+#page-content .image-card-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 1em;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 80%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#page-title{
+    display:none;
+}
+
+/* Note Media Query */
+@media (max-width: 580px) {
+
+#page-content .grid {
+    display: block;
+}
+
+#page-content .grid-left,
+#page-content .grid-right {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+}
+
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+.CustomTab .yui-navset ul {
+    display: -webkit-flex;
+    display: flex;
+    height: auto;
+    flex-grow: 0;
+}
+}
+
+@media (max-width: 767px) {
+#side-bar {
+    background-color: #333;
+}
+}
+
+@media (min-width: 980px) {
+.CustomTab .yui-navset ul {
+    display: -webkit-flex;
+    display: flex;
+    height: auto;
+    flex-grow: 0;
+}
+}
+
+/*CustomCollapsible layout */
+
+.CustomCollapsible{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    background-color: #fff;
+}
+
+.CustomCollapsible .collapsible-block-link {
+    display: flex;
+    padding-left: 1em;
+    height: 3.5em;
+    text-decoration: none;
+    font-size: 105%;
+    color: #CDCDCD;
+    align-items: center;
+    justify-content: left;
+    background-color: #444;
+    border-top: solid #333 1px;
+}
+
+.CustomCollapsible .collapsible-block-link:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.CustomCollapsible .collapsible-block-link:active {
+    background-color: #555;
+    color: #fff;
+}
+
+/* CustomTab */
+.CustomTab {
+    border: solid #333 1px;
+}
+.CustomTab .yui-navset .yui-content{
+    background: none;
+    border-top: solid #333 1px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    padding:0;
+    margin:0;
+    overflow: auto;
+}
+.CustomTab .yui-navset ul {
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    border: solid #333 1px;
+    border-bottom: none;
+    padding: 8px 14px;
+    margin:0;
+    background: #333;
+    height: auto;
+    align-items: center;
+}
+.CustomTab .yui-navset .yui-nav li, .yui-navset
+.CustomTab .yui-navset-top .yui-nav li {
+    flex-grow: 1;
+}
+.CustomTab .yui-navset .yui-nav a,
+.CustomTab .yui-navset .yui-navset-top .yui-nav a {
+    background: none;
+    color: #B7B7B7;
+    border: none;
+    overflow-y:hidden;
+}
+.CustomTab .yui-navset .yui-nav .selected a,
+.CustomTab .yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
+.CustomTab .yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
+    background: none;
+    color: #fff;
+    border: none;
+    overflow-y:hidden;
+}
+.CustomTab .yui-navset .yui-nav a:hover,
+.CustomTab .yui-navset .yui-nav a:focus {
+    background: none;
+    color: #B7B7B7;
+    border: none;
+    overflow-y:hidden;
+}
+.CustomTab .yui-navset .yui-nav,
+.CustomTab .yui-navset .yui-navset-top .yui-nav {
+    border: none;
+}
+.CustomTab .yui-navset .yui-nav,
+.CustomTab .yui-navset .yui-navset-top .yui-nav {
+    border: none;
+}
+
+[[/module]]
