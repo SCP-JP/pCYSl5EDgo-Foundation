@@ -1,0 +1,38 @@
+[[div class="wiki-note" style="padding: 0.3em 1em;"]]
+[[span style="font-size: 1.2em;"]]デバン博士の研究所に入るためには認証コードを入力してください。[[/span]]
+[[/div]]
+
+
+[[div class="form-box"]]
+++ 黝き月や吼えたる。
+[[div_ class="password-box"]]
+[[include :csi:password key=8003157f2106d2e61eaaddd11ac2cba54c0a97dfcca06890158b0768e92c8714 |https=false |style=]]
+[[/div]]
+[[/div]]
+
+[[module css]]
+h2#toc0 {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.form-box {
+    border: 1px solid silver;
+    background-color: #eeeeee;
+    border-radius: 1em;
+    margin-top: 3em;
+    padding: 1em 0 1em 0;
+}
+
+.password-box {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input:focus, select:focus, option:focus, textarea:focus, button:focus{
+    outline: none;
+}
+[[/module]]

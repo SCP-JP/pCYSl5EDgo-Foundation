@@ -1,0 +1,633 @@
+[[include :scp-jp-sandbox2:inc:jstyles]]
+[[include :scp-jp-sandbox2:inc:addspecialcss]]
+[[module CSS]]
+.gazounasi .image {
+display:none;
+}
+
+.abcaa .soto {
+display:none;
+}
+
+.image-container {
+  padding-bottom: 0px;
+}
+
+.footnotes-footer {
+display:none;
+}
+[[/module]]
+[!--
+以下チーム用CSS
+--]
+[[module CSS]]
+.wrapper {
+    animation: dead 1s 0s linear infinite;
+}
+@keyframes dead {
+    30%, 70% {
+     text-shadow: #0008 0 0 0;
+    }
+    40% {
+     text-shadow: #0008 0 0 3px;
+    }
+}
+.wrapper .before, .wrapper .after {
+    position: absolute;
+    transition: opacity .39s;
+}
+.after {
+    opacity: 0;
+}
+.before {
+    z-index: 1;
+}
+.before:hover, .before:active {
+    opacity: 0;
+}
+.before:hover + .after, .before:active + .after {
+    opacity: 1;
+}
+[[/module]]
+
+[[=]]
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:3646960-6-15qi/CTH-logo2.jpg]]
+[[/=]]
+
+= [[size 90%]]～ 個人主催イベント ～[[/size]]
+= [[size 250%]]～ チーム対抗コンテスト ～[[/size]]
+= **2022.10.30 - 2022.11.13**
+
+-----
+[[=]]
++ チーム対抗コンテストとは！
+[[/=]]
+サイトメンバー同士でチームを組み、面白い作品を作ろうというコンテストです。__**2人以上から参加できます。チームの人数に上限はありません。**__奮ってご参加ください。
+上位3チームには1位から順にキメラ賞、タマネギ賞、家賞が与えられます。[[footnote]]えっ？キメラ、タマネギ、家を知らない？知らない方がいいこともあります。[[/footnote]]
+
+→前回のコンテストアーカイブは**[[[*http://scp-jp-sandbox3.wikidot.com/draft:3646960-43-36f4 | こちら]]]**
+
+-----
++ エントリー
+++ ##green|__**チームエントリー方法**__##
+* 何らかの手段でわたしまで参加表明をしてください。投稿作品のディスカッションでも、WikidotのPMでも、Discordでも、Twitterでも、わたしの家のポストにハガキを投函してもいいです。 _
+参加の確認ができたら、このページに掲載します。表明してからしばらく経つのに掲載されていないというチームは、お手数ですが再度ご連絡ください。
+
+* 参加表明時には、『チーム名』『チームのメンバー(Wikidotアカウント名)』『コメント(何か面白い一言)』が必要です。--面白い一言がない場合はエントリーできません。--
+
+* エントリー大歓迎です。エントリー後、「やっぱ忙しいのでやめます」「ごめんなさい間に合いませんでした」もオッケーです。大切なのはハートです。
+
+* チームの人数に上限は設けません。
+
+-----
++ 参戦チーム
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: キメタマホーム##
+**チームメンバー:** [[*user bamboon]]、[[*user hasuma_s]]、[[*user highbriku]]
+
+**チームコメント:** 新人3人でチームを組みました！せいいっぱい頑張ります！
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: シン・スカガラ##
+**チームメンバー:** [[*user torigara3z]]、[[*user Scarabaeus]]
+
+**チームコメント:**  救済の手を差し伸べてください。
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 週末の終末##
+**チームメンバー:** [[*user teruteru_5]]、[[*user EianSakashiba]]、[[*user CAT EYES]]
+
+**チームコメント:**  執筆も終わらせます！
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 京都年末オフ運営(凍結中)##
+**チームメンバー:** [[*user Okaka_Onigiri]]、[[*user solvex]]、[[*user 29mo]]
+
+**チームコメント:**  名乗り始めてからは一回も活動できていません。
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: ぷにぷに高知さん##
+**チームメンバー:** [[*user FeS_ryuukatetu]]、[[*user kata_men]]、[[*user mC shrimp]]、[[*user nemo111]]、[[*user Nika_Nayuki]]、[[*user Hoojiro_san]]
+
+**チームコメント:**  過疎
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 脱法執筆部##
+**チームメンバー:** [[*user Morelike]]、[[*user VideoGameMonkeyMONO]]、[[*user 0v0_0v0]]
+
+**チームコメント:**  脳内は治外法権
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 優勝候補##
+**チームメンバー:** [[*user ashimine]]、[[*user CAT EYES]]、[[*user Tsukajun]]
+
+**チームコメント:**  つかじゅんさんが命名しました。
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 猛獣使いと暴れ狂う蟹##
+**チームメンバー:** [[*user Mtkani_666]]、[[*user ukwhatn]]
+
+**チームコメント:**  共著者というよりはマスターとバーサーカーの関係です
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 無貌の手先##
+**チームメンバー:** [[*user EveningRose]]、[[*user 2MeterScale]]、[[*user gero-mince]]
+
+**チームコメント:**  今日のラッキーアイテムはお前
+[[/div]]
+
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 文明開化##
+**チームメンバー:** [[*user Musibu_wakaru]]、[[*user OwlCat]]、[[*user rokurouru]]
+
+**チームコメント:**  石包丁の発明
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 帆立一味##
+**チームメンバー:** [[*user MikuKaneko]]、[[*user iti119]]、[[*user teruteru_5]]、[[*user Fireflyer]]、[[*user Karathh]]
+
+**チームコメント:**@@ @@[[span class="wrapper"]][[span class="before"]]何も考えずただホタテを食べ続けるだけ。[[/span]][[span class="after"]]Deadline of Absurdities[[/span]][[/span]]
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 絶滅鯖##
+**チームメンバー:** [[*user GW5]]、[[*user keroyu]]、[[*user matsuHDSS]]、[[*user Tutu-sh]]
+
+**チームコメント:**  僕らは失業だよ / 絶滅だろ？
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 星神の夢語##
+**チームメンバー:** [[*user EianSakashiba]]、[[*user Enderman_desu]]、[[*user nemo111]]
+
+**チームコメント:**
+
+[[div class="blockquote" style="color: #fff; background: #000; border: solid 2px gray; text-align: center; font-size: 85%; margin-bottom: 2rem;"]]
+@@ @@
+//上にある天は名づけられておらず、//
+//下にある地にもまた名がなかった時のこと。//
+//はじめにアプスーがあり、すべてが生まれ出た。//
+//混沌を表すティアマトもまた、すべてを生み出す母であった。//
+//水はたがいに混ざり合っており、//
+//野は形がなく、湿った場所も見られなかった。//
+
+##f24|神々の中で、生まれているものは誰もいなかった。##
+
+[[>]]
+[[size 90%]]//--『エヌマ・エリシュ』冒頭部//[[/size]]　
+[[/>]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 同窓会##
+**チームメンバー:** [[*user Mishary]]、[[*user Sansyo-do-Zansyo]]、[[*user carbon13]]
+
+**チームコメント:** 高校の同級生です。
+
+**追記:** 同級生じゃないけど入れてもらいました by [[*user carbon13]]
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: スチームパンク##
+**チームメンバー:** [[*user DX-abc]]、[[*user mitsuki1729]]
+
+**チームコメント:** 蒸気機関と錬金術が異様な程に発展した世界から来ました。科学の力で蛮族に打ち勝ちます。
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: ふたりはプリキュア##
+**チームメンバー:** [[*user eagle-yuki]]、[[*user YaKUYaMoSiO]]
+
+**チームコメント:** 雪と塩でどっちもキュアホワイトです。
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: ブルーアーカイブ -Blue Archive-##
+**チームメンバー:** [[*user watazakana]]、[[*user Scarabaeus]]
+
+**チームコメント:** カーチェイスの人ver、鬼ごっこ
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 烏合戦線異常有リ。##
+**チームメンバー:** [[*user Matcha tiramisu]]、[[*user MAKOdot-]]、[[*user tukano_ jellyfish]]、[[*user sakapon]]、[[*user rokurouru]]、[[*user Copperstatue]]、[[*user cocolate]]、[[*user teruteru_5]]
+
+**チームコメント:** 探さないでください。
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: キルミーベイベーを読め##
+**チームメンバー:** [[*user Zatto13]]、[[*user Dr_rrrr_2919]]
+
+**チームコメント:** チーム名を伝えた時点で目標は達成しました
+
+**付記:** [[*user Dr_rrrr_2919]]は未読です
+
+**付記2:** ↑そのうち無理やりにでも読ませます
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: MMMR##
+**チームメンバー:** [[*user meshiochislash]]、[[*user meshiochislash]]、[[*user meshiochislash]]、[[*user Renerd]]
+
+**ひとこと:** 二冠
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名:トリプルギヴァー ##
+**チームメンバー:** [[*user eagle-yuki]]、[[*user Imerimo]]、[[*user Tutu-sh]]
+ 
+**チームコメント:**  ネヴァーギヴァーップ！
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: 何もしてないのにまた壊れた？##
+**チームメンバー:** [[*user R-00X]]、[[*user sanks269]]、[[*user youkazu]]
+
+**チームコメント:**  投稿が間に合わなかった世界線は自動的に破棄されます。
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: ハピエン保証(無免許)##
+**チームメンバー:** [[*user Mitan]]、[[*user ashimine]]、[[*user VideoGameMonkeyMONO]]
+
+**チームコメント:**  好きな言葉は[[[*http://scp-jp.wikidot.com/scp-1374-jp | 大団円]]]
+[[/div]]
+
+[[div class="content-panel standalone series"]]
+++* ##901|チーム名: ウルトラインコ=スモス##
+**チームメンバー:** [[*user indonootoko]]、[[*user Fennecist]]
+
+**チームコメント:** ベンコンに対抗して悪コンで組みました
+[[/div]]
+-----
+
++ コンテストルール
+++ ##green|__**チームごとに作品は1つまで**__##
+* チームの全身全霊を込めた作品を投稿してください。
+* ただし、コンテスト期間中であれば何度でも全身全霊を込めていただいて構いません。低評価による削除、自主削除の後に新たな作品を投稿することは可能です。
+
+++ ##green|__**部門はありません**__##
+* SCP部門、Tale部門などのカテゴリは設けません。コンテスト終了時に最もUVが高かった作品が優勝、キメラ賞が贈呈されます。
+* アートワークでの参加は認めません。エッセイは可です。
+
+++ ##green|__**コンテスト期間**__##
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:3646960-7-nc41/chime_con_cur.jpg max-width="100%" style="border: 0px solid black; padding: 0em;"]]
+
+**エントリー期間 2022.08.01〜2022.11.06**
+**投稿期間         2022.10.30〜2022.11.06**
+**投票期間         2022.10.30〜2022.11.13**
+**結果発表         2022.11.14〜**
+* 投稿期間中であれば、エントリーはいつでも可能です。
+* 投票期間は2022.11.13の24:00終了です。
+* **参考:** 2022年度夏季コンテスト、Qのコンテストは9/24に決選投票終了予定です。
+
+-----
++ そのほか
+**掲載について**
+* コンテスト終了後もチーム・作品の一覧を本ページに残します。削除を希望される方は、ご連絡いただければ削除いたします。
+
+**賞品**
+* 名誉
+* チームの仲間と育んだ友情
+* [[[http://scp-jp-sandbox3.wikidot.com/draft:3646960-37-97ce | 専用評価モジュール]]]
+* 実績バッジ
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:3646960-8-95b7/chime_bu.jpg]]
+* メダル
+[[=image http://scp-jp-storage.wikidot.com/local--files/file:3646960-9-fchu/chimedal.gif]]
+
+**モラルをたいせつに**
+* 自分がやられたら嫌なことはやらないようにしましょう。わたしはみなさんの良心を信じています。また、もし他の方の行動を見て『なんかこれルールと違くない……？』と思っても、笑って見逃してあげましょう。__他人に迷惑をかけない範囲において__であれば、大抵のことは知らんぷりをします。
+
+**Q.参加にあたって質問があります！**
+* 何らかの手段でわたしまで連絡をしてください。WikidotのPMでも、Discordでも、Twitterでも、わたしの家のポストにハガキを投函してもいいです。必要に応じてQ＆Aを載せます。
+
+**Q.キメラ、タマネギ、家…？キメタマホームってなんですか？**
+* [[[*http://scp-jp.wikidot.com/venture-contest-2018 | 4年ほど前のコンテスト]]]をきっかけに生まれた、一部の人間の内輪ネタです。
+
+**Q.後からメンバーを増やしていいですか？**
+* メンバーの増員は可能です。その逆もOKです。
+
+**Q.複数のチームを掛け持ちしてもいいですか？**
+* 掛け持ち可能です。
+
+**Q.あの、ち…遅刻してもいいですか……？**
+* 投票期間終了まで遅刻参加可能とします。ただし、遅刻したチームにはきびしいペナルティを設けます。遅刻した理由＆反省のコメント(面白いコメント)をください。--面白くなかった場合は遅刻参加を認めません。--
+* 遅刻しても評価が高ければ別途特別に賞を与えます。
+
+**Q.「ファイナル」ってことは開催はこれが最後ですか？**
+* もし次回があれば語尾に「リターンズ」を付けます。
+-----
+以下人事ファイル
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[include component:image-block
+name=anzu.png|
+width=200px|
+align=right|
+caption=PoI-ZI-0。]]
+**PoI-ID:** ZI-0
+
+**性別:** 女性
+
+**年齢:** 不明(推定5～7歳)
+
+**所属:** 不明
+
+**活動目的:** 財団組織そのものの破壊
+
+**活動内容:** 武力的行為によるすべての財団の活動の妨害
+
+**詳細:** PoI-ZI-0は「おめんライダーあんず」を自称する女児です。PoI-ZI-0に関する公的な情報(戸籍等)は一切確認できておらず、名前、出自などの詳細な情報は判明していません。また、PoI-ZI-0は常に面を装着[[footnote]]創作物のキャラクターのお面やフルフェイスマスク、能面など、様々な種類の面を装着している姿が確認されています。[[/footnote]]しており、素顔は判明していません。
+
+PoI-ZI-0は武力的行為をもって財団を壊滅させることを目的としているようです。PoI-ZI-0は財団が関わるあらゆる活動の場に何らかの移動手段[[footnote]]小型のバイクが用いられる場合が多いです。[[/footnote]]を経て出現し、その後、出現地点で行われている財団の活動の阻止を試みます。PoI-ZI-0の姿は世界中で確認されていますが、財団が能動的にPoI-ZI-0を発見できたことはなく、そのすべてはPoI-ZI-0の活動による受動的な結果のみに留まります。
+
+PoI-ZI-0は財団を「ザイダーン」と呼称し、財団の活動は倫理的に認められる行為ではないということを頻繁に主張しています。PoI-ZI-0が財団の機密情報をどのような手段により把握しているかは不明です。
+
+[[div style="display: inline-block ; border : dashed 1px #444444 ; background :#F4F4F4 ; margin-left : auto ; margin-right : auto ; width : auto ; padding:10px"]]
+**映像記録**
+
+**日付:** 2018/01/21
+
+**備考:**この映像はプログラム・████████の実験中、偶然撮影されたものです。
+----
+[映像開始]
+
+(プログラム・████████の被験者であるD-HON5は手術台に拘束されている。研究員たちが機器の準備を行っている最中、ドアを小型のバイクで突き破りPoI-ZI-0が現れる。)
+
+**PoI-ZI-0:** そこまでだザイダーン！
+
+(PoI-ZI-0はバイクに跨ったまま実験室を駆け回り、室内の機器を破壊するとともに研究員を全員気絶させる。その後、PoI-ZI-0はD-HON5の拘束を解く。)
+
+**D-HON5:** ありがとう。助かったよ。
+
+**PoI-ZI-0:** ふっ、お礼はいらないよ。
+
+**D-HON5:** もし良ければ、お嬢ちゃんの名前を教えてくれないか。
+
+**PoI-ZI-0:** あんずはおめんライダーあんずだよ。悪とたたかう正義のみかただよ。
+
+**D-HON5:** ありがとう。あんずちゃんは--　　--
+
+**PoI-ZI-0:** おめんライダーあんずだよ。
+
+**D-HON5:** え、ええと、おめんライダーあんずちゃんは正義の味方なのかい？
+
+**PoI-ZI-0:** そうだよ。こいつらはザイダーン。世界をかげからあやつる、悪のひみつそしきなんだ。
+
+**D-HON5:** ザイダーン…？正直、俺も突然捕まって何が何だか…。
+
+**PoI-ZI-0:** ザイダーンはあやしいじっけんのために人々をさらうんだ。他にも、あぶない道具やいきものをたくさんもってる。世界じゅうの国が、ザイダーンにしはいされているんだ。
+
+**D-HON5:** 何ということだ…。ザイダーン、そんな組織があったとは。
+
+**PoI-ZI-0:** おじさんもザイダーンにまた何かされそうになったら、コレであんずをよんで。
+
+(PoI-ZI-0がD-HON5に手のひらに収まる程度の大きさの何かを投げ渡す。)
+
+**D-HON5:** これは？これを押せばあんずちゃんが--　　--
+
+**PoI-ZI-0:** おめんライダーあんずだよ。
+
+**D-HON5:** あ、ああすまない、これを押せばおめんライダーあんずちゃんが助けに来てくれるのか？
+
+**PoI-ZI-0:** うん。じゃあここは危ないから、そろそろいくよおじさん。
+
+**D-HON5:** なあ、おめんライダーあんずちゃん。頼みがあるんだ。
+
+**PoI-ZI-0:** どうしたの。
+
+**D-HON5:** 俺に協力できることはないか。俺も世界を守りたい。こんなことを知ってしまってから、知らないふりをすることなんてできない。
+
+**PoI-ZI-0:** おじさん…。わかった！じゃあ、いっしょにがんばろう！
+
+**D-HON5:** ありがとう。あんずち--　　--
+
+**PoI-ZI-0:** おめんライダーあんず。
+
+**D-HON5:** ありがとう。おめんライダーあんずちゃん。
+
+**PoI-ZI-0:** うん！そうと決まったらおじさん、はやく乗って！いくよ！
+
+(D-HON5がPoI-ZI-0の後ろに跨る。D-HON5の足を引きずりながら、PoI-ZI-0はバイクで室外へと飛び出していく。)
+
+[映像終了]
+----
+> 事件の直後からD-HON5の捜索が進められていますが、この映像以後D-HON5の行方は判明していません。
+[[/div]]
+
+@@@@
+@@@@
+[[=]]
++++ SCPs
+[[/=]]
+[[module ListPages created_by="highbriku" separate="no" tags="+scp +jp" order="created" category="*" prependLine="||~ SCP ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+[[=]]
++++ Tales
+[[/=]]
+[[module ListPages created_by="highbriku" separate="no" tags="tale +jp" order="created" category="*" prependLine="||~ Tale ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+[[=]]
++++ Others
+[[/=]]
+[[module ListPages created_by="highbriku" separate="no" tags="アートワーク +jp" order="created" category="*" prependLine="||~ Tale ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+　
+　
+[[include :lie-bricks:highb-ver-slide
+| fullname=scp-1655-jp
+| truncate=yes
+| title-length=medium
+| image=yes
+| shade=red
+| title-1=Title | text-1=機密情報のためアクセス禁止
+| title-2=Tag | text-2=財団製
+| title-3=Notes | text-3=2018年5月の1位をゲット
+| title-4=Summary | text-4=財団にだって他の団体のスパイはいるよね。という話です。処女作です。執筆を通して構文がちょっとわかるようになりました。他の報告書のソースを拝見したり、インターネットでHTMLについて調べつつ、なんとか形にしました。ページの遷移やキャプションの文字色の変更など、[[*user C-take]]様には大変お世話になりました。ありがとうございます。
+| title-5=Quote | text-5=**SCP-1655-JPによって当報告書を閲覧している職員は、所持している端末から近隣のセクターに位置情報を送信し、自らの臀部を擦り続けてください。**
+]]
+　
+[[include :lie-bricks:highb-ver-slide
+| fullname=scp-1414-jp
+| truncate=yes
+| title-length=medium
+| image=yes
+| shade=blue
+| title-1=Title | text-1=希望
+| title-2=Tag | text-2=are-we-cool-yet
+| title-3=Notes | text-3=ベンチャーコンテスト3位
+| title-4=Summary | text-4=ベンチャーコンテストのちょっと前に翻訳された[*http://ja.scp-wiki.net/project-proposal-1994-357-a-still-life 企画案1994-357：“静物”]にインスピレーションを受けて書きました。1,2週間くらいかけてこの家の探査記録を書いたのですが、地下4階に辿り着くまでに1万字を超えていたのでやめました。そのうち書くかもしれません。レイアウトの調整に関して、[[*user shu_yabiyabi]]様に大変お世話になりました。ありがとうございます。--優勝すると思っていましたがキメラとタマネギに負けました。--
+| title-5=Quote | text-5=**//We can become cool.//**
+]]
+　
+[[div class="gazounasi"]]
+[[include :lie-bricks:highb-ver-slide
+| fullname=jounetsu
+| truncate=yes
+| title-length=medium
+| image=display: none;
+| shade=green
+| title-1=Title | text-1=財団職員の朝は早い
+| title-2=Tag | text-2=-
+| title-3=Notes | text-3=ベンチャーコンテスト4位
+| title-4=Summary | text-4=こちらもベンチャーコンテストに出した作品です。--キメラに家がすぐ抜かされたのでギャグを書いてやろうと思って--ウケ狙いで書きました。もっとネタを詰め込んでも良かったかもしれません。そのうち改稿するかもしれません。コンテストは惜しくも4位でダブル受賞を逃しました。
+| title-5=Quote | text-5=**"これが確保のエキスパート。それを目の当たりにし、われわれは驚愕した。"**
+]]
+[[/div]]
+
+
+[[include :lie-bricks:highb-ver-slide
+| fullname=scp-1898-jp
+| truncate=yes
+| title-length=medium
+| image=yes
+| shade=yellow
+| title-1=Title | text-1=俺たちはその無口な像を正しく収容したし、像は何も知らない
+| title-2=Tag | text-2=国外収容
+| title-3=Notes | text-3=『なんだか狐につままれたような……』
+| title-4=Summary | text-4=ジャムコンテスト参加作品です。1年ぶりぐらいの記事ですが、テーマ通りに上手く書けたと思っています。この記事に限らず、「こういう設定ですか？」と質問をいただくことがたまにありますが、記事本文以外の場所で説明することはありません。（ごめんね[[*user Fennecist]]！）ジャムコンテスト楽しかったですね。運営のみなさん、参加者のみなさん、お疲れ様でした。
+| title-5=Quote | text-5=**俺の行動は正しかったのか？もし何かが違っていれば--　　--**
+]]
+
+[[include :lie-bricks:highb-ver-slide
+| fullname=scp-2426-jp
+| truncate=yes
+| title-length=medium
+| image=yes
+| shade=dimgray
+| title-1=Title | text-1=その角から飛び出してきてくれないか
+| title-2=Tag | text-2=共著
+| title-3=Notes | text-3=また3位
+| title-4=Summary | text-4=2年という時を超え結成された夢のトリオの作品です。[[*user bamboon]]が持ってきたアイデアをもとに、私と[[*user Hasuma_S]]で肉付けをしました。このナンバーの下3桁は、私たちのチーム名の由来になった各作品の下3桁を足して3で割った数字になっています。内輪ネタ満載の個人コンテストでしたが、たくさんの方にご参加いただき大変感謝しています。--1位と2位のチームはもうちょっと空気を読んでほしかったです。--みなさんお疲れさまでした。盛り上げていただき、本当にありがとうございました。
+| title-5=Quote | text-5=**記録調査により、SCP-2426-JPは1968年に国家のインフラ整備の一環として舗装が行われて以降、一度も再整備が行われていないことが判明しています。それにも関わらず、SCP-2426-JPを構成するアスファルトは十分な耐久性を保持しているように見えます。**
+]]
+
+[[=]]
+著作レイアウト参考
+http://topia.wikidot.com/cqb:page-info-slider
+[[/=]]
+
+[[tabview]]
+[[tab My favorite SCPs]]
+* [[[dr-manns-proposal| マン博士の提言]]] - 螺旋の小道
+* [[[Kate McTiriss's Proposal| ケイト・マックティリスの提言]]] - 記録
+* [[[wrong-proposal| ロングの提言]]] - 総意
+* [[[rounderhouse-proposal | コードネーム: ラウンダーハウス]]] - [[span class="ruby"]]死を想え[[span class="rt"]]メメント・モリ[[/span]][[/span]]
+* [[[SCP-055]]] - 正体不明
+* [[[SCP-231]]] - 特別職員要件
+* [[[SCP-1372]]] - 西端
+* [[[SCP-1730]]] - サイト-13に何が起こったか？
+* [[[SCP-2305]]] - 名案が完前に役に立たなかった件についてwww
+* [[[SCP-2439]]] - [スロット割り当てなし]
+* [[[SCP-2798]]] - この死にゆく世界
+* [[[SCP-2930 | SCCP-2930]]] - クロス市市市市庁舎
+* [[[SCP-2935]]] - あゝ死よ
+* [[[SCP-3054]]] - クラッグスタッフ療養院
+* [[[SCP-3074]]] - カフカの駐車場
+* [[[SCP-3127]]] - 19歳のジェシカ・ランバートと異常な大きさの雌豚よ、永遠に
+* [[[SCP-3241]]] - 蒸気船ゾンマーフェルト号
+* [[[SCP-3554]]] - 第四ボルシチ缶詰工場
+* [[[SCP-3790]]] - 怪奇部門
+* [[[SCP-3797]]] - たった一度の未来の銃
+* [[[SCP-4231]]] - モントーク・ハウス
+* [[[SCP-4266]]] - お前に人殺しをさせる物
+* [[[SCP-5000]]] - どうして？
+* [[[SCP-5003]]] - 無力
+* [[[SCP-3000-EX]]] - 改造された医療用ベッド
+* [[[SCP-019-JP]]] - 普通のボノボ
+* [[[SCP-120-JP]]] - 世界で一番の宝石
+* [[[SCP-192-JP]]] - 私達のTOKYO
+* [[[SCP-522-JP]]] - 空気中フランスパン濃度測定所
+* [[[SCP-789-JP]]] - メビウスの輪ゴム
+* [[[SCP-1475-JP]]] - 標的はノースカロライナ
+* [[[SCP-1654-JP]]] - 全米が泣いたし俺も泣いた
+* [[[SCP-1789-JP]]] - パリの小路の不思議な事件
+* [[[SCP-014-JP-EX]]] - 君のその顔が見たくて
+
+[[module ListPages name="author:highbriku" limit="1"]]
+[[=]]
+**last modified %%updated_at|%m/%d%%**
+[[/=]]
+[[/module]]
+[[/tab]]
+[[tab My favorite Tales]]
+[[size 120%]]
+**[[[the-s-c-plastics-hub|S&C プラスチックス]]]**
+[[/size]]
+* [[[last-days-at-camp|キャンプ最後の日々]]]
+
+[[size 120%]]
+**[[[codename-green-king-hub|コードネーム:翠の王]]]**
+[[/size]]
+* [[[cast-on|作り目]]]
+
+[[size 120%]]
+**[[[the-man-who-wasnt-there-hub|存在しなかった者]]]**
+[[/size]]
+* [[[snippetsfromtheserpent|蛇の手からの断片]]]
+
+[[size 120%]]
+**[[[rat-s-nest-hub|ぼさぐちゃ]]]**
+[[/size]]
+* [[[we-never-wanted-things-to-come-to-this|夢への哀しき賛歌]]]
+
+[[module ListPages name="author:highbriku" limit="1"]]
+[[=]]
+**last modified %%updated_at|%m/%d%%**
+[[/=]]
+[[/module]]
+[[/tab]]
+
+[[tab My favorite GoI Formats]]
+[[size 120%]]
+**Are We Cool Yet?**
+[[/size]]
+* [[[project-proposal-1994-357-a-still-life|企画案1994-357：“静物”]]]
+* [[[project-proposal-2014-1221|企画案2014-1221: “遂に目を覚ます”]]]
+
+[[size 120%]]
+**黒の女王**
+[[/size]]
+* [[[prantortiz-the-vile|下劣なるP′rantortiz]]]
+* [[[ghost-sign| 幽霊の標識]]]
+
+[[size 120%]]
+**シカゴ・スピリット**
+[[/size]]
+* [[[carroll-188-gemini| キャロル#188: 双子座]]]
+* [[[snitchdungeons| キャロル#332: 密告者の獄]]]
+
+
+[[size 120%]]
+**パラウォッチ**
+[[/size]]
+* [[[barns-from-nowhere| 何処からともなく納屋が来る]]]
+
+[[module ListPages name="author:highbriku" limit="1"]]
+[[=]]
+**last modified %%updated_at|%m/%d%%**
+[[/=]]
+[[/module]]
+[[/tab]]
+[[/tabview]]
+
+[[include :smlt:7happy7:achievement-jp-module |a1=true|a2=true|a3=true|a4=true|a5=true|a6=true|a10=true|a11=true|a12=true|a13=true|a14=true|a30=true|a33=true|a35=true|a38=true|a44=true|a45=true|a53=true|num=18]]

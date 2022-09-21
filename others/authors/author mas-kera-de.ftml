@@ -1,0 +1,29 @@
+[[tabview]]
+[[tab 自記事]]
++ SCP一覧
+[[module ListPages category="*"  created_by="Mas_kera_de" separate="no" limit="250" perPage="250" tags="scp +jp -tale" order="created_at"]]
+* (%%created_at|%y/%m/%d%%) %%title_linked%%　(評価: %%rating%%, コメント: %%comments%%)
+[[/module]]
+
++ Tale一覧
+[[module ListPages category="*"  created_by="Mas_kera_de" separate="no" limit="250" perPage="250" tags="-scp +jp +tale" order="created_at"]]
+* (%%created_at|%y/%m/%d%%) %%title_linked%%　(評価: %%rating%%, コメント: %%comments%%)
+[[/module]]
+[[/tab]]
+[[tab SCP翻訳]]
++ SCP一覧
+[[module ListPages created_by="[Mas_kera_de]" separate="no" tags="+scp +de" order="created" category="*" prependLine="||~ SCP ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+
++ Tale一覧
+[[module ListPages created_by="[Mas_kera_de]" separate="no" tags="tale +de" order="created" category="*" prependLine="||~ Tale ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+
++ その他
+[[module ListPages created_by="[Mas_kera_de]" separate="no" tags="-scp -author -tale -著者ページ +de" order="created" category="*" prependLine="||~ Others ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+[[/tab]]
+[[/tabview]]

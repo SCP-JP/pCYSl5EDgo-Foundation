@@ -1,0 +1,176 @@
+[[module css]]
+@import url(http://ja.scp-wiki.net/deathcontest/code/1);
+
+#u-truth:target ~ .before, #u-truth ~ .after {display: none;}
+#u-truth ~ .before, #u-truth:target ~ .after {display: block;}
+
+#page-title {
+  display: none;
+}
+.fake_title {
+  font-size: 200%;
+  color: #990011;
+  padding: 0 0 0.25em;
+  margin: 0 0 0.6em;
+  border-bottom: 1px solid #bbb;
+font-family: Old English Text MT;
+}
+.fake_title p {
+  padding: 0;
+  margin: 0;
+}
+.change-a-tag a{
+    color:#ffffff;
+}
+[[/module]]
+
+[[div class="fake_title"]]
+= **"布袋博士"**の検索結果
+[[/div]]
+
+[[div id="u-truth" style="display: none;"]]
+[[/div]]
+
+[[div class="before"]]
+
+@@ @@
+[[=]]
+//**##red|1##**件の人事データがヒットしました。//
+
+//当該データを表示します......//
+[[/=]]
+@@ @@
+------
+@@ @@
+[[include component:image-block
+name=aaaaa.jpg|
+caption=特筆すべき点はありません。]]
+[[<]]
+**氏名:** 布袋 成穂(Hotei Naruho)
+
+**セキュリティクリアランスレベル:** --3--  N/A
+
+**職務:** --因果部門副部門長-- N/A
+
+**経歴:** ██大学卒業後、因果部門からの打診を受けて雇用されました。特筆すべき点はありません。
+
+**人物:** 199█/█/██生まれの日本人女性です。特筆すべき点はありません。
+
+**事件記録:** 1865/4/15および1975/7/5、布袋博士は死亡しました。特筆すべき点はありません。
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[span style="text-shadow: 0 0 6px rgba(0,0,0,.3); color: transparent;"]]^^//忘却と無関心は人生を豊かにする。//^^[[/span]]
+[[/<]]
+------
+[[=]]
+[[a href="#u-truth"]]//Goodbye.//[[/a]]
+[[/=]]
+[[/div]]
+
+[[div class="after"]]
+
+@@ @@
+[[=]]
+//検索条件に該当するデータは存在しません。//
+[[/=]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+
+[[/div]]
+
+[[=]]
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[[/=]]
+@@ @@
+[[div style="border:solid 1px #fff; background:#1f083a; color:#f7f0ff; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+++++ **空想科学部門より通達**
+
+現在、以下のファイル群が**apoday級物語災害**に指定されています。
+担当職員はこれらを直ちに読了し、[[[*http://scp-jp.wikidot.com/scp-cn-1109 | 安定指数]]]に干渉を行ってください。
+[[/=]]
+[[/div]]
+@@ @@
+[[=]]
++++ SCPs
+[[/=]]
+[[module ListPages created_by="[apoday]" separate="no" tags="+scp +jp" order="created" category="*" prependLine="||~ SCP ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+[[=]]
++++ Tales
+[[/=]]
+[[module ListPages created_by="[apoday]" separate="no" tags="tale +jp" order="created" category="*" prependLine="||~ Tale ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+[[=]]
++++ GoI-formats
+[[/=]]
+[[module ListPages created_by="[apoday]" separate="no" tags="goi-format +jp" order="created" category="*" prependLine="||~ GoI-format ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+@@ @@

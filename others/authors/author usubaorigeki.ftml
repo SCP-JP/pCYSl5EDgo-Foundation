@@ -1,0 +1,77 @@
+[[module CSS]]
+div#container-wrap{
+background: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A4697631-286-nmr1/tentosengamaziwarutoki)top left repeat-x;
+background-size:100px;
+}
+[[/module]]
+
+[[module CSS]]
+/*
+    Powered on 2019/04/04 07:09:53
+    [2019 Wikidot Theme]
+    Created by usubaorigeki
+    CC BY-SA 3.0
+*/
+
+
+
+div#header h1 a span {
+    font-size: 1px;
+}
+div#header h1 a:before {
+    content: " サイト-81██";
+    color: #eee;
+    
+}
+
+[[/module]]
+
+[[module CSS]]
+.tabcol .yui-navset .yui-nav li:nth-child(n+2) {
+    display: none;
+}
+.tabcol .yui-navset .yui-nav li.selected,
+.tabcol .yui-navset .yui-nav li:nth-child(1).selected ~ li:nth-child(n+2) {
+    display: inline-block;
+}
+[[/module]]
+
+[[include :usubaorigeki:zixtuseki2]]
+[[tabview]]
+[[tab 人事ガチャ]]
+[[include :usubaorigeki:zinnzigya]]
+[[/tab]]
+[[tab 人事管理表]]
+[[include :usubaorigekimywiki:hyou]]
+[[/tab]]
+[[include :usubaorigeki:ikaretamennba-wosyoukaisuruze]]
+[[/tabview]]
+@@@@
+@@@@
+[[div class="tabcol"]]
+[[include :usubaorigeki:include]]
+[[include :usubaorigeki:include2]]
+[[include :usubaorigeki:include3]]
+[[/div]]
+@@@@
+[[tabview]]
+[[include :usubaorigeki:saitegaiyou]]
+[[tab 人事名簿]]
+[[include :usubaorigeki:zinnzimeibo]]
+[[/tab]]
+[[/tabview]]
+@@@@
+[[tabview]]
+[[tab タスクリスト]]
+[[*user Zatto13]]さんが[[[http://scp-jp.wikidot.com/forum/t-14024779/ | こちら]]]で教えてくれたタスクリストの構文です。仕様が分からず悪戦苦闘しておりますが、なんとか運用していきたいと思っています。
+[[module SimpleToDo id="44114421"]]
+[[/tab]]
+[[include :usubaorigeki:iroironakonntenntu]]
+[[/tabview]]
+@@@@
+[[*user usubaorigeki]]の著作一覧
+[[include :usubaorigeki:tyosaku]]
+@@@@
+@@@@
+[[include :usubaorigeki:zyouhou]]
+[[include :sendoh-oroka:footnote]]

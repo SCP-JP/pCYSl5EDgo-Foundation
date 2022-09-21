@@ -1,0 +1,135 @@
+[[include :1nu:theme]]
+
+@@@@
+@@@@
+
+[[module CSS arguments...]]
+#page-title {
+  display: none;
+}
+.fake_title {
+  font-size: 200%;
+  color: #990011;
+  padding: 0 0 0.25em;
+  margin: 0 0 0.6em;
+  border-bottom: 1px solid #bbb;
+  font-weight: normal;
+}
+.fake_title p {
+  padding: 0;
+  margin: 0;
+}
+[[/module]]
+
+@@@@
+@@@@
+
+[[=]]
+[[module css]]
+.textchange div.sitemember:nth-child(2) {
+display:none;
+}
+[[/module]]
+[[div class="textchange"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+ようこそ　[[size 120%]]**%%name%%**[[/size]]様
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+ようこそ　ゲスト様
+[[/div]]
+[[/div]]
+以下からご希望の情報をお選びください
+[[/=]]
+
+@@@@
+@@@@
+@@@@
+----
+@@@@
+@@@@
+
+[[collapsible show="+ 自人事のコンテスト" hide="- 閉じる" hideLocation="both"]]
+[[include :winter-key-01scp:kojinn-konn]]
+----
+[[/collapsible]]
+@@@@
+@@@@
+
++ 人事
+[[tabview]]
+[[tab これは何？]]
+人事関係を載せるタブです。
+[[/tab]]
+
+[[include :winter-key-01scp:jnj-fairu]]
+
+[[include :winter-key-01scp:jnj-fairu2]]
+
+[[tab Agt.柊中]]
+[閲覧許可申請中]
+[[/tab]]
+
+[[tab 束集環境担当員]]
+[閲覧許可申請中]
+[[/tab]]
+
+[[include :winter-key-01scp:gallery-e]]
+
+[[/tabview]]
+
+@@@@
+@@@@
+@@@@
+
++ 作品
+[[tabview]]
+[[tab これは何？]]
+自身が作った(参加したものも含め)作品を載せています。
+[[/tab]]
+
+[[include :winter-key-01scp:site-katudou]]
+
+[[include :winter-key-01scp:gaibu-katudou]]
+
+[[include :winter-key-01scp:katari]]
+
+[[/tabview]]
+
+@@@@
+@@@@
+@@@@
+
++ その他
+[[tabview]]
+[[tab これは何？]]
+その他の話題を書き散らしています。
+[[/tab]]
+
+[[include :winter-key-01scp:jikosyoukai]]
+
+[[include :winter-key-01scp:jisseki]]
+
+[[include :winter-key-01scp:mokuhyou]]
+
+[[include :winter-key-01scp:link-oki]]
+
+[[/tabview]]
+
+@@@@
+@@@@
+
+[[>]]
+[[include component:coltop show=+ 脚注|hide=- 閉じる]]
+[[<]]
+[[footnoteblock]]
+[[/<]]
+[[include component:colend nohide=true]]
+[[/>]]
+
+[[>]]
+[[size 80%]]
+テーマ元@@     @@©️[[*user dog_punch]]
+[[/>]]
+[[/size]]
