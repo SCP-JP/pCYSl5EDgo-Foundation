@@ -1,0 +1,1514 @@
+[[module css]]
+
+@import url("http://cdn.dcodes.net/2/divider/css/dc_divider.css");
+
+.dc_divider5_black{
+background-size: 100% auto;
+}
+
+[[/module]]
+[[module css]]
+
+div.boxE {
+    background-color: none;
+    background-image: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A4589204-72-ibdw/目);
+    background-position: center;
+    background-repeat: repeat;
+    border: none;
+    clear: both;
+    font-family: sansationregular,serif;
+    margin: 1% 10%;
+    padding: 1px 15px;
+    width: auto;
+
+[[/module]]
+
+[[module css]]
+
+.boxB {
+    padding: 1em 1em;
+    margin: 1em 0;
+    background: #000000;
+    border: solid 1px #000000;
+    border-radiu: 1px;
+}
+
+[[/module]]
+
+[[module css]]
+
+div.boxC {
+    background-color: none;
+    border-color: #000000;
+    border: 1px;
+    clear: both;
+    font-family: sansationregular,serif;
+    margin: 1% 10%;
+    padding: 1px 15px;
+    width: auto;
+
+[[/module]]
+
+[[module CSS]]
+/*
+    Powered on 2022/01/11 22:17:52
+    [2022 Wikidot Theme]
+    Created by Mitan
+    CC BY-SA 3.0
+*/
+
+.tab2 
+div.yui-navset div.yui-content {
+    background: #000000;
+}
+
+.tab2 
+div.yui-navset ul.yui-nav a,
+div.yui-navset div.yui-navset-top ul.yui-nav a {
+    background: #000000;
+    color: #d40b12;
+    border: #ffffff;
+}
+
+.tab2 
+div.yui-navset ul.yui-nav a:hover,
+div.yui-navset ul.yui-nav a:focus {
+    background: #541d20;
+    color: #d40b12;
+}
+
+.tab2 
+div.yui-navset ul.yui-nav .selected a,
+div.yui-navset ul.yui-nav .selected a:focus,
+div.yui-navset ul.yui-nav .selected a:hover {
+    background: #B20007;
+    color: #ffffff;
+    border: #ffffff;
+}
+
+
+
+[[/module]]
+
+[[=]]
+
+[[size 250%]]**Mitanの著者ページ**
+[[div class="dc_divider5_black"]]
+[[/div]]
+[[/size]] 
+|| [[size 90%]]**Status:** [[span style="color: green"]]Disclosure[[/span]][[/size]] ||
+[[/=]]
+
+[[div class="box3"]]
+
+[[=]]
+[[html]]
+
+<span style="font-size:90%">
+<div style="text-align: center;">
+
+<style type="text/css">
+@import url(http://scp-jp.wdfiles.com/local--files/japanese-syntax/scp-WikidotCss.css);
+</style>
+<script type="text/javascript" src="http://scp-jp.wdfiles.com/local--files/japanese-syntax/scpHTMLblockCtrl_ver1_ex.js"></script>
+<script type="text/javascript">
+isHTMLblockHide = true;
+</script>
+<size 90%>
+ <span id="time"></span></size>
+<div id="scpHTMLblockResizeSwitch"></div>
+<script type="text/javascript">
+var space;
+window.onload=function(){
+space = document.getElementById("time");
+var date = new Date();
+space.innerHTML = date.getFullYear() + "/" + (date.getMonth()+1) + "/" + date.getDate();
+}
+</script>
+</div>
+</span>
+[[/html]]
+
+[[div class="textchange"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+
+-----
+
+ようこそ
+
+**%%name%%**様
+
+必要な情報を以下より参照してください。
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+
+-----
+
+ようこそ
+
+**guest**様
+
+必要な情報を以下より参照してください。
+
+
+[[/div]]
+[[/div]]
+[[/=]]
+[[/div]]
+[[=]]
+[[size 200%]]
+・
+@@@@
+[[span style="color: #737373"]]・[[/span]]
+@@@@
+[[span style="color: #c4c4c4"]]・[[/span]]
+@@@@
+[[/size]]
+[[/=]]
+
+
+[[module css]]
+
+#skrollr-body {
+  overflow: hidden;
+}
+
+
+#side-bar {
+display: true;
+}
+#page-title {
+display:none;
+}
+
+#header {
+    background: url('/local--files/author%3Amitan/Foundation') center no-repeat;
+    background-size: 140px 140px;
+}
+
+#header h2 span{
+font-size:0px;
+padding: 4px;
+}
+#header h2:after{
+padding: 19px 0;
+font-weight: bold;
+color: #f0f0c0;
+text-shadow: 1px 1px 1px #000;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+white-space: pre ;
+content: "  ";
+}
+[[/module]]
+
+
+
+
+[[module CSS]]
+
+table.wiki-content-table th {
+    border: 1px solid #888;
+    background-color: #EEE;
+}
+
+.box3 {
+    padding: 1em 1em;
+    margin: 1em 0;
+    background: #ffffff;
+    border: solid 1px #000000;
+    border-radiu: 1px;
+}
+
+
+
+
+#page-title {
+    font-weight: lighter;
+    font-color: #000000;
+    border-color: #000000;
+}
+ 
+a {
+    color: #3d3dff;
+}
+ 
+a.newpage {
+    color: #3d3dff;
+}
+ 
+ body {
+    font-family:  'Noto Serif JP';
+}
+
+@media screen and (max-width: 479px){
+#header { overflow: visible; }
+}
+
+
+/* 記事に存在する全ての折りたたみの色を灰色(#aaa)に変えています。 */
+#main-content a.collapsible-block-link {
+color: #3d3dff;
+}
+[[/module]]
+
+[[module css]]
+
+div#container-wrap {
+background: url(http://ja.scp-wiki.net/local--files/author:mitan/%E3%83%90%E3%83%83%E3%82%B0%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89) top left repeat-x;
+}
+
+#search-top-box-input {
+  display: none;
+}
+
+#search-top-box-form input[type=submit] {
+  border: #494f4f;
+  border-radius: 25px;
+  padding: 2px 5px;
+  font-size: 110%;
+  font-weight: lighter;
+  color: #494f4f;
+  background-color: #ffffff;
+  background: #ffffff ;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#search-top-box-form input[type=submit]:hover, #search-top-box-form input[type=submit]:focus {
+  border: none;
+  color:  #494f4f;
+  text-shadow: none;
+  background-color: #fff;;
+  background: none;
+  box-shadow: none;
+}
+
+#search-top-box {
+  position: absolute;
+  top: auto;
+  bottom: 23px;
+  right: 8px;
+  width: 200px;
+  text-align: right;
+}
+
+#header h1 a {
+color:transparent;
+text-shadow: none;
+display:block;
+position:relative;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+
+}
+
+#header h1 a:before {
+content:"SCP Foundation Japanese branch";
+    display: none;
+ font-family: BauhausLTDemi, 'Nanum Gothic', Arial, sans-serif;
+font-size:50%;
+position: center;
+ padding: 80px 0 25px;
+    line-height: 0px;
+    color: #fff;
+    background: transparent;
+    text-shadow: 3px 3px 5px #000;
+    letter-spacing: 0.9px;
+    word-break:none;
+    z-index:1;
+}
+
+#header h1 a:after {
+content:"SCP財団日本支部";
+display: none;
+position: center;
+padding: 80px 0 25px;
+line-height: 0px;
+max-height: 0px;
+color: #fff;
+background: transparent;
+font-family: BauhausLTDemi, 'Nanum Gothic', Arial, sans-serif;
+font-size: 70%;
+text-shadow: 3px 3px 5px #000;
+letter-spacing: 0.9px;
+word-break:none;
+z-index:1;
+}
+[[/module]]
+
+
+[[module css]]
+
+
+#page-title {
+    font-weight: lighter;
+    font-color: #ffffff;
+    border-color: #ffffff;
+
+ 
+a {
+    color: #494f4f;
+}
+ 
+a.newpage {
+    color: #494f4f;
+}
+ 
+/* HEADER */
+ 
+
+#side-bar {
+  min-height: calc(100% + 0em);
+  background-color: white;
+  transform: translateY(+0em);
+}
+ 
+#side-bar .side-block {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent !important;
+  margin-top: 4em;
+}
+#side-bar .heading {
+    color: #494f4f;
+    border-bottom: solid 1px #178cce;
+}
+#side-bar .side-block a {
+  color: #000000;
+}
+ 
+#footer {
+    background: ;
+    color: ;
+}
+  
+#login-status {
+    color: white;
+}
+ 
+#login-status a {
+    color: white;
+}
+#login-status ul a {
+    color: white;
+}
+ 
+#account-topbutton {
+    color: white;
+}
+ 
+[[/module]]
+
+[[module css]]
+#top-bar ul li.sfhover a,
+#top-bar ul li:hover a {
+background: #ffffff;
+color: #494f4f;
+}
+
+#top-bar ul li.sfhover a:hover,
+#top-bar ul li:hover a:hover {
+background: #ffffff;
+color:#000000;
+}
+[[/module]]
+
+[[module css]]
+
+#side-bar .side-block {
+    border: 1px solid #494f82;
+}
+ 
+#side-bar .heading {
+    color: #494f4f;
+    border-bottom: solid 1px #4f4f4f;
+}
+ 
+#side-bar div.menu-item.inactive a {
+    color: #ffffff;
+}
+#side-bar div.menu-item .sub-text {
+    color: #4f4f4f;
+}
+ 
+#side-bar .collapsible-block-unfolded-link {
+    border-bottom: solid 1px #494f82;
+}
+ 
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link {
+    color: #494f82;
+}
+ 
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+    color: #4f4f4f;
+}
+
+[[/module]]
+
+[[include :scp-jp-sandbox2:inc:addspecialcss]]
+
+[[module css]]
+ 
+.scp-image-block {
+  border: solid 1px black;
+}
+ 
+.scp-image-block .scp-image-caption {
+  background-color: #f0f8ff;
+  border-top: solid 1px #black;
+}
+ 
+/* ページのタイトル */
+h1, #page-title {
+     font-size: 170%;
+     font-weight: BauhausLTDemi;
+    color: #000000;
+    shadow: none;
+}
+[[/module]] 
+@@@@
+@@@@
+@@@@
+
+-----
+
+
+[[div class="boxB"]]
+[[collapsible show="+ 呪いのコンテストアーカイブ" hide="- 表示を終了"]]
+
+[[div class="tab2"]]
+[[tabview]]
+[[tab 結果]]
+-----
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A4589204-101-ze50/呪いのコンテスト%28横%29 width="550px"]]
+-----
+
+[[=]]
+[[span style="color:white"]]
+[[size 250%]]**最終結果**[[/size]][[/span]]
+
+[[span style="color:red"]]
+[[size 120%]]**総合第一位**[[/size]]
+Tale
+[[size 150%]][[a href="http://scp-jp.wikidot.com/susuruna" style="color:red;"]]**あまいしる**[[/a]][[/size]]
+**著者:** [[*user ashimine]]
+[[/span]]
+
+[[span style="color:red"]]
+[[size 120%]]**総合第二位**[[/size]]
+SCP
+[[size 150%]][[a href="http://scp-jp.wikidot.com/scp-2688-jp" style="color:red;"]]**SCP-2688-JP**[[/a]]
+捌縁
+[[/size]]
+**著者:** [[*user ponhiro]]
+[[/span]]
+
+[[span style="color:red"]]
+[[size 120%]]**総合第三位**[[/size]]
+Tale
+[[size 150%]][[a href="http://scp-jp.wikidot.com/twisted-hair" style="color:red;"]]**縒れる髪**[[/a]][[/size]]
+**著者:** [[*user Mitan]]
+[[/span]]
+[[/=]]
+@@@@
+@@@@
+
+[[=]]
+[[span style="color:red"]]
+[[size 120%]]
+**第四位**
+Tale
+[[a href="http://scp-jp.wikidot.com/doujousha" style="color:red;"]]**同乗者**[[/a]][[/size]]
+**著者:** [[*user ashimine]]
+[[/span]]
+
+[[span style="color:red"]]
+[[size 120%]]
+**第五位**
+SCP
+[[a href="http://scp-jp.wikidot.com/scp-1373-jp" style="color:red;"]]**SCP-1373-JP**[[/a]]
+雷鳴の鉄塔
+[[/size]]
+**著者:** [[*user Assistant Gija]]
+[[/span]]
+
+[[span style="color:red"]]
+[[size 120%]]
+**第六位**
+Tale
+[[a href="http://scp-jp.wikidot.com/gohou" style="color:red;"]]**誤報**[[/a]][[/size]]
+**著者:** [[*user ashimine]]
+[[/span]]
+
+[[span style="color:red"]]
+[[size 120%]]
+**第七位**
+Tale
+[[a href="http://scp-jp.wikidot.com/yadohi" style="color:red;"]]**やどひ**[[/a]][[/size]]
+**著者:** [[*user Musibu-wakaru]]
+[[/span]]
+
+[[span style="color:red"]]
+[[size 120%]]
+**第八位**
+Tale
+[[a href="http://scp-jp.wikidot.com/dakejanai" style="color:red;"]]**攘攘**[[/a]][[/size]]
+**著者:** [[*user Musibu-wakaru]]
+[[/span]]
+
+[[span style="color:red"]]
+[[size 120%]]
+**第九位**
+Tale
+[[a href="http://scp-jp.wikidot.com/nigasanai" style="color:red;"]]**みのがす**[[/a]][[/size]]
+**著者:** [[*user ashimine]]
+[[/span]]
+
+-----
+
+[[div style="display: inline-block ; border : solid 1px #ffffff; background :none; margin-left : auto ; margin-right : auto ; width : 700px ; padding:10px"]]
+[[span style="color:white"]]
+[[size 120%]]
+入賞者の皆さん、おめでとうございます。
+ご参加いただき誠にありがとうございました。
+長い間お疲れ様でした。
+[[/size]]
+[[/span]]
+[[/div]]
+
+[[/=]]
+-----
+[[=]]
+[[span style="color:white"]]
+[[size 250%]]**表彰**[[/size]][[/span]]
+[[/=]]
+[[div style="display: inline-block ; border : solid 1px #ffffff; background :none; margin-left : auto ; margin-right : auto ; width : 700px ; padding:10px"]]
+
+[[span style="color:red"]]
+[[size 120%]]**総合第一位**[[/size]]
+[[size 150%]][[a href="http://scp-jp.wikidot.com/susuruna" style="color:red;"]]**あまいしる**[[/a]][[/size]]
+**著者:** [[*user ashimine]]
+[[/span]]
+
+[[include :scp-jp-sandbox3:draft:4589204-131-4573]]
+
+[[span style="color:white"]]
+総合第一位の[[*user ashimine]]さんには称号[[span style="color: #990000"]]**"呪いの王"**[[/span]]とバッジが贈呈されます。以下はバッジを表示する構文です。コピー、ペーストして著者ページ、サンドボックスⅢ等でご自由にお使いください。
+[[/span]]
+> @@[[include :scp-jp-sandbox3:draft:4589204-131-4573]]@@
+
+[[/div]]
+
+@@@@
+@@@@
+
+[[div style="display: inline-block ; border : solid 1px #ffffff; background :none; margin-left : auto ; margin-right : auto ; width : 700px ; padding:10px"]]
+
+[[span style="color:red"]]
+[[size 120%]]**総合第二位**[[/size]]
+[[size 150%]][[a href="http://scp-jp.wikidot.com/scp-2688-jp" style="color:red;"]]**SCP-2688-JP**[[/a]] - 捌縁
+[[/size]]
+**著者:** [[*user ponhiro]]
+[[/span]]
+
+[[include :scp-jp-sandbox3:draft:4589204-133-a9f8]]
+
+[[span style="color:white"]]
+総合第二位の[[*user ponhiro]]さんには称号[[span style="color: #990000"]]**"咒師"**[[/span]]とバッジが贈呈されます。以下はバッジを表示する構文です。コピー、ペーストして著者ページ、サンドボックスⅢ等でご自由にお使いください。
+[[/span]]
+> @@[[include :scp-jp-sandbox3:draft:4589204-133-a9f8]]@@
+
+[[/div]]
+
+@@@@
+@@@@
+
+[[div style="display: inline-block ; border : solid 1px #ffffff; background :none; margin-left : auto ; margin-right : auto ; width : 700px ; padding:10px"]]
+
+[[span style="color:red"]]
+[[size 120%]]**総合第三位**[[/size]]
+[[size 150%]][[a href="http://scp-jp.wikidot.com/twisted-hair" style="color:red;"]]**縒れる髪**[[/a]][[/size]]
+**著者:** [[*user Mitan]]
+[[/span]]
+
+[[include :scp-jp-sandbox3:draft:4589204-134-852c]]
+
+[[span style="color:white"]]
+総合第三位の[[*user Mitan]]には称号[[span style="color: #990000"]]**"霊能者"**[[/span]]とバッジが贈呈されます。以下はバッジを表示する構文です。コピー、ペーストして著者ページ、サンドボックスⅢ等でご自由にお使いください。
+> @@[[include :scp-jp-sandbox3:draft:4589204-134-852c]]@@
+[[/span]]
+[[/div]]
+
+@@@@
+@@@@
+
+[[div style="display: inline-block ; border : solid 1px #ffffff; background :none; margin-left : auto ; margin-right : auto ; width : 700px ; padding:10px"]]
+
+[[span style="color:red"]]
+[[size 120%]]**参加賞**[[/size]]
+[[size 150%]]**参加していただいた全ての作品**[[/size]]
+**著者:** 参加していただいた全ての方
+[[*user ashimine]]さん
+[[*user ponhiro]]さん
+[[*user Mitan]]
+[[*user Assistant Gija]]さん
+[[*user Musibu-wakaru]]さん
+[[/span]]
+
+[[include :scp-jp-sandbox3:draft:4589204-135-cb1f]]
+
+[[span style="color:white"]]
+みなさんには参加賞[[span style="color: #990000"]]**"藁人形"**[[/span]]とバッジが贈呈されます。以下はバッジを表示する構文です。コピー、ペーストして著者ページ、サンドボックスⅢ等でご自由にお使いください。
+> @@[[include :scp-jp-sandbox3:draft:4589204-135-cb1f]]@@
+[[/span]]
+[[/div]]
+@@@@
+@@@@
+@@@@
+@@@@
+[[span style="color:white"]]
+[[size 80%]]
+これは何？:
+[[/span]]
+> @@[[include :scp-jp-sandbox3: draft:4589204-147-7491]]@@
+[[/size]]
+@@@@
+@@@@
+[[/tab]]
+[[tab 呪いのコンテスト]]
+[[span style="color:white"]]
+-----
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A4589204-71-kmtz/呪コン width="550px"]]
+-----
+[[/span]]
+[[/tab]]
+
+[[tab コンテスト概要]]
+[[=]]
+[[span style="color:white"]][[size 150%]]**期間**[[/size]][[/span]]
+
+[[div class="boxE"]]
+[[span style="color:black"]]
+**終了**
+
+[[size 250%]]コンテスト終了[[/size]]
+[[/span]]
+@@@@
+@@@@
+[[/div]]
+
+[[span style="color:white"]]
+**投稿期間**
+2月1日00時00分00秒 〜 2月28日23時59分59秒
+[[/span]]
+[[span style="color:red"]](投稿期間終了)[[/span]]
+[[span style="color:white"]]
+**投票期間**
+2月1日00時00分00秒 〜 3月10日23時59分59秒
+[[/span]]
+[[span style="color:red"]](投票期間終了)[[/span]]
+
+@@@@
+@@@@
+-----
+[[span style="color:white"]]
+[[size 150%]]**呪いのコンテストとは**[[/size]][[/span]]
+
+[[span style="color:white"]]
+呪いのコンテストは"呪い"をテーマとしたホラー限定コンテストです。
+
+呪いはホラーにおいてはメジャーな概念であり、しばしば映画や小説等のフィクションにも登場します。呪術や魔術といったある種の技術─「マジナい」として、人々を脅かす霊的恐怖─「ノロい」として、様々な形で"呪い"は描かれます。
+
+呪いのコンテストにおいての"呪い"は「ノロい」「マジナい」の双方を含みます。このコンテストでは財団世界における"呪い"を募集します。
+
+-----
+
+@@@@
+[[/span]]
+[[/=]]
+[[/tab]]
+
+[[tab レギュレーション]]
+[[=]]
+[[span style="color:white"]][[size 150%]]**レギュレーション**[[/size]][[/span]]
+[[span style="color:white"]]
+｢scp｣、｢tale｣、｢goi-format｣タグのいずれかが付された作品で記事の根幹に何らかの「呪い」が描かれており、かつホラーに類するジャンルであることが条件です。参加する場合はdiscussionにて参加の表明をして下さい。気が付き次第、[[*user Mitan]]が追加します。万が一反応がなかった場合はお手数ですがTwitter、もしくはPMまでご連絡ください。
+[[/span]]
+
+[[span style="color:white"]]
+順位は投票期間終了時点でのrate順に決定します。総合上位3位までに景品としてそれぞれ称号を、参加して頂いた方には参加賞を贈呈します。以下は現時点で予定している称号の一覧です。[[/span]]
+[[div class="boxE"]]
+@@@@
+@@@@
+@@@@
+@@@@
+[[=]]
+**総合第一位**
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A4589204-75-g3zd/呪いの王 width="100px"]]
+[[size 150%]]**呪いの王**[[/size]]
+
+@@@@
+-----
+@@@@
+
+**総合第二位**
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A4589204-74-b2tg/咒師 width="100px"]]
+[[size 150%]]**咒師**[[/size]]
+
+@@@@
+-----
+@@@@
+
+**総合第三位**
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A4589204-73-urm7/霊能者 width="100px"]]
+[[size 150%]]**霊能者**[[/size]]
+
+@@@@
+-----
+@@@@
+
+**参加賞**
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A4589204-76-qxnh/参加賞 width="100px"]]
+[[size 150%]]**藁人形**[[/size]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+[[/=]]
+[[/div]]
+@@@@
+@@@@
+[[/=]]
+[[/tab]]
+
+[[tab 参加作品]]
+[[=]]
+[[span style="color:white"]]
+[[size 150%]]**参加作品**[[/size]][[/span]]
+[[span style="color:white"]]
+
+作品は参加順に掲載されます。
+[[/span]]
+[[div class="box3"]]
+
+[[module ListPages category="_default" name="susuruna"]]
+**1.** [[[susuruna|]]] (%%rating%%) by [[*user ashimine]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-1373-jp"]]
+**2.** [[[SCP-1373-JP| SCP-1373-JP]]] - 雷鳴の鉄塔
+(%%rating%%) by [[*user Assistant Gija]]
+[[/module]]
+
+[[module ListPages category="_default" name="scp-2688-jp"]]
+**3.** [[[SCP-2688-JP| SCP-2688-JP]]] - 捌縁 (%%rating%%) by [[*user ponhiro]]
+[[/module]]
+
+[[module ListPages category="_default" name="twisted-hair"]]
+**4.** [[[twisted-hair|]]] (%%rating%%) by [[*user Mitan]]
+[[/module]]
+
+[[module ListPages category="_default" name="dakejanai"]]
+**5.** [[[dakejanai|]]] (%%rating%%) by [[*user Musibu-wakaru]]
+[[/module]]
+
+[[module ListPages category="_default" name="gohou"]]
+**6.** [[[gohou|]]] (%%rating%%) by [[*user ashimine]]
+[[/module]]
+
+[[module ListPages category="_default" name="doujousha"]]
+**7.** [[[doujousha|]]] (%%rating%%) by [[*user ashimine]]
+[[/module]]
+
+[[module ListPages category="_default" name="nigasanai"]]
+**8.** [[[nigasanai|]]] (%%rating%%) by [[*user ashimine]]
+[[/module]]
+
+[[module ListPages category="_default" name="yadohi"]]
+**9.** [[[yadohi|]]] (%%rating%%) by [[*user Musibu-wakaru]]
+[[/module]]
+
+[[/div]]
+[[/=]]
+[[/tab]]
+
+[[tab Q&A]]
+[[=]]
+[[span style="color:white"]]
+[[size 150%]]**Q&A**[[/size]][[/span]]
+[[/=]]
+> **Q.** 要するにこのコンテストは何なの？
+> 
+> **A.** 色んな呪いをテーマにした記事が読みたい人間が開催してるコンテストです。
+-----
+> **Q.** 呪いなら何でもいいの？
+> 
+> **A.** ホラーな呪いにしてください。例えばエルヴィス・プレスリーのモノマネをしたらケツが爆発して死ぬ呪いを書いたとして、それが笑いを誘うようであるならばこのコンテストに参加できません。ホラーな文脈でエルヴィス・プレスリーのモノマネをしたらケツが爆発して死ぬ呪いを書いてください。
+-----
+> **Q.** パラウォッチみたいな財団関係ないホラーじゃ歓迎されない？
+> 
+> **A.** 大歓迎です。皆様の思い思いの呪いを見せてください。
+-----
+> **Q.** 財団世界におけるって書いてあるけど、フィクションホラーのみの参加？
+> 
+> **A.** いいえ。**ホンモノ**をお持ちの方もドシドシご参加ください。
+-----
+> **Q.** このコンテスト自体が呪われてるわけじゃないの？
+> 
+> **A.** さあ
+[[span style="color:white"]]
+質問のある方は[[*user Mitan]]のPM、もしくは[[[https://twitter.com/Mitan_2222222?s=09 |Twitter]]]までお問い合わせください。
+[[/span]]
+[[/tab]]
+
+
+[[/tabview]]
+[[/div]]
+
+[[/collapsible]]
+
+-----
+[[/div]]
+
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[include :scp-jp-sandbox3:draft:4589204-134-852c]]
+
+[[include :scp-jp-sandbox3:draft:4589204-135-cb1f]]
+
+[[include :scp-jp-sandbox3: draft:4589204-147-7491]]
+
+[[=]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+-----
+
+[[size 200%]]{{Access}}[[/size]]
+
+{{[[size 120%]]Sandbox[[/size]](Ⅱ＆Ⅲ)}}
+[[image http://ja.scp-wiki.net/local--files/author:mitan/Sandbox2
+ link="http://scp-jp-sandbox2.wikidot.com/mitan" width="60"]]
+
+[[image http://ja.scp-wiki.net/local--files/author:mitan/Sandbox3
+ link="http://scp-jp-sandbox3.wikidot.com/portal:4589204
+" width="60"]]
+
+= {{[[size 120%]]Twitter[[/size]]}}
+[[image http://ja.scp-wiki.net/local--files/author:mitan/twitter
+ link="https://twitter.com/Mitan_2222222?s=09" width="60"]]
+{{[[size 90%]]@Mitan_2222222[[/size]]}}
+-----
+[[/=]]
+@@@@
+@@@@
+[[=]]
+
+[[module css]]
+.textchange div.sitemember:nth-child(2) {
+display:none;
+}
+[[/module]]
+
+[[module css]]
+.yui-nav{
+border:none !important;
+color:#000 !important;
+background-color:#000000 !important;
+padding:3px;
+}
+.yui-nav li a em{
+border: 2px !important;
+color:#000000 !important;
+background-color:#ffffff !important;
+}
+
+.yui-nav li.selected a em{
+border:true !important;
+color:#b20007 !important;
+background-color:#fff  !important;
+}
+.yui-navset{
+border:true !important;
+background-color:#ffffff !important;
+}
+.yui-content{
+border:true !important;
+border:solid 5px
+background-color:#ffffff !important;
+color:#000 !important;
+}
+
+[[/module]]
+
+[[size 200%]]{{Products}}[[/size]]
+@@@@
+[[div class="smpluCustomTab"]]
+[[tabview]]
+[[tab List]]
+[[=]]
++++ {{SCPs}}
+[[/=]]
+[[module ListPages created_by="Mitan" separate="no" tags="+scp +jp" order="created" category="*" prependLine="||~ SCP ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+
+[[=]]
++++ {{Tales}}
+[[/=]]
+[[module ListPages created_by="Mitan" separate="no" tags="tale +jp" order="created" category="*" prependLine="||~ Tale ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+
+[[=]]
++++ {{Others}}
+[[/=]]
+[[module ListPages created_by="Mitan" separate="no" tags="-scp -author -tale -著者ページ" order="created" category="*" prependLine="||~ Others ||~ Rating ||~ Comments ||~ Created ||~ Last Comment ||"]]
+|| %%title_linked%% || %%rating%% || %%comments%% || %%created_at%% || %%commented_at%% ||
+[[/module]]
+
+
+
+[[/=]]
+@@@@
+@@@@
+[[/tab]]
+[[/tabview]]
+[[/div]]
+
+
+-----
+
+@@@@
+@@@@
+
+
+[[=]]
+[[size 200%]]{{Scars}}[[/size]]
+@@@@
+@@@@
+
+[[include :smlt:7happy7:achievement-jp-module |a1=true|a2=true|a3=true|a4=true|a5=true|a6=true|a9=true|a10=true|a11=true|a12=true|a13=true|a14=true|a16=true|a18=true|a20=true|a30=true|a32=true|a35=true|a40=true|a41=true|a45=true|a46=true|a47=true|a48=true|a49=true|a50=true|a55=true|a56=true|a62=true|a65=true|a66=true|a72=true|num=32]]
+
+@@@@
+= [[collapsible show="▻ 詳細を表示" hide="► 表示を終了"]]
+
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**参加表明**[[/span]][[/size]]
+[[size 85%]]**サイトへの参加を承認される**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="right-grid"]]
+[[size 120%]][[span style="color:#970118"]]**はじめましての挨拶**[[/span]][[/size]]
+[[size 85%]]**フォーラムに書き込む**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**秘密の実験室**[[/span]][[/size]]
+[[size 85%]]**サンドボックスに自分のページを作成する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="right-grid"]]
+[[size 120%]][[span style="color:#970118"]]**三人寄れば**[[/span]][[/size]]
+[[size 85%]]**フォーラムで下書きを公開する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**小さな一歩**[[/span]][[/size]]
+[[size 85%]]**記事を作成する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="right-grid"]]
+[[size 120%]][[span style="color:#970118"]]**採用通知**[[/span]][[/size]]
+[[size 85%]]**人事ファイルを作成する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="right-grid"]]
+[[size 120%]][[span style="color:#970118"]]**表紙を飾る**[[/span]][[/size]]
+[[size 85%]]** 執筆したTaleが注目のTaleに取り上げられる**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="right-grid"]]
+[[size 120%]][[span style="color:#970118"]]**銅メダル**[[/span]][[/size]]
+[[size 85%]]**評価が15以上の記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**銀メダル**[[/span]][[/size]]
+[[size 85%]]**評価が30以上の記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="right-grid"]]
+[[size 120%]][[span style="color:#970118"]]**金メダル**[[/span]][[/size]]
+[[size 85%]]**評価が50以上の記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**テレキル合金メダル**[[/span]][[/size]]
+[[size 85%]]**評価が100以上の記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**みならい・そうさく**[[/span]][[/size]]
+[[size 85%]]**SCP記事を5以上作成する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**みならい・かたりべ**[[/span]][[/size]]
+[[size 85%]]**Taleを5以上作成する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**ミスター・そうさく**[[/span]][[/size]]
+[[size 85%]]**SCP記事を10以上作成する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**ミスター・かたりべ**[[/span]][[/size]]
+[[size 85%]]**Taleを10以上作成する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**お祭り好き**[[/span]][[/size]]
+[[size 85%]]**コンテストに参加する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**ダイスキミヤザワ**[[/span]][[/size]]
+[[size 85%]]**コンテストで優勝する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**生物学者**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ生物学、生命、遺伝子、動物、植物、バクテリアのいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**言語学者**[[/span]][[/size]]
+[[size 85%]]** 評価が20以上で、かつ言語、文書、文字入り、記述、語りのいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**心理学者**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ精神影響、ミーム、強制力、感情、記憶影響、知識のいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**建築家**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ都市、建築家、場所のいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="right-grid"]]
+[[size 120%]][[span style="color:#970118"]]**旅人**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ時空間、未来、異次元、地図、ポータルのいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**エンジニア**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつ機械、時計仕掛け、電子デバイス、自動装置、コンピュータのいずれかのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**崩壊のきっかけ**[[/span]][[/size]]
+[[size 85%]]**評価が20以上で、かつxkクラスのタグを持つSCP記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**めちゃめちゃいケテル**[[/span]][[/size]]
+[[size 85%]]**評価が20以上のKeterクラスオブジェクトについてのSCP記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**秩序を守る悪魔**[[/span]][[/size]]
+[[size 85%]]**評価が20以上のThaumielクラスオブジェクトについてのSCP記事を書く**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**誰かの日常**[[/span]][[/size]]
+[[size 85%]]**財団職員が登場せず、かつ評価が20以上のTaleを作成する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="left-grid"]]
+[[size 120%]][[span style="color:#970118"]]**SCPは世界をつなぐ**[[/span]][[/size]]
+[[size 85%]]**日本支部以外の支部、または本家サイトの記事が元となっており、かつ評価が20以上のTaleを作成する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="right-grid"]]
+[[size 120%]][[span style="color:#970118"]]**週刊誌**[[/span]][[/size]]
+[[size 85%]]**一か月に4つ以上の記事を作成する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="right-grid"]]
+[[size 120%]][[span style="color:#970118"]]**みんなでつくろう**[[/span]][[/size]]
+[[size 85%]]**合作記事を作成する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="right-grid"]]
+[[size 120%]][[span style="color:#970118"]]**普通じゃない**[[/span]][[/size]]
+[[size 85%]]**日本のAnomalousアイテム一覧に追記する**[[/size]]
+[[/div]]
+
+@@@@
+[[div class="right-grid"]]
+[[size 120%]][[span style="color:#970118"]]**スカスカのアルバム**[[/span]][[/size]]
+[[size 85%]]**自分の撮影した写真を使用した記事が10以上ある**[[/size]]
+[[/div]]
+
+@@@@
+[[/collapsible]]
+
+[[/=]]
+
+-----
+
+[[=]]
+[[size 200%]]{{Personnel File}}[[/size]]
+[[/=]]
+
+[[div class="smpluCustomTab"]]
+[[tabview]]
+[[tab 泥濘研究員の人事ファイル]]
+[[=]]
+[[size 180%]]泥濘研究員の人事ファイル[[/size]]
+[[/=]]
+
+[[include component:image-block
+|name=ねこ
+|caption=泥濘研究員撮影。]]
+
+**氏名:** 泥濘 拓也 (ﾇｶﾘ ﾀｸﾔ)
+
+**性別:** 男性
+
+**血液型:** A型
+
+**生年月日:** 1977/2/2
+
+**身長:** 168cm
+
+**体重:** 69kg
+
+**職種:** 施設職員/研究員
+
+**クリアランスレベル:** 2
+
+**忠誠度評価:** +A
+
+**留意事項:** 慢性鼻炎、重度のネコアレルギー持ち
+
+
+**研究:** 
+* [[[https://t.co/xzX9QGLTIN |SCP-1065-JP ]]]
+* [[[https://t.co/uqUELCqQNX |SCP-1205-JP ]]]
+
+
+
+**人物:** 周辺職員からは比較的温和な性格と評価されており、--目立った問題行動も認められません--他の職員の職務の妨げとなるような問題行動は認められません。目立った特徴として、常に--原因不明の鼻炎--アレルギー性鼻炎の症状を示しています。泥濘研究員は1999年に財団に入団しました。物理学を専門としており、現在では異常な性質を示す空間の研究及びオブジェクトの研究に従事しています。泥濘研究員は忠誠度テストにおいても+A評価を獲得しており、財団に対して--非常に従順な人物です--やや規則に違反することがありますが、基本的に従順な人物です。
+
+**追記1:** 2001/3/2、泥濘研究員が研究室内にイエネコ(//Felis silvestris catus//)を連れ込みアナフィラキシーショックを起こし医療室へと運び込まれました。泥濘研究員はデスクの上でイエネコの胴体に顔を埋めて意識を失っている所を発見されました。研究室は認可された動物以外の持ち込みを禁止されていましたが、泥濘研究員は認可無しに持ち込んだ事が判明しました。泥濘研究員は自身がネコに対してアレルギー疾患を持つことを認知していながらイエネコを研究室へと持ち込んだと考えられます。この事案を受け、医療スタッフは泥濘研究員に対してインタビューを実施しました。
+
+__**インタビュー記録**__
+> **インタビュアー:** 医療スタッフ
+> 
+> **対象:** 泥濘研究員
+> 
+> -----
+> 
+> **＜記録開始＞**
+> 
+> **医療スタッフ:** 何故、研究室に猫を連れ込んだんですか？
+> 
+> **泥濘研究員:** ほんと…すみません…
+> 
+> **医療スタッフ:** 謝罪はもういいですから、どうして連れ込んだのか教えてください。
+> 
+> **泥濘研究員:** どうして…と言われても…
+> 
+> **医療スタッフ:** あなたは自分がネコアレルギーを持っていることを知っていましたよね？なのにどうしてわざわざアレルゲンを連れ込んだのですか？
+> 
+> **泥濘研究員:** えーと…なんでしょうか…強いて言うなら…
+> 
+> //[9秒間の沈黙]//
+> 
+> **泥濘研究員:** 癒しが欲しくて…
+> 
+> **医療スタッフ:** 癒し？
+> 
+> **泥濘研究員:** ……はい。
+> 
+> **医療スタッフ:** えーと…あなたがネコを連れ込んだのは癒しが欲しかったから…ということですか？
+> 
+> **泥濘研究員:** はい。
+> 
+> //[医療スタッフは呆れたような表情を浮かべる]//
+> 
+> **泥濘研究員:** 本当、変な話ですけど…だって、ネコってかわいいじゃないですか。
+> 
+> **医療スタッフ:** まぁ、それは分かりますけど…
+> 
+> **泥濘研究員:** 本当は申請してから持ち込むのが正しいんでしょうけど…僕はアレルギー持ちなので申請なんて通る訳無いですし…
+> 
+> **医療スタッフ:** だからって…結局危なくなるのはあなたなんですよ？
+> 
+> **泥濘研究員:** ……はい……。
+> 
+> **医療スタッフ:** なんであれ、理由は分かりました。インタビューを終了します。
+> 
+> **＜記録終了＞**
+
+**事後報告:** 当初、泥濘研究員には1ヶ月の謹慎、3ヶ月の減給処分が予定されていましたが、同僚達による小規模な署名活動によって処分は軽減され、2週間の謹慎、2ヶ月のネコ科動物への接触禁止処分となりました。
+
+> 本人も反省している様ですし、これぐらいの処分が妥当かと思われます。規則に違反するほどに癒しを求めていたのも、我々の過酷な労働環境が原因ですし。
+> [[>]]
+> ー███研究室長
+> [[/>]]
+
+> 本当に皆さんにはご迷惑をお掛けしました。研究室長と財団の寛大なご処置には感謝してもしきれません。私は相変わらずネコが好きですが、体と研究のためにもネコと遊ぶことは控えたいと思っています。勿論、自制心が弱いというのは自覚しています。だから一部の職員がまたネコを連れ込むのでは無いかと心配しているのも承知しています。ですが、今度こそ私はネコから離れられると確信しています。理由はこの度申請していた**フクロウ**の連れ込みが認可されたからです。認可して頂いた皆様にも感謝申し上げます。
+> [[>]]
+> ー泥濘研究員
+> [[/>]]
+@@@@
+
+[[include component:image-block
+|name=フクロウ
+|caption=泥濘研究員撮影。]]
+
+> かわいいですよね。ワシミミズク。
+> [[>]]
+> ー泥濘研究員
+> [[/>]]
+
+@@@@
+@@@@
+**追記2:** 現在、泥濘研究員は1週間に8時間だけアフリカワシミミズク(//Bubo africanus//)を研究室内に連れ込む事が認可されています。現在までに8時間を超えた接触は報告されていませんが、万が一確認された場合は泥濘研究員に対して注意を行ってください。
+@@@@
+@@@@
+> フクロウぐらいならいいんじゃないでしょうか。何度もアナフィラキシーで倒れられても困りますから。
+> [[>]]
+> ー医療スタッフ
+> [[/>]]
+
+-----
+
+付属資料: 泥濘研究員の個人記録
+[[size 200%]][[span style="color: green"]]泥濘研究員の個人記録[[/span]][[/size]]
+-----
+@@@@
+こんにちは！泥濘です。今回は個人ファイル作成の機会を頂きました！何を書けば良いのか迷ってしまいますが、心の赴くままに書いてみたいと思います！
+@@@@
+@@@@
+[[=]]
+自己紹介
+[[/=]]
+
+**名前:** 泥濘拓也
+> よく初対面の人とかには"ヌカルミ"って読み間違えられてしまいますが、読み方は"ヌカリ"です。
+
+**誕生日:** 2月2日
+> プレゼントとかはあまり貰ったことがありませんが、いつも募集してます
+
+
+**好きな物:** 動物
+> もふもふした可愛いのが特に大好きです。勿論もふもふしてない動物も大好きです。
+
+**嫌いな物:** ハエ
+> 彼らだけはどうしても好きになれません。ごめんね。
+
+
+@@@@ 
+@@@@
+-----
+@@@@
+@@@@
+[[size 80%]]なんの脈絡も無く始まる[[/size]]
+@@@@
+[[size 200%]]**好きな動物ランキング！！**[[/size]]
+@@@@
+ここでは私、泥濘が大好きな動物の中でも特にイチオシの動物達をご紹介したいと思います。ジャンル別に分けておきますので、｢おっ？｣と思った動物がいましたらリンクをクリックしてみてください(外部サイトへと飛びます)。
+@@@@
+@@@@
+[[size 150%]]__**もふもふ部門！！**__[[/size]]
+[[size 80%]]動物特有の体毛の手触り……もふもふした感触は、私たちに癒しと中毒性を与えてくれます……もふもふ……[[/size]]
+
+**第1位**  [[size 120%]]**__シロヘラコウモリ__**[[/size]]([[[https://ja.m.wikipedia.org/wiki/%E3%82%B7%E3%83%AD%E3%83%98%E3%83%A9%E3%82%B3%E3%82%A6%E3%83%A2%E3%83%AA |Wikipediaへ]]])
+> 私のお気に入りナンバーワン動物です。白くてモコモコした見た目がとってもcute！バナナの葉の裏で身を寄せ合う姿もとても愛らしいです。
+@@@@
+@@@@
+**第2位**  [[size 120%]]__**エナガ**__[[/size]]  __亜種シマエナガ__([[[https://ja.m.wikipedia.org/wiki/%E3%82%A8%E3%83%8A%E3%82%AC |Wikipediaへ]]])
+> 雪の妖精という2つ名を持つ小鳥です。白くわた毛のような羽毛も持つ姿は、まさに妖精そのもの。仕草から何からどこをとっても可愛い鳥類です。
+@@@@
+@@@@
+**第3位**  [[size 120%]]**__ホンドタヌキ__**[[/size]]([[[https://ja.m.wikipedia.org/wiki/%E3%83%9B%E3%83%B3%E3%83%89%E3%82%BF%E3%83%8C%E3%82%AD |Wikipediaへ]]])
+> いわゆるタヌキの日本産亜種です。冬毛のホンドタヌキは見た目からしてモッフモフです。人馴れしている個体もいますが、人懐っこいからといって無闇にご飯をあげてはいけません。もふもふと触れ合う時も最低限の規範は守りましょう。
+@@@@
+@@@@
+**第4位**  [[size 120%]]**__アライグマ__**[[/size]]([[[https://ja.m.wikipedia.org/wiki/%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%B0%E3%83%9E |Wikipediaへ]]])
+> 手を洗うような仕草が特徴的な動物です。海外ではゴミパンダ(trash panda)とも呼ばれているようです。害獣としてのイメージが定着してしまっていますが、私個人としてはとっっっっても可愛い動物だと思います！
+@@@@
+@@@@
+**第5位**  [[size 120%]]**__カイウサギ(ライオンラビット種)__**[[/size]]([[[https://ja.m.wikipedia.org/wiki/%E3%82%AB%E3%82%A4%E3%82%A6%E3%82%B5%E3%82%AE |Wikipediaへ]]])
+> 言わずと知れた兎ちゃんです。このカイウサギには幾つか品種が存在するのですが、私は特にライオンラビット種を好んでいます。長い、ライオンのたてがみのような毛は触り心地満点です。
+
+@@@@
+@@@@
+[[/tab]]
+
+[[tab 死亡済み職員一覧]]
+[[size 150%]]
+= 死亡済み職員一覧[[/size]]
+-----
+[[size 120%]]
+[[collapsible show="+ 機動部隊" hide="− 機動部隊"]][[/size]]
+-----
+
+++ 機動部隊 へ-9("鋼の祓魔師")
+
+**任務:** [[[SCP-1205-JP]]]内部探査。D-16356の回収。試験型超小型スラント霊素固着波生成器運用テスト。
+
+
+**死亡者一覧**
+
+隊長
+* 草田茂雄 (享年52歳) - 死因: 脳挫傷/右前頭部銃創 (自己終了)
+隊員(9名)
+* 岡山弘樹 (享年31歳) - 死因: 不明
+* 加藤広美 (享年44歳) - 死因: 不明
+* 中里浩樹 (享年32歳) - 死因: 脳挫傷/右前頭部銃創 (自己終了)
+* 高畑光希 (享年40歳) - 死因: 脳挫傷/左前頭部銃創 (自己終了)
+* 中山功太 (享年42歳) - 死因: 脳挫滅
+* マーカス=ファイブ (享年36歳) - 死因: 内臓破裂
+* アリス=ヤマウチ (享年27歳) - 死因: 大量失血
+* 河内太郎 (享年32歳) - 死因: 窒息
+* 木川茜 (享年42歳) - 死因: 不明
+
+-----
+
+++ 対SCP-1420-JP特設攻撃部隊
+
+**任務:** 兵庫県南部地震による大規模地震災害に伴い収容違反した[[[SCP-1420-JP]]]-1群の鎮圧。
+
+**死亡者一覧**
+
+隊長
+* 酒田康太 (享年33歳) - 死因: 肺及び心臓の破裂に伴う出血性ショック
+隊員(5名)
+* 佐山高尾 (享年56歳) - 死因: 頚椎断裂
+* 山形ゆき (享年28歳) - 死因: 肝門脈破断に伴う出血性ショック
+* 大湊栄 (享年52歳) - 死因: 脳挫傷/右前頭部銃創 (山形隊員による誤射)
+* 白石興毅 (享年29歳) - 死因: 全身打撲
+* ケネス=コネリー (享年53歳) - 死因: 呼吸困難 (頭蓋骨下部の破裂骨折に伴う血液の流出による)
+
+-----
+
+++ 岩手県常駐即応機動部隊
+
+**任務:** 事象-1620-JPに見舞われた岩手県立███病院（[[[SCP-1620-JP]]]-2）内の患者の退避指揮。
+
+**死亡者一覧**
+
+隊員(3名)
+* 小川恭介 (享年27歳) - 死因: ハンセン病様疾患による呼吸不全
+* 山形ゆき (享年28歳) - 死因: 窒息死（自殺）
+* 高橋耕 (享年42歳) - 死因: 轢死（自殺？）
+
+-----
+
+++ 機動部隊る-7("恐れるクロノス")
+
+**任務:** ██県旧███村における[[[SCP-1395-JP]]]の調査。未収容のSCP-1395-JPの収容。
+
+**死亡者一覧**
+
+隊員(3名)
+* チョ・グンソク (享年37歳) - 死因: 左半身損傷による出血性ショック
+* 佐川光彦 (享年24歳) - 死因: 不明（胸部の開放裂傷か？）
+* 田山叶恵 (享年22歳) - 死因: 不明（頭部の損傷か？）
+
+-----
+
+++ 機動部隊る-9("我が子を食らうサトゥルヌス")
+
+**任務:** [[[SCP-1395-JP]]]の営巣が認められた洞穴への侵攻。[[[SCP-1395-JP]]]の収容維持。
+
+**死亡者一覧**
+
+隊員(5名)
+* 山戸深琴 (享年27歳) - 死因: 不明（左腕以外未回収）
+* 山戸美香 (享年26歳) - 死因: 頸動脈断裂に伴う出血性ショック
+* 香川一治 (享年52歳) - 死因: 頸動脈断裂に伴う出血性ショック
+* 田代輝之 (享年60歳) - 死因: 脳挫傷
+* 大竹裕富 (享年41歳) - 死因: 爆死（手榴弾を用いた自爆）
+
+[[/collapsible]]
+-----
+[[size 120%]]
+[[collapsible show="+ フィールドエージェント" hide="− フィールドエージェント"]][[/size]]
+-----
+
+++ [編集済]
+
+[[/collapsible]]
+-----
+[[size 120%]]
+[[collapsible show="+ 研究員" hide="− 研究員"]][[/size]]
+-----
+
+++ 収容サイト-81██(SCP-1420-JP関連研究施設) 
+
+**概要:** ██研究顧問らが兵庫県南部地震による大規模地震災害に伴い収容違反した[[[SCP-1420-JP]]]との対話を試みました。
+
+**死亡者一覧**
+
+* ██研究顧問 (享年58歳) - 死因: 全身打撲及び内臓破裂
+* 佐藤夏樹研究員 (享年39歳) - 死因: 全身打撲及び内臓破裂
+[[/collapsible]]
+-----
+[[/tab]]
+[[/tabview]]
+[[/div]]
