@@ -87,20 +87,30 @@ border: 3px solid #AAAA55;
 color: #DDDD77;
 }
 
-cell.admonition-head {
+.admonition-head {
   border-bottom: 1px solid #AAA;
   border-right: 1px solid #AAA;
   text-align: center;
   width: 25%;
+}
+.admonition-head:last-of-type {
+  border-right: unset;
+}
+.admonition-head::first-line {
   font-weight: bold;
   font-size: 90%;
 }
-cell.admonition-head:last-of-type {
-  border-bottom: 1px solid #AAA;
+
+.admonition-content {
+  border-right: 1px solid #AAA;
   text-align: center;
   width: 25%;
-  font-weight: bold;
-  font-size: 90%;
+}
+.admonition-content {
+  border-right: unset;
+}
+.admonition-content::first-line {
+  font-size: 80%;
 }
 [[/module]]
 [[div style="display: none;"]]
@@ -211,17 +221,17 @@ name=http://scp-jp-storage.wdfiles.com/local--files/file:7974444-75-kati/Memoria
 [[/cell]]
 [[/row]]
 [[row]]
-[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
-[[size 80%]][[[site-17-hub|サイト-17]]][[/size]]
+[[cell class="admonition-content"]]
+[[[site-17-hub|サイト-17]]]
 [[/cell]]
-[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
-[[size 80%]]グラハム管理官[[/size]]
+[[cell class="admonition-content"]]
+グラハム管理官
 [[/cell]]
-[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
-[[size 80%]]ベネディクト博士[[/size]]
+[[cell class="admonition-content"]]
+ベネディクト博士
 [[/cell]]
-[[cell style="text-align: center; width: 25%;"]]
-[[size 80%]]機動部隊ニュー-7 ("下される鉄槌")[[/size]]
+[[cell class="admonition-content"]]
+機動部隊ニュー-7 ("下される鉄槌")
 [[/cell]]
 [[/row]]
 [[/table]]
