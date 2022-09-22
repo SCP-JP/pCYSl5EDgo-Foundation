@@ -3,16 +3,14 @@ $folder = './trans/prepare/';
 
 function PostParent([string]$name, [string]$title, [string]$tags, [string]$parent) {
 echo "post ${name}";
-$filename = $name.Replace(':', ' ');
-./SCP.exe page upload ${branch} ${name} "${folder}${filename}.ftml" --title "${title}" --parent-page "${parent}";
+./SCP.exe page upload ${branch} ${name} -w ${folder} --title "${title}" --parent-page "${parent}";
 ./SCP.exe forum ensure ${branch} ${name};
 ./SCP.exe page update-tags ${branch} ${name} "${tags}";
 }
 
 function Post([string]$name, [string]$title, [string]$tags) {
 echo "post ${name}";
-$filename = $name.Replace(':', ' ');
-./SCP.exe page upload ${branch} ${name} "${folder}${filename}.ftml" --title "${title}";
+./SCP.exe page upload ${branch} ${name} -w ${folder} --title "${title}";
 ./SCP.exe forum ensure ${branch} ${name};
 ./SCP.exe page update-tags ${branch} ${name} "${tags}";
 }
