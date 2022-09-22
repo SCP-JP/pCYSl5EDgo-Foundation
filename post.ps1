@@ -1,11 +1,6 @@
 $branch = 'pcysl';
 $folder = './trans/prepare/';
 
-function PostCredits([string]$name) {
-echo "post ${name}";
-./SCP.exe page upload ${branch} "credits-${name}" "./others/utility/credits-${name}.ftml";
-}
-
 function PostParent([string]$name, [string]$title, [string]$tags, [string]$parent) {
 echo "post ${name}";
 $filename = $name.Replace(':', ' ');
@@ -14,23 +9,12 @@ $filename = $name.Replace(':', ' ');
 ./SCP.exe page update-tags ${branch} ${name} "${tags}";
 }
 
-function SetParent([string]$name, [string]$parent) {
-echo "set parent ${name}";
-./SCP.exe page update-parent-page ${branch} ${name} ${parent};
-}
-
 function Post([string]$name, [string]$title, [string]$tags) {
 echo "post ${name}";
 $filename = $name.Replace(':', ' ');
 ./SCP.exe page upload ${branch} ${name} "${folder}${filename}.ftml" --title "${title}";
 ./SCP.exe forum ensure ${branch} ${name};
 ./SCP.exe page update-tags ${branch} ${name} "${tags}";
-}
-
-function PostForum([string]$name) {
-echo "post forum ${name}";
-$filename = $name.Replace(':', ' ');
-./SCP.exe forum upload-page ${branch} ${name} "${folder}${filename}.forum.ftml" --title 'オーサーポスト及びライセンス表記';
 }
 
 # Post 'test-subjects' '「実験対象」(B82SW/9KL74/Y4P1K)' 'en goi-format 深淵目録 _mc&d アイリス・ダーク mc&d プロメテウス サーキック';
@@ -56,26 +40,4 @@ $filename = $name.Replace(':', ' ');
 # }
 # for ($i = 1; $i -lt 3; $i++) {
 #     PostParent "adult:scp-6969-j-${i}" "End of Sex Fragment ${i}" 'en フラグメント アダルト リダイレクト' 'adult:scp-6969-j';
-# }
-
-# PostForum 'test-subjects';
-# PostForum 'scp-4051';
-# PostForum 'the-beast-beneath-the-library';
-# PostForum 'scp-4855';
-# PostForum 'scp-5576';
-# PostForum 'scp-5715';
-# PostForum 'scp-5947';
-# PostForum 'adult:scp-6086';
-# PostForum 'scp-6111';
-# PostForum 'scp-6113';
-# PostForum 'adult:scp-6969';
-# PostForum 'adult:scp-6969-j';
-# for ($i = 1; $i -lt 4; $i++) {
-#     PostForum "fragment:scp-5947-${i}";
-# }
-# for ($i = 0; $i -lt 5; $i++) {
-#     PostForum "fragment:scp-6113-${i}";
-# }
-# for ($i = 1; $i -lt 3; $i++) {
-#     PostForum "adult:scp-6969-j-${i}";
 # }
