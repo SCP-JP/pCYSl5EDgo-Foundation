@@ -37,5 +37,5 @@ echo "post ${name}";
 #     PostParent "fragment:scp-6113-${i}" "Scp 6113 ${i}" 'en フラグメント' 'scp-6113';
 # }
 # for ($i = 1; $i -lt 3; $i++) {
-#     PostParent "adult:scp-6969-j-${i}" "End of Sex Fragment ${i}" 'en フラグメント アダルト リダイレクト' 'adult:scp-6969-j';
+#     PostParent "fragment:scp-6969-j-${i}" "End of Sex Fragment ${i}" 'en フラグメント' 'adult:scp-6969-j';
 # }
