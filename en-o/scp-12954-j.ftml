@@ -1,0 +1,59 @@
+[[include :scp-wiki:theme:classic]]
+[[include :scp-wiki:theme:flopstyle]]
+[[include :scp-wiki:component:centered-header-sigma-9]]
+
+[[module CSS]]
+ :root{
+   --header-title: "SCP FOUNDATION";
+   --header-subtitle: "Site-400";
+}
+.footnotes-footer {
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+[[include :scp-wiki:component:author-label-source start=--
+|name=NDHeckfire]]
+**SCP-12954-J** - Damn, That's Deep
+
+[[[https://scp-wiki.wikidot.com/ndheckfire|More by me!]]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+
+**Item №:** SCP-12954-J
+
+**Object Class:** Safe
+
+**Special Containment Procedures:** SCP-12954-J is currently housed within a standard containment chamber in Site-400. Attempts to bring back Dr. Hefter are still ongoing.
+
+**Description:** SCP-12954-J is the designation given to a circular pot lid possessing a black lifter handle. SCP-12954-J was once Dr. Benjamin Hefter of the Department of Other, until on the 5th of May, 2018, the individual suddenly transfigured into a pot lid.
+
+SCP-12954-J displays no signs of intelligence or sapience.
+
+**Addendum:** The following image was discovered on the personal phone of Dr. Hefter, believed to be the cause of his sudden transfiguration to SCP-12954-J, initially sent by Dr. Hefter's girlfriend. The image (hereafter designated as SCP-12954-J-A) was tested for any inherit memetic properties. Though, none were found.
+
+[[=]]
+[[collapsible show="[+] Open SCP-12954-J-A" hide="[-] Close SCP-12954-J-A"]]
+@@ @@
+[[include component:image-block
+name=sad.jpg|caption=SCP-12954-J-A|width=350px|align=center]]
+[[/collapsible]]
+[[/=]]
+
+@@ @@
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** sad.jpg
+> **Name:** File:Woman eyes closed sad.jpg
+> **Author** pixabay user 422694
+> **License:** Creative Commons CC0 1.0 Universal Public Domain Dedication
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Woman_eyes_closed_sad.jpg
+=====
+[[include :scp-wiki:component:license-box-end]]

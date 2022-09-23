@@ -1,0 +1,830 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:penumbra-bhl]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:fade-in speed=1]]
+[[module CSS]]
+@import url('https://scp-wiki.wikidot.com/local--files/project-paragon-hub/stylesheet.css');
+:root {
+    --header-subtitle: "Project PARAGON";
+    --cutColour: #fafafa;
+    --barColour: #590505;
+    --timeScale: 1;
+    --timeDelay: 1s;
+    --accentColor: 160, 44, 44;
+    --dark-gray-monochrome: 55, 55, 55;
+    --black-monochrome: 26, 26, 26;
+    --lgurl: url(https://scptestwiki.wikidot.com/local--files/secret:scp-0000/scpnewlogo.png);
+}
+
+#header::before {
+    opacity: 0.9;
+}
+
+#page-content .info-container {
+    --link-color: rgb(var(--swatch-text-general));
+}
+
+#page-content .info-container .translation_block {
+    display: none;
+}
+
+#page-content .info-container .collapsible-block-link,
+#page-content .info-container:hover .collapsible-block-link {
+    line-height: 1.6em;
+}
+
+#page-content .info-container .collapsible-block-folded,
+#page-content .info-container .collapsible-block-unfolded-link {
+    display: grid;
+}
+
+#page-content .info-container .collapsible-block-folded .collapsible-block-link,
+#page-content .info-container .collapsible-block-link {
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
+}
+
+#page-content .info-container .collapsible-block-folded::before,
+#page-content .info-container .collapsible-block-unfolded-link::before {
+    --wght: 800;
+    content: "djkaktus";
+    color: var(--link-color);
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.anom-bar-container.esoteric .text-part>.main-class::before {
+    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+}
+
+.anom-bar-container.esoteric .text-part>.main-class::before,
+.anom-bar-container.esoteric .danger-diamond>.top-icon::before {
+    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    background-image: url("https://scptestwiki.wikidot.com/local--files/secret:scp-0000/esoteric-icon-ededed.svg");
+    -webkit-filter: initial;
+    filter: initial;
+}
+
+.audfont {
+     font-family: 'audapaupadopolisian_scriptRg';
+     font-variant-ligatures: historical-ligatures;
+     word-break: break-all;
+}
+[[/module]]
+
+[[module css]]
+.langheader p {
+    line-height: initial;
+    width: 95%;
+    max-width: 100%;
+    position: relative;
+    display: block;
+    font-size: 1em;
+    font-family: Inter, sans-serif;
+    font-family: var(--title-font, Inter, sans-serif);
+}
+
+/* Mobile fix for large table */
+@media(max-width:74rem){.mobile-fix1{display:none}}@media(min-width:74rem){.mobile-fix2{display:none}.mobile-fix1{margin-left:-30%}}
+[[/module]]
+
+[[>]]
+[[Module rate]]
+[[/>]]
+
+[[div class="langheader" style="
+    background-color: rgba(0,135,189,0.25);
+    border-left: solid .85rem rgb(0,135,189);
+    font-weight: 600;
+    padding: 0.5em;
+"]]
+LANGUAGE:
+[[size 230%]] Audapaupadopolisian [[/size]]
+-----
+[[table style="width: 100%; font-size: 0.97em"]]
+[[row]]
+[[cell style="text-align: center;"]]L1 Population: 2[[/cell]]
+
+[[cell style="text-align: center;"]]Language Class: Jan-Toki[[footnote]] The language depends on anomalous means to be used, but is itself non-anomalous. [[/footnote]][[/cell]]
+
+[[cell style="text-align: center;"]]Trigraphical Code: AUD[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+----
++ Introduction
+----
+Audapaupadopolisian is a linguistic isolate that was spoken in the antediluvian city of Audapaupadopolis, classified by the SCP Foundation as [[[SCP-4840]]]. Audapaupadopolisian was presumably spoken since the city’s founding, and continued to be used after its fall as a classical and liturgical language across antediluvian Afro-Eurasia.
+
+Audapaupadopolisian’s status as a language is contested. While no new native speakers have been born in hundreds of thousands of years, the anomalously lengthy lives of some of the city’s inhabitants mean that there are two known native speakers in Foundation containment: [[[SCP-073]]] and [[[SCP-4840|SCP-4840-A]]]. In addition, multiple other entities in Foundation containment are either known to speak Audapaupadopolisian as a second language, or are presumed to be able to speak it. These include [[[SCP-076|SCP-076-2]]], [[[SCP-2254]]], [[[SCP-6666|SCP-6666-A]]], and [[[SCP-6765|SCP-6765-D]]].
+
+Due to these surviving native speakers, Audapaupadopolisian may be considered a living, though highly endangered, language. In addition, the existence of two native speakers in Foundation containment, one of which having a near-perfect memory, has allowed for extensive surveys of the language in spite of its extraordinary age.
+
+Audapaupadopolisian is currently the earliest human language known to the Foundation. SCP-073 and SCP-4840-A both claim it is, in fact, the first human language to ever exist. This claim remains unverifiable, as the large gap between antediluvian records and the rest of written history makes it impossible to determine whether Audapaupadopolisian indeed functioned as an ancestor to all, or any, postdiluvian languages or whether there existed other contemporary languages.
+
+In addition, as both known native speakers are members of the Audapaupadopolisian royal family, and as literacy in the city did not extend beyond the upper classes, the only known dialect of the language is the one spoken in high society. It is unknown whether any other dialects existed, or how divergent they possibly were.
+
+[[toc]]
+
+----
++ Phonology
+----
+++ Consonants
+
+Audapaupadopolisian features 15 consonantal phonemes, detailed in the following chart:
+
+[[table style="border-collapse:collapse; margin:auto;"]]
+[[row style="background-color: rgba(0,0,0,0.3);"]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+**Labial**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+**Alveolar**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+**Palatal-Velar**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**Nasal**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+m
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+n
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);" colspan="2"]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**Plosive**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+p
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+b
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+t
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+d
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+k
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+g
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**Fricative**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+f
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+v
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+s
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+z
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+ç
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**Approximant**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);" colspan="2"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+l
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+j
+[[/cell]]
+[[/row]]
+[[/table]]
+
+++ Vowels
+
+Audapaupadopolisian vowel phonemes are significantly more unusual than their consonant counterparts. While the distinguished vowel qualities form a simple five-vowel system, there exists an additional distinction not attested in any other language, which has been termed thaumicity.
+
+According to surviving speakers, thaumicity results from a usage of anomalous means to modify the resonances created during speech. The exact effects this creates, and the methods used to achieve it, remain unknown. For documentation purposes, thaumic vowels are marked using a cedilla[[footnote]] A diacritic mark shaped as a hook beneath the letter. [[/footnote]] in phonemic marking and an acute accent[[footnote]] A diacritic marked shaped as a right-leaning line over the letter. [[/footnote]] in romanization, and it is recommended to approximate them in speech using nasal vowels.
+
+[[table style="border-collapse:collapse; margin:auto; width:30%;"]]
+[[row style="background-color: rgba(0,0,0,0.3);"]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+**Front**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+**Back**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**Close**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+i
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+i̧
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+u
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+u̧
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**Middle**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+e
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+ȩ
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+o
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+o̧
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**Open**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;" colspan="2"]]
+a
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;" colspan="2"]]
+a̧
+[[/cell]]
+[[/row]]
+[[/table]]
+
+While thaumic vowels are treated phonotactically fairly similarly to their non-thaumic counterparts, one exception is the fact that no thaumic diphthongs exist. Instead, Audapaupadopolisian's diphthong inventory comprises solely of the following:
+
+[[table style="border-collapse:collapse; margin:auto; width:35%;"]]
+[[row style="background-color: rgba(0,0,0,0.3);"]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**a**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**e**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**o**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**i**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**a**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+e͡a
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+o͡a
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+i͡a
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**e**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+a͡e
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**o**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+i͡o
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**i**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+a͡i
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+e͡i
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+o͡i
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**u**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+a͡u
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+o͡u
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[/row]]
+[[/table]]
+
+----
++ Grammar
+----
+++ Verbal Conjugation
+
+Audapaupadopolisian features an evidential system of mandatory verbal conjugation, as well as conjugating for both positive and negative verbs.
+
+The Absolute conjugation is the most morphologically simple, and marks verbs that signify what is perceived by the speaker to be basic, unchangeable, universal truths.
+
+> [[span class="audfont"]] lhf|fxfilat|pio|vhlaelaz [[/span]] 
+> Láf fófilat pio válaelaz.
+> People are born equal.
+> [[span style="font-family:var(--mono-font)"]] @@láf  fófil   -at  pio   -∅   ∅  -válae-z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@into equality-DAT person-NOM ABS-born -POS@@ [[/span]]
+
+The Common conjugation marked statements considered commonly known facts, though variable or otherwise not as basic as Absolute-conjugated verbs.
+
+> [[span class="audfont"]] fei|fhsaez|niovhlg|trlrpalaz|umalwmioz [[/span]]
+> Fei fásaez nioválg télépalaz umalúmioz.
+> The saiga can run fast.
+> [[span style="font-family:var(--mono-font)"]] @@fei fa̧sae-z   niova̧lg-∅   tȩlȩp-al -az u    -ma -lu̧mio-z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@in  speed-DAT saiga  -NOM run  -INF-POS NFUT-COM-able -POS@@ [[/span]]
+
+The final two realis conjugations, the Firsthand and the Indirect, respectively mark statements directly experienced by the speaker to be true or statements the speaker thinks are true but were not directly experienced by them.
+
+> [[span class="audfont"]] pia|oufiav|utigoiz [[/span]]
+> Pia oufiav utigoiz.
+> I drank water.
+> [[span style="font-family:var(--mono-font)"]] @@pia-∅   oufia-v   u   -ti -goi  -z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@1S -NOM water-ACC NFUT-FIR-drink-POS@@ [[/span]]
+
+> [[span class="audfont"]] tai|oufiav|ulagoiz [[/span]]
+> Tai oufiav ulagoiz.
+> She (told me/I inferred that she) drank water.
+> [[span style="font-family:var(--mono-font)"]] @@tai-∅   oufia-v   u   -la -goi  -z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@3S -NOM water-ACC NFUT-IDR-drink-POS@@ [[/span]]
+
+The Potential conjugation was used for verbs which are likely or unlikely to happen (in the positive or negative, respectively), but whose reality is not certain.
+
+> [[span class="audfont"]] tai|oufiav|uzagoiz [[/span]]
+> Tai oufiav uzagoiz.
+> She likely drank water.
+> [[span style="font-family:var(--mono-font)"]] @@tai-∅   oufia-v   u   -za -goi  -z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@3S -NOM water-ACC NFUT-POT-drink-POS@@ [[/span]]
+
+Finally, the Infinitive marks nonfinite verbs:
+
+> [[span class="audfont"]] tai|oufiav|goilaz|utilwmioz [[/span]]
+> Tai oufiav goilaz utilúmioz.
+> She is able to drink water.
+> [[span style="font-family:var(--mono-font)"]] @@tai-∅   oufia-v   goi  -l  -az  u   -ti -lúmio-z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@3S -NOM water-ACC drink-INF-POS NFUT-FIR-able -POS@@ [[/span]]
+
+The six conjugations mentioned above further conjugate for both the positive and the negative (e.g. naelaz "to happen" and naelag "to not happen"), and some for the future and non-future tenses, as detailed in the following chart: 
+[[div class="mobile-fix1"]]
+[[table style="border-collapse:collapse;margin:auto"]][[row style="background:#0005"]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="3"]][[/cell]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="6"]]
+**Positive**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="6"]]
+**Negative**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="4"]]
+**Realis**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**Potential**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**Infinitive**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="4"]]
+**Irrealis**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**Potential**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**Infinitive**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Absolute**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Common**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Firsthand**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Indirect**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Absolute**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Common**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Firsthand**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Indirect**
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**Non-Future**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+ROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+umaROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+utiROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ulaROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uzaROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+ROOT(a)laz
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+ROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+umaROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+utiROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ulaROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uzaROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+ROOT-(a)lag
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**Future**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+amaROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#00000028"]]
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+alaROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+azaROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+amaROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#00000028"]]
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+alaROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+azaROOT(e)g
+[[/cell]][[/row]][[/table]][[/div]][[div class="mobile-fix2"]]
+[[table style="border-collapse:collapse;margin:auto;width:100%"]][[row style="background:#0005"]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="3"]][[/cell]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="6"]]
+**Positive**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="4"]]
+**Realis**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**Potential**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**Infinitive**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Absolute**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Common**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Firsthand**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Indirect**
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**Non-Future**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+ROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+umaROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+utiROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ulaROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uzaROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+ROOT(a)laz
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**Future**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+amaROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#00000028"]]
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+alaROOT(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+azaROOT(a)z
+[[/cell]][[/row]][[row style="background:#0005"]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="3"]][[/cell]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="6"]]
+**Negative**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="4"]]
+**Irrealis**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**Potential**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**Infinitive**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Absolute**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Common**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Firsthand**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**Indirect**
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**Non-Future**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+ROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+umaROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+utiROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ulaROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uzaROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+ROOT-(a)lag
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**Future**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+amaROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#00000028"]]
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+alaROOT(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+azaROOT(e)g
+[[/cell]][[/row]][[/table]][[/div]]@@ @@
+++ Nominal Conjugation
+
++++ Noun Cases
+
+Audapaupadopolisian nouns conjugated for four noun cases - the nominative, accusative, genitive, and dative, each marked with a suffix. Each case suffix could further be marked for positive or negative. For example, the positive:
+
+> [[span class="audfont"]] pia|oufiav|utigoiz [[/span]]
+> Pia oufiav utigoiz.
+> I drank water.
+> [[span style="font-family:var(--mono-font)"]] @@pia-∅   oufia-v   u   -ti -goi  -z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@1S -NOM water-ACC NFUT-FIR-drink-POS@@ [[/span]]
+
+As opposed to the negative, marked with the additional suffix -am:
+
+> [[span class="audfont"]] pia|oufiavam|utigoiz [[/span]]
+> Pia oufiavam utigoiz.
+> I drank no water.
+> [[span style="font-family:var(--mono-font)"]] @@pia-∅   oufia-v-am   u   -ti -goi  -z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@1S -NOM water-ACC-NEG NFUT-FIR-drink-POS@@ [[/span]]
+
+The full range of case and negation suffixes is as follows:
+
+[[table style="border-collapse:collapse; margin:auto;"]]
+[[row style="background-color: rgba(0,0,0,0.3);"]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+
+Nouns did not take the genitive case when attached with the adposition /el/, "of".
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**Nominative**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**Accusative**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**Genitive**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**Dative**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**Positive**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(e)v
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(a)p
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(a)t
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**Negative**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(a)kam
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(e)vam
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(a)pam
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(a)tam
+[[/cell]]
+[[/row]]
+[[/table]]
+
++++ Pronouns
+
+Pronouns in Audapaupadopolisian conjugated for number, person, and clusivity in the plural 1st and, remarkably, 2nd person. In addition, pronouns take on the appropriate case endings.
+
+[[table style="border-collapse:collapse; margin:auto;"]]
+[[row style="background-color: rgba(0,0,0,0.3);"]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**1st Person**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**2nd Person**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**3rd Person**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);" colspan="2"]]
+**Singular**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+pia-
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+mae-
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+tai-
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);" rowspan="2"]]
+**Plural**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**Inclusive**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+çet-
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+ju̧l-
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" rowspan="2"]]
+nok-
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**Exclusive**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+çeku-
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+ju̧lu-
+[[/cell]]
+[[/row]]
+[[/table]]
+
+++ Syntax
+
+The basic word order in Audapaupadopolisian is SOV, though because of its grammatical cases, the order may be changed to OVS if the object is the topic of conversation. The language operates head-finally, with the exception of relative clauses, which follow the head, and of the traditional format of names, where the head (the personal name) is always initial.
+
+Genitive relationships can be marked in Audapaupadopolisian both through the genitive case as well as through amalgamation. For example, the following two phrases both mean "child of (the) father":
+
+> Paupap vemb
+
+> Paupavemb
+
+When amalgamated, words drop their genitive case ending as long as it is not negated. For example, the amalgamated form of the phrase "child of no father" would be:
+
+> Paupapavemb[[footnote]] The final consonant of the case suffix is deleted so as to not create an illegal cluster with the first consonant of the following root. [[/footnote]]
+
+----
++ The Writing System
+----
+The writing system of Audapaupadopolisian is a remarkably conventional alphabet, with one letter for each consonant and vowel. The creation of this system is credited to SCP-073, who claims to have invented it after two months of iteration, in order to assist in the administration of Audapaupadopolis.
+
+
+|| **Phoneme** || **Letter** ||
+|| m || [[span class="audfont"]] m [[/span]] ||
+|| n || [[span class="audfont"]] n [[/span]] ||
+|| p || [[span class="audfont"]] p [[/span]] ||
+|| t || [[span class="audfont"]] t [[/span]] ||
+|| k || [[span class="audfont"]] k [[/span]] ||
+|| b || [[span class="audfont"]] b [[/span]] ||
+|| d || [[span class="audfont"]] d [[/span]] ||
+|| g || [[span class="audfont"]] g [[/span]] ||
+|| f || [[span class="audfont"]] f [[/span]] ||
+|| s || [[span class="audfont"]] s [[/span]] ||
+|| ç || [[span class="audfont"]] c [[/span]] ||
+|| v || [[span class="audfont"]] v [[/span]] ||
+|| z || [[span class="audfont"]] z [[/span]] ||
+|| l || [[span class="audfont"]] l [[/span]] ||
+|| j || [[span class="audfont"]] j [[/span]] ||
+|| a || [[span class="audfont"]] a [[/span]] ||
+|| e || [[span class="audfont"]] e [[/span]] ||
+|| i || [[span class="audfont"]] i [[/span]] ||
+|| o || [[span class="audfont"]] o [[/span]] ||
+|| u || [[span class="audfont"]] u [[/span]] ||
+|| a̧ || [[span class="audfont"]] h [[/span]] ||
+|| ȩ || [[span class="audfont"]] r [[/span]] ||
+|| i̧ || [[span class="audfont"]] y [[/span]] ||
+|| o̧ || [[span class="audfont"]] x [[/span]] ||
+|| u̧ || [[span class="audfont"]] w [[/span]] ||
+
+Words are separated by the symbol [[span class="audfont"]] | [[/span]].
+
+----
++ Sample Text
+----
+Asked by Project PARAGON researchers to provide a sample of Audapaupadopolisian for analysis, SCP-073 provided the following text and its translation:
+
+> [[span class="audfont"]] kain|el|adam|pia|dopol|is|vemb|adam|el|asem|gou|liopea|zapaelio|umasumaz|el|tei|lilit|gou|fia|taijoap|el|meina|umasumaz|el 
+> 
+> piav|utivendaz|dopol|is|zapaeoania|vae|néb|nis|vae|edekump|vae|audapaupadopolis|fau|pia|eibelev|el|adam|fóks|liojou|tei|setev|el|adam|vembap|naivimbemb|utinuvidaz[[/span]]
+
+> Kain el Adam pia dopol is vemb Adam el Asem gou liopea zapaelio umasumaz el tei Lilit gou fia taijoap el meina umasumaz el.
+> 
+> Piav utivendaz dopol is zapaeoania vae néb nis vae edekump vae Audapaupadopolis fau pia Eibelev el Adam fóks liojou tei Setev el Adam vembap naivimbemb utinuvidaz.
+
+> I am Cain el Adam, firstborn of Adam el Asem, who was called the Golden Sun of Man, and of Lilith, who was called the Mother of Nations. 
+> 
+> I was born of the first union of Man, high on Eden's hill in Audapaupadopolis, and was the elder brother of Able el Adam, the Sun's Left Hand, and Seth el Adam, son of the Daughter of Paradise.
+[[footnoteblock]]
+[[include :scp-wiki:component:license-box
+|author=LonLangLin]]
+[[include :scp-wiki:component:license-box-end]]

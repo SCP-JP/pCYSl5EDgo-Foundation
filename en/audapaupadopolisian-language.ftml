@@ -1,0 +1,850 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:penumbra-bhl]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:fade-in speed=1]]
+[[module CSS]]
+@import url('https://scp-wiki.wikidot.com/local--files/project-paragon-hub/stylesheet.css');
+:root {
+    --header-subtitle: "Project PARAGON";
+    --cutColour: #fafafa;
+    --barColour: #590505;
+    --timeScale: 1;
+    --timeDelay: 1s;
+    --accentColor: 160, 44, 44;
+    --dark-gray-monochrome: 55, 55, 55;
+    --black-monochrome: 26, 26, 26;
+    --lgurl: url(https://scptestwiki.wikidot.com/local--files/secret:scp-0000/scpnewlogo.png);
+}
+
+#header::before {
+    opacity: 0.9;
+}
+
+#page-content .info-container {
+    --link-color: rgb(var(--swatch-text-general));
+}
+
+#page-content .info-container .translation_block {
+    display: none;
+}
+
+#page-content .info-container .collapsible-block-link,
+#page-content .info-container:hover .collapsible-block-link {
+    line-height: 1.6em;
+}
+
+#page-content .info-container .collapsible-block-folded,
+#page-content .info-container .collapsible-block-unfolded-link {
+    display: grid;
+}
+
+#page-content .info-container .collapsible-block-folded .collapsible-block-link,
+#page-content .info-container .collapsible-block-link {
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
+}
+
+#page-content .info-container .collapsible-block-folded::before,
+#page-content .info-container .collapsible-block-unfolded-link::before {
+    --wght: 800;
+    content: "djkaktus";
+    color: var(--link-color);
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.anom-bar-container.esoteric .text-part>.main-class::before {
+    border-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+}
+
+.anom-bar-container.esoteric .text-part>.main-class::before,
+.anom-bar-container.esoteric .danger-diamond>.top-icon::before {
+    background-color: rgb(var(--swatch-menutxt-dark-color, 12, 12, 12));
+    background-image: url("https://scptestwiki.wikidot.com/local--files/secret:scp-0000/esoteric-icon-ededed.svg");
+    -webkit-filter: initial;
+    filter: initial;
+}
+
+.audfont {
+     font-family: 'audapaupadopolisian_scriptRg';
+     font-variant-ligatures: historical-ligatures;
+     word-break: break-all;
+}
+[[/module]]
+
+[[module css]]
+.langheader p {
+    line-height: initial;
+    width: 95%;
+    max-width: 100%;
+    position: relative;
+    display: block;
+    font-size: 1em;
+    font-family: Inter, sans-serif;
+    font-family: var(--title-font, Inter, sans-serif);
+}
+
+/* Mobile fix for large table */
+@media(max-width:74rem){.mobile-fix1{display:none}}@media(min-width:74rem){.mobile-fix2{display:none}.mobile-fix1{margin-left:-30%}}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** [https://scp-wiki.wikidot.com/audapaupadopolisian-language アウダパウパドポリス語]
+**著者:** ©[[*user LonLangLin]]
+**訳者:** ©[[*user hitsujikaip]], [[*user Mishary]]共訳
+**作成年:** 2022
+[[include credit:end]]
+
+[[div class="langheader" style="
+    background-color: rgba(0,135,189,0.25);
+    border-left: solid .85rem rgb(0,135,189);
+    font-weight: 600;
+    padding: 0.5em;
+"]]
+LANGUAGE:
+[[size 230%]] アウダパウパドポリス語 [[/size]]
+-----
+[[table style="width: 100%; font-size: 0.97em"]]
+[[row]]
+[[cell style="text-align: center;"]]第一言語話者人口: 2[[/cell]]
+
+[[cell style="text-align: center;"]]言語クラス: Jan-Toki[[footnote]] 言語は異常な意図をもって使用されるが、それ以外は異常でない。 [[/footnote]][[/cell]]
+
+[[cell style="text-align: center;"]]3文字コード: AUD[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+----
++ イントロダクション
+----
+アウダパウパドポリス語は、SCP財団によって[[[SCP-4840]]]に指定されている大洪水前時代の都市アウダパウパドポリスで用いられていた孤立語である。アウダパウパドポリス語は同市の成立以来話されていたとみられ、その崩壊後も古典的・儀礼的な言語として大洪水前時代のアフロ・ユーラシア全域で用いられた。
+
+アウダパウパドポリス語の言語としての地位は確立したものではない。数十万年もの間新しい母語話者が生まれていない一方で、都市の住民の一部の異常な長寿のため、財団の収容下に二人の既知の母語話者が存在している。[[[SCP-073]]]と[[[SCP-4840|SCP-4840-A]]]である。他にも、財団の収容している複数の別のエンティティに、第二言語としてアウダパウパドポリス語を話すことが知られているものや、話す能力を持つと推測されているものがいる。例えば、[[[SCP-076|SCP-076-2]]]、[[[SCP-2254]]]、[[[SCP-6666|SCP-6666-A]]]、[[[SCP-6765|SCP-6765-D]]]などである。
+
+これらの母語話者の存在により、アウダパウパドポリス語は生きた言語と考えられるが、同時に深刻な危機に瀕する言語でもある。また、財団の収容下に二人の母語話者がおり、そのうち一人は異常な高年齢にもかかわらず完璧な記憶力を持っているため、この言語の広範な調査が可能となっている。
+
+現在アウダパウパドポリス語は財団が知りうる限り人類における最も古い言語である。実際にSCP-073とSCP-4840-Aはどちらも最古のヒトの言語であると主張している。大洪水前とそれ以外の歴史時代の文書の間の空隙が非常に広く、アウダパウパドポリス語が全ての大洪水後の言語の祖となったか、それとも同時代にほかの言語が存在していたかどうかを決めることは不可能であるため、この主張は検証不可能である。
+
+これに加え、既知のアウダパウパドポリス語話者はいずれもアウダパウパドポリスの王室の構成者であり、識字能力は都市の上流階級に限られていたため、この言語の既知の方言は、上流階級によって話されていたものに限られる。ほかに変種があったか、どれほど多様でありえたかなどは知られていない。
+
+[[toc]]
+
+----
++ 音韻体系
+----
+++ 子音
+
+アウダパウパドポリス語の特徴として15の子音音素を持つ。詳細は下図の通りである。
+
+[[table style="border-collapse:collapse; margin:auto;"]]
+[[row style="background-color: rgba(0,0,0,0.3);"]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+**唇音**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+**歯茎音**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+**口蓋垂音**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**鼻音**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+m
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+n
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);" colspan="2"]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**破裂音**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+p
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+b
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+t
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+d
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+k
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+g
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**摩擦音**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+f
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+v
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+s
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+z
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+ç
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**接近音**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);" colspan="2"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+l
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+j
+[[/cell]]
+[[/row]]
+[[/table]]
+
+++ 母音
+
+アウダパウパドポリス語の母音音素は子音音素に比べて非常にまれな構成である。弁別される母音音質によって単純な五母音体系が構成される一方で、ほかの言語での存在が検証されていない、幻性(thaumicity)によるさらなる弁別が行われる。
+
+現在生存している話者によれば、発話の際に異常な方法で共鳴を変化させることによって幻性が生じるとされている。実際にこれがどのような効果をもたらし、どのようにそれを調音するかは、知られていない。文章化のために、音素表記の際は幻性母音にセディーユ[[footnote]]文字の下のフックの形の符号[[/footnote]]を付し、ラテン文字化の際は鋭アクセント[[footnote]]文字の上の右上がりの線の形の符号[[/footnote]]で表す。また、発話の際は鼻母音で近似することが推奨されている。
+
+[[table style="border-collapse:collapse; margin:auto; width:30%;"]]
+[[row style="background-color: rgba(0,0,0,0.3);"]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+**前**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+**後**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**狭**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+i
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+i̧
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+u
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+u̧
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**中央**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+e
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+ȩ
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;"]]
+o
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;"]]
+o̧
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**広**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-right: 0px; padding: 0.5em;" colspan="2"]]
+a
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); border-left: 0px; padding: 0.5em;" colspan="2"]]
+a̧
+[[/cell]]
+[[/row]]
+[[/table]]
+
+幻性母音は音素配列制約の下で非幻性母音とほとんど同様に扱われる一方、唯一の違いとして、幻性母音に二重母音はないということが挙げられる。アウダパウパドポリス語の二重母音目録は、以下に示すもののみで構成される。
+
+[[table style="border-collapse:collapse; margin:auto; width:35%;"]]
+[[row style="background-color: rgba(0,0,0,0.3);"]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**a**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**e**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**o**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**i**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**a**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+e͡a
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+o͡a
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+i͡a
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**e**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+a͡e
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**o**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+i͡o
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**i**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+a͡i
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+e͡i
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+o͡i
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**u**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+a͡u
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+o͡u
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[/row]]
+[[/table]]
+
+----
++ 文法
+----
+
+++ 動詞の活用
+
+アウダパウパドポリス語は、肯定（断定）および否定を表す活用に加え、義務的な動詞の活用によって証拠性を表す体系を持っている。
+
+絶対活用は、形態的に最も簡潔な活用形である。動詞のこの活用形は、話者にとって当然であり、不変であり、普遍的真実であると認知されているということを表す標識である。
+
+> [[span class="audfont"]] lhf|fxfilat|pio|vhlaelaz [[/span]]
+> Láf fófilat pio válaelaz.
+> People are born equal.
+> 人は平等に生まれる。
+> [[span style="font-family:var(--mono-font)"]] @@láf  fófil   -at  pio   -∅   ∅  -válae-z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@into equality-DAT person-NOM ABS-born -POS@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@へと 平等-〔与格〕 人-〔主格〕 〔絶対〕-生まれる -〔肯定〕@@ [[/span]]
+
+一般活用は、よく知られているが変わりうるものや、絶対活用ほど当然とされないことを表す標識である。
+
+> [[span class="audfont"]] fei|fhsaez|niovhlg|trlrpalaz|umalwmioz [[/span]]
+> Fei fásaez nioválg télépalaz umalúmioz.
+> The saiga can run fast.
+> サイガは速く走れる。
+> [[span style="font-family:var(--mono-font)"]] @@fei fa̧sae-z   niova̧lg-∅   tȩlȩp-al -az u    -ma -lu̧mio-z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@in  speed-DAT saiga  -NOM run  -INF-POS NFUT-COM-able -POS@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@において 速さ-〔与格〕 サイガ  -〔主格〕 走る  -〔不定〕-〔肯定〕 〔非未来〕-〔一般〕-できる -〔肯定〕@@ [[/span]]
+
+現実相のうち、最後の二つの活用は、直接体験と間接体験・伝聞である。それぞれ、話者が直接体験して真実ととらえられた主張と、話者が真実と考えるが直接体験はしていない主張を表す。
+
+> [[span class="audfont"]] pia|oufiav|utigoiz [[/span]]
+> Pia oufiav utigoiz.
+> I drank water.
+> 私は水を飲んだ。
+> [[span style="font-family:var(--mono-font)"]] @@pia-∅   oufia-v   u   -ti -goi  -z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@1S -NOM water-ACC NFUT-FIR-drink-POS@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@一人称単数 -〔主格〕 水-〔対格〕 〔非未来〕-〔直接〕-飲む〕-〔肯定〕@@ [[/span]]
+
+> [[span class="audfont"]] tai|oufiav|ulagoiz [[/span]]
+> Tai oufiav ulagoiz.
+> She (told me/I inferred that she) drank water.
+> 彼女は水を飲んだ（と私に言った／と私は考える）。
+> [[span style="font-family:var(--mono-font)"]] @@tai-∅   oufia-v   u   -la -goi  -z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@3S -NOM water-ACC NFUT-IDR-drink-POS@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@三人称単数 -〔主格〕 水-〔対格〕 〔非未来〕-〔間接〕-飲む-〔肯定〕@@ [[/span]]
+
+可能活用は、起こりそうであること、起こりにくそうなこと（それぞれ肯定、否定において）を示す活用形である。この場合、現実性は定かではない。
+
+> [[span class="audfont"]] tai|oufiav|uzagoiz [[/span]]
+> Tai oufiav uzagoiz.
+> She likely drank water.
+> 彼女は水を飲んだようだ。
+> [[span style="font-family:var(--mono-font)"]] @@tai-∅   oufia-v   u   -za -goi  -z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@3S -NOM water-ACC NFUT-POT-drink-POS@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@三人称単数 -〔主格〕 水-〔対格〕 〔非未来〕-〔可能〕-飲む-〔肯定〕@@ [[/span]]
+
+最後に、不定形は時制がないことを示す標識である。
+
+> [[span class="audfont"]] tai|oufiav|goilaz|utilwmioz [[/span]]
+> Tai oufiav goilaz utilúmioz.
+> She is able to drink water.
+> 彼女は水を飲むことができる。
+> [[span style="font-family:var(--mono-font)"]] @@tai-∅   oufia-v   goi  -l  -az  u   -ti -lúmio-z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@3S -NOM water-ACC drink-INF-POS NFUT-FIR-able -POS@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@三人称単数 -〔主格〕 水-〔対格〕 飲む-〔不定〕-〔肯定〕 〔非未来〕-〔直接〕-できる -〔肯定〕@@ [[/span]]
+
+上記の六つの活用形はさらに肯定と否定に活用し(例 naelaz "起こる" and naelag "起こらない")、一部は未来と非未来に活用する。詳細は以下の図の通りである。
+
+[[div class="mobile-fix1"]]
+[[table style="border-collapse:collapse;margin:auto"]][[row style="background:#0005"]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="3"]][[/cell]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="6"]]
+**肯定**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="6"]]
+**否定**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="4"]]
+**現実**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**可能**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**不定**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="4"]]
+**非現実**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**可能**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**不定**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**絶対**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**一般**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**直接**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**間接**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**絶対**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**一般**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**直接**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**間接**
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**非未来**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uma語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uti語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ula語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uza語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+語幹(a)laz
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uma語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uti語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ula語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uza語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+語幹-(a)lag
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**未来**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ama語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#00000028"]]
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ala語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+aza語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ama語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#00000028"]]
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ala語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+aza語幹(e)g
+[[/cell]][[/row]][[/table]][[/div]][[div class="mobile-fix2"]]
+[[table style="border-collapse:collapse;margin:auto;width:100%"]][[row style="background:#0005"]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="3"]][[/cell]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="6"]]
+**肯定**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="4"]]
+**現実**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**可能**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**不定**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**絶対**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**一般**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**直接**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**間接**
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**非未来**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uma語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uti語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ula語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uza語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+語幹(a)laz
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**未来**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ama語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#00000028"]]
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ala語幹(a)z
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+aza語幹(a)z
+[[/cell]][[/row]][[row style="background:#0005"]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="3"]][[/cell]]
+[[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="6"]]
+**否定**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"colspan="4"]]
+**非現実**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**可能**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+**不定**
+[[/cell]][[/row]][[row style="background:#0005"]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**絶対**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**一般**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**直接**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+**間接**
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**非未来**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uma語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uti語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ula語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+uza語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"rowspan="2"]]
+語幹-(a)lag
+[[/cell]][[/row]][[row]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#0005"]]
+**未来**
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ama語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em;background:#00000028"]]
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+ala語幹(e)g
+[[/cell]][[cell style="text-align:center;border:1px solid #a0a0a0;padding:.5em"]]
+aza語幹(e)g
+[[/cell]][[/row]][[/table]][[/div]]@@ @@
+++ 名詞の活用
+
++++ 名詞の格
+
+アウダパウパドポリス語の名詞は4つの格（主格、対格、属格、与格）を持ち、接尾辞によって表される。これに加えて、肯定・否定の標示が行われる。例えば肯定の場合は次のようになる。
+
+> [[span class="audfont"]] pia|oufiav|utigoiz [[/span]]
+> Pia oufiav utigoiz.
+> I drank water.
+> 私は水を飲んだ。
+> [[span style="font-family:var(--mono-font)"]] @@pia-∅   oufia-v   u   -ti -goi  -z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@1S -NOM water-ACC NFUT-FIR-drink-POS@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@1S -〔主格〕 水-〔対格〕 〔非未来〕-〔直接〕-飲む-〔肯定〕@@ [[/span]]
+
+これに対して否定の場合は、接尾辞-amが付与される。
+
+> [[span class="audfont"]] pia|oufiavam|utigoiz [[/span]]
+> Pia oufiavam utigoiz.
+> I drank no water.
+> 私は水を飲まなかった.
+> [[span style="font-family:var(--mono-font)"]] @@pia-∅   oufia-v-am   u   -ti -goi  -z@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@1S -NOM water-ACC-NEG NFUT-FIR-drink-POS@@ [[/span]]
+> [[span style="font-family:var(--mono-font)"]] @@1S -〔主格〕 水-〔対格〕-〔否定〕 〔非未来〕-〔直接〕-〔飲む-〔肯定〕@@ [[/span]]
+
+格と否定を表す接尾辞の一覧表は、以下の通りである。
+
+[[table style="border-collapse:collapse; margin:auto;"]]
+[[row style="background-color: rgba(0,0,0,0.3);"]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+
+「～の（"of"）」を意味する接置詞 /el/を伴う名詞は、属格をとらない。
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**主格**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**対格**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**属格**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**与格**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**肯定**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; rgba(0,0,0,0.15);"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(e)v
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(a)p
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(a)t
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**否定**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(a)kam
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(e)vam
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(a)pam
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+-(a)tam
+[[/cell]]
+[[/row]]
+[[/table]]
+
++++ 代名詞
+
+アウダパウパドポリス語の格助詞は数、人称、一人称複数と二人称複数で包括・除外の活用をする。二人称複数で包括・除外の活用がある点は特筆すべき事項である。これに加えて、代名詞は適切な格の語尾をとる。
+
+[[table style="border-collapse:collapse; margin:auto;"]]
+[[row style="background-color: rgba(0,0,0,0.3);"]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" colspan="2"]]
+
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**一人称**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**二人称**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+**三人称**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);" colspan="2"]]
+**単数**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+pia-
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+mae-
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+tai-
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);" rowspan="2"]]
+**複数**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**包括**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+çet-
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+ju̧l-
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;" rowspan="2"]]
+nok-
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em; background-color: rgba(0,0,0,0.3);"]]
+**除外**
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+çeku-
+[[/cell]]
+[[cell style="text-align: center; border: 1px solid rgb(160,160,160); padding: 0.5em;"]]
+ju̧lu-
+[[/cell]]
+[[/row]]
+[[/table]]
+
+++ 統語
+
+アウダパウパドポリス語の語順は基本的にはSOVであるが、格変化があるため、発話の題目が目的語であった場合、目的語が文頭に繰り上げられ、OVSをとることがある。この言語では主要部の直後に来る関係詞節や主要部である個人名が先頭に来る伝統的な命名を除き主要部は終端にくる。
+
+アウダパウパドポリス語において属格（所有）の関係は格変化もしくは語の合併によってあらわすことができる。例として、下の句はどちらも「父の子 ("child of (the) father")」を意味する。
+
+> Paupap vemb
+
+> Paupavemb
+
+合併した場合、否定されない場合を除いて属格の接尾辞が削除される。例えば、「父なき子（"child of no father"）」の合併形は以下のとおりである。
+
+> Paupapavemb[[footnote]] 格接尾辞の最後の子音は、後ろに続く語幹の最初の子音と結合することで生じうる反則の子音連続を作らないように削除される。 [[/footnote]]
+
+----
++ 表記体系
+----
+
+アウダパウパドポリス語の表記体系は著しく一般的なアルファベットであり、子音および母音と一対一に対応する。この体系は、アウダパウパドポリスの行政を援助するために二か月の試行ののちに発明したとするSCP-073によって創造されたとされている。
+
+|| **音素** || **文字** ||
+|| m || [[span class="audfont"]] m [[/span]] ||
+|| n || [[span class="audfont"]] n [[/span]] ||
+|| p || [[span class="audfont"]] p [[/span]] ||
+|| t || [[span class="audfont"]] t [[/span]] ||
+|| k || [[span class="audfont"]] k [[/span]] ||
+|| b || [[span class="audfont"]] b [[/span]] ||
+|| d || [[span class="audfont"]] d [[/span]] ||
+|| g || [[span class="audfont"]] g [[/span]] ||
+|| f || [[span class="audfont"]] f [[/span]] ||
+|| s || [[span class="audfont"]] s [[/span]] ||
+|| ç || [[span class="audfont"]] c [[/span]] ||
+|| v || [[span class="audfont"]] v [[/span]] ||
+|| z || [[span class="audfont"]] z [[/span]] ||
+|| l || [[span class="audfont"]] l [[/span]] ||
+|| j || [[span class="audfont"]] j [[/span]] ||
+|| a || [[span class="audfont"]] a [[/span]] ||
+|| e || [[span class="audfont"]] e [[/span]] ||
+|| i || [[span class="audfont"]] i [[/span]] ||
+|| o || [[span class="audfont"]] o [[/span]] ||
+|| u || [[span class="audfont"]] u [[/span]] ||
+|| a̧ || [[span class="audfont"]] h [[/span]] ||
+|| ȩ || [[span class="audfont"]] r [[/span]] ||
+|| i̧ || [[span class="audfont"]] y [[/span]] ||
+|| o̧ || [[span class="audfont"]] x [[/span]] ||
+|| u̧ || [[span class="audfont"]] w [[/span]] ||
+
+語は「[[span class="audfont"]] | [[/span]]」という記号で区切られる。
+
+----
++ 例文
+----
+
+Project PARAGONの研究者からのアウダパウパドポリス語解析のための例文作成依頼に応じる形で、SCP-073によって以下の文章と翻訳が提供された。
+
+> [[span class="audfont"]] kain|el|adam|pia|dopol|is|vemb|adam|el|asem|gou|liopea|zapaelio|umasumaz|el|tei|lilit|gou|fia|taijoap|el|meina|umasumaz|el
+>
+> piav|utivendaz|dopol|is|zapaeoania|vae|néb|nis|vae|edekump|vae|audapaupadopolis|fau|pia|eibelev|el|adam|fóks|liojou|tei|setev|el|adam|vembap|naivimbemb|utinuvidaz[[/span]]
+
+> Kain el Adam pia dopol is vemb Adam el Asem gou liopea zapaelio umasumaz el tei Lilit gou fia taijoap el meina umasumaz el.
+>
+> Piav utivendaz dopol is zapaeoania vae néb nis vae edekump vae Audapaupadopolis fau pia Eibelev el Adam fóks liojou tei Setev el Adam vembap naivimbemb utinuvidaz.
+
+> 私はカイン・エル・アダム、人の黄金の太陽と呼ばれたアダム・エル・アセム、および国々の母と呼ばれたリリトの長男である。
+>
+> 人たるものの第一の和合は私をアウダパウパドポリスのエデンの丘の高みで生み、私は太陽の左手エイベルヴ・エル・アダム、楽園の娘の子セテヴ・エル・アダムの兄である。
+
+[[footnoteblock]]

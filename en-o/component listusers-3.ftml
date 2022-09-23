@@ -1,0 +1,26 @@
+[[iftags +component]]
+[[div style="background: rgba(201,133,184,.4); box-shadow: 1px 1px 3px #999; padding: .5em;"]]
+ListUsers module for non-Wikidot users.
+
++ How to use?
+> ##red|[[include component:listusers-1 users="."]]##
+> @@##red|@@**%%name%%**@@##@@
+> ##red|[[include component:listusers-2]]##
+> @@##blue|@@**guest**@@##@@
+> ##red|[[include component:listusers-3]]##
+
+----
+* http://scp-wiki.wikidot.com/component:listusers-1
+* http://scp-wiki.wikidot.com/component:listusers-2
+* @@http://scp-wiki.wikidot.com/component:listusers-3@@
+[[/div]]
+----
+[[/iftags]]
+
+[[/div]]
+[[/div]]
+[[module CSS]]
+.textchange div.sitemember:nth-child(2) {
+    display:none;
+}
+[[/module]]
