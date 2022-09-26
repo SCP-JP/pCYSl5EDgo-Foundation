@@ -468,8 +468,10 @@
 @@ @@
 
 [[span class="o"]]1体の何者でもないもの[[/span]]
+A Nobody
 [[>]]
 [[span class="o"]]確保、収容、保護、統制、██[[/span]]
+Secure, Contain, Protect, Control, █████
 [[/>]]
 [[/div]]
 [[module css]]
@@ -519,7 +521,7 @@ div.page ul {
 }
 
 #html-body #header h2 span::before {
-  content: '確保、収容、保護、統制';
+  content: 'Secure Contain Protect Control';
   color: #f0f0c0;
   font-size: 15px;
 }
