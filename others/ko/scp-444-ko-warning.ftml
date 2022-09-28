@@ -1,0 +1,38 @@
+[[div class="content-panel standalone" style="width: 600px; max-width: 90%; margin: 0 auto 20px; padding: 10px 20px; text-align: center;"]]
+[[div class="unmargined" style="font-size: 136.71%; font-weight: bold; font-family: Arial, Helvetica, 'Malgun Gothic', sans-serif; margin: 10px 0 0;"]]
+以下の内容はクリアランス4/444K専用パスワードが必要です。
+[[/div]]
+----
+このSCPオブジェクトに関する情報は、クリアランス1〜4/444Kを与えられた職員にのみ閲覧が許可されます。許可されていない職員が次の文書にアクセスしようとする時には、情報セキュリティ規約に基づいて速やかに拘留されます。
+@@ @@
+@@ @@
+[[html]]
+<script type="text/javascript">
+
+function LogIn(){
+loggedin=false;
+password="5438464";
+password=prompt("PASSWORD:","");
+password=password.toLowerCase();
+
+if (password=="5438464") {
+loggedin=true;
+window.open('http://ja.scp-wiki.net/scp-444-ko');
+}
+
+if (password=="4423144444") {
+loggedin=true;
+window.open('http://ja.scp-wiki.net/scp-444-ko-document');
+}
+
+if (loggedin==false) {
+alert("アクセス制限: パスワードが違います。この言葉を見てすぐに跪き、両腕を上げてセキュリティ担当員を待ちなさい。");
+}
+}
+</script>
+<div style="margin:0 auto; width: 150px;">
+<form><input type=button value="◈追加情報にアクセス◈" onClick="LogIn()"></form>
+</div>
+[[/html]]
+[[/div]]
+[[span style="color: transparent;"]]パスワード: 5438464[[/span]]
