@@ -678,11 +678,12 @@ Secure, Contain, Protect, Control, █████
 [[/div]]
 [[module css]]
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 div.page {
   display: block;
   overflow: hidden;
-  font-style: sans-serif;
+  font-family: 'Neucha', cursive;
   font-size: 1.2em;
   line-height: 30px;
 
@@ -704,6 +705,7 @@ div.page {
 }
 div.page span.o {
   font-family: 'Zen Kurenaido', sans-serif;
+  font-style: sans-serif;
   color: blue;
 }
 div.page p,
