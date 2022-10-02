@@ -28,8 +28,31 @@ ENからの翻訳をメインとしています。
 [[div id="u-writing" class="hide-not-targeted"]]
 + 自著リスト
 
-[[module ListPages category="*"  created_by="pcysl" separate="no" limit="250" perPage="250" tags="+goi-format +jp" order="created_at"]]
-# %%title_linked%%　(Rate: %%rating%%, Total Vote: %%rating_votes%%)
+[[module ListPages category="_default" created_by="pcysl" separate="no" limit="250" perPage="250" tags="+jp" order="created_at"]]
+[[head]]
+[[table]]
+[[row]]
+[[hcell]]
+タイトル
+[[/hcell]]
+[[hcell]]
+評価
+[[/hcell]]
+[[/row]]
+[[/head]]
+[[body]]
+[[row]]
+[[cell]]
+%%title_linked%%
+[[/cell]]
+[[cell]]
+%%rating%% (+[[#expr (%%rating_votes%%+%%rating%%)/2]]/-[[#expr (%%rating_votes%%-%%rating%%)/2]])
+[[/cell]]
+[[/row]]
+[[/body]]
+[[foot]]
+[[/table]]
+[[/foot]]
 [[/module]]
 
 + 自作品裏話
@@ -114,7 +137,7 @@ SCP財団の批評文化の恩恵をうけてこの作品は練磨されまし�
 || [[[scp-5947|SCP-5947 - シロガネウオ]]] || [[[/author:pcysl#u-scp-5947|わかる！概念物理学！]]] ||
 || [[a href="/scp-4936"]]SCP-4936 - //夏休み// 🦀[[/a]] || [[[/author:pcysl#u-scp-4936|わかる！概念物理学！]]] ||
 || [[[scp-5715|SCP-5715 - 時間幽霊の過去]]] || [[[/author:pcysl#u-scp-5715|その他]]] ||
-|| [[[scp-6113|SCP-6113 - 一時反射]]] || [[[/author:pcysl#u-scp-6113|その他]]] ||
+|| [[[scp-6113|SCP-6113 - テンポラリ・リフレクション]]] || [[[/author:pcysl#u-scp-6113|その他]]] ||
 || [[[scp-6086|SCP-6086 - エラッタ]]] || [[[/author:pcysl#u-scp-6086|わかる！倫理委員会！]]] ||
 || [[[scp-5576|SCP-5576 - 残る後悔はそれだけだ]]] || [[[/author:pcysl#u-scp-5576|その他]]] ||
 || [[[scp-6124|SCP-6124 - 牛さん見っけ]]] || [[[/author:pcysl#u-scp-6124|その他]]] ||
@@ -773,7 +796,7 @@ __**安定的収容の為に**__
 
 安定した収容には収容違反の可能性を低減することが大事だという原則をこの記事は教えてくれます。
 
-++ [[a id="u-scp-6113" href="/scp-6113"]]SCP-6113 - 一時反射[[/a]]
+++ [[a id="u-scp-6113" href="/scp-6113"]]SCP-6113 - テンポラリ・リフレクション[[/a]]
 
 __**世の中のTS願望のある人たちのために、これを収容するのやめませんか？バカなこと言ってるんじゃねえ！！**__
 
@@ -889,7 +912,30 @@ __**情より金を優先する財団**__
 + 翻訳作品リスト
 
 [[module ListPages category="*" created_by="pcysl" separate="no" perPage="250" tags="-jp,-フラグメント,-見出し" order="created_at"]]
-# %%title_linked%%　(Rate: %%rating%%, Total Vote: %%rating_votes%%)
+[[head]]
+[[table]]
+[[row]]
+[[hcell]]
+タイトル
+[[/hcell]]
+[[hcell]]
+評価
+[[/hcell]]
+[[/row]]
+[[/head]]
+[[body]]
+[[row]]
+[[cell]]
+%%title_linked%%
+[[/cell]]
+[[cell]]
+%%rating%% (+[[#expr (%%rating_votes%%+%%rating%%)/2]]/-[[#expr (%%rating_votes%%-%%rating%%)/2]])
+[[/cell]]
+[[/row]]
+[[/body]]
+[[foot]]
+[[/table]]
+[[/foot]]
 [[/module]]
 
 + 翻訳改稿作品リスト
