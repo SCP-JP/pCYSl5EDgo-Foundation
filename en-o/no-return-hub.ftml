@@ -1,0 +1,653 @@
+[[include :scp-wiki:theme:blankstyle]]
+
+[[div style="display: none;"]]
+[[include :scp-wiki:theme:placestyle]]
+[[/div]]
+[[include :scp-wiki:component:fade-in speed=1]]
+
+[[module css]]
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.fancyhr hr {
+    background-color: transparent !important;
+}
+
+.bubble {
+    align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: auto;
+    padding: 10px;
+    border: 3px solid var(--accentColor);
+    border-radius: 12px;
+    background-color: #21252E;
+}
+
+.brief {
+    align: center;
+    width: 66%;
+    margin: auto;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: var(--accentColor);
+    color: #21252E !important;
+}
+
+body {
+    background-image: linear-gradient(
+        to bottom,
+        #FFD700, #2F333C 200px,
+        #2F333C 200px, #2F333C 100%);
+}
+
+:root {
+  --header-title: "OVERWATCH";
+  --header-subtitle: "SACRIFICE CONFERS POWER";
+  --lgurl: url('https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-2/overwatchheader.svg');
+  --accentColor: #FFD700;
+}
+
+div#extra-div-1 {
+    filter: brightness(100%);
+    height: 100px;
+    margin-top: 30px;
+}
+
+#header h1 a::before {
+    color: transparent;
+}
+
+#header h2::before {
+    color: transparent;
+}
+
+.fancyborder {
+    border-radius: 5rem;
+}
+
+@media (max-width: 706px) {
+    .fancyborder {
+        border-radius: 1rem;
+    }
+}
+
+#login-status {
+    color: #21252E;
+}
+#login-status a {
+    color: #21252E;
+}
+#login-status ul a {
+    color: #ededed;
+    background: #21252E;
+}
+#login-status ul a:hover {
+    color: #21252E;
+}
+#account-topbutton{
+    border: solid 1px #21252E;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    align-content: center;
+}
+
+.cards > div {
+    margin: -12px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+.cursive {
+    font-family: "EB Garamond", Big Caslon, Book Antiqua, Palatino Linotype, Georgia, serif;
+}
+
+@media (min-width: 768px) {
+    #main-content {
+       max-width: 98%;
+    }
+    .mb {
+        display: none;
+    }
+}
+
+#container-wrap-wrap {
+    overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+    .custom {
+        font-size: 60%;
+    }
+    .dt {
+        display: none;
+    }
+    .cards {
+        margin: 0px !important;
+    }
+    #main-content {
+        margin: 0 1% 0 1%;
+        max-width: 100%;
+    }
+}
+
+.graybox {
+    --accentColor: #ccc;
+}
+
+.greenbox {
+    --accentColor: #4b2;
+}
+
+.bbox {
+    --accentColor: #21252E;
+}
+
+.custom2 {
+    width: auto !important;
+    margin: 0px;
+    padding: 0px;
+}
+[[/module]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+@@ @@
+||= //A single choice begets two worlds// _
+//A mirrored tapestry unfurls// _
+//Vanguard's aegis shines// _
+//As Threshold draws the line// _
+//Of// ||
+@@ @@
+[[=]]
+[[image https://scp-wiki.wikidot.com/local--files/grigori-karpin-s-author-page/TestNoReturn style="width: 100%;"]]
+[[/=]]
+@@ @@
+[[div style="border-top: double 12px var(--accentColor);"]]
+[[/div]]
+@@ @@
+[[div class="blockquote"]]
+A multiversal degradation in anomalous phenomena ravages the world of magic, leaving its fantastical hidden lands and communities to gradually die out; the Foundation, its allies and foes, are made painfully aware that //something// must change. Explore //the Impasse// and the nuanced relationship between the Foundation, the anomalous, and the nature of change itself. Examine the world at stake and decide, ultimately, how to bring it hope.
+[[/div]]
+@@ @@
+[[collapsible show="CANON WORKS" hide="CANON WORKS" hideLocation="both" folded="no"]]
+@@ @@
+[[div style="border-top: double 12px var(--accentColor);"]]
+[[/div]]
+@@ @@
+[[div class="bubble" style="margin: 0px;"]]
+[[=]]
++ [*/scp-6500 SCP-6500:] ##fff|INEVITABLE##
+//by S D Locke, HarryBlank, Placeholder^^McD^^, Ihp, Grigori Karpin, DarkStuff, Aethris//
+[[/=]]
+
+Follow the Foundation's path to combat the Impasse by following several individuals on their own Paths through dying magic realms to retrieve artefacts of elemental power. Choose how they are wielded, for better or worse.
+@@ @@
+[[div class="brief"]]
+[[=]]
++ [[span class="bbox"]][*/scp-6500/offset/0 DEPARTURE][[/span]]
+[[/=]]
+[[/div]]
+@@ @@
+[[=]]
+[[div class="custom"]]
+[[div class="cards" style="width: 100%; margin: auto;"]]
+[[div]]
+[[f=image https://i.imgur.com/34HxPx6.png
+ link="https://scp-wiki.wikidot.com/scp-6500/offset/1" width="100%"]]
+++ ##aaa|WARRIOR##
+//by HarryBlank//
+[[/div]]
+[[div]]
+[[f=image https://i.imgur.com/AdXN4mS.png
+ link="https://scp-wiki.wikidot.com/scp-6500/offset/2" width="100%"]]
+++ ##f24|MAGE##
+//by Ihp//
+[[/div]]
+[[div]]
+[[f=image https://i.imgur.com/xEMfWOC.png
+ link="https://scp-wiki.wikidot.com/scp-6500/offset/4" width="100%"]]
+++ ##2bf|CLERIC##
+//by Grigori Karpin//
+[[/div]]
+[[div]]
+[[f=image https://i.imgur.com/8tXJvew.png
+ link="https://scp-wiki.wikidot.com/scp-6500/offset/5" width="100%"]]
+++ ##4b2|THIEF##
+//by DarkStuff//
+[[/div]]
+[[/div]]
+[[div style="height: 10px;"]]
+[[/div]]
+[[=image https://i.imgur.com/zNpYxbP.png width="100%" style="padding: 0 !important; margin: 0 !important;" link="https://scp-wiki.wikidot.com/scp-6500/offset/10"]]
++ ##fd0|PARIAH##
+//by Placeholder^^McD^^//
+[[div style="height: 10px;"]]
+[[/div]]
+[[div class="cards" style="width: 100%; margin: auto;"]]
+[[div class="cards" style="width: 50%; padding-right: 1.25%;"]]
+[[div]]
+[[f=image https://i.imgur.com/ODYqAnz.png link="https://scp-wiki.wikidot.com/scp-6500/offset/13" width="100%"]]
+++ ##teal|WARLOCK##
+//by HarryBlank//
+[[/div]]
+[[div]]
+[[f=image https://i.imgur.com/SUgdvNC.png link="https://scp-wiki.wikidot.com/scp-6500/offset/14" width="100%"]]
+++ [[span style="filter: brightness(166%);"]][[span class="dt"]]##maroon|RELIQUARIANS##[[/span]][[span class="mb"]]##maroon|RELIQ.##[[/span]][[/span]]
+//by Ihp//
+[[/div]]
+[[/div]]
+[[div class="cards" style="width: 50%; padding-left: 1.25%;"]]
+[[div]]
+[[f=image https://i.imgur.com/3Y5HzCK.png link="https://scp-wiki.wikidot.com/scp-6500/offset/15" width="100%"]]
+++ ##a1f|VOYAGER##
+//by Placeholder^^McD^^//
+[[/div]]
+[[div]]
+[[f=image https://i.imgur.com/I7yLWQ8.png link="https://scp-wiki.wikidot.com/scp-6500/offset/16" width="100%"]]
+++ [[span style="border: 4px #4b2 solid; background: #4b2; color: black;"]]EMISSARY[[/span]]
+//by Grigori Karpin//
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+@@ @@
+[[div class="brief"]]
+[[=]]
++ [[span class="bbox"]][*/scp-6500/offset/17 CROSSROADS][[/span]]
+[[/=]]
+[[/div]]
+[[/div]]
+@@ @@
+[[/=]]
+@@ @@
+[[div style="border-top: double 12px var(--accentColor);"]]
+[[/div]]
+@@ @@
+
+[[div class="brief"]]
+[[=]]
+++++ //##21252E|PRIMARY POST-PIVOT WORKS##//
+[[/=]]
+
+[[/div]]
+
+@@ @@
+@@ @@
+[[div class="cards custom custom2"]]
+[[div class="graybox" style="width: 50%;"]]
+[[div class="brief"]]
+[[=]]
+++ ##21252e|THRESHOLD TIMELINE##
+[[/=]]
+[[/div]]
+
+[[=]]
+@@ @@
+
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/nobody-likes-a-sneak Nobody Likes a Sneak]
+//by Grigori Karpin//
+
+A streetwise //Nobody// searching for an explanation for the [*/scp-6500 Impasse], starts up an investigation that runs her afoul of cognitohazards, T-rex skeletons, the Wanderer’s Library, and a Paris café.  
+And that’s just the beginning.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/nobody-s-looking-for-trouble Nobody's Looking For Trouble]
+//by Grigori Karpin//
+
+//Nobody// isn’t alone, she’s working with the Serpent’s Hand, and she isn’t even the only //nobody// around, but none of that is gonna matter if they can’t find out where the Foundation is holding O5-Zero after their trial.
+[[/div]]
+@@ @@
+
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/a-trip-down-memory-lane A Trip Down Memory Lane]
+//by HarryBlank, LizardWizard//
+
+//You want to repurpose a formerly-hostile, presumably living anomaly, to save twelve dollars?//
+[[/div]]
+@@ @@
+
+[[div class="bubble"]]
+++++ [[[Fafnir]]]
+//by Ethagon//
+
+Some always profit from the status quo. Among those is an ancient dragon that would have rather slept through the Impasse and its consequences. This is how it came to be.
+[[/div]]
+@@ @@
+
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/undaeveling Undaeveling]
+//by Guezma//
+
+After the Impasse is over, Judith Low updates SCP-140 to Neutralised. If only it were that easy with the Daevites.
+[[/div]]
+@@ @@
+@@ @@
+
+[[div class="brief"]]
+[[=]]
+++++ //##21252E|RELATED POST-PIVOT WORKS##//
+[[/=]]
+[[/div]]
+@@ @@
+@@ @@
+
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/character-interactions-disguised-as-an-epilogue Character Interactions Disguised As An Epilogue]
+//by Ihp//
+
+Technically the end of [*/nothing-to-fear-hub Black Autumn IV: Nothing to Fear] this tale begins prior to the end of SCP-6500 but then finishes after, representing a montage of 2021’s events from the perspective of [*/the-s-c-plastics-hub Site-87’s] cast of characters.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/scp-5056/offset/1 SCP-5056 (II): The Mirror Image]
+//by HarryBlank//
+
+Philip Deering, the former SCP-5056-B, looks back with mixed feelings on one very strange year.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/scp-5974 SCP-5974: The Interactive Fiction]
+//by HarryBlank//
+
+A Foundation traitor is forced to relive her activities in the time before the Impasse by a video game with very low user friendliness.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [*/scp-6056 SCP-6056: The Crumpening]
+//by HarryBlank//
+
+In the wake of the Warlock path, some heartfelt conversations are happening -- and being rudely interrupted.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [*/scp-7007 SCP-7007: Misfortune Gorge]
+//by Grigori Karpin//
+
+Almost a year after the events of SCP-6500, [[[vikander-kneed-technical-media-hub | Vikander-Kneed Technical Media]]] have some thoughts about the Foundation's recent behavior and invite them onto a gameshow.
+[[/div]]
+
+[[/=]]
+@@ @@
+[[/div]]
+[[div class="greenbox" style="width: 50%;"]]
+[[div class="brief"]]
+[[=]]
+++ ##21252e|VANGUARD TIMELINE##
+[[/=]]
+[[/div]]
+
+[[=]]
+@@ @@
+[[div class="bubble"]]
+++++ [*https://scp-wiki.wikidot.com/sarkic-heat Sarkic Heat]
+//by Grigori Karpin//
+
+Shortly after Vanguard is established, Tilda Moose asks Dr. Alto Clef and [*/scp-2075 Karcist Varis] to lead a raid on the Hunter’s Black Lodge in Moscow.  Think of this as a buddy cop comedy, with body horror.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [*https://scp-wiki.wikidot.com/a-sarkic-by-any-other-name A Sarkic By Any Other Name]
+//by Grigori Karpin//
+
+Following up on Sarkic Heat, Varis and Clef continue their addressing of Sarkic Anomalies for the Vanguard as the heat starts to rise around [[[SCP-2480]]] and a brewing conflict with the GOC.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [*https://scp-wiki.wikidot.com/with-many-choices With Many Choices]
+//by LizardWizard and Grigori Karpin//
+
+As [[[SCP-939]]] is normalized, Vanguard and the GOC battle in the court of public opinion.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [*https://scp-wiki.wikidot.com/voice-of-vanguard Voice of Vanguard]
+//by Guezma//
+
+Humanity must learn it's not alone in this world, and Vanguard's podcast helps spread the message. This week's guest is from Parawatch and he needs to learn a bit more than that.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [*https://scp-wiki.wikidot.com/facing-forward Facing Forward]
+//by Guezma//
+
+After the events of Voice of Vanguard, Ron Gambi's life has changed, but where is it all headed? A new opportunity and an old friend will help him find his way.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [*https://scp-wiki.wikidot.com/the-trainee-gets-trolled The Trainee Gets Trolled]
+//by Guezma//
+
+As part of his training in Vanguard's PR department, Ron Gambi installs Void and gets the full social media experience.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [*https://scp-wiki.wikidot.com/gambi-s-gambit Gambi's Gambit]
+//by Guezma//
+
+After having been contained for two decades, Marcel Gambi is in hiding. Vanguard wants to find him to ask him a few questions. Ron Gambi wants to reunite with his long-lost brother. Unfortunately, they're not the only ones looking for him.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/esterberg-city-wikipedia Esterberg (City) — Wikipedia]
+//by Esoterica, Jasiu06, Jerden, Ralliston, and Zygard//
+
+More than a decade after the Veil has fallen, the world truly has changed. Let's see its true colors, this time described by a much less biased party, shall we?
+
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/scp-6483 SCP-6483: The Polar Express]
+//by LORDXVNV and Ralliston//
+
+Site-120 has a new resident humanoid anomaly, and he's really getting into the Christmas Spirit.  Watch as this anomalous individual goes from containment to employment as the switch to Vanguard occurs in this holiday appropriate article. 
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/miau-miau-asheworth-kun Miau Miau, Asheworth-kun]
+//by LORDXVNV//
+
+Daniel Asheworth acclimates a colleague to the new status quo of Vanguard. Things go awry. (Also, he's a catboy, but just temporarily) 
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/vikander-kneed-worldwide-news-network Vikander-Kneed Worldwide News] 
+//by Cole 13//
+
+VKTM is finally free of 50 plus years of containment by the Foundation, and in this Vanguard future, they're reaching out to the public in a big way.
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/the-first-occult-flame-war The First Occult Flame War] 
+//by Guezma, Ralliston and Zygard//
+
+Imagine two faiths whose messy history goes back tens of thousands of years. Imagine them going at war and suffering unbelievable losses. Imagine them reduced to shadows of their former selves. Imagine the grudges they bear in the modern world.
+Can you picture that?
+Okay now put them on Twitter.
+[[/div]]
+
+@@ @@
+@@ @@
+[[div class="brief"]]
+[[=]]
+++++ //##21252E|RELATED POST-PIVOT WORKS##//
+[[/=]]
+[[/div]]
+@@ @@
+@@ @@
+
+
+[[div class="bubble"]]
+++++ [https://scp-wiki.wikidot.com/i-did-not-fade I Did Not Fade]
+//by Ralliston//
+
+It’s 2057, Vanguard has been operating for more than thirty years, and Daniel Asheworth is tired.  He’s lived a long life.  And when he wakes up on October 10^^th^^, he knows it's his last day. 
+[[/div]]
+@@@@
+[[div class="bubble"]]
+++++ [http://scp-int.wikidot.com/zlecenie-mef-7629 Order MEF-7629]
+//by Zygard//
+
+Do you want to kill someone without leaving any traces, but are also a professional with certain standards? This is the perfect product for you! Hunter Industries presents the "Rokita" pistol!
+[[/div]]
+
+@@ @@
+[[/=]]
+
+[[/div]]
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+[[div class="brief"]]
+[[=]]
++ ##21252E|TIMELINE AGNOSTIC##
+[[/=]]
+[[/div]]
+@@ @@
+@@ @@
+[[div class="bubble"]]
+[[=]]
+++++ [*/spc-6500 SPC-6500: INFINITESIMAL]
+//by LORDXVNV//
+
+Endless stories can be told in in the SCP universe. But what about the //SPC// universe?
+[[/=]]
+[[/div]]
+
+@@ @@
+
+[[div class="brief"]]
+[[=]]
++ ##21252E|ALTERNATE INTERPRETATIONS##
+[[/=]]
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+[[=]]
+++++ [*http://scp-int.wikidot.com/ende-des-einsamen-wanderers End of the Lonely Wanderer]
+//by Karpfisch//
+
+Some are tired. Others are happy. But many are freed from a burden they carried for years. The sad beginnings of an important event.
+[[/=]]
+[[/div]]
+@@ @@
+
+[[/collapsible]]
+@@ @@
+[[div style="border-top: double 12px var(--accentColor);"]]
+[[/div]]
+@@ @@
+[[=]]
++ DETAILS
+[[/=]]
+@@ @@
+[[tabview]]
+[[tab What is No Return?]]
+[[=]]
++++ OVERVIEW
+[[/=]]
+__**No Return**__ is the canon that follows on the heels of SCP-6500: Inevitable, but you already knew that right?  This canon is concerned with consequences first and foremost; when we were writing SCP-6500 it became clear that whichever timeline the reader chose, the concept of the Foundation was going to be irrevocably changed.  Which is fitting, as Inevitable is a pretty stark //climate change// allegory.  We wanted to create a setting in which would foster further stories, leading off from either timeline.  
+
+So, what is //No Return//?  It’s life after the tipping point, along two very different causal paths.  One where the Foundation maintains its iron grip on the anomalous world, but those in the know are aware SCP-6500 was the SCPF’s fault and another in which the Foundation dissolves, forming a new organization with various groups of interest (read Emissary!) to try to educate the public about the anomalous world.
+
+[[/tab]]
+[[tab Contributing]]
+This is a canon, so obviously we are open to any and all writing stories in these settings (//Threshold// or //Vanguard//) but __we ask that you read at least the paths of Inevitable that lead to the timeline you want to write for__.  Please feel free to discuss your ideas with the creators, we want a collaborative canon based on our monstrously large collaborative SCP.
+
+**__Threshold__** is probably a little more cynical, and useful for stories about corruption within the Foundation.  
+* In the Threshold Timeline, Overwatch Command when presented with the realization that their organization’s work to contain anomalies caused the slow death of all magic decided to do the bare minimum to repair the damage and continue on as before. 
+* It’s effectively an open secret within this Timeline that the Foundation is responsible for the Impasse and that they are covering it up.  
+* Multiple actors (including some within the Foundation) seek to out the Foundation for their part in causing SCP-6500 and bring about the downfall of the O5s, or at the very least curtail the continuing practice of containing anomalies.
+
+**__Vanguard__** is probably a little more optimistic, and useful for stories about a new beginning and making up for past misdeeds.  
+* In the Vanguard Timeline, Overwatch bowed their will to O5-Zero who proposed the Foundation dissolve and form a new organization, partnering with certain GOIs to build Vanguard.  Vanguard is an organization whose motto is //Shelter. Normalize. Inform//.  
+* The goal of Vanguard is to acclimate the public to the existence of the anomalous and stop hiding the truth of this weird world.  They still intend to keep on protecting the world from dangerous anomalies, but without the amnestics, disinformation campaigns, D-Class, and other ethically distasteful activities the SCPF has gotten up to in the last century.  
+* At the outset, Vanguard is made up of Ex-Foundation personnel, several Nälkä communities and Karcists, the large majority of the Serpent’s Hand and the Maxwellist Collective. //The Emissary Path is almost essential reading to grasp this new organization.//
+
+[[div style="border-top: double 12px var(--accentColor);"]]
+[[/div]]
+
+
+[[=]]
+//BUT KEEP IN MIND//: Any story is possible in either timeline.  Just have fun and don’t hesitate to ask for guidance.
+
+For adding to this canon hub, please ask for assistance (as you can see the formatting is unique).
+[[/=]]
+[[/tab]]
+
+[[tab Sister Canons]]
+[[=]]
++++ Sister Canons
+[[/=]]
+
+Intimately tied into __**No Return**__ are the canons of the creators of SCP-6500:
+* **[[[https://scp-wiki.wikidot.com/on-guard-43-hub | On Guard 43]]]** – concerning the cast of characters that populate Site-43, specializing in acroamatic abatement, alternative containment procedures, memetics, and one weird anomalous media company.  Focusing on witty slice of life stories, grandiose plots consisting of myriad twists and turns, the future pursuit of knowing the secrets of pataphysics through the lens of the Archetypicals, and the weird social commentary of Vikander-Kneed Technical Media.
+* **[[[https://scp-wiki.wikidot.com/the-s-c-plastics-hub | S&C Plastics]]]** – concerning the personnel who staff Site-87, in the Sloth’s Pit Nexus, a town intrinsically tied to the power of narratives in more ways than one.  “It is about the people at Site-87 who have, somehow, broken free of the Foundation's ability to grind individuality, decency, humanity, and common sense into nothingness.”
+* **[[[https://scp-wiki.wikidot.com/wonder-world | What a Wonderful World]]]** – This canon is mainly set in the anomalous city of Wonder World!^^TM^^, which does indeed exist on Earth as an extradimensional space somewhere in Boston, Massachusetts, United States of America. Wonder World!^^TM^^ is host, of course, to the company of Dr. Wondertainment, and to a large population (I mean, think medium sized city) of magical, Wondrous people. The culture is built on childlike innocence, willing naivety, whimsy, and a deep appreciation for the goodness that can be found in each and every person.  What a Wonderful World is not about ignoring the dark, disturbing, horribly effed up world that is the Foundationverse. It's about finding reasons to be happy and pushing through in spite of that.
+
+Additionally, **[[[https://scp-wiki.wikidot.com/from-120-s-archives-hub | From 120's Archives]]]** is also tied into the Vanguard timeline.  From 120’s Archive is a modern fantasy canon focusing on the anomalous world's efforts to better itself. Almost nothing is certain – despite the ever-present gods, zealots, and horrors of the reemerging Fae Empire – except that the Foundation must work together with the anomalous, whether it likes it or not.
+[[/tab]]
+[[/tabview]]
+@@ @@
+@@ @@
+[[=]]
+[[module Rate]]
+[[/=]]
+@@ @@
+@@ @@
+[[footnoteblock]]
+
+[[=]]
+[[<]]
+[[include :scp-wiki:component:license-box
+|author=s d locke, Aethris, DarkStuff, Grigori Karpin, HarryBlank, ihp, Placeholder McD, Liryn]]
+=====
+> **Filename**: Warrior, Mage, Cleric, Thief, Pariah, Warlock, Reliquarians, Voyager, Emissary
+> **Author**: [[user Aethris]]
+> **License**: CC BY-SA 3.0
+> **Additional Notes**: Used with her express permission.
+-----
+> **Filename**: No Return Banner
+> **Author**: [[user Grigori Karpin]] & [[user Azamo]]
+> **License**: CC BY-SA 3.0
+> **Additional Notes**: Using the 5 below images:
+
+> **Filename:** Sauelsuesor.jpg
+> **Name:** Two Coronal Holes on the Sun Viewed by SDO
+> **Author:** [[*user HarryBlank]]/NASA Goddard Photo and Video
+> **License:** CC BY 2.0
+> **Source:** [https://search.creativecommons.org/photos/2de2ddb8-1114-4c04-92af-c1315d038a24 flickr]
+
+> **Filename:** comm_ihp.png
+> **Author:** [[*user WarFang]]
+> **License:** CC BY-SA 3.0
+> **Notes:** Created specifically for ihp's tale. Thanks WarFang!
+
+> **Filename:** LibraryFightSmall.jpg/LibraryFightLarge.jpg
+> **Author:** [[*user Amai-Ixchel]]
+> **License:** CC BY-SA 3.0
+> **Notes:** Created specifically for HarryBlank's tale. Thanks Amai!
+
+> **Filename:** monk_and_oni.png
+> **Author:** [[*user Seyph]]
+> **License:** CC BY-SA 3.0
+> **Notes:** Created specifically for Grigori Karpin's tale. Thanks Seyph!
+
+> **Filename:** rottemple.png, zNpYxbP.png
+> **Author:** [[*user Aethris]]
+> **License:** CC BY-SA 3.0
+> **Notes:** Created specifically for DarkStuff's and Place's tales (respectively). Thanks Aethris!
+
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/<]]
+[[/=]]

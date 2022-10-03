@@ -1,0 +1,34 @@
+[[module CSS]]
+span, a { word-break: normal !important }
+[[/module]]
+
+[[include :scp-jp:theme:blankstyle acs=a]]
+
+[[module CSS]]
+/* anendlessusername's invaluable correction of the ACS octagon! */
+#page-content .quadrants > div {
+    top: 2.25%;
+    left: 18.5%;
+}
+
+/*-- Japanese localizing --*/
+
+.kt {
+    -webkit-text-emphasis-style: filled dot;
+    text-emphasis-style: filled dot;
+}
+
+.ruby, .rt{
+  border-collapse: collapse;
+}
+[[/module]]
+
+[!--
+フラグメント:
+http://scp-jp.wikidot.com/fragment:scp-5056-offset-0
+http://scp-jp.wikidot.com/fragment:scp-5056-offset-1
+--]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]

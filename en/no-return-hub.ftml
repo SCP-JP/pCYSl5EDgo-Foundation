@@ -1,0 +1,611 @@
+[[include :scp-jp:theme:blankstyle]]
+[[include :scp-jp:component:jstyles]]
+
+[[div style="display: none;"]]
+[[include :scp-jp:theme:placestyle]]
+[[/div]]
+[[include :scp-wiki:component:fade-in speed=1]]
+
+[[module css]]
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.fancyhr hr {
+    background-color: transparent !important;
+}
+
+.bubble {
+    align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: auto;
+    padding: 10px;
+    border: 3px solid var(--accentColor);
+    border-radius: 12px;
+    background-color: #21252E;
+}
+
+.brief {
+    align: center;
+    width: 66%;
+    margin: auto;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: var(--accentColor);
+    color: #21252E !important;
+}
+
+body {
+    background-image: linear-gradient(
+        to bottom,
+        #FFD700, #2F333C 200px,
+        #2F333C 200px, #2F333C 100%);
+}
+
+:root {
+  --header-title: "OVERWATCH";
+  --header-subtitle: "SACRIFICE CONFERS POWER";
+  --lgurl: url('https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-2/overwatchheader.svg');
+  --accentColor: #FFD700;
+}
+
+div#extra-div-1 {
+    filter: brightness(100%);
+    height: 100px;
+    margin-top: 30px;
+}
+
+#header h1 a::before {
+    color: transparent;
+}
+
+#header h2::before {
+    color: transparent;
+}
+
+.fancyborder {
+    border-radius: 5rem;
+}
+
+@media (max-width: 706px) {
+    .fancyborder {
+        border-radius: 1rem;
+    }
+}
+
+#login-status {
+    color: #21252E;
+}
+#login-status a {
+    color: #21252E;
+}
+#login-status ul a {
+    color: #ededed;
+    background: #21252E;
+}
+#login-status ul a:hover {
+    color: #21252E;
+}
+#account-topbutton{
+    border: solid 1px #21252E;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    align-content: center;
+}
+
+.cards > div {
+    margin: -12px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+.cursive {
+    font-family: "EB Garamond", Big Caslon, Book Antiqua, Palatino Linotype, Georgia, serif;
+}
+
+@media (min-width: 768px) {
+    #main-content {
+       max-width: 98%;
+    }
+    .mb {
+        display: none;
+    }
+}
+
+#container-wrap-wrap {
+    overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+    .custom {
+        font-size: 60%;
+    }
+    .dt {
+        display: none;
+    }
+    .cards {
+        margin: 0px !important;
+    }
+    #main-content {
+        margin: 0 1% 0 1%;
+        max-width: 100%;
+    }
+}
+
+.graybox {
+    --accentColor: #ccc;
+}
+
+.greenbox {
+    --accentColor: #4b2;
+}
+
+.bbox {
+    --accentColor: #21252E;
+}
+
+.custom2 {
+    width: auto !important;
+    margin: 0px;
+    padding: 0px;
+}
+[[/module]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+@@ @@
+||= //一つの選択が二つの世界を創出し// _
+//瓜二つのタペストリーが開展する// _
+//[[span class="ruby"]]先駆[[span class="rt"]]ヴァンガード[[/span]][[/span]]のアイギスが燦めき// _
+//[[span class="ruby"]]閾値[[span class="rt"]]スレッショルド[[/span]][[/span]]は線を引く──// ||
+@@ @@
+[[=]]
+//──[[span class="ruby"]]二度と戻れぬ[[span class="rt"]]ノー・リターン[[/span]][[/span]]一線を。//
+@@@@
+[[image http://scp-jp-storage.wdfiles.com/local--files/file%3A3995762-104-n9pj/TestNoReturn style="width: 100%;"]]
+[[/=]]
+@@ @@
+[[div style="border-top: double 12px var(--accentColor);"]]
+[[/div]]
+@@ @@
+[[div class="blockquote"]]
+多元宇宙規模の異常事物の減衰は、魔法の世界を蹂躙し、幻想幽玄の土地や街々は次第に滅びゆく。財団、そしてその敵と味方は、[[span class="kenten-b"]]何か[[/span]]が変わらなければならないことを突きつけられた。“難局”ならびに、財団、異常、かの変化の特性を結ぶ繊細な関係性を調査せよ。危機に瀕する世界を分析し、最終的には、どう希望を齎すかを決定せよ。
+[[/div]]
+@@ @@
+[[collapsible show="カノン作品" hide="カノン作品" hideLocation="both" folded="no"]]
+@@ @@
+[[div style="border-top: double 12px var(--accentColor);"]]
+[[/div]]
+@@ @@
+[[div class="bubble" style="margin: 0px;"]]
+[[=]]
++ [*/scp-6500 SCP-6500:] ##fff|避けえないもの##
+//by S D Locke, HarryBlank, Placeholder^^McD^^, Ihp, Grigori Karpin, DarkStuff, Aethris//
+[[/=]]
+
+“難局”に立ち向かう財団の道を追いかけろ──死にゆく魔法の領域を通る各々の“道”で、根源的な力のアーティファクトを回収する者たちの旅路を辿っていけ。是非によらず、それらがどう振るわれるかを選択せよ。
+@@ @@
+[[div class="brief"]]
+[[=]]
++ [[span class="bbox"]][*/scp-6500/offset/0 出発点][[/span]]
+[[/=]]
+[[/div]]
+@@ @@
+[[=]]
+[[div class="custom"]]
+[[div class="cards" style="width: 100%; margin: auto;"]]
+[[div]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-15-33gz/Warrior.png
+ link="http://scp-jp.wikidot.com/scp-6500/offset/1" width="100%"]]
+++ ##aaa|戦士##
+//by HarryBlank//
+[[/div]]
+[[div]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-16-o0x2/Mage.png
+ link="http://scp-jp.wikidot.com/scp-6500/offset/2" width="100%"]]
+++ ##f24|魔術師##
+//by Ihp//
+[[/div]]
+[[div]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-17-77fx/Cleric.png
+ link="http://scp-jp.wikidot.com/scp-6500/offset/4" width="100%"]]
+++ ##2bf|僧侶##
+//by Grigori Karpin//
+[[/div]]
+[[div]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-18-6etr/Thief.png
+ link="http://scp-jp.wikidot.com/scp-6500/offset/5" width="100%"]]
+++ ##4b2|盗賊##
+//by DarkStuff//
+[[/div]]
+[[/div]]
+[[div style="height: 10px;"]]
+[[/div]]
+[[=image http://scp-jp-storage.wdfiles.com/local--files/file%3A2963469-48-p7l4/zNpYxbP.png width="100%" style="padding: 0 !important; margin: 0 !important;" link="http://scp-jp.wikidot.com/scp-6500/offset/10"]]
++ ##fd0|異端者##
+//by Placeholder^^McD^^//
+[[div style="height: 10px;"]]
+[[/div]]
+[[div class="cards" style="width: 100%; margin: auto;"]]
+[[div class="cards" style="width: 50%; padding-right: 1.25%;"]]
+[[div]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-51-vkut/Warlock.png link="http://scp-jp.wikidot.com/scp-6500/offset/13" width="100%"]]
+++ ##teal|ウォーロック##
+//by HarryBlank//
+[[/div]]
+[[div]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-52-1ytz/Reliquarians.png link="http://scp-jp.wikidot.com/scp-6500/offset/14" width="100%"]]
+++ [[span style="filter: brightness(166%);"]][[span class="dt"]]##maroon|遺物学者##[[/span]][[span class="mb"]]##maroon|遺物学者##[[/span]][[/span]]
+//by Ihp//
+[[/div]]
+[[/div]]
+[[div class="cards" style="width: 50%; padding-left: 1.25%;"]]
+[[div]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-53-j80t/Voyager.png link="http://scp-jp.wikidot.com/scp-6500/offset/15" width="100%"]]
+++ ##a1f|航海者##
+//by Placeholder^^McD^^//
+[[/div]]
+[[div]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-54-jrs2/Emissary.png link="http://scp-jp.wikidot.com/scp-6500/offset/16" width="100%"]]
+++ [[span style="border: 4px #4b2 solid; background: #4b2; color: black;"]]使者[[/span]]
+//by Grigori Karpin//
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+@@ @@
+[[div class="brief"]]
+[[=]]
++ [[span class="bbox"]][*/scp-6500/offset/17 岐路][[/span]]
+[[/=]]
+[[/div]]
+[[/div]]
+@@ @@
+[[/=]]
+@@ @@
+[[div style="border-top: double 12px var(--accentColor);"]]
+[[/div]]
+@@ @@
+
+[[div class="brief"]]
+[[=]]
+++++ //##21252E|主な[[span class="ruby"]]分岐点後[[span class="rt"]]ポスト・ピボット[[/span]][[/span]]の作品##//
+[[/=]]
+
+[[/div]]
+
+@@ @@
+@@ @@
+[[div class="cards custom custom2"]]
+[[div class="graybox" style="width: 50%;"]]
+[[div class="brief"]]
+[[=]]
+++ ##21252e|スレッショルド タイムライン##
+[[/=]]
+[[/div]]
+
+[[=]]
+@@ @@
+
+[[div class="bubble"]]
+++++ [[[nobody-likes-a-sneak|Nobody Likes a Sneak]]]
+//by Grigori Karpin//
+
+都会住まいの“何者でもない”は[*/scp-6500 “難局”]の解明を求めて調査を開始し、認識災害、Tレックスの骸骨、放浪者の図書館、パリのカフェを巡る物語に身を投じる。
+そして全ては始まりに過ぎない。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[nobody-s-looking-for-trouble|Nobody's Looking For Trouble]]]
+//by Grigori Karpin//
+
+“何者でもない”は独りじゃない。彼女は蛇の手と共闘し、近くの“何者でもない”は彼女だけというわけでもない。だが、彼らが財団が裁判後にO5-ゼロをどこへやったかを見つけられないのなら、そんなことはどうだっていい。
+[[/div]]
+@@ @@
+
+[[div class="bubble"]]
+++++ [[[a-trip-down-memory-lane|A Trip Down Memory Lane]]]
+//by HarryBlank, LizardWizard//
+
+「かつて敵対的で、生きていたらしきアノマリーを、12ドル節約するために取り壊したいと？」
+[[/div]]
+@@ @@
+
+[[div class="bubble"]]
+++++ [[[Fafnir]]]
+//by Ethagon//
+
+いつだって現状を維持した方が得する者もいるものだ。その中の一つ、とある古代のドラゴンは、“難局”とその終局の間の方がよく眠れただろう。これは事態がどうなったかの話だ。
+[[/div]]
+@@ @@
+
+[[div class="bubble"]]
+++++ [[[undaeveling|Undaeveling]]]
+//by Guezma//
+
+難局が終わった後、ジュディス・ロゥはSCP-140をNeutralisedに更新した。ダエーバイトもそう簡単であればよかったのだが。
+[[/div]]
+
+@@ @@
+@@ @@
+
+[[div class="brief"]]
+[[=]]
+++++ //##21252E|関連するポスト・ピボットの作品##//
+[[/=]]
+[[/div]]
+@@ @@
+@@ @@
+
+[[div class="bubble"]]
+++++ [[[character-interactions-disguised-as-an-epilogue|Character Interactions Disguised As An Epilogue]]]
+//by Ihp//
+
+厳密に言えば[*/nothing-to-fear-hub Black Autumn IV: Nothing to Fear]の結末であるこのTaleは、SCP-6500の終結前〜終結後にかけて、[*/the-s-c-plastics-hub サイト-87]の登場人物たちの視点から2021年の出来事のモンタージュを綴っていく。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [http://scp-jp.wikidot.com/scp-5056/offset/1 SCP-5056 (II): 鏡像]
+//by HarryBlank//
+
+フィリップ・ディアリング、かつてのSCP-5056-Bは、複雑な気持ちで奇妙極まりない1年を振り返る。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[scp-5974|SCP-5974: The Interactive Fiction]]]
+//by HarryBlank//
+
+財団の裏切者は、“難局”以前の活動を追体験させられる──ユーザーフレンドリーの面で最悪のビデオゲームを通じて。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[scp-6056|SCP-6056: The Crumpening]]]
+//by HarryBlank//
+
+ウォーロックの道の直後、いくつかの心情的な会話があった──突然ブッた切られたが。
+[[/div]]
+
+@@ @@
+
+[[div class="bubble"]]
+++++ [[[scp-7007|SCP-7007: ミスフォーチュン・ゴージ]]]
+//by Grigori Karpin//
+
+SCP-6500の出来事から1年が過ぎようとしていた頃、[[[vikander-kneed-technical-media-hub|ヴィキャンデル=ニード・テクニカル・メディア]]]は財団の最近の言動について思うところがあり、彼らをゲームショウに招く。
+[[/div]]
+
+[[/=]]
+@@ @@
+[[/div]]
+[[div class="greenbox" style="width: 50%;"]]
+[[div class="brief"]]
+[[=]]
+++ ##21252e|ヴァンガード タイムライン##
+[[/=]]
+[[/div]]
+
+[[=]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[sarkic-heat|Sarkic Heat]]]
+//by Grigori Karpin//
+
+ヴァンガードの設立直後、ティルダ・ムースはアルト・クレフ博士と[*/scp-2075 カルキスト・ヴァリス]にモスクワの“ハンターの黒きロッジ”襲撃の指揮を依頼する。これはバディコップ・コメディだと考えてくれ──ボディ・ホラー付きの。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[a-sarkic-by-any-other-name|A Sarkic By Any Other Name]]]
+//by Grigori Karpin//
+
+Sarkic Heatの後、ヴァリスとクレフはヴァンガードのためにサーキック系アノマリーへの対処を続けていたが、この頃[[[SCP-2480]]]周辺では対立が激化し、GOCとの衝突が迫っていた。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[with-many-choices|With Many Choices]]]
+//by LizardWizard and Grigori Karpin//
+
+[[[SCP-939]]]が正常化された結果、ヴァンガードとGOCは世論という法廷で闘争する。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[voice-of-vanguard|Voice of Vanguard]]]
+//by Guezma//
+
+人類は、この世界で唯一の存在じゃないことを知るべきだ。そして、ヴァンガードのポッドキャストはこのメッセージを広めるうえで有用だ。今週のゲストはパラウォッチから来てもらったけど、彼はもう少しそのことを知らないといけない。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[facing-forward|Facing Forward]]]
+//by Guezma//
+
+Voice of Vanguardの出来事の後、ロン・ガンビの人生は変わったが、果たしてどこに向かっているのだろう？ 新たな機会と古い友人が、彼が自分の道を見つけるのを手伝ってくれる。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[the-trainee-gets-trolled|The Trainee Gets Trolled]]]
+//by Guezma//
+
+ヴァンガードのPR部門の研修の一環で、ロン・ガンビはVoidをインストールし、完璧なソーシャルメディア体験を送る。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[gambi-s-gambit|Gambi's Gambit]]]
+//by Guezma//
+
+20年間に渡る収容の後、マルセル・ガンビは隠れている。ヴァンガードは彼を探し出し、いくつか質問をしたいと考えている。ロン・ガンビは長らく行方不明だった兄弟と再開したがっている。だが不幸なことに、彼らだけがマルセルを探しているわけではない。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[esterberg-city-wikipedia|Esterberg (City) — Wikipedia]]]
+//by Esoterica, Jasiu06, Jerden, Ralliston, and Zygard//
+
+ヴェール崩壊から十年以上が経ち、世界は大きく変貌した。世界の本当の姿を見に行こうか。今度はもっと偏見の少ない組織が語ってくれている。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[scp-6483|SCP-6483: The Polar Express]]]
+//by LORDXVNV and Ralliston//
+
+サイト-120に新たな人型アノマリーがやって来たが、彼は本当にクリスマス精神に溢れている。このホリデーぴったりの記事で、この異常性持ちの人物が、ヴァンガードへの移行に伴い、収容から雇用に移り変わる様子を見ていってくれ。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[miau-miau-asheworth-kun|Miau Miau, Asheworth-kun]]]
+//by LORDXVNV//
+
+ダニエル・アシュワースは、同僚にヴァンガードの新たな現状を受け入れさせる……はずだった。 (あと、彼は猫人間ですが、一時的なものです)
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[vikander-kneed-worldwide-news-network|Vikander-Kneed Worldwide News]]]
+//by Cole 13//
+
+VKTMはついに財団による50年超の収容から解放され、このヴァンガードの未来で、大々的に大衆に訴えかけている。
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+++++ [[[the-first-occult-flame-war|The First Occult Flame War]]]
+//by Guezma, Ralliston and Zygard//
+
+何万年もの厄介な歴史を持つ2つの宗教を想像してくれ。彼らが戦争に進み、とてつもない損失を被ったと想像してくれ。彼らがかつての自分たちの影に収まるほどになってしまったと想像してくれ。彼らが現代抱いている恨みつらみを想像してくれ。
+光景を思い描けたか？
+それじゃそいつをTwitterに投げ込んでくれ。
+[[/div]]
+
+@@ @@
+@@ @@
+[[div class="brief"]]
+[[=]]
+++++ //##21252E|関連するポスト・ピボットの作品##//
+[[/=]]
+[[/div]]
+@@ @@
+@@ @@
+
+
+[[div class="bubble"]]
+++++ [[[i-did-not-fade|I Did Not Fade]]]
+//by Ralliston//
+
+時は2057年、ヴァンガードは30年以上に渡って活動を続け、ダニエル・アシュワースは終わりが迫っていた。彼は長い人生を生きてきた。そして10月10日に彼は目を覚まし、今日が命日だと知っていた。
+[[/div]]
+@@@@
+[[div class="bubble"]]
+++++ [[[zlecenie-mef-7629|Order MEF-7629]]]
+//by Zygard//
+
+痕跡を残さず誰かを殺したいけど、一定の基準を持ったプロフェッショナルでもある？ そんな貴方にお誂向きの商品がこちら！ ハンター・インダストリーズ提供、“ロキータ”ピストル！
+[[/div]]
+
+@@ @@
+[[/=]]
+
+[[/div]]
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+[[div class="brief"]]
+[[=]]
++ ##21252E|知られざる時間軸##
+[[/=]]
+[[/div]]
+@@ @@
+@@ @@
+[[div class="bubble"]]
+[[=]]
+++++ [[[spc-6500|SPC-6500: INFINITESIMAL]]]
+//by LORDXVNV//
+
+SCP宇宙では終わりなき物語が語られる。では、“SPC”宇宙はどうだろう？
+[[/=]]
+[[/div]]
+
+@@ @@
+
+[[div class="brief"]]
+[[=]]
++ ##21252E|分派的解釈##
+[[/=]]
+[[/div]]
+@@ @@
+[[div class="bubble"]]
+[[=]]
+++++ [[[ende-des-einsamen-wanderers|End of the Lonely Wanderer]]]
+//by Karpfisch//
+
+ある者は精魂尽き果てた。ある者は幸福を甘受した。だが多くの者たちは、何年も背負ってきた重荷から解放された。大いなる事変の悲壮な始まり。
+[[/=]]
+[[/div]]
+@@ @@
+
+[[/collapsible]]
+@@ @@
+[[div style="border-top: double 12px var(--accentColor);"]]
+[[/div]]
+@@ @@
+[[=]]
++ 詳細
+[[/=]]
+@@ @@
+[[tabview]]
+[[tab ノー・リターンとは？]]
+[[=]]
++++ 概要
+[[/=]]
+__**ノー・リターン**__は『SCP-6500: 避けえないもの』の後日談となるカノンですが、もうお分かりだと思います。このカノンで重要なのは、何よりもまず結末です──我々がSCP-6500を執筆していた時にはっきりしたのですが、読者がどちらのタイムラインを選ぼうとも、財団の概念はもう戻れないほどに変わってしまいます。でもそれでいいのです。『避けえないもの』は、まさに“大変動”の寓話そのものなのですから。我々はどちらのタイムラインを出発点にしても、続編を展開させられるような舞台設定を作ろうとしました。
+
+それで、『ノー・リターン』とは何なのでしょうか？ それは分岐点の後、2つの全く異なる歴史を辿った世界です。一方では、財団が異常界の支配を続けていますが、知る者たちはSCP-6500が財団のせいであることを把握しています。もう一方では、財団は解散、様々な要注意団体と新組織を結成し (『使者』を読んでください！)、大衆に異常界について教育しようとしています。
+[[/tab]]
+[[tab 参加するうえで]]
+これはカノンなので、もちろん我々はこの舞台設定 (“スレッショルド”と“ヴァンガード”) におけるあらゆる創作活動を歓迎していますが、__最低限あなたが書きたいタイムラインに繋がる『避けえないもの』の道は読んでおいてください__。よろしければ、あなたのアイデアについて著者たちと自由に討論しましょう。我々は合作カノンを望んでいます──自分たちの超巨大な合作SCPを踏まえたものをね。
+
+**__スレッショルド__**はやや冷笑的で、財団の悪業に関するストーリーに向いています。
+* スレッショルドのタイムラインでは、財団の異常収容活動が全魔法の緩やかな死滅を引き起こしているということに気づいた際、監督司令部は損傷を修復するうえで必要最小限のことを行い、以前通りに活動を続ける道を選びました。
+* このタイムラインにおいて、財団が“難局”の原因であり、彼らがそれを隠蔽したことは、事実上公然の秘密となっています。
+* 複数の人物 (財団職員何名かを含む) は、SCP-6500発生における財団の役割を暴き、O5達に凋落を齎すか、少なくとも現在も続けられている異常収容活動を削減したいと考えています。
+
+**__ヴァンガード__**はおそらくやや楽観的で、新たなスタートと過去の過ちの清算についてのストーリーに向いています。
+* ヴァンガードのタイムラインでは、監督司令部はO5-ゼロの意向を受け入れ、財団を解散し、一部GOIと提携して新組織ヴァンガードを設立する道を選びました。ヴァンガードは{{「保全、常化、公知」^^Shelter. Normalize. Inform.^^}}を掲げる組織です。
+* ヴァンガードの目的は、異常の存在に大衆を馴染ませ、この不思議な世界の真実を隠すのを辞めることです。彼らは依然として危険なアノマリーから世界を保護し続けるつもりですが、記憶処理、偽情報活動、Dクラス、その他財団が前世紀に手を染めていた倫理的に不快な活動はありません。
+* 設立当初のヴァンガードは、元財団職員、何人かのNälkä系コミュニティとカルキスト、蛇の手とマクスウェリスト・コレクティブで構成されています。//この新組織を理解するには、『使者の道』を読めばほぼ間違いないでしょう。//
+
+[[div style="border-top: double 12px var(--accentColor);"]]
+[[/div]]
+
+
+[[=]]
+**でも忘れないで:** どちらのタイムラインでも、あらゆるストーリーを展開可能です。まずは楽しんで。そして助言を求めることを躊躇わないでください。
+
+このカノンのハブに追記したい場合、お声がけください (ご覧のように、形式が特殊ですから)。
+[[/=]]
+[[/tab]]
+
+[[tab 姉妹カノン]]
+[[=]]
++++ 姉妹カノン
+[[/=]]
+
+__**ノー・リターン**__と密接な関係があるのは、SCP-6500の著者たちのカノンです:
+
+* **[[[on-guard-43-hub|43から目を離すな]]]** -- サイト-43に住まう登場人物たちを中心に、玄妙除却、非定型収容プロトコル、ミーメティクス、とある奇妙な異常メディア企業といった内容を掘り下げます。主なテーマはウィットに富んだ日常の一幕、無数の紆余曲折で満ちた遠大なプロット、未来で元型課のレンズを通して覗く空想科学の秘密の追求、そしてヴィキャンデル=ニード・テクニカル・メディアの奇妙な社説です。
+* **[[[the-s-c-plastics-hub|S & Cプラスチック]]]** -- 色々な形で物語の力に支配されている町、ネクサス・スロースピットのサイト-87に勤める職員たちを中心としたカノン。「S & Cプラスチックとは、個性、良識、人間性、常識を無に帰す財団の力からどうにか逃れた、サイト-87の人々の物語です」。
+* **[[[wonder-world|この素晴らしき世界]]]** -- このカノンの主な舞台は、異常な都市ワンダー・ワールド！™。この街はアメリカ合衆国マサチューセッツ州ボストンのどこかにある異次元空間として、確かにこの世に存在しています。ワンダー・ワールドにはもちろんワンダーテインメント博士の会社があり、そして大勢の (つまり中規模の都市をイメージしてください) 魔法にあふれたワンダラスな人々が住んでいます。その文化は、子供のような無邪気さ、気さくな純真さ、奇抜さ、皆の持つ善意への心からの感謝で成り立っています。『この素晴らしき世界』は、財団宇宙という暗く、不穏で、恐ろしく酷い世界に見てみぬふりをする話ではありません。これは幸せになる理由を見つけて、そんな中でも突き進んでいく話です。
+
+この他に、**[[[from-120-s-archives-hub|120の史料館より]]]**もヴァンガードのタイムラインに関連しています。『120の史料館より』はより良くなろうと励む異常界に関する現代ファンタジーのカノンです。確実なことはほとんどありません──ある1つを除いて。再興しつつある妖精帝国の神々、過激派、怪異たちが絶えず存在するとはいえ、それでも財団は望むと望まざると、異常と共に歩まねばならないのです。
+[[/tab]]
+[[/tabview]]
+@@ @@
+@@ @@
+[[=]]
+[[module Rate]]
+[[/=]]
+@@ @@
+@@ @@
+[[footnoteblock]]
