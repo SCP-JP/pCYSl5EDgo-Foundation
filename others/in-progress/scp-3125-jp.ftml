@@ -1,0 +1,13 @@
+[!--
+fragment:scp-3125-jp-0
+fragment:scp-3125-jp-1
+fragment:scp-3125-jp-2
+--]
+[[module CSS]]
+#page-title {
+  font-size: 0%;
+}
+[[/module]]
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
