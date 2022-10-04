@@ -39,6 +39,25 @@ div.raisa {
 .meta-title p {
   margin: 0;
 }
+
+#html-body #header h2 span {
+  font-size: 0px;
+}
+
+#html-body #header h2 span::before {
+  content: '確保 収容 保護 統制 ██';
+  color: #f0f0c0;
+  font-size: 15px;
+}
+
+#html-body #header h1 a span {
+  font-size: 0px;
+  letter-spacing: 0px;
+}
+
+#html-body #header h1 a::after {
+  content: "深淵目録";
+}
 [[/module]]
 ----
 [[=]]
