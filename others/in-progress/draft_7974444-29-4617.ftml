@@ -1,3 +1,69 @@
+[!--
+fragment:scp-3125-jp-0
+fragment:scp-3125-jp-1
+fragment:scp-3125-jp-2
+--]
+[[include :scp-jp:component:betterfootnotes]]
+[[module ListPages offset="@URL|0" range="."]]
+[[div class="meta-title"]]
+SCP-3125-JP
+[[/div]]
+----
+[[%%content{0}%%include :scp-jp:credit:start]]
+**メタタイトル:** 鬭朢者
+**著者:** [[*user pcysl]]
+**作成年:** 2022
+[[%%content{0}%%include :scp-jp:credit:end]]
+
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="p1"]]
+[[div class="meta-title"]]
+SCP-3125-JP-ARC
+[[/div]]
+----
+[[%%content{0}%%include :scp-jp:credit:start]]
+**メタタイトル:** 鬭朢者
+**著者:** [[*user pcysl]]
+**作成年:** 2022
+[[%%content{0}%%include :scp-jp:credit:end]]
+
+[[/module]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="p2"]]
+[[div class="meta-title"]]
+SCP-3125-AQ
+[[/div]]
+----
+[[%%content{0}%%include :scp-jp:credit:start]]
+**メタタイトル:** 鬭朢者
+**著者:** [[*user pcysl]]
+**作成年:** 2022
+[[%%content{0}%%include :scp-jp:credit:end]]
+
+[[/module]]
+[[module CSS]]
+div.raisa {
+  border:solid 1px #999999;
+  padding:5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#page-title {
+  display: none;
+}
+.meta-title {
+  display: unset;
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+.meta-title p {
+  margin: 0;
+}
+[[/module]]
 [[collapsible show="+ 使用画像のライセンス表示を開く"hide="- 使用画像のライセンス表示を閉じる"]]
 
 [[/collapsible]]

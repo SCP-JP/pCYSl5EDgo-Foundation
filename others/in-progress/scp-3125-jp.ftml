@@ -15,7 +15,8 @@ fragment:scp-3125-jp-2
 **作成年:** 2022
 [[%%content{0}%%include :scp-jp:credit:end]]
 %%content%%
-[[%%content{0}%%module CSS]]
+[[/module]]
+[[module CSS]]
 div.raisa {
   border:solid 1px #999999;
   padding:5px;
@@ -38,5 +39,4 @@ div.raisa {
 .meta-title p {
   margin: 0;
 }
-[[%%content{0}%%/module]]
 [[/module]]
