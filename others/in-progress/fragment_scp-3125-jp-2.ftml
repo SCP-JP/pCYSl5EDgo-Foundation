@@ -1,4 +1,9 @@
 [[include :scp-jp:theme:night-rush-theme]]
+[[module CSS]]
+#page-title {
+    display: unset;
+}
+[[/module]]
 [[div style="background: #f2f2c2; color: black;" class="raisa"]]
 [[span style="font-size: larger; font-weight: bold;"]]財団記録・情報保安管理局より通達[[/span]]
 
