@@ -10,6 +10,7 @@ fragment:scp-3125-jp-2
 **作成年:** 2022
 [[include :scp-jp:credit:end]]
 [[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
 [[%%content{0}%%module CSS]]
 div.raisa {
   border:solid 1px #999999;
@@ -19,7 +20,7 @@ div.raisa {
 }
 
 #page-title {
-  display: unset;
+  display: inline;
   font-size: 0%;
 }
 #page-title::before {
@@ -28,5 +29,4 @@ div.raisa {
   content: '%%title%%';
 }
 [[%%content{0}%%/module]]
-%%content%%
 [[/module]]
