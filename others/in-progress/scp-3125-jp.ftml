@@ -4,20 +4,6 @@ fragment:scp-3125-jp-1
 fragment:scp-3125-jp-2
 --]
 [[include :scp-jp:component:betterfootnotes]]
-[[module CSS]]
-#page-title {
-  font-size: 0%;
-}
-
-div.raisa {
-  border:solid 1px #999999; padding:5px; margin-bottom: 10px; text-align: center;
-}
-
-#page-title::before {
-  font-weight: 400;
-  font-size: 200%;
-}
-[[/module]]
 [[include :scp-jp:credit:start]]
 **タイトル:** SCP-3125 === 片道██
 **著者:** [[*user pcysl]]
@@ -25,7 +11,20 @@ div.raisa {
 [[include :scp-jp:credit:end]]
 [[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
 [[%%content{0}%%module CSS]]
+div.raisa {
+  border:solid 1px #999999;
+  padding:5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#page-title {
+  display: unset;
+  font-size: 0%;
+}
 #page-title::before {
+  font-weight: 400;
+  font-size: 200%;
   content: '%%title%%';
 }
 [[%%content{0}%%/module]]
