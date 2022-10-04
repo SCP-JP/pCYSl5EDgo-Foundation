@@ -4,12 +4,16 @@ fragment:scp-3125-jp-1
 fragment:scp-3125-jp-2
 --]
 [[include :scp-jp:component:betterfootnotes]]
-[[include :scp-jp:credit:start]]
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+[[div class="meta-title"]]
+%%title%%
+[[/div]]
+[[%%content{0}%%include :scp-jp:credit:start]]
 **タイトル:** SCP-3125 === 片道██
 **著者:** [[*user pcysl]]
 **作成年:** 2022
-[[include :scp-jp:credit:end]]
-[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+[[%%content{0}%%include :scp-jp:credit:end]]
+%%content%%
 [[%%content{0}%%module CSS]]
 div.raisa {
   border:solid 1px #999999;
@@ -22,6 +26,7 @@ div.raisa {
   display: none;
 }
 .meta-title {
+  display: unset;
   border-bottom: solid 1px #bbbbbb;
   color: #990011;
   font-weight: normal;
@@ -33,8 +38,4 @@ div.raisa {
   margin: 0;
 }
 [[%%content{0}%%/module]]
-[[div class="meta-title"]]
-%%title%%
-[[/div]]
-%%content%%
 [[/module]]
