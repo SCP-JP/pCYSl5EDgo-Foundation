@@ -1,9 +1,4 @@
 [[include :scp-jp:theme:night-rush-theme]]
-[[module CSS]]
-#page-title {
-    display: unset;
-}
-[[/module]]
 [[div style="background: #f2f2c2; color: black;" class="raisa"]]
 [[span style="font-size: larger; font-weight: bold;"]]財団記録・情報保安管理局より通達[[/span]]
 
@@ -107,3 +102,8 @@ SCP-3125-AQ-1は1km/h以上の速度[[span class="fnnum"]].[[/span]][[span class
 
 **収容経緯:** [[[/scp-3125-jp/offset/1|SCP-3125-JP-ARC]]]として当初収容されていましたが、[[[sighing-wednesday-hub|2009年度日本支部大規模収容違反]]]により日本支部の収容能力が大幅に低下したことをうけ、エリア-67215を新たに建造しSCP-3125-AQとして収容することとなりました。[[span class="fnnum"]].[[/span]][[span class="fncon"]]本移管の提案者である当時サイト-17管理官であったトーマス・グラハムは5箇所以上のサイト・エリアの建設を行った業績を称えられ、勲章を贈られました。[[/span]]
 
+[[module CSS]]
+#page-title {
+  display: unset;
+}
+[[/module]]
