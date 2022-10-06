@@ -113,3 +113,14 @@ caption=南極点を中心としたエリア-67215と近傍の南極観測基地
 
 * 名誉財団メダル(統制、予算の友)
 * 財団改善徽章(確保、収容)
+[[module CSS]]
+.fnnum:hover + .fncon, .fncon:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 1279px) {
+.fnnum:hover + .fncon, .fncon:hover {
+  color: black;
+}
+}
+[[/module]]

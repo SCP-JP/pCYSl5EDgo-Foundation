@@ -530,6 +530,17 @@ caption=南極点を中心としたエリア-67215と近傍の南極観測基地
 
 * 名誉財団メダル(統制、予算の友)
 * 財団改善徽章(確保、収容)
+[[%%content{0}%%module CSS]]
+.fnnum:hover + .fncon, .fncon:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 1279px) {
+.fnnum:hover + .fncon, .fncon:hover {
+  color: black;
+}
+}
+[[%%content{0}%%/module]]
 [[/module]]
 [[module CSS]]
 div.raisa {
@@ -572,10 +583,6 @@ div.raisa {
 
 #html-body #header h1 a::after {
   content: "深淵目録";
-}
-
-span.fncon {
-  color: unset;
 }
 [[/module]]
 ----
