@@ -7,17 +7,19 @@
 * [[[http://scp-jp.wikidot.com/author:pcysl#u-deepwell-catalog-memo|深淵目録とは何かについての解説はコチラ]]]
 [[/collapsible]]
 [[include :scp-jp:component:betterfootnotes]]
-[[module ListPages offset="@URL|0" range="."]]
+[[include :pcysl:theme:night-rush condition=#u-display-page-2:target]]
 [[div_ id="u-display-page-1"]]
+[[/div]]
+[[div_ id="u-display-page-2"]]
 [[/div]]
 [[div class="meta-title"]]
 [[/div]]
 ----
-[[%%content{0}%%include :scp-jp:credit:start]]
+[[include :scp-jp:credit:start]]
 **メタタイトル:** 鬭朢者
 **著者:** [[*user pcysl]]
 **作成年:** 2022
-[[%%content{0}%%include :scp-jp:credit:end]]
+[[include :scp-jp:credit:end]]
 [[div id="u-page-0"]]
 [[div style="background: #f2f2c2" class="raisa"]]
 [[span style="font-size: larger; font-weight: bold;"]]財団記録・情報保安管理局より通達[[/span]]
@@ -46,7 +48,7 @@
 
 あなたが閲覧しようとしているエントリはこちらではありませんか？
 ↓
-[[[/draft:7974444-29-4617#u-display-page-1|SCP-3125-JP-ARC]]]
+[[[/scp-3125-jp#u-display-page-1|SCP-3125-JP-ARC]]]
 [[/div]]
 [[/div]]
 [[div id="u-page-1"]]
@@ -66,7 +68,7 @@
 [[/div]]
 [[/div]]
 
-[[%%content{0}%%include :scp-jp:component:image-block
+[[include :scp-jp:component:image-block
 name=http://scp-jp-storage.wdfiles.com/local--files/file:7974444-3-f7r9/climber|
 caption=登山中のSCP-3125-JP-1(D-25125)]]
 
@@ -415,58 +417,10 @@ SCP-3125-JP-1の終了後 2009/09/20撮影
 @@ @@
 
 [[div style="background:#edc600; font-size: larger; font-weight: bold;" class="raisa"]]
-関連エントリ: [[[/draft:7974444-29-4617/offset/1/p1_limit/1|SCP-3125-AQ]]]
+関連エントリ: [[[/scp-3125-jp#u-display-page-2|SCP-3125-AQ]]]
 [[/div]]
 [[/div]]
-[[%%content{0}%%module CSS]]
-div.continue {
-  background: #573E6D;
-  color: white;
-  font-size: 200%;
-  text-align: center;
-  font-weight: bold;
-  border: solid 1px #999999;
-  padding:5px;
-  margin-top: 10vh;
-  margin-bottom: 30vh;
-}
-
-div.ok {
-  text-align: center;
-  font-size: 200%;
-  font-weight: bold;
-  color: orange;
-  margin-bottom: 10vh;
-}
-
-#u-display-page-1:target ~ #u-page-0 {
-  display: none;
-}
-#u-page-1 {
-  display: none;
-}
-#u-display-page-1:target ~ #u-page-1 {
-  display: unset;
-}
-
-div.meta-title::before {
-  content: 'SCP-3125-JP';
-}
-#u-display-page-1:target ~ div.meta-title::before {
-  content: 'SCP-3125-JP-ARC';
-}
-[[%%content{0}%%/module]]
-[[/module]]
-[[module ListPages limit="@URL|0" range="." urlAttrPrefix="p1"]]
-[[div class="meta-title"]]
-[[/div]]
-----
-[[%%content{0}%%include :scp-jp:credit:start]]
-**メタタイトル:** 鬭朢者
-**著者:** [[*user pcysl]]
-**作成年:** 2022
-[[%%content{0}%%include :scp-jp:credit:end]]
-[[%%content{0}%%include :scp-jp:theme:night-rush-theme]]
+[[div id="u-page-2"]]
 [[=]]
 [[span style="color: orange; font-weight: 400;"]]警告[[/span]]
 
@@ -531,7 +485,7 @@ div.meta-title::before {
 ++++ ファイルを展開します。
 
 [[/=]]
-[[%%content{0}%%include :scp-jp:component:anomaly-class-bar-source
+[[include :scp-jp:component:anomaly-class-bar-source
 |item-number= 3125-AQ
 |clearance= 2
 |container-class= euclid
@@ -567,7 +521,7 @@ SCP-3125-AQ-1は1km/h以上の速度[[span class="fnnum"]].[[/span]][[span class
 
 このまま個体数が増加した場合2103年中にエリア-67215の収容能力が飽和する見込みであり、半径625kmへの拡張工事計画が現在策定中です。
 
-[[%%content{0}%%include :scp-jp:component:image-block
+[[include :scp-jp:component:image-block
 name=http://scp-jp-storage.wdfiles.com/local--files/file:7974444-5-p9lm/aq.png|
 caption=南極点を中心としたエリア-67215と近傍の南極観測基地]]
 
@@ -575,29 +529,63 @@ caption=南極点を中心としたエリア-67215と近傍の南極観測基地
 
 **補遺3125.2:** 収容経緯
 
-[[[/draft:7974444-29-4617#u-display-page-1|SCP-3125-JP-ARC]]]として当初収容されていましたが、[[[sighing-wednesday-hub|2009年度日本支部大規模収容違反]]]により日本支部の収容能力が大幅に低下したことをうけ、エリア-67215を新たに建造しSCP-3125-AQとして収容することとなりました。
+[[[/scp-3125-jp#u-display-page-1|SCP-3125-JP-ARC]]]として当初収容されていましたが、[[[sighing-wednesday-hub|2009年度日本支部大規模収容違反]]]により日本支部の収容能力が大幅に低下したことをうけ、エリア-67215を新たに建造しSCP-3125-AQとして収容することとなりました。
 
 当時サイト-17上級研究員であったトーマス・グラハムが本移管の提案を行いました。5箇所以上のサイト・エリアの計画を提案した業績に加え、本収容手順により生じる膨大な電力を使用することで莫大な予算削減が可能となったことを称えられ、それまでの功績を含め以下の勲章を贈られました。
 
 * 名誉財団メダル(統制、予算の友)
 * 財団改善徽章(確保、収容)
-[[%%content{0}%%module CSS]]
-.fnnum:hover + .fncon, .fncon:hover {
-  color: black;
+[[/div]]
+----
+[[=]]
+[[[ethic|メモ ::: 何一つ問題はなくなる]]] 前の話 « 【[[[white-space-hub|]]]】 » 次の話 [[[fifth-proposal|第五提言 !!! 悟道計画]]]
+[[/=]]
+[[module CSS]]
+div.continue {
+  background: #573E6D;
+  color: white;
+  font-size: 200%;
+  text-align: center;
+  font-weight: bold;
+  border: solid 1px #999999;
+  padding:5px;
+  margin-top: 10vh;
+  margin-bottom: 30vh;
 }
 
-@media only screen and (max-width: 1279px) {
-.fnnum:hover + .fncon, .fncon:hover {
-  color: black;
+div.ok {
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  color: orange;
+  margin-bottom: 10vh;
 }
+
+#u-display-page-1:target ~ #u-page-0,
+#u-display-page-2:target ~ #u-page-0 {
+  display: none;
+}
+#u-page-1,
+#u-page-2 {
+  display: none;
+}
+#u-display-page-1:target ~ #u-page-1 {
+  display: unset;
+}
+#u-display-page-2:target ~ #u-page-2 {
+  display: unset;
 }
 
 div.meta-title::before {
+  content: 'SCP-3125-JP';
+}
+#u-display-page-1:target ~ div.meta-title::before {
+  content: 'SCP-3125-JP-ARC';
+}
+#u-display-page-2:target ~ div.meta-title::before {
   content: 'SCP-3125-AQ';
 }
-[[%%content{0}%%/module]]
-[[/module]]
-[[module CSS]]
+
 div.raisa {
   border:solid 1px #999999;
   padding:5px;
@@ -639,10 +627,6 @@ div.raisa {
   content: "深淵目録";
 }
 [[/module]]
-----
-[[=]]
-[[[ethic|メモ ::: 何一つ問題はなくなる]]] 前の話 « 【[[[/draft:7974444-29-4617|SCP-3125-JP]]]】 » 次の話 [[[fifth-proposal|第五提言 !!! 悟道計画]]]
-[[/=]]
 [[include :scp-jp-sandbox3:component:custom-info tag=jp scp keter 深淵目録 倫理委員会 第五教会 現実改変 財団製 強制力 現実改変 宗教 未来 情報災害 人工 精神影響 非実体 武器 文書 変容]]
 [[collapsible show="+ 批評してくださる方へのお願い" hide="- 閉じる"]]
 批評件数が0件の場合、10行以下または1000字以下の批評につきましてはPMに送信していただけるとありがたいです。
