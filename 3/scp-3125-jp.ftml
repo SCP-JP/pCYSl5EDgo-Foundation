@@ -5,8 +5,9 @@ fragment:scp-3125-jp-2
 --]
 [[include :scp-jp:component:betterfootnotes]]
 [[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+[[div_ id="u-display-page-1"]]
+[[/div]]
 [[div class="meta-title"]]
-%%title%%
 [[/div]]
 ----
 [[%%content{0}%%include :scp-jp:credit:start]]
@@ -29,7 +30,6 @@ div.raisa {
 }
 .meta-title {
   display: unset;
-  border-bottom: solid 1px #bbbbbb;
   color: #990011;
   font-weight: normal;
   margin: 0 0 0.6em;

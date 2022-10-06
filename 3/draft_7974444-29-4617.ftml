@@ -8,8 +8,9 @@
 [[/collapsible]]
 [[include :scp-jp:component:betterfootnotes]]
 [[module ListPages offset="@URL|0" range="."]]
+[[div_ id="u-display-page-1"]]
+[[/div]]
 [[div class="meta-title"]]
-SCP-3125-JP
 [[/div]]
 ----
 [[%%content{0}%%include :scp-jp:credit:start]]
@@ -17,6 +18,7 @@ SCP-3125-JP
 **著者:** [[*user pcysl]]
 **作成年:** 2022
 [[%%content{0}%%include :scp-jp:credit:end]]
+[[div id="u-page-0"]]
 [[div style="background: #f2f2c2" class="raisa"]]
 [[span style="font-size: larger; font-weight: bold;"]]財団記録・情報保安管理局より通達[[/span]]
 
@@ -44,19 +46,10 @@ SCP-3125-JP
 
 あなたが閲覧しようとしているエントリはこちらではありませんか？
 ↓
-[[[/draft:7974444-29-4617/p1_limit/1/offset/1|SCP-3125-JP-ARC]]]
+[[[/draft:7974444-29-4617#u-display-page-1|SCP-3125-JP-ARC]]]
 [[/div]]
-[[/module]]
-[[module ListPages limit="@URL|0" range="." urlAttrPrefix="p1"]]
-[[div class="meta-title"]]
-SCP-3125-JP-ARC
 [[/div]]
-----
-[[%%content{0}%%include :scp-jp:credit:start]]
-**メタタイトル:** 鬭朢者
-**著者:** [[*user pcysl]]
-**作成年:** 2022
-[[%%content{0}%%include :scp-jp:credit:end]]
+[[div id="u-page-1"]]
 [[div style="background: #f2f2c2" class="raisa"]]
 [[size larger]] **財団記録・情報保安管理局より通達** [[/size]]
 
@@ -422,7 +415,8 @@ SCP-3125-JP-1の終了後 2009/09/20撮影
 @@ @@
 
 [[div style="background:#edc600; font-size: larger; font-weight: bold;" class="raisa"]]
-関連エントリ: [[[/draft:7974444-29-4617/p2_limit/1/offset/1|SCP-3125-AQ]]]
+関連エントリ: [[[/draft:7974444-29-4617/offset/1/p1_limit/1|SCP-3125-AQ]]]
+[[/div]]
 [[/div]]
 [[%%content{0}%%module CSS]]
 div.continue {
@@ -444,11 +438,27 @@ div.ok {
   color: orange;
   margin-bottom: 10vh;
 }
+
+#u-display-page-1:target ~ #u-page-0 {
+  display: none;
+}
+#u-page-1 {
+  display: none;
+}
+#u-display-page-1:target ~ #u-page-1 {
+  display: unset;
+}
+
+div.meta-title::before {
+  content: 'SCP-3125-JP';
+}
+#u-display-page-1:target ~ div.meta-title::before {
+  content: 'SCP-3125-JP-ARC';
+}
 [[%%content{0}%%/module]]
 [[/module]]
-[[module ListPages limit="@URL|0" range="." urlAttrPrefix="p2"]]
+[[module ListPages limit="@URL|0" range="." urlAttrPrefix="p1"]]
 [[div class="meta-title"]]
-SCP-3125-AQ
 [[/div]]
 ----
 [[%%content{0}%%include :scp-jp:credit:start]]
@@ -565,7 +575,7 @@ caption=南極点を中心としたエリア-67215と近傍の南極観測基地
 
 **補遺3125.2:** 収容経緯
 
-[[[/draft:7974444-29-4617/p1_limit/1/offset/1|SCP-3125-JP-ARC]]]として当初収容されていましたが、[[[sighing-wednesday-hub|2009年度日本支部大規模収容違反]]]により日本支部の収容能力が大幅に低下したことをうけ、エリア-67215を新たに建造しSCP-3125-AQとして収容することとなりました。
+[[[/draft:7974444-29-4617#u-display-page-1|SCP-3125-JP-ARC]]]として当初収容されていましたが、[[[sighing-wednesday-hub|2009年度日本支部大規模収容違反]]]により日本支部の収容能力が大幅に低下したことをうけ、エリア-67215を新たに建造しSCP-3125-AQとして収容することとなりました。
 
 当時サイト-17上級研究員であったトーマス・グラハムが本移管の提案を行いました。5箇所以上のサイト・エリアの計画を提案した業績に加え、本収容手順により生じる膨大な電力を使用することで莫大な予算削減が可能となったことを称えられ、それまでの功績を含め以下の勲章を贈られました。
 
@@ -580,6 +590,10 @@ caption=南極点を中心としたエリア-67215と近傍の南極観測基地
 .fnnum:hover + .fncon, .fncon:hover {
   color: black;
 }
+}
+
+div.meta-title::before {
+  content: 'SCP-3125-AQ';
 }
 [[%%content{0}%%/module]]
 [[/module]]
@@ -596,7 +610,6 @@ div.raisa {
 }
 .meta-title {
   display: unset;
-  border-bottom: solid 1px #bbbbbb;
   color: #990011;
   font-weight: normal;
   margin: 0 0 0.6em;
