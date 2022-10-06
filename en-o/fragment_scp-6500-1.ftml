@@ -1,0 +1,140 @@
+[[div style="display: none;"]]
+[[include :scp-wiki:theme:placestyle]]
+[[/div]]
+[[include :scp-wiki:component:fade-in speed=1]]
+
+[[module css]]
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+[[/module]]
+
+[[module css]]
+body {
+    background-image: linear-gradient(
+        to bottom,
+        #FFD700, #2F333C 200px,
+        #2F333C 200px, #2F333C 100%);
+}
+
+:root {
+  --header-title: "OVERWATCH";
+  --header-subtitle: "SACRIFICE CONFERS POWER";
+  --lgurl: url('https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-2/overwatchheader.svg');
+  --accentColor: #FFD700;
+}
+
+div#extra-div-1 {
+    filter: brightness(100%);
+    height: 100px;
+    margin-top: 30px;
+}
+
+#header h1 a::before {
+    color: transparent;
+}
+
+#header h2::before {
+    color: transparent;
+}
+
+.fancyborder {
+    border-radius: 5rem;
+}
+
+@media (max-width: 706px) {
+    .fancyborder {
+        border-radius: 1rem;
+    }
+}
+
+#login-status {
+    color: #21252E;
+}
+#login-status a {
+    color: #21252E;
+}
+#login-status ul a {
+    color: #ededed;
+    background: #21252E;
+}
+#login-status ul a:hover {
+    color: #21252E;
+}
+#account-topbutton{
+    border: solid 1px #21252E;
+}
+[[/module]]
+
+[[html]]
+<audio autoplay>
+  <source src="https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-1/Collapse%20-%20myuu.mp3" type="audio/mp3">
+</audio>
+[[/html]]
+
+@@ @@
+[[div style="background: url(https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-1/OverwatchBack.svg) bottom center no-repeat; text-align: center; width: 575px; margin: 0 auto; font-size: 20px; padding: 0px;"]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+
+[[=]]
+++* ##gold|BY ORDER OF OVERWATCH COMMAND##
+##gold|This file has been cleared for access by all personnel. Readers are compelled to consume the following Sacrament.##
+[[/=]]
+@@ @@
+@@ @@
+@@ @@
+[[/div]]
+@@ @@
+[[collapsible show="COMMENCE RITUAL" hide="Sixth Sun's Refrain"]]
+@@ @@
+[[div class="fancyborder" style="background-image: url(https://scp-wiki.wdfiles.com/local--files/scp-5862/paperbackground.jpg); color: #000; font-size: 150%; font-weight: bold; font-family: courgette;"]]
+[[=]]
+@@ @@
+//I am the blade, I am the shield//
+//I am the arm that shall not yield//
+//In tempest I stand fast//
+//A legend, I will last//
+
+//I will not fade//
+
+//I am the wand, I am the flame//
+//I am the rod for truths untamed//
+//In knowledge I will trust//
+//Invoked, I burn the dust//
+
+//I will not fade//
+
+//I am the knife, I am the shade//
+//I am the hunter, not the prey//
+//In whispers I have tread//
+//By infamy, I spread//
+
+//I will not fade//
+
+//I am the rite, I am the scales//
+//I am the patience which prevails//
+//In honour I abide//
+//With faith, I turn the tide//
+
+//I will not fade//
+
+//We the sentries, we the wall//
+//We the final card to fall//
+//Through toil, we shall gain//
+//Through blood, we shall remain//
+
+//We will not fail//
+@@ @@
+[[/=]]
+[[/div]]
+@@ @@
+[[div style="font-size: 180%;"]]
+= You are now protected.
+= [/scp-6500/offset/3 Stay fast, and proceed.]
+[[/div]]
+[[/collapsible]]
+@@ @@
+[[div_ class="fancyhr"]]
+----
+[[/div]]

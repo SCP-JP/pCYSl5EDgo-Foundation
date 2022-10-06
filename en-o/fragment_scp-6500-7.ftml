@@ -1,0 +1,194 @@
+[[div style="display: none;"]]
+[[include :scp-wiki:theme:placestyle]]
+[[/div]]
+[[include :scp-wiki:component:fade-in speed=1]]
+
+[[module css]]
+body {
+    background-image: linear-gradient(
+        to bottom,
+        #FFD700, #2F333C 200px,
+        #2F333C 200px, #2F333C 100%);
+}
+
+:root {
+  --header-title: "OVERWATCH";
+  --header-subtitle: "SACRIFICE CONFERS POWER";
+  --lgurl: url('https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-2/overwatchheader.svg');
+  --accentColor: #FFD700;
+}
+
+div#extra-div-1 {
+    filter: brightness(100%);
+    height: 100px;
+    margin-top: 30px;
+}
+
+#header h1 a::before {
+    color: transparent;
+}
+
+#header h2::before {
+    color: transparent;
+}
+
+.bt {
+    filter: none;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.no {
+    font-size: 125%;
+}
+
+.no:hover {
+    filter: opacity(0.5);
+    cursor: not-allowed;
+}
+
+#login-status {
+    color: #21252E;
+}
+#login-status a {
+    color: #21252E;
+}
+#login-status ul a {
+    color: #ededed;
+    background: #21252E;
+}
+#login-status ul a:hover {
+    color: #21252E;
+}
+#account-topbutton{
+    border: solid 1px #21252E;
+}
+
+.fancyborder {
+    border-radius: 5rem;
+}
+
+.fancyborder .fnnum::after {
+    color: #000;
+}
+
+@media (max-width: 706px) {
+    .fancyborder {
+        border-radius: 1rem;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.cards > div {
+    margin: -12px;
+}
+
+.graybox {
+    --accentColor: #ccc;
+}
+[[/module]]
+
+= [[span class="bt"]]__ADDENDUM__:[[/span]] Debriefing Material
+
+= Resubmit clearance credentials to access post-mission reports regarding SCP-6500-α acquisition.
+
+[[div class="darkbox graybox"]]
+= **Missing Persons Report: Dr. Udo Okorie/Chief Delfina Ibanez**
+
+In the early days of the SCP-6500 crisis, three Foundation personnel embarked on a voluntary expedition to a) acquire an anomalous artifact, b) uncover the truth of its origins, and c) determine whether or not it could be used to partially restore the status quo. This resulted in the acquisition of SCP-6500-α-Sword, "The Leading Edge." Said artifact is a blade capable of reflecting the inner strength of its bearer into thaumaturgical and narrative energy, revitalizing decayed anomalous landscapes and living creatures and restoring momentum to their "stories." Dr. Udo Okorie, Chief of Applied Occultism at Site-43, was lost during this operation in the hostile and extremely hazardous City of Alagadda and is presumed KIA.
+
+The bearer of SCP-6500-α-Sword, Site-43 Pursuit and Suppression Chief Delfina Ibanez, subsequently organized a Mobile Task Force made up of individuals with exceptional "protagonistic potential" as identified by Site-87 pataphysicist Dr. Placeholder McDoctorate. Chief Ibanez and MTF Delta-6500 ("Magical Mystery Tour") were deployed to each Foundation Site, and a variety of Foundation-friendly anomalous locations, in order to repair the damage done by SCP-6500 wherever possible. While local effects have been more extreme, generalized (though random) global, interstellar and interdimensional effects have also been witnessed. Selected intentional, desirable, unintentional, undesirable and unforeseen restorations include:
+
+* [[[SCP-5923]]]: The living village of Kayaköy no longer subsists on the psychic energy of its denizens, and has returned to contented hibernation;
+* [[[SCP-179]]]: The self-proclaimed "lookout" has stirred to life, and now points with one finger directly towards the Earth;
+* [*/scp-2922 SCP-2922-C]: All contact with the afterlife known as Corbenic was lost at the outset of the crisis, but it has become accessible once more;
+* [*/serpent-s-hand-hub GOI-ALPHA-19]: Formerly dedicated to addressing the SCP-6500 crisis, a number of revitalized Serpent's Hand thaumaturges have resumed their campaigns of attrition against the Foundation;
+* [[[SCP-1762]]]: A single instance of SCP-1762-1 has been reported in the wild. Confirmation pending.
+
+SCP-6500-α-Sword has proven incapable of restoring most anomalies whose anomalous functions have fully ceased. Attempts by Delta-6500 to enter the Wanderers' Library to render aid and assistance have been categorically rebuffed; no attempt has been made to return to Alagadda, for reasons which should not require explication.
+
+It was observed that SCP-6500-α-Sword can only draw a certain amount of power from each wielder before becoming inert in their hands. Chief Ibanez therefore mandated rotating the use of the artifact between all members of Delta-6500, utilizing their unique protagonistic profiles to infuse moribund anomalous locations and entities with whatever variety of esoteric force they require to continue or resume their normal functioning. After one week of this activity, citing a sufficiently well-trained and diverse task force capable of carrying out these actions indefinitely, Chief Ibanez surrendered the artifact to Dr. McDoctorate and nominated him temporary head of the task force. She requested a leave of absence to convey her condolences to Dr. Okorie's parents, researchers stationed at Site-91 in Yorkshire, England; this was granted.
+
+The Drs. Okorie report nothing unusual in Chief Ibanez' activities during her time at Site-91. Nevertheless, on her return to London -- ostensibly to resume duty with Delta-6500 -- she was instead seen entering Her Majesty's Royal Palace and Fortress of the Tower of London, heavily armed, at which point she disappeared without a trace.
+[[/div]]
+@@ @@
+[[=]]
+[[span class="bt"]]__INPUT OVERSEER CREDENTIALS:__[[/span]]
+
+//I am the author of rebirth//
+//In fire, water, air and earth//
+//Despised, I stand alone//
+//But when the truth be known//
+
+[[html]]
+<body>
+<center>
+<form onsubmit="checkPswd();">
+    <label for="pswd"></label>
+    <input type="password" id="pswd">
+    <input type="button" value="SUBMIT" onclick="checkPswd();" />
+</form>
+<script type="text/javascript">
+   function checkPswd() {
+    var confirmPassword = "IWILLNOTFADE";
+    var spacedPassword = "I WILL NOT FADE";
+    var password = document.getElementById("pswd").value;
+     if (password.toUpperCase() == confirmPassword || password.toUpperCase() == spacedPassword) {
+   window.open('/scp-6500/offset/10');
+}
+  else{
+     alert('INSUFFICIENT CLEARANCE; REVENANT IMMERSION UNSUCCESSFUL. RETURN TO ACCESS PAGE TO RE-CONSUME SACRAMENT.');
+}
+}
+</script>
+</center>
+</body>
+[[/html]]
+[[/=]]
+@@ @@
+[[div_ class="fancyhr"]]
+----
+[[/div]]
+@@ @@
+[[=]]
++ //Choose Your Path//
+[[/=]]
+
+@@ @@
+[[div class="cards"]]
+[[f=image https://i.imgur.com/34HxPx6.png width="180px" style="filter: opacity(0.3);"]]
+[[f=image https://i.imgur.com/AdXN4mS.png link="https://scp-wiki.wikidot.com/scp-6500/offset/2" width="180px"]]
+[[f=image https://i.imgur.com/xEMfWOC.png link="https://scp-wiki.wikidot.com/scp-6500/offset/4" width="180px"]]
+[[f=image https://i.imgur.com/8tXJvew.png link="https://scp-wiki.wikidot.com/scp-6500/offset/5" width="180px"]]
+[[/div]]
+
+[[div style="height: 20px;"]]
+[[/div]]
+
+[[tabview]]
+[[tab MAGE]]
+= Collect the Oriykalkos Codex: a mystical artefact capable of storing vast amounts of magical energy and allowing its user to perform rites and rituals on a potentially-universal scale. Thaumic workings using the Codex would be capable of halting and reversing the effects of SCP-6500 altogether.
+[[/tab]]
+[[tab CLERIC]]
+= Hunt for an unknown device of divine provenance which is purportedly capable of accessing an untold number of realms. By processing anomalous energies from linked realities, the advance of SCP-6500 would remain static in perpetuity.
+[[/tab]]
+[[tab THIEF]]
+= Steal the //Mouleur Foci//: A relic whose essence is intertwined with universal entropy, rot, and degradation. Control over this item would allow for dominion over all forces associated with decay, and thus, SCP-6500.
+[[/tab]]
+[[/tabview]]
+
+[[div_ class="fancyhr"]]
+----
+[[/div]]

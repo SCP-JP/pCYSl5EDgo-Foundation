@@ -1,0 +1,182 @@
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div style="display: none;"]]
+[[include :scp-wiki:theme:placestyle]]
+[[/div]]
+
+[[module css]]
+body {
+    background-image: linear-gradient(
+        to bottom,
+        #ddcfee, #2F333C 200px,
+        #2F333C 200px, #2F333C 100%);
+}
+
+:root {
+  --header-title: " ";
+  --header-subtitle: " ";
+  --lgurl: url('https://scp-wiki.wdfiles.com/local--files/fragment%3Ascp-6500-13/overwatchheaderthreshold.svg');
+  --accentColor: #ddcfee;
+}
+
+div#extra-div-1 {
+    filter: brightness(100%);
+    height: 100px;
+    margin-top: 30px;
+}
+
+#header h1 a::before {
+    color: transparent;
+}
+
+#header h2::before {
+    color: transparent;
+}
+
+.bt {
+    filter: none;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.no {
+    font-size: 125%;
+}
+
+.no:hover {
+    filter: opacity(0.5);
+    cursor: not-allowed;
+}
+
+#login-status {
+    color: #21252E;
+}
+#login-status a {
+    color: #21252E;
+}
+#login-status ul a {
+    color: #ededed;
+    background: #21252E;
+}
+#login-status ul a:hover {
+    color: #21252E;
+}
+#account-topbutton{
+    border: solid 1px #21252E;
+}
+
+.fancyborder {
+    border-radius: 5rem;
+}
+
+.fancyborder .fnnum::after {
+    color: #000;
+}
+
+@media (max-width: 706px) {
+    .fancyborder {
+        border-radius: 1rem;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.cards > .image-container {
+    padding: 1px;
+}
+
+.yui-navset {
+    margin: 1%;
+}
+
+.greenbox {
+    --accentColor: #4b2;
+}
+
+.fancyhr {
+    filter: grayscale(80%) hue-rotate(240deg);
+}
+[[/module]]
+
+[[div class="darkbox"]]
+[[=]]
++ A TRIP DOWN MEMORY LANE
+[[/=]]
+[[/div]]
+
+//Crunch. Crunch.// Cheerfully trampling the path of paint-speckled gravel, John Dupin smiled. He'd long since learned to relish the minor victories. Working in the Department of Budget Management was never easy, especially at a facility as complex as Site-19, but he had been on fire lately. [https://scp-wiki.wikidot.com/scp-6500 Anomalies had been dropping dead] at a steady, almost alarming rate for months, freeing up more and more funds once their containment was no longer necessary, and that was nearly enough to make a hero out of even an accountant.
+
+Sure, some people might look down on Dupin. He had been called many names in the past for disallowing project proposals. Whenever some fool scientist underestimated the scope of their containment needs with disastrous consequences, his ass was on the line for not over-budgeting. But none of that mattered, not really. He knew how important his work was; the Foundation didn't have infinite money, no matter how many people had gotten it into their heads that it did, and every cent not wasted was a cent he could put towards literally saving the world.
+
+Dupin daydreamed about the meeting which had resulted in the little triumph of cheap infrastructure he was presently treading into dust. He couldn't remember the dead skip's number, but that didn't matter. What mattered was that it had been made out of...
+
+[[div class="darkbox"]]
+
+"Concrete."
+
+"Mhmm." Director Tilda Moose didn't bother to look up from her computer.
+
+"There's a budget appropriation for new concrete, to pave the path to the Tau-1 helipad, but I don't think it's actually necessary. I... um. I was hoping you could sign this requisition form? I'm looking to re-use materials from a recent neutralization." Dupin slid a single sheet in front of her keyboard.
+
+"You mean tearing up the containment chamber? Why would I need to sign for that?" Still she didn't look up.
+
+"No, not the containment chamber. The concrete..."
+
+Moose's eyes finally left the computer and met Dupin's. "The concrete...?"
+
+"On... the thing, the actual skip was basically made of concrete, Director. We can save money by repurposing it."
+
+There was a moment of silence as her eyes widened. "How much money?"
+
+"I... um... I..."
+
+She raised one eyebrow.
+
+"...//well,// it's not an exact figure but, if my calculations are right, about... twelve American dollars." Dupin smiled nervously.
+
+Moose's eyes widened further in the space before she blinked, once. "You want to repurpose a formerly-hostile, presumably //living// anomaly, to save twelve dollars?"
+
+He tried to make his nervous smile look eager instead. "Yes, Site Director. Pave and save!"
+
+She sighed, and pressed one hand to her forehead. "Alright, fine. Did you bring a pen?"
+
+[[/div]]
+
+He winced at the memory, wishing he'd forgotten a few of the details, squinting so hard that for a moment -- just a moment -- his eyes actually closed. //Damn, but the sun is bright this time of...//
+
+The gravel shifted beneath his feet, and his legs got tangled up, and as he opened his eyes again he saw the painted path rising up to meet him in a burst of black and red.
+
+//Crunch.//
+
+----
+
+[[div class="blockquote"]]
+[[=]]
+++ [[span class="bt"]]**Incident Report 19-2021-8191**[[/span]]
+[[/=]]
+[[span class="bt"]]__**Summary:**__[[/span]] John Dupin (Assistant Manager, Budget Management) lost his footing between Helipad Tau-1 and the East Service Entrance, fatally breaking his neck on impact with the new gravel path.
+@@ @@
+[[/div]]
+
+----
+
+[[div]]
+[[=]]
+[[include :scp-wiki:component:license-box
+|author=LizardWizard and HarryBlank]]
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]
+[[/div]]

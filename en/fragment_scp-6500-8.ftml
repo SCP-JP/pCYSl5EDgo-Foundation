@@ -1,0 +1,195 @@
+[[div style="display: none;"]]
+[[include :scp-jp:theme:placestyle]]
+[[/div]]
+[[include :scp-jp:component:fade-in speed=1]]
+
+[[module css]]
+body {
+    background-image: linear-gradient(
+        to bottom,
+        #FFD700, #2F333C 200px,
+        #2F333C 200px, #2F333C 100%);
+}
+
+:root {
+  --header-title: "監督司令部";
+  --header-subtitle: "犠牲が力を与える";
+  --lgurl: url('http://scp-jp-storage.wikidot.com/local--files/file:2963469-4-z8c6/overwatchheader.svg');
+  --accentColor: #FFD700;
+}
+
+div#extra-div-1 {
+    filter: brightness(100%);
+    height: 100px;
+    margin-top: 30px;
+}
+
+#header h1 a::before {
+    color: transparent;
+}
+
+#header h2::before {
+    color: transparent;
+}
+
+.bt {
+    filter: none;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.no {
+    font-size: 125%;
+}
+
+.no:hover {
+    filter: opacity(0.5);
+    cursor: not-allowed;
+}
+
+#login-status {
+    color: #21252E;
+}
+#login-status a {
+    color: #21252E;
+}
+#login-status ul a {
+    color: #ededed;
+    background: #21252E;
+}
+#login-status ul a:hover {
+    color: #21252E;
+}
+#account-topbutton{
+    border: solid 1px #21252E;
+}
+
+.fancyborder {
+    border-radius: 5rem;
+}
+
+.fancyborder .fnnum::after {
+    color: #000;
+}
+
+@media (max-width: 706px) {
+    .fancyborder {
+        border-radius: 1rem;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.cards > div {
+    margin: -12px;
+}
+
+.redbox {
+  --accentColor: #f24;
+}
+[[/module]]
+
+= [[span class="bt"]]__補遺__:[[/span]] デブリーフィング文書
+
+= SCP-6500-αに関するミッション後レポートにアクセスするにはクリアランス証明を再入力してください。
+
+[[div class="darkbox redbox"]]
+= **[[span class="bt"]][[span class="ruby"]]二趾の裏切り者作戦[[span class="rt"]]Operation TWO-TOED TREACHERY[[/span]][[/span]][[/span]]の再現の要約:**
+
+オリカルコス・コデックス（SCP-6500-α-Codex）が世界オカルト連合のエージェントにより盗難されてから3日の後、キャサリン・ジーン・シンクレア博士と彼女の夫、錬金術コンサルタント・モントゴメリー・レイノルズには、死後財団名誉勲章が送られ、両者の葬儀が、財団に所属している殆どの間二人の住み働いた地であるウィスコンシン州スロース・ピットで行われるという声明が出された。
+
+残存物語エネルギーは、マーティン・バウに率いられた世界オカルト連合の軍勢が、葬儀と同日に当該ネクサスを侵略しようと試みるように操作された。当日はサイト職員の大多数が出席すると思われた。
+
+連合はネクサス-18の都市中心部の占拠に成功し、抑留と尋問のために全ての財団資産または財団に親和的な市民を捕縛しようとする一方で、サイト-87への侵攻を計画していた。しかしながら、Nx-18の物語力が連合の行動をいくつかの方法で大きく低下させた:
+
+* 連合のエージェントと、彼女が死んだと信じていたかつての婚約者が予期せず出会い、攻撃チーム1つがバウの軍に対して寝返った。
+* 10代のグループが数人のエージェントを無力化し、武器と補給品を奪取した。それらを使い、市内のいくつかの学校は要塞化された。
+* UAE-Chapman-971（"The Jamburglar"）が突如再出現し、その存在により連合による放送および通信が妨害された。
+* 数十人のサバイバル専門家が多量の武器を、それを使用する訓練を受けている市民に配布した。同時に現在不明なサイズのバンカーに市民を避難させた。
+
+これはマーティン・バウがサイト-87の入り口を突破すると最高潮に達した。そこで彼は、おそらくは暗殺のために管理官のオフィスに到達しようと試みた。管理官は数時間前に脱出済みであり、代わりに、シンクレア博士とコンサルタント・レイノルズが在室していた。重傷を負い、とくにシンクレアは懐妊中の子供を失いかけたが、両者とも生き延び、回復中だった。
+
+マーティン・バウは、シンクレアとレイノルズを制圧するためオリカルコス・コデックスからエネルギーを引き出そうと試みた。2人はバウが獲得する以前に、1ヶ月にわたってコデックスに暴露されていたため、コデックスは2人の存在に調整されていた。このことにより、シンクレアはバウの所有からコデックス自体を取り戻し、財団の所有とする儀式を行うことが可能となった。
+
+その後、バウの肉体は、スロース・ピットへの侵入時から帯びていた悪性の物語力の「重量」に晒され、心臓発作を起こした。現在、彼は深刻な容態にあるが、回復し、公判にかけられると思われる。
+[[/div]]
+@@ @@
+[[=]]
+[[span class="bt"]]__監督者資格証明を入力:__[[/span]]
+
+//我は再生の著者//
+//炎に、水に、そして空気と地に//
+//嫌悪され、我は立つ//
+//されど真実の知られる時に//
+
+[[html]]
+<body>
+<center>
+<form onsubmit="checkPswd();">
+    <label for="pswd"></label>
+    <input type="password" id="pswd">
+    <input type="button" value="SUBMIT" onclick="checkPswd();" />
+</form>
+<script type="text/javascript">
+   function checkPswd() {
+    var confirmPassword = "IWILLNOTFADE";
+    var spacedPassword = "I WILL NOT FADE";
+    var password = document.getElementById("pswd").value;
+     if (password.toUpperCase() == confirmPassword || password.toUpperCase() == spacedPassword) {
+   window.open('/scp-6500/offset/10');
+}
+  else{
+      alert('不十分なクリアランス; 魂魄浸漬失敗．アクセスページに戻り聖餐を再度消費せよ．');
+}
+}
+</script>
+</center>
+</body>
+[[/html]]
+[[/=]]
+@@ @@
+[[div_ class="fancyhr"]]
+----
+[[/div]]
+@@ @@
+[[=]]
++ //汝の道を選べ//
+[[/=]]
+
+@@ @@
+[[div class="cards"]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-15-33gz/Warrior.png link="http://scp-jp.wikidot.com/scp-6500/offset/1" width="180px"]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-16-o0x2/Mage.png width="180px" style="filter: opacity(0.3);"]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-17-77fx/Cleric.png link="http://scp-jp.wikidot.com/scp-6500/offset/4" width="180px"]]
+[[f=image http://scp-jp-storage.wikidot.com/local--files/file:2963469-18-6etr/Thief.png link="http://scp-jp.wikidot.com/scp-6500/offset/5" width="180px"]]
+[[/div]]
+
+[[div style="height: 20px;"]]
+[[/div]]
+
+[[tabview]]
+[[tab 戦士]]
+= 導きの刃を手に入れろ: 現実の空想科学フォールドに編み込まれた伝説の剣。それを振るうものは英雄の精神を具現化させる。この武器の性質は、大いなる探索を達成することをもって、SCP-6500を克服することを可能にするだろう。
+[[/tab]]
+[[tab 僧侶]]
+= 未だ明らかでない多くの領域へのアクセスを可能にすると言われる、聖なる起源を持つ道具を探し出せ。リンクされた現実からの異常なエネルギーを処理することにより、SCP-6500の進行を永久に停止させられるだろう。
+[[/tab]]
+[[tab 盗賊]]
+= //[[span class="ruby"]]ムーレア・フーシー[[span class="rt"]]Mouleur Foci[[/span]][[/span]]//を盗み出せ: 聖遺物。その真髄は宇宙のエントロピー、腐敗、劣化に編み込まれている。このアイテムをコントロールすることは、衰退に関連したあらゆる力、そしてつまりSCP-6500を支配することを可能にする。
+[[/tab]]
+[[/tabview]]
+
+[[div_ class="fancyhr"]]
+----
+[[/div]]
