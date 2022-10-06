@@ -578,14 +578,14 @@ div.meta-title::before {
   content: 'SCP-3125-AQ';
 }
 
-#u-display-page-2:target ~ .fnnum:hover + .fncon,
-#u-display-page-2:target ~ .fncon:hover {
+#u-display-page-2:target .fnnum:hover + .fncon,
+#u-display-page-2:target .fncon:hover {
   color: black;
 }
 
 @media only screen and (max-width: 1279px) {
-#u-display-page-2:target ~ .fnnum:hover + .fncon,
-#u-display-page-2:target ~ .fncon:hover {
+#u-display-page-2:target .fnnum:hover + .fncon,
+#u-display-page-2:target .fncon:hover {
   color: black;
 }
 }
