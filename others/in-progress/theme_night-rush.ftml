@@ -660,5 +660,19 @@ html:has({$condition}) .modalbox .modalbox-title {
 html:has({$condition}) #side-bar .side-block {
     background-color: #121212 !important;
 }
+
+// Better Footnotes //
+
+html:has({$condition}) .fnnum:hover + .fncon,
+html:has({$condition}) .fncon:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 1279px) {
+html:has({$condition}) .fnnum:hover + .fncon,
+html:has({$condition}) .fncon:hover {
+  color: black;
+}
+}
 [[%%content{0}%%/module]]
 [[/module]]
