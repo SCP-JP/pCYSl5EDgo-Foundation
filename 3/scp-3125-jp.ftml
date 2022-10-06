@@ -412,7 +412,7 @@ SCP-3125-JP-1の終了後 2009/09/20撮影
 関連エントリ: [[[/scp-3125-jp#u-display-page-2|SCP-3125-AQ]]]
 [[/div]]
 [[/div]]
-[[div id="u-display-page-2"]]
+[[div id="u-page-2"]]
 [[=]]
 [[span style="color: orange; font-weight: 400;"]]警告[[/span]]
 
@@ -553,13 +553,18 @@ div.ok {
   margin-bottom: 10vh;
 }
 
-#u-display-page-1:target ~ #u-page-0 {
+#u-display-page-1:target ~ #u-page-0,
+#u-display-page-2:target ~ #u-page-0 {
   display: none;
 }
-#u-page-1 {
+#u-page-1,
+#u-page-2 {
   display: none;
 }
 #u-display-page-1:target ~ #u-page-1 {
+  display: unset;
+}
+#u-display-page-2:target ~ #u-page-2 {
   display: unset;
 }
 
@@ -568,6 +573,9 @@ div.meta-title::before {
 }
 #u-display-page-1:target ~ div.meta-title::before {
   content: 'SCP-3125-JP-ARC';
+}
+#u-display-page-2:target ~ div.meta-title::before {
+  content: 'SCP-3125-AQ';
 }
 
 #u-display-page-2:target ~ .fnnum:hover + .fncon, .fncon:hover {
@@ -579,10 +587,6 @@ div.meta-title::before {
 #u-display-page-2:target ~ .fncon:hover {
   color: black;
 }
-}
-
-#u-display-page-2:target ~ div.meta-title::before {
-  content: 'SCP-3125-AQ';
 }
 
 div.raisa {
