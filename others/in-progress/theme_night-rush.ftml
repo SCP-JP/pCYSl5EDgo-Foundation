@@ -296,10 +296,8 @@ div.page-rate-widget-box .rate-points,
   -webkit-box-shadow: -0.5rem 0 0 0 rgb(var(--white-bar, 207, 207, 207)) !important;
   -moz-box-shadow: -0.5rem 0 0 0 rgb(var(--white-bar, 207, 207, 207)) !important;
 }
-.anom-bar-container.esoteric .text-part .main-class,
-.anom-bar-container.explained .text-part .main-class,
-.anom-bar-container.neutralized .text-part .main-class,
-.anom-bar-container.pending .text-part .main-class {
+.anom-bar-container:is(.esoteric, .explained, .neutralized, .pending) .text-part .main-class
+{
   background-color: rgba(66, 66, 72, .5) !important;
   background-color: rgba(var(--gray-bg, 66, 66, 72), .5) !important;
   border-left-color: rgb(118, 118, 130) !important;
