@@ -25,5 +25,11 @@ if ($line[0] -eq '-'){
 }
 }
 $x > $filePath;
-./SCP.exe page multi-download JP "../${filePath}" -w ./en > "./${filePath}.jp"
-./SCP.exe page multi-download EN "../${filePath}" -w ./en-o > "./${filePath}.en"
+./SCP.exe page multi-download JP "../${filePath}" -w ./en > "./jp.${filePath}"
+./SCP.exe page multi-download EN "../${filePath}" -w ./en-o > "./en.${filePath}"
+if ((Get-Item "./jp.${filePath}").Length -eq 0) {
+Delete-Item "./jp.${filePath}";
+}
+if ((Get-Item "./en.${filePath}").Length -eq 0) {
+Delete-Item "./en.${filePath}";
+}
