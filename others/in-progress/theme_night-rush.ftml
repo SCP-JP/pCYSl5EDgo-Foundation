@@ -208,16 +208,13 @@ div.page-rate-widget-box .rate-points,
   color: #ededed;
   text-transform: capitalize;
 }
-.page-rate-widget-box .rateup,
-.page-rate-widget-box .ratedown {
+.page-rate-widget-box :is(.rateup, .ratedown) {
   border-left: 2px solid #8870df;
 }
-.page-rate-widget-box .rateup a,
-.page-rate-widget-box .ratedown a {
+.page-rate-widget-box :is(.rateup, .ratedown) a {
   color: #ededed;
 }
-.page-rate-widget-box .rateup a:hover,
-.page-rate-widget-box .ratedown a:hover {
+.page-rate-widget-box :is(.rateup, .ratedown) a:hover {
   color: #cc9cff;
 }
 .page-rate-widget-box .cancel {
