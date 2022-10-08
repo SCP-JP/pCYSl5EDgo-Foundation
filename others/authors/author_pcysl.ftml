@@ -1,3 +1,4 @@
+[[include :pcysl:theme:night-rush condition=#u-deepwell-catalog-memo:is(:target, :has(:target))]]
 [[div class="blockquote"]]
 [[=]]
 ここは[[*user pcysl]]の著者ページです。
@@ -1019,7 +1020,7 @@ div.hide-not-targeted:target {
     display: unset;
 }
 
-#u-deepwell-catalog-memo:target, #u-deepwell-catalog-memo:has(:target) {
+#u-deepwell-catalog-memo:is(:target, :has(:target)) {
     display: unset;
 }
 [[/module]]
