@@ -1,0 +1,382 @@
+**訳者より:** 赤文字はより良い表現や自然な表現が無いかと考えている部分です。もしより適した訳があれば特にお知らせください。また、本文全体が斜体になっているため学名の斜体表記が本来の意義に適っておらず、訳者の方で下線を引いた部分が存在します。これについて、訳者裁量でこのような装飾を加えても良いかコメントを頂ければと思います。なお、査読の際は1ページ目と本ページの内容を合わせて[[[*http://scp-jp-sandbox3.wikidot.com/draft:7450069-58-96fc|1ページ目]]]のディスカッションに投稿いただけると幸いです。
+
+[[module CSS]]
+:root {
+    --zero: 0;
+}
+[[/module]]
+
+[[include :scp-wiki:theme:basalt darkmode=a]]
+
+[[module css]]
+:root {
+  --logo: url(http://scp-jp-storage.wdfiles.com/local--files/file%3A7450069-120-g8n8/CryptozoologyDivision2.png);
+  --title: "SCP財団";
+  --subtitle: "未確認動物学部門";
+}
+[[/module]]
+
+[[module CSS]]
+a,
+#side-bar a:visited {
+    color: #5e7d00;
+}
+ 
+a:visited {
+     color: #5e7d00;
+ 
+#side-bar .heading {
+    color: #2e642c;
+    border-bottom: solid 1px #2e642c;
+}
+[[/module]]
+
+[[include credit:start]]
+**タイトル:** SCP-7088 - **ナッカー**ホール
+**著者:** [[*user OzzyLizard]]
+**オリジナル:** https://scp-wiki.wikidot.com/scp-7088
+**訳者:** [[*user Tutu-sh]]
+**作成年:** 2022
+----
+本記事は、[*https://creativecommons.org/licenses/by-sa/4.0/deed.ja CC BY-SA 4.0ライセンス]の下で提供されます。これに加えて、本記事の作成者、著者、翻訳者、または編集者が著作権を有するコンテンツは、別段の定めがない限り[*https://creativecommons.org/licenses/by-sa/3.0/deed.ja CC BY-SA 3.0ライセンス]が付与されており、同ライセンスの下で利用することができます。
+
+「コンテンツ」とは、文章、画像、音声、音楽、動画、ソフトウェア、コードその他の情報のことをいいます。
+[[include credit:end]]
+
+[[=]]
+[[size 150%]] **{{INCIDENT 7088-1}}** [[/size]]
+[[size 150%]] **{{インシデント7088-1}}** [[/size]]
+[[/=]]
+
+----
+
+##yellow|**Date of Inception:** 26/07/2022##
+**開始日:** 2022/07/26
+
+##yellow|**Anomaly(s) Involved:**  SCP-7088-32 through SCP-7088-39, including SCP-7088-IMPERATOR-4 (Approx 14m in length) ##
+**関連アノマリー:** SCP-7088-32からSCP-7088-39、およびSCP-7088-インペラトル-4（全長約14m）
+
+##yellow|**Assigned Facility:** Site-44##
+**担当施設:** サイト-44
+
+[[div class="blockquote"]]
+##yellow|**<BEGIN LOG>**##
+**<記録開始>**
+
+##yellow|**09:28:** Monitoring of a knuckerhole in rural Essex, 3 miles from Site-44, detects unusual vibrations emanating from deep underground. Bubbles begin to rise from the marshland as a large, dark shape begins to rise from its waters and SCP-7088-IMPERATOR-4 breaches. It is followed by other instances which use their small wings to propel themselves through the murky waters. The group travel South-East, en route to Site-44. ##
+**09:28:** サイト-44から4.8km離れたエセックスの田舎のナッカーホールの監視により、地下深くより異様な振動の発生が探知される。沼から気泡の発生が開始し、水面から暗い大型の影が出現、SCP-7088-インペラトル-4が収容違反する。続いて他の実例が小型の翼を用いて濁水中を進行する。個体群は南東、サイト-44に向かって移動する。
+
+##yellow|**10:40:** SCP-7088-IMPERATOR-4 begins to bound forwards upon reaching the crossing to Foulness Island, [[footnote]] Beneath which Site-44 is located. [[/footnote]] quickly barging through outer surveillance. The remaining brood passes through pastureland slowly behind. ##
+**10:40:** SCP-7088-インペラトル-4がファウルネス島[[footnote]]下にサイト-44が位置する。[[/footnote]]に到達し、前進を開始。外部の監視を突破して急速に突進する。残りの種族が遅れて緩慢に牧草地を通過する。
+
+##yellow|**10:41:** SCP-7088-IMPERATOR-4 stops at the mainland access bridge. Its //Ozz noetica// angle towards a guard positioned within a lookout tower, informing them to contact “the ware swindlers”; Cryptozoology Division personnel are dispatched to commune with the instance. ##
+**10:41:** SCP-7088-インペラトル-4が主要島連絡橋で停止する。当該個体の//Ozz noetica//が警戒塔内部の警備員の方に向き、彼らに「品物の詐欺師」に連絡するよう告げる。当該実例との対話のため未確認動物学部門の職員が派遣される。
+
+##yellow|**10:52:** Interview 7088-15 is conducted: ##
+**10:52:** インタビュー7088-15が実行される。
+
+[[div class="blockquote"]]
+##yellow|**<BEGIN COMMUNICATION LOG>**##
+**<コミュニケーションログ開始>**
+
+##yellow|//SCP-7088-IMPERATOR-4 rests beneath the bridge. Upon the arrival of personnel, it emerges and places itself in front of the group. A low rumbling is audible emanating from its throat as it breathes.// ##
+//SCP-7088-インペラトル-4が橋の下で休息する。職員の到着に際し、当該実例が姿を現して集団の前に移動する。呼吸と共に、喉からゴロゴロという音が発される様が聞こえる。//
+
+##yellow|**Researcher Ozz:** Hello. What brings you here? ##
+**オズ研究員:** やあ。何を持って来たんだ？
+
+##yellow|//The instance does not communicate.// ##
+//実例は交信しない。//
+
+##yellow|**Researcher Ozz:** Do you have a name? ##
+**オズ研究員:** 君、名前ある？
+
+##yellow|**SCP-7088-IMPERATOR-4:** Irrelevant. Please return wares and provide compensation or I will make a problem. ##
+**SCP-7088-インペラトル-4:** どうでもいい。品を返し、償いをしてもらおう。さもなくば、騒ぎを起こしても良いんだぞ。
+
+##yellow|**Researcher Ozz:** What wares? We haven’t contacted your colony since we found you. ##
+**オズ研究員:** 品って何だ？君を見つけてから、我々は君のコロニーと接触してないんだがね。
+
+##yellow|**SCP-7088-IMPERATOR-4:** We missing possession. Overdue payment from PCS Fundation. ##
+**SCP-7088-インペラトル-4:** 所有物を失っている。##red|PCS祭壇##からの納入遅れだ。
+
+##yellow|**Researcher Ozz:** So you’re like a debt collector. ##
+**オズ研究員:** なるほど、おたくは借金取りか。
+
+##yellow|**SCP-7088-IMPERATOR-4:** Not know what that means… but yes. ##
+**SCP-7088-インペラトル-4:** その意味は分からんが……まあそうだ。
+
+##yellow|**Researcher Ozz:** I see. Have you ever had to do this before? ##
+**オズ研究員:** 分かった。前にもこういうのしたことあるのか？
+
+##yellow|**SCP-7088-IMPERATOR-4:** Rare. Only when swindled. Often by king. ##
+**SCP-7088-インペラトル-4:** 滅多にせん。詐称された時のみだ。大抵は王がなさる。
+
+##yellow|**Researcher Ozz:** Kings? ##
+**SCP-7088-インペラトル-4:** 王だって？
+
+##yellow|**SCP-7088-IMPERATOR-4:** Royal rulers use knuckerhole as storage for wares. We trade and hoard. ##
+**SCP-7088-インペラトル-4:** 王家の支配者は品のためにナッカーホールを倉庫としてお使いになる。我々は交換し、貯蔵する。
+
+##yellow|//SCP-7088-IMPERATOR-4 assumes an upright posture.// ##
+//SCP-7088-インペラトル-4が直立姿勢をとる。//
+
+##yellow|**SCP-7088-IMPERATOR-4:** Irrelevant conversation. ##
+**SCP-7088-インペラトル-4:** 無駄な会話だ。
+
+##yellow|**Researcher Ozz:** Uh— alright. I’ll get someone to have a look for you. One minute. ##
+**オズ研究員:** あー、そうだな。おたくは誰かに見てもらおう。##red|ちょっと待っててくれ##。
+
+##yellow|**<END COMMUNICATION LOG>**##
+**<コミュニケーションログ終了>**
+[[/div]]
+
+##yellow|**10:54:** SCP-7088-IMPERATOR-4 begins to act in an agitated manner due to its belief of the literal nature of “one minute”. It is informed otherwise. ##
+**10:54:** SCP-7088-インペラトル-4が動揺して行動し始める。これは##red|「ちょっと」の文字通りの意味を信じたため##であり、そうでないことを知らされる。
+
+##yellow|At this time, a Site-wide announcement is made requesting any staff recently in contact with SCP-7088 to come forward with any possessions that they may have collected from explorations. ##
+この時点で、直近でSCP-7088と接触したあらゆる職員に対し、探索中に収集した可能性のある所有物を申し出るようサイト全体にアナウンスがなされる。
+
+##yellow|**11:02:** The instance is apologised to for the inconvenience. It begins to breathe heavily. ##
+**11:02:** 当該実例が不便に関して謝罪を受け、大きく息をつき始める。
+
+##yellow|**11:10:** Junior Researcher Greenfield notifies Site Management of a small coin lodged within the sole of his boot that he believes to have come from a recently explored knuckerhole. The object is an 1397 [[[https://en.m.wikipedia.org/wiki/Saint_George_and_the_Dragon|St George]]] golden coin no longer in circulation and is thus determined to be SCP-7088 “wares”. F. Ozz swiftly grabs the coin and rushes to the Site entrance. ##
+**11:10:** グリーンフィールド下位研究員がブーツの底に最近探索されたナッカーホールに由来すると思われる小型の貨幣を発見し、サイト管理者に報告する。貨幣は最早流通していない1937年の[[[https://ja.wikipedia.org/wiki/%E8%81%96%E3%82%B2%E3%82%AA%E3%83%AB%E3%82%AE%E3%82%AA%E3%82%B9%E3%81%A8%E7%AB%9C|聖ゲオルギウス]]]の金貨であり、SCP-7088の「品」として断定される。F・オズが素早く金貨を手に取り、サイトのエントランスへ急行する。
+
+##yellow|**11:19:** The instance grows restless and scales the boundary fence. As lockdown protocol is about to be instigated, Ozz arrives. ##
+**11:19:** 当該実例が落ち着きを失い、境界フェンスを乗り越える。ロックダウンプロトコルが発動されようとした際、オズが到着する。
+
+[[div class="blockquote"]]
+##yellow|**<BEGIN COMMUNICATION LOG>**##
+**<コミュニケーションログ開始>**
+
+##yellow|**Researcher Ozz:** //(Out of breath)// Here you go. ##
+**オズ研究員:** //(息を切らせて)// ほら、これ。
+
+##yellow|//SCP-7088-IMPERATOR-4 inspects the coin thoroughly. It appears pleased.// ##
+//SCP-7088-インペラトル-4が徹底的に貨幣を観察する。当該実例が安堵した様子を見せる。//
+
+##yellow|**SCP-7088-IMPERATOR-4:** Thank you. For overdue payment, I expect compensation. ##
+**SCP-7088-インペラトル-4:** ありがとう。支払期限を過ぎた場合、補償を期待する。
+
+##yellow|**Researcher Ozz:** Oh. Um, give me a few minutes please. ##
+**オズ研究員:** ああ。えーと、数分時間をくれ。
+
+##yellow|**SCP-7088-IMPERATOR-4:** I agree. ##
+**SCP-7088-インペラトル-4:** よかろう。
+
+##yellow|//3 minutes later, a vehicle containing a single Gallus gallus domesticus [[footnote]] Domestic chicken [[/footnote]] arrives. The instance is gifted the animal.// ##
+//3分後、1羽の__Gallus gallus domesticus__ [[footnote]]ニワトリ[[/footnote]]を収容した乗り物が到着する。実例は##red|家禽##を与えられる。//
+
+##yellow|**SCP-7088-IMPERATOR-4:** I accept small winged beast as payment. A rare feast. ##
+**SCP-7088-インペラトル-4:** 埋め合わせとして、翼のある小さな野獣を受け取ろう。珍しいご馳走だ。
+
+##yellow|//Silence for ten seconds.// ##
+//10秒の沈黙。//
+
+##yellow|**SCP-7088-IMPERATOR-4:** Goodbye. Future dealings in the future. ##
+**SCP-7088-インペラトル-4:** さらばだ。今後もよろしく。
+
+##yellow|//The instance turns around and walks away from the Site. From the line of tall grass the remaining SCP-7088 arrive, visibly out of breath. As the Proteus draconis imperator specimen continues, they reluctantly turn and follow in its wake.// ##
+//当該実例が向きを変え、サイトから徒歩で離れていく。目に見えて息を切らしならが、背の高い草の列から残りのSCP-7088が到着する。__Proteus draconis imperator__標本が進むと、彼らは渋々向きを変えてその後を追う。//
+
+##yellow|//Several seconds pass as Ozz and security staff watch the brood leave. As an aircraft team prepares to escort the instances towards their residence, Ozz appears to be in thought.// ##
+//オズおよびセキュリティスタッフが種族の立ち去る様を眺めるまま、数秒が経過する。航空チームが実例を彼らの居住域まで誘導する準備をする中、オズが黙想にふける様子を見せる。//
+
+##yellow|**Researcher Ozz:** Hold on. Wait! ##
+**オズ研究員:** 動くな。待て！
+
+##yellow|//The specimen turns.// ##
+//標本が向きを変える。//
+
+##yellow|**SCP-7088-IMPERATOR-4:** What is reason for interruption? ##
+**SCP-7088-インペラトル-4:** 何故止める？
+
+##yellow|**Researcher Ozz:** About your use as storage, can you name anyone you’ve been involved with? ##
+**オズ研究員:** 君たちの貯蔵庫の使い方についてだ。関わったことのある人間の名前を教えてもらえるか？
+
+##yellow|**SCP-7088-IMPERATOR-4:** //(Seemingly in thought)// What is offer for information? ##
+**SCP-7088-インペラトル-4:** //(考える様子を見せる)// 情報の代わりに何を差し出す？
+
+##yellow|**Researcher Ozz:** //(Sighs)// Erm, one sec. //(Ruffling through pockets)// What about a notepad? ##
+**オズ研究員:** //(溜息)// あー。ちょい待ち。//(ポケットを漁る)//ノートパッドでどうだ？
+
+##yellow|//The specimen rubs its chin with a large clawed forefinger.// ##
+//実例は鉤爪のある第II指で顎を擦る。//
+
+##yellow|**SCP-7088-IMPERATOR-4:** More. ##
+**SCP-7088-インペラトル-4:** 足りんな。
+
+##yellow|**Researcher Ozz:** //(Enters nearby cargo vehicle)// An O₂ canister? The Mossmoor colony seemed to like thos—##
+**オズ研究員:** //(貨物車に身体をほぼ入れる)// 酸素缶は？モスムーアのコロニーはあん--　　--
+
+##yellow|**SCP-7088-IMPERATOR-4:** More please. ##
+**SCP-7088-インペラトル-4:** もっと寄越せ。
+
+##yellow|**Researcher Ozz:** //(Confused)// Uh, sure. I’ll be right back. ##
+**オズ研究員:** //(困惑)// ああ、了解。すぐ戻る。
+
+##yellow|//Ozz enters and emerges from a lookout post beside the Site entrance.// ##
+//オズがサイトのエントランスに入り、脇の見張り台から顔を出す。//
+
+##yellow|**Researcher Ozz:** A house plant? ##
+**オズ研究員:** 屋内の植物はどうだ？
+
+##yellow|**SCP-7088-IMPERATOR-4:** No thank you. ##
+**SCP-7088-インペラトル-4:** 要らん。
+
+##yellow|**Researcher Ozz:** A radio antenna? ##
+**オズ研究員:** ラジオのアンテナ？
+
+##yellow|**SCP-7088-IMPERATOR-4:** Not know what that is. ##
+**SCP-7088-インペラトル-4:** それが何かを知らん。
+
+##yellow|**Researcher Ozz:** //(Pointing to the antenna)// It’s a device used for—##
+**オズ研究員:** //(アンテナを指差す)// これは電磁波を--　　--
+
+##yellow|**SCP-7088-IMPERATOR-4:** Too little. Bigger. ##
+**SCP-7088-インペラトル-4:** 小さすぎる。大きいものを寄越せ。
+
+##yellow|**Researcher Ozz:** //(Places hands together against mouth)// You said you like sheep? ##
+**オズ研究員:** //(両手を口に当てる)// ヒツジ好きだっけ？
+
+##yellow|**SCP-7088-IMPERATOR-4:** I agree. ##
+**SCP-7088-インペラトル-4:** うむ。
+
+##yellow|**Researcher Ozz:** Stay right there. ##
+**オズ研究員:** そこで待て。
+
+##yellow|**<END COMMUNICATION LOG>**##
+**<コミュニケーションログ終了>**
+[[/div]]
+
+##yellow|**11:30:** Ozz enters Site-44’s Cryptozoological Research Wing and consults the cryptobiological management committee. CCTV monitoring systems are disabled within their primary office, though the voice of Researcher Ozz is heard to vocalise “we could just talk to it”, answered with “...the pursuit of research”. They proceed to a cryogenic storage unit before returning to the entrance. ##
+**11:30:** オズがサイト-44の未確認動物学研究棟に進入し、未確認動物学管理委員会に助言を求める。主要オフィスでは閉回路テレビ監視システムは使用不能であるが、オズ研究員の「話をしましょう」という発言、「……研究のための追跡」という返答が聞こえる。彼らは低温貯蔵ユニットに向かい、エントランスに戻る。
+
+[[div class="blockquote"]]
+##yellow|**<BEGIN COMMUNICATION LOG>**##
+**<コミュニケーションログ開始>**
+
+##yellow|**Researcher Ozz:** What do you think about this? ##
+**オズ研究員:** これ、どう思う？
+
+##yellow|//A large stasis chamber is presented, containing UAO-299.// [[footnote]] UAO-299 (Unidentified Anomalous Organism) is a deceased domestic sheep 6 metres in height, recovered from rural Wales. No further anomalous qualities were noted aside from its unusual size and tendency to create a “hissing” sound and revert to a darker colouration if touched. [[/footnote]] ##
+//UAO-299[[footnote]]UAO-299（未同定異常生物: Unidentified Anomalous Organism）は、ウェールズの田舎から回収された体高6mの死亡したヒツジである。その異常な体躯、シューという音の発生、接触されると暗く変色する傾向を除き、特筆されるさらなる異常な特性が存在しない。[[/footnote]]を収容する大型の均衡房が提示される。//
+
+##yellow|**SCP-7088-IMPERATOR-4:** //(Visibly excited)// I agree! An even rarer feast! ##
+**SCP-7088-インペラトル-4:** //(目に見えて興奮する)// 良いぞ！もっと珍しいご馳走だ！
+
+##yellow|**Researcher Ozz:** Yeah. Would you mind disclosing the information now? ##
+**オズ研究員:** そうとも。じゃ、情報を開示する気になったかな？
+
+##yellow|**SCP-7088-IMPERATOR-4:** Yes. We… help protect riches of king and queens since Henry 1st. He did not like vikings pillaging his gold. ##
+**SCP-7088-インペラトル-4:** ああ。我々は……ヘンリー1世以来、王と女王の富の守護を手伝っている。彼はバイキングに黄金を略奪されることにご愉快ではなかった。
+
+##yellow|**Researcher Ozz:** Who was the most recent figure you’ve associated with? And when I say “you” I mean Knucker-kind as a whole. ##
+**オズ研究員:** おたくらが一番最近手助けしたのは誰だ？ああ、「おたくら」っていうのはナッカー族のことだと思ってくれ。いつもそう。
+
+##yellow|**SCP-7088-IMPERATOR-4:** Victoria. Then… Black Water and deeper knuckerholes. ##
+**SCP-7088-インペラトル-4:** ヴィクトリアだ。それから……黒い水がナッカーホールの奥底まで流れ込んだ。
+
+##yellow|**Researcher Ozz:** Okay, I see. Are you in contact with other colonies often? ##
+**オズ研究員:** なるほど、分かった。他のコロニーとはよく連絡を取るのか？
+
+##yellow|**SCP-7088-IMPERATOR-4:** Occasion. We exchange and trade with other Knucker-friends. ##
+**SCP-7088-インペラトル-4:** 機会があればな。我々は他のナッカーの友人と交換や取引をする。
+
+##yellow|**Researcher Ozz:** Hmm. A—##
+**オズ研究員:** へえ。それは--　　--
+
+##yellow|**SCP-7088-IMPERATOR-4:** Actually, we in agreement with big knuckerhole in south-west, near sea. All knucker trying to raise money at the moment. ##
+**SCP-7088-インペラトル-4:** 実際、海の近く、南西の広いナッカーホールで協定を結んでいる。今、全てのナッカーが金儲けを狙ってるさ。
+
+##yellow|**Researcher Ozz:** Oh. What could you use money for? ##
+**オズ研究員:** おお。金は何に使うんだ？
+
+##yellow|**SCP-7088-IMPERATOR-4:** Top-secret bartering. //(Leans in to Ozz, resembling a whisper)// Need [[[SCP-7088|23,000,000]]] dollar. Contributions from PSC Fundation are welcome. ##
+**SCP-7088-インペラトル-4:** 最高機密の物々交換だ。//(オズに寄り添い、囁くように語りかける)// [[[SCP-7088|23,000,000]]]ドル必要だ。PSC祭壇からの寄付は歓迎するぞ。
+
+##yellow|//Researcher Ozz seems confused and appears to contemplate the statement for a moment before smiling.// ##
+//オズ研究員は困惑したようで、一瞬主張を組み立てる様子を見せた後に微笑む。//
+
+##yellow|**Researcher Ozz:** //(Laughing)// I’ll let you know if we can help. Future dealings in the future. ##
+**オズ研究員:** //(笑って)// 力になれそうなら知らせるよ。今後もよろしく。
+
+##yellow|//SCP-7088 instances proceed forward to take goods exchanged for the information. SCP-7088-IMPERATOR-4 takes AUO-299 before leaving.// ##
+//SCP-7088実例が前進し、情報と引き換えの品目を受け取る。SCP-7088-インペラトル-4がAUO-299を受け取り、立ち去る。//
+
+##yellow|**<END COMMUNICATION LOG>**##
+**<コミュニケーションログ終了>**
+[[/div]]
+##yellow|**<END LOG>**##
+**<記録終了>**
+@@ @@
+[[/div]]
+
+##yellow|Three hours after the conclusion of Incident 7088-1 and the escorted return of SCP-7088 instances, seismic activity was detected in the area. A sound resembling an explosion was audible from above-ground portions of Site-44 and video cameras stationed beside the recently interacted-with knuckerhole were violently shaken. MTF Gamma-4 (“Green Stags”) were deployed to assess the location for further anomalous activity — upon arrival, viscera was visible within the dark water. The head of SCP-7088-IMPERATOR-4 bubbled to the surface shortly after. ##
+インシデント7088-1の終了および誘導されたSCP-7088実例の帰還から3時間後、当該地域で地震活動が検知されました。爆発に類似する音がサイト-44の地上部から聞こえ、直近の関連するナッカーホール近傍に設置されたビデオカメラは激しく振動しました。機動部隊ガンマ-4 ("緑の牡鹿") がさらなる異常活動を鑑み現場を評価するため配備されました。到着に際し暗い水の中に内臓が視認され、直後にSCP-7088-インペラトル-4の頭部が浮上しました。
+
+##yellow|Foundation cryptozoologists soon retrieved the mostly intact head to Site-44, where it can now be located, frozen, in the former position of UAO-299. F. Ozz, Junior Researcher Greenfield and the cryptobiological management committee have been temporarily reprimanded for their insubordination of “St. George Protocol” despite its assistance in SCP-7088 research. ##
+直後に財団の未確認動物学者がほぼ無傷の頭部をサイト-44に回収し、現在はかつてUAO-299が収容されていた位置に凍結保存しています。F・オズとグリーンフィールド下位研究員および未確認動物学管理委員会はSCP-7088の研究に貢献しましたが、「聖ゲオルギウス・プロトコル」に違反したため一時的な懲戒を受けました。
+
+[[footnoteblock]]
+
+**付与予定タグ:** en フラグメント
+
+[[collapsible show="+ 記事のタグ、画像ライセンスなど" hide="- 隠す"]]
+**付与予定タグ:** en scp euclid 生命 動物 水棲 交換 卵生 知性 種族 地下 テレパシー
+
+[[div class="blockquote"]]
+**ソース:** [[[https://scp-wiki.wikidot.com/SCP-7088|SCP-7088]]]
+**リビジョン:** 5
+**著者:** [[*user OzzyLizard]]
+**作成年:** 2022
+**最終更新日:** 2022/10/02
+**Rate:** 23
+**タグ:** alive animal aquatic euclid exchange omnivorous sapient scp species subterranean telepathic
+[[/div]]
+
+[[div class="blockquote"]]
+
+**ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7450069-120-g8n8 CryptozoologyDivision2]
+
+**ソース:** http://scp-sandbox-3.wdfiles.com/local--files/ozzylizard-2/CryptozoologyDivision2.png
+**ライセンス:** CC BY-SA 3.0
+
+**タイトル:** CryptozoologyDivision2
+**著作権者:** [[*user OzzyLizard]]
+**公開年:** 2022
+**補足:**
+[[[*https://scp-wiki.wikidot.com/cryptozoology-division-hub|Cryptozoology Division Hub]]]のDiscussionにて、[[*user OzzyLizard]]が black highlighter Foundation insignia を元に作成したことが明記されている。
+
+[[/div]]
+
+[[div class="blockquote"]]
+
+**ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7450069-117-u8f8 7088 Knucker]
+
+**ソース:** https://commons.wikimedia.org/wiki/File:Prot%C3%A9e_aveugle.jpg
+**ライセンス:** パブリックドメイン/CC0
+
+**タイトル:** Knucker
+**著作権者:** Gaston Bonnier
+**公開年:** 1907
+**補足:**
+
+[[/div]]
+
+[[div class="blockquote"]]
+
+**ファイルページ:** [*http://scp-jp-storage.wikidot.com/file:7450069-118-ojji 7088 Fossil]
+
+**ソース:** https://commons.wikimedia.org/wiki/File:Alligator_prenasalis_(specimen_AMNH_4994)_-20120521-RM-224539.jpg
+**ライセンス:** CC BY-SA 4.0
+
+**タイトル:**
+**著作権者:** Reinhold Möller
+**公開年:** 2021
+**補足:**
+
+[[/div]]
+
+[[/collapsible]]

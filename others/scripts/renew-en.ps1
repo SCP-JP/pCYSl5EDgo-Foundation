@@ -25,6 +25,5 @@ if ($line[0] -eq '-'){
 }
 }
 $x > $filePath;
-$x > $filePath;
-./SCP.exe page multi-download JP "../${filePath}" -w ./en > $args[1]
-./SCP.exe page multi-download EN "../${filePath}" -w ./en-o > $args[2]
+./SCP.exe page multi-download JP "../${filePath}" -w ./en > "./${filePath}.jp"
+./SCP.exe page multi-download EN "../${filePath}" -w ./en-o > "./${filePath}.en"
